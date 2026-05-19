@@ -397,6 +397,28 @@ class V2VisionEngine:
                 for f in sorted(dim_groups[dim]):
                     index_md += f"- **[{data[f]['title']}](./{f})**\n"
         
+        index_md += (
+            "\n***\n\n"
+            "## 💎 The Maturity Taxonomy\n\n"
+            "To ensure industrial-grade precision, every resource in V2 is classified using our proprietary 5-tier maturity system:\n\n"
+            "| Tag | Description | Engineering Context |\n"
+            "| :--- | :--- | :--- |\n"
+            "| **`[DE FACTO STANDARD]`** | The industry baseline. | Tools like Kubernetes, Terraform, or Prometheus that define the current architecture. |\n"
+            "| **`[ENTERPRISE-STABLE]`** | Battle-tested and reliable. | Proven solutions with strong community and commercial support. |\n"
+            "| **`[EMERGING]`** | The cutting edge. | High-potential tools and patterns (e.g., AI Agents, MCP) shaping the future. |\n"
+            "| **`[GUIDE]`** | Strategic knowledge. | High-quality tutorials, architectural deep-dives, and decision matrices. |\n"
+            "| **`[LEGACY]`** | Historical context. | Established tools that are being replaced or are primarily for maintaining older stacks. |\n\n"
+            "## 🌟 Technical Impact (Relevance Score)\n\n"
+            "The stars accompanying each resource represent its **Technical Impact** and **Architectural Relevance** for a 2026 Senior Architect:\n\n"
+            "| Impact | Level | Meaning | Visual Code |\n"
+            "| :---: | :--- | :--- | :--- |\n"
+            "| 🌟🌟🌟🌟🌟 | **Platinum Standard** | Critical industry foundation. Essential knowledge for any Cloud Native architecture. | `==[Highlighted Link]==` |\n"
+            "| 🌟🌟🌟🌟 | **Gold Standard** | Highly recommended. Proven value and significant community/enterprise momentum. | `**[Bold Link]**` |\n"
+            "| 🌟🌟🌟 | **Silver Standard** | Solid technical reference. Useful for specific use cases or established patterns. | Standard Link |\n"
+            "| 🌟🌟 | **Bronze Standard** | Interesting alternative or niche tool. Good to have in the toolkit for specific scenarios. | Standard Link |\n"
+            "| 🌟 | **Reference Only** | Basic documentation or historical reference without major current impact. | Standard Link |\n"
+        )
+        
         with open(os.path.join(V2_DIR, "index.md"), "w") as f: f.write(index_md)
 
         async def render_node(node, depth, base_slug, is_intro=False):

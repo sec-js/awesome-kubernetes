@@ -199,3 +199,29 @@
 - **[Openshift](./openshift.md)**
 - **[Rancher](./rancher.md)**
 - **[Serverless](./serverless.md)**
+
+***
+
+## 💎 The Maturity Taxonomy
+
+To ensure industrial-grade precision, every resource in V2 is classified using our proprietary 5-tier maturity system:
+
+| Tag | Description | Engineering Context |
+| :--- | :--- | :--- |
+| **`[DE FACTO STANDARD]`** | The industry baseline. | Tools like Kubernetes, Terraform, or Prometheus that define the current architecture. |
+| **`[ENTERPRISE-STABLE]`** | Battle-tested and reliable. | Proven solutions with strong community and commercial support. |
+| **`[EMERGING]`** | The cutting edge. | High-potential tools and patterns (e.g., AI Agents, MCP) shaping the future. |
+| **`[GUIDE]`** | Strategic knowledge. | High-quality tutorials, architectural deep-dives, and decision matrices. |
+| **`[LEGACY]`** | Historical context. | Established tools that are being replaced or are primarily for maintaining older stacks. |
+
+## 🌟 Technical Impact (Relevance Score)
+
+The stars accompanying each resource represent its **Technical Impact** and **Architectural Relevance** for a 2026 Senior Architect:
+
+| Impact | Level | Meaning | Visual Code |
+| :---: | :--- | :--- | :--- |
+| 🌟🌟🌟🌟🌟 | **Platinum Standard** | Critical industry foundation. Essential knowledge for any Cloud Native architecture. | `==[Highlighted Link]==` |
+| 🌟🌟🌟🌟 | **Gold Standard** | Highly recommended. Proven value and significant community/enterprise momentum. | `**[Bold Link]**` |
+| 🌟🌟🌟 | **Silver Standard** | Solid technical reference. Useful for specific use cases or established patterns. | Standard Link |
+| 🌟🌟 | **Bronze Standard** | Interesting alternative or niche tool. Good to have in the toolkit for specific scenarios. | Standard Link |
+| 🌟 | **Reference Only** | Basic documentation or historical reference without major current impact. | Standard Link |
