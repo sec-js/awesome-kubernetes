@@ -581,18 +581,31 @@ For large-scale repository automation, Nubenetes prioritizes the **Pay-As-You-Go
 ### 7.5. Agentic Data Flow
 ```mermaid
 graph TD
-    AC["Agentic Curator"] -->|"Canonical Normalization"| DB[("Unified DB")]
-    LC["Link Cleaner"] -->|"Health and Metadata<br/>Enrichment"| DB
-    V2["V2 Vision Engine"] -->|"Elite Selection and<br/>Maturity Evolution"| DB
-    
-    DB -->|"Metadata Sync"| V1["V1 Archive: docs/"]
-    DB -->|"Trending:<br/>The Agentic Pulse"| V2P["V2 Portal: v2-docs/"]
-    
+    subgraph Discovery
+        AC["Agentic Curator"]
+    end
+
+    subgraph "Agentic Tiering (Multi-Agent)"
+        AA["Analyst Agent (Flash)"]
+        AV["Auditor Agent (Pro)"]
+        MCP[["MCP Grounding (Search)"]]
+    end
+
+    AC -->|"Raw Discovery"| AA
+    AA -->|"Initial Classification"| AV
+    AV <-->|"Deep Context Search"| MCP
+    AV -->|"Verified Metadata"| DB[("Unified DB")]
+
+    LC["Link Cleaner"] -->|"Health Sync"| DB
+    V2["V2 Optimizer"] -->|"Elite Selection"| DB
+
+    DB -->|"Indented Summary"| V1["V1 Archive"]
+    DB -->|"Expandable Deep-Dive"| V2P["V2 Portal"]
+
     subgraph Local Storage
         DB1["inventory.yaml"]
     end
 ```
-
 ### 7.6. Strategic Benefits
 - **Incremental Self-Correction**: Reparation of historical precision errors.
 - **Content-URL Precision Standard (Mandate 31)**: AI detects generic redirects and triggers the Rescue Protocol.
@@ -695,7 +708,9 @@ graph TD
 ```mermaid
 sequenceDiagram
     participant X as X.com and Sources
-    participant G as Gemini Agent
+    participant GA as Analyst Agent (Flash)
+    participant GV as Auditor Agent (Pro)
+    participant MCP as MCP Grounding (Search)
     participant W1 as [1] Agentic Curation
     participant W2 as [2] V2 Elite Builder
     participant W3 as [5] README Sync
@@ -705,10 +720,18 @@ sequenceDiagram
 
     W1->>X: Extract Raw Data
     X-->>W1: Raw JSON/MD
-    W1->>G: Evaluate and Score Assets
-    G-->>W1: Scored and Categorized Assets
+    W1->>GA: Initial Evaluation (Analyst)
+    GA->>W1: Preliminary Scored Assets
     W1->>R: Update docs/*.md (V1)
-    Note over R: V2 Builder Triggered (Surgical Path Filter)...
+    
+    Note over R: V2 Builder Triggered...
+    W2->>GA: Broad Classification (Analyst)
+    GA-->>W2: Initial Hierarchy & Summary
+    W2->>GV: Verify High-Impact (Auditor)
+    GV->>MCP: Real-time Grounding Search
+    MCP-->>GV: Live Context & Reputation
+    GV-->>W2: Verified Elite Summary & Tags
+    
     W2->>R: Update v2-docs/ (Elite)
     R->>W3: Trigger README Sync
     W3->>R: Update Metrics and TOC
