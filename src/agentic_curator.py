@@ -121,13 +121,15 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             "- If the community (Reddit, Hacker News) reports the tool as 'unstable', 'abandoned', or 'vaporware', set reputation_penalty: true.\n"
             "PHASE 2: LINGUISTIC DIVERSITY & CLASSIFICATION\n"
             "- Identify TECHNICAL_HIERARCHY: List (max 10 strings) Area > Topic > Subtopics.\n"
-            "Respond ONLY JSON list: [{\"url\": \"...\", \"impact_score\": int, \"reputation_penalty\": bool, \"reputation_summary\": \"...\", \"pub_date\": \"YYYY-MM-DD\", \"primary_category\": \"...\", \"title\": \"...\", \"desc\": \"...\", \"en_summary\": \"...\", \"language\": \"...\", \"type\": \"...\", \"level\": \"...\", \"technical_hierarchy\": [...], \"is_microservice\": bool}, ...]\n\n"
+            "PHASE 3: MULTI-DIMENSIONAL TAGGING\n"
+            "- Assign 1 to 3 tags from: [DE FACTO STANDARD], [ENTERPRISE-STABLE], [EMERGING], [GUIDE], [CASE STUDY], [COMMUNITY-TOOL], [LEGACY].\n"
+            "Respond ONLY JSON list: [{\"url\": \"...\", \"impact_score\": int, \"reputation_penalty\": bool, \"reputation_summary\": \"...\", \"pub_date\": \"YYYY-MM-DD\", \"primary_category\": \"...\", \"title\": \"...\", \"desc\": \"...\", \"en_summary\": \"...\", \"language\": \"...\", \"type\": \"...\", \"level\": \"...\", \"technical_hierarchy\": [...], \"tags\": [...], \"is_microservice\": bool}, ...]\n\n"
             "RESOURCES:\n" + "\n".join([f"- {d['asset']['url']}: (MVQ Penalty: {d['mvq_penalty']}) {d['content']}" for d in batch_data])
         )
 
         try:
             # ENABLE GROUNDING FOR REPUTATION FILTER
-            results = await call_gemini_with_retry(prompt, use_grounding=True)
+            results = await call_gemini_with_retry(prompt, use_grounding=True, role="Curator")
             if isinstance(results, list):
                 res_map = {normalize_url(r.get("url", "")): r for r in results}
                 for d in batch_data:
@@ -145,7 +147,7 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                             "title": data["title"], "description": data["desc"], "ai_summary": data.get("en_summary", data["desc"]),
                             "language": data.get("language", "English"), "resource_type": data.get("type", "Reference"),
                             "complexity": data.get("level", "Intermediate"), "hierarchy": data.get("technical_hierarchy", ["General"]),
-                            "is_microservice": data.get("is_microservice", False), "year": data.get("pub_date", "N/A")[:4],
+                            "tags": data.get("tags", []), "is_microservice": data.get("is_microservice", False), "year": data.get("pub_date", "N/A")[:4],
                             "stars": min(max(score // 20, 0), 5), "content_hash": d["hash"],
                             "reputation_status": "Vetted" if not data.get("reputation_penalty") else "Suspicious",
                             "reputation_summary": data.get("reputation_summary", ""),

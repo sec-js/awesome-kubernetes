@@ -47,6 +47,8 @@ class V2VisionEngine:
             "- Order hierarchy to facilitate a structured learning journey.\n"
             "PHASE 4: MANDATORY DESCRIPTIONS\n"
             "- If 'Current Desc' is empty, generate a professional summary. Style: O'Reilly technical.\n"
+            "PHASE 5: ADVANCED MATURITY TAGGING\n"
+            "- Assign 1 to 3 tags from: [DE FACTO STANDARD], [ENTERPRISE-STABLE], [EMERGING], [GUIDE], [CASE STUDY], [COMMUNITY-TOOL], [LEGACY].\n"
         )
         self.inventory = self._load_inventory()
         self.maturity_audit = []
@@ -197,6 +199,7 @@ class V2VisionEngine:
         enrich_metadata = os.getenv("ENRICH_METADATA", "false").lower() == "true"
         special_files = [sa["file"] for sa in self.special_assets_rules.get("special_assets", [])]
 
+        # Mandate 15: Proactive Enrichment for V2 (GitHub metadata is critical for tags)
         for l in links:
             item = l.copy()
             norm_url = normalize_url(l["url"])
@@ -208,15 +211,16 @@ class V2VisionEngine:
                 match = re.search(r'github\.com/([^/]+/[^/]+)', norm_url)
                 if match: project_id = match.group(1).lower()
 
-            # Mandate 15: If enrichment is ON and gh_metadata is missing, we must fetch it
-            if enrich_metadata and "github.com" in norm_url:
-                cached = self.inventory.get(norm_url, {})
-                if not cached.get("gh_stars"):
-                    log_event(f"  [METADATA] Enrichment: Fetching GH Activity for {norm_url}")
+            # Mandate 43: Always ensure GH metadata for GitHub links in V2 to power [DE FACTO STANDARD] logic
+            cached = self.inventory.get(norm_url, {})
+            if "github.com" in norm_url and (enrich_metadata or not cached.get("gh_stars")):
+                if not cached.get("gh_stars") or enrich_metadata:
+                    log_event(f"  [METADATA] V2 Pulse: Fetching GH Activity for {norm_url}")
                     gh_data = await get_github_activity(norm_url)
                     if gh_data:
                         if norm_url not in self.inventory: self.inventory[norm_url] = {}
                         self.inventory[norm_url].update(gh_data)
+                        item.update(gh_data)
 
             if not force_eval and norm_url in self.inventory and "stars" in self.inventory[norm_url]:
                 cached = self.inventory[norm_url]
@@ -238,67 +242,152 @@ class V2VisionEngine:
             to_evaluate.append(item)
 
         if to_evaluate:
-            for i in range(0, len(to_evaluate), 50):
-                batch = to_evaluate[i:i+50]
-                prompt = (f"{self.library_criteria}\nRespond ONLY JSON: {{\"results\": [{{ \"idx\": int, \"year\": \"YYYY\", \"stars\": 0-5, \"hierarchy\": [\"Area\", \"Topic\", ...], \"summary\": \"...\", \"language\": \"...\", \"type\": \"...\", \"complexity\": \"...\", \"is_microservice\": bool }}, ...]}}\n\nLINKS:\n" + 
-                          "\n".join([f"{idx}. {l['title']} ({l['url']})" for idx, l in enumerate(batch)]))
+            # Mandate 32 & 40: Smaller batches (10) for high-precision tagging and grounding efficiency
+            BATCH_SIZE = 10
+            from src.mandate_ingestor import get_system_mandates
+            dynamic_mandates = get_system_mandates()
+
+            log_event(f"[*] Agent Phase 1: Analyst Evaluation ({len(to_evaluate)} resources)...")
+            analyst_results = []
+            for i in range(0, len(to_evaluate), BATCH_SIZE):
+                batch = to_evaluate[i:i+BATCH_SIZE]
+                
+                # Analyst Prompt (Focus: Classification & Summary)
+                prompt = (
+                    f"You are the Nubenetes Technical Analyst (2026).\n"
+                    f"{dynamic_mandates}\n"
+                    f"{self.library_criteria}\n"
+                    "PHASE 5: INITIAL TAGGING\n"
+                    "- Assign 1 to 3 preliminary tags.\n"
+                    "Respond ONLY JSON: {{\"results\": [{{ \"idx\": int, \"year\": \"YYYY\", \"stars\": 0-5, \"hierarchy\": [\"Area\", \"Topic\", ...], \"tags\": [\"...\"], \"summary\": \"...\", \"language\": \"...\", \"type\": \"...\", \"complexity\": \"...\", \"is_microservice\": bool }}, ...]}}\n\n"
+                    "LINKS:\n" + "\n".join([f"{idx}. {l['title']} ({l['url']})" for idx, l in enumerate(batch)])
+                )
                 try:
-                    # ENABLE GROUNDING FOR V2 (High-Density Accuracy)
-                    data = await call_gemini_with_retry(prompt, prefer_flash=True, use_grounding=True)
+                    data = await call_gemini_with_retry(prompt, prefer_flash=True, use_grounding=True, role="Analyst")
                     for res in data.get("results", []):
                         idx = int(res["idx"])
                         if idx < len(batch):
                             item = batch[idx].copy()
-                            norm_url = normalize_url(item["url"])
-                            p_id = norm_url
-                            if "github.com" in norm_url:
-                                m = re.search(r'github\.com/([^/]+/[^/]+)', norm_url)
-                                if m: p_id = m.group(1).lower()
                             eval_data = {
                                 "year": str(res.get("year", "N/A")), "stars": min(max(int(res.get("stars", 0)), 0), 5),
                                 "ai_summary": res.get("summary", ""), "language": res.get("language", "English"),
                                 "resource_type": res.get("type", "Reference"), "complexity": res.get("complexity", "Intermediate"),
-                                "hierarchy": res.get("hierarchy", ["General"]), "is_microservice": bool(res.get("is_microservice", False)),
+                                "hierarchy": res.get("hierarchy", ["General"]), "tags": res.get("tags", []),
+                                "is_microservice": bool(res.get("is_microservice", False)),
                                 "status": "online", "is_special": item.get("is_special", False)
                             }
                             item.update(eval_data)
-                            self.inventory[norm_url] = eval_data
-                            self.inventory[norm_url]["title"] = item["title"]
-                            if p_id not in project_registry or item["stars"] > project_registry[p_id].get("stars", 0):
-                                if p_id in project_registry and project_registry[p_id].get("is_special"): item["is_special"] = True
-                                project_registry[p_id] = item
+                            analyst_results.append(item)
                 except: 
-                    for l in batch:
-                        u = normalize_url(l["url"])
-                        if u not in project_registry: project_registry[u] = l
+                    for l in batch: analyst_results.append(l)
                 await asyncio.sleep(0.3)
+
+            # --- AGENT PHASE 2: SELECTIVE AUDIT (MCP-Grounded) ---
+            # Identify candidates for high-trust verification
+            audit_candidates = [l for l in analyst_results if "[DE FACTO STANDARD]" in l.get("tags", []) or "[ENTERPRISE-STABLE]" in l.get("tags", [])]
+            
+            if audit_candidates:
+                log_event(f"[*] Agent Phase 2: Auditor Verification ({len(audit_candidates)} high-impact candidates)...")
+                # AUDIT BATCH: Very small for max grounding precision
+                for i in range(0, len(audit_candidates), 5):
+                    batch = audit_candidates[i:i+5]
+                    audit_prompt = (
+                        f"You are the Nubenetes Auditor (2026).\n"
+                        f"{dynamic_mandates}\n"
+                        "MISSION: Verify the 'Elite' status of these resources using your GOOGLE_SEARCH tool.\n"
+                        "CRITERIA:\n"
+                        "- [DE FACTO STANDARD]: Industry baseline, used by everyone (e.g. K8s, Terraform).\n"
+                        "- [ENTERPRISE-STABLE]: Proven, high-trust, supported (e.g. ArgoCD, Linkerd).\n"
+                        "- REPUTATION: Check Reddit/Hacker News for stability or abandonment reports.\n"
+                        "Respond ONLY JSON: {{\"audits\": [{{ \"idx\": int, \"verified_tags\": [\"...\"], \"reputation_summary\": \"...\", \"reputation_penalty\": bool }}, ...]}}\n\n"
+                        "RESOURCES TO AUDIT:\n" + "\n".join([f"{idx}. {l['title']} ({l['url']}) - Proposed: {l.get('tags')}" for idx, l in enumerate(batch)])
+                    )
+                    try:
+                        # AUDIT USES PRO MODEL (High Reasoning) + GROUNDING (Live Data)
+                        audit_data = await call_gemini_with_retry(audit_prompt, prefer_flash=False, use_grounding=True, role="Auditor")
+                        for aud in audit_data.get("audits", []):
+                            idx = int(aud["idx"])
+                            if idx < len(batch):
+                                url = batch[idx]["url"]
+                                # Update tags and add reputation metadata (Mandate 32/33)
+                                batch[idx]["tags"] = aud.get("verified_tags", batch[idx]["tags"])
+                                batch[idx]["reputation_summary"] = aud.get("reputation_summary", "")
+                                if aud.get("reputation_penalty"):
+                                    batch[idx]["stars"] = max(batch[idx].get("stars", 1) - 1, 1)
+                                    if "[DE FACTO STANDARD]" in batch[idx]["tags"]: batch[idx]["tags"].remove("[DE FACTO STANDARD]")
+                    except: pass
+                    await asyncio.sleep(0.5)
+
+            # Finalize Registry
+            for item in analyst_results:
+                norm_url = normalize_url(item["url"])
+                p_id = norm_url
+                if "github.com" in norm_url:
+                    m = re.search(r'github\.com/([^/]+/[^/]+)', norm_url)
+                    if m: p_id = m.group(1).lower()
+                
+                # Persist to inventory
+                self.inventory[norm_url] = {k:v for k,v in item.items() if k not in ["url", "title", "original_file", "is_special", "aliases"]}
+                self.inventory[norm_url]["title"] = item["title"]
+                
+                if p_id not in project_registry or item.get("stars", 0) > project_registry[p_id].get("stars", 0):
+                    if p_id in project_registry and project_registry[p_id].get("is_special"): item["is_special"] = True
+                    project_registry[p_id] = item
+
         return list(project_registry.values())
 
     def _calculate_tags(self, item: Dict) -> List[str]:
-        tags = []
+        """
+        Mandate 40: Multi-Dimensional Tagging (1:N).
+        Merges AI-assigned tags with rule-based maturity signals to ensure high-fidelity classification.
+        Utilizes MCP-style grounding data (GitHub stars, resource types) to override generic defaults.
+        """
+        # 0. Collect all possible tag sources
+        ai_tags = item.get("tags", [])
+        if isinstance(ai_tags, str): ai_tags = [ai_tags] # Resiliency
+        
+        valid_set = {"[DE FACTO STANDARD]", "[ENTERPRISE-STABLE]", "[EMERGING]", "[GUIDE]", "[CASE STUDY]", "[COMMUNITY-TOOL]", "[LEGACY]"}
+        
+        # Start with filtered AI tags
+        tags = set([t for t in ai_tags if t in valid_set])
+        
+        # 1. GitHub Objective Reality (Mandate 43)
         raw_gh = item.get("gh_stars", 0)
         gh_stars = int(raw_gh) if str(raw_gh).isdigit() else 0
-        curator_stars = item.get("stars", 0)
-        res_type = item.get("resource_type", "Reference").lower()
-        
-        # 1. Maturity Logic (GitHub based OR curator based)
+        curator_stars = int(item.get("stars", 0))
+
         if gh_stars > 15000 or curator_stars >= 5: 
-            tags.append("[DE FACTO STANDARD]")
+            tags.add("[DE FACTO STANDARD]")
+            if "[COMMUNITY-TOOL]" in tags: tags.remove("[COMMUNITY-TOOL]")
         elif gh_stars > 3000 or curator_stars >= 4: 
-            tags.append("[ENTERPRISE-STABLE]")
+            tags.add("[ENTERPRISE-STABLE]")
+            if "[COMMUNITY-TOOL]" in tags: tags.remove("[COMMUNITY-TOOL]")
         
-        # 2. Type Mapping (AI based)
-        if "guide" in res_type or "tutorial" in res_type: tags.append("[GUIDE]")
-        if "case study" in res_type or "report" in res_type: tags.append("[CASE STUDY]")
+        # 2. Type Mapping (AI based labels)
+        res_type = item.get("resource_type", "Reference").lower()
+        if any(x in res_type for x in ["guide", "tutorial", "hands-on", "learning", "course"]): 
+            tags.add("[GUIDE]")
+        if any(x in res_type for x in ["case study", "report", "whitepaper", "success story", "usage"]): 
+            tags.add("[CASE STUDY]")
         
         # 3. Emerging / Legacy logic
-        if item.get("complexity") == "Cutting Edge" or "emerging" in item.get("ai_summary", "").lower():
-            tags.append("[EMERGING]")
+        ai_summary = item.get("ai_summary", "").lower()
+        complexity = item.get("complexity", "Intermediate")
+        if complexity == "Cutting Edge" or "emerging" in ai_summary or "experimental" in ai_summary or "alpha" in ai_summary:
+            tags.add("[EMERGING]")
+        if "legacy" in ai_summary or "deprecated" in ai_summary or "archived" in ai_summary or "v1-only" in ai_summary:
+            tags.add("[LEGACY]")
+
+        # 4. Fallback: Only use [COMMUNITY-TOOL] if no other maturity tag is present
+        maturity_tags = {"[DE FACTO STANDARD]", "[ENTERPRISE-STABLE]", "[EMERGING]", "[LEGACY]"}
+        if not (tags & maturity_tags):
+            tags.add("[COMMUNITY-TOOL]")
         
-        # Fallback
-        if not tags: tags.append("[COMMUNITY-TOOL]")
-        
-        return tags
+        # Clean up: If we have high maturity, remove community-tool
+        if (tags & {"[DE FACTO STANDARD]", "[ENTERPRISE-STABLE]"}) and "[COMMUNITY-TOOL]" in tags:
+            tags.remove("[COMMUNITY-TOOL]")
+
+        return sorted(list(tags))
 
     async def _rebuild_structure(self, library_inventory: List[Dict]):
         special_rules = {sa["file"]: sa for sa in self.special_assets_rules.get("special_assets", [])}

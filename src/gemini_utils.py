@@ -33,9 +33,13 @@ class GeminiSessionTracker:
         self.cache_hits += 1
         self.est_tokens_saved += est_tokens
 
-    def track_call(self, key_idx: int, model: str, status: int, usage: Dict = None):
+    def track_call(self, key_idx: int, model: str, status: int, usage: Dict = None, role: str = "General"):
         if status == 200:
             self.model_usage[model] = self.model_usage.get(model, 0) + 1
+            # Track by Role for Agentic Observability
+            self.key_stats[key_idx].setdefault("roles", {})
+            self.key_stats[key_idx]["roles"][role] = self.key_stats[key_idx]["roles"].get(role, 0) + 1
+            
             if usage:
                 self.total_tokens_prompt += usage.get("promptTokenCount", 0)
                 self.total_tokens_completion += usage.get("candidatesTokenCount", 0)
@@ -48,13 +52,23 @@ class GeminiSessionTracker:
 
     def get_intelligence_report(self) -> str:
         report = "\n### 🧠 AI Intelligence & Observability Report\n\n"
-        report += "#### 🤖 Model Selection Logic (Dynamic)\n"
-        report += f"Execution started with discovery of top models based on May 2026 hierarchy.\n\n"
+        report += "#### 🤖 Agentic Roles & Model Selection (Dynamic)\n"
+        report += f"Execution utilized a multi-agent Analyst-Auditor workflow for maximum robustness.\n\n"
         
+        report += "| Agent Role | Model Used | Successes |\n| :--- | :--- | :---: |\n"
+        role_stats = {}
+        for idx, stats in self.key_stats.items():
+            for role, count in stats.get("roles", {}).items():
+                role_stats[role] = role_stats.get(role, 0) + count
+        
+        for role, count in role_stats.items():
+            report += f"| **{role}** | Dynamic Selection | **{count}** |\n"
+        
+        report += "\n#### 🤖 Model Performance Matrix\n"
         report += "| Model Used | Successful Calls | Hierarchy Logic |\n| :--- | :---: | :--- |\n"
         usage_items = sorted(self.model_usage.items(), key=lambda x: x[1], reverse=True)
         for model, count in usage_items:
-            logic = "Elite/Pro (Complex Reasoning)" if "pro" in model else "Flash/Lite (High Speed)"
+            logic = "Elite Auditor (High Reasoning)" if "pro" in model else "Fast Analyst (High Speed)"
             report += f"| `{model}` | **{count}** | {logic} |\n"
         if not self.model_usage: report += "| No AI calls | 0 | N/A |\n"
         
@@ -252,7 +266,7 @@ def normalize_url(url: str) -> str:
 def is_fuzzy_duplicate(url_a: str, url_b: str) -> bool:
     return normalize_url(url_a) == normalize_url(url_b)
 
-async def call_gemini_with_retry(prompt: str, response_format: str = "json", max_retries: int = 3, prefer_flash: bool = False, use_grounding: bool = False):
+async def call_gemini_with_retry(prompt: str, response_format: str = "json", max_retries: int = 3, prefer_flash: bool = False, use_grounding: bool = False, role: str = "General"):
     global CURRENT_KEY_INDEX, GLOBAL_COOLDOWN_UNTIL
     if not GEMINI_API_KEYS: raise ValueError("No GEMINI_API_KEYS configured.")
     
@@ -297,7 +311,7 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                             except: pass
                             
                             usage = resp_json.get("usageMetadata", {})
-                            SESSION_TRACKER.track_call(current_idx, model, response.status_code, usage)
+                            SESSION_TRACKER.track_call(current_idx, model, response.status_code, usage, role=role)
                             
                             if response.status_code == 200:
                                 CURRENT_KEY_INDEX = current_idx
@@ -349,7 +363,7 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                                 break 
                                 
                         except Exception as e:
-                            SESSION_TRACKER.track_call(current_idx, model, 0, {})
+                            SESSION_TRACKER.track_call(current_idx, model, 0, {}, role=role)
                             diagnostics.add_attempt(model, 0, str(e))
                             break 
         
