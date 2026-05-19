@@ -408,6 +408,11 @@ class V2VisionEngine:
                             
                         md += f"  - {year_prefix}[{link_text}]({l['url']}){icon}{gh_info}{lang_tag}{level_tag}{type_tag}{rich} {'🌟'*raw_stars}{tag_html}\n"
                         if l.get('ai_summary'): md += f"\n      {l['ai_summary']}\n\n"
+                
+                # Add Semantic "See Also" for related categories within the same Dimension
+                related = [f"[{data[f]['title']}](./{f})" for f in data if f != f_name and data[f]["dim"] == info["dim"]]
+                if related:
+                    md += f"\n***\n💡 **Explore Related:** {' | '.join(related[:3])}\n\n"
             return md
 
         for f_name, info in data.items():
