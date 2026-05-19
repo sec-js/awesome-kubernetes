@@ -265,12 +265,16 @@ class V2VisionEngine:
 
     def _calculate_tags(self, item: Dict) -> List[str]:
         tags = []
-        gh_stars = item.get("gh_stars", 0)
+        raw_gh = item.get("gh_stars", 0)
+        gh_stars = int(raw_gh) if str(raw_gh).isdigit() else 0
+        curator_stars = item.get("stars", 0)
         res_type = item.get("resource_type", "Reference").lower()
         
-        # 1. Maturity Logic (GitHub based)
-        if gh_stars > 15000: tags.append("[DE FACTO STANDARD]")
-        elif gh_stars > 3000: tags.append("[ENTERPRISE-STABLE]")
+        # 1. Maturity Logic (GitHub based OR curator based)
+        if gh_stars > 15000 or curator_stars >= 5: 
+            tags.append("[DE FACTO STANDARD]")
+        elif gh_stars > 3000 or curator_stars >= 4: 
+            tags.append("[ENTERPRISE-STABLE]")
         
         # 2. Type Mapping (AI based)
         if "guide" in res_type or "tutorial" in res_type: tags.append("[GUIDE]")
@@ -287,7 +291,6 @@ class V2VisionEngine:
 
     async def _rebuild_structure(self, library_inventory: List[Dict]):
         special_rules = {sa["file"]: sa for sa in self.special_assets_rules.get("special_assets", [])}
-        # Change: Map by original file for high granularity
         v2_structure = {} 
         
         file_to_dim = {f + ".md": dim for dim, files in self.dimensions.items() for f in files}
@@ -296,8 +299,27 @@ class V2VisionEngine:
             # Calculate multi-tags
             item["tags"] = self._calculate_tags(item)
             
+            # Mandate: Persist tags back to inventory for reporting & caching
+            norm_url = normalize_url(item["url"])
             orig_file = item.get("original_file", "unknown.md")
+            if norm_url in self.inventory:
+                self.inventory[norm_url]["tags"] = item["tags"]
+                # Track V2 locations for reporting (Mandate 22)
+                v2_locs = self.inventory[norm_url].get("v2_locations", [])
+                if orig_file not in v2_locs:
+                    v2_locs.append(orig_file)
+                    self.inventory[norm_url]["v2_locations"] = v2_locs
+            
             dim = file_to_dim.get(orig_file, "Architectural Foundations")
+            
+            # Populate Maturity Audit for GitOps Reporting
+            self.maturity_audit.append({
+                "url": item["url"],
+                "tag": ", ".join(item["tags"]),
+                "stars": item.get("stars", 0),
+                "dimension": dim,
+                "v2_locations": True # All candidates here are Elite
+            })
             
             # Mandate: High density preservation (Keep almost everything)
             is_special = item.get("is_special", False) or orig_file in special_rules
