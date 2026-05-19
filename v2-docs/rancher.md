@@ -67,3 +67,7 @@
   - [github.com/rancher/fleet](https://github.com/rancher/fleet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Fleet Management of Kubernetes Clusters at Scale — Rancher’s Fleet](https://itnext.io/fleet-management-of-kubernetes-clusters-at-scale-ranchers-fleet-de161cc52325)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [digitalis.io: Kubernetes GitOps Continuous Integration and Delivery with Fleet and Rancher](https://digitalis.io/blog/kubernetes/kubernetes-gitops-continuous-integration-and-delivery-with-fleet-and-rancher)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md)
+

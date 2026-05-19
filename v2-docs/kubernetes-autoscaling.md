@@ -17,7 +17,6 @@
   - [Azure: AKS Cluster Autoscaler](https://learn.microsoft.com/en-us/azure/aks/cluster-autoscaler)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Google Cloud Platform: GKE Cluster Autoscaler](https://docs.cloud.google.com/kubernetes-engine/docs/concepts/cluster-autoscaler)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [DigitalOcean Kubernetes: DOKS Cluster Autoscaler](https://docs.digitalocean.com/products/kubernetes/how-to/autoscale)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [OpenShift 3.11: Configuring the cluster auto-scaler in AWS](https://docs.redhat.com/en/documentation/openshift_container_platform/3.11/html/cluster_administration/configuring-cluster-auto-scaler-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infracloud.io: 3 Autoscaling Projects to Optimise Kubernetes Costs](https://www.infracloud.io/blogs/3-autoscaling-projects-optimising-kubernetes-costs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infracloud.io: Kubernetes Autoscaling with Custom Metrics (updated) 🌟](https://www.infracloud.io/blogs/kubernetes-autoscaling-custom-metrics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Reduce Kubernetes Costs Using Autoscaling Mechanisms](https://thenewstack.io/reduce-kubernetes-costs-using-autoscaling-mechanisms)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -52,3 +51,7 @@
   - [bitnami/cluster-autoscaler](https://hub.docker.com/r/bitnami/cluster-autoscaler)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to/danielepolencic: Scaling Kubernetes to multiple clusters and regions 🌟](https://dev.to/danielepolencic/scaling-kubernetes-to-multiple-clusters-and-regionss-294b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [engineering.zalando.com: Building an End to End load test automation system on top of Kubernetes](https://engineering.zalando.com/posts/2021/03/building-an-end-to-end-load-test-automation-system-on-top-of-kubernetes.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md)
+

@@ -83,7 +83,9 @@
 ## 1. Introduction and Motivation
 
 ### 1.1. Origins
-Nubenetes was born in 2018 during a large-scale Cloud Native project for the **BMW IT-Zentrum in Munich**. The project involved building a **self-service developer platform** (BMW ConnectedDrive) with high standards of automation, GitOps patterns, and continuous improvement.
+Nubenetes was born in 2018 during a large-scale Cloud Native consultancy project for the **BMW IT-Zentrum in Munich**, led by an international **Deloitte** team with members from **Germany, Spain, Poland, Albany, Bulgaria, and Portugal**. The project involved building a **self-service developer platform** (BMW ConnectedDrive) with high standards of automation, GitOps patterns, and continuous improvement.
+
+The author of Nubenetes participated as a **contractor for Deloitte Spain**, being an employee of the consultancy **Panel Sistemas Informáticos S.L. (Madrid)**. The project featured international coordination from Munich, remote work, and regular flights between Madrid and Munich to ensure technical alignment and industrial-grade quality.
 
 ### 1.2. The Munich Era: Industrial-Grade Engineering (Case Study)
 The lessons learned from that German engineering environment—standardization, evidence-based decisions, and extreme automation—became the DNA of this repository.
@@ -128,9 +130,9 @@ As of May 2026, Nubenetes has reached the **Platinum Operational Tier**, featuri
 <!-- HEART_STATS_START -->
 | Metric | Value |
 | :--- | :--- |
-| **Total Technical Resources (Links)** | **15299+** |
+| **Total Technical Resources (Links)** | **15300+** |
 | **Specialized MD Pages** | **161** |
-| **Total Commits** | **4715+** |
+| **Total Commits** | **4731+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -168,7 +170,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 1156 | 4,774 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 1172 | 4,840 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -184,8 +186,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume (Commits / Estimated New Refs)" 0 --> 9000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 4774]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1156]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 4840]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1172]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -194,7 +196,7 @@ xychart-beta
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
-| 2026-05 | 1131 | 4,671 | **Agentic Inception (Gemini Era)** |
+| 2026-05 | 1147 | 4,737 | **Agentic Inception (Gemini Era)** |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
@@ -214,7 +216,7 @@ pie title Nubenetes Major Ecosystem Pillars
     "Infra as Code" : 1200
     "SRE and Observability" : 1000
     "Security and DevSecOps" : 1000
-    "Specialized Topics" : 899
+    "Specialized Topics" : 900
 ```
 <!-- PILLAR_CHART_END -->
 
@@ -228,10 +230,10 @@ Reflecting Nubenetes' mission of global access while maintaining technical Engli
 <!-- SUB_ECO_CHART_START -->
 ```mermaid
 pie title Linguistic Diversity (Global Access)
-    "English" : 13769
-    "Spanish" : 917
-    "French" : 152
-    "Others" : 458
+    "English" : 13770
+    "Spanish" : 918
+    "French" : 153
+    "Others" : 459
 ```
 <!-- SUB_ECO_CHART_END -->
 
@@ -327,8 +329,15 @@ Nubenetes operates with two distinct editions to serve different engineering nee
 - **Deployment:** [nubenetes.com](https://nubenetes.com)
 
 ### 5.2. V2: The Agentic Elite Edition
-- **Purpose:** A high-density, enterprise-grade portal for the 2026 ecosystem.
+- **Purpose:** A high-density, enterprise-grade portal for the modern Cloud Native ecosystem (2026 and beyond).
 - **Algorithm:** Uses the **Incremental Elite Engine** to select and classify top-tier resources.
+- **Visual Standards (Elite Hierarchy):**
+    - **`==[Yellow Highlighting]==`**: **Platinum Standard** (5 stars) – Foundational "Must-Read" assets.
+    - **`**Bold Text**`**: **Gold Standard** (4 stars) – Highly recommended resources with strong industry momentum.
+    - **Stars (🌟)**: Represent technical impact (1-5 scale).
+    - **No stars**: Standard reference documentation and technical resources.
+- **Multi-Dimensional Tagging (1:N):** Every resource is classified with multiple semantic tags (e.g., `[DE FACTO STANDARD]`, `[GUIDE]`, `[CASE STUDY]`, `[EMERGING]`) providing deep technical context and maturity status.
+- **Semantic Cross-Linking:** The portal autonomously identifies and links related categories within the same strategic dimension (e.g., suggesting `Flux` when reading about `Argo`), creating a cohesive **Industrial Knowledge Graph**.
 - **Executive Context**: Every strategic dimension features an AI-generated **State-of-the-Art Introduction** providing high-level architectural context and industry direction before the link listings.
 - **Source of Truth:** The `v2-docs/` directory (Derived from V1).
 - **Deployment:** [nubenetes.com/v2/](https://nubenetes.com/v2/)

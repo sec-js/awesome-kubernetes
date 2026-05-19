@@ -23,3 +23,7 @@
   - [Diffblue](https://www.diffblue.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Cicada: A tool for testing microservices](https://cicadatesting.github.io/cicada-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Static analysis with KubeAudit for Red Hat OpenShift](https://developers.redhat.com/blog/2020/10/09/static-analysis-with-kubeaudit-for-red-hat-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Scaffolding](./scaffolding.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [Sre](./sre.md)
+

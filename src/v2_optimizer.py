@@ -263,22 +263,63 @@ class V2VisionEngine:
                 await asyncio.sleep(0.3)
         return list(project_registry.values())
 
-    def _calculate_tag(self, item: Dict) -> str:
-        stars = item.get("gh_stars", 0)
-        if stars > 15000: return "[DE FACTO STANDARD]"
-        if stars > 3000: return "[ENTERPRISE-STABLE]"
-        return "[COMMUNITY-TOOL]"
+    def _calculate_tags(self, item: Dict) -> List[str]:
+        tags = []
+        raw_gh = item.get("gh_stars", 0)
+        gh_stars = int(raw_gh) if str(raw_gh).isdigit() else 0
+        curator_stars = item.get("stars", 0)
+        res_type = item.get("resource_type", "Reference").lower()
+        
+        # 1. Maturity Logic (GitHub based OR curator based)
+        if gh_stars > 15000 or curator_stars >= 5: 
+            tags.append("[DE FACTO STANDARD]")
+        elif gh_stars > 3000 or curator_stars >= 4: 
+            tags.append("[ENTERPRISE-STABLE]")
+        
+        # 2. Type Mapping (AI based)
+        if "guide" in res_type or "tutorial" in res_type: tags.append("[GUIDE]")
+        if "case study" in res_type or "report" in res_type: tags.append("[CASE STUDY]")
+        
+        # 3. Emerging / Legacy logic
+        if item.get("complexity") == "Cutting Edge" or "emerging" in item.get("ai_summary", "").lower():
+            tags.append("[EMERGING]")
+        
+        # Fallback
+        if not tags: tags.append("[COMMUNITY-TOOL]")
+        
+        return tags
 
     async def _rebuild_structure(self, library_inventory: List[Dict]):
         special_rules = {sa["file"]: sa for sa in self.special_assets_rules.get("special_assets", [])}
-        # Change: Map by original file for high granularity
         v2_structure = {} 
         
         file_to_dim = {f + ".md": dim for dim, files in self.dimensions.items() for f in files}
 
         for item in library_inventory:
+            # Calculate multi-tags
+            item["tags"] = self._calculate_tags(item)
+            
+            # Mandate: Persist tags back to inventory for reporting & caching
+            norm_url = normalize_url(item["url"])
             orig_file = item.get("original_file", "unknown.md")
+            if norm_url in self.inventory:
+                self.inventory[norm_url]["tags"] = item["tags"]
+                # Track V2 locations for reporting (Mandate 22)
+                v2_locs = self.inventory[norm_url].get("v2_locations", [])
+                if orig_file not in v2_locs:
+                    v2_locs.append(orig_file)
+                    self.inventory[norm_url]["v2_locations"] = v2_locs
+            
             dim = file_to_dim.get(orig_file, "Architectural Foundations")
+            
+            # Populate Maturity Audit for GitOps Reporting
+            self.maturity_audit.append({
+                "url": item["url"],
+                "tag": ", ".join(item["tags"]),
+                "stars": item.get("stars", 0),
+                "dimension": dim,
+                "v2_locations": True # All candidates here are Elite
+            })
             
             # Mandate: High density preservation (Keep almost everything)
             is_special = item.get("is_special", False) or orig_file in special_rules
@@ -328,7 +369,16 @@ class V2VisionEngine:
         trending_pool = sorted([dict(meta, url=url) for url, meta in self.inventory.items() if meta.get("stars", 0) >= 4], key=lambda x: (x.get("pub_date", "0000"), -x.get("stars", 0)), reverse=True)
         pulse_md = "## ⚡ The Agentic Pulse\n" + "\n".join([f"- **({l.get('pub_date', 'N/A')[:10]})** [**=={l['title']}==**]({l['url']}) {'🌟'*l.get('stars',3)}" for l in trending_pool[:5]])
         
-        index_md = f"# Nubenetes V2 | The High-Density Library (2026)\n\n![Banner](images/kubernetes_logo.jpg)\n\n!!! quote \"The Library of 2026\"\n    Structured like an advanced technical book.\n\n<center markdown=\"1\">\n{mosaic_html}\n</center>\n\n{pulse_md}\n\n## Strategic Dimensions\n"
+        index_md = (
+            "# Nubenetes Elite Portal (V2)\n\n"
+            "![Banner](images/kubernetes_logo.jpg)\n\n"
+            "!!! abstract \"The High-Density Vision\"\n"
+            "    The V2 Edition is a curated, high-density version of the Nubenetes archive. Using **Agentic AI Orchestration**, "
+            "the system selects only the most relevant, stable, and impactful resources for the modern Cloud Native ecosystem (2026 and beyond).\n\n"
+            f"<center markdown=\"1\">\n{mosaic_html}\n</center>\n\n"
+            f"{pulse_md}\n\n"
+            "## Strategic Dimensions\n"
+        )
         
         # Group by dimension for index
         dim_groups = {}
@@ -374,11 +424,26 @@ class V2VisionEngine:
                         res_type = l.get("resource_type", "Reference")
                         type_tag = f" <span class='md-tag md-tag--primary'>[{res_type.upper()}]</span>" if res_type.lower() in ["case study", "guide", "documentation"] else ""
                         rich = "".join([f" <small>by **{l['author']}**</small>" if l.get("author") else "", f" <span class='md-tag md-tag--info'>⏱️ {l['duration']}</span>" if l.get("duration") else "", f" <span class='md-tag md-tag--info'>📖 {l['reading_time']}</span>" if l.get("reading_time") else ""])
-                        tag = l.get("tag", "[COMMUNITY-TOOL]")
-                        color = "success" if "STANDARD" in tag else "warning" if "EMERGING" in tag else "info"
+                        tag_html = ""
+                        for tag in l.get("tags", ["[COMMUNITY-TOOL]"]):
+                            color = "success" if "STANDARD" in tag else "warning" if "EMERGING" in tag else "secondary" if "CASE STUDY" in tag or "GUIDE" in tag else "info"
+                            tag_html += f" <span class='md-tag md-tag--{color}'>{tag}</span>"
                         
-                        md += f"  - {year_prefix}[{title}]({l['url']}){icon}{gh_info}{lang_tag}{level_tag}{type_tag}{rich} {'🌟'*l.get('stars',0)} <span class='md-tag md-tag--{color}'>{tag}</span>\n"
+                        # Apply Visual Highlighting (Mandate 32)
+                        raw_stars = l.get('stars', 0)
+                        link_text = title
+                        if raw_stars >= 5:
+                            link_text = f"=={title}=="
+                        elif raw_stars >= 4:
+                            link_text = f"**{title}**"
+                            
+                        md += f"  - {year_prefix}[{link_text}]({l['url']}){icon}{gh_info}{lang_tag}{level_tag}{type_tag}{rich} {'🌟'*raw_stars}{tag_html}\n"
                         if l.get('ai_summary'): md += f"\n      {l['ai_summary']}\n\n"
+                
+                # Add Semantic "See Also" for related categories within the same Dimension
+                related = [f"[{data[f]['title']}](./{f})" for f in data if f != f_name and data[f]["dim"] == info["dim"]]
+                if related:
+                    md += f"\n***\n💡 **Explore Related:** {' | '.join(related[:3])}\n\n"
             return md
 
         for f_name, info in data.items():
@@ -439,8 +504,9 @@ if __name__ == "__main__":
     # Maturity Distribution
     maturity_counts = {}
     for l in v2_links:
-        tag = l.get('tag', '[COMMUNITY-TOOL]')
-        maturity_counts[tag] = maturity_counts.get(tag, 0) + 1
+        tags = l.get('tags', ['[COMMUNITY-TOOL]'])
+        for tag in tags:
+            maturity_counts[tag] = maturity_counts.get(tag, 0) + 1
 
     # 2. Document Architecture Audit
     v2_files = sorted([f for f in os.listdir(V2_DIR) if f.endswith(".md")])

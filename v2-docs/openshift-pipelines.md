@@ -15,7 +15,6 @@
   - [github - using jenkins pipelines with OKD](https://github.com/openshift/origin/tree/main/examples/jenkins/pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Building Declarative Pipelines with OpenShift DSL Plugin 🌟🌟](https://www.redhat.com/en/blog/building-declarative-pipelines-openshift-dsl-plugin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Jenkins Pipeline Syntax: Scripted Syntax (Groovy DSL syntax) & Declarative Syntax 🌟](https://www.jenkins.io/doc/book/pipeline/syntax)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [docs.openshift.com: OpenShift 3.11 Pipeline Builds with OpenShift Jenkins Image and OpenShift DSL](https://docs.redhat.com/en/documentation/openshift_container_platform/3.11/html/developer_guide/tutorials#dev-guide-openshift-pipeline-builds)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Simply Explained: OpenShift and Jenkins Pipelines](https://www.redhat.com/en/blog/jenkins-pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openshift.com: Cloud-Native CI/CD with OpenShift Pipelines based on Tekton](https://www.redhat.com/en/blog/cloud-native-ci-cd-with-openshift-pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openshift.com: OpenShift Pipelines Advanced Triggers Part 1 - Triggering Different Project Builds in the Same Repository](https://www.redhat.com/en/blog/openshift-pipelines-advanced-triggers-part-1-triggering-different-project-builds-in-the-same-repository)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -41,3 +40,7 @@
   - [github.com/openshift/pipelines-tutorial](https://github.com/openshift/pipelines-tutorial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github: OpenShift Pipelines Node.js Tutorial](https://github.com/csantanapr/faststart2020-pipelines-lab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Modern web applications on OpenShift, Part 4: Openshift Pipelines](https://developers.redhat.com/blog/2020/04/27/modern-web-applications-on-openshift-part-4-openshift-pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Registries](./registries.md) | [Argo](./argo.md) | [Sonarqube](./sonarqube.md)
+

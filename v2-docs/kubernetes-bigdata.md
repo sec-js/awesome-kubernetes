@@ -14,3 +14,7 @@
   - [coderstan.com: Apache Spark on Kubernetes—Lessons Learned from Launching Millions of Spark Executors (Databricks Data+AI Summit 2022)](https://coderstan.com/2022/07/15/spark-on-kubernetes-launching-millions-of-spark-executors)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [aprenderbigdata.com: Databricks: Introducción a Spark en la nube](https://aprenderbigdata.com/databricks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/databrickslabs/ucx: Databricks Labs UCX](https://github.com/databrickslabs/ucx)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md)
+

@@ -72,3 +72,7 @@
   - [thomasthornton.cloud: Analyze your Kubernetes YAML files and Helm Charts to ensure best practices using KubeLinter in Azure DevOps Pipeline](https://thomasthornton.cloud/2022/04/13/analyze-your-kubernetes-yaml-files-and-helm-charts-to-ensure-best-practices-using-kuberlinter-in-azure-devops-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ketch](https://theketch.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kislyuk/yq](https://github.com/kislyuk/yq)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Message Queue](./message-queue.md) | [Newsql](./newsql.md) | [Nosql](./nosql.md)
+

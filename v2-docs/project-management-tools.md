@@ -30,3 +30,7 @@
   - [opensource.com: Open source tools for running a small business in 2022](https://opensource.com/article/21/12/open-source-business-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itsfoss.com: Gitter: A Cross-Platform Open Source Community Platform for Developers](https://itsfoss.com/gitter)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ifuckinghatejira.com](https://ifuckinghatejira.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Scaffolding](./scaffolding.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [Sre](./sre.md)
+

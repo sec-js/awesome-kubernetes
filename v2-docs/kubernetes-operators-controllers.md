@@ -103,3 +103,7 @@
   - [developers.redhat.com: Managing stateful applications with Kubernetes Operators in Golang 🌟](https://developers.redhat.com/articles/2021/08/04/managing-stateful-applications-kubernetes-operators-golang)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes/sample-controller](https://github.com/kubernetes/sample-controller)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to/hkhelil: Building a Kubernetes Operator with an NGINX CRD](https://dev.to/hkhelil/building-a-kubernetes-operator-with-an-nginx-crd-3lil)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md)
+

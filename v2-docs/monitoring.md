@@ -135,3 +135,7 @@
   - [network-king.net: IoT use in healthcare grows but has some pitfalls](https://network-king.net/iot-use-in-healthcare-grows-but-has-its-pitfalls)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [OOMKilled in Kubernetes: Understanding and Preventing Hidden Memory Leaks](https://unixarena.com/2025/04/oomkilled-in-kubernetes-the-hidden-memory-leaks-youre-missing.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Linux](./linux.md) | [Helm](./helm.md)
+

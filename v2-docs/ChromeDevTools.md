@@ -11,3 +11,7 @@
   - [dev.to: My 12 Favorite Chrome Extensions as a Web Developer](https://dev.to/otomer/my-12-favorite-chrome-extensions-as-a-web-developer-56eg)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.bitsrc.io: Google Chrome Hidden Features Every Developer Should Know](https://blog.bitsrc.io/google-chrome-experimental-features-for-developers-a9a7cc9d1b30)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jsontoolbox.com](https://jsontoolbox.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Golang](./golang.md) | [Javascript](./javascript.md)
+

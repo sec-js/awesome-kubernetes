@@ -575,3 +575,7 @@
   - [container-security.site: PCI Container Orchestration Guidance for Kubernetes](https://www.container-security.site/defenders/PCI_Container_Orchestration_Guidance.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes.slack.com](https://kubernetes.slack.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [KEP-2837: Especificaciones de Recursos a Nivel de Pod](https://github.com/kubernetes/enhancements/blob/ddf7d2a8c098e97b0714f31e88abad3b3e0e706c/keps/sig-node/2837-pod-level-resource-spec/README.md#summary)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Linux](./linux.md) | [Helm](./helm.md)
+

@@ -34,3 +34,7 @@
   - [Google cloud kubernetes pricing](https://cloud.google.com/kubernetes-engine/pricing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [iot-analytics.com: The IoT cloud: Microsoft Azure vs. AWS vs. Google Cloud](https://iot-analytics.com/iot-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [20minutos.es: Amazon Web Services vuelve a romper Internet: se ha caído ya tres veces en el mismo mes y le llueven las críticas](https://www.20minutos.es/tecnologia/actualidad/amazon-web-services-vuelve-a-romper-internet-se-ha-caido-ya-tres-veces-en-el-mismo-mes-y-le-llueven-las-criticas-4931834)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md) | [Aws Spain](./aws-spain.md)
+

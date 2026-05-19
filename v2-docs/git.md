@@ -357,3 +357,7 @@
   - [Rultor, a Merging Bot](https://www.yegor256.com/2014/07/24/rultor-automated-merging.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Bors Bot](https://bors.tech)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Bors-ng: A merge bot for GitHub Pull Requests](https://github.com/bors-ng/bors-ng)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Linux](./linux.md) | [Helm](./helm.md)
+

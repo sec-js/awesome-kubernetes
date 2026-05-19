@@ -119,11 +119,18 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **License Monitoring**: Health agents MUST monitor the `LICENSE` field for all repository resources (GitHub/GitLab).
     - **Non-Free Transition Alert**: If a project transitions from a permissive license (e.g., Apache 2.0, MIT) to a non-free or restrictive license (e.g., BSL, SSPL), the resource MUST be flagged as `status: review_required`.
     - **Impact Adjustment**: Projects that move away from Open Source standards MUST receive an automatic star reduction and be deprioritized in the V2 portal to favor truly open alternatives.
-35. **URL Normalization & Trailing Slash Consistency**: To prevent data duplication and broken navigation:
-    - **No Trailing Slashes**: All agents and workflows MUST ensure that URLs NEVER end with trailing slashes (e.g., `path/` or `path//`).
-    - **Zero Slash Policy**: All URLs MUST be normalized to end WITHOUT a trailing slash. If a server redirects to a slashed version, the bot MUST strip it before storage or injection.
-    - **Normalization Enforcement**: All URLs MUST be passed through the `normalize_url` engine before storage or comparison to ensure consistency (stripping parameters, social trackers, and ALL trailing slashes).
-    - **Recursive Prevention**: Workflows updating URLs to 'Canonical' versions MUST verify that the new URL does not introduce redundant slashes or loop redirections.
+36. **V2 Elite Visual Standards**: All V2 content generation MUST apply the following visual hierarchy to highlight resource value:
+    - **Platinum Resources (5 stars)**: Use yellow highlighting for the link text (e.g., `==[Link Title]==`).
+    - **Gold Resources (4 stars)**: Use bold formatting for the link text (e.g., `**[Link Title]**`).
+    - **Multi-Dimensional Tagging**: Every resource in V2 SHOULD have one or more maturity/type tags (e.g., `[DE FACTO STANDARD]`, `[GUIDE]`, `[CASE STUDY]`). The `[COMMUNITY-TOOL]` tag is the fallback for unclassified assets.
+    - **Star Consistency**: Maintain the 1-5 star scale for technical impact. Resources with 0 stars are considered "Standard References" and do not display a star prefix/suffix in the V2 UI.
+38. **V2 Semantic Connectivity**: All V2 content generation MUST implement the **Semantic Cross-Linking Engine**. AI agents must autonomously identify related architectural patterns within the same strategic dimension and inject "💡 Explore Related" navigation blocks at the end of sections to facilitate a connected knowledge graph.
+39. **Industrial Learning Flow**: V2 documents MUST follow an O'Reilly-style technical progression. Organization within sections must move from foundational theory and standards to advanced implementation details and emerging patterns.
+40. **Autonomous Multi-Tagging**: Every resource evaluation MUST assign at least one maturity tag and one resource-type tag if applicable. Fallback to `[COMMUNITY-TOOL]` is only permitted after exhaustive classification failure.
+- **V2 Index Branding Protection**: The header and vision block of the V2 Elite Portal MUST NOT be modified. The title MUST remain "Nubenetes Elite Portal (V2)" and the abstract MUST use the "The High-Density Vision" text as hardcoded in the optimizer logic to maintain industrial-grade branding.
+- **V2 Index Visual Standard (Automotive Roots)**: The Nubenetes V2 Elite Portal index MUST feature a centered banner image linked to `kubernetes.io`, followed by the Horatio Nelson Jackson quote and the modernized automotive container metaphor image (`images/container_with_cars_v2.svg`) to preserve the project's roots while embracing 2026 aesthetics.
+37. **Linguistic Uniformity**: All core documentation (index, README, GEMINI.md) and V2 portal summaries MUST be written in **Professional Technical English**. V1 descriptions remain in their native language (Mandate 10).
+
 
 ## 🛠️ Structural Evolution & Navigation
 

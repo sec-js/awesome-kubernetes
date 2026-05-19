@@ -54,3 +54,7 @@
   - [itnext.io: Logging in Kubernetes with Loki and the PLG Stack](https://itnext.io/logging-in-kubernetes-with-loki-and-the-plg-stack-93b27c90ec34)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [grafana.com: Grafana Beyla 1.0 release: zero-code instrumentation for application telemetry using eBPF](https://grafana.com/blog/2023/11/14/grafana-beyla-1.0-release-zero-code-instrumentation-for-application-telemetry-using-ebpf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [grafana.com: A complete guide to managing Grafana as code: tools, tips, and tricks](https://grafana.com/blog/2022/12/06/a-complete-guide-to-managing-grafana-as-code-tools-tips-and-tricks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Linux](./linux.md) | [Helm](./helm.md)
+

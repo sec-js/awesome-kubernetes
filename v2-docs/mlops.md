@@ -85,3 +85,7 @@
   - [kaggle.com: Sports Car Prices dataset](https://www.kaggle.com/datasets/rkiattisak/sports-car-prices-dataset)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [isic-archive.com](https://www.isic-archive.com/#!/topWithHeader/wideContentTop/main)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [freecodecamp.org: How to Download a Kaggle Dataset Directly to a Google Colab Notebook](https://www.freecodecamp.org/news/how-to-download-kaggle-dataset-to-google-colab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Ai](./ai.md) | [Chatgpt](./chatgpt.md) | [Ai Agents Mcp](./ai-agents-mcp.md)
+

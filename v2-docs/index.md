@@ -1,33 +1,9 @@
-# Nubenetes V2 | Agentic Elite Portal (2026)
+# Nubenetes Elite Portal (V2)
 
 ![Banner](images/kubernetes_logo.jpg)
 
-!!! abstract "Vision 2026: The High-Density Library"
-    The V2 Edition is a curated, high-density version of the Nubenetes archive. Using **Agentic AI Orchestration**, the system selects only the most relevant, stable, and impactful resources for the 2026 Cloud Native ecosystem.
-
-## 💎 The Maturity Taxonomy
-
-To ensure industrial-grade precision, every resource in V2 is classified using our proprietary 5-tier maturity system:
-
-| Tag | Description | Engineering Context |
-| :--- | :--- | :--- |
-| **`[DE FACTO STANDARD]`** | The industry baseline. | Tools like Kubernetes, Terraform, or Prometheus that define the current architecture. |
-| **`[ENTERPRISE-STABLE]`** | Battle-tested and reliable. | Proven solutions with strong community and commercial support. |
-| **`[EMERGING]`** | The cutting edge. | High-potential tools and patterns (e.g., AI Agents, MCP) shaping the future. |
-| **`[GUIDE]`** | Strategic knowledge. | High-quality tutorials, architectural deep-dives, and decision matrices. |
-| **`[LEGACY]`** | Historical context. | Established tools that are being replaced or are primarily for maintaining older stacks. |
-
-## 🌟 Technical Impact (Relevance Score)
-
-The stars accompanying each resource represent its **Technical Impact** and **Architectural Relevance** for a 2026 Senior Architect:
-
-| Impact | Level | Meaning |
-| :---: | :--- | :--- |
-| 🌟🌟🌟🌟🌟 | **Platinum Standard** | Critical industry foundation. Essential knowledge for any Cloud Native architecture. |
-| 🌟🌟🌟🌟 | **Gold Standard** | Highly recommended. Proven value and significant community/enterprise momentum. |
-| 🌟🌟🌟 | **Silver Standard** | Solid technical reference. Useful for specific use cases or established patterns. |
-| 🌟🌟 | **Bronze Standard** | Interesting alternative or niche tool. Good to have in the toolkit for specific scenarios. |
-| 🌟 | **Reference Only** | Basic documentation or historical reference without major current impact. |
+!!! abstract "The High-Density Vision"
+    The V2 Edition is a curated, high-density version of the Nubenetes archive. Using **Agentic AI Orchestration**, the system selects only the most relevant, stable, and impactful resources for the modern Cloud Native ecosystem (2026 and beyond).
 
 <center markdown="1">
 [![docker videos](images/docker_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/DockerIo) [![cncf videos](images/cncf_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/cloudnativefdn) [![kubernetes logo](images/kubernetes_logo.jpg){: style="width:7%"}](https://www.youtube.com/kubernetescommunity) [![redhat videos](images/redhat_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/redhat) [![openshift videos](images/openshift_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/OpenShift) [![rancher logo](images/rancher-logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Rancher) [![cloudbees videos](images/cloudbees_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/CloudBeesTV) [![jenkins videos](images/jenkins-logo.jpg){: style="width:7%"}](https://www.youtube.com/c/jenkinscicd) [![jenkins-x videos](images/jenkins_x_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCN2kblPjXKMcjjVYmwvquvg) [![spinnaker videos](images/spinnaker_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCcxQbw8kT1-FRhFhO2QCetg) [![vmware tanzu logo](images/vmware_tanzu_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/VMwareTanzu)<br/>

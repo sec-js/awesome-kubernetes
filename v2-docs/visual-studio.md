@@ -190,3 +190,7 @@
   - [New VS Code features](https://www.youtube.com/shorts/8iVaeLjzY6s)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Hacking GitHub?](https://www.youtube.com/shorts/nMJBbH7g1M4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Screencast mode](https://www.youtube.com/shorts/KZHI5RMmFk0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Golang](./golang.md) | [Javascript](./javascript.md)
+

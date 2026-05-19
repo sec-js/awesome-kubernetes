@@ -107,3 +107,7 @@
   - [github.com/DataExpert-io/data-engineer-handbook 🌟](https://github.com/DataExpert-io/data-engineer-handbook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.builders](https://opensource.builders)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: Great GitHub repositories that developers love](https://dev.to/swordheath/great-github-repositories-that-developers-love-1g97)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Linux](./linux.md) | [Helm](./helm.md)
+
