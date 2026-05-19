@@ -121,9 +121,13 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             "- If the community (Reddit, Hacker News) reports the tool as 'unstable', 'abandoned', or 'vaporware', set reputation_penalty: true.\n"
             "PHASE 2: LINGUISTIC DIVERSITY & CLASSIFICATION\n"
             "- Identify TECHNICAL_HIERARCHY: List (max 10 strings) Area > Topic > Subtopics.\n"
-            "PHASE 3: MULTI-DIMENSIONAL TAGGING\n"
+            "PHASE 3: HIGH-DENSITY TECHNICAL SUMMARIES (Mandate 4)\n"
+            "- Provide an 'en_summary' that is technical, professional and dense.\n"
+            "- Include architectural value, key features, and technical significance. Style: O'Reilly technical.\n"
+            "- Format: Use paragraphs and bullet points if necessary. Aim for 2-5 sentences of depth.\n"
+            "PHASE 4: MULTI-DIMENSIONAL TAGGING\n"
             "- Assign 1 to 3 tags from: [DE FACTO STANDARD], [ENTERPRISE-STABLE], [EMERGING], [GUIDE], [CASE STUDY], [COMMUNITY-TOOL], [LEGACY].\n"
-            "Respond ONLY JSON list: [{\"url\": \"...\", \"impact_score\": int, \"reputation_penalty\": bool, \"reputation_summary\": \"...\", \"pub_date\": \"YYYY-MM-DD\", \"primary_category\": \"...\", \"title\": \"...\", \"desc\": \"...\", \"en_summary\": \"...\", \"language\": \"...\", \"type\": \"...\", \"level\": \"...\", \"technical_hierarchy\": [...], \"tags\": [...], \"is_microservice\": bool}, ...]\n\n"
+            "Respond ONLY JSON list: [{\"url\": \"...\", \"impact_score\": int, \"reputation_penalty\": bool, \"reputation_summary\": \"...\", \"pub_date\": \"YYYY-MM-DD\", \"primary_category\": \"...\", \"title\": \"...\", \"desc\": \"...\", \"en_summary\": \"High-density summary...\", \"language\": \"...\", \"type\": \"...\", \"level\": \"...\", \"technical_hierarchy\": [...], \"tags\": [...], \"is_microservice\": bool}, ...]\n\n"
             "RESOURCES:\n" + "\n".join([f"- {d['asset']['url']}: (MVQ Penalty: {d['mvq_penalty']}) {d['content']}" for d in batch_data])
         )
 

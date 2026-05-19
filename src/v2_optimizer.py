@@ -45,8 +45,10 @@ class V2VisionEngine:
             "- For 'introduction.md', identify links related to MICROSERVICES for extraction.\n"
             "PHASE 3: KNOWLEDGE ASSIMILATION FLOW\n"
             "- Order hierarchy to facilitate a structured learning journey.\n"
-            "PHASE 4: MANDATORY DESCRIPTIONS\n"
-            "- If 'Current Desc' is empty, generate a professional summary. Style: O'Reilly technical.\n"
+            "PHASE 4: HIGH-DENSITY TECHNICAL SUMMARIES (Mandate 4)\n"
+            "- Generate professional, neutral, and advanced technical summaries. Style: O'Reilly technical.\n"
+            "- Summaries MUST be high-density: Include architectural value, key features, and technical significance.\n"
+            "- Format: Use paragraphs and bullet points for complex tools. Aim for 2-5 sentences of depth.\n"
             "PHASE 5: ADVANCED MATURITY TAGGING\n"
             "- Assign 1 to 3 tags from: [DE FACTO STANDARD], [ENTERPRISE-STABLE], [EMERGING], [GUIDE], [CASE STUDY], [COMMUNITY-TOOL], [LEGACY].\n"
         )
@@ -252,14 +254,15 @@ class V2VisionEngine:
             for i in range(0, len(to_evaluate), BATCH_SIZE):
                 batch = to_evaluate[i:i+BATCH_SIZE]
                 
-                # Analyst Prompt (Focus: Classification & Summary)
+                # Analyst Prompt (Focus: Classification & High-Density Summary)
                 prompt = (
                     f"You are the Nubenetes Technical Analyst (2026).\n"
                     f"{dynamic_mandates}\n"
                     f"{self.library_criteria}\n"
-                    "PHASE 5: INITIAL TAGGING\n"
+                    "PHASE 5: INITIAL TAGGING & RICH SUMMARY\n"
                     "- Assign 1 to 3 preliminary tags.\n"
-                    "Respond ONLY JSON: {{\"results\": [{{ \"idx\": int, \"year\": \"YYYY\", \"stars\": 0-5, \"hierarchy\": [\"Area\", \"Topic\", ...], \"tags\": [\"...\"], \"summary\": \"...\", \"language\": \"...\", \"type\": \"...\", \"complexity\": \"...\", \"is_microservice\": bool }}, ...]}}\n\n"
+                    "- Provide a 'summary' that is technical and dense. Use Markdown (bullet points, bolding) if necessary.\n"
+                    "Respond ONLY JSON: {{\"results\": [{{ \"idx\": int, \"year\": \"YYYY\", \"stars\": 0-5, \"hierarchy\": [\"Area\", \"Topic\", ...], \"tags\": [\"...\"], \"summary\": \"High-density multi-line summary...\", \"language\": \"...\", \"type\": \"...\", \"complexity\": \"...\", \"is_microservice\": bool }}, ...]}}\n\n"
                     "LINKS:\n" + "\n".join([f"{idx}. {l['title']} ({l['url']})" for idx, l in enumerate(batch)])
                 )
                 try:
@@ -566,7 +569,11 @@ class V2VisionEngine:
                             link_text = f"**{title}**"
                             
                         md += f"  - {year_prefix}[{link_text}]({l['url']}){icon}{gh_info}{lang_tag}{level_tag}{type_tag}{rich} {'🌟'*raw_stars}{tag_html}\n"
-                        if l.get('ai_summary'): md += f"\n      {l['ai_summary']}\n\n"
+                        # Mandate 4: Render High-Density Summary with proper indentation (6 spaces for Markdown list nesting)
+                        summary = l.get('ai_summary', l.get('description', ''))
+                        if summary:
+                            indented_summary = "\n".join([f"      {line}" if line.strip() else "" for line in summary.strip().split("\n")])
+                            md += f"\n{indented_summary}\n\n"
                 
                 # Add Semantic "See Also" for related categories within the same Dimension
                 related = [f"[{data[f]['title']}](./{f})" for f in data if f != f_name and data[f]["dim"] == info["dim"]]
