@@ -61,3 +61,21 @@ jobs:
           PYTHONUNBUFFERED: 1
         run: |
           python src/intelligent_health_checker.py
+
+      - name: Open Triage Issue for High-Value Links
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -f triage_report.md ]; then
+            ISSUE_TITLE="🚨 Manual Triage Required: High-Value Links Failing ($(date +'%Y-%m-%d'))"
+            # Check if an open issue with the same title already exists to avoid duplicates
+            EXISTING_ISSUE=$(gh issue list --search "$ISSUE_TITLE" --state open --json number --jq '.[0].number')
+            
+            if [ -z "$EXISTING_ISSUE" ]; then
+              gh issue create --title "$ISSUE_TITLE" --body-file triage_report.md --label "triage, automated-report"
+            else
+              echo "A triage issue already exists (#$EXISTING_ISSUE). Updating with new report..."
+              gh issue comment $EXISTING_ISSUE --body-file triage_report.md
+            fi
+          fi

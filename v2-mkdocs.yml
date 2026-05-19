@@ -45,6 +45,14 @@ theme:
     - content.action.edit
     - toc.integrate
 
+plugins:
+  - search
+  - social:
+      cards: true
+      cards_layout_options:
+        background_color: "#263238"
+        font_family: "Inter"
+
 extra:
   social:
     - icon: fontawesome/brands/github

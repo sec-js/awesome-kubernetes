@@ -248,6 +248,9 @@ The autonomy of Nubenetes is powered by a modern, resilient tech stack that ensu
 | **Optimization** | Adaptive AI Tiering | Dynamic model selection (Pro/Flash) and Global rate limiting. |
 | **CI/CD Hardening** | Concurrency & [skip ci] | Prevention of race conditions and recursive trigger loops. |
 | **Performance** | Playwright Caching | Setup optimization (reduces initialization time by >70%). |
+| **Security** | Dependabot | Automated vulnerability monitoring for Python and CI Actions. |
+| **Engagement** | Social Cards (OG) | Dynamic OpenGraph image generation for the V2 Portal. |
+| **Maintenance** | Automated Triage | GitHub Issue generation for failing high-value resources. |
 | **Automation** | Python 3.11 | Core logic for parsing, gitops, and reporting. |
 | **Discovery** | Twikit and Playwright | Autonomous scraping and account rotation. |
 | **Resilience** | Identity Rotation | Evasion of anti-bot blocks using multiple profiles. |

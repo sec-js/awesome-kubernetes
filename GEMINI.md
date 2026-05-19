@@ -259,6 +259,10 @@ The bot must rotate between profiles to avoid detection:
         - **Playwright Caching**: Integrated `actions/cache` for Playwright binaries to reduce curation/cleaning setup time by >70%.
         - **Metric Consolidation**: Integrated `README.md` metric synchronization directly into the `V2 Agentic Builder` workflow to reduce redundant maintenance commits on the `develop` branch.
         - **O'Reilly Learning Flow**: Refined the O'Reilly-style technical hierarchy in the V2 portal to ensure a logical knowledge progression from foundations to advanced internals.
+    - **Platinum Maintenance & Security (May 2026)**:
+        - **Automated Triage System**: The health monitoring engine MUST open/update a GitHub Issue whenever high-value resources (`review_required`) fail validation. This ensures visibility for manual rescue attempts.
+        - **OpenGraph Social Cards**: The V2 Portal MUST generate dynamic social sharing cards for every page using the `social` plugin to maximize ecosystem engagement.
+        - **Dependency Guard (Dependabot)**: Automated monitoring of Python and GitHub Action dependencies is mandatory. Any security vulnerability MUST be addressed via prioritized bot-generated PRs.
 
     - **AI and Artificial Intelligence Dimension**: Renamed from "Intelligent Control Plane" for better industry alignment.
     - **Zero-to-Hero Grouping**: Implemented complexity-based levels (Fundamentals to Architect) for high-density learning paths.

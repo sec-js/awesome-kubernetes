@@ -271,6 +271,22 @@ class IntelligentLinkCleaner:
         report = SafetyGuard().generate_audit_report()
         metrics = {"total_extracted": len(self.link_registry), "full_report": self.full_report_metrics, "end_date": datetime.now().isoformat()}
         if final_payload: self.git_controller.apply_multi_file_changes(final_payload, metrics, safety_report=report)
+        
+        # --- AUTOMATED TRIAGE REPORT GENERATION ---
+        triage_links = []
+        for url, meta in self.inventory.items():
+            if meta.get('status') == 'review_required':
+                triage_links.append({"url": url, "stars": meta.get('stars', 0), "desc": meta.get('description', 'N/A')})
+        
+        if triage_links:
+            # Sort by stars (impact) DESC
+            triage_links.sort(key=lambda x: x['stars'], reverse=True)
+            with open("triage_report.md", "w") as f:
+                f.write(f"### 🚨 Manual Triage Required ({len(triage_links)} High-Value Links)\n\n")
+                f.write("The following resources were flagged for manual review because they failed health checks but are considered high-value assets.\n\n")
+                f.write("| Impact | Resource | Description |\n| :---: | :--- | :--- |\n")
+                for item in triage_links:
+                    f.write(f"| {'🌟'*item['stars']} | {item['url']} | {item['desc']} |\n")
 
     async def prune_orphaned_metadata(self):
         valid_map = {}
