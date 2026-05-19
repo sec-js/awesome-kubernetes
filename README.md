@@ -83,7 +83,9 @@
 ## 1. Introduction and Motivation
 
 ### 1.1. Origins
-Nubenetes was born in 2018 during a large-scale Cloud Native project for the **BMW IT-Zentrum in Munich**. The project involved building a **self-service developer platform** (BMW ConnectedDrive) with high standards of automation, GitOps patterns, and continuous improvement.
+Nubenetes was born in 2018 during a large-scale Cloud Native consultancy project for the **BMW IT-Zentrum in Munich**, led by an international **Deloitte** team with members from **Germany, Spain, Poland, Albany, Bulgaria, and Portugal**. The project involved building a **self-service developer platform** (BMW ConnectedDrive) with high standards of automation, GitOps patterns, and continuous improvement.
+
+The author of Nubenetes participated as a **contractor for Deloitte Spain**, being an employee of the consultancy **Panel Sistemas Informáticos S.L. (Madrid)**. The project featured international coordination from Munich, remote work, and regular flights between Madrid and Munich to ensure technical alignment and industrial-grade quality.
 
 ### 1.2. The Munich Era: Industrial-Grade Engineering (Case Study)
 The lessons learned from that German engineering environment—standardization, evidence-based decisions, and extreme automation—became the DNA of this repository.
