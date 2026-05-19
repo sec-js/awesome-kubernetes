@@ -13,7 +13,7 @@
   - [tetrate.io: Why do you need Istio when you already have Kubernetes?](https://tetrate.io/blog/what-is-istio-and-why-does-kubernetes-need-it)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [tetrate.io: Using Istio Service Mesh as API Gateway 🌟](https://tetrate.io/blog/istio-service-mesh-api-gateway)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jimmysong.io: Understanding the Sidecar Injection, Traffic Intercepting & Routing Process in Istio](https://jimmysong.io/blog/sidecar-injection-iptables-and-traffic-routing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.getambassador.io: Kubernetes Canary Testing and Release with Istio](https://blog.getambassador.io/kubernetes-canary-testing-and-release-with-istio-4cbdedcc9914?gi=c669845710fd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.getambassador.io: Kubernetes Canary Testing and Release with Istio](https://blog.getambassador.io/kubernetes-canary-testing-and-release-with-istio-4cbdedcc9914?gi=77ba3a21d2dd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kiali.io](https://kiali.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [getenvoy.io](https://www.envoyproxy.io/docs/envoy/latest/start/install)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Istio.io](https://istio.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
