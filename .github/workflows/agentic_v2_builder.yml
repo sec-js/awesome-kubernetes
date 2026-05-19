@@ -76,6 +76,7 @@ jobs:
           python src/safety_readme.py
           
       - name: Create Pull Request for V2 Elite Update
+        id: cpr
         uses: peter-evans/create-pull-request@v6
         with:
           branch: bot/v2-elite-sync
@@ -84,3 +85,27 @@ jobs:
           body-path: pr_description.md
           commit-message: "feat: sync V2 elite curated edition and README metrics [skip ci]"
           labels: "v2-elite, agentic-sync"
+
+      - name: Post Supplementary Architecture Audit (Comment)
+        if: steps.cpr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ steps.cpr.outputs.pull-request-number }}
+        run: |
+          if [ -f v2_file_audit.md ]; then
+            gh pr comment $PR_NUMBER --body-file v2_file_audit.md
+          fi
+
+      - name: Post Elite Decision Matrix (Comment)
+        if: steps.cpr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ steps.cpr.outputs.pull-request-number }}
+        run: |
+          if [ -f v2_decision_matrix.md ]; then
+            # Split decision matrix if too large for a single comment (approx 60k chars)
+            split -b 60000 v2_decision_matrix.md matrix_part_
+            for part in matrix_part_*; do
+              gh pr comment $PR_NUMBER --body-file $part
+            done
+          fi
