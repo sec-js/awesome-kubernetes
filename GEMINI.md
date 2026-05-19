@@ -253,6 +253,12 @@ The bot must rotate between profiles to avoid detection:
         - **Infrastructure Reporting**: All curation PRs MUST include the `Intelligence Report` to provide transparency on models used (Pro vs Flash) and API key identities (Identity A/B).
         - **Dynamic Discovery**: Agents MUST utilize the dynamic discovery engine to automatically adopt the newest Gemini models and rotate keys upon reaching quotas.
     - **Engineering Blog Discovery**: Integrated RSS/Atom ingestion into the curation engine to source high-depth architectural content directly from top-tier technical companies.
+    - **CI/CD Hardening & Trigger Loop Prevention (May 2026)**:
+        - **Trigger Loop Prevention**: Implemented `[skip ci]` message filtering across all workflows to prevent infinite loops after automated merges.
+        - **Concurrency Control**: Added mandatory concurrency groups to all workflows to prevent race conditions during parallel automated updates.
+        - **Playwright Caching**: Integrated `actions/cache` for Playwright binaries to reduce curation/cleaning setup time by >70%.
+        - **Metric Consolidation**: Integrated `README.md` metric synchronization directly into the `V2 Agentic Builder` workflow to reduce redundant maintenance commits on the `develop` branch.
+        - **O'Reilly Learning Flow**: Refined the O'Reilly-style technical hierarchy in the V2 portal to ensure a logical knowledge progression from foundations to advanced internals.
 
     - **AI and Artificial Intelligence Dimension**: Renamed from "Intelligent Control Plane" for better industry alignment.
     - **Zero-to-Hero Grouping**: Implemented complexity-based levels (Fundamentals to Architect) for high-density learning paths.

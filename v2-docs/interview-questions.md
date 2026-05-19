@@ -3,12 +3,7 @@
 !!! info "Architectural Context"
     Detailed reference for Interview Questions in the context of Career & Industry.
 
-## Table of Contents
-
----
-
   - [grow.google: interview warmup](https://grow.google/grow-your-career/articles/interview-tips)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Python mini-quiz](http://www.mypythonquiz.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/moabukar/tech-vault](https://github.com/moabukar/tech-vault)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [interviewbit.com: Ansible Interview Questions](https://www.interviewbit.com/ansible-interview-questions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [interviewbit.com: Terraform Interview Questions](https://www.interviewbit.com/terraform-interview-questions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -53,6 +48,7 @@
   - [automationreinvented.blogspot.com: Top 40 API Automation testing interview question for SDET and Automation QA ?](https://automationreinvented.blogspot.com/2021/03/top-40-api-testing-interview-question.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [automationreinvented.blogspot.com: Top 70 interview questions on Automation Testing-Selenium-TestNG Set-06? TestNG Tricky Interview questions 2021 for SDET-QAE?](https://automationreinvented.blogspot.com/2021/01/top-60-interview-questions-on.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [automationreinvented.blogspot.com: Top 80 API Testing Interview Questions for QA and SDET ? API Interview Questions 2022](https://automationreinvented.blogspot.com/2022/03/top-80-api-testing-interview-questions.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Python mini-quiz](http://www.mypythonquiz.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [learnsteps.com: DevOps Interview Questions: Important Python questions](https://www.learnsteps.com/devops-interview-questions-important-python-questions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [vahid.blog: System Design Interview Cheat Sheet](https://vahid.blog/post/2022-05-05-system-design-interview-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [javarevisited.blogspot.com: Top 20 JSON Interview Questions with Answers for Beginners and Experienced Developers](https://javarevisited.blogspot.com/2022/08/json-interview-questions-with-answers.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>

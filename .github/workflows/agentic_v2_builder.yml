@@ -18,25 +18,29 @@ on:
       - 'docs/**'
       - 'data/inventory.yaml'
       - 'src/v2_optimizer.py'
-  # Support automated sync after curation or cleaning runs
-  workflow_run:
-    workflows: ["Nubenetes Automated Agentic Curation", "Nubenetes Intelligent Link Cleaner & Dedup"]
-    types:
-      - completed
 
 permissions:
   contents: write
   pull-requests: write
 
+concurrency:
+  group: v2-builder-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build-v2-edition:
     runs-on: ubuntu-latest
-    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && github.ref == 'refs/heads/develop') || (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
+    if: |
+      github.event_name == 'workflow_dispatch' || 
+      (github.event_name == 'push' && 
+       github.ref == 'refs/heads/develop' && 
+       !contains(github.event.head_commit.message, '[skip ci]'))
     steps:
       - name: Repository Synchronization
         uses: actions/checkout@v4
         with:
           ref: develop
+          fetch-depth: 0
 
       - name: Python 3.11 Environment Provisioning
         uses: actions/setup-python@v5
@@ -63,13 +67,45 @@ jobs:
           else
             echo "No safety report generated." > pr_description.md
           fi
+
+      - name: Consolidate README Metrics (Integrated)
+        env:
+          PYTHONPATH: .
+        run: |
+          python src/readme_updater.py
+          python src/safety_readme.py
           
       - name: Create Pull Request for V2 Elite Update
+        id: cpr
         uses: peter-evans/create-pull-request@v6
         with:
           branch: bot/v2-elite-sync
           base: develop
           title: "V2 Elite: Agentic Optimization Sync (2026)"
           body-path: pr_description.md
-          commit-message: "feat: sync V2 elite curated edition"
+          commit-message: "feat: sync V2 elite curated edition and README metrics [skip ci]"
           labels: "v2-elite, agentic-sync"
+
+      - name: Post Supplementary Architecture Audit (Comment)
+        if: steps.cpr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ steps.cpr.outputs.pull-request-number }}
+        run: |
+          if [ -f v2_file_audit.md ]; then
+            gh pr comment $PR_NUMBER --body-file v2_file_audit.md
+          fi
+
+      - name: Post Elite Decision Matrix (Comment)
+        if: steps.cpr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ steps.cpr.outputs.pull-request-number }}
+        run: |
+          if [ -f v2_decision_matrix.md ]; then
+            # Split decision matrix if too large for a single comment (approx 60k chars)
+            split -b 60000 v2_decision_matrix.md matrix_part_
+            for part in matrix_part_*; do
+              gh pr comment $PR_NUMBER --body-file $part
+            done
+          fi

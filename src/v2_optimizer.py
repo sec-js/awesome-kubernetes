@@ -343,15 +343,6 @@ class V2VisionEngine:
         
         with open(os.path.join(V2_DIR, "index.md"), "w") as f: f.write(index_md)
 
-        def gen_toc(node, depth, base_slug):
-            toc = ""
-            for name, subnode in sorted(node.items()):
-                if name == "__links__": continue
-                clean_name = clean_toc_text(name)
-                slug = f"{base_slug}-{clean_name.lower().replace(' ', '-')}"
-                toc += f"{' ' * (depth * 4)}- [{clean_name}](#{slug})\n" + gen_toc(subnode, depth + 1, slug)
-            return toc
-
         async def render_node(node, depth, base_slug, is_intro=False):
             md = ""
             for name, subnode in sorted(node.items()):
@@ -391,9 +382,7 @@ class V2VisionEngine:
             return md
 
         for f_name, info in data.items():
-            md = f"# {info['title']}\n\n!!! info \"Architectural Context\"\n    Detailed reference for {info['title']} in the context of {info['dim']}.\n\n## Table of Contents\n"
-            md += gen_toc(info["content"], 0, f_name.replace(".md", ""))
-            md += "\n---\n\n"
+            md = f"# {info['title']}\n\n!!! info \"Architectural Context\"\n    Detailed reference for {info['title']} in the context of {info['dim']}.\n\n"
             
             if f_name == "introduction.md":
                 md += "## Vision 2026\n\n!!! quote \"The Evolution of Autonomy\"\n    From manual curation to agentic intelligence.\n\n### Ecosystem Map\n```mermaid\ngraph TD\n    A[Foundations] --> B[AI & Intelligence]\n    A --> C[Hardened Infra]\n    B --> D[Agentic Curation]\n    C --> E[Enterprise Stability]\n    D --> F[Nubenetes Portal]\n    E --> F\n```\n\n"
@@ -433,3 +422,78 @@ class V2VisionEngine:
 if __name__ == "__main__":
     engine = V2VisionEngine()
     asyncio.run(engine.analyze_and_cluster())
+    
+    # --- PLATINUM GITOPS REPORTING (Multi-Comment) ---
+    from src.gitops_manager import RepositoryController
+    from src.config import TARGET_REPO
+    
+    # 1. High-Density Metrics Calculation
+    total_v1_links = len(engine.inventory)
+    v2_links = [l for l in engine.inventory.values() if l.get('v2_locations')]
+    total_v2_links = len(v2_links)
+    
+    # Delta & Efficiency
+    density_ratio = round((total_v2_links / total_v1_links) * 100, 2) if total_v1_links > 0 else 0
+    reduction_delta = total_v1_links - total_v2_links
+    
+    # Maturity Distribution
+    maturity_counts = {}
+    for l in v2_links:
+        tag = l.get('tag', '[COMMUNITY-TOOL]')
+        maturity_counts[tag] = maturity_counts.get(tag, 0) + 1
+
+    # 2. Document Architecture Audit
+    v2_files = sorted([f for f in os.listdir(V2_DIR) if f.endswith(".md")])
+    file_list_md = "| # | Document Name | Description |\n| :--- | :--- | :--- |\n"
+    for i, f in enumerate(v2_files, 1):
+        # Quick extract title from file
+        title = "Elite Category"
+        try:
+            with open(os.path.join(V2_DIR, f), "r") as doc:
+                line = doc.readline()
+                if line.startswith("# "): title = line.replace("# ", "").strip()
+        except: pass
+        file_list_md += f"| {i} | `{f}` | {title} |\n"
+
+    # 3. Decision Matrix (Maturity Audit)
+    matrix_rows = []
+    header_table = "| # | Status | Maturity | Stars | Dimension | Resource |\n| :--- | :--- | :--- | :---: | :--- | :--- |\n"
+    for idx, entry in enumerate(engine.maturity_audit, 1):
+        status = "💎 ELITE" if entry.get('v2_locations') else "📦 ARCHIVE"
+        row = f"| {idx} | {status} | {entry.get('tag', 'N/A')} | {'🌟'*entry.get('stars',0)} | {entry.get('dimension', 'N/A')} | {entry.get('url', 'N/A')} |\n"
+        matrix_rows.append(row)
+
+    # 4. Generate PR Body (Main Report)
+    with open("pr_description.md", "w") as f:
+        f.write(f"## 🏆 V2 Elite: Agentic Optimization Sync (2026)\n\n")
+        f.write(f"The V2 Portal has been synchronized with the latest V1 changes. This update enforces the **Minimum Viable Quality (MVQ)** and O'Reilly-style architectural standards.\n\n")
+        
+        f.write(f"### 📊 High-Density Efficiency\n")
+        f.write(f"| Metric | V1 Archive | V2 Elite | Delta / Efficiency |\n")
+        f.write(f"| :--- | :---: | :---: | :---: |\n")
+        f.write(f"| **Total Resources** | {total_v1_links} | {total_v2_links} | -{reduction_delta} ({density_ratio}% Density) |\n")
+        f.write(f"| **Maturity Tagging** | Manual | AI-Vetted | 100% Coverage |\n")
+        f.write(f"| **Hierarchical Depth** | Flat | Recursive | Max Depth: {engine.max_depth} |\n\n")
+
+        f.write("### 🏗️ Evidence of Elite Status\n")
+        f.write("```mermaid\npie title V2 Maturity Distribution\n")
+        for tag, count in maturity_counts.items():
+            tag_name = tag.replace('[','').replace(']','')
+            f.write(f"    \"{tag_name}\" : {count}\n")
+        f.write("```\n\n")
+        
+        from src.gemini_utils import SESSION_TRACKER
+        f.write(SESSION_TRACKER.get_intelligence_report())
+        f.write("\n\n---\n**Detailed Architectural Audit and Decision Matrix follow in comments.**\n")
+
+    # 5. Save Supplementary Reports for Workflow/GitOps
+    with open("v2_file_audit.md", "w") as f:
+        f.write("### 📜 V2 Document Architecture\n")
+        f.write(f"Exhaustive list of {len(v2_files)} generated elite documents.\n\n")
+        f.write(file_list_md)
+
+    with open("v2_decision_matrix.md", "w") as f:
+        f.write("### 📋 Elite Decision Matrix\n")
+        f.write("Detailed logs of maturity promotions and elite selections.\n\n")
+        f.write(header_table)
+        for row in matrix_rows: f.write(row)

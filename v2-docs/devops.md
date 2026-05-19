@@ -3,41 +3,10 @@
 !!! info "Architectural Context"
     Detailed reference for Devops in the context of Platform & Site Reliability.
 
-## Table of Contents
-
----
-
-  - [redhat.com: Why IT automation training is a smart way to boost your career](https://www.redhat.com/en/blog/it-automation-training)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Top 15 DevOps blogs to read and follow](https://www.techtarget.com/searchitoperations/feature/Top-15-DevOps-blogs-to-read-and-follow)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [deloitte.com: Culture change, not tech, is the secret to DevOps success (podcast) 🌟](https://www.deloitte.com/us/en/what-we-do/capabilities/cloud-transformation/collections/cloud-podcast.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [bikeshed.fm: The Bike Shed](https://bikeshed.thoughtbot.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [containerjournal.com: How the Rise of Containers Will Drive DevOps](https://cloudnativenow.com/topics/cloudnativedevelopment/how-the-rise-of-containers-will-drive-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [BBVA - DevOps: qué es y cómo mejorar los procesos gracias a esta estrategia](https://www.bbva.com/es/innovacion/devops-que-es-y-como-mejorar-los-procesos-gracias-a-esta-estrategia)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [acloudguru.com: 5 Reasons to NOT Move to DevOps 🌟](https://www.pluralsight.com/resources/blog/cloud/5-reasons-to-not-move-to-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.blog: What is DevOps? A guide to common methods and misconceptions 🌟](https://github.blog/enterprise-software/devops/devops-definition)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloudacademy.com: Blog / DevOpsDevOps: Why Is It Important to Decouple Deployment From Release?](https://platform.qa.com/login)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.blog: How to make DevOps your competitive advantage](https://github.blog/enterprise-software/devops/how-to-make-devops-your-competitive-advantage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [containerjournal.com: 9 Pillars of Engineering DevOps With Kubernetes](https://cloudnativenow.com/uncategorized/9-pillars-of-engineering-devops-with-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [softwebsolutions.com: DevOps and Microservices – Creating change together](https://www.softwebsolutions.com/resources/devops-and-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [containerjournal.com: Kubernetes Enables DevOps-as-a-Service (DaaS) 🌟](https://cloudnativenow.com/features/kubernetes-enables-devops-as-a-service-daas)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [infoworld.com: 5 devops practices to improve application reliability](https://www.infoworld.com/article/2263821/5-devops-practices-to-improve-application-reliability.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhat.com: Tales from the field: A system administrator's guide to IT automation](https://www.redhat.com/en/blog/it-automation-book)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.blog: 5 DevOps tips to speed up your developer workflow 🌟](https://github.blog/developer-skills/5-devops-tips-to-speed-up-your-developer-workflow)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [valuecoders.com: Why Should You Adopt DevOps To Deliver Business Value Rapidly?](https://www.valuecoders.com/blog/devops/devops-for-enterprises-growth)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [infoworld.com: How multicloud changes devops](https://www.infoworld.com/article/2337920/how-multicloud-changes-devops.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [searchitoperations.techtarget.com: Tips and tools to achieve a serverless DevOps workflow](https://www.techtarget.com/searchitoperations/tip/Tips-and-tools-to-achieve-a-serverless-DevOps-workflow)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [DevOps Glosary of Terms 🌟](https://digital.ai/glossary)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [The Ultimate DevOps Tool Chest 🌟](https://digital.ai/learn/diagram-generator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Periodic Table of DevOps 🌟](https://digital.ai/learn/devsecops-periodic-table)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [salaboy.com: The Challenges of Platform Building on Top of Kubernetes 4/4](https://www.salaboy.com/2022/11/28/the-challenges-of-platform-building-on-top-of-kubernetes-4-4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [frobes.com: How To Empower Modern Kubernetes Management With A Platform Team Model](https://www.forbes.com/councils/forbestechcouncil/2023/02/23/how-to-empower-modern-kubernetes-management-with-a-platform-team-model/?streamIndex=0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [loft.sh: Platform Engineering: The Definitive Guide](https://www.vcluster.com/blog/platform-engineering-the-definitive-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [infoworld.com: Why platform engineering?](https://www.infoworld.com/article/2338392/why-platform-engineering.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [seal.io: Open Source Platform Engineering for Dev & Ops](https://gpustack.ai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Port](https://www.port.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [enterprisersproject.com: DevOps: 5 things teams need from CIOs](https://enterprisersproject.com/article/2020/7/devops-5-things-teams-need)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [redhat.com: Understanding DevOps](https://www.redhat.com/en/topics/devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [redhat.com: El concepto de DevOps](https://www.redhat.com/es/topics/devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: Why IT automation training is a smart way to boost your career](https://www.redhat.com/en/blog/it-automation-training)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [about.gitlab.com: Soft skills are the key to your DevOps career advancement](https://about.gitlab.com/blog/2021/11/30/soft-skills-are-the-key-to-your-devops-career-advancement)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [salesforceben.com: 5 DevOps Concepts You Need to Know](https://www.salesforceben.com/5-devops-concepts-you-need-to-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [enterprisersproject.com: DevOps: 3 skills needed to support its future in the enterprise](https://enterprisersproject.com/article/2021/10/devops-future-operating-model-it)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -59,10 +28,13 @@
   - [devops.com](https://devops.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devopszone.info](https://www.devopszone.info)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devopsdigest.com](https://www.devopsdigest.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Top 15 DevOps blogs to read and follow](https://www.techtarget.com/searchitoperations/feature/Top-15-DevOps-blogs-to-read-and-follow)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devopstips.net](https://devopstips.net)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [orange-quarter.com: Upskill yourself with these 5 DevOps resources](https://orange-quarter.com/upskill-yourself-with-these-5-devops-resources)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [mrcloudbook.com: Mr Cloud Book](https://mrcloudbook.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/DevOps-Projects-Ideas/DevOps-Books 🌟🌟](https://github.com/DevOps-Projects-Ideas/DevOps-Books)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [deloitte.com: Culture change, not tech, is the secret to DevOps success (podcast) 🌟](https://www.deloitte.com/us/en/what-we-do/capabilities/cloud-transformation/collections/cloud-podcast.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [bikeshed.fm: The Bike Shed](https://bikeshed.thoughtbot.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/paragpallavsingh/90DaysOfDevOps: 90DaysOfDevOps Challenge](https://github.com/paragpallavsingh/90DaysOfDevOps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/paragpallavsingh/90DaysOfDevOps: Day 21 Task: Docker Essential Concepts](https://github.com/paragpallavsingh/90DaysOfDevOps/blob/master/submission/day21/README.md)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.google.com: State of DevOps 2021 🌟](https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -82,16 +54,22 @@
   - [DevOps engineers: Common misconceptions about the role](https://enterprisersproject.com/article/2020/6/devops-engineer-role-common-misconceptions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [DevOps for beginners: Where to start learning and focusing](https://enterprisersproject.com/article/2020/6/devops-beginners-where-start)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [scaledagileframework.com: DevOps 🌟🌟](https://www.scaledagileframework.com/devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [containerjournal.com: How the Rise of Containers Will Drive DevOps](https://cloudnativenow.com/topics/cloudnativedevelopment/how-the-rise-of-containers-will-drive-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [enterprisersproject.com: 3 DevOps skills IT leaders need for the next normal](https://enterprisersproject.com/article/2020/7/3-devops-skills-it-leaders-need-next-normal)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [red-gate.com: Automated Production Deployments are Not the Key to DevOps Performance](https://www.red-gate.com/blog/automated-production-deployments-are-not-the-key-to-devops-performance)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [BBVA - DevOps: qué es y cómo mejorar los procesos gracias a esta estrategia](https://www.bbva.com/es/innovacion/devops-que-es-y-como-mejorar-los-procesos-gracias-a-esta-estrategia)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [learnsteps.com: DevOps Interview Question: How will you set up a CI/CD pipeline? 🌟](https://www.learnsteps.com/devops-interview-question-how-will-you-set-up-a-ci-cd-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devops.com: Survey Surfaces High Reliance on DevOps to Build and Deploy APIs](https://devops.com/survey-surfaces-high-reliance-on-devops-to-build-and-deploy-apis)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [acloudguru.com: 5 Reasons to NOT Move to DevOps 🌟](https://www.pluralsight.com/resources/blog/cloud/5-reasons-to-not-move-to-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [forbes: Why No One Understands Agile, SCRUM & DevOps & Why Perfect Technology Abstractions Are Sure To Fail](https://www.forbes.com/sites/steveandriole/2020/10/01/why-no-one-understands-agile-scrum--devops--why-perfect-technology-abstractions-are-sure-to-fail)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.blog: What is DevOps? A guide to common methods and misconceptions 🌟](https://github.blog/enterprise-software/devops/devops-definition)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: From DevOps to DevApps 🌟](https://thenewstack.io/from-devops-to-devapps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: The Future of Ops Careers 🌟🌟](https://thenewstack.io/the-future-of-ops-careers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: DevOps World: DevOps Moves to Resilient Collaboration](https://thenewstack.io/post-pandemic-devops-moves-to-resilient-collaboration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloudacademy.com: Blog / DevOpsDevOps: Why Is It Important to Decouple Deployment From Release?](https://platform.qa.com/login)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: Puppet Releases Its 2020 State of DevOps Report 🌟](https://www.infoq.com/news/2020/11/2020-devops-report)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.com: Create a DevOps culture with open source principles](https://opensource.com/article/20/12/remote-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.blog: How to make DevOps your competitive advantage](https://github.blog/enterprise-software/devops/how-to-make-devops-your-competitive-advantage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.com: 3 critical DevOps concepts we explored in 2020 🌟](https://opensource.com/article/20/12/devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devops.com: Unlocking Your DevOps Automation Mindset 🌟](https://devops.com/unlocking-your-devops-automation-mindset)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devops.com: 7 Trends Influencing DevOps and DevSecOps Adoption](https://devops.com/7-trends-influencing-devops-and-devsecops-adoption)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -99,12 +77,16 @@
   - [thenewstack.io: DevOps, DevApps and the Death of Infrastructure](https://thenewstack.io/devops-devapps-and-the-death-of-infrastructure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devopscube.com: Become A DevOps Engineer in 2021: A Comprehensive Guide](https://devopscube.com/become-devops-engineer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devops.com: 6 Signs You’re Doing DevOps Correctly](https://devops.com/6-signs-youre-doing-devops-correctly)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [containerjournal.com: 9 Pillars of Engineering DevOps With Kubernetes](https://cloudnativenow.com/uncategorized/9-pillars-of-engineering-devops-with-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [content.techgig.com: 5 Best DevOps practices for beginners](https://content.techgig.com/5-best-devops-practices-for-beginners/articleshow/81368965.cms)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cst-bg.net: 13 clues you are doing DevOps right 🌟](https://www.cst-bg.net/post/13-clues-to-good-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [softwebsolutions.com: DevOps and Microservices – Creating change together](https://www.softwebsolutions.com/resources/devops-and-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: 5 Cloud Automation Tips for Developers and DevOps](https://thenewstack.io/5-cloud-automation-tips-for-developers-and-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [containerjournal.com: Kubernetes Enables DevOps-as-a-Service (DaaS) 🌟](https://cloudnativenow.com/features/kubernetes-enables-devops-as-a-service-daas)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Maximizing the Value of Containerization for DevOps](https://thenewstack.io/maximizing-the-value-of-containerization-for-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.com: A DevOps guide to documentation](https://opensource.com/article/21/3/devops-documentation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: DevOps is Not Enough for Scaling and Evolving Tech-Driven Organizations: a Q&A with Eduardo da Silva](https://www.infoq.com/articles/devops-not-enough-scaling-tech-driven-organizations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [infoworld.com: 5 devops practices to improve application reliability](https://www.infoworld.com/article/2263821/5-devops-practices-to-improve-application-reliability.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devops.com: Languages and DevOps: Recommendations](https://devops.com/languages-and-devops-recommendations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devops.com: Survey Shows Mounting DevOps Frustration and Costs](https://devops.com/survey-shows-mounting-devops-frustration-and-costs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube: The best DevOps tools, frameworks, and platforms in 2021 🌟](https://www.youtube.com/watch?v=js-rq7SvPpE&ab_channel=DevOpsToolkit)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -117,11 +99,13 @@
   - [devops.com: How Containers Simplify DevOps Workflows and CI/CD Pipelines 🌟](https://devops.com/how-containers-simplify-devops-workflows-and-ci-cd-pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: 5 GitHub Projects to make you a better DevOps Engineer 🌟](https://dev.to/ankit01oss/5-github-projects-to-make-you-a-better-devops-engineer-2fkl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloudbees.com: How to Nail DevOps Governance and Compliance in a Highly Regulated Industry 🌟](https://www.cloudbees.com/blog/how-to-nail-devops-governance-and-compliance-in-a-highly-regulated-industry)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: Tales from the field: A system administrator's guide to IT automation](https://www.redhat.com/en/blog/it-automation-book)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [forbes.com: DevOps: What You Need To Know 🌟](https://www.forbes.com/sites/tomtaulli/2021/07/16/devops-what-you-need-to-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [zdnet.com: Stop calling DevOps teams 'DevOps teams' 🌟🌟](https://www.zdnet.com/article/stop-calling-devops-teams-devops-teams)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devops.com: Yeah, You’re Doing DevOps](https://devops.com/yeah-youre-doing-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: How External IT Providers Can Adopt DevOps Practices 🌟](https://www.infoq.com/news/2021/08/external-IT-providers-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [chaossearch.io: 9 Essential DevOps Tools for 2021](https://www.chaossearch.io/blog/essential-devops-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [devopsonline.co.uk: The role of Automation in DevOps](https://www.devopsonline.co.uk/the-role-of-automation-in-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [sqlshack.com: 6 Reasons why you can’t have DevOps without Test Automation 🌟](https://www.sqlshack.com/6-reasons-why-you-cant-have-devops-without-test-automation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: DevOps Is Not Automation](https://dev.to/run-x/devops-is-not-automation-2amo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [intellipaat.com: What Does a DevOps Engineer Do? 🌟](https://intellipaat.com/blog/what-does-a-devops-engineer-do)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -130,6 +114,8 @@
   - [thenewstack.io: DevOps at the Crossroads: The Future of Software Delivery](https://thenewstack.io/devops-at-the-crossroads-the-future-of-software-delivery)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: 3 Habits of Highly Successful DevOps Teams](https://thenewstack.io/3-habits-of-highly-successful-devops-teams)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: DEV-OPS](https://dev.to/attaullahshafiq10/dev-ops-59dm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.blog: 5 DevOps tips to speed up your developer workflow 🌟](https://github.blog/developer-skills/5-devops-tips-to-speed-up-your-developer-workflow)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [valuecoders.com: Why Should You Adopt DevOps To Deliver Business Value Rapidly?](https://www.valuecoders.com/blog/devops/devops-for-enterprises-growth)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [freecodecamp.org: DevOps Engineering Course for Beginners](https://www.freecodecamp.org/news/devops-engineering-course-for-beginners)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [bmc.com: DevOps Metrics for Optimizing CI/CD Pipelines](https://www.bmc.com/blogs/devops-ci-cd-metrics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [simform.com: How to Implement DevOps for Enterprise?](https://www.simform.com/blog/devops-for-enterprise)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -144,8 +130,13 @@
   - [dynatrace.com: 9 key DevOps metrics for success - What are the four main DevOps metrics? DORA’s Four Keys](https://www.dynatrace.com/news/blog/devops-metrics-for-success)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: Your Roadmap to Become a DevOps Engineer in 2021](https://dev.to/kodekloud/your-roadmap-to-become-a-devops-engineer-in-2020-i1n)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [techworld-with-nana.com: DevOps Roadmap 🌟](https://www.techworld-with-nana.com/devops-roadmap)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [infoworld.com: How multicloud changes devops](https://www.infoworld.com/article/2337920/how-multicloud-changes-devops.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [searchitoperations.techtarget.com: Tips and tools to achieve a serverless DevOps workflow](https://www.techtarget.com/searchitoperations/tip/Tips-and-tools-to-achieve-a-serverless-DevOps-workflow)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [DevOps as a Service: Migrating Your Entire DevOps Stack to the Cloud](https://devops.com/devops-as-a-service-migrating-your-entire-devops-stack-to-the-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Ansible for DevOps Examples](https://github.com/geerlingguy/ansible-for-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [DevOps Glosary of Terms 🌟](https://digital.ai/glossary)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [The Ultimate DevOps Tool Chest 🌟](https://digital.ai/learn/diagram-generator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Periodic Table of DevOps 🌟](https://digital.ai/learn/devsecops-periodic-table)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Full Cycle Developers at Netflix — Operate What You Build](https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Applying Netflix DevOps Patterns to Windows](https://netflixtechblog.com/applying-netflix-devops-patterns-to-windows-2a57f2dbbf79)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devops.com: The Rise of NetDevOps and CI/CD Pipeline Solutions](https://devops.com/the-rise-of-netdevops-and-ci-cd-pipeline-solutions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -156,7 +147,7 @@
   - [blogs.sap.com: A Practical Guide to DevOps for SAP ERP](https://blogs.sap.com/2021/12/13/a-practical-guide-to-devops-for-sap-erp)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube playlist: DevOps - SonarQube, Artifactory, JFrog, Jenkins, Maven, etc 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-akoYTAboxT1AbHlPmrvRYYZ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube playlist: Docker 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-amqyqHceAhkcsopzi4PFcKc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [youtube playlist: Ansible Tutorial - by Thetips4you 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-al0Knm1A0eEXfGyd5kCi16p)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [youtube playlist: Ansible 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-al0Knm1A0eEXfGyd5kCi16p)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube playlist: Kubernetes 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-akr_3XqQQgpqRyQw4GYuS4h)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [platformengineering.org](https://platformengineering.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io/platform-engineering](https://thenewstack.io/platform-engineering)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -164,9 +155,13 @@
   - [thenewstack.io: DevOps Burnout? Try Platform Engineering](https://thenewstack.io/devops-burnout-try-platform-engineering)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [softwareengineeringdaily.com: The Rise of Platform Engineering 🌟](https://softwareengineeringdaily.com/2020/02/13/setting-the-stage-for-platform-engineering)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: How Is Platform Engineering Different from DevOps and SRE?](https://thenewstack.io/how-is-platform-engineering-different-from-devops-and-sre)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [salaboy.com: The Challenges of Platform Building on Top of Kubernetes 4/4](https://www.salaboy.com/2022/11/28/the-challenges-of-platform-building-on-top-of-kubernetes-4-4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [frobes.com: How To Empower Modern Kubernetes Management With A Platform Team Model](https://www.forbes.com/councils/forbestechcouncil/2023/02/23/how-to-empower-modern-kubernetes-management-with-a-platform-team-model/?streamIndex=0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to/thenjdevopsguy: Platform Engineering On Kubernetes Part 4: Internal Developer Platforms](https://dev.to/thenjdevopsguy/platform-engineering-on-kubernetes-part-4-internal-developer-platforms-1kmh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to/thenjdevopsguy: Create and Understand Your Platform Engineering Environment](https://dev.to/thenjdevopsguy/creating-your-platform-engineering-environment-4hpa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [siliconangle.com: The rise of platform engineering in the Kubernetes era](https://siliconangle.com/2023/04/20/rise-platform-engineering-kubernetes-era-kubecon)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [loft.sh: Platform Engineering: The Definitive Guide](https://www.vcluster.com/blog/platform-engineering-the-definitive-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [infoworld.com: Why platform engineering?](https://www.infoworld.com/article/2338392/why-platform-engineering.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: Platform Engineering and Internal Developer Platform (IDP)](https://dev.to/aws-builders/platform-engineering-and-internal-developer-platform-3deb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to/thenjdevopsguy: What Is Platform Engineering (And What Is It Not?)](https://dev.to/thenjdevopsguy/what-is-platform-engineering-and-what-is-it-not-2jb8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: The 6 Pillars of Platform Engineering: Part 1 — Security](https://thenewstack.io/the-6-pillars-of-platform-engineering-part-1-security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -178,10 +173,12 @@
   - [infoq.com: Platform Engineering – Making Other Teams 10x Better](https://www.infoq.com/podcasts/platform-engineering-teams-10x-better)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [syntasso.io: Platform Engineering: Orchestrating Applications, Platforms, and Infrastructure](https://www.syntasso.io/post/platform-engineering-orchestrating-applications-platforms-and-infrastructure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: 5 Lessons For Building a Platform as a Product](https://thenewstack.io/5-lessons-for-building-a-platform-as-a-product)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [seal.io: Open Source Platform Engineering for Dev & Ops](https://gpustack.ai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [humanitec.com: Why every Internal Developer Platform needs a backend](https://humanitec.com/blog/why-every-internal-developer-platform-needs-a-backend)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [piotrminkowski.com: IDP on OpenShift with Red Hat Developer Hub](https://piotrminkowski.com/2024/07/04/idp-on-openshift-with-red-hat-developer-hub)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/Qovery/Torii](https://github.com/Qovery/Torii)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/backstage/backstage](https://github.com/backstage/backstage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Port](https://www.port.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Cortex](https://www.cortex.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Atlassian Compass](https://www.atlassian.com/software/compass)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/KusionStack/kusion](https://github.com/KusionStack/kusion)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>

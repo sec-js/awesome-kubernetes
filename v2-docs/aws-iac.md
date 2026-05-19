@@ -3,10 +3,6 @@
 !!! info "Architectural Context"
     Detailed reference for Aws Iac in the context of Cloud Providers (Hyperscalers).
 
-## Table of Contents
-
----
-
   - [AWS Cloud Formation Release History](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/doc-history.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [All the AWS Resource Types Reference for AWS CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/TemplateReference/aws-template-resource-type-ref.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Introducing Cloud Formation Guard - a new opensource CLI for infrastructure compliance](https://aws.amazon.com/about-aws/whats-new/2020/06/introducing-aws-cloudformation-guard-preview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
