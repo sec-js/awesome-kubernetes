@@ -200,7 +200,8 @@ class V2VisionEngine:
         to_evaluate = []
         project_registry = {} 
         force_eval = os.getenv("FORCE_EVAL", "false").lower() == "true"
-        enrich_metadata = os.getenv("ENRICH_METADATA", "false").lower() == "true"
+        # Bypassing GitHub UI limitation: If force_eval is ON, we must enrich metadata to ensure [DE FACTO] logic uses fresh stars
+        enrich_metadata = os.getenv("ENRICH_METADATA", "false").lower() == "true" or force_eval
         special_files = [sa["file"] for sa in self.special_assets_rules.get("special_assets", [])]
 
         # Mandate 15: Proactive Enrichment for V2 (GitHub metadata is critical for tags)
