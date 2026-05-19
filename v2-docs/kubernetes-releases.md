@@ -60,3 +60,7 @@
   - [Private Access to the AWS Management Console is generally available](https://aws.amazon.com/about-aws/whats-new/2023/05/aws-management-console-private-access)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes.io: Kubernetes 1.27: In-place Resource Resize for Kubernetes Pods (alpha)](https://kubernetes.io/blog/2023/05/12/in-place-pod-resize-alpha)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Kubernetes 1.28 Accommodates the Service Mesh, Sudden Outages](https://thenewstack.io/kubernetes-1-28-accommodates-the-service-mesh-sudden-outages)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md)
+

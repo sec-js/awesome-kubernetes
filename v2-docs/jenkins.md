@@ -274,3 +274,7 @@
   - [blogs.sap.com: Continuous quality using plugins and Jenkins (ABAP & UI5)](https://blogs.sap.com/2020/10/18/continuous-quality-using-plugins-and-jenkins-abap-ui5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blogs.sap.com: CI/CD Tools for SAP Cloud Platform ABAP Environment](https://blogs.sap.com/2020/10/22/ci-cd-tools-for-sap-cloud-platform-abap-environment)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [templates.cloudonaut.io: Jenkins 2.0: highly available master](https://templates.cloudonaut.io/en/stable/jenkins/#jenkins-20-highly-available-master)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Registries](./registries.md) | [Argo](./argo.md) | [Sonarqube](./sonarqube.md)
+

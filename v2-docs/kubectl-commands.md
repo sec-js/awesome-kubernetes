@@ -31,3 +31,7 @@
   - [hackernoon.com: How to Work With the Kubectl Debug Command](https://hackernoon.com/how-to-work-with-the-kubectl-debug-command)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Flag export deprecated in kubernetes 1.14](https://github.com/kubernetes/kubernetes/pull/73787)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ansibleforkubernetes.com 🌟](https://www.ansibleforkubernetes.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md)
+

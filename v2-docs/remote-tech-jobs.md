@@ -12,3 +12,7 @@
   - [kube.careers](https://kube.careers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [esquire.com: ¿Por qué tu empresa no quiere que teletrabajes?](https://www.esquire.com/es/trabajo/a37314227/teletrabajo-volver-oficina)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [genbeta.com: El teletrabajo lleva a la gente a pasar más tiempo conectada y trabajando. Un experto da claves para evitar el agotamiento](https://www.genbeta.com/a-fondo/dar-flexibilidad-obligar-a-desconexion-teletrabajo-claves-para-mejorar-productividad-tu-equipo-trabajo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Recruitment](./recruitment.md) | [Freelancing](./freelancing.md) | [Interview Questions](./interview-questions.md)
+

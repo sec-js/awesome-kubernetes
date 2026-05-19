@@ -26,3 +26,7 @@
   - [blog.twstewart.me: cdk8s-python - A Love and Hate Experience](https://blog.twstewart.me/posts/cdk8s-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.marcnuri.com](https://blog.marcnuri.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [javaoperatorsdk.io: Build Kubernetes Operators in Java without hassle](https://javaoperatorsdk.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md)
+

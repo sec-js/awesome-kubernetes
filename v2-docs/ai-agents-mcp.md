@@ -15,3 +15,7 @@
   - [Kube-Ray](https://github.com/ray-project/kuberay)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [vLLM on Kubernetes](https://github.com/vllm-project/vllm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [NVIDIA GPU Operator](https://github.com/NVIDIA/gpu-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Ai](./ai.md) | [Chatgpt](./chatgpt.md) | [Mlops](./mlops.md)
+

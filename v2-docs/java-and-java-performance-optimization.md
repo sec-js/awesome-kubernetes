@@ -43,3 +43,7 @@
   - [developers.redhat.com: A faster way to access JDK Flight Recorder data](https://developers.redhat.com/articles/2021/11/23/faster-way-access-jdk-flight-recorder-data)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [vladmihalcea.com: How to tunnel localhost to the public Internet](https://vladmihalcea.com/tunnel-localhost-public-internet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [piotrminkowski.com: Java Flight Recorder on Kubernetes](https://piotrminkowski.com/2024/02/13/java-flight-recorder-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Golang](./golang.md) | [Javascript](./javascript.md) | [Maven Gradle](./maven-gradle.md)
+

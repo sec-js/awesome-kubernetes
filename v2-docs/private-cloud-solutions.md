@@ -4,3 +4,7 @@
     Detailed reference for Private Cloud Solutions in the context of Cloud Providers (Hyperscalers).
 
   - [thenewstack.io: Bad News for Cloud Computing: OpenStack Use Plummets and Discounts Dry Up](https://thenewstack.io/bad-news-for-cloud-computing-openstack-use-plummets-and-discounts-dry-up)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md) | [Aws Spain](./aws-spain.md)
+

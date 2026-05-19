@@ -18,3 +18,7 @@
   - [Windows Terminal 1.0](https://devblogs.microsoft.com/commandline/windows-terminal-1-0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Windows Package Manager CLI (aka winget)](https://github.com/microsoft/winget-cli)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cmder 🌟](https://cmder.net)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Golang](./golang.md) | [Javascript](./javascript.md)
+

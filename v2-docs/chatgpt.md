@@ -16,3 +16,7 @@
   - [github.com/robusta-dev/kubernetes-chatgpt-bot](https://github.com/robusta-dev/kubernetes-chatgpt-bot)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: K8sGPT + LocalAI: Unlock Kubernetes superpowers for free!](https://itnext.io/k8sgpt-localai-unlock-kubernetes-superpowers-for-free-584790de9b65)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [numerous.ai](https://numerous.ai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Ai](./ai.md) | [Ai Agents Mcp](./ai-agents-mcp.md) | [Mlops](./mlops.md)
+

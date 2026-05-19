@@ -44,3 +44,7 @@
   - [Using SDKMAN! as a docker image for Jenkins Pipeline - a step by step guide 🌟](https://e.printstacktrace.blog/using-sdkman-as-a-docker-image-for-jenkins-pipeline-a-step-by-step-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jitpack.io 🌟](https://jitpack.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [JBang](https://www.jbang.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Golang](./golang.md) | [Javascript](./javascript.md)
+

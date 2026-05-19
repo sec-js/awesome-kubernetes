@@ -10,3 +10,7 @@
   - [jhipster](https://www.jhipster.tech)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [skaffold](https://skaffold.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Azure/Draft 🌟](https://github.com/Azure/draft)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [Sre](./sre.md) | [Testops](./testops.md)
+

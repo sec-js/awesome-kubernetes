@@ -77,3 +77,7 @@
   - [xiaods/k8e](https://github.com/xiaods/k8e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [poseidon/typhoon](https://github.com/poseidon/typhoon)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kurl.sh](https://kurl.sh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Kubernetes Based Devel](./kubernetes-based-devel.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md)
+

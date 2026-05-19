@@ -24,3 +24,7 @@
   - [AWS Certified Solutions Architect Professional – Study Guide](https://blue-clouds.com/category/study-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [aws.amazon.com: First AWS Certification Study Guide Now Available](https://aws.amazon.com/es/about-aws/whats-new/2016/10/first-aws-certification-study-guide-now-available)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Securing Azure DevOps When Using Private Repositories](https://www.linkedin.com/top-content/?trk=article_not_found)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md) | [Aws Spain](./aws-spain.md)
+

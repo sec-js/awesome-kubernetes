@@ -31,7 +31,6 @@
   - [alesnosek.com: CI/CD Pipeline Spanning Multiple OpenShift Clusters (jenkins & tekton)](http://alesnosek.com/blog/2020/06/30/ci-slash-cd-pipeline-spanning-multiple-openshift-clusters)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openshift.com: Guide to OpenShift Pipelines Part 1 - Introducing OpenShift Pipelines](https://www.redhat.com/en/blog/guide-to-openshift-pipelines-part-1-introducing-openshift-pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openshift.com: GitOps Using Red Hat OpenShift Pipelines (Tekton) and Red Hat Advanced Cluster Management to Deploy on Multiple Clusters 🌟](https://www.redhat.com/en/blog/gitops-using-red-hat-openshift-pipelines-tekton-and-red-hat-advanced-cluster-management-to-deploy-on-multiple-clusters)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [docs.openshift.com: OpenShift GitOps](https://docs.redhat.com/en/documentation/openshift_container_platform/4.8/html/cicd/gitops#understanding-openshift-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.redhat.com: Virtual Machines as Code with OpenShift GitOps and OpenShift Virtualization](https://www.redhat.com/en/blog/virtual-machines-as-code-with-openshift-gitops-and-openshift-virtualization)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openshift.com: SSO Integration for the OpenShift GitOps Operator](https://www.redhat.com/en/blog/sso-integration-for-the-openshift-gitops-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openshift.com: How to Use HashiCorp Vault and Argo CD for GitOps on OpenShift](https://www.redhat.com/en/blog/how-to-use-hashicorp-vault-and-argo-cd-for-gitops-on-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -304,3 +303,7 @@
   - [devops.com: Measuring the Progress of the OpenTelemetry Project](https://devops.com/measuring-the-progress-of-the-opentelemetry-project)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hasura.io: A Simple, Realtime, Event Driven Architecture with QR Codes](https://hasura.io/blog/a-simple-real-time-event-driven-architecture-with-qr-codes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [learntocloud.guide: 3 ways to get hands on (AWS, Azure, GCP)](https://learntocloud.guide/#/projects/README)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Linux](./linux.md) | [Helm](./helm.md)
+

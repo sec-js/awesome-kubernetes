@@ -23,3 +23,7 @@
   - [Secretize 🌟](https://github.com/bbl/secretize)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Helm Is Not Enough, You Also Need Kustomize](https://itnext.io/helm-is-not-enough-you-also-need-kustomize-82bae896816e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [chrisns/k8s-opa-boilerplate](https://github.com/chrisns/k8s-opa-boilerplate)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Crossplane](./crossplane.md) | [Liquibase](./liquibase.md) | [Kubernetes Security](./kubernetes-security.md)
+

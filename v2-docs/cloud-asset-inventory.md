@@ -11,3 +11,7 @@
   - [Subscription Vending Implementation Guidance](https://learn.microsoft.com/en-us/azure/architecture/landing-zones/subscription-vending)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [steampipe 🌟](https://steampipe.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Querying AWS at scale across APIs, Regions, and accounts](https://aws.amazon.com/blogs/opensource/querying-aws-at-scale-across-apis-regions-and-accounts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Linux](./linux.md) | [Helm](./helm.md)
+

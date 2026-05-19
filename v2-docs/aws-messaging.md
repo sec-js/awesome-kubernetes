@@ -8,3 +8,7 @@
   - [Amazon SQS FAQs](https://aws.amazon.com/sqs/faqs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: When to SNS or SQS](https://dev.to/aws-builders/when-to-sns-or-sqs-2aji)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Building an event-driven application with Amazon EventBridge](https://aws.amazon.com/blogs/compute/building-an-event-driven-application-with-amazon-eventbridge)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md) | [Aws Spain](./aws-spain.md)
+

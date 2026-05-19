@@ -51,3 +51,7 @@
   - [dev.to: Using Kyverno Policies for Kubernetes Governance](https://dev.to/mda590/using-kyverno-policies-for-kubernetes-governance-3e17)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.sigstore.dev: How to verify container images with Kyverno using KMS, Cosign, and Workload Identity](https://blog.sigstore.dev/how-to-verify-container-images-with-kyverno-using-kms-cosign-and-workload-identity-1e07d2b85061)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Crossplane](./crossplane.md) | [Liquibase](./liquibase.md) | [Kubernetes Security](./kubernetes-security.md)
+

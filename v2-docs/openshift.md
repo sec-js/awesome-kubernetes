@@ -16,6 +16,7 @@
   - [docs.microsoft.com: JBoss deployment with Red Hat on Azure 🌟](https://learn.microsoft.com/en-us/azure/developer/java/ee/jboss-eap-on-aro)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Red Hat's approach to Kubernetes 🌟](https://www.redhat.com/en/solutions/kubernetes-approach)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [docs.openshift.com: Enabling tab completion](https://docs.redhat.com/en/documentation/openshift_container_platform/4.4/html/cli_tools/openshift-cli-oc#cli-configuring-cli)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [OpenShift 3.11: Configuring the cluster auto-scaler in AWS](https://docs.redhat.com/en/documentation/openshift_container_platform/3.11/html/cluster_administration/configuring-cluster-auto-scaler-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [OpenShift 4.4: Applying autoscaling to an OpenShift Container Platform cluster](https://docs.redhat.com/en/documentation/openshift_container_platform/4.4/html/machine_management/applying-autoscaling)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [O'Reilly Free Book: **DevOps with OpenShift**](https://www.redhat.com/en/resources)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: **Red Hat Container Development Kit**](https://developers.redhat.com/products/rhel)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -26,7 +27,9 @@
   - [blog.openshift.com: Troubleshooting OpenShift network performance with a netperf DaemonSet](https://www.redhat.com/en/blog/troubleshooting-openshift-network-performance-with-a-netperf-daemonset)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.openshift.com: Advanced Network customizations for OpenShift Install](https://www.redhat.com/en/blog/advanced-network-customizations-for-openshift-install)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [docs.openshift.com: OpenShift 3 Overview](https://docs.redhat.com/en/documentation/openshift_container_platform/3.11/html/architecture/architecture-index)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [docs.openshift.com: OpenShift 3 Securing the Container Platform](https://docs.redhat.com/en/documentation/openshift_container_platform/3.11/html/container_security_guide/security-platform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ocs.openshift.com: OpenShift 4 Understanding Authentication](https://docs.redhat.com/en/documentation/openshift_container_platform/4.4/html/authentication_and_authorization/understanding-authentication)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [docs.openshift.com: Managing Security Context Constraints](https://docs.redhat.com/en/documentation/openshift_container_platform/3.11/html/cluster_administration/admin-guide-manage-scc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [docs.openshift.com: Managing Security Context Constraints. Security Context Constraints](https://docs.redhat.com/en/documentation/openshift_container_platform/3.11/html/architecture/additional-concepts#architecture-additional-concepts-authorization)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Fully Automated Management of Egress IPs with the egressip-ipam-operator 🌟](https://www.redhat.com/en/blog/fully-automated-management-of-egress-ips-with-the-egressip-ipam-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openshift.com: Kubernetes Ingress vs OpenShift Route](https://www.redhat.com/en/blog/kubernetes-ingress-vs-openshift-route)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -63,3 +66,7 @@
   - [aws.amazon.com: AWS Quick Start (OpenShift 3.11 on AWS)](https://aws.amazon.com/quickstart/architecture/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Red Hat OpenShift Dedicated price reduction: Price lowered by 75% on average, SLA improved to 99.95% 🌟](https://www.redhat.com/en/blog/red-hat-openshift-dedicated-price-reduction)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Awesome Openshift 2](https://github.com/oscp/awesome-openshift3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md)
+

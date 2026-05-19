@@ -126,3 +126,7 @@
   - [redhat.com: Red Hat Makes DevOps a Reality with OpenShift GitOps and OpenShift Pipelines 🌟](https://www.redhat.com/en/about/press-releases/red-hat-makes-devops-reality-openshift-gitops-and-openshift-pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [piotrminkowski.com: GitOps with Advanced Cluster Management for Kubernetes 🌟](https://piotrminkowski.com/2022/10/24/gitops-with-advanced-cluster-management-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube.com: GitOps Guide to the Galaxy 🌟🌟🌟](https://www.youtube.com/playlist?list=PLbMP1JcGBmSGKO8UreWpOBOhCqilejhtd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Registries](./registries.md) | [Argo](./argo.md) | [Sonarqube](./sonarqube.md)
+

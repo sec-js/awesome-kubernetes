@@ -21,3 +21,7 @@
   - [New AWS Competency – AWS Migration](https://aws.amazon.com/blogs/aws/new-aws-competency-aws-migration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Migrate Resources Between AWS Accounts](https://aws.amazon.com/blogs/architecture/migrate-resources-between-aws-accounts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Multi-Region Migration using AWS Application Migration Service](https://aws.amazon.com/blogs/architecture/multi-region-migration-using-aws-application-migration-service)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md) | [Aws Spain](./aws-spain.md)
+

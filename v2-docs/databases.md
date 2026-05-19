@@ -23,6 +23,7 @@
   - [percona.com: MySQL 101: Parameters to Tune for MySQL Performance](https://www.percona.com/blog/mysql-101-parameters-to-tune-for-mysql-performance)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [percona.com: MySQL on Kubernetes with GitOps 🌟](https://www.percona.com/blog/mysql-on-kubernetes-with-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [tusacentral.com: MySQL on Kubernetes demystified](http://www.tusacentral.com/joomla/index.php/mysql-blogs/243-mysql-on-kubernetes-demystified)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [migops.com: pgBackRest – The Best Postgres Backup Tool with a very active community](https://www.hugedomains.com/domain_profile.cfm?d=migops.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [percona.com: An Overview of Sharding in PostgreSQL and How it Relates to MongoDB’s](https://www.percona.com/blog/an-overview-of-sharding-in-postgresql-and-how-it-relates-to-mongodbs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.crunchydata.com: How to Setup PostgreSQL Monitoring in Kubernetes](https://www.crunchydata.com/blog/setup-postgresql-monitoring-in-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.flant.com: Comparing Kubernetes operators for PostgreSQL](https://palark.com/blog/comparing-kubernetes-operators-for-postgresql)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -135,3 +136,7 @@
   - [SQErzo: Tiny ORM for Graph databases](https://github.com/BBVA/sqerzo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [towardsdatascience.com: At Its Core: How Is a Graph Database Different from a Relational One?](https://towardsdatascience.com/at-its-core-hows-a-graph-database-different-from-a-relational-8297ca99cb8f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [xataka.com: El Excel se ha usado en la Fórmula 1 hasta que se han dado cuenta que no es la mejor forma de controlar las 20.000 piezas del coche](https://www.xataka.com/automovil/excel-se-ha-usado-formula-1-que-se-han-dado-cuenta-que-no-mejor-forma-controlar-20-000-piezas-coche)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Yaml](./yaml.md) | [Message Queue](./message-queue.md) | [Newsql](./newsql.md)
+

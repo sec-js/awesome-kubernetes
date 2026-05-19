@@ -8,3 +8,7 @@
   - [github.com/oracle](https://github.com/oracle)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [docs.oracle.com: Overview of Resource Manager](https://docs.oracle.com/en-us/iaas/Content/ResourceManager/Concepts/resourcemanager.htm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thatjeffsmith.com: Best Practices: REST APIs for your Database {Draft!}](http://www.thatjeffsmith.com/archive/2022/02/best-practices-rest-apis-for-your-database-draft)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md) | [Aws Spain](./aws-spain.md)
+

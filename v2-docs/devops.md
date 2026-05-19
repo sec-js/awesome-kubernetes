@@ -182,3 +182,7 @@
   - [Cortex](https://www.cortex.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Atlassian Compass](https://www.atlassian.com/software/compass)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/KusionStack/kusion](https://github.com/KusionStack/kusion)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Scaffolding](./scaffolding.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [Sre](./sre.md)
+

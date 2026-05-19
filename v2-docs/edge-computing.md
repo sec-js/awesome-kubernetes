@@ -9,3 +9,7 @@
   - [thenewstack.io: Cloudian CTO: Kubernetes, Standardization Key to Edge](https://thenewstack.io/cloudian-cto-kubernetes-standardization-key-to-edge)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Bring your Kubernetes workloads to the edge](https://developers.redhat.com/articles/2021/11/22/bring-your-kubernetes-workloads-edge)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: A New Kubernetes Edge Architecture](https://thenewstack.io/a-new-kubernetes-edge-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md) | [Aws Spain](./aws-spain.md)
+

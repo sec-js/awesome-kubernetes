@@ -90,3 +90,7 @@
   - [lavanguardia.com: Los estilos de liderazgo más apreciados por los empleados](https://www.lavanguardia.com/vivo/20211113/7856878/cualidades-mas-valoran-empleados-jefe-pmv.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [euroresidentes.com: La intimidación verbal en la empresa](https://www.euroresidentes.com/empresa/exito-empresarial/la-intimidacin-verbal-en-la-empresa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [swarmia.com/build: Build Elements of an Effective Software Organization](https://www.swarmia.com/build)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Scaffolding](./scaffolding.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [Sre](./sre.md)
+

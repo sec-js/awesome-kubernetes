@@ -70,3 +70,7 @@
   - [https://github.com/jenkins-x/jenkins-x-openshift-image](https://github.com/jenkins-x/jenkins-x-openshift-image)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dagger.io](https://dagger.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dagger/dagger: Dagger is a portable devkit for CICD](https://github.com/dagger/dagger)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Registries](./registries.md) | [Argo](./argo.md) | [Sonarqube](./sonarqube.md)
+

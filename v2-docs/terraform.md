@@ -351,3 +351,7 @@
   - [itnext.io: My Journey to HashiCorp Certified: Terraform Associate](https://itnext.io/my-journey-to-hashicorp-certified-terraform-associate-f91f397a01e0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [tomwechsler/HashiCorp_Certified_Terraform_Associate](https://github.com/tomwechsler/HashiCorp_Certified_Terraform_Associate)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Teaser: Chapter 2 of Terraform Authoring and Operations Professional Study Guide](https://mattias.engineer/blog/2024/terraform-professional-chapter-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Crossplane](./crossplane.md) | [Liquibase](./liquibase.md) | [Kubernetes Security](./kubernetes-security.md)
+

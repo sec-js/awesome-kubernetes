@@ -59,3 +59,7 @@
   - [blog.argoproj.io: Practical Argo Workflows Hardening 🌟](https://blog.argoproj.io/practical-argo-workflows-hardening-dd8429acc1ce)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.argoproj.io: Architecting Workflows For Reliability](https://blog.argoproj.io/architecting-workflows-for-reliability-d33bd720c6cc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ArgoCon North America 2026 Call for Proposals](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/argocon/#call-for-proposals)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Registries](./registries.md) | [Sonarqube](./sonarqube.md) | [Openshift Pipelines](./openshift-pipelines.md)
+

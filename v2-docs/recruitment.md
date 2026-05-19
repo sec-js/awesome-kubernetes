@@ -69,3 +69,7 @@
   - [forbes.com: What Do Employers Want To See In Your CV?](https://www.forbes.com/sites/andrewfennell/2021/09/08/what-do-employers-want-to-see-in-your-cv)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/rakyll/fake-it-til-you-make-it](https://github.com/rakyll/fake-it-til-you-make-it)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kubernetes Security Best Practices: A DevSecOps Perspective](https://www.linkedin.com/top-content/career)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Freelancing](./freelancing.md) | [Interview Questions](./interview-questions.md) | [Elearning](./elearning.md)
+

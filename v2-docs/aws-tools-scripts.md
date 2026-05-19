@@ -39,3 +39,7 @@
   - [Amazon CodeCatalyst](https://codecatalyst.aws/explore)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/Reaimua/AWS-CLI-Uploader-Project](https://github.com/Reaimua/AWS-CLI-Uploader-Project)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/welldone-cloud/aws-list-resources](https://github.com/welldone-cloud/aws-list-resources)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md) | [Aws Spain](./aws-spain.md)
+

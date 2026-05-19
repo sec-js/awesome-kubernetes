@@ -91,3 +91,7 @@
   - [dev.to: Rapid API Creation with AWS Amplify](https://dev.to/fllstck/rapid-api-creation-with-aws-amplify-3c8i)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openapi-comment-parser](https://github.com/bee-travels/openapi-comment-parser)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [API Business Models. 20 Models in 20 Minutes](https://www.infoq.com/presentations/API-Business-Models)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Golang](./golang.md) | [Javascript](./javascript.md)
+

@@ -188,3 +188,7 @@
   - [kdnuggets.com: The Complete Collection of Data Science Cheat Sheets – Part 1](https://www.kdnuggets.com/2022/02/complete-collection-data-science-cheat-sheets-part-1.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kdnuggets.com: The Complete Collection of Data Science Cheat Sheets – Part 2](https://www.kdnuggets.com/2022/02/complete-collection-data-science-cheat-sheets-part-2.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [teamhood.com: scrum cheat sheet](https://teamhood.com/agile/scrum-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Linux](./linux.md) | [Helm](./helm.md)
+

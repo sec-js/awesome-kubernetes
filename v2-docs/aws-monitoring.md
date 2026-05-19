@@ -16,3 +16,7 @@
   - [Amazon Managed Service for Prometheus](https://aws.amazon.com/prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Amazon Managed Service for Grafana](https://aws.amazon.com/grafana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: AWS Introduces Amazon Managed Service for Grafana and Amazon Managed Service for Prometheus](https://www.infoq.com/news/2021/01/aws-grafana-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md) | [Aws Spain](./aws-spain.md)
+

@@ -42,3 +42,7 @@
   - [DevOps Roadmap for 2026](https://github.com/milanm/DevOps-Roadmap)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [What is Podman and How Does it Compare to Docker?](https://build5nines.com/what-is-podman-and-how-does-it-compare-to-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Open Source Friday: Spec Kit - What it is, the problems it solves, and how clear specs make collaboration work](https://www.youtube.com/live/2IArMAhkJcE?si=_LlIjakRXHUzERjy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Linux](./linux.md) | [Helm](./helm.md)
+
