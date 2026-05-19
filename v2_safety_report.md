@@ -1,6 +1,6 @@
 
 ## 🛡️ Platinum Safety & Mandate Audit: ❌ FAILED
-*Audit executed on 2026-05-19 16:16:10*
+*Audit executed on 2026-05-19 18:10:17*
 
 ### 🔍 High-Value Pending Reviews
 > ⚠️ The following resources have been preserved in V1 but hidden from V2 for manual audit.
@@ -106,7 +106,7 @@
 | License Type | Count |
 | :--- | :---: |
 | N/A | 13767 |
-| Apache-2.0 | 791 |
+| Apache-2.0 | 792 |
 | MIT | 432 |
 | NOASSERTION | 121 |
 | GPL-3.0 | 45 |
@@ -674,8 +674,66 @@
 
 
 ### 🟡 Warnings & Recommendations
-<details><summary>Click to view 9 recommendations</summary>
+<details><summary>Click to view 67 recommendations</summary>
 
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/dirien/pulumi-civo-flux-bucket` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/sonatype-nexus-community/nexus-kubernetes-openshift` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/cinhtau/sonatype-nexus-waffle` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/scorputty/packer-centos-awx` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/abessifi/ansible-sqlplus` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/mhausenblas/openshift-cheat-sheet` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/askmeegs/yaml-your-cloud` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/systemcraftsman/lab-tekton-pipelines` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/deweya/OpenShift-Jenkins-Lab` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/major/imagebuilder-containerized/blob/main/.github/workflows/main.yml` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/jenkins-x-plugins/jx-secret-postrenderer` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/nicolai86/github-rebase-bot` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/IBM/CP4MCM-SDK` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/jenkins-x/jenkins-x-openshift-image` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/gfkse/jenkins-shared-library` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/ManagedKube/kubernetes-development-environment-in-a-box` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/jace-ys/sentry-operator` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/didil/autobucket-operator` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/tinyzimmer/gst-pipeline-operator` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/ContainerSolutions/delayed-jobs-operator` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/clvx/k8s-rbac-model` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/dfrappart/articles/blob/master/podidentityjourney.md` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/oscp/awesome-openshift3` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/robzienert/awesome-spinnaker` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/mancubus77/awesome-sre` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/vincentserpoul/kubench` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/LukeMwila/bootstrap-rke-cluster-in-aws` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/tinyzimmer/k3p` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/YannickRe/msgraph-utility-scripts` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/Azure-Samples/azure-pipelines-remote-tasks` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/adaptant-labs/k8s-dt-node-labeller` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/adaptant-labs/k8s-node-label-monitor` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/kareem-elsayed/k8s-alerts` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/yteraoka/kubectl-isolate` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/pyang55/k8sdeploy` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/GambitResearch/kubeonoff` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/anthonysterling/setec` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/bit-cloner/kcg` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/adaptant-labs/k8s-auto-labeller` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/Isan-Rivkin/kube_query` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/gimlet-io/gimletd` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/yashvardhan-kukreja/kube-bench-exporter` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/AICoE/OpenShiftKubeAudit` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/night-gold/armada` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/cloud-ark/caastle` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/dcherman/image-cache-daemon` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/maorfr/kube-tasks` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/e-minguez/openshift-yolo` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/devopshubproject/azure-terraform-ansible` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/c0dyhi11/k3s-linkerd` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/kuhlman-labs/terraform-azurerm-landing-zone` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/pie-r/terragrunt-vs-terraspace` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/mmmmmmpc/forklift-configmap-service` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/nubenetes/apache-reverse-proxy-jenkins` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/nubenetes/jenkins-CasC-kubernetes-demo` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/tfxor/terraform-google-automation-demo` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/nubenetes/nexus3-helm-chart` (>4yrs) in V2 with low impact
+- 🏚️ **MVQ Violation**: Stale repo `https://github.com/sdduursma/github-merge-bot` (>4yrs) in V2 with low impact
 - 🧬 **Schema Incomplete**: `https://developers.redhat.com/blog/2019/11/27/handling-angular-environments-in-continuous-delivery-with-red-hat-openshift` missing ['hierarchy']
 - 🧬 **Schema Incomplete**: `https://javascript.plainenglish.io/enough-why-its-time-to-rip-out-angular-7d831802c8a2` missing ['hierarchy']
 - 🧬 **Schema Incomplete**: `https://calendly.com` missing ['hierarchy']
