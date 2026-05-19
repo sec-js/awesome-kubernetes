@@ -21,27 +21,30 @@
 
 ## 💎 The Maturity Taxonomy
 
-To ensure industrial-grade precision, every resource in V2 is classified using our proprietary 5-tier maturity system:
+To ensure industrial-grade precision, every resource in V2 is classified using our proprietary maturity system. A single resource may carry **multiple tags** to provide full technical context:
 
 | Tag | Description | Engineering Context |
 | :--- | :--- | :--- |
-| **`[DE FACTO STANDARD]`** | The industry baseline. | Tools like Kubernetes, Terraform, or Prometheus that define the current architecture. |
+| **`[DE FACTO STANDARD]`** | The industry baseline. | Tools like Kubernetes or Terraform that define current architecture. |
 | **`[ENTERPRISE-STABLE]`** | Battle-tested and reliable. | Proven solutions with strong community and commercial support. |
-| **`[EMERGING]`** | The cutting edge. | High-potential tools and patterns (e.g., AI Agents, MCP) shaping the future. |
-| **`[GUIDE]`** | Strategic knowledge. | High-quality tutorials, architectural deep-dives, and decision matrices. |
-| **`[LEGACY]`** | Historical context. | Established tools that are being replaced or are primarily for maintaining older stacks. |
+| **`[EMERGING]`** | The cutting edge. | High-potential tools and patterns shaping the future. |
+| **`[GUIDE]`** | Strategic knowledge. | High-quality tutorials and architectural deep-dives. |
+| **`[CASE STUDY]`** | Real-world evidence. | Practical implementation reports from leading engineering teams. |
+| **`[COMMUNITY-TOOL]`** | Ecosystem contribution. | Useful tools and projects maintained by the community. |
+| **`[LEGACY]`** | Historical context. | Tools being replaced or primarily for maintaining older stacks. |
 
-## 🌟 Technical Impact (Relevance Score)
+## 🌟 Technical Impact and High-Value Highlighting
 
-The stars accompanying each resource represent its **Technical Impact** and **Architectural Relevance** for a 2026 Senior Architect:
+We use a combination of stars and visual formatting to highlight the most critical resources for an Architect:
 
-| Impact | Level | Meaning |
+| Impact / Format | Level | Meaning |
 | :---: | :--- | :--- |
-| 🌟🌟🌟🌟🌟 | **Platinum Standard** | Critical industry foundation. Essential knowledge for any Cloud Native architecture. |
-| 🌟🌟🌟🌟 | **Gold Standard** | Highly recommended. Proven value and significant community/enterprise momentum. |
-| 🌟🌟🌟 | **Silver Standard** | Solid technical reference. Useful for specific use cases or established patterns. |
-| 🌟🌟 | **Bronze Standard** | Interesting alternative or niche tool. Good to have in the toolkit for specific scenarios. |
-| 🌟 | **Reference Only** | Basic documentation or historical reference without major current impact. |
+| 🌟🌟🌟🌟🌟 | **Platinum Standard** | **`==[Yellow Highlighting]==`** - Critical assets and "Must-Read" foundations. |
+| 🌟🌟🌟🌟 | **Gold Standard** | **`**Bold Text**`** - Highly recommended with significant industry momentum. |
+| 🌟🌟🌟 | **Silver Standard** | Solid technical reference for specific use cases or patterns. |
+| 🌟🌟 | **Bronze Standard** | Interesting alternative or specialized niche tool. |
+| 🌟 | **Legacy / Intro** | Historical context or basic introductory material. |
+| (No stars) | **Standard Reference** | Official documentation, standard repositories, or general consultation resources. |
 
 ## ⚡ The Agentic Pulse
 

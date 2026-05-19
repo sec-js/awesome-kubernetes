@@ -329,8 +329,13 @@ Nubenetes operates with two distinct editions to serve different engineering nee
 - **Deployment:** [nubenetes.com](https://nubenetes.com)
 
 ### 5.2. V2: The Agentic Elite Edition
-- **Purpose:** A high-density, enterprise-grade portal for the 2026 ecosystem.
+- **Purpose:** A high-density, enterprise-grade portal for the modern Cloud Native ecosystem (2026 and beyond).
 - **Algorithm:** Uses the **Incremental Elite Engine** to select and classify top-tier resources.
+- **Visual Standards (Elite Hierarchy):**
+    - **`==[Yellow Highlighting]==`**: **Platinum Standard** (5 stars) – Foundational "Must-Read" assets.
+    - **`**Bold Text**`**: **Gold Standard** (4 stars) – Highly recommended resources with strong industry momentum.
+    - **Stars (🌟)**: Represent technical impact (1-5 scale).
+    - **No stars**: Standard reference documentation and technical resources.
 - **Executive Context**: Every strategic dimension features an AI-generated **State-of-the-Art Introduction** providing high-level architectural context and industry direction before the link listings.
 - **Source of Truth:** The `v2-docs/` directory (Derived from V1).
 - **Deployment:** [nubenetes.com/v2/](https://nubenetes.com/v2/)

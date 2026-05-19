@@ -263,11 +263,27 @@ class V2VisionEngine:
                 await asyncio.sleep(0.3)
         return list(project_registry.values())
 
-    def _calculate_tag(self, item: Dict) -> str:
-        stars = item.get("gh_stars", 0)
-        if stars > 15000: return "[DE FACTO STANDARD]"
-        if stars > 3000: return "[ENTERPRISE-STABLE]"
-        return "[COMMUNITY-TOOL]"
+    def _calculate_tags(self, item: Dict) -> List[str]:
+        tags = []
+        gh_stars = item.get("gh_stars", 0)
+        res_type = item.get("resource_type", "Reference").lower()
+        
+        # 1. Maturity Logic (GitHub based)
+        if gh_stars > 15000: tags.append("[DE FACTO STANDARD]")
+        elif gh_stars > 3000: tags.append("[ENTERPRISE-STABLE]")
+        
+        # 2. Type Mapping (AI based)
+        if "guide" in res_type or "tutorial" in res_type: tags.append("[GUIDE]")
+        if "case study" in res_type or "report" in res_type: tags.append("[CASE STUDY]")
+        
+        # 3. Emerging / Legacy logic
+        if item.get("complexity") == "Cutting Edge" or "emerging" in item.get("ai_summary", "").lower():
+            tags.append("[EMERGING]")
+        
+        # Fallback
+        if not tags: tags.append("[COMMUNITY-TOOL]")
+        
+        return tags
 
     async def _rebuild_structure(self, library_inventory: List[Dict]):
         special_rules = {sa["file"]: sa for sa in self.special_assets_rules.get("special_assets", [])}
@@ -277,6 +293,9 @@ class V2VisionEngine:
         file_to_dim = {f + ".md": dim for dim, files in self.dimensions.items() for f in files}
 
         for item in library_inventory:
+            # Calculate multi-tags
+            item["tags"] = self._calculate_tags(item)
+            
             orig_file = item.get("original_file", "unknown.md")
             dim = file_to_dim.get(orig_file, "Architectural Foundations")
             
@@ -374,10 +393,20 @@ class V2VisionEngine:
                         res_type = l.get("resource_type", "Reference")
                         type_tag = f" <span class='md-tag md-tag--primary'>[{res_type.upper()}]</span>" if res_type.lower() in ["case study", "guide", "documentation"] else ""
                         rich = "".join([f" <small>by **{l['author']}**</small>" if l.get("author") else "", f" <span class='md-tag md-tag--info'>⏱️ {l['duration']}</span>" if l.get("duration") else "", f" <span class='md-tag md-tag--info'>📖 {l['reading_time']}</span>" if l.get("reading_time") else ""])
-                        tag = l.get("tag", "[COMMUNITY-TOOL]")
-                        color = "success" if "STANDARD" in tag else "warning" if "EMERGING" in tag else "info"
+                        tag_html = ""
+                        for tag in l.get("tags", ["[COMMUNITY-TOOL]"]):
+                            color = "success" if "STANDARD" in tag else "warning" if "EMERGING" in tag else "secondary" if "CASE STUDY" in tag or "GUIDE" in tag else "info"
+                            tag_html += f" <span class='md-tag md-tag--{color}'>{tag}</span>"
                         
-                        md += f"  - {year_prefix}[{title}]({l['url']}){icon}{gh_info}{lang_tag}{level_tag}{type_tag}{rich} {'🌟'*l.get('stars',0)} <span class='md-tag md-tag--{color}'>{tag}</span>\n"
+                        # Apply Visual Highlighting (Mandate 32)
+                        raw_stars = l.get('stars', 0)
+                        link_text = title
+                        if raw_stars >= 5:
+                            link_text = f"=={title}=="
+                        elif raw_stars >= 4:
+                            link_text = f"**{title}**"
+                            
+                        md += f"  - {year_prefix}[{link_text}]({l['url']}){icon}{gh_info}{lang_tag}{level_tag}{type_tag}{rich} {'🌟'*raw_stars}{tag_html}\n"
                         if l.get('ai_summary'): md += f"\n      {l['ai_summary']}\n\n"
             return md
 
@@ -439,8 +468,9 @@ if __name__ == "__main__":
     # Maturity Distribution
     maturity_counts = {}
     for l in v2_links:
-        tag = l.get('tag', '[COMMUNITY-TOOL]')
-        maturity_counts[tag] = maturity_counts.get(tag, 0) + 1
+        tags = l.get('tags', ['[COMMUNITY-TOOL]'])
+        for tag in tags:
+            maturity_counts[tag] = maturity_counts.get(tag, 0) + 1
 
     # 2. Document Architecture Audit
     v2_files = sorted([f for f in os.listdir(V2_DIR) if f.endswith(".md")])
