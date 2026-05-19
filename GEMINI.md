@@ -127,6 +127,7 @@ This file contains the accumulated instructions and long-term vision for the aut
 38. **V2 Semantic Connectivity**: All V2 content generation MUST implement the **Semantic Cross-Linking Engine**. AI agents must autonomously identify related architectural patterns within the same strategic dimension and inject "💡 Explore Related" navigation blocks at the end of sections to facilitate a connected knowledge graph.
 39. **Industrial Learning Flow**: V2 documents MUST follow an O'Reilly-style technical progression. Organization within sections must move from foundational theory and standards to advanced implementation details and emerging patterns.
 40. **Autonomous Multi-Tagging**: Every resource evaluation MUST assign at least one maturity tag and one resource-type tag if applicable. Fallback to `[COMMUNITY-TOOL]` is only permitted after exhaustive classification failure.
+41. **V2 Index Branding Protection**: The header and vision block of the V2 Elite Portal MUST NOT be modified. The title MUST remain "Nubenetes Elite Portal (V2)" and the abstract MUST use the "The High-Density Vision" text as hardcoded in the optimizer logic to maintain industrial-grade branding.
 37. **Linguistic Uniformity**: All core documentation (index, README, GEMINI.md) and V2 portal summaries MUST be written in **Professional Technical English**. V1 descriptions remain in their native language (Mandate 10).
 
 ## 🛠️ Structural Evolution & Navigation

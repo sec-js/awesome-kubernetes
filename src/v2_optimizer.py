@@ -369,7 +369,16 @@ class V2VisionEngine:
         trending_pool = sorted([dict(meta, url=url) for url, meta in self.inventory.items() if meta.get("stars", 0) >= 4], key=lambda x: (x.get("pub_date", "0000"), -x.get("stars", 0)), reverse=True)
         pulse_md = "## ⚡ The Agentic Pulse\n" + "\n".join([f"- **({l.get('pub_date', 'N/A')[:10]})** [**=={l['title']}==**]({l['url']}) {'🌟'*l.get('stars',3)}" for l in trending_pool[:5]])
         
-        index_md = f"# Nubenetes V2 | The High-Density Library (2026)\n\n![Banner](images/kubernetes_logo.jpg)\n\n!!! quote \"The Library of 2026\"\n    Structured like an advanced technical book.\n\n<center markdown=\"1\">\n{mosaic_html}\n</center>\n\n{pulse_md}\n\n## Strategic Dimensions\n"
+        index_md = (
+            "# Nubenetes Elite Portal (V2)\n\n"
+            "![Banner](images/kubernetes_logo.jpg)\n\n"
+            "!!! abstract \"The High-Density Vision\"\n"
+            "    The V2 Edition is a curated, high-density version of the Nubenetes archive. Using **Agentic AI Orchestration**, "
+            "the system selects only the most relevant, stable, and impactful resources for the modern Cloud Native ecosystem (2026 and beyond).\n\n"
+            f"<center markdown=\"1\">\n{mosaic_html}\n</center>\n\n"
+            f"{pulse_md}\n\n"
+            "## Strategic Dimensions\n"
+        )
         
         # Group by dimension for index
         dim_groups = {}
