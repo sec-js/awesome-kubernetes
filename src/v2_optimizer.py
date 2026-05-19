@@ -593,11 +593,13 @@ class V2VisionEngine:
                             
                         md += f"  - {year_prefix}[{link_content}]({l['url']}){icon}{gh_info}{lang_tag}{level_tag}{type_tag}{rich} {'🌟'*raw_stars}{tag_html}\n"
                         
-                        # Layer 2: High-Density Technical Summary (Professional English)
+                        # Layer 2: High-Density Technical Summary (Expandable Deep-Dive)
                         summary = l.get('ai_summary', l.get('description', ''))
                         if summary:
-                            indented_summary = "\n".join([f"      {line}" if line.strip() else "" for line in summary.strip().split("\n")])
-                            md += f"\n{indented_summary}\n\n"
+                            md += "\n      ??? info \"Technical Deep-Dive\"\n"
+                            # Indent the summary even further to be inside the details block
+                            indented_summary = "\n".join([f"          {line}" if line.strip() else "" for line in summary.strip().split("\n")])
+                            md += f"{indented_summary}\n\n"
                 
                 # Add Semantic "See Also" for related categories within the same Dimension
                 related = [f"[{data[f]['title']}](./{f})" for f in data if f != f_name and data[f]["dim"] == info["dim"]]
