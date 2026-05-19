@@ -1,6 +1,15 @@
 # Nubenetes Elite Portal (V2)
 
-![Banner](images/kubernetes_logo.jpg)
+<center markdown="1">
+[![Banner](images/kubernetes_logo.jpg)](https://kubernetes.io)
+</center>
+
+"I do not believe you can do today's job with yesterday's methods and be in business tomorrow" ([Horatio Nelson Jackson](https://en.wikipedia.org/wiki/Horatio_Nelson_Jackson))
+<center markdown="1">
+
+[![container_with_cars](images/container_with_cars_v2.svg)](https://www.cncf.io/certification/software-conformance) <br/>
+
+</center>
 
 !!! abstract "The High-Density Vision"
     The V2 Edition is a curated, high-density version of the Nubenetes archive. Using **Agentic AI Orchestration**, the system selects only the most relevant, stable, and impactful resources for the modern Cloud Native ecosystem (2026 and beyond).
