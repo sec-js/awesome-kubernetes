@@ -546,34 +546,10 @@ class V2VisionEngine:
             if "__links__" in node:
                 for l in node["__links__"]:
                     is_gold = is_intro and l.get("stars", 0) >= 4
-                    title = l['title'].replace("==", "")
-                    if is_gold:
-                        img = f"    ![Preview]({l.get('social_preview_url')})\n" if l.get('social_preview_url') else ""
-                        md += f"!!! note \"{title}\"\n{img}    **[Access Resource]({l['url']})** {'🌟'*l.get('stars',4)} | Level: {l.get('complexity', 'Beginner')}\n    \n    {l.get('ai_summary', l.get('description', ''))}\n\n"
-                    else:
-                        # Fix NameError: Define year_prefix according to Mandate 17
-                        year = l.get('year', 'N/A')
-                        year_prefix = f"**({year})** " if year != 'N/A' else ""
-                        gh_info = f" <span class='md-tag md-tag--info'>⭐ {l.get('gh_stars',0)}</span>" if l.get('gh_stars') else ""
-                        
-                        icon = " 🎥" if l.get("is_video") else ""
-                        lang = l.get("language", "English")
-                        lang_tag = f" <span class='md-tag md-tag--warning'>[{lang.upper()} CONTENT]</span>" if lang.lower() != "english" else ""
-                        comp = l.get("complexity", "Intermediate")
-                        level_tag = f" <span class='md-tag md-tag--critical'>[{comp.upper()} LEVEL]</span>" if comp.lower() in ["architect", "advanced"] else ""
-                        res_type = l.get("resource_type", "Reference")
-                        type_tag = f" <span class='md-tag md-tag--primary'>[{res_type.upper()}]</span>" if res_type.lower() in ["case study", "guide", "documentation"] else ""
-                        rich = "".join([f" <small>by **{l['author']}**</small>" if l.get("author") else "", f" <span class='md-tag md-tag--info'>⏱️ {l['duration']}</span>" if l.get("duration") else "", f" <span class='md-tag md-tag--info'>📖 {l['reading_time']}</span>" if l.get("reading_time") else ""])
-                        tag_html = ""
-                        for tag in l.get("tags", ["[COMMUNITY-TOOL]"]):
-                            color = "success" if "STANDARD" in tag else "warning" if "EMERGING" in tag else "secondary" if "CASE STUDY" in tag or "GUIDE" in tag else "info"
-                            tag_html += f" <span class='md-tag md-tag--{color}'>{tag}</span>"
-                        
-                    # Dual-Layer Strategy: Preserve descriptive V1 title + Rich English Summary
                     title = l['title'].replace("==", "") # Title from V1, often descriptive
                     if is_gold:
                         img = f"    ![Preview]({l.get('social_preview_url')})\n" if l.get('social_preview_url') else ""
-                        md += f"!!! note \"{title}\"\n{img}    **[Access Resource]({l['url']})** {'🌟'*l.get('stars',4)} | Level: {l.get('complexity', 'Beginner')}\n    \n    {l.get('ai_summary', l.get('description', ''))}\n\n"
+                        md += f"??? note \"{title}\"\n{img}    **[Access Resource]({l['url']})** {'🌟'*l.get('stars',4)} | Level: {l.get('complexity', 'Beginner')}\n    \n    {l.get('ai_summary', l.get('description', ''))}\n\n"
                     else:
                         year = l.get('year', 'N/A')
                         year_prefix = f"**({year})** " if year != 'N/A' else ""
