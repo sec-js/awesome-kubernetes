@@ -17,6 +17,18 @@ To ensure industrial-grade precision, every resource in V2 is classified using o
 | **`[GUIDE]`** | Strategic knowledge. | High-quality tutorials, architectural deep-dives, and decision matrices. |
 | **`[LEGACY]`** | Historical context. | Established tools that are being replaced or are primarily for maintaining older stacks. |
 
+## 🌟 Technical Impact (Relevance Score)
+
+The stars accompanying each resource represent its **Technical Impact** and **Architectural Relevance** for a 2026 Senior Architect:
+
+| Impact | Level | Meaning |
+| :---: | :--- | :--- |
+| 🌟🌟🌟🌟🌟 | **Platinum Standard** | Critical industry foundation. Essential knowledge for any Cloud Native architecture. |
+| 🌟🌟🌟🌟 | **Gold Standard** | Highly recommended. Proven value and significant community/enterprise momentum. |
+| 🌟🌟🌟 | **Silver Standard** | Solid technical reference. Useful for specific use cases or established patterns. |
+| 🌟🌟 | **Bronze Standard** | Interesting alternative or niche tool. Good to have in the toolkit for specific scenarios. |
+| 🌟 | **Reference Only** | Basic documentation or historical reference without major current impact. |
+
 <center markdown="1">
 [![docker videos](images/docker_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/DockerIo) [![cncf videos](images/cncf_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/cloudnativefdn) [![kubernetes logo](images/kubernetes_logo.jpg){: style="width:7%"}](https://www.youtube.com/kubernetescommunity) [![redhat videos](images/redhat_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/redhat) [![openshift videos](images/openshift_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/OpenShift) [![rancher logo](images/rancher-logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Rancher) [![cloudbees videos](images/cloudbees_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/CloudBeesTV) [![jenkins videos](images/jenkins-logo.jpg){: style="width:7%"}](https://www.youtube.com/c/jenkinscicd) [![jenkins-x videos](images/jenkins_x_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCN2kblPjXKMcjjVYmwvquvg) [![spinnaker videos](images/spinnaker_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCcxQbw8kT1-FRhFhO2QCetg) [![vmware tanzu logo](images/vmware_tanzu_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/VMwareTanzu)<br/>
 [![ibm cloud videos](images/ibm_cloud_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/IBMTechnology) [![aws videos](images/aws_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/amazonwebservices) [![gcp videos](images/gcp_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/googlecloudplatform) [![azure videos](images/azure_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/MicrosoftAzure) [![oraclecloud videos](images/oracle_cloud_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/OracleCloudInfrastructure) [![digitalocean videos](images/digital_ocean_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Digitalocean) [![cloudflare](images/cloudflare_logo.jpg){: style="width:7%"}](https://www.youtube.com/cloudflare) [![scaleway cloud](images/scaleway_cloud.jpg){: style="width:7%"}](https://www.youtube.com/c/Scaleway-Cloud) [![openstack](images/openstack_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/OpenStackFoundation) [![harhicorp videos](images/hashicorp_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/HashiCorp) [![pulumi videos](images/pulumi_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/PulumiTV) <br/>
