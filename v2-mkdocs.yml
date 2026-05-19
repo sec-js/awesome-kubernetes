@@ -89,7 +89,7 @@ markdown_extensions:
 
 nav:
   - "🔙 Back to V1 (Exhaustive)": https://nubenetes.com/
-  - "Agentic Elite Portal": index.md
+  - "The 2026 Vision": index.md
   - "AI and Artificial Intelligence":
     - "Ai Agents Mcp": ai-agents-mcp.md
     - "Ai": ai.md
