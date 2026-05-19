@@ -3,6 +3,10 @@ name: Nubenetes V2 Agentic Builder
 on:
   workflow_dispatch:
     inputs:
+      force_full_check:
+        description: 'Force full re-validation (bypasses cache)'
+        type: boolean
+        default: false
       force_reevaluate:
         description: 'Force AI re-evaluation (ignores cache for tags/years)'
         type: boolean
@@ -63,6 +67,7 @@ jobs:
           GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ACTIVATE_BACKUP_KEY: ${{ github.event.inputs.activate_backup_key || 'false' }}
+          FORCE_FULL_CHECK: ${{ github.event.inputs.force_full_check || 'false' }}
           FORCE_EVAL: ${{ github.event.inputs.force_reevaluate || 'false' }}
           ENRICH_METADATA: ${{ github.event.inputs.enrich_metadata || 'false' }}
           PYTHONPATH: .

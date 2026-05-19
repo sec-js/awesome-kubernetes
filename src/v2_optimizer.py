@@ -179,7 +179,7 @@ class V2VisionEngine:
             log_event(f"  [-] SKIPPING V2: {url} is under Review.")
             return None
             
-        if entry.get("status") == "online": return link
+        if entry.get("status") == "online" and os.getenv("FORCE_FULL_CHECK", "false").lower() != "true": return link
         try:
             resp = await client.get(url, timeout=10.0)
             if resp.status_code < 400:
@@ -192,6 +192,8 @@ class V2VisionEngine:
                     link["url"] = final_url
                 
                 self.inventory.setdefault(normalize_url(final_url), {})["status"] = "online"
+                # Mandate 22: Update last_checked for the inventory entry
+                self.inventory[normalize_url(final_url)]["last_checked"] = datetime.now().timestamp()
                 return link
         except: pass
         return None
@@ -200,8 +202,9 @@ class V2VisionEngine:
         to_evaluate = []
         project_registry = {} 
         force_eval = os.getenv("FORCE_EVAL", "false").lower() == "true"
-        # Bypassing GitHub UI limitation: If force_eval is ON, we must enrich metadata to ensure [DE FACTO] logic uses fresh stars
-        enrich_metadata = os.getenv("ENRICH_METADATA", "false").lower() == "true" or force_eval
+        force_full_check = os.getenv("FORCE_FULL_CHECK", "false").lower() == "true"
+        # Bypassing GitHub UI limitation: If force_eval or force_full_check is ON, we must enrich metadata
+        enrich_metadata = os.getenv("ENRICH_METADATA", "false").lower() == "true" or force_eval or force_full_check
         special_files = [sa["file"] for sa in self.special_assets_rules.get("special_assets", [])]
 
         # Mandate 15: Proactive Enrichment for V2 (GitHub metadata is critical for tags)
