@@ -7,6 +7,10 @@ on:
         description: 'Force AI re-evaluation (ignores cache for tags/years)'
         type: boolean
         default: false
+      enrich_metadata:
+        description: 'Enrich GitHub Metadata (fetch stars/license for V2 logic)'
+        type: boolean
+        default: false
       activate_backup_key:
         description: 'Activate Identity B (Subscription) as backup/rotation'
         type: boolean
@@ -59,7 +63,8 @@ jobs:
           GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ACTIVATE_BACKUP_KEY: ${{ github.event.inputs.activate_backup_key || 'false' }}
-          FORCE_EVAL: ${{ github.event.inputs.force_reevaluate }}
+          FORCE_EVAL: ${{ github.event.inputs.force_reevaluate || 'false' }}
+          ENRICH_METADATA: ${{ github.event.inputs.enrich_metadata || 'false' }}
           PYTHONPATH: .
         run: |
           python -u src/v2_optimizer.py
