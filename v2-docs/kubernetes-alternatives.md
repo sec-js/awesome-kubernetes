@@ -27,6 +27,7 @@
   - [Universal Control Plane overview](https://docs.docker.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Docker Swarm](https://docs.docker.com/engine/swarm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [galaxy.ansible.com: Docker Ansible Role](https://galaxy.ansible.com/atosatto/docker-swarm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kubernetes vs Docker Swarm: A Comprehensive Comparison](https://www.cuelogic.com/blog/kubernetes-vs-docker-swarm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Alternative to Kubernetes: Docker Swarm](https://www.linkedin.com/pulse/alternative-kubernetes-docker-swarm-marcel-koert)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dotnettricks.com: Kubernetes vs Docker: Analyzing The Differences](https://www.scholarhat.com/tutorial/docker/kubernetes-vs-docker-analyzing-the-differences)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [freecodecamp.org: Kubernetes VS Docker: What's the Difference? Explained With Example](https://www.freecodecamp.org/news/kubernetes-vs-docker-whats-the-difference-explained-with-examples)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>

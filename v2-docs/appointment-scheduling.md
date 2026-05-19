@@ -10,6 +10,7 @@
   - [Karen](https://karenapp.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ScheduleOnce](https://www.oncehub.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Google Calendar appointment slots](https://support.google.com/calendar/answer/190998)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [timewatch.com: Outlook Resource Scheduling – View and report on Employee Outlook Calendars](https://www.timewatch.com/blog/outlook-resource-scheduling)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cal.com](https://cal.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [support.google.com: How to set up an appointment schedule](https://support.google.com/google-workspace-individual/answer/10729749)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [wpamelia.com: Calendly vs YouCanBook.Me](https://wpamelia.com/calendly-vs-youcanbook-me)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
