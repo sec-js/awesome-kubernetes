@@ -3,7 +3,6 @@
 !!! info "Architectural Context"
     Detailed reference for Kubernetes Client Libraries in the context of The Container Stack.
 
-  - [developers.redhat.com: How to manage microservices using OpenShift Dev Spaces and JKube](https://developers.redhat.com/learn/openshift/how-manage-microservices-using-openshift-dev-spaces-and-jkube)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/kubernetes-client 🌟](https://github.com/kubernetes-client)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [k8s-ruby: Kubernetes Ruby Client](https://github.com/k8s-ruby/k8s-ruby)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes/client-go: Go client for Kubernetes 🌟](https://github.com/kubernetes/client-go)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -25,6 +24,7 @@
   - [developers.redhat.com: How to use Fabric8 Java Client with Kubernetes](https://developers.redhat.com/articles/2023/01/04/how-use-fabric8-java-client-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.twstewart.me: cdk8s-python - A Love and Hate Experience](https://blog.twstewart.me/posts/cdk8s-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.marcnuri.com](https://blog.marcnuri.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: How to manage microservices using OpenShift Dev Spaces and JKube](https://developers.redhat.com/learn/openshift/how-manage-microservices-using-openshift-dev-spaces-and-jkube)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [javaoperatorsdk.io: Build Kubernetes Operators in Java without hassle](https://javaoperatorsdk.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ***
