@@ -124,6 +124,9 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **Gold Resources (4 stars)**: Use bold formatting for the link text (e.g., `**[Link Title]**`).
     - **Multi-Dimensional Tagging**: Every resource in V2 SHOULD have one or more maturity/type tags (e.g., `[DE FACTO STANDARD]`, `[GUIDE]`, `[CASE STUDY]`). The `[COMMUNITY-TOOL]` tag is the fallback for unclassified assets.
     - **Star Consistency**: Maintain the 1-5 star scale for technical impact. Resources with 0 stars are considered "Standard References" and do not display a star prefix/suffix in the V2 UI.
+38. **V2 Semantic Connectivity**: All V2 content generation MUST implement the **Semantic Cross-Linking Engine**. AI agents must autonomously identify related architectural patterns within the same strategic dimension and inject "💡 Explore Related" navigation blocks at the end of sections to facilitate a connected knowledge graph.
+39. **Industrial Learning Flow**: V2 documents MUST follow an O'Reilly-style technical progression. Organization within sections must move from foundational theory and standards to advanced implementation details and emerging patterns.
+40. **Autonomous Multi-Tagging**: Every resource evaluation MUST assign at least one maturity tag and one resource-type tag if applicable. Fallback to `[COMMUNITY-TOOL]` is only permitted after exhaustive classification failure.
 37. **Linguistic Uniformity**: All core documentation (index, README, GEMINI.md) and V2 portal summaries MUST be written in **Professional Technical English**. V1 descriptions remain in their native language (Mandate 10).
 
 ## 🛠️ Structural Evolution & Navigation

@@ -336,6 +336,8 @@ Nubenetes operates with two distinct editions to serve different engineering nee
     - **`**Bold Text**`**: **Gold Standard** (4 stars) – Highly recommended resources with strong industry momentum.
     - **Stars (🌟)**: Represent technical impact (1-5 scale).
     - **No stars**: Standard reference documentation and technical resources.
+- **Multi-Dimensional Tagging (1:N):** Every resource is classified with multiple semantic tags (e.g., `[DE FACTO STANDARD]`, `[GUIDE]`, `[CASE STUDY]`, `[EMERGING]`) providing deep technical context and maturity status.
+- **Semantic Cross-Linking:** The portal autonomously identifies and links related categories within the same strategic dimension (e.g., suggesting `Flux` when reading about `Argo`), creating a cohesive **Industrial Knowledge Graph**.
 - **Executive Context**: Every strategic dimension features an AI-generated **State-of-the-Art Introduction** providing high-level architectural context and industry direction before the link listings.
 - **Source of Truth:** The `v2-docs/` directory (Derived from V1).
 - **Deployment:** [nubenetes.com/v2/](https://nubenetes.com/v2/)
