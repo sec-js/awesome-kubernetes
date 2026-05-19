@@ -643,8 +643,8 @@ Nubenetes features a comprehensive suite of workflows that can be controlled man
 
 | # | Workflow / UI Interface | Source Code | Manual Control & Form Inputs | Default Behavior |
 | :---: | :--- | :--- | :--- | :--- |
-| **1** | **[Agentic Curation](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_cron.yml)** | [`.github/workflows/agentic_cron.yml`](.github/workflows/agentic_cron.yml) | • **`start_date`**: YYYY-MM-DD.<br/>• **`days_back`**: Relative range.<br/>• **`include_...`**: Domain toggles (K8s, AI, Cloud, etc).<br/>• **`extraction_strategy`**: Search vs Scroll.<br/>• **`historical_mode`**: Bypass limits. | Monthly Discovery |
-| **2** | **[V2 Elite Builder](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_builder.yml)** | [`.github/workflows/agentic_v2_builder.yml`](.github/workflows/agentic_v2_builder.yml) | • **`force_reevaluate`**: Ignore AI cache.<br/>• **`activate_backup_key`**: Identity rotation. | Auto-Sync (Push) |
+| **1** | **[Agentic Curation](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_cron.yml)** | [`.github/workflows/agentic_cron.yml`](.github/workflows/agentic_cron.yml) | • **`start_date`**: YYYY-MM-DD.<br/>• **`days_back`**: Relative range.<br/>• **`include_...`**: Domain toggles (K8s, AI, Cloud, etc).<br/>• **`exclude_accounts`**: Comma-separated list.<br/>• **`extraction_strategy`**: Search vs Scroll.<br/>• **`historical_mode`**: Bypass limits.<br/>• **`historical_chunked`**: Recursive execution.<br/>• **`historical_until_date`**: Chunk limit.<br/>• **`activate_backup_key`**: Identity rotation. | Monthly Discovery |
+| **2** | **[V2 Elite Builder](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_builder.yml)** | [`.github/workflows/agentic_v2_builder.yml`](.github/workflows/agentic_v2_builder.yml) | • **`force_reevaluate`**: Ignore AI cache.<br/>• **`enrich_metadata`**: Fetch stars/license.<br/>• **`activate_backup_key`**: Identity rotation. | Auto-Sync (Push) |
 | **3** | **[Link Health Check](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/intelligent_link_cleaner.yml)** | [`.github/workflows/intelligent_link_cleaner.yml`](.github/workflows/intelligent_link_cleaner.yml) | • **`force_full_check`**: Bypasses 21-day cache for exhaustive audit. | Monthly Cleanup |
 | **4** | **[Backup Curation](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_backup.yml)** | [`.github/workflows/agentic_backup.yml`](.github/workflows/agentic_backup.yml) | • **`backup_file`**: Path to JSON/MD.<br/>• **`historical_mode`**: Force evaluation. | On-Demand |
 | **5** | **[README Sync](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/readme_sync.yml)** | [`.github/workflows/readme_sync.yml`](.github/workflows/readme_sync.yml) | *(No manual inputs)* | Push to `develop` |
@@ -654,10 +654,10 @@ Nubenetes features a comprehensive suite of workflows that can be controlled man
 
 ### 9.2. Recommended Execution Pipeline
 To maintain the archive's integrity, the following logical sequence is followed:
-1.  **Phase 1: Knowledge Discovery or Maintenance (#1, #4, or #5):** Raw technical data is fetched/filtered (Curation) or the existing archive is audited for health (Cleaning).
+1.  **Phase 1: Knowledge Discovery or Maintenance (#1, #3, or #4):** Raw technical data is fetched/filtered (Curation) or the existing archive is audited for health (Cleaning).
 2.  **Phase 2: Elite Synthesis (#2):** Once curation or cleaning changes are merged into `develop`, the V2 Builder triggers automatically to synchronize the premium portal with the latest data and health status.
-3.  **Phase 3: Metric Alignment (#3):** The push to `develop` triggers the README Sync.
-4.  **Phase 4: Global Deployment (#6):** Review and merge into `master` to update production.
+3.  **Phase 3: Metric Alignment (#5):** The push to `develop` triggers the README Sync.
+4.  **Phase 4: Global Deployment (#8):** Review and merge into `master` to update production.
 
 ### 9.3. Workflow Trigger and Synchronization Logic
 The following flowchart illustrates how autonomous discovery and maintenance tasks orchestrate the update of the V2 Elite portal. Nubenetes uses a **Surgical Trigger Strategy** to ensure the V2 Builder only executes when relevant data or logic changes occur.
@@ -666,7 +666,7 @@ The following flowchart illustrates how autonomous discovery and maintenance tas
 graph TD
     subgraph "Phase 1: Knowledge Discovery and Maintenance"
         A["New Curation Source<br/>(X.com, RSS)"] --> B["[1] Agentic Curation"]
-        C["Scheduled / Manual Audit"] --> D["[4] Intelligent Cleaner"]
+        C["Scheduled / Manual Audit"] --> D["[3] Intelligent Cleaner"]
     end
 
     B -->|"Merged into develop<br/>(Path Filter: docs/, inventory.yaml)"| E{"V2 Surgical Trigger"}
@@ -678,12 +678,12 @@ graph TD
     end
 
     subgraph "Phase 3: Documentation and Metrics"
-        G --> H["[3] README Sync"]
+        G --> H["[5] README Sync"]
     end
 
     subgraph "Phase 4: Production Deployment"
         H --> I["Manual Review<br/>(develop → master)"]
-        I --> J["[6] Production Deploy"]
+        I --> J["[8] Production Deploy"]
         J --> K["nubenetes.com"]
     end
 ```
@@ -695,10 +695,10 @@ sequenceDiagram
     participant G as Gemini Agent
     participant W1 as [1] Agentic Curation
     participant W2 as [2] V2 Elite Builder
-    participant W3 as [3] README Sync
+    participant W3 as [5] README Sync
     participant R as Repo (develop)
     participant M as master branch
-    participant P as [6] Prod Deploy
+    participant P as [8] Prod Deploy
 
     W1->>X: Extract Raw Data
     X-->>W1: Raw JSON/MD
