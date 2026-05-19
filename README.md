@@ -246,6 +246,8 @@ The autonomy of Nubenetes is powered by a modern, resilient tech stack that ensu
 | **Orchestration** | GitHub Actions | Scheduled and Event-driven execution (via `develop` branch). |
 | **Intelligence** | Google Gemini (Multi-model) | Resource evaluation, scoring, and classification. |
 | **Optimization** | Adaptive AI Tiering | Dynamic model selection (Pro/Flash) and Global rate limiting. |
+| **CI/CD Hardening** | Concurrency & [skip ci] | Prevention of race conditions and recursive trigger loops. |
+| **Performance** | Playwright Caching | Setup optimization (reduces initialization time by >70%). |
 | **Automation** | Python 3.11 | Core logic for parsing, gitops, and reporting. |
 | **Discovery** | Twikit and Playwright | Autonomous scraping and account rotation. |
 | **Resilience** | Identity Rotation | Evasion of anti-bot blocks using multiple profiles. |

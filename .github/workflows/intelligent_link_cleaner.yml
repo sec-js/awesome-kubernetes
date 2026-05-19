@@ -14,6 +14,10 @@ permissions:
   contents: write
   pull-requests: write
 
+concurrency:
+  group: link-cleaner-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   intelligent-clean-process:
     runs-on: ubuntu-latest
@@ -31,11 +35,21 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Dependencies and Playwright Installation
+      - name: Dependencies Installation
         run: |
           python -m pip install --upgrade pip
           pip install --no-cache-dir pydantic PyGithub aiohttp beautifulsoup4 httpx fake-useragent pytz python-dotenv playwright PyYAML
-          playwright install chromium --with-deps
+
+      - name: Cache Playwright Binaries
+        uses: actions/cache@v4
+        id: playwright-cache
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-cleaner
+
+      - name: Install Playwright Browsers
+        if: steps.playwright-cache.outputs.cache-hit != 'true'
+        run: playwright install chromium --with-deps
 
       - name: Global Intelligent Cleaning Execution
         env:

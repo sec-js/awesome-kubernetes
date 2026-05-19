@@ -11,6 +11,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: readme-sync-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   sync-readme:
     runs-on: ubuntu-latest

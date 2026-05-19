@@ -23,6 +23,10 @@ permissions:
   contents: write
   pull-requests: write
 
+concurrency:
+  group: v2-builder-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build-v2-edition:
     runs-on: ubuntu-latest
@@ -36,6 +40,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: develop
+          fetch-depth: 0
 
       - name: Python 3.11 Environment Provisioning
         uses: actions/setup-python@v5
@@ -62,6 +67,13 @@ jobs:
           else
             echo "No safety report generated." > pr_description.md
           fi
+
+      - name: Consolidate README Metrics (Integrated)
+        env:
+          PYTHONPATH: .
+        run: |
+          python src/readme_updater.py
+          python src/safety_readme.py
           
       - name: Create Pull Request for V2 Elite Update
         uses: peter-evans/create-pull-request@v6
@@ -70,5 +82,5 @@ jobs:
           base: develop
           title: "V2 Elite: Agentic Optimization Sync (2026)"
           body-path: pr_description.md
-          commit-message: "feat: sync V2 elite curated edition [skip ci]"
+          commit-message: "feat: sync V2 elite curated edition and README metrics [skip ci]"
           labels: "v2-elite, agentic-sync"
