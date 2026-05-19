@@ -130,6 +130,7 @@
   - [codefresh.io: Kubernetes Deployment Antipatterns – part 2](https://octopus.com/blog/kubernetes-antipatterns-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [learnk8s.io: Extending applications on Kubernetes with multi-container pods](https://learnkube.com/sidecar-containers-patterns)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Scheduling Profiles](https://kubernetes.io/docs/reference/scheduling/config/#profiles)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [granulate.io: A Deep Dive into Kubernetes Scheduling](https://www.intel.com/content/www/us/en/homepage.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Affinity and anti-affinity](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#affinity-and-anti-affinity)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Pod Topology Spread Constraints](https://kubernetes.io/docs/concepts/scheduling-eviction/topology-spread-constraints)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [KubeFed: Kubernetes Cluster Federation](https://github.com/kubernetes-retired/kubefed)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>

@@ -2061,7 +2061,7 @@ Detailed logs of maturity promotions and elite selections.
 | 2056 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.freecodecamp.org/news/learn-istio-manage-microservices |
 | 2057 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.useanvil.com/blog/engineering/load-balancing-grpc-in-kubernetes-with-istio |
 | 2058 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://jimmysong.io/blog/sidecar-injection-iptables-and-traffic-routing |
-| 2059 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://blog.getambassador.io/kubernetes-canary-testing-and-release-with-istio-4cbdedcc9914?gi=77ba3a21d2dd |
+| 2059 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://blog.getambassador.io/kubernetes-canary-testing-and-release-with-istio-4cbdedcc9914?gi=04efb3b4b70a |
 | 2060 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://itnext.io/traffic-shaping-with-kubernetes-and-istio-7e44fbfca200 |
 | 2061 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://maistra.io |
 | 2062 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://github.com/maistra/istio |
@@ -4140,7 +4140,7 @@ Detailed logs of maturity promotions and elite selections.
 | 4135 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/redhat-cop/openshift-toolkit/tree/master/quota-management |
 | 4136 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.youtube.com/watch?v=JC_PB1yZcIc |
 | 4137 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://techbeatly.com/how-to-create-increase-or-decrease-project-quota-in-openshift/#.Xd5OE9WCGUk |
-| 4138 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.redhat.com/en/documentation/openshift_container_platform/4.2/html/applications/quotas#setting-quotas-across-multiple-projects |
+| 4138 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.redhat.com/en/documentation/openshift_container_platform/4.2/html/applications/quotas#quotas-setting-per-project |
 | 4139 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.redhat.com/en/documentation/openshift_container_platform/3.11/html/architecture/core-concepts#architecture-core-concepts-builds-and-image-streams |
 | 4140 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://developers.redhat.com/blog/2018/09/24/the-future-of-java-and-openjdk-updates-without-oracle-support |
 | 4141 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.redhat.com/en/blog/history-and-future-openjdk |
@@ -7602,2716 +7602,2718 @@ Detailed logs of maturity promotions and elite selections.
 | 7597 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.linkedin.com/pulse/avoid-kubernetes-anti-patterns-pavan-belagatti |
 | 7598 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://kubernetes.io/docs/reference/scheduling |
 | 7599 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://kubernetes.io/docs/reference/scheduling/config/#profiles |
-| 7600 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#affinity-and-anti-affinity |
-| 7601 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://kubernetes.io/docs/concepts/scheduling-eviction/topology-spread-constraints |
-| 7602 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://kubernetes.io/blog/2020/05/introducing-podtopologyspread |
-| 7603 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://cdk8s.io |
-| 7604 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://aws.amazon.com/blogs/containers/introducing-cdk-for-kubernetes |
-| 7605 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/google/jsonnet/tree/master/case_studies/kubernetes |
-| 7606 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/kubernetes-retired/kubefed |
-| 7607 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.aquasec.com/cloud-native-academy/kubernetes-in-production/kubernetes-federation |
-| 7608 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://engineering.monday.com/monday-coms-multi-regional-architecture-a-deep-dive |
-| 7609 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://kubernetes.io/blog/2021/12/22/kubernetes-in-kubernetes-and-pxe-bootable-server-farm |
-| 7610 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/eldada/kubernetes-scripts |
-| 7611 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://gist.github.com/ninlil/affbf7514d4e74c7634e77f47e172236 |
-| 7612 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/automating-system-updates-for-kubernetes-clusters-using-ansible-94a70f4e1972 |
-| 7613 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/geerlingguy/ansible-for-devops/tree/master/kubernetes |
-| 7614 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/embracing-failures-and-cutting-infrastructure-costs-spot-instances-in-kubernetes-6976781beacc |
-| 7615 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.cynet.com/incident-response/incident-response-plan |
-| 7616 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.kubermatic.com/blog/a-framework-for-kubernetes-incident-response |
-| 7617 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/reetasingh/CKAD-Bookmarks |
-| 7618 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/tips-tricks-for-cka-ckad-and-cks-exams-cc9dade1f76d |
-| 7619 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/bmuschko/ckad-crash-course |
-| 7620 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/jamesbuckett/ckad-questions |
-| 7621 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=wHha-Q3XVOg&ab_channel=DanLister |
-| 7622 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://kodekloud.com/blog/cka-vs-ckad-vs-cks |
-| 7623 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/bmuschko/ckad-prep |
-| 7624 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://packetpushers.net/podcasts/kubernetes-unpacked/ku046-do-kubernetes-certs-prepare-you-for-real-world-production |
-| 7625 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://mattias.engineer/courses/kubernetes |
-| 7626 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/e-books/kubernetes-operators |
-| 7627 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://leanpub.com/kubernetes-101 |
-| 7628 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://learnkube.com/training |
-| 7629 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://ubuntuask.com/blog/best-new-kubernetes-books |
-| 7630 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | http://shop.oreilly.com/product/0636920223788.do |
-| 7631 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.amazon.com/gp/product/1492056707 |
-| 7632 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.digitalocean.com/community/books/from-containers-to-kubernetes-with-node-js-ebook |
-| 7633 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://dev.to/scalyr/kubernetes-tutorial-learn-the-basics-and-get-started-5dgh |
-| 7634 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=0KQndcIedeg |
-| 7635 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.pluralsight.com/courses/getting-started-kubernetes |
-| 7636 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://javarevisited.blogspot.com/2019/05/top-5-courses-to-learn-docker-and-kubernetes-for-devops.html |
-| 7637 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://elastisys.io/compliantkubernetes |
-| 7638 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.container-security.site/defenders/PCI_Container_Orchestration_Guidance.html |
-| 7639 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://kubernetes.slack.com |
-| 7640 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | http://slack.kubernetes.io |
-| 7641 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/kubernetes/enhancements/blob/ddf7d2a8c098e97b0714f31e88abad3b3e0e706c/keps/sig-node/2837-pod-level-resource-spec/README.md#summary |
-| 7642 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/doc-history.html |
-| 7643 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://docs.aws.amazon.com/AWSCloudFormation/latest/TemplateReference/aws-template-resource-type-ref.html |
-| 7644 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/about-aws/whats-new/2020/06/introducing-aws-cloudformation-guard-preview |
-| 7645 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://cloudonaut.io/getting-started-with-aws-cf-templates |
-| 7646 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/es/blogs/infrastructure-and-automation/use-git-pre-commit-hooks-avoid-aws-cloudformation-errors |
-| 7647 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/es/blogs/aws/introducing-a-public-registry-for-aws-cloudformation |
-| 7648 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://cloudkatha.com/how-to-setup-s3-bucket-cors-configuration-using-cloudformation |
-| 7649 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://cloudkatha.com/how-to-configure-aws-sqs-dead-letter-queue-using-cloudformation |
-| 7650 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://cloudkatha.com/how-to-create-an-s3-bucket-using-cloudformation |
-| 7651 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://cloudkatha.com/how-to-use-cloudformation-to-create-sns-topic-and-subscription |
-| 7652 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://cloudkatha.com/how-to-create-iam-role-using-cloudformation |
-| 7653 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://luminousmen.com/post/a-very-quick-introduction-to-the-pain-of-aws-cloudformation |
-| 7654 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/about-aws/whats-new/2023/11/aws-cloudformation-git-management-stacks |
-| 7655 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/about-aws/whats-new/2024/02/aws-cloudformation-templates-cdk-apps-minutes |
-| 7656 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-ec2-announces-spot-blueprints-an-infrastructure-code-template-generator-to-get-started-with-ec2-spot-instances |
-| 7657 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://former2.com |
-| 7658 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/opensource/accelerate-infrastructure-as-code-development-with-open-source-former2 |
-| 7659 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://onecloudplease.com/project/console-recorder |
-| 7660 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://fluxcd.io |
-| 7661 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://docs.fluxcd.io/en/1.22.2 |
-| 7662 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/fluxcd/flux |
-| 7663 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/fluxcd/flux2 |
-| 7664 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://fluxcd.io/flux |
-| 7665 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://managedkube.com/gitops/flux/weaveworks/guide/tutorial/2020/05/01/a-complete-step-by-step-guide-to-implementing-a-gitops-workflow-with-flux.html |
-| 7666 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://alicegg.tech/2020/11/09/helm |
-| 7667 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.pluralsight.com/resources/blog/cloud/adopting-gitops-for-kubernetes-on-aws?utm_source=linkedin&utm_medium=social&utm_campaign=kubernetesblog |
-| 7668 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://blog.sldk.de/2021/02/introduction-to-gitops-on-kubernetes-with-flux-v2 |
-| 7669 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://learn.microsoft.com/en-us/azure/azure-arc/kubernetes/conceptual-gitops-flux2 |
-| 7670 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://thenewstack.io/gitops-at-home-automate-code-deploys-with-kubernetes-and-flux |
-| 7671 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://alexander.holbreich.org/gitops-journey |
-| 7672 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.solo.io/blog/the-3-best-ways-to-use-flux-and-flagger-for-gitops-with-your-envoy-proxy-api-gateways |
-| 7673 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/fluxcd/flux2-multi-tenancy |
-| 7674 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://flux-subsystem-argo.github.io/website/tutorials/terraform |
-| 7675 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/dirien/pulumi-civo-flux-bucket |
-| 7676 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://fluxcd.io/blog/2022/09/gitops-without-leaving-your-ide |
-| 7677 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://fluxcd.io/blog/2022/09/how-to-gitops-your-terraform |
-| 7678 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://thenewstack.io/deploy-stateful-workloads-on-kubernetes-with-ondat-and-fluxcd |
-| 7679 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://gist.github.com/scottrigby/a1a42c3292ec7899837c578ffdaaf92a |
-| 7680 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/flux-iac/tofu-controller |
-| 7681 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/onedr0p/cluster-template |
-| 7682 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.testmuai.com/blog/best-jenkins-alternatives |
-| 7683 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.inovex.de/de/blog/spinnaker-vs-argo-cd-vs-tekton-vs-jenkins-x |
-| 7684 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.testmuai.com/blog/teamcity-vs-jenkins-picking-the-right-ci-cd-tool |
-| 7685 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.testmuai.com/blog/bamboo-vs-jenkins-showdown-of-ci-cd-tools |
-| 7686 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.testmuai.com/blog/circleci-vs-gitlab |
-| 7687 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.pluralsight.com/resources/blog/cloud/azure-devops-vs-github-comparing-microsofts-devops-twins |
-| 7688 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.testmuai.com/blog/jenkins-vs-travis-vs-bamboo-vs-teamcity |
-| 7689 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/kubernetes/test-infra/tree/master/prow |
-| 7690 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://agola.io |
-| 7691 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.harness.io |
-| 7692 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.drone.io |
-| 7693 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.gocd.org |
-| 7694 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://octopus.com/codefresh |
-| 7695 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/screwdriver-cd/screwdriver |
-| 7696 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://circleci.com |
-| 7697 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://circleci.com/blog/getting-started-with-kubernetes-how-to-set-up-your-first-cluster |
-| 7698 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://circleci.com/blog/adding-approval-jobs-to-your-ci-pipeline |
-| 7699 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://circleci.com/blog/building-cicd-pipelines-using-dynamic-config |
-| 7700 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://circleci.com/blog/parameters-in-pipeline-config |
-| 7701 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://dev.to/mage_ai/ci-cd-automating-our-build-and-deploy-process-2i91 |
-| 7702 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://circleci.com/blog/relational-db-testing |
-| 7703 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.travis-ci.com |
-| 7704 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.testmuai.com/blog/build-first-ci-cd-pipeline-with-travis-ci |
-| 7705 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://concourse-ci.org |
-| 7706 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://blog.alterway.fr/en/building-a-continious-deployment-pipeline-with-kubernetes-and-concourse-ci.html |
-| 7707 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.atlassian.com/continuous-delivery |
-| 7708 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.atlassian.com/software/bamboo |
-| 7709 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.testmuai.com/blog/how-to-setup-cicd-pipeline-with-bamboo-for-php-projects |
-| 7710 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.blog/news-insights/product-news/github-actions-now-supports-ci-cd |
-| 7711 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://docs.github.com/en/actions/how-tos/write-workflows |
-| 7712 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/sdras/awesome-actions |
-| 7713 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/yokawasa/action-setup-kube-tools |
-| 7714 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://azure.microsoft.com/en-us/products/devops |
-| 7715 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://k21academy.com/microsoft-azure/az-400/azure-pipelines-vs-jenkins |
-| 7716 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.shuttleops.io |
-| 7717 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://thenewstack.io/shuttleops-no-code-docker-and-kubernetes |
-| 7718 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/theonedev/onedev |
-| 7719 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.jetbrains.com/teamcity |
-| 7720 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.jetbrains.com/help/teamcity/storing-project-settings-in-version-control.html |
-| 7721 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://blog.jetbrains.com/teamcity/2019/03/configuration-as-code-part-1-getting-started-with-kotlin-dsl |
-| 7722 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/OctopusDeploy/Octopus-TeamCity |
-| 7723 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://octopus.com |
-| 7724 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://octopus.com/docs/deployments/patterns/deployment-process-as-code |
-| 7725 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://registry.terraform.io/providers/OctopusDeployLabs/octopusdeploylatest/docs |
-| 7726 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/OctopusDeploy/go-octopusdeploy |
-| 7727 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://jfrog.com/platform |
-| 7728 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.youtube.com/watch?v=15CGdzfDlpQ&t=1s&ab_channel=JFrog |
-| 7729 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://semaphore.io |
-| 7730 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://semaphore.io/blog/revving-up-continuous-integration-with-parallel-testing |
-| 7731 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/csweichel/werft |
-| 7732 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.cloudbees.com/whitepapers/building-cloud-native-apps-painlessly |
-| 7733 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.devopstoolkitseries.com |
-| 7734 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://leanpub.com/the-devops-2-6-toolkit |
-| 7735 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://jayex.io/blog/2021/04/08/jx3-pipeline-trace |
-| 7736 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://spinnaker.io |
-| 7737 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.opsmx.com/blog/deploy-spinnaker-cd-pipelines-in-kubernetes |
-| 7738 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://speakerdeck.com/keisukeyamashita/introduction-to-spinnaker-managed-pipeline-templates |
-| 7739 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://speakerdeck.com/keisukeyamashita/spinnaker-application-management-by-terraform-plugins |
-| 7740 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://opensource.com/article/19/8/why-spinnaker-matters-cicd |
-| 7741 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.harness.io/blog/spinnaker-alternatives |
-| 7742 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.harness.io/products/continuous-delivery |
-| 7743 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/openshift/tektoncd-pipeline-operator |
-| 7744 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.sonatype.com/blog/new-cloud-native-ci/cd-projects-openshift-and-tekton |
-| 7745 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/jenkins-x/jenkins-x-openshift-image |
-| 7746 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://empathy.co/blog/hat-ci-cd-for-deploying-cloud-native-applications |
-| 7747 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://dagger.io |
-| 7748 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/dagger/dagger |
-| 7749 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://enterprisersproject.com/article/2020/7/devops-5-things-teams-need |
-| 7750 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.redhat.com/en/topics/devops |
-| 7751 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.redhat.com/es/topics/devops |
-| 7752 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.redhat.com/en/blog/it-automation-training |
-| 7753 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://about.gitlab.com/blog/2021/11/30/soft-skills-are-the-key-to-your-devops-career-advancement |
-| 7754 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.salesforceben.com/5-devops-concepts-you-need-to-know |
-| 7755 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://enterprisersproject.com/article/2021/10/devops-future-operating-model-it |
-| 7756 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devblogs.microsoft.com/devops/devops-dojo-culture-and-mindset |
-| 7757 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/the-evolving-devops-journey-continuous-mindset-starts-with-cultural-change |
-| 7758 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/automation-is-no-silver-bullet-3-keys-for-scaling-success |
-| 7759 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/why-mttr-is-a-vital-metric-for-devops-teams |
-| 7760 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.umbrellainfocare.com/blogs/cloud-and-devops-are-made-for-each-other |
-| 7761 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.linkedin.com/pulse/devops-just-system-administration-repackaged-gianluca-mascolo |
-| 7762 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/a-devops-reset-for-a-multi-cloud-world |
-| 7763 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://dev.to/pavanbelagatti/devops-trends-for-developers-in-2023-345b |
-| 7764 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.abc.es/economia/ingenieros-devops-pieza-clave-engranaje-digital-empresas-20230212000148-nt.html |
-| 7765 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.microsoft.com/en-us/security/blog/2023/04/06/devops-threat-matrix |
-| 7766 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/11-steps-to-a-successful-devops-career |
-| 7767 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://dev.to/aws-builders/how-to-get-started-with-devops-what-skills-should-we-start-with-5efp |
-| 7768 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.infoq.com/articles/devops-shifting-left |
-| 7769 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.redhat.com/en/blog/red-hat-automation-glossary |
-| 7770 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://livingdevops.com/devops/10-real-world-kubernetes-troubleshooting-scenarios-and-solutions |
-| 7771 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com |
-| 7772 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.devopszone.info |
-| 7773 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.devopsdigest.com |
-| 7774 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.techtarget.com/searchitoperations/feature/Top-15-DevOps-blogs-to-read-and-follow |
-| 7775 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devopstips.net |
-| 7776 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://orange-quarter.com/upskill-yourself-with-these-5-devops-resources |
-| 7777 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://mrcloudbook.com |
-| 7778 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.com/DevOps-Projects-Ideas/DevOps-Books |
-| 7779 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.deloitte.com/us/en/what-we-do/capabilities/cloud-transformation/collections/cloud-podcast.html |
-| 7780 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://bikeshed.thoughtbot.com |
-| 7781 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.com/paragpallavsingh/90DaysOfDevOps |
-| 7782 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.com/paragpallavsingh/90DaysOfDevOps/blob/master/submission/day21/README.md |
-| 7783 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report |
-| 7784 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.continuitysoftware.com/blog/it-resilience/what-is-configuration-drift |
-| 7785 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/cloud-drift-detection-how-to-resolve-out-of-state-changes |
-| 7786 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.fairwinds.com/blog/configuration-drift-kubernetes |
-| 7787 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.env0.com/blog/automated-drift-detection-with-env0 |
-| 7788 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/how-drift-detection-and-iac-help-maintain-a-secure-infrastructure |
-| 7789 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://opensource.com/article/19/7/devops-vs-sysadmin |
-| 7790 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://opensource.com/article/19/7/how-transition-career-devops-engineer |
-| 7791 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://opensource.com/article/20/2/devops-beginners |
-| 7792 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://enterprisersproject.com/article/2020/3/how-get-devops-noops-5-steps |
-| 7793 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.zdnet.com/article/corporate-culture-complicates-kubernetes-and-container-collaboration |
-| 7794 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.smartsheet.com/devops |
-| 7795 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://opensource.com/article/20/6/devops-mindset |
-| 7796 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://stackoverflow.blog/2020/06/10/the-rise-of-the-devops-mindset |
-| 7797 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://enterprisersproject.com/article/2020/6/devops-engineer-role-common-misconceptions |
-| 7798 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://enterprisersproject.com/article/2020/6/devops-beginners-where-start |
-| 7799 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.scaledagileframework.com/devops |
-| 7800 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://cloudnativenow.com/topics/cloudnativedevelopment/how-the-rise-of-containers-will-drive-devops |
-| 7801 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://enterprisersproject.com/article/2020/7/3-devops-skills-it-leaders-need-next-normal |
-| 7802 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.red-gate.com/blog/automated-production-deployments-are-not-the-key-to-devops-performance |
-| 7803 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.bbva.com/es/innovacion/devops-que-es-y-como-mejorar-los-procesos-gracias-a-esta-estrategia |
-| 7804 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.learnsteps.com/devops-interview-question-how-will-you-set-up-a-ci-cd-pipeline |
-| 7805 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/survey-surfaces-high-reliance-on-devops-to-build-and-deploy-apis |
-| 7806 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.pluralsight.com/resources/blog/cloud/5-reasons-to-not-move-to-devops |
-| 7807 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.forbes.com/sites/steveandriole/2020/10/01/why-no-one-understands-agile-scrum--devops--why-perfect-technology-abstractions-are-sure-to-fail |
-| 7808 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.blog/enterprise-software/devops/devops-definition |
-| 7809 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/from-devops-to-devapps |
-| 7810 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/the-future-of-ops-careers |
-| 7811 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/post-pandemic-devops-moves-to-resilient-collaboration |
-| 7812 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://platform.qa.com/login |
-| 7813 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.infoq.com/news/2020/11/2020-devops-report |
-| 7814 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://opensource.com/article/20/12/remote-devops |
-| 7815 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.blog/enterprise-software/devops/how-to-make-devops-your-competitive-advantage |
-| 7816 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://opensource.com/article/20/12/devops |
-| 7817 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/unlocking-your-devops-automation-mindset |
-| 7818 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/7-trends-influencing-devops-and-devsecops-adoption |
-| 7819 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/devops-for-the-development-and-delivery-of-high-performance-applications |
-| 7820 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/devops-devapps-and-the-death-of-infrastructure |
-| 7821 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devopscube.com/become-devops-engineer |
-| 7822 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/6-signs-youre-doing-devops-correctly |
-| 7823 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://cloudnativenow.com/uncategorized/9-pillars-of-engineering-devops-with-kubernetes |
-| 7824 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://content.techgig.com/5-best-devops-practices-for-beginners/articleshow/81368965.cms |
-| 7825 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.cst-bg.net/post/13-clues-to-good-devops |
-| 7826 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.softwebsolutions.com/resources/devops-and-microservices |
-| 7827 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/5-cloud-automation-tips-for-developers-and-devops |
-| 7828 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://cloudnativenow.com/features/kubernetes-enables-devops-as-a-service-daas |
-| 7829 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/maximizing-the-value-of-containerization-for-devops |
-| 7830 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://opensource.com/article/21/3/devops-documentation |
-| 7831 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.infoq.com/articles/devops-not-enough-scaling-tech-driven-organizations |
-| 7832 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.infoworld.com/article/2263821/5-devops-practices-to-improve-application-reliability.html |
-| 7833 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/languages-and-devops-recommendations |
-| 7834 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/survey-shows-mounting-devops-frustration-and-costs |
-| 7835 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.youtube.com/watch?v=js-rq7SvPpE&ab_channel=DevOpsToolkit |
-| 7836 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/devops-trends-to-watch-in-2021 |
-| 7837 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/nine-pillars-of-devops-best-practices |
-| 7838 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.weblineindia.com/blog/all-about-devops-automation |
-| 7839 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.getxray.app/blog/get-started-with-devops-principles-best-practices-and-tips |
-| 7840 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://stackoverflow.blog/2021/05/24/how-developers-can-be-their-own-operations-department |
-| 7841 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.linkedin.com/pulse/top-10-skills-devops-engineer-should-possess-saurabh-badhwar |
-| 7842 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/how-containers-simplify-devops-workflows-and-ci-cd-pipelines |
-| 7843 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://dev.to/ankit01oss/5-github-projects-to-make-you-a-better-devops-engineer-2fkl |
-| 7844 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.cloudbees.com/blog/how-to-nail-devops-governance-and-compliance-in-a-highly-regulated-industry |
-| 7845 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.redhat.com/en/blog/it-automation-book |
-| 7846 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.forbes.com/sites/tomtaulli/2021/07/16/devops-what-you-need-to-know |
-| 7847 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.zdnet.com/article/stop-calling-devops-teams-devops-teams |
-| 7848 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/yeah-youre-doing-devops |
-| 7849 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.infoq.com/news/2021/08/external-IT-providers-devops |
-| 7850 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.chaossearch.io/blog/essential-devops-tools |
-| 7851 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.devopsonline.co.uk/the-role-of-automation-in-devops |
-| 7852 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.sqlshack.com/6-reasons-why-you-cant-have-devops-without-test-automation |
-| 7853 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://dev.to/run-x/devops-is-not-automation-2amo |
-| 7854 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://intellipaat.com/blog/what-does-a-devops-engineer-do |
-| 7855 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://siliconangle.com/2021/09/29/devops-dummies-author-emily-freeman-introduces-revolutionary-model-modern-software-development-awsq3 |
-| 7856 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/microservices-transformed-devops-why-security-is-next |
-| 7857 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/devops-at-the-crossroads-the-future-of-software-delivery |
-| 7858 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/3-habits-of-highly-successful-devops-teams |
-| 7859 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://dev.to/attaullahshafiq10/dev-ops-59dm |
-| 7860 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.blog/developer-skills/5-devops-tips-to-speed-up-your-developer-workflow |
-| 7861 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.valuecoders.com/blog/devops/devops-for-enterprises-growth |
-| 7862 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.freecodecamp.org/news/devops-engineering-course-for-beginners |
-| 7863 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.bmc.com/blogs/devops-ci-cd-metrics |
-| 7864 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.simform.com/blog/devops-for-enterprise |
-| 7865 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.calcalistech.com/ctechnews/article/s1mlpunf9 |
-| 7866 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://reviewnprep.com/blog/devops-basics |
-| 7867 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://dev.to/techworld_with_nana/how-i-learn-new-technologies-as-a-devops-engineer-without-being-overwhelmed--495e |
-| 7868 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/the-real-pipeline |
-| 7869 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.information-age.com/devops-vs-agile-distinguishing-and-combining-the-two-20117 |
-| 7870 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://enterprisersproject.com/article/2020/5/devops-shift-left-why-goes-wrong |
-| 7871 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://itnext.io/devops-big-picture-on-premises-d07f61d6c34c |
-| 7872 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://net.connect4techs.com/what-are-the-top-devops-trends-in-2024 |
-| 7873 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.dynatrace.com/news/blog/devops-metrics-for-success |
-| 7874 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://dev.to/kodekloud/your-roadmap-to-become-a-devops-engineer-in-2020-i1n |
-| 7875 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.techworld-with-nana.com/devops-roadmap |
-| 7876 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.infoworld.com/article/2337920/how-multicloud-changes-devops.html |
-| 7877 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.techtarget.com/searchitoperations/tip/Tips-and-tools-to-achieve-a-serverless-DevOps-workflow |
-| 7878 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/devops-as-a-service-migrating-your-entire-devops-stack-to-the-cloud |
-| 7879 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.com/geerlingguy/ansible-for-devops |
-| 7880 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://digital.ai/glossary |
-| 7881 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://digital.ai/learn/diagram-generator |
-| 7882 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://digital.ai/learn/devsecops-periodic-table |
-| 7883 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249 |
-| 7884 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://netflixtechblog.com/applying-netflix-devops-patterns-to-windows-2a57f2dbbf79 |
-| 7885 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/the-rise-of-netdevops-and-ci-cd-pipeline-solutions |
-| 7886 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://debuild.co |
-| 7887 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.seekwell.io |
-| 7888 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/the-coming-era-of-data-as-code |
-| 7889 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.arrikto.com/blog/what-is-data-as-code |
-| 7890 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://blogs.sap.com/2021/12/13/a-practical-guide-to-devops-for-sap-erp |
-| 7891 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.youtube.com/playlist?list=PLVx1qovxj-akoYTAboxT1AbHlPmrvRYYZ |
-| 7892 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.youtube.com/playlist?list=PLVx1qovxj-amqyqHceAhkcsopzi4PFcKc |
-| 7893 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.youtube.com/playlist?list=PLVx1qovxj-al0Knm1A0eEXfGyd5kCi16p |
-| 7894 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.youtube.com/playlist?list=PLVx1qovxj-akr_3XqQQgpqRyQw4GYuS4h |
-| 7895 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://platformengineering.org |
-| 7896 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/platform-engineering |
-| 7897 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.honeycomb.io/blog/future-ops-platform-engineering |
-| 7898 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/devops-burnout-try-platform-engineering |
-| 7899 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://softwareengineeringdaily.com/2020/02/13/setting-the-stage-for-platform-engineering |
-| 7900 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/how-is-platform-engineering-different-from-devops-and-sre |
-| 7901 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.salaboy.com/2022/11/28/the-challenges-of-platform-building-on-top-of-kubernetes-4-4 |
-| 7902 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.forbes.com/councils/forbestechcouncil/2023/02/23/how-to-empower-modern-kubernetes-management-with-a-platform-team-model/?streamIndex=0 |
-| 7903 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://dev.to/thenjdevopsguy/platform-engineering-on-kubernetes-part-4-internal-developer-platforms-1kmh |
-| 7904 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://dev.to/thenjdevopsguy/creating-your-platform-engineering-environment-4hpa |
-| 7905 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://siliconangle.com/2023/04/20/rise-platform-engineering-kubernetes-era-kubecon |
-| 7906 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.vcluster.com/blog/platform-engineering-the-definitive-guide |
-| 7907 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.infoworld.com/article/2338392/why-platform-engineering.html |
-| 7908 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://dev.to/aws-builders/platform-engineering-and-internal-developer-platform-3deb |
-| 7909 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://dev.to/thenjdevopsguy/what-is-platform-engineering-and-what-is-it-not-2jb8 |
-| 7910 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/the-6-pillars-of-platform-engineering-part-1-security |
-| 7911 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://humanitec.com/blog/how-to-design-your-repository-structures-to-nail-platform-engineering |
-| 7912 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.muycomputerpro.com/2024/01/12/ingenieria-de-plataformas-de-devops-la-nueva-generacion-de-devops |
-| 7913 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://humanitec.com/blog/escape-vmware-lock-in-with-a-modular-internal-developer-platform |
-| 7914 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.infoq.com/platformengineering |
-| 7915 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.infoq.com/articles/platform-runtime-engineering |
-| 7916 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.infoq.com/podcasts/platform-engineering-teams-10x-better |
-| 7917 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.syntasso.io/post/platform-engineering-orchestrating-applications-platforms-and-infrastructure |
-| 7918 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/5-lessons-for-building-a-platform-as-a-product |
-| 7919 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://gpustack.ai |
-| 7920 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://humanitec.com/blog/why-every-internal-developer-platform-needs-a-backend |
-| 7921 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://piotrminkowski.com/2024/07/04/idp-on-openshift-with-red-hat-developer-hub |
-| 7922 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.com/Qovery/Torii |
-| 7923 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.com/backstage/backstage |
-| 7924 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.port.io |
-| 7925 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.cortex.io |
-| 7926 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.atlassian.com/software/compass |
-| 7927 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.com/KusionStack/kusion |
-| 7928 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/technologies/cloud-computing/openshift |
-| 7929 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/channel/hybrid-cloud-infrastructure |
-| 7930 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.redhat.com/en |
-| 7931 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/openshift/origin |
-| 7932 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://commons.openshift.org |
-| 7933 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://x.com/openshift |
-| 7934 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://hub.docker.com/u/openshift |
-| 7935 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/livestreaming |
-| 7936 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.twitch.tv/redhatopenshift |
-| 7937 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/technologies/cloud-computing/openshift/dedicated |
-| 7938 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/technologies/cloud-computing/openshift/aws |
-| 7939 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.cloud.google.com/compute/docs/containers |
-| 7940 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/technologies/cloud-computing/openshift/azure |
-| 7941 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.ibm.com/products/openshift |
-| 7942 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://learn.microsoft.com/en-us/azure/developer/java/ee/jboss-eap-on-aro |
-| 7943 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/solutions/kubernetes-approach |
-| 7944 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.redhat.com/en/documentation/openshift_container_platform/4.4/html/cli_tools/openshift-cli-oc#cli-configuring-cli |
-| 7945 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.redhat.com/en/documentation/openshift_container_platform/3.11/html/cluster_administration/configuring-cluster-auto-scaler-aws |
-| 7946 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.redhat.com/en/documentation/openshift_container_platform/4.4/html/machine_management/applying-autoscaling |
-| 7947 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/resources |
-| 7948 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/resources/oreilly-kubernetes-operators-automation-ebook |
-| 7949 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.manning.com/books/openshift-in-action |
-| 7950 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://awesome-kubernetes.readthedocs.io/kubernetes/#e-books |
-| 7951 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/products/rhel |
-| 7952 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/redhatdemocentral/ocp-install-demo |
-| 7953 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.schabell.org/2020/05/cloud-native-development-a-blueprint.html |
-| 7954 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops/# |
-| 7955 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling |
-| 7956 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://gitlab.com/redhatdemocentral/portfolio-architecture-examples |
-| 7957 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/installing-okd-3-10-on-a-single-host |
-| 7958 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.youtube.com/watch?v=ZkFIozGY0IA |
-| 7959 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/gshipley/installcentos |
-| 7960 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/openshift/installer |
-| 7961 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/openshift-4-2-vsphere-install-quickstart |
-| 7962 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/openshift-4-2-vsphere-install-with-static-ips |
-| 7963 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.youtube.com/watch?v=DLB9m17aGus |
-| 7964 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/deploying-openshift-4.4-to-vmware-vsphere-7 |
-| 7965 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/blog/2019/02/27/sidecars-analyze-debug-network-traffic-kubernetes-pod |
-| 7966 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/blog/2020/01/01/skupper-io-let-your-services-communicate-across-kubernetes-clusters |
-| 7967 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/troubleshooting-openshift-network-performance-with-a-netperf-daemonset |
-| 7968 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/advanced-network-customizations-for-openshift-install |
-| 7969 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/adding-security-layers-to-your-app-on-openshift-part-1-deployment-and-tls-ingress-9ef752835599 |
-| 7970 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.redhat.com/en/documentation/openshift_container_platform/3.11/html/container_security_guide/security-platform |
-| 7971 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.redhat.com/en/documentation/openshift_container_platform/4.4/html/authentication_and_authorization/understanding-authentication |
-| 7972 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.redhat.com/en/documentation/openshift_container_platform/3.11/html/cluster_administration/admin-guide-manage-scc |
-| 7973 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.redhat.com/en/documentation/openshift_container_platform/3.11/html/architecture/additional-concepts#architecture-additional-concepts-authorization |
-| 7974 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/fully-automated-management-of-egress-ips-with-the-egressip-ipam-operator |
-| 7975 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/redhat-cop/openshift-toolkit/tree/master/networkpolicy |
-| 7976 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/kubernetes-ingress-vs-openshift-route |
-| 7977 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/how-to-enable-static-egress-ip-in-ocp |
-| 7978 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://catalog.redhat.com/en |
-| 7979 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/sclorg |
-| 7980 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/sclorg/mariadb-container |
-| 7981 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://about.gitlab.com/blog/get-started-with-openshift-origin-3-and-gitlab |
-| 7982 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/nubenetes/confluence6-atlassian |
-| 7983 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://hub.docker.com/r/sonatype/nexus3 |
-| 7984 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://opensource.com/article/22/1/rocketchat-data-privacy |
-| 7985 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/aws-and-red-hat-quickstart-workshop |
-| 7986 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://aws.amazon.com/quickstart/architecture/openshift |
-| 7987 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/introducing-red-hat-openshift-service-on-aws |
-| 7988 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/red-hat-openshift-dedicated-price-reduction |
-| 7989 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/oscp/awesome-openshift3 |
-| 7990 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/sindresorhus/awesome |
-| 7991 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://dev.to/playfulprogramming/the-awesome-side-of-github-awesome-lists-2a5h |
-| 7992 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://ramitsurana.github.io/awesome-kubernetes |
-| 7993 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/tomhuang12/awesome-k8s-resources |
-| 7994 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/jk8s/awesome-kubernetes |
-| 7995 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | http://dockerlabs.collabnix.com/kubernetes/kubetools |
-| 7996 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/magnologan/awesome-k8s-security |
-| 7997 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/ksoclabs/awesome-kubernetes-security |
-| 7998 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/rootsongjc/awesome-cloud-native |
-| 7999 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://unofficial-kubernetes.readthedocs.io/en/latest |
-| 8000 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/run-x/awesome-kubernetes |
-| 8001 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/clusterpedia-io/clusterpedia |
-| 8002 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/mikeroyal/Kubernetes-Guide |
-| 8003 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.fairwinds.com/blog/top-12-kubernetes-resources |
-| 8004 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/joseadanof/awesome-cloudnative-trainings |
-| 8005 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/calvin-puram/awesome-kubernetes-operator-resources |
-| 8006 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://free-for.dev |
-| 8007 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/tcnksm/awesome-container |
-| 8008 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/jyguyomarch/awesome-productivity |
-| 8009 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/inputsh/awesome-linux |
-| 8010 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/trimstray/the-book-of-secret-knowledge |
-| 8011 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/binhnguyennus/awesome-scalability |
-| 8012 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/bregman-arie/devops-exercises |
-| 8013 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/upgundecha/howtheysre |
-| 8014 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/yangshun/tech-interview-handbook |
-| 8015 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/unixorn/awesome-zsh-plugins |
-| 8016 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/developer-guy/awesome-falco |
-| 8017 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/runacapital/awesome-oss-alternatives |
-| 8018 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://awesome-architecture.com |
-| 8019 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/lorien/awesome-web-scraping |
-| 8020 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developer.hashicorp.com |
-| 8021 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/iximiuz/awesome-container-tinkering |
-| 8022 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/ran-isenberg/aws-lambda-handler-cookbook |
-| 8023 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/koslib/awesome-containerized-security |
-| 8024 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/steve-mt/awesome-slo |
-| 8025 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/Noovolari/awesome-cloudops |
-| 8026 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/collections/learn-to-code |
-| 8027 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/palark/awesome-devops-telegram |
-| 8028 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/terrytangyuan/awesome-kubeflow |
-| 8029 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/shahedbd/awesome-project-management |
-| 8030 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/lorabv/awesome-agile |
-| 8031 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/rayfrankenstein/AITOW |
-| 8032 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/kahun/awesome-sysadmin |
-| 8033 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://awesome.jimmysong.io |
-| 8034 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/saturnism/awesome-cloud-native-java |
-| 8035 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/pditommaso/awesome-pipeline |
-| 8036 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/robzienert/awesome-spinnaker |
-| 8037 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/awesome-soft/awesome-devops |
-| 8038 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/bregman-arie/devops-resources |
-| 8039 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/andredesousa/devops-best-practices |
-| 8040 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/MichaelCade/90DaysOfDevOps |
-| 8041 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/sottlmarek/DevSecOps |
-| 8042 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/hahwul/DevSecOps |
-| 8043 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/weaveworks/awesome-gitops |
-| 8044 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/microtica/gitops-resources |
-| 8045 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/dastergon/awesome-sre |
-| 8046 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/SquadcastHub/awesome-sre-tools |
-| 8047 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/mancubus77/awesome-sre |
-| 8048 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/awesome-sre/awesome-sre |
-| 8049 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/mfornos/awesome-microservices |
-| 8050 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/akuity/awesome-argo |
-| 8051 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/adriannovegil/awesome-observability |
-| 8052 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/donnemartin/awesome-aws |
-| 8053 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/GoogleCloudPlatform/awesome-google-cloud |
-| 8054 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/kristofferandreasen/awesome-azure |
-| 8055 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/simhol/awesome-azure |
-| 8056 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/jonleibowitz/awesome-digitalocean |
-| 8057 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/jimmyraywv/awesome-eks |
-| 8058 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/globalbao/awesome-azure-policy |
-| 8059 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/toniblyx/my-arsenal-of-aws-security-tools |
-| 8060 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/lukemurraynz/awesome-azure-architecture |
-| 8061 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/iam-veeramalla/Azure-zero-to-hero |
-| 8062 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/veggiemonk/awesome-docker |
-| 8063 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/docker/awesome-compose |
-| 8064 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://collabnix.github.io/docker-community-extensions |
-| 8065 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/jdauphant/awesome-ansible |
-| 8066 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/ansible-community/awesome-ansible |
-| 8067 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/dchonch/awesome-packer |
-| 8068 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/ElYusubov/AWESOME-Azure-Bicep |
-| 8069 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/sbilly/awesome-security |
-| 8070 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/myugan/awesome-docker-security |
-| 8071 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/open-policy-agent/awesome-opa |
-| 8072 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/tldrsec/awesome-secure-defaults |
-| 8073 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/atinfo/awesome-test-automation |
-| 8074 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/ligurio/sqa-wiki |
-| 8075 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/TheJambo/awesome-testing |
-| 8076 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/slawekradzyminski/AwesomeTesting |
-| 8077 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/aliesbelik/awesome-jmeter |
-| 8078 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/mailtoharshit/Awesome-Api-Management-Tools |
-| 8079 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/yangtao309/awesome-api-gateway |
-| 8080 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/viatsko/awesome-vscode |
-| 8081 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/akullpp/awesome-java |
-| 8082 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/PatrickJS/awesome-angular |
-| 8083 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/thangchung/awesome-dotnet-core |
-| 8084 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/charlax/professional-programming |
-| 8085 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.igoroseledko.com/bash-and-expect-snippets |
-| 8086 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/janikvonrotz/awesome-powershell |
-| 8087 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://awesomerank.github.io/lists/janikvonrotz/awesome-powershell.html |
-| 8088 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/oxnr/awesome-bigdata |
-| 8089 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/visenger/awesome-mlops |
-| 8090 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/ekramasif/Basic-Machine-Learning |
-| 8091 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/DataExpert-io/data-engineer-handbook |
-| 8092 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://opensource.builders |
-| 8093 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://dev.to/swordheath/great-github-repositories-that-developers-love-1g97 |
-| 8094 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://kustomize.io |
-| 8095 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://kubernetes.io/blog/2018/05/29/introducing-kustomize-template-free-configuration-customization-for-kubernetes |
-| 8096 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization |
-| 8097 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/kbst/terraform-kubestack |
-| 8098 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://tech.aabouzaid.com/2020/09/3-ways-to-customize-off-the-shelf-helm-charts-with-kustomize-kubernetes.html |
-| 8099 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://blog.stack-labs.com/code/kustomize-101 |
-| 8100 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/21/6/kustomize-kubernetes |
-| 8101 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://dev.to/katiatalhi/introduction-to-kustomize-how-to-customize-kubernetes-objects-3e08 |
-| 8102 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.mirantis.com/blog/introduction-to-kustomize-part-1-creating-a-kubernetes-app-out-of-multiple-pieces |
-| 8103 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://octopus.com/blog/applied-gitops-with-kustomize |
-| 8104 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://tech.aabouzaid.com/2022/11/set-openapi-patch-strategy-for-kubernetes-custom-resources-kustomize.html |
-| 8105 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.harness.io/blog/helm-vs-kustomize |
-| 8106 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/kostis-codefresh/gitops-environment-promotion |
-| 8107 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://dev.to/pavanbelagatti/kubernetes-kustomize-tutorial-a-beginner-friendly-developer-guide-322n |
-| 8108 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://devopscube.com/kustomize-tutorial |
-| 8109 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://courses.devopscube.com/l/products |
-| 8110 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://itnext.io/generating-transforming-and-patching-kubernetes-configuration-with-kustomize-fb7b02476a1b |
-| 8111 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/bbl/secretize |
-| 8112 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://itnext.io/helm-is-not-enough-you-also-need-kustomize-82bae896816e |
-| 8113 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/chrisns/k8s-opa-boilerplate |
-| 8114 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://americanexpress.io/do-not-run-dockerized-applications-as-root |
-| 8115 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.freecodecamp.org/news/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b |
-| 8116 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://labs.play-with-docker.com |
-| 8117 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/docker/build-push-action |
-| 8118 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/getting-started-with-docker-facts-you-should-know-d000e5815598 |
-| 8119 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://jfrog.com/learn/cloud-native/how-to-build-docker-images |
-| 8120 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://pythonspeed.com/articles/dockerizing-python-is-hard |
-| 8121 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://automationreinvented.blogspot.com/2020/02/top-18-docker-commands-for-aytomation.html |
-| 8122 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://css-tricks.com/a-gentle-introduction-to-using-a-docker-container-as-a-dev-environment |
-| 8123 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.docker.com/engine/context/ecs-integration |
-| 8124 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://martinheinz.dev/blog/35 |
-| 8125 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://adictosaltrabajo.com/2020/12/22/como-crear-y-desplegar-microservicios-con-spring-boot-spring-cloud-netflix-y-docker |
-| 8126 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.infoq.com/news/2021/01/docker-jfrog-partnership |
-| 8127 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://pythonspeed.com/articles/security-updates-in-docker |
-| 8128 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/blog/making-environment-variables-accessible-in-front-end-containers |
-| 8129 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.theskillpedia.com/managing-docker-images-openshift-tutorial |
-| 8130 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.r-bloggers.com/2021/05/dockerizing-shiny-applications |
-| 8131 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://pythonspeed.com/articles/docker-performance-overhead |
-| 8132 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://release.com/blog/cutting-build-time-in-half-docker-buildx-kubernetes |
-| 8133 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.linuxadictos.com/docker-presenta-nuevas-capacidades-para-desarrolladores.html |
-| 8134 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://grafana.com/docs/grafana-cloud/monitor-infrastructure/integrations/integration-reference/integration-docker |
-| 8135 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/hood/docker-cmd-vs-entrypoint-explaining-the-difference-55g7 |
-| 8136 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.gougousis.net/file-permissions-the-painful-side-of-docker |
-| 8137 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.returngis.net/2021/08/crea-hosts-de-docker-con-docker-machine-en-microsoft-azure |
-| 8138 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/kubona_my/docker-101-124e |
-| 8139 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.tecmint.com/install-docker-in-rocky-linux-and-almalinux |
-| 8140 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://adoptium.net/news/2021/08/using-jlink-in-dockerfiles |
-| 8141 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.returngis.net/2021/08/explorar-graficamente-el-contenido-de-un-volumen-de-docker |
-| 8142 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://opensource.com/article/21/8/container-image |
-| 8143 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.zdnet.com/article/docker-changes-its-subscription-plans-usage-rules-and-product-line |
-| 8144 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.servethehome.com/docker-abruptly-starts-charging-many-users-for-docker-desktop |
-| 8145 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://mattrickard.com/docker-desktop-alternatives |
-| 8146 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.aquasec.com/container-isolation-techniques |
-| 8147 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.infoworld.com/article/2269272/how-docker-broke-in-half.html |
-| 8148 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/tylerlwsmith/one-does-not-just-containerize-an-app-5eae |
-| 8149 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/abdorah/how-to-create-production-docker-image-ready-for-deployment-4bbe |
-| 8150 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/_nicolas_louis_/how-to-run-docker-on-windows-without-docker-desktop-hik |
-| 8151 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/paru429/beginner-s-guide-to-docker-and-docker-cli-commands-1p75 |
-| 8152 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.freecodecamp.org/news/learn-how-to-deploy-12-apps-to-aws-azure-google-cloud |
-| 8153 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.freecodecamp.org/news/why-you-should-start-using-docker-now |
-| 8154 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.infoworld.com/article/2270814/docker-really-did-change-the-world.html |
-| 8155 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://iximiuz.com/en/posts/container-learning-path |
-| 8156 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/the-time-to-decide-on-docker-desktop-has-arrived |
-| 8157 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.codeproject.com/Tips/5323808/How-To-Create-An-Image-In-Docker-Using-Python |
-| 8158 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/containers/how-to-share-data-between-docker-containers |
-| 8159 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://iximiuz.com/en/posts/containers-101-attach-vs-exec |
-| 8160 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.pluralsight.com/resources/blog/cloud/docker-copy-vs-add-whats-the-difference |
-| 8161 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/how-to-run-docker-in-rootless-mode |
-| 8162 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/dhravya/docker-explained-to-a-5-year-old-2cbg |
-| 8163 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.freecodecamp.org/news/docker-cache-tutorial |
-| 8164 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/signoz/docker-101-introduction-to-docker-1kbm |
-| 8165 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://devtron.ai/blog/cmd-and-entrypoint-differences |
-| 8166 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docker-curriculum.com |
-| 8167 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.hostinger.com/in/tutorials/what-is-docker |
-| 8168 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://viblo.asia/p/how-to-prevent-out-of-disk-space-when-using-docker-english-WR5JRDBrVGv |
-| 8169 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://iximiuz.com/en/posts/docker-publish-container-ports |
-| 8170 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://iximiuz.com/en/posts/docker-publish-port-of-running-container |
-| 8171 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/kameshsampath/simplify-your-dockerfile-1j5k |
-| 8172 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.youtube.com/watch?v=0mxhS7H6bxM |
-| 8173 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.codementor.io/blog/docker-technology-5x1kilcbow |
-| 8174 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/javinpaul/my-favorite-free-courses-to-learn-docker-and-containers-in-2023-1ldo |
-| 8175 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/itsahsanmangal/building-a-robust-cicd-pipeline-with-docker-a-comprehensive-guide-4k8b |
-| 8176 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/prasenjeetsymon/docker-from-zero-to-hero-part-1-3a45 |
-| 8177 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://devopscube.com/build-docker-image |
-| 8178 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.sysdig.com/learn-cloud-native/dockerfile-best-practices |
-| 8179 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://testdriven.io/blog/docker-best-practices |
-| 8180 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/techworld_with_nana/top-8-docker-best-practices-for-using-docker-in-production-1m39 |
-| 8181 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/karanpratapsingh/top-5-docker-best-practices-57oh |
-| 8182 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://stevelasker.blog/2018/03/01/docker-tagging-best-practices-for-tagging-and-versioning-docker-images |
-| 8183 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://spacelift.io/blog/docker-volumes |
-| 8184 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.netapp.com/us-en/trident/trident-docker/volumes-docker.html |
-| 8185 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://iximiuz.com/en/posts/docker-debug-slim-containers |
-| 8186 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.docker.com/reference/cli/docker/buildx/imagetools |
-| 8187 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/docker/9-docker-extensions-every-developer-must-try-1no2 |
-| 8188 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/Saniewski/mongo-express-docker-extension |
-| 8189 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/pabpereza/containers-best-practices |
-| 8190 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.testproject.io/2021/06/21/a-comparison-of-kubernetes-and-docker |
-| 8191 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://cloudnativenow.com/features/whats-the-difference-between-docker-and-kubernetes |
-| 8192 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://octopus.com/blog/docker-anti-patterns |
-| 8193 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://acloudguru.com/blog/engineering/10-docker-security-best-practices-to-cut-container-chaos |
-| 8194 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://brianchristner.io/how-to-use-docker-scan |
-| 8195 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://snyk.io/blog/10-docker-image-security-best-practices |
-| 8196 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.augmentedmind.de/2024/06/12/optimize-docker-image-security |
-| 8197 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.infoq.com/articles/securing-docker |
-| 8198 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.clickittech.com/devops/docker-security-best-practices |
-| 8199 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://securitylabs.datadoghq.com/articles/container-security-fundamentals-part-1 |
-| 8200 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/blog/2016/03/09/more-about-docker-images-size |
-| 8201 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itsopensource.com/how-to-reduce-node-docker-image-size-by-ten-times |
-| 8202 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.bitsrc.io/best-practices-for-writing-a-dockerfile-68893706c3 |
-| 8203 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://sequoia.makes.software/reducing-docker-image-size-particularly-for-kubernetes-environments |
-| 8204 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/building-docker-images-the-proper-way-3c9807524582 |
-| 8205 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.returngis.net/2021/08/reduce-el-tamano-de-tus-imagenes-con-dockerfiles-multi-stage |
-| 8206 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.root.io |
-| 8207 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://learnkube.com/blog/smaller-docker-images |
-| 8208 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | http://jpetazzo.github.io/2021/11/30/docker-build-container-images-antipatterns |
-| 8209 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/articles/2022/01/17/reduce-size-container-images-dockerslim |
-| 8210 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://piotrminkowski.com/2023/11/07/slim-docker-images-for-java |
-| 8211 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://bhupesh.me/publishing-my-first-ever-dockerfile-optimization-ugit |
-| 8212 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.nrmitchi.com/2020/10/one-simple-trick-for-building-images-faster/?utm_sq=gkugwn5n5s |
-| 8213 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://pythonspeed.com/articles/docker-buildkit |
-| 8214 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.inedo.com/devops/top-50-docker-tools |
-| 8215 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.infoq.com/news/2020/07/docker-ecs-plugin |
-| 8216 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/wagoodman/dive |
-| 8217 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/bcicen/ctop |
-| 8218 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/kooldev/use-kool-to-dockerize-your-local-development-environment-the-right-way-18gl |
-| 8219 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://sematext.com/capabilities/container-monitoring |
-| 8220 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/stepchowfun/docuum |
-| 8221 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/cybersecsi/RAUDI |
-| 8222 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/grosser/preoomkiller |
-| 8223 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/ory/dockertest |
-| 8224 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/hadolint/hadolint |
-| 8225 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://ttl.sh |
-| 8226 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/ktock/buildg |
-| 8227 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.infoq.com/news/2022/09/debug-dockerfiles-buildg |
-| 8228 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/jesseduffield/lazydocker |
-| 8229 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/containrrr/watchtower |
-| 8230 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://andrewlock.net/installing-docker-desktop-for-windows |
-| 8231 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.freecodecamp.org/news/a-beginners-guide-to-docker-how-to-create-a-client-server-side-with-docker-compose-12c8cf0ae0aa |
-| 8232 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.infoworld.com/article/2257118/dockers-compose-specification-is-now-an-open-standard.html |
-| 8233 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.theregister.com/software/2020/04/08/compose-yourselves-docker-has-published-multi-container-app-spec-needs-contributors-to-help-maintain-and-develop-it/311866 |
-| 8234 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://geshan.com.np/blog/2021/12/docker-postgres |
-| 8235 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://codesolid.com/how-to-use-docker-with-python |
-| 8236 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://release.com/blog/6-docker-compose-best-practices-for-dev-and-prod |
-| 8237 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | http://crunchtools.com/moving-linux-services-to-containers |
-| 8238 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://techcommunity.microsoft.com/blog/itopstalkblog/iis-central-certificate-store-and-windows-containers/4181509 |
-| 8239 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.portainer.io/install |
-| 8240 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/deploy-a-persistent-kubernetes-application-with-portainer |
-| 8241 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | http://crunchtools.com/comparison-linux-container-images |
-| 8242 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/blog/2020/03/24/red-hat-universal-base-images-for-docker-users |
-| 8243 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://hub.docker.com/u/redhat |
-| 8244 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/articles/2021/05/25/red-hat-universal-base-image-and-docker-hub-why-should-developers-care |
-| 8245 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/about/press-releases/red-hat-brings-red-hat-universal-base-image-docker-hub |
-| 8246 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.digitalocean.com/community/tags/docker |
-| 8247 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://buildpacks.io |
-| 8248 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.altoros.com/blog/streamlining-the-creation-of-docker-images-with-cloud-native-buildpacks |
-| 8249 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/container-images-the-easy-way-with-cloud-native-buildpacks |
-| 8250 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/pmbanugo/goodbye-dockerfiles-build-secure-optimised-nodejs-container-images-with-cloud-native-buildpacks-489p |
-| 8251 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://jfrog.com/learn/devops/alternatives-to-docker |
-| 8252 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/genuinetools/img |
-| 8253 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/GoogleContainerTools/jib |
-| 8254 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.docker.com/build/buildkit |
-| 8255 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.logrocket.com/docker-alternatives |
-| 8256 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/replace-docker-desktop-with-lima-88ec6f9d6a19 |
-| 8257 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://relnotes.k8s.io |
-| 8258 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.sysdig.com/blog/whats-new-kubernetes-1-20 |
-| 8259 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.zdnet.com/article/kubernetes-dropping-docker-is-not-that-big-of-a-deal |
-| 8260 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/kubernetes-1-20-lands-with-44-enhancements |
-| 8261 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/kubernetes-1-20-enhances-the-operator-experience-and-brings-new-features-to-the-container-runtime |
-| 8262 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/kubernetes-is-removing-docker-support-kubernetes-is-not-removing-docker-support |
-| 8263 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://devopscube.com/kubernetes-v1-21-released |
-| 8264 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/kubernetes-1-21-brings-a-new-memory-manager-more-flexible-scheduling |
-| 8265 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2021/04/09/kubernetes-release-1.21-cronjob-ga |
-| 8266 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2021/04/08/kubernetes-1-21-release-announcement |
-| 8267 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.devclass.com/containers/2021/04/09/kubernetes-121-unloads-pod-security-adds-dual-ipv4/ipv6-networking-and-shuts-down-gracefully/1623619 |
-| 8268 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2021/04/12/introducing-suspended-jobs |
-| 8269 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://analyticsindiamag.com/kubernetes-v1-21-released-major-updates-latest-features |
-| 8270 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/kubernetes-1.21-grows-innovative-new-features |
-| 8271 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://gist.github.com/jimangel/0014770713cdca8b363816930ef2520f |
-| 8272 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2021/04/23/kubernetes-release-1.21-metrics-stability-ga |
-| 8273 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.sysdig.com/blog/kubernetes-1-22-whats-new |
-| 8274 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2021/07/14/upcoming-changes-in-kubernetes-1-22 |
-| 8275 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2021/08/04/kubernetes-1-22-release-announcement |
-| 8276 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/less-is-more-with-kubernetes-1-22 |
-| 8277 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.pluralsight.com/resources/blog/cloud/whats-new-with-kubernetes-1-22 |
-| 8278 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2021/04/21/graceful-node-shutdown-beta |
-| 8279 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2021/08/11/kubernetes-1-22-feature-memory-manager-moves-to-beta |
-| 8280 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2021/11/12/are-you-ready-for-dockershim-removal |
-| 8281 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.sysdig.com/blog/kubernetes-1-23-whats-new |
-| 8282 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.armosec.io/blog/kubernetes-version-1-23-is-out-everything-you-should-know |
-| 8283 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/kubernetes-1-23-dual-stack-ipv4-ipv6-cronjobs-ephemeral-volumes |
-| 8284 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.aquasec.com/kubernetes-version-1.23-security-features |
-| 8285 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2021/12/07/kubernetes-1-23-release-announcement |
-| 8286 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.infoq.com/news/2022/01/kubernetes-dockershim-removal |
-| 8287 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2022/02/17/dockershim-faq |
-| 8288 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2021/07/20/new-kubernetes-release-cadence |
-| 8289 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://aws.amazon.com/blogs/containers/amazon-eks-now-supports-kubernetes-1-22 |
-| 8290 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.sysdig.com/blog/kubernetes-1-24-whats-new |
-| 8291 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2022/08/04/upcoming-changes-in-kubernetes-1-25 |
-| 8292 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.sysdig.com/blog/kubernetes-1-25-whats-new |
-| 8293 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2022/08/23/kubernetes-v1-25-release |
-| 8294 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2022/08/23/podsecuritypolicy-the-historical-context |
-| 8295 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.macchaffee.com/blog/2022/psp-deprecation |
-| 8296 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.datree.io/resources/eks-1-22-upgrade-tutorial |
-| 8297 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2022/11/28/registry-k8s-io-faster-cheaper-ga |
-| 8298 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.sysdig.com/blog/kubernetes-1-26-whats-new |
-| 8299 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.armosec.io/blog/kubernetes-1-26-everything-you-should-know |
-| 8300 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2022/12/16/kubernetes-1-26-non-graceful-node-shutdown-beta |
-| 8301 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2022/12/23/kubernetes-12-06-fsgroup-on-mount |
-| 8302 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2022/12/26/pod-scheduling-readiness-alpha |
-| 8303 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2022/12/27/cpumanager-ga |
-| 8304 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/unleashing-the-power-of-kubernetes-1-26-56979ee667fd |
-| 8305 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2022/12/29/scalable-job-tracking-ga |
-| 8306 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2022/12/30/advancements-in-kubernetes-traffic-engineering |
-| 8307 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.sysdig.com/blog/kubernetes-1-27-whats-new |
-| 8308 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2023/04/11/kubernetes-v1-27-release |
-| 8309 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/kubernetes-1-27-arrives |
-| 8310 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.armosec.io/blog/kubernetes-1-27-release |
-| 8311 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://aws.amazon.com/about-aws/whats-new/2023/05/aws-management-console-private-access |
-| 8312 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2023/05/12/in-place-pod-resize-alpha |
-| 8313 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/kubernetes-1-28-accommodates-the-service-mesh-sudden-outages |
-| 8314 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/ansible-collaborative?intcmp=7015Y000003t7aWQAQ |
-| 8315 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://docs.ansible.com |
-| 8316 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.edureka.co/blog/what-is-ansible |
-| 8317 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/20/9/install-packages-ansible |
-| 8318 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/20/9/ansible-modules-kubernetes |
-| 8319 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/19/2/quickstart-guide-ansible |
-| 8320 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/20/9/ansible |
-| 8321 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/20/10/calendar-ansible |
-| 8322 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/20/10/first-day-ansible |
-| 8323 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://siliconangle.com/2020/10/13/red-hat-ties-ansible-automation-kubernetes-cluster-management |
-| 8324 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://thenewstack.io/red-hat-brings-ansible-automation-to-kubernetes |
-| 8325 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/ansible-and-openshift-connecting-for-success |
-| 8326 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.zdnet.com/article/red-hat-expands-ansible-ready-to-run-cloud-programs |
-| 8327 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.theregister.com/software/2020/10/14/juggling-ansible-openshift-and-k8s-this-is-for-you-red-hat-couples-automation-to-cluster-management/656846 |
-| 8328 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/services/training/au094-ansible-essentials-simplicity-automation-technical-overview |
-| 8329 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/20/10/ansible-modules-linux |
-| 8330 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/renewed-thrill-ansible |
-| 8331 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/20/12/ansible-lab |
-| 8332 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/21/1/improve-ansible-play |
-| 8333 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/demystifying-ansible-sysadmins |
-| 8334 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/ansible-quick-start |
-| 8335 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/21/1/ansible |
-| 8336 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/ansible-network-resource-modules-deep-dive-on-return-values?sc_cid=7015Y000003t7aWQAQ |
-| 8337 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.linkedin.com/pulse/ansible-what-marcel-koert |
-| 8338 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/automate-reboot-ansible |
-| 8339 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://developer.okta.com/blog/2021/02/05/okta-ansible |
-| 8340 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/how-start-ansible |
-| 8341 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/21/2/ansible-origin-story |
-| 8342 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.toptechskills.com/ansible-tutorials-courses |
-| 8343 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/21/3/ansible-sysadmin |
-| 8344 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/developing-ansible-role |
-| 8345 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/engage/ansible-automation-platform-beginners-guide-ebook |
-| 8346 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/configure-gmail-using-ansible |
-| 8347 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/reverse-proxy-ansible |
-| 8348 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://groups.google.com/g/ansible-devel/c/CdQ7eWUUm8k?pli=1 |
-| 8349 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://fedoramagazine.org/using-ansible-to-configure-podman-containers |
-| 8350 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.pluralsight.com/resources/blog/cloud/ansible-vs-puppet-which-is-right-for-you |
-| 8351 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/install-ansible-way |
-| 8352 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/introduction-rhel-system-roles |
-| 8353 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://linuxtechlab.com/ansible-tutorial-simple-commands |
-| 8354 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://k21academy.com/devops/ansible-for-beginners |
-| 8355 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://analyticsindiamag.com/ansible-vs-docker-a-detailed-comparison-of-devops-tools |
-| 8356 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/6-code-pushes-aap |
-| 8357 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/ansible-create-users-csv |
-| 8358 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://dev.to/grayhat/devops-101-introduction-to-ansible-1n64 |
-| 8359 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/python-venv-ansible |
-| 8360 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/ansible-ad-hoc-commands |
-| 8361 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/software-packages-ansible |
-| 8362 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://developers.redhat.com/articles/2021/08/30/automate-red-hat-jboss-web-server-deployments-ansible |
-| 8363 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/ansible-templates-configuration |
-| 8364 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/ansiblefest-sysadmins |
-| 8365 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/21/9/keep-folders-tidy-ansible |
-| 8366 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://developers.redhat.com/articles/2021/09/27/four-reasons-developers-should-use-ansible |
-| 8367 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://vitux.com/how-to-speed-up-an-ansible-playbook |
-| 8368 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.youtube.com/watch?v=mc20VwxYaGE&t=3s&ab_channel=CLOUDLEARNHUB |
-| 8369 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/22/1/learn-ansible |
-| 8370 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://cloud.google.com/blog/products/operations/use-ansible-to-deploy-the-google-cloud-ops-agent |
-| 8371 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.cloudbees.com/blog/getting-started-quickly-with-ansible-ad-hoc-commands |
-| 8372 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/faster-ansible-playbook-execution |
-| 8373 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.middlewareinventory.com/blog/ansible-list-examples-how-to-create-and-append-items-to-list |
-| 8374 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.middlewareinventory.com/blog/ansible-dict |
-| 8375 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.middlewareinventory.com/blog/ansible-aws_s3-example |
-| 8376 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://techbeatly.com/ansible-for-infrastructure-provisioning-in-aws-ansible-real-life-series |
-| 8377 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/ansible-dynamic-inventories |
-| 8378 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/ansible-dynamic-inventory-python |
-| 8379 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/ansible-plugin-inventory-files |
-| 8380 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.dlford.io/ansible-orchestration-how-to-home-lab-part-10 |
-| 8381 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://learning-devops-tools-with-nandita.blogspot.com/2022/08/overview-of-ansible-and-ansible.html |
-| 8382 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://developers.redhat.com/articles/2022/10/25/how-install-vms-and-ansible-automation-platform-mac-m1 |
-| 8383 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://devopscube.com/setup-ansible-aws-dynamic-inventory |
-| 8384 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/creating-custom-rules-for-ansible-lint?intcmp=7015Y000003t7aWQAQ |
-| 8385 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/top-10-ansible-blogs-2022?sc_cid=7015Y000003t7aWQAQ |
-| 8386 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://tomsitcafe.com/2023/02/14/getting-started-with-ansible-playbooks-more-steps-towards-devops |
-| 8387 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://tomsitcafe.com/2023/02/17/conditional-statements-making-decisions-in-ansible-code |
-| 8388 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://tomsitcafe.com/2023/03/06/how-to-implement-and-use-handlers-in-ansible-code |
-| 8389 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://tomsitcafe.com/2023/03/13/configuration-file-blueprints-jinja2-templates-in-the-ansible-code |
-| 8390 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://tomsitcafe.com/2023/03/16/handling-sensitive-data-with-ansible-vault-encrypting-strings-instead-of-files |
-| 8391 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/kubernetes-meets-event-driven-ansible?intcmp=7015Y000003t7aWQAQ |
-| 8392 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://tomsitcafe.com/2023/05/11/lets-use-a-more-flexible-directory-structure-for-an-ansible-project |
-| 8393 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://tomsitcafe.com/2023/05/15/ansible-semaphore-a-modern-open-source-gui-for-our-ansible-automation |
-| 8394 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://tomsitcafe.com/2023/06/02/mastering-ansible-navigating-the-most-common-errors-and-mistakes |
-| 8395 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://tomsitcafe.com/2023/06/09/automating-apis-with-ansible-a-comprehensive-guide |
-| 8396 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://devopsinside.com/how-kubernetes-is-killing-tools-like-ansible |
-| 8397 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://community.ibm.com/community/user/blogs/daniel-jast1/2023/12/07/red-hat-aap-on-ibm-z-and-linuxone |
-| 8398 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://intellipaat.com/blog/ansible-vs-kubernetes-vs-docker |
-| 8399 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/ansible-lists-dictionaries-yaml |
-| 8400 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/naveensilver/Ansible |
-| 8401 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/technologies/management/ansible/ai-automation |
-| 8402 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/technologies/management/ansible/automation-coding-assistant |
-| 8403 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://mightyclaws.co.uk/bournemouth |
-| 8404 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://thenewstack.io/how-to-put-a-gui-on-ansible-using-semaphore |
-| 8405 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://infraxpertzz.com/deploying-custom-files-with-jinja2-template |
-| 8406 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/pallets/jinja |
-| 8407 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://docs.ansible.com/projects/ansible/latest/dev_guide/developing_modules_general.html |
-| 8408 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://techforce1.nl/creating-your-first-ansible-module |
-| 8409 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://linuxctl.com/2017/01/ansible---interacting-with-external-rest-api |
-| 8410 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://steampunk.si/blog/let-us-give-ansible-a-rest |
-| 8411 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/ansible-web-endpoints |
-| 8412 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/21/9/ansible-rest-apis |
-| 8413 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/technologies/management/ansible/application-delivery?sc_cid=7015Y000003t7aWQAQ |
-| 8414 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.youtube.com/playlist?list=PLOwxB_PX3s3WSfhzVtwhxXwy7QpkmtnzR |
-| 8415 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.youtube.com/playlist?list=PLWZKNB9waqIXEL-NIapWwIADPtkspe9vk |
-| 8416 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.youtube.com/watch?v=NgRuap0MmZw&ab_channel=XavkiEn |
-| 8417 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/k3s-io/k3s-ansible |
-| 8418 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/PyratLabs/ansible-role-k3s |
-| 8419 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://developers.redhat.com/articles/2021/09/28/set-modcluster-red-hat-jboss-web-server-ansible |
-| 8420 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.middlewareinventory.com/blog/ansible-playbook-example |
-| 8421 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/ansible-collections |
-| 8422 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/ansible-collections/amazon.aws |
-| 8423 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/Radware/radware-ansible |
-| 8424 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/based-validated-network-content?sc_cid=7015Y000003t7aWQAQ |
-| 8425 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/about/press-releases/red-hat-ansible-automation-platform-enhancements-and-new-certified-ansible-content-collections-refine-automation-experience-drive-business-imperatives |
-| 8426 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/ansible-collaborative?intcmp=7015Y000003t7aWQAQ/blog/now-available-red-hat-ansible-automation-platform-1.2 |
-| 8427 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://pypi.org/project/ansible-navigator |
-| 8428 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/ansible-collaborative?intcmp=7015Y000003t7aWQAQ/blog/introducing-ansible-automation-platform-2 |
-| 8429 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/datacenter-edge-open-hybrid-cloud-vision-red-hat-ansible-automation-platform-2 |
-| 8430 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/redefining-possibilities-it-automation-across-your-ecosystem-red-hat-partners |
-| 8431 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.crn.com/news/cloud/ibm-s-red-hat-reveals-ansible-automation-platform-2-early-access |
-| 8432 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://devops.com/red-hat-extends-scope-of-ansible-automation-ambitions |
-| 8433 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/about/press-releases/red-hat-ansible-automation-platform-2-drives-cloud-native-automation-and-helps-developers-become-automators |
-| 8434 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/whats-new-in-ansible-automation-platform-2-automation-controller?sc_cid=7015Y000003t7aWQAQ |
-| 8435 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/about/press-releases/red-hat-brings-industry-leading-ansible-automation-platform-microsoft-azure |
-| 8436 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/technologies/management/ansible?sc_cid=7015Y000003t7aWQAQ |
-| 8437 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://access.redhat.com/articles/4993781 |
-| 8438 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/automating-red-hat-satellite-with-ansible?sc_cid=7015Y000003t7aWQAQ |
-| 8439 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/21/3/ansible-collections |
-| 8440 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/announcing-the-red-hat-enterprise-linux-certified-ansible-collection?sc_cid=7015Y000003t7aWQAQ |
-| 8441 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.youtube.com/watch?app=desktop&v=AXnDrGgLaF0&feature=share&ab_channel=RobertdeBock |
-| 8442 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://docs.ansible.com/projects/ansible/latest/user_guide/playbooks.html |
-| 8443 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.linuxtechi.com/how-to-use-loops-in-ansible-playbook |
-| 8444 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.telekom-mms.com/blog |
-| 8445 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/troubleshoot-ansible-playbooks |
-| 8446 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/extra-variables-ansible-playbook |
-| 8447 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/technologies/management/ansible/automation-controller?sc_cid=7015Y000003t7aWQAQ |
-| 8448 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | http://legacy-controller-docs.ansible.com/ansible-tower |
-| 8449 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/ansible/awx |
-| 8450 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/ansible/awx-operator |
-| 8451 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/ansible-collaborative?intcmp=7015Y000003t7aWQAQ/blog/topic/ansible-tower |
-| 8452 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.linuxsysadmins.com/install-ansible-awx-on-kubernetes |
-| 8453 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://steampunk.si/blog/managing-infrastructure-using-ansible-tower |
-| 8454 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.maquinasvirtuales.eu/docker-swarm-instalar-ansible-awx |
-| 8455 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://galaxy.ansible.com/geerlingguy/awx |
-| 8456 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://galaxy.ansible.com/awx/awx |
-| 8457 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://portal.cloud.hashicorp.com/vagrant/discover/ansible/tower |
-| 8458 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://portal.cloud.hashicorp.com/vagrant/discover/krlex/centos-awx |
-| 8459 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/tom-256/ansible-awx-packer |
-| 8460 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/scorputty/packer-centos-awx |
-| 8461 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/jsmartin/ansible-tower-packer |
-| 8462 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://artifacthub.io/packages/search?ts_query_web=awx&sort=relevance&page=1 |
-| 8463 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://aws.amazon.com/marketplace/search/results?searchTerms=tower |
-| 8464 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.theforeman.org |
-| 8465 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/fast-vs-easy-benchmarking-ansible-operators-for-kubernetes?sc_cid=7015Y000003t7aWQAQ |
-| 8466 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://docs.ansible.com/projects/molecule |
-| 8467 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.jeffgeerling.com/blog/2018/testing-your-ansible-roles-molecule |
-| 8468 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/ansible-collaborative?intcmp=7015Y000003t7aWQAQ/hubfs/AnsibleFest%20ATL%20Slide%20Decks/Practical%20Ansible%20Testing%20with%20Molecule.pdf |
-| 8469 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/18/12/testing-ansible-roles-molecule |
-| 8470 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://tomsitcafe.com/2023/04/27/how-to-test-ansible-code-with-molecule |
-| 8471 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.ansiblefordevops.com |
-| 8472 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/engage/automated-enterprise-e-book?sc_cid=7013a0000034fMwAAI&dclid=COKjiau-upQDFXLuKAUdouAGMQ&gad_source=7 |
-| 8473 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/automateyournetwork/automate_your_network |
-| 8474 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://galaxy.ansible.com |
-| 8475 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://galaxy.ansible.com/geerlingguy |
-| 8476 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/ansible-system-role |
-| 8477 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/geerlingguy/ansible-role-docker |
-| 8478 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/Tronde/ansible-role-rhel-patchmanagement |
-| 8479 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/konstruktoid/ansible-hvault-inventory |
-| 8480 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://docs.ansible.com/projects/ansible/latest/collections/kubernetes/core/helm_module.html |
-| 8481 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://docs.ansible.com/projects/ansible/latest/collections/kubernetes/core/helm_plugin_module.html |
-| 8482 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.packetcoders.io/the-beginners-guide-to-the-ansible-inventory |
-| 8483 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://docs.ansible.com/projects/ansible/latest/scenario_guides/cloud_guides.html |
-| 8484 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/es/about/videos/ansible-automate-microsoft-azure |
-| 8485 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://adamtheautomator.com/ansible-kubernetes |
-| 8486 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://galaxy.ansible.com/nginxinc/nginx_core |
-| 8487 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.dynatrace.com/news/blog/achieve-faster-time-to-value-by-deploying-thousands-of-oneagents-at-once-with-ansible-preview |
-| 8488 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/mssql-linux-easy |
-| 8489 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://oci-ansible-collection.readthedocs.io/en/latest |
-| 8490 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/oravirt/ansible-oracle |
-| 8491 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/oravirt/ansible-oracle-modules |
-| 8492 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://oravirt.wordpress.com/2014/10/01/getting-started-with-ansible-oracle |
-| 8493 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://oravirt.wordpress.com/2014/11/05/changes-in-ansible-oracle-v1-2 |
-| 8494 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/abessifi/ansible-sqlplus |
-| 8495 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/ansistrano |
-| 8496 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://capistranorb.com |
-| 8497 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/21/9/ansible-anacron-automation |
-| 8498 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/21/2/linux-automation |
-| 8499 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.zdnet.com/article/theres-no-ops-like-noops-the-next-evolution-of-devops |
-| 8500 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://devops.com/is-noops-the-future-of-cloud-networking |
-| 8501 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://devops.com/serverless-computing-moving-from-devops-to-noops |
-| 8502 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://techbeacon.com/enterprise-it/7-arguments-against-noops |
-| 8503 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.cio.com/article/220351/what-is-noops-the-quest-for-fully-automated-it-operations.html |
-| 8504 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://devops.com/up-your-devops-game-its-time-for-noops |
-| 8505 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://learnkube.com/troubleshooting-deployments |
-| 8506 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://managedkube.com/kubernetes/trace/ingress/service/port/not/matching/pod/k8sbot/2019/02/13/trace-ingress.html |
-| 8507 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://tennexas.com/kubernetes-troubleshooting-examples |
-| 8508 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/sandboxed-containers-operator-from-zero-to-hero-the-hard-way-part-2 |
-| 8509 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://andydote.co.uk/2021/06/02/os-cpus-and-kubernetes |
-| 8510 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/6-kubernetes-best-practices-to-empower-devs-to-troubleshoot |
-| 8511 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.youtube.com/watch?v=93RlMqO4glM&t=6s&ab_channel=Kubevious |
-| 8512 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/living-with-kubernetes-debug-clusters-in-8-commands |
-| 8513 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.freecodecamp.org/news/how-to-simplify-kubernetes-troubleshooting |
-| 8514 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/distroless-container-debugging-on-k8s-openshift-e418fd66fdad |
-| 8515 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://speakerdeck.com/mhausenblas/kubecologne-keynote-troubleshooting-kubernetes-apps |
-| 8516 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.sysdig.com/blog/kubernetes-pod-pending-problems |
-| 8517 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.alexellis.io/troubleshooting-on-kubernetes |
-| 8518 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/what-david-flanagan-learned-fixing-kubernetes-clusters |
-| 8519 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/metaleapca/metaleap-k8s-troubleshooting/blob/main/metaleap-k8s-troubleshooting.pdf |
-| 8520 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.learnitguide.net/2023/04/how-to-troubleshoot-kubernetes-pods.html |
-| 8521 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.learnitguide.net/2023/04/how-to-check-memory-usage-of-pod-in.html |
-| 8522 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/kubernetes-troubleshooting-primer |
-| 8523 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.devzero.io/blog/kubernetes-autoscaling |
-| 8524 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.groundcover.com/blog/k8s-container-events |
-| 8525 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://decisivedevops.com/kubernetes-events-news-feed-of-your-kubernetes-cluster-826e08892d7a |
-| 8526 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/tracing-pod-to-pod-network-traffic-in-kubernetes-112523a325b2 |
-| 8527 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://komodor.com/learn/exit-codes-in-containers-and-kubernetes-the-complete-guide |
-| 8528 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://devtron.ai/blog/troubleshoot_crashloopbackoff_pod |
-| 8529 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://erkanerol.github.io/post/restartable-pods |
-| 8530 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.sysdig.com/blog/debug-kubernetes-crashloopbackoff |
-| 8531 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://komodor.com/learn/how-to-fix-crashloopbackoff-kubernetes-error |
-| 8532 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://cloudyuga.guru/blogs/k8s-qos-oomkilled |
-| 8533 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.sysdig.com/blog/troubleshoot-kubernetes-oom |
-| 8534 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/kubernetes-silent-pod-killer-104e7c8054d9 |
-| 8535 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.sysdig.com/blog/kubernetes-pod-evicted |
-| 8536 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/aylei/kubectl-debug |
-| 8537 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.vcluster.com/blog/using-kubernetes-ephemeral-containers-for-troubleshooting |
-| 8538 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/nvucinic/kdbg |
-| 8539 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kinvolk.io |
-| 8540 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/similarweb/statusbay |
-| 8541 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://towardsdatascience.com/the-easiest-way-to-debug-kubernetes-workloads-ff2ff5e3cc75 |
-| 8542 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.thorsten-hans.com/debugging-apps-in-kubernetes-with-bridge |
-| 8543 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://marketplace.visualstudio.com/items?itemName=mindaro.mindaro |
-| 8544 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/living-with-kubernetes-12-commands-to-debug-your-workloads |
-| 8545 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://opensource.googleblog.com/2022/01/Introducing%20Ephemeral%20Containers.html |
-| 8546 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.linkedin.com/pulse/kubernetes-ephemeral-containers-bibin-wilson |
-| 8547 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://iximiuz.com/en/posts/kubernetes-ephemeral-containers |
-| 8548 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/airwallex/k8s-pod-restart-info-collector |
-| 8549 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://komodor.com |
-| 8550 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://komodor.com/learn/kubernetes-troubleshooting-the-complete-guide |
-| 8551 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://palaemon.io |
-| 8552 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/iximiuz/cdebug |
-| 8553 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/felipecruz91/debug-ctr |
-| 8554 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubetools.io/mastering-kubernetes-debugging-and-troubleshooting-with-kubeshark-real-time-visibility-query-language-service-map-and-integrations |
-| 8555 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/how-kubernetes-provides-networking-and-storage-to-applications |
-| 8556 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/a-guide-to-running-stateful-applications-in-kubernetes |
-| 8557 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.forbes.com/sites/janakirammsv/2019/06/28/5-cloud-native-storage-startups-to-watch-out-for-in-2019 |
-| 8558 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.howtoforge.com/storage-in-kubernetes |
-| 8559 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/cloud-native/the-most-popular-cloud-native-storage-solutions |
-| 8560 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.blocksandfiles.com/container-storage/2020/12/22/storageless-storage-is-the-answer-to-kubernetes-data-challenges/1611647 |
-| 8561 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/what-is-cloud-native-storage |
-| 8562 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://softwareengineeringdaily.com/2019/01/11/why-is-storage-on-kubernetes-is-so-hard |
-| 8563 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/why-compute-and-storage-should-be-decoupled-for-log-management-at-scale |
-| 8564 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://gitlab.com/mrman/k8s-storage-provider-benchmarks |
-| 8565 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://marketplace.redhat.com/en-us/blog/dont-treat-kubernetes-storage-as-an-afterthought |
-| 8566 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/beyond-block-and-file-cosi-enables-object-storage-in-kubernetes |
-| 8567 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/when-is-decentralized-storage-the-right-choice |
-| 8568 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.storj.io/cloud-object-storage |
-| 8569 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/whats-the-biggest-gap-in-kubernetes-storage-architecture |
-| 8570 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.kylezsembery.com/persistent-storage-kubernetes |
-| 8571 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/stateful-workloads-on-kubernetes-with-container-attached-storage |
-| 8572 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/articles/2021/08/11/how-maximize-data-storage-microservices-and-kubernetes-part-1-introduction |
-| 8573 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.infoworld.com/article/2269961/kubernetes-object-storage-best-practices.html |
-| 8574 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/the-growth-of-state-in-kubernetes |
-| 8575 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/highly-available-nfs-cluster-in-kubernetes-a-cloud-vendor-independent-storage-solution-f9a314cfdfcc |
-| 8576 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.armosec.io/blog/kubernetes-data-storage |
-| 8577 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.infoq.com/articles/kubernetes-stateful-applications |
-| 8578 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://palark.com/blog/kubernetes-storage-performance-linstor-ceph-mayastor-vitastor |
-| 8579 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/temporary-storage-for-kubernetes-pods-f8330ad8db88 |
-| 8580 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://danielmangum.com/posts/k8s-asa-the-storage-interface |
-| 8581 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.kubermatic.com/blog/keeping-the-state-of-apps-5-introduction-to-storage-classes |
-| 8582 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/kubernetes-persistentvolume-and-persistentvolumeclaim-an-overview-with-examples-3c5688222f99 |
-| 8583 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/persistent-volumes-separating-compute-and-storage |
-| 8584 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/blog/2020/10/22/persistent-storage-in-action-understanding-red-hat-openshifts-persistent-volume-framework |
-| 8585 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/resizing-statefulset-persistent-volumes-with-zero-downtime-916ebc65b1d4 |
-| 8586 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kubernetes-sigs/sig-storage-local-static-provisioner |
-| 8587 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.linkedin.com/pulse/what-kubernetes-persistent-volumes-gyan-prakash-1f |
-| 8588 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://newrelic.com/blog/infrastructure-monitoring/how-to-use-kubernetes-volumes |
-| 8589 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.kubermatic.com/blog/keeping-the-state-of-apps-1-introduction-to-volume-and-volumemounts |
-| 8590 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://adamtheautomator.com/kubernetes-pvc |
-| 8591 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/openebs/zfs-localpv |
-| 8592 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://spacelift.io/blog/kubernetes-persistent-volumes |
-| 8593 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-volumes-example-nfs-persistent-volume.html |
-| 8594 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.digitalocean.com/community/questions/kuberntes-pvc-readwritemany-access-mode-alternative |
-| 8595 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/state-of-persistent-storage-in-k8s-a-benchmark-77a96bb1ac29 |
-| 8596 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/using-rook-on-a-k3s-cluster-8a97a75ba25e |
-| 8597 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.reduxio.com |
-| 8598 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://openebs.io |
-| 8599 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/openebs/dynamic-localpv-provisioner |
-| 8600 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/openebs/lvm-localpv |
-| 8601 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.blocksandfiles.com/block/2020/06/23/lightbits-labs-adds-kubernetes-table-stakes-csi-support/1598623 |
-| 8602 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://longhorn.io |
-| 8603 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/rancher-donates-its-longhorn-kubernetes-persistent-storage-software-to-cncf |
-| 8604 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/longhorn-simplifies-distributed-block-storage-in-kubernetes |
-| 8605 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://cloudnativenow.com/topics/cloudnativeplatforms/rancher-labs-adds-support-for-longhorn-storage-on-kubernetes-clusters |
-| 8606 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.techtarget.com/searchitchannel/definition/IBM-International-Business-Machines |
-| 8607 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://linbit.com/kubernetes |
-| 8608 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.iomesh.com |
-| 8609 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.blocksandfiles.com/block/2021/08/05/kubernetes-storage-smartxs-iomesh-beats-portworx-longhorn-and-openebs/1617691 |
-| 8610 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.iomesh.com/blog/announcing_iomesh_preview |
-| 8611 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.min.io |
-| 8612 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/libopenstorage/stork |
-| 8613 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://simplyblock.io |
-| 8614 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes-csi.github.io |
-| 8615 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kubernetes-csi |
-| 8616 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kubernetes-csi/csi-driver-smb |
-| 8617 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/yandex-cloud/k8s-csi-s3 |
-| 8618 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://sklar.rocks/how-container-storage-interface-works |
-| 8619 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://next.redhat.com/2021/08/23/introducing-volsync-your-data-anywhere |
-| 8620 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | http://aws.amazon.com/big-data |
-| 8621 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | http://blogs.aws.amazon.com/bigdata |
-| 8622 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/big-data/querying-amazon-kinesis-streams-directly-with-sql-and-spark-streaming |
-| 8623 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/big-data/using-spark-sql-for-etl |
-| 8624 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.whizlabs.com/blog/kinesis-vs-kafka |
-| 8625 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/what-is/data-lake |
-| 8626 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/glue |
-| 8627 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://docs.aws.amazon.com/data-pipeline |
-| 8628 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/big-data/category/analytics/aws-data-pipeline |
-| 8629 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.techtarget.com/searchitoperations/news/252467102/Kubernetes-policy-project-takes-enterprise-IT-by-storm |
-| 8630 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://aws.amazon.com/blogs/containers/policy-based-countermeasures-for-kubernetes-part-1 |
-| 8631 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://blog.gitguardian.com/what-is-policy-as-code-an-introduction-to-open-policy-agent |
-| 8632 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.openpolicyagent.org |
-| 8633 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://snyk.io/blog |
-| 8634 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/policy-hub/policy-hub-cli |
-| 8635 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/instrumenta/policies |
-| 8636 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://thenewstack.io/getting-open-policy-agent-up-and-running |
-| 8637 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://thenewstack.io/weaveworks-adds-policy-as-code-to-secure-kubernetes-apps |
-| 8638 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://dev.to/permit_io/load-external-data-into-opa-the-good-the-bad-and-the-ugly-26lc |
-| 8639 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.kubermatic.com/blog/using-open-policy-agent-with-kubermatic |
-| 8640 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/raspbernetes/k8s-security-policies |
-| 8641 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/fine-grained-policy-enforcement-in-openshift-with-open-policy-agent |
-| 8642 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/open-policy-agent/contrib/tree/main/wasm/cloudflare-worker |
-| 8643 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://snyk.io/product/container-vulnerability-management |
-| 8644 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://thenewstack.io/yor-automates-tagging-for-infrastructure-as-code |
-| 8645 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://yor.io |
-| 8646 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.checkov.io |
-| 8647 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://aws.amazon.com/es/blogs/containers/policy-based-countermeasures-for-kubernetes-part-1 |
-| 8648 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/selefra/selefra |
-| 8649 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://neonmirrors.net/post/2021-02/kubernetes-policy-comparison-opa-gatekeeper-vs-kyverno |
-| 8650 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://dev.to/rinkiyakedad/using-kyverno-to-enforce-eks-best-practices-cad |
-| 8651 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://kyverno.io/docs/writing-policies/mutate |
-| 8652 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.squadcast.com/blog/kyverno-policy-management-in-kubernetes |
-| 8653 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://neonmirrors.net/post/2020-12/exploring-kyverno-part3 |
-| 8654 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://kyverno.io/policies/best-practices/check_deprecated_apis |
-| 8655 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://kyverno.io/docs/writing-policies/generate/#generating-resources-into-existing-namespaces |
-| 8656 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://kyverno.io/policies/other/add-pod-proxies |
-| 8657 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://kyverno.io/docs/writing-policies/autogen |
-| 8658 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://kyverno.io/policies/other/require_pdb |
-| 8659 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://nirmata.com/2021/08/12/kubernetes-supply-chain-policy-management-with-cosign-and-kyverno |
-| 8660 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://neonmirrors.net/post/2020-11/exploring-kyverno-intro |
-| 8661 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://nirmata.com/2021/08/18/introducing-kyverno-1-4-2-trusted-and-more-efficient |
-| 8662 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.techtarget.com/searchitoperations/news/252505548/CNCF-policy-as-code-project-bridges-Kubernetes-security-gaps |
-| 8663 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/kyverno/policy-reporter |
-| 8664 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.sesin.at/2021/08/28/securing-kubernetes-with-kyverno-how-to-protect-your-users-from-themselves-by-ritesh-patel |
-| 8665 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://dev.to/niveditacoder/default-kyverno-policies-for-openebs-4abf |
-| 8666 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/automate-your-security-practices-and-policies-on-openshift-with-kyverno |
-| 8667 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/kubernetes/kubernetes/issues/126811 |
-| 8668 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://kyverno.io/policies/best-practices/restrict_image_registries/restrict_image_registries |
-| 8669 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://dev.to/mda590/using-kyverno-policies-for-kubernetes-governance-3e17 |
-| 8670 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://kyverno.io/policies/best-practices/require_probes/require_probes |
-| 8671 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.youtube.com/watch?v=0TvhTXddRGE&t=12s |
-| 8672 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://blog.sigstore.dev/how-to-verify-container-images-with-kyverno-using-kms-cosign-and-workload-identity-1e07d2b85061 |
-| 8673 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.appsecengineer.com/courses-collection/kubernetes-policy-management-with-kyverno |
-| 8674 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/cloud-custodian/cloud-custodian |
-| 8675 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.sysdig.com |
-| 8676 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.sysdig.com/blog/sysdig-and-apolicy-join-forces-to-help-customer-secure-infrastructure-as-code |
-| 8677 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://code.visualstudio.com |
-| 8678 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://vscode.github.com |
-| 8679 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://code.visualstudio.com/docs/sourcecontrol/overview |
-| 8680 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://bitbucket.org/atlassianlabs/atlascode/issues/112/cannot-activate-the-atlassian-for-vscode |
-| 8681 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://gist.github.com/hxlnt/60d0e62efdb973e221e585e2b990bfd6 |
-| 8682 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://devblogs.microsoft.com/python/need-an-intro-to-vs-code-let-tech-with-tim-help |
-| 8683 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://learn.microsoft.com/en-us/visualstudio/docker/tutorials/docker-tutorial |
-| 8684 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://thenewstack.io/this-week-in-programming-all-hail-visual-studio-code |
-| 8685 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://blogs.windows.com/msedgedev/2020/10/01/microsoft-edge-tools-vscode |
-| 8686 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.39digits.com/signed-git-commits-on-wsl2-using-visual-studio-code |
-| 8687 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/watch?v=ybCxPHzRJfA&ab_channel=VisualStudioCode |
-| 8688 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://dev.to/appmap/video-visualize-the-architecture-of-your-java-app-in-vs-code-in-2-minutes-568j |
-| 8689 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://guide.sst.dev/examples/how-to-debug-lambda-functions-with-visual-studio-code.html |
-| 8690 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://github.blog/news-insights/product-news/create-pull-requests-in-vscode |
-| 8691 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://dev.to/colbygarland/using-vs-code-to-git-rebase-1lc |
-| 8692 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.freecodecamp.org/news/10-vscode-extensions-to-increase-productivity |
-| 8693 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://dev.to/amanhimself/how-to-configure-vscode-bracket-pair-colors-natively-3nl |
-| 8694 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://realpython.com/advanced-visual-studio-code-python |
-| 8695 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://blog.openreplay.com/8-cool-vs-code-tips-to-make-your-workspace-more-personal |
-| 8696 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://dev.to/playfulprogramming/visual-studio-code-tips-tricks-command-palette-and-its-friends-2bhi |
-| 8697 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://dev.to/playfulprogramming/visual-studio-code-tips-tricks-snippets-5041 |
-| 8698 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://dev.to/jcofman/make-vs-code-better-by-editing-and-updating-some-settings-4m9a |
-| 8699 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.freecodecamp.org/news/best-colorful-vscode-extensions-for-productivity |
-| 8700 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://dev.to/tmchuynh/vscode-extensions-im-in-love-with-oab |
-| 8701 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://austingil.com/vs-code-timeline-restores-work-git-cant |
-| 8702 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://developers.redhat.com/articles/2023/02/14/remote-container-development-vs-code-and-podman |
-| 8703 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://visualstudio.microsoft.com/services/live-share |
-| 8704 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.freecodecamp.org/news/how-to-use-markdown-in-vscode |
-| 8705 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://code.visualstudio.com/updates/v1_120 |
-| 8706 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf |
-| 8707 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf |
-| 8708 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf |
-| 8709 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com |
-| 8710 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/publishers/Microsoft |
-| 8711 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/publishers/redhat |
-| 8712 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/publishers/AmazonWebServices |
-| 8713 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/publishers/GoogleCloudTools |
-| 8714 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/publishers/Oracle |
-| 8715 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens |
-| 8716 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://github.com/gitkraken/vscode-gitlens#interactive-rebase-editor- |
-| 8717 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph |
-| 8718 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments |
-| 8719 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one |
-| 8720 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=livepdm.auto-markdown-toc-ax1 |
-| 8721 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode |
-| 8722 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare |
-| 8723 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig |
-| 8724 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=pnp.polacode |
-| 8725 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint |
-| 8726 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow |
-| 8727 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer |
-| 8728 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=jock.svg |
-| 8729 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://github.com/microsoft/vscode-python |
-| 8730 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://dev.to/duckinm/superb-vscode-extensions-changing-your-coding-life-2cmb |
-| 8731 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.c-sharpcorner.com/article/the-best-vs-code-extensions-for-remote-working |
-| 8732 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.freecodecamp.org/news/vs-code-extensions-to-increase-developer-productivity |
-| 8733 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://dev.to/azure/my-top-5-visual-studio-code-extensions-for-azure-developers-1odo |
-| 8734 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint |
-| 8735 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets |
-| 8736 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight |
-| 8737 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-todo-plus |
-| 8738 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree |
-| 8739 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel |
-| 8740 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens |
-| 8741 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker |
-| 8742 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv |
-| 8743 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest |
-| 8744 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio |
-| 8745 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log |
-| 8746 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense |
-| 8747 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github |
-| 8748 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=angryobject.react-pure-to-class-vscode |
-| 8749 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?utm_sq=ggv6n6jy52&itemName=Tim-Koehler.helm-intellisense&ssr=false#overview |
-| 8750 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=msazurermtools.azurerm-vscode-tools |
-| 8751 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://developers.redhat.com/blog/2020/11/16/devfiles-and-kubernetes-cluster-support-in-openshift-connector-0-2-0-extension-for-vs-code |
-| 8752 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.freecodecamp.org/news/vs-code-extensions-to-boost-your-development-productivity |
-| 8753 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=dannysteenman.cloudformation-yaml-snippets |
-| 8754 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=github.vscode-github-actions |
-| 8755 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=xyz.local-history |
-| 8756 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://code.visualstudio.com/blogs/2021/06/10/remote-repositories |
-| 8757 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://code.visualstudio.com/docs/azure/kubernetes |
-| 8758 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub |
-| 8759 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://github.com/vscode-kubernetes-tools/vscode-kubernetes-tools |
-| 8760 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://snyk.io/blog/securing-open-source-dependencies-snyk-visual-studio-code-extension |
-| 8761 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.prisma.io/blog/vscode-extension-prisma-rust-webassembly |
-| 8762 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=SebastianBille.iam-legend |
-| 8763 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=TeamHub.teamhub |
-| 8764 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://dev.to/gitlive/gitlive-now-works-with-any-git-repository-in-vs-code-304o |
-| 8765 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring |
-| 8766 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice |
-| 8767 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap |
-| 8768 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=Weaveworks.vscode-gitops-tools |
-| 8769 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=dag-andersen.kubernetes-reference-highlighter |
-| 8770 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.freecodecamp.org/news/increase-your-vs-code-productivity |
-| 8771 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff |
-| 8772 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=kennylong.kubernetes-yaml-formatter |
-| 8773 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=GitHub.copilot |
-| 8774 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://code.visualstudio.com/docs/copilot/overview |
-| 8775 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://techcommunity.microsoft.com/blog/azureinfrastructureblog/unleashing-github-copilot-for-infrastructure-as-code/4124031 |
-| 8776 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://blog.logrocket.com/top-10-vs-code-extensions-2021 |
-| 8777 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://dev.to/ranga_vadhineni/thunder-client-http-client-extension-for-vs-code-30i9 |
-| 8778 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.c-sharpcorner.com/article/the-best-vs-code-extensions-to-supercharge-git |
-| 8779 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://dev.to/harishash/vs-code-extensions-to-increase-your-productivity-eeb |
-| 8780 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://dev.to/thenomadevel/top-5-best-git-extensions-for-vs-code-you-must-have-40b6 |
-| 8781 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme |
-| 8782 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode |
-| 8783 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=salesforce.codey-midnight |
-| 8784 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=juanmnl.vscode-theme-1984 |
-| 8785 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula |
-| 8786 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://draculatheme.com/pro |
-| 8787 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode |
-| 8788 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme |
-| 8789 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=Atlassian.atlascode |
-| 8790 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=gitlab.gitlab-workflow |
-| 8791 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools |
-| 8792 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.kind-vscode |
-| 8793 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=hashicorp.terraform |
-| 8794 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode |
-| 8795 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/azuredevops |
-| 8796 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=vector-of-bool.gitflow |
-| 8797 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=GreatMinds.gitflow4code |
-| 8798 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=SemihOnay.jiraux |
-| 8799 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=Fatih.baba-flow |
-| 8800 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=janjoerke.jenkins-pipeline-linter-connector |
-| 8801 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=secanis.jenkinsfile-support |
-| 8802 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=ivory-lab.jenkinsfile-support |
-| 8803 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=jmMeessen.jenkins-declarative-support |
-| 8804 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=alefragnani.jenkins-status |
-| 8805 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://code.visualstudio.com/docs/terminal/basics |
-| 8806 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://developers.redhat.com/articles/2021/12/13/remote-debugging-kubernetes-using-vs-code# |
-| 8807 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://github.com/metalbear-co/mirrord |
-| 8808 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://kenneth.io/post/introducing-remote-debugging-of-nodejs-apps-on-azure-app-service-from-vs-code-in-public-preview |
-| 8809 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://devblogs.microsoft.com/python/python-in-visual-studio-code-september-2020-release |
-| 8810 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://devblogs.microsoft.com/python/python-in-visual-studio-code-january-2021-release |
-| 8811 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://realpython.com/python-development-visual-studio-code |
-| 8812 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://github.com/golang/vscode-go/blob/master/README.md |
-| 8813 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://go.dev/blog/gopls-vscode-go |
-| 8814 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://github.com/microsoft/mindaro |
-| 8815 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://replit.com |
-| 8816 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://thenewstack.io/gitpod-open-sources-a-holistic-ide |
-| 8817 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://piotrminkowski.com/2020/08/03/development-on-kubernetes-ide-tools |
-| 8818 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.redhat.com/en/blog/visual-web-terminal-a-turbocharged-command-line-for-kubernetes-and-openshift |
-| 8819 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://chromeos.dev/en/linux |
-| 8820 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.jetbrains.com/fleet |
-| 8821 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.softzone.es/noticias/programas/conoce-fleet-ide-ultraligero-mano-jetbrains |
-| 8822 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://thenewstack.io/are-cloud-based-ides-the-future-of-software-engineering |
-| 8823 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://github.dev/github/dev |
-| 8824 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://ona.com |
-| 8825 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://ona.com/stories/gitpod-is-now-ona |
-| 8826 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://github1s.com |
-| 8827 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://vscode.dev |
-| 8828 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/@code/shorts |
-| 8829 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/WzlpGnbNPH4 |
-| 8830 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/6NFR5MsHM_4 |
-| 8831 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/G5580-DxQuw |
-| 8832 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/Q2RrAdWmn_M |
-| 8833 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/uzC1PP73d9I |
-| 8834 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/t322UnzV9vM |
-| 8835 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/dDtueNAFELo |
-| 8836 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/AGFvs2pT1VQ |
-| 8837 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/VqOVb76IyI4 |
-| 8838 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/HyhSDvaaRwM |
-| 8839 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/0xq_ZYfl6Vk |
-| 8840 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/hdmaP4ibJ4I |
-| 8841 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/X3wgBid4gO8 |
-| 8842 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/y55a7NAiHiI |
-| 8843 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/hmq195GRYCI?si=8knOM1y50V6JcRlk |
-| 8844 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/0N-NFIfy5lI |
-| 8845 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/70voiUcMk_I |
-| 8846 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/p-H7Q9PtSc8 |
-| 8847 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/ToGRhGvo62k |
-| 8848 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/-hvEdSI8ziE |
-| 8849 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/cLokEWqTuds |
-| 8850 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/KQB8FRoJaH4 |
-| 8851 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/t5vXCNIBVYw |
-| 8852 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/6IwjxcDbVW0 |
-| 8853 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/cTE0ec3IurE |
-| 8854 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/0h1xNFsEZBU |
-| 8855 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/OfsixF-splk |
-| 8856 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/8iVaeLjzY6s |
-| 8857 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/nMJBbH7g1M4 |
-| 8858 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/bVlIo4H0IDU |
-| 8859 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/i0V1bHybv5w?si=y42F3QjNFVouu3s8 |
-| 8860 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/rjmXBs5l_7M?si=UlQ4q1-B-JOiYwrn |
-| 8861 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/vpFF1XSqWjw?si=Zr2eW_C3_3hQoXAa |
-| 8862 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/yuzKp_KsGIk?si=ooaqRJzW2cmf6Z2M |
-| 8863 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/KZHI5RMmFk0 |
-| 8864 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://devopslibrary.com |
-| 8865 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/channel/UCv9MUffHWyo2GgLIDLVu0KQ |
-| 8866 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/wardviaene |
-| 8867 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/yankils/Simple-DevOps-Project |
-| 8868 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://dev.to/sowmenappd/build-a-highly-available-node-js-application-using-docker-nginx-and-aws-elb-3cjp |
-| 8869 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://linuxtechlab.com/learn-create-dockerfile-example |
-| 8870 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/jose-r-lopez/SSI_Infraestructure_Automation_Materials |
-| 8871 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/learning-cloud-native-go/myapp |
-| 8872 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://labs.demoredhat.com/demos |
-| 8873 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/network-automation/toolkit |
-| 8874 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://blog.stephane-robert.info/post/ansible-utiliser-mysql-comme-inventaire-dynamique |
-| 8875 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://opensource.com/article/20/10/kubernetes-minecraft-ansible |
-| 8876 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://galaxy.ansible.com/ansible/product_demos |
-| 8877 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/build-VM-fast-ansible |
-| 8878 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/tutorial-gitops-in-multicluster-environments-with-anthos-config-management |
-| 8879 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.mytechramblings.com/posts/gitops-with-azure-devops-helm-acr-flux-and-k8s |
-| 8880 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=HSjm6-ACmWQ&ab_channel=JFrog |
-| 8881 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/todaywasawesome/oss-apps |
-| 8882 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/learnk8s/free-kubernetes |
-| 8883 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/eon01/kubernetes-workshop |
-| 8884 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/wardviaene/kubernetes-course |
-| 8885 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/kubernetes-course/container_workshops |
-| 8886 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/mautic/docker-mautic |
-| 8887 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.howtoforge.com/create-a-deployment-in-kubernetes |
-| 8888 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://codeburst.io/getting-started-with-kubernetes-deploy-a-docker-container-with-kubernetes-in-5-minutes-eb4be0e96370 |
-| 8889 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://archive.kabisa.nl/tech/k8s-workshop-in-a-box |
-| 8890 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/k8s-raise-statefulset-volume-size-with-low-impact-33fe1e2576f6 |
-| 8891 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/ContainerSolutions/kubernetes-examples |
-| 8892 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://blog.scottlowe.org/2020/06/16/using-kubectl-via-an-ssh-tunnel |
-| 8893 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://shipa.io/deploying-applications-on-kubernetes |
-| 8894 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://shipa.io/a-real-world-application-deployment-on-kubernetes |
-| 8895 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://shipa.io/gitops |
-| 8896 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://shipa.io/a-developer-focused-ci-cd-pipeline-for-kubernetes |
-| 8897 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://kruyt.org/running-a-mailserver-in-kubernetes |
-| 8898 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://piotrminkowski.com/2020/09/29/rabbitmq-monitoring-on-kubernetes/?utm_sq=gl0f6vph5e |
-| 8899 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/nfrankel/jvm-controller |
-| 8900 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-ingress-guide-nginx-example.html |
-| 8901 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/blog/2021/03/09/deploying-node-js-applications-to-kubernetes-with-nodeshift-and-minikube |
-| 8902 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://dev.to/douglasmakey/implementing-a-simple-k8s-admission-controller-in-go-2dcg |
-| 8903 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/developer-guy/kubernetes-cluster-setup-using-terraform-and-k3s-on-digitalocean |
-| 8904 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://piotrminkowski.com/2021/10/25/kubernetes-multicluster-with-kind-and-cilium |
-| 8905 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/todaywasawesome/atomic-cluster |
-| 8906 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=4DUhc0MjdUc&feature=youtu.be&ab_channel=MohamedRadwan-DevOps |
-| 8907 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.howtoforge.com/how-to-deploy-your-first-pod-on-a-kubernetes-cluster |
-| 8908 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/AdminTurnedDevOps/kubernetes-examples |
-| 8909 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/AdminTurnedDevOps/kubernetes-in-production-examples |
-| 8910 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://webhooks.app |
-| 8911 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/journey-of-a-microservice-application-in-the-kubernetes-world-bdfe795532ef |
-| 8912 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.digitalocean.com/community/tutorials/how-to-deploy-a-scalable-and-secure-django-application-with-kubernetes |
-| 8913 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://dev.to/mkalioby/django-apps-on-kubernetes-2edo |
-| 8914 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://palark.com/blog/our-experience-with-postgres-operator-for-kubernetes-by-zalando |
-| 8915 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://teletype.in/@sravancynixit/CcwqFANxY |
-| 8916 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://piotrminkowski.com/2020/12/18/spring-boot-on-kubernetes-with-buildpacks-and-skaffold |
-| 8917 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://spring.io/blog/2021/01/04/ymnnalft-easy-docker-image-creation-with-the-spring-boot-maven-plugin-and-buildpacks |
-| 8918 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://start.spring.io |
-| 8919 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://codeburst.io/kubernetes-ckad-weekly-challenges-overview-and-tips-7282b36a2681 |
-| 8920 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/stefanprodan/gitops-istio |
-| 8921 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://blog.alexellis.io/a-bit-of-istio-before-tea-time |
-| 8922 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developer.hashicorp.com/consul/tutorials/get-started-kubernetes/kubernetes-gs-deploy?in=consul%2Fkubernetes |
-| 8923 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developer.hashicorp.com/consul/docs/north-south/ingress-gateway/k8s |
-| 8924 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.suse.com/c/rancher_blog/deploy-a-rancher-cluster-with-gitlab-ci-and-terraform |
-| 8925 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/maximize-k3s-resource-efficiency-with-calico-ebpf-data-plane |
-| 8926 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=W_rcYPZkhFg&ab_channel=RedHat |
-| 8927 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/fluxcd/flux2-kustomize-helm-example |
-| 8928 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://docs.aws.amazon.com/eks/latest/userguide/sample-deployment.html |
-| 8929 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://aws.amazon.com/blogs/opensource/git-push-deploy-app-eks-gitkube |
-| 8930 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://docs.stacksimplify.com/aws-eks/aws-devops-eks/learn-to-master-devops-on-aws-eks-using-aws-codecommit-codebuild-codepipeline |
-| 8931 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/stacksimplify/aws-eks-kubernetes-masterclass |
-| 8932 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/hbollon/k8s-voting-app-aws |
-| 8933 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://learn.microsoft.com/en-us/shows/azure-friday/troubleshoot-aks-cluster-issues-with-aks-diagnostics-and-aks-periscope |
-| 8934 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://trstringer.com/deploy-to-aks-from-github-actions |
-| 8935 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://cloud.google.com/blog/products/operations/troubleshooting-services-on-google-kubernetes-engine |
-| 8936 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/MatthewCYLau/gcp-react-gke-terraform |
-| 8937 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/MatthewCYLau/node-express-typescript-k8-gke |
-| 8938 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://opensource.com/article/21/12/kubernetes-gatekeeper |
-| 8939 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://move2kube.konveyor.io |
-| 8940 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://gitlab.com/redhatdemocentral |
-| 8941 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://gitlab.com/redhatdemocentral/rhcs-rhdm-install-demo |
-| 8942 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=CJMdSQVFVik |
-| 8943 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/blob/main/healthcare.adoc |
-| 8944 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/learn/openshift |
-| 8945 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/OpenShiftDemos |
-| 8946 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://hub.docker.com/u/openshiftdemos |
-| 8947 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/redhat-developer-demos |
-| 8948 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/OpenShiftDemos/sonarqube-openshift-docker |
-| 8949 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.dbi-services.com/blog/deploying-postgresql-in-minishiftopenshift |
-| 8950 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/openshiftdemos |
-| 8951 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/openshift-labs |
-| 8952 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/siamaksade/mapit-spring |
-| 8953 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/simple-canary-deployments-using-kubernetes-statefulsets-on-openshift |
-| 8954 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/jbossdemocentral/rhpam7-mortgage-demo |
-| 8955 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.schabell.org/2020/10/codeready-containers-building-cloud-native-hr-process.html |
-| 8956 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://opensource.com/article/20/11/minishift-linux |
-| 8957 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://docs.redhat.com/en/documentation/red_hat_jboss_web_server/5.4/html-single/red_hat_jboss_web_server_for_openshift/index#jws_operator |
-| 8958 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/blog/2021/04/09/containerize-and-deploy-strapi-applications-on-kubernetes-and-red-hat-openshift |
-| 8959 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/articles/2021/05/24/build-lean-java-containers-new-red-hat-universal-base-images-openjdk-runtime |
-| 8960 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=jBDmX85IjLM&ab_channel=RedHatDeveloper |
-| 8961 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/articles/2021/10/01/new-application-samples-red-hat-openshift-48 |
-| 8962 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/articles/2021/11/18/build-and-store-universal-application-images-openshift |
-| 8963 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://piotrminkowski.com/2021/11/30/serverless-java-functions-on-openshift |
-| 8964 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/learn/openshift/how-deploy-full-stack-javascript-applications-openshift |
-| 8965 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developer.ibm.com/tutorials/examples-differentiate-openshift-kubernetes |
-| 8966 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/cloud-native-toolkit/multi-tenancy-gitops |
-| 8967 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/redhat-developer-demos/knative-tutorial |
-| 8968 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://aymen-segni.com/index.php/2020/07/22/deploying-your-serverless-services-on-kubernetes-using-knative |
-| 8969 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/blog/2020/05/26/build-a-go-application-using-openshift-pipelines |
-| 8970 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/openshift/pipelines-catalog |
-| 8971 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/systemcraftsman/lab-tekton-pipelines |
-| 8972 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/gitops-using-red-hat-openshift-pipelines-tekton-and-red-hat-advanced-cluster-management |
-| 8973 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/blog/2020/09/24/set-up-continuous-integration-for-net-core-with-openshift-pipelines |
-| 8974 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | http://alesnosek.com/blog/2020/06/30/ci-slash-cd-pipeline-spanning-multiple-openshift-clusters |
-| 8975 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/guide-to-openshift-pipelines-part-1-introducing-openshift-pipelines |
-| 8976 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/gitops-using-red-hat-openshift-pipelines-tekton-and-red-hat-advanced-cluster-management-to-deploy-on-multiple-clusters |
-| 8977 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/blog/2021/01/13/getting-started-with-tekton-and-pipelines |
-| 8978 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/articles/2021/07/21/bootstrap-gitops-red-hat-openshift-pipelines-and-kam-cli |
-| 8979 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://dev.to/wiggitywhitney/9-waa-w-what-is-knative-serving-a-friendly-guide-28f6 |
-| 8980 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://docs.redhat.com/en/documentation/openshift_container_platform/4.8/html/cicd/gitops#understanding-openshift-gitops |
-| 8981 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/virtual-machines-as-code-with-openshift-gitops-and-openshift-virtualization |
-| 8982 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/rromannissen/rhoar-microservices-demo |
-| 8983 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/blog/2020/09/10/from-code-to-production-with-openshift-pipelines-and-argo-cd |
-| 8984 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/blog/2020/10/01/building-modern-ci-cd-workflows-for-serverless-applications-with-red-hat-openshift-pipelines-and-argo-cd-part-1 |
-| 8985 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/deploy-argo-cd-with-ingress-and-tls-in-three-steps-no-yaml-yak-shaving-required-bc536d401491 |
-| 8986 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/blog/2020/09/03/introduction-to-tekton-and-argo-cd-for-multicluster-development |
-| 8987 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/argocd-secret-management-with-argocd-vault-plugin-539f104aff05 |
-| 8988 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=5XWwjyikWMQ&feature=emb_logo&ab_channel=Konveyor |
-| 8989 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://blog.argoproj.io/introducing-the-applicationset-controller-for-argo-cd-982e28b62dc5 |
-| 8990 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://vzilla.co.uk/vzilla-blog/gitops-getting-started-with-argocd |
-| 8991 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/sso-integration-for-the-openshift-gitops-operator |
-| 8992 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/how-to-use-hashicorp-vault-and-argo-cd-for-gitops-on-openshift |
-| 8993 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://blog.argoproj.io/getting-started-with-applicationsets-9c961611bcf0 |
-| 8994 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://piotrminkowski.com/2021/08/05/kubernetes-ci-cd-with-tekton-and-argocd |
-| 8995 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.infracloud.io/blogs/multicluster-gitops-argocd |
-| 8996 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/articles/2021/08/03/managing-gitops-control-planes-secure-gitops-practices |
-| 8997 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://opensource.com/article/21/8/argo-cd |
-| 8998 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://blog.argoproj.io/introducing-the-appsource-controller-for-argocd-52f21d28d643 |
-| 8999 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://piotrminkowski.com/2021/12/13/continuous-delivery-on-kubernetes-with-database-using-argocd-and-liquibase |
-| 9000 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://octopus.com/blog/using-argo-cd-and-kustomize-for-configmap-rollouts |
-| 9001 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://mrcloudbook.com/automating-tetris-deployments-devsecops-with-argocd-terraform-and-jenkins-for-two-game-versions |
-| 9002 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://mrcloudbook.com/gitops-deploying-tetris-on-eks-using-argocd |
-| 9003 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/building-openshift-pipelines-with-gitlab |
-| 9004 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/building-and-deploying-a-weather-web-application-onto-kubernetes-red-hat-openshift-using-eclipse-62bf7c924be4 |
-| 9005 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=vgIwRX4LXfU |
-| 9006 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/monitoring-services-like-an-sre-in-openshift-servicemesh |
-| 9007 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/products/mta/getting-started |
-| 9008 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=mRCz6Jl0Ds8&feature=youtu.be |
-| 9009 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/playlist?list=PLbMP1JcGBmSFA56rykbH2fg1F9Tozk4of |
-| 9010 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/about/videos/acm-ansible-integration-overview |
-| 9011 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/k8s-integrity-shield-tech-preview-protecting-the-integrity-of-kubernetes-resources-with-signature |
-| 9012 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/how-to-observe-your-clusters-with-red-hat-advanced-cluster-management-customize-the-grafana-dashboard |
-| 9013 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/recap-okd-4-testing-and-deployment-workshop-videos-and-additional-resources?utm_source=thenewstack&utm_medium=twitter&utm_campaign=platform |
-| 9014 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/blog/2020/08/21/hello-world-tutorial-with-kubernetes-operators |
-| 9015 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/writing-customized-reports-using-metering-operator |
-| 9016 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/blog/2021/01/08/message-broker-integration-made-simple-with-red-hat-fuse |
-| 9017 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/CastawayEGR/openshift-ai-examples |
-| 9018 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.atlassian.com/blog/bitbucket/setting-up-a-ci-cd-pipeline-with-spring-mvc-jenkins-and-kubernetes-on-aws |
-| 9019 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/cloudogu/jenkinsfiles |
-| 9020 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://aws.amazon.com/blogs/devops/using-jenkins-with-codeartifact |
-| 9021 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/tutorialworks/pipeline-library-demo |
-| 9022 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://piotrminkowski.com/2020/11/10/continuous-integration-with-jenkins-on-kubernetes |
-| 9023 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=KgH0QzMHXLs |
-| 9024 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://devopscube.com/jenkins-build-agents-kubernetes |
-| 9025 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.simplilearn.com/tutorials/jenkins-tutorial/ci-cd-pipeline |
-| 9026 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=LhB8-sAx3pM&ab_channel=K21Academy |
-| 9027 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.testmuai.com/blog/how-to-create-jenkins-multibranch-pipeline |
-| 9028 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/arun-gupta/docker-jenkins-pipeline |
-| 9029 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/gnunn1/openshift-basic-pipeline |
-| 9030 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/deweya/OpenShift-Jenkins-Lab |
-| 9031 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/marcredhat/crcdemos |
-| 9032 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/redhat-gpte-devopsautomation/ocp4_app_deploy_homework_grading |
-| 9033 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/oleg-nenashev/demo-jenkins-config-as-code/tree/java11-support |
-| 9034 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/nubenetes/jenkins-CasC-kubernetes-demo |
-| 9035 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.meetup.com/jenkins-online-meetup/events/270600737 |
-| 9036 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/cloudbees/groovy-cps |
-| 9037 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://towardsdatascience.com/create-your-first-ci-cd-pipeline-with-jenkins-and-github-6aefe21c9240 |
-| 9038 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=zI7_8M2KtRI&t=7s&ab_channel=MicroserviceFactory |
-| 9039 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/LerryAlexander/postman_jenkins_api_tests |
-| 9040 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.enmilocalfunciona.io/mostrando-resultados-de-jenkins-en-grafana-mediante-influxdb |
-| 9041 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.tricentis.com/learn |
-| 9042 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://aws.amazon.com/blogs/apn/modernize-your-ci-cd-pipeline-using-jenkins-x-with-amazon-eks |
-| 9043 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://spinnaker.io/docs/setup/install |
-| 9044 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/wardviaene/advanced-kubernetes-course/tree/master/spinnaker |
-| 9045 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/imperialwicket/spinnaker-demo |
-| 9046 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://codeburst.io/spinnaker-by-example-part-1-c4de9180d689 |
-| 9047 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://codeburst.io/spinnaker-by-example-part-2-6f92a1fdaedf |
-| 9048 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://codeburst.io/spinnaker-by-example-part-3-c6ed9ac5f8ce |
-| 9049 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://hackernoon.com/using-spinnaker-with-kubernetes-for-cicd-52w3uo9 |
-| 9050 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://aws.amazon.com/blogs/opensource/declarative-provisioning-of-aws-resources-with-spinnaker-and-crossplane |
-| 9051 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/nubenetes/nexus3-helm-chart |
-| 9052 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://piotrminkowski.com/2020/10/19/gitlab-ci-cd-on-kubernetes |
-| 9053 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://about.gitlab.com/blog/2020/12/10/basics-of-gitlab-ci-updated |
-| 9054 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://about.gitlab.com/blog/2021/11/18/gitops-with-gitlab-connecting-the-cluster |
-| 9055 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://spring-petclinic.github.io |
-| 9056 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/spring-projects/spring-petclinic |
-| 9057 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/deors/deors-demos-petclinic/blob/master/Jenkinsfile |
-| 9058 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.liatrio.ai/resources/blog |
-| 9059 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.experfy.com/training/courses/effective-jenkins-continuous-delivery-and-continuous-integration |
-| 9060 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/redhat-developer-demos/spring-petclinic |
-| 9061 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/griddynamics/mpl |
-| 9062 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=GLtvxY1S3Aw |
-| 9063 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/spring-petclinic/spring-petclinic-cloud |
-| 9064 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/spring-petclinic/spring-petclinic-microservices |
-| 9065 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/odedia/spring-petclinic-microservices |
-| 9066 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/paulczar/k8s-spring-petclinic |
-| 9067 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://tech.paulcz.net/blog/spring-into-kubernetes-part-1 |
-| 9068 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/kohsuke/petclinic/blob/master/Jenkinsfile |
-| 9069 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://pushbuildtestdeploy.com/jenkins-on-kubernetes-building-docker-images |
-| 9070 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://hub.docker.com/r/ibuchh/petclinic-spinnaker-jenkins |
-| 9071 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://hub.docker.com/r/sarjunkumar24391/petclinic |
-| 9072 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://hub.docker.com/r/bmoussaud/petclinic |
-| 9073 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://hub.docker.com/r/alwin2/petclinic-customers-service |
-| 9074 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://hub.docker.com/r/arey/springboot-petclinic |
-| 9075 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://hub.docker.com/r/anthonydahanne/spring-petclinic |
-| 9076 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://hub.docker.com/r/jbrisbin/spring-petclinic |
-| 9077 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/spring-projects/spring-petclinic/issues/339 |
-| 9078 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/trisberg/spring-petclinic |
-| 9079 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://workspaces.openshift.com/#/getstarted |
-| 9080 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/che-samples |
-| 9081 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/aws-samples |
-| 9082 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/aws-samples/aws-auto-inventory |
-| 9083 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/aws-samples/aws-waf-ops-dashboards |
-| 9084 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/aws-samples/aws-customer-playbook-framework |
-| 9085 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/aws-samples/serverless-java-frameworks-samples |
-| 9086 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/miztiik/AWS-Demos |
-| 9087 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/amazon-archives/aws-training-demo |
-| 9088 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/aws-samples/aws-network-hub-for-terraform |
-| 9089 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=6W2TuBDaaiI&ab_channel=AliSpittel |
-| 9090 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.freecodecamp.org/news/how-to-deploy-react-apps-to-production |
-| 9091 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/hydrating-a-data-lake-using-log-based-change-data-capture-cdc-with-debezium-apicurio-and-kafka-799671e0012f |
-| 9092 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://jfrog.com/blog/5-steps-to-hosting-your-application-on-amazon-cloud-container-service |
-| 9093 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-AWS |
-| 9094 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/aws-samples/resource-tagging-automation |
-| 9095 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/unitypark/aws-serverless-demos |
-| 9096 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://travelrasik.com/category/asia |
-| 9097 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/microsoft/contosotraders-cloudtesting#contoso-traders---cloud-testing-tools-demo-app |
-| 9098 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://devblogs.microsoft.com/devops/azure-devops-demo-generator-is-now-open-source |
-| 9099 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://learn.microsoft.com/en-us/azure/devops/demo-gen/use-demo-generator-v2?view=azure-devops |
-| 9100 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://learn.microsoft.com/en-us/azure/container-apps |
-| 9101 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://davidsr.me/deploy-azure-waf-with-terraform-and-azure-devops |
-| 9102 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.testmuai.com/blog/build-ci-cd-pipeline-in-azure-devops |
-| 9103 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://learn.microsoft.com/en-gb/azure/devops/pipelines/build/ci-build-git?view=azure-devops |
-| 9104 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://blogs.sap.com/2021/07/04/cloud-integration-with-commerce-azure-blob-storage-using-rest-api |
-| 9105 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://blogs.sap.com/2021/12/26/cloud-integration-with-commerce-azure-blob-storage-using-rest-api-part-2 |
-| 9106 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/tfxor/terraform-google-automation-demo |
-| 9107 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://cloud.google.com/blog/products/application-development/access-an-orgs-custom-code-repo-from-cloud-code-ides |
-| 9108 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/tutorial-connect-amazon-eks-and-azure-aks-clusters-with-google-anthos |
-| 9109 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/tutorial-deploy-anthos-apps-from-gcp-marketplace-into-amazon-eks-cluster |
-| 9110 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://javatechonline.com/deploy-spring-boot-docker-spring-boot |
-| 9111 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/piomin/sample-spring-microservices-kubernetes |
-| 9112 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/piomin/sample-spring-microservices-new |
-| 9113 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/blog/2020/06/19/develop-and-test-a-quarkus-client-on-red-hat-codeready-containers-with-red-hat-data-grid-8-0 |
-| 9114 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://aytartana.wordpress.com/2020/08/26/migrating-springboot-petclinic-rest-to-quarkus |
-| 9115 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/aalmiray/q-cli |
-| 9116 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/piomin/sample-quarkus-serverless-kafka |
-| 9117 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://piotrminkowski.com/2023/09/15/introduction-to-grpc-with-quarkus |
-| 9118 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/stefanprodan/podinfo |
-| 9119 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://dev.to/aleksk1ng/go-kafka-and-grpc-clean-architecture-cqrs-microservices-with-jaeger-tracing-45bj |
-| 9120 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://ably.com/blog/realtime-ticket-booking-solution-kafka-fastapi-ably |
-| 9121 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/event-driven-architectures-with-kafka-and-java-spring-boot-revision-1-c0d43d103ee7 |
-| 9122 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://codeopinion.com/troubleshooting-kafka-with-2000-microservices |
-| 9123 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://tomd.xyz/kubernetes-event-driven-keda |
-| 9124 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/articles/2021/07/26/modernizing-applications-apache-camel-javascript-and-red-hat-openshift# |
-| 9125 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/kelseyhightower/nocode |
-| 9126 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/blog/2020/06/17/red-hat-jboss-enterprise-application-platform-expansion-pack-1-0-released |
-| 9127 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/getting-started-jboss |
-| 9128 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://collabnix.github.io/terraform |
-| 9129 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://opensource.com/article/20/7/terraform-kubernetes |
-| 9130 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://shipit.dev/posts/setting-up-eks-with-irsa-using-terraform.html |
-| 9131 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://azapril.dev/2021/04/12/deploying-a-logicapp-with-terraform |
-| 9132 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://k21academy.com/terraform/terraform-automate-aws-vm |
-| 9133 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/StarpTech/k-andy |
-| 9134 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://adamtheautomator.com/terraform-and-aws-rds |
-| 9135 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/BishopFox/iam-vulnerable |
-| 9136 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.middlewareinventory.com/blog/terraform-create-multiple-ec2-different-config |
-| 9137 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://dev.to/aws-builders/creating-a-rest-api-with-infrastructure-as-code-terraform-serverless-lambda-python-part-2-cicd-g8h |
-| 9138 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://awsfundamentals.com/blog/using-s3-with-terraform |
-| 9139 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://devopscube.com/terraform-aws-rds |
-| 9140 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://techcommunity.microsoft.com/blog/fasttrackforazureblog/create-an-azure-openai-langchain-chromadb-and-chainlit-chat-app-in-container-app/3885602 |
-| 9141 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.patrickkoch.dev/posts/post_31 |
-| 9142 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/venkateshk111/terraform-beginners-guide |
-| 9143 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/chenjd/terraform-101 |
-| 9144 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/xiaopeng163/docker-compose-tpg |
-| 9145 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://grafana.com/blog/2021/08/31/how-istio-tempo-and-loki-speed-up-debugging-for-microservices |
-| 9146 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.linkedin.com/pulse/test-automation-how-build-cicd-pipeline-using-pytest-nir-tal |
-| 9147 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/major/imagebuilder-containerized/blob/main/.github/workflows/main.yml |
-| 9148 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://learn.microsoft.com/en-us/training/modules/github-actions-cd |
-| 9149 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/github-github-actions-overview-and-argocd-deployment-example-b6cf0cf6f832 |
-| 9150 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/debianmaster/actions-k3s |
-| 9151 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://judebantony.github.io/cicd-github-action-example |
-| 9152 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.codeproject.com/Articles/5320647/Making-a-Simple-Data-Pipeline-Part-4-CI-CD-with-Gi |
-| 9153 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.freecodecamp.org/news/how-to-setup-a-ci-cd-pipeline-with-github-actions-and-aws |
-| 9154 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://nth-root.nl/en/guides/automate-kubernetes-deployments-with-github-actions |
-| 9155 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/GitHubSecurityLab/actions-permissions |
-| 9156 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thomasthornton.cloud/if-elseif-or-else-in-github-actions |
-| 9157 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://dev.to/aws-builders/from-scratch-oidc-providers-252d |
-| 9158 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/redhat-actions/spring-petclinic |
-| 9159 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://gitlab.com/bpmworkshop/rhpam-signal-marketing-demo |
-| 9160 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/microsoft/azure-digital-twins-postman-samples |
-| 9161 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/opentelemetry-understanding-sli-and-slo-with-opentelemetry-demo-74c1d0b263b0 |
-| 9162 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://devops.com/measuring-the-progress-of-the-opentelemetry-project |
-| 9163 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://hasura.io/blog/a-simple-real-time-event-driven-architecture-with-qr-codes |
-| 9164 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://learntocloud.guide/#/projects/README |
-| 9165 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.digitalocean.com |
-| 9166 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.digitalocean.com/products/kubernetes |
-| 9167 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://try.digitalocean.com/cloudplex |
-| 9168 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.digitalocean.com/community/tools |
-| 9169 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://docs.digitalocean.com/products/app-platform |
-| 9170 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://try.digitalocean.com/app-platform |
-| 9171 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.theregister.com/off-prem/2020/10/07/digitalocean-decides-to-head-rivals-off-at-the-paas-floats-app-platform-to-deploy-run-code-without-juggling-servers/802967 |
-| 9172 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://thenewstack.io/digitalocean-app-platform-eases-kubernetes-deployments-for-developers |
-| 9173 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://dev.to/aws-builders/sharing-secrets-to-ecs-in-an-aws-multi-account-architecture-5h1i |
-| 9174 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/containers/automate-rollbacks-for-amazon-ecs-rolling-deployments-with-cloudwatch-alarms |
-| 9175 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws-quickstart.github.io/quickstart-eks-rancher |
-| 9176 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | http://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-optimized_AMI.html |
-| 9177 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | http://aws.amazon.com/es/documentation/ecr |
-| 9178 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://docs.aws.amazon.com/AmazonECR/latest/userguide |
-| 9179 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | http://blog.scottlowe.org/2016/03/22/using-docker-machine-with-aws |
-| 9180 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/es/about-aws/whats-new/2016/06/docker-datacenter-on-the-aws-cloud-quick-start-reference-deployment |
-| 9181 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://github.com/awslabs/amazon-ecr-credential-helper |
-| 9182 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.rancher.com |
-| 9183 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/custom-alerts-using-prometheus-queries |
-| 9184 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.zdnet.com/article/rancher-labs-closes-40m-funding-round-to-run-kubernetes-everywhere |
-| 9185 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/faster-kubernetes-development-with-rancher-devspace-and-loft |
-| 9186 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/multi-cluster-vulnerability-scanning-with-alcide-and-rancher |
-| 9187 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/driving-kubernetes-adoption-in-finance-with-rancher |
-| 9188 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.devclass.com/ci-cd/2020/10/06/open-sauce-rancher-25-puts-new-ui-forward-gets-to-continuously-delivering/1628365 |
-| 9189 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/rancher-2-5-delivers-on-computing-everywhere-strategy |
-| 9190 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/speed-up-development-with-automated-kubernetes-deployments |
-| 9191 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/rancher-2-5-sets-out-to-be-the-stock-kubernetes-build-for-gitops |
-| 9192 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.devclass.com/containers/2021/09/02/rancher-presents-first-big-release-after-suse-acquisition-ups-game-on-hosted-cluster-provisioning/1627301 |
-| 9193 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/intro-rancher-2-6-features |
-| 9194 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.zdnet.com/article/suse-harvester-deploying-virtual-machines-with-kubernetes |
-| 9195 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/my-first-impressions-with-suse-rancher-kubernetes-projects |
-| 9196 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://rancherdesktop.io |
-| 9197 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/rancher-desktop-1-0-0-has-arrived |
-| 9198 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.computing.co.uk/news/4015423/rancher-labs-launches-free-training-course-meet-surging-demand-kubernetes |
-| 9199 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.rancher.com/docs/rancher/v2.x/en |
-| 9200 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.rancher.com/docs/rancher/v2.x/en/faq/networking/cni-providers |
-| 9201 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.rancher.com/products/secure-kubernetes-distribution |
-| 9202 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/LukeMwila/bootstrap-rke-cluster-in-aws |
-| 9203 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/gruberdev/local-gitops |
-| 9204 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/ranchergovernment/rke2-aws-tf |
-| 9205 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://k3s.io |
-| 9206 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.civo.com/blog/k8s-vs-k3s |
-| 9207 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/alexellis/k3sup |
-| 9208 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/apk8s/k3s-gitlab |
-| 9209 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/upgrade-your-k3s-clusters-smoothly-in-rancher-2-4 |
-| 9210 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/keptn-sandbox/keptn-on-k3s |
-| 9211 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/how-k3s-portworx-and-calico-can-serve-as-a-foundation-of-cloud-native-edge-infrastructure |
-| 9212 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/tutorial-configure-cloud-native-edge-infrastructure-with-k3s-calico-portworx |
-| 9213 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/aws-samples/aws-cdk-for-k3scluster |
-| 9214 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://codeburst.io/creating-a-local-development-kubernetes-cluster-with-k3s-and-traefik-proxy-7a5033cb1c2d |
-| 9215 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.sysdig.com/blog/k3s-sysdig-falco |
-| 9216 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/set-up-your-k3s-cluster-for-high-availability-on-digitalocean |
-| 9217 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.alexellis.io/bare-metal-kubernetes-with-k3s |
-| 9218 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/set-up-k3s-in-high-availability-using-k3d |
-| 9219 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://gitlab.com/k3s_hetzner/k3s_hetzner |
-| 9220 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/erebe/personal-server |
-| 9221 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/abhinavd26/all-about-k3s-lightweight-kubernetes-3ell |
-| 9222 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://gabrieltanner.org/blog/ha-kubernetes-cluster-using-k3s |
-| 9223 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.nootch.net/post/kubernetes-at-home-with-k3s |
-| 9224 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/running-k3s-workload-in-a-restricted-environment-c2f593d19005 |
-| 9225 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/dashaun/k3s-on-raspberry-pi-and-clusterhat-m6k |
-| 9226 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.getambassador.io/best-tools-for-kubernetes-local-development-a-comprehensive-guide-3577d351d31e |
-| 9227 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/tinyzimmer/k3p |
-| 9228 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/clanktron/k3s-ansible |
-| 9229 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/timothystewart6/k3s-ansible |
-| 9230 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/cnrancher/autok3s |
-| 9231 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.youtube.com/watch?v=2LNxGVS81mE |
-| 9232 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/run-rancher-2-4-in-azure-with-k3s-and-mysql |
-| 9233 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/k3d-io/k3d |
-| 9234 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/kubernetes-rancher-cluster-manager-2-6-on-your-macos-laptop-with-k3d-k3s-in-5-min-8acdb94f3376 |
-| 9235 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/iamunnip/building-a-local-kubernetes-cluster-using-k3d-2p3d |
-| 9236 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/rancher/k3os |
-| 9237 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/rancher/k3c |
-| 9238 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/announcing-hosted-rancher-with-rancher-2-4 |
-| 9239 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/deploy-kubernetes-clusters-on-microsoft-azure-with-rancher |
-| 9240 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/stateful-kubernetes-workloads-on-vsphere-with-rke |
-| 9241 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/rancher/fleet |
-| 9242 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/fleet-management-for-kubernetes-is-here |
-| 9243 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/fleet-management-of-kubernetes-clusters-at-scale-ranchers-fleet-de161cc52325 |
-| 9244 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://digitalis.io/blog/kubernetes/kubernetes-gitops-continuous-integration-and-delivery-with-fleet-and-rancher |
-| 9245 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/harvester/harvester |
-| 9246 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.redhat.com/en/blog/lets-monitor-edge-computing-networks-rhel |
-| 9247 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.redhat.com/en/solutions/edge-computing-approach?sc_cid=7013a000002w1CwAAI |
-| 9248 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://opensource.com/article/21/1/kubeedge |
-| 9249 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://thenewstack.io/cloudian-cto-kubernetes-standardization-key-to-edge |
-| 9250 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://developers.redhat.com/articles/2021/11/22/bring-your-kubernetes-workloads-edge |
-| 9251 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://thenewstack.io/a-new-kubernetes-edge-architecture |
-| 9252 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://www.forbes.com/sites/tjmccue/2020/03/13/5-essential-coronavirus-work-from-home-tech-tips |
-| 9253 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://enterprisersproject.com/article/2021/2/remote-work-virtual-collaboration-best-practices |
-| 9254 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://www.elconfidencial.com/juridico/2021-09-27/negociar-acuerdo-teletrabajo-guia-practica-empresas_3295723 |
-| 9255 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://www.infoq.com/news/2021/12/remote-first-sre |
-| 9256 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://krisp.ai |
-| 9257 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://www.zoom.com |
-| 9258 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://wordpress.com/p2 |
-| 9259 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fdocs.google.com%2F&dsh=S20332737%3A1779042489432562&emr=1&followup=https%3A%2F%2Fdocs.google.com%2F&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AWa2Pav-11IKZl8IOb4XqImV3kUr5dyMPv-c_juxtiguwye_vvM_4JChlo3slW1NhgW6-FumHKZpvw |
-| 9260 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://slack.com |
-| 9261 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://workspace.google.com/products/meet |
-| 9262 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://www.rocket.chat |
-| 9263 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://mattermost.com |
-| 9264 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software |
-| 9265 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://www.atlassian.com/solutions/distributed |
-| 9266 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://miro.com |
-| 9267 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://miro.com/app/board/o9J_kqwfjqs= |
-| 9268 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://readwise.io |
-| 9269 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://www.instapaper.com |
-| 9270 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://www.getmatter.com |
-| 9271 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://obsidian.md |
-| 9272 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://www.portafolio.co/tendencias/claves-para-liderar-equipos-de-teletrabajo-y-no-fracasar-en-el-intento-556586 |
-| 9273 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://github.com/andrewpuch/nagios_setup |
-| 9274 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://github.com/jonrau1/ElectricEye/blob/master/README.md |
-| 9275 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.elastic.co/blog/elastic-and-aws-accelerate-your-cloud-migration-journey |
-| 9276 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/mt/how-to-use-aws-config-and-cloudtrail-to-find-who-made-changes-to-a-resource |
-| 9277 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.f5.com/company/blog |
-| 9278 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/about-aws/whats-new/2020/09/amazon-cloudwatch-monitors-prometheus-metrics-container-environments |
-| 9279 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/about-aws/whats-new/2020/09/amazon-cloudwatch-dashboards-supports-sharing |
-| 9280 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/mt/how-bt-uses-amazon-cloudwatch-to-monitor-millions-of-devices |
-| 9281 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/mt/extending-and-exploring-alarm-history-in-amazon-cloudwatch-part-2 |
-| 9282 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://docs.aws.amazon.com/cloud-map/latest/api/API_HealthCheckCustomConfig.html |
-| 9283 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/prometheus |
-| 9284 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/grafana |
-| 9285 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.infoq.com/news/2021/01/aws-grafana-prometheus |
-| 9286 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.pulumi.com |
-| 9287 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.pulumi.com/docs/iac/comparisons/terraform |
-| 9288 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.pulumi.com/registry |
-| 9289 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.civo.com/learn |
-| 9290 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://build5nines.com/beginners-guide-to-pulumi-ci-cd-pipelines |
-| 9291 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.pulumi.com/blog/from-terraform-to-infrastructure-as-software |
-| 9292 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.pulumi.com/blog/observability-with-infrastructure-as-code |
-| 9293 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://octopus.com/blog/pulumi-and-aks-with-octopus-deploy |
-| 9294 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.pulumi.com/blog/pulumi-3-0 |
-| 9295 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://devops.com/pulumi-moves-to-automate-cloud-infrastructure-provisioning |
-| 9296 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://thenewstack.io/the-next-step-after-devops-and-gitops-is-cloud-engineering-pulumi-says |
-| 9297 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.pulumi.com/docs/iac/guides/migration/migrating-to-pulumi/from-kubernetes |
-| 9298 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://travis.media/blog/pulumi-tutorial-automate-kubernetes-operations |
-| 9299 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.pulumi.com/blog/pulumi-rest-api |
-| 9300 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://thenewstack.io/pulumi-releases-a-kubernetes-operator |
-| 9301 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://siliconangle.com/2021/10/18/pulumis-new-registry-makes-easy-share-reuse-cloud-infrastructure-building-blocks |
-| 9302 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.pulumi.com/registry/packages/aws/how-to-guides/ecs-fargate |
-| 9303 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.pulumi.com/tf2pulumi |
-| 9304 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.packetswitch.co.uk/terraform-is-good-but-i-like-pulumi |
-| 9305 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/products |
-| 9306 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/about-aws/global-infrastructure/localzones/locations |
-| 9307 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://health.aws.amazon.com/health/status |
-| 9308 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/new |
-| 9309 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://repost.aws |
-| 9310 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | http://docs.aws.amazon.com/general/latest/gr/glos-chap.html |
-| 9311 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/marketplace |
-| 9312 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/premiumsupport |
-| 9313 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | http://www.slideshare.net/AmazonWebServices |
-| 9314 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/getting-started/hands-on |
-| 9315 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://repost.aws/knowledge-center/create-and-activate-aws-account |
-| 9316 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://github.com/open-guides/og-aws |
-| 9317 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/es/training/ramp-up-guides |
-| 9318 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://serverlessland.com |
-| 9319 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://serverlessland.com/patterns |
-| 9320 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://serverlessland.com/explore/sam-pipelines |
-| 9321 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/startups |
-| 9322 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://github.com/aws/containers-roadmap |
-| 9323 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://dashbird.io/blog/use-aws-free |
-| 9324 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.pluralsight.com/resources/blog/cloud/the-cloud-dictionary-of-pain-five-of-awss-toughest-cloud-topics |
-| 9325 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.linkedin.com/pulse/listado-de-todos-los-servicios-amazon-web-services-daniel-pe%25C3%25B1a-silva |
-| 9326 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/architecture.html |
-| 9327 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://thenewstack.io/understand-the-aws-shared-responsibility-model-for-kubernetes |
-| 9328 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.pluralsight.com/resources/blog/cloud/12-aws-config-rules-that-every-account-should-have |
-| 9329 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://cloudonaut.io/ec2-checklist-seven-things-to-do-after-launching-an-instance |
-| 9330 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.lastweekinaws.com/blog/17-more-ways-to-run-containers-on-aws |
-| 9331 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/what-is/streaming-data |
-| 9332 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/architecture/what-to-consider-when-selecting-a-region-for-your-workloads |
-| 9333 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://docs.aws.amazon.com/whitepapers/latest/microservices-on-aws/microservices-on-aws.html |
-| 9334 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://intellipaat.com/blog/what-is-amazon-web-services-aws |
-| 9335 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://amazon.qwiklabs.com/catalog |
-| 9336 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.freecodecamp.org/news/tag/aws |
-| 9337 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/compute/building-highly-resilient-applications-with-on-premises-interdependencies-using-aws-local-zones |
-| 9338 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://dev.to/aws-builders/disaster-recovery-cheat-sheetwrite-up-o62 |
-| 9339 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://dev.to/aws-builders/best-practices-when-designing-aws-architecture-4c8d |
-| 9340 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.infoworld.com/article/2338356/amazon-s-quiet-open-source-revolution.html |
-| 9341 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.infoq.com/news/2023/02/aws-deployment-pipelines |
-| 9342 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://k21academy.com/aws-cloud/aws-application-services |
-| 9343 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://jayendrapatil.com |
-| 9344 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://app.polymersearch.com/discover/aws |
-| 9345 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://builder.aws.com/build/workshops?trk=265ae1c7-2dfc-44c6-bc73-a4d991b8bd7f&sc_channel=el |
-| 9346 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.amazon.com/b/?node=14297978011 |
-| 9347 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://dev.to/aws-builders/many-free-and-useful-aws-official-dev-and-user-guides-54ci |
-| 9348 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.vladionescu.me/posts/scaling-containers-on-aws-in-2022 |
-| 9349 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://x.com/awscloud |
-| 9350 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://x.com/AWSreInvent |
-| 9351 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://x.com/jeffbarr |
-| 9352 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://x.com/AWSstartups |
-| 9353 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://x.com/AWS_Partners |
-| 9354 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.youtube.com/user/AmazonWebServices |
-| 9355 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.youtube.com/user/awstutorialseries |
-| 9356 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.youtube.com/user/AWSwebinars |
-| 9357 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/podcasts/aws-podcast |
-| 9358 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/podcasts/aws-techchat |
-| 9359 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | http://www.stitcher.com/podcast/amazon-web-services/aws-podcast |
-| 9360 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/developer |
-| 9361 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | http://docs.aws.amazon.com/apigateway/latest/developerguide/create-api-using-import-export-api.html |
-| 9362 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/about-aws/whats-new/2016/04/aws-config-rules-now-available-in-4-new-regions-us-west-oregon-eu-ireland-eu-frankfurt-and-asia-pacific-tokyo |
-| 9363 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html |
-| 9364 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/mt/multi-account-aws-trusted-advisor-summaries-now-available-aws-systems-manager-explorer |
-| 9365 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/how-to-automate-incident-response-to-security-events-with-aws-systems-manager-incident-manager |
-| 9366 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/cloud-adoption-framework |
-| 9367 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/aws/aws-cloud-adoption-framework-caf-3-0-is-now-available |
-| 9368 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/aws/aws-repost-a-reimagined-qa-experience-for-the-aws-community |
-| 9369 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.infoq.com/news/2021/12/amazon-repost-questions-answers |
-| 9370 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/aws/convert-aws-console-actions-to-reusable-code-with-aws-console-to-code-now-generally-available/?trk=0d3532c8-5f49-4c86-9683-96c2417e9b4b&sc_channel=el |
-| 9371 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | http://blog.scrumstudy.com/scrum-and-kanban-alike-or-different-2 |
-| 9372 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.scrum.org/resources/blog/vlog-what-happens-sprint-backlog-items-are-not-done |
-| 9373 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.cio.com/article/194093/agile-vs-waterfall-project-methodologies-compared.html |
-| 9374 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.scrum.org/resources/blog/make-sure-you-dont-build-high-performing-teams-just-deliver-wrong-things-faster |
-| 9375 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://enterprisersproject.com/article/2020/10/scrum-kanban-3-realities-cios |
-| 9376 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.forbes.com/sites/stevedenning/2016/09/08/explaining-agile |
-| 9377 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.scrum.org/resources/blog/minimum-viable-product-considered-harmful |
-| 9378 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://age-of-product.com/scrum-2021 |
-| 9379 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.scrum.org/resources/blog/scrum-2021-getting-you-started-scrum-master-or-product-owner |
-| 9380 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.scrum.org/resources/kanban-guide-scrum-teams |
-| 9381 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.redhat.com/en/blog/11-manager-considerations |
-| 9382 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.cloudbees.com/blog/asynchronous-development |
-| 9383 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.cloudbees.com/blog/using-predictive-analytics-to-show-adding-more-people |
-| 9384 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.infoq.com/articles/DevOps-value-stream |
-| 9385 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://creately.com/blog/project-management/what-is-a-kanban-board |
-| 9386 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://hbr.org/2019/03/as-your-team-gets-bigger-your-leadership-style-has-to-adapt |
-| 9387 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://blog.pragmaticengineer.com/project-management-at-big-tech |
-| 9388 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.infoq.com/articles/better-metrics-team-performance |
-| 9389 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.noidea.dog/glue |
-| 9390 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://hbr.org/2021/06/the-real-value-of-middle-managers |
-| 9391 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://dev.to/actitime/whats-wrong-with-measuring-developer-performance-10-best-metrics-5620 |
-| 9392 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://hbr.org/2022/05/how-to-deal-with-high-pressure-situations-at-work |
-| 9393 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://techcrunch.com/2022/07/27/protestware-code-sabotage |
-| 9394 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://hbr.org/2019/01/how-to-debate-ideas-productively-at-work |
-| 9395 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://hbr.org/2019/02/the-surprising-power-of-simply-asking-coworkers-how-theyre-doing |
-| 9396 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.infoworld.com/article/2337651/what-to-do-when-your-devops-team-is-downsized.html |
-| 9397 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://hbr.org/2015/08/how-to-give-tough-feedback-that-helps-people-grow |
-| 9398 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://martinfowler.com/articles/retrospective-antipatterns.html |
-| 9399 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.rebelscrum.site/post/characteristics-of-a-great-product-owner |
-| 9400 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/breaking-down-silos-applying-open-source-practices-in-the-workplace |
-| 9401 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/how-good-developers-become-good-engineering-managers |
-| 9402 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://newsletter.pragmaticengineer.com/p/engineering-leadership-skillset-overlaps |
-| 9403 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://hbr.org/2020/01/what-it-takes-to-give-a-great-presentation |
-| 9404 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.businessinsider.com/amazon-reason-for-layoffs-former-senior-tech-leader-2023-5 |
-| 9405 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.scrum.org/resources/blog/scrum-no-es-una-metodologia-es-un-marco-de-trabajo |
-| 9406 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.scrum.org/resources/blog/posturas-del-product-owner |
-| 9407 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://analoghq.ai/blog/es/tipos-de-consultoria |
-| 9408 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://mamaqueesscrum.com/2018/11/12/labores-que-un-product-owner-deberia-hacer-que-no-aparecen-en-la-scrum-guide |
-| 9409 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.bbc.com/mundo/vert-cap-37270163 |
-| 9410 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.elconfidencial.com/tecnologia/tribuna/2022-02-12/productividad-tecnologia-startups-apps_3373786 |
-| 9411 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.elfinanciero.com.mx/empresas/2021/07/06/tu-jefe-no-siempre-tiene-la-razon-de-que-manera-puedes-contradecirlo |
-| 9412 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.elconfidencial.com/alma-corazon-vida/2022-02-14/jefe-trabajo-empleo-quemado-no-puedes_3372444 |
-| 9413 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://blog.trello.com/es/conflictos-en-el-trabajo |
-| 9414 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.lavanguardia.com/economia/20220223/8075492/liderazgo-empresa-jefes-empleados-cercania-decisiones.html |
-| 9415 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://okdiario.com/economia/telefonica-santander-despiden-467-empleados-2021-denuncias-companeros-8655690 |
-| 9416 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.cronista.com/apertura/empresas/como-identificar-a-un-mal-jefe-y-que-errores-no-pueden-cometer-hoy-los-lideres |
-| 9417 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.elconfidencial.com/espana/2022-03-18/tessa-west-psicologa-capullos-trabajo_3392185 |
-| 9418 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.xataka.com/magnet/esclavos-improductividad-70-reuniones-impiden-que-empleados-hagan-su-trabajo |
-| 9419 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.genbeta.com/actualidad/reuniones-trabajo-nos-agotan-videollamada-se-sabe-que-pasa-se-eliminan-usamos-chats |
-| 9420 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.pymesyautonomos.com/management/esta-trabajando-empleado-realmente-su-casa |
-| 9421 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.estrategiadeproducto.com/p/evitar-caer-espiral-de-mierda |
-| 9422 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.estrategiadeproducto.com/p/segunda-mayor-mentira-product-management |
-| 9423 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.mariocortes.net/la-crisis-de-seniority |
-| 9424 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.businessinsider.es/desarrollo-profesional/teletrabajar-perjudica-carrera-profesional-posibles-ascensos-1240782 |
-| 9425 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.genbeta.com/actualidad/ex-ceo-origen-tener-gente-que-hace-falta-empresas-contratas-a-alguien-primero-que-hace-contratar-1 |
-| 9426 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.businessinsider.es/desarrollo-profesional/explicacion-steve-jobs-buenos-empleados-renuncian-trabajo-1137601 |
-| 9427 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://openwebinars.net/blog/13-errores-que-cometes-como-manager |
-| 9428 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://itrevolution.com/articles/the-problem-with-org-charts |
-| 9429 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://itrevolution.com/articles/get-started-with-team-topologies-in-8-steps |
-| 9430 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.visual-paradigm.com/scrum/scrum-vs-waterfall-vs-agile-vs-lean-vs-kanban |
-| 9431 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.greycampus.com |
-| 9432 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.smartsheet.com/agile-vs-scrum-vs-waterfall-vs-kanban |
-| 9433 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://lucid.co/blog/agile-vs-waterfall-vs-kanban-vs-scrum |
-| 9434 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.deloitte.com/us/en/insights/industry/government-public-sector-services.html |
-| 9435 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.softwaretestinghelp.com/kanban-vs-scrum-vs-agile |
-| 9436 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.atlassian.com/agile/kanban/kanban-vs-scrum |
-| 9437 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://k21academy.com/scrum/scrum-vs-kanban |
-| 9438 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://project-management.com/understanding-responsibility-assignment-matrix-raci-matrix |
-| 9439 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://analoghq.ai/blog/es/matriz-raci |
-| 9440 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://blog.hubspot.es/marketing/matriz-raci |
-| 9441 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.jaumepujolcapllonch.com/la-matriz-raci-y-la-asignacion-de-responsabilidades |
-| 9442 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://creately.com/blog/business/how-to-set-kpis-for-team-members |
-| 9443 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | http://www.gazafatonarioit.com/2020/09/entiende-el-mvp-producto-minimo-viable.html |
-| 9444 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://blog.hubspot.es/sales/producto-minimo-viable |
-| 9445 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://bloo.media/blog/producto-minimo-viable-mvp |
-| 9446 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://blog.asmartbear.com/slc.html |
-| 9447 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://joelcalifa.com/blog/tiny-wins |
-| 9448 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.gammaux.com/blog/como-definir-un-minimum-viable-product-mvp |
-| 9449 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://dev.to/sergomz/construyendo-un-mvp-sin-base-de-datos-1i4k |
-| 9450 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.ewsolutions.com/worst-project-management-practices |
-| 9451 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | http://www.nichesoftware.co.nz/2021/05/29/promotion-driven-development.html |
-| 9452 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.lavanguardia.com/vivo/20211113/7856878/cualidades-mas-valoran-empleados-jefe-pmv.html |
-| 9453 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.businessinsider.es/desarrollo-profesional/tan-dificil-decir-no-jefe-965459 |
-| 9454 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.businessinsider.es/desarrollo-profesional/razon-nunca-consigues-ascender-trabajo-conseguir-mejor-sueldo-970737 |
-| 9455 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.euroresidentes.com/empresa/exito-empresarial/la-intimidacin-verbal-en-la-empresa |
-| 9456 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://isprox.com/es/16-estilos-liderazgo-cual-es-mas-efectivo |
-| 9457 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.swarmia.com/build |
-| 9458 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | http://blogs.aws.amazon.com/security |
-| 9459 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/security |
-| 9460 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://docs.aws.amazon.com/security |
-| 9461 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://docs.aws.amazon.com/linux/al2/ug/SSL-on-amazon-linux-2.html |
-| 9462 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/the-most-popular-aws-security-blog-posts-in-2015 |
-| 9463 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/announcing-industry-best-practices-for-securing-aws-resources |
-| 9464 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/the-most-viewed-aws-security-blog-posts-so-far-in-2016 |
-| 9465 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/es/blogs/apn/oracle-database-encryption-options-on-amazon-rds |
-| 9466 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/about-aws/whats-new/2016/06/learn-aws-security-fundamentals-with-free-and-online-training |
-| 9467 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/how-to-restrict-amazon-s3-bucket-access-to-a-specific-iam-role |
-| 9468 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/updated-whitepaper-available-aws-best-practices-for-ddos-resiliency |
-| 9469 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/in-case-you-missed-these-aws-security-blog-posts-from-june-july-and-august |
-| 9470 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/es/about-aws/whats-new/2016/08/amazon-inspector-announces-general-availability-for-windows |
-| 9471 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://docs.aws.amazon.com/kms/latest/developerguide/importing-keys.html |
-| 9472 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/automated-reasoning-and-amazon-s2n |
-| 9473 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/encrypt-global-data-client-side-with-aws-kms-multi-region-keys |
-| 9474 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.pluralsight.com/resources/blog/cloud/how-to-audit-and-secure-an-aws-account |
-| 9475 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://yobyot.com/aws/aws-multi-region-keys-and-ec2-data-lifecycle-manager/2021/08/18 |
-| 9476 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/how-to-automate-aws-account-creation-with-sso-user-assignment |
-| 9477 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/security-practices-in-aws-multi-tenant-saas-environments |
-| 9478 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/how-to-use-aws-security-hub-and-amazon-opensearch-service-for-siem |
-| 9479 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://github.com/aws-samples/aws-secrets-manager-hybrid-secret-replication-from-hashicorp-vault |
-| 9480 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.linkedin.com/pulse/complexities-aws-security-groups-cloud-world-ashish-kar |
-| 9481 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://github.com/awslabs/cognito-at-edge |
-| 9482 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://github.com/aws-samples/service-control-policy-examples |
-| 9483 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://darryl-ruggles.cloud/aws-sso-credentials-with-multiple-accounts |
-| 9484 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://github.com/awslabs/sustainability-scanner |
-| 9485 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture |
-| 9486 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/update-of-aws-security-reference-architecture-is-now-available |
-| 9487 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/application-security.html |
-| 9488 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/opensource/realize-policy-as-code-with-aws-cloud-development-kit-through-open-policy-agent |
-| 9489 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/about-aws/whats-new/2016/05/pci-dss-standardized-architecture-on-the-aws-cloud-quick-start-reference-deployment |
-| 9490 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | http://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started.html |
-| 9491 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/adhere-to-iam-best-practices-in-2016 |
-| 9492 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/how-to-record-and-govern-your-iam-resource-configurations-using-aws-config |
-| 9493 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/how-to-use-saml-to-automatically-direct-federated-users-to-a-specific-aws-management-console-page |
-| 9494 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/es/blogs/security/new-iamctl-tool-compares-multiple-iam-roles-and-policies |
-| 9495 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/es/blogs/mt/bring-your-own-cli-session-manager-configurable-shell-profiles |
-| 9496 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://keepler.io/es/2021/03/15/gestionando-el-control-de-accesos-en-nuestro-data-lake-en-aws |
-| 9497 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/about-aws/whats-new/2021/03/iam-access-analyzer-supports-over-100-policy-checks-with-actionable-recommendations |
-| 9498 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/aws/iam-access-analyzer-update-policy-validation |
-| 9499 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://netflixtechblog.com/consoleme-a-central-control-plane-for-aws-permissions-and-access-fd09afdd60a8 |
-| 9500 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://cloudkatha.com/difference-between-root-user-and-iam-user-in-aws-you-need-to-know |
-| 9501 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.infoq.com/news/2022/01/aws-iam-s3-access |
-| 9502 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://github.com/iann0036/iamlive |
-| 9503 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.daan.fyi/writings/iam |
-| 9504 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://github.com/willdady/cdk-iam-credentials-rotator |
-| 9505 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html |
-| 9506 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/when-and-where-to-use-iam-permissions-boundaries |
-| 9507 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/extend-aws-iam-roles-to-workloads-outside-of-aws-with-iam-roles-anywhere |
-| 9508 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/use-iam-access-analyzer-policy-generation-to-grant-fine-grained-permissions-for-your-aws-cloudformation-service-roles |
-| 9509 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://ermetic.com/blog/aws/diving-deeply-into-iam-policy-evaluation-highlights-from-aws-reinforce-session-iam433 |
-| 9510 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://globaldatanet.com/tech-blog/aws-iam-identity-center-permission-management-at-scale-part-2 |
-| 9511 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/how-to-monitor-and-query-iam-resources-at-scale-part-1 |
-| 9512 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://github.com/aws-samples/visualize-iam-access-analyzer-policy-validation-findings |
-| 9513 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://thenewstack.io/a-deep-dive-into-the-security-of-iam-in-aws |
-| 9514 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://github.com/awslabs/terraform-iam-policy-validator |
-| 9515 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://jimmydqv.com/iam-anywhere |
-| 9516 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/mt/simplifying-permissions-management-at-scale-using-tags-in-aws-organizations |
-| 9517 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/mt/standardize-compliance-in-aws-using-devops-and-a-cloud-center-of-excellence-ccoe-approach |
-| 9518 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://wut.dev/blog/2024/07/05/moving-aws-accounts-within-organization.html |
-| 9519 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/about-aws/whats-new/2023/11/automate-aws-control-tower-zone-operations-apis |
-| 9520 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/es/blogs/security/automatically-block-suspicious-traffic-with-aws-network-firewall-and-amazon-guardduty |
-| 9521 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/waf |
-| 9522 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/how-to-automatically-update-your-security-groups-for-amazon-cloudfront-and-aws-waf-by-using-aws-lambda |
-| 9523 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://github.com/aws-solutions/aws-waf-security-automations |
-| 9524 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://github.com/amazon-archives/aws-waf-sample |
-| 9525 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://dev.to/aws-builders/aws-waf-web-application-firewall-deep-dive-15bd |
-| 9526 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/how-to-replicate-secrets-aws-secrets-manager-multiple-regions |
-| 9527 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/containers/aws-secrets-manager-controller-poc-an-eks-operator-for-automatic-rotation-of-secrets |
-| 9528 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://k21academy.com/aws-cloud/aws-secrets-manager |
-| 9529 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://github.com/99designs/aws-vault |
-| 9530 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://martinfowler.com/articles/serverless.html |
-| 9531 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/scaling-my-app-serverless-vs-kubernetes-cdb8adf446e1 |
-| 9532 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://towardsdatascience.com/kubernetes-serverless-differences-84699f370609 |
-| 9533 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.freecodecamp.org/news/serverless-is-cheaper-not-simpler-a10c4fc30e49 |
-| 9534 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.theregister.com/software/2020/09/22/microservices-guru-says-think-serverless-not-kubernetes-you-dont-want-to-manage-a-towering-edifice-of-stuff/353334 |
-| 9535 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.serverless.com/blog/why-we-switched-from-docker-to-serverless |
-| 9536 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/blog/2020/11/26/event-driven-distributed-service-orchestration-with-serverless-workflow |
-| 9537 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.google.com/document/u/0/d/1VEkUvTbqxfC1XyVGb2Z3DtEk9NA1M6PJpeCqEYRATLM/mobilebasic |
-| 9538 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/kubernetes-serverless-simply-visually-explained-ccf7be05a689 |
-| 9539 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.readysetcloud.io/blog/allen.helton/how-to-design-serverless-apps-that-scale-the-perfect-amount |
-| 9540 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.c-sharpcorner.com/article/why-and-when-to-use-azure-functions |
-| 9541 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.sls.guru/blog/enterprise-serverless-adoption |
-| 9542 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://serverlessland.com/event-driven-architecture |
-| 9543 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://architectelevator.com/cloud/serverless-design-patterns |
-| 9544 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://serverlessland.com/event-driven-architecture/visuals |
-| 9545 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://serverlessland.com/event-driven-architecture/visuals/batching-vs-event-streams |
-| 9546 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://serverlessland.com/event-driven-architecture/visuals/splitter-pattern |
-| 9547 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/aws-heroes/serverless-beyond-the-basics-kom |
-| 9548 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://theburningmonk.com/2019/09/why-you-should-use-temporary-stacks-when-you-do-serverless |
-| 9549 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://serverlesshorrors.com |
-| 9550 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://fathomtech.io/blog/microservices-vs-serverless |
-| 9551 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.cloudnowtech.com/blog/kubernetes-vs-serverless-how-do-you-choose |
-| 9552 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://economictimes.indiatimes.com/tech/technology/thoughtworks-xconf-tech-talk-series-serverless-vs-kubernetes-when-deploying-microservices/articleshow/89085544.cms |
-| 9553 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.pluralsight.com/resources/blog/cloud/containers-vs-serverless-which-is-right-for-you |
-| 9554 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/serverless-vs-kubernetes-the-peoples-vote |
-| 9555 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dashbird.io/blog/serverless-case-study-coca-cola |
-| 9556 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/how-daily-dev-built-a-low-budget-serverless-scraping-pipeline-for-online-articles |
-| 9557 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/topics/cloud-native-apps/what-is-faas |
-| 9558 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://stackify.com/function-as-a-service-serverless-architecture |
-| 9559 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/pmbanugo/faas-on-kubernetes-from-aws-lambda-api-gateway-to-knative-kong-api-gateway-4n84 |
-| 9560 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://techbeacon.com/enterprise-it/essential-guide-2019-serverless-ecosystem |
-| 9561 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.vshn.ch/en/blog/a-very-quick-comparison-of-kubernetes-serverless-frameworks |
-| 9562 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/d1020/price-comparison-of-popular-serverless-architecture-providers-2jk9 |
-| 9563 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.serverless.com |
-| 9564 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://winder.ai/a-comparison-of-serverless-frameworks-for-kubernetes-openfaas-openwhisk-fission-kubeless-and-more |
-| 9565 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.openfaas.com |
-| 9566 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/deploy-your-first-serverless-function-to-kubernetes-232307f7b0a9 |
-| 9567 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.xenonstack.com/blog/serverless-open-faas-java |
-| 9568 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.openfaas.com/blog/kim |
-| 9569 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/OpenFunction/OpenFunction |
-| 9570 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://knative.dev |
-| 9571 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/knative/client |
-| 9572 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/technologies/cloud-computing/openshift/serverless |
-| 9573 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/blog/2020/04/24/build-and-deploy-a-serverless-app-with-camel-k-and-red-hat-openshift-serverless-1-5-0-tech-preview |
-| 9574 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/why-and-when-you-need-to-consider-openshift-serverless |
-| 9575 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://redhat-scholars.github.io/serverless-workflow/osl/index.html |
-| 9576 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://openwhisk.apache.org |
-| 9577 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.infoworld.com/article/2261795/building-microservices-give-dapr-a-try.html |
-| 9578 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://versusmind.eu/dapr-a-serverless-runtime-for-distributed-applications |
-| 9579 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/articles/2021/08/12/build-and-deploy-microservices-kubernetes-and-dapr |
-| 9580 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/cvitaa11/running-dapr-on-kubernetes-89g |
-| 9581 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/diagrid-labs/dapr-workflow-demos |
-| 9582 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/build-a-serverless-api-with-aws-gateway-and-lambda |
-| 9583 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/triggermesh-open-sourcing-event-driven-applications |
-| 9584 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.infoq.com/articles/service-mesh-ultimate-guide |
-| 9585 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://thenewstack.io/service-mesh-adds-security-observability-and-traffic-control-to-kubernetes |
-| 9586 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://lucperkins.dev/blog/service-mesh-use-cases |
-| 9587 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://thenewstack.io/zero-trust-security-with-service-mesh |
-| 9588 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.redhat.com/en/blog/introducing-openshift-service-mesh-2.0 |
-| 9589 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://thenewstack.io/offloading-authentication-and-authorization-from-application-code-to-a-service-mesh |
-| 9590 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://thenewstack.io/how-service-mesh-can-help-devops-achieve-business-goals |
-| 9591 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://thenewstack.io/mutual-tls-microservices-encryption-for-service-mesh |
-| 9592 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.cloudops.com/blog/comparing-service-meshes-istio-linkerd-and-consul-connect-citrix-adc |
-| 9593 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://opensource.com/article/21/3/service-mesh |
-| 9594 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://cloudnativenow.com/features/when-is-service-mesh-worth-it |
-| 9595 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://thenewstack.io/service-meshes-in-the-cloud-native-world |
-| 9596 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.koyeb.com/blog/service-mesh-and-microservices-improving-network-management-and-observability |
-| 9597 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://thenewstack.io/accelerate-kubernetes-adoption-with-a-service-mesh |
-| 9598 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://layer5.io/service-mesh-landscape |
-| 9599 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://thenewstack.io/secure-your-service-mesh-a-13-item-checklist |
-| 9600 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.infoq.com/articles/cloud-native-architecture-adoption-part3 |
-| 9601 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://itnext.io/stupid-simple-service-mesh-what-when-why-e9be9e5f4d41 |
-| 9602 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://thenewstack.io/the-hidden-costs-of-service-meshes |
-| 9603 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.learnsteps.com/what-is-a-service-mesh-is-it-born-with-kubernetes |
-| 9604 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.infoq.com/presentations/adopting-service-mesh |
-| 9605 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://devops.com/how-are-api-management-and-service-mesh-different |
-| 9606 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://devops.com/when-to-use-api-management-and-service-mesh-together |
-| 9607 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.infoq.com/presentations/5-challenges-mesh |
-| 9608 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.infoq.com/presentations/service-mesh-ebpf |
-| 9609 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.medianova.com/service-mesh-vs-api-gateway |
-| 9610 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://meshery.io |
-| 9611 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://itnext.io/service-mesh-testing-tools-frameworks-open-source-7904ee222298 |
-| 9612 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://developer.hashicorp.com/consul |
-| 9613 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://developer.hashicorp.com/consul/tutorials/archive/kubernetes-consul-design-patterns |
-| 9614 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://fabiolb.net |
-| 9615 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://developer.hashicorp.com/consul/docs/connect |
-| 9616 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://linkerd.io |
-| 9617 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://linkerd.io/2020/06/09/announcing-linkerd-2.8/index.html |
-| 9618 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://thenewstack.io/linkerd-2-0-the-service-mesh-for-service-owners-platform-architects-sres |
-| 9619 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://linkerd.io/2.10/tasks/multicluster/index.html |
-| 9620 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://linkerd.io/2021/05/27/linkerd-vs-istio-benchmarks/index.html |
-| 9621 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://linkerd.io/2021/07/28/announcing-cncf-graduation/index.html |
-| 9622 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://cloudnativenow.com/features/linkerds-cncf-graduation-due-to-its-simplicity |
-| 9623 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://itnext.io/a-practical-guide-for-linkerd-authorization-policies-6cfdb50392e9 |
-| 9624 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://linkerd.io/2021/11/29/linkerd-vs-istio-benchmarks-2021/index.html |
-| 9625 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.buoyant.io/blog/locking-down-network-traffic-between-kubernetes-namespaces |
-| 9626 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://linkerd.io/2022/03/09/announcing-automated-multi-cluster-failover-for-kubernetes/index.html |
-| 9627 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://thenewstack.io/is-linkerd-winning-the-service-mesh-race |
-| 9628 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.buoyant.io/service-mesh-academy/upgrading-to-linkerd-2-12 |
-| 9629 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://dev.to/thenjdevopsguy/linkerd-and-gitops-115a |
-| 9630 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.buoyant.io/blog/multi-cluster-multi-region-setup-using-linkerd-service-mesh |
-| 9631 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://traefik.io/traefik-mesh |
-| 9632 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://docs.cloud.google.com/service-mesh/docs |
-| 9633 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://thenewstack.io/google-traffic-director-and-the-l7-internal-load-balancer-intermingles-cloud-native-and-legacy-workloads |
-| 9634 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.infoq.com/news/2019/04/google-traffic-director |
-| 9635 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://cloud.google.com/blog/products/networking/traffic-director-supports-proxyless-grpc |
-| 9636 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://docs.cloud.google.com/load-balancing/docs/l7-internal |
-| 9637 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://blog.envoyproxy.io/examining-load-balancing-algorithms-with-envoy-1be643ea121c |
-| 9638 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.solo.io/blog/why-the-control-plane-matters |
-| 9639 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.envoyproxy.io/docs/envoy/latest/api-docs/xds_protocol |
-| 9640 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://openservicemesh.io |
-| 9641 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://developers.redhat.com/blog/2020/06/30/kourier-a-lightweight-knative-serving-ingress |
-| 9642 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://stackoverflow.blog/2021/03/08/infrastructure-as-code-create-and-configure-infrastructure-elements-in-seconds |
-| 9643 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.invensislearning.com/blog/infrastructure-as-a-code-tutorial |
-| 9644 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.stickyminds.com/?utm_source=d7ac |
-| 9645 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/pull-push-provisioning-cicd |
-| 9646 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://itnext.io/platform-as-code-how-it-compares-with-infrastructure-as-code-and-what-it-enables-2684b348be2e |
-| 9647 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://thenewstack.io/iac-cloud-misconfiguration-tools-too-noisy-without-context |
-| 9648 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.freecodecamp.org/news/what-is-infrastructure-as-code |
-| 9649 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://alpacked.io/blog/infrastructure-as-code-for-devops |
-| 9650 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://devops.com/updating-and-managing-infrastructure-as-code-iac |
-| 9651 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://thenewstack.io/guis-cli-apis-learn-basic-terms-of-infrastructure-as-code |
-| 9652 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://thenewstack.io/infrastructure-as-code-increase-security-scale-development |
-| 9653 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://thenewstack.io/struggling-with-it-staff-leaving-try-infrastructure-as-code |
-| 9654 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://devopscube.com/immutable-infrastructure |
-| 9655 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://thenewstack.io/infrastructure-as-code-or-cloud-platforms-you-decide |
-| 9656 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.infoworld.com/article/2338245/5-priorities-that-cut-cloud-costs-and-improve-it-ops.html |
-| 9657 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://spacelift.io/blog/infrastructure-as-code-with-generic-ci-cd |
-| 9658 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://mattrickard.com/infrastructure-as-code-will-be-written-by-ai |
-| 9659 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://thenewstack.io/achieve-gitops-on-day-one-with-iac-automation |
-| 9660 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://build5nines.com/benefits-of-convention-over-configuration-for-iac-deployment-projects |
-| 9661 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://thenewstack.io/local-environment-as-code-is-it-possible-yet |
-| 9662 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.clickittech.com/devops/infrastructure-as-code-tools |
-| 9663 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://intellipaat.com/blog/terraform-vs-ansible-difference |
-| 9664 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.clickittech.com/devops/terraform-vs-cloudformation |
-| 9665 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://k21academy.com/devops/terraform-vs-ansible |
-| 9666 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://techcommunity.microsoft.com/blog/itopstalkblog/infrastructure-as-code-iac-comparing-the-tools/3205045 |
-| 9667 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://spacelift.io/blog/ansible-vs-terraform |
-| 9668 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.env0.com/blog/ansible-vs-terraform-when-to-choose-one-or-use-them-together |
-| 9669 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://awstrainingwithjagan.com/infrastructure-as-code-tool-comparison |
-| 9670 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/Checkmarx/kics |
-| 9671 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/gofireflyio/aiac |
-| 9672 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.youtube.com/watch?v=--RRpw_6onA |
-| 9673 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://prometheus.io |
-| 9674 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/prometheus/prometheus |
-| 9675 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://opensource.com/article/19/11/introduction-monitoring-prometheus |
-| 9676 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://opensource.com/article/18/3/how-use-ansible-set-system-monitoring-prometheus |
-| 9677 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://prometheus.io/docs/instrumenting/writing_exporters |
-| 9678 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://prometheus.io/docs/instrumenting/clientlibs |
-| 9679 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/prometheus/pushgateway |
-| 9680 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://prometheus.io/docs/instrumenting/exporters |
-| 9681 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://samirbehara.com/2019/05/30/cloud-native-monitoring-with-prometheus |
-| 9682 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/prometheus-yet-another-cloudwatch-exporter-collecting-aws-cloudwatch-metrics-806bd34818a8 |
-| 9683 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://containerjournal-com.cdn.ampproject.org/c/s/containerjournal.com/topics/container-ecosystems/prometheus-monitoring-ecosystem-begins-to-mature/amp |
-| 9684 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://ganeshvernekar.com/blog/prometheus-tsdb-the-head-block |
-| 9685 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://ganeshvernekar.com/blog/prometheus-tsdb-wal-and-checkpoint |
-| 9686 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://ganeshvernekar.com/blog/prometheus-tsdb-mmapping-head-chunks-from-disk |
-| 9687 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://ganeshvernekar.com/blog/prometheus-tsdb-persistent-block-and-its-index |
-| 9688 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/playlist?list=PLVx1qovxj-anCTn6um3BDsoHnIr0O2tz3 |
-| 9689 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.devclass.com/containers/2021/01/07/safetyfirst-prometheus-224-finally-features-tls-on-http-serving-endpoints/1626636 |
-| 9690 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://sysadminxpert.com/steps-to-monitor-linux-server-using-prometheus |
-| 9691 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://zerodha.tech/blog/infra-monitoring-at-zerodha |
-| 9692 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://devopscube.com/setup-prometheus-monitoring-on-kubernetes |
-| 9693 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://prometheus-operator.dev |
-| 9694 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://gabrieltanner.org/blog/collecting-prometheus-metrics-in-golang |
-| 9695 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://promlens.com |
-| 9696 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.sysdig.com/blog/postgresql-monitoring |
-| 9697 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/observability-at-scale-52d0d9a5fb9b |
-| 9698 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.innoq.com/en/blog/2020/04/scraping-docker-swarm-service-instances-with-prometheus |
-| 9699 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://opensource.com/article/21/7/run-prometheus-home-container |
-| 9700 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.howtoforge.com/how-to-install-prometheus-on-ubuntu-20-04 |
-| 9701 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://cribl.io/blog/using-prometheus-for-agentless-monitoring |
-| 9702 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://aprenderbigdata.com/prometheus |
-| 9703 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=GL2v81xYuAQ&ab_channel=k6 |
-| 9704 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.sysdig.com/blog/redis-prometheus |
-| 9705 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://jfrog.com/blog/dont-let-prometheus-steal-your-fire |
-| 9706 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/monitoring-spark-streaming-on-k8s-with-prometheus-and-grafana-e6d8720c4a02 |
-| 9707 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://source.coveo.com/2021/11/11/prometheus-at-scale |
-| 9708 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://prometheus.io/docs/introduction/comparison |
-| 9709 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.infracloud.io/blogs/prometheus-architecture-metrics-use-cases |
-| 9710 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.sysdig.com/blog |
-| 9711 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://dev.to/eckelon/how-to-monitor-nginx-in-kubernetes-with-prometheus-j5f |
-| 9712 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://promlabs.com/blog/2022/12/11/avoid-these-6-mistakes-when-getting-started-with-prometheus |
-| 9713 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/hardening-monitoring-a-step-by-step-guide-7a18007c915 |
-| 9714 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://rtfm.co.ua/en/prometheus-kubernetes-endpoints-monitoring-with-blackbox-exporter |
-| 9715 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/30-pull-requests-later-prometheus-memory-use-is-cut-in-half |
-| 9716 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://grafana.com/blog/2021/01/08/get-started-with-prometheus-with-these-three-easy-projects |
-| 9717 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.fosstechnix.com/install-prometheus-and-grafana-on-ubuntu-24-04 |
-| 9718 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/prometheus/alertmanager/releases/tag/v0.23.0-rc.0 |
-| 9719 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://prometheus.io/blog/2021/11/16/agent |
-| 9720 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://grafana.com/blog/2021/11/16/why-we-created-a-prometheus-agent-mode-from-the-grafana-agent |
-| 9721 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/cncf-prometheus-agent-could-be-a-game-changer-for-edge |
-| 9722 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/line/promgen |
-| 9723 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/slok/sloth |
-| 9724 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/slos-should-be-easy-say-hi-to-sloth-9c8a225df0d4 |
-| 9725 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/metalmatze/slo-libsonnet |
-| 9726 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/google/prometheus-slo-burn-example |
-| 9727 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/google/slo-generator |
-| 9728 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://prometheus.io/docs/prometheus/latest/storage |
-| 9729 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://cortexmetrics.io |
-| 9730 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/cortexproject/cortex |
-| 9731 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thanos.io |
-| 9732 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/ruanbekker/thanos-cluster-setup |
-| 9733 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://blog.yugabyte.com/highly-available-prometheus-metrics-for-distributed-sql-with-thanos-on-gke |
-| 9734 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://m3db.io |
-| 9735 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.influxdata.com/blog/building-a-metrics-alerts-as-a-service-maas-monitoring-solution-using-the-influxdb-stack |
-| 9736 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/make-a-gitops-workflow-using-influxdb-templates |
-| 9737 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.influxdata.com/blog/running-influxdb-2-0-and-telegraf-using-docker |
-| 9738 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.influxdata.com/blog/tldr-influxdb-tech-tips-api-invokable-scripts-influxdb-cloud |
-| 9739 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://exporterhub.io |
-| 9740 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/prometheus/jmx_exporter |
-| 9741 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/prometheus/blackbox_exporter |
-| 9742 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/deckhouse/k8s-image-availability-exporter |
-| 9743 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://engineeringblog.yelp.com/2020/10/improving-the-performance-of-the-prometheus-jmx-exporter.html |
-| 9744 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.sysdig.com/blog/monitor-oracle-database-prometheus |
-| 9745 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/prometheus-community/yet-another-cloudwatch-exporter |
-| 9746 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/prometheus-community/elasticsearch_exporter |
-| 9747 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/muxinc/certificate-expiry-monitor |
-| 9748 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/enix/x509-certificate-exporter |
-| 9749 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://aws.amazon.com/blogs/opensource/building-a-prometheus-remote-write-exporter-for-the-opentelemetry-go-sdk |
-| 9750 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/open-telemetry/opentelemetry-collector |
-| 9751 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/lightsteps-opentelemetry-launchers-simplify-integration-to-line-of-code |
-| 9752 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/search?q=org%3Alightstep+launcher |
-| 9753 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/demystifying-distributed-traces-in-opentelemetry |
-| 9754 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://newrelic.com/blog/apm/java-opentelemetry |
-| 9755 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/maximizing-kubernetes-efficiency-with-opentelemetry-tracing |
-| 9756 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.influxdata.com/time-series-platform/telegraf |
-| 9757 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/influxdata/telegraf/tree/master/plugins/outputs/prometheus_client |
-| 9758 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/rossmcdonald/telegraf |
-| 9759 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://grafana.com/grafana/dashboards/?collector=Telegraf |
-| 9760 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://grafana.com/blog/2021/04/05/using-telegraf-plugins-to-visualize-industrial-iot-data-with-the-grafana-cloud-hosted-prometheus-service |
-| 9761 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://sysadminxpert.com/monitor-linux-system-with-grafana-and-telegraf |
-| 9762 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.influxdata.com/blog/three-ways-to-keep-cardinality-under-control-when-using-telegraf |
-| 9763 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | http://micrometer.io |
-| 9764 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://cloud.google.com/blog/products/operations/introducing-google-cloud-managed-service-for-prometheus |
-| 9765 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://prometheus.io/docs/prometheus/latest/installation |
-| 9766 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://prometheus.io/docs/prometheus/latest/getting_started |
-| 9767 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://galaxy.ansible.com/cloudalchemy/node-exporter |
-| 9768 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/idealista/prometheus_jmx_exporter_role |
-| 9769 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://galaxy.ansible.com/mesaguy/prometheus |
-| 9770 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://galaxy.ansible.com/William-Yeh/prometheus |
-| 9771 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://galaxy.ansible.com/UnderGreen/prometheus-node-exporter |
-| 9772 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/prometheus-with-grafana-using-ansible-549e575c9dfa |
-| 9773 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://activemq.apache.org/components/classic/documentation |
-| 9774 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/rh-messaging/artemis-prometheus-metrics-plugin |
-| 9775 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://artemis.apache.org/components/artemis/documentation/latest/using-server.html |
-| 9776 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://promitor.io |
-| 9777 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://docs.cloud.google.com/stackdriver/docs/managed-prometheus |
-| 9778 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://cloud.google.com/blog/products/devops-sre/easy-managed-prometheus-metrics-service-for-kubernetes |
-| 9779 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/blog/2018/06/28/why-kubernetes-is-the-new-application-server |
-| 9780 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/topics/microservices/why-choose-red-hat-microservices |
-| 9781 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://changelog.com/posts/monoliths-are-the-future |
-| 9782 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.allthingsdistributed.com/2023/05/monoliths-are-not-dinosaurs.html |
-| 9783 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/operators-and-sidecars-are-the-new-model-for-software-delivery |
-| 9784 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://devm.io/kubernetes/kubernetes-practical-implications-171647 |
-| 9785 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://devm.io/kubernetes/kubernetes-extensions-172215 |
-| 9786 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.thoughtworks.com/radar/platforms/kubernetes |
-| 9787 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.addwebsolution.com/blog/how-kubernetes-helps-businesses-manage-their-it-infrastructure |
-| 9788 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://loves.cloud/kubernetes-an-introduction |
-| 9789 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/microservices/microservices-vs-monoliths-an-operational-comparison |
-| 9790 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.ituser.es/opinion/2020/07/las-principales-habilidades-que-un-arquitecto-cloud-necesita-para-triunfar |
-| 9791 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.techtarget.com/searchcloudcomputing/feature/Modernize-legacy-applications-with-containers-microservices |
-| 9792 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.heroku.com/blog/monolithic-applications-into-services |
-| 9793 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://blogs.vmware.com/vov/2018/08/06/how-to-deconstruct-a-monolith-using-microservices-getting-ready-for-cloud-native |
-| 9794 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/7-best-practices-to-build-and-maintain-resilient-applications-and-infrastructure |
-| 9795 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.viewnext.com/front-end-vs-back-end |
-| 9796 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/what-is-the-modern-cloud-native-stack |
-| 9797 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.lavanguardia.com/economia/20201014/484036217179/transformacion-digital-empresas-foncillas-pf-video-seo-lv.html |
-| 9798 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://devops.com/6-advantages-of-microservices |
-| 9799 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://cloudpundit.com/2020/09/22/dont-boil-the-ocean-to-create-your-cloud |
-| 9800 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.hcltech.com/blogs/devops-tools-and-technologies-manage-microservices |
-| 9801 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/containerizing-applications |
-| 9802 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://opensource.com/article/20/12/containers-101 |
-| 9803 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://devops.com/why-boring-tech-is-best-to-avoid-a-microservices-mess |
-| 9804 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://softwareengineeringdaily.com/2020/12/29/kubernetes-vs-serverless-with-matt-ward-repeat |
-| 9805 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/cloud-native/3-reasons-why-you-cant-afford-to-ignore-cloud-native-computing |
-| 9806 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/defining-a-different-kubernetes-user-interface-for-the-next-decade |
-| 9807 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/react-in-real-time-with-event-driven-apis |
-| 9808 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://codeopinion.com/splitting-up-a-monolith-into-microservices |
-| 9809 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://javarevisited.blogspot.com/2020/11/why-devops-engineer-learn-docker-kubernetes.html |
-| 9810 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://enterprisersproject.com/article/2021/1/5-hybrid-cloud-trends-2021 |
-| 9811 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://devm.io/kubernetes/kubernetes-bigger-173675 |
-| 9812 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/study-silos-are-chief-impediment-to-it-and-business-value |
-| 9813 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/prepare-to-adopt-the-cloud-a-10-step-cloud-migration-checklist |
-| 9814 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.devprojournal.com/technology-trends/kubernetes/containers-kubernetes-and-software-development-in-2021 |
-| 9815 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.infoq.com/articles/migrating-monoliths-to-microservices-with-decomposition |
-| 9816 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.cortex.io/post/why-you-need-a-microservices-catalog-tool |
-| 9817 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://shopify.engineering/faster-shopify-ci |
-| 9818 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.infoq.com/articles/saga-orchestration-outbox |
-| 9819 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://blog.container-solutions.com/how-mature-is-your-microservices-architecture |
-| 9820 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.techerati.com/features-hub/opinions/microservices-in-the-cloud-native-era |
-| 9821 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/cloud-native/the-cloud-native-landscape-platforms-explained |
-| 9822 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/google-and-oracle-cloud-adoption-doubles-among-enterprises-3 |
-| 9823 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/multicloud-challenges-and-solutions |
-| 9824 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.makeuseof.com/kubernetes-or-docker |
-| 9825 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.infoworld.com/article/2264177/the-decline-of-heroku.html |
-| 9826 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.infoq.com/articles/microservices-design-ideals |
-| 9827 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/the-scalability-myth |
-| 9828 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/the-4-definitions-of-multicloud-part-1-data-portability |
-| 9829 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/multicloud-paves-the-way-for-cloud-native-resiliency-models |
-| 9830 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.infoworld.com/article/2264771/3-cloud-architecture-mistakes-we-all-make-but-shouldnt.html |
-| 9831 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/private-vs-public-cloud-how-kubernetes-shifts-the-balance |
-| 9832 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.simform.com/blog/multi-cloud-strategy |
-| 9833 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.xataka.com/pro/deuda-tecnica-lastre-para-tecnologicas-estudio-senala-que-informaticos-pierden-casi-dia-trabajo-a-semana-para-solventarlas |
-| 9834 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://dev.to/typeable/when-it-pays-to-choose-microservices-12h5 |
-| 9835 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.pluralsight.com/resources/blog/business-and-leadership/public-cloud-vs-private-cloud-whats-the-difference |
-| 9836 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/microservices/the-future-of-microservices-more-abstractions |
-| 9837 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/transform-and-future-proof-your-architecture-with-mach |
-| 9838 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://yellow.systems/blog/how-to-build-a-scalable-web-application |
-| 9839 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://opensource.com/article/21/7/system-administrators |
-| 9840 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/cloud-engineers-try-policy-as-code-to-cure-misconfiguration-woes |
-| 9841 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.simform.com/blog/multi-cloud-architecture |
-| 9842 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.simform.com/cloud-migration-ebook |
-| 9843 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.dynatrace.com/news/blog/what-are-microservices |
-| 9844 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/reasons-to-opt-for-a-multicloud-strategy |
-| 9845 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://community.hpe.com/hpeb/plugins/custom/hp/hpebresponsive/custom.bounce_endpoint?referer=https%3A%2F%2Fcommunity.hpe.com%2Ft5%2FHPE-Ezmeral-Uncut%2FContainers-vs-VMs-What-s-the-difference%2Fba-p%2F7147090 |
-| 9846 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.geeksforgeeks.org/blogs/microservice-architecture-introduction-challenges-best-practices |
-| 9847 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/automation-combat-increased-workload |
-| 9848 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/intention-as-code-making-self-healing-infrastructure-work |
-| 9849 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://hackernoon.com/9-basic-and-crucial-tips-for-microservices-developers |
-| 9850 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/how-to-modernize-virtualized-workloads |
-| 9851 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.enter.co/especiales/dev/herramientas-dev/estos-son-los-10-lenguajes-de-programacion-mas-populares-en-2021 |
-| 9852 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://zesty.co/blog/10-cloud-deficiencies |
-| 9853 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.theregister.com/software/2021/12/21/how-kubernetes-lowers-costs-and-automates-it-department-work/1316708 |
-| 9854 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/best-microservices-2021 |
-| 9855 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.infoworld.com/article/2271482/kubernetes-up-serverless-down-report.html |
-| 9856 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/5-cloud-native-trends-to-watch-out-for-in-2022 |
-| 9857 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.infoq.com/presentations/fail-cloud-native-migration |
-| 9858 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/app-modernization-5-tips-when-migrating-to-kubernetes |
-| 9859 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/kubernetes-and-the-next-generation-of-paas |
-| 9860 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://nathanpeck.com/why-should-use-container-orchestration |
-| 9861 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://christophermeiklejohn.com/filibuster/2022/03/19/understanding-faults.html |
-| 9862 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.websiteplanet.com/blog/what-is-open-source-software/?geo=us&device=desktop |
-| 9863 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.eficode.com/blog/the-future-of-kubernetes-and-why-developers-should-look-beyond-kubernetes-in-2022 |
-| 9864 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://bytebytego.com/courses/system-design-interview/scale-from-zero-to-millions-of-users |
-| 9865 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://semaphore.io/blog/deploy-microservices |
-| 9866 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.howtogeek.com/devops/when-not-to-use-docker-cases-where-containers-dont-help |
-| 9867 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/you-dont-need-microservices-2ad8508b9e27 |
-| 9868 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.alibabacloud.com/blog/getting-started-with-kubernetes-%7C-deep-dive-into-kubernetes-core-concepts_595896 |
-| 9869 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.micahlerner.com/2022/07/24/automatic-reliability-testing-for-cluster-management-controllers.html |
-| 9870 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://towardsdatascience.com/3-high-availability-cloud-concepts-you-should-know-93f3bab2cb4a |
-| 9871 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.optisolbusiness.com/insight/8-core-components-of-microservice-architecture |
-| 9872 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/microservices/what-is-microservices-architecture |
-| 9873 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.deloitte.com/de/de/services/consulting/services/center-of-excellence-application-modernization.html |
-| 9874 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://redis.io/blog/microservice-architecture-key-concepts |
-| 9875 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.designgurus.io/blog/monolithic-service-oriented-microservice-architecture |
-| 9876 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/kubernetes-evolution-from-microservices-to-batch-processing-powerhouse |
-| 9877 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.elespanol.com/invertia/disruptores/grandes-actores/tecnologicas/20230416/mainframe-repaso-pasado-futuro-tecnologia-resiste-morir/756174490_0.html |
-| 9878 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://devops.com/8-hot-takes-will-we-see-a-monolithic-renaissance |
-| 9879 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.infoworld.com/article/2335001/why-we-need-both-cloud-architects-and-cloud-engineers.html |
-| 9880 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.enriquedans.com/2023/12/el-desastre-del-software-y-la-automocion.html |
-| 9881 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.freecodecamp.org/news/how-to-write-clean-code |
-| 9882 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.theregister.com/off-prem/2023/01/16/basecamp-details-32-million-bill-that-saw-it-quit-cloud/270397 |
-| 9883 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.thestack.technology/vmware-is-killing-off-56-products-including-vsphere-hypervisor-and-nsx |
-| 9884 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.welivesecurity.com/es/recursos-herramientas/ofuscacion-de-codigo-arte-ciberseguridad |
-| 9885 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.virtualizationhowto.com/2024/02/vmware-by-broadcom-lesson-dont-base-your-career-on-a-product |
-| 9886 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.cope.es/programas/la-linterna/noticias/ejemplo-moneda-con-que-entender-como-funciona-ordenador-cuantico-una-revolucion-20240407_3232557 |
-| 9887 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://paulbutler.org/2024/the-haters-guide-to-kubernetes |
-| 9888 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.genbeta.com/desarrollo/cinco-repositorios-github-buenos-que-imprescindibles-estas-aprendiendo-te-dedicas-a-programar-1 |
-| 9889 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://humanitec.com/reference-architectures/azure |
-| 9890 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://humanitec.com/reference-architectures |
-| 9891 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://humanitec.com/reference-architectures/aws |
-| 9892 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | http://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle |
-| 9893 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://traefik.io/blog/pets-vs-cattle-the-future-of-kubernetes-in-2022 |
-| 9894 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.kurrent.io/blog/service-oriented-architecture-vs-event-driven-architecture |
-| 9895 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://stackoverflow.blog/2021/05/19/rethinking-system-architecture-can-kubernetes-help-to-solve-rewrite-anxiety |
-| 9896 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.infoq.com/articles/managing-technical-debt-microservices |
-| 9897 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://leaddev.com/technical-direction/how-break-cycle-tech-debt |
-| 9898 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://devops.com/measuring-technical-debt |
-| 9899 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/stop-technical-debt-before-it-damages-your-company |
-| 9900 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.n-ix.com/reduce-technical-debt |
-| 9901 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.infoworld.com/article/2338860/you-cant-run-away-from-technical-debt.html |
-| 9902 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.pluralsight.com/resources/blog/cloud/twelve-factor-apps-in-kubernetes |
-| 9903 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://opensource.com/article/21/11/open-source-12-factor-app-methodology |
-| 9904 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/learn-12-factor-apps-before-kubernetes |
-| 9905 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/12-factor-microservice-applications-on-kubernetes-db913008b018 |
-| 9906 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/isolating-and-managing-dependencies-in-12-factor-microservice-applications-with-kubernetes-988638f8bc6d |
-| 9907 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/processes-for-12-factor-microservice-applications-70551a9021b |
-| 9908 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://architecturenotes.co/p/12-factor-app-revisited |
-| 9909 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://martinfowler.com/articles/201701-event-driven.html |
-| 9910 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.equalexperts.com/blog/tech-focus/event-driven-architecture-the-good-the-bad-and-the-ugly |
-| 9911 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://nordicapis.com/5-protocols-for-event-driven-api-architectures |
-| 9912 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://dev.to/aws-builders/un-modelo-de-eda-event-driven-architectures-4d9f |
-| 9913 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://aws.amazon.com/blogs/architecture/best-practices-for-implementing-event-driven-architectures-in-your-organization |
-| 9914 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/architecture-decision-records |
-| 9915 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/what-we-learned-from-enabling-developer-self-service |
-| 9916 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/disaster-recovery-is-different-for-the-cloud |
-| 9917 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.bunnyshell.com/blog/disaster-recovery-devops |
-| 9918 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.scaleway.com/en/blog/saas-multi-tenant-vs-multi-instance-architectures |
-| 9919 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.pluralsight.com/resources/blog/business-and-leadership/sharing-data-in-the-cloud-four-patterns-everyone-should-know |
-| 9920 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://architectelevator.com/cloud/hybrid-multi-cloud |
-| 9921 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.softwebsolutions.com/resources/multi-cloud-adoption-strategy |
-| 9922 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/hybrid-cloud-management-tools |
-| 9923 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://devops.com/infrastructure-abstraction-will-be-key-to-managing-multi-cloud |
-| 9924 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.zdnet.com/article/the-year-ahead-in-devops-and-agile-more-automation-more-business-involvement-needed |
-| 9925 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/what-is-cloud-automation-and-how-does-it-benefit-it-teams |
-| 9926 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.zdnet.com/article/when-microservices-need-event-driven-architecture |
-| 9927 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.simform.com/blog/microservice-best-practices |
-| 9928 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/monoliths-to-microservices-4-modernization-best-practices-2 |
-| 9929 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/4-container-design-patterns-for-kubernetes-a8593028b4cd |
-| 9930 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://blog.getambassador.io/microservice-orchestration-best-practices-f32314dd6a12 |
-| 9931 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://capstonec.com/2020/10/08/cloud-native-app-architecture-patterns |
-| 9932 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/articles/2021/06/14/application-modernization-patterns-apache-kafka-debezium-and-kubernetes |
-| 9933 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.dotnetcurry.com/microsoft-azure/microservices-architecture |
-| 9934 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://geeksarray.com/blog/microservice-architecture-pattern-for-architects |
-| 9935 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/articles/2022/01/11/5-design-principles-microservices |
-| 9936 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.simform.com/blog/microservices-design-principles |
-| 9937 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://javarevisited.blogspot.com/2021/09/microservices-design-patterns-principles.html |
-| 9938 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://blog.bitsrc.io/implementing-microservices-with-cqrs-2cecb0b09c66 |
-| 9939 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://semaphore.io/blog/microfrontends |
-| 9940 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://aws.amazon.com/blogs/compute/server-side-rendering-micro-frontends-ui-composer-and-service-discovery |
-| 9941 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.soundcloud.com/blog/service-architecture-1 |
-| 9942 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://cookbook.learndataengineering.com/docs/05-CaseStudies/#data-science-at-CERN |
-| 9943 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.forbes.com/sites/googlecloud/2021/10/27/3-approaches-to-a-better-cloud-migration |
-| 9944 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.pluralsight.com/resources/blog/cloud/3-ways-to-practice-migrating-workloads-to-the-cloud |
-| 9945 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://blog.pragmaticengineer.com/typical-migration-approaches |
-| 9946 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://world.hey.com/joaoqalves/disasters-i-ve-seen-in-a-microservices-world-a9137a51 |
-| 9947 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.infoq.com/articles/microservices-seven-fail |
-| 9948 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.simform.com/blog/microservices-framework |
-| 9949 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://devops.com/transform-legacy-java-apps-to-microservices |
-| 9950 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://devops.com/vfunction-automates-conversion-of-java-apps-to-microservices |
-| 9951 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://blog.appsignal.com/2021/01/06/microservices-monitoring-using-namespaces-for-data-structuring.html |
-| 9952 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/from-sysadmin-to-architect |
-| 9953 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://raft.github.io |
-| 9954 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.kamilgrzybek.com/blog/posts/modular-monolith-primer |
-| 9955 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://akka.io |
-| 9956 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.harness.io/products/service-reliability-management |
-| 9957 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.aboutamazon.com/what-we-do/entertainment |
-| 9958 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://techerati.com/the-stack-archive/cloud/2018/10/18/openshift-in-a-world-of-kaas |
-| 9959 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.spec-india.com/blog |
-| 9960 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://phoenixnap.com/blog/openshift-vs-kubernetes |
-| 9961 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.ibm.com/think/topics/openshift-vs-kubernetes |
-| 9962 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.simplilearn.com/kubernetes-vs-openshift-article |
-| 9963 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.imaginarycloud.com/blog/openshift-vs-kubernetes-differences |
-| 9964 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/kubernetes/whats-the-difference-between-kubernetes-and-openshift |
-| 9965 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.forbes.com/sites/adunolaadeshola/2021/04/28/13-signs-youre-selling-yourself-short-in-your-career |
-| 9966 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://dev.to/ender_minyard/full-stack-developer-s-roadmap-2k12 |
-| 9967 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://ubiqum.com/blog/20-software-development-tools-that-will-make-you-more-productive |
-| 9968 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://sloboda-studio.com/blog/python-tools-for-machine-learning |
-| 9969 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://vfunction.com |
-| 9970 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/vfunction-transforms-monolithic-java-to-microservices |
-| 9971 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://spectrum.ieee.org/software-eating-car |
-| 9972 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://cincodias.elpais.com/cincodias/2022/03/31/companias/1648738965_952353.html |
-| 9973 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://networkwalks.com/tcp-ip-model |
-| 9974 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://blog.coderco.io/p/tcp-fundamentals-for-software-and |
-| 9975 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://cidr.xyz |
-| 9976 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | http://magic-cookie.co.uk/iplist.html |
-| 9977 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://gist.github.com/chadmcrowell/f3fc3be2ca1fcb887034162c14d77e74 |
-| 9978 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://opensource.com/article/16/12/cidr-network-notation-configuration-linux |
-| 9979 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://pbxbook.com/other/cidrcheat.html |
-| 9980 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.aelius.com/njh/subnet_sheet.html |
-| 9981 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://networkproguide.com/cidr-subnet-mask-ipv4-cheat-sheet |
-| 9982 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.tecmint.com/calculate-ip-subnet-address-with-ipcalc-tool |
-| 9983 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://mattrickard.com/how-to-calculate-a-cidr |
-| 9984 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://build5nines.com/ipv4-address-cidr-range-reference-and-calculator |
-| 9985 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://github.com/netbox-community/netbox |
-| 9986 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://netboxlabs.com/blog/netbox-ipam |
-| 9987 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.youtube.com/playlist?list=PL7sEPiUbBLo_iTds-NV-9Tu05Gg2Aj8N7 |
-| 9988 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://docs.ansible.com/projects/ansible/latest/collections/netbox/netbox/index.html |
-| 9989 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://wizardzines.com/comics/request-headers |
-| 9990 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://wizardzines.com/comics/response-headers |
-| 9991 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | http://www.slideshare.net/AdelaRoger/http-status-code-errors-in-seo |
-| 9992 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://http.cat |
-| 9993 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.youtube.com/watch?v=WkLBrHW4NhQ |
-| 9994 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | http://blog.eisele.net/2015/11/http2-with-jboss-eap-7.html |
-| 9995 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.red-gate.com/simple-talk/development/dotnet-development/script-loading-between-http1-1-and-http2 |
-| 9996 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | http://www.tecmint.com/apache-performance-tuning |
-| 9997 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://http3-explained.haxx.se |
-| 9998 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://alexandrehtrb.github.io/posts/2024/03/http2-and-http3-explained |
-| 9999 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.fastly.com/blog/improve-http-structured-headers |
-| 10000 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://pypi.org/project/http-sfv |
-| 10001 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://media.pearsoncmg.com/aw/ecs_kurose_compnetwork_7/cw/content/interactiveanimations/recursive-iterative-queries-in-dns/index.html |
-| 10002 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://rapidapi.com/guides/oath2-0 |
-| 10003 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.freecodecamp.org/news/oauth2-resourceserver-with-spring-security |
-| 10004 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://swagger.io |
-| 10005 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://github.com/swagger-api/swagger-codegen |
-| 10006 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/watch?v=CoUl9_NWdqQ |
-| 10007 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/watch?v=PbwQWw7xSOM |
-| 10008 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://jonnylangefeld.com/blog/kubernetes-how-to-view-swagger-ui?utm_sq=gkuh13vgq3 |
-| 10009 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.facebook.com/pages/BMW-IT-Zentrum/122968844423716 |
-| 10010 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.bmw.co.uk/en/shop/ls/country-selection |
-| 10011 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/es/about/press-releases/red-hat-openshift-container-platform-takes-digital-innovation-fast-lane-major-european-automaker |
-| 10012 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.linkedin.com/pulse/bmw-takes-digital-innovation-fast-lane-red-hat-openshift-mendus |
-| 10013 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?time_continue=5340&v=FUu4kMc0PL8 |
-| 10014 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.linkedin.com/pulse/how-bmw-uses-redhat-openshift-bobby-singh |
-| 10015 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/success-stories/the-volkswagen-group |
-| 10016 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.xataka.com/movilidad/auge-coche-electrico-autonomo-se-ha-topado-otra-barrera-software-volkswagen-sabe-bien |
-| 10017 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.infoworld.com/article/2335723/why-mercedes-benz-runs-on-900-kubernetes-clusters.html |
-| 10018 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/mercedes-benz |
-| 10019 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.genbeta.com/desarrollo/software-coches-mercedes-contiene-codigo-abierto-vez-distribuirlo-github-usan-cd |
-| 10020 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=UmbjwSK9b3I |
-| 10021 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/mercedes-benz-4-reasons-to-sponsor-open-source-projects |
-| 10022 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.hibridosyelectricos.com/coches/tesla-recurre-china-calidad-fabricacion-coches-electricos_66230_102.html |
-| 10023 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.teslarati.com/idra-9000-ton-giga-press |
-| 10024 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://quarkus.io/blog/decathlon-user-story |
-| 10025 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/how-deutsche-telekom-manages-edge-infrastructure-with-gitops |
-| 10026 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://aws.amazon.com/blogs/industries/astrazenecas-drug-design-program-built-using-aws-wins-innovation-award |
-| 10027 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://chaimeleon.eu |
-| 10028 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://valenciaplaza.com/iis-fe-liderara-direccion-cientifica-nodo-central-atlas-imagenes-cancer |
-| 10029 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://aws.amazon.com/blogs/industries/accelerating-radiology-imaging-workflows-with-relevant-clinical-context-on-aws |
-| 10030 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.biobanking.com/europes-leading-cancer-image-biobank-eucaim-launched-by-quibim-and-european-commission |
-| 10031 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://health.google/imaging-and-diagnostics |
-| 10032 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.nature.com/articles/d43747-023-00028-w |
-| 10033 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://imperialbiosciencereview.wordpress.com/2023/05/26/redefining-diagnostics-the-integration-of-machine-learning-in-medical-imaging-2 |
-| 10034 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://hms.harvard.edu/news/does-ai-help-or-hurt-human-radiologists-performance-depends-doctor |
-| 10035 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://cronicaglobal.elespanol.com/vida/20240604/roberto-ardon-incepto-ia-pueden-pedir-imposibles/860164103_0.html |
-| 10036 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kubernetes-client |
-| 10037 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/k8s-ruby/k8s-ruby |
-| 10038 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kubernetes/client-go |
-| 10039 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://pkg.go.dev/k8s.io/client-go |
-| 10040 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://danielmangum.com/posts/controller-runtime-client-go-rate-limiting |
-| 10041 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kubernetes-client/go |
-| 10042 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/PrasadG193/kyaml2go |
-| 10043 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/writing-a-kubernetes-cli-in-go-a3970ad58299 |
-| 10044 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://iximiuz.com/en/posts/kubernetes-api-go-cli |
-| 10045 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kubernetes-client/python |
-| 10046 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kubernetes-client/python-base |
-| 10047 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://martinheinz.dev/blog/73 |
-| 10048 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/difference-between-fabric8-and-official-kubernetes-java-client-3e0a994fd4af |
-| 10049 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kubernetes-client/java |
-| 10050 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/blog/2020/10/30/whats-new-in-fabric8-kubernetes-java-client-4-12-0 |
-| 10051 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.marcnuri.com/kubernetes-client-java-fabric8-introduction |
-| 10052 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.marcnuri.com/fabric8-kubernetes-java-client-and-quarkus-and-graalvm |
-| 10053 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/articles/2023/01/24/how-generate-code-using-fabric8-kubernetes-client |
-| 10054 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/articles/2023/01/04/how-use-fabric8-java-client-kubernetes |
-| 10055 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.twstewart.me/posts/cdk8s-python |
-| 10056 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.marcnuri.com |
-| 10057 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/learn/openshift/how-manage-microservices-using-openshift-dev-spaces-and-jkube |
-| 10058 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://javaoperatorsdk.io |
-| 10059 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kruschecompany.com/wp-content/uploads/2020/01/kubernetes-operator.jpg |
-| 10060 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://devops.com/day-2-for-the-operator-ecosystem |
-| 10061 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/vmware-archive/kube-fluentd-operator |
-| 10062 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/shurshun/domain-harvester |
-| 10063 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/datastax/cass-operator |
-| 10064 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kotalco/kotal |
-| 10065 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/OT-CONTAINER-KIT/redis-operator |
-| 10066 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/carlosedp/lbconfig-operator |
-| 10067 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/jace-ys/sentry-operator |
-| 10068 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/kubernetes-when-to-use-and-when-to-avoid-the-operator-pattern |
-| 10069 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.infoq.com/articles/kubernetes-operators-in-depth |
-| 10070 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kloeckner-i/db-operator |
-| 10071 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.container-solutions.com/kubernetes-operators-explained |
-| 10072 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/Efrat19/kubeload |
-| 10073 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/alexellis/registry-creds |
-| 10074 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/FairwindsOps/gemini |
-| 10075 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/rmb938/hostport-allocator |
-| 10076 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://iximiuz.com/en/posts/kubernetes-operator-pattern |
-| 10077 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/GalleyBytes/terraform-operator |
-| 10078 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/didil/autobucket-operator |
-| 10079 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/is-your-operator-air-gap-friendly |
-| 10080 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kuberhealthy/kuberhealthy |
-| 10081 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/metal3-io/baremetal-operator |
-| 10082 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/borchero/meerkat |
-| 10083 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/OT-CONTAINER-KIT/logging-operator |
-| 10084 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/tinyzimmer/gst-pipeline-operator |
-| 10085 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/brennerm/uptimerobot-operator |
-| 10086 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.velotio.com/engineering-blog/getting-started-with-kubernetes-operators-helm-based-part-1 |
-| 10087 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/stakater/IngressMonitorController |
-| 10088 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/FairwindsOps/rbac-manager |
-| 10089 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2021/06/21/writing-a-controller-for-pod-labels |
-| 10090 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.kubermatic.com/blog/why-implementing-kubernetes-operators-is-a-good-idea |
-| 10091 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/we-pushed-helm-to-the-limit-then-built-a-kubernetes-operator |
-| 10092 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/kubexpose-a-kubernetes-operator-for-fun-and-profit-f528586eee07 |
-| 10093 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/kubernetes-operators-cruise-control-for-managing-cloud-native-apps-db328ef8e345 |
-| 10094 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/digitalis-io/vals-operator |
-| 10095 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/banzaicloud/thanos-operator |
-| 10096 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/pravega/pravega-operator |
-| 10097 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/Quentin-M/etcd-cloud-operator |
-| 10098 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://spring.io/blog/2021/11/19/get-to-know-a-kubernetes-operator |
-| 10099 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/VictoriaMetrics/operator |
-| 10100 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.px.dev/k8s-operator |
-| 10101 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://practicalkubernetes.blogspot.com/2022/01/making-case-for-kubernetes-operators.html |
-| 10102 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/reactive-tech/kubegres |
-| 10103 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/projectcapsule/capsule |
-| 10104 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/redhat-cop/keepalived-operator |
-| 10105 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/redhat-cop/dynamic-rbac-operator |
-| 10106 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/spotify/flink-on-k8s-operator |
-| 10107 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kube-green.dev |
-| 10108 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/krestomatio/keydb-operator |
-| 10109 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/keel-hq/keel |
-| 10110 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/openshift/machine-api-operator |
-| 10111 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/rancher/system-upgrade-controller |
-| 10112 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/ckotzbauer/vulnerability-operator |
-| 10113 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/Michaelpalacce/SimpleSecrets |
-| 10114 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.learnsteps.com/advanced-kubernetes-what-exactly-are-kubernetes-operators |
-| 10115 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/OT-CONTAINER-KIT/mongodb-operator |
-| 10116 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/prosimcorp/reforma |
-| 10117 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/vitobotta/velero-notifications |
-| 10118 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/glebiller/dynamic-configuration-operator |
-| 10119 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/furiko-io/furiko |
-| 10120 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/DevOps-Nirvana/Kubernetes-Volume-Autoscaler |
-| 10121 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/scylladb/scylla-operator |
-| 10122 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/coderanger/migrations-operator |
-| 10123 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://omerxx.com/k8s-controllers |
-| 10124 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/mittwald/kubernetes-secret-generator |
-| 10125 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/ContainerSolutions/delayed-jobs-operator |
-| 10126 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.frankel.ch/kubernetes-extensibility |
-| 10127 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://superorbital.io/blog/testing-production-controllers |
-| 10128 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/lukaszraczylo/jobs-manager-operator |
-| 10129 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/ricoberger/vault-secrets-operator |
-| 10130 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/ElementTech/kube-reqsizer |
-| 10131 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/sieve-project/sieve |
-| 10132 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/hashicorp-vault-operator-manages-kubernetes-secrets |
-| 10133 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/2-alchemists/krossboard |
-| 10134 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/gianlucam76/k8s-cleaner |
-| 10135 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/NCCloud/mayfly |
-| 10136 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/5-advanced-kubernetes-operators-every-devops-engineer-should-know-about-ab46bdc1c7d5 |
-| 10137 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kubernetes-sigs/kubebuilder |
-| 10138 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/thenjdevopsguy/what-is-a-kubernetes-operator-53kb |
-| 10139 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/red-hat-container-community-of-practice-operators |
-| 10140 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://operatorframework.io/operator-capabilities |
-| 10141 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kubernetes-sigs/cluster-addons |
-| 10142 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/k8spin/k8spin-operator |
-| 10143 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/k8spin-provides-multitenant-isolation-for-kubernetes |
-| 10144 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://k8spin.cloud/oss-projects |
-| 10145 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2020/05/29/k8s-kpis-with-kuberhealthy |
-| 10146 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/docs/concepts/extend-kubernetes/operator |
-| 10147 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://opensource.com/article/20/3/kubernetes-operator-sdk |
-| 10148 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/testing-the-operator-sdk-and-making-a-prefetch-mechanism-for-kubernetes-7508577efdd7 |
-| 10149 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.bmc.com/blogs/kubernetes-operator |
-| 10150 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://linuxera.org/writing-operators-using-operator-framework |
-| 10151 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/7-best-practices-for-writing-kubernetes-operators-an-sre-perspective |
-| 10152 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/build-your-kubernetes-operator-with-the-right-tool |
-| 10153 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://shipit.dev/posts/k8s-operators-with-python-part-1.html |
-| 10154 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://vivilearns2code.github.io/k8s/2021/03/11/writing-controllers-for-kubernetes-custom-resources.html |
-| 10155 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/articles/2021/08/04/managing-stateful-applications-kubernetes-operators-golang |
-| 10156 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kubernetes/sample-controller |
-| 10157 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://metalbear.com/blog/writing-a-kubernetes-operator |
-| 10158 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/hkhelil/building-a-kubernetes-operator-with-an-nginx-crd-3lil |
-| 10159 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.infracloud.io/blogs/3-autoscaling-projects-optimising-kubernetes-costs |
-| 10160 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.scaleway.com/en/blog/understanding-kubernetes-autoscaling |
-| 10161 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.infracloud.io/blogs/kubernetes-autoscaling-custom-metrics |
-| 10162 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.sysdig.com/blog/kubernetes-autoscaler |
-| 10163 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://learnkube.com/kubernetes-autoscaling-strategies |
-| 10164 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/reduce-kubernetes-costs-using-autoscaling-mechanisms |
-| 10165 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://cast.ai/blog/guide-to-kubernetes-autoscaling-for-cloud-cost-optimization |
-| 10166 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/scaling-microservices-on-kubernetes |
-| 10167 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://cloud.ibm.com/docs/solution-tutorials?topic=solution-tutorials-scalable-webapp-kubernetes |
-| 10168 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thinksys.com/devops/kubernetes-autoscaling |
-| 10169 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.clickittech.com/devops/kubernetes-autoscaling |
-| 10170 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler |
-| 10171 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/kubernetes-cluster-autoscaler-more-than-scaling-out-7b2d97f10b27 |
-| 10172 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://platform9.com/blog/kubernetes-autoscaling-options-horizontal-pod-autoscaler-vertical-pod-autoscaler-and-cluster-autoscaler |
-| 10173 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/kubernetes-resources-and-autoscaling-from-basics-to-greatness-7cae17fbf27b |
-| 10174 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://the-gigi.github.io/gigi-zone/posts/2024/05/advanced-k8s-scheduling-and-autoscaling |
-| 10175 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/docs/concepts/workloads/autoscaling/horizontal-pod-autoscale |
-| 10176 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler |
-| 10177 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.returngis.net/2020/07/escalado-vertical-de-tus-pods-en-kubernetes |
-| 10178 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/horizontal-pod-autoscaling-with-custom-metric-from-different-namespace-f19f8446143b |
-| 10179 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.around25.com/blog/horizontal-pod-autoscaler-in-kubernetes |
-| 10180 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.velotio.com/engineering-blog/autoscaling-in-kubernetes-using-hpa-vpa |
-| 10181 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/ninlil/kubectl-vpa |
-| 10182 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/k8s-vertical-pod-autoscaling-fd9e602cbf81 |
-| 10183 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.sysdig.com/blog/kubernetes-hpa-prometheus |
-| 10184 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.px.dev/autoscaling-custom-k8s-metric |
-| 10185 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://code.egym.de/horizontal-pod-autoscaler-in-kubernetes-part-1-simple-autoscaling-using-metrics-server-929e96cc2ab2 |
-| 10186 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/stupid-simple-scalability-dc4a7fbe67d6 |
-| 10187 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/pavanbelagatti/scaling-your-application-with-kubernetes-5715 |
-| 10188 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://code.egym.de/vertical-pod-autoscaler-in-kubernetes-b12a5c61393f |
-| 10189 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/kubernetes-vertical-pods-scaling-with-vertical-pod-autoscaler-e2e5a3b8e1a9 |
-| 10190 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/danielepolencic/request-based-autoscaling-in-kubernetes-scaling-to-zero-2i73 |
-| 10191 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://artifacthub.io/packages/helm/stable/cluster-autoscaler |
-| 10192 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://keda.sh |
-| 10193 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://partlycloudy.blog/2020/05/29/horizontal-autoscaling-in-kubernetes-3-keda |
-| 10194 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/microsoft-keda-2-0-scales-up-event-driven-programming-on-kubernetes |
-| 10195 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/event-driven-autoscaling-503b5cefaa49 |
-| 10196 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.kedify.io/resources/blog/prometheus-and-kubernetes-horizontal-pod-autoscaler-dont-talk-keda-does |
-| 10197 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kedacore/keda/issues/2214 |
-| 10198 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.opcito.com/blogs/a-guide-to-mastering-autoscaling-in-kubernetes-with-keda |
-| 10199 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/vinod827/scale-your-apps-using-keda-in-kubernetes-4i3h |
-| 10200 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://hub.docker.com/r/bitnami/cluster-autoscaler |
-| 10201 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.aws.amazon.com/eks/latest/userguide/autoscaling.html#cluster-autoscaler |
-| 10202 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://learn.microsoft.com/en-us/azure/aks/cluster-autoscaler |
-| 10203 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.cloud.google.com/kubernetes-engine/docs/concepts/cluster-autoscaler |
-| 10204 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.digitalocean.com/products/kubernetes/how-to/autoscale |
-| 10205 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/danielepolencic/scaling-kubernetes-to-multiple-clusters-and-regionss-294b |
-| 10206 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://engineering.zalando.com/posts/2021/03/building-an-end-to-end-load-test-automation-system-on-top-of-kubernetes.html |
-| 10207 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://feedly.com |
-| 10208 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://kube.events |
-| 10209 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://pcr.cloud-mercato.com |
-| 10210 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://projector.cloud-mercato.com/projects/state-of-the-art-of-public-object-storage-europe |
-| 10211 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.pluralsight.com/resources/blog/cloud/why-learn-multiple-cloud-platforms |
-| 10212 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://digitalisationworld.com/blogs/57435/multicloud-two-truths-and-a-lie |
-| 10213 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.nextgov.com/ideas/2023/11/why-smart-multicloud-policies-are-golden-ticket-modernizing-it-infrastructure/392232 |
-| 10214 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://intellipaat.com/blog/aws-vs-azure-vs-google-cloud |
-| 10215 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://comparecloud.in |
-| 10216 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.youtube.com/playlist?app=desktop&list=PLI1_CQcV71RnBebKm_tH1uKYI3WxkM2TT |
-| 10217 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.xataka.com/pro/talon-aquiles-aws-sus-altas-tarifas-salida-datos-sus-rivales-empiezan-a-explotarlo-guerra-precios-gigante-nube |
-| 10218 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://cast.ai/blog/cloud-pricing-comparison |
-| 10219 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.xataka.com/pro/asi-se-reparte-mercado-cloud-tres-grandes-tienen-63-siguientes-10-22 |
-| 10220 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.pluralsight.com/resources/blog/cloud/cloud-security-comparison-aws-vs-azure-vs-gcp |
-| 10221 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.pluralsight.com/resources/blog/cloud/cloud-developer-tooling-compared-aws-vs-azure-vs-gcp |
-| 10222 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.pluralsight.com/resources/blog/cloud/blockchain-cloud-comparison-what-is-blockchain-as-a-service-baas |
-| 10223 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.pluralsight.com/resources/blog/cloud/storage-showdown-aws-vs-azure-vs-gcp-cloud-comparison |
-| 10224 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://thenewstack.io/is-a-multicloud-strategy-right-for-your-organization |
-| 10225 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.cloudtechtwitter.com/2022/05/lets-check-about-aws-vs-azure-services.html |
-| 10226 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://faddom.com/cloud-computing-costs-and-pricing-comparison |
-| 10227 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://thenewstack.io/how-to-evaluate-kubernetes-cloud-providers |
-| 10228 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.redhat.com/en/technologies/cloud-computing/openshift/pricing |
-| 10229 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/openshift-container-platform-4x |
-| 10230 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://pivotal.io/platform/pivotal-container-service |
-| 10231 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/es/eks/pricing |
-| 10232 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://azure.microsoft.com/es-es/pricing/details/kubernetes-service |
-| 10233 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://cloud.google.com/kubernetes-engine/pricing |
-| 10234 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.rackspace.com/cloud/kubernetes |
-| 10235 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://iot-analytics.com/iot-cloud |
-| 10236 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://gaia-x.eu |
-| 10237 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.bundeswirtschaftsministerium.de/Redaktion/EN/Dossier/gaia-x.html |
-| 10238 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | http://past.jamaica-gleaner.com/article/business/20211224/amazon-outages-future-implications |
-| 10239 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.20minutos.es/tecnologia/actualidad/amazon-web-services-vuelve-a-romper-internet-se-ha-caido-ya-tres-veces-en-el-mismo-mes-y-le-llueven-las-criticas-4931834 |
-| 10240 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://web.dev/explore/react |
-| 10241 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.freecodecamp.org/news/get-started-with-react-for-beginners |
-| 10242 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.freecodecamp.org/news/how-to-set-up-custom-email |
-| 10243 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.cloudflare.com |
-| 10244 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://workers.cloudflare.com |
-| 10245 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://blog.cloudflare.com/network-performance-update-full-stack-week |
-| 10246 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://blog.cloudflare.com/guest-blog-zero-trust-access-kubernetes |
-| 10247 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://blog.cloudflare.com/zero-trust-private-networking-rules |
-| 10248 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://tekton.dev |
-| 10249 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/tektoncd |
-| 10250 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/tektoncd/community |
-| 10251 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/tektoncd/pipeline |
-| 10252 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://tekton.dev/docs/pipelines/pipelines |
-| 10253 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://opensource.googleblog.com/2020/05/the-tekton-pipelines-beta-release.html |
-| 10254 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.youtube.com/watch?v=igwFpZOUTnw |
-| 10255 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.redhat.com/en/topics/devops/what-cicd-pipeline |
-| 10256 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://itnext.io/cloud-native-ci-cd-with-tekton-building-custom-tasks-663e63c1f4fb |
-| 10257 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://opensource.com/article/21/11/cicd-pipeline-kubernetes-tekton |
-| 10258 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://opensource.com/article/21/11/kubernetes-dynamic-scheduling-tekton |
-| 10259 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://piotrminkowski.com/2022/02/21/validate-kubernetes-deployment-in-ci-cd-with-tekton-and-datree |
-| 10260 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://piotrminkowski.com/2022/03/29/canary-release-on-kubernetes-with-knative-and-tekton |
-| 10261 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.linkedin.com/pulse/importance-api-automation-testing-manish-saini |
-| 10262 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/optimizing-app-performance-in-a-multicloud-stack |
-| 10263 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.testmuai.com/blog/testng-vs-junit-which-testing-framework-should-you-choose |
-| 10264 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/continuous-testing-practices-part-1 |
-| 10265 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://itnext.io/software-development-is-misunderstood-quality-is-fastest-way-to-get-code-into-production-f1f5a0792c69 |
-| 10266 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://blog.testproject.io/2021/07/21/the-10-10-10-rule-of-test-automation |
-| 10267 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://blog.testproject.io/2021/07/22/end-to-end-testing |
-| 10268 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/7-benefits-of-testing-in-isolation |
-| 10269 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/error-handling-from-backends-to-the-frontend |
-| 10270 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.testmuai.com/blog/best-test-automation-trends |
-| 10271 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://dev.to/koladev/test-driven-development-with-django-unit-testing-integration-testing-with-docker-flask-github-actions-2047 |
-| 10272 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.smashingmagazine.com/2022/02/testing-pipeline-101-frontend-testing |
-| 10273 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.infoq.com/presentations/microservices-software-quality |
-| 10274 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://speakerdeck.com/thockin/code-review-in-kubernetes |
-| 10275 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.getxray.app/blog/the-top-5-software-testing-trends-of-2022 |
-| 10276 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.linkedin.com/pulse/microservices-testable-isolation-chris-richardson |
-| 10277 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.softwaretestingsapiens.com/roadmap-to-learn-api-testing |
-| 10278 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://junit.org |
-| 10279 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://testng.org |
-| 10280 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://spockframework.org |
-| 10281 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://opensource.com/article/22/1/unit-testing-googletest-ctest |
-| 10282 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://launchdarkly.com/blog/get-a-detailed-explanation-of-release-testing-several |
-| 10283 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.com/kyverno/chainsaw |
-| 10284 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://collabnix.com/the-ultimate-docker-tutorial-for-automation-testing |
-| 10285 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.com/allure-framework/allure2 |
-| 10286 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://semgrep.dev |
-| 10287 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.meetup.com/es-es/jenkins-online-meetup/events/276135789 |
-| 10288 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.com/testcontainers |
-| 10289 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://testcontainers.com |
-| 10290 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://metabob.com |
-| 10291 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://sourceware.org/systemtap |
-| 10292 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.com/auchenberg/volkswagen |
-| 10293 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.getxray.app/blog/7-benefits-of-using-a-test-management-app-vs.-excel |
-| 10294 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.com/google/clusterfuzzlite |
-| 10295 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/google-introduces-clusterfuzzlite-security-tool-for-ci-cd |
-| 10296 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.convert.com/blog/a-b-testing/a-b-testing-tools-2022-beyond |
-| 10297 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://circleci.com/blog/unit-testing-vs-integration-testing |
-| 10298 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.com/reviewdog/reviewdog |
-| 10299 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/best-practices-for-application-performance-testing |
-| 10300 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.com/vmware-tanzu/sonobuoy |
-| 10301 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.com/vincentserpoul/kubench |
-| 10302 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://thenewstack.io/web3-architecture-and-how-it-compares-to-traditional-web-apps |
-| 10303 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.wired.com/story/web3-gavin-wood-interview |
-| 10304 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.elconfidencial.com/tecnologia/2021-12-12/el-futuro-de-internet-ya-esta-aqui-y-se-llama-web3-pero-casi-nadie-sabe-lo-que-es_3339244 |
-| 10305 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://hub.docker.com/r/payara/server-full |
-| 10306 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://hub.docker.com/r/payara/micro |
-| 10307 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://developers.redhat.com/products/eap |
-| 10308 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.wildfly.org |
-| 10309 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://opensource.com/article/21/7/wildfly |
-| 10310 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://handbook.gitlab.com/handbook |
-| 10311 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://www.elconfidencial.com/mundo/2023-03-10/milenializacion-mercado-laboral-israeli-startups_3551800 |
-| 10312 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://www.xataka.com/empresas-y-economia/han-recomendado-calcular-cuanto-dinero-queda-al-resto-despedirles-startups-espanolas-frente-a-quiebra-svb |
+| 7600 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.intel.com/content/www/us/en/homepage.html |
+| 7601 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#affinity-and-anti-affinity |
+| 7602 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://kubernetes.io/docs/concepts/scheduling-eviction/topology-spread-constraints |
+| 7603 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://kubernetes.io/blog/2020/05/introducing-podtopologyspread |
+| 7604 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://cdk8s.io |
+| 7605 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://aws.amazon.com/blogs/containers/introducing-cdk-for-kubernetes |
+| 7606 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/google/jsonnet/tree/master/case_studies/kubernetes |
+| 7607 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/kubernetes-retired/kubefed |
+| 7608 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.aquasec.com/cloud-native-academy/kubernetes-in-production/kubernetes-federation |
+| 7609 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://engineering.monday.com/monday-coms-multi-regional-architecture-a-deep-dive |
+| 7610 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://kubernetes.io/blog/2021/12/22/kubernetes-in-kubernetes-and-pxe-bootable-server-farm |
+| 7611 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/eldada/kubernetes-scripts |
+| 7612 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://gist.github.com/ninlil/affbf7514d4e74c7634e77f47e172236 |
+| 7613 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/automating-system-updates-for-kubernetes-clusters-using-ansible-94a70f4e1972 |
+| 7614 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/geerlingguy/ansible-for-devops/tree/master/kubernetes |
+| 7615 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/embracing-failures-and-cutting-infrastructure-costs-spot-instances-in-kubernetes-6976781beacc |
+| 7616 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.cynet.com/incident-response/incident-response-plan |
+| 7617 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.kubermatic.com/blog/a-framework-for-kubernetes-incident-response |
+| 7618 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/reetasingh/CKAD-Bookmarks |
+| 7619 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/tips-tricks-for-cka-ckad-and-cks-exams-cc9dade1f76d |
+| 7620 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/bmuschko/ckad-crash-course |
+| 7621 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/jamesbuckett/ckad-questions |
+| 7622 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=wHha-Q3XVOg&ab_channel=DanLister |
+| 7623 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://kodekloud.com/blog/cka-vs-ckad-vs-cks |
+| 7624 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/bmuschko/ckad-prep |
+| 7625 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://packetpushers.net/podcasts/kubernetes-unpacked/ku046-do-kubernetes-certs-prepare-you-for-real-world-production |
+| 7626 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://mattias.engineer/courses/kubernetes |
+| 7627 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/e-books/kubernetes-operators |
+| 7628 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://leanpub.com/kubernetes-101 |
+| 7629 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://learnkube.com/training |
+| 7630 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://ubuntuask.com/blog/best-new-kubernetes-books |
+| 7631 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | http://shop.oreilly.com/product/0636920223788.do |
+| 7632 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.amazon.com/gp/product/1492056707 |
+| 7633 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.digitalocean.com/community/books/from-containers-to-kubernetes-with-node-js-ebook |
+| 7634 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://dev.to/scalyr/kubernetes-tutorial-learn-the-basics-and-get-started-5dgh |
+| 7635 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=0KQndcIedeg |
+| 7636 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.pluralsight.com/courses/getting-started-kubernetes |
+| 7637 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://javarevisited.blogspot.com/2019/05/top-5-courses-to-learn-docker-and-kubernetes-for-devops.html |
+| 7638 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://elastisys.io/compliantkubernetes |
+| 7639 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.container-security.site/defenders/PCI_Container_Orchestration_Guidance.html |
+| 7640 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://kubernetes.slack.com |
+| 7641 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | http://slack.kubernetes.io |
+| 7642 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/kubernetes/enhancements/blob/ddf7d2a8c098e97b0714f31e88abad3b3e0e706c/keps/sig-node/2837-pod-level-resource-spec/README.md#summary |
+| 7643 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/doc-history.html |
+| 7644 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://docs.aws.amazon.com/AWSCloudFormation/latest/TemplateReference/aws-template-resource-type-ref.html |
+| 7645 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/about-aws/whats-new/2020/06/introducing-aws-cloudformation-guard-preview |
+| 7646 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://cloudonaut.io/getting-started-with-aws-cf-templates |
+| 7647 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/es/blogs/infrastructure-and-automation/use-git-pre-commit-hooks-avoid-aws-cloudformation-errors |
+| 7648 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/es/blogs/aws/introducing-a-public-registry-for-aws-cloudformation |
+| 7649 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://cloudkatha.com/how-to-setup-s3-bucket-cors-configuration-using-cloudformation |
+| 7650 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://cloudkatha.com/how-to-configure-aws-sqs-dead-letter-queue-using-cloudformation |
+| 7651 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://cloudkatha.com/how-to-create-an-s3-bucket-using-cloudformation |
+| 7652 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://cloudkatha.com/how-to-use-cloudformation-to-create-sns-topic-and-subscription |
+| 7653 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://cloudkatha.com/how-to-create-iam-role-using-cloudformation |
+| 7654 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://luminousmen.com/post/a-very-quick-introduction-to-the-pain-of-aws-cloudformation |
+| 7655 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/about-aws/whats-new/2023/11/aws-cloudformation-git-management-stacks |
+| 7656 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/about-aws/whats-new/2024/02/aws-cloudformation-templates-cdk-apps-minutes |
+| 7657 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-ec2-announces-spot-blueprints-an-infrastructure-code-template-generator-to-get-started-with-ec2-spot-instances |
+| 7658 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://former2.com |
+| 7659 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/opensource/accelerate-infrastructure-as-code-development-with-open-source-former2 |
+| 7660 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://onecloudplease.com/project/console-recorder |
+| 7661 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://fluxcd.io |
+| 7662 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://docs.fluxcd.io/en/1.22.2 |
+| 7663 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/fluxcd/flux |
+| 7664 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/fluxcd/flux2 |
+| 7665 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://fluxcd.io/flux |
+| 7666 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://managedkube.com/gitops/flux/weaveworks/guide/tutorial/2020/05/01/a-complete-step-by-step-guide-to-implementing-a-gitops-workflow-with-flux.html |
+| 7667 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://alicegg.tech/2020/11/09/helm |
+| 7668 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.pluralsight.com/resources/blog/cloud/adopting-gitops-for-kubernetes-on-aws?utm_source=linkedin&utm_medium=social&utm_campaign=kubernetesblog |
+| 7669 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://blog.sldk.de/2021/02/introduction-to-gitops-on-kubernetes-with-flux-v2 |
+| 7670 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://learn.microsoft.com/en-us/azure/azure-arc/kubernetes/conceptual-gitops-flux2 |
+| 7671 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://thenewstack.io/gitops-at-home-automate-code-deploys-with-kubernetes-and-flux |
+| 7672 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://alexander.holbreich.org/gitops-journey |
+| 7673 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.solo.io/blog/the-3-best-ways-to-use-flux-and-flagger-for-gitops-with-your-envoy-proxy-api-gateways |
+| 7674 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/fluxcd/flux2-multi-tenancy |
+| 7675 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://flux-subsystem-argo.github.io/website/tutorials/terraform |
+| 7676 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/dirien/pulumi-civo-flux-bucket |
+| 7677 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://fluxcd.io/blog/2022/09/gitops-without-leaving-your-ide |
+| 7678 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://fluxcd.io/blog/2022/09/how-to-gitops-your-terraform |
+| 7679 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://thenewstack.io/deploy-stateful-workloads-on-kubernetes-with-ondat-and-fluxcd |
+| 7680 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://gist.github.com/scottrigby/a1a42c3292ec7899837c578ffdaaf92a |
+| 7681 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/flux-iac/tofu-controller |
+| 7682 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/onedr0p/cluster-template |
+| 7683 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.testmuai.com/blog/best-jenkins-alternatives |
+| 7684 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.inovex.de/de/blog/spinnaker-vs-argo-cd-vs-tekton-vs-jenkins-x |
+| 7685 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.testmuai.com/blog/teamcity-vs-jenkins-picking-the-right-ci-cd-tool |
+| 7686 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.testmuai.com/blog/bamboo-vs-jenkins-showdown-of-ci-cd-tools |
+| 7687 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.testmuai.com/blog/circleci-vs-gitlab |
+| 7688 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.pluralsight.com/resources/blog/cloud/azure-devops-vs-github-comparing-microsofts-devops-twins |
+| 7689 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.testmuai.com/blog/jenkins-vs-travis-vs-bamboo-vs-teamcity |
+| 7690 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/kubernetes/test-infra/tree/master/prow |
+| 7691 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://agola.io |
+| 7692 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.harness.io |
+| 7693 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.drone.io |
+| 7694 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.gocd.org |
+| 7695 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://octopus.com/codefresh |
+| 7696 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/screwdriver-cd/screwdriver |
+| 7697 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://circleci.com |
+| 7698 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://circleci.com/blog/getting-started-with-kubernetes-how-to-set-up-your-first-cluster |
+| 7699 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://circleci.com/blog/adding-approval-jobs-to-your-ci-pipeline |
+| 7700 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://circleci.com/blog/building-cicd-pipelines-using-dynamic-config |
+| 7701 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://circleci.com/blog/parameters-in-pipeline-config |
+| 7702 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://dev.to/mage_ai/ci-cd-automating-our-build-and-deploy-process-2i91 |
+| 7703 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://circleci.com/blog/relational-db-testing |
+| 7704 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.travis-ci.com |
+| 7705 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.testmuai.com/blog/build-first-ci-cd-pipeline-with-travis-ci |
+| 7706 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://concourse-ci.org |
+| 7707 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://blog.alterway.fr/en/building-a-continious-deployment-pipeline-with-kubernetes-and-concourse-ci.html |
+| 7708 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.atlassian.com/continuous-delivery |
+| 7709 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.atlassian.com/software/bamboo |
+| 7710 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.testmuai.com/blog/how-to-setup-cicd-pipeline-with-bamboo-for-php-projects |
+| 7711 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.blog/news-insights/product-news/github-actions-now-supports-ci-cd |
+| 7712 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://docs.github.com/en/actions/how-tos/write-workflows |
+| 7713 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/sdras/awesome-actions |
+| 7714 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/yokawasa/action-setup-kube-tools |
+| 7715 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://azure.microsoft.com/en-us/products/devops |
+| 7716 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://k21academy.com/microsoft-azure/az-400/azure-pipelines-vs-jenkins |
+| 7717 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.shuttleops.io |
+| 7718 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://thenewstack.io/shuttleops-no-code-docker-and-kubernetes |
+| 7719 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/theonedev/onedev |
+| 7720 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.jetbrains.com/teamcity |
+| 7721 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.jetbrains.com/help/teamcity/storing-project-settings-in-version-control.html |
+| 7722 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://blog.jetbrains.com/teamcity/2019/03/configuration-as-code-part-1-getting-started-with-kotlin-dsl |
+| 7723 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/OctopusDeploy/Octopus-TeamCity |
+| 7724 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://octopus.com |
+| 7725 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://octopus.com/docs/deployments/patterns/deployment-process-as-code |
+| 7726 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://registry.terraform.io/providers/OctopusDeployLabs/octopusdeploylatest/docs |
+| 7727 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/OctopusDeploy/go-octopusdeploy |
+| 7728 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://jfrog.com/platform |
+| 7729 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.youtube.com/watch?v=15CGdzfDlpQ&t=1s&ab_channel=JFrog |
+| 7730 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://semaphore.io |
+| 7731 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://semaphore.io/blog/revving-up-continuous-integration-with-parallel-testing |
+| 7732 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/csweichel/werft |
+| 7733 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.cloudbees.com/whitepapers/building-cloud-native-apps-painlessly |
+| 7734 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.devopstoolkitseries.com |
+| 7735 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://leanpub.com/the-devops-2-6-toolkit |
+| 7736 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://jayex.io/blog/2021/04/08/jx3-pipeline-trace |
+| 7737 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://spinnaker.io |
+| 7738 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.opsmx.com/blog/deploy-spinnaker-cd-pipelines-in-kubernetes |
+| 7739 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://speakerdeck.com/keisukeyamashita/introduction-to-spinnaker-managed-pipeline-templates |
+| 7740 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://speakerdeck.com/keisukeyamashita/spinnaker-application-management-by-terraform-plugins |
+| 7741 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://opensource.com/article/19/8/why-spinnaker-matters-cicd |
+| 7742 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.harness.io/blog/spinnaker-alternatives |
+| 7743 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.harness.io/products/continuous-delivery |
+| 7744 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/openshift/tektoncd-pipeline-operator |
+| 7745 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.sonatype.com/blog/new-cloud-native-ci/cd-projects-openshift-and-tekton |
+| 7746 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/jenkins-x/jenkins-x-openshift-image |
+| 7747 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://empathy.co/blog/hat-ci-cd-for-deploying-cloud-native-applications |
+| 7748 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://dagger.io |
+| 7749 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/dagger/dagger |
+| 7750 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://enterprisersproject.com/article/2020/7/devops-5-things-teams-need |
+| 7751 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.redhat.com/en/topics/devops |
+| 7752 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.redhat.com/es/topics/devops |
+| 7753 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.redhat.com/en/blog/it-automation-training |
+| 7754 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://about.gitlab.com/blog/2021/11/30/soft-skills-are-the-key-to-your-devops-career-advancement |
+| 7755 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.salesforceben.com/5-devops-concepts-you-need-to-know |
+| 7756 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://enterprisersproject.com/article/2021/10/devops-future-operating-model-it |
+| 7757 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devblogs.microsoft.com/devops/devops-dojo-culture-and-mindset |
+| 7758 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/the-evolving-devops-journey-continuous-mindset-starts-with-cultural-change |
+| 7759 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/automation-is-no-silver-bullet-3-keys-for-scaling-success |
+| 7760 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/why-mttr-is-a-vital-metric-for-devops-teams |
+| 7761 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.umbrellainfocare.com/blogs/cloud-and-devops-are-made-for-each-other |
+| 7762 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.linkedin.com/pulse/devops-just-system-administration-repackaged-gianluca-mascolo |
+| 7763 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/a-devops-reset-for-a-multi-cloud-world |
+| 7764 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://dev.to/pavanbelagatti/devops-trends-for-developers-in-2023-345b |
+| 7765 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.abc.es/economia/ingenieros-devops-pieza-clave-engranaje-digital-empresas-20230212000148-nt.html |
+| 7766 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.microsoft.com/en-us/security/blog/2023/04/06/devops-threat-matrix |
+| 7767 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/11-steps-to-a-successful-devops-career |
+| 7768 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://dev.to/aws-builders/how-to-get-started-with-devops-what-skills-should-we-start-with-5efp |
+| 7769 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.infoq.com/articles/devops-shifting-left |
+| 7770 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.redhat.com/en/blog/red-hat-automation-glossary |
+| 7771 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://livingdevops.com/devops/10-real-world-kubernetes-troubleshooting-scenarios-and-solutions |
+| 7772 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com |
+| 7773 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.devopszone.info |
+| 7774 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.devopsdigest.com |
+| 7775 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.techtarget.com/searchitoperations/feature/Top-15-DevOps-blogs-to-read-and-follow |
+| 7776 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devopstips.net |
+| 7777 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://orange-quarter.com/upskill-yourself-with-these-5-devops-resources |
+| 7778 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://mrcloudbook.com |
+| 7779 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.com/DevOps-Projects-Ideas/DevOps-Books |
+| 7780 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.deloitte.com/us/en/what-we-do/capabilities/cloud-transformation/collections/cloud-podcast.html |
+| 7781 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://bikeshed.thoughtbot.com |
+| 7782 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.com/paragpallavsingh/90DaysOfDevOps |
+| 7783 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.com/paragpallavsingh/90DaysOfDevOps/blob/master/submission/day21/README.md |
+| 7784 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report |
+| 7785 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.continuitysoftware.com/blog/it-resilience/what-is-configuration-drift |
+| 7786 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/cloud-drift-detection-how-to-resolve-out-of-state-changes |
+| 7787 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.fairwinds.com/blog/configuration-drift-kubernetes |
+| 7788 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.env0.com/blog/automated-drift-detection-with-env0 |
+| 7789 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/how-drift-detection-and-iac-help-maintain-a-secure-infrastructure |
+| 7790 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://opensource.com/article/19/7/devops-vs-sysadmin |
+| 7791 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://opensource.com/article/19/7/how-transition-career-devops-engineer |
+| 7792 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://opensource.com/article/20/2/devops-beginners |
+| 7793 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://enterprisersproject.com/article/2020/3/how-get-devops-noops-5-steps |
+| 7794 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.zdnet.com/article/corporate-culture-complicates-kubernetes-and-container-collaboration |
+| 7795 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.smartsheet.com/devops |
+| 7796 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://opensource.com/article/20/6/devops-mindset |
+| 7797 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://stackoverflow.blog/2020/06/10/the-rise-of-the-devops-mindset |
+| 7798 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://enterprisersproject.com/article/2020/6/devops-engineer-role-common-misconceptions |
+| 7799 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://enterprisersproject.com/article/2020/6/devops-beginners-where-start |
+| 7800 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.scaledagileframework.com/devops |
+| 7801 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://cloudnativenow.com/topics/cloudnativedevelopment/how-the-rise-of-containers-will-drive-devops |
+| 7802 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://enterprisersproject.com/article/2020/7/3-devops-skills-it-leaders-need-next-normal |
+| 7803 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.red-gate.com/blog/automated-production-deployments-are-not-the-key-to-devops-performance |
+| 7804 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.bbva.com/es/innovacion/devops-que-es-y-como-mejorar-los-procesos-gracias-a-esta-estrategia |
+| 7805 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.learnsteps.com/devops-interview-question-how-will-you-set-up-a-ci-cd-pipeline |
+| 7806 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/survey-surfaces-high-reliance-on-devops-to-build-and-deploy-apis |
+| 7807 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.pluralsight.com/resources/blog/cloud/5-reasons-to-not-move-to-devops |
+| 7808 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.forbes.com/sites/steveandriole/2020/10/01/why-no-one-understands-agile-scrum--devops--why-perfect-technology-abstractions-are-sure-to-fail |
+| 7809 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.blog/enterprise-software/devops/devops-definition |
+| 7810 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/from-devops-to-devapps |
+| 7811 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/the-future-of-ops-careers |
+| 7812 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/post-pandemic-devops-moves-to-resilient-collaboration |
+| 7813 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://platform.qa.com/login |
+| 7814 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.infoq.com/news/2020/11/2020-devops-report |
+| 7815 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://opensource.com/article/20/12/remote-devops |
+| 7816 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.blog/enterprise-software/devops/how-to-make-devops-your-competitive-advantage |
+| 7817 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://opensource.com/article/20/12/devops |
+| 7818 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/unlocking-your-devops-automation-mindset |
+| 7819 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/7-trends-influencing-devops-and-devsecops-adoption |
+| 7820 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/devops-for-the-development-and-delivery-of-high-performance-applications |
+| 7821 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/devops-devapps-and-the-death-of-infrastructure |
+| 7822 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devopscube.com/become-devops-engineer |
+| 7823 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/6-signs-youre-doing-devops-correctly |
+| 7824 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://cloudnativenow.com/uncategorized/9-pillars-of-engineering-devops-with-kubernetes |
+| 7825 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://content.techgig.com/5-best-devops-practices-for-beginners/articleshow/81368965.cms |
+| 7826 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.cst-bg.net/post/13-clues-to-good-devops |
+| 7827 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.softwebsolutions.com/resources/devops-and-microservices |
+| 7828 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/5-cloud-automation-tips-for-developers-and-devops |
+| 7829 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://cloudnativenow.com/features/kubernetes-enables-devops-as-a-service-daas |
+| 7830 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/maximizing-the-value-of-containerization-for-devops |
+| 7831 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://opensource.com/article/21/3/devops-documentation |
+| 7832 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.infoq.com/articles/devops-not-enough-scaling-tech-driven-organizations |
+| 7833 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.infoworld.com/article/2263821/5-devops-practices-to-improve-application-reliability.html |
+| 7834 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/languages-and-devops-recommendations |
+| 7835 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/survey-shows-mounting-devops-frustration-and-costs |
+| 7836 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.youtube.com/watch?v=js-rq7SvPpE&ab_channel=DevOpsToolkit |
+| 7837 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/devops-trends-to-watch-in-2021 |
+| 7838 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/nine-pillars-of-devops-best-practices |
+| 7839 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.weblineindia.com/blog/all-about-devops-automation |
+| 7840 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.getxray.app/blog/get-started-with-devops-principles-best-practices-and-tips |
+| 7841 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://stackoverflow.blog/2021/05/24/how-developers-can-be-their-own-operations-department |
+| 7842 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.linkedin.com/pulse/top-10-skills-devops-engineer-should-possess-saurabh-badhwar |
+| 7843 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/how-containers-simplify-devops-workflows-and-ci-cd-pipelines |
+| 7844 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://dev.to/ankit01oss/5-github-projects-to-make-you-a-better-devops-engineer-2fkl |
+| 7845 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.cloudbees.com/blog/how-to-nail-devops-governance-and-compliance-in-a-highly-regulated-industry |
+| 7846 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.redhat.com/en/blog/it-automation-book |
+| 7847 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.forbes.com/sites/tomtaulli/2021/07/16/devops-what-you-need-to-know |
+| 7848 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.zdnet.com/article/stop-calling-devops-teams-devops-teams |
+| 7849 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/yeah-youre-doing-devops |
+| 7850 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.infoq.com/news/2021/08/external-IT-providers-devops |
+| 7851 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.chaossearch.io/blog/essential-devops-tools |
+| 7852 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.devopsonline.co.uk/the-role-of-automation-in-devops |
+| 7853 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.sqlshack.com/6-reasons-why-you-cant-have-devops-without-test-automation |
+| 7854 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://dev.to/run-x/devops-is-not-automation-2amo |
+| 7855 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://intellipaat.com/blog/what-does-a-devops-engineer-do |
+| 7856 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://siliconangle.com/2021/09/29/devops-dummies-author-emily-freeman-introduces-revolutionary-model-modern-software-development-awsq3 |
+| 7857 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/microservices-transformed-devops-why-security-is-next |
+| 7858 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/devops-at-the-crossroads-the-future-of-software-delivery |
+| 7859 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/3-habits-of-highly-successful-devops-teams |
+| 7860 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://dev.to/attaullahshafiq10/dev-ops-59dm |
+| 7861 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.blog/developer-skills/5-devops-tips-to-speed-up-your-developer-workflow |
+| 7862 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.valuecoders.com/blog/devops/devops-for-enterprises-growth |
+| 7863 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.freecodecamp.org/news/devops-engineering-course-for-beginners |
+| 7864 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.bmc.com/blogs/devops-ci-cd-metrics |
+| 7865 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.simform.com/blog/devops-for-enterprise |
+| 7866 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.calcalistech.com/ctechnews/article/s1mlpunf9 |
+| 7867 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://reviewnprep.com/blog/devops-basics |
+| 7868 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://dev.to/techworld_with_nana/how-i-learn-new-technologies-as-a-devops-engineer-without-being-overwhelmed--495e |
+| 7869 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/the-real-pipeline |
+| 7870 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.information-age.com/devops-vs-agile-distinguishing-and-combining-the-two-20117 |
+| 7871 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://enterprisersproject.com/article/2020/5/devops-shift-left-why-goes-wrong |
+| 7872 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://itnext.io/devops-big-picture-on-premises-d07f61d6c34c |
+| 7873 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://net.connect4techs.com/what-are-the-top-devops-trends-in-2024 |
+| 7874 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.dynatrace.com/news/blog/devops-metrics-for-success |
+| 7875 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://dev.to/kodekloud/your-roadmap-to-become-a-devops-engineer-in-2020-i1n |
+| 7876 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.techworld-with-nana.com/devops-roadmap |
+| 7877 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.infoworld.com/article/2337920/how-multicloud-changes-devops.html |
+| 7878 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.techtarget.com/searchitoperations/tip/Tips-and-tools-to-achieve-a-serverless-DevOps-workflow |
+| 7879 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/devops-as-a-service-migrating-your-entire-devops-stack-to-the-cloud |
+| 7880 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.com/geerlingguy/ansible-for-devops |
+| 7881 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://digital.ai/glossary |
+| 7882 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://digital.ai/learn/diagram-generator |
+| 7883 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://digital.ai/learn/devsecops-periodic-table |
+| 7884 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249 |
+| 7885 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://netflixtechblog.com/applying-netflix-devops-patterns-to-windows-2a57f2dbbf79 |
+| 7886 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/the-rise-of-netdevops-and-ci-cd-pipeline-solutions |
+| 7887 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://debuild.co |
+| 7888 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.seekwell.io |
+| 7889 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/the-coming-era-of-data-as-code |
+| 7890 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.arrikto.com/blog/what-is-data-as-code |
+| 7891 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://blogs.sap.com/2021/12/13/a-practical-guide-to-devops-for-sap-erp |
+| 7892 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.youtube.com/playlist?list=PLVx1qovxj-akoYTAboxT1AbHlPmrvRYYZ |
+| 7893 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.youtube.com/playlist?list=PLVx1qovxj-amqyqHceAhkcsopzi4PFcKc |
+| 7894 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.youtube.com/playlist?list=PLVx1qovxj-al0Knm1A0eEXfGyd5kCi16p |
+| 7895 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.youtube.com/playlist?list=PLVx1qovxj-akr_3XqQQgpqRyQw4GYuS4h |
+| 7896 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://platformengineering.org |
+| 7897 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/platform-engineering |
+| 7898 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.honeycomb.io/blog/future-ops-platform-engineering |
+| 7899 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/devops-burnout-try-platform-engineering |
+| 7900 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://softwareengineeringdaily.com/2020/02/13/setting-the-stage-for-platform-engineering |
+| 7901 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/how-is-platform-engineering-different-from-devops-and-sre |
+| 7902 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.salaboy.com/2022/11/28/the-challenges-of-platform-building-on-top-of-kubernetes-4-4 |
+| 7903 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.forbes.com/councils/forbestechcouncil/2023/02/23/how-to-empower-modern-kubernetes-management-with-a-platform-team-model/?streamIndex=0 |
+| 7904 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://dev.to/thenjdevopsguy/platform-engineering-on-kubernetes-part-4-internal-developer-platforms-1kmh |
+| 7905 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://dev.to/thenjdevopsguy/creating-your-platform-engineering-environment-4hpa |
+| 7906 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://siliconangle.com/2023/04/20/rise-platform-engineering-kubernetes-era-kubecon |
+| 7907 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.vcluster.com/blog/platform-engineering-the-definitive-guide |
+| 7908 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.infoworld.com/article/2338392/why-platform-engineering.html |
+| 7909 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://dev.to/aws-builders/platform-engineering-and-internal-developer-platform-3deb |
+| 7910 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://dev.to/thenjdevopsguy/what-is-platform-engineering-and-what-is-it-not-2jb8 |
+| 7911 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/the-6-pillars-of-platform-engineering-part-1-security |
+| 7912 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://humanitec.com/blog/how-to-design-your-repository-structures-to-nail-platform-engineering |
+| 7913 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.muycomputerpro.com/2024/01/12/ingenieria-de-plataformas-de-devops-la-nueva-generacion-de-devops |
+| 7914 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://humanitec.com/blog/escape-vmware-lock-in-with-a-modular-internal-developer-platform |
+| 7915 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.infoq.com/platformengineering |
+| 7916 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.infoq.com/articles/platform-runtime-engineering |
+| 7917 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.infoq.com/podcasts/platform-engineering-teams-10x-better |
+| 7918 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.syntasso.io/post/platform-engineering-orchestrating-applications-platforms-and-infrastructure |
+| 7919 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/5-lessons-for-building-a-platform-as-a-product |
+| 7920 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://gpustack.ai |
+| 7921 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://humanitec.com/blog/why-every-internal-developer-platform-needs-a-backend |
+| 7922 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://piotrminkowski.com/2024/07/04/idp-on-openshift-with-red-hat-developer-hub |
+| 7923 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.com/Qovery/Torii |
+| 7924 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.com/backstage/backstage |
+| 7925 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.port.io |
+| 7926 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.cortex.io |
+| 7927 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.atlassian.com/software/compass |
+| 7928 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.com/KusionStack/kusion |
+| 7929 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/technologies/cloud-computing/openshift |
+| 7930 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/channel/hybrid-cloud-infrastructure |
+| 7931 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.redhat.com/en |
+| 7932 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/openshift/origin |
+| 7933 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://commons.openshift.org |
+| 7934 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://x.com/openshift |
+| 7935 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://hub.docker.com/u/openshift |
+| 7936 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/livestreaming |
+| 7937 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.twitch.tv/redhatopenshift |
+| 7938 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/technologies/cloud-computing/openshift/dedicated |
+| 7939 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/technologies/cloud-computing/openshift/aws |
+| 7940 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.cloud.google.com/compute/docs/containers |
+| 7941 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/technologies/cloud-computing/openshift/azure |
+| 7942 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.ibm.com/products/openshift |
+| 7943 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://learn.microsoft.com/en-us/azure/developer/java/ee/jboss-eap-on-aro |
+| 7944 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/solutions/kubernetes-approach |
+| 7945 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.redhat.com/en/documentation/openshift_container_platform/4.4/html/cli_tools/openshift-cli-oc#cli-configuring-cli |
+| 7946 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.redhat.com/en/documentation/openshift_container_platform/3.11/html/cluster_administration/configuring-cluster-auto-scaler-aws |
+| 7947 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.redhat.com/en/documentation/openshift_container_platform/4.4/html/machine_management/applying-autoscaling |
+| 7948 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/resources |
+| 7949 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/resources/oreilly-kubernetes-operators-automation-ebook |
+| 7950 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.manning.com/books/openshift-in-action |
+| 7951 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://awesome-kubernetes.readthedocs.io/kubernetes/#e-books |
+| 7952 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/products/rhel |
+| 7953 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/redhatdemocentral/ocp-install-demo |
+| 7954 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.schabell.org/2020/05/cloud-native-development-a-blueprint.html |
+| 7955 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops/# |
+| 7956 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling |
+| 7957 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://gitlab.com/redhatdemocentral/portfolio-architecture-examples |
+| 7958 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/installing-okd-3-10-on-a-single-host |
+| 7959 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.youtube.com/watch?v=ZkFIozGY0IA |
+| 7960 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/gshipley/installcentos |
+| 7961 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/openshift/installer |
+| 7962 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/openshift-4-2-vsphere-install-quickstart |
+| 7963 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/openshift-4-2-vsphere-install-with-static-ips |
+| 7964 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.youtube.com/watch?v=DLB9m17aGus |
+| 7965 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/deploying-openshift-4.4-to-vmware-vsphere-7 |
+| 7966 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/blog/2019/02/27/sidecars-analyze-debug-network-traffic-kubernetes-pod |
+| 7967 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/blog/2020/01/01/skupper-io-let-your-services-communicate-across-kubernetes-clusters |
+| 7968 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/troubleshooting-openshift-network-performance-with-a-netperf-daemonset |
+| 7969 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/advanced-network-customizations-for-openshift-install |
+| 7970 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/adding-security-layers-to-your-app-on-openshift-part-1-deployment-and-tls-ingress-9ef752835599 |
+| 7971 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.redhat.com/en/documentation/openshift_container_platform/3.11/html/architecture/architecture-index |
+| 7972 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.redhat.com/en/documentation/openshift_container_platform/3.11/html/container_security_guide/security-platform |
+| 7973 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.redhat.com/en/documentation/openshift_container_platform/4.4/html/authentication_and_authorization/understanding-authentication |
+| 7974 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.redhat.com/en/documentation/openshift_container_platform/3.11/html/cluster_administration/admin-guide-manage-scc |
+| 7975 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.redhat.com/en/documentation/openshift_container_platform/3.11/html/architecture/additional-concepts#architecture-additional-concepts-authorization |
+| 7976 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/fully-automated-management-of-egress-ips-with-the-egressip-ipam-operator |
+| 7977 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/redhat-cop/openshift-toolkit/tree/master/networkpolicy |
+| 7978 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/kubernetes-ingress-vs-openshift-route |
+| 7979 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/how-to-enable-static-egress-ip-in-ocp |
+| 7980 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://catalog.redhat.com/en |
+| 7981 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/sclorg |
+| 7982 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/sclorg/mariadb-container |
+| 7983 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://about.gitlab.com/blog/get-started-with-openshift-origin-3-and-gitlab |
+| 7984 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/nubenetes/confluence6-atlassian |
+| 7985 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://hub.docker.com/r/sonatype/nexus3 |
+| 7986 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://opensource.com/article/22/1/rocketchat-data-privacy |
+| 7987 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/aws-and-red-hat-quickstart-workshop |
+| 7988 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://aws.amazon.com/quickstart/architecture/openshift |
+| 7989 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/introducing-red-hat-openshift-service-on-aws |
+| 7990 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/red-hat-openshift-dedicated-price-reduction |
+| 7991 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/oscp/awesome-openshift3 |
+| 7992 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/sindresorhus/awesome |
+| 7993 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://dev.to/playfulprogramming/the-awesome-side-of-github-awesome-lists-2a5h |
+| 7994 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://ramitsurana.github.io/awesome-kubernetes |
+| 7995 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/tomhuang12/awesome-k8s-resources |
+| 7996 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/jk8s/awesome-kubernetes |
+| 7997 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | http://dockerlabs.collabnix.com/kubernetes/kubetools |
+| 7998 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/magnologan/awesome-k8s-security |
+| 7999 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/ksoclabs/awesome-kubernetes-security |
+| 8000 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/rootsongjc/awesome-cloud-native |
+| 8001 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://unofficial-kubernetes.readthedocs.io/en/latest |
+| 8002 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/run-x/awesome-kubernetes |
+| 8003 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/clusterpedia-io/clusterpedia |
+| 8004 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/mikeroyal/Kubernetes-Guide |
+| 8005 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.fairwinds.com/blog/top-12-kubernetes-resources |
+| 8006 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/joseadanof/awesome-cloudnative-trainings |
+| 8007 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/calvin-puram/awesome-kubernetes-operator-resources |
+| 8008 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://free-for.dev |
+| 8009 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/tcnksm/awesome-container |
+| 8010 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/jyguyomarch/awesome-productivity |
+| 8011 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/inputsh/awesome-linux |
+| 8012 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/trimstray/the-book-of-secret-knowledge |
+| 8013 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/binhnguyennus/awesome-scalability |
+| 8014 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/bregman-arie/devops-exercises |
+| 8015 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/upgundecha/howtheysre |
+| 8016 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/yangshun/tech-interview-handbook |
+| 8017 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/unixorn/awesome-zsh-plugins |
+| 8018 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/developer-guy/awesome-falco |
+| 8019 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/runacapital/awesome-oss-alternatives |
+| 8020 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://awesome-architecture.com |
+| 8021 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/lorien/awesome-web-scraping |
+| 8022 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developer.hashicorp.com |
+| 8023 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/iximiuz/awesome-container-tinkering |
+| 8024 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/ran-isenberg/aws-lambda-handler-cookbook |
+| 8025 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/koslib/awesome-containerized-security |
+| 8026 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/steve-mt/awesome-slo |
+| 8027 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/Noovolari/awesome-cloudops |
+| 8028 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/collections/learn-to-code |
+| 8029 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/palark/awesome-devops-telegram |
+| 8030 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/terrytangyuan/awesome-kubeflow |
+| 8031 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/shahedbd/awesome-project-management |
+| 8032 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/lorabv/awesome-agile |
+| 8033 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/rayfrankenstein/AITOW |
+| 8034 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/kahun/awesome-sysadmin |
+| 8035 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://awesome.jimmysong.io |
+| 8036 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/saturnism/awesome-cloud-native-java |
+| 8037 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/pditommaso/awesome-pipeline |
+| 8038 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/robzienert/awesome-spinnaker |
+| 8039 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/awesome-soft/awesome-devops |
+| 8040 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/bregman-arie/devops-resources |
+| 8041 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/andredesousa/devops-best-practices |
+| 8042 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/MichaelCade/90DaysOfDevOps |
+| 8043 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/sottlmarek/DevSecOps |
+| 8044 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/hahwul/DevSecOps |
+| 8045 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/weaveworks/awesome-gitops |
+| 8046 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/microtica/gitops-resources |
+| 8047 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/dastergon/awesome-sre |
+| 8048 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/SquadcastHub/awesome-sre-tools |
+| 8049 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/mancubus77/awesome-sre |
+| 8050 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/awesome-sre/awesome-sre |
+| 8051 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/mfornos/awesome-microservices |
+| 8052 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/akuity/awesome-argo |
+| 8053 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/adriannovegil/awesome-observability |
+| 8054 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/donnemartin/awesome-aws |
+| 8055 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/GoogleCloudPlatform/awesome-google-cloud |
+| 8056 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/kristofferandreasen/awesome-azure |
+| 8057 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/simhol/awesome-azure |
+| 8058 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/jonleibowitz/awesome-digitalocean |
+| 8059 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/jimmyraywv/awesome-eks |
+| 8060 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/globalbao/awesome-azure-policy |
+| 8061 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/toniblyx/my-arsenal-of-aws-security-tools |
+| 8062 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/lukemurraynz/awesome-azure-architecture |
+| 8063 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/iam-veeramalla/Azure-zero-to-hero |
+| 8064 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/veggiemonk/awesome-docker |
+| 8065 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/docker/awesome-compose |
+| 8066 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://collabnix.github.io/docker-community-extensions |
+| 8067 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/jdauphant/awesome-ansible |
+| 8068 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/ansible-community/awesome-ansible |
+| 8069 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/dchonch/awesome-packer |
+| 8070 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/ElYusubov/AWESOME-Azure-Bicep |
+| 8071 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/sbilly/awesome-security |
+| 8072 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/myugan/awesome-docker-security |
+| 8073 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/open-policy-agent/awesome-opa |
+| 8074 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/tldrsec/awesome-secure-defaults |
+| 8075 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/atinfo/awesome-test-automation |
+| 8076 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/ligurio/sqa-wiki |
+| 8077 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/TheJambo/awesome-testing |
+| 8078 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/slawekradzyminski/AwesomeTesting |
+| 8079 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/aliesbelik/awesome-jmeter |
+| 8080 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/mailtoharshit/Awesome-Api-Management-Tools |
+| 8081 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/yangtao309/awesome-api-gateway |
+| 8082 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/viatsko/awesome-vscode |
+| 8083 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/akullpp/awesome-java |
+| 8084 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/PatrickJS/awesome-angular |
+| 8085 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/thangchung/awesome-dotnet-core |
+| 8086 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/charlax/professional-programming |
+| 8087 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.igoroseledko.com/bash-and-expect-snippets |
+| 8088 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/janikvonrotz/awesome-powershell |
+| 8089 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://awesomerank.github.io/lists/janikvonrotz/awesome-powershell.html |
+| 8090 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/oxnr/awesome-bigdata |
+| 8091 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/visenger/awesome-mlops |
+| 8092 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/ekramasif/Basic-Machine-Learning |
+| 8093 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/DataExpert-io/data-engineer-handbook |
+| 8094 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://opensource.builders |
+| 8095 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://dev.to/swordheath/great-github-repositories-that-developers-love-1g97 |
+| 8096 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://kustomize.io |
+| 8097 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://kubernetes.io/blog/2018/05/29/introducing-kustomize-template-free-configuration-customization-for-kubernetes |
+| 8098 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization |
+| 8099 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/kbst/terraform-kubestack |
+| 8100 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://tech.aabouzaid.com/2020/09/3-ways-to-customize-off-the-shelf-helm-charts-with-kustomize-kubernetes.html |
+| 8101 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://blog.stack-labs.com/code/kustomize-101 |
+| 8102 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/21/6/kustomize-kubernetes |
+| 8103 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://dev.to/katiatalhi/introduction-to-kustomize-how-to-customize-kubernetes-objects-3e08 |
+| 8104 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.mirantis.com/blog/introduction-to-kustomize-part-1-creating-a-kubernetes-app-out-of-multiple-pieces |
+| 8105 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://octopus.com/blog/applied-gitops-with-kustomize |
+| 8106 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://tech.aabouzaid.com/2022/11/set-openapi-patch-strategy-for-kubernetes-custom-resources-kustomize.html |
+| 8107 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.harness.io/blog/helm-vs-kustomize |
+| 8108 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/kostis-codefresh/gitops-environment-promotion |
+| 8109 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://dev.to/pavanbelagatti/kubernetes-kustomize-tutorial-a-beginner-friendly-developer-guide-322n |
+| 8110 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://devopscube.com/kustomize-tutorial |
+| 8111 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://courses.devopscube.com/l/products |
+| 8112 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://itnext.io/generating-transforming-and-patching-kubernetes-configuration-with-kustomize-fb7b02476a1b |
+| 8113 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/bbl/secretize |
+| 8114 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://itnext.io/helm-is-not-enough-you-also-need-kustomize-82bae896816e |
+| 8115 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/chrisns/k8s-opa-boilerplate |
+| 8116 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://americanexpress.io/do-not-run-dockerized-applications-as-root |
+| 8117 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.freecodecamp.org/news/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b |
+| 8118 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://labs.play-with-docker.com |
+| 8119 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/docker/build-push-action |
+| 8120 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/getting-started-with-docker-facts-you-should-know-d000e5815598 |
+| 8121 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://jfrog.com/learn/cloud-native/how-to-build-docker-images |
+| 8122 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://pythonspeed.com/articles/dockerizing-python-is-hard |
+| 8123 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://automationreinvented.blogspot.com/2020/02/top-18-docker-commands-for-aytomation.html |
+| 8124 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://css-tricks.com/a-gentle-introduction-to-using-a-docker-container-as-a-dev-environment |
+| 8125 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.docker.com/engine/context/ecs-integration |
+| 8126 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://martinheinz.dev/blog/35 |
+| 8127 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://adictosaltrabajo.com/2020/12/22/como-crear-y-desplegar-microservicios-con-spring-boot-spring-cloud-netflix-y-docker |
+| 8128 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.infoq.com/news/2021/01/docker-jfrog-partnership |
+| 8129 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://pythonspeed.com/articles/security-updates-in-docker |
+| 8130 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/blog/making-environment-variables-accessible-in-front-end-containers |
+| 8131 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.theskillpedia.com/managing-docker-images-openshift-tutorial |
+| 8132 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.r-bloggers.com/2021/05/dockerizing-shiny-applications |
+| 8133 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://pythonspeed.com/articles/docker-performance-overhead |
+| 8134 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://release.com/blog/cutting-build-time-in-half-docker-buildx-kubernetes |
+| 8135 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.linuxadictos.com/docker-presenta-nuevas-capacidades-para-desarrolladores.html |
+| 8136 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://grafana.com/docs/grafana-cloud/monitor-infrastructure/integrations/integration-reference/integration-docker |
+| 8137 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/hood/docker-cmd-vs-entrypoint-explaining-the-difference-55g7 |
+| 8138 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.gougousis.net/file-permissions-the-painful-side-of-docker |
+| 8139 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.returngis.net/2021/08/crea-hosts-de-docker-con-docker-machine-en-microsoft-azure |
+| 8140 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/kubona_my/docker-101-124e |
+| 8141 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.tecmint.com/install-docker-in-rocky-linux-and-almalinux |
+| 8142 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://adoptium.net/news/2021/08/using-jlink-in-dockerfiles |
+| 8143 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.returngis.net/2021/08/explorar-graficamente-el-contenido-de-un-volumen-de-docker |
+| 8144 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://opensource.com/article/21/8/container-image |
+| 8145 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.zdnet.com/article/docker-changes-its-subscription-plans-usage-rules-and-product-line |
+| 8146 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.servethehome.com/docker-abruptly-starts-charging-many-users-for-docker-desktop |
+| 8147 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://mattrickard.com/docker-desktop-alternatives |
+| 8148 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.aquasec.com/container-isolation-techniques |
+| 8149 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.infoworld.com/article/2269272/how-docker-broke-in-half.html |
+| 8150 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/tylerlwsmith/one-does-not-just-containerize-an-app-5eae |
+| 8151 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/abdorah/how-to-create-production-docker-image-ready-for-deployment-4bbe |
+| 8152 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/_nicolas_louis_/how-to-run-docker-on-windows-without-docker-desktop-hik |
+| 8153 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/paru429/beginner-s-guide-to-docker-and-docker-cli-commands-1p75 |
+| 8154 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.freecodecamp.org/news/learn-how-to-deploy-12-apps-to-aws-azure-google-cloud |
+| 8155 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.freecodecamp.org/news/why-you-should-start-using-docker-now |
+| 8156 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.infoworld.com/article/2270814/docker-really-did-change-the-world.html |
+| 8157 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://iximiuz.com/en/posts/container-learning-path |
+| 8158 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/the-time-to-decide-on-docker-desktop-has-arrived |
+| 8159 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.codeproject.com/Tips/5323808/How-To-Create-An-Image-In-Docker-Using-Python |
+| 8160 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/containers/how-to-share-data-between-docker-containers |
+| 8161 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://iximiuz.com/en/posts/containers-101-attach-vs-exec |
+| 8162 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.pluralsight.com/resources/blog/cloud/docker-copy-vs-add-whats-the-difference |
+| 8163 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/how-to-run-docker-in-rootless-mode |
+| 8164 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/dhravya/docker-explained-to-a-5-year-old-2cbg |
+| 8165 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.freecodecamp.org/news/docker-cache-tutorial |
+| 8166 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/signoz/docker-101-introduction-to-docker-1kbm |
+| 8167 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://devtron.ai/blog/cmd-and-entrypoint-differences |
+| 8168 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docker-curriculum.com |
+| 8169 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.hostinger.com/in/tutorials/what-is-docker |
+| 8170 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://viblo.asia/p/how-to-prevent-out-of-disk-space-when-using-docker-english-WR5JRDBrVGv |
+| 8171 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://iximiuz.com/en/posts/docker-publish-container-ports |
+| 8172 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://iximiuz.com/en/posts/docker-publish-port-of-running-container |
+| 8173 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/kameshsampath/simplify-your-dockerfile-1j5k |
+| 8174 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.youtube.com/watch?v=0mxhS7H6bxM |
+| 8175 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.codementor.io/blog/docker-technology-5x1kilcbow |
+| 8176 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/javinpaul/my-favorite-free-courses-to-learn-docker-and-containers-in-2023-1ldo |
+| 8177 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/itsahsanmangal/building-a-robust-cicd-pipeline-with-docker-a-comprehensive-guide-4k8b |
+| 8178 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/prasenjeetsymon/docker-from-zero-to-hero-part-1-3a45 |
+| 8179 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://devopscube.com/build-docker-image |
+| 8180 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.sysdig.com/learn-cloud-native/dockerfile-best-practices |
+| 8181 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://testdriven.io/blog/docker-best-practices |
+| 8182 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/techworld_with_nana/top-8-docker-best-practices-for-using-docker-in-production-1m39 |
+| 8183 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/karanpratapsingh/top-5-docker-best-practices-57oh |
+| 8184 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://stevelasker.blog/2018/03/01/docker-tagging-best-practices-for-tagging-and-versioning-docker-images |
+| 8185 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://spacelift.io/blog/docker-volumes |
+| 8186 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.netapp.com/us-en/trident/trident-docker/volumes-docker.html |
+| 8187 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://iximiuz.com/en/posts/docker-debug-slim-containers |
+| 8188 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.docker.com/reference/cli/docker/buildx/imagetools |
+| 8189 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/docker/9-docker-extensions-every-developer-must-try-1no2 |
+| 8190 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/Saniewski/mongo-express-docker-extension |
+| 8191 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/pabpereza/containers-best-practices |
+| 8192 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.testproject.io/2021/06/21/a-comparison-of-kubernetes-and-docker |
+| 8193 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://cloudnativenow.com/features/whats-the-difference-between-docker-and-kubernetes |
+| 8194 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://octopus.com/blog/docker-anti-patterns |
+| 8195 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://acloudguru.com/blog/engineering/10-docker-security-best-practices-to-cut-container-chaos |
+| 8196 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://brianchristner.io/how-to-use-docker-scan |
+| 8197 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://snyk.io/blog/10-docker-image-security-best-practices |
+| 8198 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.augmentedmind.de/2024/06/12/optimize-docker-image-security |
+| 8199 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.infoq.com/articles/securing-docker |
+| 8200 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.clickittech.com/devops/docker-security-best-practices |
+| 8201 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://securitylabs.datadoghq.com/articles/container-security-fundamentals-part-1 |
+| 8202 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/blog/2016/03/09/more-about-docker-images-size |
+| 8203 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itsopensource.com/how-to-reduce-node-docker-image-size-by-ten-times |
+| 8204 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.bitsrc.io/best-practices-for-writing-a-dockerfile-68893706c3 |
+| 8205 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://sequoia.makes.software/reducing-docker-image-size-particularly-for-kubernetes-environments |
+| 8206 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/building-docker-images-the-proper-way-3c9807524582 |
+| 8207 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.returngis.net/2021/08/reduce-el-tamano-de-tus-imagenes-con-dockerfiles-multi-stage |
+| 8208 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.root.io |
+| 8209 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://learnkube.com/blog/smaller-docker-images |
+| 8210 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | http://jpetazzo.github.io/2021/11/30/docker-build-container-images-antipatterns |
+| 8211 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/articles/2022/01/17/reduce-size-container-images-dockerslim |
+| 8212 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://piotrminkowski.com/2023/11/07/slim-docker-images-for-java |
+| 8213 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://bhupesh.me/publishing-my-first-ever-dockerfile-optimization-ugit |
+| 8214 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.nrmitchi.com/2020/10/one-simple-trick-for-building-images-faster/?utm_sq=gkugwn5n5s |
+| 8215 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://pythonspeed.com/articles/docker-buildkit |
+| 8216 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.inedo.com/devops/top-50-docker-tools |
+| 8217 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.infoq.com/news/2020/07/docker-ecs-plugin |
+| 8218 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/wagoodman/dive |
+| 8219 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/bcicen/ctop |
+| 8220 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/kooldev/use-kool-to-dockerize-your-local-development-environment-the-right-way-18gl |
+| 8221 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://sematext.com/capabilities/container-monitoring |
+| 8222 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/stepchowfun/docuum |
+| 8223 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/cybersecsi/RAUDI |
+| 8224 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/grosser/preoomkiller |
+| 8225 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/ory/dockertest |
+| 8226 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/hadolint/hadolint |
+| 8227 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://ttl.sh |
+| 8228 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/ktock/buildg |
+| 8229 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.infoq.com/news/2022/09/debug-dockerfiles-buildg |
+| 8230 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/jesseduffield/lazydocker |
+| 8231 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/containrrr/watchtower |
+| 8232 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://andrewlock.net/installing-docker-desktop-for-windows |
+| 8233 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.freecodecamp.org/news/a-beginners-guide-to-docker-how-to-create-a-client-server-side-with-docker-compose-12c8cf0ae0aa |
+| 8234 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.infoworld.com/article/2257118/dockers-compose-specification-is-now-an-open-standard.html |
+| 8235 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.theregister.com/software/2020/04/08/compose-yourselves-docker-has-published-multi-container-app-spec-needs-contributors-to-help-maintain-and-develop-it/311866 |
+| 8236 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://geshan.com.np/blog/2021/12/docker-postgres |
+| 8237 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://codesolid.com/how-to-use-docker-with-python |
+| 8238 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://release.com/blog/6-docker-compose-best-practices-for-dev-and-prod |
+| 8239 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | http://crunchtools.com/moving-linux-services-to-containers |
+| 8240 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://techcommunity.microsoft.com/blog/itopstalkblog/iis-central-certificate-store-and-windows-containers/4181509 |
+| 8241 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.portainer.io/install |
+| 8242 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/deploy-a-persistent-kubernetes-application-with-portainer |
+| 8243 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | http://crunchtools.com/comparison-linux-container-images |
+| 8244 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/blog/2020/03/24/red-hat-universal-base-images-for-docker-users |
+| 8245 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://hub.docker.com/u/redhat |
+| 8246 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/articles/2021/05/25/red-hat-universal-base-image-and-docker-hub-why-should-developers-care |
+| 8247 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/about/press-releases/red-hat-brings-red-hat-universal-base-image-docker-hub |
+| 8248 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.digitalocean.com/community/tags/docker |
+| 8249 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://buildpacks.io |
+| 8250 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.altoros.com/blog/streamlining-the-creation-of-docker-images-with-cloud-native-buildpacks |
+| 8251 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/container-images-the-easy-way-with-cloud-native-buildpacks |
+| 8252 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/pmbanugo/goodbye-dockerfiles-build-secure-optimised-nodejs-container-images-with-cloud-native-buildpacks-489p |
+| 8253 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://jfrog.com/learn/devops/alternatives-to-docker |
+| 8254 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/genuinetools/img |
+| 8255 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/GoogleContainerTools/jib |
+| 8256 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.docker.com/build/buildkit |
+| 8257 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.logrocket.com/docker-alternatives |
+| 8258 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/replace-docker-desktop-with-lima-88ec6f9d6a19 |
+| 8259 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://relnotes.k8s.io |
+| 8260 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.sysdig.com/blog/whats-new-kubernetes-1-20 |
+| 8261 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.zdnet.com/article/kubernetes-dropping-docker-is-not-that-big-of-a-deal |
+| 8262 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/kubernetes-1-20-lands-with-44-enhancements |
+| 8263 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/kubernetes-1-20-enhances-the-operator-experience-and-brings-new-features-to-the-container-runtime |
+| 8264 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/kubernetes-is-removing-docker-support-kubernetes-is-not-removing-docker-support |
+| 8265 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://devopscube.com/kubernetes-v1-21-released |
+| 8266 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/kubernetes-1-21-brings-a-new-memory-manager-more-flexible-scheduling |
+| 8267 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2021/04/09/kubernetes-release-1.21-cronjob-ga |
+| 8268 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2021/04/08/kubernetes-1-21-release-announcement |
+| 8269 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.devclass.com/containers/2021/04/09/kubernetes-121-unloads-pod-security-adds-dual-ipv4/ipv6-networking-and-shuts-down-gracefully/1623619 |
+| 8270 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2021/04/12/introducing-suspended-jobs |
+| 8271 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://analyticsindiamag.com/kubernetes-v1-21-released-major-updates-latest-features |
+| 8272 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/kubernetes-1.21-grows-innovative-new-features |
+| 8273 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://gist.github.com/jimangel/0014770713cdca8b363816930ef2520f |
+| 8274 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2021/04/23/kubernetes-release-1.21-metrics-stability-ga |
+| 8275 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.sysdig.com/blog/kubernetes-1-22-whats-new |
+| 8276 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2021/07/14/upcoming-changes-in-kubernetes-1-22 |
+| 8277 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2021/08/04/kubernetes-1-22-release-announcement |
+| 8278 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/less-is-more-with-kubernetes-1-22 |
+| 8279 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.pluralsight.com/resources/blog/cloud/whats-new-with-kubernetes-1-22 |
+| 8280 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2021/04/21/graceful-node-shutdown-beta |
+| 8281 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2021/08/11/kubernetes-1-22-feature-memory-manager-moves-to-beta |
+| 8282 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2021/11/12/are-you-ready-for-dockershim-removal |
+| 8283 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.sysdig.com/blog/kubernetes-1-23-whats-new |
+| 8284 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.armosec.io/blog/kubernetes-version-1-23-is-out-everything-you-should-know |
+| 8285 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/kubernetes-1-23-dual-stack-ipv4-ipv6-cronjobs-ephemeral-volumes |
+| 8286 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.aquasec.com/kubernetes-version-1.23-security-features |
+| 8287 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2021/12/07/kubernetes-1-23-release-announcement |
+| 8288 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.infoq.com/news/2022/01/kubernetes-dockershim-removal |
+| 8289 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2022/02/17/dockershim-faq |
+| 8290 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2021/07/20/new-kubernetes-release-cadence |
+| 8291 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://aws.amazon.com/blogs/containers/amazon-eks-now-supports-kubernetes-1-22 |
+| 8292 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.sysdig.com/blog/kubernetes-1-24-whats-new |
+| 8293 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2022/08/04/upcoming-changes-in-kubernetes-1-25 |
+| 8294 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.sysdig.com/blog/kubernetes-1-25-whats-new |
+| 8295 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2022/08/23/kubernetes-v1-25-release |
+| 8296 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2022/08/23/podsecuritypolicy-the-historical-context |
+| 8297 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.macchaffee.com/blog/2022/psp-deprecation |
+| 8298 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.datree.io/resources/eks-1-22-upgrade-tutorial |
+| 8299 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2022/11/28/registry-k8s-io-faster-cheaper-ga |
+| 8300 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.sysdig.com/blog/kubernetes-1-26-whats-new |
+| 8301 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.armosec.io/blog/kubernetes-1-26-everything-you-should-know |
+| 8302 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2022/12/16/kubernetes-1-26-non-graceful-node-shutdown-beta |
+| 8303 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2022/12/23/kubernetes-12-06-fsgroup-on-mount |
+| 8304 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2022/12/26/pod-scheduling-readiness-alpha |
+| 8305 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2022/12/27/cpumanager-ga |
+| 8306 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/unleashing-the-power-of-kubernetes-1-26-56979ee667fd |
+| 8307 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2022/12/29/scalable-job-tracking-ga |
+| 8308 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2022/12/30/advancements-in-kubernetes-traffic-engineering |
+| 8309 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.sysdig.com/blog/kubernetes-1-27-whats-new |
+| 8310 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2023/04/11/kubernetes-v1-27-release |
+| 8311 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/kubernetes-1-27-arrives |
+| 8312 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.armosec.io/blog/kubernetes-1-27-release |
+| 8313 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://aws.amazon.com/about-aws/whats-new/2023/05/aws-management-console-private-access |
+| 8314 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2023/05/12/in-place-pod-resize-alpha |
+| 8315 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/kubernetes-1-28-accommodates-the-service-mesh-sudden-outages |
+| 8316 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/ansible-collaborative?intcmp=7015Y000003t7aWQAQ |
+| 8317 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://docs.ansible.com |
+| 8318 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.edureka.co/blog/what-is-ansible |
+| 8319 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/20/9/install-packages-ansible |
+| 8320 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/20/9/ansible-modules-kubernetes |
+| 8321 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/19/2/quickstart-guide-ansible |
+| 8322 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/20/9/ansible |
+| 8323 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/20/10/calendar-ansible |
+| 8324 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/20/10/first-day-ansible |
+| 8325 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://siliconangle.com/2020/10/13/red-hat-ties-ansible-automation-kubernetes-cluster-management |
+| 8326 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://thenewstack.io/red-hat-brings-ansible-automation-to-kubernetes |
+| 8327 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/ansible-and-openshift-connecting-for-success |
+| 8328 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.zdnet.com/article/red-hat-expands-ansible-ready-to-run-cloud-programs |
+| 8329 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.theregister.com/software/2020/10/14/juggling-ansible-openshift-and-k8s-this-is-for-you-red-hat-couples-automation-to-cluster-management/656846 |
+| 8330 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/services/training/au094-ansible-essentials-simplicity-automation-technical-overview |
+| 8331 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/20/10/ansible-modules-linux |
+| 8332 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/renewed-thrill-ansible |
+| 8333 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/20/12/ansible-lab |
+| 8334 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/21/1/improve-ansible-play |
+| 8335 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/demystifying-ansible-sysadmins |
+| 8336 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/ansible-quick-start |
+| 8337 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/21/1/ansible |
+| 8338 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/ansible-network-resource-modules-deep-dive-on-return-values?sc_cid=7015Y000003t7aWQAQ |
+| 8339 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.linkedin.com/pulse/ansible-what-marcel-koert |
+| 8340 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/automate-reboot-ansible |
+| 8341 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://developer.okta.com/blog/2021/02/05/okta-ansible |
+| 8342 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/how-start-ansible |
+| 8343 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/21/2/ansible-origin-story |
+| 8344 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.toptechskills.com/ansible-tutorials-courses |
+| 8345 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/21/3/ansible-sysadmin |
+| 8346 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/developing-ansible-role |
+| 8347 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/engage/ansible-automation-platform-beginners-guide-ebook |
+| 8348 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/configure-gmail-using-ansible |
+| 8349 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/reverse-proxy-ansible |
+| 8350 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://groups.google.com/g/ansible-devel/c/CdQ7eWUUm8k?pli=1 |
+| 8351 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://fedoramagazine.org/using-ansible-to-configure-podman-containers |
+| 8352 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.pluralsight.com/resources/blog/cloud/ansible-vs-puppet-which-is-right-for-you |
+| 8353 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/install-ansible-way |
+| 8354 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/introduction-rhel-system-roles |
+| 8355 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://linuxtechlab.com/ansible-tutorial-simple-commands |
+| 8356 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://k21academy.com/devops/ansible-for-beginners |
+| 8357 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://analyticsindiamag.com/ansible-vs-docker-a-detailed-comparison-of-devops-tools |
+| 8358 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/6-code-pushes-aap |
+| 8359 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/ansible-create-users-csv |
+| 8360 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://dev.to/grayhat/devops-101-introduction-to-ansible-1n64 |
+| 8361 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/python-venv-ansible |
+| 8362 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/ansible-ad-hoc-commands |
+| 8363 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/software-packages-ansible |
+| 8364 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://developers.redhat.com/articles/2021/08/30/automate-red-hat-jboss-web-server-deployments-ansible |
+| 8365 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/ansible-templates-configuration |
+| 8366 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/ansiblefest-sysadmins |
+| 8367 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/21/9/keep-folders-tidy-ansible |
+| 8368 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://developers.redhat.com/articles/2021/09/27/four-reasons-developers-should-use-ansible |
+| 8369 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://vitux.com/how-to-speed-up-an-ansible-playbook |
+| 8370 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.youtube.com/watch?v=mc20VwxYaGE&t=3s&ab_channel=CLOUDLEARNHUB |
+| 8371 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/22/1/learn-ansible |
+| 8372 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://cloud.google.com/blog/products/operations/use-ansible-to-deploy-the-google-cloud-ops-agent |
+| 8373 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.cloudbees.com/blog/getting-started-quickly-with-ansible-ad-hoc-commands |
+| 8374 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/faster-ansible-playbook-execution |
+| 8375 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.middlewareinventory.com/blog/ansible-list-examples-how-to-create-and-append-items-to-list |
+| 8376 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.middlewareinventory.com/blog/ansible-dict |
+| 8377 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.middlewareinventory.com/blog/ansible-aws_s3-example |
+| 8378 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://techbeatly.com/ansible-for-infrastructure-provisioning-in-aws-ansible-real-life-series |
+| 8379 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/ansible-dynamic-inventories |
+| 8380 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/ansible-dynamic-inventory-python |
+| 8381 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/ansible-plugin-inventory-files |
+| 8382 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.dlford.io/ansible-orchestration-how-to-home-lab-part-10 |
+| 8383 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://learning-devops-tools-with-nandita.blogspot.com/2022/08/overview-of-ansible-and-ansible.html |
+| 8384 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://developers.redhat.com/articles/2022/10/25/how-install-vms-and-ansible-automation-platform-mac-m1 |
+| 8385 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://devopscube.com/setup-ansible-aws-dynamic-inventory |
+| 8386 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/creating-custom-rules-for-ansible-lint?intcmp=7015Y000003t7aWQAQ |
+| 8387 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/top-10-ansible-blogs-2022?sc_cid=7015Y000003t7aWQAQ |
+| 8388 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://tomsitcafe.com/2023/02/14/getting-started-with-ansible-playbooks-more-steps-towards-devops |
+| 8389 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://tomsitcafe.com/2023/02/17/conditional-statements-making-decisions-in-ansible-code |
+| 8390 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://tomsitcafe.com/2023/03/06/how-to-implement-and-use-handlers-in-ansible-code |
+| 8391 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://tomsitcafe.com/2023/03/13/configuration-file-blueprints-jinja2-templates-in-the-ansible-code |
+| 8392 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://tomsitcafe.com/2023/03/16/handling-sensitive-data-with-ansible-vault-encrypting-strings-instead-of-files |
+| 8393 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/kubernetes-meets-event-driven-ansible?intcmp=7015Y000003t7aWQAQ |
+| 8394 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://tomsitcafe.com/2023/05/11/lets-use-a-more-flexible-directory-structure-for-an-ansible-project |
+| 8395 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://tomsitcafe.com/2023/05/15/ansible-semaphore-a-modern-open-source-gui-for-our-ansible-automation |
+| 8396 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://tomsitcafe.com/2023/06/02/mastering-ansible-navigating-the-most-common-errors-and-mistakes |
+| 8397 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://tomsitcafe.com/2023/06/09/automating-apis-with-ansible-a-comprehensive-guide |
+| 8398 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://devopsinside.com/how-kubernetes-is-killing-tools-like-ansible |
+| 8399 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://community.ibm.com/community/user/blogs/daniel-jast1/2023/12/07/red-hat-aap-on-ibm-z-and-linuxone |
+| 8400 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://intellipaat.com/blog/ansible-vs-kubernetes-vs-docker |
+| 8401 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/ansible-lists-dictionaries-yaml |
+| 8402 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/naveensilver/Ansible |
+| 8403 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/technologies/management/ansible/ai-automation |
+| 8404 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/technologies/management/ansible/automation-coding-assistant |
+| 8405 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://mightyclaws.co.uk/bournemouth |
+| 8406 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://thenewstack.io/how-to-put-a-gui-on-ansible-using-semaphore |
+| 8407 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://infraxpertzz.com/deploying-custom-files-with-jinja2-template |
+| 8408 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/pallets/jinja |
+| 8409 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://docs.ansible.com/projects/ansible/latest/dev_guide/developing_modules_general.html |
+| 8410 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://techforce1.nl/creating-your-first-ansible-module |
+| 8411 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://linuxctl.com/2017/01/ansible---interacting-with-external-rest-api |
+| 8412 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://steampunk.si/blog/let-us-give-ansible-a-rest |
+| 8413 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/ansible-web-endpoints |
+| 8414 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/21/9/ansible-rest-apis |
+| 8415 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/technologies/management/ansible/application-delivery?sc_cid=7015Y000003t7aWQAQ |
+| 8416 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.youtube.com/playlist?list=PLOwxB_PX3s3WSfhzVtwhxXwy7QpkmtnzR |
+| 8417 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.youtube.com/playlist?list=PLWZKNB9waqIXEL-NIapWwIADPtkspe9vk |
+| 8418 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.youtube.com/watch?v=NgRuap0MmZw&ab_channel=XavkiEn |
+| 8419 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/k3s-io/k3s-ansible |
+| 8420 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/PyratLabs/ansible-role-k3s |
+| 8421 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://developers.redhat.com/articles/2021/09/28/set-modcluster-red-hat-jboss-web-server-ansible |
+| 8422 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.middlewareinventory.com/blog/ansible-playbook-example |
+| 8423 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/ansible-collections |
+| 8424 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/ansible-collections/amazon.aws |
+| 8425 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/Radware/radware-ansible |
+| 8426 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/based-validated-network-content?sc_cid=7015Y000003t7aWQAQ |
+| 8427 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/about/press-releases/red-hat-ansible-automation-platform-enhancements-and-new-certified-ansible-content-collections-refine-automation-experience-drive-business-imperatives |
+| 8428 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/ansible-collaborative?intcmp=7015Y000003t7aWQAQ/blog/now-available-red-hat-ansible-automation-platform-1.2 |
+| 8429 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://pypi.org/project/ansible-navigator |
+| 8430 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/ansible-collaborative?intcmp=7015Y000003t7aWQAQ/blog/introducing-ansible-automation-platform-2 |
+| 8431 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/datacenter-edge-open-hybrid-cloud-vision-red-hat-ansible-automation-platform-2 |
+| 8432 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/redefining-possibilities-it-automation-across-your-ecosystem-red-hat-partners |
+| 8433 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.crn.com/news/cloud/ibm-s-red-hat-reveals-ansible-automation-platform-2-early-access |
+| 8434 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://devops.com/red-hat-extends-scope-of-ansible-automation-ambitions |
+| 8435 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/about/press-releases/red-hat-ansible-automation-platform-2-drives-cloud-native-automation-and-helps-developers-become-automators |
+| 8436 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/whats-new-in-ansible-automation-platform-2-automation-controller?sc_cid=7015Y000003t7aWQAQ |
+| 8437 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/about/press-releases/red-hat-brings-industry-leading-ansible-automation-platform-microsoft-azure |
+| 8438 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/technologies/management/ansible?sc_cid=7015Y000003t7aWQAQ |
+| 8439 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://access.redhat.com/articles/4993781 |
+| 8440 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/automating-red-hat-satellite-with-ansible?sc_cid=7015Y000003t7aWQAQ |
+| 8441 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/21/3/ansible-collections |
+| 8442 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/announcing-the-red-hat-enterprise-linux-certified-ansible-collection?sc_cid=7015Y000003t7aWQAQ |
+| 8443 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.youtube.com/watch?app=desktop&v=AXnDrGgLaF0&feature=share&ab_channel=RobertdeBock |
+| 8444 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://docs.ansible.com/projects/ansible/latest/user_guide/playbooks.html |
+| 8445 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.linuxtechi.com/how-to-use-loops-in-ansible-playbook |
+| 8446 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.telekom-mms.com/blog |
+| 8447 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/troubleshoot-ansible-playbooks |
+| 8448 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/extra-variables-ansible-playbook |
+| 8449 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/technologies/management/ansible/automation-controller?sc_cid=7015Y000003t7aWQAQ |
+| 8450 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | http://legacy-controller-docs.ansible.com/ansible-tower |
+| 8451 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/ansible/awx |
+| 8452 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/ansible/awx-operator |
+| 8453 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/ansible-collaborative?intcmp=7015Y000003t7aWQAQ/blog/topic/ansible-tower |
+| 8454 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.linuxsysadmins.com/install-ansible-awx-on-kubernetes |
+| 8455 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://steampunk.si/blog/managing-infrastructure-using-ansible-tower |
+| 8456 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.maquinasvirtuales.eu/docker-swarm-instalar-ansible-awx |
+| 8457 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://galaxy.ansible.com/geerlingguy/awx |
+| 8458 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://galaxy.ansible.com/awx/awx |
+| 8459 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://portal.cloud.hashicorp.com/vagrant/discover/ansible/tower |
+| 8460 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://portal.cloud.hashicorp.com/vagrant/discover/krlex/centos-awx |
+| 8461 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/tom-256/ansible-awx-packer |
+| 8462 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/scorputty/packer-centos-awx |
+| 8463 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/jsmartin/ansible-tower-packer |
+| 8464 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://artifacthub.io/packages/search?ts_query_web=awx&sort=relevance&page=1 |
+| 8465 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://aws.amazon.com/marketplace/search/results?searchTerms=tower |
+| 8466 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.theforeman.org |
+| 8467 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/fast-vs-easy-benchmarking-ansible-operators-for-kubernetes?sc_cid=7015Y000003t7aWQAQ |
+| 8468 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://docs.ansible.com/projects/molecule |
+| 8469 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.jeffgeerling.com/blog/2018/testing-your-ansible-roles-molecule |
+| 8470 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/ansible-collaborative?intcmp=7015Y000003t7aWQAQ/hubfs/AnsibleFest%20ATL%20Slide%20Decks/Practical%20Ansible%20Testing%20with%20Molecule.pdf |
+| 8471 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/18/12/testing-ansible-roles-molecule |
+| 8472 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://tomsitcafe.com/2023/04/27/how-to-test-ansible-code-with-molecule |
+| 8473 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.ansiblefordevops.com |
+| 8474 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/engage/automated-enterprise-e-book?sc_cid=7013a0000034fMwAAI&dclid=COKjiau-upQDFXLuKAUdouAGMQ&gad_source=7 |
+| 8475 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/automateyournetwork/automate_your_network |
+| 8476 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://galaxy.ansible.com |
+| 8477 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://galaxy.ansible.com/geerlingguy |
+| 8478 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/ansible-system-role |
+| 8479 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/geerlingguy/ansible-role-docker |
+| 8480 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/Tronde/ansible-role-rhel-patchmanagement |
+| 8481 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/konstruktoid/ansible-hvault-inventory |
+| 8482 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://docs.ansible.com/projects/ansible/latest/collections/kubernetes/core/helm_module.html |
+| 8483 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://docs.ansible.com/projects/ansible/latest/collections/kubernetes/core/helm_plugin_module.html |
+| 8484 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.packetcoders.io/the-beginners-guide-to-the-ansible-inventory |
+| 8485 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://docs.ansible.com/projects/ansible/latest/scenario_guides/cloud_guides.html |
+| 8486 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/es/about/videos/ansible-automate-microsoft-azure |
+| 8487 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://adamtheautomator.com/ansible-kubernetes |
+| 8488 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://galaxy.ansible.com/nginxinc/nginx_core |
+| 8489 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.dynatrace.com/news/blog/achieve-faster-time-to-value-by-deploying-thousands-of-oneagents-at-once-with-ansible-preview |
+| 8490 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/mssql-linux-easy |
+| 8491 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://oci-ansible-collection.readthedocs.io/en/latest |
+| 8492 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/oravirt/ansible-oracle |
+| 8493 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/oravirt/ansible-oracle-modules |
+| 8494 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://oravirt.wordpress.com/2014/10/01/getting-started-with-ansible-oracle |
+| 8495 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://oravirt.wordpress.com/2014/11/05/changes-in-ansible-oracle-v1-2 |
+| 8496 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/abessifi/ansible-sqlplus |
+| 8497 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/ansistrano |
+| 8498 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://capistranorb.com |
+| 8499 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/21/9/ansible-anacron-automation |
+| 8500 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://opensource.com/article/21/2/linux-automation |
+| 8501 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.zdnet.com/article/theres-no-ops-like-noops-the-next-evolution-of-devops |
+| 8502 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://devops.com/is-noops-the-future-of-cloud-networking |
+| 8503 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://devops.com/serverless-computing-moving-from-devops-to-noops |
+| 8504 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://techbeacon.com/enterprise-it/7-arguments-against-noops |
+| 8505 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.cio.com/article/220351/what-is-noops-the-quest-for-fully-automated-it-operations.html |
+| 8506 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://devops.com/up-your-devops-game-its-time-for-noops |
+| 8507 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://learnkube.com/troubleshooting-deployments |
+| 8508 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://managedkube.com/kubernetes/trace/ingress/service/port/not/matching/pod/k8sbot/2019/02/13/trace-ingress.html |
+| 8509 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://tennexas.com/kubernetes-troubleshooting-examples |
+| 8510 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/sandboxed-containers-operator-from-zero-to-hero-the-hard-way-part-2 |
+| 8511 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://andydote.co.uk/2021/06/02/os-cpus-and-kubernetes |
+| 8512 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/6-kubernetes-best-practices-to-empower-devs-to-troubleshoot |
+| 8513 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.youtube.com/watch?v=93RlMqO4glM&t=6s&ab_channel=Kubevious |
+| 8514 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/living-with-kubernetes-debug-clusters-in-8-commands |
+| 8515 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.freecodecamp.org/news/how-to-simplify-kubernetes-troubleshooting |
+| 8516 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/distroless-container-debugging-on-k8s-openshift-e418fd66fdad |
+| 8517 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://speakerdeck.com/mhausenblas/kubecologne-keynote-troubleshooting-kubernetes-apps |
+| 8518 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.sysdig.com/blog/kubernetes-pod-pending-problems |
+| 8519 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.alexellis.io/troubleshooting-on-kubernetes |
+| 8520 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/what-david-flanagan-learned-fixing-kubernetes-clusters |
+| 8521 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/metaleapca/metaleap-k8s-troubleshooting/blob/main/metaleap-k8s-troubleshooting.pdf |
+| 8522 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.learnitguide.net/2023/04/how-to-troubleshoot-kubernetes-pods.html |
+| 8523 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.learnitguide.net/2023/04/how-to-check-memory-usage-of-pod-in.html |
+| 8524 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/kubernetes-troubleshooting-primer |
+| 8525 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.devzero.io/blog/kubernetes-autoscaling |
+| 8526 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.groundcover.com/blog/k8s-container-events |
+| 8527 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://decisivedevops.com/kubernetes-events-news-feed-of-your-kubernetes-cluster-826e08892d7a |
+| 8528 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/tracing-pod-to-pod-network-traffic-in-kubernetes-112523a325b2 |
+| 8529 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://komodor.com/learn/exit-codes-in-containers-and-kubernetes-the-complete-guide |
+| 8530 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://devtron.ai/blog/troubleshoot_crashloopbackoff_pod |
+| 8531 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://erkanerol.github.io/post/restartable-pods |
+| 8532 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.sysdig.com/blog/debug-kubernetes-crashloopbackoff |
+| 8533 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://komodor.com/learn/how-to-fix-crashloopbackoff-kubernetes-error |
+| 8534 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://cloudyuga.guru/blogs/k8s-qos-oomkilled |
+| 8535 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.sysdig.com/blog/troubleshoot-kubernetes-oom |
+| 8536 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/kubernetes-silent-pod-killer-104e7c8054d9 |
+| 8537 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.sysdig.com/blog/kubernetes-pod-evicted |
+| 8538 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/aylei/kubectl-debug |
+| 8539 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.vcluster.com/blog/using-kubernetes-ephemeral-containers-for-troubleshooting |
+| 8540 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/nvucinic/kdbg |
+| 8541 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kinvolk.io |
+| 8542 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/similarweb/statusbay |
+| 8543 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://towardsdatascience.com/the-easiest-way-to-debug-kubernetes-workloads-ff2ff5e3cc75 |
+| 8544 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.thorsten-hans.com/debugging-apps-in-kubernetes-with-bridge |
+| 8545 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://marketplace.visualstudio.com/items?itemName=mindaro.mindaro |
+| 8546 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/living-with-kubernetes-12-commands-to-debug-your-workloads |
+| 8547 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://opensource.googleblog.com/2022/01/Introducing%20Ephemeral%20Containers.html |
+| 8548 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.linkedin.com/pulse/kubernetes-ephemeral-containers-bibin-wilson |
+| 8549 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://iximiuz.com/en/posts/kubernetes-ephemeral-containers |
+| 8550 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/airwallex/k8s-pod-restart-info-collector |
+| 8551 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://komodor.com |
+| 8552 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://komodor.com/learn/kubernetes-troubleshooting-the-complete-guide |
+| 8553 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://palaemon.io |
+| 8554 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/iximiuz/cdebug |
+| 8555 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/felipecruz91/debug-ctr |
+| 8556 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubetools.io/mastering-kubernetes-debugging-and-troubleshooting-with-kubeshark-real-time-visibility-query-language-service-map-and-integrations |
+| 8557 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/how-kubernetes-provides-networking-and-storage-to-applications |
+| 8558 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/a-guide-to-running-stateful-applications-in-kubernetes |
+| 8559 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.forbes.com/sites/janakirammsv/2019/06/28/5-cloud-native-storage-startups-to-watch-out-for-in-2019 |
+| 8560 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.howtoforge.com/storage-in-kubernetes |
+| 8561 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/cloud-native/the-most-popular-cloud-native-storage-solutions |
+| 8562 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.blocksandfiles.com/container-storage/2020/12/22/storageless-storage-is-the-answer-to-kubernetes-data-challenges/1611647 |
+| 8563 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/what-is-cloud-native-storage |
+| 8564 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://softwareengineeringdaily.com/2019/01/11/why-is-storage-on-kubernetes-is-so-hard |
+| 8565 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/why-compute-and-storage-should-be-decoupled-for-log-management-at-scale |
+| 8566 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://gitlab.com/mrman/k8s-storage-provider-benchmarks |
+| 8567 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://marketplace.redhat.com/en-us/blog/dont-treat-kubernetes-storage-as-an-afterthought |
+| 8568 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/beyond-block-and-file-cosi-enables-object-storage-in-kubernetes |
+| 8569 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/when-is-decentralized-storage-the-right-choice |
+| 8570 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.storj.io/cloud-object-storage |
+| 8571 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/whats-the-biggest-gap-in-kubernetes-storage-architecture |
+| 8572 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.kylezsembery.com/persistent-storage-kubernetes |
+| 8573 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/stateful-workloads-on-kubernetes-with-container-attached-storage |
+| 8574 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/articles/2021/08/11/how-maximize-data-storage-microservices-and-kubernetes-part-1-introduction |
+| 8575 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.infoworld.com/article/2269961/kubernetes-object-storage-best-practices.html |
+| 8576 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/the-growth-of-state-in-kubernetes |
+| 8577 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/highly-available-nfs-cluster-in-kubernetes-a-cloud-vendor-independent-storage-solution-f9a314cfdfcc |
+| 8578 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.armosec.io/blog/kubernetes-data-storage |
+| 8579 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.infoq.com/articles/kubernetes-stateful-applications |
+| 8580 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://palark.com/blog/kubernetes-storage-performance-linstor-ceph-mayastor-vitastor |
+| 8581 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/temporary-storage-for-kubernetes-pods-f8330ad8db88 |
+| 8582 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://danielmangum.com/posts/k8s-asa-the-storage-interface |
+| 8583 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.kubermatic.com/blog/keeping-the-state-of-apps-5-introduction-to-storage-classes |
+| 8584 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/kubernetes-persistentvolume-and-persistentvolumeclaim-an-overview-with-examples-3c5688222f99 |
+| 8585 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/persistent-volumes-separating-compute-and-storage |
+| 8586 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/blog/2020/10/22/persistent-storage-in-action-understanding-red-hat-openshifts-persistent-volume-framework |
+| 8587 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/resizing-statefulset-persistent-volumes-with-zero-downtime-916ebc65b1d4 |
+| 8588 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kubernetes-sigs/sig-storage-local-static-provisioner |
+| 8589 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.linkedin.com/pulse/what-kubernetes-persistent-volumes-gyan-prakash-1f |
+| 8590 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://newrelic.com/blog/infrastructure-monitoring/how-to-use-kubernetes-volumes |
+| 8591 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.kubermatic.com/blog/keeping-the-state-of-apps-1-introduction-to-volume-and-volumemounts |
+| 8592 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://adamtheautomator.com/kubernetes-pvc |
+| 8593 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/openebs/zfs-localpv |
+| 8594 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://spacelift.io/blog/kubernetes-persistent-volumes |
+| 8595 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-volumes-example-nfs-persistent-volume.html |
+| 8596 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.digitalocean.com/community/questions/kuberntes-pvc-readwritemany-access-mode-alternative |
+| 8597 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/state-of-persistent-storage-in-k8s-a-benchmark-77a96bb1ac29 |
+| 8598 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/using-rook-on-a-k3s-cluster-8a97a75ba25e |
+| 8599 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.reduxio.com |
+| 8600 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://openebs.io |
+| 8601 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/openebs/dynamic-localpv-provisioner |
+| 8602 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/openebs/lvm-localpv |
+| 8603 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.blocksandfiles.com/block/2020/06/23/lightbits-labs-adds-kubernetes-table-stakes-csi-support/1598623 |
+| 8604 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://longhorn.io |
+| 8605 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/rancher-donates-its-longhorn-kubernetes-persistent-storage-software-to-cncf |
+| 8606 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/longhorn-simplifies-distributed-block-storage-in-kubernetes |
+| 8607 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://cloudnativenow.com/topics/cloudnativeplatforms/rancher-labs-adds-support-for-longhorn-storage-on-kubernetes-clusters |
+| 8608 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.techtarget.com/searchitchannel/definition/IBM-International-Business-Machines |
+| 8609 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://linbit.com/kubernetes |
+| 8610 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.iomesh.com |
+| 8611 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.blocksandfiles.com/block/2021/08/05/kubernetes-storage-smartxs-iomesh-beats-portworx-longhorn-and-openebs/1617691 |
+| 8612 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.iomesh.com/blog/announcing_iomesh_preview |
+| 8613 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.min.io |
+| 8614 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/libopenstorage/stork |
+| 8615 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://simplyblock.io |
+| 8616 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes-csi.github.io |
+| 8617 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kubernetes-csi |
+| 8618 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kubernetes-csi/csi-driver-smb |
+| 8619 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/yandex-cloud/k8s-csi-s3 |
+| 8620 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://sklar.rocks/how-container-storage-interface-works |
+| 8621 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://next.redhat.com/2021/08/23/introducing-volsync-your-data-anywhere |
+| 8622 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | http://aws.amazon.com/big-data |
+| 8623 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | http://blogs.aws.amazon.com/bigdata |
+| 8624 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/big-data/querying-amazon-kinesis-streams-directly-with-sql-and-spark-streaming |
+| 8625 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/big-data/using-spark-sql-for-etl |
+| 8626 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.whizlabs.com/blog/kinesis-vs-kafka |
+| 8627 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/what-is/data-lake |
+| 8628 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/glue |
+| 8629 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://docs.aws.amazon.com/data-pipeline |
+| 8630 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/big-data/category/analytics/aws-data-pipeline |
+| 8631 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.techtarget.com/searchitoperations/news/252467102/Kubernetes-policy-project-takes-enterprise-IT-by-storm |
+| 8632 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://aws.amazon.com/blogs/containers/policy-based-countermeasures-for-kubernetes-part-1 |
+| 8633 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://blog.gitguardian.com/what-is-policy-as-code-an-introduction-to-open-policy-agent |
+| 8634 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.openpolicyagent.org |
+| 8635 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://snyk.io/blog |
+| 8636 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/policy-hub/policy-hub-cli |
+| 8637 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/instrumenta/policies |
+| 8638 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://thenewstack.io/getting-open-policy-agent-up-and-running |
+| 8639 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://thenewstack.io/weaveworks-adds-policy-as-code-to-secure-kubernetes-apps |
+| 8640 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://dev.to/permit_io/load-external-data-into-opa-the-good-the-bad-and-the-ugly-26lc |
+| 8641 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.kubermatic.com/blog/using-open-policy-agent-with-kubermatic |
+| 8642 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/raspbernetes/k8s-security-policies |
+| 8643 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/fine-grained-policy-enforcement-in-openshift-with-open-policy-agent |
+| 8644 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/open-policy-agent/contrib/tree/main/wasm/cloudflare-worker |
+| 8645 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://snyk.io/product/container-vulnerability-management |
+| 8646 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://thenewstack.io/yor-automates-tagging-for-infrastructure-as-code |
+| 8647 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://yor.io |
+| 8648 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.checkov.io |
+| 8649 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://aws.amazon.com/es/blogs/containers/policy-based-countermeasures-for-kubernetes-part-1 |
+| 8650 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/selefra/selefra |
+| 8651 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://neonmirrors.net/post/2021-02/kubernetes-policy-comparison-opa-gatekeeper-vs-kyverno |
+| 8652 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://dev.to/rinkiyakedad/using-kyverno-to-enforce-eks-best-practices-cad |
+| 8653 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://kyverno.io/docs/writing-policies/mutate |
+| 8654 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.squadcast.com/blog/kyverno-policy-management-in-kubernetes |
+| 8655 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://neonmirrors.net/post/2020-12/exploring-kyverno-part3 |
+| 8656 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://kyverno.io/policies/best-practices/check_deprecated_apis |
+| 8657 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://kyverno.io/docs/writing-policies/generate/#generating-resources-into-existing-namespaces |
+| 8658 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://kyverno.io/policies/other/add-pod-proxies |
+| 8659 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://kyverno.io/docs/writing-policies/autogen |
+| 8660 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://kyverno.io/policies/other/require_pdb |
+| 8661 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://nirmata.com/2021/08/12/kubernetes-supply-chain-policy-management-with-cosign-and-kyverno |
+| 8662 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://neonmirrors.net/post/2020-11/exploring-kyverno-intro |
+| 8663 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://nirmata.com/2021/08/18/introducing-kyverno-1-4-2-trusted-and-more-efficient |
+| 8664 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.techtarget.com/searchitoperations/news/252505548/CNCF-policy-as-code-project-bridges-Kubernetes-security-gaps |
+| 8665 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/kyverno/policy-reporter |
+| 8666 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.sesin.at/2021/08/28/securing-kubernetes-with-kyverno-how-to-protect-your-users-from-themselves-by-ritesh-patel |
+| 8667 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://dev.to/niveditacoder/default-kyverno-policies-for-openebs-4abf |
+| 8668 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/automate-your-security-practices-and-policies-on-openshift-with-kyverno |
+| 8669 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/kubernetes/kubernetes/issues/126811 |
+| 8670 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://kyverno.io/policies/best-practices/restrict_image_registries/restrict_image_registries |
+| 8671 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://dev.to/mda590/using-kyverno-policies-for-kubernetes-governance-3e17 |
+| 8672 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://kyverno.io/policies/best-practices/require_probes/require_probes |
+| 8673 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.youtube.com/watch?v=0TvhTXddRGE&t=12s |
+| 8674 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://blog.sigstore.dev/how-to-verify-container-images-with-kyverno-using-kms-cosign-and-workload-identity-1e07d2b85061 |
+| 8675 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.appsecengineer.com/courses-collection/kubernetes-policy-management-with-kyverno |
+| 8676 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/cloud-custodian/cloud-custodian |
+| 8677 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.sysdig.com |
+| 8678 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.sysdig.com/blog/sysdig-and-apolicy-join-forces-to-help-customer-secure-infrastructure-as-code |
+| 8679 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://code.visualstudio.com |
+| 8680 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://vscode.github.com |
+| 8681 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://code.visualstudio.com/docs/sourcecontrol/overview |
+| 8682 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://bitbucket.org/atlassianlabs/atlascode/issues/112/cannot-activate-the-atlassian-for-vscode |
+| 8683 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://gist.github.com/hxlnt/60d0e62efdb973e221e585e2b990bfd6 |
+| 8684 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://devblogs.microsoft.com/python/need-an-intro-to-vs-code-let-tech-with-tim-help |
+| 8685 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://learn.microsoft.com/en-us/visualstudio/docker/tutorials/docker-tutorial |
+| 8686 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://thenewstack.io/this-week-in-programming-all-hail-visual-studio-code |
+| 8687 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://blogs.windows.com/msedgedev/2020/10/01/microsoft-edge-tools-vscode |
+| 8688 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.39digits.com/signed-git-commits-on-wsl2-using-visual-studio-code |
+| 8689 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/watch?v=ybCxPHzRJfA&ab_channel=VisualStudioCode |
+| 8690 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://dev.to/appmap/video-visualize-the-architecture-of-your-java-app-in-vs-code-in-2-minutes-568j |
+| 8691 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://guide.sst.dev/examples/how-to-debug-lambda-functions-with-visual-studio-code.html |
+| 8692 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://github.blog/news-insights/product-news/create-pull-requests-in-vscode |
+| 8693 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://dev.to/colbygarland/using-vs-code-to-git-rebase-1lc |
+| 8694 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.freecodecamp.org/news/10-vscode-extensions-to-increase-productivity |
+| 8695 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://dev.to/amanhimself/how-to-configure-vscode-bracket-pair-colors-natively-3nl |
+| 8696 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://realpython.com/advanced-visual-studio-code-python |
+| 8697 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://blog.openreplay.com/8-cool-vs-code-tips-to-make-your-workspace-more-personal |
+| 8698 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://dev.to/playfulprogramming/visual-studio-code-tips-tricks-command-palette-and-its-friends-2bhi |
+| 8699 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://dev.to/playfulprogramming/visual-studio-code-tips-tricks-snippets-5041 |
+| 8700 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://dev.to/jcofman/make-vs-code-better-by-editing-and-updating-some-settings-4m9a |
+| 8701 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.freecodecamp.org/news/best-colorful-vscode-extensions-for-productivity |
+| 8702 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://dev.to/tmchuynh/vscode-extensions-im-in-love-with-oab |
+| 8703 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://austingil.com/vs-code-timeline-restores-work-git-cant |
+| 8704 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://developers.redhat.com/articles/2023/02/14/remote-container-development-vs-code-and-podman |
+| 8705 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://visualstudio.microsoft.com/services/live-share |
+| 8706 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.freecodecamp.org/news/how-to-use-markdown-in-vscode |
+| 8707 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://code.visualstudio.com/updates/v1_120 |
+| 8708 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf |
+| 8709 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf |
+| 8710 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf |
+| 8711 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com |
+| 8712 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/publishers/Microsoft |
+| 8713 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/publishers/redhat |
+| 8714 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/publishers/AmazonWebServices |
+| 8715 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/publishers/GoogleCloudTools |
+| 8716 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/publishers/Oracle |
+| 8717 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens |
+| 8718 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://github.com/gitkraken/vscode-gitlens#interactive-rebase-editor- |
+| 8719 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph |
+| 8720 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments |
+| 8721 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one |
+| 8722 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=livepdm.auto-markdown-toc-ax1 |
+| 8723 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode |
+| 8724 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare |
+| 8725 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig |
+| 8726 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=pnp.polacode |
+| 8727 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint |
+| 8728 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow |
+| 8729 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer |
+| 8730 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=jock.svg |
+| 8731 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://github.com/microsoft/vscode-python |
+| 8732 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://dev.to/duckinm/superb-vscode-extensions-changing-your-coding-life-2cmb |
+| 8733 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.c-sharpcorner.com/article/the-best-vs-code-extensions-for-remote-working |
+| 8734 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.freecodecamp.org/news/vs-code-extensions-to-increase-developer-productivity |
+| 8735 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://dev.to/azure/my-top-5-visual-studio-code-extensions-for-azure-developers-1odo |
+| 8736 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint |
+| 8737 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets |
+| 8738 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight |
+| 8739 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-todo-plus |
+| 8740 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree |
+| 8741 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel |
+| 8742 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens |
+| 8743 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker |
+| 8744 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv |
+| 8745 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest |
+| 8746 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio |
+| 8747 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log |
+| 8748 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense |
+| 8749 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github |
+| 8750 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=angryobject.react-pure-to-class-vscode |
+| 8751 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?utm_sq=ggv6n6jy52&itemName=Tim-Koehler.helm-intellisense&ssr=false#overview |
+| 8752 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=msazurermtools.azurerm-vscode-tools |
+| 8753 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://developers.redhat.com/blog/2020/11/16/devfiles-and-kubernetes-cluster-support-in-openshift-connector-0-2-0-extension-for-vs-code |
+| 8754 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.freecodecamp.org/news/vs-code-extensions-to-boost-your-development-productivity |
+| 8755 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=dannysteenman.cloudformation-yaml-snippets |
+| 8756 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=github.vscode-github-actions |
+| 8757 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=xyz.local-history |
+| 8758 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://code.visualstudio.com/blogs/2021/06/10/remote-repositories |
+| 8759 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://code.visualstudio.com/docs/azure/kubernetes |
+| 8760 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub |
+| 8761 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://github.com/vscode-kubernetes-tools/vscode-kubernetes-tools |
+| 8762 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://snyk.io/blog/securing-open-source-dependencies-snyk-visual-studio-code-extension |
+| 8763 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.prisma.io/blog/vscode-extension-prisma-rust-webassembly |
+| 8764 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=SebastianBille.iam-legend |
+| 8765 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=TeamHub.teamhub |
+| 8766 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://dev.to/gitlive/gitlive-now-works-with-any-git-repository-in-vs-code-304o |
+| 8767 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring |
+| 8768 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice |
+| 8769 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap |
+| 8770 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=Weaveworks.vscode-gitops-tools |
+| 8771 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=dag-andersen.kubernetes-reference-highlighter |
+| 8772 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.freecodecamp.org/news/increase-your-vs-code-productivity |
+| 8773 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff |
+| 8774 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=kennylong.kubernetes-yaml-formatter |
+| 8775 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=GitHub.copilot |
+| 8776 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://code.visualstudio.com/docs/copilot/overview |
+| 8777 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://techcommunity.microsoft.com/blog/azureinfrastructureblog/unleashing-github-copilot-for-infrastructure-as-code/4124031 |
+| 8778 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://blog.logrocket.com/top-10-vs-code-extensions-2021 |
+| 8779 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://dev.to/ranga_vadhineni/thunder-client-http-client-extension-for-vs-code-30i9 |
+| 8780 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.c-sharpcorner.com/article/the-best-vs-code-extensions-to-supercharge-git |
+| 8781 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://dev.to/harishash/vs-code-extensions-to-increase-your-productivity-eeb |
+| 8782 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://dev.to/thenomadevel/top-5-best-git-extensions-for-vs-code-you-must-have-40b6 |
+| 8783 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme |
+| 8784 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode |
+| 8785 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=salesforce.codey-midnight |
+| 8786 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=juanmnl.vscode-theme-1984 |
+| 8787 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula |
+| 8788 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://draculatheme.com/pro |
+| 8789 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode |
+| 8790 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme |
+| 8791 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=Atlassian.atlascode |
+| 8792 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=gitlab.gitlab-workflow |
+| 8793 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools |
+| 8794 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.kind-vscode |
+| 8795 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=hashicorp.terraform |
+| 8796 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode |
+| 8797 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/azuredevops |
+| 8798 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=vector-of-bool.gitflow |
+| 8799 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=GreatMinds.gitflow4code |
+| 8800 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=SemihOnay.jiraux |
+| 8801 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=Fatih.baba-flow |
+| 8802 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=janjoerke.jenkins-pipeline-linter-connector |
+| 8803 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=secanis.jenkinsfile-support |
+| 8804 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=ivory-lab.jenkinsfile-support |
+| 8805 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=jmMeessen.jenkins-declarative-support |
+| 8806 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://marketplace.visualstudio.com/items?itemName=alefragnani.jenkins-status |
+| 8807 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://code.visualstudio.com/docs/terminal/basics |
+| 8808 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://developers.redhat.com/articles/2021/12/13/remote-debugging-kubernetes-using-vs-code# |
+| 8809 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://github.com/metalbear-co/mirrord |
+| 8810 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://kenneth.io/post/introducing-remote-debugging-of-nodejs-apps-on-azure-app-service-from-vs-code-in-public-preview |
+| 8811 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://devblogs.microsoft.com/python/python-in-visual-studio-code-september-2020-release |
+| 8812 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://devblogs.microsoft.com/python/python-in-visual-studio-code-january-2021-release |
+| 8813 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://realpython.com/python-development-visual-studio-code |
+| 8814 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://github.com/golang/vscode-go/blob/master/README.md |
+| 8815 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://go.dev/blog/gopls-vscode-go |
+| 8816 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://github.com/microsoft/mindaro |
+| 8817 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://replit.com |
+| 8818 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://thenewstack.io/gitpod-open-sources-a-holistic-ide |
+| 8819 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://piotrminkowski.com/2020/08/03/development-on-kubernetes-ide-tools |
+| 8820 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.redhat.com/en/blog/visual-web-terminal-a-turbocharged-command-line-for-kubernetes-and-openshift |
+| 8821 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://chromeos.dev/en/linux |
+| 8822 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.jetbrains.com/fleet |
+| 8823 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.softzone.es/noticias/programas/conoce-fleet-ide-ultraligero-mano-jetbrains |
+| 8824 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://thenewstack.io/are-cloud-based-ides-the-future-of-software-engineering |
+| 8825 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://github.dev/github/dev |
+| 8826 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://ona.com |
+| 8827 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://ona.com/stories/gitpod-is-now-ona |
+| 8828 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://github1s.com |
+| 8829 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://vscode.dev |
+| 8830 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/@code/shorts |
+| 8831 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/WzlpGnbNPH4 |
+| 8832 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/6NFR5MsHM_4 |
+| 8833 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/G5580-DxQuw |
+| 8834 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/Q2RrAdWmn_M |
+| 8835 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/uzC1PP73d9I |
+| 8836 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/t322UnzV9vM |
+| 8837 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/dDtueNAFELo |
+| 8838 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/AGFvs2pT1VQ |
+| 8839 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/VqOVb76IyI4 |
+| 8840 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/HyhSDvaaRwM |
+| 8841 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/0xq_ZYfl6Vk |
+| 8842 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/hdmaP4ibJ4I |
+| 8843 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/X3wgBid4gO8 |
+| 8844 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/y55a7NAiHiI |
+| 8845 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/hmq195GRYCI?si=8knOM1y50V6JcRlk |
+| 8846 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/0N-NFIfy5lI |
+| 8847 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/70voiUcMk_I |
+| 8848 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/p-H7Q9PtSc8 |
+| 8849 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/ToGRhGvo62k |
+| 8850 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/-hvEdSI8ziE |
+| 8851 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/cLokEWqTuds |
+| 8852 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/KQB8FRoJaH4 |
+| 8853 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/t5vXCNIBVYw |
+| 8854 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/6IwjxcDbVW0 |
+| 8855 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/cTE0ec3IurE |
+| 8856 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/0h1xNFsEZBU |
+| 8857 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/OfsixF-splk |
+| 8858 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/8iVaeLjzY6s |
+| 8859 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/nMJBbH7g1M4 |
+| 8860 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/bVlIo4H0IDU |
+| 8861 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/i0V1bHybv5w?si=y42F3QjNFVouu3s8 |
+| 8862 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/rjmXBs5l_7M?si=UlQ4q1-B-JOiYwrn |
+| 8863 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/vpFF1XSqWjw?si=Zr2eW_C3_3hQoXAa |
+| 8864 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/yuzKp_KsGIk?si=ooaqRJzW2cmf6Z2M |
+| 8865 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/shorts/KZHI5RMmFk0 |
+| 8866 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://devopslibrary.com |
+| 8867 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/channel/UCv9MUffHWyo2GgLIDLVu0KQ |
+| 8868 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/wardviaene |
+| 8869 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/yankils/Simple-DevOps-Project |
+| 8870 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://dev.to/sowmenappd/build-a-highly-available-node-js-application-using-docker-nginx-and-aws-elb-3cjp |
+| 8871 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://linuxtechlab.com/learn-create-dockerfile-example |
+| 8872 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/jose-r-lopez/SSI_Infraestructure_Automation_Materials |
+| 8873 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/learning-cloud-native-go/myapp |
+| 8874 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://labs.demoredhat.com/demos |
+| 8875 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/network-automation/toolkit |
+| 8876 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://blog.stephane-robert.info/post/ansible-utiliser-mysql-comme-inventaire-dynamique |
+| 8877 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://opensource.com/article/20/10/kubernetes-minecraft-ansible |
+| 8878 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://galaxy.ansible.com/ansible/product_demos |
+| 8879 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/build-VM-fast-ansible |
+| 8880 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/tutorial-gitops-in-multicluster-environments-with-anthos-config-management |
+| 8881 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.mytechramblings.com/posts/gitops-with-azure-devops-helm-acr-flux-and-k8s |
+| 8882 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=HSjm6-ACmWQ&ab_channel=JFrog |
+| 8883 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/todaywasawesome/oss-apps |
+| 8884 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/learnk8s/free-kubernetes |
+| 8885 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/eon01/kubernetes-workshop |
+| 8886 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/wardviaene/kubernetes-course |
+| 8887 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/kubernetes-course/container_workshops |
+| 8888 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/mautic/docker-mautic |
+| 8889 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.howtoforge.com/create-a-deployment-in-kubernetes |
+| 8890 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://codeburst.io/getting-started-with-kubernetes-deploy-a-docker-container-with-kubernetes-in-5-minutes-eb4be0e96370 |
+| 8891 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://archive.kabisa.nl/tech/k8s-workshop-in-a-box |
+| 8892 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/k8s-raise-statefulset-volume-size-with-low-impact-33fe1e2576f6 |
+| 8893 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/ContainerSolutions/kubernetes-examples |
+| 8894 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://blog.scottlowe.org/2020/06/16/using-kubectl-via-an-ssh-tunnel |
+| 8895 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://shipa.io/deploying-applications-on-kubernetes |
+| 8896 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://shipa.io/a-real-world-application-deployment-on-kubernetes |
+| 8897 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://shipa.io/gitops |
+| 8898 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://shipa.io/a-developer-focused-ci-cd-pipeline-for-kubernetes |
+| 8899 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://kruyt.org/running-a-mailserver-in-kubernetes |
+| 8900 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://piotrminkowski.com/2020/09/29/rabbitmq-monitoring-on-kubernetes/?utm_sq=gl0f6vph5e |
+| 8901 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/nfrankel/jvm-controller |
+| 8902 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-ingress-guide-nginx-example.html |
+| 8903 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/blog/2021/03/09/deploying-node-js-applications-to-kubernetes-with-nodeshift-and-minikube |
+| 8904 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://dev.to/douglasmakey/implementing-a-simple-k8s-admission-controller-in-go-2dcg |
+| 8905 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/developer-guy/kubernetes-cluster-setup-using-terraform-and-k3s-on-digitalocean |
+| 8906 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://piotrminkowski.com/2021/10/25/kubernetes-multicluster-with-kind-and-cilium |
+| 8907 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/todaywasawesome/atomic-cluster |
+| 8908 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=4DUhc0MjdUc&feature=youtu.be&ab_channel=MohamedRadwan-DevOps |
+| 8909 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.howtoforge.com/how-to-deploy-your-first-pod-on-a-kubernetes-cluster |
+| 8910 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/AdminTurnedDevOps/kubernetes-examples |
+| 8911 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/AdminTurnedDevOps/kubernetes-in-production-examples |
+| 8912 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://webhooks.app |
+| 8913 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/journey-of-a-microservice-application-in-the-kubernetes-world-bdfe795532ef |
+| 8914 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.digitalocean.com/community/tutorials/how-to-deploy-a-scalable-and-secure-django-application-with-kubernetes |
+| 8915 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://dev.to/mkalioby/django-apps-on-kubernetes-2edo |
+| 8916 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://palark.com/blog/our-experience-with-postgres-operator-for-kubernetes-by-zalando |
+| 8917 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://teletype.in/@sravancynixit/CcwqFANxY |
+| 8918 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://piotrminkowski.com/2020/12/18/spring-boot-on-kubernetes-with-buildpacks-and-skaffold |
+| 8919 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://spring.io/blog/2021/01/04/ymnnalft-easy-docker-image-creation-with-the-spring-boot-maven-plugin-and-buildpacks |
+| 8920 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://start.spring.io |
+| 8921 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://codeburst.io/kubernetes-ckad-weekly-challenges-overview-and-tips-7282b36a2681 |
+| 8922 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/stefanprodan/gitops-istio |
+| 8923 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://blog.alexellis.io/a-bit-of-istio-before-tea-time |
+| 8924 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developer.hashicorp.com/consul/tutorials/get-started-kubernetes/kubernetes-gs-deploy?in=consul%2Fkubernetes |
+| 8925 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developer.hashicorp.com/consul/docs/north-south/ingress-gateway/k8s |
+| 8926 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.suse.com/c/rancher_blog/deploy-a-rancher-cluster-with-gitlab-ci-and-terraform |
+| 8927 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/maximize-k3s-resource-efficiency-with-calico-ebpf-data-plane |
+| 8928 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=W_rcYPZkhFg&ab_channel=RedHat |
+| 8929 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/fluxcd/flux2-kustomize-helm-example |
+| 8930 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://docs.aws.amazon.com/eks/latest/userguide/sample-deployment.html |
+| 8931 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://aws.amazon.com/blogs/opensource/git-push-deploy-app-eks-gitkube |
+| 8932 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://docs.stacksimplify.com/aws-eks/aws-devops-eks/learn-to-master-devops-on-aws-eks-using-aws-codecommit-codebuild-codepipeline |
+| 8933 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/stacksimplify/aws-eks-kubernetes-masterclass |
+| 8934 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/hbollon/k8s-voting-app-aws |
+| 8935 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://learn.microsoft.com/en-us/shows/azure-friday/troubleshoot-aks-cluster-issues-with-aks-diagnostics-and-aks-periscope |
+| 8936 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://trstringer.com/deploy-to-aks-from-github-actions |
+| 8937 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://cloud.google.com/blog/products/operations/troubleshooting-services-on-google-kubernetes-engine |
+| 8938 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/MatthewCYLau/gcp-react-gke-terraform |
+| 8939 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/MatthewCYLau/node-express-typescript-k8-gke |
+| 8940 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://opensource.com/article/21/12/kubernetes-gatekeeper |
+| 8941 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://move2kube.konveyor.io |
+| 8942 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://gitlab.com/redhatdemocentral |
+| 8943 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://gitlab.com/redhatdemocentral/rhcs-rhdm-install-demo |
+| 8944 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=CJMdSQVFVik |
+| 8945 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/blob/main/healthcare.adoc |
+| 8946 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/learn/openshift |
+| 8947 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/OpenShiftDemos |
+| 8948 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://hub.docker.com/u/openshiftdemos |
+| 8949 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/redhat-developer-demos |
+| 8950 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/OpenShiftDemos/sonarqube-openshift-docker |
+| 8951 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.dbi-services.com/blog/deploying-postgresql-in-minishiftopenshift |
+| 8952 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/openshiftdemos |
+| 8953 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/openshift-labs |
+| 8954 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/siamaksade/mapit-spring |
+| 8955 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/simple-canary-deployments-using-kubernetes-statefulsets-on-openshift |
+| 8956 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/jbossdemocentral/rhpam7-mortgage-demo |
+| 8957 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.schabell.org/2020/10/codeready-containers-building-cloud-native-hr-process.html |
+| 8958 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://opensource.com/article/20/11/minishift-linux |
+| 8959 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://docs.redhat.com/en/documentation/red_hat_jboss_web_server/5.4/html-single/red_hat_jboss_web_server_for_openshift/index#jws_operator |
+| 8960 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/blog/2021/04/09/containerize-and-deploy-strapi-applications-on-kubernetes-and-red-hat-openshift |
+| 8961 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/articles/2021/05/24/build-lean-java-containers-new-red-hat-universal-base-images-openjdk-runtime |
+| 8962 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=jBDmX85IjLM&ab_channel=RedHatDeveloper |
+| 8963 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/articles/2021/10/01/new-application-samples-red-hat-openshift-48 |
+| 8964 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/articles/2021/11/18/build-and-store-universal-application-images-openshift |
+| 8965 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://piotrminkowski.com/2021/11/30/serverless-java-functions-on-openshift |
+| 8966 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/learn/openshift/how-deploy-full-stack-javascript-applications-openshift |
+| 8967 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developer.ibm.com/tutorials/examples-differentiate-openshift-kubernetes |
+| 8968 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/cloud-native-toolkit/multi-tenancy-gitops |
+| 8969 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/redhat-developer-demos/knative-tutorial |
+| 8970 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://aymen-segni.com/index.php/2020/07/22/deploying-your-serverless-services-on-kubernetes-using-knative |
+| 8971 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/blog/2020/05/26/build-a-go-application-using-openshift-pipelines |
+| 8972 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/openshift/pipelines-catalog |
+| 8973 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/systemcraftsman/lab-tekton-pipelines |
+| 8974 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/gitops-using-red-hat-openshift-pipelines-tekton-and-red-hat-advanced-cluster-management |
+| 8975 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/blog/2020/09/24/set-up-continuous-integration-for-net-core-with-openshift-pipelines |
+| 8976 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | http://alesnosek.com/blog/2020/06/30/ci-slash-cd-pipeline-spanning-multiple-openshift-clusters |
+| 8977 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/guide-to-openshift-pipelines-part-1-introducing-openshift-pipelines |
+| 8978 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/gitops-using-red-hat-openshift-pipelines-tekton-and-red-hat-advanced-cluster-management-to-deploy-on-multiple-clusters |
+| 8979 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/blog/2021/01/13/getting-started-with-tekton-and-pipelines |
+| 8980 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/articles/2021/07/21/bootstrap-gitops-red-hat-openshift-pipelines-and-kam-cli |
+| 8981 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://dev.to/wiggitywhitney/9-waa-w-what-is-knative-serving-a-friendly-guide-28f6 |
+| 8982 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://docs.redhat.com/en/documentation/openshift_container_platform/4.8/html/cicd/gitops#understanding-openshift-gitops |
+| 8983 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/virtual-machines-as-code-with-openshift-gitops-and-openshift-virtualization |
+| 8984 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/rromannissen/rhoar-microservices-demo |
+| 8985 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/blog/2020/09/10/from-code-to-production-with-openshift-pipelines-and-argo-cd |
+| 8986 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/blog/2020/10/01/building-modern-ci-cd-workflows-for-serverless-applications-with-red-hat-openshift-pipelines-and-argo-cd-part-1 |
+| 8987 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/deploy-argo-cd-with-ingress-and-tls-in-three-steps-no-yaml-yak-shaving-required-bc536d401491 |
+| 8988 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/blog/2020/09/03/introduction-to-tekton-and-argo-cd-for-multicluster-development |
+| 8989 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/argocd-secret-management-with-argocd-vault-plugin-539f104aff05 |
+| 8990 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=5XWwjyikWMQ&feature=emb_logo&ab_channel=Konveyor |
+| 8991 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://blog.argoproj.io/introducing-the-applicationset-controller-for-argo-cd-982e28b62dc5 |
+| 8992 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://vzilla.co.uk/vzilla-blog/gitops-getting-started-with-argocd |
+| 8993 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/sso-integration-for-the-openshift-gitops-operator |
+| 8994 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/how-to-use-hashicorp-vault-and-argo-cd-for-gitops-on-openshift |
+| 8995 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://blog.argoproj.io/getting-started-with-applicationsets-9c961611bcf0 |
+| 8996 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://piotrminkowski.com/2021/08/05/kubernetes-ci-cd-with-tekton-and-argocd |
+| 8997 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.infracloud.io/blogs/multicluster-gitops-argocd |
+| 8998 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/articles/2021/08/03/managing-gitops-control-planes-secure-gitops-practices |
+| 8999 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://opensource.com/article/21/8/argo-cd |
+| 9000 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://blog.argoproj.io/introducing-the-appsource-controller-for-argocd-52f21d28d643 |
+| 9001 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://piotrminkowski.com/2021/12/13/continuous-delivery-on-kubernetes-with-database-using-argocd-and-liquibase |
+| 9002 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://octopus.com/blog/using-argo-cd-and-kustomize-for-configmap-rollouts |
+| 9003 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://mrcloudbook.com/automating-tetris-deployments-devsecops-with-argocd-terraform-and-jenkins-for-two-game-versions |
+| 9004 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://mrcloudbook.com/gitops-deploying-tetris-on-eks-using-argocd |
+| 9005 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/building-openshift-pipelines-with-gitlab |
+| 9006 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/building-and-deploying-a-weather-web-application-onto-kubernetes-red-hat-openshift-using-eclipse-62bf7c924be4 |
+| 9007 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=vgIwRX4LXfU |
+| 9008 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/monitoring-services-like-an-sre-in-openshift-servicemesh |
+| 9009 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/products/mta/getting-started |
+| 9010 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=mRCz6Jl0Ds8&feature=youtu.be |
+| 9011 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/playlist?list=PLbMP1JcGBmSFA56rykbH2fg1F9Tozk4of |
+| 9012 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/about/videos/acm-ansible-integration-overview |
+| 9013 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/k8s-integrity-shield-tech-preview-protecting-the-integrity-of-kubernetes-resources-with-signature |
+| 9014 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/how-to-observe-your-clusters-with-red-hat-advanced-cluster-management-customize-the-grafana-dashboard |
+| 9015 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/recap-okd-4-testing-and-deployment-workshop-videos-and-additional-resources?utm_source=thenewstack&utm_medium=twitter&utm_campaign=platform |
+| 9016 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/blog/2020/08/21/hello-world-tutorial-with-kubernetes-operators |
+| 9017 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/writing-customized-reports-using-metering-operator |
+| 9018 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/blog/2021/01/08/message-broker-integration-made-simple-with-red-hat-fuse |
+| 9019 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/CastawayEGR/openshift-ai-examples |
+| 9020 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.atlassian.com/blog/bitbucket/setting-up-a-ci-cd-pipeline-with-spring-mvc-jenkins-and-kubernetes-on-aws |
+| 9021 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/cloudogu/jenkinsfiles |
+| 9022 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://aws.amazon.com/blogs/devops/using-jenkins-with-codeartifact |
+| 9023 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/tutorialworks/pipeline-library-demo |
+| 9024 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://piotrminkowski.com/2020/11/10/continuous-integration-with-jenkins-on-kubernetes |
+| 9025 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=KgH0QzMHXLs |
+| 9026 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://devopscube.com/jenkins-build-agents-kubernetes |
+| 9027 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.simplilearn.com/tutorials/jenkins-tutorial/ci-cd-pipeline |
+| 9028 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=LhB8-sAx3pM&ab_channel=K21Academy |
+| 9029 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.testmuai.com/blog/how-to-create-jenkins-multibranch-pipeline |
+| 9030 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/arun-gupta/docker-jenkins-pipeline |
+| 9031 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/gnunn1/openshift-basic-pipeline |
+| 9032 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/deweya/OpenShift-Jenkins-Lab |
+| 9033 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/marcredhat/crcdemos |
+| 9034 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/redhat-gpte-devopsautomation/ocp4_app_deploy_homework_grading |
+| 9035 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/oleg-nenashev/demo-jenkins-config-as-code/tree/java11-support |
+| 9036 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/nubenetes/jenkins-CasC-kubernetes-demo |
+| 9037 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.meetup.com/jenkins-online-meetup/events/270600737 |
+| 9038 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/cloudbees/groovy-cps |
+| 9039 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://towardsdatascience.com/create-your-first-ci-cd-pipeline-with-jenkins-and-github-6aefe21c9240 |
+| 9040 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=zI7_8M2KtRI&t=7s&ab_channel=MicroserviceFactory |
+| 9041 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/LerryAlexander/postman_jenkins_api_tests |
+| 9042 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.enmilocalfunciona.io/mostrando-resultados-de-jenkins-en-grafana-mediante-influxdb |
+| 9043 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.tricentis.com/learn |
+| 9044 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://aws.amazon.com/blogs/apn/modernize-your-ci-cd-pipeline-using-jenkins-x-with-amazon-eks |
+| 9045 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://spinnaker.io/docs/setup/install |
+| 9046 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/wardviaene/advanced-kubernetes-course/tree/master/spinnaker |
+| 9047 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/imperialwicket/spinnaker-demo |
+| 9048 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://codeburst.io/spinnaker-by-example-part-1-c4de9180d689 |
+| 9049 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://codeburst.io/spinnaker-by-example-part-2-6f92a1fdaedf |
+| 9050 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://codeburst.io/spinnaker-by-example-part-3-c6ed9ac5f8ce |
+| 9051 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://hackernoon.com/using-spinnaker-with-kubernetes-for-cicd-52w3uo9 |
+| 9052 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://aws.amazon.com/blogs/opensource/declarative-provisioning-of-aws-resources-with-spinnaker-and-crossplane |
+| 9053 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/nubenetes/nexus3-helm-chart |
+| 9054 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://piotrminkowski.com/2020/10/19/gitlab-ci-cd-on-kubernetes |
+| 9055 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://about.gitlab.com/blog/2020/12/10/basics-of-gitlab-ci-updated |
+| 9056 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://about.gitlab.com/blog/2021/11/18/gitops-with-gitlab-connecting-the-cluster |
+| 9057 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://spring-petclinic.github.io |
+| 9058 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/spring-projects/spring-petclinic |
+| 9059 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/deors/deors-demos-petclinic/blob/master/Jenkinsfile |
+| 9060 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.liatrio.ai/resources/blog |
+| 9061 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.experfy.com/training/courses/effective-jenkins-continuous-delivery-and-continuous-integration |
+| 9062 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/redhat-developer-demos/spring-petclinic |
+| 9063 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/griddynamics/mpl |
+| 9064 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=GLtvxY1S3Aw |
+| 9065 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/spring-petclinic/spring-petclinic-cloud |
+| 9066 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/spring-petclinic/spring-petclinic-microservices |
+| 9067 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/odedia/spring-petclinic-microservices |
+| 9068 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/paulczar/k8s-spring-petclinic |
+| 9069 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://tech.paulcz.net/blog/spring-into-kubernetes-part-1 |
+| 9070 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/kohsuke/petclinic/blob/master/Jenkinsfile |
+| 9071 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://pushbuildtestdeploy.com/jenkins-on-kubernetes-building-docker-images |
+| 9072 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://hub.docker.com/r/ibuchh/petclinic-spinnaker-jenkins |
+| 9073 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://hub.docker.com/r/sarjunkumar24391/petclinic |
+| 9074 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://hub.docker.com/r/bmoussaud/petclinic |
+| 9075 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://hub.docker.com/r/alwin2/petclinic-customers-service |
+| 9076 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://hub.docker.com/r/arey/springboot-petclinic |
+| 9077 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://hub.docker.com/r/anthonydahanne/spring-petclinic |
+| 9078 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://hub.docker.com/r/jbrisbin/spring-petclinic |
+| 9079 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/spring-projects/spring-petclinic/issues/339 |
+| 9080 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/trisberg/spring-petclinic |
+| 9081 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://workspaces.openshift.com/#/getstarted |
+| 9082 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/che-samples |
+| 9083 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/aws-samples |
+| 9084 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/aws-samples/aws-auto-inventory |
+| 9085 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/aws-samples/aws-waf-ops-dashboards |
+| 9086 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/aws-samples/aws-customer-playbook-framework |
+| 9087 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/aws-samples/serverless-java-frameworks-samples |
+| 9088 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/miztiik/AWS-Demos |
+| 9089 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/amazon-archives/aws-training-demo |
+| 9090 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/aws-samples/aws-network-hub-for-terraform |
+| 9091 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=6W2TuBDaaiI&ab_channel=AliSpittel |
+| 9092 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.freecodecamp.org/news/how-to-deploy-react-apps-to-production |
+| 9093 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/hydrating-a-data-lake-using-log-based-change-data-capture-cdc-with-debezium-apicurio-and-kafka-799671e0012f |
+| 9094 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://jfrog.com/blog/5-steps-to-hosting-your-application-on-amazon-cloud-container-service |
+| 9095 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-AWS |
+| 9096 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/aws-samples/resource-tagging-automation |
+| 9097 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/unitypark/aws-serverless-demos |
+| 9098 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://travelrasik.com/category/asia |
+| 9099 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/microsoft/contosotraders-cloudtesting#contoso-traders---cloud-testing-tools-demo-app |
+| 9100 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://devblogs.microsoft.com/devops/azure-devops-demo-generator-is-now-open-source |
+| 9101 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://learn.microsoft.com/en-us/azure/devops/demo-gen/use-demo-generator-v2?view=azure-devops |
+| 9102 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://learn.microsoft.com/en-us/azure/container-apps |
+| 9103 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://davidsr.me/deploy-azure-waf-with-terraform-and-azure-devops |
+| 9104 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.testmuai.com/blog/build-ci-cd-pipeline-in-azure-devops |
+| 9105 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://learn.microsoft.com/en-gb/azure/devops/pipelines/build/ci-build-git?view=azure-devops |
+| 9106 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://blogs.sap.com/2021/07/04/cloud-integration-with-commerce-azure-blob-storage-using-rest-api |
+| 9107 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://blogs.sap.com/2021/12/26/cloud-integration-with-commerce-azure-blob-storage-using-rest-api-part-2 |
+| 9108 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/tfxor/terraform-google-automation-demo |
+| 9109 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://cloud.google.com/blog/products/application-development/access-an-orgs-custom-code-repo-from-cloud-code-ides |
+| 9110 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/tutorial-connect-amazon-eks-and-azure-aks-clusters-with-google-anthos |
+| 9111 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/tutorial-deploy-anthos-apps-from-gcp-marketplace-into-amazon-eks-cluster |
+| 9112 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://javatechonline.com/deploy-spring-boot-docker-spring-boot |
+| 9113 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/piomin/sample-spring-microservices-kubernetes |
+| 9114 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/piomin/sample-spring-microservices-new |
+| 9115 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/blog/2020/06/19/develop-and-test-a-quarkus-client-on-red-hat-codeready-containers-with-red-hat-data-grid-8-0 |
+| 9116 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://aytartana.wordpress.com/2020/08/26/migrating-springboot-petclinic-rest-to-quarkus |
+| 9117 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/aalmiray/q-cli |
+| 9118 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/piomin/sample-quarkus-serverless-kafka |
+| 9119 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://piotrminkowski.com/2023/09/15/introduction-to-grpc-with-quarkus |
+| 9120 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/stefanprodan/podinfo |
+| 9121 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://dev.to/aleksk1ng/go-kafka-and-grpc-clean-architecture-cqrs-microservices-with-jaeger-tracing-45bj |
+| 9122 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://ably.com/blog/realtime-ticket-booking-solution-kafka-fastapi-ably |
+| 9123 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/event-driven-architectures-with-kafka-and-java-spring-boot-revision-1-c0d43d103ee7 |
+| 9124 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://codeopinion.com/troubleshooting-kafka-with-2000-microservices |
+| 9125 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://tomd.xyz/kubernetes-event-driven-keda |
+| 9126 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/articles/2021/07/26/modernizing-applications-apache-camel-javascript-and-red-hat-openshift# |
+| 9127 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/kelseyhightower/nocode |
+| 9128 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/blog/2020/06/17/red-hat-jboss-enterprise-application-platform-expansion-pack-1-0-released |
+| 9129 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/getting-started-jboss |
+| 9130 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://collabnix.github.io/terraform |
+| 9131 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://opensource.com/article/20/7/terraform-kubernetes |
+| 9132 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://shipit.dev/posts/setting-up-eks-with-irsa-using-terraform.html |
+| 9133 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://azapril.dev/2021/04/12/deploying-a-logicapp-with-terraform |
+| 9134 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://k21academy.com/terraform/terraform-automate-aws-vm |
+| 9135 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/StarpTech/k-andy |
+| 9136 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://adamtheautomator.com/terraform-and-aws-rds |
+| 9137 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/BishopFox/iam-vulnerable |
+| 9138 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.middlewareinventory.com/blog/terraform-create-multiple-ec2-different-config |
+| 9139 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://dev.to/aws-builders/creating-a-rest-api-with-infrastructure-as-code-terraform-serverless-lambda-python-part-2-cicd-g8h |
+| 9140 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://awsfundamentals.com/blog/using-s3-with-terraform |
+| 9141 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://devopscube.com/terraform-aws-rds |
+| 9142 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://techcommunity.microsoft.com/blog/fasttrackforazureblog/create-an-azure-openai-langchain-chromadb-and-chainlit-chat-app-in-container-app/3885602 |
+| 9143 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.patrickkoch.dev/posts/post_31 |
+| 9144 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/venkateshk111/terraform-beginners-guide |
+| 9145 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/chenjd/terraform-101 |
+| 9146 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/xiaopeng163/docker-compose-tpg |
+| 9147 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://grafana.com/blog/2021/08/31/how-istio-tempo-and-loki-speed-up-debugging-for-microservices |
+| 9148 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.linkedin.com/pulse/test-automation-how-build-cicd-pipeline-using-pytest-nir-tal |
+| 9149 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/major/imagebuilder-containerized/blob/main/.github/workflows/main.yml |
+| 9150 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://learn.microsoft.com/en-us/training/modules/github-actions-cd |
+| 9151 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/github-github-actions-overview-and-argocd-deployment-example-b6cf0cf6f832 |
+| 9152 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/debianmaster/actions-k3s |
+| 9153 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://judebantony.github.io/cicd-github-action-example |
+| 9154 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.codeproject.com/Articles/5320647/Making-a-Simple-Data-Pipeline-Part-4-CI-CD-with-Gi |
+| 9155 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.freecodecamp.org/news/how-to-setup-a-ci-cd-pipeline-with-github-actions-and-aws |
+| 9156 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://nth-root.nl/en/guides/automate-kubernetes-deployments-with-github-actions |
+| 9157 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/GitHubSecurityLab/actions-permissions |
+| 9158 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thomasthornton.cloud/if-elseif-or-else-in-github-actions |
+| 9159 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://dev.to/aws-builders/from-scratch-oidc-providers-252d |
+| 9160 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/redhat-actions/spring-petclinic |
+| 9161 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://gitlab.com/bpmworkshop/rhpam-signal-marketing-demo |
+| 9162 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/microsoft/azure-digital-twins-postman-samples |
+| 9163 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/opentelemetry-understanding-sli-and-slo-with-opentelemetry-demo-74c1d0b263b0 |
+| 9164 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://devops.com/measuring-the-progress-of-the-opentelemetry-project |
+| 9165 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://hasura.io/blog/a-simple-real-time-event-driven-architecture-with-qr-codes |
+| 9166 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://learntocloud.guide/#/projects/README |
+| 9167 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.digitalocean.com |
+| 9168 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.digitalocean.com/products/kubernetes |
+| 9169 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://try.digitalocean.com/cloudplex |
+| 9170 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.digitalocean.com/community/tools |
+| 9171 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://docs.digitalocean.com/products/app-platform |
+| 9172 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://try.digitalocean.com/app-platform |
+| 9173 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.theregister.com/off-prem/2020/10/07/digitalocean-decides-to-head-rivals-off-at-the-paas-floats-app-platform-to-deploy-run-code-without-juggling-servers/802967 |
+| 9174 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://thenewstack.io/digitalocean-app-platform-eases-kubernetes-deployments-for-developers |
+| 9175 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://dev.to/aws-builders/sharing-secrets-to-ecs-in-an-aws-multi-account-architecture-5h1i |
+| 9176 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/containers/automate-rollbacks-for-amazon-ecs-rolling-deployments-with-cloudwatch-alarms |
+| 9177 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws-quickstart.github.io/quickstart-eks-rancher |
+| 9178 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | http://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-optimized_AMI.html |
+| 9179 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | http://aws.amazon.com/es/documentation/ecr |
+| 9180 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://docs.aws.amazon.com/AmazonECR/latest/userguide |
+| 9181 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | http://blog.scottlowe.org/2016/03/22/using-docker-machine-with-aws |
+| 9182 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/es/about-aws/whats-new/2016/06/docker-datacenter-on-the-aws-cloud-quick-start-reference-deployment |
+| 9183 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://github.com/awslabs/amazon-ecr-credential-helper |
+| 9184 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.rancher.com |
+| 9185 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/custom-alerts-using-prometheus-queries |
+| 9186 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.zdnet.com/article/rancher-labs-closes-40m-funding-round-to-run-kubernetes-everywhere |
+| 9187 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/faster-kubernetes-development-with-rancher-devspace-and-loft |
+| 9188 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/multi-cluster-vulnerability-scanning-with-alcide-and-rancher |
+| 9189 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/driving-kubernetes-adoption-in-finance-with-rancher |
+| 9190 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.devclass.com/ci-cd/2020/10/06/open-sauce-rancher-25-puts-new-ui-forward-gets-to-continuously-delivering/1628365 |
+| 9191 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/rancher-2-5-delivers-on-computing-everywhere-strategy |
+| 9192 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/speed-up-development-with-automated-kubernetes-deployments |
+| 9193 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/rancher-2-5-sets-out-to-be-the-stock-kubernetes-build-for-gitops |
+| 9194 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.devclass.com/containers/2021/09/02/rancher-presents-first-big-release-after-suse-acquisition-ups-game-on-hosted-cluster-provisioning/1627301 |
+| 9195 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/intro-rancher-2-6-features |
+| 9196 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.zdnet.com/article/suse-harvester-deploying-virtual-machines-with-kubernetes |
+| 9197 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/my-first-impressions-with-suse-rancher-kubernetes-projects |
+| 9198 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://rancherdesktop.io |
+| 9199 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/rancher-desktop-1-0-0-has-arrived |
+| 9200 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.computing.co.uk/news/4015423/rancher-labs-launches-free-training-course-meet-surging-demand-kubernetes |
+| 9201 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.rancher.com/docs/rancher/v2.x/en |
+| 9202 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.rancher.com/docs/rancher/v2.x/en/faq/networking/cni-providers |
+| 9203 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.rancher.com/products/secure-kubernetes-distribution |
+| 9204 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/LukeMwila/bootstrap-rke-cluster-in-aws |
+| 9205 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/gruberdev/local-gitops |
+| 9206 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/ranchergovernment/rke2-aws-tf |
+| 9207 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://k3s.io |
+| 9208 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.civo.com/blog/k8s-vs-k3s |
+| 9209 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/alexellis/k3sup |
+| 9210 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/apk8s/k3s-gitlab |
+| 9211 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/upgrade-your-k3s-clusters-smoothly-in-rancher-2-4 |
+| 9212 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/keptn-sandbox/keptn-on-k3s |
+| 9213 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/how-k3s-portworx-and-calico-can-serve-as-a-foundation-of-cloud-native-edge-infrastructure |
+| 9214 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/tutorial-configure-cloud-native-edge-infrastructure-with-k3s-calico-portworx |
+| 9215 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/aws-samples/aws-cdk-for-k3scluster |
+| 9216 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://codeburst.io/creating-a-local-development-kubernetes-cluster-with-k3s-and-traefik-proxy-7a5033cb1c2d |
+| 9217 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.sysdig.com/blog/k3s-sysdig-falco |
+| 9218 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/set-up-your-k3s-cluster-for-high-availability-on-digitalocean |
+| 9219 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.alexellis.io/bare-metal-kubernetes-with-k3s |
+| 9220 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/set-up-k3s-in-high-availability-using-k3d |
+| 9221 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://gitlab.com/k3s_hetzner/k3s_hetzner |
+| 9222 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/erebe/personal-server |
+| 9223 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/abhinavd26/all-about-k3s-lightweight-kubernetes-3ell |
+| 9224 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://gabrieltanner.org/blog/ha-kubernetes-cluster-using-k3s |
+| 9225 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.nootch.net/post/kubernetes-at-home-with-k3s |
+| 9226 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/running-k3s-workload-in-a-restricted-environment-c2f593d19005 |
+| 9227 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/dashaun/k3s-on-raspberry-pi-and-clusterhat-m6k |
+| 9228 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.getambassador.io/best-tools-for-kubernetes-local-development-a-comprehensive-guide-3577d351d31e |
+| 9229 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/tinyzimmer/k3p |
+| 9230 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/clanktron/k3s-ansible |
+| 9231 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/timothystewart6/k3s-ansible |
+| 9232 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/cnrancher/autok3s |
+| 9233 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.youtube.com/watch?v=2LNxGVS81mE |
+| 9234 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/run-rancher-2-4-in-azure-with-k3s-and-mysql |
+| 9235 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/k3d-io/k3d |
+| 9236 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/kubernetes-rancher-cluster-manager-2-6-on-your-macos-laptop-with-k3d-k3s-in-5-min-8acdb94f3376 |
+| 9237 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/iamunnip/building-a-local-kubernetes-cluster-using-k3d-2p3d |
+| 9238 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/rancher/k3os |
+| 9239 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/rancher/k3c |
+| 9240 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/announcing-hosted-rancher-with-rancher-2-4 |
+| 9241 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/deploy-kubernetes-clusters-on-microsoft-azure-with-rancher |
+| 9242 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/stateful-kubernetes-workloads-on-vsphere-with-rke |
+| 9243 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/rancher/fleet |
+| 9244 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.suse.com/c/rancher_blog/fleet-management-for-kubernetes-is-here |
+| 9245 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/fleet-management-of-kubernetes-clusters-at-scale-ranchers-fleet-de161cc52325 |
+| 9246 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://digitalis.io/blog/kubernetes/kubernetes-gitops-continuous-integration-and-delivery-with-fleet-and-rancher |
+| 9247 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/harvester/harvester |
+| 9248 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.redhat.com/en/blog/lets-monitor-edge-computing-networks-rhel |
+| 9249 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.redhat.com/en/solutions/edge-computing-approach?sc_cid=7013a000002w1CwAAI |
+| 9250 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://opensource.com/article/21/1/kubeedge |
+| 9251 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://thenewstack.io/cloudian-cto-kubernetes-standardization-key-to-edge |
+| 9252 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://developers.redhat.com/articles/2021/11/22/bring-your-kubernetes-workloads-edge |
+| 9253 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://thenewstack.io/a-new-kubernetes-edge-architecture |
+| 9254 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://www.forbes.com/sites/tjmccue/2020/03/13/5-essential-coronavirus-work-from-home-tech-tips |
+| 9255 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://enterprisersproject.com/article/2021/2/remote-work-virtual-collaboration-best-practices |
+| 9256 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://www.elconfidencial.com/juridico/2021-09-27/negociar-acuerdo-teletrabajo-guia-practica-empresas_3295723 |
+| 9257 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://www.infoq.com/news/2021/12/remote-first-sre |
+| 9258 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://krisp.ai |
+| 9259 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://www.zoom.com |
+| 9260 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://wordpress.com/p2 |
+| 9261 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fdocs.google.com%2F&dsh=S20332737%3A1779042489432562&emr=1&followup=https%3A%2F%2Fdocs.google.com%2F&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AWa2Pav-11IKZl8IOb4XqImV3kUr5dyMPv-c_juxtiguwye_vvM_4JChlo3slW1NhgW6-FumHKZpvw |
+| 9262 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://slack.com |
+| 9263 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://workspace.google.com/products/meet |
+| 9264 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://www.rocket.chat |
+| 9265 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://mattermost.com |
+| 9266 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software |
+| 9267 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://www.atlassian.com/solutions/distributed |
+| 9268 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://miro.com |
+| 9269 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://miro.com/app/board/o9J_kqwfjqs= |
+| 9270 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://readwise.io |
+| 9271 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://www.instapaper.com |
+| 9272 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://www.getmatter.com |
+| 9273 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://obsidian.md |
+| 9274 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://www.portafolio.co/tendencias/claves-para-liderar-equipos-de-teletrabajo-y-no-fracasar-en-el-intento-556586 |
+| 9275 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://github.com/andrewpuch/nagios_setup |
+| 9276 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://github.com/jonrau1/ElectricEye/blob/master/README.md |
+| 9277 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.elastic.co/blog/elastic-and-aws-accelerate-your-cloud-migration-journey |
+| 9278 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/mt/how-to-use-aws-config-and-cloudtrail-to-find-who-made-changes-to-a-resource |
+| 9279 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.f5.com/company/blog |
+| 9280 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/about-aws/whats-new/2020/09/amazon-cloudwatch-monitors-prometheus-metrics-container-environments |
+| 9281 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/about-aws/whats-new/2020/09/amazon-cloudwatch-dashboards-supports-sharing |
+| 9282 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/mt/how-bt-uses-amazon-cloudwatch-to-monitor-millions-of-devices |
+| 9283 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/mt/extending-and-exploring-alarm-history-in-amazon-cloudwatch-part-2 |
+| 9284 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://docs.aws.amazon.com/cloud-map/latest/api/API_HealthCheckCustomConfig.html |
+| 9285 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/prometheus |
+| 9286 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/grafana |
+| 9287 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.infoq.com/news/2021/01/aws-grafana-prometheus |
+| 9288 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.pulumi.com |
+| 9289 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.pulumi.com/docs/iac/comparisons/terraform |
+| 9290 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.pulumi.com/registry |
+| 9291 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.civo.com/learn |
+| 9292 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://build5nines.com/beginners-guide-to-pulumi-ci-cd-pipelines |
+| 9293 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.pulumi.com/blog/from-terraform-to-infrastructure-as-software |
+| 9294 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.pulumi.com/blog/observability-with-infrastructure-as-code |
+| 9295 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://octopus.com/blog/pulumi-and-aks-with-octopus-deploy |
+| 9296 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.pulumi.com/blog/pulumi-3-0 |
+| 9297 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://devops.com/pulumi-moves-to-automate-cloud-infrastructure-provisioning |
+| 9298 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://thenewstack.io/the-next-step-after-devops-and-gitops-is-cloud-engineering-pulumi-says |
+| 9299 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.pulumi.com/docs/iac/guides/migration/migrating-to-pulumi/from-kubernetes |
+| 9300 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://travis.media/blog/pulumi-tutorial-automate-kubernetes-operations |
+| 9301 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.pulumi.com/blog/pulumi-rest-api |
+| 9302 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://thenewstack.io/pulumi-releases-a-kubernetes-operator |
+| 9303 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://siliconangle.com/2021/10/18/pulumis-new-registry-makes-easy-share-reuse-cloud-infrastructure-building-blocks |
+| 9304 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.pulumi.com/registry/packages/aws/how-to-guides/ecs-fargate |
+| 9305 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.pulumi.com/tf2pulumi |
+| 9306 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.packetswitch.co.uk/terraform-is-good-but-i-like-pulumi |
+| 9307 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/products |
+| 9308 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/about-aws/global-infrastructure/localzones/locations |
+| 9309 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://health.aws.amazon.com/health/status |
+| 9310 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/new |
+| 9311 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://repost.aws |
+| 9312 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | http://docs.aws.amazon.com/general/latest/gr/glos-chap.html |
+| 9313 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/marketplace |
+| 9314 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/premiumsupport |
+| 9315 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | http://www.slideshare.net/AmazonWebServices |
+| 9316 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/getting-started/hands-on |
+| 9317 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://repost.aws/knowledge-center/create-and-activate-aws-account |
+| 9318 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://github.com/open-guides/og-aws |
+| 9319 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/es/training/ramp-up-guides |
+| 9320 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://serverlessland.com |
+| 9321 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://serverlessland.com/patterns |
+| 9322 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://serverlessland.com/explore/sam-pipelines |
+| 9323 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/startups |
+| 9324 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://github.com/aws/containers-roadmap |
+| 9325 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://dashbird.io/blog/use-aws-free |
+| 9326 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.pluralsight.com/resources/blog/cloud/the-cloud-dictionary-of-pain-five-of-awss-toughest-cloud-topics |
+| 9327 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.linkedin.com/pulse/listado-de-todos-los-servicios-amazon-web-services-daniel-pe%25C3%25B1a-silva |
+| 9328 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/architecture.html |
+| 9329 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://thenewstack.io/understand-the-aws-shared-responsibility-model-for-kubernetes |
+| 9330 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.pluralsight.com/resources/blog/cloud/12-aws-config-rules-that-every-account-should-have |
+| 9331 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://cloudonaut.io/ec2-checklist-seven-things-to-do-after-launching-an-instance |
+| 9332 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.lastweekinaws.com/blog/17-more-ways-to-run-containers-on-aws |
+| 9333 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/what-is/streaming-data |
+| 9334 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/architecture/what-to-consider-when-selecting-a-region-for-your-workloads |
+| 9335 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://docs.aws.amazon.com/whitepapers/latest/microservices-on-aws/microservices-on-aws.html |
+| 9336 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://intellipaat.com/blog/what-is-amazon-web-services-aws |
+| 9337 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://amazon.qwiklabs.com/catalog |
+| 9338 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.freecodecamp.org/news/tag/aws |
+| 9339 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/compute/building-highly-resilient-applications-with-on-premises-interdependencies-using-aws-local-zones |
+| 9340 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://dev.to/aws-builders/disaster-recovery-cheat-sheetwrite-up-o62 |
+| 9341 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://dev.to/aws-builders/best-practices-when-designing-aws-architecture-4c8d |
+| 9342 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.infoworld.com/article/2338356/amazon-s-quiet-open-source-revolution.html |
+| 9343 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.infoq.com/news/2023/02/aws-deployment-pipelines |
+| 9344 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://k21academy.com/aws-cloud/aws-application-services |
+| 9345 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://jayendrapatil.com |
+| 9346 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://app.polymersearch.com/discover/aws |
+| 9347 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://builder.aws.com/build/workshops?trk=265ae1c7-2dfc-44c6-bc73-a4d991b8bd7f&sc_channel=el |
+| 9348 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.amazon.com/b/?node=14297978011 |
+| 9349 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://dev.to/aws-builders/many-free-and-useful-aws-official-dev-and-user-guides-54ci |
+| 9350 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.vladionescu.me/posts/scaling-containers-on-aws-in-2022 |
+| 9351 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://x.com/awscloud |
+| 9352 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://x.com/AWSreInvent |
+| 9353 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://x.com/jeffbarr |
+| 9354 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://x.com/AWSstartups |
+| 9355 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://x.com/AWS_Partners |
+| 9356 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.youtube.com/user/AmazonWebServices |
+| 9357 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.youtube.com/user/awstutorialseries |
+| 9358 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.youtube.com/user/AWSwebinars |
+| 9359 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/podcasts/aws-podcast |
+| 9360 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/podcasts/aws-techchat |
+| 9361 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | http://www.stitcher.com/podcast/amazon-web-services/aws-podcast |
+| 9362 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/developer |
+| 9363 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | http://docs.aws.amazon.com/apigateway/latest/developerguide/create-api-using-import-export-api.html |
+| 9364 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/about-aws/whats-new/2016/04/aws-config-rules-now-available-in-4-new-regions-us-west-oregon-eu-ireland-eu-frankfurt-and-asia-pacific-tokyo |
+| 9365 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html |
+| 9366 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/mt/multi-account-aws-trusted-advisor-summaries-now-available-aws-systems-manager-explorer |
+| 9367 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/how-to-automate-incident-response-to-security-events-with-aws-systems-manager-incident-manager |
+| 9368 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/cloud-adoption-framework |
+| 9369 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/aws/aws-cloud-adoption-framework-caf-3-0-is-now-available |
+| 9370 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/aws/aws-repost-a-reimagined-qa-experience-for-the-aws-community |
+| 9371 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.infoq.com/news/2021/12/amazon-repost-questions-answers |
+| 9372 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/aws/convert-aws-console-actions-to-reusable-code-with-aws-console-to-code-now-generally-available/?trk=0d3532c8-5f49-4c86-9683-96c2417e9b4b&sc_channel=el |
+| 9373 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | http://blog.scrumstudy.com/scrum-and-kanban-alike-or-different-2 |
+| 9374 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.scrum.org/resources/blog/vlog-what-happens-sprint-backlog-items-are-not-done |
+| 9375 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.cio.com/article/194093/agile-vs-waterfall-project-methodologies-compared.html |
+| 9376 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.scrum.org/resources/blog/make-sure-you-dont-build-high-performing-teams-just-deliver-wrong-things-faster |
+| 9377 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://enterprisersproject.com/article/2020/10/scrum-kanban-3-realities-cios |
+| 9378 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.forbes.com/sites/stevedenning/2016/09/08/explaining-agile |
+| 9379 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.scrum.org/resources/blog/minimum-viable-product-considered-harmful |
+| 9380 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://age-of-product.com/scrum-2021 |
+| 9381 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.scrum.org/resources/blog/scrum-2021-getting-you-started-scrum-master-or-product-owner |
+| 9382 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.scrum.org/resources/kanban-guide-scrum-teams |
+| 9383 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.redhat.com/en/blog/11-manager-considerations |
+| 9384 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.cloudbees.com/blog/asynchronous-development |
+| 9385 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.cloudbees.com/blog/using-predictive-analytics-to-show-adding-more-people |
+| 9386 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.infoq.com/articles/DevOps-value-stream |
+| 9387 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://creately.com/blog/project-management/what-is-a-kanban-board |
+| 9388 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://hbr.org/2019/03/as-your-team-gets-bigger-your-leadership-style-has-to-adapt |
+| 9389 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://blog.pragmaticengineer.com/project-management-at-big-tech |
+| 9390 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.infoq.com/articles/better-metrics-team-performance |
+| 9391 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.noidea.dog/glue |
+| 9392 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://hbr.org/2021/06/the-real-value-of-middle-managers |
+| 9393 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://dev.to/actitime/whats-wrong-with-measuring-developer-performance-10-best-metrics-5620 |
+| 9394 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://hbr.org/2022/05/how-to-deal-with-high-pressure-situations-at-work |
+| 9395 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://techcrunch.com/2022/07/27/protestware-code-sabotage |
+| 9396 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://hbr.org/2019/01/how-to-debate-ideas-productively-at-work |
+| 9397 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://hbr.org/2019/02/the-surprising-power-of-simply-asking-coworkers-how-theyre-doing |
+| 9398 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.infoworld.com/article/2337651/what-to-do-when-your-devops-team-is-downsized.html |
+| 9399 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://hbr.org/2015/08/how-to-give-tough-feedback-that-helps-people-grow |
+| 9400 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://martinfowler.com/articles/retrospective-antipatterns.html |
+| 9401 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.rebelscrum.site/post/characteristics-of-a-great-product-owner |
+| 9402 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/breaking-down-silos-applying-open-source-practices-in-the-workplace |
+| 9403 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/how-good-developers-become-good-engineering-managers |
+| 9404 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://newsletter.pragmaticengineer.com/p/engineering-leadership-skillset-overlaps |
+| 9405 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://hbr.org/2020/01/what-it-takes-to-give-a-great-presentation |
+| 9406 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.businessinsider.com/amazon-reason-for-layoffs-former-senior-tech-leader-2023-5 |
+| 9407 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.scrum.org/resources/blog/scrum-no-es-una-metodologia-es-un-marco-de-trabajo |
+| 9408 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.scrum.org/resources/blog/posturas-del-product-owner |
+| 9409 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://analoghq.ai/blog/es/tipos-de-consultoria |
+| 9410 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://mamaqueesscrum.com/2018/11/12/labores-que-un-product-owner-deberia-hacer-que-no-aparecen-en-la-scrum-guide |
+| 9411 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.bbc.com/mundo/vert-cap-37270163 |
+| 9412 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.elconfidencial.com/tecnologia/tribuna/2022-02-12/productividad-tecnologia-startups-apps_3373786 |
+| 9413 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.elfinanciero.com.mx/empresas/2021/07/06/tu-jefe-no-siempre-tiene-la-razon-de-que-manera-puedes-contradecirlo |
+| 9414 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.elconfidencial.com/alma-corazon-vida/2022-02-14/jefe-trabajo-empleo-quemado-no-puedes_3372444 |
+| 9415 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://blog.trello.com/es/conflictos-en-el-trabajo |
+| 9416 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.lavanguardia.com/economia/20220223/8075492/liderazgo-empresa-jefes-empleados-cercania-decisiones.html |
+| 9417 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://okdiario.com/economia/telefonica-santander-despiden-467-empleados-2021-denuncias-companeros-8655690 |
+| 9418 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.cronista.com/apertura/empresas/como-identificar-a-un-mal-jefe-y-que-errores-no-pueden-cometer-hoy-los-lideres |
+| 9419 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.elconfidencial.com/espana/2022-03-18/tessa-west-psicologa-capullos-trabajo_3392185 |
+| 9420 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.xataka.com/magnet/esclavos-improductividad-70-reuniones-impiden-que-empleados-hagan-su-trabajo |
+| 9421 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.genbeta.com/actualidad/reuniones-trabajo-nos-agotan-videollamada-se-sabe-que-pasa-se-eliminan-usamos-chats |
+| 9422 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.pymesyautonomos.com/management/esta-trabajando-empleado-realmente-su-casa |
+| 9423 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.estrategiadeproducto.com/p/evitar-caer-espiral-de-mierda |
+| 9424 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.estrategiadeproducto.com/p/segunda-mayor-mentira-product-management |
+| 9425 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.mariocortes.net/la-crisis-de-seniority |
+| 9426 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.businessinsider.es/desarrollo-profesional/teletrabajar-perjudica-carrera-profesional-posibles-ascensos-1240782 |
+| 9427 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.genbeta.com/actualidad/ex-ceo-origen-tener-gente-que-hace-falta-empresas-contratas-a-alguien-primero-que-hace-contratar-1 |
+| 9428 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.businessinsider.es/desarrollo-profesional/explicacion-steve-jobs-buenos-empleados-renuncian-trabajo-1137601 |
+| 9429 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://openwebinars.net/blog/13-errores-que-cometes-como-manager |
+| 9430 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://itrevolution.com/articles/the-problem-with-org-charts |
+| 9431 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://itrevolution.com/articles/get-started-with-team-topologies-in-8-steps |
+| 9432 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.visual-paradigm.com/scrum/scrum-vs-waterfall-vs-agile-vs-lean-vs-kanban |
+| 9433 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.greycampus.com |
+| 9434 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.smartsheet.com/agile-vs-scrum-vs-waterfall-vs-kanban |
+| 9435 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://lucid.co/blog/agile-vs-waterfall-vs-kanban-vs-scrum |
+| 9436 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.deloitte.com/us/en/insights/industry/government-public-sector-services.html |
+| 9437 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.softwaretestinghelp.com/kanban-vs-scrum-vs-agile |
+| 9438 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.atlassian.com/agile/kanban/kanban-vs-scrum |
+| 9439 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://k21academy.com/scrum/scrum-vs-kanban |
+| 9440 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://project-management.com/understanding-responsibility-assignment-matrix-raci-matrix |
+| 9441 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://analoghq.ai/blog/es/matriz-raci |
+| 9442 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://blog.hubspot.es/marketing/matriz-raci |
+| 9443 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.jaumepujolcapllonch.com/la-matriz-raci-y-la-asignacion-de-responsabilidades |
+| 9444 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://creately.com/blog/business/how-to-set-kpis-for-team-members |
+| 9445 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | http://www.gazafatonarioit.com/2020/09/entiende-el-mvp-producto-minimo-viable.html |
+| 9446 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://blog.hubspot.es/sales/producto-minimo-viable |
+| 9447 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://bloo.media/blog/producto-minimo-viable-mvp |
+| 9448 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://blog.asmartbear.com/slc.html |
+| 9449 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://joelcalifa.com/blog/tiny-wins |
+| 9450 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.gammaux.com/blog/como-definir-un-minimum-viable-product-mvp |
+| 9451 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://dev.to/sergomz/construyendo-un-mvp-sin-base-de-datos-1i4k |
+| 9452 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.ewsolutions.com/worst-project-management-practices |
+| 9453 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | http://www.nichesoftware.co.nz/2021/05/29/promotion-driven-development.html |
+| 9454 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.lavanguardia.com/vivo/20211113/7856878/cualidades-mas-valoran-empleados-jefe-pmv.html |
+| 9455 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.businessinsider.es/desarrollo-profesional/tan-dificil-decir-no-jefe-965459 |
+| 9456 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.businessinsider.es/desarrollo-profesional/razon-nunca-consigues-ascender-trabajo-conseguir-mejor-sueldo-970737 |
+| 9457 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.euroresidentes.com/empresa/exito-empresarial/la-intimidacin-verbal-en-la-empresa |
+| 9458 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://isprox.com/es/16-estilos-liderazgo-cual-es-mas-efectivo |
+| 9459 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.swarmia.com/build |
+| 9460 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | http://blogs.aws.amazon.com/security |
+| 9461 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/security |
+| 9462 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://docs.aws.amazon.com/security |
+| 9463 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://docs.aws.amazon.com/linux/al2/ug/SSL-on-amazon-linux-2.html |
+| 9464 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/the-most-popular-aws-security-blog-posts-in-2015 |
+| 9465 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/announcing-industry-best-practices-for-securing-aws-resources |
+| 9466 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/the-most-viewed-aws-security-blog-posts-so-far-in-2016 |
+| 9467 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/es/blogs/apn/oracle-database-encryption-options-on-amazon-rds |
+| 9468 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/about-aws/whats-new/2016/06/learn-aws-security-fundamentals-with-free-and-online-training |
+| 9469 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/how-to-restrict-amazon-s3-bucket-access-to-a-specific-iam-role |
+| 9470 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/updated-whitepaper-available-aws-best-practices-for-ddos-resiliency |
+| 9471 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/in-case-you-missed-these-aws-security-blog-posts-from-june-july-and-august |
+| 9472 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/es/about-aws/whats-new/2016/08/amazon-inspector-announces-general-availability-for-windows |
+| 9473 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://docs.aws.amazon.com/kms/latest/developerguide/importing-keys.html |
+| 9474 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/automated-reasoning-and-amazon-s2n |
+| 9475 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/encrypt-global-data-client-side-with-aws-kms-multi-region-keys |
+| 9476 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.pluralsight.com/resources/blog/cloud/how-to-audit-and-secure-an-aws-account |
+| 9477 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://yobyot.com/aws/aws-multi-region-keys-and-ec2-data-lifecycle-manager/2021/08/18 |
+| 9478 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/how-to-automate-aws-account-creation-with-sso-user-assignment |
+| 9479 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/security-practices-in-aws-multi-tenant-saas-environments |
+| 9480 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/how-to-use-aws-security-hub-and-amazon-opensearch-service-for-siem |
+| 9481 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://github.com/aws-samples/aws-secrets-manager-hybrid-secret-replication-from-hashicorp-vault |
+| 9482 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.linkedin.com/pulse/complexities-aws-security-groups-cloud-world-ashish-kar |
+| 9483 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://github.com/awslabs/cognito-at-edge |
+| 9484 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://github.com/aws-samples/service-control-policy-examples |
+| 9485 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://darryl-ruggles.cloud/aws-sso-credentials-with-multiple-accounts |
+| 9486 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://github.com/awslabs/sustainability-scanner |
+| 9487 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture |
+| 9488 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/update-of-aws-security-reference-architecture-is-now-available |
+| 9489 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/application-security.html |
+| 9490 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/opensource/realize-policy-as-code-with-aws-cloud-development-kit-through-open-policy-agent |
+| 9491 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/about-aws/whats-new/2016/05/pci-dss-standardized-architecture-on-the-aws-cloud-quick-start-reference-deployment |
+| 9492 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | http://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started.html |
+| 9493 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/adhere-to-iam-best-practices-in-2016 |
+| 9494 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/how-to-record-and-govern-your-iam-resource-configurations-using-aws-config |
+| 9495 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/how-to-use-saml-to-automatically-direct-federated-users-to-a-specific-aws-management-console-page |
+| 9496 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/es/blogs/security/new-iamctl-tool-compares-multiple-iam-roles-and-policies |
+| 9497 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/es/blogs/mt/bring-your-own-cli-session-manager-configurable-shell-profiles |
+| 9498 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://keepler.io/es/2021/03/15/gestionando-el-control-de-accesos-en-nuestro-data-lake-en-aws |
+| 9499 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/about-aws/whats-new/2021/03/iam-access-analyzer-supports-over-100-policy-checks-with-actionable-recommendations |
+| 9500 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/aws/iam-access-analyzer-update-policy-validation |
+| 9501 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://netflixtechblog.com/consoleme-a-central-control-plane-for-aws-permissions-and-access-fd09afdd60a8 |
+| 9502 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://cloudkatha.com/difference-between-root-user-and-iam-user-in-aws-you-need-to-know |
+| 9503 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.infoq.com/news/2022/01/aws-iam-s3-access |
+| 9504 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://github.com/iann0036/iamlive |
+| 9505 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.daan.fyi/writings/iam |
+| 9506 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://github.com/willdady/cdk-iam-credentials-rotator |
+| 9507 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html |
+| 9508 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/when-and-where-to-use-iam-permissions-boundaries |
+| 9509 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/extend-aws-iam-roles-to-workloads-outside-of-aws-with-iam-roles-anywhere |
+| 9510 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/use-iam-access-analyzer-policy-generation-to-grant-fine-grained-permissions-for-your-aws-cloudformation-service-roles |
+| 9511 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://ermetic.com/blog/aws/diving-deeply-into-iam-policy-evaluation-highlights-from-aws-reinforce-session-iam433 |
+| 9512 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://globaldatanet.com/tech-blog/aws-iam-identity-center-permission-management-at-scale-part-2 |
+| 9513 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/how-to-monitor-and-query-iam-resources-at-scale-part-1 |
+| 9514 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://github.com/aws-samples/visualize-iam-access-analyzer-policy-validation-findings |
+| 9515 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://thenewstack.io/a-deep-dive-into-the-security-of-iam-in-aws |
+| 9516 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://github.com/awslabs/terraform-iam-policy-validator |
+| 9517 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://jimmydqv.com/iam-anywhere |
+| 9518 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/mt/simplifying-permissions-management-at-scale-using-tags-in-aws-organizations |
+| 9519 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/mt/standardize-compliance-in-aws-using-devops-and-a-cloud-center-of-excellence-ccoe-approach |
+| 9520 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://wut.dev/blog/2024/07/05/moving-aws-accounts-within-organization.html |
+| 9521 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/about-aws/whats-new/2023/11/automate-aws-control-tower-zone-operations-apis |
+| 9522 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/es/blogs/security/automatically-block-suspicious-traffic-with-aws-network-firewall-and-amazon-guardduty |
+| 9523 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/waf |
+| 9524 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/how-to-automatically-update-your-security-groups-for-amazon-cloudfront-and-aws-waf-by-using-aws-lambda |
+| 9525 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://github.com/aws-solutions/aws-waf-security-automations |
+| 9526 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://github.com/amazon-archives/aws-waf-sample |
+| 9527 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://dev.to/aws-builders/aws-waf-web-application-firewall-deep-dive-15bd |
+| 9528 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/security/how-to-replicate-secrets-aws-secrets-manager-multiple-regions |
+| 9529 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/blogs/containers/aws-secrets-manager-controller-poc-an-eks-operator-for-automatic-rotation-of-secrets |
+| 9530 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://k21academy.com/aws-cloud/aws-secrets-manager |
+| 9531 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://github.com/99designs/aws-vault |
+| 9532 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://martinfowler.com/articles/serverless.html |
+| 9533 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/scaling-my-app-serverless-vs-kubernetes-cdb8adf446e1 |
+| 9534 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://towardsdatascience.com/kubernetes-serverless-differences-84699f370609 |
+| 9535 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.freecodecamp.org/news/serverless-is-cheaper-not-simpler-a10c4fc30e49 |
+| 9536 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.theregister.com/software/2020/09/22/microservices-guru-says-think-serverless-not-kubernetes-you-dont-want-to-manage-a-towering-edifice-of-stuff/353334 |
+| 9537 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.serverless.com/blog/why-we-switched-from-docker-to-serverless |
+| 9538 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/blog/2020/11/26/event-driven-distributed-service-orchestration-with-serverless-workflow |
+| 9539 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.google.com/document/u/0/d/1VEkUvTbqxfC1XyVGb2Z3DtEk9NA1M6PJpeCqEYRATLM/mobilebasic |
+| 9540 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/kubernetes-serverless-simply-visually-explained-ccf7be05a689 |
+| 9541 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.readysetcloud.io/blog/allen.helton/how-to-design-serverless-apps-that-scale-the-perfect-amount |
+| 9542 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.c-sharpcorner.com/article/why-and-when-to-use-azure-functions |
+| 9543 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.sls.guru/blog/enterprise-serverless-adoption |
+| 9544 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://serverlessland.com/event-driven-architecture |
+| 9545 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://architectelevator.com/cloud/serverless-design-patterns |
+| 9546 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://serverlessland.com/event-driven-architecture/visuals |
+| 9547 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://serverlessland.com/event-driven-architecture/visuals/batching-vs-event-streams |
+| 9548 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://serverlessland.com/event-driven-architecture/visuals/splitter-pattern |
+| 9549 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/aws-heroes/serverless-beyond-the-basics-kom |
+| 9550 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://theburningmonk.com/2019/09/why-you-should-use-temporary-stacks-when-you-do-serverless |
+| 9551 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://serverlesshorrors.com |
+| 9552 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://fathomtech.io/blog/microservices-vs-serverless |
+| 9553 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.cloudnowtech.com/blog/kubernetes-vs-serverless-how-do-you-choose |
+| 9554 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://economictimes.indiatimes.com/tech/technology/thoughtworks-xconf-tech-talk-series-serverless-vs-kubernetes-when-deploying-microservices/articleshow/89085544.cms |
+| 9555 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.pluralsight.com/resources/blog/cloud/containers-vs-serverless-which-is-right-for-you |
+| 9556 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/serverless-vs-kubernetes-the-peoples-vote |
+| 9557 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dashbird.io/blog/serverless-case-study-coca-cola |
+| 9558 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/how-daily-dev-built-a-low-budget-serverless-scraping-pipeline-for-online-articles |
+| 9559 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/topics/cloud-native-apps/what-is-faas |
+| 9560 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://stackify.com/function-as-a-service-serverless-architecture |
+| 9561 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/pmbanugo/faas-on-kubernetes-from-aws-lambda-api-gateway-to-knative-kong-api-gateway-4n84 |
+| 9562 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://techbeacon.com/enterprise-it/essential-guide-2019-serverless-ecosystem |
+| 9563 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.vshn.ch/en/blog/a-very-quick-comparison-of-kubernetes-serverless-frameworks |
+| 9564 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/d1020/price-comparison-of-popular-serverless-architecture-providers-2jk9 |
+| 9565 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.serverless.com |
+| 9566 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://winder.ai/a-comparison-of-serverless-frameworks-for-kubernetes-openfaas-openwhisk-fission-kubeless-and-more |
+| 9567 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.openfaas.com |
+| 9568 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/deploy-your-first-serverless-function-to-kubernetes-232307f7b0a9 |
+| 9569 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.xenonstack.com/blog/serverless-open-faas-java |
+| 9570 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.openfaas.com/blog/kim |
+| 9571 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/OpenFunction/OpenFunction |
+| 9572 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://knative.dev |
+| 9573 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/knative/client |
+| 9574 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/technologies/cloud-computing/openshift/serverless |
+| 9575 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/blog/2020/04/24/build-and-deploy-a-serverless-app-with-camel-k-and-red-hat-openshift-serverless-1-5-0-tech-preview |
+| 9576 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/why-and-when-you-need-to-consider-openshift-serverless |
+| 9577 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://redhat-scholars.github.io/serverless-workflow/osl/index.html |
+| 9578 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://openwhisk.apache.org |
+| 9579 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.infoworld.com/article/2261795/building-microservices-give-dapr-a-try.html |
+| 9580 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://versusmind.eu/dapr-a-serverless-runtime-for-distributed-applications |
+| 9581 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/articles/2021/08/12/build-and-deploy-microservices-kubernetes-and-dapr |
+| 9582 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/cvitaa11/running-dapr-on-kubernetes-89g |
+| 9583 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/diagrid-labs/dapr-workflow-demos |
+| 9584 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/build-a-serverless-api-with-aws-gateway-and-lambda |
+| 9585 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/triggermesh-open-sourcing-event-driven-applications |
+| 9586 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.infoq.com/articles/service-mesh-ultimate-guide |
+| 9587 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://thenewstack.io/service-mesh-adds-security-observability-and-traffic-control-to-kubernetes |
+| 9588 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://lucperkins.dev/blog/service-mesh-use-cases |
+| 9589 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://thenewstack.io/zero-trust-security-with-service-mesh |
+| 9590 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.redhat.com/en/blog/introducing-openshift-service-mesh-2.0 |
+| 9591 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://thenewstack.io/offloading-authentication-and-authorization-from-application-code-to-a-service-mesh |
+| 9592 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://thenewstack.io/how-service-mesh-can-help-devops-achieve-business-goals |
+| 9593 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://thenewstack.io/mutual-tls-microservices-encryption-for-service-mesh |
+| 9594 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.cloudops.com/blog/comparing-service-meshes-istio-linkerd-and-consul-connect-citrix-adc |
+| 9595 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://opensource.com/article/21/3/service-mesh |
+| 9596 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://cloudnativenow.com/features/when-is-service-mesh-worth-it |
+| 9597 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://thenewstack.io/service-meshes-in-the-cloud-native-world |
+| 9598 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.koyeb.com/blog/service-mesh-and-microservices-improving-network-management-and-observability |
+| 9599 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://thenewstack.io/accelerate-kubernetes-adoption-with-a-service-mesh |
+| 9600 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://layer5.io/service-mesh-landscape |
+| 9601 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://thenewstack.io/secure-your-service-mesh-a-13-item-checklist |
+| 9602 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.infoq.com/articles/cloud-native-architecture-adoption-part3 |
+| 9603 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://itnext.io/stupid-simple-service-mesh-what-when-why-e9be9e5f4d41 |
+| 9604 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://thenewstack.io/the-hidden-costs-of-service-meshes |
+| 9605 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.learnsteps.com/what-is-a-service-mesh-is-it-born-with-kubernetes |
+| 9606 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.infoq.com/presentations/adopting-service-mesh |
+| 9607 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://devops.com/how-are-api-management-and-service-mesh-different |
+| 9608 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://devops.com/when-to-use-api-management-and-service-mesh-together |
+| 9609 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.infoq.com/presentations/5-challenges-mesh |
+| 9610 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.infoq.com/presentations/service-mesh-ebpf |
+| 9611 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.medianova.com/service-mesh-vs-api-gateway |
+| 9612 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://meshery.io |
+| 9613 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://itnext.io/service-mesh-testing-tools-frameworks-open-source-7904ee222298 |
+| 9614 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://developer.hashicorp.com/consul |
+| 9615 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://developer.hashicorp.com/consul/tutorials/archive/kubernetes-consul-design-patterns |
+| 9616 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://fabiolb.net |
+| 9617 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://developer.hashicorp.com/consul/docs/connect |
+| 9618 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://linkerd.io |
+| 9619 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://linkerd.io/2020/06/09/announcing-linkerd-2.8/index.html |
+| 9620 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://thenewstack.io/linkerd-2-0-the-service-mesh-for-service-owners-platform-architects-sres |
+| 9621 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://linkerd.io/2.10/tasks/multicluster/index.html |
+| 9622 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://linkerd.io/2021/05/27/linkerd-vs-istio-benchmarks/index.html |
+| 9623 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://linkerd.io/2021/07/28/announcing-cncf-graduation/index.html |
+| 9624 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://cloudnativenow.com/features/linkerds-cncf-graduation-due-to-its-simplicity |
+| 9625 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://itnext.io/a-practical-guide-for-linkerd-authorization-policies-6cfdb50392e9 |
+| 9626 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://linkerd.io/2021/11/29/linkerd-vs-istio-benchmarks-2021/index.html |
+| 9627 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.buoyant.io/blog/locking-down-network-traffic-between-kubernetes-namespaces |
+| 9628 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://linkerd.io/2022/03/09/announcing-automated-multi-cluster-failover-for-kubernetes/index.html |
+| 9629 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://thenewstack.io/is-linkerd-winning-the-service-mesh-race |
+| 9630 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.buoyant.io/service-mesh-academy/upgrading-to-linkerd-2-12 |
+| 9631 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://dev.to/thenjdevopsguy/linkerd-and-gitops-115a |
+| 9632 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.buoyant.io/blog/multi-cluster-multi-region-setup-using-linkerd-service-mesh |
+| 9633 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://traefik.io/traefik-mesh |
+| 9634 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://docs.cloud.google.com/service-mesh/docs |
+| 9635 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://thenewstack.io/google-traffic-director-and-the-l7-internal-load-balancer-intermingles-cloud-native-and-legacy-workloads |
+| 9636 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.infoq.com/news/2019/04/google-traffic-director |
+| 9637 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://cloud.google.com/blog/products/networking/traffic-director-supports-proxyless-grpc |
+| 9638 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://docs.cloud.google.com/load-balancing/docs/l7-internal |
+| 9639 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://blog.envoyproxy.io/examining-load-balancing-algorithms-with-envoy-1be643ea121c |
+| 9640 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.solo.io/blog/why-the-control-plane-matters |
+| 9641 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.envoyproxy.io/docs/envoy/latest/api-docs/xds_protocol |
+| 9642 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://openservicemesh.io |
+| 9643 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://developers.redhat.com/blog/2020/06/30/kourier-a-lightweight-knative-serving-ingress |
+| 9644 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://stackoverflow.blog/2021/03/08/infrastructure-as-code-create-and-configure-infrastructure-elements-in-seconds |
+| 9645 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.invensislearning.com/blog/infrastructure-as-a-code-tutorial |
+| 9646 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.stickyminds.com/?utm_source=d7ac |
+| 9647 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.redhat.com/en/blog/pull-push-provisioning-cicd |
+| 9648 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://itnext.io/platform-as-code-how-it-compares-with-infrastructure-as-code-and-what-it-enables-2684b348be2e |
+| 9649 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://thenewstack.io/iac-cloud-misconfiguration-tools-too-noisy-without-context |
+| 9650 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.freecodecamp.org/news/what-is-infrastructure-as-code |
+| 9651 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://alpacked.io/blog/infrastructure-as-code-for-devops |
+| 9652 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://devops.com/updating-and-managing-infrastructure-as-code-iac |
+| 9653 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://thenewstack.io/guis-cli-apis-learn-basic-terms-of-infrastructure-as-code |
+| 9654 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://thenewstack.io/infrastructure-as-code-increase-security-scale-development |
+| 9655 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://thenewstack.io/struggling-with-it-staff-leaving-try-infrastructure-as-code |
+| 9656 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://devopscube.com/immutable-infrastructure |
+| 9657 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://thenewstack.io/infrastructure-as-code-or-cloud-platforms-you-decide |
+| 9658 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.infoworld.com/article/2338245/5-priorities-that-cut-cloud-costs-and-improve-it-ops.html |
+| 9659 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://spacelift.io/blog/infrastructure-as-code-with-generic-ci-cd |
+| 9660 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://mattrickard.com/infrastructure-as-code-will-be-written-by-ai |
+| 9661 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://thenewstack.io/achieve-gitops-on-day-one-with-iac-automation |
+| 9662 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://build5nines.com/benefits-of-convention-over-configuration-for-iac-deployment-projects |
+| 9663 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://thenewstack.io/local-environment-as-code-is-it-possible-yet |
+| 9664 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.clickittech.com/devops/infrastructure-as-code-tools |
+| 9665 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://intellipaat.com/blog/terraform-vs-ansible-difference |
+| 9666 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.clickittech.com/devops/terraform-vs-cloudformation |
+| 9667 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://k21academy.com/devops/terraform-vs-ansible |
+| 9668 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://techcommunity.microsoft.com/blog/itopstalkblog/infrastructure-as-code-iac-comparing-the-tools/3205045 |
+| 9669 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://spacelift.io/blog/ansible-vs-terraform |
+| 9670 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.env0.com/blog/ansible-vs-terraform-when-to-choose-one-or-use-them-together |
+| 9671 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://awstrainingwithjagan.com/infrastructure-as-code-tool-comparison |
+| 9672 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/Checkmarx/kics |
+| 9673 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://github.com/gofireflyio/aiac |
+| 9674 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.youtube.com/watch?v=--RRpw_6onA |
+| 9675 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://prometheus.io |
+| 9676 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/prometheus/prometheus |
+| 9677 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://opensource.com/article/19/11/introduction-monitoring-prometheus |
+| 9678 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://opensource.com/article/18/3/how-use-ansible-set-system-monitoring-prometheus |
+| 9679 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://prometheus.io/docs/instrumenting/writing_exporters |
+| 9680 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://prometheus.io/docs/instrumenting/clientlibs |
+| 9681 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/prometheus/pushgateway |
+| 9682 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://prometheus.io/docs/instrumenting/exporters |
+| 9683 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://samirbehara.com/2019/05/30/cloud-native-monitoring-with-prometheus |
+| 9684 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/prometheus-yet-another-cloudwatch-exporter-collecting-aws-cloudwatch-metrics-806bd34818a8 |
+| 9685 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://containerjournal-com.cdn.ampproject.org/c/s/containerjournal.com/topics/container-ecosystems/prometheus-monitoring-ecosystem-begins-to-mature/amp |
+| 9686 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://ganeshvernekar.com/blog/prometheus-tsdb-the-head-block |
+| 9687 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://ganeshvernekar.com/blog/prometheus-tsdb-wal-and-checkpoint |
+| 9688 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://ganeshvernekar.com/blog/prometheus-tsdb-mmapping-head-chunks-from-disk |
+| 9689 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://ganeshvernekar.com/blog/prometheus-tsdb-persistent-block-and-its-index |
+| 9690 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/playlist?list=PLVx1qovxj-anCTn6um3BDsoHnIr0O2tz3 |
+| 9691 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.devclass.com/containers/2021/01/07/safetyfirst-prometheus-224-finally-features-tls-on-http-serving-endpoints/1626636 |
+| 9692 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://sysadminxpert.com/steps-to-monitor-linux-server-using-prometheus |
+| 9693 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://zerodha.tech/blog/infra-monitoring-at-zerodha |
+| 9694 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://devopscube.com/setup-prometheus-monitoring-on-kubernetes |
+| 9695 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://prometheus-operator.dev |
+| 9696 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://gabrieltanner.org/blog/collecting-prometheus-metrics-in-golang |
+| 9697 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://promlens.com |
+| 9698 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.sysdig.com/blog/postgresql-monitoring |
+| 9699 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/observability-at-scale-52d0d9a5fb9b |
+| 9700 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.innoq.com/en/blog/2020/04/scraping-docker-swarm-service-instances-with-prometheus |
+| 9701 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://opensource.com/article/21/7/run-prometheus-home-container |
+| 9702 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.howtoforge.com/how-to-install-prometheus-on-ubuntu-20-04 |
+| 9703 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://cribl.io/blog/using-prometheus-for-agentless-monitoring |
+| 9704 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://aprenderbigdata.com/prometheus |
+| 9705 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=GL2v81xYuAQ&ab_channel=k6 |
+| 9706 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.sysdig.com/blog/redis-prometheus |
+| 9707 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://jfrog.com/blog/dont-let-prometheus-steal-your-fire |
+| 9708 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/monitoring-spark-streaming-on-k8s-with-prometheus-and-grafana-e6d8720c4a02 |
+| 9709 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://source.coveo.com/2021/11/11/prometheus-at-scale |
+| 9710 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://prometheus.io/docs/introduction/comparison |
+| 9711 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.infracloud.io/blogs/prometheus-architecture-metrics-use-cases |
+| 9712 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.sysdig.com/blog |
+| 9713 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://dev.to/eckelon/how-to-monitor-nginx-in-kubernetes-with-prometheus-j5f |
+| 9714 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://promlabs.com/blog/2022/12/11/avoid-these-6-mistakes-when-getting-started-with-prometheus |
+| 9715 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/hardening-monitoring-a-step-by-step-guide-7a18007c915 |
+| 9716 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://rtfm.co.ua/en/prometheus-kubernetes-endpoints-monitoring-with-blackbox-exporter |
+| 9717 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/30-pull-requests-later-prometheus-memory-use-is-cut-in-half |
+| 9718 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://grafana.com/blog/2021/01/08/get-started-with-prometheus-with-these-three-easy-projects |
+| 9719 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.fosstechnix.com/install-prometheus-and-grafana-on-ubuntu-24-04 |
+| 9720 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/prometheus/alertmanager/releases/tag/v0.23.0-rc.0 |
+| 9721 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://prometheus.io/blog/2021/11/16/agent |
+| 9722 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://grafana.com/blog/2021/11/16/why-we-created-a-prometheus-agent-mode-from-the-grafana-agent |
+| 9723 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/cncf-prometheus-agent-could-be-a-game-changer-for-edge |
+| 9724 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/line/promgen |
+| 9725 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/slok/sloth |
+| 9726 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/slos-should-be-easy-say-hi-to-sloth-9c8a225df0d4 |
+| 9727 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/metalmatze/slo-libsonnet |
+| 9728 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/google/prometheus-slo-burn-example |
+| 9729 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/google/slo-generator |
+| 9730 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://prometheus.io/docs/prometheus/latest/storage |
+| 9731 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://cortexmetrics.io |
+| 9732 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/cortexproject/cortex |
+| 9733 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thanos.io |
+| 9734 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/ruanbekker/thanos-cluster-setup |
+| 9735 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://blog.yugabyte.com/highly-available-prometheus-metrics-for-distributed-sql-with-thanos-on-gke |
+| 9736 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://m3db.io |
+| 9737 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.influxdata.com/blog/building-a-metrics-alerts-as-a-service-maas-monitoring-solution-using-the-influxdb-stack |
+| 9738 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/make-a-gitops-workflow-using-influxdb-templates |
+| 9739 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.influxdata.com/blog/running-influxdb-2-0-and-telegraf-using-docker |
+| 9740 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.influxdata.com/blog/tldr-influxdb-tech-tips-api-invokable-scripts-influxdb-cloud |
+| 9741 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://exporterhub.io |
+| 9742 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/prometheus/jmx_exporter |
+| 9743 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/prometheus/blackbox_exporter |
+| 9744 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/deckhouse/k8s-image-availability-exporter |
+| 9745 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://engineeringblog.yelp.com/2020/10/improving-the-performance-of-the-prometheus-jmx-exporter.html |
+| 9746 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.sysdig.com/blog/monitor-oracle-database-prometheus |
+| 9747 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/prometheus-community/yet-another-cloudwatch-exporter |
+| 9748 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/prometheus-community/elasticsearch_exporter |
+| 9749 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/muxinc/certificate-expiry-monitor |
+| 9750 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/enix/x509-certificate-exporter |
+| 9751 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://aws.amazon.com/blogs/opensource/building-a-prometheus-remote-write-exporter-for-the-opentelemetry-go-sdk |
+| 9752 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/open-telemetry/opentelemetry-collector |
+| 9753 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/lightsteps-opentelemetry-launchers-simplify-integration-to-line-of-code |
+| 9754 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/search?q=org%3Alightstep+launcher |
+| 9755 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/demystifying-distributed-traces-in-opentelemetry |
+| 9756 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://newrelic.com/blog/apm/java-opentelemetry |
+| 9757 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/maximizing-kubernetes-efficiency-with-opentelemetry-tracing |
+| 9758 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.influxdata.com/time-series-platform/telegraf |
+| 9759 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/influxdata/telegraf/tree/master/plugins/outputs/prometheus_client |
+| 9760 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/rossmcdonald/telegraf |
+| 9761 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://grafana.com/grafana/dashboards/?collector=Telegraf |
+| 9762 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://grafana.com/blog/2021/04/05/using-telegraf-plugins-to-visualize-industrial-iot-data-with-the-grafana-cloud-hosted-prometheus-service |
+| 9763 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://sysadminxpert.com/monitor-linux-system-with-grafana-and-telegraf |
+| 9764 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.influxdata.com/blog/three-ways-to-keep-cardinality-under-control-when-using-telegraf |
+| 9765 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | http://micrometer.io |
+| 9766 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://cloud.google.com/blog/products/operations/introducing-google-cloud-managed-service-for-prometheus |
+| 9767 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://prometheus.io/docs/prometheus/latest/installation |
+| 9768 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://prometheus.io/docs/prometheus/latest/getting_started |
+| 9769 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://galaxy.ansible.com/cloudalchemy/node-exporter |
+| 9770 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/idealista/prometheus_jmx_exporter_role |
+| 9771 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://galaxy.ansible.com/mesaguy/prometheus |
+| 9772 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://galaxy.ansible.com/William-Yeh/prometheus |
+| 9773 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://galaxy.ansible.com/UnderGreen/prometheus-node-exporter |
+| 9774 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/prometheus-with-grafana-using-ansible-549e575c9dfa |
+| 9775 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://activemq.apache.org/components/classic/documentation |
+| 9776 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/rh-messaging/artemis-prometheus-metrics-plugin |
+| 9777 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://artemis.apache.org/components/artemis/documentation/latest/using-server.html |
+| 9778 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://promitor.io |
+| 9779 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://docs.cloud.google.com/stackdriver/docs/managed-prometheus |
+| 9780 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://cloud.google.com/blog/products/devops-sre/easy-managed-prometheus-metrics-service-for-kubernetes |
+| 9781 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/blog/2018/06/28/why-kubernetes-is-the-new-application-server |
+| 9782 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/topics/microservices/why-choose-red-hat-microservices |
+| 9783 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://changelog.com/posts/monoliths-are-the-future |
+| 9784 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.allthingsdistributed.com/2023/05/monoliths-are-not-dinosaurs.html |
+| 9785 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/operators-and-sidecars-are-the-new-model-for-software-delivery |
+| 9786 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://devm.io/kubernetes/kubernetes-practical-implications-171647 |
+| 9787 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://devm.io/kubernetes/kubernetes-extensions-172215 |
+| 9788 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.thoughtworks.com/radar/platforms/kubernetes |
+| 9789 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.addwebsolution.com/blog/how-kubernetes-helps-businesses-manage-their-it-infrastructure |
+| 9790 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://loves.cloud/kubernetes-an-introduction |
+| 9791 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/microservices/microservices-vs-monoliths-an-operational-comparison |
+| 9792 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.ituser.es/opinion/2020/07/las-principales-habilidades-que-un-arquitecto-cloud-necesita-para-triunfar |
+| 9793 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.techtarget.com/searchcloudcomputing/feature/Modernize-legacy-applications-with-containers-microservices |
+| 9794 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.heroku.com/blog/monolithic-applications-into-services |
+| 9795 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://blogs.vmware.com/vov/2018/08/06/how-to-deconstruct-a-monolith-using-microservices-getting-ready-for-cloud-native |
+| 9796 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/7-best-practices-to-build-and-maintain-resilient-applications-and-infrastructure |
+| 9797 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.viewnext.com/front-end-vs-back-end |
+| 9798 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/what-is-the-modern-cloud-native-stack |
+| 9799 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.lavanguardia.com/economia/20201014/484036217179/transformacion-digital-empresas-foncillas-pf-video-seo-lv.html |
+| 9800 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://devops.com/6-advantages-of-microservices |
+| 9801 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://cloudpundit.com/2020/09/22/dont-boil-the-ocean-to-create-your-cloud |
+| 9802 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.hcltech.com/blogs/devops-tools-and-technologies-manage-microservices |
+| 9803 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/containerizing-applications |
+| 9804 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://opensource.com/article/20/12/containers-101 |
+| 9805 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://devops.com/why-boring-tech-is-best-to-avoid-a-microservices-mess |
+| 9806 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://softwareengineeringdaily.com/2020/12/29/kubernetes-vs-serverless-with-matt-ward-repeat |
+| 9807 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/cloud-native/3-reasons-why-you-cant-afford-to-ignore-cloud-native-computing |
+| 9808 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/defining-a-different-kubernetes-user-interface-for-the-next-decade |
+| 9809 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/react-in-real-time-with-event-driven-apis |
+| 9810 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://codeopinion.com/splitting-up-a-monolith-into-microservices |
+| 9811 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://javarevisited.blogspot.com/2020/11/why-devops-engineer-learn-docker-kubernetes.html |
+| 9812 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://enterprisersproject.com/article/2021/1/5-hybrid-cloud-trends-2021 |
+| 9813 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://devm.io/kubernetes/kubernetes-bigger-173675 |
+| 9814 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/study-silos-are-chief-impediment-to-it-and-business-value |
+| 9815 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/prepare-to-adopt-the-cloud-a-10-step-cloud-migration-checklist |
+| 9816 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.devprojournal.com/technology-trends/kubernetes/containers-kubernetes-and-software-development-in-2021 |
+| 9817 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.infoq.com/articles/migrating-monoliths-to-microservices-with-decomposition |
+| 9818 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.cortex.io/post/why-you-need-a-microservices-catalog-tool |
+| 9819 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://shopify.engineering/faster-shopify-ci |
+| 9820 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.infoq.com/articles/saga-orchestration-outbox |
+| 9821 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://blog.container-solutions.com/how-mature-is-your-microservices-architecture |
+| 9822 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.techerati.com/features-hub/opinions/microservices-in-the-cloud-native-era |
+| 9823 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/cloud-native/the-cloud-native-landscape-platforms-explained |
+| 9824 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/google-and-oracle-cloud-adoption-doubles-among-enterprises-3 |
+| 9825 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/multicloud-challenges-and-solutions |
+| 9826 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.makeuseof.com/kubernetes-or-docker |
+| 9827 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.infoworld.com/article/2264177/the-decline-of-heroku.html |
+| 9828 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.infoq.com/articles/microservices-design-ideals |
+| 9829 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/the-scalability-myth |
+| 9830 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/the-4-definitions-of-multicloud-part-1-data-portability |
+| 9831 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/multicloud-paves-the-way-for-cloud-native-resiliency-models |
+| 9832 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.infoworld.com/article/2264771/3-cloud-architecture-mistakes-we-all-make-but-shouldnt.html |
+| 9833 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/private-vs-public-cloud-how-kubernetes-shifts-the-balance |
+| 9834 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.simform.com/blog/multi-cloud-strategy |
+| 9835 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.xataka.com/pro/deuda-tecnica-lastre-para-tecnologicas-estudio-senala-que-informaticos-pierden-casi-dia-trabajo-a-semana-para-solventarlas |
+| 9836 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://dev.to/typeable/when-it-pays-to-choose-microservices-12h5 |
+| 9837 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.pluralsight.com/resources/blog/business-and-leadership/public-cloud-vs-private-cloud-whats-the-difference |
+| 9838 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/microservices/the-future-of-microservices-more-abstractions |
+| 9839 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/transform-and-future-proof-your-architecture-with-mach |
+| 9840 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://yellow.systems/blog/how-to-build-a-scalable-web-application |
+| 9841 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://opensource.com/article/21/7/system-administrators |
+| 9842 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/cloud-engineers-try-policy-as-code-to-cure-misconfiguration-woes |
+| 9843 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.simform.com/blog/multi-cloud-architecture |
+| 9844 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.simform.com/cloud-migration-ebook |
+| 9845 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.dynatrace.com/news/blog/what-are-microservices |
+| 9846 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/reasons-to-opt-for-a-multicloud-strategy |
+| 9847 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://community.hpe.com/hpeb/plugins/custom/hp/hpebresponsive/custom.bounce_endpoint?referer=https%3A%2F%2Fcommunity.hpe.com%2Ft5%2FHPE-Ezmeral-Uncut%2FContainers-vs-VMs-What-s-the-difference%2Fba-p%2F7147090 |
+| 9848 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.geeksforgeeks.org/blogs/microservice-architecture-introduction-challenges-best-practices |
+| 9849 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/automation-combat-increased-workload |
+| 9850 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/intention-as-code-making-self-healing-infrastructure-work |
+| 9851 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://hackernoon.com/9-basic-and-crucial-tips-for-microservices-developers |
+| 9852 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/how-to-modernize-virtualized-workloads |
+| 9853 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.enter.co/especiales/dev/herramientas-dev/estos-son-los-10-lenguajes-de-programacion-mas-populares-en-2021 |
+| 9854 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://zesty.co/blog/10-cloud-deficiencies |
+| 9855 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.theregister.com/software/2021/12/21/how-kubernetes-lowers-costs-and-automates-it-department-work/1316708 |
+| 9856 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/best-microservices-2021 |
+| 9857 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.infoworld.com/article/2271482/kubernetes-up-serverless-down-report.html |
+| 9858 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/5-cloud-native-trends-to-watch-out-for-in-2022 |
+| 9859 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.infoq.com/presentations/fail-cloud-native-migration |
+| 9860 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/app-modernization-5-tips-when-migrating-to-kubernetes |
+| 9861 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/kubernetes-and-the-next-generation-of-paas |
+| 9862 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://nathanpeck.com/why-should-use-container-orchestration |
+| 9863 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://christophermeiklejohn.com/filibuster/2022/03/19/understanding-faults.html |
+| 9864 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.websiteplanet.com/blog/what-is-open-source-software/?geo=us&device=desktop |
+| 9865 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.eficode.com/blog/the-future-of-kubernetes-and-why-developers-should-look-beyond-kubernetes-in-2022 |
+| 9866 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://bytebytego.com/courses/system-design-interview/scale-from-zero-to-millions-of-users |
+| 9867 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://semaphore.io/blog/deploy-microservices |
+| 9868 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.howtogeek.com/devops/when-not-to-use-docker-cases-where-containers-dont-help |
+| 9869 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/you-dont-need-microservices-2ad8508b9e27 |
+| 9870 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.alibabacloud.com/blog/getting-started-with-kubernetes-%7C-deep-dive-into-kubernetes-core-concepts_595896 |
+| 9871 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.micahlerner.com/2022/07/24/automatic-reliability-testing-for-cluster-management-controllers.html |
+| 9872 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://towardsdatascience.com/3-high-availability-cloud-concepts-you-should-know-93f3bab2cb4a |
+| 9873 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.optisolbusiness.com/insight/8-core-components-of-microservice-architecture |
+| 9874 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/microservices/what-is-microservices-architecture |
+| 9875 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.deloitte.com/de/de/services/consulting/services/center-of-excellence-application-modernization.html |
+| 9876 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://redis.io/blog/microservice-architecture-key-concepts |
+| 9877 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.designgurus.io/blog/monolithic-service-oriented-microservice-architecture |
+| 9878 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/kubernetes-evolution-from-microservices-to-batch-processing-powerhouse |
+| 9879 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.elespanol.com/invertia/disruptores/grandes-actores/tecnologicas/20230416/mainframe-repaso-pasado-futuro-tecnologia-resiste-morir/756174490_0.html |
+| 9880 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://devops.com/8-hot-takes-will-we-see-a-monolithic-renaissance |
+| 9881 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.infoworld.com/article/2335001/why-we-need-both-cloud-architects-and-cloud-engineers.html |
+| 9882 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.enriquedans.com/2023/12/el-desastre-del-software-y-la-automocion.html |
+| 9883 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.freecodecamp.org/news/how-to-write-clean-code |
+| 9884 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.theregister.com/off-prem/2023/01/16/basecamp-details-32-million-bill-that-saw-it-quit-cloud/270397 |
+| 9885 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.thestack.technology/vmware-is-killing-off-56-products-including-vsphere-hypervisor-and-nsx |
+| 9886 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.welivesecurity.com/es/recursos-herramientas/ofuscacion-de-codigo-arte-ciberseguridad |
+| 9887 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.virtualizationhowto.com/2024/02/vmware-by-broadcom-lesson-dont-base-your-career-on-a-product |
+| 9888 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.cope.es/programas/la-linterna/noticias/ejemplo-moneda-con-que-entender-como-funciona-ordenador-cuantico-una-revolucion-20240407_3232557 |
+| 9889 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://paulbutler.org/2024/the-haters-guide-to-kubernetes |
+| 9890 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.genbeta.com/desarrollo/cinco-repositorios-github-buenos-que-imprescindibles-estas-aprendiendo-te-dedicas-a-programar-1 |
+| 9891 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://humanitec.com/reference-architectures/azure |
+| 9892 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://humanitec.com/reference-architectures |
+| 9893 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://humanitec.com/reference-architectures/aws |
+| 9894 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | http://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle |
+| 9895 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://traefik.io/blog/pets-vs-cattle-the-future-of-kubernetes-in-2022 |
+| 9896 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.kurrent.io/blog/service-oriented-architecture-vs-event-driven-architecture |
+| 9897 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://stackoverflow.blog/2021/05/19/rethinking-system-architecture-can-kubernetes-help-to-solve-rewrite-anxiety |
+| 9898 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.infoq.com/articles/managing-technical-debt-microservices |
+| 9899 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://leaddev.com/technical-direction/how-break-cycle-tech-debt |
+| 9900 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://devops.com/measuring-technical-debt |
+| 9901 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/stop-technical-debt-before-it-damages-your-company |
+| 9902 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.n-ix.com/reduce-technical-debt |
+| 9903 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.infoworld.com/article/2338860/you-cant-run-away-from-technical-debt.html |
+| 9904 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.pluralsight.com/resources/blog/cloud/twelve-factor-apps-in-kubernetes |
+| 9905 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://opensource.com/article/21/11/open-source-12-factor-app-methodology |
+| 9906 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/learn-12-factor-apps-before-kubernetes |
+| 9907 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/12-factor-microservice-applications-on-kubernetes-db913008b018 |
+| 9908 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/isolating-and-managing-dependencies-in-12-factor-microservice-applications-with-kubernetes-988638f8bc6d |
+| 9909 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/processes-for-12-factor-microservice-applications-70551a9021b |
+| 9910 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://architecturenotes.co/p/12-factor-app-revisited |
+| 9911 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://martinfowler.com/articles/201701-event-driven.html |
+| 9912 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.equalexperts.com/blog/tech-focus/event-driven-architecture-the-good-the-bad-and-the-ugly |
+| 9913 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://nordicapis.com/5-protocols-for-event-driven-api-architectures |
+| 9914 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://dev.to/aws-builders/un-modelo-de-eda-event-driven-architectures-4d9f |
+| 9915 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://aws.amazon.com/blogs/architecture/best-practices-for-implementing-event-driven-architectures-in-your-organization |
+| 9916 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/architecture-decision-records |
+| 9917 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/what-we-learned-from-enabling-developer-self-service |
+| 9918 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/disaster-recovery-is-different-for-the-cloud |
+| 9919 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.bunnyshell.com/blog/disaster-recovery-devops |
+| 9920 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.scaleway.com/en/blog/saas-multi-tenant-vs-multi-instance-architectures |
+| 9921 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.pluralsight.com/resources/blog/business-and-leadership/sharing-data-in-the-cloud-four-patterns-everyone-should-know |
+| 9922 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://architectelevator.com/cloud/hybrid-multi-cloud |
+| 9923 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.softwebsolutions.com/resources/multi-cloud-adoption-strategy |
+| 9924 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/hybrid-cloud-management-tools |
+| 9925 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://devops.com/infrastructure-abstraction-will-be-key-to-managing-multi-cloud |
+| 9926 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.zdnet.com/article/the-year-ahead-in-devops-and-agile-more-automation-more-business-involvement-needed |
+| 9927 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/what-is-cloud-automation-and-how-does-it-benefit-it-teams |
+| 9928 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.zdnet.com/article/when-microservices-need-event-driven-architecture |
+| 9929 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.simform.com/blog/microservice-best-practices |
+| 9930 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/monoliths-to-microservices-4-modernization-best-practices-2 |
+| 9931 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://itnext.io/4-container-design-patterns-for-kubernetes-a8593028b4cd |
+| 9932 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://blog.getambassador.io/microservice-orchestration-best-practices-f32314dd6a12 |
+| 9933 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://capstonec.com/2020/10/08/cloud-native-app-architecture-patterns |
+| 9934 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/articles/2021/06/14/application-modernization-patterns-apache-kafka-debezium-and-kubernetes |
+| 9935 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.dotnetcurry.com/microsoft-azure/microservices-architecture |
+| 9936 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://geeksarray.com/blog/microservice-architecture-pattern-for-architects |
+| 9937 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.redhat.com/articles/2022/01/11/5-design-principles-microservices |
+| 9938 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.simform.com/blog/microservices-design-principles |
+| 9939 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://javarevisited.blogspot.com/2021/09/microservices-design-patterns-principles.html |
+| 9940 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://blog.bitsrc.io/implementing-microservices-with-cqrs-2cecb0b09c66 |
+| 9941 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://semaphore.io/blog/microfrontends |
+| 9942 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://aws.amazon.com/blogs/compute/server-side-rendering-micro-frontends-ui-composer-and-service-discovery |
+| 9943 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://developers.soundcloud.com/blog/service-architecture-1 |
+| 9944 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://cookbook.learndataengineering.com/docs/05-CaseStudies/#data-science-at-CERN |
+| 9945 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.forbes.com/sites/googlecloud/2021/10/27/3-approaches-to-a-better-cloud-migration |
+| 9946 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.pluralsight.com/resources/blog/cloud/3-ways-to-practice-migrating-workloads-to-the-cloud |
+| 9947 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://blog.pragmaticengineer.com/typical-migration-approaches |
+| 9948 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://world.hey.com/joaoqalves/disasters-i-ve-seen-in-a-microservices-world-a9137a51 |
+| 9949 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.infoq.com/articles/microservices-seven-fail |
+| 9950 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.simform.com/blog/microservices-framework |
+| 9951 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://devops.com/transform-legacy-java-apps-to-microservices |
+| 9952 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://devops.com/vfunction-automates-conversion-of-java-apps-to-microservices |
+| 9953 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://blog.appsignal.com/2021/01/06/microservices-monitoring-using-namespaces-for-data-structuring.html |
+| 9954 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/blog/from-sysadmin-to-architect |
+| 9955 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://raft.github.io |
+| 9956 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.kamilgrzybek.com/blog/posts/modular-monolith-primer |
+| 9957 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://akka.io |
+| 9958 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.harness.io/products/service-reliability-management |
+| 9959 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.aboutamazon.com/what-we-do/entertainment |
+| 9960 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://techerati.com/the-stack-archive/cloud/2018/10/18/openshift-in-a-world-of-kaas |
+| 9961 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.spec-india.com/blog |
+| 9962 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://phoenixnap.com/blog/openshift-vs-kubernetes |
+| 9963 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.ibm.com/think/topics/openshift-vs-kubernetes |
+| 9964 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.simplilearn.com/kubernetes-vs-openshift-article |
+| 9965 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.imaginarycloud.com/blog/openshift-vs-kubernetes-differences |
+| 9966 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/kubernetes/whats-the-difference-between-kubernetes-and-openshift |
+| 9967 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.forbes.com/sites/adunolaadeshola/2021/04/28/13-signs-youre-selling-yourself-short-in-your-career |
+| 9968 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://dev.to/ender_minyard/full-stack-developer-s-roadmap-2k12 |
+| 9969 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://ubiqum.com/blog/20-software-development-tools-that-will-make-you-more-productive |
+| 9970 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://sloboda-studio.com/blog/python-tools-for-machine-learning |
+| 9971 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://vfunction.com |
+| 9972 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/vfunction-transforms-monolithic-java-to-microservices |
+| 9973 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://spectrum.ieee.org/software-eating-car |
+| 9974 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://cincodias.elpais.com/cincodias/2022/03/31/companias/1648738965_952353.html |
+| 9975 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://networkwalks.com/tcp-ip-model |
+| 9976 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://blog.coderco.io/p/tcp-fundamentals-for-software-and |
+| 9977 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://cidr.xyz |
+| 9978 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | http://magic-cookie.co.uk/iplist.html |
+| 9979 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://gist.github.com/chadmcrowell/f3fc3be2ca1fcb887034162c14d77e74 |
+| 9980 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://opensource.com/article/16/12/cidr-network-notation-configuration-linux |
+| 9981 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://pbxbook.com/other/cidrcheat.html |
+| 9982 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.aelius.com/njh/subnet_sheet.html |
+| 9983 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://networkproguide.com/cidr-subnet-mask-ipv4-cheat-sheet |
+| 9984 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.tecmint.com/calculate-ip-subnet-address-with-ipcalc-tool |
+| 9985 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://mattrickard.com/how-to-calculate-a-cidr |
+| 9986 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://build5nines.com/ipv4-address-cidr-range-reference-and-calculator |
+| 9987 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://github.com/netbox-community/netbox |
+| 9988 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://netboxlabs.com/blog/netbox-ipam |
+| 9989 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.youtube.com/playlist?list=PL7sEPiUbBLo_iTds-NV-9Tu05Gg2Aj8N7 |
+| 9990 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://docs.ansible.com/projects/ansible/latest/collections/netbox/netbox/index.html |
+| 9991 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://wizardzines.com/comics/request-headers |
+| 9992 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://wizardzines.com/comics/response-headers |
+| 9993 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | http://www.slideshare.net/AdelaRoger/http-status-code-errors-in-seo |
+| 9994 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://http.cat |
+| 9995 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.youtube.com/watch?v=WkLBrHW4NhQ |
+| 9996 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | http://blog.eisele.net/2015/11/http2-with-jboss-eap-7.html |
+| 9997 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.red-gate.com/simple-talk/development/dotnet-development/script-loading-between-http1-1-and-http2 |
+| 9998 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | http://www.tecmint.com/apache-performance-tuning |
+| 9999 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://http3-explained.haxx.se |
+| 10000 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://alexandrehtrb.github.io/posts/2024/03/http2-and-http3-explained |
+| 10001 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.fastly.com/blog/improve-http-structured-headers |
+| 10002 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://pypi.org/project/http-sfv |
+| 10003 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://media.pearsoncmg.com/aw/ecs_kurose_compnetwork_7/cw/content/interactiveanimations/recursive-iterative-queries-in-dns/index.html |
+| 10004 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://rapidapi.com/guides/oath2-0 |
+| 10005 | 💎 ELITE | [COMMUNITY-TOOL] |  | Hardened Infrastructure | https://www.freecodecamp.org/news/oauth2-resourceserver-with-spring-security |
+| 10006 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://swagger.io |
+| 10007 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://github.com/swagger-api/swagger-codegen |
+| 10008 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/watch?v=CoUl9_NWdqQ |
+| 10009 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.youtube.com/watch?v=PbwQWw7xSOM |
+| 10010 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://jonnylangefeld.com/blog/kubernetes-how-to-view-swagger-ui?utm_sq=gkuh13vgq3 |
+| 10011 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.facebook.com/pages/BMW-IT-Zentrum/122968844423716 |
+| 10012 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.bmw.co.uk/en/shop/ls/country-selection |
+| 10013 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/es/about/press-releases/red-hat-openshift-container-platform-takes-digital-innovation-fast-lane-major-european-automaker |
+| 10014 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.linkedin.com/pulse/bmw-takes-digital-innovation-fast-lane-red-hat-openshift-mendus |
+| 10015 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?time_continue=5340&v=FUu4kMc0PL8 |
+| 10016 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.linkedin.com/pulse/how-bmw-uses-redhat-openshift-bobby-singh |
+| 10017 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.redhat.com/en/success-stories/the-volkswagen-group |
+| 10018 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.xataka.com/movilidad/auge-coche-electrico-autonomo-se-ha-topado-otra-barrera-software-volkswagen-sabe-bien |
+| 10019 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.infoworld.com/article/2335723/why-mercedes-benz-runs-on-900-kubernetes-clusters.html |
+| 10020 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://github.com/mercedes-benz |
+| 10021 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.genbeta.com/desarrollo/software-coches-mercedes-contiene-codigo-abierto-vez-distribuirlo-github-usan-cd |
+| 10022 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.youtube.com/watch?v=UmbjwSK9b3I |
+| 10023 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/mercedes-benz-4-reasons-to-sponsor-open-source-projects |
+| 10024 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.hibridosyelectricos.com/coches/tesla-recurre-china-calidad-fabricacion-coches-electricos_66230_102.html |
+| 10025 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.teslarati.com/idra-9000-ton-giga-press |
+| 10026 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://quarkus.io/blog/decathlon-user-story |
+| 10027 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://thenewstack.io/how-deutsche-telekom-manages-edge-infrastructure-with-gitops |
+| 10028 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://aws.amazon.com/blogs/industries/astrazenecas-drug-design-program-built-using-aws-wins-innovation-award |
+| 10029 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://chaimeleon.eu |
+| 10030 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://valenciaplaza.com/iis-fe-liderara-direccion-cientifica-nodo-central-atlas-imagenes-cancer |
+| 10031 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://aws.amazon.com/blogs/industries/accelerating-radiology-imaging-workflows-with-relevant-clinical-context-on-aws |
+| 10032 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.biobanking.com/europes-leading-cancer-image-biobank-eucaim-launched-by-quibim-and-european-commission |
+| 10033 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://health.google/imaging-and-diagnostics |
+| 10034 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://www.nature.com/articles/d43747-023-00028-w |
+| 10035 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://imperialbiosciencereview.wordpress.com/2023/05/26/redefining-diagnostics-the-integration-of-machine-learning-in-medical-imaging-2 |
+| 10036 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://hms.harvard.edu/news/does-ai-help-or-hurt-human-radiologists-performance-depends-doctor |
+| 10037 | 💎 ELITE | [COMMUNITY-TOOL] |  | Architectural Foundations | https://cronicaglobal.elespanol.com/vida/20240604/roberto-ardon-incepto-ia-pueden-pedir-imposibles/860164103_0.html |
+| 10038 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kubernetes-client |
+| 10039 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/k8s-ruby/k8s-ruby |
+| 10040 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kubernetes/client-go |
+| 10041 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://pkg.go.dev/k8s.io/client-go |
+| 10042 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://danielmangum.com/posts/controller-runtime-client-go-rate-limiting |
+| 10043 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kubernetes-client/go |
+| 10044 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/PrasadG193/kyaml2go |
+| 10045 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/writing-a-kubernetes-cli-in-go-a3970ad58299 |
+| 10046 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://iximiuz.com/en/posts/kubernetes-api-go-cli |
+| 10047 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kubernetes-client/python |
+| 10048 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kubernetes-client/python-base |
+| 10049 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://martinheinz.dev/blog/73 |
+| 10050 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/difference-between-fabric8-and-official-kubernetes-java-client-3e0a994fd4af |
+| 10051 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kubernetes-client/java |
+| 10052 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/blog/2020/10/30/whats-new-in-fabric8-kubernetes-java-client-4-12-0 |
+| 10053 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.marcnuri.com/kubernetes-client-java-fabric8-introduction |
+| 10054 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.marcnuri.com/fabric8-kubernetes-java-client-and-quarkus-and-graalvm |
+| 10055 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/articles/2023/01/24/how-generate-code-using-fabric8-kubernetes-client |
+| 10056 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/articles/2023/01/04/how-use-fabric8-java-client-kubernetes |
+| 10057 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.twstewart.me/posts/cdk8s-python |
+| 10058 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.marcnuri.com |
+| 10059 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/learn/openshift/how-manage-microservices-using-openshift-dev-spaces-and-jkube |
+| 10060 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://javaoperatorsdk.io |
+| 10061 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kruschecompany.com/wp-content/uploads/2020/01/kubernetes-operator.jpg |
+| 10062 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://devops.com/day-2-for-the-operator-ecosystem |
+| 10063 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/vmware-archive/kube-fluentd-operator |
+| 10064 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/shurshun/domain-harvester |
+| 10065 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/datastax/cass-operator |
+| 10066 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kotalco/kotal |
+| 10067 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/OT-CONTAINER-KIT/redis-operator |
+| 10068 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/carlosedp/lbconfig-operator |
+| 10069 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/jace-ys/sentry-operator |
+| 10070 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/kubernetes-when-to-use-and-when-to-avoid-the-operator-pattern |
+| 10071 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.infoq.com/articles/kubernetes-operators-in-depth |
+| 10072 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kloeckner-i/db-operator |
+| 10073 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.container-solutions.com/kubernetes-operators-explained |
+| 10074 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/Efrat19/kubeload |
+| 10075 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/alexellis/registry-creds |
+| 10076 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/FairwindsOps/gemini |
+| 10077 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/rmb938/hostport-allocator |
+| 10078 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://iximiuz.com/en/posts/kubernetes-operator-pattern |
+| 10079 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/GalleyBytes/terraform-operator |
+| 10080 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/didil/autobucket-operator |
+| 10081 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/is-your-operator-air-gap-friendly |
+| 10082 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kuberhealthy/kuberhealthy |
+| 10083 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/metal3-io/baremetal-operator |
+| 10084 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/borchero/meerkat |
+| 10085 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/OT-CONTAINER-KIT/logging-operator |
+| 10086 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/tinyzimmer/gst-pipeline-operator |
+| 10087 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/brennerm/uptimerobot-operator |
+| 10088 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.velotio.com/engineering-blog/getting-started-with-kubernetes-operators-helm-based-part-1 |
+| 10089 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/stakater/IngressMonitorController |
+| 10090 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/FairwindsOps/rbac-manager |
+| 10091 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2021/06/21/writing-a-controller-for-pod-labels |
+| 10092 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.kubermatic.com/blog/why-implementing-kubernetes-operators-is-a-good-idea |
+| 10093 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/we-pushed-helm-to-the-limit-then-built-a-kubernetes-operator |
+| 10094 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/kubexpose-a-kubernetes-operator-for-fun-and-profit-f528586eee07 |
+| 10095 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/kubernetes-operators-cruise-control-for-managing-cloud-native-apps-db328ef8e345 |
+| 10096 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/digitalis-io/vals-operator |
+| 10097 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/banzaicloud/thanos-operator |
+| 10098 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/pravega/pravega-operator |
+| 10099 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/Quentin-M/etcd-cloud-operator |
+| 10100 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://spring.io/blog/2021/11/19/get-to-know-a-kubernetes-operator |
+| 10101 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/VictoriaMetrics/operator |
+| 10102 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.px.dev/k8s-operator |
+| 10103 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://practicalkubernetes.blogspot.com/2022/01/making-case-for-kubernetes-operators.html |
+| 10104 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/reactive-tech/kubegres |
+| 10105 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/projectcapsule/capsule |
+| 10106 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/redhat-cop/keepalived-operator |
+| 10107 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/redhat-cop/dynamic-rbac-operator |
+| 10108 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/spotify/flink-on-k8s-operator |
+| 10109 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kube-green.dev |
+| 10110 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/krestomatio/keydb-operator |
+| 10111 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/keel-hq/keel |
+| 10112 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/openshift/machine-api-operator |
+| 10113 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/rancher/system-upgrade-controller |
+| 10114 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/ckotzbauer/vulnerability-operator |
+| 10115 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/Michaelpalacce/SimpleSecrets |
+| 10116 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.learnsteps.com/advanced-kubernetes-what-exactly-are-kubernetes-operators |
+| 10117 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/OT-CONTAINER-KIT/mongodb-operator |
+| 10118 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/prosimcorp/reforma |
+| 10119 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/vitobotta/velero-notifications |
+| 10120 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/glebiller/dynamic-configuration-operator |
+| 10121 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/furiko-io/furiko |
+| 10122 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/DevOps-Nirvana/Kubernetes-Volume-Autoscaler |
+| 10123 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/scylladb/scylla-operator |
+| 10124 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/coderanger/migrations-operator |
+| 10125 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://omerxx.com/k8s-controllers |
+| 10126 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/mittwald/kubernetes-secret-generator |
+| 10127 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/ContainerSolutions/delayed-jobs-operator |
+| 10128 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.frankel.ch/kubernetes-extensibility |
+| 10129 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://superorbital.io/blog/testing-production-controllers |
+| 10130 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/lukaszraczylo/jobs-manager-operator |
+| 10131 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/ricoberger/vault-secrets-operator |
+| 10132 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/ElementTech/kube-reqsizer |
+| 10133 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/sieve-project/sieve |
+| 10134 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/hashicorp-vault-operator-manages-kubernetes-secrets |
+| 10135 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/2-alchemists/krossboard |
+| 10136 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/gianlucam76/k8s-cleaner |
+| 10137 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/NCCloud/mayfly |
+| 10138 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/5-advanced-kubernetes-operators-every-devops-engineer-should-know-about-ab46bdc1c7d5 |
+| 10139 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kubernetes-sigs/kubebuilder |
+| 10140 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/thenjdevopsguy/what-is-a-kubernetes-operator-53kb |
+| 10141 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/red-hat-container-community-of-practice-operators |
+| 10142 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://operatorframework.io/operator-capabilities |
+| 10143 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kubernetes-sigs/cluster-addons |
+| 10144 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/k8spin/k8spin-operator |
+| 10145 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/k8spin-provides-multitenant-isolation-for-kubernetes |
+| 10146 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://k8spin.cloud/oss-projects |
+| 10147 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/blog/2020/05/29/k8s-kpis-with-kuberhealthy |
+| 10148 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/docs/concepts/extend-kubernetes/operator |
+| 10149 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://opensource.com/article/20/3/kubernetes-operator-sdk |
+| 10150 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/testing-the-operator-sdk-and-making-a-prefetch-mechanism-for-kubernetes-7508577efdd7 |
+| 10151 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.bmc.com/blogs/kubernetes-operator |
+| 10152 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://linuxera.org/writing-operators-using-operator-framework |
+| 10153 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/7-best-practices-for-writing-kubernetes-operators-an-sre-perspective |
+| 10154 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.redhat.com/en/blog/build-your-kubernetes-operator-with-the-right-tool |
+| 10155 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://shipit.dev/posts/k8s-operators-with-python-part-1.html |
+| 10156 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://vivilearns2code.github.io/k8s/2021/03/11/writing-controllers-for-kubernetes-custom-resources.html |
+| 10157 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://developers.redhat.com/articles/2021/08/04/managing-stateful-applications-kubernetes-operators-golang |
+| 10158 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kubernetes/sample-controller |
+| 10159 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://metalbear.com/blog/writing-a-kubernetes-operator |
+| 10160 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/hkhelil/building-a-kubernetes-operator-with-an-nginx-crd-3lil |
+| 10161 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.infracloud.io/blogs/3-autoscaling-projects-optimising-kubernetes-costs |
+| 10162 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.scaleway.com/en/blog/understanding-kubernetes-autoscaling |
+| 10163 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.infracloud.io/blogs/kubernetes-autoscaling-custom-metrics |
+| 10164 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.sysdig.com/blog/kubernetes-autoscaler |
+| 10165 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://learnkube.com/kubernetes-autoscaling-strategies |
+| 10166 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/reduce-kubernetes-costs-using-autoscaling-mechanisms |
+| 10167 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://cast.ai/blog/guide-to-kubernetes-autoscaling-for-cloud-cost-optimization |
+| 10168 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/scaling-microservices-on-kubernetes |
+| 10169 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://cloud.ibm.com/docs/solution-tutorials?topic=solution-tutorials-scalable-webapp-kubernetes |
+| 10170 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thinksys.com/devops/kubernetes-autoscaling |
+| 10171 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.clickittech.com/devops/kubernetes-autoscaling |
+| 10172 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler |
+| 10173 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/kubernetes-cluster-autoscaler-more-than-scaling-out-7b2d97f10b27 |
+| 10174 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://platform9.com/blog/kubernetes-autoscaling-options-horizontal-pod-autoscaler-vertical-pod-autoscaler-and-cluster-autoscaler |
+| 10175 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/kubernetes-resources-and-autoscaling-from-basics-to-greatness-7cae17fbf27b |
+| 10176 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://the-gigi.github.io/gigi-zone/posts/2024/05/advanced-k8s-scheduling-and-autoscaling |
+| 10177 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://kubernetes.io/docs/concepts/workloads/autoscaling/horizontal-pod-autoscale |
+| 10178 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler |
+| 10179 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.returngis.net/2020/07/escalado-vertical-de-tus-pods-en-kubernetes |
+| 10180 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/horizontal-pod-autoscaling-with-custom-metric-from-different-namespace-f19f8446143b |
+| 10181 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.around25.com/blog/horizontal-pod-autoscaler-in-kubernetes |
+| 10182 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.velotio.com/engineering-blog/autoscaling-in-kubernetes-using-hpa-vpa |
+| 10183 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/ninlil/kubectl-vpa |
+| 10184 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/k8s-vertical-pod-autoscaling-fd9e602cbf81 |
+| 10185 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.sysdig.com/blog/kubernetes-hpa-prometheus |
+| 10186 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://blog.px.dev/autoscaling-custom-k8s-metric |
+| 10187 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://code.egym.de/horizontal-pod-autoscaler-in-kubernetes-part-1-simple-autoscaling-using-metrics-server-929e96cc2ab2 |
+| 10188 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/stupid-simple-scalability-dc4a7fbe67d6 |
+| 10189 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/pavanbelagatti/scaling-your-application-with-kubernetes-5715 |
+| 10190 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://code.egym.de/vertical-pod-autoscaler-in-kubernetes-b12a5c61393f |
+| 10191 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/kubernetes-vertical-pods-scaling-with-vertical-pod-autoscaler-e2e5a3b8e1a9 |
+| 10192 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/danielepolencic/request-based-autoscaling-in-kubernetes-scaling-to-zero-2i73 |
+| 10193 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://artifacthub.io/packages/helm/stable/cluster-autoscaler |
+| 10194 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://keda.sh |
+| 10195 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://partlycloudy.blog/2020/05/29/horizontal-autoscaling-in-kubernetes-3-keda |
+| 10196 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://thenewstack.io/microsoft-keda-2-0-scales-up-event-driven-programming-on-kubernetes |
+| 10197 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://itnext.io/event-driven-autoscaling-503b5cefaa49 |
+| 10198 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.kedify.io/resources/blog/prometheus-and-kubernetes-horizontal-pod-autoscaler-dont-talk-keda-does |
+| 10199 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://github.com/kedacore/keda/issues/2214 |
+| 10200 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://www.opcito.com/blogs/a-guide-to-mastering-autoscaling-in-kubernetes-with-keda |
+| 10201 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/vinod827/scale-your-apps-using-keda-in-kubernetes-4i3h |
+| 10202 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://hub.docker.com/r/bitnami/cluster-autoscaler |
+| 10203 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.aws.amazon.com/eks/latest/userguide/autoscaling.html#cluster-autoscaler |
+| 10204 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://learn.microsoft.com/en-us/azure/aks/cluster-autoscaler |
+| 10205 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.cloud.google.com/kubernetes-engine/docs/concepts/cluster-autoscaler |
+| 10206 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://docs.digitalocean.com/products/kubernetes/how-to/autoscale |
+| 10207 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://dev.to/danielepolencic/scaling-kubernetes-to-multiple-clusters-and-regionss-294b |
+| 10208 | 💎 ELITE | [COMMUNITY-TOOL] |  | The Container Stack | https://engineering.zalando.com/posts/2021/03/building-an-end-to-end-load-test-automation-system-on-top-of-kubernetes.html |
+| 10209 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://feedly.com |
+| 10210 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://kube.events |
+| 10211 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://pcr.cloud-mercato.com |
+| 10212 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://projector.cloud-mercato.com/projects/state-of-the-art-of-public-object-storage-europe |
+| 10213 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.pluralsight.com/resources/blog/cloud/why-learn-multiple-cloud-platforms |
+| 10214 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://digitalisationworld.com/blogs/57435/multicloud-two-truths-and-a-lie |
+| 10215 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.nextgov.com/ideas/2023/11/why-smart-multicloud-policies-are-golden-ticket-modernizing-it-infrastructure/392232 |
+| 10216 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://intellipaat.com/blog/aws-vs-azure-vs-google-cloud |
+| 10217 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://comparecloud.in |
+| 10218 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.youtube.com/playlist?app=desktop&list=PLI1_CQcV71RnBebKm_tH1uKYI3WxkM2TT |
+| 10219 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.xataka.com/pro/talon-aquiles-aws-sus-altas-tarifas-salida-datos-sus-rivales-empiezan-a-explotarlo-guerra-precios-gigante-nube |
+| 10220 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://cast.ai/blog/cloud-pricing-comparison |
+| 10221 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.xataka.com/pro/asi-se-reparte-mercado-cloud-tres-grandes-tienen-63-siguientes-10-22 |
+| 10222 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.pluralsight.com/resources/blog/cloud/cloud-security-comparison-aws-vs-azure-vs-gcp |
+| 10223 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.pluralsight.com/resources/blog/cloud/cloud-developer-tooling-compared-aws-vs-azure-vs-gcp |
+| 10224 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.pluralsight.com/resources/blog/cloud/blockchain-cloud-comparison-what-is-blockchain-as-a-service-baas |
+| 10225 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.pluralsight.com/resources/blog/cloud/storage-showdown-aws-vs-azure-vs-gcp-cloud-comparison |
+| 10226 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://thenewstack.io/is-a-multicloud-strategy-right-for-your-organization |
+| 10227 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.cloudtechtwitter.com/2022/05/lets-check-about-aws-vs-azure-services.html |
+| 10228 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://faddom.com/cloud-computing-costs-and-pricing-comparison |
+| 10229 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://thenewstack.io/how-to-evaluate-kubernetes-cloud-providers |
+| 10230 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.redhat.com/en/technologies/cloud-computing/openshift/pricing |
+| 10231 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/openshift-container-platform-4x |
+| 10232 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://pivotal.io/platform/pivotal-container-service |
+| 10233 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://aws.amazon.com/es/eks/pricing |
+| 10234 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://azure.microsoft.com/es-es/pricing/details/kubernetes-service |
+| 10235 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://cloud.google.com/kubernetes-engine/pricing |
+| 10236 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.rackspace.com/cloud/kubernetes |
+| 10237 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://iot-analytics.com/iot-cloud |
+| 10238 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://gaia-x.eu |
+| 10239 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.bundeswirtschaftsministerium.de/Redaktion/EN/Dossier/gaia-x.html |
+| 10240 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | http://past.jamaica-gleaner.com/article/business/20211224/amazon-outages-future-implications |
+| 10241 | 💎 ELITE | [COMMUNITY-TOOL] |  | Cloud Providers (Hyperscalers) | https://www.20minutos.es/tecnologia/actualidad/amazon-web-services-vuelve-a-romper-internet-se-ha-caido-ya-tres-veces-en-el-mismo-mes-y-le-llueven-las-criticas-4931834 |
+| 10242 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://web.dev/explore/react |
+| 10243 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.freecodecamp.org/news/get-started-with-react-for-beginners |
+| 10244 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.freecodecamp.org/news/how-to-set-up-custom-email |
+| 10245 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://www.cloudflare.com |
+| 10246 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://workers.cloudflare.com |
+| 10247 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://blog.cloudflare.com/network-performance-update-full-stack-week |
+| 10248 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://blog.cloudflare.com/guest-blog-zero-trust-access-kubernetes |
+| 10249 | 💎 ELITE | [COMMUNITY-TOOL] |  | Networking & Service Mesh | https://blog.cloudflare.com/zero-trust-private-networking-rules |
+| 10250 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://tekton.dev |
+| 10251 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/tektoncd |
+| 10252 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/tektoncd/community |
+| 10253 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://github.com/tektoncd/pipeline |
+| 10254 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://tekton.dev/docs/pipelines/pipelines |
+| 10255 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://opensource.googleblog.com/2020/05/the-tekton-pipelines-beta-release.html |
+| 10256 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.youtube.com/watch?v=igwFpZOUTnw |
+| 10257 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://www.redhat.com/en/topics/devops/what-cicd-pipeline |
+| 10258 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://itnext.io/cloud-native-ci-cd-with-tekton-building-custom-tasks-663e63c1f4fb |
+| 10259 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://opensource.com/article/21/11/cicd-pipeline-kubernetes-tekton |
+| 10260 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://opensource.com/article/21/11/kubernetes-dynamic-scheduling-tekton |
+| 10261 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://piotrminkowski.com/2022/02/21/validate-kubernetes-deployment-in-ci-cd-with-tekton-and-datree |
+| 10262 | 💎 ELITE | [COMMUNITY-TOOL] |  | Engineering Pipeline | https://piotrminkowski.com/2022/03/29/canary-release-on-kubernetes-with-knative-and-tekton |
+| 10263 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.linkedin.com/pulse/importance-api-automation-testing-manish-saini |
+| 10264 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/optimizing-app-performance-in-a-multicloud-stack |
+| 10265 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.testmuai.com/blog/testng-vs-junit-which-testing-framework-should-you-choose |
+| 10266 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/continuous-testing-practices-part-1 |
+| 10267 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://itnext.io/software-development-is-misunderstood-quality-is-fastest-way-to-get-code-into-production-f1f5a0792c69 |
+| 10268 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://blog.testproject.io/2021/07/21/the-10-10-10-rule-of-test-automation |
+| 10269 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://blog.testproject.io/2021/07/22/end-to-end-testing |
+| 10270 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/7-benefits-of-testing-in-isolation |
+| 10271 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/error-handling-from-backends-to-the-frontend |
+| 10272 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.testmuai.com/blog/best-test-automation-trends |
+| 10273 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://dev.to/koladev/test-driven-development-with-django-unit-testing-integration-testing-with-docker-flask-github-actions-2047 |
+| 10274 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.smashingmagazine.com/2022/02/testing-pipeline-101-frontend-testing |
+| 10275 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.infoq.com/presentations/microservices-software-quality |
+| 10276 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://speakerdeck.com/thockin/code-review-in-kubernetes |
+| 10277 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.getxray.app/blog/the-top-5-software-testing-trends-of-2022 |
+| 10278 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.linkedin.com/pulse/microservices-testable-isolation-chris-richardson |
+| 10279 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.softwaretestingsapiens.com/roadmap-to-learn-api-testing |
+| 10280 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://junit.org |
+| 10281 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://testng.org |
+| 10282 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://spockframework.org |
+| 10283 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://opensource.com/article/22/1/unit-testing-googletest-ctest |
+| 10284 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://launchdarkly.com/blog/get-a-detailed-explanation-of-release-testing-several |
+| 10285 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.com/kyverno/chainsaw |
+| 10286 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://collabnix.com/the-ultimate-docker-tutorial-for-automation-testing |
+| 10287 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.com/allure-framework/allure2 |
+| 10288 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://semgrep.dev |
+| 10289 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.meetup.com/es-es/jenkins-online-meetup/events/276135789 |
+| 10290 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.com/testcontainers |
+| 10291 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://testcontainers.com |
+| 10292 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://metabob.com |
+| 10293 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://sourceware.org/systemtap |
+| 10294 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.com/auchenberg/volkswagen |
+| 10295 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.getxray.app/blog/7-benefits-of-using-a-test-management-app-vs.-excel |
+| 10296 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.com/google/clusterfuzzlite |
+| 10297 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://thenewstack.io/google-introduces-clusterfuzzlite-security-tool-for-ci-cd |
+| 10298 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://www.convert.com/blog/a-b-testing/a-b-testing-tools-2022-beyond |
+| 10299 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://circleci.com/blog/unit-testing-vs-integration-testing |
+| 10300 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.com/reviewdog/reviewdog |
+| 10301 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://devops.com/best-practices-for-application-performance-testing |
+| 10302 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.com/vmware-tanzu/sonobuoy |
+| 10303 | 💎 ELITE | [COMMUNITY-TOOL] |  | Platform & Site Reliability | https://github.com/vincentserpoul/kubench |
+| 10304 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://thenewstack.io/web3-architecture-and-how-it-compares-to-traditional-web-apps |
+| 10305 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.wired.com/story/web3-gavin-wood-interview |
+| 10306 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.elconfidencial.com/tecnologia/2021-12-12/el-futuro-de-internet-ya-esta-aqui-y-se-llama-web3-pero-casi-nadie-sabe-lo-que-es_3339244 |
+| 10307 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://hub.docker.com/r/payara/server-full |
+| 10308 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://hub.docker.com/r/payara/micro |
+| 10309 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://developers.redhat.com/products/eap |
+| 10310 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://www.wildfly.org |
+| 10311 | 💎 ELITE | [COMMUNITY-TOOL] |  | Developer Ecosystem | https://opensource.com/article/21/7/wildfly |
+| 10312 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://handbook.gitlab.com/handbook |
+| 10313 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://www.elconfidencial.com/mundo/2023-03-10/milenializacion-mercado-laboral-israeli-startups_3551800 |
+| 10314 | 💎 ELITE | [COMMUNITY-TOOL] |  | Career & Industry | https://www.xataka.com/empresas-y-economia/han-recomendado-calcular-cuanto-dinero-queda-al-resto-despedirles-startups-espanolas-frente-a-quiebra-svb |

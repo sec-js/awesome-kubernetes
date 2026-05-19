@@ -16,7 +16,7 @@
   - [blog.openshift.com: Stateful Workloads and the Two Data Center Conundrum](https://www.redhat.com/en/blog/stateful-workloads-and-the-two-data-center-conundrum)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [GitHub redhat-cop: Ansible Role 🌟](https://github.com/redhat-cop/infra-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [techbeatly.com: How to create, increase or decrease project quota](https://techbeatly.com/how-to-create-increase-or-decrease-project-quota-in-openshift/#.Xd5OE9WCGUk)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Quotas setting across multiple projects](https://docs.redhat.com/en/documentation/openshift_container_platform/4.2/html/applications/quotas#setting-quotas-across-multiple-projects)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Quotas setting per project](https://docs.redhat.com/en/documentation/openshift_container_platform/4.2/html/applications/quotas#quotas-setting-per-project)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Source-to-Image (S2I) Build](https://docs.redhat.com/en/documentation/openshift_container_platform/3.11/html/architecture/core-concepts#architecture-core-concepts-builds-and-image-streams)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [claydesk.com: Google Cloud App Engine Vs Red Hat OpenShift](https://www.claydesk.com/ecampus/google-cloud-app-engine-vs-red-hat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [certdepot.net: OpenShift Free available resources 🌟](https://www.certdepot.net/openshift-free-available-resources)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>

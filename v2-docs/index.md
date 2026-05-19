@@ -1,4 +1,4 @@
-# Nubenetes Elite Portal (V2)
+# Nubenetes Elite Portal (V2) | Awesome Kubernetes and Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/nubenetes/awesome-kubernetes)
 
 <center markdown="1">
 [![Banner](images/kubernetes_logo.jpg)](https://kubernetes.io)
