@@ -128,7 +128,7 @@ As of May 2026, Nubenetes has reached the **Platinum Operational Tier**, featuri
 <!-- HEART_STATS_START -->
 | Metric | Value |
 | :--- | :--- |
-| **Total Technical Resources (Links)** | **15298+** |
+| **Total Technical Resources (Links)** | **15299+** |
 | **Specialized MD Pages** | **161** |
 | **Total Commits** | **4707+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
@@ -214,7 +214,7 @@ pie title Nubenetes Major Ecosystem Pillars
     "Infra as Code" : 1200
     "SRE and Observability" : 1000
     "Security and DevSecOps" : 1000
-    "Specialized Topics" : 898
+    "Specialized Topics" : 899
 ```
 <!-- PILLAR_CHART_END -->
 
@@ -228,7 +228,7 @@ Reflecting Nubenetes' mission of global access while maintaining technical Engli
 <!-- SUB_ECO_CHART_START -->
 ```mermaid
 pie title Linguistic Diversity (Global Access)
-    "English" : 13768
+    "English" : 13769
     "Spanish" : 917
     "French" : 152
     "Others" : 458

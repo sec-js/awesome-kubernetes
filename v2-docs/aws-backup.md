@@ -4,6 +4,7 @@
     Detailed reference for Aws Backup in the context of Cloud Providers (Hyperscalers).
 
   - [Quantum Taps AWS for Cloud-Powered Disaster Recovery](http://www.infostor.com/backup-and_recovery/quantum-taps-aws-for-cloud-powered-disaster-recovery.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [youtube: Migrating On Premise VM to AWS | VM Import/Export | Create EC2 instance based on on-premises server](https://www.youtube.com/watch?v=buzusNljpy4&feature=youtu.be)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Linkedin discussion: Need help on Backup and restore methods of EC2 using s3 services](https://www.linkedin.com/groups/49531/49531-6093375473969090562)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Design for failure lessons learnt from the Sydney AWS outage](https://www.hava.io/blog/design-for-failure-lessons-learnt-from-the-sydney-aws-outage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Chaos Monkey](https://github.com/Netflix/SimianArmy/wiki/Chaos-Monkey)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -20,4 +21,3 @@
   - [New AWS Competency – AWS Migration](https://aws.amazon.com/blogs/aws/new-aws-competency-aws-migration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Migrate Resources Between AWS Accounts](https://aws.amazon.com/blogs/architecture/migrate-resources-between-aws-accounts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Multi-Region Migration using AWS Application Migration Service](https://aws.amazon.com/blogs/architecture/multi-region-migration-using-aws-application-migration-service)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [youtube: Migrating On Premise VM to AWS | VM Import/Export | Create EC2 instance based on on-premises server](https://www.youtube.com/watch?v=buzusNljpy4&feature=youtu.be)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>

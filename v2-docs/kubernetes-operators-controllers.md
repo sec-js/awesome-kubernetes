@@ -4,8 +4,18 @@
     Detailed reference for Kubernetes Operators Controllers in the context of The Container Stack.
 
   - [kruschecompany.com: What is a Kubernetes Operator and Where it Can be Used?](https://kruschecompany.com/wp-content/uploads/2020/01/kubernetes-operator.jpg)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [devops.com: Day 2 for the Operator Ecosystem 🌟](https://devops.com/day-2-for-the-operator-ecosystem)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kube-fluentd-operator 🌟](https://github.com/vmware-archive/kube-fluentd-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [isaaguilar/terraform-operator: Terraform Operator](https://github.com/GalleyBytes/terraform-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [openshift.com: Is your Operator Air-Gap Friendly?](https://www.redhat.com/en/blog/is-your-operator-air-gap-friendly)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [kuberhealthy 🌟](https://github.com/kuberhealthy/kuberhealthy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Capsule Operator](https://github.com/projectcapsule/capsule)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/2-alchemists/krossboard-kubernetes-operator](https://github.com/2-alchemists/krossboard)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloud.redhat.com: Red Hat Container Community of Practice Operators](https://www.redhat.com/en/blog/red-hat-container-community-of-practice-operators)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [openshift.com: 7 Best Practices for Writing Kubernetes Operators: An SRE Perspective](https://www.redhat.com/en/blog/7-best-practices-for-writing-kubernetes-operators-an-sre-perspective)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [openshift.com: Build Your Kubernetes Operator With the Right Tool 🌟](https://www.redhat.com/en/blog/build-your-kubernetes-operator-with-the-right-tool)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [brennerm.github.io: Kubernetes operators with Python #1: Creating CRDs](https://shipit.dev/posts/k8s-operators-with-python-part-1.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [metalbear.co: Writing a Kubernetes Operator](https://metalbear.com/blog/writing-a-kubernetes-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [devops.com: Day 2 for the Operator Ecosystem 🌟](https://devops.com/day-2-for-the-operator-ecosystem)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Domain-harvester](https://github.com/shurshun/domain-harvester)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Cass Operator](https://github.com/datastax/cass-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kotal operator](https://github.com/kotalco/kotal)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -21,10 +31,7 @@
   - [gemini](https://github.com/FairwindsOps/gemini)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [HostPort Operator](https://github.com/rmb938/hostport-allocator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [iximiuz.com: Exploring Kubernetes Operator Pattern 🌟](https://iximiuz.com/en/posts/kubernetes-operator-pattern)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [isaaguilar/terraform-operator: Terraform Operator](https://github.com/GalleyBytes/terraform-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [didil/autobucket-operator](https://github.com/didil/autobucket-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [openshift.com: Is your Operator Air-Gap Friendly?](https://www.redhat.com/en/blog/is-your-operator-air-gap-friendly)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [kuberhealthy 🌟](https://github.com/kuberhealthy/kuberhealthy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Bare Metal Operator](https://github.com/metal3-io/baremetal-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Meerkat](https://github.com/borchero/meerkat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Logging Operator](https://github.com/OT-CONTAINER-KIT/logging-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -47,7 +54,6 @@
   - [blog.px.dev/k8s-operator: 3 Reasons to Use Kubernetes Operators (and 2 Reasons Not To)](https://blog.px.dev/k8s-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [practicalkubernetes.blogspot.com: Making the case for Kubernetes Operators](https://practicalkubernetes.blogspot.com/2022/01/making-case-for-kubernetes-operators.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [reactive-tech/kubegres](https://github.com/reactive-tech/kubegres)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Capsule Operator](https://github.com/projectcapsule/capsule)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [redhat-cop/keepalived-operator: Keepalived operator](https://github.com/redhat-cop/keepalived-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [redhat-cop/dynamic-rbac-operator: Dynamic RBAC Operator](https://github.com/redhat-cop/dynamic-rbac-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [spotify/flink-on-k8s-operator: Kubernetes Operator for Apache Flink](https://github.com/spotify/flink-on-k8s-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -77,13 +83,11 @@
   - [github.com/ElementTech/kube-reqsizer](https://github.com/ElementTech/kube-reqsizer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/sieve-project/sieve](https://github.com/sieve-project/sieve)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: HashiCorp Vault Operator Manages Kubernetes Secrets](https://thenewstack.io/hashicorp-vault-operator-manages-kubernetes-secrets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/2-alchemists/krossboard-kubernetes-operator](https://github.com/2-alchemists/krossboard)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/gianlucam76/k8s-cleaner 🌟](https://github.com/gianlucam76/k8s-cleaner)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/NCCloud/mayfly: Ephemeral Kubernetes Resources 🌟](https://github.com/NCCloud/mayfly)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: 5 Advanced Kubernetes Operators Every DevOps Engineer Should Know About 🌟](https://itnext.io/5-advanced-kubernetes-operators-every-devops-engineer-should-know-about-ab46bdc1c7d5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to/thenjdevopsguy: What Is A Kubernetes Operator?](https://dev.to/thenjdevopsguy/what-is-a-kubernetes-operator-53kb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloud.redhat.com: Red Hat Container Community of Practice Operators](https://www.redhat.com/en/blog/red-hat-container-community-of-practice-operators)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Operator Capability Levels](https://operatorframework.io/operator-capabilities)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Cluster Addons 🌟](https://github.com/kubernetes-sigs/cluster-addons)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [K8Spin Operator 🌟](https://github.com/k8spin/k8spin-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -95,11 +99,7 @@
   - [itnext.io: Testing the Operator SDK and making a prefetch mechanism for Kubernetes](https://itnext.io/testing-the-operator-sdk-and-making-a-prefetch-mechanism-for-kubernetes-7508577efdd7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [bmc.com: What Is a Kubernetes Operator?](https://www.bmc.com/blogs/kubernetes-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [linuxera.org: Writing Operators using the Operator Framework SDK](https://linuxera.org/writing-operators-using-operator-framework)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [openshift.com: 7 Best Practices for Writing Kubernetes Operators: An SRE Perspective](https://www.redhat.com/en/blog/7-best-practices-for-writing-kubernetes-operators-an-sre-perspective)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [openshift.com: Build Your Kubernetes Operator With the Right Tool 🌟](https://www.redhat.com/en/blog/build-your-kubernetes-operator-with-the-right-tool)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [brennerm.github.io: Kubernetes operators with Python #1: Creating CRDs](https://shipit.dev/posts/k8s-operators-with-python-part-1.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [vivilearns2code.github.io: Writing Controllers For Kubernetes Resources](https://vivilearns2code.github.io/k8s/2021/03/11/writing-controllers-for-kubernetes-custom-resources.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Managing stateful applications with Kubernetes Operators in Golang 🌟](https://developers.redhat.com/articles/2021/08/04/managing-stateful-applications-kubernetes-operators-golang)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes/sample-controller](https://github.com/kubernetes/sample-controller)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [metalbear.co: Writing a Kubernetes Operator](https://metalbear.com/blog/writing-a-kubernetes-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to/hkhelil: Building a Kubernetes Operator with an NGINX CRD](https://dev.to/hkhelil/building-a-kubernetes-operator-with-an-nginx-crd-3lil)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
