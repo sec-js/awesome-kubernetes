@@ -3,11 +3,11 @@
 !!! info "Architectural Context"
     Detailed reference for Aws Monitoring in the context of Cloud Providers (Hyperscalers).
 
+  - [threatstack.com: 50 Best AWS CloudWatch Tutorials](https://www.f5.com/company/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github: Steps I used to install Nagios in the cloud](https://github.com/andrewpuch/nagios_setup)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github: ElectricEye](https://github.com/jonrau1/ElectricEye/blob/master/README.md)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [elastic.co: Elastic and AWS: Accelerating the cloud migration journey](https://www.elastic.co/blog/elastic-and-aws-accelerate-your-cloud-migration-journey)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [How to use AWS Config and CloudTrail to find who made changes to a resource](https://aws.amazon.com/blogs/mt/how-to-use-aws-config-and-cloudtrail-to-find-who-made-changes-to-a-resource)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [threatstack.com: 50 Best AWS CloudWatch Tutorials](https://www.f5.com/company/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Amazon CloudWatch now monitors Prometheus metrics from Container environments](https://aws.amazon.com/about-aws/whats-new/2020/09/amazon-cloudwatch-monitors-prometheus-metrics-container-environments)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Amazon CloudWatch Dashboards now supports sharing](https://aws.amazon.com/about-aws/whats-new/2020/09/amazon-cloudwatch-dashboards-supports-sharing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [How BT uses Amazon CloudWatch to monitor millions of devices](https://aws.amazon.com/blogs/mt/how-bt-uses-amazon-cloudwatch-to-monitor-millions-of-devices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>

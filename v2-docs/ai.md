@@ -3,24 +3,29 @@
 !!! info "Architectural Context"
     Detailed reference for Ai in the context of AI and Artificial Intelligence.
 
-  - [technologyreview.com: Andrew Ng: Forget about building an AI-first business. Start with a mission 🌟](https://www.technologyreview.com/2021/03/26/1021258/ai-pioneer-andrew-ng-machine-learning-business)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cio.com: Make Better AI Infrastructure Decisions: Why Hybrid Cloud is a Solid Fit 🌟](https://www.cio.com/article/350337/make-better-ai-infrastructure-decisions-why-hybrid-cloud-is-a-solid-fit.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [businessinsider.es: Los ingenieros de software están aterrorizados ante la posibilidad de ser sustituidos por la IA](https://www.businessinsider.es/tecnologia/ingenieros-software-estan-aterrorizados-posibilidad-ser-sustituidos-ia-1238112)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [computerhoy.com: ¿Qué es el 'Deep Learning' y por qué se considera una revolución en la inteligencia artificial?](https://computerhoy.20minutos.es)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [aman.ai/primers/ai/LLM: Primers - Overview of Large Language Models](https://aman.ai/primers/ai/LLM)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [aman.ai: Transformers](https://aman.ai/primers/ai/transformers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [aman.ai: Primers • Bidirectional Encoder Representations from Transformers (BERT)](https://aman.ai/primers/ai/bert)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [aman.ai: Primers • Generative Pre-trained Transformer (GPT)](https://aman.ai/primers/ai/gpt)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Limitless Kubernetes Scaling for AI and Data-intensive Workloads: The AKS Fleet Strategy](http://blog.aks.azure.com/2025/04/02/Scaling-Kubernetes-for-AI-and-Data-intensive-Workloads)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Programming with GitHub Copilot Agent Mode](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/programming-with-github-copilot-agent-mode/4400630)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [HolmesGPT (Robusta)](https://github.com/HolmesGPT/holmesgpt)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [infoworld.com: 5 best practices for securing CI/CD pipelines](https://www.infoworld.com/article/2336728/5-best-practices-for-securing-cicd-pipelines.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [GitHub Copilot CLI for Beginners: Getting Started](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli/?utm_source=twitter-cli-beginners-getting-started-cta&utm_medium=social&utm_campaign=dev-pod-copilot-cli-2026)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [technologyreview.com: Andrew Ng: Forget about building an AI-first business. Start with a mission 🌟](https://www.technologyreview.com/2021/03/26/1021258/ai-pioneer-andrew-ng-machine-learning-business)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cio.com: Make Better AI Infrastructure Decisions: Why Hybrid Cloud is a Solid Fit 🌟](https://www.cio.com/article/350337/make-better-ai-infrastructure-decisions-why-hybrid-cloud-is-a-solid-fit.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [poloclub.github.io: What is a Convolutional Neural Network?](https://poloclub.github.io/cnn-explainer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [freecodecamp.org: Ace Your Deep Learning Job Interview](https://www.freecodecamp.org/news/ace-your-deep-learning-job-interview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [freecodecamp.org: Deep Learning Fundamentals Handbook – What You Need to Know to Start Your Career in AI](https://www.freecodecamp.org/news/deep-learning-fundamentals-handbook-start-a-career-in-ai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [aman.ai/primers/ai: Distilled AI](https://aman.ai/primers/ai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [aman.ai/primers/ai/LLM: Primers - Overview of Large Language Models](https://aman.ai/primers/ai/LLM)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [forbesargentina.com: Por qué Nvidia, Google y Microsoft apuestan miles de millones en modelos LLM de IA Generativa para biotecnología](https://www.forbesargentina.com/innovacion/por-nvidia-google-microsoft-apuestan-miles-millones-modelos-llm-ia-generativa-biotecnologia-n49278)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube: AWS re:Invent 2023 - From hype to impact: Building a generative AI architecture (ARC217)](https://www.youtube.com/watch?v=1Lat8dP7Eq0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course?hl=es-419)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/microsoft/ML-For-Beginners: Machine Learning for Beginners - A Curriculum](https://github.com/microsoft/ML-For-Beginners)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [amazon.science/base-tts-samples](https://www.amazon.science/base-tts-samples)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/NielsRogge/Transformers-Tutorials](https://github.com/NielsRogge/Transformers-Tutorials)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [aman.ai: Transformers](https://aman.ai/primers/ai/transformers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [aman.ai: Primers • Bidirectional Encoder Representations from Transformers (BERT)](https://aman.ai/primers/ai/bert)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [aman.ai: Primers • Generative Pre-trained Transformer (GPT)](https://aman.ai/primers/ai/gpt)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Development Environments for Cloud Agents](https://cursor.com/blog/cloud-agent-development-environments)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Cursor AI Fundamentals Course](https://cursor.com/es/learn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Cursor Bugbot Effort Levels Documentation](https://cursor.com/docs/bugbot#effort-levels)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -39,7 +44,6 @@
   - [Claude 101: Free Guides to Master Claude](https://claude101.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/openai/openai-cookbook: OpenAI Cookbook](https://github.com/openai/openai-cookbook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [xataka.com: Microsoft no quiere poner todos los huevos en la misma cesta: anuncia una asociación con Mistral AI, la OpenAI de Europa](https://www.xataka.com/robotica-e-ia/microsoft-no-quiere-poner-todos-huevos-cesta-anuncia-asociacion-mistral-ai-openai-europa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Limitless Kubernetes Scaling for AI and Data-intensive Workloads: The AKS Fleet Strategy](http://blog.aks.azure.com/2025/04/02/Scaling-Kubernetes-for-AI-and-Data-intensive-Workloads)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Warp: The Agentic Development Environment](https://www.warp.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [k8sgpt.ai](https://k8sgpt.ai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [collabnix.com: The Rise of Kubernetes and AI – Kubectl OpenAI plugin](https://collabnix.com/the-rise-of-kubernetes-and-ai-kubectl-openai-plugin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -49,23 +53,19 @@
   - [IDE extension for AWS Application Composer enhances visual modern applications development with AI-generated IaC](https://aws.amazon.com/blogs/aws/ide-extension-for-aws-application-composer-enhances-visual-modern-applications-development-with-ai-generated-iac)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Extend your coding agent with .NET Skills](https://devblogs.microsoft.com/dotnet/extend-your-coding-agent-with-dotnet-skills)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Best Practices for Using GitHub Copilot](https://docs.github.com/en/copilot/get-started/best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Programming with GitHub Copilot Agent Mode](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/programming-with-github-copilot-agent-mode/4400630)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Google Launches Gemini Code Assist, Challenging GitHub Copilot with Generous Free Tier](https://www.xataka.com/robotica-e-ia/google-lanza-misil-github-copilot-su-asistente-programacion-ofrece-mucho-uso-gratuito-que-microsoft)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [xataka.com: https://www.xataka.com/servicios/copilot-chatgpt-gpt-4-han-cambiado-para-siempre-mundo-programacion-esto-que-opinan-expertos](https://www.xataka.com/servicios/copilot-chatgpt-gpt-4-han-cambiado-para-siempre-mundo-programacion-esto-que-opinan-expertos)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Microsoft Dragon Copilot: Unified Voice AI Assistant for Healthcare](https://news.microsoft.com/source/2025/03/03/microsoft-dragon-copilot-provides-the-healthcare-industrys-first-unified-voice-ai-assistant-that-enables-clinicians-to-streamline-clinical-documentation-surface-information-and-automate-task)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/SkalskiP/top-cvpr-2023-papers](https://github.com/SkalskiP/top-cvpr-2023-papers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [OpenOps: No-Code FinOps Automation Platform with AI](https://github.com/openops-cloud/openops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [HolmesGPT (Robusta)](https://github.com/HolmesGPT/holmesgpt)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [CAST AI](https://cast.ai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [apmdigest.com: What Can AIOps Do For IT Ops? - Part 1](https://www.apmdigest.com/aiops-itops-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: The Urgency Driving AIOps into Your Enterprise](https://thenewstack.io/the-urgency-driving-aiops-into-your-enterprise)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Intelligent Automation: What’s the Missing Piece of AIOps?](https://thenewstack.io/intelligent-automation-whats-the-missing-piece-of-aiops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [infoworld.com: 5 best practices for securing CI/CD pipelines](https://www.infoworld.com/article/2336728/5-best-practices-for-securing-cicd-pipelines.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: AIOps: Site Reliability Engineering at Scale](https://www.infoq.com/articles/aiops-reliability-engineering)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [platformengineering.org: AI is changing the future of platform engineering. Are you ready?](https://platformengineering.org/blog/ai-is-changing-the-future-of-platform-engineering-are-you-ready)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [aws.amazon.com/blogs/industries: BMW Group Develops a GenAI Assistant to Accelerate Infrastructure Optimization on AWS](https://aws.amazon.com/blogs/industries/bmw-group-develops-a-genai-assistant-to-accelerate-infrastructure-optimization-on-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Cerebras AI](https://www.cerebras.ai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [GitHub Copilot CLI for Beginners: Getting Started](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli/?utm_source=twitter-cli-beginners-getting-started-cta&utm_medium=social&utm_campaign=dev-pod-copilot-cli-2026)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Using Workspaces for AI Changes Across Multiple Repos](https://ettema.dev/posts/ai-multi-repo-workspaces)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Awesome NotebookLM Slide Prompts](https://github.com/serenakeyitan/awesome-notebookLM-prompts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Tabularis: Open Source Desktop Client for Modern Databases with AI and MCP Integration](https://github.com/TabularisDB/tabularis/blob/main/README.es.md)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
