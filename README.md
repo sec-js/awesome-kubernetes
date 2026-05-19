@@ -306,10 +306,12 @@ graph TD
 
 ### 4.3. Adaptive AI Tiering and Real-time Grounding
 To ensure maximum throughput and industrial-grade precision, Nubenetes uses a proprietary **Multi-tier AI Orchestration** engine:
-- **Smart Batching (Anti-429)**: Instead of individual calls, the system groups up to **10-50 resources into a single AI prompt**. This reduces API traffic by 90% and is mandatory for exhaustive 17k+ link runs.
+- **Multi-Agent Analyst-Auditor Workflow**: Evaluation is split between a **Technical Analyst** (Flash model) for initial classification and a specialized **Elite Auditor** (Pro model) for selective verification of high-impact resources.
+- **Double-Evidence Synthesis Protocol**: Agents are mandated to contrast 'Curator Insight' (from original discovery) with 'Live Technical Grounding' (from search/MCP) before finalizing any technical summary.
 - **Real-time Web Grounding (MCP-Style)**: For high-fidelity tasks, the engine activates **Google Search Grounding**. This allows the AI to verify technical maturity, site migrations, and official documentation in real-time, providing a live data filter for all decisions.
-- **Dynamic Model Selection**: The system automatically toggles between **Gemini Pro** (for tasks requiring web research or deep reasoning) and **Gemini Flash** (for bulk enrichment).
-- **Global Back-off & Tier-down**: If a high-fidelity model (Pro) hits a rate limit (`API 429`), the engine automatically executes an exponential back-off and "tiers down" to a lighter model or rotates API keys to ensure workflow continuity.
+- **Smart Batching (Anti-429)**: Instead of individual calls, the system groups up to **10 resources into high-precision batches**. This optimizes grounding efficiency and minimizes rate limits.
+- **Dynamic Model Selection**: The system automatically toggles between **Gemini Pro** (for auditing and research) and **Gemini Flash** (for broad analysis).
+- **Global Back-off & Tier-down**: Automatic exponential back-off and model tier-down logic to ensure 100% workflow resilience.
 
 ### 4.4. Doc-as-Behavior Mandate Bridge
 Nubenetes implements a direct bridge between documentation and AI behavior:
@@ -337,6 +339,7 @@ Nubenetes operates with two distinct editions to serve different engineering nee
     - **Stars (🌟)**: Represent technical impact (1-5 scale).
     - **No stars**: Standard reference documentation and technical resources.
 - **Multi-Dimensional Tagging (1:N):** Every resource is classified with multiple semantic tags (e.g., `[DE FACTO STANDARD]`, `[GUIDE]`, `[CASE STUDY]`, `[EMERGING]`) providing deep technical context and maturity status.
+- **High-Density Expandable Summaries**: Resources feature a multi-line **"Technical Deep-Dive"** block (expandable with one click). These summaries use the **Double-Evidence Synthesis** protocol to provide verified architectural insights and key capabilities.
 - **Semantic Cross-Linking:** The portal autonomously identifies and links related categories within the same strategic dimension (e.g., suggesting `Flux` when reading about `Argo`), creating a cohesive **Industrial Knowledge Graph**.
 - **Executive Context**: Every strategic dimension features an AI-generated **State-of-the-Art Introduction** providing high-level architectural context and industry direction before the link listings.
 - **Source of Truth:** The `v2-docs/` directory (Derived from V1).
