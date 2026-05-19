@@ -74,7 +74,7 @@ Exhaustive list of 157 generated elite documents.
 | 69 | `hr.md` | Hr |
 | 70 | `iac.md` | Iac |
 | 71 | `ibm_cloud.md` | Ibm_Cloud |
-| 72 | `index.md` | Nubenetes Elite Portal (V2) |
+| 72 | `index.md` | Nubenetes Elite Portal (V2) | Awesome Kubernetes and Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/nubenetes/awesome-kubernetes) |
 | 73 | `interview-questions.md` | Interview Questions |
 | 74 | `istio.md` | Istio |
 | 75 | `java-and-java-performance-optimization.md` | Java And Java Performance Optimization |
