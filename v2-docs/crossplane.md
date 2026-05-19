@@ -14,3 +14,7 @@
   - [symphony.is: Crossplane - The New Kid in Town](https://symphony.is/blog/crossplane---the-new-kid-in-town-)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Presentation: YAML your cloud](https://docs.google.com/presentation/d/1IZXCiQl_NUawHMvKJANCG2_LIBZseUpY-XyPjlghj9E/edit)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [askmeegs/yaml-your-cloud](https://github.com/askmeegs/yaml-your-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Liquibase](./liquibase.md) | [Kubernetes Security](./kubernetes-security.md) | [Devsecops](./devsecops.md)
+

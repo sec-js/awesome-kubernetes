@@ -22,3 +22,7 @@
   - [developers.redhat.com: Introduction to the Node.js reference architecture, Part 5: Building good containers](https://developers.redhat.com/articles/2021/08/26/introduction-nodejs-reference-architecture-part-5-building-good-containers#what_base_images_to_start_with_)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: How to build 7,000+ REST APIs within 2 mins (Node.js + MySQL) !!](https://dev.to/o1lab/how-to-build-7-000-rest-apis-within-2-mins-node-js-mysql-470b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [react js: mithi/react-philosophies](https://github.com/mithi/react-philosophies)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Golang](./golang.md) | [Maven Gradle](./maven-gradle.md)
+

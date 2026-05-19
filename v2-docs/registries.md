@@ -49,3 +49,7 @@
   - [mramanathan/ansible-harbor](https://github.com/mramanathan/ansible-harbor)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [galaxy.ansible.com/mkgin/vmware-harbor](https://galaxy.ansible.com/mkgin/vmware-harbor)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [uber/kraken](https://github.com/uber/kraken)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Argo](./argo.md) | [Sonarqube](./sonarqube.md) | [Openshift Pipelines](./openshift-pipelines.md)
+

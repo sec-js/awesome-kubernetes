@@ -22,3 +22,7 @@
   - [Adoption of Cloud-Native Architecture, Part 1: Architecture Evolution and Maturity](https://www.infoq.com/articles/cloud-native-architecture-adoption-part1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [From monolith to containers: How Verizon containerized legacy applications on OpenShift 🌟](https://www.youtube.com/watch?v=Q6i0LK4vHsU)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hazelcast.com: Where Is My Cache? Architectural Patterns for Caching Microservices 🌟](https://hazelcast.com/blog/architectural-patterns-for-caching-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Linux](./linux.md) | [Helm](./helm.md)
+

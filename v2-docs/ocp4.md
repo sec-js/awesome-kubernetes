@@ -62,7 +62,6 @@
   - [ServiceMesh](https://docs.redhat.com/en/documentation/openshift_container_platform/4.4/html-single/service_mesh/index)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [grafana.com/docs/v5.4/](https://archive.grafana.com/docs/grafana/v5.4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [prometheus.io/docs/alerting/alertmanager/](https://prometheus.io/docs/alerting/latest/alertmanager)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [docs.openshift.com/container-platform/4.4/logging/cluster-logging-deploying.html](https://docs.redhat.com/en/documentation/openshift_container_platform/4.4/html/logging/cluster-logging-deploying)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Openshift 4 image builds](https://www.redhat.com/en/blog/openshift-4-image-builds)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Custom image builds with Buildah](https://docs.redhat.com/en/documentation/openshift_container_platform/4.4/html/builds/custom-builds-buildah)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Rootless podman and NFS](https://www.redhat.com/en/blog/rootless-podman-nfs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -187,3 +186,7 @@
   - [infoq.com: IBM, Red Hat and Cobuilder Develop OpenBuilt, a Platform for the Construction Industry](https://www.infoq.com/news/2021/04/ibm-redhat-openbuilt)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube: Red Hat OpenShift AI overview](https://www.youtube.com/watch?v=Hc8emNr2igU)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [tommeramber/ocp-automations](https://github.com/tommeramber/ocp-automations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md)
+

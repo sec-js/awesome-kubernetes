@@ -78,3 +78,7 @@
   - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/jupyterlab/jupyter-ai](https://github.com/jupyterlab/jupyter-ai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/XingangPan/DragGAN](https://github.com/XingangPan/DragGAN)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Chatgpt](./chatgpt.md) | [Ai Agents Mcp](./ai-agents-mcp.md) | [Mlops](./mlops.md)
+

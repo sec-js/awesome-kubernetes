@@ -35,3 +35,7 @@
   - [github.com/IBM/varnish-operator](https://github.com/IBM/varnish-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/mittwald/kube-httpcache](https://github.com/mittwald/kube-httpcache)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Nginxconf 2014. When Dynamic Becomes Static:The Next Step in Web Caching Techniques: Wim Godden](https://www.youtube.com/watch?v=OssIuHbgzJY)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Istio](./istio.md) | [Web Servers](./web-servers.md) | [Kubernetes Networking](./kubernetes-networking.md)
+

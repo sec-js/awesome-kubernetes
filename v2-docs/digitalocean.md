@@ -11,3 +11,7 @@
   - [Community Tools 🌟](https://www.digitalocean.com/community/tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [App Platform - Digital Ocean PaaS](https://try.digitalocean.com/app-platform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: DigitalOcean App Platform Eases Kubernetes Deployments for Developers](https://thenewstack.io/digitalocean-app-platform-eases-kubernetes-deployments-for-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md) | [Aws Spain](./aws-spain.md)
+

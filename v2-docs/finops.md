@@ -45,3 +45,7 @@
   - [dev.to: FinOps EKS: 10 tips to reduce the bill up to 90% on AWS managed Kubernetes clusters](https://dev.to/zenika/eks-10-tips-to-reduce-the-bill-up-to-90-on-aws-managed-kubernetes-clusters-epe)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cremich/cdk-bill-bot: Welcome to Bill - the cost optimization bot](https://github.com/cremich/cdk-bill-bot)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Finout Gets a Handle on Kubernetes Costs](https://thenewstack.io/finout-gets-a-handle-on-kubernetes-costs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Recruitment](./recruitment.md) | [Freelancing](./freelancing.md) | [Interview Questions](./interview-questions.md)
+

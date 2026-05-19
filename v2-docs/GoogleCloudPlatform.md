@@ -69,3 +69,7 @@
   - [cloud.google.com: Declarative Export. Build your perfect Google Cloud infrastructure using Terraform and the gcloud CLI](https://cloud.google.com/blog/products/application-development/google-cloud-cli-declarative-export-preview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/GoogleCloudPlatform/k8s-config-connector: GCP Config Connector](https://github.com/GoogleCloudPlatform/k8s-config-connector)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [freecodecamp.org: Web Scraping with Google Sheets – How to Scrape Web Pages with Built-in Functions](https://www.freecodecamp.org/news/web-scraping-google-sheets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md) | [Aws Spain](./aws-spain.md)
+

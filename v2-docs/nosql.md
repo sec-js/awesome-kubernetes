@@ -36,3 +36,7 @@
   - [github.com/oslabs-beta: Odin's Eye](https://github.com/oslabs-beta/OdinsEye)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Hive.apache.org](https://hive.apache.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Apache Drill](https://drill.apache.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Yaml](./yaml.md) | [Message Queue](./message-queue.md) | [Newsql](./newsql.md)
+

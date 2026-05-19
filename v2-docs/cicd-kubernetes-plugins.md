@@ -10,3 +10,7 @@
   - [openshift-pipeline](https://plugins.jenkins.io/openshift-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openshift-sync](https://plugins.jenkins.io/openshift-sync)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openshift-client](https://plugins.jenkins.io/openshift-client)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Registries](./registries.md) | [Argo](./argo.md) | [Sonarqube](./sonarqube.md)
+

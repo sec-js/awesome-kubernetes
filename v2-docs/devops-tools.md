@@ -31,3 +31,7 @@
   - [github.com/AdminTurnedDevOps/CapabilityPE](https://github.com/AdminTurnedDevOps/CapabilityPE)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [KubeUI: A Desktop Kubernetes Client](https://github.com/IvanJosipovic/KubeUI)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [PMEase QuickBuild](https://www.pmease.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Linux](./linux.md) | [Helm](./helm.md)
+

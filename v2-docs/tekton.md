@@ -16,3 +16,7 @@
   - [opensource.com: Dynamic scheduling of Tekton workloads using Triggers](https://opensource.com/article/21/11/kubernetes-dynamic-scheduling-tekton)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [piotrminkowski.com: Validate Kubernetes Deployment in CI/CD with Tekton and Datree](https://piotrminkowski.com/2022/02/21/validate-kubernetes-deployment-in-ci-cd-with-tekton-and-datree)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [piotrminkowski.com: Canary Release on Kubernetes with Knative and Tekton](https://piotrminkowski.com/2022/03/29/canary-release-on-kubernetes-with-knative-and-tekton)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Registries](./registries.md) | [Argo](./argo.md) | [Sonarqube](./sonarqube.md)
+

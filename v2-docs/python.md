@@ -227,3 +227,7 @@
   - [TWINT - Twitter Intelligence Tool](https://github.com/twintproject/twint)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.com: How to use Python to hack your Eclipse IDE](https://opensource.com/life/16/2/how-use-python-hack-your-ide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [PyGithub 🌟](https://github.com/PyGithub/PyGithub)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Golang](./golang.md) | [Javascript](./javascript.md)
+

@@ -44,3 +44,7 @@
   - [Deploy Machine Learning Pipeline on AWS Fargate](https://www.kdnuggets.com/2020/07/deploy-machine-learning-pipeline-aws-fargate.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [element7.io: A Hidden Gem: Two Ways to Improve AWS Fargate Container Launch Times](https://www.element7.io/2022/10/a-hidden-gem-two-ways-to-improve-aws-fargate-container-launch-times)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/awslabs/specctl](https://github.com/awslabs/specctl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md) | [Aws Spain](./aws-spain.md)
+

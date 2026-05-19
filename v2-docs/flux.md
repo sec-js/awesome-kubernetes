@@ -25,3 +25,7 @@
   - [thenewstack.io: Deploy Stateful Workloads on Kubernetes with Ondat and FluxCD](https://thenewstack.io/deploy-stateful-workloads-on-kubernetes-with-ondat-and-fluxcd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [gist.github.com: GitOps for Helm Users 🌟](https://gist.github.com/scottrigby/a1a42c3292ec7899837c578ffdaaf92a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/flux-iac/tofu-controller](https://github.com/flux-iac/tofu-controller)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Registries](./registries.md) | [Argo](./argo.md) | [Sonarqube](./sonarqube.md)
+

@@ -153,3 +153,7 @@
   - [reflectoring.io: When Should I Use Project Lombok?](https://reflectoring.io/when-to-use-lombok)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Helidon.io](https://helidon.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developer.okta.com: Build REST APIs and Native Java Apps with Helidon](https://developer.okta.com/blog/2022/01/06/native-java-helidon)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Golang](./golang.md) | [Javascript](./javascript.md)
+

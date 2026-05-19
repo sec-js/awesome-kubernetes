@@ -48,3 +48,7 @@
   - [automationqahub.com: How to get started with Appium 2.0](https://automationqahub.com/how-to-do-mobile-automation-using-appium-2-0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [tutorials.virtualan.io: Idaithalam - Lowcode Test Automation](https://tutorials.virtualan.io/#/Idaithalam)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Atlassian Marketplace: Zephyr](https://marketplace.atlassian.com/apps/1014681/zephyr-for-jira-test-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Scaffolding](./scaffolding.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [Sre](./sre.md)
+

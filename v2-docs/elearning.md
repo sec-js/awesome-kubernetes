@@ -30,3 +30,7 @@
   - [techiescamp/devops-projects:Real-World DevOps Projects For Learning](https://github.com/techiescamp/devops-projects)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [I'm AWS certified? Should you trust me?](https://code.joejag.com/2021/i-am-aws-certified-should-you-trust-me.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [homebusinessmag.com: Certificates Alone Won’t Get You Hired, You Need Certifications “Plus”!](https://homebusinessmag.com/businesses/success-tips/certificates-alone-wont-get-hired-need-certifications-plus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Recruitment](./recruitment.md) | [Freelancing](./freelancing.md) | [Interview Questions](./interview-questions.md)
+

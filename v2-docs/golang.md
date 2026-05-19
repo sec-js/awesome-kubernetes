@@ -71,3 +71,7 @@
   - [Mathieu-Desrochers/Learning-Go](https://github.com/Mathieu-Desrochers/Learning-Go)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: Dockerize a GoLang HTTP server and deploy it on Kubernetes](https://dev.to/aksrao1998/dockerize-a-golang-http-server-and-deploy-it-on-kubernetes-592j)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [NodeJS Best Practices (Spanish Translation)](https://github.com/goldbergyoni/nodebestpractices/blob/spanish-translation/README.spanish.md)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Javascript](./javascript.md) | [Maven Gradle](./maven-gradle.md)
+

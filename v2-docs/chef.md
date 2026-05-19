@@ -5,3 +5,7 @@
 
   - [learn.chef.io](https://www.chef.io/training/tutorials)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [chef.io](https://www.chef.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Crossplane](./crossplane.md) | [Liquibase](./liquibase.md) | [Kubernetes Security](./kubernetes-security.md)
+

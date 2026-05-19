@@ -21,3 +21,7 @@
   - [AWS Announces Data Transfer Price Reduction for AWS PrivateLink, AWS Transit Gateway, and AWS Client VPN services](https://aws.amazon.com/about-aws/whats-new/2022/04/aws-data-transfer-price-reduction-privatelink-transit-gateway-client-vpn-services/?nc1=h_ls)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [calculator.aws: AWS Total Cost of Ownership (TCO) Calculators](https://calculator.aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Manage Amazon S3 storage costs granularly and at scale using S3 Intelligent-Tiering](https://aws.amazon.com/blogs/storage/manage-amazon-s3-storage-costs-granularly-and-at-scale-using-s3-intelligent-tiering)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md) | [Aws Spain](./aws-spain.md)
+

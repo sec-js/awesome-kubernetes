@@ -42,3 +42,7 @@
   - [github.com/taubyte/tau: Tau](https://github.com/taubyte/tau)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [llama.cpp plugin](https://github.com/samyfodil/taubyte-llama-satellite)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [coolify.io](https://coolify.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md)
+

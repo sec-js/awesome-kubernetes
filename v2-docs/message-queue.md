@@ -210,3 +210,7 @@
   - [blog.hubspot.com: The 22 Best iPaaS Vendors for Any Budget](https://blog.hubspot.com/marketing/ipaas-vendors)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Mulesoft](https://www.mulesoft.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [adambien.blog - 75th **airhacks.tv** Questions and Answers: Kafka, JAX-RS, MicroProfile, JSON-B, GSON, JWT, VSC, NetBeans, Java Fullstack](https://adambien.blog/roller/abien/entry/kafka_jax_rs_microprofile_json)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Yaml](./yaml.md) | [Newsql](./newsql.md) | [Nosql](./nosql.md)
+

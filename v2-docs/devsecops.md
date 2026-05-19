@@ -274,3 +274,7 @@
   - [github.com/openappsec/openappsec](https://github.com/openappsec/openappsec)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Microsoft Security Copilot](https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/prowler-cloud/prowler 🌟🌟](https://github.com/prowler-cloud/prowler)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Crossplane](./crossplane.md) | [Liquibase](./liquibase.md) | [Kubernetes Security](./kubernetes-security.md)
+

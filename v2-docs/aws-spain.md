@@ -9,3 +9,7 @@
   - [xataka.com: Por qué Amazon ha elegido Aragón para instalar sus tres primeros centros de datos en España](https://www.xataka.com/servicios/que-amazon-ha-elegido-aragon-para-instalar-sus-tres-primeros-centros-datos-espana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [techunwrapped.com: Spain becomes a Cloud Region in 2022](https://techunwrapped.com/spain-becomes-a-cloud-region-in-2022)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Transit Gateway is now available in Europe (Spain) Region](https://aws.amazon.com/about-aws/whats-new/2023/04/aws-transit-gateway-europe-spain-region)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md) | [Aws Serverless](./aws-serverless.md)
+

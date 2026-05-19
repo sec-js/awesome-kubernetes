@@ -28,3 +28,7 @@
   - [Red Hat Communities of Practice](https://github.com/redhat-cop)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [GitHub redhat-cop: OpenShift Toolkit - Quota Management 🌟](https://github.com/redhat-cop/openshift-toolkit/tree/master/quota-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [OpenShift 4 Resource Management](https://www.youtube.com/watch?v=JC_PB1yZcIc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md)
+

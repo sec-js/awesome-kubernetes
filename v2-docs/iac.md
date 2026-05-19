@@ -34,3 +34,7 @@
   - [Checkmarx/kics](https://github.com/Checkmarx/kics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [gofireflyio/aiac 🌟](https://github.com/gofireflyio/aiac)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube: Mitchell Hashimoto: The Inside Story of HashiCorp's IaC Journey | The IaC Podcast](https://www.youtube.com/watch?v=--RRpw_6onA)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Crossplane](./crossplane.md) | [Liquibase](./liquibase.md) | [Kubernetes Security](./kubernetes-security.md)
+

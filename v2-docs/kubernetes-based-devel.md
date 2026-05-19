@@ -65,3 +65,7 @@
   - [kubenav](https://github.com/kubenav/kubenav)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Aptakube](https://aptakube.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Cloud Manager: A New Multicloud PaaS Platform Built on Kubernetes](https://thenewstack.io/cloud-manager-a-new-multicloud-paas-platform-built-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+***
+💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md)
+
