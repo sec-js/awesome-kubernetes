@@ -128,9 +128,9 @@ As of May 2026, Nubenetes has reached the **Platinum Operational Tier**, featuri
 <!-- HEART_STATS_START -->
 | Metric | Value |
 | :--- | :--- |
-| **Total Technical Resources (Links)** | **15298+** |
+| **Total Technical Resources (Links)** | **15299+** |
 | **Specialized MD Pages** | **161** |
-| **Total Commits** | **4707+** |
+| **Total Commits** | **4715+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -168,7 +168,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 1148 | 4,741 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 1156 | 4,774 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -184,8 +184,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume (Commits / Estimated New Refs)" 0 --> 9000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 4741]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1148]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 4774]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1156]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -194,7 +194,7 @@ xychart-beta
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
-| 2026-05 | 1123 | 4,637 | **Agentic Inception (Gemini Era)** |
+| 2026-05 | 1131 | 4,671 | **Agentic Inception (Gemini Era)** |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
@@ -214,7 +214,7 @@ pie title Nubenetes Major Ecosystem Pillars
     "Infra as Code" : 1200
     "SRE and Observability" : 1000
     "Security and DevSecOps" : 1000
-    "Specialized Topics" : 898
+    "Specialized Topics" : 899
 ```
 <!-- PILLAR_CHART_END -->
 
@@ -228,7 +228,7 @@ Reflecting Nubenetes' mission of global access while maintaining technical Engli
 <!-- SUB_ECO_CHART_START -->
 ```mermaid
 pie title Linguistic Diversity (Global Access)
-    "English" : 13768
+    "English" : 13769
     "Spanish" : 917
     "French" : 152
     "Others" : 458
@@ -248,6 +248,9 @@ The autonomy of Nubenetes is powered by a modern, resilient tech stack that ensu
 | **Optimization** | Adaptive AI Tiering | Dynamic model selection (Pro/Flash) and Global rate limiting. |
 | **CI/CD Hardening** | Concurrency & [skip ci] | Prevention of race conditions and recursive trigger loops. |
 | **Performance** | Playwright Caching | Setup optimization (reduces initialization time by >70%). |
+| **Security** | Dependabot | Automated vulnerability monitoring for Python and CI Actions. |
+| **Engagement** | Social Cards (OG) | Dynamic OpenGraph image generation for the V2 Portal. |
+| **Maintenance** | Automated Triage | GitHub Issue generation for failing high-value resources. |
 | **Automation** | Python 3.11 | Core logic for parsing, gitops, and reporting. |
 | **Discovery** | Twikit and Playwright | Autonomous scraping and account rotation. |
 | **Resilience** | Identity Rotation | Evasion of anti-bot blocks using multiple profiles. |

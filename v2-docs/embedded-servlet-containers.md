@@ -3,5 +3,5 @@
 !!! info "Architectural Context"
     Detailed reference for Embedded Servlet Containers in the context of Developer Ecosystem.
 
-  - [Apache Tomcat migration tool for Jakarta EE](https://github.com/apache/tomcat-jakartaee-migration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Undertow](http://undertow.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Apache Tomcat migration tool for Jakarta EE](https://github.com/apache/tomcat-jakartaee-migration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
