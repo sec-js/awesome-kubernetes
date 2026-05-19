@@ -3,17 +3,16 @@
 !!! info "Architectural Context"
     Detailed reference for Sre in the context of Platform & Site Reliability.
 
-  - [cloud.google.com: SRE vs. DevOps: competing standards or close friends?](https://cloud.google.com/blog/products/devops-sre)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [openshift.com: From Ops to SRE - Evolution of the OpenShift Dedicated Team](https://www.redhat.com/en/blog/from-ops-to-sre-evolution-of-the-openshift-dedicated-team)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [getcortexapp.com: A guide to the best SRE tools](https://www.cortex.io/post/a-guide-to-the-best-sre-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Platform Democracy: Rethinking Who Builds and Consumes Your Internal Platform](https://www.syntasso.io/post/platform-democracy-rethinking-who-builds-and-consumes-your-internal-platform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [sre.google: What is Site Reliability Engineering (SRE)? 🌟](https://sre.google)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloud.google.com: SRE vs. DevOps: competing standards or close friends?](https://cloud.google.com/blog/products/devops-sre)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devops.com: SRE vs. DevOps — a False Distinction?](https://devops.com/sre-vs-devops-false-distinction)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devops.com: SRE vs. DevOps vs. Cloud Native: The Server Cage Match](https://devops.com/sre-devops-cloud-native-server-cage-match)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devops.com: Site Reliability Engineering 101: DevOps Versus SRE](https://devops.com/site-reliability-engineering-101-devops-versus-sre)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [linkedin: DevOps vs Site Reliability Engineering](https://www.linkedin.com/pulse/devops-vs-site-reliability-engineering-sean-washington)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.com: What is an SRE and how does it relate to DevOps?](https://opensource.com/article/18/10/sre-startup)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Where Site Reliability Engineering Overlaps with DevOps](https://thenewstack.io/where-the-site-reliability-engineer-role-overlaps-with-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [openshift.com: From Ops to SRE - Evolution of the OpenShift Dedicated Team](https://www.redhat.com/en/blog/from-ops-to-sre-evolution-of-the-openshift-dedicated-team)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube: Platform9’s Madhura Maskasky says observability is also essential for diagnosing and debugging in order for SREs to "get to the root cause quickly enough so that you can feed that back to the development teams." 🌟](https://www.youtube.com/watch?v=tgRPlAQpHYk&ab_channel=TheNewStack)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [linkedin.com: SRE: Key Insights-"Done the right way”](https://www.linkedin.com/pulse/sre-key-insights-done-right-way-shankar-muniyappa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devops.com: How the SRE Role Is Evolving](https://devops.com/how-the-sre-role-is-evolving)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -36,6 +35,7 @@
   - [phoenixnap.com: SRE Vs. DevOps: Differences Explained 🌟](https://phoenixnap.com/blog/sre-vs-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: SRE vs. DevOps? Successful Platform Engineering Needs Both](https://thenewstack.io/sre-vs-devops-successful-platform-engineering-needs-both)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: The Site Reliability Engineering Tool Stack](https://thenewstack.io/the-site-reliability-engineering-tool-stack)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [getcortexapp.com: A guide to the best SRE tools](https://www.cortex.io/post/a-guide-to-the-best-sre-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: The Best Site Reliability Engineering Tools in 2021](https://thenewstack.io/the-best-site-reliability-engineering-tools-in-2021)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [SLOconf](https://www.sloconf.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Automate User Satisfaction with This GitOps-Friendly Spec for Service Level Objectives](https://thenewstack.io/automate-user-satisfaction-with-this-gitops-friendly-spec-for-service-level-objectives)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>

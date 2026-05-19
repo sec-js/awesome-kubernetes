@@ -3,11 +3,6 @@
 !!! info "Architectural Context"
     Detailed reference for Aws Newfeatures in the context of Cloud Providers (Hyperscalers).
 
-  - [AWS CloudFormation Adds Support for AWS WAF and AWS Directory Service for Microsoft Active Directory](https://aws.amazon.com/about-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [London Calling! An AWS Region is coming to the UK!](http://www.allthingsdistributed.com/2015/11/aws-announces-uk-region.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [theregister.com: AWS to retire EC2-Classic – the network glue that helped start the IaaS rush](https://www.theregister.com/off-prem/2021/07/29/aws-to-retire-ec2-classic-the-network-glue-that-helped-start-the-iaas-rush/527489)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [EC2 VM Import/Export now supports migration of virtual machines with Unified Extensible Firmware Interface (UEFI) boot to AWS](https://aws.amazon.com/about-aws/whats-new/2021/08/ec2-vm-import-export-unified-extensible-firmware-interface-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [theregister.com: The big AWS event: 120 announcements but nothing has changed](https://www.theregister.com/off-prem/2021/12/09/the-big-aws-event-120-announcements-but-nothing-has-changed/605657)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Config Rules – Dynamic Compliance Checking for Cloud Resources](https://aws.amazon.com/blogs/aws/aws-config-rules-dynamic-compliance-checking-for-cloud-resources)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Amazon Inspector – Automated Security Assessment Service](https://aws.amazon.com/blogs/aws/amazon-inspector-automated-security-assessment-service)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Coming Soon – EC2 Dedicated Hosts](https://aws.amazon.com/blogs/aws/coming-soon-ec2-dedicated-hosts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -20,7 +15,9 @@
   - [Amazon EFS: Amazon Elastic File System – Shared File Storage for Amazon EC2](https://aws.amazon.com/blogs/aws/amazon-elastic-file-system-shared-file-storage-for-amazon-ec2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [New – Encrypted EBS Boot Volumes](https://aws.amazon.com/blogs/aws/new-encrypted-ebs-boot-volumes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Now Add or Modify Request Headers Forwarded From Amazon CloudFront to Origin](https://aws.amazon.com/about-aws/whats-new/2015/12/now-add-or-modify-request-headers-forwarded-from-amazon-cloudfront-to-origin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [AWS CloudFormation Adds Support for AWS WAF and AWS Directory Service for Microsoft Active Directory](https://aws.amazon.com/about-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Amazon WorkMail – Now Generally Available](https://aws.amazon.com/blogs/aws/amazon-workmail-now-generally-available)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [London Calling! An AWS Region is coming to the UK!](http://www.allthingsdistributed.com/2015/11/aws-announces-uk-region.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [New – Scheduled Reserved Instances](https://aws.amazon.com/blogs/aws/new-scheduled-reserved-instances)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS CloudShell - Command-Line Access to AWS Resources](https://aws.amazon.com/es/blogs/aws/aws-cloudshell-command-line-access-to-aws-resources)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/hayao-k/cdk-ecr-image-scan-notify](https://github.com/hayao-k/cdk-ecr-image-scan-notify)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -33,7 +30,9 @@
   - [Amazon Virtual Private Cloud (VPC) customers can now assign IP prefixes to their EC2 instances](https://aws.amazon.com/about-aws/whats-new/2021/07/amazon-virtual-private-cloud-vpc-customers-can-assign-ip-prefixes-ec2-instances)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Amazon RDS Proxy can now be created in a shared Virtual Private Cloud (VPC)](https://aws.amazon.com/about-aws/whats-new/2021/08/amazon-rds-proxy-created-shared-virtual-private-cloud-vpc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Amazon VPC CNI plugin increases pods per node limits](https://aws.amazon.com/about-aws/whats-new/2021/07/amazon-vpc-cni-plugin-increases-pods-per-node-limits)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [theregister.com: AWS to retire EC2-Classic – the network glue that helped start the IaaS rush](https://www.theregister.com/off-prem/2021/07/29/aws-to-retire-ec2-classic-the-network-glue-that-helped-start-the-iaas-rush/527489)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Security Hub adds 18 new controls to its Foundational Security Best Practices standard and 8 new partners for enhanced cloud security posture monitoring](https://aws.amazon.com/about-aws/whats-new/2021/08/aws-security-hub-adds-18-new-controls-foundational-security-best-practices-standard-8-new-partners-enhanced-cloud-security-posture-monitoring)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [EC2 VM Import/Export now supports migration of virtual machines with Unified Extensible Firmware Interface (UEFI) boot to AWS](https://aws.amazon.com/about-aws/whats-new/2021/08/ec2-vm-import-export-unified-extensible-firmware-interface-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Amazon Virtual Private Cloud (VPC) customers can now resize their prefix list](https://aws.amazon.com/about-aws/whats-new/2021/08/amazon-vpc-resize-prefix-list)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [New for AWS CloudFormation – Quickly Retry Stack Operations from the Point of Failure](https://aws.amazon.com/es/blogs/aws/new-for-aws-cloudformation-quickly-retry-stack-operations-from-the-point-of-failure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [New for AWS Distro for OpenTelemetry – Tracing Support is Now Generally Available](https://aws.amazon.com/blogs/aws/new-for-aws-distro-for-opentelemetry-tracing-support-is-now-generally-available)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -51,6 +50,7 @@
   - [aws.amazon.com/blogs: Top Announcements of AWS re:Invent 2021](https://aws.amazon.com/blogs/aws/top-announcements-of-aws-reinvent-2021)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: Recap of AWS re:Invent 2021](https://www.infoq.com/news/2021/12/recap-reinvent-2021)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: AWS Launches Amazon Kinesis Data Streams On-Demand](https://www.infoq.com/news/2021/12/kinesis-data-streams-ondemand)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [theregister.com: The big AWS event: 120 announcements but nothing has changed](https://www.theregister.com/off-prem/2021/12/09/the-big-aws-event-120-announcements-but-nothing-has-changed/605657)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [aws.amazon.com: Share your Amazon CloudWatch Dashboards with anyone using AWS Single Sign-On](https://aws.amazon.com/blogs/mt/share-your-amazon-cloudwatch-dashboards-with-anyone-using-aws-single-sign-on)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [New – Amazon VPC Network Access Analyzer](https://aws.amazon.com/blogs/aws/new-amazon-vpc-network-access-analyzer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Migrate AWS Landing Zone solution to AWS Control Tower](https://aws.amazon.com/blogs/mt/migrate-aws-landing-zone-solution-to-aws-control-tower)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>

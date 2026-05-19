@@ -180,6 +180,35 @@ def clean_toc_text(text: str) -> str:
     text = re.sub(r'[^\w\s\-.]', '', text)
     return text.strip()
 
+async def get_github_activity(url: str) -> Dict:
+    """
+    Mandate 15: Fetch real-time GitHub metadata (stars, license, last push).
+    """
+    match = re.search(r'github\.com/([^/]+/[^/]+)', url)
+    if not match: return {}
+    repo = match.group(1)
+    api_url = f"https://api.github.com/repos/{repo}"
+    
+    # Import GH_TOKEN from config locally to avoid circular dependencies
+    try:
+        from src.config import GH_TOKEN
+        headers = {"Authorization": f"token {GH_TOKEN}"} if GH_TOKEN else {}
+    except:
+        headers = {}
+
+    try:
+        async with httpx.AsyncClient() as client:
+            resp = await client.get(api_url, headers=headers, timeout=10.0)
+            if resp.status_code == 200:
+                data = resp.json()
+                return {
+                    "gh_stars": data.get("stargazers_count", 0),
+                    "gh_pushed": data.get("pushed_at", "N/A"),
+                    "gh_license": data.get("license", {}).get("spdx_id", "N/A")
+                }
+    except: pass
+    return {}
+
 def sanitize_trailing_slashes(url: str) -> str:
     """
     Mandate 34: Enforces a ZERO trailing slash policy.

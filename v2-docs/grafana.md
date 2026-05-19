@@ -3,11 +3,6 @@
 !!! info "Architectural Context"
     Detailed reference for Grafana in the context of Architectural Foundations.
 
-  - [openshift.com: Metrics-Driven Pod Constraints](https://www.redhat.com/en/blog/metrics-driven-pod-constraints)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [CISCO DNA Center with Grafana Dashboard](https://hawar.no/2021/05/cisco-dna-center-with-grafana-dashboard)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [percona.com: Tips for Designing Grafana Dashboards](https://www.percona.com/blog/designing-grafana-dashboards)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [grafana.com: Grafana Labs and Microsoft partner to deliver new first party Microsoft Azure service](https://grafana.com/press/2021/11/10/grafana-labs-and-microsoft-partner-to-deliver-new-first-party-microsoft-azure-service)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [grafana.com: Grafana 9.3 feature: Grafana OAuth token improvements](https://grafana.com/oss/grafana/?mdm=social)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Grafana](https://grafana.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [grafana.com: Provisioning Grafana 🌟](https://grafana.com/docs/grafana/latest/administration/provisioning)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Grafana provisioning Ansible Role](https://github.com/cloudalchemy/ansible-grafana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -16,6 +11,7 @@
   - [itnext.io: Monitoring Kubernetes workloads with Prometheus and Thanos](https://itnext.io/monitoring-kubernetes-workloads-with-prometheus-and-thanos-4ddb394b32c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [scylladb.com: Building a Grafana Backend Plugin](https://www.scylladb.com/2020/10/01/building-a-grafana-backend-plugin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Grafana Adds Logging to Its Enterprise Observability Stack 🌟](https://thenewstack.io/grafana-adds-logging-to-its-enterprise-observability-stack)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [openshift.com: Metrics-Driven Pod Constraints](https://www.redhat.com/en/blog/metrics-driven-pod-constraints)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Grafana 7.5: Controversial Pie Charts and Loki Alerts](https://thenewstack.io/grafana-7-5-controversial-pie-charts-and-loki-alerts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [zdnet.com: Grafana 8.0 integrates with Prometheus alerting](https://www.zdnet.com/article/grafana-8-0-integrates-with-prometheus-alerting)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Grafana 8.0 Rethinks Alerts and Visualizations](https://thenewstack.io/grafana-8-0-rethinks-alerts-and-visualizations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -41,7 +37,9 @@
   - [github.com/DevOps-Nirvana/Grafana-Dashboards](https://github.com/DevOps-Nirvana/Grafana-Dashboards)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/mlabouardy: Grafana Dashboards](https://github.com/mlabouardy/grafana-dashboards)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Percona Grafana dashboards for MySQL and MongoDB monitoring using Prometheus 🌟](https://github.com/percona/grafana-dashboards)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [CISCO DNA Center with Grafana Dashboard](https://hawar.no/2021/05/cisco-dna-center-with-grafana-dashboard)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [prskavec.net: Grafana dashboards and Jsonnet](https://www.prskavec.net/post/grafana-jsonnet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [percona.com: Tips for Designing Grafana Dashboards](https://www.percona.com/blog/designing-grafana-dashboards)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devblogs.microsoft.com:Monitoring Azure by using Grafana dashboards 🌟](https://devblogs.microsoft.com/devops/monitoring-azure-by-using-grafana-dashboards)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/kubevirt/monitoring](https://github.com/kubevirt/monitoring)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [grafana.com: Grafana dashboards: A complete guide to all the different types you can build](https://grafana.com/blog/2022/06/06/grafana-dashboards-a-complete-guide-to-all-the-different-types-you-can-build)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -50,6 +48,8 @@
   - [Open source observability, meet data transformation: Grafana 7.0 promises to connect, unify, and visualize all your data](https://www.zdnet.com/article/open-source-observability-meet-data-transformation-grafana-7-0-promises-to-connect-unify-and-visualize-all-your-data)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [grafana.com: Grafana 8.1 released: New Geomap and Annotations panels, updated plugin management, and more](https://grafana.com/blog/2021/08/05/grafana-8.1-released-new-geomap-and-annotations-panels-updated-plugin-management-and-more)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Grafana 8.2 Wants to ‘Democratize’ Cloud Native Metrics](https://thenewstack.io/grafana-wants-to-democratize-cloud-native-metrics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [grafana.com: Grafana Labs and Microsoft partner to deliver new first party Microsoft Azure service](https://grafana.com/press/2021/11/10/grafana-labs-and-microsoft-partner-to-deliver-new-first-party-microsoft-azure-service)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [grafana.com: Grafana 9.3 feature: Grafana OAuth token improvements](https://grafana.com/oss/grafana/?mdm=social)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Grafana Loki](https://grafana.com/oss/loki)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Logging in Kubernetes with Loki and the PLG Stack](https://itnext.io/logging-in-kubernetes-with-loki-and-the-plg-stack-93b27c90ec34)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [grafana.com: Grafana Beyla 1.0 release: zero-code instrumentation for application telemetry using eBPF](https://grafana.com/blog/2023/11/14/grafana-beyla-1.0-release-zero-code-instrumentation-for-application-telemetry-using-ebpf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>

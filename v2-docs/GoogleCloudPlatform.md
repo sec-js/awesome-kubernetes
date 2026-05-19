@@ -3,20 +3,14 @@
 !!! info "Architectural Context"
     Detailed reference for Googlecloudplatform in the context of Cloud Providers (Hyperscalers).
 
+  - [cloud.google.com](https://cloud.google.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [console.cloud.google.com/products](https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fconsole.cloud.google.com%2Fproducts&dsh=S-434924395%3A1779041052185976&followup=https%3A%2F%2Fconsole.cloud.google.com%2Fproducts&osid=1&passive=1209600&service=cloudconsole&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AWa2Pasn2LQq2-HAsrhKLmjDeNW0e8jsHz1CbZM8xG_fzw2d_QHhWCcHPV60tTMOkJixTn6JdLIstQ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [googlecloudcheatsheet.withgoogle.com: Google Cloud Developer cheat sheet](https://cloud.google.com/products)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Google Cloud Build](https://cloud.google.com/build)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Platform comparisons](https://docs.cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloud.google.com: Secret Manager Best Practices](https://docs.cloud.google.com/secret-manager/docs/best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloud.google.com: VPN network overview](https://docs.cloud.google.com/vpc/docs/vpc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [kinsta.com: Top 7 Advantages of Choosing Google Cloud Hosting](https://kinsta.com/blog/cloud-platform-for-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Google Cloud AppSheet](https://about.appsheet.com/home)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [infoworld.com: Google Cloud AppSheet review: No-code with extras](https://www.infoworld.com/article/2270941/google-cloud-appsheet-review-no-code-with-extras.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloud.google.com: The gcloud tool cheat sheet](https://docs.cloud.google.com/sdk/docs/cheatsheet?hl=en)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloud.google.com](https://cloud.google.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.google.com: DevOps](https://cloud.google.com/devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Cloud Developer Tools](https://cloud.google.com/products/tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Google Cloud Code](https://cloud.google.com/code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Google Cloud Build](https://cloud.google.com/build)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Platform comparisons](https://docs.cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [whizlabs.com: Introduction To Google Cloud Platform](https://www.whizlabs.com/blog/google-cloud-platform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.google.com: Training more than 40 million new people on Google Cloud skills](https://cloud.google.com/blog/topics/training-certifications/google-cloud-to-train-more-than-40-million-with-cloud-skills)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.google.com: Microservices architecture on Google Cloud](https://cloud.google.com/blog/topics/developers-practitioners/microservices-architecture-google-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -24,11 +18,14 @@
   - [New Cloud Shell Editor: Get your first cloud-native app running in minutes](https://cloud.google.com/blog/products/application-development/introducing-cloud-shell-editor)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [techradar.com: Google Cloud is making it easier for developers to smuggle ‘secrets’ in their code](https://www.techradar.com/news/google-cloud-is-making-it-easier-for-developers-to-smuggle-secrets-in-their-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.google.com: Demystifying Cloud Spanner multi-region configurations](https://cloud.google.com/blog/topics/developers-practitioners/demystifying-cloud-spanner-multi-region-configurations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloud.google.com: Secret Manager Best Practices](https://docs.cloud.google.com/secret-manager/docs/best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.google.com: Choose the best way to use and authenticate service accounts on Google Cloud](https://cloud.google.com/blog/products/identity-security/how-to-authenticate-service-accounts-to-help-keep-applications-secure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.google.com: 5 cheat sheets to help you get started on your Google Cloud journey 🌟](https://cloud.google.com/blog/products/gcp/5-google-cloud-product-cheat-sheets-2021)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Configuring the Google Cloud Platform for High Availability](https://thenewstack.io/configuring-for-high-availability-in-google-cloud-platform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [zdnet.com: Google Cloud rolls out new security tools as threat landscape heats up](https://www.zdnet.com/article/google-cloud-rolls-out-new-security-tools-as-threat-landscape-heats-up)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.google.com: Consume services faster, privately and securely - Private Service Connect now in GA](https://cloud.google.com/blog/products/networking/private-service-connect-is-now-generally-available)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloud.google.com: VPN network overview](https://docs.cloud.google.com/vpc/docs/vpc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [kinsta.com: Top 7 Advantages of Choosing Google Cloud Hosting](https://kinsta.com/blog/cloud-platform-for-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.google.com: Monitor and troubleshoot your VMs in context for faster resolution](https://cloud.google.com/blog/products/operations/better-access-to-observability-data-for-virtual-machines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: Google Releases Its Certificate Authority Service into General Availability](https://www.infoq.com/news/2021/08/google-cloud-cas-ga)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.google.com: Your Google Cloud database options, explained](https://cloud.google.com/blog/topics/developers-practitioners/your-google-cloud-database-options-explained)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -52,6 +49,8 @@
   - [github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/GoogleCloudPlatform/cloud-code-samples 🌟](https://github.com/GoogleCloudPlatform/cloud-code-samples)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kelseyhightower/cmd-tutorial](https://github.com/kelseyhightower/cmd-tutorial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Google Cloud AppSheet](https://about.appsheet.com/home)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [infoworld.com: Google Cloud AppSheet review: No-code with extras](https://www.infoworld.com/article/2270941/google-cloud-appsheet-review-no-code-with-extras.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Cloud Functions, meet VPC functionality](https://cloud.google.com/blog/products/serverless/learn-how-to-use-advanced-vpc-functionality-with-your-cloud-functions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Everything You Want To Know About Anthos - Google's Hybrid And Multi-Cloud Platform](https://www.forbes.com/sites/janakirammsv/2019/04/14/everything-you-want-to-know-about-anthos-googles-hybrid-and-multi-cloud-platform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Anthos — Multi-cluster Management](https://itnext.io/anthos-multi-cluster-management-aa6f2c03120d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -67,6 +66,7 @@
   - [Announcing Apigee Integration: An API-first approach for connecting data and applications](https://cloud.google.com/blog/products/api-management/google-cloud-announces-apigee-integration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [db-auth-gateway](https://github.com/kloeckner-i/db-auth-gateway)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.google.com: Declarative Export. Build your perfect Google Cloud infrastructure using Terraform and the gcloud CLI](https://cloud.google.com/blog/products/application-development/google-cloud-cli-declarative-export-preview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloud.google.com: The gcloud tool cheat sheet](https://docs.cloud.google.com/sdk/docs/cheatsheet?hl=en)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/GoogleCloudPlatform/k8s-config-connector: GCP Config Connector](https://github.com/GoogleCloudPlatform/k8s-config-connector)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [freecodecamp.org: Web Scraping with Google Sheets – How to Scrape Web Pages with Built-in Functions](https://www.freecodecamp.org/news/web-scraping-google-sheets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 

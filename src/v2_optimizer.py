@@ -7,7 +7,7 @@ import httpx
 from datetime import datetime
 from typing import List, Dict, Set, Any, Tuple
 from src.config import GEMINI_API_KEYS, GH_TOKEN, TARGET_REPO, MADRID_TZ, INVENTORY_PATH
-from src.gemini_utils import call_gemini_with_retry, normalize_url, clean_toc_text
+from src.gemini_utils import call_gemini_with_retry, normalize_url, clean_toc_text, get_github_activity
 from src.logger import log_event
 
 V1_DIR = "docs"
@@ -194,6 +194,7 @@ class V2VisionEngine:
         to_evaluate = []
         project_registry = {} 
         force_eval = os.getenv("FORCE_EVAL", "false").lower() == "true"
+        enrich_metadata = os.getenv("ENRICH_METADATA", "false").lower() == "true"
         special_files = [sa["file"] for sa in self.special_assets_rules.get("special_assets", [])]
 
         for l in links:
@@ -206,6 +207,16 @@ class V2VisionEngine:
             if "github.com" in norm_url:
                 match = re.search(r'github\.com/([^/]+/[^/]+)', norm_url)
                 if match: project_id = match.group(1).lower()
+
+            # Mandate 15: If enrichment is ON and gh_metadata is missing, we must fetch it
+            if enrich_metadata and "github.com" in norm_url:
+                cached = self.inventory.get(norm_url, {})
+                if not cached.get("gh_stars"):
+                    log_event(f"  [METADATA] Enrichment: Fetching GH Activity for {norm_url}")
+                    gh_data = await get_github_activity(norm_url)
+                    if gh_data:
+                        if norm_url not in self.inventory: self.inventory[norm_url] = {}
+                        self.inventory[norm_url].update(gh_data)
 
             if not force_eval and norm_url in self.inventory and "stars" in self.inventory[norm_url]:
                 cached = self.inventory[norm_url]
@@ -370,7 +381,7 @@ class V2VisionEngine:
         pulse_md = "## ⚡ The Agentic Pulse\n" + "\n".join([f"- **({l.get('pub_date', 'N/A')[:10]})** [**=={l['title']}==**]({l['url']}) {'🌟'*l.get('stars',3)}" for l in trending_pool[:5]])
         
         index_md = (
-            "# Nubenetes Elite Portal (V2) | Awesome Kubernetes and Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/nubenetes/awesome-kubernetes)\n\n"
+            "# Nubenetes Elite Portal (V2) | Nubenetes: Awesome Kubernetes & Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)\n\n"
             "<center markdown=\"1\">\n"
             "[![Banner](images/kubernetes_logo.jpg)](https://kubernetes.io)\n"
             "</center>\n\n"

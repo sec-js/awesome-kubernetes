@@ -130,9 +130,9 @@ As of May 2026, Nubenetes has reached the **Platinum Operational Tier**, featuri
 <!-- HEART_STATS_START -->
 | Metric | Value |
 | :--- | :--- |
-| **Total Technical Resources (Links)** | **15302+** |
+| **Total Technical Resources (Links)** | **15303+** |
 | **Specialized MD Pages** | **161** |
-| **Total Commits** | **4748+** |
+| **Total Commits** | **4759+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -170,7 +170,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 1189 | 4,910 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 1200 | 4,956 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -186,8 +186,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume (Commits / Estimated New Refs)" 0 --> 9000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 4910]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1189]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 4956]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1200]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -196,7 +196,7 @@ xychart-beta
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
-| 2026-05 | 1164 | 4,807 | **Agentic Inception (Gemini Era)** |
+| 2026-05 | 1175 | 4,852 | **Agentic Inception (Gemini Era)** |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
@@ -216,7 +216,7 @@ pie title Nubenetes Major Ecosystem Pillars
     "Infra as Code" : 1200
     "SRE and Observability" : 1000
     "Security and DevSecOps" : 1000
-    "Specialized Topics" : 902
+    "Specialized Topics" : 903
 ```
 <!-- PILLAR_CHART_END -->
 
@@ -230,7 +230,7 @@ Reflecting Nubenetes' mission of global access while maintaining technical Engli
 <!-- SUB_ECO_CHART_START -->
 ```mermaid
 pie title Linguistic Diversity (Global Access)
-    "English" : 13771
+    "English" : 13772
     "Spanish" : 918
     "French" : 153
     "Others" : 459
@@ -643,8 +643,8 @@ Nubenetes features a comprehensive suite of workflows that can be controlled man
 
 | # | Workflow / UI Interface | Source Code | Manual Control & Form Inputs | Default Behavior |
 | :---: | :--- | :--- | :--- | :--- |
-| **1** | **[Agentic Curation](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_cron.yml)** | [`.github/workflows/agentic_cron.yml`](.github/workflows/agentic_cron.yml) | • **`start_date`**: YYYY-MM-DD.<br/>• **`days_back`**: Relative range.<br/>• **`include_...`**: Domain toggles (K8s, AI, Cloud, etc).<br/>• **`extraction_strategy`**: Search vs Scroll.<br/>• **`historical_mode`**: Bypass limits. | Monthly Discovery |
-| **2** | **[V2 Elite Builder](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_builder.yml)** | [`.github/workflows/agentic_v2_builder.yml`](.github/workflows/agentic_v2_builder.yml) | • **`force_reevaluate`**: Ignore AI cache.<br/>• **`activate_backup_key`**: Identity rotation. | Auto-Sync (Push) |
+| **1** | **[Agentic Curation](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_cron.yml)** | [`.github/workflows/agentic_cron.yml`](.github/workflows/agentic_cron.yml) | • **`start_date`**: YYYY-MM-DD.<br/>• **`days_back`**: Relative range.<br/>• **`include_...`**: Domain toggles (K8s, AI, Cloud, etc).<br/>• **`exclude_accounts`**: Comma-separated list.<br/>• **`extraction_strategy`**: Search vs Scroll.<br/>• **`historical_mode`**: Bypass limits.<br/>• **`historical_chunked`**: Recursive execution.<br/>• **`historical_until_date`**: Chunk limit.<br/>• **`activate_backup_key`**: Identity rotation. | Monthly Discovery |
+| **2** | **[V2 Elite Builder](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_builder.yml)** | [`.github/workflows/agentic_v2_builder.yml`](.github/workflows/agentic_v2_builder.yml) | • **`force_reevaluate`**: Ignore AI cache.<br/>• **`enrich_metadata`**: Fetch stars/license.<br/>• **`activate_backup_key`**: Identity rotation. | Auto-Sync (Push) |
 | **3** | **[Link Health Check](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/intelligent_link_cleaner.yml)** | [`.github/workflows/intelligent_link_cleaner.yml`](.github/workflows/intelligent_link_cleaner.yml) | • **`force_full_check`**: Bypasses 21-day cache for exhaustive audit. | Monthly Cleanup |
 | **4** | **[Backup Curation](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_backup.yml)** | [`.github/workflows/agentic_backup.yml`](.github/workflows/agentic_backup.yml) | • **`backup_file`**: Path to JSON/MD.<br/>• **`historical_mode`**: Force evaluation. | On-Demand |
 | **5** | **[README Sync](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/readme_sync.yml)** | [`.github/workflows/readme_sync.yml`](.github/workflows/readme_sync.yml) | *(No manual inputs)* | Push to `develop` |
@@ -654,10 +654,10 @@ Nubenetes features a comprehensive suite of workflows that can be controlled man
 
 ### 9.2. Recommended Execution Pipeline
 To maintain the archive's integrity, the following logical sequence is followed:
-1.  **Phase 1: Knowledge Discovery or Maintenance (#1, #4, or #5):** Raw technical data is fetched/filtered (Curation) or the existing archive is audited for health (Cleaning).
+1.  **Phase 1: Knowledge Discovery or Maintenance (#1, #3, or #4):** Raw technical data is fetched/filtered (Curation) or the existing archive is audited for health (Cleaning).
 2.  **Phase 2: Elite Synthesis (#2):** Once curation or cleaning changes are merged into `develop`, the V2 Builder triggers automatically to synchronize the premium portal with the latest data and health status.
-3.  **Phase 3: Metric Alignment (#3):** The push to `develop` triggers the README Sync.
-4.  **Phase 4: Global Deployment (#6):** Review and merge into `master` to update production.
+3.  **Phase 3: Metric Alignment (#5):** The push to `develop` triggers the README Sync.
+4.  **Phase 4: Global Deployment (#8):** Review and merge into `master` to update production.
 
 ### 9.3. Workflow Trigger and Synchronization Logic
 The following flowchart illustrates how autonomous discovery and maintenance tasks orchestrate the update of the V2 Elite portal. Nubenetes uses a **Surgical Trigger Strategy** to ensure the V2 Builder only executes when relevant data or logic changes occur.
@@ -666,7 +666,7 @@ The following flowchart illustrates how autonomous discovery and maintenance tas
 graph TD
     subgraph "Phase 1: Knowledge Discovery and Maintenance"
         A["New Curation Source<br/>(X.com, RSS)"] --> B["[1] Agentic Curation"]
-        C["Scheduled / Manual Audit"] --> D["[4] Intelligent Cleaner"]
+        C["Scheduled / Manual Audit"] --> D["[3] Intelligent Cleaner"]
     end
 
     B -->|"Merged into develop<br/>(Path Filter: docs/, inventory.yaml)"| E{"V2 Surgical Trigger"}
@@ -678,12 +678,12 @@ graph TD
     end
 
     subgraph "Phase 3: Documentation and Metrics"
-        G --> H["[3] README Sync"]
+        G --> H["[5] README Sync"]
     end
 
     subgraph "Phase 4: Production Deployment"
         H --> I["Manual Review<br/>(develop → master)"]
-        I --> J["[6] Production Deploy"]
+        I --> J["[8] Production Deploy"]
         J --> K["nubenetes.com"]
     end
 ```
@@ -695,10 +695,10 @@ sequenceDiagram
     participant G as Gemini Agent
     participant W1 as [1] Agentic Curation
     participant W2 as [2] V2 Elite Builder
-    participant W3 as [3] README Sync
+    participant W3 as [5] README Sync
     participant R as Repo (develop)
     participant M as master branch
-    participant P as [6] Prod Deploy
+    participant P as [8] Prod Deploy
 
     W1->>X: Extract Raw Data
     X-->>W1: Raw JSON/MD
@@ -823,7 +823,7 @@ To maintain transparency and ease of navigation, all key configuration, database
 
 ### 13.3. Autonomous Workflows
 - **Discovery & Curation:** [`.github/workflows/agentic_cron.yml`](.github/workflows/agentic_cron.yml)
-- **V2 Elite Builder:** [`.github/workflows/agentic_v2_builder.yml`](.github/workflows/agentic_v2_builder.yml)
+- **V2 Elite Builder:** [`.github/workflows/agentic_v2_builder.yml`](.github/workflows/agentic_v2_builder.yml) — Generates the Elite curated portal. Supports `force_reevaluate` (refreshes AI scores) and `enrich_metadata` (fetches real-time GitHub stars/license data).
 - **Health & Maintenance:** [`.github/workflows/intelligent_link_cleaner.yml`](.github/workflows/intelligent_link_cleaner.yml)
 - **README Metrics Sync:** [`.github/workflows/readme_sync.yml`](.github/workflows/readme_sync.yml)
 - **Deployment Pipeline:** [`.github/workflows/main.yml`](.github/workflows/main.yml)
