@@ -13,6 +13,7 @@
   - [thenewstack.io: Microservices: Align the Pain with the Solution](https://thenewstack.io/microservices-align-the-pain-with-the-solution)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [k21academy.com: Monolithic vs Microservices – Difference, Advantages & Disadvantages](https://k21academy.com/kubernetes/monolithic-vs-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Choosing Between Container-Native and Container-Ready Storage 🌟](https://thenewstack.io/choosing-between-container-native-and-container-ready-storage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.risingstack.com: Designing a Microservices Architecture for Failure](https://blog.risingstack.com/designing-microservices-architecture-for-failure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: When are microservices appropriate?](https://dev.to/tngeene/when-are-microservices-appropriate-g2n)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devopsdigest.com: CI/CD Deployments: How to Expedite Across a Kubernetes Environment With DevOps Orchestration](https://www.devopsdigest.com/cicd-deployments-how-to-expedite-across-a-kubernetes-environment-with-devops-orchestration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [History of Microservices](https://docs.google.com/presentation/d/1DFy4ZZdsK2ftREetv_f52E-caZXOGX6GvgzGQlfSLfE/edit?usp=sharing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>

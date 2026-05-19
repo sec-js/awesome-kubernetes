@@ -57,7 +57,6 @@
   - [Crunchy Data Developer Portal](https://www.crunchydata.com/developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Crunchy PostgreSQL and Openshift](https://www.redhat.com/en/blog/leveraging-the-crunchy-postgresql)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [The PostgreSQL Operator Installer with kubectl](https://access.crunchydata.com/documentation/postgres-operator/4.3.0/installation/postgres-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ref1](https://docs.redhat.com/en/documentation/openshift_container_platform/4.1/html/authentication/using-service-accounts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ref1](https://docs.redhat.com/en/documentation/openshift_container_platform/3.6/html/cluster_administration/admin-guide-manage-scc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ref1](https://www.redhat.com/en/blog/understanding-service-accounts-sccs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [crunchy-pgadmin4](https://access.crunchydata.com/documentation/crunchy-postgres-containers/4.3.0/container-specifications/crunchy-pgadmin4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>

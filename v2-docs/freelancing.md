@@ -38,5 +38,6 @@
   - [hellobonsai](https://www.hellobonsai.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [BairesDev](https://www.bairesdev.com/join-us)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [paystream.co.uk: What is an umbrella company?](https://www.paystream.co.uk/helphub/umbrella/getting-started/what-is-an-umbrella-company)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [umbrellaselector.com/Spain](http://umbrellaselector.com/Spain)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [freelance.es](https://freelance.es)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [contractortaxation.com/contracting-in-spain](https://contractortaxation.com/contracting-in-spain)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>

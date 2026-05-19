@@ -41,7 +41,7 @@
   - [freecodecamp.org: Learn Istio – How to Manage, Monitor, and Secure Microservices 🌟](https://www.freecodecamp.org/news/learn-istio-manage-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [useanvil.com: Load balancing gRPC in Kubernetes with Istio](https://www.useanvil.com/blog/engineering/load-balancing-grpc-in-kubernetes-with-istio)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jimmysong.io: Understanding the Sidecar Injection, Traffic Intercepting & Routing Process in Istio](https://jimmysong.io/blog/sidecar-injection-iptables-and-traffic-routing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.getambassador.io: Kubernetes Canary Testing and Release with Istio](https://blog.getambassador.io/kubernetes-canary-testing-and-release-with-istio-4cbdedcc9914?gi=e61c67017989)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.getambassador.io: Kubernetes Canary Testing and Release with Istio](https://blog.getambassador.io/kubernetes-canary-testing-and-release-with-istio-4cbdedcc9914?gi=65af8561dca0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Taffic Shaping - Kubernetes & Istio | Daniele Polencic](https://itnext.io/traffic-shaping-with-kubernetes-and-istio-7e44fbfca200)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Maistra.io](https://maistra.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com: Maistra Istio](https://github.com/maistra/istio)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>

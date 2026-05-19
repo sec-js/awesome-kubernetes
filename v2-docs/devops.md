@@ -105,6 +105,7 @@
   - [devops.com: Yeah, You’re Doing DevOps](https://devops.com/yeah-youre-doing-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: How External IT Providers Can Adopt DevOps Practices 🌟](https://www.infoq.com/news/2021/08/external-IT-providers-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [chaossearch.io: 9 Essential DevOps Tools for 2021](https://www.chaossearch.io/blog/essential-devops-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [devopsonline.co.uk: The role of Automation in DevOps](https://www.devopsonline.co.uk/the-role-of-automation-in-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [sqlshack.com: 6 Reasons why you can’t have DevOps without Test Automation 🌟](https://www.sqlshack.com/6-reasons-why-you-cant-have-devops-without-test-automation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: DevOps Is Not Automation](https://dev.to/run-x/devops-is-not-automation-2amo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [intellipaat.com: What Does a DevOps Engineer Do? 🌟](https://intellipaat.com/blog/what-does-a-devops-engineer-do)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
