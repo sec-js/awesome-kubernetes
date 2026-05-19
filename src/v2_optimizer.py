@@ -45,8 +45,10 @@ class V2VisionEngine:
             "- For 'introduction.md', identify links related to MICROSERVICES for extraction.\n"
             "PHASE 3: KNOWLEDGE ASSIMILATION FLOW\n"
             "- Order hierarchy to facilitate a structured learning journey.\n"
-            "PHASE 4: HIGH-DENSITY TECHNICAL SUMMARIES (Mandate 4)\n"
+            "PHASE 4: HIGH-DENSITY TECHNICAL SUMMARIES (Double-Evidence Synthesis)\n"
             "- Generate professional, neutral, and advanced technical summaries. Style: O'Reilly technical.\n"
+            "- PROTOCOL: Contrast 'Curator Insight' (from source) with 'Live Grounding' (from search).\n"
+            "- If discrepancies are found (e.g. project is archived but source says it's new), PRIORITIZE live engineering truth.\n"
             "- Summaries MUST be high-density: Include architectural value, key features, and technical significance.\n"
             "- Format: Use paragraphs and bullet points for complex tools. Aim for 2-5 sentences of depth.\n"
             "PHASE 5: ADVANCED MATURITY TAGGING\n"
@@ -254,15 +256,15 @@ class V2VisionEngine:
             for i in range(0, len(to_evaluate), BATCH_SIZE):
                 batch = to_evaluate[i:i+BATCH_SIZE]
                 
-                # Analyst Prompt (Focus: Classification & High-Density Summary)
+                # Analyst Prompt (Focus: Classification & High-Density Synthesis)
                 prompt = (
                     f"You are the Nubenetes Technical Analyst (2026).\n"
                     f"{dynamic_mandates}\n"
                     f"{self.library_criteria}\n"
-                    "PHASE 5: INITIAL TAGGING & RICH SUMMARY\n"
-                    "- Assign 1 to 3 preliminary tags.\n"
-                    "- Provide a 'summary' that is technical and dense. Use Markdown (bullet points, bolding) if necessary.\n"
-                    "Respond ONLY JSON: {{\"results\": [{{ \"idx\": int, \"year\": \"YYYY\", \"stars\": 0-5, \"hierarchy\": [\"Area\", \"Topic\", ...], \"tags\": [\"...\"], \"summary\": \"High-density multi-line summary...\", \"language\": \"...\", \"type\": \"...\", \"complexity\": \"...\", \"is_microservice\": bool }}, ...]}}\n\n"
+                    "PHASE 5: DOUBLE-EVIDENCE SYNTHESIS & RICH SUMMARY\n"
+                    "- Cross-reference the provided title/desc with your internal knowledge and search grounding.\n"
+                    "- Provide a 'summary' that is technical and dense. Identify the core architectural 'WHY'.\n"
+                    "Respond ONLY JSON: {{\"results\": [{{ \"idx\": int, \"year\": \"YYYY\", \"stars\": 0-5, \"hierarchy\": [\"Area\", \"Topic\", ...], \"tags\": [\"...\"], \"summary\": \"Synthesis of evidence...\", \"language\": \"...\", \"type\": \"...\", \"complexity\": \"...\", \"is_microservice\": bool }}, ...]}}\n\n"
                     "LINKS:\n" + "\n".join([f"{idx}. {l['title']} ({l['url']})" for idx, l in enumerate(batch)])
                 )
                 try:
@@ -297,12 +299,15 @@ class V2VisionEngine:
                     audit_prompt = (
                         f"You are the Nubenetes Auditor (2026).\n"
                         f"{dynamic_mandates}\n"
-                        "MISSION: Verify the 'Elite' status of these resources using your GOOGLE_SEARCH tool.\n"
+                        "MISSION: Perform 'Double-Evidence' verification using your GOOGLE_SEARCH tool.\n"
+                        "PROTOCOL:\n"
+                        "1. SEARCH: Look for community reputation (Reddit, HN) and repo status (GitHub).\n"
+                        "2. CONTRAST: Compare findings with the proposed Analyst summary.\n"
+                        "3. REFINE: Correct any 'vaporware' or 'hype' claims. Ensure technical accuracy.\n"
                         "CRITERIA:\n"
-                        "- [DE FACTO STANDARD]: Industry baseline, used by everyone (e.g. K8s, Terraform).\n"
-                        "- [ENTERPRISE-STABLE]: Proven, high-trust, supported (e.g. ArgoCD, Linkerd).\n"
-                        "- REPUTATION: Check Reddit/Hacker News for stability or abandonment reports.\n"
-                        "Respond ONLY JSON: {{\"audits\": [{{ \"idx\": int, \"verified_tags\": [\"...\"], \"reputation_summary\": \"...\", \"reputation_penalty\": bool }}, ...]}}\n\n"
+                        "- [DE FACTO STANDARD]: Industry baseline, used by everyone.\n"
+                        "- [ENTERPRISE-STABLE]: Proven, high-trust, supported.\n"
+                        "Respond ONLY JSON: {{\"audits\": [{{ \"idx\": int, \"verified_tags\": [\"...\"], \"refined_summary\": \"Synthesized and verified technical summary...\", \"reputation_summary\": \"...\", \"reputation_penalty\": bool }}, ...]}}\n\n"
                         "RESOURCES TO AUDIT:\n" + "\n".join([f"{idx}. {l['title']} ({l['url']}) - Proposed: {l.get('tags')}" for idx, l in enumerate(batch)])
                     )
                     try:
@@ -311,9 +316,9 @@ class V2VisionEngine:
                         for aud in audit_data.get("audits", []):
                             idx = int(aud["idx"])
                             if idx < len(batch):
-                                url = batch[idx]["url"]
-                                # Update tags and add reputation metadata (Mandate 32/33)
+                                # Update tags, summary and add reputation metadata (Mandate 32/33)
                                 batch[idx]["tags"] = aud.get("verified_tags", batch[idx]["tags"])
+                                if aud.get("refined_summary"): batch[idx]["ai_summary"] = aud["refined_summary"]
                                 batch[idx]["reputation_summary"] = aud.get("reputation_summary", "")
                                 if aud.get("reputation_penalty"):
                                     batch[idx]["stars"] = max(batch[idx].get("stars", 1) - 1, 1)
