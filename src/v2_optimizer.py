@@ -297,12 +297,22 @@ class V2VisionEngine:
 
         if to_evaluate and not self.render_only:
             # Mandate 47: Zero-Redundancy & Smart Grounding
-            from src.mandate_ingestor import get_system_mandates
-            dynamic_mandates = get_system_mandates()
+            # Fast-Track (Metadata/Desc present) vs Grounded-Track (Needs deep search)
+            fast_track = []
+            grounded_track = []
             
-            # Split into Fast-Track (Metadata present) vs Grounded-Track (Needs search)
-            fast_track = [l for l in to_evaluate if l.get("gh_stars") is not None]
-            grounded_track = [l for l in to_evaluate if l.get("gh_stars") is None]
+            for l in to_evaluate:
+                nu = normalize_url(l["url"])
+                is_github = "github.com" in nu
+                desc_len = len(l.get("description", ""))
+                
+                # Grounded-Track ONLY if:
+                # 1. GitHub link WITHOUT stars (Maturity unknown)
+                # 2. Non-GitHub link with very poor description (< 40 chars)
+                if (is_github and l.get("gh_stars") is None) or (not is_github and desc_len < 40):
+                    grounded_track.append(l)
+                else:
+                    fast_track.append(l)
             
             log_event(f"[*] Agent Phase 1: Analyst Evaluation ({len(to_evaluate)} resources)...")
             log_event(f"    [>] Fast-Track: {len(fast_track)} | Grounded-Track: {len(grounded_track)}")
@@ -318,7 +328,7 @@ class V2VisionEngine:
                     f"{dynamic_mandates}\n"
                     f"{self.library_criteria}\n"
                     "PHASE 5: TECHNICAL SYNTHESIS (FAST-TRACK)\n"
-                    "- Use provided metadata (GH Stars, License) to classify maturity.\n"
+                    "- Use provided metadata and descriptions to classify maturity and summary.\n"
                     "Respond ONLY JSON: {{\"results\": [{{ \"idx\": int, \"year\": \"YYYY\", \"stars\": 0-5, \"hierarchy\": [\"Area\", \"Topic\", ...], \"tags\": [\"...\"], \"summary\": \"Synthesis...\", \"language\": \"...\", \"type\": \"...\", \"complexity\": \"...\", \"is_microservice\": bool }}, ...]}}\n\n"
                     "LINKS:\n" + "\n".join([f"{idx}. {l['title']} ({l['url']}) | GH Stars: {l.get('gh_stars')} | Desc: {l.get('description')}" for idx, l in enumerate(batch)])
                 )
@@ -340,7 +350,7 @@ class V2VisionEngine:
                             analyst_results.append(item)
                 except: 
                     for l in batch: analyst_results.append(l)
-                await asyncio.sleep(0.1)
+                await asyncio.sleep(1.0) # Increased wait between batches to absorb 429s
 
             # 1.2 Grounded-Track: Small Batches, WITH GROUNDING (Slower but precise)
             BATCH_SIZE_GROUNDED = 10
@@ -373,7 +383,7 @@ class V2VisionEngine:
                             analyst_results.append(item)
                 except: 
                     for l in batch: analyst_results.append(l)
-                await asyncio.sleep(0.3)
+                await asyncio.sleep(2.0) # Grounding is heavy, more sleep needed
 
             # --- AGENT PHASE 2: SELECTIVE AUDIT (MCP-Grounded) ---
             # Identify candidates for high-trust verification
