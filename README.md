@@ -621,6 +621,7 @@ graph TD
 ```
 
 </details>
+
 ### 7.6. Strategic Benefits
 - **Incremental Self-Correction**: Reparation of historical precision errors.
 - **Content-URL Precision Standard (Mandate 31)**: AI detects generic redirects and triggers the Rescue Protocol.
@@ -770,6 +771,7 @@ sequenceDiagram
 ```
 
 </details>
+
 ### 9.5. Deployment Lifecycle
 <details><summary>🗺️ <b>View Diagram</b></summary>
 
