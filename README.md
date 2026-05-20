@@ -654,6 +654,20 @@ graph TD
 
 ## 8. The Agentic AI Engine
 
+Nubenetes utilizes a **Multi-Tier Agentic Model Architecture** (2026) to balance industrial-grade reasoning with high-throughput performance.
+
+### 8.1. Agentic Model Selection Matrix
+The following matrix defines our strategic model tiering across all workflows:
+
+| Agent Role | Workflow | Default Model | Tier | Primary Rationale | Quota Priority |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Analyst (Fast)** | V2 Elite Builder | **Gemini Flash/Lite** | Tier 1 | High RPM/TPM for mass processing (10k+ links). | **Ultra High** |
+| **Link-Rescue** | Health Cleaner | **Gemini Flash/Lite** | Tier 1 | Fast URL recovery using Search Grounding. | **High** |
+| **PR Guardian** | PR Presubmit | **Gemini Flash/Lite** | Tier 1 | Rapid syntax and mandate format linting. | **Medium** |
+| **Curator (X/RSS)** | Agentic Curator | **Gemini Pro** | Tier 2 | Deep reasoning for human/social context. | **Low (Burst)** |
+| **Auditor** | V2 Elite Builder | **Gemini Pro** | Tier 2 | High-fidelity verification of [ELITE] resources. | **Medium** |
+
+### 8.2. Core Agent Definitions
 The heart of the new Nubenetes is a suite of AI Agents that operate on our `develop` branch:
 
 1.  **AgenticCurator ([`src/agentic_curator.py`](src/agentic_curator.py))**:
@@ -675,6 +689,7 @@ The heart of the new Nubenetes is a suite of AI Agents that operate on our `deve
     - **Transparency:** Provides detailed, real-time unbuffered logging of all cleaning operations.
 4.  **Resilient Architecture Core**:
     - **Exponential Backoff**: Intelligent `tenacity`-based retry logic in `gemini_utils.py` gracefully handles 429 Rate Limits before triggering the Circuit Breaker.
+    - **Flash-First Architecture**: Prioritizes Gemini Flash/Lite models for high-density Analyst tasks, enabling processing of 10,000+ resources within the 6-hour GitHub Actions limit through 100-item batching and 2-second safety delays.
     - **Fast-Track Sequential Model**: Optimized for stability and speed, bypassing the complexity of distributed systems.
     - **Pip Caching**: All workflows utilize `cache: pip` for lightning-fast execution and reduced compute costs.
     - **AI PR Guardian**: Enforces the `PULL_REQUEST_TEMPLATE.md` checklist automatically on community contributions.

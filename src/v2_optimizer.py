@@ -319,7 +319,7 @@ class V2VisionEngine:
             analyst_results = []
 
             # 1.1 Fast-Track: Large Batches, NO GROUNDING (Fast)
-            BATCH_SIZE_FAST = 40 # Increased from 25
+            BATCH_SIZE_FAST = 100 # Increased from 40 for optimal RPM/TPM balance
             total_fast = len(fast_track)
             for i in range(0, total_fast, BATCH_SIZE_FAST):
                 batch = fast_track[i:i+BATCH_SIZE_FAST]
@@ -353,9 +353,9 @@ class V2VisionEngine:
                             }
                             item.update(eval_data)
                             analyst_results.append(item)
-                except:
+                except Exception:
                     for l in batch: analyst_results.append(l)
-                await asyncio.sleep(0.5)
+                await asyncio.sleep(2.0) # Safety delay to respect TPM limits
 
             # 1.2 Grounded-Track: Small Batches, WITH GROUNDING (Slower but precise)
             BATCH_SIZE_GROUNDED = 15 # Increased from 5
@@ -391,9 +391,9 @@ class V2VisionEngine:
                             }
                             item.update(eval_data)
                             analyst_results.append(item)
-                except:
+                except Exception:
                     for l in batch: analyst_results.append(l)
-                await asyncio.sleep(2.0) # Reduced from 5.0 to improve throughput            # --- AGENT PHASE 2: SELECTIVE AUDIT (MCP-Grounded) ---
+                await asyncio.sleep(4.0) # Higher delay for Grounding tasks            # --- AGENT PHASE 2: SELECTIVE AUDIT (MCP-Grounded) ---
             # Identify candidates for high-trust verification
             audit_candidates = [l for l in analyst_results if "[DE FACTO STANDARD]" in l.get("tags", []) or "[ENTERPRISE-STABLE]" in l.get("tags", [])]
             

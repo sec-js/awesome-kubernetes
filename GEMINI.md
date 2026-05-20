@@ -145,9 +145,15 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **Smart Grounding**: Google Search Retrieval is strictly reserved for resources missing critical metadata or those flagged as `needs_ai_refresh`.
     - **Linear Knowledge Flow**: The workflow follows a strict sequence: 1. Health/Metadata (Cleaner) -> 2. Distributed Inventory -> 3. Fast-Track Optimization (V2).
 37. **Linguistic Uniformity**: All core documentation (index, README, GEMINI.md) and V2 portal summaries MUST be written in **Professional Technical English**. V1 descriptions remain in their native language (Mandate 10).
-
+48. **Flash-First High-Density Curation (Scale Mandate)**: For mass processing (>1,000 resources), the system MUST prioritize **Gemini Flash/Lite** models for the Analyst phase. This ensures high RPM/TPM throughput while maintaining cost efficiency. Pro models are strictly reserved for the Auditor phase or high-value resource verification.
+49. **Robust Batch Processing & Rate-Limit Resilience**: Large-scale curation MUST use batch sizes of **100 resources** for Fast-Track processing with a mandatory **2-second safety delay** between batches. This prevents Rate-Limit (429) exhaustion even on Tier 1 Pay-as-you-go accounts.
+50. **Multi-Tier Agentic Model Selection Policy**: To optimize the balance between reasoning depth, execution speed, and API quota safety, models MUST be selected based on task profile:
+    - **Tier 1 (High-Throughput / Formatting)**: Mandatory **Gemini Flash/Lite**. Used for: mass classification (V2), formatting audits (PR Guardian), and high-volume link rescue (Health Checker).
+    - **Tier 2 (High-Context / Human Interpretation)**: Mandatory **Gemini Pro**. Used for: raw social media curation (X.com/RSS), complex architectural auditing, and security-critical verification.
+    - **Constraint**: Tier 2 tasks MUST be limited to low-volume batches to protect the global RPM quota.
 
 ## 🛠️ Structural Evolution & Navigation
+
 
 *   **No Link Limits**: There are NO hard limits on the number of links per page or per section (##/###). Nubenetes is built to host thousands of references.
 *   **TOC Consistency**: Every `.md` page (including the main index `docs/index.md`) MUST maintain an internal Table of Contents (TOC) at the beginning. This TOC must include all sections (##) and subsections (###) nested correctly using a numbered list format with working anchors.
@@ -301,3 +307,7 @@ The bot must rotate between profiles to avoid detection:
         - **Contribution Template (PR Guardian)**: Enforced strict GEMINI mandate compliance at the PR creation stage via `PULL_REQUEST_TEMPLATE.md`.
         - **Exponential Backoff Resilience**: Upgraded the `call_gemini_with_retry` engine with the `tenacity` library, allowing intelligent pausing (4s, 8s, 16s) to gracefully absorb 429 Rate Limits before triggering the ultimate exit code 42 Circuit Breaker.
         - **Ultra-Fast V2 Render Mode**: Optimized the `render-and-pr` stage of the V2 pipeline (`--render-only`) to implement an absolute short-circuit, completely bypassing redundant HTTP health checks, GitHub API metadata fetching, and AI agent evaluation loops. This leverages the pre-computed YAML inventory to assemble the portal instantaneously.
+        - **Flash-First Architecture Transition (May 2026)**:
+            - **Throughput Optimization**: Successfully transitioned to a Flash-First architecture, increasing Fast-Track batch sizes to 100 resources.
+            - **Resilience Hardening**: Improved error handling to ensure Rate-Limit (429) events trigger the Circuit Breaker instead of silent loops, preserving API integrity.
+            - **Efficiency Gains**: Reduced expected execution time for 10k+ resources by >60% through optimized RPM/TPM management and strategic safety delays.

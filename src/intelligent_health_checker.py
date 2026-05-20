@@ -135,7 +135,8 @@ class IntelligentLinkCleaner:
                 
                 try:
                     async with self.ai_semaphore:
-                        ai_results = await call_gemini_with_retry(prompt, prefer_flash=False, use_grounding=True)
+                        # Mandate 48: Use Flash/Lite for high-volume rescue to avoid Rate-Limits
+                        ai_results = await call_gemini_with_retry(prompt, prefer_flash=True, use_grounding=True, role="Link-Rescue")
                         if isinstance(ai_results, list):
                             res_map = {normalize_url(r.get("old_url", "")): r.get("new_url") for r in ai_results}
                             for u in batch:
