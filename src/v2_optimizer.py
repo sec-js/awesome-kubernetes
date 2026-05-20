@@ -308,14 +308,20 @@ class V2VisionEngine:
             for l in to_evaluate:
                 nu = normalize_url(l["url"])
                 is_github = "github.com" in nu
-                # We prioritize items that ALREADY have a valid description or stars
-                has_desc = len(l.get("description", "")) > 40
-                has_stars = l.get("gh_stars") is not None
                 
-                if (is_github and not has_stars) or (not is_github and not has_desc):
-                    grounded_track.append(l)
-                else:
+                # Fast-Track Eligibility:
+                # 1. Has AI summary (previous run)
+                # 2. Is GitHub and has stars (metadata present)
+                # 3. Has decent manual description (> 40 chars)
+                has_ai_summary = l.get("ai_summary") is not None and len(l.get("ai_summary")) > 50
+                has_stars = l.get("gh_stars") is not None
+                has_desc = len(l.get("description", "")) > 40
+                
+                if has_ai_summary or has_stars or has_desc:
                     fast_track.append(l)
+                else:
+                    # Grounded-Track is ONLY for "Unknown" resources with zero context
+                    grounded_track.append(l)
             
             log_event(f"[*] Agent Phase 1: Analyst Evaluation ({len(to_evaluate)} resources)...")
             log_event(f"    [>] Fast-Track: {len(fast_track)} | Grounded-Track: {len(grounded_track)}")
@@ -331,9 +337,9 @@ class V2VisionEngine:
                     f"{dynamic_mandates}\n"
                     f"{self.library_criteria}\n"
                     "PHASE 5: TECHNICAL SYNTHESIS (FAST-TRACK)\n"
-                    "- Use provided metadata and descriptions to classify maturity and summary.\n"
+                    "- Use provided metadata, AI summaries, and descriptions to classify maturity.\n"
                     "Respond ONLY JSON: {{\"results\": [{{ \"idx\": int, \"year\": \"YYYY\", \"stars\": 0-5, \"hierarchy\": [\"Area\", \"Topic\", ...], \"tags\": [\"...\"], \"summary\": \"Synthesis...\", \"language\": \"...\", \"type\": \"...\", \"complexity\": \"...\", \"is_microservice\": bool }}, ...]}}\n\n"
-                    "LINKS:\n" + "\n".join([f"{idx}. {l['title']} ({l['url']}) | GH Stars: {l.get('gh_stars')} | Desc: {l.get('description')}" for idx, l in enumerate(batch)])
+                    "LINKS:\n" + "\n".join([f"{idx}. {l['title']} ({l['url']}) | Stars: {l.get('gh_stars', l.get('stars'))} | Existing Summary: {l.get('ai_summary', l.get('description'))}" for idx, l in enumerate(batch)])
                 )
                 try:
                     data = await call_gemini_with_retry(prompt, prefer_flash=True, use_grounding=False, role="Analyst-Fast")
@@ -343,7 +349,8 @@ class V2VisionEngine:
                             item = batch[idx].copy()
                             eval_data = {
                                 "year": str(res.get("year", "N/A")), "stars": min(max(int(res.get("stars", 0)), 0), 5),
-                                "ai_summary": res.get("summary", ""), "language": res.get("language", "English"),
+                                "ai_summary": res.get("summary", item.get("ai_summary", "")), 
+                                "language": res.get("language", "English"),
                                 "resource_type": res.get("type", "Reference"), "complexity": res.get("complexity", "Intermediate"),
                                 "hierarchy": res.get("hierarchy", ["General"]), "tags": res.get("tags", []),
                                 "is_microservice": bool(res.get("is_microservice", False)),
@@ -353,10 +360,10 @@ class V2VisionEngine:
                             analyst_results.append(item)
                 except: 
                     for l in batch: analyst_results.append(l)
-                await asyncio.sleep(1.0) # Increased wait between batches to absorb 429s
+                await asyncio.sleep(0.5) 
 
             # 1.2 Grounded-Track: Small Batches, WITH GROUNDING (Slower but precise)
-            BATCH_SIZE_GROUNDED = 10
+            BATCH_SIZE_GROUNDED = 5 # Reduced batch for grounding to avoid 429
             for i in range(0, len(grounded_track), BATCH_SIZE_GROUNDED):
                 batch = grounded_track[i:i+BATCH_SIZE_GROUNDED]
                 prompt = (
@@ -386,7 +393,7 @@ class V2VisionEngine:
                             analyst_results.append(item)
                 except: 
                     for l in batch: analyst_results.append(l)
-                await asyncio.sleep(2.0) # Grounding is heavy, more sleep needed
+                await asyncio.sleep(5.0) # Grounding is very expensive in terms of quota
 
             # --- AGENT PHASE 2: SELECTIVE AUDIT (MCP-Grounded) ---
             # Identify candidates for high-trust verification
