@@ -237,7 +237,22 @@ class V2VisionEngine:
         dynamic_mandates = get_system_mandates()
 
         # Mandate 15: Proactive Enrichment for V2 (GitHub metadata is critical for tags)
+        # To avoid duplicate logs and redundant API calls, we deduplicate unique GitHub repos first
         processed_gh_metadata = set()
+        for l in links:
+            norm_url = normalize_url(l["url"])
+            if "github.com" not in norm_url or self.render_only: continue
+            
+            cached = self.inventory.get(norm_url, {})
+            # Mandate 43: Always ensure GH metadata for GitHub links in V2 to power [DE FACTO STANDARD] logic
+            if (enrich_metadata or not cached.get("gh_stars")) and norm_url not in processed_gh_metadata:
+                log_event(f"  [METADATA] V2 Pulse: Fetching GH Activity for {norm_url}")
+                processed_gh_metadata.add(norm_url) # Add BEFORE await to block any (even theoretical) parallelism
+                gh_data = await get_github_activity(norm_url)
+                if gh_data:
+                    if norm_url not in self.inventory: self.inventory[norm_url] = {}
+                    self.inventory[norm_url].update(gh_data)
+
         for l in links:
             item = l.copy()
             norm_url = normalize_url(l["url"])
@@ -249,21 +264,9 @@ class V2VisionEngine:
                 match = re.search(r'github\.com/([^/]+/[^/]+)', norm_url)
                 if match: project_id = match.group(1).lower()
 
-            # Mandate 43: Always ensure GH metadata for GitHub links in V2 to power [DE FACTO STANDARD] logic
-            cached = self.inventory.get(norm_url, {})
-            if "github.com" in norm_url and not self.render_only and (enrich_metadata or not cached.get("gh_stars")):
-                if norm_url not in processed_gh_metadata:
-                    if not cached.get("gh_stars") or enrich_metadata:
-                        log_event(f"  [METADATA] V2 Pulse: Fetching GH Activity for {norm_url}")
-                        gh_data = await get_github_activity(norm_url)
-                        if gh_data:
-                            if norm_url not in self.inventory: self.inventory[norm_url] = {}
-                            self.inventory[norm_url].update(gh_data)
-                            item.update(gh_data)
-                    processed_gh_metadata.add(norm_url)
-                else:
-                    # Reuse what we just fetched in this run if it's already in inventory
-                    item.update(self.inventory.get(norm_url, {}))
+            # Reuse enriched metadata from inventory
+            if "github.com" in norm_url:
+                item.update(self.inventory.get(norm_url, {}))
 
             if not force_eval and norm_url in self.inventory and "stars" in self.inventory[norm_url]:
                 cached = self.inventory[norm_url]
