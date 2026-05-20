@@ -182,12 +182,15 @@ class V2VisionEngine:
         log_event(f"    [>] Fast-Track Health: {len(fast_online)} | Network-Check: {len(needs_check)}")
         
         online_links = list(fast_online)
+        total_needs = len(needs_check)
         async with httpx.AsyncClient(timeout=15.0, follow_redirects=True, verify=False) as client:
-            for i in range(0, len(needs_check), 50):
+            for i in range(0, total_needs, 50):
                 batch = needs_check[i:i+50]
                 tasks = [self._check_single_link_resilient(client, l) for l in batch]
                 results = await asyncio.gather(*tasks)
                 online_links.extend([r for r in results if r is not None])
+                if i % 100 == 0:
+                    log_event(f"    [>] Progress: [{i}/{total_needs}] links validated over network...")
                 await asyncio.sleep(0.1)
         return online_links
 
