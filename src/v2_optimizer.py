@@ -237,6 +237,7 @@ class V2VisionEngine:
         dynamic_mandates = get_system_mandates()
 
         # Mandate 15: Proactive Enrichment for V2 (GitHub metadata is critical for tags)
+        processed_gh_metadata = set()
         for l in links:
             item = l.copy()
             norm_url = normalize_url(l["url"])
@@ -251,13 +252,18 @@ class V2VisionEngine:
             # Mandate 43: Always ensure GH metadata for GitHub links in V2 to power [DE FACTO STANDARD] logic
             cached = self.inventory.get(norm_url, {})
             if "github.com" in norm_url and not self.render_only and (enrich_metadata or not cached.get("gh_stars")):
-                if not cached.get("gh_stars") or enrich_metadata:
-                    log_event(f"  [METADATA] V2 Pulse: Fetching GH Activity for {norm_url}")
-                    gh_data = await get_github_activity(norm_url)
-                    if gh_data:
-                        if norm_url not in self.inventory: self.inventory[norm_url] = {}
-                        self.inventory[norm_url].update(gh_data)
-                        item.update(gh_data)
+                if norm_url not in processed_gh_metadata:
+                    if not cached.get("gh_stars") or enrich_metadata:
+                        log_event(f"  [METADATA] V2 Pulse: Fetching GH Activity for {norm_url}")
+                        gh_data = await get_github_activity(norm_url)
+                        if gh_data:
+                            if norm_url not in self.inventory: self.inventory[norm_url] = {}
+                            self.inventory[norm_url].update(gh_data)
+                            item.update(gh_data)
+                    processed_gh_metadata.add(norm_url)
+                else:
+                    # Reuse what we just fetched in this run if it's already in inventory
+                    item.update(self.inventory.get(norm_url, {}))
 
             if not force_eval and norm_url in self.inventory and "stars" in self.inventory[norm_url]:
                 cached = self.inventory[norm_url]
