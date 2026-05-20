@@ -125,14 +125,14 @@ As of May 2026, Nubenetes has reached the **Platinum Operational Tier**, featuri
 ## 2. Repository Metrics and Evolution
 
 ### 2.1. The "Heart" of Nubenetes
-(Stats as of 2026-05-19)
+(Stats as of 2026-05-20)
 
 <!-- HEART_STATS_START -->
 | Metric | Value |
 | :--- | :--- |
 | **Total Technical Resources (Links)** | **15303+** |
 | **Specialized MD Pages** | **161** |
-| **Total Commits** | **4781+** |
+| **Total Commits** | **4784+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -170,12 +170,10 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 1222 | 5,046 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 1225 | 5,059 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
-<details><summary>🗺️ <b>View Diagram</b></summary>
-
 ```mermaid
 ---
 config:
@@ -188,11 +186,9 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume (Commits / Estimated New Refs)" 0 --> 9000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 5046]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1222]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 5059]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1225]
 ```
-
-</details>
 <!-- ANNUAL_CHART_END -->
 
 #### 2026: The Agentic Monthly Surge
@@ -200,7 +196,7 @@ xychart-beta
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
-| 2026-05 | 1197 | 4,943 | **Agentic Inception (Gemini Era)** |
+| 2026-05 | 1200 | 4,956 | **Agentic Inception (Gemini Era)** |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
@@ -211,8 +207,6 @@ Nubenetes uses AI-driven semantic clustering to organize its 17,000+ resources i
 This chart shows the high-level distribution across the primary domains of Cloud Native engineering.
 
 <!-- PILLAR_CHART_START -->
-<details><summary>🗺️ <b>View Diagram</b></summary>
-
 ```mermaid
 pie title Nubenetes Major Ecosystem Pillars
     "Kubernetes Ecosystem" : 3500
@@ -224,8 +218,6 @@ pie title Nubenetes Major Ecosystem Pillars
     "Security and DevSecOps" : 1000
     "Specialized Topics" : 903
 ```
-
-</details>
 <!-- PILLAR_CHART_END -->
 
 *   **Kubernetes Ecosystem:** Includes core K8s, tools, networking, security, and operators. This is the heart of the project, with over 3,500 curated references.
@@ -236,8 +228,6 @@ pie title Nubenetes Major Ecosystem Pillars
 Reflecting Nubenetes' mission of global access while maintaining technical English as the primary interface.
 
 <!-- SUB_ECO_CHART_START -->
-<details><summary>🗺️ <b>View Diagram</b></summary>
-
 ```mermaid
 pie title Linguistic Diversity (Global Access)
     "English" : 13772
@@ -245,8 +235,6 @@ pie title Linguistic Diversity (Global Access)
     "French" : 153
     "Others" : 459
 ```
-
-</details>
 <!-- SUB_ECO_CHART_END -->
 
 ---
@@ -574,8 +562,6 @@ Projected monthly budget for 24/7 autonomous maintenance.
 Achieves **>90% cost reduction** compared to full-Pro architectures by utilizing multi-tier caching, global concurrency semaphores, and structured batching.
 
 <!-- EFFICIENCY_CHART_START -->
-<details><summary>🗺️ <b>View Diagram</b></summary>
-
 ```mermaid
 ---
 config:
@@ -591,8 +577,6 @@ xychart-beta
     bar [75, 15, 10]
     bar [10, 25, 65]
 ```
-
-</details>
 <!-- EFFICIENCY_CHART_END -->
 
 ### 7.3. Economic Sustainability Principles
