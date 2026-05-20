@@ -252,6 +252,10 @@ class V2VisionEngine:
         # Bypassing GitHub UI limitation: If force_eval or force_full_check is ON, we must enrich metadata
         enrich_metadata = os.getenv("ENRICH_METADATA", "false").lower() == "true" or force_eval or force_full_check
         special_files = [sa["file"] for sa in self.special_assets_rules.get("special_assets", [])]
+        
+        # Mandate 47: Zero-Redundancy & Smart Grounding
+        from src.mandate_ingestor import get_system_mandates
+        dynamic_mandates = get_system_mandates()
 
         # Mandate 15: Proactive Enrichment for V2 (GitHub metadata is critical for tags)
         for l in links:
@@ -304,12 +308,11 @@ class V2VisionEngine:
             for l in to_evaluate:
                 nu = normalize_url(l["url"])
                 is_github = "github.com" in nu
-                desc_len = len(l.get("description", ""))
+                # We prioritize items that ALREADY have a valid description or stars
+                has_desc = len(l.get("description", "")) > 40
+                has_stars = l.get("gh_stars") is not None
                 
-                # Grounded-Track ONLY if:
-                # 1. GitHub link WITHOUT stars (Maturity unknown)
-                # 2. Non-GitHub link with very poor description (< 40 chars)
-                if (is_github and l.get("gh_stars") is None) or (not is_github and desc_len < 40):
+                if (is_github and not has_stars) or (not is_github and not has_desc):
                     grounded_track.append(l)
                 else:
                     fast_track.append(l)
