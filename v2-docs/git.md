@@ -137,7 +137,7 @@
   - [Git-flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [aprendegit.com: git-flow: la rama develop y uso de feature branches](http://aprendegit.com/git-flow-la-rama-develop-y-uso-de-feature-branches)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thinkinglabs.io: Feature Branching considered Evil](https://thinkinglabs.io/talks/2016/10/29/feature-branching-considered-evil.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [youtube: Git Flow Is A Bad Idea - Dave Farley ](https://www.youtube.com/watch?v=_w6TwnLCFwA&ab_channel=ContinuousDelivery)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [youtube: Git Flow Is A Bad Idea - Dave Farley](https://www.youtube.com/watch?v=_w6TwnLCFwA&ab_channel=ContinuousDelivery)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [team-coder.com: From Git Flow to Trunk Based Development](https://team-coder.com/from-git-flow-to-trunk-based-development)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [freecodecamp.org: What is Trunk Based Development? A Different Approach to the Software Development Lifecycle](https://www.freecodecamp.org/news/what-is-trunk-based-development)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [trunkbaseddevelopment.com: Alternative Branching Models](https://trunkbaseddevelopment.com/alternative-branching-models)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -342,7 +342,7 @@
   - [Jenkins-X UpdateBOT](https://github.com/jenkins-x/updatebot)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Plastic SCM](https://www.plasticscm.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.plasticscm.com: Add a mergebot to your repo!](http://blog.plasticscm.com/2018/09/add-mergebot-to-your-repo.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Plastic SCM DevOps Mergebot to implement a trunk-based development cycle ](https://github.com/PlasticSCM/trunk-mergebot)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Plastic SCM DevOps Mergebot to implement a trunk-based development cycle](https://github.com/PlasticSCM/trunk-mergebot)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [PlasticSCM MergeBot Jenkins Plugin](https://plugins.jenkins.io/plasticscm-mergebot)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [genbeta.com: Plastic SCM Mergebot: automatizando tu pipeline de desarrollo](https://www.genbeta.com/desarrollo/plastic-scm-mergebot-automatizando-tu-pipeline-desarrollo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github-rebase-bot](https://github.com/nicolai86/github-rebase-bot)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>

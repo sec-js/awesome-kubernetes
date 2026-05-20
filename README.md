@@ -25,14 +25,15 @@
 3.  [3. The Agentic Stack](#3-the-agentic-stack)
 4.  [4. The 2026 Architectural Shift](#4-the-2026-architectural-shift)
     *   [4.1. From Manual to Agentic](#41-from-manual-to-agentic)
-    *   [4.2. Evolution Path](#42-evolution-path)
+    *   [4.2. Hardened Architecture (2026)](#42-hardened-architecture-2026)
     *   [4.3. Adaptive AI Tiering and Real-time Grounding](#43-adaptive-ai-tiering-and-real-time-grounding)
     *   [4.4. Doc-as-Behavior Mandate Bridge](#44-doc-as-behavior-mandate-bridge)
 5.  [5. Dual-Edition Architecture (V1 vs V2)](#5-dual-edition-architecture-v1-vs-v2)
     *   [5.1. V1: The Exhaustive Archive](#51-v1-the-exhaustive-archive)
     *   [5.2. V2: The Agentic Elite Edition](#52-v2-the-agentic-elite-edition)
-    *   [5.3. The Incremental Elite Engine](#53-the-incremental-elite-engine)
-    *   [5.4. Multi-Language Support Policy](#54-multi-language-support-policy)
+    *   [5.3. Architecture Comparison Matrix: V1 vs. V2](#53-architecture-comparison-matrix-v1-vs-v2)
+    *   [5.4. The Incremental Elite Engine](#54-the-incremental-elite-engine)
+    *   [5.5. Multi-Language Support Policy](#55-multi-language-support-policy)
 6.  [6. The Unified Agentic Database (Knowledge Graph)](#6-the-unified-agentic-database-knowledge-graph)
     *   [6.1. Database Components](#61-database-components)
     *   [6.2. The 'Database-First' Reasoning Protocol](#62-the-database-first-reasoning-protocol)
@@ -49,7 +50,7 @@
     *   [7.6. Strategic Benefits](#76-strategic-benefits)
 8.  [8. The Agentic AI Engine](#8-the-agentic-ai-engine)
 9.  [9. GitHub Workflows and Automation](#9-github-workflows-and-automation)
-    *   [9.1. Workflow Inventory and Sequencing](#91-workflow-inventory-and-sequencing)
+    *   [9.1. Workflow Inventory and Manual Control Matrix](#91-workflow-inventory-and-manual-control-matrix)
     *   [9.2. Recommended Execution Pipeline](#92-recommended-execution-pipeline)
     *   [9.3. Workflow Trigger and Synchronization Logic](#93-workflow-trigger-and-synchronization-logic)
     *   [9.4. Curation Flow Architecture](#94-curation-flow-architecture)
@@ -110,8 +111,7 @@ In 2026, Nubenetes moved beyond manual curation to an **Agentic AI Architecture*
 - **Precision:** AI-driven scoring and technical classification.
 - **Sustainability:** Automated health checks and self-healing infrastructure.
 
-### 1.4. 2026 Agentic High-Fidelity Standards
-As of May 2026, Nubenetes has reached the **Platinum Operational Tier**, featuring:
+Additionally, as of May 2026, Nubenetes has reached the **Platinum Operational Tier**, featuring:
 - **Real-time Web Grounding (MCP)**: The AI engine cross-references all technical decisions with live web data to ensure near-human accuracy in link rescue and maturity verification.
 - **License & Compliance Guard**: Automated monitoring of repository licenses. Transitions from Open Source to restrictive models (e.g., BSL) trigger automatic penalties and review flags to protect architectural ethics.
 - **Social Proof & Reputation Filter**: Every new ingestion undergoes a "Vaporware Check" on community platforms (Reddit, Hacker News) to ensure only stable, reputable tools enter the archive.
@@ -379,7 +379,7 @@ To maintain the high-density quality of V2 without redundant AI costs, the `V2Vi
 3. **UI Polish**: Implements strategic highlighting (`==text==`) for top-tier resources and a clean chronological view that hides unknown dates.
 4. **Flat Routing**: Both versions use `use_directory_urls: false` to ensure relative asset paths (`images/`) remain stable across all sub-pages.
 
-### 5.4. Multi-Language Support Policy
+### 5.5. Multi-Language Support Policy
 To embrace the diverse global Cloud Native community while maintaining international discoverability, Nubenetes implements a dual-layer linguistic strategy powered by a **Data-First Architecture**:
 
 - **Linguistic Data Persistence**: Language detection is treated as a core metadata attribute. The centralized database ([`data/inventory.yaml`](data/inventory.yaml)) stores resources using specific fields:
@@ -423,6 +423,7 @@ To maintain a high-performance "Single Source of Truth", Nubenetes implements au
 - **High-Value Preservation (The 'Review Required' Rule)**: Resources identified as **High-Value** (marked with 🌟 or bold formatting) are exempt from automatic deletion. If rescue fails, they are marked as `status: review_required` for manual verification, ensuring no significant technical assets are lost during autonomous cleaning.
 
 #### 🕵️ Intelligent Cleaning Observability
+
 ```log
 # 1. PROGRESS TRACKING & PARALLEL EXECUTION
 [14:01:20] [*] Queue: 17110 links prioritized for validation.
@@ -534,6 +535,7 @@ graph TD
 Nubenetes utilizes a **Performance-First / Cost-Optimized** hybrid model.
 
 ### 7.1. Comprehensive Economic Projections (2026 Inception)
+
 | Scenario | Tier | Avg. Tokens/Link | Total Tokens (17k) | Est. Cost (EUR) | Est. Cost (USD) |
 | :--- | :--- | :---: | :---: | :---: | :---: |
 | **Max Quality** | 100% Gemini Pro | 2.2k | 37.6M | **€121.16** | **$131.70** |

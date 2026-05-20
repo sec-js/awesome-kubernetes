@@ -3,7 +3,7 @@ import re
 import subprocess
 import yaml
 from datetime import datetime
-from src.config import INVENTORY_PATH
+from src.inventory_manager import load_inventory
 
 # Unified Path Config
 V1_DIR = "docs"
@@ -24,11 +24,9 @@ def clean_text(text: str) -> str:
 def get_stats():
     # 1. Load Inventory (The Source of Truth)
     inventory = {}
-    if os.path.exists(INVENTORY_PATH):
-        try:
-            with open(INVENTORY_PATH, "r") as f:
-                inventory = yaml.safe_load(f) or {}
-        except: pass
+    try:
+        inventory = load_inventory()
+    except: pass
 
     # 2. Basic Metrics
     total_links = len([u for u in inventory.keys() if not u.startswith("INTRO:")])

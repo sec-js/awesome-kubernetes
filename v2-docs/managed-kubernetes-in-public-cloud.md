@@ -225,7 +225,7 @@
   - [dev.to: Practical Introduction to Kubernetes Autoscaling Tools with Linode Kubernetes Engine 🌟](https://dev.to/rahulrai/practical-introduction-to-kubernetes-autoscaling-tools-with-linode-kubernetes-engine-2i7k)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [docs.digitalocean.com: Kubernetes on DigitalOcean](https://docs.digitalocean.com/products/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [digitalocean.com: Automating GitOps and Continuous Delivery With DigitalOcean Kubernetes (Terraform, Helm and Flux)](https://www.digitalocean.com/community/tech-talks/automating-gitops-and-continuous-delivery-with-digitalocean-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [digitalocean.com: Kubernetes for startups: Why, when, and how to adopt  ](https://www.digitalocean.com/resources/articles/kubernetes-for-startups)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [digitalocean.com: Kubernetes for startups: Why, when, and how to adopt](https://www.digitalocean.com/resources/articles/kubernetes-for-startups)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [arnoldgalovics.com: GitHub Actions CI/CD For Oracle Cloud Kubernetes](https://arnoldgalovics.com/github-actions-oracle-cloud-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [learnk8s.io: Provisioning cloud resources (AWS, GCP, Azure) in Kubernetes](https://learnkube.com/cloud-resources-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubesphere.io](https://kubesphere.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -236,7 +236,7 @@
   - [youtube: Create a Jenkins Pipeline on Kubernetes with CI/CD Pipeline Template in KubeSphere](https://www.youtube.com/watch?v=MU5LdM83x9s&t=40s&ab_channel=KubeSphere)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: KubeSphere: A New Pluggable Kubernetes Application Management Platform](https://itnext.io/kubesphere-a-new-pluggable-kubernetes-application-management-platform-bf078b9f3330)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Giant Swarm](https://www.giantswarm.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [giantswarm.io: ](https://www.giantswarm.io/blog/turtles-all-the-way-down-are-still-just-turtles-giant-swarm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [giantswarm.io](https://www.giantswarm.io/blog/turtles-all-the-way-down-are-still-just-turtles-giant-swarm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Compare tools for multi-cloud Kubernetes management 🌟](https://www.techtarget.com/searchcloudcomputing/tip/Compare-tools-for-multi-cloud-Kubernetes-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ***
