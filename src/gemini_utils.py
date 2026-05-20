@@ -313,7 +313,7 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                 
                 async with httpx.AsyncClient() as client:
                     for model in models:
-                        if THROTTLED_MODELS.get(model, 0) > time.time():
+                        if THROTTLED_MODELS.get(f"{current_idx}_{model}", 0) > time.time():
                             continue
 
                         full_model_name = f"models/{model}"
@@ -359,13 +359,10 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                                 
                             elif response.status_code == 429:
                                 consecutive_429s += 1
-                                if consecutive_429s >= 5:
-                                    log_event("  [!] QUOTA EXHAUSTED: All keys and models rate-limited. Triggering Tenacity backoff...")
-                                    raise GeminiQuotaExhausted("All models returned 429")
                                 
                                 # 2. ADAPTIVE TIERING: Mark this specific model as throttled
                                 throttle_duration = 30 if "pro" in model else 15
-                                THROTTLED_MODELS[model] = time.time() + throttle_duration
+                                THROTTLED_MODELS[f"{current_idx}_{model}"] = time.time() + throttle_duration
                                 
                                 # 3. GLOBAL THROTTLING: Slow down entire engine
                                 GLOBAL_COOLDOWN_UNTIL = time.time() + 3.0 
@@ -397,4 +394,5 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
             log_event(f"  [!] Exhausted tier options in round {attempt_round+1}. Cooling down {wait_round}s...")
             await asyncio.sleep(wait_round)
 
-    raise Exception(f"Critical Gemini failure after adaptive tiering.\n{diagnostics.get_report()}")
+    log_event("  [!] QUOTA EXHAUSTED: All keys and models rate-limited. Triggering Tenacity backoff...")
+    raise GeminiQuotaExhausted(f"Critical Gemini failure after adaptive tiering.\n{diagnostics.get_report()}")
