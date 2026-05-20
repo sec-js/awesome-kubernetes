@@ -505,7 +505,7 @@ class V2VisionEngine:
 
     async def _write_premium_files(self, data: Dict[str, Dict], mosaic_html: str, videos_html: str):
         # 1. Update Index with Pulse
-        trending_pool = sorted([dict(meta, url=url) for url, meta in self.inventory.items() if meta.get("stars", 0) >= 4], key=lambda x: (x.get("pub_date", "0000"), -x.get("stars", 0)), reverse=True)
+        trending_pool = sorted([dict(meta, url=url) for url, meta in self.inventory.items() if isinstance(meta, dict) and meta.get("stars", 0) >= 4], key=lambda x: (x.get("pub_date", "0000"), -x.get("stars", 0)), reverse=True)
         pulse_md = "## ⚡ The Agentic Pulse\n" + "\n".join([f"- **({l.get('pub_date', 'N/A')[:10]})** [**=={l['title']}==**]({l['url']}) {'🌟'*l.get('stars',3)}" for l in trending_pool[:5]])
         
         index_md = (
@@ -678,7 +678,7 @@ if __name__ == "__main__":
     
     # 1. High-Density Metrics Calculation
     total_v1_links = len(engine.inventory)
-    v2_links = [l for l in engine.inventory.values() if l.get('v2_locations')]
+    v2_links = [l for l in engine.inventory.values() if isinstance(l, dict) and l.get('v2_locations')]
     total_v2_links = len(v2_links)
     
     # Delta & Efficiency
