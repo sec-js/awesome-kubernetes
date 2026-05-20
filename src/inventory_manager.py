@@ -13,9 +13,20 @@ def get_shard_name(url: str) -> str:
 
 def load_inventory(shard_file: str = None) -> Dict:
     """
-    Loads the entire inventory, or a specific shard if shard_file is provided.
+    Loads the entire inventory. 
+    Mandate 47 Optimization: Always loads the legacy data/inventory.yaml first as a global base
+    to ensure Fast-Track context is available even in sharded runs.
     """
     inv = {}
+    
+    # 1. Load Legacy Global Base (Crucial for context)
+    if os.path.exists("data/inventory.yaml"):
+        try:
+            with open("data/inventory.yaml", "r") as file:
+                inv = yaml.safe_load(file) or {}
+        except: pass
+
+    # 2. Overwrite with Sharded data if exists
     if shard_file:
         path = os.path.join(INVENTORY_DIR, shard_file)
         if os.path.exists(path):
@@ -26,6 +37,7 @@ def load_inventory(shard_file: str = None) -> Dict:
             except: pass
         return inv
 
+    # 3. Load all shards into base
     if os.path.exists(INVENTORY_DIR):
         for f in os.listdir(INVENTORY_DIR):
             if f.endswith('.yaml'):
@@ -34,10 +46,7 @@ def load_inventory(shard_file: str = None) -> Dict:
                         shard_data = yaml.safe_load(file) or {}
                         inv.update(shard_data)
                 except: pass
-    elif os.path.exists("data/inventory.yaml"):
-        # Legacy fallback
-        try: return yaml.safe_load(open("data/inventory.yaml", "r")) or {}
-        except: pass
+                
     return inv
 
 def save_inventory(inv: Dict, shard_file: str = None):
