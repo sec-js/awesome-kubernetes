@@ -315,10 +315,9 @@ To ensure maximum throughput and industrial-grade precision, Nubenetes uses a pr
 - **Multi-Agent Analyst-Auditor Workflow**: Evaluation is split between a **Technical Analyst** (Flash model) for initial classification and a specialized **Elite Auditor** (Pro model) for selective verification of high-impact resources.
 - **Double-Evidence Synthesis Protocol**: Agents are mandated to contrast 'Curator Insight' (from original discovery) with 'Live Technical Grounding' (from search/MCP) before finalizing any technical summary.
 - **Real-time Web Grounding (MCP-Style)**: For high-fidelity tasks, the engine activates **Google Search Grounding**. This allows the AI to verify technical maturity, site migrations, and official documentation in real-time, providing a live data filter for all decisions.
-- **Smart Batching (Anti-429)**: Instead of individual calls, the system groups up to **10 resources into high-precision batches**. This optimizes grounding efficiency and minimizes rate limits.
+- **Smart Batching (Anti-429)**: Instead of individual calls, the system groups up to **25 resources into high-precision batches**. This optimizes grounding efficiency and minimizes rate limits.
 - **Dynamic Model Selection**: The system automatically toggles between **Gemini Pro** (for auditing and research) and **Gemini Flash** (for broad analysis).
 - **Global Back-off & Tier-down**: Automatic exponential back-off and model tier-down logic to ensure 100% workflow resilience.
-- **Shard Concurrency Limiting**: Uses `max-parallel: 3` across workflow matrices to strictly throttle concurrent requests and prevent immediate 429 Quota Exhaustion against single "Pay-As-You-Go" API keys.
 - **Ultra-Fast V2 Render Mode**: The final `render-and-pr` stage bypasses redundant HTTP health checks, GitHub API metadata fetching, and AI agent evaluation loops by leveraging the pre-computed YAML inventory to assemble the portal instantaneously.
 ### 4.4. Doc-as-Behavior Mandate Bridge
 Nubenetes implements a direct bridge between documentation and AI behavior:
@@ -672,10 +671,10 @@ The heart of the new Nubenetes is a suite of AI Agents that operate on our `deve
     - **V1 Integrity:** Focuses on link validity (removing 404s) to ensure the exhaustive V1 archive remains accessible.
     - **Transparency:** Provides detailed, real-time unbuffered logging of all cleaning operations.
 4.  **Resilient Architecture Core**:
-    - **Exponential Backoff:** Intelligent `tenacity`-based retry logic in `gemini_utils.py` gracefully handles 429 Rate Limits before triggering the Circuit Breaker.
-    - **64-Matrix Sharding:** The V2 Portal Generation and Link Health workflows distribute load across 64 parallel runners to bypass execution timeouts.
-    - **Pip Caching:** All workflows utilize `cache: pip` for lightning-fast execution and reduced compute costs.
-    - **AI PR Guardian:** Enforces the `PULL_REQUEST_TEMPLATE.md` checklist automatically on community contributions.
+    - **Exponential Backoff**: Intelligent `tenacity`-based retry logic in `gemini_utils.py` gracefully handles 429 Rate Limits before triggering the Circuit Breaker.
+    - **Fast-Track Sequential Model**: Optimized for stability and speed, bypassing the complexity of distributed systems.
+    - **Pip Caching**: All workflows utilize `cache: pip` for lightning-fast execution and reduced compute costs.
+    - **AI PR Guardian**: Enforces the `PULL_REQUEST_TEMPLATE.md` checklist automatically on community contributions.
 
 ---
 
@@ -689,8 +688,8 @@ Nubenetes features a comprehensive suite of workflows that can be controlled man
 | # | Workflow / UI Interface | Source Code | Manual Control & Form Inputs | Default Behavior |
 | :---: | :--- | :--- | :--- | :--- |
 | **1** | **[Agentic Curation](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_cron.yml)** | [`.github/workflows/agentic_cron.yml`](.github/workflows/agentic_cron.yml) | • **`start_date`**: YYYY-MM-DD.<br/>• **`days_back`**: Relative range.<br/>• **`include_...`**: Domain toggles (K8s, AI, Cloud, etc).<br/>• **`exclude_accounts`**: Comma-separated list.<br/>• **`extraction_strategy`**: Search vs Scroll.<br/>• **`historical_mode`**: Bypass limits.<br/>• **`historical_chunked`**: Recursive execution.<br/>• **`historical_until_date`**: Chunk limit.<br/>• **`activate_backup_key`**: Identity rotation. | Monthly Discovery (Circuit Breaker Enabled) |
-| **2** | **[V2 Elite Builder](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_builder.yml)** | [`.github/workflows/agentic_v2_builder.yml`](.github/workflows/agentic_v2_builder.yml) | • **`force_reevaluate`**: Ignore AI cache.<br/>• **`enrich_metadata`**: Fetch stars/license.<br/>• **`activate_backup_key`**: Identity rotation. | Auto-Sync (64-Matrix Shards) |
-| **3** | **[Link Health Check](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/intelligent_link_cleaner.yml)** | [`.github/workflows/intelligent_link_cleaner.yml`](.github/workflows/intelligent_link_cleaner.yml) | • **`force_full_check`**: Bypasses 21-day cache. | Quarterly Cleanup (64-Matrix Shards) |
+| **2** | **[V2 Elite Builder](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_builder.yml)** | [`.github/workflows/agentic_v2_builder.yml`](.github/workflows/agentic_v2_builder.yml) | • **`force_reevaluate`**: Ignore AI cache.<br/>• **`enrich_metadata`**: Fetch stars/license.<br/>• **`activate_backup_key`**: Identity rotation. | Auto-Sync (Sequential Fast-Track) |
+| **3** | **[Link Health Check](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/intelligent_link_cleaner.yml)** | [`.github/workflows/intelligent_link_cleaner.yml`](.github/workflows/intelligent_link_cleaner.yml) | • **`force_full_check`**: Bypasses 21-day cache. | Quarterly Cleanup (Sequential Fast-Track) |
 | **4** | **[Backup Curation](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_backup.yml)** | [`.github/workflows/agentic_backup.yml`](.github/workflows/agentic_backup.yml) | • **`backup_file`**: Path to JSON/MD.<br/>• **`historical_mode`**: Force evaluation. | On-Demand |
 | **5** | **[README Sync](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/readme_sync.yml)** | [`.github/workflows/readme_sync.yml`](.github/workflows/readme_sync.yml) | *(No manual inputs)* | Push to `develop` |
 | **6** | **[Critical Monitor](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/critical_asset_monitor.yml)** | [`.github/workflows/critical_asset_monitor.yml`](.github/workflows/critical_asset_monitor.yml) | *(No manual inputs)* | 3-Month Pulse |
@@ -893,8 +892,8 @@ To maintain transparency and ease of navigation, all key configuration, database
 
 ### 13.3. Autonomous Workflows
 - **Discovery & Curation:** [`.github/workflows/agentic_cron.yml`](.github/workflows/agentic_cron.yml)
-- **V2 Elite Builder:** [`.github/workflows/agentic_v2_builder.yml`](.github/workflows/agentic_v2_builder.yml) — Generates the Elite curated portal using **64-Matrix Sharding** for parallel execution. Supports `force_reevaluate` (refreshes AI scores) and `enrich_metadata` (fetches real-time GitHub stars/license data).
-- **Health & Maintenance:** [`.github/workflows/intelligent_link_cleaner.yml`](.github/workflows/intelligent_link_cleaner.yml)
+- **V2 Elite Builder:** [`.github/workflows/agentic_v2_builder.yml`](.github/workflows/agentic_v2_builder.yml) — Generates the Elite curated portal using a sequential **Fast-Track** execution. Supports `force_reevaluate` (refreshes AI scores) and `enrich_metadata` (fetches real-time GitHub stars/license data).
+- **Health & Maintenance:** [`.github/workflows/intelligent_link_cleaner.yml`](.github/workflows/intelligent_link_cleaner.yml) — Performs sequential health checks and inventory reduction.
 - **README Metrics Sync:** [`.github/workflows/readme_sync.yml`](.github/workflows/readme_sync.yml)
 - **Deployment Pipeline:** [`.github/workflows/main.yml`](.github/workflows/main.yml) — Native GitHub Pages deployment using artifacts and pip caching.
 
