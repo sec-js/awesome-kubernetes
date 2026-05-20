@@ -100,7 +100,10 @@ class V2VisionEngine:
         log_event(f"[*] Discovery: Found {len(all_v1_links)} resources to process.")
 
         log_event("[*] Phase 1: Health Check...")
-        health_inventory = await self._verify_link_health(all_v1_links)
+        if self.render_only:
+            health_inventory = [l for l in all_v1_links if self.inventory.get(normalize_url(l["url"]), {}).get("status") == "online"]
+        else:
+            health_inventory = await self._verify_link_health(all_v1_links)
         
         log_event("[*] Phase 2: Evaluation & Deep Indexing (Semantic Dedup)...")
         library_inventory = await self._evaluate_and_score_resources(health_inventory)
@@ -245,7 +248,7 @@ class V2VisionEngine:
 
             # Mandate 43: Always ensure GH metadata for GitHub links in V2 to power [DE FACTO STANDARD] logic
             cached = self.inventory.get(norm_url, {})
-            if "github.com" in norm_url and (enrich_metadata or not cached.get("gh_stars")):
+            if "github.com" in norm_url and not self.render_only and (enrich_metadata or not cached.get("gh_stars")):
                 if not cached.get("gh_stars") or enrich_metadata:
                     log_event(f"  [METADATA] V2 Pulse: Fetching GH Activity for {norm_url}")
                     gh_data = await get_github_activity(norm_url)
@@ -273,7 +276,7 @@ class V2VisionEngine:
                     continue
             to_evaluate.append(item)
 
-        if to_evaluate:
+        if to_evaluate and not self.render_only:
             # Mandate 32 & 40: Smaller batches (10) for high-precision tagging and grounding efficiency
             BATCH_SIZE = 10
             from src.mandate_ingestor import get_system_mandates
