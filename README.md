@@ -318,7 +318,8 @@ To ensure maximum throughput and industrial-grade precision, Nubenetes uses a pr
 - **Smart Batching (Anti-429)**: Instead of individual calls, the system groups up to **10 resources into high-precision batches**. This optimizes grounding efficiency and minimizes rate limits.
 - **Dynamic Model Selection**: The system automatically toggles between **Gemini Pro** (for auditing and research) and **Gemini Flash** (for broad analysis).
 - **Global Back-off & Tier-down**: Automatic exponential back-off and model tier-down logic to ensure 100% workflow resilience.
-
+- **Shard Concurrency Limiting**: Uses `max-parallel: 3` across workflow matrices to strictly throttle concurrent requests and prevent immediate 429 Quota Exhaustion against single "Pay-As-You-Go" API keys.
+- **Ultra-Fast V2 Render Mode**: The final `render-and-pr` stage bypasses redundant HTTP health checks, GitHub API metadata fetching, and AI agent evaluation loops by leveraging the pre-computed YAML inventory to assemble the portal instantaneously.
 ### 4.4. Doc-as-Behavior Mandate Bridge
 Nubenetes implements a direct bridge between documentation and AI behavior:
 - **Mandate Ingestion**: At the start of every workflow, the `MandateIngestor` parses the natural language instructions in [`GEMINI.md`](GEMINI.md).
