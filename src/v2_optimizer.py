@@ -186,10 +186,29 @@ class V2VisionEngine:
         return all_links, mosaic_html, videos_html
 
     async def _verify_link_health(self, links: List[Dict]):
-        online_links = []
+        force_full = os.getenv("FORCE_FULL_CHECK", "false").lower() == "true"
+        fast_online = []
+        needs_check = []
+        
+        for l in links:
+            nu = normalize_url(l["url"])
+            entry = self.inventory.get(nu, {})
+            # Mandate 32: skip links under review
+            if entry.get("status") == "review_required": continue
+            
+            if not force_full and entry.get("status") == "online":
+                fast_online.append(l)
+            else:
+                needs_check.append(l)
+                
+        if not needs_check: return fast_online
+
+        log_event(f"    [>] Fast-Track Health: {len(fast_online)} | Network-Check: {len(needs_check)}")
+        
+        online_links = list(fast_online)
         async with httpx.AsyncClient(timeout=15.0, follow_redirects=True, verify=False) as client:
-            for i in range(0, len(links), 50):
-                batch = links[i:i+50]
+            for i in range(0, len(needs_check), 50):
+                batch = needs_check[i:i+50]
                 tasks = [self._check_single_link_resilient(client, l) for l in batch]
                 results = await asyncio.gather(*tasks)
                 online_links.extend([r for r in results if r is not None])
@@ -277,29 +296,67 @@ class V2VisionEngine:
             to_evaluate.append(item)
 
         if to_evaluate and not self.render_only:
-            # Mandate 32 & 40: Smaller batches (10) for high-precision tagging and grounding efficiency
-            BATCH_SIZE = 10
+            # Mandate 47: Zero-Redundancy & Smart Grounding
             from src.mandate_ingestor import get_system_mandates
             dynamic_mandates = get_system_mandates()
-
+            
+            # Split into Fast-Track (Metadata present) vs Grounded-Track (Needs search)
+            fast_track = [l for l in to_evaluate if l.get("gh_stars") is not None]
+            grounded_track = [l for l in to_evaluate if l.get("gh_stars") is None]
+            
             log_event(f"[*] Agent Phase 1: Analyst Evaluation ({len(to_evaluate)} resources)...")
+            log_event(f"    [>] Fast-Track: {len(fast_track)} | Grounded-Track: {len(grounded_track)}")
+            
             analyst_results = []
-            for i in range(0, len(to_evaluate), BATCH_SIZE):
-                batch = to_evaluate[i:i+BATCH_SIZE]
-                
-                # Analyst Prompt (Focus: Classification & High-Density Synthesis)
+            
+            # 1.1 Fast-Track: Large Batches, NO GROUNDING (Fast)
+            BATCH_SIZE_FAST = 25
+            for i in range(0, len(fast_track), BATCH_SIZE_FAST):
+                batch = fast_track[i:i+BATCH_SIZE_FAST]
                 prompt = (
                     f"You are the Nubenetes Technical Analyst (2026).\n"
                     f"{dynamic_mandates}\n"
                     f"{self.library_criteria}\n"
-                    "PHASE 5: DOUBLE-EVIDENCE SYNTHESIS & RICH SUMMARY\n"
-                    "- Cross-reference the provided title/desc with your internal knowledge and search grounding.\n"
-                    "- Provide a 'summary' that is technical and dense. Identify the core architectural 'WHY'.\n"
-                    "Respond ONLY JSON: {{\"results\": [{{ \"idx\": int, \"year\": \"YYYY\", \"stars\": 0-5, \"hierarchy\": [\"Area\", \"Topic\", ...], \"tags\": [\"...\"], \"summary\": \"Synthesis of evidence...\", \"language\": \"...\", \"type\": \"...\", \"complexity\": \"...\", \"is_microservice\": bool }}, ...]}}\n\n"
+                    "PHASE 5: TECHNICAL SYNTHESIS (FAST-TRACK)\n"
+                    "- Use provided metadata (GH Stars, License) to classify maturity.\n"
+                    "Respond ONLY JSON: {{\"results\": [{{ \"idx\": int, \"year\": \"YYYY\", \"stars\": 0-5, \"hierarchy\": [\"Area\", \"Topic\", ...], \"tags\": [\"...\"], \"summary\": \"Synthesis...\", \"language\": \"...\", \"type\": \"...\", \"complexity\": \"...\", \"is_microservice\": bool }}, ...]}}\n\n"
+                    "LINKS:\n" + "\n".join([f"{idx}. {l['title']} ({l['url']}) | GH Stars: {l.get('gh_stars')} | Desc: {l.get('description')}" for idx, l in enumerate(batch)])
+                )
+                try:
+                    data = await call_gemini_with_retry(prompt, prefer_flash=True, use_grounding=False, role="Analyst-Fast")
+                    for res in data.get("results", []):
+                        idx = int(res["idx"])
+                        if idx < len(batch):
+                            item = batch[idx].copy()
+                            eval_data = {
+                                "year": str(res.get("year", "N/A")), "stars": min(max(int(res.get("stars", 0)), 0), 5),
+                                "ai_summary": res.get("summary", ""), "language": res.get("language", "English"),
+                                "resource_type": res.get("type", "Reference"), "complexity": res.get("complexity", "Intermediate"),
+                                "hierarchy": res.get("hierarchy", ["General"]), "tags": res.get("tags", []),
+                                "is_microservice": bool(res.get("is_microservice", False)),
+                                "status": "online", "is_special": item.get("is_special", False)
+                            }
+                            item.update(eval_data)
+                            analyst_results.append(item)
+                except: 
+                    for l in batch: analyst_results.append(l)
+                await asyncio.sleep(0.1)
+
+            # 1.2 Grounded-Track: Small Batches, WITH GROUNDING (Slower but precise)
+            BATCH_SIZE_GROUNDED = 10
+            for i in range(0, len(grounded_track), BATCH_SIZE_GROUNDED):
+                batch = grounded_track[i:i+BATCH_SIZE_GROUNDED]
+                prompt = (
+                    f"You are the Nubenetes Technical Analyst (2026).\n"
+                    f"{dynamic_mandates}\n"
+                    f"{self.library_criteria}\n"
+                    "PHASE 5: DOUBLE-EVIDENCE SYNTHESIS & RICH SUMMARY (GROUNDED)\n"
+                    "- Cross-reference provided title/desc with search grounding.\n"
+                    "Respond ONLY JSON: {{\"results\": [{{ \"idx\": int, \"year\": \"YYYY\", \"stars\": 0-5, \"hierarchy\": [\"Area\", \"Topic\", ...], \"tags\": [\"...\"], \"summary\": \"Synthesis...\", \"language\": \"...\", \"type\": \"...\", \"complexity\": \"...\", \"is_microservice\": bool }}, ...]}}\n\n"
                     "LINKS:\n" + "\n".join([f"{idx}. {l['title']} ({l['url']})" for idx, l in enumerate(batch)])
                 )
                 try:
-                    data = await call_gemini_with_retry(prompt, prefer_flash=True, use_grounding=True, role="Analyst")
+                    data = await call_gemini_with_retry(prompt, prefer_flash=True, use_grounding=True, role="Analyst-Grounded")
                     for res in data.get("results", []):
                         idx = int(res["idx"])
                         if idx < len(batch):
