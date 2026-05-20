@@ -46,8 +46,8 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **Flat Asset Routing**: To avoid depth-related path breakage, both V1 (`mkdocs.yml`) and V2 (`v2-mkdocs.yml`) MUST have `use_directory_urls: false`. This ensures relative paths (e.g., `images/img.png`) resolve correctly regardless of the page depth.
 20. **V2 Navigation Design**: The V2 top navigation bar MUST maintain a flat structure. All dimensions and categories must be top-level tabs in `v2-mkdocs.yml` to ensure direct discoverability and avoid nested groupings like "Categories".
 21. **V2 Impact-Driven Sorting**: The V2 portal MUST prioritize **relevance (Impact) over dates** within sections to provide high-density technical value. Sorting MUST follow: 1. Stars/Relevance (DESC), 2. Year (DESC). The mission statement and descriptions MUST reflect this impact-driven synthesis.
-22. **Unified Metadata Database (Directory Sharding)**: All link metadata MUST be managed via the centralized directory [`data/inventory/`](data/inventory/).
-    - **Deterministic Hash Sharding**: To bypass GitHub Action matrix limits and prevent race conditions, the inventory is sharded into exactly 64 YAML files (`shard_00.yaml` to `shard_63.yaml`) based on an MD5 hash of the normalized URL modulo 64.
+22. **Unified Metadata Database (Fast-Track Single-File)**: All link metadata MUST be managed via the centralized file [`data/inventory.yaml`](data/inventory.yaml).
+    - **Monolithic Efficiency**: To maintain simplicity and speed in the "Fast-Track" mode, the inventory is kept as a single, high-density YAML file. This avoids the overhead of sharding and matrix management for standard runs.
     - **Scalable Multiline Support**: The inventory utilizes **YAML Block Scalars (`|`)** for fields like `ai_summary`, enabling the storage of complex technical summaries with paragraphs and bullet points without breaking the database structure.
     - **Platinum Lifecycle Metadata**: The inventory MUST track advanced engineering fields to empower context-aware automation:
         *   `content_hash`: SHA256 fingerprint to detect silent content updates.
@@ -296,9 +296,8 @@ The bot must rotate between profiles to avoid detection:
     - **MkDocs Features Enabled**: Activated native Privacy Plugin (GDPR compliance), Pruned Navigation (performance), Social Cards in V1, Code Copy, Tab Sync, and Tooltips.
     - **Announce Banner**: Added a global announcement banner to V1 directing users to the V2 Elite Portal.
     - **Resilient Architectural Refinements (Phase 2)**:
-        - **Matrix Sharding for V2 Elite Builder**: Transformed `agentic_v2_builder.yml` to utilize a 64-node Matrix Strategy, parallelizing the massive AI evaluation phase and eliminating 6-hour timeouts or rate-limit crashes.
+        - **Fast-Track V2 Elite Builder**: Optimized the builder to run sequentially for maximum stability and simplicity, bypassing the overhead of distributed systems.
         - **Pip Caching**: Implemented `cache: pip` across all 5 workflows to drastically reduce startup times and compute minutes.
         - **Contribution Template (PR Guardian)**: Enforced strict GEMINI mandate compliance at the PR creation stage via `PULL_REQUEST_TEMPLATE.md`.
         - **Exponential Backoff Resilience**: Upgraded the `call_gemini_with_retry` engine with the `tenacity` library, allowing intelligent pausing (4s, 8s, 16s) to gracefully absorb 429 Rate Limits before triggering the ultimate exit code 42 Circuit Breaker.
-        - **Shard Concurrency Limiting**: Implemented `max-parallel: 3` across all shard-based matrices (`agentic_v2_builder.yml` and `intelligent_link_cleaner.yml`) to strictly throttle concurrent API requests, preventing immediate 429 Quota Exhaustion against single "Pay-As-You-Go" API keys.
         - **Ultra-Fast V2 Render Mode**: Optimized the `render-and-pr` stage of the V2 pipeline (`--render-only`) to implement an absolute short-circuit, completely bypassing redundant HTTP health checks, GitHub API metadata fetching, and AI agent evaluation loops. This leverages the pre-computed YAML inventory to assemble the portal instantaneously.

@@ -14,9 +14,9 @@ def main():
     dead_links = {}
     full_report_metrics = []
     
-    # Read all shard JSON artifacts
+    # Read all shard JSON artifacts (supports both sharded and single-file result)
     for f in os.listdir("."):
-        if f.startswith("shard_result_") and f.endswith(".json"):
+        if f.startswith("shard_result") and f.endswith(".json"):
             try:
                 data = json.load(open(f, "r"))
                 inventory.update(data.get("inventory_updates", {}))
@@ -62,15 +62,12 @@ def main():
     final_payload = {p: "".join([l for l in lines if l is not None]) for p, lines in file_updates.items()}
     final_payload["data/inventory.yaml"] = None
     
-    # Save the updated shards to disk
+    # Save the updated inventory to disk
     save_inventory(inventory)
     
-    # Add shards to payload
-    for root, _, files in os.walk("data/inventory"):
-        for f in files:
-            if f.endswith(".yaml"):
-                path = os.path.join(root, f)
-                final_payload[path] = open(path, "r").read()
+    # Add main inventory to payload (Fast-Track Single-File)
+    if os.path.exists("data/inventory.yaml"):
+        final_payload["data/inventory.yaml"] = open("data/inventory.yaml", "r").read()
 
     metrics = {"full_report": full_report_metrics, "end_date": datetime.now().isoformat()}
     

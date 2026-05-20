@@ -6,7 +6,7 @@ import yaml
 import httpx
 from datetime import datetime
 from typing import List, Dict, Set, Any, Tuple
-from src.config import GEMINI_API_KEYS, GH_TOKEN, TARGET_REPO, MADRID_TZ, INVENTORY_DIR
+from src.config import GEMINI_API_KEYS, GH_TOKEN, TARGET_REPO, MADRID_TZ, INVENTORY_PATH
 from src.gemini_utils import call_gemini_with_retry, normalize_url, clean_toc_text, get_github_activity
 from src.logger import log_event
 
@@ -14,8 +14,7 @@ V1_DIR = "docs"
 V2_DIR = "v2-docs"
 
 class V2VisionEngine:
-    def __init__(self, shard_index: int = None, render_only: bool = False):
-        self.shard_index = shard_index
+    def __init__(self, render_only: bool = False):
         self.render_only = render_only
         # Load Config & Policy
         self.special_assets_rules = self._load_special_assets()
@@ -91,12 +90,6 @@ class V2VisionEngine:
 
         all_v1_links, mosaic_html, videos_html = await self._gather_all_v1_content()
         
-        # Matrix Sharding Filter
-        if self.shard_index is not None:
-            from src.inventory_manager import get_shard_name
-            shard_file = f"shard_{self.shard_index:02d}.yaml"
-            all_v1_links = [l for l in all_v1_links if get_shard_name(l['url']) == shard_file]
-            
         log_event(f"[*] Discovery: Found {len(all_v1_links)} resources to process.")
 
         log_event("[*] Phase 1: Health Check...")
@@ -107,23 +100,6 @@ class V2VisionEngine:
         
         log_event("[*] Phase 2: Evaluation & Deep Indexing (Semantic Dedup)...")
         library_inventory = await self._evaluate_and_score_resources(health_inventory)
-
-        if self.shard_index is not None:
-            self._save_inventory()
-            with open(f"v2_shard_result_{self.shard_index:02d}.json", "w") as f:
-                json.dump({"maturity_audit": self.maturity_audit}, f)
-            log_event(f"SHARD {self.shard_index} COMPLETE. Exiting early.", section_break=True)
-            return
-            
-        if self.render_only:
-            # Reconstruct maturity_audit from shard artifacts
-            self.maturity_audit = []
-            for f in os.listdir("."):
-                if f.startswith("v2_shard_result_") and f.endswith(".json"):
-                    try:
-                        data = json.load(open(f, "r"))
-                        self.maturity_audit.extend(data.get("maturity_audit", []))
-                    except: pass
 
         log_event("[*] Phase 3: Recursive Hierarchy Construction...")
         v2_data = await self._rebuild_structure(library_inventory)
@@ -737,17 +713,11 @@ class V2VisionEngine:
 import argparse
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--shard-index", type=int, default=None)
-    parser.add_argument("--total-shards", type=int, default=64)
     parser.add_argument("--render-only", action="store_true")
     args = parser.parse_args()
 
-    engine = V2VisionEngine(shard_index=args.shard_index, render_only=args.render_only)
+    engine = V2VisionEngine(render_only=args.render_only)
     asyncio.run(engine.analyze_and_cluster())
-    
-    if args.shard_index is not None:
-        import sys
-        sys.exit(0)
     
     # --- PLATINUM GITOPS REPORTING (Multi-Comment) ---
     from src.gitops_manager import RepositoryController

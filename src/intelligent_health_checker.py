@@ -189,6 +189,37 @@ class IntelligentLinkCleaner:
 
         await self.apply_changes()
 
+    async def apply_changes(self):
+        # Export JSON artifact for the reducer instead of applying Git changes directly
+        output_payload = {
+            "shard_index": self.shard_index,
+            "inventory_updates": self.inventory,
+            "dead_links": self.dead_links,
+            "full_report_metrics": self.full_report_metrics
+        }
+        
+        out_name = f"shard_result_{self.shard_index:02d}.json" if self.shard_index is not None else "shard_result.json"
+        with open(out_name, "w") as f:
+            json.dump(output_payload, f, indent=2)
+            
+        log_event(f"EXPORTED SHARD RESULTS TO {out_name}", section_break=True)
+        
+        # --- AUTOMATED TRIAGE REPORT GENERATION ---
+        triage_links = []
+        for url, meta in self.inventory.items():
+            if meta.get('status') == 'review_required':
+                triage_links.append({"url": url, "stars": meta.get('stars', 0), "desc": meta.get('description', 'N/A')})
+        
+        if triage_links:
+            # Sort by stars (impact) DESC
+            triage_links.sort(key=lambda x: x['stars'], reverse=True)
+            with open("triage_report.md", "w") as f:
+                f.write(f"### 🚨 Manual Triage Required ({len(triage_links)} High-Value Links)\n\n")
+                f.write("The following resources were flagged for manual review because they failed health checks but are considered high-value assets.\n\n")
+                f.write("| Impact | Resource | Description |\n| :---: | :--- | :--- |\n")
+                for item in triage_links:
+                    f.write(f"| {'🌟'*item['stars']} | {item['url']} | {item['desc']} |\n")
+
     async def _check_url_logic(self, url: str) -> Tuple[bool, str, Optional[str]]:
         headers = {"User-Agent": "Mozilla/5.0", "Accept-Language": "en-US,en;q=0.5"}
         parked = ["buy this domain", "parked free", "domain is for sale"]
@@ -248,36 +279,6 @@ class IntelligentLinkCleaner:
                     return False, "404", None
                 return True, f"Soft Block {resp.status_code}", None
         except: return True, "Error", None
-
-        # Export JSON artifact for the reducer instead of applying Git changes directly
-        output_payload = {
-            "shard_index": self.shard_index,
-            "inventory_updates": self.inventory,
-            "dead_links": self.dead_links,
-            "full_report_metrics": self.full_report_metrics
-        }
-        
-        out_name = f"shard_result_{self.shard_index:02d}.json" if self.shard_index is not None else "shard_result.json"
-        with open(out_name, "w") as f:
-            json.dump(output_payload, f, indent=2)
-            
-        log_event(f"EXPORTED SHARD RESULTS TO {out_name}", section_break=True)
-        
-        # --- AUTOMATED TRIAGE REPORT GENERATION ---
-        triage_links = []
-        for url, meta in self.inventory.items():
-            if meta.get('status') == 'review_required':
-                triage_links.append({"url": url, "stars": meta.get('stars', 0), "desc": meta.get('description', 'N/A')})
-        
-        if triage_links:
-            # Sort by stars (impact) DESC
-            triage_links.sort(key=lambda x: x['stars'], reverse=True)
-            with open("triage_report.md", "w") as f:
-                f.write(f"### 🚨 Manual Triage Required ({len(triage_links)} High-Value Links)\n\n")
-                f.write("The following resources were flagged for manual review because they failed health checks but are considered high-value assets.\n\n")
-                f.write("| Impact | Resource | Description |\n| :---: | :--- | :--- |\n")
-                for item in triage_links:
-                    f.write(f"| {'🌟'*item['stars']} | {item['url']} | {item['desc']} |\n")
 
     async def prune_orphaned_metadata(self):
         valid_map = {}
