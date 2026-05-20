@@ -292,25 +292,32 @@ class V2VisionEngine:
                 # 1. Has AI summary (previous run)
                 # 2. Is GitHub and has stars (metadata present)
                 # 3. Has decent manual description (> 40 chars)
+                # 4. Is already in inventory (we have title/category context)
                 has_ai_summary = l.get("ai_summary") is not None and len(l.get("ai_summary")) > 50
                 has_stars = l.get("gh_stars") is not None
                 has_desc = len(l.get("description", "")) > 40
-                
-                if has_ai_summary or has_stars or has_desc:
+                is_known = nu in self.inventory
+
+                if has_ai_summary or has_stars or has_desc or is_known:
                     fast_track.append(l)
                 else:
                     # Grounded-Track is ONLY for "Unknown" resources with zero context
                     grounded_track.append(l)
-            
+
             log_event(f"[*] Agent Phase 1: Analyst Evaluation ({len(to_evaluate)} resources)...")
             log_event(f"    [>] Fast-Track: {len(fast_track)} | Grounded-Track: {len(grounded_track)}")
-            
+
             analyst_results = []
-            
+
             # 1.1 Fast-Track: Large Batches, NO GROUNDING (Fast)
-            BATCH_SIZE_FAST = 25
-            for i in range(0, len(fast_track), BATCH_SIZE_FAST):
+            BATCH_SIZE_FAST = 40 # Increased from 25
+            total_fast = len(fast_track)
+            for i in range(0, total_fast, BATCH_SIZE_FAST):
                 batch = fast_track[i:i+BATCH_SIZE_FAST]
+                batch_num = (i // BATCH_SIZE_FAST) + 1
+                total_batches = (total_fast + BATCH_SIZE_FAST - 1) // BATCH_SIZE_FAST
+                log_event(f"    [>] Fast-Track: Processing Batch {batch_num}/{total_batches}...")
+
                 prompt = (
                     f"You are the Nubenetes Technical Analyst (2026).\n"
                     f"{dynamic_mandates}\n"
@@ -328,7 +335,7 @@ class V2VisionEngine:
                             item = batch[idx].copy()
                             eval_data = {
                                 "year": str(res.get("year", "N/A")), "stars": min(max(int(res.get("stars", 0)), 0), 5),
-                                "ai_summary": res.get("summary", item.get("ai_summary", "")), 
+                                "ai_summary": res.get("summary", item.get("ai_summary", "")),
                                 "language": res.get("language", "English"),
                                 "resource_type": res.get("type", "Reference"), "complexity": res.get("complexity", "Intermediate"),
                                 "hierarchy": res.get("hierarchy", ["General"]), "tags": res.get("tags", []),
@@ -337,14 +344,19 @@ class V2VisionEngine:
                             }
                             item.update(eval_data)
                             analyst_results.append(item)
-                except: 
+                except:
                     for l in batch: analyst_results.append(l)
-                await asyncio.sleep(0.5) 
+                await asyncio.sleep(0.5)
 
             # 1.2 Grounded-Track: Small Batches, WITH GROUNDING (Slower but precise)
-            BATCH_SIZE_GROUNDED = 5 # Reduced batch for grounding to avoid 429
-            for i in range(0, len(grounded_track), BATCH_SIZE_GROUNDED):
+            BATCH_SIZE_GROUNDED = 15 # Increased from 5
+            total_grounded = len(grounded_track)
+            for i in range(0, total_grounded, BATCH_SIZE_GROUNDED):
                 batch = grounded_track[i:i+BATCH_SIZE_GROUNDED]
+                batch_num = (i // BATCH_SIZE_GROUNDED) + 1
+                total_batches = (total_grounded + BATCH_SIZE_GROUNDED - 1) // BATCH_SIZE_GROUNDED
+                log_event(f"    [🌟] Grounded-Track: Processing Batch {batch_num}/{total_batches} (Grounding active)...")
+
                 prompt = (
                     f"You are the Nubenetes Technical Analyst (2026).\n"
                     f"{dynamic_mandates}\n"
@@ -370,11 +382,9 @@ class V2VisionEngine:
                             }
                             item.update(eval_data)
                             analyst_results.append(item)
-                except: 
+                except:
                     for l in batch: analyst_results.append(l)
-                await asyncio.sleep(5.0) # Grounding is very expensive in terms of quota
-
-            # --- AGENT PHASE 2: SELECTIVE AUDIT (MCP-Grounded) ---
+                await asyncio.sleep(2.0) # Reduced from 5.0 to improve throughput            # --- AGENT PHASE 2: SELECTIVE AUDIT (MCP-Grounded) ---
             # Identify candidates for high-trust verification
             audit_candidates = [l for l in analyst_results if "[DE FACTO STANDARD]" in l.get("tags", []) or "[ENTERPRISE-STABLE]" in l.get("tags", [])]
             
@@ -562,7 +572,7 @@ class V2VisionEngine:
     async def _write_premium_files(self, data: Dict[str, Dict], mosaic_html: str, videos_html: str):
         # 1. Update Index with Pulse
         trending_pool = sorted([dict(meta, url=url) for url, meta in self.inventory.items() if isinstance(meta, dict) and meta.get("stars", 0) >= 4], key=lambda x: (x.get("pub_date", "0000"), -x.get("stars", 0)), reverse=True)
-        pulse_md = "## ⚡ The Agentic Pulse\n" + "\n".join([f"- **({l.get('pub_date', 'N/A')[:10]})** [**=={l['title']}==**]({l['url']}) {'🌟'*l.get('stars',3)}" for l in trending_pool[:5]])
+        pulse_md = "## The Agentic Pulse\n" + "\n".join([f"- **({l.get('pub_date', 'N/A')[:10]})** [**=={l['title']}==**]({l['url']}) {'🌟'*l.get('stars',3)}" for l in trending_pool[:5]])
         
         index_md = (
             "# Nubenetes Elite Portal (V2) | Nubenetes: Awesome Kubernetes & Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)\n\n"
@@ -594,7 +604,7 @@ class V2VisionEngine:
         
         index_md += (
             "\n***\n\n"
-            "## 💎 The Maturity Taxonomy\n\n"
+            "## The Maturity Taxonomy\n\n"
             "To ensure industrial-grade precision, every resource in V2 is classified using our proprietary 5-tier maturity system:\n\n"
             "| Tag | Description | Engineering Context |\n"
             "| :--- | :--- | :--- |\n"
@@ -603,7 +613,7 @@ class V2VisionEngine:
             "| **`[EMERGING]`** | The cutting edge. | High-potential tools and patterns (e.g., AI Agents, MCP) shaping the future. |\n"
             "| **`[GUIDE]`** | Strategic knowledge. | High-quality tutorials, architectural deep-dives, and decision matrices. |\n"
             "| **`[LEGACY]`** | Historical context. | Established tools that are being replaced or are primarily for maintaining older stacks. |\n\n"
-            "## 🌟 Technical Impact (Relevance Score)\n\n"
+            "## Technical Impact (Relevance Score)\n\n"
             "The stars accompanying each resource represent its **Technical Impact** and **Architectural Relevance** for a 2026 Senior Architect:\n\n"
             "| Impact | Level | Meaning | Visual Code |\n"
             "| :---: | :--- | :--- | :--- |\n"

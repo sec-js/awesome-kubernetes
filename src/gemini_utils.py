@@ -310,11 +310,16 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
             for key_offset in range(total_keys):
                 current_idx = (CURRENT_KEY_INDEX + key_offset) % total_keys
                 api_key = GEMINI_API_KEYS[current_idx]
+                key_label = GEMINI_API_KEYS_DATA[current_idx]["label"]
                 
                 async with httpx.AsyncClient() as client:
-                    for model in models:
+                    # Limit the number of models to try per key to avoid excessive timeouts
+                    for model in models[:5]:
                         if THROTTLED_MODELS.get(f"{current_idx}_{model}", 0) > time.time():
                             continue
+                        
+                        # Mandate 13: Detailed tracing for long-running workflows
+                        # log_event(f"    [AI] Attempt: Key {current_idx+1} ({key_label}) | Model: {model}")
 
                         full_model_name = f"models/{model}"
                         api_url = f"https://generativelanguage.googleapis.com/{GEMINI_API_VERSION}/{full_model_name}:generateContent?key={api_key}"
@@ -325,7 +330,7 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                                 "contents": [{"parts": [{"text": prompt}]}],
                                 "tools": [{"google_search_retrieval": {}}] if use_grounding else []
                             }
-                            response = await client.post(api_url, json=payload, timeout=50)
+                            response = await client.post(api_url, json=payload, timeout=60)
                             
                             resp_json = {}
                             try: resp_json = response.json()
@@ -335,6 +340,7 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                             SESSION_TRACKER.track_call(current_idx, model, response.status_code, usage, role=role)
                             
                             if response.status_code == 200:
+                                log_event(f"    [AI] Success: Key {current_idx+1} | Model: {model} | Role: {role}")
                                 CURRENT_KEY_INDEX = current_idx
                                 if 'candidates' in resp_json and resp_json['candidates']:
                                     text_resp = resp_json['candidates'][0]['content']['parts'][0]['text']

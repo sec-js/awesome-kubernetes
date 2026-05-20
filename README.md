@@ -36,11 +36,13 @@
     *   [5.5. Multi-Language Support Policy](#55-multi-language-support-policy)
 6.  [6. The Unified Agentic Database (Knowledge Graph)](#6-the-unified-agentic-database-knowledge-graph)
     *   [6.1. Database Components](#61-database-components)
-    *   [6.2. The 'Database-First' Reasoning Protocol](#62-the-database-first-reasoning-protocol)
+    *   [6.2. The 'Database-First' Reasoning Protocol (Zero-Redundancy)](#62-the-database-first-reasoning-protocol-zero-redundancy)
     *   [6.3. Database Lifecycle and Hygiene](#63-database-lifecycle-and-hygiene)
     *   [6.4. Multi-Format Synchronization Logic](#64-multi-format-synchronization-logic)
     *   [6.5. Dynamic AI Discovery and Optimization](#65-dynamic-ai-discovery-and-optimization)
     *   [6.6. AI Intelligence and Observability (Transparency)](#66-ai-intelligence-and-observability-transparency)
+    *   [6.7. Platinum Operational Tier (2026 Standards)](#67-platinum-operational-tier-2026-standards)
+    *   [6.8. Platinum Capability Matrix](#68-platinum-capability-matrix)
 7.  [7. AI Economic Architecture and Cost Analysis](#7-ai-economic-architecture-and-cost-analysis)
     *   [7.1. Comprehensive Economic Projections (2026 Inception)](#71-comprehensive-economic-projections-2026-inception)
     *   [7.2. Efficiency and Performance Metrics](#72-efficiency-and-performance-metrics)
@@ -60,6 +62,7 @@
     *   [9.8. Workflow UI Auto-Sync](#98-workflow-ui-auto-sync)
 10. [10. Branching Strategy and Lifecycle](#10-branching-strategy-and-lifecycle)
 11. [11. Contributing to the Archive](#11-contributing-to-the-archive)
+    *   [How to Contribute](#how-to-contribute)
 12. [12. Developer Experience and VSCode Setup](#12-developer-experience-and-vscode-setup)
     *   [12.1. Optimized "Power User" Environment](#121-optimized-power-user-environment)
     *   [12.2. Extension Recommendations (Legacy/General)](#122-extension-recommendations-legacygeneral)
@@ -423,7 +426,7 @@ To maintain a high-performance "Single Source of Truth", Nubenetes implements au
 - **Universal Rescue Protocol (The Resurrection Rule)**: For ALL technical resources, the engine refuses to delete a link immediately upon a 404 or generic redirect. Instead, it triggers a "Technical Resurrection" cycle using **Real-time Web Grounding** to identify specific paths on destination domains. This is essential for preserving legendary content during massive corporate site migrations (e.g., **Nginx** to **F5**, or the **Ansible Blog** move to personal domains).
 - **High-Value Preservation (The 'Review Required' Rule)**: Resources identified as **High-Value** (marked with 🌟 or bold formatting) are exempt from automatic deletion. If rescue fails, they are marked as `status: review_required` for manual verification, ensuring no significant technical assets are lost during autonomous cleaning.
 
-#### 🕵️ Intelligent Cleaning Observability
+#### Intelligent Cleaning Observability
 
 ```log
 # 1. PROGRESS TRACKING & PARALLEL EXECUTION
@@ -820,7 +823,7 @@ Maintains **Mandate 11** by detecting new categories and alerting maintainers to
 
 Nubenetes thrives on a **Hybrid Human-AI Collaboration** model. Community contributions are the lifeblood of the V1 archive.
 
-### 🤝 How to Contribute
+### How to Contribute
 1.  **Target Branch**: Always create your Pull Requests against the `develop` branch.
 2.  **Source of Truth (V1)**: Only add or edit files in the `docs/` directory. **Do not manually edit [`v2-docs/`](v2-docs/)**.
 3.  **Manual Link Format**: Use the standard format: `  - [Title](URL) - Your descriptive summary.`
