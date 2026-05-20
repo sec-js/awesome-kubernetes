@@ -7,6 +7,7 @@ import os
 import time
 from datetime import datetime
 from typing import Dict, Any, List, Optional
+from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 from src.config import GEMINI_API_KEYS, GEMINI_API_VERSION, GEMINI_API_KEYS_DATA
 from src.logger import log_event
 
@@ -81,6 +82,10 @@ class GeminiSessionTracker:
         report += f"\n#### 📊 Consumption and Efficiency Metrics (2026 Units)\n"
         report += f"- **Total Prompt Tokens**: {self.total_tokens_prompt:,}\n"
         report += f"- **Total Completion Tokens**: {self.total_tokens_completion:,}\n"
+        
+        # Financial Cost (EUR) based on Gemini 1.5 Flash approx rates
+        est_cost_eur = (self.total_tokens_prompt * 0.075 / 1_000_000) + (self.total_tokens_completion * 0.30 / 1_000_000)
+        report += f"- **💰 Estimated Cost**: **{est_cost_eur:.4f} €**\n"
         
         # Cache-First Metrics
         hit_ratio = (self.cache_hits / (self.cache_hits + sum(self.model_usage.values())) * 100) if (self.cache_hits + sum(self.model_usage.values())) > 0 else 0
@@ -265,12 +270,28 @@ def normalize_url(url: str) -> str:
 
 def is_fuzzy_duplicate(url_a: str, url_b: str) -> bool:
     return normalize_url(url_a) == normalize_url(url_b)
+class GeminiQuotaExhausted(Exception):
+    pass
 
+def handle_retry_error(retry_state):
+    import sys
+    log_event("  [🚨] CIRCUIT BREAKER TRIPPED: Tenacity exhausted retries. Emitting exit code 42.")
+    sys.exit(42)
+
+@retry(
+    stop=stop_after_attempt(3),
+    wait=wait_exponential(multiplier=2, min=4, max=60),
+    retry=retry_if_exception_type(GeminiQuotaExhausted),
+    retry_error_callback=handle_retry_error
+)
 async def call_gemini_with_retry(prompt: str, response_format: str = "json", max_retries: int = 3, prefer_flash: bool = False, use_grounding: bool = False, role: str = "General"):
     global CURRENT_KEY_INDEX, GLOBAL_COOLDOWN_UNTIL
     if not GEMINI_API_KEYS: raise ValueError("No GEMINI_API_KEYS configured.")
     
     models_pool = await discover_optimal_models()
+    diagnostics = GeminiDiagnostics()
+    consecutive_429s = 0
+    base_wait_time = 2.0
     
     # 1. Smart Re-ordering
     if prefer_flash:
@@ -338,6 +359,10 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                                 
                             elif response.status_code == 429:
                                 consecutive_429s += 1
+                                if consecutive_429s >= 5:
+                                    log_event("  [!] QUOTA EXHAUSTED: All keys and models rate-limited. Triggering Tenacity backoff...")
+                                    raise GeminiQuotaExhausted("All models returned 429")
+                                
                                 # 2. ADAPTIVE TIERING: Mark this specific model as throttled
                                 throttle_duration = 30 if "pro" in model else 15
                                 THROTTLED_MODELS[model] = time.time() + throttle_duration

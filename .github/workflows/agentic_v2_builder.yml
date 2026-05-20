@@ -36,7 +36,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build-v2-edition:
+  evaluate-v2-shards:
     runs-on: ubuntu-latest
     if: |
       github.event_name == 'workflow_dispatch' || 
@@ -44,6 +44,11 @@ jobs:
        github.ref == 'refs/heads/develop' && 
        !contains(github.event.head_commit.message, '[skip ci]') &&
        !contains(github.event.head_commit.message, 'bot/v2-elite-sync'))
+    strategy:
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63]
+      max-parallel: 20
+      fail-fast: false
     steps:
       - name: Repository Synchronization
         uses: actions/checkout@v6
@@ -55,13 +60,14 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: '3.11'
+          cache: 'pip'
 
       - name: Installation of Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install --no-cache-dir pydantic PyGithub httpx fake-useragent pytz python-dotenv pyyaml
+          pip install --no-cache-dir pydantic PyGithub httpx fake-useragent pytz python-dotenv pyyaml tenacity
           
-      - name: Run V2 Agentic Optimizer
+      - name: Run V2 Agentic Optimizer (Shard ${{ matrix.shard }})
         env:
           GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
           GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
@@ -72,7 +78,67 @@ jobs:
           ENRICH_METADATA: ${{ github.event.inputs.enrich_metadata || 'false' }}
           PYTHONPATH: .
         run: |
-          python -u src/v2_optimizer.py
+          python -u src/v2_optimizer.py --shard-index ${{ matrix.shard }} --total-shards 64
+
+      - name: Upload Shard Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: v2-shard-result-${{ matrix.shard }}
+          path: v2_shard_result_*.json
+          retention-days: 1
+          
+      - name: Upload Shard Inventory DB
+        uses: actions/upload-artifact@v4
+        with:
+          name: v2-inventory-shard-${{ matrix.shard }}
+          path: data/inventory/shard_*.yaml
+          retention-days: 1
+
+  render-and-pr:
+    needs: evaluate-v2-shards
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository Synchronization
+        uses: actions/checkout@v6
+        with:
+          ref: develop
+
+      - name: Python 3.11 Environment Provisioning
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Installation of Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install --no-cache-dir pydantic PyGithub httpx fake-useragent pytz python-dotenv pyyaml tenacity
+
+      - name: Download all shard artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: shard_artifacts
+          pattern: v2-shard-result-*
+          merge-multiple: true
+
+      - name: Download all inventory shards
+        uses: actions/download-artifact@v4
+        with:
+          path: inventory_artifacts
+          pattern: v2-inventory-shard-*
+          merge-multiple: true
+
+      - name: Move artifacts to working directories
+        run: |
+          mv shard_artifacts/*.json . 2>/dev/null || true
+          mkdir -p data/inventory
+          mv inventory_artifacts/*.yaml data/inventory/ 2>/dev/null || true
+
+      - name: Render V2 Elite Portal
+        env:
+          PYTHONPATH: .
+        run: |
+          python -u src/v2_optimizer.py --render-only
           if [ -f v2_safety_report.md ]; then
             cat v2_safety_report.md >> pr_description.md
           else
@@ -85,7 +151,7 @@ jobs:
         run: |
           python src/readme_updater.py
           python src/safety_readme.py
-          
+
       - name: Create Pull Request for V2 Elite Update
         id: cpr
         uses: peter-evans/create-pull-request@v8

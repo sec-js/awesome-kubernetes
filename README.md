@@ -174,6 +174,8 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
+<details><summary>🗺️ <b>View Diagram</b></summary>
+
 ```mermaid
 ---
 config:
@@ -189,6 +191,8 @@ xychart-beta
     bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 5046]
     bar [350, 142, 2046, 531, 402, 30, 53, 5, 1222]
 ```
+
+</details>
 <!-- ANNUAL_CHART_END -->
 
 #### 2026: The Agentic Monthly Surge
@@ -207,6 +211,8 @@ Nubenetes uses AI-driven semantic clustering to organize its 17,000+ resources i
 This chart shows the high-level distribution across the primary domains of Cloud Native engineering.
 
 <!-- PILLAR_CHART_START -->
+<details><summary>🗺️ <b>View Diagram</b></summary>
+
 ```mermaid
 pie title Nubenetes Major Ecosystem Pillars
     "Kubernetes Ecosystem" : 3500
@@ -218,6 +224,8 @@ pie title Nubenetes Major Ecosystem Pillars
     "Security and DevSecOps" : 1000
     "Specialized Topics" : 903
 ```
+
+</details>
 <!-- PILLAR_CHART_END -->
 
 *   **Kubernetes Ecosystem:** Includes core K8s, tools, networking, security, and operators. This is the heart of the project, with over 3,500 curated references.
@@ -228,6 +236,8 @@ pie title Nubenetes Major Ecosystem Pillars
 Reflecting Nubenetes' mission of global access while maintaining technical English as the primary interface.
 
 <!-- SUB_ECO_CHART_START -->
+<details><summary>🗺️ <b>View Diagram</b></summary>
+
 ```mermaid
 pie title Linguistic Diversity (Global Access)
     "English" : 13772
@@ -235,6 +245,8 @@ pie title Linguistic Diversity (Global Access)
     "French" : 153
     "Others" : 459
 ```
+
+</details>
 <!-- SUB_ECO_CHART_END -->
 
 ---
@@ -256,7 +268,7 @@ The autonomy of Nubenetes is powered by a modern, resilient tech stack that ensu
 | **Automation** | Python 3.11 | Core logic for parsing, gitops, and reporting. |
 | **Discovery** | Twikit and Playwright | Autonomous scraping and account rotation. |
 | **Resilience** | Identity Rotation | Evasion of anti-bot blocks using multiple profiles. |
-| **Deployment** | MkDocs Material | High-performance static site generation for V1 and V2. |
+| **Deployment** | MkDocs Material & Native GH Pages | High-performance static site generation via native artifact deployment. |
 
 ---
 
@@ -270,6 +282,8 @@ As of **May 2026**, the repository has transitioned to a **Fully Autonomous Agen
 ### 4.2. Hardened Architecture (2026)
 
 The Nubenetes ecosystem utilizes a multi-layered defense and performance architecture to ensure 100% autonomy without manual oversight.
+
+<details><summary>🗺️ <b>View Diagram</b></summary>
 
 ```mermaid
 graph TD
@@ -290,19 +304,23 @@ graph TD
     subgraph "Phase 3: Hardened CI/CD"
         H --> I["Concurrency Guard"]
         I --> J["[skip ci] Loop Prevention"]
-        J --> K["Playwright Caching"]
-        K --> L["V1 & V2 Portal Sync"]
+        J --> K["Dependency & Playwright Caching"]
+        K --> L["Native GH Pages Deployment"]
     end
 
     style I fill:#f96,stroke:#333,stroke-width:2px
     style J fill:#f96,stroke:#333,stroke-width:2px
     style K fill:#bbf,stroke:#333,stroke-width:2px
+    style L fill:#86efac,stroke:#333,stroke-width:2px
 ```
+
+</details>
 
 **Key Architectural Hardening:**
 - **Concurrency Guard:** Prevents race conditions by managing parallel workflow execution using GitHub Concurrency Groups.
 - **Trigger Loop Prevention:** Uses the `[skip ci]` protocol to break infinite recursive loops during automated PR merges.
 - **Setup Acceleration:** Playwright caching reduces the environment initialization time from 5 minutes to under 60 seconds.
+- **Dependency Caching:** Global Pip caching via `requirements.txt` slashes build times across all pipelines.
 
 ### 4.3. Adaptive AI Tiering and Real-time Grounding
 To ensure maximum throughput and industrial-grade precision, Nubenetes uses a proprietary **Multi-tier AI Orchestration** engine:
@@ -333,6 +351,7 @@ Nubenetes operates with two distinct editions to serve different engineering nee
 ### 5.2. V2: The Agentic Elite Edition
 - **Purpose:** A high-density, enterprise-grade portal for the modern Cloud Native ecosystem (2026 and beyond).
 - **Algorithm:** Uses the **Incremental Elite Engine** to select and classify top-tier resources.
+- **Aesthetic:** "Cyber Cloud" styling (pure black backgrounds, neon cyan accents, advanced glassmorphism).
 - **Visual Standards (Elite Hierarchy):**
     - **`==[Yellow Highlighting]==`**: **Platinum Standard** (5 stars) – Foundational "Must-Read" assets.
     - **`**Bold Text**`**: **Gold Standard** (4 stars) – Highly recommended resources with strong industry momentum.
@@ -504,6 +523,8 @@ The following matrix details the operational jump from standard automation to th
 | **7** | **Observability** | Console Logs | **Platinum Audit**: Multi-part PR metrics & License Dashboard. |
 | **8** | **HTML Quality** | Implicit | **Rendering Guard**: Mandatory `markdown="1"` validation. |
 
+<details><summary>🗺️ <b>View Diagram</b></summary>
+
 ```mermaid
 graph TD
     A["Curation Source (YAML)"] --> B["[Mandate 11]<br/>UI Auto-Sync"]
@@ -514,6 +535,8 @@ graph TD
     G --> H["[Mandate 33]<br/>License Dashboard"]
     H --> I["PR Platinum Audit<br/>Report"]
 ```
+
+</details>
 
 ---
 
@@ -551,6 +574,8 @@ Projected monthly budget for 24/7 autonomous maintenance.
 Achieves **>90% cost reduction** compared to full-Pro architectures by utilizing multi-tier caching, global concurrency semaphores, and structured batching.
 
 <!-- EFFICIENCY_CHART_START -->
+<details><summary>🗺️ <b>View Diagram</b></summary>
+
 ```mermaid
 ---
 config:
@@ -566,6 +591,8 @@ xychart-beta
     bar [75, 15, 10]
     bar [10, 25, 65]
 ```
+
+</details>
 <!-- EFFICIENCY_CHART_END -->
 
 ### 7.3. Economic Sustainability Principles
@@ -579,6 +606,8 @@ For large-scale repository automation, Nubenetes prioritizes the **Pay-As-You-Go
 ---
 
 ### 7.5. Agentic Data Flow
+<details><summary>🗺️ <b>View Diagram</b></summary>
+
 ```mermaid
 graph TD
     subgraph Discovery
@@ -606,6 +635,8 @@ graph TD
         DB1["inventory.yaml"]
     end
 ```
+
+</details>
 ### 7.6. Strategic Benefits
 - **Incremental Self-Correction**: Reparation of historical precision errors.
 - **Content-URL Precision Standard (Mandate 31)**: AI detects generic redirects and triggers the Rescue Protocol.
@@ -647,6 +678,11 @@ The heart of the new Nubenetes is a suite of AI Agents that operate on our `deve
     - **Resilience:** asynchronous health checks with 3x retry and identity rotation.
     - **V1 Integrity:** Focuses on link validity (removing 404s) to ensure the exhaustive V1 archive remains accessible.
     - **Transparency:** Provides detailed, real-time unbuffered logging of all cleaning operations.
+4.  **Resilient Architecture Core**:
+    - **Exponential Backoff:** Intelligent `tenacity`-based retry logic in `gemini_utils.py` gracefully handles 429 Rate Limits before triggering the Circuit Breaker.
+    - **64-Matrix Sharding:** The V2 Portal Generation and Link Health workflows distribute load across 64 parallel runners to bypass execution timeouts.
+    - **Pip Caching:** All workflows utilize `cache: pip` for lightning-fast execution and reduced compute costs.
+    - **AI PR Guardian:** Enforces the `PULL_REQUEST_TEMPLATE.md` checklist automatically on community contributions.
 
 ---
 
@@ -659,14 +695,16 @@ Nubenetes features a comprehensive suite of workflows that can be controlled man
 
 | # | Workflow / UI Interface | Source Code | Manual Control & Form Inputs | Default Behavior |
 | :---: | :--- | :--- | :--- | :--- |
-| **1** | **[Agentic Curation](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_cron.yml)** | [`.github/workflows/agentic_cron.yml`](.github/workflows/agentic_cron.yml) | • **`start_date`**: YYYY-MM-DD.<br/>• **`days_back`**: Relative range.<br/>• **`include_...`**: Domain toggles (K8s, AI, Cloud, etc).<br/>• **`exclude_accounts`**: Comma-separated list.<br/>• **`extraction_strategy`**: Search vs Scroll.<br/>• **`historical_mode`**: Bypass limits.<br/>• **`historical_chunked`**: Recursive execution.<br/>• **`historical_until_date`**: Chunk limit.<br/>• **`activate_backup_key`**: Identity rotation. | Monthly Discovery |
-| **2** | **[V2 Elite Builder](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_builder.yml)** | [`.github/workflows/agentic_v2_builder.yml`](.github/workflows/agentic_v2_builder.yml) | • **`force_reevaluate`**: Ignore AI cache.<br/>• **`enrich_metadata`**: Fetch stars/license.<br/>• **`activate_backup_key`**: Identity rotation. | Auto-Sync (Push) |
-| **3** | **[Link Health Check](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/intelligent_link_cleaner.yml)** | [`.github/workflows/intelligent_link_cleaner.yml`](.github/workflows/intelligent_link_cleaner.yml) | • **`force_full_check`**: Bypasses 21-day cache for exhaustive audit. | Monthly Cleanup |
+| **1** | **[Agentic Curation](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_cron.yml)** | [`.github/workflows/agentic_cron.yml`](.github/workflows/agentic_cron.yml) | • **`start_date`**: YYYY-MM-DD.<br/>• **`days_back`**: Relative range.<br/>• **`include_...`**: Domain toggles (K8s, AI, Cloud, etc).<br/>• **`exclude_accounts`**: Comma-separated list.<br/>• **`extraction_strategy`**: Search vs Scroll.<br/>• **`historical_mode`**: Bypass limits.<br/>• **`historical_chunked`**: Recursive execution.<br/>• **`historical_until_date`**: Chunk limit.<br/>• **`activate_backup_key`**: Identity rotation. | Monthly Discovery (Circuit Breaker Enabled) |
+| **2** | **[V2 Elite Builder](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_builder.yml)** | [`.github/workflows/agentic_v2_builder.yml`](.github/workflows/agentic_v2_builder.yml) | • **`force_reevaluate`**: Ignore AI cache.<br/>• **`enrich_metadata`**: Fetch stars/license.<br/>• **`activate_backup_key`**: Identity rotation. | Auto-Sync (64-Matrix Shards) |
+| **3** | **[Link Health Check](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/intelligent_link_cleaner.yml)** | [`.github/workflows/intelligent_link_cleaner.yml`](.github/workflows/intelligent_link_cleaner.yml) | • **`force_full_check`**: Bypasses 21-day cache. | Quarterly Cleanup (64-Matrix Shards) |
 | **4** | **[Backup Curation](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_backup.yml)** | [`.github/workflows/agentic_backup.yml`](.github/workflows/agentic_backup.yml) | • **`backup_file`**: Path to JSON/MD.<br/>• **`historical_mode`**: Force evaluation. | On-Demand |
 | **5** | **[README Sync](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/readme_sync.yml)** | [`.github/workflows/readme_sync.yml`](.github/workflows/readme_sync.yml) | *(No manual inputs)* | Push to `develop` |
 | **6** | **[Critical Monitor](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/critical_asset_monitor.yml)** | [`.github/workflows/critical_asset_monitor.yml`](.github/workflows/critical_asset_monitor.yml) | *(No manual inputs)* | 3-Month Pulse |
 | **7** | **[Merged Cleanup](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/cleanup_merged_branches.yml)** | [`.github/workflows/cleanup_merged_branches.yml`](.github/workflows/cleanup_merged_branches.yml) | *(No manual inputs)* | Bi-weekly (1st/15th) |
 | **8** | **[Production Deploy](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/main.yml)** | [`.github/workflows/main.yml`](.github/workflows/main.yml) | *(No manual inputs)* | Push to `master` |
+| **9** | **[PR Guardian](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/pr_guardian.yml)** | [`.github/workflows/pr_guardian.yml`](.github/workflows/pr_guardian.yml) | *(No manual inputs)* | PR Presubmit (AI Review) |
+| **10** | **[Markdown Linter](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/markdown_linter.yml)** | [`.github/workflows/markdown_linter.yml`](.github/workflows/markdown_linter.yml) | *(No manual inputs)* | PR/Push (Safety Check) |
 
 ### 9.2. Recommended Execution Pipeline
 To maintain the archive's integrity, the following logical sequence is followed:
@@ -677,6 +715,8 @@ To maintain the archive's integrity, the following logical sequence is followed:
 
 ### 9.3. Workflow Trigger and Synchronization Logic
 The following flowchart illustrates how autonomous discovery and maintenance tasks orchestrate the update of the V2 Elite portal. Nubenetes uses a **Surgical Trigger Strategy** to ensure the V2 Builder only executes when relevant data or logic changes occur.
+
+<details><summary>🗺️ <b>View Diagram</b></summary>
 
 ```mermaid
 graph TD
@@ -704,7 +744,11 @@ graph TD
     end
 ```
 
+</details>
+
 ### 9.4. Curation Flow Architecture
+<details><summary>🗺️ <b>View Diagram</b></summary>
+
 ```mermaid
 sequenceDiagram
     participant X as X.com and Sources
@@ -740,19 +784,25 @@ sequenceDiagram
     M->>P: Trigger Production Build
     P-->>P: Deploy V1 and V2 to nubenetes.com
 ```
+
+</details>
 ### 9.5. Deployment Lifecycle
+<details><summary>🗺️ <b>View Diagram</b></summary>
+
 ```mermaid
 graph LR
     A["AI Discovery"] --> B["V1 Update (develop)"]
-    B --> C["CI/CD Build V1"]
     B --> D["V2 Vision Engine"]
     B --> Z["README Sync"]
     D --> E["V2 Update (develop)"]
-    E --> F["CI/CD Build V2"]
-    C --> G["nubenetes.com"]
-    F --> H["nubenetes.com/v2/"]
+    E --> M["Sync to 'master'"]
+    M --> C["Pip Cache & CI/CD Build"]
+    C --> F["Upload Pages Artifact"]
+    F --> G["Native Deploy to nubenetes.com"]
     Z --> B
 ```
+
+</details>
 
 ### 9.6. Automated Mandate Auditing
 Every Pull Request includes a non-blocking **Safety and Mandate Audit** report cross-referencing changes against [`GEMINI.md`](GEMINI.md).
@@ -849,10 +899,10 @@ To maintain transparency and ease of navigation, all key configuration, database
 
 ### 13.3. Autonomous Workflows
 - **Discovery & Curation:** [`.github/workflows/agentic_cron.yml`](.github/workflows/agentic_cron.yml)
-- **V2 Elite Builder:** [`.github/workflows/agentic_v2_builder.yml`](.github/workflows/agentic_v2_builder.yml) — Generates the Elite curated portal. Supports `force_reevaluate` (refreshes AI scores) and `enrich_metadata` (fetches real-time GitHub stars/license data).
+- **V2 Elite Builder:** [`.github/workflows/agentic_v2_builder.yml`](.github/workflows/agentic_v2_builder.yml) — Generates the Elite curated portal using **64-Matrix Sharding** for parallel execution. Supports `force_reevaluate` (refreshes AI scores) and `enrich_metadata` (fetches real-time GitHub stars/license data).
 - **Health & Maintenance:** [`.github/workflows/intelligent_link_cleaner.yml`](.github/workflows/intelligent_link_cleaner.yml)
 - **README Metrics Sync:** [`.github/workflows/readme_sync.yml`](.github/workflows/readme_sync.yml)
-- **Deployment Pipeline:** [`.github/workflows/main.yml`](.github/workflows/main.yml)
+- **Deployment Pipeline:** [`.github/workflows/main.yml`](.github/workflows/main.yml) — Native GitHub Pages deployment using artifacts and pip caching.
 
 ### 13.4. Agentic AI Source Code
 - **Orchestration Core:** [`src/main.py`](src/main.py) - Master coordinator for discovery and evaluation.

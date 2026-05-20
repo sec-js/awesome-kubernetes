@@ -7,7 +7,7 @@ import yaml
 import hashlib
 from datetime import datetime
 from typing import List, Dict, Optional, Tuple
-from src.config import GH_TOKEN, TARGET_REPO, GEMINI_API_KEY, NUBENETES_CATEGORIES, MADRID_TZ, INVENTORY_PATH
+from src.config import GH_TOKEN, TARGET_REPO, GEMINI_API_KEY, NUBENETES_CATEGORIES, MADRID_TZ, INVENTORY_DIR
 from src.gitops_manager import RepositoryController
 from src.gemini_utils import call_gemini_with_retry, normalize_url, clean_toc_text
 from src.logger import log_event
@@ -172,16 +172,13 @@ class AgenticCurator:
         self.docs_dir = "docs"
         self.inventory = self._load_inventory()
 
-    def _load_inventory(self) -> dict:
-        if os.path.exists(INVENTORY_PATH):
-            try:
-                with open(INVENTORY_PATH, "r") as f: return yaml.safe_load(f) or {}
-            except: return {}
-        return {}
+    def _load_inventory(self) -> Dict:
+        from src.inventory_manager import load_inventory
+        return load_inventory()
 
     def _save_inventory(self):
-        os.makedirs(os.path.dirname(INVENTORY_PATH), exist_ok=True)
-        with open(INVENTORY_PATH, "w") as f: yaml.dump(self.inventory, f, sort_keys=False, allow_unicode=True)
+        from src.inventory_manager import save_inventory
+        save_inventory(self.inventory)
 
     async def discover_new_curation_sources(self) -> List[str]:
         """D) Autonomous Discovery: Periodically find new high-trust sources."""

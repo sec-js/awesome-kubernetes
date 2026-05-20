@@ -6,7 +6,7 @@ import yaml
 import httpx
 from datetime import datetime
 from typing import List, Dict, Set, Any, Tuple
-from src.config import GEMINI_API_KEYS, GH_TOKEN, TARGET_REPO, MADRID_TZ, INVENTORY_PATH
+from src.config import GEMINI_API_KEYS, GH_TOKEN, TARGET_REPO, MADRID_TZ, INVENTORY_DIR
 from src.gemini_utils import call_gemini_with_retry, normalize_url, clean_toc_text, get_github_activity
 from src.logger import log_event
 
@@ -14,7 +14,9 @@ V1_DIR = "docs"
 V2_DIR = "v2-docs"
 
 class V2VisionEngine:
-    def __init__(self):
+    def __init__(self, shard_index: int = None, render_only: bool = False):
+        self.shard_index = shard_index
+        self.render_only = render_only
         # Load Config & Policy
         self.special_assets_rules = self._load_special_assets()
         self.link_rules = self._load_link_rules()
@@ -72,14 +74,12 @@ class V2VisionEngine:
         return {}
 
     def _load_inventory(self) -> Dict:
-        if os.path.exists(INVENTORY_PATH):
-            try: return yaml.safe_load(open(INVENTORY_PATH, "r")) or {}
-            except: return {}
-        return {}
+        from src.inventory_manager import load_inventory
+        return load_inventory()
 
     def _save_inventory(self):
-        os.makedirs(os.path.dirname(INVENTORY_PATH), exist_ok=True)
-        yaml.dump(self.inventory, open(INVENTORY_PATH, "w"), sort_keys=False, allow_unicode=True)
+        from src.inventory_manager import save_inventory
+        save_inventory(self.inventory)
 
     async def analyze_and_cluster(self):
         log_event("STARTING V2 HIGH-DENSITY O'REILLY LIBRARY GENERATION", section_break=True)
@@ -90,13 +90,37 @@ class V2VisionEngine:
         except: pass
 
         all_v1_links, mosaic_html, videos_html = await self._gather_all_v1_content()
-        log_event(f"[*] Discovery: Found {len(all_v1_links)} resources in V1.")
+        
+        # Matrix Sharding Filter
+        if self.shard_index is not None:
+            from src.inventory_manager import get_shard_name
+            shard_file = f"shard_{self.shard_index:02d}.yaml"
+            all_v1_links = [l for l in all_v1_links if get_shard_name(l['url']) == shard_file]
+            
+        log_event(f"[*] Discovery: Found {len(all_v1_links)} resources to process.")
 
         log_event("[*] Phase 1: Health Check...")
         health_inventory = await self._verify_link_health(all_v1_links)
         
         log_event("[*] Phase 2: Evaluation & Deep Indexing (Semantic Dedup)...")
         library_inventory = await self._evaluate_and_score_resources(health_inventory)
+
+        if self.shard_index is not None:
+            self._save_inventory()
+            with open(f"v2_shard_result_{self.shard_index:02d}.json", "w") as f:
+                json.dump({"maturity_audit": self.maturity_audit}, f)
+            log_event(f"SHARD {self.shard_index} COMPLETE. Exiting early.", section_break=True)
+            return
+            
+        if self.render_only:
+            # Reconstruct maturity_audit from shard artifacts
+            self.maturity_audit = []
+            for f in os.listdir("."):
+                if f.startswith("v2_shard_result_") and f.endswith(".json"):
+                    try:
+                        data = json.load(open(f, "r"))
+                        self.maturity_audit.extend(data.get("maturity_audit", []))
+                    except: pass
 
         log_event("[*] Phase 3: Recursive Hierarchy Construction...")
         v2_data = await self._rebuild_structure(library_inventory)
@@ -630,9 +654,20 @@ class V2VisionEngine:
             with open("v2-mkdocs.yml", "w") as f: f.write(updated)
         except: pass
 
+import argparse
 if __name__ == "__main__":
-    engine = V2VisionEngine()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--shard-index", type=int, default=None)
+    parser.add_argument("--total-shards", type=int, default=64)
+    parser.add_argument("--render-only", action="store_true")
+    args = parser.parse_args()
+
+    engine = V2VisionEngine(shard_index=args.shard_index, render_only=args.render_only)
     asyncio.run(engine.analyze_and_cluster())
+    
+    if args.shard_index is not None:
+        import sys
+        sys.exit(0)
     
     # --- PLATINUM GITOPS REPORTING (Multi-Comment) ---
     from src.gitops_manager import RepositoryController
@@ -688,11 +723,12 @@ if __name__ == "__main__":
         f.write(f"| **Hierarchical Depth** | Flat | Recursive | Max Depth: {engine.max_depth} |\n\n")
 
         f.write("### 🏗️ Evidence of Elite Status\n")
+        f.write("<details><summary>📊 Clic para ver Gráfico de Distribución</summary>\n\n")
         f.write("```mermaid\npie title V2 Maturity Distribution\n")
         for tag, count in maturity_counts.items():
             tag_name = tag.replace('[','').replace(']','')
             f.write(f"    \"{tag_name}\" : {count}\n")
-        f.write("```\n\n")
+        f.write("```\n\n</details>\n\n")
         
         from src.gemini_utils import SESSION_TRACKER
         f.write(SESSION_TRACKER.get_intelligence_report())

@@ -66,6 +66,13 @@ class RepositoryController:
             }, indent=2)
 
         for file_path, content in updates.items():
+            if content is None:
+                try:
+                    file_meta = self.repository.get_contents(file_path, ref=branch_name)
+                    self.repository.delete_file(file_path, f"chore: remove {file_path}", file_meta.sha, branch=branch_name)
+                except Exception: pass
+                continue
+
             try:
                 commit_signature = f"chore: update {file_path} [{timestamp_slug}]"
                 try:
@@ -113,7 +120,7 @@ class RepositoryController:
         for src, count in sorted(source_counts.items(), key=lambda x: x[1], reverse=True):
             source_md += f"| {src} | {count} |\n"
 
-        mermaid = f"### 📊 Decision Metrics\n```mermaid\npie title Agentic Decision Distribution\n    \"Accepted\" : {counts['INCLUDED']}\n    \"Duplicates\" : {counts['DUPLICATE']}\n    \"Filtered\" : {counts['FILTERED']}\n```\n"
+        mermaid = f"### 📊 Decision Metrics\n<details><summary>📊 Ver Gráfico de Decisión</summary>\n\n```mermaid\npie title Agentic Decision Distribution\n    \"Accepted\" : {counts['INCLUDED']}\n    \"Duplicates\" : {counts['DUPLICATE']}\n    \"Filtered\" : {counts['FILTERED']}\n```\n\n</details>\n"
         
         # Build PR Body (With Safety Guard Splitting)
         pr_body = f"## 💎 Knowledge Update: {datetime.now().strftime('%d %b %Y')}\n\nProcessed **{metrics.get('total_extracted', 0)}** links.\n\n"
@@ -126,7 +133,20 @@ class RepositoryController:
         else:
             pr_body += f"{safety_report}\n\n"
             
-        pr_body += f"{ai_intel}\n\n{mermaid}\n{source_md}\n---\n**Audit Matrix and Logs follow in successive comments.**\n"
+        # Extract All Accepted Gems
+        accepted_items = [item for item in sorted_report if item['status'] == 'INCLUDED']
+        accepted_items.sort(key=lambda x: int(x.get('impact_score', 0)) if str(x.get('impact_score', '0')).isdigit() else 0, reverse=True)
+        
+        gems_md = "### 🏆 Accepted Resources\n"
+        if accepted_items:
+            for item in accepted_items:
+                score = item.get('impact_score', 'N/A')
+                title = str(item.get('title', 'Unknown')).replace("\n", " ").strip()[:80]
+                gems_md += f"- **[{score}]** [{title}]({item['url']})\n"
+        else:
+            gems_md += "*No new resources accepted in this run.*\n"
+            
+        pr_body += f"{ai_intel}\n\n{mermaid}\n{source_md}\n{gems_md}\n---\n**Audit Matrix and Logs follow in successive comments.**\n"
 
         pr = self.repository.create_pull(
             title=f"💎 Knowledge Update & Optimization: {datetime.now().strftime('%d %b %Y')}",
@@ -165,11 +185,11 @@ class RepositoryController:
         part = 1
         for row in all_rows:
             if len(current_comment) + len(row) > 60000:
-                pr.create_issue_comment(f"### 📋 Audit Matrix (Part {part})\n{current_comment}")
+                pr.create_issue_comment(f"### 📋 Audit Matrix (Part {part})\n<details><summary>📋 Clic para expandir Audit Matrix</summary>\n\n{current_comment}\n\n</details>")
                 current_comment = header_table + row
                 part += 1
             else:
                 current_comment += row
-        pr.create_issue_comment(f"### 📋 Audit Matrix (Part {part})\n{current_comment}")
+        pr.create_issue_comment(f"### 📋 Audit Matrix (Part {part})\n<details><summary>📋 Clic para expandir Audit Matrix</summary>\n\n{current_comment}\n\n</details>")
 
         return pr.html_url

@@ -46,8 +46,8 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **Flat Asset Routing**: To avoid depth-related path breakage, both V1 (`mkdocs.yml`) and V2 (`v2-mkdocs.yml`) MUST have `use_directory_urls: false`. This ensures relative paths (e.g., `images/img.png`) resolve correctly regardless of the page depth.
 20. **V2 Navigation Design**: The V2 top navigation bar MUST maintain a flat structure. All dimensions and categories must be top-level tabs in `v2-mkdocs.yml` to ensure direct discoverability and avoid nested groupings like "Categories".
 21. **V2 Impact-Driven Sorting**: The V2 portal MUST prioritize **relevance (Impact) over dates** within sections to provide high-density technical value. Sorting MUST follow: 1. Stars/Relevance (DESC), 2. Year (DESC). The mission statement and descriptions MUST reflect this impact-driven synthesis.
-22. **Unified Metadata Database (Local Storage & Persistence)**: All link metadata MUST be managed via the centralized [`data/inventory.yaml`](data/inventory.yaml).
-    - **`inventory.yaml`**: The single source of truth for years, stars (0-5), descriptions, physical locations (`v1_locations`, `v2_locations`), and visual formatting. This eliminates the need for external mapping files and ensures full lifecycle visibility.
+22. **Unified Metadata Database (Directory Sharding)**: All link metadata MUST be managed via the centralized directory [`data/inventory/`](data/inventory/).
+    - **Deterministic Hash Sharding**: To bypass GitHub Action matrix limits and prevent race conditions, the inventory is sharded into exactly 64 YAML files (`shard_00.yaml` to `shard_63.yaml`) based on an MD5 hash of the normalized URL modulo 64.
     - **Scalable Multiline Support**: The inventory utilizes **YAML Block Scalars (`|`)** for fields like `ai_summary`, enabling the storage of complex technical summaries with paragraphs and bullet points without breaking the database structure.
     - **Platinum Lifecycle Metadata**: The inventory MUST track advanced engineering fields to empower context-aware automation:
         *   `content_hash`: SHA256 fingerprint to detect silent content updates.
@@ -137,7 +137,9 @@ This file contains the accumulated instructions and long-term vision for the aut
 - **V2 Navigation Standard**: The top navigation bar in `v2-mkdocs.yml` MUST feature the "Agentic Elite Portal" link as the primary entry point to ensure professional consistency across the platform.
 42. **Version Control & Changelog Standard**: All significant milestones and architectural shifts MUST be versioned using **Semantic Versioning (SemVer)** and documented in [`CHANGELOG.md`](CHANGELOG.md) following the "Keep a Changelog" standard. This ensures full traceability of the ecosystem's evolution from historical archive to agentic portal.
 43. **On-Demand Metadata Enrichment (V2)**: The V2 generation engine MUST support a manual `ENRICH_METADATA` flag. When active, the bot MUST fetch real-time GitHub stars and license data for all repositories missing this metadata in the inventory. This ensures that [DE FACTO STANDARD] and [ENTERPRISE-STABLE] tags are assigned based on current industry momentum rather than stale or missing cache data.
-
+44. **Agentic Presubmit Safeguards (PR Guardian)**: All PRs to `develop` MUST be analyzed by the `PR Guardian` AI agent to ensure compliance with Nubenetes standards (No emojis in headers, valid Markdown, correct URL normalization, high-density descriptions).
+45. **Resilient Quota Management (Circuit Breakers)**: AI workflows MUST implement circuit breaker logic (Exit Code 42) to gracefully pause processing and disable the workflow when API quotas (e.g., 429 Too Many Requests) are exhausted, preventing infinite loop failures.
+46. **Markdown Linting Continuity**: All files in `docs/` and `v2-docs/` MUST pass the automated `markdownlint` validation to ensure pristine HTML rendering within MkDocs.
 37. **Linguistic Uniformity**: All core documentation (index, README, GEMINI.md) and V2 portal summaries MUST be written in **Professional Technical English**. V1 descriptions remain in their native language (Mandate 10).
 
 
@@ -283,3 +285,14 @@ The bot must rotate between profiles to avoid detection:
     - **AI and Artificial Intelligence Dimension**: Renamed from "Intelligent Control Plane" for better industry alignment.
     - **Zero-to-Hero Grouping**: Implemented complexity-based levels (Fundamentals to Architect) for high-density learning paths.
     - **Special Assets Logic**: Integrated data/special_assets.yaml to ensure exhaustive preservation of critical lists (Introduction, YAML, Awesome repos).
+*   **May 2026**: **Modernization of CI/CD, MkDocs Features, and UI (Cyber Cloud)**:
+    - **Native GitHub Pages**: Migrated deployment to use native artifacts instead of the `gh-pages` branch for improved security and speed.
+    - **CI/CD Caching**: Implemented `cache: pip` via `requirements.txt` to significantly speed up build times.
+    - **V2 Elite Cyber Cloud Aesthetic**: Upgraded UI with high-contrast pure black backgrounds, neon cyan accents, advanced glassmorphism, and hover glow effects.
+    - **MkDocs Features Enabled**: Activated native Privacy Plugin (GDPR compliance), Pruned Navigation (performance), Social Cards in V1, Code Copy, Tab Sync, and Tooltips.
+    - **Announce Banner**: Added a global announcement banner to V1 directing users to the V2 Elite Portal.
+    - **Resilient Architectural Refinements (Phase 2)**:
+        - **Matrix Sharding for V2 Elite Builder**: Transformed `agentic_v2_builder.yml` to utilize a 64-node Matrix Strategy, parallelizing the massive AI evaluation phase and eliminating 6-hour timeouts or rate-limit crashes.
+        - **Pip Caching**: Implemented `cache: pip` across all 5 workflows to drastically reduce startup times and compute minutes.
+        - **Contribution Template (PR Guardian)**: Enforced strict GEMINI mandate compliance at the PR creation stage via `PULL_REQUEST_TEMPLATE.md`.
+        - **Exponential Backoff Resilience**: Upgraded the `call_gemini_with_retry` engine with the `tenacity` library, allowing intelligent pausing (4s, 8s, 16s) to gracefully absorb 429 Rate Limits before triggering the ultimate exit code 42 Circuit Breaker.

@@ -21,7 +21,10 @@ concurrency:
 jobs:
   intelligent-clean-process:
     runs-on: ubuntu-latest
-    # This job can now be triggered from any branch but will always checkout 'develop'
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63]
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
@@ -34,11 +37,12 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: '3.11'
+          cache: 'pip'
 
       - name: Dependencies Installation
         run: |
           python -m pip install --upgrade pip
-          pip install --no-cache-dir pydantic PyGithub aiohttp beautifulsoup4 httpx fake-useragent pytz python-dotenv playwright PyYAML
+          pip install --no-cache-dir pydantic PyGithub aiohttp beautifulsoup4 httpx fake-useragent pytz python-dotenv playwright PyYAML tenacity
 
       - name: Cache Playwright Binaries
         uses: actions/cache@v5
@@ -51,7 +55,7 @@ jobs:
         if: steps.playwright-cache.outputs.cache-hit != 'true'
         run: playwright install chromium --with-deps
 
-      - name: Global Intelligent Cleaning Execution
+      - name: Global Intelligent Cleaning Execution (Shard ${{ matrix.shard }})
         env:
           GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
           GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
@@ -60,16 +64,55 @@ jobs:
           PYTHONPATH: ${{ github.workspace }}
           PYTHONUNBUFFERED: 1
         run: |
-          python src/intelligent_health_checker.py
+          python src/intelligent_health_checker.py --shard-index ${{ matrix.shard }} --total-shards 64
+
+      - name: Upload Shard Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: shard-result-${{ matrix.shard }}
+          path: shard_result_*.json
+          retention-days: 1
+
+  merge-and-pr:
+    needs: intelligent-clean-process
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository Synchronization
+        uses: actions/checkout@v6
+        with:
+          ref: develop
+
+      - name: Python 3.11 Environment Provisioning
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Dependencies Installation
+        run: |
+          python -m pip install --upgrade pip
+          pip install --no-cache-dir pydantic PyGithub PyYAML python-dotenv tenacity
+
+      - name: Download all shard artifacts
+        uses: actions/download-artifact@v4
+
+      - name: Move artifacts to root
+        run: |
+          find . -name "shard_result_*.json" -exec mv {} . \;
+
+      - name: Run Inventory Reducer
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PYTHONPATH: ${{ github.workspace }}
+        run: |
+          python src/inventory_reducer.py
 
       - name: Open Triage Issue for High-Value Links
-        if: always()
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           if [ -f triage_report.md ]; then
             ISSUE_TITLE="🚨 Manual Triage Required: High-Value Links Failing ($(date +'%Y-%m-%d'))"
-            # Check if an open issue with the same title already exists to avoid duplicates
             EXISTING_ISSUE=$(gh issue list --search "$ISSUE_TITLE" --state open --json number --jq '.[0].number')
             
             if [ -z "$EXISTING_ISSUE" ]; then

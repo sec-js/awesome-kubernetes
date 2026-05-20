@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0-rc.2] - 2026-05-20
+
+### Added
+- **Announce Banner**: Added a global announcement banner to V1 directing users to the V2 Elite Portal.
+- **Dependency Caching**: Implemented `cache: pip` via `requirements.txt` to significantly speed up build times.
+- **MkDocs Features**: Activated native Privacy Plugin, Pruned Navigation, Social Cards in V1, Code Copy, Tab Sync, and Tooltips.
+
+### Changed
+- **CI/CD Deployment**: Migrated deployment to use native GitHub Pages artifacts (`upload-pages-artifact`, `deploy-pages`) instead of the `gh-pages` branch.
+- **V2 Elite Aesthetic**: Upgraded UI to "Cyber Cloud" style featuring high-contrast pure black backgrounds, neon cyan accents, and advanced glassmorphism.
+
 ## [2.0.0-rc.1] - 2026-05-19
 
 ### Added
