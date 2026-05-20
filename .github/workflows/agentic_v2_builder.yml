@@ -70,9 +70,8 @@ jobs:
       - name: Run V2 Agentic Optimizer (Shard ${{ matrix.shard }})
         env:
           GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
-          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ACTIVATE_BACKUP_KEY: ${{ github.event_name == 'push' && 'true' || github.event.inputs.activate_backup_key || 'false' }}
+          ACTIVATE_BACKUP_KEY: 'false'
           FORCE_FULL_CHECK: ${{ github.event.inputs.force_full_check || 'false' }}
           FORCE_EVAL: ${{ github.event.inputs.force_reevaluate || 'false' }}
           ENRICH_METADATA: ${{ github.event.inputs.enrich_metadata || 'false' }}
