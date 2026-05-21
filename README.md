@@ -33,7 +33,8 @@
     *   [5.2. V2: The Agentic Elite Edition](#52-v2-the-agentic-elite-edition)
     *   [5.3. Architecture Comparison Matrix: V1 vs. V2](#53-architecture-comparison-matrix-v1-vs-v2)
     *   [5.4. The Incremental Elite Engine](#54-the-incremental-elite-engine)
-    *   [5.5. Multi-Language Support Policy](#55-multi-language-support-policy)
+    *   [5.5. V2 Workflow Trigger Strategy (Manual Flags)](#55-v2-workflow-trigger-strategy-manual-flags)
+    *   [5.6. Multi-Language Support Policy](#56-multi-language-support-policy)
 6.  [6. The Unified Agentic Database (Knowledge Graph)](#6-the-unified-agentic-database-knowledge-graph)
     *   [6.1. Database Components](#61-database-components)
     *   [6.2. The 'Database-First' Reasoning Protocol (Zero-Redundancy)](#62-the-database-first-reasoning-protocol-zero-redundancy)
@@ -381,7 +382,24 @@ To maintain the high-density quality of V2 without redundant AI costs, the `V2Vi
 3. **UI Polish**: Implements strategic highlighting (`==text==`) for top-tier resources and a clean chronological view that hides unknown dates.
 4. **Flat Routing**: Both versions use `use_directory_urls: false` to ensure relative asset paths (`images/`) remain stable across all sub-pages.
 
-### 5.5. Multi-Language Support Policy
+### 5.5. V2 Workflow Trigger Strategy (Manual Flags)
+The **Nubenetes V2 Agentic Builder** workflow provides three manual checkboxes to control the intensity and depth of the curation run. Understanding when to use these flags is critical for balancing technical freshness with API quota management.
+
+| Flag Name | Technical Variable | Primary Effect | When to Activate | Resource Impact |
+| :--- | :--- | :--- | :--- | :--- |
+| **Force full re-validation** | `FORCE_FULL_CHECK` | Bypasses the 21-day health cache. Forces a live network (HTTP) check for **all 15k+ links**. | Quarterly audits or when widespread site migrations are suspected. | **High Network I/O** |
+| **Enrich GitHub Metadata** | `ENRICH_METADATA` | Bypasses the star/pushed cache. Fetches **fresh metadata from GitHub API** for all repositories. | Before major version releases (V2.x) to ensure accurate `[DE FACTO STANDARD]` tagging. | **Medium API calls (GH)** |
+| **Force AI re-evaluation** | `FORCE_EVAL` | Bypasses the AI description cache. Forces Gemini to **re-summarize and re-tag every link**. | When changing architectural standards or updating the 2026 taxonomy. | **Ultra High AI Cost** |
+
+#### 🚀 The 'Fast/Standard' Run Configuration (Recommended)
+To ensure an **instantaneous execution** that prioritizes the cache and avoids unnecessary delays, the workflow should be launched with **all checkboxes disabled**:
+*   **Force full re-validation:** ==OFF== (Avoids Phase 1 massive network checks).
+*   **Force AI re-evaluation:** ==OFF== (Avoids re-writing perfectly valid existing summaries).
+*   **Enrich GitHub Metadata:** ==OFF== (Avoids the initial Phase 2 delay of fetching stars).
+
+> **Mandate 47 Sync:** If `Force AI re-evaluation` or `Force full re-validation` are enabled, the system will automatically perform metadata enrichment to ensure the AI uses the most current evidence for its architectural decisions.
+
+### 5.6. Multi-Language Support Policy
 To embrace the diverse global Cloud Native community while maintaining international discoverability, Nubenetes implements a dual-layer linguistic strategy powered by a **Data-First Architecture**:
 
 - **Linguistic Data Persistence**: Language detection is treated as a core metadata attribute. The centralized database ([`data/inventory.yaml`](data/inventory.yaml)) stores resources using specific fields:
