@@ -339,7 +339,7 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                             payload_size = len(json.dumps(payload))
                             log_event(f"    [TELEMETRY] Attempting Key {current_idx+1} | Model: {model} | Payload: ~{payload_size//4} tokens")
                             
-                            response = await client.post(api_url, json=payload, timeout=60)
+                            response = await client.post(api_url, json=payload, timeout=180.0)
                             
                             resp_json = {}
                             try: resp_json = response.json()
@@ -405,7 +405,7 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                                 break 
                                 
                         except Exception as e:
-                            log_event(f"    [TELEMETRY] Exception during request: {e}")
+                            log_event(f"    [TELEMETRY] Exception during request: {type(e).__name__} - {e}")
                             SESSION_TRACKER.track_call(current_idx, model, 0, {}, role=role)
                             diagnostics.add_attempt(model, 0, str(e))
                             break 
