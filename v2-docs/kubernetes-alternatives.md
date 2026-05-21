@@ -209,7 +209,7 @@
 
 ## Container Orchestration
 
-### Kubernetes Alternatives
+### Kubernetes Alternatives (1)
 
 #### Case Studies
 

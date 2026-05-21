@@ -14,7 +14,7 @@
     ??? info "Technical Deep-Dive"
         An analytical article introducing Crossplane's architectural strategy. It outlines the core benefits of moving from static execution runs to active, continuously reconciling API-driven cloud control planes.
 
-#### Crossplane
+#### Crossplane (1)
 
   - **(2026)** [==crossplane.io==](https://www.crossplane.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 

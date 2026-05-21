@@ -187,7 +187,7 @@
     ??? info "Technical Deep-Dive"
         A historical industry retrospective tracing Istio's path to becoming the dominant service mesh specification. Details the consolidation of the service mesh ecosystem, the donation of Istio to the CNCF, and Solo.io's strategic alignment around Envoy and Istio technologies.
 
-#### Istio
+#### Istio (1)
 
 ##### Ingress and Gateways
 
@@ -381,7 +381,7 @@
 
 ### Service Mesh (3)
 
-#### Istio (1)
+#### Istio (2)
 
 ##### Performance Testing
 
@@ -394,7 +394,7 @@
 
 ### Service Mesh (4)
 
-#### Istio (2)
+#### Istio (3)
 
 ##### gRPC Monitoring
 

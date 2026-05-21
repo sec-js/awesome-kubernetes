@@ -9,6 +9,7 @@
     From manual curation to agentic intelligence.
 
 ### Ecosystem Map
+
 ```mermaid
 graph TD
     A[Foundations] --> B[AI & Intelligence]
