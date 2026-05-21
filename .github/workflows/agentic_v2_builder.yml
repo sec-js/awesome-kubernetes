@@ -25,7 +25,6 @@ on:
 permissions:
   contents: write
   pull-requests: write
-  workflows: write
 
 concurrency:
   group: v2-builder-${{ github.ref }}
@@ -90,6 +89,11 @@ jobs:
         run: |
           python src/readme_updater.py
           python src/safety_readme.py
+
+      - name: Safety Reset for Workflow Files (Security)
+        run: |
+          # Prevent security rejection by ensuring no workflow YAMLs are part of the PR
+          git checkout HEAD -- .github/workflows/
 
       - name: Create Pull Request for V2 Elite Update
         id: cpr
