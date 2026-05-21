@@ -1131,7 +1131,7 @@
     | [Trunk Based Development](https://trunkbaseddevelopment.com) |  | Branching Strategies | English | 🌟🌟🌟🌟🌟 |
     | [Git Flow](https://nvie.com/posts/a-successful-git-branching-model) |  | Branching Strategies | English | 🌟🌟🌟🌟🌟 |
     | [atlassian.com: Gitflow Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) |  | Branching Strategies | English | 🌟🌟🌟🌟 |
-    | [youtube: Git Flow Is A Bad Idea - Dave Farley ](https://www.youtube.com/watch?v=_w6TwnLCFwA&ab_channel=ContinuousDelivery) |  | Branching Strategies | English | 🌟🌟🌟🌟 |
+    | [youtube: Git Flow Is A Bad Idea - Dave Farley](https://www.youtube.com/watch?v=_w6TwnLCFwA&ab_channel=ContinuousDelivery) |  | Branching Strategies | English | 🌟🌟🌟🌟 |
     | [trunkbaseddevelopment.com: Alternative Branching Models](https://trunkbaseddevelopment.com/alternative-branching-models) |  | Branching Strategies | English | 🌟🌟🌟🌟 |
     | [paulhammant.com: What is Trunk-Based Development?](https://paulhammant.com/2013/04/05/what-is-trunk-based-development) |  | Branching Strategies | English | 🌟🌟🌟🌟 |
     | [gitkraken.com: GitFlow](https://support.gitkraken.com/git-workflows-and-extensions/git-flow) |  | Branching Strategies | English | 🌟🌟🌟 |
