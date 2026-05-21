@@ -816,7 +816,7 @@ oc login
 ## Developer Sandbox
 
 - [developers.redhat.com: Operator pattern: REST API for Kubernetes and Red Hat OpenShift 🌟](https://developers.redhat.com/blog/2020/01/22/operator-pattern-rest-api-for-kubernetes-and-red-hat-openshift)
-- [developers.redhat.com: Welcome to the Developer Sandbox for Red Hat OpenShift ](https://developers.redhat.com/developer-sandbox) Get free access to the Developer Sandbox for Red Hat OpenShift and deploy your application code as a container on this self-service, cloud-hosted experience. Skip installations and deployment and jump directly into OpenShift.
+- [developers.redhat.com: Welcome to the Developer Sandbox for Red Hat OpenShift](https://developers.redhat.com/developer-sandbox) Get free access to the Developer Sandbox for Red Hat OpenShift and deploy your application code as a container on this self-service, cloud-hosted experience. Skip installations and deployment and jump directly into OpenShift.
 
 ## OpenShift Topology View
 

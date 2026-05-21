@@ -1,4 +1,5 @@
 import os
+import sys
 from datetime import datetime
 
 # Ruta por defecto para el log local (fuera del repo)
@@ -14,11 +15,14 @@ def log_event(message: str, section_break: bool = False):
     
     if section_break:
         separator = "=" * 60
-        print(f"\n{separator}\n{formatted_msg}\n{separator}")
+        print(f"\n{separator}\n{formatted_msg}\n{separator}", flush=True)
         _write_to_file(f"\n{separator}\n{formatted_msg}\n{separator}")
     else:
-        print(formatted_msg)
+        print(formatted_msg, flush=True)
         _write_to_file(formatted_msg)
+    
+    # Mandate 13: Ensure immediate visibility and prevent GHA agent stuttering
+    sys.stdout.flush()
 
 def _write_to_file(message: str):
     # Only try to write to file if not in GitHub Actions

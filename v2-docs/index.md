@@ -1,4 +1,4 @@
-# Nubenetes Elite Portal (V2) | Nubenetes: Awesome Kubernetes & Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Nubenetes Elite Portal (V2) | Awesome Kubernetes & Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 <center markdown="1">
 [![Banner](images/kubernetes_logo.jpg)](https://kubernetes.io)
@@ -28,7 +28,7 @@
 [![Azure Terraformer](images/azure-terraformer.jpg){: style="width:7%"}](https://www.youtube.com/@azure-terraformer) [![Ned in the Cloud](images/nedinthecloud.jpg){: style="width:7%"}](https://www.youtube.com/@NedintheCloud) [![netbox](images/netboxlabs_logo.jpg){: style="width:7%"}](https://www.youtube.com/@NetBoxLabs) [![Tech with Helen](images/techwithhelen.jpg){: style="width:7%"}](https://www.youtube.com/@techwithhelen) [![bytebytego](images/bytebytego.jpg){: style="width:7%"}](https://www.youtube.com/@ByteByteGo) [![dotcsv](images/dotcsv.jpg){: style="width:7%"}](https://www.youtube.com/@DotCSV) [![midulive](images/midulive.jpg){: style="width:7%"}](https://www.youtube.com/@midulive) [![returngis](images/returngis_logo.jpg){: style="width:7%"}](https://www.youtube.com/@returngis) [![kubefm](images/kubefm_logo.jpg){: style="width:7%"}](https://www.youtube.com/@kubefm)
 </center>
 
-## ⚡ The Agentic Pulse
+## The Agentic Pulse
 
 
 ## Strategic Dimensions
@@ -202,7 +202,7 @@
 
 ***
 
-## 💎 The Maturity Taxonomy
+## The Maturity Taxonomy
 
 To ensure industrial-grade precision, every resource in V2 is classified using our proprietary 5-tier maturity system:
 
@@ -214,7 +214,7 @@ To ensure industrial-grade precision, every resource in V2 is classified using o
 | **`[GUIDE]`** | Strategic knowledge. | High-quality tutorials, architectural deep-dives, and decision matrices. |
 | **`[LEGACY]`** | Historical context. | Established tools that are being replaced or are primarily for maintaining older stacks. |
 
-## 🌟 Technical Impact (Relevance Score)
+## Technical Impact (Relevance Score)
 
 The stars accompanying each resource represent its **Technical Impact** and **Architectural Relevance** for a 2026 Senior Architect:
 

@@ -72,7 +72,6 @@
 Metric|Details / Reference
 :---|:---
 GC Throughput|**Repeated Full GC happens way before OutOfMemoryError**<br/> [ref1](https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1)<br/>[ref2](https://blog.gceasy.io/2019/03/13/micrometrics-to-forecast-application-performance)
-etc|
 
 ### Common JVM Errors
 
@@ -80,7 +79,6 @@ JVM Error|Details / Reference
 :----|:----
 OutOfMemoryError|**Repeated Full GC happens way before OutOfMemoryError** <br/> [ref1](https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1)<br/>[ref2](https://blog.gceasy.io/2019/03/13/micrometrics-to-forecast-application-performance)
 StackOverflowError|[ref](https://blog.fastthread.io/2018/09/24/stackoverflowerror)
-etc|
 
 ### Tuning Jenkins GC
 

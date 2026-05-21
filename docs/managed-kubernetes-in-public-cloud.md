@@ -507,7 +507,7 @@
 - [docs.digitalocean.com: Kubernetes on DigitalOcean](https://docs.digitalocean.com/products/kubernetes)
 - [digitalocean.com: Automating GitOps and Continuous Delivery With DigitalOcean Kubernetes (Terraform, Helm and Flux)](https://www.digitalocean.com/community/tech-talks/automating-gitops-and-continuous-delivery-with-digitalocean-kubernetes)
 - [blog.ediri.io: DigitalOcean Kubernetes Challenge](https://blog.ediri.io/digitalocean-kubernetes-challenge) Deploy a GitOps CI/CD implementation
-- [digitalocean.com: Kubernetes for startups: Why, when, and how to adopt  ](https://www.digitalocean.com/resources/articles/kubernetes-for-startups)
+- [digitalocean.com: Kubernetes for startups: Why, when, and how to adopt](https://www.digitalocean.com/resources/articles/kubernetes-for-startups)
 
 ## Oracle Cloud Kubernetes
 
@@ -531,7 +531,7 @@
 ## Giant Swarm
 
 - [Giant Swarm](https://www.giantswarm.io) Giant Swarm offers a fully managed, open source Kubernetes platform with all the flexibility and support you need.
-- [giantswarm.io: ](https://www.giantswarm.io/blog/turtles-all-the-way-down-are-still-just-turtles-giant-swarm) We decided to go all-in with Cluster API (CAPI). "Time and again, we have seen open source win. It won with Kubernetes, and it will win with CAPI. We will continue to add our secret sauce to make it easily accessible to enterprise customers."
+- [giantswarm.io:](https://www.giantswarm.io/blog/turtles-all-the-way-down-are-still-just-turtles-giant-swarm) We decided to go all-in with Cluster API (CAPI). "Time and again, we have seen open source win. It won with Kubernetes, and it will win with CAPI. We will continue to add our secret sauce to make it easily accessible to enterprise customers."
 
 ## Tools for multi-cloud Kubernetes management
 

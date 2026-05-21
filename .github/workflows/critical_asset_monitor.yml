@@ -18,15 +18,16 @@ jobs:
         with:
           ref: develop
 
-      - name: Python Environment Provisioning
+      - name: Python 3.11 Environment Provisioning
         uses: actions/setup-python@v6
         with:
           python-version: '3.11'
+          cache: 'pip'
 
       - name: Dependencies Installation
         run: |
           python -m pip install --upgrade pip
-          pip install --no-cache-dir httpx PyYAML PyGithub beautifulsoup4
+          pip install --no-cache-dir httpx PyYAML PyGithub beautifulsoup4 tenacity
           
       - name: Critical Health Audit Execution
         env:
@@ -43,7 +44,7 @@ jobs:
               with open('data/inventory.yaml', 'r') as f:
                   inv = yaml.safe_load(f) or {}
               
-              critical_links = [u for u, d in inv.items() if d.get('tag') in ['[DE FACTO STANDARD]', '[ENTERPRISE-STABLE]']]
+              critical_links = [u for u, d in inv.items() if any(t in ['[DE FACTO STANDARD]', '[ENTERPRISE-STABLE]'] for t in d.get('tags', []))]
               print(f'[*] Auditing {len(critical_links)} critical assets...')
               
               dead = []
@@ -65,10 +66,13 @@ jobs:
                   with open('data/inventory.yaml', 'w') as f:
                       yaml.dump(inv, f, sort_keys=False, allow_unicode=True)
                   
+                  with open('data/inventory.yaml', 'r') as f:
+                      updated_inv = f.read()
+                  
                   # Create PR/Issue
                   git = RepositoryController(os.environ['GH_TOKEN'], 'nubenetes/awesome-kubernetes')
                   body = '### 🚨 Critical Assets Offline\n\n' + '\n'.join([f'- {u}' for u in dead])
-                  git.apply_multi_file_changes({'data/inventory.yaml': yaml.dump(inv)}, {'removals': len(dead)})
+                  git.apply_multi_file_changes({'data/inventory.yaml': updated_inv}, {'removals': len(dead)})
                   print('[OK] Inventory updated and PR created.')
               else:
                   print('[OK] All critical assets are online.')

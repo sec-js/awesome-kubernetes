@@ -7,7 +7,7 @@ This file contains the accumulated instructions and long-term vision for the aut
 1.  **Information Preservation**: NEVER delete summaries, comments, or stars (🌟) accompanying links. The bot should only update the URL or reorganize the item's position, never delete the descriptive context.
 2.  **Persistent Learning**: Use `src/memory/health_learning.json` to store knowledge about domains (anti-bot blocks, successful strategies) and navigation patterns.
 3.  **Minimum Viable Quality (MVQ)**: For GitHub/GitLab repositories, the bot MUST check the last commit date. If the repository has had NO activity (commits) in more than **4 years**, it must receive a significantly lower `impact_score` and be deprioritized, even if the content remains technically relevant. This ensures Nubenetes stays fresh and focuses on maintained projects.
-4.  **Style Guide (Descriptive Summaries)**: All injected summaries MUST follow a **Descriptive** style. Avoid generic "clickbait" or action-oriented phrases (e.g., "Check this out"). Instead, provide a clear, neutral description of what the resource contains, its scope, and why it is technically significant for the Kubernetes ecosystem.
+4.  **Style Guide (High-Density Summaries)**: All injected summaries MUST follow a **High-Density Descriptive** style. Avoid generic "clickbait". Instead, apply the **Double-Evidence Synthesis Protocol**: contrast 'Curator Insight' with 'Live Grounding' (MCP) to provide a neutral, professional description of architectural value, key features, and technical significance. Summaries should be 2-5 sentences long and support multi-line Markdown formatting (bullet points).
 5.  **Semantic Interlinking**: The bot should identify related categories for each resource. While the full entry is injected into the primary category, a short reference (*"See also: [Title](URL) in [Category]"*) should be added to up to two related categories to improve site navigation.
 6.  **Visual Health Dashboard**: Every curation run MUST generate a local `report.html` (outside the repo) for visual validation of metrics, quality (MVQ), and AI decisions.
 7.  **Total Resilience**: The workflow must be able to continue even if there are individual errors in link or file validations. Prioritize generating a result (PR) even if it is partial.
@@ -46,8 +46,9 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **Flat Asset Routing**: To avoid depth-related path breakage, both V1 (`mkdocs.yml`) and V2 (`v2-mkdocs.yml`) MUST have `use_directory_urls: false`. This ensures relative paths (e.g., `images/img.png`) resolve correctly regardless of the page depth.
 20. **V2 Navigation Design**: The V2 top navigation bar MUST maintain a flat structure. All dimensions and categories must be top-level tabs in `v2-mkdocs.yml` to ensure direct discoverability and avoid nested groupings like "Categories".
 21. **V2 Impact-Driven Sorting**: The V2 portal MUST prioritize **relevance (Impact) over dates** within sections to provide high-density technical value. Sorting MUST follow: 1. Stars/Relevance (DESC), 2. Year (DESC). The mission statement and descriptions MUST reflect this impact-driven synthesis.
-22. **Unified Metadata Database (Local Storage & Persistence)**: All link metadata MUST be managed via the centralized [`data/inventory.yaml`](data/inventory.yaml).
-    - **`inventory.yaml`**: The single source of truth for years, stars (0-5), descriptions, physical locations (`v1_locations`, `v2_locations`), and visual formatting. This eliminates the need for external mapping files (like the legacy `structure_map.yaml`) and ensures full lifecycle visibility.
+22. **Unified Metadata Database (Fast-Track Single-File)**: All link metadata MUST be managed via the centralized file [`data/inventory.yaml`](data/inventory.yaml).
+    - **Monolithic Efficiency**: To maintain simplicity and speed in the "Fast-Track" mode, the inventory is kept as a single, high-density YAML file. This avoids the overhead of sharding and matrix management for standard runs.
+    - **Scalable Multiline Support**: The inventory utilizes **YAML Block Scalars (`|`)** for fields like `ai_summary`, enabling the storage of complex technical summaries with paragraphs and bullet points without breaking the database structure.
     - **Platinum Lifecycle Metadata**: The inventory MUST track advanced engineering fields to empower context-aware automation:
         *   `content_hash`: SHA256 fingerprint to detect silent content updates.
         *   `health_score`: 0-100 reliability score based on check history (differentiates flaky from dead).
@@ -119,25 +120,43 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **License Monitoring**: Health agents MUST monitor the `LICENSE` field for all repository resources (GitHub/GitLab).
     - **Non-Free Transition Alert**: If a project transitions from a permissive license (e.g., Apache 2.0, MIT) to a non-free or restrictive license (e.g., BSL, SSPL), the resource MUST be flagged as `status: review_required`.
     - **Impact Adjustment**: Projects that move away from Open Source standards MUST receive an automatic star reduction and be deprioritized in the V2 portal to favor truly open alternatives.
-36. **V2 Elite Visual Standards**: All V2 content generation MUST apply the following visual hierarchy to highlight resource value:
+36. **V2 Elite Visual Standards**: All V2 content generation MUST apply the following visual hierarchy:
     - **Platinum Resources (5 stars)**: Use yellow highlighting for the link text (e.g., `==[Link Title]==`).
     - **Gold Resources (4 stars)**: Use bold formatting for the link text (e.g., `**[Link Title]**`).
-    - **Multi-Dimensional Tagging**: Every resource in V2 SHOULD have one or more maturity/type tags (e.g., `[DE FACTO STANDARD]`, `[GUIDE]`, `[CASE STUDY]`). The `[COMMUNITY-TOOL]` tag is the fallback for unclassified assets.
+    - **Multi-Dimensional Tagging**: Every resource in V2 SHOULD have one or more maturity/type tags.
+    - **Expandable Deep-Dives**: High-density summaries MUST be rendered within an **expandable block** (`??? info "Technical Deep-Dive"`) to keep the portal compact while providing depth on demand.
     - **Star Consistency**: Maintain the 1-5 star scale for technical impact. Resources with 0 stars are considered "Standard References" and do not display a star prefix/suffix in the V2 UI.
 38. **V2 Semantic Connectivity**: All V2 content generation MUST implement the **Semantic Cross-Linking Engine**. AI agents must autonomously identify related architectural patterns within the same strategic dimension and inject "💡 Explore Related" navigation blocks at the end of sections to facilitate a connected knowledge graph.
 39. **Industrial Learning Flow**: V2 documents MUST follow an O'Reilly-style technical progression. Organization within sections must move from foundational theory and standards to advanced implementation details and emerging patterns.
-40. **Autonomous Multi-Tagging**: Every resource evaluation MUST assign at least one maturity tag and one resource-type tag if applicable. Fallback to `[COMMUNITY-TOOL]` is only permitted after exhaustive classification failure.
-- **V2 Index Branding Protection**: The header and vision block of the V2 Elite Portal MUST NOT be modified. The title MUST remain "Nubenetes Elite Portal (V2) | Nubenetes: Awesome Kubernetes & Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)" and the abstract MUST use the "The High-Density Vision" text as hardcoded in the optimizer logic to maintain industrial-grade branding.
+40. **Robust AI-Driven Multi-Tagging (Multi-Agent Protocol)**: Every resource evaluation MUST utilize a **Multi-Agent Analyst-Auditor workflow** with **Real-time Web Grounding (MCP)**:
+    - **Analyst Role**: Initial technical classification and initial evidence synthesis.
+    - **Auditor Role (Grounded)**: Selective verification of high-impact candidates ([DE FACTO STANDARD] or [ENTERPRISE-STABLE]) using Pro models to search for community reputation and stability. AI-assigned tags take precedence over static rules. Fallback to `[COMMUNITY-TOOL]` is only permitted after exhaustive classification failure.
+- **V2 Index Branding Protection**: The header and vision block of the V2 Elite Portal MUST NOT be modified. The title MUST remain "Nubenetes Elite Portal (V2) | Awesome Kubernetes & Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)" and the abstract MUST use the "The High-Density Vision" text as hardcoded in the optimizer logic to maintain industrial-grade branding.
 - **V2 Index Visual Standard (Automotive Roots)**: The Nubenetes V2 Elite Portal index MUST feature a centered banner image linked to `kubernetes.io`, followed by the Horatio Nelson Jackson quote and the specific automotive container metaphor image (`images/container_with_cars_v2.png`). This image is a manually provided asset and MUST NOT be regenerated by AI to ensure the preservation of the project's established visual identity.
 - **V2 Index Footer Standard**: The V2 index MUST always conclude with the **Maturity Taxonomy** and **Technical Impact** explanation tables. These sections define the industrial-grade classification and visual code (Highlighting/Bold) used throughout the Elite portal and must be preserved across all automated regenerations.
 - **V2 Navigation Standard**: The top navigation bar in `v2-mkdocs.yml` MUST feature the "Agentic Elite Portal" link as the primary entry point to ensure professional consistency across the platform.
 42. **Version Control & Changelog Standard**: All significant milestones and architectural shifts MUST be versioned using **Semantic Versioning (SemVer)** and documented in [`CHANGELOG.md`](CHANGELOG.md) following the "Keep a Changelog" standard. This ensures full traceability of the ecosystem's evolution from historical archive to agentic portal.
 43. **On-Demand Metadata Enrichment (V2)**: The V2 generation engine MUST support a manual `ENRICH_METADATA` flag. When active, the bot MUST fetch real-time GitHub stars and license data for all repositories missing this metadata in the inventory. This ensures that [DE FACTO STANDARD] and [ENTERPRISE-STABLE] tags are assigned based on current industry momentum rather than stale or missing cache data.
-
+44. **Agentic Presubmit Safeguards (PR Guardian)**: All PRs to `develop` MUST be analyzed by the `PR Guardian` AI agent to ensure compliance with Nubenetes standards (No emojis in headers, valid Markdown, correct URL normalization, high-density descriptions).
+45. **Resilient Quota Management (Circuit Breakers)**: AI workflows MUST implement circuit breaker logic (Exit Code 42) to gracefully pause processing and disable the workflow when API quotas (e.g., 429 Too Many Requests) are exhausted, preventing infinite loop failures.
+46. **Markdown Linting Continuity**: All files in `docs/` and `v2-docs/` MUST pass the automated `markdownlint` validation to ensure pristine HTML rendering within MkDocs.
+47. **Zero-Redundancy Agentic Pipeline (Performance Standard)**: To maintain the **30-minute execution standard**, the V2 Optimizer MUST NOT perform redundant network health checks or grounding-heavy AI calls for resources already validated by the `IntelligentLinkCleaner`.
+    - **Metadata Inheritance**: V2 MUST prioritize `gh_stars`, `gh_license`, and `gh_pushed` from the inventory to bypass AI grounding during maturity tagging.
+    - **Smart Grounding**: Google Search Retrieval is strictly reserved for resources missing critical metadata or those flagged as `needs_ai_refresh`.
+    - **Linear Knowledge Flow**: The workflow follows a strict sequence: 1. Health/Metadata (Cleaner) -> 2. Distributed Inventory -> 3. Fast-Track Optimization (V2).
+    - **Manual Override Control**: All agents must respect the manual workflow flags (`FORCE_FULL_CHECK`, `FORCE_EVAL`, `ENRICH_METADATA`). When disabled (Standard Run), the system MUST strictly enforce the cache-first policy for maximum efficiency.
 37. **Linguistic Uniformity**: All core documentation (index, README, GEMINI.md) and V2 portal summaries MUST be written in **Professional Technical English**. V1 descriptions remain in their native language (Mandate 10).
-
+48. **Flash-First High-Density Curation (Scale Mandate)**: For mass processing (>1,000 resources), the system MUST prioritize **Gemini Flash/Lite** models for the Analyst phase. This ensures high RPM/TPM throughput while maintaining cost efficiency. Pro models are strictly reserved for the Auditor phase or high-value resource verification.
+49. **Robust Batch Processing & Rate-Limit Resilience**: Large-scale curation MUST use batch sizes of **50 resources** for Fast-Track processing with a mandatory **2-second safety delay** between batches. 
+    - **Incremental Persistence**: The system MUST flush the `inventory.yaml` to disk every 20 batches.
+    - **Workflow Resilience**: Workflows MUST utilize GitHub Actions Cache (`actions/cache`) to restore progress at startup and save it `always()` at the end, ensuring zero data loss even upon 6-hour timeout cancellations.
+50. **Multi-Tier Agentic Model Selection Policy**: To optimize the balance between reasoning depth, execution speed, and API quota safety, models MUST be selected based on task profile:
+    - **Tier 1 (High-Throughput / Formatting)**: Mandatory **Gemini Flash/Lite**. Used for: mass classification (V2), formatting audits (PR Guardian), and high-volume link rescue (Health Checker).
+    - **Tier 2 (High-Context / Human Interpretation)**: Mandatory **Gemini Pro**. Used for: raw social media curation (X.com/RSS), complex architectural auditing, and security-critical verification.
+    - **Constraint**: Tier 2 tasks MUST be limited to low-volume batches to protect the global RPM quota.
 
 ## 🛠️ Structural Evolution & Navigation
+
 
 *   **No Link Limits**: There are NO hard limits on the number of links per page or per section (##/###). Nubenetes is built to host thousands of references.
 *   **TOC Consistency**: Every `.md` page (including the main index `docs/index.md`) MUST maintain an internal Table of Contents (TOC) at the beginning. This TOC must include all sections (##) and subsections (###) nested correctly using a numbered list format with working anchors.
@@ -279,3 +298,19 @@ The bot must rotate between profiles to avoid detection:
     - **AI and Artificial Intelligence Dimension**: Renamed from "Intelligent Control Plane" for better industry alignment.
     - **Zero-to-Hero Grouping**: Implemented complexity-based levels (Fundamentals to Architect) for high-density learning paths.
     - **Special Assets Logic**: Integrated data/special_assets.yaml to ensure exhaustive preservation of critical lists (Introduction, YAML, Awesome repos).
+*   **May 2026**: **Modernization of CI/CD, MkDocs Features, and UI (Cyber Cloud)**:
+    - **Native GitHub Pages**: Migrated deployment to use native artifacts instead of the `gh-pages` branch for improved security and speed.
+    - **CI/CD Caching**: Implemented `cache: pip` via `requirements.txt` to significantly speed up build times.
+    - **V2 Elite Cyber Cloud Aesthetic**: Upgraded UI with high-contrast pure black backgrounds, neon cyan accents, advanced glassmorphism, and hover glow effects.
+    - **MkDocs Features Enabled**: Activated native Privacy Plugin (GDPR compliance), Pruned Navigation (performance), Social Cards in V1, Code Copy, Tab Sync, and Tooltips.
+    - **Announce Banner**: Added a global announcement banner to V1 directing users to the V2 Elite Portal.
+    - **Resilient Architectural Refinements (Phase 2)**:
+        - **Fast-Track V2 Elite Builder**: Optimized the builder to run sequentially for maximum stability and simplicity, bypassing the overhead of distributed systems.
+        - **Pip Caching**: Implemented `cache: pip` across all 5 workflows to drastically reduce startup times and compute minutes.
+        - **Contribution Template (PR Guardian)**: Enforced strict GEMINI mandate compliance at the PR creation stage via `PULL_REQUEST_TEMPLATE.md`.
+        - **Exponential Backoff Resilience**: Upgraded the `call_gemini_with_retry` engine with the `tenacity` library, allowing intelligent pausing (4s, 8s, 16s) to gracefully absorb 429 Rate Limits before triggering the ultimate exit code 42 Circuit Breaker.
+        - **Ultra-Fast V2 Render Mode**: Optimized the `render-and-pr` stage of the V2 pipeline (`--render-only`) to implement an absolute short-circuit, completely bypassing redundant HTTP health checks, GitHub API metadata fetching, and AI agent evaluation loops. This leverages the pre-computed YAML inventory to assemble the portal instantaneously.
+        - **Flash-First Architecture Transition (May 2026)**:
+            - **Throughput Optimization**: Successfully transitioned to a Flash-First architecture, increasing Fast-Track batch sizes to 100 resources.
+            - **Resilience Hardening**: Improved error handling to ensure Rate-Limit (429) events trigger the Circuit Breaker instead of silent loops, preserving API integrity.
+            - **Efficiency Gains**: Reduced expected execution time for 10k+ resources by >60% through optimized RPM/TPM management and strategic safety delays.

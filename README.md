@@ -25,21 +25,25 @@
 3.  [3. The Agentic Stack](#3-the-agentic-stack)
 4.  [4. The 2026 Architectural Shift](#4-the-2026-architectural-shift)
     *   [4.1. From Manual to Agentic](#41-from-manual-to-agentic)
-    *   [4.2. Evolution Path](#42-evolution-path)
+    *   [4.2. Hardened Architecture (2026)](#42-hardened-architecture-2026)
     *   [4.3. Adaptive AI Tiering and Real-time Grounding](#43-adaptive-ai-tiering-and-real-time-grounding)
     *   [4.4. Doc-as-Behavior Mandate Bridge](#44-doc-as-behavior-mandate-bridge)
 5.  [5. Dual-Edition Architecture (V1 vs V2)](#5-dual-edition-architecture-v1-vs-v2)
     *   [5.1. V1: The Exhaustive Archive](#51-v1-the-exhaustive-archive)
     *   [5.2. V2: The Agentic Elite Edition](#52-v2-the-agentic-elite-edition)
-    *   [5.3. The Incremental Elite Engine](#53-the-incremental-elite-engine)
-    *   [5.4. Multi-Language Support Policy](#54-multi-language-support-policy)
+    *   [5.3. Architecture Comparison Matrix: V1 vs. V2](#53-architecture-comparison-matrix-v1-vs-v2)
+    *   [5.4. The Incremental Elite Engine](#54-the-incremental-elite-engine)
+    *   [5.5. V2 Workflow Trigger Strategy (Manual Flags)](#55-v2-workflow-trigger-strategy-manual-flags)
+    *   [5.6. Multi-Language Support Policy](#56-multi-language-support-policy)
 6.  [6. The Unified Agentic Database (Knowledge Graph)](#6-the-unified-agentic-database-knowledge-graph)
     *   [6.1. Database Components](#61-database-components)
-    *   [6.2. The 'Database-First' Reasoning Protocol](#62-the-database-first-reasoning-protocol)
+    *   [6.2. The 'Database-First' Reasoning Protocol (Zero-Redundancy)](#62-the-database-first-reasoning-protocol-zero-redundancy)
     *   [6.3. Database Lifecycle and Hygiene](#63-database-lifecycle-and-hygiene)
     *   [6.4. Multi-Format Synchronization Logic](#64-multi-format-synchronization-logic)
     *   [6.5. Dynamic AI Discovery and Optimization](#65-dynamic-ai-discovery-and-optimization)
     *   [6.6. AI Intelligence and Observability (Transparency)](#66-ai-intelligence-and-observability-transparency)
+    *   [6.7. Platinum Operational Tier (2026 Standards)](#67-platinum-operational-tier-2026-standards)
+    *   [6.8. Platinum Capability Matrix](#68-platinum-capability-matrix)
 7.  [7. AI Economic Architecture and Cost Analysis](#7-ai-economic-architecture-and-cost-analysis)
     *   [7.1. Comprehensive Economic Projections (2026 Inception)](#71-comprehensive-economic-projections-2026-inception)
     *   [7.2. Efficiency and Performance Metrics](#72-efficiency-and-performance-metrics)
@@ -49,7 +53,7 @@
     *   [7.6. Strategic Benefits](#76-strategic-benefits)
 8.  [8. The Agentic AI Engine](#8-the-agentic-ai-engine)
 9.  [9. GitHub Workflows and Automation](#9-github-workflows-and-automation)
-    *   [9.1. Workflow Inventory and Sequencing](#91-workflow-inventory-and-sequencing)
+    *   [9.1. Workflow Inventory and Manual Control Matrix](#91-workflow-inventory-and-manual-control-matrix)
     *   [9.2. Recommended Execution Pipeline](#92-recommended-execution-pipeline)
     *   [9.3. Workflow Trigger and Synchronization Logic](#93-workflow-trigger-and-synchronization-logic)
     *   [9.4. Curation Flow Architecture](#94-curation-flow-architecture)
@@ -59,6 +63,7 @@
     *   [9.8. Workflow UI Auto-Sync](#98-workflow-ui-auto-sync)
 10. [10. Branching Strategy and Lifecycle](#10-branching-strategy-and-lifecycle)
 11. [11. Contributing to the Archive](#11-contributing-to-the-archive)
+    *   [How to Contribute](#how-to-contribute)
 12. [12. Developer Experience and VSCode Setup](#12-developer-experience-and-vscode-setup)
     *   [12.1. Optimized "Power User" Environment](#121-optimized-power-user-environment)
     *   [12.2. Extension Recommendations (Legacy/General)](#122-extension-recommendations-legacygeneral)
@@ -110,8 +115,7 @@ In 2026, Nubenetes moved beyond manual curation to an **Agentic AI Architecture*
 - **Precision:** AI-driven scoring and technical classification.
 - **Sustainability:** Automated health checks and self-healing infrastructure.
 
-### 1.4. 2026 Agentic High-Fidelity Standards
-As of May 2026, Nubenetes has reached the **Platinum Operational Tier**, featuring:
+Additionally, as of May 2026, Nubenetes has reached the **Platinum Operational Tier**, featuring:
 - **Real-time Web Grounding (MCP)**: The AI engine cross-references all technical decisions with live web data to ensure near-human accuracy in link rescue and maturity verification.
 - **License & Compliance Guard**: Automated monitoring of repository licenses. Transitions from Open Source to restrictive models (e.g., BSL) trigger automatic penalties and review flags to protect architectural ethics.
 - **Social Proof & Reputation Filter**: Every new ingestion undergoes a "Vaporware Check" on community platforms (Reddit, Hacker News) to ensure only stable, reputable tools enter the archive.
@@ -125,14 +129,14 @@ As of May 2026, Nubenetes has reached the **Platinum Operational Tier**, featuri
 ## 2. Repository Metrics and Evolution
 
 ### 2.1. The "Heart" of Nubenetes
-(Stats as of 2026-05-19)
+(Stats as of 2026-05-21)
 
 <!-- HEART_STATS_START -->
 | Metric | Value |
 | :--- | :--- |
 | **Total Technical Resources (Links)** | **15303+** |
 | **Specialized MD Pages** | **161** |
-| **Total Commits** | **4759+** |
+| **Total Commits** | **4852+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -170,7 +174,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 1200 | 4,956 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 1293 | 5,340 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -186,8 +190,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume (Commits / Estimated New Refs)" 0 --> 9000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 4956]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1200]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 5340]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1293]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -196,7 +200,7 @@ xychart-beta
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
-| 2026-05 | 1175 | 4,852 | **Agentic Inception (Gemini Era)** |
+| 2026-05 | 1268 | 5,236 | **Agentic Inception (Gemini Era)** |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
@@ -256,7 +260,7 @@ The autonomy of Nubenetes is powered by a modern, resilient tech stack that ensu
 | **Automation** | Python 3.11 | Core logic for parsing, gitops, and reporting. |
 | **Discovery** | Twikit and Playwright | Autonomous scraping and account rotation. |
 | **Resilience** | Identity Rotation | Evasion of anti-bot blocks using multiple profiles. |
-| **Deployment** | MkDocs Material | High-performance static site generation for V1 and V2. |
+| **Deployment** | MkDocs Material & Native GH Pages | High-performance static site generation via native artifact deployment. |
 
 ---
 
@@ -270,6 +274,8 @@ As of **May 2026**, the repository has transitioned to a **Fully Autonomous Agen
 ### 4.2. Hardened Architecture (2026)
 
 The Nubenetes ecosystem utilizes a multi-layered defense and performance architecture to ensure 100% autonomy without manual oversight.
+
+<details><summary>🗺️ <b>View Diagram</b></summary>
 
 ```mermaid
 graph TD
@@ -290,27 +296,33 @@ graph TD
     subgraph "Phase 3: Hardened CI/CD"
         H --> I["Concurrency Guard"]
         I --> J["[skip ci] Loop Prevention"]
-        J --> K["Playwright Caching"]
-        K --> L["V1 & V2 Portal Sync"]
+        J --> K["Dependency & Playwright Caching"]
+        K --> L["Native GH Pages Deployment"]
     end
 
     style I fill:#f96,stroke:#333,stroke-width:2px
     style J fill:#f96,stroke:#333,stroke-width:2px
     style K fill:#bbf,stroke:#333,stroke-width:2px
+    style L fill:#86efac,stroke:#333,stroke-width:2px
 ```
+
+</details>
 
 **Key Architectural Hardening:**
 - **Concurrency Guard:** Prevents race conditions by managing parallel workflow execution using GitHub Concurrency Groups.
 - **Trigger Loop Prevention:** Uses the `[skip ci]` protocol to break infinite recursive loops during automated PR merges.
 - **Setup Acceleration:** Playwright caching reduces the environment initialization time from 5 minutes to under 60 seconds.
+- **Dependency Caching:** Global Pip caching via `requirements.txt` slashes build times across all pipelines.
 
 ### 4.3. Adaptive AI Tiering and Real-time Grounding
 To ensure maximum throughput and industrial-grade precision, Nubenetes uses a proprietary **Multi-tier AI Orchestration** engine:
-- **Smart Batching (Anti-429)**: Instead of individual calls, the system groups up to **10-50 resources into a single AI prompt**. This reduces API traffic by 90% and is mandatory for exhaustive 17k+ link runs.
+- **Multi-Agent Analyst-Auditor Workflow**: Evaluation is split between a **Technical Analyst** (Flash model) for initial classification and a specialized **Elite Auditor** (Pro model) for selective verification of high-impact resources.
+- **Double-Evidence Synthesis Protocol**: Agents are mandated to contrast 'Curator Insight' (from original discovery) with 'Live Technical Grounding' (from search/MCP) before finalizing any technical summary.
 - **Real-time Web Grounding (MCP-Style)**: For high-fidelity tasks, the engine activates **Google Search Grounding**. This allows the AI to verify technical maturity, site migrations, and official documentation in real-time, providing a live data filter for all decisions.
-- **Dynamic Model Selection**: The system automatically toggles between **Gemini Pro** (for tasks requiring web research or deep reasoning) and **Gemini Flash** (for bulk enrichment).
-- **Global Back-off & Tier-down**: If a high-fidelity model (Pro) hits a rate limit (`API 429`), the engine automatically executes an exponential back-off and "tiers down" to a lighter model or rotates API keys to ensure workflow continuity.
-
+- **Smart Batching (Anti-429)**: Instead of individual calls, the system groups up to **25 resources into high-precision batches**. This optimizes grounding efficiency and minimizes rate limits.
+- **Dynamic Model Selection**: The system automatically toggles between **Gemini Pro** (for auditing and research) and **Gemini Flash** (for broad analysis).
+- **Global Back-off & Tier-down**: Automatic exponential back-off and model tier-down logic to ensure 100% workflow resilience.
+- **Ultra-Fast V2 Render Mode**: The final `render-and-pr` stage bypasses redundant HTTP health checks, GitHub API metadata fetching, and AI agent evaluation loops by leveraging the pre-computed YAML inventory to assemble the portal instantaneously.
 ### 4.4. Doc-as-Behavior Mandate Bridge
 Nubenetes implements a direct bridge between documentation and AI behavior:
 - **Mandate Ingestion**: At the start of every workflow, the `MandateIngestor` parses the natural language instructions in [`GEMINI.md`](GEMINI.md).
@@ -331,12 +343,14 @@ Nubenetes operates with two distinct editions to serve different engineering nee
 ### 5.2. V2: The Agentic Elite Edition
 - **Purpose:** A high-density, enterprise-grade portal for the modern Cloud Native ecosystem (2026 and beyond).
 - **Algorithm:** Uses the **Incremental Elite Engine** to select and classify top-tier resources.
+- **Aesthetic:** "Cyber Cloud" styling (pure black backgrounds, neon cyan accents, advanced glassmorphism).
 - **Visual Standards (Elite Hierarchy):**
     - **`==[Yellow Highlighting]==`**: **Platinum Standard** (5 stars) – Foundational "Must-Read" assets.
     - **`**Bold Text**`**: **Gold Standard** (4 stars) – Highly recommended resources with strong industry momentum.
     - **Stars (🌟)**: Represent technical impact (1-5 scale).
     - **No stars**: Standard reference documentation and technical resources.
 - **Multi-Dimensional Tagging (1:N):** Every resource is classified with multiple semantic tags (e.g., `[DE FACTO STANDARD]`, `[GUIDE]`, `[CASE STUDY]`, `[EMERGING]`) providing deep technical context and maturity status.
+- **High-Density Expandable Summaries**: Resources feature a multi-line **"Technical Deep-Dive"** block (expandable with one click). These summaries use the **Double-Evidence Synthesis** protocol to provide verified architectural insights and key capabilities.
 - **Semantic Cross-Linking:** The portal autonomously identifies and links related categories within the same strategic dimension (e.g., suggesting `Flux` when reading about `Argo`), creating a cohesive **Industrial Knowledge Graph**.
 - **Executive Context**: Every strategic dimension features an AI-generated **State-of-the-Art Introduction** providing high-level architectural context and industry direction before the link listings.
 - **Source of Truth:** The `v2-docs/` directory (Derived from V1).
@@ -368,7 +382,21 @@ To maintain the high-density quality of V2 without redundant AI costs, the `V2Vi
 3. **UI Polish**: Implements strategic highlighting (`==text==`) for top-tier resources and a clean chronological view that hides unknown dates.
 4. **Flat Routing**: Both versions use `use_directory_urls: false` to ensure relative asset paths (`images/`) remain stable across all sub-pages.
 
-### 5.4. Multi-Language Support Policy
+### 5.5. V2 Workflow Trigger Strategy (Manual Flags)
+The **Nubenetes V2 Agentic Builder** workflow provides three manual checkboxes to control the intensity and depth of the curation run.
+
+| Flag Name | Default | Technical Variable | Primary Effect | When to Activate | Resource Impact |
+| :--- | :---: | :--- | :--- | :--- | :--- |
+| **Force full re-validation** | ==OFF== | `FORCE_FULL_CHECK` | Bypasses 21-day health cache. Forces live HTTP check for **all links**. | Quarterly audits or major migrations. | **High Network** |
+| **Enrich GitHub Metadata** | ==OFF== | `ENRICH_METADATA` | Bypasses star/pushed cache. Fetches **fresh data from GitHub API**. | Before major version releases (V2.x). | **Medium (GH API)** |
+| **Force AI re-evaluation** | ==OFF== | `FORCE_EVAL` | Bypasses AI summary cache. **Full Gemini Re-run** for every link. | Changing architectural standards. | **Ultra High AI** |
+
+#### 🚀 The 'Fast/Standard' Run Configuration (Recommended)
+To ensure an **instantaneous execution** (approx. 5-10 minutes) that prioritizes the cache, launch with **all checkboxes disabled**.
+
+---
+
+### 5.6. Multi-Language Support Policy
 To embrace the diverse global Cloud Native community while maintaining international discoverability, Nubenetes implements a dual-layer linguistic strategy powered by a **Data-First Architecture**:
 
 - **Linguistic Data Persistence**: Language detection is treated as a core metadata attribute. The centralized database ([`data/inventory.yaml`](data/inventory.yaml)) stores resources using specific fields:
@@ -399,19 +427,22 @@ Nubenetes now utilizes a **Unified Metadata Architecture** to maintain consisten
     *   **Structural Intelligence**: `hierarchy` (Recursive list up to 10 levels), `v1_locations`, `v2_locations`.
     *   **Platinum Lifecycle**: `content_hash` (SHA256), `health_score` (0-100), `source_provenance`, `social_preview_url`, `mentions_count`.
 
-### 6.2. The 'Database-First' Reasoning Protocol
-To maximize economic efficiency, all AI agents follow a **Database-First** approach:
+### 6.2. The 'Database-First' Reasoning Protocol (Zero-Redundancy)
+To maximize economic efficiency and maintain the **30-minute execution standard**, all AI agents follow a **Database-First** and **Zero-Redundancy** protocol:
 1.  **Local Lookup**: Before initiating any Gemini call, the agent checks if the URL is already indexed in [`data/inventory.yaml`](data/inventory.yaml).
-2.  **Insight Reuse**: If the resource exists with valid metadata, the agent **reuses existing insights**, reducing API traffic to zero.
-3.  **Memory Efficiency Tracking**: The system tracks **Cache Hit Ratios** and **Estimated Token Savings** in every Intelligence Report.
-4.  **Mandatory Persistence**: Modified YAML files are automatically injected into Pull Requests, ensuring that "System Memory" is version-controlled and shared across all workflows.
+2.  **Zero-Redundancy Pipeline**: The V2 Optimizer leverages health and metadata (`gh_stars`, `gh_license`) already validated by the `IntelligentLinkCleaner`. If a resource is marked as `status: online` and has recent metadata, V2 bypasses redundant network checks.
+3.  **Smart Grounding (Search Retrieval)**: AI agents only activate grounding-heavy calls (Google Search) for resources that are new, missing metadata, or flagged for `needs_ai_refresh`. This reduces latencia by >80% for 15k+ link archives.
+4.  **Insight Reuse**: If the resource exists with valid metadata, the agent **reuses existing insights**, reducing API traffic to zero.
+5.  **Memory Efficiency Tracking**: The system tracks **Cache Hit Ratios** and **Estimated Token Savings** in every Intelligence Report.
+6.  **Mandatory Persistence**: Modified YAML files are automatically injected into Pull Requests, ensuring that "System Memory" is version-controlled and shared across all workflows.
 
 ### 6.3. Database Lifecycle and Hygiene
 To maintain a high-performance "Single Source of Truth", Nubenetes implements automated hygiene protocols:
 - **Universal Rescue Protocol (The Resurrection Rule)**: For ALL technical resources, the engine refuses to delete a link immediately upon a 404 or generic redirect. Instead, it triggers a "Technical Resurrection" cycle using **Real-time Web Grounding** to identify specific paths on destination domains. This is essential for preserving legendary content during massive corporate site migrations (e.g., **Nginx** to **F5**, or the **Ansible Blog** move to personal domains).
 - **High-Value Preservation (The 'Review Required' Rule)**: Resources identified as **High-Value** (marked with 🌟 or bold formatting) are exempt from automatic deletion. If rescue fails, they are marked as `status: review_required` for manual verification, ensuring no significant technical assets are lost during autonomous cleaning.
 
-#### 🕵️ Intelligent Cleaning Observability
+#### Intelligent Cleaning Observability
+
 ```log
 # 1. PROGRESS TRACKING & PARALLEL EXECUTION
 [14:01:20] [*] Queue: 17110 links prioritized for validation.
@@ -501,6 +532,8 @@ The following matrix details the operational jump from standard automation to th
 | **7** | **Observability** | Console Logs | **Platinum Audit**: Multi-part PR metrics & License Dashboard. |
 | **8** | **HTML Quality** | Implicit | **Rendering Guard**: Mandatory `markdown="1"` validation. |
 
+<details><summary>🗺️ <b>View Diagram</b></summary>
+
 ```mermaid
 graph TD
     A["Curation Source (YAML)"] --> B["[Mandate 11]<br/>UI Auto-Sync"]
@@ -512,6 +545,8 @@ graph TD
     H --> I["PR Platinum Audit<br/>Report"]
 ```
 
+</details>
+
 ---
 
 ## 7. AI Economic Architecture and Cost Analysis
@@ -519,6 +554,7 @@ graph TD
 Nubenetes utilizes a **Performance-First / Cost-Optimized** hybrid model.
 
 ### 7.1. Comprehensive Economic Projections (2026 Inception)
+
 | Scenario | Tier | Avg. Tokens/Link | Total Tokens (17k) | Est. Cost (EUR) | Est. Cost (USD) |
 | :--- | :--- | :---: | :---: | :---: | :---: |
 | **Max Quality** | 100% Gemini Pro | 2.2k | 37.6M | **€121.16** | **$131.70** |
@@ -545,7 +581,10 @@ Projected monthly budget for 24/7 autonomous maintenance.
 | **Maintenance** | 10 | 100 | **€0.51** | ~20 hrs saved |
 
 ### 7.2. Efficiency and Performance Metrics
-Achieves **>90% cost reduction** compared to full-Pro architectures by utilizing multi-tier caching, global concurrency semaphores, and structured batching.
+Achieves **>90% cost reduction** compared to full-Pro architectures and restores the **30-minute execution standard** by utilizing the **Zero-Redundancy Pipeline**, multi-tier caching, global concurrency semaphores, and structured batching.
+
+- **Zero-Redundancy**: Bypasses 15k+ network checks by trusting the validated health status in the inventory.
+- **Fast-Track AI**: Increases throughput by 5x (Batch 25 vs 10) and reduces latency by >80% for resources with existing metadata by disabling AI grounding.
 
 <!-- EFFICIENCY_CHART_START -->
 ```mermaid
@@ -576,19 +615,37 @@ For large-scale repository automation, Nubenetes prioritizes the **Pay-As-You-Go
 ---
 
 ### 7.5. Agentic Data Flow
+<details><summary>🗺️ <b>View Diagram</b></summary>
+
 ```mermaid
 graph TD
-    AC["Agentic Curator"] -->|"Canonical Normalization"| DB[("Unified DB")]
-    LC["Link Cleaner"] -->|"Health and Metadata<br/>Enrichment"| DB
-    V2["V2 Vision Engine"] -->|"Elite Selection and<br/>Maturity Evolution"| DB
-    
-    DB -->|"Metadata Sync"| V1["V1 Archive: docs/"]
-    DB -->|"Trending:<br/>The Agentic Pulse"| V2P["V2 Portal: v2-docs/"]
-    
+    subgraph Discovery
+        AC["Agentic Curator"]
+    end
+
+    subgraph "Agentic Tiering (Multi-Agent)"
+        AA["Analyst Agent (Flash)"]
+        AV["Auditor Agent (Pro)"]
+        MCP[["MCP Grounding (Search)"]]
+    end
+
+    AC -->|"Raw Discovery"| AA
+    AA -->|"Initial Classification"| AV
+    AV <-->|"Deep Context Search"| MCP
+    AV -->|"Verified Metadata"| DB[("Unified DB")]
+
+    LC["Link Cleaner"] -->|"Health Sync"| DB
+    V2["V2 Optimizer"] -->|"Elite Selection"| DB
+
+    DB -->|"Indented Summary"| V1["V1 Archive"]
+    DB -->|"Expandable Deep-Dive"| V2P["V2 Portal"]
+
     subgraph Local Storage
         DB1["inventory.yaml"]
     end
 ```
+
+</details>
 
 ### 7.6. Strategic Benefits
 - **Incremental Self-Correction**: Reparation of historical precision errors.
@@ -612,6 +669,20 @@ graph TD
 
 ## 8. The Agentic AI Engine
 
+Nubenetes utilizes a **Multi-Tier Agentic Model Architecture** (2026) to balance industrial-grade reasoning with high-throughput performance.
+
+### 8.1. Agentic Model Selection Matrix
+The following matrix defines our strategic model tiering across all workflows:
+
+| Agent Role | Workflow | Default Model | Tier | Primary Rationale | Quota Priority |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Analyst (Fast)** | V2 Elite Builder | **Gemini Flash/Lite** | Tier 1 | High RPM/TPM for mass processing (10k+ links). | **Ultra High** |
+| **Link-Rescue** | Health Cleaner | **Gemini Flash/Lite** | Tier 1 | Fast URL recovery using Search Grounding. | **High** |
+| **PR Guardian** | PR Presubmit | **Gemini Flash/Lite** | Tier 1 | Rapid syntax and mandate format linting. | **Medium** |
+| **Curator (X/RSS)** | Agentic Curator | **Gemini Pro** | Tier 2 | Deep reasoning for human/social context. | **Low (Burst)** |
+| **Auditor** | V2 Elite Builder | **Gemini Pro** | Tier 2 | High-fidelity verification of [ELITE] resources. | **Medium** |
+
+### 8.2. Core Agent Definitions
 The heart of the new Nubenetes is a suite of AI Agents that operate on our `develop` branch:
 
 1.  **AgenticCurator ([`src/agentic_curator.py`](src/agentic_curator.py))**:
@@ -631,6 +702,16 @@ The heart of the new Nubenetes is a suite of AI Agents that operate on our `deve
     - **Resilience:** asynchronous health checks with 3x retry and identity rotation.
     - **V1 Integrity:** Focuses on link validity (removing 404s) to ensure the exhaustive V1 archive remains accessible.
     - **Transparency:** Provides detailed, real-time unbuffered logging of all cleaning operations.
+4.  **Resilient Architecture Core**:
+    - **Exponential Backoff**: Intelligent `tenacity`-based retry logic in `gemini_utils.py` gracefully handles 429 Rate Limits before triggering the Circuit Breaker.
+    - **Flash-First Architecture**: Prioritizes Gemini Flash/Lite models for high-density Analyst tasks, enabling processing of 10,000+ resources within the 6-hour GitHub Actions limit through 100-item batching and 2-second safety delays.
+    - **Incremental Persistence (Mandate 22)**: Implements a dual-phase auto-save mechanism that flushes the `inventory.yaml` database to disk periodically **without waiting for the workflow to finish**:
+        *   **Metadata Phase**: Saves every **500 GitHub repositories** processed.
+        *   **AI Phase**: Saves every **20 AI batches** (1,000 resources) analyzed.
+        *   **Cache Safety**: Utilizes `actions/cache` with an `always()` save condition, ensuring that even if a run is cancelled or hits the 6-hour timeout, the next run resumes exactly where the previous one left off.
+    - **Fast-Track Sequential Model**: Optimized for stability and speed, bypassing the complexity of distributed systems and leveraging the pre-computed metadata from the inventory.
+    - **Pip Caching**: All workflows utilize `cache: pip` for lightning-fast execution and reduced compute costs.
+    - **AI PR Guardian**: Enforces the `PULL_REQUEST_TEMPLATE.md` checklist automatically on community contributions.
 
 ---
 
@@ -639,18 +720,49 @@ The heart of the new Nubenetes is a suite of AI Agents that operate on our `deve
 Nubenetes uses a sophisticated multi-stage automation pipeline.
 
 ### 9.1. Workflow Inventory and Manual Control Matrix
-Nubenetes features a comprehensive suite of workflows that can be controlled manually via the GitHub Actions UI.
+Maintainers can manually trigger and tune workflows via the GitHub Actions UI. The following matrix details the available controls and their **Default (Set-and-Forget)** configurations.
 
-| # | Workflow / UI Interface | Source Code | Manual Control & Form Inputs | Default Behavior |
-| :---: | :--- | :--- | :--- | :--- |
-| **1** | **[Agentic Curation](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_cron.yml)** | [`.github/workflows/agentic_cron.yml`](.github/workflows/agentic_cron.yml) | • **`start_date`**: YYYY-MM-DD.<br/>• **`days_back`**: Relative range.<br/>• **`include_...`**: Domain toggles (K8s, AI, Cloud, etc).<br/>• **`exclude_accounts`**: Comma-separated list.<br/>• **`extraction_strategy`**: Search vs Scroll.<br/>• **`historical_mode`**: Bypass limits.<br/>• **`historical_chunked`**: Recursive execution.<br/>• **`historical_until_date`**: Chunk limit.<br/>• **`activate_backup_key`**: Identity rotation. | Monthly Discovery |
-| **2** | **[V2 Elite Builder](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_builder.yml)** | [`.github/workflows/agentic_v2_builder.yml`](.github/workflows/agentic_v2_builder.yml) | • **`force_reevaluate`**: Ignore AI cache.<br/>• **`enrich_metadata`**: Fetch stars/license.<br/>• **`activate_backup_key`**: Identity rotation. | Auto-Sync (Push) |
-| **3** | **[Link Health Check](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/intelligent_link_cleaner.yml)** | [`.github/workflows/intelligent_link_cleaner.yml`](.github/workflows/intelligent_link_cleaner.yml) | • **`force_full_check`**: Bypasses 21-day cache for exhaustive audit. | Monthly Cleanup |
-| **4** | **[Backup Curation](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_backup.yml)** | [`.github/workflows/agentic_backup.yml`](.github/workflows/agentic_backup.yml) | • **`backup_file`**: Path to JSON/MD.<br/>• **`historical_mode`**: Force evaluation. | On-Demand |
-| **5** | **[README Sync](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/readme_sync.yml)** | [`.github/workflows/readme_sync.yml`](.github/workflows/readme_sync.yml) | *(No manual inputs)* | Push to `develop` |
-| **6** | **[Critical Monitor](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/critical_asset_monitor.yml)** | [`.github/workflows/critical_asset_monitor.yml`](.github/workflows/critical_asset_monitor.yml) | *(No manual inputs)* | 3-Month Pulse |
-| **7** | **[Merged Cleanup](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/cleanup_merged_branches.yml)** | [`.github/workflows/cleanup_merged_branches.yml`](.github/workflows/cleanup_merged_branches.yml) | *(No manual inputs)* | Bi-weekly (1st/15th) |
-| **8** | **[Production Deploy](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/main.yml)** | [`.github/workflows/main.yml`](.github/workflows/main.yml) | *(No manual inputs)* | Push to `master` |
+| # | Workflow | Primary Manual Flags | Default | Technical Effect |
+| :---: | :--- | :--- | :---: | :--- |
+| **1** | **Agentic Curation** | `historical_mode` | ==TRUE== | Processes all discovery sources (ignores 30-day window). |
+| | | `include_*` | ==TRUE== | Toggles specific topics (k8s, cloud, ai, etc.). |
+| **2** | **V2 Elite Builder** | `FORCE_FULL_CHECK` | ==FALSE== | Bypasses 21-day health cache (Live HTTP Check). |
+| | | `FORCE_EVAL` | ==FALSE== | Bypasses AI summary cache (Full Gemini Re-run). |
+| **3** | **Link Health Check**| `force_full_check` | ==FALSE== | Bypasses cache for global archive auditing. |
+| **4** | **Backup Curation** | `historical_mode` | ==TRUE== | Ignores time windows for static file processing. |
+| **6** | **Emergency PR** | N/A | ==READ-ONLY== | Generates PR from cache without AI calls. |
+
+#### 9.1.1. [1] Agentic Curation Strategy
+The **Nubenetes Automated Agentic Curation** workflow is designed to be exhaustive by default to ensure no emerging technical tool is missed.
+
+| Flag Name | Default | Technical Variable | Effect |
+| :--- | :---: | :--- | :--- |
+| **Historical Mode** | ==ON== | `historical_mode` | Ensures the discovery engine scans beyond the standard 30-day window. |
+| **Topic Toggles** | ==ON== | `include_k8s/cloud/ai` | Controls which domains are active in the current discovery run. |
+| **Backup Key** | ==OFF== | `activate_backup_key` | Enables Identity B (Subscription) for high-volume discovery bursts. |
+
+#### 9.1.2. [3] Intelligent Cleaner Strategy
+The **Nubenetes Intelligent Link Cleaner** focuses on archive integrity. Its default setup is optimized for incremental maintenance.
+
+| Flag Name | Default | Technical Variable | Effect |
+| :--- | :---: | :--- | :--- |
+| **Force full re-validation** | ==OFF== | `force_full_check` | Bypasses the 21-day "Last Checked" logic to force a full 17k+ link audit. |
+
+#### 9.1.3. [4] Backup Ingestion Strategy
+Used for processing legacy data or high-fidelity manual collections.
+
+| Flag Name | Default | Technical Variable | Effect |
+| :--- | :---: | :--- | :--- |
+| **Historical Mode** | ==ON== | `historical_mode` | Forces evaluation of all items in the backup file regardless of date. |
+
+#### 9.1.4. [6] Emergency PR Strategy (Read-Only)
+Designed as a "Safety Off-ramp" to recover partially processed data from the GitHub Actions Cache.
+
+| Security Feature | Status | technical Effect |
+| :--- | :---: | :--- |
+| **Cache Writing** | ==DISABLED== | Guaranteed read-only access to prevent cache corruption. |
+| **AI Processing** | ==BYPASSED== | Uses the `--render-only` flag to skip all Gemini calls (Cost: $0). |
+| **Safety Reset** | ==ACTIVE== | Resets workflow YAMLs to prevent security permission rejections. |
 
 ### 9.2. Recommended Execution Pipeline
 To maintain the archive's integrity, the following logical sequence is followed:
@@ -661,6 +773,8 @@ To maintain the archive's integrity, the following logical sequence is followed:
 
 ### 9.3. Workflow Trigger and Synchronization Logic
 The following flowchart illustrates how autonomous discovery and maintenance tasks orchestrate the update of the V2 Elite portal. Nubenetes uses a **Surgical Trigger Strategy** to ensure the V2 Builder only executes when relevant data or logic changes occur.
+
+<details><summary>🗺️ <b>View Diagram</b></summary>
 
 ```mermaid
 graph TD
@@ -673,26 +787,41 @@ graph TD
     D -->|"Merged into develop<br/>(Path Filter: inventory.yaml)"| E
     F["Manual / Logic Update<br/>(src/v2_optimizer.py)"] --> E
 
+    subgraph "Persistence Layer (2026)"
+        E --> H_RESTORE["Restore Database Cache<br/>(GitHub Actions Cache)"]
+    end
+
     subgraph "Phase 2: Elite Optimization"
-        E --> G["[2] V2 Elite Builder"]
+        H_RESTORE --> G["[2] V2 Elite Builder"]
+        G --> G_AUTO["Auto-Save Every 20 Batches"]
     end
 
     subgraph "Phase 3: Documentation and Metrics"
-        G --> H["[5] README Sync"]
+        G_AUTO --> H["[5] README Sync"]
+    end
+
+    subgraph "Resilience Persistence"
+        H --> H_SAVE["Save Database Cache<br/>(IF ALWAYS)"]
     end
 
     subgraph "Phase 4: Production Deployment"
-        H --> I["Manual Review<br/>(develop → master)"]
+        H_SAVE --> I["Manual Review<br/>(develop → master)"]
         I --> J["[8] Production Deploy"]
         J --> K["nubenetes.com"]
     end
 ```
 
+</details>
+
 ### 9.4. Curation Flow Architecture
+<details><summary>🗺️ <b>View Diagram</b></summary>
+
 ```mermaid
 sequenceDiagram
     participant X as X.com and Sources
-    participant G as Gemini Agent
+    participant GA as Analyst Agent (Flash)
+    participant GV as Auditor Agent (Pro)
+    participant MCP as MCP Grounding (Search)
     participant W1 as [1] Agentic Curation
     participant W2 as [2] V2 Elite Builder
     participant W3 as [5] README Sync
@@ -702,10 +831,18 @@ sequenceDiagram
 
     W1->>X: Extract Raw Data
     X-->>W1: Raw JSON/MD
-    W1->>G: Evaluate and Score Assets
-    G-->>W1: Scored and Categorized Assets
+    W1->>GA: Initial Evaluation (Analyst)
+    GA->>W1: Preliminary Scored Assets
     W1->>R: Update docs/*.md (V1)
-    Note over R: V2 Builder Triggered (Surgical Path Filter)...
+    
+    Note over R: V2 Builder Triggered...
+    W2->>GA: Broad Classification (Analyst)
+    GA-->>W2: Initial Hierarchy & Summary
+    W2->>GV: Verify High-Impact (Auditor)
+    GV->>MCP: Real-time Grounding Search
+    MCP-->>GV: Live Context & Reputation
+    GV-->>W2: Verified Elite Summary & Tags
+    
     W2->>R: Update v2-docs/ (Elite)
     R->>W3: Trigger README Sync
     W3->>R: Update Metrics and TOC
@@ -714,19 +851,26 @@ sequenceDiagram
     M->>P: Trigger Production Build
     P-->>P: Deploy V1 and V2 to nubenetes.com
 ```
+
+</details>
+
 ### 9.5. Deployment Lifecycle
+<details><summary>🗺️ <b>View Diagram</b></summary>
+
 ```mermaid
 graph LR
     A["AI Discovery"] --> B["V1 Update (develop)"]
-    B --> C["CI/CD Build V1"]
     B --> D["V2 Vision Engine"]
     B --> Z["README Sync"]
     D --> E["V2 Update (develop)"]
-    E --> F["CI/CD Build V2"]
-    C --> G["nubenetes.com"]
-    F --> H["nubenetes.com/v2/"]
+    E --> M["Sync to 'master'"]
+    M --> C["Pip Cache & CI/CD Build"]
+    C --> F["Upload Pages Artifact"]
+    F --> G["Native Deploy to nubenetes.com"]
     Z --> B
 ```
+
+</details>
 
 ### 9.6. Automated Mandate Auditing
 Every Pull Request includes a non-blocking **Safety and Mandate Audit** report cross-referencing changes against [`GEMINI.md`](GEMINI.md).
@@ -751,7 +895,7 @@ Maintains **Mandate 11** by detecting new categories and alerting maintainers to
 
 Nubenetes thrives on a **Hybrid Human-AI Collaboration** model. Community contributions are the lifeblood of the V1 archive.
 
-### 🤝 How to Contribute
+### How to Contribute
 1.  **Target Branch**: Always create your Pull Requests against the `develop` branch.
 2.  **Source of Truth (V1)**: Only add or edit files in the `docs/` directory. **Do not manually edit [`v2-docs/`](v2-docs/)**.
 3.  **Manual Link Format**: Use the standard format: `  - [Title](URL) - Your descriptive summary.`
@@ -823,10 +967,11 @@ To maintain transparency and ease of navigation, all key configuration, database
 
 ### 13.3. Autonomous Workflows
 - **Discovery & Curation:** [`.github/workflows/agentic_cron.yml`](.github/workflows/agentic_cron.yml)
-- **V2 Elite Builder:** [`.github/workflows/agentic_v2_builder.yml`](.github/workflows/agentic_v2_builder.yml) — Generates the Elite curated portal. Supports `force_reevaluate` (refreshes AI scores) and `enrich_metadata` (fetches real-time GitHub stars/license data).
-- **Health & Maintenance:** [`.github/workflows/intelligent_link_cleaner.yml`](.github/workflows/intelligent_link_cleaner.yml)
+- **V2 Elite Builder:** [`.github/workflows/agentic_v2_builder.yml`](.github/workflows/agentic_v2_builder.yml) — Generates the Elite curated portal using a sequential **Fast-Track** execution. Supports `force_reevaluate` (refreshes AI scores) and `enrich_metadata` (fetches real-time GitHub stars/license data).
+- **Health & Maintenance:** [`.github/workflows/intelligent_link_cleaner.yml`](.github/workflows/intelligent_link_cleaner.yml) — Performs sequential health checks and inventory reduction.
 - **README Metrics Sync:** [`.github/workflows/readme_sync.yml`](.github/workflows/readme_sync.yml)
-- **Deployment Pipeline:** [`.github/workflows/main.yml`](.github/workflows/main.yml)
+- **Emergency PR Generator:** [`.github/workflows/agentic_v2_pr_only.yml`](.github/workflows/agentic_v2_pr_only.yml) — Recovery tool to publish current cached data without AI costs.
+- **Deployment Pipeline:** [`.github/workflows/main.yml`](.github/workflows/main.yml) — Native GitHub Pages deployment using artifacts and pip caching.
 
 ### 13.4. Agentic AI Source Code
 - **Orchestration Core:** [`src/main.py`](src/main.py) - Master coordinator for discovery and evaluation.

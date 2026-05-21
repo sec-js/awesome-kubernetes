@@ -17,15 +17,15 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: blue grey
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/shield-outline
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue grey
-      accent: cyan
+      primary: custom
+      accent: custom
       toggle:
         icon: material/shield
         name: Switch to light mode
@@ -43,10 +43,13 @@ theme:
     - content.code.copy
     - content.action.view
     - content.action.edit
+    - content.tooltips
+    - navigation.prune
     - toc.integrate
 
 plugins:
   - search
+  - privacy
   - social:
       cards: true
       cards_layout_options:
@@ -67,6 +70,7 @@ extra:
 extra_css:
   - https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap
   - static/extra.css
+  - static/v2_elite.css
 
 markdown_extensions:
   - admonition
@@ -89,7 +93,7 @@ markdown_extensions:
 
 nav:
   - "🔙 Back to V1 (Exhaustive)": https://nubenetes.com/
-  - "The 2026 Vision": index.md
+  - "Agentic Elite Portal": index.md
   - "AI and Artificial Intelligence":
     - "Ai Agents Mcp": ai-agents-mcp.md
     - "Ai": ai.md

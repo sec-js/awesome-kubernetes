@@ -7,20 +7,24 @@ import random
 import yaml
 import hashlib
 from datetime import datetime
+import argparse
 from typing import Dict, List, Set, Tuple, Optional, Any
-from src.config import GH_TOKEN, TARGET_REPO, GEMINI_API_KEY, NUBENETES_CATEGORIES, MADRID_TZ, INVENTORY_PATH
+from src.config import GH_TOKEN, TARGET_REPO, GEMINI_API_KEY, NUBENETES_CATEGORIES, MADRID_TZ
 from src.gitops_manager import RepositoryController
 from src.markdown_ast import MarkdownSanitizer
 from src.agentic_curator import AgenticCurator
 from src.logger import log_event
 from src.gemini_utils import call_gemini_with_retry, normalize_url
+from src.inventory_manager import load_inventory, get_shard_name, TOTAL_SHARDS
 
 # Configuración de Excepciones
 CORE_FILES = ["docs/index.md", "README.md", "docs/about.md"]
 MEMORY_FILE = "src/memory/health_learning.json"
 
 class IntelligentLinkCleaner:
-    def __init__(self):
+    def __init__(self, shard_index: int = None, total_shards: int = TOTAL_SHARDS):
+        self.shard_index = shard_index
+        self.total_shards = total_shards
         self.git_controller = RepositoryController(GH_TOKEN, TARGET_REPO)
         self.sanitizer = MarkdownSanitizer()
         self.curator = AgenticCurator()
@@ -28,7 +32,11 @@ class IntelligentLinkCleaner:
         self.link_registry: Dict[str, List[Dict]] = {}
         self.dead_links: Dict[str, Tuple[str, str]] = {} 
         self.learning_data = self._load_memory()
-        self.inventory = self._load_inventory()
+        
+        # Determine the shard file if sharded mode
+        self.shard_file = f"shard_{self.shard_index:02d}.yaml" if self.shard_index is not None else None
+        self.inventory = load_inventory(self.shard_file)
+        
         self.full_report_metrics = [] 
         self.detailed_stats = {"total_scanned": 0, "skipped_recent": 0, "by_file": {}, "operation_types": {"removals": 0, "consolidated": 0, "healed": 0, "enriched": 0}}
         self.stats = {"total_links": 0, "dead_links_removed": 0, "orphans_fixed": 0, "enriched_descriptions": 0}
@@ -43,15 +51,7 @@ class IntelligentLinkCleaner:
         os.makedirs(os.path.dirname(MEMORY_FILE), exist_ok=True)
         json.dump(self.learning_data, open(MEMORY_FILE, "w"), indent=2)
 
-    def _load_inventory(self) -> dict:
-        if os.path.exists(INVENTORY_PATH):
-            try: return yaml.safe_load(open(INVENTORY_PATH, "r")) or {}
-            except: return {}
-        return {}
 
-    def _save_inventory(self):
-        os.makedirs(os.path.dirname(INVENTORY_PATH), exist_ok=True)
-        yaml.dump(self.inventory, open(INVENTORY_PATH, "w"), sort_keys=False, allow_unicode=True)
 
     async def execute_clean_cycle(self):
         log_event("STARTING INTELLIGENT CLEANING CYCLE", section_break=True)
@@ -83,7 +83,14 @@ class IntelligentLinkCleaner:
         
         to_check = []
         for u in unique_urls:
-            nu = normalize_url(u); entry = self.inventory.get(nu, {})
+            nu = normalize_url(u)
+            
+            # Shard filtering
+            if self.shard_index is not None:
+                if get_shard_name(nu) != self.shard_file:
+                    continue
+
+            entry = self.inventory.get(nu, {})
             is_suspicious = False
             if entry.get("status") == "online":
                 path = nu.split("://")[-1].rstrip("/")
@@ -128,7 +135,8 @@ class IntelligentLinkCleaner:
                 
                 try:
                     async with self.ai_semaphore:
-                        ai_results = await call_gemini_with_retry(prompt, prefer_flash=False, use_grounding=True)
+                        # Mandate 48: Use Flash/Lite for high-volume rescue to avoid Rate-Limits
+                        ai_results = await call_gemini_with_retry(prompt, prefer_flash=True, use_grounding=True, role="Link-Rescue")
                         if isinstance(ai_results, list):
                             res_map = {normalize_url(r.get("old_url", "")): r.get("new_url") for r in ai_results}
                             for u in batch:
@@ -181,6 +189,37 @@ class IntelligentLinkCleaner:
             self.inventory[nu] = entry
 
         await self.apply_changes()
+
+    async def apply_changes(self):
+        # Export JSON artifact for the reducer instead of applying Git changes directly
+        output_payload = {
+            "shard_index": self.shard_index,
+            "inventory_updates": self.inventory,
+            "dead_links": self.dead_links,
+            "full_report_metrics": self.full_report_metrics
+        }
+        
+        out_name = f"shard_result_{self.shard_index:02d}.json" if self.shard_index is not None else "shard_result.json"
+        with open(out_name, "w") as f:
+            json.dump(output_payload, f, indent=2)
+            
+        log_event(f"EXPORTED SHARD RESULTS TO {out_name}", section_break=True)
+        
+        # --- AUTOMATED TRIAGE REPORT GENERATION ---
+        triage_links = []
+        for url, meta in self.inventory.items():
+            if meta.get('status') == 'review_required':
+                triage_links.append({"url": url, "stars": meta.get('stars', 0), "desc": meta.get('description', 'N/A')})
+        
+        if triage_links:
+            # Sort by stars (impact) DESC
+            triage_links.sort(key=lambda x: x['stars'], reverse=True)
+            with open("triage_report.md", "w") as f:
+                f.write(f"### 🚨 Manual Triage Required ({len(triage_links)} High-Value Links)\n\n")
+                f.write("The following resources were flagged for manual review because they failed health checks but are considered high-value assets.\n\n")
+                f.write("| Impact | Resource | Description |\n| :---: | :--- | :--- |\n")
+                for item in triage_links:
+                    f.write(f"| {'🌟'*item['stars']} | {item['url']} | {item['desc']} |\n")
 
     async def _check_url_logic(self, url: str) -> Tuple[bool, str, Optional[str]]:
         headers = {"User-Agent": "Mozilla/5.0", "Accept-Language": "en-US,en;q=0.5"}
@@ -242,52 +281,6 @@ class IntelligentLinkCleaner:
                 return True, f"Soft Block {resp.status_code}", None
         except: return True, "Error", None
 
-    async def apply_changes(self):
-        log_event("APPLYING CLEANING CHANGES...", section_break=True)
-        file_updates = {}
-        for url, (fallback, reason) in self.dead_links.items():
-            nu = normalize_url(url); paths = self.inventory.get(nu, {}).get("v1_locations", [])
-            if not paths: paths = [occ["file"] for occ in self.link_registry.get(nu, [])]
-            for path in set(paths):
-                if not os.path.exists(path): continue
-                if path not in file_updates: file_updates[path] = open(path, "r").readlines()
-                for i, line in enumerate(file_updates[path]):
-                    if url in line:
-                        if fallback and fallback.startswith("CANONICAL:"):
-                            fallback_url = fallback.replace("CANONICAL:", "")
-                            line_updated = line.replace(f"({url})", f"({fallback_url})")
-                            if line_updated == line:
-                                line_updated = re.sub(rf'({re.escape(url)})(?=[)\s]|$)', fallback_url, line)
-                            line_updated = line_updated.replace(f"{fallback_url}/", fallback_url)
-                            file_updates[path][i] = line_updated
-                        else: 
-                            file_updates[path][i] = None 
-
-        final_payload = {p: "".join([l for l in lines if l is not None]) for p, lines in file_updates.items()}
-        await self.prune_orphaned_metadata(); self._save_inventory()
-        final_payload[INVENTORY_PATH] = yaml.dump(self.inventory, sort_keys=False, allow_unicode=True)
-
-        from src.safety_guard import SafetyGuard
-        report = SafetyGuard().generate_audit_report()
-        metrics = {"total_extracted": len(self.link_registry), "full_report": self.full_report_metrics, "end_date": datetime.now().isoformat()}
-        if final_payload: self.git_controller.apply_multi_file_changes(final_payload, metrics, safety_report=report)
-        
-        # --- AUTOMATED TRIAGE REPORT GENERATION ---
-        triage_links = []
-        for url, meta in self.inventory.items():
-            if meta.get('status') == 'review_required':
-                triage_links.append({"url": url, "stars": meta.get('stars', 0), "desc": meta.get('description', 'N/A')})
-        
-        if triage_links:
-            # Sort by stars (impact) DESC
-            triage_links.sort(key=lambda x: x['stars'], reverse=True)
-            with open("triage_report.md", "w") as f:
-                f.write(f"### 🚨 Manual Triage Required ({len(triage_links)} High-Value Links)\n\n")
-                f.write("The following resources were flagged for manual review because they failed health checks but are considered high-value assets.\n\n")
-                f.write("| Impact | Resource | Description |\n| :---: | :--- | :--- |\n")
-                for item in triage_links:
-                    f.write(f"| {'🌟'*item['stars']} | {item['url']} | {item['desc']} |\n")
-
     async def prune_orphaned_metadata(self):
         valid_map = {}
         for root, _, files in os.walk("docs"):
@@ -303,5 +296,10 @@ class IntelligentLinkCleaner:
         self.inventory = new_inv
 
 if __name__ == "__main__":
-    cleaner = IntelligentLinkCleaner()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--shard-index", type=int, default=None, help="Index of the shard (0-63)")
+    parser.add_argument("--total-shards", type=int, default=TOTAL_SHARDS, help="Total number of shards")
+    args = parser.parse_args()
+
+    cleaner = IntelligentLinkCleaner(shard_index=args.shard_index, total_shards=args.total_shards)
     asyncio.run(cleaner.execute_clean_cycle())

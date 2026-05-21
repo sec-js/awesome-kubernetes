@@ -133,7 +133,6 @@ Java Programming Model|Technology|Cloud Native (microservices)|Platform
 [Spring Cloud (Spring)](https://spring.io/projects/spring-cloud)|Backend (RESTful)|Yes|OpenShift, Kubernetes, etc
 [Quarkus](https://quarkus.io)|Backend (RESTful)|Yes|OpenShift, Kubernetes, etc
 [Thorntail](https://thorntail.io)|Backend (RESTful)|Yes|OpenShift, Kubernetes, etc
-etc|||
 
 - [dev.to: 5 Best Java Frameworks to Learn in 2022 for Microservices and Cloud Native Development](https://dev.to/javinpaul/5-best-java-frameworks-to-learn-in-2022-for-microservices-and-cloud-native-development-4732)
 
@@ -163,7 +162,7 @@ optimizing Enterprise Java for the microservices architecture.
 - [RedHat’s WildFly Swarm](http://wildfly-swarm.io)
 - [KumuluzEE](https://ee.kumuluz.com)
 
- ## Hibernate
+## Hibernate
 
 - [==medium: Multi-Tenancy Implementation using Spring Boot + Hibernate== 🌟](https://medium.com/swlh/multi-tenancy-implementation-using-spring-boot-hibernate-6a8e3ecb251a)
 - [stackoverflow.com: How to map a MySQL JSON column to a Java entity property using JPA and Hibernate](https://stackoverflow.com/questions/44308167/how-to-map-a-mysql-json-column-to-a-java-entity-property-using-jpa-and-hibernate)

@@ -40,10 +40,18 @@ theme:
     - toc.integrate
     - navigation.top
     - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - navigation.prune
     - navigation.indexes
     - search.highlight
     - search.share
     - search.suggest
+plugins:
+  - search
+  - privacy
+  - social:
+      cards: true
 extra_css:
   - static/extra.css
 extra_javascript:
@@ -280,6 +288,8 @@ nav:
   - About: about.md
 copyright: 2026 <a href="https://twitter.com/nubenetes">Nubenetes</a>, <a href="https://nubenetes.com/about/">about</a>.
 extra:
+  announce: >-
+    <b>🚀 New!</b> Discover the <a href="https://nubenetes.com/v2/"><b>V2 Elite Portal</b></a> featuring the most premium resources and a renewed design.
   analytics:
     provider: google
     property: !ENV GOOGLE_ANALYTICS_KEY

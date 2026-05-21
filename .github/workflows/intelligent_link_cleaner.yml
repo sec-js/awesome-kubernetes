@@ -19,9 +19,8 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  intelligent-clean-process:
+  intelligent-clean-sequential:
     runs-on: ubuntu-latest
-    # This job can now be triggered from any branch but will always checkout 'develop'
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
@@ -34,11 +33,12 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: '3.11'
+          cache: 'pip'
 
       - name: Dependencies Installation
         run: |
           python -m pip install --upgrade pip
-          pip install --no-cache-dir pydantic PyGithub aiohttp beautifulsoup4 httpx fake-useragent pytz python-dotenv playwright PyYAML
+          pip install --no-cache-dir pydantic PyGithub aiohttp beautifulsoup4 httpx fake-useragent pytz python-dotenv playwright PyYAML tenacity
 
       - name: Cache Playwright Binaries
         uses: actions/cache@v5
@@ -51,7 +51,7 @@ jobs:
         if: steps.playwright-cache.outputs.cache-hit != 'true'
         run: playwright install chromium --with-deps
 
-      - name: Global Intelligent Cleaning Execution
+      - name: Global Intelligent Cleaning Execution (Sequential Fast-Track)
         env:
           GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
           GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
@@ -62,14 +62,20 @@ jobs:
         run: |
           python src/intelligent_health_checker.py
 
+      - name: Run Inventory Reducer & Apply Changes
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PYTHONPATH: ${{ github.workspace }}
+        run: |
+          # Since it's sequential, the script produces shard_result.json (default name for no shard)
+          python src/inventory_reducer.py
+
       - name: Open Triage Issue for High-Value Links
-        if: always()
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           if [ -f triage_report.md ]; then
             ISSUE_TITLE="🚨 Manual Triage Required: High-Value Links Failing ($(date +'%Y-%m-%d'))"
-            # Check if an open issue with the same title already exists to avoid duplicates
             EXISTING_ISSUE=$(gh issue list --search "$ISSUE_TITLE" --state open --json number --jq '.[0].number')
             
             if [ -z "$EXISTING_ISSUE" ]; then

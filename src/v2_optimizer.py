@@ -14,7 +14,8 @@ V1_DIR = "docs"
 V2_DIR = "v2-docs"
 
 class V2VisionEngine:
-    def __init__(self):
+    def __init__(self, render_only: bool = False):
+        self.render_only = render_only
         # Load Config & Policy
         self.special_assets_rules = self._load_special_assets()
         self.link_rules = self._load_link_rules()
@@ -45,8 +46,14 @@ class V2VisionEngine:
             "- For 'introduction.md', identify links related to MICROSERVICES for extraction.\n"
             "PHASE 3: KNOWLEDGE ASSIMILATION FLOW\n"
             "- Order hierarchy to facilitate a structured learning journey.\n"
-            "PHASE 4: MANDATORY DESCRIPTIONS\n"
-            "- If 'Current Desc' is empty, generate a professional summary. Style: O'Reilly technical.\n"
+            "PHASE 4: HIGH-DENSITY TECHNICAL SUMMARIES (Double-Evidence Synthesis)\n"
+            "- Generate professional, neutral, and advanced technical summaries. Style: O'Reilly technical.\n"
+            "- PROTOCOL: Contrast 'Curator Insight' (from source) with 'Live Grounding' (from search).\n"
+            "- If discrepancies are found (e.g. project is archived but source says it's new), PRIORITIZE live engineering truth.\n"
+            "- Summaries MUST be high-density: Include architectural value, key features, and technical significance.\n"
+            "- Format: Use paragraphs and bullet points for complex tools. Aim for 2-5 sentences of depth.\n"
+            "PHASE 5: ADVANCED MATURITY TAGGING\n"
+            "- Assign 1 to 3 tags from: [DE FACTO STANDARD], [ENTERPRISE-STABLE], [EMERGING], [GUIDE], [CASE STUDY], [COMMUNITY-TOOL], [LEGACY].\n"
         )
         self.inventory = self._load_inventory()
         self.maturity_audit = []
@@ -66,14 +73,12 @@ class V2VisionEngine:
         return {}
 
     def _load_inventory(self) -> Dict:
-        if os.path.exists(INVENTORY_PATH):
-            try: return yaml.safe_load(open(INVENTORY_PATH, "r")) or {}
-            except: return {}
-        return {}
+        from src.inventory_manager import load_inventory
+        return load_inventory()
 
     def _save_inventory(self):
-        os.makedirs(os.path.dirname(INVENTORY_PATH), exist_ok=True)
-        yaml.dump(self.inventory, open(INVENTORY_PATH, "w"), sort_keys=False, allow_unicode=True)
+        from src.inventory_manager import save_inventory
+        save_inventory(self.inventory)
 
     async def analyze_and_cluster(self):
         log_event("STARTING V2 HIGH-DENSITY O'REILLY LIBRARY GENERATION", section_break=True)
@@ -84,10 +89,14 @@ class V2VisionEngine:
         except: pass
 
         all_v1_links, mosaic_html, videos_html = await self._gather_all_v1_content()
-        log_event(f"[*] Discovery: Found {len(all_v1_links)} resources in V1.")
+        
+        log_event(f"[*] Discovery: Found {len(all_v1_links)} resources to process.")
 
         log_event("[*] Phase 1: Health Check...")
-        health_inventory = await self._verify_link_health(all_v1_links)
+        if self.render_only:
+            health_inventory = [l for l in all_v1_links if self.inventory.get(normalize_url(l["url"]), {}).get("status") == "online"]
+        else:
+            health_inventory = await self._verify_link_health(all_v1_links)
         
         log_event("[*] Phase 2: Evaluation & Deep Indexing (Semantic Dedup)...")
         library_inventory = await self._evaluate_and_score_resources(health_inventory)
@@ -153,13 +162,35 @@ class V2VisionEngine:
         return all_links, mosaic_html, videos_html
 
     async def _verify_link_health(self, links: List[Dict]):
-        online_links = []
+        force_full = os.getenv("FORCE_FULL_CHECK", "false").lower() == "true"
+        fast_online = []
+        needs_check = []
+        
+        for l in links:
+            nu = normalize_url(l["url"])
+            entry = self.inventory.get(nu, {})
+            # Mandate 32: skip links under review
+            if entry.get("status") == "review_required": continue
+            
+            if not force_full and entry.get("status") == "online":
+                fast_online.append(l)
+            else:
+                needs_check.append(l)
+                
+        if not needs_check: return fast_online
+
+        log_event(f"    [>] Fast-Track Health: {len(fast_online)} | Network-Check: {len(needs_check)}")
+        
+        online_links = list(fast_online)
+        total_needs = len(needs_check)
         async with httpx.AsyncClient(timeout=15.0, follow_redirects=True, verify=False) as client:
-            for i in range(0, len(links), 50):
-                batch = links[i:i+50]
+            for i in range(0, total_needs, 50):
+                batch = needs_check[i:i+50]
                 tasks = [self._check_single_link_resilient(client, l) for l in batch]
                 results = await asyncio.gather(*tasks)
                 online_links.extend([r for r in results if r is not None])
+                if i % 100 == 0:
+                    log_event(f"    [>] Progress: [{i}/{total_needs}] links validated over network...")
                 await asyncio.sleep(0.1)
         return online_links
 
@@ -173,7 +204,7 @@ class V2VisionEngine:
             log_event(f"  [-] SKIPPING V2: {url} is under Review.")
             return None
             
-        if entry.get("status") == "online": return link
+        if entry.get("status") == "online" and os.getenv("FORCE_FULL_CHECK", "false").lower() != "true": return link
         try:
             resp = await client.get(url, timeout=10.0)
             if resp.status_code < 400:
@@ -186,6 +217,8 @@ class V2VisionEngine:
                     link["url"] = final_url
                 
                 self.inventory.setdefault(normalize_url(final_url), {})["status"] = "online"
+                # Mandate 22: Update last_checked for the inventory entry
+                self.inventory[normalize_url(final_url)]["last_checked"] = datetime.now().timestamp()
                 return link
         except: pass
         return None
@@ -194,8 +227,38 @@ class V2VisionEngine:
         to_evaluate = []
         project_registry = {} 
         force_eval = os.getenv("FORCE_EVAL", "false").lower() == "true"
-        enrich_metadata = os.getenv("ENRICH_METADATA", "false").lower() == "true"
+        force_full_check = os.getenv("FORCE_FULL_CHECK", "false").lower() == "true"
+        # Bypassing GitHub UI limitation: If force_eval or force_full_check is ON, we must enrich metadata
+        enrich_metadata = os.getenv("ENRICH_METADATA", "false").lower() == "true" or force_eval or force_full_check
         special_files = [sa["file"] for sa in self.special_assets_rules.get("special_assets", [])]
+        
+        # Mandate 47: Zero-Redundancy & Smart Grounding
+        from src.mandate_ingestor import get_system_mandates
+        dynamic_mandates = get_system_mandates()
+
+        # Mandate 15: Proactive Enrichment for V2 (GitHub metadata is critical for tags)
+        # To avoid duplicate logs and redundant API calls, we deduplicate unique GitHub repos first
+        processed_gh_metadata = set()
+        gh_fetch_count = 0
+        for l in links:
+            norm_url = normalize_url(l["url"])
+            if "github.com" not in norm_url or self.render_only: continue
+            
+            cached = self.inventory.get(norm_url, {})
+            # Mandate 43: Always ensure GH metadata for GitHub links in V2 to power [DE FACTO STANDARD] logic
+            if (enrich_metadata or not cached.get("gh_stars")) and norm_url not in processed_gh_metadata:
+                log_event(f"  [METADATA] V2 Pulse: Fetching GH Activity for {norm_url}")
+                processed_gh_metadata.add(norm_url) # Add BEFORE await to block any (even theoretical) parallelism
+                gh_data = await get_github_activity(norm_url)
+                if gh_data:
+                    if norm_url not in self.inventory: self.inventory[norm_url] = {}
+                    self.inventory[norm_url].update(gh_data)
+                    
+                gh_fetch_count += 1
+                if gh_fetch_count % 500 == 0:
+                    log_event(f"    [💾] Periodic Save: Persisting inventory after {gh_fetch_count} metadata fetches...")
+                    from src.inventory_manager import save_inventory
+                    save_inventory(self.inventory)
 
         for l in links:
             item = l.copy()
@@ -208,15 +271,9 @@ class V2VisionEngine:
                 match = re.search(r'github\.com/([^/]+/[^/]+)', norm_url)
                 if match: project_id = match.group(1).lower()
 
-            # Mandate 15: If enrichment is ON and gh_metadata is missing, we must fetch it
-            if enrich_metadata and "github.com" in norm_url:
-                cached = self.inventory.get(norm_url, {})
-                if not cached.get("gh_stars"):
-                    log_event(f"  [METADATA] Enrichment: Fetching GH Activity for {norm_url}")
-                    gh_data = await get_github_activity(norm_url)
-                    if gh_data:
-                        if norm_url not in self.inventory: self.inventory[norm_url] = {}
-                        self.inventory[norm_url].update(gh_data)
+            # Reuse enriched metadata from inventory
+            if "github.com" in norm_url:
+                item.update(self.inventory.get(norm_url, {}))
 
             if not force_eval and norm_url in self.inventory and "stars" in self.inventory[norm_url]:
                 cached = self.inventory[norm_url]
@@ -237,68 +294,234 @@ class V2VisionEngine:
                     continue
             to_evaluate.append(item)
 
-        if to_evaluate:
-            for i in range(0, len(to_evaluate), 50):
-                batch = to_evaluate[i:i+50]
-                prompt = (f"{self.library_criteria}\nRespond ONLY JSON: {{\"results\": [{{ \"idx\": int, \"year\": \"YYYY\", \"stars\": 0-5, \"hierarchy\": [\"Area\", \"Topic\", ...], \"summary\": \"...\", \"language\": \"...\", \"type\": \"...\", \"complexity\": \"...\", \"is_microservice\": bool }}, ...]}}\n\nLINKS:\n" + 
-                          "\n".join([f"{idx}. {l['title']} ({l['url']})" for idx, l in enumerate(batch)]))
+        if to_evaluate and not self.render_only:
+            # Mandate 47: Zero-Redundancy & Smart Grounding
+            # Fast-Track (Metadata/Desc present) vs Grounded-Track (Needs deep search)
+            fast_track = []
+            grounded_track = []
+            
+            for l in to_evaluate:
+                nu = normalize_url(l["url"])
+                is_github = "github.com" in nu
+                
+                # Fast-Track Eligibility:
+                # 1. Has AI summary (previous run)
+                # 2. Is GitHub and has stars (metadata present)
+                # 3. Has decent manual description (> 40 chars)
+                # 4. Is already in inventory (we have title/category context)
+                has_ai_summary = l.get("ai_summary") is not None and len(l.get("ai_summary")) > 50
+                has_stars = l.get("gh_stars") is not None
+                has_desc = len(l.get("description", "")) > 40
+                is_known = nu in self.inventory
+
+                if has_ai_summary or has_stars or has_desc or is_known:
+                    fast_track.append(l)
+                else:
+                    # Grounded-Track is ONLY for "Unknown" resources with zero context
+                    grounded_track.append(l)
+
+            log_event(f"[*] Agent Phase 1: Analyst Evaluation ({len(to_evaluate)} resources)...")
+            log_event(f"    [>] Fast-Track: {len(fast_track)} | Grounded-Track: {len(grounded_track)}")
+
+            analyst_results = []
+
+            # 1.1 Fast-Track: Large Batches, NO GROUNDING (Fast)
+            BATCH_SIZE_FAST = 50 # Balanced "Sweet Spot" for RPM/TPM and timeout safety (2026)
+            total_fast = len(fast_track)
+            for i in range(0, total_fast, BATCH_SIZE_FAST):
+                batch = fast_track[i:i+BATCH_SIZE_FAST]
+                batch_num = (i // BATCH_SIZE_FAST) + 1
+                total_batches = (total_fast + BATCH_SIZE_FAST - 1) // BATCH_SIZE_FAST
+                log_event(f"    [>] Fast-Track: Processing Batch {batch_num}/{total_batches}...")
+
+                prompt = (
+                    f"You are the Nubenetes Technical Analyst (2026).\n"
+                    f"{dynamic_mandates}\n"
+                    f"{self.library_criteria}\n"
+                    "PHASE 5: TECHNICAL SYNTHESIS (FAST-TRACK)\n"
+                    "- Use provided metadata, AI summaries, and descriptions to classify maturity.\n"
+                    "Respond ONLY JSON: {{\"results\": [{{ \"idx\": int, \"year\": \"YYYY\", \"stars\": 0-5, \"hierarchy\": [\"Area\", \"Topic\", ...], \"tags\": [\"...\"], \"summary\": \"Synthesis...\", \"language\": \"...\", \"type\": \"...\", \"complexity\": \"...\", \"is_microservice\": bool }}, ...]}}\n\n"
+                    "LINKS:\n" + "\n".join([f"{idx}. {l['title']} ({l['url']}) | Stars: {l.get('gh_stars', l.get('stars'))} | Existing Summary: {l.get('ai_summary', l.get('description'))}" for idx, l in enumerate(batch)])
+                )
                 try:
-                    # ENABLE GROUNDING FOR V2 (High-Density Accuracy)
-                    data = await call_gemini_with_retry(prompt, prefer_flash=True, use_grounding=True)
+                    data = await call_gemini_with_retry(prompt, prefer_flash=True, use_grounding=False, role="Analyst-Fast")
                     for res in data.get("results", []):
                         idx = int(res["idx"])
                         if idx < len(batch):
                             item = batch[idx].copy()
+                            eval_data = {
+                                "year": str(res.get("year", "N/A")), "stars": min(max(int(res.get("stars", 0)), 0), 5),
+                                "ai_summary": res.get("summary", item.get("ai_summary", "")),
+                                "language": res.get("language", "English"),
+                                "resource_type": res.get("type", "Reference"), "complexity": res.get("complexity", "Intermediate"),
+                                "hierarchy": res.get("hierarchy", ["General"]), "tags": res.get("tags", []),
+                                "is_microservice": bool(res.get("is_microservice", False)),
+                                "status": "online", "is_special": item.get("is_special", False)
+                            }
+                            item.update(eval_data)
+                            analyst_results.append(item)
+                            
+                            # Mandate 22: Incremental Persistence to avoid data loss
                             norm_url = normalize_url(item["url"])
-                            p_id = norm_url
-                            if "github.com" in norm_url:
-                                m = re.search(r'github\.com/([^/]+/[^/]+)', norm_url)
-                                if m: p_id = m.group(1).lower()
+                            self.inventory[norm_url] = {k:v for k,v in item.items() if k not in ["url", "title", "original_file", "is_special", "aliases"]}
+                            self.inventory[norm_url]["title"] = item["title"]
+
+                except Exception:
+                    for l in batch: analyst_results.append(l)
+
+                # Mandate 22: Save every 20 batches to disk
+                if batch_num % 20 == 0:
+                    log_event(f"    [💾] Periodic Save: Persisting inventory at batch {batch_num}...")
+                    from src.inventory_manager import save_inventory
+                    save_inventory(self.inventory)
+
+                await asyncio.sleep(2.0) # Safety delay to respect TPM limits
+
+            # 1.2 Grounded-Track: Small Batches, WITH GROUNDING (Slower but precise)
+            BATCH_SIZE_GROUNDED = 15 # Increased from 5
+            total_grounded = len(grounded_track)
+            for i in range(0, total_grounded, BATCH_SIZE_GROUNDED):
+                batch = grounded_track[i:i+BATCH_SIZE_GROUNDED]
+                batch_num = (i // BATCH_SIZE_GROUNDED) + 1
+                total_batches = (total_grounded + BATCH_SIZE_GROUNDED - 1) // BATCH_SIZE_GROUNDED
+                log_event(f"    [🌟] Grounded-Track: Processing Batch {batch_num}/{total_batches} (Grounding active)...")
+
+                prompt = (
+                    f"You are the Nubenetes Technical Analyst (2026).\n"
+                    f"{dynamic_mandates}\n"
+                    f"{self.library_criteria}\n"
+                    "PHASE 5: DOUBLE-EVIDENCE SYNTHESIS & RICH SUMMARY (GROUNDED)\n"
+                    "- Cross-reference provided title/desc with search grounding.\n"
+                    "Respond ONLY JSON: {{\"results\": [{{ \"idx\": int, \"year\": \"YYYY\", \"stars\": 0-5, \"hierarchy\": [\"Area\", \"Topic\", ...], \"tags\": [\"...\"], \"summary\": \"Synthesis...\", \"language\": \"...\", \"type\": \"...\", \"complexity\": \"...\", \"is_microservice\": bool }}, ...]}}\n\n"
+                    "LINKS:\n" + "\n".join([f"{idx}. {l['title']} ({l['url']})" for idx, l in enumerate(batch)])
+                )
+                try:
+                    data = await call_gemini_with_retry(prompt, prefer_flash=True, use_grounding=True, role="Analyst-Grounded")
+                    for res in data.get("results", []):
+                        idx = int(res["idx"])
+                        if idx < len(batch):
+                            item = batch[idx].copy()
                             eval_data = {
                                 "year": str(res.get("year", "N/A")), "stars": min(max(int(res.get("stars", 0)), 0), 5),
                                 "ai_summary": res.get("summary", ""), "language": res.get("language", "English"),
                                 "resource_type": res.get("type", "Reference"), "complexity": res.get("complexity", "Intermediate"),
-                                "hierarchy": res.get("hierarchy", ["General"]), "is_microservice": bool(res.get("is_microservice", False)),
+                                "hierarchy": res.get("hierarchy", ["General"]), "tags": res.get("tags", []),
+                                "is_microservice": bool(res.get("is_microservice", False)),
                                 "status": "online", "is_special": item.get("is_special", False)
                             }
                             item.update(eval_data)
-                            self.inventory[norm_url] = eval_data
-                            self.inventory[norm_url]["title"] = item["title"]
-                            if p_id not in project_registry or item["stars"] > project_registry[p_id].get("stars", 0):
-                                if p_id in project_registry and project_registry[p_id].get("is_special"): item["is_special"] = True
-                                project_registry[p_id] = item
-                except: 
-                    for l in batch:
-                        u = normalize_url(l["url"])
-                        if u not in project_registry: project_registry[u] = l
-                await asyncio.sleep(0.3)
+                            analyst_results.append(item)
+                except Exception:
+                    for l in batch: analyst_results.append(l)
+                await asyncio.sleep(4.0) # Higher delay for Grounding tasks            # --- AGENT PHASE 2: SELECTIVE AUDIT (MCP-Grounded) ---
+            # Identify candidates for high-trust verification
+            audit_candidates = [l for l in analyst_results if "[DE FACTO STANDARD]" in l.get("tags", []) or "[ENTERPRISE-STABLE]" in l.get("tags", [])]
+            
+            if audit_candidates:
+                log_event(f"[*] Agent Phase 2: Auditor Verification ({len(audit_candidates)} high-impact candidates)...")
+                # AUDIT BATCH: Very small for max grounding precision
+                for i in range(0, len(audit_candidates), 5):
+                    batch = audit_candidates[i:i+5]
+                    audit_prompt = (
+                        f"You are the Nubenetes Auditor (2026).\n"
+                        f"{dynamic_mandates}\n"
+                        "MISSION: Perform 'Double-Evidence' verification using your GOOGLE_SEARCH tool.\n"
+                        "PROTOCOL:\n"
+                        "1. SEARCH: Look for community reputation (Reddit, HN) and repo status (GitHub).\n"
+                        "2. CONTRAST: Compare findings with the proposed Analyst summary.\n"
+                        "3. REFINE: Correct any 'vaporware' or 'hype' claims. Ensure technical accuracy.\n"
+                        "CRITERIA:\n"
+                        "- [DE FACTO STANDARD]: Industry baseline, used by everyone.\n"
+                        "- [ENTERPRISE-STABLE]: Proven, high-trust, supported.\n"
+                        "Respond ONLY JSON: {{\"audits\": [{{ \"idx\": int, \"verified_tags\": [\"...\"], \"refined_summary\": \"Synthesized and verified technical summary...\", \"reputation_summary\": \"...\", \"reputation_penalty\": bool }}, ...]}}\n\n"
+                        "RESOURCES TO AUDIT:\n" + "\n".join([f"{idx}. {l['title']} ({l['url']}) - Proposed: {l.get('tags')}" for idx, l in enumerate(batch)])
+                    )
+                    try:
+                        # AUDIT USES PRO MODEL (High Reasoning) + GROUNDING (Live Data)
+                        audit_data = await call_gemini_with_retry(audit_prompt, prefer_flash=False, use_grounding=True, role="Auditor")
+                        for aud in audit_data.get("audits", []):
+                            idx = int(aud["idx"])
+                            if idx < len(batch):
+                                # Update tags, summary and add reputation metadata (Mandate 32/33)
+                                batch[idx]["tags"] = aud.get("verified_tags", batch[idx]["tags"])
+                                if aud.get("refined_summary"): batch[idx]["ai_summary"] = aud["refined_summary"]
+                                batch[idx]["reputation_summary"] = aud.get("reputation_summary", "")
+                                if aud.get("reputation_penalty"):
+                                    batch[idx]["stars"] = max(batch[idx].get("stars", 1) - 1, 1)
+                                    if "[DE FACTO STANDARD]" in batch[idx]["tags"]: batch[idx]["tags"].remove("[DE FACTO STANDARD]")
+                    except: pass
+                    await asyncio.sleep(0.5)
+
+            # Finalize Registry
+            for item in analyst_results:
+                norm_url = normalize_url(item["url"])
+                p_id = norm_url
+                if "github.com" in norm_url:
+                    m = re.search(r'github\.com/([^/]+/[^/]+)', norm_url)
+                    if m: p_id = m.group(1).lower()
+                
+                # Persist to inventory
+                self.inventory[norm_url] = {k:v for k,v in item.items() if k not in ["url", "title", "original_file", "is_special", "aliases"]}
+                self.inventory[norm_url]["title"] = item["title"]
+                
+                if p_id not in project_registry or item.get("stars", 0) > project_registry[p_id].get("stars", 0):
+                    if p_id in project_registry and project_registry[p_id].get("is_special"): item["is_special"] = True
+                    project_registry[p_id] = item
+
         return list(project_registry.values())
 
     def _calculate_tags(self, item: Dict) -> List[str]:
-        tags = []
+        """
+        Mandate 40: Multi-Dimensional Tagging (1:N).
+        Merges AI-assigned tags with rule-based maturity signals to ensure high-fidelity classification.
+        Utilizes MCP-style grounding data (GitHub stars, resource types) to override generic defaults.
+        """
+        # 0. Collect all possible tag sources
+        ai_tags = item.get("tags", [])
+        if isinstance(ai_tags, str): ai_tags = [ai_tags] # Resiliency
+        
+        valid_set = {"[DE FACTO STANDARD]", "[ENTERPRISE-STABLE]", "[EMERGING]", "[GUIDE]", "[CASE STUDY]", "[COMMUNITY-TOOL]", "[LEGACY]"}
+        
+        # Start with filtered AI tags
+        tags = set([t for t in ai_tags if t in valid_set])
+        
+        # 1. GitHub Objective Reality (Mandate 43)
         raw_gh = item.get("gh_stars", 0)
         gh_stars = int(raw_gh) if str(raw_gh).isdigit() else 0
-        curator_stars = item.get("stars", 0)
-        res_type = item.get("resource_type", "Reference").lower()
-        
-        # 1. Maturity Logic (GitHub based OR curator based)
+        curator_stars = int(item.get("stars", 0))
+
         if gh_stars > 15000 or curator_stars >= 5: 
-            tags.append("[DE FACTO STANDARD]")
+            tags.add("[DE FACTO STANDARD]")
+            if "[COMMUNITY-TOOL]" in tags: tags.remove("[COMMUNITY-TOOL]")
         elif gh_stars > 3000 or curator_stars >= 4: 
-            tags.append("[ENTERPRISE-STABLE]")
+            tags.add("[ENTERPRISE-STABLE]")
+            if "[COMMUNITY-TOOL]" in tags: tags.remove("[COMMUNITY-TOOL]")
         
-        # 2. Type Mapping (AI based)
-        if "guide" in res_type or "tutorial" in res_type: tags.append("[GUIDE]")
-        if "case study" in res_type or "report" in res_type: tags.append("[CASE STUDY]")
+        # 2. Type Mapping (AI based labels)
+        res_type = item.get("resource_type", "Reference").lower()
+        if any(x in res_type for x in ["guide", "tutorial", "hands-on", "learning", "course"]): 
+            tags.add("[GUIDE]")
+        if any(x in res_type for x in ["case study", "report", "whitepaper", "success story", "usage"]): 
+            tags.add("[CASE STUDY]")
         
         # 3. Emerging / Legacy logic
-        if item.get("complexity") == "Cutting Edge" or "emerging" in item.get("ai_summary", "").lower():
-            tags.append("[EMERGING]")
+        ai_summary = item.get("ai_summary", "").lower()
+        complexity = item.get("complexity", "Intermediate")
+        if complexity == "Cutting Edge" or "emerging" in ai_summary or "experimental" in ai_summary or "alpha" in ai_summary:
+            tags.add("[EMERGING]")
+        if "legacy" in ai_summary or "deprecated" in ai_summary or "archived" in ai_summary or "v1-only" in ai_summary:
+            tags.add("[LEGACY]")
+
+        # 4. Fallback: Only use [COMMUNITY-TOOL] if no other maturity tag is present
+        maturity_tags = {"[DE FACTO STANDARD]", "[ENTERPRISE-STABLE]", "[EMERGING]", "[LEGACY]"}
+        if not (tags & maturity_tags):
+            tags.add("[COMMUNITY-TOOL]")
         
-        # Fallback
-        if not tags: tags.append("[COMMUNITY-TOOL]")
-        
-        return tags
+        # Clean up: If we have high maturity, remove community-tool
+        if (tags & {"[DE FACTO STANDARD]", "[ENTERPRISE-STABLE]"}) and "[COMMUNITY-TOOL]" in tags:
+            tags.remove("[COMMUNITY-TOOL]")
+
+        return sorted(list(tags))
 
     async def _rebuild_structure(self, library_inventory: List[Dict]):
         special_rules = {sa["file"]: sa for sa in self.special_assets_rules.get("special_assets", [])}
@@ -377,8 +600,8 @@ class V2VisionEngine:
 
     async def _write_premium_files(self, data: Dict[str, Dict], mosaic_html: str, videos_html: str):
         # 1. Update Index with Pulse
-        trending_pool = sorted([dict(meta, url=url) for url, meta in self.inventory.items() if meta.get("stars", 0) >= 4], key=lambda x: (x.get("pub_date", "0000"), -x.get("stars", 0)), reverse=True)
-        pulse_md = "## ⚡ The Agentic Pulse\n" + "\n".join([f"- **({l.get('pub_date', 'N/A')[:10]})** [**=={l['title']}==**]({l['url']}) {'🌟'*l.get('stars',3)}" for l in trending_pool[:5]])
+        trending_pool = sorted([dict(meta, url=url) for url, meta in self.inventory.items() if isinstance(meta, dict) and meta.get("stars", 0) >= 4], key=lambda x: (x.get("pub_date", "0000"), -x.get("stars", 0)), reverse=True)
+        pulse_md = "## The Agentic Pulse\n" + "\n".join([f"- **({l.get('pub_date', 'N/A')[:10]})** [**=={l['title']}==**]({l['url']}) {'🌟'*l.get('stars',3)}" for l in trending_pool[:5]])
         
         index_md = (
             "# Nubenetes Elite Portal (V2) | Nubenetes: Awesome Kubernetes & Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)\n\n"
@@ -410,7 +633,7 @@ class V2VisionEngine:
         
         index_md += (
             "\n***\n\n"
-            "## 💎 The Maturity Taxonomy\n\n"
+            "## The Maturity Taxonomy\n\n"
             "To ensure industrial-grade precision, every resource in V2 is classified using our proprietary 5-tier maturity system:\n\n"
             "| Tag | Description | Engineering Context |\n"
             "| :--- | :--- | :--- |\n"
@@ -419,7 +642,7 @@ class V2VisionEngine:
             "| **`[EMERGING]`** | The cutting edge. | High-potential tools and patterns (e.g., AI Agents, MCP) shaping the future. |\n"
             "| **`[GUIDE]`** | Strategic knowledge. | High-quality tutorials, architectural deep-dives, and decision matrices. |\n"
             "| **`[LEGACY]`** | Historical context. | Established tools that are being replaced or are primarily for maintaining older stacks. |\n\n"
-            "## 🌟 Technical Impact (Relevance Score)\n\n"
+            "## Technical Impact (Relevance Score)\n\n"
             "The stars accompanying each resource represent its **Technical Impact** and **Architectural Relevance** for a 2026 Senior Architect:\n\n"
             "| Impact | Level | Meaning | Visual Code |\n"
             "| :---: | :--- | :--- | :--- |\n"
@@ -445,12 +668,11 @@ class V2VisionEngine:
             if "__links__" in node:
                 for l in node["__links__"]:
                     is_gold = is_intro and l.get("stars", 0) >= 4
-                    title = l['title'].replace("==", "")
+                    title = l['title'].replace("==", "") # Title from V1, often descriptive
                     if is_gold:
                         img = f"    ![Preview]({l.get('social_preview_url')})\n" if l.get('social_preview_url') else ""
-                        md += f"!!! note \"{title}\"\n{img}    **[Access Resource]({l['url']})** {'🌟'*l.get('stars',4)} | Level: {l.get('complexity', 'Beginner')}\n    \n    {l.get('ai_summary', l.get('description', ''))}\n\n"
+                        md += f"??? note \"{title}\"\n{img}    **[Access Resource]({l['url']})** {'🌟'*l.get('stars',4)} | Level: {l.get('complexity', 'Beginner')}\n    \n    {l.get('ai_summary', l.get('description', ''))}\n\n"
                     else:
-                        # Fix NameError: Define year_prefix according to Mandate 17
                         year = l.get('year', 'N/A')
                         year_prefix = f"**({year})** " if year != 'N/A' else ""
                         gh_info = f" <span class='md-tag md-tag--info'>⭐ {l.get('gh_stars',0)}</span>" if l.get('gh_stars') else ""
@@ -468,16 +690,23 @@ class V2VisionEngine:
                             color = "success" if "STANDARD" in tag else "warning" if "EMERGING" in tag else "secondary" if "CASE STUDY" in tag or "GUIDE" in tag else "info"
                             tag_html += f" <span class='md-tag md-tag--{color}'>{tag}</span>"
                         
-                        # Apply Visual Highlighting (Mandate 32)
+                        # Apply Visual Highlighting based on stars
                         raw_stars = l.get('stars', 0)
-                        link_text = title
+                        link_content = title
                         if raw_stars >= 5:
-                            link_text = f"=={title}=="
+                            link_content = f"=={title}=="
                         elif raw_stars >= 4:
-                            link_text = f"**{title}**"
+                            link_content = f"**{title}**"
                             
-                        md += f"  - {year_prefix}[{link_text}]({l['url']}){icon}{gh_info}{lang_tag}{level_tag}{type_tag}{rich} {'🌟'*raw_stars}{tag_html}\n"
-                        if l.get('ai_summary'): md += f"\n      {l['ai_summary']}\n\n"
+                        md += f"  - {year_prefix}[{link_content}]({l['url']}){icon}{gh_info}{lang_tag}{level_tag}{type_tag}{rich} {'🌟'*raw_stars}{tag_html}\n"
+                        
+                        # Layer 2: High-Density Technical Summary (Expandable Deep-Dive)
+                        summary = l.get('ai_summary', l.get('description', ''))
+                        if summary:
+                            md += "\n      ??? info \"Technical Deep-Dive\"\n"
+                            # Indent the summary even further to be inside the details block
+                            indented_summary = "\n".join([f"          {line}" if line.strip() else "" for line in summary.strip().split("\n")])
+                            md += f"{indented_summary}\n\n"
                 
                 # Add Semantic "See Also" for related categories within the same Dimension
                 related = [f"[{data[f]['title']}](./{f})" for f in data if f != f_name and data[f]["dim"] == info["dim"]]
@@ -523,8 +752,13 @@ class V2VisionEngine:
             with open("v2-mkdocs.yml", "w") as f: f.write(updated)
         except: pass
 
+import argparse
 if __name__ == "__main__":
-    engine = V2VisionEngine()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--render-only", action="store_true")
+    args = parser.parse_args()
+
+    engine = V2VisionEngine(render_only=args.render_only)
     asyncio.run(engine.analyze_and_cluster())
     
     # --- PLATINUM GITOPS REPORTING (Multi-Comment) ---
@@ -533,7 +767,7 @@ if __name__ == "__main__":
     
     # 1. High-Density Metrics Calculation
     total_v1_links = len(engine.inventory)
-    v2_links = [l for l in engine.inventory.values() if l.get('v2_locations')]
+    v2_links = [l for l in engine.inventory.values() if isinstance(l, dict) and l.get('v2_locations')]
     total_v2_links = len(v2_links)
     
     # Delta & Efficiency
@@ -581,11 +815,12 @@ if __name__ == "__main__":
         f.write(f"| **Hierarchical Depth** | Flat | Recursive | Max Depth: {engine.max_depth} |\n\n")
 
         f.write("### 🏗️ Evidence of Elite Status\n")
+        f.write("<details><summary>📊 Clic para ver Gráfico de Distribución</summary>\n\n")
         f.write("```mermaid\npie title V2 Maturity Distribution\n")
         for tag, count in maturity_counts.items():
             tag_name = tag.replace('[','').replace(']','')
             f.write(f"    \"{tag_name}\" : {count}\n")
-        f.write("```\n\n")
+        f.write("```\n\n</details>\n\n")
         
         from src.gemini_utils import SESSION_TRACKER
         f.write(SESSION_TRACKER.get_intelligence_report())

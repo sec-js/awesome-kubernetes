@@ -32,9 +32,9 @@
 14. [Prometheus SaaS Solutions](#prometheus-saas-solutions)
 15. [Proof of Concept: ActiveMQ Monitoring with Prometheus](#proof-of-concept-activemq-monitoring-with-prometheus)
      1. [PoC: ActiveMQ 5.x Monitoring with Telegraf Collector, Prometheus and Grafana Dashboard 10702](#poc-activemq-5x-monitoring-with-telegraf-collector-prometheus-and-grafana-dashboard-10702)
-         1. [Deployment and Configuration](#deployment-and-configuration)
+         1. [Deployment and Configuration](#deployment-and-configuration-for-activemq-5x)
      2. [PoC: ActiveMQ Artemis Monitoring with Prometheus Metrics Plugin (Micrometer Collector) and Prometheus. Grafana Dashboard not available](#poc-activemq-artemis-monitoring-with-prometheus-metrics-plugin-micrometer-collector-and-prometheus-grafana-dashboard-not-available)
-         1. [Deployment and Configuration](#deployment-and-configuration-1)
+         1. [Deployment and Configuration](#deployment-and-configuration-for-activemq-artemis)
      3. [Validation of Artemis Broker Monitoring with JMeter](#validation-of-artemis-broker-monitoring-with-jmeter)
          1. [JMeter Example Test Plans](#jmeter-example-test-plans)
 16. [Prometheus and Azure](#prometheus-and-azure)
@@ -422,11 +422,11 @@ Red Hat AMQ 7 Operator is fully supported in OpenShift 4.x, initially with Prome
     - [github.com/influxdata/telegraf/tree/master/plugins/inputs/activemq](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/activemq)
     - [docs.wavefront.com/activemq.html](https://docs.wavefront.com/activemq.html)
 
-#### Deployment and Configuration
+#### Deployment and Configuration for ActiveMQ 5.x
 
 - Systemd
 
-```
+```text
 /etc/systemd/system/prometheus.service
 /etc/systemd/system/activemq.service
 /usr/lib/systemd/system/telegraf.service
@@ -451,7 +451,7 @@ mv /opt/activemq/webapps/api/WEB-INF/classes/jolokia-access.xml /opt/activemq/we
 
 - Telegraf Jolokia Input Plugin /etc/telegraf/telegraf.d/activemq.conf
 
-```
+```toml
 [[inputs.jolokia2_agent]]
 urls = ["http://localhost:8161/api/jolokia"]
 name_prefix = "activemq."
@@ -495,15 +495,14 @@ tag_keys = ["brokerName","destinationName"]
 [[inputs.jolokia2_agent.metric]]
 name     = "broker"
 mbean    = "org.apache.activemq:brokerName=*,type=Broker"
-paths    = ["TotalConsumerCount","TotalMessageCount","TotalEnqueueCount","TotalDequeueCount","MemoryLimit","MemoryPercentUsage","StoreLimi
-t","StorePercentUsage","TempPercentUsage","TempLimit"]
+paths    = ["TotalConsumerCount","TotalMessageCount","TotalEnqueueCount","TotalDequeueCount","MemoryLimit","MemoryPercentUsage","StoreLimit","StorePercentUsage","TempPercentUsage","TempLimit"]
 tag_keys = ["brokerName"]
 ```
 
 - InfluxDB: Not required.
 - Defautl /etc/telegraf/telegraf.conf file is modified to allow Prometheus to collect ActiveMQ metrics by pulling Telegraf metrics:
 
-```
+```toml
   # # Configuration for the Prometheus client to spawn
   [[outputs.prometheus_client]]
   #   ## Address to listen on
@@ -525,7 +524,7 @@ tag_keys = ["brokerName"]
 
 - scrape_configs in /opt/prometheus/prometheus.yml
 
-```
+```yaml
   scrape_configs:
   # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
   - job_name: 'prometheus'
@@ -555,11 +554,11 @@ tag_keys = ["brokerName"]
     - [Apache ActiveMQ Artemis Management Console](https://artemis.apache.org/components/artemis/documentation/latest/management-console.html)
     - [Apache ActiveMQ Artemis Metrics](http://activemq.apache.org/components/artemis/documentation/latest/metrics.html)
 
-#### Deployment and Configuration
+#### Deployment and Configuration for ActiveMQ Artemis
 
 - systemd
 
-```
+```text
 /etc/systemd/system/prometheus.service
 /etc/systemd/system/artemis.service
 /usr/lib/systemd/system/grafana-server.service
@@ -656,13 +655,13 @@ ctivemq/.m2/repository/org/apache/activemq/artemis-prometheus-metrics-plugin/1.0
 
 - Edition of file /var/lib/artemisbroker/etc/broker.xml
 
-```
+```xml
 <metrics-plugin class-name="org.apache.activemq.artemis.core.server.metrics.plugins.ArtemisPrometheusMetricsPlugin"/>
 ```
 
 - Creation of <artemis_instance>/web
 
-```
+```bash
 [activemq@my_servername artemisbroker]$ mkdir /var/lib/artemisbroker/web
 ```
 
@@ -675,18 +674,17 @@ isbroker/web/
 
 - Below web component added to <ARTEMIS_INSTANCE>/etc/bootstrap.xml :
 
-```
+```text
 [activemq@my_servername artemis-prometheus-metrics-plugin]$ vim /var/lib/artemisbroker/etc/bootstrap.xml
 ...
 <app url="metrics" war="metrics.war"/>
 ...
-
 ```
 
 - Restart of Artemis Broker
 - Prometheus configuration, scrape_configs in /opt/prometheus/prometheus.yml :
 
-```
+```yaml
 scrape_configs:
   # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
   - job_name: 'prometheus'

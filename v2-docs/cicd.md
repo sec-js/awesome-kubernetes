@@ -62,7 +62,7 @@
   - [blog.container-solutions.com: Deployment Strategies 🌟](https://blog.container-solutions.com/deployment-strategies)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [semaphoreci.com: Continuous Blue-Green Deployments With Kubernetes 🌟](https://semaphore.io/blog/continuous-blue-green-deployments-with-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opsmx.com: What is Blue Green Deployment ?](https://www.opsmx.com/blog/blue-green-deployment)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [youtube: Kubernetes Deployment Strategies | DevOps FAQ | DevOps DevOps Interview Q&A ](https://www.youtube.com/watch?v=aU-EtdEOdlM)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [youtube: Kubernetes Deployment Strategies | DevOps FAQ | DevOps DevOps Interview Q&A](https://www.youtube.com/watch?v=aU-EtdEOdlM)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Azure DevOps Terraform Pipeline (Complete Guide + YAML Examples)](https://deniscooper.co.uk/azure-devops-terraform-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [harness.io: Pipeline Patterns for CI/CD Pipelines 🌟](https://www.harness.io/blog/deployment-pipeline-patterns)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.sonatype.com: Achieving CI and CD With Kubernetes 🌟](https://www.sonatype.com/blog/achieving-ci/cd-with-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>

@@ -3,6 +3,10 @@ name: Nubenetes V2 Agentic Builder
 on:
   workflow_dispatch:
     inputs:
+      force_full_check:
+        description: 'Force full re-validation (bypasses cache)'
+        type: boolean
+        default: false
       force_reevaluate:
         description: 'Force AI re-evaluation (ignores cache for tags/years)'
         type: boolean
@@ -11,11 +15,6 @@ on:
         description: 'Enrich GitHub Metadata (fetch stars/license for V2 logic)'
         type: boolean
         default: false
-      activate_backup_key:
-        description: 'Activate Identity B (Subscription) as backup/rotation'
-        type: boolean
-        default: false
-  # Automatic detection: Sync V2 whenever V1 archive or inventory is updated
   push:
     branches: [ develop ]
     paths:
@@ -29,10 +28,10 @@ permissions:
 
 concurrency:
   group: v2-builder-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
-  build-v2-edition:
+  build-and-pr:
     runs-on: ubuntu-latest
     if: |
       github.event_name == 'workflow_dispatch' || 
@@ -51,21 +50,31 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: '3.11'
+          cache: 'pip'
+
+      - name: Restore Incremental Inventory Cache (Mandate 22)
+        uses: actions/cache/restore@v4
+        id: inventory-cache-restore
+        with:
+          path: data/inventory.yaml
+          key: inventory-v2-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            inventory-v2-
 
       - name: Installation of Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install --no-cache-dir pydantic PyGithub httpx fake-useragent pytz python-dotenv pyyaml
+          pip install --no-cache-dir pydantic PyGithub httpx fake-useragent pytz python-dotenv pyyaml tenacity
           
-      - name: Run V2 Agentic Optimizer
+      - name: Run V2 Agentic Optimizer (Sequential Fast-Track)
         env:
           GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
-          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ACTIVATE_BACKUP_KEY: ${{ github.event.inputs.activate_backup_key || 'false' }}
+          FORCE_FULL_CHECK: ${{ github.event.inputs.force_full_check || 'false' }}
           FORCE_EVAL: ${{ github.event.inputs.force_reevaluate || 'false' }}
           ENRICH_METADATA: ${{ github.event.inputs.enrich_metadata || 'false' }}
           PYTHONPATH: .
+          PYTHONUNBUFFERED: "1"
         run: |
           python -u src/v2_optimizer.py
           if [ -f v2_safety_report.md ]; then
@@ -80,7 +89,12 @@ jobs:
         run: |
           python src/readme_updater.py
           python src/safety_readme.py
-          
+
+      - name: Safety Reset for Workflow Files (Security)
+        run: |
+          # Prevent security rejection by ensuring no workflow YAMLs are part of the PR
+          git checkout HEAD -- .github/workflows/
+
       - name: Create Pull Request for V2 Elite Update
         id: cpr
         uses: peter-evans/create-pull-request@v8
@@ -115,3 +129,10 @@ jobs:
               gh pr comment $PR_NUMBER --body-file $part
             done
           fi
+
+      - name: Persist Incremental Inventory to Cache (Always)
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: data/inventory.yaml
+          key: inventory-v2-${{ github.run_id }}-${{ github.run_attempt }}

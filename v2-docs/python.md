@@ -165,7 +165,7 @@
   - [dev.to: Building a REST API with Django REST Framework 🌟](https://dev.to/nagatodev/how-to-connect-django-to-reactjs-part-2-2oje)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Flask Documentation 🌟](https://flask.palletsprojects.com/en/stable)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [The Flask Mega-Tutorial: Now with Python 3 Support](http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-now-with-python-3-support)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [realpython.com: Discover Flask, Part 1 - Setting Up a Static Site ](https://realpython.com/learning-paths/flask-by-example)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [realpython.com: Discover Flask, Part 1 - Setting Up a Static Site](https://realpython.com/learning-paths/flask-by-example)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [mherman.org: Scaling Flask with Kubernetes 🌟](https://mherman.org/presentations/flask-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kdnuggets.com: How to Deploy a Flask API in Kubernetes and Connect it with Other Micro-services](https://www.kdnuggets.com/2021/02/deploy-flask-api-kubernetes-connect-micro-services.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: Getting Started with Flask and Docker](https://dev.to/ken_mwaura1/getting-started-with-flask-and-docker-3ie8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>

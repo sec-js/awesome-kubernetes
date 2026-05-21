@@ -53,7 +53,7 @@
 - [blog.ivnilv.com: Rotating Kops Etcd Certificates](https://blog.ivnilv.com/posts/rotating-kops-etcd-certificates)
 - [blog.kubecost.com: Kubernetes kOps: Step-By-Step Example & Alternatives](https://blog.kubecost.com/blog/kubernetes-kops)
 
-```
+```cmd
 C:\ubuntu> vagrant init ubuntu/xenial64
 C:\ubuntu> vagrant up
 C:\ubuntu> vagrant ssh-config

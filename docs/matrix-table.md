@@ -36,12 +36,12 @@ hide:
 | [AWS EKS](https://aws.amazon.com/eks)| SRE / DevOps | AWS Kubernetes | AWS | No | N/A | Yes | No | No | Yes | Yes | Managed kubernetes by AWS | 
 | [Google kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine)| SRE / DevOps | Google Kubernetes | GCP | No | N/A | Yes | No | No | Yes | Yes | Managed kubernetes by Google Cloud | 
 | [Digital Ocean Kubernetes](https://www.digitalocean.com/products/kubernetes)| SRE / DevOps | Digital Ocean Kubernetes | Digital Ocean | No | N/A | Yes | No | No | Yes | Yes | Managed kubernetes by Digital Ocean Cloud | 
-| [Alibaba Container Service for kubernetes (ACK)](https://www.alibabacloud.com/en/product/kubernetes?_p_lc=1) | | SRE / DevOps | Alibaba Kubernetes | Alibaba Cloud | No | N/A | Yes | No | No | yes | Yes | Managed kubernetes by Alibaba Cloud |
+| [Alibaba Container Service for kubernetes (ACK)](https://www.alibabacloud.com/en/product/kubernetes?_p_lc=1) | SRE / DevOps | Alibaba Kubernetes | Alibaba Cloud | No | N/A | Yes | No | No | yes | Yes | Managed kubernetes by Alibaba Cloud |
 | [Oracle Kubernetes Engine (OKE)](https://www.oracle.com/cloud/cloud-native/kubernetes-engine)| SRE / DevOps | Oracle Kubernetes | Oracle Cloud | No | N/A | Yes | No | No | Yes | Yes | Managed kubernetes by Oracle Cloud | 
 | [Terraform (kubernetes the hard way)](https://napo.io/posts/kubernetes-the-real-hard-way-on-aws)| SRE / DevOps | Kubernetes Upstream | AWS EKS, Google GKE, <br/>Azure AKS, Digital Ocean, <br/>Alibaba, Oracle Cloud | No | N/A | Yes | No | No | Yes | No | kubernetes installer compliant with all the major public cloud providers<br/> (the hard way). It does not use the official installers offered by each <br/>cloud provider. | 
 | [Kubespray on Public Cloud](https://github.com/kubernetes-sigs/kubespray)| SRE / DevOps | Kubernetes Upstream | AWS, GCE, Azure, <br/>Oracle Cloud (experimental) | Yes | OSS | Yes | Yes | No | Yes | Yes |  | 
 | [Kubespray on Private Cloud](https://github.com/kubernetes-sigs/kubespray)| SRE / DevOps | Kubernetes Upstream | OpenStack, vSphere, <br/>Packet (bare metal), or baremetal | Yes | OSS | Yes | Yes | No | Yes | No |  |
-| [Conjure-up ](https://canonical.com/juju)| SRE / DevOps | Kubernetes Upstream |  | Yes | OSS | Yes | Yes | No | Yes | Yes |  | 
+| [Conjure-up](https://canonical.com/juju)| SRE / DevOps | Kubernetes Upstream |  | Yes | OSS | Yes | Yes | No | Yes | Yes |  | 
 | [weave.works](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745)| SRE / DevOps / Devel |  Kubernetes Upstream |  | | |  |  | |  |  |  |
 | [WKSctl](https://github.com/weaveworks/wksctl)| SRE / DevOps | Kubernetes Upstream |  | Yes | OSS | Yes | Yes | No | Yes | Yes |  |
 | [Caravan](https://engineering.linecorp.com/en/blog/building-large-kubernetes-clusters)| SRE / DevOps | Kubernetes Upstream |  | Yes | OSS | Yes | Yes | No | Yes | Yes |  |

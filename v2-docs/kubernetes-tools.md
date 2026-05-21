@@ -536,7 +536,7 @@
   - [thenewstack.io: Locking Down Kubernetes Containers with vcluster](https://thenewstack.io/locking-down-kubernetes-containers-with-vcluster)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [salaboy.com: Building platforms on top of Kubernetes: VCluster and Crossplane](https://www.salaboy.com/2022/08/03/building-platforms-on-top-of-kubernetes-vcluster-and-crossplane)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kateyes.co.uk](https://www.kateyes.co.uk)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [rene6502/keepass-secret ](https://github.com/rene6502/keepass-secret)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [rene6502/keepass-secret](https://github.com/rene6502/keepass-secret)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Alcide Advisor: an agentless service for Kubernetes audit and compliance that's built to ensure a frictionless and secured DevSecOps workflow](https://github.com/alcideio/advisor)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [komodor.com: Komodor Workflows: Automated Troubleshooting at the Speed of WHOOSH!](https://komodor.com/blog/using-workflows-to-troubleshoot-like-a-pro)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/Azure/eraser 🌟](https://github.com/eraser-dev/eraser)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
