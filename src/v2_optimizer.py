@@ -595,13 +595,15 @@ class V2VisionEngine:
         for l in standard_tools[:10]:
             stars = "🌟" * l.get("stars", 0)
             focus = l.get("topic", l.get("hierarchy", ["General"])[-1])
-            table += f"    | [{l['title'].replace('==','')}]({l['url']}) | {l.get('tag','').replace('[','').replace(']','')} | {focus} | {l.get('language','English')} | {stars} |\n"
+            # Mandate 30: MD039 - Strip all whitespace (including non-breaking space) from link text
+            clean_title = l['title'].replace('==','').strip().strip("\u00a0\u200b")
+            table += f"    | [{clean_title}]({l['url'].strip()}) | {l.get('tag','').replace('[','').replace(']','')} | {focus} | {l.get('language','English')} | {stars} |\n"
         return table + "\n"
 
     async def _write_premium_files(self, data: Dict[str, Dict], mosaic_html: str, videos_html: str):
         # 1. Update Index with Pulse
         trending_pool = sorted([dict(meta, url=url) for url, meta in self.inventory.items() if isinstance(meta, dict) and meta.get("stars", 0) >= 4], key=lambda x: (x.get("pub_date", "0000"), -x.get("stars", 0)), reverse=True)
-        pulse_md = "## The Agentic Pulse\n" + "\n".join([f"- **({l.get('pub_date', 'N/A')[:10]})** [**=={l['title']}==**]({l['url']}) {'🌟'*l.get('stars',3)}" for l in trending_pool[:5]])
+        pulse_md = "## The Agentic Pulse\n" + "\n".join([f"- **({l.get('pub_date', 'N/A')[:10]})** [**=={l['title'].strip()}==**]({l['url'].strip()}) {'🌟'*l.get('stars',3)}" for l in trending_pool[:5]])
         
         index_md = (
             "# Nubenetes Elite Portal (V2) | Nubenetes: Awesome Kubernetes & Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)\n\n"
@@ -703,15 +705,17 @@ class V2VisionEngine:
                         for tag in l.get("tags", ["[COMMUNITY-TOOL]"]):
                             color = "success" if "STANDARD" in tag else "warning" if "EMERGING" in tag else "secondary" if "CASE STUDY" in tag or "GUIDE" in tag else "info"
                             tag_html += f" <span class='md-tag md-tag--{color}'>{tag}</span>"
+                        
                         # Apply Visual Highlighting based on stars
                         raw_stars = l.get('stars', 0)
-                        link_content = title.strip() # Mandate 30: MD039 - Strip spaces in links
+                        # Mandate 30: MD039 - Strip all whitespace (including non-breaking space) from link text
+                        link_content = title.strip().strip("\u00a0\u200b")
                         if raw_stars >= 5:
                             link_content = f"=={link_content}=="
                         elif raw_stars >= 4:
                             link_content = f"**{link_content}**"
-
-                        md += f"  - {year_prefix}[{link_content}]({l['url']}){icon}{gh_info}{lang_tag}{level_tag}{type_tag}{rich} {'🌟'*raw_stars}{tag_html}\n"
+                            
+                        md += f"  - {year_prefix}[{link_content}]({l['url'].strip()}){icon}{gh_info}{lang_tag}{level_tag}{type_tag}{rich} {'🌟'*raw_stars}{tag_html}\n"
 
                         
                         # Layer 2: High-Density Technical Summary (Expandable Deep-Dive)
