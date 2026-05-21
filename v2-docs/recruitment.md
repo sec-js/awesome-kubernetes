@@ -3,41 +3,41 @@
 !!! info "Architectural Context"
     Detailed reference for Recruitment in the context of Career & Industry.
 
-# Career Development
+## Career Development
 
-## Industry Trends
+### Industry Trends
 
-### Market Demand
+#### Market Demand
 
   - **(2023)** [lavanguardia.com: Ingeniero de ‘machine learning’ e ingeniero de datos, las profesiones emergentes más demandadas en España](https://www.lavanguardia.com/economia/20230414/8895371/ingeniero-machine-learning-e-ingeniero-datos-profesiones-emergentes-mas-demandadas-espana.html) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Market research report exploring the explosive demand for Machine Learning Engineers and Data Engineers within the Spanish technology sector. It provides insights into curriculum choices, salary benchmarks, and the integration of data engineering pipelines in enterprise architectures. [SPANISH CONTENT]
 
-## Job Hunting
+### Job Hunting
 
-### Recruitment Platforms
+#### Recruitment Platforms
 
   - **(2025)** [recruit crm](https://recruitcrm.io) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         An Applicant Tracking System (ATS) and CRM software platform built for scaling HR workflows. It details recruitment pipeline structures and helps software engineers map out recruitment vendor pipelines.
 
-### Relocation Guides
+#### Relocation Guides
 
   - **(2025)** [**International Tech Job Search Handbook**](https://github.com/andrewstetsenko/tech-jobs-with-relocation) <span class='md-tag md-tag--info'>⭐ 4403</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         A highly rated, community-vetted handbook and repository containing aggregated metadata on global job searches. It details specific corporate policies regarding visa processes, relocation packages, and country-specific tax rules for tech candidates.
 
-### Relocation Platforms
+#### Relocation Platforms
 
   - **(2026)** [relocate.me](https://relocate.me) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         A specialized global platform built for software developers seeking international career transitions. It categorizes jobs by visa sponsorship options and provides essential information on relocation assistance packages.
 
-### Resume Strategy
+#### Resume Strategy
 
   - **(2021)** [forbes.com: What Do Employers Want To See In Your CV?](https://www.forbes.com/sites/andrewfennell/2021/09/08/what-do-employers-want-to-see-in-your-cv) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -49,32 +49,32 @@
     ??? info "Technical Deep-Dive"
         An analytical look at modern career strategies, discussing the ethics and outcomes of resume inflation during high-stakes tech and corporate job hunting. It highlights structural shifts in candidate-employer dynamics and explores how candidates manage perceived mismatches. [SPANISH CONTENT]
 
-### Salary Negotiation
+#### Salary Negotiation
 
   - **(2020)** [mikzuit/fair-job-offer](https://github.com/mikzuit/fair-job-offer) <span class='md-tag md-tag--info'>⭐ 19</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         A simple open-source calculator designed to analyze and evaluate developer employment contracts and job offer structures. The project is currently deprioritized due to lack of commit activity over the last four years.
 
-### Workplace Culture
+#### Workplace Culture
 
   - **(2023)** [businessinsider.es: El fin de la lealtad laboral](https://www.businessinsider.es/desarrollo-profesional/fin-lealtad-laboral-empleados-ya-no-son-fieles-jefes-1358974) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         An investigation into modern labor economics showing a shift in corporate loyalty, where technology professionals prioritize career progression and compensation adjustment over organizational longevity. This piece unpacks how fast-track job-hopping is becoming an industry-standard mechanism for talent compensation correction. [SPANISH CONTENT]
 
-# Engineering Leadership and Career Dynamics
+## Engineering Leadership and Career Dynamics
 
-## Market Dynamics and Economic Shifts
+### Market Dynamics and Economic Shifts
 
-### Generational Workforce Dynamics
+#### Generational Workforce Dynamics
 
   - **(2021)** [forbes.com: ‘The Great Resignation’: Why Gen Z Is Leaving The Workforce In Droves…And What To Do About It](https://www.forbes.com/sites/jasonwingard/2021/09/02/the-great-resignation-why-gen-z-is-leaving-the-workforce-in-drovesand-what-to-do-about-it)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Analyzes the unique professional expectations and workplace friction points driving rapid turnover among early-career software developers and technical professionals. Emphasizes the need for modern management structures prioritizing psychological safety, rapid feedback loops, and meaningful work.
 
-### Labor Economics in Technology
+#### Labor Economics in Technology
 
   - **(2022)** [**stackoverflow.blog: The Great Resignation is here. What does that mean for developers? 🌟**](https://stackoverflow.blog/2022/12/28/the-great-resignation-is-here-what-does-that-mean-for-developers) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
@@ -126,7 +126,7 @@
     ??? info "Technical Deep-Dive"
         Investigates the highly debated ethical and operational question of whether remote engineering salaries should be localized to an employee's place of residence. Examines arguments for cost-of-living indexing versus equal-pay-for-equal-work strategies. [SPANISH CONTENT]
 
-### The Great Resignation Paradigm
+#### The Great Resignation Paradigm
 
   - **(2021)** [wired.co.uk: The Great Resignation is here and no one is prepared](https://www.wired.com/story/great-resignation-quit-job)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -153,9 +153,9 @@
     ??? info "Technical Deep-Dive"
         Investigates the structural likelihood of the 'Great Resignation' spreading to the Spanish labor market. Contrasts US-style employment liquidity against Spanish labor regulations, high structural unemployment rates, and specific market dynamics. [SPANISH CONTENT]
 
-## Organizational Design and Leadership Systems
+### Organizational Design and Leadership Systems
 
-### Corporate Governance
+#### Corporate Governance
 
   - **(2021)** [bbc.com: Is HR ever really your friend?](https://www.bbc.com/worklife/article/20211022-is-hr-ever-really-your-friend)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -167,7 +167,7 @@
     ??? info "Technical Deep-Dive"
         Analyzes the evolving challenges and strategic patterns of IT service outsourcing in Spain. Outlines critical risk mitigation strategies, Service Level Agreement (SLA) optimizations, and how modern organizations are balancing internal engineering capabilities with vendor-delivered services. [SPANISH CONTENT]
 
-### Engineering Culture
+#### Engineering Culture
 
   - **(2022)** [forbes.com: As Leaders: What Can We Learn From The Great Resignation?](https://www.forbes.com/sites/dedehenley/2022/01/30/as-leaders-what-can-we-learn-from-the-great-resignation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -209,7 +209,7 @@
     ??? info "Technical Deep-Dive"
         Presents a rigorous organizational design framework detailing the components of high-quality, sustainable employment. Demonstrates how structuring roles with clear career progression, high autonomy, and psychological safety yields superior operational resilience.
 
-### Management Anti-Patterns
+#### Management Anti-Patterns
 
   - **(2022)** [blogs.elconfidencial.com: Luca de Meo y Lawrence Stroll: por qué el ego es el peor enemigo del gestor en la Fórmula 1](https://www.elconfidencial.com/deportes/tribuna/2022-08-03/alpine-aston-martin-lawrence-stroll-luca-de-meo_3470693) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -231,9 +231,9 @@
     ??? info "Technical Deep-Dive"
         Catalogues standard toxic and unproductive management archetypes and provides actionable coping strategies for technical professionals. Highlights communication protocols and self-protection mechanisms necessary to maintain career momentum under challenging leadership. [SPANISH CONTENT]
 
-## Professional Growth and Career Strategy
+### Professional Growth and Career Strategy
 
-### Career Transition Decisioning
+#### Career Transition Decisioning
 
   - **(2022)** [**thewokesalaryman.com: Why people leave even the most high paying jobs 🌟**](https://thewokesalaryman.com/2022/02/11/why-people-leave-even-the-most-high-paying-jobs) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
@@ -270,14 +270,14 @@
     ??? info "Technical Deep-Dive"
         Presents a pragmatic methodology for technical professionals executing horizontal or vertical career changes. Focuses on mapping existing architectural, operational, and project management competencies to new domain frameworks to minimize transition friction.
 
-### Domain Specialization
+#### Domain Specialization
 
   - **(2022)** [computerworld.com: How to get a job in healthcare IT](https://www.computerworld.com/article/1627067/how-to-get-a-job-in-healthcare-it-2.html)  <span class='md-tag md-tag--info'>[LEGACY]</span>
 
     ??? info "Technical Deep-Dive"
         Analyzes the requirements, pathways, and challenges of transitioning into the highly regulated healthcare IT sector. Focuses on balancing software engineering competencies with domain-specific regulatory compliance, privacy protocols (HIPAA), and legacy data architectures.
 
-### Professional Skill Acquisition
+#### Professional Skill Acquisition
 
   - **(2022)** [devops.com: Great Resignation Spurs Interest in Tech Certifications](https://devops.com/great-resignation-spurs-interest-in-tech-certifications)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -299,9 +299,9 @@
     ??? info "Technical Deep-Dive"
         Explores why modern technical organizations are heavily prioritizing 'soft skills' (communication, empathy, negotiation, conflict resolution) in engineering candidates. Explains how architectural success in complex systems depends as much on team communication as on clean code. [SPANISH CONTENT]
 
-## Talent Acquisition and Interview Engineering
+### Talent Acquisition and Interview Engineering
 
-### Assessment Anti-Patterns
+#### Assessment Anti-Patterns
 
   - **(2023)** [forbes.com: Hiring Managers Often Lie To Candidates, Here’s How To Spot When They Do](https://www.forbes.com/sites/markmurphy/2023/08/24/hiring-managers-often-lie-to-candidates-heres-how-to-spot-when-they-do)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -318,7 +318,7 @@
     ??? info "Technical Deep-Dive"
         A foundational academic study proving that traditional whiteboard interviews assess candidates' performance under anxiety rather than practical software engineering capabilities. Critiques industry-standard hiring funnels and advocates for asynchronous, real-world task evaluations.
 
-### Talent Evaluation
+#### Talent Evaluation
 
   - **(2022)** [**findmyprofession.com: 100+ Questions to Ask in an Interview 🌟**](https://www.findmyprofession.com/career-advice/questions-to-ask) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
@@ -340,18 +340,18 @@
     ??? info "Technical Deep-Dive"
         An architectural critique of the 'culture fit' hiring metric, showing how it institutionalizes affinity bias and stifles diversity. Recommends shifting to 'culture add' evaluation criteria to foster cognitive diversity and improve multi-disciplinary problem-solving capabilities.
 
-# Professional Development
+## Professional Development
 
-## Cloud Culture
+### Cloud Culture
 
-### Career Strategy
+#### Career Strategy
 
   - **(2021)** [thenewstack.io: Challenging the Myth That Programming Careers End at 40](https://thenewstack.io/challenging-the-myth-that-programming-careers-end-at-40) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         An insightful editorial examining age biases within software engineering. It provides engineers with guidance on professional growth, architectural paths, and modern skill building.
 
-### Industry History
+#### Industry History
 
   - **(2021)** [liquidat.wordpress.com: Good bye Red Hat](https://liquidat.wordpress.com/2021/08/15/good-bye-red-hat) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
@@ -363,32 +363,32 @@
     ??? info "Technical Deep-Dive"
         An industry report investigating the operational and psychological friction associated with automated platforms. Suggests organizational frameworks for leaders scaling modern GitOps pipelines.
 
-### Mental Health
+#### Mental Health
 
   - **(2021)** [thenewstack.io: This Week in Programming: Can You Feel the Burn?](https://thenewstack.io/this-week-in-programming-can-you-feel-the-burn) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         An industry column exploring software engineering burnout and stress. It offers actionable strategies for team leaders to cultivate healthier environments and manage delivery demands.
 
-### Psychology
+#### Psychology
 
   - **(2016)** [hbr.org: Optimists Are Better at Finding New Jobs](https://hbr.org/2016/04/optimists-are-better-at-finding-new-jobs) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         A behavioral study examining how personal outlook affects job hunting and transitions. Helpful for platform engineers navigating corporate restructures and technical shifts.
 
-### Remote Operations
+#### Remote Operations
 
   - **(2021)** [about.gitlab.com: The Remote Work Report 2021](https://handbook.gitlab.com/handbook/company/culture/all-remote/remote-work-report) 🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         An authoritative, data-driven whitepaper by GitLab on global remote work methodologies. Discusses practical insights regarding asynchronous operations, developer productivity, and remote-first scaling strategies.
 
-# Software Engineering
+## Software Engineering
 
-## Developer Productivity
+### Developer Productivity
 
-### Shell Tools
+#### Shell Tools
 
   - **(2017)** [github.com/rakyll/fake-it-til-you-make-it](https://github.com/rakyll/fake-it-til-you-make-it) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span>
 

@@ -3,13 +3,13 @@
 !!! info "Architectural Context"
     Detailed reference for Kustomize in the context of Hardened Infrastructure.
 
-# Networking
+## Networking
 
-## Ingress
+### Ingress
 
-### Traefik
+#### Traefik
 
-#### Kustomize Deployments
+##### Kustomize Deployments
 
   - **(2020)** [blog.tomarrell.com: Kustomize: Traefik v2.2 as a Kubernetes Ingress Controller](https://blog.tomarrell.com/post/traefik_v2_on_kubernetes) 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span>
 

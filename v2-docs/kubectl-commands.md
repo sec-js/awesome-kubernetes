@@ -3,11 +3,11 @@
 !!! info "Architectural Context"
     Detailed reference for Kubectl Commands in the context of The Container Stack.
 
-# Continuous Integration
+## Continuous Integration
 
-## CI Tools
+### CI Tools
 
-### Jenkins
+#### Jenkins
 
   - [**Jenkins Kubernetes Plugin**](https://plugins.jenkins.io/kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 

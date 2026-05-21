@@ -3,22 +3,22 @@
 !!! info "Architectural Context"
     Detailed reference for Interview Questions in the context of Career & Industry.
 
-# Architecture and Design
+## Architecture and Design
 
-## System Design
+### System Design
 
-### Interviews
+#### Interviews
 
   - **(2022)** [vahid.blog: System Design Interview Cheat Sheet](https://vahid.blog/post/2022-05-05-system-design-interview-cheat-sheet) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         A high-density cheatsheet detailing scalable system design paradigms. Covers load balancing, distributed caching strategies, message queues, and API gateway architectures necessary to master architectural interviews.
 
-# Career Development
+## Career Development
 
-## Interview Preparation
+### Interview Preparation
 
-### API and SDET
+#### API and SDET
 
   - **(2023)** [automationqahub.com: Latest API Testing Interview Questions And Answers](https://automationqahub.com/latest-api-testing-interview-questions-and-answers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
@@ -45,14 +45,14 @@
     ??? info "Technical Deep-Dive"
         Curator Insight delivers REST-based API testing fundamentals using Rest Assured framework. Live Grounding shows that despite its age, HTTP status and header validation remain foundational for API test engineers. This is a solid legacy reference.
 
-### Agile and Management
+#### Agile and Management
 
   - **(2022)** [age-of-product.com: Hiring: 71 Scrum Product Owner Interview Questions to Avoid Agile Imposters](https://age-of-product.com/42-scrum-product-owner-interview-questions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         Curator Insight lists Product Owner interview questions assessing backlog pruning, Agile alignment, and stakeholder management. Live Grounding shows that bridging business requirements with agile engineering output is a vital project coordinator skill. It targets agile managers.
 
-### CI-CD and Pipelines
+#### CI-CD and Pipelines
 
   - **(2023)** [intellipaat.com: Top Jenkins Interview Questions and Answers](https://intellipaat.com/blog/interview-question/jenkins-interview-questions-answers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
@@ -74,7 +74,7 @@
     ??? info "Technical Deep-Dive"
         Curator Insight analyzes optimization pathways, notification patterns, and shared library integrations in Jenkins. Live Grounding highlights that declarative pipeline modularization via shared libraries is standard in enterprise teams. It details scalable CI setups.
 
-### Cloud Computing
+#### Cloud Computing
 
   - **(2023)** [intellipaat.com: Top Amazon AWS Interview Questions – Most Asked](https://intellipaat.com/blog/interview-question/amazon-aws-interview-questions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
@@ -86,14 +86,14 @@
     ??? info "Technical Deep-Dive"
         Curator Insight compiles high-frequency AWS technical inquiries on IAM, EC2, and VPC configurations. Live Grounding confirms that security posture and network isolation are foundational for any cloud architect role. This guide ensures solid structural prep.
 
-### Data Platforms
+#### Data Platforms
 
   - **(2022)** [javarevisited.blogspot.com: Top 20 Apache Kafka Interview Questions with Answers](https://javarevisited.blogspot.com/2022/03/top-20-apache-kafka-interview-questions.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         Curator Insight details Apache Kafka broker architecture, topic partition offsets, and consumer group rebalancing. Live Grounding confirms that event-driven architectures rely heavily on Kafka's message durability and high throughput. This resource supports advanced system design.
 
-### Database Questions
+#### Database Questions
 
   - **(2023)** [artoftesting.com: Top 40 SQL Query Interview Questions and Answers for Practice](https://artoftesting.com/sql-queries-for-interview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
@@ -110,7 +110,7 @@
     ??? info "Technical Deep-Dive"
         Curator Insight lists core SQL syntax questions involving joins, unions, and schema definitions. Live Grounding verifies that relational database fundamentals are mandatory across modern software engineering interviews. It targets junior backend data paths.
 
-### DevOps Questions
+#### DevOps Questions
 
   - **(2023)** [interviewbit.com: Ansible Interview Questions](https://www.interviewbit.com/ansible-interview-questions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
@@ -122,14 +122,14 @@
     ??? info "Technical Deep-Dive"
         Curator Insight maps the end-to-end DevOps loop, integrating CI/CD, deployment, and performance monitoring. Live Grounding validates that DevOps methodologies have shifted toward GitOps and observability frameworks. It prepares engineers for general pipeline design.
 
-### General Resources
+#### General Resources
 
   - **(2022)** [grow.google: interview warmup](https://grow.google/grow-your-career/articles/interview-tips)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Curator Insight introduces Google's interactive interview practice engine powered by ML analysis. Live Grounding shows the tool leverages real-time speech-to-text to evaluate domain-specific technical responses. It helps candidates refine behavioral and structural communication.
 
-### Infrastructure as Code
+#### Infrastructure as Code
 
   - **(2023)** [interviewbit.com: Terraform Interview Questions](https://www.interviewbit.com/terraform-interview-questions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
@@ -146,14 +146,14 @@
     ??? info "Technical Deep-Dive"
         Curator Insight focuses on general Terraform syntax, state locking, and basic execution flows. Live Grounding indicates that basic state-management knowledge remains a baseline standard for cloud engineering candidates. It targets entry-level technical interviews.
 
-### Java Fundamentals
+#### Java Fundamentals
 
   - **(2018)** [javaguides.net: Java main() Method Interview Questions with Answers](https://www.javaguides.net/2018/10/java-main-method-interview-questions-with-answers.html)  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span>
 
     ??? info "Technical Deep-Dive"
         Curator Insight analyzes Java main method syntax, execution, and class loading mechanisms. Live Grounding shows that foundational class-loading theory remains relevant for debugging runtime classpath collisions. This legacy resource serves as an entry guide.
 
-### Java Performance
+#### Java Performance
 
   - **(2021)** [java-success.com: 01: 9 Java low latency interview questions & answers](https://www.java-success.com/writing-low-latency-applications-in-java) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
@@ -165,7 +165,7 @@
     ??? info "Technical Deep-Dive"
         Curator Insight lists Java JVM garbage collection algorithms and troubleshooting methods. Live Grounding confirms that modern JVM optimizations, like ZGC, are critical for latency-sensitive cloud-native container workloads. It aids performance optimization engineers.
 
-### Kubernetes Questions
+#### Kubernetes Questions
 
   - **(2023)** [intellipaat.com: Top Kubernetes Interview Questions and Answers](https://intellipaat.com/blog/interview-question/kubernetes-interview-questions-answers) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
@@ -207,21 +207,21 @@
     ??? info "Technical Deep-Dive"
         Curator Insight focuses on early Kubernetes objects, pods, and container scheduling parameters. Live Grounding validates that core orchestrator architectures have remained highly stable, keeping these legacy concepts relevant. It targets entry-level cluster operations.
 
-### Linux Systems
+#### Linux Systems
 
   - **(2021)** [learnsteps.com: DevOps Interview Questions: What do you know about proc filesystem in Linux.](https://www.learnsteps.com/devops-interview-questions-what-do-you-know-about-proc-filesystem-in-linux) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         Curator Insight reviews Linux `/proc` virtual filesystem and its role in monitoring system attributes. Live Grounding shows that understanding system execution states is crucial for troubleshooting container isolation. It targets advanced system-level engineering.
 
-### Microservices Design
+#### Microservices Design
 
   - **(2021)** [java67.com: Top 15 Microservices Interview Questions with Answers for 3 to 5 Years Experienced](https://www.java67.com/2021/02/microservices-interview-questions-answers-java-spring.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         Curator Insight presents Spring Boot and Spring Cloud interview questions focusing on service discovery and gateway design. Live Grounding confirms that distributed pattern design is a prerequisite for enterprise system architects. This targets advanced Java microservices roles.
 
-### QA Automation
+#### QA Automation
 
   - **(2023)** [automationqahub.com: The Ultimate List of Selenium Interview Questions](https://automationqahub.com/latest-selenium-interview-questions-and-answers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
@@ -243,14 +243,14 @@
     ??? info "Technical Deep-Dive"
         Curator Insight explores typical Selenium exceptions and locator patterns for automation engineers. Live Grounding shows that robust wait configurations are crucial to mitigate flaky tests on dynamic websites. This legacy resource assists junior testers.
 
-### Technical Knowledge Vault
+#### Technical Knowledge Vault
 
   - **(2024)** [==github.com/moabukar/tech-vault==](https://github.com/moabukar/tech-vault) <span class='md-tag md-tag--info'>⭐ 3398</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
     ??? info "Technical Deep-Dive"
         Curator Insight curates a rich repository containing system design, cheat sheets, and technical books. Live Grounding highlights the repository's massive community popularity for quick-reference cloud architecture learning. It is an extensive reference vault for system administrators.
 
-### Version Control
+#### Version Control
 
   - **(2023)** [intellipaat.com: Top Git Interview Questions And Answers 🌟](https://intellipaat.com/blog/interview-question/git-interview-questions-answers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
@@ -267,11 +267,11 @@
     ??? info "Technical Deep-Dive"
         Curator Insight structures forty Git commands for daily automation, continuous integration, and conflict resolutions. Live Grounding shows that git-based automation scripts are standard in modern DevOps deployments. It outlines daily operational scenarios.
 
-# Infrastructure Development
+## Infrastructure Development
 
-## Software Engineering
+### Software Engineering
 
-### Interviews
+#### Interviews (1)
 
   - **(2022)** [javarevisited.blogspot.com: Top 20 JSON Interview Questions with Answers for Beginners and Experienced Developers](https://javarevisited.blogspot.com/2022/08/json-interview-questions-with-answers.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -283,25 +283,25 @@
     ??? info "Technical Deep-Dive"
         A curated technical questionnaire focusing on critical Python behaviors, automation mechanisms, and data parsing. Tailored specifically for validating candidates during DevOps engineering interviews.
 
-### Python Testing
+#### Python Testing
 
   - [Python mini-quiz](http://www.mypythonquiz.com) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         An interactive web-based Python practice quiz designed for continuous integration testing validation. Useful for engineering screening and assessing fundamental coding competency.
 
-### Testing
+#### Testing
 
   - [automationqahub.com: The Ultimate List of Cypress Interview Questions](https://automationqahub.com/common-cypress-interview-questions) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         A comprehensive compilation of Cypress testing framework interview questions. Explores end-to-end frontend testing, parallel execution, element selectors, and CI pipeline implementation.
 
-# Software Engineering
+## Software Engineering (1)
 
-## Version Control
+### Version Control (1)
 
-### Cheat Sheets
+#### Cheat Sheets
 
   - **(2023)** [automationqahub.com: The Ultimate Git Cheat Sheet 🌟](https://automationqahub.com/mastering-git-your-ultimate-git-cheat-sheet-for-quick-reference)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 

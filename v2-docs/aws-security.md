@@ -3,18 +3,18 @@
 !!! info "Architectural Context"
     Detailed reference for Aws Security in the context of Cloud Providers (Hyperscalers).
 
-# Platform Engineering
+## Platform Engineering
 
-## CI-CD Security
+### CI-CD Security
 
-### Azure DevOps
+#### Azure DevOps
 
   - **(2023)** [Securing Azure DevOps When Using Private Repositories](https://www.linkedin.com/top-content/?trk=article_not_found) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Analyses secure integration patterns for private Azure DevOps environments. Offers standard reference controls for isolating source code hosting, managing external worker access, and mitigating common misconfiguration patterns across self-hosted agent pools.
 
-### Cloud Identity
+#### Cloud Identity
 
   - **(2023)** [==Avoiding Mistakes with AWS OIDC Integration Conditions==](https://www.wiz.io/blog/avoiding-mistakes-with-aws-oidc-integration-conditions) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 

@@ -3,91 +3,91 @@
 !!! info "Architectural Context"
     Detailed reference for Devops Tools in the context of Architectural Foundations.
 
-# Cloud-Native
+## Cloud-Native
 
-## Infrastructure Operations
+### Infrastructure Operations
 
-### Education Platforms
+#### Education Platforms
 
-#### Video Channels
+##### Video Channels
 
   - **(2025)** [youtube: Thetips4you 🌟](https://www.youtube.com/channel/UCoOq-DtESvayx5yJE5H6-qQ/playlists) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         A widely populated YouTube learning platform containing architectural deep dives and step-by-step guides for tools like AWS, Kubernetes, Jenkins, Terraform, and Docker.
 
-# Containerization
+## Containerization
 
-## Local Environment
+### Local Environment
 
-### Docker Compose Orchestration
+#### Docker Compose Orchestration
 
   - **(2025)** [DockSTARTer](https://github.com/GhostWriters/DockSTARTer) <span class='md-tag md-tag--info'>⭐ 2560</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         A user-friendly CLI utility designed to simplify the configuration and installation of self-hosted server software via structured Docker Compose patterns. Serves as a solid entry point for containerization concepts in local server and edge hardware topologies.
 
-# DevOps
+## DevOps
 
-## Orchestration
+### Orchestration
 
-### Event-Driven Automation
+#### Event-Driven Automation
 
   - **(2020)** [zdnet.com: Puppet introduces beta of cloud-native, event-driven DevOps program: Relay](https://www.zdnet.com/article/puppet-introduces-beta-of-cloud-native-event-driven-devops-program-relay/#ftag=RSSbaffb68) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span>
 
     ??? info "Technical Deep-Dive"
         Archived industry reporting of Puppet's event-driven, cloud-native automated workflow engine named Relay. Though Puppet's cloud-native solutions have evolved, this resource highlights historical transitions toward serverless infrastructure automation and trigger-based runbooks.
 
-## Platform Engineering
+### Platform Engineering
 
-### Capability Metrics
+#### Capability Metrics
 
   - **(2023)** [github.com/AdminTurnedDevOps/CapabilityPE](https://github.com/AdminTurnedDevOps/CapabilityPE) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         A research and practical taxonomy repository addressing DevOps platform engineering capability matrices. Assists engineering organizations in evaluating architecture, pipeline velocity, self-service portals, and cloud-native maturity tracks.
 
-## Project Management
+### Project Management
 
-### Git Hosting and CI-CD
+#### Git Hosting and CI-CD
 
   - **(2025)** [codegiant.io: Build software faster](https://codegiant.io/home) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         An integrated development platform offering secure Git repositories, issue tracking, continuous integration, and documentation hosting in a unified, enterprise-grade portal. Facilitates rapid development with modular workflows.
 
-## Tooling Comparison
+### Tooling Comparison
 
-### Containerization and Orchestration
+#### Containerization and Orchestration
 
   - **(2021)** [DevOps Tool Comparison: Docker Vs Kubernetes Vs Ansible](https://reviewnprep.com/blog/devops-tool-comparison-docker-vs-kubernetes-vs-ansible) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Comparative analysis distinguishing container engines, cluster orchestration, and configuration management platforms. Contributes a structural taxonomy of Docker, Kubernetes, and Ansible, delineating how they align in deployment pipelines and multi-environment strategies.
 
-### Market Analysis
+#### Market Analysis
 
   - **(2021)** [clarusway.com: Top 21 DevOps Tools Of 2021 (Comprehensive Guide)](https://clarusway.com/top-21-devops-tools) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Comprehensive market snapshot from 2021 enumerating critical DevOps technologies. While highly localized to historical toolchains, it provides a comparative baseline of industry migration patterns from monolithic pipelines to modern orchestrators.
 
-# Developer Experience
+## Developer Experience
 
-## Database Tooling
+### Database Tooling
 
-### SQL Utilities
+#### SQL Utilities
 
   - **(2025)** [**SQL Studio: A Unified SQL Database Explorer**](https://github.com/frectonz/sql-studio) <span class='md-tag md-tag--info'>⭐ 3539</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         A single-binary SQL database administrator interface written in Rust. It streamlines querying, schema inspection, and data visualization across multiple RDBMS engines (including SQLite, PostgreSQL, and MySQL) in resource-constrained containerized runtimes.
 
-# Developer Reference
+## Developer Reference
 
-## Industry Reports
+### Industry Reports
 
-### Resource Curation
+#### Resource Curation
 
   - **(2020)** [gitkraken.com: DevOps Tools Report 2020 🌟](https://www.gitkraken.com/reports/devops-report-2020) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -114,42 +114,42 @@
     ??? info "Technical Deep-Dive"
         Practical run-through of core technologies driving operational speed, featuring configurations such as configuration managers, automated deployment frameworks, and container layers.
 
-# Infrastructure Operations
+## Infrastructure Operations (1)
 
-## Sysadmin Toolsets
+### Sysadmin Toolsets
 
-### Resource Curation
+#### Resource Curation (1)
 
-#### Awesome Lists
+##### Awesome Lists
 
   - **(2026)** [==Awesome Sysadmin==](https://github.com/awesome-foss/awesome-sysadmin) <span class='md-tag md-tag--info'>⭐ 33955</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
     ??? info "Technical Deep-Dive"
         An incredibly rich curation containing production-grade open source utilities, control planes, networking layers, and security mechanisms used daily by systems architects and site reliability engineers.
 
-## Virtualization Environments
+### Virtualization Environments
 
-### Vagrant Setup
+#### Vagrant Setup
 
   - **(2021)** [devopscube.com: Vagrant Tutorial For Beginners: Getting Started Guide 🌟](https://devopscube.com/vagrant-tutorial-beginners) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         In-depth tutorial highlighting standard virtualization setups using HashiCorp Vagrant. Covers provider initialization, Vagrantfile declarations, provisioning hooks, and multi-node architectures.
 
-# Kubernetes
+## Kubernetes
 
-## Application Delivery
+### Application Delivery
 
-### Continuous Delivery
+#### Continuous Delivery
 
   - **(2026)** [==Devtron==](https://github.com/devtron-labs/devtron) <span class='md-tag md-tag--info'>⭐ 5482</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
     ??? info "Technical Deep-Dive"
         A comprehensive, open-source AppOps platform for Kubernetes designed to consolidate CI/CD pipelines, GitOps, observability, and cost optimization. Provides self-service deployment interfaces, security checks, and deep resource validation for multicluster operations.
 
-## Cluster Operations
+### Cluster Operations
 
-### GUI Clients
+#### GUI Clients
 
   - **(2024)** [KubeUI: A Desktop Kubernetes Client](https://github.com/IvanJosipovic/KubeUI) <span class='md-tag md-tag--info'>⭐ 307</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -161,33 +161,33 @@
     ??? info "Technical Deep-Dive"
         An open-source desktop client designed for administrative and monitoring interactions within Kubernetes clusters. Employs graphical representations of active resources to lower cognitive load during deep-dive debugging of deployments, services, and namespace configurations.
 
-# Platform Engineering
+## Platform Engineering (1)
 
-## AI Integration
+### AI Integration
 
-### Agentic Engineering
+#### Agentic Engineering
 
   - **(2025)** [**Azure DevOps MCP Server**](https://github.com/microsoft/azure-devops-mcp) <span class='md-tag md-tag--info'>⭐ 1700</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         An official Microsoft MCP server repository enabling AI Agents (like Claude or GitHub Copilot) to interact seamlessly with Azure DevOps. Allows agents to manage work items, query repositories, inspect pipeline logs, and orchestrate PR reviews dynamically.
 
-## CI-CD Pipelines
+### CI-CD Pipelines
 
-### Debugging
+#### Debugging
 
-#### GitHub Actions
+##### GitHub Actions
 
   - **(2025)** [==action-tmate: Debug GitHub Actions via SSH==](https://github.com/mxschmitt/action-tmate) <span class='md-tag md-tag--info'>⭐ 3540</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
     ??? info "Technical Deep-Dive"
         The definitive tool for debugging failing GitHub Actions runner environments. This action opens an interactive, secure shell (SSH or Web TUI) terminal session on the live GHA runner, allowing developers to execute shell commands, inspect filesystems, and debug failures instantly.
 
-# Software Engineering
+## Software Engineering
 
-## Product Culture
+### Product Culture
 
-### Philosophical Frameworks
+#### Philosophical Frameworks
 
   - **(2020)** [thenewstack.io: DevOps Is Fed by a Tools Culture Loop](https://thenewstack.io/devops-is-fed-by-a-tools-culture-loop) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 

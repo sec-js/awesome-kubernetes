@@ -3,9 +3,9 @@
 !!! info "Architectural Context"
     Detailed reference for Managed Kubernetes In Public Cloud in the context of Cloud Providers (Hyperscalers).
 
-# Application Delivery
+## Application Delivery
 
-## CICD and GitOps
+### CICD and GitOps
 
   - **(2023)** [insights.project-a.com: Using GitHub Actions to deploy to Kubernetes in GKE 🌟](https://www.project-a.vc/perspectives) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
@@ -22,18 +22,18 @@
     ??? info "Technical Deep-Dive"
         Evaluates features in Azure Draft v2 on a running AKS instance. Demonstrates bootstrapping manual code, automated configuration outputs, and continuous build integration tests on Azure.
 
-# Cloud Infrastructure
+## Cloud Infrastructure
 
-## Orchestration
+### Orchestration
 
-### AWS EKS Tools
+#### AWS EKS Tools
 
   - **(2026)** [==eksctl: EKS installer==](https://github.com/eksctl-io/eksctl) <span class='md-tag md-tag--info'>⭐ 5200</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
     ??? info "Technical Deep-Dive"
         The official CLI tool for creating and managing EKS clusters on AWS. Automates CloudFormation stacks, node group configurations, IAM integration (IRSA), and VPC provisions.
 
-### Cluster Security
+#### Cluster Security
 
   - **(2021)** [Amazon EKS Security Best Practices](https://www.stackrox.io/blog/amazon-eks-security-best-practices) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -45,7 +45,7 @@
     ??? info "Technical Deep-Dive"
         Architectural deep-dive explaining IAM Roles for Service Accounts (IRSA) in EKS. Demystifies OIDC providers, identity mapping, and least-privilege pod-level AWS credential injection.
 
-### Managed Kubernetes
+#### Managed Kubernetes
 
   - **(2023)** [community.aws/kubernetes](https://builder.aws.com/learn/topics/kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -87,43 +87,43 @@
     ??? info "Technical Deep-Dive"
         High-fidelity evaluation criteria for the three largest cloud-managed Kubernetes platforms. Analyzes security controls, active network policies, and identity access management capabilities.
 
-### Market Trends
+#### Market Trends
 
   - **(2022)** [infoworld.com: CNCF survey: Managed Kubernetes becomes the norm](https://www.infoworld.com/article/2334477/cncf-survey-managed-kubernetes-becomes-the-norm.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Reviews CNCF annual survey results showing massive adoption of managed Kubernetes over self-hosted alternatives, mapping out industrial patterns in enterprise deployments.
 
-### Platform Engineering
+#### Platform Engineering
 
   - **(2021)** [thenewstack.io: Otomi Container Platform Offers an Integrated Kubernetes Bundle](https://thenewstack.io/otomi-container-platform-offers-an-integrated-kubernetes-bundle) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         In-depth profile of Otomi Container Platform, highlighting how it integrates open-source tools (such as Cert-Manager, Knative, Prometheus) into an out-of-the-box developer platform.
 
-## Storage
+### Storage
 
-### Cloud-Native Storage
+#### Cloud-Native Storage
 
   - **(2020)** [thenewstack.io: Install and Configure OpenEBS on Amazon Elastic Kubernetes Service](https://thenewstack.io/tutorial-install-and-configure-openebs-on-amazon-elastic-kubernetes-service) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Tutorial on integrating OpenEBS as a container-attached storage engine on AWS EKS to manage local and persistent block storage natively.
 
-# Cloud Providers
+## Cloud Providers
 
-## AWS
+### AWS
 
-### Continuous Deployment
+#### Continuous Deployment
 
   - **(2021)** [Using CDK to perform continuous deployments in multi-region Kubernetes environments](https://aws.amazon.com/blogs/containers/using-cdk-to-perform-continuous-deployments-in-multi-region-kubernetes-environments) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         AWS Container Blog technical post showing how to orchestrate multi-cluster and multi-region deployments using AWS CDK. Demonstrates declarative CD pipelines, traffic management, and code configurations for reliable, global application synchronization.
 
-## AWS EKS
+### AWS EKS
 
-### Autoscaling
+#### Autoscaling
 
   - **(2022)** [aws.amazon.com: Autoscaling EKS on Fargate with custom metrics](https://aws.amazon.com/blogs/containers/autoscaling-eks-on-fargate-with-custom-metrics) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -140,35 +140,35 @@
     ??? info "Technical Deep-Dive"
         Introduces a smart autoscaling architectural pattern: using low-priority 'placeholder' pods to reserve capacity inside an AWS EKS cluster. When a real, higher-priority pod is scheduled, Kubernetes evicts the placeholders, initiating immediate node-level preemption while a new node spins up asynchronously. Eliminates scaling delay in performance-sensitive services.
 
-### Batch Workloads
+#### Batch Workloads
 
   - **(2022)** [thenewstack.io: Amazon Web Services Gears Elastic Kubernetes Service for Batch Work](https://thenewstack.io/amazon-web-services-gears-elastic-kubernetes-service-for-batch-jobs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         An analytical report outlining AWS upgrades focused on optimizing EKS for high-performance computing (HPC) and batch processing tasks. It explores the native integrations with Karpenter and AWS Batch, aimed at resolving historical scheduling bottlenecks. It details how EKS adapts to heavy-load machine learning and computational workloads.
 
-### Case Studies
+#### Case Studies
 
   - **(2021)** [Scaling Amazon EKS and Cassandra Beyond 1,000 Nodes](https://aws.amazon.com/blogs/containers/scaling-amazon-eks-and-cassandra-beyond-1000-nodes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         An engineering case study detailing the technical constraints and performance tunings executed to host Apache Cassandra on a 1,000+ node EKS cluster. It addresses VPC IP limits, CoreDNS bottlenecks, etcd performance under high resource counts, and AWS storage throughput tuning. Exceptional resource for massive-scale system design.
 
-### Development Tools
+#### Development Tools
 
   - **(2020)** [github.com/rebataur/djkube](https://github.com/rebataur/fskube) <span class='md-tag md-tag--info'>⭐ 27</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span>
 
     ??? info "Technical Deep-Dive"
         A lightweight, community-driven development aid designed to bridge local filesystems with Kubernetes volumes. Live Grounding indicates the project has had minimal recent activity, classifying it as a legacy utility. It may serve as a historical reference implementation for simple synchronization mechanisms.
 
-### FinOps
+#### FinOps
 
   - **(2022)** [AWS and Kubecost collaborate to deliver cost monitoring for EKS customers](https://aws.amazon.com/blogs/containers/aws-and-kubecost-collaborate-to-deliver-cost-monitoring-for-eks-customers) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Documents the native integration of Kubecost with EKS to offer real-time, granular cost visibility for cloud platform operators. It highlights cost attribution strategies across namespaces, controller types, and pods. This collaboration ensures users have access to reliable financial telemetry directly within their cluster control systems.
 
-### GitOps
+#### GitOps
 
   - **(2021)** [**aws.amazon.com: GitOps model for provisioning and bootstrapping Amazon EKS clusters using Crossplane and Argo CD**](https://aws.amazon.com/blogs/containers/gitops-model-for-provisioning-and-bootstrapping-amazon-eks-clusters-using-crossplane-and-argo-cd) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
@@ -180,7 +180,7 @@
     ??? info "Technical Deep-Dive"
         Details a zero-downtime, blue/green cluster upgrade strategy designed for on-premises EKS Anywhere clusters. Leveraging the Flux GitOps controller, this pattern automates the provisioning of parallel target cluster versions and safe traffic shifts. Bridges GitOps automation with on-prem infrastructure orchestration rules.
 
-### Hybrid Cloud
+#### Hybrid Cloud
 
 
 ??? abstract "Architect's Technical Comparison Table"
@@ -217,7 +217,7 @@
     ??? info "Technical Deep-Dive"
         An introductory walkthrough from the AWS Container team illustrating the step-by-step setup of EKS Anywhere clusters on VMware vSphere. It covers the preparation of local hardware resources, networking topologies, and the use of the `eksctl anywhere` CLI command. Highly practical starting guide for hybrid trials.
 
-### Infrastructure as Code
+#### Infrastructure as Code
 
   - **(2026)** [==github.com/aws-ia/terraform-aws-eks-blueprints (examples) 🌟🌟🌟==](https://github.com/aws-ia/terraform-aws-eks-blueprints) <span class='md-tag md-tag--info'>⭐ 3021</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
@@ -229,7 +229,7 @@
     ??? info "Technical Deep-Dive"
         An AWS Cloud Development Kit (CDK) based framework that simplifies bootstrapping and configuring production-ready EKS clusters. Synthesizing developer insight with live deployment footprints, it provides programmatic control over EKS configurations, core add-ons, and IAM integrations. It is ideal for teams seeking TypeScript/Python program-based IaC over static YAML or HCL configurations.
 
-### Lifecycle Management
+#### Lifecycle Management
 
 
 ??? abstract "Architect's Technical Comparison Table"
@@ -266,14 +266,14 @@
     ??? info "Technical Deep-Dive"
         A structured AWS Knowledge Center guide explaining step-by-step procedures to minimize disruption during EKS control plane and data plane upgrades. It covers validation checks, API compatibility, and dependency tracking (e.g., matching the ECR credential helper and VPC CNI versions). Highly practical troubleshooting-oriented runbook.
 
-### Migration
+#### Migration
 
   - **(2024)** [github.com/awslabs: Kubernetes Migration Factory User Guide 🌟](https://github.com/awslabs/aws-kubernetes-migration-factory) <span class='md-tag md-tag--info'>⭐ 131</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span>
 
     ??? info "Technical Deep-Dive"
         The AWS Kubernetes Migration Factory provides an automated, programmatic framework for migrating legacy VM-based or on-premises workloads into Amazon EKS. Curator Insight notes its structured pipelines that reduce migration errors, while Live Grounding confirms its utility in enterprise-scale rehosting plans. Key features include source-to-target automation, pre-migration validation, and automated target cluster provisioning.
 
-### Networking
+#### Networking
 
 
 ??? abstract "Architect's Technical Comparison Table"
@@ -310,7 +310,7 @@
     ??? info "Technical Deep-Dive"
         A prescriptive AWS design pattern illustrating private, cross-VPC service consumption using AWS PrivateLink and a Network Load Balancer (NLB). It highlights secure service exposition strategies without exposing internal IP routing configurations to external peers. Critical for multi-account and enterprise compliance structures.
 
-### Observability and Alerting
+#### Observability and Alerting
 
   - **(2025)** [**awslabs/eks-node-viewer**](https://github.com/awslabs/eks-node-viewer) <span class='md-tag md-tag--info'>⭐ 1632</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
@@ -327,14 +327,14 @@
     ??? info "Technical Deep-Dive"
         This technical post outlines the architecture for exporting real-time Kubernetes cluster events to Slack channels using Amazon EventBridge and AWS Lambda. It demonstrates decoupling event streams from cluster internals to prevent slack spamming while maintaining critical alerting. The blueprint integrates with standard AWS observability mechanisms.
 
-### Performance
+#### Performance
 
   - **(2022)** [aws.amazon.com: Start Pods faster by prefetching images](https://aws.amazon.com/blogs/containers/start-pods-faster-by-prefetching-images) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Analyzes latency bottlenecks during container initialization caused by large image pull steps. The post outlines the architecture of 'image prefetching' patterns, leveraging daemonsets or custom Karpenter startup scripts to warm up worker nodes with target container layers before runtime allocation. Critical for latency-sensitive applications.
 
-### Security
+#### Security
 
   - **(2025)** [**aws-samples/hardeneks**](https://github.com/aws-samples/hardeneks) <span class='md-tag md-tag--info'>⭐ 956</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
@@ -361,7 +361,7 @@
     ??? info "Technical Deep-Dive"
         An industry-focused checklist detailing tactical maneuvers to secure EKS against ransomware and supply chain attacks. It covers immutable storage configurations (EFS/EBS backups), strict RBAC permissions, runtime threat detection, and cluster isolation strategies. A helpful handbook for security engineering teams.
 
-### Service Mesh
+#### Service Mesh
 
   - **(2023)** [aws.amazon.com: Addressing latency and data transfer costs on EKS using Istio](https://aws.amazon.com/blogs/containers/addressing-latency-and-data-transfer-costs-on-eks-using-istio) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -373,7 +373,7 @@
     ??? info "Technical Deep-Dive"
         Analyzes the integration of enterprise-grade Solo.io Istio setups with Amazon EKS Anywhere. It details the setup of cross-environment service mesh networks that span from local physical data centers into public AWS EKS. This enables unified security policies, service discovery, and traffic shaping in hybrid clouds.
 
-### Storage
+#### Storage (1)
 
   - **(2023)** [Simplifying Amazon EBS volume migration and modification on Kubernetes using the EBS CSI Driver](https://aws.amazon.com/de/blogs/storage/simplifying-amazon-ebs-volume-migration-and-modification-using-the-ebs-csi-driver) <span class='md-tag md-tag--warning'>[GERMAN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -395,9 +395,9 @@
     ??? info "Technical Deep-Dive"
         A developer-oriented tutorial for programmatically provisioning NFS volume drivers within EKS using the AWS CDK. It demonstrates dynamic persistent volume claim (PVC) binding backed by managed EFS resources. This simplifies dynamic storage allocations for development and test environments.
 
-## Alternative Clouds
+### Alternative Clouds
 
-### DigitalOcean
+#### DigitalOcean
 
   - **(2025)** [docs.digitalocean.com: Kubernetes on DigitalOcean](https://docs.digitalocean.com/products/kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -414,23 +414,23 @@
     ??? info "Technical Deep-Dive"
         An interactive tutorial showcasing GitOps pipeline construction using Terraform, Helm, and Flux CD on DigitalOcean. Outlines structural separation between application repositories and declarative cluster states.
 
-### Linode
+#### Linode
 
   - **(2022)** [dev.to: Practical Introduction to Kubernetes Autoscaling Tools with Linode Kubernetes Engine 🌟](https://dev.to/rahulrai/practical-introduction-to-kubernetes-autoscaling-tools-with-linode-kubernetes-engine-2i7k) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Technical guide to deploying and tuning Cluster Autoscaler and Horizontal Pod Autoscaler (HPA) on the Linode Kubernetes Engine (LKE). Features step-by-step metric-server configurations and traffic simulations.
 
-### Oracle Cloud
+#### Oracle Cloud
 
   - **(2022)** [arnoldgalovics.com: GitHub Actions CI/CD For Oracle Cloud Kubernetes](https://arnoldgalovics.com/github-actions-oracle-cloud-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Outlines building a streamlined CI/CD pipeline using GitHub Actions targeting Oracle Container Engine for Kubernetes (OKE). Details secure credential rotation and container registry synchronization.
 
-## Azure
+### Azure
 
-### AKS Updates
+#### AKS Updates
 
   - **(2026)** [**Azure Updates AKS 🌟**](https://azure.microsoft.com/en-us/updates/?query=AKS) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
@@ -442,7 +442,7 @@
     ??? info "Technical Deep-Dive"
         Roadmap summary of AKS features announced at Microsoft Ignite 2022. Covers the launch of Fleet Manager, automated node lifecycle tools, and native cost profiling integrations. Useful for understanding product evolution timelines.
 
-### Cost Optimization
+#### Cost Optimization
 
   - **(2025)** [**docs.microsoft.com: Start and stop an Azure Kubernetes Service (AKS) node pool 🌟**](https://learn.microsoft.com/en-us/azure/aks/start-stop-nodepools) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
@@ -459,35 +459,35 @@
     ??? info "Technical Deep-Dive"
         Technical guide explaining how to scale down AKS node pools by deallocating (stopping) virtual machines rather than deleting them, preserving their state for faster scale-ups. [SPANISH CONTENT]
 
-### Ecosystem Strategy
+#### Ecosystem Strategy
 
   - **(2021)** [thenewstack.io: Microsoft’s Practical Approach to Kubernetes Management](https://thenewstack.io/microsoft-takes-practical-approach-to-kubernetes-management) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Press analysis detailing Microsoft's strategic efforts to reduce Kubernetes operational complexities. Explains their engineering initiatives on hybrid management through Azure Arc, ecosystem tool integrations, and the simplification of AKS management planes.
 
-### Enterprise Strategy
+#### Enterprise Strategy
 
   - **(2022)** [buchatech.com/2022: A Guide to Navigating the AKS Enterprise Documentation & Scripts 🌟🌟](https://www.buchatech.com/2022/08/a-guide-to-navigating-the-aks-enterprise-documentation-scripts) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Detailed exploration of Microsoft's AKS Enterprise Landing Zone architectures and provisioning templates. Provides a structured overview of design patterns for security, hub-spoke peering, and compliance boundaries in regulated enterprise clouds.
 
-### Hybrid Cloud
+#### Hybrid Cloud (1)
 
   - **(2022)** [techcommunity.microsoft.com: Azure Kubernetes Service and Azure Container Registry Service on Azure Stack Hub](https://techcommunity.microsoft.com/blog/azurestackblog/azure-kubernetes-service-and-azure-container-registry-service-on-azure-stack-hub/3075932) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Reference detailing how to run AKS and ACR on-premises using Azure Stack Hub environments. Outlines patterns for entirely disconnected or strictly regulated on-premises data centers that require standardized Azure cloud workflows.
 
-### Infrastructure as Code
+#### Infrastructure as Code (1)
 
   - **(2020)** [docs.cloudblue.com: Deploying an AKS Cluster with Custom IP Ranges (ARM template)](https://docs.cloudblue.com/cbc/20.5/premium/content/Deployment-of-Product-to-Azure-Cloud-Guide/Deploying-AKS-Cluster-with-Custom-IP-Ranges.htm) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span>
 
     ??? info "Technical Deep-Dive"
         Technical reference for deploying AKS clusters with specific, custom IP ranges via ARM Templates. While modern architectures have transitioned to Bicep or Terraform, this offers structural networking reference configurations for legacy templates.
 
-### Microservices Architecture
+#### Microservices Architecture
 
   - **(2025)** [==docs.microsoft.com: Microservices architecture on Azure Kubernetes Service (AKS) 🌟==](https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-microservices/aks-microservices) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
@@ -499,7 +499,7 @@
     ??? info "Technical Deep-Dive"
         Introduction to shifting monolithic platforms to decentralized microservices topologies within AKS. Highlights container separation, database patterns, API gateway configurations, and key cluster operations. Best for project planners and system designers.
 
-### Migration
+#### Migration (1)
 
   - **(2021)** [techcommunity.microsoft.com: Containerize and migrate applications to AKS with the Azure Migrate’s new App Containerization tool](https://techcommunity.microsoft.com/blog/azuremigrationblog/containerize-and-migrate-applications-to-aks-with-the-azure-migrate%e2%80%99s-new-app-co/2178551) 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span>
 
@@ -511,7 +511,7 @@
     ??? info "Technical Deep-Dive"
         Comparative guide detailing migration of Azure Functions from AKS environments to serverless Azure Container Apps (ACA). Focuses on scaling efficiencies using KEDA, reduction of cluster management overhead, and resource cost structures.
 
-### Networking
+#### Networking (1)
 
 
 ??? abstract "Architect's Technical Comparison Table"
@@ -598,35 +598,35 @@
     ??? info "Technical Deep-Dive"
         Walkthrough outlining the installation of AKS inside preexisting VNET topologies. Examines subnet sizing requirements, routing controls, and enterprise boundary setups. Helpful for aligning AKS with pre-configured network constraints.
 
-### Observability
+#### Observability
 
   - **(2021)** [dev.to/thenjdevopsguy: Monitoring AKS With Prometheus and Grafana 🌟](https://dev.to/thenjdevopsguy/monitoring-aks-with-prometheus-and-grafana-9o8) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Hands-on guide to implementing monitoring on AKS using Prometheus and Grafana. Explains how to deploy scraping targets, configure local metric storage, and design dashboards independent of Azure Monitor. Perfect for teams wanting a unified multi-cloud observability stack.
 
-### Performance
+#### Performance (1)
 
   - **(2020)** [itnext.io: AKS Performance: Limit Ranges](https://itnext.io/aks-performance-limit-ranges-8e18cbebe351) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Technical article examining the configuration of LimitRanges in AKS namespaces. Demonstrates how setting default container resource requests prevents multi-tenant environments from experiencing noisy neighbor syndromes or complete node exhaustion.
 
-### Reference Architecture
+#### Reference Architecture
 
   - **(2025)** [==docs.microsoft.com: Baseline architecture for an Azure Kubernetes Service (AKS) cluster 🌟==](https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks/baseline-aks) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
     ??? info "Technical Deep-Dive"
         The baseline production-grade architecture blueprint designed for AKS clusters following the Well-Architected Framework. Live grounding verifies its emphasis on secure private networks, ingress traffic patterns, and identity integration. Serves as the authoritative starting point for corporate infrastructure setups.
 
-### Scheduling
+#### Scheduling
 
   - **(2021)** [trstringer.com: Run Kubernetes Pods on Specific VM Types in AKS](https://trstringer.com/run-kubernetes-pods-on-vm-types) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         A practical guide to scheduling Kubernetes pods onto specific Azure VM types within AKS. Explains how to leverage node selectors, taints, and tolerations to isolate workloads. Perfect for separating compute-intensive microservices from general services.
 
-### Security
+#### Security (1)
 
 
 ??? abstract "Architect's Technical Comparison Table"
@@ -674,7 +674,7 @@
     ??? info "Technical Deep-Dive"
         Historical journal covering the implementation of Azure AD Pod Identity to secure pod communication with Azure resources. Note that while this highlights core security concepts, live grounding demonstrates this pattern has been succeeded by Entra Workload Identity.
 
-### Storage
+#### Storage (2)
 
   - **(2021)** [carlos.mendible.com: AKS: Persistent Volume Claim with an Azure File Storage protected with a Private Endpoint](https://carlos.mendible.com/2021/08/02/aks-persistent-volume-claim-with-an-azure-file-storage-protected-with-a-private-endpoint) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -686,7 +686,7 @@
     ??? info "Technical Deep-Dive"
         Practical resource detailing how to execute volume resizing inside AKS StatefulSet templates without recreating resources. Outlines safe manual modifications and PVC override protocols. Solves common stateful storage expansion challenges.
 
-### Troubleshooting
+#### Troubleshooting
 
   - **(2025)** [learn.microsoft.com: Connect with RDP to Azure Kubernetes Service (AKS) cluster Windows Server nodes for maintenance or troubleshooting](https://learn.microsoft.com/en-us/azure/aks/rdp) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -703,7 +703,7 @@
     ??? info "Technical Deep-Dive"
         Advanced debugging guide outlining how to customize Linux core dump generations on AKS nodes. Explains node configurations, file mounting steps, and safe extraction of system-level crash dumps for deep application analysis.
 
-### Windows Containers
+#### Windows Containers
 
   - **(2021)** [dev.to: Getting started with Windows Containers on Azure Kubernetes Service](https://dev.to/rdvansloten/getting-started-with-windows-containers-on-azure-kubernetes-service-46ce) 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span>
 
@@ -715,39 +715,39 @@
     ??? info "Technical Deep-Dive"
         Technical walkthrough covering the instantiation of Windows Server node pools inside hybrid AKS environments. Addresses container setup, active directory domain joins, and specific scheduling parameters. Useful for legacy enterprise .NET migrations.
 
-## Azure AKS
+### Azure AKS
 
-### Best Practices
+#### Best Practices
 
   - **(2025)** [**the-aks-checklist.com: The Azure Kubernetes Service Checklist 🌟🌟🌟**](https://www.the-aks-checklist.com) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         A highly interactive, community-driven checklist platform designed to validate AKS architectures against recommended practices for security, scalability, operation, and costs. Synthesizing experience from elite Microsoft field engineers, it organizes action items into an intuitive, status-tracked dashboard. Ideal for enterprise pre-production audits.
 
-### Infrastructure as Code
+#### Infrastructure as Code (2)
 
   - **(2025)** [**azure.github.io/AKS-Construction 🌟**](https://azure.github.io/AKS-Construction) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         An interactive, wizard-based configuration tool hosted by the Microsoft Azure team to dynamically generate ARM/Bicep or Terraform files for building production-ready AKS environments. Live Grounding emphasizes its value in generating compliant topologies following Azure Landing Zone best practices. It minimizes error rates during initial bootstrap phases.
 
-### Learning Path
+#### Learning Path
 
   - **(2025)** [learn.microsoft.com: Introduction to Kubernetes on Azure](https://learn.microsoft.com/en-us/training/paths/intro-to-kubernetes-on-azure) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         The primary architectural learning path offered by Microsoft, designed to introduce platform teams to Azure Kubernetes Service (AKS). It details container register integration, core networking layouts, and standard Microsoft Entra ID authentication configurations. An excellent baseline instructional curriculum.
 
-## Google Cloud Platform
+### Google Cloud Platform
 
-### Config Management
+#### Config Management
 
   - **(2021)** [seroter.com: Using the new Google Cloud Config Controller to provision and manage cloud services via the Kubernetes Resource Model](https://seroter.com/2021/08/18/using-the-new-google-cloud-config-controller-to-provision-and-manage-cloud-services-via-the-kubernetes-resource-model) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Detailed technical walk-through of the Google Cloud Config Controller. Demonstrates how to leverage the Kubernetes Resource Model (KRM) to declare and manage external GCP resources natively.
 
-### Cost Optimization
+#### Cost Optimization (1)
 
   - **(2022)** [cloud.google.com: Know more, spend less: how GKE cost optimization insights help you optimize Kubernetes](https://cloud.google.com/blog/products/containers-kubernetes/gke-cost-optimization-insights-now-ga) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -759,76 +759,76 @@
     ??? info "Technical Deep-Dive"
         Announces and reviews the engineering mechanics of GKE Autopilot Spot Pods. Analyzes how fault-tolerant workloads can utilize dynamic pricing discounts of up to 60-80% using automated Spot scheduling policies.
 
-### GKE Networking
+#### GKE Networking
 
   - **(2024)** [Kubernetes Cloud DNS](https://docs.cloud.google.com/kubernetes-engine/docs/how-to/cloud-dns#vpc_scope_dns) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         A technical implementation guide for GKE Cloud DNS integration using VPC-scope DNS architectures. Explains how to achieve seamless name resolution across hybrid clusters without running local DNS caching daemons.
 
-### Governance
+#### Governance
 
   - **(2022)** [google/gke-policy-automation](https://github.com/google/gke-policy-automation) <span class='md-tag md-tag--info'>⭐ 526</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Google-backed tool designed to automate policy checks on GKE configurations against best practices using OPA Gatekeeper. Relies on structured GKE cluster dumps to evaluate configuration posture and vulnerability profiles.
 
-### Multi-Cluster Architectures
+#### Multi-Cluster Architectures
 
   - **(2022)** [cloud.google.com: How to do multi-cluster Kubernetes in the real world—one GKE shop’s approach](https://cloud.google.com/blog/products/containers-kubernetes/multi-cluster-kubernetes-with-gke-at-geotab) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Enterprise architectural case study outlining a multi-cluster GKE topology. Explores ingress-routing, fleet management policies, and configuration synchronization patterns for global-scale telemetry networks.
 
-### Observability
+#### Observability (1)
 
   - **(2022)** [cloud.google.com: Introducing Kubernetes control plane metrics in GKE](https://cloud.google.com/blog/products/containers-kubernetes/kubernetes-control-plane-metrics-are-generally-available) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Details GKE control plane performance exposure via Prometheus-compatible endpoints. Covers observability practices for API server request latency, etcd queue duration, and controller manager performance.
 
-### Performance Optimization
+#### Performance Optimization
 
   - **(2021)** [acloudguru.com: GKE ludicrous speed! GKE Image Streaming speeds up container starts](https://www.pluralsight.com/resources/blog/cloud/gke-ludicrous-speed-gke-image-streaming-speeds-up-container-starts) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Evaluates GKE Image Streaming capabilities, which substantially reduce pod startup latencies by decoupling container initiation from full image caching. Underpins how streaming chunked assets reduces average start times from minutes to seconds.
 
-## IBM Cloud
+### IBM Cloud
 
-### Managed Kubernetes
+#### Managed Kubernetes (1)
 
   - **(2025)** [IKS](https://www.ibm.com/products/kubernetes-service) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Official enterprise landing portal for IBM Cloud Kubernetes Service (IKS). Highlights its native integration with OpenShift, hardware isolation options, and compliance frameworks for secure corporate deployments.
 
-## Microsoft Azure
+### Microsoft Azure
 
-### AKS Community
+#### AKS Community
 
   - **(2024)** [youtube: The AKS Community 🌟](https://www.youtube.com/@theakscommunity) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Dedicated video portal hosted by the Microsoft Azure Kubernetes Service (AKS) product team. Details monthly community calls, deep technical system updates, and architecture roundtables.
 
-# Cluster Management
+## Cluster Management
 
-## Ecosystem Platforms
+### Ecosystem Platforms
 
-### Enterprise Managed
+#### Enterprise Managed
 
   - **(2025)** [Giant Swarm](https://www.giantswarm.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Portal for Giant Swarm's fully managed enterprise Kubernetes management service. Emphasizes modern platform engineering workflows, governance tooling, and continuous operations support.
 
-  - **(2023)** [giantswarm.io: ](https://www.giantswarm.io/blog/turtles-all-the-way-down-are-still-just-turtles-giant-swarm) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2023)** [giantswarm.io:](https://www.giantswarm.io/blog/turtles-all-the-way-down-are-still-just-turtles-giant-swarm) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Explores Cluster API (CAPI) mechanics and nested control plane virtualization. Reviews how to conceptualize management vs. workload cluster nodes under Cluster-as-a-Resource topologies.
 
-### KubeSphere
+#### KubeSphere
 
   - **(2025)** [kubesphere.io](https://kubesphere.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -845,16 +845,16 @@
     ??? info "Technical Deep-Dive"
         Outlines the modular and pluggable microservice-oriented design of KubeSphere's platform control plane. Focuses on system independence and API federation.
 
-### Multi-Cloud Evaluation
+#### Multi-Cloud Evaluation
 
   - **(2022)** [Compare tools for multi-cloud Kubernetes management 🌟](https://www.techtarget.com/searchcloudcomputing/tip/Compare-tools-for-multi-cloud-Kubernetes-management) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Multi-faceted comparison of major ecosystem orchestrators (OpenShift, Rancher, Cloudify, Platform9) evaluating cost, modularity, workload migration ease, and administrative complexity.
 
-## Installation Tools
+### Installation Tools
 
-### KubeKey
+#### KubeKey
 
   - **(2024)** [**kubekey**](https://github.com/kubesphere/kubekey) <span class='md-tag md-tag--info'>⭐ 2813</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
@@ -876,77 +876,77 @@
     ??? info "Technical Deep-Dive"
         Technical execution guide explaining how to scale a single control plane setup into a multi-master High Availability (HA) cluster. Integrates load balancers and key-value store configurations.
 
-# Databases
+## Databases
 
-## SQL Server
+### SQL Server
 
-### Storage
+#### Storage (3)
 
   - **(2023)** [techcommunity.microsoft.com: SQL Server containers on Kubernetes with S3-compatible object storage - Getting started](https://techcommunity.microsoft.com/blog/sqlserver/sql-server-containers-on-kubernetes-with-s3-compatible-object-storage---getting-/3717003) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Guide exploring SQL Server container setups on Kubernetes using S3-compatible object storage backends for backup and recovery patterns. Discusses storage performance metrics and high-availability options in containerized database configurations.
 
-# Public Cloud Platforms
+## Public Cloud Platforms
 
-## AWS
+### AWS (1)
 
-### Chaos Engineering
+#### Chaos Engineering
 
   - **(2021)** [thenewstack.io: Deploy Gremlin to Amazon EKS Using AWS CloudFormation](https://thenewstack.io/deploy-gremlin-to-amazon-eks-using-aws-cloudformation) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         This article demonstrates setting up Gremlin on EKS clusters using AWS CloudFormation templates to bootstrap chaos daemonsets. Discusses using disruption tests to validate real-time alerts and state tracking reliability.
 
-### Cluster Provisioning
+#### Cluster Provisioning
 
   - **(2020)** [POKE - Provision Opinionated Kubernetes on EKS](https://github.com/bit-cloner/poke) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--info'>[LEGACY]</span>
 
     ??? info "Technical Deep-Dive"
         An opinionated tool written to simplify and streamline provisioning of EKS clusters with specific default addons. Due to inactivity for more than four years, it is classified as legacy; teams should look to Terraform, Pulumi, or EKS Blueprints instead.
 
-### Continuous Delivery
+#### Continuous Delivery
 
-#### Canary Deployments
+##### Canary Deployments
 
   - **(2020)** [Create a pipeline with canary deployments for Amazon EKS with AWS App Mesh 🌟](https://aws.amazon.com/blogs/containers/create-a-pipeline-with-canary-deployments-for-amazon-eks-with-aws-app-mesh) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         Step-by-step post on architecting GitOps pipelines for automated canary releases using App Mesh service mesh on Amazon EKS. Outlines traffic-shifting mechanisms, virtual node configurations, and automated rolling rollbacks based on dynamic CloudWatch performance metrics.
 
-#### GitOps
+##### GitOps (1)
 
   - **(2020)** [pages.awscloud.com: GitOps on AWS for High Performing Team Operations (eBook)](https://pages.awscloud.com/GLOBAL-partner-DL-DevOps-weaveworks-ebook-2020-learn.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         Collaboratively published eBook introducing declarative GitOps operating models for EKS using Weaveworks technology. Outlines infrastructure-as-code, audit tracks, and drift correction techniques key to reliable pipeline operations.
 
-#### Preview Environments
+##### Preview Environments
 
   - **(2021)** [thenewstack.io: How We Built Preview Environments on Kubernetes and AWS](https://thenewstack.io/how-we-built-preview-environments-on-kubernetes-and-aws) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         This architectural case study reviews building dynamic preview environments on Amazon EKS. Outlines how to automate sandbox teardown, schedule resources effectively, and route unique domain endpoints back to feature-branch deployments.
 
-### EKS Compute Options
+#### EKS Compute Options
 
-#### Machine Learning
+##### Machine Learning
 
   - **(2020)** [Amazon EKS Now Supports EC2 Inf1 Instances](https://aws.amazon.com/blogs/aws/amazon-eks-now-supports-ec2-inf1-instances) 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         AWS announcement outlining AWS Inferentia (Inf1) support on EKS to execute high-performance deep learning inference models. Covers scheduling configurations, AWS Neuron SDK integration, and daemonsets required to expose hardware accelerators inside containers.
 
-### EKS Cost Management
+#### EKS Cost Management
 
   - **(2020)** [Amazon EKS Price Reduction](https://aws.amazon.com/blogs/aws/eks-price-reduction) 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span>
 
     ??? info "Technical Deep-Dive"
         Historic AWS announcement introducing the 50% price reduction for EKS cluster management fees. While highly significant for cloud budget projections at the time, it serves as archival context for operational billing structures.
 
-### EKS Cost Optimization
+#### EKS Cost Optimization
 
-#### Spot Management
+##### Spot Management
 
   - **(2026)** [**aws/aws-node-termination-handler 🌟**](https://github.com/aws/aws-node-termination-handler) <span class='md-tag md-tag--info'>⭐ 1755</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
@@ -968,9 +968,9 @@
     ??? info "Technical Deep-Dive"
         A deep-dive guide specifying concrete mechanisms to scale down unnecessary cloud spending inside EKS clusters. Provides strategies for dynamic right-sizing, Spot-instance scheduling, automated node-consolidation, and down-scaling non-production environments during idle hours.
 
-### EKS Fundamentals
+#### EKS Fundamentals
 
-#### Learning Resources
+##### Learning Resources
 
   - **(2026)** [==eksworkshop.com 🌟==](https://www.eksworkshop.com) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
@@ -997,48 +997,48 @@
     ??? info "Technical Deep-Dive"
         Step-by-step tutorial addressing the deployment of EKS managed node groups via the AWS Console. Describes configuring instance types, scaling limits, and node execution roles.
 
-### EKS Infrastructure
+#### EKS Infrastructure
 
-#### Helm Repositories
+##### Helm Repositories
 
   - **(2026)** [**github.com/aws/eks-charts 🌟**](https://github.com/aws/eks-charts) <span class='md-tag md-tag--info'>⭐ 1294</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         The official Helm chart repository maintained by Amazon Web Services to bootstrap essential cluster add-ons. Hosts deployment packages for tools such as the App Mesh Controller, AWS Load Balancer Controller, Node Termination Handler, and VPC CNI.
 
-#### Kubernetes Distributions
+##### Kubernetes Distributions
 
   - **(2020)** [linkedin.com: Amazon EKS Distro (EKS-D): The Kubernetes Distribution Used by Amazon EKS 🌟](https://www.linkedin.com/pulse/amazon-eks-distro-eks-d-kubernetes-distribution-used-gokul-chandra) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         An analysis of Amazon EKS Distro (EKS-D), a reliable, upstream-aligned Kubernetes distribution managed and secured by AWS. The post describes its role in facilitating hybrid cloud architectures and maintaining release alignment between on-premise deployments and cloud managed engines.
 
-### EKS Multi-Cluster Architecture
+#### EKS Multi-Cluster Architecture
 
   - **(2020)** [**Onfido’s Journey to a Multi-Cluster Amazon EKS Architecture**](https://aws.amazon.com/blogs/containers/onfidos-journey-to-a-multi-cluster-amazon-eks-architecture) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         Onfido's real-world engineering case study describing their architectural pivot to a highly resilient multi-cluster AWS EKS layout. Demonstrates regional fault tolerance, ingress load splitting, and centralized operations management.
 
-### EKS Multi-Cluster Management
+#### EKS Multi-Cluster Management
 
   - **(2020)** [Optimizing Your Kubernetes Clusters with Rancher and Amazon EKS 🌟](https://aws.amazon.com/blogs/apn/optimizing-your-kubernetes-clusters-with-rancher-and-amazon-eks) 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         Details how enterprise teams use Rancher to coordinate, monitor, and enforce access policies on EKS clusters. It emphasizes unified management across multi-cloud networks, centralized security profiles, and unified developer dashboard setups.
 
-### EKS Multi-Region Architecture
+#### EKS Multi-Region Architecture
 
-#### High Availability
+##### High Availability
 
   - **(2020)** [**aws.amazon.com: Operating a multi-regional stateless application using Amazon EKS**](https://aws.amazon.com/blogs/containers/operating-a-multi-regional-stateless-application-using-amazon-eks) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         This AWS architectural guide presents a multi-region deployment pattern for stateless services using EKS. It explores cross-region Route 53 routing, continuous delivery strategies across distinct clusters, and handling geographic failover to guarantee enterprise business continuity.
 
-### EKS Networking
+#### EKS Networking
 
-#### Ingress Control
+##### Ingress Control
 
   - **(2026)** [==AWS Load Balancer Controller 🌟==](https://kubernetes-sigs.github.io/aws-load-balancer-controller) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
@@ -1055,53 +1055,53 @@
     ??? info "Technical Deep-Dive"
         An operational guide walking through the basics of routing external traffic into an AWS EKS cluster using the Application Load Balancer (ALB) Ingress Controller. It explains target groups, listener rules, and routing configurations essential for initial ingress setups.
 
-#### Load Balancing
+##### Load Balancing
 
   - **(2019)** [itnext.io: Using AWS NLB manually targeting an EKS Service exposing UDP traffic](https://itnext.io/using-aws-nlb-manually-targeting-an-eks-service-exposing-udp-traffic-17053ecd8f52) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         A technical post details routing high-performance, low-latency UDP traffic through an AWS Network Load Balancer (NLB) into EKS pods. It covers manual target group registrations and service mapping before such integrations were fully automated in newer ingress controllers.
 
-#### Scale Optimization
+##### Scale Optimization
 
   - **(2021)** [**engineering.salesforce.com: Optimizing EKS networking for scale**](https://engineering.salesforce.com/optimizing-eks-networking-for-scale-1325706c8f6d) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         Technical breakdown of Salesforce's journey optimizing AWS VPC CNI on EKS to support massive container scale. Covers strategies to bypass IP address exhaustion, manage warm IP targets, configure custom networking, and optimize node sizing.
 
-### EKS Observability
+#### EKS Observability
 
-#### APIServer Troubleshooting
+##### APIServer Troubleshooting
 
   - **(2021)** [**aws.amazon.com: Troubleshooting Amazon EKS API servers with Prometheus**](https://aws.amazon.com/de/blogs/containers/troubleshooting-amazon-eks-api-servers-with-prometheus) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         Operational manual on diagnosing performance bottlenecks inside Amazon EKS Control Plane API servers with Prometheus metrics. Breaks down API request latencies, error codes, and request volumes to improve overall system stability.
 
-#### Autoscaling
+##### Autoscaling (1)
 
   - **(2021)** [**aws.amazon.com: Using Prometheus Adapter to autoscale applications running on Amazon EKS**](https://aws.amazon.com/blogs/mt/automated-scaling-of-applications-running-on-eks-using-custom-metric-collected-by-amazon-prometheus-using-prometheus-adapter) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         Details how to use the Prometheus Adapter to automatically scale workloads based on metrics stored in Amazon Managed Prometheus. Outlines mapping Prometheus PromQL queries into custom Kubernetes metrics for the Horizontal Pod Autoscaler (HPA).
 
-#### Logging
+##### Logging
 
   - **(2020)** [**aws.amazon.com: Fluent Bit Integration in CloudWatch Container Insights for EKS**](https://aws.amazon.com/blogs/containers/fluent-bit-integration-in-cloudwatch-container-insights-for-eks) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         Technical overview of the native Fluent Bit integration with AWS CloudWatch Container Insights. Discusses migrating away from resource-heavy Fluentd agents to lightweight Fluent Bit configurations to process container logs efficiently at scale.
 
-### EKS Security and Isolation
+#### EKS Security and Isolation
 
-#### Compliance
+##### Compliance
 
   - **(2021)** [**aws whitepapers: Architecting Amazon EKS for PCI DSS Compliance (pdf) 🌟🌟**](https://d1.awsstatic.com/whitepapers/architecting-amazon-eks-for-pci-dss-compliance.pdf) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         High-density security blueprint analyzing steps to implement PCI DSS compliance requirements on Amazon EKS. It explores data protection strategies, auditable logging mechanisms, network segmentation rules, and strict operational access controls.
 
-#### IAM Integration
+##### IAM Integration
 
   - **(2026)** [**azon EKS Pod Identity Webhook**](https://github.com/aws/amazon-eks-pod-identity-webhook) <span class='md-tag md-tag--info'>⭐ 681</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
@@ -1118,16 +1118,16 @@
     ??? info "Technical Deep-Dive"
         High-density security deep-dive analyzing EKS cluster credential boundaries. It contrasts AWS IAM authentication mechanics with standard OIDC federated identity providers, outlining optimal credential isolation policies for pods.
 
-#### Multi-Tenancy
+##### Multi-Tenancy
 
   - **(2021)** [clickittech.com: Kubernetes Multi tenancy with Amazon EKS: Best practices and considerations](https://www.clickittech.com/devops/kubernetes-multi-tenancy) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         This guide details patterns for sharing an EKS cluster among multiple tenants safely. It highlights namespace isolation, network policies, IAM Roles for Service Accounts (IRSA), and resource quotas designed to secure isolated developer environments.
 
-### EKS Storage
+#### EKS Storage
 
-#### Shared Volumes
+##### Shared Volumes
 
   - **(2021)** [**aws.amazon.com: Mount Amazon EFS file systems cross-account from Amazon EKS, and utilize AWS Organizations more effectively**](https://aws.amazon.com/blogs/storage/mount-amazon-efs-file-systems-cross-account-from-amazon-eks) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
@@ -1139,23 +1139,23 @@
     ??? info "Technical Deep-Dive"
         This technical blog outlines mounting persistent storage to EKS clusters using the legacy Amazon EFS Provisioner. It covers IAM policy settings, storage class mapping, and volume claim binding, which has since transitioned into the modern EFS CSI driver paradigm.
 
-### Infrastructure as Code
+#### Infrastructure as Code (3)
 
-#### CDK and EKS
+##### CDK and EKS
 
   - **(2021)** [**aws.amazon.com: Continuous Delivery of Amazon EKS Clusters Using AWS CDK and CDK Pipelines**](https://aws.amazon.com/blogs/containers/continuous-delivery-of-amazon-eks-clusters-using-aws-cdk-and-cdk-pipelines) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         Guide illustrating how to write software-defined infrastructure to orchestrate and deploy Amazon EKS clusters using AWS Cloud Development Kit (CDK) Pipelines. Describes code-to-infrastructure deployments, testing stages, and lifecycle automation.
 
-#### Terraform and EKS
+##### Terraform and EKS
 
   - **(2021)** [youtube: CloudGeeks - Terraform Eks Kubernetes RDS Secrets Manager Eksctl Cloudformation ALB Controller (Redmine App)](https://www.youtube.com/watch?v=OFZYIr66Ku4&ab_channel=cloudgeeksinc) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         Complete orchestration video guide setting up an end-to-end containerized application on AWS EKS using Terraform. Features RDS database attachments, Secrets Manager integrations, and ALB Ingress configurations.
 
-### Resource Provisioning
+#### Resource Provisioning
 
   - **(2026)** [==AWS Controllers for Kubernetes (ACK) 🌟==](https://github.com/aws-controllers-k8s/community) <span class='md-tag md-tag--info'>⭐ 2629</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
@@ -1167,18 +1167,18 @@
     ??? info "Technical Deep-Dive"
         The AWS Controllers for Kubernetes (ACK) allows developers to define and manage AWS resources directly from within Kubernetes using custom resources. This bridges the declarative Kubernetes API model with external cloud infrastructure lifecycle management.
 
-# Public Cloud Providers
+## Public Cloud Providers
 
-## Azure Kubernetes Service AKS
+### Azure Kubernetes Service AKS
 
-### CICD and Deployment
+#### CICD and Deployment
 
   - **(2023)** [azuredevopslabs.com: Deploying a multi-container application to Azure Kubernetes Services](https://azuredevopslabs.com/labs/vstsextend/kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         A guided hands-on lab explaining multi-container deployment pipelines on AKS utilizing Azure DevOps. Details continuous deployment loops, packaging application layers via Helm charts, and managing network routing parameters for multi-tier microservice structures.
 
-### Cluster Management
+#### Cluster Management (1)
 
   - **(2024)** [piotrminkowski.com: Getting Started with Azure Kubernetes Service 🌟](https://piotrminkowski.com/2024/02/05/getting-started-with-azure-kubernetes-service) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
@@ -1220,7 +1220,7 @@
     ??? info "Technical Deep-Dive"
         An administrative deployment guide for initiating, scaling, and managing AKS clusters via the Azure CLI and portal. Walks through foundational networking profiles, node-pool scaling logic, and cluster validation techniques.
 
-### Edge Computing
+#### Edge Computing
 
   - **(2023)** [infoq.com: Microsoft Brings Kubernetes to the Edge with AKS Edge Essentials](https://www.infoq.com/news/2023/03/aks-edge-essentials-ga) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -1232,14 +1232,14 @@
     ??? info "Technical Deep-Dive"
         An industry report detailing AKS Lite (AKS Edge Essentials). Outlines Microsoft's strategy to deploy lightweight Kubernetes clusters onto small-footprint IoT hardware while keeping them linked via Azure Arc.
 
-### High Availability and Storage
+#### High Availability and Storage
 
   - **(2024)** [techcommunity.microsoft.com: A Practical Guide to Zone Redundant AKS Clusters and Storage](https://techcommunity.microsoft.com/blog/fasttrackforazureblog/a-practical-guide-to-zone-redundant-aks-clusters-and-storage/4036254) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         An enterprise blueprint addressing multi-zone AKS design and zone-redundant storage volumes. Investigates availability zone constraints, node-affinity impacts, and persistent volume failover latency to design zero-data-loss topologies.
 
-### Networking
+#### Networking (2)
 
   - **(2023)** [techcommunity.microsoft.com: Kubernetes External DNS for Azure DNS & AKS](https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/kubernetes-external-dns-for-azure-dns--aks/3809393) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
@@ -1282,21 +1282,21 @@
 
         [SPANISH CONTENT]
 
-### Observability and Monitoring
+#### Observability and Monitoring
 
   - **(2024)** [learn.microsoft.com: Monitor Azure Kubernetes Service (AKS) control plane metrics (preview)](https://learn.microsoft.com/en-us/azure/aks/monitor-aks) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         Outlines features designed to expose and monitor AKS control plane internal metrics using managed Prometheus and Grafana instances. Details monitoring etcd latency, scheduler run queues, and API server throughput.
 
-### Performance Optimization
+#### Performance Optimization (1)
 
   - **(2023)** [danielstechblog.io: Mitigating slow container image pulls on Azure Kubernetes Service](https://www.danielstechblog.io/mitigating-slow-container-image-pulls-on-azure-kubernetes-service) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Investigates mitigation patterns for cold-start latency issues associated with large container image pulls in AKS. Examines dynamic caching, optimal Azure Container Registry (ACR) alignment, and the deployment of advanced artifact streaming features to maximize application scaling speeds.
 
-### Security and Secret Management
+#### Security and Secret Management
 
   - **(2022)** [kristhecodingunicorn.com: Setting Up OAuth 2.0 Authentication for Applications in AKS With NGINX and OAuth2 Proxy 🌟🌟](https://www.kristhecodingunicorn.com/post/k8s_nginx_oauth) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
@@ -1330,23 +1330,23 @@
     ??? info "Technical Deep-Dive"
         An in-depth configuration guide targeting NGINX Ingress controller annotations and OAuth2 Proxy settings. Synthesizes ingress routing flows with OpenID Connect (OIDC) identity providers to build secure, identity-aware application gateways on AKS without modification of backend application code.
 
-### Specialized Workloads
+#### Specialized Workloads
 
   - **(2024)** [techcommunity.microsoft.com: Running GPU accelerated workloads with NVIDIA GPU Operator on AKS 🌟](https://techcommunity.microsoft.com/blog/azurehighperformancecomputingblog/running-gpu-accelerated-workloads-with-nvidia-gpu-operator-on-aks/4061318) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         Highlights the installation and usage of the NVIDIA GPU Operator on AKS. Explains how to orchestrate high-performance computing, AI, and GPU partition options (MIG) for parallel deep learning training directly within Kubernetes worker nodes.
 
-### Troubleshooting and Diagnostics
+#### Troubleshooting and Diagnostics
 
   - **(2021)** [github.com/OvidiuBorlean/kubectl-windumps](https://github.com/OvidiuBorlean/kubectl-windumps) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span>
 
     ??? info "Technical Deep-Dive"
         A specialized kubectl plugin facilitating raw packet capturing on AKS Windows worker nodes. Live grounding indicates the repository has been inactive for over four years, yet it remains a valuable conceptual reference for troubleshooting deep TCP/IP anomalies on legacy Windows container deployments.
 
-## Google Kubernetes Engine GKE
+### Google Kubernetes Engine GKE
 
-### Cluster Management
+#### Cluster Management (2)
 
   - **(2024)** [cloud.google.com: GKE Autopilot 🌟](https://docs.cloud.google.com/kubernetes-engine/docs/concepts/autopilot-overview) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -1383,7 +1383,7 @@
     ??? info "Technical Deep-Dive"
         Reflects on GKE's history and core features. Explains earlier architectural trends, the introduction of multi-cluster designs, and foundations that shaped Google's managed Kubernetes solutions.
 
-### Networking
+#### Networking (3)
 
   - **(2023)** [Setting up NodeLocal DNSCache](https://docs.cloud.google.com/kubernetes-engine/docs/how-to/nodelocal-dns-cache) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
@@ -1400,14 +1400,14 @@
     ??? info "Technical Deep-Dive"
         Introduces GKE Multi-Cluster Services (MCS). Focuses on cross-cluster discovery models that let disparate GKE instances interact securely without needing complex overlay networks or manual endpoint syncing.
 
-### Observability and Monitoring
+#### Observability and Monitoring (1)
 
   - **(2021)** [codeburst.io: Google Kubernetes Engine Logging by Example](https://codeburst.io/google-kubernetes-engine-logging-by-example-df6946dcba6b) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         A practical exploration of structural application logging inside GKE via Cloud Logging. Covers structured JSON formatting, log filtration techniques, and exports for audit compliance tasks.
 
-### Security and Secret Management
+#### Security and Secret Management (1)
 
   - **(2023)** [Fetches all Primitive and Predefined GCP IAM Roles](https://github.com/darkbitio/gcp-iam-role-permissions) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 

@@ -3,18 +3,18 @@
 !!! info "Architectural Context"
     Detailed reference for Cloud Asset Inventory in the context of Architectural Foundations.
 
-# Cloud Security
+## Cloud Security
 
-## Asset Management
+### Asset Management
 
-### Infrastructure-as-Code
+#### Infrastructure-as-Code
 
   - **(2026)** [==cloudquery.io: Cloud Query: The open-source cloud asset inventory powered by SQL==](https://www.cloudquery.io) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
     ??? info "Technical Deep-Dive"
         An open-source cloud asset inventory tool that transforms infrastructure metadata into queryable SQL databases. By decoupling extraction (APIs) from storage (PostgreSQL, ClickHouse), it enables security and platform teams to perform advanced compliance auditing, cost optimization, and drift detection.
 
-### Observability
+#### Observability
 
   - **(2023)** [cloudquery.io: Building an Open-Source Cloud Asset Inventory with CloudQuery and Grafana](https://www.cloudquery.io/learning-center/cloud-asset-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 

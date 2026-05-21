@@ -3,38 +3,38 @@
 !!! info "Architectural Context"
     Detailed reference for Web Servers in the context of Networking & Service Mesh.
 
-# Networking
+## Networking
 
-## Fundamentals
+### Fundamentals
 
-### Load Balancing
+#### Load Balancing
 
   - **(2021)** [opensource.com: A beginner's guide to load balancing](https://opensource.com/article/21/4/load-balancing) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         A high-level introductory guide to load balancing strategies. It explains the differences between Layer 4 (TCP) and Layer 7 (HTTP) routing algorithms, making it a useful primer for developers designing multi-region architectures.
 
-## Ingress
+### Ingress
 
-### Skipper
+#### Skipper
 
-#### HTTP Routing
+##### HTTP Routing
 
   - **(2020)** [opensource.com: Try this Kubernetes HTTP router and reverse proxy](https://opensource.com/article/20/4/http-kubernetes-skipper) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         An introduction to Skipper, an open-source HTTP router created by Zalando. Explores its use case as a highly customizable Kubernetes ingress controller with extensive routing filters tailored for large-scale production architectures.
 
-### Traefik
+#### Traefik
 
-#### Istio Integration
+##### Istio Integration
 
   - **(2021)** [**thenewstack.io: Using Traefik Ingress Controller with Istio Service Mesh**](https://thenewstack.io/using-traefik-ingress-controller-with-istio-service-mesh) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         A valuable integration guide demonstrating how to use Traefik as the external edge ingress router while leveraging Istio's internal service mesh to govern east-west traffic patterns and microservices telemetry.
 
-#### Kubernetes Ingress
+##### Kubernetes Ingress
 
   - **(2020)** [opensource.com: Directing Kubernetes traffic with Traefik](https://opensource.com/article/20/3/kubernetes-traefik) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -46,40 +46,40 @@
     ??? info "Technical Deep-Dive"
         Traefik is a modern cloud-native HTTP reverse proxy and ingress controller designed to automatically discover backend services from platforms like Kubernetes, Docker, and Consul. Its auto-configuration feature and native support for Let's Encrypt certificates simplify cluster operations.
 
-## Load Balancing
+### Load Balancing (1)
 
-### HAProxy
+#### HAProxy
 
-#### Implementation
+##### Implementation
 
   - **(2021)** [tecmint.com: How to Setup High-Availability Load Balancer with ‘HAProxy’ to Control Web Server Traffic](https://www.tecmint.com/install-haproxy-load-balancer-in-linux) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         A detailed linux-level guide for implementing HAProxy from scratch. Guides the platform engineer through initial package deployment, configuration mapping, backend health checking, and metric page exposure.
 
-#### Nginx Integration
+##### Nginx Integration
 
   - **(2020)** [Tecmint.com: How to Setup HAProxy as Load Balancer for Nginx on CentOS 8](https://www.tecmint.com/setup-nginx-haproxy-load-balancer-in-centos-8) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         A configuration-focused tutorial detailing how to chain HAProxy as a frontend load balancer in front of an Nginx web tier on CentOS 8. Note: CentOS 8 is end-of-life, meaning parts of this OS guide must be updated, but the routing concepts remain sound.
 
-## Reverse Proxy
+### Reverse Proxy
 
-### Apache HTTPD
+#### Apache HTTPD
 
-#### Jenkins Integration
+##### Jenkins Integration
 
   - **(2021)** [Apache Reverse Proxy for Jenkins](https://github.com/nubenetes/apache-reverse-proxy-jenkins) <span class='md-tag md-tag--info'>⭐ 1</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span>
 
     ??? info "Technical Deep-Dive"
         A historical configuration repository demonstrating how to put Apache behind a Jenkins installation. Due to more than 4 years of inactivity and minimal community adoption, this project is deprioritized and kept primarily as a legacy configuration sample.
 
-## Web Servers
+### Web Servers (1)
 
-### Apache HTTPD
+#### Apache HTTPD (1)
 
-#### Reverse Proxy
+##### Reverse Proxy (1)
 
   - **(2025)** [**Apache Reverse Proxy Guide**](https://httpd.apache.org/docs/2.4/howto/reverse_proxy.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
@@ -91,16 +91,16 @@
     ??? info "Technical Deep-Dive"
         The home page for Apache HTTPD, the foundational open-source web server of the internet. While newer microservices architectures typically leverage Nginx or Envoy, Apache remains highly relevant for legacy proxy configurations and traditional web hosting setups.
 
-### Nginx
+#### Nginx
 
-#### Guides
+##### Guides
 
   - **(2021)** [**freecodecamp.org: The NGINX Handbook 🌟**](https://www.freecodecamp.org/news/the-nginx-handbook) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         An extensive manual explaining the underlying mechanics of Nginx. Covers everything from server blocks and upstream definitions to proxy routing rules, security hardening, and cache configuration optimization.
 
-#### Interactive Playgrounds
+##### Interactive Playgrounds
 
   - **(2025)** [**nginx-playground.wizardzines.com 🌟**](https://nginx-playground.wizardzines.com) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
@@ -112,9 +112,9 @@
     ??? info "Technical Deep-Dive"
         An introductory blog post by Julia Evans launching an interactive Nginx configuration playground. It explains the core configuration blocks and how the visual playground simplifies debugging path matches and header rewrites.
 
-### Nginx Unit
+#### Nginx Unit
 
-#### Application Server
+##### Application Server
 
   - **(2026)** [**unit.nginx.org**](https://unit.nginx.org) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 

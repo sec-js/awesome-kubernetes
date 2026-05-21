@@ -3,11 +3,11 @@
 !!! info "Architectural Context"
     Detailed reference for Tekton in the context of Engineering Pipeline.
 
-# Hybrid Cloud and Enterprise
+## Hybrid Cloud and Enterprise
 
-## OpenShift
+### OpenShift
 
-### Pipelines and CI CD
+#### Pipelines and CI CD
 
   - **(2020)** [openshift.com: Cloud-Native CI/CD with OpenShift Pipelines based on Tekton](https://www.redhat.com/en/blog/cloud-native-ci-cd-with-openshift-pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 

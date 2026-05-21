@@ -3,33 +3,33 @@
 !!! info "Architectural Context"
     Detailed reference for Gitops in the context of Engineering Pipeline.
 
-# Cloud Infrastructure
+## Cloud Infrastructure
 
-## Kubernetes Distributions
+### Kubernetes Distributions
 
-### Bare-Metal and Edge
+#### Bare-Metal and Edge
 
   - **(2026)** [**Charmed Kubernetes**](https://ubuntu.com/kubernetes/charmed-k8s) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         Canonical's model-driven Kubernetes distribution designed for bare-metal, private, and multi-cloud environments. Leverages Ubuntu's automated Juju framework to manage complex cluster lifecycles, upgrades, security scanning, and seamless hypervisor scaling.
 
-# GitOps
+## GitOps
 
-## Hybrid Cloud Platforms
+### Hybrid Cloud Platforms
 
-### Azure Arc Integration
+#### Azure Arc Integration
 
   - **(2021)** [Kubernetes GitOps with Azure Arc and Charmed Kubernetes](https://canonical.com/blog/gitops-with-azure-arc-and-charmed-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         A technical guide illustrating the integration of Charmed Kubernetes with Azure Arc to orchestrate hybrid-cloud resources. Demonstrates how GitOps configurations are pushed dynamically across decentralized architectures using unified portal controls.
 
-# Infrastructure
+## Infrastructure
 
-## GitOps
+### GitOps (1)
 
-### Cluster Provisioning
+#### Cluster Provisioning
 
   - **(2020)** [WKSctl - A New OSS Kubernetes Manager using GitOps](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745/blog/wksctl-a-new-oss-kubernetes-manager-using-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 

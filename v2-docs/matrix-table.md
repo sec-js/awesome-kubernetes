@@ -3,11 +3,11 @@
 !!! info "Architectural Context"
     Detailed reference for Matrix Table in the context of Architectural Foundations.
 
-# Platform Engineering
+## Platform Engineering
 
-## Infrastructure
+### Infrastructure
 
-### Managed Kubernetes
+#### Managed Kubernetes
 
   - **(2024)** [==Learnk8s: Comparison of Kubernetes Managed Services 🌟==](https://docs.google.com/spreadsheets/d/1RPpyDOLFmcgxMCpABDzrsBYWpPYCIBuvAoUQLwOGoQw/edit) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 

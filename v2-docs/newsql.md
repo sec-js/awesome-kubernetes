@@ -3,11 +3,11 @@
 !!! info "Architectural Context"
     Detailed reference for Newsql in the context of Data & Advanced Analytics.
 
-# Storage
+## Storage
 
-## Databases
+### Databases
 
-### NewSQL
+#### NewSQL
 
   - **(2021)** [muratbuffalo.blogspot.com: What’s Really New with NewSQL?](https://muratbuffalo.blogspot.com/2021/11/whats-really-new-with-newsql.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 

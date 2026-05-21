@@ -14,11 +14,15 @@
   
   --md-primary-bg-color:        #ffffff;
   --md-primary-bg-color--light: #f4f4f5; /* Zinc 100 */
+
+  /* Header Overrides */
+  --md-header-bg-color:         #09090b;
+  --md-header-fg-color:         #ffffff;
 }
 
 [data-md-color-scheme="slate"] {
   /* DARK MODE - "Cyber Cloud" (Deep Space & Neon) */
-  --md-primary-fg-color:        #ffffff; /* Improved text contrast */
+  --md-primary-fg-color:        #ffffff; 
   --md-primary-fg-color--light: #e2e8f0; 
   --md-primary-fg-color--dark:  #94a3b8;
   
@@ -27,22 +31,55 @@
 
   --md-default-bg-color:        #09090b; /* Zinc 950 for main body */
   --md-code-bg-color:           #18181b; /* Zinc 900 for code blocks */
+
+  /* Header Overrides (Dark) */
+  --md-header-bg-color:         rgba(0, 0, 0, 0.85);
+  --md-header-fg-color:         #ffffff;
 }
 
 /* ---------------------------------------------------- */
 /* UI DYNAMICS & GLASSMORPHISM                          */
 /* ---------------------------------------------------- */
 
-/* Glassmorphism Header */
+/* Solid/Glass Header */
 .md-header {
-  background-color: rgba(255, 255, 255, 0.8) !important;
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  background-color: var(--md-header-bg-color) !important;
+  color: var(--md-header-fg-color) !important;
+}
+
+.md-header__button.md-logo img, 
+.md-header__button.md-logo svg {
+  fill: currentColor !important;
+}
+
+/* Ensure Search and Nav Icons are visible */
+.md-header__topic, 
+.md-header__button,
+.md-header__title,
+.md-search__input,
+.md-search__icon {
+  color: inherit !important;
+}
+
+/* Navigation Tabs */
+.md-tabs {
+  background-color: var(--md-header-bg-color);
+  opacity: 0.95;
+}
+
+.md-tabs__link {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.md-tabs__link--active,
+.md-tabs__link:hover {
+  color: #ffffff !important;
+  opacity: 1;
 }
 
 [data-md-color-scheme="slate"] .md-header {
-  background-color: rgba(9, 9, 11, 0.75) !important;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 

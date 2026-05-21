@@ -3,18 +3,18 @@
 !!! info "Architectural Context"
     Detailed reference for Performance Testing With Jenkins And Jmeter in the context of Platform & Site Reliability.
 
-# Continuous Integration
+## Continuous Integration
 
-## CI Tools
+### CI Tools
 
-### GitHub Actions
+#### GitHub Actions
 
   - **(2022)** [thenewstack.io: Simple Load Testing with GitHub Actions](https://thenewstack.io/simple-load-testing-with-github-actions) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         A practical guide for implementing low-overhead load testing routines within CI pipelines. Explores triggering synthetic benchmarks during typical code validation runs inside GitHub runners.
 
-### Jenkins
+#### Jenkins
 
   - **(2024)** [performance-plugin](https://github.com/jenkinsci/performance-plugin) <span class='md-tag md-tag--info'>⭐ 194</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -26,18 +26,18 @@
     ??? info "Technical Deep-Dive"
         Integrates Gatling load simulation tests into modern Jenkins jobs. Features automated metrics visualization, pipeline validation, and conditional build-failing mechanisms.
 
-# Observability and Performance
+## Observability and Performance
 
-## Performance Testing
+### Performance Testing
 
-### APIs
+#### APIs
 
   - [youtube: JMeter API Performance Testing Tutorial 🌟](https://www.youtube.com/watch?v=8r5LYzUIepo) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         A rich step-by-step video tutorial demonstrating the creation and deployment of API performance tests. Focuses on payload modeling, validation assertions, and interpreting stress test metrics under high-throughput conditions.
 
-### Cloud Platforms
+#### Cloud Platforms
 
   - **(2021)** [azure.microsoft.com: Introducing Azure Load Testing: Optimize app performance at scale](https://azure.microsoft.com/en-us/blog/introducing-azure-load-testing-optimize-app-performance-at-scale) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -54,7 +54,7 @@
     ??? info "Technical Deep-Dive"
         Official portal documenting Microsoft Azure Load Testing, a fully managed performance validation platform that natively ingests JMeter tests to target complex cloud environments.
 
-### Commercial Platforms
+#### Commercial Platforms
 
   - [octoperf.com](https://octoperf.com) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -66,14 +66,14 @@
     ??? info "Technical Deep-Dive"
         A scalable load testing suite by Tricentis that supports JMeter, Gatling, and browser-driven scaling. Integrates directly into cloud environments to spawn distributed agents on demand.
 
-### Distributed Load Testing
+#### Distributed Load Testing
 
   - **(2016)** [JMeter Distributed Testing Step-by-step](https://venkatmatta.com/wp-content/uploads/2016/03/jmeter_distributed_testing_step_by_step.pdf) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         A detailed execution manual outlining steps to orchestrate distributed JMeter server architectures. Teaches how to configure multiple remote load injectors managed by a master engine to bypass network bottlenecks.
 
-### Load Testing
+#### Load Testing
 
   - **(2024)** [==tsenart/vegeta 🌟==](https://github.com/tsenart/vegeta) <span class='md-tag md-tag--info'>⭐ 25037</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
@@ -115,28 +115,28 @@
     ??? info "Technical Deep-Dive"
         An aggregated knowledge index linking to advanced tutorials, video courses, and functional documentation designed to accelerate the learning curve for Apache JMeter load tests.
 
-### Microservices
+#### Microservices
 
   - **(2022)** [dev.to: The most elegant way to performance test your microservices running on Kubernetes](https://dev.to/ksingh7/the-most-elegant-way-to-performance-test-your-microservices-running-on-kubernetes-2mo2) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         A structured guide demonstrating elegant and scalable patterns for performance testing distributed microservices. Focuses on cluster-native deployments and simulating traffic anomalies directly within Kubernetes namespaces.
 
-### Monitoring
+#### Monitoring
 
   - [linkedin.com: Tuning Grafana - Jmeter Dashboards](https://www.linkedin.com/pulse/tuning-grafana-jmeter-dashboards-ezhil-arasu) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         A specialized optimization guide detailing Grafana and JMeter integration. Focuses on pipeline configurations, exporting live telemetry to InfluxDB, and maintaining high-fidelity visualization dashboards without performance degradation.
 
-### Operating Systems
+#### Operating Systems
 
   - **(2022)** [blog.desdelinux.net: Microsoft Performance-Tools, una serie de herramientas open source para analizar el rendimiento del sistema](https://blog.desdelinux.net/microsoft-performance-tools-una-serie-de-herramientas-open-source-para-analizar-el-rendimiento-del-sistema) <span class='md-tag md-tag--warning'>[ES CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Análisis en español de Microsoft Performance-Tools, una suite de código abierto basada en .NET Core para recopilar trazas y métricas del sistema operativo en entornos Linux y Windows. [SPANISH CONTENT]
 
-### Web Performance
+#### Web Performance
 
   - **(2020)** [devops.com: Catchpoint to Acquire Webpagetest.org](https://devops.com/catchpoint-to-acquire-webpagetest-org) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 

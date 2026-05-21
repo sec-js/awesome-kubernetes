@@ -3,25 +3,25 @@
 !!! info "Architectural Context"
     Detailed reference for Java And Java Performance Optimization in the context of Developer Ecosystem.
 
-# Cloud Native Languages
+## Cloud Native Languages
 
-## Java
+### Java
 
-### Caching
+#### Caching
 
   - **(2025)** [Tecnologías de Heap-Offloading son EHcache, Memcached, Jillegal library, etc.](http://ehcache.org) <span class='md-tag md-tag--warning'>[ES CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         Robust, standards-compliant Java caching library supporting off-heap storage to bypass JVM Garbage Collection overhead. Crucial for high-throughput microservices requiring low-latency data access. [SPANISH CONTENT]
 
-### Kubernetes Integration
+#### Kubernetes Integration
 
   - **(2024)** [piotrminkowski.com: Java Flight Recorder on Kubernetes](https://piotrminkowski.com/2024/02/13/java-flight-recorder-on-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         Excellent architectural guide demonstrating how to continuously profile Java applications running on Kubernetes with Java Flight Recorder (JFR) and JDK Mission Control. Uses declarative setups for modern container observation.
 
-### Memory Management
+#### Memory Management
 
   - **(2014)** [Cambios importantes en la gestión de memoria de Java 8 de Oracle](http://karunsubramanian.com/websphere/one-important-change-in-memory-management-in-java-8) <span class='md-tag md-tag--warning'>[ES CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span>
 
@@ -43,7 +43,7 @@
     ??? info "Technical Deep-Dive"
         A fundamental guide detailing Java Garbage Collection mechanics, generational hypothesis, and basic GC algorithms. Ideal for building baseline knowledge of JVM memory structures.
 
-### Performance Tuning
+#### Performance Tuning
 
   - **(2020)** [**developers.redhat.com: Collect JDK Flight Recorder events at runtime with JMC Agent 🌟**](https://developers.redhat.com/blog/2020/10/29/collect-jdk-flight-recorder-events-at-runtime-with-jmc-agent) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
@@ -75,38 +75,38 @@
     ??? info "Technical Deep-Dive"
         A legacy JVM troubleshooting guide covering common performance pitfalls, memory issues, and GC analysis patterns. Offers foundational reference value despite its age.
 
-# Infrastructure Integration
+## Infrastructure Integration
 
-## Local Development
+### Local Development
 
-### Networking
+#### Networking
 
   - **(2021)** [vladmihalcea.com: How to tunnel localhost to the public Internet](https://vladmihalcea.com/tunnel-localhost-public-internet) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         A practical walkthrough on exposing local servers to the public internet using tools like ngrok. Facilitates rapid debugging of external webhooks and third-party APIs during local microservices development.
 
-# Runtime Optimizations
+## Runtime Optimizations
 
-## Application Architecture
+### Application Architecture
 
-### Caching Strategies
+#### Caching Strategies
 
   - **(2021)** [vladmihalcea.com: Caching best practices](https://vladmihalcea.com/caching-best-practices) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Advanced guidelines on data caching layers. Focuses on cache eviction strategies, write-through sync, and invalidation consistency protocols in microservices.
 
-### Persistence Layer
+#### Persistence Layer
 
   - **(2022)** [vladmihalcea.com: 14 High-Performance Java Persistence Tips](https://vladmihalcea.com/14-high-performance-java-persistence-tips) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         In-depth checklist to optimize JDBC, Hibernate, and JPA operations. Discusses query batching, dirty checking, dynamic sorting, and connection pool sizing.
 
-## JVM Tuning
+### JVM Tuning
 
-### Garbage Collection
+#### Garbage Collection
 
   - **(2021)** [developers.redhat.com: Shenandoah garbage collection in OpenJDK 16: Concurrent reference processing](https://developers.redhat.com/articles/2021/05/20/shenandoah-garbage-collection-openjdk-16-concurrent-reference-processing) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -118,7 +118,7 @@
     ??? info "Technical Deep-Dive"
         Architect guide comparing major modern GCs (G1, ZGC, Shenandoah) against application profiles to balance maximum throughput, latency tolerances, and system memory.
 
-### Language Fundamentals
+#### Language Fundamentals
 
   - **(2023)** [linkedin.com/pulse: Difference between Executor, ExecutorService, and Executors class in Java!](https://www.linkedin.com/pulse/difference-between-executor-executorservice-executors-omar-ismail) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -145,7 +145,7 @@
     ??? info "Technical Deep-Dive"
         Highlights classic competencies for advanced Java engineers, such as concurrency paradigms, GC tuning, microservices, and modern framework shifts.
 
-### Monitoring and Profiling
+#### Monitoring and Profiling
 
   - **(2024)** [blog.heaphero.io: HeapHero - Java & Android Heap Dump Analyzer](https://blog.heaphero.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -167,16 +167,16 @@
     ??? info "Technical Deep-Dive"
         Outlines configuring and analyzing OpenJDK 8u runtime events utilizing JDK Flight Recorder (JFR) and Mission Control. Essential for debugging containerized legacy runtimes.
 
-### Performance Optimization
+#### Performance Optimization
 
   - **(2024)** [**OpenHFT/Java-Thread-Affinity**](https://github.com/OpenHFT/Java-Thread-Affinity) <span class='md-tag md-tag--info'>⭐ 1895</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         Highly optimized library that binds Java execution threads to specific CPU cores. Mitigates task context-switching overhead in low-latency financial systems.
 
-## Kubernetes Tuning
+### Kubernetes Tuning
 
-### JVM in Containers
+#### JVM in Containers
 
   - **(2023)** [itnext.io: How to cold start fast a java service on k8s (EKS)](https://itnext.io/how-to-cold-start-fast-a-java-service-on-k8s-eks-3a7b4450845d) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -198,7 +198,7 @@
     ??? info "Technical Deep-Dive"
         Explores container resource limit considerations for Java workloads. Details memory calculation adjustments (Heap vs Non-Heap) to prevent OOMKills.
 
-### Observability
+#### Observability
 
   - **(2021)** [blog.openshift.com: Performance Metrics (APM) for Spring Boot Microservices on OpenShift](https://www.redhat.com/en/blog/performance-metrics-apm-spring-boot-microservices-openshift) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
