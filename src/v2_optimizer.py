@@ -353,8 +353,21 @@ class V2VisionEngine:
                             }
                             item.update(eval_data)
                             analyst_results.append(item)
+                            
+                            # Mandate 22: Incremental Persistence to avoid data loss
+                            norm_url = normalize_url(item["url"])
+                            self.inventory[norm_url] = {k:v for k,v in item.items() if k not in ["url", "title", "original_file", "is_special", "aliases"]}
+                            self.inventory[norm_url]["title"] = item["title"]
+
                 except Exception:
                     for l in batch: analyst_results.append(l)
+
+                # Mandate 22: Save every 20 batches to disk
+                if batch_num % 20 == 0:
+                    log_event(f"    [💾] Periodic Save: Persisting inventory at batch {batch_num}...")
+                    from src.inventory_manager import save_inventory
+                    save_inventory(self.inventory)
+
                 await asyncio.sleep(2.0) # Safety delay to respect TPM limits
 
             # 1.2 Grounded-Track: Small Batches, WITH GROUNDING (Slower but precise)
