@@ -319,7 +319,7 @@ class V2VisionEngine:
             analyst_results = []
 
             # 1.1 Fast-Track: Large Batches, NO GROUNDING (Fast)
-            BATCH_SIZE_FAST = 100 # Increased from 40 for optimal RPM/TPM balance
+            BATCH_SIZE_FAST = 50 # Balanced "Sweet Spot" for RPM/TPM and timeout safety (2026)
             total_fast = len(fast_track)
             for i in range(0, total_fast, BATCH_SIZE_FAST):
                 batch = fast_track[i:i+BATCH_SIZE_FAST]

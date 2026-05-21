@@ -293,9 +293,13 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
     consecutive_429s = 0
     base_wait_time = 2.0
     
-    # 1. Smart Re-ordering
+    # 1. Smart Filtering and Re-ordering (Strict Lite-Only Policy for Tier 1)
     if prefer_flash:
-        models = sorted(models_pool, key=lambda m: 0 if "flash" in m or "lite" in m else 1)
+        # Strict filter: Only allow flash/lite models, maintaining version sorting from pool
+        models = [m for m in models_pool if "flash" in m or "lite" in m]
+        if not models:
+            # Emergency fallback: if no flash/lite discovered, use hardcoded safe defaults
+            models = ["gemini-1.5-flash", "gemini-1.5-flash-latest"]
     else:
         models = models_pool
 
