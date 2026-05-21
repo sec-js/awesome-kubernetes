@@ -3,25 +3,25 @@
 !!! info "Architectural Context"
     Detailed reference for Helm in the context of Architectural Foundations.
 
-# Application Delivery
+## Application Delivery
 
-## Helm
+### Helm
 
-### Alternative Engines
+#### Alternative Engines
 
   - **(2025)** [**Nelm: A Helm Alternative for Kubernetes Deployments**](https://github.com/werf/nelm) <span class='md-tag md-tag--info'>⭐ 1071</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         An innovative deployment engine integrated within the Werf workflow that functions as an alternative to native Helm release tracking. It resolves Helm's tracking limitations by ensuring strict live cluster validation and resource health monitoring.
 
-### Developer Experience
+#### Developer Experience
 
   - **(2021)** [opensource.com: What Kubernetes taught me about development](https://opensource.com/article/21/12/kubernetes-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         A retrospective engineering article summarizing lessons learned from building and deploying microservices on Kubernetes. It highlights the paradigm shift of treating infrastructure-as-code and configuration as vital parts of the software lifecycle.
 
-### Documentation
+#### Documentation
 
   - **(2025)** [==helm-docs==](https://github.com/norwoodj/helm-docs) <span class='md-tag md-tag--info'>⭐ 1739</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
@@ -38,7 +38,7 @@
     ??? info "Technical Deep-Dive"
         A CLI utility designed to automatically assemble neat changelogs for Helm charts by parsing git repository commit history. It simplifies publishing notes by keeping track of charts updates over multiple releases.
 
-### Governance
+#### Governance
 
   - **(2025)** [**github: Nova 🌟**](https://github.com/fairwindsops/nova) <span class='md-tag md-tag--info'>⭐ 859</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
@@ -50,28 +50,28 @@
     ??? info "Technical Deep-Dive"
         Red Hat's automated verification tool built to certify that third-party Helm charts align with platform standards on OpenShift. It performs automated checks against strict deployment policies and security guidelines.
 
-### Learning Paths
+#### Learning Paths
 
   - **(2023)** [**mattias.engineer/courses/kubernetes/helm: Kubernetes-101: Helm 🌟**](https://mattias.engineer/courses/kubernetes/helm) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         A foundational course module mapping out Helm architecture, release lifecycles, and template syntax. It serves as an optimal starting point for operators transitioning from static manifests to dynamic Kubernetes packaging.
 
-### Legacy Charts
+#### Legacy Charts
 
   - **(2020)** [==Jenkins==](https://github.com/helm/charts/tree/master/stable/jenkins) <span class='md-tag md-tag--info'>⭐ 15416</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
     ??? info "Technical Deep-Dive"
         The historic Helm chart repository location for Jenkins under the official Helm org. This template configuration has since been migrated to the Jenkins community repository and should be avoided in favor of modern forks.
 
-### Legacy Integration
+#### Legacy Integration
 
   - **(2018)** [Kubecrt](https://github.com/blendle/kubecrt) <span class='md-tag md-tag--info'>⭐ 113</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span>
 
     ??? info "Technical Deep-Dive"
         An early-stage, archived utility developed to convert Helm charts into raw Kubernetes manifests. While superseded by standard native features like 'helm template', it remains a historic reference for early manifest-rendering strategies.
 
-### Lifecycle
+#### Lifecycle
 
   - **(2023)** [rafay.co: Helm Chart Hooks Tutorial](https://rafay.co/ai-and-cloud-native-blog/helm-chart-hooks-tutorial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -83,7 +83,7 @@
     ??? info "Technical Deep-Dive"
         An actionable production playbook detailing how to coordinate database schema upgrades prior to application deployment using Helm release hooks. It discusses failure rollbacks and job design patterns for modern pipelines.
 
-### Observability
+#### Observability
 
   - **(2024)** [sstarcher/helm-exporter](https://github.com/sstarcher/helm-exporter) <span class='md-tag md-tag--info'>⭐ 294</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -95,7 +95,7 @@
     ??? info "Technical Deep-Dive"
         A practical engineering guide detailing how to expose Prometheus metrics from custom Helm charts. It explores configuring PodMonitors and ServiceMonitors directly within Chart templates to guarantee day-2 observability out of the box.
 
-### Orchestration
+#### Orchestration
 
   - **(2026)** [==github.com/helmfile/helmfile==](https://github.com/helmfile/helmfile) <span class='md-tag md-tag--info'>⭐ 5099</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
@@ -112,7 +112,7 @@
     ??? info "Technical Deep-Dive"
         An early experimental orchestrator from SAP for coordinating complex Kubernetes and Helm release sequences. The repository has been archived and is kept solely for historic exploration of modular cluster orchestration.
 
-### Plugins and Extensions
+#### Plugins and Extensions
 
   - **(2025)** [==Helm Diff Plugin 🌟==](https://github.com/databus23/helm-diff) <span class='md-tag md-tag--info'>⭐ 3427</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
@@ -134,7 +134,7 @@
     ??? info "Technical Deep-Dive"
         A structured developer guide that walks through the anatomy of Helm's plugin architecture. It provides an actionable walkthrough on packaging custom scripts as first-class CLI extensions, enhancing operational customizability.
 
-### Registries
+#### Registries
 
 
 ??? abstract "Architect's Technical Comparison Table"
@@ -207,7 +207,7 @@
     ??? info "Technical Deep-Dive"
         An official blog announcement detailing the deprecation timeline of the old stable/incubator chart repositories. It describes the migration path toward distributed hosting on GitHub Pages and private charts registries.
 
-### Security
+#### Security
 
   - **(2022)** [**thenewstack.io: Applying Kubernetes Security Best Practices to Helm Charts 🌟**](https://thenewstack.io/applying-kubernetes-security-best-practices-to-helm-charts) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
@@ -229,7 +229,7 @@
     ??? info "Technical Deep-Dive"
         An authoritative AWS guide introducing Datree integrations for preventing misconfigurations within Helm deployment cycles. It details how to set up policy validation within EKS pipelines to block non-compliant resources before deployment.
 
-### Templating
+#### Templating
 
   - **(2024)** [HULL](https://github.com/vidispine/hull) <span class='md-tag md-tag--info'>⭐ 288</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -246,7 +246,7 @@
     ??? info "Technical Deep-Dive"
         A deep-dive article addressing advanced Go template techniques in Helm, specifically targeting the creation of reusable library charts. It offers a blueprint for building a single, highly flexible parent chart that can deploy diverse microservice patterns.
 
-### Visualization
+#### Visualization
 
   - **(2024)** [==github.com/komodorio/helm-dashboard 🌟==](https://github.com/komodorio/helm-dashboard) <span class='md-tag md-tag--info'>⭐ 5695</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
@@ -258,11 +258,11 @@
     ??? info "Technical Deep-Dive"
         An extension designed to capture visual topology snapshots of Helm releases within Meshery. It allows operators to visually audit and document the runtime architecture generated by complex multi-tier Helm installations.
 
-# Application Delivery and GitOps
+## Application Delivery and GitOps
 
-## Package Management
+### Package Management
 
-### Advanced Helm Patterns
+#### Advanced Helm Patterns
 
   - **(2022)** [**dev.to: Helm Release Time-To-Live(TTL)⏳💀 for Temporary Environments**](https://dev.to/rtpro/helm-release-time-to-livettl-for-temporary-environments-1239) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
@@ -284,14 +284,14 @@
     ??? info "Technical Deep-Dive"
         Technical guide showing how to reference values dynamically within the same `values.yaml` file, minimizing data duplication across multi-environment Helm releases.
 
-### Case Studies
+#### Case Studies
 
   - **(2022)** [**dev.to/francoislp: Post-mortem: 1h30 downtime on a Saturday morning**](https://dev.to/francoislp/post-mortem-1h30-downtime-on-a-saturday-morning-5af0) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         A detailed post-mortem documenting a 1.5-hour system outage caused by conflicting Helm upgrades and state locks, with valuable architectural takeaways on configuring proper timeouts.
 
-### Educational Videos
+#### Educational Videos
 
 
 ??? abstract "Architect's Technical Comparison Table"
@@ -334,7 +334,7 @@
     ??? info "Technical Deep-Dive"
         Practical video breakdown demystifying how Helm operates. Explains basic mechanics of building templates and decoupling dynamic configurations from application specifications.
 
-### GitOps and Helm
+#### GitOps and Helm
 
   - **(2021)** [**youtube: GitOps Guide to the Galaxy: Working with Helm**](https://www.youtube.com/watch?v=1FzOlSed5ts&ab_channel=OpenShift) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
@@ -346,7 +346,7 @@
     ??? info "Technical Deep-Dive"
         Analysis of integrating Helm templates with GitOps deployments, showing how to balance templated application metadata packaging with strict, declarative environment state tracking.
 
-### Helm
+#### Helm (1)
 
 
 ??? abstract "Architect's Technical Comparison Table"
@@ -395,7 +395,7 @@
     ??? info "Technical Deep-Dive"
         Accessible and clear introduction detailing core Helm entities (charts, repositories, releases). Excellent read for cloud engineers looking to grasp basic Helm vocabulary quickly.
 
-### Helm Best Practices
+#### Helm Best Practices
 
   - **(2020)** [**jfrog.com: Steering Straight with Helm Charts Best Practices 🌟**](https://jfrog.com/blog/helm-charts-best-practices) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
@@ -407,14 +407,14 @@
     ??? info "Technical Deep-Dive"
         Curation of 13 battle-tested engineering guidelines for authoring Helm Charts. Covers formatting patterns, values mapping, naming rules, and GitOps integration schemas.
 
-### Helm Migration
+#### Helm Migration
 
   - **(2019)** [**helm.sh: How to migrate from Helm v2 to Helm v3**](https://helm.sh/blog/migrate-from-helm-v2-to-helm-v3) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         Official migration blueprint from Helm's core team detailing the path from v2 to v3. Shows how to securely convert in-cluster release metadata and fully decommission the Tiller component.
 
-### Helm Security
+#### Helm Security
 
   - **(2022)** [**apiiro.com: Malicious Kubernetes Helm Charts can be used to steal sensitive information from Argo CD deployments**](https://apiiro.com/blog/malicious-kubernetes-helm-charts-can-be-used-to-steal-sensitive-information-from-argo-cd-deployments) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
@@ -436,7 +436,7 @@
     ??? info "Technical Deep-Dive"
         Technical security overview emphasizing reproducible chart security patterns using validation schemas, signed values, and limited-scope Service Accounts.
 
-### Helm Testing
+#### Helm Testing
 
   - **(2020)** [**blog.heyal.co.uk: How to unit-test your helm charts with Golang 🌟**](https://blog.heyal.co.uk/unit-testing-helm-charts) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
@@ -448,21 +448,21 @@
     ??? info "Technical Deep-Dive"
         Introduction to HULL (Helm Universal Layer Library), showing how it abstracts boilerplate Helm templates via standard JSON/YAML schema specifications, facilitating dynamic chart generation.
 
-### Helm Validation
+#### Helm Validation
 
   - **(2020)** [**Helm 3: Validating Helm Chart Values with JSON Schemas 🌟**](https://www.arthurkoziel.com/validate-helm-chart-values-with-json-schemas) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         Excellent technical guide showing how to write and use JSON Schema (`values.schema.json`) to programmatically validate Helm Chart variables and eliminate formatting errors prior to deploy.
 
-### Helm vs Operators
+#### Helm vs Operators
 
   - **(2020)** [**cloud.redhat.com: Application Management in Kubernetes Environments with Helm Charts and Kubernetes Operators**](https://www.redhat.com/en/blog/application-management-in-kubernetes-environments-with-helm-charts-and-kubernetes-operators) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         Architectural discussion comparing Helm package templates with Kubernetes Operators. Outlines when to use Helm for Day 1 installs versus Operators for stateful Day 2 operations.
 
-### OpenShift Integration
+#### OpenShift Integration
 
   - **(2021)** [**developers.redhat.com: Deploy Node.js applications to Red Hat OpenShift with Helm**](https://developers.redhat.com/articles/2021/07/20/deploy-nodejs-applications-red-hat-openshift-helm) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
@@ -474,43 +474,43 @@
     ??? info "Technical Deep-Dive"
         Red Hat blog announcing extended, first-class Helm integration in OpenShift. Discusses Console-level management of Helm charts, ensuring enterprise-compliant application lifecycles.
 
-### Waypoint
+#### Waypoint
 
   - **(2022)** [**learn.hashicorp.com: Deploy a Helm-based application automatically with GitOps**](https://github.com/hashicorp/waypoint/tree/main/website/content/docs) <span class='md-tag md-tag--info'>⭐ 4728</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         HashiCorp walkthrough presenting continuous, declarative deployment of Helm-based apps using Waypoint pipelines, highlighting structural GitOps workflows.
 
-# Edge Computing
+## Edge Computing
 
-## IoT and Smart Home
+### IoT and Smart Home
 
-### Surveillance
+#### Surveillance
 
   - **(2024)** [Frigate](https://frigate.readthedocs.io/en/latest) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Highly specialized NVR software focusing on local real-time object detection using AI accelerators. Its reference Helm and Kubernetes guides allow developers to scale home automation and security workloads on private clusters.
 
-# Infrastructure as Code
+## Infrastructure as Code
 
-## Kubernetes Package Management
+### Kubernetes Package Management
 
-### Deconstruction
+#### Deconstruction
 
   - **(2018)** [github.com/jkosik: helm-decomposer](https://github.com/jkosik/helm-decomposer) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span>
 
     ??? info "Technical Deep-Dive"
         An early utility designed to deconstruct static Kubernetes manifests into modular Helm templates. The project has had no active maintenance for years, serving purely as a conceptual legacy archive.
 
-### Helm GitOps
+#### Helm GitOps
 
   - **(2025)** [**helmwave/helmwave**](https://github.com/helmwave/helmwave) <span class='md-tag md-tag--info'>⭐ 884</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         Helmwave acts as a docker-compose-like manager for Helm charts. It offers structured multi-chart deployments, parallel releases, and strict dependency trees, representing a strong emerging pattern for platform team orchestration.
 
-### Helm Plugins
+#### Helm Plugins
 
   - **(2020)** [github.com/mumoshu/helm-x: Helm X Plugin](https://github.com/mumoshu/helm-x) <span class='md-tag md-tag--info'>⭐ 178</span> 🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--info'>[LEGACY]</span>
 
@@ -522,11 +522,11 @@
     ??? info "Technical Deep-Dive"
         A legacy Helm backup plugin designed to preserve state. Modern GitOps workflows with declarative tools like Argo CD and Flux have deprecated the need for manual, stateful Helm backups.
 
-# Multi-Cluster Management
+## Multi-Cluster Management
 
-## Cluster Governance
+### Cluster Governance
 
-### Sveltos
+#### Sveltos
 
   - **(2025)** [github.com/projectsveltos: sveltosctl](https://github.com/projectsveltos/sveltosctl#display-outcome-of-clusterprofiles-in-dryrun-mode) <span class='md-tag md-tag--info'>⭐ 36</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 

@@ -3,11 +3,11 @@
 !!! info "Architectural Context"
     Detailed reference for Openshift Pipelines in the context of Engineering Pipeline.
 
-# Hybrid Cloud and Enterprise
+## Hybrid Cloud and Enterprise
 
-## OpenShift
+### OpenShift
 
-### Pipelines and CI CD
+#### Pipelines and CI CD
 
   - **(2021)** [**github.com/openshift/pipelines-tutorial**](https://github.com/openshift/pipelines-tutorial) <span class='md-tag md-tag--info'>⭐ 322</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
@@ -57,32 +57,32 @@
         Curator Insight: A high-level exploratory blog explaining the integration benefits of Jenkins Pipelines inside OpenShift namespaces.
         Live Grounding: Focuses on explaining the fundamental differences between local Jenkins setups and cloud-managed agent clusters run on Kubernetes worker nodes.
 
-# Red Hat OpenShift
+## Red Hat OpenShift
 
-## CI-CD Pipelines
+### CI-CD Pipelines
 
-### Architecture
+#### Architecture
 
   - **(2018)** [slideshare.net: OpenShift Container Platform CI/CD Build & Deploy 🌟](https://www.slideshare.net/mozillabros/openshift-container-platform-cicd-build-deploy) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Structured presentation breaking down multi-stage Continuous Integration and Continuous Deployment processes across OpenShift platforms. Covers Source-to-Image architectures, Jenkins plugins, and blue-green pipeline design.
 
-### GitHub Actions
+#### GitHub Actions
 
   - **(2020)** [developers.redhat.com: OpenShift Actions: Deploy to Red Hat OpenShift directly from your GitHub repository](https://developers.redhat.com/blog/2020/02/13/openshift-actions-deploy-to-red-hat-openshift-directly-from-your-github-repository) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Detailed instructional guide describing the integration of GitHub Actions runners with OpenShift API end-points. Facilitates smooth continuous deployment routines by using native OpenShift actions directly within external workflows.
 
-### Java Integrations
+#### Java Integrations
 
   - **(2018)** [CI/CD with fabric8](http://fabric8.io/guide/cdelivery.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Archive documentation specifying continuous delivery workflows, pipelines, and integrations built around early Fabric8 architectures. Useful for maintaining or migrating older Java deployments in enterprise settings.
 
-### Jenkins Ecosystem
+#### Jenkins Ecosystem
 
   - **(2018)** [**github - using jenkins pipelines with OKD**](https://github.com/openshift/origin/tree/main/examples/jenkins/pipeline) <span class='md-tag md-tag--info'>⭐ 8651</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
@@ -124,16 +124,16 @@
     ??? info "Technical Deep-Dive"
         Historical slide collection detailing standard Continuous Integration patterns on OpenShift using custom-built Jenkins controllers. Evaluates legacy deployment triggers and localized container build flows.
 
-### Multi-Cluster Deployments
+#### Multi-Cluster Deployments
 
   - **(2018)** [blog.openshift.com: Deploying OpenShift Applications to Multiple Datacenters (with Jenkins)](https://www.redhat.com/en/blog/deploying-openshift-applications-multiple-datacenters) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Provides high-level operational advice for utilizing Jenkins pipelines to orchestrate, sync, and validate application deployments across disparate, multi-region OpenShift datacenters.
 
-## Developer Experience
+### Developer Experience
 
-### CLI Utilities
+#### CLI Utilities
 
   - **(2025)** [**ODO: OpenShift Command line for Developers 🌟**](https://github.com/redhat-developer/odo) <span class='md-tag md-tag--info'>⭐ 842</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
@@ -155,23 +155,23 @@
     ??? info "Technical Deep-Dive"
         Discusses major enhancements in 'odo 2.0', highlighting strict Devfile standards support and the capability to deploy to arbitrary Kubernetes engines instead of being isolated to OpenShift clusters.
 
-### Devfiles
+#### Devfiles
 
   - **(2021)** [developers.redhat.com: Developing your own custom devfiles for odo 2.0](https://developers.redhat.com/blog/2021/02/12/developing-your-own-custom-devfiles-for-odo-2-0) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Thorough explanation of structuring, writing, and applying custom Devfiles within the odo ecosystem to mandate unified container development environments across large engineering divisions.
 
-### Source-to-Image
+#### Source-to-Image
 
   - **(2018)** [developers.redhat.com - S2i](https://developers.redhat.com/blog/2018/09/26/source-versus-binary-s2i-workflows-with-red-hat-openshift-application-runtimes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Delivers technical insight on Source-to-Image (S2I) execution modes, comparing continuous deployment direct from code versus deploying pre-compiled binaries via specialized pipelines inside Red Hat runtimes.
 
-## Security
+### Security
 
-### Continuous Delivery Security
+#### Continuous Delivery Security
 
   - **(2021)** [openshift.com: Using OpenShift Pipelines to Automate Red Hat Advanced Cluster Security for Kubernetes](https://www.redhat.com/en/blog/using-openshift-pipelines-to-automate-red-hat-advanced-cluster-security-for-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 

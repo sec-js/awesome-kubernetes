@@ -3,11 +3,11 @@
 !!! info "Architectural Context"
     Detailed reference for React in the context of Developer Ecosystem.
 
-# Software Engineering
+## Software Engineering
 
-## Frontend Development
+### Frontend Development
 
-### React Framework
+#### React Framework
 
   - **(2023)** [**useHooks - React Hooks Library**](https://usehooks.com) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 

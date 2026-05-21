@@ -3,13 +3,13 @@
 !!! info "Architectural Context"
     Detailed reference for Java_App_Servers in the context of Developer Ecosystem.
 
-# Platform Engineering
+## Platform Engineering
 
-## CI-CD Pipelines
+### CI-CD Pipelines
 
-### Language Runtimes
+#### Language Runtimes
 
-#### Azure DevOps
+##### Azure DevOps
 
   - **(2025)** [Install Java 23 in an Azure DevOps Pipeline](https://www.returngis.net/2025/02/como-instalar-java-23-en-una-pipeline-de-azure-devops) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 

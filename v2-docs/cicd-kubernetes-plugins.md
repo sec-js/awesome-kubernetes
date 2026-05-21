@@ -3,11 +3,11 @@
 !!! info "Architectural Context"
     Detailed reference for Cicd Kubernetes Plugins in the context of Engineering Pipeline.
 
-# Continuous Delivery
+## Continuous Delivery
 
-## GitOps
+### GitOps
 
-### GitLab
+#### GitLab
 
   - [**GitLab Kubernetes Agent**](https://docs.gitlab.com/user/clusters/agent) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 

@@ -3,22 +3,22 @@
 !!! info "Architectural Context"
     Detailed reference for Liquibase in the context of Hardened Infrastructure.
 
-# Cloud Infrastructure
+## Cloud Infrastructure
 
-## Kubernetes
+### Kubernetes
 
-### Database Design
+#### Database Design
 
   - **(2021)** [**piotrminkowski.com: Blue-green deployment with a database on Kubernetes 🌟**](https://piotrminkowski.com/2021/02/18/blue-green-deployment-with-a-database-on-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         An in-depth technical guide on achieving zero-downtime blue-green deployments on Kubernetes when database schema migrations are involved. It covers database backward compatibility, Liquibase integration, and rollout patterns to mitigate deployment risks.
 
-# Software Architecture
+## Software Architecture
 
-## Database Design
+### Database Design (1)
 
-### Database-as-a-Service
+#### Database-as-a-Service
 
   - **(2023)** [**docs.planetscale.com: The PlanetScale workflow 🌟**](https://planetscale.com/docs/vitess/best-practices) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
@@ -28,14 +28,14 @@
         *   Explains how schema migrations can be isolated, tested, and applied safely.
         *   Guarantees zero production downtime or database table locks.
 
-### GitOps
+#### GitOps
 
   - **(2026)** [==bytebase/bytebase==](https://github.com/bytebase/bytebase) <span class='md-tag md-tag--info'>⭐ 14034</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
     ??? info "Technical Deep-Dive"
         An open-source, web-based database schema change and collaboration tool designed for developers and DBAs. Implementing a "Database GitOps" workflow, it provides multi-tenant database change management, visual SQL review, and centralized security compliance pipelines.
 
-### Migration Patterns
+#### Migration Patterns
 
   - **(2026)** [==liquibase.org==](http://www.liquibase.org) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 

@@ -3,51 +3,51 @@
 !!! info "Architectural Context"
     Detailed reference for Kubernetes Alternatives in the context of The Container Stack.
 
-# Artificial Intelligence
+## Artificial Intelligence
 
-## Serverless AI
+### Serverless AI
 
-### Plugins and Extensions
+#### Plugins and Extensions
 
   - **(2024)** [llama.cpp plugin](https://github.com/samyfodil/taubyte-llama-satellite) <span class='md-tag md-tag--info'>⭐ 17</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span>
 
     ??? info "Technical Deep-Dive"
         An experimental extension linking llama.cpp to the Taubyte engine, enabling localized, serverless large language model (LLM) inference across edge nodes.
 
-# Cloud Platforms
+## Cloud Platforms
 
-## AWS Infrastructure
+### AWS Infrastructure
 
-### Container Management
+#### Container Management
 
   - **(2023)** [techtarget.com: Amazon ECS vs. Kubernetes: Which should you use on AWS?](https://www.techtarget.com/searchcloudcomputing/answer/Amazon-ECS-vs-Kubernetes-Which-should-you-use-on-AWS) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         A comprehensive comparison outlining the structural and operational trade-offs between AWS's native Elastic Container Service (ECS) and fully managed Kubernetes (EKS). While ECS significantly lowers execution overhead and integration hurdles on AWS, EKS remains highly favored for multi-cloud parity and vendor-agnostic architecture designs.
 
-### Hybrid Orchestration
+#### Hybrid Orchestration
 
   - **(2021)** [thenewstack.io: No Kubernetes Needed: Amazon ECS Anywhere](https://thenewstack.io/no-kubernetes-needed-amazon-ecs-anywhere) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Analyzes Amazon ECS Anywhere as an alternative orchestration pathway bypassing Kubernetes complexity for on-premises hardware. Emphasizes the technical benefits of running native ECS task definitions in a hybrid cloud configuration with identical control plane semantics.
 
-# Configuration Management
+## Configuration Management
 
-## Infrastructure as Code
+### Infrastructure as Code
 
-### Ansible Automation
+#### Ansible Automation
 
   - **(2022)** [galaxy.ansible.com: Docker Ansible Role](https://galaxy.ansible.com/atosatto/docker-swarm) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         An open-source Ansible role facilitating the automated provisioning, node join orchestration, and operational state initialization of multi-host Docker Swarm clusters.
 
-# Container Infrastructure
+## Container Infrastructure
 
-## Alternative Orchestrators
+### Alternative Orchestrators
 
-### Comparative Studies
+#### Comparative Studies
 
   - **(2025)** [nomadproject.io: An alternative to Kubernetes](https://developer.hashicorp.com/nomad/docs/k8s-nomad) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -99,14 +99,14 @@
     ??? info "Technical Deep-Dive"
         Provides a detailed look at container orchestration. Compares Docker Compose, Docker Swarm, and Kubernetes to help cloud teams select the right tool for their scalability needs.
 
-### Docker Swarm
+#### Docker Swarm
 
   - **(2026)** [**Docker Swarm**](https://docs.docker.com/engine/swarm) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         The built-in clustering engine for Docker. Offers out-of-the-box multi-host networking, service discovery, and declarative configuration, serving as the primary lightweight orchestrator for small-to-medium topologies.
 
-### Evaluations
+#### Evaluations
 
   - **(2022)** [chaordic.io: Is Nomad a better Kubernetes?](https://chaordic.io/blog/is-nomad-a-better-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -118,7 +118,7 @@
     ??? info "Technical Deep-Dive"
         A technical evaluation emphasizing why platform engineers should analyze Nomad's single-binary execution architecture before defaulting to a multi-component Kubernetes layout.
 
-### HashiCorp Nomad
+#### HashiCorp Nomad
 
   - **(2026)** [==Nomad==](https://developer.hashicorp.com/nomad) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span>
 
@@ -130,7 +130,7 @@
     ??? info "Technical Deep-Dive"
         A detailed analysis comparing Nomad's architectural simplicity against Kubernetes' complex control planes. Explores the decoupled single-binary paradigm and its integration with Consul for secure service discovery.
 
-### Legacy Orchestrator Frameworks
+#### Legacy Orchestrator Frameworks
 
   - **(2021)** [Simplenetes](https://github.com/simplenetes-io/simplenetes) <span class='md-tag md-tag--info'>⭐ 765</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span>
 
@@ -142,7 +142,7 @@
     ??? info "Technical Deep-Dive"
         A lightweight self-hosted PaaS wrapper utilizing Docker Swarm. Note: Currently inactive (>4 years since last commit), making it a legacy reference rather than a production-grade modern solution.
 
-### Market Analysis
+#### Market Analysis
 
   - **(2021)** [thenewstack.io: Cycle.io: Meet the Team on a Mission to Replace Kubernetes](https://thenewstack.io/cycle-io-meet-the-team-on-a-mission-to-replace-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -154,7 +154,7 @@
     ??? info "Technical Deep-Dive"
         An architecture-focused critique of Cycle.io's developer-first approach to container scheduling. Details how its managed API layer automatically handles provisioning, security, and updates across heterogeneous server pools.
 
-### Production Case Studies
+#### Production Case Studies
 
   - **(2020)** [blog.cloudflare.com: How we use HashiCorp Nomad (Cloudflare using Nomad and Consul)](https://blog.cloudflare.com/how-we-use-hashicorp-nomad) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -166,59 +166,59 @@
     ??? info "Technical Deep-Dive"
         Conductor's engineering review on migrating core container workloads from Kubernetes to Nomad, outlining significant performance improvements, simplified operations, and reliable scheduling speeds.
 
-### SaaS Platforms
+#### SaaS Platforms
 
   - **(2026)** [Cycle.io](https://cycle.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         A low-overhead, managed SaaS container orchestration engine built directly on bare-metal virtual networks. Simplifies infrastructure delivery by removing massive orchestration systems like Kubernetes, enabling rapid container deployment with native security controls.
 
-### Tutorials
+#### Tutorials
 
   - **(2022)** [linkedin.com: Docker Series : Docker Swarm - Lionel GURRET](https://www.linkedin.com/pulse/docker-series-swarm-lionel-gurret) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         A technical tutorial focusing on Docker Swarm's features, including native swarm routing meshes, ingress control, overlay networking, and secret storage mechanics.
 
-## Architecture Decisions
+### Architecture Decisions
 
-### Sizing Guidance
+#### Sizing Guidance
 
   - **(2020)** [“Let’s use Kubernetes!” Now you have 8 problems](https://pythonspeed.com/articles/dont-need-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         A widely cited engineering critique highlighting the cognitive load and complexity traps of adopting Kubernetes for smaller teams and projects. Recommends pragmatic, simpler orchestration alternatives for low-to-medium traffic profiles.
 
-## Legacy Systems
+### Legacy Systems
 
-### Docker Enterprise
+#### Docker Enterprise
 
   - **(2021)** [Universal Control Plane overview](https://docs.docker.com) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span>
 
     ??? info "Technical Deep-Dive"
         Archived documentation for Mirantis Universal Control Plane (UCP). Offers historic guidance on running large-scale legacy Docker Swarm Enterprise and Kubernetes platforms under a unified administrative dashboard.
 
-## Self-Hosted Platforms
+### Self-Hosted Platforms
 
-### PaaS Solutions
+#### PaaS Solutions
 
   - **(2026)** [==coolify.io==](https://coolify.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
     ??? info "Technical Deep-Dive"
         An open-source, self-hosted platform alternative to Heroku. Lets users host databases, APIs, and frontend systems on their own servers (Docker, Swarm) with a simple visual layout, avoiding complex Kubernetes management.
 
-# Container Orchestration
+## Container Orchestration
 
-## Kubernetes Alternatives
+### Kubernetes Alternatives
 
-### Case Studies
+#### Case Studies
 
   - **(2022)** [ably.com: No, we don’t use Kubernetes](https://ably.com/blog/no-we-dont-use-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         An elite architectural case study explaining why Ably avoids Kubernetes in favor of custom-managed systems to fulfill real-time, ultra-low latency globally distributed network needs.
 
-### Evaluations
+#### Evaluations (1)
 
   - **(2023)** [simform.com: Top Alternatives to Kubernetes to Overcome Business Challenges](https://www.simform.com/blog/alternatives-to-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -235,11 +235,11 @@
     ??? info "Technical Deep-Dive"
         A quick-deployment tutorial showing how to containerize dynamic web applications with Docker and deploy them smoothly to Heroku's managed infrastructure.
 
-# Serverless Architectures
+## Serverless Architectures
 
-## WebAssembly and Edge
+### WebAssembly and Edge
 
-### Edge Computing Engines
+#### Edge Computing Engines
 
   - **(2026)** [==github.com/taubyte/tau: Tau==](https://github.com/taubyte/tau) <span class='md-tag md-tag--info'>⭐ 5025</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
@@ -251,7 +251,7 @@
     ??? info "Technical Deep-Dive"
         A decentralized serverless platform built on WebAssembly and IPFS. Acts as an alternative to VMs and containers, focusing on edge intelligence, fast execution, and zero-configuration networking.
 
-### Testing Infrastructure
+#### Testing Infrastructure
 
   - **(2025)** [dreamland](https://github.com/taubyte/dream) <span class='md-tag md-tag--info'>⭐ 88</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 

@@ -3,11 +3,11 @@
 !!! info "Architectural Context"
     Detailed reference for Dotnet in the context of Developer Ecosystem.
 
-# Developer Tools
+## Developer Tools
 
-## AI Coding Assistants
+### AI Coding Assistants
 
-### .NET Integration
+#### .NET Integration
 
   - **(2025)** [Extend your coding agent with .NET Skills](https://devblogs.microsoft.com/dotnet/extend-your-coding-agent-with-dotnet-skills)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 

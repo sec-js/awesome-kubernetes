@@ -3,11 +3,11 @@
 !!! info "Architectural Context"
     Detailed reference for Cloud Arch Diagrams in the context of Architectural Foundations.
 
-# Platform Engineering
+## Platform Engineering
 
-## AI Integration
+### AI Integration
 
-### Agentic Engineering
+#### Agentic Engineering
 
   - **(2025)** [Draw.io MCP for Diagram Generation: Why It’s Worth Using](https://thomasthornton.cloud/draw-io-mcp-for-diagram-generation-why-its-worth-using) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 

@@ -3,11 +3,11 @@
 !!! info "Architectural Context"
     Detailed reference for Chaos Engineering in the context of Platform & Site Reliability.
 
-# Public Cloud Platforms
+## Public Cloud Platforms
 
-## AWS
+### AWS
 
-### Chaos Engineering
+#### Chaos Engineering
 
   - **(2021)** [Chaos engineering on Amazon EKS using AWS Fault Injection Simulator](https://aws.amazon.com/blogs/devops/chaos-engineering-on-amazon-eks-using-aws-fault-injection-simulator) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 

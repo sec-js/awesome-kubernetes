@@ -3,13 +3,13 @@
 !!! info "Architectural Context"
     Detailed reference for Aws Miscellaneous in the context of Cloud Providers (Hyperscalers).
 
-# Cloud Native Infrastructure
+## Cloud Native Infrastructure
 
-## Service Mesh
+### Service Mesh
 
-### AWS Ecosystem
+#### AWS Ecosystem
 
-#### App Mesh Managed Service
+##### App Mesh Managed Service
 
   - **(2023)** [**aws.amazon.com/app-mesh**](https://aws.amazon.com/app-mesh) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 

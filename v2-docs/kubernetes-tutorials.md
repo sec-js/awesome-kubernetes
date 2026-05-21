@@ -3,11 +3,11 @@
 !!! info "Architectural Context"
     Detailed reference for Kubernetes Tutorials in the context of Architectural Foundations.
 
-# Platform Engineering
+## Platform Engineering
 
-## CI-CD Pipelines
+### CI-CD Pipelines
 
-### Jenkins
+#### Jenkins
 
   - **(2023)** [**Back of the Napkin Guide to Updating Jenkins**](https://www.jenkins.io/blog/2023/10/31/marc-s-napkin-upgrade-guide) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 

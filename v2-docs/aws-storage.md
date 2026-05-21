@@ -3,11 +3,11 @@
 !!! info "Architectural Context"
     Detailed reference for Aws Storage in the context of Cloud Providers (Hyperscalers).
 
-# Cloud Infrastructure
+## Cloud Infrastructure
 
-## AWS Storage
+### AWS Storage
 
-### Amazon EBS
+#### Amazon EBS
 
   - **(2022)** [devopscube.com: How to Automate EBS Snapshot Creation, Retention and Deletion](https://devopscube.com/automate-ebs-snapshot-creation-deletion) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -29,7 +29,7 @@
     ??? info "Technical Deep-Dive"
         An advanced architectural post detailing how to create sparse files inside loop devices on EBS volumes to minimize storage footprints. Analyzes the financial and performance benefits of sparse block allocations during automated snapshots.
 
-### Amazon EFS
+#### Amazon EFS
 
   - **(2021)** [Amazon Elastic File System triples read throughput](https://aws.amazon.com/about-aws/whats-new/2021/01/amazon-elastic-file-system-triples-read-throughput) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -46,7 +46,7 @@
     ??? info "Technical Deep-Dive"
         The historic production-ready announcement of AWS Elastic File System (EFS). Establishes the core characteristics of shared NFS storage scaling dynamically for concurrent EC2/container instances.
 
-### Amazon S3
+#### Amazon S3
 
 
 ??? abstract "Architect's Technical Comparison Table"
@@ -89,41 +89,41 @@
     ??? info "Technical Deep-Dive"
         Official AWS blog showing patterns for cross-bucket data synchronization. Compares the use of AWS CLI Sync, S3 Batch Operations, and S3 Same-Region / Cross-Region Replication (SRR/CRR) for diverse use cases.
 
-### Analytics
+#### Analytics
 
   - **(2021)** [Monitor Amazon S3 activity using S3 server access logs and Pandas in Python](https://aws.amazon.com/blogs/storage/monitor-amazon-s3-activity-using-s3-server-access-logs-and-pandas-in-python) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Shows how to parse raw S3 access logs using Python and Pandas. Walks through identifying bad actors, evaluating storage patterns, and monitoring data transfer metrics for cost control.
 
-### Hybrid Cloud
+#### Hybrid Cloud
 
   - **(2021)** [Connect Amazon S3 File Gateway using AWS PrivateLink for Amazon S3](https://aws.amazon.com/es/blogs/architecture/connect-amazon-s3-file-gateway-using-aws-privatelink-for-amazon-s3) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Architectural post detailing how to establish a secure, private connection from on-premises Storage Gateways to S3 via AWS PrivateLink. Prevents traffic traversal over the public internet, satisfying rigorous enterprise compliance models.
 
-## High Availability
+### High Availability
 
-### Multi-Region
+#### Multi-Region
 
   - **(2022)** [**Building an active-active, latency-based application across multiple Regions 🌟**](https://aws.amazon.com/blogs/storage/building-an-active-active-latency-based-application-across-multiple-regions) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         An elite architectural blueprint for active-active multi-region AWS applications. Uses S3 Cross-Region Replication (CRR), Route 53 latency-based routing, and DynamoDB Global Tables to design highly resilient services.
 
-## Object Storage
+### Object Storage
 
-### MinIO
+#### MinIO
 
   - **(2022)** [**blog.min.io: Certificate-based Authentication for S3**](https://www.min.io/blog/certificate-based-authentication-with-s3) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         Explains how to implement robust Mutual TLS (mTLS) and client certificate-based authentication with MinIO. Outlines secure key exchanges and architectural mapping of certificates to IAM policies.
 
-## Storage
+### Storage
 
-### Distributed Filesystems
+#### Distributed Filesystems
 
   - **(2026)** [==Ceph: A Distributed Object, Block, and File Storage Platform==](https://github.com/ceph/ceph) <span class='md-tag md-tag--info'>⭐ 16613</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 

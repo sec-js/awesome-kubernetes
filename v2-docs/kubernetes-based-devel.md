@@ -3,29 +3,29 @@
 !!! info "Architectural Context"
     Detailed reference for Kubernetes Based Devel in the context of The Container Stack.
 
-# Cloud Infrastructure
+## Cloud Infrastructure
 
-## Kubernetes Distributions
+### Kubernetes Distributions
 
-### Legacy Installers
+#### Legacy Installers
 
   - **(2018)** [Metal Kubes](https://github.com/shank-git/metal-kubes) <span class='md-tag md-tag--info'>⭐ 34</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span>
 
     ??? info "Technical Deep-Dive"
         A legacy helper script system for configuring bare-metal Kubernetes environments. The project is inactive and has been succeeded by declarative bare-metal tools such as Cluster API, Talos, or Typhoon.
 
-# Cloud-Native Development
+## Cloud-Native Development
 
-## Continuous Delivery
+### Continuous Delivery
 
-### GitHub Actions Integration
+#### GitHub Actions Integration
 
   - **(2021)** [github.com/marketplace: Automating your Kubernetes dev environments with the open source oktetohq Cloud got easier with GitHub Actions](https://github.com/marketplace?query=publisher%3Aokteto&type=actions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Technical documentation showing how to leverage Okteto's custom GitHub actions to spin up on-demand preview namespaces as part of CI validation pipelines.
 
-### Skaffold
+#### Skaffold
 
   - **(2021)** [infracloud.io: Build and deploy Kubernetes apps with Skaffold](https://www.infracloud.io/blogs/skaffold-usecases)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -37,57 +37,57 @@
     ??? info "Technical Deep-Dive"
         Explains how to customize Skaffold profiles for high-performance dev environments. Details hot-reload integrations and remote debugger port attachments.
 
-## Debugging Practices
+### Debugging Practices
 
-### Remocal Patterns
+#### Remocal Patterns
 
   - **(2021)** [thenewstack.io: Cloud Native Debugging Challenges: From Local to ‘Remocal’](https://thenewstack.io/cloud-native-debugging-challenges-from-local-to-remocal) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Analyzes the shift from traditional localized debugging strategies to hybrid remote-local ('remocal') setups. Outlines architectural advantages, network constraints, and performance profiles.
 
-## Hybrid Development Environments
+### Hybrid Development Environments
 
-### Bridge to Kubernetes
+#### Bridge to Kubernetes
 
   - **(2023)** [Bridge to Kubernetes 🌟🌟](https://learn.microsoft.com/en-us/previous-versions/visualstudio/bridge)  <span class='md-tag md-tag--info'>[LEGACY]</span>
 
     ??? info "Technical Deep-Dive"
         A legacy Microsoft Visual Studio development extension that connected localized workstations directly to AKS clusters. Now deprecated and replaced by newer open alternative patterns.
 
-### Telepresence
+#### Telepresence
 
   - **(2026)** [==telepresence.io 🌟==](https://telepresence.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
     ??? info "Technical Deep-Dive"
         A CNCF sandbox tool enabling bidirectional networking to route traffic between remote clusters and local development environments. Allows developers to test locally running services as if integrated directly inside the cloud mesh.
 
-### Telepresence Integration
+#### Telepresence Integration
 
   - **(2021)** [dev.to/dsudia: How to Integrate Docker & JetBrains into Telepresence](https://dev.to/dsudia/how-to-integrate-docker-jetbrains-into-telepresence-31op)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Integration guide detailing how to hook Telepresence routing engines up with local JetBrains IDE debuggers and Docker engines for seamless local microservice introspection.
 
-## Local Development Environments
+### Local Development Environments
 
-### Lightweight Clusters
+#### Lightweight Clusters
 
   - **(2019)** [itnext.io: Kubernetes in a box](https://itnext.io/kubernetes-in-a-box-7a146ba9f681)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Technical walkthrough focused on running local lightweight clusters. Guides microservice developers from standard Docker Compose setups into miniature single-node Kubernetes clusters.
 
-### Migration Guide
+#### Migration Guide
 
   - **(2021)** [testingclouds.wordpress.com: Migrating from Docker Compose to Skaffold 🌟](https://testingclouds.wordpress.com/2021/03/09/migrating-from-docker-compose-to-skaffold)  <span class='md-tag md-tag--info'>[LEGACY]</span>
 
     ??? info "Technical Deep-Dive"
         Step-by-step migration guide transitioning application setups from legacy Docker Compose manifests to Skaffold templates for native cluster interaction.
 
-## Local Development Tools
+### Local Development Tools
 
-### DevSpace
+#### DevSpace
 
   - **(2026)** [**devspace.sh**](https://www.devspace.sh) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
@@ -99,7 +99,7 @@
     ??? info "Technical Deep-Dive"
         Explores the design philosophies behind DevSpace. Analyzes how its CLI simplifies multi-component local workflows and standardizes staging configurations.
 
-### Okteto
+#### Okteto
 
   - **(2021)** [okteto.com: Kubernetes for Developers Blog Series by Okteto](https://www.okteto.com/blog/kubernetes-basics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -111,43 +111,43 @@
     ??? info "Technical Deep-Dive"
         Explains Okteto Cloud's infrastructure abstraction. Details how teams can deploy shared development clusters without the operational complexity of managing local hypervisors.
 
-# Development Tools
+## Development Tools
 
-## API Mocking and Testing
+### API Mocking and Testing
 
-### Podman Integration
+#### Podman Integration
 
   - **(2023)** [microcks.io: Podman Compose support in Microcks](https://microcks.io/blog/podman-compose-support) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         A practical guide showing how to configure Microcks mocking environments using Podman Compose instead of Docker. Offers a reliable setup path for developers running security-hardened container environments.
 
-## Inner Loop Development
+### Inner Loop Development
 
-### Checklists
+#### Checklists
 
   - **(2021)** [loft.sh: Checklist for Kubernetes-Based Development 🌟](https://www.vcluster.com/blog/checklist-for-kubernetes-based-development) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         A comprehensive checklist detailing parameters for building Kubernetes developer environments. Covers sync mechanisms, network performance, local-remote resource balancing, and namespace isolation.
 
-### Live Reloading
+#### Live Reloading
 
   - **(2026)** [==tilt.dev==](https://tilt.dev) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
     ??? info "Technical Deep-Dive"
         Tilt speeds up microservice development by tracking file changes and automatically rebuilding and redeploying updated containers to your local cluster. Its web dashboard offers clear logging and diagnostics, keeping multi-service development fast and error-free.
 
-### Tool Comparison
+#### Tool Comparison
 
   - **(2021)** [loft.sh: Skaffold vs Tilt vs DevSpace](https://www.vcluster.com/blog/skaffold-vs-tilt-vs-devspace) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         An in-depth architectural comparison of Skaffold, Tilt, and DevSpace. Compares image-building techniques, file-syncing performance, deployment methods, and configuration files to help teams optimize their microservices development pipeline.
 
-## Local Kubernetes Environments
+### Local Kubernetes Environments
 
-### Comparison
+#### Comparison
 
   - **(2022)** [loft.sh: Kubernetes Development Environments – A Comparison](https://website.vcluster.com/blog/kubernetes-development-environments-a-comparison) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
@@ -184,217 +184,217 @@
     ??? info "Technical Deep-Dive"
         Examines alternative sandbox options for Kubernetes development. Details virtual machine hypervisors and local clustering tools to provide engineers with flexible ways to test complex workloads without cloud costs.
 
-### Docker Desktop Integration
+#### Docker Desktop Integration
 
   - **(2026)** [store.docker.com: Docker Community Edition EDGE with kubernetes. Installing Kubernetes using the Docker Client](https://docs.docker.com/desktop/setup/install/windows-install) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         Official instructions for enabling and managing the built-in single-node Kubernetes cluster inside Docker Desktop for Windows. Ideal for local development, it removes the need to manually configure external VM environments.
 
-### Docker-in-Docker
+#### Docker-in-Docker
 
   - **(2026)** [==**kind**==](https://github.com/kubernetes-sigs/kind) <span class='md-tag md-tag--info'>⭐ 15247</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
     ??? info "Technical Deep-Dive"
         kind (Kubernetes in Docker) is an open-source tool for running local Kubernetes clusters using Docker containers as nodes. Highly favored for CI/CD environments and rapid inner-loop developer workflows because of its quick startup times and minimal host footprint.
 
-### Legacy Installers
+#### Legacy Installers (1)
 
   - **(2019)** [dj-wasabi/vagrant-kubernetes](https://github.com/dj-wasabi/vagrant-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span>
 
     ??? info "Technical Deep-Dive"
         An older Vagrant-based helper for building and running multi-node Kubernetes clusters. Kept for historical reference on VM-based local orchestration workflows before containerized tools like kind became popular.
 
-### Legacy Out-of-Box
+#### Legacy Out-of-Box
 
   - **(2020)** [kubernetes-development-environment-in-a-box](https://github.com/ManagedKube/kubernetes-development-environment-in-a-box) <span class='md-tag md-tag--info'>⭐ 17</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span>
 
     ??? info "Technical Deep-Dive"
         An early development framework that packaged Vagrant and VirtualBox configurations for running local multi-node clusters. The repository is unmaintained, as developers have largely shifted to containerized runtimes like kind or k3d.
 
-### Single-Node Clusters
+#### Single-Node Clusters
 
   - **(2026)** [==Minikube==](https://github.com/kubernetes/minikube) <span class='md-tag md-tag--info'>⭐ 31810</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
     ??? info "Technical Deep-Dive"
         Minikube remains the standard tool for launching a single-node Kubernetes cluster locally. Supporting VM drivers, bare-metal deployment, and containerized Docker-in-Docker setups, it is a highly trusted local testing platform for developers worldwide.
 
-### Tutorials
+#### Tutorials
 
   - **(2021)** [murchie85.github.io: Installling minikube](https://murchie85.github.io/Kubernetes.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         A direct tutorial detailing the steps to install and set up Minikube locally. Provides tips for managing system resources, verifying hypervisor compatibility, and testing basic container deployments.
 
-# Observability
+## Observability
 
-## Dashboards and UIs
+### Dashboards and UIs
 
-### Validation and Security
+#### Validation and Security
 
   - **(2024)** [kubevious 🌟🌟](https://github.com/kubevious/kubevious) <span class='md-tag md-tag--info'>⭐ 1696</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Kubevious is an open-source Kubernetes dashboard that provides full cluster topology visualization and configuration audits. It detects anti-patterns and validates live manifests, giving developers a clear view of cluster health.
 
-# Operations and Management
+## Operations and Management
 
-## Application Catalog
+### Application Catalog
 
-### Kubeapps
+#### Kubeapps
 
   - **(2026)** [**kubeapps.dev 🌟**](https://kubeapps.dev) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         A web-based control panel by VMware Tanzu that simplifies packaging, deployment, and management of Helm charts and operators within multitenant clusters.
 
-## Cluster Visualizers
+### Cluster Visualizers
 
-### Aptakube
+#### Aptakube
 
   - **(2026)** [**Aptakube**](https://aptakube.com) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         Ultra-fast desktop visualizer crafted using native UI toolkits. Optimizes multi-cluster management through light resource footprints and high-performance search APIs.
 
-### Cyclops
+#### Cyclops
 
   - **(2026)** [**github.com/cyclops-ui/cyclops**](https://github.com/cyclops-ui/cyclops) <span class='md-tag md-tag--info'>⭐ 3320</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         User-friendly web UI focused on making complex resource configuration simple. Uses visual, dynamic form validation to ease deployments for non-operations teams.
 
-### Dashboards
+#### Dashboards
 
   - **(2022)** [rigorousthemes.com: 10 Best Kubernetes Dashboard Alternatives 2022](https://rigorousthemes.com/blog/best-kubernetes-dashboard-alternatives)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Comprehensive market overview highlighting ten alternatives to the standard Kubernetes dashboard, ranked by footprint size, styling controls, and ease of installation.
 
-### Deployment Patterns
+#### Deployment Patterns
 
   - **(2021)** [hackerxone.com: How To Install Kubernetes Dashboard with NodePort in Linux](https://www.hackerxone.com/2021/07/10/how-install-kubernetes-dashboard-nodeport-linux)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Walkthrough covering deployment strategies for exposing administrative dashboards using NodePort, with a focus on quick debugging setups on Linux systems.
 
-### Headlamp
+#### Headlamp
 
   - **(2023)** [loft.sh: Kubernetes Dashboards: Headlamp](https://www.vcluster.com/blog/kubernetes-dashboards-headlamp)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Detailed technical analysis of Headlamp, emphasizing its extensible plugin architecture and streamlined RBAC integrations that make it a compelling modern dashboard choice.
 
-### IDE Comparison
+#### IDE Comparison
 
   - **(2022)** [k8studio.io/blogs: K8studio vs. Lens vs. K9s 🌟](https://k8studio.io/blogs/k8studio-vs-lens-kubernetes-ide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Compares performance metrics, visual interfaces, and operational efficiency differences between K8Studio, Lens IDE, and command-line visualizer K9s.
 
-### JetPilot
+#### JetPilot
 
   - **(2022)** [github.com/unxsist/jet-pilot](https://github.com/unxsist/jet-pilot) <span class='md-tag md-tag--info'>⭐ 626</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         An open-source desktop client built to simplify operational inspection of clusters, prioritizing rapid routing diagnostics and real-time pod events tracking.
 
-### K3s
+#### K3s
 
   - **(2021)** [blog.tekspace.io: Deploying Kubernetes Dashboard in K3S Cluster](https://blog.tekspace.io/deploying-kubernetes-dashboard-in-k3s-cluster)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Practical setup guide explaining how to deploy and configure the native Kubernetes Dashboard inside lightweight K3s cluster architectures safely.
 
-### K8Studio
+#### K8Studio
 
   - **(2024)** [k8studio.github.io/k8studio](https://github.com/K8Studio/K8studio) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         A fully featured graphical interface focused on presenting an interactive node topology graph to help operators visualize resource allocation and connectivity maps.
 
-### K8z
+#### K8z
 
   - **(2024)** [k8z.dev](https://k8z.dev) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Minimalist cluster dashboard for viewing system statuses. Real-time resource monitors present rapid diagnostic details to support quick manual testing cycles.
 
-### Lens
+#### Lens
 
   - **(2026)** [==Lens Kubernetes IDE 🌟==](https://lenshq.io) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
     ??? info "Technical Deep-Dive"
         The premier graphical IDE for Kubernetes administration. Outfits teams with real-time logging, native terminal overrides, and intuitive resource hierarchy mappings across multiple clusters.
 
-### Lens Extensions
+#### Lens Extensions
 
   - **(2022)** [Lens Resource Map extension](https://github.com/nevalla/lens-resource-map-extension) <span class='md-tag md-tag--info'>⭐ 407</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         A popular visual plugin for Lens that creates dynamic, real-time dependency mappings of all active Kubernetes workloads and networks.
 
-### Monokle
+#### Monokle
 
   - **(2026)** [**kubeshop.github.io/monokle**](https://docs.monokle.io) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         An analytical IDE focused on editing, validating, and debugging Kubernetes manifests. Facilitates policy-aware template checking and structured schema configuration.
 
-### Octant
+#### Octant
 
   - **(2021)** [linode.com: A Overview of Using Octant with Kubernetes](https://www.linode.com/docs/guides/using-octant-with-kubernetes-a-tutorial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Detailed historical tutorial demonstrating how to install and leverage Octant to inspect, edit, and troubleshoot nested resources in running clusters.
 
-### Seabird
+#### Seabird
 
   - **(2024)** [getseabird.github.io 🌟](https://getseabird.github.io) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         A lightweight, compiled desktop application that delivers native platform performance when navigating remote Kubernetes clusters, avoiding heavy electron wrappers.
 
-### UI Landscape
+#### UI Landscape
 
   - **(2020)** [PDF](https://static.sched.com/hosted_files/kccncna20/02/A%20Walk%20Through%20the%20Kubernetes%20UI%20Landscape%20%28KubeCon%20Talk%202020%29.pdf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         A deep KubeCon presentation evaluating Kubernetes dashboard architectural styles, usability trade-offs, and administrative security models.
 
-### UI Philosophy
+#### UI Philosophy
 
   - **(2021)** [thenewstack.io: Who Needs a Dashboard? Why the Kubernetes Command Line Is Not Enough](https://thenewstack.io/who-needs-a-dashboard-why-the-kubernetes-command-line-is-not-enough)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Investigates the limitations of purely CLI-based diagnostics, highlighting situations where multi-dimensional cluster interfaces speed up root cause analysis.
 
-### Yaki
+#### Yaki
 
   - **(2021)** [nirops/yakiapp](https://github.com/vivekagate/yakiapp) <span class='md-tag md-tag--info'>⭐ 102</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         An early community desktop dashboard for managing Kubernetes clusters. Active development has ceased, serving now as historical design code reference.
 
-## Enterprise Platforms
+### Enterprise Platforms
 
-### OpenShift
+#### OpenShift
 
   - **(2026)** [**github.com/openshift/console 🌟**](https://github.com/openshift/console) <span class='md-tag md-tag--info'>⭐ 455</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         Enterprise-grade web console serving as the official administrative dashboard for OpenShift, complete with rich visualization tools for platform operators and developers.
 
-### PaaS Solutions
+#### PaaS Solutions
 
   - **(2022)** [thenewstack.io: Cloud Manager: A New Multicloud PaaS Platform Built on Kubernetes](https://thenewstack.io/cloud-manager-a-new-multicloud-paas-platform-built-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Examines Cloud Manager, exploring how application platforms use built-in abstraction APIs to provide developer-friendly deployment surfaces without exposing raw cluster manifests.
 
-## Mobile Cluster Access
+### Mobile Cluster Access
 
-### Kubenav
+#### Kubenav
 
   - **(2026)** [**kubenav**](https://github.com/kubenav/kubenav) <span class='md-tag md-tag--info'>⭐ 2272</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
@@ -406,29 +406,29 @@
     ??? info "Technical Deep-Dive"
         Details kubenav, illustrating how mobile administrators can securely interact with multi-cluster APIs from mobile operating systems.
 
-## Monitoring and Observability
+### Monitoring and Observability
 
-### Dashboards
+#### Dashboards (1)
 
   - **(2023)** [loft.sh: Kubernetes Monitoring Dashboards - 5 Best Open-Source Tools](https://www.vcluster.com/blog/kubernetes-monitoring-dashboards-5-best-open-source-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Curated listing comparing five prominent open-source monitoring dashboards, evaluating metrics fidelity, resource usage, and alerting integrations.
 
-## Terminal Enhancements
+### Terminal Enhancements
 
-### Kui
+#### Kui
 
   - **(2021)** [blog.flant.com: Kui — a “hybrid” CLI/GUI application for working with Kubernetes](https://palark.com/blog/kui-hybrid-cli-gui-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Detailed review of Kui as an alternative cluster navigation solution. Examines the performance gains from interactive table-to-details rendering engine overlays.
 
-# Security and Hardening
+## Security and Hardening
 
-## Cluster Threat Vectors
+### Cluster Threat Vectors
 
-### UI Vulnerabilities
+#### UI Vulnerabilities
 
   - **(2021)** [blog.aquasec.com: RATs (remote access tools) in the Cloud: Kubernetes UI Tools Turn into a Weapon](https://blog.aquasec.com/kubernetes-ui-tools-security-threat) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 

@@ -3,18 +3,18 @@
 !!! info "Architectural Context"
     Detailed reference for Sre in the context of Platform & Site Reliability.
 
-# Operations and Reliability
+## Operations and Reliability
 
-## DevOps and SRE Culture
+### DevOps and SRE Culture
 
-### Career Roadmap
+#### Career Roadmap
 
   - **(2022)** [**dev.to: What You Need to Break into DevOps and SRE**](https://dev.to/thenjdevopsguy/what-you-need-to-break-into-devops-and-sre-3fp5) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         A comprehensive skills matrix designed for software engineers transitioning into DevOps and SRE domains. The roadmap covers essential technologies including Linux systems internals, network virtualization, cloud infrastructure as code, CI/CD automation, and metric-driven monitoring pipelines.
 
-### Role Definitions
+#### Role Definitions
 
   - **(2021)** [**phoenixnap.com: SRE Vs. DevOps: Differences Explained 🌟**](https://phoenixnap.com/blog/sre-vs-devops) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
@@ -31,78 +31,78 @@
     ??? info "Technical Deep-Dive"
         An analytical video comparing SRE and DevOps methodologies. The presentation details structural overlaps, detailing SRE as a concrete class implementing the abstract interface of DevOps, emphasizing automated tooling, error budget tracking, and shared organizational objectives.
 
-## Organization Design
+### Organization Design
 
-### Operational Models
+#### Operational Models
 
   - **(2021)** [thenewstack.io: Centralized vs. Decentralized Operations](https://thenewstack.io/sharing-the-operations-burden-centralized-vs-decentralized) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         A deep-dive architectural comparison of centralized operations centers versus decentralized, application-embedded operations models. The analysis explores trade-offs regarding communication latency, incident ownership, and platform engineering scalability under cognitive overload.
 
-## Platform Engineering
+### Platform Engineering
 
-### Ecosystem Integration
+#### Ecosystem Integration
 
   - **(2023)** [thenewstack.io: SRE vs. DevOps? Successful Platform Engineering Needs Both](https://thenewstack.io/sre-vs-devops-successful-platform-engineering-needs-both)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Analyzes how SRE stability frameworks and DevOps continuous pipelines must merge to construct efficient Internal Developer Platforms. Grounding emphasizes that treating the platform as a product is essential to balance development velocity with overall cloud-infrastructure reliability.
 
-### Role Definitions
+#### Role Definitions (1)
 
   - **(2023)** [==devops.com: SRE Vs. Platform Engineering: What’s the Difference?==](https://devops.com/sre-vs-platform-engineering-whats-the-difference) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
     ??? info "Technical Deep-Dive"
         A critical examination of the conceptual and practical differences between SRE and Platform Engineering. It illustrates how SRE prioritizes system-centric stability, SLO management, and incident response, while Platform Engineering focuses on improving the developer experience through internal developer portals (IDPs).
 
-## Service Level Objectives
+### Service Level Objectives
 
-### Community Events
+#### Community Events
 
   - **(2024)** [SLOconf](https://www.sloconf.com) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         The official landing page for SLOconf, a premier community event dedicated to Service Level Objectives. The forum hosts deep technical tracks, production post-mortems, and deployment case studies, making it an essential hub for engineers refining reliability standards.
 
-### Foundations
+#### Foundations
 
   - **(2020)** [==sre.google: The Art of SLOs==](https://sre.google/resources/practices-and-processes/art-of-slos) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
     ??? info "Technical Deep-Dive"
         An essential training handbook from Google covering the foundational concepts of setting, calculating, and maintaining Service Level Objectives. It provides practical exercises to identify critical user pathways and align internal metrics with real-world customer expectations.
 
-### GitOps Implementation
+#### GitOps Implementation
 
   - **(2021)** [thenewstack.io: Automate User Satisfaction with This GitOps-Friendly Spec for Service Level Objectives](https://thenewstack.io/automate-user-satisfaction-with-this-gitops-friendly-spec-for-service-level-objectives)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Details how declarative, GitOps-friendly schemas can be used to manage Service Level Objectives alongside primary code repositories. Grounding shows how treating SLO configs as code assets allows CI/CD systems to continuously audit user satisfaction and validate code merges.
 
-### Open Standards
+#### Open Standards
 
   - **(2024)** [==OpenSLO specification 🌟==](https://github.com/OpenSLO/OpenSLO) <span class='md-tag md-tag--info'>⭐ 1490</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
     ??? info "Technical Deep-Dive"
         The open-source OpenSLO specification, which defines a vendor-agnostic standard for declaring SLOs, SLIs, and error budgets in YAML format. It enables platform engineers to implement declarative reliability metrics across diverse tracing systems like Prometheus and Datadog.
 
-### Progressive Delivery
+#### Progressive Delivery
 
   - **(2024)** [**Iter8**](https://iter8.tools) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         A Kubernetes-native progressive delivery platform that orchestrates metric-driven canary releases and A/B tests. Live grounding shows Iter8's ability to validate runtime SLO performance, using Prometheus and OpenTelemetry targets to automate application promotion or rollbacks.
 
-### Testing and Validation
+#### Testing and Validation
 
   - **(2022)** [thenewstack.io: Validate Service-Level Objectives of REST APIs Using Iter8](https://thenewstack.io/validate-service-level-objectives-of-rest-apis-using-iter8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         A technical walkthrough detailing how to integrate Iter8 with CI/CD runners to automatically validate REST API SLO configurations. The tutorial includes sample manifests for monitoring API response times and failure rates under heavy synthetic request loads.
 
-## Site Reliability Engineering
+### Site Reliability Engineering
 
-### Best Practices
+#### Best Practices
 
   - **(2021)** [**toolbox.com: Site Reliability Engineering: What Is It and How Can It Help Scale Operations? 🌟**](https://www.toolbox.com/tech/devops/articles/automating-sre-to-scale-operations) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
@@ -114,35 +114,35 @@
     ??? info "Technical Deep-Dive"
         This architectural guide details actionable workflows for modern SRE execution, covering service level indicator definition, runbook automation, and collaborative blameless post-mortems. Curator insight and live grounding suggest that successful implementation requires transitioning team topologies from manual toil to reliability-first platform engineering.
 
-### Career Roadmap
+#### Career Roadmap (1)
 
   - **(2021)** [**devops.com: Top Nine Skills for SREs to Master 🌟**](https://devops.com/top-nine-skills-for-sres-to-master) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         Highlights the nine core disciplines mandatory for modern SRE professionals. Essential competencies include programming, software-defined networking, container orchestration, proactive observability, secure deployment design, and automated release rollbacks.
 
-### Case Studies
+#### Case Studies
 
   - **(2016)** [thenewstack.io: Google SRE: Site Reliability Engineering at a Global Scale](https://thenewstack.io/google-sre-site-reliability-engineering-at-a-global-scale)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         A retrospective analysis of Google's journey in creating the modern SRE discipline to address unprecedented internet scale. It focuses on the core organizational policy that SRE teams must devote at least 50% of their bandwidth to engineering rather than operational toil.
 
-### Engagement Models
+#### Engagement Models
 
   - **(2016)** [==sre.google: sre-book - The Evolving SRE Engagement Model==](https://sre.google/sre-book/evolving-sre-engagement-model) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
     ??? info "Technical Deep-Dive"
         This seminal text from the Google SRE Book explores the life cycle of SRE engagements with product teams. It reviews diverse topological frameworks, detailing how to transition product teams from embedded SRE support models to decoupled, self-service infrastructure platforms.
 
-### Evolution
+#### Evolution
 
   - **(2022)** [**thenewstack.io: How the SRE Experience Is Changing with Cloud Native 🌟**](https://thenewstack.io/how-the-sre-experience-is-changing-with-cloud-native) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         This high-density industry analysis examines how the rise of complex cloud-native architectures shifts SRE responsibilities. It addresses how microservices, service meshes, and dynamic scheduling require SREs to move from simple system monitoring to deep, code-level observability and platform design.
 
-### Operational Tooling
+#### Operational Tooling
 
   - **(2022)** [devops.com: How SREs Benefit From Feature Flags](https://devops.com/how-sres-benefit-from-feature-flags)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -164,39 +164,39 @@
     ??? info "Technical Deep-Dive"
         A specialized review of elite reliability tools, detailing their integration with cloud infrastructure and error budget managers. It outlines how telemetry tools can be leveraged programmatically within continuous deployment stages to trigger automated rolling upgrades or fast rollbacks.
 
-### Resources
+#### Resources
 
   - **(2023)** [**sre.google/prodcast**](https://sre.google/prodcast) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         Google SRE's official podcast platform, offering in-depth conversations on production readiness, disaster simulation, massive database scale, and global network engineering. This serves as an elite audio-learning resource for cloud architects designing resilient distributed architectures.
 
-### Role Definitions
+#### Role Definitions (2)
 
   - **(2021)** [devops.com: Day in the Life of a Site Reliability Engineer (SRE)](https://devops.com/day-in-the-life-of-a-site-reliability-engineer-sre)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         A detailed technical narrative outlining the day-to-day work patterns of an active SRE. It details technical duties such as managing on-call alert systems, performing root-cause evaluations, coding infrastructure automation, and consulting with software development teams.
 
-### Training and Incident Response
+#### Training and Incident Response
 
   - **(2020)** [infoq.com: Observing and Understanding Failures: SRE Apprentices](https://www.infoq.com/presentations/sre-apprentices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         This session addresses the cognitive models of system failure, specifically targeting how apprentices and junior SREs can safely learn to analyze complex failures. It advocates for structured code-level tracing, game days, and interactive debugging to accelerate reliable operational troubleshooting.
 
-# Platform Engineering
+## Platform Engineering (1)
 
-## Site Reliability Engineering
+### Site Reliability Engineering (1)
 
-### Case Studies
+#### Case Studies (1)
 
   - **(2023)** [openshift.com: From Ops to SRE - Evolution of the OpenShift Dedicated Team](https://www.redhat.com/en/blog/from-ops-to-sre-evolution-of-the-openshift-dedicated-team) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         An enterprise case study detailing how Red Hat transitioned its OpenShift Dedicated operations team to a modern SRE model, showing concrete scaling metrics.
 
-### Foundations
+#### Foundations (1)
 
   - **(2026)** [==sre.google: What is Site Reliability Engineering (SRE)? 🌟==](https://sre.google) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
@@ -253,7 +253,7 @@
     ??? info "Technical Deep-Dive"
         An analytical overview detailing the distinct career paths, everyday duties, and engineering goals that separate cloud systems administrators from dedicated SREs.
 
-### Observability
+#### Observability
 
   - **(2022)** [youtube: Platform9’s Madhura Maskasky says observability is also essential for diagnosing and debugging in order for SREs to "get to the root cause quickly enough so that you can feed that back to the development teams." 🌟](https://www.youtube.com/watch?v=tgRPlAQpHYk&ab_channel=TheNewStack) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 

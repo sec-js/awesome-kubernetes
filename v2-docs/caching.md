@@ -3,22 +3,22 @@
 !!! info "Architectural Context"
     Detailed reference for Caching in the context of Networking & Service Mesh.
 
-# Data Engineering
+## Data Engineering
 
-## In-Memory Databases
+### In-Memory Databases
 
-### Caching
+#### Caching
 
   - **(2026)** [==Redis==](http://redis.io) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
     ??? info "Technical Deep-Dive"
         The definitive open-source, in-memory data store used as a database, cache, message broker, and streaming engine. Offers unmatched low-latency read-write cycles and versatile data structures. Highly valued for real-time applications requiring low overhead.
 
-# Networking
+## Networking
 
-## Load Balancing
+### Load Balancing
 
-### HAProxy
+#### HAProxy
 
   - **(2026)** [==haproxy.org==](http://www.haproxy.org) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 

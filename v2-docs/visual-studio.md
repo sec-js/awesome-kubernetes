@@ -3,11 +3,11 @@
 !!! info "Architectural Context"
     Detailed reference for Visual Studio in the context of Developer Ecosystem.
 
-# Cloud Native Languages
+## Cloud Native Languages
 
-## Go
+### Go
 
-### Kubernetes Integration
+#### Kubernetes Integration
 
   - **(2020)** [blog.getambassador.io: Debugging Go Microservices in Kubernetes with VScode](https://blog.getambassador.io/debugging-go-microservices-in-kubernetes-with-vscode-a36beb48ef1) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 

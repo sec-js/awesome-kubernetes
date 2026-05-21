@@ -3,27 +3,27 @@
 !!! info "Architectural Context"
     Detailed reference for Aws Training in the context of Cloud Providers (Hyperscalers).
 
-# Cloud Infrastructure
+## Cloud Infrastructure
 
-## Infrastructure as Code
+### Infrastructure as Code
 
-### AWS CDK
+#### AWS CDK
 
   - **(2021)** [New digital course and lab: AWS Cloud Development Kit (CDK) Primer](https://aws.amazon.com/about-aws/whats-new/2021/01/new-digital-course-and-lab-aws-cloud-development-kit-cdk-primer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         An official AWS educational lab covering foundations of the Cloud Development Kit. Focuses on writing structural patterns to deploy secure multi-tier cloud environments using object-oriented languages.
 
-## Training
+### Training
 
-### AWS Deep Dives
+#### AWS Deep Dives
 
   - **(2020)** [==learn.cantrill.io 🌟==](https://learn.cantrill.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         Adrian Cantrill's highly respected training academy designed for thorough cloud architecture mastering. Shifts focus away from simple exam memorization towards core physical network and storage topologies.
 
-### AWS Official
+#### AWS Official
 
   - **(2021)** [==explore.skillbuilder.aws/learn: AWS Skill Builder 🌟==](https://skillbuilder.aws) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
@@ -50,35 +50,35 @@
     ??? info "Technical Deep-Dive"
         Historically notable launch announcement of the first official AWS-authored certification study guide. While structurally important, newer cloud paradigms limit its relevance for current exams.
 
-### AWS Professional
+#### AWS Professional
 
   - **(2021)** [AWS Certified Solutions Architect Professional – Study Guide](https://blue-clouds.com/category/study-guide) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         An advanced study guide mapping out complex multi-tier architectural migrations, hybrid connectivity, disaster recovery plans, and cost optimization rules.
 
-### AWS Security
+#### AWS Security
 
   - **(2021)** [**explore.skillbuilder.aws: AWS Security Fundamentals (free)**](https://skillbuilder.aws/course/external/view/elearning/48/aws-security-fundamentals-second-edition) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         A foundational security course covering AWS shared responsibility models, identity boundaries, network segregation methods, and programmatic cryptographic mechanisms.
 
-### Community Communities
+#### Community Communities
 
   - **(2021)** [awscerts.slack.com](https://awscerts.slack.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         A massive interactive Slack workspace connecting candidates and certified professionals to collaborate on exam concepts, design paradigms, and open study resources.
 
-### Community Streams
+#### Community Streams
 
   - **(2021)** [twitch.tv/acloudguruofficial](https://www.twitch.tv/acloudguruofficial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         A community-focused streaming hub for real-time cloud-native development labs and live certification study sessions. Delivers accessible developer enablement guides in interactive video formats.
 
-### Curated Guides
+#### Curated Guides
 
   - **(2021)** [A curated list of AWS resources to prepare for the AWS Certifications](https://gist.github.com/leonardofed) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -100,21 +100,21 @@
     ??? info "Technical Deep-Dive"
         A curated educational index grouping free, authoritative training resources and engineering courses to build platform engineering fundamentals on popular cloud providers.
 
-### Exam Practice
+#### Exam Practice
 
   - **(2021)** [**portal.tutorialsdojo.com: AWS Digital Courses (free)**](https://portal.tutorialsdojo.com/product-category/aws/aws-digital-courses-2) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         Highly-regarded training portal delivering structured practice tests and cheat sheets designed to replicate the logic and design depth of official AWS Associate and Professional certifications.
 
-### Multi-Cloud Platforms
+#### Multi-Cloud Platforms
 
   - **(2021)** [acloudguru.com](https://www.pluralsight.com/cloud-guru)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         A premier enterprise learning platform specialized in modern cloud-native system training. Delivers deep hands-on sandbox labs, certification preparation curricula, and continuous technical playground resources.
 
-### Practical Labs
+#### Practical Labs
 
   - **(2021)** [acloudguru.com: 10 fun hands-on projects to learn AWS](https://www.pluralsight.com/resources/blog/cloud/10-fun-hands-on-projects-to-learn-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 

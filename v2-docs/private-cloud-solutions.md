@@ -3,11 +3,11 @@
 !!! info "Architectural Context"
     Detailed reference for Private Cloud Solutions in the context of Cloud Providers (Hyperscalers).
 
-# Cloud Infrastructure
+## Cloud Infrastructure
 
-## Private Cloud
+### Private Cloud
 
-### Industry Trends
+#### Industry Trends
 
   - **(2020)** [thenewstack.io: Bad News for Cloud Computing: OpenStack Use Plummets and Discounts Dry Up](https://thenewstack.io/bad-news-for-cloud-computing-openstack-use-plummets-and-discounts-dry-up)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
