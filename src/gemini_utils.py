@@ -334,6 +334,11 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                                 "contents": [{"parts": [{"text": prompt}]}],
                                 "tools": [{"google_search_retrieval": {}}] if use_grounding else []
                             }
+                            
+                            # TELEMETRY: Log Payload Size
+                            payload_size = len(json.dumps(payload))
+                            log_event(f"    [TELEMETRY] Attempting Key {current_idx+1} | Model: {model} | Payload: ~{payload_size//4} tokens")
+                            
                             response = await client.post(api_url, json=payload, timeout=60)
                             
                             resp_json = {}
@@ -344,7 +349,7 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                             SESSION_TRACKER.track_call(current_idx, model, response.status_code, usage, role=role)
                             
                             if response.status_code == 200:
-                                log_event(f"    [AI] Success: Key {current_idx+1} | Model: {model} | Role: {role}")
+                                log_event(f"    [AI] Success: Key {current_idx+1} | Model: {model} | Role: {role} | Tokens: P={usage.get('promptTokenCount',0)} C={usage.get('candidatesTokenCount',0)}")
                                 CURRENT_KEY_INDEX = current_idx
                                 if 'candidates' in resp_json and resp_json['candidates']:
                                     text_resp = resp_json['candidates'][0]['content']['parts'][0]['text']
@@ -370,6 +375,9 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                             elif response.status_code == 429:
                                 consecutive_429s += 1
                                 
+                                # TELEMETRY: Log Exact Rejection Reason
+                                log_event(f"    [TELEMETRY] 429 Details: {response.text[:200]}")
+                                
                                 # 2. ADAPTIVE TIERING: Mark this specific model as throttled
                                 throttle_duration = 30 if "pro" in model else 15
                                 THROTTLED_MODELS[f"{current_idx}_{model}"] = time.time() + throttle_duration
@@ -388,13 +396,16 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                                 diagnostics.add_attempt(model, 404, "Not Found")
                                 break 
                             elif response.status_code in [500, 503, 504]:
+                                log_event(f"    [TELEMETRY] Server Error {response.status_code}: {response.text[:200]}")
                                 diagnostics.add_attempt(model, response.status_code, "Server Error")
                                 continue 
                             else:
+                                log_event(f"    [TELEMETRY] Unknown Error {response.status_code}: {response.text[:200]}")
                                 diagnostics.add_attempt(model, response.status_code, "API Error", response.text)
                                 break 
                                 
                         except Exception as e:
+                            log_event(f"    [TELEMETRY] Exception during request: {e}")
                             SESSION_TRACKER.track_call(current_idx, model, 0, {}, role=role)
                             diagnostics.add_attempt(model, 0, str(e))
                             break 
