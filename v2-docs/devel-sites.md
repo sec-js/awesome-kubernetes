@@ -3,11 +3,11 @@
 !!! info "Architectural Context"
     Detailed reference for Devel Sites in the context of Developer Ecosystem.
 
-# Software Engineering
+## Software Engineering
 
-## Developer Experience
+### Developer Experience
 
-### IDEs and Tooling
+#### IDEs and Tooling
 
   - **(2022)** [IntelliJ vs. VSCode for Rust Development](https://users.rust-lang.org/t/anyone-here-go-intellij-vscode/84499) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 

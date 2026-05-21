@@ -3,64 +3,64 @@
 !!! info "Architectural Context"
     Detailed reference for Freelancing in the context of Career & Industry.
 
-# Career and Freelancing
+## Career and Freelancing
 
-## Alternative Employment Models
+### Alternative Employment Models
 
-### Cooperatives
+#### Cooperatives
 
   - **(2022)** [Acento: Cooperativa de freelance](https://acentocoop.es) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Service platform operating as an umbrella cooperative for freelancers in Spain, allowing contractors to invoice legally without initial autónomo registration overhead. [SPANISH CONTENT]
 
-### Spain Regulatory
+#### Spain Regulatory
 
   - **(2021)** [umbrellaselector.com/Spain](http://umbrellaselector.com/Spain) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Directory and comparison resource for contractors looking to utilize Spanish or international umbrella companies to bypass autonomous taxation.
 
-### Umbrella Companies
+#### Umbrella Companies
 
   - **(2021)** [paystream.co.uk: What is an umbrella company?](https://www.paystream.co.uk/helphub/umbrella/getting-started/what-is-an-umbrella-company) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Explanatory guide detailing the operation, tax withholding, statutory benefits, and compliance duties of UK-based umbrella payroll companies for contractors.
 
-## Financial Planning
+### Financial Planning
 
-### Business Management SaaS
+#### Business Management SaaS
 
   - **(2022)** [hellobonsai](https://www.hellobonsai.com) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Comprehensive business management suite providing proposal design, contract generation, time tracking, invoicing, and tax forecasting services for global freelancers.
 
-### Cost Analysis
+#### Cost Analysis
 
   - **(2022)** [blog.xolo.io: ¿Es rentable ser autónomo en España?](https://blog.xolo.io/es/es-rentable-ser-aut%C3%B3nomo-en-espa%C3%B1a) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Financial feasibility analysis for freelancers operating in Spain. Computes the real cost of social security contributions, corporate taxes, and operating overhead vs. traditional employment net income. [SPANISH CONTENT]
 
-## Freelance Platforms
+### Freelance Platforms
 
-### Compliance Management
+#### Compliance Management
 
   - **(2022)** [worksome](https://www.worksome.com) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Contractor management and compliance platform simplifying invoicing, IR35 vetting, and international payouts for agile enterprise workforces.
 
-### E-Commerce Specialists
+#### E-Commerce Specialists
 
   - **(2022)** [lorem](https://www.storetasker.com) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Outsource network specializing in connecting Shopify store owners and e-commerce enterprises with curated, pre-vetted developers and marketing experts.
 
-### Elite Vetting
+#### Elite Vetting
 
   - **(2022)** [**turing**](https://turing.com) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
@@ -102,14 +102,14 @@
     ??? info "Technical Deep-Dive"
         Global engineering network facilitating long-term remote hiring of vetted developers for scaling companies and enterprises.
 
-### Executive Consultancies
+#### Executive Consultancies
 
   - **(2022)** [certace](https://a-connect.com) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Expert consultancy platform connecting global enterprises with senior freelance consultants, project managers, and digital transformation architects.
 
-### Generalist Marketplaces
+#### Generalist Marketplaces
 
   - **(2021)** [peopleperhour](https://www.peopleperhour.com) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -126,21 +126,21 @@
     ??? info "Technical Deep-Dive"
         Multi-category freelance network connecting businesses with global technical, creative, and administrative remote professionals.
 
-### On-Demand Microtasking
+#### On-Demand Microtasking
 
   - **(2020)** [speedlancer](https://speedlancer.com) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Managed micro-task platform offering high-speed delivery of design, content writing, and technical tasks within pre-negotiated hourly windows.
 
-### Spain Regulatory
+#### Spain Regulatory (1)
 
   - **(2021)** [freelance.es](https://freelance.es) <span class='md-tag md-tag--warning'>[ES CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Local Spanish freelance portal and job board connecting domestic businesses with local self-employed IT, creative, and administrative experts. [SPANISH CONTENT]
 
-### Talent Matching
+#### Talent Matching
 
   - **(2022)** [upper 🌟](https://upper.co) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -152,57 +152,57 @@
     ??? info "Technical Deep-Dive"
         Managed marketplace connecting vetted mobile app developers, web developers, and designers with enterprises seeking outsourced engineering solutions.
 
-## Industry Perspectives
+### Industry Perspectives
 
-### Developer Career Paths
+#### Developer Career Paths
 
   - **(2021)** [youtube: Freelance vs Empleo como Programador | midulive](https://www.youtube.com/watch?v=81VnO4puNkg) <span class='md-tag md-tag--warning'>[ES CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Video guide breaking down the pros, cons, tax differences, and strategic decisions when choosing between full-time employment and freelancing in the software industry. [SPANISH CONTENT]
 
-### Freelance Challenges
+#### Freelance Challenges
 
   - **(2021)** [diariocordoba.com: «Ser autónomo en España sigue siendo una profesión de riesgo»](https://www.diariocordoba.com/cordoba-ciudad/2021/12/26/autonomo-espana-sigue-profesion-riesgo-61023753.html) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         An analytical interview highlighting the financial and administrative hurdles faced by self-employed professionals in Spain. Discusses systemic issues, lack of safety nets, and legislative comparisons with other European nations. [SPANISH CONTENT]
 
-## Mentorship and Support
+### Mentorship and Support
 
-### On-Demand Assistance
+#### On-Demand Assistance
 
   - **(2020)** [codementor](https://www.codementor.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Global community platform matching developers with expert mentors for live 1-on-1 code reviews, troubleshooting, and project-based learning.
 
-## Remote Work
+### Remote Work
 
-### International Contracting
+#### International Contracting
 
   - **(2021)** [**marinaaisa.com: Trabajar en remoto desde España como 'contractor'**](https://marinaaisa.com/es/blog/contractor-eeuu-espana) <span class='md-tag md-tag--warning'>[ES CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         Highly detailed personal case study and playbook on working as an independent contractor from Spain for US-based firms. Covers billing, currency conversion, legal forms (W-8BEN), and tax declarations. [SPANISH CONTENT]
 
-### Market Trends
+#### Market Trends
 
   - **(2022)** [cincodias.elpais.com: El teletrabajo impulsa la oferta de ‘freelance’](https://cincodias.elpais.com/cincodias/2022/02/08/fortunas/1644336556_587972.html) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Analyzes how the global shift to remote work and distributed teams has boosted the supply and demand of high-skilled freelance contractors in technical domains. [SPANISH CONTENT]
 
-## Taxation and Compliance
+### Taxation and Compliance
 
-### SaaS Platforms
+#### SaaS Platforms
 
   - **(2023)** [declarando.es](https://declarando.es) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Automated tax advisor and accounting platform tailored for Spanish freelancers, optimizing tax deductions and filing quarterly declarations dynamically. [SPANISH CONTENT]
 
-### Spain Regulatory
+#### Spain Regulatory (2)
 
   - **(2022)** [xataka.com: La Seguridad Social crea una app móvil para gestionar la nueva cuota de autónomos: permitirá cambiar de tramo mensualmente](https://www.xataka.com/pro/seguridad-social-crea-app-movil-para-gestionar-nueva-cuota-autonomos-permitira-cambiar-tramo-mensualmente-ingresos) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -224,39 +224,39 @@
     ??? info "Technical Deep-Dive"
         Detailed guide outlining quarterly tax obligations for self-employed professionals in Spain, specifically focusing on Q3 deadlines. Covers IVA (Form 303), IRPF (Form 130), and other local compliance mandates. [SPANISH CONTENT]
 
-# Professional-Growth
+## Professional-Growth
 
-## Freelance
+### Freelance
 
-### Financial Calculators
+#### Financial Calculators
 
   - **(2024)** [calculadora.malt.es](https://calculadora.malt.es) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Una herramienta interactiva de Malt diseñada para calcular de forma transparente las tarifas diarias (TJM) de profesionales autónomos en función de la experiencia y la especialidad. Facilita la planificación financiera y la negociación de tarifas contractuales en el mercado tecnológico europeo. [SPANISH CONTENT]
 
-### Legal and Finance
+#### Legal and Finance
 
   - **(2021)** [noticiastrabajo.es: Así pueden los autónomos retrasar el pago de los intereses de los créditos ICO](https://noticiastrabajo.huffingtonpost.es/como-deben-autonomos-retrasar-pago-intereses-creditos-ico) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Un artículo informativo en el que se explican las medidas legislativas extraordinarias y los plazos administrativos para que los profesionales autónomos en España puedan solicitar moratorias e intereses de carencia sobre créditos avalados por el ICO. [SPANISH CONTENT]
 
-### Market Analysis
+#### Market Analysis
 
   - **(2021)** [linkedin/pulse: Is France the European El Dorado for Freelancing?](https://www.linkedin.com/pulse/france-european-el-dorado-freelancing-quentin-debavelaere)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         An industry overview assessing the structural growth, corporate tax frameworks, and regulatory shifts in the French freelance market. The analysis profiles the increasing adoption of external professional platforms and digital tools. It serves as a helpful macro perspective for engineers looking to navigate European consulting landscapes.
 
-### Portals
+#### Portals
 
   - **(2022)** [genbeta.com: Siete webs (explicadas a fondo) donde encontrar trabajo freelance o autónomo por si te niegas a volver a la oficina](https://www.genbeta.com/web/siete-webs-explicadas-a-fondo-donde-encontrar-trabajo-freelance-autonomo-te-niegas-a-volver-a-oficina) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Una guía exhaustiva que analiza detalladamente siete plataformas digitales dedicadas a conectar profesionales técnicos independientes con ofertas de trabajo remotas e internacionales. Ofrece consejos prácticos sobre facturación, tarifas promedio y construcción de perfil. [SPANISH CONTENT]
 
-### Spanish Market
+#### Spanish Market
 
   - **(2018)** [¿Informático explotado en una consultora? Las webs para ‘freelances’ te salvarán la vida](https://www.elconfidencial.com/tecnologia/2018-05-12/informatico-freelance-carnica-freelancer-yeeply_1562518) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 

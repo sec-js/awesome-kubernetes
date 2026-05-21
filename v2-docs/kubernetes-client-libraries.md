@@ -3,13 +3,13 @@
 !!! info "Architectural Context"
     Detailed reference for Kubernetes Client Libraries in the context of The Container Stack.
 
-# Cloud-Native
+## Cloud-Native
 
-## Kubernetes Native
+### Kubernetes Native
 
-### Java Build Plugins
+#### Java Build Plugins
 
-#### Eclipse JKube
+##### Eclipse JKube
 
   - **(2020)** [developers.redhat.com: Cloud-native Java applications made easy: Eclipse JKube 1.0.0 now available](https://developers.redhat.com/blog/2020/09/09/cloud-native-java-applications-made-easy-eclipse-jkube-1-0-0-now-available) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -21,9 +21,9 @@
     ??? info "Technical Deep-Dive"
         Exploring developer loop workflows utilizing Eclipse JKube to build, deploy, and debug Java applications in real-time inside a local or remote Kubernetes cluster environment.
 
-### Migration Guides
+#### Migration Guides
 
-#### Eclipse JKube
+##### Eclipse JKube (1)
 
   - **(2026)** [**eclipse.org: Migration Guide for projects using Fabric8 Maven Plugin to Eclipse JKube 🌟**](https://eclipse.dev/jkube/docs/migration-guide) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
@@ -35,20 +35,20 @@
     ??? info "Technical Deep-Dive"
         Step-by-step technical guide highlighting the namespace transitions, configuration changes, and structural refactoring required when migrating legacy Fabric8 Maven build files to the modernized Eclipse JKube.
 
-### Quarkus Integration
+#### Quarkus Integration
 
-#### Video Tutorials
+##### Video Tutorials
 
   - **(2021)** [youtube: Deploying a Quarkus application into Kubernetes using JKube | Cloud Tool Time | Marc Nuri 🌟](https://www.youtube.com/watch?v=HDDfdZqwM1E&ab_channel=EclipseFoundation) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Video session detailing the integration of Quarkus with Eclipse JKube to deploy highly optimized, native-compiled Java microservices directly to Kubernetes.
 
-# Red Hat OpenShift
+## Red Hat OpenShift
 
-## Developer Experience
+### Developer Experience
 
-### Java Integrations
+#### Java Integrations
 
   - **(2020)** [developers.redhat.com: Getting started with the fabric8 Kubernetes Java client](https://developers.redhat.com/blog/2020/05/20/getting-started-with-the-fabric8-kubernetes-java-client) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -60,7 +60,7 @@
     ??? info "Technical Deep-Dive"
         Historically significant platform offering tools, microservices, and management mechanisms for Java environments on Kubernetes and OpenShift. Now deprecated, but set foundations for contemporary Java developer abstractions.
 
-### Maven Plugins
+#### Maven Plugins
 
   - **(2025)** [Eclipse JKube 🌟](https://eclipse.dev/jkube) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 

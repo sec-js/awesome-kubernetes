@@ -3,22 +3,22 @@
 !!! info "Architectural Context"
     Detailed reference for Jenkins in the context of Engineering Pipeline.
 
-# Cloud Infrastructure
+## Cloud Infrastructure
 
-## Training
+### Training
 
-### AWS Official
+#### AWS Official
 
   - **(2023)** [community.aws/training: Training and Certification](https://builder.aws.com/learn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         An official community hub connecting cloud builders with modern development labs, learning blueprints, and architectural expert-led events.
 
-# Continuous Integration
+## Continuous Integration
 
-## CI Tools
+### CI Tools
 
-### Jenkins
+#### Jenkins
 
   - [openshift-pipeline](https://plugins.jenkins.io/openshift-pipeline) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -35,33 +35,33 @@
     ??? info "Technical Deep-Dive"
         Exposes OpenShift's command-line tool definitions directly inside Jenkins jobs, enabling custom script actions to command remote clusters safely.
 
-# DevOps
+## DevOps
 
-## CI-CD Pipelines
+### CI-CD Pipelines
 
-### Jenkins Ecosystem
+#### Jenkins Ecosystem
 
   - **(2026)** [==Jenkins Pipeline Syntax: Scripted Syntax (Groovy DSL syntax) & Declarative Syntax 🌟==](https://www.jenkins.io/doc/book/pipeline/syntax) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
     ??? info "Technical Deep-Dive"
         Authoritative documentation explaining scripted and declarative Jenkins pipeline configuration syntaxes. Breaks down flow control structures, declarative directives, agent allocations, and step definitions essential to enterprise build automation.
 
-# GitOps and Continuous Delivery
+## GitOps and Continuous Delivery
 
-## Kubernetes Native CI-CD
+### Kubernetes Native CI-CD
 
-### Argo Workflows
+#### Argo Workflows
 
   - **(2023)** [==Migrating CI/CD from Jenkins to Argo Workflows==](https://dev.to/intuitdev/migrating-cicd-from-jenkins-to-argo-1km4) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
     ??? info "Technical Deep-Dive"
         A comprehensive real-world migration case study detailing how Intuit transitioned high-volume CI/CD pipelines from Jenkins to Kubernetes-native Argo Workflows. Outlines critical architectural lessons, scale bottlenecks, pipeline-as-code models, and resource optimization.
 
-# Red Hat OpenShift
+## Red Hat OpenShift
 
-## CI-CD Pipelines
+### CI-CD Pipelines (1)
 
-### Jenkins Ecosystem
+#### Jenkins Ecosystem (1)
 
   - **(2018)** [opensource.com: running jenkins builds containers 🌟](https://opensource.com/article/18/4/running-jenkins-builds-containers) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -73,29 +73,29 @@
     ??? info "Technical Deep-Dive"
         Details strategies to compile reliable, declarative Jenkins pipelines utilizing OpenShift DSL plugins. Discusses native methods to trigger S2I builds, promote container images, and securely communicate with Cluster managers.
 
-# Runtime Optimizations
+## Runtime Optimizations
 
-## JVM Tuning
+### JVM Tuning
 
-### Garbage Collection
+#### Garbage Collection
 
   - **(2016)** [jenkins.io - Tuning Jenkins GC For Responsiveness and Stability with Large Instances 🌟](https://www.jenkins.io/blog/2016/11/21/gc-tuning) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Landmark analytical study detailing optimized GC settings for massive scale Jenkins controller instances. Discusses keeping response times low under heavy CI execution queues.
 
-### Language Fundamentals
+#### Language Fundamentals
 
   - **(2021)** [Running Jenkins on Java 11 🌟](https://www.jenkins.io/doc/administration/requirements/jenkins-on-java-11/#:~:text=The%20easiest%20way%20to%20run,images%2C%20use%20the%20jdk11%20tag.) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Administrative guide addressing the platform transition of the Jenkins controller from obsolete Java 8 engines to modern Java 11 runtime profiles.
 
-# Software Engineering
+## Software Engineering
 
-## CICD
+### CICD
 
-### Trends
+#### Trends
 
   - **(2021)** [sdtimes.com: CI/CD pipelines are expanding 🌟](https://sdtimes.com/devops/ci-cd-pipelines-are-expanding)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 

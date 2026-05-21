@@ -3,11 +3,11 @@
 !!! info "Architectural Context"
     Detailed reference for Aws Containers in the context of Cloud Providers (Hyperscalers).
 
-# Public Cloud Platforms
+## Public Cloud Platforms
 
-## AWS
+### AWS
 
-### Container Orchestration Comparison
+#### Container Orchestration Comparison
 
   - **(2022)** [cast.ai: AWS EKS vs. ECS vs. Fargate: Where to manage your Kubernetes?](https://cast.ai/blog/aws-eks-vs-ecs-vs-fargate-where-to-manage-your-kubernetes) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 

@@ -3,22 +3,22 @@
 !!! info "Architectural Context"
     Detailed reference for Api in the context of Developer Ecosystem.
 
-# Development Tools
+## Development Tools
 
-## API Mocking and Testing
+### API Mocking and Testing
 
-### Microservices
+#### Microservices
 
   - **(2026)** [**microcks.io 🌟**](https://microcks.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         Microcks is a cloud-native platform for mocking and testing API specifications (REST, gRPC, GraphQL, and event-driven architectures). It allows microservices teams to mock dependencies and run contract tests rapidly during continuous integration.
 
-# Machine Learning
+## Machine Learning
 
-## AI Hardware Acceleration
+### AI Hardware Acceleration
 
-### Enterprise Infrastructure
+#### Enterprise Infrastructure
 
   - **(2026)** [**Cerebras AI**](https://www.cerebras.ai) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 

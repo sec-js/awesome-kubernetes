@@ -3,20 +3,20 @@
 !!! info "Architectural Context"
     Detailed reference for Mkdocs in the context of Architectural Foundations.
 
-# Cloud Architecture
+## Cloud Architecture
 
-## Cloud Native Infrastructure
+### Cloud Native Infrastructure
 
-### Ingress and API Gateways
+#### Ingress and API Gateways
 
   - **(2025)** [**docs.traefik.io**](https://doc.traefik.io/traefik) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         The official documentation for Traefik Proxy, showcasing a clean, production-grade implementation of MkDocs. It illustrates how complex microservice routing, TLS termination, and middleware configurations can be elegantly structured. Double-Evidence: While initially seen as a standard documentation site, live grounding shows it serves as a golden reference for structural information layout and API reference nesting in cloud-native ingress architectures.
 
-## Developer Experience
+### Developer Experience
 
-### CICD and GitOps Pipelines
+#### CICD and GitOps Pipelines
 
   - **(2024)** [build5nines.com: GitHub Actions: Run Pandoc to convert Markdown to Word Document](https://build5nines.com/github-actions-run-pandoc-to-convert-markdown-to-word-document) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
@@ -33,7 +33,7 @@
     ??? info "Technical Deep-Dive"
         A debugging guide that illustrates how to locate, read, and interpret build and compilation logs within GitHub Actions to resolve static site generation failures on GitHub Pages. Double-Evidence: A critical operational guide for developers, live grounding confirms its troubleshooting utility when Jekyll or MkDocs compilation fails due to malformed Markdown or missing dependencies.
 
-### Documentation Engines
+#### Documentation Engines
 
   - **(2025)** [==Material for MkDocs==](https://squidfunk.github.io/mkdocs-material) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
@@ -60,28 +60,28 @@
     ??? info "Technical Deep-Dive"
         A technology profile tracking the adoption and deployment footprint of MkDocs across live web properties. Provides analytics, traffic estimates, and structural deployment metrics for sites using this engine. Double-Evidence: Curator tracking shows widespread enterprise adoption; live grounding confirms its extensive use among developer-centric SaaS products and open-source platforms.
 
-### Documentation Platforms
+#### Documentation Platforms
 
   - **(2024)** [**gitbook.com**](https://www.gitbook.com) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         A collaborative, cloud-hosted documentation platform that simplifies knowledge sharing for technical and non-technical teams alike. Integrates natively with Git repositories while offering rich visual editors. Double-Evidence: Transitioned from an open-source CLI to a full SaaS platform; live grounding shows GitBook is widely adopted by commercial SaaS companies for product user-guides and internal engineering playbooks.
 
-### Frontend Engineering
+#### Frontend Engineering
 
   - **(2023)** [dev.to: How we made the __markdown toolbar__](https://dev.to/devteam/how-we-made-the-markdown-toolbar-4f09) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         An engineering deep-dive by the Dev.to development team detailing the design, performance considerations, and implementation of their native, high-performance Markdown toolbar. Covers textarea manipulations and keyboard short-cuts. Double-Evidence: The article outlines custom editor integrations; live grounding confirms its value for engineering teams looking to implement intuitive, real-time rich-text Markdown editing interfaces in custom web platforms.
 
-### Knowledge Management
+#### Knowledge Management
 
   - **(2023)** [dev.to: An amazing note-taking system with Markdown and Git Series' Articles](https://dev.to/scottshipp/series/15100) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         A comprehensive multi-part series detailing the configuration of a personal knowledge management system utilizing Markdown and Git version control. Explores organizational hierarchies, local editor configurations, and automated synchronization strategies. Double-Evidence: The guide outlines decentralized note-taking, and live grounding validates its utility for developers moving away from proprietary, centralized SaaS tools toward local-first GitOps practices.
 
-### Office and Collaboration Tools
+#### Office and Collaboration Tools
 
   - **(2022)** [theverge.com: Google Docs is getting more Markdown support](https://www.theverge.com/2022/3/29/23002138/google-docs-markdown-support-formatting-update) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -93,14 +93,14 @@
     ??? info "Technical Deep-Dive"
         A workflow guide explaining how to leverage Google Docs' integrated Markdown parsing engine to boost document draft speeds and establish seamless collaborative writing habits for diverse technical teams. Double-Evidence: This article outlines practical text-entry benefits, while live grounding indicates its effectiveness for streamlining hybrid workflows where engineers draft in Markdown and product managers review in real-time document editors.
 
-### Static Site Generators
+#### Static Site Generators
 
   - **(2021)** [opensource.com: Build your website with Jekyll](https://opensource.com/article/21/9/build-website-jekyll) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         A deep-dive guide to Jekyll, the Ruby-based static site generator that powers GitHub Pages default build actions. Outlines site configuration, directory structure, liquid templating, and page compilation. Double-Evidence: While newer engines (like Hugo and MkDocs) are often preferred for modern technical sites, live grounding verifies Jekyll remains a robust, highly extensible engine for complex blogs and static portfolios.
 
-### Static Site Hosting
+#### Static Site Hosting
 
   - **(2024)** [==pages.github.com==](https://pages.github.com) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
@@ -112,7 +112,7 @@
     ??? info "Technical Deep-Dive"
         Official announcement of access control integration for GitHub Pages, allowing enterprise administrators to restrict documentation site visibility to specific organization members. Double-Evidence: This feature bridges open-source tooling with corporate governance, and live grounding confirms it is essential for securing internal architecture wikis, runbooks, and design docs without deploying dedicated servers.
 
-### Technical Writing Utilities
+#### Technical Writing Utilities
 
 
 ??? abstract "Architect's Technical Comparison Table"
@@ -160,11 +160,11 @@
     ??? info "Technical Deep-Dive"
         A foundational article outlining the philosophy and implementation of Markdown as an open-source plain-text formatting syntax. It highlights the productivity gains of writing in readable text without GUI editor lock-in. Double-Evidence: This guide advocates for standard open documentation formats, and live grounding demonstrates its usefulness for onboarding team members transitioning to modern plain-text documentation workflows.
 
-# Data Science and AI
+## Data Science and AI
 
-## Scientific Computing
+### Scientific Computing
 
-### Computational Notebooks
+#### Computational Notebooks
 
   - **(2022)** [r-bloggers.com: How to use R Markdown (part one)](https://www.r-bloggers.com/2022/02/how-to-use-r-markdown-part-one) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 

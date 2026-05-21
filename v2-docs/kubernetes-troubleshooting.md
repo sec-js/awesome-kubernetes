@@ -3,24 +3,24 @@
 !!! info "Architectural Context"
     Detailed reference for Kubernetes Troubleshooting in the context of The Container Stack.
 
-# Observability
+## Observability
 
-## Capacity Management
+### Capacity Management
 
-### Kernel Internals
+#### Kernel Internals
 
-#### Pod Throttling
+##### Pod Throttling
 
   - **(2024)** [**CPU Limits in Kubernetes: Deep Dive into Pod Throttling and Kernel Interactions**](https://www.linkedin.com/pulse/cpu-limits-kubernetes-why-your-pod-idle-still-deep-dive-lazarev-k3m7f?utm_source=share&utm_medium=member_android&utm_campaign=share_via) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         A deep analysis of the Linux kernel's Completely Fair Scheduler (CFS) quotas and how they cause Kubernetes pod throttling despite low resource utilization. Indispensable for engineers diagnosing performance degradation under restrictive CPU limit settings.
 
-# Observability and Performance
+## Observability and Performance
 
-## Kubernetes Internals
+### Kubernetes Internals
 
-### Resource Management
+#### Resource Management
 
   - **(2024)** [The Hidden CPU Throttling Crisis in Kubernetes Clusters](https://www.kubenatives.com/p/the-hidden-cpu-throttling-crisis) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 

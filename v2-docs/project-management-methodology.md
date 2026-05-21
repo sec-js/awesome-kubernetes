@@ -3,22 +3,22 @@
 !!! info "Architectural Context"
     Detailed reference for Project Management Methodology in the context of Platform & Site Reliability.
 
-# Cloud-Native Development
+## Cloud-Native Development
 
-## Local Development Tools
+### Local Development Tools
 
-### Okteto
+#### Okteto
 
   - **(2021)** [codefresh.io: Tutorial - Local Kubernetes Development with Okteto 🌟](https://octopus.com/devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Hands-on walkthrough displaying how to use Okteto to connect a developer workspace directly with live infrastructure, bypassing resource-heavy local systems.
 
-# Engineering Leadership and Career Dynamics
+## Engineering Leadership and Career Dynamics
 
-## Organizational Design and Leadership Systems
+### Organizational Design and Leadership Systems
 
-### Engineering Culture
+#### Engineering Culture
 
   - **(2021)** [entrepreneur.com: Las 10 preguntas que debes hacerte para saber si eres un buen líder](https://spanish.entrepreneur.com) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 

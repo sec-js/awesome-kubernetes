@@ -3,11 +3,11 @@
 !!! info "Architectural Context"
     Detailed reference for Pulumi in the context of Hardened Infrastructure.
 
-# Observability and Performance
+## Observability and Performance
 
-## Performance Testing
+### Performance Testing
 
-### Microservices
+#### Microservices
 
   - [garden.io: Performance testing on a microservice architecture](https://docs.garden.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 

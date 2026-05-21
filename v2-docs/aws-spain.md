@@ -3,11 +3,11 @@
 !!! info "Architectural Context"
     Detailed reference for Aws Spain in the context of Cloud Providers (Hyperscalers).
 
-# Infrastructure as Code and Automation
+## Infrastructure as Code and Automation
 
-## Cloud Providers
+### Cloud Providers
 
-### AWS Spain
+#### AWS Spain
 
   - **(2022)** [**AWS en España**](https://aws.amazon.com/es/local/spain) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
@@ -19,7 +19,7 @@
     ??? info "Technical Deep-Dive"
         A real-time directory listing official AWS events, workshops, and webinars. Ideal for continuous training and tracking emerging AWS service updates.
 
-### Case Studies
+#### Case Studies
 
   - **(2022)** [aboutamazon.es: AWS acelera la apertura de la Región AWS Europa (España) para apoyar la transformación digital de España](https://www.aboutamazon.es/noticias/aws/la-region-aws-europa-espana-apoya-la-transformacion-digital-en-el-pais) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -36,7 +36,7 @@
     ??? info "Technical Deep-Dive"
         Detailed journalistic analysis examining why AWS selected the Aragon region for its initial three Spanish data centers. Excellent strategic reading on sovereign infrastructure decisions and geopolitical power mapping.
 
-### Networking
+#### Networking
 
   - **(2023)** [**AWS Transit Gateway is now available in Europe (Spain) Region**](https://aws.amazon.com/about-aws/whats-new/2023/04/aws-transit-gateway-europe-spain-region) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 

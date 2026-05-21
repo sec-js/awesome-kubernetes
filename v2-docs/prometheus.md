@@ -3,22 +3,22 @@
 !!! info "Architectural Context"
     Detailed reference for Prometheus in the context of Architectural Foundations.
 
-# Observability
+## Observability
 
-## Metrics
+### Metrics
 
-### Prometheus
+#### Prometheus
 
   - **(2022)** [**Setup Prometheus Using Helm Chart on Kubernetes**](https://devopscube.com/setup-prometheus-helm-chart) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         A direct, production-ready tutorial demonstrating how to install and configure Prometheus using official Helm charts. Explains default values overrides, persistent volume configurations, and custom alertmanager integration for instant operational visibility.
 
-## Monitoring Stack
+### Monitoring Stack
 
-### Helm Charts
+#### Helm Charts
 
-#### kube-prometheus-stack
+##### kube-prometheus-stack
 
   - **(2026)** [==prometheus-community/kube-prometheus-stack 🌟🌟==](https://artifacthub.io/packages/helm/prometheus-community/kube-prometheus-stack) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 

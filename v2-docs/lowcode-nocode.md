@@ -3,11 +3,11 @@
 !!! info "Architectural Context"
     Detailed reference for Lowcode Nocode in the context of Developer Ecosystem.
 
-# Infrastructure Development
+## Infrastructure Development
 
-## Software Engineering
+### Software Engineering
 
-### Low-Code
+#### Low-Code
 
   - **(2022)** [thenewstack.io: Use Low Code to Reduce Friction for Cloud Operations Teams](https://thenewstack.io/use-low-code-to-reduce-friction-for-cloud-operations-teams) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 

@@ -3,11 +3,11 @@
 !!! info "Architectural Context"
     Detailed reference for Databases in the context of Data & Advanced Analytics.
 
-# Cluster Management
+## Cluster Management
 
-## Infrastructure Provisioning
+### Infrastructure Provisioning
 
-### Kubernetes Operators
+#### Kubernetes Operators
 
   - **(2023)** [learnk8s.io: Provisioning cloud resources (AWS, GCP, Azure) in Kubernetes](https://learnkube.com/cloud-resources-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 

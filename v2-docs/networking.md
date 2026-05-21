@@ -3,11 +3,11 @@
 !!! info "Architectural Context"
     Detailed reference for Networking in the context of Networking & Service Mesh.
 
-# Security
+## Security
 
-## Infrastructure Security
+### Infrastructure Security
 
-### Network Protection
+#### Network Protection
 
   - **(2025)** [Building a DDoS Response Plan with Azure DDoS Protection](https://techcommunity.microsoft.com/blog/azurenetworksecurityblog/building-a-ddos-response-plan/4372256) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 

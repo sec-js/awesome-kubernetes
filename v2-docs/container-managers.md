@@ -3,11 +3,11 @@
 !!! info "Architectural Context"
     Detailed reference for Container Managers in the context of The Container Stack.
 
-# DevSecOps
+## DevSecOps
 
-## CICD Pipeline Security
+### CICD Pipeline Security
 
-### Podman
+#### Podman
 
   - **(2021)** [Build trusted pipelines/Guards with Podman containers](https://www.redhat.com/en/blog/using-container-technology-make-trusted-pipeline) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 

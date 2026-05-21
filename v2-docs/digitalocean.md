@@ -3,24 +3,24 @@
 !!! info "Architectural Context"
     Detailed reference for Digitalocean in the context of Cloud Providers (Hyperscalers).
 
-# Cloud Infrastructure
+## Cloud Infrastructure
 
-## GPU Compute
+### GPU Compute
 
-### Model Deployment
+#### Model Deployment
 
   - **(2025)** [How to run Deepseek R1 LLMs on GPU Droplets](https://www.digitalocean.com/community/tutorials/deepseek-r1-gpu-droplets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
     ??? info "Technical Deep-Dive"
         Tactical walkthrough showing how to provision DigitalOcean GPU Droplets to serve DeepSeek-R1. Configures vLLM runtimes, registers systemd units, and establishes benchmarking paradigms to maximize inference performance on cost-effective infrastructure.
 
-# Networking
+## Networking
 
-## Web Servers
+### Web Servers
 
-### Nginx
+#### Nginx
 
-#### Configuration Generators
+##### Configuration Generators
 
   - **(2025)** [==NGINXConfig==](https://www.digitalocean.com/community/tools/nginx) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
