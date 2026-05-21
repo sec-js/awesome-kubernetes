@@ -1,4 +1,4 @@
-# Nubenetes Elite Portal (V2) | Awesome Kubernetes & Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Nubenetes Elite Portal (V2) | Nubenetes: Awesome Kubernetes & Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 <center markdown="1">
 [![Banner](images/kubernetes_logo.jpg)](https://kubernetes.io)
@@ -29,14 +29,17 @@
 </center>
 
 ## The Agentic Pulse
-
+- **(N/A)** [**==github.com/oracle==**](https://github.com/oracle) 🌟🌟🌟🌟
+- **(N/A)** [**==Amazon EKS introduces EKS Pod Identity==**](https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-eks-pod-identity) 🌟🌟🌟🌟
+- **(N/A)** [**==piotrminkowski.com: Blue-green deployment with a database on Kubernetes 🌟==**](https://piotrminkowski.com/2021/02/18/blue-green-deployment-with-a-database-on-kubernetes) 🌟🌟🌟🌟
+- **(N/A)** [**==apache/maven-mvnd==**](https://github.com/apache/maven-mvnd) 🌟🌟🌟🌟
+- **(N/A)** [**==phauer.com: Why I Moved Back from Gradle to Maven==**](https://phauer.com/2018/moving-back-from-gradle-to-maven) 🌟🌟🌟🌟
 
 ## Strategic Dimensions
 ### AI and Artificial Intelligence
 - **[Ai Agents Mcp](./ai-agents-mcp.md)**
 - **[Ai](./ai.md)**
 - **[Chatgpt](./chatgpt.md)**
-- **[Mlops](./mlops.md)**
 ### Architectural Foundations
 - **[Cheatsheets](./cheatsheets.md)**
 - **[Cloud Arch Diagrams](./cloud-arch-diagrams.md)**
@@ -46,8 +49,8 @@
 - **[Devops Tools](./devops-tools.md)**
 - **[Faq](./faq.md)**
 - **[Git](./git.md)**
-- **[Grafana](./grafana.md)**
 - **[Helm](./helm.md)**
+- **[Introduction](./introduction.md)**
 - **[Kubernetes Tools](./kubernetes-tools.md)**
 - **[Kubernetes Tutorials](./kubernetes-tutorials.md)**
 - **[Kubernetes](./kubernetes.md)**
@@ -55,35 +58,22 @@
 - **[Matrix Table](./matrix-table.md)**
 - **[Mkdocs](./mkdocs.md)**
 - **[Monitoring](./monitoring.md)**
-- **[Other Awesome Lists](./other-awesome-lists.md)**
 - **[Prometheus](./prometheus.md)**
 ### Career & Industry
-- **[Appointment Scheduling](./appointment-scheduling.md)**
-- **[Digital Money](./digital-money.md)**
 - **[Elearning](./elearning.md)**
 - **[Finops](./finops.md)**
 - **[Freelancing](./freelancing.md)**
-- **[Hr](./hr.md)**
 - **[Interview Questions](./interview-questions.md)**
-- **[Newsfeeds](./newsfeeds.md)**
 - **[Recruitment](./recruitment.md)**
-- **[Remote Tech Jobs](./remote-tech-jobs.md)**
-- **[Workfromhome](./workfromhome.md)**
 ### Cloud Providers (Hyperscalers)
 - **[Googlecloudplatform](./GoogleCloudPlatform.md)**
 - **[Aws Architecture](./aws-architecture.md)**
-- **[Aws Backup](./aws-backup.md)**
 - **[Aws Containers](./aws-containers.md)**
-- **[Aws Data](./aws-data.md)**
 - **[Aws Databases](./aws-databases.md)**
 - **[Aws Devops](./aws-devops.md)**
 - **[Aws Iac](./aws-iac.md)**
-- **[Aws Messaging](./aws-messaging.md)**
 - **[Aws Miscellaneous](./aws-miscellaneous.md)**
-- **[Aws Monitoring](./aws-monitoring.md)**
-- **[Aws Networking](./aws-networking.md)**
 - **[Aws Newfeatures](./aws-newfeatures.md)**
-- **[Aws Pricing](./aws-pricing.md)**
 - **[Aws Security](./aws-security.md)**
 - **[Aws Serverless](./aws-serverless.md)**
 - **[Aws Spain](./aws-spain.md)**
@@ -93,28 +83,18 @@
 - **[Aws](./aws.md)**
 - **[Azure](./azure.md)**
 - **[Digitalocean](./digitalocean.md)**
-- **[Edge Computing](./edge-computing.md)**
-- **[Ibm_Cloud](./ibm_cloud.md)**
 - **[Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)**
 - **[Oraclecloud](./oraclecloud.md)**
 - **[Private Cloud Solutions](./private-cloud-solutions.md)**
-- **[Public Cloud Solutions](./public-cloud-solutions.md)**
-- **[Scaleway](./scaleway.md)**
 ### Data & Advanced Analytics
-- **[Crunchydata](./crunchydata.md)**
 - **[Databases](./databases.md)**
 - **[Message Queue](./message-queue.md)**
 - **[Newsql](./newsql.md)**
-- **[Nosql](./nosql.md)**
 - **[Yaml](./yaml.md)**
 ### Developer Ecosystem
-- **[Chromedevtools](./ChromeDevTools.md)**
-- **[Angular](./angular.md)**
 - **[Api](./api.md)**
 - **[Devel Sites](./devel-sites.md)**
-- **[Dom](./dom.md)**
 - **[Dotnet](./dotnet.md)**
-- **[Embedded Servlet Containers](./embedded-servlet-containers.md)**
 - **[Golang](./golang.md)**
 - **[Java And Java Performance Optimization](./java-and-java-performance-optimization.md)**
 - **[Java_App_Servers](./java_app_servers.md)**
@@ -123,30 +103,22 @@
 - **[Linux Dev Env](./linux-dev-env.md)**
 - **[Lowcode Nocode](./lowcode-nocode.md)**
 - **[Maven Gradle](./maven-gradle.md)**
-- **[Postman](./postman.md)**
 - **[Python](./python.md)**
 - **[React](./react.md)**
-- **[Swagger Code Generator For Rest Apis](./swagger-code-generator-for-rest-apis.md)**
 - **[Visual Studio](./visual-studio.md)**
-- **[Web3](./web3.md)**
-- **[Xamarin](./xamarin.md)**
 ### Engineering Pipeline
 - **[Argo](./argo.md)**
 - **[Cicd Kubernetes Plugins](./cicd-kubernetes-plugins.md)**
 - **[Cicd](./cicd.md)**
-- **[Flux](./flux.md)**
 - **[Gitops](./gitops.md)**
 - **[Jenkins Alternatives](./jenkins-alternatives.md)**
 - **[Jenkins](./jenkins.md)**
-- **[Keptn](./keptn.md)**
 - **[Openshift Pipelines](./openshift-pipelines.md)**
 - **[Registries](./registries.md)**
 - **[Sonarqube](./sonarqube.md)**
-- **[Stackstorm](./stackstorm.md)**
 - **[Tekton](./tekton.md)**
 ### Hardened Infrastructure
 - **[Ansible](./ansible.md)**
-- **[Chef](./chef.md)**
 - **[Crossplane](./crossplane.md)**
 - **[Devsecops](./devsecops.md)**
 - **[Iac](./iac.md)**
@@ -159,7 +131,6 @@
 - **[Terraform](./terraform.md)**
 ### Networking & Service Mesh
 - **[Caching](./caching.md)**
-- **[Cloudflare](./cloudflare.md)**
 - **[Istio](./istio.md)**
 - **[Kubernetes Networking](./kubernetes-networking.md)**
 - **[Networking](./networking.md)**
@@ -171,18 +142,14 @@
 - **[Devops](./devops.md)**
 - **[Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md)**
 - **[Project Management Methodology](./project-management-methodology.md)**
-- **[Project Management Tools](./project-management-tools.md)**
 - **[Qa](./qa.md)**
 - **[Scaffolding](./scaffolding.md)**
 - **[Sre](./sre.md)**
-- **[Test Automation Frameworks](./test-automation-frameworks.md)**
-- **[Testops](./testops.md)**
 ### The Container Stack
 - **[Container Managers](./container-managers.md)**
 - **[Docker](./docker.md)**
 - **[Kubectl Commands](./kubectl-commands.md)**
 - **[Kubernetes Alternatives](./kubernetes-alternatives.md)**
-- **[Kubernetes Autoscaling](./kubernetes-autoscaling.md)**
 - **[Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)**
 - **[Kubernetes Based Devel](./kubernetes-based-devel.md)**
 - **[Kubernetes Bigdata](./kubernetes-bigdata.md)**
@@ -190,14 +157,9 @@
 - **[Kubernetes Monitoring](./kubernetes-monitoring.md)**
 - **[Kubernetes On Premise](./kubernetes-on-premise.md)**
 - **[Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)**
-- **[Kubernetes Releases](./kubernetes-releases.md)**
-- **[Kubernetes Storage](./kubernetes-storage.md)**
 - **[Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)**
-- **[Noops](./noops.md)**
-- **[Ocp3](./ocp3.md)**
 - **[Ocp4](./ocp4.md)**
 - **[Openshift](./openshift.md)**
-- **[Rancher](./rancher.md)**
 - **[Serverless](./serverless.md)**
 
 ***

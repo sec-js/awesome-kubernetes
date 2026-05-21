@@ -3,30 +3,119 @@
 !!! info "Architectural Context"
     Detailed reference for Kubernetes Client Libraries in the context of The Container Stack.
 
-  - [github.com/kubernetes-client 🌟](https://github.com/kubernetes-client)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [k8s-ruby: Kubernetes Ruby Client](https://github.com/k8s-ruby/k8s-ruby)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [kubernetes/client-go: Go client for Kubernetes 🌟](https://github.com/kubernetes/client-go)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [pkg.go.dev/k8s.io/client-go](https://pkg.go.dev/k8s.io/client-go)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Rate Limiting in Controller-Runtime and Client-go](https://danielmangum.com/posts/controller-runtime-client-go-rate-limiting)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [kubernetes-client/go: OpenAPI based Generated Go client for Kubernetes](https://github.com/kubernetes-client/go)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [kyaml2go (Pronounced as camel2go 🐫) 🌟](https://github.com/PrasadG193/kyaml2go)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [itnext.io: Writing a Kubernetes CLI in Go](https://itnext.io/writing-a-kubernetes-cli-in-go-a3970ad58299)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [iximiuz.com: How To Develop Kubernetes CLIs Like a Pro](https://iximiuz.com/en/posts/kubernetes-api-go-cli)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/kubernetes-client/python](https://github.com/kubernetes-client/python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/kubernetes-client/python-base](https://github.com/kubernetes-client/python-base)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [martinheinz.dev/blog/73: Automate All the Boring Kubernetes Operations with Python 🌟](https://martinheinz.dev/blog/73)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [itnext.io: Difference between Fabric8 and Official Kubernetes Java Client 🌟](https://itnext.io/difference-between-fabric8-and-official-kubernetes-java-client-3e0a994fd4af)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/kubernetes-client/java: Kubernetes Java Client](https://github.com/kubernetes-client/java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: What’s new in Fabric8 Kubernetes Java client 4.12.0](https://developers.redhat.com/blog/2020/10/30/whats-new-in-fabric8-kubernetes-java-client-4-12-0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.marcnuri.com: Fabric8 Kubernetes Client for Java introduction](https://blog.marcnuri.com/kubernetes-client-java-fabric8-introduction)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.marcnuri.com: Build Kubernetes controllers with Fabric8 Kubernetes Client, Quarkus, and JKube](https://blog.marcnuri.com/fabric8-kubernetes-java-client-and-quarkus-and-graalvm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: How to generate code using Fabric8 Kubernetes Client](https://developers.redhat.com/articles/2023/01/24/how-generate-code-using-fabric8-kubernetes-client)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: How to use Fabric8 Java Client with Kubernetes](https://developers.redhat.com/articles/2023/01/04/how-use-fabric8-java-client-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.twstewart.me: cdk8s-python - A Love and Hate Experience](https://blog.twstewart.me/posts/cdk8s-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.marcnuri.com](https://blog.marcnuri.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: How to manage microservices using OpenShift Dev Spaces and JKube](https://developers.redhat.com/learn/openshift/how-manage-microservices-using-openshift-dev-spaces-and-jkube)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [javaoperatorsdk.io: Build Kubernetes Operators in Java without hassle](https://javaoperatorsdk.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+# Cloud-Native
+
+## Kubernetes Native
+
+### Java Build Plugins
+
+#### Eclipse JKube
+
+  - **(2020)** [developers.redhat.com: Cloud-native Java applications made easy: Eclipse JKube 1.0.0 now available](https://developers.redhat.com/blog/2020/09/09/cloud-native-java-applications-made-easy-eclipse-jkube-1-0-0-now-available) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+      ??? info "Technical Deep-Dive"
+          Launch announcement of Eclipse JKube 1.0.0 detailing its design philosophy, architectural decoupling from old Fabric8 dependencies, and its seamless integration with modern cloud-native standards.
+
+  - **(2020)** [developers.redhat.com: Java development on top of Kubernetes using Eclipse JKube](https://developers.redhat.com/blog/2020/08/24/java-development-on-top-of-kubernetes-using-eclipse-jkube) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+      ??? info "Technical Deep-Dive"
+          Exploring developer loop workflows utilizing Eclipse JKube to build, deploy, and debug Java applications in real-time inside a local or remote Kubernetes cluster environment.
+
 
 ***
-💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md)
+💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Ocp4](./ocp4.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md)
+
+
+***
+💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Ocp4](./ocp4.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md)
+
+### Migration Guides
+
+#### Eclipse JKube
+
+  - **(2026)** [**eclipse.org: Migration Guide for projects using Fabric8 Maven Plugin to Eclipse JKube 🌟**](https://eclipse.dev/jkube/docs/migration-guide) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+
+      ??? info "Technical Deep-Dive"
+          Official technical reference outlining the exact property conversions, API transformations, and plugin changes needed to move builds from `fabric8-maven-plugin` to `jkube-maven-plugin`.
+
+  - **(2020)** [developers.redhat.com: Migrating from Fabric8 Maven Plugin to Eclipse JKube 1.0.0](https://developers.redhat.com/blog/2020/09/21/migrating-from-fabric8-maven-plugin-to-eclipse-jkube-1-0-0) 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span>
+
+      ??? info "Technical Deep-Dive"
+          Step-by-step technical guide highlighting the namespace transitions, configuration changes, and structural refactoring required when migrating legacy Fabric8 Maven build files to the modernized Eclipse JKube.
+
+
+***
+💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Ocp4](./ocp4.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md)
+
+
+***
+💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Ocp4](./ocp4.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md)
+
+### Quarkus Integration
+
+#### Video Tutorials
+
+  - **(2021)** [youtube: Deploying a Quarkus application into Kubernetes using JKube | Cloud Tool Time | Marc Nuri 🌟](https://www.youtube.com/watch?v=HDDfdZqwM1E&ab_channel=EclipseFoundation) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+      ??? info "Technical Deep-Dive"
+          Video session detailing the integration of Quarkus with Eclipse JKube to deploy highly optimized, native-compiled Java microservices directly to Kubernetes.
+
+
+***
+💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Ocp4](./ocp4.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md)
+
+
+***
+💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Ocp4](./ocp4.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md)
+
+
+***
+💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Ocp4](./ocp4.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md)
+
+
+***
+💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Ocp4](./ocp4.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md)
+
+# Red Hat OpenShift
+
+## Developer Experience
+
+### Java Integrations
+
+  - **(2020)** [developers.redhat.com: Getting started with the fabric8 Kubernetes Java client](https://developers.redhat.com/blog/2020/05/20/getting-started-with-the-fabric8-kubernetes-java-client) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+      ??? info "Technical Deep-Dive"
+          Technical introduction to utilizing the Fabric8 Kubernetes Java Client SDK. Details how to perform CRUD operations on Kubernetes APIs, deploy custom controllers, and stream container logs inside Java runtimes.
+
+  - **(2019)** [Fabric8](https://fabric8.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span>
+
+      ??? info "Technical Deep-Dive"
+          Historically significant platform offering tools, microservices, and management mechanisms for Java environments on Kubernetes and OpenShift. Now deprecated, but set foundations for contemporary Java developer abstractions.
+
+
+***
+💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Ocp4](./ocp4.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md)
+
+### Maven Plugins
+
+  - **(2025)** [Eclipse JKube 🌟](https://eclipse.dev/jkube) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+      ??? info "Technical Deep-Dive"
+          The central documentation portal for Eclipse JKube, an open-source suite of tooling designed to facilitate the rapid containerization, deployment, and management of Java applications across Kubernetes and Red Hat OpenShift infrastructures.
+
+
+***
+💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Ocp4](./ocp4.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md)
+
+
+***
+💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Ocp4](./ocp4.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md)
+
+
+***
+💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Ocp4](./ocp4.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md)
+
+
+***
+💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Ocp4](./ocp4.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md)
 
