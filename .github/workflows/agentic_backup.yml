@@ -46,6 +46,7 @@ jobs:
           BACKUP_FILE: ${{ github.event.inputs.backup_file }}
           HISTORICAL_MODE: ${{ github.event.inputs.historical_mode }}
           PYTHONPATH: .
+          PYTHONUNBUFFERED: "1"
         run: |
           if [ ! -f "$BACKUP_FILE" ]; then
             echo "❌ ERROR: File '$BACKUP_FILE' not found in repository."

@@ -141,6 +141,7 @@ jobs:
           INCLUDE_IAC: ${{ github.event.inputs.include_iac || 'true' }}
           HISTORICAL_CHUNK_DAYS: '180'
           PYTHONPATH: .
+          PYTHONUNBUFFERED: "1"
         run: |
           set +e
           python -u src/main.py 2>&1 | tee output.log
