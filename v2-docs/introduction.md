@@ -10,6 +10,7 @@
 
 ### Ecosystem Map
 
+
 ```mermaid
 graph TD
     A[Foundations] --> B[AI & Intelligence]
@@ -19,6 +20,7 @@ graph TD
     D --> F[Nubenetes Portal]
     E --> F
 ```
+
 
 ## Artificial Intelligence
 
