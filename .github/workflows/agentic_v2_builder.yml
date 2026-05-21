@@ -15,12 +15,6 @@ on:
         description: 'Enrich GitHub Metadata (fetch stars/license for V2 logic)'
         type: boolean
         default: false
-  push:
-    branches: [ develop ]
-    paths:
-      - 'docs/**'
-      - 'data/inventory.yaml'
-      - 'src/v2_optimizer.py'
 
 permissions:
   contents: write
