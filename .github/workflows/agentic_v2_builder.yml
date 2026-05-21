@@ -74,6 +74,7 @@ jobs:
           FORCE_EVAL: ${{ github.event.inputs.force_reevaluate || 'false' }}
           ENRICH_METADATA: ${{ github.event.inputs.enrich_metadata || 'false' }}
           PYTHONPATH: .
+          PYTHONUNBUFFERED: "1"
         run: |
           python -u src/v2_optimizer.py
           if [ -f v2_safety_report.md ]; then
