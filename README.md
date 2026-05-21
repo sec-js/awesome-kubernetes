@@ -740,16 +740,25 @@ graph TD
     D -->|"Merged into develop<br/>(Path Filter: inventory.yaml)"| E
     F["Manual / Logic Update<br/>(src/v2_optimizer.py)"] --> E
 
+    subgraph "Persistence Layer (2026)"
+        E --> H_RESTORE["Restore Database Cache<br/>(GitHub Actions Cache)"]
+    end
+
     subgraph "Phase 2: Elite Optimization"
-        E --> G["[2] V2 Elite Builder"]
+        H_RESTORE --> G["[2] V2 Elite Builder"]
+        G --> G_AUTO["Auto-Save Every 20 Batches"]
     end
 
     subgraph "Phase 3: Documentation and Metrics"
-        G --> H["[5] README Sync"]
+        G_AUTO --> H["[5] README Sync"]
+    end
+
+    subgraph "Resilience Persistence"
+        H --> H_SAVE["Save Database Cache<br/>(IF ALWAYS)"]
     end
 
     subgraph "Phase 4: Production Deployment"
-        H --> I["Manual Review<br/>(develop → master)"]
+        H_SAVE --> I["Manual Review<br/>(develop → master)"]
         I --> J["[8] Production Deploy"]
         J --> K["nubenetes.com"]
     end
