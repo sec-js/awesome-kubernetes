@@ -668,7 +668,7 @@ class V2VisionEngine:
             if "__links__" in node:
                 for l in node["__links__"]:
                     is_gold = is_intro and l.get("stars", 0) >= 4
-                    title = l['title'].replace("==", "") # Title from V1, often descriptive
+                    title = l['title'].replace("==", "") 
                     if is_gold:
                         img = f"    ![Preview]({l.get('social_preview_url')})\n" if l.get('social_preview_url') else ""
                         md += f"??? note \"{title}\"\n{img}    **[Access Resource]({l['url']})** {'🌟'*l.get('stars',4)} | Level: {l.get('complexity', 'Beginner')}\n    \n    {l.get('ai_summary', l.get('description', ''))}\n\n"
@@ -690,7 +690,6 @@ class V2VisionEngine:
                             color = "success" if "STANDARD" in tag else "warning" if "EMERGING" in tag else "secondary" if "CASE STUDY" in tag or "GUIDE" in tag else "info"
                             tag_html += f" <span class='md-tag md-tag--{color}'>{tag}</span>"
                         
-                        # Apply Visual Highlighting based on stars
                         raw_stars = l.get('stars', 0)
                         link_content = title
                         if raw_stars >= 5:
@@ -703,15 +702,10 @@ class V2VisionEngine:
                         # Layer 2: High-Density Technical Summary (Expandable Deep-Dive)
                         summary = l.get('ai_summary', l.get('description', ''))
                         if summary:
-                            md += "\n      ??? info \"Technical Deep-Dive\"\n"
-                            # Indent the summary even further to be inside the details block
-                            indented_summary = "\n".join([f"          {line}" if line.strip() else "" for line in summary.strip().split("\n")])
+                            md += "\n    ??? info \"Technical Deep-Dive\"\n"
+                            # Standard 4-space indentation for blocks inside list items
+                            indented_summary = "\n".join([f"        {line}" if line.strip() else "" for line in summary.strip().split("\n")])
                             md += f"{indented_summary}\n\n"
-                
-                # Add Semantic "See Also" for related categories within the same Dimension
-                related = [f"[{data[f]['title']}](./{f})" for f in data if f != f_name and data[f]["dim"] == info["dim"]]
-                if related:
-                    md += f"\n***\n💡 **Explore Related:** {' | '.join(related[:3])}\n\n"
             return md
 
         for f_name, info in data.items():
@@ -721,6 +715,11 @@ class V2VisionEngine:
                 md += "## Vision 2026\n\n!!! quote \"The Evolution of Autonomy\"\n    From manual curation to agentic intelligence.\n\n### Ecosystem Map\n```mermaid\ngraph TD\n    A[Foundations] --> B[AI & Intelligence]\n    A --> C[Hardened Infra]\n    B --> D[Agentic Curation]\n    C --> E[Enterprise Stability]\n    D --> F[Nubenetes Portal]\n    E --> F\n```\n\n"
             
             md += await render_node(info["content"], -1, f_name.replace(".md", ""), is_intro=(f_name=="introduction.md"))
+            
+            # Add Semantic "See Also" ONLY ONCE at the end of the page
+            related = [f"[{data[f]['title']}](./{f})" for f in data if f != f_name and data[f]["dim"] == info["dim"]]
+            if related:
+                md += f"\n***\n💡 **Explore Related:** {' | '.join(related[:3])}\n\n"
             
             # Smart Write: Only update disk if content changed
             target_path = os.path.join(V2_DIR, f_name)
