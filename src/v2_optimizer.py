@@ -239,6 +239,7 @@ class V2VisionEngine:
         # Mandate 15: Proactive Enrichment for V2 (GitHub metadata is critical for tags)
         # To avoid duplicate logs and redundant API calls, we deduplicate unique GitHub repos first
         processed_gh_metadata = set()
+        gh_fetch_count = 0
         for l in links:
             norm_url = normalize_url(l["url"])
             if "github.com" not in norm_url or self.render_only: continue
@@ -252,6 +253,12 @@ class V2VisionEngine:
                 if gh_data:
                     if norm_url not in self.inventory: self.inventory[norm_url] = {}
                     self.inventory[norm_url].update(gh_data)
+                    
+                gh_fetch_count += 1
+                if gh_fetch_count % 500 == 0:
+                    log_event(f"    [💾] Periodic Save: Persisting inventory after {gh_fetch_count} metadata fetches...")
+                    from src.inventory_manager import save_inventory
+                    save_inventory(self.inventory)
 
         for l in links:
             item = l.copy()
