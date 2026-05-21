@@ -3,47 +3,293 @@
 !!! info "Architectural Context"
     Detailed reference for Java And Java Performance Optimization in the context of Developer Ecosystem.
 
-  - [javarevisited.blogspot.com: 10 Things Java Programmers Should Learn in 2022](https://javarevisited.blogspot.com/2017/12/10-things-java-programmers-should-learn.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [freecodecamp.org: Learn the Basics of Java Programming](https://www.freecodecamp.org/news/learn-the-basics-of-java-programming)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [freecodecamp.org: Advanced Object-Oriented Programming in Java – Full Book](https://www.freecodecamp.org/news/object-oriented-programming-in-java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: Get started with JDK Flight Recorder in OpenJDK 8u 🌟](https://developers.redhat.com/blog/2020/08/25/get-started-with-jdk-flight-recorder-in-openjdk-8u)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.heaphero.io: HeapHero - Java & Android Heap Dump Analyzer](https://blog.heaphero.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: Shenandoah garbage collection in OpenJDK 16: Concurrent reference processing](https://developers.redhat.com/articles/2021/05/20/shenandoah-garbage-collection-openjdk-16-concurrent-reference-processing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: JDK Flight Recorder support for GraalVM Native Image: The journey so far 🌟](https://developers.redhat.com/articles/2021/07/23/jdk-flight-recorder-support-graalvm-native-image-journey-so-far)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [OpenHFT/Java-Thread-Affinity](https://github.com/OpenHFT/Java-Thread-Affinity)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [kstefanj.github.io: GC progress from JDK 8 to JDK 17](https://kstefanj.github.io/2021/11/24/gc-progress-8-17.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: How to choose the best Java garbage collector](https://developers.redhat.com/articles/2021/11/02/how-choose-best-java-garbage-collector)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [linkedin.com/pulse: Difference between Executor, ExecutorService, and Executors class in Java!](https://www.linkedin.com/pulse/difference-between-executor-executorservice-executors-omar-ismail)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [vladmihalcea.com: Caching best practices](https://vladmihalcea.com/caching-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [vladmihalcea.com: 14 High-Performance Java Persistence Tips](https://vladmihalcea.com/14-high-performance-java-persistence-tips)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [speakerdeck.com: Profiling a Java Application @DevDays 2023 | Victor Rentea](https://speakerdeck.com/victorrentea/profiling-a-java-application-at-devdays-2023)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [freecodecamp.org: How to Write Unit Tests in Java](https://www.freecodecamp.org/news/java-unit-testing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [tech.olx.com: Improving JVM Warm-up on Kubernetes 🌟](https://tech.olx.com/improving-jvm-warm-up-on-kubernetes-1b27dd8ecd58)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [jenkins.io - Tuning Jenkins GC For Responsiveness and Stability with Large Instances 🌟](https://www.jenkins.io/blog/2016/11/21/gc-tuning)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Running Jenkins on Java 11 🌟](https://www.jenkins.io/doc/administration/requirements/jenkins-on-java-11/#:~:text=The%20easiest%20way%20to%20run,images%2C%20use%20the%20jdk11%20tag.)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.openshift.com: Scaling Java Containers 🌟](https://www.redhat.com/en/blog/scaling-java-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.openshift.com: Performance Metrics (APM) for Spring Boot Microservices on OpenShift](https://www.redhat.com/en/blog/performance-metrics-apm-spring-boot-microservices-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [itnext.io: How to cold start fast a java service on k8s (EKS)](https://itnext.io/how-to-cold-start-fast-a-java-service-on-k8s-eks-3a7b4450845d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.gceasy.io: Best practices: Java memory arguments for Containers 🌟](https://blog.gceasy.io/best-practices-java-memory-arguments-for-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.openshift.com: Debugging Java Applications On OpenShift and Kubernetes](https://www.redhat.com/en/blog/debugging-java-applications-on-openshift-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [tier1app.com](https://tier1app.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [fastthread.io](https://fastthread.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [gceasy.io](https://gceasy.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [heaphero.io](https://heaphero.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Tecnologías de Heap-Offloading son EHcache, Memcached, Jillegal library, etc.](http://ehcache.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Jillegal OffHeap Module](https://github.com/serkan-ozal/jillegal)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Free eGuide: JVM Troubleshooting Guide](http://freepromagazine.blogspot.de/2014/07/free-eguide-jvm-troubleshooting-guide.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Cambios importantes en la gestión de memoria de Java 8 de Oracle](http://karunsubramanian.com/websphere/one-important-change-in-memory-management-in-java-8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [PermGen eliminado](http://www.infoq.com/articles/Java-PERMGEN-Removed)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [How Garbage Collection differs in the three big JVMs](http://apmblog.dynatrace.com/2011/05/11/how-garbage-collection-differs-in-the-three-big-jvms)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [javarevisited.blogspot.com: How Garbage Collection works in Java? Explained (2011)](https://javarevisited.blogspot.com/2011/04/garbage-collection-in-java.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Byteman](https://byteman.jboss.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: Collect JDK Flight Recorder events at runtime with JMC Agent 🌟](https://developers.redhat.com/blog/2020/10/29/collect-jdk-flight-recorder-events-at-runtime-with-jmc-agent)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: Checkpointing Java from outside of Java](https://developers.redhat.com/blog/2020/10/15/checkpointing-java-from-outside-of-java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: A faster way to access JDK Flight Recorder data](https://developers.redhat.com/articles/2021/11/23/faster-way-access-jdk-flight-recorder-data)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [vladmihalcea.com: How to tunnel localhost to the public Internet](https://vladmihalcea.com/tunnel-localhost-public-internet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [piotrminkowski.com: Java Flight Recorder on Kubernetes](https://piotrminkowski.com/2024/02/13/java-flight-recorder-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+# Cloud Native Languages
+
+## Java
+
+### Caching
+
+  - **(2025)** [Tecnologías de Heap-Offloading son EHcache, Memcached, Jillegal library, etc.](http://ehcache.org) <span class='md-tag md-tag--warning'>[ES CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+
+      ??? info "Technical Deep-Dive"
+          Robust, standards-compliant Java caching library supporting off-heap storage to bypass JVM Garbage Collection overhead. Crucial for high-throughput microservices requiring low-latency data access. [SPANISH CONTENT]
+
 
 ***
-💡 **Explore Related:** [Golang](./golang.md) | [Javascript](./javascript.md) | [Maven Gradle](./maven-gradle.md)
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
+
+### Kubernetes Integration
+
+  - **(2024)** [piotrminkowski.com: Java Flight Recorder on Kubernetes](https://piotrminkowski.com/2024/02/13/java-flight-recorder-on-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+
+      ??? info "Technical Deep-Dive"
+          Excellent architectural guide demonstrating how to continuously profile Java applications running on Kubernetes with Java Flight Recorder (JFR) and JDK Mission Control. Uses declarative setups for modern container observation.
+
+
+***
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
+
+### Memory Management
+
+  - **(2014)** [Cambios importantes en la gestión de memoria de Java 8 de Oracle](http://karunsubramanian.com/websphere/one-important-change-in-memory-management-in-java-8) <span class='md-tag md-tag--warning'>[ES CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span>
+
+      ??? info "Technical Deep-Dive"
+          Explores the structural transition in Java 8 memory management, highlighting the replacement of PermGen with Metaspace. Critical for understanding modern JVM memory behavior. [SPANISH CONTENT]
+
+  - **(2013)** [PermGen eliminado](http://www.infoq.com/articles/Java-PERMGEN-Removed) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span>
+
+      ??? info "Technical Deep-Dive"
+          Deep-dive InfoQ article outlining the removal of the Permanent Generation (PermGen) in favor of Metaspace. Provides precise technical context on tuning flags and garbage collection changes. [SPANISH CONTENT]
+
+  - **(2011)** [How Garbage Collection differs in the three big JVMs](http://apmblog.dynatrace.com/2011/05/11/how-garbage-collection-differs-in-the-three-big-jvms) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span>
+
+      ??? info "Technical Deep-Dive"
+          A detailed comparison of Garbage Collection strategies across HotSpot, JRockit, and IBM J9 JVMs. Highly valuable for understanding historical differences in memory compaction and pause times.
+
+  - **(2011)** [javarevisited.blogspot.com: How Garbage Collection works in Java? Explained (2011)](https://javarevisited.blogspot.com/2011/04/garbage-collection-in-java.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span>
+
+      ??? info "Technical Deep-Dive"
+          A fundamental guide detailing Java Garbage Collection mechanics, generational hypothesis, and basic GC algorithms. Ideal for building baseline knowledge of JVM memory structures.
+
+
+***
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
+
+### Performance Tuning
+
+  - **(2020)** [**developers.redhat.com: Collect JDK Flight Recorder events at runtime with JMC Agent 🌟**](https://developers.redhat.com/blog/2020/10/29/collect-jdk-flight-recorder-events-at-runtime-with-jmc-agent) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+
+      ??? info "Technical Deep-Dive"
+          Demonstrates using the JDK Mission Control (JMC) Agent to dynamically inject JFR events into running JVMs. Enables real-time production diagnostics with near-zero overhead.
+
+  - **(2015)** [Jillegal OffHeap Module](https://github.com/serkan-ozal/jillegal) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--info'>[LEGACY]</span>
+
+      ??? info "Technical Deep-Dive"
+          An experimental library designed to bypass standard JVM memory allocation by managing objects off-heap. Note: This project is archived and has been inactive for over 4 years; it is recommended for historical study rather than production use.
+
+  - **(2024)** [Byteman](https://byteman.jboss.org) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+
+      ??? info "Technical Deep-Dive"
+          A highly flexible bytecode injection tool that simplifies tracing, monitoring, and chaos testing in Java applications. Uses side-loaded rules to inject diagnostics without rebuilding code.
+
+  - **(2021)** [developers.redhat.com: A faster way to access JDK Flight Recorder data](https://developers.redhat.com/articles/2021/11/23/faster-way-access-jdk-flight-recorder-data) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+
+      ??? info "Technical Deep-Dive"
+          Explores programmatic, low-latency access to JDK Flight Recorder data streams at runtime. Provides architecture blueprints for exporting profiling telemetry directly into external APM platforms.
+
+  - **(2020)** [developers.redhat.com: Checkpointing Java from outside of Java](https://developers.redhat.com/blog/2020/10/15/checkpointing-java-from-outside-of-java) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+
+      ??? info "Technical Deep-Dive"
+          Introduces techniques to checkpoint running Java processes from the OS level using CRIU. Essential groundwork for achieving instant-start capabilities in containerized Java serverless workloads.
+
+  - **(2014)** [Free eGuide: JVM Troubleshooting Guide](http://freepromagazine.blogspot.de/2014/07/free-eguide-jvm-troubleshooting-guide.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span>
+
+      ??? info "Technical Deep-Dive"
+          A legacy JVM troubleshooting guide covering common performance pitfalls, memory issues, and GC analysis patterns. Offers foundational reference value despite its age.
+
+
+***
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
+
+
+***
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
+
+
+***
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
+
+# Infrastructure Integration
+
+## Local Development
+
+### Networking
+
+  - **(2021)** [vladmihalcea.com: How to tunnel localhost to the public Internet](https://vladmihalcea.com/tunnel-localhost-public-internet) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+
+      ??? info "Technical Deep-Dive"
+          A practical walkthrough on exposing local servers to the public internet using tools like ngrok. Facilitates rapid debugging of external webhooks and third-party APIs during local microservices development.
+
+
+***
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
+
+
+***
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
+
+
+***
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
+
+# Runtime Optimizations
+
+## Application Architecture
+
+### Caching Strategies
+
+  - **(2021)** [vladmihalcea.com: Caching best practices](https://vladmihalcea.com/caching-best-practices) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+      ??? info "Technical Deep-Dive"
+          Advanced guidelines on data caching layers. Focuses on cache eviction strategies, write-through sync, and invalidation consistency protocols in microservices.
+
+
+***
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
+
+### Persistence Layer
+
+  - **(2022)** [vladmihalcea.com: 14 High-Performance Java Persistence Tips](https://vladmihalcea.com/14-high-performance-java-persistence-tips) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+      ??? info "Technical Deep-Dive"
+          In-depth checklist to optimize JDBC, Hibernate, and JPA operations. Discusses query batching, dirty checking, dynamic sorting, and connection pool sizing.
+
+
+***
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
+
+
+***
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
+
+## JVM Tuning
+
+### Garbage Collection
+
+  - **(2021)** [developers.redhat.com: Shenandoah garbage collection in OpenJDK 16: Concurrent reference processing](https://developers.redhat.com/articles/2021/05/20/shenandoah-garbage-collection-openjdk-16-concurrent-reference-processing) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+      ??? info "Technical Deep-Dive"
+          Deep dive into OpenJDK 16's concurrent reference processing in the Shenandoah Garbage Collector. Discusses structural barrier enhancements that limit GC pauses to sub-milliseconds.
+
+  - **(2021)** [developers.redhat.com: How to choose the best Java garbage collector](https://developers.redhat.com/articles/2021/11/02/how-choose-best-java-garbage-collector) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+      ??? info "Technical Deep-Dive"
+          Architect guide comparing major modern GCs (G1, ZGC, Shenandoah) against application profiles to balance maximum throughput, latency tolerances, and system memory.
+
+
+***
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
+
+### Language Fundamentals
+
+  - **(2023)** [linkedin.com/pulse: Difference between Executor, ExecutorService, and Executors class in Java!](https://www.linkedin.com/pulse/difference-between-executor-executorservice-executors-omar-ismail) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+      ??? info "Technical Deep-Dive"
+          Clarifies functional differences in the Java Concurrency Framework interface hierarchy. Highlights thread pooling strategies and execution submission lifecycles.
+
+  - **(2022)** [freecodecamp.org: Learn the Basics of Java Programming](https://www.freecodecamp.org/news/learn-the-basics-of-java-programming) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+      ??? info "Technical Deep-Dive"
+          Beginner-centric handbook focusing on OOP concepts, procedural mechanics, and structural paradigms inside the Java virtual machine environment.
+
+  - **(2022)** [freecodecamp.org: Advanced Object-Oriented Programming in Java – Full Book](https://www.freecodecamp.org/news/object-oriented-programming-in-java) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+      ??? info "Technical Deep-Dive"
+          Detailed technical book-style guide exploring advanced object-oriented paradigms. Focuses on design patterns, polymorphic interfaces, and encapsulation policies.
+
+  - **(2022)** [freecodecamp.org: How to Write Unit Tests in Java](https://www.freecodecamp.org/news/java-unit-testing) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+      ??? info "Technical Deep-Dive"
+          Walkthrough covering JUnit 5 framework testing. Focuses on parameterized tests, Mockito integration, and code coverage reporting in build cycles.
+
+  - **(2018)** [javarevisited.blogspot.com: 10 Things Java Programmers Should Learn in 2022](https://javarevisited.blogspot.com/2017/12/10-things-java-programmers-should-learn.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+      ??? info "Technical Deep-Dive"
+          Highlights classic competencies for advanced Java engineers, such as concurrency paradigms, GC tuning, microservices, and modern framework shifts.
+
+
+***
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
+
+### Monitoring and Profiling
+
+  - **(2024)** [blog.heaphero.io: HeapHero - Java & Android Heap Dump Analyzer](https://blog.heaphero.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+      ??? info "Technical Deep-Dive"
+          Portal exploring the HeapHero engine. Focuses on indexing memory leaks, analyzing garbage collection impact, and tracking unused objects from heap dumps.
+
+  - **(2023)** [speakerdeck.com: Profiling a Java Application @DevDays 2023 | Victor Rentea](https://speakerdeck.com/victorrentea/profiling-a-java-application-at-devdays-2023) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+      ??? info "Technical Deep-Dive"
+          High-density presentation slide deck dissecting execution profiling tools. Teaches identification of CPU hotspots, thread lock contention, and high garbage creation loops.
+
+  - **(2021)** [developers.redhat.com: JDK Flight Recorder support for GraalVM Native Image: The journey so far 🌟](https://developers.redhat.com/articles/2021/07/23/jdk-flight-recorder-support-graalvm-native-image-journey-so-far) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+      ??? info "Technical Deep-Dive"
+          Reviews progress in compiling low-overhead JVM diagnostics natively inside GraalVM images. Analyzes memory footprint tracking constraints and compilation trade-offs.
+
+  - **(2020)** [developers.redhat.com: Get started with JDK Flight Recorder in OpenJDK 8u 🌟](https://developers.redhat.com/blog/2020/08/25/get-started-with-jdk-flight-recorder-in-openjdk-8u) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span>
+
+      ??? info "Technical Deep-Dive"
+          Outlines configuring and analyzing OpenJDK 8u runtime events utilizing JDK Flight Recorder (JFR) and Mission Control. Essential for debugging containerized legacy runtimes.
+
+
+***
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
+
+### Performance Optimization
+
+  - **(2024)** [**OpenHFT/Java-Thread-Affinity**](https://github.com/OpenHFT/Java-Thread-Affinity) <span class='md-tag md-tag--info'>⭐ 1895</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+
+      ??? info "Technical Deep-Dive"
+          Highly optimized library that binds Java execution threads to specific CPU cores. Mitigates task context-switching overhead in low-latency financial systems.
+
+
+***
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
+
+
+***
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
+
+## Kubernetes Tuning
+
+### JVM in Containers
+
+  - **(2023)** [itnext.io: How to cold start fast a java service on k8s (EKS)](https://itnext.io/how-to-cold-start-fast-a-java-service-on-k8s-eks-3a7b4450845d) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+      ??? info "Technical Deep-Dive"
+          Engineering exploration highlighting techniques to minimize startup latency for Spring Boot/Quarkus container images, leveraging GraalVM, CRaC, or CPU shares.
+
+  - **(2022)** [tech.olx.com: Improving JVM Warm-up on Kubernetes 🌟](https://tech.olx.com/improving-jvm-warm-up-on-kubernetes-1b27dd8ecd58) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+      ??? info "Technical Deep-Dive"
+          Operational case study detailing OLX's strategy to remediate high CPU spikes caused by JVM JIT compiling during initial Kubernetes pod scaling actions.
+
+  - **(2022)** [blog.gceasy.io: Best practices: Java memory arguments for Containers 🌟](https://blog.gceasy.io/best-practices-java-memory-arguments-for-containers) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+      ??? info "Technical Deep-Dive"
+          Deep analysis of standard flags (like -XX:+UseContainerSupport and -XX:MaxRAMPercentage) needed to ensure JVM containers accurately dynamically self-size.
+
+  - **(2021)** [blog.openshift.com: Scaling Java Containers 🌟](https://www.redhat.com/en/blog/scaling-java-containers) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+      ??? info "Technical Deep-Dive"
+          Explores container resource limit considerations for Java workloads. Details memory calculation adjustments (Heap vs Non-Heap) to prevent OOMKills.
+
+
+***
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
+
+### Observability
+
+  - **(2021)** [blog.openshift.com: Performance Metrics (APM) for Spring Boot Microservices on OpenShift](https://www.redhat.com/en/blog/performance-metrics-apm-spring-boot-microservices-openshift) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+      ??? info "Technical Deep-Dive"
+          Comprehensive integration guide explaining how to hook up Spring Boot Prometheus metrics directly into automated OpenShift cluster telemetry layers.
+
+
+***
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
+
+
+***
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
+
+
+***
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
+
+
+***
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
 

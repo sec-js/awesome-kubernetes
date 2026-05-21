@@ -134,7 +134,7 @@ Additionally, as of May 2026, Nubenetes has reached the **Platinum Operational T
 <!-- HEART_STATS_START -->
 | Metric | Value |
 | :--- | :--- |
-| **Total Technical Resources (Links)** | **15303+** |
+| **Total Technical Resources (Links)** | **15305+** |
 | **Specialized MD Pages** | **161** |
 | **Total Commits** | **4855+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
@@ -146,16 +146,16 @@ Top 10 categories by link volume in the exhaustive V1 archive.
 <!-- TOP_CATEGORIES_START -->
 | Category (Markdown Page) | Total Links |
 | :--- | :---: |
-| [Kubernetes](docs/kubernetes.md) | 1108 |
-| [Kubernetes Tools](docs/kubernetes-tools.md) | 729 |
-| [Terraform](docs/terraform.md) | 620 |
-| [Demos](docs/demos.md) | 519 |
-| [Git](docs/git.md) | 487 |
-| [Azure](docs/azure.md) | 470 |
-| [Jenkins](docs/jenkins.md) | 410 |
-| [Devsecops](docs/devsecops.md) | 401 |
-| [Managed Kubernetes In Public Cloud](docs/managed-kubernetes-in-public-cloud.md) | 368 |
-| [Introduction](docs/introduction.md) | 325 |
+| [Kubernetes](docs/kubernetes.md) | 1099 |
+| [Kubernetes Tools](docs/kubernetes-tools.md) | 727 |
+| [Terraform](docs/terraform.md) | 616 |
+| [Demos](docs/demos.md) | 514 |
+| [Azure](docs/azure.md) | 466 |
+| [Git](docs/git.md) | 429 |
+| [Jenkins](docs/jenkins.md) | 405 |
+| [Devsecops](docs/devsecops.md) | 339 |
+| [Introduction](docs/introduction.md) | 321 |
+| [Managed Kubernetes In Public Cloud](docs/managed-kubernetes-in-public-cloud.md) | 306 |
 <!-- TOP_CATEGORIES_END -->
 
 ### 2.3. Historical Growth (Commits and References)
@@ -220,7 +220,7 @@ pie title Nubenetes Major Ecosystem Pillars
     "Infra as Code" : 1200
     "SRE and Observability" : 1000
     "Security and DevSecOps" : 1000
-    "Specialized Topics" : 903
+    "Specialized Topics" : 905
 ```
 <!-- PILLAR_CHART_END -->
 
@@ -234,7 +234,7 @@ Reflecting Nubenetes' mission of global access while maintaining technical Engli
 <!-- SUB_ECO_CHART_START -->
 ```mermaid
 pie title Linguistic Diversity (Global Access)
-    "English" : 13772
+    "English" : 13774
     "Spanish" : 918
     "French" : 153
     "Others" : 459
