@@ -703,15 +703,16 @@ class V2VisionEngine:
                         for tag in l.get("tags", ["[COMMUNITY-TOOL]"]):
                             color = "success" if "STANDARD" in tag else "warning" if "EMERGING" in tag else "secondary" if "CASE STUDY" in tag or "GUIDE" in tag else "info"
                             tag_html += f" <span class='md-tag md-tag--{color}'>{tag}</span>"
-                        
+                        # Apply Visual Highlighting based on stars
                         raw_stars = l.get('stars', 0)
-                        link_content = title
+                        link_content = title.strip() # Mandate 30: MD039 - Strip spaces in links
                         if raw_stars >= 5:
-                            link_content = f"=={title}=="
+                            link_content = f"=={link_content}=="
                         elif raw_stars >= 4:
-                            link_content = f"**{title}**"
-                            
+                            link_content = f"**{link_content}**"
+
                         md += f"  - {year_prefix}[{link_content}]({l['url']}){icon}{gh_info}{lang_tag}{level_tag}{type_tag}{rich} {'🌟'*raw_stars}{tag_html}\n"
+
                         
                         # Layer 2: High-Density Technical Summary (Expandable Deep-Dive)
                         summary = l.get('ai_summary', l.get('description', ''))
@@ -723,11 +724,11 @@ class V2VisionEngine:
             return md
 
         for f_name, info in data.items():
-            used_headers = set() # Per-file header tracking
+            used_headers = {info['title']} # Mandate 30: MD024 - Pre-populate with H1 to avoid duplicates
             md = f"# {info['title']}\n\n!!! info \"Architectural Context\"\n    Detailed reference for {info['title']} in the context of {info['dim']}.\n\n"
             
             if f_name == "introduction.md":
-                md += "## Vision 2026\n\n!!! quote \"The Evolution of Autonomy\"\n    From manual curation to agentic intelligence.\n\n### Ecosystem Map\n```mermaid\ngraph TD\n    A[Foundations] --> B[AI & Intelligence]\n    A --> C[Hardened Infra]\n    B --> D[Agentic Curation]\n    C --> E[Enterprise Stability]\n    D --> F[Nubenetes Portal]\n    E --> F\n```\n\n"
+                md += "## Vision 2026\n\n!!! quote \"The Evolution of Autonomy\"\n    From manual curation to agentic intelligence.\n\n### Ecosystem Map\n\n```mermaid\ngraph TD\n    A[Foundations] --> B[AI & Intelligence]\n    A --> C[Hardened Infra]\n    B --> D[Agentic Curation]\n    C --> E[Enterprise Stability]\n    D --> F[Nubenetes Portal]\n    E --> F\n```\n\n"
             
             md += await render_node(info["content"], -1, f_name.replace(".md", ""), used_headers, is_intro=(f_name=="introduction.md"))
             
