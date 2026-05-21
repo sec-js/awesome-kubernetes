@@ -82,6 +82,12 @@ class V2VisionEngine:
 
     async def analyze_and_cluster(self):
         log_event("STARTING V2 HIGH-DENSITY O'REILLY LIBRARY GENERATION", section_break=True)
+        
+        # Mandate 30: MD039 - Global Data Sanitization (Strip all titles to prevent linter errors)
+        for url in list(self.inventory.keys()):
+            if isinstance(self.inventory[url], dict) and "title" in self.inventory[url]:
+                self.inventory[url]["title"] = self.inventory[url]["title"].strip().strip("\u00a0\u200b")
+        
         # 0. Mandate Sync
         try:
             from src.mandate_ingestor import MandateIngestor
@@ -158,7 +164,8 @@ class V2VisionEngine:
                     title, url, full_desc = m.groups()
                     if not url.startswith(("http", "mailto", "#")):
                         url = f"https://nubenetes.com/{url.replace('.md', '/')}"
-                    all_links.append({"title": title, "url": url, "description": full_desc.strip(), "original_file": file})
+                    # Mandate 30: MD039 - Strip all whitespace (including non-breaking space) from link text
+                    all_links.append({"title": title.strip().strip("\u00a0\u200b"), "url": url.strip(), "description": full_desc.strip(), "original_file": file})
         return all_links, mosaic_html, videos_html
 
     async def _verify_link_health(self, links: List[Dict]):
