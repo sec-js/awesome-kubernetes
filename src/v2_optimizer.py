@@ -10,6 +10,14 @@ from src.config import GEMINI_API_KEYS, GH_TOKEN, TARGET_REPO, MADRID_TZ, INVENT
 from src.gemini_utils import call_gemini_with_retry, normalize_url, clean_toc_text, get_github_activity
 from src.logger import log_event
 
+def nuclear_strip(text: str) -> str:
+    """Mandate 30: MD039 - Removes all leading/trailing whitespace including hidden unicode characters."""
+    if not text: return ""
+    # Purge all known whitespace characters (standard, non-breaking, thin, etc.)
+    text = re.sub(r'^[\s\u00a0\u200b\u1680\u180e\u2000-\u200a\u2028\u2029\u202f\u205f\u3000]+', '', text)
+    text = re.sub(r'[\s\u00a0\u200b\u1680\u180e\u2000-\u200a\u2028\u2029\u202f\u205f\u3000]+$', '', text)
+    return text.replace("==", "")
+
 V1_DIR = "docs"
 V2_DIR = "v2-docs"
 
@@ -83,10 +91,14 @@ class V2VisionEngine:
     async def analyze_and_cluster(self):
         log_event("STARTING V2 HIGH-DENSITY O'REILLY LIBRARY GENERATION", section_break=True)
         
-        # Mandate 30: MD039 - Global Data Sanitization (Strip all titles to prevent linter errors)
+        # Mandate 30: MD039 - Global Data Sanitization (Purge all whitespace/hidden chars from titles)
         for url in list(self.inventory.keys()):
             if isinstance(self.inventory[url], dict) and "title" in self.inventory[url]:
-                self.inventory[url]["title"] = self.inventory[url]["title"].strip().strip("\u00a0\u200b")
+                # Purge all known whitespace characters (standard, non-breaking, thin, etc.)
+                t = self.inventory[url]["title"]
+                t = re.sub(r'^[\s\u00a0\u200b\u1680\u180e\u2000-\u200a\u2028\u2029\u202f\u205f\u3000]+', '', t)
+                t = re.sub(r'[\s\u00a0\u200b\u1680\u180e\u2000-\u200a\u2028\u2029\u202f\u205f\u3000]+$', '', t)
+                self.inventory[url]["title"] = t
         
         # 0. Mandate Sync
         try:
@@ -165,7 +177,7 @@ class V2VisionEngine:
                     if not url.startswith(("http", "mailto", "#")):
                         url = f"https://nubenetes.com/{url.replace('.md', '/')}"
                     # Mandate 30: MD039 - Strip all whitespace (including non-breaking space) from link text
-                    all_links.append({"title": title.strip().strip("\u00a0\u200b"), "url": url.strip(), "description": full_desc.strip(), "original_file": file})
+                    all_links.append({"title": nuclear_strip(title), "url": url.strip(), "description": full_desc.strip(), "original_file": file})
         return all_links, mosaic_html, videos_html
 
     async def _verify_link_health(self, links: List[Dict]):
@@ -603,14 +615,14 @@ class V2VisionEngine:
             stars = "🌟" * l.get("stars", 0)
             focus = l.get("topic", l.get("hierarchy", ["General"])[-1])
             # Mandate 30: MD039 - Strip all whitespace (including non-breaking space) from link text
-            clean_title = l['title'].replace('==','').strip().strip("\u00a0\u200b")
+            clean_title = nuclear_strip(l['title'])
             table += f"    | [{clean_title}]({l['url'].strip()}) | {l.get('tag','').replace('[','').replace(']','')} | {focus} | {l.get('language','English')} | {stars} |\n"
         return table + "\n"
 
     async def _write_premium_files(self, data: Dict[str, Dict], mosaic_html: str, videos_html: str):
         # 1. Update Index with Pulse
         trending_pool = sorted([dict(meta, url=url) for url, meta in self.inventory.items() if isinstance(meta, dict) and meta.get("stars", 0) >= 4], key=lambda x: (x.get("pub_date", "0000"), -x.get("stars", 0)), reverse=True)
-        pulse_md = "## The Agentic Pulse\n" + "\n".join([f"- **({l.get('pub_date', 'N/A')[:10]})** [**=={l['title'].strip()}==**]({l['url'].strip()}) {'🌟'*l.get('stars',3)}" for l in trending_pool[:5]])
+        pulse_md = "## The Agentic Pulse\n" + "\n".join([f"- **({l.get('pub_date', 'N/A')[:10]})** [**=={nuclear_strip(l['title'])}==**]({l['url'].strip()}) {'🌟'*l.get('stars',3)}" for l in trending_pool[:5]])
         
         index_md = (
             "# Nubenetes Elite Portal (V2) | Nubenetes: Awesome Kubernetes & Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)\n\n"
@@ -691,10 +703,10 @@ class V2VisionEngine:
             if "__links__" in node:
                 for l in node["__links__"]:
                     is_gold = is_intro and l.get("stars", 0) >= 4
-                    title = l['title'].replace("==", "") 
+                    title = nuclear_strip(l['title']) 
                     if is_gold:
                         img = f"    ![Preview]({l.get('social_preview_url')})\n" if l.get('social_preview_url') else ""
-                        md += f"??? note \"{title}\"\n{img}    **[Access Resource]({l['url']})** {'🌟'*l.get('stars',4)} | Level: {l.get('complexity', 'Beginner')}\n    \n    {l.get('ai_summary', l.get('description', ''))}\n\n"
+                        md += f"??? note \"{title}\"\n{img}    **[Access Resource]({l['url'].strip()})** {'🌟'*l.get('stars',4)} | Level: {l.get('complexity', 'Beginner')}\n    \n    {l.get('ai_summary', l.get('description', ''))}\n\n"
                     else:
                         year = l.get('year', 'N/A')
                         year_prefix = f"**({year})** " if year != 'N/A' else ""
@@ -715,8 +727,7 @@ class V2VisionEngine:
                         
                         # Apply Visual Highlighting based on stars
                         raw_stars = l.get('stars', 0)
-                        # Mandate 30: MD039 - Strip all whitespace (including non-breaking space) from link text
-                        link_content = title.strip().strip("\u00a0\u200b")
+                        link_content = title
                         if raw_stars >= 5:
                             link_content = f"=={link_content}=="
                         elif raw_stars >= 4:
@@ -739,7 +750,8 @@ class V2VisionEngine:
             md = f"# {info['title']}\n\n!!! info \"Architectural Context\"\n    Detailed reference for {info['title']} in the context of {info['dim']}.\n\n"
             
             if f_name == "introduction.md":
-                md += "## Vision 2026\n\n!!! quote \"The Evolution of Autonomy\"\n    From manual curation to agentic intelligence.\n\n### Ecosystem Map\n\n```mermaid\ngraph TD\n    A[Foundations] --> B[AI & Intelligence]\n    A --> C[Hardened Infra]\n    B --> D[Agentic Curation]\n    C --> E[Enterprise Stability]\n    D --> F[Nubenetes Portal]\n    E --> F\n```\n\n"
+                md += "## Vision 2026\n\n!!! quote \"The Evolution of Autonomy\"\n    From manual curation to agentic intelligence.\n\n### Ecosystem Map\n\n\n```mermaid\ngraph TD\n    A[Foundations] --> B[AI & Intelligence]\n    A --> C[Hardened Infra]\n    B --> D[Agentic Curation]\n    C --> E[Enterprise Stability]\n    D --> F[Nubenetes Portal]\n    E --> F\n```\n\n\n"
+
             
             md += await render_node(info["content"], -1, f_name.replace(".md", ""), used_headers, is_intro=(f_name=="introduction.md"))
             
