@@ -64,7 +64,7 @@
 
 #### Video Guides
 
-  - **(2023)** [youtube: Kubernetes Deployment Strategies | DevOps FAQ | DevOps DevOps Interview Q&A ](https://www.youtube.com/watch?v=aU-EtdEOdlM) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2023)** [youtube: Kubernetes Deployment Strategies | DevOps FAQ | DevOps DevOps Interview Q&A](https://www.youtube.com/watch?v=aU-EtdEOdlM) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         A highly educational video walkthrough explaining various Kubernetes deployment strategies including Rolling Updates, Recreate, Canary, and Blue-Green. Highly recommended for conceptual learning and technical interviews preparation.

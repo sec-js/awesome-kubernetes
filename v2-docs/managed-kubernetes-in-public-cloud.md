@@ -823,7 +823,7 @@
     ??? info "Technical Deep-Dive"
         Portal for Giant Swarm's fully managed enterprise Kubernetes management service. Emphasizes modern platform engineering workflows, governance tooling, and continuous operations support.
 
-  - **(2023)** [giantswarm.io: ](https://www.giantswarm.io/blog/turtles-all-the-way-down-are-still-just-turtles-giant-swarm) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2023)** [giantswarm.io:](https://www.giantswarm.io/blog/turtles-all-the-way-down-are-still-just-turtles-giant-swarm) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
     ??? info "Technical Deep-Dive"
         Explores Cluster API (CAPI) mechanics and nested control plane virtualization. Reviews how to conceptualize management vs. workload cluster nodes under Cluster-as-a-Resource topologies.

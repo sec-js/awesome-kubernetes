@@ -16,7 +16,7 @@
 
 ## Cloud Providers
 
-### Azure
+### Azure (1)
 
 #### AKS
 

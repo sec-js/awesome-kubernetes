@@ -5,7 +5,7 @@
 
 ## Application Delivery
 
-### Helm
+### Helm (1)
 
 #### Alternative Engines
 
@@ -346,7 +346,7 @@
     ??? info "Technical Deep-Dive"
         Analysis of integrating Helm templates with GitOps deployments, showing how to balance templated application metadata packaging with strict, declarative environment state tracking.
 
-#### Helm (1)
+#### Helm (2)
 
 
 ??? abstract "Architect's Technical Comparison Table"

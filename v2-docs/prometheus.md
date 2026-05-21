@@ -7,7 +7,7 @@
 
 ### Metrics
 
-#### Prometheus
+#### Prometheus (1)
 
   - **(2022)** [**Setup Prometheus Using Helm Chart on Kubernetes**](https://devopscube.com/setup-prometheus-helm-chart) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 

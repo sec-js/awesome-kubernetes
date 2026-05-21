@@ -1154,7 +1154,7 @@
     ??? info "Technical Deep-Dive"
         A highly-structured tutorial by Atlassian comparing Gitflow against alternative branching strategies. It offers clear operational blueprints and command examples, evaluating how the model coordinates scheduled release cycles while warning of its constraints in high-velocity CI/CD environments.
 
-  - **(2021)** [**youtube: Git Flow Is A Bad Idea - Dave Farley **](https://www.youtube.com/watch?v=_w6TwnLCFwA&ab_channel=ContinuousDelivery) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2021)** [**youtube: Git Flow Is A Bad Idea - Dave Farley**](https://www.youtube.com/watch?v=_w6TwnLCFwA&ab_channel=ContinuousDelivery) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
     ??? info "Technical Deep-Dive"
         A high-impact video by continuous delivery expert Dave Farley arguing why Git Flow acts as an anti-pattern for modern software delivery. He contrasts multi-branch isolation with the rapid feedback, safety, and velocity realized via strict trunk-based architectures.

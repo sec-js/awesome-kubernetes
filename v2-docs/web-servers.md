@@ -75,7 +75,7 @@
     ??? info "Technical Deep-Dive"
         A historical configuration repository demonstrating how to put Apache behind a Jenkins installation. Due to more than 4 years of inactivity and minimal community adoption, this project is deprioritized and kept primarily as a legacy configuration sample.
 
-### Web Servers
+### Web Servers (1)
 
 #### Apache HTTPD (1)
 

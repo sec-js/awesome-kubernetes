@@ -23,7 +23,7 @@
     ??? info "Technical Deep-Dive"
         Ambassador K8S Initializer is a browser-based wizard that creates custom templates for ingress rules, TLS configurations, and Kubernetes manifests, lowering initial administrative hurdles.
 
-#### Scaffolding
+#### Scaffolding (1)
 
   - **(2026)** [==jhipster==](https://www.jhipster.tech) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 

@@ -7,7 +7,7 @@
 
 ### In-Memory Databases
 
-#### Caching
+#### Caching (1)
 
   - **(2026)** [==Redis==](http://redis.io) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
