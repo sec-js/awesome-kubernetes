@@ -19,7 +19,9 @@ async def analyze_pr_diff(diff_text: str) -> str:
     {diff_text}
     """
     try:
-        response = await call_gemini_with_retry(prompt, prefer_flash=True)
+        # Mandate 50: Use Flash/Lite for rapid auditing and specify text format to avoid JSON parsing loops
+        response = await call_gemini_with_retry(prompt, prefer_flash=True, response_format="text", role="PR-Guardian")
+        await asyncio.sleep(1.0) # Safety delay to respect global RPM quota
         return str(response)
     except Exception as e:
         return f"⚠️ Guardian AI temporarily unavailable: {e}"
