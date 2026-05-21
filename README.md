@@ -383,21 +383,18 @@ To maintain the high-density quality of V2 without redundant AI costs, the `V2Vi
 4. **Flat Routing**: Both versions use `use_directory_urls: false` to ensure relative asset paths (`images/`) remain stable across all sub-pages.
 
 ### 5.5. V2 Workflow Trigger Strategy (Manual Flags)
-The **Nubenetes V2 Agentic Builder** workflow provides three manual checkboxes to control the intensity and depth of the curation run. Understanding when to use these flags is critical for balancing technical freshness with API quota management.
+The **Nubenetes V2 Agentic Builder** workflow provides three manual checkboxes to control the intensity and depth of the curation run.
 
-| Flag Name | Technical Variable | Primary Effect | When to Activate | Resource Impact |
-| :--- | :--- | :--- | :--- | :--- |
-| **Force full re-validation** | `FORCE_FULL_CHECK` | Bypasses the 21-day health cache. Forces a live network (HTTP) check for **all 15k+ links**. | Quarterly audits or when widespread site migrations are suspected. | **High Network I/O** |
-| **Enrich GitHub Metadata** | `ENRICH_METADATA` | Bypasses the star/pushed cache. Fetches **fresh metadata from GitHub API** for all repositories. | Before major version releases (V2.x) to ensure accurate `[DE FACTO STANDARD]` tagging. | **Medium API calls (GH)** |
-| **Force AI re-evaluation** | `FORCE_EVAL` | Bypasses the AI description cache. Forces Gemini to **re-summarize and re-tag every link**. | When changing architectural standards or updating the 2026 taxonomy. | **Ultra High AI Cost** |
+| Flag Name | Default | Technical Variable | Primary Effect | When to Activate | Resource Impact |
+| :--- | :---: | :--- | :--- | :--- | :--- |
+| **Force full re-validation** | ==OFF== | `FORCE_FULL_CHECK` | Bypasses 21-day health cache. Forces live HTTP check for **all links**. | Quarterly audits or major migrations. | **High Network** |
+| **Enrich GitHub Metadata** | ==OFF== | `ENRICH_METADATA` | Bypasses star/pushed cache. Fetches **fresh data from GitHub API**. | Before major version releases (V2.x). | **Medium (GH API)** |
+| **Force AI re-evaluation** | ==OFF== | `FORCE_EVAL` | Bypasses AI summary cache. **Full Gemini Re-run** for every link. | Changing architectural standards. | **Ultra High AI** |
 
 #### 🚀 The 'Fast/Standard' Run Configuration (Recommended)
-To ensure an **instantaneous execution** that prioritizes the cache and avoids unnecessary delays, the workflow should be launched with **all checkboxes disabled**:
-*   **Force full re-validation:** ==OFF== (Avoids Phase 1 massive network checks).
-*   **Force AI re-evaluation:** ==OFF== (Avoids re-writing perfectly valid existing summaries).
-*   **Enrich GitHub Metadata:** ==OFF== (Avoids the initial Phase 2 delay of fetching stars).
+To ensure an **instantaneous execution** (approx. 5-10 minutes) that prioritizes the cache, launch with **all checkboxes disabled**.
 
-> **Mandate 47 Sync:** If `Force AI re-evaluation` or `Force full re-validation` are enabled, the system will automatically perform metadata enrichment to ensure the AI uses the most current evidence for its architectural decisions.
+---
 
 ### 5.6. Multi-Language Support Policy
 To embrace the diverse global Cloud Native community while maintaining international discoverability, Nubenetes implements a dual-layer linguistic strategy powered by a **Data-First Architecture**:
@@ -720,20 +717,39 @@ The heart of the new Nubenetes is a suite of AI Agents that operate on our `deve
 Nubenetes uses a sophisticated multi-stage automation pipeline.
 
 ### 9.1. Workflow Inventory and Manual Control Matrix
-Nubenetes features a comprehensive suite of workflows that can be controlled manually via the GitHub Actions UI.
+Maintainers can manually trigger and tune workflows via the GitHub Actions UI. The following matrix details the available controls and their **Default (Set-and-Forget)** configurations.
 
-| # | Workflow / UI Interface | Source Code | Manual Control & Form Inputs | Default Behavior |
-| :---: | :--- | :--- | :--- | :--- |
-| **1** | **[Agentic Curation](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_cron.yml)** | [`.github/workflows/agentic_cron.yml`](.github/workflows/agentic_cron.yml) | • **`start_date`**: YYYY-MM-DD.<br/>• **`days_back`**: Relative range.<br/>• **`include_...`**: Domain toggles (K8s, AI, Cloud, etc).<br/>• **`exclude_accounts`**: Comma-separated list.<br/>• **`extraction_strategy`**: Search vs Scroll.<br/>• **`historical_mode`**: Bypass limits.<br/>• **`historical_chunked`**: Recursive execution.<br/>• **`historical_until_date`**: Chunk limit.<br/>• **`activate_backup_key`**: Identity rotation. | Monthly Discovery (Circuit Breaker Enabled) |
-| **2** | **[V2 Elite Builder](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_builder.yml)** | [`.github/workflows/agentic_v2_builder.yml`](.github/workflows/agentic_v2_builder.yml) | • **`force_reevaluate`**: Ignore AI cache.<br/>• **`enrich_metadata`**: Fetch stars/license.<br/>• **`activate_backup_key`**: Identity rotation. | Auto-Sync (Sequential Fast-Track) |
-| **3** | **[Link Health Check](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/intelligent_link_cleaner.yml)** | [`.github/workflows/intelligent_link_cleaner.yml`](.github/workflows/intelligent_link_cleaner.yml) | • **`force_full_check`**: Bypasses 21-day cache. | Quarterly Cleanup (Sequential Fast-Track) |
-| **4** | **[Backup Curation](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_backup.yml)** | [`.github/workflows/agentic_backup.yml`](.github/workflows/agentic_backup.yml) | • **`backup_file`**: Path to JSON/MD.<br/>• **`historical_mode`**: Force evaluation. | On-Demand |
-| **5** | **[README Sync](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/readme_sync.yml)** | [`.github/workflows/readme_sync.yml`](.github/workflows/readme_sync.yml) | *(No manual inputs)* | Push to `develop` |
-| **6** | **[Critical Monitor](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/critical_asset_monitor.yml)** | [`.github/workflows/critical_asset_monitor.yml`](.github/workflows/critical_asset_monitor.yml) | *(No manual inputs)* | 3-Month Pulse |
-| **7** | **[Merged Cleanup](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/cleanup_merged_branches.yml)** | [`.github/workflows/cleanup_merged_branches.yml`](.github/workflows/cleanup_merged_branches.yml) | *(No manual inputs)* | Bi-weekly (1st/15th) |
-| **8** | **[Production Deploy](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/main.yml)** | [`.github/workflows/main.yml`](.github/workflows/main.yml) | *(No manual inputs)* | Push to `master` |
-| **9** | **[PR Guardian](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/pr_guardian.yml)** | [`.github/workflows/pr_guardian.yml`](.github/workflows/pr_guardian.yml) | *(No manual inputs)* | PR Presubmit (AI Review) |
-| **10** | **[Markdown Linter](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/markdown_linter.yml)** | [`.github/workflows/markdown_linter.yml`](.github/workflows/markdown_linter.yml) | *(No manual inputs)* | PR/Push (Safety Check) |
+| # | Workflow | Primary Manual Flags | Default | Technical Effect |
+| :---: | :--- | :--- | :---: | :--- |
+| **1** | **Agentic Curation** | `historical_mode` | ==TRUE== | Processes all discovery sources (ignores 30-day window). |
+| | | `include_*` | ==TRUE== | Toggles specific topics (k8s, cloud, ai, etc.). |
+| **2** | **V2 Elite Builder** | `FORCE_FULL_CHECK` | ==FALSE== | Bypasses 21-day health cache (Live HTTP Check). |
+| | | `FORCE_EVAL` | ==FALSE== | Bypasses AI summary cache (Full Gemini Re-run). |
+| **3** | **Link Health Check**| `force_full_check` | ==FALSE== | Bypasses cache for global archive auditing. |
+| **4** | **Backup Curation** | `historical_mode` | ==TRUE== | Ignores time windows for static file processing. |
+
+#### 9.1.1. [1] Agentic Curation Strategy
+The **Nubenetes Automated Agentic Curation** workflow is designed to be exhaustive by default to ensure no emerging technical tool is missed.
+
+| Flag Name | Default | Technical Variable | Effect |
+| :--- | :---: | :--- | :--- |
+| **Historical Mode** | ==ON== | `historical_mode` | Ensures the discovery engine scans beyond the standard 30-day window. |
+| **Topic Toggles** | ==ON== | `include_k8s/cloud/ai` | Controls which domains are active in the current discovery run. |
+| **Backup Key** | ==OFF== | `activate_backup_key` | Enables Identity B (Subscription) for high-volume discovery bursts. |
+
+#### 9.1.2. [3] Intelligent Cleaner Strategy
+The **Nubenetes Intelligent Link Cleaner** focuses on archive integrity. Its default setup is optimized for incremental maintenance.
+
+| Flag Name | Default | Technical Variable | Effect |
+| :--- | :---: | :--- | :--- |
+| **Force full re-validation** | ==OFF== | `force_full_check` | Bypasses the 21-day "Last Checked" logic to force a full 17k+ link audit. |
+
+#### 9.1.3. [4] Backup Ingestion Strategy
+Used for processing legacy data or high-fidelity manual collections.
+
+| Flag Name | Default | Technical Variable | Effect |
+| :--- | :---: | :--- | :--- |
+| **Historical Mode** | ==ON== | `historical_mode` | Forces evaluation of all items in the backup file regardless of date. |
 
 ### 9.2. Recommended Execution Pipeline
 To maintain the archive's integrity, the following logical sequence is followed:
