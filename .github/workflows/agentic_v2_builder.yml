@@ -25,6 +25,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  workflows: write
 
 concurrency:
   group: v2-builder-${{ github.ref }}
