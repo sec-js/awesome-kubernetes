@@ -730,6 +730,7 @@ Maintainers can manually trigger and tune workflows via the GitHub Actions UI. T
 | | | `FORCE_EVAL` | ==FALSE== | Bypasses AI summary cache (Full Gemini Re-run). |
 | **3** | **Link Health Check**| `force_full_check` | ==FALSE== | Bypasses cache for global archive auditing. |
 | **4** | **Backup Curation** | `historical_mode` | ==TRUE== | Ignores time windows for static file processing. |
+| **6** | **Emergency PR** | N/A | ==READ-ONLY== | Generates PR from cache without AI calls. |
 
 #### 9.1.1. [1] Agentic Curation Strategy
 The **Nubenetes Automated Agentic Curation** workflow is designed to be exhaustive by default to ensure no emerging technical tool is missed.
@@ -753,6 +754,15 @@ Used for processing legacy data or high-fidelity manual collections.
 | Flag Name | Default | Technical Variable | Effect |
 | :--- | :---: | :--- | :--- |
 | **Historical Mode** | ==ON== | `historical_mode` | Forces evaluation of all items in the backup file regardless of date. |
+
+#### 9.1.4. [6] Emergency PR Strategy (Read-Only)
+Designed as a "Safety Off-ramp" to recover partially processed data from the GitHub Actions Cache.
+
+| Security Feature | Status | technical Effect |
+| :--- | :---: | :--- |
+| **Cache Writing** | ==DISABLED== | Guaranteed read-only access to prevent cache corruption. |
+| **AI Processing** | ==BYPASSED== | Uses the `--render-only` flag to skip all Gemini calls (Cost: $0). |
+| **Safety Reset** | ==ACTIVE== | Resets workflow YAMLs to prevent security permission rejections. |
 
 ### 9.2. Recommended Execution Pipeline
 To maintain the archive's integrity, the following logical sequence is followed:
@@ -960,6 +970,7 @@ To maintain transparency and ease of navigation, all key configuration, database
 - **V2 Elite Builder:** [`.github/workflows/agentic_v2_builder.yml`](.github/workflows/agentic_v2_builder.yml) — Generates the Elite curated portal using a sequential **Fast-Track** execution. Supports `force_reevaluate` (refreshes AI scores) and `enrich_metadata` (fetches real-time GitHub stars/license data).
 - **Health & Maintenance:** [`.github/workflows/intelligent_link_cleaner.yml`](.github/workflows/intelligent_link_cleaner.yml) — Performs sequential health checks and inventory reduction.
 - **README Metrics Sync:** [`.github/workflows/readme_sync.yml`](.github/workflows/readme_sync.yml)
+- **Emergency PR Generator:** [`.github/workflows/agentic_v2_pr_only.yml`](.github/workflows/agentic_v2_pr_only.yml) — Recovery tool to publish current cached data without AI costs.
 - **Deployment Pipeline:** [`.github/workflows/main.yml`](.github/workflows/main.yml) — Native GitHub Pages deployment using artifacts and pip caching.
 
 ### 13.4. Agentic AI Source Code
