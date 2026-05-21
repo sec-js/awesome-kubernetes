@@ -22,7 +22,7 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install --no-cache-dir httpx PyGithub tenacity
+          pip install --no-cache-dir pydantic PyGithub httpx fake-useragent pytz python-dotenv pyyaml tenacity
 
       - name: Run PR Guardian Analysis
         env:
