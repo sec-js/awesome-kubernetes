@@ -690,7 +690,8 @@ The heart of the new Nubenetes is a suite of AI Agents that operate on our `deve
 4.  **Resilient Architecture Core**:
     - **Exponential Backoff**: Intelligent `tenacity`-based retry logic in `gemini_utils.py` gracefully handles 429 Rate Limits before triggering the Circuit Breaker.
     - **Flash-First Architecture**: Prioritizes Gemini Flash/Lite models for high-density Analyst tasks, enabling processing of 10,000+ resources within the 6-hour GitHub Actions limit through 100-item batching and 2-second safety delays.
-    - **Fast-Track Sequential Model**: Optimized for stability and speed, bypassing the complexity of distributed systems.
+    - **Incremental Persistence (Mandate 22)**: Implements an auto-save mechanism that flushes the `inventory.yaml` database to disk every 20 batches. This ensures that progress is never lost even if a workflow run is interrupted or cancelled.
+    - **Fast-Track Sequential Model**: Optimized for stability and speed, bypassing the complexity of distributed systems and leveraging the pre-computed metadata from the inventory.
     - **Pip Caching**: All workflows utilize `cache: pip` for lightning-fast execution and reduced compute costs.
     - **AI PR Guardian**: Enforces the `PULL_REQUEST_TEMPLATE.md` checklist automatically on community contributions.
 
