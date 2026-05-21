@@ -250,6 +250,7 @@ ocp_update2.png
 ocp_update3.png
 ocp_upi.png
 ocs_dashboard.png
+olena_kutsenko.jpg
 openebs_logo.jpg
 openproject_logo.jpg
 openshift4-architecture.png
