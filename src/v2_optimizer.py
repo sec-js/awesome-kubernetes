@@ -655,15 +655,29 @@ class V2VisionEngine:
         
         with open(os.path.join(V2_DIR, "index.md"), "w") as f: f.write(index_md)
 
-        async def render_node(node, depth, base_slug, is_intro=False):
+        async def render_node(node, depth, base_slug, used_headers, is_intro=False):
             md = ""
             for name, subnode in sorted(node.items()):
                 if name == "__links__": continue
                 clean_name = clean_toc_text(name)
-                slug = f"{base_slug}-{clean_name.lower().replace(' ', '-')}"
-                md += f"{'#' * min(6, depth + 2)} {clean_name}\n\n"
-                if depth == 1 and "__links__" in subnode: md += await self._generate_comparison_table(subnode["__links__"])
-                md += await render_node(subnode, depth + 1, slug, is_intro)
+                
+                # Mandate 30: MD024 - Deduplicate headings to prevent Linter errors
+                h_name = clean_name
+                counter = 1
+                while h_name in used_headers:
+                    h_name = f"{clean_name} ({counter})"
+                    counter += 1
+                used_headers.add(h_name)
+                
+                slug = f"{base_slug}-{h_name.lower().replace(' ', '-')}"
+                # MD025: Ensure only one H1. Main title is H1, so internal headers start at H2 (depth + 3)
+                header_level = min(6, depth + 3) 
+                md += f"{'#' * header_level} {h_name}\n\n"
+                
+                if depth == 1 and "__links__" in subnode: 
+                    md += await self._generate_comparison_table(subnode["__links__"])
+                
+                md += await render_node(subnode, depth + 1, slug, used_headers, is_intro)
             
             if "__links__" in node:
                 for l in node["__links__"]:
@@ -709,12 +723,13 @@ class V2VisionEngine:
             return md
 
         for f_name, info in data.items():
+            used_headers = set() # Per-file header tracking
             md = f"# {info['title']}\n\n!!! info \"Architectural Context\"\n    Detailed reference for {info['title']} in the context of {info['dim']}.\n\n"
             
             if f_name == "introduction.md":
                 md += "## Vision 2026\n\n!!! quote \"The Evolution of Autonomy\"\n    From manual curation to agentic intelligence.\n\n### Ecosystem Map\n```mermaid\ngraph TD\n    A[Foundations] --> B[AI & Intelligence]\n    A --> C[Hardened Infra]\n    B --> D[Agentic Curation]\n    C --> E[Enterprise Stability]\n    D --> F[Nubenetes Portal]\n    E --> F\n```\n\n"
             
-            md += await render_node(info["content"], -1, f_name.replace(".md", ""), is_intro=(f_name=="introduction.md"))
+            md += await render_node(info["content"], -1, f_name.replace(".md", ""), used_headers, is_intro=(f_name=="introduction.md"))
             
             # Add Semantic "See Also" ONLY ONCE at the end of the page
             related = [f"[{data[f]['title']}](./{f})" for f in data if f != f_name and data[f]["dim"] == info["dim"]]
