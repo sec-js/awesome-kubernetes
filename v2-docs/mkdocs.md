@@ -11,16 +11,8 @@
 
   - **(2025)** [**docs.traefik.io**](https://doc.traefik.io/traefik) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
-      ??? info "Technical Deep-Dive"
-          The official documentation for Traefik Proxy, showcasing a clean, production-grade implementation of MkDocs. It illustrates how complex microservice routing, TLS termination, and middleware configurations can be elegantly structured. Double-Evidence: While initially seen as a standard documentation site, live grounding shows it serves as a golden reference for structural information layout and API reference nesting in cloud-native ingress architectures.
-
-
-***
-💡 **Explore Related:** [Cheatsheets](./cheatsheets.md) | [Linux](./linux.md) | [Introduction](./introduction.md)
-
-
-***
-💡 **Explore Related:** [Cheatsheets](./cheatsheets.md) | [Linux](./linux.md) | [Introduction](./introduction.md)
+    ??? info "Technical Deep-Dive"
+        The official documentation for Traefik Proxy, showcasing a clean, production-grade implementation of MkDocs. It illustrates how complex microservice routing, TLS termination, and middleware configurations can be elegantly structured. Double-Evidence: While initially seen as a standard documentation site, live grounding shows it serves as a golden reference for structural information layout and API reference nesting in cloud-native ingress architectures.
 
 ## Developer Experience
 
@@ -28,129 +20,97 @@
 
   - **(2024)** [build5nines.com: GitHub Actions: Run Pandoc to convert Markdown to Word Document](https://build5nines.com/github-actions-run-pandoc-to-convert-markdown-to-word-document) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
-      ??? info "Technical Deep-Dive"
-          A step-by-step implementation guide demonstrating how to use GitHub Actions and Pandoc to dynamically convert Markdown documentation into Microsoft Word formats. This pipeline bridges technical writing with corporate document delivery workflows. Double-Evidence: The guide streamlines document translation, and live grounding highlights its practical value in enterprise environments where technical documentation must be exported for non-technical stakeholders automatically.
+    ??? info "Technical Deep-Dive"
+        A step-by-step implementation guide demonstrating how to use GitHub Actions and Pandoc to dynamically convert Markdown documentation into Microsoft Word formats. This pipeline bridges technical writing with corporate document delivery workflows. Double-Evidence: The guide streamlines document translation, and live grounding highlights its practical value in enterprise environments where technical documentation must be exported for non-technical stakeholders automatically.
 
   - **(2023)** [thomasthornton.cloud: Deploying MkDocs to GitHub Pages with GitHub Actions](https://thomasthornton.cloud/deploying-mkdocs-to-github-pages-with-github-actions) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
-      ??? info "Technical Deep-Dive"
-          A walkthrough detailing the automation of MkDocs builds and their subsequent deployment to GitHub Pages using custom GitHub Actions. It highlights optimal repository configurations and credential management for secure deployments. Double-Evidence: The author outlines simple build actions, and live grounding verifies that this approach remains the standard practice for automated documentation deployment in modern software repositories.
+    ??? info "Technical Deep-Dive"
+        A walkthrough detailing the automation of MkDocs builds and their subsequent deployment to GitHub Pages using custom GitHub Actions. It highlights optimal repository configurations and credential management for secure deployments. Double-Evidence: The author outlines simple build actions, and live grounding verifies that this approach remains the standard practice for automated documentation deployment in modern software repositories.
 
   - **(2023)** [dev.to: How to View Build Logs for GitHub Pages](https://dev.to/github/visualize-github-pages-build-logs-1mc1) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
-      ??? info "Technical Deep-Dive"
-          A debugging guide that illustrates how to locate, read, and interpret build and compilation logs within GitHub Actions to resolve static site generation failures on GitHub Pages. Double-Evidence: A critical operational guide for developers, live grounding confirms its troubleshooting utility when Jekyll or MkDocs compilation fails due to malformed Markdown or missing dependencies.
-
-
-***
-💡 **Explore Related:** [Cheatsheets](./cheatsheets.md) | [Linux](./linux.md) | [Introduction](./introduction.md)
+    ??? info "Technical Deep-Dive"
+        A debugging guide that illustrates how to locate, read, and interpret build and compilation logs within GitHub Actions to resolve static site generation failures on GitHub Pages. Double-Evidence: A critical operational guide for developers, live grounding confirms its troubleshooting utility when Jekyll or MkDocs compilation fails due to malformed Markdown or missing dependencies.
 
 ### Documentation Engines
 
   - **(2025)** [==Material for MkDocs==](https://squidfunk.github.io/mkdocs-material) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
-      ??? info "Technical Deep-Dive"
-          A premium, highly customizable theme for MkDocs built on top of HTML5, CSS3, and JavaScript, featuring built-in search, localization, and responsive layouts. It offers advanced search, syntax highlighting, and custom components natively. Double-Evidence: Widely regarded as the premier interface for technical docs, live grounding confirms it is the industry-standard choice for enterprise-grade open-source documentation hubs due to its high accessibility and extensive feature set.
+    ??? info "Technical Deep-Dive"
+        A premium, highly customizable theme for MkDocs built on top of HTML5, CSS3, and JavaScript, featuring built-in search, localization, and responsive layouts. It offers advanced search, syntax highlighting, and custom components natively. Double-Evidence: Widely regarded as the premier interface for technical docs, live grounding confirms it is the industry-standard choice for enterprise-grade open-source documentation hubs due to its high accessibility and extensive feature set.
 
   - **(2024)** [==MkDocs==](https://www.mkdocs.org) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
-      ??? info "Technical Deep-Dive"
-          A fast, simple, and highly customizable static site generator geared towards building project documentation. Written in Python and configured with a single YAML file, it translates Markdown sources into lightweight, responsive static sites. Double-Evidence: While traditional documentation systems require heavy server-side rendering, live grounding confirms MkDocs remains a foundational tool in enterprise GitOps-driven documentation pipelines.
+    ??? info "Technical Deep-Dive"
+        A fast, simple, and highly customizable static site generator geared towards building project documentation. Written in Python and configured with a single YAML file, it translates Markdown sources into lightweight, responsive static sites. Double-Evidence: While traditional documentation systems require heavy server-side rendering, live grounding confirms MkDocs remains a foundational tool in enterprise GitOps-driven documentation pipelines.
 
   - **(2024)** [freecodecamp.org: Documentation Libraries to Help You Write Good Docs](https://www.freecodecamp.org/news/documentation-libraries-to-help-you-write-good-docs) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
-      ??? info "Technical Deep-Dive"
-          A curated review comparing several popular documentation frameworks, including Docusaurus, Docsify, MkDocs, and GitBook, assessing their performance, ease of use, and customization options. Double-Evidence: This resource acts as an initial architecture decision record, and live grounding confirms its high educational value for teams selecting a documentation framework aligned with their technical stacks.
+    ??? info "Technical Deep-Dive"
+        A curated review comparing several popular documentation frameworks, including Docusaurus, Docsify, MkDocs, and GitBook, assessing their performance, ease of use, and customization options. Double-Evidence: This resource acts as an initial architecture decision record, and live grounding confirms its high educational value for teams selecting a documentation framework aligned with their technical stacks.
 
   - **(2020)** [opensource.com: How to create a documentation site with Docsify and GitHub Pages](https://opensource.com/article/20/7/docsify-github-pages) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
-      ??? info "Technical Deep-Dive"
-          A technical guide explaining how to deploy a dynamic, zero-build documentation site using Docsify hosted on GitHub Pages. Docsify parses Markdown files on the fly in the browser, eliminating the static pre-compilation step. Double-Evidence: This guide explores alternative lightweight documentation patterns, and live grounding shows Docsify is highly valued for simple project wikis where build pipeline complexity is undesired.
+    ??? info "Technical Deep-Dive"
+        A technical guide explaining how to deploy a dynamic, zero-build documentation site using Docsify hosted on GitHub Pages. Docsify parses Markdown files on the fly in the browser, eliminating the static pre-compilation step. Double-Evidence: This guide explores alternative lightweight documentation patterns, and live grounding shows Docsify is highly valued for simple project wikis where build pipeline complexity is undesired.
 
   - **(2025)** [websites that use MkDocs](https://www.wappalyzer.com/technologies/documentation-tools/mkdocs) 🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-      ??? info "Technical Deep-Dive"
-          A technology profile tracking the adoption and deployment footprint of MkDocs across live web properties. Provides analytics, traffic estimates, and structural deployment metrics for sites using this engine. Double-Evidence: Curator tracking shows widespread enterprise adoption; live grounding confirms its extensive use among developer-centric SaaS products and open-source platforms.
-
-
-***
-💡 **Explore Related:** [Cheatsheets](./cheatsheets.md) | [Linux](./linux.md) | [Introduction](./introduction.md)
+    ??? info "Technical Deep-Dive"
+        A technology profile tracking the adoption and deployment footprint of MkDocs across live web properties. Provides analytics, traffic estimates, and structural deployment metrics for sites using this engine. Double-Evidence: Curator tracking shows widespread enterprise adoption; live grounding confirms its extensive use among developer-centric SaaS products and open-source platforms.
 
 ### Documentation Platforms
 
   - **(2024)** [**gitbook.com**](https://www.gitbook.com) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
-      ??? info "Technical Deep-Dive"
-          A collaborative, cloud-hosted documentation platform that simplifies knowledge sharing for technical and non-technical teams alike. Integrates natively with Git repositories while offering rich visual editors. Double-Evidence: Transitioned from an open-source CLI to a full SaaS platform; live grounding shows GitBook is widely adopted by commercial SaaS companies for product user-guides and internal engineering playbooks.
-
-
-***
-💡 **Explore Related:** [Cheatsheets](./cheatsheets.md) | [Linux](./linux.md) | [Introduction](./introduction.md)
+    ??? info "Technical Deep-Dive"
+        A collaborative, cloud-hosted documentation platform that simplifies knowledge sharing for technical and non-technical teams alike. Integrates natively with Git repositories while offering rich visual editors. Double-Evidence: Transitioned from an open-source CLI to a full SaaS platform; live grounding shows GitBook is widely adopted by commercial SaaS companies for product user-guides and internal engineering playbooks.
 
 ### Frontend Engineering
 
   - **(2023)** [dev.to: How we made the __markdown toolbar__](https://dev.to/devteam/how-we-made-the-markdown-toolbar-4f09) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-      ??? info "Technical Deep-Dive"
-          An engineering deep-dive by the Dev.to development team detailing the design, performance considerations, and implementation of their native, high-performance Markdown toolbar. Covers textarea manipulations and keyboard short-cuts. Double-Evidence: The article outlines custom editor integrations; live grounding confirms its value for engineering teams looking to implement intuitive, real-time rich-text Markdown editing interfaces in custom web platforms.
-
-
-***
-💡 **Explore Related:** [Cheatsheets](./cheatsheets.md) | [Linux](./linux.md) | [Introduction](./introduction.md)
+    ??? info "Technical Deep-Dive"
+        An engineering deep-dive by the Dev.to development team detailing the design, performance considerations, and implementation of their native, high-performance Markdown toolbar. Covers textarea manipulations and keyboard short-cuts. Double-Evidence: The article outlines custom editor integrations; live grounding confirms its value for engineering teams looking to implement intuitive, real-time rich-text Markdown editing interfaces in custom web platforms.
 
 ### Knowledge Management
 
   - **(2023)** [dev.to: An amazing note-taking system with Markdown and Git Series' Articles](https://dev.to/scottshipp/series/15100) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
-      ??? info "Technical Deep-Dive"
-          A comprehensive multi-part series detailing the configuration of a personal knowledge management system utilizing Markdown and Git version control. Explores organizational hierarchies, local editor configurations, and automated synchronization strategies. Double-Evidence: The guide outlines decentralized note-taking, and live grounding validates its utility for developers moving away from proprietary, centralized SaaS tools toward local-first GitOps practices.
-
-
-***
-💡 **Explore Related:** [Cheatsheets](./cheatsheets.md) | [Linux](./linux.md) | [Introduction](./introduction.md)
+    ??? info "Technical Deep-Dive"
+        A comprehensive multi-part series detailing the configuration of a personal knowledge management system utilizing Markdown and Git version control. Explores organizational hierarchies, local editor configurations, and automated synchronization strategies. Double-Evidence: The guide outlines decentralized note-taking, and live grounding validates its utility for developers moving away from proprietary, centralized SaaS tools toward local-first GitOps practices.
 
 ### Office and Collaboration Tools
 
   - **(2022)** [theverge.com: Google Docs is getting more Markdown support](https://www.theverge.com/2022/3/29/23002138/google-docs-markdown-support-formatting-update) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-      ??? info "Technical Deep-Dive"
-          News coverage of Google Workspace's expanded native Markdown support, allowing users to format lists, headers, and text formatting via inline Markdown symbols inside Google Docs. Double-Evidence: Highlighting the convergence of developer patterns and mainstream office productivity tools, live grounding confirms this feature significantly bridges the gap between raw code documentation and collaborative enterprise writing.
+    ??? info "Technical Deep-Dive"
+        News coverage of Google Workspace's expanded native Markdown support, allowing users to format lists, headers, and text formatting via inline Markdown symbols inside Google Docs. Double-Evidence: Highlighting the convergence of developer patterns and mainstream office productivity tools, live grounding confirms this feature significantly bridges the gap between raw code documentation and collaborative enterprise writing.
 
   - **(2022)** [popsci.com: Google’s expanded Markdown feature could change how you work](https://www.popsci.com/diy/use-markdown-google) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
-      ??? info "Technical Deep-Dive"
-          A workflow guide explaining how to leverage Google Docs' integrated Markdown parsing engine to boost document draft speeds and establish seamless collaborative writing habits for diverse technical teams. Double-Evidence: This article outlines practical text-entry benefits, while live grounding indicates its effectiveness for streamlining hybrid workflows where engineers draft in Markdown and product managers review in real-time document editors.
-
-
-***
-💡 **Explore Related:** [Cheatsheets](./cheatsheets.md) | [Linux](./linux.md) | [Introduction](./introduction.md)
+    ??? info "Technical Deep-Dive"
+        A workflow guide explaining how to leverage Google Docs' integrated Markdown parsing engine to boost document draft speeds and establish seamless collaborative writing habits for diverse technical teams. Double-Evidence: This article outlines practical text-entry benefits, while live grounding indicates its effectiveness for streamlining hybrid workflows where engineers draft in Markdown and product managers review in real-time document editors.
 
 ### Static Site Generators
 
   - **(2021)** [opensource.com: Build your website with Jekyll](https://opensource.com/article/21/9/build-website-jekyll) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
-      ??? info "Technical Deep-Dive"
-          A deep-dive guide to Jekyll, the Ruby-based static site generator that powers GitHub Pages default build actions. Outlines site configuration, directory structure, liquid templating, and page compilation. Double-Evidence: While newer engines (like Hugo and MkDocs) are often preferred for modern technical sites, live grounding verifies Jekyll remains a robust, highly extensible engine for complex blogs and static portfolios.
-
-
-***
-💡 **Explore Related:** [Cheatsheets](./cheatsheets.md) | [Linux](./linux.md) | [Introduction](./introduction.md)
+    ??? info "Technical Deep-Dive"
+        A deep-dive guide to Jekyll, the Ruby-based static site generator that powers GitHub Pages default build actions. Outlines site configuration, directory structure, liquid templating, and page compilation. Double-Evidence: While newer engines (like Hugo and MkDocs) are often preferred for modern technical sites, live grounding verifies Jekyll remains a robust, highly extensible engine for complex blogs and static portfolios.
 
 ### Static Site Hosting
 
   - **(2024)** [==pages.github.com==](https://pages.github.com) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
-      ??? info "Technical Deep-Dive"
-          A static site hosting service offered directly by GitHub that takes HTML, CSS, and JavaScript files straight from a repository, optionally running them through a build process, and publishes a website. Double-Evidence: The primary deployment target for documentation sites, live grounding confirms GitHub Pages remains the most integrated, reliable, and cost-effective hosting layer for open-source project documentation.
+    ??? info "Technical Deep-Dive"
+        A static site hosting service offered directly by GitHub that takes HTML, CSS, and JavaScript files straight from a repository, optionally running them through a build process, and publishes a website. Double-Evidence: The primary deployment target for documentation sites, live grounding confirms GitHub Pages remains the most integrated, reliable, and cost-effective hosting layer for open-source project documentation.
 
   - **(2021)** [**Access control for GitHub Pages**](https://github.blog/changelog/2021-01-21-access-control-for-github-pages) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
-      ??? info "Technical Deep-Dive"
-          Official announcement of access control integration for GitHub Pages, allowing enterprise administrators to restrict documentation site visibility to specific organization members. Double-Evidence: This feature bridges open-source tooling with corporate governance, and live grounding confirms it is essential for securing internal architecture wikis, runbooks, and design docs without deploying dedicated servers.
-
-
-***
-💡 **Explore Related:** [Cheatsheets](./cheatsheets.md) | [Linux](./linux.md) | [Introduction](./introduction.md)
+    ??? info "Technical Deep-Dive"
+        Official announcement of access control integration for GitHub Pages, allowing enterprise administrators to restrict documentation site visibility to specific organization members. Double-Evidence: This feature bridges open-source tooling with corporate governance, and live grounding confirms it is essential for securing internal architecture wikis, runbooks, and design docs without deploying dedicated servers.
 
 ### Technical Writing Utilities
 
@@ -167,50 +127,38 @@
 
   - **(2024)** [==Markdown Cheat Sheet 4==](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) <span class='md-tag md-tag--info'>⭐ 60201</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
-      ??? info "Technical Deep-Dive"
-          One of the most referenced cheat sheets on GitHub for fast, offline-compatible Markdown syntax lookups. Includes rendering comparisons for basic elements, blockquotes, code blocks, and inline HTML. Double-Evidence: Despite its age, live grounding confirms its massive utility and continued reference value in developer wikis, representing a classic standard for text formatting.
+    ??? info "Technical Deep-Dive"
+        One of the most referenced cheat sheets on GitHub for fast, offline-compatible Markdown syntax lookups. Includes rendering comparisons for basic elements, blockquotes, code blocks, and inline HTML. Double-Evidence: Despite its age, live grounding confirms its massive utility and continued reference value in developer wikis, representing a classic standard for text formatting.
 
   - **(2024)** [==github.com/Ileriayo/markdown-badges: Markdown Badges==](https://github.com/Ileriayo/markdown-badges) <span class='md-tag md-tag--info'>⭐ 16595</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
-      ??? info "Technical Deep-Dive"
-          A massive curated catalog of dynamic, consistent, and beautiful SVG shields and badges for GitHub repositories. It supports a wide array of languages, frameworks, cloud providers, and developer tools. Double-Evidence: The catalog provides standardized visual signifiers; live grounding confirms it is standard practice for enriching project READMEs to present structured metadata about technologies and CI status.
+    ??? info "Technical Deep-Dive"
+        A massive curated catalog of dynamic, consistent, and beautiful SVG shields and badges for GitHub repositories. It supports a wide array of languages, frameworks, cloud providers, and developer tools. Double-Evidence: The catalog provides standardized visual signifiers; live grounding confirms it is standard practice for enriching project READMEs to present structured metadata about technologies and CI status.
 
   - **(2025)** [**Markdown Tables Generator**](https://www.tablesgenerator.com/markdown_tables) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
-      ??? info "Technical Deep-Dive"
-          An interactive, web-based tool designed to simplify the creation, styling, and formatting of complex Markdown tables. It supports imports from CSV or Excel, reducing manual syntax alignment overhead. Double-Evidence: A staple utility for technical writers; live grounding confirms its status as a critical efficiency booster for maintaining clean, readable tabular data in Markdown-based documents.
+    ??? info "Technical Deep-Dive"
+        An interactive, web-based tool designed to simplify the creation, styling, and formatting of complex Markdown tables. It supports imports from CSV or Excel, reducing manual syntax alignment overhead. Double-Evidence: A staple utility for technical writers; live grounding confirms its status as a critical efficiency booster for maintaining clean, readable tabular data in Markdown-based documents.
 
   - **(2024)** [**guides.github.com: Markdown Cheat Sheet 2**](https://docs.github.com/en) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
-      ??? info "Technical Deep-Dive"
-          The authoritative documentation portal for GitHub, offering deep-dives into GitHub Flavored Markdown (GFM) and integration patterns. It outlines security implications, task lists, and interactive rendering rules. Double-Evidence: While a generic entry point, live grounding confirms this repository of guides is the primary reference for understanding platform-specific rendering behaviors on the GitHub UI.
+    ??? info "Technical Deep-Dive"
+        The authoritative documentation portal for GitHub, offering deep-dives into GitHub Flavored Markdown (GFM) and integration patterns. It outlines security implications, task lists, and interactive rendering rules. Double-Evidence: While a generic entry point, live grounding confirms this repository of guides is the primary reference for understanding platform-specific rendering behaviors on the GitHub UI.
 
   - **(2024)** [**readme.so**](https://readme.so) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
-      ??? info "Technical Deep-Dive"
-          An interactive, visual editor designed to structure README files rapidly. Users can drag and drop pre-configured sections (e.g., Installation, API Reference, Badges) and edit them in real-time. Double-Evidence: Designed to simplify project landing pages, live grounding validates readme.so as an essential productivity tool that significantly improves repository discoverability and onboarding quality.
+    ??? info "Technical Deep-Dive"
+        An interactive, visual editor designed to structure README files rapidly. Users can drag and drop pre-configured sections (e.g., Installation, API Reference, Badges) and edit them in real-time. Double-Evidence: Designed to simplify project landing pages, live grounding validates readme.so as an essential productivity tool that significantly improves repository discoverability and onboarding quality.
 
   - **(2022)** [**github.blog: Include diagrams in your Markdown files with Mermaid**](https://github.blog/developer-skills/github/include-diagrams-markdown-files-mermaid) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
-      ??? info "Technical Deep-Dive"
-          Announcement and engineering guide detailing GitHub's native support for Mermaid.js diagrams directly within Markdown. Enables the declarative creation of flowcharts, sequence diagrams, and architecture maps in plain text. Double-Evidence: Moving from static image uploads to text-based diagram rendering, live grounding highlights this feature as a massive advancement for keeping software architecture diagrams in sync with code updates via Git.
+    ??? info "Technical Deep-Dive"
+        Announcement and engineering guide detailing GitHub's native support for Mermaid.js diagrams directly within Markdown. Enables the declarative creation of flowcharts, sequence diagrams, and architecture maps in plain text. Double-Evidence: Moving from static image uploads to text-based diagram rendering, live grounding highlights this feature as a massive advancement for keeping software architecture diagrams in sync with code updates via Git.
 
   - **(2019)** [opensource.com: An introduction to Markdown](https://opensource.com/article/19/9/introduction-markdown) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-      ??? info "Technical Deep-Dive"
-          A foundational article outlining the philosophy and implementation of Markdown as an open-source plain-text formatting syntax. It highlights the productivity gains of writing in readable text without GUI editor lock-in. Double-Evidence: This guide advocates for standard open documentation formats, and live grounding demonstrates its usefulness for onboarding team members transitioning to modern plain-text documentation workflows.
-
-
-***
-💡 **Explore Related:** [Cheatsheets](./cheatsheets.md) | [Linux](./linux.md) | [Introduction](./introduction.md)
-
-
-***
-💡 **Explore Related:** [Cheatsheets](./cheatsheets.md) | [Linux](./linux.md) | [Introduction](./introduction.md)
-
-
-***
-💡 **Explore Related:** [Cheatsheets](./cheatsheets.md) | [Linux](./linux.md) | [Introduction](./introduction.md)
+    ??? info "Technical Deep-Dive"
+        A foundational article outlining the philosophy and implementation of Markdown as an open-source plain-text formatting syntax. It highlights the productivity gains of writing in readable text without GUI editor lock-in. Double-Evidence: This guide advocates for standard open documentation formats, and live grounding demonstrates its usefulness for onboarding team members transitioning to modern plain-text documentation workflows.
 
 # Data Science and AI
 
@@ -220,20 +168,8 @@
 
   - **(2022)** [r-bloggers.com: How to use R Markdown (part one)](https://www.r-bloggers.com/2022/02/how-to-use-r-markdown-part-one) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
 
-      ??? info "Technical Deep-Dive"
-          An introductory tutorial on R Markdown, illustrating how to combine executable R code blocks with narrative text to generate reproducible, high-quality analytical reports. Explores output compilation into HTML, PDF, and MS Word. Double-Evidence: While tailored to statistics, live grounding highlights R Markdown's critical role in reproducible research, data engineering pipelines, and programmatic executive report generation.
-
-
-***
-💡 **Explore Related:** [Cheatsheets](./cheatsheets.md) | [Linux](./linux.md) | [Introduction](./introduction.md)
-
-
-***
-💡 **Explore Related:** [Cheatsheets](./cheatsheets.md) | [Linux](./linux.md) | [Introduction](./introduction.md)
-
-
-***
-💡 **Explore Related:** [Cheatsheets](./cheatsheets.md) | [Linux](./linux.md) | [Introduction](./introduction.md)
+    ??? info "Technical Deep-Dive"
+        An introductory tutorial on R Markdown, illustrating how to combine executable R code blocks with narrative text to generate reproducible, high-quality analytical reports. Explores output compilation into HTML, PDF, and MS Word. Double-Evidence: While tailored to statistics, live grounding highlights R Markdown's critical role in reproducible research, data engineering pipelines, and programmatic executive report generation.
 
 
 ***
