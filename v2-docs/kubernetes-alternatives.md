@@ -9,255 +9,107 @@
 
 #### Plugins and Extensions
 
-  - **(2024)** [llama.cpp plugin](https://github.com/samyfodil/taubyte-llama-satellite) <span class='md-tag md-tag--info'>⭐ 17</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-An experimental extension linking llama.cpp to the Taubyte engine, enabling localized, serverless large language model (LLM) inference across edge nodes.
-
-</div></details>
+  - **(2024)** [llama.cpp plugin](https://github.com/samyfodil/taubyte-llama-satellite) <span class='md-tag md-tag--info'>⭐ 17</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — An experimental extension linking llama.cpp to the Taubyte engine, enabling localized, serverless large language model (LLM) inference across edge nodes.
 ## Cloud Platforms
 
 ### AWS Infrastructure
 
 #### Container Management
 
-  - **(2023)** [techtarget.com: Amazon ECS vs. Kubernetes: Which should you use on AWS?](https://www.techtarget.com/searchcloudcomputing/answer/Amazon-ECS-vs-Kubernetes-Which-should-you-use-on-AWS) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-A comprehensive comparison outlining the structural and operational trade-offs between AWS's native Elastic Container Service (ECS) and fully managed Kubernetes (EKS). While ECS significantly lowers execution overhead and integration hurdles on AWS, EKS remains highly favored for multi-cloud parity and vendor-agnostic architecture designs.
-
-</div></details>
+  - **(2023)** [techtarget.com: Amazon ECS vs. Kubernetes: Which should you use on AWS?](https://www.techtarget.com/searchcloudcomputing/answer/Amazon-ECS-vs-Kubernetes-Which-should-you-use-on-AWS) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive comparison outlining the structural and operational trade-offs between AWS's native Elastic Container Service (ECS) and fully managed Kubernetes (EKS). While ECS significantly lowers execution overhead and integration hurdles on AWS, EKS remains highly favored for multi-cloud parity and vendor-agnostic architecture designs.
 #### Hybrid Orchestration
 
-  - **(2021)** [thenewstack.io: No Kubernetes Needed: Amazon ECS Anywhere](https://thenewstack.io/no-kubernetes-needed-amazon-ecs-anywhere) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-Analyzes Amazon ECS Anywhere as an alternative orchestration pathway bypassing Kubernetes complexity for on-premises hardware. Emphasizes the technical benefits of running native ECS task definitions in a hybrid cloud configuration with identical control plane semantics.
-
-</div></details>
+  - **(2021)** [thenewstack.io: No Kubernetes Needed: Amazon ECS Anywhere](https://thenewstack.io/no-kubernetes-needed-amazon-ecs-anywhere) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes Amazon ECS Anywhere as an alternative orchestration pathway bypassing Kubernetes complexity for on-premises hardware. Emphasizes the technical benefits of running native ECS task definitions in a hybrid cloud configuration with identical control plane semantics.
 ## Configuration Management
 
 ### Infrastructure as Code
 
 #### Ansible Automation
 
-  - **(2022)** [galaxy.ansible.com: Docker Ansible Role](https://galaxy.ansible.com/atosatto/docker-swarm) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-An open-source Ansible role facilitating the automated provisioning, node join orchestration, and operational state initialization of multi-host Docker Swarm clusters.
-
-</div></details>
+  - **(2022)** [galaxy.ansible.com: Docker Ansible Role](https://galaxy.ansible.com/atosatto/docker-swarm) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source Ansible role facilitating the automated provisioning, node join orchestration, and operational state initialization of multi-host Docker Swarm clusters.
 ## Container Infrastructure
 
 ### Alternative Orchestrators
 
 #### Comparative Studies
 
-  - **(2025)** [nomadproject.io: An alternative to Kubernetes](https://developer.hashicorp.com/nomad/docs/k8s-nomad) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-Deep architectural documentation comparing scheduling logic, API designs, and cluster management methods in both Nomad and Kubernetes environments.
-
-</div></details>
-  - **(2023)** [imaginarycloud.com: Nomad VS. Kubernetes: Container Orchestration Tools Compared](https://www.imaginarycloud.com/blog/nomad-vs-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-A comparative analysis between Nomad and Kubernetes across performance, ease of use, security, and community support in modern distributed microservice systems.
-
-</div></details>
-  - **(2023)** [Alternative to Kubernetes: Docker Swarm](https://www.linkedin.com/pulse/alternative-kubernetes-docker-swarm-marcel-koert) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-Details how Docker Swarm acts as an active, highly efficient alternative to Kubernetes for resource-constrained microservices, lowering overhead and operating costs.
-
-</div></details>
-  - **(2022)** [codemotion.com: Nomad vs Kubernetes but without the complexity](https://www.codemotion.com/magazine/backend/nomad-kubernetes-but-without-the-complexity) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-Breaks down Nomad's benefits, emphasizing low infrastructure consumption, lightning-fast scheduling runs, and straightforward configuration via HashiCorp Configuration Language (HCL).
-
-</div></details>
-  - **(2022)** [dotnettricks.com: Kubernetes vs Docker: Analyzing The Differences](https://www.scholarhat.com/tutorial/docker/kubernetes-vs-docker-analyzing-the-differences) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-Clears up the core differences between the Docker runtime engine and Kubernetes, helping engineers understand how their roles differ in containerized architectures.
-
-</div></details>
-  - **(2022)** [freecodecamp.org: Kubernetes VS Docker: What's the Difference? Explained With Example](https://www.freecodecamp.org/news/kubernetes-vs-docker-whats-the-difference-explained-with-examples) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-An educational guide on container systems. Uses practical, clear examples to explain the operational differences between standalone Docker systems and multi-node Kubernetes configurations.
-
-</div></details>
-  - **(2022)** [thinksys.com: Docker Swarm vs. Kubernetes: Comparison 2022](https://thinksys.com/devops/docker-swarm-vs-kubernetes-comparison) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-Analyzes Kubernetes and Docker Swarm across scaling, persistent volume management, networking architectures, and administrative complexity.
-
-</div></details>
-  - **(2022)** [portainer.io: Kubernetes vs Docker Swarm vs Nomad - the orchestrator wars continue?](https://www.portainer.io/blog/docker-swarm-vs-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-An operational review comparing Kubernetes, Docker Swarm, and HashiCorp Nomad, exploring how deployment scale and team size should guide platform decisions.
-
-</div></details>
-  - **(2021)** [Kubernetes vs Docker Swarm: A Comprehensive Comparison](https://www.cuelogic.com/blog/kubernetes-vs-docker-swarm) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-Presents a feature-by-feature evaluation comparing Kubernetes and Docker Swarm across critical engineering parameters such as networking, volume storage, scaling limits, and configuration friction.
-
-</div></details>
-  - **(2021)** [semaphoreci.com: Kubernetes vs Docker: Understanding Containers in 2021](https://semaphore.io/blog/kubernetes-vs-docker) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-Provides a detailed look at container orchestration. Compares Docker Compose, Docker Swarm, and Kubernetes to help cloud teams select the right tool for their scalability needs.
-
-</div></details>
+  - **(2025)** [nomadproject.io: An alternative to Kubernetes](https://developer.hashicorp.com/nomad/docs/k8s-nomad) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep architectural documentation comparing scheduling logic, API designs, and cluster management methods in both Nomad and Kubernetes environments.
+  - **(2023)** [imaginarycloud.com: Nomad VS. Kubernetes: Container Orchestration Tools Compared](https://www.imaginarycloud.com/blog/nomad-vs-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative analysis between Nomad and Kubernetes across performance, ease of use, security, and community support in modern distributed microservice systems.
+  - **(2023)** [Alternative to Kubernetes: Docker Swarm](https://www.linkedin.com/pulse/alternative-kubernetes-docker-swarm-marcel-koert) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details how Docker Swarm acts as an active, highly efficient alternative to Kubernetes for resource-constrained microservices, lowering overhead and operating costs.
+  - **(2022)** [codemotion.com: Nomad vs Kubernetes but without the complexity](https://www.codemotion.com/magazine/backend/nomad-kubernetes-but-without-the-complexity) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Breaks down Nomad's benefits, emphasizing low infrastructure consumption, lightning-fast scheduling runs, and straightforward configuration via HashiCorp Configuration Language (HCL).
+  - **(2022)** [dotnettricks.com: Kubernetes vs Docker: Analyzing The Differences](https://www.scholarhat.com/tutorial/docker/kubernetes-vs-docker-analyzing-the-differences) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Clears up the core differences between the Docker runtime engine and Kubernetes, helping engineers understand how their roles differ in containerized architectures.
+  - **(2022)** [freecodecamp.org: Kubernetes VS Docker: What's the Difference? Explained With Example](https://www.freecodecamp.org/news/kubernetes-vs-docker-whats-the-difference-explained-with-examples) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An educational guide on container systems. Uses practical, clear examples to explain the operational differences between standalone Docker systems and multi-node Kubernetes configurations.
+  - **(2022)** [thinksys.com: Docker Swarm vs. Kubernetes: Comparison 2022](https://thinksys.com/devops/docker-swarm-vs-kubernetes-comparison) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes Kubernetes and Docker Swarm across scaling, persistent volume management, networking architectures, and administrative complexity.
+  - **(2022)** [portainer.io: Kubernetes vs Docker Swarm vs Nomad - the orchestrator wars continue?](https://www.portainer.io/blog/docker-swarm-vs-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operational review comparing Kubernetes, Docker Swarm, and HashiCorp Nomad, exploring how deployment scale and team size should guide platform decisions.
+  - **(2021)** [Kubernetes vs Docker Swarm: A Comprehensive Comparison](https://www.cuelogic.com/blog/kubernetes-vs-docker-swarm) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Presents a feature-by-feature evaluation comparing Kubernetes and Docker Swarm across critical engineering parameters such as networking, volume storage, scaling limits, and configuration friction.
+  - **(2021)** [semaphoreci.com: Kubernetes vs Docker: Understanding Containers in 2021](https://semaphore.io/blog/kubernetes-vs-docker) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a detailed look at container orchestration. Compares Docker Compose, Docker Swarm, and Kubernetes to help cloud teams select the right tool for their scalability needs.
 #### Docker Swarm
 
-  - **(2026)** [**Docker Swarm**](https://docs.docker.com/engine/swarm) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-The built-in clustering engine for Docker. Offers out-of-the-box multi-host networking, service discovery, and declarative configuration, serving as the primary lightweight orchestrator for small-to-medium topologies.
-
-</div></details>
+  - **(2026)** [**Docker Swarm**](https://docs.docker.com/engine/swarm) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The built-in clustering engine for Docker. Offers out-of-the-box multi-host networking, service discovery, and declarative configuration, serving as the primary lightweight orchestrator for small-to-medium topologies.
 #### Evaluations
 
-  - **(2022)** [chaordic.io: Is Nomad a better Kubernetes?](https://chaordic.io/blog/is-nomad-a-better-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-Explores the core performance profiles, security characteristics, and structural ease-of-use cases that might make Nomad a superior choice over Kubernetes for specific application architectures.
-
-</div></details>
-  - **(2021)** [atodorov.me: Why you should take a look at Nomad before jumping on Kubernetes](https://atodorov.me/2021/02/27/why-you-should-take-a-look-at-nomad-before-jumping-on-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-A technical evaluation emphasizing why platform engineers should analyze Nomad's single-binary execution architecture before defaulting to a multi-component Kubernetes layout.
-
-</div></details>
+  - **(2022)** [chaordic.io: Is Nomad a better Kubernetes?](https://chaordic.io/blog/is-nomad-a-better-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the core performance profiles, security characteristics, and structural ease-of-use cases that might make Nomad a superior choice over Kubernetes for specific application architectures.
+  - **(2021)** [atodorov.me: Why you should take a look at Nomad before jumping on Kubernetes](https://atodorov.me/2021/02/27/why-you-should-take-a-look-at-nomad-before-jumping-on-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical evaluation emphasizing why platform engineers should analyze Nomad's single-binary execution architecture before defaulting to a multi-component Kubernetes layout.
 #### HashiCorp Nomad
 
-  - **(2026)** [==Nomad==](https://developer.hashicorp.com/nomad) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-HashiCorp's lightweight, flexible enterprise-grade scheduler designed to deploy containerized, non-containerized, and legacy applications. It scales smoothly from local machines to global multi-cloud topologies, drastically reducing operating costs compared to classic Kubernetes control planes.
-
-</div></details>
-  - **(2019)** [Nomad an alternative to Kubernetes](https://blog.nobugware.com/post/2019/nomad_an_alternative_to_kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-A detailed analysis comparing Nomad's architectural simplicity against Kubernetes' complex control planes. Explores the decoupled single-binary paradigm and its integration with Consul for secure service discovery.
-
-</div></details>
+  - **(2026)** [==Nomad==](https://developer.hashicorp.com/nomad) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — HashiCorp's lightweight, flexible enterprise-grade scheduler designed to deploy containerized, non-containerized, and legacy applications. It scales smoothly from local machines to global multi-cloud topologies, drastically reducing operating costs compared to classic Kubernetes control planes.
+  - **(2019)** [Nomad an alternative to Kubernetes](https://blog.nobugware.com/post/2019/nomad_an_alternative_to_kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed analysis comparing Nomad's architectural simplicity against Kubernetes' complex control planes. Explores the decoupled single-binary paradigm and its integration with Consul for secure service discovery.
 #### Legacy Orchestrator Frameworks
 
-  - **(2021)** [Simplenetes](https://github.com/simplenetes-io/simplenetes) <span class='md-tag md-tag--info'>⭐ 765</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-A highly simplified container orchestration tool designed as an alternative to Kubernetes. Lacks active development (>4 years inactive), recommended solely for legacy academic reference.
-
-</div></details>
-  - **(2020)** [swarmlet/swarmlet: Swarmlet](https://github.com/swarmlet/swarmlet) <span class='md-tag md-tag--info'>⭐ 816</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-A lightweight self-hosted PaaS wrapper utilizing Docker Swarm. Note: Currently inactive (>4 years since last commit), making it a legacy reference rather than a production-grade modern solution.
-
-</div></details>
+  - **(2021)** [Simplenetes](https://github.com/simplenetes-io/simplenetes) <span class='md-tag md-tag--info'>⭐ 765</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A highly simplified container orchestration tool designed as an alternative to Kubernetes. Lacks active development (>4 years inactive), recommended solely for legacy academic reference.
+  - **(2020)** [swarmlet/swarmlet: Swarmlet](https://github.com/swarmlet/swarmlet) <span class='md-tag md-tag--info'>⭐ 816</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A lightweight self-hosted PaaS wrapper utilizing Docker Swarm. Note: Currently inactive (>4 years since last commit), making it a legacy reference rather than a production-grade modern solution.
 #### Market Analysis
 
-  - **(2021)** [thenewstack.io: Cycle.io: Meet the Team on a Mission to Replace Kubernetes](https://thenewstack.io/cycle-io-meet-the-team-on-a-mission-to-replace-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-Examines the foundational goals of the Cycle.io team in their effort to reduce the administrative burden of infrastructure deployment. Traces their focus on replacing yaml-heavy configurations with managed container abstractions.
-
-</div></details>
-  - **(2020)** [thenewstack.io: Cycle.io: A Container Orchestration Platform Aimed at Developers](https://thenewstack.io/cycle-io-a-container-orchestration-platform-aimed-at-developers) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-An architecture-focused critique of Cycle.io's developer-first approach to container scheduling. Details how its managed API layer automatically handles provisioning, security, and updates across heterogeneous server pools.
-
-</div></details>
+  - **(2021)** [thenewstack.io: Cycle.io: Meet the Team on a Mission to Replace Kubernetes](https://thenewstack.io/cycle-io-meet-the-team-on-a-mission-to-replace-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the foundational goals of the Cycle.io team in their effort to reduce the administrative burden of infrastructure deployment. Traces their focus on replacing yaml-heavy configurations with managed container abstractions.
+  - **(2020)** [thenewstack.io: Cycle.io: A Container Orchestration Platform Aimed at Developers](https://thenewstack.io/cycle-io-a-container-orchestration-platform-aimed-at-developers) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architecture-focused critique of Cycle.io's developer-first approach to container scheduling. Details how its managed API layer automatically handles provisioning, security, and updates across heterogeneous server pools.
 #### Production Case Studies
 
-  - **(2020)** [blog.cloudflare.com: How we use HashiCorp Nomad (Cloudflare using Nomad and Consul)](https://blog.cloudflare.com/how-we-use-hashicorp-nomad) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-Cloudflare's technical deep dive detailing their usage of Nomad and Consul to coordinate critical workloads across their global edge network. Provides concrete proof of Nomad's robustness under massive world-wide scale.
-
-</div></details>
-  - **(2020)** [thenewstack.io: Conductor: Why We Migrated from Kubernetes to Nomad](https://thenewstack.io/conductor-why-we-migrated-from-kubernetes-to-nomad) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-Conductor's engineering review on migrating core container workloads from Kubernetes to Nomad, outlining significant performance improvements, simplified operations, and reliable scheduling speeds.
-
-</div></details>
+  - **(2020)** [blog.cloudflare.com: How we use HashiCorp Nomad (Cloudflare using Nomad and Consul)](https://blog.cloudflare.com/how-we-use-hashicorp-nomad) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Cloudflare's technical deep dive detailing their usage of Nomad and Consul to coordinate critical workloads across their global edge network. Provides concrete proof of Nomad's robustness under massive world-wide scale.
+  - **(2020)** [thenewstack.io: Conductor: Why We Migrated from Kubernetes to Nomad](https://thenewstack.io/conductor-why-we-migrated-from-kubernetes-to-nomad) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Conductor's engineering review on migrating core container workloads from Kubernetes to Nomad, outlining significant performance improvements, simplified operations, and reliable scheduling speeds.
 #### SaaS Platforms
 
-  - **(2026)** [Cycle.io](https://cycle.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-A low-overhead, managed SaaS container orchestration engine built directly on bare-metal virtual networks. Simplifies infrastructure delivery by removing massive orchestration systems like Kubernetes, enabling rapid container deployment with native security controls.
-
-</div></details>
+  - **(2026)** [Cycle.io](https://cycle.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A low-overhead, managed SaaS container orchestration engine built directly on bare-metal virtual networks. Simplifies infrastructure delivery by removing massive orchestration systems like Kubernetes, enabling rapid container deployment with native security controls.
 #### Tutorials
 
-  - **(2022)** [linkedin.com: Docker Series : Docker Swarm - Lionel GURRET](https://www.linkedin.com/pulse/docker-series-swarm-lionel-gurret) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-A technical tutorial focusing on Docker Swarm's features, including native swarm routing meshes, ingress control, overlay networking, and secret storage mechanics.
-
-</div></details>
+  - **(2022)** [linkedin.com: Docker Series : Docker Swarm - Lionel GURRET](https://www.linkedin.com/pulse/docker-series-swarm-lionel-gurret) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical tutorial focusing on Docker Swarm's features, including native swarm routing meshes, ingress control, overlay networking, and secret storage mechanics.
 ### Architecture Decisions
 
 #### Sizing Guidance
 
-  - **(2020)** [“Let’s use Kubernetes!” Now you have 8 problems](https://pythonspeed.com/articles/dont-need-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-A widely cited engineering critique highlighting the cognitive load and complexity traps of adopting Kubernetes for smaller teams and projects. Recommends pragmatic, simpler orchestration alternatives for low-to-medium traffic profiles.
-
-</div></details>
+  - **(2020)** [“Let’s use Kubernetes!” Now you have 8 problems](https://pythonspeed.com/articles/dont-need-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A widely cited engineering critique highlighting the cognitive load and complexity traps of adopting Kubernetes for smaller teams and projects. Recommends pragmatic, simpler orchestration alternatives for low-to-medium traffic profiles.
 ### Legacy Systems
 
 #### Docker Enterprise
 
-  - **(2021)** [Universal Control Plane overview](https://docs.docker.com) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-Archived documentation for Mirantis Universal Control Plane (UCP). Offers historic guidance on running large-scale legacy Docker Swarm Enterprise and Kubernetes platforms under a unified administrative dashboard.
-
-</div></details>
+  - **(2021)** [Universal Control Plane overview](https://docs.docker.com) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Archived documentation for Mirantis Universal Control Plane (UCP). Offers historic guidance on running large-scale legacy Docker Swarm Enterprise and Kubernetes platforms under a unified administrative dashboard.
 ### Self-Hosted Platforms
 
 #### PaaS Solutions
 
-  - **(2026)** [==coolify.io==](https://coolify.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-An open-source, self-hosted platform alternative to Heroku. Lets users host databases, APIs, and frontend systems on their own servers (Docker, Swarm) with a simple visual layout, avoiding complex Kubernetes management.
-
-</div></details>
+  - **(2026)** [==coolify.io==](https://coolify.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source, self-hosted platform alternative to Heroku. Lets users host databases, APIs, and frontend systems on their own servers (Docker, Swarm) with a simple visual layout, avoiding complex Kubernetes management.
 ## Container Orchestration
 
 ### Kubernetes Alternatives (1)
 
 #### Case Studies
 
-  - **(2022)** [ably.com: No, we don’t use Kubernetes](https://ably.com/blog/no-we-dont-use-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-An elite architectural case study explaining why Ably avoids Kubernetes in favor of custom-managed systems to fulfill real-time, ultra-low latency globally distributed network needs.
-
-</div></details>
+  - **(2022)** [ably.com: No, we don’t use Kubernetes](https://ably.com/blog/no-we-dont-use-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An elite architectural case study explaining why Ably avoids Kubernetes in favor of custom-managed systems to fulfill real-time, ultra-low latency globally distributed network needs.
 #### Evaluations (1)
 
-  - **(2023)** [simform.com: Top Alternatives to Kubernetes to Overcome Business Challenges](https://www.simform.com/blog/alternatives-to-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-An informative breakdown analyzing leading container orchestrators other than Kubernetes. Details architectural features of Docker Swarm, Nomad, and AWS ECS for diverse engineering demands.
-
-</div></details>
-  - **(2021)** [infoworld.com: When Kubernetes is not the solution](https://www.infoworld.com/article/2261975/when-kubernetes-is-not-the-solution.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-Highlights use-cases and scenarios where Kubernetes acts as an anti-pattern. Outlines operational over-engineering, hidden resource consumption, and networking complexities.
-
-</div></details>
-  - **(2020)** [towardsdatascience.com: Heroku + Docker in 10 Minutes](https://towardsdatascience.com/heroku-docker-in-10-minutes-f4329c4fd72f) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-A quick-deployment tutorial showing how to containerize dynamic web applications with Docker and deploy them smoothly to Heroku's managed infrastructure.
-
-</div></details>
+  - **(2023)** [simform.com: Top Alternatives to Kubernetes to Overcome Business Challenges](https://www.simform.com/blog/alternatives-to-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An informative breakdown analyzing leading container orchestrators other than Kubernetes. Details architectural features of Docker Swarm, Nomad, and AWS ECS for diverse engineering demands.
+  - **(2021)** [infoworld.com: When Kubernetes is not the solution](https://www.infoworld.com/article/2261975/when-kubernetes-is-not-the-solution.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights use-cases and scenarios where Kubernetes acts as an anti-pattern. Outlines operational over-engineering, hidden resource consumption, and networking complexities.
+  - **(2020)** [towardsdatascience.com: Heroku + Docker in 10 Minutes](https://towardsdatascience.com/heroku-docker-in-10-minutes-f4329c4fd72f) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A quick-deployment tutorial showing how to containerize dynamic web applications with Docker and deploy them smoothly to Heroku's managed infrastructure.
 ## Serverless Architectures
 
 ### WebAssembly and Edge
 
 #### Edge Computing Engines
 
-  - **(2026)** [==github.com/taubyte/tau: Tau==](https://github.com/taubyte/tau) <span class='md-tag md-tag--info'>⭐ 5025</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-The main open-source repository for Tau. This platform handles autonomous routing, distributed database syncs, and scaling for multi-tenant edge services, running on WebAssembly.
-
-</div></details>
-  - **(2026)** [Taubyte](https://taubyte.com) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-A decentralized serverless platform built on WebAssembly and IPFS. Acts as an alternative to VMs and containers, focusing on edge intelligence, fast execution, and zero-configuration networking.
-
-</div></details>
+  - **(2026)** [==github.com/taubyte/tau: Tau==](https://github.com/taubyte/tau) <span class='md-tag md-tag--info'>⭐ 5025</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main open-source repository for Tau. This platform handles autonomous routing, distributed database syncs, and scaling for multi-tenant edge services, running on WebAssembly.
+  - **(2026)** [Taubyte](https://taubyte.com) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A decentralized serverless platform built on WebAssembly and IPFS. Acts as an alternative to VMs and containers, focusing on edge intelligence, fast execution, and zero-configuration networking.
 #### Testing Infrastructure
 
-  - **(2025)** [dreamland](https://github.com/taubyte/dream) <span class='md-tag md-tag--info'>⭐ 88</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-A local testing and deployment tool for the Taubyte WebAssembly-native edge framework. Lets engineers build, test, and debug distributed serverless systems locally.
-
-</div></details>
+  - **(2025)** [dreamland](https://github.com/taubyte/dream) <span class='md-tag md-tag--info'>⭐ 88</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A local testing and deployment tool for the Taubyte WebAssembly-native edge framework. Lets engineers build, test, and debug distributed serverless systems locally.
 
 ***
 💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Ocp4](./ocp4.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md)

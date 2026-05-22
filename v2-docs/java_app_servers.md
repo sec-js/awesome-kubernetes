@@ -11,11 +11,7 @@
 
 ##### Azure DevOps
 
-  - **(2025)** [Install Java 23 in an Azure DevOps Pipeline](https://www.returngis.net/2025/02/como-instalar-java-23-en-una-pipeline-de-azure-devops) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
-
-A technical guide written in Spanish demonstrating how to dynamically configure, install, and leverage the Java 23 SDK runtime inside Azure DevOps build pipelines, using modern Microsoft-hosted and self-hosted runner strategies. [SPANISH CONTENT]
-
-</div></details>
+  - **(2025)** [Install Java 23 in an Azure DevOps Pipeline](https://www.returngis.net/2025/02/como-instalar-java-23-en-una-pipeline-de-azure-devops) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical guide written in Spanish demonstrating how to dynamically configure, install, and leverage the Java 23 SDK runtime inside Azure DevOps build pipelines, using modern Microsoft-hosted and self-hosted runner strategies. [SPANISH CONTENT]
 
 ***
 💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Java_Frameworks](./java_frameworks.md) | [Golang](./golang.md)
