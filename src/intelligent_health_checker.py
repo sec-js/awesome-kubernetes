@@ -61,15 +61,43 @@ class IntelligentLinkCleaner:
                 if f.endswith(".md"):
                     path = os.path.join(root, f)
                     content = open(path, "r").read()
+                    
+                    # Mandate 23: Detect Mosaic boundaries in index.md
+                    mosaic_lines = set()
+                    if path == "docs/index.md":
+                        mosaic_match = re.search(r'<center markdown="1">\s*\n(.*?)\n\s*</center>', content, re.DOTALL)
+                        if mosaic_match:
+                            mosaic_text = mosaic_match.group(1)
+                            # We find the start line of this block
+                            start_pos = mosaic_match.start(1)
+                            start_line = content[:start_pos].count('\n')
+                            line_count = mosaic_text.count('\n') + 1
+                            for i in range(start_line, start_line + line_count):
+                                mosaic_lines.add(i)
+
                     lines = content.splitlines()
                     for idx, line in enumerate(lines):
-                        matches = re.finditer(r'(\*\*|==)?\s*\[(.*?)\]\((https?://.*?)\)\s*(\*\*|==)?\s*(.*)', line)
+                        # Detect standard markdown links
+                        matches = list(re.finditer(r'(\*\*|==)?\s*\[(.*?)\]\((https?://.*?)\)\s*(\*\*|==)?\s*(.*)', line))
+                        
+                        # MANDATE 23: Also detect YouTube links in iframes for the videos section
+                        if path == "docs/index.md" and "iframe" in line and "youtube.com" in line:
+                            iframe_match = re.search(r'src="(https?://www\.youtube\.com/.*?)"', line)
+                            if iframe_match:
+                                url = iframe_match.group(1)
+                                nu = normalize_url(url)
+                                # We treat iframes as non-important by default but they must be checked
+                                self.link_registry.setdefault(nu, []).append({
+                                    "file": path, "line_index": idx, "url": url, 
+                                    "is_important": False, "is_iframe": True
+                                })
+
                         for m in matches:
                             fmt_pre, title, url, fmt_post, desc = m.groups()
                             nu = normalize_url(url)
 
                             # MANDATE 23: Skip YouTube Mosaic links in docs/index.md
-                            if path == "docs/index.md" and "youtube.com" in nu:
+                            if path == "docs/index.md" and idx in mosaic_lines and "youtube.com" in nu:
                                 continue
 
                             is_important = False
