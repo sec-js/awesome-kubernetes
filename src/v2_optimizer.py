@@ -651,15 +651,18 @@ class V2VisionEngine:
                 link_content = f"=={link_content}=="
             elif raw_stars >= 4:
                 link_content = f"**{link_content}**"
-                
-            md += f"  - {year_prefix}[{link_content}]({l['url'].strip()}){icon}{gh_info}{lang_tag}{level_tag}{type_tag}{rich} {'🌟'*raw_stars}{tag_html}\n"
+            
+            md += f"  - {year_prefix}[{link_content}]({l['url'].strip()}){icon}{gh_info}{lang_tag}{level_tag}{type_tag}{rich} {'🌟'*raw_stars}{tag_html}"
 
-            # Layer 2: High-Density Technical Summary (Expandable Deep-Dive)
+            # Layer 2: High-Density Technical Summary (Minimalist Inline)
             summary = l.get('ai_summary', l.get('description', ''))
             if summary:
-                md += "\n    ??? info \"Technical Deep-Dive\"\n"
-                indented_summary = "\n".join([f"        {line}" if line.strip() else "" for line in summary.strip().split("\n")])
-                md += f"{indented_summary}\n\n"
+                # Use HTML details for inline-block behavior and minimalist UI
+                # Mandate 19: Use blank lines with markdown="1" for correct parsing
+                md += f" <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>\n\n{summary.strip()}\n\n</div></details>\n"
+            else:
+                md += "\n"
+
         return md
 
     async def _write_premium_files(self, data: Dict[str, Dict], mosaic_html: str, videos_html: str):
