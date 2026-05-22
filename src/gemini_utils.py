@@ -336,7 +336,7 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                             # --- TOOL ENABLING (MCP-LIKE GROUNDING) ---
                             payload = {
                                 "contents": [{"parts": [{"text": prompt}]}],
-                                "tools": [{"google_search_retrieval": {}}] if use_grounding else []
+                                "tools": [{"google_search": {}}] if use_grounding else []
                             }
                             
                             # TELEMETRY: Log Payload Size
