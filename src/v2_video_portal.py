@@ -18,6 +18,7 @@ def generate_v2_videos():
                 "url": url,
                 "title": entry.get("title", "YouTube Video"),
                 "category": entry.get("category", "General"),
+                "technology": entry.get("technology", "Cloud Native"),
                 "summary": entry.get("ai_summary", entry.get("description", "")),
                 "year": entry.get("year", "N/A")
             })
@@ -61,16 +62,19 @@ def generate_v2_videos():
         content.append(f"## {clean_cat}")
         cat_videos = [v for v in featured_videos if v["category"] == cat]
         
+        # Sort by year or title within category
+        cat_videos.sort(key=lambda x: x["title"])
+
         for v in cat_videos:
-            content.append(f"### {v['title']}")
-            content.append(f"!!! info \"Architectural Summary\"")
-            content.append(f"    {v['summary']}")
+            tech = v.get("technology", "Cloud Native")
+            # Collapsible block per video for better flow
+            content.append(f"??? note \"🎬 {v['title']} | `{tech}`\"")
+            content.append(f"    !!! info \"Architectural Summary\"")
+            content.append(f"        {v['summary']}")
             content.append("")
-            # Optimized iframe with lazy loading
-            # MANDATE 19: Blank lines around center tag and NO indentation for content to avoid code blocks
-            content.append('<center markdown="1">')
-            content.append(f'<iframe width="560" height="315" src="{v["url"]}" title="{v["title"]}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>')
-            content.append('</center>')
+            content.append('    <center markdown="1">')
+            content.append(f'    <iframe width="720" height="405" src="{v["url"]}" title="{v["title"]}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>')
+            content.append('    </center>')
             content.append("")
 
     with open(V2_VIDEOS_PATH, "w") as f:
