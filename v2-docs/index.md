@@ -14,6 +14,13 @@
 !!! abstract "The High-Density Vision"
     The V2 Edition is a curated, high-density version of the Nubenetes archive. Using **Agentic AI Orchestration**, the system selects only the most relevant, stable, and impactful resources for the modern Cloud Native ecosystem (2026 and beyond).
 
+---
+
+### 🎬 Featured Access
+- **[🎥 Explore the Nubenetes Elite Video Hub](./videos.md)**: A high-fidelity, categorized collection of technical clips and architectural deep-dives.
+
+---
+
 
 ??? info "Knowledge Architecture and AI Coverage Status"
     The Nubenetes Elite Portal operates on a dual-layer knowledge architecture:
