@@ -50,19 +50,21 @@
 - **(N/A)** [**==phauer.com: Why I Moved Back from Gradle to Maven==**](https://phauer.com/2018/moving-back-from-gradle-to-maven) 🌟🌟🌟🌟
 
 ## Strategic Dimensions
+- **[🎥 Agentic Video Hub (Architectural Summary)](./videos.md)**
+
 ### AI and Artificial Intelligence
 - **[Ai Agents Mcp](./ai-agents-mcp.md)**
 - **[Ai](./ai.md)**
 - **[Chatgpt](./chatgpt.md)**
 ### Architectural Foundations
 - **[Cheatsheets](./cheatsheets.md)**
-- **[Cloud Arch Diagrams](./cloud-arch-diagrams.md)**
 - **[Cloud Asset Inventory](./cloud-asset-inventory.md)**
 - **[Customer](./customer.md)**
 - **[Demos](./demos.md)**
 - **[Devops Tools](./devops-tools.md)**
 - **[Faq](./faq.md)**
 - **[Git](./git.md)**
+- **[Grafana](./grafana.md)**
 - **[Helm](./helm.md)**
 - **[Introduction](./introduction.md)**
 - **[Kubernetes Tools](./kubernetes-tools.md)**
@@ -72,6 +74,7 @@
 - **[Matrix Table](./matrix-table.md)**
 - **[Mkdocs](./mkdocs.md)**
 - **[Monitoring](./monitoring.md)**
+- **[Other Awesome Lists](./other-awesome-lists.md)**
 - **[Prometheus](./prometheus.md)**
 ### Career & Industry
 - **[Elearning](./elearning.md)**
@@ -82,12 +85,8 @@
 ### Cloud Providers (Hyperscalers)
 - **[Googlecloudplatform](./GoogleCloudPlatform.md)**
 - **[Aws Architecture](./aws-architecture.md)**
-- **[Aws Containers](./aws-containers.md)**
 - **[Aws Databases](./aws-databases.md)**
 - **[Aws Devops](./aws-devops.md)**
-- **[Aws Iac](./aws-iac.md)**
-- **[Aws Miscellaneous](./aws-miscellaneous.md)**
-- **[Aws Newfeatures](./aws-newfeatures.md)**
 - **[Aws Security](./aws-security.md)**
 - **[Aws Serverless](./aws-serverless.md)**
 - **[Aws Spain](./aws-spain.md)**
@@ -96,7 +95,6 @@
 - **[Aws Training](./aws-training.md)**
 - **[Aws](./aws.md)**
 - **[Azure](./azure.md)**
-- **[Digitalocean](./digitalocean.md)**
 - **[Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)**
 - **[Oraclecloud](./oraclecloud.md)**
 - **[Private Cloud Solutions](./private-cloud-solutions.md)**
@@ -104,14 +102,12 @@
 - **[Databases](./databases.md)**
 - **[Message Queue](./message-queue.md)**
 - **[Newsql](./newsql.md)**
+- **[Nosql](./nosql.md)**
 - **[Yaml](./yaml.md)**
 ### Developer Ecosystem
-- **[Api](./api.md)**
-- **[Devel Sites](./devel-sites.md)**
 - **[Dotnet](./dotnet.md)**
 - **[Golang](./golang.md)**
 - **[Java And Java Performance Optimization](./java-and-java-performance-optimization.md)**
-- **[Java_App_Servers](./java_app_servers.md)**
 - **[Java_Frameworks](./java_frameworks.md)**
 - **[Javascript](./javascript.md)**
 - **[Linux Dev Env](./linux-dev-env.md)**
@@ -130,17 +126,13 @@
 - **[Openshift Pipelines](./openshift-pipelines.md)**
 - **[Registries](./registries.md)**
 - **[Sonarqube](./sonarqube.md)**
-- **[Tekton](./tekton.md)**
 ### Hardened Infrastructure
-- **[Ansible](./ansible.md)**
 - **[Crossplane](./crossplane.md)**
 - **[Devsecops](./devsecops.md)**
 - **[Iac](./iac.md)**
 - **[Kubernetes Security](./kubernetes-security.md)**
-- **[Kustomize](./kustomize.md)**
 - **[Liquibase](./liquibase.md)**
 - **[Oauth](./oauth.md)**
-- **[Pulumi](./pulumi.md)**
 - **[Securityascode](./securityascode.md)**
 - **[Terraform](./terraform.md)**
 ### Networking & Service Mesh
@@ -151,11 +143,9 @@
 - **[Servicemesh](./servicemesh.md)**
 - **[Web Servers](./web-servers.md)**
 ### Platform & Site Reliability
-- **[Chaos Engineering](./chaos-engineering.md)**
 - **[Developerportals](./developerportals.md)**
 - **[Devops](./devops.md)**
 - **[Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md)**
-- **[Project Management Methodology](./project-management-methodology.md)**
 - **[Qa](./qa.md)**
 - **[Scaffolding](./scaffolding.md)**
 - **[Sre](./sre.md)**
@@ -164,14 +154,12 @@
 - **[Docker](./docker.md)**
 - **[Kubectl Commands](./kubectl-commands.md)**
 - **[Kubernetes Alternatives](./kubernetes-alternatives.md)**
-- **[Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)**
 - **[Kubernetes Based Devel](./kubernetes-based-devel.md)**
 - **[Kubernetes Bigdata](./kubernetes-bigdata.md)**
 - **[Kubernetes Client Libraries](./kubernetes-client-libraries.md)**
 - **[Kubernetes Monitoring](./kubernetes-monitoring.md)**
 - **[Kubernetes On Premise](./kubernetes-on-premise.md)**
 - **[Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)**
-- **[Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)**
 - **[Ocp4](./ocp4.md)**
 - **[Openshift](./openshift.md)**
 - **[Serverless](./serverless.md)**

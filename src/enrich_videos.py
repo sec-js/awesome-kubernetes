@@ -27,16 +27,18 @@ async def enrich_video_entry(url: str, entry: dict):
     {context}
 
     Tasks:
-    1. Identify the ACTUAL technical content of this YouTube video. 
-    2. Generate a high-density architectural summary (2-3 sentences) explaining its specific value for a 2026 Cloud Native context. 
-       - WARNING: DO NOT describe the YouTube platform infrastructure unless the video itself is about YouTube's engineering.
+    1. Identify the ACTUAL technical content of this YouTube video based PRIMARILY on the provided Title and Description.
+    2. Generate a high-density architectural summary (2-3 sentences) that is FAITHFUL to the actual description provided.
+       - If the description says it's a documentary about Kubernetes, the summary MUST reflect that.
+       - If it's a demo of Kelsey Hightower at PuppetConf, the summary MUST reflect that.
+       - WARNING: DO NOT describe generic YouTube platform infrastructure unless the video itself is about YouTube's engineering (e.g., Vitess).
     3. Identify the primary technology (e.g., Kubernetes, Istio, Terraform).
     4. Select the best category from: [Fundamentals and Documentaries, Architecture and Cloud Strategy, Networking and Service Mesh, Infrastructure as Code, Observability and Monitoring, AI and Future Operations, Security and Compliance].
 
     Return ONLY a JSON object:
     {{
       "title": "Actual Video Title",
-      "summary": "Specific content summary...",
+      "summary": "Specific and faithful content summary...",
       "technology": "...",
       "category": "..."
     }}

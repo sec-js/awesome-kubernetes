@@ -3,14 +3,16 @@
 !!! info "Architectural Context"
     Detailed reference for Kubernetes Tutorials in the context of Architectural Foundations.
 
-## Platform Engineering
+## Cloud Providers
 
-### CI-CD Pipelines
+### Azure
 
-#### Jenkins
+#### AKS
 
-  - **(2023)** [**Back of the Napkin Guide to Updating Jenkins**](https://www.jenkins.io/blog/2023/10/31/marc-s-napkin-upgrade-guide) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly practical, pragmatic guide from a core Jenkins maintainer outlining safe upgrade strategies for Jenkins controllers and its complex plugin ecosystem. Reduces administrative friction by emphasizing snapshot backups, compatibility matrices, and staged canary verification.
+##### Hands-on Labs
+
+  - **(2023)** [**AKS Labs - Introduction**](https://azure-samples.github.io/aks-labs/docs/intro) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Microsoft's structured laboratory ecosystem designed to onboard engineers to Azure Kubernetes Service (AKS). The content delivers a reliable, production-aligned guide covering core infrastructure topics such as advanced networking, cluster security integration, and enterprise scaling mechanics.
 
 ---
-💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Cheatsheets](./cheatsheets.md) | [Linux](./linux.md)
+💡 **Explore Related:** [Kubernetes](./kubernetes.md) | [Git](./git.md) | [Introduction](./introduction.md)
 

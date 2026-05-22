@@ -3,42 +3,30 @@
 !!! info "Architectural Context"
     Detailed reference for Jenkins Alternatives in the context of Engineering Pipeline.
 
-## Cloud-Native Development
+## Cloud Native Architecture
 
-### Continuous Delivery
+### Kubernetes Operators
 
-#### Skaffold
+#### CI-CD Auto-Scaling
 
-  - **(2026)** [==skaffold==](https://skaffold.dev) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Highly active open-source CLI utility by Google that automates the workflow for building, pushing, and deploying Kubernetes applications. Accelerates inner-loop cycles through continuous live-sync engine integration.
-## Enterprise Kubernetes
+  - **(2026)** [==github.com/actions/actions-runner-controller 🌟==](https://github.com/actions/actions-runner-controller) <span class='md-tag md-tag--info'>⭐ 6260</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An official Kubernetes operator designed to manage self-hosted runner infrastructure dynamically. Integrates natively with Kubernetes HPA metrics to automatically scale runner pods based on job queues.
+## Hybrid Cloud and Enterprise
 
-### Red Hat OpenShift
+### OpenShift
 
-#### CI-CD Pipelines
+#### Pipelines and CI CD
 
-  - **(2021)** [openshift.com: Cloud DevOps With OpenShift and JFrog](https://www.redhat.com/en/blog/cloud-devops-with-openshift-and-jfrog) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A case study looking at OpenShift and JFrog Artifactory integrations. It details how teams establish secure, auditable image management pipelines across hybrid cloud nodes.
-## Platform Engineering
+  - **(2021)** [**github.com/openshift/pipelines-tutorial**](https://github.com/openshift/pipelines-tutorial) <span class='md-tag md-tag--info'>⭐ 322</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: The primary repository used for training developers on utilizing Tekton triggers and tasks in OpenShift.
+Live Grounding: Serves as an excellent hands-on lab environment for configuring Tasks, Pipelines, PipelineRuns, and EventListeners using the OpenShift Pipelines CLI.
+## Public Cloud Infrastructure
 
-### CI-CD Pipelines (1)
+### AWS Ecosystem
 
-#### Enterprise Tooling
+#### DevOps Foundations
 
-  - **(2023)** [**JFrog Pipelines**](https://jfrog.com/pipelines) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An enterprise-grade CI/CD automation tool natively integrated into the JFrog Platform. It leverages declarative YAML schemas, step-based workflows, and reusable resource models to orchestrate robust binary-centric pipelines with native support for Artifactory.
-## Security
-
-### DevSecOps
-
-#### Secrets Scanning
-
-  - **(2022)** [jfrog.com: How to protect your secrets with Spectral and JFrog Pipelines](https://jfrog.com/blog) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical walk-through showing how to use Spectral in tandem with JFrog Pipelines. The tutorial focuses on identifying misplaced credentials and code misconfigurations inside continuous integration stages.
-## Software Delivery
-
-### CICD Foundations
-
-#### Open Source Pipelines
-
-  - **(2020)** [devops.com: 7 Popular Open Source CI/CD Tools](https://devops.com/7-popular-open-source-ci-cd-tools) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Comparative survey of prominent open-source continuous integration and deployment engines. Live Grounding: Analyzes Jenkins, GitLab, Tekton, and others, contrasting their resource overheads and declarative features. Useful for teams choosing a baseline deployment stack.
+  - **(2020)** [AWS DevOps](https://aws.amazon.com/devops/#cicd) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Main AWS portal summarizing continuous integration, deployment, and management tools.
+Live Grounding: Features structural overviews of AWS CodePipeline, CodeBuild, and CodeDeploy, illustrating patterns for cloud-native delivery inside AWS.
 
 ---
-💡 **Explore Related:** [Registries](./registries.md) | [Argo](./argo.md) | [Jenkins](./jenkins.md)
+💡 **Explore Related:** [Cicd](./cicd.md) | [Jenkins](./jenkins.md) | [Cicd Kubernetes Plugins](./cicd-kubernetes-plugins.md)
 
