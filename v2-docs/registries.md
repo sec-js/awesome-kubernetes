@@ -124,6 +124,6 @@
 
   - **(2026)** [==cert-manager/cert-manager==](https://github.com/cert-manager/cert-manager) <span class='md-tag md-tag--info'>⭐ 13830</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Consolidated record of the cert-manager project, automating dynamic certificate lifecycles to guarantee encrypted transport paths between internal microservice runtimes.
 
-***
+---
 💡 **Explore Related:** [Jenkins Alternatives](./jenkins-alternatives.md) | [Argo](./argo.md) | [Jenkins](./jenkins.md)
 

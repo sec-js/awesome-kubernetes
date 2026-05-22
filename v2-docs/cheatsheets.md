@@ -49,6 +49,6 @@
 
   - **(2021)** [**atlassian.com: Git cheat sheet**](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A comprehensive and beautifully formatted PDF and web-based Git command reference guide from Atlassian. Covers essential command categories including repository creation, local staging, history review, branch management, and remote synchronization.
 
-***
+---
 💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Linux](./linux.md) | [Introduction](./introduction.md)
 

@@ -579,6 +579,6 @@
 
   - **(2021)** [**tecmint.com: Testssl.sh – Testing TLS/SSL Encryption Anywhere on Any Port**](https://www.tecmint.com/testssl-sh-test-tls-ssl-encryption-in-linux-commandline) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A hands-on installation and usage guide for testssl.sh, an open-source command-line security auditing tool. It demonstrates how to scan endpoints on any port to detect SSL/TLS vulnerabilities, cipher suite issues, and configuration flaws.
 
-***
+---
 💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Cheatsheets](./cheatsheets.md) | [Introduction](./introduction.md)
 

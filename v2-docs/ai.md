@@ -254,6 +254,6 @@ Live Grounding: Aggregates verified integrations linking AI models to tools like
 
   - **(2025)** [**Claude Code Templates**](https://github.com/davila7/claude-code-templates) <span class='md-tag md-tag--info'>⭐ 27488</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly popular community repository hosting prompt structures, workflows, and templates optimized for Claude Code and Anthropic integrations in complex development cycles.
 
-***
+---
 💡 **Explore Related:** [Chatgpt](./chatgpt.md) | [Ai Agents Mcp](./ai-agents-mcp.md)
 

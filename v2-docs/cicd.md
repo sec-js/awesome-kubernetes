@@ -238,6 +238,6 @@
   - **(2006)** [==martinfowler.com: Continuous Integration (original version)==](https://martinfowler.com/articles/originalContinuousIntegration.html) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Martin Fowler's classic text detailing the cultural and technical prerequisites of Continuous Integration. Covers core practices such as automated builds, self-testing, and daily developer code merges.
   - **(2018)** [opensource.com: What is CI/CD?](https://opensource.com/article/18/8/what-cicd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational article defining the mechanics of Continuous Integration and Continuous Deployment (CI/CD). Explores testing automation, continuous integration loops, and deployment pipelines.
 
-***
+---
 💡 **Explore Related:** [Registries](./registries.md) | [Jenkins Alternatives](./jenkins-alternatives.md) | [Argo](./argo.md)
 
