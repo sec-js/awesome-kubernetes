@@ -113,7 +113,7 @@
 
 #### Skill Assessment
 
-  - **(2020)** [trimstray/test-your-sysadmin-skills](https://github.com/trimstray/test-your-sysadmin-skills) <span class='md-tag md-tag--info'>⭐ 11590</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An intensive, community-curated collection of questions covering Linux, networking, security, databases, and deployment pipelines. Though now largely static, it remains a fantastic benchmarking framework for engineering roles.
+  - **(2020)** [trimstray/test-your-sysadmin-skills](https://github.com/trimstray/test-your-sysadmin-skills) <span class='md-tag md-tag--info'>⭐ 11594</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An intensive, community-curated collection of questions covering Linux, networking, security, databases, and deployment pipelines. Though now largely static, it remains a fantastic benchmarking framework for engineering roles.
 ## Infrastructure
 
 ### Artifact Management
@@ -136,7 +136,7 @@
 
 #### eBPF Tracing
 
-  - **(2026)** [==bpftrace==](https://github.com/bpftrace/bpftrace) <span class='md-tag md-tag--info'>⭐ 10105</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A high-level tracing language and diagnostic tool for Linux eBPF. It allows developers to analyze kernel events, memory limits, and process lifecycles with minimal execution overhead.
+  - **(2026)** [==bpftrace==](https://github.com/bpftrace/bpftrace) <span class='md-tag md-tag--info'>⭐ 10114</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A high-level tracing language and diagnostic tool for Linux eBPF. It allows developers to analyze kernel events, memory limits, and process lifecycles with minimal execution overhead.
 ### Virtualization
 
 #### Disk Image Manipulation
@@ -145,7 +145,7 @@
   - **(2021)** [redhat.com: How to customize VM and cloud images with guestfish](https://www.redhat.com/en/blog/customize-vm-cloud-images-guestfish) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive technical guide demonstrating how to use guestfish to inject files, modify configurations, and customize virtual machine disk images. This walk-through focuses on streamlining cloud-init preparations and automating golden image generation workflows.
 #### Hypervisors
 
-  - **(2025)** [**github.com/cyberus-technology/virtualbox-kvm: KVM Backend for VirtualBox 🌟**](https://github.com/cyberus-technology/virtualbox-kvm) <span class='md-tag md-tag--info'>⭐ 1108</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A powerful extension that enables VirtualBox to run using Linux's native KVM hypervisor instead of its proprietary kernel module. Greatly simplifies virtual machine configurations on Linux systems.
+  - **(2025)** [**github.com/cyberus-technology/virtualbox-kvm: KVM Backend for VirtualBox 🌟**](https://github.com/cyberus-technology/virtualbox-kvm) <span class='md-tag md-tag--info'>⭐ 1109</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A powerful extension that enables VirtualBox to run using Linux's native KVM hypervisor instead of its proprietary kernel module. Greatly simplifies virtual machine configurations on Linux systems.
 ## Linux Operating System
 
 ### File System
@@ -241,7 +241,7 @@
 #### Data Transfer
 
   - **(2021)** [**linuxteck.com: 15 basic curl command in Linux with practical examples**](https://www.linuxteck.com/curl-command-in-linux-with-examples) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight offers 15 highly useful curl commands for server network diagnostics. Live Grounding corroborates that curl remains the absolute backbone of API verification and automated artifact fetching inside cloud pipelines. A standard tool for validating HTTP endpoint connectivity and API responses.
-  - **(2024)** [wcurl](https://github.com/curl/wcurl) <span class='md-tag md-tag--info'>⭐ 505</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight identifies wcurl as a lightweight curl wrapper designed to streamline raw file downloads without manually configuring complex flags. Live Grounding confirms its creation by curl maintainers to solve common interactive download pain points. Perfect for reducing friction in container generation and local file pulls.
+  - **(2024)** [wcurl](https://github.com/curl/wcurl) <span class='md-tag md-tag--info'>⭐ 504</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight identifies wcurl as a lightweight curl wrapper designed to streamline raw file downloads without manually configuring complex flags. Live Grounding confirms its creation by curl maintainers to solve common interactive download pain points. Perfect for reducing friction in container generation and local file pulls.
   - **(2024)** [blog.techiescamp.com: wcurl: A Simple Wrapper for curl to download files](https://blog.techiescamp.com/docs/wcurl) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight provides detailed operational steps for using the newly developed `wcurl` tool. Live Grounding underlines its functional benefits, showcasing how it reduces complex curl flags into safe defaults for programmatic file retrievals. Valuable reading for shell automation optimization.
   - **(2021)** [opensource.com: 7 handy tricks for using the Linux wget command](https://opensource.com/article/21/10/linux-wget-command) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight details powerful command structures for the classic recursive download utility `wget`. Live Grounding points to its common implementation in container build files to pull specific static artifacts, highlighting tricks like mirror replication and rate limiting. A standard automation tool.
 ### Network Architecture
@@ -259,7 +259,7 @@
   - **(2021)** [**redhat.com: Linux troubleshooting commands: 4 tools for DNS name resolution problems**](https://www.redhat.com/en/blog/DNS-name-resolution-troubleshooting-tools) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight introduces 4 robust commands (dig, host, nslookup, and resolvectl) for debugging DNS name resolution issues. Live Grounding validates that DNS anomalies remain the leading cause of cluster orchestration networking issues, rendering proficiency with these commands mandatory for system reliability engineers.
 #### Packet Analysis
 
-  - **(2026)** [==termshark==](https://github.com/gcla/termshark) <span class='md-tag md-tag--info'>⭐ 9893</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight presents termshark as a terminal-based UI for tshark (Wireshark). Live Grounding validates that it remains the ultimate terminal UI option for real-time packet parsing over SSH links where graphic window managers are absent. Essential for low-level packet tracing on kubernetes nodes or bare-metal edge sites.
+  - **(2026)** [==termshark==](https://github.com/gcla/termshark) <span class='md-tag md-tag--info'>⭐ 9894</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight presents termshark as a terminal-based UI for tshark (Wireshark). Live Grounding validates that it remains the ultimate terminal UI option for real-time packet parsing over SSH links where graphic window managers are absent. Essential for low-level packet tracing on kubernetes nodes or bare-metal edge sites.
 #### Port Scanning
 
   - **(2021)** [**linuxshelltips.com: How to Use Netcat to Scan Open Ports in Linux 🌟**](https://www.linuxshelltips.com/netcat-linux-port-scanning) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight details how to use Netcat (`nc`) as a rapid, lightweight port scanner. Live Grounding shows that while specialized scanners like `nmap` provide much deeper vulnerability analysis, Netcat's ubiquitous presence on default system installations makes it the top choice for swift connectivity validation.
@@ -371,14 +371,14 @@
 #### Shell Customization
 
   - **(2026)** [==Oh My Zsh==](https://ohmyz.sh) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premium, open-source, community-driven framework for managing Zsh shell configurations. Extensible with thousands of helpful plugins and visual themes, it dramatically enhances terminal productivity.
-  - **(2025)** [==github.com/zsh-users/zsh-autosuggestions 🌟==](https://github.com/zsh-users/zsh-autosuggestions) <span class='md-tag md-tag--info'>⭐ 35526</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly efficient Zsh plugin that suggests commands as you type based on shell history. Greatly boosts productivity and matches the usability standard popularized by the Fish shell.
+  - **(2025)** [==github.com/zsh-users/zsh-autosuggestions 🌟==](https://github.com/zsh-users/zsh-autosuggestions) <span class='md-tag md-tag--info'>⭐ 35560</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly efficient Zsh plugin that suggests commands as you type based on shell history. Greatly boosts productivity and matches the usability standard popularized by the Fish shell.
 ## Security (1)
 
 ### Linux Hardening
 
 #### Best Practices
 
-  - **(2026)** [==How-To Secure A Linux Server==](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) <span class='md-tag md-tag--info'>⭐ 27392</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exhaustive, highly popular guide for securing production Linux environments. Covers SSH hardening, firewalls, user permission boundaries, 2FA, kernel optimization, audit logs, and automated vulnerability scanning.
+  - **(2026)** [==How-To Secure A Linux Server==](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) <span class='md-tag md-tag--info'>⭐ 27424</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exhaustive, highly popular guide for securing production Linux environments. Covers SSH hardening, firewalls, user permission boundaries, 2FA, kernel optimization, audit logs, and automated vulnerability scanning.
 ### Systems Hardening
 
 #### User Auditing
@@ -436,7 +436,7 @@
   - **(2020)** [igoroseledko.com: Checking Multiple Variables in Bash](https://www.igoroseledko.com/checking-multiple-variables-in-bash) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A concise guide highlighting techniques to evaluate multiple variables simultaneously in Bash. It contrasts standard nested conditionals with clean, single-expression evaluations using logical operators.
 #### JavaScript Scripting
 
-  - **(2026)** [==zx==](https://github.com/google/zx) <span class='md-tag md-tag--info'>⭐ 45502</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A revolutionary library by Google allowing developers to write rich shell scripts using JavaScript or TypeScript. Intuitively wraps child-process execution, making complex scripting pipelines highly readable and safe.
+  - **(2026)** [==zx==](https://github.com/google/zx) <span class='md-tag md-tag--info'>⭐ 45504</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A revolutionary library by Google allowing developers to write rich shell scripts using JavaScript or TypeScript. Intuitively wraps child-process execution, making complex scripting pipelines highly readable and safe.
 #### Secure Bash
 
   - **(2024)** [==github: Safe ways to do things in bash==](https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md) <span class='md-tag md-tag--info'>⭐ 4782</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The ultimate reference manual for writing safe, robust shell scripts, maintained as part of the Shellharden project. Explains how to avoid typical syntax traps, highlighting strict quoting guidelines and expansion rules.

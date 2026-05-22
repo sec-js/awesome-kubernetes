@@ -25,13 +25,13 @@ Live Grounding: Provides structured schemas, development SDKs (TypeScript and Py
 Live Grounding: Offers robust, fully managed hosting for MCP servers, ensuring secure data retrieval, automatic scaling, and strict enterprise-grade compliance bounds.
 #### Official Servers
 
-  - **(2024)** [==GitHub MCP Server==](https://github.com/modelcontextprotocol/servers) <span class='md-tag md-tag--info'>⭐ 85929</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: Primary collection of production-grade Model Context Protocol (MCP) servers.
+  - **(2024)** [==GitHub MCP Server==](https://github.com/modelcontextprotocol/servers) <span class='md-tag md-tag--info'>⭐ 86081</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: Primary collection of production-grade Model Context Protocol (MCP) servers.
 Live Grounding: Establishes development standards for JSON-RPC 2.0 based message exchange between host agents and enterprise backend systems.
 ### Web Automation Agents
 
 #### RPA Engines
 
-  - **(2024)** [==Skyvern==](https://github.com/Skyvern-ai/Skyvern) <span class='md-tag md-tag--info'>⭐ 21656</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: An AI-powered web browser automation agent designed to extract data and execute workflows on complex interfaces.
+  - **(2024)** [==Skyvern==](https://github.com/Skyvern-ai/Skyvern) <span class='md-tag md-tag--info'>⭐ 21696</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: An AI-powered web browser automation agent designed to extract data and execute workflows on complex interfaces.
 Live Grounding: Translates plain-text instructions into resilient selenium-style interactions, dynamically adapting to DOM mutations and bypassing rigid selector patterns.
 ## Cloud Native AI
 
@@ -39,25 +39,25 @@ Live Grounding: Translates plain-text instructions into resilient selenium-style
 
 #### Ray Clusters
 
-  - **(2023)** [**Kube-Ray**](https://github.com/ray-project/kuberay) <span class='md-tag md-tag--info'>⭐ 2506</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: An open-source Kubernetes Operator enabling the deployment and management of Ray clusters.
+  - **(2023)** [**Kube-Ray**](https://github.com/ray-project/kuberay) <span class='md-tag md-tag--info'>⭐ 2507</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: An open-source Kubernetes Operator enabling the deployment and management of Ray clusters.
 Live Grounding: Serves as the backbone for distributed machine learning workloads on Kubernetes, abstracting compute node scaling, memory configuration, and actor scheduling.
 ### Infrastructure Acceleration
 
 #### GPU Management
 
-  - **(2022)** [**NVIDIA GPU Operator**](https://github.com/NVIDIA/gpu-operator) <span class='md-tag md-tag--info'>⭐ 2706</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: Kubernetes operator designed to automate the management of NVIDIA software components on nodes.
+  - **(2022)** [**NVIDIA GPU Operator**](https://github.com/NVIDIA/gpu-operator) <span class='md-tag md-tag--info'>⭐ 2712</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: Kubernetes operator designed to automate the management of NVIDIA software components on nodes.
 Live Grounding: Provisions GPU drivers, container runtimes, device plug-ins, and monitoring tools automatically, ensuring consistent access to hardware acceleration.
 ### LLM Serving
 
 #### Inference Engines
 
-  - **(2023)** [==vLLM on Kubernetes==](https://github.com/vllm-project/vllm) <span class='md-tag md-tag--info'>⭐ 80484</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: Integration guides and deployment schemas for hosting vLLM on Kubernetes clusters.
+  - **(2023)** [==vLLM on Kubernetes==](https://github.com/vllm-project/vllm) <span class='md-tag md-tag--info'>⭐ 80712</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: Integration guides and deployment schemas for hosting vLLM on Kubernetes clusters.
 Live Grounding: Standardizes memory-efficient LLM serving using PagedAttention. Features rapid integration with Kubernetes HPA (Horizontal Pod Autoscaler) and native Prometheus performance scraping.
 ### Self-Hosted LLM
 
 #### Edge Serving
 
-  - **(2023)** [==LocalAI==](https://github.com/mudler/LocalAI) <span class='md-tag md-tag--info'>⭐ 46360</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: A self-hosted, community-first OpenAI-compatible API gateway running on local hardware.
+  - **(2023)** [==LocalAI==](https://github.com/mudler/LocalAI) <span class='md-tag md-tag--info'>⭐ 46406</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: A self-hosted, community-first OpenAI-compatible API gateway running on local hardware.
 Live Grounding: Allows developers to host LLMs, audio-to-text, and image generation services inside Kubernetes without external data dependencies, optimized for consumer-grade and enterprise hardware.
 
 ***

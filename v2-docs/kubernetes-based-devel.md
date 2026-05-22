@@ -89,7 +89,7 @@
   - **(2026)** [store.docker.com: Docker Community Edition EDGE with kubernetes. Installing Kubernetes using the Docker Client](https://docs.docker.com/desktop/setup/install/windows-install) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Official instructions for enabling and managing the built-in single-node Kubernetes cluster inside Docker Desktop for Windows. Ideal for local development, it removes the need to manually configure external VM environments.
 #### Docker-in-Docker
 
-  - **(2026)** [==**kind**==](https://github.com/kubernetes-sigs/kind) <span class='md-tag md-tag--info'>⭐ 15247</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — kind (Kubernetes in Docker) is an open-source tool for running local Kubernetes clusters using Docker containers as nodes. Highly favored for CI/CD environments and rapid inner-loop developer workflows because of its quick startup times and minimal host footprint.
+  - **(2026)** [==**kind**==](https://github.com/kubernetes-sigs/kind) <span class='md-tag md-tag--info'>⭐ 15254</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — kind (Kubernetes in Docker) is an open-source tool for running local Kubernetes clusters using Docker containers as nodes. Highly favored for CI/CD environments and rapid inner-loop developer workflows because of its quick startup times and minimal host footprint.
 #### Legacy Installers (1)
 
   - **(2019)** [dj-wasabi/vagrant-kubernetes](https://github.com/dj-wasabi/vagrant-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — An older Vagrant-based helper for building and running multi-node Kubernetes clusters. Kept for historical reference on VM-based local orchestration workflows before containerized tools like kind became popular.
@@ -98,7 +98,7 @@
   - **(2020)** [kubernetes-development-environment-in-a-box](https://github.com/ManagedKube/kubernetes-development-environment-in-a-box) <span class='md-tag md-tag--info'>⭐ 17</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — An early development framework that packaged Vagrant and VirtualBox configurations for running local multi-node clusters. The repository is unmaintained, as developers have largely shifted to containerized runtimes like kind or k3d.
 #### Single-Node Clusters
 
-  - **(2026)** [==Minikube==](https://github.com/kubernetes/minikube) <span class='md-tag md-tag--info'>⭐ 31810</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Minikube remains the standard tool for launching a single-node Kubernetes cluster locally. Supporting VM drivers, bare-metal deployment, and containerized Docker-in-Docker setups, it is a highly trusted local testing platform for developers worldwide.
+  - **(2026)** [==Minikube==](https://github.com/kubernetes/minikube) <span class='md-tag md-tag--info'>⭐ 31820</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Minikube remains the standard tool for launching a single-node Kubernetes cluster locally. Supporting VM drivers, bare-metal deployment, and containerized Docker-in-Docker setups, it is a highly trusted local testing platform for developers worldwide.
 #### Tutorials
 
   - **(2021)** [murchie85.github.io: Installling minikube](https://murchie85.github.io/Kubernetes.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A direct tutorial detailing the steps to install and set up Minikube locally. Provides tips for managing system resources, verifying hypervisor compatibility, and testing basic container deployments.
@@ -108,7 +108,7 @@
 
 #### Validation and Security
 
-  - **(2024)** [kubevious 🌟🌟](https://github.com/kubevious/kubevious) <span class='md-tag md-tag--info'>⭐ 1696</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kubevious is an open-source Kubernetes dashboard that provides full cluster topology visualization and configuration audits. It detects anti-patterns and validates live manifests, giving developers a clear view of cluster health.
+  - **(2024)** [kubevious 🌟🌟](https://github.com/kubevious/kubevious) <span class='md-tag md-tag--info'>⭐ 1695</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kubevious is an open-source Kubernetes dashboard that provides full cluster topology visualization and configuration audits. It detects anti-patterns and validates live manifests, giving developers a clear view of cluster health.
 ## Operations and Management
 
 ### Application Catalog
@@ -153,7 +153,7 @@
   - **(2026)** [==Lens Kubernetes IDE 🌟==](https://lenshq.io) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier graphical IDE for Kubernetes administration. Outfits teams with real-time logging, native terminal overrides, and intuitive resource hierarchy mappings across multiple clusters.
 #### Lens Extensions
 
-  - **(2022)** [Lens Resource Map extension](https://github.com/nevalla/lens-resource-map-extension) <span class='md-tag md-tag--info'>⭐ 407</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A popular visual plugin for Lens that creates dynamic, real-time dependency mappings of all active Kubernetes workloads and networks.
+  - **(2022)** [Lens Resource Map extension](https://github.com/nevalla/lens-resource-map-extension) <span class='md-tag md-tag--info'>⭐ 406</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A popular visual plugin for Lens that creates dynamic, real-time dependency mappings of all active Kubernetes workloads and networks.
 #### Monokle
 
   - **(2026)** [**kubeshop.github.io/monokle**](https://docs.monokle.io) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An analytical IDE focused on editing, validating, and debugging Kubernetes manifests. Facilitates policy-aware template checking and structured schema configuration.

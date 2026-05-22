@@ -18,7 +18,7 @@
 
 #### Docker Compose Orchestration
 
-  - **(2025)** [DockSTARTer](https://github.com/GhostWriters/DockSTARTer) <span class='md-tag md-tag--info'>⭐ 2560</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A user-friendly CLI utility designed to simplify the configuration and installation of self-hosted server software via structured Docker Compose patterns. Serves as a solid entry point for containerization concepts in local server and edge hardware topologies.
+  - **(2025)** [DockSTARTer](https://github.com/GhostWriters/DockSTARTer) <span class='md-tag md-tag--info'>⭐ 2558</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A user-friendly CLI utility designed to simplify the configuration and installation of self-hosted server software via structured Docker Compose patterns. Serves as a solid entry point for containerization concepts in local server and edge hardware topologies.
 ## DevOps
 
 ### Orchestration
@@ -70,7 +70,7 @@
 
 ##### Awesome Lists
 
-  - **(2026)** [==Awesome Sysadmin==](https://github.com/awesome-foss/awesome-sysadmin) <span class='md-tag md-tag--info'>⭐ 33955</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An incredibly rich curation containing production-grade open source utilities, control planes, networking layers, and security mechanisms used daily by systems architects and site reliability engineers.
+  - **(2026)** [==Awesome Sysadmin==](https://github.com/awesome-foss/awesome-sysadmin) <span class='md-tag md-tag--info'>⭐ 33981</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An incredibly rich curation containing production-grade open source utilities, control planes, networking layers, and security mechanisms used daily by systems architects and site reliability engineers.
 ### Virtualization Environments
 
 #### Vagrant Setup
@@ -82,12 +82,12 @@
 
 #### Continuous Delivery
 
-  - **(2026)** [==Devtron==](https://github.com/devtron-labs/devtron) <span class='md-tag md-tag--info'>⭐ 5482</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive, open-source AppOps platform for Kubernetes designed to consolidate CI/CD pipelines, GitOps, observability, and cost optimization. Provides self-service deployment interfaces, security checks, and deep resource validation for multicluster operations.
+  - **(2026)** [==Devtron==](https://github.com/devtron-labs/devtron) <span class='md-tag md-tag--info'>⭐ 5486</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive, open-source AppOps platform for Kubernetes designed to consolidate CI/CD pipelines, GitOps, observability, and cost optimization. Provides self-service deployment interfaces, security checks, and deep resource validation for multicluster operations.
 ### Cluster Operations
 
 #### GUI Clients
 
-  - **(2024)** [KubeUI: A Desktop Kubernetes Client](https://github.com/IvanJosipovic/KubeUI) <span class='md-tag md-tag--info'>⭐ 307</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A native, desktop-optimized UI designed to stream, monitor, and interact with live cluster metrics and objects. Enhances developer agility through dynamic views of multi-cluster namespaces, container outputs, and active workload parameters.
+  - **(2024)** [KubeUI: A Desktop Kubernetes Client](https://github.com/IvanJosipovic/KubeUI) <span class='md-tag md-tag--info'>⭐ 308</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A native, desktop-optimized UI designed to stream, monitor, and interact with live cluster metrics and objects. Enhances developer agility through dynamic views of multi-cluster namespaces, container outputs, and active workload parameters.
   - **(2022)** [Kubeterm: Graphical Management Tool for Kubernetes](https://github.com/kbterm/kubeterm) <span class='md-tag md-tag--info'>⭐ 208</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source desktop client designed for administrative and monitoring interactions within Kubernetes clusters. Employs graphical representations of active resources to lower cognitive load during deep-dive debugging of deployments, services, and namespace configurations.
 ## Platform Engineering (1)
 
@@ -95,14 +95,14 @@
 
 #### Agentic Engineering
 
-  - **(2025)** [**Azure DevOps MCP Server**](https://github.com/microsoft/azure-devops-mcp) <span class='md-tag md-tag--info'>⭐ 1700</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official Microsoft MCP server repository enabling AI Agents (like Claude or GitHub Copilot) to interact seamlessly with Azure DevOps. Allows agents to manage work items, query repositories, inspect pipeline logs, and orchestrate PR reviews dynamically.
+  - **(2025)** [**Azure DevOps MCP Server**](https://github.com/microsoft/azure-devops-mcp) <span class='md-tag md-tag--info'>⭐ 1718</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official Microsoft MCP server repository enabling AI Agents (like Claude or GitHub Copilot) to interact seamlessly with Azure DevOps. Allows agents to manage work items, query repositories, inspect pipeline logs, and orchestrate PR reviews dynamically.
 ### CI-CD Pipelines
 
 #### Debugging
 
 ##### GitHub Actions
 
-  - **(2025)** [==action-tmate: Debug GitHub Actions via SSH==](https://github.com/mxschmitt/action-tmate) <span class='md-tag md-tag--info'>⭐ 3540</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive tool for debugging failing GitHub Actions runner environments. This action opens an interactive, secure shell (SSH or Web TUI) terminal session on the live GHA runner, allowing developers to execute shell commands, inspect filesystems, and debug failures instantly.
+  - **(2025)** [==action-tmate: Debug GitHub Actions via SSH==](https://github.com/mxschmitt/action-tmate) <span class='md-tag md-tag--info'>⭐ 3544</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive tool for debugging failing GitHub Actions runner environments. This action opens an interactive, secure shell (SSH or Web TUI) terminal session on the live GHA runner, allowing developers to execute shell commands, inspect filesystems, and debug failures instantly.
 ## Software Engineering
 
 ### Product Culture

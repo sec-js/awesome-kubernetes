@@ -26,10 +26,10 @@
 
 #### CLI Parsers
 
-  - **(2024)** [==github.com/tomnomnom/gron 🌟==](https://github.com/tomnomnom/gron) <span class='md-tag md-tag--info'>⭐ 14438</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly acclaimed command-line tool that flattens JSON documents into raw assignments paths. This enables engineers to easily search and modify configuration data using traditional line-by-line CLI utilities like grep.
-  - **(2025)** [**github.com/01mf02/jaq**](https://github.com/01mf02/jaq) <span class='md-tag md-tag--info'>⭐ 3604</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A high-performance Rust implementation of the classic jq tool. Delivers lightning-fast query speeds, improved compile errors, and absolute type safety when transforming huge configurations.
-  - **(2024)** [**github.com/ynqa/jnv 🌟**](https://github.com/ynqa/jnv) <span class='md-tag md-tag--info'>⭐ 6021</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An interactive, terminal-based JSON parser and viewer built on Go. Provides instant auto-completion features and live structural feedback, making the querying of huge payloads trivial.
-  - **(2024)** [github.com/JFryy/qq](https://github.com/JFryy/qq) <span class='md-tag md-tag--info'>⭐ 724</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A handy command-line parser that supports querying across multiple configuration standards including TOML, JSON, and YAML. It provides a consistent query language, easing configuration data conversions.
+  - **(2024)** [==github.com/tomnomnom/gron 🌟==](https://github.com/tomnomnom/gron) <span class='md-tag md-tag--info'>⭐ 14441</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly acclaimed command-line tool that flattens JSON documents into raw assignments paths. This enables engineers to easily search and modify configuration data using traditional line-by-line CLI utilities like grep.
+  - **(2025)** [**github.com/01mf02/jaq**](https://github.com/01mf02/jaq) <span class='md-tag md-tag--info'>⭐ 3613</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A high-performance Rust implementation of the classic jq tool. Delivers lightning-fast query speeds, improved compile errors, and absolute type safety when transforming huge configurations.
+  - **(2024)** [**github.com/ynqa/jnv 🌟**](https://github.com/ynqa/jnv) <span class='md-tag md-tag--info'>⭐ 6023</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An interactive, terminal-based JSON parser and viewer built on Go. Provides instant auto-completion features and live structural feedback, making the querying of huge payloads trivial.
+  - **(2024)** [github.com/JFryy/qq](https://github.com/JFryy/qq) <span class='md-tag md-tag--info'>⭐ 723</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A handy command-line parser that supports querying across multiple configuration standards including TOML, JSON, and YAML. It provides a consistent query language, easing configuration data conversions.
   - **(2021)** [github.com/ilyash/show-struct](https://github.com/ilyash/show-struct) <span class='md-tag md-tag--info'>⭐ 131</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A unique CLI utility designed to inspect the structural hierarchy of deeply nested JSON and YAML documents. Generates clear, high-level map layouts to help developers quickly understand unfamiliar config data.
 #### Schema Validation
 
@@ -48,7 +48,7 @@
 
 #### CLI Parsers (1)
 
-  - **(2025)** [**kislyuk/yq**](https://github.com/kislyuk/yq) <span class='md-tag md-tag--info'>⭐ 2939</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A reliable CLI YAML processor wrapping the classic jq tool in Python. It enables native jq query logic on YAML configurations, facilitating complex data transformations.
+  - **(2025)** [**kislyuk/yq**](https://github.com/kislyuk/yq) <span class='md-tag md-tag--info'>⭐ 2940</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A reliable CLI YAML processor wrapping the classic jq tool in Python. It enables native jq query logic on YAML configurations, facilitating complex data transformations.
   - **(2021)** [avencera/yamine](https://github.com/avencera/yamine) <span class='md-tag md-tag--info'>⭐ 19</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A Rust-implemented CLI parser designed to optimize YAML file validation and structural queries. Under MVQ guidelines, it is categorized as legacy due to low active development, but remains a fast, lightweight local query option.
 #### Schema Validation (1)
 
@@ -72,7 +72,7 @@
 
 #### Static Analysis
 
-  - **(2026)** [**KubeLinter**](https://github.com/stackrox/kube-linter) <span class='md-tag md-tag--info'>⭐ 3449</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A static analysis tool that analyzes Kubernetes YAML manifests and Helm charts against best practices for security and production readiness. Checks for running as root, container security context settings, and missing resource limits.
+  - **(2026)** [**KubeLinter**](https://github.com/stackrox/kube-linter) <span class='md-tag md-tag--info'>⭐ 3450</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A static analysis tool that analyzes Kubernetes YAML manifests and Helm charts against best practices for security and production readiness. Checks for running as root, container security context settings, and missing resource limits.
 ## Infrastructure as Code
 
 ### Ansible
@@ -184,7 +184,7 @@
 
 #### JSON Parsers
 
-  - **(2024)** [==buger/jsonparser==](https://github.com/buger/jsonparser) <span class='md-tag md-tag--info'>⭐ 5620</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An ultra-performant, zero-allocation Go JSON parsing library that bypasses reflection and standard marshaling steps. Accesses deeply nested values directly from byte streams, outperforming standard library configurations by up to 10x.
+  - **(2024)** [==buger/jsonparser==](https://github.com/buger/jsonparser) <span class='md-tag md-tag--info'>⭐ 5624</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An ultra-performant, zero-allocation Go JSON parsing library that bypasses reflection and standard marshaling steps. Accesses deeply nested values directly from byte streams, outperforming standard library configurations by up to 10x.
 ### JavaScript Development
 
 #### Data Manipulation
