@@ -148,6 +148,7 @@ Additionally, as of May 2026, Nubenetes has reached the **Platinum Operational T
 Top 10 categories by link volume in the exhaustive V1 archive.
 
 <!-- TOP_CATEGORIES_START -->
+
 | Category (Markdown Page) | Total Links |
 | :--- | :---: |
 | [Kubernetes](docs/kubernetes.md) | 1099 |
@@ -168,6 +169,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 
 #### Annual Growth Summary
 <!-- ANNUAL_GROWTH_START -->
+
 | # | Year | Commits | Est. New Refs | Key Milestone |
 | :---: | :---: | :---: | :---: | :--- |
 | 1 | 2018 | 350 | 1,445 | **Munich Era (BMW IT-Zentrum)** |
@@ -201,6 +203,7 @@ xychart-beta
 
 #### 2026: The Agentic Monthly Surge
 <!-- MONTHLY_SURGE_START -->
+
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
@@ -503,6 +506,7 @@ Nubenetes utilizes a production-grade extraction hierarchy to ensure technical v
 3.  **Tertiary: Gemini Pro Grounding**: Direct Google Search retrieval if the platform blocks all automated access.
 
 ### 6.8. Critical Secrets and Environment Variables
+
 | Secret Name | Purpose | Technical Requirement |
 | :--- | :--- | :--- |
 | `GEMINI_API_KEY_1` | Primary AI Engine | Gemini 1.5 Pro/Flash access. |
@@ -1080,4 +1084,3 @@ The technical resources (links, articles, videos) curated in this archive are th
 
 ### 15.3. Legal Disclaimer
 The information provided in this repository is for educational and professional reference purposes only. While our Agentic AI ensures high-fidelity curation, users should verify production configurations against official vendor documentation (AWS, Red Hat, CNCF) before deployment.
-t official vendor documentation (AWS, Red Hat, CNCF) before deployment.
