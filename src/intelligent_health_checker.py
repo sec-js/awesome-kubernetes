@@ -67,6 +67,11 @@ class IntelligentLinkCleaner:
                         for m in matches:
                             fmt_pre, title, url, fmt_post, desc = m.groups()
                             nu = normalize_url(url)
+
+                            # MANDATE 23: Skip YouTube Mosaic links in docs/index.md
+                            if path == "docs/index.md" and "youtube.com" in nu:
+                                continue
+
                             is_important = False
                             if fmt_pre or fmt_post: is_important = True
                             if "🌟" in title or "🌟" in (desc or ""): is_important = True
