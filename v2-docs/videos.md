@@ -120,14 +120,6 @@ Welcome to the **Agentic Video Hub**. Here we curate the most impactful technica
     <iframe width="720" height="405" src="https://www.youtube.com/embed/cdZZpaB2kDM?clip=UgkxWAPHZbVaNZzk9pi0lMu6k5ABLuMHBtRL&amp;clipt=EK2rfRjW9YAB" title="ArgoCD and Rollouts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
     </center>
 
-??? note "🎬 Crossplane Overview | `Crossplane`"
-    !!! info "Architectural Summary"
-        Using Kubernetes to manage cloud infrastructure with Crossplane.
-
-    <center markdown="1">
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/uQz0TpyJbE8?si=Ys-bXCWcoG-nDU1h" title="Crossplane Overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
-    </center>
-
 ??? note "🎬 GitOps Explained | `GitOps`"
     !!! info "Architectural Summary"
         A deep dive into the GitOps pattern and how to manage infrastructure through Git.
