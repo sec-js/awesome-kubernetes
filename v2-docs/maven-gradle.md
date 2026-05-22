@@ -130,6 +130,6 @@
 
   - **(2026)** [**JBang**](https://www.jbang.dev) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A CLI tool allowing Java developers to run single-file source code programs as executable scripts, handling dependency fetching on-the-fly without heavy project setups.
 
-***
+---
 💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Java_Frameworks](./java_frameworks.md) | [Golang](./golang.md)
 

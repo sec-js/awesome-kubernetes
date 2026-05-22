@@ -851,6 +851,6 @@
 
   - **(2021)** [torq.io: 5 Security Automation Examples for Non-Developers](https://torq.io/blog/5-security-automation-examples-for-non-developers) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides five actionable automation playbooks for SecOps teams to streamline alert triage and response actions. Contrast: Curator Insight presents low-code solutions for non-developers, while Live Grounding shows that automating through structured JSON endpoints and centralized notification platforms is key to keeping MTTR minimal. Practical operational guide.
 
-***
+---
 💡 **Explore Related:** [Crossplane](./crossplane.md) | [Pulumi](./pulumi.md) | [Kubernetes Security](./kubernetes-security.md)
 

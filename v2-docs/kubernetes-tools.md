@@ -87,6 +87,6 @@
 
   - **(2025)** [Cursor Bugbot Effort Levels Documentation](https://cursor.com/docs/bugbot#effort-levels) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official documentation explaining the Cursor Bugbot's dynamic execution tiering, balancing deep semantic analysis and token limits against codebase complexity metrics.
 
-***
+---
 💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Cheatsheets](./cheatsheets.md) | [Linux](./linux.md)
 

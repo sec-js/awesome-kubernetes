@@ -96,6 +96,6 @@ Live Grounding: Features structural overviews of AWS CodePipeline, CodeBuild, an
 
   - **(2019)** [Purposeful Commits](https://chrisarcand.com/purposeful-commits) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Explores the cultural developer hygiene of crafting clear, logical git commits. Live Grounding: Details how concise commit histories simplify pipeline automated testing, automated changelogs, and fast deployment troubleshooting. Essential software craft guidance.
 
-***
+---
 💡 **Explore Related:** [Project Management Methodology](./project-management-methodology.md) | [Scaffolding](./scaffolding.md) | [Chaos Engineering](./chaos-engineering.md)
 

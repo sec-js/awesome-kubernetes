@@ -173,6 +173,6 @@
   - **(2020)** [**qlinh.com: Leveraging Kubernetes audit logs for threat detection**](https://qlinh.com/infosec/2020/09/30/threat-detection-with-kubernetes-audit-logs.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A security-oriented analysis showing how to leverage Kubernetes API audit logs to capture malicious actions and abnormal cluster behavior. Grounding confirms its high value in implementing Falco-based SIEM ingestion architectures.
   - **(2022)** [tealfeed.com: Kubernetes Audit Logs: Who created or deleted a namespace?](https://tealfeed.com/kubernetes-audit-logs-created-deleted-namespace-ho5o3) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A targeted troubleshooting guide focused on analyzing the Kube-APIServer audit log payload. Explains how to parse JSON audit trails to track exact identity, timestamp, and API verbs executing namespace lifecycle events.
 
-***
+---
 💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Ocp4](./ocp4.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md)
 

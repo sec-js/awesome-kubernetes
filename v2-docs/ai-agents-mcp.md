@@ -60,6 +60,6 @@ Live Grounding: Standardizes memory-efficient LLM serving using PagedAttention. 
   - **(2023)** [==LocalAI==](https://github.com/mudler/LocalAI) <span class='md-tag md-tag--info'>⭐ 46406</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: A self-hosted, community-first OpenAI-compatible API gateway running on local hardware.
 Live Grounding: Allows developers to host LLMs, audio-to-text, and image generation services inside Kubernetes without external data dependencies, optimized for consumer-grade and enterprise hardware.
 
-***
+---
 💡 **Explore Related:** [Ai](./ai.md) | [Chatgpt](./chatgpt.md)
 

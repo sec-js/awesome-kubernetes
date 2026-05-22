@@ -32,6 +32,6 @@
 *   Establishes safe practices for database change control that are compatible with agile methodologies.
   - **(2020)** [percona: Database Schema Management Via Liquibase](https://www.percona.com/community-blog/2020/10/01/database-schema-management-via-liquibase)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical blog post by Percona illustrating step-by-step database schema version control using Liquibase. It highlights integration patterns with enterprise relational databases (MySQL, PostgreSQL) and demonstrates rollback strategies to ensure zero-downtime database upgrades.
 
-***
+---
 💡 **Explore Related:** [Devsecops](./devsecops.md) | [Crossplane](./crossplane.md) | [Pulumi](./pulumi.md)
 

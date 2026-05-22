@@ -71,6 +71,6 @@ Live Grounding: Focuses on explaining the fundamental differences between local 
 
   - **(2021)** [openshift.com: Using OpenShift Pipelines to Automate Red Hat Advanced Cluster Security for Kubernetes](https://www.redhat.com/en/blog/using-openshift-pipelines-to-automate-red-hat-advanced-cluster-security-for-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines deployment strategies of Red Hat Advanced Cluster Security (RHACS) directly into Tekton-based OpenShift Pipelines. Demonstrates early container image scanning, compliance validations, and proactive security gate blocking.
 
-***
+---
 💡 **Explore Related:** [Registries](./registries.md) | [Jenkins Alternatives](./jenkins-alternatives.md) | [Argo](./argo.md)
 

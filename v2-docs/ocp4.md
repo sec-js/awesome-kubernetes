@@ -39,6 +39,6 @@
 
   - **(2019)** [Red Hat Introduces open source Project Quay container registry](https://www.redhat.com/en/blog/red-hat-introduces-open-source-project-quay-container-registry) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A historical press release from Red Hat explaining the architectural transition and open-sourcing of Project Quay, detailing its integration into standard enterprise container management stacks.
 
-***
+---
 💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md) | [Openshift](./openshift.md)
 

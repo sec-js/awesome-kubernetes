@@ -106,6 +106,6 @@
   - **(2022)** [youtube: Platform9’s Madhura Maskasky says observability is also essential for diagnosing and debugging in order for SREs to "get to the root cause quickly enough so that you can feed that back to the development teams." 🌟](https://www.youtube.com/watch?v=tgRPlAQpHYk&ab_channel=TheNewStack) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly informative video overview mapping how Platform9 integrates robust observability networks. Explains why deep trace analysis is vital for fast root-cause isolation in microservices.
   - **(2021)** [circonus.com: Monitoring for Success: What All SREs Need to Know](https://www.circonus.com/2021/04/monitoring-for-success-what-all-sres-need-to-know) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep technical evaluation of telemetry and metric requirements for SRE. Discusses the selection of appropriate service objectives and data collection frequencies.
 
-***
+---
 💡 **Explore Related:** [Project Management Methodology](./project-management-methodology.md) | [Scaffolding](./scaffolding.md) | [Devops](./devops.md)
 

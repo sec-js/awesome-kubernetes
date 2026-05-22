@@ -20,6 +20,6 @@
 
   - **(2025)** [==NGINXConfig==](https://www.digitalocean.com/community/tools/nginx) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — DigitalOcean's visual configuration tool for Nginx. It generates highly secure, production-tested server blocks tailored for modern features like HTTP/2, custom security headers, SSL/TLS optimizations via Let's Encrypt, and Gzip compression.
 
-***
+---
 💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Tools Scripts](./aws-tools-scripts.md) | [Aws Databases](./aws-databases.md)
 

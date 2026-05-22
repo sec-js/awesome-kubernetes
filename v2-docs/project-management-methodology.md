@@ -18,6 +18,6 @@
 
   - **(2021)** [entrepreneur.com: Las 10 preguntas que debes hacerte para saber si eres un buen líder](https://spanish.entrepreneur.com) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a self-diagnostic framework composed of ten strategic evaluation questions designed to gauge leadership efficacy and maturity. Promotes reflective coaching and output-driven organizational alignment. [SPANISH CONTENT]
 
-***
+---
 💡 **Explore Related:** [Scaffolding](./scaffolding.md) | [Devops](./devops.md) | [Chaos Engineering](./chaos-engineering.md)
 
