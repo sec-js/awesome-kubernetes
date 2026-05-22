@@ -54,7 +54,7 @@ Exhaustive list of 115 generated elite documents.
 | 49 | `golang.md` | Golang |
 | 50 | `helm.md` | Helm |
 | 51 | `iac.md` | Iac |
-| 52 | `index.md` | Nubenetes Elite Portal (V2) | Nubenetes: Awesome Kubernetes & Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) |
+| 52 | `index.md` | Nubenetes Elite Portal (V2) | Awesome Kubernetes & Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) |
 | 53 | `interview-questions.md` | Interview Questions |
 | 54 | `introduction.md` | Introduction |
 | 55 | `istio.md` | Istio |
