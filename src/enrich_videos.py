@@ -16,29 +16,29 @@ async def enrich_video_entry(url: str, entry: dict):
     # Strategy B: Fallback to AI Grounding if fetch was blocked or generic
     use_grounding = False
     if not meta:
-        log_event(f"    [!] Direct fetch failed for {url}. Falling back to AI Grounding/Search...")
+        log_event(f"    [!] Direct fetch failed for {url}. Forcing AI Grounding/Search...")
         use_grounding = True
         context = f"YouTube URL: {url}"
     else:
-        context = f"Title: {meta['raw_title']}\nDescription: {meta['raw_description']}"
+        context = f"Local Context (from YouTube extraction):\nTitle: {meta['raw_title']}\nDescription: {meta['raw_description']}"
 
     prompt = f"""
-    You are a Senior Cloud Architect. Analyze the following technical resource:
+    You are a Senior Cloud Architect. Your goal is to provide a high-fidelity summary of a technical YouTube video.
+    
+    INPUT CONTEXT:
     {context}
 
-    Tasks:
-    1. Identify the ACTUAL technical content of this YouTube video based PRIMARILY on the provided Title and Description.
-    2. Generate a high-density architectural summary (2-3 sentences) that is FAITHFUL to the actual description provided.
-       - If the description says it's a documentary about Kubernetes, the summary MUST reflect that.
-       - If it's a demo of Kelsey Hightower at PuppetConf, the summary MUST reflect that.
-       - WARNING: DO NOT describe generic YouTube platform infrastructure unless the video itself is about YouTube's engineering (e.g., Vitess).
-    3. Identify the primary technology (e.g., Kubernetes, Istio, Terraform).
-    4. Select the best category from: [Fundamentals and Documentaries, Architecture and Cloud Strategy, Networking and Service Mesh, Infrastructure as Code, Observability and Monitoring, AI and Future Operations, Security and Compliance].
+    CRITICAL INSTRUCTIONS:
+    1. If the 'Local Context' above is missing, generic, or mentions 'YouTube' without a specific title, you MUST use your internal GOOGLE SEARCH GROUNDING to find the actual title and technical description of this video URL: {url}.
+    2. Identify the ACTUAL technical content based on the verified video metadata.
+    3. Generate a high-density architectural summary (2-3 sentences) explaining its specific value for a 2026 Cloud Native context.
+    4. DO NOT describe generic YouTube platform infrastructure unless the video is specifically about it.
+    5. Select the primary technology (e.g., Kubernetes, Vitess, Istio) and a category from: [Fundamentals and Documentaries, Architecture and Cloud Strategy, Networking and Service Mesh, Infrastructure as Code, Observability and Monitoring, AI and Future Operations, Security and Compliance].
 
     Return ONLY a JSON object:
     {{
-      "title": "Actual Video Title",
-      "summary": "Specific and faithful content summary...",
+      "title": "Actual Verified Title",
+      "summary": "Specific and faithful architectural summary...",
       "technology": "...",
       "category": "..."
     }}

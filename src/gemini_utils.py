@@ -441,7 +441,13 @@ async def fetch_youtube_metadata(url: str) -> Optional[Dict]:
             'quiet': True,
             'skip_download': True,
             'force_generic_extractor': False,
-            'no_warnings': True
+            'no_warnings': True,
+            'extractor_args': {
+                'youtube': {
+                    'player_client': ['android', 'web_embedded'],
+                    'skip': ['dash', 'hls']
+                }
+            }
         }
 
         # Extract basic info
