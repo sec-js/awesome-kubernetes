@@ -11,31 +11,42 @@ INVENTORY_PATH = "data/inventory.yaml"
 async def enrich_video_entry(url: str, entry: dict):
     log_event(f"[*] Enriching video: {url}")
     meta = await fetch_youtube_metadata(url)
+    
+    # Strategy A: Use metadata from direct fetch
+    # Strategy B: Fallback to AI Grounding if fetch was blocked or generic
+    use_grounding = False
     if not meta:
-        return entry
+        log_event(f"    [!] Direct fetch failed for {url}. Falling back to AI Grounding/Search...")
+        use_grounding = True
+        context = f"YouTube URL: {url}"
+    else:
+        context = f"Title: {meta['raw_title']}\nDescription: {meta['raw_description']}"
 
     prompt = f"""
-    You are a Senior Cloud Architect. Analyze the following YouTube video metadata:
-    Title: {meta['raw_title']}
-    Description: {meta['raw_description']}
+    You are a Senior Cloud Architect. Analyze the following technical resource:
+    {context}
 
     Tasks:
-    1. Generate a high-density architectural summary (2-3 sentences) focused on its value for a 2026 DevOps/Cloud context.
-    2. Identify the primary technology (e.g., Kubernetes, Istio, Terraform).
-    3. Select the best category from: [Fundamentals and Documentaries, Architecture and Cloud Strategy, Networking and Service Mesh, Infrastructure as Code, Observability and Monitoring, AI and Future Operations, Security and Compliance].
+    1. Identify the ACTUAL technical content of this YouTube video. 
+    2. Generate a high-density architectural summary (2-3 sentences) explaining its specific value for a 2026 Cloud Native context. 
+       - WARNING: DO NOT describe the YouTube platform infrastructure unless the video itself is about YouTube's engineering.
+    3. Identify the primary technology (e.g., Kubernetes, Istio, Terraform).
+    4. Select the best category from: [Fundamentals and Documentaries, Architecture and Cloud Strategy, Networking and Service Mesh, Infrastructure as Code, Observability and Monitoring, AI and Future Operations, Security and Compliance].
 
     Return ONLY a JSON object:
     {{
-      "summary": "...",
+      "title": "Actual Video Title",
+      "summary": "Specific content summary...",
       "technology": "...",
       "category": "..."
     }}
     """
     
     try:
-        data = await call_gemini_with_retry(prompt, prefer_flash=True)
+        # Use grounding only if direct fetch failed
+        data = await call_gemini_with_retry(prompt, prefer_flash=True, use_grounding=use_grounding)
         
-        entry["title"] = meta['raw_title']
+        entry["title"] = data.get("title", meta['raw_title'] if meta else "YouTube Video")
         entry["ai_summary"] = data["summary"]
         entry["technology"] = data["technology"]
         entry["category"] = data["category"]
