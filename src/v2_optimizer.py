@@ -661,7 +661,7 @@ class V2VisionEngine:
                 md += f" — {summary.strip()}\n"
             else:
                 md += "\n"
-            return md
+        return md
 
 
     async def _write_premium_files(self, data: Dict[str, Dict], mosaic_html: str, videos_html: str):
