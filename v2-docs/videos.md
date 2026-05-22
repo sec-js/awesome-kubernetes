@@ -4,61 +4,61 @@ Welcome to the **Agentic Video Hub**. This section presents a logical, architect
 
 ## Table of Contents
 
-1. [AI and Future Operations](#ai-and-future-operations)
-2. [Architecture and Cloud Strategy](#architecture-and-cloud-strategy)
-3. [Fundamentals and Documentaries](#fundamentals-and-documentaries)
-4. [Infrastructure as Code](#infrastructure-as-code)
-5. [Observability and Monitoring](#observability-and-monitoring)
-6. [Security and Compliance](#security-and-compliance)
+1. [Fundamentals and Documentaries](#1-fundamentals-and-documentaries)
+2. [Architecture and Cloud Strategy](#2-architecture-and-cloud-strategy)
+3. [AI and Future Operations](#3-ai-and-future-operations)
+4. [Infrastructure as Code](#4-infrastructure-as-code)
+5. [Observability and Monitoring](#5-observability-and-monitoring)
+6. [Security and Compliance](#6-security-and-compliance)
 
-## AI and Future Operations
-??? note "🎬 Thursday morning general session - May 9 - Red Hat Summit 2019 | `Red Hat OpenShift`"
+## Fundamentals and Documentaries
+??? note "🎬 Kubernetes: The Documentary [PART 1] | `Kubernetes`"
     !!! info "Architectural Summary"
-        This session highlights the orchestration of high-performance workloads—specifically machine learning and cognitive AI pipelines—on Red Hat OpenShift utilizing GPU acceleration and automated Kubernetes operators. By showcasing collaborations with NVIDIA, H2O.ai, and healthcare pioneers, it demonstrates how standardized hybrid cloud platforms streamline complex data pipelines and model deployment from core datacenters to edge locations. For modern cloud-native architectures, this establishes the foundational blueprint for running heterogeneous AI/ML workloads reliably using cloud-native operations.
+        This documentary chronicles the architectural genesis of Kubernetes, tracing its lineage from Google's internal Borg system to the open-source industry standard that resolved the container orchestration wars. Understanding these foundational design choices—such as declarative state management, control loops, and the pod abstraction—is critical for modern cloud-native architects designing resilient, platform-agnostic infrastructure in 2026. It provides invaluable historical context on why decoupled API-driven control planes triumphed over rigid, imperative scheduling models.
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/FUu4kMc0PL8?clip=UgkxFMdlFKBQze7NVVd7q2nIwBYWkeaKeoX8&amp;clipt=EIzBzwIY1fnSAg" title="Thursday morning general session - May 9 - Red Hat Summit 2019" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/BE77h7dmoQU" title="Kubernetes: The Documentary [PART 1]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
-??? note "🎬 Thursday morning general session - May 9 - Red Hat Summit 2019 | `Red Hat OpenShift`"
+??? note "🎬 Kubernetes: The Documentary [PART 2] | `Kubernetes`"
     !!! info "Architectural Summary"
-        This session showcases the integration of GPU acceleration and AI/ML workload orchestration on Red Hat OpenShift in collaboration with NVIDIA, H2O.ai, and PerceptiLabs. For the 2026 cloud-native landscape, this architectural model establishes the foundation for modern platform engineering and MLOps by demonstrating how to abstract complex hardware accelerators under a unified Kubernetes control plane. It highlights the critical path for scaling containerized machine learning pipelines and AI-driven operations securely across hybrid and multi-cloud environments.
+        This documentary chronicles the pivotal competitive era of the 'Container Orchestrator Wars,' illustrating how Kubernetes' open-source governance model and decoupled API-driven architecture defeated proprietary alternatives to become the global industry standard. For 2026 Cloud Native architects, it provides foundational lessons on why community-driven ecosystem extensibility and declarative control planes triumph over rigid, proprietary integrations. Understanding these socio-technical decisions clarifies the evolutionary path toward modern Kubernetes capabilities like multi-cluster fleet management, edge computing, and AI workload orchestration.
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/FUu4kMc0PL8?clip=UgkxLbUzIJtyeKPi66qAvxxRlGbofYp_Gr8B&amp;clipt=EIDy0gIY4MbWAg" title="Thursday morning general session - May 9 - Red Hat Summit 2019" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/318elIq37PE" title="Kubernetes: The Documentary [PART 2]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
-??? note "🎬 Artificial Intelligence | 60 Minutes Full Episodes | `Generative AI and Large Language Models (LLMs)`"
+??? note "🎬 Kubernetes for SysAdmins | Kelsey Hightower at PuppetConf | Talk & Demo | `Kubernetes`"
     !!! info "Architectural Summary"
-        This documentary compilation traces the rapid evolution of artificial intelligence from early deep learning implementations to transformative large language models (LLMs), highlighting their global socio-economic impacts and technical trajectories. For 2026 cloud-native environments, it underscores the critical architectural necessity of implementing robust AI safety guardrails, governance frameworks, and secure multi-tenant model orchestration layers. By examining the early challenges of chatbot deployment and LLM hallucination, platform architects can better design resilient, compliant infrastructures capable of hosting next-generation agentic workflows.
+        This foundational presentation by Kelsey Hightower outlines the paradigm shift from machine-centric management to application-centric infrastructure using Kubernetes' declarative model. It demonstrates how core abstractions like Pods, Replication Controllers, and dynamic service discovery allow systems administrators to automate bin-packing, stateful deployments, and secure self-healing workflows. In a modern cloud-native context, these concepts serve as the bedrock of platform engineering, showing how control loops and custom extensions can fully decouple application lifecycles from underlying bare-metal or VM estates.
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/aZ5EsdnpLMI?si=ESsNnVwE8IdWSiWZ" title="Artificial Intelligence | 60 Minutes Full Episodes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/HlAXp0-M6SY?clip=UgkxWpu3QFPEDZBuMgy_Xq4mBR--uLA-3CSZ&amp;clipt=EMSoKxiG3C4" title="Kubernetes for SysAdmins | Kelsey Hightower at PuppetConf | Talk & Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
-??? note "🎬 Red Hat OpenShift AI overview | `OpenShift AI`"
+??? note "🎬 Elon Musk talks Twitter, Tesla and how his brain works — live at TED2022 | `Algorithmic Transparency`"
     !!! info "Architectural Summary"
-        Red Hat OpenShift AI delivers a unified, Kubernetes-native MLOps platform designed to standardize the building, tuning, deploying, and monitoring of AI/ML models across hybrid cloud infrastructures. By integrating key open-source tools like Jupyter, PyTorch, TensorFlow, and KServe with enterprise-grade security, it abstracts underlying hardware complexities (such as GPUs) to accelerate model delivery. This architectural consistency ensures platform engineering teams can reliably scale generative AI and predictive workloads from edge to multi-cloud environments.
+        This interview explores the architectural and philosophical implications of open-sourcing massive social media recommendation algorithms and scaling highly automated, physical-digital manufacturing pipelines. It highlights critical concepts of algorithmic transparency, public trust validation, and extreme system automation, which directly inform the design of verifiable, high-throughput cloud platforms in 2026. Cloud architects can leverage these insights to conceptualize zero-trust computation, open-source algorithm hosting, and feedback-driven industrial IoT infrastructure.
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/Hc8emNr2igU?si=kehLRUpOAvyK_Bku" title="Red Hat OpenShift AI overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/cdZZpaB2kDM?clip=UgkxWAPHZbVaNZzk9pi0lMu6k5ABLuMHBtRL&amp;clipt=EK2rfRjW9YAB" title="Elon Musk talks Twitter, Tesla and how his brain works — live at TED2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
-??? note "🎬 ¿Qué es una Red Neuronal? Parte 1 : La Neurona | DotCSV | `Artificial Neural Networks`"
+??? note "🎬 Kubernetes: The Documentary | `Kubernetes`"
     !!! info "Architectural Summary"
-        This foundational video demystifies the basic unit of deep learning—the artificial neuron—by breaking down its mathematical relationship with linear regression, input weights, biases, and activation functions. For a 2026 Cloud Native context, mastering these mathematical primitives is essential for optimizing AI inference workloads, designing efficient GPU/TPU resource allocation strategies, and implementing custom model quantization techniques at the edge.
+        This documentary explores the origin and evolutionary architecture of Kubernetes, detailing its transition from Google's internal Borg system to the ubiquitous Cloud Native orchestration platform of 2026. It highlights the design philosophy of decoupled components like the API server, etcd, and kubelet, demonstrating how declarative state reconciliation solves massive multi-cloud scaling challenges. The video provides vital context for architects designing resilient, planetary-scale infrastructure ecosystems without being locked into a single vendor.
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/MRIv2IwFTPg?si=F07g869i6yIfqRdg" title="¿Qué es una Red Neuronal? Parte 1 : La Neurona | DotCSV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?si=zdATyq_E2wXN7AC6&amp;list=PLbMP1JcGBmSGKO8UreWpOBOhCqilejhtd" title="Kubernetes: The Documentary" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -173,54 +173,54 @@ Welcome to the **Agentic Video Hub**. This section presents a logical, architect
 
     </center>
 
-## Fundamentals and Documentaries
-??? note "🎬 Kubernetes: The Documentary [PART 1] | `Kubernetes`"
+## AI and Future Operations
+??? note "🎬 Red Hat Summit 2019: AI/ML Orchestration (Clip 1) | `Red Hat OpenShift`"
     !!! info "Architectural Summary"
-        This documentary chronicles the architectural genesis of Kubernetes, tracing its lineage from Google's internal Borg system to the open-source industry standard that resolved the container orchestration wars. Understanding these foundational design choices—such as declarative state management, control loops, and the pod abstraction—is critical for modern cloud-native architects designing resilient, platform-agnostic infrastructure in 2026. It provides invaluable historical context on why decoupled API-driven control planes triumphed over rigid, imperative scheduling models.
+        This session highlights the orchestration of high-performance workloads—specifically machine learning and cognitive AI pipelines—on Red Hat OpenShift utilizing GPU acceleration and automated Kubernetes operators. By showcasing collaborations with NVIDIA, H2O.ai, and healthcare pioneers, it demonstrates how standardized hybrid cloud platforms streamline complex data pipelines and model deployment from core datacenters to edge locations. For modern cloud-native architectures, this establishes the foundational blueprint for running heterogeneous AI/ML workloads reliably using cloud-native operations.
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/BE77h7dmoQU" title="Kubernetes: The Documentary [PART 1]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/FUu4kMc0PL8?clip=UgkxFMdlFKBQze7NVVd7q2nIwBYWkeaKeoX8&amp;clipt=EIzBzwIY1fnSAg" title="Red Hat Summit 2019: AI/ML Orchestration (Clip 1)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
-??? note "🎬 Kubernetes: The Documentary [PART 2] | `Kubernetes`"
+??? note "🎬 Red Hat Summit 2019: Cognitive Hybrid Cloud (Clip 2) | `Red Hat OpenShift`"
     !!! info "Architectural Summary"
-        This documentary chronicles the pivotal competitive era of the 'Container Orchestrator Wars,' illustrating how Kubernetes' open-source governance model and decoupled API-driven architecture defeated proprietary alternatives to become the global industry standard. For 2026 Cloud Native architects, it provides foundational lessons on why community-driven ecosystem extensibility and declarative control planes triumph over rigid, proprietary integrations. Understanding these socio-technical decisions clarifies the evolutionary path toward modern Kubernetes capabilities like multi-cluster fleet management, edge computing, and AI workload orchestration.
+        This session showcases the integration of GPU acceleration and AI/ML workload orchestration on Red Hat OpenShift in collaboration with NVIDIA, H2O.ai, and PerceptiLabs. For the 2026 cloud-native landscape, this architectural model establishes the foundation for modern platform engineering and MLOps by demonstrating how to abstract complex hardware accelerators under a unified Kubernetes control plane. It highlights the critical path for scaling containerized machine learning pipelines and AI-driven operations securely across hybrid and multi-cloud environments.
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/318elIq37PE" title="Kubernetes: The Documentary [PART 2]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/FUu4kMc0PL8?clip=UgkxLbUzIJtyeKPi66qAvxxRlGbofYp_Gr8B&amp;clipt=EIDy0gIY4MbWAg" title="Red Hat Summit 2019: Cognitive Hybrid Cloud (Clip 2)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
-??? note "🎬 Kubernetes for SysAdmins | Kelsey Hightower at PuppetConf | Talk & Demo | `Kubernetes`"
+??? note "🎬 Artificial Intelligence | 60 Minutes Full Episodes | `Generative AI and Large Language Models (LLMs)`"
     !!! info "Architectural Summary"
-        This foundational presentation by Kelsey Hightower outlines the paradigm shift from machine-centric management to application-centric infrastructure using Kubernetes' declarative model. It demonstrates how core abstractions like Pods, Replication Controllers, and dynamic service discovery allow systems administrators to automate bin-packing, stateful deployments, and secure self-healing workflows. In a modern cloud-native context, these concepts serve as the bedrock of platform engineering, showing how control loops and custom extensions can fully decouple application lifecycles from underlying bare-metal or VM estates.
+        This documentary compilation traces the rapid evolution of artificial intelligence from early deep learning implementations to transformative large language models (LLMs), highlighting their global socio-economic impacts and technical trajectories. For 2026 cloud-native environments, it underscores the critical architectural necessity of implementing robust AI safety guardrails, governance frameworks, and secure multi-tenant model orchestration layers. By examining the early challenges of chatbot deployment and LLM hallucination, platform architects can better design resilient, compliant infrastructures capable of hosting next-generation agentic workflows.
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/HlAXp0-M6SY?clip=UgkxWpu3QFPEDZBuMgy_Xq4mBR--uLA-3CSZ&amp;clipt=EMSoKxiG3C4" title="Kubernetes for SysAdmins | Kelsey Hightower at PuppetConf | Talk & Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/aZ5EsdnpLMI?si=ESsNnVwE8IdWSiWZ" title="Artificial Intelligence | 60 Minutes Full Episodes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
-??? note "🎬 Elon Musk talks Twitter, Tesla and how his brain works — live at TED2022 | `Algorithmic Transparency`"
+??? note "🎬 Red Hat OpenShift AI overview | `OpenShift AI`"
     !!! info "Architectural Summary"
-        This interview explores the architectural and philosophical implications of open-sourcing massive social media recommendation algorithms and scaling highly automated, physical-digital manufacturing pipelines. It highlights critical concepts of algorithmic transparency, public trust validation, and extreme system automation, which directly inform the design of verifiable, high-throughput cloud platforms in 2026. Cloud architects can leverage these insights to conceptualize zero-trust computation, open-source algorithm hosting, and feedback-driven industrial IoT infrastructure.
+        Red Hat OpenShift AI delivers a unified, Kubernetes-native MLOps platform designed to standardize the building, tuning, deploying, and monitoring of AI/ML models across hybrid cloud infrastructures. By integrating key open-source tools like Jupyter, PyTorch, TensorFlow, and KServe with enterprise-grade security, it abstracts underlying hardware complexities (such as GPUs) to accelerate model delivery. This architectural consistency ensures platform engineering teams can reliably scale generative AI and predictive workloads from edge to multi-cloud environments.
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/cdZZpaB2kDM?clip=UgkxWAPHZbVaNZzk9pi0lMu6k5ABLuMHBtRL&amp;clipt=EK2rfRjW9YAB" title="Elon Musk talks Twitter, Tesla and how his brain works — live at TED2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/Hc8emNr2igU?si=kehLRUpOAvyK_Bku" title="Red Hat OpenShift AI overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
-??? note "🎬 Kubernetes: The Documentary | `Kubernetes`"
+??? note "🎬 ¿Qué es una Red Neuronal? Parte 1 : La Neurona | DotCSV | `Artificial Neural Networks`"
     !!! info "Architectural Summary"
-        This documentary explores the origin and evolutionary architecture of Kubernetes, detailing its transition from Google's internal Borg system to the ubiquitous Cloud Native orchestration platform of 2026. It highlights the design philosophy of decoupled components like the API server, etcd, and kubelet, demonstrating how declarative state reconciliation solves massive multi-cloud scaling challenges. The video provides vital context for architects designing resilient, planetary-scale infrastructure ecosystems without being locked into a single vendor.
+        This foundational video demystifies the basic unit of deep learning—the artificial neuron—by breaking down its mathematical relationship with linear regression, input weights, biases, and activation functions. For a 2026 Cloud Native context, mastering these mathematical primitives is essential for optimizing AI inference workloads, designing efficient GPU/TPU resource allocation strategies, and implementing custom model quantization techniques at the edge.
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?si=zdATyq_E2wXN7AC6&amp;list=PLbMP1JcGBmSGKO8UreWpOBOhCqilejhtd" title="Kubernetes: The Documentary" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/MRIv2IwFTPg?si=F07g869i6yIfqRdg" title="¿Qué es una Red Neuronal? Parte 1 : La Neurona | DotCSV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
