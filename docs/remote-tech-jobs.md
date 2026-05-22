@@ -5,7 +5,6 @@
 3. [Kubernetes](#kubernetes)
 4. [Spain](#spain)
 5. [Tweets](#tweets)
-6. [Videos](#videos)
 
 ## Introduction
 
