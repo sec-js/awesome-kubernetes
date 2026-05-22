@@ -10,8 +10,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 "I do not believe you can do today's job with yesterday's methods and be in business tomorrow" ([Horatio Nelson Jackson](https://en.wikipedia.org/wiki/Horatio_Nelson_Jackson))
 <center markdown="1">
 
-[![container_with_cars](images/container_with_cars.png)
-](https://www.cncf.io/certification/software-conformance) <br/>
+[![container_with_cars](images/container_with_cars.png)](https://www.cncf.io/certification/software-conformance) <br/>
 
 </center>
 ---
