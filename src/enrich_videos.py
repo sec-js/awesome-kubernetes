@@ -15,10 +15,16 @@ async def enrich_video_entry(url: str, entry: dict):
     # Strategy A: Use metadata from direct fetch
     # Strategy B: Fallback to AI Grounding if fetch was blocked or generic
     use_grounding = False
-    if not meta:
-        log_event(f"    [!] Direct fetch failed for {url}. Forcing AI Grounding/Search...")
+    is_generic = False
+    if meta:
+        title = meta.get('raw_title', '').lower()
+        if title in ['youtube', 'before you continue', 'n/a', '']:
+            is_generic = True
+
+    if not meta or is_generic:
+        log_event(f"    [!] Missing or generic metadata for {url}. Forcing AI Grounding (Pro Model)...")
         use_grounding = True
-        context = f"YouTube URL: {url}"
+        context = f"YouTube URL: {url}\nNote: The local scraper was blocked and returned generic platform metadata. YOU MUST SEARCH FOR THE REAL TITLE."
     else:
         context = f"Local Context (from YouTube extraction):\nTitle: {meta['raw_title']}\nDescription: {meta['raw_description']}"
 
