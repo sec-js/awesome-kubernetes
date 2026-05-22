@@ -670,8 +670,10 @@ class V2VisionEngine:
         pulse_md = "## The Agentic Pulse\n" + "\n".join([f"- **({l.get('pub_date', 'N/A')[:10]})** [**=={nuclear_strip(l['title'])}==**]({l['url'].strip()}) {'🌟'*l.get('stars',3)}" for l in trending_pool[:5]])
         
         # Calculate coverage for the index
+        total_v1 = len(self.inventory)
         v2_links_all = [dict(meta, url=url) for url, meta in self.inventory.items() if isinstance(meta, dict) and meta.get("v2_locations")]
         total_v2 = len(v2_links_all)
+        v2_efficiency = round((total_v2 / total_v1) * 100, 2) if total_v1 > 0 else 0
         enriched = len([l for l in v2_links_all if l.get('hierarchy') or l.get('ai_summary')])
         coverage_pct = round((enriched / total_v2) * 100, 2) if total_v2 > 0 else 0
         
@@ -687,6 +689,8 @@ class V2VisionEngine:
             "    1. **Elite Layer (AI-Enriched)**: Resources individually analyzed by our Agentic AI with high-density summaries and hierarchical indexing.\n"
             "    2. **Standard Layer (Mapped)**: Resources identified as candidates for Elite status but pending deep AI analysis.\n\n"
             "    **Current Inventory Coverage:**\n"
+            f"    - **V1 Base Inventory**: {total_v1} total resources analyzed.\n"
+            f"    - **V2 Elite Selection**: {total_v2} candidates identified ({v2_efficiency}% density ratio).\n"
             f"    - **AI Enrichment Coverage**: {enriched} / {total_v2} ({coverage_pct}%)\n"
             f"    - **GitHub Metadata Coverage**: {gh_meta} / {total_gh} ({gh_coverage}%) - *Critical for Maturity Tagging*\n"
             "    - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.\n"
