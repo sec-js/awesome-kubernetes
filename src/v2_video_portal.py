@@ -29,6 +29,16 @@ def generate_v2_videos():
     # Sort by Category and then Title
     featured_videos.sort(key=lambda x: (x["category"], x["title"]))
 
+    def clean_header(text):
+        # MANDATE 30: No ampersands, no special characters
+        t = text.replace("&", "and")
+        t = t.replace("(", "").replace(")", "")
+        return t
+
+    def get_slug(text):
+        t = clean_header(text)
+        return t.lower().strip().replace(" ", "-").replace("/", "-")
+
     content = [
         "# 🎥 Nubenetes Elite Video Hub",
         "",
@@ -40,12 +50,15 @@ def generate_v2_videos():
 
     categories = sorted(list(set(v["category"] for v in featured_videos)))
     for idx, cat in enumerate(categories, 1):
-        content.append(f"{idx}. [{cat}](#{cat.lower().replace(' ', '-').replace('&', 'and')})")
+        clean_cat = clean_header(cat)
+        slug = get_slug(cat)
+        content.append(f"{idx}. [{clean_cat}](#{slug})")
 
     content.append("")
 
     for cat in categories:
-        content.append(f"## {cat}")
+        clean_cat = clean_header(cat)
+        content.append(f"## {clean_cat}")
         cat_videos = [v for v in featured_videos if v["category"] == cat]
         
         for v in cat_videos:

@@ -4,18 +4,18 @@ Welcome to the **Agentic Video Hub**. Here we curate the most impactful technica
 
 ## Table of Contents
 
-1. [AI & Automation](#ai-and-automation)
-2. [AWS & Public Cloud](#aws-and-public-cloud)
+1. [AI and Automation](#ai-and-automation)
+2. [AWS and Public Cloud](#aws-and-public-cloud)
 3. [Architecture Patterns](#architecture-patterns)
-4. [Cloud Providers (Hyperscalers)](#cloud-providers-(hyperscalers))
-5. [Docker & Containers](#docker-and-containers)
+4. [Cloud Providers Hyperscalers](#cloud-providers-hyperscalers)
+5. [Docker and Containers](#docker-and-containers)
 6. [Infrastructure as Code](#infrastructure-as-code)
 7. [Kubernetes Fundamentals](#kubernetes-fundamentals)
-8. [Monitoring & Observability](#monitoring-and-observability)
-9. [Networking & Service Mesh](#networking-and-service-mesh)
-10. [Security & DevSecOps](#security-and-devsecops)
+8. [Monitoring and Observability](#monitoring-and-observability)
+9. [Networking and Service Mesh](#networking-and-service-mesh)
+10. [Security and DevSecOps](#security-and-devsecops)
 
-## AI & Automation
+## AI and Automation
 ### AI in Platform Engineering
 !!! info "Architectural Summary"
     Exploring the impact of Artificial Intelligence on modern internal developer platforms.
@@ -40,7 +40,7 @@ Welcome to the **Agentic Video Hub**. Here we curate the most impactful technica
     <iframe width="560" height="315" src="https://www.youtube.com/embed/nrhxNNH5lt0?si=U5h1mbkbF6ZEOvlj" title="Generative AI for DevOps" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </center>
 
-## AWS & Public Cloud
+## AWS and Public Cloud
 ### EKS Pod Identity
 !!! info "Architectural Summary"
     How to securely manage IAM roles for service accounts in Amazon EKS.
@@ -66,7 +66,7 @@ Welcome to the **Agentic Video Hub**. Here we curate the most impactful technica
     <iframe width="560" height="315" src="https://www.youtube.com/embed/1Fl25dR01pw?si=bJlQozIfT3J4rhN3" title="Platform Engineering Guide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </center>
 
-## Cloud Providers (Hyperscalers)
+## Cloud Providers Hyperscalers
 ### FinOps on AWS
 !!! info "Architectural Summary"
     Strategic advice for cloud cost optimization using the FinOps framework on AWS.
@@ -91,7 +91,7 @@ Welcome to the **Agentic Video Hub**. Here we curate the most impactful technica
     <iframe width="560" height="315" src="https://www.youtube.com/embed/8g4qLzkpjeE?si=xcfl3ugsMGZ8Kthg" title="Multi-Cloud Strategy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </center>
 
-## Docker & Containers
+## Docker and Containers
 ### What is Docker?
 !!! info "Architectural Summary"
     An introduction to containerization and how Docker simplifies software deployment.
@@ -150,7 +150,7 @@ Welcome to the **Agentic Video Hub**. Here we curate the most impactful technica
     <iframe width="560" height="315" src="https://www.youtube.com/embed/BE77h7dmoQU" title="Kubernetes in 5 Minutes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </center>
 
-## Monitoring & Observability
+## Monitoring and Observability
 ### Introduction to Prometheus
 !!! info "Architectural Summary"
     Learning how Prometheus works for monitoring cloud-native applications.
@@ -175,7 +175,7 @@ Welcome to the **Agentic Video Hub**. Here we curate the most impactful technica
     <iframe width="560" height="315" src="https://www.youtube.com/embed/MRIv2IwFTPg?si=F07g869i6yIfqRdg" title="OpenTelemetry Explained" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </center>
 
-## Networking & Service Mesh
+## Networking and Service Mesh
 ### Istio Ambient Mesh
 !!! info "Architectural Summary"
     The evolution of Istio to a sidecar-less service mesh architecture.
@@ -200,7 +200,7 @@ Welcome to the **Agentic Video Hub**. Here we curate the most impactful technica
     <iframe width="560" height="315" src="https://www.youtube.com/embed/L8eJh1sfc1U?si=y546MyZpRe-thoad" title="What is eBPF?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </center>
 
-## Security & DevSecOps
+## Security and DevSecOps
 ### Securing Kubernetes
 !!! info "Architectural Summary"
     Best practices for hardening Kubernetes clusters against common vulnerabilities.
