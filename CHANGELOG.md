@@ -17,10 +17,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - **YouTube Mosaic Update**: Added YouTuber @mouredev (Brais Moure) to the YouTube mosaic in both V1 and V2 index portals.
 
-## [2.0.0-rc.10] - 2026-05-22
+## [2.0.0-rc.14] - 2026-05-22
+
+### Fixed
+- **YouTube Mosaic Corrected**: Moved @mouredev to the final position in the mosaic as requested.
+- **YouTube Icon Extraction**: Extracted and integrated the actual profile picture for @mouredev from his YouTube channel, replacing the placeholder icon.
+
+## [2.0.0-rc.13] - 2026-05-22
 
 ### Added
 - **GEMINI Mandate Codification**: Officially codified architectural and UI standards in `GEMINI.md`, including the V1 vs V2 metrics protocol and branding protection rules.
+
 
 ### Changed
 - **V2 Elite Synchronization**: Successfully synchronized the curated elite edition and updated README metrics via the automated publisher pipeline.
