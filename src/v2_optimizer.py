@@ -619,11 +619,77 @@ class V2VisionEngine:
             table += f"    | [{clean_title}]({l['url'].strip()}) | {l.get('tag','').replace('[','').replace(']','')} | {focus} | {l.get('language','English')} | {stars} |\n"
         return table + "\n"
 
+    async def _render_single_link(self, l: Dict, is_intro: bool) -> str:
+        md = ""
+        is_gold = is_intro and l.get("stars", 0) >= 4
+        title = nuclear_strip(l['title']) 
+        if is_gold:
+            img = f"    ![Preview]({l.get('social_preview_url')})\n" if l.get('social_preview_url') else ""
+            md += f"??? note \"{title}\"\n{img}    **[Access Resource]({l['url'].strip()})** {'🌟'*l.get('stars',4)} | Level: {l.get('complexity', 'Beginner')}\n    \n    {l.get('ai_summary', l.get('description', ''))}\n\n"
+        else:
+            year = l.get('year', 'N/A')
+            year_prefix = f"**({year})** " if year != 'N/A' else ""
+            gh_info = f" <span class='md-tag md-tag--info'>⭐ {l.get('gh_stars',0)}</span>" if l.get('gh_stars') else ""
+            
+            icon = " 🎥" if l.get("is_video") else ""
+            lang = l.get("language", "English")
+            lang_tag = f" <span class='md-tag md-tag--warning'>[{lang.upper()} CONTENT]</span>" if lang.lower() != "english" else ""
+            comp = l.get("complexity", "Intermediate")
+            level_tag = f" <span class='md-tag md-tag--critical'>[{comp.upper()} LEVEL]</span>" if comp.lower() in ["architect", "advanced"] else ""
+            res_type = l.get("resource_type", "Reference")
+            type_tag = f" <span class='md-tag md-tag--primary'>[{res_type.upper()}]</span>" if res_type.lower() in ["case study", "guide", "documentation"] else ""
+            rich = "".join([f" <small>by **{l['author']}**</small>" if l.get("author") else "", f" <span class='md-tag md-tag--info'>⏱️ {l['duration']}</span>" if l.get("duration") else "", f" <span class='md-tag md-tag--info'>📖 {l['reading_time']}</span>" if l.get("reading_time") else ""])
+            tag_html = ""
+            for tag in l.get("tags", ["[COMMUNITY-TOOL]"]):
+                color = "success" if "STANDARD" in tag else "warning" if "EMERGING" in tag else "secondary" if "CASE STUDY" in tag or "GUIDE" in tag else "info"
+                tag_html += f" <span class='md-tag md-tag--{color}'>{tag}</span>"
+            
+            # Apply Visual Highlighting based on stars
+            raw_stars = l.get('stars', 0)
+            link_content = title
+            if raw_stars >= 5:
+                link_content = f"=={link_content}=="
+            elif raw_stars >= 4:
+                link_content = f"**{link_content}**"
+                
+            md += f"  - {year_prefix}[{link_content}]({l['url'].strip()}){icon}{gh_info}{lang_tag}{level_tag}{type_tag}{rich} {'🌟'*raw_stars}{tag_html}\n"
+
+            # Layer 2: High-Density Technical Summary (Expandable Deep-Dive)
+            summary = l.get('ai_summary', l.get('description', ''))
+            if summary:
+                md += "\n    ??? info \"Technical Deep-Dive\"\n"
+                indented_summary = "\n".join([f"        {line}" if line.strip() else "" for line in summary.strip().split("\n")])
+                md += f"{indented_summary}\n\n"
+        return md
+
     async def _write_premium_files(self, data: Dict[str, Dict], mosaic_html: str, videos_html: str):
         # 1. Update Index with Pulse
         trending_pool = sorted([dict(meta, url=url) for url, meta in self.inventory.items() if isinstance(meta, dict) and meta.get("stars", 0) >= 4], key=lambda x: (x.get("pub_date", "0000"), -x.get("stars", 0)), reverse=True)
         pulse_md = "## The Agentic Pulse\n" + "\n".join([f"- **({l.get('pub_date', 'N/A')[:10]})** [**=={nuclear_strip(l['title'])}==**]({l['url'].strip()}) {'🌟'*l.get('stars',3)}" for l in trending_pool[:5]])
         
+        # Calculate coverage for the index
+        v2_links_all = [l for l in self.inventory.values() if isinstance(l, dict) and l.get('v2_locations')]
+        total_v2 = len(v2_links_all)
+        enriched = len([l for l in v2_links_all if l.get('hierarchy') or l.get('ai_summary')])
+        coverage_pct = round((enriched / total_v2) * 100, 2) if total_v2 > 0 else 0
+        
+        # GitHub Metadata Coverage for index
+        gh_links = [l for l in v2_links_all if "github.com" in str(l.get('url', ''))]
+        total_gh = len(gh_links)
+        gh_meta = len([l for l in gh_links if l.get('gh_stars') is not None])
+        gh_coverage = round((gh_meta / total_gh) * 100, 2) if total_gh > 0 else 0
+
+        coverage_info = (
+            "\n??? info \"Knowledge Architecture and AI Coverage Status\"\n"
+            "    The Nubenetes Elite Portal operates on a dual-layer knowledge architecture:\n"
+            "    1. **Elite Layer (AI-Enriched)**: Resources individually analyzed by our Agentic AI with high-density summaries and hierarchical indexing.\n"
+            "    2. **Standard Layer (Mapped)**: Resources identified as candidates for Elite status but pending deep AI analysis.\n\n"
+            "    **Current Inventory Coverage:**\n"
+            f"    - **AI Enrichment Coverage**: {enriched} / {total_v2} ({coverage_pct}%)\n"
+            f"    - **GitHub Metadata Coverage**: {gh_meta} / {total_gh} ({gh_coverage}%) - *Critical for Maturity Tagging*\n"
+            "    - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.\n"
+        )
+
         index_md = (
             "# Nubenetes Elite Portal (V2) | Nubenetes: Awesome Kubernetes & Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)\n\n"
             "<center markdown=\"1\">\n"
@@ -636,6 +702,7 @@ class V2VisionEngine:
             "!!! abstract \"The High-Density Vision\"\n"
             "    The V2 Edition is a curated, high-density version of the Nubenetes archive. Using **Agentic AI Orchestration**, "
             "the system selects only the most relevant, stable, and impactful resources for the modern Cloud Native ecosystem (2026 and beyond).\n\n"
+            f"{coverage_info}\n\n"
             f"<center markdown=\"1\">\n{mosaic_html}\n</center>\n\n"
             f"{pulse_md}\n\n"
             "## Strategic Dimensions\n"
@@ -678,6 +745,16 @@ class V2VisionEngine:
 
         async def render_node(node, depth, base_slug, used_headers, is_intro=False):
             md = ""
+            # Mandate: Process links at this level FIRST if they have NO further hierarchy
+            # This handles links that are candidates but haven't been deeply classified yet (orphans)
+            if "__links__" in node and depth == -1:
+                orphan_links = node["__links__"]
+                if orphan_links:
+                    md += "## Standard Reference\n\n"
+                    for l in orphan_links:
+                        md += await self._render_single_link(l, is_intro)
+                    md += "\n"
+
             for name, subnode in sorted(node.items()):
                 if name == "__links__": continue
                 clean_name = clean_toc_text(name)
@@ -700,49 +777,9 @@ class V2VisionEngine:
                 
                 md += await render_node(subnode, depth + 1, slug, used_headers, is_intro)
             
-            if "__links__" in node:
+            if "__links__" in node and depth >= 0:
                 for l in node["__links__"]:
-                    is_gold = is_intro and l.get("stars", 0) >= 4
-                    title = nuclear_strip(l['title']) 
-                    if is_gold:
-                        img = f"    ![Preview]({l.get('social_preview_url')})\n" if l.get('social_preview_url') else ""
-                        md += f"??? note \"{title}\"\n{img}    **[Access Resource]({l['url'].strip()})** {'🌟'*l.get('stars',4)} | Level: {l.get('complexity', 'Beginner')}\n    \n    {l.get('ai_summary', l.get('description', ''))}\n\n"
-                    else:
-                        year = l.get('year', 'N/A')
-                        year_prefix = f"**({year})** " if year != 'N/A' else ""
-                        gh_info = f" <span class='md-tag md-tag--info'>⭐ {l.get('gh_stars',0)}</span>" if l.get('gh_stars') else ""
-                        
-                        icon = " 🎥" if l.get("is_video") else ""
-                        lang = l.get("language", "English")
-                        lang_tag = f" <span class='md-tag md-tag--warning'>[{lang.upper()} CONTENT]</span>" if lang.lower() != "english" else ""
-                        comp = l.get("complexity", "Intermediate")
-                        level_tag = f" <span class='md-tag md-tag--critical'>[{comp.upper()} LEVEL]</span>" if comp.lower() in ["architect", "advanced"] else ""
-                        res_type = l.get("resource_type", "Reference")
-                        type_tag = f" <span class='md-tag md-tag--primary'>[{res_type.upper()}]</span>" if res_type.lower() in ["case study", "guide", "documentation"] else ""
-                        rich = "".join([f" <small>by **{l['author']}**</small>" if l.get("author") else "", f" <span class='md-tag md-tag--info'>⏱️ {l['duration']}</span>" if l.get("duration") else "", f" <span class='md-tag md-tag--info'>📖 {l['reading_time']}</span>" if l.get("reading_time") else ""])
-                        tag_html = ""
-                        for tag in l.get("tags", ["[COMMUNITY-TOOL]"]):
-                            color = "success" if "STANDARD" in tag else "warning" if "EMERGING" in tag else "secondary" if "CASE STUDY" in tag or "GUIDE" in tag else "info"
-                            tag_html += f" <span class='md-tag md-tag--{color}'>{tag}</span>"
-                        
-                        # Apply Visual Highlighting based on stars
-                        raw_stars = l.get('stars', 0)
-                        link_content = title
-                        if raw_stars >= 5:
-                            link_content = f"=={link_content}=="
-                        elif raw_stars >= 4:
-                            link_content = f"**{link_content}**"
-                            
-                        md += f"  - {year_prefix}[{link_content}]({l['url'].strip()}){icon}{gh_info}{lang_tag}{level_tag}{type_tag}{rich} {'🌟'*raw_stars}{tag_html}\n"
-
-                        
-                        # Layer 2: High-Density Technical Summary (Expandable Deep-Dive)
-                        summary = l.get('ai_summary', l.get('description', ''))
-                        if summary:
-                            md += "\n    ??? info \"Technical Deep-Dive\"\n"
-                            # Standard 4-space indentation for blocks inside list items
-                            indented_summary = "\n".join([f"        {line}" if line.strip() else "" for line in summary.strip().split("\n")])
-                            md += f"{indented_summary}\n\n"
+                    md += await self._render_single_link(l, is_intro)
             return md
 
         for f_name, info in data.items():
@@ -805,8 +842,19 @@ if __name__ == "__main__":
     
     # 1. High-Density Metrics Calculation
     total_v1_links = len(engine.inventory)
-    v2_links = [l for l in engine.inventory.values() if isinstance(l, dict) and l.get('v2_locations')]
-    total_v2_links = len(v2_links)
+    v2_links_all = [l for l in engine.inventory.values() if isinstance(l, dict) and l.get('v2_locations')]
+    total_v2_links = len(v2_links_all)
+    
+    # Coverage Metrics (Mandate: Transparency in Knowledge Discovery)
+    enriched_v2 = [l for l in v2_links_all if l.get('hierarchy') or l.get('ai_summary')]
+    total_enriched = len(enriched_v2)
+    coverage_pct = round((total_enriched / total_v2_links) * 100, 2) if total_v2_links > 0 else 0
+    
+    # GitHub Metadata Coverage
+    gh_links = [l for l in v2_links_all if "github.com" in str(l.get('url', ''))]
+    total_gh = len(gh_links)
+    gh_with_metadata = len([l for l in gh_links if l.get('gh_stars') is not None])
+    gh_coverage_pct = round((gh_with_metadata / total_gh) * 100, 2) if total_gh > 0 else 0
     
     # Delta & Efficiency
     density_ratio = round((total_v2_links / total_v1_links) * 100, 2) if total_v1_links > 0 else 0
@@ -814,7 +862,7 @@ if __name__ == "__main__":
     
     # Maturity Distribution
     maturity_counts = {}
-    for l in v2_links:
+    for l in v2_links_all:
         tags = l.get('tags', ['[COMMUNITY-TOOL]'])
         for tag in tags:
             maturity_counts[tag] = maturity_counts.get(tag, 0) + 1
@@ -849,6 +897,8 @@ if __name__ == "__main__":
         f.write(f"| Metric | V1 Archive | V2 Elite | Delta / Efficiency |\n")
         f.write(f"| :--- | :---: | :---: | :---: |\n")
         f.write(f"| **Total Resources** | {total_v1_links} | {total_v2_links} | -{reduction_delta} ({density_ratio}% Density) |\n")
+        f.write(f"| **AI Enrichment** | N/A | {total_enriched} / {total_v2_links} | {coverage_pct}% Coverage |\n")
+        f.write(f"| **GitHub Metadata** | N/A | {gh_with_metadata} / {total_gh} | {gh_coverage_pct}% Coverage |\n")
         f.write(f"| **Maturity Tagging** | Manual | AI-Vetted | 100% Coverage |\n")
         f.write(f"| **Hierarchical Depth** | Flat | Recursive | Max Depth: {engine.max_depth} |\n\n")
 
