@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0-rc.5] - 2026-05-22
+
+### Added
+- **Decoupled V2 Architecture**: Refactored the monolithic V2 builder into four specialized micro-workflows (**Health Monitor**, **Metadata Engine**, **AI Curator**, and **Publisher**) to optimize compute quotas and Gemini token consumption.
+- **Minimalist Inline UI**: Implemented native HTML5 `<details>` summaries with `inline-block` behavior in the V2 Portal, significantly increasing vertical information density.
+- **Knowledge Coverage Metrics**: Integrated real-time AI Enrichment and GitHub Metadata coverage tracking into PR reports and the V2 index.
+- **Automated Scheduling**: Configured monthly automated runs for Health (1st) and Metadata (15th) agents.
+
+### Fixed
+- **V2 Rendering Logic**: Fixed a bug where links without a defined hierarchy or at top-level categories were omitted; introduced the **Standard Reference** fallback section.
+- **Markdown Linting**: Resolved TOC anchor broken links (MD051) in `README.md`.
+
 ## [2.0.0-rc.4] - 2026-05-22
 
 ### Added
