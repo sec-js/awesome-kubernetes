@@ -32,6 +32,14 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
 
+      - name: Restore Incremental Inventory Cache
+        uses: actions/cache/restore@v4
+        with:
+          path: data/inventory.yaml
+          key: inventory-v2-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            inventory-v2-
+
       - name: Dependency Installation
         run: |
           python -m pip install --upgrade pip
@@ -61,3 +69,10 @@ jobs:
             git pull --rebase origin develop
             git push origin develop
           fi
+
+      - name: Persist Incremental Inventory Cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: data/inventory.yaml
+          key: inventory-v2-${{ github.run_id }}-${{ github.run_attempt }}
