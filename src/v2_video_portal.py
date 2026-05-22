@@ -75,13 +75,19 @@ def generate_v2_videos():
 
         for v in cat_videos:
             tech = v.get("technology", "Cloud Native")
+            # Ensure summary is correctly indented for multiline blocks
+            summary = v.get("summary", "").strip()
+            indented_summary = summary.replace("\n", "\n        ")
+            
             # Collapsible block per video for better flow
             content.append(f"??? note \"🎬 {v['title']} | `{tech}`\"")
             content.append(f"    !!! info \"Architectural Summary\"")
-            content.append(f"        {v['summary']}")
+            content.append(f"        {indented_summary}")
             content.append("")
             content.append('    <center markdown="1">')
+            content.append('')
             content.append(f'    <iframe width="720" height="405" src="{v["url"]}" title="{v["title"]}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>')
+            content.append('')
             content.append('    </center>')
             content.append("")
 

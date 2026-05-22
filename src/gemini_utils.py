@@ -420,51 +420,59 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
 
 async def fetch_youtube_metadata(url: str) -> Optional[Dict]:
     """
-    Fetches basic metadata (title, description) from a YouTube page.
+    Fetches high-fidelity basic metadata (title, description) and optionally transcripts
+    from a YouTube page using robust third-party libraries (yt-dlp).
     Used for pre-enriching AI prompts with real content data.
     """
     try:
-        # Convert embed/short URLs to standard watch URLs for better meta tags
+        import yt_dlp
+        from youtube_transcript_api import YouTubeTranscriptApi
+        
+        # Convert embed/short URLs to standard watch URLs
         clean_url = url.split("?")[0].split("&")[0]
         if "/embed/" in clean_url:
             vid = clean_url.split("/embed/")[-1]
-            watch_url = f"https://www.youtube.com/watch?v={vid}"
         elif "youtu.be/" in clean_url:
             vid = clean_url.split("youtu.be/")[-1]
-            watch_url = f"https://www.youtube.com/watch?v={vid}"
         else:
-            watch_url = clean_url
+            vid = clean_url.split("v=")[-1].split("&")[0]
 
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "Accept-Language": "en-US,en;q=0.9"
+        ydl_opts = {
+            'quiet': True,
+            'skip_download': True,
+            'force_generic_extractor': False,
+            'no_warnings': True
         }
-        
-        async with httpx.AsyncClient(follow_redirects=True, timeout=10.0) as client:
-            resp = await client.get(watch_url, headers=headers)
-            if resp.status_code != 200:
-                return None
-            
-            html = resp.text
-            # Use regex to find title and description in meta tags
-            title_match = re.search(r'<title>(.*?)</title>', html)
-            desc_match = re.search(r'name="description" content="(.*?)"', html)
-            
-            title = title_match.group(1).replace(" - YouTube", "") if title_match else "YouTube Video"
-            description = desc_match.group(1) if desc_match else ""
-            
-            # DETECT GENERIC PLATFORM METADATA (Consent pages / Generic Domain meta)
-            if title.lower() == "youtube" or "before you continue" in title.lower():
-                log_event(f"    [!] Detected generic YouTube landing page for {url}. Skipping metadata extraction.")
-                return None
 
-            # Clean description from encoded characters
-            description = re.sub(r'\\\\u[0-9a-fA-F]{4}', '', description)
-            
-            return {
-                "raw_title": title.strip(),
-                "raw_description": description.strip()[:2000] # Limit size
-            }
+        # Extract basic info
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+            info = ydl.extract_info(url, download=False)
+            title = info.get('title', 'YouTube Video')
+            description = info.get('description', '')
+
+        # Attempt to get transcript for even higher fidelity
+        transcript_text = ""
+        try:
+            transcript = YouTubeTranscriptApi.get_transcript(vid, languages=['en', 'es'])
+            transcript_text = " ".join([t['text'] for t in transcript[:100]]) # Limit to first 100 segments
+        except:
+            pass
+
+        full_description = f"{description}\n\n[Transcript Snippet]: {transcript_text}" if transcript_text else description
+
+        return {
+            "raw_title": title.strip(),
+            "raw_description": full_description.strip()[:3000] # Limit size for AI context
+        }
     except Exception as e:
-        log_event(f"    [!] YouTube metadata fetch failed for {url}: {e}")
+        log_event(f"    [!] Robust YouTube metadata fetch failed for {url}: {e}. Falling back to standard fetch...")
+        # Fallback to the old simple httpx fetch if yt-dlp is not available or fails
+        try:
+            async with httpx.AsyncClient(follow_redirects=True, timeout=10.0) as client:
+                resp = await client.get(url)
+                if resp.status_code == 200:
+                    title_match = re.search(r'<title>(.*?)</title>', resp.text)
+                    return {"raw_title": title_match.group(1) if title_match else "YouTube Video", "raw_description": ""}
+        except:
+            pass
         return None
