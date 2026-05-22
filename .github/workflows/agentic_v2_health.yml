@@ -48,9 +48,9 @@ jobs:
       - name: Run V2 Health Monitor
         env:
           FORCE_FULL_CHECK: ${{ github.event.inputs.force_full_check || 'false' }}
-          PYTHONPATH: .
+          PYTHONPATH: ${{ github.workspace }}
           PYTHONUNBUFFERED: "1"
-        run: python -u src/v2_health.py
+        run: python -u -m src.v2_health
 
       - name: Create Pull Request for Inventory Update
         uses: peter-evans/create-pull-request@v8

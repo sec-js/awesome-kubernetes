@@ -48,9 +48,9 @@ jobs:
           GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FORCE_EVAL: ${{ github.event.inputs.force_reevaluate || 'false' }}
-          PYTHONPATH: .
+          PYTHONPATH: ${{ github.workspace }}
           PYTHONUNBUFFERED: "1"
-        run: python -u src/v2_ai.py
+        run: python -u -m src.v2_ai
 
       - name: Create Pull Request for Inventory Update
         uses: peter-evans/create-pull-request@v8

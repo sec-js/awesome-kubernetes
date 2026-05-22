@@ -51,10 +51,10 @@ jobs:
           
       - name: Run V2 Publisher (Render-Only)
         env:
-          PYTHONPATH: .
+          PYTHONPATH: ${{ github.workspace }}
           PYTHONUNBUFFERED: "1"
         run: |
-          python -u src/v2_optimizer.py --render-only
+          python -u -m src.v2_optimizer --render-only
           if [ -f v2_safety_report.md ]; then
             cat v2_safety_report.md >> pr_description.md
           else
@@ -65,8 +65,8 @@ jobs:
         env:
           PYTHONPATH: ${{ github.workspace }}
         run: |
-          python src/readme_updater.py
-          python src/safety_readme.py
+          python -m src.readme_updater
+          python -m src.safety_readme
 
       - name: Create Pull Request for V2 Elite Update
         id: cpr

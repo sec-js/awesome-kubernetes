@@ -49,9 +49,9 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ENRICH_METADATA: ${{ github.event.inputs.enrich_metadata || 'true' }}
-          PYTHONPATH: .
+          PYTHONPATH: ${{ github.workspace }}
           PYTHONUNBUFFERED: "1"
-        run: python -u src/v2_metadata.py
+        run: python -u -m src.v2_metadata
 
       - name: Create Pull Request for Inventory Update
         uses: peter-evans/create-pull-request@v8
