@@ -742,28 +742,28 @@ Nubenetes uses a sophisticated multi-stage automation pipeline.
 ### 9.1. Workflow Inventory and Manual Control Matrix
 Maintainers can manually trigger and tune workflows via the GitHub Actions UI. The following matrix details the available controls and their **Default (Set-and-Forget)** configurations.
 
-| # | Workflow | Primary Manual Flags | Default | Technical Effect |
-| :---: | :--- | :--- | :---: | :--- |
-| **01.1** | [**Automated Agentic Curation**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_cron.yml) | `historical_mode` | ==TRUE== | Processes all discovery sources (ignores 30-day window). |
-| | | `include_*` | ==TRUE== | Toggles specific topics (k8s, cloud, ai, etc.). |
-| **01.2** | [**Backup-based Curation**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_backup.yml) | `historical_mode` | ==TRUE== | Ignores time windows for static file processing. |
-| **02.1** | [**Intelligent Link Cleaner**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/intelligent_link_cleaner.yml) | `force_full_check` | ==FALSE== | Bypasses cache for global archive auditing. |
-| **02.2** | [**V2 Health Monitor**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_health.yml) | `force_full_check` | ==FALSE== | Bypasses 21-day health cache (Live HTTP Check). |
-| | | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
-| **03.1** | [**V2 Metadata Engine**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_metadata.yml) | `enrich_metadata` | ==TRUE== | Fetches fresh stars/licenses from GitHub API. |
-| | | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
-| **03.2** | [**V2 AI Curator**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_ai.yml) | `force_reevaluate` | ==FALSE== | Bypasses AI summary cache (Full Gemini Re-run). |
-| | | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
-| **03.3** | [**V2 Video Hub Builder**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_videos.yml) | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
-| | | `force_enrich` | ==FALSE== | Bypasses video AI cache for deep re-analysis. |
-| **04.1** | [**V2 Publisher**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_publish.yml) | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
-| **04.2** | [**Emergency V2 PR Generator**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_pr_only.yml) | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
-| **05.1** | [**README Automated Sync**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/readme_sync.yml) | N/A | ==AUTO== | Updates metrics and TOC upon `develop` push. |
-| **06.1** | [**GitHub Pages Deploy**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/main.yml) | N/A | ==MASTER== | Native GH Pages deployment from stable artifacts. |
-| **07.1** | [**PR Guardian AI**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/pr_guardian.yml) | N/A | ==AUTO== | Agentic pre-submit validation for PR compliance. |
-| **07.2** | [**Markdown Linter**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/markdown_linter.yml) | N/A | ==AUTO== | Validates HMTL/Markdown syntax (ignores MD051/MD013). |
-| **08.1** | [**Branch Lifecycle Cleanup**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/cleanup_merged_branches.yml) | N/A | ==CRON== | Deletes remote branches merged into `develop`. |
-| **08.2** | [**Critical Asset Monitor**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/critical_asset_monitor.yml) | N/A | ==CRON== | Tracks integrity of special assets and banners. |
+| # | Phase / Category | Workflow | Primary Manual Flags | Default | Technical Effect |
+| :---: | :--- | :--- | :--- | :---: | :--- |
+| **01** | **Discovery** | [**01.1. Automated Agentic Curation**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_cron.yml) | `historical_mode` | ==TRUE== | Processes all discovery sources (ignores 30-day window). |
+| | | | `include_*` | ==TRUE== | Toggles specific topics (k8s, cloud, ai, etc.). |
+| | | [**01.2. Backup-based Curation**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_backup.yml) | `historical_mode` | ==TRUE== | Ignores time windows for static file processing. |
+| **02** | **Integrity** | [**02.1. Intelligent Link Cleaner**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/intelligent_link_cleaner.yml) | `force_full_check` | ==FALSE== | Bypasses cache for global archive auditing. |
+| | | [**02.2. V2 Health Monitor**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_health.yml) | `force_full_check` | ==FALSE== | Bypasses 21-day health cache (Live HTTP Check). |
+| | | | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
+| **03** | **Enrichment** | [**03.1. V2 Metadata Engine**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_metadata.yml) | `enrich_metadata` | ==TRUE== | Fetches fresh stars/licenses from GitHub API. |
+| | | | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
+| | | [**03.2. V2 AI Curator**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_ai.yml) | `force_reevaluate` | ==FALSE== | Bypasses AI summary cache (Full Gemini Re-run). |
+| | | | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
+| | | [**03.3. V2 Video Hub Builder**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_videos.yml) | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
+| | | | `force_enrich` | ==FALSE== | Bypasses video AI cache for deep re-analysis. |
+| **04** | **Elite Portal** | [**04.1. V2 Publisher**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_publish.yml) | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
+| | | [**04.2. Emergency V2 PR Generator**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_pr_only.yml) | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
+| **05** | **Metrics** | [**05.1. README Automated Sync**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/readme_sync.yml) | N/A | ==AUTO== | Updates metrics and TOC upon `develop` push. |
+| **06** | **Deployment** | [**06.1. GitHub Pages Deploy**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/main.yml) | N/A | ==MASTER== | Native GH Pages deployment from stable artifacts. |
+| **07** | **Quality Gate**| [**07.1. PR Guardian AI**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/pr_guardian.yml) | N/A | ==AUTO== | Agentic pre-submit validation for PR compliance. |
+| | | [**07.2. Markdown Linter**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/markdown_linter.yml) | N/A | ==AUTO== | Validates HMTL/Markdown syntax (ignores MD051/MD013). |
+| **08** | **Maintenance**| [**08.1. Branch Lifecycle Cleanup**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/cleanup_merged_branches.yml) | N/A | ==CRON== | Deletes remote branches merged into `develop`. |
+| | | [**08.2. Critical Asset Monitor**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/critical_asset_monitor.yml) | N/A | ==CRON== | Tracks integrity of special assets and banners. |
 
 #### 9.1.1. Optional Cache Restoration Policy
 To protect manual repository updates (e.g., specific metadata fixes or persistent links) from being accidentally overwritten by stale automated data, all V2 workflows implement an **Optional Cache Restoration** policy:
