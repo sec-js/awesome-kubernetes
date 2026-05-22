@@ -62,6 +62,6 @@
 *   Provides object, block, and file storage within a single cluster.
 *   Acts as a foundational storage engine for large-scale Kubernetes PV platforms (Rook-Ceph) and private clouds.
 
-***
+---
 💡 **Explore Related:** [Aws Tools Scripts](./aws-tools-scripts.md) | [Aws Databases](./aws-databases.md) | [Aws Spain](./aws-spain.md)
 

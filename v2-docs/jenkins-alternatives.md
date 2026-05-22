@@ -39,6 +39,6 @@
 
   - **(2020)** [devops.com: 7 Popular Open Source CI/CD Tools](https://devops.com/7-popular-open-source-ci-cd-tools) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Comparative survey of prominent open-source continuous integration and deployment engines. Live Grounding: Analyzes Jenkins, GitLab, Tekton, and others, contrasting their resource overheads and declarative features. Useful for teams choosing a baseline deployment stack.
 
-***
+---
 💡 **Explore Related:** [Registries](./registries.md) | [Argo](./argo.md) | [Jenkins](./jenkins.md)
 

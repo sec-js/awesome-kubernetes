@@ -210,6 +210,6 @@
 
   - **(2022)** [automationreinvented.blogspot.com: What is Json Schema and how to perform schema validation using Rest Assured?](https://automationreinvented.blogspot.com/2022/03/what-is-json-schema-and-how-to-perform.html) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed test automation walkthrough explaining JSON Schema validation with Rest Assured. Guides developers in implementing reliable regression pipelines to maintain robust system integrations.
 
-***
+---
 💡 **Explore Related:** [Databases](./databases.md) | [Message Queue](./message-queue.md) | [Newsql](./newsql.md)
 

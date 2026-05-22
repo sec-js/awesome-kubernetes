@@ -111,6 +111,6 @@
 
   - **(2020)** [thenewstack.io: DevOps Is Fed by a Tools Culture Loop](https://thenewstack.io/devops-is-fed-by-a-tools-culture-loop) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Commentary exploring the dynamic intersection between DevOps organizational practices, corporate cultures, and how continuous toolchain feedback loops dictate infrastructure modernization.
 
-***
+---
 💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Cheatsheets](./cheatsheets.md) | [Linux](./linux.md)
 

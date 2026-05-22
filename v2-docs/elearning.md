@@ -86,6 +86,6 @@
 
   - **(2025)** [**techiescamp/devops-projects:Real-World DevOps Projects For Learning**](https://github.com/techiescamp/devops-projects) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A curated GitHub repository containing end-to-end real-world DevOps projects. Implements standard infrastructure-as-code deployments, multi-tier CI/CD pipelines, and structured orchestration designs.
 
-***
+---
 💡 **Explore Related:** [Recruitment](./recruitment.md) | [Freelancing](./freelancing.md) | [Finops](./finops.md)
 

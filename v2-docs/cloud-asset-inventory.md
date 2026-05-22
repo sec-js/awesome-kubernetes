@@ -14,6 +14,6 @@
 
   - **(2023)** [cloudquery.io: Building an Open-Source Cloud Asset Inventory with CloudQuery and Grafana](https://www.cloudquery.io/learning-center/cloud-asset-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A hands-on deployment guide detailing how to build a unified cloud-native asset inventory. It guides architects through configuring CloudQuery pipelines to extract multi-cloud metadata and visualize security posture and infrastructure footprint dynamically via Grafana dashboards.
 
-***
+---
 💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Cheatsheets](./cheatsheets.md) | [Linux](./linux.md)
 

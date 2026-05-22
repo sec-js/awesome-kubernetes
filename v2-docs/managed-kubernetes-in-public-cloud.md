@@ -555,6 +555,6 @@
 
   - **(2023)** [Fetches all Primitive and Predefined GCP IAM Roles](https://github.com/darkbitio/gcp-iam-role-permissions) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source tool analyzing and exporting detailed lists of GCP IAM permissions and pre-defined roles. Highly beneficial for configuring least-privilege Workload Identity bounds inside secure GKE environments.
 
-***
+---
 💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Tools Scripts](./aws-tools-scripts.md) | [Aws Databases](./aws-databases.md)
 

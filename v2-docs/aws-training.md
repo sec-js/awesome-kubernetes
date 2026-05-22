@@ -50,6 +50,6 @@
 
   - **(2021)** [acloudguru.com: 10 fun hands-on projects to learn AWS](https://www.pluralsight.com/resources/blog/cloud/10-fun-hands-on-projects-to-learn-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Suggests 10 hands-on AWS training projects designed for cloud engineers. Covers deploying static architectures under HTTPS, building simple serverless APIs, and setting up automated backup pipelines.
 
-***
+---
 💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Tools Scripts](./aws-tools-scripts.md) | [Aws Databases](./aws-databases.md)
 

@@ -23,6 +23,6 @@
 
   - **(2026)** [**steampipe 🌟**](https://steampipe.io) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A zero-dependency CLI tool that allows querying of APIs and cloud infrastructure (AWS, Azure, GitHub, etc.) dynamically using Postgres-compatible SQL. It simplifies cloud infrastructure compliance, security audits, and resource inspection by exposing multi-platform APIs as regular database tables.
 
-***
+---
 💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md) | [Aws Spain](./aws-spain.md)
 

@@ -34,6 +34,6 @@
 
   - **(2024)** [==Learnk8s: Comparison of Kubernetes Ingress controllers 🌟==](https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit#gid=907731238) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An industry-standard comparison spreadsheet analyzing over a dozen Kubernetes Ingress controllers. Details performance, dynamic reloading capabilities, routing protocols, and native TLS/WAF integrations.
 
-***
+---
 💡 **Explore Related:** [Caching](./caching.md) | [Servicemesh](./servicemesh.md) | [Networking](./networking.md)
 

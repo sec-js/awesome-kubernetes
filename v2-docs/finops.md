@@ -23,6 +23,6 @@
 
   - **(2023)** [infoworld.com: Kubernetes cost management for the real world](https://www.infoworld.com/article/2338428/kubernetes-cost-management-for-the-real-world.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores pragmatic methodologies for managing and forecasting costs inside Kubernetes. Contrasts standard manual scaling limits with automated tools like Kubecost and OpenCost, providing architecture guidelines for resource allocation optimization.
 
-***
+---
 💡 **Explore Related:** [Elearning](./elearning.md) | [Recruitment](./recruitment.md) | [Freelancing](./freelancing.md)
 

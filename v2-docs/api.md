@@ -18,6 +18,6 @@
 
   - **(2026)** [**Cerebras AI**](https://www.cerebras.ai) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Architectural hub detailing wafer-scale AI processors built to tackle compute limits. Facilitates unprecedented deep-learning model execution with extreme localized bandwidth optimizations.
 
-***
+---
 💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Java_Frameworks](./java_frameworks.md) | [Golang](./golang.md)
 

@@ -43,6 +43,6 @@ Live Grounding: Deep-dives into memory allocation, dynamic resource allocation, 
   - **(2020)** [cloud.redhat.com: Getting Started running Spark workloads on OpenShift](https://www.redhat.com/en/blog/getting-started-running-spark-workloads-on-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Practical guide detailing setup steps for hosting Spark data processors on OpenShift Platform.
 Live Grounding: Demystifies user routing, security context constraints, and performance tuning when running containerized Spark clusters on enterprise Red Hat foundations.
 
-***
+---
 💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Ocp4](./ocp4.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md)
 
