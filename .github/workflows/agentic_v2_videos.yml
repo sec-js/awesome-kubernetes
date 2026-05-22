@@ -40,7 +40,8 @@ jobs:
       - name: Execute Video Hub Enrichment
         env:
           PYTHONPATH: ${{ github.workspace }}
-          GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
+          GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
         run: |
           python src/enrich_videos.py
 
