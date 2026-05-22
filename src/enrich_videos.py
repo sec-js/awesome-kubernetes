@@ -88,10 +88,14 @@ async def main():
     for i in range(0, len(tasks), batch_size):
         batch = tasks[i:i+batch_size]
         await asyncio.gather(*batch)
-        await asyncio.sleep(2) # Safety delay
-
-    with open(INVENTORY_PATH, "w") as f:
-        yaml.dump(inventory, f, sort_keys=False, allow_unicode=True)
+        
+        # Incremental Persistence: Save after each batch
+        with open(INVENTORY_PATH, "w") as f:
+            yaml.dump(inventory, f, sort_keys=False, allow_unicode=True)
+        log_event(f"    [💾] Saved progress: {min(i + batch_size, len(tasks))}/{len(tasks)} videos.")
+        
+        if i + batch_size < len(tasks):
+            await asyncio.sleep(2) # Safety delay
     
     log_event("✅ Video Hub Enrichment Complete.")
 
