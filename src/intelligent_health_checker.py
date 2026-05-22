@@ -65,15 +65,26 @@ class IntelligentLinkCleaner:
                     # Mandate 23: Detect Mosaic boundaries in index.md
                     mosaic_lines = set()
                     if path == "docs/index.md":
-                        mosaic_match = re.search(r'<center markdown="1">\s*\n(.*?)\n\s*</center>', content, re.DOTALL)
-                        if mosaic_match:
-                            mosaic_text = mosaic_match.group(1)
-                            # We find the start line of this block
-                            start_pos = mosaic_match.start(1)
+                        # Find all center blocks and identify the one that looks like the YouTube mosaic
+                        mosaics = list(re.finditer(r'<center markdown="1">\s*\n(.*?)\n\s*</center>', content, re.DOTALL))
+                        target_mosaic = None
+                        max_yt_links = 0
+                        
+                        for m in mosaics:
+                            yt_count = m.group(1).count("youtube.com")
+                            if yt_count > max_yt_links:
+                                max_yt_links = yt_count
+                                target_mosaic = m
+                        
+                        if target_mosaic:
+                            mosaic_text = target_mosaic.group(1)
+                            # We find the start line of this specific block
+                            start_pos = target_mosaic.start(1)
                             start_line = content[:start_pos].count('\n')
                             line_count = mosaic_text.count('\n') + 1
                             for i in range(start_line, start_line + line_count):
                                 mosaic_lines.add(i)
+                            log_event(f"[*] YouTube Mosaic identified in docs/index.md (Lines {start_line}-{start_line+line_count})")
 
                     lines = content.splitlines()
                     for idx, line in enumerate(lines):
