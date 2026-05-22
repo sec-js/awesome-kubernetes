@@ -62,6 +62,7 @@ jobs:
         env:
           PYTHONPATH: ${{ github.workspace }}
           GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           FORCE_ENRICH: ${{ github.event.inputs.force_enrich || 'false' }}
         run: |
           python src/enrich_videos.py

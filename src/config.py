@@ -32,6 +32,7 @@ if GEMINI_API_KEY and not os.getenv("GOOGLE_API_KEY"):
     os.environ["GOOGLE_API_KEY"] = GEMINI_API_KEY
 
 GH_TOKEN = os.getenv("GH_TOKEN")
+YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
 
 # Gemini Configuration (Dynamic Discovery Enabled)
 GEMINI_API_VERSION = "v1beta"

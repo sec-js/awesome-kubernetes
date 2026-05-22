@@ -424,23 +424,43 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
 
 async def fetch_youtube_metadata(url: str) -> Optional[Dict]:
     """
-    Fetches high-fidelity basic metadata (title, description) and optionally transcripts
-    from a YouTube page using robust third-party libraries (yt-dlp).
-    Used for pre-enriching AI prompts with real content data.
+    Fetches high-fidelity basic metadata (title, description) from a YouTube page.
+    Prioritizes Official YouTube Data API v3 if YOUTUBE_API_KEY is available.
+    Fallbacks to yt-dlp and eventually standard fetch.
     """
+    from src.config import YOUTUBE_API_KEY
+    
+    # Extract Video ID
+    vid = None
+    if "/embed/" in url: vid = url.split("/embed/")[-1].split("?")[0]
+    elif "youtu.be/" in url: vid = url.split("youtu.be/")[-1].split("?")[0]
+    elif "v=" in url: vid = url.split("v=")[-1].split("&")[0]
+    
+    if not vid: return None
+
+    # STRATEGY 1: Official YouTube Data API v3 (Guaranteed success)
+    if YOUTUBE_API_KEY:
+        try:
+            api_url = f"https://www.googleapis.com/youtube/v3/videos?part=snippet&id={vid}&key={YOUTUBE_API_KEY}"
+            async with httpx.AsyncClient() as client:
+                resp = await client.get(api_url, timeout=10.0)
+                if resp.status_code == 200:
+                    data = resp.json()
+                    if data.get("items"):
+                        snippet = data["items"][0]["snippet"]
+                        log_event(f"    [YT-API] Success for {vid}: {snippet.get('title')}")
+                        return {
+                            "raw_title": snippet.get("title", "").strip(),
+                            "raw_description": snippet.get("description", "").strip()[:3000]
+                        }
+        except Exception as e:
+            log_event(f"    [YT-API] Failed for {vid}: {e}")
+
+    # STRATEGY 2: Robust Extraction (yt-dlp)
     try:
         import yt_dlp
         from youtube_transcript_api import YouTubeTranscriptApi
         
-        # Convert embed/short URLs to standard watch URLs
-        clean_url = url.split("?")[0].split("&")[0]
-        if "/embed/" in clean_url:
-            vid = clean_url.split("/embed/")[-1]
-        elif "youtu.be/" in clean_url:
-            vid = clean_url.split("youtu.be/")[-1]
-        else:
-            vid = clean_url.split("v=")[-1].split("&")[0]
-
         ydl_opts = {
             'quiet': True,
             'skip_download': True,
@@ -460,29 +480,19 @@ async def fetch_youtube_metadata(url: str) -> Optional[Dict]:
             title = info.get('title', 'YouTube Video')
             description = info.get('description', '')
 
-        # Attempt to get transcript for even higher fidelity
+        # Attempt to get transcript
         transcript_text = ""
         try:
             transcript = YouTubeTranscriptApi.get_transcript(vid, languages=['en', 'es'])
-            transcript_text = " ".join([t['text'] for t in transcript[:100]]) # Limit to first 100 segments
-        except:
-            pass
+            transcript_text = " ".join([t['text'] for t in transcript[:100]])
+        except: pass
 
         full_description = f"{description}\n\n[Transcript Snippet]: {transcript_text}" if transcript_text else description
 
         return {
             "raw_title": title.strip(),
-            "raw_description": full_description.strip()[:3000] # Limit size for AI context
+            "raw_description": full_description.strip()[:3000]
         }
     except Exception as e:
-        log_event(f"    [!] Robust YouTube metadata fetch failed for {url}: {e}. Falling back to standard fetch...")
-        # Fallback to the old simple httpx fetch if yt-dlp is not available or fails
-        try:
-            async with httpx.AsyncClient(follow_redirects=True, timeout=10.0) as client:
-                resp = await client.get(url)
-                if resp.status_code == 200:
-                    title_match = re.search(r'<title>(.*?)</title>', resp.text)
-                    return {"raw_title": title_match.group(1) if title_match else "YouTube Video", "raw_description": ""}
-        except:
-            pass
+        log_event(f"    [!] Robust fetch failed for {url}: {e}")
         return None
