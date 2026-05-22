@@ -453,8 +453,13 @@ async def fetch_youtube_metadata(url: str) -> Optional[Dict]:
             title = title_match.group(1).replace(" - YouTube", "") if title_match else "YouTube Video"
             description = desc_match.group(1) if desc_match else ""
             
+            # DETECT GENERIC PLATFORM METADATA (Consent pages / Generic Domain meta)
+            if title.lower() == "youtube" or "before you continue" in title.lower():
+                log_event(f"    [!] Detected generic YouTube landing page for {url}. Skipping metadata extraction.")
+                return None
+
             # Clean description from encoded characters
-            description = re.sub(r'\\u[0-9a-fA-F]{4}', '', description)
+            description = re.sub(r'\\\\u[0-9a-fA-F]{4}', '', description)
             
             return {
                 "raw_title": title.strip(),
