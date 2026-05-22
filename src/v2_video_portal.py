@@ -1,5 +1,6 @@
 import yaml
 import os
+import re
 
 INVENTORY_PATH = "data/inventory.yaml"
 V2_VIDEOS_PATH = "v2-docs/videos.md"
@@ -20,6 +21,7 @@ def generate_v2_videos():
                 "category": entry.get("category", "General"),
                 "technology": entry.get("technology", "Cloud Native"),
                 "summary": entry.get("ai_summary", entry.get("description", "")),
+                "video_order": entry.get("video_order", 999),
                 "year": entry.get("year", "N/A")
             })
 
@@ -27,23 +29,27 @@ def generate_v2_videos():
         print("No featured videos found in inventory.")
         return
 
-    # Sort by Category and then Title
-    featured_videos.sort(key=lambda x: (x["category"], x["title"]))
+    # Sort by Category Order (using the numeric prefix) and then by video_order field
+    # Categories: "1. Fundamentals and Documentaries", "2. Architecture...", etc.
+    featured_videos.sort(key=lambda x: (x["category"], x.get("video_order", 999)))
 
     def clean_header(text):
         # MANDATE 30: No ampersands, no special characters
-        t = text.replace("&", "and")
+        # Also remove the numeric prefix for the final display
+        t = re.sub(r'^\d+\.\s*', '', text)
+        t = t.replace("&", "and")
         t = t.replace("(", "").replace(")", "")
         return t
 
     def get_slug(text):
-        t = clean_header(text)
-        return t.lower().strip().replace(" ", "-").replace("/", "-")
+        # Slug should include the numeric prefix to be unique and match TOC
+        t = text.replace("&", "and").replace("(", "").replace(")", "")
+        return t.lower().strip().replace(" ", "-").replace("/", "-").replace(".", "")
 
     content = [
         "# 🎥 Nubenetes Elite Video Hub",
         "",
-        "Welcome to the **Agentic Video Hub**. Here we curate the most impactful technical clips, tutorials, and architectural deep-dives for the 2026 Cloud Native landscape.",
+        "Welcome to the **Agentic Video Hub**. This section presents a logical, architectural journey through the Cloud Native landscape, from foundational documentaries to advanced AI operations.",
         "",
         "## Table of Contents",
         ""
@@ -59,11 +65,13 @@ def generate_v2_videos():
 
     for cat in categories:
         clean_cat = clean_header(cat)
-        content.append(f"## {clean_cat}")
+        slug = get_slug(cat)
+        # Use an anchor to ensure TOC works with cleaned headers
+        content.append(f"## {clean_cat} {{ #{slug} }}")
         cat_videos = [v for v in featured_videos if v["category"] == cat]
         
-        # Sort by year or title within category
-        cat_videos.sort(key=lambda x: x["title"])
+        # Sort by video_order within category
+        cat_videos.sort(key=lambda x: x.get("video_order", 999))
 
         for v in cat_videos:
             tech = v.get("technology", "Cloud Native")
