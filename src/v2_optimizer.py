@@ -654,16 +654,15 @@ class V2VisionEngine:
             
             md += f"  - {year_prefix}[{link_content}]({l['url'].strip()}){icon}{gh_info}{lang_tag}{level_tag}{type_tag}{rich} {'🌟'*raw_stars}{tag_html}"
 
-            # Layer 2: High-Density Technical Summary (Minimalist Inline)
+            # Layer 2: High-Density Technical Summary (Always Visible Inline)
             summary = l.get('ai_summary', l.get('description', ''))
             if summary:
-                # Use HTML details for inline-block behavior and minimalist UI
-                # Mandate 19: Use blank lines with markdown="1" for correct parsing
-                md += f" <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>\n\n{summary.strip()}\n\n</div></details>\n"
+                # Use a separator and append summary directly to the same line
+                md += f" — {summary.strip()}\n"
             else:
                 md += "\n"
+            return md
 
-        return md
 
     async def _write_premium_files(self, data: Dict[str, Dict], mosaic_html: str, videos_html: str):
         # 1. Update Index with Pulse
