@@ -726,7 +726,7 @@ class V2VisionEngine:
                     index_md += f"- **[{data[f]['title']}](./{f})**\n"
         
         index_md += (
-            "\n***\n\n"
+            "\n---\n\n"
             "## The Maturity Taxonomy\n\n"
             "To ensure industrial-grade precision, every resource in V2 is classified using our proprietary 5-tier maturity system:\n\n"
             "| Tag | Description | Engineering Context |\n"
@@ -801,7 +801,7 @@ class V2VisionEngine:
             # Add Semantic "See Also" ONLY ONCE at the end of the page
             related = [f"[{data[f]['title']}](./{f})" for f in data if f != f_name and data[f]["dim"] == info["dim"]]
             if related:
-                md += f"\n***\n💡 **Explore Related:** {' | '.join(related[:3])}\n\n"
+                md += f"\n---\n💡 **Explore Related:** {' | '.join(related[:3])}\n\n"
             
             # Smart Write: Only update disk if content changed
             target_path = os.path.join(V2_DIR, f_name)
