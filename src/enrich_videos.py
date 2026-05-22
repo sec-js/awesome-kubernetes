@@ -55,11 +55,7 @@ async def enrich_video_entry(url: str, entry: dict):
     """
     
     try:
-        response = await call_gemini_with_retry(prompt, prefer_flash=True)
-        import json
-        # Extract JSON from potential markdown blocks
-        json_str = re.search(r'\{.*\}', response, re.DOTALL).group(0)
-        data = json.loads(json_str)
+        data = await call_gemini_with_retry(prompt, prefer_flash=True)
         
         entry["title"] = meta['raw_title']
         entry["ai_summary"] = data["summary"]
