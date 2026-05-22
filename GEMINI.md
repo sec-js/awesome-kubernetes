@@ -189,6 +189,8 @@ This file contains the accumulated instructions and long-term vision for the aut
 
 57. **Decoupled Workflow Architecture**: The Agentic V2 ecosystem MUST utilize a decoupled micro-workflow structure (Health Monitor, Metadata Engine, AI Curator, and Publisher) to optimize compute quotas and minimize Gemini token consumption. Any update to the V2 rendering logic MUST use the `--render-only` flag in the Publisher pipeline to maintain execution speed.
 
+58. **High-Fidelity Official Extraction Protocol**: Multimedia curation (YouTube) MUST prioritize the **Official YouTube Data API v3** to ensure 100% fidelity to technical titles, descriptions, and metadata. Brittle scraping fallback (yt-dlp) or AI grounding MUST only be utilized when the official API is unavailable, and all extraction logic MUST support multiline indentation to prevent Markdown rendering breakage.
+
 ## 🛠️ Structural Evolution & Navigation
 
 *   **No Link Limits**: There are NO hard limits on the number of links per page or per section (##/###). Nubenetes is built to host thousands of references.

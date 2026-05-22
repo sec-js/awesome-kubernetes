@@ -140,7 +140,7 @@ Additionally, as of May 2026, Nubenetes has reached the **Platinum Operational T
 | :--- | :--- |
 | **Total Technical Resources (Links)** | **15214+** |
 | **Specialized MD Pages** | **161** |
-| **Total Commits** | **5078+** |
+| **Total Commits** | **5103+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -178,7 +178,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 1519 | 6,273 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 1544 | 6,376 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -194,8 +194,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume (Commits / Estimated New Refs)" 0 --> 9000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 6273]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1519]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 6376]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1544]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -204,7 +204,7 @@ xychart-beta
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
-| 2026-05 | 1494 | 6,170 | **Agentic Inception (Gemini Era)** |
+| 2026-05 | 1519 | 6,273 | **Agentic Inception (Gemini Era)** |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
@@ -496,8 +496,18 @@ To eliminate configuration overhead and ensure Nubenetes always utilizes the fro
 5.  **Smart AI Batching (High-Speed Processing)**: Groups up to **10 resources into a single AI prompt** to reduce total calls by 90%.
 6.  **Pre-Flight Local Caching**: Performs an autonomous look-up in [`data/inventory.yaml`](data/inventory.yaml) before any AI operation.
 
-### 6.6. AI Intelligence and Observability (Transparency)
-As of May 2026, Nubenetes implements a **Total Transparency Protocol** for AI operations:
+### 6.7. High-Fidelity Multimedia Extraction (Mandate 25)
+Nubenetes utilizes a production-grade extraction hierarchy to ensure technical videos are curated with 100% fidelity to their original descriptions and transcripts:
+1.  **Primary: YouTube Data API v3**: Guaranteed extraction of titles and full descriptions via official Google endpoints (0% bot-detection failure).
+2.  **Secondary: yt-dlp (Mobile/Embedded Clients)**: Robust scraping fallback using specialized player clients.
+3.  **Tertiary: Gemini Pro Grounding**: Direct Google Search retrieval if the platform blocks all automated access.
+
+### 6.8. Critical Secrets and Environment Variables
+| Secret Name | Purpose | Technical Requirement |
+| :--- | :--- | :--- |
+| `GEMINI_API_KEY_1` | Primary AI Engine | Gemini 1.5 Pro/Flash access. |
+| `YOUTUBE_API_KEY` | Official YouTube Metadata | Data API v3 access (Required for Mandate 25). |
+| `GH_TOKEN` | Repository Operations | PR creation and branch management. |
 
 - **Gemini Session Tracker**: Monitors every API call, recording the model, identity, and success rate.
 - **Performance-First Key Infrastructure**: 
@@ -743,9 +753,16 @@ Maintainers can manually trigger and tune workflows via the GitHub Actions UI. T
 | | | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
 | **5** | **V2 Publisher** | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
 | **6** | **V2 Video Hub** | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
+| | | `force_enrich` | ==FALSE== | Bypasses video AI cache for deep re-analysis. |
 | **7** | **Link Health Check**| `force_full_check` | ==FALSE== | Bypasses cache for global archive auditing. |
 | **8** | **Backup Curation** | `historical_mode` | ==TRUE== | Ignores time windows for static file processing. |
 | **9** | **Emergency PR** | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
+| **10**| **PR Guardian** | N/A | ==AUTO== | Agentic pre-submit validation for PR compliance. |
+| **11**| **Markdown Linter** | N/A | ==AUTO== | Validates HMTL/Markdown syntax (ignores MD051/MD013). |
+| **12**| **Branch Cleanup** | N/A | ==CRON== | Deletes remote branches merged into `develop`. |
+| **13**| **Asset Monitor** | N/A | ==CRON== | Tracks integrity of special assets and banners. |
+| **14**| **README Sync** | N/A | ==AUTO== | Updates metrics and TOC upon `develop` push. |
+| **15**| **Prod Deploy** | N/A | ==MASTER== | Native GH Pages deployment from stable artifacts. |
 
 #### 9.1.1. Optional Cache Restoration Policy
 To protect manual repository updates (e.g., specific metadata fixes or persistent links) from being accidentally overwritten by stale automated data, all V2 workflows implement an **Optional Cache Restoration** policy:
@@ -992,18 +1009,23 @@ To maintain transparency and ease of navigation, all key configuration, database
 - **V2 Metadata Engine:** [`.github/workflows/agentic_v2_metadata.yml`](.github/workflows/agentic_v2_metadata.yml) — Bi-weekly GitHub social proof extraction.
 - **V2 AI Curator:** [`.github/workflows/agentic_v2_ai.yml`](.github/workflows/agentic_v2_ai.yml) — On-demand Gemini-driven deep architectural analysis.
 - **V2 Publisher:** [`.github/workflows/agentic_v2_publish.yml`](.github/workflows/agentic_v2_publish.yml) — Automatic V2 portal generation (Fast-Track rendering).
-- **V2 Video Hub Builder:** [`.github/workflows/agentic_v2_videos.yml`](.github/workflows/agentic_v2_videos.yml) — Automated builder for the high-density Elite Video Hub.
+- **V2 Video Hub Builder:** [`.github/workflows/agentic_v2_videos.yml`](.github/workflows/agentic_v2_videos.yml) — Automated builder with **Robust YouTube Extraction** (yt-dlp + Transcripts).
 - **Link Health Check:** [`.github/workflows/intelligent_link_cleaner.yml`](.github/workflows/intelligent_link_cleaner.yml) — Perpetual archive integrity engine.
-- **README Metrics Sync:** [`.github/workflows/readme_sync.yml`](.github/workflows/readme_sync.yml)
+- **README Metrics Sync:** [`.github/workflows/readme_sync.yml`](.github/workflows/readme_sync.yml) — Automatic TOC and metric synchronization.
 - **Emergency PR Generator:** [`.github/workflows/agentic_v2_pr_only.yml`](.github/workflows/agentic_v2_pr_only.yml) — Data recovery off-ramp.
 - **Deployment Pipeline:** [`.github/workflows/main.yml`](.github/workflows/main.yml) — Native GitHub Pages artifact deployment.
+- **Backup Data Processor:** [`.github/workflows/agentic_backup.yml`](.github/workflows/agentic_backup.yml) — Manual JSON/MD ingestion.
+- **Branch Lifecycle:** [`.github/workflows/cleanup_merged_branches.yml`](.github/workflows/cleanup_merged_branches.yml) — Bi-monthly remote branch cleanup.
+- **Critical Asset Monitor:** [`.github/workflows/critical_asset_monitor.yml`](.github/workflows/critical_asset_monitor.yml) — Vision-based visual integrity tracking.
+- **Markdown Validator:** [`.github/workflows/markdown_linter.yml`](.github/workflows/markdown_linter.yml) — Syntax and rendering safety gate.
+- **PR Guardian AI:** [`.github/workflows/pr_guardian.yml`](.github/workflows/pr_guardian.yml) — Agentic PR compliance auditor.
 
 ### 13.4. Agentic AI Source Code
 - **Orchestration Core:** [`src/main.py`](src/main.py) - Master coordinator for discovery and evaluation.
 - **Curator Logic:** [`src/agentic_curator.py`](src/agentic_curator.py) - Primary classification and description engine.
 - **V2 Vision Engine:** [`src/v2_optimizer.py`](src/v2_optimizer.py) - Elite portal generation and maturity scoring.
-- **Video Hub Enrichment:** [`src/enrich_videos.py`](src/enrich_videos.py) - YouTube metadata extraction and AI synthesis.
-- **Video Portal Logic:** [`src/v2_video_portal.py`](src/v2_video_portal.py) - Categorized layout and O'Reilly journey builder.
+- **Video Hub Enrichment:** [`src/enrich_videos.py`](src/enrich_videos.py) - High-fidelity synthesis using **yt-dlp** and transcripts.
+- **Video Portal Logic:** [`src/v2_video_portal.py`](src/v2_video_portal.py) - Categorized layout with **O'Reilly Journey Builder** and multiline rendering fixes.
 - **V2 Specialized Agents:**
     - **Health Monitor:** [`src/v2_health.py`](src/v2_health.py)
     - **Metadata Engine:** [`src/v2_metadata.py`](src/v2_metadata.py)

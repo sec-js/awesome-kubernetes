@@ -15,9 +15,15 @@ on:
         required: false
         type: boolean
         default: false
+      force_enrich:
+        description: 'Force AI re-enrichment of all videos (ignores cache)'
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
+  pull-requests: write
 
 concurrency:
   group: v2-video-hub-${{ github.ref }}
@@ -50,12 +56,14 @@ jobs:
       - name: Dependency Installation
         run: |
           python -m pip install --upgrade pip
-          pip install pyyaml httpx tenacity pytz python-dotenv
+          pip install pyyaml httpx tenacity pytz python-dotenv yt-dlp youtube-transcript-api
 
       - name: Execute Video Hub Enrichment
         env:
           PYTHONPATH: ${{ github.workspace }}
           GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          FORCE_ENRICH: ${{ github.event.inputs.force_enrich || 'false' }}
         run: |
           python src/enrich_videos.py
 
@@ -64,18 +72,19 @@ jobs:
           export PYTHONPATH=$PYTHONPATH:.
           python src/v2_video_portal.py
 
-      - name: Commit and Push Changes
-        run: |
-          git config --global user.name "Nubenetes Bot"
-          git config --global user.email "bot@nubenetes.com"
-          git add v2-docs/videos.md data/inventory.yaml
-          if git diff --staged --quiet; then
-            echo "No changes to commit."
-          else
-            git commit -m "docs: automated V2 video hub update [skip ci]"
-            git pull --rebase origin develop
-            git push origin develop
-          fi
+      - name: Create Pull Request for Video Hub Update
+        uses: peter-evans/create-pull-request@v8
+        with:
+          branch: bot/v2-video-sync
+          base: develop
+          title: "V2 Content: Video Hub Enrichment Sync"
+          commit-message: "docs: update Video Hub with high-fidelity metadata [skip ci]"
+          labels: "v2-content, video-hub"
+          body: |
+            Automated update of the V2 Video Hub.
+            - Robust metadata extraction (yt-dlp + transcripts)
+            - AI-synthesized technical summaries
+            - Format-compliant Markdown rendering
 
       - name: Persist Incremental Inventory Cache
         if: always()

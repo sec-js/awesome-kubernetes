@@ -293,12 +293,16 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
     consecutive_429s = 0
     base_wait_time = 2.0
     
-    # 1. Smart Filtering and Re-ordering (Strict Lite-Only Policy for Tier 1)
-    if prefer_flash:
-        # Strict filter: Only allow flash/lite models, maintaining version sorting from pool
+    # 1. Smart Filtering and Re-ordering
+    if use_grounding:
+        # For grounding, we MANDATE Pro models as they have superior search/reasoning capabilities
+        models = [m for m in models_pool if "pro" in m]
+        if not models:
+            models = ["gemini-1.5-pro", "gemini-1.5-pro-latest"]
+    elif prefer_flash:
+        # Strict filter: Only allow flash/lite models
         models = [m for m in models_pool if "flash" in m or "lite" in m]
         if not models:
-            # Emergency fallback: if no flash/lite discovered, use hardcoded safe defaults
             models = ["gemini-1.5-flash", "gemini-1.5-flash-latest"]
     else:
         models = models_pool
@@ -332,7 +336,7 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                             # --- TOOL ENABLING (MCP-LIKE GROUNDING) ---
                             payload = {
                                 "contents": [{"parts": [{"text": prompt}]}],
-                                "tools": [{"google_search_retrieval": {}}] if use_grounding else []
+                                "tools": [{"google_search": {}}] if use_grounding else []
                             }
                             
                             # TELEMETRY: Log Payload Size
@@ -420,51 +424,75 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
 
 async def fetch_youtube_metadata(url: str) -> Optional[Dict]:
     """
-    Fetches basic metadata (title, description) from a YouTube page.
-    Used for pre-enriching AI prompts with real content data.
+    Fetches high-fidelity basic metadata (title, description) from a YouTube page.
+    Prioritizes Official YouTube Data API v3 if YOUTUBE_API_KEY is available.
+    Fallbacks to yt-dlp and eventually standard fetch.
     """
+    from src.config import YOUTUBE_API_KEY
+    
+    # Extract Video ID
+    vid = None
+    if "/embed/" in url: vid = url.split("/embed/")[-1].split("?")[0]
+    elif "youtu.be/" in url: vid = url.split("youtu.be/")[-1].split("?")[0]
+    elif "v=" in url: vid = url.split("v=")[-1].split("&")[0]
+    
+    if not vid: return None
+
+    # STRATEGY 1: Official YouTube Data API v3 (Guaranteed success)
+    if YOUTUBE_API_KEY:
+        try:
+            api_url = f"https://www.googleapis.com/youtube/v3/videos?part=snippet&id={vid}&key={YOUTUBE_API_KEY}"
+            async with httpx.AsyncClient() as client:
+                resp = await client.get(api_url, timeout=10.0)
+                if resp.status_code == 200:
+                    data = resp.json()
+                    if data.get("items"):
+                        snippet = data["items"][0]["snippet"]
+                        log_event(f"    [YT-API] Success for {vid}: {snippet.get('title')}")
+                        return {
+                            "raw_title": snippet.get("title", "").strip(),
+                            "raw_description": snippet.get("description", "").strip()[:3000]
+                        }
+        except Exception as e:
+            log_event(f"    [YT-API] Failed for {vid}: {e}")
+
+    # STRATEGY 2: Robust Extraction (yt-dlp)
     try:
-        # Convert embed/short URLs to standard watch URLs for better meta tags
-        clean_url = url.split("?")[0].split("&")[0]
-        if "/embed/" in clean_url:
-            vid = clean_url.split("/embed/")[-1]
-            watch_url = f"https://www.youtube.com/watch?v={vid}"
-        elif "youtu.be/" in clean_url:
-            vid = clean_url.split("youtu.be/")[-1]
-            watch_url = f"https://www.youtube.com/watch?v={vid}"
-        else:
-            watch_url = clean_url
-
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "Accept-Language": "en-US,en;q=0.9"
-        }
+        import yt_dlp
+        from youtube_transcript_api import YouTubeTranscriptApi
         
-        async with httpx.AsyncClient(follow_redirects=True, timeout=10.0) as client:
-            resp = await client.get(watch_url, headers=headers)
-            if resp.status_code != 200:
-                return None
-            
-            html = resp.text
-            # Use regex to find title and description in meta tags
-            title_match = re.search(r'<title>(.*?)</title>', html)
-            desc_match = re.search(r'name="description" content="(.*?)"', html)
-            
-            title = title_match.group(1).replace(" - YouTube", "") if title_match else "YouTube Video"
-            description = desc_match.group(1) if desc_match else ""
-            
-            # DETECT GENERIC PLATFORM METADATA (Consent pages / Generic Domain meta)
-            if title.lower() == "youtube" or "before you continue" in title.lower():
-                log_event(f"    [!] Detected generic YouTube landing page for {url}. Skipping metadata extraction.")
-                return None
-
-            # Clean description from encoded characters
-            description = re.sub(r'\\\\u[0-9a-fA-F]{4}', '', description)
-            
-            return {
-                "raw_title": title.strip(),
-                "raw_description": description.strip()[:2000] # Limit size
+        ydl_opts = {
+            'quiet': True,
+            'skip_download': True,
+            'force_generic_extractor': False,
+            'no_warnings': True,
+            'extractor_args': {
+                'youtube': {
+                    'player_client': ['android', 'web_embedded'],
+                    'skip': ['dash', 'hls']
+                }
             }
+        }
+
+        # Extract basic info
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+            info = ydl.extract_info(url, download=False)
+            title = info.get('title', 'YouTube Video')
+            description = info.get('description', '')
+
+        # Attempt to get transcript
+        transcript_text = ""
+        try:
+            transcript = YouTubeTranscriptApi.get_transcript(vid, languages=['en', 'es'])
+            transcript_text = " ".join([t['text'] for t in transcript[:100]])
+        except: pass
+
+        full_description = f"{description}\n\n[Transcript Snippet]: {transcript_text}" if transcript_text else description
+
+        return {
+            "raw_title": title.strip(),
+            "raw_description": full_description.strip()[:3000]
+        }
     except Exception as e:
-        log_event(f"    [!] YouTube metadata fetch failed for {url}: {e}")
+        log_event(f"    [!] Robust fetch failed for {url}: {e}")
         return None
