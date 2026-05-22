@@ -93,6 +93,7 @@ This file contains the accumulated instructions and long-term vision for the aut
         *   **Deep Hierarchical Classification**: Resources are organized using the `hierarchy` field (Area > Topic > Subtopics). This is mandatory for V2 generation.
         *   **O'Reilly Learning Flow**: Organization must move from foundational theory to advanced engineering internals in a logical, ordered sequence.
         *   **Dynamic Indexing**: Every V2 page MUST include an automated Table of Contents (TOC) with clickable anchors for all sub-sections.
+        *   **Elite Video Hub**: A dedicated dimension for high-impact technical video content, managed by `src/v2_video_portal.py`, with categorized architectural summaries and optimized lazy-loading embeds.
     - **Location-Aware Automation**: Workflows utilize location metadata (`v1_locations`, `v2_locations`) to perform surgical updates. V1 locations are considered "Fixed Anchors," while V2 locations are "Dynamic Clusters."
 
 29. **TOC & Structural Exceptions**: Certain files (configuration-heavy or technical tables like `mkdocs.md` or `matrix-table.md`) are exempt from TOC and deep-hierarchy requirements. These exceptions MUST be respected by all agents to avoid unnecessary structural clutter in non-navigational files as defined in [`data/link_rules.yaml`](data/link_rules.yaml).

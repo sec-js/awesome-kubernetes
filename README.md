@@ -5,6 +5,7 @@
 [![V2 Metadata Engine](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_metadata.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_metadata.yml)
 [![V2 AI Curator](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_ai.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_ai.yml)
 [![V2 Publisher](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_publish.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_publish.yml)
+[![V2 Video Hub](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_videos.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_videos.yml)
 [![Intelligent Link Cleaner](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/intelligent_link_cleaner.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/intelligent_link_cleaner.yml)
 
 **Nubenetes** is a high-density, curated archive of the Kubernetes, Cloud Native, and Agentic AI ecosystem. Since its inception in 2018, it has evolved from a personal collection of references into an autonomous, AI-driven knowledge engine that processes thousands of technical resources to provide a definitive "Source of Truth" for engineers worldwide.
@@ -980,6 +981,7 @@ To maintain transparency and ease of navigation, all key configuration, database
 - **V2 Metadata Engine:** [`.github/workflows/agentic_v2_metadata.yml`](.github/workflows/agentic_v2_metadata.yml) — Bi-weekly GitHub social proof extraction.
 - **V2 AI Curator:** [`.github/workflows/agentic_v2_ai.yml`](.github/workflows/agentic_v2_ai.yml) — On-demand Gemini-driven deep architectural analysis.
 - **V2 Publisher:** [`.github/workflows/agentic_v2_publish.yml`](.github/workflows/agentic_v2_publish.yml) — Automatic V2 portal generation (Fast-Track rendering).
+- **V2 Video Hub Builder:** [`.github/workflows/agentic_v2_videos.yml`](.github/workflows/agentic_v2_videos.yml) — Automated builder for the high-density Elite Video Hub.
 - **Link Health Check:** [`.github/workflows/intelligent_link_cleaner.yml`](.github/workflows/intelligent_link_cleaner.yml) — Perpetual archive integrity engine.
 - **README Metrics Sync:** [`.github/workflows/readme_sync.yml`](.github/workflows/readme_sync.yml)
 - **Emergency PR Generator:** [`.github/workflows/agentic_v2_pr_only.yml`](.github/workflows/agentic_v2_pr_only.yml) — Data recovery off-ramp.
