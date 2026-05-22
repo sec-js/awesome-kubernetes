@@ -72,14 +72,27 @@ async def main():
     if not os.path.exists(INVENTORY_PATH):
         return
 
+    force_enrich = os.getenv("FORCE_ENRICH", "false").lower() == "true"
+
     with open(INVENTORY_PATH, "r") as f:
         inventory = yaml.safe_load(f)
 
     video_urls = [u for u, e in inventory.items() if e.get("is_featured_video")]
     
     tasks = []
+    skipped = 0
     for url in video_urls:
+        if inventory[url].get("is_enriched") and not force_enrich:
+            skipped += 1
+            continue
         tasks.append(enrich_video_entry(url, inventory[url]))
+
+    if skipped > 0:
+        log_event(f"[*] Skipped {skipped} already enriched videos. Use FORCE_ENRICH=true to re-process.")
+
+    if not tasks:
+        log_event("[*] No videos need enrichment.")
+        return
 
     # Process in small batches to respect rate limits
     batch_size = 5
