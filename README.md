@@ -390,8 +390,8 @@ To scale to 10,000+ resources while staying within GitHub's 6-hour execution lim
 
 | Workflow Name | Functional Domain | Trigger / Frequency | Key Benefit |
 | :--- | :--- | :--- | :--- |
-| **V2 Health Monitor** | **Network Stability** | Weekly / Manual | Validates 200 OK status without consuming AI tokens. |
-| **V2 Metadata Engine** | **Social Proof** | Bi-weekly / Manual | Fetches live stars and licenses via the GitHub API. |
+| **V2 Health Monitor** | **Network Stability** | Monthly (1st) / Manual | Validates 200 OK status without consuming AI tokens. |
+| **V2 Metadata Engine** | **Social Proof** | Monthly (15th) / Manual | Fetches live stars and licenses via the GitHub API. |
 | **V2 AI Curator** | **Intelligence** | On-demand / Manual | Generates summaries and hierarchy using Gemini AI. |
 | **V2 Publisher** | **Aesthetics** | Automatic on Push | Fast-track rendering of the portal (V2 Portal). |
 

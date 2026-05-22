@@ -2,7 +2,7 @@ name: Nubenetes V2 Health Monitor
 
 on:
   schedule:
-    - cron: '0 0 * * 0' # Weekly on Sunday
+    - cron: '0 0 1 * *' # Monthly on the 1st
   workflow_dispatch:
     inputs:
       force_full_check:

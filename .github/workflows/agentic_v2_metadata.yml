@@ -2,7 +2,7 @@ name: Nubenetes V2 Metadata Engine
 
 on:
   schedule:
-    - cron: '0 0 1,15 * *' # Bi-weekly
+    - cron: '0 0 15 * *' # Monthly on the 15th
   workflow_dispatch:
     inputs:
       enrich_metadata:
