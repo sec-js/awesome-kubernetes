@@ -9,7 +9,7 @@ from datetime import datetime
 from typing import List, Dict, Optional, Tuple
 from src.config import GH_TOKEN, TARGET_REPO, GEMINI_API_KEY, NUBENETES_CATEGORIES, MADRID_TZ, INVENTORY_DIR
 from src.gitops_manager import RepositoryController
-from src.gemini_utils import call_gemini_with_retry, normalize_url, clean_toc_text
+from src.gemini_utils import call_gemini_with_retry, normalize_url, clean_toc_text, fetch_youtube_metadata
 from src.logger import log_event
 
 # Configuration
@@ -42,6 +42,15 @@ async def _get_github_activity(url: str) -> Dict:
     return {}
 
 async def _deep_fetch_content(url: str) -> Tuple[str, Dict]:
+    # MANDATE 25: Special handling for YouTube
+    if "youtube.com" in url or "youtu.be" in url:
+        log_event(f"    [YT] Detected YouTube link: {url}. Fetching native metadata...")
+        meta = await fetch_youtube_metadata(url)
+        if meta:
+            # Combine title and description to feed the AI
+            content = f"TITLE: {meta['raw_title']}\nDESCRIPTION: {meta['raw_description']}"
+            return content, {"og_image": f"https://img.youtube.com/vi/{url.split('v=')[-1].split('&')[0]}/maxresdefault.jpg" if "v=" in url else ""}
+
     headers = {"User-Agent": "Mozilla/5.0"}
     try:
         async with httpx.AsyncClient(headers=headers, follow_redirects=True, timeout=15.0) as client:
