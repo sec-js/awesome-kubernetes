@@ -2,17 +2,23 @@ name: Emergency V2 PR Generator (Read-Only Recovery)
 
 on:
   workflow_dispatch:
+    inputs:
+      restore_cache:
+        description: 'Restore inventory from cache (Warning: May overwrite recent manual changes)'
+        required: false
+        type: boolean
+        default: false
 
-permissions:
+  permissions:
   contents: write
   pull-requests: write
 
-concurrency:
-  group: v2-emergency-${{ github.ref }}
+  concurrency:
+  group: v2-pr-only-${{ github.ref }}
   cancel-in-progress: false
 
-jobs:
-  recover-and-pr:
+  jobs:
+  publish-v2:
     runs-on: ubuntu-latest
     steps:
       - name: Repository Synchronization
@@ -28,12 +34,14 @@ jobs:
           cache: 'pip'
 
       - name: Restore Incremental Inventory Cache (Mandate 22)
+        if: ${{ github.event.inputs.restore_cache == 'true' }}
         uses: actions/cache/restore@v4
-        id: inventory-cache-restore
         with:
           path: data/inventory.yaml
           key: inventory-v2-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: |
+            inventory-v2-
+
             inventory-v2-
 
       - name: Installation of Dependencies

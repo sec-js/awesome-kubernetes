@@ -1,25 +1,27 @@
 name: Nubenetes V2 Metadata Engine
 
 on:
-  schedule:
-    - cron: '0 0 15 * *' # Monthly on the 15th
   workflow_dispatch:
     inputs:
       enrich_metadata:
         description: 'Enrich GitHub Metadata (fetch stars/license)'
         type: boolean
         default: true
+      restore_cache:
+        description: 'Restore inventory from cache (Warning: May overwrite recent manual changes)'
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
-  pull-requests: write
 
 concurrency:
   group: v2-metadata-${{ github.ref }}
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
-  enrich-metadata:
+  run-metadata:
     runs-on: ubuntu-latest
     steps:
       - name: Repository Synchronization
@@ -34,6 +36,7 @@ jobs:
           cache: 'pip'
 
       - name: Restore Incremental Inventory Cache
+        if: ${{ github.event.inputs.restore_cache == 'true' }}
         uses: actions/cache/restore@v4
         with:
           path: data/inventory.yaml
@@ -53,14 +56,14 @@ jobs:
           PYTHONUNBUFFERED: "1"
         run: python -u -m src.v2_metadata
 
-      - name: Create Pull Request for Inventory Update
+      - name: Create Pull Request for Metadata Update
         uses: peter-evans/create-pull-request@v8
         with:
           branch: bot/v2-metadata-sync
           base: develop
-          title: "V2 Data: Metadata Engine Sync"
-          commit-message: "chore: update inventory github metadata [skip ci]"
-          labels: "v2-data, metadata-engine"
+          title: "V2 Data: GitHub Metadata Sync"
+          commit-message: "chore: update inventory stars and licenses [skip ci]"
+          labels: "v2-data, metadata-sync"
 
       - name: Persist Incremental Inventory to Cache
         if: always()
