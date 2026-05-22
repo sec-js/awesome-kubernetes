@@ -743,9 +743,16 @@ Maintainers can manually trigger and tune workflows via the GitHub Actions UI. T
 | | | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
 | **5** | **V2 Publisher** | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
 | **6** | **V2 Video Hub** | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
+| | | `force_enrich` | ==FALSE== | Bypasses video AI cache for deep re-analysis. |
 | **7** | **Link Health Check**| `force_full_check` | ==FALSE== | Bypasses cache for global archive auditing. |
 | **8** | **Backup Curation** | `historical_mode` | ==TRUE== | Ignores time windows for static file processing. |
 | **9** | **Emergency PR** | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
+| **10**| **PR Guardian** | N/A | ==AUTO== | Agentic pre-submit validation for PR compliance. |
+| **11**| **Markdown Linter** | N/A | ==AUTO== | Validates HMTL/Markdown syntax (ignores MD051/MD013). |
+| **12**| **Branch Cleanup** | N/A | ==CRON== | Deletes remote branches merged into `develop`. |
+| **13**| **Asset Monitor** | N/A | ==CRON== | Tracks integrity of special assets and banners. |
+| **14**| **README Sync** | N/A | ==AUTO== | Updates metrics and TOC upon `develop` push. |
+| **15**| **Prod Deploy** | N/A | ==MASTER== | Native GH Pages deployment from stable artifacts. |
 
 #### 9.1.1. Optional Cache Restoration Policy
 To protect manual repository updates (e.g., specific metadata fixes or persistent links) from being accidentally overwritten by stale automated data, all V2 workflows implement an **Optional Cache Restoration** policy:
@@ -992,18 +999,23 @@ To maintain transparency and ease of navigation, all key configuration, database
 - **V2 Metadata Engine:** [`.github/workflows/agentic_v2_metadata.yml`](.github/workflows/agentic_v2_metadata.yml) — Bi-weekly GitHub social proof extraction.
 - **V2 AI Curator:** [`.github/workflows/agentic_v2_ai.yml`](.github/workflows/agentic_v2_ai.yml) — On-demand Gemini-driven deep architectural analysis.
 - **V2 Publisher:** [`.github/workflows/agentic_v2_publish.yml`](.github/workflows/agentic_v2_publish.yml) — Automatic V2 portal generation (Fast-Track rendering).
-- **V2 Video Hub Builder:** [`.github/workflows/agentic_v2_videos.yml`](.github/workflows/agentic_v2_videos.yml) — Automated builder for the high-density Elite Video Hub.
+- **V2 Video Hub Builder:** [`.github/workflows/agentic_v2_videos.yml`](.github/workflows/agentic_v2_videos.yml) — Automated builder with **Robust YouTube Extraction** (yt-dlp + Transcripts).
 - **Link Health Check:** [`.github/workflows/intelligent_link_cleaner.yml`](.github/workflows/intelligent_link_cleaner.yml) — Perpetual archive integrity engine.
-- **README Metrics Sync:** [`.github/workflows/readme_sync.yml`](.github/workflows/readme_sync.yml)
+- **README Metrics Sync:** [`.github/workflows/readme_sync.yml`](.github/workflows/readme_sync.yml) — Automatic TOC and metric synchronization.
 - **Emergency PR Generator:** [`.github/workflows/agentic_v2_pr_only.yml`](.github/workflows/agentic_v2_pr_only.yml) — Data recovery off-ramp.
 - **Deployment Pipeline:** [`.github/workflows/main.yml`](.github/workflows/main.yml) — Native GitHub Pages artifact deployment.
+- **Backup Data Processor:** [`.github/workflows/agentic_backup.yml`](.github/workflows/agentic_backup.yml) — Manual JSON/MD ingestion.
+- **Branch Lifecycle:** [`.github/workflows/cleanup_merged_branches.yml`](.github/workflows/cleanup_merged_branches.yml) — Bi-monthly remote branch cleanup.
+- **Critical Asset Monitor:** [`.github/workflows/critical_asset_monitor.yml`](.github/workflows/critical_asset_monitor.yml) — Vision-based visual integrity tracking.
+- **Markdown Validator:** [`.github/workflows/markdown_linter.yml`](.github/workflows/markdown_linter.yml) — Syntax and rendering safety gate.
+- **PR Guardian AI:** [`.github/workflows/pr_guardian.yml`](.github/workflows/pr_guardian.yml) — Agentic PR compliance auditor.
 
 ### 13.4. Agentic AI Source Code
 - **Orchestration Core:** [`src/main.py`](src/main.py) - Master coordinator for discovery and evaluation.
 - **Curator Logic:** [`src/agentic_curator.py`](src/agentic_curator.py) - Primary classification and description engine.
 - **V2 Vision Engine:** [`src/v2_optimizer.py`](src/v2_optimizer.py) - Elite portal generation and maturity scoring.
-- **Video Hub Enrichment:** [`src/enrich_videos.py`](src/enrich_videos.py) - YouTube metadata extraction and AI synthesis.
-- **Video Portal Logic:** [`src/v2_video_portal.py`](src/v2_video_portal.py) - Categorized layout and O'Reilly journey builder.
+- **Video Hub Enrichment:** [`src/enrich_videos.py`](src/enrich_videos.py) - High-fidelity synthesis using **yt-dlp** and transcripts.
+- **Video Portal Logic:** [`src/v2_video_portal.py`](src/v2_video_portal.py) - Categorized layout with **O'Reilly Journey Builder** and multiline rendering fixes.
 - **V2 Specialized Agents:**
     - **Health Monitor:** [`src/v2_health.py`](src/v2_health.py)
     - **Metadata Engine:** [`src/v2_metadata.py`](src/v2_metadata.py)
