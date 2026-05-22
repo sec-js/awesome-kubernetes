@@ -670,7 +670,7 @@ class V2VisionEngine:
         pulse_md = "## The Agentic Pulse\n" + "\n".join([f"- **({l.get('pub_date', 'N/A')[:10]})** [**=={nuclear_strip(l['title'])}==**]({l['url'].strip()}) {'🌟'*l.get('stars',3)}" for l in trending_pool[:5]])
         
         # Calculate coverage for the index
-        v2_links_all = [l for l in self.inventory.values() if isinstance(l, dict) and l.get('v2_locations')]
+        v2_links_all = [dict(meta, url=url) for url, meta in self.inventory.items() if isinstance(meta, dict) and meta.get("v2_locations")]
         total_v2 = len(v2_links_all)
         enriched = len([l for l in v2_links_all if l.get('hierarchy') or l.get('ai_summary')])
         coverage_pct = round((enriched / total_v2) * 100, 2) if total_v2 > 0 else 0
@@ -844,7 +844,7 @@ if __name__ == "__main__":
     
     # 1. High-Density Metrics Calculation
     total_v1_links = len(engine.inventory)
-    v2_links_all = [l for l in engine.inventory.values() if isinstance(l, dict) and l.get('v2_locations')]
+    v2_links_all = [dict(meta, url=url) for url, meta in engine.inventory.items() if isinstance(meta, dict) and meta.get("v2_locations")]
     total_v2_links = len(v2_links_all)
     
     # Coverage Metrics (Mandate: Transparency in Knowledge Discovery)
