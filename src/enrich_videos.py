@@ -55,7 +55,7 @@ async def enrich_video_entry(url: str, entry: dict):
     """
     
     try:
-        response = await call_gemini_with_retry(prompt, model_tier="flash")
+        response = await call_gemini_with_retry(prompt, prefer_flash=True)
         import json
         # Extract JSON from potential markdown blocks
         json_str = re.search(r'\{.*\}', response, re.DOTALL).group(0)
