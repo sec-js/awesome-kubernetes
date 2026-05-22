@@ -744,7 +744,7 @@ Maintainers can manually trigger and tune workflows via the GitHub Actions UI. T
 
 | # | Workflow | Primary Manual Flags | Default | Technical Effect |
 | :---: | :--- | :--- | :---: | :--- |
-| **1** | **Agentic Curation** | `historical_mode` | ==TRUE== | Processes all discovery sources (ignores 30-day window). |
+| **1** | **Automated Agentic Curation** | `historical_mode` | ==TRUE== | Processes all discovery sources (ignores 30-day window). |
 | | | `include_*` | ==TRUE== | Toggles specific topics (k8s, cloud, ai, etc.). |
 | **2** | **V2 Health Monitor** | `force_full_check` | ==FALSE== | Bypasses 21-day health cache (Live HTTP Check). |
 | | | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
@@ -753,17 +753,17 @@ Maintainers can manually trigger and tune workflows via the GitHub Actions UI. T
 | **4** | **V2 AI Curator** | `force_reevaluate` | ==FALSE== | Bypasses AI summary cache (Full Gemini Re-run). |
 | | | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
 | **5** | **V2 Publisher** | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
-| **6** | **V2 Video Hub** | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
+| **6** | **V2 Video Hub Builder** | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
 | | | `force_enrich` | ==FALSE== | Bypasses video AI cache for deep re-analysis. |
-| **7** | **Link Health Check**| `force_full_check` | ==FALSE== | Bypasses cache for global archive auditing. |
-| **8** | **Backup Curation** | `historical_mode` | ==TRUE== | Ignores time windows for static file processing. |
-| **9** | **Emergency PR** | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
-| **10**| **PR Guardian** | N/A | ==AUTO== | Agentic pre-submit validation for PR compliance. |
+| **7** | **Intelligent Link Cleaner**| `force_full_check` | ==FALSE== | Bypasses cache for global archive auditing. |
+| **8** | **Backup-based Curation** | `historical_mode` | ==TRUE== | Ignores time windows for static file processing. |
+| **9** | **Emergency V2 PR Generator** | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
+| **10**| **PR Guardian AI** | N/A | ==AUTO== | Agentic pre-submit validation for PR compliance. |
 | **11**| **Markdown Linter** | N/A | ==AUTO== | Validates HMTL/Markdown syntax (ignores MD051/MD013). |
-| **12**| **Branch Cleanup** | N/A | ==CRON== | Deletes remote branches merged into `develop`. |
+| **12**| **Branch Lifecycle** | N/A | ==CRON== | Deletes remote branches merged into `develop`. |
 | **13**| **Asset Monitor** | N/A | ==CRON== | Tracks integrity of special assets and banners. |
-| **14**| **README Sync** | N/A | ==AUTO== | Updates metrics and TOC upon `develop` push. |
-| **15**| **Prod Deploy** | N/A | ==MASTER== | Native GH Pages deployment from stable artifacts. |
+| **14**| **README Automated Sync** | N/A | ==AUTO== | Updates metrics and TOC upon `develop` push. |
+| **15**| **GitHub Pages Deploy** | N/A | ==MASTER== | Native GH Pages deployment from stable artifacts. |
 
 #### 9.1.1. Optional Cache Restoration Policy
 To protect manual repository updates (e.g., specific metadata fixes or persistent links) from being accidentally overwritten by stale automated data, all V2 workflows implement an **Optional Cache Restoration** policy:
@@ -771,7 +771,7 @@ To protect manual repository updates (e.g., specific metadata fixes or persisten
 - **Manual Override**: The `restore_cache` flag must be explicitly checked during a `workflow_dispatch` trigger if the user intends to resume from the last automated state.
 - **Persistent Saving**: The system continues to save the updated state to the cache at the end of every successful run, regardless of the restore setting, ensuring long-term persistence.
 
-#### 9.1.1. [1] Agentic Curation Strategy
+#### 9.1.2. Automated Agentic Curation Strategy
 The **Nubenetes Automated Agentic Curation** workflow is designed to be exhaustive by default to ensure no emerging technical tool is missed.
 
 | Flag Name | Default | Technical Variable | Effect |
@@ -780,21 +780,21 @@ The **Nubenetes Automated Agentic Curation** workflow is designed to be exhausti
 | **Topic Toggles** | ==ON== | `include_k8s/cloud/ai` | Controls which domains are active in the current discovery run. |
 | **Backup Key** | ==OFF== | `activate_backup_key` | Enables Identity B (Subscription) for high-volume discovery bursts. |
 
-#### 9.1.2. [3] Intelligent Cleaner Strategy
+#### 9.1.3. Intelligent Cleaner Strategy
 The **Nubenetes Intelligent Link Cleaner** focuses on archive integrity. Its default setup is optimized for incremental maintenance.
 
 | Flag Name | Default | Technical Variable | Effect |
 | :--- | :---: | :--- | :--- |
 | **Force full re-validation** | ==OFF== | `force_full_check` | Bypasses the 21-day "Last Checked" logic to force a full 17k+ link audit. |
 
-#### 9.1.3. [4] Backup Ingestion Strategy
+#### 9.1.4. Backup Ingestion Strategy
 Used for processing legacy data or high-fidelity manual collections.
 
 | Flag Name | Default | Technical Variable | Effect |
 | :--- | :---: | :--- | :--- |
 | **Historical Mode** | ==ON== | `historical_mode` | Forces evaluation of all items in the backup file regardless of date. |
 
-#### 9.1.4. [6] Emergency PR Strategy (Read-Only)
+#### 9.1.5. Emergency PR Strategy (Read-Only Recovery)
 Designed as a "Safety Off-ramp" to recover partially processed data from the GitHub Actions Cache.
 
 | Security Feature | Status | technical Effect |
