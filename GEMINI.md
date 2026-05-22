@@ -140,11 +140,14 @@ This file contains the accumulated instructions and long-term vision for the aut
 44. **Agentic Presubmit Safeguards (PR Guardian)**: All PRs to `develop` MUST be analyzed by the `PR Guardian` AI agent to ensure compliance with Nubenetes standards (No emojis in headers, valid Markdown, correct URL normalization, high-density descriptions).
 45. **Resilient Quota Management (Circuit Breakers)**: AI workflows MUST implement circuit breaker logic (Exit Code 42) to gracefully pause processing and disable the workflow when API quotas (e.g., 429 Too Many Requests) are exhausted, preventing infinite loop failures.
 46. **Markdown Linting Continuity**: All files in `docs/` and `v2-docs/` MUST pass the automated `markdownlint` validation to ensure pristine HTML rendering within MkDocs.
-47. **Zero-Redundancy Agentic Pipeline (Performance Standard)**: To maintain the **30-minute execution standard**, the V2 Optimizer MUST NOT perform redundant network health checks or grounding-heavy AI calls for resources already validated by the `IntelligentLinkCleaner`.
-    - **Metadata Inheritance**: V2 MUST prioritize `gh_stars`, `gh_license`, and `gh_pushed` from the inventory to bypass AI grounding during maturity tagging.
-    - **Smart Grounding**: Google Search Retrieval is strictly reserved for resources missing critical metadata or those flagged as `needs_ai_refresh`.
-    - **Linear Knowledge Flow**: The workflow follows a strict sequence: 1. Health/Metadata (Cleaner) -> 2. Distributed Inventory -> 3. Fast-Track Optimization (V2).
+- **Zero-Redundancy Agentic Pipeline (Performance Standard)**: To maintain the **30-minute execution standard**, the V2 ecosystem utilizes a decoupled micro-workflow architecture:
+    - **V2 Health Monitor**: Weekly network validation of the link archive.
+    - **V2 Metadata Engine**: Bi-weekly extraction of GitHub stars and licenses.
+    - **V2 AI Curator**: On-demand deep architectural analysis and hierarchical indexing.
+    - **V2 Publisher**: Fast-track rendering of the Elite portal from pre-enriched metadata.
+    - **Linear Knowledge Flow**: The workflow follows a strict sequence: 1. Health/Metadata (Decoupled) -> 2. Distributed Inventory -> 3. Fast-Track Optimization (V2 Publisher).
     - **Manual Override Control**: All agents must respect the manual workflow flags (`FORCE_FULL_CHECK`, `FORCE_EVAL`, `ENRICH_METADATA`). When disabled (Standard Run), the system MUST strictly enforce the cache-first policy for maximum efficiency.
+
 37. **Linguistic Uniformity**: All core documentation (index, README, GEMINI.md) and V2 portal summaries MUST be written in **Professional Technical English**. V1 descriptions remain in their native language (Mandate 10).
 48. **Flash-First High-Density Curation (Scale Mandate)**: For mass processing (>1,000 resources), the system MUST prioritize **Gemini Flash/Lite** models for the Analyst phase. This ensures high RPM/TPM throughput while maintaining cost efficiency. Pro models are strictly reserved for the Auditor phase or high-value resource verification.
 49. **Robust Batch Processing & Rate-Limit Resilience**: Large-scale curation MUST use batch sizes of **50 resources** for Fast-Track processing with a mandatory **2-second safety delay** between batches. 
