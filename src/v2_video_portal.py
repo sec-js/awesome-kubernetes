@@ -67,8 +67,9 @@ def generate_v2_videos():
             content.append(f"    {v['summary']}")
             content.append("")
             # Optimized iframe with lazy loading
+            # MANDATE 19: Blank lines around center tag and NO indentation for content to avoid code blocks
             content.append('<center markdown="1">')
-            content.append(f'    <iframe width="560" height="315" src="{v["url"]}" title="{v["title"]}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>')
+            content.append(f'<iframe width="560" height="315" src="{v["url"]}" title="{v["title"]}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>')
             content.append('</center>')
             content.append("")
 
