@@ -7,7 +7,7 @@ import httpx
 from datetime import datetime
 from typing import List, Dict, Set, Any, Tuple
 from src.config import GEMINI_API_KEYS, GH_TOKEN, TARGET_REPO, MADRID_TZ, INVENTORY_PATH
-from src.gemini_utils import call_gemini_with_retry, normalize_url, clean_toc_text, get_github_activity
+from src.gemini_utils import call_gemini_with_retry, normalize_url, clean_toc_text, get_github_activity, fetch_youtube_metadata
 from src.logger import log_event
 
 def nuclear_strip(text: str) -> str:
@@ -405,6 +405,17 @@ class V2VisionEngine:
                 total_batches = (total_grounded + BATCH_SIZE_GROUNDED - 1) // BATCH_SIZE_GROUNDED
                 log_event(f"    [🌟] Grounded-Track: Processing Batch {batch_num}/{total_batches} (Grounding active)...")
 
+                # MANDATE 25: Pre-enrich YouTube links with real metadata
+                enriched_batch = []
+                for item in batch:
+                    url = item["url"]
+                    if "youtube.com" in url or "youtu.be" in url:
+                        log_event(f"      [YT] Pre-fetching metadata for: {url}")
+                        meta = await fetch_youtube_metadata(url)
+                        if meta:
+                            item["description"] = f"TITLE: {meta['raw_title']}\nDESCRIPTION: {meta['raw_description']}"
+                    enriched_batch.append(item)
+
                 prompt = (
                     f"You are the Nubenetes Technical Analyst (2026).\n"
                     f"{dynamic_mandates}\n"
@@ -412,7 +423,7 @@ class V2VisionEngine:
                     "PHASE 5: DOUBLE-EVIDENCE SYNTHESIS & RICH SUMMARY (GROUNDED)\n"
                     "- Cross-reference provided title/desc with search grounding.\n"
                     "Respond ONLY JSON: {{\"results\": [{{ \"idx\": int, \"year\": \"YYYY\", \"stars\": 0-5, \"hierarchy\": [\"Area\", \"Topic\", ...], \"tags\": [\"...\"], \"summary\": \"Synthesis...\", \"language\": \"...\", \"type\": \"...\", \"complexity\": \"...\", \"is_microservice\": bool }}, ...]}}\n\n"
-                    "LINKS:\n" + "\n".join([f"{idx}. {l['title']} ({l['url']})" for idx, l in enumerate(batch)])
+                    "LINKS:\n" + "\n".join([f"{idx}. {l['title']} ({l['url']}) | Input Context: {l.get('description', 'N/A')}" for idx, l in enumerate(enriched_batch)])
                 )
                 try:
                     data = await call_gemini_with_retry(prompt, prefer_flash=True, use_grounding=True, role="Analyst-Grounded")

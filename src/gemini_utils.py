@@ -417,3 +417,49 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
 
     log_event("  [!] QUOTA EXHAUSTED: All keys and models rate-limited. Triggering Tenacity backoff...")
     raise GeminiQuotaExhausted(f"Critical Gemini failure after adaptive tiering.\n{diagnostics.get_report()}")
+
+async def fetch_youtube_metadata(url: str) -> Optional[Dict]:
+    """
+    Fetches basic metadata (title, description) from a YouTube page.
+    Used for pre-enriching AI prompts with real content data.
+    """
+    try:
+        # Convert embed/short URLs to standard watch URLs for better meta tags
+        clean_url = url.split("?")[0].split("&")[0]
+        if "/embed/" in clean_url:
+            vid = clean_url.split("/embed/")[-1]
+            watch_url = f"https://www.youtube.com/watch?v={vid}"
+        elif "youtu.be/" in clean_url:
+            vid = clean_url.split("youtu.be/")[-1]
+            watch_url = f"https://www.youtube.com/watch?v={vid}"
+        else:
+            watch_url = clean_url
+
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Accept-Language": "en-US,en;q=0.9"
+        }
+        
+        async with httpx.AsyncClient(follow_redirects=True, timeout=10.0) as client:
+            resp = await client.get(watch_url, headers=headers)
+            if resp.status_code != 200:
+                return None
+            
+            html = resp.text
+            # Use regex to find title and description in meta tags
+            title_match = re.search(r'<title>(.*?)</title>', html)
+            desc_match = re.search(r'name="description" content="(.*?)"', html)
+            
+            title = title_match.group(1).replace(" - YouTube", "") if title_match else "YouTube Video"
+            description = desc_match.group(1) if desc_match else ""
+            
+            # Clean description from encoded characters
+            description = re.sub(r'\\u[0-9a-fA-F]{4}', '', description)
+            
+            return {
+                "raw_title": title.strip(),
+                "raw_description": description.strip()[:2000] # Limit size
+            }
+    except Exception as e:
+        log_event(f"    [!] YouTube metadata fetch failed for {url}: {e}")
+        return None

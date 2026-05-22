@@ -4,31 +4,9 @@ import re
 import asyncio
 import httpx
 from src.logger import log_event
-from src.gemini_utils import call_gemini_with_retry
+from src.gemini_utils import call_gemini_with_retry, fetch_youtube_metadata
 
 INVENTORY_PATH = "data/inventory.yaml"
-
-async def fetch_youtube_metadata(url: str):
-    """Fetches basic metadata from YouTube page without API key."""
-    try:
-        async with httpx.AsyncClient(follow_redirects=True, timeout=10.0) as client:
-            # Convert embed to watch URL if needed for better meta tags
-            watch_url = url.replace("/embed/", "/watch?v=").split("?")[0]
-            resp = await client.get(watch_url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"})
-            if resp.status_code != 200:
-                return None
-            
-            html = resp.text
-            title_match = re.search(r'<title>(.*?)</title>', html)
-            desc_match = re.search(r'name="description" content="(.*?)"', html)
-            
-            title = title_match.group(1).replace(" - YouTube", "") if title_match else "YouTube Video"
-            description = desc_match.group(1) if desc_match else ""
-            
-            return {"raw_title": title, "raw_description": description}
-    except Exception as e:
-        log_event(f"Error fetching YT metadata for {url}: {e}")
-        return None
 
 async def enrich_video_entry(url: str, entry: dict):
     log_event(f"[*] Enriching video: {url}")
