@@ -9,11 +9,11 @@
 
 #### Service Mesh
 
-  - **(2021)** [**Service meshes to the rescue: Load balancing and scaling long-lived connections in Kubernetes 🌟**](https://learnkube.com/kubernetes-long-lived-connections) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2021)** [**Service meshes to the rescue: Load balancing and scaling long-lived connections in Kubernetes 🌟**](https://learnkube.com/kubernetes-long-lived-connections) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A deep dive into the engineering challenge of load balancing long-lived connections (gRPC, HTTP/2, WebSockets) within Kubernetes. It explains how standard L4 kube-proxy load balancing fails to distribute traffic evenly and presents L7 proxies and service meshes (like Linkerd or Istio) as the definitive architectural solution.
+A deep dive into the engineering challenge of load balancing long-lived connections (gRPC, HTTP/2, WebSockets) within Kubernetes. It explains how standard L4 kube-proxy load balancing fails to distribute traffic evenly and presents L7 proxies and service meshes (like Linkerd or Istio) as the definitive architectural solution.
 
+</div></details>
 ## Cloud Native Infrastructure
 
 ### Data Plane
@@ -22,22 +22,22 @@
 
 ##### Official Docs
 
-  - **(2026)** [==Envoy==](https://www.envoyproxy.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2026)** [==Envoy==](https://www.envoyproxy.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        The home portal of Envoy, the industry-standard L7 proxy designed specifically for cloud-native services. Acts as the data plane engine for most modern service meshes (including Istio), delivering outstanding network performance, advanced routing, and rich observability.
+The home portal of Envoy, the industry-standard L7 proxy designed specifically for cloud-native services. Acts as the data plane engine for most modern service meshes (including Istio), delivering outstanding network performance, advanced routing, and rich observability.
 
+</div></details>
 ### Service Mesh (1)
 
 #### Istio
 
 ##### Operations
 
-  - **(2021)** [solo.io: Navigating __Istio Config__: a look into Istio’s toolkit](https://www.solo.io/blog) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2021)** [solo.io: Navigating __Istio Config__: a look into Istio’s toolkit](https://www.solo.io/blog) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A guide detailing useful debugging utilities and CLI tools for validating and diagnosing Istio configuration sets. Explains how to leverage 'istioctl' diagnostics, debug configuration states, and inspect direct Envoy configuration mappings to maintain healthy cluster states.
+A guide detailing useful debugging utilities and CLI tools for validating and diagnosing Istio configuration sets. Explains how to leverage 'istioctl' diagnostics, debug configuration states, and inspect direct Envoy configuration mappings to maintain healthy cluster states.
 
+</div></details>
 ## Networking
 
 ### Service Mesh (2)
@@ -46,22 +46,22 @@
 
 ##### Implementation
 
-  - **(2023)** [Implementing Istio From Start To Finish](https://www.cloudnativedeepdive.com/implementing-istio-from-start-to-finish) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2023)** [Implementing Istio From Start To Finish](https://www.cloudnativedeepdive.com/implementing-istio-from-start-to-finish) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An implementation guide mapping out the lifecycle steps required to deploy, secure, and operate an Istio service mesh in enterprise environments. It provides structured insights on handling namespace injection, ambient mesh considerations, and mutual TLS enforcement.
+An implementation guide mapping out the lifecycle steps required to deploy, secure, and operate an Istio service mesh in enterprise environments. It provides structured insights on handling namespace injection, ambient mesh considerations, and mutual TLS enforcement.
 
+</div></details>
 ## Observability
 
 ### Telemetry Standards
 
 #### OpenTelemetry vs Prometheus
 
-  - **(2022)** [Prometheus and OpenTelemetry Compatibility Issues](https://thenewstack.io/prometheus-and-opentelemetry-just-couldnt-get-along) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2022)** [Prometheus and OpenTelemetry Compatibility Issues](https://thenewstack.io/prometheus-and-opentelemetry-just-couldnt-get-along) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An informative look at the historical data model incompatibilities between Prometheus and OpenTelemetry (OTel). It details the industry efforts to reconcile standard Prometheus structures with the broader OTel landscape.
+An informative look at the historical data model incompatibilities between Prometheus and OpenTelemetry (OTel). It details the industry efforts to reconcile standard Prometheus structures with the broader OTel landscape.
 
+</div></details>
 
 ***
 💡 **Explore Related:** [Caching](./caching.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Networking](./networking.md)

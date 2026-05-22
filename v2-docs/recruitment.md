@@ -9,392 +9,392 @@
 
 #### Market Demand
 
-  - **(2023)** [lavanguardia.com: Ingeniero de ‘machine learning’ e ingeniero de datos, las profesiones emergentes más demandadas en España](https://www.lavanguardia.com/economia/20230414/8895371/ingeniero-machine-learning-e-ingeniero-datos-profesiones-emergentes-mas-demandadas-espana.html) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2023)** [lavanguardia.com: Ingeniero de ‘machine learning’ e ingeniero de datos, las profesiones emergentes más demandadas en España](https://www.lavanguardia.com/economia/20230414/8895371/ingeniero-machine-learning-e-ingeniero-datos-profesiones-emergentes-mas-demandadas-espana.html) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Market research report exploring the explosive demand for Machine Learning Engineers and Data Engineers within the Spanish technology sector. It provides insights into curriculum choices, salary benchmarks, and the integration of data engineering pipelines in enterprise architectures. [SPANISH CONTENT]
+Market research report exploring the explosive demand for Machine Learning Engineers and Data Engineers within the Spanish technology sector. It provides insights into curriculum choices, salary benchmarks, and the integration of data engineering pipelines in enterprise architectures. [SPANISH CONTENT]
 
+</div></details>
 ### Job Hunting
 
 #### Recruitment Platforms
 
-  - **(2025)** [recruit crm](https://recruitcrm.io) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2025)** [recruit crm](https://recruitcrm.io) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An Applicant Tracking System (ATS) and CRM software platform built for scaling HR workflows. It details recruitment pipeline structures and helps software engineers map out recruitment vendor pipelines.
+An Applicant Tracking System (ATS) and CRM software platform built for scaling HR workflows. It details recruitment pipeline structures and helps software engineers map out recruitment vendor pipelines.
 
+</div></details>
 #### Relocation Guides
 
-  - **(2025)** [**International Tech Job Search Handbook**](https://github.com/andrewstetsenko/tech-jobs-with-relocation) <span class='md-tag md-tag--info'>⭐ 4403</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2025)** [**International Tech Job Search Handbook**](https://github.com/andrewstetsenko/tech-jobs-with-relocation) <span class='md-tag md-tag--info'>⭐ 4403</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A highly rated, community-vetted handbook and repository containing aggregated metadata on global job searches. It details specific corporate policies regarding visa processes, relocation packages, and country-specific tax rules for tech candidates.
+A highly rated, community-vetted handbook and repository containing aggregated metadata on global job searches. It details specific corporate policies regarding visa processes, relocation packages, and country-specific tax rules for tech candidates.
 
+</div></details>
 #### Relocation Platforms
 
-  - **(2026)** [relocate.me](https://relocate.me) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2026)** [relocate.me](https://relocate.me) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A specialized global platform built for software developers seeking international career transitions. It categorizes jobs by visa sponsorship options and provides essential information on relocation assistance packages.
+A specialized global platform built for software developers seeking international career transitions. It categorizes jobs by visa sponsorship options and provides essential information on relocation assistance packages.
 
+</div></details>
 #### Resume Strategy
 
-  - **(2021)** [forbes.com: What Do Employers Want To See In Your CV?](https://www.forbes.com/sites/andrewfennell/2021/09/08/what-do-employers-want-to-see-in-your-cv) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2021)** [forbes.com: What Do Employers Want To See In Your CV?](https://www.forbes.com/sites/andrewfennell/2021/09/08/what-do-employers-want-to-see-in-your-cv) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A corporate advisory article outlining standard recruiter patterns when scanning software engineer resumes. It emphasizes readability, formatting for automated ATS systems, and the strategic presentation of technical accomplishments.
+A corporate advisory article outlining standard recruiter patterns when scanning software engineer resumes. It emphasizes readability, formatting for automated ATS systems, and the strategic presentation of technical accomplishments.
 
-  - **(2023)** [businessinsider.es: Mentí en mi currículum para conseguir un trabajo mejor pagado y creo que otros deberían hacer lo mismo](https://www.businessinsider.es/desarrollo-profesional/menti-mi-cv-conseguir-mejor-trabajo-recomiendo-otros-1226162) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2023)** [businessinsider.es: Mentí en mi currículum para conseguir un trabajo mejor pagado y creo que otros deberían hacer lo mismo](https://www.businessinsider.es/desarrollo-profesional/menti-mi-cv-conseguir-mejor-trabajo-recomiendo-otros-1226162) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An analytical look at modern career strategies, discussing the ethics and outcomes of resume inflation during high-stakes tech and corporate job hunting. It highlights structural shifts in candidate-employer dynamics and explores how candidates manage perceived mismatches. [SPANISH CONTENT]
+An analytical look at modern career strategies, discussing the ethics and outcomes of resume inflation during high-stakes tech and corporate job hunting. It highlights structural shifts in candidate-employer dynamics and explores how candidates manage perceived mismatches. [SPANISH CONTENT]
 
+</div></details>
 #### Salary Negotiation
 
-  - **(2020)** [mikzuit/fair-job-offer](https://github.com/mikzuit/fair-job-offer) <span class='md-tag md-tag--info'>⭐ 19</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2020)** [mikzuit/fair-job-offer](https://github.com/mikzuit/fair-job-offer) <span class='md-tag md-tag--info'>⭐ 19</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A simple open-source calculator designed to analyze and evaluate developer employment contracts and job offer structures. The project is currently deprioritized due to lack of commit activity over the last four years.
+A simple open-source calculator designed to analyze and evaluate developer employment contracts and job offer structures. The project is currently deprioritized due to lack of commit activity over the last four years.
 
+</div></details>
 #### Workplace Culture
 
-  - **(2023)** [businessinsider.es: El fin de la lealtad laboral](https://www.businessinsider.es/desarrollo-profesional/fin-lealtad-laboral-empleados-ya-no-son-fieles-jefes-1358974) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2023)** [businessinsider.es: El fin de la lealtad laboral](https://www.businessinsider.es/desarrollo-profesional/fin-lealtad-laboral-empleados-ya-no-son-fieles-jefes-1358974) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An investigation into modern labor economics showing a shift in corporate loyalty, where technology professionals prioritize career progression and compensation adjustment over organizational longevity. This piece unpacks how fast-track job-hopping is becoming an industry-standard mechanism for talent compensation correction. [SPANISH CONTENT]
+An investigation into modern labor economics showing a shift in corporate loyalty, where technology professionals prioritize career progression and compensation adjustment over organizational longevity. This piece unpacks how fast-track job-hopping is becoming an industry-standard mechanism for talent compensation correction. [SPANISH CONTENT]
 
+</div></details>
 ## Engineering Leadership and Career Dynamics
 
 ### Market Dynamics and Economic Shifts
 
 #### Generational Workforce Dynamics
 
-  - **(2021)** [forbes.com: ‘The Great Resignation’: Why Gen Z Is Leaving The Workforce In Droves…And What To Do About It](https://www.forbes.com/sites/jasonwingard/2021/09/02/the-great-resignation-why-gen-z-is-leaving-the-workforce-in-drovesand-what-to-do-about-it)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2021)** [forbes.com: ‘The Great Resignation’: Why Gen Z Is Leaving The Workforce In Droves…And What To Do About It](https://www.forbes.com/sites/jasonwingard/2021/09/02/the-great-resignation-why-gen-z-is-leaving-the-workforce-in-drovesand-what-to-do-about-it)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Analyzes the unique professional expectations and workplace friction points driving rapid turnover among early-career software developers and technical professionals. Emphasizes the need for modern management structures prioritizing psychological safety, rapid feedback loops, and meaningful work.
+Analyzes the unique professional expectations and workplace friction points driving rapid turnover among early-career software developers and technical professionals. Emphasizes the need for modern management structures prioritizing psychological safety, rapid feedback loops, and meaningful work.
 
+</div></details>
 #### Labor Economics in Technology
 
-  - **(2022)** [**stackoverflow.blog: The Great Resignation is here. What does that mean for developers? 🌟**](https://stackoverflow.blog/2022/12/28/the-great-resignation-is-here-what-does-that-mean-for-developers) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2022)** [**stackoverflow.blog: The Great Resignation is here. What does that mean for developers? 🌟**](https://stackoverflow.blog/2022/12/28/the-great-resignation-is-here-what-does-that-mean-for-developers) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Analyzes developer-specific survey data concerning job security, motivation, and professional expectations during market transformations. Highlights the supreme importance of tooling quality, modern tech stacks, and streamlined developer experience (DX) as core retention metrics.
+Analyzes developer-specific survey data concerning job security, motivation, and professional expectations during market transformations. Highlights the supreme importance of tooling quality, modern tech stacks, and streamlined developer experience (DX) as core retention metrics.
 
-  - **(2024)** [vice.com: Thousands of Software Engineers Say the Job Market Is Getting Much Worse](https://www.vice.com/en/article/thousands-of-software-engineers-say-the-job-market-is-getting-much-worse)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2024)** [vice.com: Thousands of Software Engineers Say the Job Market Is Getting Much Worse](https://www.vice.com/en/article/thousands-of-software-engineers-say-the-job-market-is-getting-much-worse)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Synthesizes feedback from thousands of software developers navigating the post-hype, high-rate economic landscape. Explores the impact of tech layoffs, AI automation anxieties, and the drastic contraction of fully remote engineering positions.
+Synthesizes feedback from thousands of software developers navigating the post-hype, high-rate economic landscape. Explores the impact of tech layoffs, AI automation anxieties, and the drastic contraction of fully remote engineering positions.
 
-  - **(2022)** [xataka.com: La guerra de talento en el sector tecnológico amenaza la viabilidad de muchas pymes españolas: cada vez les resulta más difícil retener a los seniors](https://www.xataka.com/empresas-y-economia/guerra-talento-sector-tecnologico-amenaza-viabilidad-muchas-pymes-espanolas-cada-vez-les-resulta-dificil-retener-a-seniors) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2022)** [xataka.com: La guerra de talento en el sector tecnológico amenaza la viabilidad de muchas pymes españolas: cada vez les resulta más difícil retener a los seniors](https://www.xataka.com/empresas-y-economia/guerra-talento-sector-tecnologico-amenaza-viabilidad-muchas-pymes-espanolas-cada-vez-les-resulta-dificil-retener-a-seniors) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Analyzes the severe threat that hyper-competitive global remote hiring poses to Spanish Small and Medium Enterprises (SMEs). Highlights the critical struggle of regional companies to retain senior engineering talent against foreign companies paying international rates. [SPANISH CONTENT]
+Analyzes the severe threat that hyper-competitive global remote hiring poses to Spanish Small and Medium Enterprises (SMEs). Highlights the critical struggle of regional companies to retain senior engineering talent against foreign companies paying international rates. [SPANISH CONTENT]
 
-  - **(2022)** [xataka.com: La Gran Renuncia está ganando terreno en España, pero hay dos barreras: salarios bajos e indemnizaciones](https://www.xataka.com/empresas-y-economia/gran-renuncia-esta-ganando-terreno-espana-hay-dos-barreras-salarios-bajos-ley-laboral) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span>
+</div></details>
+  - **(2022)** [xataka.com: La Gran Renuncia está ganando terreno en España, pero hay dos barreras: salarios bajos e indemnizaciones](https://www.xataka.com/empresas-y-economia/gran-renuncia-esta-ganando-terreno-espana-hay-dos-barreras-salarios-bajos-ley-laboral) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Explores why the Great Resignation in Spain manifested differently than in the US, highlighting two powerful structural friction points: lower baseline salaries and legacy severance pay/indemnification laws. Synthesizes how these economic architectures deter workers from proactive risk-taking. [SPANISH CONTENT]
+Explores why the Great Resignation in Spain manifested differently than in the US, highlighting two powerful structural friction points: lower baseline salaries and legacy severance pay/indemnification laws. Synthesizes how these economic architectures deter workers from proactive risk-taking. [SPANISH CONTENT]
 
-  - **(2021)** [news.slashdot.org: A Record Number of Workers Are Quitting Their Jobs, Empowered by New Leverage](https://news.slashdot.org/story/21/10/12/1818252/a-record-number-of-workers-are-quitting-their-jobs-empowered-by-new-leverage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [news.slashdot.org: A Record Number of Workers Are Quitting Their Jobs, Empowered by New Leverage](https://news.slashdot.org/story/21/10/12/1818252/a-record-number-of-workers-are-quitting-their-jobs-empowered-by-new-leverage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Examines the systemic power shifts in the tech labor market as developer demand hit unprecedented levels. Explores how increased talent leverage forced organizations to rethink rigid employment agreements, compensation strategies, and geographical constraints.
+Examines the systemic power shifts in the tech labor market as developer demand hit unprecedented levels. Explores how increased talent leverage forced organizations to rethink rigid employment agreements, compensation strategies, and geographical constraints.
 
-  - **(2021)** [blog.pragmaticengineer.com: The Most Heated Tech Job Market in History: Advice for Software Engineers](https://blog.pragmaticengineer.com/advice-for-tech-workers-to-navigate-a-heated-job-market) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [blog.pragmaticengineer.com: The Most Heated Tech Job Market in History: Advice for Software Engineers](https://blog.pragmaticengineer.com/advice-for-tech-workers-to-navigate-a-heated-job-market) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A high-density strategic guide navigating the hyper-competitive tech hiring landscape from both candidate and leadership perspectives. Outlines structural patterns of compensation, the rise of remote-first engineering hubs, and methods for identifying sustainable engineering organizations.
+A high-density strategic guide navigating the hyper-competitive tech hiring landscape from both candidate and leadership perspectives. Outlines structural patterns of compensation, the rise of remote-first engineering hubs, and methods for identifying sustainable engineering organizations.
 
-  - **(2021)** [blogs.elconfidencial.com: El talento atrofiado: por qué en España escasean los profesionales de alto nivel](https://www.elconfidencial.com/tecnologia/tribuna/2021-06-02/talento-informatica-startups-silicon-valley-google_3112087) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [blogs.elconfidencial.com: El talento atrofiado: por qué en España escasean los profesionales de alto nivel](https://www.elconfidencial.com/tecnologia/tribuna/2021-06-02/talento-informatica-startups-silicon-valley-google_3112087) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Investigates the structural challenges and brain drain patterns affecting high-level engineering talent in Spain. Outlines how systemic low compensation, cultural aversion to technical risk, and administrative overhead push top-tier Spanish architects to work remotely for international tech giants. [SPANISH CONTENT]
+Investigates the structural challenges and brain drain patterns affecting high-level engineering talent in Spain. Outlines how systemic low compensation, cultural aversion to technical risk, and administrative overhead push top-tier Spanish architects to work remotely for international tech giants. [SPANISH CONTENT]
 
-  - **(2021)** [es.euronews.com: La Gran Renuncia: ¿puede llegar la revolución laboral de EE. UU. a Europa?](https://es.euronews.com/next/2021/11/25/la-gran-renuncia-puede-llegar-la-revolucion-laboral-de-ee-uu-a-europa) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [es.euronews.com: La Gran Renuncia: ¿puede llegar la revolución laboral de EE. UU. a Europa?](https://es.euronews.com/next/2021/11/25/la-gran-renuncia-puede-llegar-la-revolucion-laboral-de-ee-uu-a-europa) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Examines the labor mobility trends and regulatory differences between the US and European job markets during the pandemic-era migration. Explores how European social safety nets, collective bargaining frameworks, and stronger labor laws modified the local expression of workplace attrition. [SPANISH CONTENT]
+Examines the labor mobility trends and regulatory differences between the US and European job markets during the pandemic-era migration. Explores how European social safety nets, collective bargaining frameworks, and stronger labor laws modified the local expression of workplace attrition. [SPANISH CONTENT]
 
-  - **(2021)** [codingpotions.com: ¿Cuánto cobra un programador en España en 2021?](https://codingpotions.com/salarios-programadores-2021) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [codingpotions.com: ¿Cuánto cobra un programador en España en 2021?](https://codingpotions.com/salarios-programadores-2021) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Provides a thorough compensation breakdown across different technical roles, experience levels (Junior, Mid, Senior), and geographical regions within the Spanish software sector in 2021. Establishes baseline metrics for salary negotiations. [SPANISH CONTENT]
+Provides a thorough compensation breakdown across different technical roles, experience levels (Junior, Mid, Senior), and geographical regions within the Spanish software sector in 2021. Establishes baseline metrics for salary negotiations. [SPANISH CONTENT]
 
-  - **(2021)** [codigonuevo.com: ¿Debería adaptarse el sueldo del teletrabajo al lugar en el que vivas?](https://www.codigonuevo.com/yo/deberia-adaptarse-sueldo-teletrabajo-lugar-vivas-AOCN305757) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [codigonuevo.com: ¿Debería adaptarse el sueldo del teletrabajo al lugar en el que vivas?](https://www.codigonuevo.com/yo/deberia-adaptarse-sueldo-teletrabajo-lugar-vivas-AOCN305757) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Investigates the highly debated ethical and operational question of whether remote engineering salaries should be localized to an employee's place of residence. Examines arguments for cost-of-living indexing versus equal-pay-for-equal-work strategies. [SPANISH CONTENT]
+Investigates the highly debated ethical and operational question of whether remote engineering salaries should be localized to an employee's place of residence. Examines arguments for cost-of-living indexing versus equal-pay-for-equal-work strategies. [SPANISH CONTENT]
 
+</div></details>
 #### The Great Resignation Paradigm
 
-  - **(2021)** [wired.co.uk: The Great Resignation is here and no one is prepared](https://www.wired.com/story/great-resignation-quit-job)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2021)** [wired.co.uk: The Great Resignation is here and no one is prepared](https://www.wired.com/story/great-resignation-quit-job)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A deep dive into the socio-economic drivers behind the pandemic-era workplace migrations. Synthesizing market-wide attrition metrics with early organizational responses, it highlights how systemic burnout and the shift to remote work fundamentally altered employee leverage.
+A deep dive into the socio-economic drivers behind the pandemic-era workplace migrations. Synthesizing market-wide attrition metrics with early organizational responses, it highlights how systemic burnout and the shift to remote work fundamentally altered employee leverage.
 
-  - **(2021)** [joshbersin.com: From The Great Resignation To The Great Migration](https://joshbersin.com/2021/12/from-the-great-resignation-to-the-great-migration) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [joshbersin.com: From The Great Resignation To The Great Migration](https://joshbersin.com/2021/12/from-the-great-resignation-to-the-great-migration) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Reframes the 'Great Resignation' as a global reallocation of talent toward high-growth, modern tech environments. Analyzes macro-level shifts in sector demand, explaining why companies with outdated engineering practices lost critical talent to digital-native architectures.
+Reframes the 'Great Resignation' as a global reallocation of talent toward high-growth, modern tech environments. Analyzes macro-level shifts in sector demand, explaining why companies with outdated engineering practices lost critical talent to digital-native architectures.
 
-  - **(2021)** [hays.es: ‘La Gran Renuncia’: ¿por qué tantos profesionales se están planteando dejar su trabajo?](https://www.hays.es/blog/insights/la-gran-renuncia) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [hays.es: ‘La Gran Renuncia’: ¿por qué tantos profesionales se están planteando dejar su trabajo?](https://www.hays.es/blog/insights/la-gran-renuncia) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Explores the psychological and economic motivators of the 'Great Resignation' from a European talent perspective. Synthesizes survey data from Spanish IT professionals to outline the shifting priorities toward flexibility, modern work-life integration, and competitive technical compensation. [SPANISH CONTENT]
+Explores the psychological and economic motivators of the 'Great Resignation' from a European talent perspective. Synthesizes survey data from Spanish IT professionals to outline the shifting priorities toward flexibility, modern work-life integration, and competitive technical compensation. [SPANISH CONTENT]
 
-  - **(2021)** [magnet.xataka.com: La "gran renuncia" americana, o cómo los trabajadores se han hartado del sistema y están dejando sus empleos](https://www.xataka.com/magnet/gran-renuncia-americana-como-trabajadores-se-han-hartado-sistema-estan-dejando-sus-empleos) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [magnet.xataka.com: La "gran renuncia" americana, o cómo los trabajadores se han hartado del sistema y están dejando sus empleos](https://www.xataka.com/magnet/gran-renuncia-americana-como-trabajadores-se-han-hartado-sistema-estan-dejando-sus-empleos) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Deconstructs the macro-level socioeconomic causes of the American workplace exodus for a European audience. Details the long-standing friction points of high-pressure work cultures, wage stagnation, and how the post-pandemic paradigm offered unprecedented leverage to workers. [SPANISH CONTENT]
+Deconstructs the macro-level socioeconomic causes of the American workplace exodus for a European audience. Details the long-standing friction points of high-pressure work cultures, wage stagnation, and how the post-pandemic paradigm offered unprecedented leverage to workers. [SPANISH CONTENT]
 
-  - **(2021)** [xataka.com: La Gran Renuncia: en EEUU los empleados están dejando en masa sus trabajos, la gran pregunta es si veremos esto (y cuándo) en España](https://www.xataka.com/pro/gran-renuncia-eeuu-empleados-estan-dejando-masa-sus-trabajos-gran-pregunta-veremos-esto-cuando-espana) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [xataka.com: La Gran Renuncia: en EEUU los empleados están dejando en masa sus trabajos, la gran pregunta es si veremos esto (y cuándo) en España](https://www.xataka.com/pro/gran-renuncia-eeuu-empleados-estan-dejando-masa-sus-trabajos-gran-pregunta-veremos-esto-cuando-espana) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Investigates the structural likelihood of the 'Great Resignation' spreading to the Spanish labor market. Contrasts US-style employment liquidity against Spanish labor regulations, high structural unemployment rates, and specific market dynamics. [SPANISH CONTENT]
+Investigates the structural likelihood of the 'Great Resignation' spreading to the Spanish labor market. Contrasts US-style employment liquidity against Spanish labor regulations, high structural unemployment rates, and specific market dynamics. [SPANISH CONTENT]
 
+</div></details>
 ### Organizational Design and Leadership Systems
 
 #### Corporate Governance
 
-  - **(2021)** [bbc.com: Is HR ever really your friend?](https://www.bbc.com/worklife/article/20211022-is-hr-ever-really-your-friend)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2021)** [bbc.com: Is HR ever really your friend?](https://www.bbc.com/worklife/article/20211022-is-hr-ever-really-your-friend)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Deconstructs the structural role of Human Resources in modern tech enterprises, highlighting the fundamental tension between protecting company interests and advocating for individual employees. Provides actionable navigation patterns for staff engineers dealing with organizational conflict.
+Deconstructs the structural role of Human Resources in modern tech enterprises, highlighting the fundamental tension between protecting company interests and advocating for individual employees. Provides actionable navigation patterns for staff engineers dealing with organizational conflict.
 
-  - **(2021)** [computing.es: Retos del outsourcing de servicios IT en España](https://www.computing.es/mundo-digital/opinion/1129764046601/retos-del-outsourcing-de-servicios-it-espana.1.html) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [computing.es: Retos del outsourcing de servicios IT en España](https://www.computing.es/mundo-digital/opinion/1129764046601/retos-del-outsourcing-de-servicios-it-espana.1.html) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Analyzes the evolving challenges and strategic patterns of IT service outsourcing in Spain. Outlines critical risk mitigation strategies, Service Level Agreement (SLA) optimizations, and how modern organizations are balancing internal engineering capabilities with vendor-delivered services. [SPANISH CONTENT]
+Analyzes the evolving challenges and strategic patterns of IT service outsourcing in Spain. Outlines critical risk mitigation strategies, Service Level Agreement (SLA) optimizations, and how modern organizations are balancing internal engineering capabilities with vendor-delivered services. [SPANISH CONTENT]
 
+</div></details>
 #### Engineering Culture
 
-  - **(2022)** [forbes.com: As Leaders: What Can We Learn From The Great Resignation?](https://www.forbes.com/sites/dedehenley/2022/01/30/as-leaders-what-can-we-learn-from-the-great-resignation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2022)** [forbes.com: As Leaders: What Can We Learn From The Great Resignation?](https://www.forbes.com/sites/dedehenley/2022/01/30/as-leaders-what-can-we-learn-from-the-great-resignation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Synthesizes major organizational failures exposed by the Great Resignation, detailing actionable leadership modifications. Focuses on moving from top-down monitoring paradigms to trust-driven, output-oriented metrics within distributed engineering units.
+Synthesizes major organizational failures exposed by the Great Resignation, detailing actionable leadership modifications. Focuses on moving from top-down monitoring paradigms to trust-driven, output-oriented metrics within distributed engineering units.
 
-  - **(2022)** [bbc.com: Is finding a 'new normal' in the workplace impossible?](https://www.bbc.com/worklife/article/20220104-future-of-work-2022)  <span class='md-tag md-tag--info'>[LEGACY]</span>
+</div></details>
+  - **(2022)** [bbc.com: Is finding a 'new normal' in the workplace impossible?](https://www.bbc.com/worklife/article/20220104-future-of-work-2022)  <span class='md-tag md-tag--info'>[LEGACY]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Explores the fundamental tensions and organizational challenges of establishing permanent hybrid and remote work architectures. Examines how shifting employee expectations collided with legacy corporate management mechanisms throughout 2022.
+Explores the fundamental tensions and organizational challenges of establishing permanent hybrid and remote work architectures. Examines how shifting employee expectations collided with legacy corporate management mechanisms throughout 2022.
 
-  - **(2022)** [meet-in.es: «Para liderar a largo plazo hay que ser buena persona»](https://www.meet-in.es/para-liderar-a-largo-plazo-hay-que-ser-buena-persona) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2022)** [meet-in.es: «Para liderar a largo plazo hay que ser buena persona»](https://www.meet-in.es/para-liderar-a-largo-plazo-hay-que-ser-buena-persona) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Advocates for high-integrity, empathetic leadership frameworks as the ultimate driver of long-term organizational health and retention. Challenges mercenary management styles, arguing that psychological safety and genuine human respect are essential for building resilient engineering pipelines. [SPANISH CONTENT]
+Advocates for high-integrity, empathetic leadership frameworks as the ultimate driver of long-term organizational health and retention. Challenges mercenary management styles, arguing that psychological safety and genuine human respect are essential for building resilient engineering pipelines. [SPANISH CONTENT]
 
-  - **(2022)** [genbeta.com: Ciberseguridad en llamas: la presión actual es tan grande que la mitad de los expertos sufren ansiedad y quieren dimitir](https://www.genbeta.com/desarrollo/ciberseguridad-llamas-presion-actual-grande-que-mitad-expertos-sufren-ansiedad-quieren-renunciar) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2022)** [genbeta.com: Ciberseguridad en llamas: la presión actual es tan grande que la mitad de los expertos sufren ansiedad y quieren dimitir](https://www.genbeta.com/desarrollo/ciberseguridad-llamas-presion-actual-grande-que-mitad-expertos-sufren-ansiedad-quieren-renunciar) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Details the critical mental health and burnout crisis unfolding in cybersecurity operations. Analyzes how continuous threat landscapes, understaffing, and relentless pressure drive over 50% of security practitioners to experience severe anxiety and consider resigning. [SPANISH CONTENT]
+Details the critical mental health and burnout crisis unfolding in cybersecurity operations. Analyzes how continuous threat landscapes, understaffing, and relentless pressure drive over 50% of security practitioners to experience severe anxiety and consider resigning. [SPANISH CONTENT]
 
-  - **(2022)** [businessinsider.es: Los 9 factores que más repercuten en la felicidad en el trabajo, según los trabajadores](https://www.businessinsider.es/desarrollo-profesional/9-factores-repercuten-felicidad-trabajador-352445) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2022)** [businessinsider.es: Los 9 factores que más repercuten en la felicidad en el trabajo, según los trabajadores](https://www.businessinsider.es/desarrollo-profesional/9-factores-repercuten-felicidad-trabajador-352445) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Presents a ranked taxonomy of the nine key workplace elements that dictate developer and professional happiness. Details how factors like flexibility, trust, work-life balance, and constructive recognition far outweigh basic financial remuneration over time. [SPANISH CONTENT]
+Presents a ranked taxonomy of the nine key workplace elements that dictate developer and professional happiness. Details how factors like flexibility, trust, work-life balance, and constructive recognition far outweigh basic financial remuneration over time. [SPANISH CONTENT]
 
-  - **(2021)** [hbr.org: Forget Flexibility. Your Employees Want Autonomy](https://hbr.org/2021/10/forget-flexibility-your-employees-want-autonomy) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [hbr.org: Forget Flexibility. Your Employees Want Autonomy](https://hbr.org/2021/10/forget-flexibility-your-employees-want-autonomy) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Argues that workplace flexibility is ineffective without operational autonomy over tasks, schedules, and team collaboration frameworks. Outlines design principles for engineering organizations looking to scale remote-first operations without compromising deployment velocity or developer experience.
+Argues that workplace flexibility is ineffective without operational autonomy over tasks, schedules, and team collaboration frameworks. Outlines design principles for engineering organizations looking to scale remote-first operations without compromising deployment velocity or developer experience.
 
-  - **(2021)** [about.gitlab.com: How to navigate The Great Resignation](https://about.gitlab.com/blog/2021/12/16/how-to-navigate-the-great-resignation) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [about.gitlab.com: How to navigate The Great Resignation](https://about.gitlab.com/blog/2021/12/16/how-to-navigate-the-great-resignation) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Provides an enterprise-level blueprint for engineering organizations to mitigate talent drain during market disruptions. Leveraging GitLab's open-source, handbook-first operational model, it illustrates how asynchronous communication systems reduce cognitive load and scale operational continuity.
+Provides an enterprise-level blueprint for engineering organizations to mitigate talent drain during market disruptions. Leveraging GitLab's open-source, handbook-first operational model, it illustrates how asynchronous communication systems reduce cognitive load and scale operational continuity.
 
-  - **(2021)** [sloanreview.mit.edu: Creating Good Jobs](https://sloanreview.mit.edu/article/creating-good-jobs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [sloanreview.mit.edu: Creating Good Jobs](https://sloanreview.mit.edu/article/creating-good-jobs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Presents a rigorous organizational design framework detailing the components of high-quality, sustainable employment. Demonstrates how structuring roles with clear career progression, high autonomy, and psychological safety yields superior operational resilience.
+Presents a rigorous organizational design framework detailing the components of high-quality, sustainable employment. Demonstrates how structuring roles with clear career progression, high autonomy, and psychological safety yields superior operational resilience.
 
+</div></details>
 #### Management Anti-Patterns
 
-  - **(2022)** [blogs.elconfidencial.com: Luca de Meo y Lawrence Stroll: por qué el ego es el peor enemigo del gestor en la Fórmula 1](https://www.elconfidencial.com/deportes/tribuna/2022-08-03/alpine-aston-martin-lawrence-stroll-luca-de-meo_3470693) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2022)** [blogs.elconfidencial.com: Luca de Meo y Lawrence Stroll: por qué el ego es el peor enemigo del gestor en la Fórmula 1](https://www.elconfidencial.com/deportes/tribuna/2022-08-03/alpine-aston-martin-lawrence-stroll-luca-de-meo_3470693) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An architectural post-mortem of how leadership ego and poor communications within highly technical, fast-paced environments (Formula 1 teams Alpine and Aston Martin) lead to catastrophic talent drain. Analyzes the failure modes of top-down command and control structures. [SPANISH CONTENT]
+An architectural post-mortem of how leadership ego and poor communications within highly technical, fast-paced environments (Formula 1 teams Alpine and Aston Martin) lead to catastrophic talent drain. Analyzes the failure modes of top-down command and control structures. [SPANISH CONTENT]
 
-  - **(2022)** [expansion.com: El 'amiguismo' en las relaciones de trabajo](https://www.expansion.com/expansion-empleo/desarrollo-de-carrera/2022/01/28/61f40e29e5fdea61738b45aa.html) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2022)** [expansion.com: El 'amiguismo' en las relaciones de trabajo](https://www.expansion.com/expansion-empleo/desarrollo-de-carrera/2022/01/28/61f40e29e5fdea61738b45aa.html) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Examines the negative organizational impacts of cronyism ('amiguismo') and subjective evaluations within professional environments. Explores how nepotism undermines meritocratic evaluation frameworks and degrades team trust, triggering high-performer attrition. [SPANISH CONTENT]
+Examines the negative organizational impacts of cronyism ('amiguismo') and subjective evaluations within professional environments. Explores how nepotism undermines meritocratic evaluation frameworks and degrades team trust, triggering high-performer attrition. [SPANISH CONTENT]
 
-  - **(2022)** [lavanguardia.com: Cómo saber si tu jefe es un "ahuyenta talentos" que puede frustrar tu carrera](https://www.lavanguardia.com/vivo/psicologia/20220225/8079133/trabajo-laboral-jefe-talento-trabajadores-nbs.html) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2022)** [lavanguardia.com: Cómo saber si tu jefe es un "ahuyenta talentos" que puede frustrar tu carrera](https://www.lavanguardia.com/vivo/psicologia/20220225/8079133/trabajo-laboral-jefe-talento-trabajadores-nbs.html) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Delineates behavioral markers of toxic managers who systematically drive away high-performing software engineering and product talent. Focuses on the psychology of micro-management, lack of emotional intelligence, and refusal to grant structural autonomy. [SPANISH CONTENT]
+Delineates behavioral markers of toxic managers who systematically drive away high-performing software engineering and product talent. Focuses on the psychology of micro-management, lack of emotional intelligence, and refusal to grant structural autonomy. [SPANISH CONTENT]
 
-  - **(2021)** [elespanol.com: Qué tipos de jefes hay y cómo trabajar con ellos sin desfallecer: los consejos de Maribel Garben](https://www.elespanol.com/reportajes/20211211/tipos-trabajar-sin-desfallecer-consejos-maribel-garben/633687616_0.html) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [elespanol.com: Qué tipos de jefes hay y cómo trabajar con ellos sin desfallecer: los consejos de Maribel Garben](https://www.elespanol.com/reportajes/20211211/tipos-trabajar-sin-desfallecer-consejos-maribel-garben/633687616_0.html) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Catalogues standard toxic and unproductive management archetypes and provides actionable coping strategies for technical professionals. Highlights communication protocols and self-protection mechanisms necessary to maintain career momentum under challenging leadership. [SPANISH CONTENT]
+Catalogues standard toxic and unproductive management archetypes and provides actionable coping strategies for technical professionals. Highlights communication protocols and self-protection mechanisms necessary to maintain career momentum under challenging leadership. [SPANISH CONTENT]
 
+</div></details>
 ### Professional Growth and Career Strategy
 
 #### Career Transition Decisioning
 
-  - **(2022)** [**thewokesalaryman.com: Why people leave even the most high paying jobs 🌟**](https://thewokesalaryman.com/2022/02/11/why-people-leave-even-the-most-high-paying-jobs) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2022)** [**thewokesalaryman.com: Why people leave even the most high paying jobs 🌟**](https://thewokesalaryman.com/2022/02/11/why-people-leave-even-the-most-high-paying-jobs) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A visually and textually rich breakdown of the multi-dimensional nature of compensation, demonstrating how mental health, culture, and lack of growth eventually outweigh monetary yield. Essential reading for leaders designing compensation models.
+A visually and textually rich breakdown of the multi-dimensional nature of compensation, demonstrating how mental health, culture, and lack of growth eventually outweigh monetary yield. Essential reading for leaders designing compensation models.
 
-  - **(2022)** [ideas.ted.com: How to find your sense of purpose at work](https://ideas.ted.com/want-to-discover-or-re-discover-your-sense-of-purpose-at-work-heres-how)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2022)** [ideas.ted.com: How to find your sense of purpose at work](https://ideas.ted.com/want-to-discover-or-re-discover-your-sense-of-purpose-at-work-heres-how)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Explores the psychological and systemic mechanics of finding and cultivating alignment between individual values and corporate objectives. Offers actionable cognitive frameworks to help engineering professionals recalibrate their professional focus and drive.
+Explores the psychological and systemic mechanics of finding and cultivating alignment between individual values and corporate objectives. Offers actionable cognitive frameworks to help engineering professionals recalibrate their professional focus and drive.
 
-  - **(2022)** [xataka.com: Me hice funcionario siendo ingeniero: qué me da la administración pública que no consigue la empresa privada](https://www.xataka.com/especiales/me-hice-funcionario-siendo-ingeniero-que-me-da-administracion-publica-que-no-consigue-empresa-privada-1) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2022)** [xataka.com: Me hice funcionario siendo ingeniero: qué me da la administración pública que no consigue la empresa privada](https://www.xataka.com/especiales/me-hice-funcionario-siendo-ingeniero-que-me-da-administracion-publica-que-no-consigue-empresa-privada-1) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A first-person architectural comparison of engineering life in the private tech sector versus public administration in Spain. Contrasts high-pressure, high-volatility private enterprises with the stability, defined schedules, and structural predictability of public sector engineering roles. [SPANISH CONTENT]
+A first-person architectural comparison of engineering life in the private tech sector versus public administration in Spain. Contrasts high-pressure, high-volatility private enterprises with the stability, defined schedules, and structural predictability of public sector engineering roles. [SPANISH CONTENT]
 
-  - **(2022)** [xataka.com: Si no asciendo ni aprendo, me largo de la empresa: el crecimiento profesional como estrategia para retener talento](https://www.xataka.com/empresas-y-economia/no-asciendo-aprendo-me-largo-empresa-crecimiento-profesional-como-estrategia-para-retener-talento) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2022)** [xataka.com: Si no asciendo ni aprendo, me largo de la empresa: el crecimiento profesional como estrategia para retener talento](https://www.xataka.com/empresas-y-economia/no-asciendo-aprendo-me-largo-empresa-crecimiento-profesional-como-estrategia-para-retener-talento) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Analyzes the shift in modern engineering culture where the absence of clear promotion tracks and technical skill development acts as a primary trigger for developer resignation. Argues that continuous learning opportunities are the ultimate talent retention vector. [SPANISH CONTENT]
+Analyzes the shift in modern engineering culture where the absence of clear promotion tracks and technical skill development acts as a primary trigger for developer resignation. Argues that continuous learning opportunities are the ultimate talent retention vector. [SPANISH CONTENT]
 
-  - **(2021)** [linkedin.com: Look Before You Leap!](https://www.linkedin.com/pulse/look-before-you-leap-sarah-robb-o-hagan)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [linkedin.com: Look Before You Leap!](https://www.linkedin.com/pulse/look-before-you-leap-sarah-robb-o-hagan)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Provides a structured framework for evaluating critical career moves during high-volatility job market cycles. Explores risk assessment methodologies for professionals navigating career shifts, contrasting immediate compensation increases against long-term strategic alignment and organizational stability.
+Provides a structured framework for evaluating critical career moves during high-volatility job market cycles. Explores risk assessment methodologies for professionals navigating career shifts, contrasting immediate compensation increases against long-term strategic alignment and organizational stability.
 
-  - **(2021)** [blog.trello.com: Experiencing Job Dissatisfaction: How To Decide If It's Time To Quit](https://blog.trello.com/is-it-time-to-leave)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [blog.trello.com: Experiencing Job Dissatisfaction: How To Decide If It's Time To Quit](https://blog.trello.com/is-it-time-to-leave)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Provides a cognitive framework for parsing temporary career burnout from systemic, unfixable job dissatisfaction. Outlines systematic diagnostic steps to evaluate whether organizational deficits can be resolved internally or require a clean structural break.
+Provides a cognitive framework for parsing temporary career burnout from systemic, unfixable job dissatisfaction. Outlines systematic diagnostic steps to evaluate whether organizational deficits can be resolved internally or require a clean structural break.
 
-  - **(2016)** [hbr.org: Change Your Career Without Having to Start All Over Again](https://hbr.org/2016/05/change-your-career-without-having-to-start-all-over-again)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2016)** [hbr.org: Change Your Career Without Having to Start All Over Again](https://hbr.org/2016/05/change-your-career-without-having-to-start-all-over-again)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Presents a pragmatic methodology for technical professionals executing horizontal or vertical career changes. Focuses on mapping existing architectural, operational, and project management competencies to new domain frameworks to minimize transition friction.
+Presents a pragmatic methodology for technical professionals executing horizontal or vertical career changes. Focuses on mapping existing architectural, operational, and project management competencies to new domain frameworks to minimize transition friction.
 
+</div></details>
 #### Domain Specialization
 
-  - **(2022)** [computerworld.com: How to get a job in healthcare IT](https://www.computerworld.com/article/1627067/how-to-get-a-job-in-healthcare-it-2.html)  <span class='md-tag md-tag--info'>[LEGACY]</span>
+  - **(2022)** [computerworld.com: How to get a job in healthcare IT](https://www.computerworld.com/article/1627067/how-to-get-a-job-in-healthcare-it-2.html)  <span class='md-tag md-tag--info'>[LEGACY]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Analyzes the requirements, pathways, and challenges of transitioning into the highly regulated healthcare IT sector. Focuses on balancing software engineering competencies with domain-specific regulatory compliance, privacy protocols (HIPAA), and legacy data architectures.
+Analyzes the requirements, pathways, and challenges of transitioning into the highly regulated healthcare IT sector. Focuses on balancing software engineering competencies with domain-specific regulatory compliance, privacy protocols (HIPAA), and legacy data architectures.
 
+</div></details>
 #### Professional Skill Acquisition
 
-  - **(2022)** [devops.com: Great Resignation Spurs Interest in Tech Certifications](https://devops.com/great-resignation-spurs-interest-in-tech-certifications)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2022)** [devops.com: Great Resignation Spurs Interest in Tech Certifications](https://devops.com/great-resignation-spurs-interest-in-tech-certifications)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Examines the acceleration of DevOps and cloud certification pursuit during career transitions. Synthesizes market demand for structured, validated competencies (AWS, Kubernetes, Terraform) with organizational priorities for standardizing cloud-native operations.
+Examines the acceleration of DevOps and cloud certification pursuit during career transitions. Synthesizes market demand for structured, validated competencies (AWS, Kubernetes, Terraform) with organizational priorities for standardizing cloud-native operations.
 
-  - **(2022)** [freecodecamp.org: How to Get Ready for a Job in Tech – Tips for Beginners](https://www.freecodecamp.org/news/how-to-get-ready-for-a-job-in-tech) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2022)** [freecodecamp.org: How to Get Ready for a Job in Tech – Tips for Beginners](https://www.freecodecamp.org/news/how-to-get-ready-for-a-job-in-tech) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A pragmatic guide outlining key skill acquisition vectors, portfolio development principles, and networking strategies for aspiring technical practitioners entering the job market. Emphasizes structured, self-directed learning paths.
+A pragmatic guide outlining key skill acquisition vectors, portfolio development principles, and networking strategies for aspiring technical practitioners entering the job market. Emphasizes structured, self-directed learning paths.
 
-  - **(2022)** [genbeta.com: Menos de la mitad de los programadores tienen títulos universitarios. Cada vez más desarrolladores aprenden por su cuenta](https://www.genbeta.com/desarrollo/mitad-programadores-tienen-titulos-universitarios-cada-vez-desarrolladores-aprenden-su-cuenta) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2022)** [genbeta.com: Menos de la mitad de los programadores tienen títulos universitarios. Cada vez más desarrolladores aprenden por su cuenta](https://www.genbeta.com/desarrollo/mitad-programadores-tienen-titulos-universitarios-cada-vez-desarrolladores-aprenden-su-cuenta) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Synthesizes industry survey data indicating that less than half of professional software developers hold traditional university degrees in computer science. Highlights the rise and validation of self-directed learning paths, bootcamps, and real-world execution. [SPANISH CONTENT]
+Synthesizes industry survey data indicating that less than half of professional software developers hold traditional university degrees in computer science. Highlights the rise and validation of self-directed learning paths, bootcamps, and real-world execution. [SPANISH CONTENT]
 
-  - **(2022)** [bbc.com: Qué son las "habilidades blandas" y por qué cada vez más compañías se fijan en ellas al contratar](https://www.bbc.com/mundo/vert-cap-62340757) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2022)** [bbc.com: Qué son las "habilidades blandas" y por qué cada vez más compañías se fijan en ellas al contratar](https://www.bbc.com/mundo/vert-cap-62340757) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Explores why modern technical organizations are heavily prioritizing 'soft skills' (communication, empathy, negotiation, conflict resolution) in engineering candidates. Explains how architectural success in complex systems depends as much on team communication as on clean code. [SPANISH CONTENT]
+Explores why modern technical organizations are heavily prioritizing 'soft skills' (communication, empathy, negotiation, conflict resolution) in engineering candidates. Explains how architectural success in complex systems depends as much on team communication as on clean code. [SPANISH CONTENT]
 
+</div></details>
 ### Talent Acquisition and Interview Engineering
 
 #### Assessment Anti-Patterns
 
-  - **(2023)** [forbes.com: Hiring Managers Often Lie To Candidates, Here’s How To Spot When They Do](https://www.forbes.com/sites/markmurphy/2023/08/24/hiring-managers-often-lie-to-candidates-heres-how-to-spot-when-they-do)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2023)** [forbes.com: Hiring Managers Often Lie To Candidates, Here’s How To Spot When They Do](https://www.forbes.com/sites/markmurphy/2023/08/24/hiring-managers-often-lie-to-candidates-heres-how-to-spot-when-they-do)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Deconstructs common misrepresentations and non-disclosures used by hiring managers during talent acquisition. Equips engineering candidates with investigative techniques and targeted questions to verify actual codebase quality, operational on-call expectations, and real financial health.
+Deconstructs common misrepresentations and non-disclosures used by hiring managers during talent acquisition. Equips engineering candidates with investigative techniques and targeted questions to verify actual codebase quality, operational on-call expectations, and real financial health.
 
-  - **(2022)** [askamanager.org: the new hire who showed up is not the same person we interviewed](https://www.askamanager.org/2022/01/the-new-hire-who-showed-up-is-not-the-same-person-we-interviewed.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2022)** [askamanager.org: the new hire who showed up is not the same person we interviewed](https://www.askamanager.org/2022/01/the-new-hire-who-showed-up-is-not-the-same-person-we-interviewed.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An infamous case study analyzing extreme breakdown patterns in modern remote interviewing and vetting systems. Outlines structural vulnerabilities in fully virtual validation funnels and provides guidelines for verifying engineering identity and competence.
+An infamous case study analyzing extreme breakdown patterns in modern remote interviewing and vetting systems. Outlines structural vulnerabilities in fully virtual validation funnels and provides guidelines for verifying engineering identity and competence.
 
-  - **(2020)** [news.ncsu.edu: Tech Sector Job Interviews Assess Anxiety, Not Software Skills](https://news.ncsu.edu/2020/07/tech-job-interviews-anxiety) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2020)** [news.ncsu.edu: Tech Sector Job Interviews Assess Anxiety, Not Software Skills](https://news.ncsu.edu/2020/07/tech-job-interviews-anxiety) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A foundational academic study proving that traditional whiteboard interviews assess candidates' performance under anxiety rather than practical software engineering capabilities. Critiques industry-standard hiring funnels and advocates for asynchronous, real-world task evaluations.
+A foundational academic study proving that traditional whiteboard interviews assess candidates' performance under anxiety rather than practical software engineering capabilities. Critiques industry-standard hiring funnels and advocates for asynchronous, real-world task evaluations.
 
+</div></details>
 #### Talent Evaluation
 
-  - **(2022)** [**findmyprofession.com: 100+ Questions to Ask in an Interview 🌟**](https://www.findmyprofession.com/career-advice/questions-to-ask) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2022)** [**findmyprofession.com: 100+ Questions to Ask in an Interview 🌟**](https://www.findmyprofession.com/career-advice/questions-to-ask) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A highly comprehensive compendium of evaluation and discovery questions designed for candidate-side interview execution. Empowers candidates to systematically probe an organization's architectural maturity, deployment processes, operational expectations, and cultural realities.
+A highly comprehensive compendium of evaluation and discovery questions designed for candidate-side interview execution. Empowers candidates to systematically probe an organization's architectural maturity, deployment processes, operational expectations, and cultural realities.
 
-  - **(2022)** [forbes.com: To Avoid Regretting A New Job, Ask These Two Questions During The Interview](https://www.forbes.com/sites/markmurphy/2022/03/18/to-avoid-regretting-a-new-job-ask-these-two-questions-during-the-interview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2022)** [forbes.com: To Avoid Regretting A New Job, Ask These Two Questions During The Interview](https://www.forbes.com/sites/markmurphy/2022/03/18/to-avoid-regretting-a-new-job-ask-these-two-questions-during-the-interview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Details two high-impact behavioral discovery questions designed to expose organizational misalignments during technical interviews. Helps technical candidates probe realistic day-to-day operations and authentic team health prior to accepting offers.
+Details two high-impact behavioral discovery questions designed to expose organizational misalignments during technical interviews. Helps technical candidates probe realistic day-to-day operations and authentic team health prior to accepting offers.
 
-  - **(2022)** [genbeta.com: Twitter quiere contratar a ingenieros de Microsoft: así es la prueba que les hacen pasar antes de nada, incluso a los senior](https://www.genbeta.com/actualidad/twitter-quiere-contratar-a-ingenieros-microsoft-asi-prueba-que-les-hacen-pasar-antes-nada-incluso-a-senior) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2022)** [genbeta.com: Twitter quiere contratar a ingenieros de Microsoft: así es la prueba que les hacen pasar antes de nada, incluso a los senior](https://www.genbeta.com/actualidad/twitter-quiere-contratar-a-ingenieros-microsoft-asi-prueba-que-les-hacen-pasar-antes-nada-incluso-a-senior) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Analyzes the high-intensity recruitment and vetting pipelines utilized during hyper-growth phases in massive tech platforms. Evaluates the practical limits of standardized screening tests versus comprehensive, multi-layered architectural interviews for senior talent. [SPANISH CONTENT]
+Analyzes the high-intensity recruitment and vetting pipelines utilized during hyper-growth phases in massive tech platforms. Evaluates the practical limits of standardized screening tests versus comprehensive, multi-layered architectural interviews for senior talent. [SPANISH CONTENT]
 
-  - **(2018)** [hbr.org: Stop Hiring for Culture Fit](https://hbr.org/2018/01/how-to-hire)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2018)** [hbr.org: Stop Hiring for Culture Fit](https://hbr.org/2018/01/how-to-hire)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An architectural critique of the 'culture fit' hiring metric, showing how it institutionalizes affinity bias and stifles diversity. Recommends shifting to 'culture add' evaluation criteria to foster cognitive diversity and improve multi-disciplinary problem-solving capabilities.
+An architectural critique of the 'culture fit' hiring metric, showing how it institutionalizes affinity bias and stifles diversity. Recommends shifting to 'culture add' evaluation criteria to foster cognitive diversity and improve multi-disciplinary problem-solving capabilities.
 
+</div></details>
 ## Professional Development
 
 ### Cloud Culture
 
 #### Career Strategy
 
-  - **(2021)** [thenewstack.io: Challenging the Myth That Programming Careers End at 40](https://thenewstack.io/challenging-the-myth-that-programming-careers-end-at-40) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2021)** [thenewstack.io: Challenging the Myth That Programming Careers End at 40](https://thenewstack.io/challenging-the-myth-that-programming-careers-end-at-40) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An insightful editorial examining age biases within software engineering. It provides engineers with guidance on professional growth, architectural paths, and modern skill building.
+An insightful editorial examining age biases within software engineering. It provides engineers with guidance on professional growth, architectural paths, and modern skill building.
 
+</div></details>
 #### Industry History
 
-  - **(2021)** [liquidat.wordpress.com: Good bye Red Hat](https://liquidat.wordpress.com/2021/08/15/good-bye-red-hat) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2021)** [liquidat.wordpress.com: Good bye Red Hat](https://liquidat.wordpress.com/2021/08/15/good-bye-red-hat) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An open-source engineer's personal retrospective on departing Red Hat. Explores the cultural, technical, and structural evolutions of enterprise Linux and open-source infrastructure.
+An open-source engineer's personal retrospective on departing Red Hat. Explores the cultural, technical, and structural evolutions of enterprise Linux and open-source infrastructure.
 
-  - **(2021)** [devopsonline.co.uk: Robotics and automation to cause anxiety for workers](https://www.devopsonline.co.uk/robotics-and-automation-to-cause-anxiety-for-workers) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [devopsonline.co.uk: Robotics and automation to cause anxiety for workers](https://www.devopsonline.co.uk/robotics-and-automation-to-cause-anxiety-for-workers) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An industry report investigating the operational and psychological friction associated with automated platforms. Suggests organizational frameworks for leaders scaling modern GitOps pipelines.
+An industry report investigating the operational and psychological friction associated with automated platforms. Suggests organizational frameworks for leaders scaling modern GitOps pipelines.
 
+</div></details>
 #### Mental Health
 
-  - **(2021)** [thenewstack.io: This Week in Programming: Can You Feel the Burn?](https://thenewstack.io/this-week-in-programming-can-you-feel-the-burn) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2021)** [thenewstack.io: This Week in Programming: Can You Feel the Burn?](https://thenewstack.io/this-week-in-programming-can-you-feel-the-burn) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An industry column exploring software engineering burnout and stress. It offers actionable strategies for team leaders to cultivate healthier environments and manage delivery demands.
+An industry column exploring software engineering burnout and stress. It offers actionable strategies for team leaders to cultivate healthier environments and manage delivery demands.
 
+</div></details>
 #### Psychology
 
-  - **(2016)** [hbr.org: Optimists Are Better at Finding New Jobs](https://hbr.org/2016/04/optimists-are-better-at-finding-new-jobs) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2016)** [hbr.org: Optimists Are Better at Finding New Jobs](https://hbr.org/2016/04/optimists-are-better-at-finding-new-jobs) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A behavioral study examining how personal outlook affects job hunting and transitions. Helpful for platform engineers navigating corporate restructures and technical shifts.
+A behavioral study examining how personal outlook affects job hunting and transitions. Helpful for platform engineers navigating corporate restructures and technical shifts.
 
+</div></details>
 #### Remote Operations
 
-  - **(2021)** [about.gitlab.com: The Remote Work Report 2021](https://handbook.gitlab.com/handbook/company/culture/all-remote/remote-work-report) 🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2021)** [about.gitlab.com: The Remote Work Report 2021](https://handbook.gitlab.com/handbook/company/culture/all-remote/remote-work-report) 🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An authoritative, data-driven whitepaper by GitLab on global remote work methodologies. Discusses practical insights regarding asynchronous operations, developer productivity, and remote-first scaling strategies.
+An authoritative, data-driven whitepaper by GitLab on global remote work methodologies. Discusses practical insights regarding asynchronous operations, developer productivity, and remote-first scaling strategies.
 
+</div></details>
 ## Software Engineering
 
 ### Developer Productivity
 
 #### Shell Tools
 
-  - **(2017)** [github.com/rakyll/fake-it-til-you-make-it](https://github.com/rakyll/fake-it-til-you-make-it) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span>
+  - **(2017)** [github.com/rakyll/fake-it-til-you-make-it](https://github.com/rakyll/fake-it-til-you-make-it) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A shell-based script interface to generate programmatic git commits and simulate active GitHub profile contributions. Flagged as legacy under Minimum Viable Quality (MVQ) rules due to long-term inactivity.
+A shell-based script interface to generate programmatic git commits and simulate active GitHub profile contributions. Flagged as legacy under Minimum Viable Quality (MVQ) rules due to long-term inactivity.
 
+</div></details>
 
 ***
 💡 **Explore Related:** [Elearning](./elearning.md) | [Freelancing](./freelancing.md) | [Finops](./finops.md)

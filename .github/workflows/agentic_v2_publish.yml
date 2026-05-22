@@ -1,36 +1,28 @@
-name: Nubenetes V2 Agentic Builder
+name: Nubenetes V2 Publisher
 
 on:
+  push:
+    branches:
+      - develop
+    paths:
+      - 'data/inventory.yaml'
+      - 'docs/**'
   workflow_dispatch:
-    inputs:
-      force_full_check:
-        description: 'Force full re-validation (bypasses cache)'
-        type: boolean
-        default: false
-      force_reevaluate:
-        description: 'Force AI re-evaluation (ignores cache for tags/years)'
-        type: boolean
-        default: false
-      enrich_metadata:
-        description: 'Enrich GitHub Metadata (fetch stars/license for V2 logic)'
-        type: boolean
-        default: false
 
 permissions:
   contents: write
   pull-requests: write
 
 concurrency:
-  group: v2-builder-${{ github.ref }}
+  group: v2-publisher-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
-  build-and-pr:
+  publish-v2:
     runs-on: ubuntu-latest
     if: |
       github.event_name == 'workflow_dispatch' || 
       (github.event_name == 'push' && 
-       github.ref == 'refs/heads/develop' && 
        !contains(github.event.head_commit.message, '[skip ci]') &&
        !contains(github.event.head_commit.message, 'bot/v2-elite-sync'))
     steps:
@@ -38,7 +30,6 @@ jobs:
         uses: actions/checkout@v6
         with:
           ref: develop
-          fetch-depth: 0
 
       - name: Python 3.11 Environment Provisioning
         uses: actions/setup-python@v6
@@ -46,9 +37,8 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
 
-      - name: Restore Incremental Inventory Cache (Mandate 22)
+      - name: Restore Incremental Inventory Cache
         uses: actions/cache/restore@v4
-        id: inventory-cache-restore
         with:
           path: data/inventory.yaml
           key: inventory-v2-${{ github.run_id }}-${{ github.run_attempt }}
@@ -57,37 +47,26 @@ jobs:
 
       - name: Installation of Dependencies
         run: |
-          python -m pip install --upgrade pip
           pip install --no-cache-dir pydantic PyGithub httpx fake-useragent pytz python-dotenv pyyaml tenacity
           
-      - name: Run V2 Agentic Optimizer (Sequential Fast-Track)
+      - name: Run V2 Publisher (Render-Only)
         env:
-          GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          FORCE_FULL_CHECK: ${{ github.event.inputs.force_full_check || 'false' }}
-          FORCE_EVAL: ${{ github.event.inputs.force_reevaluate || 'false' }}
-          ENRICH_METADATA: ${{ github.event.inputs.enrich_metadata || 'false' }}
-          PYTHONPATH: .
+          PYTHONPATH: ${{ github.workspace }}
           PYTHONUNBUFFERED: "1"
         run: |
-          python -u src/v2_optimizer.py
+          python -u -m src.v2_optimizer --render-only
           if [ -f v2_safety_report.md ]; then
             cat v2_safety_report.md >> pr_description.md
           else
             echo "No safety report generated." > pr_description.md
           fi
 
-      - name: Consolidate README Metrics (Integrated)
+      - name: Consolidate README Metrics
         env:
-          PYTHONPATH: .
+          PYTHONPATH: ${{ github.workspace }}
         run: |
-          python src/readme_updater.py
-          python src/safety_readme.py
-
-      - name: Safety Reset for Workflow Files (Security)
-        run: |
-          # Prevent security rejection by ensuring no workflow YAMLs are part of the PR
-          git checkout HEAD -- .github/workflows/
+          python -m src.readme_updater
+          python -m src.safety_readme
 
       - name: Create Pull Request for V2 Elite Update
         id: cpr
@@ -117,14 +96,13 @@ jobs:
           PR_NUMBER: ${{ steps.cpr.outputs.pull-request-number }}
         run: |
           if [ -f v2_decision_matrix.md ]; then
-            # Split decision matrix if too large for a single comment (approx 60k chars)
             split -b 60000 v2_decision_matrix.md matrix_part_
             for part in matrix_part_*; do
               gh pr comment $PR_NUMBER --body-file $part
             done
           fi
 
-      - name: Persist Incremental Inventory to Cache (Always)
+      - name: Persist Incremental Inventory to Cache
         if: always()
         uses: actions/cache/save@v4
         with:

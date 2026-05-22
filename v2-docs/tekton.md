@@ -9,12 +9,12 @@
 
 #### Pipelines and CI CD
 
-  - **(2020)** [openshift.com: Cloud-Native CI/CD with OpenShift Pipelines based on Tekton](https://www.redhat.com/en/blog/cloud-native-ci-cd-with-openshift-pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2020)** [openshift.com: Cloud-Native CI/CD with OpenShift Pipelines based on Tekton](https://www.redhat.com/en/blog/cloud-native-ci-cd-with-openshift-pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Curator Insight: An official Red Hat announcement outlining OpenShift Pipelines, the managed implementation of Tekton.
-        Live Grounding: Details the shift from centralized Jenkins controllers to decoupled, cloud-native container steps executing inside Kubernetes Pods, providing superior resource usage and auto-scaling.
+Curator Insight: An official Red Hat announcement outlining OpenShift Pipelines, the managed implementation of Tekton.
+Live Grounding: Details the shift from centralized Jenkins controllers to decoupled, cloud-native container steps executing inside Kubernetes Pods, providing superior resource usage and auto-scaling.
 
+</div></details>
 
 ***
 💡 **Explore Related:** [Registries](./registries.md) | [Jenkins Alternatives](./jenkins-alternatives.md) | [Argo](./argo.md)

@@ -1,0 +1,70 @@
+name: Nubenetes V2 Metadata Engine
+
+on:
+  schedule:
+    - cron: '0 0 15 * *' # Monthly on the 15th
+  workflow_dispatch:
+    inputs:
+      enrich_metadata:
+        description: 'Enrich GitHub Metadata (fetch stars/license)'
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: v2-metadata-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  enrich-metadata:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository Synchronization
+        uses: actions/checkout@v6
+        with:
+          ref: develop
+
+      - name: Python 3.11 Environment Provisioning
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Restore Incremental Inventory Cache
+        uses: actions/cache/restore@v4
+        with:
+          path: data/inventory.yaml
+          key: inventory-v2-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            inventory-v2-
+
+      - name: Installation of Dependencies
+        run: |
+          pip install --no-cache-dir pydantic PyGithub httpx fake-useragent pytz python-dotenv pyyaml tenacity
+          
+      - name: Run V2 Metadata Engine
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ENRICH_METADATA: ${{ github.event.inputs.enrich_metadata || 'true' }}
+          PYTHONPATH: ${{ github.workspace }}
+          PYTHONUNBUFFERED: "1"
+        run: python -u -m src.v2_metadata
+
+      - name: Create Pull Request for Inventory Update
+        uses: peter-evans/create-pull-request@v8
+        with:
+          branch: bot/v2-metadata-sync
+          base: develop
+          title: "V2 Data: Metadata Engine Sync"
+          commit-message: "chore: update inventory github metadata [skip ci]"
+          labels: "v2-data, metadata-engine"
+
+      - name: Persist Incremental Inventory to Cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: data/inventory.yaml
+          key: inventory-v2-${{ github.run_id }}-${{ github.run_attempt }}

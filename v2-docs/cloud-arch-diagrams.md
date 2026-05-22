@@ -9,11 +9,11 @@
 
 #### Agentic Engineering
 
-  - **(2025)** [Draw.io MCP for Diagram Generation: Why It’s Worth Using](https://thomasthornton.cloud/draw-io-mcp-for-diagram-generation-why-its-worth-using) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2025)** [Draw.io MCP for Diagram Generation: Why It’s Worth Using](https://thomasthornton.cloud/draw-io-mcp-for-diagram-generation-why-its-worth-using) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An illustrative guide showing how the Draw.io Model Context Protocol (MCP) server allows AI assistants to programmatically generate and edit architecture diagrams. Bridges the gap between conversational design instructions and technical diagrams.
+An illustrative guide showing how the Draw.io Model Context Protocol (MCP) server allows AI assistants to programmatically generate and edit architecture diagrams. Bridges the gap between conversational design instructions and technical diagrams.
 
+</div></details>
 
 ***
 💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Cheatsheets](./cheatsheets.md) | [Linux](./linux.md)

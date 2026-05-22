@@ -9,11 +9,11 @@
 
 #### Security
 
-  - **(2023)** [**Amazon EKS introduces EKS Pod Identity**](https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-eks-pod-identity) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2023)** [**Amazon EKS introduces EKS Pod Identity**](https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-eks-pod-identity) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Highlights the launch of EKS Pod Identity, an evolved architectural alternative to IRSA (IAM Roles for Service Accounts). By utilizing a highly optimized local agent daemon on worker nodes, it simplifies IAM association, scales beyond IRSA session limits, and works across multiple clusters with ease. A fundamental improvement to EKS access management.
+Highlights the launch of EKS Pod Identity, an evolved architectural alternative to IRSA (IAM Roles for Service Accounts). By utilizing a highly optimized local agent daemon on worker nodes, it simplifies IAM association, scales beyond IRSA session limits, and works across multiple clusters with ease. A fundamental improvement to EKS access management.
 
+</div></details>
 
 ***
 💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Tools Scripts](./aws-tools-scripts.md) | [Aws Databases](./aws-databases.md)

@@ -178,3 +178,56 @@ a {
   text-shadow: 0 0 5px rgba(251, 191, 36, 0.4);
 }
 
+/* ---------------------------------------------------- */
+/* MINIMALIST INLINE SUMMARIES                          */
+/* ---------------------------------------------------- */
+
+.v2-inline-summary {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 4px;
+}
+
+.v2-inline-summary summary {
+  list-style: none;
+  outline: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.v2-inline-summary summary::-webkit-details-marker {
+  display: none;
+}
+
+.v2-inline-summary summary:hover {
+  transform: scale(1.05);
+}
+
+.v2-inline-summary[open] {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.v2-inline-summary[open] summary {
+  margin-bottom: 10px;
+}
+
+.v2-summary-wrapper {
+  background: var(--md-accent-fg-color--transparent);
+  border-left: 3px solid var(--md-accent-fg-color);
+  padding: 14px 18px;
+  border-radius: 0 8px 8px 0;
+  font-size: 0.8rem;
+  line-height: 1.65;
+  color: var(--md-primary-fg-color);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+[data-md-color-scheme="slate"] .v2-summary-wrapper {
+  background: rgba(34, 211, 238, 0.05);
+  border-left: 3px solid #22d3ee;
+}
+
