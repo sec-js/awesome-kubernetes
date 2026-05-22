@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0-rc.9] - 2026-05-22
+
+### Changed
+- **UI Branding Optimization**: Removed redundant brand mentions in the V2 Portal header for a cleaner and more professional appearance.
+
+## [2.0.0-rc.8] - 2026-05-22
+
 ## [2.0.0-rc.8] - 2026-05-22
 
 ### Added
