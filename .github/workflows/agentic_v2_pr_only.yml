@@ -9,15 +9,15 @@ on:
         type: boolean
         default: false
 
-  permissions:
+permissions:
   contents: write
   pull-requests: write
 
-  concurrency:
+concurrency:
   group: v2-pr-only-${{ github.ref }}
   cancel-in-progress: false
 
-  jobs:
+jobs:
   publish-v2:
     runs-on: ubuntu-latest
     steps:
@@ -40,8 +40,6 @@ on:
           path: data/inventory.yaml
           key: inventory-v2-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: |
-            inventory-v2-
-
             inventory-v2-
 
       - name: Installation of Dependencies
