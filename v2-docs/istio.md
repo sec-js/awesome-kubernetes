@@ -18,7 +18,7 @@
   - **(2021)** [thenewstack.io - Service Mesh: The Gateway to Cloud Migration](https://thenewstack.io/when-you-need-or-dont-need-service-mesh) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses when a service mesh is actually required during cloud migrations, defining the technical criteria that justify the added operational complexity.
 #### Istio Mesh
 
-  - **(2026)** [==github.com: Istio==](https://github.com/istio/istio) <span class='md-tag md-tag--info'>⭐ 38208</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The primary codebase for Istio. Houses the high-performance control plane, Envoy configuration logic, security controls, and networking APIs needed for enterprise service mesh setups.
+  - **(2026)** [==github.com: Istio==](https://github.com/istio/istio) <span class='md-tag md-tag--info'>⭐ 38213</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The primary codebase for Istio. Houses the high-performance control plane, Envoy configuration logic, security controls, and networking APIs needed for enterprise service mesh setups.
   - **(2020)** [The Istio project just consolidated its control plane services: Pilot, Citadel, Galley, and the sidecar injector, into a single binary, __Istiod__](https://istio.io/latest/blog/2020/tradewinds-2020/#fewer-moving-parts) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official update documenting the change of Istio's control plane. Highlights how Pilot, Citadel, and Galley were merged into the single, more efficient `Istiod` process.
 #### Legacy Learning Resources
 
@@ -45,7 +45,7 @@
 
 ##### Ingress Controllers
 
-  - **(2026)** [==Envoy Gateway==](https://github.com/envoyproxy/gateway) <span class='md-tag md-tag--info'>⭐ 2727</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — The official Envoy Gateway project aimed at unifying ingress controller configurations using the Kubernetes Gateway API. Simplifies managing edge proxy deployments, routing rules, TLS terminations, and access logging under a standard, community-supported model.
+  - **(2026)** [==Envoy Gateway==](https://github.com/envoyproxy/gateway) <span class='md-tag md-tag--info'>⭐ 2733</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — The official Envoy Gateway project aimed at unifying ingress controller configurations using the Kubernetes Gateway API. Simplifies managing edge proxy deployments, routing rules, TLS terminations, and access logging under a standard, community-supported model.
 #### Envoy Proxy
 
 ##### Installation and Setup
@@ -126,7 +126,7 @@
 
 ##### Automation Tools
 
-  - **(2024)** [**istio-ecosystem/admiral**](https://github.com/istio-ecosystem/admiral) <span class='md-tag md-tag--info'>⭐ 637</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An active Istio-ecosystem tool that automates multi-cluster configuration management. Eliminates the need to manually configure ServiceEntries and DNS across clusters, programmatically stitching distinct meshes together for transparent scale.
+  - **(2024)** [**istio-ecosystem/admiral**](https://github.com/istio-ecosystem/admiral) <span class='md-tag md-tag--info'>⭐ 636</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An active Istio-ecosystem tool that automates multi-cluster configuration management. Eliminates the need to manually configure ServiceEntries and DNS across clusters, programmatically stitching distinct meshes together for transparent scale.
 ##### Management Planes
 
   - **(2021)** [thenewstack.io: Multicluster Management with Kubernetes and Istio](https://thenewstack.io/multicluster-management-with-kubernetes-and-istio) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explores the core design trade-offs of deploying multi-cluster Istio topologies, comparing primary-remote and multi-primary architectures. Discusses DNS resolution, secure gateway transit, and the consolidation of global service registries across heterogeneous cloud providers.

@@ -53,7 +53,7 @@
 
 #### Curated Lists
 
-  - **(2024)** [**Awesome CI/CD 🌟**](https://github.com/cicdops/awesome-ciandcd) <span class='md-tag md-tag--info'>⭐ 1998</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly extensive, community-curated collection targeting cloud-native CI/CD. Live Grounding verifies this repository remains a vital architectural map for discovering modern delivery platforms, container orchestrators, and automated pipeline security tools.
+  - **(2024)** [**Awesome CI/CD 🌟**](https://github.com/cicdops/awesome-ciandcd) <span class='md-tag md-tag--info'>⭐ 1996</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly extensive, community-curated collection targeting cloud-native CI/CD. Live Grounding verifies this repository remains a vital architectural map for discovering modern delivery platforms, container orchestrators, and automated pipeline security tools.
 #### Evaluations
 
   - **(2021)** [cloudbees.com: Continuous Delivery Tools: The 5 You Absolutely Need to Know in 2021](https://www.cloudbees.com/blog/cicd-tools-to-know-2021) 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A comparison of baseline CI/CD options focusing on legacy and cloud-native systems. It contrasts the architecture of Jenkins, GitLab CI, and CloudBees, providing a foundational frame of reference before modern GitOps practices took precedence.
@@ -71,7 +71,7 @@
 #### Agentic Engineering
 
   - **(2025)** [**Kiro: Engineering Rigor for Agentic Development**](https://kiro.dev) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An emerging framework focused on enforcing software engineering rigor, test-driven validation, and deterministic guardrails within AI Agent-driven code generation and execution loops. Provides platform architectures for managing safe agent-based deployments.
-  - **(2025)** [**Terraform & OpenTofu Skill for AI Agents**](https://github.com/antonbabenko/terraform-skill) <span class='md-tag md-tag--info'>⭐ 1864</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An experimental, open-source repository establishing unified Model Context Protocol (MCP) skills or AI tools for Terraform and OpenTofu. Empowers AI agents to dynamically generate, parse, validate, and execute infrastructure-as-code definitions with semantic awareness.
+  - **(2025)** [**Terraform & OpenTofu Skill for AI Agents**](https://github.com/antonbabenko/terraform-skill) <span class='md-tag md-tag--info'>⭐ 1881</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An experimental, open-source repository establishing unified Model Context Protocol (MCP) skills or AI tools for Terraform and OpenTofu. Empowers AI agents to dynamically generate, parse, validate, and execute infrastructure-as-code definitions with semantic awareness.
 #### Coding Assistants
 
   - **(2025)** [**GitHub Copilot Now Explains Failed Actions Jobs (GA)**](https://github.blog/changelog/2025-01-15-copilot-users-can-ask-about-a-failed-actions-job-ga) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official GitHub product announcement marking the General Availability of GitHub Copilot's automated pipeline diagnostics. Empowers developers to quickly resolve failing CI/CD builds by getting clear, contextual, AI-driven summaries and remediation plans.
@@ -95,7 +95,7 @@
 
 ##### GitHub Actions
 
-  - **(2022)** [Terraform Module Releaser GitHub Action](https://github.com/techpivot/terraform-module-releaser) <span class='md-tag md-tag--info'>⭐ 219</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized GitHub Action designed to automate the release process, version tagging, and registry publication of Terraform modules. Resolves development overhead by automatically generating release logs and enforcing Semantic Versioning.
+  - **(2022)** [Terraform Module Releaser GitHub Action](https://github.com/techpivot/terraform-module-releaser) <span class='md-tag md-tag--info'>⭐ 221</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized GitHub Action designed to automate the release process, version tagging, and registry publication of Terraform modules. Resolves development overhead by automatically generating release logs and enforcing Semantic Versioning.
 #### Patterns
 
   - **(2023)** [**harness.io: Pipeline Patterns for CI/CD Pipelines 🌟**](https://www.harness.io/blog/deployment-pipeline-patterns) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A curated collection of proven architectural patterns for structuring CI/CD pipelines at scale. Analyzes standard strategies for separating build and release triggers, parallel execution trees, templated pipeline-as-code inheritance, and automated gate governance.

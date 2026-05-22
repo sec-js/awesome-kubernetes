@@ -33,7 +33,7 @@
   - **(2026)** [==Harbor==](https://goharbor.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — CNCF-graduated enterprise-grade registry that secures cloud-native artifacts with role-based access control, vulnerability scanning, and cryptographic signing. It serves as a central hub for microservice images, offering high-throughput image replication and multi-tenant capabilities.
 #### P2P Distribution
 
-  - **(2021)** [**uber/kraken**](https://github.com/uber/kraken) <span class='md-tag md-tag--info'>⭐ 6691</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Uber's open-source peer-to-peer (P2P) Docker registry designed for ultra-high-throughput image distribution in massive clusters. Although highly optimized, it is largely archived in favor of CNCF Dragonfly.
+  - **(2021)** [**uber/kraken**](https://github.com/uber/kraken) <span class='md-tag md-tag--info'>⭐ 6692</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Uber's open-source peer-to-peer (P2P) Docker registry designed for ultra-high-throughput image distribution in massive clusters. Although highly optimized, it is largely archived in favor of CNCF Dragonfly.
 ## Enterprise Kubernetes
 
 ### Red Hat OpenShift
@@ -122,7 +122,7 @@
 
 #### TLS Automation
 
-  - **(2026)** [==cert-manager/cert-manager==](https://github.com/cert-manager/cert-manager) <span class='md-tag md-tag--info'>⭐ 13818</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Consolidated record of the cert-manager project, automating dynamic certificate lifecycles to guarantee encrypted transport paths between internal microservice runtimes.
+  - **(2026)** [==cert-manager/cert-manager==](https://github.com/cert-manager/cert-manager) <span class='md-tag md-tag--info'>⭐ 13830</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Consolidated record of the cert-manager project, automating dynamic certificate lifecycles to guarantee encrypted transport paths between internal microservice runtimes.
 
 ***
 💡 **Explore Related:** [Jenkins Alternatives](./jenkins-alternatives.md) | [Argo](./argo.md) | [Jenkins](./jenkins.md)
