@@ -127,9 +127,10 @@ class V2VisionEngine:
         
         # --- SURGICAL GARBAGE COLLECTION ---
         # Track every file we generate
-        generated_files = {"index.md", "audit-log.md"}
+        generated_files = {"index.md", "audit-log.md", "videos.md"}
         for f_name in v2_data.keys():
             generated_files.add(f_name)
+
 
         await self._write_premium_files(v2_data, mosaic_html, videos_html)
         await self._sync_enterprise_navigation(v2_data)
