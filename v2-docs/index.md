@@ -16,7 +16,7 @@
 
 ---
 
-### 🎬 Featured Access
+## 🎬 Featured Access
 - **[🎥 Explore the Nubenetes Elite Video Hub](./videos.md)**: A high-fidelity, categorized collection of technical clips and architectural deep-dives.
 
 ---
@@ -183,7 +183,7 @@
 - **[Openshift](./openshift.md)**
 - **[Serverless](./serverless.md)**
 
-***
+---
 
 ## The Maturity Taxonomy
 
