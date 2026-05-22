@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0-rc.11] - 2026-05-22
+
+### Added
+- **YouTube Mosaic Update**: Added YouTuber @mouredev (Brais Moure) to the YouTube mosaic in both V1 and V2 index portals.
+
 ## [2.0.0-rc.10] - 2026-05-22
 
 ### Added
