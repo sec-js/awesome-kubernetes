@@ -9,36 +9,36 @@
 
 #### CLI Tools
 
-  - **(2024)** [**Google Agents CLI**](https://github.com/google/agents-cli) <span class='md-tag md-tag--info'>⭐ 2467</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official command-line tool from Google designed to build, debug, and deploy agentic AI workflows. It leverages the Model Context Protocol (MCP) and Google LLM APIs to facilitate automated task execution across local filesystems and remote cloud APIs. Live grounding highlights its role in the standard dev toolchain for orchestrating autonomous workflows.
+  - **(2024)** [**Google Agents CLI**](https://github.com/google/agents-cli) <span class='md-tag md-tag--info'>⭐ 2528</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official command-line tool from Google designed to build, debug, and deploy agentic AI workflows. It leverages the Model Context Protocol (MCP) and Google LLM APIs to facilitate automated task execution across local filesystems and remote cloud APIs. Live grounding highlights its role in the standard dev toolchain for orchestrating autonomous workflows.
 ### Computer Vision
 
 #### Generative Models
 
-  - **(2023)** [==github.com/XingangPan/DragGAN==](https://github.com/XingangPan/DragGAN) <span class='md-tag md-tag--info'>⭐ 35854</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An influential image manipulation tool implementing DragGAN, allowing users to interactively drag points of an image to precisely synthesize changes in pose, shape, and expression. Although generative modeling has advanced toward diffusion frameworks, live grounding indicates its legacy and technical approach to point-based GAN manipulation remain highly influential.
+  - **(2023)** [==github.com/XingangPan/DragGAN==](https://github.com/XingangPan/DragGAN) <span class='md-tag md-tag--info'>⭐ 35855</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An influential image manipulation tool implementing DragGAN, allowing users to interactively drag points of an image to precisely synthesize changes in pose, shape, and expression. Although generative modeling has advanced toward diffusion frameworks, live grounding indicates its legacy and technical approach to point-based GAN manipulation remain highly influential.
 ### Data Science
 
 #### JupyterLab
 
-  - **(2023)** [**github.com/jupyterlab/jupyter-ai**](https://github.com/jupyterlab/jupyter-ai) <span class='md-tag md-tag--info'>⭐ 4234</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official JupyterLab extension integrating generative AI directly into interactive notebooks. It supports conversational coding, code generation, and error explanation across multiple model providers. Live grounding validates its widespread adoption within modern ML engineering and data science teams.
+  - **(2023)** [**github.com/jupyterlab/jupyter-ai**](https://github.com/jupyterlab/jupyter-ai) <span class='md-tag md-tag--info'>⭐ 4237</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official JupyterLab extension integrating generative AI directly into interactive notebooks. It supports conversational coding, code generation, and error explanation across multiple model providers. Live grounding validates its widespread adoption within modern ML engineering and data science teams.
 ## Agentic Engineering
 
 ### AI Assistants
 
 #### Claude Code
 
-  - **(2025)** [==Claude Code Best Practice==](https://github.com/shanraisshan/claude-code-best-practice) <span class='md-tag md-tag--info'>⭐ 53838</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Curated collection of best practices, system prompts, and architecture layouts for Claude Code.
+  - **(2025)** [==Claude Code Best Practice==](https://github.com/shanraisshan/claude-code-best-practice) <span class='md-tag md-tag--info'>⭐ 54376</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Curated collection of best practices, system prompts, and architecture layouts for Claude Code.
 Live Grounding: Explores advanced CLI-driven agent workflows, highlighting configuration optimizations, shell integration strategies, and secure execution configurations in local and remote environments.
 ### Kubernetes AI Operators
 
 #### Observability Agents
 
-  - **(2024)** [**HolmesGPT (Robusta)**](https://github.com/HolmesGPT/holmesgpt) <span class='md-tag md-tag--info'>⭐ 2451</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: An AI-driven troubleshooting assistant for Kubernetes clusters by Robusta.
+  - **(2024)** [**HolmesGPT (Robusta)**](https://github.com/HolmesGPT/holmesgpt) <span class='md-tag md-tag--info'>⭐ 2480</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: An AI-driven troubleshooting assistant for Kubernetes clusters by Robusta.
 Live Grounding: Utilizes LLM agents to autonomously parse Prometheus alerts, collect pod logs, inspect live status, and deliver actionable remediation steps for infrastructure incidents.
 ### Model Context Protocol
 
 #### Curation
 
-  - **(2024)** [==Awesome MCP Servers==](https://github.com/punkpeye/awesome-mcp-servers) <span class='md-tag md-tag--info'>⭐ 87166</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: A community-curated collection of servers implementing the Model Context Protocol.
+  - **(2024)** [==Awesome MCP Servers==](https://github.com/punkpeye/awesome-mcp-servers) <span class='md-tag md-tag--info'>⭐ 87348</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: A community-curated collection of servers implementing the Model Context Protocol.
 Live Grounding: Aggregates verified integrations linking AI models to tools like relational databases, enterprise APIs, version control providers, and local execution runtimes.
 ## Artificial Intelligence
 
@@ -75,16 +75,16 @@ Live Grounding: Aggregates verified integrations linking AI models to tools like
   - **(2024)** [aman.ai: Primers • Bidirectional Encoder Representations from Transformers (BERT)](https://aman.ai/primers/ai/bert)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An academic and practical primer on BERT (Bidirectional Encoder Representations from Transformers). Details the masked language modeling and next sentence prediction techniques that pioneered encoder-only representation models.
 #### Transformers
 
-  - **(2025)** [**github.com/NielsRogge/Transformers-Tutorials**](https://github.com/NielsRogge/Transformers-Tutorials) <span class='md-tag md-tag--info'>⭐ 11628</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An exhaustive collection of Jupyter notebooks demonstrating practical implementations of Hugging Face Transformers. Covers fine-tuning, inference optimization, and deployment pipelines across vision, language, and multimodal tasks.
+  - **(2025)** [**github.com/NielsRogge/Transformers-Tutorials**](https://github.com/NielsRogge/Transformers-Tutorials) <span class='md-tag md-tag--info'>⭐ 11627</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An exhaustive collection of Jupyter notebooks demonstrating practical implementations of Hugging Face Transformers. Covers fine-tuning, inference optimization, and deployment pipelines across vision, language, and multimodal tasks.
   - **(2024)** [aman.ai: Transformers](https://aman.ai/primers/ai/transformers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly-detailed architectural deep-dive into the Transformer model architecture. Explains multi-head attention mechanisms, positional encoding formulations, and self-attention dynamics crucial for modern LLM designs.
 ### Generative AI
 
 #### APIs
 
-  - **(2025)** [==github.com/openai/openai-cookbook: OpenAI Cookbook==](https://github.com/openai/openai-cookbook) <span class='md-tag md-tag--info'>⭐ 73647</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The ultimate repository of code recipes, integration patterns, and best practices from OpenAI. Details programmatic strategies for structured JSON output, embeddings search, agent tool calling, and high-throughput batching APIs.
+  - **(2025)** [==github.com/openai/openai-cookbook: OpenAI Cookbook==](https://github.com/openai/openai-cookbook) <span class='md-tag md-tag--info'>⭐ 73692</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The ultimate repository of code recipes, integration patterns, and best practices from OpenAI. Details programmatic strategies for structured JSON output, embeddings search, agent tool calling, and high-throughput batching APIs.
 #### Large Language Models
 
-  - **(2025)** [==github.com/mlabonne/llm-course==](https://github.com/mlabonne/llm-course) <span class='md-tag md-tag--info'>⭐ 79473</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A leading structured course for mastering LLM technology. Covers quantization strategies, LoRA fine-tuning, direct preference optimization (DPO), and advanced retrieval-augmented generation (RAG) paradigms.
+  - **(2025)** [==github.com/mlabonne/llm-course==](https://github.com/mlabonne/llm-course) <span class='md-tag md-tag--info'>⭐ 79545</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A leading structured course for mastering LLM technology. Covers quantization strategies, LoRA fine-tuning, direct preference optimization (DPO), and advanced retrieval-augmented generation (RAG) paradigms.
   - **(2024)** [aman.ai: Primers • Generative Pre-trained Transformer (GPT)](https://aman.ai/primers/ai/gpt)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical breakdown of the Generative Pre-trained Transformer (GPT) series. Traces the evolution of decoder-only architectures, scaling laws, autoregressive generation, and key differences relative to encoder models.
 #### Text-to-Speech
 
@@ -111,7 +111,7 @@ Live Grounding: Aggregates verified integrations linking AI models to tools like
   - **(2024)** [valohai.com/blog/llmops/](https://valohai.com/blog/llmops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry-focused editorial exploring the core pillars of Large Language Model Operations (LLMOps). Discusses continuous fine-tuning, automated prompt validation, model registry compliance, and operational observability at scale.
 #### Curation (2)
 
-  - **(2025)** [**github.com/tensorchord/Awesome-LLMOps: Awesome LLMOps**](https://github.com/tensorchord/Awesome-LLMOps) <span class='md-tag md-tag--info'>⭐ 5786</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curated, high-quality compendium of tools, libraries, and resources for the LLMOps ecosystem. Covers framework deployment, GPU scheduling, vector databases, and evaluation tools tailored for production AI pipelines.
+  - **(2025)** [**github.com/tensorchord/Awesome-LLMOps: Awesome LLMOps**](https://github.com/tensorchord/Awesome-LLMOps) <span class='md-tag md-tag--info'>⭐ 5797</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curated, high-quality compendium of tools, libraries, and resources for the LLMOps ecosystem. Covers framework deployment, GPU scheduling, vector databases, and evaluation tools tailored for production AI pipelines.
 ### Large Language Models (1)
 
 #### Educational Guides (1)
@@ -124,7 +124,7 @@ Live Grounding: Aggregates verified integrations linking AI models to tools like
 
 #### Curriculum
 
-  - **(2021)** [==github.com/microsoft/ML-For-Beginners: Machine Learning for Beginners - A Curriculum==](https://github.com/microsoft/ML-For-Beginners) <span class='md-tag md-tag--info'>⭐ 85882</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive 12-week, 26-lesson curriculum covering classical machine learning using Scikit-learn. Developed by Microsoft, it offers a hands-on, project-based approach for developers establishing foundational ML knowledge. Ideal for platform engineers transitioning into AI infrastructure.
+  - **(2021)** [==github.com/microsoft/ML-For-Beginners: Machine Learning for Beginners - A Curriculum==](https://github.com/microsoft/ML-For-Beginners) <span class='md-tag md-tag--info'>⭐ 85912</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive 12-week, 26-lesson curriculum covering classical machine learning using Scikit-learn. Developed by Microsoft, it offers a hands-on, project-based approach for developers establishing foundational ML knowledge. Ideal for platform engineers transitioning into AI infrastructure.
 #### Educational Guides (2)
 
   - **(2025)** [**aman.ai/primers/ai: Distilled AI**](https://aman.ai/primers/ai) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight profiles a high-density reference notebook condensing advanced ML and AI theorems. Live Grounding confirms it's a prized reference site for engineers studying the underlying mathematical paradigms of modern architectures.
@@ -167,7 +167,7 @@ Live Grounding: Aggregates verified integrations linking AI models to tools like
 
 #### AI Automation
 
-  - **(2025)** [OpenOps: No-Code FinOps Automation Platform with AI](https://github.com/openops-cloud/openops) <span class='md-tag md-tag--info'>⭐ 1023</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source, no-code FinOps platform that leverages artificial intelligence to autonomously optimize cloud infrastructure costs. Integrates cloud budget controls directly with container orchestration metrics.
+  - **(2025)** [OpenOps: No-Code FinOps Automation Platform with AI](https://github.com/openops-cloud/openops) <span class='md-tag md-tag--info'>⭐ 1024</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source, no-code FinOps platform that leverages artificial intelligence to autonomously optimize cloud infrastructure costs. Integrates cloud budget controls directly with container orchestration metrics.
 ## Cloud Native
 
 ### AI Infrastructure
@@ -201,7 +201,7 @@ Live Grounding: Aggregates verified integrations linking AI models to tools like
 
 #### AI and MCP Clients
 
-  - **(2025)** [**Tabularis: Open Source Desktop Client for Modern Databases with AI and MCP Integration**](https://github.com/TabularisDB/tabularis/blob/main/README.es.md) <span class='md-tag md-tag--info'>⭐ 2105</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An innovative, open-source cross-platform database client featuring deep AI integration and Model Context Protocol (MCP) compliance. This configuration enables language models to securely inspect, query, and mutate structured schemas under strict guardrails. Live grounding confirms the project provides localized Spanish documentation as its primary onboarding interface while keeping global compliance.
+  - **(2025)** [**Tabularis: Open Source Desktop Client for Modern Databases with AI and MCP Integration**](https://github.com/TabularisDB/tabularis/blob/main/README.es.md) <span class='md-tag md-tag--info'>⭐ 2151</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An innovative, open-source cross-platform database client featuring deep AI integration and Model Context Protocol (MCP) compliance. This configuration enables language models to securely inspect, query, and mutate structured schemas under strict guardrails. Live grounding confirms the project provides localized Spanish documentation as its primary onboarding interface while keeping global compliance.
 ## Developer Tools
 
 ### AI Coding Assistants
@@ -215,7 +215,7 @@ Live Grounding: Aggregates verified integrations linking AI models to tools like
 
 #### Professional Growth
 
-  - **(2024)** [==Skills for Real Engineers==](https://github.com/mattpocock/skills) <span class='md-tag md-tag--info'>⭐ 94029</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive, widely vetted resource compiling software engineering methodologies, design schemas, and performance protocols required for elite software delivery.
+  - **(2024)** [==Skills for Real Engineers==](https://github.com/mattpocock/skills) <span class='md-tag md-tag--info'>⭐ 100172</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive, widely vetted resource compiling software engineering methodologies, design schemas, and performance protocols required for elite software delivery.
 ## Education and Automation
 
 ### Grading Systems
@@ -229,14 +229,14 @@ Live Grounding: Aggregates verified integrations linking AI models to tools like
 
 #### NotebookLM Prompting
 
-  - **(2025)** [**Awesome NotebookLM Slide Prompts**](https://github.com/serenakeyitan/awesome-notebookLM-prompts) <span class='md-tag md-tag--info'>⭐ 3357</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A master repository containing systemic prompts for Google NotebookLM. Accelerates deep source material analysis, structured outlining, and programmatic context extraction.
+  - **(2025)** [**Awesome NotebookLM Slide Prompts**](https://github.com/serenakeyitan/awesome-notebookLM-prompts) <span class='md-tag md-tag--info'>⭐ 3412</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A master repository containing systemic prompts for Google NotebookLM. Accelerates deep source material analysis, structured outlining, and programmatic context extraction.
 ## Machine Learning (1)
 
 ### Deep Learning Foundations
 
 #### Large Language Models (2)
 
-  - **(2025)** [==LLMs-from-scratch==](https://github.com/rasbt/LLMs-from-scratch) <span class='md-tag md-tag--info'>⭐ 95173</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Highly acclaimed code-first textbook guiding the creation of a Large Language Model (LLM) from scratch in PyTorch. Illustrates attention mechanisms, tokenizers, training loops, and weight loadings.
+  - **(2025)** [==LLMs-from-scratch==](https://github.com/rasbt/LLMs-from-scratch) <span class='md-tag md-tag--info'>⭐ 95379</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Highly acclaimed code-first textbook guiding the creation of a Large Language Model (LLM) from scratch in PyTorch. Illustrates attention mechanisms, tokenizers, training loops, and weight loadings.
 ## Platform Engineering (1)
 
 ### AI Integration
@@ -252,7 +252,7 @@ Live Grounding: Aggregates verified integrations linking AI models to tools like
 
 ##### Claude Templates
 
-  - **(2025)** [**Claude Code Templates**](https://github.com/davila7/claude-code-templates) <span class='md-tag md-tag--info'>⭐ 27409</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly popular community repository hosting prompt structures, workflows, and templates optimized for Claude Code and Anthropic integrations in complex development cycles.
+  - **(2025)** [**Claude Code Templates**](https://github.com/davila7/claude-code-templates) <span class='md-tag md-tag--info'>⭐ 27488</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly popular community repository hosting prompt structures, workflows, and templates optimized for Claude Code and Anthropic integrations in complex development cycles.
 
 ***
 💡 **Explore Related:** [Chatgpt](./chatgpt.md) | [Ai Agents Mcp](./ai-agents-mcp.md)

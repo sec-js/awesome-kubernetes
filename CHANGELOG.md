@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0-rc.6] - 2026-05-22
+
+### Added
+- **High-Density Inline Summaries**: Replaced collapsible blocks with always-visible summaries appended directly to the resource line using an em-dash (—) separator for immediate readability.
+
+### Fixed
+- **V2 Rendering Engine**: Resolved a critical `TypeError` caused by incorrect indentation in the link rendering logic.
+- **Workflow Reliability**: Standardized all GitHub Actions to use Python module execution mode (`python -m src.module`), eliminating `ModuleNotFoundError` issues.
+
 ## [2.0.0-rc.5] - 2026-05-22
 
 ### Added

@@ -139,7 +139,7 @@ Additionally, as of May 2026, Nubenetes has reached the **Platinum Operational T
 | :--- | :--- |
 | **Total Technical Resources (Links)** | **15305+** |
 | **Specialized MD Pages** | **161** |
-| **Total Commits** | **4920+** |
+| **Total Commits** | **1+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -183,10 +183,10 @@ config:
 ---
 xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
-    x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
-    y-axis "Volume (Commits / Estimated New Refs)" 0 --> 9000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 5620]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1361]
+    x-axis ["2026"]
+    y-axis "Volume (Commits / Estimated New Refs)" 0 --> 1000
+    bar [4]
+    bar [1]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -194,8 +194,7 @@ xychart-beta
 <!-- MONTHLY_SURGE_START -->
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
-| 2026-04 | 25 | 103 | Active Curation |
-| 2026-05 | 1336 | 5,517 | **Agentic Inception (Gemini Era)** |
+| 2026-05 | 1 | 4 | **Agentic Inception (Gemini Era)** |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering

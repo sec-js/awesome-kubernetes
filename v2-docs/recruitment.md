@@ -17,7 +17,7 @@
   - **(2025)** [recruit crm](https://recruitcrm.io) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An Applicant Tracking System (ATS) and CRM software platform built for scaling HR workflows. It details recruitment pipeline structures and helps software engineers map out recruitment vendor pipelines.
 #### Relocation Guides
 
-  - **(2025)** [**International Tech Job Search Handbook**](https://github.com/andrewstetsenko/tech-jobs-with-relocation) <span class='md-tag md-tag--info'>⭐ 4403</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly rated, community-vetted handbook and repository containing aggregated metadata on global job searches. It details specific corporate policies regarding visa processes, relocation packages, and country-specific tax rules for tech candidates.
+  - **(2025)** [**International Tech Job Search Handbook**](https://github.com/andrewstetsenko/tech-jobs-with-relocation) <span class='md-tag md-tag--info'>⭐ 4405</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly rated, community-vetted handbook and repository containing aggregated metadata on global job searches. It details specific corporate policies regarding visa processes, relocation packages, and country-specific tax rules for tech candidates.
 #### Relocation Platforms
 
   - **(2026)** [relocate.me](https://relocate.me) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized global platform built for software developers seeking international career transitions. It categorizes jobs by visa sponsorship options and provides essential information on relocation assistance packages.
