@@ -1,4 +1,4 @@
-name: Nubenetes Backup-based Curation
+name: 01.2. Backup-based Curation
 
 on:
   workflow_dispatch:

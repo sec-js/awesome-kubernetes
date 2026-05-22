@@ -1,4 +1,4 @@
-name: Nubenetes V2 Publisher
+name: 04.1. V2 Publisher
 
 on:
   push:

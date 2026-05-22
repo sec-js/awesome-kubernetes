@@ -1,4 +1,4 @@
-name: Nubenetes Intelligent Link Cleaner & Dedup
+name: 02.1. Intelligent Link Cleaner & Dedup
 
 on:
   schedule:

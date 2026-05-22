@@ -1,4 +1,4 @@
-name: Nubenetes V2 Health Monitor
+name: 02.2. V2 Health Monitor
 
 on:
   workflow_dispatch:

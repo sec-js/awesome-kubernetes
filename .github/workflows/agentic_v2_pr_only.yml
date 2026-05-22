@@ -1,4 +1,4 @@
-name: Emergency V2 PR Generator (Read-Only Recovery)
+name: 04.2. Emergency V2 PR Generator
 
 on:
   workflow_dispatch:

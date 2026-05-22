@@ -1,4 +1,4 @@
-name: Nubenetes README Automated Sync
+name: 05.1. README Automated Sync
 
 on:
   push:

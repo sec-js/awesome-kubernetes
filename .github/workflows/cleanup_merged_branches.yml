@@ -1,4 +1,4 @@
-name: Automated Merged Branch Cleanup
+name: 08.1. Branch Lifecycle Cleanup
 
 on:
   schedule:

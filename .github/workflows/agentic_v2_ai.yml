@@ -1,4 +1,4 @@
-name: Nubenetes V2 AI Curator
+name: 03.2. V2 AI Curator
 
 on:
   workflow_dispatch:

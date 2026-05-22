@@ -1,4 +1,4 @@
-name: Nubenetes Markdown Linter
+name: 07.2. Markdown Linter
 
 on:
   pull_request:

@@ -1,4 +1,4 @@
-name: Nubenetes Critical Asset Monitor
+name: 08.2. Critical Asset Monitor
 
 on:
   schedule:

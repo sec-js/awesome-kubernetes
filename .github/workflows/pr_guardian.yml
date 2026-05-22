@@ -1,4 +1,4 @@
-name: Nubenetes PR Guardian
+name: 07.1. PR Guardian AI
 
 on:
   pull_request:
