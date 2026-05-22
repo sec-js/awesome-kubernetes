@@ -36,7 +36,7 @@
     *   [5.2. V2: The Agentic Elite Edition](#52-v2-the-agentic-elite-edition)
     *   [5.3. Architecture Comparison Matrix: V1 vs. V2](#53-architecture-comparison-matrix-v1-vs-v2)
     *   [5.4. The Incremental Elite Engine](#54-the-incremental-elite-engine)
-    *   [5.5. V2 Workflow Trigger Strategy (Manual Flags)](#55-v2-workflow-trigger-strategy-manual-flags)
+    *   [5.5. Decoupled Knowledge Lifecycle (V2 Architecture)](#55-decoupled-knowledge-lifecycle-v2-architecture)
     *   [5.6. Multi-Language Support Policy](#56-multi-language-support-policy)
 6.  [6. The Unified Agentic Database (Knowledge Graph)](#6-the-unified-agentic-database-knowledge-graph)
     *   [6.1. Database Components](#61-database-components)
