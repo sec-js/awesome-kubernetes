@@ -49,5 +49,6 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "docs: automated V2 video hub update [skip ci]"
+            git pull --rebase origin develop
             git push origin develop
           fi
