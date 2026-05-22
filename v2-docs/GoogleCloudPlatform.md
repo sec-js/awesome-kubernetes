@@ -9,11 +9,11 @@
 
 #### Cluster Management
 
-  - **(2026)** [==Google Kubernetes Engine==](https://cloud.google.com/kubernetes-engine) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - **(2026)** [==Google Kubernetes Engine==](https://cloud.google.com/kubernetes-engine) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        The main technical documentation page for GKE (Google Kubernetes Engine). Details foundational and advanced options, covering Autopilot architecture, GKE Datapath V2 routing, and multi-cluster orchestrations.
+The main technical documentation page for GKE (Google Kubernetes Engine). Details foundational and advanced options, covering Autopilot architecture, GKE Datapath V2 routing, and multi-cluster orchestrations.
 
+</div></details>
 
 ***
 💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Tools Scripts](./aws-tools-scripts.md) | [Aws Databases](./aws-databases.md)

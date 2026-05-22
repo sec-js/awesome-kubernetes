@@ -9,11 +9,11 @@
 
 #### Jenkins
 
-  - **(2023)** [**Back of the Napkin Guide to Updating Jenkins**](https://www.jenkins.io/blog/2023/10/31/marc-s-napkin-upgrade-guide) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2023)** [**Back of the Napkin Guide to Updating Jenkins**](https://www.jenkins.io/blog/2023/10/31/marc-s-napkin-upgrade-guide) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A highly practical, pragmatic guide from a core Jenkins maintainer outlining safe upgrade strategies for Jenkins controllers and its complex plugin ecosystem. Reduces administrative friction by emphasizing snapshot backups, compatibility matrices, and staged canary verification.
+A highly practical, pragmatic guide from a core Jenkins maintainer outlining safe upgrade strategies for Jenkins controllers and its complex plugin ecosystem. Reduces administrative friction by emphasizing snapshot backups, compatibility matrices, and staged canary verification.
 
+</div></details>
 
 ***
 💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Cheatsheets](./cheatsheets.md) | [Linux](./linux.md)

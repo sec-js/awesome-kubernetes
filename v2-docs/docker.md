@@ -9,45 +9,45 @@
 
 #### Spark on Kubernetes
 
-  - **(2021)** [datamechanics.co: Apache Spark 3.1 Release: Spark on Kubernetes is now Generally Available](https://www.datamechanics.co)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2021)** [datamechanics.co: Apache Spark 3.1 Release: Spark on Kubernetes is now Generally Available](https://www.datamechanics.co)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Curator Insight: Platform news highlighting Apache Spark 3.1 generally available support for native Kubernetes.
-        Live Grounding: Covers the native scheduling capabilities, decommissioning behaviors, and executor tracking improvements that made Kubernetes a first-class citizen for Spark.
+Curator Insight: Platform news highlighting Apache Spark 3.1 generally available support for native Kubernetes.
+Live Grounding: Covers the native scheduling capabilities, decommissioning behaviors, and executor tracking improvements that made Kubernetes a first-class citizen for Spark.
 
+</div></details>
 ## Cloud Native Security
 
 ### Supply Chain Security
 
 #### Container Vulnerabilities
 
-  - **(2020)** [thehackernews.com: Docker Images Containing Cryptojacking Malware Distributed via Docker Hub](https://thehackernews.com/2020/06/cryptocurrency-docker-image.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2020)** [thehackernews.com: Docker Images Containing Cryptojacking Malware Distributed via Docker Hub](https://thehackernews.com/2020/06/cryptocurrency-docker-image.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An analytical threat dispatch chronicling how malicious actors injected cryptojacking malware directly into public Docker Hub registries. Highlights the catastrophic operational implications of lack of supply-chain validation processes in modern registries.
+An analytical threat dispatch chronicling how malicious actors injected cryptojacking malware directly into public Docker Hub registries. Highlights the catastrophic operational implications of lack of supply-chain validation processes in modern registries.
 
+</div></details>
 ## Container Infrastructure
 
 ### Management Interfaces
 
 #### GUI Consoles
 
-  - **(2026)** [**Portainer 🌟**](https://www.portainer.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2026)** [**Portainer 🌟**](https://www.portainer.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A robust administrative dashboard that simplifies the visual management of Docker Swarm, Kubernetes, and local container environments. Ideal for dev teams seeking centralized configuration oversight without heavy command-line overhead.
+A robust administrative dashboard that simplifies the visual management of Docker Swarm, Kubernetes, and local container environments. Ideal for dev teams seeking centralized configuration oversight without heavy command-line overhead.
 
+</div></details>
 ## Development Tools
 
 ### Local Kubernetes Environments
 
 #### Guides and Workflows
 
-  - **(2021)** [itnext.io: Software development in containers — a cookbook 🌟🌟🌟](https://itnext.io/software-development-in-containers-a-cookbook-2ba14d07e535) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2021)** [itnext.io: Software development in containers — a cookbook 🌟🌟🌟](https://itnext.io/software-development-in-containers-a-cookbook-2ba14d07e535) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A detailed technical guide explaining how to design local workflows with container environments. Demonstrates setup strategies for hot reloading, direct container mounts, network port forwards, and dev-to-prod pipeline parity.
+A detailed technical guide explaining how to design local workflows with container environments. Demonstrates setup strategies for hot reloading, direct container mounts, network port forwards, and dev-to-prod pipeline parity.
 
+</div></details>
 
 ***
 💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Ocp4](./ocp4.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md)
