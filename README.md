@@ -736,12 +736,22 @@ Maintainers can manually trigger and tune workflows via the GitHub Actions UI. T
 | **1** | **Agentic Curation** | `historical_mode` | ==TRUE== | Processes all discovery sources (ignores 30-day window). |
 | | | `include_*` | ==TRUE== | Toggles specific topics (k8s, cloud, ai, etc.). |
 | **2** | **V2 Health Monitor** | `force_full_check` | ==FALSE== | Bypasses 21-day health cache (Live HTTP Check). |
+| | | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
 | **3** | **V2 Metadata Engine** | `enrich_metadata` | ==TRUE== | Fetches fresh stars/licenses from GitHub API. |
+| | | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
 | **4** | **V2 AI Curator** | `force_reevaluate` | ==FALSE== | Bypasses AI summary cache (Full Gemini Re-run). |
-| **5** | **V2 Publisher** | N/A | ==AUTO== | Renders the portal from pre-enriched data. |
-| **6** | **Link Health Check**| `force_full_check` | ==FALSE== | Bypasses cache for global archive auditing. |
-| **7** | **Backup Curation** | `historical_mode` | ==TRUE== | Ignores time windows for static file processing. |
-| **8** | **Emergency PR** | N/A | ==READ-ONLY== | Generates PR from cache without AI calls. |
+| | | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
+| **5** | **V2 Publisher** | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
+| **6** | **V2 Video Hub** | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
+| **7** | **Link Health Check**| `force_full_check` | ==FALSE== | Bypasses cache for global archive auditing. |
+| **8** | **Backup Curation** | `historical_mode` | ==TRUE== | Ignores time windows for static file processing. |
+| **9** | **Emergency PR** | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
+
+#### 9.1.1. Optional Cache Restoration Policy
+To protect manual repository updates (e.g., specific metadata fixes or persistent links) from being accidentally overwritten by stale automated data, all V2 workflows implement an **Optional Cache Restoration** policy:
+- **Default State**: Cache restoration is **OFF** by default. Workflows prioritize the `inventory.yaml` and files physically present in the repository.
+- **Manual Override**: The `restore_cache` flag must be explicitly checked during a `workflow_dispatch` trigger if the user intends to resume from the last automated state.
+- **Persistent Saving**: The system continues to save the updated state to the cache at the end of every successful run, regardless of the restore setting, ensuring long-term persistence.
 
 #### 9.1.1. [1] Agentic Curation Strategy
 The **Nubenetes Automated Agentic Curation** workflow is designed to be exhaustive by default to ensure no emerging technical tool is missed.
