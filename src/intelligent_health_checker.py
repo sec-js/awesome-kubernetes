@@ -61,12 +61,56 @@ class IntelligentLinkCleaner:
                 if f.endswith(".md"):
                     path = os.path.join(root, f)
                     content = open(path, "r").read()
+                    
+                    # Mandate 23: Detect Mosaic boundaries in index.md
+                    mosaic_lines = set()
+                    if path == "docs/index.md":
+                        # Find all center blocks and identify the one that looks like the YouTube mosaic
+                        mosaics = list(re.finditer(r'<center markdown="1">\s*\n(.*?)\n\s*</center>', content, re.DOTALL))
+                        target_mosaic = None
+                        max_yt_links = 0
+                        
+                        for m in mosaics:
+                            yt_count = m.group(1).count("youtube.com")
+                            if yt_count > max_yt_links:
+                                max_yt_links = yt_count
+                                target_mosaic = m
+                        
+                        if target_mosaic:
+                            mosaic_text = target_mosaic.group(1)
+                            # We find the start line of this specific block
+                            start_pos = target_mosaic.start(1)
+                            start_line = content[:start_pos].count('\n')
+                            line_count = mosaic_text.count('\n') + 1
+                            for i in range(start_line, start_line + line_count):
+                                mosaic_lines.add(i)
+                            log_event(f"[*] YouTube Mosaic identified in docs/index.md (Lines {start_line}-{start_line+line_count})")
+
                     lines = content.splitlines()
                     for idx, line in enumerate(lines):
-                        matches = re.finditer(r'(\*\*|==)?\s*\[(.*?)\]\((https?://.*?)\)\s*(\*\*|==)?\s*(.*)', line)
+                        # Detect standard markdown links
+                        matches = list(re.finditer(r'(\*\*|==)?\s*\[(.*?)\]\((https?://.*?)\)\s*(\*\*|==)?\s*(.*)', line))
+                        
+                        # MANDATE 23: Also detect YouTube links in iframes for the videos section
+                        if path == "docs/index.md" and "iframe" in line and "youtube.com" in line:
+                            iframe_match = re.search(r'src="(https?://www\.youtube\.com/.*?)"', line)
+                            if iframe_match:
+                                url = iframe_match.group(1)
+                                nu = normalize_url(url)
+                                # We treat iframes as non-important by default but they must be checked
+                                self.link_registry.setdefault(nu, []).append({
+                                    "file": path, "line_index": idx, "url": url, 
+                                    "is_important": False, "is_iframe": True
+                                })
+
                         for m in matches:
                             fmt_pre, title, url, fmt_post, desc = m.groups()
                             nu = normalize_url(url)
+
+                            # MANDATE 23: Skip YouTube Mosaic links in docs/index.md
+                            if path == "docs/index.md" and idx in mosaic_lines and "youtube.com" in nu:
+                                continue
+
                             is_important = False
                             if fmt_pre or fmt_post: is_important = True
                             if "🌟" in title or "🌟" in (desc or ""): is_important = True

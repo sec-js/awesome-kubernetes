@@ -60,7 +60,9 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **No Trusted Bypassing**: All domains, including high-trust ones (GitHub, Google, AWS), MUST be verified for link validity. Trusted status only grants a lower priority for aggressive scraper rotation, not a bypass for existence checks.
     - **Manual Priority**: AI agents MUST NOT overwrite existing manual descriptions or stars in the V1 archive files. Enrichment is strictly for the YAML database and the V2 portal.
 
-23. **Canonical URL Normalization & Semantic Deduplication**: To prevent duplication and fragmented metadata, all agents MUST normalize URLs before any inventory operation.
+23. **YouTube Mosaic Exemption**: In `docs/index.md` and `v2-docs/index.md`, only the primary visual mosaic block (the specific `<center>` block containing the highest density of YouTube links) is exempt from automated health checks and MUST NOT be included in `data/inventory.yaml`. This is a fixed visual asset. However, all other YouTube resources in these files—including links appearing before the mosaic and those in the collapsible "Top Videos" section—MUST be checked by the link cleaner and properly tracked in the inventory.
+
+24. **Canonical URL Normalization & Semantic Deduplication**: To prevent duplication and fragmented metadata, all agents MUST normalize URLs before any inventory operation.
     - **Tracking Stripping**: Systematically remove UTM parameters, social media trackers (X.com, LinkedIn), and URL fragments (except technical ones).
     - **Technical Preservation (V1)**: Normalization MUST **preserve line anchors** (e.g., `#L123`) and **respect URL path case-sensitivity**. Technical fragmentation is preferred over data loss for deep-links.
     - **Protocol Uniformity**: Standardize on `https://` whenever possible.
@@ -317,3 +319,8 @@ The bot must rotate between profiles to avoid detection:
             - **Throughput Optimization**: Successfully transitioned to a Flash-First architecture, increasing Fast-Track batch sizes to 100 resources.
             - **Resilience Hardening**: Improved error handling to ensure Rate-Limit (429) events trigger the Circuit Breaker instead of silent loops, preserving API integrity.
             - **Efficiency Gains**: Reduced expected execution time for 10k+ resources by >60% through optimized RPM/TPM management and strategic safety delays.
+
+
+- **V2 Index Metrics Protocol**: The "Knowledge Architecture and AI Coverage Status" report in the V2 index MUST include a direct comparison between V1 and V2 inventory. This report MUST display: 1. **V1 Base Inventory** (Total resources in the master archive), 2. **V2 Elite Selection** (Count of candidates and the resulting density ratio), 3. **AI Enrichment Coverage**, and 4. **GitHub Metadata Coverage**. This ensures transparency in the knowledge distillation process.
+- **Redundancy-Free Branding**: To ensure professional UI density, the V2 Portal header MUST NOT repeat the "Nubenetes" brand. The title MUST follow the pattern: "Nubenetes Elite Portal (V2) | Awesome Kubernetes and Cloud".
+- **Decoupled Workflow Architecture**: The Agentic V2 ecosystem MUST utilize a decoupled micro-workflow structure (Health Monitor, Metadata Engine, AI Curator, and Publisher) to optimize compute quotas and minimize Gemini token consumption. Any update to the V2 rendering logic MUST use the `--render-only` flag in the Publisher pipeline to maintain execution speed.
