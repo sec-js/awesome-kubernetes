@@ -140,7 +140,7 @@ Additionally, as of May 2026, Nubenetes has reached the **Platinum Operational T
 | :--- | :--- |
 | **Total Technical Resources (Links)** | **15214+** |
 | **Specialized MD Pages** | **161** |
-| **Total Commits** | **5105+** |
+| **Total Commits** | **5116+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -178,7 +178,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 1546 | 6,384 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 1557 | 6,430 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -194,8 +194,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume (Commits / Estimated New Refs)" 0 --> 9000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 6384]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1546]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 6430]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1557]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -204,7 +204,7 @@ xychart-beta
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
-| 2026-05 | 1521 | 6,281 | **Agentic Inception (Gemini Era)** |
+| 2026-05 | 1532 | 6,327 | **Agentic Inception (Gemini Era)** |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
@@ -503,6 +503,7 @@ Nubenetes utilizes a production-grade extraction hierarchy to ensure technical v
 3.  **Tertiary: Gemini Pro Grounding**: Direct Google Search retrieval if the platform blocks all automated access.
 
 ### 6.8. Critical Secrets and Environment Variables
+
 | Secret Name | Purpose | Technical Requirement |
 | :--- | :--- | :--- |
 | `GEMINI_API_KEY_1` | Primary AI Engine | Gemini 1.5 Pro/Flash access. |
@@ -743,7 +744,7 @@ Maintainers can manually trigger and tune workflows via the GitHub Actions UI. T
 
 | # | Workflow | Primary Manual Flags | Default | Technical Effect |
 | :---: | :--- | :--- | :---: | :--- |
-| **1** | **Agentic Curation** | `historical_mode` | ==TRUE== | Processes all discovery sources (ignores 30-day window). |
+| **1** | **Automated Agentic Curation** | `historical_mode` | ==TRUE== | Processes all discovery sources (ignores 30-day window). |
 | | | `include_*` | ==TRUE== | Toggles specific topics (k8s, cloud, ai, etc.). |
 | **2** | **V2 Health Monitor** | `force_full_check` | ==FALSE== | Bypasses 21-day health cache (Live HTTP Check). |
 | | | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
@@ -752,17 +753,17 @@ Maintainers can manually trigger and tune workflows via the GitHub Actions UI. T
 | **4** | **V2 AI Curator** | `force_reevaluate` | ==FALSE== | Bypasses AI summary cache (Full Gemini Re-run). |
 | | | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
 | **5** | **V2 Publisher** | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
-| **6** | **V2 Video Hub** | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
+| **6** | **V2 Video Hub Builder** | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
 | | | `force_enrich` | ==FALSE== | Bypasses video AI cache for deep re-analysis. |
-| **7** | **Link Health Check**| `force_full_check` | ==FALSE== | Bypasses cache for global archive auditing. |
-| **8** | **Backup Curation** | `historical_mode` | ==TRUE== | Ignores time windows for static file processing. |
-| **9** | **Emergency PR** | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
-| **10**| **PR Guardian** | N/A | ==AUTO== | Agentic pre-submit validation for PR compliance. |
+| **7** | **Intelligent Link Cleaner**| `force_full_check` | ==FALSE== | Bypasses cache for global archive auditing. |
+| **8** | **Backup-based Curation** | `historical_mode` | ==TRUE== | Ignores time windows for static file processing. |
+| **9** | **Emergency V2 PR Generator** | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
+| **10**| **PR Guardian AI** | N/A | ==AUTO== | Agentic pre-submit validation for PR compliance. |
 | **11**| **Markdown Linter** | N/A | ==AUTO== | Validates HMTL/Markdown syntax (ignores MD051/MD013). |
-| **12**| **Branch Cleanup** | N/A | ==CRON== | Deletes remote branches merged into `develop`. |
+| **12**| **Branch Lifecycle** | N/A | ==CRON== | Deletes remote branches merged into `develop`. |
 | **13**| **Asset Monitor** | N/A | ==CRON== | Tracks integrity of special assets and banners. |
-| **14**| **README Sync** | N/A | ==AUTO== | Updates metrics and TOC upon `develop` push. |
-| **15**| **Prod Deploy** | N/A | ==MASTER== | Native GH Pages deployment from stable artifacts. |
+| **14**| **README Automated Sync** | N/A | ==AUTO== | Updates metrics and TOC upon `develop` push. |
+| **15**| **GitHub Pages Deploy** | N/A | ==MASTER== | Native GH Pages deployment from stable artifacts. |
 
 #### 9.1.1. Optional Cache Restoration Policy
 To protect manual repository updates (e.g., specific metadata fixes or persistent links) from being accidentally overwritten by stale automated data, all V2 workflows implement an **Optional Cache Restoration** policy:
@@ -770,7 +771,7 @@ To protect manual repository updates (e.g., specific metadata fixes or persisten
 - **Manual Override**: The `restore_cache` flag must be explicitly checked during a `workflow_dispatch` trigger if the user intends to resume from the last automated state.
 - **Persistent Saving**: The system continues to save the updated state to the cache at the end of every successful run, regardless of the restore setting, ensuring long-term persistence.
 
-#### 9.1.1. [1] Agentic Curation Strategy
+#### 9.1.2. Automated Agentic Curation Strategy
 The **Nubenetes Automated Agentic Curation** workflow is designed to be exhaustive by default to ensure no emerging technical tool is missed.
 
 | Flag Name | Default | Technical Variable | Effect |
@@ -779,21 +780,21 @@ The **Nubenetes Automated Agentic Curation** workflow is designed to be exhausti
 | **Topic Toggles** | ==ON== | `include_k8s/cloud/ai` | Controls which domains are active in the current discovery run. |
 | **Backup Key** | ==OFF== | `activate_backup_key` | Enables Identity B (Subscription) for high-volume discovery bursts. |
 
-#### 9.1.2. [3] Intelligent Cleaner Strategy
+#### 9.1.3. Intelligent Cleaner Strategy
 The **Nubenetes Intelligent Link Cleaner** focuses on archive integrity. Its default setup is optimized for incremental maintenance.
 
 | Flag Name | Default | Technical Variable | Effect |
 | :--- | :---: | :--- | :--- |
 | **Force full re-validation** | ==OFF== | `force_full_check` | Bypasses the 21-day "Last Checked" logic to force a full 17k+ link audit. |
 
-#### 9.1.3. [4] Backup Ingestion Strategy
+#### 9.1.4. Backup Ingestion Strategy
 Used for processing legacy data or high-fidelity manual collections.
 
 | Flag Name | Default | Technical Variable | Effect |
 | :--- | :---: | :--- | :--- |
 | **Historical Mode** | ==ON== | `historical_mode` | Forces evaluation of all items in the backup file regardless of date. |
 
-#### 9.1.4. [6] Emergency PR Strategy (Read-Only)
+#### 9.1.5. Emergency PR Strategy (Read-Only Recovery)
 Designed as a "Safety Off-ramp" to recover partially processed data from the GitHub Actions Cache.
 
 | Security Feature | Status | technical Effect |
@@ -1080,4 +1081,3 @@ The technical resources (links, articles, videos) curated in this archive are th
 
 ### 15.3. Legal Disclaimer
 The information provided in this repository is for educational and professional reference purposes only. While our Agentic AI ensures high-fidelity curation, users should verify production configurations against official vendor documentation (AWS, Red Hat, CNCF) before deployment.
-t official vendor documentation (AWS, Red Hat, CNCF) before deployment.
