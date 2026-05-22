@@ -15,6 +15,11 @@ on:
         required: false
         type: boolean
         default: false
+      force_enrich:
+        description: 'Force AI re-enrichment of all videos (ignores cache)'
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -56,6 +61,7 @@ jobs:
         env:
           PYTHONPATH: ${{ github.workspace }}
           GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
+          FORCE_ENRICH: ${{ github.event.inputs.force_enrich || 'false' }}
         run: |
           python src/enrich_videos.py
 
