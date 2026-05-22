@@ -140,7 +140,7 @@ Additionally, as of May 2026, Nubenetes has reached the **Platinum Operational T
 | :--- | :--- |
 | **Total Technical Resources (Links)** | **15214+** |
 | **Specialized MD Pages** | **161** |
-| **Total Commits** | **5066+** |
+| **Total Commits** | **5078+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -178,7 +178,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 1507 | 6,223 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 1519 | 6,273 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -194,8 +194,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume (Commits / Estimated New Refs)" 0 --> 9000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 6223]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1507]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 6273]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1519]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -204,7 +204,7 @@ xychart-beta
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
-| 2026-05 | 1482 | 6,120 | **Agentic Inception (Gemini Era)** |
+| 2026-05 | 1494 | 6,170 | **Agentic Inception (Gemini Era)** |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
@@ -736,12 +736,22 @@ Maintainers can manually trigger and tune workflows via the GitHub Actions UI. T
 | **1** | **Agentic Curation** | `historical_mode` | ==TRUE== | Processes all discovery sources (ignores 30-day window). |
 | | | `include_*` | ==TRUE== | Toggles specific topics (k8s, cloud, ai, etc.). |
 | **2** | **V2 Health Monitor** | `force_full_check` | ==FALSE== | Bypasses 21-day health cache (Live HTTP Check). |
+| | | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
 | **3** | **V2 Metadata Engine** | `enrich_metadata` | ==TRUE== | Fetches fresh stars/licenses from GitHub API. |
+| | | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
 | **4** | **V2 AI Curator** | `force_reevaluate` | ==FALSE== | Bypasses AI summary cache (Full Gemini Re-run). |
-| **5** | **V2 Publisher** | N/A | ==AUTO== | Renders the portal from pre-enriched data. |
-| **6** | **Link Health Check**| `force_full_check` | ==FALSE== | Bypasses cache for global archive auditing. |
-| **7** | **Backup Curation** | `historical_mode` | ==TRUE== | Ignores time windows for static file processing. |
-| **8** | **Emergency PR** | N/A | ==READ-ONLY== | Generates PR from cache without AI calls. |
+| | | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
+| **5** | **V2 Publisher** | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
+| **6** | **V2 Video Hub** | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
+| **7** | **Link Health Check**| `force_full_check` | ==FALSE== | Bypasses cache for global archive auditing. |
+| **8** | **Backup Curation** | `historical_mode` | ==TRUE== | Ignores time windows for static file processing. |
+| **9** | **Emergency PR** | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
+
+#### 9.1.1. Optional Cache Restoration Policy
+To protect manual repository updates (e.g., specific metadata fixes or persistent links) from being accidentally overwritten by stale automated data, all V2 workflows implement an **Optional Cache Restoration** policy:
+- **Default State**: Cache restoration is **OFF** by default. Workflows prioritize the `inventory.yaml` and files physically present in the repository.
+- **Manual Override**: The `restore_cache` flag must be explicitly checked during a `workflow_dispatch` trigger if the user intends to resume from the last automated state.
+- **Persistent Saving**: The system continues to save the updated state to the cache at the end of every successful run, regardless of the restore setting, ensuring long-term persistence.
 
 #### 9.1.1. [1] Agentic Curation Strategy
 The **Nubenetes Automated Agentic Curation** workflow is designed to be exhaustive by default to ensure no emerging technical tool is missed.

@@ -8,6 +8,12 @@ on:
       - 'data/inventory.yaml'
       - 'docs/**'
   workflow_dispatch:
+    inputs:
+      restore_cache:
+        description: 'Restore inventory from cache (Warning: May overwrite recent manual changes)'
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -39,6 +45,7 @@ jobs:
           cache: 'pip'
 
       - name: Restore Incremental Inventory Cache
+        if: ${{ github.event.inputs.restore_cache == 'true' }}
         uses: actions/cache/restore@v4
         with:
           path: data/inventory.yaml
@@ -50,6 +57,12 @@ jobs:
         run: |
           pip install --no-cache-dir pydantic PyGithub httpx fake-useragent pytz python-dotenv pyyaml tenacity
           
+      - name: Execute Video Portal Generator
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: |
+          python -u src/v2_video_portal.py
+
       - name: Run V2 Publisher (Render-Only)
         env:
           PYTHONPATH: ${{ github.workspace }}

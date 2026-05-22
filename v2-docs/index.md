@@ -50,6 +50,8 @@
 - **(N/A)** [**==phauer.com: Why I Moved Back from Gradle to Maven==**](https://phauer.com/2018/moving-back-from-gradle-to-maven) 🌟🌟🌟🌟
 
 ## Strategic Dimensions
+- **[🎥 Agentic Video Hub (Architectural Summary)](./videos.md)**
+
 ### AI and Artificial Intelligence
 - **[Ai Agents Mcp](./ai-agents-mcp.md)**
 - **[Ai](./ai.md)**

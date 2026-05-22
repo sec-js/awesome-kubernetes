@@ -94,6 +94,7 @@ markdown_extensions:
 nav:
   - "🔙 Back to V1 (Exhaustive)": https://nubenetes.com/
   - "The 2026 Vision": index.md
+  - "Agentic Video Hub": videos.md
   - "AI and Artificial Intelligence":
     - "Ai Agents Mcp": ai-agents-mcp.md
     - "Ai": ai.md

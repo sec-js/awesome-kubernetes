@@ -724,6 +724,7 @@ class V2VisionEngine:
             f"<center markdown=\"1\">\n{mosaic_html}\n</center>\n\n"
             f"{pulse_md}\n\n"
             "## Strategic Dimensions\n"
+            "- **[🎥 Agentic Video Hub (Architectural Summary)](./videos.md)**\n\n"
         )
         
         # Group by dimension for index
@@ -827,7 +828,12 @@ class V2VisionEngine:
     async def _sync_enterprise_navigation(self, data: Dict[str, Dict]):
         try:
             with open("v2-mkdocs.yml", "r") as f: content = f.read()
-            nav = ["nav:", "  - \"🔙 Back to V1 (Exhaustive)\": https://nubenetes.com/", "  - \"The 2026 Vision\": index.md"]
+            nav = [
+                "nav:", 
+                "  - \"🔙 Back to V1 (Exhaustive)\": https://nubenetes.com/", 
+                "  - \"The 2026 Vision\": index.md",
+                "  - \"Agentic Video Hub\": videos.md"
+            ]
             
             # Group files by dimension
             dim_groups = {}

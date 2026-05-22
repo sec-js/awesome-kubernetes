@@ -9,6 +9,12 @@ on:
       - 'src/enrich_videos.py'
       - 'data/inventory.yaml'
   workflow_dispatch:
+    inputs:
+      restore_cache:
+        description: 'Restore inventory from cache (Warning: May overwrite recent manual changes)'
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -33,6 +39,7 @@ jobs:
           cache: 'pip'
 
       - name: Restore Incremental Inventory Cache
+        if: ${{ github.event.inputs.restore_cache == 'true' }}
         uses: actions/cache/restore@v4
         with:
           path: data/inventory.yaml

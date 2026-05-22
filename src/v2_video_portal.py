@@ -66,8 +66,8 @@ def generate_v2_videos():
     for cat in categories:
         clean_cat = clean_header(cat)
         slug = get_slug(cat)
-        # Use an anchor to ensure TOC works with cleaned headers
-        content.append(f"## {clean_cat} {{ #{slug} }}")
+        # Use standard headers (MkDocs generates anchors automatically)
+        content.append(f"## {clean_cat}")
         cat_videos = [v for v in featured_videos if v["category"] == cat]
         
         # Sort by video_order within category

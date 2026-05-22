@@ -7,17 +7,21 @@ on:
         description: 'Force AI re-evaluation (ignores cache for tags/years)'
         type: boolean
         default: false
+      restore_cache:
+        description: 'Restore inventory from cache (Warning: May overwrite recent manual changes)'
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
-  pull-requests: write
 
 concurrency:
   group: v2-ai-${{ github.ref }}
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
-  ai-curation:
+  run-ai:
     runs-on: ubuntu-latest
     steps:
       - name: Repository Synchronization
@@ -32,6 +36,7 @@ jobs:
           cache: 'pip'
 
       - name: Restore Incremental Inventory Cache
+        if: ${{ github.event.inputs.restore_cache == 'true' }}
         uses: actions/cache/restore@v4
         with:
           path: data/inventory.yaml
