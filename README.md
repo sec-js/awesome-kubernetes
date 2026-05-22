@@ -5,6 +5,7 @@
 [![V2 Metadata Engine](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_metadata.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_metadata.yml)
 [![V2 AI Curator](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_ai.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_ai.yml)
 [![V2 Publisher](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_publish.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_publish.yml)
+[![V2 Video Hub](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_videos.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_videos.yml)
 [![Intelligent Link Cleaner](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/intelligent_link_cleaner.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/intelligent_link_cleaner.yml)
 
 **Nubenetes** is a high-density, curated archive of the Kubernetes, Cloud Native, and Agentic AI ecosystem. Since its inception in 2018, it has evolved from a personal collection of references into an autonomous, AI-driven knowledge engine that processes thousands of technical resources to provide a definitive "Source of Truth" for engineers worldwide.
@@ -139,7 +140,7 @@ Additionally, as of May 2026, Nubenetes has reached the **Platinum Operational T
 | :--- | :--- |
 | **Total Technical Resources (Links)** | **15214+** |
 | **Specialized MD Pages** | **161** |
-| **Total Commits** | **5038+** |
+| **Total Commits** | **5042+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -177,7 +178,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 1479 | 6,108 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 1483 | 6,124 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -193,8 +194,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume (Commits / Estimated New Refs)" 0 --> 9000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 6108]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1479]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 6124]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1483]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -203,7 +204,7 @@ xychart-beta
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
-| 2026-05 | 1454 | 6,005 | **Agentic Inception (Gemini Era)** |
+| 2026-05 | 1458 | 6,021 | **Agentic Inception (Gemini Era)** |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
@@ -979,7 +980,8 @@ To maintain transparency and ease of navigation, all key configuration, database
 - **V2 Health Monitor:** [`.github/workflows/agentic_v2_health.yml`](.github/workflows/agentic_v2_health.yml) — Weekly archive network validation.
 - **V2 Metadata Engine:** [`.github/workflows/agentic_v2_metadata.yml`](.github/workflows/agentic_v2_metadata.yml) — Bi-weekly GitHub social proof extraction.
 - **V2 AI Curator:** [`.github/workflows/agentic_v2_ai.yml`](.github/workflows/agentic_v2_ai.yml) — On-demand Gemini-driven deep architectural analysis.
-- **V2 Publisher:** [`.github/workflows/agentic_v2_publish.yml`](.github/workflows/agentic_v2_publish.yml) — Integrated V2 portal generation (Enrichment, Video Hub, and Fast-Track rendering).
+- **V2 Publisher:** [`.github/workflows/agentic_v2_publish.yml`](.github/workflows/agentic_v2_publish.yml) — Automatic V2 portal generation (Fast-Track rendering).
+- **V2 Video Hub Builder:** [`.github/workflows/agentic_v2_videos.yml`](.github/workflows/agentic_v2_videos.yml) — Automated builder for the high-density Elite Video Hub.
 - **Link Health Check:** [`.github/workflows/intelligent_link_cleaner.yml`](.github/workflows/intelligent_link_cleaner.yml) — Perpetual archive integrity engine.
 - **README Metrics Sync:** [`.github/workflows/readme_sync.yml`](.github/workflows/readme_sync.yml)
 - **Emergency PR Generator:** [`.github/workflows/agentic_v2_pr_only.yml`](.github/workflows/agentic_v2_pr_only.yml) — Data recovery off-ramp.
