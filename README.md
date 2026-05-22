@@ -169,15 +169,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 <!-- ANNUAL_GROWTH_START -->
 | # | Year | Commits | Est. New Refs | Key Milestone |
 | :---: | :---: | :---: | :---: | :--- |
-| 1 | 2018 | 350 | 1,445 | **Munich Era (BMW IT-Zentrum)** |
-| 2 | 2019 | 142 | 586 | Early Growth and Open Source Launch |
-| 3 | 2020 | 2046 | 8,449 | **The Great Expansion** (Global Pandemic/Remote Era) |
-| 4 | 2021 | 531 | 2,193 | Maturity and Standardization |
-| 5 | 2022 | 402 | 1,660 | Cloud Native Hardening |
-| 6 | 2023 | 30 | 123 | Maintenance & Refinement |
-| 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
-| 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 1361 | 5,620 | **Agentic AI Surge** (May 2026 Inception) |
+| 1 | 2026 | 1 | 4 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
