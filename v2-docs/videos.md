@@ -7,7 +7,7 @@ Welcome to the **Agentic Video Hub**. This section presents a logical, architect
 1. [Architecture and Cloud Strategy](#architecture-and-cloud-strategy)
 2. [Fundamentals and Documentaries](#fundamentals-and-documentaries)
 
-## Architecture and Cloud Strategy { #architecture-and-cloud-strategy }
+## Architecture and Cloud Strategy
 ??? note "🎬 Global-Scale Media Streaming and Content Delivery Networks | `Content Delivery Networks (CDN) & Edge Computing`"
     !!! info "Architectural Summary"
         This resource represents a generic YouTube portal, which structurally reflects global-scale media dissemination leveraging low-latency edge caching, dynamic transcoding pipelines, and adaptive bitrate streaming. For 2026 cloud-native architectures, it highlights the critical integration of decentralized edge computing nodes co-located with ISPs to minimize egress costs and latency. Scalable microservices running on global container orchestrators are required to manage high-throughput metadata resolution and real-time telemetry ingestion.
@@ -200,7 +200,7 @@ Welcome to the **Agentic Video Hub**. This section presents a logical, architect
     <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?si=fJvBV63-mjQ6S-Ht&amp;list=PL7sEPiUbBLo_iTds-NV-9Tu05Gg2Aj8N7" title="Vitess: Scaling MySQL at YouTube Scale" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
     </center>
 
-## Fundamentals and Documentaries { #fundamentals-and-documentaries }
+## Fundamentals and Documentaries
 ??? note "🎬 Generic YouTube Video Placeholder | `None`"
     !!! info "Architectural Summary"
         The provided metadata represents the generic YouTube landing page rather than a specific technical presentation or engineering video. Consequently, no cloud-native architectural analysis or 2026 context can be extracted from this placeholder resource.

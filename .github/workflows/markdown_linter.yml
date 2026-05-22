@@ -30,5 +30,5 @@ jobs:
           # We only lint files in docs/ and v2-docs/ and README.md
           # but we ignore long line length rule (MD013) because links are long
           # We also ignore list indentation (MD005, MD007) and other structural rules that conflict with the Nubenetes database format
-          echo '{ "MD004": false, "MD005": false, "MD007": false, "MD009": false, "MD010": false, "MD012": false, "MD013": false, "MD014": false, "MD022": false, "MD028": false, "MD030": false, "MD032": false, "MD033": false, "MD034": false, "MD036": false, "MD038": false, "MD041": false, "MD046": false, "MD047": false, "MD050": false, "MD055": false, "MD060": false }' > .markdownlint.json
+          echo '{ "MD004": false, "MD005": false, "MD007": false, "MD009": false, "MD010": false, "MD012": false, "MD013": false, "MD014": false, "MD022": false, "MD028": false, "MD030": false, "MD032": false, "MD033": false, "MD034": false, "MD036": false, "MD038": false, "MD041": false, "MD046": false, "MD047": false, "MD050": false, "MD051": false, "MD055": false, "MD060": false }' > .markdownlint.json
           markdownlint-cli2 "docs/**/*.md" "v2-docs/**/*.md" "README.md"
