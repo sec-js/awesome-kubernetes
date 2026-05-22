@@ -140,7 +140,7 @@ Additionally, as of May 2026, Nubenetes has reached the **Platinum Operational T
 | :--- | :--- |
 | **Total Technical Resources (Links)** | **15214+** |
 | **Specialized MD Pages** | **161** |
-| **Total Commits** | **5028+** |
+| **Total Commits** | **5032+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -178,7 +178,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 1469 | 6,066 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 1473 | 6,083 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -194,8 +194,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume (Commits / Estimated New Refs)" 0 --> 9000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 6066]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1469]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 6083]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1473]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -204,7 +204,7 @@ xychart-beta
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
-| 2026-05 | 1444 | 5,963 | **Agentic Inception (Gemini Era)** |
+| 2026-05 | 1448 | 5,980 | **Agentic Inception (Gemini Era)** |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
@@ -991,6 +991,8 @@ To maintain transparency and ease of navigation, all key configuration, database
 - **Orchestration Core:** [`src/main.py`](src/main.py) - Master coordinator for discovery and evaluation.
 - **Curator Logic:** [`src/agentic_curator.py`](src/agentic_curator.py) - Primary classification and description engine.
 - **V2 Vision Engine:** [`src/v2_optimizer.py`](src/v2_optimizer.py) - Elite portal generation and maturity scoring.
+- **Video Hub Enrichment:** [`src/enrich_videos.py`](src/enrich_videos.py) - YouTube metadata extraction and AI synthesis.
+- **Video Portal Logic:** [`src/v2_video_portal.py`](src/v2_video_portal.py) - Categorized layout and O'Reilly journey builder.
 - **V2 Specialized Agents:**
     - **Health Monitor:** [`src/v2_health.py`](src/v2_health.py)
     - **Metadata Engine:** [`src/v2_metadata.py`](src/v2_metadata.py)
@@ -1045,3 +1047,4 @@ The technical resources (links, articles, videos) curated in this archive are th
 
 ### 15.3. Legal Disclaimer
 The information provided in this repository is for educational and professional reference purposes only. While our Agentic AI ensures high-fidelity curation, users should verify production configurations against official vendor documentation (AWS, Red Hat, CNCF) before deployment.
+t official vendor documentation (AWS, Red Hat, CNCF) before deployment.
