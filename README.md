@@ -991,6 +991,8 @@ To maintain transparency and ease of navigation, all key configuration, database
 - **Orchestration Core:** [`src/main.py`](src/main.py) - Master coordinator for discovery and evaluation.
 - **Curator Logic:** [`src/agentic_curator.py`](src/agentic_curator.py) - Primary classification and description engine.
 - **V2 Vision Engine:** [`src/v2_optimizer.py`](src/v2_optimizer.py) - Elite portal generation and maturity scoring.
+- **Video Hub Enrichment:** [`src/enrich_videos.py`](src/enrich_videos.py) - YouTube metadata extraction and AI synthesis.
+- **Video Portal Logic:** [`src/v2_video_portal.py`](src/v2_video_portal.py) - Categorized layout and O'Reilly journey builder.
 - **V2 Specialized Agents:**
     - **Health Monitor:** [`src/v2_health.py`](src/v2_health.py)
     - **Metadata Engine:** [`src/v2_metadata.py`](src/v2_metadata.py)
@@ -1045,3 +1047,4 @@ The technical resources (links, articles, videos) curated in this archive are th
 
 ### 15.3. Legal Disclaimer
 The information provided in this repository is for educational and professional reference purposes only. While our Agentic AI ensures high-fidelity curation, users should verify production configurations against official vendor documentation (AWS, Red Hat, CNCF) before deployment.
+t official vendor documentation (AWS, Red Hat, CNCF) before deployment.
