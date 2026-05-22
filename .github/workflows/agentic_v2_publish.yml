@@ -62,6 +62,8 @@ jobs:
           fi
 
       - name: Consolidate README Metrics
+        env:
+          PYTHONPATH: .
         run: |
           python src/readme_updater.py
           python src/safety_readme.py
