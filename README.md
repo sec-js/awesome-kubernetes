@@ -1,7 +1,10 @@
 # Nubenetes: The Intelligent Cloud Native Archive 🧠☁️
 
 [![Nubenetes Automated Agentic Curation](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_cron.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_cron.yml)
-[![Nubenetes V2 Agentic Builder](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_builder.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_builder.yml)
+[![V2 Health Monitor](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_health.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_health.yml)
+[![V2 Metadata Engine](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_metadata.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_metadata.yml)
+[![V2 AI Curator](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_ai.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_ai.yml)
+[![V2 Publisher](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_publish.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_publish.yml)
 [![Intelligent Link Cleaner](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/intelligent_link_cleaner.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/intelligent_link_cleaner.yml)
 
 **Nubenetes** is a high-density, curated archive of the Kubernetes, Cloud Native, and Agentic AI ecosystem. Since its inception in 2018, it has evolved from a personal collection of references into an autonomous, AI-driven knowledge engine that processes thousands of technical resources to provide a definitive "Source of Truth" for engineers worldwide.
@@ -382,17 +385,21 @@ To maintain the high-density quality of V2 without redundant AI costs, the `V2Vi
 3. **UI Polish**: Implements strategic highlighting (`==text==`) for top-tier resources and a clean chronological view that hides unknown dates.
 4. **Flat Routing**: Both versions use `use_directory_urls: false` to ensure relative asset paths (`images/`) remain stable across all sub-pages.
 
-### 5.5. V2 Workflow Trigger Strategy (Manual Flags)
-The **Nubenetes V2 Agentic Builder** workflow provides three manual checkboxes to control the intensity and depth of the curation run.
+### 5.5. Decoupled Knowledge Lifecycle (V2 Architecture)
+To scale to 10,000+ resources while staying within GitHub's 6-hour execution limit, the V2 creation process is decoupled into **Specialized Micro-Workflows**. Each workflow operates independently on the [Unified Inventory](data/inventory.yaml).
 
-| Flag Name | Default | Technical Variable | Primary Effect | When to Activate | Resource Impact |
-| :--- | :---: | :--- | :--- | :--- | :--- |
-| **Force full re-validation** | ==OFF== | `FORCE_FULL_CHECK` | Bypasses 21-day health cache. Forces live HTTP check for **all links**. | Quarterly audits or major migrations. | **High Network** |
-| **Enrich GitHub Metadata** | ==OFF== | `ENRICH_METADATA` | Bypasses star/pushed cache. Fetches **fresh data from GitHub API**. | Before major version releases (V2.x). | **Medium (GH API)** |
-| **Force AI re-evaluation** | ==OFF== | `FORCE_EVAL` | Bypasses AI summary cache. **Full Gemini Re-run** for every link. | Changing architectural standards. | **Ultra High AI** |
+| Workflow Name | Functional Domain | Trigger / Frequency | Key Benefit |
+| :--- | :--- | :--- | :--- |
+| **V2 Health Monitor** | **Network Stability** | Weekly / Manual | Validates 200 OK status without consuming AI tokens. |
+| **V2 Metadata Engine** | **Social Proof** | Bi-weekly / Manual | Fetches live stars and licenses via the GitHub API. |
+| **V2 AI Curator** | **Intelligence** | On-demand / Manual | Generates summaries and hierarchy using Gemini AI. |
+| **V2 Publisher** | **Aesthetics** | Automatic on Push | Fast-track rendering of the portal (V2 Portal). |
 
-#### 🚀 The 'Fast/Standard' Run Configuration (Recommended)
-To ensure an **instantaneous execution** (approx. 5-10 minutes) that prioritizes the cache, launch with **all checkboxes disabled**.
+#### 🚀 Decoupled Execution Strategy
+By separating these domains, Nubenetes ensures **100% Resilience**:
+1.  **Isolation of Failures**: A GitHub API rate limit in the Metadata Engine does not stop the AI Curator from processing already cached data.
+2.  **Quota Optimization**: Health checks use high-concurrency async HTTP, while the AI Curator uses structured batching to protect Gemini TPM/RPM.
+3.  **Fast-Track Deployment**: The Publisher performs zero network calls, regenerating the entire Elite portal in under 2 minutes.
 
 ---
 
@@ -726,11 +733,13 @@ Maintainers can manually trigger and tune workflows via the GitHub Actions UI. T
 | :---: | :--- | :--- | :---: | :--- |
 | **1** | **Agentic Curation** | `historical_mode` | ==TRUE== | Processes all discovery sources (ignores 30-day window). |
 | | | `include_*` | ==TRUE== | Toggles specific topics (k8s, cloud, ai, etc.). |
-| **2** | **V2 Elite Builder** | `FORCE_FULL_CHECK` | ==FALSE== | Bypasses 21-day health cache (Live HTTP Check). |
-| | | `FORCE_EVAL` | ==FALSE== | Bypasses AI summary cache (Full Gemini Re-run). |
-| **3** | **Link Health Check**| `force_full_check` | ==FALSE== | Bypasses cache for global archive auditing. |
-| **4** | **Backup Curation** | `historical_mode` | ==TRUE== | Ignores time windows for static file processing. |
-| **6** | **Emergency PR** | N/A | ==READ-ONLY== | Generates PR from cache without AI calls. |
+| **2** | **V2 Health Monitor** | `force_full_check` | ==FALSE== | Bypasses 21-day health cache (Live HTTP Check). |
+| **3** | **V2 Metadata Engine** | `enrich_metadata` | ==TRUE== | Fetches fresh stars/licenses from GitHub API. |
+| **4** | **V2 AI Curator** | `force_reevaluate` | ==FALSE== | Bypasses AI summary cache (Full Gemini Re-run). |
+| **5** | **V2 Publisher** | N/A | ==AUTO== | Renders the portal from pre-enriched data. |
+| **6** | **Link Health Check**| `force_full_check` | ==FALSE== | Bypasses cache for global archive auditing. |
+| **7** | **Backup Curation** | `historical_mode` | ==TRUE== | Ignores time windows for static file processing. |
+| **8** | **Emergency PR** | N/A | ==READ-ONLY== | Generates PR from cache without AI calls. |
 
 #### 9.1.1. [1] Agentic Curation Strategy
 The **Nubenetes Automated Agentic Curation** workflow is designed to be exhaustive by default to ensure no emerging technical tool is missed.
@@ -967,16 +976,23 @@ To maintain transparency and ease of navigation, all key configuration, database
 
 ### 13.3. Autonomous Workflows
 - **Discovery & Curation:** [`.github/workflows/agentic_cron.yml`](.github/workflows/agentic_cron.yml)
-- **V2 Elite Builder:** [`.github/workflows/agentic_v2_builder.yml`](.github/workflows/agentic_v2_builder.yml) — Generates the Elite curated portal using a sequential **Fast-Track** execution. Supports `force_reevaluate` (refreshes AI scores) and `enrich_metadata` (fetches real-time GitHub stars/license data).
-- **Health & Maintenance:** [`.github/workflows/intelligent_link_cleaner.yml`](.github/workflows/intelligent_link_cleaner.yml) — Performs sequential health checks and inventory reduction.
+- **V2 Health Monitor:** [`.github/workflows/agentic_v2_health.yml`](.github/workflows/agentic_v2_health.yml) — Weekly archive network validation.
+- **V2 Metadata Engine:** [`.github/workflows/agentic_v2_metadata.yml`](.github/workflows/agentic_v2_metadata.yml) — Bi-weekly GitHub social proof extraction.
+- **V2 AI Curator:** [`.github/workflows/agentic_v2_ai.yml`](.github/workflows/agentic_v2_ai.yml) — On-demand Gemini-driven deep architectural analysis.
+- **V2 Publisher:** [`.github/workflows/agentic_v2_publish.yml`](.github/workflows/agentic_v2_publish.yml) — Automatic V2 portal generation (Fast-Track rendering).
+- **Link Health Check:** [`.github/workflows/intelligent_link_cleaner.yml`](.github/workflows/intelligent_link_cleaner.yml) — Perpetual archive integrity engine.
 - **README Metrics Sync:** [`.github/workflows/readme_sync.yml`](.github/workflows/readme_sync.yml)
-- **Emergency PR Generator:** [`.github/workflows/agentic_v2_pr_only.yml`](.github/workflows/agentic_v2_pr_only.yml) — Recovery tool to publish current cached data without AI costs.
-- **Deployment Pipeline:** [`.github/workflows/main.yml`](.github/workflows/main.yml) — Native GitHub Pages deployment using artifacts and pip caching.
+- **Emergency PR Generator:** [`.github/workflows/agentic_v2_pr_only.yml`](.github/workflows/agentic_v2_pr_only.yml) — Data recovery off-ramp.
+- **Deployment Pipeline:** [`.github/workflows/main.yml`](.github/workflows/main.yml) — Native GitHub Pages artifact deployment.
 
 ### 13.4. Agentic AI Source Code
 - **Orchestration Core:** [`src/main.py`](src/main.py) - Master coordinator for discovery and evaluation.
 - **Curator Logic:** [`src/agentic_curator.py`](src/agentic_curator.py) - Primary classification and description engine.
 - **V2 Vision Engine:** [`src/v2_optimizer.py`](src/v2_optimizer.py) - Elite portal generation and maturity scoring.
+- **V2 Specialized Agents:**
+    - **Health Monitor:** [`src/v2_health.py`](src/v2_health.py)
+    - **Metadata Engine:** [`src/v2_metadata.py`](src/v2_metadata.py)
+    - **AI Curator Agent:** [`src/v2_ai.py`](src/v2_ai.py)
 - **Health Check Logic:** [`src/intelligent_health_checker.py`](src/intelligent_health_checker.py) - Link rot prevention and canonical updates.
 - **Twikit Ingestion:** [`src/ingestion_twikit.py`](src/ingestion_twikit.py) - X.com scraping and account rotation logic.
 - **Backup Ingestion:** [`src/ingestion_backup.py`](src/ingestion_backup.py) - Manual and historical JSON data processing.
