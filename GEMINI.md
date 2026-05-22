@@ -69,7 +69,7 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **Semantic Merge Logic**: If multiple URLs point to the same technical project (e.g., `user.github.io` vs `github.com/user/repo`), the agent MUST consolidate them into a single canonical reference, prioritizing the primary repository root.
     - **Metadata Merge**: Metadata from multiple sources for the same canonical URL MUST be merged, prioritizing the highest star rating and most recent date.
 
-25. **YouTube Content Enrichment**: Featured videos in the V2 Elite Video Hub MUST be enriched using real-time metadata (titles and descriptions) fetched directly from YouTube. This raw data is then synthesized by AI into technical "Curator Insights" and classified into logical architectural dimensions to ensure 100% content-to-description fidelity.
+25. **YouTube Content Enrichment**: Featured videos in the V2 Elite Video Hub MUST be enriched using real-time metadata (titles and descriptions) fetched directly from YouTube. This process is fully integrated into the **V2 Publisher Pipeline** to ensure that all architectural summaries and classifications in `inventory.yaml` maintain 100% content-to-description fidelity across all site regenerations.
 24. **Multi-Source Knowledge Discovery**: The discovery engine MUST be extensible beyond social media. 
     - **Engineering Blogs**: High-depth technical content from engineering blogs (via RSS/Atom) MUST be prioritized for high-impact dimensions.
     - **Source Diversity**: Monitor X.com, GitHub Trending, and RSS Feeds to maintain a balanced flow of technical news and architectural deep-dives.

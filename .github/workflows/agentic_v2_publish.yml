@@ -50,12 +50,18 @@ jobs:
         run: |
           pip install --no-cache-dir pydantic PyGithub httpx fake-useragent pytz python-dotenv pyyaml tenacity
           
-      - name: Run V2 Publisher (Render-Only)
+      - name: Run V2 Publisher (Enrichment & Rendering)
         env:
           PYTHONPATH: ${{ github.workspace }}
           PYTHONUNBUFFERED: "1"
         run: |
+          # 1. Enrich featured videos with real YouTube metadata (descriptions/titles)
+          python -u -m src.enrich_videos
+          # 2. Build the high-density Elite Video Hub page
+          python -u -m src.v2_video_portal
+          # 3. Standard V2 Elite generation (Render-Only)
           python -u -m src.v2_optimizer --render-only
+          
           if [ -f v2_safety_report.md ]; then
             cat v2_safety_report.md >> pr_description.md
           else
