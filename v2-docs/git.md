@@ -9,348 +9,348 @@
 
 #### Educational Guides
 
-  - **(2023)** [computerhoy.com: ¿Qué es el 'Deep Learning' y por qué se considera una revolución en la inteligencia artificial?](https://computerhoy.20minutos.es) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2023)** [computerhoy.com: ¿Qué es el 'Deep Learning' y por qué se considera una revolución en la inteligencia artificial?](https://computerhoy.20minutos.es) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Curator Insight provides a layperson's primer into how artificial neural networks learn patterns from vast datasets. Live Grounding shows this Spanish-language article is a useful primer for junior developers seeking entry-level deep learning definitions. [SPANISH CONTENT]
+Curator Insight provides a layperson's primer into how artificial neural networks learn patterns from vast datasets. Live Grounding shows this Spanish-language article is a useful primer for junior developers seeking entry-level deep learning definitions. [SPANISH CONTENT]
 
+</div></details>
 ## Cloud Native Architecture
 
 ### Kubernetes Operators
 
 #### CI-CD Auto-Scaling
 
-  - **(2026)** [==github.com/actions/actions-runner-controller 🌟==](https://github.com/actions/actions-runner-controller) <span class='md-tag md-tag--info'>⭐ 6250</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - **(2026)** [==github.com/actions/actions-runner-controller 🌟==](https://github.com/actions/actions-runner-controller) <span class='md-tag md-tag--info'>⭐ 6250</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An official Kubernetes operator designed to manage self-hosted runner infrastructure dynamically. Integrates natively with Kubernetes HPA metrics to automatically scale runner pods based on job queues.
+An official Kubernetes operator designed to manage self-hosted runner infrastructure dynamically. Integrates natively with Kubernetes HPA metrics to automatically scale runner pods based on job queues.
 
+</div></details>
 #### GitLab Orchestration
 
-  - **(2021)** [about.gitlab.com: How to install and use the GitLab Kubernetes Operator (on OCP)](https://about.gitlab.com/blog/2021/11/16/gko-on-ocp) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2021)** [about.gitlab.com: How to install and use the GitLab Kubernetes Operator (on OCP)](https://about.gitlab.com/blog/2021/11/16/gko-on-ocp) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An official deployment architecture guide showing how to implement the GitLab Kubernetes Operator on Red Hat OpenShift Container Platform (OCP). Provides configuration details for persistent volumes, container security contexts, and runners to ensure stable multi-tenant operations.
+An official deployment architecture guide showing how to implement the GitLab Kubernetes Operator on Red Hat OpenShift Container Platform (OCP). Provides configuration details for persistent volumes, container security contexts, and runners to ensure stable multi-tenant operations.
 
+</div></details>
 ## Cloud Native Infrastructure
 
 ### Container Registries
 
 #### GitHub Container Registry
 
-  - **(2020)** [itnext.io: Build & Ship: GitHub Container Registry & Kubernetes](https://itnext.io/build-ship-github-container-registry-kubernetes-aa06029b3f21) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2020)** [itnext.io: Build & Ship: GitHub Container Registry & Kubernetes](https://itnext.io/build-ship-github-container-registry-kubernetes-aa06029b3f21) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        This technical walkthrough explores using GitHub Container Registry (GHCR) to build, tag, push, and pull Docker containers natively inside Kubernetes deployment loops. It details how to set up pull secrets, automate container pushes with GitHub Actions, and synchronize build artifacts. In 2026, GHCR is a standard component of GitOps pipelines, making this integration highly relevant for cloud-native delivery teams.
+This technical walkthrough explores using GitHub Container Registry (GHCR) to build, tag, push, and pull Docker containers natively inside Kubernetes deployment loops. It details how to set up pull secrets, automate container pushes with GitHub Actions, and synchronize build artifacts. In 2026, GHCR is a standard component of GitOps pipelines, making this integration highly relevant for cloud-native delivery teams.
 
+</div></details>
 ### GitOps Control Planes
 
 #### Reliability as Code
 
-  - **(2020)** [github.blog: Extending GitOps to reliability-as-code with GitHub and StackPulse](https://github.blog/enterprise-software/devops/extending-gitops-to-reliability-as-code-with-github-and-stackpulse) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2020)** [github.blog: Extending GitOps to reliability-as-code with GitHub and StackPulse](https://github.blog/enterprise-software/devops/extending-gitops-to-reliability-as-code-with-github-and-stackpulse) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An exploration of integrating StackPulse incident response and playbook execution directly into GitHub GitOps workflows. By defining response playbooks as declarative code files within version control, teams can trigger automated remediation pipelines during production failures. It highlights the convergence of SRE engineering practices with declarative Git-driven configurations.
+An exploration of integrating StackPulse incident response and playbook execution directly into GitHub GitOps workflows. By defining response playbooks as declarative code files within version control, teams can trigger automated remediation pipelines during production failures. It highlights the convergence of SRE engineering practices with declarative Git-driven configurations.
 
+</div></details>
 ### Helm Charts
 
 #### GitLab Infrastructure
 
-  - **(2021)** [about.gitlab.com: GitLab Chart works towards Kubernetes 1.22](https://about.gitlab.com/blog/2021/12/17/gitlab-chart-works-towards-kubernetes-1-22) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span>
+  - **(2021)** [about.gitlab.com: GitLab Chart works towards Kubernetes 1.22](https://about.gitlab.com/blog/2021/12/17/gitlab-chart-works-towards-kubernetes-1-22) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        This development update outlines the efforts of the GitLab Helm Chart team to ensure compatibility with Kubernetes 1.22, addressing critical changes such as the removal of legacy v1beta1 APIs. This transition represents a historically significant engineering challenge for high-availability enterprise services migrating to modern declarative APIs. From a 2026 perspective, it highlights the continuous lifecycle maintenance required to run complex, stateful platforms natively on rapidly updating Kubernetes clusters.
+This development update outlines the efforts of the GitLab Helm Chart team to ensure compatibility with Kubernetes 1.22, addressing critical changes such as the removal of legacy v1beta1 APIs. This transition represents a historically significant engineering challenge for high-availability enterprise services migrating to modern declarative APIs. From a 2026 perspective, it highlights the continuous lifecycle maintenance required to run complex, stateful platforms natively on rapidly updating Kubernetes clusters.
 
+</div></details>
 ### Platform Engineering
 
 #### GitLab Operations
 
-  - **(2021)** [**about.gitlab.com: GitLab’s Kubernetes Operator with support for Red Hat OpenShift is now generally available**](https://about.gitlab.com/blog/2021/10/12/open-shift-ga) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2021)** [**about.gitlab.com: GitLab’s Kubernetes Operator with support for Red Hat OpenShift is now generally available**](https://about.gitlab.com/blog/2021/10/12/open-shift-ga) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        This announcement marks the general availability of the GitLab Kubernetes Operator for Red Hat OpenShift, streamlining enterprise GitLab runner and instance deployments on hybrid cloud setups. In the 2026 enterprise landscape, Kubernetes operators are the standard pattern for stateful application management, validating this operator's crucial role in automating lifecycle tasks like scaling, backups, and upgrades within secure, managed Kubernetes domains.
+This announcement marks the general availability of the GitLab Kubernetes Operator for Red Hat OpenShift, streamlining enterprise GitLab runner and instance deployments on hybrid cloud setups. In the 2026 enterprise landscape, Kubernetes operators are the standard pattern for stateful application management, validating this operator's crucial role in automating lifecycle tasks like scaling, backups, and upgrades within secure, managed Kubernetes domains.
 
-  - **(2022)** [about.gitlab.com: Simple Kubernetes management with GitLab](https://about.gitlab.com/blog/2022/11/15/simple-kubernetes-management-with-gitlab) 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2022)** [about.gitlab.com: Simple Kubernetes management with GitLab](https://about.gitlab.com/blog/2022/11/15/simple-kubernetes-management-with-gitlab) 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        This blog details GitLab's efforts to lower the barrier to entry for Kubernetes management by introducing declarative cluster integrations. It demonstrates how teams can connect clusters and safely deploy applications with minimal infrastructure overhead. Live engineering feedback stresses the value of this direct integration for small-to-midsize teams looking to deploy workloads without managing heavy external GitOps controllers.
+This blog details GitLab's efforts to lower the barrier to entry for Kubernetes management by introducing declarative cluster integrations. It demonstrates how teams can connect clusters and safely deploy applications with minimal infrastructure overhead. Live engineering feedback stresses the value of this direct integration for small-to-midsize teams looking to deploy workloads without managing heavy external GitOps controllers.
 
-  - **(2021)** [containerjournal.com: GitLab Brings Kubernetes Operator to Red Hat OpenShift](https://cloudnativenow.com/features/gitlab-brings-kubernetes-operator-to-red-hat-openshift) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [containerjournal.com: GitLab Brings Kubernetes Operator to Red Hat OpenShift](https://cloudnativenow.com/features/gitlab-brings-kubernetes-operator-to-red-hat-openshift) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        This industry report analyzes GitLab's strategic expansion to the Red Hat OpenShift ecosystem through its official Kubernetes Operator. Modern cloud-native platform architectures require simplified, declarative provisioning paths for hybrid deployment, and this integration remains a cornerstone for enterprise teams requiring automated GitOps-driven application delivery on managed Kubernetes clusters.
+This industry report analyzes GitLab's strategic expansion to the Red Hat OpenShift ecosystem through its official Kubernetes Operator. Modern cloud-native platform architectures require simplified, declarative provisioning paths for hybrid deployment, and this integration remains a cornerstone for enterprise teams requiring automated GitOps-driven application delivery on managed Kubernetes clusters.
 
+</div></details>
 #### GitOps Control Planes (1)
 
-  - **(2022)** [**itnext.io: Managing multiple Kubernetes clusters using Git 🌟**](https://itnext.io/managing-multiple-kubernetes-clusters-using-git-cd068bbd85ac) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2022)** [**itnext.io: Managing multiple Kubernetes clusters using Git 🌟**](https://itnext.io/managing-multiple-kubernetes-clusters-using-git-cd068bbd85ac) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An architectural analysis of strategies for managing multi-cluster Kubernetes deployments using Git as the single source of truth (GitOps). It breaks down repository structures, permission segmentation, and environment synchronization patterns required to coordinate global clusters safely. In 2026, multi-cluster federation and declarative management are standard requirements for enterprise high availability, making this a highly valuable blueprint.
+An architectural analysis of strategies for managing multi-cluster Kubernetes deployments using Git as the single source of truth (GitOps). It breaks down repository structures, permission segmentation, and environment synchronization patterns required to coordinate global clusters safely. In 2026, multi-cluster federation and declarative management are standard requirements for enterprise high availability, making this a highly valuable blueprint.
 
+</div></details>
 ## Continuous Delivery
 
 ### CI-CD Pipelines
 
 #### DevOps Education
 
-  - **(2021)** [**freecodecamp.org: DevOps with GitLab CI Course 🌟**](https://www.freecodecamp.org/news/devops-with-gitlab-ci-course) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2021)** [**freecodecamp.org: DevOps with GitLab CI Course 🌟**](https://www.freecodecamp.org/news/devops-with-gitlab-ci-course) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A comprehensive, high-quality free course curated by freeCodeCamp that covers the fundamentals of building end-to-end DevOps workflows using GitLab CI. It offers step-by-step guidance on constructing pipelines, running test suites, building Docker images, and managing production releases. For developers in 2026, it serves as an excellent educational baseline for understanding declarative pipeline logic and deployment patterns.
+A comprehensive, high-quality free course curated by freeCodeCamp that covers the fundamentals of building end-to-end DevOps workflows using GitLab CI. It offers step-by-step guidance on constructing pipelines, running test suites, building Docker images, and managing production releases. For developers in 2026, it serves as an excellent educational baseline for understanding declarative pipeline logic and deployment patterns.
 
-  - **(2022)** [community.ops.io: CI CD 101 with GitLab](https://community.ops.io/jatin/ci-cd-101-with-gitlab-4pol) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2022)** [community.ops.io: CI CD 101 with GitLab](https://community.ops.io/jatin/ci-cd-101-with-gitlab-4pol) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A community tutorial introducing the basic principles of continuous integration and continuous deployment within the GitLab platform. It provides a simple sandbox example demonstrating how YAML configuration files command runners to automate builds. This serves as a reliable onboarding resource for cloud-native newcomers transitioning from manual deployments to automated pipelines.
+A community tutorial introducing the basic principles of continuous integration and continuous deployment within the GitLab platform. It provides a simple sandbox example demonstrating how YAML configuration files command runners to automate builds. This serves as a reliable onboarding resource for cloud-native newcomers transitioning from manual deployments to automated pipelines.
 
+</div></details>
 #### GitLab CI
 
-  - **(2021)** [vadosware.io: Level 1 Automated K8S Deployments With GitLab CI](https://vadosware.io/post/level-one-automated-k8s-deployments-with-gitlab-ci) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2021)** [vadosware.io: Level 1 Automated K8S Deployments With GitLab CI](https://vadosware.io/post/level-one-automated-k8s-deployments-with-gitlab-ci) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A highly practical architectural guide detailing a 'Level 1' approach to automating Kubernetes deployments using standard GitLab CI/CD runner capabilities. By stripping away bloated frameworks, the author demonstrates how raw git workflows can safely deploy manifests directly to Kubernetes API endpoints. In the modern cloud landscape, this foundational model acts as a direct stepping stone toward full-fledged GitOps setups like ArgoCD or Flux.
+A highly practical architectural guide detailing a 'Level 1' approach to automating Kubernetes deployments using standard GitLab CI/CD runner capabilities. By stripping away bloated frameworks, the author demonstrates how raw git workflows can safely deploy manifests directly to Kubernetes API endpoints. In the modern cloud landscape, this foundational model acts as a direct stepping stone toward full-fledged GitOps setups like ArgoCD or Flux.
 
+</div></details>
 #### GitLab CI Running Environments
 
-  - **(2021)** [Deploy and Manage Gitlab Runners on Amazon EC2](https://aws.amazon.com/blogs/devops/deploy-and-manage-gitlab-runners-on-amazon-ec2) 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2021)** [Deploy and Manage Gitlab Runners on Amazon EC2](https://aws.amazon.com/blogs/devops/deploy-and-manage-gitlab-runners-on-amazon-ec2) 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An official AWS architectural guide detailing the orchestration of GitLab runners on Amazon EC2 instances with auto-scaling configurations. It outlines how to use AWS CloudFormation and Auto Scaling Groups to dynamically provision execution environments for high-concurrency CI/CD demands. This pattern remains highly stable for enterprise pipelines requiring dedicated, VM-isolated compute power, acting as a viable alternative or complement to Kubernetes-based runner architectures.
+An official AWS architectural guide detailing the orchestration of GitLab runners on Amazon EC2 instances with auto-scaling configurations. It outlines how to use AWS CloudFormation and Auto Scaling Groups to dynamically provision execution environments for high-concurrency CI/CD demands. This pattern remains highly stable for enterprise pipelines requiring dedicated, VM-isolated compute power, acting as a viable alternative or complement to Kubernetes-based runner architectures.
 
+</div></details>
 #### Quality Engineering
 
-  - **(2022)** [testmo.com: GitLab CI/CD Test Automation Pipeline & Reporting](https://www.testmo.com/guides/gitlab-ci-test-automation) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2022)** [testmo.com: GitLab CI/CD Test Automation Pipeline & Reporting](https://www.testmo.com/guides/gitlab-ci-test-automation) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        This guide explains how to integrate automated test execution and real-time test reporting inside GitLab CI/CD pipelines. It covers generating and uploading JUnit XML and JSON test results to track test suites, flaky tests, and overall system health. Modern microservices QA architectures depend on this rapid feedback loop to maintain short deployment cycles with absolute structural confidence.
+This guide explains how to integrate automated test execution and real-time test reporting inside GitLab CI/CD pipelines. It covers generating and uploading JUnit XML and JSON test results to track test suites, flaky tests, and overall system health. Modern microservices QA architectures depend on this rapid feedback loop to maintain short deployment cycles with absolute structural confidence.
 
+</div></details>
 ## Developer Tools
 
 ### API Integration
 
 #### OpenAPI Standards
 
-  - **(2020)** [**Introducing GitHub’s OpenAPI Description**](https://github.blog/news-insights/product-news/introducing-githubs-openapi-description) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2020)** [**Introducing GitHub’s OpenAPI Description**](https://github.blog/news-insights/product-news/introducing-githubs-openapi-description) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        This product announcement introduces GitHub's officially supported OpenAPI description documents, enabling automated SDK generation, validation, and schema integration. Delivering a fully compliant REST API specification allows developers to generate highly precise, type-safe API clients across multiple programming languages. It represents a massive step forward for developers seeking to programmatically manage and audit organization assets safely.
+This product announcement introduces GitHub's officially supported OpenAPI description documents, enabling automated SDK generation, validation, and schema integration. Delivering a fully compliant REST API specification allows developers to generate highly precise, type-safe API clients across multiple programming languages. It represents a massive step forward for developers seeking to programmatically manage and audit organization assets safely.
 
-  - **(2020)** [GitHub's OpenAPI Spec Open-Sourced in Beta](https://www.infoq.com/news/2020/08/GitHub-open-api-spec) 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+</div></details>
+  - **(2020)** [GitHub's OpenAPI Spec Open-Sourced in Beta](https://www.infoq.com/news/2020/08/GitHub-open-api-spec) 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An InfoQ news analysis covering GitHub's strategic move to open-source its REST API specification using the OpenAPI format. The article highlights how third-party tooling, API testing platforms, and developer tooling can consume these schemas to generate robust mock servers and client libraries. It is an important milestone in the shift toward standardized, contract-first API ecosystems across major developer platforms.
+An InfoQ news analysis covering GitHub's strategic move to open-source its REST API specification using the OpenAPI format. The article highlights how third-party tooling, API testing platforms, and developer tooling can consume these schemas to generate robust mock servers and client libraries. It is an important milestone in the shift toward standardized, contract-first API ecosystems across major developer platforms.
 
+</div></details>
 #### Python Clients
 
-  - **(2020)** [github.blog: Learn about ghapi, a new third-party Python client for the GitHub API](https://github.blog/developer-skills/programming-languages-and-frameworks/learn-about-ghapi-a-new-third-party-python-client-for-the-github-api) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2020)** [github.blog: Learn about ghapi, a new third-party Python client for the GitHub API](https://github.blog/developer-skills/programming-languages-and-frameworks/learn-about-ghapi-a-new-third-party-python-client-for-the-github-api) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An introductory post outlining ghapi, a lightweight and dynamically-generated third-party Python client mapping directly to GitHub's REST API. By parsing OpenAPI definitions dynamically, it ensures total, up-to-date compliance with GitHub's endpoints without requiring manual updates. It provides a robust alternative to PyGithub for automations, scripting, and system integrations.
+An introductory post outlining ghapi, a lightweight and dynamically-generated third-party Python client mapping directly to GitHub's REST API. By parsing OpenAPI definitions dynamically, it ensures total, up-to-date compliance with GitHub's endpoints without requiring manual updates. It provides a robust alternative to PyGithub for automations, scripting, and system integrations.
 
+</div></details>
 ### Cloud Developer Environments
 
 #### Platform Optimization
 
-  - **(2022)** [**infoq.com: GitHub Codespaces Can Now Be Templated to Improve Performance**](https://www.infoq.com/news/2022/02/github-codespaces-templates) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2022)** [**infoq.com: GitHub Codespaces Can Now Be Templated to Improve Performance**](https://www.infoq.com/news/2022/02/github-codespaces-templates) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        This technical news article details the introduction of Codespaces templates, designed to optimize boot times and environment reproducibility. By pre-building dependencies and container configurations, developers can spin up fully realized environments almost instantaneously. This performance optimization is critical for scaling enterprise-grade remote development initiatives while controlling execution costs.
+This technical news article details the introduction of Codespaces templates, designed to optimize boot times and environment reproducibility. By pre-building dependencies and container configurations, developers can spin up fully realized environments almost instantaneously. This performance optimization is critical for scaling enterprise-grade remote development initiatives while controlling execution costs.
 
+</div></details>
 #### Visual Studio Integrations
 
-  - **(2026)** [==GitHub Codespaces==](https://github.com/features/codespaces) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2026)** [==GitHub Codespaces==](https://github.com/features/codespaces) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        GitHub Codespaces delivers cloud-hosted, highly configurable development environments running directly inside Visual Studio Code or browser instances. By leveraging declarative configuration (devcontainer.json), platform teams can eliminate the standard 'works on my machine' problem and onboard developers in seconds. It represents a paradigm shift in software engineering productivity, replacing heavy local setups with scalable, secure cloud-native workstations.
+GitHub Codespaces delivers cloud-hosted, highly configurable development environments running directly inside Visual Studio Code or browser instances. By leveraging declarative configuration (devcontainer.json), platform teams can eliminate the standard 'works on my machine' problem and onboard developers in seconds. It represents a paradigm shift in software engineering productivity, replacing heavy local setups with scalable, secure cloud-native workstations.
 
+</div></details>
 #### Web IDEs
 
-  - **(2021)** [dev.to: 10 Fun Things You Can Do With GitHub.dev 😎](https://dev.to/lostintangent/10-awesome-things-you-can-do-with-github-dev-5fm7) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2021)** [dev.to: 10 Fun Things You Can Do With GitHub.dev 😎](https://dev.to/lostintangent/10-awesome-things-you-can-do-with-github-dev-5fm7) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        This guide details 10 highly useful features of github.dev, the web-based, zero-install IDE that opens immediately when pressing '.' inside any GitHub repository. It explores editing workflows, extensions compatibility, and visual commits directly on the web. It serves as an excellent operational guide for quick reviews and documentation modifications without spinning up local environments.
+This guide details 10 highly useful features of github.dev, the web-based, zero-install IDE that opens immediately when pressing '.' inside any GitHub repository. It explores editing workflows, extensions compatibility, and visual commits directly on the web. It serves as an excellent operational guide for quick reviews and documentation modifications without spinning up local environments.
 
+</div></details>
 ### Collaboration and Workflow
 
 #### Command Line Tools
 
-  - **(2026)** [==GitHub CLI==](https://cli.github.com) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - **(2026)** [==GitHub CLI==](https://cli.github.com) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        GitHub's official command-line interface (gh) brings pull requests, issues, releases, and actions directly to the terminal. It serves as an essential utility for developers and platform engineers to automate repository operations, script complex workflows, and integrate native GitHub features without leaving the terminal context. In 2026, it is an indispensable element of automated infrastructure and developer workstations.
+GitHub's official command-line interface (gh) brings pull requests, issues, releases, and actions directly to the terminal. It serves as an essential utility for developers and platform engineers to automate repository operations, script complex workflows, and integrate native GitHub features without leaving the terminal context. In 2026, it is an indispensable element of automated infrastructure and developer workstations.
 
-  - **(2021)** [**github.blog: GitHub CLI 2.0 includes extensions!**](https://github.blog/news-insights/product-news/github-cli-2-0-includes-extensions) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+</div></details>
+  - **(2021)** [**github.blog: GitHub CLI 2.0 includes extensions!**](https://github.blog/news-insights/product-news/github-cli-2-0-includes-extensions) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        This product update details the release of GitHub CLI 2.0, introducing a robust extension model that allows developers to write, share, and install custom commands natively inside the gh tool. This capability transforms the CLI into an extensible developer-experience hub tailored to organization-specific workflows. For platform teams in 2026, it is an essential mechanism for distributing localized platform commands directly to developers' shells.
+This product update details the release of GitHub CLI 2.0, introducing a robust extension model that allows developers to write, share, and install custom commands natively inside the gh tool. This capability transforms the CLI into an extensible developer-experience hub tailored to organization-specific workflows. For platform teams in 2026, it is an essential mechanism for distributing localized platform commands directly to developers' shells.
 
+</div></details>
 #### Desktop Integrations
 
-  - **(2021)** [about.gitlab.com: Why we built GitDock, our desktop app to navigate your GitLab activities](https://about.gitlab.com/blog/2021/10/05/gitpod-desktop-app-personal-activities) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2021)** [about.gitlab.com: Why we built GitDock, our desktop app to navigate your GitLab activities](https://about.gitlab.com/blog/2021/10/05/gitpod-desktop-app-personal-activities) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        GitDock was introduced to simplify personal GitLab workflow tracking by displaying activities directly on the desktop. While it streamlines developer interaction with GitLab issues, merge requests, and pipelines without browser-hopping, live engineering trends in 2026 favor deeply integrated IDE extensions or web-native environments like Gitpod and Codespaces.
+GitDock was introduced to simplify personal GitLab workflow tracking by displaying activities directly on the desktop. While it streamlines developer interaction with GitLab issues, merge requests, and pipelines without browser-hopping, live engineering trends in 2026 favor deeply integrated IDE extensions or web-native environments like Gitpod and Codespaces.
 
+</div></details>
 #### Developer Education
 
-  - **(2026)** [**education.github.com**](https://github.com/education) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2026)** [**education.github.com**](https://github.com/education) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        GitHub Education offers a comprehensive suite of resources, including the Student Developer Pack, Github Classroom, and campus programs designed to empower the next generation of engineers with industry-grade software tools. Providing free access to essential developer services, it acts as a critical bridge between academic instruction and professional continuous delivery environments.
+GitHub Education offers a comprehensive suite of resources, including the Student Developer Pack, Github Classroom, and campus programs designed to empower the next generation of engineers with industry-grade software tools. Providing free access to essential developer services, it acts as a critical bridge between academic instruction and professional continuous delivery environments.
 
+</div></details>
 #### Developer Relations
 
-  - **(2021)** [stackoverflow.blog: GitLab launches Collective on Stack Overflow](https://stackoverflow.blog/2021/09/22/gitlab-launches-collective-on-stack-overflow) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2021)** [stackoverflow.blog: GitLab launches Collective on Stack Overflow](https://stackoverflow.blog/2021/09/22/gitlab-launches-collective-on-stack-overflow) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        This announcement details the creation of the GitLab Collective on Stack Overflow to aggregate community knowledge, Q&A, and technical documentation into a centralized developer portal. By consolidating debugging information and best practices, it aims to reduce support overhead and accelerate developer onboarding. It represents a coordinated effort to build unified community support channels for complex DevOps tools.
+This announcement details the creation of the GitLab Collective on Stack Overflow to aggregate community knowledge, Q&A, and technical documentation into a centralized developer portal. By consolidating debugging information and best practices, it aims to reduce support overhead and accelerate developer onboarding. It represents a coordinated effort to build unified community support channels for complex DevOps tools.
 
+</div></details>
 #### Documentation Engines
 
-  - **(2020)** [github.blog: How we launched docs.github.com](https://github.blog/engineering/how-we-launched-docs-github-com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2020)** [github.blog: How we launched docs.github.com](https://github.blog/engineering/how-we-launched-docs-github-com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An in-depth engineering case study describing GitHub's architectural migration of its developer documentation site to a modern, Markdown-driven, node.js platform. It details how the engineering team optimized rendering performance, designed internationalization frameworks, and maintained strict availability under massive traffic. This serves as a vital blueprint for any team building developer portal documentation platforms at hyper-scale.
+An in-depth engineering case study describing GitHub's architectural migration of its developer documentation site to a modern, Markdown-driven, node.js platform. It details how the engineering team optimized rendering performance, designed internationalization frameworks, and maintained strict availability under massive traffic. This serves as a vital blueprint for any team building developer portal documentation platforms at hyper-scale.
 
+</div></details>
 #### Enterprise Code Auditing
 
-  - **(2022)** [infoworld.com: GitHub introduces code review controls 🌟](https://www.infoworld.com/article/2270808/github-introduces-code-review-controls.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2022)** [infoworld.com: GitHub introduces code review controls 🌟](https://www.infoworld.com/article/2270808/github-introduces-code-review-controls.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        This InfoWorld article highlights GitHub's enhancement of its governance capabilities through advanced code review controls, ensuring compliance policies can be enforced programmatically. By restricting who can approve pull requests and ensuring checks pass, organizations can automate their security and governance criteria. For enterprises running in regulated environments, these platform constraints are critical to maintaining audit trails.
+This InfoWorld article highlights GitHub's enhancement of its governance capabilities through advanced code review controls, ensuring compliance policies can be enforced programmatically. By restricting who can approve pull requests and ensuring checks pass, organizations can automate their security and governance criteria. For enterprises running in regulated environments, these platform constraints are critical to maintaining audit trails.
 
+</div></details>
 #### Frontend Web Components
 
-  - **(2018)** [buttons.github.io: GitHub Buttons](https://buttons.github.io) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2018)** [buttons.github.io: GitHub Buttons](https://buttons.github.io) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A popular web resource that allows developers to generate customizable, lightweight, unofficial GitHub badges and buttons for their landing pages. These badges provide visual social proof (such as Star, Watch, or Fork counts) directly inside web interfaces. It remains a staple component of modern open-source marketing and project documentation strategies.
+A popular web resource that allows developers to generate customizable, lightweight, unofficial GitHub badges and buttons for their landing pages. These badges provide visual social proof (such as Star, Watch, or Fork counts) directly inside web interfaces. It remains a staple component of modern open-source marketing and project documentation strategies.
 
+</div></details>
 #### Git Basics
 
-  - **(2021)** [dev.to: Git and GitHub: The Complete Guides - Chapter 6: GitHub Merging](https://dev.to/ifierygod/git-and-github-the-complete-guides-chapter-6-2c74) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2021)** [dev.to: Git and GitHub: The Complete Guides - Chapter 6: GitHub Merging](https://dev.to/ifierygod/git-and-github-the-complete-guides-chapter-6-2c74) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        This educational chapter offers a granular breakdown of GitHub merge mechanics, detailing the technical and operational differences between standard merges, squashes, and rebases. By illustrating these models visually, the guide assists engineering teams in establishing clean, history-preserving git workflows. It is highly valued as a reference for mastering commit control in shared development environments.
+This educational chapter offers a granular breakdown of GitHub merge mechanics, detailing the technical and operational differences between standard merges, squashes, and rebases. By illustrating these models visually, the guide assists engineering teams in establishing clean, history-preserving git workflows. It is highly valued as a reference for mastering commit control in shared development environments.
 
-  - **(2021)** [dev.to: Git and GitHub Series' Articles - The Complete Guides 🌟](https://dev.to/ifierygod/series/14420) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [dev.to: Git and GitHub Series' Articles - The Complete Guides 🌟](https://dev.to/ifierygod/series/14420) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A comprehensive community collection of guides detailing Git and GitHub workflows from initial commits to advanced repository structures. It provides developers with a clear roadmap to master branches, merge conflicts, pull requests, and security profiles. It functions as an onboarding baseline for developers seeking a cohesive understanding of modern version control.
+A comprehensive community collection of guides detailing Git and GitHub workflows from initial commits to advanced repository structures. It provides developers with a clear roadmap to master branches, merge conflicts, pull requests, and security profiles. It functions as an onboarding baseline for developers seeking a cohesive understanding of modern version control.
 
+</div></details>
 #### InnerSource Methodology
 
-  - **(2021)** [github.blog: Solving the innersource discovery problem - Discoverability](https://github.blog/enterprise-software/devops/solving-the-innersource-discovery-problem) 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2021)** [github.blog: Solving the innersource discovery problem - Discoverability](https://github.blog/enterprise-software/devops/solving-the-innersource-discovery-problem) 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        This blog examines strategies for resolving the InnerSource discovery problem within large enterprises by building unified project catalogues inside GitHub. By utilizing custom repository tags, descriptive metadata, and search API queries, engineering organizations can minimize redundant codebases and foster cross-team collaboration. This framework is highly valuable for multi-thousand developer enterprises aiming to optimize architectural reuse.
+This blog examines strategies for resolving the InnerSource discovery problem within large enterprises by building unified project catalogues inside GitHub. By utilizing custom repository tags, descriptive metadata, and search API queries, engineering organizations can minimize redundant codebases and foster cross-team collaboration. This framework is highly valuable for multi-thousand developer enterprises aiming to optimize architectural reuse.
 
+</div></details>
 #### Multi-Repository Management
 
-  - **(2021)** [**blog.gruntwork.io: Introducing git-xargs: an open source tool to update multiple GitHub repos**](https://www.gruntwork.io/blog/introducing-git-xargs-an-open-source-tool-to-update-multiple-github-repos) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2021)** [**blog.gruntwork.io: Introducing git-xargs: an open source tool to update multiple GitHub repos**](https://www.gruntwork.io/blog/introducing-git-xargs-an-open-source-tool-to-update-multiple-github-repos) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Gruntwork introduces git-xargs, a powerful open-source command-line tool designed to perform bulk edits across multiple GitHub repositories concurrently using scripts or CLI commands. It automates the tedious task of branching, committing, pushing, and opening pull requests across dozens of repositories. For platform engineering teams managing microservice fleets, this utility dramatically reduces the overhead of updating shared configurations.
+Gruntwork introduces git-xargs, a powerful open-source command-line tool designed to perform bulk edits across multiple GitHub repositories concurrently using scripts or CLI commands. It automates the tedious task of branching, committing, pushing, and opening pull requests across dozens of repositories. For platform engineering teams managing microservice fleets, this utility dramatically reduces the overhead of updating shared configurations.
 
+</div></details>
 #### Product Strategy
 
-  - **(2026)** [==GitHub public roadmap 🌟==](https://github.com/github/roadmap) <span class='md-tag md-tag--info'>⭐ 8740</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - **(2026)** [==GitHub public roadmap 🌟==](https://github.com/github/roadmap) <span class='md-tag md-tag--info'>⭐ 8740</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        The official interactive roadmap repository for upcoming features across GitHub's product suite (Copilot, Actions, Projects, Security). This public portal allows product managers and platform architects to anticipate feature deliveries and align internal DevOps transformations with upstream capabilities. In 2026, it remains a model of public transparency in platform software engineering.
+The official interactive roadmap repository for upcoming features across GitHub's product suite (Copilot, Actions, Projects, Security). This public portal allows product managers and platform architects to anticipate feature deliveries and align internal DevOps transformations with upstream capabilities. In 2026, it remains a model of public transparency in platform software engineering.
 
+</div></details>
 #### Repository Migration
 
-  - **(2021)** [returngis.net: Migrar un repositorio de un BitBucket Server local a GitHub](https://www.returngis.net/2021/11/migrar-un-repositorio-de-un-bitbucket-server-local-a-github) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2021)** [returngis.net: Migrar un repositorio de un BitBucket Server local a GitHub](https://www.returngis.net/2021/11/migrar-un-repositorio-de-un-bitbucket-server-local-a-github) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Esta guía técnica detalla el proceso paso a paso para migrar repositorios desde un servidor BitBucket local hacia GitHub de manera segura. El autor describe los comandos de clonación profunda, la preservación de metadatos históricos de Git y la gestión de ramas. Para equipos de ingeniería en proceso de consolidación de herramientas DevOps, este recurso ofrece un plano de migración pragmático. [SPANISH CONTENT]
+Esta guía técnica detalla el proceso paso a paso para migrar repositorios desde un servidor BitBucket local hacia GitHub de manera segura. El autor describe los comandos de clonación profunda, la preservación de metadatos históricos de Git y la gestión de ramas. Para equipos de ingeniería en proceso de consolidación de herramientas DevOps, este recurso ofrece un plano de migración pragmático. [SPANISH CONTENT]
 
+</div></details>
 #### Repository Settings
 
-  - **(2020)** [github.blog: Set the default branch for newly-created repositories](https://github.blog/changelog/2020-08-26-set-the-default-branch-for-newly-created-repositories) 🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2020)** [github.blog: Set the default branch for newly-created repositories](https://github.blog/changelog/2020-08-26-set-the-default-branch-for-newly-created-repositories) 🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        This official changelog details the introduction of user-defined default branch names (e.g., main instead of master) for newly created repositories. It represented an important step towards cultural alignment and programmatic consistency in modern developer workflows. This configuration option is globally standard across all organizations to maintain uniform version control structures.
+This official changelog details the introduction of user-defined default branch names (e.g., main instead of master) for newly created repositories. It represented an important step towards cultural alignment and programmatic consistency in modern developer workflows. This configuration option is globally standard across all organizations to maintain uniform version control structures.
 
+</div></details>
 #### UI Optimization
 
-  - **(2021)** [github.blog: Improved pull request file filtering](https://github.blog/changelog/2021-09-27-improved-pull-request-file-filtering) 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2021)** [github.blog: Improved pull request file filtering](https://github.blog/changelog/2021-09-27-improved-pull-request-file-filtering) 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        This changelog details UI additions that permit advanced, syntax-aware file filtering inside pull requests, helping engineers focus on specific directories, file types, or owned code paths during reviews. This optimization speeds up reviews for monorepos, where single pull requests can touch multiple independent microservices. In the current engineering landscape, this is a staple feature that enhances developer efficiency during code audits.
+This changelog details UI additions that permit advanced, syntax-aware file filtering inside pull requests, helping engineers focus on specific directories, file types, or owned code paths during reviews. This optimization speeds up reviews for monorepos, where single pull requests can touch multiple independent microservices. In the current engineering landscape, this is a staple feature that enhances developer efficiency during code audits.
 
-  - **(2020)** [Things you didn't know you could diff in GitHub](https://sebastiandedeyne.com/things-you-didnt-know-you-could-diff-in-github) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2020)** [Things you didn't know you could diff in GitHub](https://sebastiandedeyne.com/things-you-didnt-know-you-could-diff-in-github) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        This practical blog post explores advanced, lesser-known capabilities of the GitHub visual diff engine, including comparing images, text files, and custom formats. Utilizing these hidden comparison features allows engineers to speed up pull request reviews and visual audits. For front-end developers and UI teams, this offers native workflow enhancements without installing local comparison suites.
+This practical blog post explores advanced, lesser-known capabilities of the GitHub visual diff engine, including comparing images, text files, and custom formats. Utilizing these hidden comparison features allows engineers to speed up pull request reviews and visual audits. For front-end developers and UI teams, this offers native workflow enhancements without installing local comparison suites.
 
+</div></details>
 ### Continuous Delivery (1)
 
 #### Enterprise Deployment Architectures
 
-  - **(2020)** [**github.blog: Improving how we deploy GitHub**](https://github.blog/enterprise-software/devops/improving-how-we-deploy-github) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2020)** [**github.blog: Improving how we deploy GitHub**](https://github.blog/enterprise-software/devops/improving-how-we-deploy-github) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An in-depth engineering review of the continuous deployment modifications implemented internally at GitHub to optimize deployment safety, speed, and recovery. It details how the engineering team coordinates hundreds of daily deployments of their monolithic codebase without disrupting global user traffic. The architectural insights on canary deployments and rapid rollbacks offer massive value for platform architects scaling critical enterprise systems.
+An in-depth engineering review of the continuous deployment modifications implemented internally at GitHub to optimize deployment safety, speed, and recovery. It details how the engineering team coordinates hundreds of daily deployments of their monolithic codebase without disrupting global user traffic. The architectural insights on canary deployments and rapid rollbacks offer massive value for platform architects scaling critical enterprise systems.
 
-  - **(2020)** [**github.blog: Deployment reliability at GitHub**](https://github.blog/developer-skills/github/deployment-reliability-at-github) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+</div></details>
+  - **(2020)** [**github.blog: Deployment reliability at GitHub**](https://github.blog/developer-skills/github/deployment-reliability-at-github) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        This engineering post addresses the operational workflows and tools used by GitHub engineers to ensure service reliability during heavy continuous deployment cycles. It details monitoring techniques, automatic circuit breakers, and database migration safety profiles. Understanding these practices helps modern platform engineering departments construct resilient software delivery frameworks of similar scale.
+This engineering post addresses the operational workflows and tools used by GitHub engineers to ensure service reliability during heavy continuous deployment cycles. It details monitoring techniques, automatic circuit breakers, and database migration safety profiles. Understanding these practices helps modern platform engineering departments construct resilient software delivery frameworks of similar scale.
 
+</div></details>
 ### Infrastructure Monitoring
 
 #### Developer Experience Dashboards
 
-  - **(2020)** [grafana.com: How we use the Grafana GitHub plugin to track outstanding pull requests](https://grafana.com/blog/2020/09/21/how-we-use-the-grafana-github-plugin-to-track-outstanding-pull-requests) 🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2020)** [grafana.com: How we use the Grafana GitHub plugin to track outstanding pull requests](https://grafana.com/blog/2020/09/21/how-we-use-the-grafana-github-plugin-to-track-outstanding-pull-requests) 🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Grafana details their internal workflow configuration utilizing the Grafana GitHub plugin to visualize team velocity, pull request backlogs, and code review cycle times. This approach transitions software delivery metrics into real-time operational panels alongside infrastructure performance data. By unifying telemetry and development state, engineering managers gain unprecedented visibility into systemic delivery bottlenecks.
+Grafana details their internal workflow configuration utilizing the Grafana GitHub plugin to visualize team velocity, pull request backlogs, and code review cycle times. This approach transitions software delivery metrics into real-time operational panels alongside infrastructure performance data. By unifying telemetry and development state, engineering managers gain unprecedented visibility into systemic delivery bottlenecks.
 
+</div></details>
 #### Developer Platform Reliability
 
-  - **(2026)** [==githubstatus.com 🌟==](https://www.githubstatus.com) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - **(2026)** [==githubstatus.com 🌟==](https://www.githubstatus.com) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        The official live health status dashboard for GitHub services, offering real-time tracking of API, Git operations, Actions, Packages, and Pages. This portal is a critical dependency for worldwide enterprise CI/CD monitoring, alerting DevOps teams of platform-wide outages. Continuous monitoring of this page is a fundamental operational pattern for platform engineers relying on automated deployment workflows.
+The official live health status dashboard for GitHub services, offering real-time tracking of API, Git operations, Actions, Packages, and Pages. This portal is a critical dependency for worldwide enterprise CI/CD monitoring, alerting DevOps teams of platform-wide outages. Continuous monitoring of this page is a fundamental operational pattern for platform engineers relying on automated deployment workflows.
 
-  - **(2026)** [==githubstatus.com/uptime 🌟==](https://www.githubstatus.com/uptime) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+</div></details>
+  - **(2026)** [==githubstatus.com/uptime 🌟==](https://www.githubstatus.com/uptime) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        The dedicated uptime tracker of the GitHub platform, exposing SLA historical logs and service reliability metrics over rolling cycles. This endpoint is highly valued by operations and compliance teams validating continuous delivery commitments and tracking upstream infrastructure health. It provides empirical foundation metrics to build resilient multi-region or hybrid development setups.
+The dedicated uptime tracker of the GitHub platform, exposing SLA historical logs and service reliability metrics over rolling cycles. This endpoint is highly valued by operations and compliance teams validating continuous delivery commitments and tracking upstream infrastructure health. It provides empirical foundation metrics to build resilient multi-region or hybrid development setups.
 
+</div></details>
 ### Security and Compliance
 
 #### Identity and Access Management
 
-  - **(2021)** [**github.blog: Security keys are now supported for SSH Git operations 🌟**](https://github.blog/engineering/security-keys-supported-ssh-git-operations) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2021)** [**github.blog: Security keys are now supported for SSH Git operations 🌟**](https://github.blog/engineering/security-keys-supported-ssh-git-operations) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An engineering post announcing GitHub's native support for physical security keys (FIDO2) during SSH-based Git operations. This capability permits developers to secure their command-line Git flows using hardware-based cryptographic keys, protecting local machines against key-extraction attacks. In 2026, enforcing hardware-backed credentials remains a core security pillar for high-compliance enterprise teams.
+An engineering post announcing GitHub's native support for physical security keys (FIDO2) during SSH-based Git operations. This capability permits developers to secure their command-line Git flows using hardware-based cryptographic keys, protecting local machines against key-extraction attacks. In 2026, enforcing hardware-backed credentials remains a core security pillar for high-compliance enterprise teams.
 
-  - **(2020)** [Token authentication requirements for API and Git operations](https://github.blog/news-insights/company-news/token-authentication-requirements-for-api-and-git-operations) 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+</div></details>
+  - **(2020)** [Token authentication requirements for API and Git operations](https://github.blog/news-insights/company-news/token-authentication-requirements-for-api-and-git-operations) 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A critical security announcement detailing GitHub's enforcement of token-based authentication to replace standard passwords for Git operations. This initiative is a foundational component of modern supply chain security, designed to significantly reduce credential theft and brute-force vulnerabilities. From a 2026 perspective, this change has cemented the standard of multi-factor, programmatic identity verification in software delivery pipelines.
+A critical security announcement detailing GitHub's enforcement of token-based authentication to replace standard passwords for Git operations. This initiative is a foundational component of modern supply chain security, designed to significantly reduce credential theft and brute-force vulnerabilities. From a 2026 perspective, this change has cemented the standard of multi-factor, programmatic identity verification in software delivery pipelines.
 
-  - **(2021)** [dev.to: How to never type passwords when using Git](https://dev.to/github/how-to-never-type-passwords-when-using-git-18bb) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [dev.to: How to never type passwords when using Git](https://dev.to/github/how-to-never-type-passwords-when-using-git-18bb) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A highly accessible tutorial detailing how to set up passwordless Git operations using secure SSH keys or credential managers. By eliminating manual password typing, it improves the command-line developer experience while enhancing repository security. It remains a crucial troubleshooting reference for junior developers transitioning to professional, secure workspaces.
+A highly accessible tutorial detailing how to set up passwordless Git operations using secure SSH keys or credential managers. By eliminating manual password typing, it improves the command-line developer experience while enhancing repository security. It remains a crucial troubleshooting reference for junior developers transitioning to professional, secure workspaces.
 
-  - **(2020)** [theregister.com: Passwords begone: GitHub will ban them next year for authenticating Git operations](https://www.theregister.com/security/2020/12/17/passwords-begone-github-will-ban-them-next-year-for-authenticating-git-operations/958514) 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span>
+</div></details>
+  - **(2020)** [theregister.com: Passwords begone: GitHub will ban them next year for authenticating Git operations](https://www.theregister.com/security/2020/12/17/passwords-begone-github-will-ban-them-next-year-for-authenticating-git-operations/958514) 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        This news report covers GitHub's monumental policy transition to ban password authentication for all Git operations, forcing migration to fine-grained access tokens or secure SSH keys. This marked a historical industry shift toward identity validation best practices. From a 2026 perspective, this transition successfully eliminated major credential-harvesting vulnerabilities across the global open-source ecosystem.
+This news report covers GitHub's monumental policy transition to ban password authentication for all Git operations, forcing migration to fine-grained access tokens or secure SSH keys. This marked a historical industry shift toward identity validation best practices. From a 2026 perspective, this transition successfully eliminated major credential-harvesting vulnerabilities across the global open-source ecosystem.
 
+</div></details>
 #### Software Supply Chain
 
-  - **(2021)** [**github.blog: GitHub brings supply chain security features to the Go community**](https://github.blog/security/supply-chain-security/github-supply-chain-security-features-go-community) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2021)** [**github.blog: GitHub brings supply chain security features to the Go community**](https://github.blog/security/supply-chain-security/github-supply-chain-security-features-go-community) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        This security update details the extension of GitHub's Dependabot security alerts and vulnerability graph to native Go community dependency files (go.mod/go.sum). By scanning Go project dependencies in real-time, the platform helps prevent downstream supply chain attacks. This capability is vital for cloud-native projects, where Go is the dominant language for infrastructure tools.
+This security update details the extension of GitHub's Dependabot security alerts and vulnerability graph to native Go community dependency files (go.mod/go.sum). By scanning Go project dependencies in real-time, the platform helps prevent downstream supply chain attacks. This capability is vital for cloud-native projects, where Go is the dominant language for infrastructure tools.
 
+</div></details>
 ## Infrastructure and Platform
 
 ### DevSecOps Platforms
@@ -370,376 +370,376 @@
     | [sdtimes: GitLab 14 aims to do away with DIY DevOps toolchains 🌟](https://sdtimes.com/devops/gitlab-14-aims-to-do-away-with-diy-devops-toolchains) |  | GitLab CI | English | 🌟🌟🌟 |
     | [about.gitlab.com: GitLab 14.1 released with Helm Chart Registry and Escalation Policies](https://about.gitlab.com/releases/2021/07/22/gitlab-14-1-released) |  | GitLab CI | English | 🌟🌟🌟 |
 
-  - **(2023)** [**lambdatest.com: How To Use GitLab CI To Run Tests Locally? 🌟**](https://www.testmuai.com/blog/use-gitlab-ci-to-run-test-locally) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2023)** [**lambdatest.com: How To Use GitLab CI To Run Tests Locally? 🌟**](https://www.testmuai.com/blog/use-gitlab-ci-to-run-test-locally) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A practical developer-oriented guide explaining how to leverage the `gitlab-runner exec` command to execute, debug, and validate CI/CD pipeline jobs directly on a local workstation before committing code changes to a remote repository.
+A practical developer-oriented guide explaining how to leverage the `gitlab-runner exec` command to execute, debug, and validate CI/CD pipeline jobs directly on a local workstation before committing code changes to a remote repository.
 
-  - **(2021)** [**about.gitlab.com: How we used parallel CI/CD jobs to increase our productivity**](https://about.gitlab.com/blog/2021/01/20/using-run-parallel-jobs) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [**about.gitlab.com: How we used parallel CI/CD jobs to increase our productivity**](https://about.gitlab.com/blog/2021/01/20/using-run-parallel-jobs) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A technical execution guide detailing how to use GitLab's `parallel` keyword to shard test suites across multiple concurrent runner nodes. Demonstrates massive optimization in build times, boosting continuous integration feedback loops at scale.
+A technical execution guide detailing how to use GitLab's `parallel` keyword to shard test suites across multiple concurrent runner nodes. Demonstrates massive optimization in build times, boosting continuous integration feedback loops at scale.
 
-  - **(2021)** [**about.gitlab.com: How to use GitLab CI to deploy to multiple environments**](https://about.gitlab.com/blog/2021/02/05/ci-deployment-and-environments) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [**about.gitlab.com: How to use GitLab CI to deploy to multiple environments**](https://about.gitlab.com/blog/2021/02/05/ci-deployment-and-environments) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A structured guide outlining how to design, configure, and secure environments (development, staging, production) within GitLab CI/CD. Highlights protected environments, dynamic deployment tracking, and manual approval gates.
+A structured guide outlining how to design, configure, and secure environments (development, staging, production) within GitLab CI/CD. Highlights protected environments, dynamic deployment tracking, and manual approval gates.
 
-  - **(2021)** [**about.gitlab.com: Meet Pipeline Editor, your one-stop-shop for building a CI/CD pipeline**](https://about.gitlab.com/blog/2021/02/22/pipeline-editor-overview) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [**about.gitlab.com: Meet Pipeline Editor, your one-stop-shop for building a CI/CD pipeline**](https://about.gitlab.com/blog/2021/02/22/pipeline-editor-overview) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Introduces GitLab's integrated visual Pipeline Editor, featuring live YAML validation, linting, and complete visualization of pipeline structures. This tool dramatically lowers the barrier to entry for authoring complex deployment paths.
+Introduces GitLab's integrated visual Pipeline Editor, featuring live YAML validation, linting, and complete visualization of pipeline structures. This tool dramatically lowers the barrier to entry for authoring complex deployment paths.
 
-  - **(2021)** [**pythonspeed.com: Building Docker images on GitLab CI: Docker-in-Docker and Podman 🌟**](https://pythonspeed.com/articles/gitlab-build-docker-image) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [**pythonspeed.com: Building Docker images on GitLab CI: Docker-in-Docker and Podman 🌟**](https://pythonspeed.com/articles/gitlab-build-docker-image) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A highly-regarded architectural deep dive by PythonSpeed comparing Docker-in-Docker (DinD) versus Podman for building container images securely inside GitLab CI pipelines. Details key differences in daemon-less execution and privilege levels.
+A highly-regarded architectural deep dive by PythonSpeed comparing Docker-in-Docker (DinD) versus Podman for building container images securely inside GitLab CI pipelines. Details key differences in daemon-less execution and privilege levels.
 
-  - **(2021)** [devclass.com: Git a March on: GitLab 13.10 ramps up security, adds support for OpenShift, DORA](https://www.devclass.com/ci-cd/2021/03/23/git-a-march-on-gitlab-1310-ramps-up-security-adds-support-for-openshift-dora/1619889) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [devclass.com: Git a March on: GitLab 13.10 ramps up security, adds support for OpenShift, DORA](https://www.devclass.com/ci-cd/2021/03/23/git-a-march-on-gitlab-1310-ramps-up-security-adds-support-for-openshift-dora/1619889) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An industry news review covering the key features of the GitLab 13.10 release, showcasing the initial support for native OpenShift deployments, compliance frameworks, and the integration of out-of-the-box DORA performance metrics.
+An industry news review covering the key features of the GitLab 13.10 release, showcasing the initial support for native OpenShift deployments, compliance frameworks, and the integration of out-of-the-box DORA performance metrics.
 
-  - **(2021)** [sdtimes: GitLab 14 aims to do away with DIY DevOps toolchains 🌟](https://sdtimes.com/devops/gitlab-14-aims-to-do-away-with-diy-devops-toolchains) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [sdtimes: GitLab 14 aims to do away with DIY DevOps toolchains 🌟](https://sdtimes.com/devops/gitlab-14-aims-to-do-away-with-diy-devops-toolchains) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An analysis covering the strategic direction of the GitLab 14 platform release. Discusses the goal of eliminating fragmented DIY developer toolchains in favor of a cohesive, compliance-first DevOps platform.
+An analysis covering the strategic direction of the GitLab 14 platform release. Discusses the goal of eliminating fragmented DIY developer toolchains in favor of a cohesive, compliance-first DevOps platform.
 
-  - **(2021)** [about.gitlab.com: GitLab 14.1 released with Helm Chart Registry and Escalation Policies](https://about.gitlab.com/releases/2021/07/22/gitlab-14-1-released) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [about.gitlab.com: GitLab 14.1 released with Helm Chart Registry and Escalation Policies](https://about.gitlab.com/releases/2021/07/22/gitlab-14-1-released) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Official release notes for GitLab 14.1 introducing native Helm Chart Registry support and customizable escalation policies for incident response, aligning development workflows directly with target operational tools.
+Official release notes for GitLab 14.1 introducing native Helm Chart Registry support and customizable escalation policies for incident response, aligning development workflows directly with target operational tools.
 
+</div></details>
 #### SaaS Platforms
 
-  - [==gitlab.com==](https://about.gitlab.com) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [==gitlab.com==](https://about.gitlab.com) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        The definitive single-application DevSecOps platform spanning the entire software development lifecycle. GitLab integrates Git repository management, robust container registries, declarative CI/CD pipelines, security scanning, and agile planning in a unified system.
+The definitive single-application DevSecOps platform spanning the entire software development lifecycle. GitLab integrates Git repository management, robust container registries, declarative CI/CD pipelines, security scanning, and agile planning in a unified system.
 
+</div></details>
 ### Version Control Systems
 
 #### SaaS Platforms (1)
 
-  - [==bitbucket.org==](https://bitbucket.org) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span>
+  - [==bitbucket.org==](https://bitbucket.org) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Atlassian's primary enterprise Git hosting platform, offering tight integration with Jira and Confluence. Known for its native support of Git LFS, integrated Pipelines for CI/CD, and robust security access controls tailored for legacy and modern corporate infrastructure.
+Atlassian's primary enterprise Git hosting platform, offering tight integration with Jira and Confluence. Known for its native support of Git LFS, integrated Pipelines for CI/CD, and robust security access controls tailored for legacy and modern corporate infrastructure.
 
+</div></details>
 ## Platform Engineering (1)
 
 ### CI-CD
 
 #### Cloud Native Orchestration
 
-  - **(2021)** [vimeo.com: How to Create a CI/CD Pipeline with GitHub Actions and K8s Like a Boss](https://vimeo.com/552276182) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2021)** [vimeo.com: How to Create a CI/CD Pipeline with GitHub Actions and K8s Like a Boss](https://vimeo.com/552276182) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A detailed technical video walkthrough presenting modern pipeline configurations to package container images and deploy them dynamically to remote Kubernetes setups.
+A detailed technical video walkthrough presenting modern pipeline configurations to package container images and deploy them dynamically to remote Kubernetes setups.
 
+</div></details>
 #### Cloud Native Testing
 
-  - **(2021)** [github.blog: Testing cloud apps with GitHub Actions and cloud-native open source tools](https://github.blog/enterprise-software/devops/devops-cloud-testing) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2021)** [github.blog: Testing cloud apps with GitHub Actions and cloud-native open source tools](https://github.blog/enterprise-software/devops/devops-cloud-testing) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An enterprise architectural case study detailing how to coordinate end-to-end cloud-native integrations. Demonstrates the orchestration of testing harnesses inside local runners using Kind or Minikube.
+An enterprise architectural case study detailing how to coordinate end-to-end cloud-native integrations. Demonstrates the orchestration of testing harnesses inside local runners using Kind or Minikube.
 
+</div></details>
 #### Developer Productivity
 
-  - **(2022)** [github.blog: 5 automations every developer should be running](https://github.blog/developer-skills/github/5-automations-every-developer-should-be-running) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2022)** [github.blog: 5 automations every developer should be running](https://github.blog/developer-skills/github/5-automations-every-developer-should-be-running) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Practical compilation highlighting five essential automations, including stale issue tracking, pull request labels, and automated assignees, designed to maintain repository health.
+Practical compilation highlighting five essential automations, including stale issue tracking, pull request labels, and automated assignees, designed to maintain repository health.
 
-  - **(2021)** [github.blog: Work with GitHub Actions in your terminal with GitHub CLI](https://github.blog/news-insights/product-news/work-with-github-actions-in-your-terminal-with-github-cli) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [github.blog: Work with GitHub Actions in your terminal with GitHub CLI](https://github.blog/news-insights/product-news/work-with-github-actions-in-your-terminal-with-github-cli) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Details CLI integrations using the GitHub CLI (`gh`) to run, trigger, and debug active pipelines directly from local developer shells.
+Details CLI integrations using the GitHub CLI (`gh`) to run, trigger, and debug active pipelines directly from local developer shells.
 
+</div></details>
 #### Documentation Engine
 
-  - **(2021)** [github.blog: How we use GitHub Actions to manage GitHub Docs](https://github.blog/engineering/use-github-actions-manage-docs) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2021)** [github.blog: How we use GitHub Actions to manage GitHub Docs](https://github.blog/engineering/use-github-actions-manage-docs) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Architectural breakdown of how GitHub engineers manage and publish their technical documentation portal, utilizing automated validation suites, linter gates, and deployments.
+Architectural breakdown of how GitHub engineers manage and publish their technical documentation portal, utilizing automated validation suites, linter gates, and deployments.
 
+</div></details>
 #### GitHub Actions
 
-  - **(2022)** [github.blog: How to build a CI/CD pipeline with GitHub Actions in four simple steps](https://github.blog/enterprise-software/ci-cd/build-ci-cd-pipeline-github-actions-four-steps) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2022)** [github.blog: How to build a CI/CD pipeline with GitHub Actions in four simple steps](https://github.blog/enterprise-software/ci-cd/build-ci-cd-pipeline-github-actions-four-steps) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An architecture-oriented introductory blueprint outlining a four-stage process for transitioning applications to automated builds, testing, and deployments using GitHub Actions.
+An architecture-oriented introductory blueprint outlining a four-stage process for transitioning applications to automated builds, testing, and deployments using GitHub Actions.
 
-  - **(2022)** [github.blog: 10 GitHub Actions resources to bookmark from the basics to CI/CD](https://github.blog/developer-skills/github/10-github-actions-resources-basics-ci-cd) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2022)** [github.blog: 10 GitHub Actions resources to bookmark from the basics to CI/CD](https://github.blog/developer-skills/github/10-github-actions-resources-basics-ci-cd) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A curated collection of educational resources, documentation links, and architectural articles to guide developers from basic task configuration to enterprise delivery models.
+A curated collection of educational resources, documentation links, and architectural articles to guide developers from basic task configuration to enterprise delivery models.
 
-  - **(2022)** [resources.github.com: What is GitHub Actions? How automation & CI/CD work on GitHub (whitepaper/pdf)](https://github.com/resources/whitepapers/actions) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2022)** [resources.github.com: What is GitHub Actions? How automation & CI/CD work on GitHub (whitepaper/pdf)](https://github.com/resources/whitepapers/actions) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An official enterprise whitepaper detailing the strategic benefits of unifying CI/CD and developer automation workflows directly within the GitHub ecosystem.
+An official enterprise whitepaper detailing the strategic benefits of unifying CI/CD and developer automation workflows directly within the GitHub ecosystem.
 
-  - **(2021)** [github.blog: How to start using reusable workflows with GitHub Actions](https://github.blog/developer-skills/github/using-reusable-workflows-github-actions) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [github.blog: How to start using reusable workflows with GitHub Actions](https://github.blog/developer-skills/github/using-reusable-workflows-github-actions) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Explains how to implement DRY patterns across corporate pipelines using Reusable Workflows (`workflow_call`). Allows infrastructure teams to write central, versioned YAML files that can be consumed securely by downstream application teams.
+Explains how to implement DRY patterns across corporate pipelines using Reusable Workflows (`workflow_call`). Allows infrastructure teams to write central, versioned YAML files that can be consumed securely by downstream application teams.
 
-  - **(2021)** [dev.to: What's the difference between a GitHub Action and a Workflow?](https://dev.to/github/whats-the-difference-between-a-github-action-and-a-workflow-2gba) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [dev.to: What's the difference between a GitHub Action and a Workflow?](https://dev.to/github/whats-the-difference-between-a-github-action-and-a-workflow-2gba) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A structural overview explaining the conceptual boundaries and configuration differences between reusable individual step blocks (Actions) and the orchestration files (Workflows).
+A structural overview explaining the conceptual boundaries and configuration differences between reusable individual step blocks (Actions) and the orchestration files (Workflows).
 
+</div></details>
 #### GitHub Actions Security
 
-  - **(2022)** [**github.com/marketplace: Use AWS Secrets Manager secrets in GitHub jobs 🌟**](https://github.com/marketplace/actions/aws-secrets-manager-github-action) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2022)** [**github.com/marketplace: Use AWS Secrets Manager secrets in GitHub jobs 🌟**](https://github.com/marketplace/actions/aws-secrets-manager-github-action) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A specialized action integration that safely pulls active runtime parameters directly from AWS Secrets Manager straight into runner environment memory without leaking variables to disk storage.
+A specialized action integration that safely pulls active runtime parameters directly from AWS Secrets Manager straight into runner environment memory without leaking variables to disk storage.
 
-  - **(2022)** [adamtheautomator.com: How to Manage GitHub Actions Environment Variables and Secrets](https://adamtheautomator.com/github-actions-environment-variables) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2022)** [adamtheautomator.com: How to Manage GitHub Actions Environment Variables and Secrets](https://adamtheautomator.com/github-actions-environment-variables) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A deep-dive engineering guide on scoping, storing, and calling secrets and environment parameters within Actions runner processes. Explains how to set up repository-level, organization-level, and environment-scoped variables while minimizing accidental exposure vectors.
+A deep-dive engineering guide on scoping, storing, and calling secrets and environment parameters within Actions runner processes. Explains how to set up repository-level, organization-level, and environment-scoped variables while minimizing accidental exposure vectors.
 
-  - **(2021)** [github.blog: Implementing least privilege for secrets in GitHub Actions](https://github.blog/security/application-security/implementing-least-privilege-for-secrets-in-github-actions) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [github.blog: Implementing least privilege for secrets in GitHub Actions](https://github.blog/security/application-security/implementing-least-privilege-for-secrets-in-github-actions) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Security architectural playbook detailing how to apply the principle of least privilege to pipeline environments. Covers runner permission isolation, OIDC configuration, and restricted secret scoping.
+Security architectural playbook detailing how to apply the principle of least privilege to pipeline environments. Covers runner permission isolation, OIDC configuration, and restricted secret scoping.
 
-  - **(2021)** [github.blog: GitHub Actions: Control permissions for GITHUB_TOKEN 🌟](https://github.blog/changelog/2021-04-20-github-actions-control-permissions-for-github_token) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [github.blog: GitHub Actions: Control permissions for GITHUB_TOKEN 🌟](https://github.blog/changelog/2021-04-20-github-actions-control-permissions-for-github_token) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Crucial update announcing granular permission controls for the default GITHUB_TOKEN inside YAML workflows, enabling developers to strictly limit scope write-access.
+Crucial update announcing granular permission controls for the default GITHUB_TOKEN inside YAML workflows, enabling developers to strictly limit scope write-access.
 
+</div></details>
 #### Infrastructure Strategy
 
-  - **(2021)** [blog.codecentric.de: Stop re-writing pipelines! Why GitHub Actions drive the future of CI/CD](https://www.codecentric.de/en/knowledge-hub/blog/github-actions-nextgen-cicd) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2021)** [blog.codecentric.de: Stop re-writing pipelines! Why GitHub Actions drive the future of CI/CD](https://www.codecentric.de/en/knowledge-hub/blog/github-actions-nextgen-cicd) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Architectural thought-leadership piece illustrating why vendor-agnostic pipeline abstractions and reusable Actions blocks prevent pipeline maintenance fatigue.
+Architectural thought-leadership piece illustrating why vendor-agnostic pipeline abstractions and reusable Actions blocks prevent pipeline maintenance fatigue.
 
+</div></details>
 #### Mobile Pipelines
 
-  - **(2021)** [itnext.io: GitHub Actions for Android Developers](https://itnext.io/github-actions-for-android-developers-9ae606df2bfa) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2021)** [itnext.io: GitHub Actions for Android Developers](https://itnext.io/github-actions-for-android-developers-9ae606df2bfa) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An specialized Android delivery guide detailing Gradle task pipelines, local caching parameters, and fastlane integrations inside Actions environments.
+An specialized Android delivery guide detailing Gradle task pipelines, local caching parameters, and fastlane integrations inside Actions environments.
 
+</div></details>
 #### Repository Cleanup
 
-  - **(2019)** [github.com: Branch Cleanup Action 🌟](https://github.com/jessfraz/branch-cleanup-action) <span class='md-tag md-tag--info'>⭐ 422</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span>
+  - **(2019)** [github.com: Branch Cleanup Action 🌟](https://github.com/jessfraz/branch-cleanup-action) <span class='md-tag md-tag--info'>⭐ 422</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An automated GitHub Action for cleaning up stale merged branches. Under Minimum Viable Quality (MVQ) guidelines, this repository is classified as legacy due to lack of commits for over four years.
+An automated GitHub Action for cleaning up stale merged branches. Under Minimum Viable Quality (MVQ) guidelines, this repository is classified as legacy due to lack of commits for over four years.
 
+</div></details>
 #### Runner Infrastructure
 
-  - **(2021)** [github.blog: GitHub Actions: Ephemeral self-hosted runners & new webhooks for auto-scaling](https://github.blog/changelog/2021-09-20-github-actions-ephemeral-self-hosted-runners-new-webhooks-for-auto-scaling) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2021)** [github.blog: GitHub Actions: Ephemeral self-hosted runners & new webhooks for auto-scaling](https://github.blog/changelog/2021-09-20-github-actions-ephemeral-self-hosted-runners-new-webhooks-for-auto-scaling) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Product release introducing ephemeral self-hosted runners and targeted autoscale webhooks, allowing platform teams to build dynamic, secure single-use runner environments.
+Product release introducing ephemeral self-hosted runners and targeted autoscale webhooks, allowing platform teams to build dynamic, secure single-use runner environments.
 
+</div></details>
 ### DevSecOps
 
 #### Artifact Signing
 
-  - **(2021)** [github.blog: Container signing added to the Publish Docker Container workflow for GitHub Actions](https://github.blog/changelog/2021-12-06-container-signing-added-to-the-publish-docker-container-workflow-for-github-actions) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2021)** [github.blog: Container signing added to the Publish Docker Container workflow for GitHub Actions](https://github.blog/changelog/2021-12-06-container-signing-added-to-the-publish-docker-container-workflow-for-github-actions) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Details container image signing using Cosign inside GitHub Actions. Enables development teams to maintain secure, verifiable software supply chains with cryptographic container signatures.
+Details container image signing using Cosign inside GitHub Actions. Enables development teams to maintain secure, verifiable software supply chains with cryptographic container signatures.
 
+</div></details>
 #### Dependency Management
 
-  - **(2022)** [github.blog: Dependency graph now supports GitHub Actions](https://github.blog/news-insights/product-news/dependency-graph-now-supports-github-actions) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2022)** [github.blog: Dependency graph now supports GitHub Actions](https://github.blog/news-insights/product-news/dependency-graph-now-supports-github-actions) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Details how GitHub's automated dependency graphing structures parsing for third-party actions within pipelines. Enables DevOps and Security teams to automatically inventory, audit, and surface vulnerabilities across active runners.
+Details how GitHub's automated dependency graphing structures parsing for third-party actions within pipelines. Enables DevOps and Security teams to automatically inventory, audit, and surface vulnerabilities across active runners.
 
+</div></details>
 ### Scaffolding
 
 #### Framework Pipelines
 
-  - **(2021)** [laravel-news.com: Generate GitHub Actions Config for Laravel Projects with Ghygen](https://laravel-news.com/generate-github-actions-config-for-laravel-projects-with-ghygen) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2021)** [laravel-news.com: Generate GitHub Actions Config for Laravel Projects with Ghygen](https://laravel-news.com/generate-github-actions-config-for-laravel-projects-with-ghygen) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Presents Ghygen, a web-based GUI configuration generator developed to scaffold Laravel pipeline scripts. Helps developers bypass manual YAML coding errors.
+Presents Ghygen, a web-based GUI configuration generator developed to scaffold Laravel pipeline scripts. Helps developers bypass manual YAML coding errors.
 
+</div></details>
 ### Security
 
 #### GitHub Administration
 
-  - **(2022)** [steampipe.io: Top 3 ways to improve GitHub org security](https://steampipe.io/blog/github-security-tips) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2022)** [steampipe.io: Top 3 ways to improve GitHub org security](https://steampipe.io/blog/github-security-tips) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Illustrates three essential infrastructure approaches for auditing and fortifying organization-level GitHub setups. Emphasizes automated policy validation using infrastructure-as-code and least-privilege token validation.
+Illustrates three essential infrastructure approaches for auditing and fortifying organization-level GitHub setups. Emphasizes automated policy validation using infrastructure-as-code and least-privilege token validation.
 
+</div></details>
 #### Network Protocols
 
-  - **(2022)** [docs.github.com: Using SSH over the HTTPS port 🌟](https://docs.github.com/en/authentication/troubleshooting-ssh/using-ssh-over-the-https-port) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2022)** [docs.github.com: Using SSH over the HTTPS port 🌟](https://docs.github.com/en/authentication/troubleshooting-ssh/using-ssh-over-the-https-port) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Official troubleshooting manual explaining how to bypass restrictive network proxies and firewalls by routing standard SSH operations over the secure HTTPS port (443).
+Official troubleshooting manual explaining how to bypass restrictive network proxies and firewalls by routing standard SSH operations over the secure HTTPS port (443).
 
+</div></details>
 #### SAST Tools
 
-  - **(2021)** [github.blog: Showing code scanning alerts on pull requests](https://github.blog/changelog/2021-09-27-showing-code-scanning-alerts-on-pull-requests) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2021)** [github.blog: Showing code scanning alerts on pull requests](https://github.blog/changelog/2021-09-27-showing-code-scanning-alerts-on-pull-requests) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Highlights the integration of code scanning alerts directly within the pull request conversation view, improving security feedback loops during peer reviews.
+Highlights the integration of code scanning alerts directly within the pull request conversation view, improving security feedback loops during peer reviews.
 
-  - **(2020)** [analyticsindiamag.com: GitHub launches code scanner to flag security vulnerabilities](https://analyticsindiamag.com/github-launches-code-scanner-to-flag-security-vulnerabilities) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2020)** [analyticsindiamag.com: GitHub launches code scanner to flag security vulnerabilities](https://analyticsindiamag.com/github-launches-code-scanner-to-flag-security-vulnerabilities) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Summarizes the release of GitHub's native Advanced Security SAST tooling, focusing on the enterprise value of code-scanning pipelines powered by CodeQL rules.
+Summarizes the release of GitHub's native Advanced Security SAST tooling, focusing on the enterprise value of code-scanning pipelines powered by CodeQL rules.
 
+</div></details>
 ## Software Delivery and Engineering
 
 ### Continuous Integration
 
 #### Merge Automation
 
-  - **(2019)** [**julien.danjou.info: Stop merging your pull requests manually 🌟**](https://julien.danjou.info/stop-merging-your-pull-request-manually) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2019)** [**julien.danjou.info: Stop merging your pull requests manually 🌟**](https://julien.danjou.info/stop-merging-your-pull-request-manually) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Advocates for using automated merge engines to manage pull requests instead of manually executing git merges. The author explains how programmatic merge validation queues eliminate regression bugs, enforce testing standards, and lower overall operational overhead.
+Advocates for using automated merge engines to manage pull requests instead of manually executing git merges. The author explains how programmatic merge validation queues eliminate regression bugs, enforce testing standards, and lower overall operational overhead.
 
+</div></details>
 ### Version Control and Git
 
 #### Advanced Techniques
 
-  - **(2023)** [**dev.to: Git Concepts I Wish I Knew Years Ago 🌟**](https://dev.to/g_abud/advanced-git-reference-1o9j) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2023)** [**dev.to: Git Concepts I Wish I Knew Years Ago 🌟**](https://dev.to/g_abud/advanced-git-reference-1o9j) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A highly dense developer guide covering the advanced Git commands that solve complex history management challenges. It covers interactive rebasing configurations, cherry-picking strategies, split commits, and the inner mechanics of Git's DAG database model.
+A highly dense developer guide covering the advanced Git commands that solve complex history management challenges. It covers interactive rebasing configurations, cherry-picking strategies, split commits, and the inner mechanics of Git's DAG database model.
 
-  - **(2019)** [9 awesome git tricks](https://tychoish.com/post/9-awesome-git-tricks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2019)** [9 awesome git tricks](https://tychoish.com/post/9-awesome-git-tricks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A curated collection of nine practical terminal tricks and custom configurations for Git power users. It outlines complex command chains for interactive staging, search operations, reflog mining, and custom formatting alias setups.
+A curated collection of nine practical terminal tricks and custom configurations for Git power users. It outlines complex command chains for interactive staging, search operations, reflog mining, and custom formatting alias setups.
 
+</div></details>
 #### Best Practices
 
-  - **(2021)** [How to Get More Out of Your Git Commit Message](https://www.datree.io/resources/git-commit-message)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2021)** [How to Get More Out of Your Git Commit Message](https://www.datree.io/resources/git-commit-message)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Explains the technical and cultural advantages of maintaining a highly standardized commit history format. It outlines structures like Conventional Commits, showing how programmatic message styling automates release notes, speeds up reviews, and simplifies bisection.
+Explains the technical and cultural advantages of maintaining a highly standardized commit history format. It outlines structures like Conventional Commits, showing how programmatic message styling automates release notes, speeds up reviews, and simplifies bisection.
 
-  - **(2020)** [opensource.com: 6 best practices for managing Git repos](https://opensource.com/article/20/7/git-repos-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2020)** [opensource.com: 6 best practices for managing Git repos](https://opensource.com/article/20/7/git-repos-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Presents six essential strategies to clean and optimize repository structures in enterprise settings. Key practices include managing repository file sizes, structuring clean branching frameworks, using CI testing templates, and using `.gitignore` configurations effectively.
+Presents six essential strategies to clean and optimize repository structures in enterprise settings. Key practices include managing repository file sizes, structuring clean branching frameworks, using CI testing templates, and using `.gitignore` configurations effectively.
 
+</div></details>
 #### Core Technologies
 
-  - **(2026)** [==Git==](https://git-scm.com) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - **(2026)** [==Git==](https://git-scm.com) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        The official landing page and database repository for Git, the global de facto standard distributed version control engine. It offers extensive reference guides, deep explanations of the graph database layout, and cross-platform installation instructions.
+The official landing page and database repository for Git, the global de facto standard distributed version control engine. It offers extensive reference guides, deep explanations of the graph database layout, and cross-platform installation instructions.
 
+</div></details>
 #### Reference Manuals
 
-  - **(2026)** [**devdocs.io/git/**](https://devdocs.io/git) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2026)** [**devdocs.io/git/**](https://devdocs.io/git) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A highly responsive, clean documentation aggregator providing quick lookup mechanisms for Git's extensive command-line utility set. It serves as an accessible replacement for terminal manual outputs, accelerating reference access for pipeline developers.
+A highly responsive, clean documentation aggregator providing quick lookup mechanisms for Git's extensive command-line utility set. It serves as an accessible replacement for terminal manual outputs, accelerating reference access for pipeline developers.
 
+</div></details>
 #### Release Notes
 
-  - **(2020)** [github.blog: Highlights from Git 2.28](https://github.blog/open-source/git/highlights-from-git-2-28)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2020)** [github.blog: Highlights from Git 2.28](https://github.blog/open-source/git/highlights-from-git-2-28)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Outlines major improvements and configuration adjustments introduced in the Git 2.28 engine release. It details the setup steps to define custom, globally synchronized initial branch naming standards (such as changing the default to `main`).
+Outlines major improvements and configuration adjustments introduced in the Git 2.28 engine release. It details the setup steps to define custom, globally synchronized initial branch naming standards (such as changing the default to `main`).
 
+</div></details>
 #### Resources
 
-  - **(2024)** [==Awesome Git 🌟==](https://github.com/dictcp/awesome-git) <span class='md-tag md-tag--info'>⭐ 2855</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - **(2024)** [==Awesome Git 🌟==](https://github.com/dictcp/awesome-git) <span class='md-tag md-tag--info'>⭐ 2855</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An extensive, community-curated list of tools, clients, extensions, and learning pathways for Git. This list serves as an ultimate reference directory for engineers looking to optimize repository workflows and build custom git hooks.
+An extensive, community-curated list of tools, clients, extensions, and learning pathways for Git. This list serves as an ultimate reference directory for engineers looking to optimize repository workflows and build custom git hooks.
 
-  - **(2018)** [codeburst.io: A Resource for all Things Git](https://codeburst.io/a-resource-for-all-things-git-b63d6626beca)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2018)** [codeburst.io: A Resource for all Things Git](https://codeburst.io/a-resource-for-all-things-git-b63d6626beca)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An extensive index of books, terminal extensions, interactive games, and developer platforms designed to train engineers on Git capabilities. This database is an excellent resource for platform builders organizing standard developer onboarding systems.
+An extensive index of books, terminal extensions, interactive games, and developer platforms designed to train engineers on Git capabilities. This database is an excellent resource for platform builders organizing standard developer onboarding systems.
 
+</div></details>
 #### Security (1)
 
-  - **(2020)** [github.blog: Token authentication requirements for Git operations](https://github.blog/security/application-security/token-authentication-requirements-for-git-operations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2020)** [github.blog: Token authentication requirements for Git operations](https://github.blog/security/application-security/token-authentication-requirements-for-git-operations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An official GitHub security bulletin explaining the transition away from basic password credentials toward secure token and SSH access paths for CLI Git actions. It outlines the architectural benefits of using Fine-Grained Personal Access Tokens to restrict access permissions.
+An official GitHub security bulletin explaining the transition away from basic password credentials toward secure token and SSH access paths for CLI Git actions. It outlines the architectural benefits of using Fine-Grained Personal Access Tokens to restrict access permissions.
 
+</div></details>
 #### Troubleshooting
 
-  - **(2024)** [==Oh shit, git!==](https://ohshitgit.com) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - **(2024)** [==Oh shit, git!==](https://ohshitgit.com) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An extremely popular, plain-language reference guide that helps developers recover from critical Git merge and history errors. It provides highly clear commands for undoing commits, fixing bad commit comments, and recovering files from the reflog database.
+An extremely popular, plain-language reference guide that helps developers recover from critical Git merge and history errors. It provides highly clear commands for undoing commits, fixing bad commit comments, and recovering files from the reflog database.
 
-  - **(2015)** [==github.blog: How to undo (almost) anything with Git==](https://github.blog/open-source/git/how-to-undo-almost-anything-with-git) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+</div></details>
+  - **(2015)** [==github.blog: How to undo (almost) anything with Git==](https://github.blog/open-source/git/how-to-undo-almost-anything-with-git) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An authoritative, highly cited guide by GitHub explaining how to recover from almost any version control error. It features concrete, step-by-step instructions for resetting branches, recovering deleted work from the reflog, and modifying historical commits safely.
+An authoritative, highly cited guide by GitHub explaining how to recover from almost any version control error. It features concrete, step-by-step instructions for resetting branches, recovering deleted work from the reflog, and modifying historical commits safely.
 
-  - **(2018)** [codeburst.io: Debug your code using git bisect](https://codeburst.io/debug-your-code-using-git-bisect-45db2983cc69) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2018)** [codeburst.io: Debug your code using git bisect](https://codeburst.io/debug-your-code-using-git-bisect-45db2983cc69) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A highly practical tutorial on utilizing `git bisect` to locate bad commits via an automated binary search process. It details how developers can integrate automated shell test scripts to quickly isolate the exact code commit introducing regression bugs.
+A highly practical tutorial on utilizing `git bisect` to locate bad commits via an automated binary search process. It details how developers can integrate automated shell test scripts to quickly isolate the exact code commit introducing regression bugs.
 
-  - **(2016)** [opensource.com: How to restore older file versions in Git](https://opensource.com/life/16/7/how-restore-older-file-versions-git)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2016)** [opensource.com: How to restore older file versions in Git](https://opensource.com/life/16/7/how-restore-older-file-versions-git)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A targeted guide explaining the differences between `git checkout`, `git reset`, and `git revert` when restoring older files. It provides clear, risk-aware guidance on recovering historical changes without accidentally rewriting shared upstream history.
+A targeted guide explaining the differences between `git checkout`, `git reset`, and `git revert` when restoring older files. It provides clear, risk-aware guidance on recovering historical changes without accidentally rewriting shared upstream history.
 
+</div></details>
 #### Tutorials
 
-  - **(2024)** [**gitkraken.com: Git Tutorials: Instructional Training Videos 🌟**](https://www.gitkraken.com/learn/git/tutorials) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2024)** [**gitkraken.com: Git Tutorials: Instructional Training Videos 🌟**](https://www.gitkraken.com/learn/git/tutorials) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A highly structured, professional video and article archive managed by the GitKraken engineering team. It targets critical code management themes, including branch optimization, visual conflict resolution, rebase configurations, and upstream synchronization strategies.
+A highly structured, professional video and article archive managed by the GitKraken engineering team. It targets critical code management themes, including branch optimization, visual conflict resolution, rebase configurations, and upstream synchronization strategies.
 
-  - **(2022)** [**freecodecamp.org: Learn Git Fundamentals – A Handbook on Day-to-Day Development Tasks 🌟**](https://www.freecodecamp.org/news/learn-git-basics) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+</div></details>
+  - **(2022)** [**freecodecamp.org: Learn Git Fundamentals – A Handbook on Day-to-Day Development Tasks 🌟**](https://www.freecodecamp.org/news/learn-git-basics) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An exhaustive, handbook-style tutorial detailing the core patterns of daily Git usage. This resource bridges the gap between basic repository setups and intermediate branch management schemes, showing how developers should handle code delivery pipelines.
+An exhaustive, handbook-style tutorial detailing the core patterns of daily Git usage. This resource bridges the gap between basic repository setups and intermediate branch management schemes, showing how developers should handle code delivery pipelines.
 
-  - **(2016)** [tutorialzine.com: Learn git in 30 minutes 🌟](https://tutorialzine.com/2016/06/learn-git-in-30-minutes) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2016)** [tutorialzine.com: Learn git in 30 minutes 🌟](https://tutorialzine.com/2016/06/learn-git-in-30-minutes) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An accelerated 30-minute guide designed to quickly introduce Git's core operations. It covers essential tasks including index staging, committing, branch workflows, and remote interaction, providing a strong platform for early-stage software engineers.
+An accelerated 30-minute guide designed to quickly introduce Git's core operations. It covers essential tasks including index staging, committing, branch workflows, and remote interaction, providing a strong platform for early-stage software engineers.
 
-  - **(2022)** [dev.to: Git Explained - The Basics](https://dev.to/milu_franz/git-explained-the-basics-igc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2022)** [dev.to: Git Explained - The Basics](https://dev.to/milu_franz/git-explained-the-basics-igc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A friendly visual tutorial that clarifies how Git tracks file states across the local environment. It explains how changes move between the Working Directory, the Staging Index, and the committed Git repository state.
+A friendly visual tutorial that clarifies how Git tracks file states across the local environment. It explains how changes move between the Working Directory, the Staging Index, and the committed Git repository state.
 
-  - **(2021)** [3 Git Commands I Use Every Day](https://dev.to/gonedark/3-git-commands-i-use-every-day)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [3 Git Commands I Use Every Day](https://dev.to/gonedark/3-git-commands-i-use-every-day)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A developer-focused guide that presents three highly useful, daily Git commands that optimize version control workflows. It covers custom formatting outputs and interactive tree options that clean up terminal displays during debugging.
+A developer-focused guide that presents three highly useful, daily Git commands that optimize version control workflows. It covers custom formatting outputs and interactive tree options that clean up terminal displays during debugging.
 
-  - **(2021)** [thenextweb.com: A beginner’s guide to the most popular Git commands](https://thenextweb.com/news/a-beginners-guide-to-the-most-popular-git-commands)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [thenextweb.com: A beginner’s guide to the most popular Git commands](https://thenextweb.com/news/a-beginners-guide-to-the-most-popular-git-commands)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An introductory cheat-sheet covering high-frequency commands such as `git clone`, `git status`, `git log`, and `git diff`. This simplified guide is intended to reduce terminal anxiety for teams adopting modern distributed version control frameworks.
+An introductory cheat-sheet covering high-frequency commands such as `git clone`, `git status`, `git log`, and `git diff`. This simplified guide is intended to reduce terminal anxiety for teams adopting modern distributed version control frameworks.
 
+</div></details>
 ## Software Engineering
 
 ### Architecture Patterns
 
 #### Case Studies
 
-  - **(2021)** [**github.blog: How we ship code faster and safer with feature flags**](https://github.blog/engineering/ship-code-faster-safer-feature-flags) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2021)** [**github.blog: How we ship code faster and safer with feature flags**](https://github.blog/engineering/ship-code-faster-safer-feature-flags) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An insightful blog post detailing GitHub’s internal engineering dependency on feature flags. Explains how GitHub safely releases major platform updates to millions of active users through progressive canary releases and real-time operational rollbacks.
+An insightful blog post detailing GitHub’s internal engineering dependency on feature flags. Explains how GitHub safely releases major platform updates to millions of active users through progressive canary releases and real-time operational rollbacks.
 
-  - **(2021)** [cloudbees.com: Goodbye Sleepless Nights: De-Risking Deployments with Feature Flags](https://www.cloudbees.com/customers/petdesk) <span class='md-tag md-tag--primary'>[CASE STUDY]</span> 🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [cloudbees.com: Goodbye Sleepless Nights: De-Risking Deployments with Feature Flags](https://www.cloudbees.com/customers/petdesk) <span class='md-tag md-tag--primary'>[CASE STUDY]</span> 🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A client case study highlighting how veterinary platform PetDesk integrated feature flagging into their deployment lifecycle. Demonstrates how isolating major software updates mitigated risks, resulting in zero downtime and reduced stressful off-hours releases.
+A client case study highlighting how veterinary platform PetDesk integrated feature flagging into their deployment lifecycle. Demonstrates how isolating major software updates mitigated risks, resulting in zero downtime and reduced stressful off-hours releases.
 
+</div></details>
 #### Feature Management
 
 
@@ -757,78 +757,78 @@
     | [thenewstack.io: Wave Goodbye to Release Nights](https://thenewstack.io/wave-goodbye-to-release-nights) |  | Feature Management | English | 🌟🌟🌟 |
     | [cloudbees.com: Feature Flag Best Practices: Change Management in Production](https://www.cloudbees.com/blog/change-management-in-production) |  | Feature Management | English | 🌟🌟🌟 |
 
-  - **(2020)** [==martinfowler.com: Feature Toggles (aka Feature Flags)==](https://martinfowler.com/articles/feature-toggles.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - **(2020)** [==martinfowler.com: Feature Toggles (aka Feature Flags)==](https://martinfowler.com/articles/feature-toggles.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Pete Hodgson's definitive guide on Martin Fowler’s site detailing architectural implementations of Feature Toggles. It classifies toggles into distinct categories (release, experiment, ops, permission) and outlines the maintenance strategies required to prevent technical debt.
+Pete Hodgson's definitive guide on Martin Fowler’s site detailing architectural implementations of Feature Toggles. It classifies toggles into distinct categories (release, experiment, ops, permission) and outlines the maintenance strategies required to prevent technical debt.
 
-  - **(2020)** [**reflectoring.io: Feature Flags with Spring Boot**](https://reflectoring.io/spring-boot-feature-flags) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2020)** [**reflectoring.io: Feature Flags with Spring Boot**](https://reflectoring.io/spring-boot-feature-flags) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A highly-focused code tutorial demonstrating the integration of feature flags within a Spring Boot application. It details multiple execution strategies, utilizing native properties, customized profiles, and open-source libraries like Togglz or Unleash.
+A highly-focused code tutorial demonstrating the integration of feature flags within a Spring Boot application. It details multiple execution strategies, utilizing native properties, customized profiles, and open-source libraries like Togglz or Unleash.
 
-  - **(2019)** [**featureflags.io: Flags vs Branching**](https://featureflags.io/feature-flags-vs-branching) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+</div></details>
+  - **(2019)** [**featureflags.io: Flags vs Branching**](https://featureflags.io/feature-flags-vs-branching) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A critical comparative analysis explaining why feature flags serve as the enabling mechanism for Trunk-Based Development. By decoupling code deployment from feature exposure, it demonstrates how flags render heavy branching structures obsolete.
+A critical comparative analysis explaining why feature flags serve as the enabling mechanism for Trunk-Based Development. By decoupling code deployment from feature exposure, it demonstrates how flags render heavy branching structures obsolete.
 
-  - **(2021)** [infoworld.com: Why aren’t you using feature flags?](https://www.infoworld.com/article/2261454/why-arent-you-using-feature-flags.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [infoworld.com: Why aren’t you using feature flags?](https://www.infoworld.com/article/2261454/why-arent-you-using-feature-flags.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An industry advocacy piece exploring standard friction points holding organizations back from adopting feature management platforms. Highlights the operational agility, rapid rollbacks, and targeting capabilities gained after implementing a robust flag framework.
+An industry advocacy piece exploring standard friction points holding organizations back from adopting feature management platforms. Highlights the operational agility, rapid rollbacks, and targeting capabilities gained after implementing a robust flag framework.
 
-  - **(2021)** [cloudbees.com: How to Grow Continuous Delivery Maturity Using Feature Flags](https://www.cloudbees.com/blog/how-to-build-the-process-and-culture-behind-using-feature-flags-at-scale) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [cloudbees.com: How to Grow Continuous Delivery Maturity Using Feature Flags](https://www.cloudbees.com/blog/how-to-build-the-process-and-culture-behind-using-feature-flags-at-scale) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A deep dive into scale management and governance around feature flags. Discusses the culture, runtime safety, and organizational processes needed to progress from ad-hoc developer usage to enterprise-grade Continuous Delivery maturity.
+A deep dive into scale management and governance around feature flags. Discusses the culture, runtime safety, and organizational processes needed to progress from ad-hoc developer usage to enterprise-grade Continuous Delivery maturity.
 
-  - **(2021)** [infoworld.com: 5 devops use cases for developing with feature flags](https://www.infoworld.com/article/2270518/5-devops-use-cases-for-developing-with-feature-flags.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [infoworld.com: 5 devops use cases for developing with feature flags](https://www.infoworld.com/article/2270518/5-devops-use-cases-for-developing-with-feature-flags.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Highlights five key operational DevOps patterns enabled by feature flag deployment. Explains concrete use cases, including system dark launching, canary testing, progressive rollouts, kill switches, and empowering product management controls.
+Highlights five key operational DevOps patterns enabled by feature flag deployment. Explains concrete use cases, including system dark launching, canary testing, progressive rollouts, kill switches, and empowering product management controls.
 
-  - **(2021)** [split.io: Keystone Flags: Feature Flagging With Less Mess](https://www.harness.io/blog?module-name=Feature+Management+%26+Experimentation&utm_campaign=fme&utm_source=split_io&utm_medium=redirect&utm_content=wildcard) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [split.io: Keystone Flags: Feature Flagging With Less Mess](https://www.harness.io/blog?module-name=Feature+Management+%26+Experimentation&utm_campaign=fme&utm_source=split_io&utm_medium=redirect&utm_content=wildcard) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        This redirected technical post explores 'Keystone Flags', an architecture designed to minimize toggle pollution across complex codebases. It details how isolating toggles at primary entry points (keystones) simplifies cleanups and reduces logic clutter.
+This redirected technical post explores 'Keystone Flags', an architecture designed to minimize toggle pollution across complex codebases. It details how isolating toggles at primary entry points (keystones) simplifies cleanups and reduces logic clutter.
 
-  - **(2020)** [cloudbees.com: Testing with Feature Flags to Improve Developer Productivity](https://www.cloudbees.com/blog/feature-flags-improve-developer-productivity) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span>
+</div></details>
+  - **(2020)** [cloudbees.com: Testing with Feature Flags to Improve Developer Productivity](https://www.cloudbees.com/blog/feature-flags-improve-developer-productivity) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Explores how integrating feature flags into testing lifecycles boosts productivity by isolating code changes. Details strategies for running live production tests safely without exposing experimental logic to the general user base.
+Explores how integrating feature flags into testing lifecycles boosts productivity by isolating code changes. Details strategies for running live production tests safely without exposing experimental logic to the general user base.
 
-  - **(2020)** [thenewstack.io: Wave Goodbye to Release Nights](https://thenewstack.io/wave-goodbye-to-release-nights) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2020)** [thenewstack.io: Wave Goodbye to Release Nights](https://thenewstack.io/wave-goodbye-to-release-nights) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An article framing how feature toggling transforms organizational release management. By making deployments a routine, low-risk daylight event, teams can decouple IT release operations from strict business-facing marketing launches.
+An article framing how feature toggling transforms organizational release management. By making deployments a routine, low-risk daylight event, teams can decouple IT release operations from strict business-facing marketing launches.
 
-  - **(2020)** [cloudbees.com: Feature Flag Best Practices: Change Management in Production](https://www.cloudbees.com/blog/change-management-in-production) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2020)** [cloudbees.com: Feature Flag Best Practices: Change Management in Production](https://www.cloudbees.com/blog/change-management-in-production) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Details the operational intersection of feature flags and traditional ITIL/Change Management. Demonstrates how audit trails, runtime permissions, and automated target rollouts maintain strict production stability while offering developers agility.
+Details the operational intersection of feature flags and traditional ITIL/Change Management. Demonstrates how audit trails, runtime permissions, and automated target rollouts maintain strict production stability while offering developers agility.
 
-  - **(2020)** [cloudbees.com: Feature Flag Best Practices: Understanding the Feature Flag Lifecycle](https://www.cloudbees.com/blog/feature-flag-lifecycle) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2020)** [cloudbees.com: Feature Flag Best Practices: Understanding the Feature Flag Lifecycle](https://www.cloudbees.com/blog/feature-flag-lifecycle) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Provides an engineering framework for managing the complete lifecycle of a feature flag. Covers creation, local developer testing, target validation in staging, production rollout, and the mandatory post-release cleanup phase to avoid logic bloat.
+Provides an engineering framework for managing the complete lifecycle of a feature flag. Covers creation, local developer testing, target validation in staging, production rollout, and the mandatory post-release cleanup phase to avoid logic bloat.
 
-  - **(2020)** [cloudbees.com: The Importance of Feature Flags in CI/CD](https://www.cloudbees.com/blog/how-feature-flags-help-you-put-customers-first) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2020)** [cloudbees.com: The Importance of Feature Flags in CI/CD](https://www.cloudbees.com/blog/how-feature-flags-help-you-put-customers-first) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Describes how integrating a feature-management engine into a classic CI/CD pipeline shifts focus from raw delivery to end-user outcomes. Emphasizes targeted beta testing, feedback collection, and on-demand customer-facing flag activations.
+Describes how integrating a feature-management engine into a classic CI/CD pipeline shifts focus from raw delivery to end-user outcomes. Emphasizes targeted beta testing, feedback collection, and on-demand customer-facing flag activations.
 
-  - [#FeatureFlags](https://x.com/hashtag/featureflag) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - [#FeatureFlags](https://x.com/hashtag/featureflag) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A social search stream aggregating real-time updates, community opinions, tool releases, and professional conversations centered on the #FeatureFlags hashtag on X.com.
+A social search stream aggregating real-time updates, community opinions, tool releases, and professional conversations centered on the #FeatureFlags hashtag on X.com.
 
+</div></details>
 #### Interface Design
 
-  - **(2015)** [**martinfowler.com: KeystoneInterface**](https://martinfowler.com/bliki/KeystoneInterface.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2015)** [**martinfowler.com: KeystoneInterface**](https://martinfowler.com/bliki/KeystoneInterface.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A classic architectural design pattern article by Martin Fowler on using 'Keystone Interfaces' to safely work on complex multi-system UI overhauls. Discusses keeping new components dormant behind a hidden interface entry point until fully complete and stable.
+A classic architectural design pattern article by Martin Fowler on using 'Keystone Interfaces' to safely work on complex multi-system UI overhauls. Discusses keeping new components dormant behind a hidden interface entry point until fully complete and stable.
 
+</div></details>
 ### Branching Strategies
 
 #### Architectural Patterns
@@ -845,224 +845,224 @@
     | [jmfloreszazo.com: Flujos de trabajo de git](https://jmfloreszazo.com/flujos-de-trabajo-de-git) |  | Architectural Patterns | Spanish | 🌟🌟🌟 |
     | [Git DMZ Flow](https://gist.github.com/djspiewak/9f2f91085607a4859a66) |  | Architectural Patterns | English | 🌟🌟🌟 |
 
-  - **(2026)** [==git-scm.com: Git Branching - Branching Workflows==](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - **(2026)** [==git-scm.com: Git Branching - Branching Workflows==](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Official Git documentation breaking down the mechanics of topic branches, long-running branches, and progressive integration strategies. Critical reading for establishing a technically coherent deployment flow based on Git's native tree mechanics.
+Official Git documentation breaking down the mechanics of topic branches, long-running branches, and progressive integration strategies. Critical reading for establishing a technically coherent deployment flow based on Git's native tree mechanics.
 
-  - **(2023)** [==atlassian.com: Comparing Workflows 🌟==](https://www.atlassian.com/git/tutorials/comparing-workflows) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2023)** [==atlassian.com: Comparing Workflows 🌟==](https://www.atlassian.com/git/tutorials/comparing-workflows) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        The absolute standard reference guide contrasting centralized, feature-branch, Gitflow, and forking workflows. Highly detailed, interactive diagrams make it the baseline industry resource for system architects modeling high-velocity continuous integration strategies.
+The absolute standard reference guide contrasting centralized, feature-branch, Gitflow, and forking workflows. Highly detailed, interactive diagrams make it the baseline industry resource for system architects modeling high-velocity continuous integration strategies.
 
-  - **(2020)** [==martinfowler.com: Patterns for Managing Source Code Branches==](https://martinfowler.com/articles/branching-patterns.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+</div></details>
+  - **(2020)** [==martinfowler.com: Patterns for Managing Source Code Branches==](https://martinfowler.com/articles/branching-patterns.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Martin Fowler's comprehensive architectural analysis of source-control branching patterns. It meticulously details the trade-offs of integration frequencies, branch lifespans, and continuous integration practices, defining modern software engineering governance.
+Martin Fowler's comprehensive architectural analysis of source-control branching patterns. It meticulously details the trade-offs of integration frequencies, branch lifespans, and continuous integration practices, defining modern software engineering governance.
 
-  - **(2013)** [**paulhammant.com: What is Your Branching Model?:**](https://paulhammant.com/2013/12/04/what_is_your_branching_model) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+</div></details>
+  - **(2013)** [**paulhammant.com: What is Your Branching Model?:**](https://paulhammant.com/2013/12/04/what_is_your_branching_model) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A historic, foundational architectural evaluation of team branching models (Trunk-Based Development vs GitFlow). This taxonomy has highly influenced the structural thinking behind contemporary 2026 microservices architectures and continuous deployment systems.
+A historic, foundational architectural evaluation of team branching models (Trunk-Based Development vs GitFlow). This taxonomy has highly influenced the structural thinking behind contemporary 2026 microservices architectures and continuous deployment systems.
 
-  - **(2021)** [adevait.com: Creating a Branching Strategy for Small Teams](https://adevait.com/software/creating-branching-strategy) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [adevait.com: Creating a Branching Strategy for Small Teams](https://adevait.com/software/creating-branching-strategy) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Pragmatic operational guide focusing on designing lightweight Git branching workflows that maximize output for small engineering teams. Outlines the transition from simple structures to structured staging layouts without introducing process overhead.
+Pragmatic operational guide focusing on designing lightweight Git branching workflows that maximize output for small engineering teams. Outlines the transition from simple structures to structured staging layouts without introducing process overhead.
 
-  - **(2021)** [jmfloreszazo.com: Flujos de trabajo de git](https://jmfloreszazo.com/flujos-de-trabajo-de-git) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [jmfloreszazo.com: Flujos de trabajo de git](https://jmfloreszazo.com/flujos-de-trabajo-de-git) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Exposición exhaustiva sobre los flujos de trabajo más populares de la industria, incluyendo GitFlow, GitHub Flow y Trunk-Based Development. Proporciona un marco analítico sólido para ayudar a los equipos a seleccionar un modelo de ramificación adecuado. [SPANISH CONTENT]
+Exposición exhaustiva sobre los flujos de trabajo más populares de la industria, incluyendo GitFlow, GitHub Flow y Trunk-Based Development. Proporciona un marco analítico sólido para ayudar a los equipos a seleccionar un modelo de ramificación adecuado. [SPANISH CONTENT]
 
-  - **(2015)** [Git DMZ Flow](https://gist.github.com/djspiewak/9f2f91085607a4859a66) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2015)** [Git DMZ Flow](https://gist.github.com/djspiewak/9f2f91085607a4859a66) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An alternative development flow proposing a 'demilitarized zone' branch pattern to balance trunk-based agility with rigorous pull request verification before automated main integration.
+An alternative development flow proposing a 'demilitarized zone' branch pattern to balance trunk-based agility with rigorous pull request verification before automated main integration.
 
+</div></details>
 #### Collaboration Protocols
 
-  - **(2026)** [==git-scm.com: Distributed Git - Distributed Workflows==](https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows#Integration-Manager-Workflow) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - **(2026)** [==git-scm.com: Distributed Git - Distributed Workflows==](https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows#Integration-Manager-Workflow) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Outlines distributed collaboration topologies such as the integration-manager and dictator-and-lieutenants workflows. Explains core decentralized structural mechanisms that support the Linux kernel and major global open-source engines.
+Outlines distributed collaboration topologies such as the integration-manager and dictator-and-lieutenants workflows. Explains core decentralized structural mechanisms that support the Linux kernel and major global open-source engines.
 
+</div></details>
 #### Continuous Integration (1)
 
-  - **(2026)** [==GitHub Flow==](https://docs.github.com/en/get-started/using-github/github-flow) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - **(2026)** [==GitHub Flow==](https://docs.github.com/en/get-started/using-github/github-flow) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Official specification of GitHub Flow, a lightweight, branch-based workflow supporting regular, rapid deployments. Explains how pull requests, code reviews, and deployments integrate cleanly into everyday developer operational practices.
+Official specification of GitHub Flow, a lightweight, branch-based workflow supporting regular, rapid deployments. Explains how pull requests, code reviews, and deployments integrate cleanly into everyday developer operational practices.
 
+</div></details>
 #### Open Source Engineering
 
-  - **(2026)** [==kubernetes.dev: GitHub Workflow==](https://www.kubernetes.dev/docs/guide/github-workflow) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - **(2026)** [==kubernetes.dev: GitHub Workflow==](https://www.kubernetes.dev/docs/guide/github-workflow) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Official guide explaining the massive, highly automated collaborative workflow used to orchestrate upstream Kubernetes contributions. Covers the intricate pull-request pipeline, PR testing gates, and branch rebasing protocols required of all ecosystem maintainers.
+Official guide explaining the massive, highly automated collaborative workflow used to orchestrate upstream Kubernetes contributions. Covers the intricate pull-request pipeline, PR testing gates, and branch rebasing protocols required of all ecosystem maintainers.
 
+</div></details>
 #### Platform Integration
 
-  - **(2022)** [**atlassian.com: Configuring branching models 🌟**](https://confluence.atlassian.com/bitbucketserver/branches-776639968.html#UsingbranchesinBitbucketServer-model) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2022)** [**atlassian.com: Configuring branching models 🌟**](https://confluence.atlassian.com/bitbucketserver/branches-776639968.html#UsingbranchesinBitbucketServer-model) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Bitbucket's enterprise-grade documentation for setting up native branching structures. Explains automated pull request integrations, merge checks, branch permissions, and strict policy enforcement for securing upstream branches.
+Bitbucket's enterprise-grade documentation for setting up native branching structures. Explains automated pull request integrations, merge checks, branch permissions, and strict policy enforcement for securing upstream branches.
 
+</div></details>
 ### CI-CD (1)
 
 #### Continuous Integration (2)
 
-  - **(2022)** [**polarsquad.com: Stop doing pull requests**](https://polarsquad.com/blog/stop-doing-pull-requests) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2022)** [**polarsquad.com: Stop doing pull requests**](https://polarsquad.com/blog/stop-doing-pull-requests) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A controversial architectural critique on pull request constraints, proposing trunk-based continuous integration to foster tighter collaboration. It contrasts PR bottlenecks with immediate trunk pushes, assessing feedback loops and QA impacts.
+A controversial architectural critique on pull request constraints, proposing trunk-based continuous integration to foster tighter collaboration. It contrasts PR bottlenecks with immediate trunk pushes, assessing feedback loops and QA impacts.
 
+</div></details>
 ### Collaboration
 
 #### Git Workflows
 
-  - **(2022)** [freecodecamp.org: How to Fork a GitHub Repository – A Complete Workflow](https://www.freecodecamp.org/news/how-to-fork-a-github-repository) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2022)** [freecodecamp.org: How to Fork a GitHub Repository – A Complete Workflow](https://www.freecodecamp.org/news/how-to-fork-a-github-repository) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A foundational workflow layout explaining remote forking mechanisms. Helps developers cleanly maintain branch synchronization with upstream repositories and generate standard cross-origin PRs.
+A foundational workflow layout explaining remote forking mechanisms. Helps developers cleanly maintain branch synchronization with upstream repositories and generate standard cross-origin PRs.
 
-  - **(2022)** [tylercipriani.com: GitHub's Missing Merge Option](https://tylercipriani.com/blog/2022/09/30/githubs-missing-merge-option) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2022)** [tylercipriani.com: GitHub's Missing Merge Option](https://tylercipriani.com/blog/2022/09/30/githubs-missing-merge-option) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An engineering essay highlighting Git merge edge cases, focusing on the lack of standard hybrid semi-linear merge options natively supported inside GitHub's PR UI.
+An engineering essay highlighting Git merge edge cases, focusing on the lack of standard hybrid semi-linear merge options natively supported inside GitHub's PR UI.
 
-  - **(2021)** [dev.to: Learn how to use Git and GitHub in a team like a pro](https://dev.to/colocodes/learn-how-to-use-git-and-github-in-a-team-like-a-pro-2dk7) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [dev.to: Learn how to use Git and GitHub in a team like a pro](https://dev.to/colocodes/learn-how-to-use-git-and-github-in-a-team-like-a-pro-2dk7) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A collaborative developer guide targeting team branch management, pull request review cycles, and team synchronization patterns. Outlines strategic approaches to resolving merge conflicts and maintaining clean trunk-based commit streams.
+A collaborative developer guide targeting team branch management, pull request review cycles, and team synchronization patterns. Outlines strategic approaches to resolving merge conflicts and maintaining clean trunk-based commit streams.
 
+</div></details>
 #### Open Source Curation
 
-  - **(2021)** [freecodecamp.org: How to Contribute to Open-Source Projects – Git & GitHub Workflow for Beginners](https://www.freecodecamp.org/news/git-and-github-workflow-for-open-source) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2021)** [freecodecamp.org: How to Contribute to Open-Source Projects – Git & GitHub Workflow for Beginners](https://www.freecodecamp.org/news/git-and-github-workflow-for-open-source) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A primer guide addressing social and technical workflow patterns required when contributing to open-source software, from upstream syncs to clean PR communication strategies.
+A primer guide addressing social and technical workflow patterns required when contributing to open-source software, from upstream syncs to clean PR communication strategies.
 
-  - **(2021)** [github.blog: GitHub Actions update: Helping maintainers combat bad actors](https://github.blog/open-source/maintainers/github-actions-update-helping-maintainers-combat-bad-actors) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [github.blog: GitHub Actions update: Helping maintainers combat bad actors](https://github.blog/open-source/maintainers/github-actions-update-helping-maintainers-combat-bad-actors) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Security implementation detailing required manual approvals for external workflows on fork pull requests, mitigating potential cryptocurrency mining abuses on self-hosted architectures.
+Security implementation detailing required manual approvals for external workflows on fork pull requests, mitigating potential cryptocurrency mining abuses on self-hosted architectures.
 
+</div></details>
 #### Repository Standards
 
-  - **(2022)** [freecodecamp.org: How to Use the .github Repository](https://www.freecodecamp.org/news/how-to-use-the-dot-github-repository) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2022)** [freecodecamp.org: How to Use the .github Repository](https://www.freecodecamp.org/news/how-to-use-the-dot-github-repository) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Explains how to deploy a special organization-level or user-level '.github' workspace. Details how to define unified templates for issues, pull requests, and profiles across all target repos.
+Explains how to deploy a special organization-level or user-level '.github' workspace. Details how to define unified templates for issues, pull requests, and profiles across all target repos.
 
-  - **(2021)** [dev.to/opensauced: How to Create a Good Pull Request Template (and Why You Should Add Gifs)](https://dev.to/opensauced/how-to-create-a-good-pull-request-template-and-why-you-should-add-gifs-4i0l) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [dev.to/opensauced: How to Create a Good Pull Request Template (and Why You Should Add Gifs)](https://dev.to/opensauced/how-to-create-a-good-pull-request-template-and-why-you-should-add-gifs-4i0l) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Focuses on optimizing developer collaboration via structured PR templates. Details patterns for scaffolding instructions, checklist blocks, and visual assets to improve maintainer comprehension.
+Focuses on optimizing developer collaboration via structured PR templates. Details patterns for scaffolding instructions, checklist blocks, and visual assets to improve maintainer comprehension.
 
+</div></details>
 ### Command Line Tools (1)
 
 #### GitHub Integration
 
-  - **(2022)** [github/hub 🌟](https://github.com/mislav/hub) <span class='md-tag md-tag--info'>⭐ 22949</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span>
+  - **(2022)** [github/hub 🌟](https://github.com/mislav/hub) <span class='md-tag md-tag--info'>⭐ 22949</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Curator Insight highlights 'hub' as the classic command-line utility wrapping Git to simplify GitHub-specific tasks. Live Grounding verifies that the repository is officially archived by GitHub in favor of the newer 'gh' CLI. It is classified as legacy under Minimum Viable Quality (MVQ) standards due to long-term inactivity.
+Curator Insight highlights 'hub' as the classic command-line utility wrapping Git to simplify GitHub-specific tasks. Live Grounding verifies that the repository is officially archived by GitHub in favor of the newer 'gh' CLI. It is classified as legacy under Minimum Viable Quality (MVQ) standards due to long-term inactivity.
 
+</div></details>
 ### Developer Environment
 
 #### Integrations
 
-  - **(2021)** [gitlab.com: How to do GitLab merge request reviews in VS Code](https://about.gitlab.com/blog/2021/01/25/mr-reviews-with-vs-code) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2021)** [gitlab.com: How to do GitLab merge request reviews in VS Code](https://about.gitlab.com/blog/2021/01/25/mr-reviews-with-vs-code) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A step-by-step workflow guide detailing how developers can complete and approve GitLab merge requests (MRs) directly within Visual Studio Code. Explains the integration capabilities offered by GitLab Workflow extension to boost focus and reduce context-switching.
+A step-by-step workflow guide detailing how developers can complete and approve GitLab merge requests (MRs) directly within Visual Studio Code. Explains the integration capabilities offered by GitLab Workflow extension to boost focus and reduce context-switching.
 
-  - **(2021)** [about.gitlab.com: How GitLab's 5 new code review features will make life easier](https://about.gitlab.com/blog/2021/09/09/5-code-review-features) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [about.gitlab.com: How GitLab's 5 new code review features will make life easier](https://about.gitlab.com/blog/2021/09/09/5-code-review-features) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Highlights five key features designed to optimize peer code reviews inside GitLab MRs. Explains practical user benefits from improved draft reviews, inline suggestions, and visual branch comparisons.
+Highlights five key features designed to optimize peer code reviews inside GitLab MRs. Explains practical user benefits from improved draft reviews, inline suggestions, and visual branch comparisons.
 
+</div></details>
 ### Developer Productivity (1)
 
 #### Code Search
 
-  - **(2021)** [github.blog: Improving GitHub code search](https://github.blog/engineering/improving-github-code-search) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2021)** [github.blog: Improving GitHub code search](https://github.blog/engineering/improving-github-code-search) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Curator Insight highlights GitHub's transition to a high-speed, custom-built search index engine. Live Grounding confirms this details 'Blackbird', the Rust-powered search engine built to parse over 45 million repositories in real-time, showcasing advanced indexing, query parsing, and custom regex sharding.
+Curator Insight highlights GitHub's transition to a high-speed, custom-built search index engine. Live Grounding confirms this details 'Blackbird', the Rust-powered search engine built to parse over 45 million repositories in real-time, showcasing advanced indexing, query parsing, and custom regex sharding.
 
+</div></details>
 #### Comment Systems
 
-  - **(2026)** [==github.com/giscus/giscus==](https://github.com/giscus/giscus) <span class='md-tag md-tag--info'>⭐ 11684</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - **(2026)** [==github.com/giscus/giscus==](https://github.com/giscus/giscus) <span class='md-tag md-tag--info'>⭐ 11684</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A highly popular open-source comment system leveraging GitHub Discussions. Avoids heavy third-party database dependencies by mapping discussion threads directly to markdown comments on static sites.
+A highly popular open-source comment system leveraging GitHub Discussions. Avoids heavy third-party database dependencies by mapping discussion threads directly to markdown comments on static sites.
 
+</div></details>
 #### GitHub Features
 
-  - **(2021)** [github.blog: Lists are now available as a public beta](https://github.blog/changelog/2021-12-09-lists-are-now-available-as-a-public-beta) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2021)** [github.blog: Lists are now available as a public beta](https://github.blog/changelog/2021-12-09-lists-are-now-available-as-a-public-beta) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Highlights the introduction of public beta list-making capabilities for categorized repository tracking. Solves star organization challenges, allowing developers to cleanly build domain-specific learning tracks directly on their profiles.
+Highlights the introduction of public beta list-making capabilities for categorized repository tracking. Solves star organization challenges, allowing developers to cleanly build domain-specific learning tracks directly on their profiles.
 
+</div></details>
 ### Developer Tooling
 
 #### Visual Metadata Badges
 
-  - **(2026)** [==shields.io 🌟==](https://shields.io) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - **(2026)** [==shields.io 🌟==](https://shields.io) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        The industry-standard dynamic SVG badge generation service utilized globally across open-source project READMEs. Integrates seamlessly with CI/CD runners, coverage checkers, and repository stars to present real-time architectural and health statistics visually.
+The industry-standard dynamic SVG badge generation service utilized globally across open-source project READMEs. Integrates seamlessly with CI/CD runners, coverage checkers, and repository stars to present real-time architectural and health statistics visually.
 
+</div></details>
 ### Education
 
 #### Git Basics (1)
 
-  - **(2021)** [youtube: GitHub Masterclass (Spanish) 🌟](https://www.youtube.com/playlist?list=PL0pgb_7nDofA1hJpkpPf4qHQTYZbPVT5M) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2021)** [youtube: GitHub Masterclass (Spanish) 🌟](https://www.youtube.com/playlist?list=PL0pgb_7nDofA1hJpkpPf4qHQTYZbPVT5M) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An extensive video masterclass series covering Git basics, collaborative repository management, and core workflows. Conducted in Spanish, offering deep insights into standard commands, conflict resolution, and branching models. [SPANISH CONTENT]
+An extensive video masterclass series covering Git basics, collaborative repository management, and core workflows. Conducted in Spanish, offering deep insights into standard commands, conflict resolution, and branching models. [SPANISH CONTENT]
 
+</div></details>
 #### Systems Engineering
 
-  - **(2023)** [**github.com/Lightning-AI/engineering-class: Lightning Bits: Engineering for Researchers 🌟**](https://github.com/Lightning-AI/engineering-class) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2023)** [**github.com/Lightning-AI/engineering-class: Lightning Bits: Engineering for Researchers 🌟**](https://github.com/Lightning-AI/engineering-class) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An open educational repository containing modern software engineering practices tailored for artificial intelligence researchers and engineers. Focuses on bridging the gap between raw research scripting and enterprise-grade deployment mechanics.
+An open educational repository containing modern software engineering practices tailored for artificial intelligence researchers and engineers. Focuses on bridging the gap between raw research scripting and enterprise-grade deployment mechanics.
 
+</div></details>
 ### Project Management
 
 #### GitHub Projects
 
-  - **(2021)** [github.blog: Getting started with project planning on GitHub](https://github.blog/developer-skills/github/getting-started-with-project-planning-on-github) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2021)** [github.blog: Getting started with project planning on GitHub](https://github.blog/developer-skills/github/getting-started-with-project-planning-on-github) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A practical walkthrough of GitHub's modern spreadsheet-centric agile project planning boards. Demonstrates how to design customized tables, automate status changes, and track team velocity natively inside the repository interface.
+A practical walkthrough of GitHub's modern spreadsheet-centric agile project planning boards. Demonstrates how to design customized tables, automate status changes, and track team velocity natively inside the repository interface.
 
+</div></details>
 ### Scaffolding (1)
 
 #### Frontend Architecture
 
-  - **(2023)** [freecodecamp.org: How to Build a GitHub Template Repository for Scaffolding with React, Vite, and TailwindCSS](https://www.freecodecamp.org/news/create-a-github-template-repository-with-react-vite-and-tailwindcss) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2023)** [freecodecamp.org: How to Build a GitHub Template Repository for Scaffolding with React, Vite, and TailwindCSS](https://www.freecodecamp.org/news/create-a-github-template-repository-with-react-vite-and-tailwindcss) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Walks through constructing a standardized GitHub Template repository utilizing React, Vite, and TailwindCSS. Demonstrates how to pre-configure linting pipelines and structure projects for rapid instantiation.
+Walks through constructing a standardized GitHub Template repository utilizing React, Vite, and TailwindCSS. Demonstrates how to pre-configure linting pipelines and structure projects for rapid instantiation.
 
+</div></details>
 ### Version Control
 
 #### Advanced Git
 
-  - **(2022)** [==dev.to: Git fundamentals, a complete guide | Leandro Proença 🌟🌟==](https://dev.to/leandronsp/git-fundamentals-a-complete-guide-do7) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2022)** [==dev.to: Git fundamentals, a complete guide | Leandro Proença 🌟🌟==](https://dev.to/leandronsp/git-fundamentals-a-complete-guide-do7) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An exceptional, deep-dive architectural exploration of Git's data structure foundation, illustrating the exact workings of blobs, trees, and commit pointers. Unveils CLI-level plumbing vs. UX-porcelain dynamics to foster comprehensive conceptual fluency.
+An exceptional, deep-dive architectural exploration of Git's data structure foundation, illustrating the exact workings of blobs, trees, and commit pointers. Unveils CLI-level plumbing vs. UX-porcelain dynamics to foster comprehensive conceptual fluency.
 
-  - **(2021)** [==freecodecamp.org: Git for Professionals – Free Version Control Course 🌟==](https://www.freecodecamp.org/news/git-for-professionals) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [==freecodecamp.org: Git for Professionals – Free Version Control Course 🌟==](https://www.freecodecamp.org/news/git-for-professionals) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A comprehensive, multi-hour video course covering highly advanced Git patterns, including reflogs, structural rebase workflows, interactive staging, and repository security best practices. Highly recommended for senior engineers wishing to master the command line.
+A comprehensive, multi-hour video course covering highly advanced Git patterns, including reflogs, structural rebase workflows, interactive staging, and repository security best practices. Highly recommended for senior engineers wishing to master the command line.
 
+</div></details>
 #### Advanced History Manipulation
 
 
@@ -1075,53 +1075,53 @@
     | [opensource.com: 3 reasons I use the Git cherry-pick command](https://opensource.com/article/21/3/git-cherry-pick) |  | Advanced History Manipulation | English | 🌟🌟🌟 |
     | [jmfloreszazo.com: GIT Mejores prácticas: CHERRY-PICKING](https://jmfloreszazo.com/git-mejores-practicas-cherry-picking) |  | Advanced History Manipulation | Spanish | 🌟🌟🌟 |
 
-  - **(2022)** [**opensource.com: My guide to understanding Git rebase -i**](https://opensource.com/article/22/4/manage-git-commits-rebase-i-command) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2022)** [**opensource.com: My guide to understanding Git rebase -i**](https://opensource.com/article/22/4/manage-git-commits-rebase-i-command) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An expert-level exploration of the Git interactive rebase workflow. It explains how to restructure commits, fixup historical errors, drop unwanted experimental logs, and clean branch history to comply with strict upstream repository standards.
+An expert-level exploration of the Git interactive rebase workflow. It explains how to restructure commits, fixup historical errors, drop unwanted experimental logs, and clean branch history to comply with strict upstream repository standards.
 
-  - **(2020)** [**build5nines.com: Git: Merge Repositories with History**](https://build5nines.com/git-merge-repositories-with-history) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2020)** [**build5nines.com: Git: Merge Repositories with History**](https://build5nines.com/git-merge-repositories-with-history) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A highly technical step-by-step workflow for consolidating completely disjointed repositories into a unified target while fully preserving commit history. Crucial for organization-wide monorepo migrations and system consolidation initiatives.
+A highly technical step-by-step workflow for consolidating completely disjointed repositories into a unified target while fully preserving commit history. Crucial for organization-wide monorepo migrations and system consolidation initiatives.
 
-  - **(2023)** [freecodecamp.org/news/git-rebase-handbook](https://www.freecodecamp.org/news/git-rebase-handbook) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2023)** [freecodecamp.org/news/git-rebase-handbook](https://www.freecodecamp.org/news/git-rebase-handbook) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A complete reference text on rebasing mechanics, addressing safety profiles, dynamic branch updates, and upstream rebase scenarios. Walks engineers through pitfalls like force-push dangers and team coordination during history manipulation.
+A complete reference text on rebasing mechanics, addressing safety profiles, dynamic branch updates, and upstream rebase scenarios. Walks engineers through pitfalls like force-push dangers and team coordination during history manipulation.
 
-  - **(2021)** [opensource.com: 3 reasons I use the Git cherry-pick command](https://opensource.com/article/21/3/git-cherry-pick) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [opensource.com: 3 reasons I use the Git cherry-pick command](https://opensource.com/article/21/3/git-cherry-pick) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Highlights specific practical scenarios where cherry-picking individual commits across branches is highly superior to full merges. Essential for surgical hotfix propagation and codebase refactoring in high-stakes production lines.
+Highlights specific practical scenarios where cherry-picking individual commits across branches is highly superior to full merges. Essential for surgical hotfix propagation and codebase refactoring in high-stakes production lines.
 
-  - **(2021)** [jmfloreszazo.com: GIT Mejores prácticas: CHERRY-PICKING](https://jmfloreszazo.com/git-mejores-practicas-cherry-picking) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [jmfloreszazo.com: GIT Mejores prácticas: CHERRY-PICKING](https://jmfloreszazo.com/git-mejores-practicas-cherry-picking) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Guía detallada que describe las mejores prácticas de ingeniería para implementar el comando `git cherry-pick`. Detalla los riesgos de la duplicación de hashes y cómo estructurar ramas de hotfix para evitar conflictos repetidos en integraciones futuras. [SPANISH CONTENT]
+Guía detallada que describe las mejores prácticas de ingeniería para implementar el comando `git cherry-pick`. Detalla los riesgos de la duplicación de hashes y cómo estructurar ramas de hotfix para evitar conflictos repetidos en integraciones futuras. [SPANISH CONTENT]
 
+</div></details>
 #### Best Practices (1)
 
-  - **(2022)** [**dev.to: How atomic Git commits dramatically increased my productivity - and will increase yours too 🌟**](https://dev.to/samuelfaure/how-atomic-git-commits-dramatically-increased-my-productivity-and-will-increase-yours-too-4a84) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2022)** [**dev.to: How atomic Git commits dramatically increased my productivity - and will increase yours too 🌟**](https://dev.to/samuelfaure/how-atomic-git-commits-dramatically-increased-my-productivity-and-will-increase-yours-too-4a84) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Practical, insight-led guide highlighting the productivity jump from committing singular, well-isolated changes. Outlines why micro-level atomic commits simplify debugging, interactive rebase flows, and rollback processes in shared branches.
+Practical, insight-led guide highlighting the productivity jump from committing singular, well-isolated changes. Outlines why micro-level atomic commits simplify debugging, interactive rebase flows, and rollback processes in shared branches.
 
-  - **(2021)** [**midu.dev: Buenas prácticas para escribir commits en Git**](https://midu.dev/buenas-practicas-escribir-commits-git) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [**midu.dev: Buenas prácticas para escribir commits en Git**](https://midu.dev/buenas-practicas-escribir-commits-git) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Presenta pautas rigurosas para la redacción de mensajes de commit semánticos y estructurados (Conventional Commits). Destaca la importancia de mantener un historial de cambios limpio y automatizable para herramientas de integración continua en equipos de alto rendimiento. [SPANISH CONTENT]
+Presenta pautas rigurosas para la redacción de mensajes de commit semánticos y estructurados (Conventional Commits). Destaca la importancia de mantener un historial de cambios limpio y automatizable para herramientas de integración continua en equipos de alto rendimiento. [SPANISH CONTENT]
 
-  - **(2021)** [**css-tricks.com: Advanced Git series. 1 Creating the Perfect Commit in Git**](https://css-tricks.com/creating-the-perfect-commit-in-git) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [**css-tricks.com: Advanced Git series. 1 Creating the Perfect Commit in Git**](https://css-tricks.com/creating-the-perfect-commit-in-git) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Discusses the philosophy and composition of highly structured commits, focusing on atomic change separation, patch staging ('git add -p'), and clean message layouts. Adopting these mechanics ensures highly readable commit structures and vastly simpler rollback pathways.
+Discusses the philosophy and composition of highly structured commits, focusing on atomic change separation, patch staging ('git add -p'), and clean message layouts. Adopting these mechanics ensures highly readable commit structures and vastly simpler rollback pathways.
 
-  - **(2021)** [geeksforgeeks.org: How to Write Good Commit Messages in GitHub?](https://www.geeksforgeeks.org/git/how-to-write-good-commit-messages-in-github) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [geeksforgeeks.org: How to Write Good Commit Messages in GitHub?](https://www.geeksforgeeks.org/git/how-to-write-good-commit-messages-in-github) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Defines structural best practices for composing collaborative, readable Git commit messages. It introduces standard patterns like the imperative mood, keeping subject lines under 50 characters, and separating bodies with blank lines for automated changelog generation.
+Defines structural best practices for composing collaborative, readable Git commit messages. It introduces standard patterns like the imperative mood, keeping subject lines under 50 characters, and separating bodies with blank lines for automated changelog generation.
 
+</div></details>
 #### Branching Strategies (1)
 
 
@@ -1139,287 +1139,287 @@
     | [kean.github.io: Trunk-Based Development](https://kean.blog/post/trunk-based-development) |  | Branching Strategies | English | 🌟🌟🌟 |
     | [team-coder.com: From Git Flow to Trunk Based Development](https://team-coder.com/from-git-flow-to-trunk-based-development) |  | Branching Strategies | English | 🌟🌟🌟 |
 
-  - **(2017)** [==Trunk Based Development==](https://trunkbaseddevelopment.com) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - **(2017)** [==Trunk Based Development==](https://trunkbaseddevelopment.com) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        The canonical reference site for Trunk-Based Development (TBD). It details the architectural practice where developers merge small, frequent updates to a core branch, resisting long-lived branches. This eliminates complex merge phases and forms the bedrock of modern continuous integration workflows.
+The canonical reference site for Trunk-Based Development (TBD). It details the architectural practice where developers merge small, frequent updates to a core branch, resisting long-lived branches. This eliminates complex merge phases and forms the bedrock of modern continuous integration workflows.
 
-  - **(2010)** [==Git Flow==](https://nvie.com/posts/a-successful-git-branching-model) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+</div></details>
+  - **(2010)** [==Git Flow==](https://nvie.com/posts/a-successful-git-branching-model) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        The original, widely adopted 2010 post by Vincent Driessen introducing the Git Flow branching model. While historically revolutionary for structured releases, modern consensus and the author's own 2020 update reflect that this model introduces excessive complexity for continuous delivery pipelines.
+The original, widely adopted 2010 post by Vincent Driessen introducing the Git Flow branching model. While historically revolutionary for structured releases, modern consensus and the author's own 2020 update reflect that this model introduces excessive complexity for continuous delivery pipelines.
 
-  - **(2021)** [**atlassian.com: Gitflow Workflow**](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [**atlassian.com: Gitflow Workflow**](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A highly-structured tutorial by Atlassian comparing Gitflow against alternative branching strategies. It offers clear operational blueprints and command examples, evaluating how the model coordinates scheduled release cycles while warning of its constraints in high-velocity CI/CD environments.
+A highly-structured tutorial by Atlassian comparing Gitflow against alternative branching strategies. It offers clear operational blueprints and command examples, evaluating how the model coordinates scheduled release cycles while warning of its constraints in high-velocity CI/CD environments.
 
-  - **(2021)** [**youtube: Git Flow Is A Bad Idea - Dave Farley**](https://www.youtube.com/watch?v=_w6TwnLCFwA&ab_channel=ContinuousDelivery) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+</div></details>
+  - **(2021)** [**youtube: Git Flow Is A Bad Idea - Dave Farley**](https://www.youtube.com/watch?v=_w6TwnLCFwA&ab_channel=ContinuousDelivery) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A high-impact video by continuous delivery expert Dave Farley arguing why Git Flow acts as an anti-pattern for modern software delivery. He contrasts multi-branch isolation with the rapid feedback, safety, and velocity realized via strict trunk-based architectures.
+A high-impact video by continuous delivery expert Dave Farley arguing why Git Flow acts as an anti-pattern for modern software delivery. He contrasts multi-branch isolation with the rapid feedback, safety, and velocity realized via strict trunk-based architectures.
 
-  - **(2017)** [**trunkbaseddevelopment.com: Alternative Branching Models**](https://trunkbaseddevelopment.com/alternative-branching-models) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+</div></details>
+  - **(2017)** [**trunkbaseddevelopment.com: Alternative Branching Models**](https://trunkbaseddevelopment.com/alternative-branching-models) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A sub-section of the core trunk-based reference site that breaks down alternative branching topologies (GitHub Flow, GitLab Flow, GitFlow). It provides a deep structural comparison highlighting the strengths and bottlenecks of each approach in continuous production.
+A sub-section of the core trunk-based reference site that breaks down alternative branching topologies (GitHub Flow, GitLab Flow, GitFlow). It provides a deep structural comparison highlighting the strengths and bottlenecks of each approach in continuous production.
 
-  - **(2013)** [**paulhammant.com: What is Trunk-Based Development?**](https://paulhammant.com/2013/04/05/what-is-trunk-based-development) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+</div></details>
+  - **(2013)** [**paulhammant.com: What is Trunk-Based Development?**](https://paulhammant.com/2013/04/05/what-is-trunk-based-development) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A foundational historical article by Paul Hammant outlining the core mechanics and philosophy of Trunk-Based Development. It serves as an early conceptual introduction, explaining how avoiding long-lived branch models accelerates deployment velocity and prevents merge hell in large engineering teams.
+A foundational historical article by Paul Hammant outlining the core mechanics and philosophy of Trunk-Based Development. It serves as an early conceptual introduction, explaining how avoiding long-lived branch models accelerates deployment velocity and prevents merge hell in large engineering teams.
 
-  - **(2022)** [gitkraken.com: GitFlow](https://support.gitkraken.com/git-workflows-and-extensions/git-flow) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2022)** [gitkraken.com: GitFlow](https://support.gitkraken.com/git-workflows-and-extensions/git-flow) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A practical UI-centric guide demonstrating GitFlow execution inside the GitKraken desktop client. It simplifies branch creation, merging, and visual release management, offering a low-friction approach for teams bound to multi-branch deployment workflows.
+A practical UI-centric guide demonstrating GitFlow execution inside the GitKraken desktop client. It simplifies branch creation, merging, and visual release management, offering a low-friction approach for teams bound to multi-branch deployment workflows.
 
-  - **(2021)** [freecodecamp.org: What is Trunk Based Development? A Different Approach to the Software Development Lifecycle](https://www.freecodecamp.org/news/what-is-trunk-based-development) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [freecodecamp.org: What is Trunk Based Development? A Different Approach to the Software Development Lifecycle](https://www.freecodecamp.org/news/what-is-trunk-based-development) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A clear, educational introduction to the concepts of Trunk-Based Development under a modern software delivery lifecycle. It explains the core benefits of rapid codebase integration and how it directly pairs with robust automated CI/CD practices.
+A clear, educational introduction to the concepts of Trunk-Based Development under a modern software delivery lifecycle. It explains the core benefits of rapid codebase integration and how it directly pairs with robust automated CI/CD practices.
 
-  - **(2020)** [kean.github.io: Trunk-Based Development](https://kean.blog/post/trunk-based-development) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2020)** [kean.github.io: Trunk-Based Development](https://kean.blog/post/trunk-based-development) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An insightful perspective on adopting Trunk-Based Development within modern development teams. The article details the practical benefits, cultural adjustments, and critical testing architectures required to maintain a stable, deployable master branch without breaking changes.
+An insightful perspective on adopting Trunk-Based Development within modern development teams. The article details the practical benefits, cultural adjustments, and critical testing architectures required to maintain a stable, deployable master branch without breaking changes.
 
-  - **(2019)** [team-coder.com: From Git Flow to Trunk Based Development](https://team-coder.com/from-git-flow-to-trunk-based-development) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2019)** [team-coder.com: From Git Flow to Trunk Based Development](https://team-coder.com/from-git-flow-to-trunk-based-development) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A migration-focused technical post mapping the practical steps and culture shift required to move an engineering team from a GitFlow framework to Trunk-Based Development. It highlights pipeline adaptations, test automation needs, and mindset changes.
+A migration-focused technical post mapping the practical steps and culture shift required to move an engineering team from a GitFlow framework to Trunk-Based Development. It highlights pipeline adaptations, test automation needs, and mindset changes.
 
-  - **(2018)** [git-flow.readthedocs.io](https://git-flow.readthedocs.io/en/latest) 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span>
+</div></details>
+  - **(2018)** [git-flow.readthedocs.io](https://git-flow.readthedocs.io/en/latest) 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Official ReadTheDocs documentation for the CLI extension wrapper `git-flow` created to automate Driessen's branching model. It remains a helpful reference for developers managing legacy codebases that require automated creation of feature, release, and hotfix tracking structures.
+Official ReadTheDocs documentation for the CLI extension wrapper `git-flow` created to automate Driessen's branching model. It remains a helpful reference for developers managing legacy codebases that require automated creation of feature, release, and hotfix tracking structures.
 
-  - **(2016)** [thinkinglabs.io: Feature Branching considered Evil](https://thinkinglabs.io/talks/2016/10/29/feature-branching-considered-evil.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2016)** [thinkinglabs.io: Feature Branching considered Evil](https://thinkinglabs.io/talks/2016/10/29/feature-branching-considered-evil.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A critical analysis examining the negative impact of long-lived feature branches on continuous integration. It argues that delayed integration degrades feedback loops and promotes isolation, advocating for Trunk-Based practices to establish real collective ownership.
+A critical analysis examining the negative impact of long-lived feature branches on continuous integration. It argues that delayed integration degrades feedback loops and promotes isolation, advocating for Trunk-Based practices to establish real collective ownership.
 
-  - **(2015)** [gist.github.com/JamesMGreene: A comparison of using `git flow` commands versus raw `git` commands](https://gist.github.com/JamesMGreene/cdd0ac49f90c987e45ac) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2015)** [gist.github.com/JamesMGreene: A comparison of using `git flow` commands versus raw `git` commands](https://gist.github.com/JamesMGreene/cdd0ac49f90c987e45ac) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A detailed side-by-side CLI command comparison showing the underlying raw Git operations performed by the automated `git flow` wrapper tool. Crucial for developers needing to troubleshoot or replicate GitFlow states without installing additional dependencies.
+A detailed side-by-side CLI command comparison showing the underlying raw Git operations performed by the automated `git flow` wrapper tool. Crucial for developers needing to troubleshoot or replicate GitFlow states without installing additional dependencies.
 
-  - **(2020)** [victorops.com: Source Code Control: Trunk-Based Development vs. GitFlow](https://www.splunk.com/en_us/about-splunk/acquisitions/splunk-on-call.html) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2020)** [victorops.com: Source Code Control: Trunk-Based Development vs. GitFlow](https://www.splunk.com/en_us/about-splunk/acquisitions/splunk-on-call.html) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Originally published by VictorOps (now acquired by Splunk as Splunk On-Call), this guide provides a direct comparison between Trunk-Based Development and GitFlow. It outlines the operational trade-offs between stability-centric scheduled release cycles and fast continuous deployment.
+Originally published by VictorOps (now acquired by Splunk as Splunk On-Call), this guide provides a direct comparison between Trunk-Based Development and GitFlow. It outlines the operational trade-offs between stability-centric scheduled release cycles and fast continuous deployment.
 
-  - **(2020)** [devopszone.info: An Introduction To Git-flow Workflow](https://www.devopszone.info/post/an-introduction-to-git-flow-workflow) 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span>
+</div></details>
+  - **(2020)** [devopszone.info: An Introduction To Git-flow Workflow](https://www.devopszone.info/post/an-introduction-to-git-flow-workflow) 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A basic primer detailing the structure and rules of the Git-flow branching workflow. It walks through the distinct roles of master, develop, feature, hotfix, and release branches, serving as an introductory guide for legacy continuous delivery structures.
+A basic primer detailing the structure and rules of the Git-flow branching workflow. It walks through the distinct roles of master, develop, feature, hotfix, and release branches, serving as an introductory guide for legacy continuous delivery structures.
 
-  - **(2014)** [aprendegit.com: git-flow: la rama develop y uso de feature branches](http://aprendegit.com/git-flow-la-rama-develop-y-uso-de-feature-branches) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2014)** [aprendegit.com: git-flow: la rama develop y uso de feature branches](http://aprendegit.com/git-flow-la-rama-develop-y-uso-de-feature-branches) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A native Spanish guide detailing the execution of GitFlow, specifically focusing on the relationship between development branches and short-lived features. Explains branch merging rules step-by-step for teams working in collaborative Spanish-speaking developer ecosystems. [SPANISH CONTENT]
+A native Spanish guide detailing the execution of GitFlow, specifically focusing on the relationship between development branches and short-lived features. Explains branch merging rules step-by-step for teams working in collaborative Spanish-speaking developer ecosystems. [SPANISH CONTENT]
 
+</div></details>
 #### Case Studies (1)
 
-  - **(2018)** [**devblogs.microsoft.com: Release Flow: How We Do Branching on the VSTS Team**](https://devblogs.microsoft.com/devops/release-flow-how-we-do-branching-on-the-vsts-team) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2018)** [**devblogs.microsoft.com: Release Flow: How We Do Branching on the VSTS Team**](https://devblogs.microsoft.com/devops/release-flow-how-we-do-branching-on-the-vsts-team) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Detailed breakdown of the 'Release Flow' branching strategy utilized by Microsoft's Azure DevOps/VSTS engineering teams. It explains how Microsoft balances high-throughput development with strict enterprise release cycles by leveraging short-lived feature branches and dedicated deployment branches.
+Detailed breakdown of the 'Release Flow' branching strategy utilized by Microsoft's Azure DevOps/VSTS engineering teams. It explains how Microsoft balances high-throughput development with strict enterprise release cycles by leveraging short-lived feature branches and dedicated deployment branches.
 
-  - **(2014)** [**paulhammant.com: Microsoft's Trunk-Based Development**](https://paulhammant.com/2014/04/03/microsofts-trunk-based-development) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+</div></details>
+  - **(2014)** [**paulhammant.com: Microsoft's Trunk-Based Development**](https://paulhammant.com/2014/04/03/microsofts-trunk-based-development) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        This retrospective case study examines Microsoft's transition to trunk-based patterns for large-scale enterprise suites like Windows and Office. It highlights the custom tooling, engineering discipline, and scalability strategies required to support thousands of active engineers committing directly to a unified codebase.
+This retrospective case study examines Microsoft's transition to trunk-based patterns for large-scale enterprise suites like Windows and Office. It highlights the custom tooling, engineering discipline, and scalability strategies required to support thousands of active engineers committing directly to a unified codebase.
 
+</div></details>
 #### Collaboration (1)
 
-  - **(2021)** [dev.to: Open Source: My first Pull Request](https://dev.to/okimotomizuho/open-source-my-first-pull-request-1356) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2021)** [dev.to: Open Source: My first Pull Request](https://dev.to/okimotomizuho/open-source-my-first-pull-request-1356) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A step-by-step walkthrough of the fork-and-pull model used for open-source contributions. It explains upstream synchronization, clean branch isolation, and standard pull request workflows from a contributor's perspective.
+A step-by-step walkthrough of the fork-and-pull model used for open-source contributions. It explains upstream synchronization, clean branch isolation, and standard pull request workflows from a contributor's perspective.
 
+</div></details>
 #### Collaboration Protocols (1)
 
-  - **(2022)** [freecodecamp.org: How to Write Commit Messages that Project Maintainers Will Appreciate](https://www.freecodecamp.org/news/how-to-write-commit-messages-maintainers-will-like) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2022)** [freecodecamp.org: How to Write Commit Messages that Project Maintainers Will Appreciate](https://www.freecodecamp.org/news/how-to-write-commit-messages-maintainers-will-like) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A comprehensive developer guide on composing structured and semantic commit messages that ease maintainer review. It contrasts raw commit history with standardized protocols (such as Conventional Commits) to lower code review latency and improve automated changelog generation in large projects.
+A comprehensive developer guide on composing structured and semantic commit messages that ease maintainer review. It contrasts raw commit history with standardized protocols (such as Conventional Commits) to lower code review latency and improve automated changelog generation in large projects.
 
-  - **(2021)** [dev.to/varbsan: A Simplified Convention for Naming Branches and Commits in Git](https://dev.to/varbsan/a-simplified-convention-for-naming-branches-and-commits-in-git-il4) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [dev.to/varbsan: A Simplified Convention for Naming Branches and Commits in Git](https://dev.to/varbsan/a-simplified-convention-for-naming-branches-and-commits-in-git-il4) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Proposes an elegant, highly structured system for classifying branches (e.g., `feat/`, `fix/`, `docs/`) and structuring commit histories. This guide is critical for setting up automated pipelines that trigger CI/CD builds based on branch namespaces.
+Proposes an elegant, highly structured system for classifying branches (e.g., `feat/`, `fix/`, `docs/`) and structuring commit histories. This guide is critical for setting up automated pipelines that trigger CI/CD builds based on branch namespaces.
 
-  - **(2022)** [dev.to: Open Source: Multiple branches and git merges](https://dev.to/okimotomizuho/open-source-multiple-branches-and-git-merges-2f69) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2022)** [dev.to: Open Source: Multiple branches and git merges](https://dev.to/okimotomizuho/open-source-multiple-branches-and-git-merges-2f69) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Analyzes branch tracking strategies specifically tailored for maintaining sanity in large, multi-contributor open-source systems. Discusses the downstream effects of divergent merge strategies on public issue tracking and release branches.
+Analyzes branch tracking strategies specifically tailored for maintaining sanity in large, multi-contributor open-source systems. Discusses the downstream effects of divergent merge strategies on public issue tracking and release branches.
 
+</div></details>
 #### Conceptual Models
 
-  - **(2022)** [opensource.com: Explaining Git branches with a LEGO analogy](https://opensource.com/article/22/4/git-branches) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2022)** [opensource.com: Explaining Git branches with a LEGO analogy](https://opensource.com/article/22/4/git-branches) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Utilizes tactile physical analogies (LEGO bricks) to demystify branch divergence, merging, and revision lineage. Highly useful for non-technical project managers or junior developers struggling with conceptualizing non-linear tree models.
+Utilizes tactile physical analogies (LEGO bricks) to demystify branch divergence, merging, and revision lineage. Highly useful for non-technical project managers or junior developers struggling with conceptualizing non-linear tree models.
 
+</div></details>
 #### Conflict Resolution
 
-  - **(2022)** [freecodecamp.org: How to Fix Merge Conflicts in Git](https://www.freecodecamp.org/news/how-to-fix-merge-conflicts-in-git) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2022)** [freecodecamp.org: How to Fix Merge Conflicts in Git](https://www.freecodecamp.org/news/how-to-fix-merge-conflicts-in-git) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Detailed operational breakdown of analyzing and resolving merge conflicts. Discusses parsing conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`), using external diff/merge utilities, and understanding code evolution to avoid overwriting peer updates.
+Detailed operational breakdown of analyzing and resolving merge conflicts. Discusses parsing conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`), using external diff/merge utilities, and understanding code evolution to avoid overwriting peer updates.
 
-  - **(2021)** [dev.to: How Do I Resolve Merge Conflicts?](https://dev.to/github/how-do-i-resolve-merge-conflicts-5438) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [dev.to: How Do I Resolve Merge Conflicts?](https://dev.to/github/how-do-i-resolve-merge-conflicts-5438) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Official guide showing how to identify and manually resolve file-level diff collision blocks during merge commands. Emphasizes visual tools and command line outputs to confidently patch code conflicts.
+Official guide showing how to identify and manually resolve file-level diff collision blocks during merge commands. Emphasizes visual tools and command line outputs to confidently patch code conflicts.
 
-  - **(2021)** [simplilearn.com: How to Resolve Merge Conflicts in Git?](https://www.simplilearn.com/tutorials/git-tutorial/merge-conflicts-in-git) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [simplilearn.com: How to Resolve Merge Conflicts in Git?](https://www.simplilearn.com/tutorials/git-tutorial/merge-conflicts-in-git) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A step-by-step tutorial designed to explain the mechanics of three-way merging and the generation of merge conflicts. It details how conflict markers are injected and provides terminal-based solutions to reconcile overlapping edits.
+A step-by-step tutorial designed to explain the mechanics of three-way merging and the generation of merge conflicts. It details how conflict markers are injected and provides terminal-based solutions to reconcile overlapping edits.
 
+</div></details>
 #### Developer Ergonomics
 
-  - **(2020)** [opensource.com: 8 Git aliases that make me more efficient](https://opensource.com/article/20/11/git-aliases) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2020)** [opensource.com: 8 Git aliases that make me more efficient](https://opensource.com/article/20/11/git-aliases) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Examines practical shell and Git aliases designed to accelerate daily CLI execution speeds. Explains configuration syntaxes for setting up logical macro shortcodes within global `.gitconfig` profiles.
+Examines practical shell and Git aliases designed to accelerate daily CLI execution speeds. Explains configuration syntaxes for setting up logical macro shortcodes within global `.gitconfig` profiles.
 
-  - **(2018)** [davidwalsh.name: More Awesome Git Aliases](https://davidwalsh.name/more-awesome-git-aliases) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2018)** [davidwalsh.name: More Awesome Git Aliases](https://davidwalsh.name/more-awesome-git-aliases) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A curated set of advanced Git alias definitions targeting productivity improvements. Focuses on parsing, pretty-printing logs, tracking status flags, and customizing shell environments for version-control readability.
+A curated set of advanced Git alias definitions targeting productivity improvements. Focuses on parsing, pretty-printing logs, tracking status flags, and customizing shell environments for version-control readability.
 
+</div></details>
 #### Disaster Recovery
 
-  - **(2026)** [**backhub.co**](https://www.backhub.co) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2026)** [**backhub.co**](https://www.backhub.co) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A key enterprise-grade backup solution for GitHub repositories (integrated with Rewind). It automates cloud backups of source code alongside associated metadata (issues, wikis, pull requests), critical for security compliance and business continuity frameworks.
+A key enterprise-grade backup solution for GitHub repositories (integrated with Rewind). It automates cloud backups of source code alongside associated metadata (issues, wikis, pull requests), critical for security compliance and business continuity frameworks.
 
-  - **(2021)** [devops.com: Make GitHub Backups Part of Your Development Process](https://devops.com/make-github-backups-part-of-your-development-process) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [devops.com: Make GitHub Backups Part of Your Development Process](https://devops.com/make-github-backups-part-of-your-development-process) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Analyzes the critical operational need to treat third-party repository platforms as soft targets requiring independent backup infrastructure. It advocates for localized automated archiving strategies to secure source code intellectual property against localized system downtime.
+Analyzes the critical operational need to treat third-party repository platforms as soft targets requiring independent backup infrastructure. It advocates for localized automated archiving strategies to secure source code intellectual property against localized system downtime.
 
-  - **(2022)** [dev.to: 3 Ways to Backup Your Code (Even If You Don’t Know Git)](https://dev.to/github/3-ways-to-backup-your-code-even-if-you-dont-know-git-1o5l) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2022)** [dev.to: 3 Ways to Backup Your Code (Even If You Don’t Know Git)](https://dev.to/github/3-ways-to-backup-your-code-even-if-you-dont-know-git-1o5l) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Introduces basic to intermediate data protection strategies for ensuring development work is never lost. Geared toward beginners and non-Git users, covering high-level archive procedures and external cloud storage integration.
+Introduces basic to intermediate data protection strategies for ensuring development work is never lost. Geared toward beginners and non-Git users, covering high-level archive procedures and external cloud storage integration.
 
+</div></details>
 #### Git Architecture
 
-  - **(2021)** [**stackoverflow.blog: A look under the hood: how branches work in Git**](https://stackoverflow.blog/2021/04/05/a-look-under-the-hood-how-branches-work-in-git) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2021)** [**stackoverflow.blog: A look under the hood: how branches work in Git**](https://stackoverflow.blog/2021/04/05/a-look-under-the-hood-how-branches-work-in-git) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An in-depth exploration of Git's DAG (Directed Acyclic Graph) structural model and object storage (`blobs`, `trees`, `commits`). It explains why branching in Git is incredibly lightweight compared to classical VCS systems. Vital reading for senior developers looking to debug corrupted refs.
+An in-depth exploration of Git's DAG (Directed Acyclic Graph) structural model and object storage (`blobs`, `trees`, `commits`). It explains why branching in Git is incredibly lightweight compared to classical VCS systems. Vital reading for senior developers looking to debug corrupted refs.
 
-  - **(2022)** [freecodecamp.org: How Git Branches Work](https://www.freecodecamp.org/news/how-git-branches-work) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2022)** [freecodecamp.org: How Git Branches Work](https://www.freecodecamp.org/news/how-git-branches-work) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Deep dive into the metadata pointer structure of Git branches, contrasting them with physically copied directories. It illustrates how the HEAD pointer is resolved dynamically during branch transitions, providing a solid conceptual foundation.
+Deep dive into the metadata pointer structure of Git branches, contrasting them with physically copied directories. It illustrates how the HEAD pointer is resolved dynamically during branch transitions, providing a solid conceptual foundation.
 
+</div></details>
 #### Git Basics (2)
 
-  - **(2021)** [intellipaat.com: Git Tutorial - Learn Git 🌟](https://intellipaat.com/blog/tutorial/devops-tutorial/git-tutorial) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2021)** [intellipaat.com: Git Tutorial - Learn Git 🌟](https://intellipaat.com/blog/tutorial/devops-tutorial/git-tutorial) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A beginner-friendly introduction to Git's lifecycle, architecture, and basic operations. It provides clear walk-throughs of staging, committing, and working with remote repositories, serving as a solid foundational manual for novice developers.
+A beginner-friendly introduction to Git's lifecycle, architecture, and basic operations. It provides clear walk-throughs of staging, committing, and working with remote repositories, serving as a solid foundational manual for novice developers.
 
-  - **(2021)** [freecodecamp.org: What is Git? A Beginner's Guide to Git Version Control](https://www.freecodecamp.org/news/what-is-git-learn-git-version-control) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [freecodecamp.org: What is Git? A Beginner's Guide to Git Version Control](https://www.freecodecamp.org/news/what-is-git-learn-git-version-control) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Provides a comprehensive manual on decentralized version control concepts, contrasting centralized models (like SVN) with Git's architecture. It walks through basic setup, staging processes, and branching to establish a firm mental model for new engineers.
+Provides a comprehensive manual on decentralized version control concepts, contrasting centralized models (like SVN) with Git's architecture. It walks through basic setup, staging processes, and branching to establish a firm mental model for new engineers.
 
-  - **(2021)** [dev.to: Master Git in 7 minutes 🌟](https://dev.to/valeriavg/master-git-in-7-minutes-gai) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [dev.to: Master Git in 7 minutes 🌟](https://dev.to/valeriavg/master-git-in-7-minutes-gai) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A highly concentrated crash course designed to take developers from a blank terminal to initializing repositories, staging changes, pushing commits, and working with remote origins. Ideal for rapid onboarding of new developers or as a high-density reference sheet.
+A highly concentrated crash course designed to take developers from a blank terminal to initializing repositories, staging changes, pushing commits, and working with remote origins. Ideal for rapid onboarding of new developers or as a high-density reference sheet.
 
-  - **(2021)** [infoworld.com: What is Git? Version control for collaborative programming](https://www.infoworld.com/article/2334697/what-is-git-version-control-for-collaborative-programming.html) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [infoworld.com: What is Git? Version control for collaborative programming](https://www.infoworld.com/article/2334697/what-is-git-version-control-for-collaborative-programming.html) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Evaluates Git's positioning and dominance in modern enterprise architectures. Examines internal object tracking mechanics, repository distributed layouts, and its vital role in the contemporary DevOps toolchain.
+Evaluates Git's positioning and dominance in modern enterprise architectures. Examines internal object tracking mechanics, repository distributed layouts, and its vital role in the contemporary DevOps toolchain.
 
-  - **(2021)** [dev.to: Git for beginners](https://dev.to/purveshshende2/git-for-beginners-3il6) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [dev.to: Git for beginners](https://dev.to/purveshshende2/git-for-beginners-3il6) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Explains core Git fundamentals such as repositories, the working directory, the staging area, and local commits. This guide is written specifically for newcomers to establish a baseline understanding of decentralized version control systems.
+Explains core Git fundamentals such as repositories, the working directory, the staging area, and local commits. This guide is written specifically for newcomers to establish a baseline understanding of decentralized version control systems.
 
-  - **(2022)** [freecodecamp.org: How to Create and Sync Git and GitHub Repositories](https://www.freecodecamp.org/news/create-and-sync-git-and-github-repositories) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2022)** [freecodecamp.org: How to Create and Sync Git and GitHub Repositories](https://www.freecodecamp.org/news/create-and-sync-git-and-github-repositories) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Basic operational tutorial providing step-by-step procedures to initialize local git folders and bind them safely to freshly instantiated remote repositories.
+Basic operational tutorial providing step-by-step procedures to initialize local git folders and bind them safely to freshly instantiated remote repositories.
 
-  - **(2021)** [freecodecamp.org: Git and GitHub Tutorial – Version Control for Beginners 🌟](https://www.freecodecamp.org/news/git-and-github-for-beginners) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [freecodecamp.org: Git and GitHub Tutorial – Version Control for Beginners 🌟](https://www.freecodecamp.org/news/git-and-github-for-beginners) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An educational baseline tutorial outlining local and remote version control patterns using Git and GitHub. Offers structured walkthroughs of staging, committing, branching, and pushing codebases designed for developers transitioning to modern repository environments.
+An educational baseline tutorial outlining local and remote version control patterns using Git and GitHub. Offers structured walkthroughs of staging, committing, branching, and pushing codebases designed for developers transitioning to modern repository environments.
 
-  - **(2021)** [dev.to: Git and GitHub for beginners](https://dev.to/ericawanja/git-and-github-for-beginners-33a0) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [dev.to: Git and GitHub for beginners](https://dev.to/ericawanja/git-and-github-for-beginners-33a0) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A fundamental introduction detailing Git concepts such as local repositories, commit history, and upstream synchronization. Best suited as a reference for developers standardizing their initial command-line version control workflow.
+A fundamental introduction detailing Git concepts such as local repositories, commit history, and upstream synchronization. Best suited as a reference for developers standardizing their initial command-line version control workflow.
 
-  - **(2021)** [dev.to: Introduction to Git and GitHub](https://dev.to/estherwanjiru/introduction-to-git-and-github-25ei) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [dev.to: Introduction to Git and GitHub](https://dev.to/estherwanjiru/introduction-to-git-and-github-25ei) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Basic guide defining tracking protocols, file states (modified, staged, committed), and the architectural distinction between Git (the engine) and GitHub (the platform).
+Basic guide defining tracking protocols, file states (modified, staged, committed), and the architectural distinction between Git (the engine) and GitHub (the platform).
 
+</div></details>
 #### Git Command Reference
 
-  - **(2023)** [**freecodecamp.org: How to Use Branches in Git – the Ultimate Cheatsheet 🌟**](https://www.freecodecamp.org/news/how-to-use-branches-in-git) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2023)** [**freecodecamp.org: How to Use Branches in Git – the Ultimate Cheatsheet 🌟**](https://www.freecodecamp.org/news/how-to-use-branches-in-git) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An exhaustive reference sheet mapping out every standard Git branching command, from instantiation to tracking and cleanup. Clarifies structural concepts of refs and pointers in the `.git` directory structure, serving as a valuable quick on-the-job lookup.
+An exhaustive reference sheet mapping out every standard Git branching command, from instantiation to tracking and cleanup. Clarifies structural concepts of refs and pointers in the `.git` directory structure, serving as a valuable quick on-the-job lookup.
 
-  - **(2023)** [gitkraken.com: How do you rename a Git branch?](https://www.gitkraken.com/learn/git/problems/rename-git-branch) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2023)** [gitkraken.com: How do you rename a Git branch?](https://www.gitkraken.com/learn/git/problems/rename-git-branch) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A practical troubleshooting guide for safe local and remote branch renaming. It walks through configuration updates and upstream tracking adjustments to prevent build breaking and pipeline failures when renaming default production branches.
+A practical troubleshooting guide for safe local and remote branch renaming. It walks through configuration updates and upstream tracking adjustments to prevent build breaking and pipeline failures when renaming default production branches.
 
-  - **(2022)** [freecodecamp.org: Git List Branches – How to Show All Remote and Local Branch Names](https://www.freecodecamp.org/news/git-list-branches-how-to-show-all-remote-and-local-branch-names) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2022)** [freecodecamp.org: Git List Branches – How to Show All Remote and Local Branch Names](https://www.freecodecamp.org/news/git-list-branches-how-to-show-all-remote-and-local-branch-names) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Fast-reference syntax guide for filtering and outputting active local and remote branches. Covers command options such as `git branch -a` and `git branch -r` to clarify exact repository structure.
+Fast-reference syntax guide for filtering and outputting active local and remote branches. Covers command options such as `git branch -a` and `git branch -r` to clarify exact repository structure.
 
-  - **(2020)** [build5nines.com: How to Determine URL a Local Git Repository was Originally Cloned From](https://build5nines.com/how-to-determine-url-a-local-git-repository-was-originally-cloned-from) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2020)** [build5nines.com: How to Determine URL a Local Git Repository was Originally Cloned From](https://build5nines.com/how-to-determine-url-a-local-git-repository-was-originally-cloned-from) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Technical walkthrough explaining how to extract the original clone URL from local Git configurations. It details the utilization of `git remote -v` and config inspection mechanisms, making it useful for developers auditing local workspaces or automating multi-repository synchronization.
+Technical walkthrough explaining how to extract the original clone URL from local Git configurations. It details the utilization of `git remote -v` and config inspection mechanisms, making it useful for developers auditing local workspaces or automating multi-repository synchronization.
 
+</div></details>
 #### Git Configuration
 
-  - **(2021)** [**freecodecamp.org: How to Use Multiple Git Configs on One Computer 🌟**](https://www.freecodecamp.org/news/how-to-handle-multiple-git-configurations-in-one-machine) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2021)** [**freecodecamp.org: How to Use Multiple Git Configs on One Computer 🌟**](https://www.freecodecamp.org/news/how-to-handle-multiple-git-configurations-in-one-machine) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A practical guide detailing how to manage split Git configurations (e.g., personal vs. professional identities) on a single workstation. Utilizing Git's 'includeIf' directive, developers can dynamically load distinct user emails, SSH keys, and signing settings based on repository paths.
+A practical guide detailing how to manage split Git configurations (e.g., personal vs. professional identities) on a single workstation. Utilizing Git's 'includeIf' directive, developers can dynamically load distinct user emails, SSH keys, and signing settings based on repository paths.
 
-  - **(2021)** [freecodecamp.org: git config – How to Configure Git Settings to Improve Your Development Workflow](https://www.freecodecamp.org/news/git-config-how-to-configure-git-settings) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [freecodecamp.org: git config – How to Configure Git Settings to Improve Your Development Workflow](https://www.freecodecamp.org/news/git-config-how-to-configure-git-settings) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Reviews the global and repository-specific options configurable via 'git config'. Explains auto-correct commands, core editor bindings, line-ending standardizations across operating systems, and colored outputs.
+Reviews the global and repository-specific options configurable via 'git config'. Explains auto-correct commands, core editor bindings, line-ending standardizations across operating systems, and colored outputs.
 
+</div></details>
 #### Git Inspection
 
-  - **(2021)** [opensource.com: Find what changed in a Git commit](https://opensource.com/article/21/4/git-whatchanged) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2021)** [opensource.com: Find what changed in a Git commit](https://opensource.com/article/21/4/git-whatchanged) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Demystifies commands used to inspect repository changes over time, including 'git whatchanged', 'git log -p', and 'git show'. It explains historical command nuances and highlights how to surgically target specific file histories and structural mutations in large repositories.
+Demystifies commands used to inspect repository changes over time, including 'git whatchanged', 'git log -p', and 'git show'. It explains historical command nuances and highlights how to surgically target specific file histories and structural mutations in large repositories.
 
-  - **(2021)** [thenewstack.io: Development: Introduction to Git Logging](https://thenewstack.io/development-introduction-to-git-logging) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [thenewstack.io: Development: Introduction to Git Logging](https://thenewstack.io/development-introduction-to-git-logging) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An exploration of 'git log' configurations, covering formatting flags, filtering by files, authors, or chronological dates, and visualizing commit history graphs in CLI. Enables developers to efficiently track origin patterns of performance regressions or code changes.
+An exploration of 'git log' configurations, covering formatting flags, filtering by files, authors, or chronological dates, and visualizing commit history graphs in CLI. Enables developers to efficiently track origin patterns of performance regressions or code changes.
 
+</div></details>
 #### Git Internals
 
-  - **(2020)** [**github.blog: Commits are snapshots, not diffs**](https://github.blog/open-source/git/commits-are-snapshots-not-diffs) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span>
+  - **(2020)** [**github.blog: Commits are snapshots, not diffs**](https://github.blog/open-source/git/commits-are-snapshots-not-diffs) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Explains Git's underlying data model, clarifying that commits are stored as full-file snapshots (blobs and trees) rather than incremental line deltas. This fundamental architectural detail helps developers understand why branching and merging are highly efficient operations in Git compared to legacy VCS systems.
+Explains Git's underlying data model, clarifying that commits are stored as full-file snapshots (blobs and trees) rather than incremental line deltas. This fundamental architectural detail helps developers understand why branching and merging are highly efficient operations in Git compared to legacy VCS systems.
 
+</div></details>
 #### Git Operations
 
 
@@ -1436,51 +1436,51 @@
     | [about.gitlab.com: The new Git default branch name](https://about.gitlab.com/blog/2021/03/10/new-git-default-branch-name) |  | Git Operations | English | 🌟🌟🌟 |
     | [Removing the last commit](https://gist.github.com/CrookedNumber/8964442) |  | Git Operations | English | 🌟🌟🌟 |
 
-  - **(2021)** [**cloudbees.com: Git Reset Clearly Explained: How to Undo Your Changes 🌟**](https://www.cloudbees.com/blog/git-reset-undo-changes) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2021)** [**cloudbees.com: Git Reset Clearly Explained: How to Undo Your Changes 🌟**](https://www.cloudbees.com/blog/git-reset-undo-changes) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Demystifies the core differences between '--soft', '--mixed', and '--hard' reset operations in Git. By mapping how resets affect the HEAD pointer, the index, and the working directory, this guide provides solid strategies for safe rollback of local changes.
+Demystifies the core differences between '--soft', '--mixed', and '--hard' reset operations in Git. By mapping how resets affect the HEAD pointer, the index, and the working directory, this guide provides solid strategies for safe rollback of local changes.
 
-  - **(2021)** [**freecodecamp.org: Git Undo Merge – How to Revert the Last Merge Commit in Git**](https://www.freecodecamp.org/news/git-undo-merge-how-to-revert-the-last-merge-commit-in-git) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [**freecodecamp.org: Git Undo Merge – How to Revert the Last Merge Commit in Git**](https://www.freecodecamp.org/news/git-undo-merge-how-to-revert-the-last-merge-commit-in-git) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Detailed, structural exploration on undoing completed branch mergers using 'git revert' with parent pointer options ('-m'). Discusses the architectural implications of reverting merges and how it shapes subsequent branch integration.
+Detailed, structural exploration on undoing completed branch mergers using 'git revert' with parent pointer options ('-m'). Discusses the architectural implications of reverting merges and how it shapes subsequent branch integration.
 
-  - **(2022)** [opensource.com: My guide to using the Git push command safely](https://opensource.com/article/22/4/git-push) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2022)** [opensource.com: My guide to using the Git push command safely](https://opensource.com/article/22/4/git-push) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Comprehensive manual covering safe patterns of pushing code, focusing on options like '--force-with-lease' versus '--force'. Provides patterns to protect upstream tracking states from destructive history alterations by other team members.
+Comprehensive manual covering safe patterns of pushing code, focusing on options like '--force-with-lease' versus '--force'. Provides patterns to protect upstream tracking states from destructive history alterations by other team members.
 
-  - **(2022)** [freecodecamp.org: Undo Git Add – How to Remove Added Files in Git 🌟](https://www.freecodecamp.org/news/undo-git-add-how-to-remove-added-files-in-git) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2022)** [freecodecamp.org: Undo Git Add – How to Remove Added Files in Git 🌟](https://www.freecodecamp.org/news/undo-git-add-how-to-remove-added-files-in-git) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Evaluates the commands required to safely unstage files from the Git index without altering working directory contents. Highlights nuances between 'git reset HEAD', 'git restore --staged', and other historical command forms.
+Evaluates the commands required to safely unstage files from the Git index without altering working directory contents. Highlights nuances between 'git reset HEAD', 'git restore --staged', and other historical command forms.
 
-  - **(2022)** [build5nines.com: Git: Reset / Undo Most Recent Local Commit](https://build5nines.com/git-reset-undo-most-recent-local-commit) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2022)** [build5nines.com: Git: Reset / Undo Most Recent Local Commit](https://build5nines.com/git-reset-undo-most-recent-local-commit) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Step-by-step documentation focusing on reversing the latest committed changes locally. Evaluates command scenarios utilizing the 'HEAD~1' targeting operator under different staging and working directory preservation options.
+Step-by-step documentation focusing on reversing the latest committed changes locally. Evaluates command scenarios utilizing the 'HEAD~1' targeting operator under different staging and working directory preservation options.
 
-  - **(2021)** [cloudbees.com: Git Pull: How It Works With Detailed Examples](https://www.cloudbees.com/blog/git-pull-how-it-works-with-detailed-examples) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [cloudbees.com: Git Pull: How It Works With Detailed Examples](https://www.cloudbees.com/blog/git-pull-how-it-works-with-detailed-examples) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Deconstructs the mechanics of 'git pull' as a composite operation of 'git fetch' followed by either 'git merge' or 'git rebase'. The article uses visual flow diagrams to explain divergence resolution, fast-forwarding, and best practices to avoid messy merge history.
+Deconstructs the mechanics of 'git pull' as a composite operation of 'git fetch' followed by either 'git merge' or 'git rebase'. The article uses visual flow diagrams to explain divergence resolution, fast-forwarding, and best practices to avoid messy merge history.
 
-  - **(2021)** [cloudbees.com: Git Push: An In-Depth Tutorial With Examples](https://www.cloudbees.com/blog/git-push-an-in-depth-tutorial-with-examples) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [cloudbees.com: Git Push: An In-Depth Tutorial With Examples](https://www.cloudbees.com/blog/git-push-an-in-depth-tutorial-with-examples) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A comprehensive guide analyzing the technical layers of transferring local branch updates to remote repositories. It covers upstream configuration, tracking branch architectures, force-pushing safety guidelines, and resolving push rejection due to remote drift.
+A comprehensive guide analyzing the technical layers of transferring local branch updates to remote repositories. It covers upstream configuration, tracking branch architectures, force-pushing safety guidelines, and resolving push rejection due to remote drift.
 
-  - **(2021)** [about.gitlab.com: The new Git default branch name](https://about.gitlab.com/blog/2021/03/10/new-git-default-branch-name) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2021)** [about.gitlab.com: The new Git default branch name](https://about.gitlab.com/blog/2021/03/10/new-git-default-branch-name) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Outlines GitLab's migration steps and platform updates transitioning the default branch name from `master` to `main`. Discusses modern development standards, project initialization shifts, and backward compatibility paths.
+Outlines GitLab's migration steps and platform updates transitioning the default branch name from `master` to `main`. Discusses modern development standards, project initialization shifts, and backward compatibility paths.
 
-  - **(2014)** [Removing the last commit](https://gist.github.com/CrookedNumber/8964442) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+</div></details>
+  - **(2014)** [Removing the last commit](https://gist.github.com/CrookedNumber/8964442) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A practical community GitHub Gist outlining multiple strategies to revert, reset, or remove the latest commit in a Git repository. Illustrates the critical differences between `git reset --soft` and `git reset --hard` for local and remote recovery.
+A practical community GitHub Gist outlining multiple strategies to revert, reset, or remove the latest commit in a Git repository. Illustrates the critical differences between `git reset --soft` and `git reset --hard` for local and remote recovery.
 
+</div></details>
 #### Git Productivity
 
 
@@ -1493,91 +1493,91 @@
     | [dev.to: 10 useful Git tips to improve your workflow 🌟](https://dev.to/yenyih/10-useful-git-tips-to-improve-your-workflow-kf1) |  | Git Productivity | English | 🌟🌟🌟🌟 |
     | [honeybadger.io: Top Ten Git Tips & Tricks](https://www.honeybadger.io/blog/git-tricks) |  | Git Productivity | English | 🌟🌟🌟 |
 
-  - **(2022)** [**opensource.com: Make your own Git subcommands**](https://opensource.com/article/22/4/customize-git-subcommands) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2022)** [**opensource.com: Make your own Git subcommands**](https://opensource.com/article/22/4/customize-git-subcommands) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Explains Git's extension architecture, showing how script files named 'git-*' added to system executable paths automatically register as custom subcommands. This is highly useful for building standardized company toolsets.
+Explains Git's extension architecture, showing how script files named 'git-*' added to system executable paths automatically register as custom subcommands. This is highly useful for building standardized company toolsets.
 
-  - **(2022)** [**realpython.com: Advanced Git Tips for Python Developers 🌟**](https://realpython.com/advanced-git-for-pythonistas) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2022)** [**realpython.com: Advanced Git Tips for Python Developers 🌟**](https://realpython.com/advanced-git-for-pythonistas) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Structured guide containing developer-centric Git custom patterns, focusing on specialized interactive staging, cherry-pick operations, and custom Python '.gitignore' rules. Excellent reading for engineering cleanups in Python workflows.
+Structured guide containing developer-centric Git custom patterns, focusing on specialized interactive staging, cherry-pick operations, and custom Python '.gitignore' rules. Excellent reading for engineering cleanups in Python workflows.
 
-  - **(2021)** [**blog.argoproj.io: 5 new Git commands and 1 tip you’ll use every day**](https://blog.argoproj.io/5-new-git-commands-and-1-tip-youll-use-every-day-3c28e97c9321) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [**blog.argoproj.io: 5 new Git commands and 1 tip you’ll use every day**](https://blog.argoproj.io/5-new-git-commands-and-1-tip-youll-use-every-day-3c28e97c9321) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Showcases modern Git commands introduced in recent releases, such as 'git switch', 'git restore', and the powerful multi-worktree setup via 'git worktree'. These capabilities allow developers to manage contextual changes and concurrent tasks without stashing.
+Showcases modern Git commands introduced in recent releases, such as 'git switch', 'git restore', and the powerful multi-worktree setup via 'git worktree'. These capabilities allow developers to manage contextual changes and concurrent tasks without stashing.
 
-  - **(2021)** [**dev.to: 10 useful Git tips to improve your workflow 🌟**](https://dev.to/yenyih/10-useful-git-tips-to-improve-your-workflow-kf1) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [**dev.to: 10 useful Git tips to improve your workflow 🌟**](https://dev.to/yenyih/10-useful-git-tips-to-improve-your-workflow-kf1) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Explains critical commands for repository organization, such as automated remote cleaning, custom aliases, complex log sorting, and advanced diff settings. These tips help developers construct highly tuned, custom git environments for team environments.
+Explains critical commands for repository organization, such as automated remote cleaning, custom aliases, complex log sorting, and advanced diff settings. These tips help developers construct highly tuned, custom git environments for team environments.
 
-  - **(2021)** [honeybadger.io: Top Ten Git Tips & Tricks](https://www.honeybadger.io/blog/git-tricks) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [honeybadger.io: Top Ten Git Tips & Tricks](https://www.honeybadger.io/blog/git-tricks) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Highlights ten advanced terminal commands and aliases to streamline git workflows, including stash parsing, custom log formatting, and interactive rebasing. These tips target active development patterns to minimize command-line friction and maximize change velocity.
+Highlights ten advanced terminal commands and aliases to streamline git workflows, including stash parsing, custom log formatting, and interactive rebasing. These tips target active development patterns to minimize command-line friction and maximize change velocity.
 
+</div></details>
 #### Git Reference
 
-  - **(2021)** [cloudbees.com: Git Commands: The 13 You Must Know, In Order 🌟](https://www.cloudbees.com/blog/git-commit-detailed-tutorial-on-saving-your-code) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2021)** [cloudbees.com: Git Commands: The 13 You Must Know, In Order 🌟](https://www.cloudbees.com/blog/git-commit-detailed-tutorial-on-saving-your-code) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A structured deep dive into the 13 most critical Git commands mapped to their logical position in the code deployment lifecycle. The tutorial breaks down repository indexing, branching, and commit management with explicit terminal diagrams and real-world scenarios.
+A structured deep dive into the 13 most critical Git commands mapped to their logical position in the code deployment lifecycle. The tutorial breaks down repository indexing, branching, and commit management with explicit terminal diagrams and real-world scenarios.
 
-  - **(2021)** [towardsdatascience.com: A Git cheatsheet that all coders need](https://towardsdatascience.com/a-git-cheatsheet-that-all-coders-need-bf8ad4d91576) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [towardsdatascience.com: A Git cheatsheet that all coders need](https://towardsdatascience.com/a-git-cheatsheet-that-all-coders-need-bf8ad4d91576) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An organized reference guide targeting command-line operations frequently used in data science and engineering teams. Focuses on history visualization, commit management, and fast-forward remote sync commands.
+An organized reference guide targeting command-line operations frequently used in data science and engineering teams. Focuses on history visualization, commit management, and fast-forward remote sync commands.
 
-  - **(2021)** [c-sharpcorner.com: 0 Git Commands You Should Know](https://www.c-sharpcorner.com/article/20-git-commands-you-should-know) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [c-sharpcorner.com: 0 Git Commands You Should Know](https://www.c-sharpcorner.com/article/20-git-commands-you-should-know) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Lists 20 foundational Git commands necessary for daily development, covering initialization, log inspection, cherry-picking, and remote synchronization. This serves as a rapid cheat sheet for software developers scaling up their terminal command comfort.
+Lists 20 foundational Git commands necessary for daily development, covering initialization, log inspection, cherry-picking, and remote synchronization. This serves as a rapid cheat sheet for software developers scaling up their terminal command comfort.
 
-  - **(2021)** [c-sharpcorner.com: Top 15 Git Commands With Examples For Every Developers💪](https://www.c-sharpcorner.com/article/top-15-git-commands-with-examples-for-every-developers) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [c-sharpcorner.com: Top 15 Git Commands With Examples For Every Developers💪](https://www.c-sharpcorner.com/article/top-15-git-commands-with-examples-for-every-developers) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Compiled handbook featuring 15 of the most widely applied terminal instructions in Git version tracking. Highlights commands ranging from dynamic diff displays to basic branch merging with practical code and parameter illustrations.
+Compiled handbook featuring 15 of the most widely applied terminal instructions in Git version tracking. Highlights commands ranging from dynamic diff displays to basic branch merging with practical code and parameter illustrations.
 
+</div></details>
 #### Git Scale Operations
 
-  - **(2022)** [==github.blog: Improve Git monorepo performance with a file system monitor 🌟==](https://github.blog/engineering/improve-git-monorepo-performance-with-a-file-system-monitor) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - **(2022)** [==github.blog: Improve Git monorepo performance with a file system monitor 🌟==](https://github.blog/engineering/improve-git-monorepo-performance-with-a-file-system-monitor) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Groundbreaking technical review demonstrating FSMonitor's architectural advantages inside extremely large scale monorepos. By eliminating full working tree scans during 'git status' commands, query durations decrease dramatically from seconds to milliseconds.
+Groundbreaking technical review demonstrating FSMonitor's architectural advantages inside extremely large scale monorepos. By eliminating full working tree scans during 'git status' commands, query durations decrease dramatically from seconds to milliseconds.
 
-  - **(2020)** [**github.blog: Get up to speed with partial clone and shallow clone**](https://github.blog/open-source/git/get-up-to-speed-with-partial-clone-and-shallow-clone) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2020)** [**github.blog: Get up to speed with partial clone and shallow clone**](https://github.blog/open-source/git/get-up-to-speed-with-partial-clone-and-shallow-clone) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Outlines performance strategies for massive repositories using partial clone and shallow clone mechanisms. By selectively downloading commit history or file objects (such as omitting large blobs), teams can drastically reduce network overhead and local disk usage in enterprise-scale monorepos.
+Outlines performance strategies for massive repositories using partial clone and shallow clone mechanisms. By selectively downloading commit history or file objects (such as omitting large blobs), teams can drastically reduce network overhead and local disk usage in enterprise-scale monorepos.
 
-  - **(2020)** [**about.gitlab.com: How Git Partial Clone lets you fetch only the large file you need**](https://about.gitlab.com/blog/2020/03/13/partial-clone-for-massive-repositories) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2020)** [**about.gitlab.com: How Git Partial Clone lets you fetch only the large file you need**](https://about.gitlab.com/blog/2020/03/13/partial-clone-for-massive-repositories) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Evaluates GitLab's implementation of Git Partial Clone to mitigate bottlenecking in massive codebases containing large assets. It contrasts standard clones with blobless and treeless clones, providing empirical metrics on how deferring binary downloads improves CI/CD runner execution speed.
+Evaluates GitLab's implementation of Git Partial Clone to mitigate bottlenecking in massive codebases containing large assets. It contrasts standard clones with blobless and treeless clones, providing empirical metrics on how deferring binary downloads improves CI/CD runner execution speed.
 
+</div></details>
 #### Git Security
 
-  - **(2021)** [**blog.gitguardian.com: Rewriting your git history, removing files permanently - cheatsheet & guide**](https://blog.gitguardian.com/rewriting-git-history-cheatsheet) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span>
+  - **(2021)** [**blog.gitguardian.com: Rewriting your git history, removing files permanently - cheatsheet & guide**](https://blog.gitguardian.com/rewriting-git-history-cheatsheet) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Outlines strict methodologies for removing sensitive credentials or bloated files permanently from a Git repository's history. It presents modern commands such as 'git-filter-repo' alongside legacy 'git filter-branch' to guarantee a complete scrub of sensitive elements while preventing repository corruption.
+Outlines strict methodologies for removing sensitive credentials or bloated files permanently from a Git repository's history. It presents modern commands such as 'git-filter-repo' alongside legacy 'git filter-branch' to guarantee a complete scrub of sensitive elements while preventing repository corruption.
 
+</div></details>
 #### Git Tools
 
-  - **(2021)** [**dev.to: Get lazy with lazygit**](https://dev.to/tahsinature/get-lazy-with-lazygit-4h37) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2021)** [**dev.to: Get lazy with lazygit**](https://dev.to/tahsinature/get-lazy-with-lazygit-4h37) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A walkthrough of 'lazygit', a terminal UI layout for Git. It outlines how this tool accelerates advanced tasks like fast interactive rebase operations, interactive staging, stash sorting, and graphical history navigation directly from the terminal.
+A walkthrough of 'lazygit', a terminal UI layout for Git. It outlines how this tool accelerates advanced tasks like fast interactive rebase operations, interactive staging, stash sorting, and graphical history navigation directly from the terminal.
 
+</div></details>
 #### Git Visualizations
 
-  - **(2019)** [==marklodato.github.io: A Visual Git Reference 🌟==](https://marklodato.github.io/visual-git-guide/index-en.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2019)** [==marklodato.github.io: A Visual Git Reference 🌟==](https://marklodato.github.io/visual-git-guide/index-en.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        An exceptionally detailed, map-based visual guide illustrating how Git commands mutate the inner object model. Using elegant diagrams, it models branch references, commits, indexes, and directory trees, offering unmatched conceptual clarity.
+An exceptionally detailed, map-based visual guide illustrating how Git commands mutate the inner object model. Using elegant diagrams, it models branch references, commits, indexes, and directory trees, offering unmatched conceptual clarity.
 
+</div></details>
 #### Git Workflows (1)
 
 
@@ -1590,148 +1590,148 @@
     | [thenewstack.io: Git for Managing Small Projects 🌟](https://thenewstack.io/git-for-managing-small-projects) |  | Git Workflows | English | 🌟🌟🌟 |
     | [dev.to: Git Organized: A Better Git Flow](https://dev.to/render/git-organized-a-better-git-flow-56go) |  | Git Workflows | English | 🌟🌟🌟 |
 
-  - **(2021)** [livecodestream.dev: Five Advanced Git Concepts that Make You Look Like a Pro](https://newsletter.thelongcommit.com/subscribe) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2021)** [livecodestream.dev: Five Advanced Git Concepts that Make You Look Like a Pro](https://newsletter.thelongcommit.com/subscribe) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Explores powerful features such as 'git bisect', dynamic interactive rebasing, reflog recovery, and worktrees. These concepts enable advanced developers to rapidly diagnose regressions and orchestrate highly structured cleanups of complex history trees.
+Explores powerful features such as 'git bisect', dynamic interactive rebasing, reflog recovery, and worktrees. These concepts enable advanced developers to rapidly diagnose regressions and orchestrate highly structured cleanups of complex history trees.
 
-  - **(2021)** [smashingmagazine.com: Getting The Most Out Of Git](https://www.smashingmagazine.com/2021/02/getting-the-most-out-of-git) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [smashingmagazine.com: Getting The Most Out Of Git](https://www.smashingmagazine.com/2021/02/getting-the-most-out-of-git) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Explores productivity-boosting mechanisms in Git, including aliases, stash strategies, and conflict-resolution processes. It helps developers move past standard commit/push commands into advanced staging management and history navigation techniques.
+Explores productivity-boosting mechanisms in Git, including aliases, stash strategies, and conflict-resolution processes. It helps developers move past standard commit/push commands into advanced staging management and history navigation techniques.
 
-  - **(2021)** [freecodecamp.org: How to Use Git and Git Workflows – a Practical Guide](https://www.freecodecamp.org/news/practical-git-and-git-workflows) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [freecodecamp.org: How to Use Git and Git Workflows – a Practical Guide](https://www.freecodecamp.org/news/practical-git-and-git-workflows) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Detailed breakdown of mainstream branching strategies, including Git Flow, GitHub Flow, and trunk-based development. It serves as a practical blueprint for team collaboration, merge conflict mitigation, and release management in fast-paced software development cycles.
+Detailed breakdown of mainstream branching strategies, including Git Flow, GitHub Flow, and trunk-based development. It serves as a practical blueprint for team collaboration, merge conflict mitigation, and release management in fast-paced software development cycles.
 
-  - **(2021)** [thenewstack.io: Git for Managing Small Projects 🌟](https://thenewstack.io/git-for-managing-small-projects) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [thenewstack.io: Git for Managing Small Projects 🌟](https://thenewstack.io/git-for-managing-small-projects) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Explains how lightweight Git workflows can be tailored for single-developer or small-scale applications without the complexity of corporate deployment cycles. Focuses on local branch mechanics, simple staging hygiene, and basic version tracking.
+Explains how lightweight Git workflows can be tailored for single-developer or small-scale applications without the complexity of corporate deployment cycles. Focuses on local branch mechanics, simple staging hygiene, and basic version tracking.
 
-  - **(2021)** [dev.to: Git Organized: A Better Git Flow](https://dev.to/render/git-organized-a-better-git-flow-56go) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [dev.to: Git Organized: A Better Git Flow](https://dev.to/render/git-organized-a-better-git-flow-56go) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Explores structured methodologies to maintain a clean git history during iterative engineering sprints. Highlights commit squashing, interactive rebasing, and early PR configurations to enhance peer-review clarity and system integrity.
+Explores structured methodologies to maintain a clean git history during iterative engineering sprints. Highlights commit squashing, interactive rebasing, and early PR configurations to enhance peer-review clarity and system integrity.
 
+</div></details>
 #### History Simplification
 
-  - **(2022)** [freecodecamp.org: Git Squash Commits – Squashing the Last N Commits into One Commit](https://www.freecodecamp.org/news/git-squash-commits) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2022)** [freecodecamp.org: Git Squash Commits – Squashing the Last N Commits into One Commit](https://www.freecodecamp.org/news/git-squash-commits) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Comprehensive hands-on tutorial detailing interactive rebase workflows to squash arbitrary historic commits. It provides clear, step-by-step terminal examples for resolving conflict-heavy squash operations to standardize team branch-merging practices.
+Comprehensive hands-on tutorial detailing interactive rebase workflows to squash arbitrary historic commits. It provides clear, step-by-step terminal examples for resolving conflict-heavy squash operations to standardize team branch-merging practices.
 
-  - **(2021)** [cloudbees.com: Git Squash: How to Condense Your Commit History](https://www.cloudbees.com/blog/git-squash-how-to-condense-your-commit-history) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [cloudbees.com: Git Squash: How to Condense Your Commit History](https://www.cloudbees.com/blog/git-squash-how-to-condense-your-commit-history) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Architect-focused guide to maintaining a linear, clean history via squashing. It covers the technical mechanics of merging multiple development commits into a single cohesive unit before merging into trunk, a foundational practice for high-throughput CI/CD.
+Architect-focused guide to maintaining a linear, clean history via squashing. It covers the technical mechanics of merging multiple development commits into a single cohesive unit before merging into trunk, a foundational practice for high-throughput CI/CD.
 
-  - **(2011)** [devroom.io: Git Squash your latests commits into one](https://www.devroom.io/2011/07/05/git-squash-your-latests-commits-into-one) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟 <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span>
+</div></details>
+  - **(2011)** [devroom.io: Git Squash your latests commits into one](https://www.devroom.io/2011/07/05/git-squash-your-latests-commits-into-one) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟 <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Historic but highly practical post detailing manual command-line execution of Git squash. Despite its age, the fundamental rebase-based approaches covered remain functionally correct for baseline legacy setups.
+Historic but highly practical post detailing manual command-line execution of Git squash. Despite its age, the fundamental rebase-based approaches covered remain functionally correct for baseline legacy setups.
 
+</div></details>
 #### Interactive Learning
 
-  - **(2026)** [==learngitbranching.js.org: Learn Git Branching 🌟==](https://learngitbranching.js.org) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - **(2026)** [==learngitbranching.js.org: Learn Git Branching 🌟==](https://learngitbranching.js.org) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        The premier interactive, sandbox-driven visualizer for mastering Git branch operations and DAG models. Users execute simulated commands directly in the browser to visualize commit trees, merges, rebases, and cherry-picks. Unmatched as an educational utility across global engineering organizations.
+The premier interactive, sandbox-driven visualizer for mastering Git branch operations and DAG models. Users execute simulated commands directly in the browser to visualize commit trees, merges, rebases, and cherry-picks. Unmatched as an educational utility across global engineering organizations.
 
-  - **(2023)** [**gitkraken.com: Branching in Git 🌟**](https://www.gitkraken.com/learn/git/branch) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2023)** [**gitkraken.com: Branching in Git 🌟**](https://www.gitkraken.com/learn/git/branch) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Interactive and visual learning guide detailing foundational Git branching architectures. Highlights how graphical user interfaces interact with terminal Git mechanisms to support complex team topologies.
+Interactive and visual learning guide detailing foundational Git branching architectures. Highlights how graphical user interfaces interact with terminal Git mechanisms to support complex team topologies.
 
+</div></details>
 #### Learning Resources
 
-  - **(2022)** [java67.com: Top 10 Free Git Courses and Tutorials for Beginners in 2022 - Best of Lot](https://www.java67.com/2022/07/10-best-free-git-courses-and-tutorials.html) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2022)** [java67.com: Top 10 Free Git Courses and Tutorials for Beginners in 2022 - Best of Lot](https://www.java67.com/2022/07/10-best-free-git-courses-and-tutorials.html) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Curated inventory containing free educational tracks and online bootcamps for learning fundamental Git operations. Covers platforms ranging from YouTube to Udemy, targeting rapid engineering onboarding.
+Curated inventory containing free educational tracks and online bootcamps for learning fundamental Git operations. Covers platforms ranging from YouTube to Udemy, targeting rapid engineering onboarding.
 
+</div></details>
 #### Multi-Repository Structures
 
-  - **(2026)** [==git-scm.com: Git Tools - Submodules==](https://git-scm.com/book/en/v2/Git-Tools-Submodules) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - **(2026)** [==git-scm.com: Git Tools - Submodules==](https://git-scm.com/book/en/v2/Git-Tools-Submodules) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        The official reference guide for managing Git submodules within complex multi-repo topologies. Covers the exact configurations, lifecycle management commands, and pointer updates required to keep external dependencies accurately version-locked.
+The official reference guide for managing Git submodules within complex multi-repo topologies. Covers the exact configurations, lifecycle management commands, and pointer updates required to keep external dependencies accurately version-locked.
 
+</div></details>
 #### Quality Assurance
 
-  - **(2018)** [**speakerdeck.com: 10 Git Anti Patterns You Should be Aware of 🌟**](https://speakerdeck.com/lemiorhan/10-git-anti-patterns-you-should-be-aware-of) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2018)** [**speakerdeck.com: 10 Git Anti Patterns You Should be Aware of 🌟**](https://speakerdeck.com/lemiorhan/10-git-anti-patterns-you-should-be-aware-of) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Visual, highly instructional slide deck cataloging 10 catastrophic Git practices commonly observed in industry. Covers mismanaging branches, commit pollution, and incorrect rebases. Perfect for team training and retrofitting coding standards.
+Visual, highly instructional slide deck cataloging 10 catastrophic Git practices commonly observed in industry. Covers mismanaging branches, commit pollution, and incorrect rebases. Perfect for team training and retrofitting coding standards.
 
+</div></details>
 #### Release Notes (1)
 
-  - **(2023)** [**github.blog: Highlights from Git 2.40**](https://github.blog/open-source/git/highlights-from-git-2-40) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(2023)** [**github.blog: Highlights from Git 2.40**](https://github.blog/open-source/git/highlights-from-git-2-40) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Official breakdown of performance optimizations and command updates introduced in Git 2.40. Highlights architectural enhancements in `git jump` and Windows-specific execution performance, ensuring security fixes and dev workflow refinements are clearly communicated.
+Official breakdown of performance optimizations and command updates introduced in Git 2.40. Highlights architectural enhancements in `git jump` and Windows-specific execution performance, ensuring security fixes and dev workflow refinements are clearly communicated.
 
+</div></details>
 #### Remote Operations
 
-  - **(2022)** [freecodecamp.org: Git Checkout Remote Branch Tutorial](https://www.freecodecamp.org/news/git-checkout-remote-branch-tutorial) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2022)** [freecodecamp.org: Git Checkout Remote Branch Tutorial](https://www.freecodecamp.org/news/git-checkout-remote-branch-tutorial) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Tutorial on properly tracking and switching to upstream remote branches in complex collaborative environments. Covers explicit checkout flags, automatic tracking creation, and metadata fetching to prevent stale tree mismatches.
+Tutorial on properly tracking and switching to upstream remote branches in complex collaborative environments. Covers explicit checkout flags, automatic tracking creation, and metadata fetching to prevent stale tree mismatches.
 
-  - **(2022)** [freecodecamp.org: Git Push to Remote Branch – How to Push a Local Branch to Origin](https://www.freecodecamp.org/news/git-push-to-remote-branch-how-to-push-a-local-branch-to-origin) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2022)** [freecodecamp.org: Git Push to Remote Branch – How to Push a Local Branch to Origin](https://www.freecodecamp.org/news/git-push-to-remote-branch-how-to-push-a-local-branch-to-origin) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A comprehensive walkthrough of upstream tracking mechanics and the behavior of the `git push` command flags. Details how the `-u` or `--set-upstream` flags link local tracking branches with remote definitions, ideal for onboarding new engineers.
+A comprehensive walkthrough of upstream tracking mechanics and the behavior of the `git push` command flags. Details how the `-u` or `--set-upstream` flags link local tracking branches with remote definitions, ideal for onboarding new engineers.
 
+</div></details>
 #### Repository Administration
 
-  - **(2021)** [r-bloggers.com: Git: Moving from Master to Main](https://www.r-bloggers.com/2021/10/git-moving-from-master-to-main) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2021)** [r-bloggers.com: Git: Moving from Master to Main](https://www.r-bloggers.com/2021/10/git-moving-from-master-to-main) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A technical walkthrough detailing how to transition primary branch names from 'master' to 'main' in both local configuration and upstream remotes. Outlines the impact on integration pipelines, tracking branches, and remote configuration adjustments.
+A technical walkthrough detailing how to transition primary branch names from 'master' to 'main' in both local configuration and upstream remotes. Outlines the impact on integration pipelines, tracking branches, and remote configuration adjustments.
 
+</div></details>
 #### Security Compliance
 
-  - **(2021)** [thenewstack.io: Why Open Source Project Maintainers are Reluctant to use Digital Signatures, Two-Factor Authentication](https://thenewstack.io/why-open-source-project-maintainers-are-reluctant-to-use-digital-signatures-two-factor-authentication) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - **(2021)** [thenewstack.io: Why Open Source Project Maintainers are Reluctant to use Digital Signatures, Two-Factor Authentication](https://thenewstack.io/why-open-source-project-maintainers-are-reluctant-to-use-digital-signatures-two-factor-authentication) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Analyzes security friction and adoption barriers of cryptographically signed commits (GPG/SSH) and MFA among open-source maintainers. It highlights user experience shortcomings in package registries and version control interfaces that impede standardized software supply chain security.
+Analyzes security friction and adoption barriers of cryptographically signed commits (GPG/SSH) and MFA among open-source maintainers. It highlights user experience shortcomings in package registries and version control interfaces that impede standardized software supply chain security.
 
+</div></details>
 #### State Integration
 
-  - **(2022)** [**freecodecamp.org: The Git Merge Handbook – Definitive Guide to Merging in Git**](https://www.freecodecamp.org/news/the-definitive-guide-to-git-merge) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2022)** [**freecodecamp.org: The Git Merge Handbook – Definitive Guide to Merging in Git**](https://www.freecodecamp.org/news/the-definitive-guide-to-git-merge) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Extensive breakdown of Git's integration modes, analyzing fast-forward merges versus three-way merge commits. Explains the structural integrity of merging and when to prefer keeping historical merge commits over linear histories.
+Extensive breakdown of Git's integration modes, analyzing fast-forward merges versus three-way merge commits. Explains the structural integrity of merging and when to prefer keeping historical merge commits over linear histories.
 
-  - **(2022)** [**dev.to: ELI5: Git Rebase vs. Merge 🌟**](https://dev.to/karaluton/explain-like-i-m-five-git-rebase-vs-merging-1k69) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2022)** [**dev.to: ELI5: Git Rebase vs. Merge 🌟**](https://dev.to/karaluton/explain-like-i-m-five-git-rebase-vs-merging-1k69) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Simplifies the complex conceptual difference between standard Git merges and linear rebases. Uses clear visual modeling to demonstrate how commit logs are fundamentally restructured, serving as an exceptional primer for newer software engineering recruits.
+Simplifies the complex conceptual difference between standard Git merges and linear rebases. Uses clear visual modeling to demonstrate how commit logs are fundamentally restructured, serving as an exceptional primer for newer software engineering recruits.
 
+</div></details>
 #### State Management
 
-  - **(2021)** [opensource.com: A practical guide to using the git stash command](https://opensource.com/article/21/4/git-stash) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+  - **(2021)** [opensource.com: A practical guide to using the git stash command](https://opensource.com/article/21/4/git-stash) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        A detailed tutorial on managing dirty working directories using the Git stash mechanism. Presents clear architectural logic on the stash stack, covering pushes, pops, branch creations, and partial stashing to ease multi-task context switching.
+A detailed tutorial on managing dirty working directories using the Git stash mechanism. Presents clear architectural logic on the stash stack, covering pushes, pops, branch creations, and partial stashing to ease multi-task context switching.
 
-  - **(2021)** [opensource.com: 4 tips for context switching in Git](https://opensource.com/article/21/4/context-switching-git) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [opensource.com: 4 tips for context switching in Git](https://opensource.com/article/21/4/context-switching-git) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Explores efficient productivity tactics for pivoting between hotfixes and active development cycles. Details native mechanisms including `git worktree` and `git stash` to manage disjointed working states and isolate development dependencies.
+Explores efficient productivity tactics for pivoting between hotfixes and active development cycles. Details native mechanisms including `git worktree` and `git stash` to manage disjointed working states and isolate development dependencies.
 
-  - **(2021)** [css-tricks.com: Git: Switching Unstaged Changes to a New Branch](https://css-tricks.com/git-switching-unstaged-changes-to-a-new-branch) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2021)** [css-tricks.com: Git: Switching Unstaged Changes to a New Branch](https://css-tricks.com/git-switching-unstaged-changes-to-a-new-branch) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Offers concrete workflows for isolating and moving accidental master/main modifications into a cleanly isolated feature branch. Demonstrates terminal patterns using checkout/switch commands while safeguarding index status.
+Offers concrete workflows for isolating and moving accidental master/main modifications into a cleanly isolated feature branch. Demonstrates terminal patterns using checkout/switch commands while safeguarding index status.
 
-  - **(2022)** [dev.to: How to Use Git Stash Command](https://dev.to/mwafrika/how-to-use-git-stash-command-22bk) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span>
+</div></details>
+  - **(2022)** [dev.to: How to Use Git Stash Command](https://dev.to/mwafrika/how-to-use-git-stash-command-22bk) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <details class='v2-inline-summary'><summary class='md-tag md-tag--info'>Deep-Dive</summary><div class='v2-summary-wrapper' markdown='1'>
 
-    ??? info "Technical Deep-Dive"
-        Quick operational guide focusing on practical everyday Git stash operations. Outlines how to isolate unstaged changes quickly without committing incomplete features, ideal for immediate reference during high-frequency development cycles.
+Quick operational guide focusing on practical everyday Git stash operations. Outlines how to isolate unstaged changes quickly without committing incomplete features, ideal for immediate reference during high-frequency development cycles.
 
+</div></details>
 
 ***
 💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Cheatsheets](./cheatsheets.md) | [Linux](./linux.md)
