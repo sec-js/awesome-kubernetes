@@ -63,7 +63,7 @@ jobs:
 
       - name: Consolidate README Metrics
         env:
-          PYTHONPATH: .
+          PYTHONPATH: ${{ github.workspace }}
         run: |
           python src/readme_updater.py
           python src/safety_readme.py
