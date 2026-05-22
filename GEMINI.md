@@ -124,7 +124,7 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **Platinum Resources (5 stars)**: Use yellow highlighting for the link text (e.g., `==[Link Title]==`).
     - **Gold Resources (4 stars)**: Use bold formatting for the link text (e.g., `**[Link Title]**`).
     - **Multi-Dimensional Tagging**: Every resource in V2 SHOULD have one or more maturity/type tags.
-    - **Expandable Deep-Dives**: High-density summaries MUST be rendered within an **expandable block** (`??? info "Technical Deep-Dive"`) to keep the portal compact while providing depth on demand.
+    - **Minimalist Inline Summaries**: High-density summaries MUST be rendered using a **native HTML5 `<details>` element with `inline-block` behavior** (appearing as a "Deep-Dive" tag) to maximize vertical density while providing depth on demand.
     - **Star Consistency**: Maintain the 1-5 star scale for technical impact. Resources with 0 stars are considered "Standard References" and do not display a star prefix/suffix in the V2 UI.
 38. **V2 Semantic Connectivity**: All V2 content generation MUST implement the **Semantic Cross-Linking Engine**. AI agents must autonomously identify related architectural patterns within the same strategic dimension and inject "💡 Explore Related" navigation blocks at the end of sections to facilitate a connected knowledge graph.
 39. **Industrial Learning Flow**: V2 documents MUST follow an O'Reilly-style technical progression. Organization within sections must move from foundational theory and standards to advanced implementation details and emerging patterns.

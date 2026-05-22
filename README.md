@@ -353,7 +353,7 @@ Nubenetes operates with two distinct editions to serve different engineering nee
     - **Stars (🌟)**: Represent technical impact (1-5 scale).
     - **No stars**: Standard reference documentation and technical resources.
 - **Multi-Dimensional Tagging (1:N):** Every resource is classified with multiple semantic tags (e.g., `[DE FACTO STANDARD]`, `[GUIDE]`, `[CASE STUDY]`, `[EMERGING]`) providing deep technical context and maturity status.
-- **High-Density Expandable Summaries**: Resources feature a multi-line **"Technical Deep-Dive"** block (expandable with one click). These summaries use the **Double-Evidence Synthesis** protocol to provide verified architectural insights and key capabilities.
+- **Minimalist Inline Summaries**: Resources feature a **"Deep-Dive"** inline tag (using native HTML5 `<details>`) that expands into a rich technical summary without consuming space when collapsed. These summaries use the **Double-Evidence Synthesis** protocol to provide verified architectural insights.
 - **Semantic Cross-Linking:** The portal autonomously identifies and links related categories within the same strategic dimension (e.g., suggesting `Flux` when reading about `Argo`), creating a cohesive **Industrial Knowledge Graph**.
 - **Executive Context**: Every strategic dimension features an AI-generated **State-of-the-Art Introduction** providing high-level architectural context and industry direction before the link listings.
 - **Source of Truth:** The `v2-docs/` directory (Derived from V1).
