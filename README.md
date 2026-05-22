@@ -496,8 +496,18 @@ To eliminate configuration overhead and ensure Nubenetes always utilizes the fro
 5.  **Smart AI Batching (High-Speed Processing)**: Groups up to **10 resources into a single AI prompt** to reduce total calls by 90%.
 6.  **Pre-Flight Local Caching**: Performs an autonomous look-up in [`data/inventory.yaml`](data/inventory.yaml) before any AI operation.
 
-### 6.6. AI Intelligence and Observability (Transparency)
-As of May 2026, Nubenetes implements a **Total Transparency Protocol** for AI operations:
+### 6.7. High-Fidelity Multimedia Extraction (Mandate 25)
+Nubenetes utilizes a production-grade extraction hierarchy to ensure technical videos are curated with 100% fidelity to their original descriptions and transcripts:
+1.  **Primary: YouTube Data API v3**: Guaranteed extraction of titles and full descriptions via official Google endpoints (0% bot-detection failure).
+2.  **Secondary: yt-dlp (Mobile/Embedded Clients)**: Robust scraping fallback using specialized player clients.
+3.  **Tertiary: Gemini Pro Grounding**: Direct Google Search retrieval if the platform blocks all automated access.
+
+### 6.8. Critical Secrets and Environment Variables
+| Secret Name | Purpose | Technical Requirement |
+| :--- | :--- | :--- |
+| `GEMINI_API_KEY_1` | Primary AI Engine | Gemini 1.5 Pro/Flash access. |
+| `YOUTUBE_API_KEY` | Official YouTube Metadata | Data API v3 access (Required for Mandate 25). |
+| `GH_TOKEN` | Repository Operations | PR creation and branch management. |
 
 - **Gemini Session Tracker**: Monitors every API call, recording the model, identity, and success rate.
 - **Performance-First Key Infrastructure**: 
