@@ -1,12 +1,12 @@
 # Nubenetes: The Intelligent Cloud Native Archive 🧠☁️
 
-[![Nubenetes Automated Agentic Curation](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_cron.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_cron.yml)
-[![V2 Health Monitor](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_health.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_health.yml)
-[![V2 Metadata Engine](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_metadata.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_metadata.yml)
-[![V2 AI Curator](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_ai.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_ai.yml)
-[![V2 Publisher](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_publish.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_publish.yml)
-[![V2 Video Hub](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_videos.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_videos.yml)
-[![Intelligent Link Cleaner](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/intelligent_link_cleaner.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/intelligent_link_cleaner.yml)
+[![Automated Agentic Curation](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/01.1.agentic_cron.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/01.1.agentic_cron.yml)
+[![V2 Health Monitor](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/02.2.agentic_v2_health.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/02.2.agentic_v2_health.yml)
+[![V2 Metadata Engine](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/03.1.agentic_v2_metadata.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/03.1.agentic_v2_metadata.yml)
+[![V2 AI Curator](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/03.2.agentic_v2_ai.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/03.2.agentic_v2_ai.yml)
+[![V2 Publisher](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/04.1.agentic_v2_publish.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/04.1.agentic_v2_publish.yml)
+[![V2 Video Hub](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/03.3.agentic_v2_videos.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/03.3.agentic_v2_videos.yml)
+[![Intelligent Link Cleaner](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/02.1.intelligent_link_cleaner.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/02.1.intelligent_link_cleaner.yml)
 
 **Nubenetes** is a high-density, curated archive of the Kubernetes, Cloud Native, and Agentic AI ecosystem. Since its inception in 2018, it has evolved from a personal collection of references into an autonomous, AI-driven knowledge engine that processes thousands of technical resources to provide a definitive "Source of Truth" for engineers worldwide.
 
