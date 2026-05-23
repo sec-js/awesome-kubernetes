@@ -101,6 +101,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - **Troubleshooting Masterclass**: Integration of learnk8s.io troubleshooting guides.
+
 - **Famous Kubernetes Resources 2019**: First annual curation of the most impactful ecosystem assets.
 - **External Validation**: Merged major OpenShift documentation improvements (Contribution by **Francesco Marchioni** in [PR #3](https://github.com/nubenetes/awesome-kubernetes/pull/3)).
 
@@ -128,3 +129,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - **Alpha Inception**: Initial repository creation and genesis of the Cloud Native knowledge base.
 - **BMW IT-Zentrum Era**: Foundation of the Munich-based engineering standards and self-service developer platform patterns.
+dation of the Munich-based engineering standards and self-service developer platform patterns.

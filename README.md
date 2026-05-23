@@ -497,10 +497,11 @@ To eliminate configuration overhead and ensure Nubenetes always utilizes the fro
 6.  **Pre-Flight Local Caching**: Performs an autonomous look-up in [`data/inventory.yaml`](data/inventory.yaml) before any AI operation.
 
 ### 6.7. High-Fidelity Multimedia Extraction (Mandate 25)
-Nubenetes utilizes a production-grade extraction hierarchy to ensure technical videos are curated with 100% fidelity to their original descriptions and transcripts:
-1.  **Primary: YouTube Data API v3**: Guaranteed extraction of titles and full descriptions via official Google endpoints (0% bot-detection failure).
-2.  **Secondary: yt-dlp (Mobile/Embedded Clients)**: Robust scraping fallback using specialized player clients.
-3.  **Tertiary: Gemini Pro Grounding**: Direct Google Search retrieval if the platform blocks all automated access.
+Nubenetes utilizes a production-grade **4-Tier Extraction Hierarchy** to ensure technical videos are curated with absolute fidelity to their original intent:
+1.  **Tier 1: YouTube Data API v3 (Official)**: Guaranteed extraction of official titles and descriptions via Google Cloud endpoints (0% bot-detection failure).
+2.  **Tier 2: Robust Extraction (yt-dlp)**: Secondary layer for extracting deep metadata and **official transcripts** when API keys are unavailable or restricted.
+3.  **Tier 2.5: Standard Metadata (httpx)**: Minimalist HTML scraping fallback for rapid pre-verification of link existence.
+4.  **Tier 3: Gemini Pro Grounding (Search)**: If previous tiers return generic platform data (e.g., "YouTube"), the system triggers a **Gemini Pro Search Audit** to locate verified technical details from the live web.
 
 ### 6.8. Critical Secrets and Environment Variables
 
