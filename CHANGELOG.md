@@ -20,27 +20,56 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Categorized Workflow Matrix**: Enhanced README section 9.1 with a "Phase / Category" column and direct clickable links to each workflow UI.
 
 ### Fixed
+- **YouTube Mosaic Rendering**: Resolved a critical newline bug breaking the first icon (Docker) in both V1 and V2 index pages.
 - **Persistent V2 Navigation**: Hardcoded Video Hub links in the V2 Index and navigation to ensure stability during automated regeneration.
 - **Markdown Rendering Hardening**: Resolved indentation bugs and Mandate 19 violations (blank lines around center tags) for pristine site visualization.
 - **YAML Syntax and Permissions**: Fixed duplicated keys in curation workflows and added `pull-requests: write` permissions for automated bot operations.
 
-## [2.0.0-rc.18] - 2026-05-22
+## [2.0.0-agentic] - 2026-05-15
 
 ### Added
-- **Official YouTube Data API v3 Integration**: Transitioned from brittle scraping to guaranteed 100% fidelity metadata extraction using official Google endpoints.
-- **Robust Multimedia Hierarchy**: Implemented a 3-tier extraction fallback (Official API > yt-dlp Mobile > Gemini Pro Grounding) to eliminate generic placeholders and bot-detection blocks.
-- **Optional Cache Restoration**: Introduced `restore_cache` manual flag across all V2 workflows to prevent stale automated data from overwriting manual repository updates.
-- **Mandate 58 Codification**: Officially established the "Official-First" multimedia extraction protocol and rendering standards in `GEMINI.md`.
+- **Agentic AI Orchestration Core**: Inception of the autonomous engine for discovery and evaluation.
+- **Nubenetes V2 (Agentic Elite)**: Implementation of the high-density curated edition optimized for 2026 standards.
+- **Visual Health Dashboard**: Automated HTML reports and GitHub Issue notifications for curation visibility.
+- **Maturity Scoring Engine**: AI-driven classification (De Facto Standard, Enterprise-Stable, etc.).
+
+## [1.9.0] - 2024-01-16
 
 ### Changed
-- **O'Reilly Journey Ordering**: Reorganized the Video Hub to prioritize "Fundamentals and Documentaries" at the top, following a logical architectural learning path.
-- **Standardized Workflow Inventory**: Updated documentation to reflect all 15 active automated workflows with their formal GitHub Action names.
-- **Production-Grade Video Portal**: Refined Markdown rendering with mandatory multiline indentation and Mandate 19 compliance (blank lines around center tags).
+- **Curation Strategy Pivot**: Reorganized core repository structures and pivoted toward Kustomize and declarative management.
+- **Content Pruning**: Systematic removal of dead links and legacy documentation.
 
-### Fixed
-- **Persistent Video Hub Links**: Hardcoded the "Agentic Video Hub" entry in V2 index and navigation to prevent deletion during automated regeneration cycles.
-- **Markdown Linting MD058/MD039/MD051**: Resolved table spacing, link syntax, and fragment validation errors across `README.md` and index files.
-- **Workflow YAML Syntax**: Fixed duplicated environment keys and indentation errors in `agentic_cron.yml` and `agentic_v2_pr_only.yml`.
-- **Bot Permissions**: Added `pull-requests: write` to V2 synchronization workflows to enable automated PR creation.
+## [1.8.0] - 2023-01-01
 
-## [2.0.0-rc.17] - 2026-05-22
+### Added
+- **Maintenance & Stability Phase**: Focus on refining existing content and repository hygiene.
+- **Remote Job Resources**: Integrated dedicated tracking for Cloud Native career opportunities.
+
+## [1.5.0] - 2020-05-01
+
+### Added
+- **The Great Expansion**: Massive surge in technical references (8k+ new entries).
+- **Multi-Cloud Focus**: Significant expansion into AWS, Azure, and Google Cloud platform deep-dives.
+- **Serverless & Mesh**: Added dedicated sections for Istio, Knative, and emerging Cloud Native patterns.
+
+### Changed
+- **Navigation Overhaul**: Transitioned to the O'Reilly-inspired logical learning journey.
+
+## [1.2.0] - 2019-12-09
+
+### Added
+- **Troubleshooting Masterclass**: Added learnk8s.io troubleshooting guides and high-impact debugging resources.
+- **Famous Kubernetes Resources 2019**: First annual curation of the most impactful ecosystem assets.
+
+## [1.1.0] - 2018-09-29
+
+### Added
+- **RTD Integration**: First structured deployment to readthedocs.io for improved accessibility.
+- **MkDocs Foundations**: Implementation of the first `mkdocs.yml` configuration and thematic sections.
+
+## [1.0.0] - 2018-09-24
+
+### Added
+- **Nubenetes Genesis**: Initial commit and foundational repository structure.
+- **Munich Era DNA**: Establishment of industrial-grade engineering standards from the BMW IT-Zentrum environment.
+- **Core Pillars**: Initial collection of Kubernetes, Terraform, and Ansible references.
