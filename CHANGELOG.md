@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Robust Multimedia Hierarchy**: 3-tier fallback (Official API > yt-dlp > Gemini Pro Grounding) for high-fidelity technical summaries.
 - **Optional Cache Restoration**: Controlled via `restore_cache` flag across all V2 workflows to protect manual repository updates.
 - **Mandate 58 Codification**: "Official-First" protocol for multimedia and multiline rendering standards established in [`GEMINI.md`](GEMINI.md).
+- **Automated Video Enrichment**: Implementation of `src/enrich_videos.py` with O'Reilly Journey builder.
 
 ### Changed
 - **Standardized Workflow Sequencing**: Implemented a numeric 01-08 nomenclature for all 15 workflows to clarify the execution lifecycle.
@@ -22,6 +23,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - **YouTube Mosaic Rendering**: Resolved a critical newline bug breaking the first icon (Docker) in both V1 and V2 index pages.
 - **Persistent V2 Navigation**: Hardcoded Video Hub links in the V2 Index and navigation to ensure stability during automated regeneration.
+- **Markdown Rendering Hardening**: Resolved indentation bugs and Mandate 19 violations (blank lines around center tags).
+- **YAML Syntax and Permissions**: Fixed duplicated keys and added `pull-requests: write` permissions.
 
 ## [[2.0.0-agentic]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.0.0-agentic) - 2026-05-15
 
@@ -29,20 +32,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Agentic AI Orchestration Core**: Inception of the autonomous engine for discovery and evaluation.
 - **Nubenetes V2 (Agentic Elite)**: Implementation of the high-density curated edition optimized for 2026 standards.
 - **Visual Health Dashboard**: Automated HTML reports and GitHub Issue notifications for curation visibility.
-- **Community Contribution**: Initial bot-driven dependency updates by **dependabot[bot]**.
+- **Maturity Scoring Engine**: AI-driven classification (De Facto Standard, Enterprise-Stable, etc.).
+- **Flash-First High-Density Curation**: Throughput optimization using Gemini Flash for mass processing.
+- **Community Contribution**: Initial bot-driven dependency updates (Contribution by **dependabot[bot]**).
 
 ## [[1.9.5]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v1.9.5) - 2025-01-31
 
 ### Added
-- **Kanvas Snapshot Support**: Integration of emerging visualization plugins for k8s.
+- **Kanvas Snapshot Support**: Integration of emerging visualization plugins for k8s (Contribution by **Vivek Vishal**).
 - **Meshery Integration**: Added service mesh management tools (Contribution by **Vivek Vishal**).
 - **API Testing Expansion**: Inclusion of Mockapy and modern REST testing tools (Contribution by **n0rdd3v**).
 
 ## [[1.9.0]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v1.9.0) - 2024-01-16
 
 ### Added
-- **Platform Engineering Surge**: Major inclusion of IDP and platform engineering resources (Contribution by **Daniel Bryant**).
+- **Platform Engineering Surge**: Major inclusion of IDP and platform engineering resources (Contribution by **Daniel Bryant** in [PR #52](https://github.com/nubenetes/awesome-kubernetes/pull/52)).
 - **Security Scanners**: Integration of Chainsaw for Kubernetes testing (Contribution by **Charles-Edouard Brétéché**).
+- **simplyblock Integration**: Added low-latency storage resources (Contribution by **Christoph Engelbert** in [PR #49](https://github.com/nubenetes/awesome-kubernetes/pull/49)).
 
 ### Changed
 - **Structural Pivot**: Reorganized core repository structures to align with declarative management patterns.
@@ -53,44 +59,72 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - **Automation Phase**: Integration of Jenkins automation for repository cleanup and maintenance.
 - **Remote Job surge**: Dedicated tracking for Cloud Native career opportunities (Contribution by **Anthony Palomarez**).
-- **EKS 1.22 Support**: Detailed upgrade tutorials and lifecycle management (Contribution by **itamarb8**).
+- **EKS 1.22 Support**: Detailed upgrade tutorials and lifecycle management (Contribution by **itamarb8** in [PR #19](https://github.com/nubenetes/awesome-kubernetes/pull/19)).
+- **m9sweeper Integration**: Added Kubernetes security platform (Contribution by **Jacob Beasley** in [PR #33](https://github.com/nubenetes/awesome-kubernetes/pull/33)).
 
 ## [[1.7.0]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v1.7.0) - 2022-01-10
 
 ### Changed
-- **Ecosystem Hardening**: Massive verification cycle of 2020-2021 links.
-- **Contributor Influence**: Significant content refinement from **Gerard Braad** (CRC) and **Dmitry Shurupov** (Flant).
+- **Ecosystem Hardening**: Massive verification cycle of 2020-2021 links to ensure archive validity.
+- **Contributor Influence**: Significant content refinement from **Gerard Braad** ([PR #28](https://github.com/nubenetes/awesome-kubernetes/pull/28)) and **Dmitry Shurupov** ([PR #29](https://github.com/nubenetes/awesome-kubernetes/pull/29)).
+- **Kubernetes Newsletters**: Initial curated list of ecosystem newsletters (Contribution by **Daniele Polencic** in [PR #31](https://github.com/nubenetes/awesome-kubernetes/pull/31)).
+
+## [[1.6.0]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v1.6.0) - 2021-01-03
+
+### Added
+- **Post-Expansion Refinement**: Strategic consolidation of the massive 2020 "Great Expansion" surge.
+- **Enterprise Patterns**: Inclusion of production-grade architectural blueprints for large-scale Kubernetes fleets.
+- **Devtron Integration**: Added end-to-end Kubernetes delivery workflow (Contribution by **Arushi Shukla** in [PR #13](https://github.com/nubenetes/awesome-kubernetes/pull/13)).
 
 ## [[1.5.0]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v1.5.0) - 2020-05-01
 
 ### Added
 - **The Great Expansion Peak**: Vertical surge in technical references (8k+ new entries).
-- **Multi-Cloud Supremacy**: Significant expansion into AWS, Azure, and Google Cloud platform internals.
-- **O'Reilly Journey Navigation**: Overhaul of the navigation menu to follow a logical learning journey.
+- **Multi-Cloud Supremacy**: Significant expansion into AWS Architecture, Azure DevOps, and Google Cloud platform internals.
+- **Serverless and Mesh Inception**: Dedicated sections for Istio, Linkerd, Knative, and emerging Cloud Native patterns.
+- **O'Reilly Journey Navigation**: Overhaul of the navigation menu to follow a logical, architectural learning journey.
+- **Developer Portals**: Added Backstage and emerging internal developer platform (IDP) tools.
+
+## [[1.4.0]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v1.4.0) - 2020-01-20
+
+### Added
+- **Multi-Cloud Foundations**: Initial dedicated sections for AWS, Azure, and DigitalOcean.
+- **Kubernetes Alternatives**: Inclusion of Nomad, Swarm, and other orchestrators for architectural comparison.
+
+## [[1.3.0]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v1.3.0) - 2020-01-09
+
+### Added
+- **CI/CD Pillar**: Major expansion into Jenkins alternatives, GitOps (Flux/Argo), and modern pipeline tools.
+- **Database Evolution**: Significant additions to NoSQL, NewSQL, and cloud-native database management.
 
 ## [[1.2.0]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v1.2.0) - 2019-12-09
 
 ### Added
-- **Troubleshooting Masterclass Masterclass**: Integration of learnk8s.io troubleshooting guides.
-- **External Validation**: Merged major OpenShift documentation improvements (Contribution by **Francesco Marchioni**).
+- **Troubleshooting Masterclass**: Integration of learnk8s.io troubleshooting guides.
+- **Famous Kubernetes Resources 2019**: First annual curation of the most impactful ecosystem assets.
+- **External Validation**: Merged major OpenShift documentation improvements (Contribution by **Francesco Marchioni** in [PR #3](https://github.com/nubenetes/awesome-kubernetes/pull/3)).
 
 ## [[1.1.0]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v1.1.0) - 2019-04-28
 
 ### Added
-- **Git Mastery**: Enhanced Git resources and README synchronization (Contribution by **Eyar Zilberman**).
+- **Git Mastery**: Enhanced Git resources and README synchronization (Contribution by **Eyar Zilberman** in [PR #1](https://github.com/nubenetes/awesome-kubernetes/pull/1)).
+- **MkDocs Integration**: First deployment of the structured MkDocs site for better web accessibility.
 
 ## [[1.0.0]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v1.0.0) - 2018-10-21
 
 ### Added
-- **Munich Era Baseline**: Establishment of industrial-grade engineering standards from the BMW IT-Zentrum environment.
-- **Core Technology Foundations**: Consolidated collection of Kubernetes, Terraform, and Ansible.
+- **Munich Era Baseline**: Establishment of industrial-grade engineering standards from the Deloitte/BMW IT-Zentrum environment.
+- **Architectural Relevance Protocol**: First implementation of the star (🌟) rating system to identify high-impact resources.
+- **Core Technology Foundations**: Consolidated collection of Kubernetes, Terraform, Ansible, and Java Performance Optimization.
 
 ## [[0.5.0]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v0.5.0) - 2018-09-29
 
 ### Added
-- **Documentation Foundations**: First implementation of `mkdocs.yml` and thematic segmentation.
+- **Documentation Foundations**: First implementation of `mkdocs.yml` and ReadTheDocs integration.
+- **Thematic Segmentation**: Separation of content into specialized `.md` files (Docker, Ansible, Java).
 
 ## [[0.1.0]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v0.1.0) - 2018-09-24
 
 ### Added
 - **Alpha Inception**: Initial repository creation and genesis of the Cloud Native knowledge base.
+- **BMW IT-Zentrum Era**: Foundation of the Munich-based engineering standards and self-service developer platform patterns.
