@@ -67,9 +67,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **RTD Integration**: First structured deployment to readthedocs.io for improved accessibility.
 - **MkDocs Foundations**: Implementation of the first `mkdocs.yml` configuration and thematic sections.
 
-## [1.0.0] - 2018-09-24
+## [1.0.0] - 2018-09-27
 
 ### Added
-- **Nubenetes Genesis**: Initial commit and foundational repository structure.
-- **Munich Era DNA**: Establishment of industrial-grade engineering standards from the BMW IT-Zentrum environment.
-- **Core Pillars**: Initial collection of Kubernetes, Terraform, and Ansible references.
+- **Munich Era Baseline**: Establishment of industrial-grade engineering standards from the BMW IT-Zentrum environment.
+- **Architectural Relevance**: First implementation of the star (🌟) rating system to identify high-impact resources.
+- **Core Technology Pillars**: Consolidated collection of Kubernetes, Terraform, Ansible, and Java performance optimization references.
+- **Swagger and API Standards**: Initial inclusion of RESTful architecture and API design tools.
+
+## [0.1.0] - 2018-09-24
+
+### Added
+- **Alpha Inception**: Initial repository creation and experimental collection of Cloud Native links.
+- **Foundational Structure**: First draft of the README-based knowledge directory.
