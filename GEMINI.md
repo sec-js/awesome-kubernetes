@@ -191,6 +191,12 @@ This file contains the accumulated instructions and long-term vision for the aut
 
 58. **High-Fidelity Official Extraction Protocol**: Multimedia curation (YouTube) MUST prioritize the **Official YouTube Data API v3** to ensure 100% fidelity to technical titles, descriptions, and metadata. Brittle scraping fallback (yt-dlp) or AI grounding MUST only be utilized when the official API is unavailable, and all extraction logic MUST support multiline indentation to prevent Markdown rendering breakage.
 
+59. **Granular Versioning and Collaborative History Standard**: All architectural shifts and milestones MUST be versioned using **Semantic Versioning (SemVer)**. The `CHANGELOG.md` MUST follow the 'Keep a Changelog' standard and maintain a granular, exhaustive record including:
+    - **Community Recognition**: Explicitly mention external authors and link to their specific Pull Requests (e.g., [PR #XX]).
+    - **4-Tier Multimedia Hierarchy**: Clearly document the fallback sequence (Official API > Transcripts > Scraping > Gemini Grounding).
+    - **Interactive Navigation**: Version headers MUST be clickable links to the corresponding GitHub Release tag.
+    - **Logical Phasing**: Group changes by 'Added', 'Changed', and 'Fixed' to ensure technical traceability.
+
 ## 🛠️ Structural Evolution & Navigation
 
 *   **No Link Limits**: There are NO hard limits on the number of links per page or per section (##/###). Nubenetes is built to host thousands of references.
