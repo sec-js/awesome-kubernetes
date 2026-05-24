@@ -112,7 +112,14 @@ class V2VisionEngine:
 
         log_event("[*] Phase 1: Health Check...")
         if self.render_only:
-            health_inventory = [l for l in all_v1_links if self.inventory.get(normalize_url(l["url"]), {}).get("status") == "online"]
+            # Mandate 19/22: In render-only mode (Fast-Track), we are conservative to avoid pruning valid sections.
+            # We keep links that are explicitly 'online', 'review_required' OR have no status yet.
+            health_inventory = []
+            for l in all_v1_links:
+                entry = self.inventory.get(normalize_url(l["url"]), {})
+                status = entry.get("status", "online") # Assume online if unknown for rendering
+                if status in ["online", "review_required"]:
+                    health_inventory.append(l)
         else:
             health_inventory = await self._verify_link_health(all_v1_links)
         
@@ -295,13 +302,13 @@ class V2VisionEngine:
             if "github.com" in norm_url:
                 item.update(self.inventory.get(norm_url, {}))
 
-            if not force_eval and norm_url in self.inventory and "stars" in self.inventory[norm_url]:
+            if not force_eval and norm_url in self.inventory:
                 cached = self.inventory[norm_url]
                 item.update(cached)
                 if is_special: item["is_special"] = True
                 # Mandate 30: Hierarchy is mandatory for ELITE AI curation, 
                 # but for RENDER-ONLY (Fast-Track) we MUST preserve all online links to avoid pruning valid V1 sections.
-                if cached.get("hierarchy") or self.render_only:
+                if cached.get("hierarchy") or self.render_only or "stars" in cached:
                     if project_id not in project_registry or item.get("stars", 0) > project_registry[project_id].get("stars", 0):
                         if project_id in project_registry and project_registry[project_id].get("is_special"): item["is_special"] = True
                         project_registry[project_id] = item
@@ -560,38 +567,51 @@ class V2VisionEngine:
             
             # Mandate: Persist tags back to inventory for reporting & caching
             norm_url = normalize_url(item["url"])
-            orig_file = item.get("original_file", "unknown.md")
-            if norm_url in self.inventory:
-                self.inventory[norm_url]["tags"] = item["tags"]
-                # Track V2 locations for reporting (Mandate 22)
-                v2_locs = self.inventory[norm_url].get("v2_locations", [])
-                if orig_file not in v2_locs:
-                    v2_locs.append(orig_file)
-                    self.inventory[norm_url]["v2_locations"] = v2_locs
             
-            dim = file_to_dim.get(orig_file, "Architectural Foundations")
+            # Mandate 19: Use v1_locations to preserve file context and prevent page deletions
+            v1_locations = item.get("v1_locations", [])
+            if not v1_locations:
+                # Fallback to original_file if v1_locations is missing
+                v1_locations = [f"docs/{item.get('original_file', 'unknown.md')}"]
             
-            # Populate Maturity Audit for GitOps Reporting
-            self.maturity_audit.append({
-                "url": item["url"],
-                "tag": ", ".join(item["tags"]),
-                "stars": item.get("stars", 0),
-                "dimension": dim,
-                "v2_locations": True # All candidates here are Elite
-            })
-            
-            # Mandate: High density preservation (Keep almost everything)
-            is_special = item.get("is_special", False) or orig_file in special_rules
-            if orig_file == "introduction.md" and item.get("stars", 0) < 3 and not item.get("is_microservice"): continue
-            
-            if orig_file not in v2_structure:
-                v2_structure[orig_file] = {
-                    "dim": dim,
-                    "title": orig_file.replace(".md", "").replace("-", " ").title(),
-                    "content": {"__links__": []}
+            for loc in v1_locations:
+                orig_file = os.path.basename(loc)
+                if not orig_file.endswith(".md"): continue
+                
+                if norm_url in self.inventory:
+                    self.inventory[norm_url]["tags"] = item["tags"]
+                    # Track V2 locations for reporting (Mandate 22)
+                    v2_locs = self.inventory[norm_url].get("v2_locations", [])
+                    if orig_file not in v2_locs:
+                        v2_locs.append(orig_file)
+                        self.inventory[norm_url]["v2_locations"] = v2_locs
+                
+                dim = file_to_dim.get(orig_file, "Architectural Foundations")
+                
+                # Mandate 29: Special Assets must include 100% of ALIVE links, bypassing impact filters.
+                is_special = item.get("is_special", False) or orig_file in special_rules
+                if not is_special and orig_file == "introduction.md" and item.get("stars", 0) < 3 and not item.get("is_microservice"):
+                    continue
+                
+                if orig_file not in v2_structure:
+                    v2_structure[orig_file] = {
+                        "dim": dim,
+                        "title": orig_file.replace(".md", "").replace("-", " ").title(),
+                        "content": {"__links__": []}
+                    }
+                
+                # Populate Maturity Audit for GitOps Reporting (Deduplicated)
+                audit_entry = {
+                    "url": item["url"],
+                    "tag": ", ".join(item["tags"]),
+                    "stars": item.get("stars", 0),
+                    "dimension": dim,
+                    "v2_locations": True 
                 }
-            
-            hierarchy = item.get("hierarchy", [])
+                if audit_entry not in self.maturity_audit:
+                    self.maturity_audit.append(audit_entry)
+                
+                hierarchy = item.get("hierarchy", [])
             # Skip redundant top-level labels
             if hierarchy and (hierarchy[0] == dim or hierarchy[0] == v2_structure[orig_file]["title"]): hierarchy = hierarchy[1:]
             
