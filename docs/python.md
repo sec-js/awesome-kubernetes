@@ -263,12 +263,12 @@
 ## Python Django Framework
 
 - [gettopical.com: Get Django Latest News](http://gettopical.com/djangoframework)
-- [realpython.com: Django Development With Docker Compose and Machine](https://realpython.com/blog/python/django-development-with-docker-compose-and-machine)
+- [realpython.com: Django Development With Docker Compose and Machine](https://realpython.com/learning-paths/django-web-development)
 - [realpython.com: Fun With Django's New Postgres Features](https://realpython.com/learning-paths/django-web-development)
 - [realpython.com: Deploying a Django App to AWS Elastic Beanstalk](https://realpython.com/learning-paths/django-web-development)
 - [TaskBuster Django Tutorial, made with Django 1.8 and Python 3](http://www.marinamele.com/taskbuster-django-tutorial)
 - [TDD with Django, from scratch: a beginner's intro to testing and web development](http://www.pyvideo.org/video/3509/tdd-with-django-from-scratch-a-beginners-intro)
-- [Django Development With Docker Compose and Machine](https://realpython.com/blog/python/django-development-with-docker-compose-and-machine)
+- [Django Development With Docker Compose and Machine](https://realpython.com/learning-paths/django-web-development)
 - [Installing and Configuring Django Web Framework with Virtual Environments in CentOS/Debian](http://www.tecmint.com/install-and-configure-django-web-framework-in-centos-debian-ubuntu)
 - [realpython.com: Development and Deployment of Cookiecutter-Django via Docker](https://realpython.com/learning-paths/django-web-development) A Cookiecutter template for creating production-ready Django projects quickly.
 - [github.com: Django app + RESTful API for automatic billing](https://github.com/silverapp/silver)
@@ -460,7 +460,7 @@
 <center markdown="1">
 
 <blockquote class="twitter-tweet tw-align-center" data-lang="es"><p lang="en" dir="ltr">29 common beginner Python errors on one page via <a href="https://t.co/Ctvy84KXKx">https://t.co/Ctvy84KXKx</a> <a href="https://twitter.com/hashtag/Python?src=hash">#Python</a> <a href="https://twitter.com/hashtag/Sysadmin?src=hash">#Sysadmin</a> <a href="https://twitter.com/hashtag/Programming?src=hash">#Programming</a> <a href="https://twitter.com/hashtag/Unix?src=hash">#Unix</a> <a href="https://twitter.com/hashtag/Linux?src=hash">#Linux</a> <a href="https://t.co/vaZaJETNPU">pic.twitter.com/vaZaJETNPU</a></p>&mdash; nixCraft (@nixcraft) <a href="https://twitter.com/nixcraft/status/706530828092731393">6 de marzo de 2016</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script async src="/platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Python is a beautiful programming language. It contains really useful features that make writing code more efficient than ever. <br><br>Here are 5 tips for writing more efficient and compact code.<br><br>🧵🧵🧵</p>&mdash; Danny Steenman (@dannysteenman) <a href="https://twitter.com/dannysteenman/status/1314930561220313088?ref_src=twsrc%5Etfw">October 10, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

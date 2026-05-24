@@ -59,7 +59,7 @@
 
 ## AWS Redshift
 
-- [Tutorial: Tuning Table Design](http://docs.aws.amazon.com/redshift/latest/dg/tutorial-tuning-tables.html) In this tutorial, you will learn how to optimize the design of your tables.
+- [Tutorial: Tuning Table Design](http://docs.aws.amazon.com/redshift/latest/dg/tutorial-tuning-tables.html) you will learn how to optimize the design of your tables.
 
 ## AWS Data Mesh and Batch Data Processing
 

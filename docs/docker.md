@@ -51,7 +51,7 @@
 - [dzone: Mitigating DevOps Repository Risks](https://dzone.com/articles/mitigating-devops-repository-risks) Docker is in the news for two reasons: Image retention limits and download throttling. Let's discuss both and see the better alternatives.
 - [Top 18 Docker commands for Automation Tester/Devops/SDET/Test Lead? 🌟](https://automationreinvented.blogspot.com/2020/02/top-18-docker-commands-for-aytomation.html)
 - [A Gentle Introduction to Using a Docker Container as a Dev Environment 🌟](https://css-tricks.com/a-gentle-introduction-to-using-a-docker-container-as-a-dev-environment)
-- [docs.docker.com: Deploying Docker containers on ECS](https://docs.docker.com/engine/context/ecs-integration)
+- [docs.docker.com: Deploying Docker containers on ECS](https://docs.docker.com/retired)
     - [AWS and Docker collaborate to simplify the developer experience](https://aws.amazon.com/blogs/containers/aws-docker-collaborate-simplify-developer-experience)
     - [From Docker Straight to AWS](https://www.docker.com/blog/from-docker-straight-to-aws)
 - [A Gentle Introduction to Using a Docker Container as a Dev Environment](https://css-tricks.com/a-gentle-introduction-to-using-a-docker-container-as-a-dev-environment)
@@ -71,12 +71,12 @@
 - [medium: Dockerizing a REST API in Python Less Than 9 MB and Based on scratch Image](https://medium.com/analytics-vidhya/dockerizing-a-rest-api-in-python-less-than-9-mb-and-based-on-scratch-image-ef0ee3ad3f0a)
 - [datamechanics.co: Optimized Apache Spark Docker Images](https://www.datamechanics.co)
 - [theskillpedia.com: Managing docker images - openshift tutorial](https://www.theskillpedia.com/managing-docker-images-openshift-tutorial)
-- [iximiuz.com: Container Networking Is Simple!](https://iximiuz.com/en/posts/container-networking-is-simple)
+- [iximiuz.com: Container Networking Is Simple!](https://labs.iximiuz.com/tutorials/container-networking-from-scratch)
 - [r-bloggers.com: Dockerizing Shiny Applications](https://www.r-bloggers.com/2021/05/dockerizing-shiny-applications)
 - [pythonspeed.com: Docker can slow down your code and distort your benchmarks](https://pythonspeed.com/articles/docker-performance-overhead)
 - [turbofuture.com: A Beginners Guide to Containers and Docker](https://turbofuture.com/computers/introductiontodocker)
 - [releasehub.com: Cutting Build Time In Half with Docker’s Buildx Kubernetes Driver](https://release.com/blog/cutting-build-time-in-half-docker-buildx-kubernetes)
-- [medium.com/nttlabs: Kubernetes driver for Docker BuildX](https://medium.com/nttlabs/buildx-kubernetes-ad0fe59b0c64) In this article, you will learn how Docker BuildX supports building images using BuildKit pods on a Kubernetes cluster. Docker BuildX, the extended version of docker build CLI, now supports distributed image building using Kubernetes!
+- [medium.com/nttlabs: Kubernetes driver for Docker BuildX](https://medium.com/nttlabs/buildx-kubernetes-ad0fe59b0c64) how Docker BuildX supports building images using BuildKit pods on a Kubernetes cluster. Docker BuildX, the extended version of docker build CLI, now supports distributed image building using Kubernetes!
 - [linuxadictos.com: Docker presenta nuevas capacidades para desarrolladores](https://www.linuxadictos.com/docker-presenta-nuevas-capacidades-para-desarrolladores.html)
 - [grafana.com: Docker Integration for Grafana Cloud](https://grafana.com/docs/grafana-cloud/monitor-infrastructure/integrations/integration-reference/integration-docker) Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly.
 - [dev.to: Docker CMD vs ENTRYPOINT: explaining the difference](https://dev.to/hood/docker-cmd-vs-entrypoint-explaining-the-difference-55g7)
@@ -122,7 +122,7 @@
 - [thenewstack.io: The Time to Decide on Docker Desktop Has Arrived](https://thenewstack.io/the-time-to-decide-on-docker-desktop-has-arrived)
 - [codeproject.com: How to Create an Image in Docker using Python](https://www.codeproject.com/Tips/5323808/How-To-Create-An-Image-In-Docker-Using-Python)
 - [thenewstack.io: How to Share Data Between Docker Containers](https://thenewstack.io/containers/how-to-share-data-between-docker-containers)
-- [iximiuz.com: Containers 101: attach vs. exec - what's the difference?](https://iximiuz.com/en/posts/containers-101-attach-vs-exec)
+- [iximiuz.com: Containers 101: attach vs. exec - what's the difference?](https://labs.iximiuz.com/tutorials/docker-run-vs-attach-vs-exec)
 - [acloudguru.com: Docker COPY vs ADD: What’s the difference?](https://www.pluralsight.com/resources/blog/cloud/docker-copy-vs-add-whats-the-difference)
 - [thenewstack.io: How to Run Docker in Rootless Mode](https://thenewstack.io/how-to-run-docker-in-rootless-mode)
 - [mjovanc.com: Get started with Docker and Docker Compose](https://mjovanc.com/get-started-with-docker-and-docker-compose-cddcb5a3f3b9)
@@ -224,7 +224,7 @@
 ## Docker for LLMs
   - [Docker for LLMs](https://www.docker.com/llm) - This page from Docker introduces how Docker can be leveraged to deploy and manage Large Language Models (LLMs), highlighting its capabilities in simplifying the LLM development lifecycle. It covers aspects like packaging models, managing dependencies, and scaling LLM applications.
 
-- [blog.testproject.io: A Comparison of Kubernetes and Docker](https://blog.testproject.io/2021/06/21/a-comparison-of-kubernetes-and-docker)
+- [blog.testproject.io: A Comparison of Kubernetes and Docker](https://www.tricentis.com/learn)
 - [==containerjournal.com: What’s the Difference Between Docker and Kubernetes?==](https://cloudnativenow.com/features/whats-the-difference-between-docker-and-kubernetes)
 
 ## Docker Patterns and Antipatterns
@@ -240,7 +240,7 @@
   - [Docker Hardened Images for Every Developer](https://www.docker.com/blog/docker-hardened-images-for-every-developer) 🌟 - This article from Docker introduces their new hardened images, designed to provide developers with a more secure foundation for building and deploying containerized applications. It highlights the benefits of using these images and how they contribute to a stronger security posture.
 
 - [thehackernews.com: Docker Images Containing Cryptojacking Malware Distributed via Docker Hub](https://thehackernews.com/2020/06/cryptocurrency-docker-image.html)
-- [acloudguru.com: 10 Docker Security Best Practices to Cut Container Chaos](https://acloudguru.com/blog/engineering/10-docker-security-best-practices-to-cut-container-chaos)
+- [acloudguru.com: 10 Docker Security Best Practices to Cut Container Chaos](https://www.pluralsight.com/cloud-guru)
 - [brianchristner.io: How to use Docker Security Scan Locally](https://brianchristner.io/how-to-use-docker-scan) Docker included a new command called `docker scan` that scans local images against the Snyk security engine, providing you with security visibility into your local Dockerfiles and images.
 - [snyk.io: 10 Docker Security Best Practices 🌟](https://snyk.io/blog/10-docker-image-security-best-practices)
 - [cheatsheetseries.owasp.org: Docker Security Cheat Sheet 🌟🌟](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html)
@@ -260,9 +260,9 @@
 - [itnext.io: Building Docker Images The Proper Way 🌟](https://itnext.io/building-docker-images-the-proper-way-3c9807524582) Let’s optimize Docker builds to create much smaller and more secure Docker images in a fraction of the usual build time…
 - [returngis.net: Reduce el tamaño de tus imágenes con Dockerfiles multi-stage](https://www.returngis.net/2021/08/reduce-el-tamano-de-tus-imagenes-con-dockerfiles-multi-stage)
 - [==slim.ai==](https://www.root.io) Build secure containers, faster. Secure your software supply chain.
-    - [slim.ai: Automatically reduce Docker container size using DockerSlim](https://www.root.io/blog/automatically-reduce-docker-container-size-using-dockerslim.html)
+    - [slim.ai: Automatically reduce Docker container size using DockerSlim](https://www.root.io)
     - [youtube: The need for Slim Docker Container Images with @DockerSlim & Slim.AI](https://www.youtube.com/watch?v=1o14tIEhZL0)
-    - [==slim.ai: Slim Docker Extension== 🌟](https://www.root.io/docs/docker-desktop-extension.html)
+    - [==slim.ai: Slim Docker Extension== 🌟](https://www.root.io)
 - [learnk8s.io: 3 simple tricks for smaller Docker images 🌟](https://learnkube.com/blog/smaller-docker-images) When it comes to building Docker containers, you should always strive for smaller images. **Images that share layers and are smaller in size are quicker to transfer and deploy.**
 - [contains.dev: Optimizing Docker image size and why it matters](https://contains.dev/blog/optimizing-docker-image-size)
 - [==jpetazzo.github.io: Anti-Patterns When Building Container Images==](http://jpetazzo.github.io/2021/11/30/docker-build-container-images-antipatterns)
@@ -393,7 +393,7 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 - [jib](https://github.com/GoogleContainerTools/jib)
 - [kaniko](https://github.com/GoogleContainerTools/kaniko)
 - [buildah](https://buildah.io)
-- [buildkit](https://docs.docker.com/build/buildkit)
+- [buildkit](https://docs.docker.com/build)
 - [podman](https://podman.io)
 - [==blog.logrocket.com: Top Docker alternatives for 2022==](https://blog.logrocket.com/docker-alternatives)
 - [itnext.io: Replace Docker Desktop with lima](https://itnext.io/replace-docker-desktop-with-lima-88ec6f9d6a19) - [lima-vm/lima](https://github.com/lima-vm/lima)

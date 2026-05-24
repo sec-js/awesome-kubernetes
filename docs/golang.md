@@ -53,7 +53,7 @@
 - [dev.to/mavensingh: Advantages and Disadvantages of Go](https://dev.to/mavensingh/advantages-and-disadvantages-of-go-5gha)
 - [levelup.gitconnected.com: Concurrency in Go: shared memory](https://levelup.gitconnected.com/concurrency-in-go-shared-memory-a2ef201b396b)
 - [luk4z7/go-concurrency-guide: Go Concurrency Guide 🌟](https://github.com/luk4z7/go-concurrency-guide) Practical concurrency guide in Go, communication by channels, patterns
-- [medium.com/datascale: Know GOMAXPROCS before deploying your GO app to Kubernetes](https://medium.com/datascale/know-gomaxprocs-before-deploying-your-go-app-to-kubernetes-7a458fb63af1) In this article, you will learn why setting GOMAXPROCS for your Go apps is crucial in Kubernetes. And you'll discover why it's better to assign a full-core CPU to your Go containers.
+- [medium.com/datascale: Know GOMAXPROCS before deploying your GO app to Kubernetes](https://medium.com/datascale/know-gomaxprocs-before-deploying-your-go-app-to-kubernetes-7a458fb63af1) why setting GOMAXPROCS for your Go apps is crucial in Kubernetes. And you'll discover why it's better to assign a full-core CPU to your Go containers.
 - [dev.to: Getting Started With Go (golang) | Michael Levan](https://dev.to/thenjdevopsguy/getting-started-with-go-golang-5eh8)
 
 ## Design Patterns
@@ -71,9 +71,9 @@
 - [An example of using dynamic client of k8s.io/client-go](https://ymmt2005.hatenablog.com/entry/2020/04/14/An_example_of_using_dynamic_client_of_k8s.io/client-go)
 - [medium: Using the Go client framework 🌟](https://medium.com/programming-kubernetes/building-stuff-with-the-kubernetes-api-part-4-using-go-b1d0e3c1c899)
 - [iximiuz.com: How To Call Kubernetes API using Go - Types and Common Machinery](https://iximiuz.com/en/posts/kubernetes-api-go-types-and-common-machinery)
-- [itnext.io: Generically working with Kubernetes objects in Go](https://itnext.io/generically-working-with-kubernetes-resources-in-go-53bce678f887) Using the unstructured package from k8s API machinery. In this post you’ll learn how to work with live Kubernetes objects in Go using the typed and dynamic clients available from the API machinery sub-project client-go.
+- [itnext.io: Generically working with Kubernetes objects in Go](https://itnext.io/generically-working-with-kubernetes-resources-in-go-53bce678f887) Using the unstructured package from k8s API machinery.you’ll learn how to work with live Kubernetes objects in Go using the typed and dynamic clients available from the API machinery sub-project client-go.
 - [medium.com/codex: Explore client-go Informer Patterns](https://medium.com/codex/explore-client-go-informer-patterns-4415bb5f1fbd) Invoke the Kubernetes resources without overloading the cluster. Many popular Kubernetes tools such as K9s are based on client-go. They use the informer pattern to continuously refresh data without posing additional pressure to the API Server. Learn how the informer pattern works in this article.
-- [dev.to: Watch and react to Kubernetes objects changes](https://dev.to/lucasepe/watch-and-react-to-kubernetes-objects-changes-3kcg) client-go is the official client library for the Go programming language. In this article, you will learn how to use RESTClient to watch and then react to namespaces changes.
+- [dev.to: Watch and react to Kubernetes objects changes](https://dev.to/lucasepe/watch-and-react-to-kubernetes-objects-changes-3kcg) client-go is the official client library for the Go programming language. how to use RESTClient to watch and then react to namespaces changes.
 - [shahin-mahmud.medium.com: Write your first Kubernetes operator in go](https://shahin-mahmud.medium.com/write-your-first-kubernetes-operator-in-go-177047337eae)
 - [collabnix.com: Kubernetes CRUD Operation using Go on Docker Desktop](https://collabnix.com/kubernetes-crud-operation-using-go-on-docker-desktop)
 - [blog.kubesimplify.com: Perform CRUD Operations on Kubernetes Using Golang 🌟](https://blog.kubesimplify.com/perform-crud-operations-on-kubernetes-using-golang)
@@ -122,7 +122,7 @@
 - [github.com/groundcover-com: Container Restarts Watcher](https://github.com/groundcover-com/blog/tree/main/blog_k8s_containers_restarts)
 - [create-go-app/cli](https://github.com/create-go-app/cli) Create a new production-ready project with backend, frontend and deploy automation by running one CLI command!
 - [Delve: a debugger for the Go Programming Language](https://github.com/derekparker/delve)
-    - [alexsniffin.medium.com: Debugging Remotely with Go in Kubernetes](https://alexsniffin.medium.com/debugging-remotely-in-kubernetes-with-go-fda4f3332316) In this tutorial, you will learn how to debug an application deployed in Kubernetes remotely using VS Code and Delve
+    - [alexsniffin.medium.com: Debugging Remotely with Go in Kubernetes](https://alexsniffin.medium.com/debugging-remotely-in-kubernetes-with-go-fda4f3332316) how to debug an application deployed in Kubernetes remotely using VS Code and Delve
 
 ## Go Books
 

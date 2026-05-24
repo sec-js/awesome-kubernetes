@@ -77,7 +77,7 @@
 - [opsmx.com: What is a CI/CD Pipeline ?](https://www.opsmx.com/blog/what-is-a-ci-cd-pipeline)
 - [continuousdelivery.com: Patterns 🌟](https://continuousdelivery.com/implementing/patterns)
 - [devops.com: 7 Popular Open Source CI/CD Tools](https://devops.com/7-popular-open-source-ci-cd-tools)
-- [testguild.com: Pipeline as Code with Mohamed Labouardy](https://testguild.com/podcast/automation/a345-mohamed)
+- [testguild.com: Pipeline as Code with Mohamed Labouardy](https://testguild.com/podcast/a345-mohamed)
 - [harness.io: Understanding the Phases of the Software Development Life Cycle](https://www.harness.io/blog/software-development-life-cycle)
 - [cloudbees.com: Key Components of a CI/CD Pipeline](https://www.cloudbees.com/blog/ci-cd-pipeline)
 - [blog.thundra.io: Why a CI/CD Pipeline Makes Good Business Sense](https://blog.thundra.io/why-a-ci/cd-pipeline-makes-good-business-sense)
@@ -99,10 +99,10 @@
 - [medium.com/softwareimprovementgroup: CI/CD best practices: How to set up your pipeline](https://medium.com/softwareimprovementgroup/ci-cd-best-practices-how-to-set-up-your-pipeline-4643eea14bfa)
 - [medium.com/dynatrace-engineering: How to combine and automate infrastructure and application deployment in a microservice environment](https://medium.com/dynatrace-engineering/how-to-combine-and-automate-infrastructure-and-application-deployment-in-a-microservice-environment-a16b664bb8b5) A collection of best practices to improve your confidence in your deployed applications.
 - [thenewstack.io: 4 Best Practices to Drive Successful Adoption of CI/CD](https://thenewstack.io/four-best-practices-to-drive-successful-adoption-of-ci-cd)
-- [about.gitlab.com: How to keep up with CI/CD best practices](https://about.gitlab.com/blog/2022/02/03/how-to-keep-up-with-ci-cd-best-practices)
+- [about.gitlab.com: How to keep up with CI/CD best practices](https://about.gitlab.com/blog/how-to-keep-up-with-ci-cd-best-practices)
 - [harness.io: Modern Software Delivery Best Practices & Software Delivery Management](https://www.harness.io/blog)
 - [linkedin pulse: Enabling CI/CD to Boost DevOps | Pavan Belagatti](https://www.linkedin.com/pulse/enabling-cicd-boost-devops-pavan-belagatti)
-- [about.gitlab.com: How to learn CI/CD fast](https://about.gitlab.com/blog/2022/04/13/how-to-learn-ci-cd-fast)
+- [about.gitlab.com: How to learn CI/CD fast](https://about.gitlab.com/blog/how-to-learn-ci-cd-fast)
 - [thenewstack.io: Are Monolith CI/CD Pipelines Killing Quality in Your Software?](https://thenewstack.io/are-monolith-ci-cd-pipelines-killing-quality-in-your-software) This creates complex challenges for developers trying to push commits with confidence and DevOps teams responsible for fine-tuning their pipelines.
 - [clickittech.com: CI/CD Best Practices: Top 10 Practices for Financial Services](https://www.clickittech.com/devops/ci-cd-best-practices)
 - [medium.com/@rifkikarimr: Continuous Integration and Continuous Deployment: Best Practices for DevOps 🌟](https://medium.com/@rifkikarimr/continuous-integration-and-continuous-deployment-best-practices-for-devops-b99eac071a5c) Explore the basics of CICD. What they're, why they’re important, how to set up CI/CD pipeline, the best practices for CI/CD, and how to overcome common challenges
@@ -132,7 +132,7 @@
 - [developers.redhat.com: 10 tips for reviewing code you don't like](https://developers.redhat.com/blog/2019/07/08/10-tips-for-reviewing-code-you-dont-like)
 
 ## Security in CI/CD
-  - [Deploying to Azure: Secure Your GitHub Workflow with OIDC](https://thomasthornton.cloud/2025/02/27/deploying-to-azure-secure-your-github-workflow-with-oidc) 🌟 - This blog post explains the benefits of using OpenID Connect (OIDC) for securing GitHub Actions workflows when deploying to Azure. It provides a step-by-step guide on setting up OIDC authentication using Azure CLI, including creating an Azure AD application with federated credentials, and demonstrates its implementation within a GitHub repository workflow. The article highlights how OIDC eliminates the need for long-lived secrets in GitHub, thus enhancing security and simplifying credential management.
+  - [Deploying to Azure: Secure Your GitHub Workflow with OIDC](https://thomasthornton.cloud/deploying-to-azure-secure-your-github-workflow-with-oidc) 🌟 - This blog post explains the benefits of using OpenID Connect (OIDC) for securing GitHub Actions workflows when deploying to Azure. It provides a step-by-step guide on setting up OIDC authentication using Azure CLI, including creating an Azure AD application with federated credentials, and demonstrates its implementation within a GitHub repository workflow. The article highlights how OIDC eliminates the need for long-lived secrets in GitHub, thus enhancing security and simplifying credential management.
   - [Securing Azure DevOps When Using Private Repositories](https://www.linkedin.com/top-content/?trk=article_not_found) - *(Related to azure topic)*
   - [Avoiding Mistakes with AWS OIDC Integration Conditions](https://www.wiz.io/blog/avoiding-mistakes-with-aws-oidc-integration-conditions) - *(Related to aws-security topic)*
   - [Update to Azure DevOps Allowed IP Addresses](https://devblogs.microsoft.com/devops/update-to-ado-allowed-ip-addresses) - *(Related to azure topic)*
@@ -144,7 +144,7 @@
 
 - [split.io: Progressive Delivery](https://www.harness.io/harness-devops-academy/progressive-delivery?utm_campaign=fme&utm_source=split_io&utm_medium=redirect&utm_content=individual)
 - [harness.io: Progressive Delivery: Everything You Need to Know](https://www.harness.io/blog)
-- [weave.works: Progressively Delivering Applications Across Cloud and On-Premise. Using Kuma & GitOps to implement canary releasing](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745)
+- [weave.works: Progressively Delivering Applications Across Cloud and On-Premise. Using Kuma & GitOps to implement canary releasing](https://www.weave.works/)
 
 ## Deployment Strategies
 
@@ -152,7 +152,7 @@
     - It really depends on the needs and budget. When releasing to development/staging environments, a recreate or ramped deployment is usually a good choice. When it comes to production, a ramped or blue/green deployment is usually a good fit, but proper testing of the new platform is necessary.
     - Blue/green and shadow strategies have more impact on the budget as it requires double resource capacity. If the application lacks in tests or if there is little confidence about the impact/stability of the software, then a canary, a/b testing or shadow release can be used. If your business requires testing of a new feature amongst a specific pool of users that can be filtered depending on some parameters like geolocation, language, operating system or browser features, then you may want to use the a/b testing technique.
     - Last but not least, a shadow release is complex and requires extra work to mock egress traffic which is mandatory when calling external dependencies with mutable actions (email, bank, etc.). However, this technique can be useful when migrating to a new database technology and use shadow traffic to monitor system performance under load.
-- [harness.io: Intro to Deployment Strategies: Blue-Green, Canary, and More 🌟](https://harness.io/blog/continuous-verification/blue-green-canary-deployment-strategies)
+- [harness.io: Intro to Deployment Strategies: Blue-Green, Canary, and More 🌟](https://www.harness.io/blog/blue-green-canary-deployment-strategies)
 - [medium: Continuous Kubernetes blue-green deployments on Azure using Nginx, AppGateway or TrafficManager — part 2](https://medium.com/@denniszielke/continuous-kubernetes-blue-green-deployments-on-azure-using-nginx-appgateway-or-trafficmanager-4490bce29cb)
 - [gitconnected.com: Blue-Green with Canary Deployment — A Novel approach](https://levelup.gitconnected.com/blue-green-with-canary-deployment-a-novel-approach-2cee77ff564d)
 - [semaphoreci.com: Continuous Blue-Green Deployments With Kubernetes 🌟](https://semaphore.io/blog/continuous-blue-green-deployments-with-kubernetes)

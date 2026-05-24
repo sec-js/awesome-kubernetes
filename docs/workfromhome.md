@@ -19,7 +19,7 @@
 - [krisp](https://krisp.ai) Noise cancelling app
 - [Zoom](https://www.zoom.com)
 - [Wordpress P2](https://wordpress.com/p2)
-- [Google docs & Sheets](https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fdocs.google.com%2F&dsh=S20332737%3A1779042489432562&emr=1&followup=https%3A%2F%2Fdocs.google.com%2F&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AWa2Pav-11IKZl8IOb4XqImV3kUr5dyMPv-c_juxtiguwye_vvM_4JChlo3slW1NhgW6-FumHKZpvw)
+- [Google docs & Sheets](https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fdocs.google.com%2F&dsh=S20332737%3A1779029801683182&emr=1&followup=https%3A%2F%2Fdocs.google.com%2F&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AWa2PauuoeLcrRlG9wsx3FKpxmPOwZ0aEG9g04i8ZgsTyIUOHV3UzhWURaJlrxS0xYmo_YZUJM0_Rw)
 - [Slack](https://slack.com)
 
 ## Alternatives

@@ -121,7 +121,7 @@
 ### Azure DevOps
 
 - [Azure DevOps](https://azure.microsoft.com/en-us/products/devops)
-- [k21academy.com: Azure pipelines VS Jenkins](https://k21academy.com/microsoft-azure/az-400/azure-pipelines-vs-jenkins)
+- [k21academy.com: Azure pipelines VS Jenkins](https://k21academy.com/azure-cloud/azure-pipelines-vs-jenkins)
 
 ### ShuttleOps
 
@@ -245,7 +245,7 @@
 
 <center markdown="1">
 
-<script async class="speakerdeck-embed" data-id="4792e3bc2f474efb8589d231314091e8" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+<script async class="speakerdeck-embed" data-id="4792e3bc2f474efb8589d231314091e8" data-ratio="1.77777777777778" src="/speakerdeck.com/assets/embed.js"></script>
 
 </center>
 </details>

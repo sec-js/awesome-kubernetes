@@ -15,7 +15,7 @@
 - [codefresh.io: Using GitOps for Infrastructure and Applications With Crossplane and Argo CD](https://octopus.com/devops/gitops)
 - [itnext.io: Why do developers find Kubernetes so hard?](https://itnext.io/why-do-developers-find-kubernetes-hard-6532e8d6ce7f) And how can Crossplane Kubernetes Provider help
 - [faun.pub: Defining Infrastructure Declaratively with Crossplane](https://faun.pub/defining-infrastructure-declaratively-with-crossplane-eb9e0a98ae38)
-- [itnext.io: GitOpsify Cloud Infrastructure with Crossplane and Flux](https://itnext.io/gitopsify-cloud-infrastructure-with-crossplane-and-flux-d605d3043452) In this article, we are going to learn how to automate the provisioning of cloud resources via Crossplane and combine it with GitOps practices.
+- [itnext.io: GitOpsify Cloud Infrastructure with Crossplane and Flux](https://itnext.io/gitopsify-cloud-infrastructure-with-crossplane-and-flux-d605d3043452) we are going to learn how to automate the provisioning of cloud resources via Crossplane and combine it with GitOps practices.
 - [symphony.is: Crossplane - The New Kid in Town](https://symphony.is/blog/crossplane---the-new-kid-in-town-)
 
 ## Demo. YAML Your Cloud. Managing Cloud-Hosted Resources from Kubernetes

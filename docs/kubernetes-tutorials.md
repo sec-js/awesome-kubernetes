@@ -62,7 +62,7 @@
 - [javarevisited.blogspot.com: Top 5 Online Courses to Learn Kubernetes in 2022 - Best of Lot](https://javarevisited.blogspot.com/2020/06/top-5-courses-to-learn-kubernetes-for-devops-and-certification.html)
 - [==youtube: Kubernetes for Sysadmins – Kelsey Hightower at PuppetConf 2016== 🌟🌟🌟](https://www.youtube.com/clip/UgkxWpu3QFPEDZBuMgy_Xq4mBR--uLA-3CSZ)**This is the most famous Kubernetes talk of all time, where kelseyhightower explains the Kubernetes scheduler using Tetris.**
 - [==educative.io/courses/the-kubernetes-course: Learn Kubernetes: A Deep Dive== 🌟🌟🌟](https://www.educative.io/courses/learn-kubernetes) **Kubernetes helps deploy and manage containerized applications at scale. It abstracts the underlying infrastructure so it doesn’t matter if you're deploying your applications to Amazon Web Services, Microsoft Azure, or your own on-premises datacenter. Ready to get started?**
-    - [educative.io/courses/the-kubernetes-course: Pods](https://www.educative.io/courses/learn-kubernetes/pods) Its true that K8s runs containerized apps. But, you can:t run container directly on K8s cluster – containers always run inside of Pods. Pods: Intro to Pods in Kubernetes:
+    - [educative.io/courses/the-kubernetes-course: Pods](https://www.educative.io/courses/learn-kubernetes/RMmq5M6Gp8R) Its true that K8s runs containerized apps. But, you can:t run container directly on K8s cluster – containers always run inside of Pods. Pods: Intro to Pods in Kubernetes:
         - Pods & containers
         - Pod anatomy
         - Pods as unit of scaling

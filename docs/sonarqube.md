@@ -46,8 +46,8 @@ in your Bitbucket repositories
     - [Gradle - SonarScanner for Gradle](https://docs.sonarsource.com/sonarqube-server/analyzing-source-code/scanners/sonarscanner-for-gradle)
     - [MSBuild - SonarScanner for MSBuild](https://docs.sonarsource.com/sonarqube-server/analyzing-source-code/scanners/dotnet/installing)
     - [Maven - use the SonarScanner for Maven](https://docs.sonarsource.com/sonarqube-server/analyzing-source-code/scanners/sonarscanner-for-maven)
-    - [Jenkins - SonarScanner for Jenkins. SonarQube plugin for Jenkins with declarative pipeline 🌟](https://docs.sonarsource.com/sonarqube-server/analyzing-source-code/scanners/sonarscanner-for-jenkins)
+    - [Jenkins - SonarScanner for Jenkins. SonarQube plugin for Jenkins with declarative pipeline 🌟](https://docs.sonarsource.com/sonarqube-server/analyzing-source-code/scanners/jenkins-extension-sonarqube)
     - [Azure DevOps - SonarQube Extension for Azure DevOps](https://docs.sonarsource.com/sonarqube-server/analyzing-source-code/scanners/sonarqube-extension-for-azure-devops)
-    - [Ant - SonarScanner for Ant](https://docs.sonarsource.com/sonarqube-server/2025.5/analyzing-source-code/scanners)
+    - [Ant - SonarScanner for Ant](https://docs.sonarsource.com/sonarqube-server/analyzing-source-code/scanners/scanner-environment/general-requirements)
     - [anything else (CLI) - SonarScanner](https://docs.sonarsource.com/sonarqube-server/analyzing-source-code/scanners/sonarscanner)
 

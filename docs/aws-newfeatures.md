@@ -12,8 +12,8 @@
 - [Amazon EFS: Amazon Elastic File System – Shared File Storage for Amazon EC2](https://aws.amazon.com/blogs/aws/amazon-elastic-file-system-shared-file-storage-for-amazon-ec2)
 - [New – Encrypted EBS Boot Volumes](https://aws.amazon.com/blogs/aws/new-encrypted-ebs-boot-volumes)
     - [Amazon EBS Encryption](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html)
-- [Now Add or Modify Request Headers Forwarded From Amazon CloudFront to Origin](https://aws.amazon.com/about-aws/whats-new/2015/12/now-add-or-modify-request-headers-forwarded-from-amazon-cloudfront-to-origin)
-- [AWS CloudFormation Adds Support for AWS WAF and AWS Directory Service for Microsoft Active Directory](https://aws.amazon.com/about-aws/whats-new/2015/12/aws-cloudformation-adds-support-for-aws-waf-and-aws-directory-service-for-microsoft-active-directory)
+- [Now Add or Modify Request Headers Forwarded From Amazon CloudFront to Origin](https://aws.amazon.com/about-aws)
+- [AWS CloudFormation Adds Support for AWS WAF and AWS Directory Service for Microsoft Active Directory](https://aws.amazon.com/about-aws)
 - [Amazon WorkMail – Now Generally Available](https://aws.amazon.com/blogs/aws/amazon-workmail-now-generally-available)
 - [London Calling! An AWS Region is coming to the UK!](http://www.allthingsdistributed.com/2015/11/aws-announces-uk-region.html)
 - [New – Scheduled Reserved Instances](https://aws.amazon.com/blogs/aws/new-scheduled-reserved-instances)
@@ -31,7 +31,7 @@
 - [Amazon VPC CNI plugin increases pods per node limits](https://aws.amazon.com/about-aws/whats-new/2021/07/amazon-vpc-cni-plugin-increases-pods-per-node-limits)
 - [theregister.com: AWS to retire EC2-Classic – the network glue that helped start the IaaS rush](https://www.theregister.com/off-prem/2021/07/29/aws-to-retire-ec2-classic-the-network-glue-that-helped-start-the-iaas-rush/527489) You've got a year to sort yourself out if you're still using it for some reason
 - [AWS Security Hub adds 18 new controls to its Foundational Security Best Practices standard and 8 new partners for enhanced cloud security posture monitoring](https://aws.amazon.com/about-aws/whats-new/2021/08/aws-security-hub-adds-18-new-controls-foundational-security-best-practices-standard-8-new-partners-enhanced-cloud-security-posture-monitoring)
-- [EC2 VM Import/Export now supports migration of virtual machines with Unified Extensible Firmware Interface (UEFI) boot to AWS](https://aws.amazon.com/about-aws/whats-new/2021/08/ec2-vm-import-export-unified-extensible-firmware-interface-aws)
+- [EC2 VM Import/Export now supports migration of virtual machines with Unified Extensible Firmware Interface (UEFI) boot to AWS](https://aws.amazon.com/about-aws)
 - [Amazon Virtual Private Cloud (VPC) customers can now resize their prefix list](https://aws.amazon.com/about-aws/whats-new/2021/08/amazon-vpc-resize-prefix-list)
 - [New for AWS CloudFormation – Quickly Retry Stack Operations from the Point of Failure](https://aws.amazon.com/es/blogs/aws/new-for-aws-cloudformation-quickly-retry-stack-operations-from-the-point-of-failure)
 - [AWS Site-to-Site VPN releases updated Download Configuration utility](https://aws.amazon.com/about-aws/whats-new/2021/09/aws-site-to-site-vpn-download-configuration-utility) With this update, Site-to-Site VPN customers can generate configuration templates for compatible Customer Gateway (CGW) devices, making it easier to create VPN connections to AWS.

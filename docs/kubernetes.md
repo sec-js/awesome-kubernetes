@@ -139,14 +139,14 @@
 - [medium: Kubernetes, a practical introduction](https://medium.com/nexton/kubernetes-a-practical-introduction-18a5b69e7763)
 - [itnext.io: Kubernetes is Hard! 🌟](https://itnext.io/kubernetes-is-hard-190f1d0c6d36) But, where there’s Kubernetes, there’s a way!
 - [medium: Starting with kubernetes](https://medium.com/@thomaspoignant/starting-with-kubernetes-db121b09fd4)
-- [thenewstack.io: Kubernetes Is the New Standard for Computing, Including the Edge](https://thenewstack.io/kubernetes/-is-the-new-standard-for-computing-including-the-edge)
+- [thenewstack.io: Kubernetes Is the New Standard for Computing, Including the Edge](https://thenewstack.io/kubernetes-is-the-new-standard-for-computing-including-the-edge)
 - [thenewstack.io: How does kubernetes work?](https://thenewstack.io/how-does-kubernetes-work)
 - [cloudsavvyit.com: How Does Kubernetes Work?](https://www.cloudsavvyit.com/10110/how-does-kubernetes-work)
 - [elmanytas.es: Kubernetes para impostores III](http://elmanytas.es/?q=node/358)
 - [enterprisersproject.com: How to explain Kubernetes in plain English](https://enterprisersproject.com/article/2017/10/how-explain-kubernetes-plain-english) How do you explain Kubernetes and orchestration to non-technical people? Listen to the experts
 - [maximilianmichels.com: Kubernetes in a Nutshell: 10 Things You Need to Know](https://maximilianmichels.com/2021/kubernetes-what-you-need-to-know)
 - [brennerm.github.io: Kubernetes Overview Diagrams 🌟](https://shipit.dev/posts/kubernetes-overview-diagrams.html#architecture)
-- [thenewstack.io: Kubernetes Lifecycle Management! So Important! (Day 0, Day 1, Day 2) 🌟](https://thenewstack.io/kubernetes/-lifecycle-management-so-important-what-does-it-mean)
+- [thenewstack.io: Kubernetes Lifecycle Management! So Important! (Day 0, Day 1, Day 2) 🌟](https://thenewstack.io/kubernetes-lifecycle-management-so-important-what-does-it-mean)
 - [opensource.com: A beginner's guide to Kubernetes container orchestration](https://opensource.com/article/20/6/container-orchestration) Understanding the building blocks of container orchestration makes it easier to get started with Kubernetes.
 - [luminousmen.com: Kubernetes 101](https://luminousmen.com/post/kubernetes-101)
 - [css-tricks.com: Kubernetes Explained Simply: Containers, Pods and Images](https://css-tricks.com/kubernetes-explained-simply-containers-pods-and-images)
@@ -158,13 +158,13 @@
 - [dev.to: Getting Started Tutorial for Learning Kubernetes 🌟](https://dev.to/chefgs/getting-started-tutorial-for-learning-kubernetes-455e)
 - [tech.showmax.com: Developers' basic guide to kubernetes](https://tech.showmax.com/2021/08/developers-101-kubernetes)
 - [dev.to: How to start with Kubernetes for begginer](https://dev.to/dhirajpatra/how-to-start-with-kubernetes-for-begginer-309e)
-- [blogs.mulesoft.com - K8s: 8 questions about Kubernetes](https://blogs.mulesoft.com/dev/resources-dev/k8s-kubernetes)
+- [blogs.mulesoft.com - K8s: 8 questions about Kubernetes](https://blogs.mulesoft.com/dev-guides/k8s-kubernetes)
 - [devcentral.f5.com: What is Kubernetes?](https://community.f5.com/kb/technicalarticles/what-is-kubernetes/281010)
 - [docs.google.com: Kubernetes For Everyone 🌟🌟](https://docs.google.com/document/d/1p4ZYQYM2VrMCR8K3T68JOMzWHlV-C8Jogrl9Ces77OA/edit)  A consolidated document on Kubernetes by: Pavan Belagatti
 - [hackernoon.com: The Ultimate Beginners Guide To Kubernetes and Container Orchestration](https://hackernoon.com/the-ultimate-beginners-guide-to-kubernetes-and-container-orchestration-5d83354y)
 - [k21academy.com: Kubernetes Architecture. An Introduction to Kubernetes Components](https://k21academy.com/kubernetes/kubernetes-architecture-components-overview-for-beginners)
 - [dzone: Introduction To Kubernetes 🌟](https://dzone.com/articles/introduction-to-kubernetes-part-1) An orchestration tool takes care of provisioning and deployment, allocation of resources, load balancing, and many other important aspects of any system.
-- [weave.works: Kubernetes components that make up its architecture 🌟](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745) Great intro
+- [weave.works: Kubernetes components that make up its architecture 🌟](https://www.weave.works/blog/kubernetes-components-that-makeup-its-architecture) Great intro
 - [dzone refcard: Advanced kubernetes 🌟](https://dzone.com/refcardz/advanced-kubernetes)
 - [redhat.com: Kubernetes basics for sysadmins](https://www.redhat.com/en/blog/kubernetes-basics-sysadmins) Learn when Kubernetes can be effectively used and how the containers it manages might be better than virtual machines.
 - [redhat.com: Kubernetes Components - A sysadmin's guide to basic Kubernetes components 🌟](https://www.redhat.com/en/blog/kubernetes-components) Kubernetes control plane nodes and worker nodes, their features, and how they interact.
@@ -181,7 +181,7 @@
 - [thenewstack.io: Living with Kubernetes: Cluster Upgrades 🌟](https://thenewstack.io/living-with-kubernetes-cluster-upgrades)
 - [thenewstack.io: 5 Things Developers Need to Know About Kubernetes Management](https://thenewstack.io/5-things-developers-need-to-know-about-kubernetes-management)
 - [How to handle environment variables with Kubernetes? 🌟](https://humanitec.com/blog/handling-environment-variables-with-kubernetes)
-- [weave.works: The Definitive Guide to Kubernetes in Production 🌟🌟](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745)
+- [weave.works: The Definitive Guide to Kubernetes in Production 🌟🌟](https://www.weave.works/blog/the-definitive-guide-to-kubernetes-in-production)
 - [vmblog.com: The Rise of Modern Day Kubernetes Operations](https://vmblog.com/archive/2021/10/07/the-rise-of-modern-day-kubernetes-operations.aspx)
 - [thenewstack.io: What Workloads Do Businesses Run on Kubernetes?](https://thenewstack.io/what-workloads-do-businesses-run-on-kubernetes)
 - [itnext.io: The subtleties of ensuring zero downtime during pod lifecycle events in Kubernetes](https://itnext.io/the-subtleties-of-ensuring-zero-downtime-during-pod-lifecycle-events-in-kubernetes-6461c12f7736)
@@ -210,12 +210,12 @@
 - [==blog.scaleway.com: How to deploy and distribute the workload on a multi-cloud Kubernetes environment== 🌟](https://www.scaleway.com/en/blog/how-to-deploy-and-distribute-the-workload-on-a-multi-cloud-kubernetes-environment) **This article will guide you through the best practices to deploy and distribute the workload on a multi-cloud Kubernetes environment**
 - [cloudtechtwitter.com: KubeApiServer components 🌟](https://www.cloudtechtwitter.com/2022/04/kubeapiserver.html) Kube API Server is the only component that as a user we will directly interact with.
 - [medium.com/@portainerio: Kubernetes, the ultimate enabler of automation](https://medium.com/@portainerio/kubernetes-the-ultimate-enabler-of-automation-27d5a3502807)
-- [==marcusnoble.co.uk: Managing Kubernetes without losing your cool== 🌟](https://marcusnoble.co.uk/2022-07-04-managing-kubernetes-without-losing-your-cool) In this article, you will find 10 tips for working with Kubernetes clusters all day long.
+- [==marcusnoble.co.uk: Managing Kubernetes without losing your cool== 🌟](https://marcusnoble.co.uk/2022-07-04-managing-kubernetes-without-losing-your-cool) you will find 10 tips for working with Kubernetes clusters all day long.
 - [==cloudtechtwitter.com: Introduction to Kubernetes== 🌟🌟🌟](https://www.cloudtechtwitter.com/2022/05/dont-miss-next-article-be-first-to-be.html)
 - [medium.com/@kajan26: The Myth of scalability in Kubernetes](https://medium.com/@kajan26/the-myth-of-scalability-in-kubernetes-e49953944b8e)
-- [medium.com/@raymon_dut: What’s the relationShip between Pod, Deployment, ReplicaSet, and Service in Kubernetes? 🌟](https://medium.com/@raymon_dut/whats-the-relationship-between-pod-deployment-replicaset-and-service-in-kubernetes-57bf3be22abb 🌟) In this article, you will work out the relationships between Pod, Deployment, ReplicaSet, and Service in Kubernetes by using kubectl and inspecting a live deployment.
+- [medium.com/@raymon_dut: What’s the relationShip between Pod, Deployment, ReplicaSet, and Service in Kubernetes? 🌟](https://medium.com/@raymon_dut/whats-the-relationship-between-pod-deployment-replicaset-and-service-in-kubernetes-57bf3be22abb 🌟) you will work out the relationships between Pod, Deployment, ReplicaSet, and Service in Kubernetes by using kubectl and inspecting a live deployment.
 - [cloudnatively.com: The State of Stateful apps on Kubernetes 🌟](https://www.cloudnatively.com/stateful-apps-on-kubernetes)
-- [==iximiuz.com: How Kubernetes Reinvented Virtual Machines (in a good sense)== 🌟🌟](https://iximiuz.com/en/posts/kubernetes-vs-virtual-machines) **Wonder why the history of Ops took us from imperative, state-full, pets centric prod on VMs, to declarative, ephemeral, and disposable Ops on Containers?**
+- [==iximiuz.com: How Kubernetes Reinvented Virtual Machines (in a good sense)== 🌟🌟](https://labs.iximiuz.com/tutorials/kubernetes-vs-virtual-machines) **Wonder why the history of Ops took us from imperative, state-full, pets centric prod on VMs, to declarative, ephemeral, and disposable Ops on Containers?**
     - How Virtual Machines are used to deploy services
     - How Containers try to improve shortcomings of VMs
     - What new problems Containers introduce
@@ -296,7 +296,7 @@
 - [freecodecamp.org: How to Deploy an Application to a Kubernetes Cluster](https://www.freecodecamp.org/news/deploy-docker-image-to-kubernetes)
 - [medium.com/@kylelzk: Kubernetes Theory - Understanding Kubernetes Components: A Deep Dive](https://medium.com/@kylelzk/kubernetes-theory-understanding-kubernetes-components-a-deep-dive-ac31b7463df2)
 - [medium.com/@bijit211987: Kubernetes Roadmap](https://medium.com/@bijit211987/kubernetes-roadmap-edd06067fa72) Kubernetes has quickly become the de facto standard for container orchestration and management. As more organizations adopt Kubernetes, there is a growing need for Kubernetes skills and expertise. This comprehensive roadmap will take you from Kubernetes fundamentals all the way to advanced management, security, and governance.
-- [serokell.io/blog/kubernetes-guide: A Guide to Kubernetes](https://serokell.io/blog/kubernetes-guide) Modern cloud native computing heavily relies on the use of containers and the adoption of Kubernetes. Despite being a relatively new technology, it is deployed by many global enterprises to manage business-critical applications in their production environments. The popularity of Kubernetes is driven by a growing range of features, such as enhanced security, better management of microservices, improved observability, and more efficient scaling and resource use. In this article, we take a look at the essence of technology, its architecture, and its real-world applications.
+- [serokell.io/blog/kubernetes-guide: A Guide to Kubernetes](https://serokell.io/blog/kubernetes-guide) Modern cloud native computing heavily relies on the use of containers and the adoption of Kubernetes. Despite being a relatively new technology, it is deployed by many global enterprises to manage business-critical applications in their production environments. The popularity of Kubernetes is driven by a growing range of features, such as enhanced security, better management of microservices, improved observability, and more efficient scaling and resource use. we take a look at the essence of technology, its architecture, and its real-world applications.
 
 ### Kubernetes Jobs Market
   - [OOMKilled in Kubernetes: Understanding and Preventing Hidden Memory Leaks](https://unixarena.com/2025/04/oomkilled-in-kubernetes-the-hidden-memory-leaks-youre-missing.html) - *(Related to kubernetes-troubleshooting topic)*
@@ -335,7 +335,7 @@
 ### Kubernetes Failure Stories
 
 - [k8s.af 🌟](https://k8s.af)
-- [thenewstack.io: Kubernetes Horror Stories](https://thenewstack.io/kubernetes/-horror-stories)
+- [thenewstack.io: Kubernetes Horror Stories](https://thenewstack.io/kubernetes-horror-stories)
 - [techbeacon.com: Why teams fail with Kubernetes—and what to do about it](https://techbeacon.com/enterprise-it/why-teams-fail-kubernetes-what-do-about-it)
 
 ### Kubernetes Maturity Model
@@ -390,7 +390,7 @@
 #### Kubernetes Podcasts
 
 - [kubernetespodcast.com](https://kubernetespodcast.com)
-- [==weave.works: Podcast: Kubernetes has won the enterprise==](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745)
+- [==weave.works: Podcast: Kubernetes has won the enterprise==](https://www.weave.works/)
 - [kubelist.com/podcast: The Kubelist Podcast](https://kubelist.com/podcast) Exploring the ever evolving ecosystem of Kubernetes, SIGS, and the CNCF through interviews with the developers and project managers responsible for sandbox, incubating and graduated projects and technologies. Hosted by Replicated CTO, Marc Campbell and Shipyard CEO, Benjie De Groot.
 
 #### Kubernetes Blogs
@@ -406,7 +406,7 @@
 - [itnext.io/tagged/kubernetes](https://itnext.io/tagged/kubernetes)
 - [thenewstack.io/category/kubernetes](https://thenewstack.io/kubernetes)
 - [k21academy.com/category/docker-kubernetes](https://k21academy.com)
-- [weave.works/blog/category/kubernetes](https://www.weave.works/blog/category/kubernetes)
+- [weave.works/blog/category/kubernetes](https://www.weave.works/)
 - [learnsteps.com/tag/basics-on-kubernetes](https://www.learnsteps.com/tag/basics-on-kubernetes)
 - [devopscube.com](https://devopscube.com)
 - [thecloudblog.net](https://thecloudblog.net)
@@ -467,14 +467,14 @@
 - [platform9.com: The Gorilla Guide to Kubernetes in the Enterprise](https://platform9.com/blog/kubernetes-service-mesh) Discover key capabilities for Kubernetes at scale.
     - A complete Enterprise Kubernetes infrastructure needs proper DNS, load balancing, Ingress, stateful services, K8’s role-based access control (RBAC), integration with LDAP and authentication systems, and more. Once Kubernetes is deployed, day-2 operational challenges and life-cycle management comes into play: monitoring, alerting, troubleshooting, upgrades, security patching, compliance checking and much more.
     - The Gorilla guide to Kubernetes in the Enterprise is your resource to ensure the success of your Enterprise Kubernetes projects by thinking through critical decisions around deployment options, day-2 operational considerations, use cases, and choosing your Kubernetes implementation solutions.
-- [magalix.com: Influencing Kubernetes Scheduler Decisions](https://www.magalix.com/blog/influencing-kubernetes-scheduler-decisions) To ensure maximum possible performance and availability given the infrastructure at hand, the scheduler uses complex algorithms to ensure the most efficient Pod placement. In this article, we discuss how the scheduler selects the best node to host the Pod and how we can influence its decision.
+- [magalix.com: Influencing Kubernetes Scheduler Decisions](https://www.magalix.com/blog/influencing-kubernetes-scheduler-decisions) To ensure maximum possible performance and availability given the infrastructure at hand, the scheduler uses complex algorithms to ensure the most efficient Pod placement. we discuss how the scheduler selects the best node to host the Pod and how we can influence its decision.
 - [medium: Making Sense of Taints and Tolerations in Kubernetes](https://medium.com/kubernetes-tutorials/making-sense-of-taints-and-tolerations-in-kubernetes-446e75010f4e)
 - [devopscube.com: 10 Key Considerations for Kubernetes Cluster Design & Setup 🌟](https://devopscube.com/key-considerations-kubernetes-cluster-design-setup)
 - [blog.pixielabs.ai: Building Kubernetes Native SaaS applications: iterating quickly by deploying in-cluster data planes](https://blog.pixielabs.ai/hybrid-architecture/hybrid-architecture)
 - [itnext.io: CKS Exam Series #9 RBAC v2](https://itnext.io/cks-exam-series-9-rbac-v2-23ee24dd77cd) Kubernetes CKS Example Exam Question Series
 - [infoq.com: Experts Discuss Top Kubernetes Trends and Production Challenges](https://www.infoq.com/articles/kubernetes-trends-and-challenges)
 - [blog.appstack.one: How to run Ghost blog inside Kubernetes](https://blog.appstack.one/how-to-run-ghost-blog-inside-kubernetes)
-- [learnk8s.io: Scaling Celery workers with RabbitMQ on Kubernetes](https://learnkube.com/scaling-celery-rabbitmq-kubernetes) In this article, you will explore how to use Kubernetes and KEDA to scale Celery workers based on the number of messages in a RabbitMQ queue.
+- [learnk8s.io: Scaling Celery workers with RabbitMQ on Kubernetes](https://learnkube.com/scaling-celery-rabbitmq-kubernetes) you will explore how to use Kubernetes and KEDA to scale Celery workers based on the number of messages in a RabbitMQ queue.
     1. Learn how to set up a metrics pipeline
     2. How you can drive autoscaling based on metrics from RabbitMQ.
     3. Why KEDA might be an alternative to prometheus+adapters
@@ -505,7 +505,7 @@
 - [thenewstack.io: Governance, Risk and Compliance with Kubernetes](https://thenewstack.io/governance-risk-and-compliance-with-kubernetes)
 - [zhimin-wen.medium.com: Custom Notifications with Alert Manager’s Webhook Receiver in Kubernetes](https://zhimin-wen.medium.com/custom-notifications-with-alert-managers-webhook-receiver-in-kubernetes-8e1152ba2c31)
 - [harness.io: Introducing Recommendations API: Find Potential Cost Savings Programmatically](https://www.harness.io/blog/recommendations-api)
-- [blog.harbur.io: Demystifying stateful apps on Kubernetes by deploying an etcd cluster](https://blog.harbur.io/demystifying-stateful-apps-on-kubernetes-by-deploying-an-etcd-cluster-b85bf8c16fea) In this tutorial you will learn how to deploy an etcd cluster in Kubernetes
+- [blog.harbur.io: Demystifying stateful apps on Kubernetes by deploying an etcd cluster](https://blog.harbur.io/demystifying-stateful-apps-on-kubernetes-by-deploying-an-etcd-cluster-b85bf8c16fea) how to deploy an etcd cluster in Kubernetes
 - [blog.kintone.io: Rebooting a LOT of Kubernetes nodes in a declarative way](https://blog.kintone.io/entry/2021/01/14/160935)
 - [infoworld.com: How Kubernetes works](https://www.infoworld.com/article/2265488/how-kubernetes-works.html) If you want to understand containers, microservices architecture, modern application development, and cloud native computing, you need to understand Kubernetes.
 - [infoq.com: Cloud Native and Kubernetes Observability: Expert Panel](https://www.infoq.com/articles/cloud-native-observability)
@@ -560,7 +560,7 @@
 - [fairwinds.com: K8s Clinic: How to Run Kubernetes Securely and Efficiently 🌟](https://www.fairwinds.com/blog/k8s-clinic-how-to-run-kubernetes-securely-and-efficiently)
     - With the adoption of containers, software packaging is increasingly shifting left, which means (depending on your organization) that developers are taking on responsibility for the containerization of applications. Developers may also be responsible for some parts of Kubernetes configuration. As that process shifts left, developers need support to make the right decisions for the organization in order to run Kubernetes securely and efficiently.
     - Many companies are adopting cloud native technologies to deliver speed to market. For businesses seeking to compete in today's marketplace, it’s important to ship new features and meet customer needs where they are — and increasingly those needs are being met through software.
-- [weave.works: Production Ready Checklists for Kubernetes 🌟](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745)
+- [weave.works: Production Ready Checklists for Kubernetes 🌟](https://go.weave.works/production-ready-kubernetes-checklist.html)
 - [containerjournal.com: The Rise of the KubeMaster 🌟](https://cloudnativenow.com/features/the-rise-of-the-kubemaster)
     - It wasn’t obvious while it was happening, probably because everyone was focused on dealing with a global pandemic, but your IT environment became more complex. Cloud technology continued to evolve, and while that was happening, cloud use grew. Hybrid cloud use, already growing before the pandemic, became much more established with a year-over-year annual growth rate of 17.8%, according to Quince Market Insights. And with more distinct technology advances from each of the major cloud service providers, multi-cloud use also became more established.
     - This more complex environment encouraged the use of containers, and Kubernetes became the preferred means of managing them. Unfortunately, the great irony of Kubernetes is that the technology created to make the management of modern cloud applications easier is, itself, incredibly difficult to manage. Just to deploy and manage a single application in your own data center requires working familiarity with a Kubernetes distribution and working integrations with a number of supporting systems and enterprise software including code registries, CI/CD, secrets management, storage management, networking, logging and monitoring, service mesh, backup and disaster recovery (DR). That’s just for one environment. In a hybrid infrastructure, perhaps using one of the leading cloud service providers such as AWS, Azure or GCP, you could double this overhead.
@@ -590,7 +590,7 @@
         - Mortal (Kubernetes Pods are mortal. They are born and when they die, they are not resurrected)
         - No persistence Storage
         - Client Cookies can be used to make service stateless
-- [cncf.io: Advanced Kubernetes pod to node scheduling](https://www.cncf.io/blog/2021/07/27/advanced-kubernetes-pod-to-node-scheduling) In this article, you'll review some of the use cases for advanced pod scheduling in Kubernetes as well as best practices for implementing it in real-world situations.
+- [cncf.io: Advanced Kubernetes pod to node scheduling](https://www.cncf.io/blog/2021/07/27/advanced-kubernetes-pod-to-node-scheduling) you'll review some of the use cases for advanced pod scheduling in Kubernetes as well as best practices for implementing it in real-world situations.
 - [medium: Create A Pod In Kubernetes Cluster](https://medium.com/codex/create-a-pod-in-kubernetes-cluster-b9e0c33bb904) Learn what is Pod and how to create a Pod in the Kubernetes cluster.
 - [cloudsavvyit.com: How to Scale Docker Containers Across Servers Using Kubernetes](https://www.cloudsavvyit.com/13039/how-to-scale-docker-containers-across-servers-using-kubernetes)
 - [Kubernetes. Label and Selector. Important Topic. Identify object in cluster. CKA Exam Tips](https://www.youtube.com/watch?app=desktop&v=Vh3piGAxcf8&ab_channel=AlokKumar)
@@ -617,7 +617,7 @@
 - [Assess managed Kubernetes services for your workloads.](https://www.techtarget.com/searchcloudcomputing/tip/Weigh-the-pros-and-cons-of-managed-Kubernetes-services) Managed services from cloud providers can simplify Kubernetes deployment but create some snags in a multi-cloud model. Follow three steps to see if these services can benefit you.
 - [itnext.io: Evolution of PaaSes to Platform-as-Code in Kubernetes world](https://itnext.io/evolution-of-paases-to-platform-as-code-in-kubernetes-world-74464b0013ca)
 - [medium: Wordpress High Availability on Kubernetes](https://medium.com/@icheko/wordpress-high-availability-on-kubernetes-f6c0bcc2f28d) Wordpress is configured to support two separate ingress paths — a private for edits and a public for read-only traffic. By “read-only”, mean that Wordpress is only able to execute SELECTs on the DB. The HA MySQL cluster is accomplished using oracle’s mysql-operator. This makes it extremely easy to handle the master-slave replication for the DB side of things.
-- [cloudfoundry.org: Deploy A Laravel Application To Kubernetes Using Cloud Foundry [ARCHIVED]]( http://web.archive.org/web/20230203230209/https://www.cloudfoundry.org/blog/deploy-laravel-app-to-k8s-with-cf) This tutorial uses the Google Kubernetes Engine (GKE). However, the steps followed in this guide can be applied to Kubernetes clusters running on any cloud provider, as long as Cloud Foundry (cf-for-k8s) has been installed on it. Also, the series of install steps outlined here can function for any “composer” based PHP application such as Drupal, Symfony, etc.
+- [cloudfoundry.org: Deploy A Laravel Application To Kubernetes Using Cloud Foundry [ARCHIVED]]( http://web.archive.org/web/20230203230209/https://www.cloudfoundry.org/blog/deploy-laravel-app-to-k8s-with-cf) This tutorial uses the Google Kubernetes Engine (GKE). However, the steps followedcan be applied to Kubernetes clusters running on any cloud provider, as long as Cloud Foundry (cf-for-k8s) has been installed on it. Also, the series of install steps outlined here can function for any “composer” based PHP application such as Drupal, Symfony, etc.
 - [thenewstack.io: The State of Kubernetes: Key Challenges and the Role of AI](https://thenewstack.io/the-state-of-kubernetes-key-challenges-and-the-role-of-ai)
 - [learnsteps.com: Basics on Kubernetes: What exactly is a ReplicaSet](https://www.learnsteps.com/basics-on-kubernetes-what-exactly-is-a-replicaset)
 - [ithands-on.com: Kubernetes 101 : Switching namespaces](https://www.ithands-on.com/2021/10/kubernetes-101-switching-namespaces.html)
@@ -631,12 +631,12 @@
 - [containerjournal.com: When is Kubernetes Service Ownership the Right Fit?](https://cloudnativenow.com/features/when-is-kubernetes-service-ownership-the-right-fit)
     - Why is Kubernetes service ownership emerging as the way for software delivery and operations teams to establish full “ownership” of the services they support? Because ownership covers the lifespan of software from development to deployment to the sunsetting process. And this shift to full-spectrum accountability brings about dramatic improvements in the overall speed, reliability, security and cost of applications.
     - Of course, it’s not always easy to determine which organizations need this level of ownership. When businesses grow, they typically discover that pushing the delivery of applications and services through a gate of operations is challenging at best, impossible at worst. Even so, the DevSecOps mindset is on the rise, which means teams are now seeking ways to make this type of shift into more meaningful and effective ownership. It is the shift that enables a deep fundamental change to occur within an organization.
-- [itnext.io: Kubernetes — Running Multiple Container Runtimes](https://itnext.io/kubernetes-running-multiple-container-runtimes-65220b4f9ef4) In this post, you'll learn how to run multiple OCI container runtimes on Kubernetes. You will see how to configure containerd to run both runC and Kata Containers
+- [itnext.io: Kubernetes — Running Multiple Container Runtimes](https://itnext.io/kubernetes-running-multiple-container-runtimes-65220b4f9ef4) you'll learn how to run multiple OCI container runtimes on Kubernetes. You will see how to configure containerd to run both runC and Kata Containers
 - [iximiuz.com: Why and How to Use containerd from the Command Line](https://labs.iximiuz.com/courses/containerd-cli/ctr/image-management)
 - [medium: Kubernetes for dummies: introduction. Part 1](https://medium.com/@mfsilv/kubernetes-a-gentle-introduction-9d23de7f00e0)
     - [medium: Kubernetes for dummies: the cluster. Part 2](https://medium.com/@mfsilv/kubernetes-for-dummies-the-cluster-7cf6a7b5532)
     - [itnext.io: Kubernetes for dummies: Life of a Pod. Part 3](https://itnext.io/kubernetes-for-dummies-life-of-a-pod-fc8158e27aa)
-- [==iximiuz.com: Containers vs. Pods - Taking a Deeper Look==](https://iximiuz.com/en/posts/containers-vs-pods) All pod's containers run on the cluster node, their lifecycle is synchronized, and mutual isolation is weakened to simplify the inter-container communication. A deep-dive into how containers work in a Pod.
+- [==iximiuz.com: Containers vs. Pods - Taking a Deeper Look==](https://labs.iximiuz.com/tutorials/containers-vs-pods) All pod's containers run on the cluster node, their lifecycle is synchronized, and mutual isolation is weakened to simplify the inter-container communication. A deep-dive into how containers work in a Pod.
 - [kubermatic.com: The Ultimate Checklist for Running Kubernetes in Production](https://www.kubermatic.com/resources/the-ultimate-checklist-for-running-kubernetes-in-production)
 - [==vadosware.io: So you need to wait for some Kubernetes resources?==](https://vadosware.io/post/so-you-need-to-wait-for-some-kubernetes-resources) **There are at least two ways to wait for Kubernetes resources you probably care about: kubectl wait for Pods, initContainers for everything else**
 - [vxav.fr: Interacting with containerd runtime for kubernetes](https://www.vxav.fr/2021-09-13-interacting-with-containerd-runtime-for-kubernetes)
@@ -674,7 +674,7 @@
     - [itnext.io: Kubernetes Draining Nodes Properly](https://itnext.io/kubernetes-draining-nodes-properly-79e18dca4d5e)
 - [medium.com/devops-mojo: Kubernetes — Open Standards (OCI, CRI, CNI, CSI, SMI, CPI) Overview](https://medium.com/devops-mojo/kubernetes-open-standards-oci-cri-cni-csi-smi-cpi-overview-what-is-k8s-open-standards-introduction-a860905af6f7)
 - [itnext.io: Introduction to Kubernetes extensibility](https://itnext.io/kubernetes-extensibility-c5fed27f0952)
-- [faun.pub: Deep into Container — How Kubernetes works with Container Runtime](https://faun.pub/kubernetes-story-how-kubernetes-works-with-container-runtime-ce618a306f64) In this article, you'll learn how Kubernetes uses the Container Runtime to create containers. You will also discuss different types of container runtimes.
+- [faun.pub: Deep into Container — How Kubernetes works with Container Runtime](https://faun.pub/kubernetes-story-how-kubernetes-works-with-container-runtime-ce618a306f64) you'll learn how Kubernetes uses the Container Runtime to create containers. You will also discuss different types of container runtimes.
 - [blog.axiomio.com: Seven Kubernetes Trends to Watch in Upcoming Years](https://blog.axiomio.com/seven-kubernetes-trends-to-watch-in-upcoming-years-e7d48e86c614)
     - Using deployments
     - RollingUpdate update strategy
@@ -683,7 +683,7 @@
 - [medium.com/@Paddy_Adallah: How to Choose Kubernetes Platforms for Enterprise Deployments](https://medium.com/@Paddy_Adallah/how-to-choose-kubernetes-platforms-for-enterprise-deployments-c04d5e436543)
 - [sunnykkc13.medium.com: Deep Dive into Kubernetes](https://sunnykkc13.medium.com/deep-dive-into-kubernetes-238258c9a536)
 - [medium.com/@issy972: Balancing reliability, cost and performance with Kubernetes](https://medium.com/@issy972/balancing-reliability-cost-and-performance-with-kubernetes-45aae8489a3c)
-- [imoisharma.medium.com: How Leader election works in Kubernetes— By M. Sharma](https://imoisharma.medium.com/how-leader-election-works-in-kubernetes-by-m-sharma-635d213b3fd1) In this post, you'll learn how you can use Kubernetes to easily perform leader elections in your distributed application
+- [imoisharma.medium.com: How Leader election works in Kubernetes— By M. Sharma](https://imoisharma.medium.com/how-leader-election-works-in-kubernetes-by-m-sharma-635d213b3fd1) you'll learn how you can use Kubernetes to easily perform leader elections in your distributed application
 - [howtogeek.com: How to Clean Up Old Containers and Images in Your Kubernetes Cluster](https://www.howtogeek.com/devops/how-to-clean-up-old-containers-and-images-in-your-kubernetes-cluster) An active Kubernetes cluster can accumulate old containers and images. Ensuring discarded resources are removed when redundant helps to free up resources on your cluster’s nodes. Here’s how to approach garbage collection in Kubernetes
 - [medium.com/blablacar: Operating Node.js in Kubernetes at scale at BlaBlaCar](https://medium.com/blablacar/operating-node-js-in-kubernetes-at-scale-at-blablacar-3afb6d5d4299) In this case study, you will learn how BlaBlaCar uses CPU and memory metrics and other Kubernetes features to configure scaling for Node.js apps
 - [infoworld.com: How to beat the Kubernetes skills shortage](https://www.infoworld.com/article/2337368/how-to-beat-the-kubernetes-skills-shortage.html) While Kubernetes container management is key to digital transformation, Kubernetes talent is in short supply. Follow these 4 strategies of successful companies to fill the gap.
@@ -691,12 +691,12 @@
 - [==faun.pub: Git Clone using Init-container | Kubernetes==](https://faun.pub/git-clone-using-init-container-kubernetes-b49535be6968)
 - [itnext.io: K8s Tips: Accessing the API Server From a Pod](https://itnext.io/k8s-tips-accessing-the-api-server-from-a-pod-f6f72bc847de) Don’t let this happen unless it is really necessary
 - [medium.com/@tamerberatcelik: When and why to use Kubernetes?](https://medium.com/@tamerberatcelik/when-and-why-to-use-kubernetes-fface756859f)
-- [kymidd.medium.com: Let’s Do DevOps: EKS K8s & Python Fuzzy Staging with AWS Secrets Manager, K8s Init disk, Secrets Injection](https://kymidd.medium.com/lets-do-devops-eks-k8s-python-fuzzy-staging-with-aws-secrets-manager-k8s-init-disk-secrets-b0d8022f3a5d) In this tutorial, you'll learn how to create a python program that uses IAM for Service Account to search for secrets in Secrets Manager and store them in a volume. The script can be used as an init container to inject secrets into any pod.
+- [kymidd.medium.com: Let’s Do DevOps: EKS K8s & Python Fuzzy Staging with AWS Secrets Manager, K8s Init disk, Secrets Injection](https://kymidd.medium.com/lets-do-devops-eks-k8s-python-fuzzy-staging-with-aws-secrets-manager-k8s-init-disk-secrets-b0d8022f3a5d) you'll learn how to create a python program that uses IAM for Service Account to search for secrets in Secrets Manager and store them in a volume. The script can be used as an init container to inject secrets into any pod.
 - [medium.com/@AceTheCloud-Abhishek: 50 Shades of Containers and Kubernetes](https://medium.com/@AceTheCloud-Abhishek/50-shades-of-containers-and-kubernetes-d2217fbea788)
-- [dev.to: How to make exclusive locks in Kubernetes](https://dev.to/madmaxx/how-to-make-exclusive-locks-in-kubernetes-23if) In this tutorial, you will learn how to protect an application deployed in Kubernetes from any modifications — except if those modifications are coming from a predefined actor - https://github.com/robert-nemet/klock
+- [dev.to: How to make exclusive locks in Kubernetes](https://dev.to/madmaxx/how-to-make-exclusive-locks-in-kubernetes-23if) how to protect an application deployed in Kubernetes from any modifications — except if those modifications are coming from a predefined actor - https://github.com/robert-nemet/klock
 - [faun.pub: Optimize Kubernetes Resource Management with Time-To-Live (TTL) for Cleaner Cluster](https://faun.pub/optimize-kubernetes-resource-management-with-time-to-live-ttl-for-cleaner-cluster-ea1c6e0c1e73) Streamline Kubernetes Resource Management: Learn How to Use Time-To-Live (TTL) to Keep Your Cluster Clean and Optimized.
 - [github.com/genuinetools: contained.af](https://github.com/genuinetools/contained.af) A stupid game for learning about containers, capabilities, and syscalls.
-- [abhii85.hashnode.dev: How to get started with K8s contributions](https://abhii85.hashnode.dev/how-to-get-started-with-k8s-contributions) In this article, you'll explore how to contribute to the Kubernetes project, discuss the skills you need to get started and learn the best ways to get your first Pull Request accepted
+- [abhii85.hashnode.dev: How to get started with K8s contributions](https://abhii85.hashnode.dev/how-to-get-started-with-k8s-contributions) you'll explore how to contribute to the Kubernetes project, discuss the skills you need to get started and learn the best ways to get your first Pull Request accepted
 - [itnext.io: Kubernetes Sandbox Environments with Virtual Clusters](https://itnext.io/kubernetes-sandbox-environments-with-virtual-clusters-fb465b296777) Achieving strong isolation without sacrificing resource utilization with Virtual Clusters.
 - [medium.com/@alexmogfr: ZEvent Place: How we handled 100k+ CCU on a real-time collective canvas](https://medium.com/@alexmogfr/zevent-place-how-we-handled-100k-ccu-on-a-real-time-collective-canvas-71d3d346e0ab) In this case study, you will learn how Alexandre & William designed and scaled a Kubernetes cluster to 250k concurrent users for a charity event
 - [blog.devgenius.io: DevOps in K8s — Pod Cgroups](https://blog.devgenius.io/devops-in-k8s-pod-cgroups-ed05181865f9) DevOps in K8s bootcamp series
@@ -740,7 +740,7 @@
 - [loft.sh: Docker Compose to Kubernetes: Step-by-Step Migration 🌟](https://www.vcluster.com/blog/docker-compose-to-kubernetes-step-by-step-migration)
 - [linuxtechi.com: How to Setup Private Docker Registry in Kubernetes (k8s)](https://www.linuxtechi.com/setup-private-docker-registry-kubernetes)
 - [itnexst.io: Docker and Kubernetes — root vs. privileged](https://itnext.io/docker-and-kubernetes-root-vs-privileged-9d2a37453dec)
-- [containerjournal.com: Best of 2020: How Docker and Kubernetes Work Together](https://cloudnativenow.com/topics/cloudnativedevelopment/how-docker-and-kubernetes-work-together)
+- [containerjournal.com: Best of 2020: How Docker and Kubernetes Work Together](https://cloudnativenow.com/topics/container-ecosystems/how-docker-and-kubernetes-work-together)
 - [blog.sighup.io: How to run Kubernetes without Docker](https://blog.sighup.io/how-to-run-kubernetes-without-docker) Sooner or later this moment had to come, and it finally has: Kubernetes is deprecating Docker as a Container Runtime Interface in favor of the other supported runtimes. Let's try to explain why Docker seems really replaceable.
 - [betterprogramming.pub: How to Migrate From Docker Compose to Kubernetes](https://betterprogramming.pub/how-to-migrate-from-docker-compose-to-kubernetes-b57eb229beb2) Move your services from docker-compose files to Kubernetes resources and deploy them
 
@@ -832,12 +832,12 @@
 - [mouliveera.medium.com: How to update configmap on POD without restart](https://mouliveera.medium.com/how-to-update-configmap-on-pod-without-restart-be3c0b4433af)
 - [devopscube.com: Kubernetes Pod Priority, PriorityClass, and Preemption Explained 🌟](https://devopscube.com/pod-priorityclass-preemption)
 - [medium.com/@meng.yan: What Happens When Deleting a Pod](https://medium.com/@meng.yan/what-happens-when-deleting-a-pod-d1219c7e1b53)
-- [==itnext.io: Kubernetes Graceful Shutdown | Daniele Polencic== 🌟](https://itnext.io/how-do-you-gracefully-shut-down-pods-in-kubernetes-fb19f617cd67) - [community.ops.io: How do you gracefully shut down Pods in Kubernetes?](https://community.ops.io/danielepolencic/how-do-you-gracefully-shut-down-pods-in-kubernetes-30fa) Get tips on smoothly decommissioning your k8s pods. In this article, you will learn what happens when a pod is deleted (voluntarily or not) in the cluster and how Kubernetes handles graceful shutdown.
+- [==itnext.io: Kubernetes Graceful Shutdown | Daniele Polencic== 🌟](https://itnext.io/how-do-you-gracefully-shut-down-pods-in-kubernetes-fb19f617cd67) - [community.ops.io: How do you gracefully shut down Pods in Kubernetes?](https://community.ops.io/danielepolencic/how-do-you-gracefully-shut-down-pods-in-kubernetes-30fa) Get tips on smoothly decommissioning your k8s pods. what happens when a pod is deleted (voluntarily or not) in the cluster and how Kubernetes handles graceful shutdown.
 - [nunoadrego.com: Abusing Pod Priority](https://nunoadrego.com/posts/abusing-pod-priority) Pod Priority can be useful for some use cases, such as prioritizing critical applications, but definitely can catch you off guard if you don't have the right guardrails in place. This post illustrates the potential consequences of not having them.
 - [blog.devgenius.io: DevOps in K8s — Pod Downward API](https://blog.devgenius.io/devops-in-k8s-pod-downward-api-571399049013) The K8s Downward API is a feature that allows containers running in a pod to access metadata about themselves and the pod they are running in. This metadata can be exposed as environment variables or as files within the container’s file system.
 - [==itnext.io: POD rebalancing and allocations in kubernetes | Daniele Polencic== 🌟🌟](https://itnext.io/pod-rebalancing-and-allocations-in-kubernetes-df3dbfb1e2f9) **Does Kubernetes rebalance your Pods? If there's a node that has more space, does Kubernetes recompute and balance the workloads?**
 - [==kubernetes.io: Protect Your Mission-Critical Pods From Eviction With PriorityClass==](https://kubernetes.io/blog/2023/01/12/protect-mission-critical-pods-priorityclass) Pod priority and preemption help to make sure that mission-critical pods are up in the event of a resource crunch by deciding order of scheduling and eviction.
-- [neonmirrors.net: Reducing Pod Volume Update Times](https://neonmirrors.net/post/2022-12/reducing-pod-volume-update-times) Changes to a Secret of ConfigMap mounted into a pod can take 60 to 90 seconds to propagate to the container. In this article, you'll discuss how you could speed up the process with a Kyverno policy.
+- [neonmirrors.net: Reducing Pod Volume Update Times](https://neonmirrors.net/post/2022-12/reducing-pod-volume-update-times) Changes to a Secret of ConfigMap mounted into a pod can take 60 to 90 seconds to propagate to the container. you'll discuss how you could speed up the process with a Kyverno policy.
 - [==itnext.io: Kubernetes Scheduler Deep Dive== | Daniele Polencic](https://itnext.io/kubernetes-scheduler-deep-dive-fdfcb516be30)
 - [kubernetes.io: configure-pod-container / Use a User Namespace With a Pod](https://kubernetes.io/docs/tasks/configure-pod-container/user-namespaces)
 - **InPlacePodVerticalScaling (kubernetes v1.27):** [==engineering.doit.com: No Restarts, No Disruptions: Seamless Pod Resource updates with In-Place Resizing](https://engineering.doit.com/no-restarts-no-disruptions-seamless-pod-resource-updates-with-in-place-resizing-f3cf41654216) Kubernetes v1.27 introduces InPlacePodVerticalScaling, allowing seamless pod resource resizing without restarts. This feature enhances efficiency, reduces downtime, and offers cost savings
@@ -864,8 +864,8 @@
 #### Kubernetes Secrets
 
 - [linuxadvise.com: Kubernetes Secrets](https://www.linuxadvise.com/post/kubernetes-secrets)
-- https://blog.newrelic.com/engineering/how-to-use-kubernetes-secrets
-- [==mixi-developers.mixi.co.jp: Comparing External Secrets Operator with Secret Storage CSI as Kubernetes External Secrets is Deprecated==](https://mixi-developers.mixi.co.jp/compare-eso-with-secret-csi-402bf37f20bc) In this article, you will compare the External Secrets Operator with Secret Storage CSI for using external secrets in a Kubernetes cluster. You will compare:
+- https://blog.newrelic.com/engineering/how-to-use-kubernetes-secrets/
+- [==mixi-developers.mixi.co.jp: Comparing External Secrets Operator with Secret Storage CSI as Kubernetes External Secrets is Deprecated==](https://mixi-developers.mixi.co.jp/compare-eso-with-secret-csi-402bf37f20bc) you will compare the External Secrets Operator with Secret Storage CSI for using external secrets in a Kubernetes cluster. You will compare:
     - Architecture
     - Authorization management
     - Resource usage
@@ -884,7 +884,7 @@
 #### Kubernetes Namespaces and Multi Tenancy. Self Service Namespaces
 
 - [Self-Service Kubernetes Namespaces Are A Game-Changer 🌟](https://www.vcluster.com/blog/self-service-kubernetes-namespaces-are-a-game-changer)
-- [qvault.io: How to Restart All Pods in a Kubernetes Namespace](https://www.boot.dev/blog/devops/how-to-restart-all-pods-in-a-kubernetes-namespace)
+- [qvault.io: How to Restart All Pods in a Kubernetes Namespace](https://www.boot.dev)
 - [medium: How to create Namespaces in Kubernetes? 🌟](https://medium.com/faun/namespaces-in-kubernetes-4bac49414770)
 - [starwindsoftware.com: Remove a Kubernetes namespace blocked with Terminating status](https://www.starwindsoftware.com/blog/remove-a-kubernetes-namespace-blocked-with-terminating-status)
 - [opensource.com: Configure multi-tenancy with Kubernetes namespaces 🌟](https://opensource.com/article/21/2/kubernetes-namespaces) Namespaces provide basic building blocks of access control for applications, users, or groups of users.
@@ -897,7 +897,7 @@
 - [kubesphere.io: Kubernetes Multi-tenancy in KubeSphere [ARCHIVED]]( http://web.archive.org/web/20220120133734/https://kubesphere.io/docs/access-control-and-account-management/multi-tenancy-in-kubesphere)
 - [kubernetes.io: Three Tenancy Models For Kubernetes](https://kubernetes.io/blog/2021/04/15/three-tenancy-models-for-kubernetes) What are your tenancy options with Kubernetes? This post calls out three: by namespace, by cluster, by control plane.
 - [thenewstack.io: Avoiding the Pitfalls of Multitenancy in Kubernetes](https://thenewstack.io/avoiding-the-pitfalls-of-multitenancy-in-kubernetes)
-- [blog.sighup.io: Hierarchical Namespace Controller (HNC): a look into the future of Kubernetes Multitenancy](https://blog.sighup.io/an-introduction-to-hierarchical-namespace-controller-hnc) Hierarchical Namespace Controller (HNC) is bringing a better multi-tenancy model to Kubernetes. In this article we are exploring the current state of the project and useful use-cases.
+- [blog.sighup.io: Hierarchical Namespace Controller (HNC): a look into the future of Kubernetes Multitenancy](https://blog.sighup.io/an-introduction-to-hierarchical-namespace-controller-hnc) Hierarchical Namespace Controller (HNC) is bringing a better multi-tenancy model to Kubernetes.we are exploring the current state of the project and useful use-cases.
 - [vamsitalkstech.com: Introduction to Kubernetes Multi-tenancy..(1/2)](https://www.vamsitalkstech.com/architecture/a-deepdive-into-kubernetes-multitenancy-1-2)
 - [asonisg.medium.com: Multi-tenancy with Kubernetes (Part-1)](https://asonisg.medium.com/multi-tenancy-with-kubernetes-part-1-8ac4e5083e31)
 - [openshift.com: The Hidden Dangers of Terminating Namespaces 🌟](https://www.redhat.com/en/blog/the-hidden-dangers-of-terminating-namespaces)
@@ -910,7 +910,7 @@
 - [==kubernetes.io: Multi-tenancy== 🌟🌟🌟](https://kubernetes.io/docs/concepts/security/multi-tenancy)
 - [thinksys.com: Understanding Multi-Tenancy in Kubernetes 🌟](https://thinksys.com/devops/kubernetes-multi-tenancy)
 - [doordash.engineering: Fast Feedback Loop for Kubernetes Product Development in a Production Environment](https://doordash.engineering/2022/06/23/fast-feedback-loop-for-kubernetes-product-development-in-a-production-environment)
-- [towardsaws.com: Kubernetes Multi-Tenancy Approach](https://towardsaws.com/kubernetes-multi-tenancy-approach-b0f58d615971) Using Minikube For Demonstration. In this article, you'll compare 2 approaches to multi-tenancy:
+- [towardsaws.com: Kubernetes Multi-Tenancy Approach](https://towardsaws.com/kubernetes-multi-tenancy-approach-b0f58d615971) Using Minikube For Demonstration. you'll compare 2 approaches to multi-tenancy:
     - Using RBAC and namespaces
     - Using the Capsule operator
 - [loft.sh: 10 Essentials For Kubernetes Multi-Tenancy](https://website.vcluster.com/blog/kubernetes-multi-tenancy-10-essential-considerations)
@@ -925,7 +925,7 @@
     - Secrets Encryption at Rest
     - Policy Engines
 - [medium.com/@het.trivedi05: Designing Multi-Tenant Applications on Kubernetes](https://medium.com/@het.trivedi05/designing-multi-tenant-applications-on-kubernetes-f0470f8e641c)
-- [blog.joshgav.com: Clusters for all! - 16 May 2022 on Multitenancy, Clusters](https://blog.joshgav.com/posts/cluster-level-multitenancy) In this article you will compare different tools for multitenancy in Kubernetes:
+- [blog.joshgav.com: Clusters for all! - 16 May 2022 on Multitenancy, Clusters](https://blog.joshgav.com/posts/cluster-level-multitenancy)you will compare different tools for multitenancy in Kubernetes:
     - vcluster
     - Cluster API Provider Nested (CAPN)
     - HyperShift
@@ -950,7 +950,7 @@
 #### Kubernetes Labels and Selectors
   - [Centralized Add-on Management Across N Kubernetes Clusters](https://dev.to/gianlucam76/centralized-add-on-management-across-n-kubernetes-clusters-308k) - This article discusses a centralized management approach using selectors to streamline add-on deployments and simplify Kubernetes multi-cluster management, addressing the complexity of managing distributed clusters across various environments.
 
-- [sandeepbaldawa.medium.com: K8s Labels & Selectors](https://sandeepbaldawa.medium.com/k8s-labels-selectors-9ad2fcf78a4e) In this post, we will look at What Kubernetes(K8s) Labels and Selectors are, Why do we need them, How to use them.
+- [sandeepbaldawa.medium.com: K8s Labels & Selectors](https://sandeepbaldawa.medium.com/k8s-labels-selectors-9ad2fcf78a4e) What Kubernetes(K8s) Labels and Selectors are, Why do we need them, How to use them.
 - [blog.kubecost.com: The Guide to Kubernetes Labels](https://blog.kubecost.com/blog/kubernetes-labels)
 - [millionvisit.blogspot.com: Kubernetes for Developers #8: Kubernetes Object Name, Labels, Selectors and Namespace](http://millionvisit.blogspot.com/2021/02/kubernetes-for-developers-8-Object%20Name-Labels-Selectors-Namespace.html)
 - [millionvisit.blogspot.com: Kubernetes for Developers #11: Pod Organization using Labels](http://millionvisit.blogspot.com/2021/03/kubernetes-for-developers-11-pod-organization-using-labels.html)
@@ -982,26 +982,26 @@
 - [medium: Kubernetes Deployment: Connect Your Front End to Your Back End With Nginx](https://medium.com/better-programming/kubernetes-deployment-connect-your-front-end-to-your-back-end-with-nginx-7e4e7cfef177)
 - [mirantis.com: Introduction to YAML: Creating a Kubernetes deployment](https://www.mirantis.com/blog/introduction-to-yaml-creating-a-kubernetes-deployment)
 - [medium: Kubernetes Deployment Explained](https://medium.com/geekculture/kubernetes-deployment-explained-9b2b89dd3977) Learn what is Deployment in the Kubernetes cluster and learn the advantages of the Deployment object.
-- [==learnk8s.io: Graceful shutdown and zero downtime deployments in Kubernetes==](https://learnkube.com/graceful-shutdown) In this article, you will learn how to prevent broken connections when a Pod starts up or shuts down. You will also learn how to shut down long-running tasks gracefully.
+- [==learnk8s.io: Graceful shutdown and zero downtime deployments in Kubernetes==](https://learnkube.com/graceful-shutdown) how to prevent broken connections when a Pod starts up or shuts down. You will also learn how to shut down long-running tasks gracefully.
 - [thoughtbot.com: Zero Downtime Rails Deployments with Kubernetes](https://thoughtbot.com/blog/zero-downtime-rails-deployments-with-kubernetes)
 - [medium: Deployment types in Kubernetes](https://medium.com/avmconsulting-blog/deployment-types-in-kubernetes-14b70ca7ef93)
 - [hackernoon.com: How To Deploy Code Faster Using Kubernetes](https://hackernoon.com/how-to-deploy-code-faster-using-kubernetes-jh1y3ul0)
 - [fosstechnix.com: Rolling out and Rolling back updates with Zero Downtime on Kubernetes Cluster](https://www.fosstechnix.com/rolling-out-and-rolling-back-updates-with-zero-downtime-on-kubernetes-cluster)
 - [medium: 5 Things We Overlooked When Deploying Our First App on Kubernetes](https://medium.com/gumgum-tech/5-things-we-overlooked-when-putting-our-first-app-on-kubernetes-58583c1783e4)
-- [Our Journey to Zero Downtime Rolling Updates with Ambassador](https://eng.lifion.com/journey-to-zero-downtime-rolling-updates-with-ambassador-badda6a7d450) In this article you will cover: How Kubernetes lifecycle hooks can be used to shutdown applications gracefully. How pods are removed from the system and why it is necessary to understand and carefully handle the shutdown sequence appropriately.
+- [Our Journey to Zero Downtime Rolling Updates with Ambassador](https://eng.lifion.com/journey-to-zero-downtime-rolling-updates-with-ambassador-badda6a7d450)you will cover: How Kubernetes lifecycle hooks can be used to shutdown applications gracefully. How pods are removed from the system and why it is necessary to understand and carefully handle the shutdown sequence appropriately.
 - [medium: Kubernetes Tip: How Statefulsets Behave Differently Than Deployments When Node Fails?](https://medium.com/tailwinds-navigator/kubernetes-tip-how-statefulsets-behave-differently-than-deployments-when-node-fails-d29e36bca7d5) What happens to the Pods when a node fails in Kubernetes?
 - [learnsteps.com: Basics on Kubernetes: What exactly is a deployment?](https://www.learnsteps.com/basics-on-kubernetes-what-exactly-is-a-deployment)
 - [polarsquad.com: Check your Kubernetes deployments!](https://polarsquad.com/blog/check-your-kubernetes-deployments)
 - [yankeexe.medium.com: How Rolling and Rollback Deployments work in Kubernetes](https://yankeexe.medium.com/how-rolling-and-rollback-deployments-work-in-kubernetes-8db4c4dce599)
 - [medium.com/okteto: Beginner’s Guide to Kubernetes Deployments](https://medium.com/okteto/beginners-guide-to-kubernetes-deployments-50f066d95d2b)
 - [blog.devgenius.io: Zero downtime deployment with Kubernetes using Rolling update Strategy](https://blog.devgenius.io/zero-downtime-deployment-with-kubernetes-using-rolling-update-strategy-bff45de8c3c3)
-- [dinushad92.medium.com: Building a resilient deployment on Kubernetes-part 3: Keep the deployment up to date with the latest releases](https://dinushad92.medium.com/building-a-resilient-deployment-on-kubernetes-part-3-keep-the-deployment-up-to-date-with-the-7296f18f275a) In this article, you'll learn the two strategies to update a Kubernetes deployment and their benefits:
+- [dinushad92.medium.com: Building a resilient deployment on Kubernetes-part 3: Keep the deployment up to date with the latest releases](https://dinushad92.medium.com/building-a-resilient-deployment-on-kubernetes-part-3-keep-the-deployment-up-to-date-with-the-7296f18f275a) you'll learn the two strategies to update a Kubernetes deployment and their benefits:
     - Rolling update
     - Recreate
 - [medium.com/@chamakenjefi: Kubernetes deployments using a ConfigMap with a custom index.html page](https://medium.com/@chamakenjefi/kubernetes-deployments-using-a-configmap-with-a-custom-index-html-page-5b4de0a7aa1b)
 - [medium.com/@vrnvav97: Canary Deployment in Kubernetes](https://medium.com/@vrnvav97/canary-deployment-in-kubernetes-a18c81cb9b) Canary deployment is pattern used to rollout changes to apps in controlled & safe manner. It involves releasing new version of app to a subset of users/nodes, allowing new version to be tested in prod-like environment.
 - [medium.com/@the.nick.miller: Custom Deployments with Kubernetes](https://medium.com/@the.nick.miller/multi-container-deployments-with-kubernetes-33c824d8d9a4)
-- [==amolmote.hashnode.dev: ReplicaSet & Deployment In Kubernetes== 🌟](https://amolmote.hashnode.dev/replicaset-deployment-in-kubernetes#heading-what-is-deployment) In this article, you'll learn the basic concepts of the ReplicaSet and Deployment, how they are different and when you should use one or the other
+- [==amolmote.hashnode.dev: ReplicaSet & Deployment In Kubernetes== 🌟](https://amolmote.hashnode.dev/replicaset-deployment-in-kubernetes#heading-what-is-deployment) you'll learn the basic concepts of the ReplicaSet and Deployment, how they are different and when you should use one or the other
 - [teplyheng.medium.com: Understand the difference between Deployments and ReplicaSet 🌟](https://teplyheng.medium.com/understand-the-difference-between-deployments-and-replicaset-7e1cfd4d8639)
 - [teplyheng.medium.com: In-depth understanding of Deployments in Kubernetes](https://teplyheng.medium.com/in-depth-understanding-of-deployments-in-kubernetes-af2c93ca4a24) When running apps on Kubernetes, most of you must have used Deployments to manage ReplicaSet and Pods. However, it’s hard to say that we’ve used Deployments effectively.
 - [routerhan.medium.com: Understanding Kubernetes Deployment — A Beginner’s Guide](https://routerhan.medium.com/understanding-kubernetes-deployment-a-beginners-guide-6723c19dbd57) In K8s, a Deployment is a resource object that defines the desired state of an app or workload. It provides a way to declaratively manage the deployment & scaling of containerized apps.
@@ -1025,7 +1025,7 @@
 #### Kubernetes DaemonSets
 
 - [Getting a shell on each node](https://gist.github.com/xandout/8d24558c75c53f3cb8bf0a97ec25fcfc) Learn how you can use a **DaemonSet to expose an SSH shell on each node** of your cluster (even if you don't have SSH installed)
-- [thenewstack.io: Kubernetes DaemonSets: A Detailed Introductory Tutorial](https://thenewstack.io/kubernetes/-daemonsets-a-detailed-introductory-tutorial)
+- [thenewstack.io: Kubernetes DaemonSets: A Detailed Introductory Tutorial](https://thenewstack.io/kubernetes-daemonsets-a-detailed-introductory-tutorial)
 - [blog.learncodeonline.in: Kubernetes Scheduling - DaemonSet](https://blog.learncodeonline.in/kubernetes-scheduling-daemonset) What is Kubernetes Daemon Set! How it is different from ReplicaSet!
 
 #### Kubernetes Jobs and Cron Jobs
@@ -1050,7 +1050,7 @@
 #### Kubernetes Services
 
 - [blog.alexellis.io: A Primer: Accessing services in Kubernetes](https://blog.alexellis.io/primer-accessing-kubernetes-services) Learn how to access your applications on Kubernetes and the differences between a LoadBalancer, NodePort, port-forwarding and Ingress through examples
-- [faun.pub: Kubernetes — Active/Passive Load Balancing with Services](https://faun.pub/active-passive-load-balancing-with-kubernetes-services-742cae1938af) There can be a number of reasons one might want to do active/passive load balancing, for example licensing constraints, etc. In this article, you will learn how to do so in Kubernetes using labels and services
+- [faun.pub: Kubernetes — Active/Passive Load Balancing with Services](https://faun.pub/active-passive-load-balancing-with-kubernetes-services-742cae1938af) There can be a number of reasons one might want to do active/passive load balancing, for example licensing constraints, etc. how to do so in Kubernetes using labels and services
 - [harness.io: Kubernetes Services Explained 🌟](https://www.harness.io/blog/kubernetes-services-explained) This tutorial will explain the difference between four Kubernetes service types, and how you should choose the best one for your application.
 - [devineer.medium.com: Kubernetes Services Explained](https://devineer.medium.com/kubernetes-services-explained-22b4dd11de02)
     - How Kubernetes solves Service Discovery
@@ -1060,7 +1060,7 @@
 - [whyk8s.substack.com: Why Services?](https://whyk8s.substack.com/p/why-services) Could Kubernetes have been built with only Pods and Deployments? What do load balancers and DNS have to do with it?
 - [medium.com/@ankitrai_13207: Kubernetes: Deployment & Service](https://medium.com/@ankitrai_13207/kubernetes-deployment-service-6f32b7e63f16)
 - [betterprogramming.pub: An Overview to Kubernetes Services](https://betterprogramming.pub/kubernetes-service-types-3c4a3088a5c) Know the different types of Kubernetes Services and Ingress controllers
-- [nitishblog.hashnode.dev: Kubernetes Services - Your way to connect with your application](https://nitishblog.hashnode.dev/kubernetes-services-your-way-to-connect-with-your-application) In this post, you'll take a closer look at what are Kubernetes services and how they help you to connect with your application running on various Pods. The article includes a complete hands-on demo for a better understanding of Kubernetes Services
+- [nitishblog.hashnode.dev: Kubernetes Services - Your way to connect with your application](https://nitishblog.hashnode.dev/kubernetes-services-your-way-to-connect-with-your-application) you'll take a closer look at what are Kubernetes services and how they help you to connect with your application running on various Pods. The article includes a complete hands-on demo for a better understanding of Kubernetes Services
 - [sumanprasad.hashnode.dev: Everything About Kubernetes Services - Discovery, Load Balancing, Networking](https://sumanprasad.hashnode.dev/everything-about-kubernetes-services-discovery-load-balancing-networking)
 - [==dev.to/vromanov: Kubernetes Services== 🌟](https://dev.to/vromanov/kubernetes-services-1bj) This article provides an in-depth overview of Kubernetes Services: ClusterIP, LoadBalancer, Headless, and NodePort services. It explains how those facilitate IP assignment, load balancing, and direct communication with specific pods within a cluster.
 - [blog.devops.dev: Kubernetes Services: Explained with Examples](https://blog.devops.dev/kubernetes-services-explained-with-examples-3d1897a875b7)
@@ -1070,7 +1070,7 @@
 - [youtube: deployment strategies in kubernetes | recreate | rolling update | blue/green | canary](https://www.youtube.com/watch?v=efiMiaFjtn8&feature=youtu.be)
 - [auth0.com: Deployment Strategies In Kubernetes](https://auth0.com/blog/deployment-strategies-in-kubernetes) Learn what are the different deployment strategies available in Kubernetes and how to use them.
 - [educative.io: A deep dive into Kubernetes Deployment strategies](https://www.educative.io/blog/kubernetes-deployments-strategies)
-- [weave.works: Kubernetes Deployment Strategies 🌟](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745)
+- [weave.works: Kubernetes Deployment Strategies 🌟](https://www.weave.works/blog/kubernetes-deployment-strategies)
 - [medium.com: Kubernetes Canary Deployment #1 Gitlab CI](https://medium.com/@wuestkamp/kubernetes-canary-deployment-1-gitlab-ci-518f9fdaa7ed)
 - [semaphoreci.com: Continuous Blue-Green Deployments With Kubernetes](https://semaphore.io/blog/continuous-blue-green-deployments-with-kubernetes)
 - [medium: Fully automated canary deployments in Kubernetes](https://medium.com/containers-101/fully-automated-canary-deployments-in-kubernetes-70a671105273)
@@ -1082,7 +1082,7 @@
 - [blog.devgenius.io: Kubernetes Blue-Green Deployment](https://blog.devgenius.io/kubernetes-blue-green-deployment-a69ed17cd4cd)
 - [prakashkumar0301.medium.com: Blue-Green Deployment with Kubernetes](https://prakashkumar0301.medium.com/blue-green-deployment-with-kubernetes-a37a534a2ef4)
 - [emirayhan.medium.com: Kubernetes (k8s) Deployment Strategies](https://emirayhan.medium.com/kubernetes-k8s-deployment-strategies-eb3a0f5cbc49)
-- [faun.pub: Kubernetes Deployment Strategies](https://faun.pub/kubernetes-deployment-strategies-f36e7e4d2be) In this post, we will delve into Kubernetes (K8s) deployment concepts and some common strategies, looking at the advantages and disadvantages of each. A suitable deployment strategy enables you to minimize downtime, enhance your customer experience, and increase reliability when releasing your application.
+- [faun.pub: Kubernetes Deployment Strategies](https://faun.pub/kubernetes-deployment-strategies-f36e7e4d2be) we will delve into Kubernetes (K8s) deployment concepts and some common strategies, looking at the advantages and disadvantages of each. A suitable deployment strategy enables you to minimize downtime, enhance your customer experience, and increase reliability when releasing your application.
 - [blog.devgenius.io: Kubernetes Deployment Strategy Explained 🌟](https://blog.devgenius.io/kubernetes-deployment-strategy-explained-bf27fea088e1)
 - [==developers.redhat.com: Run the Canary Deployment pattern on Kubernetes== 🌟](https://developers.redhat.com/developer-sandbox/activities/run-the-canary-deployment-pattern-on-kubernetes) In this activity, you will use basic Kubernetes skills to understand and implement the Canary Deployment.
 - [blog.werf.io: Canary releases in Kubernetes based on Ingress-NGINX Controller](https://blog.werf.io/canary-releases-in-kubernetes-based-on-ingress-nginx-controller-96193efe34f9)
@@ -1095,7 +1095,7 @@
 - [thenewstack.io: Living with Kubernetes: API Lifecycles and You](https://thenewstack.io/living-with-kubernetes-api-lifecycles-and-you)
 - [blog.tilt.dev: Kubernetes is so Simple You Can Explore it with Curl](https://blog.tilt.dev/2021/03/18/kubernetes-is-so-simple.html)
 - [learndevops.substack.com: Hitting prometheus API with curl and jq 🌟](https://learndevops.substack.com/p/hitting-prometheus-api-with-curl) Determine offending pods that use more RAM than requested, causing OOM, with Prometheus and jq.
-- [thenewstack.io: Kubernetes Is Not Just About Containers — It’s About the API 🌟](https://thenewstack.io/kubernetes/-is-not-just-about-containers-its-about-the-api)
+- [thenewstack.io: Kubernetes Is Not Just About Containers — It’s About the API 🌟](https://thenewstack.io/kubernetes-is-not-just-about-containers-its-about-the-api)
 - [kubernetes.io: Alpha in Kubernetes v1.22: API Server Tracing](https://kubernetes.io/blog/2021/09/03/api-server-tracing)
 - [evancordell.com: 16 things you didn't know about Kube APIs and CRDs](https://evancordell.com/posts/kube-apis-crds)
 - [martinheinz.dev: Could Kubernetes Pods Ever Become Deprecated? 🌟](https://martinheinz.dev/blog/53) **Could a core object or API in Kubernetes, such as Pod, Deployment or Service be removed and if so, how would that go?**
@@ -1110,15 +1110,15 @@
     - And more!
 
 - [==iximiuz.com: Working with Kubernetes API==](https://iximiuz.com/en/series/working-with-kubernetes-api) If you are working in Go with the Kubernetes API, these articles are pure gold. Get the full difference between resources and kinds.
-- [iximiuz.com: How To Extend Kubernetes API - Kubernetes vs. Django](https://iximiuz.com/en/posts/kubernetes-api-how-to-extend) In this article, you'll learn how to extend Kubernetes API with:
+- [iximiuz.com: How To Extend Kubernetes API - Kubernetes vs. Django](https://iximiuz.com/en/posts/kubernetes-api-how-to-extend) you'll learn how to extend Kubernetes API with:
     - Kubernetes Custom Resources
     - Kubernetes Custom Controllers
     - Kubernetes Admission Webhooks
 - [==dev.to: The Kubernetes API architecture | Daniele Polencic== 🌟](https://dev.to/danielepolencic/the-kubernetes-api-architecture-1pi9)
 - [medium.com/cp-massive-programming: Kubernetes API Server Discovery](https://medium.com/cp-massive-programming/kubernetes-api-server-discovery-ac3b358e878e) A little excursion into the Kubernetes API server
 - [==itnext.io: Working with the kubernetes API | Daniele Polencic== 🌟](https://itnext.io/working-with-the-kubernetes-api-587bc5941992) Working with Kubernetes API. Learn how to navigate and issue requests to the Kubernetes API with curl or your favourite programming language. Kubernetes exposes a robust API that lets you control every aspect of the cluster. Most of the time, it's hidden behind kubectl. But, you can also use the K8s API directly. Find out how in this post.
-- [medium.com/linux-shots: Find Deprecated API Resources used in a Kubernetes Cluster](https://medium.com/linux-shots/find-deprecated-api-resources-used-in-a-kubernetes-cluster-44756c1126c8) In this article, you will discuss the challenges of how to upgrade clusters with breaking changes and use kube-no-trouble to test the upgrade path.
-- [blog.jimmyray.io: Discover K8s Through Its APIs](https://blog.jimmyray.io/discover-k8s-through-its-apis-e2f90937a19f) In this article, you will learn how to use the Kubernetes APIs through the Swagger UI. You will learn how to retrieve the full config for the kubelet, as well as how to use gron for easier JSON processing.
+- [medium.com/linux-shots: Find Deprecated API Resources used in a Kubernetes Cluster](https://medium.com/linux-shots/find-deprecated-api-resources-used-in-a-kubernetes-cluster-44756c1126c8) you will discuss the challenges of how to upgrade clusters with breaking changes and use kube-no-trouble to test the upgrade path.
+- [blog.jimmyray.io: Discover K8s Through Its APIs](https://blog.jimmyray.io/discover-k8s-through-its-apis-e2f90937a19f) how to use the Kubernetes APIs through the Swagger UI. You will learn how to retrieve the full config for the kubelet, as well as how to use gron for easier JSON processing.
 
 #### Multi-Cluster Services API
 
@@ -1142,21 +1142,21 @@
 - [blog.newrelic.com: Kubernetes Fundamentals, Part 2: How to Use Health Checks](https://newrelic.com/blog/infrastructure-monitoring/kubernetes-health-checks)
 - [komodor.com: Kubernetes Liveness Probes: A Practical Guide](https://komodor.com/learn/kubernetes-liveness-probes-a-practical-guide)
 - [martinheinz.dev: Improving Application Availability with Pod Readiness Gates](https://martinheinz.dev/blog/63) Making sure your app running in Kubernetes is available and ready to serve traffic can be easy with Pod liveness and readiness probes. However, not all applications are built to use probes. Is there any solution for when Pod probes aren't enough?
-- [==thenewstack.io: Kubernetes Health Checks Using Probes==](https://thenewstack.io/kubernetes/-health-checks-using-probes)
+- [==thenewstack.io: Kubernetes Health Checks Using Probes==](https://thenewstack.io/kubernetes-health-checks-using-probes)
 - [faun.pub: Straight to the Point: Kubernetes Probes](https://faun.pub/straight-to-the-point-kubernetes-probes-e5b23e267d9d) Both readiness and liveness probe run in parallel throughout the life of a container. Use the liveness probe to detect an internal failure and restart the container (e.g. HTTP server down). Use the readiness probe to detect if you can serve traffic (e.g. established DB connection) and wait (not restart) for the container. A dead container is also not a ready container. To serve traffic, all containers within a pod must be ready.
 - [guyzsarun.medium.com: Kubernetes Liveness, Readiness Probe Explained](https://guyzsarun.medium.com/kubernetes-liveness-readiness-probe-explained-352691dcccf1)
-- [hmh.engineering: Dive into Kubernetes Healthchecks (part 1) 🌟](https://hmh.engineering/dive-into-kubernetes-healthchecks-part-1-73a900fa6dbd) In this article, you'll learn about health checks and:
+- [hmh.engineering: Dive into Kubernetes Healthchecks (part 1) 🌟](https://hmh.engineering/dive-into-kubernetes-healthchecks-part-1-73a900fa6dbd) you'll learn about health checks and:
     - How Kubernetes validates the state of your app
     - How to troubleshoot common issues
     - How to configure the deployment manifest of your application to efficiently report its state
     - [hmh.engineering: Dive into Kubernetes Healthchecks (part 2)](https://hmh.engineering/dive-into-kubernetes-healthchecks-part-2-a9f83eb712d5)
 - [medium.com/devops-mojo: Kubernetes — Probes (Liveness, Readiness, and Startup) Overview](https://medium.com/devops-mojo/kubernetes-probes-liveness-readiness-startup-overview-introduction-to-probes-types-configure-health-checks-206ff7c24487) Introduction to Types of Probes and Configure Health Checks using Probes in Kubernetes.
-- [doordash.engineering: How to Handle Kubernetes Health Checks](https://doordash.engineering/2022/08/09/how-to-handle-kubernetes-health-checks) In this article, the team at DoorDash shares the lessons learned from not paying enough attention to the Kubernetes probes and how those contributed to an outage during Black Friday
+- [doordash.engineering: How to Handle Kubernetes Health Checks](https://doordash.engineering/2022/08/09/how-to-handle-kubernetes-health-checks) the team at DoorDash shares the lessons learned from not paying enough attention to the Kubernetes probes and how those contributed to an outage during Black Friday
 - [datree.io: 6 Best Practices for Effective Readiness and Liveness Probes](https://www.datree.io/resources/kubernetes-readiness-and-liveness-probes-best-practices)
-- [thenewstack.io: Kubernetes Probes (and Why They Matter for Autoscaling) 🌟](https://thenewstack.io/kubernetes/-probes-and-why-they-matter-for-autoscaling) In addition to validating our workloads’ health, we can use them to monitor and gather information about other events affecting containers.
-- [faun.pub: Kubernetes Liveness Probes](https://faun.pub/kubernetes-liveness-probes-1a053f53690c) In this article, we will take a look at Liveness Probes in Kubernetes (K8S), with some useful examples. Defining probes correctly can improve pod resilience and availability.
+- [thenewstack.io: Kubernetes Probes (and Why They Matter for Autoscaling) 🌟](https://thenewstack.io/kubernetes-probes-and-why-they-matter-for-autoscaling) In addition to validating our workloads’ health, we can use them to monitor and gather information about other events affecting containers.
+- [faun.pub: Kubernetes Liveness Probes](https://faun.pub/kubernetes-liveness-probes-1a053f53690c) we will take a look at Liveness Probes in Kubernetes (K8S), with some useful examples. Defining probes correctly can improve pod resilience and availability.
 - [dev.to: Configure Kubernetes Readiness and Liveness Probes - Tutorial | Pavan Belagatti 🌟](https://dev.to/pavanbelagatti/configure-kubernetes-readiness-and-liveness-probes-tutorial-478p)
-- [dnastacio.medium.com: The Art and Science of Probing a Kubernetes Container](https://dnastacio.medium.com/the-art-and-science-of-probing-a-kubernetes-container-db1f16539080) In this article, you'll learn how to author Kubernetes container probes, with particular attention to the relatively new addition of startup probes to the mix
+- [dnastacio.medium.com: The Art and Science of Probing a Kubernetes Container](https://dnastacio.medium.com/the-art-and-science-of-probing-a-kubernetes-container-db1f16539080) you'll learn how to author Kubernetes container probes, with particular attention to the relatively new addition of startup probes to the mix
 - [medium.com/@eumaho: Setting up readiness and liveness health-check probes in Kubernetes with SpringBoot 🌟](https://medium.com/@eumaho/setting-up-readiness-and-liveness-health-check-probes-in-kubernetes-with-springboot-674eb1038377)
 - [kamsjec.medium.com: liveness and readiness probes…](https://kamsjec.medium.com/liveness-and-readiness-probes-91919f24e305)
 - [dev.to/otomato_io: Liveness Probes: Feel the Pulse of the App](https://dev.to/otomato_io/liveness-probes-feel-the-pulse-of-the-app-133e) This article provides some helpful examples to correctly configure your liveness, startup and readiness probes in Kubernetes
@@ -1175,7 +1175,7 @@
 - [magalix.com: Capacity Planning](https://www.magalix.com/blog/kubernetes-patterns-capacity-planning) When we have multiple Pods with different Priority Class values, the admission controller starts by sorting Pods according to their priority. What happens when there are no nodes with available resources to schedule a high-priority pods?
 - [sysdig.com: Kubernetes capacity planning: How to rightsize the requests of your cluster](https://www.sysdig.com/blog/kubernetes-capacity-planning)
 - [kubernetes.io Policy Limit Ranges](https://kubernetes.io/docs/concepts/policy/limit-range)
-- [==sysdig.com: Understanding Kubernetes limits and requests by example== 🌟](https://www.sysdig.com/blog/kubernetes-limits-requests) Choosing the optimal limits for our Kubernetes cluster is key in order to get the best of both energy consumption and costs. In this article, you will learn how to set the right requests and limits for your containers.
+- [==sysdig.com: Understanding Kubernetes limits and requests by example== 🌟](https://www.sysdig.com/blog/kubernetes-limits-requests) Choosing the optimal limits for our Kubernetes cluster is key in order to get the best of both energy consumption and costs. how to set the right requests and limits for your containers.
 - [dev.to/aurelievache: Understanding Kubernetes: part 22 – LimitRange](https://dev.to/aurelievache/understanding-kubernetes-part-22-limitrange-144l)
 - [dzone: Dive Deep Into Resource Requests and Limits in Kubernetes](https://dzone.com/articles/dive-deep-into-resource-requests-and-limits-in-kub) This article will be helpful for you to understand how Kubernetes requests and limits work, and why they can work in an expected way.
 - [sysdig.com: How to rightsize the Kubernetes resource limits](https://www.sysdig.com/blog/kubernetes-resource-limits)
@@ -1194,7 +1194,7 @@
     - TL;DR: We would highly recommend removing CPU Limits in Kubernetes (or Disable CFS quota in Kublet) if you are using a kernel version with CFS quota bug unpatched. There is a serious, known CFS bug in the kernel that causes un-necessary throttling and stalls.
 - [hackernoon.com: Kubernetes Resource Quotas](https://hackernoon.com/kubernetes-resource-quotas)
 - [==home.robusta.dev: You can't have both high utilization and high reliability== 🌟](https://home.robusta.dev/blog/kubernetes-utilization-vs-reliability) Everyone wants high utilization and high reliability. The hard truth about Kubernetes is that you need to pick one or the other. A Kubernetes pod uses 2 CPUs on average and occasionally spikes to 3 CPUs. What should its resource allocation look like? This article explores the answers with a few strategies (and some tradeoffs)
-- [==dev.to: Kubernetes Capacity and Resource Management: It's Not What You Think It Is== 🌟](https://dev.to/mkdev/kubernetes-capacity-and-resource-management-its-not-what-you-think-it-is-1oik) In this article, you'll learn how to manage resources and capacity in Kubernetes. Takeaways:
+- [==dev.to: Kubernetes Capacity and Resource Management: It's Not What You Think It Is== 🌟](https://dev.to/mkdev/kubernetes-capacity-and-resource-management-its-not-what-you-think-it-is-1oik) you'll learn how to manage resources and capacity in Kubernetes. Takeaways:
     - Set Resource Quotas for each namespace;
     - Set LimitRanges for each namespace;
     - Enforce rations between requests and limits
@@ -1207,12 +1207,12 @@
 - [dev.to/pavanbelagatti: Learn How to Set Kubernetes Resource Requests and Limits](https://dev.to/pavanbelagatti/learn-how-to-set-kubernetes-resource-requests-and-limits-23n2)
 - [iceburn.medium.com: Kubernetes Resource Requests and Resource Limits](https://iceburn.medium.com/kubernetes-resource-requests-and-resource-limits-99c549c5a439)
 - [==home.robusta.dev: When is a CPU not a CPU? Benchmark of Kubernetes Providers and Node Efficiency== 🌟🌟](https://home.robusta.dev/blog/k8s-node-benchmark) **TLDR: On some cloud providers, you get half the CPU you expect due to burstable nodes. Without burstable nodes, overhead is improved but still significant.**
-- [piotrminkowski.com: Resize CPU Limit To Speed Up Java Startup on Kubernetes](https://piotrminkowski.com/2023/08/22/resize-cpu-limit-to-speed-up-java-startup-on-kubernetes) In this article, you will learn how to solve problems with the slow startup of Java apps on Kubernetes related to the CPU limit. We will use a new Kubernetes feature called “In-place Pod Vertical Scaling”. It allows resizing resources (CPU or memory) assigned to the containers without pod restart. We can use it since the Kubernetes 1.27 version. However, it is still the alpha feature, that has to be explicitly enabled. In order to test we will run a simple Spring Boot Java app on Kubernetes.
+- [piotrminkowski.com: Resize CPU Limit To Speed Up Java Startup on Kubernetes](https://piotrminkowski.com/2023/08/22/resize-cpu-limit-to-speed-up-java-startup-on-kubernetes) how to solve problems with the slow startup of Java apps on Kubernetes related to the CPU limit. We will use a new Kubernetes feature called “In-place Pod Vertical Scaling”. It allows resizing resources (CPU or memory) assigned to the containers without pod restart. We can use it since the Kubernetes 1.27 version. However, it is still the alpha feature, that has to be explicitly enabled. In order to test we will run a simple Spring Boot Java app on Kubernetes.
 - [medium.com/@mark.andreev: How to configure Kubernetes memory limits for Java application](https://medium.com/@mark.andreev/how-to-configure-kubernetes-memory-limits-for-java-application-ec0cc5a68c24) This article explores the JVM memory structure and flags that can be used to limit memory usage and how those map back to Kubernetes and cgroups v2.
 - [sosiv.io: A Deep Dive into Kubernetes Resource Requests and Limits](https://sosiv.io)
 - [medium.com/pipedrive-engineering: How we choked our Kubernetes NodeJS services](https://medium.com/pipedrive-engineering/how-we-choked-our-kubernetes-nodejs-services-932acc8cc2be) Learn from the Pipedrive engineering team experience how to manage memory and CPU resources properly in NodeJS and Kubernetes without slowing down your services
-- [medium.com/@eliran89c: For the love of god, learn when to use CPU limits on Kubernetes](https://medium.com/@eliran89c/for-the-love-of-god-learn-when-to-use-cpu-limits-on-kubernetes-2225341e9dbd) In this article, you'll explore how CPU requests and limits work, why they were introduced, and how to monitor CPU usage
-- [wbhegedus.me: Demystifying Kubernetes CPU Limits (and Throttling)](https://wbhegedus.me/understanding-kubernetes-cpu-limits) In this article, you will discuss a clear example of CPU throttling on Kubernetes and how you could monitor and fix it
+- [medium.com/@eliran89c: For the love of god, learn when to use CPU limits on Kubernetes](https://medium.com/@eliran89c/for-the-love-of-god-learn-when-to-use-cpu-limits-on-kubernetes-2225341e9dbd) you'll explore how CPU requests and limits work, why they were introduced, and how to monitor CPU usage
+- [wbhegedus.me: Demystifying Kubernetes CPU Limits (and Throttling)](https://wbhegedus.me/understanding-kubernetes-cpu-limits) you will discuss a clear example of CPU throttling on Kubernetes and how you could monitor and fix it
 - [medium.com/@jettycloud: Making Sense of Kubernetes CPU Requests And Limits](https://medium.com/@jettycloud/making-sense-of-kubernetes-cpu-requests-and-limits-390bbb5b7c92)
 - [loft.sh: How to Set Up Kubernetes Requests and Limits](https://www.vcluster.com/blog/how-to-set-up-kubernetes-requests-and-limits)
 - [dev.to: Impacts Of Not Setting Requests, Limits, and Quotas | Michael Levan](https://dev.to/thenjdevopsguy/impacts-of-not-setting-requests-limits-and-quotas-5f4b)
@@ -1234,7 +1234,7 @@
         - How scheduling works
         - OOM
     - [==medium.com/directeam: Kubernetes resources under the hood — Part 3== 🌟](https://medium.com/directeam/kubernetes-resources-under-the-hood-part-3-6ee7d6015965) **Kubernetes resources, breaking the limits! Understand the biggest Kubernetes misunderstanding and why you should remove your CPU limits and unleash your cluster's full potential**
-- [reddit.com/r/kubernetes: CPU Limits](https://www.reddit.com/r/kubernetes/comments/12he7aa/cpu_limits]
+- [reddit.com/r/kubernetes: CPU Limits](https://www.reddit.com/r/kubernetes/comments/12he7aa/cpu_limits/]
 - [==gokatalyst.io: Katalyst: A QoS-based resource management system for workload colocation on kubernetes== 🌟](https://gokatalyst.io/blog/2023/12/06/katalyst-a-qos-based-resource-management-system-for-workload-colocation-on-kubernetes)
 - [stormforge.io: Automated Kubernetes resource management for platform engineering teams to continuously rightsize workloads with HPA compatibility](https://stormforge.io) Stop Setting Kubernetes Requests and Limits. Let machine learning and automation do it for you.
 - [==medium.com/@mathieuces: How to calculate CPU for containers in k8s dynamically ?== 🌟](https://medium.com/@mathieuces/how-to-calculate-cpu-for-containers-in-k8s-dynamically-47a89e3886eb) **Learn how to dynamically calculate CPU for containers in Kubernetes using a strategy that optimizes resource allocation by considering average CPU usage and a safety coefficient**
@@ -1262,7 +1262,7 @@
 - [itnext.io: Breaking down and fixing etcd cluster](https://itnext.io/breaking-down-and-fixing-etcd-cluster-d81e35b9260d)
 - [medium: ETCD - the Easy Way | Vaibhav Rajput](https://medium.com/nerd-for-tech/etcd-the-easy-way-4c01e243f285) This is a guide which will help you get started with etcd and help you understand how it is used in a kubernetes setup.
 - [kubernetes.io: Operating etcd clusters for Kubernetes](https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#securing-etcd-clusters) Securing etcd clusters. Access to etcd is equivalent to root permission in the cluster so ideally only the API server should have access to it. It is recommended to grant permission to only those nodes that require access to etcd clusters.
-- [dev.to: A Detailed Brief About Offence and Defence on Cloud Security - Etcd Risks](https://dev.to/tutorialboy/a-detailed-brief-about-offence-and-defence-on-cloud-security-etcd-risks-4h02) In this article, you will assess the correct configuration for an etcd cluster in Kubernetes and discuss a few attack scenarios.
+- [dev.to: A Detailed Brief About Offence and Defence on Cloud Security - Etcd Risks](https://dev.to/tutorialboy/a-detailed-brief-about-offence-and-defence-on-cloud-security-etcd-risks-4h02) you will assess the correct configuration for an etcd cluster in Kubernetes and discuss a few attack scenarios.
 
 ### Kubernetes Sidecars
 
@@ -1274,7 +1274,7 @@
 - [medium: Delaying application start until sidecar is ready](https://medium.com/@marko.luksa/delaying-application-start-until-sidecar-is-ready-2ec2d21a7b74) Taking advantage of a peculiar Kubernetes implementation detail to block containers from starting before another container starts.
 - [pauldally.medium.com: Kubernetes – An Introduction to Sidecars](https://pauldally.medium.com/kubernetes-an-introduction-to-sidecars-21d99fbd7de3)
 - [thenewstack.io: Sidecars are Changing the Kubernetes Load-Testing Landscape](https://thenewstack.io/sidecars-are-changing-the-kubernetes-load-testing-landscape) Sidecars don't just capture traffic. They can replay it as well. They can also transform any metadata, like timestamps, before it sends it to your application.
-- [saurabhdashora.hashnode.dev: Implementing Sidecar Design Pattern with Kubernetes Pod](https://saurabhdashora.hashnode.dev/implementing-sidecar-design-pattern-with-kubernetes-pod) Build a Git Workflow with Sidecar. In this post, you will cover the theoretical aspects of the sidecar pattern and different use cases. Then, you will implement a complete Git workflow using a Kubernetes pod to demonstrate the sidecar pattern.
+- [saurabhdashora.hashnode.dev: Implementing Sidecar Design Pattern with Kubernetes Pod](https://saurabhdashora.hashnode.dev/implementing-sidecar-design-pattern-with-kubernetes-pod) Build a Git Workflow with Sidecar. you will cover the theoretical aspects of the sidecar pattern and different use cases. Then, you will implement a complete Git workflow using a Kubernetes pod to demonstrate the sidecar pattern.
 - [dev.to/fermyon: Scaling Sidecars to Zero in Kubernetes](https://dev.to/fermyon/scaling-sidecars-to-zero-in-kubernetes-2m23)
 
 ### Kubernetes Annotations
@@ -1296,7 +1296,7 @@
     - Not using the power of IAM/RBAC
 - [geekflare.com: 10 Kubernetes Best Practices for Better Container Orchestration](https://geekflare.com/cybersecurity/kubernetes-security-scanner)
 - [wideops.com: Kubernetes best practices: Setting up health checks with readiness and liveness probes](https://wideops.com)
-- [containerjournal.com: 10 Best Practices Worth Implementing to Adopt Kubernetes](https://cloudnativenow.com/topics/cloudnativeplatforms/10-best-practices-worth-implementing-to-adopt-kubernetes)
+- [containerjournal.com: 10 Best Practices Worth Implementing to Adopt Kubernetes](https://cloudnativenow.com/topics/container-management/10-best-practices-worth-implementing-to-adopt-kubernetes)
 - [medium: Kubernetes Tip: How Does OOMKilled Work?](https://medium.com/tailwinds-navigator/kubernetes-tip-how-does-oomkilled-work-ba71b135993b)
 - [cloud.google.com: Kubernetes Best Practices](https://cloud.google.com/blog/products/containers-kubernetes) A collection of blog posts aimed at guide you through the Kubernetes best practices
 - [releasehub.com: Kubernetes Health Checks - 2 Ways to Improve Stability in Your Production Applications](https://release.com/blog/kubernetes-health-checks-2-ways-to-improve-stability)
@@ -1327,7 +1327,7 @@
 - [snapt.net: Best Practices for Load Balancing Kubernetes Containers](https://www.snapt.net/blog/best-practices-for-load-balancing-kubernetes-containers)
 - [==vladimir.varank.in: Making sense of requests for CPU resources in Kubernetes== 🌟](https://vladimir.varank.in/notes/2021/09/making-sense-of-requests-for-cpu-resources-in-kubernetes)
 - [==harness.io: Kubernetes Mistakes: A Beginner’s Guide To Avoiding Common Pitfalls==](https://www.harness.io/blog/kubernetes-mistakes)
-- [martinheinz.dev: Keeping Kubernetes Clusters Clean and Tidy 🌟](https://martinheinz.dev/blog/60) As your cluster grows, so does the number of resources, volumes or other API objects and sooner or later you will reach the limits somewhere. In this article, you’ll learn how to keep it clean and tidy.
+- [martinheinz.dev: Keeping Kubernetes Clusters Clean and Tidy 🌟](https://martinheinz.dev/blog/60) As your cluster grows, so does the number of resources, volumes or other API objects and sooner or later you will reach the limits somewhere. you’ll learn how to keep it clean and tidy.
 - [==pionative.com: 6 Important things you need to run Kubernetes in production==](https://pionative.com/6-important-things-you-need-to-run-kubernetes-in-production)
 - [youtube: Common Kubernetes Mistakes - CPU and Memory Requests (part 1) | Robusta](https://www.youtube.com/watch?v=_nknHwTKlh8)
 - [medium.com/mycloudseries: Must-haves for your Kubernetes Cluster to be Production Ready](https://medium.com/mycloudseries/must-haves-for-your-kubernetes-cluster-to-be-production-ready-dc7d1d18c4a2)
@@ -1362,7 +1362,7 @@
 
 ### Disruptions
 
-- [thenewstack.io: Kubernetes: Use PodDisruptionBudgets for Application Maintenance and Upgrades](https://thenewstack.io/kubernetes/-use-poddisruptionbudgets-for-application-maintenance-and-upgrades)
+- [thenewstack.io: Kubernetes: Use PodDisruptionBudgets for Application Maintenance and Upgrades](https://thenewstack.io/kubernetes-use-poddisruptionbudgets-for-application-maintenance-and-upgrades)
 - [medium.com/@visweswara: Pod Disruption Budget — Budget that can save you One day](https://medium.com/@visweswara/pod-disruption-budget-budget-that-can-save-you-one-day-7c22c8a11d)
 - [saahitya.hashnode.dev: Pod Disruption Budget(Pdb)](https://saahitya.hashnode.dev/pod-disruption-budgetpdb)
 
@@ -1395,7 +1395,7 @@
 - [kubectl-cost](https://github.com/kubecost/kubectl-cost) is a kubectl plugin that provides easy CLI access to Kubernetes cost allocation metrics via the kubecost APIs. It allows developers, devops, and others to quickly determine the cost & efficiency for any Kubernetes workload
 - [blog.kubecost.com: AKS Cost Monitoring and Governance With Kubecost](https://blog.kubecost.com/blog/aks-cost)
 - [thenewstack.io: KubeCost: Monitor Kubernetes Costs with kubectl](https://thenewstack.io/kubecost-monitor-kubernetes-costs-with-kubectl)
-- [rtfm.co.ua: Kubernetes: Cluster Cost Monitoring – Kubernetes Resource Report and Kubecost](https://rtfm.co.ua/en/kubernetes-cluster-cost-monitoring-kubernetes-resource-report-and-kubecost) In this article, you will explore the Kubernetes Resource Report and Kubecost projects and
+- [rtfm.co.ua: Kubernetes: Cluster Cost Monitoring – Kubernetes Resource Report and Kubecost](https://rtfm.co.ua/en/kubernetes-cluster-cost-monitoring-kubernetes-resource-report-and-kubecost) you will explore the Kubernetes Resource Report and Kubecost projects and
 will dive into the details of how they work
 - [medium.com/@randhirthakur076: Optimizing Kubernetes Cost Management: A Deep Dive into Kubecost](https://medium.com/@randhirthakur076/optimizing-kubernetes-cost-management-a-deep-dive-into-kubecost-5b07c9926c87)
 
@@ -1427,7 +1427,7 @@ will dive into the details of how they work
 - [platform9.com: Kubernetes Cluster Sizing – How Large Should a Kubernetes Cluster Be?](https://platform9.com/blog/kubernetes-cluster-sizing-how-large-should-a-kubernetes-cluster-be)
 - [==redhat.com: 3 questions to answer when considering a multi-cluster Kubernetes architecture==](https://www.redhat.com/en/blog/multi-cluster-kubernetes-architecture) A multi-cluster Kubernetes architecture is complex, but its versatility and resiliency make the tradeoffs worthwhile for large-scale enterprise applications.
 - [==itnext.io: Do You Need Multi-Clusters?== 🌟](https://itnext.io/do-you-need-multi-clusters-6e58556f7f06) Evaluate CNCF multi-clusters solutions and go our own way.
-    - In this article, you will discuss the limitations of running a single cluster and the options you have to go multicluster. You will investigate:
+    - you will discuss the limitations of running a single cluster and the options you have to go multicluster. You will investigate:
         - Kubefed
         - GitOps
         - Karmada
@@ -1600,7 +1600,7 @@ will dive into the details of how they work
 - [developers.redhat.com: Kubernetes configuration patterns, Part 1: Patterns for Kubernetes primitives](https://developers.redhat.com/blog/2021/04/28/kubernetes-configuration-patterns-part-1-patterns-for-kubernetes-primitives)
 - [betterprogramming.pub: 10 Anti-Patterns for Kubernetes Deployments](https://betterprogramming.pub/10-antipatterns-for-kubernetes-deployments-e97ce1199f2d) Common practices in Kubernetes deployments that have better solutions
 - [medium: Kubernetes — Learn Init Container Pattern](https://medium.com/bb-tutorials-and-thoughts/kubernetes-learn-init-container-pattern-7a757742de6b) Understanding Init Container Pattern With an Example Project.
-- [weave.works: Tools for Automating and Implementing Cloud Native Patterns](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745)
+- [weave.works: Tools for Automating and Implementing Cloud Native Patterns](https://www.weave.works/blog/tools-for-automating-and-implementing-cloud-native-patterns)
 - [dzone: Microservices Patterns: Sidecar](https://dzone.com/articles/microservices-patterns-sidecar) Learn about Microservice architecture and single responsibility principle, know more on how to achieve it using sidecars.
 - [dzone: Multi-Container Pod Design Patterns in Kubernetes](https://dzone.com/articles/multi-container-pod-design-patterns-in-kubernetes) In Kubernetes, Pods are the single deployable units. If an application is to be deployed, it must be so in a Pod as a container. Learn how to use multi-container pods.
 - [linkedin.com/pulse: Avoid These Kubernetes Anti-Patterns | Pavan Belagatti](https://www.linkedin.com/pulse/avoid-kubernetes-anti-patterns-pavan-belagatti)
@@ -1611,7 +1611,7 @@ will dive into the details of how they work
 ## Kubernetes Scheduling and Scheduling Profiles
 
 - [Kubernetes Scheduling](https://kubernetes.io/docs/reference/scheduling)
-- [Scheduling Profiles](https://kubernetes.io/docs/reference/scheduling/config/#profiles)
+- [Scheduling Profiles](https://kubernetes.io/docs/reference/scheduling/profiles)
 - [granulate.io: A Deep Dive into Kubernetes Scheduling](https://granulate.io/a-deep-dive-into-kubernetes-scheduling)
 - [medium: K8S - Creating a kube-scheduler plugin](https://medium.com/@juliorenner123/k8s-creating-a-kube-scheduler-plugin-8a826c486a1)
 
@@ -1624,7 +1624,7 @@ will dive into the details of how they work
     - **Node affinity**, nodeSelector is the simplest way to constrain Pods to nodes with specified labels.
     - **Pod Affinity**, ensures two pods to be co-located in a single node. Whenever higher availability is desired, anti-affinity settings can be used to place pods
     - Using **taints and tolerations**, Taints are the opposite — they allow a node to repel a set of pods. Tolerations are applied to pods. Tolerations allow the scheduler to schedule pods with matching taints.
-    - In this article you will cover GKE and:
+    -you will cover GKE and:
         - Vertical Pod Autoscaler
         - Horizontal Pod Autoscaler
         - Cluster Autoscaler
@@ -1680,7 +1680,7 @@ will dive into the details of how they work
 - [KubeFed: Kubernetes Cluster Federation](https://github.com/kubernetes-retired/kubefed)
 - [aquasec.com: Kubernetes Federation: The Basics and a 5-Step Tutorial](https://www.aquasec.com/cloud-native-academy/kubernetes-in-production/kubernetes-federation) Learn about Kubernetes Federation use cases, how it works, and see how to create your first Kubernetes Federation in 5 steps.
 - Kubernetes Federation, or KubeFed, is a tool for coordinating the configuration of multiple clusters in Kubernetes. You can determine which clusters KubeFed will manage, and what their configuration looks like, all from a single group of APIs in the hosting cluster. KubeFed offers low-level mechanisms that can be used as a foundation for increasingly complex production Kubernetes use cases across multiple clusters, such as geographic redundancy and disaster recovery.
-- [medium.com/expedia-group-tech: Manage multi-cluster Kubernetes infrastructure with Kubefed v2](https://medium.com/expedia-group-tech/managing-a-federated-kubernetes-cluster-using-kubefed-v2-5f115dbdbe05) In this article, you will discuss the need for a multi-cluster architecture and how kubefed solves that. Then, you will deploy an app and proceed to test the setup with a hands-on example
+- [medium.com/expedia-group-tech: Manage multi-cluster Kubernetes infrastructure with Kubefed v2](https://medium.com/expedia-group-tech/managing-a-federated-kubernetes-cluster-using-kubefed-v2-5f115dbdbe05) you will discuss the need for a multi-cluster architecture and how kubefed solves that. Then, you will deploy an app and proceed to test the setup with a hands-on example
 
 ### KubeCarrier
 
@@ -1738,12 +1738,12 @@ will dive into the details of how they work
     - Exercises: https://github.com/dgkanatsios/CKAD-exercises
     - Workshops:
         - https://kube.academy/courses/ckad-practice
-        - https://kodekloud.com/courses/game-of-pods
-        - https://kubernetes.io/docs/tutorials/kubernetes-basics
-        - https://www.katacoda.com/courses/kubernetes
+        - https://kodekloud.com/courses/game-of-pods/
+        - https://kubernetes.io/docs/tutorials/kubernetes-basics/
+        - https://www.katacoda.com/courses/kubernetes/
     - VIM: [Vim Crash Course | How to edit files quickly in CKAD / CKA exam](https://www.youtube.com/watch?v=knyJt8d6C_8&ab_channel=TheFrontOpsGuy)
     - Cheatsheet:
-        - https://kubernetes.io/docs/reference/kubectl/cheatsheet
+        - https://kubernetes.io/docs/reference/kubectl/cheatsheet/
         - https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands
     - Example questions:
         - [CKAD Example Question with Tips & Tricks](https://www.youtube.com/watch?v=wHha-Q3XVOg&ab_channel=DanLister)
@@ -1793,7 +1793,7 @@ will dive into the details of how they work
 - [Kubernetes: Getting Started (Free)](https://www.udemy.com/course/kubernetes-getting-started)
 - [Kubernetes Tutorial: Learn the Basics](https://dev.to/scalyr/kubernetes-tutorial-learn-the-basics-and-get-started-5dgh)
 - [Complete Kubernetes Course](https://www.youtube.com/watch?v=0KQndcIedeg)
-- [Getting started with Kubernetes](https://www.pluralsight.com/courses/getting-started-kubernetes)
+- [Getting started with Kubernetes](https://www.pluralsight.com)
 
 ## Famous Kubernetes resources of 2020
 
@@ -1828,7 +1828,7 @@ will dive into the details of how they work
 
     [![5 Open-source projects that make #Kubernetes even better](images/five-oss-projects-kubernetes.jpg){: style="width:80%"}](https://enterprisersproject.com/article/2020/5/kubernetes-5-open-source-projects-improve)
 
-    [![kubernetes arch multicloud hybrid](images/kubernetes_architecture_multicloud_hybride.jpg){: style="width:70%"}](https://www.journaldunet.com/web-tech/cloud/1492047-comment-kubernetes-perce-les-frontieres-du-cloud)
+    [![kubernetes arch multicloud hybrid](images/kubernetes_architecture_multicloud_hybride.jpg){: style="width:70%"}](https://www.journaldunet.com/cloud/1492047-comment-kubernetes-perce-les-frontieres-du-cloud)
 
     [![Kubernetes components](images/kubernetes_components_rootsongjc.jpg)](https://github.com/rootsongjc)
 
@@ -1838,7 +1838,7 @@ will dive into the details of how they work
 
     ![simple k8s cluster meme](images/simple_k8s_cluster_meme.jfif)
 
-    [![Kubernetes not endgame](images/k8s_not_endgame.jpg)](https://thenewstack.io/kubernetes/-and-the-next-generation-of-paas)
+    [![Kubernetes not endgame](images/k8s_not_endgame.jpg)](https://thenewstack.io/kubernetes-and-the-next-generation-of-paas)
 
     ![k8s namespaces](images/k8s_namespaces.jfif)
 

@@ -41,7 +41,7 @@
 
 ## .NET MAUI
 
-- [devblogs.microsoft.com: Getting Started with DevOps and .NET MAUI](https://devblogs.microsoft.com/dotnet/devops-for-dotnet-maui) .NET Multi-platform App UI (.NET MAUI) unifies Android, iOS, macOS, and Windows UI frameworks into a single framework so you can write one app that runs natively on many platforms. In this post, we will look at how easy it is to implement basic DevOps pipelines for .NET MAUI apps using GitHub Actions and Azure DevOps.
+- [devblogs.microsoft.com: Getting Started with DevOps and .NET MAUI](https://devblogs.microsoft.com/dotnet/devops-for-dotnet-maui) .NET Multi-platform App UI (.NET MAUI) unifies Android, iOS, macOS, and Windows UI frameworks into a single framework so you can write one app that runs natively on many platforms. we will look at how easy it is to implement basic DevOps pipelines for .NET MAUI apps using GitHub Actions and Azure DevOps.
 
 ## Polly .NET resilience and transient-fault-handling library 
 

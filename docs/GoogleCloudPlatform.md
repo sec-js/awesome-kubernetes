@@ -26,7 +26,7 @@
 ## Introduction
 
 - [cloud.google.com](https://cloud.google.com)
-- [==console.cloud.google.com/products==](https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fconsole.cloud.google.com%2Fproducts&dsh=S-434924395%3A1779041052185976&followup=https%3A%2F%2Fconsole.cloud.google.com%2Fproducts&osid=1&passive=1209600&service=cloudconsole&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AWa2Pasn2LQq2-HAsrhKLmjDeNW0e8jsHz1CbZM8xG_fzw2d_QHhWCcHPV60tTMOkJixTn6JdLIstQ)
+- [==console.cloud.google.com/products==](https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fconsole.cloud.google.com%2Fproducts&dsh=S-837258255%3A1779033921742301&followup=https%3A%2F%2Fconsole.cloud.google.com%2Fproducts&osid=1&passive=1209600&service=cloudconsole&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AWa2PavdLijoZE8HgBUBXNoU1YfsOf-olUjJ8JfmhFG_0QoTjdDv1sVmFwi8Eo6EXbpyWStjzuTRaQ)
 - [==googlecloudcheatsheet.withgoogle.com: Google Cloud Developer cheat sheet==](https://cloud.google.com/products)
 - [cloud.google.com: DevOps](https://cloud.google.com/devops)
 - [Cloud Developer Tools](https://cloud.google.com/products/tools)
@@ -117,10 +117,10 @@
 - [Everything You Want To Know About Anthos - Google's Hybrid And Multi-Cloud Platform](https://www.forbes.com/sites/janakirammsv/2019/04/14/everything-you-want-to-know-about-anthos-googles-hybrid-and-multi-cloud-platform)
 - [itnext.io: Anthos — Multi-cluster Management](https://itnext.io/anthos-multi-cluster-management-aa6f2c03120d)
 - [itnext.io: Ingress for Anthos — Multi-cluster Ingress and Global Service Load Balancing](https://itnext.io/ingress-for-anthos-multi-cluster-ingress-and-global-service-load-balancing-c56c57b97e82)
-- [A hybrid cloud-native DevSecOps pipeline with JFrog Artifactory and GKE on-prem 🌟](https://cloud.google.com/architecture/partners/a-hybrid-cloud-native-devsecops-pipeline-with-jfrog-artifactory-and-gke-on-prem) Running in a hybrid environment means that some of your processing happens on Google Cloud and other processing remains on-premises. Anthos helps you manage both an on-premises Kubernetes cluster and a cluster running on Google Cloud.
+- [A hybrid cloud-native DevSecOps pipeline with JFrog Artifactory and GKE on-prem 🌟](https://docs.cloud.google.com/architecture) Running in a hybrid environment means that some of your processing happens on Google Cloud and other processing remains on-premises. Anthos helps you manage both an on-premises Kubernetes cluster and a cluster running on Google Cloud.
 - [Bringing Kubernetes’ goodness to Windows Server apps with Anthos](https://cloud.google.com/blog/topics/anthos/windows-server-support-comes-to-anthos-on-prem) Windows container support to GKE on-premises through Anthos.
 - [cloud.google.com: Anthos makes multi-cloud easier with new API, support for Azure](https://cloud.google.com/blog/products/containers-kubernetes/google-cloud-anthos-multicloud-api-and-gke-on-azure-ga)
-- [medium.com/google-cloud: Anthos-at-Home: Spinning Up a Bare-Metal Anthos Cluster on Dumpster Servers](https://medium.com/google-cloud/anthos-at-home-spinning-up-a-bare-metal-anthos-cluster-on-dumpster-servers-5bcef301cfa5) In this article, you will learn the capabilities of Anthos on bare metal and find a detailed guide and explanation on how to do it yourself
+- [medium.com/google-cloud: Anthos-at-Home: Spinning Up a Bare-Metal Anthos Cluster on Dumpster Servers](https://medium.com/google-cloud/anthos-at-home-spinning-up-a-bare-metal-anthos-cluster-on-dumpster-servers-5bcef301cfa5) the capabilities of Anthos on bare metal and find a detailed guide and explanation on how to do it yourself
 
 ## Python
 

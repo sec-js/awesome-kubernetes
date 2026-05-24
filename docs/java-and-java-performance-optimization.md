@@ -32,7 +32,7 @@
 - [Dzone: 7 JVM Arguments of Highly Effective Applications 🌟🌟🌟](https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1) How to use 7 JVM arguments to help increase your application's performance and avoid common memory pitfalls.
 - [developers.redhat.com: Get started with JDK Flight Recorder in OpenJDK 8u 🌟](https://developers.redhat.com/blog/2020/08/25/get-started-with-jdk-flight-recorder-in-openjdk-8u) Deploy JDK Flight Recorder with JDK Mission Control, a new monitoring and profiling tool that exposes a high level of information without adding a tax on the runtime system
 - [blog.heaphero.io: HeapHero - Java & Android Heap Dump Analyzer](https://blog.heaphero.io)
-- [blog.heaphero.io: What is GC Log, thread dump and Heapdump? 🌟](https://blog.heaphero.io/2020/10/16/what-is-gc-log-thread-dump-and-heapdump) Java Virtual Machine (JVM) generates 3 critical #artifacts that are useful for optimizing the performance and troubleshooting production problems. Those artifacts & their differences are explained in this PDF.
+- [blog.heaphero.io: What is GC Log, thread dump and Heapdump? 🌟](https://blog.heaphero.io/what-is-gc-log-thread-dump-and-heapdump) Java Virtual Machine (JVM) generates 3 critical #artifacts that are useful for optimizing the performance and troubleshooting production problems. Those artifacts & their differences are explained in this PDF.
 - [developers.redhat.com: Shenandoah garbage collection in OpenJDK 16: Concurrent reference processing](https://developers.redhat.com/articles/2021/05/20/shenandoah-garbage-collection-openjdk-16-concurrent-reference-processing)
 - [developers.redhat.com: JDK Flight Recorder support for GraalVM Native Image: The journey so far 🌟](https://developers.redhat.com/articles/2021/07/23/jdk-flight-recorder-support-graalvm-native-image-journey-so-far)
 - [OpenHFT/Java-Thread-Affinity](https://github.com/OpenHFT/Java-Thread-Affinity) Bind a java thread to a given core. A library that lets you pin the threads of your Java application to specific CPU cores. Looks like an interesting part of the performance engineering toolbox, e.g. helping to reduce the number of cache misses.
@@ -49,9 +49,9 @@
 
 - [medium: How to reduce your JVM app memory footprint in Docker and Kubernetes 🌟](https://medium.com/wix-engineering/how-to-reduce-your-jvm-app-memory-footprint-in-docker-and-kubernetes-d6e030d21298)
 - [tech.olx.com: Improving JVM Warm-up on Kubernetes 🌟](https://tech.olx.com/improving-jvm-warm-up-on-kubernetes-1b27dd8ecd58) Vikas Kumar explains why you should not run your Java applications with a fixed quota of a single CPU core. Instead, use Burstable QoS to allow for increased CPU usage during start-up.
-- [dzone: Best Practices: Java Memory Arguments for Containers 🌟](https://dzone.com/articles/best-practices-java-memory-arguments-for-container) In this article, we will discuss the possible JVM arguments that can be used to specify the Java heap size and the best option to choose.
-- [medium.com/@anurag2397: Tuning JVM containers for better CPU and memory utilisation in K8s environment](https://medium.com/@anurag2397/solving-javas-core-problems-around-memory-and-cpu-4d0c97748c43) In this article, you'll discuss JVM warmup issues, high heap memory utilisation and how those affect Java apps deployed in Kubernetes. You'll then learn how to work around them.
-- [danoncoding.com: Tricky Kubernetes memory management for Java applications 🌟](https://danoncoding.com/tricky-kubernetes-memory-management-for-java-applications-d2f88dd4e9f6) Running Java applications in a container environment requires an understanding of both — JVM memory mechanics and Kubernetes memory management. In this article, you will discuss the settings and optimizations necessary to run Java apps in Kubernetes.
+- [dzone: Best Practices: Java Memory Arguments for Containers 🌟](https://dzone.com/articles/best-practices-java-memory-arguments-for-container) we will discuss the possible JVM arguments that can be used to specify the Java heap size and the best option to choose.
+- [medium.com/@anurag2397: Tuning JVM containers for better CPU and memory utilisation in K8s environment](https://medium.com/@anurag2397/solving-javas-core-problems-around-memory-and-cpu-4d0c97748c43) you'll discuss JVM warmup issues, high heap memory utilisation and how those affect Java apps deployed in Kubernetes. You'll then learn how to work around them.
+- [danoncoding.com: Tricky Kubernetes memory management for Java applications 🌟](https://danoncoding.com/tricky-kubernetes-memory-management-for-java-applications-d2f88dd4e9f6) Running Java applications in a container environment requires an understanding of both — JVM memory mechanics and Kubernetes memory management. you will discuss the settings and optimizations necessary to run Java apps in Kubernetes.
 - [medium.com/nordnet-tech: Setting Java Heap Size Inside a Docker Container](https://medium.com/nordnet-tech/setting-java-heap-size-inside-a-docker-container-b5a4d06d2f46)
 - [danoncoding.com: Tricky Kubernetes memory management for Java applications 🌟](https://danoncoding.com/tricky-kubernetes-memory-management-for-java-applications-d2f88dd4e9f6) How to use the Kubernetes memory requests and limits in combination with JVM Heap and stay out of trouble.
 - [medium.com/@sharprazor.app: Memory settings for Java process running in Kubernetes pod](https://medium.com/@sharprazor.app/memory-settings-for-java-process-running-in-kubernetes-pod-1e608a5d2a64) Managing the memory usage of a Java process running in a Kubernetes pod is more challenging than one might expect. Even with proper JVM memory configurations, OOMKilled issues can still arise and you wonder why.
@@ -71,14 +71,16 @@
 
 Metric|Details / Reference
 :---|:---
-GC Throughput|**Repeated Full GC happens way before OutOfMemoryError**<br/> [ref1](https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1)<br/>[ref2](https://blog.gceasy.io/2019/03/13/micrometrics-to-forecast-application-performance)
+GC Throughput|**Repeated Full GC happens way before OutOfMemoryError**<br/> [ref1](https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1)<br/>[ref2](https://blog.gceasy.io/micrometrics-to-forecast-application-performance)
+etc|N/A
 
 ### Common JVM Errors
 
 JVM Error|Details / Reference
 :----|:----
-OutOfMemoryError|**Repeated Full GC happens way before OutOfMemoryError** <br/> [ref1](https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1)<br/>[ref2](https://blog.gceasy.io/2019/03/13/micrometrics-to-forecast-application-performance)
-StackOverflowError|[ref](https://blog.fastthread.io/2018/09/24/stackoverflowerror)
+OutOfMemoryError|**Repeated Full GC happens way before OutOfMemoryError** <br/> [ref1](https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1)<br/>[ref2](https://blog.gceasy.io/micrometrics-to-forecast-application-performance)
+StackOverflowError|[ref](https://blog.fastthread.io/stackoverflowerror)
+etc|N/A
 
 ### Tuning Jenkins GC
 
@@ -124,7 +126,7 @@ StackOverflowError|[ref](https://blog.fastthread.io/2018/09/24/stackoverflowerro
 - [PermGen eliminado](http://www.infoq.com/articles/Java-PERMGEN-Removed)
 - [On heap vs off heap memory usage](http://www.javacodegeeks.com/2014/12/on-heap-vs-off-heap-memory-usage.html)
 - [How Garbage Collection differs in the three big JVMs](http://apmblog.dynatrace.com/2011/05/11/how-garbage-collection-differs-in-the-three-big-jvms)
-- [DZone: Understanding the Java Memory Model and Garbage Collection 🌟](https://dzone.com/articles/understanding-the-java-memory-model-and-the-garbag) In this article we will try to understand the Java memory model and how garbage collection works. In this article I have used JDK8 Oracle Hot Spot 64 bit JVM. First let me depict the different memory areas available for Java processes.
+- [DZone: Understanding the Java Memory Model and Garbage Collection 🌟](https://dzone.com/articles/understanding-the-java-memory-model-and-the-garbag)we will try to understand the Java memory model and how garbage collection works.I have used JDK8 Oracle Hot Spot 64 bit JVM. First let me depict the different memory areas available for Java processes.
 - [DZone: Memory Leaks and Java Code](https://dzone.com/articles/memory-leak-andjava-code) When you aren't using objects, but they aren't touched by GC, a memory leak happens. Here are six ways memory leaks happen to look for and avoid.
 - [javarevisited.blogspot.com: How Garbage Collection works in Java? Explained (2011)](https://javarevisited.blogspot.com/2011/04/garbage-collection-in-java.html)
 
@@ -176,7 +178,7 @@ En cualquier caso hay una tendencia al Heap-Offloading. El consumo de memoria en
 <center markdown="1">
 
 <div class="container">
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/NpUYrnBQ59fyV6" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen class="video"> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/feuteston/jvm-internals-2015corkdevio" title="JVM Internals (2015)" target="_blank">JVM Internals (2015)</a> </strong> from <strong><a href="//www.slideshare.net/feuteston" target="_blank">Luiz Fernando Teston</a></strong> </div>
+<iframe src="/www.slideshare.net/slideshow/embed_code/key/NpUYrnBQ59fyV6" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen class="video"> </iframe> <div style="margin-bottom:5px"> <strong> <a href="/www.slideshare.net/feuteston/jvm-internals-2015corkdevio" title="JVM Internals (2015)" target="_blank">JVM Internals (2015)</a> </strong> from <strong><a href="/www.slideshare.net/feuteston" target="_blank">Luiz Fernando Teston</a></strong> </div>
 </div>
 
 </center>

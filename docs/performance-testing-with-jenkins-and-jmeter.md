@@ -27,7 +27,7 @@
   - [The Hidden CPU Throttling Crisis in Kubernetes Clusters](https://www.kubenatives.com/p/the-hidden-cpu-throttling-crisis) - *(Related to kubernetes-troubleshooting topic)*
   - [How Kruize Optimizes OpenShift Workloads](https://developers.redhat.com/articles/2025/06/25/how-kruize-optimizes-openshift-workloads#what_is_kruize_autotune_) - *(Related to openshift topic)*
 
-- [dev.to: The most elegant way to performance test your microservices running on Kubernetes](https://dev.to/ksingh7/the-most-elegant-way-to-performance-test-your-microservices-running-on-kubernetes-2mo2) In this article, you'll learn how to measure the performance of backend applications running on Kubernetes & how to use Vegeta, a versatile HTTP load testing and benchmarking tool written in Golang
+- [dev.to: The most elegant way to performance test your microservices running on Kubernetes](https://dev.to/ksingh7/the-most-elegant-way-to-performance-test-your-microservices-running-on-kubernetes-2mo2) you'll learn how to measure the performance of backend applications running on Kubernetes & how to use Vegeta, a versatile HTTP load testing and benchmarking tool written in Golang
 - [garden.io: Performance testing on a microservice architecture](https://docs.garden.io)
 
 ## JMeter
@@ -75,7 +75,7 @@
 
 ### API Load Testing
 
-- [API Load Testing With Gatling](https://dzone.com/articles/api-load-testing-with-gatling) In this article, we'll learn how to perform a load test on a REST API endpoint using Gatling and JMeter. Read on for more information!
+- [API Load Testing With Gatling](https://dzone.com/articles/api-load-testing-with-gatling) we'll learn how to perform a load test on a REST API endpoint using Gatling and JMeter. Read on for more information!
 - [Load Testing Your DataBase-Connected APIs With Gatling](https://dzone.com/articles/load-testing-your-database-connected-apis-with-gat)
 
 ### Gatling and Maven
@@ -104,7 +104,7 @@
 
 - [webpagetest.org](https://webpagetest.org)
 - [devops.com: Catchpoint to Acquire Webpagetest.org](https://devops.com/catchpoint-to-acquire-webpagetest-org)
-- [Distributed Load Testing on AWS 🌟](https://aws.amazon.com/solutions/implementations/distributed-load-testing-on-aws)
+- [Distributed Load Testing on AWS 🌟](https://docs.aws.amazon.com/solutions/distributed-load-testing-on-aws)
     - [amazon.com: Introducing Distributed Load Testing v1.3](https://aws.amazon.com/about-aws/whats-new/2021/05/introducing-distributed-load-testing-v1-3)
 - [Locust](https://locust.io) An open source load testing tool. Define user behaviour with Python code, and swarm your system with millions of simultaneous users.
 - [blog.dream11engineering.com: Finding Order in Chaos: How We Automated Performance Testing with Torque](https://blog.dream11engineering.com/finding-order-in-chaos-how-we-automated-performance-testing-with-torque-6eb63706fcea)

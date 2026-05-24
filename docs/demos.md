@@ -190,7 +190,7 @@
 - [nfrankel/jvm-controller](https://github.com/nfrankel/jvm-controller) Example on how to write a kubernetes controller in Java. The demo code for nfrankel's talk on Kubernetes operators in Java.
 - [matthewpalmer.net: Kubernetes Ingress with Nginx Example 🌟](https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-ingress-guide-nginx-example.html)
 - [developers.redhat.com: Deploying Node.js applications to Kubernetes with Nodeshift and Minikube](https://developers.redhat.com/blog/2021/03/09/deploying-node-js-applications-to-kubernetes-with-nodeshift-and-minikube)
-- [itnext.io: Breaking down and fixing Kubernetes](https://itnext.io/breaking-down-and-fixing-kubernetes-4df2f22f87c3) In this article you'll break the cluster, delete certificates and rejoin the nodes without causing any downtime.
+- [itnext.io: Breaking down and fixing Kubernetes](https://itnext.io/breaking-down-and-fixing-kubernetes-4df2f22f87c3)you'll break the cluster, delete certificates and rejoin the nodes without causing any downtime.
 - [dev.to: Implementing a simple K8s admission controller in Go](https://dev.to/douglasmakey/implementing-a-simple-k8s-admission-controller-in-go-2dcg)
 - [ishantgaurav.in: Complete Application Deployment using Kubernetes](https://ishantgaurav.in/2021/06/22/complete-application-deployment-using-kubernetes)
 - [betterprogramming.pub: Deploy a Python API With Docker and Kubernetes](https://betterprogramming.pub/python-fastapi-kubernetes-gcp-296e0dc3abb6) Autoscale compute-intensive workloads to keep up with changing demand
@@ -203,7 +203,7 @@
 - [howtoforge.com: How to deploy your first pod on a Kubernetes Cluster](https://www.howtoforge.com/how-to-deploy-your-first-pod-on-a-kubernetes-cluster)
 - [==github.com/AdminTurnedDevOps/kubernetes-examples==](https://github.com/AdminTurnedDevOps/kubernetes-examples) This repo contains a bunch of Kubernetes examples
 - [levelup.gitconnected.com: Deploying a Simple Golang Web App to Kubernetes](https://levelup.gitconnected.com/deploying-simple-golang-webapp-to-kubernetes-25dc1736dcc4) Part II: Deployment Using YAML Configuration
-- [==medium.com/groupon-eng: LoadBalancer Services using Kubernetes in Docker (kind)==](https://medium.com/groupon-eng/loadbalancer-services-using-kubernetes-in-docker-kind-694b4207575d) In this tutorial, you'll learn how to build a multi-node kind cluster with `extraPortMappings` to forward requests from your host to an NGINX ingress controller
+- [==medium.com/groupon-eng: LoadBalancer Services using Kubernetes in Docker (kind)==](https://medium.com/groupon-eng/loadbalancer-services-using-kubernetes-in-docker-kind-694b4207575d) you'll learn how to build a multi-node kind cluster with `extraPortMappings` to forward requests from your host to an NGINX ingress controller
 - [devxblog.hashnode.dev: Deploying Microservices with Persistent Volumes in Kubernetes - Kubernetes Microservice Flask Application](https://devxblog.hashnode.dev/kubernetes-microservice-flask-application-1)
 - [medium.com/@hmquan08011996: Setup Microservices on Kubernetes — Write a Configuration File](https://medium.com/@hmquan08011996/set-up-microservice-on-kubernetes-write-config-file-8df7c2b07a4c) Deployed the microservice to Kubernetes
 - [==github.com/AdminTurnedDevOps/kubernetes-in-production-examples==](https://github.com/AdminTurnedDevOps/kubernetes-in-production-examples) This repo contains examples of a few tools and services you may use in production.
@@ -248,9 +248,9 @@
 ### Istio Service Mesh
 
 - [github: redhat-developer-demos Istio Tutorial for Java Microservices](https://github.com/redhat-scholars/istio-tutorial)
-- [blog.jetstack.io: Istio OIDC Authentication](https://developer.cyberark.com/blog/istio-oidc-authentication) In this article you'll deploy an app and secure it with authenticaiton and authorisation for using Istio
+- [blog.jetstack.io: Istio OIDC Authentication](https://developer.cyberark.com/blog/istio-oidc-authentication)you'll deploy an app and secure it with authenticaiton and authorisation for using Istio
 - [github.com/stefanprodan/gitops-istio: A GitOps recipe for Progressive Delivery with Flux v2, Flagger and Istio 🌟](https://github.com/stefanprodan/gitops-istio)
-- [blog.alexellis.io: A bit of Istio before tea-time](https://blog.alexellis.io/a-bit-of-istio-before-tea-time) In this post you will learn how to set up a full Istio demo running with a public IP directly to your laptop Wirth KinD
+- [blog.alexellis.io: A bit of Istio before tea-time](https://blog.alexellis.io/a-bit-of-istio-before-tea-time)you will learn how to set up a full Istio demo running with a public IP directly to your laptop Wirth KinD
 
 ### Envoy Service Mesh
 
@@ -270,7 +270,7 @@
 
 - [Deploy a Rancher Cluster with GitLab CI and Terraform](https://www.suse.com/c/rancher_blog/deploy-a-rancher-cluster-with-gitlab-ci-and-terraform)
 - [cncf.io: Implementing GitOps on Kubernetes Using K3s, Rancher, Vault and Argo CD](https://www.cncf.io/blog/2020/11/12/implementing-gitops-on-kubernetes-using-k3s-rancher-vault-and-argo-cd)
-- [stackrox.com: Part 1 - Rancher Kubernetes Engine (RKE) Security Best Practices for Cluster Setup 🌟](https://www.stackrox.com/post/2021/01/part-1-rancher-kubernetes-engine-rke-security-best-practices-for-cluster-setup)
+- [stackrox.com: Part 1 - Rancher Kubernetes Engine (RKE) Security Best Practices for Cluster Setup 🌟](https://www.stackrox.io/blog/rancher-kubernetes-engine-security-part-1)
 - [thenewstack.io: Maximize K3s Resource Efficiency with Calico eBPF Data Plane](https://thenewstack.io/maximize-k3s-resource-efficiency-with-calico-ebpf-data-plane)
 
 ### GitOps Workflow with Flux
@@ -281,7 +281,7 @@
 
 ### Amazon EKS. Deploy example microservices on EKS
 
-- [eksworkshop.com](https://eksworkshop.com )
+- [eksworkshop.com](https://eksworkshop.com/ )
 - [eksworkshop.com/x-ray/microservices](https://eksworkshop.com/x-ray/microservices)
 - [eksworkshop.com: Configure Cluster Autoscaler (CA)](https://eksworkshop.com/scaling/deploy_ca)
 - [aws.amazon.com: Deploy a kubernetes application](https://docs.aws.amazon.com/eks/latest/userguide/sample-deployment.html)
@@ -369,7 +369,7 @@
 - [openshift.com: Simple Canary Deployments using Kubernetes StatefulSets on OpenShift](https://www.redhat.com/en/blog/simple-canary-deployments-using-kubernetes-statefulsets-on-openshift)
 - [github.com/jbossdemocentral: Red Hat Process Automation Manager Mortgage Demo](https://github.com/jbossdemocentral/rhpam7-mortgage-demo)
 - [medium: Tutorial : Secure your API with x509 Mutual Authentication with Spring Boot on OpenShift4](https://medium.com/@erfin.feluzy/tutorial-secure-your-api-with-x509-mutual-authentication-with-spring-boot-on-openshift4-416a00a47af8)
-- [medium.com: Red Hat OpenShift Virtualization in nested VMware vSphere Cluster](https://medium.com/@carlosedp/red-hat-openshift-virtualization-in-nested-vmware-vsphere-56c5e5d76a80) In this post, I'll go thru the process of running Virtual Machines on OpenShift Virtualization in a nested setup inside VMware vSphere. This requires both ESXi hosts and a VCenter, both on 6.7U3 or up.
+- [medium.com: Red Hat OpenShift Virtualization in nested VMware vSphere Cluster](https://medium.com/@carlosedp/red-hat-openshift-virtualization-in-nested-vmware-vsphere-56c5e5d76a80) I'll go thru the process of running Virtual Machines on OpenShift Virtualization in a nested setup inside VMware vSphere. This requires both ESXi hosts and a VCenter, both on 6.7U3 or up.
 - [schabell.org: CodeReady Containers - Building a Cloud-Native Human Resources Process](https://www.schabell.org/2020/10/codeready-containers-building-cloud-native-hr-process.html)
 - [developers.redhat.com: Persistent storage in action: Understanding Red Hat OpenShift’s persistent volume framework 🌟](https://developers.redhat.com/blog/2020/10/22/persistent-storage-in-action-understanding-red-hat-openshifts-persistent-volume-framework)
 - [opensource.com: Set up Minishift and run Jenkins on Linux](https://opensource.com/article/20/11/minishift-linux) Install, configure, and use Minishift to create your first pipeline.
@@ -395,7 +395,7 @@
 ### IBM Cloud Pak Playbooks and GitOps
 
 - [IBM Cloud Pak Playbook](https://cloudpak8s.io/apps/cp4a_overview)
-- [==cloud-native-toolkit/multi-tenancy-gitops== 🌟](https://github.com/cloud-native-toolkit/multi-tenancy-gitops) **Provides our opinionated point of view on how GitOps can be used to manage the infrastructure, services and application layers of K8s based systems.** The GitOps concept originated from Weaveworks back in 2017 and the goal was to automate the operations of a Kubernetes (K8s) system using a model external to the system as the source of truth (History of GitOps). **This repository provides our opinionated point of view on how GitOps can be used to manage the infrastructure, services and application layers of K8s based systems.** It takes into account the various personas interacting with the system and accounts for separation of duties. **The instructions and examples are focused around the Red Hat OpenShift platform and IBM Cloud Paks.** The reference architecture for this GitOps workflow can be found in the [GitOps IBM Cloud Paks reference architecture](https://cloudnativetoolkit.dev/adopting/use-cases/gitops/gitops-ibm-cloud-paks).
+- [==cloud-native-toolkit/multi-tenancy-gitops== 🌟](https://github.com/cloud-native-toolkit/multi-tenancy-gitops) **Provides our opinionated point of view on how GitOps can be used to manage the infrastructure, services and application layers of K8s based systems.** The GitOps concept originated from Weaveworks back in 2017 and the goal was to automate the operations of a Kubernetes (K8s) system using a model external to the system as the source of truth (History of GitOps). **This repository provides our opinionated point of view on how GitOps can be used to manage the infrastructure, services and application layers of K8s based systems.** It takes into account the various personas interacting with the system and accounts for separation of duties. **The instructions and examples are focused around the Red Hat OpenShift platform and IBM Cloud Paks.** The reference architecture for this GitOps workflow can be found [source code](https://cloudnativetoolkit.dev/adopting/use-cases/gitops/gitops-ibm-cloud-paks).
 
 ### Knative
 
@@ -416,7 +416,7 @@
 - [openshift.com: GitOps Using Red Hat OpenShift Pipelines (Tekton) and Red Hat Advanced Cluster Management to Deploy on Multiple Clusters 🌟](https://www.redhat.com/en/blog/gitops-using-red-hat-openshift-pipelines-tekton-and-red-hat-advanced-cluster-management-to-deploy-on-multiple-clusters)
 - [developers.redhat.com: Getting started with Tekton and Pipelines](https://developers.redhat.com/blog/2021/01/13/getting-started-with-tekton-and-pipelines)
 - [developers.redhat.com: Bootstrap GitOps with Red Hat OpenShift Pipelines and kam CLI](https://developers.redhat.com/articles/2021/07/21/bootstrap-gitops-red-hat-openshift-pipelines-and-kam-cli) Generate a #GitOps repository using the kam CLI for simple GitOps adoption by bootstrapping Git repositories with opinionated layouts for continuous delivery.
-- [==dev.to: What is Knative Serving? A Friendly Guide==](https://dev.to/wiggitywhitney/9-waa-w-what-is-knative-serving-a-friendly-guide-28f6) In this article you will explore several benefits of Knative Serving:
+- [==dev.to: What is Knative Serving? A Friendly Guide==](https://dev.to/wiggitywhitney/9-waa-w-what-is-knative-serving-a-friendly-guide-28f6)you will explore several benefits of Knative Serving:
     - Ease of deployment
     - Scale to zero
     - Traffic splitting
@@ -453,7 +453,7 @@
 - [==piotrminkowski.com: Continuous Delivery on Kubernetes with Database using ArgoCD and Liquibase==](https://piotrminkowski.com/2021/12/13/continuous-delivery-on-kubernetes-with-database-using-argocd-and-liquibase)
 - [medium.com/adaltas: GitOps in practice, deploy Kubernetes applications with ArgoCD](https://medium.com/adaltas/gitops-in-practice-deploy-kubernetes-applications-with-argocd-ca170ce8aba3)
 - [gokuldevops.medium.com: Argo CD-Sample app deployment](https://gokuldevops.medium.com/argo-cdsample-app-deployment-56b36601f279) Argo CD one of the most popular continues deployment tools used in Kubernetes. It is very simple to use and quite powerful. Personally, it is the first tool in my mind when I think of Kubernetes GitOps.
-- [==codefresh.io: Using Argo CD and Kustomize for ConfigMap Rollouts== 🌟🌟](https://octopus.com/blog/using-argo-cd-and-kustomize-for-configmap-rollouts) In this article, you will learn how to automatically rollout ConfigMap changes in your GitOps workflows using Argo CD and Kustomize.
+- [==codefresh.io: Using Argo CD and Kustomize for ConfigMap Rollouts== 🌟🌟](https://octopus.com/blog/using-argo-cd-and-kustomize-for-configmap-rollouts) how to automatically rollout ConfigMap changes in your GitOps workflows using Argo CD and Kustomize.
 - [medium.com/@martin.hodges: Spring Boot CI/CD on Kubernetes using Terraform, Ansible and GitHub: Part 12](https://medium.com/@martin.hodges/use-terraform-ansible-and-github-actions-to-automate-running-your-spring-boot-application-on-e82424da828e)
 - [mrcloudbook.com: Automating Tetris Deployments: DevSecOps with ArgoCD, Terraform, and Jenkins for Two Game Versions](https://mrcloudbook.com/automating-tetris-deployments-devsecops-with-argocd-terraform-and-jenkins-for-two-game-versions)
 - [mrcloudbook.com: GitOps: Deploying Tetris on EKS Using ArgoCD](https://mrcloudbook.com/gitops-deploying-tetris-on-eks-using-argocd)
@@ -482,7 +482,7 @@
 
 - [openshift.com: Applications Here, Applications There! - Part 3 - Application Migration](https://www.redhat.com/en/blog/applications-here-applications-there-part-3-application-migration)
 - [Advanced Cluster Management Demos](https://www.youtube.com/playlist?list=PLbMP1JcGBmSFA56rykbH2fg1F9Tozk4of) Want to manage Kubernetes clusters at scale? Struggle with Application Lifecycle? Need to ensure Security and Compliance policies across clusters? Check out these demos of Red Hat Advanced Cluster Manager (RHACM).
-- [redhat.com: ACM Ansible Integration Overview](https://www.redhat.com/en/about/videos/acm-ansible-integration-overview)
+- [redhat.com: ACM Ansible Integration Overview](https://www.redhat.com/en/blog)
 - [opensift.com: K8s Integrity Shield (tech-preview): Protecting the Integrity of Kubernetes Resources with Signature](https://www.redhat.com/en/blog/k8s-integrity-shield-tech-preview-protecting-the-integrity-of-kubernetes-resources-with-signature)
 - [cloud.redhat.com: How to Observe your Clusters with Red Hat Advanced Cluster Management - Customize the Grafana Dashboard](https://www.redhat.com/en/blog/how-to-observe-your-clusters-with-red-hat-advanced-cluster-management-customize-the-grafana-dashboard)
 
@@ -627,7 +627,7 @@
 - [Using Jenkins Pipeline parallel stages to build Maven project with different JDKs](https://e.printstacktrace.blog/using-jenkins-pipeline-parallel-stages-to-build-maven-project-with-different-jdks)
 - **Demo:** A single Jenkinsfile, a Java Maven project, a single Dockerfile, multiple Java versions build and tested in parallel thanks to SDKMAN:
     - [Using SDKMAN! as a docker image for Jenkins Pipeline - a step by step guide 🌟](https://e.printstacktrace.blog/using-sdkman-as-a-docker-image-for-jenkins-pipeline-a-step-by-step-guide)
-    - [Multiple Java versions in a single Jenkins Pipeline using Docker and SDKMAN 🌟](https://www.youtube.com/watch?v=j1lH3vOhucw) In this video, I show you how you can use Jenkins Declarative Pipeline to create a build pipeline that compiles the Maven Java project using three different Java versions (8, 11, and 15.) You will learn how to use a matrix section of the Jenkins Pipeline to define parallel stages, as well as how to create a Docker image that provides both Java and Maven using the powerful SDKMAN command-line tool. After watching this video you should feel comfortable with setting up multiple parallel stages to build your Java project using different versions of the compiler. And what is most important - it does not require creating Dockerfiles for each Java version. I will show you how to build the pipeline using just a single Dockerfile that does the job.
+    - [Multiple Java versions in a single Jenkins Pipeline using Docker and SDKMAN 🌟](https://www.youtube.com/watch?v=j1lH3vOhucw) I show you how you can use Jenkins Declarative Pipeline to create a build pipeline that compiles the Maven Java project using three different Java versions (8, 11, and 15.) You will learn how to use a matrix section of the Jenkins Pipeline to define parallel stages, as well as how to create a Docker image that provides both Java and Maven using the powerful SDKMAN command-line tool. After watching this video you should feel comfortable with setting up multiple parallel stages to build your Java project using different versions of the compiler. And what is most important - it does not require creating Dockerfiles for each Java version. I will show you how to build the pipeline using just a single Dockerfile that does the job.
     - [Jenkins Pipeline Maven build demo](https://github.com/wololock/jenkine-pipeline-maven-demo/tree/sdkman)
 
 ??? note "Video: Jenkins Pipeline with multiple Java versions. Click to expand!"
@@ -669,7 +669,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [codeburst.io: Spinnaker by Example: Part 1](https://codeburst.io/spinnaker-by-example-part-1-c4de9180d689)
 - [codeburst.io: Spinnaker by Example: Part 2](https://codeburst.io/spinnaker-by-example-part-2-6f92a1fdaedf)
 - [codeburst.io: Spinnaker by Example: Part 3](https://codeburst.io/spinnaker-by-example-part-3-c6ed9ac5f8ce)
-- [dzone: Continuous Deployment on Kubernetes With Spinnaker](https://dzone.com/articles/continuous-deployment-on-kubernetes-with-spinnaker) In this article, learn how to setup Spinnaker and integrate it with Gitlab CI and Jenkins to build and run CI and CD pipelines.
+- [dzone: Continuous Deployment on Kubernetes With Spinnaker](https://dzone.com/articles/continuous-deployment-on-kubernetes-with-spinnaker) learn how to setup Spinnaker and integrate it with Gitlab CI and Jenkins to build and run CI and CD pipelines.
 - [armory.io: How to Set Up Liquibase in Spinnaker](https://www.harness.io/products/continuous-delivery)
 - [armory.io: Build a Deployment Pipeline with Spinnaker on Kubernetes](https://www.harness.io/products/continuous-delivery)
 - [hackernoon: Using Spinnaker with Kubernetes for CI/CD](https://hackernoon.com/using-spinnaker-with-kubernetes-for-cicd-52w3uo9)
@@ -683,8 +683,8 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 ## GitLab
 
 - [piotrminkowski.com: GitLab CI/CD on Kubernetes](https://piotrminkowski.com/2020/10/19/gitlab-ci-cd-on-kubernetes)
-- [about.gitlab.com: The basics of CI: How to run jobs sequentially, in parallel, or out of order](https://about.gitlab.com/blog/2020/12/10/basics-of-gitlab-ci-updated) New to continuous integration? Learn how to build your first CI pipeline with GitLab.
-- [==about.gitlab.com: GitOps with GitLab: Connect with a Kubernetes cluster==](https://about.gitlab.com/blog/2021/11/18/gitops-with-gitlab-connecting-the-cluster)
+- [about.gitlab.com: The basics of CI: How to run jobs sequentially, in parallel, or out of order](https://about.gitlab.com/blog/basics-of-gitlab-ci-updated) New to continuous integration? Learn how to build your first CI pipeline with GitLab.
+- [==about.gitlab.com: GitOps with GitLab: Connect with a Kubernetes cluster==](https://about.gitlab.com/blog/gitops-with-gitlab-connecting-the-cluster)
 - [medium.com/@kachidude007: Setting up an Access Token in GitLab for a Jenkins Pipeline](https://medium.com/@kachidude007/setting-up-an-access-token-in-gitlab-for-a-jenkins-pipeline-a688dd6c994a) Navigate to your GitLab Personal Token Page
 
 ## Spring PetClinic Sample Application
@@ -698,7 +698,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [liatrio.com: building with docker using jenkins pipelines](https://www.liatrio.ai/resources/blog)
 - [stackoverflow: How to define BuildConfig object with Jenkins and openshift](https://stackoverflow.com/questions/52337851/how-to-define-buildconfig-object-with-jenkins-and-openshift)
 - [cloudogu.com: CD with Jenkins, Nexus and cloudogu](https://platform.cloudogu.com/en/blog/cd-with-nexus-jenkins-ces)
-- [experfy.com e-learning: Effective Jenkins - Continuous Delivery and Continuous Integration](https://www.experfy.com/training/courses/effective-jenkins-continuous-delivery-and-continuous-integration)
+- [experfy.com e-learning: Effective Jenkins - Continuous Delivery and Continuous Integration](https://training.experfy.com/courses/effective-jenkins-continuous-delivery-and-continuous-integration)
 - [github.com/redhat-developer-demos/spring-petclinic 🌟](https://github.com/redhat-developer-demos/spring-petclinic)
 - https://github.com/Azure-Samples/spring-petclinic-microservices
 - https://github.com/Azure-Samples/spring-petclinic-microservices-config
@@ -760,7 +760,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [dzone.com: From Spring Boot Microservices to Lambda Functions 🌟🌟](https://dzone.com/articles/from-java-microservices-to-lambda-functions-a-jour) Get your microservices where they need to be.
 - [==AdminTurnedDevOps/DevOps-The-Hard-Way-AWS==](https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-AWS) **This repository contains free labs for setting up an entire workflow and DevOps environment from a real-world perspective in AWS**
 - [==medium.com/@adrianarba: CI/CD defined through terraform using AWS CodePipeline, AWS CodeCommit, and AWS CodeBuild==](https://medium.com/@adrianarba/ci-cd-defined-through-terraform-using-aws-codepipeline-aws-codecommit-and-aws-codebuild-12ade4d9cfa3)
-- [faun.pub: Using AWS Session Manager With Ansible To Execute Playbook On EC2](https://faun.pub/using-aws-session-manager-with-ansible-to-execute-playbook-on-ec2-ac97fa17b187) In this post, we’ll see how we can use AWS Session Manager instead of SSH to connect to an EC2 instance and execute a playboook.
+- [faun.pub: Using AWS Session Manager With Ansible To Execute Playbook On EC2](https://faun.pub/using-aws-session-manager-with-ansible-to-execute-playbook-on-ec2-ac97fa17b187) we’ll see how we can use AWS Session Manager instead of SSH to connect to an EC2 instance and execute a playboook.
 - [betterprogramming.pub: Build a Cloud-Native Multiprocessing Framework](https://betterprogramming.pub/build-a-cloud-native-multiprocessing-framework-b33cfc2c02b9) How to convert a local multiprocessing framework to the cloud
 - [github.com/aws-samples: Guide to Resource Tagging Automation](https://github.com/aws-samples/resource-tagging-automation) A Lambda function for Resource Tagging Automation
 - [aws.plainenglish.io: Trigger, Function, Message | Brandi McCall](https://aws.plainenglish.io/trigger-function-message-12f117b7f067) Utilizing Amazon API Gateway to Invoke a Python AWS Lambda to Send a Message to Amazon SQS
@@ -772,8 +772,8 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 
 - [github.com/Azure-Samples 🌟](https://github.com/Azure-Samples) Microsoft Azure code samples and examples in .NET, Java, Python, Node.js, PHP and Ruby
 - [doylestowncoder.com: Building CI/CD Pipelines with Azure Data Factory: Part 1](https://travelrasik.com/category/asia)
-    - [doylestowncoder.com: Building CI/CD Pipelines with Azure Data Factory: Part 2](https://doylestowncoder.com/2021/12/02/building-ci-cd-pipelines-with-azure-data-factory-part-2)
-    - [doylestowncoder.com: Building CI/CD Pipelines with Azure Data Factory: Part 3](https://doylestowncoder.com/2021/12/05/building-ci-cd-pipelines-with-azure-data-factory-part-3)
+    - [doylestowncoder.com: Building CI/CD Pipelines with Azure Data Factory: Part 2](https://travelrasik.com/category/asia)
+    - [doylestowncoder.com: Building CI/CD Pipelines with Azure Data Factory: Part 3](https://travelrasik.com/category/asia)
 - [github.com/microsoft: Contoso Traders - Cloud testing tools demo app](https://github.com/microsoft/contosotraders-cloudtesting#contoso-traders---cloud-testing-tools-demo-app) The Contoso Traders app is a sample application showcasing Playwright, Azure Load Testing, Azure Chaos Studio.
 
 ### Azure DevOps Demos. Azure DevOps Pipelines
@@ -784,7 +784,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [reddit.com: Automate Infrastructure Deployments on Microsoft Azure with Terraform and Jenkins](https://www.reddit.com/r/Terraform/comments/h0tdq3/automate_infrastructure_deployments_on_microsoft)
 - [docs.microsoft.com: Deploy Spring microservices to Azure](https://learn.microsoft.com/en-us/azure/container-apps)
 - [davidsr.me: Deploy Azure WAF with Terraform and Azure DevOps](https://davidsr.me/deploy-azure-waf-with-terraform-and-azure-devops)
-- [==thomasthornton.cloud: A DevOps journey using Azure DevOps==](https://thomasthornton.cloud/2021/12/26/a-devops-journey-using-azure-devops) - [thomast1906/DevOps-Journey-Using-Azure-DevOps 🌟](https://github.com/thomast1906/DevOps-Journey-Using-Azure-DevOps/tree/main/labs)
+- [==thomasthornton.cloud: A DevOps journey using Azure DevOps==](https://thomasthornton.cloud/a-devops-journey-using-azure-devops) - [thomast1906/DevOps-Journey-Using-Azure-DevOps 🌟](https://github.com/thomast1906/DevOps-Journey-Using-Azure-DevOps/tree/main/labs)
 - [lambdatest.com: How To Build a CI/CD Pipeline In Azure DevOps ?](https://www.testmuai.com/blog/build-ci-cd-pipeline-in-azure-devops)
 - [medium.com/tea-networks: Kubernetes & CI/CD Pipeline](https://medium.com/tea-networks/kubernetes-ci-cd-pipeline-c028aea17535)
 - [==docs.microsoft.com: Create a build pipeline with Azure Pipelines==](https://learn.microsoft.com/en-gb/azure/devops/pipelines/build/ci-build-git?view=azure-devops)
@@ -889,7 +889,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 ## Prometheus and Grafana
 
 - [docker-compose-tpg: Telegraf + Prometheus + Grafana Local Testing Environments](https://github.com/xiaopeng163/docker-compose-tpg) Setup learning environment for Telegraf, Prometheus and Grafana with docker-compose. (include SNMP simulators).
-- [grafana.com: How Istio, Tempo, and Loki speed up debugging for microservices](https://grafana.com/blog/2021/08/31/how-istio-tempo-and-loki-speed-up-debugging-for-microservices)
+- [grafana.com: How Istio, Tempo, and Loki speed up debugging for microservices](https://grafana.com/blog/how-istio-tempo-and-loki-speed-up-debugging-for-microservices)
 - [medium.com/geekculture: Monitoring your system with Docker + Grafana + Prometheus + Node](https://medium.com/geekculture/monitoring-your-system-with-docker-grafana-prometheus-node-d7fae11416f3)
 
 ## GitHub Actions
@@ -903,7 +903,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [codeproject.com: Making a Simple Data Pipeline Part 4: CI/CD with GitHub Actions](https://www.codeproject.com/Articles/5320647/Making-a-Simple-Data-Pipeline-Part-4-CI-CD-with-Gi)
 - [levelup.gitconnected.com: GitOps: CI/CD using GitHub Actions and ArgoCD on Kubernetes](https://levelup.gitconnected.com/gitops-ci-cd-using-github-actions-and-argocd-on-kubernetes-909d85d37746) Deploying Helm Charts on AWS EKS Cluster using ArgoCD and GitOps.
 - [freecodecamp.org: How to Setup a CI/CD Pipeline with GitHub Actions and AWS](https://www.freecodecamp.org/news/how-to-setup-a-ci-cd-pipeline-with-github-actions-and-aws)
-- [nicwortel.nl: Continuous deployment to Kubernetes with GitHub Actions](https://nth-root.nl/en/guides/automate-kubernetes-deployments-with-github-actions) In this article, you will learn how to use GitHub Actions to automatically test, build and deploy your Docker images to Kubernetes on every commit to the main branch
+- [nicwortel.nl: Continuous deployment to Kubernetes with GitHub Actions](https://nth-root.nl/en/guides/automate-kubernetes-deployments-with-github-actions) how to use GitHub Actions to automatically test, build and deploy your Docker images to Kubernetes on every commit to the main branch
 - [medium.com/geekculture: GitOps — Github Actions K8s Deploy Workflow](https://medium.com/geekculture/gitops-github-actions-k8s-deploy-workflow-54f0d9a1d11b)
 - [eggboy.medium.com: CI/CD Java apps securely to Azure Kubernetes Service with GitHub Action — Part 1](https://eggboy.medium.com/ci-cd-java-apps-securely-to-azure-kubernetes-service-with-github-action-part-1-16393af4d097)
 - [github.com/GitHubSecurityLab/actions-permissions: GitHub token permissions Monitor and Advisor actions](https://github.com/GitHubSecurityLab/actions-permissions) **GitHub token permissions Monitor and Advisor actions**

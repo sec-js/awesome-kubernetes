@@ -304,8 +304,8 @@
 - [Ansible Roles Explained | Cheat Sheet](https://linuxacademy.com/blog/red-hat/ansible-roles-explained)
 - [edureka.co: Ansible Cheat Sheet – A DevOps Quick Start Guide](https://www.edureka.co/blog/cheatsheets/ansible-cheat-sheet-guide)
 - [intellipaat.com: Ansible Basic Cheat Sheet](https://intellipaat.com/blog/tutorial/devops-tutorial/ansible-basic-cheat-sheet)
-- [mrxpalmeiras: Ansible Cheat Sheet](https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fsite%2Fmrxpalmeiras%2Fansible%2Fansible-cheat-sheet&dsh=S1127513064%3A1779041015006518&followup=https%3A%2F%2Fsites.google.com%2Fsite%2Fmrxpalmeiras%2Fansible%2Fansible-cheat-sheet&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AWa2PatKhgmTZTEkwb3Q5nWpkPt4ntDFIyQrUJIi2ZjPJ-M3IOraCUtKjEa4_jbOFaWLmjeqIlS_)
-- [google.com/site/mrxpalmeiras: Ansible Cheat Sheet 🌟](https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fsite%2Fmrxpalmeiras%2Fansible%2Fansible-cheat-sheet&dsh=S1127513064%3A1779041015006518&followup=https%3A%2F%2Fsites.google.com%2Fsite%2Fmrxpalmeiras%2Fansible%2Fansible-cheat-sheet&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AWa2PatKhgmTZTEkwb3Q5nWpkPt4ntDFIyQrUJIi2ZjPJ-M3IOraCUtKjEa4_jbOFaWLmjeqIlS_)
+- [mrxpalmeiras: Ansible Cheat Sheet](https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fsite%2Fmrxpalmeiras%2Fansible%2Fansible-cheat-sheet&dsh=S-1707972940%3A1779029132636791&followup=https%3A%2F%2Fsites.google.com%2Fsite%2Fmrxpalmeiras%2Fansible%2Fansible-cheat-sheet&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AWa2PaujYnU1vHeNQrrR9IV_P56nGiUWnqqM_hG1PBGMZyTXDsxITg7865jvpdfY8gDYaRf3YwR5Kw)
+- [google.com/site/mrxpalmeiras: Ansible Cheat Sheet 🌟](https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fsite%2Fmrxpalmeiras%2Fansible%2Fansible-cheat-sheet&dsh=S-1707972940%3A1779029132636791&followup=https%3A%2F%2Fsites.google.com%2Fsite%2Fmrxpalmeiras%2Fansible%2Fansible-cheat-sheet&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AWa2PaujYnU1vHeNQrrR9IV_P56nGiUWnqqM_hG1PBGMZyTXDsxITg7865jvpdfY8gDYaRf3YwR5Kw)
 - [Ansible k8s cheat sheet 🌟](https://opensource.com/downloads/ansible-k8s-cheat-sheet) The Ansible k8s module enables you to manage Kubernetes objects with Ansible playbooks.
 - [fosstechnix.com: Ansible ad hoc commands with Examples](https://www.fosstechnix.com/ansible-ad-hoc-commands-with-examples)
 
@@ -406,7 +406,7 @@
 - [bogotobogo.com](https://www.bogotobogo.com/Java/tutorials/Spring-Boot/Maven-mvn-command-cheat-sheet.php)
 - [lzone.de/cheat-sheet/Maven](https://lzone.de/#/LZone%20Cheat%20Sheets/Maven)
 - [gist.github.com/michaellihs (jenkins pipeline)](https://gist.github.com/michaellihs/b08c89581ec597fa198cf74e2239f4a6)
-- [confluence.sakaiproject.org](https://sakaiproject.atlassian.net/wiki/spaces/REL/pages/1314427619/Maven+release+plugin+cheat+sheet)
+- [confluence.sakaiproject.org](https://sakaiproject.atlassian.net/wiki)
 
 ## Gradle Cheat Sheets
 
@@ -438,7 +438,7 @@
 - [Dzone Refcard: Getting Started with Apache JMeter](https://dzone.com/refcardz/getting-started-with-apache-jmeter?chapter=1)
 - [Groovy Templates Cheat Sheet for JMeter](https://dzone.com/articles/the-groovy-templates-cheat-sheet-for-jmeter) Need help with your Groovy templates? Check out this cheat sheet to help you get started with scripting in Apache JMeter.
 - [JMeter Web Application Testing Cheatsheet](http://blog.extremehacking.org/blog/2015/11/09/jmeter-web-application-testing-cheatsheet)
-- [CheatSheet for JMeter __time Function Calls](https://hellotestworld.com/2016/02/02/cheatsheet-for-jmeter-__time-function-calls)
+- [CheatSheet for JMeter __time Function Calls](https://www.ufcquechoisir-brest.org)
 - [martkos-it.co.uk: JMeter Cheat Sheet](https://martkos-it.co.uk/our-work/jmeter-testing-cheat-sheet-ng5zm-97y43-af8tj) This jmeter cheat sheet provides gentle reminders of the usage of jmeter gui/non-gui. It includes installation/execution, plugins, shortcut keys and functions and variables.
     - [jmeter-testing-cheat-sheet-v10.pdf](https://martkos-it.co.uk/s/jmeter-testing-cheat-sheet-v10.pdf)
 - [Cheat Sheet for Regular Expression in Jmeter](http://performanceoptimize.blogspot.com/2017/04/RegularExpressionCheatSheet.html)
@@ -451,7 +451,7 @@
 
 - [markdownguide.org](https://www.markdownguide.org)
     - [Markdown Cheat Sheet 1](https://markdownguide.offshoot.io/cheat-sheet)
-- [guides.github.com: Markdown Cheat Sheet 2](https://docs.github.com/en/pdfs/markdown-cheatsheet-online.pdf)
+- [guides.github.com: Markdown Cheat Sheet 2](https://docs.github.com/en)
 - [Markdown Cheat Sheet 4](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [freecodecamp.org: Markdown Cheat Sheet – How to Write in Markdown with Examples](https://www.freecodecamp.org/news/markdown-cheat-sheet)
 
@@ -472,7 +472,7 @@
 ## TypeScript
 
 - [React+TypeScript Cheatsheets](https://github.com/typescript-cheatsheets/react)
-- [docs.microsoft.com: Build JavaScript applications using TypeScript](https://learn.microsoft.com/en-us/training/paths/build-javascript-applications-typescript)
+- [docs.microsoft.com: Build JavaScript applications using TypeScript](https://www.typescriptlang.org)
 - [levelup.gitconnected.com: NestJS: Microservices with gRPC, API Gateway, and Authentication — Part 1/2](https://levelup.gitconnected.com/nestjs-microservices-with-grpc-api-gateway-and-authentication-part-1-2-650009c03686) Step-by-Step Guide: NestJS Applications with TypeScript, gRPC, API Gateway, Authentication, and Validation.
 - [freecodecamp.org: How TypeScript Interfaces Work – Explained with Examples](https://www.freecodecamp.org/news/how-typescript-interfaces-work)
 

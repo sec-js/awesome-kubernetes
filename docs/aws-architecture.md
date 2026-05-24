@@ -43,7 +43,7 @@
 
 ## AWS Case Studies
 
-- [Thomas Publishing Case Study](https://aws.amazon.com/solutions/case-studies/thomas-publishing)  After moving to AWS, we were able to shut down our largest data center, eliminating hundreds of thousands of dollars in associated real estate, facility operations, and power and cooling costs.
+- [Thomas Publishing Case Study](https://aws.amazon.com/solutions/case-studies)  After moving to AWS, we were able to shut down our largest data center, eliminating hundreds of thousands of dollars in associated real estate, facility operations, and power and cooling costs.
 
 ## AWS Best Practices and Tips. AWS Performance. Handling AWS Failures and Outages
 

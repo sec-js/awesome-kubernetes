@@ -25,7 +25,7 @@
 - [blog.thundra.io: 4 Software Testing Roles](https://blog.thundra.io/4-software-testing-roles)
 - [lambdatest.com: TestNG vs JUnit : Which testing framework should you choose?](https://www.testmuai.com/blog/testng-vs-junit-which-testing-framework-should-you-choose)
 - [botplayautomation.com: Common mistakes test teams make in automation testing and how to fix them](https://www.botplayautomation.com/post/common-mistakes-test-teams-make-in-automation-testing-and-how-to-fix-them)
-- [blog.testproject.io: A Complete Guide to Test Automation Framework 🌟](https://blog.testproject.io/2021/06/17/a-complete-guide-to-test-automation-framework)
+- [blog.testproject.io: A Complete Guide to Test Automation Framework 🌟](https://www.tricentis.com/learn)
     - [Test Automation Framework: TestProject](https://www.tricentis.com) TestProject is a free end-to-end test automation platform for web, mobile, and API testing that’s supported by
 the #1 test automation community.
 - [botplayautomation.com: Automation Test Plan](https://www.botplayautomation.com/post/automation-test-plan)
@@ -36,9 +36,9 @@ the #1 test automation community.
 - [blog.thundra.io: How to Fix Your Failing End-to-End Tests?](https://blog.thundra.io/how-to-fix-your-failing-end-to-end-tests)
 - [rookout.com: How Real-Time Debugging Improves Reliability](https://www.dynatrace.com/solutions/observability-for-developers)
 - [itnext.io: Software Development Is Misunderstood 🌟](https://itnext.io/software-development-is-misunderstood-quality-is-fastest-way-to-get-code-into-production-f1f5a0792c69) Quality is fastest way to get code into production. **Non-developers focus on creating code, developers focus on creating maintainable code**
-- [blog.testproject.io: The 10–10–10 Rule of Test Automation](https://blog.testproject.io/2021/07/21/the-10-10-10-rule-of-test-automation)
-- [blog.testproject.io: End to End Testing](https://blog.testproject.io/2021/07/22/end-to-end-testing)
-- [blog.testproject.io: REST API Automation From Scratch 🌟](https://blog.testproject.io/2021/07/28/rest-api-automation-from-scratch)
+- [blog.testproject.io: The 10–10–10 Rule of Test Automation](https://www.tricentis.com/learn)
+- [blog.testproject.io: End to End Testing](https://www.tricentis.com/learn)
+- [blog.testproject.io: REST API Automation From Scratch 🌟](https://www.tricentis.com/learn)
 - [dzone: Checklist for API Verification 🌟](https://dzone.com/articles/checklist-for-api-verification) These days where Applications talk to each other using API, the verification of any message between the applications/microservices needs to be verified. This checklist includes some best practices for API verification.
 - [thenewstack.io: 7 Benefits of Testing in Isolation](https://thenewstack.io/7-benefits-of-testing-in-isolation)
 - [dzone: We Are Testing Software Incorrectly and It's Costly](https://dzone.com/articles/we-are-testing-software-incorrectly-and-its-costly) We should write tests to enable developers to move fast with confidence. Code is always evolving, so question everything, collect experience, and judge for yourself.
@@ -52,15 +52,15 @@ the #1 test automation community.
 - [adequatica.medium.com: Principles of Writing Automated Tests](https://adequatica.medium.com/principles-of-writing-automated-tests-a2b72218264c) While working on test automation in different projects, I’ve learned that there are not enough static analyzers and code formatters for writing good tests. The team had to have an agreement on how the tests should be written.
 - [getxray.app: The top 5 software testing trends of 2022](https://www.getxray.app/blog/the-top-5-software-testing-trends-of-2022)
 - [linkedin.com: Microservices are testable in isolation 🌟](https://www.linkedin.com/pulse/microservices-testable-isolation-chris-richardson)
-- [dzone: Testing the Untestable and Other Anti-Patterns](https://dzone.com/articles/testing-the-untestable-and-other-anti-patterns) The productive path to establishing and maintaining effective test automation is not easy. In this post, explore well-intentioned yet harmful anti-patterns.
+- [dzone: Testing the Untestable and Other Anti-Patterns](https://dzone.com/articles/testing-the-untestable-and-other-anti-patterns) The productive path to establishing and maintaining effective test automation is not easy. explore well-intentioned yet harmful anti-patterns.
 - [softwaretestingsapiens.com: Roadmap to learn API Testing in Just 30 days](https://www.softwaretestingsapiens.com/roadmap-to-learn-api-testing)
 
 ## Blogs
 
-- https://automationqahub.com
-- https://www.botplayautomation.com
-- https://www.lambdatest.com
-- https://blog.testproject.io
+- https://automationqahub.com/
+- https://www.botplayautomation.com/
+- https://www.lambdatest.com/
+- https://blog.testproject.io/
 
 ## Testing Frameworks
 
@@ -102,11 +102,11 @@ the #1 test automation community.
 - [==google/clusterfuzzlite== 🌟](https://github.com/google/clusterfuzzlite) ClusterFuzzLite - Simple continuous [fuzzing](https://en.wikipedia.org/wiki/Fuzzing) that runs in CI.
     - [thenewstack.io: Google Introduces ClusterFuzzLite Security Tool for CI/CD](https://thenewstack.io/google-introduces-clusterfuzzlite-security-tool-for-ci-cd)
 - [convert.com: Top 10 A/B Testing Tools That Are Good for the Next 5 Years (Vetted by Features, Privacy, Maturity & Price)](https://www.convert.com/blog/a-b-testing/a-b-testing-tools-2022-beyond)
-    - [grafana.com: How to build performance tests into your CI pipeline with k6, GitHub Actions, and Grafana](https://grafana.com/blog/2021/11/29/how-to-build-performance-tests-into-your-ci-pipeline-with-k6-github-actions-and-grafana)
-    - [itnext.io: How to run distributed performance tests in Kubernetes with K6](https://itnext.io/how-to-run-distributed-performance-tests-in-kubernetes-with-k6-and-elasticsearch-4ff8142bc774) In this article, you'll learn how to perform load testing natively on a Kubernetes cluster using multiple pods simulating real-world traffic to test an ElasticSearch cluster deployed using the ECK Operator
+    - [grafana.com: How to build performance tests into your CI pipeline with k6, GitHub Actions, and Grafana](https://grafana.com/blog/how-to-build-performance-tests-into-your-ci-pipeline-with-k6-github-actions-and-grafana)
+    - [itnext.io: How to run distributed performance tests in Kubernetes with K6](https://itnext.io/how-to-run-distributed-performance-tests-in-kubernetes-with-k6-and-elasticsearch-4ff8142bc774) you'll learn how to perform load testing natively on a Kubernetes cluster using multiple pods simulating real-world traffic to test an ElasticSearch cluster deployed using the ECK Operator
 - [==circleci.com: Unit testing vs integration testing== 🌟](https://circleci.com/blog/unit-testing-vs-integration-testing)
 - [==reviewdog - A code review dog who keeps your codebase healthy.==](https://github.com/reviewdog/reviewdog) 🐶 Automated code review tool integrated with any code analysis tools regardless of programming language
-- [==dzone: Component Tests for Spring Cloud Microservices==](https://dzone.com/articles/component-tests-for-spring-cloud-microservices) In this tutorial, we discussed guidelines and considerations for Spring Cloud microservices component tests and provided a recipe for common use cases.
+- [==dzone: Component Tests for Spring Cloud Microservices==](https://dzone.com/articles/component-tests-for-spring-cloud-microservices) we discussed guidelines and considerations for Spring Cloud microservices component tests and provided a recipe for common use cases.
 - [CoolerVoid/codecat: CodeCat - Tool to help in static code analysis](https://github.com/CoolerVoid/codecat) CodeCat is an open-source tool to help you find/track user input sinks and security bugs using static code analysis. These points follow regex rules.
 - [==beellz.hashnode.dev: Continuous Profiling in Kubernetes Using Pyroscope==](https://beellz.hashnode.dev/continuous-profiling-in-kubernetes-using-pyroscope) In this blog post, you will learn about continuous profiling, and then instrument a few microservices running on Kubernetes using an open-source tool called Pyroscope to find performance issues and bottlenecks in your code.
 

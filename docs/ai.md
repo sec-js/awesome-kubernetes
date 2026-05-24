@@ -47,7 +47,7 @@
 - [aman.ai: Primers • Generative Pre-trained Transformer (GPT)](https://aman.ai/primers/ai/gpt)
 
 ## LLMOps
-  - [Development Environments for Cloud Agents](https://cursor.com/blog/cloud-agent-development-environments) 🌟 - This article introduces Cursor's new tools for configuring development environments for cloud agents. It highlights the importance of robust environments for agents to perform end-to-end engineering tasks, including accessing codebases, dependencies, credentials, and build systems. The feature supports multi-repo environments, allowing agents to reason across multiple codebases, which is crucial for microservice architectures.
+  - [Development Environments for Cloud Agents](https://cursor.com/blog/cloud-agent-development-environments) 🌟 -Cursor's new tools for configuring development environments for cloud agents. It highlights the importance of robust environments for agents to perform end-to-end engineering tasks, including accessing codebases, dependencies, credentials, and build systems. The feature supports multi-repo environments, allowing agents to reason across multiple codebases, which is crucial for microservice architectures.
   - [Cursor AI Fundamentals Course](https://cursor.com/es/learn) - Official tutorials for Cursor, covering AI fundamentals including models, tokens, hallucinations, agents, MCP, skills, and context. The course is in Spanish and consists of 13 modules.
   - [Cursor Bugbot Effort Levels Documentation](https://cursor.com/docs/bugbot#effort-levels) - Documentation for Cursor's Bugbot, introducing 'effort levels' for users on usage-based plans. These levels can be configured via the Bugbot dashboard.
   - [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) - A course from Anthropic Academy that provides comprehensive training on using Claude Code for software development tasks. It covers the underlying architecture of AI coding assistants, practical implementation techniques, and advanced integration strategies. Key topics include understanding coding assistant architecture, exploring Claude Code's tool use system, mastering context management techniques, implementing visual communication workflows, creating custom automation, and extending functionality with MCP servers.
@@ -77,7 +77,7 @@
     - La startup, con sede en París, acaba de lanzar su modelo de lenguaje Mistral Large y su chatbot conversacional Le Chat
 
 ## Kubernetes and AI
-  - [Introducing Kiro: AWS Agentic AI-Based IDE](https://markrosscloud.medium.com/introducing-kiro-aws-agentic-ai-based-ide-cded711b1409) - This article introduces Kiro, an AI-based IDE designed to leverage agentic AI for cloud development, specifically mentioning its integration with AWS and potential for Kubernetes environments.
+  - [Introducing Kiro: AWS Agentic AI-Based IDE](https://markrosscloud.medium.com/introducing-kiro-aws-agentic-ai-based-ide-cded711b1409) -Kiro, an AI-based IDE designed to leverage agentic AI for cloud development, specifically mentioning its integration with AWS and potential for Kubernetes environments.
   - [Limitless Kubernetes Scaling for AI and Data-intensive Workloads: The AKS Fleet Strategy](http://blog.aks.azure.com/2025/04/02/Scaling-Kubernetes-for-AI-and-Data-intensive-Workloads) - *(Related to kubernetes topic)*
   - [Warp: The Agentic Development Environment](https://www.warp.dev) - *(Related to kubernetes-tools topic)*
 

@@ -47,7 +47,7 @@
 - [==github.com/public-apis/public-apis: Try Public APIs for free== 🌟](https://github.com/public-apis/public-apis) **A collective list of free APIs. Explore popular APIs and see them work in Postman.**
 - [apifriends.com: What is an API?](https://apifriends.com/api-management/what-is-an-api)
 - [axway.com: What is API Management?](https://www.axway.com/en/products/api-management/what-is-api-management)
-- [mulesoft.com: APIs versus web services](https://blogs.mulesoft.com/dev/api-dev/apis-versus-web-services)
+- [mulesoft.com: APIs versus web services](https://blogs.mulesoft.com/dev-guides/apis-versus-web-services)
 - [Youtube Playlist: Introduction to APIs](https://www.youtube.com/playlist?list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw)
 - [==Devdocs.io API Documentation== 🌟](https://devdocs.io)
 - [thenewstack.io: 5 Ways to Succeed with an API Gateway](https://thenewstack.io/5-ways-to-succeed-with-an-api-gateway)
@@ -76,7 +76,7 @@
     - Cualquiera que no haga esto será despedido.
 - [thenewstack.io: How to Achieve API Governance](https://thenewstack.io/how-to-achieve-api-governance) With APIs popping up everywhere, API strategy demands common design patterns, central discoverability, and putting users first.
 - [jkebertz.medium.com: The Art of Writing Amazing REST APIs](https://jkebertz.medium.com/the-art-of-writing-amazing-rest-apis-dc4c4100478d)
-- [freecodecamp.org: REST API Design Best Practices Handbook – How to Build a REST API with JavaScript, Node.js, and Express.js](https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api) When you're working with APIs, there are some basic best practices you should follow. And if you really want to learn how they work, build one yourself. In this guide Jean-Marc goes over each best practice as you build a REST API w/ JS, Node, & Express.
+- [freecodecamp.org: REST API Design Best Practices Handbook – How to Build a REST API with JavaScript, Node.js, and Express.js](https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api) When you're working with APIs, there are some basic best practices you should follow. And if you really want to learn how they work, build one yourself.Jean-Marc goes over each best practice as you build a REST API w/ JS, Node, & Express.
 - [infoq.com: Modern API Development and Deployment, from API Gateways to Sidecars](https://www.infoq.com/presentations/api-design-implement-document)
 - [betterprogramming.pub: How To Deprecate APIs the Right Way](https://betterprogramming.pub/how-to-deprecate-apis-the-right-way-371c1cbf1723) Deprecate your old APIs with the consciousness of your users
 - [dzone.com: REST vs. Messaging for Microservices 🌟](https://dzone.com/articles/rest-vs-messaging-for-microservices) Discover how to choose the right communication style for your microservices in this exploration of two common protocols.
@@ -110,12 +110,12 @@
 
 ### Postman State of the API Report
 
-- [postman.com: 2019 Postman State of the API Report 🌟](https://www.postman.com/state-of-the-api/2019)
+- [postman.com: Postman State of the API Report 🌟](https://www.postman.com/state-of-api/2025)
 - [blog.postman.com: You Can Now Capture Responses Using the Postman Proxy](https://blog.postman.com/capture-responses-using-the-postman-proxy)
 
 ### Smartbear State of the API Report
 
-- [smartbear.com: The State of API 2019 Report 🌟](https://smartbear.com/resources/ebooks/the-state-of-api-2019-report)
+- [smartbear.com: The State of API 2019 Report 🌟](https://smartbear.com/resources/all)
 
 ## Types of API Protocols. Interprocess Communication in Microservices
 
@@ -129,7 +129,7 @@
 - For information about the latest work on SOAP and a full list of SOAP specifications refer to the [W3C Technical Reports](https://www.w3.org/TR)
 - [guru99.com: SOAP Web Services Tutorial: Simple Object Access Protocol. What is SOAP?](https://www.guru99.com/soap-simple-object-access-protocol.html)
 - [jitendrazaa.com: Create SOAP message using Java](http://www.jitendrazaa.com/blog/java/create-soap-message-using-java)
-- [dzone: Creating a SOAP Web Service With Spring Boot Starter Web Services](https://dzone.com/articles/creating-a-soap-web-service-with-spring-boot-start) In this post, we cover the concepts of SOAP and REST and show you all the code you need to use SOAP web services in a Spring Boot app.
+- [dzone: Creating a SOAP Web Service With Spring Boot Starter Web Services](https://dzone.com/articles/creating-a-soap-web-service-with-spring-boot-start) we cover the concepts of SOAP and REST and show you all the code you need to use SOAP web services in a Spring Boot app.
 
 ### REST API Protocol (Representational State Transfer)
 
@@ -164,13 +164,13 @@
 
 - [gRPC](https://grpc.io)
 - [wikipedia: gRPC](https://en.wikipedia.org/wiki/GRPC)
-- [developers.googleblog.com: Introducing gRPC, a new open source HTTP/2 RPC Framework](https://developers.googleblog.com/2015/02/introducing-grpc-new-open-source-http2.html)
+- [developers.googleblog.com: Introducing gRPC, a new open source HTTP/2 RPC Framework](https://developers.googleblog.com/introducing-grpc-a-new-open-source-http2-rpc-framework)
 - [nordicapis.com: Using gRPC to Connect a Microservices Ecosystem](https://nordicapis.com/using-grpc-to-connect-a-microservices-ecosystem)
 - [cncf.io: Think gRPC, when you are architecting modern microservices!](https://www.cncf.io/blog/2021/07/19/think-grpc-when-you-are-architecting-modern-microservices)
 - [itnext.io: A minimalist guide to gRPC](https://itnext.io/a-minimalist-guide-to-grpc-e4d556293422) REST API is good but is it really the best option that we have?
 - [==gendocu.com: RPC API Developer Portal==](https://gendocu.com)
 - [==medium.com/javarevisited: Microservices communication using gRPC Protocol==](https://medium.com/javarevisited/microservices-communication-using-grpc-protocol-dc3a2f8b648d)
-- [blog.getambassador.io: Implementing gRPC-Web with Emissary-ingress](https://blog.getambassador.io/implementing-grpc-web-with-emissary-ingress-22aa0d86aac) In this article, you'll learn how to implement gRPC-Web (a JavaScript implementation of gRPC for browser clients) with Emissary-ingress — an Envoy-based API gateway and Ingress controller
+- [blog.getambassador.io: Implementing gRPC-Web with Emissary-ingress](https://blog.getambassador.io/implementing-grpc-web-with-emissary-ingress-22aa0d86aac) you'll learn how to implement gRPC-Web (a JavaScript implementation of gRPC for browser clients) with Emissary-ingress — an Envoy-based API gateway and Ingress controller
 
 ### Asynchronous APIs
 
@@ -183,7 +183,7 @@
 - [blog.bitsrc.io: Deep Dive into WebSockets](https://blog.bitsrc.io/deep-dive-into-websockets-e6c4c7622423) Understand the important attributes of WebSockets that every developer should know
 - [==betterprogramming.pub: Lambda vs. Step Functions: The Battle of Cost and Performance==](https://betterprogramming.pub/lambda-vs-step-functions-the-battle-of-cost-and-performance-5f008045e2ab) With the big push to use Step Functions over Lambda, you might be wondering “which is more cost-effective”? The answer might surprise you.
     - There are use cases for both, but the consensus for production development lives with a hybrid approach: performing a base set of actions synchronously, like validations and id creation **and kicking off the rest of the processing asynchronously**. You’d then [use a WebSocket](https://betterprogramming.pub/introduction-to-aws-websockets-8b336a92c379) to inform the user when the workflow is complete.
-- [==grafana.com: How to use WebSockets to visualize real-time IoT data in Grafana==](https://grafana.com/blog/2022/04/05/how-to-use-websockets-to-visualize-real-time-iot-data-in-grafana)
+- [==grafana.com: How to use WebSockets to visualize real-time IoT data in Grafana==](https://grafana.com/blog/how-to-use-websockets-to-visualize-real-time-iot-data-in-grafana)
 
 #### Socket.io
 
@@ -217,7 +217,7 @@
 - [geeksforgeeks.org: Difference between REST API and SOAP API](https://www.geeksforgeeks.org/websites-apps/difference-between-rest-api-and-soap-api)
 - [dzone: A Comprehensive Guide to REST vs. SOAP](https://dzone.com/articles/comprehensive-guide-rest-vs-soap) Learn the primary differences between REST and SOAP APIs, each one's benefits, and when it's appropriate to use the two.
 - [dzone: Comparing RESTful APIs and SOAP APIs Using MuleSoft as an Example](https://dzone.com/articles/comparing-restful-apis-and-soap-apis)
-- [reply.com: Web Services: SOAP and REST - A Simple Introduction](https://www.reply.com/solidsoft-reply/en/content/webservices-soap-and-rest-a-simple-introduction)
+- [reply.com: Web Services: SOAP and REST - A Simple Introduction](https://www.reply.com/solidsoft-reply/en)
     - SOAP is a communications protocol while REST is a set of architectural principles for data transmission.
     - REST was designed to be a more straightforward and easy to implement alternative to heavyweight SOAP for web service access. SOAP functions well in distributed environments where REST assumes a direct point to point communication. Also, SOAP allows for services to describe themselves to clients and in some languages allows for automation. On the other hand, REST is fast as less processing is required, uses less bandwidth and is closer to technologies used in web design.
     - The choice on which to use is totally dependent on what the requirement. For example, SOAP is a better choice for applications that have complex API so as to describe the services and methods, where formal contracts are agreed for the exchange format, where a guaranteed level of security is required etc. REST will be preferred when limiting bandwidth and resources, when operations are can be stateless and the information can be cached.
@@ -243,12 +243,12 @@
 
 - [softwaretestingportal.com: API Testing, Key Terminologies and more...](http://www.softwaretestingportal.com/2020/03/31/api-testing)
 - [dzone.com: 10 API Testing Tips for Beginners (SOAP and REST)](https://dzone.com/articles/10-api-testing-tips-for-beginners-soap-amp-rest) Let's take a look at ten API testing tips for beginners with a focus on REST APIs and SOAP APIs.
-- [blog.testproject.io: Top 10 API Testing Tools to Watch in 2020 🌟](https://blog.testproject.io/2020/06/25/top-10-api-testing-tools-to-watch-in-2020)
+- [blog.testproject.io: Top 10 API Testing Tools to Watch in 2020 🌟](https://www.tricentis.com/learn)
 - [mockoon 🌟](https://mockoon.com) Create mock APIs in seconds. Mockoon is the easiest and quickest way to run mock API locally. No remote deployment, no account required, open source.
 - [mockapy](https://pythonium.net/mockapy) Create mock APIs from a JSON object and customize their behavior using a Python rule engine. Open source.
 - [thenewstack.io: 4 Essential Tools for Protecting APIs and Web Applications](https://thenewstack.io/4-essential-tools-for-protecting-apis-and-web-applications)
 - [youtube: API Testing Part 1- API Core Concepts](https://www.youtube.com/watch?v=b0D_bkcT4a4&t=1s&ab_channel=SoftwareDiagnosticsCenter)
-- [blog.testproject.io: API Testing 101 🌟](https://blog.testproject.io/2021/06/16/api-testing-101)
+- [blog.testproject.io: API Testing 101 🌟](https://www.tricentis.com/learn)
 - [microcks.io 🌟](https://microcks.io) Open source Kubernetes Native tool for API Mocking and Testing. If you are looking for a tool that helps in microservices API testing on Kubernetes it is worth taking a look at microcksio. It supports OpenAPI 3 and e.g. Kafka with [Avro encoding](https://microcks.io/documentation/guides/avro-messaging)
 - [tricentis.com: Getting started with automated continuous performance testing](https://shiftsync.tricentis.com/software-testing-blogs-69/getting-started-with-automated-continuous-performance-testing-406)
 - [dev.to: Top 15 Automated API Testing Tools](https://dev.to/katalon/top-15-automated-api-testing-tools-lasted-update-32ip)
@@ -344,7 +344,7 @@
 
 	<center markdown="1">
 
-	[![top 10 api testing tools](images/summarising_top_10_api_testing_tools.png){: style="width:50%"}](https://blog.testproject.io/2020/06/25/top-10-api-testing-tools-to-watch-in-2020)
+	[![top 10 api testing tools](images/summarising_top_10_api_testing_tools.png){: style="width:50%"}](https://www.tricentis.com/learn)
 
 	[![20 API Business Models](images/api_business_models.jpg)](https://www.infoq.com/presentations/API-Business-Models)
 

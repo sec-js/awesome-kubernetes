@@ -96,12 +96,12 @@
 - [livecodestream.dev: Git Concepts and Workflow for Beginners](https://newsletter.thelongcommit.com/subscribe)
 - [thenextweb.com: A beginner’s guide to the most popular Git commands](https://thenextweb.com/news/a-beginners-guide-to-the-most-popular-git-commands)
 - [julien.danjou.info: Stop merging your pull requests manually 🌟](https://julien.danjou.info/stop-merging-your-pull-request-manually) -> [mergify 🌟](https://mergify.io)
-- [gitlab.com: How to keep your Git history clean with interactive rebase](https://about.gitlab.com/blog/2020/11/23/keep-git-history-clean-with-interactive-rebase) Interactive rebase is one of Git’s most versatile tools. Here's how to use it to correct commit messages, fix mistakes, and more.
+- [gitlab.com: How to keep your Git history clean with interactive rebase](https://about.gitlab.com/blog/keep-git-history-clean-with-interactive-rebase) Interactive rebase is one of Git’s most versatile tools. Here's how to use it to correct commit messages, fix mistakes, and more.
 - [gitkraken.com: Git Tutorials: Instructional Training Videos 🌟](https://www.gitkraken.com/learn/git/tutorials)
 - [github.blog: Token authentication requirements for Git operations](https://github.blog/security/application-security/token-authentication-requirements-for-git-operations)
 - [github.blog: Commits are snapshots, not diffs](https://github.blog/open-source/git/commits-are-snapshots-not-diffs)
 - [github.blog: Get up to speed with partial clone and shallow clone](https://github.blog/open-source/git/get-up-to-speed-with-partial-clone-and-shallow-clone)
-- [about.gitlab.com: How Git Partial Clone lets you fetch only the large file you need](https://about.gitlab.com/blog/2020/03/13/partial-clone-for-massive-repositories)
+- [about.gitlab.com: How Git Partial Clone lets you fetch only the large file you need](https://about.gitlab.com/blog/partial-clone-for-massive-repositories)
 - [intellipaat.com: Git Tutorial - Learn Git 🌟](https://intellipaat.com/blog/tutorial/devops-tutorial/git-tutorial)
 - [freecodecamp.org: How to Use Multiple Git Configs on One Computer 🌟](https://www.freecodecamp.org/news/how-to-handle-multiple-git-configurations-in-one-machine)
 - [dev.to: Git for beginners](https://dev.to/purveshshende2/git-for-beginners-3il6)
@@ -113,7 +113,7 @@
 - [c-sharpcorner.com: 0 Git Commands You Should Know](https://www.c-sharpcorner.com/article/20-git-commands-you-should-know)
 - [opensource.com: Find what changed in a Git commit](https://opensource.com/article/21/4/git-whatchanged) Git offers several ways you can quickly see which files changed in a commit.
 - [freecodecamp.org: How to Use Git and Git Workflows – a Practical Guide](https://www.freecodecamp.org/news/practical-git-and-git-workflows)
-- [about.gitlab.com: Why small merge requests are key to a great review 🌟](https://about.gitlab.com/blog/2021/03/18/iteration-and-code-review)
+- [about.gitlab.com: Why small merge requests are key to a great review 🌟](https://about.gitlab.com/blog/iteration-and-code-review)
 - [honeybadger.io: Top Ten Git Tips & Tricks](https://www.honeybadger.io/blog/git-tricks)
 - [blog.balasundar.com: Automate Git Operations Using Python](https://blog.balasundar.com/automate-git-operations-using-python) Automate your git operations using GitPython.
 - [cloudbees.com: Git Commands: The 13 You Must Know, In Order 🌟](https://www.cloudbees.com/blog/git-commit-detailed-tutorial-on-saving-your-code)
@@ -131,7 +131,7 @@
 - [simplilearn.com: How to Resolve Merge Conflicts in Git?](https://www.simplilearn.com/tutorials/git-tutorial/merge-conflicts-in-git)
 - [blog.argoproj.io: 5 new Git commands and 1 tip you’ll use every day](https://blog.argoproj.io/5-new-git-commands-and-1-tip-youll-use-every-day-3c28e97c9321)
 - [dev.to: Open Source: My first Pull Request](https://dev.to/okimotomizuho/open-source-my-first-pull-request-1356)
-- [blog.testproject.io: Git 101 From Scratch: The Ultimate Guide for QAs 🌟](https://blog.testproject.io/2021/09/23/git-101-from-scratch-the-ultimate-guide-for-qas)
+- [blog.testproject.io: Git 101 From Scratch: The Ultimate Guide for QAs 🌟](https://www.tricentis.com/learn)
 - [==freecodecamp.org: Git for Professionals – Free Version Control Course== 🌟](https://www.freecodecamp.org/news/git-for-professionals)
 - [towardsdatascience.com: A Git cheatsheet that all coders need](https://towardsdatascience.com/a-git-cheatsheet-that-all-coders-need-bf8ad4d91576) Ever accidentally deleted files or necessary code? Or do you wish to look back at an older version of your code?
 - [r-bloggers.com: Git: Moving from Master to Main](https://www.r-bloggers.com/2021/10/git-moving-from-master-to-main)
@@ -295,7 +295,7 @@ It prescribes that software designers should define formal, precise and verifiab
 
     <center markdown="1">
 
-    <script async class="speakerdeck-embed" data-id="1eaed7dabacb4f9b9c96b08de38eb9e1" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+    <script async class="speakerdeck-embed" data-id="1eaed7dabacb4f9b9c96b08de38eb9e1" data-ratio="1.77777777777778" src="/speakerdeck.com/assets/embed.js"></script>
 
     </center>
 
@@ -441,35 +441,35 @@ git rebase -i HEAD~5
 
 - [gitlab.com](https://about.gitlab.com)
 - [Dzone: using gitlab API to create projects](https://dzone.com/articles/using-gitlab-rest-api-to-create-projects)
-- [gitlab.com: GitLab’s guide to CI/CD for beginners](https://about.gitlab.com/blog/2020/07/06/beginner-guide-ci-cd) CI/CD is a key part of the DevOps journey. Here’s everything you need to understand about this game-changing process.
+- [gitlab.com: GitLab’s guide to CI/CD for beginners](https://about.gitlab.com/blog/beginner-guide-ci-cd) CI/CD is a key part of the DevOps journey. Here’s everything you need to understand about this game-changing process.
 - [levelup.gitconnected.com: Automating Integration and Deployment to Remote Server](https://levelup.gitconnected.com/automating-integration-and-deployment-to-remote-server-63a2b6576ebf) GitLab CI/CD
-- [about.gitlab.com: Want a more effective CI/CD pipeline? Try our pro tips](https://about.gitlab.com/blog/2020/07/29/effective-ci-cd-pipelines) Here’s how to take your CI/CD pipeline to the next level with hands on advice about faster builds, better security and more.
-- [gitlab.com: How to do GitLab merge request reviews in VS Code](https://about.gitlab.com/blog/2021/01/25/mr-reviews-with-vs-code)
-- [about.gitlab.com: How we used parallel CI/CD jobs to increase our productivity](https://about.gitlab.com/blog/2021/01/20/using-run-parallel-jobs) GitLab uses parallel jobs to help long-running jobs run faster.
-- [about.gitlab.com: How to use GitLab CI to deploy to multiple environments](https://about.gitlab.com/blog/2021/02/05/ci-deployment-and-environments)
-- [about.gitlab.com: Meet Pipeline Editor, your one-stop-shop for building a CI/CD pipeline](https://about.gitlab.com/blog/2021/02/22/pipeline-editor-overview)
-- [about.gitlab.com: A new era of Kubernetes integrations on GitLab.com](https://about.gitlab.com/blog/2021/02/22/gitlab-kubernetes-agent-on-gitlab-com) The GitLab Kubernetes Agent enables secure deployments from GitLab SaaS to your Kubernetes cluster and provides deep integrations of your cluster to GitLab.
+- [about.gitlab.com: Want a more effective CI/CD pipeline? Try our pro tips](https://about.gitlab.com/blog/effective-ci-cd-pipelines) Here’s how to take your CI/CD pipeline to the next level with hands on advice about faster builds, better security and more.
+- [gitlab.com: How to do GitLab merge request reviews in VS Code](https://about.gitlab.com/blog/mr-reviews-with-vs-code)
+- [about.gitlab.com: How we used parallel CI/CD jobs to increase our productivity](https://about.gitlab.com/blog/using-run-parallel-jobs) GitLab uses parallel jobs to help long-running jobs run faster.
+- [about.gitlab.com: How to use GitLab CI to deploy to multiple environments](https://about.gitlab.com/blog/ci-deployment-and-environments)
+- [about.gitlab.com: Meet Pipeline Editor, your one-stop-shop for building a CI/CD pipeline](https://about.gitlab.com/blog/pipeline-editor-overview)
+- [about.gitlab.com: A new era of Kubernetes integrations on GitLab.com](https://about.gitlab.com/blog/gitlab-kubernetes-agent-on-gitlab-com) The GitLab Kubernetes Agent enables secure deployments from GitLab SaaS to your Kubernetes cluster and provides deep integrations of your cluster to GitLab.
 - [docs.gitlab.com: Install GitLab Runner on Red Hat OpenShift](https://docs.gitlab.com/runner/install/openshift.html)
 - [devclass.com: Git a March on: GitLab 13.10 ramps up security, adds support for OpenShift, DORA](https://www.devclass.com/ci-cd/2021/03/23/git-a-march-on-gitlab-1310-ramps-up-security-adds-support-for-openshift-dora/1619889)
-- [about.gitlab.com: GitLab 13.11 released with Kubernetes Agent and Pipeline Compliance](https://about.gitlab.com/releases/2021/04/22/gitlab-13-11)
+- [about.gitlab.com: GitLab 13.11 released with Kubernetes Agent and Pipeline Compliance](https://docs.gitlab.com/releases)
 - [lambdatest.com: How To Use GitLab CI To Run Tests Locally? 🌟](https://www.testmuai.com/blog/use-gitlab-ci-to-run-test-locally)
 - [sdtimes: GitLab 14 aims to do away with DIY DevOps toolchains 🌟](https://sdtimes.com/devops/gitlab-14-aims-to-do-away-with-diy-devops-toolchains)
-- [about.gitlab.com: GitLab 14.1 released with Helm Chart Registry and Escalation Policies](https://about.gitlab.com/releases/2021/07/22/gitlab-14-1-released)
-- [about.gitlab.com: The new Git default branch name](https://about.gitlab.com/blog/2021/03/10/new-git-default-branch-name)
-- [about.gitlab.com: How GitLab's 5 new code review features will make life easier](https://about.gitlab.com/blog/2021/09/09/5-code-review-features)
+- [about.gitlab.com: GitLab 14.1 released with Helm Chart Registry and Escalation Policies](https://docs.gitlab.com/releases)
+- [about.gitlab.com: The new Git default branch name](https://about.gitlab.com/blog/new-git-default-branch-name)
+- [about.gitlab.com: How GitLab's 5 new code review features will make life easier](https://about.gitlab.com/blog/5-code-review-features)
 - [pythonspeed.com: Building Docker images on GitLab CI: Docker-in-Docker and Podman 🌟](https://pythonspeed.com/articles/gitlab-build-docker-image)
-- [about.gitlab.com: Why we built GitDock, our desktop app to navigate your GitLab activities](https://about.gitlab.com/blog/2021/10/05/gitpod-desktop-app-personal-activities)
-- [about.gitlab.com: GitLab’s Kubernetes Operator with support for Red Hat OpenShift is now generally available](https://about.gitlab.com/blog/2021/10/12/open-shift-ga)
+- [about.gitlab.com: Why we built GitDock, our desktop app to navigate your GitLab activities](https://about.gitlab.com/blog/gitpod-desktop-app-personal-activities)
+- [about.gitlab.com: GitLab’s Kubernetes Operator with support for Red Hat OpenShift is now generally available](https://about.gitlab.com/blog/open-shift-ga)
 - [containerjournal.com: GitLab Brings Kubernetes Operator to Red Hat OpenShift](https://cloudnativenow.com/features/gitlab-brings-kubernetes-operator-to-red-hat-openshift)
 - [vadosware.io: Level 1 Automated K8S Deployments With GitLab CI](https://vadosware.io/post/level-one-automated-k8s-deployments-with-gitlab-ci)
 - [==redpill-solutions.medium.com: Deploying to Kubernetes with GitLab==](https://redpill-solutions.medium.com/deploying-to-kubernetes-with-gitlab-28c2f1a42e57)
 - [==venturebeat.com: GitLab acquires open source observability distribution Opstrace==](https://venturebeat.com/2021/12/14/gitlab-acquires-open-source-observability-distribution-opstrace)
-- [about.gitlab.com: GitLab Chart works towards Kubernetes 1.22](https://about.gitlab.com/blog/2021/12/17/gitlab-chart-works-towards-kubernetes-1-22)
+- [about.gitlab.com: GitLab Chart works towards Kubernetes 1.22](https://about.gitlab.com/blog/gitlab-chart-works-towards-kubernetes-1-22)
 - [Deploy and Manage Gitlab Runners on Amazon EC2](https://aws.amazon.com/blogs/devops/deploy-and-manage-gitlab-runners-on-amazon-ec2)
 - [freecodecamp.org: DevOps with GitLab CI Course 🌟](https://www.freecodecamp.org/news/devops-with-gitlab-ci-course)
 - [testmo.com: GitLab CI/CD Test Automation Pipeline & Reporting](https://www.testmo.com/guides/gitlab-ci-test-automation)
 - [community.ops.io: CI CD 101 with GitLab](https://community.ops.io/jatin/ci-cd-101-with-gitlab-4pol)
-- [about.gitlab.com: Simple Kubernetes management with GitLab](https://about.gitlab.com/blog/2022/11/15/simple-kubernetes-management-with-gitlab)
+- [about.gitlab.com: Simple Kubernetes management with GitLab](https://about.gitlab.com/blog/simple-kubernetes-management-with-gitlab)
 - [itnext.io: Managing multiple Kubernetes clusters using Git 🌟](https://itnext.io/managing-multiple-kubernetes-clusters-using-git-cd068bbd85ac) Managing multi-cloud Kubernetes clusters in a central location using GitLab
 - [renjithvr11.medium.com: Running GitLab Runners on Kubernetes](https://renjithvr11.medium.com/running-gitlab-runners-on-kubernetes-8e7fc9bf75ce)
 
@@ -500,9 +500,9 @@ git rebase -i HEAD~5
 - [GitHub's OpenAPI Spec Open-Sourced in Beta](https://www.infoq.com/news/2020/08/GitHub-open-api-spec)
 - [Things you didn't know you could diff in GitHub](https://sebastiandedeyne.com/things-you-didnt-know-you-could-diff-in-github)
 - [github.blog: Set the default branch for newly-created repositories](https://github.blog/changelog/2020-08-26-set-the-default-branch-for-newly-created-repositories)
-- [grafana.com: How we use the Grafana GitHub plugin to track outstanding pull requests](https://grafana.com/blog/2020/09/21/how-we-use-the-grafana-github-plugin-to-track-outstanding-pull-requests)
+- [grafana.com: How we use the Grafana GitHub plugin to track outstanding pull requests](https://grafana.com/blog/how-we-use-the-grafana-github-plugin-to-track-outstanding-pull-requests)
 - [itnext.io: Build & Ship: GitHub Container Registry & Kubernetes](https://itnext.io/build-ship-github-container-registry-kubernetes-aa06029b3f21)
-- [grafana: How we use the Grafana GitHub plugin to track outstanding pull requests](https://grafana.com/blog/2020/09/21/how-we-use-the-grafana-github-plugin-to-track-outstanding-pull-requests)
+- [grafana: How we use the Grafana GitHub plugin to track outstanding pull requests](https://grafana.com/blog/how-we-use-the-grafana-github-plugin-to-track-outstanding-pull-requests)
 - [itnext.io: Build & Ship: GitHub Container Registry & Kubernetes](https://itnext.io/build-ship-github-container-registry-kubernetes-aa06029b3f21)
 - [theregister.com: Passwords begone: GitHub will ban them next year for authenticating Git operations](https://www.theregister.com/security/2020/12/17/passwords-begone-github-will-ban-them-next-year-for-authenticating-git-operations/958514)
 - [github.blog: Learn about ghapi, a new third-party Python client for the GitHub API](https://github.blog/developer-skills/programming-languages-and-frameworks/learn-about-ghapi-a-new-third-party-python-client-for-the-github-api)
@@ -542,7 +542,7 @@ git rebase -i HEAD~5
 - [github.blog: Improving GitHub code search](https://github.blog/engineering/improving-github-code-search)
 - [github.blog: Lists are now available as a public beta](https://github.blog/changelog/2021-12-09-lists-are-now-available-as-a-public-beta) Lists level up the starring experience by making it easy to organize and curate your favorite repositories on GitHub. You can create public lists that appear on your stars page at https://github.com/USERNAME?tab=stars.
 - [freecodecamp.org: How to Use the .github Repository](https://www.freecodecamp.org/news/how-to-use-the-dot-github-repository)
-- [==about.gitlab.com: How to install and use the GitLab Kubernetes Operator (on OCP)==](https://about.gitlab.com/blog/2021/11/16/gko-on-ocp)
+- [==about.gitlab.com: How to install and use the GitLab Kubernetes Operator (on OCP)==](https://about.gitlab.com/blog/gko-on-ocp)
 - [alsmola.medium.com: Securing GitHub organizations](https://alsmola.medium.com/securing-github-organizations-9c33c850638)
 - [github.blog: Dependency graph now supports GitHub Actions](https://github.blog/news-insights/product-news/dependency-graph-now-supports-github-actions) The dependency graph helps developers and maintainers understand the code they depend on, and now includes GitHub Actions!
 - [==github.blog: How to build a CI/CD pipeline with GitHub Actions in four simple steps==](https://github.blog/enterprise-software/ci-cd/build-ci-cd-pipeline-github-actions-four-steps) A quick guide on the advantages of using GitHub Actions as your preferred CI/CD tool—and how to build a CI/CD pipeline with it.
@@ -811,7 +811,7 @@ Automate them.
     - [Rultor, a Merging Bot](https://www.yegor256.com/2014/07/24/rultor-automated-merging.html)
 - [stackoverflow.com: Bot to automatically reverse GitHub pull request merges](https://stackoverflow.com/questions/27820309/bot-to-automatically-reverse-github-pull-request-merges). Maybe it's best to not allow the merges instead of reverting them:
     - [help.github.com: Configuring protected branches](https://docs.github.com/en)
-    - [help.github.com: Enabling required status checks:](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rule)
+    - [help.github.com: Enabling required status checks:](https://docs.github.com/en/administering-a-repository/enabling-required-status-checks)
         - Select Require status checks to pass before merging
         - Choose (create) a status check, that always fails
 
@@ -819,7 +819,7 @@ Automate them.
 
 - [Bors Bot](https://bors.tech)
 - [Bors-ng: A merge bot for GitHub Pull Requests](https://github.com/bors-ng/bors-ng)
-- [Example: CockroachDB's Bors Merge Bot](https://wiki.crdb.io/wiki/spaces/CRDB/pages/73204099/Bors+Merge+Bot)
+- [Example: CockroachDB's Bors Merge Bot](https://id.atlassian.com/login?continue=https%3A%2F%2Fid.atlassian.com%2Fjoin%2Fuser-access%3Fresource%3Dari%253Acloud%253Aconfluence%253A%253Asite%252F9568dfdc-cfdd-4632-a68e-1e18063a3152%26continue%3Dhttps%253A%252F%252Fcockroachlabs.atlassian.net%252Fwiki%252Fspaces%252FCRDB%252Fpages%252F73204099%252FBors%252BMerge%252BBot&application=confluence&orgId=52a68357-cecf-4127-a5ec-32eeac8cf060)
 
 ## Videos
 
@@ -842,7 +842,7 @@ Automate them.
 
     <center markdown="1">
 
-    <iframe src="//www.slideshare.net/slideshow/embed_code/key/ju2kFOuS5w1jk4" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/kobac/async-code-reviews-are-killing-your-companys-throughput-248758692" title="Async Code Reviews Are Killing Your Company’s Throughput - Dragan Stepanović" target="_blank">Async Code Reviews Are Killing Your Company’s Throughput - Dragan Stepanović</a> </strong> from <strong><a href="//www.slideshare.net/kobac" target="_blank">Dragan Stepanović</a></strong> </div>
+    <iframe src="/www.slideshare.net/slideshow/embed_code/key/ju2kFOuS5w1jk4" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="/www.slideshare.net/kobac/async-code-reviews-are-killing-your-companys-throughput-248758692" title="Async Code Reviews Are Killing Your Company’s Throughput - Dragan Stepanović" target="_blank">Async Code Reviews Are Killing Your Company’s Throughput - Dragan Stepanović</a> </strong> from <strong><a href="/www.slideshare.net/kobac" target="_blank">Dragan Stepanović</a></strong> </div>
 
     </center>
 

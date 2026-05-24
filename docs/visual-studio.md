@@ -150,7 +150,7 @@ A simple extension to make indentation more readable
 - [Azure Resource Manager (ARM) Tools 🌟](https://marketplace.visualstudio.com/items?itemName=msazurermtools.azurerm-vscode-tools) New VS Code extension for working with Azure Resource Manager (ARM) templates that will make your life much easier.
 - [developers.redhat.com: Devfiles and Kubernetes cluster support in OpenShift Connector 0.2.0 extension for VS Code 🌟](https://developers.redhat.com/blog/2020/11/16/devfiles-and-kubernetes-cluster-support-in-openshift-connector-0-2-0-extension-for-vs-code)
     - [OpenShift Connector 🌟](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-openshift-connector)
-- [gitlab.com: VS Code extension development with GitLab](https://about.gitlab.com/blog/2020/11/30/vscode-extension-development-with-gitlab) As VS Code editor increases in popularity, find out how GitLab + VS Code can be used for extension development and how we develop the official GitLab VS Code extension.
+- [gitlab.com: VS Code extension development with GitLab](https://about.gitlab.com/blog/vscode-extension-development-with-gitlab) As VS Code editor increases in popularity, find out how GitLab + VS Code can be used for extension development and how we develop the official GitLab VS Code extension.
 - [freecodecamp.org: VS Code Extensions That'll Boost Your Development Productivity 🌟](https://www.freecodecamp.org/news/vs-code-extensions-to-boost-your-development-productivity)
 - [CloudFormation Snippets 🌟](https://marketplace.visualstudio.com/items?itemName=dannysteenman.cloudformation-yaml-snippets) Adds autocompletion for all AWS CloudFormation resources. The snippets are updated automatically every week by fetching the data from the official AWS CloudFormation resource specification.
     - [dannys.cloud: Autocomplete your CloudFormation Resources in VS Code](https://dannys.cloud/autocomplete-cloudformation-resources-vs-code)
@@ -282,7 +282,7 @@ A simple extension to make indentation more readable
 - [Repl.it](https://replit.com) Reading code is hard! Don't you wish you could just ask the code what it does? To describe its functions, its types. And maybe... how can it be improved? Introducing: Replit code oracle.
 - [==Gitpod Open Sources a ‘Holistic IDE’==](https://thenewstack.io/gitpod-open-sources-a-holistic-ide)
     - [thenewstack.io: Gitpod Brings Automated Environments to JetBrains IDEs](https://thenewstack.io/gitpod-brings-automated-environments-to-jetbrains-ides)
-- [piotrminkowski.com: Development on Kubernetes: IDE & TOOLS](https://piotrminkowski.com/2020/08/03/development-on-kubernetes-ide-tools) In this article, you will learn what tools, frameworks, and platforms could help you to speed up the development of JVM microservices on Kubernetes.
+- [piotrminkowski.com: Development on Kubernetes: IDE & TOOLS](https://piotrminkowski.com/2020/08/03/development-on-kubernetes-ide-tools) what tools, frameworks, and platforms could help you to speed up the development of JVM microservices on Kubernetes.
 - [openshift.com: Visual Web Terminal - A Turbocharged Command Line for Kubernetes and OpenShift](https://www.redhat.com/en/blog/visual-web-terminal-a-turbocharged-command-line-for-kubernetes-and-openshift)
 - [Linux on Chrome OS, sometimes called Crostini 🌟](https://chromeos.dev/en/linux), allows you to run Linux apps for development alongside your usual Chrome OS desktop & apps.
 - [==Fleet==](https://www.jetbrains.com/fleet) Next-generation IDE by JetBrains
@@ -291,14 +291,14 @@ A simple extension to make indentation more readable
 
 ### Intellij IDEA
 
-- [evaizik.medium.com: Setting up a remote debugging for Java microservices running inside Kubernetes pods](https://evaizik.medium.com/setting-up-a-remote-debugging-for-java-microservices-running-inside-kubernetes-pods-d4aab1ff4efa) In this article, you'll learn in detail how to set up remote debugging between IntelliJ IDE and a Java application running inside a Kubernetes pod — without using any additional third-party software
+- [evaizik.medium.com: Setting up a remote debugging for Java microservices running inside Kubernetes pods](https://evaizik.medium.com/setting-up-a-remote-debugging-for-java-microservices-running-inside-kubernetes-pods-d4aab1ff4efa) you'll learn in detail how to set up remote debugging between IntelliJ IDE and a Java application running inside a Kubernetes pod — without using any additional third-party software
 - [betterprogramming.pub: My Top 7 Most Underrated IntelliJ IDEA Features](https://betterprogramming.pub/my-top-7-most-underrated-intellij-idea-features-572b0b706bd6)
 
 ### Online VSCode
 
 - [github.dev](https://github.dev/github/dev)
 - [==gitpod.io== 🌟🌟](https://ona.com) - [github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod) Gitpod automates the provisioning of ready-to-code development environments. Gitpod is an open-source Kubernetes application for automated and ready-to-code development environments that blends in your existing workflow. It enables you to describe your dev environment as code and start instant and fresh development environments for each new task directly from your browser. Tightly integrated with GitLab, GitHub, and Bitbucket, Gitpod automatically and continuously prebuilds dev environments for all your branches. As a result, team members can instantly start coding with fresh, ephemeral and fully-compiled dev environments - no matter if you are building a new feature, want to fix a bug or do a code review.
-    - [gitpod.io: VS Code in the browser for everyone](https://ona.com/stories/gitpod-is-now-ona)
+    - [gitpod.io: VS Code in the browser for everyone](https://ona.com/blog/openvscode-server-launch)
     - [thenewstack.io: GitPod OpenVSCode Server Brings Visual Studio Code to the Browser](https://thenewstack.io/gitpod-openvscode-server-brings-visual-studio-code-to-the-browser)
 - [github1s.com 🌟](https://github1s.com) One second to read GitHub code with VS Code.
 - [vscode.dev 🌟](https://vscode.dev)

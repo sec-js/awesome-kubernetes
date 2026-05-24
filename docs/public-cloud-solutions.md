@@ -68,7 +68,7 @@
 - [AWS Kubernetes pricing](https://aws.amazon.com/es/eks/pricing)
 - [Azure Kubernetes pricing](https://azure.microsoft.com/es-es/pricing/details/kubernetes-service)
 - [Google cloud kubernetes pricing](https://cloud.google.com/kubernetes-engine/pricing)
-- [Rackspace.com: Managed Kubernetes](https://www.rackspace.com/cloud/kubernetes)
+- [Rackspace.com: Managed Kubernetes](https://www.rackspace.com/managed-kubernetes)
 
 ## IoT Cloud
 

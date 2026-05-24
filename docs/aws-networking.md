@@ -27,7 +27,7 @@
 - [medium: Building a Global Network with AWS Transit Gateway](https://medium.com/avmconsulting-blog/building-a-global-network-with-aws-transit-gateway-7ab0e5222f12) Connecting branch and corporate offices into the AWS cloud to build a global network is necessary to provide ubiquitous accessibility for users. This solution uses AWS Transit Gateway, AWS Direct Connect, and AWS Accelerated Site-to-Site VPN to build a modern, secure, scalable, and cost-efficient WAN on top of the AWS global network.
 - [aws.amazon.com: Creating active/passive BGP connections over AWS Direct Connect](https://aws.amazon.com/blogs/networking-and-content-delivery/creating-active-passive-bgp-connections-over-aws-direct-connect)
 - [towardsaws.com: Networking Basics in AWS](https://towardsaws.com/networking-basics-in-aws-ab72882855c4)
-- [aws.amazon.com: Network operations with AWS Network Manager](https://aws.amazon.com/products/networking/network-operations) Efficiently manage and monitor your AWS network
+- [aws.amazon.com: Network operations with AWS Network Manager](https://aws.amazon.com/products) Efficiently manage and monitor your AWS network
 - [Secure Connectivity from Public to Private: Introducing EC2 Instance Connect Endpoint](https://aws.amazon.com/blogs/compute/secure-connectivity-from-public-to-private-introducing-ec2-instance-connect-endpoint-june-13-2023)
 
 ## AWS Route 53
@@ -74,7 +74,7 @@
 ## AWS Latency
 
 - [Find the fastest region from your location](http://aws-latency.altaircp.com) Check AWS response time from you browser. Sharing my mini-project, it measures response time from AWS services from different regions base on your location. let me know what you think.
-- [Linkedin Discussion](https://www.linkedin.com/groups/49531/49531-6092152919937794052)
+- [Linkedin Discussion](https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fgroups%2F49531%2F49531-6092152919937794052)
     1. Don't do just a single check, the first check will be a lot slower as DNS lookups will need to be done, etc.
     2. I'd recommend doing at least 3 checks getting an average.
 - Run 6 checks (with a random 3-10 second delay between each one), the first can be ignored, the highest one is also ignored (as a likely outlier), then for the next 4 show the minimum, maximum and average (mean).
@@ -112,7 +112,7 @@
 ## AWS API Gateway
 
 - [alexdebrie.com: A Detailed Overview of AWS API Gateway](https://www.alexdebrie.com/posts/api-gateway-elements)
-- [towardsaws.com: Accessing a Private REST API from another Private REST API in AWS API Gateway](https://towardsaws.com/accessing-a-private-rest-api-from-another-private-rest-api-in-aws-api-gateway-5112b835c0d4) In this post, we’ll see how we can access a Private REST API From Another Private REST API In AWS API Gateway. We will create 2 EC2 Instances(EC2A and EC2B) and 2 API Gateways(APIA and APIB). EC2A will be accessing EC2B with following workflow.
+- [towardsaws.com: Accessing a Private REST API from another Private REST API in AWS API Gateway](https://towardsaws.com/accessing-a-private-rest-api-from-another-private-rest-api-in-aws-api-gateway-5112b835c0d4) we’ll see how we can access a Private REST API From Another Private REST API In AWS API Gateway. We will create 2 EC2 Instances(EC2A and EC2B) and 2 API Gateways(APIA and APIB). EC2A will be accessing EC2B with following workflow.
 - [faun.pub: Using AWS API Gateway As Proxy To Our Internal Application](https://faun.pub/using-aws-api-gateway-as-proxy-to-our-internal-application-369eb115db70)
 - [aws.amazon.com: Architecture patterns for consuming private APIs cross-account](https://aws.amazon.com/blogs/compute/architecture-patterns-for-consuming-private-apis-cross-account) Architecture patterns for consuming private APIs cross-account over AWS PrivateLink
 

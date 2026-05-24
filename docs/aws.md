@@ -38,7 +38,7 @@
 - [aws.amazon.com/new: What's New with AWS?](https://aws.amazon.com/new)
 - [aws.amazon.com/releasenotes](https://aws.amazon.com/new)
 - [AWS Forums](https://repost.aws)
-- [AWS Knowledge Center](https://repost.aws/knowledge-center)
+- [AWS Knowledge Center](https://aws.amazon.com/premiumsupport/knowledge-center)
 - [AWS Glossary](http://docs.aws.amazon.com/general/latest/gr/glos-chap.html)
 - [Awesome AWS 🌟](https://github.com/donnemartin/awesome-aws)
 - [AWS Marketplace](https://aws.amazon.com/marketplace)
@@ -57,7 +57,7 @@
 - [aws/containers-roadmap: AWS Containers Roadmap](https://github.com/aws/containers-roadmap) This is the public roadmap for AWS container services (ECS, ECR, Fargate, and EKS).
 - [dashbird.io: Get started and keep using AWS for free](https://dashbird.io/blog/use-aws-free)
 - [dzone: AWS Basics](https://dzone.com/articles/aws-basics)
-- [dzone: AWS Basics: Bastion Hosts and NAT](https://dzone.com/articles/aws-basics-bastian-hosts-and-nat) In this post, we will set up Bastion Host and NAT instances in our VPC. We will learn why we need those and some of the options available to us.
+- [dzone: AWS Basics: Bastion Hosts and NAT](https://dzone.com/articles/aws-basics-bastian-hosts-and-nat) we will set up Bastion Host and NAT instances in our VPC. We will learn why we need those and some of the options available to us.
 - [acloudguru.com: The Cloud Dictionary of Pain: Five Of AWS’s Toughest Cloud Topics](https://www.pluralsight.com/resources/blog/cloud/the-cloud-dictionary-of-pain-five-of-awss-toughest-cloud-topics)
 - [dannys.cloud: 10 Best Free AWS Learning Resources for Beginners](https://dannys.cloud/10-best-free-aws-learning-resources-for-beginners) This blogpost provides free resources for beginners to get started with AWS through videos, whitepapers, labs, and certification guides.
 - [linkedin pulse: Listado de todos los Servicios de AWS (actualizado 1 de Enero 2021)](https://www.linkedin.com/pulse/listado-de-todos-los-servicios-amazon-web-services-daniel-pe%25C3%25B1a-silva)
@@ -203,7 +203,7 @@ You can filter by topic using the toolbar above.
 - [==AWS Cloud Adoption Framework (AWS CAF)==](https://aws.amazon.com/cloud-adoption-framework) The AWS Cloud Adoption Framework (AWS CAF) leverages AWS experience and best practices to help you digitally transform and accelerate your business outcomes through innovative use of AWS. AWS CAF identifies specific organizational capabilities that underpin successful cloud transformations. These capabilities provide best practice guidance that helps you improve your cloud readiness. AWS CAF groups its capabilities in six perspectives: Business, People, Governance, Platform, Security, and Operations. Each perspective comprises a set of capabilities that functionally related stakeholders own or manage in the cloud transformation journey. Use the AWS CAF to identify and prioritize transformation opportunities, evaluate and improve your cloud readiness, and iteratively evolve your transformation roadmap.
 - [AWS Cloud Adoption Framework (CAF) 3.0 is Now Available](https://aws.amazon.com/blogs/aws/aws-cloud-adoption-framework-caf-3-0-is-now-available)
 
-## AWS rePost
+## AWS re:Post
 
 - [==repost.aws== 🌟](https://repost.aws)
 - [AWS re:Post – A Reimagined Q&A Experience for the AWS Community](https://aws.amazon.com/blogs/aws/aws-repost-a-reimagined-qa-experience-for-the-aws-community)

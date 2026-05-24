@@ -326,7 +326,7 @@
 - [kube-secret-syncer 🌟](https://github.com/contentful-labs/kube-secret-syncer) is a Kubernetes operator developed using the Kubebuilder framework that keeps the values of Kubernetes Secrets synchronised to secrets in AWS Secrets Manager.
     - [contentful.com: Open-sourcing kube-secret-syncer: A Kubernetes operator to sync secrets from AWS Secrets Manager](https://www.contentful.com/blog/open-source-kube-secret-syncer) Kube-secret-syncer is a Kubernetes operator developed using the Kubebuilder framework that keeps the values of Kubernetes Secrets synchronised to secrets in AWS Secrets Manager.
 - [kapp 🌟](https://carvel.dev/kapp) is a CLI that calculates changes between your configuration and live cluster state and applies changes you approve.
-    - [thecloudblog.net: Managing Applications in Kubernetes with the Carvel Kapp Controller](https://thecloudblog.net/post/managing-applications-in-kubernetes-with-the-carvel-kapp-controller) kapp enables users to group a set of resources (resources with the same label) as an application. In this tutorial, you will learn how to deploy a front-end and backend app with Redis as a single unit with kapp.
+    - [thecloudblog.net: Managing Applications in Kubernetes with the Carvel Kapp Controller](https://thecloudblog.net/post/managing-applications-in-kubernetes-with-the-carvel-kapp-controller) kapp enables users to group a set of resources (resources with the same label) as an application. how to deploy a front-end and backend app with Redis as a single unit with kapp.
 - [garden.io](https://docs.garden.io) Break down the barriers between development, testing, and CI. Use the same workflows and production-like Kubernetes environments at every step of the process
     - [thenewstack.io: Garden: The Configure-Once Kubernetes Platform for Seamless Dev/Prod Integration](https://thenewstack.io/garden-the-configure-once-kubernetes-platform-for-seamless-dev-prod-integration)
 - [pvc-autoresizer](https://github.com/topolvm/pvc-autoresizer) resizes PersistentVolumeClaims (PVCs) when the free amount of storage is below the threshold. It queries the volume usage metrics from Prometheus that collects metrics from kubelet.
@@ -372,7 +372,7 @@
 - [Nebula](https://github.com/slackhq/nebula) A scalable overlay networking tool with a focus on performance, simplicity and security. It lets you seamlessly connect computers anywhere in the world.
 - [kube-bench](https://github.com/aquasecurity/kube-bench) Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark
 - [kube-bench-exporter](https://github.com/yashvardhan-kukreja/kube-bench-exporter) Helps you to export your kube-bench reports to multiple targets like Amazon S3 buckets with ease.
-- [Karmada](https://github.com/karmada-io/karmada) Karmada (Kubernetes Armada) is a Kubernetes management system that enables you to run your cloud-native applications across multiple Kubernetes clusters and clouds, with no changes to your applications. By speaking Kubernetes-native APIs and providing advanced scheduling capabilities, Karmada enables truly open, multi-cloud Kubernetes. - https://karmada.io
+- [Karmada](https://github.com/karmada-io/karmada) Karmada (Kubernetes Armada) is a Kubernetes management system that enables you to run your cloud-native applications across multiple Kubernetes clusters and clouds, with no changes to your applications. By speaking Kubernetes-native APIs and providing advanced scheduling capabilities, Karmada enables truly open, multi-cloud Kubernetes. - https://karmada.io/
 - [kube-secrets-init](https://github.com/doitintl/kube-secrets-init) Kubernetes mutating webhook for `secrets-init` injection
 - [liqo: Enable dynamic and seamless Kubernetes multi-cluster topologies](https://github.com/liqotech/liqo) Building your endless Kubernetes ocean. Enable dynamic and seamless Kubernetes multi-cluster topologies. Liqo is a platform to enable dynamic and decentralized resource sharing across Kubernetes clusters, either on-prem or managed. Liqo allows to run pods on a remote cluster seamlessly and without any modification of Kubernetes and the applications. With Liqo it is possible to extend the control plane of a Kubernetes cluster across the cluster's boundaries, making multi-cluster native and transparent: collapse an entire remote cluster to a virtual local node, by allowing workloads offloading and resource management compliant with the standard Kubernetes approach.
 - [redhat-certification: chart-verifier: Rules based tool to certify Helm charts 🌟](https://github.com/redhat-certification/chart-verifier)
@@ -409,7 +409,7 @@
 - [space-cloud: Develop, Deploy and Secure Serverless Apps on Kubernetes.](https://github.com/spacecloud-io/space-cloud) Open source **Firebase + Heroku** to develop, scale and secure serverless apps on Kubernetes - [space-cloud.io](https://space-cloud.io) Space Cloud is a Kubernetes based serverless platform that provides instant, realtime APIs on any database, with event triggers and unified APIs for your custom business logic.
 - [community.suse.com: Comparing Modern-Day Container Image Builders: Jib, Buildpacks and Docker 🌟](https://www.rancher.com/community)
 - [Teleport 🌟](https://github.com/gravitational/teleport) Certificate authority and access plane for SSH, Kubernetes, web applications, and databases
-- [weaveworks: kured - Kubernetes Reboot Daemon 🌟](https://github.com/kubereboot/kured) - [weave.works: One year kured - your Kubernetes Reboot Daemon](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745) Kured (KUbernetes REboot Daemon) is a Kubernetes daemonset that performs safe automatic node reboots when the need to do so is indicated by the package management system of the underlying OS. Many rely on Kured, which helps perform safe automatic node reboots when indicated by the package management of the underlying OS, to help make OS security better.
+- [weaveworks: kured - Kubernetes Reboot Daemon 🌟](https://github.com/kubereboot/kured) - [weave.works: One year kured - your Kubernetes Reboot Daemon](https://www.weave.works/) Kured (KUbernetes REboot Daemon) is a Kubernetes daemonset that performs safe automatic node reboots when the need to do so is indicated by the package management system of the underlying OS. Many rely on Kured, which helps perform safe automatic node reboots when indicated by the package management of the underlying OS, to help make OS security better.
 - [k8s-cluster-simulator](https://github.com/pfnet-research/k8s-cluster-simulator) Kubernetes cluster simulator for evaluating schedulers.
 - [kubelogin 🌟](https://github.com/int128/kubelogin) kubectl plugin for Kubernetes OpenID Connect authentication (kubectl oidc-login)
 - [==kube-oidc-proxy==](https://github.com/jetstack/kube-oidc-proxy) Reverse proxy to authenticate to managed Kubernetes API servers via OIDC.
@@ -421,7 +421,7 @@
 - [nerdctl 🌟](https://github.com/containerd/nerdctl) Docker-compatible CLI for containerd
 - [El Carro: The Oracle Operator for Kubernetes 🌟](https://github.com/GoogleCloudPlatform/elcarro-oracle-operator) El Carro is a new project that offers a way to run Oracle databases in Kubernetes as a portable, open source, community driven, no vendor lock-in container orchestration system. El Carro provides a powerful declarative API for comprehensive and consistent configuration and deployment as well as for real-time operations and monitoring.
 - [jspolicy](https://github.com/loft-sh/jspolicy) jsPolicy is an operator that helps you define Kubernetes Policies using JavaScript or TypeScript. Easier & Faster Kubernetes Policies using JavaScript or TypeScript.
-    - [blog.ediri.io: Writing Kubernetes policies with jsPolicy and deploy them via FluxCD](https://blog.ediri.io/writing-kubernetes-policies-with-jspolicy) In this tutorial, you will learn how to write Kubernetes policies using JavaScript/Typescript with the help of jsPolicy and deploy them via GitOps using Flux
+    - [blog.ediri.io: Writing Kubernetes policies with jsPolicy and deploy them via FluxCD](https://blog.ediri.io/writing-kubernetes-policies-with-jspolicy) how to write Kubernetes policies using JavaScript/Typescript with the help of jsPolicy and deploy them via GitOps using Flux
 - [k8scr 🌟](https://github.com/hasheddan/k8scr) A kubectl plugin for pushing OCI images through the Kubernetes API server.
 - [jsonnet-controller](https://github.com/pelotech/jsonnet-controller) A fluxcd controller for managing manifests declared in jsonnet.
 - [rback: RBAC in Kubernetes visualizer 🌟🌟](https://github.com/team-soteria/rback) A simple "RBAC in Kubernetes" visualizer. No matter how complex the setup, rback queries all RBAC related information of an Kubernetes cluster in constant time and generates a graph representation of service accounts, (cluster) roles, and the respective access rules in dot format.
@@ -545,7 +545,7 @@
 - [box/kube-exec-controller](https://github.com/box/kube-exec-controller) An admission controller service and kubectl plugin to handle container drift in K8s clusters. kube-exec-controller is an admission controller for handling container drift (caused by kubectl exec, attach, cp, or other interactive requests) inside a Kubernetes cluster. This project also includes a kubectl plugin for checking such Pods.
 - [==abahmed/kwatch==](https://github.com/abahmed/kwatch) 👀 monitor & detect crashes in your Kubernetes(K8s) cluster instantly. kwatch helps you monitor all changes in your Kubernetes cluster, detects crashes in your running apps in real-time, and publishes notifications to your channels (Slack, Discord, etc.) instantly.
 - [cuber-cloud/cuber-gem: CUBER](https://github.com/cuber-cloud/cuber-gem) An automation tool that simplify the deployment of your apps on Kubernetes.
-    - https://cuber.cloud 🌟
+    - https://cuber.cloud/ 🌟
 - [==kubeops/config-syncer: Config Syncer (previously Kubed)==](https://github.com/config-syncer/config-syncer) Kubernetes Config Syncer (previously kubed). **Config Syncer keeps ConfigMaps and Secrets synchronized across namespaces and/or clusters**
 - [eldadru/ksniff 🌟](https://github.com/eldadru/ksniff) Kubectl plugin to ease sniffing on kubernetes pods using tcpdump and wireshark
 - [openclarity/kubeclarity](https://github.com/openclarity/kubeclarity) KubeClarity is a tool for detection and management of Software Bill Of Materials (SBOM) and vulnerabilities of container images and filesystems
@@ -573,7 +573,7 @@
 - [==steveteuber/kubectl-graph== ⭐](https://github.com/steveteuber/kubectl-graph) **A kubectl plugin to visualize Kubernetes resources and relationships.**
 - [crazy-max/diun](https://github.com/crazy-max/diun) Diun is a CLI application written in Go and delivered as a single executable (and a Docker image) to receive notifications when a Docker image is updated on a Docker registry.
 - [==omrikiei/ktunnel== ⭐](https://github.com/omrikiei/ktunnel) **A cli that exposes your local resources to kubernetes. A CLI tool that establishes a reverse tunnel between a kubernetes cluster and your local machine.**
-- [dev.to: Pixie: an X-ray Machine for Kubernetes Traffic](https://dev.to/otomato_io/pixie-an-x-ray-machine-for-kubernetes-traffic-23pd) Pixie is one of a handful of observability tools that offer eBPF or kernel-level observability. In this tutorial, you will learn how to see all of your applications' metrics, events, logs, and traces using Pixie with Kubernetes.
+- [dev.to: Pixie: an X-ray Machine for Kubernetes Traffic](https://dev.to/otomato_io/pixie-an-x-ray-machine-for-kubernetes-traffic-23pd) Pixie is one of a handful of observability tools that offer eBPF or kernel-level observability. how to see all of your applications' metrics, events, logs, and traces using Pixie with Kubernetes.
 - [plural.sh: Deploy open-source software on Kubernetes in record time ⭐](https://www.plural.sh) An open-source platform to build, maintain, and scale infrastructure on Kubernetes. Batteries included.
     - [medium.com/@michaeljguarino: How we Created an in-Browser Kubernetes Experience](https://medium.com/@michaeljguarino/how-we-created-an-in-browser-kubernetes-experience-58c065cda803)
 - [pan-net-security/kcount](https://github.com/pan-net-security/kcount) kcount counts Kubernetes objects across namespaces and clusters. It can be used as a CLI tool or as a daemon (service) exposing Prometheus metrics.
@@ -688,16 +688,16 @@ elastic quotas - Effortless optimization at its finest!
 
 ## kcp
 
-- https://github.com/kcp-dev
+- https://github.com/kcp-dev/
 - [kcp: a prototype of a Kubernetes API server that is not a Kubernetes cluster - a place to create, update, and maintain Kube-like APIs with controllers above or without clusters](https://github.com/kcp-dev/kcp) Kubernetes is mainly known as a container orchestration platform today, but we believe it can be even more. With the power of CustomResourceDefinitions, Kubernetes provides a flexible platform for declarative APIs of all types, and the reconciliation pattern common to Kubernetes controllers is a powerful tool in building robust, expressive systems. At the same time, a diverse and creative community of tools and services has sprung up around Kubernetes APIs. Imagine a declarative Kubernetes-style API for anything, supported by an ecosystem of Kubernetes-aware tooling, separate from Kubernetes-the-container-orchestrator. That's kcp.
-- [cloudnativesimplified.substack.com: kcp: Kubernetes-like control plane](https://cloudnativesimplified.substack.com/p/tool-series-1-kcp) kcp is a control plane for workloads on many clusters. In this article, you will explore how to use it to manage multiple tenants:
+- [cloudnativesimplified.substack.com: kcp: Kubernetes-like control plane](https://cloudnativesimplified.substack.com/p/tool-series-1-kcp) kcp is a control plane for workloads on many clusters. you will explore how to use it to manage multiple tenants:
     - In a single cluster with workspaces (isolated namespaces)
     - In multiple clusters with SyncTarget and Placements
 
 ## Clusternet
 
 - [==github.com/clusternet==](https://github.com/clusternet/clusternet) Managing your Kubernetes clusters (including public, private, edge, etc) as easily as visiting the Internet
-    - https://clusternet.io
+    - https://clusternet.io/
     - Clusternet (Cluster Internet) is a tool that helps you manage thousands of Kubernetes clusters
     - It can also help deploy and manage applications across several clusters from a single set of APIs in a single hosting cluster
 
@@ -838,10 +838,10 @@ elastic quotas - Effortless optimization at its finest!
 
 ## MetalLB
 
-- [medium.com/@charled.breteche: Kind, Cilium, MetalLB, and still no kube-proxy](https://medium.com/@charled.breteche/kind-cilium-metallb-and-no-kube-proxy-a9fe66ddfad6) In this article I will show you how to add MetalLB into the mix to enable services of type LoadBalancer to work in your local cluster.
+- [medium.com/@charled.breteche: Kind, Cilium, MetalLB, and still no kube-proxy](https://medium.com/@charled.breteche/kind-cilium-metallb-and-no-kube-proxy-a9fe66ddfad6)I will show you how to add MetalLB into the mix to enable services of type LoadBalancer to work in your local cluster.
 - [patrick.easte.rs: Forging an optimal MetalLB configuration](https://patrick.easte.rs/post/2022/forging-optimal-metallb-config) MetalLB discovers services needing load balancers, allocates IP addresses, and advertises them. There are 2 primary modes for announcing load balancers: Layer 2 and 3 (BGP). Each mode has its pros and cons and this article compares them.
 - [adaltas.com: Ingresses and Load Balancers in Kubernetes with MetalLB and nginx-ingress](https://www.adaltas.com/en/2022/09/08/kubernetes-metallb-nginx) This tutorial will teach you how to use MetalLB and nginx-ingress to  load-balance requests in a bare-metal Kubernetes cluster
-- [itnext.io: Configuring routing for MetalLB in L2 mode](https://itnext.io/configuring-routing-for-metallb-in-l2-mode-7ea26e19219e) In this article, you will discover how to configure source-based and policy-based routing for the external network on your cluster using MetalLB
+- [itnext.io: Configuring routing for MetalLB in L2 mode](https://itnext.io/configuring-routing-for-metallb-in-l2-mode-7ea26e19219e) you will discover how to configure source-based and policy-based routing for the external network on your cluster using MetalLB
 
 ## Kubermatic Kubernetes Platform
 
@@ -880,7 +880,7 @@ elastic quotas - Effortless optimization at its finest!
 - [armosec.io: Use Kubescape to check if your Kubernetes clusters are exposed to the latest K8s Symlink vulnerability (CVE-2021-25741)](https://www.armosec.io/cve-vulnerability-database)
 - [medium.com/@sheraznadeem1: Kubescape & Kubernetes Hardening- Demystified](https://medium.com/@sheraznadeem1/kubescape-kubernetes-hardening-demystified-87fba47f3b6a)
 - [blog.devgenius.io: Scanning Kubernetes YAML Files for Security 🌟](https://blog.devgenius.io/scanning-kubernetes-yaml-files-for-security-e302542b5407)
-- [infracloud.io: Securing Kubernetes Cluster using Kubescape and kube-bench](https://www.infracloud.io/blogs/securing-kubernetes-cluster-kubescape-kubebench) In this article, you will discuss how you can secure a Kubernetes cluster using Kubescape and kube-bench
+- [infracloud.io: Securing Kubernetes Cluster using Kubescape and kube-bench](https://www.infracloud.io/blogs/securing-kubernetes-cluster-kubescape-kubebench) you will discuss how you can secure a Kubernetes cluster using Kubescape and kube-bench
 
 ## Kubectl Connections
   - [A Complete Guide to Kubectl exec](https://refine.dev/blog/kubectl-exec-command) 🌟 - This article provides a comprehensive guide to using `kubectl exec`, a crucial command for gaining shell access to containers within a Kubernetes cluster. It covers the necessity of shell access for debugging and configuration, introduces `kubectl exec`, details its components and parameters, compares it with `docker exec` and `ssh`, offers practical examples, discusses security implications, and provides troubleshooting tips.
@@ -945,7 +945,7 @@ elastic quotas - Effortless optimization at its finest!
 - [medium.com/@micheldirk: On Amazon EKS and Karpenter](https://medium.com/@micheldirk/on-amazon-eks-and-karpenter-2b84e75e254e)
 - [medium.com/@gajaoncloud: Unleash the Power of Karpenter: Automating AWS EKS Scaling and Cost Optimization](https://medium.com/@gajaoncloud/unleash-the-power-of-karpenter-automating-aws-eks-scaling-and-cost-optimization-7e236319eda4)
 - [medium.com/@gajaoncloud: Karpenter Mastery: NodePools & NodeClasses for Workload Nirvana](https://medium.com/@gajaoncloud/karpenter-mastery-nodepools-nodeclasses-for-workload-nirvana-bc89850fa934)
-- [medium.com/@gajaoncloud: Demystifying Karpenter’s Advanced Features: Consolidation, Drift, and Spot Handling](https://medium.com/@gajaoncloud/demystifying-karpenters-advanced-features-consolidation-drift-and-spot-handling-007fbad29549) In this article, you will learn about Karpenter's advanced features, such as consolidation for optimal resource utilization, drift detection for automatic updates, and spot instance handling for graceful interruptions
+- [medium.com/@gajaoncloud: Demystifying Karpenter’s Advanced Features: Consolidation, Drift, and Spot Handling](https://medium.com/@gajaoncloud/demystifying-karpenters-advanced-features-consolidation-drift-and-spot-handling-007fbad29549) about Karpenter's advanced features, such as consolidation for optimal resource utilization, drift detection for automatic updates, and spot instance handling for graceful interruptions
 
 ## Kuby (easy deployments of Ruby Rails App)
 
@@ -981,7 +981,7 @@ elastic quotas - Effortless optimization at its finest!
 
 ## Robusta
 
-- [Robusta](https://docs.robusta.dev/master/index.html) Robusta is an open source platform for webhooks and automations. It contains a library of 50+ builtin actions.
+- [Robusta](https://docs.robusta.dev/master) Robusta is an open source platform for webhooks and automations. It contains a library of 50+ builtin actions.
 - [home.robusta.dev: Why everyone should track Kubernetes changes and top four ways to do so](https://home.robusta.dev/blog/why-everyone-should-track-and-audit-kubernetes-changes-and-top-ways) Robusta is an event-triggered automations engine. Using Robusta you can subscribe to changes in a cluster (or multiple clusters) and publish that information to useful locations.
 - [==robusta-dev/krr==](https://github.com/robusta-dev/krr) Prometheus-based Kubernetes Resource Recommendations. Robusta KRR (Kubernetes Resource Recommender) is a CLI tool for optimizing resource allocation in Kubernetes clusters. It gathers pod usage data from Prometheus and recommends requests and limits for CPU and memory. This reduces costs and improves performance.
 - [==blog.devops.dev: How to use the Kubernetes Resource Recommender tool in a GKE Cluster== 🌟](https://blog.devops.dev/how-to-use-the-kubernetes-resource-recommender-tool-in-a-gke-cluster-ef48a6dea85c)
@@ -1120,7 +1120,7 @@ elastic quotas - Effortless optimization at its finest!
 
 - [vcluster.com](https://www.vcluster.com) Virtual Kubernetes Clusters that run inside regular namespaces. Create fully functional virtual Kubernetes clusters - Each vcluster runs inside a namespace of the underlying k8s cluster. It's cheaper than creating separate full-blown clusters and it offers better multi-tenancy and isolation than regular namespaces.
 - [thenewstack.io: Locking Down Kubernetes Containers with vcluster](https://thenewstack.io/locking-down-kubernetes-containers-with-vcluster)
-- [salaboy.com: Building platforms on top of Kubernetes: VCluster and Crossplane](https://www.salaboy.com/2022/08/03/building-platforms-on-top-of-kubernetes-vcluster-and-crossplane) In this tutorial, you'll learn how to:
+- [salaboy.com: Building platforms on top of Kubernetes: VCluster and Crossplane](https://www.salaboy.com/2022/08/03/building-platforms-on-top-of-kubernetes-vcluster-and-crossplane) you'll learn how to:
     - Create an isolated cluster with vcluster
     - Package apps with Helm
     - Submit a request for a "new environment" that will automatically create a new cluster and install the Helm chart using Crossplane

@@ -34,14 +34,14 @@
 - [kubernetes.io: The Kubernetes network model. How to implement the Kubernetes networking model](https://kubernetes.io/docs/concepts/cluster-administration/networking)
 - [ovh.com - getting external traffic into kubernetes: clusterip, nodeport, loadbalancer and ingress](https://blog.ovhcloud.com)
 - [==learnk8s.io: Load balancing and scaling long-lived connections in Kubernetes== 🌟🌟🌟](https://learnkube.com/kubernetes-long-lived-connections) **Kubernetes doesn't load balance long-lived connections, and some Pods might receive more requests than others. If you're using HTTP/2, gRPC, etc. or any other long-lived connection, you might want to consider client-side load balancing**
-- [stackrox.com: Kubernetes Networking Demystified: A Brief Guide](https://www.stackrox.com/post/2020/01/kubernetes-networking-demystified)
+- [stackrox.com: Kubernetes Networking Demystified: A Brief Guide](https://www.stackrox.io/blog/kubernetes-networking-demystified)
 - [medium.com: Fighting Service Latency in Microservices With Kubernetes](https://medium.com/@sindhujacynixit/fighting-service-latency-in-microservices-with-kubernetes-f5a584f5af36)
 - [medium.com: Kubernetes NodePort vs LoadBalancer vs Ingress? When should I use what? 🌟](https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0)
 - [blog.alexellis.io: Get a LoadBalancer for your private Kubernetes cluster](https://blog.alexellis.io/ingress-for-your-local-kubernetes-cluster)
 - [dustinspecker.com: How Do Kubernetes and Docker Create IP Addresses?!](https://dustinspecker.com/posts/how-do-kubernetes-and-docker-create-ip-addresses)
 - [youtube: Kubernetes Ingress Explained Completely For Beginners](https://www.youtube.com/watch?v=VicH6KojwCI)
-- [AWS and Kubernetes Networking Options and Trade-Offs (part 1)](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745)
-- [AWS and Kubernetes Networking Options and Trade-Offs (part 2)](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745)
+- [AWS and Kubernetes Networking Options and Trade-Offs (part 1)](https://www.weave.works/)
+- [AWS and Kubernetes Networking Options and Trade-Offs (part 2)](https://www.weave.works/)
 - [medium: Service Types in Kubernetes? 🌟](https://medium.com/faun/service-types-in-kubernetes-24a1587677d6) A Service enables network access to a set of Pods in Kubernetes.
 - [containo.us: Kubernetes Ingress & Service API Demystified](https://traefik.io/blog/kubernetes-ingress-service-api-demystified)
 - [speakerdeck.com: Kubernetes and networks. Why is this so dan hard? 🌟](https://speakerdeck.com/thockin/kubernetes-and-networks-why-is-this-so-dang-hard)
@@ -68,7 +68,7 @@
 - [Network Node Manager](https://github.com/kakao/network-node-manager) network-node-manager is a kubernetes controller that controls the network configuration of a node to resolve network issues of kubernetes. By simply deploying and configuring network-node-manager, you can solve kubernetes network issues that cannot be resolved by kubernetes or resolved by the higher kubernetes Version. Below is a list of kubernetes's issues to be resolved by network-node-manager. network-node-manager is based on kubebuilder v2.3.1.
 - [getenroute.io: Drive API Security At Kubernetes Ingress Using Helm And Envoy 🌟](https://docs.getenroute.io)
 - [ithands-on.com: Kubernetes 101 : External services - ExternalName, DNS and Endpoints](https://www.ithands-on.com/2021/04/kubernetes-101-external-services.html)
-- [ibm.com: Multizone Kubernetes and VPC Load Balancer Setup](https://www.ibm.com/think) Securely expose your Kubernetes app by setting up a Load Balancer for VPC in a different zone.
+- [ibm.com: Multizone Kubernetes and VPC Load Balancer Setup](https://www.ibm.com/think/cloud) Securely expose your Kubernetes app by setting up a Load Balancer for VPC in a different zone.
 - [opensource.googleblog.com: Kubernetes: Efficient Multi-Zone Networking with Topology Aware Routing](https://opensource.googleblog.com/2020/11/kubernetes-efficient-multi-zone.html)
 - [nbailey.ca: Domesticated Kubernetes Networking](https://nbailey.ca/post/k8s-networking)
 - [sookocheff.com: A Guide to the Kubernetes Networking Model 🌟](https://sookocheff.com/post/kubernetes/understanding-kubernetes-networking-model)
@@ -110,7 +110,7 @@
 - [medium.com/the-programmer: Working With ClusterIP Service Type In Kubernetes](https://medium.com/the-programmer/working-with-clusterip-service-type-in-kubernetes-45f2c01a89c8) Working with services in Kubernetes Using ClusterIP
 - [olamiko.medium.com: Technical Series: Kubernetes Networking](https://olamiko.medium.com/technical-series-kubernetes-networking-5a5dc3823163)
 - [==learnk8s.io: Tracing the path of network traffic in Kubernetes== 🌟](https://learnkube.com/kubernetes-network-packets)
-- [==devopslearners.com: Kubernetes Ingress Tutorial For Beginners==](https://devopslearners.com/kubernetes-ingress-tutorial-for-beginners-26c2f7727bc) - https://devopscube.com/kubernetes-ingress-tutorial
+- [==devopslearners.com: Kubernetes Ingress Tutorial For Beginners==](https://devopslearners.com/kubernetes-ingress-tutorial-for-beginners-26c2f7727bc) - https://devopscube.com/kubernetes-ingress-tutorial/
 - [devopscube.com: How To Configure Ingress TLS/SSL Certificates in Kubernetes](https://devopscube.com/configure-ingress-tls-kubernetes)
 - [armosec.io: Getting Started with Kubernetes Ingress | Ben Hirschberg](https://www.armosec.io/blog/kubernetes-ingress-beginners-guide)
 - [==itnext.io: Kubernetes Service Type LB for On Prem Deployments==](https://itnext.io/kubernetes-service-type-lb-for-on-prem-deployments-89e9b2a73a0c)
@@ -127,7 +127,7 @@
 - [faun.pub: Kubernetes Service Types Tutorial | Pavan Belagatti 🌟](https://faun.pub/kubernetes-service-types-tutorial-39223391316c) Configure ClusterIP, NodePort, LoadBalancer and Ingress
 - [medium.com/slalom-build: Managing Ingress Traffic on Kubernetes Platforms 🌟](https://medium.com/slalom-build/managing-ingress-traffic-on-kubernetes-platforms-ebd537cdfb46) **Why you need an Ingress and how to pick the right one**
 - [craig-godden-payne.medium.com: How does ingress work in Kubernetes?](https://craig-godden-payne.medium.com/how-does-ingress-work-in-kubernetes-f3b121d0351f) And how to set up ingress in minikube
-- [dustinspecker.com: Kubernetes Networking from Scratch: Using BGP and BIRD to Advertise Pod Routes](https://dustinspecker.com/posts/kubernetes-networking-from-scratch-bgp-bird-advertise-pod-routes) In this article, you will learn how Calico sets up pod routes between Kubernetes nodes. In this post, you won't use containers or pods. You'll learn by creating network namespaces and virtual ethernet devices manually.
+- [dustinspecker.com: Kubernetes Networking from Scratch: Using BGP and BIRD to Advertise Pod Routes](https://dustinspecker.com/posts/kubernetes-networking-from-scratch-bgp-bird-advertise-pod-routes) how Calico sets up pod routes between Kubernetes nodes. you won't use containers or pods. You'll learn by creating network namespaces and virtual ethernet devices manually.
 - [==home.robusta.dev: The ultimate guide to Kubernetes Services, LoadBalancers, and Ingress== 🌟🌟🌟](https://home.robusta.dev/blog/kubernetes-service-vs-loadbalancer-vs-ingress)
 - [sanjimoh.medium.com: Demystifying Kubernetes Networking — Episode 1](https://sanjimoh.medium.com/demystifying-kubernetes-networking-episode-1-ca5605a97f87) In this series of articles you will learn about Kubernetes networking:
     - Linux namespaces and Networking namespace
@@ -137,7 +137,7 @@
 - [medium.com/@mehmetodabashi: Kubernetes networking and service object: Understanding ClusterIp and nodePort with hands on study](https://medium.com/@mehmetodabashi/kubernetes-networking-and-service-object-understanding-clusterip-and-nodeport-with-hands-on-study-90cfeaf66e8c)
 - [medium.com/@jasonmfehr: Inspecting Kubernetes Client to API Server Network Traffic](https://medium.com/@jasonmfehr/inspecting-kubernetes-client-to-api-server-network-traffic-cd6d1802bb43)
 - [medium.com/geekculture: K8s Network — CNI Introduction](https://medium.com/geekculture/k8s-network-cni-introduction-b035d42ad68f) Introduction to K8s container network interface
-- [==medium.com/patilswapnilv: Getting Started with Kubernetes Networking== 🌟](https://medium.com/patilswapnilv/getting-started-with-kubernetes-networking-7e10623fc78f) **In this article, you will examine Kubernetes networking with the help of 10 detailed diagrams**
+- [==medium.com/patilswapnilv: Getting Started with Kubernetes Networking== 🌟](https://medium.com/patilswapnilv/getting-started-with-kubernetes-networking-7e10623fc78f) **you will examine Kubernetes networking with the help of 10 detailed diagrams**
 - [==faun.pub: Kubernetes Ingress with Nginx==](https://faun.pub/kubernetes-ingress-with-nginx-3c77e703e91a) How to install and secure Nginx Ingress
 - [medium.com/codex: Access Application Externally In Kubernetes Cluster using Load Balancer Service](https://medium.com/codex/access-application-externally-in-kubernetes-cluster-using-load-balancer-service-d1b7858d51) Learn how to create a Pod and how to create a Load Balancer service using Kubernetes cluster. And access the application from outside.
 - [itnext.io: Inspecting and Understanding k8s Service Network 🌟](https://itnext.io/inspecting-and-understanding-service-network-dfd8c16ff2c5)
@@ -147,10 +147,10 @@
 - [blog.devgenius.io: K8s — ipvs Mode Introduction](https://blog.devgenius.io/k8s-ipvs-mode-introduction-6457a02cd91a)
 - [==edureka.co: Kubernetes Networking – A Comprehensive Guide To The Networking Concepts In Kubernetes==](https://www.edureka.co/blog/kubernetes-networking)
 - [whyk8s.substack.com: Why not DNS?](https://whyk8s.substack.com/p/why-not-dns) Why is KubeProxy necessary? Couldn't simple DNS records do the job? You do a DNS lookup on my-service in Kubernetes. You do NOT get back IPs for pods that provide that Service. Have you ever wondered why?
-- [medium.com/geekculture: Kubernetes Gateway API: The Intro You Need To Read](https://medium.com/geekculture/kubernetes-gateway-api-the-intro-you-need-to-read-80965f7acd82) In this article, you'll learn how to deploy k3s to a Raspberry Pi cluster with ClusterHat and ClusterCTRL
-- [==ksingh7.medium.com: Kubernetes Endpoint Object: Your Bridge to External Services== 🌟🌟](https://ksingh7.medium.com/kubernetes-endpoint-object-your-bridge-to-external-services-3fc48263b776) Chances are that you might want to access services external to the cluster, such as a database. In this article, you will learn how to create an endpoint manually to make an external database available to the Pods in the cluster.
+- [medium.com/geekculture: Kubernetes Gateway API: The Intro You Need To Read](https://medium.com/geekculture/kubernetes-gateway-api-the-intro-you-need-to-read-80965f7acd82) you'll learn how to deploy k3s to a Raspberry Pi cluster with ClusterHat and ClusterCTRL
+- [==ksingh7.medium.com: Kubernetes Endpoint Object: Your Bridge to External Services== 🌟🌟](https://ksingh7.medium.com/kubernetes-endpoint-object-your-bridge-to-external-services-3fc48263b776) Chances are that you might want to access services external to the cluster, such as a database. how to create an endpoint manually to make an external database available to the Pods in the cluster.
 - [medium.com/@ahmet16ck: What Is Load Balancer and How Does It Work In Kubernetes ? 🌟](https://medium.com/@ahmet16ck/what-is-load-balancer-and-how-does-it-work-in-kubernetes-5ab5f0537069)
-- [api7.ai: How Does APISIX Ingress Support Thousands of Pod Replicas?](https://api7.ai/blog/apisix-ingress-support-thousands-pod-replicas) In this article, you'll explore the challenges of deploying large numbers of Pods in your Kubernetes cluster. You'll also compare Endpoints and EndpointSlice and discuss how to enable EndpointSlice when installing APISIX Ingress.
+- [api7.ai: How Does APISIX Ingress Support Thousands of Pod Replicas?](https://api7.ai/blog/apisix-ingress-support-thousands-pod-replicas) you'll explore the challenges of deploying large numbers of Pods in your Kubernetes cluster. You'll also compare Endpoints and EndpointSlice and discuss how to enable EndpointSlice when installing APISIX Ingress.
 - [medium.com/illuminations-mirror: Basic | Networking and Communication Between Pods in Kubernetes](https://medium.com/illuminations-mirror/basic-networking-and-communication-between-pods-in-kubernetes-2e1627b03a87)
 - [blog.devops.dev: Networking in Kubernetes](https://blog.devops.dev/networking-in-kubernetes-55dcf794b9cd) In this blog post, we’re going to delve into the world of Kubernetes networking and explore the many components that make it such a powerful and reliable platform for modern containerized applications. lets discover the essential networking components that make Kubernetes the go-to choice for cloud-native deployments!
 - [medium.com/@mustafaaltunok: How Ingress, Service, Deployment and Pod Link to each other](https://medium.com/@mustafaaltunok/how-ingress-service-deployment-and-pod-link-to-eachother-d3a6ae2c0e06) In Kubernetes domain, deployment of an app consists of mainly three components. From outer to inner.
@@ -189,7 +189,7 @@
 
 ## TCP Keep Alive Requests
 
-- [kuderko.medium.com: Fixing bad CPU usage distribution in Kubernetes 🌟](https://kuderko.medium.com/fixing-bad-cpu-usage-distribution-in-kubernetes-e1e43ed87cd6) In this article, you will learn how TCP keep-alive requests could hurt horizontal scaling for your pods. You will also discuss the workarounds you can apply to your apps or web servers.
+- [kuderko.medium.com: Fixing bad CPU usage distribution in Kubernetes 🌟](https://kuderko.medium.com/fixing-bad-cpu-usage-distribution-in-kubernetes-e1e43ed87cd6) how TCP keep-alive requests could hurt horizontal scaling for your pods. You will also discuss the workarounds you can apply to your apps or web servers.
 
 ## Headless Kubernetes Service
 
@@ -240,12 +240,12 @@
 - [blog.flomesh.io: Kubernetes Gateway API — Evolution of Service Networking](https://blog.flomesh.io/kubernetes-gateway-api-evolution-of-service-networking-aa76ec4efa7e)
 - [==armosec.io: The New Kubernetes Gateway API and Its Use Cases==](https://www.armosec.io/blog/kubernetes-gateway-api)
 - [medium.com/google-cloud: Security with Kubernetes Gateway API 🌟](https://medium.com/google-cloud/security-with-kubernetes-gateway-api-dcbb934ed2a4)
-- [navendu.me: Comparing Kubernetes Gateway and Ingress APIs](https://navendu.me/posts/gateway-vs-ingress-api) In this article, you will explore the new Kubernetes Gateway API and compare it with the existing Kubernetes Ingress API for handling external traffic
+- [navendu.me: Comparing Kubernetes Gateway and Ingress APIs](https://navendu.me/posts/gateway-vs-ingress-api) you will explore the new Kubernetes Gateway API and compare it with the existing Kubernetes Ingress API for handling external traffic
 
 ## Kube-proxy
-  - [NFTables mode for kube-proxy in Kubernetes](https://kubernetes.io/blog/2025/02/28/nftables-kube-proxy) 🌟 - This article introduces the new nftables mode for kube-proxy, an alpha feature in Kubernetes 1.29 that is currently in beta and expected to reach General Availability (GA) in version 1.33. The new mode addresses long-standing performance issues associated with the iptables mode, particularly for large Kubernetes clusters with numerous Services. It leverages the capabilities of nftables to improve data plane latency by providing a more scalable and efficient way to handle Service proxying compared to the traditional iptables approach. The article encourages users with recent kernels to try out this new mode.
+  - [NFTables mode for kube-proxy in Kubernetes](https://kubernetes.io/blog/2025/02/28/nftables-kube-proxy) 🌟 -the new nftables mode for kube-proxy, an alpha feature in Kubernetes 1.29 that is currently in beta and expected to reach General Availability (GA) in version 1.33. The new mode addresses long-standing performance issues associated with the iptables mode, particularly for large Kubernetes clusters with numerous Services. It leverages the capabilities of nftables to improve data plane latency by providing a more scalable and efficient way to handle Service proxying compared to the traditional iptables approach. The article encourages users with recent kernels to try out this new mode.
 
-- [dustinspecker.com: iptables: How Kubernetes Services Direct Traffic to Pods](https://dustinspecker.com/posts/iptables-how-kubernetes-services-direct-traffic-to-pods) In this article you will learn how Kubernetes's kube-proxy uses iptables to direct traffic to pods randomly. You'll focus on the ClusterIP type of Kubernetes services.
+- [dustinspecker.com: iptables: How Kubernetes Services Direct Traffic to Pods](https://dustinspecker.com/posts/iptables-how-kubernetes-services-direct-traffic-to-pods)you will learn how Kubernetes's kube-proxy uses iptables to direct traffic to pods randomly. You'll focus on the ClusterIP type of Kubernetes services.
 - [arthurchiao.art: Cracking kubernetes node proxy (aka kube-proxy)](https://arthurchiao.art/blog/cracking-k8s-node-proxy) This post analyzes the Kubernetes node proxy model, and provides 5 demo implementations (within couples of lines of code) of the model, each based on different tech-stacks (userspace/iptables/ipvs/tc-ebpf/sock-ebpf).
 
 ## Multicloud communication for Kubernetes
@@ -291,13 +291,13 @@
     - CockroachDB is built to solve that problem and we’re doing it in production for many applications today. But that’s not what this blog is about. In this blog, I will provide a solution for the problem of getting Kubernetes pods to talk to each other in multi-region deployments.
 - [cilium.io: Cilium 1.10: WireGuard, BGP Support, Egress IP Gateway, New Cilium CLI, XDP Load Balancer, Alibaba Cloud Integration and more](https://cilium.io/blog/2021/05/20/cilium-110) Traditional workloads have a fixed and unique IP that can be recognized by a firewall. Traffic coming from a containerized application will come from many different IPs. How can you fix that?
 Cilium allows users to specify an egress NAT policy
-- [medium.com/@charled.breteche: Kubernetes Security — Control pod to pod communications with Cilium network policies](https://medium.com/@charled.breteche/kubernetes-security-control-pod-to-pod-communications-with-cilium-network-policies-d7275b2ed378) In this article, you'll explore Cilium network policies and how you can use them to control pod to pod communications on a 3 nodes and 3 masters cluster. You will also use Hubble to visualise the effect of the network policies in your cluster.
+- [medium.com/@charled.breteche: Kubernetes Security — Control pod to pod communications with Cilium network policies](https://medium.com/@charled.breteche/kubernetes-security-control-pod-to-pod-communications-with-cilium-network-policies-d7275b2ed378) you'll explore Cilium network policies and how you can use them to control pod to pod communications on a 3 nodes and 3 masters cluster. You will also use Hubble to visualise the effect of the network policies in your cluster.
 - [solo.io: Exploring Cilium Layer 7 Capabilities Compared to Istio](https://www.solo.io/blog)
 - [betterprogramming.pub: K8s: Network Policy Made Simple With Cilium Editor 🌟](https://betterprogramming.pub/k8s-network-policy-made-simple-with-cilium-editor-a5b55781291c) An intuitive graphical tool to define complex network policies
 
 <center markdown="1">
 
-<script async class="speakerdeck-embed" data-id="9251193501114da199d70b2a679c552f" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+<script async class="speakerdeck-embed" data-id="9251193501114da199d70b2a679c552f" data-ratio="1.77777777777778" src="/speakerdeck.com/assets/embed.js"></script>
 
 </center>
 
@@ -339,7 +339,7 @@ Cilium allows users to specify an egress NAT policy
 - [Kubernetes Networking](https://kubernetes.io/docs/concepts/cluster-administration/networking)
 - Overlay Network plugins:
     - [Flannel](https://github.com/flannel-io/flannel)
-    - [Weave-net](https://www.weave.works/docs/net/latest/overview)
+    - [Weave-net](https://www.weave.works/)
 - Routed Network Plugins:
     - [AWS-VPC](https://en.wikipedia.org/wiki/Amazon_Virtual_Private_Cloud)
     - [kube-router](https://www.kube-router.io)

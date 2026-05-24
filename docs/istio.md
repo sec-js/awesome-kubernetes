@@ -98,16 +98,16 @@ IstioMesh, PrometheusIO, Flux v2 & Flagger.
     - How are the sidecar injections done in Istio?
     - How does the sidecar proxy do transparent traffic hijacking?
     - How is the traffic routed upstream?
-- [blog.getambassador.io: Kubernetes Canary Testing and Release with Istio](https://blog.getambassador.io/kubernetes-canary-testing-and-release-with-istio-4cbdedcc9914?gi=816ffb457b0d) In this article, you'll learn about Canary testing in Kubernetes and how Istio can help perform seamless Canary upgrades
+- [blog.getambassador.io: Kubernetes Canary Testing and Release with Istio](https://blog.getambassador.io/kubernetes-canary-testing-and-release-with-istio-4cbdedcc9914?gi=816ffb457b0d) you'll learn about Canary testing in Kubernetes and how Istio can help perform seamless Canary upgrades
 - [medium.com/globant: Istio JWT Authentication & Authorization at the edge](https://medium.com/globant/istio-jwt-authentication-authorization-at-the-edge-b35b612acd97) This article covers:
     - What is a JWT, and why should you care?
     - Dissecting Istio's JWT edge authentication & authorization
     - How to build an external authz service for Istio
 - [medium.com/codex: Egress Traffic Control for Nginx Ingress Controller with Istio Proxy Sidecar](https://medium.com/codex/egress-traffic-control-for-nginx-ingress-controller-with-istio-proxy-sidecar-ef8f19902b43)
-- [medium.com/marionete: How to expose Kubernetes services to external traffic using Istio Gateway](https://medium.com/marionete/how-to-expose-kubernetes-services-to-external-traffic-using-istio-gateway-1a1e6ebd8805) In this article, you'll walk through the necessary configurations to expose services inside a Service Mesh to external traffic. The first scenario covers an HTTP endpoint, while the second examines the HTTPS configurations.
+- [medium.com/marionete: How to expose Kubernetes services to external traffic using Istio Gateway](https://medium.com/marionete/how-to-expose-kubernetes-services-to-external-traffic-using-istio-gateway-1a1e6ebd8805) you'll walk through the necessary configurations to expose services inside a Service Mesh to external traffic. The first scenario covers an HTTP endpoint, while the second examines the HTTPS configurations.
 - [natarajsundar.medium.com: Istio service mesh, a start to finish tutorial with Side Car architecture and an analysis + comparison of the Ambient mesh architecture](https://natarajsundar.medium.com/istio-service-mesh-a-start-to-finish-tutorial-with-side-car-architecture-and-an-analysis-d70a255ea41d) In this blog post, you will find an end-to-end tutorial on how to get Istio up and running in your Kubernetes cluster. You will also discuss the Istio Ambient Mesh.
 - [alexandrev.medium.com: How To Enable Sticky Session on Your Kubernetes Workloads using Istio? 🌟](https://alexandrev.medium.com/how-to-enable-sticky-session-on-your-kubernetes-workloads-using-istio-e789014a6acd)
-- [medium.com/@wessel__: Istio with Authentik: securing your cluster and providing authentication and authorization](https://medium.com/@wessel__/istio-with-authentik-securing-your-cluster-and-providing-authentication-and-authorization-b5e48b331920) In this article, you will learn how to manage user access to individual apps deployed in your cluster using Istio and Authentik
+- [medium.com/@wessel__: Istio with Authentik: securing your cluster and providing authentication and authorization](https://medium.com/@wessel__/istio-with-authentik-securing-your-cluster-and-providing-authentication-and-authorization-b5e48b331920) how to manage user access to individual apps deployed in your cluster using Istio and Authentik
 - [medium.com/@hammadsaif061: Simplifying Microservices Management with Kubernetes and Service Mesh](https://medium.com/@hammadsaif061/simplifying-microservices-management-with-kubernetes-and-service-mesh-de458ce566f1)
 - [==itnext.io: Taffic Shaping - Kubernetes & Istio== | Daniele Polencic](https://itnext.io/traffic-shaping-with-kubernetes-and-istio-7e44fbfca200) How can you roll out an app only to a subset of your users in Kubernetes? Let's explore Canary Releases with Istio, Kiali and the Gateway API!
 - [medium.com/@lupass93: Zero Trust Architecture on Kubernetes with Istio Service Mesh](https://medium.com/@lupass93/zero-trust-architecture-on-kubernetes-with-istio-service-mesh-eade6c5a3c53) This article will show how to implement a Zero Trust Architecture on Kubernetes with Istio:
@@ -150,7 +150,7 @@ IstioMesh, PrometheusIO, Flux v2 & Flagger.
 - [hackernoon.com: A Guide to Deploying Jaeger on Kubernetes in Production](https://hackernoon.com/a-guide-to-deploying-jaeger-on-kubernetes-in-production-0p2n3tub)
 - [hackernoon.com: How To Use OpenTelemetry And Jaeger To Implement Distributed Tracing And APM](https://hackernoon.com/how-to-use-opentelemetry-and-jaeger-to-implement-distributed-tracing-and-apm-jcx34fi)
 - [faun.pub: A beginner’s guide to Jaeger](https://faun.pub/a-beginners-guide-to-jaeger-ed75ce5ed8f4) Welcome to A beginner’s guide to Jaeger (5 Part Series)
-- [infracloud.io: Linking Traces with Continuous Profiling using Pyroscope](https://www.infracloud.io/blogs/linking-traces-continuous-profiling-pyroscope) The future of observability lies in distributed tracing with continuous profiling. In this article, you will learn how you can link traces with continuous profiling using Pyroscope and Jaeger.
+- [infracloud.io: Linking Traces with Continuous Profiling using Pyroscope](https://www.infracloud.io/blogs/linking-traces-continuous-profiling-pyroscope) The future of observability lies in distributed tracing with continuous profiling. how you can link traces with continuous profiling using Pyroscope and Jaeger.
 
 ## Envoy micro proxy
 

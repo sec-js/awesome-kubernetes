@@ -111,7 +111,7 @@
 - [GitHub Copilot](https://github.com/copilot)
 - [Amazon CodeGuru Reviewer](https://aws.amazon.com/codeguru/profiler)
 - [Amazon CodeWhisperer](https://aws.amazon.com/q/developer) Amazon CodeWhisperer is a machine learning (ML)–powered service that helps improve developer productivity by generating code recommendations based on developers’ comments in natural language and their code in the integrated development environment (IDE). During preview, CodeWhisperer is available for Java, JavaScript, and Python programming languages. The service integrates with multiple IDEs, including JetBrains (IntelliJ, PyCharm, and WebStorm), Visual Studio Code, AWS Cloud9, and the AWS Lambda console.
-- [hipertextual.com: Así es Devin, la inteligencia artificial que programa software de principio a fin](https://hipertextual.com/2024/03/devin-inteligencia-artificial-programa-software)
+- [hipertextual.com: Así es Devin, la inteligencia artificial que programa software de principio a fin](https://hipertextual.com/tecnologia/devin-inteligencia-artificial-programa-software)
 
 ## No code tools
 

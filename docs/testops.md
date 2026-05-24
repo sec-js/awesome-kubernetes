@@ -48,7 +48,7 @@
 
 ## Application Security Testing (AST)
 
-- [synopsys.com: How to integrate automated AST tools in your CI/CD pipeline](https://www.synopsys.com/software-integrity/blog/integrating-automated-ast-tools.html)
+- [synopsys.com: How to integrate automated AST tools in your CI/CD pipeline](https://www.blackduck.com/blog/integrating-automated-ast-tools.html)
 
 ## Bunch of Images
 

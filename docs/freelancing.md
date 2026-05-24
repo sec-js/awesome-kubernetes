@@ -86,7 +86,7 @@
 
 - https://6catsint.com
 - https://accessfinancial.com
-- https://groupchesterfield.com/umbrella-services
+- https://groupchesterfield.com/umbrella-services/
 - https://pixie-services.com
 
 ## Videos

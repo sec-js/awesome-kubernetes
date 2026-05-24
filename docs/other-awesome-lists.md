@@ -193,7 +193,7 @@
 ### Configuration Management
 
 - [jdauphant/Awesome Ansible](https://github.com/jdauphant/awesome-ansible)
-    - [mrxpalmeiras: Ansible Cheat Sheet](https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fsite%2Fmrxpalmeiras%2Fansible%2Fansible-cheat-sheet&dsh=S1127513064%3A1779041015006518&followup=https%3A%2F%2Fsites.google.com%2Fsite%2Fmrxpalmeiras%2Fansible%2Fansible-cheat-sheet&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AWa2PatKhgmTZTEkwb3Q5nWpkPt4ntDFIyQrUJIi2ZjPJ-M3IOraCUtKjEa4_jbOFaWLmjeqIlS_)
+    - [mrxpalmeiras: Ansible Cheat Sheet](https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fsite%2Fmrxpalmeiras%2Fansible%2Fansible-cheat-sheet&dsh=S-1707972940%3A1779029132636791&followup=https%3A%2F%2Fsites.google.com%2Fsite%2Fmrxpalmeiras%2Fansible%2Fansible-cheat-sheet&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AWa2PaujYnU1vHeNQrrR9IV_P56nGiUWnqqM_hG1PBGMZyTXDsxITg7865jvpdfY8gDYaRf3YwR5Kw)
 - [==ansible-community/awesome-ansible: Awesome Ansible== 🌟🌟🌟](https://github.com/ansible-community/awesome-ansible)
 - [dawitnida/Awesome Packer](https://github.com/dchonch/awesome-packer)
 - [shuaibiyy/Awesome Terraform](https://github.com/shuaibiyy/awesome-tf)

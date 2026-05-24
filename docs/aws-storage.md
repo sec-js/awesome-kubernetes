@@ -17,7 +17,7 @@
 - [cloudkatha.com: AWS S3 Storage Classes: Everything You Need to Know](https://cloudkatha.com/aws-s3-storage-classes-everything-you-need-to-know)
 - [A step-by-step guide to synchronize data between Amazon S3 buckets](https://aws.amazon.com/blogs/storage/a-step-by-step-guide-to-synchronize-data-between-amazon-s3-buckets)
 - [percona.com: Performance of Various EBS Storage Types in AWS](https://www.percona.com/blog/performance-of-various-ebs-storage-types-in-aws)
-- [harness.io: Tutorial: [Artifact Servers] S3 – How to Provide Cross-Account Access Via Bucket Policies](https://harness.io/blog/devops/tutorial-s3-cross-account)
+- [harness.io: Tutorial: [Artifact Servers] S3 – How to Provide Cross-Account Access Via Bucket Policies](https://www.harness.io/blog/tutorial-s3-cross-account)
 - [Connect Amazon S3 File Gateway using AWS PrivateLink for Amazon S3](https://aws.amazon.com/es/blogs/architecture/connect-amazon-s3-file-gateway-using-aws-privatelink-for-amazon-s3)
 - [blog.min.io: Certificate-based Authentication for S3](https://www.min.io/blog/certificate-based-authentication-with-s3) MinIO encrypts data when stored on disk and when transmitted over the network.
 - [==acloudguru.com: S3 Glacier Instant Retrieval deep dive: Which S3 Storage Class is right for me?==](https://www.pluralsight.com/resources/blog/cloud/s3-glacier-instant-retrieval-deep-dive-which-s3-storage-class-is-right-for-me)
@@ -26,7 +26,7 @@
 - [dev.to: Adding an EBS volume to a running AWS EC2 Instance](https://dev.to/aws-builders/adding-an-ebs-volume-to-a-running-aws-ec2-instance-311l)
 - [awstip.com: Uploading files to S3 through API Gateway](https://awstip.com/uploading-files-to-s3-through-api-gateway-7bb78c0d0483)
     - When you have a front-end application and need to upload files to an S3 bucket securely and keep your bucket private, you can use API Gateway to post your files to S3.
-    - If you don´t want to make any modifications to the file and upload it as is, you can upload the files directly from API Gateway to S3. But if some modifications are required, you may consider using Lambda to receive the request from API Gateway and upload to S3. In this article we will not use Lambda.
+    - If you don´t want to make any modifications to the file and upload it as is, you can upload the files directly from API Gateway to S3. But if some modifications are required, you may consider using Lambda to receive the request from API Gateway and upload to S3.we will not use Lambda.
 
 ## Amazon EFS Elastic File System
   - [Ceph: A Distributed Object, Block, and File Storage Platform](https://github.com/ceph/ceph) - *(Related to kubernetes-storage topic)*

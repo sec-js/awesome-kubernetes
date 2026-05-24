@@ -63,23 +63,23 @@
 - [Sonatype Nexus Community: Nexus Kubernetes OpenShift 🌟](https://github.com/sonatype-nexus-community/nexus-kubernetes-openshift)
 - [Devopscube.com: Setup Nexus Kubernetes 🌟](https://devopscube.com/setup-nexus-kubernetes)
 - [stackoverflow: run nexus3 with docker in a kubernetes cluster](https://stackoverflow.com/questions/42766349/run-nexus-3-with-docker-in-a-kubernetes-cluster)
-- [https://github.com/cert-manager/cert-manager](https://github.com/cert-manager/cert-manager)
+- [https://github.com/cert-manager/cert-manager/](https://github.com/cert-manager/cert-manager)
 
 ### Nexus as a Docker repo
 
-- [Docker Registry](https://help.sonatype.com/en/docker-registry.html)
+- [Docker Registry](https://help.sonatype.com/en/sonatype-nexus-repository.html/formats/docker-registry)
 - [blog.sonatype.com: Using Nexus 3 as Your Repository – Part 3: Docker Images 🌟](https://www.sonatype.com/blog/using-sonatype-nexus-repository-3-part-3-docker-images)
 - [sonatype: how to delete docker images from Nexus Repository Manager](https://support.sonatype.com/hc/en-us/articles/360009696054-How-to-delete-docker-images-from-Nexus-Repository-Manager)
 - [hackermoon.com: cleanup old docker images from nexus repository](https://hackernoon.com/cleanup-old-docker-images-from-nexus-repository-617b1004dad8)
 
 #### Secure Docker Registries
 
-- [guides.sonatype.com: secure docker registries](https://help.sonatype.com/en/404-page.html)
+- [guides.sonatype.com: secure docker registries](https://help.sonatype.com/index.html)
 - [support.sonatype.com: Using self signed certificates with Nexus Repository Manager and Docker Daemon](https://support.sonatype.com/hc/en-us/articles/217542177-Using-Self-Signed-Certificates-with-Nexus-Repository-Manager-and-Docker-Daemon)
 
 ### SSL/TLS Certificates
 
-- [guides.sonatype.com: secure docker registries](https://help.sonatype.com/en/404-page.html)
+- [guides.sonatype.com: secure docker registries](https://help.sonatype.com/index.html)
 - [support.sonatype.com: SSL Certificate Guide](https://support.sonatype.com/hc/en-us/articles/213465768-SSL-Certificate-Guide)
 - [help.sonatype.com: Inbound SSL - Configuring to Serve Content via HTTPS](https://help.sonatype.com/en/sonatype-nexus-repository.html/security/configuring-ssl?_ga=2.250230211.411976214.1575978022-1513910029.1575978022#ConfiguringSSL-InboundSSL-ConfiguringtoServeContentviaHTTPS)
 - [nginx.com: Using Free Let’s Encrypt SSL/TLS Certificates with NGINX](https://www.f5.com/products/nginx)
@@ -92,7 +92,7 @@
 
 ### Jenkins Integration with Nexus
 
-- [Nexus Platform Plugin for Jenkins](https://help.sonatype.com/en/nexus-platform-plugin-for-jenkins.html)
+- [Nexus Platform Plugin for Jenkins](https://help.sonatype.com/en/sonatype-platform-plugin-for-jenkins.html)
 - [Jenkins: Publish Maven Artifacts to Nexus OSS Using Pipelines or Maven Jobs 🌟](https://dzone.com/articles/jenkins-publish-maven-artifacts-to-nexus-oss-using) Check out how following this tutorial to connect Maven and Nexus OSS can help increase your CI/CD pipelines.
 - [Continuous Delivery with Sonatype Nexus, Jenkins and the Cloudogu Ecosystem](https://platform.cloudogu.com/en/blog/cd-with-nexus-jenkins-ces)
 - [youtube: Jenkins Integration with Nexus](https://www.youtube.com/watch?v=qbO4MTESiJQ)
@@ -123,7 +123,7 @@
 - [jfrog.com: How I Leaped Forward My Jenkins Build with JFrog Pipelines](https://jfrog.com/blog)
 - [jfrog.com: GitHub vs JFrog: Who Can do the Job for DevOps?](https://jfrog.com/blog/github-vs-jfrog-who-can-do-the-job-for-devops)
 - [seekingalpha.com: JFrog Reminds Me Of MongoDB](https://seekingalpha.com/article/4427517-jfrog-reminds-me-of-mongodb) JFrog’s software is similarly disruptive as MongoDB’s, and likewise its cloud offering is growing faster than the overall company.
-- [jfrog.com: Kubernetes Helm Chart Repositories 🌟](https://jfrog.com/help/r/jfrog-artifactory-documentation/helm-chart-repositories)
+- [jfrog.com: Kubernetes Helm Chart Repositories 🌟](https://docs.jfrog.com)
 - [jfrog.com: What Artifactory as your kubernetes docker registry means to you](https://jfrog.com/integrations/kubernetes-docker-registry)
 - [openshift.com: Using JFrog's Artifactory and Red Hat OpenShift Together](https://www.redhat.com/en/blog/18333-2)
 
@@ -139,5 +139,5 @@
 ## Other Alternatives
 
 - [uber/kraken](https://github.com/uber/kraken) P2P Docker registry capable of distributing TBs of data in seconds
-- [medium.com/swlh: Deploy Your Private Docker Registry as a Pod in Kubernetes](https://medium.com/swlh/deploy-your-private-docker-registry-as-a-pod-in-kubernetes-f6a489bf0180) In this tutorial, you'll deploy a TLS-enabled Private Docker Registry as a Pod. This will help you to push your custom-built images to the registry, which later can be pulled by any of the worker nodes.
+- [medium.com/swlh: Deploy Your Private Docker Registry as a Pod in Kubernetes](https://medium.com/swlh/deploy-your-private-docker-registry-as-a-pod-in-kubernetes-f6a489bf0180) you'll deploy a TLS-enabled Private Docker Registry as a Pod. This will help you to push your custom-built images to the registry, which later can be pulled by any of the worker nodes.
 

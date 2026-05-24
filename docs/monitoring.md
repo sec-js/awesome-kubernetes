@@ -68,17 +68,17 @@
 - [bravenewgeek.com: The Observability Pipeline](https://bravenewgeek.com/the-observability-pipeline)
 - [thenewstack.io: 3 Key Configuration Challenges for Kubernetes Monitoring with Prometheus](https://thenewstack.io/3-key-configuration-challenges-for-kubernetes-monitoring-with-prometheus)
 - [sysdig.com: Kubernetes Monitoring with Prometheus, the ultimate guide 🌟](https://www.sysdig.com/blog/kubernetes-monitoring-prometheus)
-- [sysdig.com: How to monitor kube-proxy 🌟](https://www.sysdig.com/blog/monitor-kube-proxy) In this article, you will learn how to monitor kube-proxy to ensure the correct health of your cluster network.
+- [sysdig.com: How to monitor kube-proxy 🌟](https://www.sysdig.com/blog/monitor-kube-proxy) how to monitor kube-proxy to ensure the correct health of your cluster network.
 - [thenewstack.io: Monitoring vs. Observability: What’s the Difference?](https://thenewstack.io/monitoring-vs-observability-whats-the-difference)
 - [getenroute.io: TSDB, Prometheus, Grafana In Kubernetes: Tracing A Variable Across The OSS Monitoring Stack](https://www.saaras.io/blog/leverage-open-source-oss-derive-insights-grafana-prometheus)
 - [dashbird.io: Monitoring vs Observability: Can you tell the difference? 🌟](https://dashbird.io/blog/monitoring-vs-observability)
 - [thenewstack.io: Monitoring as Code: What It Is and Why You Need It 🌟](https://thenewstack.io/monitoring-as-code-what-it-is-and-why-you-need-it)
 - [thenewstack.io: Observability Won’t Replace Monitoring (Because It Shouldn’t) 🌟](https://thenewstack.io/observability-wont-replace-monitoring-because-it-shouldnt)
 - [matiasmct.medium.com: Observability at Scale](https://matiasmct.medium.com/observability-at-scale-52d0d9a5fb9b)
-- [dynatrace.com: How to solve the challenges of multicloud AWS, Azure and GCP observability](https://www.dynatrace.com/news/blog/how-to-solve-the-challenges-of-multicloud-aws-azure-and-gcp-observability)
+- [dynatrace.com: How to solve the challenges of multicloud AWS, Azure and GCP observability](https://www.dynatrace.com/news/blog)
 - [logz.io: Top 11 Open Source Monitoring Tools for Kubernetes 🌟](https://logz.io/blog/open-source-monitoring-tools-for-kubernetes)
     - [logz.io: Unified Observability: Announcing Kubernetes 360](https://logz.io/blog/unified-observability-kubernetes-360) A single, unified platform combining a true log analytics solution, the best Prometheus metrics monitoring, and the value of distributed tracing powered by Jaeger that enables DevOps teams to monitor application SLOs in a simple, efficient and actionable manner.
-- [thenewstack.io: Kubernetes Observability Challenges in Cloud Native Architecture 🌟](https://thenewstack.io/kubernetes/-observability-challenges-in-cloud-native-architecture)
+- [thenewstack.io: Kubernetes Observability Challenges in Cloud Native Architecture 🌟](https://thenewstack.io/kubernetes-observability-challenges-in-cloud-native-architecture)
 - [opsdis.com: Building a custom monitoring solution with Grafana, Prometheus and Loki](https://binero.com/observability)
 - [harness.io: Metrics to Improve Continuous Integration Performance](https://www.harness.io/blog/continuous-integration-performance-metrics)
 - [thenewstack.io: Best Practices to Optimize Infrastructure Monitoring within DevOps Teams](https://thenewstack.io/best-practices-to-optimize-infrastructure-monitoring-within-devops-teams)
@@ -256,10 +256,10 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
     - [Rancher Logging Operator 🌟](https://rancher.com/docs/rancher/v2.x/en/logging/v2.5)
 - [blog.streammonkey.com: How We Serverlessly Migrated 1.58 Billion Elasticsearch Documents](https://blog.streammonkey.com/how-we-serverlessly-migrated-1-58-billion-elasticsearch-documents-33ad3d0d7c4f)
 - [youtube: ELK for beginners - by XavkiEn 🌟](https://www.youtube.com/playlist?list=PLWZKNB9waqIX00uj5q4nX_TOFiX3if1z3)
-- [blog.bigdataboutique.com: Tuning Elasticsearch: The Ideal Java Heap Size](https://blog.bigdataboutique.com/2021/07/tuning-elasticsearch-the-ideal-java-heap-size-2toq2j)
+- [blog.bigdataboutique.com: Tuning Elasticsearch: The Ideal Java Heap Size](https://bigdataboutique.com/blog/tuning-elasticsearch-the-ideal-java-heap-size-2toq2j)
 - [javatechonline.com: How To Monitor Spring Boot Microservices Using ELK Stack?](https://javatechonline.com/how-to-monitor-spring-boot-microservices-using-elk-stack)
 - [dzone: Running Elasticsearch on Kubernetes](https://dzone.com/articles/running-elasticsearch-on-kubernetes) A bit of a cross-over with the Cloud Zone, we explore the structures of both Elasticsearch and Kubernetes, and how to deploy Elasticsearch on K8s.
-- [==medium: Which Elasticsearch Provider is Right For You?== 🌟](https://medium.com/gigasearch/which-elasticsearch-provider-is-right-for-you-3d596a65e704) In this post, we’ll explain the core differences between Elastic Cloud, AWS ESS, and self-hosted, so that you can make an informed decision.
+- [==medium: Which Elasticsearch Provider is Right For You?== 🌟](https://medium.com/gigasearch/which-elasticsearch-provider-is-right-for-you-3d596a65e704) we’ll explain the core differences between Elastic Cloud, AWS ESS, and self-hosted, so that you can make an informed decision.
 
     |  | __AWS ESS__ | __Elastic Cloud__ | __Self-hosted__ |
     | :--- | :--- | :--- | :--- |
@@ -271,8 +271,8 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 
 - [jertel/elastalert2](https://github.com/jertel/elastalert2) ElastAlert 2 is a continuation of the original yelp/elastalert project. ElastAlert 2 is a standalone software tool for alerting on anomalies, spikes, or other patterns of interest from data in Elasticsearch and OpenSearch. ElastAlert 2 is backwards compatible with the original ElastAlert rules
 - [medium.com/hepsiburadatech: Hepsiburada Search Engine on Kubernetes](https://medium.com/hepsiburadatech/hepsiburada-search-engine-on-kubernetes-1fe03a3e71a3) In this case study, you'll learn how Hepsiburada migrated from an on-premises active-active Elasticsearch cluster (manually scaled) deployed in two data centers to a multi-zone Google Cloud Kubernetes cluster that can scale automatically.
-- [dev.to/sagary2j: ELK Stack Deployment using MiniKube single node architecture](https://dev.to/sagary2j/elk-stack-deployment-using-minikube-single-node-architecture-16cl) In this tutorial, you will learn how to deploy and expose Elastic Search, Logstash and Kibana on minikube.
-- [search-guard.com/sgctl-elasticsearch: SGCTL - TAKE BACK CONTROL](https://search-guard.com/sgctl-elasticsearch) In this article, we look at the new Search Guard Control command line tool that ships with Search Guard FLX and demonstrate how easy it has become to configure security for Elasticsearch.
+- [dev.to/sagary2j: ELK Stack Deployment using MiniKube single node architecture](https://dev.to/sagary2j/elk-stack-deployment-using-minikube-single-node-architecture-16cl) how to deploy and expose Elastic Search, Logstash and Kibana on minikube.
+- [search-guard.com/sgctl-elasticsearch: SGCTL - TAKE BACK CONTROL](https://search-guard.com/sgctl-elasticsearch) we look at the new Search Guard Control command line tool that ships with Search Guard FLX and demonstrate how easy it has become to configure security for Elasticsearch.
 
 #### Elastic Cloud on Kubernetes (ECK)
 
@@ -389,7 +389,7 @@ done
     - [thenewstack.io: Perform Distributed Tracing with Zipkin](https://thenewstack.io/perform-distributed-tracing-with-zipkin) Open source Zipkin offers a robust set of features that make it easier for developers to understand and optimize complex distributed systems.
 - [**OpenTracing.io**](https://opentracing.io)
     - [lightstep.com: Understand Distributed Tracing](https://docs.lightstep.com/docs/understand-distributed-tracing)
-- [grafana.com: A beginner's guide to distributed tracing and how it can increase an application's performance 🌟](https://grafana.com/blog/2021/01/25/a-beginners-guide-to-distributed-tracing-and-how-it-can-increase-an-applications-performance)
+- [grafana.com: A beginner's guide to distributed tracing and how it can increase an application's performance 🌟](https://grafana.com/blog/a-beginners-guide-to-distributed-tracing-and-how-it-can-increase-an-applications-performance)
 - [awkwardferny.medium.com: Setting up Distributed Tracing in Kubernetes with OpenTracing, Jaeger, and Ingress-NGINX](https://awkwardferny.medium.com/setting-up-distributed-tracing-with-opentelemetry-jaeger-in-kubernetes-ingress-nginx-cfdda7d9441d)
 - [ploffay.medium.com: Five years evolution of open-source distributed tracing 🌟](https://ploffay.medium.com/five-years-evolution-of-open-source-distributed-tracing-ec1c5a5dd1ac)
 
@@ -463,7 +463,7 @@ done
 ### Grafana Tempo distributed tracing system
 
 - [Grafana Tempo](https://github.com/grafana/tempo) Grafana Tempo is an open source, easy-to-use and high-scale distributed tracing backend. Tempo requires only object storage to operate and is deeply integrated with Grafana, Prometheus, and Loki.
-- [grafana.com: Announcing Grafana Tempo, a massively scalable distributed tracing system 🌟](https://grafana.com/blog/2020/10/27/announcing-grafana-tempo-a-massively-scalable-distributed-tracing-system)
+- [grafana.com: Announcing Grafana Tempo, a massively scalable distributed tracing system 🌟](https://grafana.com/blog/announcing-grafana-tempo-a-massively-scalable-distributed-tracing-system)
 - [opensource.com: Get started with distributed tracing using Grafana Tempo](https://opensource.com/article/21/2/tempo-distributed-tracing) Grafana Tempo is a new open source, high-volume distributed tracing backend.
 
 ## Application Performance Management (APM)
@@ -476,7 +476,7 @@ done
 - [dzone.com: Java Performance Monitoring: 5 Open Source Tools You Should Know](https://dzone.com/articles/java-performance-monitoring-5-open-source-tools-you-should-know)
 - [dzone.com: 14 best performance testing tools and APM solutions](https://dzone.com/articles/14-best-performance-testing-tools-and-apm-solution)
 - Exception Tracking:
-    - [sentry.io](https://sentry.io/welcome/)
+    - [sentry.io](https://sentry.io/welcome)
     - APMs like Dynatrace, etc.
 - APM Tools:
     - [datadoghq.com](https://www.datadoghq.com)
@@ -504,7 +504,7 @@ done
 - [elastic.co: Using the Elastic APM Java Agent on Kubernetes](https://www.elastic.co/blog/monitoring-java-applications-and-getting-started-with-the-elastic-apm-java-agent)
 - [Monitoring Java applications with Elastic: Getting started with the Elastic APM Java Agent](https://www.elastic.co/blog/monitoring-java-applications-and-getting-started-with-the-elastic-apm-java-agent)
 - [Jenkins pipeline shared library for the project Elastic APM 🌟](https://github.com/elastic/apm-pipeline-library)
-- [bqstack.com: Monitoring Application using Elastic APM](https://bqstack.com/blog/monitoring-application-using-elastic-apm)
+- [bqstack.com: Monitoring Application using Elastic APM](https://bqstack.com/b/detail/109)
 
 <center markdown="1">
 
@@ -516,7 +516,7 @@ done
 
 - [adictosaltrabajo.com: Monitorización y análisis de rendimiento de aplicaciones con Dynatrace APM](https://adictosaltrabajo.com/2016/10/26/monitorizacion-y-analisis-de-rendimiento-de-aplicaciones-con-dynatrace)
 - [dynatrace.com: openshift monitoring](https://www.dynatrace.com/hub/detail/red-hat-openshift)
-- [dynatrace.com: Dynatrace monitoring for Kubernetes and OpenShift](https://www.dynatrace.com/news/blog/dynatrace-monitoring-for-kubernetes-and-openshift)
+- [dynatrace.com: Dynatrace monitoring for Kubernetes and OpenShift](https://www.dynatrace.com/technologies/kubernetes-monitoring)
 - [dynatrace.com: Deploy OneAgent on OpenShift Container Platform](https://docs.dynatrace.com/docs/ingest-from/setup-on-container-platforms/kubernetes/legacy/deploy-oneagent-operator-openshift-legacy)
 - [Successful Kubernetes Monitoring – Three Pitfalls to Avoid](https://www.dynatrace.com/news/blog/successful-kubernetes-monitoring-3-pitfalls-to-avoid)
 - [My Dynatrace proof of concept 🌟](https://github.com/nubenetes/awesome-kubernetes/blob/master/pdf/dynatrace_demo.pdf)
@@ -524,8 +524,8 @@ done
 - [dynatrace.com: 4 steps to modernize your IT service operations with Dynatrace](https://www.dynatrace.com/news/blog/4-steps-to-modernize-your-it-service-operations-with-dynatrace)
 - [dynatrace.com: Monitoring of Kubernetes Infrastructure for day 2 operations](https://www.dynatrace.com/news/blog/what-is-kubernetes-2)
 - [dynatrace.com: The Power of OpenShift, The Visibility of Dynatrace](https://www.dynatrace.com/news/blog/what-is-openshift-2)
-- [dynatrace.com: Why conventional observability fails in Kubernetes environments—A real-world use case 🌟](https://www.dynatrace.com/news/blog/why-conventional-observability-fails-in-kubernetes-environments-a-real-world-use-case)
-- [dynatrace.com: A look behind the scenes of AWS Lambda and our new Lambda monitoring extension](https://www.dynatrace.com/news/blog/a-look-behind-the-scenes-of-aws-lambda-and-our-new-lambda-monitoring-extension)
+- [dynatrace.com: Why conventional observability fails in Kubernetes environments—A real-world use case 🌟](https://www.dynatrace.com/news/blog)
+- [dynatrace.com: A look behind the scenes of AWS Lambda and our new Lambda monitoring extension](https://www.dynatrace.com/knowledge-base/aws-lambda)
 - [dynatrace.com: Analyze all AWS data in minutes with Amazon CloudWatch Metric Streams available in Dynatrace](https://www.dynatrace.com/news/blog/amazon-cloudwatch-metric-streams-launch-partnership)
 - [dynatrace.com: New Dynatrace Operator elevates cloud-native observability for Kubernetes](https://www.dynatrace.com/news/blog/new-dynatrace-operator-elevates-cloud-native-observability-for-kubernetes)
 - [dynatrace.com: How to collect Prometheus metrics in Dynatrace](https://www.dynatrace.com/news/blog/how-to-collect-prometheus-metrics-in-dynatrace)
@@ -624,9 +624,9 @@ Resolve your software incidents 10x faster
 
 <center markdown="1">
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/J1S3NyN9ZeLjh9" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/MartinEtmajer/challenges-in-a-microservices-age-monitoring-logging-and-tracing-on-red-hat-openshift" title="Challenges in a Microservices Age: Monitoring, Logging and Tracing on Red Hat OpenShift" target="_blank">Challenges in a Microservices Age: Monitoring, Logging and Tracing on Red Hat OpenShift</a> </strong> from <strong><a href="//www.slideshare.net/MartinEtmajer" target="_blank">Martin Etmajer</a></strong> </div>
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/lr07J585Y86D7i" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/MartinEtmajer/monitoring-microservices-at-scale-on-openshift-67500621" title="Monitoring Microservices at Scale on OpenShift (OpenShift Commons Briefing #52)" target="_blank">Monitoring Microservices at Scale on OpenShift (OpenShift Commons Briefing #52)</a> </strong> from <strong><a href="//www.slideshare.net/MartinEtmajer" target="_blank">Martin Etmajer</a></strong> </div>
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/CDyLLoStp2omzE" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/PurnimaKurella/dynatrace-70789377" title="Dynatrace" target="_blank">Dynatrace</a> </strong> from <strong><a href="//www.slideshare.net/PurnimaKurella" target="_blank">Purnima Kurella</a></strong> </div>
+<iframe src="/www.slideshare.net/slideshow/embed_code/key/J1S3NyN9ZeLjh9" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="/www.slideshare.net/MartinEtmajer/challenges-in-a-microservices-age-monitoring-logging-and-tracing-on-red-hat-openshift" title="Challenges in a Microservices Age: Monitoring, Logging and Tracing on Red Hat OpenShift" target="_blank">Challenges in a Microservices Age: Monitoring, Logging and Tracing on Red Hat OpenShift</a> </strong> from <strong><a href="/www.slideshare.net/MartinEtmajer" target="_blank">Martin Etmajer</a></strong> </div>
+<iframe src="/www.slideshare.net/slideshow/embed_code/key/lr07J585Y86D7i" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="/www.slideshare.net/MartinEtmajer/monitoring-microservices-at-scale-on-openshift-67500621" title="Monitoring Microservices at Scale on OpenShift (OpenShift Commons Briefing #52)" target="_blank">Monitoring Microservices at Scale on OpenShift (OpenShift Commons Briefing #52)</a> </strong> from <strong><a href="/www.slideshare.net/MartinEtmajer" target="_blank">Martin Etmajer</a></strong> </div>
+<iframe src="/www.slideshare.net/slideshow/embed_code/key/CDyLLoStp2omzE" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="/www.slideshare.net/PurnimaKurella/dynatrace-70789377" title="Dynatrace" target="_blank">Dynatrace</a> </strong> from <strong><a href="/www.slideshare.net/PurnimaKurella" target="_blank">Purnima Kurella</a></strong> </div>
 
 </center>
 </details>

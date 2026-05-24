@@ -133,6 +133,7 @@ Java Programming Model|Technology|Cloud Native (microservices)|Platform
 [Spring Cloud (Spring)](https://spring.io/projects/spring-cloud)|Backend (RESTful)|Yes|OpenShift, Kubernetes, etc
 [Quarkus](https://quarkus.io)|Backend (RESTful)|Yes|OpenShift, Kubernetes, etc
 [Thorntail](https://thorntail.io)|Backend (RESTful)|Yes|OpenShift, Kubernetes, etc
+etc|N/A|N/A|N/A
 
 - [dev.to: 5 Best Java Frameworks to Learn in 2022 for Microservices and Cloud Native Development](https://dev.to/javinpaul/5-best-java-frameworks-to-learn-in-2022-for-microservices-and-cloud-native-development-4732)
 
@@ -345,7 +346,7 @@ optimizing Enterprise Java for the microservices architecture.
 ## Spring Boot VS MicroProfile
 
 - [Dzone: Programming Styles Compared: Spring Framework vis-a-vis Eclipse MicroProfile 🌟🌟](https://dzone.com/articles/programming-styles-spring-boot-vis-a-vis-with-ecli)
-- [ibm.com: Java Microservices with MicroProfile – RESTful APIs and Dependency Injection. For microservices-based Java apps, knowing how to create REST APIs is an essential skill. Eclipse MicroProfile makes it easier](https://www.ibm.com/think/insights/migrate-java-microservices-from-spring-to-microprofile-p2) Spring Boot or MicroProfile for Java microservices apps? Choose the path of least resistance. The Spring Boot and MicroProfile frameworks have many of the same goals (i.e., you can do everything in MicroProfile that you can do in Spring Boot). Both of them are built on top of the same core APIs; even though there are differences in some of the APIs, the work they do is similar.
+- [ibm.com: Java Microservices with MicroProfile – RESTful APIs and Dependency Injection. For microservices-based Java apps, knowing how to create REST APIs is an essential skill. Eclipse MicroProfile makes it easier](https://www.ibm.com/think/cloud) Spring Boot or MicroProfile for Java microservices apps? Choose the path of least resistance. The Spring Boot and MicroProfile frameworks have many of the same goals (i.e., you can do everything in MicroProfile that you can do in Spring Boot). Both of them are built on top of the same core APIs; even though there are differences in some of the APIs, the work they do is similar.
 
 ## Quarkus vs Spring Boot
 

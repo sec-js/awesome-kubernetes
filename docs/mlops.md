@@ -49,10 +49,10 @@
 - [towardsdatascience.com: From Jupyter Notebooks to Real-life: MLOps 🌟](https://towardsdatascience.com/from-jupyter-notebooks-to-real-life-mlops-9f590a7b5faa) Why is it a must-have?
 - [datarevenue.com: Airflow vs. Luigi vs. Argo vs. MLFlow vs. KubeFlow](https://www.datarevenue.com/en-blog/airflow-vs-luigi-vs-argo-vs-mlflow-vs-kubeflow) Choosing a task orchestration tool
 - [infoworld.com: 13 open source projects transforming AI and machine learning](https://www.infoworld.com/article/2336757/16-open-source-projects-transforming-ai-and-machine-learning.html) From deepfakes to natural language processing and more, the open source world is ripe with projects to support software development on the frontiers of artificial intelligence and machine learning.
-- [towardsdatascience.com: From Dev to Deployment: An End to End Sentiment Classifier App with MLflow, SageMaker, and Streamlit](https://towardsdatascience.com/from-dev-to-deployment-an-end-to-end-sentiment-classifier-app-with-mlflow-sagemaker-and-119043ea4203) In this tutorial, we’ll build an NLP app starting from DagsHub-MLflow, then diving into deployment in SageMaker and EC2 with the front end in Streamlit.
+- [towardsdatascience.com: From Dev to Deployment: An End to End Sentiment Classifier App with MLflow, SageMaker, and Streamlit](https://towardsdatascience.com/from-dev-to-deployment-an-end-to-end-sentiment-classifier-app-with-mlflow-sagemaker-and-119043ea4203) we’ll build an NLP app starting from DagsHub-MLflow, then diving into deployment in SageMaker and EC2 with the front end in Streamlit.
 - [elconfidencial.com: La batalla entre Google y Meta que nadie esperaba: revolucionar la biología 🌟](https://www.elconfidencial.com/tecnologia/ciencia/2022-11-18/carrera-google-meta-revolucionar-biologia_3520865) El sistema AlphaFold de Google revela la estructura en 3D de las proteínas y ya es utilizado por miles de biólogos, pero Meta contraataca con otro algoritmo. ¿Cuál es mejor?
 - [swirlai.substack.com: SAI #08: Request-Response Model Deployment - The MLOps Way, Spark - Executor Memory Structure and more... 🌟](https://swirlai.substack.com/p/sai-08-request-response-model-deployment)
-- [about.gitlab.com: How is AI/ML changing DevOps?](https://about.gitlab.com/blog/2022/11/16/how-is-ai-ml-changing-devops)
+- [about.gitlab.com: How is AI/ML changing DevOps?](https://about.gitlab.com/blog/how-is-ai-ml-changing-devops)
 - [youtube: Making Friends with Machine Learning | Cassie Kozyrkov | playlist 🌟](https://www.youtube.com/playlist?list=PLRKtJ4IpxJpDxl0NTvNYQWKCYzHNuy2xG)
 - [openai.com: Scaling Kubernetes to 7,500 nodes 🌟](https://openai.com/research/scaling-kubernetes-to-7500-nodes) **We’ve scaled Kubernetes clusters to 7,500 nodes, producing a scalable infrastructure for large models like GPT-3, CLIP, and DALL·E, but also for rapid small-scale iterative research such as Scaling Laws for Neural Language Models.**
 - [huyenchip.com: Building LLM applications for production](https://huyenchip.com/2023/04/11/llm-engineering.html)
@@ -108,9 +108,9 @@
 
 - [kubeflow](https://www.kubeflow.org) The Machine Learning Toolkit for Kubernetes
 - [infracloud.io: Machine Learning Orchestration on Kubernetes using Kubeflow](https://www.infracloud.io/blogs/machine-learning-orchestration-kubernetes-kubeflow)
-- [blog.devgenius.io: Kubeflow Cloud Deployment (AWS)](https://blog.devgenius.io/kubeflow-cloud-deployment-aws-46f739ccbb32) How do you deploy Kubeflow on AWS? Kubeflow is resource-intensive and deploying it locally means that you might not have enough resources to run your end-to-end machine learning pipeline. In this article you will learn how to deploy Kubeflow in AWS.
+- [blog.devgenius.io: Kubeflow Cloud Deployment (AWS)](https://blog.devgenius.io/kubeflow-cloud-deployment-aws-46f739ccbb32) How do you deploy Kubeflow on AWS? Kubeflow is resource-intensive and deploying it locally means that you might not have enough resources to run your end-to-end machine learning pipeline.you will learn how to deploy Kubeflow in AWS.
 - [joseprsm.medium.com: How to build Machine Learning models that train themselves](https://joseprsm.medium.com/how-to-build-machine-learning-models-that-train-themselves-bbc87499ca5)
-- [medium.com/dkatalis: Creating a Mutating Webhook for Great Good! Or: how to automatically provision Pods on a specific node pool](https://medium.com/dkatalis/creating-a-mutating-webhook-for-great-good-b21acb941207) In this tutorial, you will learn how to automatically schedule Kubeflow pipeline Pods from any number of namespaces on dedicated GKE node pools
+- [medium.com/dkatalis: Creating a Mutating Webhook for Great Good! Or: how to automatically provision Pods on a specific node pool](https://medium.com/dkatalis/creating-a-mutating-webhook-for-great-good-b21acb941207) how to automatically schedule Kubeflow pipeline Pods from any number of namespaces on dedicated GKE node pools
 
 ## Flyte
 
@@ -173,7 +173,7 @@
 
 ## Machine Learning workloads in kubernetes using Nix and NVIDIA. Running NVIDIA GPUs on Kubernetes
 
-- [canvatechblog.com: Supporting GPU-accelerated Machine Learning with Kubernetes and Nix](https://www.canva.dev/blog/engineering/supporting-gpu-accelerated-machine-learning-with-kubernetes-and-nix) In this article, you'll learn how to package and run machine learning workloads in Kubernetes using Nix and NVIDIA
+- [canvatechblog.com: Supporting GPU-accelerated Machine Learning with Kubernetes and Nix](https://www.canva.dev/blog/engineering/supporting-gpu-accelerated-machine-learning-with-kubernetes-and-nix) you'll learn how to package and run machine learning workloads in Kubernetes using Nix and NVIDIA
     - [Nix](https://nix.dev/manual/nix/2.28)
     - [github.com/NVIDIA/nvidia-docker: NVIDIA/nvidia-docker/volumes.go](https://github.com/NVIDIA/nvidia-docker/blob/8c0eeba474cace48fdb8216f518063db2bd2d4d1/tools/src/nvidia/volumes.go#L103) NVIDIA’s documentation is disappointingly evasive on what the “driver” is, but we find a good answer in their official source code.
 - [==catalog.ngc.nvidia.com: NVIDIA GPU Operator - Helm chart== 🌟🌟🌟](https://catalog.ngc.nvidia.com/orgs/nvidia/helm-charts/gpu-operator)
@@ -192,11 +192,11 @@
 - VSCode DVC:
     - [DVC](https://marketplace.visualstudio.com/items?itemName=Iterative.dvc) Machine learning experiment management with tracking, plots, and data versioning.
     - [docs.microsoft.com: Machine Learning Experimentation in VS Code with DVC Extension](https://learn.microsoft.com/en-us/shows/vs-code-livestreams/machine-learning-experimentation-in-vs-code-with-dvc-extension)
-- [tensorchord/envd: Reproducible development environment for AI/ML 🌟](https://github.com/tensorchord/envd) envd (ɪnˈvdɪ) is a command-line tool that helps you create the container-based development environment for AI/ML. https://envd.tensorchord.ai
+- [tensorchord/envd: Reproducible development environment for AI/ML 🌟](https://github.com/tensorchord/envd) envd (ɪnˈvdɪ) is a command-line tool that helps you create the container-based development environment for AI/ML. https://envd.tensorchord.ai/
 - [postgresml/postgresml 🌟](https://github.com/postgresml/postgresml) PostgresML is an end-to-end machine learning system. It enables you to train models and make online predictions using only SQL, without your data ever leaving your favorite database.
 - [blog.devgenius.io: Training model with Jenkins using docker: MLOPS](https://blog.devgenius.io/training-model-with-jenkins-using-docker-mlops-b18579ddb677)
 - [vaex.io](https://vaex.io) An ML Ready Fast DataFrame for Python
-    - https://pypi.org/project/vaex
+    - https://pypi.org/project/vaex/
 - [thenewstack.io: 7 Must-Have Python Tools for ML Devs and Data Scientists 🌟](https://thenewstack.io/7-must-have-python-tools-for-ml-devs-and-data-scientists) Python has an easy learning curve, however there are a range of development tools to consider if you're to use Python to its full potential.
 - [github.com/SymbioticLab/Oobleck: Oobleck - Resilient Distributed Training Framework](https://github.com/SymbioticLab/Oobleck) - [techxplore.com: Open-source training framework increases the speed of large language model pre-training when failures arise](https://techxplore.com/news/2023-12-open-source-framework-large-language-pre-training.html)
 - [github.com/CASIA-IVA-Lab/FastSAM](https://github.com/CASIA-LMC-Lab/FastSAM) Fast Segment Anything
@@ -213,7 +213,7 @@
 
 - [betterprogramming.pub: Attach a Visual Debugger to ML-training Jobs on Kubernetes](https://betterprogramming.pub/attach-a-visual-debugger-to-ml-training-jobs-on-kubernetes-eb9678389f1f)
     - As machine learning models grow in size and complexity, cloud resources are more and more often required for training. However, debugging training jobs running in the cloud can be time-consuming and challenging. In this blog post, we’ll explore how to attach a visual debugger in VSCode to a remote deep learning training environment, making debugging simpler and more efficient.
-    - In this tutorial, you'll deploy a local Kubernetes cluster with k3d, install the MLOps workflow orchestration engine Flyte, create a simple training workflow, and finally visually debug it using VSCode and debugpy
+    - you'll deploy a local Kubernetes cluster with k3d, install the MLOps workflow orchestration engine Flyte, create a simple training workflow, and finally visually debug it using VSCode and debugpy
 
 ## Samples
 
