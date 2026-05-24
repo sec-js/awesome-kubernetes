@@ -255,7 +255,8 @@ def normalize_url(url: str) -> str:
         if not re.match(r'^L\d+', fragment): fragment = "" # Solo preservamos anclajes de línea
     
     # 2. Limpiar parámetros de tracking social (UTM, etc.)
-    url = re.sub(r'(\?|&)(utm_[^&]+|s=[^&]+|t=[^&]+|ref=[^&]+|fbclid=[^&]+)', '', url)
+    # Mandate 24: Systematically remove trackers (X.com, LinkedIn, RedHat intcmp)
+    url = re.sub(r'(\?|&)(utm_[^&]+|s=[^&]+|t=[^&]+|ref=[^&]+|fbclid=[^&]+|intcmp=[^&]+|mc_cid=[^&]+|mc_eid=[^&]+)', '', url)
     # Mandate 34: Remove all trailing slashes and question marks for internal canonical comparison
     url = url.rstrip("/").rstrip("?")
     

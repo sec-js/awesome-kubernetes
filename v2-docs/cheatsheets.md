@@ -3,20 +3,164 @@
 !!! info "Architectural Context"
     Detailed reference for Cheatsheets in the context of Architectural Foundations.
 
-## Cloud Architecture
+## Standard Reference
 
-### Developer Experience
+  - [wizardzines.com 🌟](https://wizardzines.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cheatography.com](https://cheatography.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [LeCoupa/awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets) <span class='md-tag md-tag--info'>⭐ 45898</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [detailyang/awesome-cheatsheet](https://github.com/detailyang/awesome-cheatsheet) <span class='md-tag md-tag--info'>⭐ 8354</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [blog.jromanmartin.io: ActiveMQ, Kafka, Strimzi and CodeReady Containers](https://blog.jromanmartin.io/cheat-sheets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: MicroProfile Rest Client Cheat Sheet](https://developers.redhat.com/cheat-sheets/microprofile-rest-client)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cheat.sh 🌟](https://cheat.sh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: Linux logrotate cheat sheet](https://opensource.com/downloads/logrotate-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [manz.dev/cheatsheets](https://manz.dev/cheatsheets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [crontab.guru 🌟](https://crontab.guru)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [seranking.com: The cheat sheet of 30+ Google Search operators](https://seranking.com/blog/practical-tips-google-search-operators)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.linkody.com: The Ultimate Google Search Operators Cheatsheet 🌟](https://blog.linkody.com/guides/google-search-operators-cheatsheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: Bash Shell Scripting Cheat Sheet](https://developers.redhat.com/cheat-sheets/bash-shell-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: Advanced Linux commands cheat sheet for developers](https://developers.redhat.com/cheat-sheets/advanced-linux-commands)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: Watch command cheat sheet](https://opensource.com/downloads/watch-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [intellipaat.com: AWS Cheat Sheet 🌟](https://intellipaat.com/blog/tutorial/amazon-web-services-aws-tutorial/aws-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [igoroseledko.com: AWS CLI Cheat Sheet](https://www.igoroseledko.com/aws-cli-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [awsgeek.com/Amazon-S3](http://www.awsgeek.com/Amazon-S3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [The Google Cloud Developer's Cheat Sheet 🌟](https://github.com/priyankavergadia/google-cloud-4-words) <span class='md-tag md-tag--info'>⭐ 8221</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [freecodecamp.org: API Cheatsheet – What is an API, How it Works, and How' to Choose the Right API Testing Tools 🌟](https://www.freecodecamp.org/news/what-is-an-api-and-how-to-test-it)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [karneliuk.com: REST API 1. Basics cheat sheet (Ansible, Bash, Postman, and' Python) for GET using NetBox and Docker as examples](https://karneliuk.com/2019/07/rest-api-1-basics-cheat-sheet-ansible-bash-postman-and-python-for-get-using-netbox-and-docker-as-examples)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [karneliuk.com: REST API 2. Basics cheat sheet (Ansible, Bash, Postman, and' Python) for POST/DELETE using NetBox and Docker as examples](https://karneliuk.com/2019/08/rest-api-2-basics-cheat-sheet-ansible-bash-postman-and-python-for-post-delete-using-netbox-and-docker-as-examples)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Transformation takes practice](https://www.redhat.com/en/engage/open-practice-library-ebook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Dash for MacOS](https://kapeli.com/dash)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Dash Cheat Sheets](https://kapeli.com/cheatsheets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Velocity](https://velocity.silverlakesoftware.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Zeal](https://zealdocs.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kubernetes Glossary 🌟](https://www.bluematador.com/learn/kubernetes-glossary)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [mirantis.com: Kubernetes Cheat Sheet](https://www.mirantis.com/blog/kubernetes-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: Kubernetes Cheat Sheet](https://developers.redhat.com/cheat-sheets/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [fabric8 - kubectl](https://github.com/fabric8io/kansible/blob/master/vendor/k8s.io/kubernetes/docs/user-guide/kubectl-cheatsheet.md) <span class='md-tag md-tag--info'>⭐ 266</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [intellipaat.com 🌟](https://intellipaat.com/blog/tutorial/devops-tutorial/kubernetes-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: 9 kubectl commands sysadmins need to know 🌟](https://opensource.com/article/20/5/kubectl-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [bluematador.com: kubectl cheatsheet](https://www.bluematador.com/learn/kubectl-cheatsheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dockerlabs.collabnix.com: Cheatsheet - Kubectl 🌟](https://dockerlabs.collabnix.com/kubernetes/cheatsheets/kubectl.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [kunchalavikram1427: kubernetes Public](https://github.com/kunchalavikram1427/Kubernetes_public)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thechief.io: The Definitive Kubectl Cheat Sheet](https://thechief.io/c/editorial/definitive-kubectl-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: Learn essential Kubernetes commands with a new cheat sheet](https://opensource.com/article/21/5/kubernetes-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [myfuturehub.com: Must Keep these Kubernetes Commands handy](https://myfuturehub.com/must-keep-these-kubernetes-commands-handy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cmcrowell.com/cheat-sheet 🌟](https://cmcrowell.com/cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [komodor.com: The Ultimate Kubectl Cheat Sheet 🌟](https://komodor.com/learn/the-ultimate-kubectl-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [learncloudnative.com: Kubernetes CLI (kubectl) tips you didn't know about](https://learncloudnative.com/blog/2022-05-10-kubectl-tips)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloudtechtwitter.com: kubernetes common commands](https://www.cloudtechtwitter.com/2022/05/kubernetes-common-commands.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: K8s Resource Management: An Autoscaling Cheat Sheet' 🌟](https://thenewstack.io/k8s-resource-management-an-autoscaling-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dev.to/msfaizi: Kubernetes Cheatsheet: Essential Commands and Concepts for' Efficient Container Orchestration](https://dev.to/msfaizi/kubernetes-cheatsheet-essential-commands-and-concepts-for-efficient-container-orchestration-201n)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [itnext.io: Kubernetes Kustomize Cheat Sheet](https://itnext.io/kubernetes-kustomize-cheat-sheet-8e2d31b74d8f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dockerlux.github.io: Docker Cheat Sheet 🌟](https://dockerlux.github.io/pdf/cheat-sheet-v2.pdf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cheatsheetseries.owasp.org: Docker Security Cheat Sheet 🌟🌟](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dockerlabs.collabnix.com: The Ultimate Docker Cheat Sheet 🌟](https://dockerlabs.collabnix.com/docker/cheatsheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: Containers Cheat Sheet](https://developers.redhat.com/cheat-sheets/containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com: Docker cheat Sheet](https://github.com/wsargent/docker-cheat-sheet) <span class='md-tag md-tag--info'>⭐ 22525</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [intellipaat.com: Docker Cheat Sheet 🌟](https://intellipaat.com/blog/tutorial/devops-tutorial/docker-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.gitguardian.com: Docker Security Best Practices & Cheat Sheet 🌟](https://blog.gitguardian.com/how-to-improve-your-docker-containers-security-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [myfuturehub.com: Useful commands of Docker](https://myfuturehub.com/useful-commands-of-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [linuxhandbook.com: Docker Commands for Managing Container Lifecycle (Definitive' Guide)](https://linuxhandbook.com/container-lifecycle-docker-commands)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dev.to: Docker Commands Cheat Sheet | Pragyan Tripathi](https://dev.to/pragyanatvade/docker-commands-cheat-sheet-47n4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github: sematext - Docker Swarm Cheatsheet](https://github.com/sematext/cheatsheets/blob/master/docker-swarm-cheatsheet.md)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [kerneltalks.com: Docker swarm cheat sheet](https://kerneltalks.com/virtualization/docker-swarm-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.programster.org: Docker Swarm Cheatsheet](https://blog.programster.org/docker-swarm-cheatsheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cheatsheetseries.owasp.org: OWASP Cheat Sheet Series 🌟🌟](https://cheatsheetseries.owasp.org/index.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dev.to: Git & Github Cheatsheet 🌟](https://dev.to/zinox9/git-github-cheatsheet-22ok)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [git-scm.com: Git reference](https://git-scm.com/docs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ndpsoftware.com: Interactive git cheat sheet 🌟](https://ndpsoftware.com/git-cheatsheet.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [education.github.com: Git cheat sheet 🌟](https://education.github.com/git-cheat-sheet-education.pdf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [git-tower.com: Git cheat sheet](https://www.git-tower.com/blog/git-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [rogerdudler.github.io: git - the simple guide 🌟](https://rogerdudler.github.io/git-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [rogerdudler.github.io: git cheat sheet pdf](https://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [towardsdatascience.com: 18 Git Commands I Learned During My First Year as' a Software Developer](https://towardsdatascience.com/git-commands-cheat-sheet-software-developer-54f6aedc1c46)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [gitexplorer.com: Git Command Explorer 🌟🌟](https://gitexplorer.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jan-krueger.net: Git cheat sheet, extended edition](https://jan-krueger.net/git-cheat-sheet-extended-edition)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dev.to: A Git Cheat Sheet](https://dev.to/baransel/a-git-cheat-sheet-4mab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dev.to: Git Cheat Sheet- 20 commands I Use Everyday | Tabassum Khanum](https://dev.to/codewithtee/git-cheat-sheet-20-commands-i-use-everyday-47h9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [joshnh/Git-Commands 🌟](https://github.com/joshnh/Git-Commands/blob/master/README.md)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dev.to: Git Commands Cheatsheet: Advanced (20+ Git Commands Advanced )](https://dev.to/aashiya123/git-commands-cheatsheet-advanced-20-git-commands-advanced--35i3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dev.to: Git Cheat Sheet 📄 (50 commands + Free PDF and poster)](https://dev.to/doabledanny/git-cheat-sheet-50-commands-free-pdf-and-poster-4gcn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [freecodecamp.org: Git Cheat Sheet – 50 Git Commands You Should Know](https://www.freecodecamp.org/news/git-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: 10 Git tips we can't live without](https://opensource.com/article/22/4/git-tips)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [intellipaat.com: GIT Cheat Sheet 🌟](https://intellipaat.com/blog/tutorial/devops-tutorial/git-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dev.to: 20 Git Commands That Will Make You a Version Control Pro](https://dev.to/devland/20-git-commands-that-will-make-you-a-version-control-pro-149p)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [arslanbilal/git-cheat-sheet 🌟🌟🌟](https://github.com/arslanbilal/git-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Sourcetree Cheat Sheet](https://kapeli.com/cheat_sheets/Sourcetree.docset/Contents/Resources/Documents/index)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [edureka.co: Ansible Cheat Sheet – A DevOps Quick Start Guide](https://www.edureka.co/blog/cheatsheets/ansible-cheat-sheet-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [intellipaat.com: Ansible Basic Cheat Sheet](https://intellipaat.com/blog/tutorial/devops-tutorial/ansible-basic-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Ansible k8s cheat sheet 🌟](https://opensource.com/downloads/ansible-k8s-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [fosstechnix.com: Ansible ad hoc commands with Examples](https://www.fosstechnix.com/ansible-ad-hoc-commands-with-examples)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/scraly: Terraform Cheat sheet](https://github.com/scraly/terraform-cheat-sheet/blob/master/terraform-cheat-sheet.pdf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: 10 cheat sheets for Linux sysadmins](https://opensource.com/article/20/7/sysadmin-cheat-sheets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [curl cheat sheet for Linux and Unix users](https://daniel.haxx.se/blog/wp-content/uploads/2020/01/sticker-cheat-sheet.png)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: Linux Parted cheat sheet](https://opensource.com/downloads/parted-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: GNU Screen cheat sheet](https://opensource.com/downloads/gnu-screen-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [catonmat.net: GNU Coreutils Cheat Sheet](https://catonmat.net/gnu-coreutils-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [stationx.net: Hacking Tools Cheat Sheet](https://www.stationx.net/hacking-tools-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: Learn advanced SSH commands with this cheat sheet](https://opensource.com/article/18/4/learn-advanced-ssh-commands-new-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [comparitech.com: Nmap Cheat Sheet](https://www.comparitech.com/net-admin/nmap-nessus-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: Red Hat OpenShift Container Platform Cheat Sheet](https://developers.redhat.com/cheat-sheets/red-hat-openshift-container-platform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com: Openshift cheat sheet 1](https://github.com/nekop/openshift-sandbox/blob/master/docs/command-cheatsheet.md)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [gist.github.com: Openshift cheat sheet 2](https://gist.github.com/rafaeltuelho/111850b0db31106a4d12a186e1fbc53e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com: openshift cheat sheet 3](https://github.com/mhausenblas/openshift-cheat-sheet) <span class='md-tag md-tag--info'>⭐ 6</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [monodot.co.uk: openshift cheat sheet 4](https://monodot.co.uk/openshift-cheatsheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cookbook.openshift.org 🌟](https://cookbook.openshift.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cookbook.openshift.org: How do I import an image from an external image' registry? 🌟](https://cookbook.openshift.org/image-registry-and-image-streams/how-do-i-import-an-image-from-an-external-image.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: Debezium on OpenShift Cheat Sheet](https://developers.redhat.com/cheat-sheets/debezium-openshift-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: Writing a Kubernetes Operator in Java using Quarkus' - **Cheat Sheet** 🌟](https://developers.redhat.com/cheat-sheets/writing-kubernetes-operator-java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [https://dev.to/aurelievache: Understanding Kubernetes: part 1 – Pods](https://dev.to/aurelievache/kubernetes-sketchnotes-pods-4ib0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [garba.org: Kubernetes Pod Life Cycle Cheat Sheet](https://garba.org/posts/2018/k8s_pod_lc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: Buildah Cheat Sheet](https://developers.redhat.com/cheat-sheets/buildah-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [iximiuz.com: Prometheus Cheat Sheet - How to Join Multiple Metrics (Vector' Matching) 🌟](https://iximiuz.com/en/posts/prometheus-vector-matching)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [iximiuz.com: Prometheus Cheat Sheet - Moving Average, Max, Min, etc (Aggregation' Over Time)](https://iximiuz.com/en/posts/prometheus-functions-agg-over-time)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Helm Cheat Sheet](https://gist.github.com/tuannvm/4e1bcc993f683ee275ed36e67c30ac49)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [javaguides.net](https://www.javaguides.net/2018/06/maven-cheat-sheet.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [bogotobogo.com](https://www.bogotobogo.com/Java/tutorials/Spring-Boot/Maven-mvn-command-cheat-sheet.php)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [gist.github.com/michaellihs (jenkins pipeline)](https://gist.github.com/michaellihs/b08c89581ec597fa198cf74e2239f4a6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [eta-lang.org: Gradle Cheat Sheet](https://eta-lang.org/docs/cheatsheets/gradle-cheatsheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [rratliff.com: Gradle Cheat Sheet](https://www.rratliff.com/gradle-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/jahe: Gradle Cheat Sheet](https://gist.github.com/jahe/59557d507f43574b0d96)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/jiffle: Gradle Cheat Sheet](https://gist.github.com/jiffle/499caa5f53ab8f90dc19a3040ee40f48)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: MicroProfile JWT (JSON Web Tokens)](https://developers.redhat.com/cheat-sheets/microprofile-jwt)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [edureka.co: Jenkins Cheat Sheet 🌟](https://www.edureka.co/blog/cheatsheets/jenkins-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cheatography.com: Jenkins Cheat Sheet](https://cheatography.com/funthomas424242/cheat-sheets/jenkins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [intellipaat.com: Jenkins Cheat Sheet 🌟](https://intellipaat.com/blog/tutorial/devops-tutorial/jenkins-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [martkos-it.co.uk: JMeter Cheat Sheet](https://martkos-it.co.uk/our-work/jmeter-testing-cheat-sheet-ng5zm-97y43-af8tj)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jmeter-testing-cheat-sheet-v10.pdf](https://martkos-it.co.uk/s/jmeter-testing-cheat-sheet-v10.pdf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Quarkus Cheat-Sheet](https://lordofthejars.github.io/quarkus-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [freecodecamp.org: Markdown Cheat Sheet – How to Write in Markdown with Examples](https://www.freecodecamp.org/news/markdown-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [codingharbour.com: kafkacat cheatsheet](https://codingharbour.com/kafkacat-cheatsheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Machine Learning Glossary](https://developers.google.com/machine-learning/glossary)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: JavaScript cheat sheet](https://opensource.com/downloads/javascript-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [React+TypeScript Cheatsheets](https://github.com/typescript-cheatsheets/react) <span class='md-tag md-tag--info'>⭐ 47057</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [freecodecamp.org: How TypeScript Interfaces Work – Explained with Examples](https://www.freecodecamp.org/news/how-typescript-interfaces-work)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: JupyterLab cheat sheet](https://opensource.com/downloads/jupyterlab-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [intellipaat.com: SQL Commands Cheat Sheet](https://intellipaat.com/blog/tutorial/sql-tutorial/sql-commands-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/enochtangg/quick-SQL-cheatsheet: Quick SQL Cheatsheet 🌟](https://github.com/enochtangg/quick-SQL-cheatsheet) <span class='md-tag md-tag--info'>⭐ 5376</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [hackr.io: SQL Commands Tutorial: DDL, DML, TCL and DQL Commands](https://hackr.io/blog/sql-commands)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/swapnakpanda: SQL_CheatSheet.png](https://github.com/swapnakpanda/Infographics/blob/main/Cheat%20Sheet/Database/SQL_CheatSheet.png)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [TSQL and SQL Queries Cheat Sheet](https://helpercodes.com/sql-query-cheatsheet-tutorial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dev.to: Optimizing SQL Queries by 23x!!!](https://dev.to/navneet7716/optimizing-sql-queries-h9j)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [datadoghq.com: PostgreSQL Cheatsheet](https://www.datadoghq.com/resources/datadog-postgresql-cheatsheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: MariaDB and mySQL cheat sheet](https://opensource.com/downloads/mariadb-mysql-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [intellipaat.com: Python Cheat Sheet Basics](https://intellipaat.com/blog/tutorial/python-tutorial/python-cheat-sheet-basics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [websitesetup.org: Python Cheat Sheet](https://websitesetup.org/python-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/ekramasif: Basic Machine Learning - Python Cheatsheet](https://github.com/ekramasif/Basic-Machine-Learning/blob/main/Extraa/PythonCheatSheet.ipynb) <span class='md-tag md-tag--info'>⭐ 80</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: Node.js Cheat Sheet](https://developers.redhat.com/cheat-sheets/nodejs-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dev.to: Selenium Cheat Sheet](https://dev.to/razgandeanu/selenium-cheat-sheet-9lc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [intellipaat.com: Selenium Cheat Sheet](https://intellipaat.com/blog/tutorial/selenium-tutorial/selenium-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [intellipaat.com: RPA Cheat Sheet](https://intellipaat.com/blog/tutorial/rpa-tutorial/rpa-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [kdnuggets.com: The Complete Collection of Data Science Cheat Sheets – Part' 1](https://www.kdnuggets.com/2022/02/complete-collection-data-science-cheat-sheets-part-1.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [kdnuggets.com: The Complete Collection of Data Science Cheat Sheets – Part' 2](https://www.kdnuggets.com/2022/02/complete-collection-data-science-cheat-sheets-part-2.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [teamhood.com: scrum cheat sheet](https://teamhood.com/agile/scrum-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-#### Technical Writing Utilities
+## Cloud Infrastructure
 
-  - **(2025)** [==markdownguide.org==](https://www.markdownguide.org) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An exhaustive reference guide covering the syntax, best practices, and extended features of the Markdown markup language. It provides clear examples of basic syntax, extended elements, and compatibility matrices across parsers. Double-Evidence: This guide serves as the authoritative standard for syntax validation, and live grounding shows it is widely integrated into onboarding resources for junior developers and technical writers globally.
-## Developer Reference
+### Orchestration
 
-### Syntax Cheat Sheets
+#### Managed Kubernetes
 
-#### Language Manuals
-
-  - **(2026)** [QuickRef.ME - Quick Reference Cheat Sheets](https://quickref.me/index.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A massive aggregator of high-density cheat sheets and quick reference guides covering terminal systems, programming syntaxes, database commands, and deployment paradigms.
+  - **(2022)** [**learnk8s.io/research:  Comparison of Kubernetes managed services 🌟**](https://learnkube.com/research) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Comprehensive comparison matrix evaluating key metrics of major managed Kubernetes engines, mapping out scalability limits, upgrade strategies, and CNI setups.
 ## Operating Systems
 
 ### Linux Utilities
@@ -30,7 +174,8 @@
 
 #### Reference Docs
 
-  - **(2021)** [devhints.io/go: Go cheatsheet](https://devhints.io/go) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights a concise, single-page reference sheet covering Go syntax, control flow, channels, and basic standard library interfaces. Live Grounding confirms this is a widely-used cheatsheet for quick syntax lookups during day-to-day coding. It is optimized for speed and readability.
+  - [devhints.io/go: Go cheatsheet](https://devhints.io/go) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights a concise, single-page reference sheet covering Go syntax, control flow, channels, and basic standard library interfaces. Live Grounding confirms this is a widely-used cheatsheet for quick syntax lookups during day-to-day coding. It is optimized for speed and readability.
+  - [github.com: golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Duplicate reference of the high-density Go cheat-sheet database. It provides programmatic access to Go fundamentals, standard functions, and syntax paradigms to streamline engineering workflows.
 ## Software Development
 
 ### Scripting
@@ -40,15 +185,20 @@
   - **(2025)** [==Bash Pitfalls 🌟==](http://mywiki.wooledge.org/BashPitfalls) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The legendary Wooledge guide listing common Bash coding mistakes and how to fix them. Covering quoting, scope, pipeline traps, and array logic, this resource is a mandatory read for any systems engineer.
 ## Software Engineering
 
+### NodeJS
+
+#### Best Practices
+
+  - [NodeJS Best Practices (Spanish Translation)](https://github.com/goldbergyoni/nodebestpractices/blob/spanish-translation/README.spanish.md) <span class='md-tag md-tag--info'>⭐ 105273</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight hosts the comprehensive Spanish translation of the premier Node.js architecture and security handbook. Live Grounding validates its immense utility as an industry-standard guide covering testing, error handling, and production safety. [SPANISH CONTENT]
 ### Version Control
 
 #### Branching Strategies
 
-  - **(2013)** [**Git-flow cheatsheet**](https://danielkummer.github.io/git-flow-cheatsheet/index.html) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly interactive and multilingual cheat sheet illustrating the lifecycle of branches in Vincent Driessen's GitFlow model. This reference acts as an indispensable, quick-lookup guide for understanding CLI commands for features, releases, and hotfixes.
+  - [Git-flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.html)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly interactive and multilingual cheat sheet illustrating the lifecycle of branches in Vincent Driessen's GitFlow model. This reference acts as an indispensable, quick-lookup guide for understanding CLI commands for features, releases, and hotfixes.
 #### Git Operations
 
-  - **(2021)** [**atlassian.com: Git cheat sheet**](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A comprehensive and beautifully formatted PDF and web-based Git command reference guide from Atlassian. Covers essential command categories including repository creation, local staging, history review, branch management, and remote synchronization.
+  - [atlassian.com: Git cheat sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A comprehensive and beautifully formatted PDF and web-based Git command reference guide from Atlassian. Covers essential command categories including repository creation, local staging, history review, branch management, and remote synchronization.
 
 ---
-💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Linux](./linux.md) | [Introduction](./introduction.md)
+💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Customer](./customer.md) | [Devops Tools](./devops-tools.md)
 
