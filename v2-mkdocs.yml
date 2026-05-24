@@ -1,7 +1,7 @@
-site_name: "Nubenetes V2 | The Architect's Cut"
+site_name: "Nubenetes V2 | The AI's Cut"
 site_url: "https://nubenetes.com/v2/"
-site_description: "Enterprise-grade curated portal for the 2026 Cloud Native ecosystem. High-density, AI-driven selection of top-tier resources."
-site_author: "Inaki Fernandez"
+site_description: "Enterprise-grade curated portal for the modern Cloud Native ecosystem. High-density, AI-driven selection of top-tier resources."
+site_author: "Nubenetes"
 copyright: "Copyright &copy; 2026 Nubenetes Agentic Intelligence"
 docs_dir: v2-docs
 use_directory_urls: false
@@ -17,15 +17,15 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: blue grey
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/shield-outline
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue grey
-      accent: cyan
+      primary: custom
+      accent: custom
       toggle:
         icon: material/shield
         name: Switch to light mode
@@ -43,7 +43,18 @@ theme:
     - content.code.copy
     - content.action.view
     - content.action.edit
+    - content.tooltips
+    - navigation.prune
     - toc.integrate
+
+plugins:
+  - search
+  - privacy
+  - social:
+      cards: true
+      cards_layout_options:
+        background_color: "#263238"
+        font_family: "Inter"
 
 extra:
   social:
@@ -59,6 +70,7 @@ extra:
 extra_css:
   - https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap
   - static/extra.css
+  - static/v2_elite.css
 
 markdown_extensions:
   - admonition
@@ -82,14 +94,129 @@ markdown_extensions:
 nav:
   - "🔙 Back to V1 (Exhaustive)": https://nubenetes.com/
   - "The 2026 Vision": index.md
-  - "Intelligent Control Plane": intelligent-control-plane.md
-  - "Architectural Foundations": architectural-foundations.md
-  - "Platform & Site Reliability": platform-and-site-reliability.md
-  - "Hardened Infrastructure": hardened-infrastructure.md
-  - "Cloud Providers (Hyperscalers)": cloud-providers-hyperscalers.md
-  - "Networking & Service Mesh": networking-and-service-mesh.md
-  - "The Container Stack": the-container-stack.md
-  - "Data & Advanced Analytics": data-and-advanced-analytics.md
-  - "Engineering Pipeline": engineering-pipeline.md
-  - "Developer Ecosystem": developer-ecosystem.md
-  - "Career & Industry": career-and-industry.md
+  - "Agentic Video Hub": videos.md
+  - "AI and Artificial Intelligence":
+    - "Ai Agents Mcp": ai-agents-mcp.md
+    - "Ai": ai.md
+    - "Chatgpt": chatgpt.md
+  - "Architectural Foundations":
+    - "Cheatsheets": cheatsheets.md
+    - "Cloud Arch Diagrams": cloud-arch-diagrams.md
+    - "Cloud Asset Inventory": cloud-asset-inventory.md
+    - "Customer": customer.md
+    - "Demos": demos.md
+    - "Devops Tools": devops-tools.md
+    - "Faq": faq.md
+    - "Git": git.md
+    - "Helm": helm.md
+    - "Introduction": introduction.md
+    - "Kubernetes Tools": kubernetes-tools.md
+    - "Kubernetes Tutorials": kubernetes-tutorials.md
+    - "Kubernetes": kubernetes.md
+    - "Linux": linux.md
+    - "Matrix Table": matrix-table.md
+    - "Mkdocs": mkdocs.md
+    - "Monitoring": monitoring.md
+    - "Prometheus": prometheus.md
+  - "Career & Industry":
+    - "Elearning": elearning.md
+    - "Finops": finops.md
+    - "Freelancing": freelancing.md
+    - "Interview Questions": interview-questions.md
+    - "Recruitment": recruitment.md
+  - "Cloud Providers (Hyperscalers)":
+    - "Googlecloudplatform": GoogleCloudPlatform.md
+    - "Aws Architecture": aws-architecture.md
+    - "Aws Containers": aws-containers.md
+    - "Aws Databases": aws-databases.md
+    - "Aws Devops": aws-devops.md
+    - "Aws Iac": aws-iac.md
+    - "Aws Miscellaneous": aws-miscellaneous.md
+    - "Aws Newfeatures": aws-newfeatures.md
+    - "Aws Security": aws-security.md
+    - "Aws Serverless": aws-serverless.md
+    - "Aws Spain": aws-spain.md
+    - "Aws Storage": aws-storage.md
+    - "Aws Tools Scripts": aws-tools-scripts.md
+    - "Aws Training": aws-training.md
+    - "Aws": aws.md
+    - "Azure": azure.md
+    - "Digitalocean": digitalocean.md
+    - "Managed Kubernetes In Public Cloud": managed-kubernetes-in-public-cloud.md
+    - "Oraclecloud": oraclecloud.md
+    - "Private Cloud Solutions": private-cloud-solutions.md
+  - "Data & Advanced Analytics":
+    - "Databases": databases.md
+    - "Message Queue": message-queue.md
+    - "Newsql": newsql.md
+    - "Yaml": yaml.md
+  - "Developer Ecosystem":
+    - "Api": api.md
+    - "Devel Sites": devel-sites.md
+    - "Dotnet": dotnet.md
+    - "Golang": golang.md
+    - "Java And Java Performance Optimization": java-and-java-performance-optimization.md
+    - "Java_App_Servers": java_app_servers.md
+    - "Java_Frameworks": java_frameworks.md
+    - "Javascript": javascript.md
+    - "Linux Dev Env": linux-dev-env.md
+    - "Lowcode Nocode": lowcode-nocode.md
+    - "Maven Gradle": maven-gradle.md
+    - "Python": python.md
+    - "React": react.md
+    - "Visual Studio": visual-studio.md
+  - "Engineering Pipeline":
+    - "Argo": argo.md
+    - "Cicd Kubernetes Plugins": cicd-kubernetes-plugins.md
+    - "Cicd": cicd.md
+    - "Gitops": gitops.md
+    - "Jenkins Alternatives": jenkins-alternatives.md
+    - "Jenkins": jenkins.md
+    - "Openshift Pipelines": openshift-pipelines.md
+    - "Registries": registries.md
+    - "Sonarqube": sonarqube.md
+    - "Tekton": tekton.md
+  - "Hardened Infrastructure":
+    - "Ansible": ansible.md
+    - "Crossplane": crossplane.md
+    - "Devsecops": devsecops.md
+    - "Iac": iac.md
+    - "Kubernetes Security": kubernetes-security.md
+    - "Kustomize": kustomize.md
+    - "Liquibase": liquibase.md
+    - "Oauth": oauth.md
+    - "Pulumi": pulumi.md
+    - "Securityascode": securityascode.md
+    - "Terraform": terraform.md
+  - "Networking & Service Mesh":
+    - "Caching": caching.md
+    - "Istio": istio.md
+    - "Kubernetes Networking": kubernetes-networking.md
+    - "Networking": networking.md
+    - "Servicemesh": servicemesh.md
+    - "Web Servers": web-servers.md
+  - "Platform & Site Reliability":
+    - "Chaos Engineering": chaos-engineering.md
+    - "Developerportals": developerportals.md
+    - "Devops": devops.md
+    - "Performance Testing With Jenkins And Jmeter": performance-testing-with-jenkins-and-jmeter.md
+    - "Project Management Methodology": project-management-methodology.md
+    - "Qa": qa.md
+    - "Scaffolding": scaffolding.md
+    - "Sre": sre.md
+  - "The Container Stack":
+    - "Container Managers": container-managers.md
+    - "Docker": docker.md
+    - "Kubectl Commands": kubectl-commands.md
+    - "Kubernetes Alternatives": kubernetes-alternatives.md
+    - "Kubernetes Backup Migrations": kubernetes-backup-migrations.md
+    - "Kubernetes Based Devel": kubernetes-based-devel.md
+    - "Kubernetes Bigdata": kubernetes-bigdata.md
+    - "Kubernetes Client Libraries": kubernetes-client-libraries.md
+    - "Kubernetes Monitoring": kubernetes-monitoring.md
+    - "Kubernetes On Premise": kubernetes-on-premise.md
+    - "Kubernetes Operators Controllers": kubernetes-operators-controllers.md
+    - "Kubernetes Troubleshooting": kubernetes-troubleshooting.md
+    - "Ocp4": ocp4.md
+    - "Openshift": openshift.md
+    - "Serverless": serverless.md

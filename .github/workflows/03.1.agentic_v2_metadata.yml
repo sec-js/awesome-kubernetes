@@ -1,0 +1,74 @@
+name: 03.1. V2 Metadata Engine
+
+on:
+  workflow_dispatch:
+    inputs:
+      enrich_metadata:
+        description: 'Enrich GitHub Metadata (fetch stars/license)'
+        type: boolean
+        default: true
+      restore_cache:
+        description: 'Restore inventory from cache (Warning: May overwrite recent manual changes)'
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: v2-metadata-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  run-metadata:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository Synchronization
+        uses: actions/checkout@v6
+        with:
+          ref: develop
+
+      - name: Python 3.11 Environment Provisioning
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Restore Incremental Inventory Cache
+        if: ${{ github.event.inputs.restore_cache == 'true' }}
+        uses: actions/cache/restore@v4
+        with:
+          path: data/inventory.yaml
+          key: inventory-v2-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            inventory-v2-
+
+      - name: Installation of Dependencies
+        run: |
+          pip install --no-cache-dir pydantic PyGithub httpx fake-useragent pytz python-dotenv pyyaml tenacity
+          
+      - name: Run V2 Metadata Engine
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ENRICH_METADATA: ${{ github.event.inputs.enrich_metadata || 'true' }}
+          PYTHONPATH: ${{ github.workspace }}
+          PYTHONUNBUFFERED: "1"
+        run: python -u -m src.v2_metadata
+
+      - name: Create Pull Request for Metadata Update
+        uses: peter-evans/create-pull-request@v8
+        with:
+          branch: bot/v2-metadata-sync
+          base: develop
+          title: "V2 Data: GitHub Metadata Sync"
+          commit-message: "chore: update inventory stars and licenses [skip ci]"
+          labels: "v2-data, metadata-sync"
+
+      - name: Persist Incremental Inventory to Cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: data/inventory.yaml
+          key: inventory-v2-${{ github.run_id }}-${{ github.run_attempt }}

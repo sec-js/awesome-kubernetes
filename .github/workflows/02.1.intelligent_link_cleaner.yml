@@ -1,0 +1,87 @@
+name: 02.1. Intelligent Link Cleaner & Dedup
+
+on:
+  schedule:
+    - cron: '0 0 1 */3 *' # Quarterly: 1st of Jan, Apr, Jul, Oct
+  workflow_dispatch:
+    inputs:
+      force_full_check:
+        description: 'Force full re-validation (bypasses 21-day cache)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: link-cleaner-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  intelligent-clean-sequential:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    steps:
+      - name: Repository Synchronization
+        uses: actions/checkout@v6
+        with:
+          ref: develop
+
+      - name: Python 3.11 Environment Provisioning
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Dependencies Installation
+        run: |
+          python -m pip install --upgrade pip
+          pip install --no-cache-dir pydantic PyGithub aiohttp beautifulsoup4 httpx fake-useragent pytz python-dotenv playwright PyYAML tenacity
+
+      - name: Cache Playwright Binaries
+        uses: actions/cache@v5
+        id: playwright-cache
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-cleaner
+
+      - name: Install Playwright Browsers
+        if: steps.playwright-cache.outputs.cache-hit != 'true'
+        run: playwright install chromium --with-deps
+
+      - name: Global Intelligent Cleaning Execution (Sequential Fast-Track)
+        env:
+          GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FORCE_FULL_CHECK: ${{ github.event.inputs.force_full_check || 'false' }}
+          PYTHONPATH: ${{ github.workspace }}
+          PYTHONUNBUFFERED: 1
+        run: |
+          python src/intelligent_health_checker.py
+
+      - name: Run Inventory Reducer & Apply Changes
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PYTHONPATH: ${{ github.workspace }}
+        run: |
+          # Since it's sequential, the script produces shard_result.json (default name for no shard)
+          python src/inventory_reducer.py
+
+      - name: Open Triage Issue for High-Value Links
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -f triage_report.md ]; then
+            ISSUE_TITLE="🚨 Manual Triage Required: High-Value Links Failing ($(date +'%Y-%m-%d'))"
+            EXISTING_ISSUE=$(gh issue list --search "$ISSUE_TITLE" --state open --json number --jq '.[0].number')
+            
+            if [ -z "$EXISTING_ISSUE" ]; then
+              gh issue create --title "$ISSUE_TITLE" --body-file triage_report.md --label "triage, automated-report"
+            else
+              echo "A triage issue already exists (#$EXISTING_ISSUE). Updating with new report..."
+              gh issue comment $EXISTING_ISSUE --body-file triage_report.md
+            fi
+          fi

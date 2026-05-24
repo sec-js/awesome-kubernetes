@@ -354,3 +354,14 @@ src/__pycache__/
 .env
 nubenetes_agent_env/
 .venv/
+
+# Temporary execution artifacts
+commits_per_month.txt
+current_images.txt
+current_links.txt
+master_images.txt
+pr_description.md
+tags.md
+v2_decision_matrix.md
+v2_file_audit.md
+v2_safety_report.md

@@ -1,0 +1,180 @@
+/* 
+ * Nubenetes V2 Elite Portal - Enterprise Aesthetic (Cyber Cloud)
+ * Color Palette: Deep Space Black & Neon Cyan
+ */
+
+:root {
+  /* LIGHT MODE - Modern, Crisp, High Contrast */
+  --md-primary-fg-color:        #09090b; /* Zinc 950 */
+  --md-primary-fg-color--light: #18181b; /* Zinc 900 */
+  --md-primary-fg-color--dark:  #000000;
+  
+  --md-accent-fg-color:         #0ea5e9; /* Vibrant Sky Blue */
+  --md-accent-fg-color--transparent: rgba(14, 165, 233, 0.15);
+  
+  --md-primary-bg-color:        #ffffff;
+  --md-primary-bg-color--light: #f4f4f5; /* Zinc 100 */
+
+  /* Header Overrides */
+  --md-header-bg-color:         #09090b;
+  --md-header-fg-color:         #ffffff;
+}
+
+[data-md-color-scheme="slate"] {
+  /* DARK MODE - "Cyber Cloud" (Deep Space & Neon) */
+  --md-primary-fg-color:        #ffffff; 
+  --md-primary-fg-color--light: #e2e8f0; 
+  --md-primary-fg-color--dark:  #94a3b8;
+  
+  --md-accent-fg-color:         #22d3ee; /* Brighter Neon Cyan */
+  --md-accent-fg-color--transparent: rgba(34, 211, 238, 0.15);
+
+  --md-default-bg-color:        #09090b; /* Zinc 950 for main body */
+  --md-code-bg-color:           #18181b; /* Zinc 900 for code blocks */
+
+  /* Header Overrides (Dark) */
+  --md-header-bg-color:         rgba(0, 0, 0, 0.85);
+  --md-header-fg-color:         #ffffff;
+}
+
+/* ---------------------------------------------------- */
+/* UI DYNAMICS & GLASSMORPHISM                          */
+/* ---------------------------------------------------- */
+
+/* Solid/Glass Header */
+.md-header {
+  background-color: var(--md-header-bg-color) !important;
+  color: var(--md-header-fg-color) !important;
+}
+
+.md-header__button.md-logo img, 
+.md-header__button.md-logo svg {
+  fill: currentColor !important;
+}
+
+/* Ensure Search and Nav Icons are visible */
+.md-header__topic, 
+.md-header__button,
+.md-header__title,
+.md-search__input,
+.md-search__icon {
+  color: inherit !important;
+}
+
+/* Navigation Tabs */
+.md-tabs {
+  background-color: var(--md-header-bg-color);
+  opacity: 0.95;
+}
+
+.md-tabs__link {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.md-tabs__link--active,
+.md-tabs__link:hover {
+  color: #ffffff !important;
+  opacity: 1;
+}
+
+[data-md-color-scheme="slate"] .md-header {
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* ---------------------------------------------------- */
+/* ENHANCED TAGS AND CHIPS                              */
+/* ---------------------------------------------------- */
+
+.md-tag {
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  line-height: 1.2;
+  padding: 0.2rem 0.4rem;
+  vertical-align: middle;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+}
+
+.md-tag--info {
+  background-color: rgba(14, 165, 233, 0.1);
+  color: #0284c7;
+}
+
+[data-md-color-scheme="slate"] .md-tag--info {
+  background-color: rgba(56, 189, 248, 0.15);
+  color: #7dd3fc; /* Sky 300 for visibility */
+}
+
+.md-tag--success {
+  background-color: rgba(34, 197, 94, 0.1);
+  color: #16a34a;
+}
+
+[data-md-color-scheme="slate"] .md-tag--success {
+  background-color: rgba(74, 222, 128, 0.15);
+  color: #86efac; /* Green 300 */
+}
+
+/* ---------------------------------------------------- */
+/* MICRO-ANIMATIONS & HOVER STATES                      */
+/* ---------------------------------------------------- */
+
+/* Smooth Transition for all links */
+a {
+  transition: color 0.25s ease-in-out, text-shadow 0.25s ease-in-out;
+}
+
+/* Navigation items highlight with subtle glow in dark mode */
+.md-nav__link:hover {
+  color: var(--md-accent-fg-color);
+}
+[data-md-color-scheme="slate"] .md-nav__link:hover {
+  text-shadow: 0 0 8px rgba(6, 182, 212, 0.4);
+}
+
+/* Elegant Table Rows (Audit Matrix) */
+.md-typeset table tr {
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease;
+}
+
+.md-typeset table tr:hover {
+  background-color: var(--md-accent-fg-color--transparent);
+}
+
+/* Buttons and primary actions */
+.md-button {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 8px;
+  font-weight: 600;
+  border: 1px solid transparent;
+}
+
+.md-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(14, 165, 233, 0.25);
+}
+
+[data-md-color-scheme="slate"] .md-button:hover {
+  box-shadow: 0 0 20px rgba(6, 182, 212, 0.35);
+  border: 1px solid rgba(6, 182, 212, 0.5);
+}
+
+/* Star tags (Platinum status) */
+.md-typeset mark {
+  background-color: rgba(245, 158, 11, 0.15); /* Subtle Amber */
+  color: #d97706;
+  border-radius: 4px;
+  padding: 0.1em 0.3em;
+  font-weight: bold;
+}
+
+[data-md-color-scheme="slate"] .md-typeset mark {
+  background-color: rgba(251, 191, 36, 0.15);
+  color: #fbbf24;
+  text-shadow: 0 0 5px rgba(251, 191, 36, 0.4);
+}
+

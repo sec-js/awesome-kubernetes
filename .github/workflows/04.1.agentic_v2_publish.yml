@@ -1,0 +1,124 @@
+name: 04.1. V2 Publisher
+
+on:
+  push:
+    branches:
+      - develop
+    paths:
+      - 'data/inventory.yaml'
+      - 'docs/**'
+  workflow_dispatch:
+    inputs:
+      restore_cache:
+        description: 'Restore inventory from cache (Warning: May overwrite recent manual changes)'
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: v2-publisher-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  publish-v2:
+    runs-on: ubuntu-latest
+    if: |
+      github.event_name == 'workflow_dispatch' || 
+      (github.event_name == 'push' && 
+       !contains(github.event.head_commit.message, '[skip ci]') &&
+       !contains(github.event.head_commit.message, 'bot/v2-elite-sync'))
+    steps:
+      - name: Repository Synchronization
+        uses: actions/checkout@v6
+        with:
+          ref: develop
+          fetch-depth: 0
+
+      - name: Python 3.11 Environment Provisioning
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Restore Incremental Inventory Cache
+        if: ${{ github.event.inputs.restore_cache == 'true' }}
+        uses: actions/cache/restore@v4
+        with:
+          path: data/inventory.yaml
+          key: inventory-v2-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            inventory-v2-
+
+      - name: Installation of Dependencies
+        run: |
+          pip install --no-cache-dir pydantic PyGithub httpx fake-useragent pytz python-dotenv pyyaml tenacity
+          
+      - name: Execute Video Portal Generator
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: |
+          python -u src/v2_video_portal.py
+
+      - name: Run V2 Publisher (Render-Only)
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python -u -m src.v2_optimizer --render-only
+          if [ -f v2_safety_report.md ]; then
+            cat v2_safety_report.md >> pr_description.md
+          else
+            echo "No safety report generated." > pr_description.md
+          fi
+
+      - name: Consolidate README Metrics
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: |
+          python -m src.readme_updater
+          python -m src.safety_readme
+
+      - name: Create Pull Request for V2 Elite Update
+        id: cpr
+        uses: peter-evans/create-pull-request@v8
+        with:
+          branch: bot/v2-elite-sync
+          base: develop
+          title: "V2 Elite: Agentic Optimization Sync (2026)"
+          body-path: pr_description.md
+          commit-message: "feat: sync V2 elite curated edition and README metrics [skip ci]"
+          labels: "v2-elite, agentic-sync"
+
+      - name: Post Supplementary Architecture Audit (Comment)
+        if: steps.cpr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ steps.cpr.outputs.pull-request-number }}
+        run: |
+          if [ -f v2_file_audit.md ]; then
+            gh pr comment $PR_NUMBER --body-file v2_file_audit.md
+          fi
+
+      - name: Post Elite Decision Matrix (Comment)
+        if: steps.cpr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ steps.cpr.outputs.pull-request-number }}
+        run: |
+          if [ -f v2_decision_matrix.md ]; then
+            split -b 60000 v2_decision_matrix.md matrix_part_
+            for part in matrix_part_*; do
+              gh pr comment $PR_NUMBER --body-file $part
+            done
+          fi
+
+      - name: Persist Incremental Inventory to Cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: data/inventory.yaml
+          key: inventory-v2-${{ github.run_id }}-${{ github.run_attempt }}

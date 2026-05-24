@@ -7,6 +7,7 @@ import os
 import time
 from datetime import datetime
 from typing import Dict, Any, List, Optional
+from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 from src.config import GEMINI_API_KEYS, GEMINI_API_VERSION, GEMINI_API_KEYS_DATA
 from src.logger import log_event
 
@@ -33,9 +34,13 @@ class GeminiSessionTracker:
         self.cache_hits += 1
         self.est_tokens_saved += est_tokens
 
-    def track_call(self, key_idx: int, model: str, status: int, usage: Dict = None):
+    def track_call(self, key_idx: int, model: str, status: int, usage: Dict = None, role: str = "General"):
         if status == 200:
             self.model_usage[model] = self.model_usage.get(model, 0) + 1
+            # Track by Role for Agentic Observability
+            self.key_stats[key_idx].setdefault("roles", {})
+            self.key_stats[key_idx]["roles"][role] = self.key_stats[key_idx]["roles"].get(role, 0) + 1
+            
             if usage:
                 self.total_tokens_prompt += usage.get("promptTokenCount", 0)
                 self.total_tokens_completion += usage.get("candidatesTokenCount", 0)
@@ -48,13 +53,23 @@ class GeminiSessionTracker:
 
     def get_intelligence_report(self) -> str:
         report = "\n### 🧠 AI Intelligence & Observability Report\n\n"
-        report += "#### 🤖 Model Selection Logic (Dynamic)\n"
-        report += f"Execution started with discovery of top models based on May 2026 hierarchy.\n\n"
+        report += "#### 🤖 Agentic Roles & Model Selection (Dynamic)\n"
+        report += f"Execution utilized a multi-agent Analyst-Auditor workflow for maximum robustness.\n\n"
         
+        report += "| Agent Role | Model Used | Successes |\n| :--- | :--- | :---: |\n"
+        role_stats = {}
+        for idx, stats in self.key_stats.items():
+            for role, count in stats.get("roles", {}).items():
+                role_stats[role] = role_stats.get(role, 0) + count
+        
+        for role, count in role_stats.items():
+            report += f"| **{role}** | Dynamic Selection | **{count}** |\n"
+        
+        report += "\n#### 🤖 Model Performance Matrix\n"
         report += "| Model Used | Successful Calls | Hierarchy Logic |\n| :--- | :---: | :--- |\n"
         usage_items = sorted(self.model_usage.items(), key=lambda x: x[1], reverse=True)
         for model, count in usage_items:
-            logic = "Elite/Pro (Complex Reasoning)" if "pro" in model else "Flash/Lite (High Speed)"
+            logic = "Elite Auditor (High Reasoning)" if "pro" in model else "Fast Analyst (High Speed)"
             report += f"| `{model}` | **{count}** | {logic} |\n"
         if not self.model_usage: report += "| No AI calls | 0 | N/A |\n"
         
@@ -67,6 +82,10 @@ class GeminiSessionTracker:
         report += f"\n#### 📊 Consumption and Efficiency Metrics (2026 Units)\n"
         report += f"- **Total Prompt Tokens**: {self.total_tokens_prompt:,}\n"
         report += f"- **Total Completion Tokens**: {self.total_tokens_completion:,}\n"
+        
+        # Financial Cost (EUR) based on Gemini 1.5 Flash approx rates
+        est_cost_eur = (self.total_tokens_prompt * 0.075 / 1_000_000) + (self.total_tokens_completion * 0.30 / 1_000_000)
+        report += f"- **💰 Estimated Cost**: **{est_cost_eur:.4f} €**\n"
         
         # Cache-First Metrics
         hit_ratio = (self.cache_hits / (self.cache_hits + sum(self.model_usage.values())) * 100) if (self.cache_hits + sum(self.model_usage.values())) > 0 else 0
@@ -162,7 +181,9 @@ async def resolve_url(url: str) -> str:
                 if new_url == final_url: break
                 final_url, current_hop = new_url, current_hop + 1
             except: break
-    return final_url
+    
+    # Mandate 34: Prevent multiple trailing slashes using centralized utility
+    return sanitize_trailing_slashes(final_url)
 
 def clean_toc_text(text: str) -> str:
     """
@@ -178,12 +199,54 @@ def clean_toc_text(text: str) -> str:
     text = re.sub(r'[^\w\s\-.]', '', text)
     return text.strip()
 
+async def get_github_activity(url: str) -> Dict:
+    """
+    Mandate 15: Fetch real-time GitHub metadata (stars, license, last push).
+    """
+    match = re.search(r'github\.com/([^/]+/[^/]+)', url)
+    if not match: return {}
+    repo = match.group(1)
+    api_url = f"https://api.github.com/repos/{repo}"
+    
+    # Import GH_TOKEN from config locally to avoid circular dependencies
+    try:
+        from src.config import GH_TOKEN
+        headers = {"Authorization": f"token {GH_TOKEN}"} if GH_TOKEN else {}
+    except:
+        headers = {}
+
+    try:
+        async with httpx.AsyncClient() as client:
+            resp = await client.get(api_url, headers=headers, timeout=10.0)
+            if resp.status_code == 200:
+                data = resp.json()
+                return {
+                    "gh_stars": data.get("stargazers_count", 0),
+                    "gh_pushed": data.get("pushed_at", "N/A"),
+                    "gh_license": data.get("license", {}).get("spdx_id", "N/A")
+                }
+    except: pass
+    return {}
+
+def sanitize_trailing_slashes(url: str) -> str:
+    """
+    Mandate 34: Enforces a ZERO trailing slash policy.
+    Removes ALL trailing slashes and question marks from the end of the URL.
+    Does NOT collapse slashes in the middle of the URL (to avoid breaking protocol or deep links).
+    """
+    if not url or '://' not in url: return url
+    # Remove all trailing slashes and question marks from the end of the entire string
+    return url.rstrip('/').rstrip('?')
+
 def normalize_url(url: str) -> str:
     """
     Normalización de URLs de alta precisión para Nubenetes.
     Preserva anclajes de línea (#L) y evita forzar minúsculas en rutas profundas.
     """
     if not url: return ""
+    
+    # 0. Mandate 34: Cleanup redundant slashes first
+    url = sanitize_trailing_slashes(url)
     
     # 1. Separar fragmento (pero preservar si es técnico como #L123)
     fragment = ""
@@ -193,6 +256,7 @@ def normalize_url(url: str) -> str:
     
     # 2. Limpiar parámetros de tracking social (UTM, etc.)
     url = re.sub(r'(\?|&)(utm_[^&]+|s=[^&]+|t=[^&]+|ref=[^&]+|fbclid=[^&]+)', '', url)
+    # Mandate 34: Remove all trailing slashes and question marks for internal canonical comparison
     url = url.rstrip("/").rstrip("?")
     
     # 3. Normalizar protocolo y dominio (Case Insensitive)
@@ -206,27 +270,47 @@ def normalize_url(url: str) -> str:
 
 def is_fuzzy_duplicate(url_a: str, url_b: str) -> bool:
     return normalize_url(url_a) == normalize_url(url_b)
+class GeminiQuotaExhausted(Exception):
+    pass
 
-async def call_gemini_with_retry(prompt: str, response_format: str = "json", max_retries: int = 3, prefer_flash: bool = False):
+def handle_retry_error(retry_state):
+    import sys
+    log_event("  [🚨] CIRCUIT BREAKER TRIPPED: Tenacity exhausted retries. Emitting exit code 42.")
+    sys.exit(42)
+
+@retry(
+    stop=stop_after_attempt(3),
+    wait=wait_exponential(multiplier=2, min=4, max=60),
+    retry=retry_if_exception_type(GeminiQuotaExhausted),
+    retry_error_callback=handle_retry_error
+)
+async def call_gemini_with_retry(prompt: str, response_format: str = "json", max_retries: int = 3, prefer_flash: bool = False, use_grounding: bool = False, role: str = "General"):
     global CURRENT_KEY_INDEX, GLOBAL_COOLDOWN_UNTIL
     if not GEMINI_API_KEYS: raise ValueError("No GEMINI_API_KEYS configured.")
     
     models_pool = await discover_optimal_models()
+    diagnostics = GeminiDiagnostics()
+    consecutive_429s = 0
+    base_wait_time = 2.0
     
-    # 1. Smart Re-ordering: If prefer_flash is True, put flash models first
-    if prefer_flash:
-        models = sorted(models_pool, key=lambda m: 0 if "flash" in m or "lite" in m else 1)
+    # 1. Smart Filtering and Re-ordering
+    if use_grounding:
+        # For grounding, we MANDATE Pro models as they have superior search/reasoning capabilities
+        models = [m for m in models_pool if "pro" in m]
+        if not models:
+            models = ["gemini-1.5-pro", "gemini-1.5-pro-latest"]
+    elif prefer_flash:
+        # Strict filter: Only allow flash/lite models
+        models = [m for m in models_pool if "flash" in m or "lite" in m]
+        if not models:
+            models = ["gemini-1.5-flash", "gemini-1.5-flash-latest"]
     else:
         models = models_pool
 
-    diagnostics = GeminiDiagnostics()
     total_keys = len(GEMINI_API_KEYS)
-    base_wait_time = 2.5
-    consecutive_429s = 0
     
     async with GLOBAL_AI_SEMAPHORE:
         for attempt_round in range(max_retries + 1):
-            # Global Cooldown Check
             now = time.time()
             if now < GLOBAL_COOLDOWN_UNTIL:
                 await asyncio.sleep(GLOBAL_COOLDOWN_UNTIL - now)
@@ -234,28 +318,42 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
             for key_offset in range(total_keys):
                 current_idx = (CURRENT_KEY_INDEX + key_offset) % total_keys
                 api_key = GEMINI_API_KEYS[current_idx]
+                key_label = GEMINI_API_KEYS_DATA[current_idx]["label"]
                 
                 async with httpx.AsyncClient() as client:
-                    for model in models:
-                        # Skip throttled models for this specific execution
-                        if THROTTLED_MODELS.get(model, 0) > time.time():
+                    # Limit the number of models to try per key to avoid excessive timeouts
+                    for model in models[:5]:
+                        if THROTTLED_MODELS.get(f"{current_idx}_{model}", 0) > time.time():
                             continue
+                        
+                        # Mandate 13: Detailed tracing for long-running workflows
+                        # log_event(f"    [AI] Attempt: Key {current_idx+1} ({key_label}) | Model: {model}")
 
                         full_model_name = f"models/{model}"
                         api_url = f"https://generativelanguage.googleapis.com/{GEMINI_API_VERSION}/{full_model_name}:generateContent?key={api_key}"
                         
                         try:
-                            payload = {"contents": [{"parts": [{"text": prompt}]}]}
-                            response = await client.post(api_url, json=payload, timeout=45)
+                            # --- TOOL ENABLING (MCP-LIKE GROUNDING) ---
+                            payload = {
+                                "contents": [{"parts": [{"text": prompt}]}],
+                                "tools": [{"google_search": {}}] if use_grounding else []
+                            }
+                            
+                            # TELEMETRY: Log Payload Size
+                            payload_size = len(json.dumps(payload))
+                            log_event(f"    [TELEMETRY] Attempting Key {current_idx+1} | Model: {model} | Payload: ~{payload_size//4} tokens")
+                            
+                            response = await client.post(api_url, json=payload, timeout=180.0)
                             
                             resp_json = {}
                             try: resp_json = response.json()
                             except: pass
                             
                             usage = resp_json.get("usageMetadata", {})
-                            SESSION_TRACKER.track_call(current_idx, model, response.status_code, usage)
+                            SESSION_TRACKER.track_call(current_idx, model, response.status_code, usage, role=role)
                             
                             if response.status_code == 200:
+                                log_event(f"    [AI] Success: Key {current_idx+1} | Model: {model} | Role: {role} | Tokens: P={usage.get('promptTokenCount',0)} C={usage.get('candidatesTokenCount',0)}")
                                 CURRENT_KEY_INDEX = current_idx
                                 if 'candidates' in resp_json and resp_json['candidates']:
                                     text_resp = resp_json['candidates'][0]['content']['parts'][0]['text']
@@ -280,9 +378,13 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                                 
                             elif response.status_code == 429:
                                 consecutive_429s += 1
+                                
+                                # TELEMETRY: Log Exact Rejection Reason
+                                log_event(f"    [TELEMETRY] 429 Details: {response.text[:200]}")
+                                
                                 # 2. ADAPTIVE TIERING: Mark this specific model as throttled
                                 throttle_duration = 30 if "pro" in model else 15
-                                THROTTLED_MODELS[model] = time.time() + throttle_duration
+                                THROTTLED_MODELS[f"{current_idx}_{model}"] = time.time() + throttle_duration
                                 
                                 # 3. GLOBAL THROTTLING: Slow down entire engine
                                 GLOBAL_COOLDOWN_UNTIL = time.time() + 3.0 
@@ -298,14 +400,17 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                                 diagnostics.add_attempt(model, 404, "Not Found")
                                 break 
                             elif response.status_code in [500, 503, 504]:
+                                log_event(f"    [TELEMETRY] Server Error {response.status_code}: {response.text[:200]}")
                                 diagnostics.add_attempt(model, response.status_code, "Server Error")
                                 continue 
                             else:
+                                log_event(f"    [TELEMETRY] Unknown Error {response.status_code}: {response.text[:200]}")
                                 diagnostics.add_attempt(model, response.status_code, "API Error", response.text)
                                 break 
                                 
                         except Exception as e:
-                            SESSION_TRACKER.track_call(current_idx, model, 0, {})
+                            log_event(f"    [TELEMETRY] Exception during request: {type(e).__name__} - {e}")
+                            SESSION_TRACKER.track_call(current_idx, model, 0, {}, role=role)
                             diagnostics.add_attempt(model, 0, str(e))
                             break 
         
@@ -314,4 +419,80 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
             log_event(f"  [!] Exhausted tier options in round {attempt_round+1}. Cooling down {wait_round}s...")
             await asyncio.sleep(wait_round)
 
-    raise Exception(f"Critical Gemini failure after adaptive tiering.\n{diagnostics.get_report()}")
+    log_event("  [!] QUOTA EXHAUSTED: All keys and models rate-limited. Triggering Tenacity backoff...")
+    raise GeminiQuotaExhausted(f"Critical Gemini failure after adaptive tiering.\n{diagnostics.get_report()}")
+
+async def fetch_youtube_metadata(url: str) -> Optional[Dict]:
+    """
+    Fetches high-fidelity basic metadata (title, description) from a YouTube page.
+    Prioritizes Official YouTube Data API v3 if YOUTUBE_API_KEY is available.
+    Fallbacks to yt-dlp and eventually standard fetch.
+    """
+    from src.config import YOUTUBE_API_KEY
+    
+    # Extract Video ID
+    vid = None
+    if "/embed/" in url: vid = url.split("/embed/")[-1].split("?")[0]
+    elif "youtu.be/" in url: vid = url.split("youtu.be/")[-1].split("?")[0]
+    elif "v=" in url: vid = url.split("v=")[-1].split("&")[0]
+    
+    if not vid: return None
+
+    # STRATEGY 1: Official YouTube Data API v3 (Guaranteed success)
+    if YOUTUBE_API_KEY:
+        try:
+            api_url = f"https://www.googleapis.com/youtube/v3/videos?part=snippet&id={vid}&key={YOUTUBE_API_KEY}"
+            async with httpx.AsyncClient() as client:
+                resp = await client.get(api_url, timeout=10.0)
+                if resp.status_code == 200:
+                    data = resp.json()
+                    if data.get("items"):
+                        snippet = data["items"][0]["snippet"]
+                        log_event(f"    [YT-API] Success for {vid}: {snippet.get('title')}")
+                        return {
+                            "raw_title": snippet.get("title", "").strip(),
+                            "raw_description": snippet.get("description", "").strip()[:3000]
+                        }
+        except Exception as e:
+            log_event(f"    [YT-API] Failed for {vid}: {e}")
+
+    # STRATEGY 2: Robust Extraction (yt-dlp)
+    try:
+        import yt_dlp
+        from youtube_transcript_api import YouTubeTranscriptApi
+        
+        ydl_opts = {
+            'quiet': True,
+            'skip_download': True,
+            'force_generic_extractor': False,
+            'no_warnings': True,
+            'extractor_args': {
+                'youtube': {
+                    'player_client': ['android', 'web_embedded'],
+                    'skip': ['dash', 'hls']
+                }
+            }
+        }
+
+        # Extract basic info
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+            info = ydl.extract_info(url, download=False)
+            title = info.get('title', 'YouTube Video')
+            description = info.get('description', '')
+
+        # Attempt to get transcript
+        transcript_text = ""
+        try:
+            transcript = YouTubeTranscriptApi.get_transcript(vid, languages=['en', 'es'])
+            transcript_text = " ".join([t['text'] for t in transcript[:100]])
+        except: pass
+
+        full_description = f"{description}\n\n[Transcript Snippet]: {transcript_text}" if transcript_text else description
+
+        return {
+            "raw_title": title.strip(),
+            "raw_description": full_description.strip()[:3000]
+        }
+    except Exception as e:
+        log_event(f"    [!] Robust fetch failed for {url}: {e}")
+        return None
