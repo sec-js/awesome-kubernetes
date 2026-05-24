@@ -80,7 +80,7 @@
     - [toptechskills.com: How to Speed Up Your Ansible Playbooks Over 600% 🌟](https://www.toptechskills.com/ansible-tutorials-courses/speed-up-ansible-playbooks-pipelining-mitogen)
 - [opensource.com: 5 everyday sysadmin tasks to automate with Ansible 🌟](https://opensource.com/article/21/3/ansible-sysadmin) Get more efficient and avoid errors by automating repeatable daily tasks with Ansible.
 - [redhat.com: 8 steps to developing an Ansible role in Linux 🌟](https://www.redhat.com/en/blog/developing-ansible-role) In this article, an existing Ansible playbook is used to deploy Vim and convert it to a role adding flexibility and reusability.
-- [ansible.com: Ansible whitepaper](https://www.redhat.com/en/ansible-collaborative?intcmp=7015Y000003t7aWQAQ/resources/whitepapers/ansible-in-depth) Download this paper for a deep dive into Ansible, an open source IT configuration management, deployment, and orchestration tool.
+- [ansible.com: Ansible whitepaper](https://www.redhat.com/en/resources/whitepapers/ansible-in-depth) Download this paper for a deep dive into Ansible, an open source IT configuration management, deployment, and orchestration tool.
 - [redhat.com: How to use Ansible to send an email using Gmail](https://www.redhat.com/en/blog/configure-gmail-using-ansible)
 - [redhat.com: How to use Ansible to configure a reverse proxy 🌟](https://www.redhat.com/en/blog/reverse-proxy-ansible) Placing a load balancer in front of your web server infrastructure helps ensure any spike in traffic doesn't bring down the site.
 - [Ansible 3.3.0 released](https://groups.google.com/g/ansible-devel/c/CdQ7eWUUm8k?pli=1)
@@ -125,14 +125,14 @@
 - [blog.learncodeonline.in: Managing File Operations With Ansible 🌟](https://blog.learncodeonline.in/managing-file-operations-with-ansible)
 - [developers.redhat.com: How to install VMs and Ansible Automation Platform on Mac M1](https://developers.redhat.com/articles/2022/10/25/how-install-vms-and-ansible-automation-platform-mac-m1)
 - [devopscube.com: How to Setup Ansible AWS Dynamic Inventory](https://devopscube.com/setup-ansible-aws-dynamic-inventory)
-- [ansible.com: Creating Custom Rules for Ansible Lint](https://www.redhat.com/en/ansible-collaborative?intcmp=7015Y000003t7aWQAQ/blog/creating-custom-rules-for-ansible-lint) What's “linting?” Its objective is to promote proven behaviors, patterns, and practices while avoiding typical traps that can quickly result in errors or make code more difficult to maintain.
-- [ansible.com: The Top 10 Ansible Blogs of 2022](https://www.redhat.com/en/ansible-collaborative?intcmp=7015Y000003t7aWQAQ/blog/top-10-ansible-blogs-2022)
+- [ansible.com: Creating Custom Rules for Ansible Lint](https://www.redhat.com/en/blog/creating-custom-rules-for-ansible-lint) What's “linting?” Its objective is to promote proven behaviors, patterns, and practices while avoiding typical traps that can quickly result in errors or make code more difficult to maintain.
+- [ansible.com: The Top 10 Ansible Blogs of 2022](https://www.redhat.com/en/blog/top-10-ansible-blogs-2022)
 - [tomsitcafe.com: Getting started with Ansible playbooks: more steps towards DevOps](https://tomsitcafe.com/2023/02/14/getting-started-with-ansible-playbooks-more-steps-towards-devops)
 - [tomsitcafe.com: Conditional statements – making decisions in Ansible code](https://tomsitcafe.com/2023/02/17/conditional-statements-making-decisions-in-ansible-code)
 - [tomsitcafe.com: How to implement and use handlers in Ansible code?](https://tomsitcafe.com/2023/03/06/how-to-implement-and-use-handlers-in-ansible-code)
 - [tomsitcafe.com: Configuration file blueprints: Jinja2 templates in the Ansible code](https://tomsitcafe.com/2023/03/13/configuration-file-blueprints-jinja2-templates-in-the-ansible-code)
 - [tomsitcafe.com: Handling sensitive data with Ansible Vault: encrypting strings instead of files](https://tomsitcafe.com/2023/03/16/handling-sensitive-data-with-ansible-vault-encrypting-strings-instead-of-files)
-- [ansible.com: Kubernetes Meets Event-Driven Ansible 🌟](https://www.redhat.com/en/ansible-collaborative?intcmp=7015Y000003t7aWQAQ/blog/kubernetes-meets-event-driven-ansible)
+- [ansible.com: Kubernetes Meets Event-Driven Ansible 🌟](https://www.redhat.com/en/blog/kubernetes-meets-event-driven-ansible)
 - [==sayali.hashnode.dev: Day 56: Understanding Ad-hoc commands in Ansible== 🌟](https://sayali.hashnode.dev/day-56-understanding-ad-hoc-commands-in-ansible)
 - [tomsitcafe.com: Let’s use a more flexible directory structure for an Ansible project](https://tomsitcafe.com/2023/05/11/lets-use-a-more-flexible-directory-structure-for-an-ansible-project)
 - [tomsitcafe.com: Enhancing Ansible Automation: Exploring the Power of Ansible Semaphore, a Modern Open-Source GUI](https://tomsitcafe.com/2023/05/15/ansible-semaphore-a-modern-open-source-gui-for-our-ansible-automation)
@@ -201,7 +201,7 @@
 - [Ansible Collections 🌟](https://github.com/ansible-collections)
 - [Amazon AWS Collection 🌟](https://github.com/ansible-collections/amazon.aws)
 - [Radware/radware-ansible: Radware Ansible Collection](https://github.com/Radware/radware-ansible)
-- [ansible.com: Fundamentals of Network Automation with Ansible Validated Content using the network.base collection](https://www.redhat.com/en/ansible-collaborative?intcmp=7015Y000003t7aWQAQ/blog/based-validated-network-content) Ansible validated content is use cases-focused automation packaged as Collections. They include plugins, roles and playbooks that can be used as an automation job through RedHat Ansible Automation Platform. Here's how to use the network.base Collection.
+- [ansible.com: Fundamentals of Network Automation with Ansible Validated Content using the network.base collection](https://www.redhat.com/en/blog/based-validated-network-content) Ansible validated content is use cases-focused automation packaged as Collections. They include plugins, roles and playbooks that can be used as an automation job through RedHat Ansible Automation Platform. Here's how to use the network.base Collection.
 
 ## Red Hat Ansible Automation Platform
 
@@ -215,7 +215,7 @@
 - [devops.com: Red Hat Extends Scope of Ansible Automation Ambitions](https://devops.com/red-hat-extends-scope-of-ansible-automation-ambitions) Red Hat announced the availability of a preview edition of Red Hat Ansible Automation Platform 2 that is intended to make it easier to automate IT processes at scale.
 - [redhat.com: Red Hat Ansible Automation Platform 2 Drives Cloud-Native Automation and Helps Developers Become Automators](https://www.redhat.com/en/about/press-releases/red-hat-ansible-automation-platform-2-drives-cloud-native-automation-and-helps-developers-become-automators) Industry’s leading IT automation platform now re-architected for deploying portable automation at massive scale across hybrid clouds and edge environments while shifting automation left into application development
 - [ansible.com: What's new in Ansible Automation Platform 2: automation controller](https://www.redhat.com/en/blog/whats-new-in-ansible-automation-platform-2-automation-controller?sc_cid=7015Y000003t7aWQAQ)
-    - [ansible.com: What's new in Ansible Automation Platform 2: automation content navigator](https://www.redhat.com/en/ansible-collaborative?intcmp=7015Y000003t7aWQAQ/blog/whats-new-in-ansible-automation-platform-2-automation-content-navigator)
+    - [ansible.com: What's new in Ansible Automation Platform 2: automation content navigator](https://www.redhat.com/en/blog/whats-new-in-ansible-automation-platform-2-automation-content-navigator)
 - [venturebeat.com: Red Hat brings Ansible IT automation engine to Azure](https://venturebeat.com/2021/12/08/red-hat-brings-its-ansible-it-automation-engine-to-azure)
 - [redhat.com: Red Hat Brings Industry-Leading Ansible Automation Platform to **Microsoft Azure**](https://www.redhat.com/en/about/press-releases/red-hat-brings-industry-leading-ansible-automation-platform-microsoft-azure) Customers can more easily automate across hybrid clouds, IoT and edge deployments with Red Hat Ansible Automation Platform on Microsoft Azure
 - [wraltechwire.com: Red Hat expands hybrid cloud efforts in Ansible deal with Microsoft Azure](https://www.wraltechwire.com/2021/12/11/red-hat-expands-hybrid-cloud-efforts-in-ansible-deal-with-microsoft-azure)
@@ -230,7 +230,7 @@
 - [ansible.com: Automating Red Hat Satellite with Ansible](https://www.redhat.com/en/blog/automating-red-hat-satellite-with-ansible?sc_cid=7015Y000003t7aWQAQ)
     - [galaxy.ansible.com: letsencrypt](https://galaxy.ansible.com/t_systems_mms/letsencrypt) This collection contains a role for issuing ssl certificates from Let's Encrypt via dns or http-challenge
 - [opensource.com: 5 tips for choosing an Ansible collection that's right for you](https://opensource.com/article/21/3/ansible-collections) Try these strategies to find and vet collections of Ansible plugins and modules before you install them.
-- [ansible.com: Announcing the Red Hat Enterprise Linux Certified Ansible Collection 🌟](https://www.redhat.com/en/ansible-collaborative?intcmp=7015Y000003t7aWQAQ/blog/announcing-the-red-hat-enterprise-linux-certified-ansible-collection)
+- [ansible.com: Announcing the Red Hat Enterprise Linux Certified Ansible Collection 🌟](https://www.redhat.com/en/blog/announcing-the-red-hat-enterprise-linux-certified-ansible-collection)
 - [youtube: Ansible Collections 🌟](https://www.youtube.com/watch?app=desktop&v=AXnDrGgLaF0&feature=share&ab_channel=RobertdeBock)
 
 ## Ansible Cheat Sheets
@@ -252,12 +252,12 @@
 
 ### Ansible Tower and Ansible AWX. Running Ansible Playbooks From Ansible Tower
 
-- [Ansible Tower](https://www.redhat.com/en/ansible-collaborative?intcmp=7015Y000003t7aWQAQ/products/tower)
+- [Ansible Tower](https://www.redhat.com/en/products/tower)
 - [Ansible Tower Docs](https://legacy-controller-docs.ansible.com/ansible-tower)
 - [Ansible AWX](https://github.com/ansible/awx)
 - [AWX Operator](https://github.com/ansible/awx-operator) An Ansible AWX operator for Kubernetes built with Operator SDK and Ansible.
 - [ansible.com/blog/topic/ansible-tower](https://www.redhat.com/en/blog/channel/red-hat-ansible-automation?sc_cid=7015Y000003t7aWQAQ)
-- [Red Hat Ansible Tower Monitoring: Using Prometheus + Node Exporter + Grafana](https://www.redhat.com/en/ansible-collaborative?intcmp=7015Y000003t7aWQAQ/blog/red-hat-ansible-tower-monitoring-using-prometheus-node-exporter-grafana)
+- [Red Hat Ansible Tower Monitoring: Using Prometheus + Node Exporter + Grafana](https://www.redhat.com/en/blog/red-hat-ansible-tower-monitoring-using-prometheus-node-exporter-grafana)
 - [linuxsysadmins.com: Install Ansible AWX on Kubernetes in 5 minutes](https://www.linuxsysadmins.com/install-ansible-awx-on-kubernetes)
 - [steampunk.si: Managing infrastructure using Ansible Tower](https://steampunk.si/blog/managing-infrastructure-using-ansible-tower)
 - [maquinasvirtuales.eu: Docker Swarm: Instalar Ansible AWX](https://www.maquinasvirtuales.eu/docker-swarm-instalar-ansible-awx)
@@ -288,7 +288,7 @@
 
 ## Ansible Kubernetes Operators
 
-- [ansible.com: Fast vs Easy: Benchmarking Ansible Operators for Kubernetes](https://www.redhat.com/en/ansible-collaborative?intcmp=7015Y000003t7aWQAQ/blog/fast-vs-easy-benchmarking-ansible-operators-for-kubernetes)
+- [ansible.com: Fast vs Easy: Benchmarking Ansible Operators for Kubernetes](https://www.redhat.com/en/blog/fast-vs-easy-benchmarking-ansible-operators-for-kubernetes)
 
 ## Ansible Molecule. Development and Testing of Ansible Roles
 
