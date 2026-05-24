@@ -18,10 +18,10 @@
   - [Gaia-X.eu](https://gaia-x.eu)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [GAIA-X: A Federated Data Infrastructure for Europe](https://www.bundeswirtschaftsministerium.de/Redaktion/EN/Dossier/gaia-x.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jamaica-gleaner.com: Amazon outage’s future implications](http://past.jamaica-gleaner.com/article/business/20211224/amazon-outages-future-implications)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [learntocloud.guide: 3 ways to get hands on (AWS, Azure, GCP)](https://learntocloud.guide/#/projects/README)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Digital Ocean Kubernetes (DOKS)](https://www.digitalocean.com/products/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud-mercato.com: Public Cloud Reference 🌟](https://pcr.cloud-mercato.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud-mercato.com: State of the art of Public Object Storage Europe 🌟](https://projector.cloud-mercato.com/projects/state-of-the-art-of-public-object-storage-europe)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [learntocloud.guide: 3 ways to get hands on (AWS, Azure, GCP)](https://learntocloud.guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Cloud Agnostic Design 🌟](https://medium.com/path-to-software-architect/cloud-agnostic-design-925c08e1d610)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cybernews.com: Trouble in paradise: IT professionals unhappy with cloud' services](https://cybernews.com/cloud/trouble-in-paradise-it-professionals-unhappy-with-cloud-services)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/adeo-tech: Multi-Cloud Kubernetes Survival Guide 🌟](https://medium.com/adeo-tech/multi-cloud-kubernetes-survival-guide-49eee9aa58e2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -57,5 +57,5 @@
 
 
 ---
-💡 **Explore Related:** [AWS Security](./aws-security.md) | [AWS Storage](./aws-storage.md) | [AWS Databases](./aws-databases.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [Azure](./azure.md)
 

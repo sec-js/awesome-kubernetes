@@ -22,5 +22,5 @@
 
 
 ---
-💡 **Explore Related:** [Elearning](./elearning.md) | [Recruitment](./recruitment.md) | [Freelancing](./freelancing.md)
+💡 **Explore Related:** [Elearning](./elearning.md) | [Finops](./finops.md) | [Recruitment](./recruitment.md)
 

@@ -18,10 +18,9 @@
   - [versusmind.eu: Dapr - a serverless runtime for distributed applications 🌟](https://versusmind.eu/dapr-a-serverless-runtime-for-distributed-applications)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Docker for LLMs](https://www.docker.com/llm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Azure Functions Cost Considerations and Optimization](https://build5nines.com/azure-functions-cost-considerations-and-optimization)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [itnext.io: **arkade** by example — Kubernetes apps, the easy way 🌟](https://itnext.io/kubernetes-apps-the-easy-way-f06d9e5cad3c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [redhat.com: What is knative?](https://www.redhat.com/en/topics/microservices/what-is-knative)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Serverless Architecture](https://developers.redhat.com/topics/serverless-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [itnext.io: **arkade** by example — Kubernetes apps, the easy way 🌟](https://itnext.io/kubernetes-apps-the-easy-way-f06d9e5cad3c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [theburningmonk.com: Making Terraform and Serverless framework work together](https://theburningmonk.com/2019/03/making-terraform-and-serverless-framework-work-together)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [martinfowler.com: Serverless Architectures](https://martinfowler.com/articles/serverless.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Scaling My App: Serverless vs Kubernetes 🌟](https://itnext.io/scaling-my-app-serverless-vs-kubernetes-cdb8adf446e1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Is Serverless The End Of Kubernetes?](https://towardsdatascience.com/kubernetes-serverless-differences-84699f370609)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -47,6 +46,7 @@
   - [dev.to: Serverless - Beyond the Basics | Kristi Perreault 🌟](https://dev.to/aws-heroes/serverless-beyond-the-basics-kom)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [theburningmonk.com: Why you should use ephemeral environments when you do' serverless](https://theburningmonk.com/2019/09/why-you-should-use-temporary-stacks-when-you-do-serverless)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [serverlesshorrors.com](https://serverlesshorrors.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [theburningmonk.com: Making Terraform and Serverless framework work together](https://theburningmonk.com/2019/03/making-terraform-and-serverless-framework-work-together)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [betterprogramming.pub: Going Serverless? Governance Is Everything](https://betterprogramming.pub/going-serverless-governance-is-everything-c70589c9cee9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [fathomtech.io: Microservices vs. Serverless](https://fathomtech.io/blog/microservices-vs-serverless)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloudnowtech.com: Kubernetes vs Serverless – How do you choose? 🌟](https://www.cloudnowtech.com/blog/kubernetes-vs-serverless-how-do-you-choose)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -100,5 +100,5 @@
   - [ServerlessHorrors: A Web Compiling Nightmares in the Serverless World](https://revistacloud.com/serverlesshorrors-la-web-que-recoge-las-peores-pesadillas-del-mundo-serverless) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Un compendio técnico sobre los errores más comunes y costosos en el diseño de arquitecturas serverless. Ofrece un análisis crítico de fallos reales de concurrencia, inicios en frío ("cold starts"), costos fuera de control e integración de servicios, sirviendo como guía de advertencia para diseñadores de sistemas distribuidos. [SPANISH CONTENT]
 
 ---
-💡 **Explore Related:** [Container Managers](./container-managers.md) | [Kubernetes Monitoring](./kubernetes-monitoring.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
+💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Docker](./docker.md) | [OCP 3](./ocp3.md)
 

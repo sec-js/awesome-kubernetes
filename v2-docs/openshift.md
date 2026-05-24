@@ -5,12 +5,12 @@
 
 ## Standard Reference
 
+  - [marketplace.redhat.com: Dont treat Kubernetes storage as an afterthought: Turn to persistent container storage for high performance and availability](https://marketplace.redhat.com/sunset)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [uncontained.io/articles/openshift-ha-installation](http://uncontained.io/articles/openshift-ha-installation/)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [uncontained.io/articles/openshift-and-the-org](http://uncontained.io/articles/openshift-and-the-org) 
     - [**v1.uncontained.io**: Red Hat Consulting DevOps And OpenShift Playbooks 🌟](http://v1.uncontained.io) Red Hat Consulting DevOps and OpenShift Playbooks are guides for implementing DevOps technical practices and container automation approaches using Red Hat commercial open source products, including OpenShift Enterprise 3. They are intended to reflect real-world experience delivering solutions through these processes and technologies.
   - [AWS Account Set Up 🌟](https://github.com/openshift/installer/blob/main/docs/user/aws/README.md) <span class='md-tag md-tag--info'>⭐ 1546</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [try.openshift.com](https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [github.com/openshift/installer](https://github.com/openshift/installer)
   - [Network Security Zones in Openshift (DMZ)](https://www.redhat.com/en/blog/openshift-and-network-security-zones-coexistence-approaches)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [marketplace.redhat.com 🌟](https://marketplace.redhat.com/sunset)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [OpenShift.com](https://www.redhat.com/en/technologies/cloud-computing/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [OpenShift blog 🌟](https://www.redhat.com/en/blog/channel/hybrid-cloud-infrastructure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [twitter.com/openshift](https://x.com/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -37,29 +37,29 @@
   - [blog.openshift.com: AWS and red hat quickstart workshop](https://www.redhat.com/en/blog/aws-and-red-hat-quickstart-workshop)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openshift.com: Introducing Red Hat OpenShift Service on AWS](https://www.redhat.com/en/blog/introducing-red-hat-openshift-service-on-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [learn.openshift.com](https://learn.openshift.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [IBM Cloud Pak Playbook: cloudpak8s.io](https://cloudpak8s.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [IBM Cloud Pak Playbook](https://cloudpak8s.io/apps/cp4a_overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [OpenShift 3.11: Configuring the cluster auto-scaler in AWS](https://docs.openshift.com/container-platform/3.11/admin_guide/cluster-autoscaler.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [OpenShift 4.4: Applying autoscaling to an OpenShift Container Platform cluster](https://docs.openshift.com/container-platform/4.4/machine_management/applying-autoscaling.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [kubernetes.io: The Kubernetes network model. How to implement the Kubernetes' networking model](https://kubernetes.io/docs/concepts/cluster-administration/networking)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Rcarrata's blog](https://rcarrata.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [reddit.com/r/redhat](https://www.reddit.com/r/redhat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [reddit.com/r/openshift](https://www.reddit.com/r/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [OpenShift 4 on AWS Quick Starts 🌟](https://aws.amazon.com/blogs/opensource/openshift-4-on-aws-quick-start)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [docs.openshift.com: Understanding networking](https://docs.openshift.com/container-platform/4.4/networking/understanding-networking.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [redhat.com: Network traffic control for containers in Red Hat OpenShift' 🌟](https://www.redhat.com/en/blog/network-traffic-control-containers-red-hat-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Developer Sandbox for Red Hat OpenShift 🌟](https://developers.redhat.com/developer-sandbox)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [IBM Cloud Pak Playbook: cloudpak8s.io](https://cloudpak8s.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [IBM Cloud Pak Playbook](https://cloudpak8s.io/apps/cp4a_overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [kubernetes.io: The Kubernetes network model. How to implement the Kubernetes' networking model](https://kubernetes.io/docs/concepts/cluster-administration/networking)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Rcarrata's blog](https://rcarrata.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Wikipedia.org: OpenShift](https://en.wikipedia.org/wiki/OpenShift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [docs.openshift.com 🌟](https://docs.openshift.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com 🌟](https://developers.redhat.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [OpenShift Commons](https://commons.openshift.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [OpenShift in DockerHub](https://hub.docker.com/u/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [reddit.com/r/openshift](https://www.reddit.com/r/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [reddit.com/r/redhat](https://www.reddit.com/r/redhat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [twitch.tv/redhatopenshift](https://www.twitch.tv/redhatopenshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [OpenShift.io](https://openshift.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openshift-ireland.com](https://openshift-ireland.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [I’m So Sorry OpenShift, I’ve Taken You for Granted 🌟](https://medium.com/swlh/im-so-sorry-openshift-i-ve-taken-you-for-granted-f36fb47ea4d9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [docs.openshift.com: Enabling tab completion](https://docs.openshift.com/container-platform/4.4/cli_reference/openshift_cli/configuring-cli.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: How to enable OpenShift oc bash auto completion](https://medium.com/@ismailyenigul/how-to-enable-openshift-oc-bash-auto-completion-958b80e56e17)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [OpenShift 3.11: Configuring the cluster auto-scaler in AWS](https://docs.openshift.com/container-platform/3.11/admin_guide/cluster-autoscaler.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [OpenShift 4.4: Applying autoscaling to an OpenShift Container Platform cluster](https://docs.openshift.com/container-platform/4.4/machine_management/applying-autoscaling.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [O’Reilly: Free ebook: **Kubernetes Operators: Automating the Container Orchestration' Platform**](https://www.redhat.com/en/resources/oreilly-kubernetes-operators-automation-ebook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Manning: **Openshift in action**](https://www.manning.com/books/openshift-in-action)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kubernetes e-Books](https://awesome-kubernetes.readthedocs.io/kubernetes/#e-books)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -134,5 +134,5 @@ Live Grounding: Kueue offers advanced queueing mechanism controls, priority grou
   - [Red Hat Training & Certification Community](https://access.redhat.com/community/learn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official educational resources and certification preparation portal curated by Red Hat. Serves as a vital reference for mastering OpenShift and enterprise Linux engineering architectures.
 
 ---
-💡 **Explore Related:** [Container Managers](./container-managers.md) | [Kubernetes Monitoring](./kubernetes-monitoring.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
+💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Docker](./docker.md) | [Serverless](./serverless.md)
 

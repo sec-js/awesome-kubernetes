@@ -262,5 +262,5 @@
   - [signoz.io: Kubernetes Audit Logs - Best Practices And Configuration](https://signoz.io/blog/kubernetes-audit-logs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Outlines advanced configuration policies for the Kubernetes API audit logging engine. Deeply covers audit profiles, performance tuning, secure log transport, and compliance-driven retention metrics.
 
 ---
-💡 **Explore Related:** [Container Managers](./container-managers.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Kubernetes Storage](./kubernetes-storage.md)
+💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Docker](./docker.md) | [Serverless](./serverless.md)
 

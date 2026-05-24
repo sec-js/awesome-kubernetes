@@ -5,8 +5,8 @@
 
 ## Standard Reference
 
-  - [jetstack.io: Getting started using cert-manager with the sig-network Gateway API](https://www.cyberark.com/venafi-and-cyberark-machine-identity-security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.jetstack.io: Istio OIDC Authentication](https://developer.cyberark.com/blog/istio-oidc-authentication)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jetstack.io: Securing Istio workloads with mTLS using cert-manager](https://www.cyberark.com/venafi-and-cyberark-machine-identity-security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/solo-io blog](https://medium.com/solo-io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/solo-io: Istio the Easy Way (Again!)](https://medium.com/solo-io/istio-the-easy-way-again-b0504347b7ce)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [istiobyexample.dev 🌟](https://istiobyexample.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -164,9 +164,6 @@
 ##### Learning Resources
 
   - [redhat-scholars: istio-tutorial 🌟](https://github.com/redhat-scholars/istio-tutorial) <span class='md-tag md-tag--info'>⭐ 1207</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A hands-on, scenario-driven learning path designed by Red Hat to introduce developers to Istio's core operational capabilities. Covers basic deployment, routing rules, traffic splitting, dark launches, resilient patterns like circuit breaking, and advanced security configurations using Envoy proxies.
-##### Operations
-
-  - **(2021)** [solo.io: Navigating __Istio Config__: a look into Istio’s toolkit](https://www.solo.io/blog) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A guide detailing useful debugging utilities and CLI tools for validating and diagnosing Istio configuration sets. Explains how to leverage 'istioctl' diagnostics, debug configuration states, and inspect direct Envoy configuration mappings to maintain healthy cluster states.
 ##### Release Analysis
 
   - [thenewstack.io: Istio 1.10 Improves Scalability and Revision Control](https://thenewstack.io/istio-1-10-improves-scalability-and-revision-control)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Highlights the key technical improvements delivered in the Istio 1.10 release, with a strong focus on canary control plane upgrades, safer discovery mechanisms, and memory consumption optimizations. Shows how sidecar injection was streamlined to minimize workload disruption.
@@ -217,7 +214,7 @@
 ##### Troubleshooting (1)
 
   - [itnext.io: Find issues in your Istio mesh with Kiali](https://itnext.io/find-issues-in-your-istio-mesh-with-kiali-89d37d5e1fb1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Demonstrates how to diagnose, troubleshoot, and fix misconfigured routing rules and service-to-service communication failures using Kiali. Teaches developers how to read the visual topological graph to pinpoint bottlenecks and broken security boundaries.
-#### Operations (1)
+#### Operations
 
 ##### Lifecycle Management
 
@@ -289,5 +286,5 @@
   - [itnext.io: Observing gRPC-based Microservices on Amazon EKS running Istio](https://itnext.io/observing-grpc-based-microservices-on-amazon-eks-running-istio-77ba90dd8cc0) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive tutorial explaining telemetry configuration for gRPC-based microservices on Amazon EKS running Istio. Offers practical configurations for capturing service-to-service call latency, tracing headers, and standard Envoy metrics at the pod boundary.
 
 ---
-💡 **Explore Related:** [Caching](./caching.md) | [Web Servers](./web-servers.md) | [Kubernetes Networking](./kubernetes-networking.md)
+💡 **Explore Related:** [Networking](./networking.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Caching](./caching.md)
 

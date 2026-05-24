@@ -34,16 +34,16 @@
   - [Learn with Copilot](https://www.youtube.com/shorts/rjmXBs5l_7M?si=UlQ4q1-B-JOiYwrn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Visualize your git repo in vscode with Git Graph extensions](https://www.youtube.com/shorts/vpFF1XSqWjw?si=Zr2eW_C3_3hQoXAa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [How to be a professional (un)wrapper #vscode #programmingtools #coding](https://www.youtube.com/shorts/yuzKp_KsGIk?si=ooaqRJzW2cmf6Z2M)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Google Cloud Code](https://cloud.google.com/code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [AWS Toolkits for Cloud9, JetBrains and VS Code now support interaction with over 200 new resource types 🌟](https://aws.amazon.com/about-aws/whats-new/2021/11/aws-toolkits-cloud9-jetbrains-vs-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [marketplace.visualstudio.com: Learn Cloud 🌟](https://marketplace.visualstudio.com/items?itemName=azurepaas-tools.vscode-learncloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Visual Studio Code JCasC-Plugin 🌟](https://marketplace.visualstudio.com/items?itemName=jcasc-developers.jcasc-plugin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thorsten-hans.com: Debugging apps in Kubernetes with Bridge](https://www.thorsten-hans.com/debugging-apps-in-kubernetes-with-bridge)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [marketplace.visualstudio.com: Bridge to Kubernetes (VSCode)](https://marketplace.visualstudio.com/items?itemName=mindaro.mindaro)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Awesome Visual Studio Code](https://github.com/viatsko/awesome-vscode) <span class='md-tag md-tag--info'>⭐ 28668</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [Getting Started with Data Wrangler in VS Code](https://code.visualstudio.com/docs/datascience/data-wrangler)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kite: Code Faster with AI Autocomplete](https://kite.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Ruff](https://github.com/astral-sh/ruff) <span class='md-tag md-tag--info'>⭐ 47643</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
-  - [marketplace.visualstudio.com: Learn Cloud 🌟](https://marketplace.visualstudio.com/items?itemName=azurepaas-tools.vscode-learncloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Google Cloud Code](https://cloud.google.com/code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [AWS Toolkits for Cloud9, JetBrains and VS Code now support interaction with over 200 new resource types 🌟](https://aws.amazon.com/about-aws/whats-new/2021/11/aws-toolkits-cloud9-jetbrains-vs-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Awesome Visual Studio Code](https://github.com/viatsko/awesome-vscode) <span class='md-tag md-tag--info'>⭐ 28668</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
-  - [thorsten-hans.com: Debugging apps in Kubernetes with Bridge](https://www.thorsten-hans.com/debugging-apps-in-kubernetes-with-bridge)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [marketplace.visualstudio.com: Bridge to Kubernetes (VSCode)](https://marketplace.visualstudio.com/items?itemName=mindaro.mindaro)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [code.visualstudio.com: Visual Studio Code](https://code.visualstudio.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [vscode.github.com: GitHub and Visual Studio Code 🌟](https://vscode.github.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [VScode run from WSL in Linux: Cannot activate the 'Atlassian for VSCode' (Official)' extension because 'git' extension is not loaded](https://bitbucket.org/atlassianlabs/atlascode/issues/112/cannot-activate-the-atlassian-for-vscode)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -228,5 +228,5 @@
   - [blog.getambassador.io: Debugging Go Microservices in Kubernetes with VScode](https://blog.getambassador.io/debugging-go-microservices-in-kubernetes-with-vscode-a36beb48ef1) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explores techniques for real-time remote debugging of Go microservices running inside a Kubernetes cluster using Telepresence and VSCode, bridging local development environments with cloud resources.
 
 ---
-💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Java_Frameworks](./java_frameworks.md) | [API](./api.md)
+💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [Python](./python.md) | [Dotnet](./dotnet.md)
 

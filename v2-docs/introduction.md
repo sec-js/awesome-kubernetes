@@ -26,7 +26,6 @@ graph TD
 
   - [Enterprise Web App Patterns - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/web-apps/guides/enterprise-app-patterns/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoworld.com: Complexity is killing software developers](https://www.infoworld.com/article/2270714/complexity-is-killing-software-developers.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.min.io: Kubernetes, Consistency and Commoditization - The Way of the Cloud](https://www.min.io/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jaxenter.com: Practical Implications for Adopting a Multi-Cluster, Multi-Cloud Kubernetes Strategy](https://devm.io/kubernetes/kubernetes-practical-implications-171647)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jaxenter.com: Six Essential Kubernetes Extensions to Add to Your Toolkit 🌟](https://devm.io/kubernetes/kubernetes-extensions-172215)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [addwebsolution.com: How Kubernetes helps businesses manage their IT infrastructure?](https://www.addwebsolution.com/blog/how-kubernetes-helps-businesses-manage-their-it-infrastructure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -43,6 +42,7 @@ graph TD
   - [infoworld.com: 3 cloud architecture mistakes we all make, but shouldn't](https://www.infoworld.com/article/2264771/3-cloud-architecture-mistakes-we-all-make-but-shouldnt.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ringcentral.co.uk: Cloud Management 🌟](https://www.ringcentral.com/gb/en/blog/definitions/cloud-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [simform.com: What is Multi Cloud? Why you Need a Multi Cloud Strategy?](https://www.simform.com/blog/multi-cloud-strategy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.min.io: Mono Clouds vs Multi-Clouds & Hybrid Clouds](https://www.min.io/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [acloudguru.com: Public cloud vs private cloud: What’s the difference? 🌟](https://www.pluralsight.com/resources/blog/business-and-leadership/public-cloud-vs-private-cloud-whats-the-difference)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: The Future of Microservices? More Abstractions](https://thenewstack.io/microservices/the-future-of-microservices-more-abstractions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [community.hpe.com: Containers vs. VMs: What’s the difference?](https://community.hpe.com/hpeb/plugins/custom/hp/hpebresponsive/custom.bounce_endpoint?referer=https%3A%2F%2Fcommunity.hpe.com%2Ft5%2FHPE-Ezmeral-Uncut%2FContainers-vs-VMs-What-s-the-difference%2Fba-p%2F7147090)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -90,14 +90,10 @@ graph TD
   - [phoenixnap.com: Kubernetes vs OpenShift: Key Differences Compared 🌟](https://phoenixnap.com/blog/openshift-vs-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ibm.com: OpenShift vs. Kubernetes: What’s the Difference?](https://www.ibm.com/think/topics/openshift-vs-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kelsey Hightower Fireside Chat: An Unconventional Path to IT and Some Life Advice](https://www.hashicorp.com/resources/kelsey-hightower-fireside-chat-an-unconventional-path-to-it-and-some-life-advice/?utm_source=linkedin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [levelup.gitconnected.com: How to design a system to scale to your first' 100 million users](https://levelup.gitconnected.com/how-to-design-a-system-to-scale-to-your-first-100-million-users-4450a2f9703d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/javarevisited: Microservices communication using gRPC Protocol](https://medium.com/javarevisited/microservices-communication-using-grpc-protocol-dc3a2f8b648d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloud.google.com: What is Kubernetes? 🌟](https://cloud.google.com/learn/what-is-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [engineering.monday.com: monday.com’s Multi-Regional Architecture: A Deep' Dive](https://engineering.monday.com/monday-coms-multi-regional-architecture-a-deep-dive)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Red Hat automation glossary 🌟](https://www.redhat.com/en/blog/red-hat-automation-glossary)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [softwareengineeringdaily.com: The Rise of Platform Engineering 🌟](https://softwareengineeringdaily.com/2020/02/13/setting-the-stage-for-platform-engineering)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [freecodecamp.org: A Beginner-Friendly Introduction to Containers, VMs and' Docker](https://www.freecodecamp.org/news/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Platform-as-Code: how it relates to Infrastructure-as-Code and' what it enables](https://itnext.io/platform-as-code-how-it-compares-with-infrastructure-as-code-and-what-it-enables-2684b348be2e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Why Kubernetes is The New Application Server](https://developers.redhat.com/blog/2018/06/28/why-kubernetes-is-the-new-application-server)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [redhat.com: Why choose Red Hat for microservices?](https://www.redhat.com/en/topics/microservices/why-choose-red-hat-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -150,6 +146,7 @@ graph TD
   - [thenewstack.io: Private vs. Public Cloud: How Kubernetes Shifts the Balance](https://thenewstack.io/private-vs-public-cloud-how-kubernetes-shifts-the-balance)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Microservices Architecture From A to Z 🌟](https://medium.com/swlh/microservices-architecture-from-a-to-z-7287da1c5d28)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [skycrafters.io: Do Containers Really Contain? Virtual Machines vs. Containers' 🌟](https://skycrafters.io/blog/2021/06/08/do-containers-really-contain)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloud.google.com: What is Kubernetes? 🌟](https://cloud.google.com/learn/what-is-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [xataka.com: La deuda técnica, un lastre para las tecnológicas: un estudio' señala que los informáticos pierden casi un día de trabajo a la semana para solventarlas](https://www.xataka.com/pro/deuda-tecnica-lastre-para-tecnologicas-estudio-senala-que-informaticos-pierden-casi-dia-trabajo-a-semana-para-solventarlas)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: When it Pays to Choose Microservices 🌟](https://dev.to/typeable/when-it-pays-to-choose-microservices-12h5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Container Fundamentals — Part 1](https://medium.com/techbeatly/container-fundamentals-part-i-445881a81b7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -169,6 +166,7 @@ graph TD
   - [blog.deref.io: Containers Don't Solve Everything 🌟](https://blog.deref.io/containers-dont-solve-everything)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Intention-as Code: Making Self-Healing Infrastructure Work](https://thenewstack.io/intention-as-code-making-self-healing-infrastructure-work)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hackernoon.com: 9 Basic (and Crucial) Tips for Microservices Developers' 🌟](https://hackernoon.com/9-basic-and-crucial-tips-for-microservices-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [engineering.monday.com: monday.com’s Multi-Regional Architecture: A Deep' Dive](https://engineering.monday.com/monday-coms-multi-regional-architecture-a-deep-dive)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: Transitioning from Monolith to Microservices (with python django' example)](https://dzone.com/articles/transitioning-from-monolith-to-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cncf.io: How to justify infrastructure replacement to your manager](https://www.cncf.io/blog/2021/10/29/how-to-justify-infrastructure-replacement-to-your-manager)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [enter.co: Estos son los 10 lenguajes de programación más populares en 2021](https://www.enter.co/especiales/dev/herramientas-dev/estos-son-los-10-lenguajes-de-programacion-mas-populares-en-2021)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -205,6 +203,7 @@ graph TD
   - [cloudnativeislamabad.hashnode.dev: Virtualization vs Containerization](https://cloudnativeislamabad.hashnode.dev/virtualization-vs-containerization)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/javarevisited: Distributed Transaction Management in Microservices' — Part 1 🌟](https://medium.com/javarevisited/distributed-transaction-management-in-microservices-part-1-bb7dc1fbee9f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [betterprogramming.pub: How to Transform a Monolith Application Into a' Microservices Architecture](https://betterprogramming.pub/how-to-transform-a-monolith-application-into-a-microservices-architecture-1e00363a03ba)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/javarevisited: Microservices communication using gRPC Protocol](https://medium.com/javarevisited/microservices-communication-using-grpc-protocol-dc3a2f8b648d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/codex: MicroServices Architecture to Solve Distributed Transaction' Management Problem](https://medium.com/codex/solving-distributed-transaction-management-problem-in-microservices-architecture-586ab3087efe)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [betterprogramming.pub: How I Split a Monolith Into Microservices Without' Refactoring 🌟🌟🌟](https://betterprogramming.pub/how-i-split-a-monolith-into-microservices-without-refactoring-5d76924c34c2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [towardsdatascience.com: 3 High Availability Cloud Concepts You Should Know](https://towardsdatascience.com/3-high-availability-cloud-concepts-you-should-know-93f3bab2cb4a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -214,6 +213,7 @@ graph TD
   - [levelup.gitconnected.com: Do you know Distributed Job Scheduling in Microservices' Architecture? 🌟](https://levelup.gitconnected.com/do-you-know-distributed-job-scheduling-in-microservices-architecture-44082adad8ac)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/javarevisited: Microservices Communication part 1-every programmer' must know 🌟](https://medium.com/javarevisited/microservices-communication-part-1-every-programmer-must-know-7c6607d2d563)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/javarevisited: Microservices Communication — part 2— Sync vs' Async vs Hybrid?](https://medium.com/javarevisited/microservices-communication-part-2-sync-vs-async-vs-hybrid-23d057e137d8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [freecodecamp.org: A Beginner-Friendly Introduction to Containers, VMs and' Docker](https://www.freecodecamp.org/news/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Kubernetes Evolution: From Microservices to Batch Processing' Powerhouse 🌟](https://thenewstack.io/kubernetes-evolution-from-microservices-to-batch-processing-powerhouse)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/javarevisited: Why Microservices are not silver bullet? 10 Reasons' for NOT using Microservices](https://medium.com/javarevisited/why-microservices-are-not-silver-bullet-10-reasons-for-not-using-microservices-74f7c0fa98c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devops.com: 8 Hot Takes: Will We See a Monolithic Renaissance?](https://devops.com/8-hot-takes-will-we-see-a-monolithic-renaissance)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -387,5 +387,5 @@ graph TD
   - [NodeJS Best Practices (Spanish Translation)](https://github.com/goldbergyoni/nodebestpractices/blob/spanish-translation/README.spanish.md) <span class='md-tag md-tag--info'>⭐ 105273</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight hosts the comprehensive Spanish translation of the premier Node.js architecture and security handbook. Live Grounding validates its immense utility as an industry-standard guide covering testing, error handling, and production safety. [SPANISH CONTENT]
 
 ---
-💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Cheatsheets](./cheatsheets.md) | [Git](./git.md)
+💡 **Explore Related:** [Cheatsheets](./cheatsheets.md) | [Kubernetes](./kubernetes.md) | [Demos](./demos.md)
 

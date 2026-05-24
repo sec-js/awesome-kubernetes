@@ -11,12 +11,12 @@
   - [acloudguru.com: Adopting GitOps for Kubernetes on AWS 🌟](https://www.pluralsight.com/resources/blog/cloud/adopting-gitops-for-kubernetes-on-aws?utm_source=linkedin&utm_medium=social&utm_campaign=kubernetesblog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [docs.microsoft.com: Configurations and GitOps with Azure Arc enabled Kubernetes](https://learn.microsoft.com/en-us/azure/azure-arc/kubernetes/conceptual-gitops-flux2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/onedr0p/flux-cluster-template: Template for deploying k3s backed by Flux](https://github.com/onedr0p/cluster-template) <span class='md-tag md-tag--info'>⭐ 2742</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [itnext.io: Managing Kubernetes Secrets Securely with GitOps (SOPS + AWS' KMS + Flux)](https://itnext.io/managing-kubernetes-secrets-securely-with-gitops-b8174b4f4d30)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Flux](https://fluxcd.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github: Flux](https://github.com/fluxcd/flux) <span class='md-tag md-tag--info'>⭐ 6864</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [github: Flux Version 2](https://github.com/fluxcd/flux2) <span class='md-tag md-tag--info'>⭐ 8136</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [dzone: Developing Applications on Multi-tenant Clusters With Flux and Kustomize](https://dzone.com/articles/developing-applications-on-multitenant-clusters-wi)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [A Complete Step by Step Guide to Implementing a GitOps Workflow with Flux 🌟](https://managedkube.com/gitops/flux/weaveworks/guide/tutorial/2020/05/01/a-complete-step-by-step-guide-to-implementing-a-gitops-workflow-with-flux.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [itnext.io: Managing Kubernetes Secrets Securely with GitOps (SOPS + AWS' KMS + Flux)](https://itnext.io/managing-kubernetes-secrets-securely-with-gitops-b8174b4f4d30)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.sldk.de: Introduction to GitOps on Kubernetes with Flux v2 🌟](https://blog.sldk.de/2021/02/introduction-to-gitops-on-kubernetes-with-flux-v2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud-viadee.medium.com: GitOps for IT-Architects: Transparent and Secure' Kubernetes deployments](https://cloud-viadee.medium.com/gitops-for-it-architects-6312e7822819)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [johnclarke73.medium.com: How GitOps works for us](https://johnclarke73.medium.com/our-continuous-delivery-journey-11d86dd68a49)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -42,5 +42,5 @@
 
 
 ---
-💡 **Explore Related:** [Registries](./registries.md) | [Jenkins](./jenkins.md) | [CI/CD](./cicd.md)
+💡 **Explore Related:** [Jenkins Alternatives](./jenkins-alternatives.md) | [Gitops](./gitops.md) | [CI/CD](./cicd.md)
 

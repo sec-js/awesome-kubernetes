@@ -5,11 +5,9 @@
 
 ## Standard Reference
 
-  - [github.com: OpenShift GitHub Actions Runner 🌟](https://github.com/redhat-actions/openshift-actions-runners)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [**Cloudbees Flow** 🌟](https://www.cloudbees.com/capabilities/continuous-delivery)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [jenkins-x.io](https://jayex.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [waypointproject.io](https://developer.hashicorp.com/waypoint)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Google Cloud Build](https://cloud.google.com/build)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Azure DevOps 🌟](https://azure.microsoft.com/en-us/products/devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [waypointproject.io](https://developer.hashicorp.com/waypoint)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [lambdatest.com: 21 Of The Best Jenkins Alternatives For Developers](https://www.testmuai.com/blog/best-jenkins-alternatives)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [inovex.de: Spinnaker vs. Argo CD vs. Tekton vs. Jenkins X: Cloud-Native CI/CD](https://www.inovex.de/de/blog/spinnaker-vs-argo-cd-vs-tekton-vs-jenkins-x)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [lambdatest.com: TeamCity vs. Jenkins: Picking The Right CI/CD Tool](https://www.testmuai.com/blog/teamcity-vs-jenkins-picking-the-right-ci-cd-tool)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -17,6 +15,7 @@
   - [lambdatest.com: CircleCI Vs. GitLab: Choosing The Right CI/CD Tool](https://www.testmuai.com/blog/circleci-vs-gitlab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [acloudguru.com: Azure DevOps vs GitHub: Comparing Microsoft’s DevOps Tools 🌟](https://www.pluralsight.com/resources/blog/cloud/azure-devops-vs-github-comparing-microsofts-devops-twins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [lambdatest.com: Jenkins vs Travis vs Bamboo vs TeamCity: Clash Of The Titans](https://www.testmuai.com/blog/jenkins-vs-travis-vs-bamboo-vs-teamcity)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Cloudbees Flow](https://www.cloudbees.com/capabilities/continuous-delivery)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [harness.io](https://www.harness.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [harness.io: AutoStopping Rules For Kubernetes Clusters](https://www.harness.io/blog/autostopping-rules-kubernetes) Harness Intelligent Cloud AutoStopping Rules help manage your resources automatically to make sure that they run only when used, never when idle.
     - [harness.io: Migrating CD Jenkins Pipelines To Harness Using Helm](https://www.harness.io/blog/cd-jenkins-pipelines-harness)
   - [Drone](https://www.drone.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [medium: Goodbye Jenkins: How Drone Simplifies CI/CD for Engineering Teams Everywhere](https://medium.com/@boomimagestudio-techblog/goodbye-jenkins-how-drone-simplifies-ci-cd-for-engineering-teams-everywhere-73a7db435a86)
@@ -26,11 +25,12 @@
   - [lambdatest.com: How To Setup CI/CD Pipeline With Bamboo For PHP Projects](https://www.testmuai.com/blog/how-to-setup-cicd-pipeline-with-bamboo-for-php-projects)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [GitHub Actions CI/CD](https://github.blog/news-insights/product-news/github-actions-now-supports-ci-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [docs.github.com: Learn GitHub Actions](https://docs.github.com/en/actions/how-tos/write-workflows)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat-actions/openshift-actions-runner](https://github.com/redhat-actions/openshift-actions-runners)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [redhat.com: Red Hat and GitHub Collaborate to Expand the Developer Experience on Red Hat OpenShift with GitHub Actions](https://www.redhat.com/en/about/press-releases/red-hat-and-github-collaborate-expand-developer-experience-red-hat-openshift-github-actions) Industry’s leading enterprise Kubernetes platform now integrates with GitHub, bringing DevOps automation tools from the world’s largest developer platform into the OpenShift ecosystem
   - [towardsdatascience.com: Jenkins for CI Is Dead: Why Do People Hate It and What’s the Alternative? GitHub actions](https://towardsdatascience.com/jenkins-for-ci-is-dead-why-do-people-hate-it-and-whats-the-alternative-8d8b6b88fdba)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Azure DevOps](https://azure.microsoft.com/en-us/products/devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube: jfrog - Modern App Deployments: How to use NGINX and JFrog to Automate your Blue/Green deployments](https://www.youtube.com/watch?v=15CGdzfDlpQ&t=1s&ab_channel=JFrog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Semaphore](https://semaphore.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [semaphoreci.com: Revving up Continuous Integration with Parallel Testing](https://semaphore.io/blog/revving-up-continuous-integration-with-parallel-testing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jenkins-x.io](https://jayex.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloudbees.com: what is jenkins-x](https://www.cloudbees.com/whitepapers/building-cloud-native-apps-painlessly)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Traces for your pipelines: Jenkins X v3 now comes with tracing support for your pipelines out of the box](https://jayex.io/blog/2021/04/08/jx3-pipeline-trace)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [spinnaker.io deployment tool](https://spinnaker.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -38,9 +38,6 @@
   - [armory.io: Build a Deployment Pipeline with Spinnaker on Kubernetes](https://www.harness.io/products/continuous-delivery)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [CI/CD OpenShift and Tekton](https://www.sonatype.com/blog/new-cloud-native-ci/cd-projects-openshift-and-tekton)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [empathy.co: HAT: CI/CD for Deploying Cloud Native Applications](https://empathy.co/blog/hat-ci-cd-for-deploying-cloud-native-applications)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhat.com: Red Hat and GitHub Collaborate to Expand the Developer Experience' on Red Hat OpenShift with GitHub Actions 🌟](https://www.redhat.com/en/about/press-releases/red-hat-and-github-collaborate-expand-developer-experience-red-hat-openshift-github-actions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com: RedHat Actions 🌟](https://github.com/redhat-actions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Kubeflow](https://www.kubeflow.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Top 7 Best CI/CD Tools you should get your hands on in 2020](https://medium.com/devops-dudes/top-7-best-ci-cd-tools-you-should-get-your-hands-on-in-2020-832c29db936a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: Jenkins vs GitLab CI: Battle of CI/CD Tools](https://dzone.com/articles/jenkins-vs-gitlab-ci-battle-of-cicd-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.thundra.io: The CI/CD War of 2021: A Look at the Most Popular Technologies](https://blog.thundra.io/the-ci/cd-war-of-2021-a-look-at-the-most-popular-technologies)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -49,6 +46,7 @@
   - [Prow](https://github.com/kubernetes/test-infra/tree/master/prow) <span class='md-tag md-tag--info'>⭐ 4003</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [Agola](https://agola.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [GoCD](https://www.gocd.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kubeflow](https://www.kubeflow.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Screwdriver API](https://github.com/screwdriver-cd/screwdriver) <span class='md-tag md-tag--info'>⭐ 1041</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Circle CI](https://circleci.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Getting started with Kubernetes: how to set up your first cluster](https://circleci.com/blog/getting-started-with-kubernetes-how-to-set-up-your-first-cluster)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -64,6 +62,7 @@
   - [blog.bitsrc.io: Github Actions or Jenkins? Making the Right Choice for You](https://blog.bitsrc.iogithub-actions-or-jenkins-making-the-right-choice-for-you-9ac774684c8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [particule.io: Automatic build with Github Actions and Github Container Registry](https://particule.io/en/blogcicd-github-registry)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [proandroiddev.com: Improving CI/CD pipeline for Android via Fastlane and' GitHub Actions](https://proandroiddev.comimproving-ci-cd-pipeline-for-android-via-fastlane-and-github-actions-a635162d2c53)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com: RedHat Actions 🌟](https://github.com/redhat-actions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Awesome GitHub Actions](https://github.com/sdras/awesome-actions) <span class='md-tag md-tag--info'>⭐ 27816</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [yokawasa/action-setup-kube-tools](https://github.com/yokawasa/action-setup-kube-tools) <span class='md-tag md-tag--info'>⭐ 92</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [shuttleOps](https://www.shuttleops.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -95,6 +94,7 @@
   - [dagger.io](https://dagger.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dagger/dagger: Dagger is a portable devkit for CICD](https://github.com/dagger/dagger) <span class='md-tag md-tag--info'>⭐ 15849</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [CloudBees Integrates Software Delivery Management Platform With Google Cloud Build and Tekton to Break Down Development Silos](https://www.previous.cloudbees.com/press/cloudbees-integrates-software-delivery-management-platform-google-cloud-build-and-tekton-break)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: Red Hat and GitHub Collaborate to Expand the Developer Experience' on Red Hat OpenShift with GitHub Actions 🌟](https://www.redhat.com/en/about/press-releases/red-hat-and-github-collaborate-expand-developer-experience-red-hat-openshift-github-actions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Cloud-Native Development
 
@@ -103,6 +103,13 @@
 #### Skaffold
 
   - [skaffold](https://skaffold.dev)  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Highly active open-source CLI utility by Google that automates the workflow for building, pushing, and deploying Kubernetes applications. Accelerates inner-loop cycles through continuous live-sync engine integration.
+## Enterprise Kubernetes
+
+### Red Hat OpenShift
+
+#### CI-CD Pipelines
+
+  - **(2021)** [openshift.com: Cloud DevOps With OpenShift and JFrog](https://www.redhat.com/en/blog/cloud-devops-with-openshift-and-jfrog) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A case study looking at OpenShift and JFrog Artifactory integrations. It details how teams establish secure, auditable image management pipelines across hybrid cloud nodes.
 ## Hybrid Cloud and Enterprise
 
 ### OpenShift
@@ -120,7 +127,7 @@ Live Grounding: Serves as an excellent hands-on lab environment for configuring 
   - [Devtron](https://github.com/devtron-labs/devtron) <span class='md-tag md-tag--info'>⭐ 5486</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A comprehensive, open-source AppOps platform for Kubernetes designed to consolidate CI/CD pipelines, GitOps, observability, and cost optimization. Provides self-service deployment interfaces, security checks, and deep resource validation for multicluster operations.
 ## Platform Engineering
 
-### CI-CD Pipelines
+### CI-CD Pipelines (1)
 
 #### Enterprise Tooling
 
@@ -145,5 +152,5 @@ Live Grounding: Features structural overviews of AWS CodePipeline, CodeBuild, an
   - [devops.com: 7 Popular Open Source CI/CD Tools](https://devops.com/7-popular-open-source-ci-cd-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Comparative survey of prominent open-source continuous integration and deployment engines. Live Grounding: Analyzes Jenkins, GitLab, Tekton, and others, contrasting their resource overheads and declarative features. Useful for teams choosing a baseline deployment stack.
 
 ---
-💡 **Explore Related:** [Registries](./registries.md) | [Jenkins](./jenkins.md) | [CI/CD](./cicd.md)
+💡 **Explore Related:** [Gitops](./gitops.md) | [CI/CD](./cicd.md) | [Jenkins](./jenkins.md)
 

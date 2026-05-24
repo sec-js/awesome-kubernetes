@@ -192,13 +192,6 @@
 #### Serverless Integration (1)
 
   - [developers.redhat.com: Six reasons to love Camel K](https://developers.redhat.com/blog/2020/05/12/six-reasons-to-love-camel-k)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Outlines six key architectural advantages of Camel K, including fast deployment loops, native Quarkus optimization, low memory footprints, and serverless scale-to-zero capabilities via Knative. Highly useful for architects modernizing traditional ESBs.
-## Cloud Infrastructure
-
-### Kubernetes
-
-#### Service Mesh
-
-  - **(2021)** [**Service meshes to the rescue: Load balancing and scaling long-lived connections in Kubernetes 🌟**](https://learnkube.com/kubernetes-long-lived-connections) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A deep dive into the engineering challenge of load balancing long-lived connections (gRPC, HTTP/2, WebSockets) within Kubernetes. It explains how standard L4 kube-proxy load balancing fails to distribute traffic evenly and presents L7 proxies and service meshes (like Linkerd or Istio) as the definitive architectural solution.
 ## Cloud Native Architecture
 
 ### Domain-Driven Design
@@ -477,7 +470,7 @@
 
 #### Caching
 
-  - [Redis](https://redis.io) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive open-source, in-memory data store used as a database, cache, message broker, and streaming engine. Offers unmatched low-latency read-write cycles and versatile data structures. Highly valued for real-time applications requiring low overhead.
+  - [Redis](http://redis.io) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive open-source, in-memory data store used as a database, cache, message broker, and streaming engine. Offers unmatched low-latency read-write cycles and versatile data structures. Highly valued for real-time applications requiring low overhead.
 ### Real-Time Data Streaming (2)
 
 #### Data Stack
@@ -876,5 +869,5 @@
   - [infoq.com: From Monolith to Event-Driven: Finding Seams in Your Future Architecture](https://www.infoq.com/articles/event-driven-finding-seams) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An InfoQ guide detailing how to use Domain-Driven Design (DDD) to isolate domain boundaries and discover 'seams' within large-scale monoliths. Grounding confirms its position as a primary methodology for refactoring to decoupled, event-driven pipelines.
 
 ---
-💡 **Explore Related:** [Yaml](./yaml.md) | [Databases](./databases.md) | [NoSQL](./nosql.md)
+💡 **Explore Related:** [Databases](./databases.md) | [NoSQL](./nosql.md) | [Crunchydata](./crunchydata.md)
 

@@ -5,6 +5,15 @@
 
 ## Standard Reference
 
+  - [github.com/vmware-tanzu/velero](https://github.com/velero-io/velero) <span class='md-tag md-tag--info'>⭐ 10028</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [marketplace.redhat.com: Dont treat Kubernetes storage as an afterthought: Turn to persistent container storage for high performance and availability](https://marketplace.redhat.com/sunset)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [State of OpenShift Container Storage](https://www.redhat.com/en/blog/state-of-openshift-container-storage-eran-tamir-and-duncan-hardie-red-hat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Red Hat Ceph Storage](https://ceph.io/en)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [Noobaa](https://github.com/noobaa/noobaa-core):
+        - Red Hat Multi Cloud Gateway (AWS, Azure, GCP, etc)
+        - Asynchronous replication of data between my local ceph and my cloud provider
+        - Deduplication
+        - Compression
+        - Encryption
   - [blog.openshift.com: Introducing Red Hat OpenShift 4](https://www.redhat.com/en/blog/introducing-red-hat-openshift-4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [nextplatform.com: red hat flexes CoreOS muscle in openshift kubernetes platform](https://www.nextplatform.com/cloud/2018/10/15/red-hat-flexes-coreos-muscle-in-openshift-kubernetes-platform/1631979)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.openshift.com: OpenShift 4 Install Experience](https://www.redhat.com/en/products/trials?products=hybrid-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -47,14 +56,7 @@
   - [openshift.com: Using VPC Peering to Connect an OpenShift Service on an AWS (ROSA) Cluster to an Amazon RDS MySQL Database in a Different VPC](https://www.redhat.com/en/blog/using-vpc-peering-to-connect-an-openshift-service-on-an-aws-rosa-cluster-to-an-amazon-rds-mysql-database-in-a-different-vpc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.redhat.com: Scale your application containers on Red Hat OpenShift Service on AWS (ROSA) clusters using Amazon EFS storage](https://www.redhat.com/en/blog/scale-your-application-containers-on-red-hat-openshift-service-on-aws-rosa-clusters-using-amazon-efs-storage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [try.openshift.com](https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [github.com/openshift/installer](https://github.com/openshift/installer)
-  - [Machine API](https://github.com/openshift/machine-api-operator/tree/main) <span class='md-tag md-tag--info'>⭐ 185</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [twitter.com/operatorhubio](https://x.com/operatorhubio)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Red Hat Ceph Storage](https://ceph.io/en)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [Noobaa](https://github.com/noobaa/noobaa-core):
-        - Red Hat Multi Cloud Gateway (AWS, Azure, GCP, etc)
-        - Asynchronous replication of data between my local ceph and my cloud provider
-        - Deduplication
-        - Compression
-        - Encryption
   - [Network Security Zones in Openshift (DMZ)](https://www.redhat.com/en/blog/openshift-and-network-security-zones-coexistence-approaches)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [grafana.com/docs/v5.4/](https://archive.grafana.com/docs/grafana/v5.4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [prometheus.io/docs/alerting/alertmanager/](https://prometheus.io/docs/alerting/latest/alertmanager)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -69,7 +71,6 @@
   - [Using Third Party Network Operators with OpenShift](https://app.gitbook.com/o/-LbOdudvkdYwKCQYAHS8/s/RrlyoCHlF8LNFTvw74mT)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.redhat.com: A Guide to Ingress Controllers in OpenShift using IPI](https://www.redhat.com/en/blog/a-guide-to-ingress-controllers-in-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Red Hat OpenShift Container Storage 4](https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [State of OpenShift Container Storage](https://www.redhat.com/en/blog/state-of-openshift-container-storage-eran-tamir-and-duncan-hardie-red-hat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [containerjournal.com: Red Hat Simplifies Kubernetes Cluster Management](https://cloudnativenow.com/features/red-hat-simplifies-kubernetes-cluster-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube: how to deliver OpenShift as a service (just like Red Hat)](https://www.youtube.comwatch?v=b_NOrGxfH5Y)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.openshift.com: Introducing Red Hat OpenShift 4.3 to Enhance Kubernetes Security 🌟](https://www.redhat.com/en/blog/introducing-red-hat-openshift-4-3-to-enhance-kubernetes-security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -80,23 +81,29 @@
   - [blog.openshift.com: Guide to Installing an OKD 4.4 Cluster on your Home Lab](https://www.redhat.com/en/blog/guide-to-installing-an-okd-4-4-cluster-on-your-home-lab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [redhat.com: How to run a Kubernetes cluster on your laptop 🌟](https://www.redhat.com/en/blog/kubernetes-cluster-laptop)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [datacenterknowledge.com: Explaining Knative, the Project to Liberate Serverless from Cloud Giants](https://www.datacenterknowledge.com/servers/explaining-knative-the-project-to-liberate-serverless-from-cloud-giants)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [marketplace.redhat.com 🌟](https://marketplace.redhat.com/sunset)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.openshift.com: Tech Preview: Get visibility into your OpenShift costs across your hybrid infrastructure 🌟](https://www.redhat.com/en/blog/tech-preview-get-visibility-into-your-openshift-costs-across-your-hybrid-infrastructure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Top Kubernetes Operators](https://www.redhat.com/en/blog/top-kubernetes-operators-advancing-across-the-operator-capability-model)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.openshift.com: Introducing Red Hat Quay](https://www.redhat.com/en/blog/introducing-red-hat-quay)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/vmware-tanzu/velero](https://github.com/velero-io/velero) <span class='md-tag md-tag--info'>⭐ 10028</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [OpenShift.com](https://www.redhat.com/en/technologies/cloud-computing/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [OpenShift blog 🌟](https://www.redhat.com/en/blog/channel/hybrid-cloud-infrastructure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openshift.com: Applications Here, Applications There! - Part 3 - Application Migration](https://www.redhat.com/en/blog/applications-here-applications-there-part-3-application-migration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone refcard: Getting Started With OpenShift 🌟](https://dzone.com/refcardz/getting-started-with-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cri-o.io](https://cri-o.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: Podman and Buildah for Docker users 🌟](https://developers.redhat.com/blog/2019/02/21/podman-and-buildah-for-docker-users)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Buildah.io](https://buildah.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [learn.openshift.com](https://learn.openshift.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [OpenShift 4 documentation 🌟](https://access.redhat.com/documentation/en-us/openshift_container_platform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [operatorhub.io](https://operatorhub.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Rook](https://rook.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Descheduler for Kubernetes 🌟](https://github.com/kubernetes-sigs/descheduler) <span class='md-tag md-tag--info'>⭐ 5417</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [kubernetes-sigs: Trimaran: Load-aware scheduling plugins 🌟](https://github.com/kubernetes-sigs/scheduler-plugins/tree/master/pkg/trimaran) <span class='md-tag md-tag--info'>⭐ 1295</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [kubernetes.io](https://kubernetes.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Red Hat OLM](https://github.com/operator-framework/operator-lifecycle-manager) <span class='md-tag md-tag--info'>⭐ 1856</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [OpenShift 4 documentation 🌟](https://access.redhat.com/documentation/en-us/openshift_container_platform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloudowski.com: Honest review of OpenShift 4 🌟](https://cloudowski.com/articles/honest-review-of-openshift-4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [OpenShift 4 “under-the-hood” 🌟](https://medium.com/faun/openshift-4-under-the-hood-ab854c3439dd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Red Hat Launches an OpenShift-Based Marketplace to Aid Multicloud' Portability 🌟](https://thenewstack.io/red-hat-launches-an-openshift-based-marketplace-to-aid-multicloud-portability)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: OpenShift for Kubernetes developers: Getting started' 🌟](https://developers.redhat.com/blog/2020/08/14/openshift-for-kubernetes-developers-getting-started)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Command-line cluster management with Red Hat OpenShift’s' new web terminal (tech preview)](https://developers.redhat.com/blog/2020/10/01/command-line-cluster-management-with-red-hat-openshifts-new-web-terminal-tech-preview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone refcard: Getting Started With OpenShift 🌟](https://dzone.com/refcardz/getting-started-with-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Deploying Kubernetes Operators with Operator Lifecycle' Manager bundles](https://developers.redhat.com/blog/2021/02/08/deploying-kubernetes-operators-with-operator-lifecycle-manager-bundles)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [finance.yahoo.com: IBM's Red Hat OpenShift Platform to be Leveraged by' Siemens](https://finance.yahoo.com/news/ibms-red-hat-openshift-platform-143702224.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: A guide to Red Hat OpenShift 4.5 installer-provisioned' infrastructure on vSphere 🌟](https://developers.redhat.com/blog/2021/03/09/a-guide-to-red-hat-openshift-4-5-installer-provisioned-infrastructure-on-vsphere)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -134,19 +141,15 @@
   - [Rook-Ceph](https://operatorhub.io/operator/rook-ceph)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Robin Storage Operator](https://operatorhub.io/operator/robin-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [RHEL CoreOS](https://docs.openshift.com/container-platform/4.4/architecture/architecture-rhcos.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cri-o.io](https://cri-o.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [SELinux](https://www.slideshare.net/openshift/openshift-18812162)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [OLM Arquitecture](https://github.com/operator-framework/operator-lifecycle-manager/blob/master/doc/design/architecture.md) <span class='md-tag md-tag--info'>⭐ 1856</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Adding Operators to a Cluster](https://docs.openshift.com/container-platform/4.4/operators/olm-adding-operators-to-cluster.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Deploy and bind enterprise-grade microservices with Kubernetes Operators](https://developers.redhat.com/blog/2020/05/18/deploy-and-bind-enterprise-grade-microservices-with-kubernetes-operators)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Rook](https://rook.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Router plug-ins in OCP3:](https://docs.openshift.com/container-platform/3.11/install_config/router/index.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Ingress Controller](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ServiceMesh](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.4/html-single/service_mesh/index)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [redhat-developer-demos.github.io/knative-tutorial](https://redhat-developer-demos.github.io/knative-tutorial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Log Management for Red Hat OpenShift](https://thenewstack.io/log-management-for-red-hat-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [docs.openshift.com/container-platform/4.4/logging/cluster-logging-deploying.html](https://docs.openshift.com/container-platform/4.4/logging/cluster-logging-deploying.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: Podman and Buildah for Docker users 🌟](https://developers.redhat.com/blog/2019/02/21/podman-and-buildah-for-docker-users)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Custom image builds with Buildah](https://docs.openshift.com/container-platform/4.4/builds/custom-builds-buildah.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Procedure:](https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop-introducing-red-hat-codeready-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/redhat-cop/gitops-catalog](https://github.com/redhat-cop/gitops-catalog) <span class='md-tag md-tag--info'>⭐ 376</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -212,10 +215,6 @@
   - [infoq.com: IBM, Red Hat and Cobuilder Develop OpenBuilt, a Platform for' the Construction Industry](https://www.infoq.com/news/2021/04/ibm-redhat-openbuilt)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube: Red Hat OpenShift AI overview](https://www.youtube.com/watch?v=Hc8emNr2igU)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [tommeramber/ocp-automations](https://github.com/tommeramber/ocp-automations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Descheduler for Kubernetes 🌟](https://github.com/kubernetes-sigs/descheduler) <span class='md-tag md-tag--info'>⭐ 5417</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [kubernetes-sigs: Trimaran: Load-aware scheduling plugins 🌟](https://github.com/kubernetes-sigs/scheduler-plugins/tree/master/pkg/trimaran) <span class='md-tag md-tag--info'>⭐ 1295</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Buildah.io](https://buildah.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [kubernetes.io](https://kubernetes.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: **Red Hat Container Development Kit**](https://developers.redhat.com/products/cdk/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: OpenShift Egress Options](https://dzone.com/articles/openshift-egress-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -254,6 +253,9 @@
 #### Image Management
 
   - [cloudowski.com: Openshift ImageStreams](https://cloudowski.com/articles/why-managing-container-images-on-openshift-is-better-than-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical architectural review contrasting OpenShift ImageStreams with standard Kubernetes container registry integrations. It explains how ImageStreams abstract container images and automate rolling deployments on build mutations.
+#### Secure Pipelines
+
+  - **(2020)** [openshift.com: Keep Your Applications Secure With Automatic Rebuilds](https://www.redhat.com/en/blog/keep-your-applications-secure-with-automatic-rebuilds) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An engineering deep-dive into configuring automatic application rebuilds in Red Hat OpenShift. It describes the design patterns where security patches in base container images trigger CI/CD builds for downstream workloads.
 ## Infrastructure Standards
 
 ### Container Registry
@@ -266,5 +268,5 @@
   - [Red Hat Introduces open source Project Quay container registry](https://www.redhat.com/en/blog/red-hat-introduces-open-source-project-quay-container-registry)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A historical press release from Red Hat explaining the architectural transition and open-sourcing of Project Quay, detailing its integration into standard enterprise container management stacks.
 
 ---
-💡 **Explore Related:** [Container Managers](./container-managers.md) | [Kubernetes Monitoring](./kubernetes-monitoring.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
+💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Docker](./docker.md) | [Serverless](./serverless.md)
 

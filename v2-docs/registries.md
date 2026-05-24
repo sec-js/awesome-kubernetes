@@ -6,6 +6,7 @@
 ## Standard Reference
 
   - [help.sonatype.com: Inbound SSL - Configuring to Serve Content via HTTPS](https://help.sonatype.com/en/sonatype-nexus-repository.html/security/configuring-ssl?_ga=2.250230211.411976214.1575978022-1513910029.1575978022#ConfiguringSSL-InboundSSL-ConfiguringtoServeContentviaHTTPS)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [projectquay.io](https://www.projectquay.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone refcard: Using Repository Managers](https://dzone.com/refcardz/binary-repository-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [docs.openshift.com: Integrated OpenShift Container Platform registry](https://docs.openshift.com/container-platform/4.8/registry/architecture-component-imageregistry.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone: Getting started with Nexus](https://dzone.com/articles/getting-started-nexus-maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -17,7 +18,6 @@
   - [blog.mimacom.com/automate-nexus](https://blog.mimacom.com/automate-nexus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [freesoft.dev: Ansible Role: Harbor API Codifying](https://freesoft.dev/program/126957220)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/swlh: Deploy Your Private Docker Registry as a Pod in Kubernetes](https://medium.com/swlh/deploy-your-private-docker-registry-as-a-pod-in-kubernetes-f6a489bf0180)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [projectquay.io](https://www.projectquay.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## CI-CD Pipelines
 
@@ -56,14 +56,10 @@
 
 #### CI-CD Pipelines (1)
 
-  - **(2021)** [openshift.com: Cloud DevOps With OpenShift and JFrog](https://www.redhat.com/en/blog/cloud-devops-with-openshift-and-jfrog) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A case study looking at OpenShift and JFrog Artifactory integrations. It details how teams establish secure, auditable image management pipelines across hybrid cloud nodes.
   - **(2020)** [openshift.com: Using JFrog's Artifactory and Red Hat OpenShift Together](https://www.redhat.com/en/blog/18333-2) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural guide detailing integrations between JFrog Artifactory and Red Hat OpenShift, showing how to coordinate secure, automated image promotion paths.
 #### Image Management
 
   - [cloudowski.com: Openshift ImageStreams](https://cloudowski.com/articles/why-managing-container-images-on-openshift-is-better-than-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical architectural review contrasting OpenShift ImageStreams with standard Kubernetes container registry integrations. It explains how ImageStreams abstract container images and automate rolling deployments on build mutations.
-#### Secure Pipelines
-
-  - **(2020)** [openshift.com: Keep Your Applications Secure With Automatic Rebuilds](https://www.redhat.com/en/blog/keep-your-applications-secure-with-automatic-rebuilds) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An engineering deep-dive into configuring automatic application rebuilds in Red Hat OpenShift. It describes the design patterns where security patches in base container images trigger CI/CD builds for downstream workloads.
 ## Infrastructure Standards
 
 ### Artifact Registry
@@ -140,14 +136,7 @@
 #### VMware
 
   - [galaxy.ansible.com/mkgin/vmware-harbor](https://galaxy.ansible.com/mkgin/vmware-harbor)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Ansible Galaxy role designed to install Harbor registries on VMware-based virtual infrastructure. It remains a historical reference but has been surpassed by containerized approaches.
-## Security
-
-### DevSecOps
-
-#### Secrets Scanning
-
-  - **(2022)** [jfrog.com: How to protect your secrets with Spectral and JFrog Pipelines](https://jfrog.com/blog) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical walk-through showing how to use Spectral in tandem with JFrog Pipelines. The tutorial focuses on identifying misplaced credentials and code misconfigurations inside continuous integration stages.
 
 ---
-💡 **Explore Related:** [Jenkins](./jenkins.md) | [CI/CD](./cicd.md) | [Gitops](./gitops.md)
+💡 **Explore Related:** [Jenkins Alternatives](./jenkins-alternatives.md) | [Gitops](./gitops.md) | [CI/CD](./cicd.md)
 
