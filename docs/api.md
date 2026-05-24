@@ -110,7 +110,7 @@
 
 ### Postman State of the API Report
 
-- [postman.com: 2019 Postman State of the API Report 🌟](https://www.postman.com/state-of-api/2025)
+- [postman.com: Postman State of the API Report 🌟](https://www.postman.com/state-of-api/2025)
 - [blog.postman.com: You Can Now Capture Responses Using the Postman Proxy](https://blog.postman.com/capture-responses-using-the-postman-proxy)
 
 ### Smartbear State of the API Report
