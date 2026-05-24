@@ -23,7 +23,7 @@
 
 #### Cluster Provisioning
 
-  - **(2020)** [WKSctl - A New OSS Kubernetes Manager using GitOps](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745/blog/wksctl-a-new-oss-kubernetes-manager-using-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Historical reference covering the announcement of WKSctl as an open-source GitOps-centric cluster bootstrapper. Note: The URL appears to have defaulted to an external registration portal and should be treated with caution.
+  - **(2020)** [WKSctl - A New OSS Kubernetes Manager using GitOps](https://www.weave.works/blog/wksctl-a-new-oss-kubernetes-manager-using-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Historical reference covering the announcement of WKSctl as an open-source GitOps-centric cluster bootstrapper. Note: The URL appears to have defaulted to an external registration portal and should be treated with caution.
   - **(2020)** [WKSctl: a Tool for Kubernetes Cluster Management Using GitOps](https://www.infoq.com/news/2020/02/wksctl-kubernetes-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An InfoQ editorial piece analyzing the operational design of WKSctl. Explores how declarative machine and cluster definitions allowed users to bootstrap and reconcile nodes over SSH using Git as the source of truth.
 
 ---

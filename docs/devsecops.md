@@ -564,8 +564,8 @@
 
 ### CyberArk and Ansible
 
-- [ansible.com: Simplifying secrets management with CyberArk and Red Hat Ansible Automation Platform](https://www.redhat.com/en/blog/simplifying-secrets-management-with-cyberark-and-red-hat-ansible-automation-platform?sc_cid=7015Y000003t7aWQAQ)
-- [ansible.com: Automating Security with CyberArk and Red Hat Ansible Automation Platform](https://www.redhat.com/en/blog/automating-security-with-cyberark-and-red-hat-ansible-automation-platform?sc_cid=7015Y000003t7aWQAQ)
+- [ansible.com: Simplifying secrets management with CyberArk and Red Hat Ansible Automation Platform](https://www.redhat.com/en/blog/simplifying-secrets-management-with-cyberark-and-red-hat-ansible-automation-platform)
+- [ansible.com: Automating Security with CyberArk and Red Hat Ansible Automation Platform](https://www.redhat.com/en/blog/automating-security-with-cyberark-and-red-hat-ansible-automation-platform)
 
 ### CyberArk Conjur
 

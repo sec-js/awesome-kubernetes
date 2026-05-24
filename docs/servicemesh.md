@@ -31,7 +31,7 @@
 - [cncf.io: Service Mesh Is Still Hard](https://www.cncf.io/blog/2020/10/26/service-mesh-is-still-hard)
 - [medium: Part 1 — Why Red Hat Openshift Service Mesh? 🌟](https://medium.com/@maggarwa/part-1-why-red-hat-openshift-service-mesh-54b8b6ae1a8f)
 - [openshift.com: Introducing OpenShift Service Mesh 2.0 🌟](https://www.redhat.com/en/blog/introducing-openshift-service-mesh-2.0)
-- [weave.works: Introduction to Service Meshes on Kubernetes and Progressive Delivery 🌟](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745)
+- [weave.works: Introduction to Service Meshes on Kubernetes and Progressive Delivery 🌟](https://www.weave.works/)
 - [rancher.com: Using Hybrid and Multi-Cloud Service Mesh Based Applications for Distributed Deployments](https://www.suse.com/c/rancher_blog/using-hybrid-and-multi-cloud-service-mesh-based-applications-for-distributed-deployments) Service Mesh addresses the communication requirements typical in a microservices-based application, including encrypted tunnels, health checks, circuit breakers, load balancing and traffic permission. Leaving the microservices to address these requirements leads to an expensive and time consuming development process. In this blog, we’ll provide an overview of the most common microservice communication requirements that the Service Mesh architecture pattern solves.
 - [thenewstack.io: Offloading Authentication and Authorization from Application Code to a Service Mesh](https://thenewstack.io/offloading-authentication-and-authorization-from-application-code-to-a-service-mesh)
 - [thenewstack.io: How a Service Mesh Can Help DevOps Achieve Business Goals](https://thenewstack.io/how-service-mesh-can-help-devops-achieve-business-goals)

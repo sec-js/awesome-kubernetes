@@ -9,7 +9,7 @@
 
 #### Infrastructure as Code
 
-  - **(2023)** [ansible.com: Ansible and ChatGPT: Putting it to the test](https://www.redhat.com/en/blog/channel/open-source-communities?intcmp=7015Y000003t7aWQAQ) 🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — Red Hat's experimental analysis testing generative AI capability against Ansible Playbook authoring constraints. Highlights current logical gaps and structural best practices for verification.
+  - **(2023)** [ansible.com: Ansible and ChatGPT: Putting it to the test](https://www.redhat.com/en/blog/channel/open-source-communities) 🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — Red Hat's experimental analysis testing generative AI capability against Ansible Playbook authoring constraints. Highlights current logical gaps and structural best practices for verification.
 ## Security
 
 ### Certificates

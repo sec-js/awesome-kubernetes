@@ -144,7 +144,7 @@
 
 - [split.io: Progressive Delivery](https://www.harness.io/harness-devops-academy/progressive-delivery?utm_campaign=fme&utm_source=split_io&utm_medium=redirect&utm_content=individual)
 - [harness.io: Progressive Delivery: Everything You Need to Know](https://www.harness.io/blog)
-- [weave.works: Progressively Delivering Applications Across Cloud and On-Premise. Using Kuma & GitOps to implement canary releasing](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745)
+- [weave.works: Progressively Delivering Applications Across Cloud and On-Premise. Using Kuma & GitOps to implement canary releasing](https://www.weave.works/)
 
 ## Deployment Strategies
 

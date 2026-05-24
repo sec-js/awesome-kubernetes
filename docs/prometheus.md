@@ -222,7 +222,7 @@ Thanos Metrics with prometheus in Kubernetes environments.
 - [**Prometheus TSDB**](https://prometheus.io/docs/prometheus/latest/storage)
 - [**Cortex**:](https://cortexmetrics.io) Provides horizontally scalable, highly available, multi-tenant, long term storage for Prometheus. Cortex allows for storing time series data in a key-value store like Cassandra, AWS DynamoDB, or Google BigTable. It offers a Prometheus compatible query API, and you can push metrics into a write endpoint. This makes it best suited for cloud environments and multi-tenant scenarios like service providers building hosted and managed platforms.
     - [github.com/cortexproject/cortex](https://github.com/cortexproject/cortex)
-    - [Weave Cortex SaaS (Hosted Prometheus - Public Cloud)](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745)
+    - [Weave Cortex SaaS (Hosted Prometheus - Public Cloud)](https://www.weave.works/)
 - [**Thanos**:](https://thanos.io) Open source, **highly available Prometheus setup with long term storage capabilities**.
     - Thanos stores time series data in an object store like AWS S3, Google Cloud Storage, etc. Thanos pushes metrics through a side-car container from each Prometheus server through the gRPC store API to the query service in order to provide a global query view.
     - [github.com/ruanbekker: Thanos Cluster Setup](https://github.com/ruanbekker/thanos-cluster-setup) How to deploy a HA Prometheus setup with Unlimited Data Retention Capabilities on aws cloud S3 with Thanos Metrics.
@@ -396,7 +396,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 
 ## Prometheus SaaS Solutions
 
-- [Weave Cortex SaaS (Hosted Prometheus - Public Cloud)](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745)
+- [Weave Cortex SaaS (Hosted Prometheus - Public Cloud)](https://www.weave.works/)
 - [logz.io](https://logz.io)
     - [logz.io: Logz.io’s Prometheus-as-a-Service is Generally Available 🌟](https://logz.io/blog/prometheus-as-a-service-launch)
 - [Amazon Managed Service for Prometheus](https://aws.amazon.com/prometheus)

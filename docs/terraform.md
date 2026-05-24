@@ -472,7 +472,7 @@
 
 ## Providing Terraform with Ansible
 
-- [==ansible.com: Providing Terraform with that Ansible Magic== 🌟🌟](https://www.redhat.com/en/blog/providing-terraform-with-that-ansible-magic?intcmp=7015Y000003t7aWQAQ)
+- [==ansible.com: Providing Terraform with that Ansible Magic== 🌟🌟](https://www.redhat.com/en/blog/providing-terraform-with-that-ansible-magic)
 
 ## Python Boto3 and Terraform
 

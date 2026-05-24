@@ -58,7 +58,7 @@
 - [redhat.com: Why choose Red Hat for microservices?](https://www.redhat.com/en/topics/microservices/why-choose-red-hat-microservices)
 - [==Monoliths are the future | Kelsey Hightower==](https://changelog.com/posts/monoliths-are-the-future)
 - [==allthingsdistributed.com: Monoliths are not dinosaurs==](https://www.allthingsdistributed.com/2023/05/monoliths-are-not-dinosaurs.html)
-- [weave.works: Going Cloud Native: 6 essential things you need to know](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745)
+- [weave.works: Going Cloud Native: 6 essential things you need to know](https://www.weave.works/)
 - [Operators and Sidecars Are the New Model for Software Delivery](https://thenewstack.io/operators-and-sidecars-are-the-new-model-for-software-delivery)
 - [jaxenter.com: Practical Implications for Adopting a Multi-Cluster, Multi-Cloud Kubernetes Strategy](https://devm.io/kubernetes/kubernetes-practical-implications-171647)
 - [jaxenter.com: Six Essential Kubernetes Extensions to Add to Your Toolkit 🌟](https://devm.io/kubernetes/kubernetes-extensions-172215)
@@ -66,7 +66,7 @@
 - [addwebsolution.com: How Kubernetes helps businesses manage their IT infrastructure?](https://www.addwebsolution.com/blog/how-kubernetes-helps-businesses-manage-their-it-infrastructure)
 - [loves.cloud: Kubernetes: An Introduction](https://loves.cloud/kubernetes-an-introduction)
 - [thenewstack.io: Microservices vs. Monoliths: An Operational Comparison](https://thenewstack.io/microservices/microservices-vs-monoliths-an-operational-comparison)
-- [weave.works: 6 Business Benefits of Kubernetes](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745)
+- [weave.works: 6 Business Benefits of Kubernetes](https://www.weave.works/)
 - [ituser.es: Las principales habilidades que un arquitecto cloud necesita para triunfar](https://www.ituser.es/opinion/2020/07/las-principales-habilidades-que-un-arquitecto-cloud-necesita-para-triunfar)
 - [Introducing Domain-Oriented Microservice Architecture 🌟 [ARCHIVED]]( http://web.archive.org/web/20220716010821/https://eng.uber.com/microservice-architecture)
 - [Monolithic versus Microservice architecture](https://www.enterprisetimes.co.uk/2020/07/23/monolithic-versus-microservice-architecture)
@@ -163,7 +163,7 @@
 - [infoworld.com: Complexity is killing software developers](https://www.infoworld.com/article/2270714/complexity-is-killing-software-developers.html) The growing complexity of modern software systems is slowly killing software developers. How can you regain control, without losing out on the best these technologies have to offer?
 - [enter.co: Estos son los 10 lenguajes de programación más populares en 2021](https://www.enter.co/especiales/dev/herramientas-dev/estos-son-los-10-lenguajes-de-programacion-mas-populares-en-2021)
 - [zesty.co: 10 Cloud Deficiencies You Should Know](https://zesty.co/blog/10-cloud-deficiencies)
-- [weave.works: What is a Kubernetes Cluster? 🌟](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745)
+- [weave.works: What is a Kubernetes Cluster? 🌟](https://www.weave.works/)
 - [==techrepublic.com: Enterprises get closer to the app store experience with Kubernetes and GitOps==](https://www.techrepublic.com/article/enterprises-get-closer-to-the-app-store-experience-with-kubernetes-and-gitops)
 - [==theregister.com: How Kubernetes lowers costs and automates IT department work==](https://www.theregister.com/software/2021/12/21/how-kubernetes-lowers-costs-and-automates-it-department-work/1316708) 75% of global companies will have started using container applications in their production environments by 2022.
 - [==redhat.com: Top 8 resources for microservices architecture of 2021==](https://www.redhat.com/en/blog/best-microservices-2021) Reining in complexity, doing things consistently, leveraging standards, and modernizing systems are timeless themes in microservices architecture.
@@ -341,7 +341,7 @@
 
 ## Self service developer platform
 
-- [weave.works: What is a self-service developer platform and why does it matter?](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745)
+- [weave.works: What is a self-service developer platform and why does it matter?](https://www.weave.works/)
 - [==thenewstack.io: What We Learned from Enabling Developer Self-Service==](https://thenewstack.io/what-we-learned-from-enabling-developer-self-service) Let’s simplify the developer experience and scale DevOps workflows without compromising the security of multi-Kubernetes environments.
 
 ## Shift-Left
@@ -586,7 +586,7 @@
 
 	<center markdown="1">
 
-	[![microservices infographic](images/microservices-infographic.png)](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745)
+	[![microservices infographic](images/microservices-infographic.png)](https://www.weave.works/)
 
 	[![you dont need kubenetes](images/you_dont_need_kubernetes.jpg)](https://x.com/a_sykim)
 

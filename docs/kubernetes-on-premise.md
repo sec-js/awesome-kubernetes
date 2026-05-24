@@ -113,7 +113,7 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 ## WKSctl
 
 - [**Weave Kubernetes System Control - wksctl**](https://github.com/weaveworks/wksctl) Open Source Weaveworks Kubernetes System
-- [WKSctl - A New OSS Kubernetes Manager using GitOps](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745/blog/wksctl-a-new-oss-kubernetes-manager-using-gitops)
+- [WKSctl - A New OSS Kubernetes Manager using GitOps](https://www.weave.works/blog/wksctl-a-new-oss-kubernetes-manager-using-gitops)
 - [WKSctl: a Tool for Kubernetes Cluster Management Using GitOps](https://www.infoq.com/news/2020/02/wksctl-kubernetes-gitops)
 
 ## Terraform (kubernetes the hard way)
@@ -141,7 +141,7 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 - [cncf.io webinar: Deploying Kubernetes to bare metal using cluster API](https://www.cncf.io/webinars/deploying-kubernetes-to-bare-metal-using-cluster-api)
 - [itnext.io: Multi-Cloud and Multi-Cluster Declarative Kubernetes Cluster Creation and Management with Cluster API (CAPI — v1alpha3)](https://itnext.io/multi-cloud-and-multi-cluster-declarative-kubernetes-cluster-creation-and-management-with-cluster-6df8efdc2a89)
 - [github.com: Cluster API Helm Chart](https://github.com/kgamanji/cluster-api-helm-chart) - [youtube: Cluster API & FluxCD - the power of GitOps](https://www.youtube.com/watch?v=QbSw8dPhHGM&ab_channel=KatieGamanji) A Helm chart to install Cluster API manifests
-- [weave.works: Manage Thousands of Clusters with GitOps and the Cluster API](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745/blog/manage-thousands-of-clusters-with-gitops-and-the-cluster-api)
+- [weave.works: Manage Thousands of Clusters with GitOps and the Cluster API](https://www.weave.works/blog/manage-thousands-of-clusters-with-gitops-and-the-cluster-api)
 - [thenewstack.io: Cluster API Offers a Way to Manage Multiple Kubernetes Deployments](https://thenewstack.io/cluster-api-offers-a-way-to-manage-multiple-kubernetes-deployments)
 - [thenewstack.io: Provision Bare-Metal Kubernetes with the Cluster API](https://thenewstack.io/provision-bare-metal-kubernetes-with-the-cluster-api)
 - [cncf.io: Kubernetes Cluster API reaches production readiness with version 1.0](https://www.cncf.io/blog/2021/10/06/kubernetes-cluster-api-reaches-production-readiness-with-version-1-0)
@@ -200,7 +200,7 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 
 ### Weave Kubernetes Platform
 
-- [weave.works: Weave Kubernetes Platform](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745) Automate Enterprise Kubernetes the GitOps way
+- [weave.works: Weave Kubernetes Platform](https://www.weave.works/) Automate Enterprise Kubernetes the GitOps way
 - [github: Weave Net - Weaving Containers into Applications](https://github.com/weaveworks/weave)
 
 ### Ubuntu Charmed Kubernetes

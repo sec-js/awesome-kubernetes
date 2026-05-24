@@ -164,7 +164,7 @@
 - [hackernoon.com: The Ultimate Beginners Guide To Kubernetes and Container Orchestration](https://hackernoon.com/the-ultimate-beginners-guide-to-kubernetes-and-container-orchestration-5d83354y)
 - [k21academy.com: Kubernetes Architecture. An Introduction to Kubernetes Components](https://k21academy.com/kubernetes/kubernetes-architecture-components-overview-for-beginners)
 - [dzone: Introduction To Kubernetes 🌟](https://dzone.com/articles/introduction-to-kubernetes-part-1) An orchestration tool takes care of provisioning and deployment, allocation of resources, load balancing, and many other important aspects of any system.
-- [weave.works: Kubernetes components that make up its architecture 🌟](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745) Great intro
+- [weave.works: Kubernetes components that make up its architecture 🌟](https://www.weave.works/) Great intro
 - [dzone refcard: Advanced kubernetes 🌟](https://dzone.com/refcardz/advanced-kubernetes)
 - [redhat.com: Kubernetes basics for sysadmins](https://www.redhat.com/en/blog/kubernetes-basics-sysadmins) Learn when Kubernetes can be effectively used and how the containers it manages might be better than virtual machines.
 - [redhat.com: Kubernetes Components - A sysadmin's guide to basic Kubernetes components 🌟](https://www.redhat.com/en/blog/kubernetes-components) Kubernetes control plane nodes and worker nodes, their features, and how they interact.
@@ -181,7 +181,7 @@
 - [thenewstack.io: Living with Kubernetes: Cluster Upgrades 🌟](https://thenewstack.io/living-with-kubernetes-cluster-upgrades)
 - [thenewstack.io: 5 Things Developers Need to Know About Kubernetes Management](https://thenewstack.io/5-things-developers-need-to-know-about-kubernetes-management)
 - [How to handle environment variables with Kubernetes? 🌟](https://humanitec.com/blog/handling-environment-variables-with-kubernetes)
-- [weave.works: The Definitive Guide to Kubernetes in Production 🌟🌟](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745)
+- [weave.works: The Definitive Guide to Kubernetes in Production 🌟🌟](https://www.weave.works/)
 - [vmblog.com: The Rise of Modern Day Kubernetes Operations](https://vmblog.com/archive/2021/10/07/the-rise-of-modern-day-kubernetes-operations.aspx)
 - [thenewstack.io: What Workloads Do Businesses Run on Kubernetes?](https://thenewstack.io/what-workloads-do-businesses-run-on-kubernetes)
 - [itnext.io: The subtleties of ensuring zero downtime during pod lifecycle events in Kubernetes](https://itnext.io/the-subtleties-of-ensuring-zero-downtime-during-pod-lifecycle-events-in-kubernetes-6461c12f7736)
@@ -390,7 +390,7 @@
 #### Kubernetes Podcasts
 
 - [kubernetespodcast.com](https://kubernetespodcast.com)
-- [==weave.works: Podcast: Kubernetes has won the enterprise==](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745)
+- [==weave.works: Podcast: Kubernetes has won the enterprise==](https://www.weave.works/)
 - [kubelist.com/podcast: The Kubelist Podcast](https://kubelist.com/podcast) Exploring the ever evolving ecosystem of Kubernetes, SIGS, and the CNCF through interviews with the developers and project managers responsible for sandbox, incubating and graduated projects and technologies. Hosted by Replicated CTO, Marc Campbell and Shipyard CEO, Benjie De Groot.
 
 #### Kubernetes Blogs
@@ -406,7 +406,7 @@
 - [itnext.io/tagged/kubernetes](https://itnext.io/tagged/kubernetes)
 - [thenewstack.io/category/kubernetes](https://thenewstack.io/kubernetes)
 - [k21academy.com/category/docker-kubernetes](https://k21academy.com)
-- [weave.works/blog/category/kubernetes](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745)
+- [weave.works/blog/category/kubernetes](https://www.weave.works/)
 - [learnsteps.com/tag/basics-on-kubernetes](https://www.learnsteps.com/tag/basics-on-kubernetes)
 - [devopscube.com](https://devopscube.com)
 - [thecloudblog.net](https://thecloudblog.net)
@@ -560,7 +560,7 @@
 - [fairwinds.com: K8s Clinic: How to Run Kubernetes Securely and Efficiently 🌟](https://www.fairwinds.com/blog/k8s-clinic-how-to-run-kubernetes-securely-and-efficiently)
     - With the adoption of containers, software packaging is increasingly shifting left, which means (depending on your organization) that developers are taking on responsibility for the containerization of applications. Developers may also be responsible for some parts of Kubernetes configuration. As that process shifts left, developers need support to make the right decisions for the organization in order to run Kubernetes securely and efficiently.
     - Many companies are adopting cloud native technologies to deliver speed to market. For businesses seeking to compete in today's marketplace, it’s important to ship new features and meet customer needs where they are — and increasingly those needs are being met through software.
-- [weave.works: Production Ready Checklists for Kubernetes 🌟](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745)
+- [weave.works: Production Ready Checklists for Kubernetes 🌟](https://www.weave.works/)
 - [containerjournal.com: The Rise of the KubeMaster 🌟](https://cloudnativenow.com/features/the-rise-of-the-kubemaster)
     - It wasn’t obvious while it was happening, probably because everyone was focused on dealing with a global pandemic, but your IT environment became more complex. Cloud technology continued to evolve, and while that was happening, cloud use grew. Hybrid cloud use, already growing before the pandemic, became much more established with a year-over-year annual growth rate of 17.8%, according to Quince Market Insights. And with more distinct technology advances from each of the major cloud service providers, multi-cloud use also became more established.
     - This more complex environment encouraged the use of containers, and Kubernetes became the preferred means of managing them. Unfortunately, the great irony of Kubernetes is that the technology created to make the management of modern cloud applications easier is, itself, incredibly difficult to manage. Just to deploy and manage a single application in your own data center requires working familiarity with a Kubernetes distribution and working integrations with a number of supporting systems and enterprise software including code registries, CI/CD, secrets management, storage management, networking, logging and monitoring, service mesh, backup and disaster recovery (DR). That’s just for one environment. In a hybrid infrastructure, perhaps using one of the leading cloud service providers such as AWS, Azure or GCP, you could double this overhead.
@@ -1070,7 +1070,7 @@
 - [youtube: deployment strategies in kubernetes | recreate | rolling update | blue/green | canary](https://www.youtube.com/watch?v=efiMiaFjtn8&feature=youtu.be)
 - [auth0.com: Deployment Strategies In Kubernetes](https://auth0.com/blog/deployment-strategies-in-kubernetes) Learn what are the different deployment strategies available in Kubernetes and how to use them.
 - [educative.io: A deep dive into Kubernetes Deployment strategies](https://www.educative.io/blog/kubernetes-deployments-strategies)
-- [weave.works: Kubernetes Deployment Strategies 🌟](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745)
+- [weave.works: Kubernetes Deployment Strategies 🌟](https://www.weave.works/)
 - [medium.com: Kubernetes Canary Deployment #1 Gitlab CI](https://medium.com/@wuestkamp/kubernetes-canary-deployment-1-gitlab-ci-518f9fdaa7ed)
 - [semaphoreci.com: Continuous Blue-Green Deployments With Kubernetes](https://semaphore.io/blog/continuous-blue-green-deployments-with-kubernetes)
 - [medium: Fully automated canary deployments in Kubernetes](https://medium.com/containers-101/fully-automated-canary-deployments-in-kubernetes-70a671105273)
@@ -1600,7 +1600,7 @@ will dive into the details of how they work
 - [developers.redhat.com: Kubernetes configuration patterns, Part 1: Patterns for Kubernetes primitives](https://developers.redhat.com/blog/2021/04/28/kubernetes-configuration-patterns-part-1-patterns-for-kubernetes-primitives)
 - [betterprogramming.pub: 10 Anti-Patterns for Kubernetes Deployments](https://betterprogramming.pub/10-antipatterns-for-kubernetes-deployments-e97ce1199f2d) Common practices in Kubernetes deployments that have better solutions
 - [medium: Kubernetes — Learn Init Container Pattern](https://medium.com/bb-tutorials-and-thoughts/kubernetes-learn-init-container-pattern-7a757742de6b) Understanding Init Container Pattern With an Example Project.
-- [weave.works: Tools for Automating and Implementing Cloud Native Patterns](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745)
+- [weave.works: Tools for Automating and Implementing Cloud Native Patterns](https://www.weave.works/)
 - [dzone: Microservices Patterns: Sidecar](https://dzone.com/articles/microservices-patterns-sidecar) Learn about Microservice architecture and single responsibility principle, know more on how to achieve it using sidecars.
 - [dzone: Multi-Container Pod Design Patterns in Kubernetes](https://dzone.com/articles/multi-container-pod-design-patterns-in-kubernetes) In Kubernetes, Pods are the single deployable units. If an application is to be deployed, it must be so in a Pod as a container. Learn how to use multi-container pods.
 - [linkedin.com/pulse: Avoid These Kubernetes Anti-Patterns | Pavan Belagatti](https://www.linkedin.com/pulse/avoid-kubernetes-anti-patterns-pavan-belagatti)
