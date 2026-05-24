@@ -7,8 +7,8 @@
 
 ## Jenkins Kubernetes Plugins
 
-- [Jenkins Kubernetes Plugin](https://plugins.jenkins.io/kubernetes/)
-- [Kubernetes Continuous Deploy](https://plugins.jenkins.io/kubernetes-cd/)
+- [Jenkins Kubernetes Plugin](https://plugins.jenkins.io/kubernetes)
+- [Kubernetes Continuous Deploy](https://plugins.jenkins.io/kubernetes-cd)
 
 ## Jenkins OpenShift Plugins
 
@@ -20,5 +20,5 @@
 
 ## GitLab Kubernetes Agent
 
-- [GitLab Kubernetes Agent](https://docs.gitlab.com/user/clusters/agent//)
-- [GitLab Kubernetes Agent available on GitLab.com](https://docs.gitlab.com/releases//#gitlab-kubernetes-agent-available-on-gitlabcom)
+- [GitLab Kubernetes Agent](https://docs.gitlab.com/user/clusters/agent)
+- [GitLab Kubernetes Agent available on GitLab.com](https://docs.gitlab.com/releases/#gitlab-kubernetes-agent-available-on-gitlabcom)

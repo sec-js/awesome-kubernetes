@@ -6,7 +6,7 @@
 
 ## ChromeDevTools
 
-- [devtools.chrome.com](https://developer.chrome.com/docs/devtools/)
+- [devtools.chrome.com](https://developer.chrome.com/docs/devtools)
 - [Port of Firefox's JSON Viewer](https://chromewebstore.google.com/detail/json-viewer/efknglbfhoddmmfabeihlemgekhhnabb)
 - [twitter.com/ChromeDevTools](https://x.com/ChromeDevTools)
 - In @ChromeDevTools Network, the Copy menu is powerful for replaying network requests. Copy as Fetch API code, cURL and a Node.js fetch that includes cookie data:
@@ -33,7 +33,7 @@
 
 ## Other Tools
 
-- [jsontoolbox.com](https://jsontoolbox.com/)
+- [jsontoolbox.com](https://jsontoolbox.com)
 
 ## Tweets
 
