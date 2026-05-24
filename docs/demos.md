@@ -395,7 +395,7 @@
 ### IBM Cloud Pak Playbooks and GitOps
 
 - [IBM Cloud Pak Playbook](https://cloudpak8s.io/apps/cp4a_overview)
-- [==cloud-native-toolkit/multi-tenancy-gitops== 🌟](https://github.com/cloud-native-toolkit/multi-tenancy-gitops) **Provides our opinionated point of view on how GitOps can be used to manage the infrastructure, services and application layers of K8s based systems.** The GitOps concept originated from Weaveworks back in 2017 and the goal was to automate the operations of a Kubernetes (K8s) system using a model external to the system as the source of truth (History of GitOps). **This repository provides our opinionated point of view on how GitOps can be used to manage the infrastructure, services and application layers of K8s based systems.** It takes into account the various personas interacting with the system and accounts for separation of duties. **The instructions and examples are focused around the Red Hat OpenShift platform and IBM Cloud Paks.** The reference architecture for this GitOps workflow can be found [here](https://cloudnativetoolkit.dev/adopting/use-cases/gitops/gitops-ibm-cloud-paks).
+- [==cloud-native-toolkit/multi-tenancy-gitops== 🌟](https://github.com/cloud-native-toolkit/multi-tenancy-gitops) **Provides our opinionated point of view on how GitOps can be used to manage the infrastructure, services and application layers of K8s based systems.** The GitOps concept originated from Weaveworks back in 2017 and the goal was to automate the operations of a Kubernetes (K8s) system using a model external to the system as the source of truth (History of GitOps). **This repository provides our opinionated point of view on how GitOps can be used to manage the infrastructure, services and application layers of K8s based systems.** It takes into account the various personas interacting with the system and accounts for separation of duties. **The instructions and examples are focused around the Red Hat OpenShift platform and IBM Cloud Paks.** The reference architecture for this GitOps workflow can be found [source code](https://cloudnativetoolkit.dev/adopting/use-cases/gitops/gitops-ibm-cloud-paks).
 
 ### Knative
 
@@ -696,8 +696,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
     - [gitlab.comquent.de: Microservices branch](https://gitlab.comquent.de/petclinic/spring-petclinic-microservices)
 - [deors/deors-demos-petclinic jenkinsfile](https://github.com/deors/deors-demos-petclinic/blob/master/Jenkinsfile)
 - [liatrio.com: building with docker using jenkins pipelines](https://www.liatrio.ai/resources/blog)
-- [stackoverflow: How to define BuildConfig object with Jenkins and openshift
-](https://stackoverflow.com/questions/52337851/how-to-define-buildconfig-object-with-jenkins-and-openshift)
+- [stackoverflow: How to define BuildConfig object with Jenkins and openshift](https://stackoverflow.com/questions/52337851/how-to-define-buildconfig-object-with-jenkins-and-openshift)
 - [cloudogu.com: CD with Jenkins, Nexus and cloudogu](https://platform.cloudogu.com/en/blog/cd-with-nexus-jenkins-ces)
 - [experfy.com e-learning: Effective Jenkins - Continuous Delivery and Continuous Integration](https://training.experfy.com/courses/effective-jenkins-continuous-delivery-and-continuous-integration)
 - [github.com/redhat-developer-demos/spring-petclinic 🌟](https://github.com/redhat-developer-demos/spring-petclinic)

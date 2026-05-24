@@ -25,7 +25,7 @@
 10. [Videos](#videos)
 11. [Slides](#slides)
 
-##  Deploying Jenkins on OpenShift
+## Deploying Jenkins on OpenShift
 
 - [Jenkins Docker Image for Openshift v3](https://github.com/openshift/jenkins)
 - [opensource.com: Running Jenkins builds in Openshift containers](https://opensource.com/article/18/4/running-jenkins-builds-containers)

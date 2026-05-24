@@ -192,7 +192,7 @@ Thanos Metrics with prometheus in Kubernetes environments.
 ./data/01BKGV7JBM69T2G1BGBGM6KB12/wal
 ./data/01BKGV7JBM69T2G1BGBGM6KB12/wal/000002
 ./data/01BKGV7JBM69T2G1BGBGM6KB12/wal/000001
-```
+```text
 
 - Un proceso en segundo plano compacta los bloques de dos horas en otros más grandes.
 - Es posible almacenar los datos en otras soluciones de "Time-Series Database" como **InfluxDB**.
@@ -426,12 +426,12 @@ Red Hat AMQ 7 Operator is fully supported in OpenShift 4.x, initially with Prome
 
 - Systemd
 
-```
+```text
 /etc/systemd/system/prometheus.service
 /etc/systemd/system/activemq.service
 /usr/lib/systemd/system/telegraf.service
 /usr/lib/systemd/system/grafana-server.service
-```
+```text
 
 - Systemctl
 
@@ -441,17 +441,17 @@ for service in activemq telegraf prometheus grafana-server; do systemctl status 
 for service in activemq telegraf prometheus grafana-server; do systemctl restart $service; done
 for service in activemq telegraf prometheus grafana-server; do systemctl stop $service; done
 for service in activemq telegraf prometheus grafana-server; do systemctl start $service; done
-```
+```text
 
 - Jolokia Permissions already integrated in ActiveMQ by default. Jolokia permissions have been disabled by renaming "jolokia-access.xml" to "jolokia-access.xmlORIG" (this is a Proof of Concept):
 
 ```bash
 mv /opt/activemq/webapps/api/WEB-INF/classes/jolokia-access.xml /opt/activemq/webapps/api/WEB-INF/classes/jolokia-access.xmlORIG
-```
+```text
 
 - Telegraf Jolokia Input Plugin /etc/telegraf/telegraf.d/activemq.conf
 
-```
+```text
 [[inputs.jolokia2_agent]]
 urls = ["http://localhost:8161/api/jolokia"]
 name_prefix = "activemq."
@@ -498,12 +498,12 @@ mbean    = "org.apache.activemq:brokerName=*,type=Broker"
 paths    = ["TotalConsumerCount","TotalMessageCount","TotalEnqueueCount","TotalDequeueCount","MemoryLimit","MemoryPercentUsage","StoreLimi
 t","StorePercentUsage","TempPercentUsage","TempLimit"]
 tag_keys = ["brokerName"]
-```
+```text
 
 - InfluxDB: Not required.
 - Defautl /etc/telegraf/telegraf.conf file is modified to allow Prometheus to collect ActiveMQ metrics by pulling Telegraf metrics:
 
-```
+```text
   # # Configuration for the Prometheus client to spawn
   [[outputs.prometheus_client]]
   #   ## Address to listen on
@@ -521,11 +521,11 @@ tag_keys = ["brokerName"]
   password = "admin"
   ...
   ...
-```
+```text
 
 - scrape_configs in /opt/prometheus/prometheus.yml
 
-```
+```text
   scrape_configs:
   # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
   - job_name: 'prometheus'
@@ -536,7 +536,7 @@ tag_keys = ["brokerName"]
   - job_name: 'broker'
       static_configs:
       - targets: ['localhost:9273']
-```
+```text
 
 - Grafana Dashboard [10702](https://grafana.com/grafana/dashboards/10702-activemq) is imported from Grafana UI -> "import dashboard". Prometheus data source is connected manually with Grafana via Grafana UI.
 
@@ -559,11 +559,11 @@ tag_keys = ["brokerName"]
 
 - systemd
 
-```
+```text
 /etc/systemd/system/prometheus.service
 /etc/systemd/system/artemis.service
 /usr/lib/systemd/system/grafana-server.service
-```
+```text
 
 - systemctl
 
@@ -575,7 +575,7 @@ tag_keys = ["brokerName"]
  for service in artemis prometheus grafana-server; do systemctl restart $service; done
  for service in artemis prometheus grafana-server; do systemctl stop $service; done
  for service in artemis prometheus grafana-server; do systemctl start $service; done
-```
+```text
 
 - Creation of Artemis Broker
 
@@ -595,13 +595,13 @@ You can now start the broker by executing:
 Or you can run the broker in the background using:
 
    "/var/lib/artemisbroker/bin/artemis-service" start
-```
+```text
 
 - Permissions change in broker directory
 
 ```bash
 # chown -R activemq. /var/lib/artemisbroker/
-```
+```text
 
 - Running artemis broker
 
@@ -609,7 +609,7 @@ Or you can run the broker in the background using:
 # su - activemq
 $ cd /var/lib/artemisbroker/
 $ /var/lib/artemisbroker/bin/artemis run
-```
+```text
 
 - Artemis Prometehus Console Access. We can now access to Artemis Console via http://my_servername.my_domain:8161/console using the credentials specified during the CLI deployment (artemisuser / artemispassword)
 
@@ -636,57 +636,57 @@ ctivemq/.m2/repository/org/apache/activemq/artemis-prometheus-metrics-plugin/1.0
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for artemis-prometheus-metrics-pom 1.0.0.CR1:
 [INFO]
-[INFO] artemis-prometheus-metrics-pom ..................... SUCCESS [  0.328 s]
-[INFO] ActiveMQ Artemis Prometheus Metrics Plugin Servlet . SUCCESS [  7.964 s]
-[INFO] ActiveMQ Artemis Prometheus Metrics Plugin ......... SUCCESS [ 34.596 s]
+[INFO] artemis-prometheus-metrics-pom ..................... SUCCESS [0.328 s]
+[INFO] ActiveMQ Artemis Prometheus Metrics Plugin Servlet . SUCCESS [7.964 s]
+[INFO] ActiveMQ Artemis Prometheus Metrics Plugin ......... SUCCESS [34.596 s]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
 [INFO] Total time:  43.030 s
 [INFO] Finished at: 2020-04-10T13:36:27+02:00
 [INFO] ------------------------------------------------------------------------
-```
+```text
 
 - New artifact is copied to artemis broker. Artefact artemis-prometheus-metrics-plugin/target/artemis-prometheus-metrics-plugin-VERSION.jar is copied to our broker:
 
 ```bash
 [activemq@my_servername artemis-prometheus-metrics-plugin]$ cp artemis-prometheus-metrics-plugin/target/artemis-prometheus-metrics-plugin-
 1.0.0.CR1.jar /var/lib/artemisbroker/lib/
-```
+```text
 
 - Edition of file /var/lib/artemisbroker/etc/broker.xml
 
-```
+```text
 <metrics-plugin class-name="org.apache.activemq.artemis.core.server.metrics.plugins.ArtemisPrometheusMetricsPlugin"/>
-```
+```text
 
 - Creation of <artemis_instance>/web
 
-```
+```text
 [activemq@my_servername artemisbroker]$ mkdir /var/lib/artemisbroker/web
-```
+```text
 
 - Artifact artemis-prometheus-metrics-plugin-servlet/target/metrics.war is copied to <ARTEMIS_INSTANCE>/web :
 
 ```bash
 [activemq@my_servername artemis-prometheus-metrics-plugin]$ cp artemis-prometheus-metrics-plugin-servlet/target/metrics.war /var/lib/artem
 isbroker/web/
-```
+```text
 
 - Below web component added to <ARTEMIS_INSTANCE>/etc/bootstrap.xml :
 
-```
+```text
 [activemq@my_servername artemis-prometheus-metrics-plugin]$ vim /var/lib/artemisbroker/etc/bootstrap.xml
 ...
 <app url="metrics" war="metrics.war"/>
 ...
 
-```
+```text
 
 - Restart of Artemis Broker
 - Prometheus configuration, scrape_configs in /opt/prometheus/prometheus.yml :
 
-```
+```text
 scrape_configs:
   # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
   - job_name: 'prometheus'
@@ -699,7 +699,7 @@ scrape_configs:
   - job_name: 'broker'
     static_configs:
     - targets: ['localhost:8161']
-```
+```text
 
 - Last step: Apparently there's not Grafana Dashboard available for this use case. It is required to [develop a new Grafana Dashboard](https://www.openlogic.com/blog/how-visualize-prometheus-data-grafana).
 
@@ -716,7 +716,7 @@ scrape_configs:
 
 ```bash
 $ cp /opt/artemis/lib/client/artemis-jms-client-all-2.11.0.jar /opt/apache-jmeter-5.2.1/lib/
-```
+```text
 
 - jndi.properties file is modified with Artemis' IP address (it is not listening on localhost):
 
@@ -724,7 +724,7 @@ $ cp /opt/artemis/lib/client/artemis-jms-client-all-2.11.0.jar /opt/apache-jmete
 $ vim /opt/artemis/examples/perf/jmeter/jndi.properties
 $ cat /opt/artemis/examples/perf/jmeter/jndi.properties
 connectionFactory.ConnectionFactory=tcp://192.168.1.38:61616
-```
+```text
 
 - jndi.properties is packaged in a jar file and moved to $JMETER_HOME/lib :
 
@@ -743,7 +743,7 @@ total 32
 -rw-rw-r-- 1 activemq activemq   946 May 15 08:46 artemis-jndi.jar
 -rw-rw-r-- 1 activemq activemq   833 Jan 10 16:22 jndi.properties
 [activemq@my_servername jmeter]$ cp artemis-jndi.jar /opt/apache-jmeter-5.2.1/lib/
-```
+```text
 
 - Example Test Plans available at Artemis GitHub Repo are run by JMeter (from within the GUI or the CLI):
 
@@ -764,7 +764,7 @@ drwxrwxr-x 3 activemq activemq    19 Jan 10 16:22 ..
 [activemq@my_servername ~]$ /opt/apache-jmeter-5.2.1/bin/jmeter.sh -n -t /opt/artemis/examples/perf/jmeter/1.jms_p2p_test.jmx -l results-file-1.txt -j 1.log
 [activemq@my_servername ~]$ /opt/apache-jmeter-5.2.1/bin/jmeter.sh -n -t /opt/artemis/examples/perf/jmeter/2.pub_sub_test.jmx -l results-file-2.txt -j 2.log
 
-```
+```text
 
 - We can now see metrics displayed on Grafana and Artemis Dashboard:
 

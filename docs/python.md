@@ -289,7 +289,7 @@
 - Flask is a Python lightweight web application development framework with simplicity and extensibility. Flask is called **“microframework”** because of using a simple core and extensions are used to add other functions.
 - [Flask Documentation 🌟](https://flask.palletsprojects.com/en/stable)
 - [The Flask Mega-Tutorial: Now with Python 3 Support](http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-now-with-python-3-support)
-- [realpython.com: Discover Flask, Part 1 - Setting Up a Static Site ](https://realpython.com/learning-paths/flask-by-example)
+- [realpython.com: Discover Flask, Part 1 - Setting Up a Static Site](https://realpython.com/learning-paths/flask-by-example)
 - [devbattles.com: Python Flask, Part 1: Hello World!](http://www.devbattles.com/en/sand/post-1757-Python_Flask_Part_1_Hello_World)
 - [mherman.org: Scaling Flask with Kubernetes 🌟](https://mherman.org/presentations/flask-kubernetes)
 - [kdnuggets.com: How to Deploy a Flask API in Kubernetes and Connect it with Other Micro-services](https://www.kdnuggets.com/2021/02/deploy-flask-api-kubernetes-connect-micro-services.html)

@@ -53,18 +53,18 @@
 - [blog.ivnilv.com: Rotating Kops Etcd Certificates](https://blog.ivnilv.com/posts/rotating-kops-etcd-certificates)
 - [blog.kubecost.com: Kubernetes kOps: Step-By-Step Example & Alternatives](https://blog.kubecost.com/blog/kubernetes-kops)
 
-```
+```text
 C:\ubuntu> vagrant init ubuntu/xenial64
 C:\ubuntu> vagrant up
 C:\ubuntu> vagrant ssh-config
 C:\ubuntu> vagrant ssh
-```
+```text
 
 ```bash
 $ curl -LO https://github.com/kubernetes/kops/releases/download/$(curl -s https://api.github.com/repos/kubernetes/kops/releases/latest | grep tag_name | cut -d '"' -f 4)/kops-linux-amd64
 $ chmod +x kops-linux-amd64
 $ sudo mv kops-linux-amd64 /usr/local/bin/kops
-```
+```text
 
 - [imsundeep8.medium.com: Deploy Production-grade Kubernetes Cluster using kOps on Amazon Cloud (AWS)](https://imsundeep8.medium.com/deploy-production-grade-kubernetes-cluster-using-kops-on-amazon-cloud-aws-abc79f46aa32)
 

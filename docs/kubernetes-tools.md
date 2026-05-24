@@ -968,7 +968,7 @@ elastic quotas - Effortless optimization at its finest!
 
 ## Mesh-kridik
 
-- (chen-keinan/mesh-kridik)[https://github.com/chen-keinan/mesh-kridik] mesh-kridik is an open-source security checker that performs various security checks on a Kubernetes cluster with istio service mesh and is leveraged by OPA (Open Policy Agent) to enforce security rules.
+- [chen-keinan/mesh-kridik](https://github.com/chen-keinan/mesh-kridik) mesh-kridik is an open-source security checker that performs various security checks on a Kubernetes cluster with istio service mesh and is leveraged by OPA (Open Policy Agent) to enforce security rules.
 - [kitploit.com: Mesh-Kridik](https://kitploit.com/2021/12/mesh-kridik-open-source-security.html)
 
 ## kubewatch
@@ -1132,7 +1132,7 @@ elastic quotas - Effortless optimization at its finest!
 
 ## Keepass Secret
 
-- [rene6502/keepass-secret ](https://github.com/rene6502/keepass-secret) keepass-secret is a command-line tool that converts entries from a KeePass 2.3 file into Kubernetes secrets. This tool was created to automatically create Kubernetes Secret in CI/CD pipelines to deploy workloads to Kubernetes clusters.
+- [rene6502/keepass-secret](https://github.com/rene6502/keepass-secret) keepass-secret is a command-line tool that converts entries from a KeePass 2.3 file into Kubernetes secrets. This tool was created to automatically create Kubernetes Secret in CI/CD pipelines to deploy workloads to Kubernetes clusters.
 
 ## Workflow Schedulers
 
