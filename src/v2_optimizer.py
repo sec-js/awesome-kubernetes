@@ -171,7 +171,7 @@ class V2VisionEngine:
                 if mosaics:
                     for m in mosaics:
                         if m.count("[![") > 5: mosaic_html = m; break
-                videos_match = re.search(r'\?\?\? note "Top Videos & Clips.*?\n(.*?\n)\s*</center>', idx_content, re.DOTALL)
+                videos_match = re.search(r'\?\?\? note "Top Videos & Clips.*?\n\s+(<center.*?</center>)', idx_content, re.DOTALL)
                 if videos_match: videos_html = videos_match.group(1)
 
         for root, _, files in os.walk(V1_DIR):
@@ -758,7 +758,6 @@ class V2VisionEngine:
             "the system selects only the most relevant, stable, and impactful resources for the modern Cloud Native ecosystem (2026 and beyond).\n\n"
             f"{coverage_info}\n\n"
             f"<center markdown=\"1\">\n{mosaic_html}\n</center>\n\n"
-            f"??? note \"Top Videos and Clips - Click to expand!\"\n\n{videos_html}\n\n"
             f"{pulse_md}\n\n"
             "## Strategic Dimensions\n"
             "- **[🎥 Agentic Video Hub (Architectural Summary)](./videos.md)**\n\n"
@@ -769,7 +768,8 @@ class V2VisionEngine:
         for f_name, info in data.items():
             dim_groups.setdefault(info["dim"], []).append(f_name)
             
-        for dim in sorted(self.dimensions.keys()):
+        # Mandate: Use the order defined in self.dimensions for architectural flow
+        for dim in self.dimensions.keys():
             if dim in dim_groups:
                 index_md += f"### {dim}\n"
                 for f in sorted(dim_groups[dim]):
@@ -876,14 +876,13 @@ class V2VisionEngine:
             dim_groups = {}
             for f_name, info in data.items():
                 dim_groups.setdefault(info["dim"], []).append(f_name)
-                
-            for dim in sorted(self.dimensions.keys()):
+
+            for dim in self.dimensions.keys():
                 if dim in dim_groups:
                     dim_nav = [f"  - \"{dim}\":"]
                     for f in sorted(dim_groups[dim]):
                         dim_nav.append(f"    - \"{data[f]['title']}\": {f}")
-                    nav.extend(dim_nav)
-                    
+                    nav.extend(dim_nav)                    
             updated = re.sub(r'nav:.*', "\n".join(nav), content, flags=re.DOTALL)
             with open("v2-mkdocs.yml", "w") as f: f.write(updated)
         except: pass
