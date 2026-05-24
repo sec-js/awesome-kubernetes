@@ -110,7 +110,7 @@
 - [entrepreneur.com: ¿Cómo manejar un equipo que trabaja desde sus casas?](https://spanish.entrepreneur.com)
 - [mamaqueesscrum.com: Mamá… ¿Qué es Scrum?](https://mamaqueesscrum.com/2018/11/12/labores-que-un-product-owner-deberia-hacer-que-no-aparecen-en-la-scrum-guide) Labores que un Product Owner podría hacer que no aparecen en la Scrum Guide
 - [bbc.com: Por qué en Japón los jefes NO felicitan a sus empleados cuando hacen bien su trabajo](https://www.bbc.com/mundo/vert-cap-37270163)
-- [smoda.elpais.com: Destacar y venderse no implica trabajar bien: así es la nueva batalla por las apariencias del trabajo](https://elpais.com/smoda/trabajo/apariencias-venderse-trabajo.html) Muchos trabajadores sufren en silencio la ‘performance’ diaria de quienes ponen más empeño en contar sus supuestos logros que en materializarlos.
+- [smoda.elpais.com: Destacar y venderse no implica trabajar bien: así es la nueva batalla por las apariencias del trabajo](https://smoda.elpais.com/trabajo/apariencias-venderse-trabajo) Muchos trabajadores sufren en silencio la ‘performance’ diaria de quienes ponen más empeño en contar sus supuestos logros que en materializarlos.
 - [blogs.elconfidencial.com: Los españoles somos más improductivos que nunca y el problema no es de los empleados](https://www.elconfidencial.com/tecnologia/tribuna/2022-02-12/productividad-tecnologia-startups-apps_3373786) El progreso nunca ha venido de pretender que los humanos trabajemos como robots. Para tener un debate serio no debemos engañarnos sobre cómo funciona la productividad.
 - [elfinanciero.com.mx: Tu jefe no siempre tiene la razón: ¿de qué manera puedes contradecirlo?](https://www.elfinanciero.com.mx/empresas/2021/07/06/tu-jefe-no-siempre-tiene-la-razon-de-que-manera-puedes-contradecirlo) Los primeros beneficiados de que exista un pensamiento crítico constructivo en las empresas son los jefes.
 - [elconfidencial.com: La mejor forma de decirle a tu jefe que estás hasta arriba y no puedes más con tanto trabajo](https://www.elconfidencial.com/alma-corazon-vida/2022-02-14/jefe-trabajo-empleo-quemado-no-puedes_3372444) Cuando sientes que lo das todo y no puedes más, a veces merece la pena echar el freno y hablar claramente con tu superior del agobio que estás sintiendo. ¿Cómo hacerlo bien?
@@ -120,7 +120,7 @@
 - [cronista.com: Cómo identificar a un mal jefe y qué errores no pueden cometer hoy los líderes](https://www.cronista.com/apertura/empresas/como-identificar-a-un-mal-jefe-y-que-errores-no-pueden-cometer-hoy-los-lideres) Con la pandemia, la digitalización acelerada y los rediseños organizacionales, la forma de liderar cambió. Qué errores no pueden permitirse hoy las empresas en materia de liderazgo. Los nuevos roles.
 - [eleconomista.es: Cómo es un mal jefe y qué debe aprender para liderar mejor su empresa (y ser feliz)](https://www.eleconomista.es/status/noticias/10679296/07/20/Como-es-un-mal-jefe-y-que-debe-aprender-para-liderar-mejor-su-empresa-y-ser-feliz.html)
 - [elconfidencial.com: Esta psicóloga ha estudiado a los capullos de tu empresa y sabe por qué se comportan así](https://www.elconfidencial.com/espana/2022-03-18/tessa-west-psicologa-capullos-trabajo_3392185) Tessa West, profesora de la Universidad de Nueva York, lleva 15 años estudiando el comportamiento humano y tiene una buena idea de por qué somos así en el trabajo.
-- [business.vogue.es: Adiós a los jefes tóxicos: este es el nuevo tipo de liderazgo gentil que triunfa](https://business.vogue.es/carrera/articulos/adios-jefes-toxicos-la-salud-organizacional-rentabilidad-residen-liderazgo-gentil/533) Un líder tóxico tiene un coste (mental) para el trabajador y, por tanto, también (económico) para la empresa
+- [business.vogue.es: Adiós a los jefes tóxicos: este es el nuevo tipo de liderazgo gentil que triunfa](https://www.vogue.es/lideres) Un líder tóxico tiene un coste (mental) para el trabajador y, por tanto, también (económico) para la empresa
 - [magnet.xataka.com: Esclavos de la improductividad: el 70% de las reuniones impiden que los empleados hagan su trabajo](https://www.xataka.com/magnet/esclavos-improductividad-70-reuniones-impiden-que-empleados-hagan-su-trabajo)
 - [genbeta.com: Las reuniones laborales por videollamada nos agotan: esto es lo que pasa si se eliminan y cambian por chats](https://www.genbeta.com/actualidad/reuniones-trabajo-nos-agotan-videollamada-se-sabe-que-pasa-se-eliminan-usamos-chats)
 - [pymesyautonomos.com: ¿Está trabajando el empleado realmente desde su casa?](https://www.pymesyautonomos.com/management/esta-trabajando-empleado-realmente-su-casa)
@@ -141,7 +141,7 @@
 ### Agile vs Scrum vs Waterfall vs Kanban vs Lean
 
 - [visual-paradigm.com: Scrum vs Waterfall vs Agile vs Lean vs Kanban](https://www.visual-paradigm.com/scrum/scrum-vs-waterfall-vs-agile-vs-lean-vs-kanban)
-- [greycampus.com: What's the Difference? Agile vs Scrum vs Waterfall vs Kanban](https://www.greycampus.com/blog/agile-management/agile-vs-scrum-vs-waterfall-vs-kanban)
+- [greycampus.com: What's the Difference? Agile vs Scrum vs Waterfall vs Kanban](https://www.greycampus.com)
 - [What's the Difference? Agile vs Scrum vs Waterfall vs Kanban](https://www.smartsheet.com/agile-vs-scrum-vs-waterfall-vs-kanban)
 - [lucidchart.com: Agile vs. Waterfall vs. Kanban vs. Scrum: What’s the Difference?](https://lucid.co/blog/agile-vs-waterfall-vs-kanban-vs-scrum)
 - [rethinkagile.org: 5 reasons why Agile is better than Waterfall](https://www.rethinkagile.org/post/5-reasons-why-agile-is-better-than-waterfall)
@@ -172,7 +172,7 @@
 
 ## KPIs and Employee Performance
 
-- [creately.com: A Step By Step Guide to Set KPIs for Team Members](https://creately.com/blog/business/how-to-set-kpis-for-team-members)
+- [creately.com: A Step By Step Guide to Set KPIs for Team Members](https://creately.com/guides/how-to-set-kpis-for-team-members)
 
 ## MVP Minimum Viable Product
 
@@ -229,11 +229,11 @@
 
 	[![mvp3](images/mvp_3.jfif)](https://x.com/PukarDesign/status/1452141978167267332)
 
-	[![agile](images/agile.jpg)](https://www.greycampus.com/blog/agile-management/agile-vs-scrum-vs-waterfall-vs-kanban)
+	[![agile](images/agile.jpg)](https://www.greycampus.com)
 
-	[![waterfall-agile](images/waterfall-agile.jpg)](https://www.greycampus.com/blog/agile-management/agile-vs-scrum-vs-waterfall-vs-kanban)
+	[![waterfall-agile](images/waterfall-agile.jpg)](https://www.greycampus.com)
 
-	[![scrum-one-min](images/scrum-one-min.jpg)](https://www.greycampus.com/blog/agile-management/agile-vs-scrum-vs-waterfall-vs-kanban)
+	[![scrum-one-min](images/scrum-one-min.jpg)](https://www.greycampus.com)
 
 	![scrum vs kanban](images/scrum_vs_kanban.jfif)
 

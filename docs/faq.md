@@ -51,7 +51,7 @@
     - The lift and shift migration style is one of the approaches that can help you transition to the cloud without the need to redesign applications or disrupt workflow operations.
     - It all starts with containerizing the applications using platforms like Docker and then moving entirely to a microservices architecture.
 - [dzone: The Best Cloud Migration Approach: Lift-And-Shift, Replatform, Or Refactor?](https://dzone.com/articles/the-best-cloud-migration-approach-lift-and-shift-r) There are a number of ways to get your applications to the cloud, but the question of which method to use is a little up in the air.
-- [dzone: 10 Commandments of Microservice Decomposition 🌟](https://dzone.com/articles/10-commandments-on-microservice-decomposition) In this article, I will try to cover the purposes of terms used while decomposing microservices and try to fit them under one umbrella concept.
+- [dzone: 10 Commandments of Microservice Decomposition 🌟](https://dzone.com/articles/10-commandments-on-microservice-decomposition) I will try to cover the purposes of terms used while decomposing microservices and try to fit them under one umbrella concept.
 - [acloudguru.com: What is lift and shift cloud migration?](https://www.pluralsight.com/resources/blog/business-and-leadership/what-is-lift-and-shift-cloud-migration)
 
 ## Architectural Patterns for Caching Microservices

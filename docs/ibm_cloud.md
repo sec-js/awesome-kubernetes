@@ -56,7 +56,7 @@
 
 ### IBM Storage for Red Hat OpenShift. IBM Spectrum Storage Suite
 
-- [IBM Spectrum](https://www.ibm.com/solutions/storage) IBM Spectrum Storage software for data-driven architecture. A complete storage software family with AI-infused capability that changes the economics of storage on-prem and in the hybrid multicloud.
+- [IBM Spectrum](https://www.ibm.com/solutions) IBM Spectrum Storage software for data-driven architecture. A complete storage software family with AI-infused capability that changes the economics of storage on-prem and in the hybrid multicloud.
 - [redbooks.ibm.com: IBM Storage for Red Hat OpenShift. IBM block storage & IBM Spectrum Scale](http://www.redbooks.ibm.com/abstracts/redp5565.html)
 
 ## IBM Cloud Paks and OpenShift
@@ -79,7 +79,7 @@
 ### IBM Cloud Pak for Multicloud Management (CP4MCM)
 
 - Alternative to [Red Hat Advanced Cluster Management for Kubernetes](https://www.redhat.com/en/technologies/management/advanced-cluster-management)
-- [IBM Cloud Pak for Multicloud Management](https://www.ibm.com/products/cloud-pak-for-aiops) Automated, end-to-end lifecycle management for applications and IT operations.
+- [IBM Cloud Pak for Multicloud Management](https://www.ibm.com/solutions/cloud/cloud-pak-for-management) Automated, end-to-end lifecycle management for applications and IT operations.
 - [IBM Knowledge Center: IBM Cloud Pak for Multicloud Management](https://www.ibm.com/docs/en/cloud-paks/cp-management) The IBM Cloud Pak for Multicloud Management, running on Red Hat® OpenShift®, provides consistent visibility, governance, and automation from on premises to the edge.
 - [medium.com/search?q=cp4mcm](https://medium.com/search?q=cp4mcm)
 - [medium: tagged/cp4mcm](https://medium.com/ibm-cloud-paks-help-and-guidance-from-ibm-cloud/tagged/cp4mcm)

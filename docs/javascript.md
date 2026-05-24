@@ -33,7 +33,7 @@
 
 ## Learning javascript by @Madisonkanna
 
-1. Variables + Scoping: [Declaring JavaScript Variables: var, let and const](https://scotch.io/courses/10-need-to-know-javascript-concepts/declaring-javascript-variables-var-let-and-const)
+1. Variables + Scoping: [Declaring JavaScript Variables: var, let and const](https://www.digitalocean.com/community)
 2. Types: [Understanding Data Types in JavaScript](https://www.digitalocean.com/community/tutorials/understanding-data-types-in-javascript)
 3. Objects, functions & arrays: [Intro to Web Dev V2](https://btholt.github.io/intro-to-web-dev-v2/intro)
 4. The DOM: [What exactly is the DOM?!](https://dev.to/karaluton/what-exactly-is-the-dom-jhg)

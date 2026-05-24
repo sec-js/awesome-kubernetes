@@ -3,39 +3,39 @@
 !!! info "Architectural Context"
     Detailed reference for Iac in the context of Hardened Infrastructure.
 
-## Cloud Architecture
+## Standard Reference
 
-### AWS Governance
+  - [stackoverflow.blog: Infrastructure as code: Create and configure infrastructure' elements in seconds](https://stackoverflow.blog/2021/03/08/infrastructure-as-code-create-and-configure-infrastructure-elements-in-seconds)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [invensislearning.com: Infrastructure as a Code Tutorial: How it Works, Types,' and Best Practices](https://www.invensislearning.com/blog/infrastructure-as-a-code-tutorial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [itnext.io: Platform-as-Code: how it relates to Infrastructure-as-Code and' what it enables](https://itnext.io/platform-as-code-how-it-compares-with-infrastructure-as-code-and-what-it-enables-2684b348be2e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: IaC Cloud Misconfiguration Tools too Noisy without Context](https://thenewstack.io/iac-cloud-misconfiguration-tools-too-noisy-without-context)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [freecodecamp.org: Infrastructure as Code - Full Course 🌟🌟](https://www.freecodecamp.org/news/what-is-infrastructure-as-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Infrastructure as Code in DevOps](https://alpacked.io/blog/infrastructure-as-code-for-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [devops.com: Updating and Managing Infrastructure-as-Code (IaC)](https://devops.com/updating-and-managing-infrastructure-as-code-iac)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: GUIs, CLI, APIs: Learn Basic Terms of Infrastructure-as-Code](https://thenewstack.io/guis-cli-apis-learn-basic-terms-of-infrastructure-as-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: Infrastructure-as-Code: Increase Security, Scale Development](https://thenewstack.io/infrastructure-as-code-increase-security-scale-development)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Struggling with IT Staff Leaving? Try Infrastructure as Code 🌟](https://thenewstack.io/struggling-with-it-staff-leaving-try-infrastructure-as-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [devopscube.com: Immutable Infrastructure Explained For Beginners](https://devopscube.com/immutable-infrastructure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: Infrastructure as Code or Cloud Platforms — You Decide!](https://thenewstack.io/infrastructure-as-code-or-cloud-platforms-you-decide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [spacelift.io: Why Generic CI/CD Tools Will Not Deliver Successful IaC](https://spacelift.io/blog/infrastructure-as-code-with-generic-ci-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: Achieve GitOps on Day One with IaC Automation](https://thenewstack.io/achieve-gitops-on-day-one-with-iac-automation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [build5nines.com: Benefits of Convention over Configuration for IaC Deployment' Projects](https://build5nines.com/benefits-of-convention-over-configuration-for-iac-deployment-projects)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: Local Environment-as-Code: Is It Possible Yet?](https://thenewstack.io/local-environment-as-code-is-it-possible-yet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [clickittech.com: Infrastructure as Code Tools, what are the best IaC tools?' 🌟](https://www.clickittech.com/devops/infrastructure-as-code-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [intellipaat.com: Terraform vs Ansible: Key Differences Between Terraform' and Ansible 🌟](https://intellipaat.com/blog/terraform-vs-ansible-difference)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [clickittech.com: Terraform vs CloudFormation: The Final battle 🌟](https://www.clickittech.com/devops/terraform-vs-cloudformation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [spacelift.io: Terraform vs. Ansible : Key Differences and Comparison of' Tools](https://spacelift.io/blog/ansible-vs-terraform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [env0.com: Ansible vs Terraform: Choose One or Use Both?](https://www.env0.com/blog/ansible-vs-terraform-when-to-choose-one-or-use-them-together)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [awstrainingwithjagan.com: Comprehensive Comparison of Top Infrastructure' as Code (IaC) Tools](https://awstrainingwithjagan.com/infrastructure-as-code-tool-comparison)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Pulumi: Infrastructure as Code in Any Programming Language](https://github.com/pulumi/pulumi) <span class='md-tag md-tag--info'>⭐ 25228</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [Ephemeral Values in Terraform](https://nedinthecloud.com/2025/07/01/ephemeral-values-in-terraform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [TerraSchema: Generate JSON Schema from Terraform Configurations](https://github.com/HewlettPackard/terraschema) <span class='md-tag md-tag--info'>⭐ 68</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Checkmarx/kics](https://github.com/Checkmarx/kics) <span class='md-tag md-tag--info'>⭐ 2637</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [gofireflyio/aiac 🌟](https://github.com/gofireflyio/aiac) <span class='md-tag md-tag--info'>⭐ 3794</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [The Definitive Guide to Importing Your Cloud Resources into IaC](https://blog.cloudgeni.ai/the-definitive-guide-to-importing-your-cloud-resources-into-iac)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [youtube: Mitchell Hashimoto: The Inside Story of HashiCorp's IaC Journey' | The IaC Podcast](https://www.youtube.com/watch?v=--RRpw_6onA)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-#### AWS Organizations
-
-  - **(2023)** [AWS Organizations: The Key to Managing Your Cloud Infrastructure Effectively](https://awsfundamentals.com/blog/aws-organizations-the-key-to-managing-your-cloud-infrastructure-effectively) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly clear exploration of AWS Organizations, dissecting organizational units (OUs), Service Control Policies (SCPs), and account hierarchy. Grounding shows it serves as a fundamental training material for cloud administrators establishing multi-account safety structures.
-## Cloud Infrastructure
-
-### Azure
-
-#### Enterprise Architecture
-
-  - **(2024)** [Transitioning an Existing Azure Environment to the Azure Landing Zone Reference Architecture](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/transition) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Official Microsoft guidance outlining the migration roadmap of legacy brownfield Azure environments to the Azure Landing Zone (ALZ) conceptual architecture. It focuses on governance, subscription organization, network topology convergence, and security policy enforcement at scale.
-#### Platform Engineering
-
-  - **(2024)** [Subscription Vending Implementation Guidance](https://learn.microsoft.com/en-us/azure/architecture/landing-zones/subscription-vending) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains the architectural pattern of automated subscription vending on Azure.
-
-*   Guides cloud platform teams to construct GitOps-driven workflows.
-*   Automatically provisions fully governed, secure, and networked Azure subscriptions using Bicep or Terraform.
-### Infrastructure as Code
-
-#### AI Generation
-
-  - **(2025)** [Terraform 2.0 in Practice: Using AI to Generate Infrastructure as Code](https://markaicode.com/terraform-ai-infrastructure-as-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on AI-driven generation of HCL infrastructure files. Covers schema checking, validating security guardrails in prompt pipelines, and continuous integration workflows for automated infrastructure verification.
-## Cloud-Native Infrastructure
-
-### Infrastructure as Code (1)
-
-#### AI-Assisted Operations
-
-  - **(2025)** [**Enhancing Infrastructure as Code Generation with GitHub Copilot for Azure**](https://techcommunity.microsoft.com/blog/AzureDevCommunityBlog/enhancing-infrastructure-as-code-generation-with-github-copilot-for-azure/4388514) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: Analyzes the application of LLM co-pilots in rapidly writing secure ARM and Bicep configurations. Live Grounding: Demonstrates how contextual AI generators drastically lower human-error risk in pipeline IaC templates. Highly representative of modern 2025/2026 operational shifts.
 
 ---
-💡 **Explore Related:** [Devsecops](./devsecops.md) | [Crossplane](./crossplane.md) | [Pulumi](./pulumi.md)
+💡 **Explore Related:** [Chef](./chef.md) | [Oauth](./oauth.md) | [Securityascode](./securityascode.md)
 

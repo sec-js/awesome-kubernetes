@@ -2,7 +2,7 @@
 
 - [redhat.com: Let’s monitor edge computing networks with RHEL!](https://www.redhat.com/en/blog/lets-monitor-edge-computing-networks-rhel)
 - [cloudflare.com: What Is Edge Computing?](https://www.cloudflare.com/learning/serverless/glossary/what-is-edge-computing) Edge computing optimizes internet devices and web applications by bringing computing closer to the source of the data. This minimizes the need for long distance communications between client and server, which reduces latency and bandwidth usage.
-- [Red Hat's approach to Edge Computing 🌟](https://www.redhat.com/en/solutions/edge-computing-approach?sc_cid=7013a000002w1CwAAI)
+- [Red Hat's approach to Edge Computing 🌟](https://www.redhat.com/en/solutions/edge-computing-approach)
 - [opensource.com: Why KubeEdge is my favorite open source project of 2020 🌟](https://opensource.com/article/21/1/kubeedge) KubeEdge is a workload framework for edge computing.
 - [thenewstack.io: Cloudian CTO: Kubernetes, Standardization Key to Edge](https://thenewstack.io/cloudian-cto-kubernetes-standardization-key-to-edge)
 - [cncf.io: Hosted Edge vs Cloud: the battle for latency and security 🌟](https://www.cncf.io/blog/2021/12/08/hosted-edge-vs-cloud-the-battle-for-latency-and-security)

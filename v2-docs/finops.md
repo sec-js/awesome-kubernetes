@@ -3,20 +3,40 @@
 !!! info "Architectural Context"
     Detailed reference for Finops in the context of Career & Industry.
 
-## Cloud Management
+## Standard Reference
 
-### FinOps
+  - [FinOps Foundation: FinOps.org](https://www.finops.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [aws.amazon.com: Introducing FinOps—Excuse Me, DevSecFinBizOps](https://aws.amazon.com/es/blogs/enterprise-strategy/introducing-finops-excuse-me-devsecfinbizops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [devops.com: FinOps Foundation to Help Rein in Cloud Costs](https://devops.com/finops-foundation-to-help-rein-in-cloud-costs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [infoq.com: Why Every DevOps Team Needs A FinOps Lead](https://www.infoq.com/articles/every-devops-team-needs-finops-lead)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: 4 Reasons Your Cloud Operations Need a FinOps Team](https://thenewstack.io/4-reasons-your-cloud-operations-need-a-finops-team)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloud.google.com: 5 key metrics to measure Cloud FinOps impact in your organization' in 2022 and beyond](https://cloud.google.com/blog/topics/cloud-first/key-metrics-to-measure-impact-of-cloud-finops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: Cloud Cost Management for DevOps](https://thenewstack.io/cloud-cost-management-for-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [zdnet.com: As cloud costs spiral upward, enterprises turn to a thing called' FinOps](https://www.zdnet.com/article/as-cloud-costs-spiral-upward-enterprises-turn-to-a-thing-called-finops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: Tricks for Cloud Cost Optimization | Pavan Belagatti](https://thenewstack.io/tricks-for-cloud-cost-optimization)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [venturebeat.com: Cloud costs are unmanageable: It’s time we standardize' billing](https://venturebeat.com/datadecisionmakers/cloud-costs-are-unmanageable-its-time-we-standardize-billing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hystax.com: The difference between cloud cost management and FinOps](https://hystax.com/the-difference-between-cloud-cost-management-and-finops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [aws.amazon.com: Four Principles of Cloud Financial Management Small and' Medium Business Owners Need to Know](https://aws.amazon.com/blogs/smb/four-principles-of-cloud-financial-management-small-and-medium-business-owners-need-to-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [bitsand.cloud: Slashing Data Transfer Costs in AWS by 99%](https://www.bitsand.cloud/posts/slashing-data-transfer-costs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [aws.amazon.com/blogs/architecture: Overview of Data Transfer Costs for Common' Architectures](https://aws.amazon.com/blogs/architecture/overview-of-data-transfer-costs-for-common-architectures)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/dolevshor/azure-finops-guide: The Azure FinOps Guide 🌟](https://github.com/dolevshor/azure-finops-guide) <span class='md-tag md-tag--info'>⭐ 216</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [info.microsoft.com: The Road to Azure Cost Governance](https://info.microsoft.com/ww-landing-the-road-to-azure-cost-governance-e-book.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/mivano/azure-cost-cli](https://github.com/mivano/azure-cost-cli) <span class='md-tag md-tag--info'>⭐ 1117</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [https://learn.microsoft.com: View Kubernetes costs (AKS)](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/view-kubernetes-costs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [learnk8s/xlskubectl](https://github.com/learnk8s/xlskubectl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: Grafana Wants to Help You Avoid Getting Dinged by Kubernetes' Costs](https://thenewstack.io/grafana-wants-to-help-you-avoid-getting-dinged-by-kubernetes-costs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [marketplace.atlassian.com:  License Manager - Easily track your software' licenses](https://marketplace.atlassian.com/apps/1227641/license-manager-easily-track-your-software-licenses)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dev.to: FinOps EKS: 10 tips to reduce the bill up to 90% on AWS managed' Kubernetes clusters](https://dev.to/zenika/eks-10-tips-to-reduce-the-bill-up-to-90-on-aws-managed-kubernetes-clusters-epe)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cremich/cdk-bill-bot: Welcome to Bill - the cost optimization bot](https://github.com/cremich/cdk-bill-bot) <span class='md-tag md-tag--info'>⭐ 487</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: Finout Gets a Handle on Kubernetes Costs](https://thenewstack.io/finout-gets-a-handle-on-kubernetes-costs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-#### Automated Scaling
-
-  - **(2026)** [CAST AI](https://cast.ai) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Enterprise-grade automated container management and FinOps scaling engine. Performs real-time node selection, spot instance provisioning, and cluster rightsizing dynamically without degrading active microservice performance.
 ## Cloud Providers
 
 ### AWS EKS
 
-#### FinOps (1)
+#### FinOps
 
-  - **(2022)** [aws.amazon.com: Understanding and Cost Optimizing Amazon EKS Control Plane Logs](https://aws.amazon.com/blogs/containers/understanding-and-cost-optimizing-amazon-eks-control-plane-logs) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes CloudWatch logging costs generated by EKS API server audit logs, offering practical strategies to filter and optimize them. It details how to use Logstash, FluentBit, or CloudWatch filter patterns to eliminate verbose, low-value telemetry. Crucial for enterprise platform administrators looking to cut hidden SaaS expenses.
+  - [aws.amazon.com: Understanding and Cost Optimizing Amazon EKS Control Plane' Logs](https://aws.amazon.com/blogs/containers/understanding-and-cost-optimizing-amazon-eks-control-plane-logs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes CloudWatch logging costs generated by EKS API server audit logs, offering practical strategies to filter and optimize them. It details how to use Logstash, FluentBit, or CloudWatch filter patterns to eliminate verbose, low-value telemetry. Crucial for enterprise platform administrators looking to cut hidden SaaS expenses.
 ## Cluster Operations
 
 ### Cost Optimization
@@ -24,5 +44,5 @@
   - **(2023)** [infoworld.com: Kubernetes cost management for the real world](https://www.infoworld.com/article/2338428/kubernetes-cost-management-for-the-real-world.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores pragmatic methodologies for managing and forecasting costs inside Kubernetes. Contrasts standard manual scaling limits with automated tools like Kubecost and OpenCost, providing architecture guidelines for resource allocation optimization.
 
 ---
-💡 **Explore Related:** [Elearning](./elearning.md) | [Recruitment](./recruitment.md) | [Freelancing](./freelancing.md)
+💡 **Explore Related:** [Digital Money](./digital-money.md) | [Newsfeeds](./newsfeeds.md) | [Appointment Scheduling](./appointment-scheduling.md)
 

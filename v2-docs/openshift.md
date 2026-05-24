@@ -3,35 +3,33 @@
 !!! info "Architectural Context"
     Detailed reference for Openshift in the context of The Container Stack.
 
-## Cloud Infrastructure
+## Standard Reference
 
-### Kubernetes Distributions
+  - [developers.redhat.com 🌟](https://developers.redhat.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [OpenShift Commons](https://commons.openshift.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [OpenShift in DockerHub](https://hub.docker.com/u/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [twitch.tv/redhatopenshift](https://www.twitch.tv/redhatopenshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [O’Reilly: Free ebook: **Kubernetes Operators: Automating the Container Orchestration' Platform**](https://www.redhat.com/en/resources/oreilly-kubernetes-operators-automation-ebook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Manning: **Openshift in action**](https://www.manning.com/books/openshift-in-action)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kubernetes e-Books](https://awesome-kubernetes.readthedocs.io/kubernetes/#e-books)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/redhatdemocentral: OpenShift Container Platform Install Demo' 🌟](https://github.com/redhatdemocentral/ocp-install-demo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [schabell.org: Cloud-native development - A blueprint 🌟](https://www.schabell.org/2020/05/cloud-native-development-a-blueprint.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [gitlab.com: Project Examples](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [youtube.com: OpenShift Origin is now OKD. Installation of OKD 3.10 from' start to finish](https://www.youtube.com/watch?v=ZkFIozGY0IA)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Install RedHat OKD 3.10 on your development box:](https://github.com/gshipley/installcentos)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/openshift/installer openshift installer 🌟](https://github.com/openshift/installer) <span class='md-tag md-tag--info'>⭐ 1546</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [youtube: Deploy OpenShift 4 to vSphere using OpenShift's UPI](https://www.youtube.com/watch?v=DLB9m17aGus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Using sidecars to analyze and debug network traffic in OpenShift and Kubernetes pods](https://developers.redhat.com/blog/2019/02/27/sidecars-analyze-debug-network-traffic-kubernetes-pod)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: Skupper.io: Let your services communicate across' Kubernetes clusters](https://developers.redhat.com/blog/2020/01/01/skupper-io-let-your-services-communicate-across-kubernetes-clusters)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [itnext.io: Adding security layers to your App on OpenShift — Part 1: Deployment' and TLS Ingress 🌟](https://itnext.io/adding-security-layers-to-your-app-on-openshift-part-1-deployment-and-tls-ingress-9ef752835599)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/sclorg/](https://github.com/sclorg)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/sclorg/mariadb-container](https://github.com/sclorg/mariadb-container) <span class='md-tag md-tag--info'>⭐ 32</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hub.docker.com/r/sonatype/nexus3/](https://hub.docker.com/r/sonatype/nexus3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: Why choose Rocket.Chat for your open source chat tool](https://opensource.com/article/22/1/rocketchat-data-privacy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Red Hat OpenShift Dedicated price reduction: Price lowered by 75% on average,' SLA improved to 99.95% 🌟](https://www.redhat.com/en/blog/red-hat-openshift-dedicated-price-reduction)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Awesome Openshift 2](https://github.com/oscp/awesome-openshift3) <span class='md-tag md-tag--info'>⭐ 27</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-#### Enterprise Platforms
-
-  - **(2026)** [==OKD==](https://okd.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — OKD is the open-source upstream community distribution of Red Hat OpenShift, fully integrating containerized virtualization, developer tools, and operators. Built on Fedora CoreOS, OKD provides cloud architects with a platform-as-a-service engine optimized for continuous deployment and complex multi-tenant operations.
-## Education
-
-### Interactive Learning
-
-#### Platforms
-
-  - **(2022)** [katacoda.com](https://www.katacoda.com) 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Formerly the premier interactive browser-based terminal platform for testing and learning Kubernetes, Docker, and Linux configuration on-demand. Live Grounding indicates the platform was retired by O'Reilly, rendering it a legacy archive link.
-## Observability and Performance
-
-### Kubernetes Internals
-
-#### Autotuning
-
-  - **(2025)** [How Kruize Optimizes OpenShift Workloads](https://developers.redhat.com/articles/2025/06/25/how-kruize-optimizes-openshift-workloads#what_is_kruize_autotune_) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a comprehensive overview of how Kruize Autotune optimizes resource efficiency in OpenShift and Kubernetes workloads. Evaluates real-time scaling mechanisms and automated recommendations to reduce resource waste.
-## Training and Certification
-
-### Red Hat Ecosystem
-
-#### Learning Platforms
-
-  - **(2026)** [Red Hat Training & Certification Community](https://access.redhat.com/community/learn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official educational resources and certification preparation portal curated by Red Hat. Serves as a vital reference for mastering OpenShift and enterprise Linux engineering architectures.
 
 ---
-💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Ocp4](./ocp4.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md)
+💡 **Explore Related:** [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Noops](./noops.md)
 

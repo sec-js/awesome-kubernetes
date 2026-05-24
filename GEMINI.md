@@ -58,6 +58,7 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **Persistence (MANDATORY)**: Every AI agent and workflow MUST load this file at startup, update it, and INJECT the modified YAML into the final PR payload if any change is detected. Discarding the database during a workflow run is a CRITICAL FAILURE.
     - **Exhaustive Initialization**: The system supports a `FORCE_FULL_CHECK` environment variable to bypass all caches (e.g., 21-day health cache) and force a full re-validation and re-enrichment of the entire 17k+ link archive.
     - **No Trusted Bypassing**: All domains, including high-trust ones (GitHub, Google, AWS), MUST be verified for link validity. Trusted status only grants a lower priority for aggressive scraper rotation, not a bypass for existence checks.
+    - **URL Protocol Integrity**: All URLs MUST use the complete and correct protocol prefix (`https://` or `http://`). AI agents MUST ensure that automated edits or mass cleanup tasks NEVER corrupt the protocol (e.g., by reducing `https://` to `https:/`).
     - **Manual Priority**: AI agents MUST NOT overwrite existing manual descriptions or stars in the V1 archive files. Enrichment is strictly for the YAML database and the V2 portal.
 
 23. **YouTube Mosaic Exemption**: In `docs/index.md` and `v2-docs/index.md`, only the primary visual mosaic block (the specific `<center>` block containing the highest density of YouTube links) is exempt from automated health checks and MUST NOT be included in `data/inventory.yaml`. This is a fixed visual asset. However, all other YouTube resources in these files—including links appearing before the mosaic and those in the collapsible "Top Videos" section—MUST be checked by the link cleaner and properly tracked in the inventory.
@@ -108,61 +109,69 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **No Ampersands**: The ampersand character (`&`) MUST be replaced with "and" in all titles and TOCs.
     - **Lowercase Anchors**: All Markdown anchors MUST use strictly lowercase slugs without special characters.
 
-33. **README Cost Analysis (EUR First)**: To align with European operational standards:
+33. **Markdown Standards and Linting Integrity**: To ensure zero-failure in CI/CD pipelines and pristine rendering:
+    - **Fenced Code Language**: ALL fenced code blocks MUST have a language specified (e.g., \`\`\`yaml, \`\`\`bash). Use \`\`\`text as the default for logs or plain citations.
+    - **No Spaces in Links**: Link text MUST NOT contain leading or trailing spaces within brackets (e.g., use \`[Link]\`, NEVER \`[ Link ]\`). Line breaks inside link text are strictly forbidden.
+    - **Table Column Integrity**: Every row in a Markdown table MUST contain the exact number of columns defined in the header. Use \`N/A\` or empty cells \`| |\` to maintain the count; never leave rows "hanging" or truncated.
+    - **Image Alt-Text**: All images MUST include a descriptive \`alt\` attribute for accessibility and linter compliance.
+    - **Heading Precision**: Headings MUST start at the beginning of the line (no indentation) and MUST have exactly one space between the \`#\` symbols and the title text.
+    - **Link Syntax**: Always use standard \`[Text](URL)\` syntax. Verify that brackets and parentheses are not reversed or malformed.
+
+34. **README Cost Analysis (EUR First)**: To align with European operational standards:
     - **Primary Currency**: All cost projections, tables, and analysis in `README.md` (Section 7) MUST use **Euros (€)** as the primary currency.
     - **Conversion Policy**: If USD values are provided for technical reference, they MUST be accompanied by their EUR equivalent using a current market estimate (e.g., 1 USD ≈ 0.92 EUR).
     - **Metric Precision**: Maintain at least two decimal places for EUR values to ensure financial accuracy.
 
-34. **Content-URL Precision Standard**: To prevent misinformation and maintain high-density technical value:
+35. **Content-URL Precision Standard**: To prevent misinformation and maintain high-density technical value:
     - **Generic Redirect Detection**: If a technical deep-link redirects to a generic landing page, it is flagged as a precision failure.
     - **Deep Link Rescue (Universal)**: For ALL technical resources, the bot MUST NOT delete the link immediately. Instead, it SHOULD attempt to "rescue" it using the technical title, full V1 description, and **Real-time Web Grounding** (MCP) for high-precision context search.
     - **High-Value Preservation (The 'Review Required' Rule)**: Resources identified as **High-Value** (visually highlighted with bold/highlight, marked with 🌟 stars, or featuring dense technical descriptions) MUST NEVER be automatically deleted. If rescue attempts fail, these links MUST be marked as `status: review_required` and preserved in the archive for manual verification.
     - **Authoritative Preservation**: If a specific technical equivalent is found (e.g., Nginx to F5 migration), the URL MUST be updated to the new specific path.
 
-35. **Social Proof & Reputation Filter**: To eliminate "vaporware" and unstable tools:
+36. **Social Proof & Reputation Filter**: To eliminate "vaporware" and unstable tools:
     - **Community Vetting**: Curation agents MUST use **Real-time Web Grounding** to cross-reference new tools with community platforms (Reddit, Hacker News).
     - **Reputation Penalty**: If a project is widely reported as abandoned, unstable, or misleading, the agent MUST apply a significant impact penalty or reject the resource entirely.
     - **Reputation Metadata**: The inventory SHOULD track `reputation_status` (Vetted/Suspicious) and a brief `reputation_summary`.
 
-36. **License & Compliance Guard**: To protect the Open Source integrity of the Nubenetes ecosystem:
+37. **License & Compliance Guard**: To protect the Open Source integrity of the Nubenetes ecosystem:
     - **License Monitoring**: Health agents MUST monitor the `LICENSE` field for all repository resources (GitHub/GitLab).
     - **Non-Free Transition Alert**: If a project transitions from a permissive license (e.g., Apache 2.0, MIT) to a non-free or restrictive license (e.g., BSL, SSPL), the resource MUST be flagged as `status: review_required`.
     - **Impact Adjustment**: Projects that move away from Open Source standards MUST receive an automatic star reduction and be deprioritized in the V2 portal to favor truly open alternatives.
 
-37. **V2 Elite Visual Standards**: All V2 content generation MUST apply the following visual hierarchy:
+38. **V2 Elite Visual Standards**: All V2 content generation MUST apply the following visual hierarchy:
     - **Platinum Resources (5 stars)**: Use yellow highlighting for the link text (e.g., `==[Link Title]==`).
     - **Gold Resources (4 stars)**: Use bold formatting for the link text (e.g., `**[Link Title]**`).
     - **Multi-Dimensional Tagging**: Every resource in V2 SHOULD have one or more maturity/type tags.
     - **Minimalist Inline Summaries**: High-density summaries MUST be rendered using a **native HTML5 `<details>` element with `inline-block` behavior** (appearing as a "Deep-Dive" tag) to maximize vertical density while providing depth on demand.
     - **Star Consistency**: Maintain the 1-5 star scale for technical impact. Resources with 0 stars are considered "Standard References" and do not display a star prefix/suffix in the V2 UI.
 
-38. **V2 Semantic Connectivity**: All V2 content generation MUST implement the **Semantic Cross-Linking Engine**. AI agents must autonomously identify related architectural patterns within the same strategic dimension and inject "💡 Explore Related" navigation blocks at the end of sections to facilitate a connected knowledge graph.
+39. **V2 Semantic Connectivity**: All V2 content generation MUST implement the **Semantic Cross-Linking Engine**. AI agents must autonomously identify related architectural patterns within the same strategic dimension and inject "💡 Explore Related" navigation blocks at the end of sections to facilitate a connected knowledge graph.
 
-39. **Industrial Learning Flow**: V2 documents MUST follow an O'Reilly-style technical progression. Organization within sections must move from foundational theory and standards to advanced implementation details and emerging patterns.
+40. **Industrial Learning Flow**: V2 documents MUST follow an O'Reilly-style technical progression. Organization within sections must move from foundational theory and standards to advanced implementation details and emerging patterns.
 
-40. **Robust AI-Driven Multi-Tagging (Multi-Agent Protocol)**: Every resource evaluation MUST utilize a **Multi-Agent Analyst-Auditor workflow** with **Real-time Web Grounding (MCP)**:
+41. **Robust AI-Driven Multi-Tagging (Multi-Agent Protocol)**: Every resource evaluation MUST utilize a **Multi-Agent Analyst-Auditor workflow** with **Real-time Web Grounding (MCP)**:
     - **Analyst Role**: Initial technical classification and initial evidence synthesis.
     - **Auditor Role (Grounded)**: Selective verification of high-impact candidates ([DE FACTO STANDARD] or [ENTERPRISE-STABLE]) using Pro models to search for community reputation and stability. AI-assigned tags take precedence over static rules. Fallback to `[COMMUNITY-TOOL]` is only permitted after exhaustive classification failure.
 
-41. **V2 Index Branding Protection**: The header and vision block of the V2 Elite Portal MUST NOT be modified. The title MUST remain "Nubenetes Elite Portal (V2) | Awesome Kubernetes & Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)" and the abstract MUST use the "The High-Density Vision" text as hardcoded in the optimizer logic to maintain industrial-grade branding.
+42. **V2 Index Branding Protection**: The header and vision block of the V2 Elite Portal MUST NOT be modified. The title MUST remain "Nubenetes Elite Portal (V2) | Awesome Kubernetes & Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)" and the abstract MUST use the "The High-Density Vision" text as hardcoded in the optimizer logic to maintain industrial-grade branding.
 
-42. **V2 Index Visual Standard (Automotive Roots)**: The Nubenetes V2 Elite Portal index MUST feature a centered banner image linked to `kubernetes.io`, followed by the Horatio Nelson Jackson quote and the specific automotive container metaphor image (`images/container_with_cars_v2.png`). This image is a manually provided asset and MUST NOT be regenerated by AI to ensure the preservation of the project's established visual identity.
+43. **V2 Index Visual Standard (Automotive Roots)**: The Nubenetes V2 Elite Portal index MUST feature a centered banner image linked to `kubernetes.io`, followed by the Horatio Nelson Jackson quote and the specific automotive container metaphor image (`images/container_with_cars_v2.png`). This image is a manually provided asset and MUST NOT be regenerated by AI to ensure the preservation of the project's established visual identity.
 
-43. **V2 Index Footer Standard**: The V2 index MUST always conclude with the **Maturity Taxonomy** and **Technical Impact** explanation tables. These sections define the industrial-grade classification and visual code (Highlighting/Bold) used throughout the Elite portal and must be preserved across all automated regenerations.
+44. **V2 Index Footer Standard**: The V2 index MUST always conclude with the **Maturity Taxonomy** and **Technical Impact** explanation tables. These sections define the industrial-grade classification and visual code (Highlighting/Bold) used throughout the Elite portal and must be preserved across all automated regenerations.
 
-44. **V2 Navigation Standard**: The top navigation bar in `v2-mkdocs.yml` MUST feature the "Agentic Elite Portal" link as the primary entry point to ensure professional consistency across the platform.
+45. **V2 Navigation Standard**: The top navigation bar in `v2-mkdocs.yml` MUST feature the "Agentic Elite Portal" link as the primary entry point to ensure professional consistency across the platform.
 
-45. **Version Control & Changelog Standard**: All significant milestones and architectural shifts MUST be versioned using **Semantic Versioning (SemVer)** and documented in [`CHANGELOG.md`](CHANGELOG.md) following the "Keep a Changelog" standard. This ensures full traceability of the ecosystem's evolution from historical archive to agentic portal.
+46. **Version Control & Changelog Standard**: All significant milestones and architectural shifts MUST be versioned using **Semantic Versioning (SemVer)** and documented in [`CHANGELOG.md`](CHANGELOG.md) following the "Keep a Changelog" standard. This ensures full traceability of the ecosystem's evolution from historical archive to agentic portal.
 
-46. **On-Demand Metadata Enrichment (V2)**: The V2 generation engine MUST support a manual `ENRICH_METADATA` flag. When active, the bot MUST fetch real-time GitHub stars and license data for all repositories missing this metadata in the inventory. This ensures that [DE FACTO STANDARD] and [ENTERPRISE-STABLE] tags are assigned based on current industry momentum rather than stale or missing cache data.
+47. **On-Demand Metadata Enrichment (V2)**: The V2 generation engine MUST support a manual `ENRICH_METADATA` flag. When active, the bot MUST fetch real-time GitHub stars and license data for all repositories missing this metadata in the inventory. This ensures that [DE FACTO STANDARD] and [ENTERPRISE-STABLE] tags are assigned based on current industry momentum rather than stale or missing cache data.
 
-47. **Agentic Presubmit Safeguards (PR Guardian)**: All PRs to `develop` MUST be analyzed by the `PR Guardian` AI agent to ensure compliance with Nubenetes standards (No emojis in headers, valid Markdown, correct URL normalization, high-density descriptions).
+48. **Agentic Presubmit Safeguards (PR Guardian)**: All PRs to `develop` MUST be analyzed by the `PR Guardian` AI agent to ensure compliance with Nubenetes standards (No emojis in headers, valid Markdown, correct URL normalization, high-density descriptions).
 
-48. **Resilient Quota Management (Circuit Breakers)**: AI workflows MUST implement circuit breaker logic (Exit Code 42) to gracefully pause processing and disable the workflow when API quotas (e.g., 429 Too Many Requests) are exhausted, preventing infinite loop failures.
+49. **Resilient Quota Management (Circuit Breakers)**: AI workflows MUST implement circuit breaker logic (Exit Code 42) to gracefully pause processing and disable the workflow when API quotas (e.g., 429 Too Many Requests) are exhausted, preventing infinite loop failures.
 
-49. **Markdown Linting Continuity**: All files in `docs/` and `v2-docs/` MUST pass the automated `markdownlint` validation to ensure pristine HTML rendering within MkDocs.
+50. **Markdown Linting Continuity**: All files in `docs/` and `v2-docs/` MUST pass the automated `markdownlint` validation to ensure pristine HTML rendering within MkDocs.
 
-50. **Zero-Redundancy Agentic Pipeline (Performance Standard)**: To maintain the **30-minute execution standard**, the V2 ecosystem utilizes a decoupled micro-workflow architecture:
+51. **Zero-Redundancy Agentic Pipeline (Performance Standard)**: To maintain the **30-minute execution standard**, the V2 ecosystem utilizes a decoupled micro-workflow architecture:
     - **V2 Health Monitor**: Weekly network validation of the link archive.
     - **V2 Metadata Engine**: Bi-weekly extraction of GitHub stars and licenses.
     - **V2 AI Curator**: On-demand deep architectural analysis and hierarchical indexing.
@@ -170,28 +179,28 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **Linear Knowledge Flow**: The workflow follows a strict sequence: 1. Health/Metadata (Decoupled) -> 2. Distributed Inventory -> 3. Fast-Track Optimization (V2 Publisher).
     - **Manual Override Control**: All agents must respect the manual workflow flags (`FORCE_FULL_CHECK`, `FORCE_EVAL`, `ENRICH_METADATA`). When disabled (Standard Run), the system MUST strictly enforce the cache-first policy for maximum efficiency.
 
-51. **Linguistic Uniformity**: All core documentation (index, README, GEMINI.md) and V2 portal summaries MUST be written in **Professional Technical English**. V1 descriptions remain in their native language (Mandate 10).
+52. **Linguistic Uniformity**: All core documentation (index, README, GEMINI.md) and V2 portal summaries MUST be written in **Professional Technical English**. V1 descriptions remain in their native language (Mandate 10).
 
-52. **Flash-First High-Density Curation (Scale Mandate)**: For mass processing (>1,000 resources), the system MUST prioritize **Gemini Flash/Lite** models for the Analyst phase. This ensures high RPM/TPM throughput while maintaining cost efficiency. Pro models are strictly reserved for the Auditor phase or high-value resource verification.
+53. **Flash-First High-Density Curation (Scale Mandate)**: For mass processing (>1,000 resources), the system MUST prioritize **Gemini Flash/Lite** models for the Analyst phase. This ensures high RPM/TPM throughput while maintaining cost efficiency. Pro models are strictly reserved for the Auditor phase or high-value resource verification.
 
-53. **Robust Batch Processing & Rate-Limit Resilience**: Large-scale curation MUST use batch sizes of **50 resources** for Fast-Track processing with a mandatory **2-second safety delay** between batches. 
+54. **Robust Batch Processing & Rate-Limit Resilience**: Large-scale curation MUST use batch sizes of **50 resources** for Fast-Track processing with a mandatory **2-second safety delay** between batches. 
     - **Incremental Persistence**: The system MUST flush the `inventory.yaml` to disk every 20 batches.
     - **Workflow Resilience**: Workflows MUST utilize GitHub Actions Cache (`actions/cache`) to restore progress at startup and save it `always()` at the end, ensuring zero data loss even upon 6-hour timeout cancellations.
 
-54. **Multi-Tier Agentic Model Selection Policy**: To optimize the balance between reasoning depth, execution speed, and API quota safety, models MUST be selected based on task profile:
+55. **Multi-Tier Agentic Model Selection Policy**: To optimize the balance between reasoning depth, execution speed, and API quota safety, models MUST be selected based on task profile:
     - **Tier 1 (High-Throughput / Formatting)**: Mandatory **Gemini Flash/Lite**. Used for: mass classification (V2), formatting audits (PR Guardian), and high-volume link rescue (Health Checker).
     - **Tier 2 (High-Context / Human Interpretation)**: Mandatory **Gemini Pro**. Used for: raw social media curation (X.com/RSS), complex architectural auditing, and security-critical verification.
     - **Constraint**: Tier 2 tasks MUST be limited to low-volume batches to protect the global RPM quota.
 
-55. **V2 Index Metrics Protocol**: The "Knowledge Architecture and AI Coverage Status" report in the V2 index MUST include a direct comparison between V1 and V2 inventory. This report MUST display: 1. **V1 Base Inventory** (Total resources in the master archive), 2. **V2 Elite Selection** (Count of candidates and the resulting density ratio), 3. **AI Enrichment Coverage**, and 4. **GitHub Metadata Coverage**. This ensures transparency in the knowledge distillation process.
+56. **V2 Index Metrics Protocol**: The "Knowledge Architecture and AI Coverage Status" report in the V2 index MUST include a direct comparison between V1 and V2 inventory. This report MUST display: 1. **V1 Base Inventory** (Total resources in the master archive), 2. **V2 Elite Selection** (Count of candidates and the resulting density ratio), 3. **AI Enrichment Coverage**, and 4. **GitHub Metadata Coverage**. This ensures transparency in the knowledge distillation process.
 
-56. **Redundancy-Free Branding**: To ensure professional UI density, the V2 Portal header MUST NOT repeat the "Nubenetes" brand. The title MUST follow the pattern: "Nubenetes Elite Portal (V2) | Awesome Kubernetes and Cloud".
+57. **Redundancy-Free Branding**: To ensure professional UI density, the V2 Portal header MUST NOT repeat the "Nubenetes" brand. The title MUST follow the pattern: "Nubenetes Elite Portal (V2) | Awesome Kubernetes and Cloud".
 
-57. **Decoupled Workflow Architecture**: The Agentic V2 ecosystem MUST utilize a decoupled micro-workflow structure (Health Monitor, Metadata Engine, AI Curator, and Publisher) to optimize compute quotas and minimize Gemini token consumption. Any update to the V2 rendering logic MUST use the `--render-only` flag in the Publisher pipeline to maintain execution speed.
+58. **Decoupled Workflow Architecture**: The Agentic V2 ecosystem MUST utilize a decoupled micro-workflow structure (Health Monitor, Metadata Engine, AI Curator, and Publisher) to optimize compute quotas and minimize Gemini token consumption. Any update to the V2 rendering logic MUST use the `--render-only` flag in the Publisher pipeline to maintain execution speed.
 
-58. **High-Fidelity Official Extraction Protocol**: Multimedia curation (YouTube) MUST prioritize the **Official YouTube Data API v3** to ensure 100% fidelity to technical titles, descriptions, and metadata. Brittle scraping fallback (yt-dlp) or AI grounding MUST only be utilized when the official API is unavailable, and all extraction logic MUST support multiline indentation to prevent Markdown rendering breakage.
+59. **High-Fidelity Official Extraction Protocol**: Multimedia curation (YouTube) MUST prioritize the **Official YouTube Data API v3** to ensure 100% fidelity to technical titles, descriptions, and metadata. Brittle scraping fallback (yt-dlp) or AI grounding MUST only be utilized when the official API is unavailable, and all extraction logic MUST support multiline indentation to prevent Markdown rendering breakage.
 
-59. **Granular Versioning and Collaborative History Standard**: All architectural shifts and milestones MUST be versioned using **Semantic Versioning (SemVer)**. The `CHANGELOG.md` MUST follow the 'Keep a Changelog' standard and maintain a granular, exhaustive record including:
+60. **Granular Versioning and Collaborative History Standard**: All architectural shifts and milestones MUST be versioned using **Semantic Versioning (SemVer)**. The `CHANGELOG.md` MUST follow the 'Keep a Changelog' standard and maintain a granular, exhaustive record including:
     - **Community Recognition**: Explicitly mention external authors and link to their specific Pull Requests (e.g., [PR #XX]).
     - **4-Tier Multimedia Hierarchy**: Clearly document the fallback sequence (Official API > Transcripts > Scraping > Gemini Grounding).
     - **Interactive Navigation**: Version headers MUST be clickable links to the corresponding GitHub Release tag.

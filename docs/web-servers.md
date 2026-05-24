@@ -30,7 +30,7 @@
 ## Nginx
 
 - [Nginx](https://www.f5.com/products/nginx)
-- [Dzone: Nginx Reverse Proxy Ubuntu 18.04](https://dzone.com/articles/nginx-reverse-proxy-ubuntu-1804) In this post, we will show you how to install Nginx Web Server and configure it as a reverse proxy on Ubuntu Server 18.04.
+- [Dzone: Nginx Reverse Proxy Ubuntu 18.04](https://dzone.com/articles/nginx-reverse-proxy-ubuntu-1804) we will show you how to install Nginx Web Server and configure it as a reverse proxy on Ubuntu Server 18.04.
 - [Dzone: DevOps 101: Set Up Nginx in Front of Your Spring Boot Application [Video]](https://dzone.com/articles/devops-101-setup-nginx-in-front-of-your-spring-boo)
 - [NGINXConfig 🌟🌟](https://www.digitalocean.com/community/tools/nginx) The easiest way to configure a performant, secure, and stable NGINX server.
 - [How To Use the Official NGINX Docker Image](https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image)

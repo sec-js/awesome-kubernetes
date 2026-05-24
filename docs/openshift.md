@@ -64,12 +64,12 @@
 ## OpenShift on Public Cloud
 
 - OCP4 on AWS: [ref1](https://github.com/openshift/installer/blob/main/docs/user/aws/README.md) , [ref2](https://aws.amazon.com/blogs/opensource/openshift-4-on-aws-quick-start)
-- [OpenShift Dedicated](https://www.redhat.com/en/technologies/cloud-computing/openshift/dedicated) - [Price lowered by 75% on average, SLA improved to 99.95% 🌟](https://www.redhat.com/en/blog/red-hat-openshift-dedicated-price-reduction)
+- [OpenShift Dedicated](https://www.redhat.com/en/technologies/cloud-computing/openshift/products/dedicated) - [Price lowered by 75% on average, SLA improved to 99.95% 🌟](https://www.redhat.com/en/blog/red-hat-openshift-dedicated-price-reduction)
 - [Amazon Red Hat OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift/aws)
 - [OpenShift on Google Cloud](https://docs.cloud.google.com/compute/docs/containers)
 - [Microsoft Azure Red Hat OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift/azure)
 - [Red Hat OpenShift on IBM Cloud](https://www.ibm.com/products/openshift)
-- [OpenShift Online](https://www.redhat.com/en/technologies/cloud-computing/openshift/products/online)
+- [OpenShift Online](https://www.redhat.com/en/technologies/cloud-computing/openshift)
 - [OpenShift.io](https://openshift.io)
 - [Developer Sandbox](https://developers.redhat.com/developer-sandbox)
 - [Red Hat Marketplace](https://marketplace.redhat.com/sunset) 
@@ -81,7 +81,7 @@
 - [docs.microsoft.com: JBoss deployment with Red Hat on Azure 🌟](https://learn.microsoft.com/en-us/azure/developer/java/ee/jboss-eap-on-aro)
 
 ## Blogs
-  - [How Kruize Optimizes OpenShift Workloads](https://developers.redhat.com/articles/2025/06/25/how-kruize-optimizes-openshift-workloads#what_is_kruize_autotune_) 🌟 - This article introduces Kruize, an open-source solution for performance testing and optimization of applications running on OpenShift. It details how Kruize uses Kubernetes operators to collect performance metrics, identify performance bottlenecks, and suggest optimal configurations for workloads, aiming to improve resource utilization and application performance.
+  - [How Kruize Optimizes OpenShift Workloads](https://developers.redhat.com/articles/2025/06/25/how-kruize-optimizes-openshift-workloads#what_is_kruize_autotune_) 🌟 -Kruize, an open-source solution for performance testing and optimization of applications running on OpenShift. It details how Kruize uses Kubernetes operators to collect performance metrics, identify performance bottlenecks, and suggest optimal configurations for workloads, aiming to improve resource utilization and application performance.
 
 - [Rcarrata's blog](https://rcarrata.com)
 
@@ -201,11 +201,11 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 
 ##### Deploying OpenShift 4.4 to VMware vSphere 7
 
-- [Deploying OpenShift 4.4 to VMware vSphere 7 🌟](https://www.redhat.com/en/blog/deploying-openshift-4.4-to-vmware-vsphere-7)
+- [Deploying OpenShift 4.4 to VMware vSphere 7 🌟](https://www.redhat.com/en/blog/channel/hybrid-cloud-infrastructure/deploying-openshift-4.4-to-vmware-vsphere-7)
 
 <center markdown="1">
 
-[![openshift 4 to vsphere 7](images/OpenShift4-to-vSphere7.png)](https://www.redhat.com/en/blog/deploying-openshift-4.4-to-vmware-vsphere-7)
+[![openshift 4 to vsphere 7](images/OpenShift4-to-vSphere7.png)](https://www.redhat.com/en/blog/channel/hybrid-cloud-infrastructure/deploying-openshift-4.4-to-vmware-vsphere-7)
 
 </center>
 <br/>
@@ -262,7 +262,7 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 
 - [stackoverflow.com: Is that possible to deploy an openshift or kubernetes in DMZ zone? 🌟](https://stackoverflow.com/questions/59518363/is-that-possible-to-deploy-an-openshift-or-kubernetes-in-dmz-zone) 
 - [OpenShift and Network Security Zones: Coexistence Approaches 🌟🌟🌟](https://www.redhat.com/en/blog/openshift-and-network-security-zones-coexistence-approaches)
-    - **Introduction:** Kubernetes and consequently OpenShift adopt a [flat Software Defined Network (SDN) model](https://kubernetes.io/docs/concepts/cluster-administration/networking), which means that all pods in the SDN are in the same logical network. Traditional network implementations adopt a zoning model in which different networks or zones are dedicated to specific purposes, with very strict communication rules between each zone. When implementing OpenShift in organizations that are using network security zones, the two models may clash. In this article, we will analyze a few options for coexistence. But first, let’s understand the two network models a bit more in depth.
+    - **Introduction:** Kubernetes and consequently OpenShift adopt a [flat Software Defined Network (SDN) model](https://kubernetes.io/docs/concepts/cluster-administration/networking), which means that all pods in the SDN are in the same logical network. Traditional network implementations adopt a zoning model in which different networks or zones are dedicated to specific purposes, with very strict communication rules between each zone. When implementing OpenShift in organizations that are using network security zones, the two models may clash. we will analyze a few options for coexistence. But first, let’s understand the two network models a bit more in depth.
     - Network Zones have been the widely accepted approach for building security into a network architecture. The general idea is to create separate networks, each with a specific purpose. Each network contains devices with similar security profiles. Communications between networks is highly scrutinized and controlled by firewall rules ([perimeter defense](https://en.wikipedia.org/wiki/All_round_defence)).
     - **Conclusion:** A company’s security organization must be involved when deciding how to deploy OpenShift with regard to traditional network zones. Depending on their level of comfort with new technologies you may have different options. If physical network separation is the only acceptable choice, you will have to build a cluster per network zone. If logical network type of separations can be considered, then there are ways to stretch a single OpenShift deployment across multiple network zones. This post presented a few technical approaches.
 
@@ -275,13 +275,13 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 
 #### OpenShift Route and OpenShift Ingress
 
-- [openshift.com: Kubernetes Ingress vs OpenShift Route](https://www.redhat.com/en/blog/kubernetes-ingress-vs-openshift-route)
+- [openshift.com: Kubernetes Ingress vs OpenShift Route](https://www.redhat.com/en/blog/channel/hybrid-cloud-infrastructure/kubernetes-ingress-vs-openshift-route)
 - [cloud.ibm.com: OpenShift Ingress](https://cloud.ibm.com/docs/openshift?topic=openshift-ingress)
 
 #### OpenShift Egress
 
-- [Accessing External Services Using Egress Router](https://www.redhat.com/en/blog/channel/hybrid-cloud-infrastructure/accessing-external-services-using-egress-router)
-- [How to Enable Static Egress IP in OCP](https://www.redhat.com/en/blog/how-to-enable-static-egress-ip-in-ocp)
+- [Accessing External Services Using Egress Router](https://www.redhat.com/en/blog/accessing-external-services-using-egress-router)
+- [How to Enable Static Egress IP in OCP](https://www.redhat.com/en/blog/channel/hybrid-cloud-infrastructure/how-to-enable-static-egress-ip-in-ocp)
 - [dzone: OpenShift Egress Options](https://dzone.com/articles/openshift-egress-options) Network security is a crucial part of any of Software as a Service type business. Read on to see how to implement OpenShift to create better network security.
 
 ## Openshift Compliant Docker Images
@@ -294,7 +294,7 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 
 ### Gitlab
 
-- [Get started with OpenShift Origin 3 and GitLab](https://about.gitlab.com/blog/2016/06/28/get-started-with-openshift-origin-3-and-gitlab)
+- [Get started with OpenShift Origin 3 and GitLab](https://about.gitlab.com/blog/get-started-with-openshift-origin-3-and-gitlab)
 
 ### Atlassian Confluence6 
 
@@ -325,12 +325,12 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 ## OpenShift on AWS
 
 - [blog.openshift.com: AWS and red hat quickstart workshop](https://www.redhat.com/en/blog/aws-and-red-hat-quickstart-workshop)
-- [aws.amazon.com: AWS Quick Start (OpenShift 3.11 on AWS)](https://aws.amazon.com/quickstart/architecture/openshift) View deployment guide
+- [aws.amazon.com: AWS Quick Start (OpenShift 3.11 on AWS)](https://aws.amazon.com/solutions) View deployment guide
 - [openshift.com: Introducing Red Hat OpenShift Service on AWS](https://www.redhat.com/en/blog/introducing-red-hat-openshift-service-on-aws)
 
 ## OpenShift Dedicated
 
-- [OpenShift Dedicated 🌟](https://www.redhat.com/en/technologies/cloud-computing/openshift/dedicated)
+- [OpenShift Dedicated 🌟](https://www.redhat.com/en/technologies/cloud-computing/openshift/products/dedicated)
 - [Red Hat OpenShift Dedicated price reduction: Price lowered by 75% on average, SLA improved to 99.95% 🌟](https://www.redhat.com/en/blog/red-hat-openshift-dedicated-price-reduction)
 
 ## Other Awesome Lists

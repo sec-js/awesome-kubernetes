@@ -32,9 +32,9 @@
 14. [Prometheus SaaS Solutions](#prometheus-saas-solutions)
 15. [Proof of Concept: ActiveMQ Monitoring with Prometheus](#proof-of-concept-activemq-monitoring-with-prometheus)
      1. [PoC: ActiveMQ 5.x Monitoring with Telegraf Collector, Prometheus and Grafana Dashboard 10702](#poc-activemq-5x-monitoring-with-telegraf-collector-prometheus-and-grafana-dashboard-10702)
-         1. [Deployment and Configuration](#deployment-and-configuration-for-activemq-5x)
+         1. [Deployment and Configuration](#deployment-and-configuration)
      2. [PoC: ActiveMQ Artemis Monitoring with Prometheus Metrics Plugin (Micrometer Collector) and Prometheus. Grafana Dashboard not available](#poc-activemq-artemis-monitoring-with-prometheus-metrics-plugin-micrometer-collector-and-prometheus-grafana-dashboard-not-available)
-         1. [Deployment and Configuration](#deployment-and-configuration-for-activemq-artemis)
+         1. [Deployment and Configuration](#deployment-and-configuration-1)
      3. [Validation of Artemis Broker Monitoring with JMeter](#validation-of-artemis-broker-monitoring-with-jmeter)
          1. [JMeter Example Test Plans](#jmeter-example-test-plans)
 16. [Prometheus and Azure](#prometheus-and-azure)
@@ -95,7 +95,7 @@
 - [gabrieltanner.org: Golang Application monitoring using Prometheus](https://gabrieltanner.org/blog/collecting-prometheus-metrics-in-golang)
 - [promlens.com 🌟](https://promlens.com) The power tool for querying Prometheus. Build, understand, and fix your queries much more effectively with the ultimate query builder for PromQL
 - [medium: Prometheus monitoring with Elastic Stack in Kubernetes 🌟](https://medium.com/avmconsulting-blog/prometheus-monitoring-with-elastic-stack-in-kubernetes-5cf0aaa7ce04) Monitoring is one of the key components for managing large clusters. For this, we have several tools.
-- [grafana.com: How we use metamonitoring Prometheus servers to monitor all other Prometheus servers at Grafana Labs](https://grafana.com/blog/2021/04/08/how-we-use-metamonitoring-prometheus-servers-to-monitor-all-other-prometheus-servers-at-grafana-labs) If you rely on Prometheus for your monitoring, and your monitoring fails, how will you know? Learn how to set up Prometheus servers to monitor all other Prometheus servers
+- [grafana.com: How we use metamonitoring Prometheus servers to monitor all other Prometheus servers at Grafana Labs](https://grafana.com/blog/how-we-use-metamonitoring-prometheus-servers-to-monitor-all-other-prometheus-servers-at-grafana-labs) If you rely on Prometheus for your monitoring, and your monitoring fails, how will you know? Learn how to set up Prometheus servers to monitor all other Prometheus servers
 - [portworx.com: Monitoring Kubernetes Backup with Prometheus and Grafana](https://portworx.com/kubernetes-backup-monitoring)
 - [sysdig.com: Top 10 metrics in PostgreSQL monitoring with Prometheus 🌟](https://www.sysdig.com/blog/postgresql-monitoring)
 - [itnext.io: Observability at Scale](https://itnext.io/observability-at-scale-52d0d9a5fb9b)
@@ -126,9 +126,9 @@ Thanos Metrics with prometheus in Kubernetes environments.
 - [==medium.com/gumgum-tech: How to reduce your Prometheus cost | Daniel Fernandez==](https://medium.com/gumgum-tech/how-to-reduce-your-prometheus-cost-6c7cc685e347) Prometheus is an excellent service to monitor your containerized applications. Still, it can get expensive quickly if you ingest all of the Kube-state-metrics metrics, and you are probably not even using them all. This is especially true when using a service like Amazon Managed Service for Prometheus (AMP) because you get billed by metrics ingested and stored.
 - [medium.com/kubecost: Prometheus Grafana: configuration & query examples 🌟](https://medium.com/kubecost/prometheus-grafana-configuration-query-examples-885b91b6ca6)
 - [sysdig.com: Prometheus 2.37 – The first long-term supported release! 🌟](https://www.sysdig.com/blog)
-- [dev.to: How to monitor nginx in Kubernetes with Prometheus](https://dev.to/eckelon/how-to-monitor-nginx-in-kubernetes-with-prometheus-j5f) In this article, you'll learn how to monitor nginx in Kubernetes with Prometheus and troubleshoot issues related to latency, saturation, etc
+- [dev.to: How to monitor nginx in Kubernetes with Prometheus](https://dev.to/eckelon/how-to-monitor-nginx-in-kubernetes-with-prometheus-j5f) you'll learn how to monitor nginx in Kubernetes with Prometheus and troubleshoot issues related to latency, saturation, etc
 - [promlabs.com: Avoid These 6 Mistakes When Getting Started With Prometheus](https://promlabs.com/blog/2022/12/11/avoid-these-6-mistakes-when-getting-started-with-prometheus)
-- [itnext.io: Hardening Monitoring: a step-by-step guide](https://itnext.io/hardening-monitoring-a-step-by-step-guide-7a18007c915) In this article, I walk through how to serve metrics-server, prometheus-server and prometheus-adapter securely.
+- [itnext.io: Hardening Monitoring: a step-by-step guide](https://itnext.io/hardening-monitoring-a-step-by-step-guide-7a18007c915) I walk through how to serve metrics-server, prometheus-server and prometheus-adapter securely.
 - [blog.devops.dev: Deploying Prometheus and Grafana in a Multi-Node Kubernetes Cluster and Auto-Scaling with KEDA](https://blog.devops.dev/deploying-prometheus-and-grafana-in-a-multi-node-kubernetes-cluster-and-auto-scaling-with-keda-eccecfbd8950)
 - [blog.devops.dev: Observability: Better CI for your prometheus alerts with pint instead of promtool 🌟](https://blog.devops.dev/observability-better-ci-for-your-prometheus-alerts-32aaea3b3d77)
 - [blog.zelarsoft.com: Website Monitoring By Using Prometheus Blackbox Exporter with Grafana](https://blog.zelarsoft.com/website-monitoring-by-using-prometheus-blackbox-exporter-with-grafana-c4004bb03131)
@@ -137,14 +137,14 @@ Thanos Metrics with prometheus in Kubernetes environments.
 - [==blog.devops.dev: How to Monitor your Application using Prometheus== 🌟](https://blog.devops.dev/deploying-and-monitoring-an-application-using-prometheus-on-kubernetes-cluster-483773f789f) In this Blog, we will be able to deploy our application in an EKS cluster and monitor it with Prometheus
 - [==dzone.com: Deploying Prometheus and Grafana as Applications Using ArgoCD — Including Dashboards==](https://dzone.com/articles/deploying-prometheus-and-grafana-as-applications-u) Goodbye to the headaches of manual infrastructure management, and hello to a more efficient and scalable approach with ArgoCD.
 - [medium.com: How to find unused Prometheus metrics using mimirtool 🌟](https://medium.com/@dotdc/how-to-find-unused-prometheus-metrics-using-mimirtool-a44560173543)
-- [rtfm.co.ua: Prometheus: Kubernetes endpoints monitoring with blackbox-exporter](https://rtfm.co.ua/en/prometheus-kubernetes-endpoints-monitoring-with-blackbox-exporter) In this tutorial, you will learn how to deploy the blackbox-exporter and configure monitoring of endpoints with the Kubernetes ServiceMonitors. And finally, you will discuss Blackbox probes which are used to poll endpoints.
+- [rtfm.co.ua: Prometheus: Kubernetes endpoints monitoring with blackbox-exporter](https://rtfm.co.ua/en/prometheus-kubernetes-endpoints-monitoring-with-blackbox-exporter) how to deploy the blackbox-exporter and configure monitoring of endpoints with the Kubernetes ServiceMonitors. And finally, you will discuss Blackbox probes which are used to poll endpoints.
 - [medium.com/criteo-engineering: How we reduced our Prometheus infrastructure footprint by a third](https://medium.com/criteo-engineering/how-we-reduced-our-prometheus-infrastructure-footprint-by-a-third-8bf8171e46b1)
 - [blog.devops.dev: Observability Concept in Prometheus](https://blog.devops.dev/observability-concept-in-prometheus-9f0093fa7495) In This blog, we will talk more about other components of Prometheus that are useful in understanding and in the field of DevOps and SRE. These terms are common in Prometheus also the topics are discussed in PCA certification
 - [==horovits.medium.com: Prometheus Now Supports OpenTelemetry Metrics==](https://horovits.medium.com/prometheus-now-supports-opentelemetry-metrics-83f85878e46a)
 - [==thenewstack.io: 30 Pull Requests Later, Prometheus Memory Use Is Cut in Half==](https://thenewstack.io/30-pull-requests-later-prometheus-memory-use-is-cut-in-half) Grafana Labs Distinguished Engineer Bryan Boreham detailed at KubeCon how he reduced the memory usage of Prometheus.
 - [devxblog.hashnode.dev: Prometheus: Elevate Your Monitoring Game](https://devxblog.hashnode.dev/prometheus-elevate-your-monitoring-game)
 - [devxblog.hashnode.dev: Simplified Setup: Prometheus, cAdvisor, redis and Node Exporter](https://devxblog.hashnode.dev/simplified-setup-prometheus-cadvisor-redis-and-node-exporter)
-- [==grafana.com: Get started with Prometheus with these three easy projects==](https://grafana.com/blog/2021/01/08/get-started-with-prometheus-with-these-three-easy-projects)
+- [==grafana.com: Get started with Prometheus with these three easy projects==](https://grafana.com/blog/get-started-with-prometheus-with-these-three-easy-projects)
 - [fosstechnix.com: Install Prometheus and Grafana on Ubuntu 24.04 LTS 🌟](https://www.fosstechnix.com/install-prometheus-and-grafana-on-ubuntu-24-04)
 
 <center markdown="1">
@@ -164,7 +164,7 @@ Thanos Metrics with prometheus in Kubernetes environments.
 
 - [prometheus.io: Introducing Prometheus Agent Mode, an Efficient and Cloud-Native Way for Metric Forwarding](https://prometheus.io/blog/2021/11/16/agent)
 - [cncf.io: Prometheus announces an Agent to address a new range of use cases](https://www.cncf.io/blog/2021/11/16/prometheus-announces-an-agent-to-address-a-new-range-of-use-cases)
-- [grafana.com: Why we created a Prometheus Agent mode from the Grafana Agent](https://grafana.com/blog/2021/11/16/why-we-created-a-prometheus-agent-mode-from-the-grafana-agent)
+- [grafana.com: Why we created a Prometheus Agent mode from the Grafana Agent](https://grafana.com/blog/why-we-created-a-prometheus-agent-mode-from-the-grafana-agent)
 - [thenewstack.io: CNCF Prometheus Agent Could Be a ‘Game Changer’ for Edge](https://thenewstack.io/cncf-prometheus-agent-could-be-a-game-changer-for-edge)
 - [medium.com/@ehsan-khodadadi: Prometheus Multi-Cluster monitoring using Prometheus Agent Mode](https://medium.com/@ehsan-khodadadi/prometheus-multi-cluster-monitoring-using-prometheus-agent-mode-cab2cdb20c11)
 - [medium.com/techspiration: Deploying Prometheus Multi-Cluster monitoring using Prometheus Agent Mode](https://medium.com/techspiration/deploying-prometheus-multi-cluster-monitoring-using-prometheus-agent-mode-a04d89afeed7)
@@ -192,7 +192,7 @@ Thanos Metrics with prometheus in Kubernetes environments.
 ./data/01BKGV7JBM69T2G1BGBGM6KB12/wal
 ./data/01BKGV7JBM69T2G1BGBGM6KB12/wal/000002
 ./data/01BKGV7JBM69T2G1BGBGM6KB12/wal/000001
-```
+```text
 
 - Un proceso en segundo plano compacta los bloques de dos horas en otros más grandes.
 - Es posible almacenar los datos en otras soluciones de "Time-Series Database" como **InfluxDB**.
@@ -222,7 +222,7 @@ Thanos Metrics with prometheus in Kubernetes environments.
 - [**Prometheus TSDB**](https://prometheus.io/docs/prometheus/latest/storage)
 - [**Cortex**:](https://cortexmetrics.io) Provides horizontally scalable, highly available, multi-tenant, long term storage for Prometheus. Cortex allows for storing time series data in a key-value store like Cassandra, AWS DynamoDB, or Google BigTable. It offers a Prometheus compatible query API, and you can push metrics into a write endpoint. This makes it best suited for cloud environments and multi-tenant scenarios like service providers building hosted and managed platforms.
     - [github.com/cortexproject/cortex](https://github.com/cortexproject/cortex)
-    - [Weave Cortex SaaS (Hosted Prometheus - Public Cloud)](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745)
+    - [Weave Cortex SaaS (Hosted Prometheus - Public Cloud)](https://www.weave.works/)
 - [**Thanos**:](https://thanos.io) Open source, **highly available Prometheus setup with long term storage capabilities**.
     - Thanos stores time series data in an object store like AWS S3, Google Cloud Storage, etc. Thanos pushes metrics through a side-car container from each Prometheus server through the gRPC store API to the query service in order to provide a global query view.
     - [github.com/ruanbekker: Thanos Cluster Setup](https://github.com/ruanbekker/thanos-cluster-setup) How to deploy a HA Prometheus setup with Unlimited Data Retention Capabilities on aws cloud S3 with Thanos Metrics.
@@ -234,7 +234,7 @@ Thanos Metrics with prometheus in Kubernetes environments.
     - [goatlas-io/atlas](https://github.com/goatlas-io/atlas) Atlas provides the ability to easily run a secure distributed Thanos deployment.
     - [==thanos-io/kube-thanos: Kubernetes specific configuration for deploying Thanos==](https://github.com/thanos-io/kube-thanos)
     - [medium.com/nerd-for-tech: Deep Dive into Thanos-Part I | Pavan Kumar](https://medium.com/nerd-for-tech/deep-dive-into-thanos-part-i-f72ecba39f76) Monitoring Kubernetes Workloads with Thanos and Prometheus Operator.
-    - [particule.io: Multi-Cluster Monitoring with Thanos 🌟](https://particule.io/en/blog/thanos-monitoring) In this article, you'll learn the limitations of a Prometheus-only monitoring stack and why moving to a Thanos-based stack can improve metrics retention and reduce overall costs for your clusters
+    - [particule.io: Multi-Cluster Monitoring with Thanos 🌟](https://particule.io/en/blog/thanos-monitoring) you'll learn the limitations of a Prometheus-only monitoring stack and why moving to a Thanos-based stack can improve metrics retention and reduce overall costs for your clusters
 - [**M3**:](https://m3db.io) An open source, large-scale metrics platform developed by Uber. It has its own time series database, M3DB. Like Thanos, M3 also uses a side-car container to push the metrics to the DB. In addition, it supports metric deduplication and merging, and provides distributed query support.
 Although it's exciting to see attempts to address the challenges of running Prometheus at scale, these are very young projects that are not widely used yet.
 - [VictoriaMetrics](https://victoriametrics.com)
@@ -321,7 +321,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 - [Telegraf Ansible Role](https://github.com/rossmcdonald/telegraf)
 - [Grafana Dashboards with Telegraf Collectors](https://grafana.com/grafana/dashboards/?collector=Telegraf)
 - [dzone: Synthetic Monitoring With Telegraf (white-box monitoring) [ARCHIVED]]( http://web.archive.org/web/20220927234147/https://dzone.com/articles/synthetic-monitoring-with-telegraf) Monitoring based on metrics exposed by the internals of the system
-- [grafana.com: Using Telegraf plugins to visualize industrial IoT data with the Grafana Cloud Hosted Prometheus service](https://grafana.com/blog/2021/04/05/using-telegraf-plugins-to-visualize-industrial-iot-data-with-the-grafana-cloud-hosted-prometheus-service)
+- [grafana.com: Using Telegraf plugins to visualize industrial IoT data with the Grafana Cloud Hosted Prometheus service](https://grafana.com/blog/using-telegraf-plugins-to-visualize-industrial-iot-data-with-the-grafana-cloud-hosted-prometheus-service)
 - [sysadminxpert.com: How to Monitor Linux System with Grafana and Telegraf](https://sysadminxpert.com/monitor-linux-system-with-grafana-and-telegraf)
 - [influxdata.com: Three Ways to Keep Cardinality Under Control When Using Telegraf](https://www.influxdata.com/blog/three-ways-to-keep-cardinality-under-control-when-using-telegraf)
 
@@ -336,7 +336,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 ## Prometheus and Cloud Monitoring
 
 - AWS CloudWatch is supported by Prometheus.
-- https://aws.amazon.com/prometheus
+- https://aws.amazon.com/prometheus/
 - [cloud.google.com: Get planet-scale monitoring with Managed Service for Prometheus](https://cloud.google.com/blog/products/operations/introducing-google-cloud-managed-service-for-prometheus) Prometheus, the de facto standard for Kubernetes monitoring, works well for many basic deployments, but managing Prometheus infrastructure can become challenging at scale. As Kubernetes deployments continue to play a bigger role in enterprise IT, scaling Prometheus for a large number of metrics across a global footprint has become a pressing need for many organizations. Today, we’re excited to announce the public preview of Google Cloud Managed Service for Prometheus, a new monitoring offering designed for scale and ease of use that maintains compatibility with the open-source Prometheus ecosystem.
 
 ## Prometheus Installers
@@ -396,7 +396,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 
 ## Prometheus SaaS Solutions
 
-- [Weave Cortex SaaS (Hosted Prometheus - Public Cloud)](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745)
+- [Weave Cortex SaaS (Hosted Prometheus - Public Cloud)](https://www.weave.works/)
 - [logz.io](https://logz.io)
     - [logz.io: Logz.io’s Prometheus-as-a-Service is Generally Available 🌟](https://logz.io/blog/prometheus-as-a-service-launch)
 - [Amazon Managed Service for Prometheus](https://aws.amazon.com/prometheus)
@@ -422,7 +422,7 @@ Red Hat AMQ 7 Operator is fully supported in OpenShift 4.x, initially with Prome
     - [github.com/influxdata/telegraf/tree/master/plugins/inputs/activemq](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/activemq)
     - [docs.wavefront.com/activemq.html](https://docs.wavefront.com/activemq.html)
 
-#### Deployment and Configuration for ActiveMQ 5.x
+#### Deployment and Configuration
 
 - Systemd
 
@@ -431,7 +431,7 @@ Red Hat AMQ 7 Operator is fully supported in OpenShift 4.x, initially with Prome
 /etc/systemd/system/activemq.service
 /usr/lib/systemd/system/telegraf.service
 /usr/lib/systemd/system/grafana-server.service
-```
+```text
 
 - Systemctl
 
@@ -441,17 +441,17 @@ for service in activemq telegraf prometheus grafana-server; do systemctl status 
 for service in activemq telegraf prometheus grafana-server; do systemctl restart $service; done
 for service in activemq telegraf prometheus grafana-server; do systemctl stop $service; done
 for service in activemq telegraf prometheus grafana-server; do systemctl start $service; done
-```
+```text
 
 - Jolokia Permissions already integrated in ActiveMQ by default. Jolokia permissions have been disabled by renaming "jolokia-access.xml" to "jolokia-access.xmlORIG" (this is a Proof of Concept):
 
 ```bash
 mv /opt/activemq/webapps/api/WEB-INF/classes/jolokia-access.xml /opt/activemq/webapps/api/WEB-INF/classes/jolokia-access.xmlORIG
-```
+```text
 
 - Telegraf Jolokia Input Plugin /etc/telegraf/telegraf.d/activemq.conf
 
-```toml
+```text
 [[inputs.jolokia2_agent]]
 urls = ["http://localhost:8161/api/jolokia"]
 name_prefix = "activemq."
@@ -495,14 +495,15 @@ tag_keys = ["brokerName","destinationName"]
 [[inputs.jolokia2_agent.metric]]
 name     = "broker"
 mbean    = "org.apache.activemq:brokerName=*,type=Broker"
-paths    = ["TotalConsumerCount","TotalMessageCount","TotalEnqueueCount","TotalDequeueCount","MemoryLimit","MemoryPercentUsage","StoreLimit","StorePercentUsage","TempPercentUsage","TempLimit"]
+paths    = ["TotalConsumerCount","TotalMessageCount","TotalEnqueueCount","TotalDequeueCount","MemoryLimit","MemoryPercentUsage","StoreLimi
+t","StorePercentUsage","TempPercentUsage","TempLimit"]
 tag_keys = ["brokerName"]
-```
+```text
 
 - InfluxDB: Not required.
 - Defautl /etc/telegraf/telegraf.conf file is modified to allow Prometheus to collect ActiveMQ metrics by pulling Telegraf metrics:
 
-```toml
+```text
   # # Configuration for the Prometheus client to spawn
   [[outputs.prometheus_client]]
   #   ## Address to listen on
@@ -520,11 +521,11 @@ tag_keys = ["brokerName"]
   password = "admin"
   ...
   ...
-```
+```text
 
 - scrape_configs in /opt/prometheus/prometheus.yml
 
-```yaml
+```text
   scrape_configs:
   # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
   - job_name: 'prometheus'
@@ -535,7 +536,7 @@ tag_keys = ["brokerName"]
   - job_name: 'broker'
       static_configs:
       - targets: ['localhost:9273']
-```
+```text
 
 - Grafana Dashboard [10702](https://grafana.com/grafana/dashboards/10702-activemq) is imported from Grafana UI -> "import dashboard". Prometheus data source is connected manually with Grafana via Grafana UI.
 
@@ -554,7 +555,7 @@ tag_keys = ["brokerName"]
     - [Apache ActiveMQ Artemis Management Console](https://artemis.apache.org/components/artemis/documentation/latest/management-console.html)
     - [Apache ActiveMQ Artemis Metrics](http://activemq.apache.org/components/artemis/documentation/latest/metrics.html)
 
-#### Deployment and Configuration for ActiveMQ Artemis
+#### Deployment and Configuration
 
 - systemd
 
@@ -562,7 +563,7 @@ tag_keys = ["brokerName"]
 /etc/systemd/system/prometheus.service
 /etc/systemd/system/artemis.service
 /usr/lib/systemd/system/grafana-server.service
-```
+```text
 
 - systemctl
 
@@ -574,7 +575,7 @@ tag_keys = ["brokerName"]
  for service in artemis prometheus grafana-server; do systemctl restart $service; done
  for service in artemis prometheus grafana-server; do systemctl stop $service; done
  for service in artemis prometheus grafana-server; do systemctl start $service; done
-```
+```text
 
 - Creation of Artemis Broker
 
@@ -594,13 +595,13 @@ You can now start the broker by executing:
 Or you can run the broker in the background using:
 
    "/var/lib/artemisbroker/bin/artemis-service" start
-```
+```text
 
 - Permissions change in broker directory
 
 ```bash
 # chown -R activemq. /var/lib/artemisbroker/
-```
+```text
 
 - Running artemis broker
 
@@ -608,7 +609,7 @@ Or you can run the broker in the background using:
 # su - activemq
 $ cd /var/lib/artemisbroker/
 $ /var/lib/artemisbroker/bin/artemis run
-```
+```text
 
 - Artemis Prometehus Console Access. We can now access to Artemis Console via http://my_servername.my_domain:8161/console using the credentials specified during the CLI deployment (artemisuser / artemispassword)
 
@@ -635,42 +636,42 @@ ctivemq/.m2/repository/org/apache/activemq/artemis-prometheus-metrics-plugin/1.0
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for artemis-prometheus-metrics-pom 1.0.0.CR1:
 [INFO]
-[INFO] artemis-prometheus-metrics-pom ..................... SUCCESS [  0.328 s]
-[INFO] ActiveMQ Artemis Prometheus Metrics Plugin Servlet . SUCCESS [  7.964 s]
-[INFO] ActiveMQ Artemis Prometheus Metrics Plugin ......... SUCCESS [ 34.596 s]
+[INFO] artemis-prometheus-metrics-pom ..................... SUCCESS [0.328 s]
+[INFO] ActiveMQ Artemis Prometheus Metrics Plugin Servlet . SUCCESS [7.964 s]
+[INFO] ActiveMQ Artemis Prometheus Metrics Plugin ......... SUCCESS [34.596 s]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
 [INFO] Total time:  43.030 s
 [INFO] Finished at: 2020-04-10T13:36:27+02:00
 [INFO] ------------------------------------------------------------------------
-```
+```text
 
 - New artifact is copied to artemis broker. Artefact artemis-prometheus-metrics-plugin/target/artemis-prometheus-metrics-plugin-VERSION.jar is copied to our broker:
 
 ```bash
 [activemq@my_servername artemis-prometheus-metrics-plugin]$ cp artemis-prometheus-metrics-plugin/target/artemis-prometheus-metrics-plugin-
 1.0.0.CR1.jar /var/lib/artemisbroker/lib/
-```
+```text
 
 - Edition of file /var/lib/artemisbroker/etc/broker.xml
 
-```xml
+```text
 <metrics-plugin class-name="org.apache.activemq.artemis.core.server.metrics.plugins.ArtemisPrometheusMetricsPlugin"/>
-```
+```text
 
 - Creation of <artemis_instance>/web
 
-```bash
+```text
 [activemq@my_servername artemisbroker]$ mkdir /var/lib/artemisbroker/web
-```
+```text
 
 - Artifact artemis-prometheus-metrics-plugin-servlet/target/metrics.war is copied to <ARTEMIS_INSTANCE>/web :
 
 ```bash
 [activemq@my_servername artemis-prometheus-metrics-plugin]$ cp artemis-prometheus-metrics-plugin-servlet/target/metrics.war /var/lib/artem
 isbroker/web/
-```
+```text
 
 - Below web component added to <ARTEMIS_INSTANCE>/etc/bootstrap.xml :
 
@@ -679,12 +680,13 @@ isbroker/web/
 ...
 <app url="metrics" war="metrics.war"/>
 ...
-```
+
+```text
 
 - Restart of Artemis Broker
 - Prometheus configuration, scrape_configs in /opt/prometheus/prometheus.yml :
 
-```yaml
+```text
 scrape_configs:
   # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
   - job_name: 'prometheus'
@@ -697,7 +699,7 @@ scrape_configs:
   - job_name: 'broker'
     static_configs:
     - targets: ['localhost:8161']
-```
+```text
 
 - Last step: Apparently there's not Grafana Dashboard available for this use case. It is required to [develop a new Grafana Dashboard](https://www.openlogic.com/blog/how-visualize-prometheus-data-grafana).
 
@@ -714,7 +716,7 @@ scrape_configs:
 
 ```bash
 $ cp /opt/artemis/lib/client/artemis-jms-client-all-2.11.0.jar /opt/apache-jmeter-5.2.1/lib/
-```
+```text
 
 - jndi.properties file is modified with Artemis' IP address (it is not listening on localhost):
 
@@ -722,7 +724,7 @@ $ cp /opt/artemis/lib/client/artemis-jms-client-all-2.11.0.jar /opt/apache-jmete
 $ vim /opt/artemis/examples/perf/jmeter/jndi.properties
 $ cat /opt/artemis/examples/perf/jmeter/jndi.properties
 connectionFactory.ConnectionFactory=tcp://192.168.1.38:61616
-```
+```text
 
 - jndi.properties is packaged in a jar file and moved to $JMETER_HOME/lib :
 
@@ -741,7 +743,7 @@ total 32
 -rw-rw-r-- 1 activemq activemq   946 May 15 08:46 artemis-jndi.jar
 -rw-rw-r-- 1 activemq activemq   833 Jan 10 16:22 jndi.properties
 [activemq@my_servername jmeter]$ cp artemis-jndi.jar /opt/apache-jmeter-5.2.1/lib/
-```
+```text
 
 - Example Test Plans available at Artemis GitHub Repo are run by JMeter (from within the GUI or the CLI):
 
@@ -762,7 +764,7 @@ drwxrwxr-x 3 activemq activemq    19 Jan 10 16:22 ..
 [activemq@my_servername ~]$ /opt/apache-jmeter-5.2.1/bin/jmeter.sh -n -t /opt/artemis/examples/perf/jmeter/1.jms_p2p_test.jmx -l results-file-1.txt -j 1.log
 [activemq@my_servername ~]$ /opt/apache-jmeter-5.2.1/bin/jmeter.sh -n -t /opt/artemis/examples/perf/jmeter/2.pub_sub_test.jmx -l results-file-2.txt -j 2.log
 
-```
+```text
 
 - We can now see metrics displayed on Grafana and Artemis Dashboard:
 

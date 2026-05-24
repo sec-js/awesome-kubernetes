@@ -44,8 +44,8 @@
 - [medium.com/@amitabhprasad: Kubernetes volume backup for disaster recovery](https://medium.com/@amitabhprasad/kubernetes-volume-backup-for-disaster-recovery-56a5facee7fe)
 - [thenewstack.io: K8s Backup and Disaster Recovery Is More Important Than Ever](https://thenewstack.io/k8s-backup-and-disaster-recovery-is-more-important-than-ever) Here are some considerations of a successful Kubernetes data protection strategy.
 - [martinheinz.dev: Backup-and-Restore of Containers with Kubernetes Checkpointing API](https://martinheinz.dev/blog/85) Kubernetes v1.25 introduced Container Checkpointing API as an alpha feature. This provides a way to backup-and-restore containers running in Pods, without ever stopping them. This feature is primarily aimed at forensic analysis, but general backup-and-restore is something any Kubernetes user can take advantage of. So, let's take a look at this brand-new feature and see how we can enable it in our clusters and leverage it for backup-and-restore or forensic analysis.
-- [martinheinz.dev: Backup-and-Restore of Containers with Kubernetes Checkpointing API](https://martinheinz.dev/blog/85) Kubernetes v1.25 introduced Container Checkpointing API — a way to backup-and-restore containers running in Pods, without stopping them. In this article, you'll take a look at it and learn how to leverage it for backup-and-restore or forensic analysis.
-- [blog.palark.com: Kubernetes snapshots: What are they and how to use them? 🌟](https://palark.com/blog/kubernetes-snaphots-usage) With snapshots, you can make more efficient use of your storage solution by creating consistent backups and cloning volumes. In this article, you will find an introduction to snapshots in Kubernetes and an overview of typical use cases.
+- [martinheinz.dev: Backup-and-Restore of Containers with Kubernetes Checkpointing API](https://martinheinz.dev/blog/85) Kubernetes v1.25 introduced Container Checkpointing API — a way to backup-and-restore containers running in Pods, without stopping them. you'll take a look at it and learn how to leverage it for backup-and-restore or forensic analysis.
+- [blog.palark.com: Kubernetes snapshots: What are they and how to use them? 🌟](https://palark.com/blog/kubernetes-snaphots-usage) With snapshots, you can make more efficient use of your storage solution by creating consistent backups and cloning volumes. you will find an introduction to snapshots in Kubernetes and an overview of typical use cases.
 
 ## ETCD Backup
 
@@ -63,12 +63,12 @@
 
 - [Trillio](http://trilio.io)
 - [TrillioVault for Kubernetes](https://www.trilio.io/triliovault-for-kubernetes)
-- [redhat.com: OpenShift Backup and Cluster failover with Triliovault 🌟](https://www.redhat.com/es/about/videos/openshift-backup-and-cluster-failover-triliovault)
+- [redhat.com: OpenShift Backup and Cluster failover with Triliovault 🌟](https://www.redhat.com/es/blog)
 
 ## Backup with Kasten K10
 
 - [Kasten](https://www.veeam.com/products/cloud/kubernetes-data-protection.html)
-- [redhat.com: OpenShift Backup and Recovery with Kasten K10](https://www.redhat.com/en/about/videos/openshift-backup-and-recovery-kasten-k10)
+- [redhat.com: OpenShift Backup and Recovery with Kasten K10](https://www.redhat.com/es/blog)
 - [blog.kasten.io: Extending Kubernetes Application Backup and Mobility to the Edge with Kasten K10 V4.5](https://blog.kasten.io/posts/extending-kubernetes-application-backup-and-mobility-to-the-edge-with-kasten-k10-v4.5)
 - [thenewstack.io: Kasten K10 V4.5: Grafana Observability, More Edge Support](https://thenewstack.io/kasten-k10-v4-5-grafana-observability-more-edge-support)
 - [faun.pub: Kasten K10 on KubeSphere to Ensure Kubernetes Backup and Restore](https://faun.pub/kasten-k10-on-kubesphere-to-ensure-kubernetes-backup-and-restore-1bc59a0b91aa)
@@ -82,7 +82,7 @@
 - [cloud.redhat.com: Velero Backup and Restore of an Application Using gp2 StorageClass on ROSA](https://www.redhat.com/en/blog/velero-backup-and-restore-of-an-application-using-gp2-storageclass-on-rosa)
 - [medium.com/@firat.yasar: Backup & Restore Kubernetes resources with VELERO](https://medium.com/@firat.yasar/backup-restore-kubernetes-resources-with-velero-b7fee14e7664)
 - [skildops.medium.com: Backup an entire Kubernetes cluster using Velero to AWS S3](https://skildops.medium.com/backup-an-entire-kubernetes-cluster-using-velero-to-aws-s3-73d76d51d4bc) Maintaining backup is always rewarding. Learn how to backup and restore an entire K8s cluster in this detailed article
-- [blog.devgenius.io: Backup, Restore and Migrate Kubernetes Cluster resources using Velero](https://blog.devgenius.io/backup-restore-and-migrate-kubernetes-cluster-resources-using-velero-a9b6997e4b54) In this tutorial, you'll learn how to take a backup of resources running in a Kubernetes cluster and migrate them to another cluster using Velero
+- [blog.devgenius.io: Backup, Restore and Migrate Kubernetes Cluster resources using Velero](https://blog.devgenius.io/backup-restore-and-migrate-kubernetes-cluster-resources-using-velero-a9b6997e4b54) you'll learn how to take a backup of resources running in a Kubernetes cluster and migrate them to another cluster using Velero
 
 ## Backup with Portworx PX-Backup
 
@@ -102,7 +102,7 @@
 - [github.com/konveyor/crane: Crane 2.0 🌟](https://github.com/migtools/crane) Crane 2, a tool for rehosting cloud workloads for Kubernetes.
     - [youtube: Crane 2 Preview: Introduction and Demo](https://www.youtube.com/watch?v=esIZS7PVrvs&ab_channel=Konveyor) Migrating workloads across clusters, from one k8s distro to another, will be the focus of open-source tool Crane 2.0. (A tool that's part of the Konveyor community.)
 - [kubebyexample.com: Migrating to Kubernetes with Open Source Tools (Konveyor, Tackle, KubeVirt, Forklift) 🌟](https://kubebyexample.com/community/blog/migrating-to-kubernetes-with-open-source-tools) **KubeByExample's newest learning path applies open source tools to help you rehost, replatform, and refractor your applications to Kubernetes.**
-- [slideshare.net: Migrating Java JBoss EAP Applications to Kubernetes With S2I](https://www.slideshare.net/slideshow/migrating-java-jboss-eap-applications-to-kubernetes-with-s2i/250619399)
+- [slideshare.net: Migrating Java JBoss EAP Applications to Kubernetes With S2I](https://www.slideshare.net/KonveyorIO/migrating-java-jboss-eap-applications-to-kubernetes-with-s2i)
     - Despite the incredible pace of adoption of container orchestration platforms, the vast majority of EAP workloads are still running on VMs or bare metal. In a lot of cases enterprise operation teams are mandated to modernize and move these workloads to the cloud, and containerization and migration to Kubernetes is the natural destination. When talking about this migration path, we're often asked questions like:
         - What's involved?
         - How easy is it to move these workloads?
@@ -124,7 +124,7 @@
 
 ## Books
 
-- [kasten.io: Kubernetes Backup & Recovery For Dummies (Free e-book)](https://www.veeam.com/products/cloud/kubernetes-data-protection.html/kubernetes/resources/books/kubernetes-backup-and-dr-for-dummies)
+- [kasten.io: Kubernetes Backup & Recovery For Dummies (Free e-book)](https://go.veeam.com/kubernetes-backup-recovery-for-dummies)
 
 ## Slides
 
@@ -133,7 +133,7 @@
 
 <center markdown="1">
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/1AC3zrxTauWgCT" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/KonveyorIO/migrating-java-jboss-eap-applications-to-kubernetes-with-s2i" title="Migrating Java JBoss EAP Applications to Kubernetes With S2I" target="_blank">Migrating Java JBoss EAP Applications to Kubernetes With S2I</a> </strong> from <strong><a href="//www.slideshare.net/KonveyorIO" target="_blank">Konveyor Community</a></strong> </div>
+<iframe src="/www.slideshare.net/slideshow/embed_code/key/1AC3zrxTauWgCT" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="/www.slideshare.net/KonveyorIO/migrating-java-jboss-eap-applications-to-kubernetes-with-s2i" title="Migrating Java JBoss EAP Applications to Kubernetes With S2I" target="_blank">Migrating Java JBoss EAP Applications to Kubernetes With S2I</a> </strong> from <strong><a href="/www.slideshare.net/KonveyorIO" target="_blank">Konveyor Community</a></strong> </div>
 
 </center>
 </details>

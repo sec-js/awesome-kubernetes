@@ -111,7 +111,7 @@
   - [Azure Network Security Perimeter Concepts](https://learn.microsoft.com/en-us/azure/private-link/network-security-perimeter-concepts) - *(Related to azure topic)*
   - [A Guide to Azure Data Transfer Pricing](https://techcommunity.microsoft.com/blog/AzureNetworkingBlog/a-guide-to-azure-data-transfer-pricing/4374538) - *(Related to azure topic)*
 
-- [iximiuz.com: Container Networking Is Simple! 🌟](https://iximiuz.com/en/posts/container-networking-is-simple)
+- [iximiuz.com: Container Networking Is Simple! 🌟](https://labs.iximiuz.com/tutorials/container-networking-from-scratch)
     - How to virtualize network resources to make containers think each of them has a dedicated network stack?
     - How to reach the outside world (e.g. the Internet) from inside the container?
 

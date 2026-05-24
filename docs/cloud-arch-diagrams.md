@@ -79,8 +79,8 @@
 - [Lucidchart](https://lucid.co/marketplace/91074b9b/aws)
 - [infviz.io](https://infviz.io)
 - AWS CloudFormer + AWS CloudFormation Designer
-- [What is the best way to generate a visual diagram of the AWS environment which includes VPC, VPN, EC2, and AMIs?](https://acloud.guru/forums/aws-certified-advanced-networking-specialty/discussion/-LELSWplsuDI8q8_KtjN/What%20is%20the%20best%20way%20to%20generate%20a%20visual%20diagram%20of%20the%20AWS%20environment%20which%20includes%20VPC,%20VPN,%20EC2,%20and%20AMIs%3F)
-- [AWS Perspective 🌟](https://aws.amazon.com/solutions/implementations/workload-discovery-on-aws) a tool to automatically visualise your loud workloads.
+- [What is the best way to generate a visual diagram of the AWS environment which includes VPC, VPN, EC2, and AMIs?](https://www.pluralsight.com)
+- [AWS Perspective 🌟](https://docs.aws.amazon.com/solutions/workload-discovery-on-aws) a tool to automatically visualise your loud workloads.
     - https://github.com/awslabs/aws-perspective
     - Perspective inventories your aws accounts and can automatically create architecture diagrams with your resources along with the relationships between them. The diagrams are dynamic and you have the ability to explore them to discover how your resources are associated and connected.
     - Perspective displays indicative costing data for the resources in your diagrams and works cross-account and cross-region.
@@ -91,7 +91,7 @@
 
 ## Google Cloud Architecture Diagramming Tool
 
-- [cloud.google.com: Introducing a Google Cloud architecture diagramming tool](https://cloud.google.com/blog/topics/developers/introducing-google-cloud-architecture-diagramming-tool)
+- [cloud.google.com: Introducing a Google Cloud architecture diagramming tool](https://cloud.google.com/blog)
 
 ## Airflow
 

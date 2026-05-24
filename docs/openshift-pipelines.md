@@ -100,7 +100,7 @@
 - [CI/CD with fabric8](http://fabric8.io/guide/cdelivery.html)
 - [Fabric8 Pipeline Library](https://github.com/fabric8io/fabric8-pipeline-library)
 - [medium - fabric8, please check out jenkins X instead](https://medium.com/@jstrachan/fabric8-please-check-out-jenkins-x-instead-8295a025173a)
-- [github - fabric8, maven plugin](https://github.com/eclipse-jkube/jkube)
+- [github - fabric8, maven plugin](https://github.com/fabric8io/fabric8-maven-plugin )
 
 ### Eclipse JKube Pipeline Library (formerly known as Fabric8 Kubernetes Plugin). Kubernetes & OpenShift Plugins
 
@@ -109,7 +109,7 @@
 
 ### Jenkins Pipelines with OpenShift 3
 
-- [slideshare.net: CI/CD with Openshift and Jenkins 🌟](https://www.slideshare.net/slideshow/cicd-with-openshift-and-jenkins/57944430)
+- [slideshare.net: CI/CD with Openshift and Jenkins 🌟](https://www.slideshare.net/arilivigni/cicd-with-openshift-and-jenkins)
 - [github - using jenkins pipelines with OKD](https://github.com/openshift/origin/tree/main/examples/jenkins/pipeline)
 
 ### OpenShift Jenkins Pipeline (DSL) Plugin. Scripted Syntax (Groovy DSL syntax) VS Declarative Syntax
@@ -165,9 +165,9 @@
 
 <center markdown="1">
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/GNg4EksIW8cNFg" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/arilivigni/cicd-with-openshift-and-jenkins" title="CI/CD with Openshift and Jenkins" target="_blank">CI/CD with Openshift and Jenkins</a> </strong> from <strong><a href="//www.slideshare.net/arilivigni" target="_blank">Ari LiVigni</a></strong> </div>
+<iframe src="/www.slideshare.net/slideshow/embed_code/key/GNg4EksIW8cNFg" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="/www.slideshare.net/arilivigni/cicd-with-openshift-and-jenkins" title="CI/CD with Openshift and Jenkins" target="_blank">CI/CD with Openshift and Jenkins</a> </strong> from <strong><a href="/www.slideshare.net/arilivigni" target="_blank">Ari LiVigni</a></strong> </div>
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/rL59hI2J3e7j6T" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/mozillabros/openshift-container-platform-cicd-build-deploy" title="OPENSHIFT CONTAINER PLATFORM CI/CD Build &amp; Deploy" target="_blank">OPENSHIFT CONTAINER PLATFORM CI/CD Build &amp; Deploy</a> </strong> from <strong><a href="//www.slideshare.net/mozillabros" target="_blank">Natale Vinto</a></strong> </div>
+<iframe src="/www.slideshare.net/slideshow/embed_code/key/rL59hI2J3e7j6T" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="/www.slideshare.net/mozillabros/openshift-container-platform-cicd-build-deploy" title="OPENSHIFT CONTAINER PLATFORM CI/CD Build &amp; Deploy" target="_blank">OPENSHIFT CONTAINER PLATFORM CI/CD Build &amp; Deploy</a> </strong> from <strong><a href="/www.slideshare.net/mozillabros" target="_blank">Natale Vinto</a></strong> </div>
 
 </center>
 </details>

@@ -75,13 +75,13 @@
 
 ## Amazon Alexa. Voice User Interface
 
-- [New Alexa Skills Kit Template: Build a Trivia Skill in under an Hour](https://developer.amazon.com/en-US/blogs/alexa/post/TxDJWS16KUPVKO/new-alexa-skills-kit-template-build-a-trivia-skill-in-under-an-hou)
+- [New Alexa Skills Kit Template: Build a Trivia Skill in under an Hour](https://developer.amazon.com)
 
 ## AWS Partner Network (APN)
 
 - [AWS Partner Network](https://aws.amazon.com/partners)
     - [APN Technology Partners](https://aws.amazon.com/partners/paths)
-    - [APN Consulting Partners](https://aws.amazon.com/partners/paths)
+    - [APN Consulting Partners](https://aws.amazon.com/partners/consulting)
 - [AWS Partner Network (APN) blog](https://aws.amazon.com/blogs/apn)
     - [Active Directory Single Sign-On (SSO) on AWS with Bitium](https://aws.amazon.com/blogs/apn/active-directory-single-sign-on-sso-on-aws-with-bitium)
     - [How to Deploy a High Availability Web Service on AWS Using Spotinst](https://aws.amazon.com/blogs/apn/how-to-deploy-a-high-availability-web-service-on-aws-using-spotinst)
@@ -112,7 +112,7 @@
 
 ## Superwerker
 
-- [superwerker](https://aws.amazon.com/quickstart/architecture/superwerker) Automates AWS Cloud deployments backed by decades of expertise and best practices
+- [superwerker](https://aws.amazon.com/solutions) Automates AWS Cloud deployments backed by decades of expertise and best practices
 
 ## AWS Amplify
 
@@ -158,7 +158,7 @@
 
 - [Trainline.com dumps Oracle and Microsoft, gulps AWS Kool-Aid](http://www.theregister.co.uk/2016/07/13/trainline_dumps_oracle_microsoft_goes_full_aws_cto_interview)
 - [London DevOps - Trainline, A DevOps Journey - Chris Turvil](https://www.youtube.com/watch?v=IUvUmqu1MBQ)
-- [aws.amazon.com: Trainline Case Study](https://aws.amazon.com/solutions/case-studies/trainline)
+- [aws.amazon.com: Trainline Case Study](https://aws.amazon.com/solutions/case-studies)
 - [treblle.com: How does Treblle scale on AWS without breaking the bank?](https://treblle.com/blog/how-does-treblle-scale-on-aws-without-breaking-the-bank)
 - [aws.amazon.com: Creating a digital map of COVID-19 virus for discovery of new treatment compounds](https://aws.amazon.com/blogs/hpc/creating-a-digital-map-of-covid-19-virus-for-discovery-of-new-treatment-compounds)
 
