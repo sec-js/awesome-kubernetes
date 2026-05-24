@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.0.1]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.0.1) - 2026-05-24
+
+### Fixed
+- **V2 Page Stability**: Implemented multi-location support using `v1_locations` to prevent accidental pruning of technical pages (e.g., `angular.md`, `introduction.md`).
+- **Branding Protection**: Restored and locked the V2 Index visual identity, including the Kubernetes banner, automotive container metaphor, and the complete YouTube logo mosaic.
+- **Acronym Normalization**: Standardized short titles in navigation and index to correctly preserve acronyms like **AI**, **MCP**, **IaC**, **AWS**, and **GCP**.
+- **AI Rescue Hardening**: Fixed the AI-driven link rescue logic to reject generic redirects (e.g., `/learn`, `/about`) ensuring high-precision technical links.
+- **URL Normalization trackers**: Added stripping for industrial trackers like `intcmp`, `mc_cid`, and `mc_eid` to maintain inventory canonical integrity (Mandate 24).
+- **YAML Syntax Integrity**: Repaired critical syntax errors in `inventory.yaml` and established automated title quoting/escaping.
+
+### Changed
+- **Evolutionary V2 Integration**: Refactored the V2 Publisher to faithfully integrate new inventory data without radically altering the established v2.0.0 layout.
+- **Resilient Rendering**: Enabled conservative link inclusion in `render-only` mode to preserve "Standard References" while pending AI hierarchical evaluation.
+
 ## [[2.0.0]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.0.0) - 2026-05-22
 
 ### Added
