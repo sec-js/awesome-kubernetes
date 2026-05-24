@@ -1,7 +1,12 @@
-# Crossplane
+# Crossplane. A Universal Control Plane API for Cloud Computing. Crossplane Workloads Definitions
 
 !!! info "Architectural Context"
-    Detailed reference for Crossplane in the context of Hardened Infrastructure.
+    Detailed reference for Crossplane. A Universal Control Plane API for Cloud Computing. Crossplane Workloads Definitions in the context of Hardened Infrastructure.
+
+## Standard Reference
+
+  - [medium: Using Crossplane to Provision a Kubernetes Cluster in Google Cloud](https://medium.com/dzerolabs/using-crossplane-to-provision-a-kubernetes-cluster-in-google-cloud-cf5374d765ee)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [faun.pub: Defining Infrastructure Declaratively with Crossplane](https://faun.pub/defining-infrastructure-declaratively-with-crossplane-eb9e0a98ae38)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Control Planes
 
@@ -10,7 +15,7 @@
 #### Architectural Strategy
 
   - [Crossplane, a Universal Control Plane API for Cloud Computing](https://www.infoq.com/news/2019/01/upbound-crossplane)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical article introducing Crossplane's architectural strategy. It outlines the core benefits of moving from static execution runs to active, continuously reconciling API-driven cloud control planes.
-#### Crossplane (1)
+#### Crossplane
 
   - **(2026)** [==crossplane.io==](https://www.crossplane.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Crossplane transforms Kubernetes into a universal control plane. By exposing managed cloud infrastructure as custom Resource Definitions (CRDs), it allows platform teams to build native compositions without external IaC tools.
 #### Market Evaluation
@@ -52,5 +57,5 @@
   - **(2023)** [codefresh.io: Using GitOps for Infrastructure and Applications With Crossplane and Argo CD](https://octopus.com/devops/gitops) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This architectural study outlines the synchronization of infrastructure and application deployments using GitOps principles, examining the strategic union of Crossplane and continuous deployment tools.
 
 ---
-💡 **Explore Related:** [Chef](./chef.md) | [Oauth](./oauth.md) | [Securityascode](./securityascode.md)
+💡 **Explore Related:** [Kubernetes Security](./kubernetes-security.md) | [Devsecops](./devsecops.md) | [Kustomize](./kustomize.md)
 

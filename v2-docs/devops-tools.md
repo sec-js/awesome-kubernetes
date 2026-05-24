@@ -1,7 +1,27 @@
-# Devops Tools
+# DevOps Tools aka Toolchain
 
 !!! info "Architectural Context"
-    Detailed reference for Devops Tools in the context of Architectural Foundations.
+    Detailed reference for DevOps Tools aka Toolchain in the context of Architectural Foundations.
+
+## Standard Reference
+
+  - [geekflare.com: devops-tools](https://geekflare.com/devops/config-management-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [IBM Vault 2.0 UI Enhancements and Reporting Improvements](https://t.co/cvOceuueCF)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Technologies & Tools to Watch in 2021 🌟](https://medium.com/dev-genius/technologies-tools-to-watch-in-2021-a216dfc30f25)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [DevOps Toolbox: Jenkins, Ansible, Chef, Puppet, Vagrant, & SaltStack](https://hostadvice.com/blog/devops-toolbox-jenkins-ansible-chef-puppet-vagrant-saltstack)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone.com: DevOps Toolchain for Beginners 🌟](https://dzone.com/articles/devops-toolchain-for-beginners)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [guru99.com: 30 Best DevOps Tools & Technologies](https://www.guru99.com/devops-tools.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [edureka.com: Top 10 DevOps Tools You Must Know In 2020](https://www.c/blog/top-10-devops-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: DevOps tools Handbook 🌟](https://medium.com/@anujsharma12feb/devops-tools-handbook-b42487a53353)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [zigiwave.medium.com: Top 10 Tools your DevOps Teams Should Use in 2022](https://zigiwave.medium.com/top-10-tools-your-devops-teams-should-use-in-2022-569700f40426)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [faun.pub: Top 10 uncommon DevOps tools you should know](https://faun.pub/top-10-uncommon-devops-tools-you-should-know-f4f4464ec7f3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/leapp-cloud: Top 10 uncommon DevOps tools you should know](https://medium.com/leapp-cloud/top-10-uncommon-devops-tools-you-should-know-91dadde9777e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/4th-coffee: 10 New DevOps Tools to Watch in 2023 🌟](https://medium.com/4th-coffee/10-new-devops-tools-to-watch-in-2023-e974dbb1f1bb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/4th-coffee: 10 Best DevOps Tools for Start-ups](https://medium.com/4th-coffee/10-best-devops-tools-for-start-ups-91eb69bc3128)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Relay](https://relay.sh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Web-Check](https://web-check.xyz)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.searce.com: Devtron: One-stop shop for all Kubernetes deployments](https://blog.searce.com/devtron-one-stop-shop-for-all-kubernetes-deployments-6f1c111a7ba1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/cp-massive-programming: Deploying Devtron in a Local K8s Kind' Cluster using Terraform](https://medium.com/cp-massive-programming/deploying-devtron-in-a-local-k8s-kind-cluster-using-terraform-cea9d4d9636)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Cloud Infrastructure
 
@@ -164,5 +184,5 @@
   - **(2020)** [victorops.com: Source Code Control: Trunk-Based Development vs. GitFlow](https://www.splunk.com/en_us/about-splunk/acquisitions/splunk-on-call.html) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Originally published by VictorOps (now acquired by Splunk as Splunk On-Call), this guide provides a direct comparison between Trunk-Based Development and GitFlow. It outlines the operational trade-offs between stability-centric scheduled release cycles and fast continuous deployment.
 
 ---
-💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Customer](./customer.md) | [Mkdocs](./mkdocs.md)
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Cheatsheets](./cheatsheets.md) | [Git](./git.md)
 
