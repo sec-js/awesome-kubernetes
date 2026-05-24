@@ -6,6 +6,7 @@
 ## Standard Reference
 
   - [Part 4 — Using the Go client framework](https://medium.com/programming-kubernetes/building-stuff-with-the-kubernetes-api-part-4-using-go-b1d0e3c1c899)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cdk8s](https://github.com/cdk8s-team/cdk8s) <span class='md-tag md-tag--info'>⭐ 4813</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [github.com/kubernetes-client 🌟](https://github.com/kubernetes-client)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Building stuff with the Kubernetes API — TOC 🌟](https://medium.com/programming-kubernetes/building-stuff-with-the-kubernetes-api-toc-84d751876650)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [k8s-ruby: Kubernetes Ruby Client](https://github.com/k8s-ruby/k8s-ruby) <span class='md-tag md-tag--info'>⭐ 75</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -31,7 +32,6 @@
   - [developers.redhat.com: How to generate code using Fabric8 Kubernetes Client](https://developers.redhat.com/articles/2023/01/24/how-generate-code-using-fabric8-kubernetes-client)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [levelup.gitconnected.com: First Try on Java Operator SDK](https://levelup.gitconnected.com/first-try-on-java-operator-sdk-5a07f30771de)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: How to use Fabric8 Java Client with Kubernetes](https://developers.redhat.com/articles/2023/01/04/how-use-fabric8-java-client-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cdk8s](https://github.com/cdk8s-team/cdk8s) <span class='md-tag md-tag--info'>⭐ 4813</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [blog.twstewart.me: cdk8s-python - A Love and Hate Experience](https://blog.twstewart.me/posts/cdk8s-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [qdnqn.com: Kubernetes objects from Go to YAML using Cdk8s](https://qdnqn.com/create-kubernetes-yaml-definitions-using-go-and-cdk8s)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.marcnuri.com](https://blog.marcnuri.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -52,7 +52,6 @@
 
 ##### Eclipse JKube (1)
 
-  - **(2026)** [**eclipse.org: Migration Guide for projects using Fabric8 Maven Plugin to Eclipse JKube 🌟**](https://eclipse.dev/jkube/docs/migration-guide) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Official technical reference outlining the exact property conversions, API transformations, and plugin changes needed to move builds from `fabric8-maven-plugin` to `jkube-maven-plugin`.
   - [developers.redhat.com: Migrating from Fabric8 Maven Plugin to Eclipse JKube' 1.0.0](https://developers.redhat.com/blog/2020/09/21/migrating-from-fabric8-maven-plugin-to-eclipse-jkube-1-0-0)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Step-by-step technical guide highlighting the namespace transitions, configuration changes, and structural refactoring required when migrating legacy Fabric8 Maven build files to the modernized Eclipse JKube.
 #### Product Updates
 
@@ -77,5 +76,5 @@
   - **(2025)** [GitHub: Eclipse JKube](https://github.com/eclipse-jkube/jkube) <span class='md-tag md-tag--info'>⭐ 850</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Active repository containing the source code, extensions, and Maven/Gradle plugins for Eclipse JKube. Simplifies localized builds, auto-detects Java application frameworks, and generates matching Kubernetes resource configurations.
 
 ---
-💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Docker](./docker.md) | [Serverless](./serverless.md)
+💡 **Explore Related:** [Container Managers](./container-managers.md) | [Kubernetes Monitoring](./kubernetes-monitoring.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
 

@@ -5,6 +5,7 @@
 
 ## Standard Reference
 
+  - [Tech companies cutting devs for AI](https://www.reddit.com/r/ProgrammerHumor/comments/1tbzih8/techcompaniescuttingdevsforai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [guru99.com: Artificial Intelligence Tutorial for Beginners: Learn Basics' of AI 🌟🌟🌟](https://www.guru99.com/ai-tutorial.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [technologyreview.es: "Las empresas que empiezan a lo grande con la IA' fracasan más" 🌟](https://www.technologyreview.es/s/13258/las-empresas-que-empiezan-lo-grande-con-la-ia-fracasan-mas)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hipertextual.com: Diferencias entre Inteligencia Artificial, Machine Learning' y Deep Learning](https://hipertextual.com/2023/02/diferencias-ia-machine-learning)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -12,7 +13,6 @@
   - [Introducing Kiro: AWS Agentic AI-Based IDE](https://markrosscloud.medium.com/introducing-kiro-aws-agentic-ai-based-ide-cded711b1409)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Discussion: Where is AI Still Completely Useless?](https://www.reddit.com/r/Terraform/comments/1l7my1x/where_is_ai_still_completely_useless_for)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hashicorp.com: Accelerate your Terraform development with Amazon CodeWhisperer](https://www.hashicorp.com/blog/accelerate-your-terraform-development-with-amazon-codewhisperer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Tech companies cutting devs for AI](https://www.reddit.com/r/ProgrammerHumor/comments/1tbzih8/techcompaniescuttingdevsforai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.redbrickai.com: F.A.S.T. ⚡️ Meta AI’s Segment Anything for Medical' Imaging](https://blog.redbrickai.com/blog-posts/fast-meta-sam-for-medical-imaging)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hashicorp.com: Accelerating AI adoption on Azure with Terraform](https://www.hashicorp.com/blog/accelerating-ai-adoption-on-azure-with-terraform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hashicorp.com: AI for infrastructure management](https://www.hashicorp.com/solutions/ai-infrastructure-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -364,5 +364,5 @@ Live Grounding: Aggregates verified integrations linking AI models to tools like
   - **(2024)** [**GitHub Copilot CLI for Beginners: Getting Started**](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli/?utm_source=twitter-cli-beginners-getting-started-cta&utm_medium=social&utm_campaign=dev-pod-copilot-cli-2026) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Introductory guide explaining how to integrate the terminal-based GitHub Copilot CLI to leverage natural-language shell queries, automating script development and git lifecycle executions.
 
 ---
-💡 **Explore Related:** [AI Agents MCP](./ai-agents-mcp.md) | [ChatGPT](./chatgpt.md) | [MLOps](./mlops.md)
+💡 **Explore Related:** [ChatGPT](./chatgpt.md) | [AI Agents MCP](./ai-agents-mcp.md) | [MLOps](./mlops.md)
 

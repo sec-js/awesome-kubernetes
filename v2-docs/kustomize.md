@@ -8,12 +8,12 @@
   - [codefresh.io: Applied GitOps with Kustomize](https://octopus.com/blog/applied-gitops-with-kustomize)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [harness.io: Comparing Helm vs Kustomize](https://www.harness.io/blog/helm-vs-kustomize)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [techiescamp.com: Kubernetes Kustomize Crash Course](https://courses.devopscube.com/l/products)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dex.dev: YAML Templating Solutions: Helm & Kustomize](https://www.dex.dev/dex-videos/templating-solutions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kustomize.io 🌟](https://kustomize.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes.io: Introducing kustomize; Template-free Configuration Customization' for Kubernetes](https://kubernetes.io/blog/2018/05/29/introducing-kustomize-template-free-configuration-customization-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Declarative Management of Kubernetes Objects Using Kustomize](https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kubestack Gitops Framework](https://github.com/kbst/terraform-kubestack) <span class='md-tag md-tag--info'>⭐ 711</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [3 ways to customize off-the-shelf Helm charts with Kustomize - Kubernetes](https://tech.aabouzaid.com/2020/09/3-ways-to-customize-off-the-shelf-helm-charts-with-kustomize-kubernetes.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dex.dev: YAML Templating Solutions: Helm & Kustomize](https://www.dex.dev/dex-videos/templating-solutions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.stack-labs.com: Kustomize - The right way to do templating in Kubernetes](https://blog.stack-labs.com/code/kustomize-101)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.com: Modify your Kubernetes manifests with Kustomize](https://opensource.com/article/21/6/kustomize-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: Introduction to Kustomize - How to customize Kubernetes objects' kubernetes](https://dev.to/katiatalhi/introduction-to-kustomize-how-to-customize-kubernetes-objects-3e08)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -48,5 +48,5 @@
   - [blog.tomarrell.com: Kustomize: Traefik v2.2 as a Kubernetes Ingress Controller](https://blog.tomarrell.com/post/traefik_v2_on_kubernetes)  <span class='md-tag md-tag--info'>[LEGACY]</span> — An operations blog outlining Traefik v2.2 deployment using Kustomize overlays. Although the specific Traefik CRD API versions are legacy, the architectural structure of managing ingress with Kustomize remains highly educational.
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Securityascode](./securityascode.md)
+💡 **Explore Related:** [Kubernetes Security](./kubernetes-security.md) | [Devsecops](./devsecops.md) | [Crossplane](./crossplane.md)
 

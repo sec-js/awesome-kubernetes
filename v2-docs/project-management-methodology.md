@@ -146,13 +146,6 @@
   - [euroresidentes.com: La intimidación verbal en la empresa](https://www.euroresidentes.com/empresa/exito-empresarial/la-intimidacin-verbal-en-la-empresa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [swarmia.com/build: Build Elements of an Effective Software Organization](https://www.swarmia.com/build)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Engineering Leadership and Career Dynamics
-
-### Organizational Design and Leadership Systems
-
-#### Engineering Culture
-
-  - **(2021)** [entrepreneur.com: Las 10 preguntas que debes hacerte para saber si eres un buen líder](https://spanish.entrepreneur.com) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a self-diagnostic framework composed of ten strategic evaluation questions designed to gauge leadership efficacy and maturity. Promotes reflective coaching and output-driven organizational alignment. [SPANISH CONTENT]
 ## Security
 
 ### Cloud Native
@@ -162,5 +155,5 @@
   - [Kubernetes Security Best Practices: A DevSecOps Perspective](https://www.linkedin.com/top-content/career)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A DevSecOps assessment explaining key patterns for hardening Kubernetes namespaces. Reviews best practices for securing configuration secrets, configuring network isolation policies, and enforcing runtime container constraints.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Scaffolding](./scaffolding.md) | [Developerportals](./developerportals.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Scaffolding](./scaffolding.md) | [Chaos Engineering](./chaos-engineering.md)
 

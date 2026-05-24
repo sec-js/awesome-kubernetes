@@ -5,8 +5,6 @@
 
 ## Standard Reference
 
-  - [info.crunchydata.com: Quickly Document Your Postgres Database Using psql Meta-Commands](https://www.crunchydata.com/blog/d-meta)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [info.crunchydata.com: How to Setup PostgreSQL Monitoring in Kubernetes](https://www.crunchydata.com/blog/setup-postgresql-monitoring-in-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Just How Challenging Is State in Kubernetes? 🌟](https://thenewstack.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [theregister.com: 75% of databases to be cloud-hosted by 2022, says Gartner while dishing on the weak points of each provider](https://www.theregister.com/software/2020/12/02/75-of-databases-to-be-cloud-hosted-by-2022-says-gartner-while-dishing-on-the-weak-points-of-each-provider/495782)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [percona.com: DBaaS on Kubernetes: Under the Hood 🌟](https://www.percona.com/blog/dbaas-on-kubernetes-under-the-hood)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -27,9 +25,11 @@
   - [percona.com: MySQL on Kubernetes with GitOps 🌟](https://www.percona.com/blog/mysql-on-kubernetes-with-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [tusacentral.com: MySQL on Kubernetes demystified](http://www.tusacentral.com/joomla/index.php/mysql-blogs/243-mysql-on-kubernetes-demystified)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [percona.com: An Overview of Sharding in PostgreSQL and How it Relates to MongoDB’s](https://www.percona.com/blog/an-overview-of-sharding-in-postgresql-and-how-it-relates-to-mongodbs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.crunchydata.com: How to Setup PostgreSQL Monitoring in Kubernetes](https://www.crunchydata.com/blog/setup-postgresql-monitoring-in-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.flant.com: Comparing Kubernetes operators for PostgreSQL](https://palark.com/blog/comparing-kubernetes-operators-for-postgresql)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.crunchydata.com: Cut Out the Middle Tier: Generating JSON Directly from Postgres](https://www.crunchydata.com/blog/generating-json-directly-from-postgres)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [percona.com: How to Adjust Linux Out-Of-Memory Killer Settings for PostgreSQL](https://www.percona.com/blog/out-of-memory-killer-or-savior)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.crunchydata.com: Quickly Document Your Postgres Database Using psql Meta-Commands](https://www.crunchydata.com/blog/d-meta)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.crunchydata.com: Devious SQL: Message Queuing Using Native PostgreSQL](https://www.crunchydata.com/blog/message-queuing-using-native-postgresql)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [theregister.com: MySQL a 'pretty poor database' says departing Oracle engineer](https://www.theregister.com/software/2021/12/06/mysql-a-pretty-poor-database-says-ex-oracle-engineer/539827)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.crunchydata.com: A Postgres Primer for Oracle DBAs](https://www.crunchydata.com/blog/a-postgres-primer-for-oracle-dbas)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -39,8 +39,6 @@
   - [percona.com: MySQL 101: How to Find and Tune a Slow SQL Query](https://www.percona.com/blog/mysql-101-how-to-find-and-tune-a-slow-sql-query)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [percona.com: Storing Kubernetes Operator for Percona Server for MongoDB Secrets in Github](https://www.percona.com/blog/storing-kubernetes-operator-for-percona-server-for-mongodb-secrets-in-github)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [victoriametrics.com: Q2 2024 Round Up: VictoriaMetrics & VictoriaLogs Updates](https://victoriametrics.com/blog/q2-2024-round-up-victoriametrics-and-victorialogs-updates/index.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [treblle.com: How does Treblle scale on AWS without breaking the bank?](https://treblle.com/blog/how-does-treblle-scale-on-aws-without-breaking-the-bank)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [xataka.com: El Excel se ha usado en la Fórmula 1 hasta que se han dado cuenta' que no es la mejor forma de controlar las 20.000 piezas del coche](https://www.xataka.com/automovil/excel-se-ha-usado-formula-1-que-se-han-dado-cuenta-que-no-mejor-forma-controlar-20-000-piezas-coche)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: How Database Load Balancing Completes the 3-Tiered Architecture' 🌟](https://thenewstack.io/database-load-balancing-and-the-delusion-of-3-tiered-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [sqlshack.com: SQL Database on Kubernetes: Considerations and Best Practices' 🌟](https://www.sqlshack.com/sql-database-on-kubernetes-considerations-and-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: What Is Data Management in the Kubernetes Age?](https://thenewstack.io/what-is-data-management-in-the-kubernetes-age)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -60,6 +58,7 @@
   - [dok.community: Data on Kubernetes 2021 Report](https://dok.community/dokc-2021-report)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [venturebeat.com: The rise of Kubernetes and its impact on enterprise databases](https://venturebeat.com/2021/11/03/the-rise-of-kubernetes-and-its-impact-on-enterprise-databases)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [vladmihalcea.com: Single-Primary Database Replication](https://vladmihalcea.com/single-primary-database-replication)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [treblle.com: How does Treblle scale on AWS without breaking the bank?](https://treblle.com/blog/how-does-treblle-scale-on-aws-without-breaking-the-bank)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [intellipaat.com: Difference between DBMS and RDBMS](https://intellipaat.com/blog/dbms-vs-rdbms-difference)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [betterprogramming.pub: Multi-Tenancy Support With Spring Boot, Liquibase,' and PostgreSQL](https://betterprogramming.pub/multi-tenancy-support-with-spring-boot-liquibase-and-postgresql-d41942dc0639)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: How Kubernetes and Database Operators Drive the Data Revolution](https://thenewstack.io/how-kubernetes-and-database-operators-drive-the-data-revolution)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -173,14 +172,8 @@
   - [unifieddatascience.com: Data lake design patterns on google (GCP) cloud](https://www.unifieddatascience.com/data-lake-design-patterns-on-google-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [SQErzo: Tiny ORM for Graph databases](https://github.com/BBVA/sqerzo) <span class='md-tag md-tag--info'>⭐ 35</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [towardsdatascience.com: At Its Core: How Is a Graph Database Different from' a Relational One?](https://towardsdatascience.com/at-its-core-hows-a-graph-database-different-from-a-relational-8297ca99cb8f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [xataka.com: El Excel se ha usado en la Fórmula 1 hasta que se han dado cuenta' que no es la mejor forma de controlar las 20.000 piezas del coche](https://www.xataka.com/automovil/excel-se-ha-usado-formula-1-que-se-han-dado-cuenta-que-no-mejor-forma-controlar-20-000-piezas-coche)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Cluster Management
-
-### Infrastructure Provisioning
-
-#### Kubernetes Operators
-
-  - **(2023)** [learnk8s.io: Provisioning cloud resources (AWS, GCP, Azure) in Kubernetes](https://learnkube.com/cloud-resources-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comparative analysis of Kubernetes Operators for cloud infrastructure provisioning (such as Crossplane, AWS ACK, Google KCC, and Azure ASO). Critiques the shift from Terraform toward declarative reconciliation loops.
 ## Data and Databases
 
 ### Database Administration
@@ -197,5 +190,5 @@
   - [SQL Studio: A Unified SQL Database Explorer](https://github.com/frectonz/sql-studio) <span class='md-tag md-tag--info'>⭐ 3539</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A single-binary SQL database administrator interface written in Rust. It streamlines querying, schema inspection, and data visualization across multiple RDBMS engines (including SQLite, PostgreSQL, and MySQL) in resource-constrained containerized runtimes.
 
 ---
-💡 **Explore Related:** [Message Queue](./message-queue.md) | [NoSQL](./nosql.md) | [Crunchydata](./crunchydata.md)
+💡 **Explore Related:** [Yaml](./yaml.md) | [Message Queue](./message-queue.md) | [NoSQL](./nosql.md)
 

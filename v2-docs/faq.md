@@ -98,5 +98,5 @@
   - [developers.redhat.com: Why Kubernetes native instead of cloud native? 🌟](https://developers.redhat.com/blog/2020/04/08/why-kubernetes-native-instead-of-cloud-native)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: Highlights the distinction between applications run on cloud infrastructure and systems designed specifically to leverage native Kubernetes operators and structures. Live Grounding: Analyzes how API extensions, CRDs, and native configuration constructs improve resilience, efficiency, and resource utilization.
 
 ---
-💡 **Explore Related:** [Cheatsheets](./cheatsheets.md) | [Kubernetes](./kubernetes.md) | [Demos](./demos.md)
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Cheatsheets](./cheatsheets.md) | [Git](./git.md)
 
