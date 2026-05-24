@@ -25,8 +25,6 @@
 - [blog.thundra.io: 4 Software Testing Roles](https://blog.thundra.io/4-software-testing-roles)
 - [lambdatest.com: TestNG vs JUnit : Which testing framework should you choose?](https://www.testmuai.com/blog/testng-vs-junit-which-testing-framework-should-you-choose)
 - [botplayautomation.com: Common mistakes test teams make in automation testing and how to fix them](https://www.botplayautomation.com/post/common-mistakes-test-teams-make-in-automation-testing-and-how-to-fix-them)
-- [blog.testproject.io: A Complete Guide to Test Automation Framework 🌟](https://www.tricentis.com/learn)
-    - [Test Automation Framework: TestProject](https://www.tricentis.com) TestProject is a free end-to-end test automation platform for web, mobile, and API testing that’s supported by
 the #1 test automation community.
 - [botplayautomation.com: Automation Test Plan](https://www.botplayautomation.com/post/automation-test-plan)
 - [devops.com: Continuous Testing Practices (Part 1) 🌟](https://devops.com/continuous-testing-practices-part-1)
@@ -36,9 +34,6 @@ the #1 test automation community.
 - [blog.thundra.io: How to Fix Your Failing End-to-End Tests?](https://blog.thundra.io/how-to-fix-your-failing-end-to-end-tests)
 - [rookout.com: How Real-Time Debugging Improves Reliability](https://www.dynatrace.com/solutions/observability-for-developers)
 - [itnext.io: Software Development Is Misunderstood 🌟](https://itnext.io/software-development-is-misunderstood-quality-is-fastest-way-to-get-code-into-production-f1f5a0792c69) Quality is fastest way to get code into production. **Non-developers focus on creating code, developers focus on creating maintainable code**
-- [blog.testproject.io: The 10–10–10 Rule of Test Automation](https://www.tricentis.com/learn)
-- [blog.testproject.io: End to End Testing](https://www.tricentis.com/learn)
-- [blog.testproject.io: REST API Automation From Scratch 🌟](https://www.tricentis.com/learn)
 - [dzone: Checklist for API Verification 🌟](https://dzone.com/articles/checklist-for-api-verification) These days where Applications talk to each other using API, the verification of any message between the applications/microservices needs to be verified. This checklist includes some best practices for API verification.
 - [thenewstack.io: 7 Benefits of Testing in Isolation](https://thenewstack.io/7-benefits-of-testing-in-isolation)
 - [dzone: We Are Testing Software Incorrectly and It's Costly](https://dzone.com/articles/we-are-testing-software-incorrectly-and-its-costly) We should write tests to enable developers to move fast with confidence. Code is always evolving, so question everything, collect experience, and judge for yourself.
@@ -60,7 +55,6 @@ the #1 test automation community.
 - https://automationqahub.com/
 - https://www.botplayautomation.com/
 - https://www.lambdatest.com/
-- https://blog.testproject.io/
 
 ## Testing Frameworks
 
@@ -79,7 +73,6 @@ the #1 test automation community.
 
 - [Chainsaw - The ultimate end to end testing tool for Kubernetes operators](https://github.com/kyverno/chainsaw)
 - [collabnix.com: The Ultimate Docker Tutorial for Automation Testing](https://collabnix.com/the-ultimate-docker-tutorial-for-automation-testing)
-    - [TestProject](https://www.tricentis.com) Free Test Automation for All.
 - [Allure Report 🌟](https://github.com/allure-framework/allure2)
     - [Allure Jenkins Plugin 🌟](https://plugins.jenkins.io/allure-jenkins-plugin) This plugin allows to automatically generate [Allure Report](http://allure.qatools.ru) and attach it to build during Jenkins job run.
 - [venturebeat.com: Reflect brings automated no-code web testing to the cloud](https://venturebeat.com/2021/01/22/reflect-brings-automated-no-code-web-testing-to-the-cloud)

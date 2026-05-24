@@ -243,12 +243,10 @@
 
 - [softwaretestingportal.com: API Testing, Key Terminologies and more...](http://www.softwaretestingportal.com/2020/03/31/api-testing)
 - [dzone.com: 10 API Testing Tips for Beginners (SOAP and REST)](https://dzone.com/articles/10-api-testing-tips-for-beginners-soap-amp-rest) Let's take a look at ten API testing tips for beginners with a focus on REST APIs and SOAP APIs.
-- [blog.testproject.io: Top 10 API Testing Tools to Watch in 2020 🌟](https://www.tricentis.com/learn)
 - [mockoon 🌟](https://mockoon.com) Create mock APIs in seconds. Mockoon is the easiest and quickest way to run mock API locally. No remote deployment, no account required, open source.
 - [mockapy](https://pythonium.net/mockapy) Create mock APIs from a JSON object and customize their behavior using a Python rule engine. Open source.
 - [thenewstack.io: 4 Essential Tools for Protecting APIs and Web Applications](https://thenewstack.io/4-essential-tools-for-protecting-apis-and-web-applications)
 - [youtube: API Testing Part 1- API Core Concepts](https://www.youtube.com/watch?v=b0D_bkcT4a4&t=1s&ab_channel=SoftwareDiagnosticsCenter)
-- [blog.testproject.io: API Testing 101 🌟](https://www.tricentis.com/learn)
 - [microcks.io 🌟](https://microcks.io) Open source Kubernetes Native tool for API Mocking and Testing. If you are looking for a tool that helps in microservices API testing on Kubernetes it is worth taking a look at microcksio. It supports OpenAPI 3 and e.g. Kafka with [Avro encoding](https://microcks.io/documentation/guides/avro-messaging)
 - [tricentis.com: Getting started with automated continuous performance testing](https://shiftsync.tricentis.com/software-testing-blogs-69/getting-started-with-automated-continuous-performance-testing-406)
 - [dev.to: Top 15 Automated API Testing Tools](https://dev.to/katalon/top-15-automated-api-testing-tools-lasted-update-32ip)
@@ -344,7 +342,6 @@
 
 	<center markdown="1">
 
-	[![top 10 api testing tools](images/summarising_top_10_api_testing_tools.png){: style="width:50%"}](https://www.tricentis.com/learn)
 
 	[![20 API Business Models](images/api_business_models.jpg)](https://www.infoq.com/presentations/API-Business-Models)
 

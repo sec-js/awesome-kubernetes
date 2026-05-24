@@ -224,7 +224,6 @@
 ## Docker for LLMs
   - [Docker for LLMs](https://www.docker.com/llm) - This page from Docker introduces how Docker can be leveraged to deploy and manage Large Language Models (LLMs), highlighting its capabilities in simplifying the LLM development lifecycle. It covers aspects like packaging models, managing dependencies, and scaling LLM applications.
 
-- [blog.testproject.io: A Comparison of Kubernetes and Docker](https://www.tricentis.com/learn)
 - [==containerjournal.com: What’s the Difference Between Docker and Kubernetes?==](https://cloudnativenow.com/features/whats-the-difference-between-docker-and-kubernetes)
 
 ## Docker Patterns and Antipatterns

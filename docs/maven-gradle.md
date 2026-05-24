@@ -36,8 +36,6 @@
 - [maarten.mulders.it: What's New in Maven 4](https://maarten.mulders.it/2020/11/whats-new-in-maven-4)
 - [dev.to: Maven Plugin Configuration - The (Unknown) Tiny Details](https://dev.to/khmarbaise/maven-plugin-configuration-the-unknown-tiny-details-1emm)
 - [ashishtechmill.com: Demystifying Google Container Tool Jib: Java Image Builder](https://www.ashishtechmill.com/demystifying-google-container-tool-jib-java-image-builder) This article covers some internals of image layering created by container image builder Jib and explore what distroless images are and their benefits.
-- [blog.testproject.io: Getting Started with Maven in Less Than 10 Minutes – Part 1](https://www.tricentis.com/learn)
-    - [blog.testproject.io: Getting Started with Maven in Less Than 10 Minutes – Part 2](https://www.tricentis.com/learn)
 - Maven 3.8.2 is available now! It contains several fixes and non invasive backports from the Maven 4 branch. 
 - [phauer.com: Why I Moved Back from Gradle to Maven](https://phauer.com/2018/moving-back-from-gradle-to-maven)
 - [rieckpil.de: Maven Setup For Testing Java Applications](https://rieckpil.de/maven-setup-for-testing-java-applications)

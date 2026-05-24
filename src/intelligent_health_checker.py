@@ -188,9 +188,16 @@ class IntelligentLinkCleaner:
                                 if new_loc and new_loc.startswith("http") and "NONE" not in new_loc.upper():
                                     try:
                                         async with httpx.AsyncClient(timeout=10, follow_redirects=True, verify=False) as client:
-                                            if (await client.get(new_loc)).status_code < 400:
-                                                log_event(f"  [✨] RESCUED: {u} -> {new_loc}")
-                                                check_results[u] = (True, "resurrected", new_loc)
+                                            resp_new = await client.get(new_loc)
+                                            if resp_new.status_code < 400:
+                                                final_new = str(resp_new.url)
+                                                u_p = u.split("://")[-1].rstrip("/")
+                                                f_p = final_new.split("://")[-1].rstrip("/")
+                                                if u_p.count("/") >= 3 and (f_p.count("/") <= 2 or any(kw in f_p for kw in ["/about", "/products", "/home", "/learn"])):
+                                                    log_event(f"  [⚠️] AI proposed a generic redirect for {u} -> {new_loc}. Rejecting.")
+                                                else:
+                                                    log_event(f"  [✨] RESCUED: {u} -> {new_loc}")
+                                                    check_results[u] = (True, "resurrected", new_loc)
                                     except: pass
                 except: pass
 
@@ -307,7 +314,7 @@ class IntelligentLinkCleaner:
                     if final_url != url:
                         u_p = url.split("://")[-1].rstrip("/"); f_p = final_url.split("://")[-1].rstrip("/")
                         if u_p == f_p: return True, "normalized_slashes", final_url
-                        if u_p.count("/") >= 3 and (f_p.count("/") <= 2 or any(kw in f_p for kw in ["/about", "/products", "/home"])):
+                        if u_p.count("/") >= 3 and (f_p.count("/") <= 2 or any(kw in f_p for kw in ["/about", "/products", "/home", "/learn"])):
                             return False, "generic_redirect_loss", None
                     
                     return True, "OK", final_url if final_url != url else None

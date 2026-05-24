@@ -658,7 +658,6 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 
 ## Jenkins X
 
-- [blog.testproject.io: Jenkins X Cloud Native CI/CD with TestProject](https://www.tricentis.com/learn)
 - [Modernize Your CI/CD Pipeline Using Jenkins X with Amazon EKS](https://aws.amazon.com/blogs/apn/modernize-your-ci-cd-pipeline-using-jenkins-x-with-amazon-eks)
 
 ## Spinnaker
