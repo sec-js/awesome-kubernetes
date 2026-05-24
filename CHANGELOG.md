@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Categorized Workflow Matrix**: Enhanced [`README.md`](README.md) section 9.1 with a "Phase / Category" column and direct clickable links to each workflow UI.
 
 ### Fixed
+- **Anonymized Site Metadata**: Removed personal names and emails from MkDocs configuration (V1 and V2) to ensure privacy and prevent Google indexing of contributor identities.
 - **YouTube Mosaic Rendering**: Resolved a critical newline bug breaking the first icon (Docker) in both V1 and V2 index pages.
 - **Persistent V2 Navigation**: Hardcoded Video Hub links in the V2 Index and navigation to ensure stability during automated regeneration.
 - **Markdown Rendering Hardening**: Resolved indentation bugs and Mandate 19 violations (blank lines around center tags).
