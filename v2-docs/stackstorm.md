@@ -1,7 +1,7 @@
-# Stackstorm
+# StackStorm
 
 !!! info "Architectural Context"
-    Detailed reference for Stackstorm in the context of Engineering Pipeline.
+    Detailed reference for StackStorm in the context of Engineering Pipeline.
 
 ## Standard Reference
 
@@ -10,5 +10,5 @@
 
 
 ---
-💡 **Explore Related:** [Argo](./argo.md) | [Cicd Kubernetes Plugins](./cicd-kubernetes-plugins.md) | [Cicd](./cicd.md)
+💡 **Explore Related:** [Registries](./registries.md) | [Jenkins](./jenkins.md) | [CI/CD](./cicd.md)
 

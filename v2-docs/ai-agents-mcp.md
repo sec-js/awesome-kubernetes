@@ -1,7 +1,12 @@
-# Ai Agents Mcp
+# AI Agents and Model Context Protocol (MCP) for Kubernetes
 
 !!! info "Architectural Context"
-    Detailed reference for Ai Agents Mcp in the context of AI and Artificial Intelligence.
+    Detailed reference for AI Agents and Model Context Protocol (MCP) for Kubernetes in the context of AI and Artificial Intelligence.
+
+## Standard Reference
+
+  - [IBM IAM for AI Agents](https://t.co/EKsVgKA4xn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [PulseMCP](https://pulsemcp.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Agentic Engineering
 
@@ -15,6 +20,12 @@ Live Grounding: Explores advanced CLI-driven agent workflows, highlighting confi
 
   - [Cursor AI Fundamentals Course](https://cursor.com/es/learn) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Comprehensive educational course focused on maximizing efficiency within Cursor AI Editor.
 Live Grounding: Delivers strategic instruction on utilizing AI capabilities, codebase indexing, and multi-file edit workflows to accelerate modern software engineering. Explicitly marked as Spanish localized educational content. [SPANISH CONTENT]
+### Agentic Frameworks
+
+#### Skills Integration
+
+  - [Level Up Your Agents: Announcing Google's Official Skills Repository](https://cloud.google.com/blog/topics/developers-practitioners/level-up-your-agents-announcing-googles-official-skills-repository) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Google's official skills repository and toolkit for modular agentic development.
+Live Grounding: Delivers pre-integrated capabilities and action templates allowing Enterprise Gemini Agents to dynamically execute API operations, retrieve structured data, and handle multi-step workflows.
 ### Kubernetes AI Operators
 
 #### Observability Agents
@@ -83,7 +94,14 @@ Live Grounding: Standardizes memory-efficient LLM serving using PagedAttention. 
 
   - **(2023)** [==LocalAI==](https://github.com/mudler/LocalAI) <span class='md-tag md-tag--info'>⭐ 46406</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: A self-hosted, community-first OpenAI-compatible API gateway running on local hardware.
 Live Grounding: Allows developers to host LLMs, audio-to-text, and image generation services inside Kubernetes without external data dependencies, optimized for consumer-grade and enterprise hardware.
+## Platform Engineering
+
+### AI Integration
+
+#### Agentic Engineering (1)
+
+  - [Kiro: Engineering Rigor for Agentic Development](https://kiro.dev) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An emerging framework focused on enforcing software engineering rigor, test-driven validation, and deterministic guardrails within AI Agent-driven code generation and execution loops. Provides platform architectures for managing safe agent-based deployments.
 
 ---
-💡 **Explore Related:** [Ai](./ai.md) | [Chatgpt](./chatgpt.md) | [Mlops](./mlops.md)
+💡 **Explore Related:** [AI](./ai.md) | [ChatGPT](./chatgpt.md) | [MLOps](./mlops.md)
 

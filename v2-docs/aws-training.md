@@ -1,7 +1,15 @@
-# Aws Training
+# AWS Training and Certification
 
 !!! info "Architectural Context"
-    Detailed reference for Aws Training in the context of Cloud Providers (Hyperscalers).
+    Detailed reference for AWS Training and Certification in the context of Cloud Providers (Hyperscalers).
+
+## Standard Reference
+
+  - [Amazon AWS Certification Preparation Tips](http://walkintocloud.com/index.php/2016/06/04/amazon-aws-certification-preparation-tips)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hashnode.tpschmidt.com: My Top 10 Free Learning Resources for AWS](https://hashnode.tpschmidt.com/my-top-10-free-learning-resources-for-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [satyenkumar.medium.com: My Youtube Channel is updated for AWS Certifications' (Over 150 Video list)](https://satyenkumar.medium.com/my-youtube-channel-is-updated-for-aws-certifications-over-150-video-list-1ae7aa81e99d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/towards-cloud-computing: 7 Free AWS Practice Labs and AWS Workshops' resources](https://medium.com/towards-cloud-computing/7-free-aws-practice-labs-and-aws-workshops-resources-d0a861f05d3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [devopsmonk.hashnode.dev: Learn AWS if you want to save your career..!!](https://devopsmonk.hashnode.dev/learn-aws-if-you-want-to-save-your-career)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Cloud Infrastructure
 
@@ -10,6 +18,9 @@
 #### AWS CDK
 
   - [New digital course and lab: AWS Cloud Development Kit (CDK) Primer](https://aws.amazon.com/about-aws/whats-new/2021/01/new-digital-course-and-lab-aws-cloud-development-kit-cdk-primer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An official AWS educational lab covering foundations of the Cloud Development Kit. Focuses on writing structural patterns to deploy secure multi-tier cloud environments using object-oriented languages.
+#### CloudFormation
+
+  - [youtube.com: AWS Cloud Complete Bootcamp Course - CloudFormation | freeCodeCamp' 🌟](https://www.youtube.com/watch?v=zA8guDqfv40)  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive boot-camp produced by freeCodeCamp focusing on CloudFormation foundations. Details modular resource design, dependency mapping, drift protection, and secure infrastructure-as-code delivery pipelines.
 ### Training
 
 #### AWS Deep Dives
@@ -19,6 +30,7 @@
 
   - **(2021)** [==explore.skillbuilder.aws/learn: AWS Skill Builder 🌟==](https://skillbuilder.aws) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — AWS's official digital training hub, offering interactive learning models, gamified simulation sandboxes, and deep system architecture tracks compiled by primary cloud specialists.
   - **(2023)** [community.aws/training: Training and Certification](https://builder.aws.com/learn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An official community hub connecting cloud builders with modern development labs, learning blueprints, and architectural expert-led events.
+  - [AWS Cloud Practitioner - Curso Completo 2023](https://www.youtube.com/watch?v=zQyrhjEAqLs) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A complete video guide systematically mapping the official AWS Cloud Practitioner certification domains in Spanish. [SPANISH CONTENT]
   - [aws.amazon.com: Exámenes prácticos gratuitos y 100% en español para que' obtenga su certificación](https://aws.amazon.com/es/blogs/aws-spanish/examenes-practicos-gratuitos-y-100-en-espanol-para-que-obtenga-su-certificacion) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AWS-published reference article detailing official practice examinations localized in Spanish to support accessible learning globally. [SPANISH CONTENT]
   - [Schedule an Exam](https://aws.amazon.com/certification/certification-prep/testing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official registration and scheduling center for AWS Certification Exams. Provides standard instructions for coordinating remote proctoring environments.
   - [aws.amazon.com: First AWS Certification Study Guide Now Available](https://aws.amazon.com/es/about-aws/whats-new/2016/10/first-aws-certification-study-guide-now-available)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Historically notable launch announcement of the first official AWS-authored certification study guide. While structurally important, newer cloud paradigms limit its relevance for current exams.
@@ -45,5 +57,5 @@
   - **(2021)** [acloudguru.com](https://www.pluralsight.com/cloud-guru)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A premier enterprise learning platform specialized in modern cloud-native system training. Delivers deep hands-on sandbox labs, certification preparation curricula, and continuous technical playground resources.
 
 ---
-💡 **Explore Related:** [Aws Containers](./aws-containers.md) | [Aws Iac](./aws-iac.md) | [Aws Messaging](./aws-messaging.md)
+💡 **Explore Related:** [AWS Security](./aws-security.md) | [AWS Storage](./aws-storage.md) | [AWS Databases](./aws-databases.md)
 

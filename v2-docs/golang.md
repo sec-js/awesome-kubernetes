@@ -1,11 +1,29 @@
-# Golang
+# Golang - Go
 
 !!! info "Architectural Context"
-    Detailed reference for Golang in the context of Developer Ecosystem.
+    Detailed reference for Golang - Go in the context of Developer Ecosystem.
 
 ## Standard Reference
 
+  - [medium: Microservices in Go](https://medium.com/seek-blog/microservices-in-go-2fc1570f6800)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [search.gocenter.io: JFrog Go Center](https://search.gocenter.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ammeon.com: Profiling golang microservices for high throughput on kubernetes/openshift' clusters](https://www.ammeon.com/profiling-golang-microservices-for-high-throughput-on-kubernetes-openshift-clusters)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hashicorp.com: 8 Best Practices for Writing Secure Go Code](https://www.hashicorp.com/resources/8-best-practices-for-writing-secure-go-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [levelup.gitconnected.com: Generics in Go: Viva La Revolution!](https://levelup.gitconnected.com/generics-in-go-viva-la-revolution-e27898bf5495)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [teivah.medium.com: When to Use Generics in Go?](https://teivah.medium.com/when-to-use-generics-in-go-36d49c1aeda)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: Writing My First Microservice Using Go](https://betterprogramming.pub/my-first-microservice-using-golang-c5cf69f1376d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [levelup.gitconnected.com: Concurrency in Go: shared memory](https://levelup.gitconnected.com/concurrency-in-go-shared-memory-a2ef201b396b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/datascale: Know GOMAXPROCS before deploying your GO app to Kubernetes](https://medium.com/datascale/know-gomaxprocs-before-deploying-your-go-app-to-kubernetes-7a458fb63af1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [aly.arriqaaq.com: Golang Design Patterns in Kubernetes](https://aly.arriqaaq.com/golang-design-patterns)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Part 4 — Using the Go client framework](https://medium.com/programming-kubernetes/building-stuff-with-the-kubernetes-api-part-4-using-go-b1d0e3c1c899)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/codex: Explore client-go Informer Patterns](https://medium.com/codex/explore-client-go-informer-patterns-4415bb5f1fbd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [shahin-mahmud.medium.com: Write your first Kubernetes operator in go](https://shahin-mahmud.medium.com/write-your-first-kubernetes-operator-in-go-177047337eae)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.kubesimplify.com: Perform CRUD Operations on Kubernetes Using Golang' 🌟](https://blog.kubesimplify.com/perform-crud-operations-on-kubernetes-using-golang)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [simplecheatsheet.com/tag/golang-cheat-sheet](https://simplecheatsheet.com/tag/golang-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Koa.js](https://koa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [reddit.com: What is the best microservice framework in Go?](https://www.reddit.com/r/golang/comments/jnv4bd/what_is_the_best_microservice_framework_in_go)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/vedcraft: Top Microservices Frameworks in Go](https://medium.com/vedcraft/top-microservices-frameworks-in-go-762445c30dd6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [alexsniffin.medium.com: Debugging Remotely with Go in Kubernetes](https://alexsniffin.medium.com/debugging-remotely-in-kubernetes-with-go-fda4f3332316)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Architecture
 
@@ -182,6 +200,10 @@
 #### Project Scaffolding
 
   - [create-go-app/cli](https://github.com/create-go-app/cli) <span class='md-tag md-tag--info'>⭐ 2761</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight introduces this CLI to construct boilerplate-free backend, frontend, and web applications in Go. Live Grounding shows its capability to pre-configure deployment assets like Dockerfiles and Kubernetes manifests to quicken development cycles.
+#### Reference Docs
+
+  - [devhints.io/go: Go cheatsheet](https://devhints.io/go) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights a concise, single-page reference sheet covering Go syntax, control flow, channels, and basic standard library interfaces. Live Grounding confirms this is a widely-used cheatsheet for quick syntax lookups during day-to-day coding. It is optimized for speed and readability.
+  - [github.com: golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Duplicate reference of the high-density Go cheat-sheet database. It provides programmatic access to Go fundamentals, standard functions, and syntax paradigms to streamline engineering workflows.
 #### Version Managers
 
   - [gobrew 🌟](https://github.com/kevincobain2000/gobrew) <span class='md-tag md-tag--info'>⭐ 421</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights Gobrew as an elegant and fast Go version manager that downloads and switches active toolchains easily. Live Grounding notes its speed and simplicity, making it a competitive alternative to gvm and asdf for dedicated Go development.
@@ -204,6 +226,18 @@
 #### Go Libraries (2)
 
   - [dsa0x/sicher](https://github.com/dsa0x/sicher) <span class='md-tag md-tag--info'>⭐ 31</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight showcases Sicher as a lightweight tool for managing environment variables and secrets securely within Go applications. Live Grounding indicates low community activity and lack of recent updates, which makes it less suitable for production compared to established secure runtimes.
+## Software Engineering
+
+### Developer Experience
+
+#### IDEs and Tooling
+
+  - [IntelliJ vs. VSCode for Rust Development](https://users.rust-lang.org/t/anyone-here-go-intellij-vscode/84499)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Community-driven performance and usability evaluation contrasting IntelliJ Rust and VSCode (rust-analyzer) workflows. Discusses compilation feedback, macro expansion speeds, and debugging tool integrations.
+### NodeJS
+
+#### Best Practices
+
+  - [NodeJS Best Practices (Spanish Translation)](https://github.com/goldbergyoni/nodebestpractices/blob/spanish-translation/README.spanish.md) <span class='md-tag md-tag--info'>⭐ 105273</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight hosts the comprehensive Spanish translation of the premier Node.js architecture and security handbook. Live Grounding validates its immense utility as an industry-standard guide covering testing, error handling, and production safety. [SPANISH CONTENT]
 ## Utilities
 
 ### Go Tools (1)
@@ -213,5 +247,5 @@
   - [rehacktive/caffeine](https://github.com/rehacktive/caffeine) <span class='md-tag md-tag--info'>⭐ 1175</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight shows Caffeine as a simple Go command-line tool designed to prevent system sleep cycles. Live Grounding shows stable but quiet activity, functioning perfectly as an OS-level utility.
 
 ---
-💡 **Explore Related:** [Dom](./dom.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md) | [React](./react.md)
+💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Java_Frameworks](./java_frameworks.md) | [API](./api.md)
 

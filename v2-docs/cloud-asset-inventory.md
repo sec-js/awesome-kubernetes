@@ -3,6 +3,10 @@
 !!! info "Architectural Context"
     Detailed reference for Cloud Asset Inventory in the context of Architectural Foundations.
 
+## Standard Reference
+
+  - [CloudCanvas - Diagramming for Cloud Infrastructure](https://cloudcanvas.co)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
 ## Cloud Infrastructure
 
 ### AWS
@@ -54,5 +58,5 @@
   - [ServerlessHorrors: A Web Compiling Nightmares in the Serverless World](https://revistacloud.com/serverlesshorrors-la-web-que-recoge-las-peores-pesadillas-del-mundo-serverless) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Un compendio técnico sobre los errores más comunes y costosos en el diseño de arquitecturas serverless. Ofrece un análisis crítico de fallos reales de concurrencia, inicios en frío ("cold starts"), costos fuera de control e integración de servicios, sirviendo como guía de advertencia para diseñadores de sistemas distribuidos. [SPANISH CONTENT]
 
 ---
-💡 **Explore Related:** [Customer](./customer.md) | [Devops Tools](./devops-tools.md) | [Mkdocs](./mkdocs.md)
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Cheatsheets](./cheatsheets.md) | [Git](./git.md)
 

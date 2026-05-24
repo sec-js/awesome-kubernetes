@@ -1,7 +1,15 @@
-# Aws Architecture
+# AWS Architecture and Best Practices
 
 !!! info "Architectural Context"
-    Detailed reference for Aws Architecture in the context of Cloud Providers (Hyperscalers).
+    Detailed reference for AWS Architecture and Best Practices in the context of Cloud Providers (Hyperscalers).
+
+## Standard Reference
+
+  - [The Truth About Downtime in the Cloud](http://cloud.netapp.com/blog/prepare-for-the-day-of-all-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [awstip.com: Increase Security and Efficiency with a 3-Tier Cloud Architecture](https://awstip.com/increase-security-and-efficiency-with-a-3-tier-cloud-architecture-bf5e835cd55a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [DZone: A Guide to Performance Challenges with AWS EC2: Part 1](https://blog.appdynamics.com/cloud/a-guide-to-performance-challenges-with-aws-ec2-part-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [foreseeti.com: How to become and stay AWS well architected in a smart way](https://foreseeti.com/how-to-become-and-stay-aws-well-architected-in-a-smart-way)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@buraktahtacioglu: AWS Well-Architected Framework — AWS Roadmap](https://medium.com/@buraktahtacioglu/aws-well-architected-framework-aws-roadmap-80aaa6ca7f53)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Cloud Architecture
 
@@ -65,6 +73,9 @@
 #### Framework Documentation
 
   - [AWS Well Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official AWS Well-Architected Framework documentation defining six foundational pillars: Security, Reliability, Performance Efficiency, Cost Optimization, Operational Excellence, and Sustainability. Grounding confirms its status as the definitive standard for cloud architecture validation worldwide.
+#### Infrastructure as Code
+
+  - [AWS Well-Architected IaC Analyzer](https://github.com/aws-samples/well-architected-iac-analyzer) <span class='md-tag md-tag--info'>⭐ 473</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS-sourced open-source analyzer designed to inspect Infrastructure as Code (CloudFormation, Terraform) templates against AWS Well-Architected practices before deployment. Grounding demonstrates how incorporating this tool into continuous integration checks reduces pre-production compliance failures.
 #### News
 
   - [infoq.com: AWS Updates the Well-Architected Framework](https://www.infoq.com/news/2023/04/aws-well-architected-framework)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An InfoQ editorial piece summarizing key enhancements in AWS's Well-Architected Framework update. It dissects updates across security guidance, reliability structures, and operational processes. Grounding tracks how the framework continuously shifts to adapt to modern cloud paradigms.
@@ -119,5 +130,5 @@
   - **(2021)** [**Clean Architecture on Frontend**](https://bespoyasov.me/blog/clean-architecture-on-frontend) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An exceptional breakdown demonstrating the application of Clean Architecture principles to frontend systems. Illustrates isolation of business logic from UI components to enable extreme testability.
 
 ---
-💡 **Explore Related:** [Aws Containers](./aws-containers.md) | [Aws Iac](./aws-iac.md) | [Aws Messaging](./aws-messaging.md)
+💡 **Explore Related:** [AWS Security](./aws-security.md) | [AWS Storage](./aws-storage.md) | [AWS Databases](./aws-databases.md)
 
