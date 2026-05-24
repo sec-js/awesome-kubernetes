@@ -17,11 +17,6 @@
   - [techcommunity.microsoft.com: Identify your savings potential in Azure 🌟](https://techcommunity.microsoft.com/blog/finopsblog/identify-your-savings-potential-in-azure/4131194)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoworld.com: 5 steps to bringing Kubernetes costs in line](https://www.infoworld.com/article/2338303/5-steps-to-bringing-kubernetes-costs-in-line.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [replex.io](https://www.splunk.com/en_us/appdynamics-joins-splunk.html?301=appdynamics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Cloudburn: An Open-Source Policy Engine for AWS Spending](https://github.com/towardsthecloud/cloudburn) <span class='md-tag md-tag--info'>⭐ 1757</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Building a FinOps-Ready Azure Landing Zone: Infrastructure Foundations for' Cost Optimization](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/building-a-finops-ready-azure-landing-zone-infrastructure-foundations-for-cost-o/4411706)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Which Azure Network is Cheaper?](https://blog.cloudtrooper.net/2026/01/16/which-azure-network-is-cheaper)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [A Guide to Azure Data Transfer Pricing](https://techcommunity.microsoft.com/blog/AzureNetworkingBlog/a-guide-to-azure-data-transfer-pricing/4374538)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Azure Functions Cost Considerations and Optimization](https://build5nines.com/azure-functions-cost-considerations-and-optimization)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [FinOps Foundation: FinOps.org](https://www.finops.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: DevOps, NoOps, and Now FinOps?](https://medium.com/better-programming/devops-noops-finops-64e0df91bcb8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [aws.amazon.com: Introducing FinOps—Excuse Me, DevSecFinBizOps](https://aws.amazon.com/es/blogs/enterprise-strategy/introducing-finops-excuse-me-devsecfinbizops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -42,8 +37,13 @@
   - [logz.io: FinOps Observability: Monitoring Kubernetes Cost](https://logz.io/blog/finops-observability-monitoring-kubernetes-cost)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/adeo-tech: How to save money fast with Kubernetes — Do FinOps](https://medium.com/adeo-tech/how-to-save-money-fast-with-kubernetes-do-finops-3a9cafc9beba)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [bitsand.cloud: Slashing Data Transfer Costs in AWS by 99%](https://www.bitsand.cloud/posts/slashing-data-transfer-costs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Cloudburn: An Open-Source Policy Engine for AWS Spending](https://github.com/towardsthecloud/cloudburn) <span class='md-tag md-tag--info'>⭐ 1757</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@tarunbehal02: AWS Cost Optimizations : My Learnings](https://medium.com/@tarunbehal02/aws-cost-optimizations-my-learnings-fcdc14da1f58)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [aws.amazon.com/blogs/architecture: Overview of Data Transfer Costs for Common' Architectures](https://aws.amazon.com/blogs/architecture/overview-of-data-transfer-costs-for-common-architectures)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Which Azure Network is Cheaper?](https://blog.cloudtrooper.net/2026/01/16/which-azure-network-is-cheaper)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Building a FinOps-Ready Azure Landing Zone: Infrastructure Foundations for' Cost Optimization](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/building-a-finops-ready-azure-landing-zone-infrastructure-foundations-for-cost-o/4411706)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Azure Functions Cost Considerations and Optimization](https://build5nines.com/azure-functions-cost-considerations-and-optimization)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [A Guide to Azure Data Transfer Pricing](https://techcommunity.microsoft.com/blog/AzureNetworkingBlog/a-guide-to-azure-data-transfer-pricing/4374538)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/dolevshor/azure-finops-guide: The Azure FinOps Guide 🌟](https://github.com/dolevshor/azure-finops-guide) <span class='md-tag md-tag--info'>⭐ 216</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [info.microsoft.com: The Road to Azure Cost Governance](https://info.microsoft.com/ww-landing-the-road-to-azure-cost-governance-e-book.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/mivano/azure-cost-cli](https://github.com/mivano/azure-cost-cli) <span class='md-tag md-tag--info'>⭐ 1117</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -83,11 +83,6 @@
 #### FinOps (1)
 
   - [aws.amazon.com: Understanding and Cost Optimizing Amazon EKS Control Plane' Logs](https://aws.amazon.com/blogs/containers/understanding-and-cost-optimizing-amazon-eks-control-plane-logs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes CloudWatch logging costs generated by EKS API server audit logs, offering practical strategies to filter and optimize them. It details how to use Logstash, FluentBit, or CloudWatch filter patterns to eliminate verbose, low-value telemetry. Crucial for enterprise platform administrators looking to cut hidden SaaS expenses.
-## Cluster Operations
-
-### Cost Optimization (1)
-
-  - **(2023)** [infoworld.com: Kubernetes cost management for the real world](https://www.infoworld.com/article/2338428/kubernetes-cost-management-for-the-real-world.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores pragmatic methodologies for managing and forecasting costs inside Kubernetes. Contrasts standard manual scaling limits with automated tools like Kubecost and OpenCost, providing architecture guidelines for resource allocation optimization.
 ## Platform Engineering
 
 ### FinOps (2)
@@ -104,5 +99,5 @@
   - [ServerlessHorrors: A Web Compiling Nightmares in the Serverless World](https://revistacloud.com/serverlesshorrors-la-web-que-recoge-las-peores-pesadillas-del-mundo-serverless) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Un compendio técnico sobre los errores más comunes y costosos en el diseño de arquitecturas serverless. Ofrece un análisis crítico de fallos reales de concurrencia, inicios en frío ("cold starts"), costos fuera de control e integración de servicios, sirviendo como guía de advertencia para diseñadores de sistemas distribuidos. [SPANISH CONTENT]
 
 ---
-💡 **Explore Related:** [Elearning](./elearning.md) | [Recruitment](./recruitment.md) | [Appointment Scheduling](./appointment-scheduling.md)
+💡 **Explore Related:** [Elearning](./elearning.md) | [Recruitment](./recruitment.md) | [Freelancing](./freelancing.md)
 

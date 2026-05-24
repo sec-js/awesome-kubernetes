@@ -23,13 +23,14 @@
   - [Traffic Director overview](https://docs.cloud.google.com/service-mesh/docs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Traffic Director and gRPC—proxyless services for your service mesh](https://cloud.google.com/blog/products/networking/traffic-director-supports-proxyless-grpc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [L7 Internal HTTP(S) Load Balancing overview](https://docs.cloud.google.com/load-balancing/docs/l7-internal)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Application Gateway for Containers with AKS Overlay Networking and VNet Flow Logs](https://blog.cloudtrooper.net/2025/04/02/application-gateway-for-containers-a-not-so-gentle-intro-4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [InGate: Ingress & Gateway API Controller (Archived)](https://github.com/kubernetes-sigs/ingate) <span class='md-tag md-tag--info'>⭐ 731</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Transitioning from ingress-nginx to Traefik in Kubernetes](https://traefik.io/blog/transition-from-ingress-nginx-to-traefik)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Kubernetes Gateway API](https://github.com/kubernetes-sigs/gateway-api) <span class='md-tag md-tag--info'>⭐ 2861</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ekglue - Envoy/Kubernetes glue](https://github.com/jrockway/ekglue) <span class='md-tag md-tag--info'>⭐ 29</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [infoq.com: Service Mesh Ultimate Guide:](https://www.infoq.com/articles/service-mesh-ultimate-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Transitioning from ingress-nginx to Traefik in Kubernetes](https://traefik.io/blog/transition-from-ingress-nginx-to-traefik)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Application Gateway for Containers with AKS Overlay Networking and VNet Flow Logs](https://blog.cloudtrooper.net/2025/04/02/application-gateway-for-containers-a-not-so-gentle-intro-4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.christianposta.com: Do I Need an API Gateway if I Use a Service Mesh?](https://blog.christianposta.com/microservices/do-i-need-an-api-gateway-if-i-have-a-service-mesh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [InGate: Ingress & Gateway API Controller (Archived)](https://github.com/kubernetes-sigs/ingate) <span class='md-tag md-tag--info'>⭐ 731</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kubernetes Gateway API](https://github.com/kubernetes-sigs/gateway-api) <span class='md-tag md-tag--info'>⭐ 2861</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [AWS App Mesh with EKS and Canary deployment](https://medium.com/@anupam.s1602/aws-app-mesh-with-eks-and-canary-deployment-5503d9ba95d6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [infoq.com: Service Mesh Ultimate Guide:](https://www.infoq.com/articles/service-mesh-ultimate-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Service Mesh Adds Security, Observability and Traffic Control' to Kubernetes](https://thenewstack.io/service-mesh-adds-security-observability-and-traffic-control-to-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [lucperkins.dev: Service mesh use cases](https://lucperkins.dev/blog/service-mesh-use-cases)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Zero-Trust Security with Service Mesh](https://thenewstack.io/zero-trust-security-with-service-mesh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -94,7 +95,6 @@
   - [xDS REST and gRPC protocol](https://www.envoyproxy.io/docs/envoy/latest/api-docs/xds_protocol)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openservicemesh.io](https://openservicemesh.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kourier: A lightweight Knative Serving ingress](https://developers.redhat.com/blog/2020/06/30/kourier-a-lightweight-knative-serving-ingress)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [AWS App Mesh with EKS and Canary deployment](https://medium.com/@anupam.s1602/aws-app-mesh-with-eks-and-canary-deployment-5503d9ba95d6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Cloud Native Infrastructure
 
@@ -123,5 +123,5 @@
   - [Prometheus and OpenTelemetry Compatibility Issues](https://thenewstack.io/prometheus-and-opentelemetry-just-couldnt-get-along) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An informative look at the historical data model incompatibilities between Prometheus and OpenTelemetry (OTel). It details the industry efforts to reconcile standard Prometheus structures with the broader OTel landscape.
 
 ---
-💡 **Explore Related:** [Istio](./istio.md) | [Networking](./networking.md) | [Kubernetes Networking](./kubernetes-networking.md)
+💡 **Explore Related:** [Caching](./caching.md) | [Web Servers](./web-servers.md) | [Kubernetes Networking](./kubernetes-networking.md)
 

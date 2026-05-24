@@ -24,19 +24,19 @@
   - [Apache ActiveMQ Artemis Using the Server](https://artemis.apache.org/components/artemis/documentation/latest/using-server.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [Apache ActiveMQ Artemis Management Console](https://artemis.apache.org/components/artemis/documentation/latest/management-console.html)
     - [Apache ActiveMQ Artemis Metrics](http://activemq.apache.org/components/artemis/documentation/latest/metrics.html)
   - [cloud.google.com: Google Cloud Managed Service for Prometheus](https://docs.cloud.google.com/stackdriver/docs/managed-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [logz.io: A Guide to Monitoring AWS Lambda Metrics with Prometheus & Logz.io](https://logz.io/blog/aws-lambda-metrics-monitoring-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Amazon Managed Service for Prometheus](https://aws.amazon.com/prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [**Red Hat AMQ overview**](https://developers.redhat.com/products/amq/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [**InfluxDB**:](https://www.influxdata.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.couchbase.com: How to Build Observability Dashboards with Prometheus,' Grafana & Couchbase](https://blog.couchbase.com/how-to-build-observability-dashboards-prometheus-grafana-couchbase)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [tech.marksblogg.com: Monitor ClickHouse column oriented database with Prometheus' & Grafana](https://tech.marksblogg.com/clickhouse-prometheus-grafana.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [victoriametrics.com](https://victoriametrics.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [learnsteps.com: Monitoring Infrastructure System Design](https://www.learnsteps.com/monitoring-infrastructure-system-design)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Grafana](https://grafana.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openlogic.com: How to develop Grafana Dashboards 🌟](https://www.openlogic.com/blog/how-visualize-prometheus-data-grafana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [**InfluxDB**:](https://www.influxdata.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [karma 🌟](https://github.com/prymitive/karma) <span class='md-tag md-tag--info'>⭐ 2639</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Cluster Monitoring stack for ARM / X86-64 platforms](https://github.com/carlosedp/cluster-monitoring) <span class='md-tag md-tag--info'>⭐ 755</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [learndevops.substack.com: Hitting prometheus API with curl and jq 🌟](https://learndevops.substack.com/p/hitting-prometheus-api-with-curl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [**Red Hat AMQ overview**](https://developers.redhat.com/products/amq/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [learnsteps.com: Monitoring Infrastructure System Design](https://www.learnsteps.com/monitoring-infrastructure-system-design)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.couchbase.com: How to Build Observability Dashboards with Prometheus,' Grafana & Couchbase](https://blog.couchbase.com/how-to-build-observability-dashboards-prometheus-grafana-couchbase)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [logz.io: A Guide to Monitoring AWS Lambda Metrics with Prometheus & Logz.io](https://logz.io/blog/aws-lambda-metrics-monitoring-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Amazon Managed Service for Prometheus](https://aws.amazon.com/prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [**prometheus.io**](https://prometheus.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/prometheus/prometheus](https://github.com/prometheus/prometheus) <span class='md-tag md-tag--info'>⭐ 64131</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [Dzone Refcard: Scaling and Augmenting Prometheus](https://dzone.com/refcardz/scaling-and-augmenting-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -226,5 +226,5 @@
   - [maven.apache.org](https://maven.apache.org) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official homepage for Apache Maven, the cornerstone JVM project build and dependency system. Outlines standards for modular Project Object Model (POM) declarations.
 
 ---
-💡 **Explore Related:** [Cheatsheets](./cheatsheets.md) | [Kubernetes](./kubernetes.md) | [Demos](./demos.md)
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Cheatsheets](./cheatsheets.md) | [Git](./git.md)
 

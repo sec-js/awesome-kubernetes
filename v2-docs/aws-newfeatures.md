@@ -128,5 +128,5 @@
   - [Amazon EKS introduces EKS Pod Identity](https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-eks-pod-identity) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Highlights the launch of EKS Pod Identity, an evolved architectural alternative to IRSA (IAM Roles for Service Accounts). By utilizing a highly optimized local agent daemon on worker nodes, it simplifies IAM association, scales beyond IRSA session limits, and works across multiple clusters with ease. A fundamental improvement to EKS access management.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Public Cloud Solutions](./public-cloud-solutions.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
+💡 **Explore Related:** [AWS Security](./aws-security.md) | [AWS Storage](./aws-storage.md) | [AWS Databases](./aws-databases.md)
 

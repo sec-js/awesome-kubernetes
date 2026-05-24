@@ -5,6 +5,7 @@
 
 ## Standard Reference
 
+  - [konveyor 🌟](https://konveyor.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [rancher.com: The No. 1 Rule of Disaster Recovery](https://www.suse.com/c/rancher_blog/the-no-1-rule-of-disaster-recovery)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [rancher.com: Disaster Recovery Preparedness for Your Kubernetes Clusters 🌟](https://www.suse.com/c/rancher_blog/disaster-recovery-preparedness-for-your-kubernetes-clusters)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [percona.com: Using Volume Snapshot/Clone in Kubernetes (GKE & Percona Kubernetes Operator for XtraDB Cluster)](https://www.percona.com/blog/using-volume-snapshot-clone-in-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -20,7 +21,6 @@
   - [containerjournal.com: Red Hat, IBM Launch Konveyor to Aggregate Kubernetes Tools](https://cloudnativenow.com/features/red-hat-ibm-launch-konveyor-to-aggregate-kubernetes-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/konveyor/crane: Crane 2.0 🌟](https://github.com/migtools/crane) <span class='md-tag md-tag--info'>⭐ 54</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubebyexample.com: Migrating to Kubernetes with Open Source Tools (Konveyor, Tackle, KubeVirt, Forklift) 🌟](https://kubebyexample.com/community/blog/migrating-to-kubernetes-with-open-source-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [konveyor 🌟](https://konveyor.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Automate SQL Server Backups with PowerShell](https://datacrazyworld.com/index.php/2025/03/16/automatiza-backups-de-sql-server-con-powershell)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kube-backup: Kubernetes resource state sync to git](https://github.com/pieterlange/kube-backup) <span class='md-tag md-tag--info'>⭐ 493</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Stash](https://github.com/stashed/stash) <span class='md-tag md-tag--info'>⭐ 1414</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -69,5 +69,5 @@
   - [cloud.google.com: Announcing Backup for GKE: the easiest way to protect' GKE workloads](https://cloud.google.com/blog/products/storage-data-transfer/google-cloud-launches-backups-for-gke) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep dive into the native GKE Backup service, designed for stateful application restoration and cluster disaster recovery. Discusses how to safeguard configuration metadata and persistent volume states natively through GCP APIs.
 
 ---
-💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Docker](./docker.md) | [Serverless](./serverless.md)
+💡 **Explore Related:** [Container Managers](./container-managers.md) | [Kubernetes Monitoring](./kubernetes-monitoring.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
 

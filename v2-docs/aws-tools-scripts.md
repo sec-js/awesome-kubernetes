@@ -5,15 +5,16 @@
 
 ## Standard Reference
 
+  - [ec2-ssh-yplan: A pair of command line utilities for finding and SSH-ing into your Amazon EC2 instances by tag (such as ‘Name’)](https://pypi.org/project/ec2-ssh-yplan)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ermetic/access-undenied-aws 🌟](https://github.com/tenable/access-undenied-aws) <span class='md-tag md-tag--info'>⭐ 271</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ermetic.com: Access Undenied on AWS](https://www.tenable.com/blog/access-undenied-on-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/containerscrew/aws-sso-auth](https://github.com/containerscrew/aws-sso-rs) <span class='md-tag md-tag--info'>⭐ 4</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS CLI Command Reference](http://docs.aws.amazon.com/cli/latest/index.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [New usage examples have been added to the CLI for CodePipeline API Reference](http://docs.aws.amazon.com/cli/latest/reference/codepipeline/index.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ec2-ssh-yplan: A pair of command line utilities for finding and SSH-ing into your Amazon EC2 instances by tag (such as ‘Name’)](https://pypi.org/project/ec2-ssh-yplan)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.awsfundamentals.com: Step-By-Step: Emptying S3 Buckets and Directories Using the AWS CLI with S3 RM](https://awsfundamentals.com/blog/aws-s3-rm-removing-files)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Amazon CodeWhisperer 🌟](https://aws.amazon.com/q/developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hashicorp.com: Accelerate your Terraform development with Amazon CodeWhisperer](https://www.hashicorp.com/blog/accelerate-your-terraform-development-with-amazon-codewhisperer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Floci - An AWS Local Emulator Alternative](https://github.com/floci-io/floci) <span class='md-tag md-tag--info'>⭐ 12740</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [AWS IP inventory](https://github.com/okelet/awsipinventory)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: How to Copy a Security Group with Rules from one AWS Account to' Another account](https://dev.to/dineshrathee12/how-to-copy-a-security-group-with-rules-from-one-aws-account-to-another-account-36mb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/awslabs/assisted-log-enabler-for-aws: Assisted Log Enabler -' Find resources that are not logging, and turn them on](https://github.com/awslabs/assisted-log-enabler-for-aws) <span class='md-tag md-tag--info'>⭐ 274</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -21,7 +22,6 @@
   - [github.com/Levi-Michael/boto3-ec2-s3-management: A python tools base on' AWS boto3 for manage ec2 and s3 buckets](https://github.com/Levi-Michael/boto3-ec2-s3-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/cavaliercoder/vpc-free](https://github.com/cavaliercoder/vpc-free) <span class='md-tag md-tag--info'>⭐ 60</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [OpenSource at AWS](https://aws.github.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Floci - An AWS Local Emulator Alternative](https://github.com/floci-io/floci) <span class='md-tag md-tag--info'>⭐ 12740</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [awslabs/aws-cloudsaga: AWS CloudSaga - Simulate security events in AWS](https://github.com/awslabs/aws-cloudsaga) <span class='md-tag md-tag--info'>⭐ 475</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [willdady/aws-resource-based-policy-collector: AWS resource-based policy' collector](https://github.com/willdady/aws-resource-based-policy-collector) <span class='md-tag md-tag--info'>⭐ 24</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/ualter: AwsBe](https://github.com/ualter/awsbe-site)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -72,5 +72,5 @@
   - [steampipe 🌟](https://steampipe.io)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A zero-dependency CLI tool that allows querying of APIs and cloud infrastructure (AWS, Azure, GitHub, etc.) dynamically using Postgres-compatible SQL. It simplifies cloud infrastructure compliance, security audits, and resource inspection by exposing multi-platform APIs as regular database tables.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Public Cloud Solutions](./public-cloud-solutions.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
+💡 **Explore Related:** [AWS Security](./aws-security.md) | [AWS Storage](./aws-storage.md) | [AWS Databases](./aws-databases.md)
 

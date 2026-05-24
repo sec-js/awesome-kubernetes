@@ -5,9 +5,9 @@
 
 ## Standard Reference
 
-  - [Google Cloud Code](https://cloud.google.com/code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Wikipedia: Spring Roo](https://en.wikipedia.org/wiki/Spring_Roo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Atomist](https://go.atomist.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Google Cloud Code](https://cloud.google.com/code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Cloud-Native Development
 
@@ -32,7 +32,14 @@
 #### Snippet Engines
 
   - **(2023)** [cloud.google.com: configuring_with_snippets 🌟](https://docs.cloud.google.com/code/docs/vscode/yaml-editing#configuring_with_snippets) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Official Google Cloud tutorial configuring Visual Studio Code with structural snippets, optimizing engineering speeds when deploying nested Kubernetes objects.
+## Observability and Performance
+
+### Performance Testing
+
+#### Microservices
+
+  - [garden.io: Performance testing on a microservice architecture](https://docs.garden.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official integration documentation for running non-disruptive, end-to-end performance tests within a modern microservices workflow. Emphasizes utilizing Garden's graph-based execution framework for local and CI load validation.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Developerportals](./developerportals.md) | [SRE](./sre.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Project Management Methodology](./project-management-methodology.md) | [Chaos Engineering](./chaos-engineering.md)
 

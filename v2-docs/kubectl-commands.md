@@ -5,11 +5,13 @@
 
 ## Standard Reference
 
-  - [kubernetes.io 🌟](https://kubernetes.io/docs/reference/kubectl/quick-reference)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [vmware-tanzu/buildkit-cli-for-kubectl (kubectl plugin)](https://github.com/vmware-archive/buildkit-cli-for-kubectl) <span class='md-tag md-tag--info'>⭐ 506</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ansibleforkubernetes.com 🌟](https://www.ansibleforkubernetes.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [itnext.io: Boosting your kubectl productivity](https://itnext.io/boosting-your-kubectl-productivity-b348f7c25712)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [BuildKit CLI for kubectl (by vmware-tanzu) 🌟](https://github.com/vmware-archive/buildkit-cli-for-kubectl) <span class='md-tag md-tag--info'>⭐ 506</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kubectl Autocomplete](https://kubernetes.io/docs/reference/kubectl/quick-reference)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: 4 Simple Kubernetes Terminal Customizations to Boost Your Productivity](https://medium.com/better-programming/4-simple-kubernetes-terminal-customizations-to-boost-your-productivity-deda60a19924)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hidetatz/kubecolor 🌟](https://github.com/hidetatz/kubecolor) <span class='md-tag md-tag--info'>⭐ 1445</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [container-registry.com: Lifting Developers’ Productivity 🌟](https://container-registry.com/posts/productivity-lift-buildkit-cli-for-kubectl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [A Complete Guide to Kubectl exec](https://refine.dev/blog/kubectl-exec-command)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [itnext.io: Boosting your kubectl productivity](https://itnext.io/boosting-your-kubectl-productivity-b348f7c25712)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Ready-to-use commands and tips for kubectl](https://medium.com/flant-com/kubectl-commands-and-tips-7b33de0c5476)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Be fast with Kubectl 1.19 CKAD/CKA 🌟](https://medium.com/faun/be-fast-with-kubectl-1-18-ckad-cka-31be00acc443)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Kubectl: Developer tips for the Kubernetes command' line 🌟](https://developers.redhat.com/blog/2020/11/20/kubectl-developer-tips-for-the-kubernetes-command-line)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -31,7 +33,6 @@
   - [awstip.com: Kubernetes — Creating deployments via command line and with' YAML files](https://awstip.com/kubernetes-creating-deployments-via-command-line-and-with-yaml-files-783eaad7b3be)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [superbrothers/zsh-kubectl-prompt 🌟](https://github.com/superbrothers/zsh-kubectl-prompt) <span class='md-tag md-tag--info'>⭐ 591</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@emmaliaocode: kubectl create vs kubectl apply. What’s the difference?](https://medium.com/@emmaliaocode/kubectl-create-vs-kubectl-apply-whats-the-differences-f6472f4c6c86)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [hidetatz/kubecolor 🌟](https://github.com/hidetatz/kubecolor) <span class='md-tag md-tag--info'>⭐ 1445</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/codex: Kubectl Output 101](https://medium.com/codex/kubectl-output-101-851f8e61fd51)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/geekculture: kubectl — Best Practices](https://medium.com/geekculture/kubectl-best-practices-c4ff809167dd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [learnitguide.net: How to Create ConfigMap from Properties File Using K8s' Client](https://www.learnitguide.net/2023/04/how-to-create-configmap-from-properties.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -46,13 +47,12 @@
   - [github.com/trstringer/kubectl-example](https://github.com/trstringer/kubectl-example) <span class='md-tag md-tag--info'>⭐ 13</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubectl Shell Autocomplete](https://blog.heptio.com/kubectl-shell-autocomplete-heptioprotip-48dd023e0bf3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [complete-alias](https://github.com/cykerway/complete-alias) <span class='md-tag md-tag--info'>⭐ 811</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [A Complete Guide to Kubectl exec](https://refine.dev/blog/kubectl-exec-command)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Connect to containers using Kubectl Exec](https://itnext.io/connect-to-containers-using-kubectl-exec-b1fb5c171f03)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [goteleport.com: kubectl exec vs SSH](https://goteleport.com/blog/ssh-vs-kubectl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hackernoon.com: How to Work With the Kubectl Debug Command](https://hackernoon.com/how-to-work-with-the-kubectl-debug-command)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Flag export deprecated in kubernetes 1.14](https://github.com/kubernetes/kubernetes/pull/73787) <span class='md-tag md-tag--info'>⭐ 122403</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [Copy secrets between namespaces](https://stackoverflow.com/questions/55515594/is-there-a-way-to-share-a-configmap-in-kubernetes-between-namespaces)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [container-registry.com: Lifting Developers’ Productivity 🌟](https://container-registry.com/posts/productivity-lift-buildkit-cli-for-kubectl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ansibleforkubernetes.com 🌟](https://www.ansibleforkubernetes.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Continuous Integration
 
@@ -64,5 +64,5 @@
   - [Kubernetes Continuous Deploy](https://plugins.jenkins.io/kubernetes-cd) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A traditional Jenkins plugin for deploying build outputs to Kubernetes. Note: Has fallen out of favor in modern GitOps-centric continuous delivery pipelines.
 
 ---
-💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Docker](./docker.md) | [Serverless](./serverless.md)
+💡 **Explore Related:** [Container Managers](./container-managers.md) | [Kubernetes Monitoring](./kubernetes-monitoring.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
 

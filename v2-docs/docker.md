@@ -38,17 +38,17 @@
   - [jfrog.com: THE BASICS: 7 Alternatives to Docker: All-in-One Solutions and Standalone Container Tools 🌟](https://jfrog.com/learn/devops/alternatives-to-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.logrocket.com: Top Docker alternatives for 2022](https://blog.logrocket.com/docker-alternatives)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Docker for LLMs](https://www.docker.com/llm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Floci - An AWS Local Emulator Alternative](https://github.com/floci-io/floci) <span class='md-tag md-tag--info'>⭐ 12740</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [cheatsheetseries.owasp.org: Docker Security Cheat Sheet 🌟🌟](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.alexellis.io: Building containers without Docker 🌟](https://blog.alexellis.io/building-containers-without-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [containerd - An open and reliable container runtime](https://github.com/containerd/containerd) <span class='md-tag md-tag--info'>⭐ 20746</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [What is Podman and How Does it Compare to Docker?](https://build5nines.com/what-is-podman-and-how-does-it-compare-to-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Podman.io](https://podman.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Buildah.io](https://buildah.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Floci - An AWS Local Emulator Alternative](https://github.com/floci-io/floci) <span class='md-tag md-tag--info'>⭐ 12740</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [github.com/google/go-containerregistry 🌟](https://github.com/google/go-containerregistry) <span class='md-tag md-tag--info'>⭐ 3881</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [nerdctl 🌟](https://github.com/containerd/nerdctl) <span class='md-tag md-tag--info'>⭐ 10104</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [kaniko](https://github.com/GoogleContainerTools/kaniko) <span class='md-tag md-tag--info'>⭐ 15762</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [technology.doximity.com: Buildpacks vs Dockerfiles 🌟](https://technology.doximity.com/articles/buildpacks-vs-dockerfiles)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.alexellis.io: Building containers without Docker 🌟](https://blog.alexellis.io/building-containers-without-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [containerd - An open and reliable container runtime](https://github.com/containerd/containerd) <span class='md-tag md-tag--info'>⭐ 20746</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [Podman.io](https://podman.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Buildah.io](https://buildah.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cheatsheetseries.owasp.org: Docker Security Cheat Sheet 🌟🌟](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Docker Hardened Images for Every Developer](https://www.docker.com/blog/docker-hardened-images-for-every-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Awesome Docker 🌟](https://github.com/veggiemonk/awesome-docker) <span class='md-tag md-tag--info'>⭐ 36056</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [Awesome Compose 🌟](https://github.com/docker/awesome-compose) <span class='md-tag md-tag--info'>⭐ 45355</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
@@ -264,5 +264,5 @@
   - [itnext.io: Software development in containers — a cookbook 🌟🌟🌟](https://itnext.io/software-development-in-containers-a-cookbook-2ba14d07e535) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed technical guide explaining how to design local workflows with container environments. Demonstrates setup strategies for hot reloading, direct container mounts, network port forwards, and dev-to-prod pipeline parity.
 
 ---
-💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Serverless](./serverless.md) | [OCP 3](./ocp3.md)
+💡 **Explore Related:** [Container Managers](./container-managers.md) | [Kubernetes Monitoring](./kubernetes-monitoring.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
 

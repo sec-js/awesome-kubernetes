@@ -16,16 +16,19 @@
   - [sysdig.com: Understanding Kubernetes Evicted Pods](https://www.sysdig.com/blog/kubernetes-pod-evicted)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [loft.sh: Using Kubernetes Ephemeral Containers for Troubleshooting](https://www.vcluster.com/blog/using-kubernetes-ephemeral-containers-for-troubleshooting)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubetools.io: Kubeshark – API Traffic Analyzer for Kubernetes](https://kubetools.io/mastering-kubernetes-debugging-and-troubleshooting-with-kubeshark-real-time-visibility-query-language-service-map-and-integrations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Awesome Chaos Engineering](https://github.com/dastergon/awesome-chaos-engineering) <span class='md-tag md-tag--info'>⭐ 6564</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [10 Real-World Kubernetes Troubleshooting Scenarios and Solutions](https://livingdevops.com/devops/10-real-world-kubernetes-troubleshooting-scenarios-and-solutions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kubernetes Troubleshooting: A Step-by-Step Guide](https://www.cncf.io/blog/2025/03/13/kubernetes-troubleshooting-a-step-by-step-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kubernetes Troubleshooting Guide: Common Pitfalls and Solutions](https://autodotes.com/posts/s90PP9397WYTsAWaRapd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [The Definitive Guide to Importing Your Cloud Resources into IaC](https://blog.cloudgeni.ai/the-definitive-guide-to-importing-your-cloud-resources-into-iac)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [OOMKilled in Kubernetes: Understanding and Preventing Hidden Memory Leaks](https://unixarena.com/2025/04/oomkilled-in-kubernetes-the-hidden-memory-leaks-youre-missing.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/replicatedhq/troubleshoot](https://github.com/replicatedhq/troubleshoot) <span class='md-tag md-tag--info'>⭐ 582</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [A Complete Guide to Kubectl exec](https://refine.dev/blog/kubectl-exec-command)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/JamesTGrant/kubectl-debug](https://github.com/JamesTGrant/kubectl-debug) <span class='md-tag md-tag--info'>⭐ 374</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: 5 Best Practices to Back up Kubernetes](https://thenewstack.io/5-best-practices-to-back-up-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [martinheinz.dev: Backup-and-Restore of Containers with Kubernetes Checkpointing' API](https://martinheinz.dev/blog/85)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [RKE2 Standalone Disaster Recovery Guide](https://support.tools/post/rke2-standalone-disaster-recovery)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/replicatedhq/troubleshoot](https://github.com/replicatedhq/troubleshoot) <span class='md-tag md-tag--info'>⭐ 582</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/JamesTGrant/kubectl-debug](https://github.com/JamesTGrant/kubectl-debug) <span class='md-tag md-tag--info'>⭐ 374</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Awesome Chaos Engineering](https://github.com/dastergon/awesome-chaos-engineering) <span class='md-tag md-tag--info'>⭐ 6564</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [The Definitive Guide to Importing Your Cloud Resources into IaC](https://blog.cloudgeni.ai/the-definitive-guide-to-importing-your-cloud-resources-into-iac)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [labs.iximiuz.com: How to work with container images using ctr](https://labs.iximiuz.com/courses/containerd-cli/ctr/image-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [10 Real-World Kubernetes Troubleshooting Scenarios and Solutions](https://livingdevops.com/devops/10-real-world-kubernetes-troubleshooting-scenarios-and-solutions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: 5 tips for troubleshooting apps on Kubernetes](https://medium.com/@alexellisuk/5-tips-for-troubleshooting-apps-on-kubernetes-835b6b539c24)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [managedkube.com: Troubleshooting a Kubernetes ingress](https://managedkube.com/kubernetes/trace/ingress/service/port/not/matching/pod/k8sbot/2019/02/13/trace-ingress.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [veducate.co.uk: How to fix in Kubernetes – Deleting a PVC stuck in status' “Terminating”](https://veducate.co.uk/kubernetes-pvc-terminating)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -76,7 +79,6 @@
   - [komodor.com: Kubernetes CrashLoopBackOff Error: What It Is and How to Fix' It](https://komodor.com/learn/how-to-fix-crashloopbackoff-kubernetes-error)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [tonylixu.medium.com: K8s Troubleshooting — Pod in Terminating or Unknown' Status](https://tonylixu.medium.com/k8s-troubleshooting-pod-in-terminating-or-unknown-status-2878f6ec66b8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.devgenius.io: K8s Troubleshooting — Pod in Terminating or Unknown Status](https://blog.devgenius.io/k8s-troubleshooting-pod-in-terminating-or-unknown-status-2878f6ec66b8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [OOMKilled in Kubernetes: Understanding and Preventing Hidden Memory Leaks](https://unixarena.com/2025/04/oomkilled-in-kubernetes-the-hidden-memory-leaks-youre-missing.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@reefland: Tracking Down “Invisible” OOM Kills in Kubernetes](https://medium.com/@reefland/tracking-down-invisible-oom-kills-in-kubernetes-192a3de33a60)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [baykara.medium.com: A Gentle Inspection of OOMKilled in Kubernetes](https://baykara.medium.com/a-gentle-inspection-of-oomkilled-in-kubernetes-4b4124cd23a8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@bm54cloud: Stressing a Kubernetes Pod to Induce an OOMKilled' Error](https://medium.com/@bm54cloud/stressing-a-kubernetes-pod-to-induce-an-oomkilled-error-96f3be9c931d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -87,7 +89,6 @@
   - [medium.com/@it-craftsman: How to fix Kubernetes namespaces stuck in terminating' state](https://medium.com/@it-craftsman/how-to-fix-kubernetes-namespaces-stuck-in-terminating-state-ea46c5fff045)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@reefland: Access PVC Data without the POD; troubleshooting Kubernetes.](https://medium.com/@reefland/access-pvc-data-without-the-pod-troubleshooting-kubernetes-b28bfdd7502)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/geekculture: K8s Troubleshooting — How to Debug CoreDNS Issues](https://medium.com/geekculture/k8s-troubleshooting-how-to-debug-coredns-issues-724e8b973cfc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Kubernetes Troubleshooting: A Step-by-Step Guide](https://www.cncf.io/blog/2025/03/13/kubernetes-troubleshooting-a-step-by-step-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubectl-debug](https://github.com/aylei/kubectl-debug) <span class='md-tag md-tag--info'>⭐ 2306</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [How to quarantine pods](https://www.reddit.com/r/kubernetes/comments/gt3uvg/how_to_quarantine_pods)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [KDBG: Small Kubernetes debugging container](https://github.com/nvucinic/kdbg) <span class='md-tag md-tag--info'>⭐ 36</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -108,7 +109,6 @@
   - [iximiuz.com: Kubernetes Ephemeral Containers and kubectl debug Command 🌟](https://iximiuz.com/en/posts/kubernetes-ephemeral-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [eminaktas.medium.com: Debug Containerd in Production](https://eminaktas.medium.com/debug-containerd-in-production-fe93ef4e3ce2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@alex.ivenin: Exploring ephemeral containers in kubernetes 🌟](https://medium.com/@alex.ivenin/exploring-ephemeral-containers-in-kubernetes-bcceaf21101c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [labs.iximiuz.com: How to work with container images using ctr](https://labs.iximiuz.com/courses/containerd-cli/ctr/image-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@danielepolencic: Isolating kubernetes pods for debugging](https://medium.com/@danielepolencic/isolating-kubernetes-pods-for-debugging-5fe41e630e9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/adaltas: Kubernetes: debugging with ephemeral containers](https://medium.com/adaltas/kubernetes-debugging-with-ephemeral-containers-e4be659d9ef6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/airwallex: k8s-pod-restart-info-collector](https://github.com/airwallex/k8s-pod-restart-info-collector)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -145,5 +145,5 @@
   - [The Hidden CPU Throttling Crisis in Kubernetes Clusters](https://www.kubenatives.com/p/the-hidden-cpu-throttling-crisis) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth analysis exposing the silent threat of CPU throttling inside Kubernetes clusters caused by rigid CFS quota management. Demonstrates how microservices suffer latency spikes even with low aggregate CPU consumption.
 
 ---
-💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Docker](./docker.md) | [Serverless](./serverless.md)
+💡 **Explore Related:** [Container Managers](./container-managers.md) | [Kubernetes Monitoring](./kubernetes-monitoring.md) | [Kubernetes Storage](./kubernetes-storage.md)
 
