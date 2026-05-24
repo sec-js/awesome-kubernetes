@@ -1,7 +1,7 @@
 site_name: "Nubenetes V2 | The AI's Cut"
 site_url: "https://nubenetes.com/v2/"
 site_description: "Enterprise-grade curated portal for the modern Cloud Native ecosystem. High-density, AI-driven selection of top-tier resources."
-site_author: "Inaki Fernandez"
+site_author: "Nubenetes"
 copyright: "Copyright &copy; 2026 Nubenetes Agentic Intelligence"
 docs_dir: v2-docs
 use_directory_urls: false
