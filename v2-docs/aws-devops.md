@@ -1,7 +1,15 @@
-# Aws Devops
+# AWS DevOps. AWS CodePipeline
 
 !!! info "Architectural Context"
-    Detailed reference for Aws Devops in the context of Cloud Providers (Hyperscalers).
+    Detailed reference for AWS DevOps. AWS CodePipeline in the context of Cloud Providers (Hyperscalers).
+
+## Standard Reference
+
+  - [Amazon DevOps Guru](https://aws.amazon.com/devops/-guru)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [AWS CodeDeploy: Deploying from a Development Account to a Production Account](http://blogs.aws.amazon.com/application-management/post/Tx3PE3JTSVJSFI7/AWS-CodeDeploy-Deploying-from-a-Development-Account-to-a-Production-Account)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blazemeter.com: Three Ways DevOps Benefit from AWS CodePipeline](https://blazemeter.com/blog/three-ways-devops-benefit-aws-codepipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [aws.plainenglish.io: AWS CodePipeline for Amazon ECS](https://aws.plainenglish.io/aws-codepipeline-for-amazon-ecs-part-2-a-blue-green-deployment-type-c162fd73be91)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@d.kumarkaran12: DevSecOps with AWS CodePipeline and ECS](https://medium.com/@d.kumarkaran12/devsecops-with-aws-codepipeline-and-ecs-c800f139a9ee)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Advanced Orchestration
 
@@ -69,5 +77,5 @@ Live Grounding: While primarily legacy, it outlines key patterns for mapping sta
 Live Grounding: Detailed comparative resource mapping the architectural equivalents between AWS developer tooling and Azure DevOps systems.
 
 ---
-💡 **Explore Related:** [Aws Containers](./aws-containers.md) | [Aws Iac](./aws-iac.md) | [Aws Messaging](./aws-messaging.md)
+💡 **Explore Related:** [AWS Security](./aws-security.md) | [AWS Storage](./aws-storage.md) | [AWS Databases](./aws-databases.md)
 

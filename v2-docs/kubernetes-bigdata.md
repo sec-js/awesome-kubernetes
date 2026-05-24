@@ -1,7 +1,15 @@
-# Kubernetes Bigdata
+# Big Data and Kubernetes Big Data
 
 !!! info "Architectural Context"
-    Detailed reference for Kubernetes Bigdata in the context of The Container Stack.
+    Detailed reference for Big Data and Kubernetes Big Data in the context of The Container Stack.
+
+## Standard Reference
+
+  - [tomlous.medium.com: CI/CD for Data Engineers. Reliably Deploying Scala Spark' containers for Kubernetes with Github Actions](https://tomlous.medium.com/ci-cd-for-data-engineers-68b0fd915545)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: Run and Scale an Apache Spark Application on Kubernetes](https://dzone.com/articles/run-and-scale-an-apache-spark-application-on-kuber)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: Running Apache Spark on Kubernetes](https://dzone.com/articles/running-apache-spark-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Running Apache Spark on Kubernetes](https://medium.com/empathyco/running-apache-spark-on-kubernetes-2e64c73d0bb2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [levelup.gitconnected.com: Master SparkML: Practical Guide for Machine Learning](https://levelup.gitconnected.com/master-sparkml-practical-guide-for-machine-learning-1efe1bd9cdce)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Cloud Native AI
 
@@ -52,5 +60,5 @@ Live Grounding: Deep-dives into memory allocation, dynamic resource allocation, 
 Live Grounding: Demystifies user routing, security context constraints, and performance tuning when running containerized Spark clusters on enterprise Red Hat foundations.
 
 ---
-💡 **Explore Related:** [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Noops](./noops.md) | [Container Managers](./container-managers.md)
+💡 **Explore Related:** [Container Managers](./container-managers.md) | [Kubernetes Monitoring](./kubernetes-monitoring.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
 

@@ -1,7 +1,38 @@
-# Java And Java Performance Optimization
+# Java and Memory Management
 
 !!! info "Architectural Context"
-    Detailed reference for Java And Java Performance Optimization in the context of Developer Ecosystem.
+    Detailed reference for Java and Memory Management in the context of Developer Ecosystem.
+
+## Standard Reference
+
+  - [geekflare.com: What is Thread Dump and How to Analyze them? 🌟](https://geekflare.com/dev/generate-analyze-thread-dumps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [On heap vs off heap memory usage](http://www.javacodegeeks.com/2014/12/on-heap-vs-off-heap-memory-usage.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.flipkart.tech: The Art of System Debugging — Decoding CPU Utilization' 🌟](https://blog.flipkart.tech/the-art-of-system-debugging-decoding-cpu-utilization-da75f09ef1ff)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [DZone: Performance Improvement in Java Applications: ORM/JPA 🌟](https://dzone.com/articles/performance-improvement-in-java-applications-orm-j)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [DZone: The JVM Architecture Explained 🌟](https://dzone.com/articles/jvm-architecture-explained)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [DZone: How to Troubleshoot Sudden CPU Spikes](https://dzone.com/articles/troubleshoot-sudden-cpu-spikes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [DZone refcard: Java Caching](https://dzone.com/refcardz/java-caching)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Dzone: 7 JVM Arguments of Highly Effective Applications 🌟🌟🌟](https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone.com: Flight Recorder: Examining Java and Kotlin Apps](https://dzone.com/articles/flight-recorder-examining-java-and-kotlin-apps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: How to reduce your JVM app memory footprint in Docker and Kubernetes' 🌟](https://medium.com/wix-engineering/how-to-reduce-your-jvm-app-memory-footprint-in-docker-and-kubernetes-d6e030d21298)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: Best Practices: Java Memory Arguments for Containers 🌟](https://dzone.com/articles/best-practices-java-memory-arguments-for-container)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@anurag2397: Tuning JVM containers for better CPU and memory' utilisation in K8s environment](https://medium.com/@anurag2397/solving-javas-core-problems-around-memory-and-cpu-4d0c97748c43)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [danoncoding.com: Tricky Kubernetes memory management for Java applications' 🌟](https://danoncoding.com/tricky-kubernetes-memory-management-for-java-applications-d2f88dd4e9f6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/nordnet-tech: Setting Java Heap Size Inside a Docker Container](https://medium.com/nordnet-tech/setting-java-heap-size-inside-a-docker-container-b5a4d06d2f46)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@sharprazor.app: Memory settings for Java process running in' Kubernetes pod](https://medium.com/@sharprazor.app/memory-settings-for-java-process-running-in-kubernetes-pod-1e608a5d2a64)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/codex: Running JVM Applications on Kubernetes: Beyond java' -jar](https://medium.com/codex/running-jvm-applications-on-kubernetes-beyond-java-jar-a095949f3e34)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [lalitchaturveditech.medium.com: Optimize Java Performance On Kubernetes](https://lalitchaturveditech.medium.com/optimize-java-performance-on-kubernetes-5f055d406ecf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jet-start.sh: Performance of Modern Java on Data-Heavy Workloads, Part 1' 🌟](https://jet-start.sh/blog/2020/06/09/jdk-gc-benchmarks-part1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone.com: Java Inside Docker: What You Must Know to Not FAIL](https://dzone.com/articles/java-inside-docker-what-you-must-know-to-not-fail)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [en.wikipedia.org/wiki/List_of_performance_analysis_tools](https://en.wikipedia.org/wiki/List_of_performance_analysis_tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [InspectIT](https://en.wikipedia.org/wiki/InspectIT)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [VisualVM](https://en.wikipedia.org/wiki/VisualVM)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [OverOps](https://en.wikipedia.org/wiki/OverOps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [baeldung.com: How to Analyze Java Thread Dumps 🌟](https://www.baeldung.com/java-analyze-thread-dumps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [baeldung.com: Capturing a Java Thread Dump](https://www.baeldung.com/java-thread-dump)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [DZone: Understanding the Java Memory Model and Garbage Collection 🌟](https://dzone.com/articles/understanding-the-java-memory-model-and-the-garbag)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [DZone: Memory Leaks and Java Code](https://dzone.com/articles/memory-leak-andjava-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Hazelcast JET](https://jet-start.sh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Cloud Native Languages
 
@@ -89,5 +120,5 @@
   - **(2021)** [blog.openshift.com: Performance Metrics (APM) for Spring Boot Microservices on OpenShift](https://www.redhat.com/en/blog/performance-metrics-apm-spring-boot-microservices-openshift) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive integration guide explaining how to hook up Spring Boot Prometheus metrics directly into automated OpenShift cluster telemetry layers.
 
 ---
-💡 **Explore Related:** [Dom](./dom.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md) | [React](./react.md)
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [API](./api.md) | [JVM Parameters Matrix Table](./jvm-parameters-matrix-table.md)
 

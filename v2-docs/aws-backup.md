@@ -1,12 +1,16 @@
-# Aws Backup
+# AWS Backup and Migrations. Design for failure. Disaster Recovery
 
 !!! info "Architectural Context"
-    Detailed reference for Aws Backup in the context of Cloud Providers (Hyperscalers).
+    Detailed reference for AWS Backup and Migrations. Design for failure. Disaster Recovery in the context of Cloud Providers (Hyperscalers).
 
 ## Standard Reference
 
+  - [Quantum Taps AWS for Cloud-Powered Disaster Recovery](http://www.infostor.com/backup-and_recovery/quantum-taps-aws-for-cloud-powered-disaster-recovery.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [youtube: Migrating On Premise VM to AWS | VM Import/Export | Create EC2 instance based on on-premises server](https://www.youtube.com/watch?v=buzusNljpy4&feature=youtu.be)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: AWS Backup Service for Amazon RDS](https://medium.com/avmconsulting-blog/aws-backup-service-for-amazon-rds-3e6f5827aa66)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Design for failure lessons learnt from the Sydney AWS outage](https://www.hava.io/blog/design-for-failure-lessons-learnt-from-the-sydney-aws-outage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Chaos Monkey](https://github.com/Netflix/SimianArmy/wiki/Chaos-Monkey) <span class='md-tag md-tag--info'>⭐ 7984</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [Udemy - AWS: How to Architect with a Design for Failure Approach](https://www.udemy.com/how-to-architect-with-a-design-for-failure-approach)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [How to Restore Your Instance Data from a Backup using Snapshots on AWS EC2/EBS](https://www.cloudinsidr.com/content/how-to-restore-your-instance-data-from-a-backup-using-snapshots-on-aws-ec2ebs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Backup and archive to AWS Storage Gateway VTL with Veeam Backup & Replication v9](https://aws.amazon.com/es/about-aws/whats-new/2016/08/backup-and-archive-to-aws-storage-gateway-vtl-with-veeam-backup-and-replication-v9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Creating Disaster Recovery Mechanisms Using Amazon Route 53 🌟](https://aws.amazon.com/blogs/networking-and-content-delivery/creating-disaster-recovery-mechanisms-using-amazon-route-53)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -23,5 +27,5 @@
 
 
 ---
-💡 **Explore Related:** [Aws Containers](./aws-containers.md) | [Aws Iac](./aws-iac.md) | [Aws Messaging](./aws-messaging.md)
+💡 **Explore Related:** [AWS Security](./aws-security.md) | [AWS Storage](./aws-storage.md) | [AWS Databases](./aws-databases.md)
 

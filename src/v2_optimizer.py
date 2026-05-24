@@ -171,7 +171,7 @@ class V2VisionEngine:
                 if mosaics:
                     for m in mosaics:
                         if m.count("[![") > 5: mosaic_html = m; break
-                videos_match = re.search(r'\?\?\? note "Top Videos & Clips.*?\n(.*?\n)\s*</center>', idx_content, re.DOTALL)
+                videos_match = re.search(r'\?\?\? note "Top Videos & Clips.*?\n\s+(<center.*?</center>)', idx_content, re.DOTALL)
                 if videos_match: videos_html = videos_match.group(1)
 
         for root, _, files in os.walk(V1_DIR):
@@ -576,7 +576,7 @@ class V2VisionEngine:
             
             for loc in v1_locations:
                 orig_file = os.path.basename(loc)
-                if not orig_file.endswith(".md"): continue
+                if not orig_file.endswith(".md") or orig_file == "index.md": continue
                 
                 if norm_url in self.inventory:
                     self.inventory[norm_url]["tags"] = item["tags"]
@@ -594,9 +594,31 @@ class V2VisionEngine:
                     continue
                 
                 if orig_file not in v2_structure:
+                    short_title = orig_file.replace(".md", "").replace("-", " ").title()
+                    # Custom mapping for known acronyms (Mandate 32)
+                    acronyms = {
+                        "Ai": "AI", "Mcp": "MCP", "Iac": "IaC", "Aws": "AWS", "Gcp": "GCP", 
+                        "Api": "API", "Sre": "SRE", "Cicd": "CI/CD", "Ocp3": "OCP 3", 
+                        "Ocp4": "OCP 4", "Jvm": "JVM", "Sql": "SQL", "Nosql": "NoSQL",
+                        "Chatgpt": "ChatGPT", "Mlops": "MLOps", "Devops": "DevOps",
+                        "Hr": "HR", "Qa": "QA"
+                    }
+                    for k, v in acronyms.items():
+                        short_title = short_title.replace(k, v)
+                    
+                    long_title = short_title
+                    v1_path = os.path.join("docs", orig_file)
+                    if os.path.exists(v1_path):
+                        with open(v1_path, "r", encoding="utf-8") as f:
+                            for line in f:
+                                if line.startswith("# "):
+                                    long_title = line.strip().replace("# ", "").strip()
+                                    break
+
                     v2_structure[orig_file] = {
                         "dim": dim,
-                        "title": orig_file.replace(".md", "").replace("-", " ").title(),
+                        "title": short_title,
+                        "long_title": long_title,
                         "content": {"__links__": []}
                     }
                 
@@ -612,14 +634,14 @@ class V2VisionEngine:
                     self.maturity_audit.append(audit_entry)
                 
                 hierarchy = item.get("hierarchy", [])
-            # Skip redundant top-level labels
-            if hierarchy and (hierarchy[0] == dim or hierarchy[0] == v2_structure[orig_file]["title"]): hierarchy = hierarchy[1:]
-            
-            current = v2_structure[orig_file]["content"]
-            for h_name in hierarchy[:self.max_depth]:
-                if h_name not in current: current[h_name] = {"__links__": []}
-                current = current[h_name]
-            current["__links__"].append(item)
+                # Skip redundant top-level labels
+                if hierarchy and (hierarchy[0] == dim or hierarchy[0] == v2_structure[orig_file]["title"]): hierarchy = hierarchy[1:]
+                
+                current = v2_structure[orig_file]["content"]
+                for h_name in hierarchy[:self.max_depth]:
+                    if h_name not in current: current[h_name] = {"__links__": []}
+                    current = current[h_name]
+                current["__links__"].append(item)
 
         def sort_rec(node):
             if "__links__" in node: node["__links__"].sort(key=lambda x: (-x.get("stars", 1), -(int(x["year"]) if str(x.get("year", "")).isdigit() else 0)))
@@ -746,7 +768,8 @@ class V2VisionEngine:
         for f_name, info in data.items():
             dim_groups.setdefault(info["dim"], []).append(f_name)
             
-        for dim in sorted(self.dimensions.keys()):
+        # Mandate: Use the order defined in self.dimensions for architectural flow
+        for dim in self.dimensions.keys():
             if dim in dim_groups:
                 index_md += f"### {dim}\n"
                 for f in sorted(dim_groups[dim]):
@@ -816,8 +839,8 @@ class V2VisionEngine:
             return md
 
         for f_name, info in data.items():
-            used_headers = {info['title']} # Mandate 30: MD024 - Pre-populate with H1 to avoid duplicates
-            md = f"# {info['title']}\n\n!!! info \"Architectural Context\"\n    Detailed reference for {info['title']} in the context of {info['dim']}.\n\n"
+            used_headers = {info['long_title']} # Mandate 30: MD024 - Pre-populate with H1 to avoid duplicates
+            md = f"# {info['long_title']}\n\n!!! info \"Architectural Context\"\n    Detailed reference for {info['long_title']} in the context of {info['dim']}.\n\n"
             
             if f_name == "introduction.md":
                 md += "## Vision 2026\n\n!!! quote \"The Evolution of Autonomy\"\n    From manual curation to agentic intelligence.\n\n### Ecosystem Map\n\n\n```mermaid\ngraph TD\n    A[Foundations] --> B[AI & Intelligence]\n    A --> C[Hardened Infra]\n    B --> D[Agentic Curation]\n    C --> E[Enterprise Stability]\n    D --> F[Nubenetes Portal]\n    E --> F\n```\n\n\n"
@@ -853,14 +876,13 @@ class V2VisionEngine:
             dim_groups = {}
             for f_name, info in data.items():
                 dim_groups.setdefault(info["dim"], []).append(f_name)
-                
-            for dim in sorted(self.dimensions.keys()):
+
+            for dim in self.dimensions.keys():
                 if dim in dim_groups:
                     dim_nav = [f"  - \"{dim}\":"]
                     for f in sorted(dim_groups[dim]):
                         dim_nav.append(f"    - \"{data[f]['title']}\": {f}")
-                    nav.extend(dim_nav)
-                    
+                    nav.extend(dim_nav)                    
             updated = re.sub(r'nav:.*', "\n".join(nav), content, flags=re.DOTALL)
             with open("v2-mkdocs.yml", "w") as f: f.write(updated)
         except: pass

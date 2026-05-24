@@ -1,11 +1,117 @@
-# Devsecops
+# DevSecOps and Security. Container
 
 !!! info "Architectural Context"
-    Detailed reference for Devsecops in the context of Hardened Infrastructure.
+    Detailed reference for DevSecOps and Security. Container in the context of Hardened Infrastructure.
 
 ## Standard Reference
 
+  - [paloaltonetworks.com: Is Your Organization Protected Against IAM Misconfiguration Risks?](https://www.paloaltonetworks.com/blog/2020/10/cloud-iam-misconfiguration-risks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [intezer.com: New Attacks on Kubernetes via Misconfigured Argo Workflows](https://intezer.com/blog/new-attacks-on-kubernetes-via-misconfigured-argo-workflows)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [armosec.io: Use Kubescape to check if your Kubernetes clusters are exposed to the latest K8s Symlink vulnerability (CVE-2021-25741)](https://www.armosec.io/cve-vulnerability-database)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@ishana98dadhich: Integrating AWS Secret Manager with EKS and' use Secrets inside the Pods: Part-1](https://medium.com/@ishana98dadhich/integrating-aws-secret-manager-with-eks-and-use-secrets-inside-the-pods-part-1-1938b0c3c2fb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [mehighlow.medium.com: Hardened-AKS/Secrets](https://mehighlow.medium.com/hardened-aks-secrets-82351c43eac4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Exploring the (lack of) security in a typical Docker and Kubernetes installation](https://www.neowin.net/news/exploring-the-lack-of-security-in-a-typical-docker-and-kubernets-installation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [securityboulevard.com: DevOps vs. DevSecOps – Here’s How They Fit Together](https://securityboulevard.com/2021/02/devops-vs-devsecops-heres-how-they-fit-together)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [addteq.com: The REAL Difference between DevOps and DevSecOps](https://www.addteq.com/blog/2021/03/the-real-difference-between-devops-and-devsecops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [techrepublic.com: DevOps is getting code released faster than ever. But' security is lagging behind](https://www.techrepublic.com/article/devops-is-getting-code-released-faster-than-ever-but-security-is-lagging-behind)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [bbvanexttechnologies.com: Filosofía DevSecOps en el desarrollo de aplicaciones' sobre Azure](https://www.bbvanexttechnologies.com/blogs/filosofia-devsecops-en-el-desarrollo-de-aplicaciones-sobre-azure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: Security Matters: Vulnerability Scanning Done Right! 🌟](https://dzone.com/articles/security-matters-vulnerability-scanning-done-right-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [infosecwriteups.com: How I Discovered Thousands of Open Databases on AWS](https://infosecwriteups.com/how-i-discovered-thousands-of-open-databases-on-aws-764729aa7f32)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [bridgecrew.io: 6 key Kubernetes DevSecOps principles: People, processes,' technology](https://bridgecrew.io/blog/kubernetes-devsecops-principles)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/microservices-learning: How to implement security for microservices](https://medium.com/microservices-learning/how-to-implement-security-for-microservices-89b140d3e555)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@anshuman2121: DevSecOps: Implement security on CICD Pipeline](https://medium.com/@anshuman2121/devsecops-implement-security-on-cicd-pipeline-19eb7aa22626)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@jonathan_37674: What have we learned from scanning over 10K' Kubernetes Clusters? 🌟](https://medium.com/@jonathan_37674/what-have-we-learned-from-scanning-over-10k-kubernetes-clusters-b0ac6b250427)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/technology-hits: Incomplete Guide for Securing Containerized' Environment 🌟](https://medium.com/technology-hits/incomplete-guide-for-securing-containerized-environment-78b57fc3238)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@jonathan_37674: How to Keep your CI/CD Pipelines Secure? | ARMO](https://medium.com/@jonathan_37674/how-to-keep-your-ci-cd-pipelines-secure-armo-8e962bc51fb6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betanews.com: Cloud security is complex -- but most vulnerabilities fall' into three key categories](https://betanews.com/2022/10/22/cloud-security-is-complex-but-most-vulnerabilities-fall-into-three-key-categories)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@pbijjala: Container security, an eco system view](https://medium.com/@pbijjala/container-security-an-eco-system-183dbffdf2d8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/google-cloud: Shifting (even further) Left on Kubernetes Resource' Compliance](https://medium.com/google-cloud/shifting-even-further-left-on-kubernetes-resource-compliance-8f96fb8c72eb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone.com: How To Manage Vulnerabilities in Modern Cloud-Native Applications](https://dzone.com/articles/how-to-manage-vulnerabilities-in-modern-cloud-nati)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.devops.dev: End-to-End DevSecOps Kubernetes Project](https://blog.devops.dev/end-to-end-devsecops-kubernetes-project-4259f90722ef)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.stackademic.com: Advanced End-to-End DevSecOps Kubernetes Three-Tier' Project using AWS EKS, ArgoCD, Prometheus, Grafana, and Jenkins](https://blog.stackademic.com/advanced-end-to-end-devsecops-kubernetes-three-tier-project-using-aws-eks-argocd-prometheus-fbbfdb956d1a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone.com: What Is Zero Trust Security? 🌟](https://dzone.com/articles/what-is-zero-trust-security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [securityboulevard.com: Implementing Zero-Trust Security With Service Mesh' and Kubernetes](https://securityboulevard.com/2022/10/implementing-zero-trust-security-with-service-mesh-and-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cncf.io: Seven zero trust rules for Kubernetes](https://www.cncf.io/blog/2022/11/04/seven-zero-trust-rules-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [devops.com: DevOps Security: Your Complete Checklist](https://devops.com/devops-security-your-complete-checklist)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/getindata-blog: OAuth2-based authentication on Istio-powered' Kubernetes clusters 🌟](https://medium.com/getindata-blog/oauth2-based-authentication-on-istio-powered-kubernetes-clusters-2bd0999b7332)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [manfredmlange.medium.com: Containerized Keycloak in Development](https://manfredmlange.medium.com/containerized-keycloak-in-development-2f9d079ec4a3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: DevOps Pipeline Quality Gates: A Double-Edged Sword](https://dzone.com/articles/devops-pipeline-quality-gates-a-double-edged-sword)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Focusing on the DevOps Pipeline 🌟](https://medium.com/capital-one-tech/focusing-on-the-devops-pipeline-topo-pal-833d15edf0bd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cncf.io: Identifying Kubernetes Config Security Threats: Pods Running as' Root](https://www.cncf.io/blog/2020/06/16/identifying-kubernetes-config-security-threats-pods-running-as-root)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Automating Microsoft Sentinel Deployment with Azure DevOps CI/CD](https://noodlemctwoodle.medium.com/automating-microsoft-sentinel-deployment-with-azure-devops-ci-cd-2d4ae0c4e254)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Project Calico](https://www.projectcalico.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: Kubernetes Security With Falco](https://betterprogramming.pub/kubernetes-security-with-falco-2eb060d3ae7d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [vashishtsumit89.medium.com: Security/Pen Testing: A guide to run OWASP Zap' headless in containers for CI/CD pipeline](https://vashishtsumit89.medium.com/security-pen-testing-a-guide-to-run-owasp-zap-headless-in-containers-for-ci-cd-pipeline-ddb580dae3c8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [securityonline.info: VAmPI: Vulnerable REST API with OWASP top 10 vulnerabilities](https://securityonline.info/vampi-vulnerable-rest-api-with-owasp-top-10-vulnerabilities)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [gkovan.medium.com: A Zero Trust Approach for Securing the Supply Chain of' Microservices Packaged as Container Images (sigstore, kyverno, openshift tekton, quarkus) 🌟](https://gkovan.medium.com/a-zero-trust-approach-for-securing-the-supply-chain-of-microservices-packaged-as-container-images-89d2f5b7293b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@nanditasahu031: DevSecOps — Implementing Secure CI/CD Pipelines' 🌟](https://medium.com/@nanditasahu031/devsecops-implementing-secure-ci-cd-pipelines-9653726b4916)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Verify Container Image Signatures in Kubernetes using Notary or' Cosign or both](https://medium.com/sse-blog/verify-container-image-signatures-in-kubernetes-using-notary-or-cosign-or-both-c25d9e79ec45)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [justinpolidori.it: Secure Your Docker Images With Cosign (and OPA Gatekeeper)](https://www.justinpolidori.it/posts/20220116_sign_images_with_cosign_and_verify_with_gatekeeper)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@slimm609: Secure image signing with Cosign and AWS KMS](https://medium.com/@slimm609/secure-image-signing-with-cosign-and-aws-kms-82bc25d7fdae)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Databases in DMZ and Intranet](https://security.stackexchange.com/questions/58167/databases-in-dmz-and-intranet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: The Easiest Way To Remove Checked In Credentials From A Git Repo](https://medium.com/@tanmay.avinash.deshpande/the-easiest-way-to-remove-checked-in-credentials-from-a-git-repo-704a373b94e3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [patchthenet.medium.com: Introduction to SQL Injection](https://patchthenet.medium.com/introduction-to-sql-injection-sql-injection-for-beginners-579c00431d40)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Securing Kubernetes Apps with Keycloak and Gatekeeper](https://fdk.codes/securing-kubernetes-apps-with-keycloak-and-gatekeeper)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: Authentication and authorization using the Keycloak' REST API](https://developers.redhat.com/blog/2020/11/24/authentication-and-authorization-using-the-keycloak-rest-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [faun.pub: Integrate Keycloak with HashiCorp Vault](https://faun.pub/integrate-keycloak-with-hashicorp-vault-5264a873dd2f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [baeldung.com: A Quick Guide to Using Keycloak with Spring Boot](https://www.baeldung.com/spring-boot-keycloak)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@charled.breteche: Securing Grafana with Keycloak SSO](https://medium.com/@charled.breteche/securing-grafana-with-keycloak-sso-d01fec05d984)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@amirhosseineidy: Kubernetes authentication with keycloak oidc](https://medium.com/@amirhosseineidy/kubernetes-authentication-with-keycloak-oidc-63571eaeed61)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@martin.hodges: How to install Keycloak IAM on your Kubernetes' cluster, backed by Postgres](https://medium.com/@martin.hodges/how-to-install-keycloak-iam-on-your-kubernetes-cluster-backed-by-postgres-1228eae4faeb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: How to Handle Secrets Like a Pro Using Gitops](https://medium.com/containers-101/how-to-handle-secrets-like-a-pro-using-gitops-f3b812536434)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [siddhivinayak-sk.medium.com: Kubeseal & SealedSecret: Make your ‘secrets’' secure in SCM by using ‘sealed secret’](https://siddhivinayak-sk.medium.com/kubeseal-sealedsecret-make-your-secrets-secure-in-scm-by-using-sealed-secret-4631bcb39bf8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: AWS Secret Manager: Protect sensitive information and functionality' 🌟](https://medium.com/avmconsulting-blog/aws-secret-manager-protect-sensitive-information-and-functionality-f520e15293f4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.opstree.com: AWS Secret Manager](https://blog.opstree.com/2021/11/16/aws-secret-manager)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Coding for Secrets Reliability with HashiCorp Vault](https://medium.com/hashicorp-engineering/coding-for-secrets-reliability-with-hashicorp-vault-2090dd8667e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hashicorp.com: Vault & Kubernetes: Better Together](https://www.hashicorp.com/resources/vault-and-kubernetes-better-together)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Vault Learning Resources: Vault 1.5 features and more](https://www.hashicorp.com/blog/learn-vault-1-5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Securing K8s Ingress Traffic with HashiCorp Vault PKIaaS and JetStack' Cert-Manager](https://medium.com/hashicorp-engineering/securing-k8s-ingress-traffic-with-hashicorp-vault-pkiaas-and-jetstack-cert-manager-cb46195742ca)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hashicorp.com: Automate Secret Injection into CI/CD Workflows with the GitHub' Action for Vault](https://www.hashicorp.com/blog/vault-github-action)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hashicorp.com: Use AWS Lambda Extensions to Securely Retrieve Secrets From' HashiCorp Vault](https://www.hashicorp.com/blog/aws-lambda-extensions-for-hashicorp-vault)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hashicorp.com: HCP Vault is now generally available on AWS 🌟](https://www.hashicorp.com/blog/vault-on-the-hashicorp-cloud-platform-ga)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hashicorp.com: Serverless Secrets with HashiCorp Vault](https://www.hashicorp.com/resources/serverless-secrets-vault)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hashicorp.com: Retrieve HashiCorp Vault Secrets with Kubernetes CSI](https://www.hashicorp.com/blog/retrieve-hashicorp-vault-secrets-with-kubernetes-csi)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hashicorp.com: Onboarding Applications to Vault Using Terraform: A Practical' Guide 🌟](https://www.hashicorp.com/blog/onboarding-applications-to-vault-using-terraform-a-practical-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hashicorp.com: Managing SSH Access at Scale with HashiCorp Vault](https://www.hashicorp.com/blog/managing-ssh-access-at-scale-with-hashicorp-vault)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hashicorp.com: Announcing HashiCorp Vault 1.8](https://www.hashicorp.com/blog/vault-1-8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hashicorp.com: A Kubernetes User's Guide to HashiCorp Nomad Secret Management](https://www.hashicorp.com/blog/a-kubernetes-user-s-guide-to-hashicorp-nomad-secret-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hashicorp.com: HashiCorp Vault Use Cases and Best Practices on Azure](https://www.hashicorp.com/blog/hashicorp-vault-use-cases-and-best-practices-on-azure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Install Hashicorp Vault on Kubernetes using Helm - Part 1 |' Marco Franssen](https://marcofranssen.nl/install-hashicorp-vault-on-kubernetes-using-helm-part-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hashicorp.com: Integrating Azure AD Identity with HashiCorp Vault — Part' 1: Azure Application Auth via OIDC](https://www.hashicorp.com/blog/integrating-azure-ad-identity-hashicorp-vault-part-1-application-auth-oidc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@pratyush.mathur: Secrets Management Using Vault in K8S](https://medium.com/@pratyush.mathur/secrets-management-using-vault-in-k8s-272462c37fd8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hashicorp.com: Kubernetes Vault Integration via Sidecar Agent Injector vs.' CSI Provider](https://www.hashicorp.com/blog/kubernetes-vault-integration-via-sidecar-agent-injector-vs-csi-provider)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hashicorp.com: Manage Kubernetes Secrets for Flux with HashiCorp Vault](https://www.hashicorp.com/blog/manage-kubernetes-secrets-for-flux-with-hashicorp-vault)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hashicorp.com: How to Integrate Your Application with Vault: Static Secrets](https://www.hashicorp.com/blog/how-to-integrate-your-application-with-vault-static-secrets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.devops.dev: Using Vault in Kubernetes Production for Security Engineers](https://blog.devops.dev/using-vault-in-kubernetes-production-for-security-engineers-54d2f0aca4d1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hashicorp.com: HashiCorp Vault 1.11 Adds Kubernetes Secrets Engine, PKI' Updates, and More 🌟](https://www.hashicorp.com/blog/vault-1-11)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@nikhil.purva: Securing Kubernetes Secrets with HashiCorp Vault](https://medium.com/@nikhil.purva/securing-kubernetes-secrets-with-hashicorp-vault-a9555728e095)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hashicorp.com: The State of Vault and Kubernetes, and Future Plans](https://www.hashicorp.com/blog/the-state-of-vault-and-kubernetes-and-future-plans)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@martin.hodges: Introduction to Vault to provide secret management' in your Kubernetes cluster](https://medium.com/@martin.hodges/introduction-to-vault-to-provide-secret-management-in-your-kubernetes-cluster-658b58372569)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@martin.hodges: Enabling TLS on your Vault cluster on Kubernetes](https://medium.com/@martin.hodges/enabling-tls-on-your-vault-cluster-on-kubernetes-0d20439b13d0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@calvineotieno010: Managing Application Secrets with Hashicorp' Vault](https://medium.com/@calvineotieno010/managing-application-secrets-with-hashicorp-vault-8efb5e1d87fd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@muppedaanvesh: A Hands-On Guide to Vault in Kubernetes](https://medium.com/@muppedaanvesh/a-hand-on-guide-to-vault-in-kubernetes-%EF%B8%8F-1daf73f331bd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hashicorp.com: Why Use the Vault Agent for Secrets Management?](https://www.hashicorp.com/blog/why-use-the-vault-agent-for-secrets-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/nerd-for-tech: PKI Certs Injection to K8s Pods with Vault Agent' Injector](https://medium.com/nerd-for-tech/pki-certs-injection-to-k8s-pods-with-vault-agent-injector-d97482b48f3d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hashicorp.com: Refresh Secrets for Kubernetes Applications with Vault Agent](https://www.hashicorp.com/blog/refresh-secrets-for-kubernetes-applications-with-vault-agent)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Declarative secret management for GitOps with Kapitan](https://medium.com/kapitan-blog/declarative-secret-management-for-gitops-with-kapitan-b3c596eab088)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: Managing Secrets Deployment in GitOps Workflow 🌟](https://dzone.com/articles/managing-kubernetes-secrets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [portworx.com: Implementing Data Security on Red Hat OpenShift 🌟](https://portworx.com/implementing-data-security-on-red-hat-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: KubeSecOps Pipeline(Container security) in a cloudnative ecosystem](https://medium.com/@vaib16dec/kubesecops-pipeline-container-security-in-a-cloudnative-ecosystem-e59bf19a713d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: Secure Your Kubernetes Cluster With Seccomp](https://betterprogramming.pub/secure-your-kubernetes-cluster-with-seccomp-9403ecf831b2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: A Practical Guide for Container Security](https://dzone.com/articles/a-practical-guide-for-container-security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [octetz.com: Setting Up Pod Security Policies](https://octetz.com/docs/2018/2018-12-07-psp)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com: K8s Network Policies Demystified and Simplified 🌟](https://medium.com/swlh/k8s-network-policies-demystified-and-simplified-18f5ea9848e2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Kubernetes Network Policies: Are They Really Useful?](https://medium.com/@senthilrch/kubernetes-network-polices-are-they-really-useful-c3a153c49316)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Who’s at the Helm?](https://dlorenc.medium.com/whos-at-the-helm-1101c37bf0f1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dev-vibe.medium.com: Encrypt Helm sensitive data](https://dev-vibe.medium.com/encrypt-helm-sensitive-data-9d7622e41d00)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.mimacom.com: A Summary of log4j Exploit in a Log4shell - What Happened' and What You Can Do About It](https://blog.mimacom.com/log4j-in-a-log4shell)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [venturebeat.com: What Log4Shell teaches us about open source security](https://venturebeat.com/2021/12/18/what-log4shell-teaches-us-about-open-source-security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [techrepublic.com: How to create Let's Encrypt SSL certificates with acme.sh' on Linux](https://www.techrepublic.com/article/how-to-create-lets-encrypt-ssl-certificates-with-acme-sh-on-linux)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [bridgecrew](https://bridgecrew.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [bridgecrew.io: Tutorial: Incorporate IaC Security in your CI/CD pipeline' with Bridgecrew, Jenkins, and GitHub](https://bridgecrew.io/blog/tutorial-incorporate-iac-security-in-your-ci-cd-pipeline-with-bridgecrew-jenkins-and-github)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [itbusinessedge.com: Okta vs. Azure AD: IAM Tool Comparison](https://www.itbusinessedge.com/security/okta-vs-azure-ad)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [grype: a vulnerability scanner for container images and filesystems](https://github.com/anchore/grype) <span class='md-tag md-tag--info'>⭐ 12262</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [Kubernetes-Secrets-Store-CSI-Driver: Secrets Store CSI driver for Kubernetes' secrets](https://github.com/kubernetes-sigs/secrets-store-csi-driver) <span class='md-tag md-tag--info'>⭐ 1530</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Application Security
 
@@ -122,6 +228,11 @@
 #### Security Tooling
 
   - [cybersecsi/HOUDINI: Hundreds of Offensive and Useful Docker Images for' Network Intrusion](https://github.com/cybersecsi/HOUDINI) <span class='md-tag md-tag--info'>⭐ 1251</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A catalog containing hundreds of preconfigured Docker images optimized for security audit operations, network mapping, and intrusion evaluation. Note: The repository has seen limited recent updates but remains structurally valuable.
+### Policy Enforcement
+
+#### Open Policy Agent
+
+  - **(2021)** [infracloud.io: Kubernetes Pod Security Policies with Open Policy Agent](https://www.infracloud.io/blogs/kubernetes-pod-security-policies-opa) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Addresses the transition from obsolete Kubernetes Pod Security Policies (PSPs) to Open Policy Agent (OPA) Gatekeeper. Explores how to leverage declarative constraints using the Rego engine to strictly manage admission control actions.
 ### Secrets Management (1)
 
 #### Bitwarden
@@ -163,7 +274,6 @@
   - [opensource.com: Sign and verify container images with this open source' tool (sigstore)](https://opensource.com/article/21/12/sigstore-container-images) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how developers can use Sigstore's Cosign integration to guarantee image authenticity. Highlights structural differences between classic PGP setups and the identity-driven ledger approach utilized by modern DevSecOps frameworks.
 #### Security Tooling (1)
 
-  - **(2021)** [**cloud.redhat.com: Top Open Source Kubernetes Security Tools of 2021 🌟🌟**](https://www.redhat.com/en/blog/top-open-source-kubernetes-security-tools-of-2021) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A strategic overview of outstanding open-source Kubernetes protection mechanisms. Summarizes and contrasts the deployment use-cases for prominent systems focused on static verification, policy governance, and kernel monitoring.
   - [techbeacon.com: 17 open-source container security tools 🌟](https://techbeacon.com/security/17-open-source-container-security-tools) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated directory cataloging seventeen critical open-source security technologies. Details structural features and comparison parameters across image scanners, policy-engine enforcement options, and runtime observation technologies.
   - [itnext.io: Top 6 Threat Detection Tools for Containers](https://itnext.io/top-6-threat-detection-tools-for-containers-3dd80b77777e) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares six container risk detection technologies. Contrasts passive image checking with complex system-call interception models (e.g., Falco), showing engineers how to balance performance overhead against real-time protection.
 ### Vulnerability Management
@@ -239,6 +349,9 @@
 #### Kubernetes Deployment
 
   - **(2021)** [containerjournal.com: Kubernetes Security in Your CI/CD Pipeline](https://cloudnativenow.com/features/kubernetes-security-in-your-ci-cd-pipeline) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Examines security best practices for embedding Kubernetes-focused vulnerability, manifest, and policy scanning within continuous deployment lifecycles. Discusses the transition from raw Docker registry checks to active policy enforcement during runtime transitions.
+#### Podman
+
+  - [Build trusted pipelines/Guards with Podman containers](https://www.redhat.com/en/blog/using-container-technology-make-trusted-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Evaluates strategies for building rootless, secure continuous integration pipelines using Red Hat's Podman. Contrasts Podman's daemonless security with Docker's privileged execution models to prevent pipeline takeover attacks.
 ### Culture and Strategy
 
 #### Automation Culture
@@ -290,7 +403,6 @@
   - [thenewstack.io: SecOps in a Post-COVID World: 3 Security Trends to Watch](https://thenewstack.io/secops-in-a-post-covid-world-3-security-trends-to-watch)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Outlines critical security trends influenced by the sudden acceleration of distributed remote workforces and cloud adoption. Emphasizes the prioritization of identity-centric security boundaries, zero-trust cloud network baselines, and automated threat hunting capabilities.
 #### Transition Guides
 
-  - **(2021)** [cloudify.co: Understanding DevSecOps And Its Challenges](https://docs.cloudify.co) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines structural challenges in scaling DevSecOps, focusing on multi-cloud security orchestrations. Contrast: Curator Insight highlights simple automation roadblocks, while Live Grounding confirms that managing state drift across multiple Kubernetes regions is the primary blocker. Highly technical perspective.
   - [ais.com: Leaping into DevSecOps from DevOps](https://www.ais.com/leaping-into-devsecops-from-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Offers structural steps to migrate existing DevOps operations toward a DevSecOps operational state. Contrast: Curator Insight notes basic pipeline modifications, whereas Live Grounding shows that identity security and secrets orchestration represent the largest transition hurdles. Highly practical implementation blueprint.
   - [invensislearning.com: Difference between DevOps and DevSecOps](https://www.invensislearning.com/blog/devops-vs-devsecops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Distinguishes the exact operational and architectural boundaries separating classic DevOps from modern DevSecOps. Contrast: Curator Insight details simple workflow differences, while Live Grounding proves that DevSecOps represents a declarative shift from reactive scanning to continuous runtime enforcement. Excellent educational reference.
   - [devops.com: Tips for a Successful DevSecOps Life Cycle](https://devops.com/tips-for-a-successful-devsecops-life-cycle)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A granular walkthrough detailing how to embed automated security checkpoints across each phase of the application development lifecycle. Contrast: Curator Insight focuses on sequential steps, whereas Live Grounding demonstrates that real-time developer feedback loops are required to prevent security tool alert exhaustion. Helpful implementation guide.
@@ -311,8 +423,8 @@
   - [thenewstack.io: Infrastructure-as-Code: 6 Best Practices for Securing Applications' 🌟](https://thenewstack.io/infrastructure-as-code-6-best-practices-for-securing-applications)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Presents six foundational guidelines for securing IaC templates before cloud deployments. Contrast: Curator Insight limits its scope to simple template linters, while Live Grounding confirms that evaluating IaC using declarative Policy-as-Code engines (like OPA) is the standard method to block configuration drift. Essential reference.
 #### Static Analysis (1)
 
-  - [blog.christophetd.fr: Shifting Cloud Security Left — Scanning Infrastructure' as Code for Security Issues](https://blog.christophetd.fr/shifting-cloud-security-left-scanning-infrastructure-as-code-for-security-issues)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive analysis on shifting cloud security left by scanning Infrastructure as Code (IaC) templates for misconfigurations before deployment. Contrast: Curator Insight targets traditional static code checks, while Live Grounding validates that integrating tools like tfsec, Checkov, and Kics directly into CI/CD is now an industry standard. Essential for platform engineering security.
   - [KubeLinter](https://github.com/stackrox/kube-linter) <span class='md-tag md-tag--info'>⭐ 3450</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A static analysis tool that analyzes Kubernetes YAML manifests and Helm charts against best practices for security and production readiness. Checks for running as root, container security context settings, and missing resource limits.
+  - [blog.christophetd.fr: Shifting Cloud Security Left — Scanning Infrastructure' as Code for Security Issues](https://blog.christophetd.fr/shifting-cloud-security-left-scanning-infrastructure-as-code-for-security-issues)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive analysis on shifting cloud security left by scanning Infrastructure as Code (IaC) templates for misconfigurations before deployment. Contrast: Curator Insight targets traditional static code checks, while Live Grounding validates that integrating tools like tfsec, Checkov, and Kics directly into CI/CD is now an industry standard. Essential for platform engineering security.
   - [thenewstack.io: StackRox KubeLinter Brings Security Linting to Kubernetes](https://thenewstack.io/stackrox-kubelinter-brings-security-linting-to-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Introduces StackRox's KubeLinter tool, exploring its core capabilities to audit deployment manifests and Helm templates before operational execution. Details standard rule definitions and highlights strategies for developer integration.
   - [github.com/yannh/kubeconform 🌟](https://github.com/yannh/kubeconform) <span class='md-tag md-tag--info'>⭐ 3033</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly performant Kubernetes manifest validator written in Go, acting as a faster alternative to `kubeval`. Validates resource specifications against OpenAPI schemas, supporting custom resource definitions (CRDs) seamlessly in CI/CD environments.
   - [thenewstack.io: Security Insights into Infrastructure-as-Code](https://thenewstack.io/security-insights-into-infrastructure-as-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Details security challenges present in IaC files across Terraform, Ansible, and CloudFormation. Analyzes typical misconfiguration risks (such as public S3 buckets, open security groups) and demonstrates the value of automated programmatic verification.
@@ -423,6 +535,11 @@
 #### Microservices Security (1)
 
   - [osohq.com: Patterns for Authorization in Microservices](https://www.osohq.com/post/microservices-authorization-patterns) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A deep architectural deep-dive analyzing patterns for deploying authorization policies in distributed systems. Evaluates centralized vs decentralized policy enforcement points, data-filtering complexities, and structured implementations using OPA (Open Policy Agent) or Oso.
+### Cloud IAM
+
+#### Microsoft Entra
+
+  - [Configure Microsoft Entra for Increased Security](https://learn.microsoft.com/en-us/entra/fundamentals/configure-security) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Official documentation outlines hardening parameters for Microsoft Entra ID. Features prescriptive blueprints for setting up conditional access, continuous access evaluation, Multi-Factor Authentication (MFA), and role-based identity management.
 ### Design and Architecture (1)
 
 #### Microservices Security (2)
@@ -485,11 +602,6 @@
 #### Secrets Management (4)
 
   - [kubewarden.io: Scanning secrets in environment variables](https://www.kubewarden.io/blog/2022/10/env-var-secrets) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Demonstrates how to use Kubewarden admission policies to dynamically intercept and prevent container deployments containing plaintext secrets or API keys exposed in environment variables. Provides concrete policy writing paradigms using WebAssembly (Wasm) and Rego.
-### Kubernetes Fundamentals
-
-#### Security Concepts (1)
-
-  - **(2026)** [==kubernetes.io: Overview of Cloud Native Security==](https://kubernetes.io/docs/concepts/security) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The authoritative framework defining Kubernetes security architecture across the 'FourCs' Model: Cloud, Cluster, Container, and Code. Serves as the foundational blueprint for understanding attack vectors, defense-in-depth methodologies, and default-deny paradigms in orchestrating container workloads safely.
 ### Kubernetes Hardening
 
 #### Threat Landscape
@@ -621,13 +733,16 @@
 #### Pentesting
 
   - [forbes.com: DevOps Drives Pentesting Delivered As A Service](https://www.forbes.com/sites/chenxiwang/2020/06/17/devops-drives-pentesting-delivered-as-a-service) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — This Forbes article explores how continuous deployment velocities are driving the shift toward API-driven Pentesting-as-a-Service (PTaaS). It contrasts legacy annual audits with modern, on-demand security testing models natively embedded into developer pipelines.
+#### Product Analysis
+
+  - [computing.co.uk: CloudBees gets busy with security, visibility and control' as DevOps evolves](https://www.computing.co.uk/news/4020521/cloudbees-busy-security-visibility-control-devops-evolves)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines updates to CloudBees' enterprise pipeline offerings, emphasizing the convergence of developer visibility and compliance control gates. Addresses challenges in executing secure enterprise DevOps workflows at scale.
+#### SAST
+
+  - [GitHub Code Security Risk Assessment: Free Vulnerability Scanning](https://github.blog/security/application-security/how-exposed-is-your-code-find-out-in-minutes-for-free) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introduction to GitHub's native, free vulnerability scanning tools designed to locate security regressions, secrets, and supply chain threats directly within the code repository. It highlights automated security alerts and quick enablement configurations.
 #### Secrets Detection
 
   - [GitHub security: what does it take to protect your company from credentials' leaking on GitHub? 🌟](https://blog.gitguardian.com/github-security) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth corporate case study and operational guide detailing the systematic threats of credential leakage in public and private Git environments. It highlights risk mitigation frameworks, API scanner configurations, and team hygiene rules required to prevent credential sprawl.
   - [blog.gitguardian.com: Secrets in source code (episode 2/3). Why secrets' in git are such a problem](https://blog.gitguardian.com/secrets-credentials-api-git) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This educational blog post outlines the threat vectors of hardcoded secrets in Git histories. It details the structural reasons why standard version control systems make secret revocation difficult once committed, presenting static pre-commit hooks as the primary defense.
-#### Secrets Scanning
-
-  - **(2022)** [jfrog.com: How to protect your secrets with Spectral and JFrog Pipelines](https://jfrog.com/blog) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical walk-through showing how to use Spectral in tandem with JFrog Pipelines. The tutorial focuses on identifying misplaced credentials and code misconfigurations inside continuous integration stages.
 #### Supply Chain Security (3)
 
   - [Anchore: Secure Container Based CI/CD Workflows](https://anchore.com/cicd) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An overview of Anchore's enterprise solutions for securing CI/CD pipelines through extensive Software Bill of Materials (SBOM) generation and continuous container inspection. It helps organizations detect upstream dependencies risk and establish a trusted supply chain.
@@ -673,7 +788,7 @@
 #### Container Security Platforms
 
   - **(2026)** [**stackrox.com**](https://www.redhat.com/en/technologies/cloud-computing/openshift/advanced-cluster-security-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Red Hat Advanced Cluster Security (formerly StackRox) provides Kubernetes-native guardrails to secure application life cycles across build, deploy, and runtime phases. Operating deep within the cluster infrastructure, it leverages declarative policies to enforce network segmentation, assess vulnerability risk, and monitor active configurations.
-#### Policy Enforcement
+#### Policy Enforcement (1)
 
   - [Securing Kubernetes With Anchore](https://anchore.com/kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This reference highlights Anchore's integration into Kubernetes systems to enforce compliance and vulnerability policies. It showcases the utilization of native admission controllers to intercept deployment requests and reject any images failing automated security criteria.
 #### Secrets Auditing
@@ -798,6 +913,9 @@
 #### Dependency Analysis (1)
 
   - [socket.dev: Introducing Socket](https://socket.dev/blog/introducing-socket)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural introduction to Socket's active package monitoring system. Evaluates structural anomalies in dependencies by tracing suspicious network calls, API system changes, and permission escalations.
+#### Enterprise Platform
+
+  - **(2021)** [tanzu.vmware.com: Log4Shell Vulnerability Spotlights the Importance of Adopting Trusted Open Source Software Providers for the Enterprise](https://www.vmware.com/products/app-platform/tanzu)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the strategic imperative of establishing trusted open-source workflows inside enterprise build infrastructures. Demonstrates how Tanzu's curated application platform streamlines immediate mitigation tasks at runtime.
 #### Open Source Policy
 
   - [zdnet.com: Log4j: Google and IBM call for list of critical open source projects](https://www.zdnet.com/article/log4j-after-white-house-meeting-google-calls-for-list-of-critical-open-source-projects)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses high-level strategies initiated by Google and IBM to identify and secure critical open-source software structures. Explores how public-private partnerships aim to fortify base infrastructure projects globally.
@@ -864,5 +982,5 @@
   - [torq.io: 5 Security Automation Examples for Non-Developers](https://torq.io/blog/5-security-automation-examples-for-non-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides five actionable automation playbooks for SecOps teams to streamline alert triage and response actions. Contrast: Curator Insight presents low-code solutions for non-developers, while Live Grounding shows that automating through structured JSON endpoints and centralized notification platforms is key to keeping MTTR minimal. Practical operational guide.
 
 ---
-💡 **Explore Related:** [Chef](./chef.md) | [Oauth](./oauth.md) | [Securityascode](./securityascode.md)
+💡 **Explore Related:** [Kubernetes Security](./kubernetes-security.md) | [Kustomize](./kustomize.md) | [Crossplane](./crossplane.md)
 

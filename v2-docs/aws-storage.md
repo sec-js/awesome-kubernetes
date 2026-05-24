@@ -1,7 +1,13 @@
-# Aws Storage
+# AWS Storage. S3 & EBS. AWS Storage Gateway
 
 !!! info "Architectural Context"
-    Detailed reference for Aws Storage in the context of Cloud Providers (Hyperscalers).
+    Detailed reference for AWS Storage. S3 & EBS. AWS Storage Gateway in the context of Cloud Providers (Hyperscalers).
+
+## Standard Reference
+
+  - [Making Requests to Amazon S3 over IPv6](http://docs.aws.amazon.com/AmazonS3/latest/dev/ipv6-access.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Getting Started with AWS Storage Gateway](http://docs.aws.amazon.com/storagegateway/latest/userguide/GettingStarted-common.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [awstip.com: Uploading files to S3 through API Gateway](https://awstip.com/uploading-files-to-s3-through-api-gateway-7bb78c0d0483)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Cloud Infrastructure
 
@@ -43,7 +49,15 @@
 #### MinIO
 
   - **(2022)** [**blog.min.io: Certificate-based Authentication for S3**](https://www.min.io/blog/certificate-based-authentication-with-s3) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Explains how to implement robust Mutual TLS (mTLS) and client certificate-based authentication with MinIO. Outlines secure key exchanges and architectural mapping of certificates to IAM policies.
+### Storage
+
+#### Distributed Filesystems
+
+  - [Ceph: A Distributed Object, Block, and File Storage Platform](https://github.com/ceph/ceph) <span class='md-tag md-tag--info'>⭐ 16621</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The industry-standard unified, distributed storage system designed to provide excellent performance, reliability, and scalability.
+
+*   Provides object, block, and file storage within a single cluster.
+*   Acts as a foundational storage engine for large-scale Kubernetes PV platforms (Rook-Ceph) and private clouds.
 
 ---
-💡 **Explore Related:** [Aws Containers](./aws-containers.md) | [Aws Iac](./aws-iac.md) | [Aws Messaging](./aws-messaging.md)
+💡 **Explore Related:** [AWS Security](./aws-security.md) | [AWS Databases](./aws-databases.md) | [AWS Backup](./aws-backup.md)
 

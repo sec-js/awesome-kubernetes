@@ -1,10 +1,12 @@
-# Digitalocean
+# Digital Ocean
 
 !!! info "Architectural Context"
-    Detailed reference for Digitalocean in the context of Cloud Providers (Hyperscalers).
+    Detailed reference for Digital Ocean in the context of Cloud Providers (Hyperscalers).
 
 ## Standard Reference
 
+  - [App Platform](https://docs.digitalocean.com/products/app-platform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [theregister.com: DigitalOcean decides to head rivals off at the PaaS, floats App Platform to deploy, run code without juggling servers](https://www.theregister.com/off-prem/2020/10/07/digitalocean-decides-to-head-rivals-off-at-the-paas-floats-app-platform-to-deploy-run-code-without-juggling-servers/802967)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Digital Ocean](https://www.digitalocean.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Digital Ocean Kubernetes (DOKS)](https://www.digitalocean.com/products/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [try.digitalocean.com/cloudplex](https://try.digitalocean.com/cloudplex)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -30,5 +32,5 @@
   - [NGINXConfig](https://www.digitalocean.com/community/tools/nginx)  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — DigitalOcean's visual configuration tool for Nginx. It generates highly secure, production-tested server blocks tailored for modern features like HTTP/2, custom security headers, SSL/TLS optimizations via Let's Encrypt, and Gzip compression.
 
 ---
-💡 **Explore Related:** [Aws Containers](./aws-containers.md) | [Aws Iac](./aws-iac.md) | [Aws Messaging](./aws-messaging.md)
+💡 **Explore Related:** [AWS Security](./aws-security.md) | [AWS Storage](./aws-storage.md) | [AWS Databases](./aws-databases.md)
 
