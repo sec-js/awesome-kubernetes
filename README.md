@@ -138,9 +138,9 @@ Additionally, as of May 2026, Nubenetes has reached the **Platinum Operational T
 <!-- HEART_STATS_START -->
 | Metric | Value |
 | :--- | :--- |
-| **Total Technical Resources (Links)** | **15441+** |
+| **Total Technical Resources (Links)** | **0+** |
 | **Specialized MD Pages** | **161** |
-| **Total Commits** | **5355+** |
+| **Total Commits** | **5357+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -150,16 +150,6 @@ Top 10 categories by link volume in the exhaustive V1 archive.
 <!-- TOP_CATEGORIES_START -->
 | Category (Markdown Page) | Total Links |
 | :--- | :---: |
-| [Kubernetes](docs/kubernetes.md) | 1118 |
-| [Kubernetes Tools](docs/kubernetes-tools.md) | 735 |
-| [Terraform](docs/terraform.md) | 621 |
-| [Demos](docs/demos.md) | 523 |
-| [Git](docs/git.md) | 489 |
-| [Azure](docs/azure.md) | 473 |
-| [Jenkins](docs/jenkins.md) | 415 |
-| [Devsecops](docs/devsecops.md) | 402 |
-| [Managed Kubernetes In Public Cloud](docs/managed-kubernetes-in-public-cloud.md) | 371 |
-| [Introduction](docs/introduction.md) | 328 |
 <!-- TOP_CATEGORIES_END -->
 
 ### 2.3. Historical Growth (Commits and References)
@@ -178,7 +168,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 1796 | 7,417 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 1798 | 7,425 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -194,8 +184,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume (Commits / Estimated New Refs)" 0 --> 9000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 7417]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1796]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 7425]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1798]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -204,7 +194,7 @@ xychart-beta
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
-| 2026-05 | 1771 | 7,314 | **Agentic Inception (Gemini Era)** |
+| 2026-05 | 1773 | 7,322 | **Agentic Inception (Gemini Era)** |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
@@ -222,7 +212,6 @@ pie title Nubenetes Major Ecosystem Pillars
     "Public/Private Cloud" : 2500
     "CI/CD and GitOps" : 2200
     "Infra as Code" : 1200
-    "Specialized Topics" : 1041
     "SRE and Observability" : 1000
     "Security and DevSecOps" : 1000
 ```
@@ -238,10 +227,10 @@ Reflecting Nubenetes' mission of global access while maintaining technical Engli
 <!-- SUB_ECO_CHART_START -->
 ```mermaid
 pie title Linguistic Diversity (Global Access)
-    "English" : 13896
-    "Spanish" : 926
-    "French" : 154
-    "Others" : 463
+    "English" : 0
+    "Spanish" : 0
+    "French" : 0
+    "Others" : 0
 ```
 <!-- SUB_ECO_CHART_END -->
 
