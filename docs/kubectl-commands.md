@@ -60,7 +60,7 @@
 - [medium.com/codex: Kubectl Output 101](https://medium.com/codex/kubectl-output-101-851f8e61fd51) Cheatsheet & examples of using kubectl get -o
 - [medium.com/geekculture: kubectl — Best Practices](https://medium.com/geekculture/kubectl-best-practices-c4ff809167dd)
 - [==learnitguide.net: How to Create ConfigMap from Properties File Using K8s Client==](https://www.learnitguide.net/2023/04/how-to-create-configmap-from-properties.html)
-- [shardul.dev: Most Useful kubectl Plugins](https://shardul.dev/most-useful-kubectl-plugins) In this article, you will have a look at the following kubectl plugins:
+- [shardul.dev: Most Useful kubectl Plugins](https://shardul.dev/most-useful-kubectl-plugins) you will have a look at the following kubectl plugins:
     - neat
     - view-secret
     - access-matrix
@@ -113,7 +113,7 @@ complete -F __start_kubectl k
 ## kubectl exec
   - [A Complete Guide to Kubectl exec](https://refine.dev/blog/kubectl-exec-command) - *(Related to kubernetes-tools topic)*
 
-- [itnext.io: Connect to containers using Kubectl Exec](https://itnext.io/connect-to-containers-using-kubectl-exec-b1fb5c171f03) In this article, we will look at the kubectl exec command to show how to get a shell into a running container in your Kubernetes (K8S) cluster, and how to run individual commands on a container with some useful examples.
+- [itnext.io: Connect to containers using Kubectl Exec](https://itnext.io/connect-to-containers-using-kubectl-exec-b1fb5c171f03) the kubectl exec command to show how to get a shell into a running container in your Kubernetes (K8S) cluster, and how to run individual commands on a container with some useful examples.
 - [goteleport.com: kubectl exec vs SSH](https://goteleport.com/blog/ssh-vs-kubectl) This article compares `kubectl exec` and SSH and discusses their strengths and weaknesses
 
 ## kubectl scale
@@ -158,7 +158,7 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 
 ## Buildkit CLI for kubectl a drop in replacement for docker build
 
-- [container-registry.com: Lifting Developers’ Productivity 🌟](https://container-registry.com/posts/productivity-lift-buildkit-cli-for-kubectl) With BuildKit CLI for kubectl a drop in replacement for docker build. In this post, you will learn how to build container images with BuildKit CLI for kubectl (a replacement for the `docker build` command)
+- [container-registry.com: Lifting Developers’ Productivity 🌟](https://container-registry.com/posts/productivity-lift-buildkit-cli-for-kubectl) With BuildKit CLI for kubectl a drop in replacement for docker build. how to build container images with BuildKit CLI for kubectl (a replacement for the `docker build` command)
 - [vmware-tanzu/buildkit-cli-for-kubectl (kubectl plugin)](https://github.com/vmware-archive/buildkit-cli-for-kubectl) BuildKit CLI for kubectl is a tool for building container images with your Kubernetes cluster.
 
 ## Kubectl Alternatives

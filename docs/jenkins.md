@@ -148,7 +148,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 - [==youtube: Tech World with Nana - Jenkins Tutorial for Beginners==](https://www.youtube.com/playlist?list=PLy7NrYWoggjw_LIiDK1LXdNN82uYuuuiC)
 - [==camunda.com: How We Overcame Long-Running Job Limitations in Jenkins Declarative Pipelines==](https://camunda.com/blog/2022/02/how-we-overcame-long-running-job-limitations-in-jenkins-declarative-pipelines)
 - [==aws.amazon.com: Jenkins high availability and disaster recovery on AWS== 🌟](https://aws.amazon.com/blogs/devops/jenkins-high-availability-and-disaster-recovery-on-aws)
-- [blog.searce.com: Jenkins Distributed Cluster Using Dynamic Build Agents On GKE](https://blog.searce.com/jenkins-distributed-cluster-using-dynamic-build-agents-on-gke-e2262a59dcb3) In this article, you'll learn how to build a distributed Jenkins cluster on GKE and autoscale the Jenkins agents to process more jobs.
+- [blog.searce.com: Jenkins Distributed Cluster Using Dynamic Build Agents On GKE](https://blog.searce.com/jenkins-distributed-cluster-using-dynamic-build-agents-on-gke-e2262a59dcb3) you'll learn how to build a distributed Jenkins cluster on GKE and autoscale the Jenkins agents to process more jobs.
 - [fosstechnix.com: How to Validate Jenkinsfile using Visual Studio Code](https://www.fosstechnix.com/validate-jenkinsfile-using-visual-studio-code)
 - [freecodecamp.org: Learn Jenkins by Building a CI/CD Pipeline 🌟](https://www.freecodecamp.org/news/learn-jenkins-by-building-a-ci-cd-pipeline)
 - [medium.com/ni-tech-talk: Creating Customized Kubernetes Pod Templates using Groovy in Jenkins Pipeline 🌟](https://medium.com/ni-tech-talk/creating-customized-kubernetes-pod-templates-using-groovy-in-jenkins-pipeline-7007f023a585)

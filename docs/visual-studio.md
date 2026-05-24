@@ -282,7 +282,7 @@ A simple extension to make indentation more readable
 - [Repl.it](https://replit.com) Reading code is hard! Don't you wish you could just ask the code what it does? To describe its functions, its types. And maybe... how can it be improved? Introducing: Replit code oracle.
 - [==Gitpod Open Sources a ‘Holistic IDE’==](https://thenewstack.io/gitpod-open-sources-a-holistic-ide)
     - [thenewstack.io: Gitpod Brings Automated Environments to JetBrains IDEs](https://thenewstack.io/gitpod-brings-automated-environments-to-jetbrains-ides)
-- [piotrminkowski.com: Development on Kubernetes: IDE & TOOLS](https://piotrminkowski.com/2020/08/03/development-on-kubernetes-ide-tools) In this article, you will learn what tools, frameworks, and platforms could help you to speed up the development of JVM microservices on Kubernetes.
+- [piotrminkowski.com: Development on Kubernetes: IDE & TOOLS](https://piotrminkowski.com/2020/08/03/development-on-kubernetes-ide-tools) what tools, frameworks, and platforms could help you to speed up the development of JVM microservices on Kubernetes.
 - [openshift.com: Visual Web Terminal - A Turbocharged Command Line for Kubernetes and OpenShift](https://www.redhat.com/en/blog/visual-web-terminal-a-turbocharged-command-line-for-kubernetes-and-openshift)
 - [Linux on Chrome OS, sometimes called Crostini 🌟](https://chromeos.dev/en/linux), allows you to run Linux apps for development alongside your usual Chrome OS desktop & apps.
 - [==Fleet==](https://www.jetbrains.com/fleet) Next-generation IDE by JetBrains
@@ -291,7 +291,7 @@ A simple extension to make indentation more readable
 
 ### Intellij IDEA
 
-- [evaizik.medium.com: Setting up a remote debugging for Java microservices running inside Kubernetes pods](https://evaizik.medium.com/setting-up-a-remote-debugging-for-java-microservices-running-inside-kubernetes-pods-d4aab1ff4efa) In this article, you'll learn in detail how to set up remote debugging between IntelliJ IDE and a Java application running inside a Kubernetes pod — without using any additional third-party software
+- [evaizik.medium.com: Setting up a remote debugging for Java microservices running inside Kubernetes pods](https://evaizik.medium.com/setting-up-a-remote-debugging-for-java-microservices-running-inside-kubernetes-pods-d4aab1ff4efa) you'll learn in detail how to set up remote debugging between IntelliJ IDE and a Java application running inside a Kubernetes pod — without using any additional third-party software
 - [betterprogramming.pub: My Top 7 Most Underrated IntelliJ IDEA Features](https://betterprogramming.pub/my-top-7-most-underrated-intellij-idea-features-572b0b706bd6)
 
 ### Online VSCode

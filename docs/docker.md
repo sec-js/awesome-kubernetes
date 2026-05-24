@@ -76,7 +76,7 @@
 - [pythonspeed.com: Docker can slow down your code and distort your benchmarks](https://pythonspeed.com/articles/docker-performance-overhead)
 - [turbofuture.com: A Beginners Guide to Containers and Docker](https://turbofuture.com/computers/introductiontodocker)
 - [releasehub.com: Cutting Build Time In Half with Docker’s Buildx Kubernetes Driver](https://release.com/blog/cutting-build-time-in-half-docker-buildx-kubernetes)
-- [medium.com/nttlabs: Kubernetes driver for Docker BuildX](https://medium.com/nttlabs/buildx-kubernetes-ad0fe59b0c64) In this article, you will learn how Docker BuildX supports building images using BuildKit pods on a Kubernetes cluster. Docker BuildX, the extended version of docker build CLI, now supports distributed image building using Kubernetes!
+- [medium.com/nttlabs: Kubernetes driver for Docker BuildX](https://medium.com/nttlabs/buildx-kubernetes-ad0fe59b0c64) how Docker BuildX supports building images using BuildKit pods on a Kubernetes cluster. Docker BuildX, the extended version of docker build CLI, now supports distributed image building using Kubernetes!
 - [linuxadictos.com: Docker presenta nuevas capacidades para desarrolladores](https://www.linuxadictos.com/docker-presenta-nuevas-capacidades-para-desarrolladores.html)
 - [grafana.com: Docker Integration for Grafana Cloud](https://grafana.com/docs/grafana-cloud/monitor-infrastructure/integrations/integration-reference/integration-docker) Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly.
 - [dev.to: Docker CMD vs ENTRYPOINT: explaining the difference](https://dev.to/hood/docker-cmd-vs-entrypoint-explaining-the-difference-55g7)

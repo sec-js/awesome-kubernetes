@@ -61,7 +61,7 @@
 - [storj.io: Integrating Decentralized Cloud Storage with Duplicati](https://www.storj.io/cloud-object-storage)
 - [thenewstack.io: The Biggest Gap in Kubernetes Storage Architecture?](https://thenewstack.io/whats-the-biggest-gap-in-kubernetes-storage-architecture)
 - [medium: Provisioning storage in Kubernetes](https://medium.com/avmconsulting-blog/provisioning-storage-in-kubernetes-e1dc5610318d)
-- [kylezsembery.com: Persistent Storage in Kubernetes](https://www.kylezsembery.com/persistent-storage-kubernetes) In this post I’ll briefly explain how persistent storage works in Kubernetes.
+- [kylezsembery.com: Persistent Storage in Kubernetes](https://www.kylezsembery.com/persistent-storage-kubernetes)I’ll briefly explain how persistent storage works in Kubernetes.
 - [blog.mayadata.io: Container Attached Storage (CAS) vs. Software-Defined Storage - Which One to Choose?](https://blog.mayadata.io/container-attached-storage-cas-vs.-software-defined-storage-which-one-to-choose)
 - [thenewstack.io: Stateful Workloads on Kubernetes with Container Attached Storage 🌟](https://thenewstack.io/stateful-workloads-on-kubernetes-with-container-attached-storage)
 - [developers.redhat.com: How to maximize data storage for microservices and Kubernetes, Part 1: An introduction 🌟](https://developers.redhat.com/articles/2021/08/11/how-maximize-data-storage-microservices-and-kubernetes-part-1-introduction)
@@ -74,10 +74,10 @@
 - [armosec.io: Data Storage in Kubernetes](https://www.armosec.io/blog/kubernetes-data-storage) Kubernetes in cooperation with cloud vendor infrastructure provides flexible mechanisms for data storage and management. It is up to the users to decide which mechanism best fits their application needs. However, the security side of the data storage falls completely under the user’s responsibility. Most of the default settings are wide open and require significant security expertise to protect your applications from data leakage.
 - [==infoq.com: Best Practices for Running Stateful Applications on Kubernetes==](https://www.infoq.com/articles/kubernetes-stateful-applications)
 - [blog.flant.com: Comparing Ceph, LINSTOR, Mayastor, and Vitastor storage performance in Kubernetes](https://palark.com/blog/kubernetes-storage-performance-linstor-ceph-mayastor-vitastor) Are you looking for an easy-to-use, reliable block-type storage for your cluster?
-- [medium.com/@amir.ilw: Kubernetes Storage Migration 🌟](https://medium.com/@amir.ilw/kubernetes-storage-migration-ac48f6f9f5a5) Storage migrations, storage path changes or even moving to a newer faster CSI can be overwhelming. In this article, you'll learn the required steps, how to avoid the pitfalls of immutable volumes and how to plan your next migration.
+- [medium.com/@amir.ilw: Kubernetes Storage Migration 🌟](https://medium.com/@amir.ilw/kubernetes-storage-migration-ac48f6f9f5a5) Storage migrations, storage path changes or even moving to a newer faster CSI can be overwhelming. you'll learn the required steps, how to avoid the pitfalls of immutable volumes and how to plan your next migration.
 - [discoblocks.io 🌟](https://discoblocks.io) - [ondat/discoblocks](https://github.com/ondat/discoblocks) **Open Source declarative disk configuration system for Kubernetes.** Discoblocks is an open-source declarative disk configuration system for Kubernetes helping to automate CRUD (Create, Read, Update, Delete) operations for cloud disk device resources attached to Kubernetes cluster nodes.
 - [medium.com/geekculture: Storage | Kubernetes](https://medium.com/geekculture/storage-kubernetes-92eb3d027282) A Deep Dive into Kubernetes Storage
-- [itnext.io: Temporary Storage for Kubernetes Pods](https://itnext.io/temporary-storage-for-kubernetes-pods-f8330ad8db88) Or emptyDir vs. container File System. Kubernetes applications might need some temporary storage that could be discarded after a container is stopped/removed. In this article, you will compare emptyDir and the container's local storage.
+- [itnext.io: Temporary Storage for Kubernetes Pods](https://itnext.io/temporary-storage-for-kubernetes-pods-f8330ad8db88) Or emptyDir vs. container File System. Kubernetes applications might need some temporary storage that could be discarded after a container is stopped/removed. you will compare emptyDir and the container's local storage.
 - [==container-object-storage-interface.github.io: Kubernetes COSI== [ARCHIVED]]( http://web.archive.org/web/20250117155441/https://container-object-storage-interface.github.io) Kubernetes Container Object Storage Interface (COSI) is a standard for exposing object storage to containerized workloads running in Kubernetes. COSI is meant to be a departure from the CSI since the latter does not work well with object storage.
 - [medium.com/nerd-for-tech: Persistence with Kubernetes](https://medium.com/nerd-for-tech/persistence-with-kubernetes-46f039d9a2ad)
 - [cncf.io: Kubernetes storage is complex, but it’s getting better](https://www.cncf.io/blog/2023/03/28/kubernetes-storage-is-complex-but-its-getting-better)
@@ -86,7 +86,7 @@
 
 ## Kubernetes Storage API Interface
 
-- [danielmangum.com: K8s ASA: The Storage Interface](https://danielmangum.com/posts/k8s-asa-the-storage-interface) The primary function of the Kubernetes API Server is to ingest data, store it, and then return it when requested. In this article, you will learn how the API Server stores data.
+- [danielmangum.com: K8s ASA: The Storage Interface](https://danielmangum.com/posts/k8s-asa-the-storage-interface) The primary function of the Kubernetes API Server is to ingest data, store it, and then return it when requested. how the API Server stores data.
 
 ## Kubernetes Storage Classes
 
@@ -109,7 +109,7 @@
 - [giffgaff.io: Resizing StatefulSet Persistent Volumes with zero downtime 🌟](https://www.giffgaff.io/tech/resizing-statefulset-persistent-volumes-with-zero-downtime)
 - [kubermatic.com: Keeping the State of Apps 1: Introduction to Volume and volumeMounts](https://www.kubermatic.com/blog/keeping-the-state-of-apps-1-introduction-to-volume-and-volumemounts) In this blog post, you will get a hands-on practice and learn how to provide persistent storage in the form of different volumes to the Pods.
 - [blog.cloudnloud.com: Kubernetes Volume](https://blog.cloudnloud.com/kubernetes-volume)
-- [==adamtheautomator.com: Effortless Storage Management With Kubernetes PVC== 🌟](https://adamtheautomator.com/kubernetes-pvc) In this tutorial, you'll learn about Kubernetes PVC and set up a persistent volume for a MySQL database. You'll also confirm that the data persists even after deleting and recreating the pods.
+- [==adamtheautomator.com: Effortless Storage Management With Kubernetes PVC== 🌟](https://adamtheautomator.com/kubernetes-pvc) you'll learn about Kubernetes PVC and set up a persistent volume for a MySQL database. You'll also confirm that the data persists even after deleting and recreating the pods.
 - [portworx.com: Kubernetes Persistent Volume Tutorial by Portworx](https://portworx.com/tutorial-kubernetes-persistent-volumes)
     - What is K8s PV?
     - How do they differ from k8s volumes?

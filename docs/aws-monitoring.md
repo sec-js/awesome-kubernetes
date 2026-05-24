@@ -28,7 +28,7 @@
 - [Amazon CloudWatch Dashboards now supports sharing](https://aws.amazon.com/about-aws/whats-new/2020/09/amazon-cloudwatch-dashboards-supports-sharing)
 - [How BT uses Amazon CloudWatch to monitor millions of devices](https://aws.amazon.com/blogs/mt/how-bt-uses-amazon-cloudwatch-to-monitor-millions-of-devices)
 - [Extending and exploring alarm history in Amazon CloudWatch – part 2](https://aws.amazon.com/blogs/mt/extending-and-exploring-alarm-history-in-amazon-cloudwatch-part-2)
-- [dzone: Optimize AWS Costs With CloudWatch's Advanced Metrics, Dashboards, and Alerts](https://dzone.com/articles/optimize-aws-costs-with-cloudwatchs-advanced-metri) In this article, we dive deep into leveraging advanced dashboarding with Amazon CloudWatch to efficiently manage and analyze AWS costs.
+- [dzone: Optimize AWS Costs With CloudWatch's Advanced Metrics, Dashboards, and Alerts](https://dzone.com/articles/optimize-aws-costs-with-cloudwatchs-advanced-metri) leveraging advanced dashboarding with Amazon CloudWatch to efficiently manage and analyze AWS costs.
 
 ## AWS Cloud Map and HealthChecks
 

@@ -56,7 +56,7 @@
 - [MongoDB and Kubernetes 🌟](https://www.mongodb.com/products/integrations/kubernetes)
 - [betterprogramming.pub: MongoDB Schema Validation Rules](https://betterprogramming.pub/mongodb-schema-validation-rules-8a1afc6ea67b) How to apply schema validation rules in a collection.
 - [hashinteractive.com: MONGODUMP AND MONGORESTORE VS MONGOEXPORT AND MONGOIMPORT](https://hashinteractive.com/blog/mongodump-and-mongorestore-vs-mongoexport-and-mongoimport)
-- [==adamtheautomator.com: How To Perform a MongoDB Kubernetes Installation== 🌟](https://adamtheautomator.com/mongodb-kubernetes) In this tutorial, you'll learn how to deploy MongoDB to Kubernetes using the MongoDB Operator.
+- [==adamtheautomator.com: How To Perform a MongoDB Kubernetes Installation== 🌟](https://adamtheautomator.com/mongodb-kubernetes) you'll learn how to deploy MongoDB to Kubernetes using the MongoDB Operator.
 - [code.likeagirl.io: Docker: Setup Simple Application with MongoDB for Data Storage](https://code.likeagirl.io/docker-setup-simple-application-with-mongodb-for-data-storage-272bdb3036ad)
 - [thenewstack.io: Deploy MongoDB in a Container, Access It Outside the Cluster](https://thenewstack.io/deploy-mongodb-in-a-container-access-it-outside-the-cluster) How to a deploy a containerized version of MongoDB and connect to it from a machine or service outside of the hosting server.
 - [==github.com/oslabs-beta: Odin's Eye==](https://github.com/oslabs-beta/OdinsEye) Odin's Eye is a monitoring tool for Kubernetes and containerized MongoDB

@@ -26,7 +26,7 @@
 - [dev.to: Adding an EBS volume to a running AWS EC2 Instance](https://dev.to/aws-builders/adding-an-ebs-volume-to-a-running-aws-ec2-instance-311l)
 - [awstip.com: Uploading files to S3 through API Gateway](https://awstip.com/uploading-files-to-s3-through-api-gateway-7bb78c0d0483)
     - When you have a front-end application and need to upload files to an S3 bucket securely and keep your bucket private, you can use API Gateway to post your files to S3.
-    - If you don´t want to make any modifications to the file and upload it as is, you can upload the files directly from API Gateway to S3. But if some modifications are required, you may consider using Lambda to receive the request from API Gateway and upload to S3. In this article we will not use Lambda.
+    - If you don´t want to make any modifications to the file and upload it as is, you can upload the files directly from API Gateway to S3. But if some modifications are required, you may consider using Lambda to receive the request from API Gateway and upload to S3.we will not use Lambda.
 
 ## Amazon EFS Elastic File System
   - [Ceph: A Distributed Object, Block, and File Storage Platform](https://github.com/ceph/ceph) - *(Related to kubernetes-storage topic)*

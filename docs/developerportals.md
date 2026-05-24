@@ -126,7 +126,7 @@
 - [medium: Running services with Knative & Kong](https://medium.com/nerd-for-tech/running-services-with-knative-kong-3135c0d94dfa)
 - [==dzone: Breaking Up a Monolithic Database with Kong==](https://dzone.com/articles/breaking-up-a-monolithic-database-with-kong) If your microservice design results in a very large API or multiple services accessing a single database, check out why Kong Gateway should be part of your project.
 - [konghq.com: Kong and Red Hat: Delivering Seamless Customer Experience](https://konghq.com/blog/news/kong-and-red-hat-collaboration)
-- [medium.com/@martin.hodges: Why do I need an API Gateway on a Kubernetes cluster](https://medium.com/@martin.hodges/why-do-i-need-an-api-gateway-on-a-kubernetes-cluster-c70f15da836c) In this article I introduce the concepts of an API Gateway and explain why you would need one in your Kubernetes cluster. In my next article I will show how to set one up using Kong.
+- [medium.com/@martin.hodges: Why do I need an API Gateway on a Kubernetes cluster](https://medium.com/@martin.hodges/why-do-i-need-an-api-gateway-on-a-kubernetes-cluster-c70f15da836c)I introduce the concepts of an API Gateway and explain why you would need one in your Kubernetes cluster. In my next article I will show how to set one up using Kong.
 
 ### Tyk API Manager
 
@@ -147,7 +147,7 @@
 ### Gloo Federation API Gateway Management
 
 - [Introducing Gloo Federation for Multi-Cluster API Gateway Management](https://www.solo.io/blog)
-- [solo.io: [Tutorial] Securing APIs with OIDC Using Keycloak](https://www.solo.io/blog/tutorial-gloo-integration-with-keycloak) In this tutorial, you will learn how to integrate the Gloo API gateway with Keycloack in Kubernetes
+- [solo.io: [Tutorial] Securing APIs with OIDC Using Keycloak](https://www.solo.io/blog/tutorial-gloo-integration-with-keycloak) how to integrate the Gloo API gateway with Keycloack in Kubernetes
 
 ### Backstage Developer Portal
 
@@ -175,7 +175,7 @@
 ### Spring Cloud Gateway
 
 - [Spring Cloud Gateway](https://spring.io/projects/spring-cloud-gateway)
-- [dzone: Custom Rate Limiting for Microservices 🌟](https://dzone.com/articles/rate-limiting-for-microservices) Enforcing rate limits on microservices is a common requirement in the API economy. In this article, we are going to build a custom rate limiting solution.
+- [dzone: Custom Rate Limiting for Microservices 🌟](https://dzone.com/articles/rate-limiting-for-microservices) Enforcing rate limits on microservices is a common requirement in the API economy. we are going to build a custom rate limiting solution.
 - [cloudtechtwitter.com: Pattern: API Gateway / Backends for Frontends](https://www.cloudtechtwitter.com/2022/05/pattern-api-gateway-backends-for.html) Spring Cloud Gateway provides a library to build an API Gateway. This is the preferred gateway implementation provided by Spring Cloud. It's built with Spring 5, Spring Boot 2, and Project Reactor. To understand the offerings of Spring Cloud Gateway we must understand the API Gateway pattern in detail.
 - [medium.com/@jeevansathisocial: High-performance API gateway](https://medium.com/@jeevansathisocial/high-performance-api-gateway-3661d5a2fee0s-3661d5a2fee0)
 

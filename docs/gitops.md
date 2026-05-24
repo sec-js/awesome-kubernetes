@@ -98,7 +98,7 @@
 - [shipa.io: GitOps in the enterprise 🌟](https://shipa.io/gitops-in-the-enterprise)
 - [itnext.io: GitOps with Kubernetes 🌟](https://itnext.io/gitops-with-kubernetes-740f37ea015b)
 - [shipa.io: GitOps meets AppOps](https://shipa.io/gitops-meets-appops)
-- [weave.works: Automating Kubernetes with GitOps (whitepaper) 🌟](https://www.weave.works/)
+- [weave.works: Automating Kubernetes with GitOps (whitepaper) 🌟](https://go.weave.works/automating-kubernetes-with-gitops-wp.html)
 - [devopslearners.com: What is GitOps?](https://devopslearners.com/what-is-gitops-168aac9a2ee) A small explanation for GitOps
 - [go.weave.works: The Practical Guide to GitOps (eBook)](https://www.weave.works/)
 - [enterprisersproject.com: How to explain GitOps in plain English](https://enterprisersproject.com/article/2021/6/gitops-explained-plain-english) What is GitOps and why is it important? How can IT leaders explain GitOps to others, especially if they don’t speak DevOps or cloud-native? Experts break it down
@@ -109,7 +109,7 @@
 - [weave.works: The History of GitOps 🌟](https://www.weave.works/blog/the-history-of-gitops)
 - [opensource.com: How to get the most out of GitOps right now](https://opensource.com/article/21/8/gitops) GitOps is a great starting point to understand what is running in production, but it may need a little more augmentation to get it working just right for your engineering team.
 - [redhat.com: 3 rules for applying principles of GitOps to enterprise architecture](https://www.redhat.com/en/blog/3-gitops-rules-architecture) Check out these three rules for using GitOps to get your enterprise architecture up and running effectively.
-- [weave.works: Hardening Git for GitOps (white paper)](https://www.weave.works/)
+- [weave.works: Hardening Git for GitOps (white paper)](https://go.weave.works/hardening-git-for-gitops.html)
 - [magalix.com: GitOps 101: What’s It All About?](https://www.magalix.com/blog/what-is-gitops)
 - [containerjournal.com: The 4 Levels of GitOps Maturity](https://cloudnativenow.com/features/the-4-levels-of-gitops-maturity)
 - [thenewstack.io: How to Get the Most out of GitOps](https://thenewstack.io/how-to-get-the-most-out-of-gitops) __Just as Kubernetes was accepted as the best way to do cloud native applications, GitOps is gaining recognition as the best way to do Kubernetes.__
@@ -147,11 +147,11 @@
 - [weave.works: The world’s largest telcos are now embracing GitOps. Deutsche Telekom explains why](https://www.weave.works/blog/deutsche-telekom-explain-why-they-chose-gitops-for-5g) GitOps and 5G - a deep dive into Deutsche Telekom’s experience
 - [==thenewstack.io: Kubernetes at Scale without GitOps Is a Bad Idea==](https://thenewstack.io/kubernetes-at-scale-without-gitops-is-a-bad-idea)
 - [harness.io: GitOps: The New Kid On The DevOps Block!](https://www.harness.io/blog) GitOps: the single source of truth, the evangelizer of as-code, and the bringer of CI/CD automation. Get an intro view into GitOps here!
-- [==Dzone: 3 Steps to Developing a Successful GitOps Model==](https://dzone.com/articles/3-steps-to-developing-a-successful-gitops-model) __In this post, explore how GitOps best serves organizations that develop cloud-native solutions based on containerization and microservices.__
+- [==Dzone: 3 Steps to Developing a Successful GitOps Model==](https://dzone.com/articles/3-steps-to-developing-a-successful-gitops-model) __explore how GitOps best serves organizations that develop cloud-native solutions based on containerization and microservices.__
 - [linkedin pulse: GitOps vs. DevOps! | Pavan Belagatti](https://www.linkedin.com/pulse/gitops-vs-devops-pavan-belagatti)
 - [==containerjournal.com: GitOps Workflows and Principles for Kubernetes==](https://cloudnativenow.com/topics/gitops-workflows-and-principles-for-kubernetes)
 - [harness.io: 6 Actionable GitOps Best Practices To Help You Get Started](https://www.harness.io/blog/gitops-best-practices)
-- [==codefresh.io: How to Model Your Gitops Environments and Promote Releases between Them== 🌟](https://octopus.com/blog/how-to-model-your-gitops-environments) In this article, you'll learn how to use different folders on the same Git branch. Two questions after adopting GitOps are:
+- [==codefresh.io: How to Model Your Gitops Environments and Promote Releases between Them== 🌟](https://octopus.com/blog/how-to-model-your-gitops-environments) you'll learn how to use different folders on the same Git branch. Two questions after adopting GitOps are:
     - How should I represent different environments on Git?
     - How should I handle promoting releases between them?
 - [==piotrminkowski.com: Continuous Development on Kubernetes with GitOps Approach== 🌟](https://piotrminkowski.com/2022/06/06/continuous-development-on-kubernetes-with-gitops-approach)
@@ -359,7 +359,7 @@
 - [medium: GitOps with Istio, Tekton and Argo CD — on OpenShift 4](https://medium.com/@joelkaplan1/gitops-with-istio-tekton-and-argo-cd-on-openshift-4-5e42d22994e3)
 - [thenewstack.io: Red Hat Delivers Full GitOps CI/CD Built on Tekton and Argo](https://thenewstack.io/red-hat-delivers-full-gitops-ci-cd-built-on-tekton-and-argo)
 - [redhat.com: Red Hat Makes DevOps a Reality with OpenShift GitOps and OpenShift Pipelines 🌟](https://www.redhat.com/en/about/press-releases/red-hat-makes-devops-reality-openshift-gitops-and-openshift-pipelines) New Red Hat OpenShift features provide fully-integrated CI/CD pipeline for organizations to deliver applications more consistently and with greater predictability across the open hybrid cloud.
-- [==piotrminkowski.com: GitOps with Advanced Cluster Management for Kubernetes== 🌟](https://piotrminkowski.com/2022/10/24/gitops-with-advanced-cluster-management-for-kubernetes) In this article, you will learn how to manage multiple clusters with Argo CD and Advanced Cluster Management for Kubernetes. Advanced Cluster Management (ACM) for Kubernetes is a tool provided by Red Hat based on a community-driven project [Open Cluster Management](https://open-cluster-management.io). I’ll show you how to use it with OpenShift to implement gitops approach for running apps across multiple clusters. However, you can as well deploy a community-driven version on Kubernetes.
+- [==piotrminkowski.com: GitOps with Advanced Cluster Management for Kubernetes== 🌟](https://piotrminkowski.com/2022/10/24/gitops-with-advanced-cluster-management-for-kubernetes) how to manage multiple clusters with Argo CD and Advanced Cluster Management for Kubernetes. Advanced Cluster Management (ACM) for Kubernetes is a tool provided by Red Hat based on a community-driven project [Open Cluster Management](https://open-cluster-management.io). I’ll show you how to use it with OpenShift to implement gitops approach for running apps across multiple clusters. However, you can as well deploy a community-driven version on Kubernetes.
 
 ### AWS Kubernetes
   - [Avoiding Mistakes with AWS OIDC Integration Conditions](https://www.wiz.io/blog/avoiding-mistakes-with-aws-oidc-integration-conditions) - *(Related to aws-security topic)*
@@ -368,7 +368,7 @@
 
 ### Weave Kubernetes Platform
 
-- [weave.works: Weave Kubernetes Platform](https://www.weave.works/) Automate Enterprise Kubernetes the GitOps way
+- [weave.works: Weave Kubernetes Platform](https://www.weave.works) Automate Enterprise Kubernetes the GitOps way
 - [github: Weave Net - Weaving Containers into Applications](https://github.com/weaveworks/weave)
 
 ### Ubuntu Charmed Kubernetes

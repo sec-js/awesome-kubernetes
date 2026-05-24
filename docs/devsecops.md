@@ -429,10 +429,10 @@
 - [openshift.com: Geographically Distributed Stateful Workloads - Part 3: Keycloak](https://www.redhat.com/en/blog/geographically-distributed-stateful-workloads-part-3-keycloak)
 - [blog.flant.com: Running fault-tolerant Keycloak with Infinispan in Kubernetes](https://palark.com/blog/ha-keycloak-infinispan-kubernetes)
 - [baeldung.com: A Quick Guide to Using Keycloak with Spring Boot](https://www.baeldung.com/spring-boot-keycloak)
-- [==medium.com/@charled.breteche: Securing Grafana with Keycloak SSO==](https://medium.com/@charled.breteche/securing-grafana-with-keycloak-sso-d01fec05d984) In this article you will learn how to deploy and configure Keycloak in a local Kubernetes cluster, then deploy Grafana and use the Keycloak instance for authentication and authorization
+- [==medium.com/@charled.breteche: Securing Grafana with Keycloak SSO==](https://medium.com/@charled.breteche/securing-grafana-with-keycloak-sso-d01fec05d984)you will learn how to deploy and configure Keycloak in a local Kubernetes cluster, then deploy Grafana and use the Keycloak instance for authentication and authorization
 - [dev.to: KeyCloak with Nginx Ingress](https://dev.to/aws-builders/keycloak-with-nginx-ingress-6fo)
 - [medium.com/@amirhosseineidy: Kubernetes authentication with keycloak oidc](https://medium.com/@amirhosseineidy/kubernetes-authentication-with-keycloak-oidc-63571eaeed61)
-- [medium.com/@martin.hodges: How to install Keycloak IAM on your Kubernetes cluster, backed by Postgres](https://medium.com/@martin.hodges/how-to-install-keycloak-iam-on-your-kubernetes-cluster-backed-by-postgres-1228eae4faeb) In this article I look at installing Keycloak and integrating with a Kong API Gateway inside a Kubernetes cluster to provide an OAuth and OIDC solution for your services.
+- [medium.com/@martin.hodges: How to install Keycloak IAM on your Kubernetes cluster, backed by Postgres](https://medium.com/@martin.hodges/how-to-install-keycloak-iam-on-your-kubernetes-cluster-backed-by-postgres-1228eae4faeb)I look at installing Keycloak and integrating with a Kong API Gateway inside a Kubernetes cluster to provide an OAuth and OIDC solution for your services.
 
 ### Git Credential Manager Core
 
@@ -462,7 +462,7 @@
 - [kubeopsskills/cloud-secret-resolvers: Cloud Secret Resolvers (CSR)](https://github.com/kubeopsskills/cloud-secret-resolvers) Cloud Secret Resolvers is a set of tools to help your applications (on Kubernetes) to retrieve any credentials from cloud managed vaults without the needed to write additional boilerplate code in your applications!.
 - [thenewstack.io: Managing Secrets in Your DevOps Pipeline](https://thenewstack.io/managing-secrets-in-your-devops-pipeline)
 - [==thenewstack.io: Kubernetes Secrets Management: 3 Approaches, 9 Best Practices==](https://thenewstack.io/kubernetes-secrets-management-3-approaches-9-best-practices) Developers must make early design choices about where to store secrets, how to retrieve them and how to make them available in an application.
-- [siddhivinayak-sk.medium.com: Kubeseal & SealedSecret: Make your ‘secrets’ secure in SCM by using ‘sealed secret’](https://siddhivinayak-sk.medium.com/kubeseal-sealedsecret-make-your-secrets-secure-in-scm-by-using-sealed-secret-4631bcb39bf8) In this article, you will learn the theory and practice behind encrypting your secrets with SealedSecret & Kubeseal
+- [siddhivinayak-sk.medium.com: Kubeseal & SealedSecret: Make your ‘secrets’ secure in SCM by using ‘sealed secret’](https://siddhivinayak-sk.medium.com/kubeseal-sealedsecret-make-your-secrets-secure-in-scm-by-using-sealed-secret-4631bcb39bf8) the theory and practice behind encrypting your secrets with SealedSecret & Kubeseal
 
 ### Anti Patterns. Wrong Secrets
 
@@ -527,7 +527,7 @@
 - [piotrminkowski.com: Vault on Kubernetes with Spring Cloud](https://piotrminkowski.com/2021/12/30/vault-on-kubernetes-with-spring-cloud)
 - [hashicorp.com: Integrating Azure AD Identity with HashiCorp Vault — Part 1: Azure Application Auth via OIDC](https://www.hashicorp.com/blog/integrating-azure-ad-identity-hashicorp-vault-part-1-application-auth-oidc)
 - [==medium.com/@pratyush.mathur: Secrets Management Using Vault in K8S==](https://medium.com/@pratyush.mathur/secrets-management-using-vault-in-k8s-272462c37fd8)
-- [hashicorp.com: Kubernetes Vault Integration via Sidecar Agent Injector vs. CSI Provider](https://www.hashicorp.com/blog/kubernetes-vault-integration-via-sidecar-agent-injector-vs-csi-provider) In this post, you will explore the different methods of integrating HashiCorp Vault with Kubernetes and learn how to choose the best solution for your use case.
+- [hashicorp.com: Kubernetes Vault Integration via Sidecar Agent Injector vs. CSI Provider](https://www.hashicorp.com/blog/kubernetes-vault-integration-via-sidecar-agent-injector-vs-csi-provider) you will explore the different methods of integrating HashiCorp Vault with Kubernetes and learn how to choose the best solution for your use case.
 - [hashicorp.com: Manage Kubernetes Secrets for Flux with HashiCorp Vault](https://www.hashicorp.com/blog/manage-kubernetes-secrets-for-flux-with-hashicorp-vault) Configure the Secrets Store CSI driver with HashiCorp Vault to securely inject secrets into **Flux** or other GitOps tools on Kubernetes.
 - [==hashicorp.com: How to Integrate Your Application with Vault: Static Secrets==](https://www.hashicorp.com/blog/how-to-integrate-your-application-with-vault-static-secrets) Learn how to retrieve static secrets from HashiCorp Vault in a real-world setting using a new sample application.
 - [blog.devops.dev: Using Vault in Kubernetes Production for Security Engineers](https://blog.devops.dev/using-vault-in-kubernetes-production-for-security-engineers-54d2f0aca4d1)
@@ -539,8 +539,8 @@
 - [medium.com/@nikhil.purva: Securing Kubernetes Secrets with HashiCorp Vault](https://medium.com/@nikhil.purva/securing-kubernetes-secrets-with-hashicorp-vault-a9555728e095)
 - [hashicorp.com: The State of Vault and Kubernetes, and Future Plans](https://www.hashicorp.com/blog/the-state-of-vault-and-kubernetes-and-future-plans) Get an overview of the most common ways to use HashiCorp Vault and Kubernetes together, and get a preview of a new method we're considering.
 - [alexandre-vazquez.com: How To Inject Secrets in Pods To Improve Security with Hashicorp Vault in 5 Minutes 🌟](https://alexandre-vazquez.com/inject-secrets-in-pods-using-hashicorp-vault)
-- [medium.com/@martin.hodges: Introduction to Vault to provide secret management in your Kubernetes cluster](https://medium.com/@martin.hodges/introduction-to-vault-to-provide-secret-management-in-your-kubernetes-cluster-658b58372569) One of the core Kubernetes resources is a Secret. However, these Secrets are not actually secure, as anyone with access to the cluster may be able to read and update the secret. This article introduces Vault into the cluster to securely manage secrets.
-    - [medium.com/@martin.hodges: Enabling TLS on your Vault cluster on Kubernetes](https://medium.com/@martin.hodges/enabling-tls-on-your-vault-cluster-on-kubernetes-0d20439b13d0) In this article I look at adding TLS secured connections to our unprotected Vault cluster. We will do this to ensure our secrets remain, well, secret.
+- [medium.com/@martin.hodges: Introduction to Vault to provide secret management in your Kubernetes cluster](https://medium.com/@martin.hodges/introduction-to-vault-to-provide-secret-management-in-your-kubernetes-cluster-658b58372569) One of the core Kubernetes resources is a Secret. However, these Secrets are not actually secure, as anyone with access to the cluster may be able to read and update the secret.Vault into the cluster to securely manage secrets.
+    - [medium.com/@martin.hodges: Enabling TLS on your Vault cluster on Kubernetes](https://medium.com/@martin.hodges/enabling-tls-on-your-vault-cluster-on-kubernetes-0d20439b13d0)I look at adding TLS secured connections to our unprotected Vault cluster. We will do this to ensure our secrets remain, well, secret.
 - [medium.com/@calvineotieno010: Managing Application Secrets with Hashicorp Vault](https://medium.com/@calvineotieno010/managing-application-secrets-with-hashicorp-vault-8efb5e1d87fd)
 - [medium.com/@muppedaanvesh: A Hands-On Guide to Vault in Kubernetes](https://medium.com/@muppedaanvesh/a-hand-on-guide-to-vault-in-kubernetes-%EF%B8%8F-1daf73f331bd) Manage k8s Secrets Using HashiCorp Vault: With Practical Examples
 
@@ -549,7 +549,7 @@
 - [harness.io: Tutorial: How to Use the New Vault Agent Integration Method With Harness](https://www.harness.io/blog/vault-agent-secrets-management)
 - [harness.io: Tutorial: Vault Agent Advanced Use Case With Kubernetes Delegates and Shared Volumes 🌟](https://www.harness.io/blog)
 - [hashicorp.com: Why Use the Vault Agent for Secrets Management?](https://www.hashicorp.com/blog/why-use-the-vault-agent-for-secrets-management)
-- [medium.com/nerd-for-tech: PKI Certs Injection to K8s Pods with Vault Agent Injector](https://medium.com/nerd-for-tech/pki-certs-injection-to-k8s-pods-with-vault-agent-injector-d97482b48f3d) In this article, you'll learn how to use the Vault Agent Injector to dynamically generate and Inject PKI Certs to Pods by rendering secrets to a shared volume, containers within the pod will consume Vault secrets without being Vault aware.
+- [medium.com/nerd-for-tech: PKI Certs Injection to K8s Pods with Vault Agent Injector](https://medium.com/nerd-for-tech/pki-certs-injection-to-k8s-pods-with-vault-agent-injector-d97482b48f3d) you'll learn how to use the Vault Agent Injector to dynamically generate and Inject PKI Certs to Pods by rendering secrets to a shared volume, containers within the pod will consume Vault secrets without being Vault aware.
 - [hashicorp.com: Refresh Secrets for Kubernetes Applications with Vault Agent](https://www.hashicorp.com/blog/refresh-secrets-for-kubernetes-applications-with-vault-agent) Learn the system signal and live reload methods for updating Kubernetes applications when secrets change. See an example via a Spring Boot application.
 
 ### Azure Key Vault
@@ -629,7 +629,7 @@
 ### Sigstore
 
 - [==sigstore.dev==](https://www.sigstore.dev) A new standard for signing, verifying and protecting software. Making sure your software’s what it claims to be.
-    - [youtube: Hands-on Introduction to sigstore | Rawkode Live](https://www.youtube.com/watch?v=fZfd4orrn8Y&ab_channel=RawkodeAcademy) In this tutorial, you’ll learn how to sign and verify container images with co-sign, with and without a private key.
+    - [youtube: Hands-on Introduction to sigstore | Rawkode Live](https://www.youtube.com/watch?v=fZfd4orrn8Y&ab_channel=RawkodeAcademy) you’ll learn how to sign and verify container images with co-sign, with and without a private key.
 - [==opensource.com: Sign and verify container images with this open source tool (sigstore)==](https://opensource.com/article/21/12/sigstore-container-images) The sigstore project aims at securing supply chain technology.
 
 ### Container security best practices
@@ -661,7 +661,7 @@
     - [falco.org: Detect Malicious Behaviour on Kubernetes API Server through gathering Audit Logs by using FluentBit - Part 2](https://falco.org/blog/detect-malicious-behaviour-on-kubernetes-api-server-through-gathering-audit-logs-by-using-fluentbit-part-2)
 - [kubearmor.io](https://kubearmor.io) Runtime protection for Kubernetes & other cloud Workloads. KubeArmor uses eBPF and Linux Security Modules (LSM) to provide policy based system
 to restrict any unwanted, malicious behavior of cloud-native workloads at runtime.
-    - [itnext.io: Protecting Your Kubernetes Environment With KubeArmor](https://itnext.io/protecting-your-kubernetes-environment-with-kubearmor-76b02fc2209b) In this article, you will learn how to use KubeArmor to define policies and protect your containerized workloads. You will test the setup against the ShellShock vulnerability and compare it to AppArmor.
+    - [itnext.io: Protecting Your Kubernetes Environment With KubeArmor](https://itnext.io/protecting-your-kubernetes-environment-with-kubearmor-76b02fc2209b) how to use KubeArmor to define policies and protect your containerized workloads. You will test the setup against the ShellShock vulnerability and compare it to AppArmor.
 
 ## Helm Charts Security. Helm Secrets
 

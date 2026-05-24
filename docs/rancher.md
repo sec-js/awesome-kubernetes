@@ -106,19 +106,19 @@
 - [rancher.com: Set up Your K3s Cluster for High Availability on DigitalOcean](https://www.rancher.com/blog/2020/k3s-high-availability)
 - [community.suse.com: Introduction to K3s 🌟](https://www.rancher.com/community)
 - [k3s_hetzner](https://gitlab.com/k3s_hetzner/k3s_hetzner) How to build a kubernetes cluster in [Hetzner Cloud](https://www.hetzner.com/cloud)
-- [en.sokube.ch: K3S + K3D = K8S : a new perfect match for dev and test](https://en.sokube.ch/post/k3s-k3d-k8s-a-new-perfect-match-for-dev-and-test-1) In this article you'll learn:
+- [en.sokube.ch: K3S + K3D = K8S : a new perfect match for dev and test](https://en.sokube.ch/post/k3s-k3d-k8s-a-new-perfect-match-for-dev-and-test-1)you'll learn:
     - What's new with k3d v3
     - Create a multi-server and multi-agent with k3s
     - How to replace the default CNI plugin of k3s
 - [edgelab 🌟 (with k3s) [ARCHIVED]]( http://web.archive.org/web/20251027143124/https://github.com/digitalrebar/edgelab) Materials to build and deploy a simple Edge Lab for demonstration, training and development
 - [github.com/erebe/personal-server: Personal server configuration with k3s 🌟](https://github.com/erebe/personal-server) This document is going to describe how I manage my personal server in 2020.
 - [dev.to: All about k3s - Lightweight Kubernetes 🌟](https://dev.to/abhinavd26/all-about-k3s-lightweight-kubernetes-3ell)
-- [gabrieltanner.org: Setting up a HA Kubernetes cluster using K3S](https://gabrieltanner.org/blog/ha-kubernetes-cluster-using-k3s) In this article, you will set up your own high availability K3S cluster and create a basic Kubernetes deployment. The tutorial will show how to set up all the resources manually and you will learn how to automate it with the official Ansible script.
+- [gabrieltanner.org: Setting up a HA Kubernetes cluster using K3S](https://gabrieltanner.org/blog/ha-kubernetes-cluster-using-k3s) you will set up your own high availability K3S cluster and create a basic Kubernetes deployment. The tutorial will show how to set up all the resources manually and you will learn how to automate it with the official Ansible script.
 - [nativecloud.dev: Scale out your Raspberry-Pi Kubernetes cluster to the cloud](https://nativecloud.dev/scale-out-your-raspberry-pi-k3s-cluster-to-the-cloud) Using Gardener Machine-Controller-Manager and Tailscale to extend a local Raspberry-Pi K3s cluster with cloud instances.
 - [blog.nootch.net: Kubernetes at Home With K3s](https://blog.nootch.net/post/kubernetes-at-home-with-k3s)
 - Try out the  Kubernetes 1.23 with K3s distro: `curl -sfL https://get.k3s.io |INSTALL_K3S_VERSION="v1.23.1-rc1+k3s1" sh -` You can try on ubuntu katakoda playground in your browser :)
 - [==medium.com/@ostridelabs: k8s vs k3s: The Comprehensive Difference==](https://medium.com/@ostridelabs/k8s-vs-k3s-the-comprehensive-difference-f7667d141c0)
-- [justinpolidori.it: LDAP authentication with Dex on Kubernetes with Vcluster (K3S)](https://www.justinpolidori.it/posts/20220611_vcluster_auth) In this article, you'll learn how to grant access to users of a vcluster using DEX as a federated OpenID provider and kubelogin as a plugin for OIDC integration
+- [justinpolidori.it: LDAP authentication with Dex on Kubernetes with Vcluster (K3S)](https://www.justinpolidori.it/posts/20220611_vcluster_auth) you'll learn how to grant access to users of a vcluster using DEX as a federated OpenID provider and kubelogin as a plugin for OIDC integration
 - [itnext.io: Running K3S workload in a restricted environment](https://itnext.io/running-k3s-workload-in-a-restricted-environment-c2f593d19005)
 - [dev.to/dashaun: K3s on Raspberry Pi and ClusterHat](https://dev.to/dashaun/k3s-on-raspberry-pi-and-clusterhat-m6k)
 - [blog.getambassador.io: Best Tools for Kubernetes Local Development: A Comprehensive Guide](https://blog.getambassador.io/best-tools-for-kubernetes-local-development-a-comprehensive-guide-3577d351d31e)

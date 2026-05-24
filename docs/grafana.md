@@ -75,7 +75,7 @@
 - [percona.com: Tips for Designing Grafana Dashboards](https://www.percona.com/blog/designing-grafana-dashboards)
 - [devblogs.microsoft.com:Monitoring Azure by using Grafana dashboards 🌟](https://devblogs.microsoft.com/devops/monitoring-azure-by-using-grafana-dashboards)
 - [github.com/kubevirt/monitoring](https://github.com/kubevirt/monitoring) KubeVirt monitoring dashboards. This repository collects Grafana dashboards for KubeVirt and Prometheus runbooks for alerts shipped with the KubeVirt stack.
-- [medium.com/@dotdc: A set of modern Grafana dashboards for Kubernetes 🌟](https://medium.com/@dotdc/a-set-of-modern-grafana-dashboards-for-kubernetes-4b989c72a4b2) In this article, I will present a set of modern Grafana dashboards I made for Kubernetes, explain why I decided to create them and how they work.
+- [medium.com/@dotdc: A set of modern Grafana dashboards for Kubernetes 🌟](https://medium.com/@dotdc/a-set-of-modern-grafana-dashboards-for-kubernetes-4b989c72a4b2) I will present a set of modern Grafana dashboards I made for Kubernetes, explain why I decided to create them and how they work.
 - [grafana.com: Grafana dashboards: A complete guide to all the different types you can build](https://grafana.com/blog/grafana-dashboards-a-complete-guide-to-all-the-different-types-you-can-build)
 - [medium.com/how-tos: How To Provisioning Dashboards In Grafana via Kubernetes](https://medium.com/how-tos/how-to-provisioning-dashboards-in-grafana-via-kubernetes-5d261508658d) Create a nice Dashboard that matches your needs
 - [==github.com/dotdc/grafana-dashboards-kubernetes== 🌟](https://github.com/dotdc/grafana-dashboards-kubernetes)
@@ -99,7 +99,7 @@ Message Streams like Kafka/Red Hat AMQ Streams|Other|[9777](https://grafana.com/
 ## Grafana Loki
 
 - [Grafana Loki](https://grafana.com/oss/loki)
-- [itnext.io: Logging in Kubernetes with Loki and the PLG Stack](https://itnext.io/logging-in-kubernetes-with-loki-and-the-plg-stack-93b27c90ec34) Loki is a new log aggregation system from Grafana Labs. It is designed to be cost-effective and easy to operate. In this article, you learn more about Loki and how to use the PLG Stack (Promtail, Loki, Grafana) for logging in Kubernetes.
+- [itnext.io: Logging in Kubernetes with Loki and the PLG Stack](https://itnext.io/logging-in-kubernetes-with-loki-and-the-plg-stack-93b27c90ec34) Loki is a new log aggregation system from Grafana Labs. It is designed to be cost-effective and easy to operate. you learn more about Loki and how to use the PLG Stack (Promtail, Loki, Grafana) for logging in Kubernetes.
 - [cleancloud-k8s.com: Handling Multiline Logs with Loki and Fluent Bit on Kubernetes](https://cleancloud-k8s.com/2022/01/19/handling-multiline-logging-with-loki-and-fluent-bit-on-kubernetes) In this blog post, you will learn how to handle multiline logs such as Java stack traces with Loki and Fluent Bit on Kubernetes.
 - [faun.pub: Grafana, Prometheus, and Loki: Exploring Metrics and Logs](https://faun.pub/grafana-prometheus-and-loki-exploring-metrics-and-logs-f198637784fc)
 

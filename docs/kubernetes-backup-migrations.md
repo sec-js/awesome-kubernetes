@@ -44,8 +44,8 @@
 - [medium.com/@amitabhprasad: Kubernetes volume backup for disaster recovery](https://medium.com/@amitabhprasad/kubernetes-volume-backup-for-disaster-recovery-56a5facee7fe)
 - [thenewstack.io: K8s Backup and Disaster Recovery Is More Important Than Ever](https://thenewstack.io/k8s-backup-and-disaster-recovery-is-more-important-than-ever) Here are some considerations of a successful Kubernetes data protection strategy.
 - [martinheinz.dev: Backup-and-Restore of Containers with Kubernetes Checkpointing API](https://martinheinz.dev/blog/85) Kubernetes v1.25 introduced Container Checkpointing API as an alpha feature. This provides a way to backup-and-restore containers running in Pods, without ever stopping them. This feature is primarily aimed at forensic analysis, but general backup-and-restore is something any Kubernetes user can take advantage of. So, let's take a look at this brand-new feature and see how we can enable it in our clusters and leverage it for backup-and-restore or forensic analysis.
-- [martinheinz.dev: Backup-and-Restore of Containers with Kubernetes Checkpointing API](https://martinheinz.dev/blog/85) Kubernetes v1.25 introduced Container Checkpointing API — a way to backup-and-restore containers running in Pods, without stopping them. In this article, you'll take a look at it and learn how to leverage it for backup-and-restore or forensic analysis.
-- [blog.palark.com: Kubernetes snapshots: What are they and how to use them? 🌟](https://palark.com/blog/kubernetes-snaphots-usage) With snapshots, you can make more efficient use of your storage solution by creating consistent backups and cloning volumes. In this article, you will find an introduction to snapshots in Kubernetes and an overview of typical use cases.
+- [martinheinz.dev: Backup-and-Restore of Containers with Kubernetes Checkpointing API](https://martinheinz.dev/blog/85) Kubernetes v1.25 introduced Container Checkpointing API — a way to backup-and-restore containers running in Pods, without stopping them. you'll take a look at it and learn how to leverage it for backup-and-restore or forensic analysis.
+- [blog.palark.com: Kubernetes snapshots: What are they and how to use them? 🌟](https://palark.com/blog/kubernetes-snaphots-usage) With snapshots, you can make more efficient use of your storage solution by creating consistent backups and cloning volumes. you will find an introduction to snapshots in Kubernetes and an overview of typical use cases.
 
 ## ETCD Backup
 
@@ -82,7 +82,7 @@
 - [cloud.redhat.com: Velero Backup and Restore of an Application Using gp2 StorageClass on ROSA](https://www.redhat.com/en/blog/velero-backup-and-restore-of-an-application-using-gp2-storageclass-on-rosa)
 - [medium.com/@firat.yasar: Backup & Restore Kubernetes resources with VELERO](https://medium.com/@firat.yasar/backup-restore-kubernetes-resources-with-velero-b7fee14e7664)
 - [skildops.medium.com: Backup an entire Kubernetes cluster using Velero to AWS S3](https://skildops.medium.com/backup-an-entire-kubernetes-cluster-using-velero-to-aws-s3-73d76d51d4bc) Maintaining backup is always rewarding. Learn how to backup and restore an entire K8s cluster in this detailed article
-- [blog.devgenius.io: Backup, Restore and Migrate Kubernetes Cluster resources using Velero](https://blog.devgenius.io/backup-restore-and-migrate-kubernetes-cluster-resources-using-velero-a9b6997e4b54) In this tutorial, you'll learn how to take a backup of resources running in a Kubernetes cluster and migrate them to another cluster using Velero
+- [blog.devgenius.io: Backup, Restore and Migrate Kubernetes Cluster resources using Velero](https://blog.devgenius.io/backup-restore-and-migrate-kubernetes-cluster-resources-using-velero-a9b6997e4b54) you'll learn how to take a backup of resources running in a Kubernetes cluster and migrate them to another cluster using Velero
 
 ## Backup with Portworx PX-Backup
 

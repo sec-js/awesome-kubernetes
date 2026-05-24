@@ -76,7 +76,7 @@
     - Cualquiera que no haga esto será despedido.
 - [thenewstack.io: How to Achieve API Governance](https://thenewstack.io/how-to-achieve-api-governance) With APIs popping up everywhere, API strategy demands common design patterns, central discoverability, and putting users first.
 - [jkebertz.medium.com: The Art of Writing Amazing REST APIs](https://jkebertz.medium.com/the-art-of-writing-amazing-rest-apis-dc4c4100478d)
-- [freecodecamp.org: REST API Design Best Practices Handbook – How to Build a REST API with JavaScript, Node.js, and Express.js](https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api) When you're working with APIs, there are some basic best practices you should follow. And if you really want to learn how they work, build one yourself. In this guide Jean-Marc goes over each best practice as you build a REST API w/ JS, Node, & Express.
+- [freecodecamp.org: REST API Design Best Practices Handbook – How to Build a REST API with JavaScript, Node.js, and Express.js](https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api) When you're working with APIs, there are some basic best practices you should follow. And if you really want to learn how they work, build one yourself.Jean-Marc goes over each best practice as you build a REST API w/ JS, Node, & Express.
 - [infoq.com: Modern API Development and Deployment, from API Gateways to Sidecars](https://www.infoq.com/presentations/api-design-implement-document)
 - [betterprogramming.pub: How To Deprecate APIs the Right Way](https://betterprogramming.pub/how-to-deprecate-apis-the-right-way-371c1cbf1723) Deprecate your old APIs with the consciousness of your users
 - [dzone.com: REST vs. Messaging for Microservices 🌟](https://dzone.com/articles/rest-vs-messaging-for-microservices) Discover how to choose the right communication style for your microservices in this exploration of two common protocols.
@@ -129,7 +129,7 @@
 - For information about the latest work on SOAP and a full list of SOAP specifications refer to the [W3C Technical Reports](https://www.w3.org/TR)
 - [guru99.com: SOAP Web Services Tutorial: Simple Object Access Protocol. What is SOAP?](https://www.guru99.com/soap-simple-object-access-protocol.html)
 - [jitendrazaa.com: Create SOAP message using Java](http://www.jitendrazaa.com/blog/java/create-soap-message-using-java)
-- [dzone: Creating a SOAP Web Service With Spring Boot Starter Web Services](https://dzone.com/articles/creating-a-soap-web-service-with-spring-boot-start) In this post, we cover the concepts of SOAP and REST and show you all the code you need to use SOAP web services in a Spring Boot app.
+- [dzone: Creating a SOAP Web Service With Spring Boot Starter Web Services](https://dzone.com/articles/creating-a-soap-web-service-with-spring-boot-start) we cover the concepts of SOAP and REST and show you all the code you need to use SOAP web services in a Spring Boot app.
 
 ### REST API Protocol (Representational State Transfer)
 
@@ -170,7 +170,7 @@
 - [itnext.io: A minimalist guide to gRPC](https://itnext.io/a-minimalist-guide-to-grpc-e4d556293422) REST API is good but is it really the best option that we have?
 - [==gendocu.com: RPC API Developer Portal==](https://gendocu.com)
 - [==medium.com/javarevisited: Microservices communication using gRPC Protocol==](https://medium.com/javarevisited/microservices-communication-using-grpc-protocol-dc3a2f8b648d)
-- [blog.getambassador.io: Implementing gRPC-Web with Emissary-ingress](https://blog.getambassador.io/implementing-grpc-web-with-emissary-ingress-22aa0d86aac) In this article, you'll learn how to implement gRPC-Web (a JavaScript implementation of gRPC for browser clients) with Emissary-ingress — an Envoy-based API gateway and Ingress controller
+- [blog.getambassador.io: Implementing gRPC-Web with Emissary-ingress](https://blog.getambassador.io/implementing-grpc-web-with-emissary-ingress-22aa0d86aac) you'll learn how to implement gRPC-Web (a JavaScript implementation of gRPC for browser clients) with Emissary-ingress — an Envoy-based API gateway and Ingress controller
 
 ### Asynchronous APIs
 

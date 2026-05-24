@@ -57,7 +57,7 @@
 - [aws/containers-roadmap: AWS Containers Roadmap](https://github.com/aws/containers-roadmap) This is the public roadmap for AWS container services (ECS, ECR, Fargate, and EKS).
 - [dashbird.io: Get started and keep using AWS for free](https://dashbird.io/blog/use-aws-free)
 - [dzone: AWS Basics](https://dzone.com/articles/aws-basics)
-- [dzone: AWS Basics: Bastion Hosts and NAT](https://dzone.com/articles/aws-basics-bastian-hosts-and-nat) In this post, we will set up Bastion Host and NAT instances in our VPC. We will learn why we need those and some of the options available to us.
+- [dzone: AWS Basics: Bastion Hosts and NAT](https://dzone.com/articles/aws-basics-bastian-hosts-and-nat) we will set up Bastion Host and NAT instances in our VPC. We will learn why we need those and some of the options available to us.
 - [acloudguru.com: The Cloud Dictionary of Pain: Five Of AWS’s Toughest Cloud Topics](https://www.pluralsight.com/resources/blog/cloud/the-cloud-dictionary-of-pain-five-of-awss-toughest-cloud-topics)
 - [dannys.cloud: 10 Best Free AWS Learning Resources for Beginners](https://dannys.cloud/10-best-free-aws-learning-resources-for-beginners) This blogpost provides free resources for beginners to get started with AWS through videos, whitepapers, labs, and certification guides.
 - [linkedin pulse: Listado de todos los Servicios de AWS (actualizado 1 de Enero 2021)](https://www.linkedin.com/pulse/listado-de-todos-los-servicios-amazon-web-services-daniel-pe%25C3%25B1a-silva)

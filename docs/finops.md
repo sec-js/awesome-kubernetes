@@ -43,7 +43,7 @@
 - [edgebricks.com: Why Public Clouds Get So Expensive Over Time 🌟](https://edgebricks.com/why-public-clouds-get-so-expensive-over-time)
 - [aws.amazon.com: Four Principles of Cloud Financial Management Small and Medium Business Owners Need to Know](https://aws.amazon.com/blogs/smb/four-principles-of-cloud-financial-management-small-and-medium-business-owners-need-to-know)
 - [logz.io: FinOps Observability: Monitoring Kubernetes Cost](https://logz.io/blog/finops-observability-monitoring-kubernetes-cost)
-- [medium.com/adeo-tech: How to save money fast with Kubernetes — Do FinOps](https://medium.com/adeo-tech/how-to-save-money-fast-with-kubernetes-do-finops-3a9cafc9beba) In this article, you will learn how to reduce your cloud bill and some tips on cloud infrastructure optimization
+- [medium.com/adeo-tech: How to save money fast with Kubernetes — Do FinOps](https://medium.com/adeo-tech/how-to-save-money-fast-with-kubernetes-do-finops-3a9cafc9beba) how to reduce your cloud bill and some tips on cloud infrastructure optimization
 - [infoworld.com: Kubernetes cost management for the real world](https://www.infoworld.com/article/2338428/kubernetes-cost-management-for-the-real-world.html) How much will Kubernetes cost to run? That question has become much easier to answer for Azure Kubernetes Service, thanks to OpenCost integration.
 - [infoworld.com: When finops costs you more in the end](https://www.infoworld.com/article/2338012/when-finops-costs-you-more-in-the-end.html) Cloud finops can save you tons of money on cloud spending and return more value to the business. Unfortunately, mistakes are costing companies big time.
 - [infoworld.com: Kubernetes costs less, but less than what?](https://www.infoworld.com/article/2338474/kubernetes-costs-less-but-less-than-what.html) Sure, compared to traditional IT, Kubernetes is great, but not much will beat public cloud in the long run.
@@ -82,12 +82,12 @@
 
 - [medium.com/armory: Continuous Cost Optimization for Kubernetes](https://medium.com/armory/continuous-cost-optimization-for-kubernetes-4361045f0215)
 - [==learnk8s/xlskubectl==](https://github.com/learnk8s/xlskubectl) A spreadsheet to control your Kubernetes cluster. xlskubectl integrates Google Spreadsheet with Kubernetes. You can finally administer your cluster from the same spreadsheet that you use to track your expenses.
-- [==medium.com/empathyco: Cloud FinOps — Part 4: Kubernetes Cost Report==](https://medium.com/empathyco/cloud-finops-part-4-kubernetes-cost-report-b4964be02dc3) In this article, you will learn how to build your own Kubernetes cost explorer dashboard using Prometheus and Grafana.
+- [==medium.com/empathyco: Cloud FinOps — Part 4: Kubernetes Cost Report==](https://medium.com/empathyco/cloud-finops-part-4-kubernetes-cost-report-b4964be02dc3) how to build your own Kubernetes cost explorer dashboard using Prometheus and Grafana.
 - [==medium.com/@danielepolencic: In Kubernetes, are there hidden costs to running many cluster nodes?==](https://medium.com/@danielepolencic/reserved-cpu-and-memory-in-kubernetes-nodes-65aee1946afd) Yes, since not all CPU and memory in your Kubernetes nodes can be used to run Pods.
 - [medium.com/develeap: Cutting down Kubernetes Costs: Cast.ai vs. Karpenter](https://medium.com/develeap/cutting-down-kubernetes-costs-cast-ai-vs-karpenter-20f6788b4c67)
 - [engineering.razorpay.com: The Culture of Cost Optimization — Reducing Kubernetes cost by $300,000](https://engineering.razorpay.com/the-culture-of-cost-optimization-reducing-kubernetes-cost-by-300-000-32611cdd19d9)
 - [infoworld.com: 5 steps to bringing Kubernetes costs in line](https://www.infoworld.com/article/2338303/5-steps-to-bringing-kubernetes-costs-in-line.html)
-- [medium.com/@suleimanabualrob: Kubernetes cost optimisation](https://medium.com/@suleimanabualrob/kubernetes-cost-optimisation-9e81b76814f6) In this article, you'll discuss resource over-provisioning in Kubernetes and learn some tips to improve utilisation to save money and have a well-architected workload
+- [medium.com/@suleimanabualrob: Kubernetes cost optimisation](https://medium.com/@suleimanabualrob/kubernetes-cost-optimisation-9e81b76814f6) you'll discuss resource over-provisioning in Kubernetes and learn some tips to improve utilisation to save money and have a well-architected workload
 - [thenewstack.io: Grafana Wants to Help You Avoid Getting Dinged by Kubernetes Costs](https://thenewstack.io/grafana-wants-to-help-you-avoid-getting-dinged-by-kubernetes-costs) Grafana introduces new infrastructure and cost monitoring capabilities in Grafana Cloud.
 
 ## Licence Managers
@@ -104,12 +104,12 @@
 ## Kubernetes Governance and Cost Management for the Cloud-Native Enterprise
   - [ServerlessHorrors: A Web Compiling Nightmares in the Serverless World](https://revistacloud.com/serverlesshorrors-la-web-que-recoge-las-peores-pesadillas-del-mundo-serverless) - *(Related to serverless topic)*
 
-- [medium.com/compass-true-north: Halving Kubernetes Compute Costs With Vertical Pod Autoscaler](https://medium.com/compass-true-north/halving-kubernetes-compute-costs-with-vertical-pod-autoscaler-df658c043301) In this article, you'll learn how the team at Compass managed to reduce the need for over 50 per cent of the total nodes in each cluster (halving their compute costs) by using the vertical pod autoscaler
+- [medium.com/compass-true-north: Halving Kubernetes Compute Costs With Vertical Pod Autoscaler](https://medium.com/compass-true-north/halving-kubernetes-compute-costs-with-vertical-pod-autoscaler-df658c043301) you'll learn how the team at Compass managed to reduce the need for over 50 per cent of the total nodes in each cluster (halving their compute costs) by using the vertical pod autoscaler
 
 ### Replex
 
 - [replex.io](https://www.splunk.com/en_us/appdynamics-joins-splunk.html?301=appdynamics)
-- [replex.io: An Introduction to Kubernetes FinOps](https://www.splunk.com/en_us/appdynamics-joins-splunk.html?301=appdynamics) FinOps is a cross domain discipline that represents a set of tools, best practices and processes aimed towards making software and infrastructure more cost effective. In this article we provide an introduction to Kubernetes Finops.
+- [replex.io: An Introduction to Kubernetes FinOps](https://www.splunk.com/en_us/appdynamics-joins-splunk.html?301=appdynamics) FinOps is a cross domain discipline that represents a set of tools, best practices and processes aimed towards making software and infrastructure more cost effective.we provide an introduction to Kubernetes Finops.
 
 ## Cost Optimization Tools
   - [Scale with Confidence Using Terraform: Better Cost Visibility, Stronger Governance, and Less Operational Overhead](https://t.co/y414rbxM7l) - *(Related to terraform topic)*

@@ -81,7 +81,7 @@
 
 ## Service Mesh Testing
 
-- [itnext.io: Service Mesh Testing — Tools & Frameworks (Open Source)](https://itnext.io/service-mesh-testing-tools-frameworks-open-source-7904ee222298) There are quite a few open-source toolsets to test and measure performance impact of service meshes. In this article you will compare: Fortio, Nighthawk, Wrk2, Httpbin, Meshery, Isotope, Hyperfoil, Service-mesh-benchmark, Locust & more.
+- [itnext.io: Service Mesh Testing — Tools & Frameworks (Open Source)](https://itnext.io/service-mesh-testing-tools-frameworks-open-source-7904ee222298) There are quite a few open-source toolsets to test and measure performance impact of service meshes.you will compare: Fortio, Nighthawk, Wrk2, Httpbin, Meshery, Isotope, Hyperfoil, Service-mesh-benchmark, Locust & more.
 
 ## Consul Service Mesh
 
@@ -122,7 +122,7 @@
 - [thenewstack.io: Is Linkerd Winning the Service Mesh Race?](https://thenewstack.io/is-linkerd-winning-the-service-mesh-race)
 - [medium.com/attest-product-and-technology: Debugging mislabelled route metrics from Linkerd](https://medium.com/attest-product-and-technology/debugging-mislabelled-route-metrics-from-linkerd-dda47fdff04a)
 - [buoyant.io: Upgrading to Linkerd 2.12: Zero-trust-ready route-based policy, Gateway API, access logging](https://www.buoyant.io/service-mesh-academy/upgrading-to-linkerd-2-12) In this webinar, you'll hear all about the Linkerd 2.12 release and what you need to know to upgrade. This massive release introduces route-based policy to Linkerd, allowing users to define and enforce authorization policies based on HTTP paths or gRPC methods in a fully zero-trust way. It also introduces support for iptables-nft and Apache-style access logging, authorizes all probes by default (even in default-deny clusters), and includes a host of other improvements and performance enhancements.
-- [medium.com/@eshiett314: Mutual TLS with Emissary-Ingress and Linkerd](https://medium.com/@eshiett314/mutual-tls-with-emissary-ingress-and-linkerd-4aa3ffe0413f) In this article, you'll learn the meaning of Mutual TLS, why it is needed in Kubernetes and also implement it with Emissary-ingress
+- [medium.com/@eshiett314: Mutual TLS with Emissary-Ingress and Linkerd](https://medium.com/@eshiett314/mutual-tls-with-emissary-ingress-and-linkerd-4aa3ffe0413f) you'll learn the meaning of Mutual TLS, why it is needed in Kubernetes and also implement it with Emissary-ingress
 - [dev.to: Linkerd and GitOps](https://dev.to/thenjdevopsguy/linkerd-and-gitops-115a)
 - [buoyant.io: Multi-Cluster, Multi-Region Setup using Linkerd Service Mesh](https://www.buoyant.io/blog/multi-cluster-multi-region-setup-using-linkerd-service-mesh) This article teaches how to enhance Kubernetes with multi-cluster architecture for improved availability, fault tolerance, and performance with a Service Mesh such as Linkerd
 

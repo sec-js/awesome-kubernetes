@@ -37,7 +37,7 @@
 - [javascript.plainenglish.io: Everything You Need To Know About YAML Files](https://javascript.plainenglish.io/everything-you-need-to-know-about-yaml-files-5423358cc5c9) Learning about YAML gives you an advantage over your peers since it literally makes programming and configuring cloud computing resources easier.
 - [w3schools.io: YAML - yaml vs yml file](https://www.w3schools.io/file/yaml-vs-yml)
 - [==blog.devgenius.io: YAML with Python==](https://blog.devgenius.io/yaml-with-python-d6787a9bd8ab) This article aims to outline the basics of YAML and write a simple python script that reads configuration details from a YAML file.
-- [==realpython.com: YAML: The Missing Battery in Python==](https://realpython.com/python-yaml) Python lacks built-in support for the YAML data format, commonly used for configuration and serialization, despite clear similarities between the two languages. In this tutorial, you’ll learn how to work with YAML in Python using the available third-party libraries, with a focus on PyYAML.
+- [==realpython.com: YAML: The Missing Battery in Python==](https://realpython.com/python-yaml) Python lacks built-in support for the YAML data format, commonly used for configuration and serialization, despite clear similarities between the two languages. you’ll learn how to work with YAML in Python using the available third-party libraries, with a focus on PyYAML.
 - [betterprogramming.pub: 10 Things You Might Not Know About YAML](https://betterprogramming.pub/10-things-you-might-not-know-about-yaml-b0589da547c) Harness the true power of YAML
 - [==spacelift.io/blog/yaml==](https://spacelift.io/blog/yaml) YAML Tutorial : A Complete Language Guide with Examples
 - [ruudvanasseldonk.com: The yaml document from hell](https://ruuda.nl/2023/the-yaml-document-from-hell)
@@ -63,7 +63,7 @@
     - ```k get svc a -o yaml | yq r -```
     - [dev.to: yq : A command line tool that will help you handle your YAML resources better 🌟](https://dev.to/vikcodes/yq-a-command-line-tool-that-will-help-you-handle-your-yaml-resources-better-8j9)
     - [towardsdatascience.com: yq: Mastering YAML Processing in Command Line 🌟](https://towardsdatascience.com/yq-mastering-yaml-processing-in-command-line-e1ff5ebc0823) Learn to parse and manipulate YAML files more efficiently using yq command-line utility and this simple cheat sheet
-    - [betterprogramming.pub: My Cheatsheet for the “yq” Tool](https://betterprogramming.pub/my-yq-cheatsheet-34f2b672ee58) Parsing Kubernetes YAML with yq. `yq` is a convenient tool for creating, updating and mangling Kubernetes YAML files. In this tutorial, you will learn how to use it as well as some practical tips and tricks.
+    - [betterprogramming.pub: My Cheatsheet for the “yq” Tool](https://betterprogramming.pub/my-yq-cheatsheet-34f2b672ee58) Parsing Kubernetes YAML with yq. `yq` is a convenient tool for creating, updating and mangling Kubernetes YAML files. how to use it as well as some practical tips and tricks.
 - [Kapitan](https://kapitan.dev) Generic templated configuration management for Kubernetes, Terraform and other things.
 - [azohra/yaml.sh](https://github.com/azohra/yaml.sh) A YAML parser completely in bash. [Yaml.sh — YAML Sans Helm](https://medium.com/@KarlKFI/yaml-sh-yaml-sans-helm-e983a3dfdaec)
 - [yh - YAML Highlighter](https://github.com/andreazorzetto/yh) is YAML syntax highlighter that works nicely with kubectl output
@@ -119,7 +119,7 @@
 
 ### JSONPath query language
 
-- [blog.mariano.cloud: Do you even JSONPath?](https://blog.mariano.cloud/do-you-even-jsonpath) JSONPath as in a JSON query language that enables you to interact with a JSON structured data set. In this article, you will learn how to use JSONPath expressions to parse and format responses from the Kubernetes API.
+- [blog.mariano.cloud: Do you even JSONPath?](https://blog.mariano.cloud/do-you-even-jsonpath) JSONPath as in a JSON query language that enables you to interact with a JSON structured data set. how to use JSONPath expressions to parse and format responses from the Kubernetes API.
 
 ### JSON in Ansible
 
@@ -150,7 +150,7 @@
     - **API validators**: Tools in this category validate a given YAML manifest against the Kubernetes API server.
     - **Built-in checkers**: Tools in this category bundle opinionated checks for security, best practices, etc.
     - **Custom validators**: Tools in this category allow writing custom checks in several languages such as Rego and Javascript.
-- [Validating Kubernetes YAML for best practice and policies 🌟](https://learnkube.com/validating-kubernetes-yaml) In this article, you will learn and compare six different tools:
+- [Validating Kubernetes YAML for best practice and policies 🌟](https://learnkube.com/validating-kubernetes-yaml) and compare six different tools:
     - [Kubeval](https://teresaforcades.com/pensament/medicina.html)
     - [Kube-score 🌟](https://github.com/zegl/kube-score) **Kubernetes object analysis with recommendations for improved reliability and security. kube-score is a opensource tool that performs static code analysis of Kubernetes object definitions. The output is a list of recommendations where one can improve to make application more secure and resilient.**
     - [Config-lint](https://stelligent.github.io/config-lint)

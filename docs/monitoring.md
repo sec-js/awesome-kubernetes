@@ -68,7 +68,7 @@
 - [bravenewgeek.com: The Observability Pipeline](https://bravenewgeek.com/the-observability-pipeline)
 - [thenewstack.io: 3 Key Configuration Challenges for Kubernetes Monitoring with Prometheus](https://thenewstack.io/3-key-configuration-challenges-for-kubernetes-monitoring-with-prometheus)
 - [sysdig.com: Kubernetes Monitoring with Prometheus, the ultimate guide 🌟](https://www.sysdig.com/blog/kubernetes-monitoring-prometheus)
-- [sysdig.com: How to monitor kube-proxy 🌟](https://www.sysdig.com/blog/monitor-kube-proxy) In this article, you will learn how to monitor kube-proxy to ensure the correct health of your cluster network.
+- [sysdig.com: How to monitor kube-proxy 🌟](https://www.sysdig.com/blog/monitor-kube-proxy) how to monitor kube-proxy to ensure the correct health of your cluster network.
 - [thenewstack.io: Monitoring vs. Observability: What’s the Difference?](https://thenewstack.io/monitoring-vs-observability-whats-the-difference)
 - [getenroute.io: TSDB, Prometheus, Grafana In Kubernetes: Tracing A Variable Across The OSS Monitoring Stack](https://www.saaras.io/blog/leverage-open-source-oss-derive-insights-grafana-prometheus)
 - [dashbird.io: Monitoring vs Observability: Can you tell the difference? 🌟](https://dashbird.io/blog/monitoring-vs-observability)
@@ -259,7 +259,7 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 - [blog.bigdataboutique.com: Tuning Elasticsearch: The Ideal Java Heap Size](https://bigdataboutique.com/blog/tuning-elasticsearch-the-ideal-java-heap-size-2toq2j)
 - [javatechonline.com: How To Monitor Spring Boot Microservices Using ELK Stack?](https://javatechonline.com/how-to-monitor-spring-boot-microservices-using-elk-stack)
 - [dzone: Running Elasticsearch on Kubernetes](https://dzone.com/articles/running-elasticsearch-on-kubernetes) A bit of a cross-over with the Cloud Zone, we explore the structures of both Elasticsearch and Kubernetes, and how to deploy Elasticsearch on K8s.
-- [==medium: Which Elasticsearch Provider is Right For You?== 🌟](https://medium.com/gigasearch/which-elasticsearch-provider-is-right-for-you-3d596a65e704) In this post, we’ll explain the core differences between Elastic Cloud, AWS ESS, and self-hosted, so that you can make an informed decision.
+- [==medium: Which Elasticsearch Provider is Right For You?== 🌟](https://medium.com/gigasearch/which-elasticsearch-provider-is-right-for-you-3d596a65e704) we’ll explain the core differences between Elastic Cloud, AWS ESS, and self-hosted, so that you can make an informed decision.
 
     |  | __AWS ESS__ | __Elastic Cloud__ | __Self-hosted__ |
     | :--- | :--- | :--- | :--- |
@@ -271,8 +271,8 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 
 - [jertel/elastalert2](https://github.com/jertel/elastalert2) ElastAlert 2 is a continuation of the original yelp/elastalert project. ElastAlert 2 is a standalone software tool for alerting on anomalies, spikes, or other patterns of interest from data in Elasticsearch and OpenSearch. ElastAlert 2 is backwards compatible with the original ElastAlert rules
 - [medium.com/hepsiburadatech: Hepsiburada Search Engine on Kubernetes](https://medium.com/hepsiburadatech/hepsiburada-search-engine-on-kubernetes-1fe03a3e71a3) In this case study, you'll learn how Hepsiburada migrated from an on-premises active-active Elasticsearch cluster (manually scaled) deployed in two data centers to a multi-zone Google Cloud Kubernetes cluster that can scale automatically.
-- [dev.to/sagary2j: ELK Stack Deployment using MiniKube single node architecture](https://dev.to/sagary2j/elk-stack-deployment-using-minikube-single-node-architecture-16cl) In this tutorial, you will learn how to deploy and expose Elastic Search, Logstash and Kibana on minikube.
-- [search-guard.com/sgctl-elasticsearch: SGCTL - TAKE BACK CONTROL](https://search-guard.com/sgctl-elasticsearch) In this article, we look at the new Search Guard Control command line tool that ships with Search Guard FLX and demonstrate how easy it has become to configure security for Elasticsearch.
+- [dev.to/sagary2j: ELK Stack Deployment using MiniKube single node architecture](https://dev.to/sagary2j/elk-stack-deployment-using-minikube-single-node-architecture-16cl) how to deploy and expose Elastic Search, Logstash and Kibana on minikube.
+- [search-guard.com/sgctl-elasticsearch: SGCTL - TAKE BACK CONTROL](https://search-guard.com/sgctl-elasticsearch) we look at the new Search Guard Control command line tool that ships with Search Guard FLX and demonstrate how easy it has become to configure security for Elasticsearch.
 
 #### Elastic Cloud on Kubernetes (ECK)
 

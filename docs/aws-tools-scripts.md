@@ -47,7 +47,7 @@
 - [==github.com/aws-samples/aws-cdk-stack-builder-tool==](https://github.com/aws-samples/aws-cdk-stack-builder-tool) AWS CDK Builder is a browser-based tool designed to streamline bootstrapping of Infrastructure as Code (IaC) projects using the AWS Cloud Development Kit (CDK).
 - [github.com/containerscrew/aws-sso-auth](https://github.com/containerscrew/aws-sso-rs) Fetch your local ~/.aws/credentials using AWS SSO
 - [==cloudcatalog.dev==](https://www.cloudcatalog.dev) Documentation tool for AWS Architectures. CloudCatalog is an Open Source project that helps you document your AWS resources, services and assign owners.
-- [==spacelift.io/blog/aws-s3-cp: AWS S3 Cp [Copy] Command Overview with Examples==](https://spacelift.io/blog/aws-s3-cp) Effectively working with S3 requires moving data in and out of S3 buckets efficiently, supporting use cases such as web hosting, content distribution, backups, archiving, media storage and streaming, and more. In this article, we will explore how to use the aws s3 cp command to transfer data between your local filesystem and the S3 buckets.
+- [==spacelift.io/blog/aws-s3-cp: AWS S3 Cp [Copy] Command Overview with Examples==](https://spacelift.io/blog/aws-s3-cp) Effectively working with S3 requires moving data in and out of S3 buckets efficiently, supporting use cases such as web hosting, content distribution, backups, archiving, media storage and streaming, and more. how to use the aws s3 cp command to transfer data between your local filesystem and the S3 buckets.
 - [github.com/infrahouse/infrahouse-toolkit](https://github.com/infrahouse/infrahouse-toolkit) A collection of tools for building infrastructure
 
 ### AWS CI/CD Tools

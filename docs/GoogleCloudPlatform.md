@@ -120,7 +120,7 @@
 - [A hybrid cloud-native DevSecOps pipeline with JFrog Artifactory and GKE on-prem 🌟](https://docs.cloud.google.com/architecture) Running in a hybrid environment means that some of your processing happens on Google Cloud and other processing remains on-premises. Anthos helps you manage both an on-premises Kubernetes cluster and a cluster running on Google Cloud.
 - [Bringing Kubernetes’ goodness to Windows Server apps with Anthos](https://cloud.google.com/blog/topics/anthos/windows-server-support-comes-to-anthos-on-prem) Windows container support to GKE on-premises through Anthos.
 - [cloud.google.com: Anthos makes multi-cloud easier with new API, support for Azure](https://cloud.google.com/blog/products/containers-kubernetes/google-cloud-anthos-multicloud-api-and-gke-on-azure-ga)
-- [medium.com/google-cloud: Anthos-at-Home: Spinning Up a Bare-Metal Anthos Cluster on Dumpster Servers](https://medium.com/google-cloud/anthos-at-home-spinning-up-a-bare-metal-anthos-cluster-on-dumpster-servers-5bcef301cfa5) In this article, you will learn the capabilities of Anthos on bare metal and find a detailed guide and explanation on how to do it yourself
+- [medium.com/google-cloud: Anthos-at-Home: Spinning Up a Bare-Metal Anthos Cluster on Dumpster Servers](https://medium.com/google-cloud/anthos-at-home-spinning-up-a-bare-metal-anthos-cluster-on-dumpster-servers-5bcef301cfa5) the capabilities of Anthos on bare metal and find a detailed guide and explanation on how to do it yourself
 
 ## Python
 

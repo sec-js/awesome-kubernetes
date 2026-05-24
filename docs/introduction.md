@@ -58,7 +58,7 @@
 - [redhat.com: Why choose Red Hat for microservices?](https://www.redhat.com/en/topics/microservices/why-choose-red-hat-microservices)
 - [==Monoliths are the future | Kelsey Hightower==](https://changelog.com/posts/monoliths-are-the-future)
 - [==allthingsdistributed.com: Monoliths are not dinosaurs==](https://www.allthingsdistributed.com/2023/05/monoliths-are-not-dinosaurs.html)
-- [weave.works: Going Cloud Native: 6 essential things you need to know](https://www.weave.works/)
+- [weave.works: Going Cloud Native: 6 essential things you need to know](https://www.weave.works/technologies/going-cloud-native-6-essential-things-you-need-to-know)
 - [Operators and Sidecars Are the New Model for Software Delivery](https://thenewstack.io/operators-and-sidecars-are-the-new-model-for-software-delivery)
 - [jaxenter.com: Practical Implications for Adopting a Multi-Cluster, Multi-Cloud Kubernetes Strategy](https://devm.io/kubernetes/kubernetes-practical-implications-171647)
 - [jaxenter.com: Six Essential Kubernetes Extensions to Add to Your Toolkit 🌟](https://devm.io/kubernetes/kubernetes-extensions-172215)
@@ -66,7 +66,7 @@
 - [addwebsolution.com: How Kubernetes helps businesses manage their IT infrastructure?](https://www.addwebsolution.com/blog/how-kubernetes-helps-businesses-manage-their-it-infrastructure)
 - [loves.cloud: Kubernetes: An Introduction](https://loves.cloud/kubernetes-an-introduction)
 - [thenewstack.io: Microservices vs. Monoliths: An Operational Comparison](https://thenewstack.io/microservices/microservices-vs-monoliths-an-operational-comparison)
-- [weave.works: 6 Business Benefits of Kubernetes](https://www.weave.works/)
+- [weave.works: 6 Business Benefits of Kubernetes](https://www.weave.works/blog/6-business-benefits-of-kubernetes)
 - [ituser.es: Las principales habilidades que un arquitecto cloud necesita para triunfar](https://www.ituser.es/opinion/2020/07/las-principales-habilidades-que-un-arquitecto-cloud-necesita-para-triunfar)
 - [Introducing Domain-Oriented Microservice Architecture 🌟 [ARCHIVED]]( http://web.archive.org/web/20220716010821/https://eng.uber.com/microservice-architecture)
 - [Monolithic versus Microservice architecture](https://www.enterprisetimes.co.uk/2020/07/23/monolithic-versus-microservice-architecture)
@@ -140,10 +140,10 @@
 - [opensource.com: What do we call post-modern system administrators?](https://opensource.com/article/21/7/system-administrators) Our community discusses the responsibilities, possible titles, and potential skills of today's sysadmins.
 - [thenewstack.io: Cloud Engineers Try Policy-as-Code to Cure Misconfiguration Woes](https://thenewstack.io/cloud-engineers-try-policy-as-code-to-cure-misconfiguration-woes)
 - [medium: What is microservices and why is it different? 🌟](https://medium.com/microservices-for-net-developers/what-is-microservices-and-why-is-it-different-fac017cb8cf4)
-- [dzone: How Your Application Architecture Has Evolved 🌟🌟](https://dzone.com/articles/how-your-application-architecture-evolved) In this post, I will discuss how application architecture, in my opinion, has evolved in the last few years and what has been the driving factor for each evolution.
+- [dzone: How Your Application Architecture Has Evolved 🌟🌟](https://dzone.com/articles/how-your-application-architecture-evolved) I will discuss how application architecture, in my opinion, has evolved in the last few years and what has been the driving factor for each evolution.
 - [simform.com: 6 Multi-Cloud Architecture Designs for an Effective Cloud Strategy 🌟](https://www.simform.com/blog/multi-cloud-architecture)
 - [simform.com: Cloud Migration ebook](https://www.simform.com/cloud-migration-ebook)
-- [fylamynt.com: Mastering Cloud Automation in the Cloud-Native Era 🌟](https://www.fylamynt.com/post/mastering-cloud-automation-in-the-cloud-native-era) As cloud computing is increasingly getting adopted all over, automation is taking a prime stage these days in the cloud-native space to streamline and manage various IT-related tasks. In this article, we will discuss cloud automation and various aspects related in brief.
+- [fylamynt.com: Mastering Cloud Automation in the Cloud-Native Era 🌟](https://www.fylamynt.com/post/mastering-cloud-automation-in-the-cloud-native-era) As cloud computing is increasingly getting adopted all over, automation is taking a prime stage these days in the cloud-native space to streamline and manage various IT-related tasks. we will discuss cloud automation and various aspects related in brief.
 - [dynatrace.com: What are microservices? All you need to know](https://www.dynatrace.com/knowledge-base/microservices)
 - [medium: Monoliths vs Microservices](https://medium.com/getdefault-in/monoliths-vs-microservices-59cff20bb106)
 - [dzone: Top 6 Time Wastes as a Software Engineer](https://dzone.com/articles/top-time-wastes-as-a-software-engineer) Increase your productivity and advance in your career by avoiding these 6 time wastes.
@@ -163,7 +163,7 @@
 - [infoworld.com: Complexity is killing software developers](https://www.infoworld.com/article/2270714/complexity-is-killing-software-developers.html) The growing complexity of modern software systems is slowly killing software developers. How can you regain control, without losing out on the best these technologies have to offer?
 - [enter.co: Estos son los 10 lenguajes de programación más populares en 2021](https://www.enter.co/especiales/dev/herramientas-dev/estos-son-los-10-lenguajes-de-programacion-mas-populares-en-2021)
 - [zesty.co: 10 Cloud Deficiencies You Should Know](https://zesty.co/blog/10-cloud-deficiencies)
-- [weave.works: What is a Kubernetes Cluster? 🌟](https://www.weave.works/)
+- [weave.works: What is a Kubernetes Cluster? 🌟](https://www.weave.works/blog/kubernetes-cluster)
 - [==techrepublic.com: Enterprises get closer to the app store experience with Kubernetes and GitOps==](https://www.techrepublic.com/article/enterprises-get-closer-to-the-app-store-experience-with-kubernetes-and-gitops)
 - [==theregister.com: How Kubernetes lowers costs and automates IT department work==](https://www.theregister.com/software/2021/12/21/how-kubernetes-lowers-costs-and-automates-it-department-work/1316708) 75% of global companies will have started using container applications in their production environments by 2022.
 - [==redhat.com: Top 8 resources for microservices architecture of 2021==](https://www.redhat.com/en/blog/best-microservices-2021) Reining in complexity, doing things consistently, leveraging standards, and modernizing systems are timeless themes in microservices architecture.
@@ -341,7 +341,7 @@
 
 ## Self service developer platform
 
-- [weave.works: What is a self-service developer platform and why does it matter?](https://www.weave.works/)
+- [weave.works: What is a self-service developer platform and why does it matter?](https://www.weave.works/blog/what-is-a-self-service-developer-platform)
 - [==thenewstack.io: What We Learned from Enabling Developer Self-Service==](https://thenewstack.io/what-we-learned-from-enabling-developer-self-service) Let’s simplify the developer experience and scale DevOps workflows without compromising the security of multi-Kubernetes environments.
 
 ## Shift-Left
@@ -381,7 +381,7 @@
   - [NodeJS Best Practices (Spanish Translation)](https://github.com/goldbergyoni/nodebestpractices/blob/spanish-translation/README.spanish.md) - *(Related to golang topic)*
   - [Enterprise Web App Patterns - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/web-apps/guides/enterprise-app-patterns/overview) - *(Related to azure topic)*
 
-- [dzone: 7 Microservices Best Practices for Developers 🌟](https://dzone.com/articles/7-microservices-best-practices-for-developers) In this article, we’ll look at some microservices best practices and suggest a few ways to help you design, orchestrate, and secure your microservices architecture.
+- [dzone: 7 Microservices Best Practices for Developers 🌟](https://dzone.com/articles/7-microservices-best-practices-for-developers) we’ll look at some microservices best practices and suggest a few ways to help you design, orchestrate, and secure your microservices architecture.
 - [zdnet.com: Why microservices need event-driven architecture](https://www.zdnet.com/article/when-microservices-need-event-driven-architecture) A call for greater microservice stability and alignment in legacy environments
 - [==simform.com: 10 Microservice Best Practices: The 80/20 Way==](https://www.simform.com/blog/microservice-best-practices) __Microservice architecture brings higher flexibility and ease of development through decoupled services. However, microservice architecture has specific challenges like efficiency, consistency, security, etc. So, here are some of the microservice best practices, along with real-life usage accounts from leading companies.__
 - [thenewstack.io: Monoliths to Microservices: 4 Modernization Best Practices](https://thenewstack.io/monoliths-to-microservices-4-modernization-best-practices-2) When it comes to refactoring monolithic apps into Microservices, most engineering teams have no idea where to start.
@@ -398,7 +398,7 @@
 - [dotnetcurry.com: Microservices Architecture Pattern 🌟](https://www.dotnetcurry.com/microsoft-azure/microservices-architecture)
 - [geeksarray.com: Microservice Architecture Pattern for Architects 🌟](https://geeksarray.com/blog/microservice-architecture-pattern-for-architects)
 - [==developers.redhat.com: 5 design principles for microservices==](https://developers.redhat.com/articles/2022/01/11/5-design-principles-microservices)
-- [==elastisys.com: Principles for Designing and Deploying Scalable Applications on Kubernetes== [ARCHIVED]]( http://web.archive.org/web/20251005184420/https://elastisys.com/designing-and-deploying-scalable-applications-on-kubernetes) In this article, you will find 15 principles for how to design and deploy cloud-native applications on Kubernetes - for scalability, observability, automation & security.
+- [==elastisys.com: Principles for Designing and Deploying Scalable Applications on Kubernetes== [ARCHIVED]]( http://web.archive.org/web/20251005184420/https://elastisys.com/designing-and-deploying-scalable-applications-on-kubernetes) you will find 15 principles for how to design and deploy cloud-native applications on Kubernetes - for scalability, observability, automation & security.
 - [simform.com: Microservices Design Principles: Do We Really Know It Well Enough? 🌟](https://www.simform.com/blog/microservices-design-principles) We are all well aware of microservices architecture, but do we know about its basic design principles and tenants that determine its implementation success? Read to find out more!
 - [javarevisited.blogspot.com: Top 10 Microservices Design Patterns and Principles - Examples](https://javarevisited.blogspot.com/2021/09/microservices-design-patterns-principles.html)
     1. Database per Microservice
@@ -414,7 +414,7 @@
 
 - [medium.com/@sandeepsharmaster: Design your Cloud Microservices Apps the DDD way (Hexagonal Architecture)](https://medium.com/@sandeepsharmaster/modernize-your-cloud-microservices-apps-hexagonal-architecture-769696494c0)
 - [medium.com/@denhox: Sharing Data Between Microservices](https://medium.com/@denhox/sharing-data-between-microservices-fe7fb9471208)
-- [medium.com/@maneesha649nirman: Design Patterns For Microservices](https://medium.com/@maneesha649nirman/design-patterns-for-microservices-30bed0d215f5) Design patterns are very important to any development architecture. In this article, I am going to discuss a few design patterns which are most important for microservices.
+- [medium.com/@maneesha649nirman: Design Patterns For Microservices](https://medium.com/@maneesha649nirman/design-patterns-for-microservices-30bed0d215f5) Design patterns are very important to any development architecture. I am going to discuss a few design patterns which are most important for microservices.
 - [==medium.com/@vinciabhinav7: Microservices Communication Architecture Patterns== 🌟](https://medium.com/@vinciabhinav7/microservices-communication-architecture-patterns-a8e77e614c2c)
 - [==medium.com/javarevisited: Top 10 Microservices Design Principles and Best Practices for Experienced Developers== 🌟](https://medium.com/javarevisited/10-microservices-design-principles-every-developer-should-know-44f2f69e960f) Designing Microservices for your organization? Follow these design principle to create a robust and scalable Microservices
 
@@ -552,7 +552,7 @@
 
 ## Domain Driven Design DDD
 
-- [==dzone: The Concept of Domain-Driven Design Explained==](https://dzone.com/articles/the-concept-of-domain-driven-design-explained) In this article, we define the core concepts around domain-driven design, explain them, and highlight the advantages and downsides of the approach.
+- [==dzone: The Concept of Domain-Driven Design Explained==](https://dzone.com/articles/the-concept-of-domain-driven-design-explained) we define the core concepts around domain-driven design, explain them, and highlight the advantages and downsides of the approach.
     - Using microservices means creating applications from loosely coupling services. The application consists of several small services, each representing a separate business goal. They can be developed and easily maintained individually, after what they are joint in a complex application.
     - __Microservices is an architecture design model with a specific bounded context, configuration, and dependencies. These result from the architectural principles of the domain-driven design and DevOps. Domain-driven design is the idea of solving problems of the organization through code.__
     - __The business goal is important to the business users, with a clear interface and functions. This way, the microservice can run independently from other microservices. Moreover, the team can also work on it independently, which is, in fact, the point of the microservice architecture.__

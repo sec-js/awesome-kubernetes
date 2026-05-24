@@ -35,7 +35,7 @@
     - [cloud.google.com: Kubernetes development, simplified—Skaffold is now GA](https://cloud.google.com/blog/products/application-development/kubernetes-development-simplified-skaffold-is-now-ga)
     - [Cloud Code](https://cloud.google.com/code) Skaffold is the underlying engine that drives Cloud Code.
     - [ashishtechmill.com: CI/CD Workflow for Spring Boot Application on Kubernetes via Skaffold](https://www.ashishtechmill.com/cicd-workflow-for-spring-boot-application-on-kubernetes-via-skaffold) This article will cover how to create CI/CD workflow for a SpringBoot Application deployed to Kubernetes using Skaffold.
-    - [==piotrminkowski.com: Development on Kubernetes with Telepresence and Skaffold==](https://piotrminkowski.com/2021/12/21/development-on-kubernetes-with-telepresence-and-skaffold) Development on Kubernetes with Telepresence and Skaffold. In this article, you will learn how to use Telepresence, Skaffold and the Jib Maven plugin to improve your Java development workflow on Kubernetes.
+    - [==piotrminkowski.com: Development on Kubernetes with Telepresence and Skaffold==](https://piotrminkowski.com/2021/12/21/development-on-kubernetes-with-telepresence-and-skaffold) Development on Kubernetes with Telepresence and Skaffold. how to use Telepresence, Skaffold and the Jib Maven plugin to improve your Java development workflow on Kubernetes.
     - [dev.to: Getting Started With Skaffold](https://dev.to/thenjdevopsguy/getting-started-with-skaffold-5120)
 - [Draft](https://github.com/Azure/draft)
 - [Garden](https://docs.garden.io)

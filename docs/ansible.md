@@ -79,7 +79,7 @@
 - [toptechskills.com: Ansible Tutorials & Courses 🌟](https://www.toptechskills.com/ansible-tutorials-courses) Ansible is an agentless infrastructure as code (IAC) tool that is super effective at configuring cloud and bare metal infrastructure.
     - [toptechskills.com: How to Speed Up Your Ansible Playbooks Over 600% 🌟](https://www.toptechskills.com/ansible-tutorials-courses/speed-up-ansible-playbooks-pipelining-mitogen)
 - [opensource.com: 5 everyday sysadmin tasks to automate with Ansible 🌟](https://opensource.com/article/21/3/ansible-sysadmin) Get more efficient and avoid errors by automating repeatable daily tasks with Ansible.
-- [redhat.com: 8 steps to developing an Ansible role in Linux 🌟](https://www.redhat.com/en/blog/developing-ansible-role) In this article, an existing Ansible playbook is used to deploy Vim and convert it to a role adding flexibility and reusability.
+- [redhat.com: 8 steps to developing an Ansible role in Linux 🌟](https://www.redhat.com/en/blog/developing-ansible-role) an existing Ansible playbook is used to deploy Vim and convert it to a role adding flexibility and reusability.
 - [ansible.com: Ansible whitepaper](https://www.redhat.com/en/resources/whitepapers/ansible-in-depth) Download this paper for a deep dive into Ansible, an open source IT configuration management, deployment, and orchestration tool.
 - [redhat.com: How to use Ansible to send an email using Gmail](https://www.redhat.com/en/blog/configure-gmail-using-ansible)
 - [redhat.com: How to use Ansible to configure a reverse proxy 🌟](https://www.redhat.com/en/blog/reverse-proxy-ansible) Placing a load balancer in front of your web server infrastructure helps ensure any spike in traffic doesn't bring down the site.
@@ -186,7 +186,7 @@
 - [youtube playlist: Ansible Tutorial - by Infra Xpertzz 🌟](https://www.youtube.com/playlist?list=PLOwxB_PX3s3WSfhzVtwhxXwy7QpkmtnzR)
     - [youtube.com: Ansible Tutorial Part 8 - Implementing Handlers and Handling Task Failures](https://www.youtube.com/watch?v=pJFZ5h9fT5o&ab_channel=InfraXpertzz)
 - [youtube: Ansible for beginners - by XavkiEn](https://www.youtube.com/playlist?list=PLWZKNB9waqIXEL-NIapWwIADPtkspe9vk) - [slides](https://gitlab.com/xavki/devopsland/-/tree/master/ansible)
-    - [youtube: Exercises / Monitoring : How to install node exporter 🌟](https://www.youtube.com/watch?v=NgRuap0MmZw&ab_channel=XavkiEn) In this tutorial, we start an exercise to install a monitoring stack. This exercise allows you to add prometheus + grafana on 1 server and node-exporter on all servers.
+    - [youtube: Exercises / Monitoring : How to install node exporter 🌟](https://www.youtube.com/watch?v=NgRuap0MmZw&ab_channel=XavkiEn) we start an exercise to install a monitoring stack. This exercise allows you to add prometheus + grafana on 1 server and node-exporter on all servers.
 
 ## Ansible Playbooks
   - [Ansible for DevOps Examples](https://github.com/geerlingguy/ansible-for-devops) 🌟 - A GitHub repository containing example Ansible playbooks and roles specifically tailored for DevOps practices. It covers various use cases, including infrastructure deployment, application configuration, and automation for common DevOps tools.
