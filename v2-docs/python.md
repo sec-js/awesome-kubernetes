@@ -3,14 +3,157 @@
 !!! info "Architectural Context"
     Detailed reference for Python in the context of Developer Ecosystem.
 
-## Software Engineering
+## Standard Reference
 
-### Programming Foundations
+  - [digitalocean.com python 🌟](https://www.digitalocean.com/community/tags/python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Dough Hellmann - Python, OpenStack and Open Source](https://doughellmann.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Awesome Django. A curated list of awesome Django apps, projects and resources](https://gitlab.com/rosarior/awesome-django)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [fedoralovespython.org 🌟](https://fedoralovespython.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [futurecoder.io](https://futurecoder.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Python 3.4 Programming Tutorials - YouTube](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Yagmail: Python e-mail library](https://github.com/kootenpv/yagmail) <span class='md-tag md-tag--info'>⭐ 2726</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [How To Deadlock Your Python With getaddrinfo()](https://emptysqua.re/blog/getaddrinfo-deadlock)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [New String Formatting in Python 3.6](https://zerokspot.com/weblog/2015/12/31/new-string-formatting-in-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [tqdm: Instantly make your python loops show a progress meter - just wrap' any iterator with "tqdm(iterator)", and you're done!](https://github.com/noamraph/tqdm) <span class='md-tag md-tag--info'>⭐ 2767</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Python FAQ: Why should I use Python 3? 🌟](https://eev.ee/blog/2016/07/31/python-faq-why-should-i-use-python-3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [digitalocean.com: How To Use the Python Map Function 🌟](https://www.digitalocean.com/community/tutorials/how-to-use-the-python-map-function)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [tryolabs.com: Top 10 Python libraries of 2020](https://tryolabs.com/blog/2020/12/21/top-10-python-libraries-of-2020)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.logrocket.com: Django REST framework alternatives](https://blog.logrocket.com/django-rest-framework-alternatives)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [towardsdatascience.com: Unexpected Size of Python Objects in Memory](https://towardsdatascience.com/the-strange-size-of-python-objects-in-memory-ce87bdfbb97f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [realpython.com: Python Microservices With gRPC 🌟](https://realpython.com/python-microservices-grpc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dashbird.io: How I Manage Credentials in Python Using AWS Secrets Manager](https://dashbird.io/blog/aws-secrets-manager-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [freecodecamp.org: The Python Handbook 🌟](https://www.freecodecamp.org/news/the-python-handbook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [towardsdatascience.com: 7 Must-Know Data Wrangling Operations with Python' Pandas](https://towardsdatascience.com/7-must-know-data-wrangling-operations-with-python-pandas-849438a90d15)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [towardsdatascience.com: All The Important Features and Changes in Python' 3.10](https://towardsdatascience.com/all-the-important-features-and-changes-in-python-3-10-e3d1fe542fbf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [freecodecamp.org: Python Map Function – How to Map a List in Python 3.0,' With Example Code](https://www.freecodecamp.org/news/python-map-function-how-to-map-a-list-in-python-3-0-with-example-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [analyticsindiamag.com: Object-Oriented Programming with Python](https://analyticsindiamag.com/object-oriented-programming-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [analyticsvidhya.com: Top Online Platforms to Learn Python](https://www.analyticsvidhya.com/blog/2021/04/top-online-platforms-to-learn-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [towardsdatascience.com: There is more to ‘pandas.read_csv()’ than meets' the eye](https://towardsdatascience.com/there-is-more-to-pandas-read-csv-than-meets-the-eye-8654cb2b3a03)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: micropipenv: Installing Python dependencies in containerized' applications 🌟](https://developers.redhat.com/articles/2021/05/19/micropipenv-installing-python-dependencies-containerized-applications)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [trstringer.com: Debug a Python Application Running in Kubernetes 🌟](https://trstringer.com/debug-python-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [analyticsvidhya.com: Implementing ETL Process Using Python to Learn Data' Engineering](https://www.analyticsvidhya.com/blog/2021/06/implementing-python-to-learn-data-engineering-etl-process)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [stackoverflow.blog: Getting started with… Python 🌟](https://stackoverflow.blog/2021/07/14/getting-started-with-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [oxylabs.io: Python Web Scraping Tutorial: Step-By-Step](https://oxylabs.io/blog/python-web-scraping)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [returngis.net: Gestionar recursos de Kubernetes con Python](https://www.returngis.net/2021/08/gestionar-recursos-de-kubernetes-con-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: Parse command-line arguments with argparse in Python](https://opensource.com/article/21/8/python-argparse)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [freecodecamp.org: Python List Methods – append( ) vs extend( ) in Python' Explained with Code Examples](https://www.freecodecamp.org/news/python-list-methods-append-vs-extend)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [freecodecamp.org: Dictionary Comprehension in Python – Explained with Examples' 🌟](https://www.freecodecamp.org/news/dictionary-comprehension-in-python-explained-with-examples)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: Learn Python: Tutorials and updates from Red Hat' experts](https://developers.redhat.com/topics/python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [towardsdatascience.com: How Not to Use Python Lists](https://towardsdatascience.com/how-not-to-use-python-lists-d06cbe8e593)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [kdnuggets.com: How To Build A Database Using Python](https://www.kdnuggets.com/2021/09/build-database-using-python.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [zdnet.com: Programming languages: Python just took a big jump forward](https://www.zdnet.com/article/programming-languages-python-just-took-a-big-jump-forward)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [genbeta.com: Python se convierte en el lenguaje de programación más popular' según el índice TIOBE: adiós al largo reinado de C](https://www.genbeta.com/actualidad/python-se-convierte-lista-tiobe-lenguaje-popular-red-superando-incluso-a-c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [sureshdsk.dev: Check diff between two files in Python](https://sureshdsk.dev/check-diff-between-two-files-in-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [freecodecamp.org: Python String split() and join() Methods – Explained with' Examples](https://www.freecodecamp.org/news/python-string-split-and-join-methods-explained-with-examples)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.teclado.com: Python Methods: Instance, Static and Class](https://blog.teclado.com/python-methods-instance-static-class)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [treyhunner.com: How to flatten a list in Python](https://treyhunner.com/2021/11/how-to-flatten-a-list-in-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [makeuseof.com: 7 Vital Commands to Get Started With Python for Beginners](https://www.makeuseof.com/python-for-beginners)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [freecodecamp.org: Python Sets – Explained with Examples](https://www.freecodecamp.org/news/python-set-operations-explained-with-examples)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dev.to: Creating a blockchain in 60 lines of Python](https://dev.to/imjoseangel/creating-a-blockchain-in-60-lines-of-python-2hlc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [towardsdatascience.com: Master Class Inheritance in Python 🌟](https://towardsdatascience.com/master-class-inheritance-in-python-c46bfda63374)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [makeuseof.com: 11 Useful Python One-Liners You Must Know](https://www.makeuseof.com/useful-python-one-liners-you-must-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: More Python for Non-Programmers](https://thenewstack.io/more-python-for-non-programmers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: Generating pseudorandom numbers in Python](https://developers.redhat.com/articles/2021/11/04/generating-pseudorandom-numbers-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dev.to: Best Practices For Writing Clean Pythonic Code](https://dev.to/dollardhingra/python-code-best-practices-4k96)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [digitalocean.com: How To Create a Twitterbot with Python 3 and the Tweepy' Library](https://www.digitalocean.com/community/tutorials/how-to-create-a-twitterbot-with-python-3-and-the-tweepy-library)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [javarevisited.blogspot.com: Java vs Python - Which Programming Language' beginners should learn in 2022?](https://javarevisited.blogspot.com/2018/06/java-vs-python-which-programming-language-to-learn-first.html#axzz7HHxvcHIY)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [freecodecamp.org: Python Dictionary – How to Perform CRUD Operations on' dicts in Python](https://www.freecodecamp.org/news/everything-you-need-to-know-about-python-dictionaries)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [freecodecamp.org: Python Requests – How to Interact with Web Services' using Python](https://www.freecodecamp.org/news/how-to-interact-with-web-services-using-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: Guido van Rossum’s Ambitious Plans for Improving Python' Performance](https://thenewstack.io/guido-van-rossums-ambitious-plans-for-improving-python-performance)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dev.to: python dictionary methods explanation and visualization](https://dev.to/mahmoudessam/python-dictionary-methods-explanation-and-visualization-1l64)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [codesolid.com: Python Lists for Beginners: A Complete Lesson With Exercises' 🌟](https://codesolid.com/python-lists)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [towardsdatascience.com: requirements.txt vs setup.py in Python](https://towardsdatascience.com/requirements-vs-setuptools-python-ae3ee66e28af)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [realpython.com: Building Lists With Python's .append()](https://realpython.com/courses/building-lists-with-python-append)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [freecodecamp.org: Python List .remove() - How to Remove an Item from a List' in Python](https://www.freecodecamp.org/news/python-list-remove-how-to-remove-an-item-from-a-list-in-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [freecodecamp.org: Else-If in Python – Python If Statement Example Syntax](https://www.freecodecamp.org/news/else-if-in-python-python-if-statement-example-syntax)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [towardsdatascience.com: Work with SQL in Python Using SQLAlchemy and Pandas](https://towardsdatascience.com/work-with-sql-in-python-using-sqlalchemy-and-pandas-cd7693def708)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [freecodecamp.org: Create a List in Python – Lists in Python Syntax](https://www.freecodecamp.org/news/create-a-list-in-python-lists-in-python-syntax)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [freecodecamp.org: How to SSH into a Docker Container – Secure Shell vs Docker' Attach](https://www.freecodecamp.org/news/how-to-ssh-into-a-docker-container-secure-shell-vs-docker-attach)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [freecodecamp.org: How to Use *args and **kwargs in Python](https://www.freecodecamp.org/news/args-and-kwargs-in-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [superfastpython.com: How to Identify a Deadlock in Python](https://superfastpython.com/thread-deadlock-in-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [towardsdatascience.com: Fall in Love with Your Environment Setup](https://towardsdatascience.com/fall-in-love-with-your-environment-setup-779dfbf047ba)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [towardsdatascience.com: You Don’t Need Sample Data, You Need Python Faker](https://towardsdatascience.com/you-dont-need-sample-data-you-need-python-faker-fa87c2a119a9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: Python for Beginners: When and How to Use Tuples](https://thenewstack.io/python-for-beginners-when-and-how-to-use-tuples)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [freecodecamp.org: How to Set Up a Virtual Environment in Python – And Why' It's Useful](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [freecodecamp.org: Python Attributes – Class and Instance Attribute Examples](https://www.freecodecamp.org/news/python-attributes-class-and-instance-attribute-examples)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [notia.ai: Building an authenticated Python CLI](https://www.notia.ai/articles/building-an-authenticated-python-cli)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [superfastpython.com: How to Choose the Right Python Concurrency API](https://superfastpython.com/python-concurrency-choose-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [realpython.com/pdf-python](https://realpython.com/pdf-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dev.to: How to change an image with Python](https://dev.to/deotyma/how-to-change-an-image-with-python-518d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [towardsdatascience.com: Iterables vs Iterators in Python](https://towardsdatascience.com/python-iterables-vs-iterators-688907fd755f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [towardsdatascience.com: How to Implement a Linked List in Python](https://towardsdatascience.com/python-linked-lists-c3622205da81)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [realpython.com/learning-paths: Python Learning Paths 🌟🌟🌟](https://realpython.com/learning-paths)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [superfastpython.com: Threading vs Multiprocessing in Python](https://superfastpython.com/threading-vs-multiprocessing-in-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [mishrapartha.blogspot.com: A Beginner’s Guide to Python for Data Science' - Part 5 Adding Comments in Python](https://mishrapartha.blogspot.com/2022/11/a-beginners-guide-to-python-for-data_19.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [pydantic/pydantic](https://github.com/pydantic/pydantic) <span class='md-tag md-tag--info'>⭐ 27831</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [PyWhatKit](https://github.com/Ankit404butfound/PyWhatKit) <span class='md-tag md-tag--info'>⭐ 1676</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [freecodecamp.org: Learn Data Structures and Algorithms – Introduction and' Learning Resources](https://www.freecodecamp.org/news/learn-data-structures-and-algorithms)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [freecodecamp.org: How to Use PyScript – A Python Frontend Framework 🌟](https://www.freecodecamp.org/news/pyscript-python-front-end-framework)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [realpython.com: How to Get a List of All Files in a Directory With Python](https://realpython.com/get-all-files-in-directory-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [freecodecamp.org: Python For Loop - For i in Range Example](https://www.freecodecamp.org/news/python-for-loop-for-i-in-range-example)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [realpython.com: Splitting, Concatenating, and Joining Strings in Python' Quiz](https://realpython.com/quizzes/python-split-strings)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [realpython.com: How to Write Pythonic Loops](https://realpython.com/courses/how-to-write-pythonic-loops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [freecodecamp.org: Learn Algorithms and Data Structures in Python 🌟🌟](https://www.freecodecamp.org/news/learn-algorithms-and-data-structures-in-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [realpython.com: Python Machine Learning Tutorials 🌟🌟](https://realpython.com/tutorials/machine-learning)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [devopscube.com: Python For DevOps: Guide for DevOps Engineers](https://devopscube.com/python-for-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [realpython.com: An Intro to Threading in Python](https://realpython.com/intro-to-python-threading)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [realpython.com: Functional Programming in Python](https://realpython.com/courses/functional-programming-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [rogerperkin.co.uk: pyATS Tutorial for Beginners](https://www.rogerperkin.co.uk/network-automation/pyats/pyats-genie-tutorial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [martinheinz.dev: Boost Your Python Application Performance using Continuous' Profiling](https://martinheinz.dev/blog/89)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [towardsdatascience.com: Memoizing DataFrame Functions](https://towardsdatascience.com/memoizing-dataframe-functions-7a27dff532f7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [anaconda.com: Why Data Scientists Should Be Excited About Python in Excel](https://www.anaconda.com/blog/why-data-scientists-should-be-excited-about-python-in-excel)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [testdriven.io: Clean Code in Python](https://testdriven.io/blog/clean-code-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [pypi.org/project/latexify-py](https://pypi.org/project/latexify-py)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [freecodecamp.org: How to Build an Online Banking System – Python Object-Oriented' Programming Tutorial](https://www.freecodecamp.org/news/how-to-build-an-online-banking-system-python-oop-tutorial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/reactive-python/reactpy](https://github.com/reactive-python/reactpy) <span class='md-tag md-tag--info'>⭐ 8138</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [opensource.com: Make your API better with this positional trick from Python' 3.8](https://opensource.com/article/21/5/python-38-features)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Project Thoth](https://thoth-station.ninja)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: Thoth prescriptions for resolving Python dependencies](https://developers.redhat.com/articles/2021/09/22/thoth-prescriptions-resolving-python-dependencies)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Python Data Science Handbook 🌟](https://jakevdp.github.io/PythonDataScienceHandbook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.dev: Python Data Science Handbook](https://github.dev/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [automatetheboringstuff.com: Automate the Boring Stuff with Python](https://automatetheboringstuff.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [CodingEntrepreneurs youtube channel](https://www.youtube.com/user/CodingEntrepreneurs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dev.to: Data Migration from Monolith to Microservice in Django](https://dev.to/balwanishivam/data-migration-from-monolith-to-microservice-in-django-5b9m)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [mherman.org: Scaling Flask with Kubernetes 🌟](https://mherman.org/presentations/flask-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [kdnuggets.com: How to Deploy a Flask API in Kubernetes and Connect it with' Other Micro-services](https://www.kdnuggets.com/2021/02/deploy-flask-api-kubernetes-connect-micro-services.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dev.to: Getting Started with Flask and Docker](https://dev.to/ken_mwaura1/getting-started-with-flask-and-docker-3ie8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [freecodecamp.org: How to Dockerize a Flask Application](https://www.freecodecamp.org/news/how-to-dockerize-a-flask-app)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [fastapi.tiangolo.com](https://fastapi.tiangolo.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [freecodecamp.org: How to Create Microservices with FastAPI](https://www.freecodecamp.org/news/how-to-create-microservices-with-fastapi)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [freecodecamp.org: FastAPI Course – Code APIs Quickly](https://www.freecodecamp.org/news/fastapi-helps-you-develop-apis-quickly)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Profiling Python using cProfile: a concrete case](https://julien.danjou.info/blog/2015/guide-to-python-profiling-cprofile-concrete-case-carbonara)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [tracker: A time machine for debugging pesky stateful errors](https://github.com/madisonmay/tracker) <span class='md-tag md-tag--info'>⭐ 36</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [coursereport.com: A Beginner’s Guide to Python for Cybersecurity](https://www.coursereport.com/blog/python-for-cyber-security-with-flatiron-school)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [towardsdatascience.com: Unlimited scientific libraries and applications' in Kubernetes, instantly!](https://towardsdatascience.com/unlimited-scientific-libraries-and-applications-in-kubernetes-instantly-b69b192ec5e5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [huyenchip.com: Why data scientists shouldn’t need to know Kubernetes](https://huyenchip.com/2021/09/13/data-science-infrastructure.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [realpython.com: Machine Learning With Python 🌟🌟🌟](https://realpython.com/learning-paths/machine-learning-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [oreilly.com: how to use pivot tables in Pandas step-by-step](https://www.oreilly.com/learning/pivot-tables)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Reshaping in Pandas – Pivot, Pivot-Table, Stack and Unstack explained with Pictures](https://nikolaygrozev.wordpress.com/2015/07/01/reshaping-in-pandas-pivot-pivot-table-stack-and-unstack-explained-with-pictures)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [analyticsvidhya.com: Cheat Sheet for Exploratory Data Analysis in Python' 🌟](https://www.analyticsvidhya.com/blog/2015/06/infographic-cheat-sheet-data-exploration-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [pandastutor.com 🌟](https://pandastutor.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Python 3 standard library Module of the Week, Doug Hellmann](https://pymotw.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Python 2 standard library Module of the Week, Doug Hellmann](https://pymotw.com/2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Boto](https://github.com/boto/boto) <span class='md-tag md-tag--info'>⭐ 6432</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [Migrating to Boto3](https://aws.amazon.com/es/blogs/developer/migrating-to-boto3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dashbird.io: Explaining boto3: how to use any AWS service with python](https://dashbird.io/blog/boto3-aws-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dashbird.io: 8 Must-Know Tricks to Use S3 More Effectively in Python](https://dashbird.io/blog/aws-s3-python-tricks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [kite: Code Faster with AI Autocomplete](https://kite.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [pyxll-jupyter: Integration for Jupyter notebooks and Microsoft Excel](https://github.com/pyxll/pyxll-jupyter) <span class='md-tag md-tag--info'>⭐ 161</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Pydeps 🌟](https://github.com/thebjorn/pydeps) <span class='md-tag md-tag--info'>⭐ 2087</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [joke2k/faker 🌟](https://github.com/joke2k/faker) <span class='md-tag md-tag--info'>⭐ 19257</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [makeuseof.com: 10 Useful Tools for Python Developers](https://www.makeuseof.com/python-developer-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dev.to: Code Quality Tools in Python](https://dev.to/dollardhingra/code-quality-tools-in-python-4k2a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [google/python-fire 🌟](https://github.com/google/python-fire) <span class='md-tag md-tag--info'>⭐ 28195</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [github.com/bloomberg/memray 🌟🌟](https://github.com/bloomberg/memray) <span class='md-tag md-tag--info'>⭐ 15046</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [github.com/microsoft/pyright](https://github.com/microsoft/pyright) <span class='md-tag md-tag--info'>⭐ 15447</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [github.com/kodemore/chili](https://github.com/kodemore/chili) <span class='md-tag md-tag--info'>⭐ 73</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Ruff](https://github.com/astral-sh/ruff) <span class='md-tag md-tag--info'>⭐ 47643</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [TWINT - Twitter Intelligence Tool](https://github.com/twintproject/twint) <span class='md-tag md-tag--info'>⭐ 16375</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [opensource.com: How to use Python to hack your Eclipse IDE](https://opensource.com/life/16/2/how-use-python-hack-your-ide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [PyGithub 🌟](https://github.com/PyGithub/PyGithub) <span class='md-tag md-tag--info'>⭐ 7719</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
-#### Python Language
-
-  - **(2025)** [**Think Python**](https://allendowney.github.io/ThinkPython) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A classic computational thinking handbook utilizing Python. Focuses on algorithmic integrity, data structure designs, object-oriented implementations, and debug execution pipelines.
 
 ---
-💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Java_Frameworks](./java_frameworks.md) | [Golang](./golang.md)
+💡 **Explore Related:** [Dom](./dom.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md) | [React](./react.md)
 

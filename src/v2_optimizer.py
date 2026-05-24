@@ -299,18 +299,12 @@ class V2VisionEngine:
                 cached = self.inventory[norm_url]
                 item.update(cached)
                 if is_special: item["is_special"] = True
-                if cached.get("hierarchy"):
-                    if project_id not in project_registry:
+                # Mandate 30: Hierarchy is mandatory for ELITE AI curation, 
+                # but for RENDER-ONLY (Fast-Track) we MUST preserve all online links to avoid pruning valid V1 sections.
+                if cached.get("hierarchy") or self.render_only:
+                    if project_id not in project_registry or item.get("stars", 0) > project_registry[project_id].get("stars", 0):
+                        if project_id in project_registry and project_registry[project_id].get("is_special"): item["is_special"] = True
                         project_registry[project_id] = item
-                    else:
-                        existing = project_registry[project_id]
-                        if item.get("is_special"): existing["is_special"] = True
-                        if "github.com" not in norm_url or item.get("stars", 0) > existing.get("stars", 0):
-                            item.setdefault("aliases", []).append(existing["url"])
-                            if existing.get("is_special"): item["is_special"] = True
-                            project_registry[project_id] = item
-                        else:
-                            existing.setdefault("aliases", []).append(l["url"])
                     continue
             to_evaluate.append(item)
 
