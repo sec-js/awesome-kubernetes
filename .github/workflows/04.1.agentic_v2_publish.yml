@@ -91,6 +91,7 @@ jobs:
             echo "No automated changes to commit."
           else
             git commit -m "feat: sync V2 elite curated edition and README metrics [skip ci]"
+            git pull origin develop --rebase
             git push origin develop
           fi
 
