@@ -82,39 +82,28 @@ jobs:
           python -m src.readme_updater
           python -m src.safety_readme
 
-      - name: Create Pull Request for V2 Elite Update
-        id: cpr
-        uses: peter-evans/create-pull-request@v8
+      - name: Commit and Push V2 Elite Updates
+        run: |
+          git config --global user.name "Nubenetes Bot"
+          git config --global user.email "bot@nubenetes.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No automated changes to commit."
+          else
+            git commit -m "feat: sync V2 elite curated edition and README metrics [skip ci]"
+            git push origin develop
+          fi
+
+      - name: Upload Architecture and Decision Logs
+        if: always()
+        uses: actions/upload-artifact@v4
         with:
-          branch: bot/v2-elite-sync
-          base: develop
-          title: "V2 Elite: Agentic Optimization Sync (2026)"
-          body-path: pr_description.md
-          commit-message: "feat: sync V2 elite curated edition and README metrics [skip ci]"
-          labels: "v2-elite, agentic-sync"
-
-      - name: Post Supplementary Architecture Audit (Comment)
-        if: steps.cpr.outputs.pull-request-number != ''
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PR_NUMBER: ${{ steps.cpr.outputs.pull-request-number }}
-        run: |
-          if [ -f v2_file_audit.md ]; then
-            gh pr comment $PR_NUMBER --body-file v2_file_audit.md
-          fi
-
-      - name: Post Elite Decision Matrix (Comment)
-        if: steps.cpr.outputs.pull-request-number != ''
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PR_NUMBER: ${{ steps.cpr.outputs.pull-request-number }}
-        run: |
-          if [ -f v2_decision_matrix.md ]; then
-            split -b 60000 v2_decision_matrix.md matrix_part_
-            for part in matrix_part_*; do
-              gh pr comment $PR_NUMBER --body-file $part
-            done
-          fi
+          name: v2-agentic-logs
+          path: |
+            v2_file_audit.md
+            v2_decision_matrix.md
+            v2_safety_report.md
+          if-no-files-found: ignore
 
       - name: Persist Incremental Inventory to Cache
         if: always()
