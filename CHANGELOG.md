@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.3.3]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.3) - 2026-05-25
+
+### Fixed
+- **Navigation Loop**: Corrected the "Back to V1" link to point specifically to `https://nubenetes.com/v1/`. This avoids the automatic redirect at the domain root, allowing users to actually reach the exhaustive archive.
+
 ## [[2.3.2]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.2) - 2026-05-25
 
 ### Changed
