@@ -57,14 +57,17 @@ jobs:
           PYTHONUNBUFFERED: "1"
         run: python -u -m src.v2_metadata
 
-      - name: Create Pull Request for Metadata Update
-        uses: peter-evans/create-pull-request@v8
-        with:
-          branch: bot/v2-metadata-sync
-          base: develop
-          title: "V2 Data: GitHub Metadata Sync"
-          commit-message: "chore: update inventory stars and licenses [skip ci]"
-          labels: "v2-data, metadata-sync"
+      - name: Commit and Push Metadata Updates
+        run: |
+          git config --global user.name "Nubenetes Bot"
+          git config --global user.email "bot@nubenetes.com"
+          git add data/inventory.yaml
+          if git diff --staged --quiet; then
+            echo "No changes in inventory.yaml to commit."
+          else
+            git commit -m "chore: update inventory stars and licenses [skip ci]"
+            git push origin develop
+          fi
 
       - name: Persist Incremental Inventory to Cache
         if: always()

@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.1.5]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.1.5) - 2026-05-25
+
+### Changed
+- **Automated Workflow Optimization**: Refactored V2 ecosystem workflows (Metadata, AI Curator, Video Hub, and Publisher) to utilize direct git push to the `develop` branch instead of creating redundant Pull Requests. This eliminates manual overhead and confusion while ensuring derived content is seamlessly synchronized using `[skip ci]` flags.
+- **Workflow Observability**: Integrated GitHub Artifacts for automated architecture audits and decision matrices, replacing redundant PR comments.
+
 ## [[2.1.4]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.1.4) - 2026-05-25
 
 ### Added

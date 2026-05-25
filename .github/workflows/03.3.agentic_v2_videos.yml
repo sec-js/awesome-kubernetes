@@ -72,19 +72,17 @@ jobs:
           export PYTHONPATH=$PYTHONPATH:.
           python src/v2_video_portal.py
 
-      - name: Create Pull Request for Video Hub Update
-        uses: peter-evans/create-pull-request@v8
-        with:
-          branch: bot/v2-video-sync
-          base: develop
-          title: "V2 Content: Video Hub Enrichment Sync"
-          commit-message: "docs: update Video Hub with high-fidelity metadata [skip ci]"
-          labels: "v2-content, video-hub"
-          body: |
-            Automated update of the V2 Video Hub.
-            - Robust metadata extraction (yt-dlp + transcripts)
-            - AI-synthesized technical summaries
-            - Format-compliant Markdown rendering
+      - name: Commit and Push Video Hub Updates
+        run: |
+          git config --global user.name "Nubenetes Bot"
+          git config --global user.email "bot@nubenetes.com"
+          git add data/inventory.yaml v2-docs/videos.md
+          if git diff --staged --quiet; then
+            echo "No automated changes to commit."
+          else
+            git commit -m "docs: update Video Hub with high-fidelity metadata [skip ci]"
+            git push origin develop
+          fi
 
       - name: Persist Incremental Inventory Cache
         if: always()
