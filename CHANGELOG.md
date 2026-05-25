@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.1.3]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.1.3) - 2026-05-25
+
+### Fixed
+- **Definitive AVM Video Correction**: Applied a surgical fix to the "Azure Verified Modules" video metadata in the V2 portal and inventory. Corrected the title and summary to accurately reflect the session's focus on Spec-Driven Development, the "Spec Kit" framework, and Well-Architected Azure workloads using GitHub Copilot.
+
 ## [[2.1.2]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.1.2) - 2026-05-25
 
 ### Added

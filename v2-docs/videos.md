@@ -233,13 +233,13 @@ Welcome to the **Agentic Video Hub**. This section presents a logical, architect
 
     </center>
 
-??? note "🎬 What is Architecture? | `Architecture Theory`"
+??? note "🎬 Building Secure, Well‑Architected Azure Workloads with Azure Verified Modules and GitHub Copilot | `Azure Verified Modules (AVM)`"
     !!! info "Architectural Summary"
-        This conceptual deep-dive by Stewart Hicks explores the fundamental definition of architecture, framing it as the design of inhabitable space rather than mere form. It deconstructs the interaction between geometry, human experience, and social context. For a 2026 Cloud Architect, these principles are highly analogous to system design: where the "form" (containers, nodes) is secondary to the "space" (the functional void) where data flows and business logic resides. Understanding these first-principles of design aids in building more intuitive, human-centric, and socio-technically resilient digital platforms.
+        Azure Verified Modules (AVM) is the official Microsoft infrastructure-as-code module library for both Bicep and Terraform. This session explores how AVM standardizes deployments according to the Azure Well-Architected Framework by default, shipping with high-impact security defaults like zone redundancy and disabled public IPs. It introduces **Spec-Driven Development** with GitHub Copilot using the "Spec Kit" (an 8-step framework from constitution to implementation). By turning non-deterministic AI prompts into reliable, repeatable builds, architects can leverage AI as a trusted foundation for secure and compliant Azure workload orchestration.
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/QBqRAMVTmwE" title="What is Architecture?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/QBqRAMVTmwE" title="Building Secure, Well‑Architected Azure Workloads with AVM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
