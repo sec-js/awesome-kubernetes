@@ -13,7 +13,7 @@ edit_uri: "edit/master/v2-docs/"
 theme:
   name: material
   language: en
-  favicon: images/favicon-car.png
+  favicon: images/favicon-modern.png
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default

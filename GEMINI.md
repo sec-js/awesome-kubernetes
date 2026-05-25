@@ -352,6 +352,7 @@ The bot must rotate between profiles to avoid detection:
     - **Native GitHub Pages**: Migrated deployment to use native artifacts instead of the `gh-pages` branch for improved security and speed.
     - **CI/CD Caching**: Implemented `cache: pip` via `requirements.txt` to significantly speed up build times.
     - **V2 Elite Cyber Cloud Aesthetic**: Upgraded UI with high-contrast pure black backgrounds, neon cyan accents, advanced glassmorphism, and hover glow effects.
+    - **Visual Identity Modernization**: Replaced the legacy car favicon with a new modern "Gemini construction car" PNG to improve search engine appearance and brand consistency.
     - **MkDocs Features Enabled**: Activated native Privacy Plugin (GDPR compliance), Pruned Navigation (performance), Social Cards in V1, Code Copy, Tab Sync, and Tooltips.
     - **Announce Banner**: Added a global announcement banner to V1 directing users to the V2 Elite Portal.
     - **Resilient Architectural Refinements (Phase 2)**:

@@ -11,7 +11,7 @@ edit_uri: ""
 theme:
   name: material
   prev_next_buttons_location: both
-  favicon: images/favicon-car.png
+  favicon: images/favicon-modern.png
   icon:
     logo: logo
     repo: fontawesome/brands/github
