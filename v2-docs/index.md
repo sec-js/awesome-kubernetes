@@ -1,7 +1,7 @@
 # Nubenetes Elite Portal (V2) | Awesome Kubernetes & Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 <center markdown="1">
-[![Banner](images/kubernetes_logo_transparent.png)](https://kubernetes.io)
+[![Banner](images/kubernetes_logo.png)](https://kubernetes.io)
 </center>
 
 "I do not believe you can do today's job with yesterday's methods and be in business tomorrow" ([Horatio Nelson Jackson](https://en.wikipedia.org/wiki/Horatio_Nelson_Jackson))
@@ -21,8 +21,8 @@
     2. **Standard Layer (Mapped)**: Resources identified as candidates for Elite status but pending deep AI analysis.
 
     **Current Inventory Coverage:**
-    - **V1 Base Inventory**: 17980 total resources analyzed.
-    - **V2 Elite Selection**: 14172 candidates identified (78.82% density ratio).
+    - **V1 Base Inventory**: 17982 total resources analyzed.
+    - **V2 Elite Selection**: 14172 candidates identified (78.81% density ratio).
     - **AI Enrichment Coverage**: 2853 / 14172 (20.13%)
     - **GitHub Metadata Coverage**: 1451 / 1763 (82.3%) - *Critical for Maturity Tagging*
     - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.
