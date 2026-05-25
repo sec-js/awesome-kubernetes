@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.1.7]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.1.7) - 2026-05-25
+
+### Changed
+- **Visual Identity (Ultra-Visible Favicon)**: Replaced the complex favicon with an ultra-minimalist, high-contrast design (Cyan "N" on dark background) to ensure maximum visibility in browser tabs, following the design patterns of X, GitHub, and LinkedIn.
+- **Index Branding Restoration**: Reverted the header image on the V2 index page to the "Gemini construction car" (now standardized as `hero-car.png`) to maintain the project's established visual impact while keeping a separate, cleaner icon for navigation tabs.
+
 ## [[2.1.6]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.1.6) - 2026-05-25
 
 ### Changed
