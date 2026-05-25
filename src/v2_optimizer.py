@@ -867,7 +867,7 @@ class V2VisionEngine:
             with open("v2-mkdocs.yml", "r") as f: content = f.read()
             nav = [
                 "nav:", 
-                "  - \"🔙 Back to V1 (Exhaustive)\": https://nubenetes.com/", 
+                "  - \"🔙 Back to V1 (Exhaustive)\": https://nubenetes.com/v1/", 
                 "  - \"The 2026 Vision\": index.md",
                 "  - \"Agentic Video Hub\": videos.md"
             ]
