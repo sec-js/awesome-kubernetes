@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.0.4]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.0.4) - 2026-05-25
+
+### Added
+- **Claude Code Integration**: Added the "Mastering Claude Code" technical session to the V2 Elite Video Hub with a high-density summary of agentic CLI operations and MCP integration.
+- **Hosted Control Planes (HyperShift)**: Integrated the GitOps Guide to the Galaxy session on HCP/HyperShift to provide architectural depth on multi-tenant Kubernetes control planes.
+
+### Fixed
+- **Video Metadata Accuracy**: Corrected a significant metadata mismatch where the GitOps Guide to the Galaxy playlist was mislabeled as "Kubernetes: The Documentary".
+- **Inventory Precision**: Synchronized `data/inventory.yaml` with corrected video identities and professional summaries.
+
 ## [[2.0.3]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.0.3) - 2026-05-25
 
 ### Changed

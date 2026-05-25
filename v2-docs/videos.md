@@ -42,6 +42,16 @@ Welcome to the **Agentic Video Hub**. This section presents a logical, architect
 
     </center>
 
+??? note "🎬 Mastering Claude Code in 30 minutes | `Claude Code & Agentic CLI`"
+    !!! info "Architectural Summary"
+        This technical session explores the architecture and implementation of Claude Code, Anthropic's agentic CLI designed for autonomous, multi-step engineering tasks. It details how the tool leverages the Model Context Protocol (MCP) to integrate with external data sources and documentation, enabling a self-healing development cycle where the agent autonomously reads code, executes shell commands, and iterates through test-driven development (TDD) loops. For 2026 platform engineers, mastering these agentic workflows is critical for scaling complex refactoring, managing cognitive load in large-scale repositories, and establishing robust human-in-the-loop (HITL) governance for AI-driven infrastructure operations.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/6eBSHbLKuN0" title="Mastering Claude Code in 30 minutes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
 ??? note "🎬 ¿Qué es una Red Neuronal? Parte 1 : La Neurona | DotCSV | `Neural Networks`"
     !!! info "Architectural Summary"
         This video deconstructs the foundational mathematical and algorithmic mechanics of a single artificial neuron, illustrating its direct relationship with linear regression, weights, biases, and activation functions. In a 2026 cloud-native landscape, mastering these core neural principles is critical for platform architects optimizing distributed micro-models and real-time AI inference engines deployed on Kubernetes-driven edge and cloud infrastructure. This granular understanding enables more efficient hardware acceleration profiling (GPUs/vGPUs/TPUs) and smarter resource allocation for decentralized machine learning pipelines.
@@ -183,6 +193,16 @@ Welcome to the **Agentic Video Hub**. This section presents a logical, architect
 
     </center>
 
+??? note "🎬 GitOps Guide to the Galaxy: Hosted Control Planes (HyperShift) | `Hosted Control Planes`"
+    !!! info "Architectural Summary"
+        This session from the GitOps Guide to the Galaxy deconstructs the architecture of Hosted Control Planes (HCP), also known as HyperShift. It explores how HCP decouples the Kubernetes control plane from worker nodes, hosting it as a scalable workload on a management cluster to drastically reduce operational overhead, improve provisioning speed, and optimize resource utilization. For 2026 platform engineering, mastering this pattern is essential for managing large-scale, multi-tenant Kubernetes fleets with high-density efficiency and strong isolation.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/LiSb82Lug7M" title="GitOps Guide to the Galaxy: Hosted Control Planes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
 ??? note "🎬 The Brutal Truth Behind Tech Layoffs | `FinOps`"
     !!! info "Architectural Summary"
         This analysis dissects the macroeconomic shift from hyper-growth talent hoarding to hyper-efficiency, highlighting the systemic collapse of bloated engineering teams in favor of lean, automated operations. For a 2026 cloud-native landscape, this underscores the critical role of platform engineering and robust FinOps architectures designed to maximize resource utilization while minimizing human-in-the-loop operational overhead. Architects must leverage these insights to build self-healing, highly automated platforms that successfully decouple organizational scale from headcount.
@@ -211,16 +231,6 @@ Welcome to the **Agentic Video Hub**. This section presents a logical, architect
     <center markdown="1">
 
     <iframe width="720" height="405" src="https://www.youtube.com/embed/318elIq37PE" title="Kubernetes: The Documentary [PART 2]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
-
-    </center>
-
-??? note "🎬 Kubernetes: The Documentary | `Kubernetes`"
-    !!! info "Architectural Summary"
-        This video series explores the architectural origins of Kubernetes, detailing its transition from Google's centralized Borg system to an open, extensible, and API-driven control plane. Understanding these foundational distributed systems patterns is crucial for platform engineers in 2026 to effectively design resilient, multi-cluster orchestration strategies.
-
-    <center markdown="1">
-
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?si=zdATyq_E2wXN7AC6&amp;list=PLbMP1JcGBmSGKO8UreWpOBOhCqilejhtd" title="Kubernetes: The Documentary" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
