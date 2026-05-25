@@ -57,6 +57,8 @@ theme:
         font_family: "Inter"
       custom_dir: "docs/images/"
       logo: favicon-ultra.png
+  - redirects:
+      redirect_maps: {}
 
 extra:
   social:
