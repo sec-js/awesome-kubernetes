@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.3.2]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.2) - 2026-05-25
+
+### Changed
+- **Hybrid Sync Standardization**: Unified navigation labels and URLs across `v2-mkdocs.yml` and `src/v2_optimizer.py`. The "Back to V1" link now consistently points to the domain root to leverage SEO-protected legacy paths.
+
+## [[2.3.1]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.1) - 2026-05-25
+
+### Fixed
+- **Deployment Resilience**: Resolved a recursive copy error in the GitHub Pages deployment workflow by implementing a temporary staging area for the V1 build process.
+
+## [[2.3.0]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.0) - 2026-05-25
+
+### Added
+- **Hybrid SEO-First Architecture**: Implemented a sophisticated dual-version deployment strategy. V1 is restored to the domain root (`/`) to preserve 6+ years of SEO authority and deep-links, while a root-level redirect guides human traffic to the modern V2 Elite Portal at `/v2/`.
+
 ## [[2.2.4]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.2.4) - 2026-05-25
 
 ### Changed
