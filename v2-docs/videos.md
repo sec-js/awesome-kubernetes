@@ -52,6 +52,16 @@ Welcome to the **Agentic Video Hub**. This section presents a logical, architect
 
     </center>
 
+??? note "🎬 Mastering Claude Code in 30 minutes | `Claude Code`"
+    !!! info "Architectural Summary"
+        This technical session explores the architecture and implementation of Claude Code, Anthropic's agentic CLI designed for autonomous, multi-step engineering tasks. It details how the tool leverages the Model Context Protocol (MCP) to integrate with external data sources and documentation, enabling a self-healing development cycle where the agent autonomously reads code, executes shell commands, and iterates through test-driven development (TDD) loops. For 2026 platform engineers, mastering these agentic workflows is critical for scaling complex refactoring, managing cognitive load in large-scale repositories, and establishing robust human-in-the-loop (HITL) governance for AI-driven infrastructure operations.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/6eBSHbLKuN0" title="Mastering Claude Code in 30 minutes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
 ## Architecture and Cloud Strategy
 ??? note "🎬 Kubernetes for SysAdmins | Kelsey Hightower at PuppetConf | Talk & Demo | `Kubernetes`"
     !!! info "Architectural Summary"
@@ -193,6 +203,26 @@ Welcome to the **Agentic Video Hub**. This section presents a logical, architect
 
     </center>
 
+??? note "🎬 GitOps Guide to the Galaxy | `GitOps`"
+    !!! info "Architectural Summary"
+        Every other Thursday at 3pm ET hosts Hilliary Lipsig and Jonathan Rickard dive into everything in the GitOps universe, from solutions to common problems in end-to-end CICD pipelines, to creating Git workflows. This series explores how GitOps enhances modern application delivery and discusses the latest news around best practices and Cloud Native architecture.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?si=zdATyq_E2wXN7AC6&amp;list=PLbMP1JcGBmSGKO8UreWpOBOhCqilejhtd" title="GitOps Guide to the Galaxy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 GitOps Guide to the Galaxy: Hosted Control Planes (HyperShift) | `Hosted Control Planes`"
+    !!! info "Architectural Summary"
+        This session from the GitOps Guide to the Galaxy deconstructs the architecture of Hosted Control Planes (HCP), also known as HyperShift. It explores how HCP decouples the Kubernetes control plane from worker nodes, hosting it as a scalable workload on a management cluster to drastically reduce operational overhead, improve provisioning speed, and optimize resource utilization. For 2026 platform engineering, mastering this pattern is essential for managing large-scale, multi-tenant Kubernetes fleets with high-density efficiency and strong isolation.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/LiSb82Lug7M" title="GitOps Guide to the Galaxy: Hosted Control Planes (HyperShift)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
 ## Fundamentals and Documentaries
 ??? note "🎬 Kubernetes: The Documentary [PART 1] | `Kubernetes`"
     !!! info "Architectural Summary"
@@ -211,16 +241,6 @@ Welcome to the **Agentic Video Hub**. This section presents a logical, architect
     <center markdown="1">
 
     <iframe width="720" height="405" src="https://www.youtube.com/embed/318elIq37PE" title="Kubernetes: The Documentary [PART 2]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
-
-    </center>
-
-??? note "🎬 Kubernetes: The Documentary | `Kubernetes`"
-    !!! info "Architectural Summary"
-        This video series explores the architectural origins of Kubernetes, detailing its transition from Google's centralized Borg system to an open, extensible, and API-driven control plane. Understanding these foundational distributed systems patterns is crucial for platform engineers in 2026 to effectively design resilient, multi-cluster orchestration strategies.
-
-    <center markdown="1">
-
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?si=zdATyq_E2wXN7AC6&amp;list=PLbMP1JcGBmSGKO8UreWpOBOhCqilejhtd" title="Kubernetes: The Documentary" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 

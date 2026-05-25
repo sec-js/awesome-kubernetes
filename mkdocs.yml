@@ -11,7 +11,7 @@ edit_uri: ""
 theme:
   name: material
   prev_next_buttons_location: both
-  favicon: images/favicon-car.png
+  favicon: images/favicon-modern.png
   icon:
     logo: logo
     repo: fontawesome/brands/github
@@ -52,6 +52,11 @@ plugins:
   - privacy
   - social:
       cards: true
+      cards_layout_options:
+        background_color: "#263238"
+        font_family: "Inter"
+      custom_dir: "docs/images/"
+      logo: favicon-car-modern.png
 extra_css:
   - static/extra.css
 extra_javascript:
