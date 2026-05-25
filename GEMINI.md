@@ -245,11 +245,14 @@ To maintain the integrity of the archive and ensure the AI agents operate correc
 
 1.  **Branch Hierarchy**:
     *   `master`: Read-only for contributors/bots. Restricted to repository owner only.
-    *   `develop`: The only valid target for Pull Requests.
-2.  **Pull Request Policy**:
-    *   AI agents MUST always target `develop`.
-    *   Manual contributions (human PRs) targeting `master` must be automatically or manually redirected to `develop`.
-3.  **Owner-Only Merges**: Only the repository owner has the authority to merge `develop` into `master` after verifying the visual health dashboard and metrics.
+    *   `develop`: The only valid target for direct AI commits and Pull Requests.
+2.  **Strict Pull Request Policy (No Manual Merges)**:
+    *   AI agents MUST always target `develop` for their work.
+    *   AI agents MUST NEVER perform manual CLI merges (e.g., `git merge develop`) into `master` or `main`.
+    *   To promote changes to `master`, AI agents MUST open a formal Pull Request from `develop` to `master` (e.g., using `gh pr create`) and **STOP**, waiting for the repository owner to review and merge via the GitHub UI. This ensures CI/CD workflows run correctly.
+3.  **Owner-Only Merges & Tagging**:
+    *   Only the repository owner has the authority to merge `develop` into `master` after verifying the visual health dashboard and metrics.
+    *   Creation of version tags (`git tag`) MUST only occur AFTER the PR has been successfully merged into `master` by the owner.
 
 ## 📝 README Synchronization & Maintenance Protocols
 
