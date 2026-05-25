@@ -1,7 +1,7 @@
 # Machine Learning Ops (MLOps) and Data Science
 
 !!! info "Architectural Context"
-    Detailed reference for Machine Learning Ops (MLOps) and Data Science in the context of AI and Artificial Intelligence.
+    Detailed reference for Machine Learning Ops (MLOps) and Data Science in the context of AI.
 
 ## Standard Reference
 

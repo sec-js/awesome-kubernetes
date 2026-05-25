@@ -24,7 +24,7 @@ special_assets:
 
 # Navigation Renaming
 dimension_renaming:
-  "Intelligent Control Plane": "AI and Artificial Intelligence"
+  "Intelligent Control Plane": "AI"
 
 # Advanced Classification Rules for V2
 v2_learning_paths:

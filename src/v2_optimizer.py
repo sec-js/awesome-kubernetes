@@ -31,7 +31,7 @@ class V2VisionEngine:
         
         # 100% Comprehensive 2026 Taxonomy
         self.dimensions = {
-            "AI and Artificial Intelligence": ["ai", "ai-agents-mcp", "chatgpt", "mlops"],
+            "AI": ["ai", "ai-agents-mcp", "chatgpt", "mlops"],
             "Architectural Foundations": ["introduction", "faq", "kubernetes", "linux", "git", "cloud-arch-diagrams", "matrix-table", "other-awesome-lists", "about"],
             "Platform & Site Reliability": ["sre", "devops", "developerportals", "scaffolding", "finops", "chaos-engineering", "performance-testing-with-jenkins-and-jmeter", "project-management-methodology", "project-management-tools", "qa", "test-automation-frameworks", "testops"],
             "Hardened Infrastructure": ["iac", "terraform", "pulumi", "crossplane", "ansible", "securityascode", "kubernetes-security", "aws-security", "oauth", "devsecops", "kustomize", "liquibase", "chef"],
@@ -747,7 +747,7 @@ class V2VisionEngine:
         index_md = (
             "# Nubenetes Elite Portal (V2) | Awesome Kubernetes & Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)\n\n"
             "<center markdown=\"1\">\n"
-            "[![Banner](images/kubernetes_logo.png)](https://kubernetes.io)\n"
+            "[![Kubernetes Logo](images/kubernetes_logo.png)](https://kubernetes.io) &nbsp; [![Nubenetes Introduction](images/favicon-car-modern.png)](./introduction.md)\n"
             "</center>\n\n"
             "\"I do not believe you can do today's job with yesterday's methods and be in business tomorrow\" ([Horatio Nelson Jackson](https://en.wikipedia.org/wiki/Horatio_Nelson_Jackson))\n"
             "<center markdown=\"1\">\n\n"
