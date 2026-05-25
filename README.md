@@ -1001,7 +1001,7 @@ To maintain transparency and ease of navigation, all key configuration, database
 - **Link Rules:** [`data/link_rules.yaml`](data/link_rules.yaml) - Defines strictness for URL transformations and deep-link preservation.
 - **Curation Sources:** [`data/curation_sources.yaml`](data/curation_sources.yaml) - Defines monitored X.com accounts and technical topics.
 - **Special Assets:** [`data/special_assets.yaml`](data/special_assets.yaml) - VIP logic orchestration.
-- **Site Config:** [V1 (mkdocs.yml)](mkdocs.yml), [V2 (v2-mkdocs.yml)](v2-mkdocs.yml).
+- **Site Config:** [V1 (mkdocs.yml)](mkdocs.yml), [V2 (v2-mkdocs.yml)](v2-mkdocs.yml). Uses `favicon-ultra.png` for visibility and `hero-car.png` for branding.
 
 ### 13.2. Centralized Metadata Databases
 - **Global Inventory:** [`data/inventory.yaml`](data/inventory.yaml) - The "System Memory" containing all link metadata (years, stars, descriptions, and audit history).
@@ -1083,3 +1083,4 @@ The technical resources (links, articles, videos) curated in this archive are th
 
 ### 15.3. Legal Disclaimer
 The information provided in this repository is for educational and professional reference purposes only. While our Agentic AI ensures high-fidelity curation, users should verify production configurations against official vendor documentation (AWS, Red Hat, CNCF) before deployment.
+r educational and professional reference purposes only. While our Agentic AI ensures high-fidelity curation, users should verify production configurations against official vendor documentation (AWS, Red Hat, CNCF) before deployment.

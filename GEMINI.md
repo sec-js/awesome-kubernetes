@@ -360,15 +360,14 @@ The bot must rotate between profiles to avoid detection:
     - **Announce Banner**: Added a global announcement banner to V1 directing users to the V2 Elite Portal.
     - **Resilient Architectural Refinements (Phase 2)**:
         - **Fast-Track V2 Elite Builder**: Optimized the builder to run sequentially for maximum stability and simplicity, bypassing the overhead of distributed systems.
-        - **Pip Caching**: Implemented `cache: pip` across all 5 workflows to drastically reduce startup times and compute minutes.
-        - **Contribution Template (PR Guardian)**: Enforced strict GEMINI mandate compliance at the PR creation stage via `PULL_REQUEST_TEMPLATE.md`.
-        - **Exponential Backoff Resilience**: Upgraded the `call_gemini_with_retry` engine with the `tenacity` library, allowing intelligent pausing (4s, 8s, 16s) to gracefully absorb 429 Rate Limits before triggering the ultimate exit code 42 Circuit Breaker.
-        - **Ultra-Fast V2 Render Mode**: Optimized the `render-and-pr` stage of the V2 pipeline (`--render-only`) to implement an absolute short-circuit, completely bypassing redundant HTTP health checks, GitHub API metadata fetching, and AI agent evaluation loops. This leverages the pre-computed YAML inventory to assemble the portal instantaneously.
-        - **Flash-First Architecture Transition (May 2026)**:
-            - **Throughput Optimization**: Successfully transitioned to a Flash-First architecture, increasing Fast-Track batch sizes to 100 resources.
-            - **Resilience Hardening**: Improved error handling to ensure Rate-Limit (429) events trigger the Circuit Breaker instead of silent loops, preserving API integrity.
-            - **Efficiency Gains**: Reduced expected execution time for 10k+ resources by >60% through optimized RPM/TPM management and strategic safety delays.
-
+        - **Workflow Hardening (Race Condition Fix)**: Implemented a mandatory `git pull --rebase` strategy across all automated bots to prevent concurrent push failures.
+        - **Ultra-Visible Branding**: Standardized on a minimalist Cyan "N" favicon (`favicon-ultra.png`) and restored the original hero car imagery to the V2 index.
+        - **O'Reilly Journey Builder**: Refined the O'Reilly-style technical hierarchy in the V2 portal to ensure a logical knowledge progression from foundations to advanced internals.
+        - **Platinum SEO Mitigation**: Implemented a "Smart 404" rescue system and root-to-subdirectory migration logic for the V2/V1 transition.
+        *   **May 2026**: **Site-Wide Architecture Promotion**:
+        - **V2 at Root**: Promoted the Elite Portal to the domain root (`/`) and moved the archive to `/v1/`.
+        - **Direct-Push Automation**: Refactored workflows to push directly to `develop` using `[skip ci]`, removing PR noise for derived content.
+        - **Artifact-Based Auditing**: Shifted architecture reports to GitHub Artifacts for cleaner project history.
 
 - **V2 Index Metrics Protocol**: The "Knowledge Architecture and AI Coverage Status" report in the V2 index MUST include a direct comparison between V1 and V2 inventory. This report MUST display: 1. **V1 Base Inventory** (Total resources in the master archive), 2. **V2 Elite Selection** (Count of candidates and the resulting density ratio), 3. **AI Enrichment Coverage**, and 4. **GitHub Metadata Coverage**. This ensures transparency in the knowledge distillation process.
 - **Redundancy-Free Branding**: To ensure professional UI density, the V2 Portal header MUST NOT repeat the "Nubenetes" brand. The title MUST follow the pattern: "Nubenetes Elite Portal (V2) | Awesome Kubernetes and Cloud".

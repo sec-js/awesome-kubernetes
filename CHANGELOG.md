@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.2.4]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.2.4) - 2026-05-25
+
+### Changed
+- **Governance & Documentation Sync**: Performed a comprehensive update of `README.md`, `GEMINI.md`, and local session memory to reflect the new architectural standards (V2 at Root), workflow hardening (rebase resilience), and mandatory PR-based governance for production deployments.
+
 ## [[2.2.3]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.2.3) - 2026-05-25
 
 ### Fixed
