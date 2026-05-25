@@ -342,10 +342,11 @@ Nubenetes operates with two distinct editions to serve different engineering nee
 - **Purpose:** Preservation of all technical knowledge since 2018.
 - **Scope:** 17,000+ links across 160+ pages.
 - **Source of Truth:** The `docs/` directory.
-- **Deployment:** [nubenetes.com](https://nubenetes.com)
+- **Deployment:** [nubenetes.com/v1/](https://nubenetes.com/v1/)
 
 ### 5.2. V2: The Agentic Elite Edition
 - **Purpose:** A high-density, enterprise-grade portal for the modern Cloud Native ecosystem (2026 and beyond).
+- **Default Experience:** Deployed as the primary landing page at the domain root.
 - **Algorithm:** Uses the **Incremental Elite Engine** to select and classify top-tier resources.
 - **Aesthetic:** "Cyber Cloud" styling (pure black backgrounds, neon cyan accents, advanced glassmorphism).
 - **Visual Standards (Elite Hierarchy):**
@@ -903,10 +904,10 @@ graph LR
     B --> D["V2 Vision Engine"]
     B --> Z["README Sync"]
     D --> E["V2 Update (develop)"]
-    E --> M["Sync to 'master'"]
-    M --> C["Pip Cache & CI/CD Build"]
+    M["Sync to 'master'"] --> C["Pip Cache & CI/CD Build"]
     C --> F["Upload Pages Artifact"]
-    F --> G["Native Deploy to nubenetes.com"]
+    F --> G["Native Deploy to nubenetes.com (V2) and /v1/ (Archive)"]
+    Z --> B
     Z --> B
 ```
 
