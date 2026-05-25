@@ -1,7 +1,7 @@
 # ChatGPT
 
 !!! info "Architectural Context"
-    Detailed reference for ChatGPT in the context of AI and Artificial Intelligence.
+    Detailed reference for ChatGPT in the context of AI.
 
 ## Standard Reference
 

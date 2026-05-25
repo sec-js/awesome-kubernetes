@@ -53,7 +53,7 @@
 ## Strategic Dimensions
 - **[🎥 Agentic Video Hub (Architectural Summary)](./videos.md)**
 
-### AI and Artificial Intelligence
+### AI
 - **[AI Agents MCP](./ai-agents-mcp.md)**
 - **[AI](./ai.md)**
 - **[ChatGPT](./chatgpt.md)**

@@ -31,7 +31,7 @@ class V2VisionEngine:
         
         # 100% Comprehensive 2026 Taxonomy
         self.dimensions = {
-            "AI and Artificial Intelligence": ["ai", "ai-agents-mcp", "chatgpt", "mlops"],
+            "AI": ["ai", "ai-agents-mcp", "chatgpt", "mlops"],
             "Architectural Foundations": ["introduction", "faq", "kubernetes", "linux", "git", "cloud-arch-diagrams", "matrix-table", "other-awesome-lists", "about"],
             "Platform & Site Reliability": ["sre", "devops", "developerportals", "scaffolding", "finops", "chaos-engineering", "performance-testing-with-jenkins-and-jmeter", "project-management-methodology", "project-management-tools", "qa", "test-automation-frameworks", "testops"],
             "Hardened Infrastructure": ["iac", "terraform", "pulumi", "crossplane", "ansible", "securityascode", "kubernetes-security", "aws-security", "oauth", "devsecops", "kustomize", "liquibase", "chef"],

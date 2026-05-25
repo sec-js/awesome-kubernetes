@@ -1,7 +1,7 @@
 # Artificial Intelligence
 
 !!! info "Architectural Context"
-    Detailed reference for Artificial Intelligence in the context of AI and Artificial Intelligence.
+    Detailed reference for Artificial Intelligence in the context of AI.
 
 ## Standard Reference
 

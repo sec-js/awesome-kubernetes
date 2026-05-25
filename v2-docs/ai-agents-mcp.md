@@ -1,7 +1,7 @@
 # AI Agents and Model Context Protocol (MCP) for Kubernetes
 
 !!! info "Architectural Context"
-    Detailed reference for AI Agents and Model Context Protocol (MCP) for Kubernetes in the context of AI and Artificial Intelligence.
+    Detailed reference for AI Agents and Model Context Protocol (MCP) for Kubernetes in the context of AI.
 
 ## Standard Reference
 
