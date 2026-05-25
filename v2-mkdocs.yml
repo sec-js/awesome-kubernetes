@@ -1,5 +1,5 @@
 site_name: "Nubenetes V2 | The AI's Cut"
-site_url: "https://nubenetes.com/v2/"
+site_url: "https://nubenetes.com/"
 site_description: "Enterprise-grade curated portal for the modern Cloud Native ecosystem. High-density, AI-driven selection of top-tier resources."
 site_author: "Nubenetes"
 copyright: "Copyright &copy; 2026 Nubenetes Agentic Intelligence"
@@ -94,7 +94,7 @@ markdown_extensions:
   - pymdownx.mark
 
 nav:
-  - "🔙 Back to V1 (Exhaustive)": https://nubenetes.com/
+  - "🔙 Back to V1 (Exhaustive Archive)": https://nubenetes.com/v1/
   - "The 2026 Vision": index.md
   - "Agentic Video Hub": videos.md
   - "AI":

@@ -1,5 +1,5 @@
 site_name: Nubenetes
-site_url: https://nubenetes.com
+site_url: https://nubenetes.com/v1/
 site_description: A curated list of awesome IT projects and resources. Inspired by the awesome list.
 site_author: "Nubenetes"
 docs_dir: docs/
@@ -99,7 +99,7 @@ markdown_extensions:
   - abbr
   - def_list
 nav:
-  - "🚀 Try Nubenetes V2 (Elite)": https://nubenetes.com/v2/
+  - "🚀 Try Nubenetes V2 (Elite Portal)": https://nubenetes.com/
   - Home: index.md
   - Intro:
     - Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes: introduction.md
@@ -294,7 +294,7 @@ nav:
 copyright: 2026 <a href="https://twitter.com/nubenetes">Nubenetes</a>, <a href="https://nubenetes.com/about/">about</a>.
 extra:
   announce: >-
-    <b>🚀 New!</b> Discover the <a href="https://nubenetes.com/v2/"><b>V2 Elite Portal</b></a> featuring the most premium resources and a renewed design.
+    <b>🚀 New!</b> Discover the <a href="https://nubenetes.com/"><b>V2 Elite Portal</b></a> featuring the most premium resources and a renewed design.
   analytics:
     provider: google
     property: !ENV GOOGLE_ANALYTICS_KEY

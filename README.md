@@ -358,7 +358,7 @@ Nubenetes operates with two distinct editions to serve different engineering nee
 - **Semantic Cross-Linking:** The portal autonomously identifies and links related categories within the same strategic dimension (e.g., suggesting `Flux` when reading about `Argo`), creating a cohesive **Industrial Knowledge Graph**.
 - **Executive Context**: Every strategic dimension features an AI-generated **State-of-the-Art Introduction** providing high-level architectural context and industry direction before the link listings.
 - **Source of Truth:** The `v2-docs/` directory (Derived from V1).
-- **Deployment:** [nubenetes.com/v2/](https://nubenetes.com/v2/)
+- **Deployment:** [nubenetes.com/](https://nubenetes.com/)
 
 ### 5.3. Architecture Comparison Matrix: V1 vs. V2
 To better understand the dual-nature of the project, the following matrix details the technical and philosophical differences between the two editions:

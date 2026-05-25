@@ -35,13 +35,13 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      # 1. Build V1 (Root)
-      - name: Build V1 Edition
-        run: mkdocs build -f mkdocs.yml -d site/
-
-      # 2. Build V2 (Subdirectory)
+      # 1. Build V2 (Root)
       - name: Build V2 Elite Edition
-        run: mkdocs build -f v2-mkdocs.yml -d site/v2/
+        run: mkdocs build -f v2-mkdocs.yml -d site/
+
+      # 2. Build V1 (Subdirectory)
+      - name: Build V1 Edition
+        run: mkdocs build -f mkdocs.yml -d site/v1/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.2.1]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.2.1) - 2026-05-25
+
+### Changed
+- **Default Landing Page (V2 at Root)**: Promoted the Nubenetes Elite Portal (V2) to the root of the domain (`https://nubenetes.com/`) to provide a modern, AI-curated default experience.
+- **V1 Archive Relocation**: Moved the exhaustive V1 archive to the `/v1/` subdirectory (`https://nubenetes.com/v1/`).
+- **Navigation Synchronization**: Updated all navigation links and announce banners across both versions to ensure seamless switching between the Elite Portal and the Exhaustive Archive.
+- **Workflow Realignment**: Reconfigured the GitHub Pages deployment pipeline to support the new directory structure while maintaining zero-downtime synchronization.
+
 ## [[2.2.0]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.2.0) - 2026-05-25
 
 ### Fixed
