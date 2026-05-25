@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.1.2]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.1.2) - 2026-05-25
+
+### Added
+- **Visual Branding Expansion**: Integrated **ITOpsTalk** (Microsoft Azure) and **Google Cloud Tech** official channels into the visual branding mosaic in both V1 and V2 index pages.
+- **Architectural Theory Integration**: Added the "What is Architecture?" conceptual deep-dive to the V2 Elite Video Hub, providing foundational design patterns for cloud-native architects.
+
 ## [[2.1.1]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.1.1) - 2026-05-25
 
 ### Added
