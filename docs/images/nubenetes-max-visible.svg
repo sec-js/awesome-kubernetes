@@ -1,0 +1,14 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <!-- Solid Black Background for Maximum Contrast (X.com Style) -->
+  <rect width="256" height="256" fill="#000000"/>
+  
+  <!-- Ultra-Bold "N" (Nubenetes) designed for 16x16 clarity -->
+  <g fill="#00E5FF">
+    <!-- Left Vertical Bar -->
+    <rect x="20" y="20" width="65" height="216"/>
+    <!-- Right Vertical Bar -->
+    <rect x="171" y="20" width="65" height="216"/>
+    <!-- Massive Diagonal -->
+    <path d="M20 20 L85 20 L236 236 L171 236 Z"/>
+  </g>
+</svg>
