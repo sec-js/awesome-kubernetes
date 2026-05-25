@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - **Visual Branding Expansion**: Integrated **ITOpsTalk** (Microsoft Azure) and **Google Cloud Tech** official channels into the visual branding mosaic in both V1 and V2 index pages.
-- **Architectural Theory Integration**: Added the "What is Architecture?" conceptual deep-dive to the V2 Elite Video Hub, providing foundational design patterns for cloud-native architects.
+- **Azure Verified Modules (AVM) Integration**: Added the technical session on building secure Azure workloads using AVM and GitHub Copilot to the V2 Elite Video Hub. The summary highlights spec-driven development and the "Spec Kit" framework for reliable AI-assisted IaC.
 
 ## [[2.1.1]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.1.1) - 2026-05-25
 
