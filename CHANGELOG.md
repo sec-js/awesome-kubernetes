@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.2.2]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.2.2) - 2026-05-25
+
+### Added
+- **SEO Mitigation (Smart 404)**: Implemented a custom 404 page in the V2 portal (`404.md`) to guide users from broken historical links to the new V1 archive location.
+- **HTML Redirects**: Integrated the `mkdocs-redirects` plugin and configured 301-style HTML redirects for the top 12 legacy URLs, preserving search engine authority and user experience during the root migration.
+
 ## [[2.2.1]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.2.1) - 2026-05-25
 
 ### Changed

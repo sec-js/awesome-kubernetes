@@ -57,6 +57,20 @@ theme:
         font_family: "Inter"
       custom_dir: "docs/images/"
       logo: favicon-ultra.png
+  - redirects:
+      redirect_maps:
+        'kubernetes.md': 'https://nubenetes.com/v1/kubernetes/'
+        'kubernetes-tools.md': 'https://nubenetes.com/v1/kubernetes-tools/'
+        'terraform.md': 'https://nubenetes.com/v1/terraform/'
+        'azure.md': 'https://nubenetes.com/v1/azure/'
+        'demos.md': 'https://nubenetes.com/v1/demos/'
+        'git.md': 'https://nubenetes.com/v1/git/'
+        'jenkins.md': 'https://nubenetes.com/v1/jenkins/'
+        'devsecops.md': 'https://nubenetes.com/v1/devsecops/'
+        'introduction.md': 'https://nubenetes.com/v1/introduction/'
+        'managed-kubernetes-in-public-cloud.md': 'https://nubenetes.com/v1/managed-kubernetes-in-public-cloud/'
+        'aws.md': 'https://nubenetes.com/v1/aws/'
+        'openshift.md': 'https://nubenetes.com/v1/openshift/'
 
 extra:
   social:
