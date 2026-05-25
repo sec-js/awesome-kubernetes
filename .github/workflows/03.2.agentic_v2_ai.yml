@@ -68,6 +68,7 @@ jobs:
             echo "No changes in AI analysis to commit."
           else
             git commit -m "chore: update inventory AI analysis [skip ci]"
+            git pull origin develop --rebase
             git push origin develop
           fi
 

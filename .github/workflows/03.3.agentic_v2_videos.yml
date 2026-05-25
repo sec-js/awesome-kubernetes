@@ -81,6 +81,7 @@ jobs:
             echo "No automated changes to commit."
           else
             git commit -m "docs: update Video Hub with high-fidelity metadata [skip ci]"
+            git pull origin develop --rebase
             git push origin develop
           fi
 
