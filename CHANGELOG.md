@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.1.8]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.1.8) - 2026-05-25
+
+### Fixed
+- **Configuration Integrity**: Fixed a YAML syntax error in `mkdocs.yml` (corrupted trailing line) that was causing GitHub Pages deployment failures.
+
 ## [[2.1.7]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.1.7) - 2026-05-25
 
 ### Changed
