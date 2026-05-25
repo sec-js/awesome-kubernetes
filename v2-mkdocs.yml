@@ -13,14 +13,14 @@ edit_uri: "edit/master/v2-docs/"
 theme:
   name: material
   language: en
-  favicon: images/favicon-modern.png
+  favicon: images/favicon-car-modern.png
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: custom
       accent: custom
       toggle:
-        icon: material/shield-outline
+        icon: material/shield-moon-outline
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -47,7 +47,7 @@ theme:
     - navigation.prune
     - toc.integrate
 
-plugins:
+  plugins:
   - search
   - privacy
   - social:
@@ -55,6 +55,8 @@ plugins:
       cards_layout_options:
         background_color: "#263238"
         font_family: "Inter"
+      custom_dir: "docs/images/"
+      logo: favicon-car-modern.png
 
 extra:
   social:
