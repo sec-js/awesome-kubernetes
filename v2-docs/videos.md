@@ -83,16 +83,6 @@ Welcome to the **Agentic Video Hub**. This section presents a logical, architect
 
     </center>
 
-??? note "🎬 What is Architecture? | `Architecture Theory`"
-    !!! info "Architectural Summary"
-        This conceptual deep-dive by Stewart Hicks explores the fundamental definition of architecture, framing it as the design of **inhabitable space** rather than mere form. It deconstructs the interaction between geometry, human experience, and social context. For a 2026 Cloud Architect, these principles are highly analogous to system design: where the "form" (containers, nodes) is secondary to the "space" (the functional void) where data flows and business logic resides. Understanding these first-principles of design aids in building more intuitive, human-centric, and socio-technically resilient digital platforms.
-
-    <center markdown="1">
-
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/QBqRAMVTmwE" title="What is Architecture?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
-
-    </center>
-
 ??? note "🎬 Thursday morning general session - May 9 - Red Hat Summit 2019 | `Red Hat OpenShift`"
     !!! info "Architectural Summary"
         This session outlines the architectural deployment of Red Hat OpenShift as a unified hybrid cloud platform, demonstrating how enterprise Kubernetes orchestrates complex workloads across multi-cloud and edge environments. It highlights critical integrations with GPU acceleration and AI/ML pipelines, establishing a robust blueprint for modern MLOps and scalable cloud-native operations.
@@ -240,6 +230,16 @@ Welcome to the **Agentic Video Hub**. This section presents a logical, architect
     <center markdown="1">
 
     <iframe width="720" height="405" src="https://www.youtube.com/embed/LiSb82Lug7M" title="GitOps Guide to the Galaxy: Hosted Control Planes (HyperShift)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 What is Architecture? | `Architecture Theory`"
+    !!! info "Architectural Summary"
+        This conceptual deep-dive by Stewart Hicks explores the fundamental definition of architecture, framing it as the design of inhabitable space rather than mere form. It deconstructs the interaction between geometry, human experience, and social context. For a 2026 Cloud Architect, these principles are highly analogous to system design: where the "form" (containers, nodes) is secondary to the "space" (the functional void) where data flows and business logic resides. Understanding these first-principles of design aids in building more intuitive, human-centric, and socio-technically resilient digital platforms.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/QBqRAMVTmwE" title="What is Architecture?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
