@@ -340,13 +340,14 @@ Nubenetes operates with two distinct editions to serve different engineering nee
 
 ### 5.1. V1: The Exhaustive Archive
 - **Purpose:** Preservation of all technical knowledge since 2018.
-- **Scope:** 17,000+ links across 160+ pages.
+- **SEO Guard:** Deployed at the domain root (`/`) to preserve 6+ years of historical backlinks and deep-links.
+- **Fallback Access:** Also available at [nubenetes.com/v1/](https://nubenetes.com/v1/).
 - **Source of Truth:** The `docs/` directory.
-- **Deployment:** [nubenetes.com/v1/](https://nubenetes.com/v1/)
 
 ### 5.2. V2: The Agentic Elite Edition
 - **Purpose:** A high-density, enterprise-grade portal for the modern Cloud Native ecosystem (2026 and beyond).
-- **Default Experience:** Deployed as the primary landing page at the domain root.
+- **Default Experience:** Deployed at `/v2/`.
+- **Root Redirection:** The root `index.html` automatically redirects human visitors to this portal.
 - **Algorithm:** Uses the **Incremental Elite Engine** to select and classify top-tier resources.
 - **Aesthetic:** "Cyber Cloud" styling (pure black backgrounds, neon cyan accents, advanced glassmorphism).
 - **Visual Standards (Elite Hierarchy):**
@@ -359,7 +360,7 @@ Nubenetes operates with two distinct editions to serve different engineering nee
 - **Semantic Cross-Linking:** The portal autonomously identifies and links related categories within the same strategic dimension (e.g., suggesting `Flux` when reading about `Argo`), creating a cohesive **Industrial Knowledge Graph**.
 - **Executive Context**: Every strategic dimension features an AI-generated **State-of-the-Art Introduction** providing high-level architectural context and industry direction before the link listings.
 - **Source of Truth:** The `v2-docs/` directory (Derived from V1).
-- **Deployment:** [nubenetes.com/](https://nubenetes.com/)
+- **Deployment:** [nubenetes.com/v2/](https://nubenetes.com/v2/)
 
 ### 5.3. Architecture Comparison Matrix: V1 vs. V2
 To better understand the dual-nature of the project, the following matrix details the technical and philosophical differences between the two editions:
@@ -906,7 +907,8 @@ graph LR
     D --> E["V2 Update (develop)"]
     M["Sync to 'master'"] --> C["Pip Cache & CI/CD Build"]
     C --> F["Upload Pages Artifact"]
-    F --> G["Native Deploy to nubenetes.com (V2) and /v1/ (Archive)"]
+    F --> G["Native Deploy: V1 (Root/SEO), V2 (/v2/), V1 Fallback (/v1/)"]
+    G --> H["Inject Root Redirect to /v2/"]
     Z --> B
     Z --> B
 ```

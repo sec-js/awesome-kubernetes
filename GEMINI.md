@@ -363,12 +363,12 @@ The bot must rotate between profiles to avoid detection:
         - **Workflow Hardening (Race Condition Fix)**: Implemented a mandatory `git pull --rebase` strategy across all automated bots to prevent concurrent push failures.
         - **Ultra-Visible Branding**: Standardized on a minimalist Cyan "N" favicon (`favicon-ultra.png`) and restored the original hero car imagery to the V2 index.
         - **O'Reilly Journey Builder**: Refined the O'Reilly-style technical hierarchy in the V2 portal to ensure a logical knowledge progression from foundations to advanced internals.
-        - **Platinum SEO Mitigation**: Implemented a "Smart 404" rescue system and root-to-subdirectory migration logic for the V2/V1 transition.
-        *   **May 2026**: **Site-Wide Architecture Promotion**:
-        - **V2 at Root**: Promoted the Elite Portal to the domain root (`/`) and moved the archive to `/v1/`.
-        - **Direct-Push Automation**: Refactored workflows to push directly to `develop` using `[skip ci]`, removing PR noise for derived content.
-        - **Artifact-Based Auditing**: Shifted architecture reports to GitHub Artifacts for cleaner project history.
-
+        - **Platinum SEO Mitigation**: Implemented a "Smart 404" rescue system and a **Hybrid SEO-First Architecture** that preserves V1 at the root while redirecting human traffic to the V2 Elite Portal.
+        *   **May 2026**: **Hybrid SEO-First Architecture Reversion**:
+        - **V1 Restoration (Root)**: Restored the V1 Archive to the root (`/`) to protect historical deep-links and SEO authority.
+        - **V2 Relocation (/v2/)**: Moved the Elite Portal to a dedicated subdirectory.
+        - **Smart Root Redirect**: Implemented an automatic meta-refresh in the root `index.html` to guide human visitors to the V2 experience without breaking search engine indices.
+        - **V1 Fallback (/v1/)**: Duplicated the archive to `/v1/` for explicit navigation.
 - **V2 Index Metrics Protocol**: The "Knowledge Architecture and AI Coverage Status" report in the V2 index MUST include a direct comparison between V1 and V2 inventory. This report MUST display: 1. **V1 Base Inventory** (Total resources in the master archive), 2. **V2 Elite Selection** (Count of candidates and the resulting density ratio), 3. **AI Enrichment Coverage**, and 4. **GitHub Metadata Coverage**. This ensures transparency in the knowledge distillation process.
 - **Redundancy-Free Branding**: To ensure professional UI density, the V2 Portal header MUST NOT repeat the "Nubenetes" brand. The title MUST follow the pattern: "Nubenetes Elite Portal (V2) | Awesome Kubernetes and Cloud".
 - **Decoupled Workflow Architecture**: The Agentic V2 ecosystem MUST utilize a decoupled micro-workflow structure (Health Monitor, Metadata Engine, AI Curator, and Publisher) to optimize compute quotas and minimize Gemini token consumption. Any update to the V2 rendering logic MUST use the `--render-only` flag in the Publisher pipeline to maintain execution speed.

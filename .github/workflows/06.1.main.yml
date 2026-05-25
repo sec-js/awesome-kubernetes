@@ -35,13 +35,34 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      # 1. Build V2 (Root)
-      - name: Build V2 Elite Edition
-        run: mkdocs build -f v2-mkdocs.yml -d site/
-
-      # 2. Build V1 (Subdirectory)
+      # 1. Build V1 (Root) - Preserves all legacy links for SEO
       - name: Build V1 Edition
-        run: mkdocs build -f mkdocs.yml -d site/v1/
+        run: mkdocs build -f mkdocs.yml -d site/
+
+      # 2. Build V2 Elite Edition (/v2/)
+      - name: Build V2 Elite Edition
+        run: mkdocs build -f v2-mkdocs.yml -d site/v2/
+
+      # 3. Duplicate V1 to /v1/ - Provides an explicit path to the exhaustive archive
+      - name: Duplicate V1 to /v1/
+        run: cp -r site/ site/v1/
+
+      # 4. Inject Root Redirect to V2 - Human visitors land on V2 by default
+      - name: Inject Root Redirect to V2
+        run: |
+          cat << 'EOF' > site/index.html
+          <!DOCTYPE html>
+          <html>
+            <head>
+              <meta charset="utf-8">
+              <title>Nubenetes Redirect</title>
+              <meta http-equiv="refresh" content="0; url=/v2/">
+            </head>
+            <body>
+              <p>Redirecting to the V2 Elite Portal. <a href="/v2/">Click here</a>.</p>
+            </body>
+          </html>
+          EOF
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
