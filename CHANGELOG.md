@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.2.3]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.2.3) - 2026-05-25
+
+### Fixed
+- **Redirect Collision Resolution**: Removed conflicting HTML redirects in the V2 portal that were blocking access to new Elite content with the same filenames as legacy pages.
+- **SEO Mitigation Refinement**: Shifted to a "Smart 404" only strategy for the root domain, ensuring that URLs like `kubernetes.html` serve the updated V2 content while missing legacy links are elegantly handled by the custom 404 page.
+
 ## [[2.2.2]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.2.2) - 2026-05-25
 
 ### Added
