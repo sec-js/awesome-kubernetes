@@ -11,7 +11,7 @@ edit_uri: ""
 theme:
   name: material
   prev_next_buttons_location: both
-  favicon: images/favicon-modern.png
+  favicon: images/favicon-ultra.png
   icon:
     logo: logo
     repo: fontawesome/brands/github
@@ -56,7 +56,7 @@ plugins:
         background_color: "#263238"
         font_family: "Inter"
       custom_dir: "docs/images/"
-      logo: favicon-car-modern.png
+      logo: favicon-ultra.png
 extra_css:
   - static/extra.css
 extra_javascript:
@@ -334,3 +334,4 @@ extra:
       link: https://twitter.com/redhatspain
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/groups/1937212/
+12/

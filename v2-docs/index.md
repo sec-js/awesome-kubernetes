@@ -1,7 +1,7 @@
 # Nubenetes Elite Portal (V2) | Awesome Kubernetes & Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 <center markdown="1">
-[![Kubernetes Logo](images/kubernetes_logo.png)](https://kubernetes.io) &nbsp; [![Nubenetes Introduction](images/favicon-car-modern.png)](./introduction.md)
+[![Kubernetes Logo](images/kubernetes_logo.png)](https://kubernetes.io) &nbsp; [![Nubenetes Introduction](images/hero-car.png)](./introduction.md)
 </center>
 
 "I do not believe you can do today's job with yesterday's methods and be in business tomorrow" ([Horatio Nelson Jackson](https://en.wikipedia.org/wiki/Horatio_Nelson_Jackson))
