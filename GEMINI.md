@@ -345,7 +345,7 @@ The bot must rotate between profiles to avoid detection:
         - **OpenGraph Social Cards**: The V2 Portal MUST generate dynamic social sharing cards for every page using the `social` plugin to maximize ecosystem engagement.
         - **Dependency Guard (Dependabot)**: Automated monitoring of Python and GitHub Action dependencies is mandatory. Any security vulnerability MUST be addressed via prioritized bot-generated PRs.
 
-    - **AI and Artificial Intelligence Dimension**: Renamed from "Intelligent Control Plane" for better industry alignment.
+    - **AI Dimension**: Renamed from "Intelligent Control Plane" for better industry alignment.
     - **Zero-to-Hero Grouping**: Implemented complexity-based levels (Fundamentals to Architect) for high-density learning paths.
     - **Special Assets Logic**: Integrated data/special_assets.yaml to ensure exhaustive preservation of critical lists (Introduction, YAML, Awesome repos).
 *   **May 2026**: **Modernization of CI/CD, MkDocs Features, and UI (Cyber Cloud)**:
