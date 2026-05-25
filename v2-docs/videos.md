@@ -62,7 +62,7 @@ Welcome to the **Agentic Video Hub**. This section presents a logical, architect
 
     </center>
 
-??? note "🎬 Stanford CS229 | Machine Learning | Building Large Language Models (LLMs) | `LLM Architecture & Post-Training`"
+??? note "🎬 Stanford CS229: Building Large Language Models (LLMs) | `LLM Architecture & Post-Training`"
     !!! info "Architectural Summary"
         This Stanford CS229 technical deep-dive deconstructs the transition from raw autoregressive language models to instruction-tuned assistants, focusing on the systems orchestration required for 2026 AI infrastructure. It explores critical patterns in tokenization (BPE/Sub-word), parameter-efficient fine-tuning (PEFT/LoRA), and the shift from RLHF to Direct Preference Optimization (DPO) to simplify model alignment pipelines. For cloud architects, the lecture provides a foundational framework for optimizing the "Compute-to-Token" ratio and managing memory constraints (KV Cache) in distributed distributed inference environments, while advocating for LLM-as-a-Judge automated evaluation loops for scalable model governance.
 
