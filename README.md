@@ -762,7 +762,7 @@ Maintainers can manually trigger and tune workflows via the GitHub Actions UI. T
 | **04** | **Elite Portal** | [**04.1. V2 Publisher**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_publish.yml) | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
 | | | [**04.2. Emergency V2 PR Generator**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_pr_only.yml) | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
 | **05** | **Metrics** | [**05.1. README Automated Sync**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/readme_sync.yml) | N/A | ==AUTO== | Updates metrics and TOC upon `develop` push. |
-| **06** | **Deployment** | [**06.1. GitHub Pages Deploy**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/main.yml) | N/A | ==MASTER== | Native GH Pages deployment from stable artifacts. |
+| **06** | **Deployment** | [**06.1. Final Portal Deploy**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/06.deploy_final.yml) | N/A | ==MASTER== | Native GH Pages deployment from stable artifacts. |
 | **07** | **Quality Gate**| [**07.1. PR Guardian AI**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/pr_guardian.yml) | N/A | ==AUTO== | Agentic pre-submit validation for PR compliance. |
 | | | [**07.2. Markdown Linter**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/markdown_linter.yml) | N/A | ==AUTO== | Validates HMTL/Markdown syntax (ignores MD051/MD013). |
 | **08** | **Maintenance**| [**08.1. Branch Lifecycle Cleanup**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/cleanup_merged_branches.yml) | N/A | ==CRON== | Deletes remote branches merged into `develop`. |
@@ -1019,7 +1019,7 @@ To maintain transparency and ease of navigation, all key configuration, database
 - **04.1. V2 Publisher:** [**V2 Publisher**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_publish.yml) — Automatic V2 portal generation (Fast-Track rendering).
 - **04.2. Emergency PR Generator:** [**Emergency V2 PR Generator**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_pr_only.yml) — Data recovery off-ramp.
 - **05.1. README Metrics Sync:** [**README Automated Sync**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/readme_sync.yml) — Automatic TOC and metric synchronization.
-- **06.1. Deployment Pipeline:** [**GitHub Pages Deploy**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/main.yml) — Native GitHub Pages artifact deployment.
+- **06.1. Deployment Pipeline:** [**Final Portal Deploy**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/06.deploy_final.yml) — Native GitHub Pages artifact deployment (V1 Root / V2 Subdirectory).
 - **07.1. PR Guardian AI:** [**PR Guardian AI**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/pr_guardian.yml) — Agentic PR compliance auditor.
 - **07.2. Markdown Validator:** [**Markdown Linter**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/markdown_linter.yml) — Syntax and rendering safety gate.
 - **08.1. Branch Lifecycle:** [**Branch Lifecycle Cleanup**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/cleanup_merged_branches.yml) — Bi-monthly remote branch cleanup.

@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.3.6]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.6) - 2026-05-26
+
+### Changed
+- **Deployment Documentation Sync**: Updated `README.md` to reflect the new deployment workflow name ("06.1. Final Portal Deploy") and its stabilized trigger configuration.
+- **Workflow Stabilization**: Renamed the deployment workflow file to `06.deploy_final.yml` to resolve persistent GitHub trigger issues and ensure reliable production releases.
+
 ## [[2.3.5]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.5) - 2026-05-26
 
 ### Added
