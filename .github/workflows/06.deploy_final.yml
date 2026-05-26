@@ -1,4 +1,4 @@
-name: 06-1 Final Portal Deploy
+name: 06.1. Final Portal Deploy
 on:
   push:
     branches:
@@ -71,7 +71,7 @@ jobs:
           EOF
 
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
