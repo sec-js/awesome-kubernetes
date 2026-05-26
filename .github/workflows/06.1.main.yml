@@ -1,4 +1,4 @@
-name: 06.1. GitHub Pages Deploy
+name: 06.1. Final Portal Deploy
 on:
   push:
     branches:
@@ -13,7 +13,7 @@ permissions:
 
 # Allow only one concurrent deployment
 concurrency:
-  group: "pages"
+  group: "pages-final-v1"
   cancel-in-progress: false
 
 jobs:
