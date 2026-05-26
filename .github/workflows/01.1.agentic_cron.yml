@@ -85,12 +85,12 @@ jobs:
     # This job can now be triggered from any branch but will always checkout 'develop'
     steps:
       - name: Repository Synchronization
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: develop
 
       - name: Python 3.11 Environment Provisioning
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
           cache: 'pip'
