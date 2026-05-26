@@ -35,7 +35,7 @@ jobs:
 
       - name: Restore Incremental Inventory Cache (Mandate 22)
         if: ${{ github.event.inputs.restore_cache == 'true' }}
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v5
         with:
           path: data/inventory.yaml
           key: inventory-v2-${{ github.run_id }}-${{ github.run_attempt }}
@@ -77,7 +77,7 @@ jobs:
 
       - name: Create Pull Request for V2 Elite Update
         id: cpr
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v8
         with:
           branch: bot/v2-elite-sync-emergency
           base: develop
