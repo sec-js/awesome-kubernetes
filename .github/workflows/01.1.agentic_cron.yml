@@ -85,12 +85,12 @@ jobs:
     # This job can now be triggered from any branch but will always checkout 'develop'
     steps:
       - name: Repository Synchronization
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
         with:
           ref: develop
 
       - name: Python 3.11 Environment Provisioning
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
           cache: 'pip'
@@ -101,7 +101,7 @@ jobs:
           pip install --no-cache-dir pydantic PyGithub aiohttp beautifulsoup4 httpx fake-useragent pytz python-dotenv twikit>=2.1.2 playwright playwright-stealth pyyaml tenacity
 
       - name: Cache Playwright Binaries
-        uses: actions/cache@v5
+        uses: actions/cache@v4
         id: playwright-cache
         with:
           path: ~/.cache/ms-playwright
@@ -170,7 +170,7 @@ jobs:
 
       - name: Upload Visual Dashboard Artifact
         if: always()
-        uses: actions/upload-artifact@v7
+        uses: actions/upload-artifact@v4
         with:
           name: curation-visual-report
           path: report.html

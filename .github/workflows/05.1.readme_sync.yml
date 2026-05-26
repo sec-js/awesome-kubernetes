@@ -24,12 +24,12 @@ jobs:
       !contains(github.event.head_commit.message, 'bot/knowledge-update')
     steps:
       - name: Repository Synchronization
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0 # Full history for commit stats
 
       - name: Python 3.11 Environment Provisioning
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 

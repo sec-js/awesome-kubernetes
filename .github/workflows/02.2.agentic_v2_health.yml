@@ -26,12 +26,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Repository Synchronization
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
         with:
           ref: develop
 
       - name: Python 3.11 Environment Provisioning
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
           cache: 'pip'
@@ -58,7 +58,7 @@ jobs:
         run: python -u -m src.v2_health
 
       - name: Create Pull Request for Health Update
-        uses: peter-evans/create-pull-request@v8
+        uses: peter-evans/create-pull-request@v6
         with:
           branch: bot/v2-health-sync
           base: develop
