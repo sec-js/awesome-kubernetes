@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.3.7]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.7) - 2026-05-26
+
+### Fixed
+- **GitHub Actions Version Hardening**: Restored and upgraded all 15 workflows to use verified, true latest stable major versions (v6/v5/v8) across the entire CI/CD pipeline, ensuring maximum stability and security.
+- **Deployment Workflow Reliability**: Resolved transient "Failed to download" infrastructure errors in the "06.1. Final Portal Deploy" workflow by aligning with official GitHub Action releases and latest stable tags.
+
 ## [[2.3.6]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.6) - 2026-05-26
 
 ### Changed
