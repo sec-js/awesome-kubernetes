@@ -46,7 +46,7 @@ jobs:
 
       - name: Restore Incremental Inventory Cache
         if: ${{ github.event.inputs.restore_cache == 'true' }}
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v5
         with:
           path: data/inventory.yaml
           key: inventory-v2-${{ github.run_id }}-${{ github.run_attempt }}
@@ -87,7 +87,7 @@ jobs:
 
       - name: Persist Incremental Inventory Cache
         if: always()
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v5
         with:
           path: data/inventory.yaml
           key: inventory-v2-${{ github.run_id }}-${{ github.run_attempt }}
