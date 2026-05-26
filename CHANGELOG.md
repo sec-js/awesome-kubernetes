@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.3.5]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.5) - 2026-05-26
+
+### Added
+- **Visual Branding Expansion**: Integrated the official **Playwright** YouTube channel into the visual branding mosaic in both V1 and V2 index pages.
+- **Visual Asset Integration**: Optimized and integrated the high-resolution logo for the Playwright channel.
+
 ## [[2.3.4]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.4) - 2026-05-25
 
 ### Removed
