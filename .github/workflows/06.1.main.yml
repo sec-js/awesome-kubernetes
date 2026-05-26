@@ -1,9 +1,8 @@
-name: 06.1. Production Deploy
+name: 06.1. GitHub Pages Deploy
 on:
   push:
     branches:
       - master
-  workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -13,7 +12,7 @@ permissions:
 
 # Allow only one concurrent deployment
 concurrency:
-  group: "pages-new"
+  group: "pages"
   cancel-in-progress: false
 
 jobs:
@@ -88,5 +87,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-
