@@ -48,6 +48,8 @@
   - [Crunchy PostgreSQL and Openshift](https://www.redhat.com/en/blog/leveraging-the-crunchy-postgresql)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ref1](https://www.redhat.com/en/blog/understanding-service-accounts-sccs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [ref2](https://docs.openshift.com/container-platform/4.1/authentication/understanding-and-creating-service-accounts.html)
     - [ref3](https://docs.openshift.com/container-platform/4.1/authentication/managing-security-context-constraints.html#role-based-access-to-ssc_configuring-internal-oauth)
+  - [Kubernetes.io: Operator pattern](https://kubernetes.io/docs/concepts/extend-kubernetes/operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ref3](https://dzone.com/articles/understanding-openshift-security-context-constrain)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [crunchydata.com](https://www.crunchydata.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/CrunchyData](https://github.com/CrunchyData)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/CrunchyData/postgres-operator](https://github.com/CrunchyData/postgres-operator) <span class='md-tag md-tag--info'>⭐ 4406</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
@@ -70,10 +72,15 @@
   - [ref1](https://access.crunchydata.com/documentation/postgres-operator/latest/operatorcli/pgo-overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [crunchy-pgadmin4](https://access.crunchydata.com/documentation/crunchy-postgres-containers/4.3.0/container-specifications/crunchy-pgadmin4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [pgAdmin 4](https://access.crunchydata.com/documentation/crunchy-postgres-containers/4.3.0/examples/administration/pgadmin4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ref3](https://dzone.com/articles/understanding-openshift-security-context-constrain)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Kubernetes.io: Operator pattern](https://kubernetes.io/docs/concepts/extend-kubernetes/operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Data Architecture
+
+### Databases
+
+#### PostgreSQL
+
+  - **(2025)** [learn.crunchydata.com](https://www.crunchydata.com/developers/tutorials) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An interactive database training portal detailing progressive PostgreSQL configuration, clustering, and troubleshooting. Crucial for architects planning highly available, stateful cloud-native storage engines.
 
 ---
-💡 **Explore Related:** [Yaml](./yaml.md) | [Message Queue](./message-queue.md) | [Databases](./databases.md)
+💡 **Explore Related:** [Databases](./databases.md) | [Message Queue](./message-queue.md) | [Yaml](./yaml.md)
 

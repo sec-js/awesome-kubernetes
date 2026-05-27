@@ -7,6 +7,7 @@
 
   - [docs.microsoft.com: WSL - Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [9elements.com: Developing on Windows with WSL2](https://9elements.com/blog/developing-on-windows-with-wsl2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Windows Package Manager CLI (aka winget)](https://github.com/microsoft/winget-cli) <span class='md-tag md-tag--info'>⭐ 25901</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [Using WSL and MobaXterm to Create a Linux Dev Environment on Windows](https://nickjanetakis.com/blog/using-wsl-and-mobaxterm-to-create-a-linux-dev-environment-on-windows)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Setting Up Docker for Windows and WSL to Work Flawlessly](https://nickjanetakis.com/blog/setting-up-docker-for-windows-and-wsl-to-work-flawlessly)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Take your Linux development experience in Windows to the next level with WSL and Visual Studio Code Remote](https://devblogs.microsoft.com/commandline/take-your-linux-development-experience-in-windows-to-the-next-level-with-wsl-and-visual-studio-code-remote)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -23,7 +24,6 @@
   - [klaushofrichter.medium.com: Using Windows Subsystem for Linux for Kubernetes](https://klaushofrichter.medium.com/using-windows-subsystem-for-linux-for-kubernetes-8bd1f5468531)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Windows Terminal 1.0](https://devblogs.microsoft.com/commandline/windows-terminal-1-0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Microsoft launches Windows Terminal 1.0, unveils GPU support and Linux GUI apps in WSL](https://venturebeat.com/2020/05/19/microsoft-windows-terminal-wsl-gpu-support-linux-gui-apps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Windows Package Manager CLI (aka winget)](https://github.com/microsoft/winget-cli) <span class='md-tag md-tag--info'>⭐ 25901</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [Microsoft debuts Windows Package Manager for your dev environment](https://venturebeat.com/2020/05/19/microsoft-windows-package-manager-powertoys)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cmder 🌟](https://cmder.net)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -36,5 +36,5 @@
   - [asdf version manager (asdf-vm)](https://asdf-vm.com) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensible, multi-language version manager capable of centralizing tool runtimes through a unified CLI configuration file (`.tool-versions`). Eliminates environmental drift across localized developer workspaces by managing multiple CLI toolchains via a modular plugin architecture.
 
 ---
-💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Java_Frameworks](./java_frameworks.md) | [API](./api.md)
+💡 **Explore Related:** [Python](./python.md) | [Visual Studio](./visual-studio.md) | [API](./api.md)
 

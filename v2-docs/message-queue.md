@@ -7,7 +7,6 @@
 
   - [Redpanda is now Free & Source Available](https://www.redpanda.com/blog/open-source)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Orchestration Made Easy with Zeebe and Kafka](https://softobiz.com/microservice-orchestration-with-zeebe-and-kafka)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Banzai Cloud 🌟](https://banzaicloud.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Wikipedia: Message Broker](https://en.wikipedia.org/wiki/Message_broker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Wikipedia: Event-driven messaging](https://en.wikipedia.org/wiki/Event-driven_messaging)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Wikipedia: Streaming Data](https://en.wikipedia.org/wiki/Streaming_data)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -100,6 +99,7 @@
   - [medium: Mastering Apache Kafka on Kubernetes — Strimzi K8s operator](https://medium.com/hacking-talent/mastering-apache-kafka-on-kubernetes-strimzi-k8s-operator-2c1d21d7b89a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@ahmed.farhan: Kafka Setup in Kubernetes Using Strimzi K8s operator' — Part 2](https://medium.com/@ahmed.farhan/kafka-setup-in-kubernetes-using-strimzi-k8s-operator-part-2-1f67dbe5f14d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/adaltas: Operating Kafka in Kubernetes with Strimzi](https://medium.com/adaltas/operating-kafka-in-kubernetes-with-strimzi-84a281c6d964)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Banzai Cloud 🌟](https://banzaicloud.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [The benefits of integrating Apache Kafka with Istio](https://banzaicloud.com/blog/kafka-on-istio-benefits)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Hazelcast JET](https://jet-start.sh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [wikipedia: Workflow Engine](https://en.wikipedia.org/wiki/Workflow_engine)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -192,13 +192,6 @@
 #### Serverless Integration (1)
 
   - [developers.redhat.com: Six reasons to love Camel K](https://developers.redhat.com/blog/2020/05/12/six-reasons-to-love-camel-k)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Outlines six key architectural advantages of Camel K, including fast deployment loops, native Quarkus optimization, low memory footprints, and serverless scale-to-zero capabilities via Knative. Highly useful for architects modernizing traditional ESBs.
-## Cloud Infrastructure
-
-### Kubernetes
-
-#### Service Mesh
-
-  - **(2021)** [**Service meshes to the rescue: Load balancing and scaling long-lived connections in Kubernetes 🌟**](https://learnkube.com/kubernetes-long-lived-connections) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A deep dive into the engineering challenge of load balancing long-lived connections (gRPC, HTTP/2, WebSockets) within Kubernetes. It explains how standard L4 kube-proxy load balancing fails to distribute traffic evenly and presents L7 proxies and service meshes (like Linkerd or Istio) as the definitive architectural solution.
 ## Cloud Native Architecture
 
 ### Domain-Driven Design
@@ -557,7 +550,7 @@
   - [Understanding Red Hat AMQ Streams components for OpenShift and Kubernetes 🌟](https://developers.redhat.com/blog/2019/12/04/understanding-red-hat-amq-streams-components-for-openshift-and-kubernetes-part-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Part 1 of an analytical breakdown detailing the components of Red Hat AMQ Streams (built on Strimzi). Explains operators, ZooKeeper configurations, and Kafka broker deployment patterns within enterprise Kubernetes clusters.
 ##### Integrations (2)
 
-  - [developers.redhat.com: HTTP-based Kafka messaging with Red Hat AMQ Streams](https://developers.redhat.com/blog/2020/08/04/http-based-kafka-messaging-with-red-hat-amq-streams/#more-720187)  <span class='md-tag md-tag--info'>[LEGACY]</span> — An architectural guide detailing how to use the HTTP Bridge component inside AMQ Streams. Allows web and legacy application services to publish and consume event data via lightweight REST HTTP requests.
+  - [developers.redhat.com: HTTP-based Kafka messaging with Red Hat AMQ Streams](https://developers.redhat.com/blog/2020/08/04/http-based-kafka-messaging-with-red-hat-amq-streams)  <span class='md-tag md-tag--info'>[LEGACY]</span> — An architectural guide detailing how to use the HTTP Bridge component inside AMQ Streams. Allows web and legacy application services to publish and consume event data via lightweight REST HTTP requests.
 ##### Security (2)
 
   - [Set up **Red Hat AMQ Streams** custom certificates on OpenShift](https://developers.redhat.com/blog/2020/04/01/set-up-red-hat-amq-streams-custom-certificates-on-openshift-update) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates replacing auto-generated certificates with custom enterprise CA certs to implement secured TLS and mTLS configurations inside Strimzi-managed AMQ Streams.
@@ -876,5 +869,5 @@
   - [infoq.com: From Monolith to Event-Driven: Finding Seams in Your Future Architecture](https://www.infoq.com/articles/event-driven-finding-seams) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An InfoQ guide detailing how to use Domain-Driven Design (DDD) to isolate domain boundaries and discover 'seams' within large-scale monoliths. Grounding confirms its position as a primary methodology for refactoring to decoupled, event-driven pipelines.
 
 ---
-💡 **Explore Related:** [Yaml](./yaml.md) | [Databases](./databases.md) | [NoSQL](./nosql.md)
+💡 **Explore Related:** [Databases](./databases.md) | [Crunchydata](./crunchydata.md) | [Yaml](./yaml.md)
 
