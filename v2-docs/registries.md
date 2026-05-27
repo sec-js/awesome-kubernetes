@@ -23,9 +23,6 @@
 
 ### Jenkins Ecosystem
 
-#### Enterprise Architectures
-
-  - **(2020)** [Continuous Delivery with Sonatype Nexus, Jenkins and the Cloudogu Ecosystem](https://platform.cloudogu.com/en/blog/cd-with-nexus-jenkins-ces) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural integration study mapping out Continuous Delivery structures using Nexus Repository, Jenkins pipelines, and Cloudogu software suites for regulated enterprise workloads.
 #### Video Tutorials
 
   - [youtube: Jenkins Integration with Nexus](https://www.youtube.com/watch?v=qbO4MTESiJQ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A video guide showing integration steps for building Jenkins jobs and storing artifacts into a target Sonatype Nexus server repository.
@@ -116,9 +113,6 @@
 #### Kubernetes Operators
 
   - **(2024)** [Quay Community Edition operator](https://github.com/quay/quay-operator) <span class='md-tag md-tag--info'>⭐ 143</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official Kubernetes Operator for deploying and managing the life cycle of Project Quay registries. It automates storage setup, database migrations, and SSL termination within OpenShift and OKD clusters.
-#### Legacy Resources (1)
-
-  - **(2026)** [Test an insecure registry 🌟](https://docs.docker.com/retired) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Retired Docker documentation dealing with configurations of insecure, unencrypted private registries. Preserved for diagnosing vintage local developer configurations.
 #### Maintenance Scripts
 
   - [hackermoon.com: cleanup old docker images from nexus repository](https://hackernoon.com/cleanup-old-docker-images-from-nexus-repository-617b1004dad8)  <span class='md-tag md-tag--info'>[LEGACY]</span> — A guide on managing storage allocations in Nexus Repository Manager by automating the deletion of legacy Docker image tags. It outlines task scheduler configurations and artifact purging tasks.
@@ -140,14 +134,7 @@
 #### VMware
 
   - [galaxy.ansible.com/mkgin/vmware-harbor](https://galaxy.ansible.com/mkgin/vmware-harbor)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Ansible Galaxy role designed to install Harbor registries on VMware-based virtual infrastructure. It remains a historical reference but has been surpassed by containerized approaches.
-## Security
-
-### DevSecOps
-
-#### Secrets Scanning
-
-  - **(2022)** [jfrog.com: How to protect your secrets with Spectral and JFrog Pipelines](https://jfrog.com/blog) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical walk-through showing how to use Spectral in tandem with JFrog Pipelines. The tutorial focuses on identifying misplaced credentials and code misconfigurations inside continuous integration stages.
 
 ---
-💡 **Explore Related:** [Jenkins](./jenkins.md) | [CI/CD](./cicd.md) | [Gitops](./gitops.md)
+💡 **Explore Related:** [Gitops](./gitops.md) | [Flux](./flux.md) | [Argo](./argo.md)
 
