@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.3.17]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.17) - 2026-05-27
+
+### Changed
+- **V2 Header Cards Optimization**: Fixed broken `.md` targets in raw HTML header cards by pointing them to compiled `.html` pages. Upgraded card sizing to use a responsive flex layout (`flex: 1; max-width: 280px; min-width: 200px;`) with increased padding and added visual hover highlight states on card icons matching the mosaic aesthetics.
+
 ## [[2.3.16]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.16) - 2026-05-27
 
 ### Changed
