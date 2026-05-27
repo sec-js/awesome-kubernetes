@@ -280,3 +280,78 @@ a {
   margin-top: 4px;
 }
 
+/* Hero Showcase Image wrapper (4 cars in a container) */
+.hero-showcase-wrapper {
+  margin: 24px auto;
+  max-width: 650px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.015);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  display: block;
+}
+
+[data-md-color-scheme="slate"] .hero-showcase-wrapper {
+  border-color: rgba(34, 211, 238, 0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.hero-showcase-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+}
+
+.hero-showcase-image {
+  width: 100% !important;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), filter 0.4s ease;
+  margin: 0 !important;
+}
+
+.hero-showcase-overlay {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  pointer-events: none;
+}
+
+.hero-showcase-badge {
+  background: rgba(9, 9, 11, 0.8);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: var(--md-accent-fg-color);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  letter-spacing: 0.05em;
+  transition: all 0.3s ease;
+}
+
+/* Hover effects */
+.hero-showcase-wrapper:hover {
+  transform: translateY(-4px);
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 12px 30px rgba(34, 211, 238, 0.15);
+}
+
+.hero-showcase-wrapper:hover .hero-showcase-image {
+  transform: scale(1.03);
+  filter: brightness(1.05) contrast(1.02);
+}
+
+.hero-showcase-wrapper:hover .hero-showcase-badge {
+  background: var(--md-accent-fg-color);
+  color: #09090b;
+  box-shadow: 0 0 10px var(--md-accent-fg-color);
+}
+

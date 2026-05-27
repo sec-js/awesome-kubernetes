@@ -777,8 +777,15 @@ class V2VisionEngine:
             "  </a>\n"
             "</div>\n\n"
             "\"I do not believe you can do today's job with yesterday's methods and be in business tomorrow\" ([Horatio Nelson Jackson](https://en.wikipedia.org/wiki/Horatio_Nelson_Jackson))\n"
-            "<center markdown=\"1\">\n\n"
-            "[![container_with_cars](images/container_with_cars_v2.png)](https://www.cncf.io/certification/software-conformance) <br/>\n\n"
+            "<center markdown=\"1\">\n"
+            "<div class=\"hero-showcase-wrapper\">\n"
+            "  <a href=\"https://www.cncf.io/certification/software-conformance\" class=\"hero-showcase-link\">\n"
+            "    <img src=\"images/container_with_cars_v2.png\" alt=\"container_with_cars\" class=\"hero-showcase-image\" />\n"
+            "    <div class=\"hero-showcase-overlay\">\n"
+            "      <span class=\"hero-showcase-badge\">CNCF Software Conformance</span>\n"
+            "    </div>\n"
+            "  </a>\n"
+            "</div>\n"
             "</center>\n\n"
             "!!! abstract \"The High-Density Vision\"\n"
             "    The V2 Edition is a curated, high-density version of the Nubenetes archive. Using **Agentic AI Orchestration**, "
@@ -787,7 +794,7 @@ class V2VisionEngine:
             f"<center markdown=\"1\">\n{mosaic_html}\n</center>\n\n"
             f"{pulse_md}\n\n"
             "## Strategic Dimensions\n"
-            "- **[🎥 Agentic Video Hub (Architectural Summary)](./videos.md)**\n\n"
+            "- **[🎥 Agentic Video Hub (Architectural Summary)](./videos/index.md)**\n\n"
         )
         
         # Group by dimension for index
@@ -896,7 +903,12 @@ class V2VisionEngine:
                 "nav:", 
                 "  - \"🔙 Back to V1 (Exhaustive)\": https://nubenetes.com/v1/", 
                 "  - \"The 2026 Vision\": index.md",
-                "  - \"Agentic Video Hub\": videos.md"
+                "  - \"Agentic Video Hub\":",
+                "      - \"Overview\": videos/index.md",
+                "      - \"AI Agents and MCP\": videos/ai-agents.md",
+                "      - \"DevOps, IaC, and SRE\": videos/devops-iac.md",
+                "      - \"Cloud Native Core\": videos/cloud-native.md",
+                "      - \"Fundamentals\": videos/fundamentals.md"
             ]
             
             # Group files by dimension
