@@ -2,6 +2,17 @@ import re
 import yaml
 import os
 
+# Map category IDs to outline border colors
+COLOR_MAP = {
+    "ai_advanced_tech": "#8b5cf6",                  # Purple
+    "cloud_providers": "#3b82f6",                   # Blue
+    "cloud_native_kubernetes": "#10b981",           # Emerald Green
+    "devops_cicd_iac": "#f59e0b",                   # Amber Orange
+    "observability_databases_storage": "#ec4899",   # Pink
+    "dev_testing_collab": "#14b8a6",                # Teal
+    "learning_influencers_communities": "#64748b"   # Slate Gray
+}
+
 def build_mosaic_markdown(yaml_path):
     with open(yaml_path, 'r', encoding='utf-8') as f:
         data = yaml.safe_load(f)
@@ -10,15 +21,13 @@ def build_mosaic_markdown(yaml_path):
     lines.append('<center markdown="1">')
     lines.append('')  # Mandatory blank line after center tag
 
-    first = True
     for cat in data['categories']:
-        if not first:
-            lines.append('<br/>')
-            lines.append('')
-        first = False
+        color = COLOR_MAP.get(cat['id'], '#64748b')
         
-        # Category header
-        lines.append(f"**{cat['name']}**")
+        # Open category block container
+        # Note: markdown="1" is required inside the HTML tag to process markdown links correctly
+        lines.append(f'<div markdown="1" style="border: 1px solid {color}; border-radius: 8px; padding: 10px; margin: 8px 0; background: rgba(255, 255, 255, 0.01);" title="{cat["name"]}">')
+        lines.append('') # Mandatory blank line after block tag
         
         # Channel links
         chan_links = []
@@ -28,6 +37,10 @@ def build_mosaic_markdown(yaml_path):
         lines.append(" ".join(chan_links))
         lines.append('')
         
+        # Close container
+        lines.append('</div>')
+        lines.append('')
+        
     lines.append('</center>')
     return "\n".join(lines)
 
@@ -35,8 +48,7 @@ def update_file(file_path, new_mosaic):
     with open(file_path, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    # Find the specific <center markdown="1"> block containing "docker videos"
-    # We find where '<center markdown="1">' is, and make sure it has 'docker videos' before the next '</center>'
+    # Find the specific <center markdown="1"> block containing "docker videos" or "docker_logo.jpg"
     start_tag = '<center markdown="1">'
     end_tag = '</center>'
     
@@ -52,7 +64,6 @@ def update_file(file_path, new_mosaic):
         
         block = content[start_pos : end_pos + len(end_tag)]
         if 'docker videos' in block or 'docker_logo.jpg' in block:
-            # This is the target block
             content = content[:start_pos] + new_mosaic + content[end_pos + len(end_tag):]
             found = True
             break
