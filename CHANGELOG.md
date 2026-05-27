@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.3.11]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.11) - 2026-05-27
+
+### Added
+- **Microsoft Reactor YouTube Channel**: Added Microsoft Reactor to the homepage channels mosaic in V1 and V2, moving Playwright to its own row at the bottom of the mosaic.
+
 ## [[2.3.10]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.10) - 2026-05-27
 
 ### Added
