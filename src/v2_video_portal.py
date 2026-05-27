@@ -61,6 +61,13 @@ def generate_v2_videos():
         t = text.replace("&", "and").replace("(", "").replace(")", "")
         return t.lower().strip().replace(" ", "-").replace("/", "-").replace(".", "")
 
+    def is_spanish(title, summary):
+        if "[SPANISH CONTENT]" in summary or "[SPANISH CONTENT]" in title:
+            return True
+        if title.strip().startswith("¿"):
+            return True
+        return False
+
     content = [
         "# 🎥 Nubenetes Elite Video Hub",
         "",
@@ -120,8 +127,11 @@ def generate_v2_videos():
                 summary = v.get("summary", "").strip()
                 indented_summary = summary.replace("\n", "\n        ")
                 
+                is_sp = is_spanish(v['title'], summary)
+                lang_suffix = " [SPANISH CONTENT]" if is_sp else ""
+                
                 # Collapsible block per video for better flow
-                content.append(f"??? note \"🎬 {v['title']} | `{tech}`\"")
+                content.append(f"??? note \"🎬 {v['title']} | `{tech}{lang_suffix}`\"")
                 content.append(f"    !!! info \"Architectural Summary\"")
                 content.append(f"        {indented_summary}")
                 content.append("")
