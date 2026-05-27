@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.3.9]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.9) - 2026-05-27
+
+### Added
+- **VS Code Dev Tunnels Video**: Integrated Gisela Torres' tutorial on VS Code Dev Tunnels into the V2 Video Hub, highlighting the secure remote access capabilities and developer productivity benefits. [SPANISH CONTENT]
+
 ## [[2.3.8]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.8) - 2026-05-27
 
 ### Added
