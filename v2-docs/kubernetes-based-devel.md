@@ -78,9 +78,6 @@
   - [testingclouds.wordpress.com: Migrating from Docker Compose to Skaffold 🌟](https://testingclouds.wordpress.com/2021/03/09/migrating-from-docker-compose-to-skaffold)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Step-by-step migration guide transitioning application setups from legacy Docker Compose manifests to Skaffold templates for native cluster interaction.
 ### Local Development Tools
 
-#### Comparison Frameworks
-
-  - **(2021)** [rookout.com: Developer Tools for Kubernetes in 2021: Helm, Kustomize, and Skaffold (Part 1)](https://www.dynatrace.com/solutions/observability-for-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A multi-part guide evaluating local-to-remote Kubernetes developer environments. Offers in-depth technical comparisons between Skaffold, Tilt, and Garden for rapid prototyping, highlighting the trade-offs of each system.
 #### DevSpace
 
   - **(2026)** [**devspace.sh**](https://www.devspace.sh) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Fast developer-centric CLI tool designed to lower the cloud-native learning curve. Optimizes the inner loop with real-time bidirectional file sync, container hot reloading, and native terminal streaming.
@@ -247,5 +244,5 @@
   - [blog.aquasec.com: RATs (remote access tools) in the Cloud: Kubernetes UI' Tools Turn into a Weapon](https://blog.aquasec.com/kubernetes-ui-tools-security-threat) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Crucial security review warning how misconfigured visual cluster admin panels can act as Remote Access Tools (RATs) for malicious actors to execute arbitrary code.
 
 ---
-💡 **Explore Related:** [Container Managers](./container-managers.md) | [Kubernetes Monitoring](./kubernetes-monitoring.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
+💡 **Explore Related:** [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Openshift](./openshift.md)
 
