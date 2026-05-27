@@ -6,10 +6,11 @@ Welcome to the **Agentic Video Hub**. This section presents a logical, architect
 
 1. [AI and Future Operations](#ai-and-future-operations)
 2. [Architecture and Cloud Strategy](#architecture-and-cloud-strategy)
-3. [Fundamentals and Documentaries](#fundamentals-and-documentaries)
-4. [Infrastructure as Code](#infrastructure-as-code)
-5. [Observability and Monitoring](#observability-and-monitoring)
-6. [Security and Compliance](#security-and-compliance)
+3. [Developer Productivity](#developer-productivity)
+4. [Fundamentals and Documentaries](#fundamentals-and-documentaries)
+5. [Infrastructure as Code](#infrastructure-as-code)
+6. [Observability and Monitoring](#observability-and-monitoring)
+7. [Security and Compliance](#security-and-compliance)
 
 ## AI and Future Operations
 ??? note "🎬 Thursday morning general session - May 9 - Red Hat Summit 2019 | `Red Hat OpenShift`"
@@ -253,6 +254,7 @@ Welcome to the **Agentic Video Hub**. This section presents a logical, architect
 
     </center>
 
+## Developer Productivity
 ??? note "🎬 Remote VS Code with Dev Tunnels: access the editor from your browser | `VS Code`"
     !!! info "Architectural Summary"
         In this tutorial, Gisela Torres explains the architecture and application of VS Code Dev Tunnels to enable secure remote access to local development environments. Dev Tunnels establish a secure, encrypted connection to VS Code without requiring complex VPNs or firewall modifications, allowing developers to connect from any web browser or secondary editor instance. For 2026 developer productivity, this simplifies remote workspace orchestration and collaborative debugging in cloud-native platforms. [SPANISH CONTENT]
