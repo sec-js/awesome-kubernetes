@@ -173,7 +173,7 @@ Welcome to the **Agentic Video Hub**. This section presents a logical, architect
     </center>
 
 ### Modular Monoliths Architecture and Cloud Strategy
-??? note "🎬 ¿De verdad son necesarios los microservicios? | `Modular Monoliths`"
+??? note "🎬 ¿De verdad son necesarios los microservicios? | `Modular Monoliths [SPANISH CONTENT]`"
     !!! info "Architectural Summary"
         This video critically evaluates the over-engineering of distributed systems, examining whether the operational overhead, network latency, and complexity of microservices are justified for most projects. In a 2026 cloud-native landscape focusing heavily on cost optimization and developer velocity, it advocates for a pragmatic, domain-driven approach, highlighting modular monoliths as a powerful alternative before prematurely adopting microservices.
 
@@ -296,7 +296,7 @@ Welcome to the **Agentic Video Hub**. This section presents a logical, architect
 
 ## Developer Productivity
 ### VS Code Developer Productivity
-??? note "🎬 Remote VS Code with Dev Tunnels: access the editor from your browser | `VS Code`"
+??? note "🎬 Remote VS Code with Dev Tunnels: access the editor from your browser | `VS Code [SPANISH CONTENT]`"
     !!! info "Architectural Summary"
         In this tutorial, Gisela Torres explains the architecture and application of VS Code Dev Tunnels to enable secure remote access to local development environments. Dev Tunnels establish a secure, encrypted connection to VS Code without requiring complex VPNs or firewall modifications, allowing developers to connect from any web browser or secondary editor instance. For 2026 developer productivity, this simplifies remote workspace orchestration and collaborative debugging in cloud-native platforms. [SPANISH CONTENT]
 
@@ -365,7 +365,7 @@ Welcome to the **Agentic Video Hub**. This section presents a logical, architect
     </center>
 
 ### Neural Networks AI and Future Operations
-??? note "🎬 ¿Qué es una Red Neuronal? Parte 1 : La Neurona | DotCSV | `Neural Networks`"
+??? note "🎬 ¿Qué es una Red Neuronal? Parte 1 : La Neurona | DotCSV | `Neural Networks [SPANISH CONTENT]`"
     !!! info "Architectural Summary"
         This video deconstructs the foundational mathematical and algorithmic mechanics of a single artificial neuron, illustrating its direct relationship with linear regression, weights, biases, and activation functions. In a 2026 cloud-native landscape, mastering these core neural principles is critical for platform architects optimizing distributed micro-models and real-time AI inference engines deployed on Kubernetes-driven edge and cloud infrastructure. This granular understanding enables more efficient hardware acceleration profiling (GPUs/vGPUs/TPUs) and smarter resource allocation for decentralized machine learning pipelines.
 
