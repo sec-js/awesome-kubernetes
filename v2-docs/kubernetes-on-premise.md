@@ -6,7 +6,6 @@
 ## Standard Reference
 
   - [wecloudpro.com: Deploy HA kubernetes cluster in AWS in less than 5 minutes](http://wecloudpro.com/2020/01/13/kube-autp-aws.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [weave.works: Weave Kubernetes Platform](https://www.weave.works/)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.kubecost.com: Kubernetes kOps: Step-By-Step Example & Alternatives](https://blog.kubecost.com/blog/kubernetes-kops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [imsundeep8.medium.com: Deploy Production-grade Kubernetes Cluster using' kOps on Amazon Cloud (AWS)](https://imsundeep8.medium.com/deploy-production-grade-kubernetes-cluster-using-kops-on-amazon-cloud-aws-abc79f46aa32)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com: **Demystifying High Availability in Kubernetes Using Kubeadm**](https://medium.com/velotio-perspectives/demystifying-high-availability-in-kubernetes-using-kubeadm-3d83ed8c458b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -30,6 +29,7 @@
   - [cloudsavvyit.com: How to run your own kubernetes cluster with Microk8s](https://www.cloudsavvyit.com/13024/how-to-run-your-own-kubernetes-cluster-with-microk8s)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubedex.com: Kubernetes Operating Systems 🌟](https://kubedex.com/kubernetes-operating-systems)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [baeldung.com: Lightweight Kubernetes Distributions](https://www.baeldung.com/ops/kubernetes-lightweight-distributions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [weave.works: Weave Kubernetes Platform](https://www.weave.works)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [**VMware Kubernetes Tanzu**](https://cloud.vmware.com/tanzu)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [wecloudpro.com: VMware Tanzu Community Edition 🌟](https://www.wecloudpro.com/2021/11/13/Tanzu-Community-Edition.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Pharos 🌟](https://k8spharos.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -68,6 +68,7 @@
   - [xiaods/k8e](https://github.com/xiaods/k8e) <span class='md-tag md-tag--info'>⭐ 444</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight community-driven Kubernetes distribution modeled after K3s but using standard upstream components. It offers an easy install track for edge nodes and test networks looking for low operational footprints.
 #### Enterprise Platforms
 
+  - **(2026)** [==OKD==](https://okd.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — OKD is the open-source upstream community distribution of Red Hat OpenShift, fully integrating containerized virtualization, developer tools, and operators. Built on Fedora CoreOS, OKD provides cloud architects with a platform-as-a-service engine optimized for continuous deployment and complex multi-tenant operations.
   - **(2022)** [infoworld.com: 6 Kubernetes distributions leading the container revolution](https://www.infoworld.com/article/2266054/6-kubernetes-distributions-leading-the-container-revolution.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Reviews the leading container platforms guiding the market shift towards hybrid and multi-cloud Kubernetes orchestration. Evaluates enterprise-grade capabilities of tools like Red Hat OpenShift, VMware Tanzu, Rancher, and Mirantis, analyzing their management interfaces and security controls.
 #### Industry News
 
@@ -156,6 +157,9 @@
 #### Azure
 
   - [Kubernetes the Hard Way: Azure Edition](https://github.com/carlosonunez/kubernetes-the-hard-way-on-azure) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An adapted tutorial of Kelsey Hightower's 'Kubernetes the Hard Way' mapped directly onto Azure cloud infrastructure. Details setting up VNets, Azure NSGs, load balancers, and virtual machine scale sets manually to better understand control plane placement.
+#### Canonical Juju
+
+  - **(2026)** [**Conjure up**](https://canonical.com/juju) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The canonical toolset for automating cloud operations using Juju charms. Simplifies the installation of Charmed Kubernetes clusters across various clouds. Note: Conjure-up has been fully integrated and evolved directly into Canonical Juju's primary modeling environment.
 #### Community Videos
 
   - [youtube: OpenShift Commons En Vivo - KubeInit con Maria Bracho, Scott McCarty,' and Carlos Camacho (Red Hat, Spanish) 🌟](https://www.youtube.com/watch?v=9_6H7Ahsdm4&ab_channel=OpenShift) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A video presentation exploring KubeInit, its architecture, and practical use cases for bootstrapping cloud-native platforms like OpenShift and Kubernetes on local hardware. Conducted in Spanish with Red Hat experts. [SPANISH CONTENT]
@@ -179,8 +183,8 @@
   - [Kubernetes Cluster with **Kubeadm**](https://github.com/kubernetes/kubeadm) <span class='md-tag md-tag--info'>⭐ 3977</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The standard bootstrapping engine for establishing conformant Kubernetes clusters. Kubeadm abstracts the complex mechanics of configuring etcd, control plane API components, and node registration into clean `init` and `join` workflows. Designed to serve as the building block for higher-level platform orchestration engines.
 #### Kubeadm Guides
 
-  - [itnext.io: Kubernetes Journey — Up and running out of the cloud — How to' setup the Masters using kubeadm bootstrap](https://itnext.io/kubernetes-journey-up-and-running-out-of-the-cloud-how-to-setup-the-masters-using-kubeadm-9a496a14fbc1) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth guide on deploying an on-premises multi-master Kubernetes control plane using kubeadm and HAProxy for load balancing. Walks through the bootstrap token mechanism and control-plane join procedures. Excellent theoretical coverage of manual multi-master networking.
   - [Setting Up a Kubernetes Cluster on Ubuntu 18.04](https://loves.cloud/setting-up-a-kubernetes-cluster-on-ubuntu-18-04)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Step-by-step tutorial for building a Kubernetes control plane and node infrastructure on Ubuntu 18.04 VMs using kubeadm. Explores Docker runtime configuration and basic CNI setups. Highly legacy given newer Ubuntu releases and containerd/CRI-O standard transition.
+  - [itnext.io: Kubernetes Journey — Up and running out of the cloud — How to' setup the Masters using kubeadm bootstrap](https://itnext.io/kubernetes-journey-up-and-running-out-of-the-cloud-how-to-setup-the-masters-using-kubeadm-9a496a14fbc1) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth guide on deploying an on-premises multi-master Kubernetes control plane using kubeadm and HAProxy for load balancing. Walks through the bootstrap token mechanism and control-plane join procedures. Excellent theoretical coverage of manual multi-master networking.
   - [mirantis.com: How to install Kubernetes with Kubeadm: A quick and dirty' guide](https://www.mirantis.com/blog/how-install-kubernetes-kubeadm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A simplified deployment checklist for running containerized workloads on Kubernetes via kubeadm. Demonstrates manual package installation, initialization commands, and standard validation tests. Good starting point for spinning up fast staging clusters.
 #### Kubespray
 
@@ -192,6 +196,9 @@
 #### Legacy Tooling
 
   - **(2018)** [A Comparative Analysis of Kubernetes Deployment Tools: Kubespray, kops, and conjure-up](https://www.altoros.com/blog/404-page-doesnt-exist)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Historical comparative study of older-generation Kubernetes provisioning tools (Kubespray, Kops, and Conjure-Up). Note: The link has expired, reflecting the rapid evolution and deprecation of early multi-cloud orchestration scripts.
+#### Virtualization
+
+  - [Kubeinit 🌟](https://github.com/kubeinit/kubeinit) <span class='md-tag md-tag--info'>⭐ 222</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — An Ansible-based automation tool to deploy Kubernetes, OKD, or OpenShift on bare-metal or VM hosts using KVM/libvirt and nested virtualization. Helps automate clean network definitions, hypervisor provisioning, and cluster bootstrapping. Note: Repo has seen minimal recent activity, indicating transition towards LEGACY status.
 ### Edge and IoT (1)
 
 #### MicroK8s
@@ -248,6 +255,13 @@
 #### Legacy Tools
 
   - **(2023)** [vmware-tanzu/octant](https://github.com/vmware-archive/octant) <span class='md-tag md-tag--info'>⭐ 6249</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Octant was a widely used extensible, developer-focused dashboard for exploring Kubernetes structures. It was archived in 2023 and has been succeeded by more modern and active alternatives like Lens and K9s.
+## Platform Engineering
+
+### Site Reliability Engineering
+
+#### Foundations
+
+  - **(2024)** [itprotoday.com: Why Site Reliability Engineering Is Key to Modern DevOps](https://www.techtarget.com/searchcio/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An executive analysis examining why SRE architecture is a vital component of any modern, high-density DevOps delivery system trying to limit service down-time.
 ## Storage
 
 ### Stateful Workloads
@@ -257,5 +271,5 @@
   - [Stateful Kubernetes-In-a-Box with Kontena Pharos](https://blog.purestorage.com/stateful-kubernetes-pure-service-orchestrator-kontena-pharos) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A historical look at combining the Kontena Pharos Kubernetes distribution with Pure Storage orchestrators to run heavy database workloads. Useful for documenting the evolution of early volume mount drivers before CSI stabilization.
 
 ---
-💡 **Explore Related:** [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Container Managers](./container-managers.md) | [Kubernetes Monitoring](./kubernetes-monitoring.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
 
