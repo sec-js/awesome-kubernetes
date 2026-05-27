@@ -76,6 +76,19 @@ def generate_v2_videos():
         slug = get_slug(cat)
         content.append(f"{idx}. [{clean_cat}](#{slug})")
 
+        # Get unique technologies in this category, keeping their relative order based on video_order
+        cat_videos = [v for v in featured_videos if v["category"] == cat]
+        cat_videos.sort(key=lambda x: x.get("video_order", 999))
+        seen_techs = []
+        for v in cat_videos:
+            tech = v.get("technology", "Cloud Native")
+            if tech not in seen_techs:
+                seen_techs.append(tech)
+        for tech in seen_techs:
+            clean_tech = clean_header(tech)
+            tech_slug = get_slug(tech)
+            content.append(f"    - [{clean_tech}](#{tech_slug})")
+
     content.append("")
 
     for cat in categories:
@@ -83,28 +96,41 @@ def generate_v2_videos():
         slug = get_slug(cat)
         # Use standard headers (MkDocs generates anchors automatically)
         content.append(f"## {clean_cat}")
-        cat_videos = [v for v in featured_videos if v["category"] == cat]
         
-        # Sort by video_order within category
+        cat_videos = [v for v in featured_videos if v["category"] == cat]
         cat_videos.sort(key=lambda x: x.get("video_order", 999))
-
+        
+        # Group videos by technology
+        tech_groups = {}
+        tech_order = []
         for v in cat_videos:
             tech = v.get("technology", "Cloud Native")
-            # Ensure summary is correctly indented for multiline blocks
-            summary = v.get("summary", "").strip()
-            indented_summary = summary.replace("\n", "\n        ")
+            if tech not in tech_groups:
+                tech_groups[tech] = []
+                tech_order.append(tech)
+            tech_groups[tech].append(v)
             
-            # Collapsible block per video for better flow
-            content.append(f"??? note \"🎬 {v['title']} | `{tech}`\"")
-            content.append(f"    !!! info \"Architectural Summary\"")
-            content.append(f"        {indented_summary}")
-            content.append("")
-            content.append('    <center markdown="1">')
-            content.append('')
-            content.append(f'    <iframe width="720" height="405" src="{v["url"]}" title="{v["title"]}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>')
-            content.append('')
-            content.append('    </center>')
-            content.append("")
+        for tech in tech_order:
+            clean_tech = clean_header(tech)
+            tech_slug = get_slug(tech)
+            content.append(f"### {clean_tech}")
+            
+            for v in tech_groups[tech]:
+                # Ensure summary is correctly indented for multiline blocks
+                summary = v.get("summary", "").strip()
+                indented_summary = summary.replace("\n", "\n        ")
+                
+                # Collapsible block per video for better flow
+                content.append(f"??? note \"🎬 {v['title']} | `{tech}`\"")
+                content.append(f"    !!! info \"Architectural Summary\"")
+                content.append(f"        {indented_summary}")
+                content.append("")
+                content.append('    <center markdown="1">')
+                content.append('')
+                content.append(f'    <iframe width="720" height="405" src="{v["url"]}" title="{v["title"]}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>')
+                content.append('')
+                content.append('    </center>')
+                content.append("")
 
     with open(V2_VIDEOS_PATH, "w") as f:
         f.write("\n".join(content))
