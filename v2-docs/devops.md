@@ -9,6 +9,7 @@
   - [forbes.com: Who Should Own The Job Of Observability In DevOps?](https://www.forbes.com/councils/forbestechcouncil/2021/09/03/who-should-own-the-job-of-observability-in-devops/?streamIndex=0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [replex.io](https://www.splunk.com/en_us/appdynamics-joins-splunk.html?301=appdynamics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Google Cloud Build](https://cloud.google.com/build)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Azure DevOps](https://azure.microsoft.com/en-us/products/devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [redhat.com: Why IT automation training is a smart way to boost your career](https://www.redhat.com/en/blog/it-automation-training)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Top 15 DevOps blogs to read and follow](https://www.techtarget.com/searchitoperations/feature/Top-15-DevOps-blogs-to-read-and-follow)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [deloitte.com: Culture change, not tech, is the secret to DevOps success (podcast) 🌟](https://www.deloitte.com/us/en/what-we-do/capabilities/cloud-transformation/collections/cloud-podcast.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -31,7 +32,6 @@
   - [DevOps Glosary of Terms 🌟](https://digital.ai/glossary)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [The Ultimate DevOps Tool Chest 🌟](https://digital.ai/learn/diagram-generator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [The Ultimate List of Open Source DevOps Tools](https://digital.ai)
   - [Periodic Table of DevOps 🌟](https://digital.ai/learn/devsecops-periodic-table)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Azure DevOps 🌟](https://azure.microsoft.com/en-us/products/devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [salaboy.com: The Challenges of Platform Building on Top of Kubernetes 4/4](https://www.salaboy.com/2022/11/28/the-challenges-of-platform-building-on-top-of-kubernetes-4-4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Platform Engineering in 2023: Dev First, Collaboration and APIs](https://thenewstack.io/platform-engineering/-in-2023-dev-first-collaboration-and-apis)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [frobes.com: How To Empower Modern Kubernetes Management With A Platform Team Model](https://www.forbes.com/councils/forbestechcouncil/2023/02/23/how-to-empower-modern-kubernetes-management-with-a-platform-team-model/?streamIndex=0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -39,25 +39,24 @@
   - [infoworld.com: Why platform engineering?](https://www.infoworld.com/article/2338392/why-platform-engineering.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [seal.io: Open Source Platform Engineering for Dev & Ops](https://gpustack.ai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Port](https://www.port.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [10 Real-World Kubernetes Troubleshooting Scenarios and Solutions](https://livingdevops.com/devops/10-real-world-kubernetes-troubleshooting-scenarios-and-solutions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/DevOps-Projects-Ideas/DevOps-Books 🌟🌟](https://github.com/DevOps-Projects-Ideas/DevOps-Books) <span class='md-tag md-tag--info'>⭐ 667</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Google Cloud Code](https://cloud.google.com/code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Wikipedia.org: DevOps](https://en.wikipedia.org/wiki/DevOps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kubernetes Troubleshooting Guide: Common Pitfalls and Solutions](https://autodotes.com/posts/s90PP9397WYTsAWaRapd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [DevOps Roadmap for 2026](https://github.com/milanm/DevOps-Roadmap) <span class='md-tag md-tag--info'>⭐ 19457</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [Azure App Service Auto-Heal: Capturing Relevant Data During Performance' Issues](https://techcommunity.microsoft.com/blog/appsonazureblog/azure-app-service-auto-heal-capturing-relevant-data-during-performance-issues/4390351)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Zebrium](https://www.zebrium.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Awesome Chaos Engineering](https://github.com/dastergon/awesome-chaos-engineering) <span class='md-tag md-tag--info'>⭐ 6564</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [Kubernetes Troubleshooting Guide: Common Pitfalls and Solutions](https://autodotes.com/posts/s90PP9397WYTsAWaRapd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [DevOps Made Easy: Install AWS CLI, ECS CLI, Docker & Terraform Using Chocolatey](https://dev.to/aws-builders/devops-made-easy-install-aws-cli-ecs-cli-docker-terraform-using-chocolatey-2lld)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Cloudburn: An Open-Source Policy Engine for AWS Spending](https://github.com/towardsthecloud/cloudburn) <span class='md-tag md-tag--info'>⭐ 1757</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Terraform: Get User Principal Name (UPN) of User Running Deployment without' Entra ID Read Permissions](https://build5nines.com/terraform-get-user-principal-name-upn-of-user-running-deployment-without-entra-id-read-permissions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [EntraExporter](https://github.com/microsoft/entraexporter) <span class='md-tag md-tag--info'>⭐ 860</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Platform Engineering Guide - 5 Key Use Cases of Internal Developer Platforms](https://www.techworld-with-nana.com/post/platform-engineering-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/GoogleCloudPlatform/cloud-code-samples 🌟](https://github.com/GoogleCloudPlatform/cloud-code-samples) <span class='md-tag md-tag--info'>⭐ 434</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [youtube playlist: Ansible Tutorial - by Thetips4you 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-al0Knm1A0eEXfGyd5kCi16p)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Ansible for DevOps Examples](https://github.com/geerlingguy/ansible-for-devops) <span class='md-tag md-tag--info'>⭐ 9761</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [Terraform: Get User Principal Name (UPN) of User Running Deployment without' Entra ID Read Permissions](https://build5nines.com/terraform-get-user-principal-name-upn-of-user-running-deployment-without-entra-id-read-permissions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.google.com: DevOps](https://cloud.google.com/devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Cloud Developer Tools](https://cloud.google.com/products/tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Google Cloud Code](https://cloud.google.com/code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/google-cloud/tagged/devops](https://medium.com/google-cloud/tagged/devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [reddit.com/r/devops](https://www.reddit.com/r/devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/GoogleCloudPlatform/cloud-code-samples 🌟](https://github.com/GoogleCloudPlatform/cloud-code-samples) <span class='md-tag md-tag--info'>⭐ 434</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Awesome Chaos Engineering](https://github.com/dastergon/awesome-chaos-engineering) <span class='md-tag md-tag--info'>⭐ 6564</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [DevOps Made Easy: Install AWS CLI, ECS CLI, Docker & Terraform Using Chocolatey](https://dev.to/aws-builders/devops-made-easy-install-aws-cli-ecs-cli-docker-terraform-using-chocolatey-2lld)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [devopscube.com](https://devopscube.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [The DevOps Bottleneck: Why IaC Orchestration is the Missing Piece](https://devops.com/the-devops-bottleneck-why-iac-orchestration-is-the-missing-piece)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [enterprisersproject.com: DevOps: 5 things teams need from CIOs](https://enterprisersproject.com/article/2020/7/devops-5-things-teams-need)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [redhat.com: Understanding DevOps](https://www.redhat.com/en/topics/devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [redhat.com: El concepto de DevOps](https://www.redhat.com/es/topics/devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -83,14 +82,15 @@
   - [infoq.com: Dark Side of DevOps - the Price of Shifting Left and Ways to' Make it Affordable](https://www.infoq.com/articles/devops-shifting-left)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Red Hat automation glossary 🌟](https://www.redhat.com/en/blog/red-hat-automation-glossary)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [DZone: Defining Day-2 Operations](https://dzone.com/articles/defining-day-2-operations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [10 Real-World Kubernetes Troubleshooting Scenarios and Solutions](https://livingdevops.com/devops/10-real-world-kubernetes-troubleshooting-scenarios-and-solutions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devops.com](https://devops.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [devopscube.com](https://devopscube.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devopszone.info](https://www.devopszone.info)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devopsdigest.com](https://www.devopsdigest.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devopstips.net](https://devopstips.net)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devopslearners.com](https://devopslearners.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [orange-quarter.com: Upskill yourself with these 5 DevOps resources](https://orange-quarter.com/upskill-yourself-with-these-5-devops-resources)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [mrcloudbook.com: Mr Cloud Book](https://mrcloudbook.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/DevOps-Projects-Ideas/DevOps-Books 🌟🌟](https://github.com/DevOps-Projects-Ideas/DevOps-Books) <span class='md-tag md-tag--info'>⭐ 667</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/paragpallavsingh/90DaysOfDevOps: 90DaysOfDevOps Challenge](https://github.com/paragpallavsingh/90DaysOfDevOps) <span class='md-tag md-tag--info'>⭐ 11</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.google.com: State of DevOps 2021 🌟](https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone: Configuration Drift 🌟](https://dzone.com/articles/configuration-drift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -99,7 +99,6 @@
   - [fairwinds.com: Configuration Drift in Kubernetes - What Is It and Why it' Matters 🌟](https://www.fairwinds.com/blog/configuration-drift-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [env0.com: Automated Drift Detection 🌟](https://www.env0.com/blog/automated-drift-detection-with-env0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: How Drift Detection and IaC Help Maintain a Secure Infrastructure](https://thenewstack.io/how-drift-detection-and-iac-help-maintain-a-secure-infrastructure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Wikipedia.org: DevOps](https://en.wikipedia.org/wiki/DevOps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.com: The case for making the transition from sysadmin to DevOps' engineer 🌟](https://opensource.com/article/19/7/devops-vs-sysadmin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.com: How to transition into a career as a DevOps engineer](https://opensource.com/article/19/7/how-transition-career-devops-engineer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.com: A beginner's guide to everything DevOps 🌟](https://opensource.com/article/20/2/devops-beginners)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -197,13 +196,11 @@
   - [net.connect4techs.com: What are the top DevOps trends in 2024](https://net.connect4techs.com/what-are-the-top-devops-trends-in-2024)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dynatrace.com: 9 key DevOps metrics for success - What are the four main' DevOps metrics? DORA’s Four Keys](https://www.dynatrace.com/news/blog/devops-metrics-for-success)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/keptn: DORA metrics: automatically, for all your Kubernetes workloads](https://medium.com/keptn/dora-metrics-automatically-for-all-your-kubernetes-workloads-42225f4b8515)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [DevOps Roadmap for 2026](https://github.com/milanm/DevOps-Roadmap) <span class='md-tag md-tag--info'>⭐ 19457</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [medium: The Complete DevOps RoadMap 🌟](https://medium.com/hackernoon/the-2018-devops-roadmap-31588d8670cb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: Your Roadmap to Become a DevOps Engineer in 2021](https://dev.to/kodekloud/your-roadmap-to-become-a-devops-engineer-in-2020-i1n)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [techworld-with-nana.com: DevOps Roadmap 🌟](https://www.techworld-with-nana.com/devops-roadmap)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone.com: What Is APIOps? How to Be Successful at It](https://dzone.com/articles/what-is-apiops-and-how-to-be-successful-at-apiops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [DevOps as a Service: Migrating Your Entire DevOps Stack to the Cloud](https://devops.com/devops-as-a-service-migrating-your-entire-devops-stack-to-the-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [The DevOps Bottleneck: Why IaC Orchestration is the Missing Piece](https://devops.com/the-devops-bottleneck-why-iac-orchestration-is-the-missing-piece)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Full Cycle Developers at Netflix — Operate What You Build](https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Applying Netflix DevOps Patterns to Windows](https://netflixtechblog.com/applying-netflix-devops-patterns-to-windows-2a57f2dbbf79)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [datacenterdynamics.com: Why NetOps needs a digital sandbox to benefit from' DevOps](https://www.datacenterdynamics.com/en/opinions/why-netops-needs-a-digital-sandbox-to-benefit-from-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -217,6 +214,7 @@
   - [blogs.sap.com: A Practical Guide to DevOps for SAP ERP](https://blogs.sap.com/2021/12/13/a-practical-guide-to-devops-for-sap-erp)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube playlist: DevOps - SonarQube, Artifactory, JFrog, Jenkins, Maven,' etc 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-akoYTAboxT1AbHlPmrvRYYZ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube playlist: Docker 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-amqyqHceAhkcsopzi4PFcKc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [youtube playlist: Ansible Tutorial - by Thetips4you 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-al0Knm1A0eEXfGyd5kCi16p)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube playlist: Kubernetes 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-akr_3XqQQgpqRyQw4GYuS4h)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [platformengineering.org](https://platformengineering.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io/platform-engineering](https://thenewstack.io/platform-engineering)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -256,6 +254,7 @@
   - [Atlassian Compass](https://www.atlassian.com/software/compass)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/KusionStack/kusion](https://github.com/KusionStack/kusion) <span class='md-tag md-tag--info'>⭐ 1306</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Infrastructure as Code in DevOps](https://alpacked.io/blog/infrastructure-as-code-for-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [reddit.com/r/devops](https://www.reddit.com/r/devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Agentic Engineering
 
@@ -372,5 +371,5 @@ Live Grounding: Features structural overviews of AWS CodePipeline, CodeBuild, an
   - [tecmint.com 🌟](https://www.tecmint.com)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An extensive, highly active Linux documentation repository delivering step-by-step guides on server administration, shell scripting, and infrastructure configuration for sysadmins and DevOps engineers.
 
 ---
-💡 **Explore Related:** [QA](./qa.md) | [Project Management Methodology](./project-management-methodology.md) | [Developerportals](./developerportals.md)
+💡 **Explore Related:** [Project Management Methodology](./project-management-methodology.md) | [Scaffolding](./scaffolding.md) | [Chaos Engineering](./chaos-engineering.md)
 
