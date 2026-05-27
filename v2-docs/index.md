@@ -2,14 +2,28 @@
 
 <div style="display: flex; justify-content: center; gap: 24px; margin: 16px 0; flex-wrap: wrap;">
   <a href="./kubernetes.html" style="text-decoration: none; color: inherit; display: block;">
-    <div class="hero-badge-card">
+    <div class="hero-badge-card hero-badge-card--cyan">
       <img src="images/kubernetes_logo.png" alt="Kubernetes"/>
       <div class="hero-badge-title">Ecosystem Core</div>
       <div class="hero-badge-subtitle">Explore Kubernetes</div>
     </div>
   </a>
+  <a href="./ai-agents-mcp.html" style="text-decoration: none; color: inherit; display: block;">
+    <div class="hero-badge-card hero-badge-card--purple">
+      <img src="images/ai_agents_logo.png" alt="AI & MCP Agents"/>
+      <div class="hero-badge-title">AI & MCP Agents</div>
+      <div class="hero-badge-subtitle">Agentic Ecosystem</div>
+    </div>
+  </a>
+  <a href="./videos.html" style="text-decoration: none; color: inherit; display: block;">
+    <div class="hero-badge-card hero-badge-card--pink">
+      <img src="images/video_hub_logo.png" alt="Agentic Video Hub"/>
+      <div class="hero-badge-title">Agentic Video Hub</div>
+      <div class="hero-badge-subtitle">Architect Video Library</div>
+    </div>
+  </a>
   <a href="./introduction.html" style="text-decoration: none; color: inherit; display: block;">
-    <div class="hero-badge-card">
+    <div class="hero-badge-card hero-badge-card--teal">
       <img src="images/hero-car.png" alt="Nubenetes Car"/>
       <div class="hero-badge-title">Get Started</div>
       <div class="hero-badge-subtitle">Introduction Guide</div>
