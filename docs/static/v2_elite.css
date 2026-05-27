@@ -194,3 +194,48 @@ a {
   border-radius: 4px;
 }
 
+/* V2 Homepage Hero Dashboard Cards */
+.hero-badge-card {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 16px;
+  width: 180px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.015);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-block;
+  cursor: pointer;
+  vertical-align: top;
+}
+
+.hero-badge-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 8px;
+  transition: transform 0.3s ease;
+}
+
+.hero-badge-card:hover {
+  transform: translateY(-4px);
+  background: rgba(34, 211, 238, 0.04) !important;
+  box-shadow: 0 8px 24px rgba(34, 211, 238, 0.15);
+  border-color: #22d3ee !important;
+}
+
+.hero-badge-card:hover img {
+  transform: scale(1.1);
+}
+
+.hero-badge-title {
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: var(--md-primary-fg-color);
+}
+
+.hero-badge-subtitle {
+  font-size: 0.75rem;
+  color: var(--md-primary-fg-color--dark);
+  margin-top: 4px;
+}
+
