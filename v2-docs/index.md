@@ -1,21 +1,8 @@
 # Nubenetes Elite Portal (V2) | Awesome Kubernetes & Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-<div style="display: flex; justify-content: center; gap: 24px; margin: 16px 0; flex-wrap: wrap;">
-  <a href="./kubernetes.md" style="text-decoration: none; color: inherit; display: block;">
-    <div class="hero-badge-card">
-      <img src="images/kubernetes_logo.png" alt="Kubernetes"/>
-      <div class="hero-badge-title">Ecosystem Core</div>
-      <div class="hero-badge-subtitle">Explore Kubernetes</div>
-    </div>
-  </a>
-  <a href="./introduction.md" style="text-decoration: none; color: inherit; display: block;">
-    <div class="hero-badge-card">
-      <img src="images/hero-car.png" alt="Nubenetes Car"/>
-      <div class="hero-badge-title">Get Started</div>
-      <div class="hero-badge-subtitle">Introduction Guide</div>
-    </div>
-  </a>
-</div>
+<center markdown="1">
+[![Kubernetes Logo](images/kubernetes_logo.png)](https://kubernetes.io) &nbsp; [![Nubenetes Introduction](images/hero-car.png)](./introduction.md)
+</center>
 
 "I do not believe you can do today's job with yesterday's methods and be in business tomorrow" ([Horatio Nelson Jackson](https://en.wikipedia.org/wiki/Horatio_Nelson_Jackson))
 <center markdown="1">
