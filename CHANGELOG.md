@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.3.12]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.12) - 2026-05-27
+
+### Added
+- **Homepage YouTube Mosaic Reorganization**: Reorganized the visual channels mosaic on V1 and V2 homepages into logical technology categories (e.g., AI & Advanced Tech, Cloud Providers, Cloud Native, etc.).
+- **Mosaic Database Schema**: Introduced `data/youtube_channels_mosaic.yaml` to catalog and preserve the channel classification directly in the repository configuration.
+
 ## [[2.3.11]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.11) - 2026-05-27
 
 ### Added
