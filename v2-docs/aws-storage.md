@@ -26,6 +26,7 @@
   - [infoq.com: AWS Transfer Family Introduces Support for EFS](https://www.infoq.com/news/2021/01/aws-transfer-ftp-efs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reports on the strategic integration between AWS Transfer Family (SFTP/FTPS/FTP) and EFS. Enables developers to expose shared file systems securely directly to remote partners without managing SFTP instance clusters.
 #### Amazon S3
 
+  - **(2023)** [**blog.awsfundamentals.com: AWS S3 Sync - An Extensive Guide**](https://awsfundamentals.com/blog/aws-s3-sync) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A detailed, high-density guide on utilizing the aws s3 sync CLI command. Includes performance tuning parameters like concurrency configs, exclusion patterns, and handling large scales securely.
   - **(2021)** [acloudguru.com: S3 Glacier Instant Retrieval deep dive: Which S3 Storage Class is right for me?](https://www.pluralsight.com/resources/blog/cloud/s3-glacier-instant-retrieval-deep-dive-which-s3-storage-class-is-right-for-me) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive into S3 Glacier Instant Retrieval, analyzing costs and access latency. Explains the strategic sweet spot of the tier for archival data that requires millisecond retrieval speeds without standard Glacier delays.
   - [S3 FAQ](https://aws.amazon.com/s3/faqs) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official AWS documentation addressing technical details of Simple Storage Service (S3). Provides absolute specifications for consistency models, replication capabilities, access control lists, and durability guarantees.
   - [cloudkatha.com: Is S3 Region Specific or Global? What do you think?](https://cloudkatha.com/is-s3-region-specific-or-global-what-do-you-think)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Clarifies the architectural paradox of Amazon S3's namespace being globally unique while data is stored physically in regional clusters. Details the implications on DNS, endpoint routing, and latency.
@@ -58,5 +59,5 @@
 *   Acts as a foundational storage engine for large-scale Kubernetes PV platforms (Rook-Ceph) and private clouds.
 
 ---
-💡 **Explore Related:** [AWS Tools Scripts](./aws-tools-scripts.md) | [Azure](./azure.md) | [AWS](./aws.md)
+💡 **Explore Related:** [AWS Security](./aws-security.md) | [AWS Databases](./aws-databases.md) | [AWS Backup](./aws-backup.md)
 
