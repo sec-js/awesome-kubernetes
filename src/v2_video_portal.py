@@ -85,8 +85,8 @@ def generate_v2_videos():
             if tech not in seen_techs:
                 seen_techs.append(tech)
         for tech in seen_techs:
-            clean_tech = clean_header(tech)
-            tech_slug = get_slug(tech)
+            clean_tech = clean_header(f"{tech} ({cat})")
+            tech_slug = get_slug(f"{tech} ({cat})")
             content.append(f"    - [{clean_tech}](#{tech_slug})")
 
     content.append("")
@@ -111,8 +111,8 @@ def generate_v2_videos():
             tech_groups[tech].append(v)
             
         for tech in tech_order:
-            clean_tech = clean_header(tech)
-            tech_slug = get_slug(tech)
+            clean_tech = clean_header(f"{tech} ({cat})")
+            tech_slug = get_slug(f"{tech} ({cat})")
             content.append(f"### {clean_tech}")
             
             for v in tech_groups[tech]:
