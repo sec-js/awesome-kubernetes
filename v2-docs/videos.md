@@ -253,6 +253,16 @@ Welcome to the **Agentic Video Hub**. This section presents a logical, architect
 
     </center>
 
+??? note "🎬 Remote VS Code with Dev Tunnels: access the editor from your browser | `VS Code`"
+    !!! info "Architectural Summary"
+        In this tutorial, Gisela Torres explains the architecture and application of VS Code Dev Tunnels to enable secure remote access to local development environments. Dev Tunnels establish a secure, encrypted connection to VS Code without requiring complex VPNs or firewall modifications, allowing developers to connect from any web browser or secondary editor instance. For 2026 developer productivity, this simplifies remote workspace orchestration and collaborative debugging in cloud-native platforms. [SPANISH CONTENT]
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/niuJpAKyb7c" title="Remote VS Code with Dev Tunnels: access the editor from your browser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
 ## Fundamentals and Documentaries
 ??? note "🎬 Kubernetes: The Documentary [PART 1] | `Kubernetes`"
     !!! info "Architectural Summary"
