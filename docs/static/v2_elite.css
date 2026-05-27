@@ -220,14 +220,52 @@ a {
 
 .hero-badge-card:hover {
   transform: translateY(-4px);
-  background: rgba(34, 211, 238, 0.04) !important;
-  box-shadow: 0 8px 24px rgba(34, 211, 238, 0.15);
-  border-color: #22d3ee !important;
 }
 
 .hero-badge-card:hover img {
   transform: scale(1.15);
   filter: brightness(1.25);
+}
+
+/* Modifiers for custom theme accents */
+.hero-badge-card--cyan {
+  border-color: rgba(34, 211, 238, 0.15);
+  background: rgba(34, 211, 238, 0.015);
+}
+.hero-badge-card--cyan:hover {
+  background: rgba(34, 211, 238, 0.04) !important;
+  box-shadow: 0 8px 24px rgba(34, 211, 238, 0.15);
+  border-color: #22d3ee !important;
+}
+
+.hero-badge-card--purple {
+  border-color: rgba(139, 92, 246, 0.15);
+  background: rgba(139, 92, 246, 0.015);
+}
+.hero-badge-card--purple:hover {
+  background: rgba(139, 92, 246, 0.04) !important;
+  box-shadow: 0 8px 24px rgba(139, 92, 246, 0.15);
+  border-color: #a78bfa !important;
+}
+
+.hero-badge-card--pink {
+  border-color: rgba(236, 72, 153, 0.15);
+  background: rgba(236, 72, 153, 0.015);
+}
+.hero-badge-card--pink:hover {
+  background: rgba(236, 72, 153, 0.04) !important;
+  box-shadow: 0 8px 24px rgba(236, 72, 153, 0.15);
+  border-color: #f472b6 !important;
+}
+
+.hero-badge-card--teal {
+  border-color: rgba(20, 184, 166, 0.15);
+  background: rgba(20, 184, 166, 0.015);
+}
+.hero-badge-card--teal:hover {
+  background: rgba(20, 184, 166, 0.04) !important;
+  box-shadow: 0 8px 24px rgba(20, 184, 166, 0.15);
+  border-color: #2dd4bf !important;
 }
 
 .hero-badge-title {

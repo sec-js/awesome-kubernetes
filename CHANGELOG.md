@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.3.18]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.18) - 2026-05-27
+
+### Added
+- **4-Card Hero Dashboard**: Expanded the V2 homepage header from two to four interactive dashboard cards, adding entry points for "AI & MCP Agents" (with custom purple glow) and "Agentic Video Hub" (with custom pink glow). Improved visual layout structure and updated all card links to point directly to `.html` destinations to prevent 404 compilation target errors.
+
 ## [[2.3.17]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.17) - 2026-05-27
 
 ### Changed
