@@ -16,12 +16,9 @@
   - [appsecengineer.com: Kubernetes Policy Management with Kyverno](https://www.appsecengineer.com/courses-collection/kubernetes-policy-management-with-kyverno)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Apolicy](https://www.sysdig.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [sysdig.com: Sysdig and Apolicy join forces to help customers secure Infrastructure As Code and automate remediation](https://www.sysdig.com/blog/sysdig-and-apolicy-join-forces-to-help-customer-secure-infrastructure-as-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [IBM Vault 2.0 UI Enhancements and Reporting Improvements](https://t.co/cvOceuueCF)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Web-Check](https://web-check.xyz)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [IBM IAM for AI Agents](https://t.co/EKsVgKA4xn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [MagTape](https://github.com/tmobile/magtape) <span class='md-tag md-tag--info'>⭐ 152</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Azure Network Security Perimeter Concepts](https://learn.microsoft.com/en-us/azure/private-link/network-security-perimeter-concepts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Docker Hardened Images for Every Developer](https://www.docker.com/blog/docker-hardened-images-for-every-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [MagTape](https://github.com/tmobile/magtape) <span class='md-tag md-tag--info'>⭐ 152</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Web-Check](https://web-check.xyz)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [amazon.com: Policy-based countermeasures for Kubernetes – Part 1](https://aws.amazon.com/blogs/containers/policy-based-countermeasures-for-kubernetes-part-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Automate policies enforcement with Policy-as-Code 🌟](https://medium.com/airwalk/automate-policies-enforcement-with-policy-as-code-2f20aac9e2b0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.gitguardian.com: What is Policy-as-Code? An Introduction to Open Policy' Agent](https://blog.gitguardian.com/what-is-policy-as-code-an-introduction-to-open-policy-agent)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -50,6 +47,9 @@
   - [blog.styra.com: Using OPA with GitOps to speed Cloud-Native development](https://blog.styra.com/blog/using-opa-with-gitops-to-speed-cloud-native-development)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/gitguardian: What is Policy-as-Code? An Introduction to Open' Policy Agent](https://medium.com/gitguardian/what-is-policy-as-code-an-introduction-to-open-policy-agent-dba1400bb030)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hashicorp.com: Securing Infrastructure In Application Pipelines](https://www.hashicorp.com/resources/securing-infrastructure-in-application-pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [IBM IAM for AI Agents](https://t.co/EKsVgKA4xn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [IBM Vault 2.0 UI Enhancements and Reporting Improvements](https://t.co/cvOceuueCF)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Docker Hardened Images for Every Developer](https://www.docker.com/blog/docker-hardened-images-for-every-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Yor Automates Tagging for Infrastructure as Code](https://thenewstack.io/yor-automates-tagging-for-infrastructure-as-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [yor.io](https://yor.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [checkov.io](https://www.checkov.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -95,6 +95,13 @@
 *   Eliminates the need for complex DSLs like Rego.
 *   Simplifies admission control, generation, mutation, and validation of workloads.
   - [kyverno.io: 56 sample policies 🌟](https://kyverno.io/policies) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A rich library of ready-to-use Kyverno policy definitions. These templates address common cloud security standards (Pod Security Standards, multi-tenancy constraints, best practices, and resource optimization parameters) for instant cluster hardening.
+## Cloud Native Security
+
+### Policy Enforcement
+
+#### Open Policy Agent
+
+  - **(2021)** [infracloud.io: Kubernetes Pod Security Policies with Open Policy Agent](https://www.infracloud.io/blogs/kubernetes-pod-security-policies-opa) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Addresses the transition from obsolete Kubernetes Pod Security Policies (PSPs) to Open Policy Agent (OPA) Gatekeeper. Explores how to leverage declarative constraints using the Rego engine to strictly manage admission control actions.
 ## Identity and Access Management
 
 ### Cloud IAM
@@ -102,6 +109,13 @@
 #### Microsoft Entra
 
   - [Configure Microsoft Entra for Increased Security](https://learn.microsoft.com/en-us/entra/fundamentals/configure-security) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Official documentation outlines hardening parameters for Microsoft Entra ID. Features prescriptive blueprints for setting up conditional access, continuous access evaluation, Multi-Factor Authentication (MFA), and role-based identity management.
+## Platform Engineering
+
+### Site Reliability Engineering
+
+#### Foundations
+
+  - **(2024)** [itprotoday.com: Why Site Reliability Engineering Is Key to Modern DevOps](https://www.techtarget.com/searchcio/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An executive analysis examining why SRE architecture is a vital component of any modern, high-density DevOps delivery system trying to limit service down-time.
 ## Public Cloud Platforms
 
 ### AWS
@@ -120,5 +134,5 @@
   - [GitHub Code Security Risk Assessment: Free Vulnerability Scanning](https://github.blog/security/application-security/how-exposed-is-your-code-find-out-in-minutes-for-free) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introduction to GitHub's native, free vulnerability scanning tools designed to locate security regressions, secrets, and supply chain threats directly within the code repository. It highlights automated security alerts and quick enablement configurations.
 
 ---
-💡 **Explore Related:** [Kubernetes Security](./kubernetes-security.md) | [Devsecops](./devsecops.md) | [Kustomize](./kustomize.md)
+💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Ansible](./ansible.md)
 
