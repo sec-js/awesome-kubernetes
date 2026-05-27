@@ -5,22 +5,24 @@
 
 ## Standard Reference
 
+  - [kubernetesbyexample.com 🌟](http://kubernetesbyexample.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [millionvisit.blogspot.com: Kubernetes for Developers #1: Kubernetes Architecture and Features 🌟](http://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-1-kubernetes-architecture.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Intoduction to Kubernetes (slides, beginners and advanced)](https://docs.google.com/presentation/d/1zrfVlE5r61ZNQrmXKx5gJmBcXnoa_WerHEnTxu5SMco/edit)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [millionvisit.blogspot.com: Kubernetes for Developers #1: Kubernetes Architecture and Features](http://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-1-kubernetes-architecture.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [millionvisit.blogspot.com: Kubernetes for Developers #2: Kubernetes for Local Development](http://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-2-Local-development.html)
-    - [millionvisit.blogspot.com: Kubernetes for Developers #3: kubectl CLI](http://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-3-kubectl-cli.html)
-    - [millionvisit.blogspot.com: Kubernetes for Developers #4: Enable kubectl bash autocompletion](http://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-4-kubectl-autocompletion.html)
-    - [millionvisit.blogspot.com: Kubernetes for Developers #5: Kubernetes Web UI Dashboard](http://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-5-webui-dashboard.html)
-    - [millionvisit.blogspot.com: Kubernetes for Developers #6: Kubernetes Objects](http://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-6-KubernetesObjects.html)
-    - [millionvisit.blogspot.com: Kubernetes for Developers #7: Imperative vs. Declarative Kubernetes Objects](http://millionvisit.blogspot.com/2021/01/kubernetes-for-developers-7-imperative-vs-Declarative.html)
-    - [millionvisit.blogspot.com: Kubernetes for Developers #9: Kubernetes Pod Lifecycle](http://millionvisit.blogspot.com/2021/03/kubernetes-for-developers-9-Kubernetes-Pod-Lifecycle.html)
-    - [millionvisit.blogspot.com: Kubernetes for Developers #10: Kubernetes Pod YAML manifest in-detail](http://millionvisit.blogspot.com/2021/03/kubernetes-for-developers-10-kubernetes-Pod-YAML-manifest.html)
-    - [millionvisit.blogspot.com: Kubernetes for Developers #14: Kubernetes Deployment YAML manifest in-detail](http://millionvisit.blogspot.com/2021/05/kubernetes-for-developers-14-Kubernetes-Deployment-YAML-manifest.html)
   - [educative.io/courses/the-kubernetes-course: Learn Kubernetes: A Deep Dive 🌟🌟🌟](https://www.educative.io/courses/learn-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [kubernetesbyexample.com](http://kubernetesbyexample.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devopswithkubernetes.com](https://courses.mooc.fi/org/uh-cs/courses/devops-with-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Openshift Baremetal - Installer's Bake-off: Agent vs Assisted vs IPI](https://www.youtube.com/watch?si=vK_9UKjGV8F24Ebt&v=1v15VSKPZRU&feature=youtu.be)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kubernetes para principiantes - La guía definitiva para principiantes absolutos](https://www.youtube.com/playlist?list=PLaR6Rq6Z4IqcKOKT4c0uGkBt3YSRQ9S5v&si=qGpgMP56yagniZx8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloudogu/k8s-diagrams](https://github.com/cloudogu/k8s-diagrams) <span class='md-tag md-tag--info'>⭐ 339</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Open Source Friday: Spec Kit - What it is, the problems it solves, and how' clear specs make collaboration work](https://www.youtube.com/live/2IArMAhkJcE?si=_LlIjakRXHUzERjy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kubernetes Troubleshooting: A Step-by-Step Guide](https://www.cncf.io/blog/2025/03/13/kubernetes-troubleshooting-a-step-by-step-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kubernetes Troubleshooting Guide: Common Pitfalls and Solutions](https://autodotes.com/posts/s90PP9397WYTsAWaRapd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kubernetes Services and Load Balancing Explained](https://learnkube.com/kubernetes-services-and-load-balancing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [wardviaene/kubernetes-course](https://github.com/wardviaene/kubernetes-course) <span class='md-tag md-tag--info'>⭐ 1735</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Automating Kubernetes Deployments with Helm Charts](https://blog.devops.dev/automating-kubernetes-deployments-with-helm-charts-baaec0e6fbc5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [What is Podman and How Does it Compare to Docker?](https://build5nines.com/what-is-podman-and-how-does-it-compare-to-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [DevOps Roadmap for 2026](https://github.com/milanm/DevOps-Roadmap) <span class='md-tag md-tag--info'>⭐ 19457</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [medium.com/javarevisited: 8 Best Free Kubernetes Courses for Beginners in' 2022](https://medium.com/javarevisited/7-free-online-courses-to-learn-kubernetes-in-2020-3b8a68ec7abc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes.io: Kubernetes Tutorials](https://kubernetes.io/docs/tutorials)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devopscube.com: Kubernetes Tutorials For Beginners: Getting Started Guide](https://devopscube.com/kubernetes-tutorials-beginners)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com: Kubernetes 101: Pods, Nodes, Containers, and Clusters](https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -61,18 +63,8 @@
   - [kodekloud.com](https://kodekloud.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [training.linuxfoundation.org: Introduction to Kubernetes (LFS158x)](https://training.linuxfoundation.org/training/introduction-to-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [civo.com/academy 🌟🌟🌟](https://www.civo.com/academy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/javarevisited: 8 Best Free Kubernetes Courses for Beginners in' 2022](https://medium.com/javarevisited/7-free-online-courses-to-learn-kubernetes-in-2020-3b8a68ec7abc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [udemy.com: Just enough kubernetes to be dangerous (free)](https://www.udemy.com/course/just-enough-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Kubernetes Troubleshooting: A Step-by-Step Guide](https://www.cncf.io/blog/2025/03/13/kubernetes-troubleshooting-a-step-by-step-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Kubernetes Troubleshooting Guide: Common Pitfalls and Solutions](https://autodotes.com/posts/s90PP9397WYTsAWaRapd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Kubernetes Services and Load Balancing Explained](https://learnkube.com/kubernetes-services-and-load-balancing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloudogu/k8s-diagrams](https://github.com/cloudogu/k8s-diagrams) <span class='md-tag md-tag--info'>⭐ 339</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [DevOps Roadmap for 2026](https://github.com/milanm/DevOps-Roadmap) <span class='md-tag md-tag--info'>⭐ 19457</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
-  - [What is Podman and How Does it Compare to Docker?](https://build5nines.com/what-is-podman-and-how-does-it-compare-to-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [exploreneptune.io 🌟](https://exploreneptune.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Open Source Friday: Spec Kit - What it is, the problems it solves, and how' clear specs make collaboration work](https://www.youtube.com/live/2IArMAhkJcE?si=_LlIjakRXHUzERjy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [wardviaene/kubernetes-course](https://github.com/wardviaene/kubernetes-course) <span class='md-tag md-tag--info'>⭐ 1735</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Cloud Providers
 
@@ -129,5 +121,5 @@
   - [Red Hat Training & Certification Community](https://access.redhat.com/community/learn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official educational resources and certification preparation portal curated by Red Hat. Serves as a vital reference for mastering OpenShift and enterprise Linux engineering architectures.
 
 ---
-💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Cheatsheets](./cheatsheets.md) | [Git](./git.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Mkdocs](./mkdocs.md) | [Demos](./demos.md)
 

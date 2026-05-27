@@ -35,4 +35,18 @@ reset max-width with the following CSS: */
 .someid { color: green; }
 */
 
+.channel-logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  margin: 6px;
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), filter 0.25s ease;
+  vertical-align: middle;
+}
+
+.channel-logo:hover {
+  transform: scale(1.15);
+  filter: brightness(1.2);
+}
+
 

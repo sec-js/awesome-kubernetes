@@ -96,6 +96,7 @@ Live Grounding: Provides practical code examples of utilizing Tekton for buildin
   - [developers.redhat.com: Getting started with the fabric8 Kubernetes Java' client](https://developers.redhat.com/blog/2020/05/20/getting-started-with-the-fabric8-kubernetes-java-client) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical introduction to utilizing the Fabric8 Kubernetes Java Client SDK. Details how to perform CRUD operations on Kubernetes APIs, deploy custom controllers, and stream container logs inside Java runtimes.
 #### Maven Plugins
 
+  - **(2025)** [Eclipse JKube 🌟](https://eclipse.dev/jkube) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The central documentation portal for Eclipse JKube, an open-source suite of tooling designed to facilitate the rapid containerization, deployment, and management of Java applications across Kubernetes and Red Hat OpenShift infrastructures.
   - **(2025)** [GitHub: Eclipse JKube](https://github.com/eclipse-jkube/jkube) <span class='md-tag md-tag--info'>⭐ 850</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Active repository containing the source code, extensions, and Maven/Gradle plugins for Eclipse JKube. Simplifies localized builds, auto-detects Java application frameworks, and generates matching Kubernetes resource configurations.
 #### Source-to-Image
 
@@ -107,5 +108,5 @@ Live Grounding: Provides practical code examples of utilizing Tekton for buildin
   - **(2021)** [openshift.com: Using OpenShift Pipelines to Automate Red Hat Advanced Cluster Security for Kubernetes](https://www.redhat.com/en/blog/using-openshift-pipelines-to-automate-red-hat-advanced-cluster-security-for-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines deployment strategies of Red Hat Advanced Cluster Security (RHACS) directly into Tekton-based OpenShift Pipelines. Demonstrates early container image scanning, compliance validations, and proactive security gate blocking.
 
 ---
-💡 **Explore Related:** [Registries](./registries.md) | [Jenkins](./jenkins.md) | [CI/CD](./cicd.md)
+💡 **Explore Related:** [Gitops](./gitops.md) | [Flux](./flux.md) | [Argo](./argo.md)
 

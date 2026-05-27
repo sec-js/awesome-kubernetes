@@ -32,7 +32,7 @@ def build_mosaic_markdown(yaml_path):
         # Channel links
         chan_links = []
         for chan in cat['channels']:
-            chan_links.append(f"[![{chan['title']}]({chan['image']}){{: style=\"width:7%\"}}]({chan['url']})")
+            chan_links.append(f"[![{chan['title']}]({chan['image']}){{: style=\"width:48px; height:48px; object-fit:contain; margin:6px;\" .channel-logo}}]({chan['url']})")
         
         lines.append(" ".join(chan_links))
         lines.append('')

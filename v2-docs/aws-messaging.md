@@ -15,5 +15,5 @@
 
 
 ---
-💡 **Explore Related:** [AWS Security](./aws-security.md) | [AWS Storage](./aws-storage.md) | [AWS Databases](./aws-databases.md)
+💡 **Explore Related:** [AWS Tools Scripts](./aws-tools-scripts.md) | [Azure](./azure.md) | [AWS](./aws.md)
 

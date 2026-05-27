@@ -5,7 +5,6 @@
 
 ## Standard Reference
 
-  - [Part 4 — Using the Go client framework](https://medium.com/programming-kubernetes/building-stuff-with-the-kubernetes-api-part-4-using-go-b1d0e3c1c899)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cdk8s](https://github.com/cdk8s-team/cdk8s) <span class='md-tag md-tag--info'>⭐ 4813</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [github.com/kubernetes-client 🌟](https://github.com/kubernetes-client)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Building stuff with the Kubernetes API — TOC 🌟](https://medium.com/programming-kubernetes/building-stuff-with-the-kubernetes-api-toc-84d751876650)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -37,6 +36,7 @@
   - [blog.marcnuri.com](https://blog.marcnuri.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: How to manage microservices using OpenShift Dev Spaces' and JKube](https://developers.redhat.com/developer-sandbox/activities/how-to-manage-microservices-using-openshift-dev-spaces-and-jkube)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [javaoperatorsdk.io: Build Kubernetes Operators in Java without hassle](https://javaoperatorsdk.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Part 4 — Using the Go client framework](https://medium.com/programming-kubernetes/building-stuff-with-the-kubernetes-api-part-4-using-go-b1d0e3c1c899)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Cloud-Native
 
@@ -76,5 +76,5 @@
   - **(2025)** [GitHub: Eclipse JKube](https://github.com/eclipse-jkube/jkube) <span class='md-tag md-tag--info'>⭐ 850</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Active repository containing the source code, extensions, and Maven/Gradle plugins for Eclipse JKube. Simplifies localized builds, auto-detects Java application frameworks, and generates matching Kubernetes resource configurations.
 
 ---
-💡 **Explore Related:** [Container Managers](./container-managers.md) | [Kubernetes Monitoring](./kubernetes-monitoring.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
+💡 **Explore Related:** [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Openshift](./openshift.md)
 
