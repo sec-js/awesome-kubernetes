@@ -5,10 +5,10 @@
 
 ## Standard Reference
 
+  - [jaxenter.com: CI/CD for Spring Boot Microservices: Part 2. Extending CI/CD: Kubernetes Continuous Deployment for Microservices](https://devm.io/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openshift.com: Metrics-Driven Pod Constraints](https://www.redhat.com/en/blog/metrics-driven-pod-constraints)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [CISCO DNA Center with Grafana Dashboard](https://hawar.no/2021/05/cisco-dna-center-with-grafana-dashboard)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [percona.com: Tips for Designing Grafana Dashboards](https://www.percona.com/blog/designing-grafana-dashboards)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Grafana 7.0: “We’ve built one of the best visualisation tools and it’s not tied to any one database”](https://devm.io/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [grafana.com: Grafana Labs and Microsoft partner to deliver new first party Microsoft Azure service](https://grafana.com/press/2021/11/10/grafana-labs-and-microsoft-partner-to-deliver-new-first-party-microsoft-azure-service)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [grafana.com: Grafana 9.3 feature: Grafana OAuth token improvements](https://grafana.com/oss/grafana/?mdm=social)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [magalix.com: Monitoring Kubernetes Clusters Through Prometheus & Grafana' 🌟](https://www.magalix.com/blog/monitoring-of-kubernetes-cluster-through-prometheus-and-grafana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -60,5 +60,5 @@
 
 
 ---
-💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Mkdocs](./mkdocs.md) | [Demos](./demos.md)
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Cheatsheets](./cheatsheets.md) | [Git](./git.md)
 

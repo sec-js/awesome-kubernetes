@@ -10,5 +10,5 @@
 
 
 ---
-💡 **Explore Related:** [Gitops](./gitops.md) | [Flux](./flux.md) | [Argo](./argo.md)
+💡 **Explore Related:** [Registries](./registries.md) | [Jenkins](./jenkins.md) | [CI/CD](./cicd.md)
 

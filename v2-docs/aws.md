@@ -29,10 +29,15 @@
   - [Working with the AWS Management Console](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Cloud Adoption Framework (AWS CAF)](https://aws.amazon.com/cloud-adoption-framework)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Convert AWS console actions to reusable code with AWS Console-to-Code, now generally available](https://aws.amazon.com/blogs/aws/convert-aws-console-actions-to-reusable-code-with-aws-console-to-code-now-generally-available/?trk=0d3532c8-5f49-4c86-9683-96c2417e9b4b&sc_channel=el)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Awesome AWS 🌟](https://github.com/donnemartin/awesome-aws) <span class='md-tag md-tag--info'>⭐ 14033</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [Introducing Kiro: AWS Agentic AI-Based IDE](https://markrosscloud.medium.com/introducing-kiro-aws-agentic-ai-based-ide-cded711b1409)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [docs.aws.amazon.com: Actions, resources, and condition keys for AWS services' 🌟🌟🌟](https://docs.aws.amazon.com/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/towards-cloud-computing: 7 Free AWS Practice Labs and AWS Workshops' resources](https://medium.com/towards-cloud-computing/7-free-aws-practice-labs-and-aws-workshops-resources-d0a861f05d3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Cloudburn: An Open-Source Policy Engine for AWS Spending](https://github.com/towardsthecloud/cloudburn) <span class='md-tag md-tag--info'>⭐ 1757</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Cloud Products](https://aws.amazon.com/products)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Enhanced Local IDE Experience for AWS Step Functions](https://aws.amazon.com/blogs/compute/introducing-an-enhanced-local-ide-experience-for-aws-step-functions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [docs.aws.amazon.com: Actions, resources, and condition keys for AWS services' 🌟🌟🌟](https://docs.aws.amazon.com/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Terraform for Standardizing AWS Deployments](https://t.co/5E4FLUyh98)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [DevOps Made Easy: Install AWS CLI, ECS CLI, Docker & Terraform Using Chocolatey](https://dev.to/aws-builders/devops-made-easy-install-aws-cli-ecs-cli-docker-terraform-using-chocolatey-2lld)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Awesome AWS 🌟](https://github.com/donnemartin/awesome-aws) <span class='md-tag md-tag--info'>⭐ 14033</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [AWS Local Zones locations](https://aws.amazon.com/about-aws/global-infrastructure/localzones/locations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [aws.amazon.com/new: What's New with AWS?](https://aws.amazon.com/new)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [repost.aws 🌟](https://repost.aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -74,14 +79,12 @@
   - [dev.to: Best Practices When Designing AWS Architecture 🌟🌟](https://dev.to/aws-builders/best-practices-when-designing-aws-architecture-4c8d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [mrdevops.hashnode.dev: How to Create EC2 Instance in AWS: Step by Step' Tutorial](https://mrdevops.hashnode.dev/how-to-create-ec2-instance-in-aws-step-by-step-tutorial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: AWS Publishes Reference Architecture and Implementations for' Deployment Pipelines](https://www.infoq.com/news/2023/02/aws-deployment-pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [DevOps Made Easy: Install AWS CLI, ECS CLI, Docker & Terraform Using Chocolatey](https://dev.to/aws-builders/devops-made-easy-install-aws-cli-ecs-cli-docker-terraform-using-chocolatey-2lld)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Jayendra's Blog 🌟🌟](https://jayendrapatil.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [aws.plainenglish.io](https://aws.plainenglish.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWStip.com](https://awstip.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Everything AWS | Search and discover 6K+ quality AWS repositories](https://app.polymersearch.com/discover/aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Courses created by AWS experts](https://www.amazon.com/b/?node=14297978011)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: Many free and useful AWS official Dev and User guides!](https://dev.to/aws-builders/many-free-and-useful-aws-official-dev-and-user-guides-54ci)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/towards-cloud-computing: 7 Free AWS Practice Labs and AWS Workshops' resources](https://medium.com/towards-cloud-computing/7-free-aws-practice-labs-and-aws-workshops-resources-d0a861f05d3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [vladionescu.me: Scaling containers on AWS in 2022 (comparison)](https://www.vladionescu.me/posts/scaling-containers-on-aws-in-2022)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [bitmovin: Improving Video Quality on the Web](https://medium.com/aws-activate-startup-blog/bitmovin-improving-video-quality-on-the-web-8670039c4334)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [What Startups Should Know about Amazon VPC — Part 1](https://medium.com/aws-activate-startup-blog/what-startups-should-know-about-amazon-vpc-part-1-bebe94b7f228)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -93,10 +96,7 @@
   - [AWS Webinar Channel](https://www.youtube.com/user/AWSwebinars)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Podcasts](https://aws.amazon.com/podcasts/aws-podcast)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Techchat](https://aws.amazon.com/podcasts/aws-techchat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Enhanced Local IDE Experience for AWS Step Functions](https://aws.amazon.com/blogs/compute/introducing-an-enhanced-local-ide-experience-for-aws-step-functions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [The AWS Developer Blog now includes Python & GoLang](https://aws.amazon.com/blogs/developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Terraform for Standardizing AWS Deployments](https://t.co/5E4FLUyh98)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Cloudburn: An Open-Source Policy Engine for AWS Spending](https://github.com/towardsthecloud/cloudburn) <span class='md-tag md-tag--info'>⭐ 1757</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Top 4 AWS Patterns of Highly Available API](https://medium.com/greenm/top-4-aws-patterns-of-highly-available-api-d34599bfbb96)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: AWS configuration files, explained](https://medium.com/@ben11kehoe/aws-configuration-files-explained-9a7ea7a5b42e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Config Rules now available in 4 new regions: US West (Oregon), EU (Ireland),' EU (Frankfurt) and Asia Pacific (Tokyo)](https://aws.amazon.com/about-aws/whats-new/2016/04/aws-config-rules-now-available-in-4-new-regions-us-west-oregon-eu-ireland-eu-frankfurt-and-asia-pacific-tokyo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -132,5 +132,5 @@
   - [RunsOn: Self-hosted GitHub Actions Runners in AWS](https://runs-on.com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A commercial-grade, highly efficient solution for hosting ephemeral, auto-scaled GitHub Actions runners directly on your AWS account. Delivers a significant reduction in GitHub Actions spend (up to 10x) using cheap EC2 spot instances, fast cache persistence, and seamless setup.
 
 ---
-💡 **Explore Related:** [AWS Tools Scripts](./aws-tools-scripts.md) | [Azure](./azure.md) | [AWS Architecture](./aws-architecture.md)
+💡 **Explore Related:** [AWS Security](./aws-security.md) | [AWS Storage](./aws-storage.md) | [AWS Databases](./aws-databases.md)
 

@@ -5,12 +5,9 @@
 
 ## Standard Reference
 
-  - [Azure Landing Zone IaC Accelerator](https://azure.github.io/Azure-Landing-Zones/accelerator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Automating Microsoft Sentinel Deployment with Azure DevOps CI/CD](https://noodlemctwoodle.medium.com/automating-microsoft-sentinel-deployment-with-azure-devops-ci-cd-2d4ae0c4e254)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [FossFLOW](https://github.com/stan-smith/FossFLOW)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Automating Kubernetes Deployments with Helm Charts](https://blog.devops.dev/automating-kubernetes-deployments-with-helm-charts-baaec0e6fbc5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Automating Microsoft Sentinel Deployment with Azure DevOps CI/CD](https://noodlemctwoodle.medium.com/automating-microsoft-sentinel-deployment-with-azure-devops-ci-cd-2d4ae0c4e254)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Wikipedia.org: DevOps](https://en.wikipedia.org/wiki/DevOps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Terraform Enterprise 2.0](https://t.co/UmacHpStqI)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Wikipedia.org: Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Wikipedia.org: Continuous Delivery](https://en.wikipedia.org/wiki/Continuous_delivery)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [DZone: Continuous Integration: Servers and Tools](https://dzone.com/refcardz/continuous-integration-servers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -40,7 +37,10 @@
   - [gitconnected.com: Blue-Green with Canary Deployment — A Novel approach](https://levelup.gitconnected.com/blue-green-with-canary-deployment-a-novel-approach-2cee77ff564d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cd.foundation: Intro to Deployment Strategies: Blue-Green, Canary, and More' 🌟](https://cd.foundation/blog/2021/03/24/intro-to-deployment-strategies-blue-green-canary-and-more)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devopslearners.com: Blue-Green vs Canary Deployment](https://devopslearners.com/blue-green-vs-canary-deployment-76436d7f6bc1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Azure Landing Zone IaC Accelerator](https://azure.github.io/Azure-Landing-Zones/accelerator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [mediatemple.net: Cloud-Native CI/CD Workflows in AWS: 3 Use Cases](https://mediatemple.net/blog/cloud-hosting/cicd-workflows-aws-3-use-cases)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Terraform Enterprise 2.0](https://t.co/UmacHpStqI)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [FossFLOW](https://github.com/stan-smith/FossFLOW)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: DevOps: CI/CD Tools to Watch Out for in 2022](https://dzone.com/articles/devops-cicd-tools-to-watch-out-for-in-2022)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [betterprogramming.pub: When Should You Self-Host CI Tools? | William Anderson](https://betterprogramming.pub/when-should-you-self-host-ci-tools-330fc38d2a6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -81,6 +81,7 @@
 
 #### Blue-Green
 
+  - **(2022)** [==semaphoreci.com: Continuous Blue-Green Deployments With Kubernetes 🌟==](https://semaphore.io/blog/continuous-blue-green-deployments-with-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly-rated technical guide illustrating step-by-step implementation of automated Blue-Green deployments within a Kubernetes cluster. Details traffic switching using Kubernetes Services and ingress resources, highlighting rollback procedures and pipeline workflow integration.
   - [opsmx.com: What is Blue Green Deployment ?](https://www.opsmx.com/blog/blue-green-deployment)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains the fundamental architecture of Blue-Green deployment models, evaluating how this strategy minimizes downtime and mitigates risks during production releases. Offers comparisons against canary configurations and covers prerequisite infrastructure needs.
 #### Overview
 
@@ -133,8 +134,8 @@
 
   - [Draw.io MCP for Diagram Generation: Why It’s Worth Using](https://thomasthornton.cloud/draw-io-mcp-for-diagram-generation-why-its-worth-using)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An illustrative guide showing how the Draw.io Model Context Protocol (MCP) server allows AI assistants to programmatically generate and edit architecture diagrams. Bridges the gap between conversational design instructions and technical diagrams.
   - [Azure DevOps MCP Server Public Preview](https://devblogs.microsoft.com/devops/azure-devops-mcp-server-public-preview)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The official public announcement details the release and capabilities of the Azure DevOps MCP server. Highlights the architectural integration of Large Language Models directly into enterprise ADO workflows for automated engineering management.
-  - [Azure DevOps MCP Server](https://github.com/microsoft/azure-devops-mcp) <span class='md-tag md-tag--info'>⭐ 1718</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official Microsoft MCP server repository enabling AI Agents (like Claude or GitHub Copilot) to interact seamlessly with Azure DevOps. Allows agents to manage work items, query repositories, inspect pipeline logs, and orchestrate PR reviews dynamically.
   - [Kiro: Engineering Rigor for Agentic Development](https://kiro.dev) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An emerging framework focused on enforcing software engineering rigor, test-driven validation, and deterministic guardrails within AI Agent-driven code generation and execution loops. Provides platform architectures for managing safe agent-based deployments.
+  - [Azure DevOps MCP Server](https://github.com/microsoft/azure-devops-mcp) <span class='md-tag md-tag--info'>⭐ 1718</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official Microsoft MCP server repository enabling AI Agents (like Claude or GitHub Copilot) to interact seamlessly with Azure DevOps. Allows agents to manage work items, query repositories, inspect pipeline logs, and orchestrate PR reviews dynamically.
   - [Terraform & OpenTofu Skill for AI Agents](https://github.com/antonbabenko/terraform-skill) <span class='md-tag md-tag--info'>⭐ 1881</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An experimental, open-source repository establishing unified Model Context Protocol (MCP) skills or AI tools for Terraform and OpenTofu. Empowers AI agents to dynamically generate, parse, validate, and execute infrastructure-as-code definitions with semantic awareness.
 #### Coding Assistants
 
@@ -174,8 +175,8 @@
 
 ##### Azure DevOps (1)
 
-  - [Automate Terraform Testing with Azure DevOps Pipelines](https://skundunotes.com/2025/01/22/automate-terraform-testing-with-azure-devops-pipelines) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Provides a complete implementation walkthrough for embedding robust automated test suites (including tftest and checkov) inside Azure DevOps pipelines. Demonstrates how to validate infrastructure compliance and dry-run infrastructure updates early in the pipeline.
   - [Azure DevOps Terraform Pipeline (Complete Guide + YAML Examples)](https://deniscooper.co.uk/azure-devops-terraform-pipeline) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A production-grade, step-by-step tutorial on building a fully secure and automated Terraform deployment pipeline within Azure DevOps. Provides robust, reusable YAML template definitions, including state locking configurations, plan validations, and multi-environment promotions.
+  - [Automate Terraform Testing with Azure DevOps Pipelines](https://skundunotes.com/2025/01/22/automate-terraform-testing-with-azure-devops-pipelines) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Provides a complete implementation walkthrough for embedding robust automated test suites (including tftest and checkov) inside Azure DevOps pipelines. Demonstrates how to validate infrastructure compliance and dry-run infrastructure updates early in the pipeline.
 ##### GitHub Actions (1)
 
   - [Terraform Module Releaser GitHub Action](https://github.com/techpivot/terraform-module-releaser) <span class='md-tag md-tag--info'>⭐ 221</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized GitHub Action designed to automate the release process, version tagging, and registry publication of Terraform modules. Resolves development overhead by automatically generating release logs and enforcing Semantic Versioning.
@@ -195,8 +196,8 @@
 #### Azure DevOps (3)
 
   - [Securing Azure DevOps When Using Private Repositories](https://www.linkedin.com/top-content/?trk=article_not_found)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyses secure integration patterns for private Azure DevOps environments. Offers standard reference controls for isolating source code hosting, managing external worker access, and mitigating common misconfiguration patterns across self-hosted agent pools.
-  - [Dependabot Version Updates in Azure DevOps](https://www.returngis.net/2025/02/dependabot-updates-en-azure-devops) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical guide explaining the installation and automated orchestration of Dependabot-style dependency scanning and automated PR version updates within Azure DevOps repositories. Written in Spanish. [SPANISH CONTENT]
   - [Update to Azure DevOps Allowed IP Addresses](https://devblogs.microsoft.com/devops/update-to-ado-allowed-ip-addresses) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official documentation outlines the network security updates for Azure DevOps, focusing on the transitioning IP address ranges and service tags. Crucial for security engineers managing firewalls and strict ingress/egress rules to maintain uninterrupted pipeline connectivity.
+  - [Dependabot Version Updates in Azure DevOps](https://www.returngis.net/2025/02/dependabot-updates-en-azure-devops) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical guide explaining the installation and automated orchestration of Dependabot-style dependency scanning and automated PR version updates within Azure DevOps repositories. Written in Spanish. [SPANISH CONTENT]
 #### Cloud Identity
 
   - [Avoiding Mistakes with AWS OIDC Integration Conditions](https://www.wiz.io/blog/avoiding-mistakes-with-aws-oidc-integration-conditions) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An in-depth security analysis detailing how to configure AWS OpenID Connect (OIDC) trust relationships correctly in GitHub Actions and other CI providers. Highlights major vulnerabilities arising from missing subject (sub) or audience (aud) validation and shows how to restrict access patterns safely.
@@ -242,8 +243,8 @@
 
 ##### AWS (1)
 
-  - [RunsOn: Self-hosted GitHub Actions Runners in AWS](https://runs-on.com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A commercial-grade, highly efficient solution for hosting ephemeral, auto-scaled GitHub Actions runners directly on your AWS account. Delivers a significant reduction in GitHub Actions spend (up to 10x) using cheap EC2 spot instances, fast cache persistence, and seamless setup.
   - [Cloud Posse runs-on: GitHub Actions Self-Hosted Runners](https://docs.cloudposse.com/components/library/aws/runs-on) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A robust, production-tested Terraform component for deploying and autoscaling self-hosted GitHub Actions runners inside AWS. Integrates with AWS ECS, EKS, or EC2 to provide secure, ephemeral, and cost-effective pipeline execution environments.
+  - [RunsOn: Self-hosted GitHub Actions Runners in AWS](https://runs-on.com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A commercial-grade, highly efficient solution for hosting ephemeral, auto-scaled GitHub Actions runners directly on your AWS account. Delivers a significant reduction in GitHub Actions spend (up to 10x) using cheap EC2 spot instances, fast cache persistence, and seamless setup.
 ### Kubernetes Management
 
 #### PaaS Solutions
@@ -295,8 +296,8 @@
   - [sdtimes.com: The State of CI/CD](https://sdtimes.com/cicd/the-state-of-ci-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Broad industry survey analyzing developer adoption and tool fragmentation in delivery architectures. Live Grounding: Highlights the continuous shift towards GitOps, automated security gates (DevSecOps), and platform orchestration. Useful for long-term strategic architectural planning.
 #### Open Source Pipelines
 
-  - [devops.com: 7 Popular Open Source CI/CD Tools](https://devops.com/7-popular-open-source-ci-cd-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Comparative survey of prominent open-source continuous integration and deployment engines. Live Grounding: Analyzes Jenkins, GitLab, Tekton, and others, contrasting their resource overheads and declarative features. Useful for teams choosing a baseline deployment stack.
   - [opensource.com: A beginner's guide to building DevOps pipelines with open' source tools](https://opensource.com/article/19/4/devops-pipeline) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Demystifies CI/CD pipeline construction using classic open-source tools like Jenkins and GitLab CI. Live Grounding: Provides an educational blueprint on source control integration, build automation, and deployment validation. Highly suitable for teams transitioning from manual deployments to early automation.
+  - [devops.com: 7 Popular Open Source CI/CD Tools](https://devops.com/7-popular-open-source-ci-cd-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Comparative survey of prominent open-source continuous integration and deployment engines. Live Grounding: Analyzes Jenkins, GitLab, Tekton, and others, contrasting their resource overheads and declarative features. Useful for teams choosing a baseline deployment stack.
 #### Theory and Concepts (1)
 
   - **(2023)** [infoworld.com: What is CI/CD? Continuous integration and continuous delivery explained](https://www.infoworld.com/article/2269266/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Broad industry-focused definition of CI/CD pipeline automation and toolchains. Live Grounding: Explores the evolutionary shift from monolithic build scripts to declarative yaml-based pipeline orchestration. Provides a vendor-neutral high-level analysis of standard integration loops.
@@ -312,8 +313,8 @@
   - **(2023)** [lambdatest.com: Top 10 CI/CD Pipeline Implementation Challenges And Solutions](https://www.testmuai.com/blog/cicd-pipeline-challenges) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Highlights common pipeline failure patterns (e.g., flaky testing, configuration drift) and mitigation techniques. Live Grounding: Discusses technical strategies such as containerizing run environments and orchestrating parallel testing clusters. Ideal for operational maintenance planning.
 #### Trunk-Based Development
 
-  - [Purposeful Commits](https://chrisarcand.com/purposeful-commits)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Explores the cultural developer hygiene of crafting clear, logical git commits. Live Grounding: Details how concise commit histories simplify pipeline automated testing, automated changelogs, and fast deployment troubleshooting. Essential software craft guidance.
   - [thinkinglabs.io: Feature Branching considered evil 🌟](https://thinkinglabs.io/talks/feature-branching-considered-evil.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: A provocative analysis contrasting long-lived feature branches with trunk-based development. Live Grounding: Details how feature branches delay integration, hide conflicts, and impede actual continuous integration. Offers clear alternative patterns like branch-by-abstraction and feature flags.
+  - [Purposeful Commits](https://chrisarcand.com/purposeful-commits)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Explores the cultural developer hygiene of crafting clear, logical git commits. Live Grounding: Details how concise commit histories simplify pipeline automated testing, automated changelogs, and fast deployment troubleshooting. Essential software craft guidance.
 ### Cloud-Native Delivery
 
 #### Best Practices (2)
@@ -363,5 +364,5 @@
   - [The 12-Factor App: An Updated Guide](https://newsletter.francofernando.com/p/the-12-factor-app-an-updated-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An updated architectural deep-dive into the Twelve-Factor App methodology. Reviews the classic software principles (like database separations, environment configs, and scaling processes) in modern Kubernetes environments.
 
 ---
-💡 **Explore Related:** [Gitops](./gitops.md) | [Flux](./flux.md) | [Argo](./argo.md)
+💡 **Explore Related:** [Registries](./registries.md) | [Jenkins](./jenkins.md) | [Gitops](./gitops.md)
 
