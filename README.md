@@ -535,7 +535,7 @@ The "Platinum" tier represents the highest level of autonomous maintenance, focu
 - **Rendering Risk Detection**: Ensures HTML blocks like `<center>` include the mandatory `markdown="1"` attribute ([Mandate 19](GEMINI.md)).
 
 #### Infrastructure Auto-Sync
-- **Workflow UI Synchronization**: The [UI Sync Engine](src/sync_workflow_ui.py) automatically updates the [GitHub Actions Interface](.github/workflows/agentic_cron.yml) whenever [Curation Sources](data/curation_sources.yaml) are added or modified ([Mandate 11](GEMINI.md)).
+- **Workflow UI Synchronization**: The [UI Sync Engine](src/sync_workflow_ui.py) automatically updates the [GitHub Actions Interface](.github/workflows/01.1.agentic_cron.yml) whenever [Curation Sources](data/curation_sources.yaml) are added or modified ([Mandate 11](GEMINI.md)).
 
 #### Reputation Pulse (Vaporware Filter)
 - **Community-Based Vetting**: The [Curation Engine](src/agentic_curator.py) utilizes **Google Search Grounding** to cross-reference new tools with platforms like Reddit and Hacker News.
@@ -747,7 +747,7 @@ Maintainers can manually trigger and tune workflows via the GitHub Actions UI. T
 
 | # | Phase / Category | Workflow | Primary Manual Flags | Default | Technical Effect |
 | :---: | :--- | :--- | :--- | :---: | :--- |
-| **01** | **Discovery** | [**01.1. Automated Agentic Curation**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_cron.yml) | `historical_mode` | ==TRUE== | Processes all discovery sources (ignores 30-day window). |
+| **01** | **Discovery** | [**01.1. Automated Agentic Curation**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/01.1.agentic_cron.yml) | `historical_mode` | ==TRUE== | Processes all discovery sources (ignores 30-day window). |
 | | | | `include_*` | ==TRUE== | Toggles specific topics (k8s, cloud, ai, etc.). |
 | | | [**01.2. Backup-based Curation**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_backup.yml) | `historical_mode` | ==TRUE== | Ignores time windows for static file processing. |
 | **02** | **Integrity** | [**02.1. Intelligent Link Cleaner**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/intelligent_link_cleaner.yml) | `force_full_check` | ==FALSE== | Bypasses cache for global archive auditing. |
@@ -1009,7 +1009,7 @@ To maintain transparency and ease of navigation, all key configuration, database
 - **Global Inventory:** [`data/inventory.yaml`](data/inventory.yaml) - The "System Memory" containing all link metadata (years, stars, descriptions, and audit history).
 
 ### 13.3. Autonomous Workflows
-- **01.1. Discovery & Curation:** [**Automated Agentic Curation**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_cron.yml)
+- **01.1. Discovery & Curation:** [**Automated Agentic Curation**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/01.1.agentic_cron.yml)
 - **01.2. Backup Data Processor:** [**Backup-based Curation**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_backup.yml) — Manual JSON/MD ingestion.
 - **02.1. Link Health Check:** [**Intelligent Link Cleaner & Dedup**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/intelligent_link_cleaner.yml) — Perpetual archive integrity engine.
 - **02.2. V2 Health Monitor:** [**V2 Health Monitor**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_health.yml) — Weekly archive network validation.
