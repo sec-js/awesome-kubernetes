@@ -33,9 +33,14 @@
 
 "I do not believe you can do today's job with yesterday's methods and be in business tomorrow" ([Horatio Nelson Jackson](https://en.wikipedia.org/wiki/Horatio_Nelson_Jackson))
 <center markdown="1">
-
-[![container_with_cars](images/container_with_cars_v2.png)](https://www.cncf.io/certification/software-conformance) <br/>
-
+<div class="hero-showcase-wrapper">
+  <a href="https://www.cncf.io/certification/software-conformance" class="hero-showcase-link">
+    <img src="images/container_with_cars_v2.png" alt="container_with_cars" class="hero-showcase-image" />
+    <div class="hero-showcase-overlay">
+      <span class="hero-showcase-badge">CNCF Software Conformance</span>
+    </div>
+  </a>
+</div>
 </center>
 
 !!! abstract "The High-Density Vision"
@@ -107,7 +112,7 @@
 - **(N/A)** [**==blog.awsfundamentals.com: AWS S3 Sync - An Extensive Guide==**](https://awsfundamentals.com/blog/aws-s3-sync) 🌟🌟🌟🌟
 
 ## Strategic Dimensions
-- **[🎥 Agentic Video Hub (Architectural Summary)](./videos.md)**
+- **[🎥 Agentic Video Hub (Architectural Summary)](./videos/index.md)**
 
 ### AI
 - **[AI Agents MCP](./ai-agents-mcp.md)**

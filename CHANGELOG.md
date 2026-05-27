@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.3.20]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.20) - 2026-05-27
+
+### Changed
+- **CNCF Showcase Conformance Image Effects**: Added a glassmorphic wrapper `.hero-showcase-wrapper` to the main CNCF conformance image on the V2 homepage with hover scale effects (`1.03x`), brightness filters, a neon cyan shadow glow, and an interactive overlay badge.
+- **V2 Nav and Index Path Fixes**: Resolved broken internal references to `videos.md` in `v2-mkdocs.yml` and the strategic dimensions list by permanently updating the compiler to resolve paths to the modularised `./videos/index.md` location.
+
 ## [[2.3.19]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.19) - 2026-05-27
 
 ### Added
