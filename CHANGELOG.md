@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.3.8]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.8) - 2026-05-27
+
+### Added
+- **Red Hat Summit 2026 Video**: Integrated the Red Hat Summit 2026 interview with Fran Heeran into the Video Hub, detailing the architectural shift of telecommunications providers to unified cloud-native networks using OpenShift Virtualization.
+
 ## [[2.3.7]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.7) - 2026-05-26
 
 ### Fixed

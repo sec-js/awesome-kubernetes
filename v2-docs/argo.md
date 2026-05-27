@@ -222,5 +222,5 @@
   - [itnext.io: Build a Lightweight Internal Developer Platform with Argo CD' and Kubernetes Labels](https://itnext.io/build-a-lightweight-internal-developer-platform-with-argo-cd-and-kubernetes-labels-4c0e52c6c0f4)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: Proposes an innovative model for constructing a lightweight IDP by utilizing simple Kubernetes label configurations mapped to Argo CD ApplicationSets. Live Grounding: Demonstrates how platform teams can abstract direct Kubernetes complexity for application developers, promoting self-service deployment without security compromises.
 
 ---
-💡 **Explore Related:** [Registries](./registries.md) | [Jenkins](./jenkins.md) | [CI/CD](./cicd.md)
+💡 **Explore Related:** [Gitops](./gitops.md) | [Flux](./flux.md) | [CI/CD](./cicd.md)
 
