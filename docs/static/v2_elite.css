@@ -196,10 +196,12 @@ a {
 
 /* V2 Homepage Hero Dashboard Cards */
 .hero-badge-card {
+  flex: 1;
+  max-width: 280px;
+  min-width: 200px;
   border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 12px;
-  padding: 16px;
-  width: 180px;
+  border-radius: 16px;
+  padding: 24px 16px;
   text-align: center;
   background: rgba(255, 255, 255, 0.015);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -209,11 +211,11 @@ a {
 }
 
 .hero-badge-card img {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   object-fit: contain;
-  margin-bottom: 8px;
-  transition: transform 0.3s ease;
+  margin-bottom: 12px;
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), filter 0.25s ease;
 }
 
 .hero-badge-card:hover {
@@ -224,17 +226,18 @@ a {
 }
 
 .hero-badge-card:hover img {
-  transform: scale(1.1);
+  transform: scale(1.15);
+  filter: brightness(1.25);
 }
 
 .hero-badge-title {
   font-weight: bold;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: var(--md-primary-fg-color);
 }
 
 .hero-badge-subtitle {
-  font-size: 0.75rem;
+  font-size: 0.78rem;
   color: var(--md-primary-fg-color--dark);
   margin-top: 4px;
 }
