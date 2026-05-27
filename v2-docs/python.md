@@ -305,7 +305,14 @@
 #### Large Language Models
 
   - [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) <span class='md-tag md-tag--info'>⭐ 95379</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Highly acclaimed code-first textbook guiding the creation of a Large Language Model (LLM) from scratch in PyTorch. Illustrates attention mechanisms, tokenizers, training loops, and weight loadings.
+## Software Engineering
+
+### Programming Foundations
+
+#### Python Language
+
+  - **(2025)** [**Think Python**](https://allendowney.github.io/ThinkPython) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A classic computational thinking handbook utilizing Python. Focuses on algorithmic integrity, data structure designs, object-oriented implementations, and debug execution pipelines.
 
 ---
-💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Java_Frameworks](./java_frameworks.md) | [API](./api.md)
+💡 **Explore Related:** [Visual Studio](./visual-studio.md) | [API](./api.md) | [Golang](./golang.md)
 

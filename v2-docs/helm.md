@@ -5,6 +5,7 @@
 
 ## Standard Reference
 
+  - [medium.com/gquiman: K8Studio, Helm and Kubernetes management](https://medium.com/itnext/introducing-k8studio-v3-the-ultimate-kubernetes-workspace-just-got-even-better-0bc0de63642c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: managing helm releases the gitops way](https://dzone.com/articles/managing-helm-releases-the-gitops-way)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: 15 useful helm chart tools](https://dzone.com/articles/15-useful-helm-charts-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: create install upgrade and rollback a helm chart - part 1](https://dzone.com/articles/create-install-upgrade-and-rollback-a-helm-chart-p)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -45,7 +46,6 @@
   - [shipmight.com: Understanding Helm upgrade flags](https://shipmight.com/blog/understanding-helm-upgrade-reset-reuse-values)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.devops.dev: Stop cloning helm charts! Enough! 🌟](https://blog.devops.dev/stop-cloning-helm-charts-enough-b40fb5d67ac7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/kubeshop-i: Monokle, Helm & Quality Kubernetes Deployments](https://medium.com/kubeshop-i/monokle-helm-quality-kubernetes-deployments-af050fcc91db)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/gquiman: K8Studio, Helm and Kubernetes management](https://medium.com/itnext/introducing-k8studio-v3-the-ultimate-kubernetes-workspace-just-got-even-better-0bc0de63642c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.devops.dev: Hosting Your Own Helm Chart on GitHub with Chart Releaser](https://blog.devops.dev/hosting-your-own-helm-chart-on-github-with-chart-releaser-a356ac10ce5c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [faun.pub: Package and Deploy Your Application Using Helm Chart](https://faun.pub/package-and-deploy-your-application-using-helm-chart-21f0c568e65c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@badawekoo: Helm theory, demo and commands you need to know!](https://medium.com/@badawekoo/helm-theory-demo-and-commands-you-need-to-know-628777fdb0c2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -80,13 +80,13 @@
   - [opensource.com: What Kubernetes taught me about development](https://opensource.com/article/21/12/kubernetes-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A retrospective engineering article summarizing lessons learned from building and deploying microservices on Kubernetes. It highlights the paradigm shift of treating infrastructure-as-code and configuration as vital parts of the software lifecycle.
 #### Documentation
 
-  - [chart-doc-gen: Helm Chart Documentation Generator](https://github.com/kubepack/chart-doc-gen) <span class='md-tag md-tag--info'>⭐ 122</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A dedicated CLI utility for generating Markdown documentation automatically from Helm 'values.yaml' files. It streamlines package maintenance by keeping user-facing parameter catalogs perfectly aligned with template configurations.
   - [helm-docs](https://github.com/norwoodj/helm-docs) <span class='md-tag md-tag--info'>⭐ 1740</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The industry standard utility that auto-generates Markdown documentation from Helm chart metadata and variables files. It reads 'values.yaml' schema annotations to generate detailed configuration tables, ensuring precise, up-to-date documentation.
   - [helm-changelog: Create changelogs for Helm Charts, based on git history](https://github.com/mogensen/helm-changelog) <span class='md-tag md-tag--info'>⭐ 43</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A CLI utility designed to automatically assemble neat changelogs for Helm charts by parsing git repository commit history. It simplifies publishing notes by keeping track of charts updates over multiple releases.
+  - [chart-doc-gen: Helm Chart Documentation Generator](https://github.com/kubepack/chart-doc-gen) <span class='md-tag md-tag--info'>⭐ 122</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A dedicated CLI utility for generating Markdown documentation automatically from Helm 'values.yaml' files. It streamlines package maintenance by keeping user-facing parameter catalogs perfectly aligned with template configurations.
 #### Governance
 
-  - [github: Nova 🌟](https://github.com/fairwindsops/nova) <span class='md-tag md-tag--info'>⭐ 860</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A valuable auditing tool that scans running Kubernetes clusters for outdated Helm releases. It cross-references deployed charts with upstream versions to ensure administrators maintain robust patch levels and security updates.
   - [redhat-certification: chart-verifier: Rules based tool to certify Helm charts' 🌟](https://github.com/redhat-certification/chart-verifier) <span class='md-tag md-tag--info'>⭐ 61</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat's automated verification tool built to certify that third-party Helm charts align with platform standards on OpenShift. It performs automated checks against strict deployment policies and security guidelines.
+  - [github: Nova 🌟](https://github.com/fairwindsops/nova) <span class='md-tag md-tag--info'>⭐ 860</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A valuable auditing tool that scans running Kubernetes clusters for outdated Helm releases. It cross-references deployed charts with upstream versions to ensure administrators maintain robust patch levels and security updates.
 #### Learning Paths
 
   - [mattias.engineer/courses/kubernetes/helm: Kubernetes-101: Helm 🌟](https://mattias.engineer/courses/kubernetes/helm)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A foundational course module mapping out Helm architecture, release lifecycles, and template syntax. It serves as an optimal starting point for operators transitioning from static manifests to dynamic Kubernetes packaging.
@@ -136,9 +136,9 @@
   - [tellerops/helm-teller](https://github.com/tellerops/helm-teller) <span class='md-tag md-tag--info'>⭐ 69</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized plugin built to secure sensitive parameters inside charts by pulling secrets directly from cloud secret managers (such as HashiCorp Vault or AWS Secrets Manager) during deployment execution.
 #### Templating
 
+  - [HULL](https://github.com/vidispine/hull) <span class='md-tag md-tag--info'>⭐ 288</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A unique template library extension designed to drastically reduce boilerplate in Helm development. HULL enables declarative, object-oriented configuration structures, letting developers generate entire charts with minimal template overhead.
   - [itnext.io: Helm: reusable chart — named templates, and a generic chart for' multiple applications](https://itnext.io/helm-reusable-chart-named-templates-and-a-generic-chart-for-multiple-applications-13d9b26e9244) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive article addressing advanced Go template techniques in Helm, specifically targeting the creation of reusable library charts. It offers a blueprint for building a single, highly flexible parent chart that can deploy diverse microservice patterns.
   - [boxunix.com: Developer’s Guide to Writing a Good Helm Chart](https://boxunix.com/2022/02/05/developers-guide-to-writing-a-good-helm-chart)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive guide outline covering best practices in writing high-quality Helm charts. It addresses templates organization, variable naming conventions, semantic schema formatting, and validation practices.
-  - [HULL](https://github.com/vidispine/hull) <span class='md-tag md-tag--info'>⭐ 288</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A unique template library extension designed to drastically reduce boilerplate in Helm development. HULL enables declarative, object-oriented configuration structures, letting developers generate entire charts with minimal template overhead.
 #### Visualization
 
   - **(2024)** [Helm Kanvas Snapshot](https://github.com/meshery-extensions/helm-kanvas-snapshot) <span class='md-tag md-tag--info'>⭐ 35</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An extension designed to capture visual topology snapshots of Helm releases within Meshery. It allows operators to visually audit and document the runtime architecture generated by complex multi-tier Helm installations.
@@ -202,19 +202,12 @@
   - **(2020)** [**cloud.redhat.com: Application Management in Kubernetes Environments with Helm Charts and Kubernetes Operators**](https://www.redhat.com/en/blog/application-management-in-kubernetes-environments-with-helm-charts-and-kubernetes-operators) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Architectural discussion comparing Helm package templates with Kubernetes Operators. Outlines when to use Helm for Day 1 installs versus Operators for stateful Day 2 operations.
 #### OpenShift Integration
 
-  - [redhat.com: Red Hat OpenShift Certification extends support for Kubernetes-native' technologies with Helm 🌟](https://www.redhat.com/en/blog/red-hat-openshift-certification-extends-support-kubernetes-native-technologies-helm)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Red Hat blog announcing extended, first-class Helm integration in OpenShift. Discusses Console-level management of Helm charts, ensuring enterprise-compliant application lifecycles.
   - [developers.redhat.com: Deploy Helm charts with Jenkins CI/CD in Red Hat' OpenShift 4 🌟](https://developers.redhat.com/articles/2021/05/24/deploy-helm-charts-jenkins-cicd-red-hat-openshift-4)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Red Hat developer guide demonstrating automated Helm deployments through Jenkins on OpenShift 4. Covers pipeline definitions, credentials handling, and rollback automations.
+  - [redhat.com: Red Hat OpenShift Certification extends support for Kubernetes-native' technologies with Helm 🌟](https://www.redhat.com/en/blog/red-hat-openshift-certification-extends-support-kubernetes-native-technologies-helm)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Red Hat blog announcing extended, first-class Helm integration in OpenShift. Discusses Console-level management of Helm charts, ensuring enterprise-compliant application lifecycles.
   - [developers.redhat.com: Deploy Node.js applications to Red Hat OpenShift' with Helm](https://developers.redhat.com/articles/2021/07/20/deploy-nodejs-applications-red-hat-openshift-helm)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Developer-centric walkthrough for wrapping Node.js applications into compliant Helm charts for OpenShift deployment, showing the end-to-end development-to-production lifecycle.
 #### Waypoint
 
   - **(2022)** [**learn.hashicorp.com: Deploy a Helm-based application automatically with GitOps**](https://github.com/hashicorp/waypoint/tree/main/website/content/docs) <span class='md-tag md-tag--info'>⭐ 4730</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — HashiCorp walkthrough presenting continuous, declarative deployment of Helm-based apps using Waypoint pipelines, highlighting structural GitOps workflows.
-## Cloud-Native Development
-
-### Local Development Tools
-
-#### Okteto
-
-  - **(2021)** [codefresh.io: Tutorial - Local Kubernetes Development with Okteto 🌟](https://octopus.com/devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Hands-on walkthrough displaying how to use Okteto to connect a developer workspace directly with live infrastructure, bypassing resource-heavy local systems.
 ## Edge Computing
 
 ### IoT and Smart Home
@@ -266,5 +259,5 @@
   - [Red Hat Training & Certification Community](https://access.redhat.com/community/learn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official educational resources and certification preparation portal curated by Red Hat. Serves as a vital reference for mastering OpenShift and enterprise Linux engineering architectures.
 
 ---
-💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Cheatsheets](./cheatsheets.md) | [Git](./git.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Mkdocs](./mkdocs.md) | [Demos](./demos.md)
 
