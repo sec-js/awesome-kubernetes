@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.3.15]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.15) - 2026-05-27
+
+### Changed
+- **Homepage YouTube Mosaic Scaling & Transitions**: Refactored the icon layout styling to use uniform responsive sizing (48px) instead of viewport percentage widths. Added hover micro-animations (scale-up scale factor 1.15x and brightness filters) for both light and dark modes to enhance aesthetic premium quality.
+
 ## [[2.3.14]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.14) - 2026-05-27
 
 ### Changed
