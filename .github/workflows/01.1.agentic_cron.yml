@@ -151,7 +151,7 @@ jobs:
           
           if [ $EXIT_CODE -eq 42 ]; then
             echo "🚨 CIRCUIT BREAKER TRIPPED: Disabling workflow to prevent quota drain."
-            gh workflow disable agentic_cron.yml
+            gh workflow disable 01.1.agentic_cron.yml
             exit 1
           elif [ $EXIT_CODE -ne 0 ]; then
             exit $EXIT_CODE
@@ -165,7 +165,7 @@ jobs:
           if [ "${{ github.event.inputs.historical_chunked }}" == "true" ] && grep -q "NEXT_CHUNK_START:" output.log; then
             NEXT_DATE=$(grep "NEXT_CHUNK_START:" output.log | awk '{print $2}')
             echo "Triggering next historical chunk until: $NEXT_DATE"
-            gh workflow run agentic_cron.yml -f historical_mode=true -f historical_chunked=true -f historical_until_date=$NEXT_DATE
+            gh workflow run 01.1.agentic_cron.yml -f historical_mode=true -f historical_chunked=true -f historical_until_date=$NEXT_DATE
           fi
 
       - name: Upload Visual Dashboard Artifact
