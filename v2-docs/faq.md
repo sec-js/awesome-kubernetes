@@ -89,13 +89,6 @@
 #### Container Storage
 
   - [thenewstack.io: Choosing Between Container-Native and Container-Ready Storage' 🌟](https://thenewstack.io/choosing-between-container-native-and-container-ready-storage) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight: Demystifies cloud-native storage interfaces (CSI), comparing storage systems designed natively for Kubernetes with legacy storage adaptions. Live Grounding: Key guide for cloud architects evaluating storage performance, resilience, automated dynamic provisioning, and multi-protocol scaling features.
-## Networking
-
-### Web Servers
-
-#### Nginx
-
-  - **(2026)** [==Nginx==](https://www.f5.com/products/nginx) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Nginx is the premier high-performance web server, reverse proxy, and ingress standard globally. Its lightweight event-driven design allows it to process high-concurrency traffic patterns with extremely predictable memory and CPU footprints.
 ## Platform Engineering
 
 ### Cloud Native
@@ -105,5 +98,5 @@
   - [developers.redhat.com: Why Kubernetes native instead of cloud native? 🌟](https://developers.redhat.com/blog/2020/04/08/why-kubernetes-native-instead-of-cloud-native)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: Highlights the distinction between applications run on cloud infrastructure and systems designed specifically to leverage native Kubernetes operators and structures. Live Grounding: Analyzes how API extensions, CRDs, and native configuration constructs improve resilience, efficiency, and resource utilization.
 
 ---
-💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Mkdocs](./mkdocs.md) | [Demos](./demos.md)
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Cheatsheets](./cheatsheets.md) | [Git](./git.md)
 
