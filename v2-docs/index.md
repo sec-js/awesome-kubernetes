@@ -1,8 +1,35 @@
 # Nubenetes Elite Portal (V2) | Awesome Kubernetes & Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-<center markdown="1">
-[![Kubernetes Logo](images/kubernetes_logo.png)](https://kubernetes.io) &nbsp; [![Nubenetes Introduction](images/hero-car.png)](./introduction.md)
-</center>
+<div style="display: flex; justify-content: center; gap: 24px; margin: 16px 0; flex-wrap: wrap;">
+  <a href="./kubernetes.html" style="text-decoration: none; color: inherit; display: block;">
+    <div class="hero-badge-card hero-badge-card--cyan">
+      <img src="images/kubernetes_logo.png" alt="Kubernetes"/>
+      <div class="hero-badge-title">Ecosystem Core</div>
+      <div class="hero-badge-subtitle">Explore Kubernetes</div>
+    </div>
+  </a>
+  <a href="./ai-agents-mcp.html" style="text-decoration: none; color: inherit; display: block;">
+    <div class="hero-badge-card hero-badge-card--purple">
+      <img src="images/ai_agents_logo.png" alt="AI & MCP Agents"/>
+      <div class="hero-badge-title">AI & MCP Agents</div>
+      <div class="hero-badge-subtitle">Agentic Ecosystem</div>
+    </div>
+  </a>
+  <a href="./videos/index.html" style="text-decoration: none; color: inherit; display: block;">
+    <div class="hero-badge-card hero-badge-card--pink">
+      <img src="images/video_hub_logo.png" alt="Agentic Video Hub"/>
+      <div class="hero-badge-title">Agentic Video Hub</div>
+      <div class="hero-badge-subtitle">Architect Video Library</div>
+    </div>
+  </a>
+  <a href="./introduction.html" style="text-decoration: none; color: inherit; display: block;">
+    <div class="hero-badge-card hero-badge-card--teal">
+      <img src="images/hero-car.png" alt="Nubenetes Car"/>
+      <div class="hero-badge-title">Get Started</div>
+      <div class="hero-badge-subtitle">Introduction Guide</div>
+    </div>
+  </a>
+</div>
 
 "I do not believe you can do today's job with yesterday's methods and be in business tomorrow" ([Horatio Nelson Jackson](https://en.wikipedia.org/wiki/Horatio_Nelson_Jackson))
 <center markdown="1">
@@ -80,7 +107,7 @@
 - **(N/A)** [**==blog.awsfundamentals.com: AWS S3 Sync - An Extensive Guide==**](https://awsfundamentals.com/blog/aws-s3-sync) 🌟🌟🌟🌟
 
 ## Strategic Dimensions
-- **[🎥 Agentic Video Hub (Architectural Summary)](./videos/index.md)**
+- **[🎥 Agentic Video Hub (Architectural Summary)](./videos.md)**
 
 ### AI
 - **[AI Agents MCP](./ai-agents-mcp.md)**

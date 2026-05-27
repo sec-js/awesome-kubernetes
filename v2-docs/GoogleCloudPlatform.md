@@ -5,7 +5,6 @@
 
 ## Standard Reference
 
-  - [Config Sync](https://docs.cloud.google.com/kubernetes-engine/config-sync/docs/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [googlecloudcheatsheet.withgoogle.com: Google Cloud Developer cheat sheet](https://cloud.google.com/products)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Google Cloud Build](https://cloud.google.com/build)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Platform comparisons](https://docs.cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [AWS and GCP comparison](https://docs.cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison/aws)
@@ -13,6 +12,7 @@
   - [cloud.google.com: Secret Manager Best Practices](https://docs.cloud.google.com/secret-manager/docs/best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.google.com: VPN network overview](https://docs.cloud.google.com/vpc/docs/vpc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kinsta.com: Top 7 Advantages of Choosing Google Cloud Hosting](https://kinsta.com/blog/cloud-platform-for-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Config Sync Overview](https://docs.cloud.google.com/kubernetes-engine/config-sync/docs/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Google Cloud AppSheet](https://about.appsheet.com/home)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoworld.com: Google Cloud AppSheet review: No-code with extras](https://www.infoworld.com/article/2270941/google-cloud-appsheet-review-no-code-with-extras.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.google.com: The gcloud tool cheat sheet](https://docs.cloud.google.com/sdk/docs/cheatsheet?hl=en)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -96,5 +96,5 @@
 Live Grounding: Delivers pre-integrated capabilities and action templates allowing Enterprise Gemini Agents to dynamically execute API operations, retrieve structured data, and handle multi-step workflows.
 
 ---
-💡 **Explore Related:** [AWS Security](./aws-security.md) | [AWS Storage](./aws-storage.md) | [AWS Databases](./aws-databases.md)
+💡 **Explore Related:** [Public Cloud Solutions](./public-cloud-solutions.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [Azure](./azure.md)
 

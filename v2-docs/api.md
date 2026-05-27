@@ -25,10 +25,6 @@
   - [SwaggerHub: Free Web Service](https://swagger.io/product)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [any-api.com](https://marketplace.apilayer.com/?utm_source=any-api&utm_medium=any-api-redirection&utm_campaign=any-api-redirection)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Mux: The API to Video](https://www.mux.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [softwareengineeringdaily.com: Kubernetes vs. Serverless with Matt Ward (podcast) 🌟](https://softwareengineeringdaily.com/2020/12/29/kubernetes-vs-serverless-with-matt-ward-repeat)
-  - [betterprogramming.pub: Lambda vs. Step Functions: The Battle of Cost and' Performance](https://betterprogramming.pub/lambda-vs-step-functions-the-battle-of-cost-and-performance-5f008045e2ab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Public APIs Directory](https://publicapis.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Rapid API](https://rapidapi.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Open Banking](https://en.wikipedia.org/wiki/Open_banking)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [wikipedia: API Application Programming Interface](https://simple.wikipedia.org/wiki/Application_programming_interface)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [postman.com: What is an API?](https://www.postman.com/what-is-an-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/public-apis/public-apis: Try Public APIs for free 🌟](https://github.com/public-apis/public-apis) <span class='md-tag md-tag--info'>⭐ 436518</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
@@ -97,6 +93,7 @@
   - [SPDY and WebSocket Support at Akamai](https://blogs.akamai.com/2012/07/spdy-and-websocket-support-at-akamai.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [spring.io: YMNNALFT: Websockets](https://spring.io/blog/2021/01/25/ymnnalft-websockets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.bitsrc.io: Deep Dive into WebSockets](https://blog.bitsrc.io/deep-dive-into-websockets-e6c4c7622423)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: Lambda vs. Step Functions: The Battle of Cost and' Performance](https://betterprogramming.pub/lambda-vs-step-functions-the-battle-of-cost-and-performance-5f008045e2ab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Socket.io](https://socket.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Differences between WebSockets and Socket.IO](https://itnext.io/differences-between-websockets-and-socket-io-a9e5fa29d3dc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AsyncAPI](https://www.asyncapi.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -137,7 +134,10 @@
   - [biztechmagazine.com: 6 Steps to Improved API Security](https://biztechmagazine.com/article/2021/07/6-steps-improved-api-security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Developer, Beware: The 3 API Security Risks You Can’t Overlook](https://thenewstack.io/developer-beware-the-3-api-security-risks-you-cant-overlook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@sajjadfazlani: How to protect your APIs and Microservices?' 🌟](https://medium.com/@sajjadfazlani/how-to-protect-your-apis-and-microservices-f22b99ce2322)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Public APIs Directory](https://publicapis.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [programmableweb.com](https://www.programmableweb.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Rapid API](https://rapidapi.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Open Banking](https://en.wikipedia.org/wiki/Open_banking)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: A Digital Transformation Journey in the Banking Sector](https://thenewstack.io/a-digital-transformation-journey-in-the-banking-sector)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: True Success in Process Automation Requires Microservices](https://thenewstack.io/true-success-in-process-automation-requires-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: How Platform Ops Teams Should Think About API Strategy](https://thenewstack.io/how-platform-ops-teams-should-think-about-api-strategy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -169,5 +169,5 @@
   - [Cerebras AI](https://www.cerebras.ai) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Architectural hub detailing wafer-scale AI processors built to tackle compute limits. Facilitates unprecedented deep-learning model execution with extreme localized bandwidth optimizations.
 
 ---
-💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Java_Frameworks](./java_frameworks.md) | [JVM Parameters Matrix Table](./jvm-parameters-matrix-table.md)
+💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [Visual Studio](./visual-studio.md) | [Python](./python.md)
 

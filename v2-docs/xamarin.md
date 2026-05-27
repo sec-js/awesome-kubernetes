@@ -10,5 +10,5 @@
 
 
 ---
-💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Java_Frameworks](./java_frameworks.md) | [API](./api.md)
+💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [Visual Studio](./visual-studio.md) | [Python](./python.md)
 

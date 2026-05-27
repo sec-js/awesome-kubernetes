@@ -10,6 +10,8 @@
   - [cyberciti.biz - SS Utility: Quick Intro](http://www.cyberciti.biz/files/ss.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [unix.stackexchange.com: ss - linux socket statistics utility output format](http://unix.stackexchange.com/questions/252744/ss-linux-socket-statistics-utility-output-format)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [stackoverflow.com: difference between netstat and ss in linux?](http://stackoverflow.com/questions/11763376/difference-between-netstat-and-ss-in-linux)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cyberciti.biz: Linux ip Command Examples](https://www.cyberciti.biz/faq/linux-ip-command-examples-usage-syntax)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.flipkart.tech: The Art of System Debugging — Decoding CPU Utilization' 🌟](https://blog.flipkart.tech/the-art-of-system-debugging-decoding-cpu-utilization-da75f09ef1ff)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cyberciti.biz: Red Hat introduces new no-cost RHEL option](https://www.cyberciti.biz/linux-news/red-hat-introduces-new-no-cost-rhel-option)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [enterpriseai.news: Red Hat’s Disruption of CentOS Unleashes Storm of Dissent](https://www.enterpriseai.news/2021/01/22/red-hats-disruption-of-centos-unleashes-storm-of-dissent)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloudsavvyit.com: Is Rocky Linux the new CentOS?](https://www.cloudsavvyit.com/13092/is-rocky-linux-the-new-centos)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -65,11 +67,9 @@
   - [levelup.gitconnected.com: 5 Bash String Manipulation Methods That Help Every' Developer](https://levelup.gitconnected.com/5-bash-string-manipulation-methods-that-help-every-developer-49d4ee38b593)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [piyushverma.hashnode.dev: Basic Linux Shell Scripting for DevOps Engineers](https://piyushverma.hashnode.dev/basic-linux-shell-scripting-for-devops-engineers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [betterprogramming.pub: Bash vs. Python vs. JavaScript: Which Is Better for' Automation? 🌟](https://betterprogramming.pub/bash-vs-python-vs-javascript-which-is-better-for-automation-92a277ef49e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.flipkart.tech: The Art of System Debugging — Decoding CPU Utilization' 🌟](https://blog.flipkart.tech/the-art-of-system-debugging-decoding-cpu-utilization-da75f09ef1ff)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [linuxjourney.com commandline](https://linuxjourney.com/lesson/the-shell#)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Announcing the HashiCorp Linux Repository](https://www.hashicorp.com/blog/announcing-the-hashicorp-linux-repository)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.pandorafms.org: Useful Network commands](https://blog.pandorafms.org/network-commands)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz: Linux ip Command Examples](https://www.cyberciti.biz/faq/linux-ip-command-examples-usage-syntax)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cyberciti.biz: Linux: 25 Iptables Netfilter Firewall Examples For New SysAdmins](https://www.cyberciti.biz/tips/linux-iptables-examples.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Cloud Architecture
@@ -345,11 +345,6 @@
 
   - [iximiuz.com: Illustrated introduction to Linux iptables](https://iximiuz.com/en/posts/laymans-iptables-101)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An exceptionally clear, illustrated guide explaining Netfilter chains, tables (filter, nat, mangle), and packet evaluation flows in Linux iptables. Demonstrates practical rules for port forwarding and packet blocking.
   - [linuxteck.com: 15 basic useful firewall-cmd commands in Linux](https://www.linuxteck.com/basic-useful-firewall-cmd-commands-in-linux)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical walkthrough of firewalld configurations using the firewall-cmd CLI. Covers zone management, permanent versus runtime rule definitions, and service-based port bindings for modern Red Hat enterprise environments.
-### Web Servers
-
-#### Nginx
-
-  - **(2026)** [==Nginx==](https://www.f5.com/products/nginx) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Nginx is the premier high-performance web server, reverse proxy, and ingress standard globally. Its lightweight event-driven design allows it to process high-concurrency traffic patterns with extremely predictable memory and CPU footprints.
 ## Observability (1)
 
 ### Capacity Management
@@ -393,7 +388,6 @@
 
 #### CLI Curation
 
-  - **(2025)** [**CommandLineFu 🌟**](https://www.commandlinefu.com/commands/browse) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An immense, user-voted platform for sharing and assessing terminal tricks. Perfect for tracking down highly specific, multi-tool regex constructs or one-liners.
   - **(2024)** [twitter.com/commandlinefu](https://x.com/commandlinefu) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official social channel broadcasting top command-line tips from the CommandLineFu portal. Useful for continuous bite-sized technical integration.
   - **(2023)** [twitter.com/commandlinefu3](https://x.com/commandlinefu3) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Supplementary feed mirroring automated script updates and terminal command structures.
   - **(2023)** [twitter.com/commandlinefu10](https://x.com/commandlinefu10) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Secondary distribution pipeline showcasing community-submitted bash recipes and diagnostic tools.
@@ -632,5 +626,5 @@
   - [tecmint.com: Testssl.sh – Testing TLS/SSL Encryption Anywhere on Any Port](https://www.tecmint.com/testssl-sh-test-tls-ssl-encryption-in-linux-commandline)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A hands-on installation and usage guide for testssl.sh, an open-source command-line security auditing tool. It demonstrates how to scan endpoints on any port to detect SSL/TLS vulnerabilities, cipher suite issues, and configuration flaws.
 
 ---
-💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Cheatsheets](./cheatsheets.md) | [Git](./git.md)
+💡 **Explore Related:** [Cheatsheets](./cheatsheets.md) | [Kubernetes](./kubernetes.md) | [Demos](./demos.md)
 

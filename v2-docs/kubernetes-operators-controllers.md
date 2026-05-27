@@ -5,11 +5,10 @@
 
 ## Standard Reference
 
-  - [KPIs](https://www.kpi.org/KPI-Basics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [contentful.com: Open-sourcing kube-secret-syncer: A Kubernetes operator to sync secrets from AWS Secrets Manager](https://www.contentful.com/blog/open-source-kube-secret-syncer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kruschecompany.com: What is a Kubernetes Operator and Where it Can be Used?](https://kruschecompany.com/wp-content/uploads/2020/01/kubernetes-operator.jpg)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kruschecompany.com: Prometheus Operator – Installing Prometheus Monitoring Within The Kubernetes Environment](https://kruschecompany.com/page-not-found)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kube-fluentd-operator 🌟](https://github.com/vmware-archive/kube-fluentd-operator) <span class='md-tag md-tag--info'>⭐ 321</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [contentful.com: Open-sourcing kube-secret-syncer: A Kubernetes operator to sync secrets from AWS Secrets Manager](https://www.contentful.com/blog/open-source-kube-secret-syncer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [contentful-labs/kube-secret-syncer 🌟](https://github.com/contentful-labs/kube-secret-syncer)
   - [isaaguilar/terraform-operator: Terraform Operator](https://github.com/GalleyBytes/terraform-operator) <span class='md-tag md-tag--info'>⭐ 381</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openshift.com: Is your Operator Air-Gap Friendly?](https://www.redhat.com/en/blog/is-your-operator-air-gap-friendly)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kuberhealthy 🌟](https://github.com/kuberhealthy/kuberhealthy) <span class='md-tag md-tag--info'>⭐ 2235</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -20,27 +19,16 @@
   - [openshift.com: Build Your Kubernetes Operator With the Right Tool 🌟](https://www.redhat.com/en/blog/build-your-kubernetes-operator-with-the-right-tool)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [brennerm.github.io: Kubernetes operators with Python #1: Creating CRDs](https://shipit.dev/posts/k8s-operators-with-python-part-1.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [metalbear.co: Writing a Kubernetes Operator](https://metalbear.com/blog/writing-a-kubernetes-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [itnext.io: Operator Lifecycle Manager](https://itnext.io/wth-is-a-operator-lifecycle-manager-873cf1661b04)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/open-telemetry/opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator) <span class='md-tag md-tag--info'>⭐ 1696</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@magstherdev: OpenTelemetry Operator](https://medium.com/@magstherdev/opentelemetry-operator-d3d407354cbf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [operatorhub.io](https://operatorhub.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [How Kubernetes Operators Fit into Platform Building and When Traditional IaC Isn't Enough](https://www.thestack.technology/how-kubernetes-operators-fit-into-to-platform-building-and-when-traditional-iac-isnt-enough)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [borchero/switchboard: Switchboard](https://github.com/borchero/switchboard) <span class='md-tag md-tag--info'>⭐ 163</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [contentful-labs/kube-secret-syncer 🌟](https://github.com/contentful-labs/kube-secret-syncer) <span class='md-tag md-tag--info'>⭐ 194</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes](https://github.com/NVIDIA/k8s-device-plugin) <span class='md-tag md-tag--info'>⭐ 3760</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [Kdo: deployless development on Kubernetes 🌟](https://kdo.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [KUDO: The Kubernetes Universal Declarative Operator 🌟](https://kudo.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [abhirockzz/kubexpose-operator](https://github.com/abhirockzz/kubexpose-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [KubePlus - Kubernetes Operator to deliver Helm charts as-a-service 🌟](https://github.com/cloud-ark/kubeplus) <span class='md-tag md-tag--info'>⭐ 734</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloud-bulldozer/benchmark-operator: The Chuck Norris of cloud benchmarks](https://github.com/cloud-bulldozer/benchmark-operator) <span class='md-tag md-tag--info'>⭐ 304</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Kueue Release v0.14.0](https://github.com/kubernetes-sigs/kueue/releases/tag/v0.14.0) <span class='md-tag md-tag--info'>⭐ 2513</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [KPIs](https://www.kpi.org/KPI-Basics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [The Beginner’s Guide to the Ansible Inventory](https://www.packetcoders.io/the-beginners-guide-to-the-ansible-inventory)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@mikakrief: Using Azure Service Operator v2](https://medium.com/@mikakrief/using-azure-service-operator-v2-4a1fa1f5e3b8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Introduction to Azure Application Gateway for Containers (AGC)](https://blog.cloudtrooper.net/2025/02/28/application-gateway-for-containers-a-not-so-gentle-intro-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Writing a Kubernetes Operator in Java using Quarkus' - **Cheat Sheet** 🌟](https://developers.redhat.com/cheat-sheets/writing-kubernetes-operator-java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [itnext.io: Operator Lifecycle Manager](https://itnext.io/wth-is-a-operator-lifecycle-manager-873cf1661b04)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [10 Real-World Kubernetes Troubleshooting Scenarios and Solutions](https://livingdevops.com/devops/10-real-world-kubernetes-troubleshooting-scenarios-and-solutions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [How Kubernetes Operators Fit into Platform Building and When Traditional IaC Isn't Enough](https://www.thestack.technology/how-kubernetes-operators-fit-into-to-platform-building-and-when-traditional-iac-isnt-enough)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [InGate: Ingress & Gateway API Controller (Archived)](https://github.com/kubernetes-sigs/ingate) <span class='md-tag md-tag--info'>⭐ 731</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kubernetes Gateway API](https://github.com/kubernetes-sigs/gateway-api) <span class='md-tag md-tag--info'>⭐ 2861</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [10 Real-World Kubernetes Troubleshooting Scenarios and Solutions](https://livingdevops.com/devops/10-real-world-kubernetes-troubleshooting-scenarios-and-solutions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [The Beginner’s Guide to the Ansible Inventory](https://www.packetcoders.io/the-beginners-guide-to-the-ansible-inventory)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hashicorp.com: Creating Workspaces with the HashiCorp Terraform Operator' for Kubernetes](https://www.hashicorp.com/blog/creating-workspaces-with-the-hashicorp-terraform-operator-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [banzaicloud.com: Kafka rolling upgrade made easy with Supertubes](https://banzaicloud.com/blog/kafka-rolling-upgrade)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devops.com: Day 2 for the Operator Ecosystem 🌟](https://devops.com/day-2-for-the-operator-ecosystem)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -58,6 +46,7 @@
   - [kubeload - load testing](https://github.com/Efrat19/kubeload)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [registry-creds](https://github.com/alexellis/registry-creds) <span class='md-tag md-tag--info'>⭐ 351</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [gemini](https://github.com/FairwindsOps/gemini) <span class='md-tag md-tag--info'>⭐ 433</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kdo: deployless development on Kubernetes 🌟](https://kdo.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [HostPort Operator](https://github.com/rmb938/hostport-allocator) <span class='md-tag md-tag--info'>⭐ 18</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [iximiuz.com: Exploring Kubernetes Operator Pattern 🌟](https://iximiuz.com/en/posts/kubernetes-operator-pattern)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [didil/autobucket-operator](https://github.com/didil/autobucket-operator) <span class='md-tag md-tag--info'>⭐ 12</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -69,6 +58,7 @@
   - [medium.com: Getting Started With Kubernetes Operators (Helm Based) - Part' 1](https://www.velotio.com/engineering-blog/getting-started-with-kubernetes-operators-helm-based-part-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [IngressMonitorController (Deprecated)](https://github.com/stakater/IngressMonitorController) <span class='md-tag md-tag--info'>⭐ 730</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [FairwindsOps/rbac-manager: RBAC Manager 🌟](https://github.com/FairwindsOps/rbac-manager) <span class='md-tag md-tag--info'>⭐ 1649</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [KubePlus - Kubernetes Operator to deliver Helm charts as-a-service 🌟](https://github.com/cloud-ark/kubeplus) <span class='md-tag md-tag--info'>⭐ 734</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes.io: Writing a Controller for Pod Labels](https://kubernetes.io/blog/2021/06/21/writing-a-controller-for-pod-labels)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubermatic.com: Why Implementing Kubernetes Operators Is a Good Idea! 🌟](https://www.kubermatic.com/blog/why-implementing-kubernetes-operators-is-a-good-idea)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: We Pushed Helm to the Limit, then Built a Kubernetes Operator' 🌟](https://thenewstack.io/we-pushed-helm-to-the-limit-then-built-a-kubernetes-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -77,6 +67,7 @@
   - [itnext.io: Kubernetes Operators: Cruise Control for Managing Cloud-Native' Apps](https://itnext.io/kubernetes-operators-cruise-control-for-managing-cloud-native-apps-db328ef8e345)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [digitalis-io/vals-operator](https://github.com/digitalis-io/vals-operator) <span class='md-tag md-tag--info'>⭐ 166</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [banzaicloud/thanos-operator 🌟](https://github.com/banzaicloud/thanos-operator) <span class='md-tag md-tag--info'>⭐ 283</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloud-bulldozer/benchmark-operator: The Chuck Norris of cloud benchmarks](https://github.com/cloud-bulldozer/benchmark-operator) <span class='md-tag md-tag--info'>⭐ 304</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [pravega/pravega-operator](https://github.com/pravega/pravega-operator) <span class='md-tag md-tag--info'>⭐ 40</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Quentin-M/etcd-cloud-operator](https://github.com/Quentin-M/etcd-cloud-operator) <span class='md-tag md-tag--info'>⭐ 234</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [spring.io: Get to Know a Kubernetes Operator!](https://spring.io/blog/2021/11/19/get-to-know-a-kubernetes-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -94,6 +85,7 @@
   - [Keel 🌟](https://github.com/keel-hq/keel) <span class='md-tag md-tag--info'>⭐ 2711</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@mjkool: Kubernetes Operator — Simplified!](https://medium.com/@mjkool/kubernetes-operator-simplified-96b8c8f7e627)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@timebertt: Kubernetes Controllers at Scale: Clients, Caches,' Conflicts, Patches Explained](https://medium.com/@timebertt/kubernetes-controllers-at-scale-clients-caches-conflicts-patches-explained-aa0f7a8b4332)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [openshift/machine-api-operator](https://github.com/openshift/machine-api-operator) <span class='md-tag md-tag--info'>⭐ 185</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [rancher/system-upgrade-controller: System Upgrade Controller](https://github.com/rancher/system-upgrade-controller) <span class='md-tag md-tag--info'>⭐ 947</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [alenkacz.medium.com: Kubernetes operator best practices: Implementing observedGeneration](https://alenkacz.medium.com/kubernetes-operator-best-practices-implementing-observedgeneration-250728868792)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ckotzbauer/vulnerability-operator](https://github.com/ckotzbauer/vulnerability-operator) <span class='md-tag md-tag--info'>⭐ 87</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -105,12 +97,14 @@
   - [prosimcorp/reforma](https://github.com/prosimcorp/reforma) <span class='md-tag md-tag--info'>⭐ 58</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [awstip.com: Manage AWS services directly from Kubernetes - AWS Controllers' for Kubernetes (ACK)](https://awstip.com/manage-aws-services-directly-from-kubernetes-%EF%B8%8F-6c94e376febb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [vitobotta/velero-notifications](https://github.com/vitobotta/velero-notifications) <span class='md-tag md-tag--info'>⭐ 36</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes](https://github.com/NVIDIA/k8s-device-plugin) <span class='md-tag md-tag--info'>⭐ 3760</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [medium.com/@marom.itamar: Kubernetes Controllers, Custom Resources, and' Operators Explained](https://medium.com/@marom.itamar/kubernetes-controllers-custom-resources-and-operators-explained-8e92f46829f6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [glebiller/dynamic-configuration-operator: Dynamic Configuration Operator](https://github.com/glebiller/dynamic-configuration-operator) <span class='md-tag md-tag--info'>⭐ 34</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [faun.pub: A Definitive guide to Kubernetes Operator — The crawl!](https://faun.pub/a-definitive-guide-to-kubernetes-operator-the-crawl-7647b278c28b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/furiko-io/furiko](https://github.com/furiko-io/furiko) <span class='md-tag md-tag--info'>⭐ 502</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [paul-the-kelly.medium.com: Extending the Kubernetes API using Operators](https://paul-the-kelly.medium.com/extending-the-kubernetes-api-using-operators-9ffc8364ae5c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/DevOps-Nirvana: Kubernetes Volume / Disk Autoscaler (via Prometheus)](https://github.com/DevOps-Nirvana/Kubernetes-Volume-Autoscaler) <span class='md-tag md-tag--info'>⭐ 317</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [borchero/switchboard: Switchboard](https://github.com/borchero/switchboard) <span class='md-tag md-tag--info'>⭐ 163</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [scylladb/scylla-operator](https://github.com/scylladb/scylla-operator) <span class='md-tag md-tag--info'>⭐ 398</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [faun.pub: Kubernetes Controllers, Custom Resources, and Operators Explained](https://faun.pub/kubernetes-controllers-custom-resources-and-operators-explained-8e92f46829f6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [coderanger/migrations-operator: Migrations-Operator](https://github.com/coderanger/migrations-operator) <span class='md-tag md-tag--info'>⭐ 136</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -133,17 +127,21 @@
   - [dragondscv.medium.com: Controller runtime — handle resource deletion with' predicate](https://dragondscv.medium.com/controller-runtime-handle-resource-deletion-with-predicate-f69d09dd5802)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/NCCloud/mayfly: Ephemeral Kubernetes Resources 🌟](https://github.com/NCCloud/mayfly) <span class='md-tag md-tag--info'>⭐ 338</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: 5 Advanced Kubernetes Operators Every DevOps Engineer Should' Know About 🌟](https://itnext.io/5-advanced-kubernetes-operators-every-devops-engineer-should-know-about-ab46bdc1c7d5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/open-telemetry/opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator) <span class='md-tag md-tag--info'>⭐ 1696</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@magstherdev: OpenTelemetry Operator](https://medium.com/@magstherdev/opentelemetry-operator-d3d407354cbf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) <span class='md-tag md-tag--info'>⭐ 9153</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [medium.com/@adnn.selimovic: Creating Kubernetes operator using **Kubebuilder**](https://medium.com/@adnn.selimovic/creating-kubernetes-operator-using-kubebuilder-15db5f29ee50)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/geekculture: A New Pattern that Simplifies Operator Building](https://medium.com/geekculture/a-new-pattern-that-simplifies-operator-building-39df5d021cfa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [qdnqn.com: Creating Kubernetes operator using Kubebuilder](https://qdnqn.com/creating-kubernetes-operator-using-kubebuilder)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to/thenjdevopsguy: What Is A Kubernetes Operator?](https://dev.to/thenjdevopsguy/what-is-a-kubernetes-operator-53kb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [operatorhub.io](https://operatorhub.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Operator Capability Levels](https://operatorframework.io/operator-capabilities)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Cluster Addons 🌟](https://github.com/kubernetes-sigs/cluster-addons) <span class='md-tag md-tag--info'>⭐ 156</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [K8Spin Operator 🌟](https://github.com/k8spin/k8spin-operator) <span class='md-tag md-tag--info'>⭐ 217</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: K8Spin Provides Multitenant Isolation for Kubernetes](https://thenewstack.io/k8spin-provides-multitenant-isolation-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Discover K8Spin open source software](https://k8spin.cloud/oss-projects)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [K8s KPIs with Kuberhealthy 🌟](https://kubernetes.io/blog/2020/05/29/k8s-kpis-with-kuberhealthy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kueue Release v0.14.0](https://github.com/kubernetes-sigs/kueue/releases/tag/v0.14.0) <span class='md-tag md-tag--info'>⭐ 2513</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kubernetes.io: Operator pattern](https://kubernetes.io/docs/concepts/extend-kubernetes/operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.com: Build a Kubernetes Operator in 10 minutes with Operator' SDK](https://opensource.com/article/20/3/kubernetes-operator-sdk)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Testing the Operator SDK and making a prefetch mechanism for' Kubernetes](https://itnext.io/testing-the-operator-sdk-and-making-a-prefetch-mechanism-for-kubernetes-7508577efdd7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -161,6 +159,9 @@
   - [betterprogramming.pub: Writing Custom Kubernetes Controller and Webhooks](https://betterprogramming.pub/writing-custom-kubernetes-controller-and-webhooks-141230820e9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [betterprogramming.pub: How To Write Tests for Your Kubernetes Operator](https://betterprogramming.pub/write-tests-for-your-kubernetes-operator-d3d6a9530840)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to/hkhelil: Building a Kubernetes Operator with an NGINX CRD](https://dev.to/hkhelil/building-a-kubernetes-operator-with-an-nginx-crd-3lil)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [contentful-labs/kube-secret-syncer 🌟](https://github.com/contentful-labs/kube-secret-syncer) <span class='md-tag md-tag--info'>⭐ 194</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [KUDO: The Kubernetes Universal Declarative Operator 🌟](https://kudo.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [abhirockzz/kubexpose-operator](https://github.com/abhirockzz/kubexpose-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Cloud Infrastructure
 
@@ -206,5 +207,5 @@ Live Grounding: Provisions GPU drivers, container runtimes, device plug-ins, and
   - [Sharing a NVIDIA GPU Between Pods in Kubernetes](https://www.cloudnativedeepdive.com/sharing-a-nvidia-gpu-between-pods-in-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Explores the technicalities of sharing physical NVIDIA GPUs among multiple Pods in Kubernetes. Covers GPU fractional slicing, Multi-Instance GPU (MIG) strategies, and workload optimization for ML/AI clusters.
 
 ---
-💡 **Explore Related:** [Container Managers](./container-managers.md) | [Kubernetes Monitoring](./kubernetes-monitoring.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
+💡 **Explore Related:** [Docker](./docker.md) | [Serverless](./serverless.md) | [OCP 3](./ocp3.md)
 

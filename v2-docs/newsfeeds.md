@@ -6,13 +6,13 @@
 ## Standard Reference
 
   - [GitLab Collective](https://stackoverflow.com/collectives/gitlab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [reddit.com/r/jenkinsci](https://www.reddit.com/r/jenkinsci)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [reddit.com/r/java](https://www.reddit.com/r/java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [reddit.com/r/jenkinsci](https://www.reddit.com/r/jenkinsci)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [reddit.com/r/kubernetes](https://www.reddit.com/r/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [nativecloud.dev 🌟](https://nativecloud.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [reddit.com/r/openshift](https://www.reddit.com/r/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [reddit.com/r/redhat](https://www.reddit.com/r/redhat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [reddit.com/r/devops](https://www.reddit.com/r/devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [reddit.com/r/redhat](https://www.reddit.com/r/redhat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [reddit.com/r/openshift](https://www.reddit.com/r/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [reddit.com/r/maven](https://www.reddit.com/r/maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [reddit.com/r/gradle](https://www.reddit.com/r/gradle)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [reddit.com/r/azuredevops](https://www.reddit.com/r/azuredevops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -41,5 +41,5 @@
 
 
 ---
-💡 **Explore Related:** [Elearning](./elearning.md) | [Recruitment](./recruitment.md) | [Freelancing](./freelancing.md)
+💡 **Explore Related:** [Elearning](./elearning.md) | [Finops](./finops.md) | [Recruitment](./recruitment.md)
 

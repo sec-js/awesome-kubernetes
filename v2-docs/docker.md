@@ -38,20 +38,13 @@
   - [jfrog.com: THE BASICS: 7 Alternatives to Docker: All-in-One Solutions and Standalone Container Tools 🌟](https://jfrog.com/learn/devops/alternatives-to-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.logrocket.com: Top Docker alternatives for 2022](https://blog.logrocket.com/docker-alternatives)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Docker for LLMs](https://www.docker.com/llm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [What is Podman and How Does it Compare to Docker?](https://build5nines.com/what-is-podman-and-how-does-it-compare-to-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Floci - An AWS Local Emulator Alternative](https://github.com/floci-io/floci) <span class='md-tag md-tag--info'>⭐ 12740</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [github.com/google/go-containerregistry 🌟](https://github.com/google/go-containerregistry) <span class='md-tag md-tag--info'>⭐ 3881</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [nerdctl 🌟](https://github.com/containerd/nerdctl) <span class='md-tag md-tag--info'>⭐ 10104</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [kaniko](https://github.com/GoogleContainerTools/kaniko) <span class='md-tag md-tag--info'>⭐ 15762</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
-  - [technology.doximity.com: Buildpacks vs Dockerfiles 🌟](https://technology.doximity.com/articles/buildpacks-vs-dockerfiles)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cheatsheetseries.owasp.org: Docker Security Cheat Sheet 🌟🌟](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.alexellis.io: Building containers without Docker 🌟](https://blog.alexellis.io/building-containers-without-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [containerd - An open and reliable container runtime](https://github.com/containerd/containerd) <span class='md-tag md-tag--info'>⭐ 20746</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [What is Podman and How Does it Compare to Docker?](https://build5nines.com/what-is-podman-and-how-does-it-compare-to-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Podman.io](https://podman.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Buildah.io](https://buildah.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cheatsheetseries.owasp.org: Docker Security Cheat Sheet 🌟🌟](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Docker Hardened Images for Every Developer](https://www.docker.com/blog/docker-hardened-images-for-every-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Awesome Docker 🌟](https://github.com/veggiemonk/awesome-docker) <span class='md-tag md-tag--info'>⭐ 36056</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
-  - [Awesome Compose 🌟](https://github.com/docker/awesome-compose) <span class='md-tag md-tag--info'>⭐ 45355</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [Dzone refcard: Getting Started with Docker](https://dzone.com/refcardz/getting-started-with-docker-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone refcard: Java Containerization 🌟](https://dzone.com/refcardz/java-containerization)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [americanexpress.io: **Do Not Run Dockerized Applications as Root** 🌟](https://americanexpress.io/do-not-run-dockerized-applications-as-root)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -74,6 +67,7 @@
   - [docker.com: Year in Review: The Most Viewed Docker Blog Posts of 2020 Part' 2 🌟](https://www.docker.com/blog/year-in-review-the-most-viewed-docker-blog-posts-of-2020-part-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloudsavvyit.com: How to Use Cron With Your Docker Containers](https://www.cloudsavvyit.com/9033/how-to-use-cron-with-your-docker-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: Docker Hub and JFrog Partnership Removes Image Pull Limits for' Artifactory Users](https://www.infoq.com/news/2021/01/docker-jfrog-partnership)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [technology.doximity.com: Buildpacks vs Dockerfiles 🌟](https://technology.doximity.com/articles/buildpacks-vs-dockerfiles)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [docker.com: Containerized Python Development – Part 1](https://www.docker.com/blog/containerized-python-development-part-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [pythonspeed.com: The worst so-called “best practice” for Docker](https://pythonspeed.com/articles/security-updates-in-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Making environment variables accessible in front-end' containers](https://developers.redhat.com/blog/2021/03/04/making-environment-variables-accessible-in-front-end-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -165,7 +159,10 @@
   - [iximiuz.com: Docker: How To Debug Distroless And Slim Containers 🌟](https://iximiuz.com/en/posts/docker-debug-slim-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: 9 Docker Extensions Every Developer Must Try](https://dev.to/docker/9-docker-extensions-every-developer-must-try-1no2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/Saniewski/mongo-express-docker-extension](https://github.com/Saniewski/mongo-express-docker-extension) <span class='md-tag md-tag--info'>⭐ 11</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Awesome Docker 🌟](https://github.com/veggiemonk/awesome-docker) <span class='md-tag md-tag--info'>⭐ 36056</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [Awesome Compose 🌟](https://github.com/docker/awesome-compose) <span class='md-tag md-tag--info'>⭐ 45355</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [medium: Docker anti-patterns | Codefresh](https://medium.com/containers-101/docker-anti-patterns-ad2a1fcd5ce1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Docker Hardened Images for Every Developer](https://www.docker.com/blog/docker-hardened-images-for-every-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [brianchristner.io: How to use Docker Security Scan Locally](https://brianchristner.io/how-to-use-docker-scan)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [snyk.io: 10 Docker Security Best Practices 🌟](https://snyk.io/blog/10-docker-image-security-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: Is Docker Secure Enough?](https://www.infoq.com/articles/securing-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -202,6 +199,7 @@
   - [ttl.sh: Anonymous & ephemeral Docker image registry 🌟](https://ttl.sh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [buildg: Interactive debugger for Dockerfile 🌟](https://github.com/ktock/buildg) <span class='md-tag md-tag--info'>⭐ 1495</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: Debugging Large and Complex Dockerfiles Gets Easier with Buildg](https://www.infoq.com/news/2022/09/debug-dockerfiles-buildg)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/google/go-containerregistry 🌟](https://github.com/google/go-containerregistry) <span class='md-tag md-tag--info'>⭐ 3881</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) <span class='md-tag md-tag--info'>⭐ 51111</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [docker.com: Docker and Ambassador Labs Announce Telepresence for Docker,' Improving the Kubernetes Development Experience 🌟](https://www.docker.com/blog/telepresence-for-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/containrrr/watchtower](https://github.com/containrrr/watchtower) <span class='md-tag md-tag--info'>⭐ 24618</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
@@ -228,12 +226,22 @@
   - [thenewstack.io: Container Images the Easy Way with Cloud Native Buildpacks](https://thenewstack.io/container-images-the-easy-way-with-cloud-native-buildpacks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to/pmbanugo: Goodbye Dockerfiles: Build Secure & Optimised Node.js Container' Images with Cloud Native Buildpacks](https://dev.to/pmbanugo/goodbye-dockerfiles-build-secure-optimised-nodejs-container-images-with-cloud-native-buildpacks-489p)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: nerdctl: Docker-compatible CLI for contaiNERD](https://medium.com/nttlabs/nerdctl-359311b32d0e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [nerdctl 🌟](https://github.com/containerd/nerdctl) <span class='md-tag md-tag--info'>⭐ 10104</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [img](https://github.com/genuinetools/img) <span class='md-tag md-tag--info'>⭐ 3986</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [jib](https://github.com/GoogleContainerTools/jib) <span class='md-tag md-tag--info'>⭐ 14402</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [kaniko](https://github.com/GoogleContainerTools/kaniko) <span class='md-tag md-tag--info'>⭐ 15762</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [itnext.io: Replace Docker Desktop with lima](https://itnext.io/replace-docker-desktop-with-lima-88ec6f9d6a19)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: Alternatives to Docker Desktop](https://dzone.com/articles/alternatives-to-docker-desktop)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: Docker Alternatives: 10 Alternatives to Docker for Your SaaS Application](https://dzone.com/articles/docker-alternatives-10-alternatives-to-docker-for)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Cloud Native AI
+
+### Big Data Orchestration
+
+#### Spark on Kubernetes
+
+  - **(2021)** [datamechanics.co: Apache Spark 3.1 Release: Spark on Kubernetes is now Generally Available](https://www.datamechanics.co)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Platform news highlighting Apache Spark 3.1 generally available support for native Kubernetes.
+Live Grounding: Covers the native scheduling capabilities, decommissioning behaviors, and executor tracking improvements that made Kubernetes a first-class citizen for Spark.
 ## Cloud Native Security
 
 ### Supply Chain Security
@@ -262,7 +270,14 @@
 #### Guides and Workflows
 
   - [itnext.io: Software development in containers — a cookbook 🌟🌟🌟](https://itnext.io/software-development-in-containers-a-cookbook-2ba14d07e535) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed technical guide explaining how to design local workflows with container environments. Demonstrates setup strategies for hot reloading, direct container mounts, network port forwards, and dev-to-prod pipeline parity.
+## Infrastructure Standards
+
+### Container Registry
+
+#### Legacy Resources
+
+  - **(2026)** [Test an insecure registry 🌟](https://docs.docker.com/retired) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Retired Docker documentation dealing with configurations of insecure, unencrypted private registries. Preserved for diagnosing vintage local developer configurations.
 
 ---
-💡 **Explore Related:** [Container Managers](./container-managers.md) | [Kubernetes Monitoring](./kubernetes-monitoring.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
+💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Serverless](./serverless.md) | [OCP 3](./ocp3.md)
 

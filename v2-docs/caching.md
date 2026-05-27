@@ -23,15 +23,15 @@
   - [Nginx: a caching, thumbnailing, reverse proxying image server? 🌟](http://charlesleifer.com/blog/nginx-a-caching-thumbnailing-reverse-proxying-image-server-)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [highscalability.com: Building nginx and Tarantool based services 🌟](http://highscalability.com/blog/2016/2/17/building-nginx-and-tarantool-based-services.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kothiyal-anuj.medium.com: Serverless Diary: The Ultimate Guide to **Caching' in the Cloud**](https://kothiyal-anuj.medium.com/serverless-diary-the-ultimate-guide-to-caching-in-the-cloud-249f6a06915f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [DZone refcard: Java Caching](https://dzone.com/refcardz/java-caching)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [nixCraft: 9 Awesome Open Source Web Performance Software For Linux and Unix-like' Systems](https://www.cyberciti.biz/open-source/http-web-performance-proxy-load-balancer-accelerator-software)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Wikipedia: Web cache](https://en.wikipedia.org/wiki/Web_cache)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Wikipedia: Dynamic site acceleration](https://en.wikipedia.org/wiki/Dynamic_site_acceleration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [nixCraft: 9 Awesome Open Source Web Performance Software For Linux and Unix-like' Systems](https://www.cyberciti.biz/open-source/http-web-performance-proxy-load-balancer-accelerator-software)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone: An Introduction to Caching: How and Why We Do It 🌟](https://dzone.com/articles/introducing-amp-assimilating-caching-quick-read-fo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Caching — System Design Concept 🌟](https://medium.com/enjoy-algorithm/caching-system-design-concept-500134cff300)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Microservices Distributed Caching](https://medium.com/design-microservices-architecture-with-patterns/microservices-distributed-caching-76828817e41b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/rtkal: Distributed Cache Design](https://medium.com/rtkal/distributed-cache-design-348cbe334df1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [surfingcomplexity.blog: Cache invalidation really is one of the hardest' problems in computer science](https://surfingcomplexity.blog/2022/11/25/cache-invalidation-really-is-one-of-the-hardest-things-in-computer-science)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [DZone refcard: Java Caching](https://dzone.com/refcardz/java-caching)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone: Getting Started with Infinispan](https://dzone.com/refcardz/getting-started-infinispan)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Red Hat Data Grid Overview](https://developers.redhat.com/products/datagrid/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Red Hat Data Grid](https://www.redhat.com/en/technologies/jboss-middleware/data-grid)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -58,7 +58,7 @@
 
 #### Caching
 
-  - [Redis](https://redis.io) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive open-source, in-memory data store used as a database, cache, message broker, and streaming engine. Offers unmatched low-latency read-write cycles and versatile data structures. Highly valued for real-time applications requiring low overhead.
+  - [Redis](http://redis.io) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive open-source, in-memory data store used as a database, cache, message broker, and streaming engine. Offers unmatched low-latency read-write cycles and versatile data structures. Highly valued for real-time applications requiring low overhead.
 ## Networking
 
 ### Load Balancing
@@ -75,5 +75,5 @@
   - [github.com/taubyte/tau: Tau](https://github.com/taubyte/tau) <span class='md-tag md-tag--info'>⭐ 5030</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The main open-source repository for Tau. This platform handles autonomous routing, distributed database syncs, and scaling for multi-tenant edge services, running on WebAssembly.
 
 ---
-💡 **Explore Related:** [Web Servers](./web-servers.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Istio](./istio.md)
+💡 **Explore Related:** [Servicemesh](./servicemesh.md) | [Istio](./istio.md) | [Networking](./networking.md)
 
