@@ -4,71 +4,42 @@ Welcome to the **Agentic Video Hub**. This section presents a logical, architect
 
 ## Table of Contents
 
-1. [AI and Future Operations](#ai-and-future-operations)
+1. [Fundamentals and Documentaries](#fundamentals-and-documentaries)
 2. [Architecture and Cloud Strategy](#architecture-and-cloud-strategy)
-3. [Fundamentals and Documentaries](#fundamentals-and-documentaries)
-4. [Infrastructure as Code](#infrastructure-as-code)
+3. [Infrastructure as Code](#infrastructure-as-code)
+4. [Developer Productivity](#developer-productivity)
 5. [Observability and Monitoring](#observability-and-monitoring)
 6. [Security and Compliance](#security-and-compliance)
+7. [AI and Future Operations](#ai-and-future-operations)
 
-## AI and Future Operations
-??? note "🎬 Thursday morning general session - May 9 - Red Hat Summit 2019 | `Red Hat OpenShift`"
+## Fundamentals and Documentaries
+??? note "🎬 Kubernetes: The Documentary [PART 1] | `Kubernetes`"
     !!! info "Architectural Summary"
-        This session outlines the architectural enablement of cloud-native AI/ML workloads by integrating Red Hat OpenShift with NVIDIA GPU acceleration and automated MLOps platforms like H2O.ai and ProphetStor. It demonstrates how standardizing on a Kubernetes-based hybrid cloud substrate abstracts heterogeneous hardware environments, facilitating deterministic scaling, resource orchestration, and cognitive monitoring for high-performance AI pipelines. This unified operational model serves as a foundational blueprint for modern enterprise AI-platform engineering and edge computing architectures.
+        This documentary chronicles the origin of Kubernetes from Google's internal cluster managers Borg and Omega, highlighting the pivotal architectural transition from virtual machines to containerized orchestration. Understanding this evolution is critical for modern cloud-native architects, as it reveals the foundational design patterns—such as the reconciliation loop, declarative APIs, and decoupled control planes—that continue to govern state-of-the-art distributed systems and platform engineering.
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/FUu4kMc0PL8?clip=UgkxLbUzIJtyeKPi66qAvxxRlGbofYp_Gr8B&amp;clipt=EIDy0gIY4MbWAg" title="Thursday morning general session - May 9 - Red Hat Summit 2019" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/BE77h7dmoQU" title="Kubernetes: The Documentary [PART 1]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
-??? note "🎬 Artificial Intelligence | 60 Minutes Full Episodes | `Generative AI and Large Language Models`"
+??? note "🎬 Kubernetes: The Documentary [PART 2] | `Kubernetes`"
     !!! info "Architectural Summary"
-        This documentary anthology traces the rapid evolution of artificial intelligence from early deep learning implementations to advanced generative AI systems like Google's Bard and OpenAI's ChatGPT. For 2026 cloud-native architectures, these developments highlight the critical need for integrating scalable AI model orchestration, strict ethical guardrails, and secure data pipelines directly into enterprise platform engineering. Understanding these socio-technical shifts assists cloud architects in designing resilient, compliant AI-integrated infrastructures that balance massive computational demands with robust operational governance.
+        This documentary details the pivotal technical evolution and open governance model that led Kubernetes to win the container orchestration wars over competitors like Docker Swarm and Mesos. For a 2026 Cloud Native context, it underscores the enduring value of design principles like declarative APIs, reconciliation control loops, and pluggable interfaces (CNI, CRI, CSI) that define modern platform engineering. Understanding these foundational decisions allows architects to better design scalable, vendor-neutral control planes for complex multi-cloud environments.
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/aZ5EsdnpLMI?si=ESsNnVwE8IdWSiWZ" title="Artificial Intelligence | 60 Minutes Full Episodes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/318elIq37PE" title="Kubernetes: The Documentary [PART 2]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
-??? note "🎬 Red Hat OpenShift AI overview | `Red Hat OpenShift AI`"
+??? note "🎬 Jenkins Tutorials | `Jenkins`"
     !!! info "Architectural Summary"
-        Red Hat OpenShift AI provides an enterprise-grade MLOps platform built on Kubernetes that standardizes the training, tuning, serving, and monitoring of foundation and predictive AI models across hybrid and multi-cloud environments. By integrating open-source frameworks like Jupyter, PyTorch, and KServe with certified hardware accelerators, it delivers a secure, consistent, and self-service environment for platform and data science teams. This architecture ensures robust AI governance, operational scalability, and accelerated time-to-market for intelligent cloud-native applications.
+        This comprehensive video series details core Jenkins CI/CD automation techniques, including Pipeline-as-Code implementations and system management best practices. In a 2026 cloud-native context, mastering Jenkins remains critical for orchestrating complex build pipelines, bridging the gap between legacy infrastructure and modern Kubernetes deployment targets. The tutorials provide foundational architectural patterns for establishing scalable, automated, and reproducible continuous integration workflows across distributed enterprise environments.
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/Hc8emNr2igU?si=kehLRUpOAvyK_Bku" title="Red Hat OpenShift AI overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
-
-    </center>
-
-??? note "🎬 ¿Qué es una Red Neuronal? Parte 1 : La Neurona | DotCSV | `Neural Networks`"
-    !!! info "Architectural Summary"
-        This video deconstructs the foundational mathematical and algorithmic mechanics of a single artificial neuron, illustrating its direct relationship with linear regression, weights, biases, and activation functions. In a 2026 cloud-native landscape, mastering these core neural principles is critical for platform architects optimizing distributed micro-models and real-time AI inference engines deployed on Kubernetes-driven edge and cloud infrastructure. This granular understanding enables more efficient hardware acceleration profiling (GPUs/vGPUs/TPUs) and smarter resource allocation for decentralized machine learning pipelines.
-
-    <center markdown="1">
-
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/MRIv2IwFTPg?si=F07g869i6yIfqRdg" title="¿Qué es una Red Neuronal? Parte 1 : La Neurona | DotCSV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
-
-    </center>
-
-??? note "🎬 Mastering Claude Code in 30 minutes | `Claude Code`"
-    !!! info "Architectural Summary"
-        This technical session explores the architecture and implementation of Claude Code, Anthropic's agentic CLI designed for autonomous, multi-step engineering tasks. It details how the tool leverages the Model Context Protocol (MCP) to integrate with external data sources and documentation, enabling a self-healing development cycle where the agent autonomously reads code, executes shell commands, and iterates through test-driven development (TDD) loops. For 2026 platform engineers, mastering these agentic workflows is critical for scaling complex refactoring, managing cognitive load in large-scale repositories, and establishing robust human-in-the-loop (HITL) governance for AI-driven infrastructure operations.
-
-    <center markdown="1">
-
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/6eBSHbLKuN0" title="Mastering Claude Code in 30 minutes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
-
-    </center>
-
-??? note "🎬 Stanford CS229: Building Large Language Models (LLMs) | `LLM Architecture & Post-Training`"
-    !!! info "Architectural Summary"
-        This Stanford CS229 technical deep-dive deconstructs the transition from raw autoregressive language models to instruction-tuned assistants, focusing on the systems orchestration required for 2026 AI infrastructure. It explores critical patterns in tokenization (BPE/Sub-word), parameter-efficient fine-tuning (PEFT/LoRA), and the shift from RLHF to Direct Preference Optimization (DPO) to simplify model alignment pipelines. For cloud architects, the lecture provides a foundational framework for optimizing the "Compute-to-Token" ratio and managing memory constraints (KV Cache) in distributed distributed inference environments, while advocating for LLM-as-a-Judge automated evaluation loops for scalable model governance.
-
-    <center markdown="1">
-
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/9vM4p9NN0Ts" title="Stanford CS229: Building Large Language Models (LLMs)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?si=GBJtqv36O8bslj9z&amp;list=PLvBBnHmZuNQJeznYL2F-MpZYBUeLIXYEe" title="Jenkins Tutorials" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -253,47 +224,6 @@ Welcome to the **Agentic Video Hub**. This section presents a logical, architect
 
     </center>
 
-??? note "🎬 Remote VS Code with Dev Tunnels: access the editor from your browser | `VS Code`"
-    !!! info "Architectural Summary"
-        In this tutorial, Gisela Torres explains the architecture and application of VS Code Dev Tunnels to enable secure remote access to local development environments. Dev Tunnels establish a secure, encrypted connection to VS Code without requiring complex VPNs or firewall modifications, allowing developers to connect from any web browser or secondary editor instance. For 2026 developer productivity, this simplifies remote workspace orchestration and collaborative debugging in cloud-native platforms. [SPANISH CONTENT]
-
-    <center markdown="1">
-
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/niuJpAKyb7c" title="Remote VS Code with Dev Tunnels: access the editor from your browser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
-
-    </center>
-
-## Fundamentals and Documentaries
-??? note "🎬 Kubernetes: The Documentary [PART 1] | `Kubernetes`"
-    !!! info "Architectural Summary"
-        This documentary chronicles the origin of Kubernetes from Google's internal cluster managers Borg and Omega, highlighting the pivotal architectural transition from virtual machines to containerized orchestration. Understanding this evolution is critical for modern cloud-native architects, as it reveals the foundational design patterns—such as the reconciliation loop, declarative APIs, and decoupled control planes—that continue to govern state-of-the-art distributed systems and platform engineering.
-
-    <center markdown="1">
-
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/BE77h7dmoQU" title="Kubernetes: The Documentary [PART 1]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
-
-    </center>
-
-??? note "🎬 Kubernetes: The Documentary [PART 2] | `Kubernetes`"
-    !!! info "Architectural Summary"
-        This documentary details the pivotal technical evolution and open governance model that led Kubernetes to win the container orchestration wars over competitors like Docker Swarm and Mesos. For a 2026 Cloud Native context, it underscores the enduring value of design principles like declarative APIs, reconciliation control loops, and pluggable interfaces (CNI, CRI, CSI) that define modern platform engineering. Understanding these foundational decisions allows architects to better design scalable, vendor-neutral control planes for complex multi-cloud environments.
-
-    <center markdown="1">
-
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/318elIq37PE" title="Kubernetes: The Documentary [PART 2]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
-
-    </center>
-
-??? note "🎬 Jenkins Tutorials | `Jenkins`"
-    !!! info "Architectural Summary"
-        This comprehensive video series details core Jenkins CI/CD automation techniques, including Pipeline-as-Code implementations and system management best practices. In a 2026 cloud-native context, mastering Jenkins remains critical for orchestrating complex build pipelines, bridging the gap between legacy infrastructure and modern Kubernetes deployment targets. The tutorials provide foundational architectural patterns for establishing scalable, automated, and reproducible continuous integration workflows across distributed enterprise environments.
-
-    <center markdown="1">
-
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?si=GBJtqv36O8bslj9z&amp;list=PLvBBnHmZuNQJeznYL2F-MpZYBUeLIXYEe" title="Jenkins Tutorials" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
-
-    </center>
-
 ## Infrastructure as Code
 ??? note "🎬 Standardizing infrastructure automation with Terraform Enterprise | `Terraform Enterprise`"
     !!! info "Architectural Summary"
@@ -312,6 +242,17 @@ Welcome to the **Agentic Video Hub**. This section presents a logical, architect
     <center markdown="1">
 
     <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?si=fJvBV63-mjQ6S-Ht&amp;list=PL7sEPiUbBLo_iTds-NV-9Tu05Gg2Aj8N7" title="NetBox Zero To Hero" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Developer Productivity
+??? note "🎬 Remote VS Code with Dev Tunnels: access the editor from your browser | `VS Code`"
+    !!! info "Architectural Summary"
+        In this tutorial, Gisela Torres explains the architecture and application of VS Code Dev Tunnels to enable secure remote access to local development environments. Dev Tunnels establish a secure, encrypted connection to VS Code without requiring complex VPNs or firewall modifications, allowing developers to connect from any web browser or secondary editor instance. For 2026 developer productivity, this simplifies remote workspace orchestration and collaborative debugging in cloud-native platforms. [SPANISH CONTENT]
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/niuJpAKyb7c" title="Remote VS Code with Dev Tunnels: access the editor from your browser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -334,5 +275,66 @@ Welcome to the **Agentic Video Hub**. This section presents a logical, architect
     <center markdown="1">
 
     <iframe width="720" height="405" src="https://www.youtube.com/embed/nrhxNNH5lt0?si=U5h1mbkbF6ZEOvlj" title="What is DevSecOps? DevSecOps explained in 8 Mins" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## AI and Future Operations
+??? note "🎬 Thursday morning general session - May 9 - Red Hat Summit 2019 | `Red Hat OpenShift`"
+    !!! info "Architectural Summary"
+        This session outlines the architectural enablement of cloud-native AI/ML workloads by integrating Red Hat OpenShift with NVIDIA GPU acceleration and automated MLOps platforms like H2O.ai and ProphetStor. It demonstrates how standardizing on a Kubernetes-based hybrid cloud substrate abstracts heterogeneous hardware environments, facilitating deterministic scaling, resource orchestration, and cognitive monitoring for high-performance AI pipelines. This unified operational model serves as a foundational blueprint for modern enterprise AI-platform engineering and edge computing architectures.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/FUu4kMc0PL8?clip=UgkxLbUzIJtyeKPi66qAvxxRlGbofYp_Gr8B&amp;clipt=EIDy0gIY4MbWAg" title="Thursday morning general session - May 9 - Red Hat Summit 2019" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Artificial Intelligence | 60 Minutes Full Episodes | `Generative AI and Large Language Models`"
+    !!! info "Architectural Summary"
+        This documentary anthology traces the rapid evolution of artificial intelligence from early deep learning implementations to advanced generative AI systems like Google's Bard and OpenAI's ChatGPT. For 2026 cloud-native architectures, these developments highlight the critical need for integrating scalable AI model orchestration, strict ethical guardrails, and secure data pipelines directly into enterprise platform engineering. Understanding these socio-technical shifts assists cloud architects in designing resilient, compliant AI-integrated infrastructures that balance massive computational demands with robust operational governance.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/aZ5EsdnpLMI?si=ESsNnVwE8IdWSiWZ" title="Artificial Intelligence | 60 Minutes Full Episodes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Red Hat OpenShift AI overview | `Red Hat OpenShift AI`"
+    !!! info "Architectural Summary"
+        Red Hat OpenShift AI provides an enterprise-grade MLOps platform built on Kubernetes that standardizes the training, tuning, serving, and monitoring of foundation and predictive AI models across hybrid and multi-cloud environments. By integrating open-source frameworks like Jupyter, PyTorch, and KServe with certified hardware accelerators, it delivers a secure, consistent, and self-service environment for platform and data science teams. This architecture ensures robust AI governance, operational scalability, and accelerated time-to-market for intelligent cloud-native applications.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/Hc8emNr2igU?si=kehLRUpOAvyK_Bku" title="Red Hat OpenShift AI overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 ¿Qué es una Red Neuronal? Parte 1 : La Neurona | DotCSV | `Neural Networks`"
+    !!! info "Architectural Summary"
+        This video deconstructs the foundational mathematical and algorithmic mechanics of a single artificial neuron, illustrating its direct relationship with linear regression, weights, biases, and activation functions. In a 2026 cloud-native landscape, mastering these core neural principles is critical for platform architects optimizing distributed micro-models and real-time AI inference engines deployed on Kubernetes-driven edge and cloud infrastructure. This granular understanding enables more efficient hardware acceleration profiling (GPUs/vGPUs/TPUs) and smarter resource allocation for decentralized machine learning pipelines.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/MRIv2IwFTPg?si=F07g869i6yIfqRdg" title="¿Qué es una Red Neuronal? Parte 1 : La Neurona | DotCSV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Mastering Claude Code in 30 minutes | `Claude Code`"
+    !!! info "Architectural Summary"
+        This technical session explores the architecture and implementation of Claude Code, Anthropic's agentic CLI designed for autonomous, multi-step engineering tasks. It details how the tool leverages the Model Context Protocol (MCP) to integrate with external data sources and documentation, enabling a self-healing development cycle where the agent autonomously reads code, executes shell commands, and iterates through test-driven development (TDD) loops. For 2026 platform engineers, mastering these agentic workflows is critical for scaling complex refactoring, managing cognitive load in large-scale repositories, and establishing robust human-in-the-loop (HITL) governance for AI-driven infrastructure operations.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/6eBSHbLKuN0" title="Mastering Claude Code in 30 minutes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Stanford CS229: Building Large Language Models (LLMs) | `LLM Architecture & Post-Training`"
+    !!! info "Architectural Summary"
+        This Stanford CS229 technical deep-dive deconstructs the transition from raw autoregressive language models to instruction-tuned assistants, focusing on the systems orchestration required for 2026 AI infrastructure. It explores critical patterns in tokenization (BPE/Sub-word), parameter-efficient fine-tuning (PEFT/LoRA), and the shift from RLHF to Direct Preference Optimization (DPO) to simplify model alignment pipelines. For cloud architects, the lecture provides a foundational framework for optimizing the "Compute-to-Token" ratio and managing memory constraints (KV Cache) in distributed distributed inference environments, while advocating for LLM-as-a-Judge automated evaluation loops for scalable model governance.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/9vM4p9NN0Ts" title="Stanford CS229: Building Large Language Models (LLMs)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>

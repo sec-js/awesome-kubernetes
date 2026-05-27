@@ -29,9 +29,24 @@ def generate_v2_videos():
         print("No featured videos found in inventory.")
         return
 
-    # Sort by Category Order (using the numeric prefix) and then by video_order field
-    # Categories: "1. Fundamentals and Documentaries", "2. Architecture...", etc.
-    featured_videos.sort(key=lambda x: (x["category"], x.get("video_order", 999)))
+    # Logical category order following the O'Reilly learning flow
+    CATEGORY_ORDER = [
+        "Fundamentals and Documentaries",
+        "Architecture and Cloud Strategy",
+        "Infrastructure as Code",
+        "Developer Productivity",
+        "Observability and Monitoring",
+        "Security and Compliance",
+        "AI and Future Operations"
+    ]
+
+    def category_key(cat):
+        try:
+            return CATEGORY_ORDER.index(cat)
+        except ValueError:
+            return len(CATEGORY_ORDER)
+
+    featured_videos.sort(key=lambda x: (category_key(x["category"]), x.get("video_order", 999)))
 
     def clean_header(text):
         # MANDATE 30: No ampersands, no special characters
@@ -55,7 +70,7 @@ def generate_v2_videos():
         ""
     ]
 
-    categories = sorted(list(set(v["category"] for v in featured_videos)))
+    categories = sorted(list(set(v["category"] for v in featured_videos)), key=category_key)
     for idx, cat in enumerate(categories, 1):
         clean_cat = clean_header(cat)
         slug = get_slug(cat)

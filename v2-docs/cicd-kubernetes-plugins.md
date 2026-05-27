@@ -3,6 +3,10 @@
 !!! info "Architectural Context"
     Detailed reference for CI/CD Kubernetes Plugins in the context of Engineering Pipeline.
 
+## Standard Reference
+
+  - [GitLab Kubernetes Agent available on GitLab.com](https://docs.gitlab.com/releases/#gitlab-kubernetes-agent-available-on-gitlabcom)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
 ## Continuous Delivery
 
 ### GitOps
@@ -23,5 +27,5 @@
   - [openshift-client](https://plugins.jenkins.io/openshift-client) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Exposes OpenShift's command-line tool definitions directly inside Jenkins jobs, enabling custom script actions to command remote clusters safely.
 
 ---
-💡 **Explore Related:** [Gitops](./gitops.md) | [Flux](./flux.md) | [Argo](./argo.md)
+💡 **Explore Related:** [Registries](./registries.md) | [Jenkins](./jenkins.md) | [CI/CD](./cicd.md)
 

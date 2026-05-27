@@ -6,13 +6,13 @@
 ## Standard Reference
 
   - [tutorialspoint.com](http://www.tutorialspoint.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [hashicorp.com: HashiCorp Learning Resources Reference Guide 🌟](https://www.hashicorp.com/blog/hashicorp-learning-resources-reference-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [wiki.bash-hackers.org](https://wiki.bash-hackers.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [learn.openshift.com](https://learn.openshift.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [zeef.com: e-learning](https://e-learning.zeef.com/tracy.parish)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Udemy.com](https://www.udemy.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Udacity.com](https://eu.udacity.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [guru99.com](https://www.guru99.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [wiki.bash-hackers.org](https://wiki.bash-hackers.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hashicorp.com: HashiCorp Learning Resources Reference Guide 🌟](https://www.hashicorp.com/blog/hashicorp-learning-resources-reference-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [harvard.edu: CS50: Introduction to Computer Science (free)](https://pll.harvard.edu/course/cs50-introduction-computer-science)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/javarevisited: 11 Best Java Microservices Courses with Spring' Boot and Spring Cloud in 2022](https://medium.com/javarevisited/10-best-java-microservices-courses-with-spring-boot-and-spring-cloud-6d04556bdfed)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -27,6 +27,9 @@
 
 ### Databases
 
+#### PostgreSQL
+
+  - **(2025)** [learn.crunchydata.com](https://www.crunchydata.com/developers/tutorials) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An interactive database training portal detailing progressive PostgreSQL configuration, clustering, and troubleshooting. Crucial for architects planning highly available, stateful cloud-native storage engines.
 #### SQL
 
   - [SQL Police Department](https://sqlpd.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive, gamified SQL training playground where users act as police detectives to solve technical cases using structured queries. Excellent for practicing complex join and filtering logics.
@@ -121,5 +124,5 @@
   - [techiescamp/devops-projects:Real-World DevOps Projects For Learning](https://github.com/techiescamp/devops-projects)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A curated GitHub repository containing end-to-end real-world DevOps projects. Implements standard infrastructure-as-code deployments, multi-tier CI/CD pipelines, and structured orchestration designs.
 
 ---
-💡 **Explore Related:** [Interview Questions](./interview-questions.md) | [Recruitment](./recruitment.md) | [Finops](./finops.md)
+💡 **Explore Related:** [Recruitment](./recruitment.md) | [Freelancing](./freelancing.md) | [Finops](./finops.md)
 
