@@ -5,23 +5,21 @@
 
 ## Standard Reference
 
-  - [Platform comparisons](https://docs.cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [AWS and GCP comparison](https://docs.cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison/aws)
-    - [Mapping of AWS services to Google Cloud](https://gregsramblings.com/blog/compare-google-cloud-to-aws)
   - [acloudguru.com: Multicloud Fluency: 6 reasons you should learn multiple clouds](https://www.pluralsight.com/resources/blog/cloud/why-learn-multiple-cloud-platforms)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cast.ai: Ultimate cloud pricing comparison: AWS vs. Azure vs. Google Cloud in 2021](https://cast.ai/blog/cloud-pricing-comparison)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [acloudguru.com: Cloud security comparison: AWS vs. Azure vs. GCP](https://www.pluralsight.com/resources/blog/cloud/cloud-security-comparison-aws-vs-azure-vs-gcp)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [acloudguru.com: Cloud developer tooling compared: AWS vs. Azure vs. GCP](https://www.pluralsight.com/resources/blog/cloud/cloud-developer-tooling-compared-aws-vs-azure-vs-gcp)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [acloudguru.com: Blockchain cloud comparison: What is blockchain-as-a-service (BaaS)?](https://www.pluralsight.com/resources/blog/cloud/blockchain-cloud-comparison-what-is-blockchain-as-a-service-baas)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [acloudguru.com: Storage services compared: AWS vs Azure vs GCP](https://www.pluralsight.com/resources/blog/cloud/storage-showdown-aws-vs-azure-vs-gcp-cloud-comparison)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloud.google.com: Compare AWS and Azure services to Google Cloud](https://docs.cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Openshift.com pricing](https://www.redhat.com/en/technologies/cloud-computing/openshift/pricing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [OpenShift in Azure](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/openshift-container-platform-4x)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [Openshift on Azure](https://azure.microsoft.com/en-us/blog/openshift-on-azure-the-easiest-fully-managed-openshift-in-the-cloud)
   - [Gaia-X.eu](https://gaia-x.eu)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [GAIA-X: A Federated Data Infrastructure for Europe](https://www.bundeswirtschaftsministerium.de/Redaktion/EN/Dossier/gaia-x.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jamaica-gleaner.com: Amazon outage’s future implications](http://past.jamaica-gleaner.com/article/business/20211224/amazon-outages-future-implications)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [learntocloud.guide: 3 ways to get hands on (AWS, Azure, GCP)](https://learntocloud.guide/#/projects/README)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Digital Ocean Kubernetes (DOKS)](https://www.digitalocean.com/products/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud-mercato.com: Public Cloud Reference 🌟](https://pcr.cloud-mercato.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud-mercato.com: State of the art of Public Object Storage Europe 🌟](https://projector.cloud-mercato.com/projects/state-of-the-art-of-public-object-storage-europe)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [learntocloud.guide: 3 ways to get hands on (AWS, Azure, GCP)](https://learntocloud.guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Cloud Agnostic Design 🌟](https://medium.com/path-to-software-architect/cloud-agnostic-design-925c08e1d610)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cybernews.com: Trouble in paradise: IT professionals unhappy with cloud' services](https://cybernews.com/cloud/trouble-in-paradise-it-professionals-unhappy-with-cloud-services)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/adeo-tech: Multi-Cloud Kubernetes Survival Guide 🌟](https://medium.com/adeo-tech/multi-cloud-kubernetes-survival-guide-49eee9aa58e2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -41,6 +39,7 @@
   - [thenewstack.io: How to Evaluate Kubernetes Cloud Providers](https://thenewstack.io/how-to-evaluate-kubernetes-cloud-providers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone: 5 Hosted Kubernetes Platforms](https://dzone.com/articles/5-hosted-kubernetes-platforms)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Pivotal.io: Pivotal Container Service (PKS), owned by VMware](https://pivotal.io/platform/pivotal-container-service)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Digital Ocean Kubernetes (DOKS)](https://www.digitalocean.com/products/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Kubernetes pricing](https://aws.amazon.com/es/eks/pricing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Azure Kubernetes pricing](https://azure.microsoft.com/es-es/pricing/details/kubernetes-service)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Google cloud kubernetes pricing](https://cloud.google.com/kubernetes-engine/pricing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -57,5 +56,5 @@
 
 
 ---
-💡 **Explore Related:** [AWS Security](./aws-security.md) | [AWS Storage](./aws-storage.md) | [AWS Databases](./aws-databases.md)
+💡 **Explore Related:** [AWS Tools Scripts](./aws-tools-scripts.md) | [Azure](./azure.md) | [AWS](./aws.md)
 

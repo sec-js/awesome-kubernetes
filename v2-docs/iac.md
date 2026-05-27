@@ -5,48 +5,47 @@
 
 ## Standard Reference
 
-  - [cloud.google.com/config-connector](https://docs.cloud.google.com/config-connector/docs/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Deploying Virtual Networks Across Tenants Using Azure Virtual Network Manager](https://techcommunity.microsoft.com/blog/azurenetworkingblog/deploying-virtual-networks-across-tenants-using-azure-virtual-network-manager-ip/4410161)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Announcing Public Preview of Terraform Export from the Azure Portal](https://techcommunity.microsoft.com/blog/AzureToolsBlog/announcing-public-preview-of-terraform-export-from-the-azure-portal/4409889)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloud.google.com/config-connector](https://docs.cloud.google.com/config-connector/docs/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [agileconnection.com: Infrastructure as Code: The Foundation of Effective DevOps](https://www.stickyminds.com/?utm_source=d7ac)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [redhat.com: Pull vs. push in automated VM provisioning: What you need to know](https://www.redhat.com/en/blog/pull-push-provisioning-cicd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoworld.com: 5 priorities that cut cloud costs and improve IT ops](https://www.infoworld.com/article/2338245/5-priorities-that-cut-cloud-costs-and-improve-it-ops.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [matt-rickard.com: Infrastructure as Code Will be Written by AI](https://mattrickard.com/infrastructure-as-code-will-be-written-by-ai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [k21academy.com: Terraform vs Ansible: Working, Difference, Provisioning 🌟](https://k21academy.com/devops/terraform-vs-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [techcommunity.microsoft.com: Infrastructure as Code (IaC): Comparing the Tools](https://techcommunity.microsoft.com/blog/itopstalkblog/infrastructure-as-code-iac-comparing-the-tools/3205045)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [How Kubernetes Operators Fit into Platform Building and When Traditional IaC Isn't Enough](https://www.thestack.technology/how-kubernetes-operators-fit-into-to-platform-building-and-when-traditional-iac-isnt-enough)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [The Beginner’s Guide to the Ansible Inventory](https://www.packetcoders.io/the-beginners-guide-to-the-ansible-inventory)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [CloudCanvas - Diagramming for Cloud Infrastructure](https://cloudcanvas.co)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [IBM IAM for AI Agents](https://t.co/EKsVgKA4xn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Azure Landing Zone IaC Accelerator](https://azure.github.io/Azure-Landing-Zones/accelerator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Terraform Enterprise 2.0](https://t.co/UmacHpStqI)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [DevOps Roadmap for 2026](https://github.com/milanm/DevOps-Roadmap) <span class='md-tag md-tag--info'>⭐ 19457</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [AZVerify: Bridging Azure Resources, Bicep Templates, and Diagrams with GitHub' Copilot](https://github.com/Azure/AZVerify) <span class='md-tag md-tag--info'>⭐ 94</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Azure Landing Zone Technical Documentation](https://azure.github.io/Azure-Landing-Zones)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Azure Landing Zone - Microsoft Cloud Adoption Framework](https://learn.microsoft.com/nb-no/azure/cloud-adoption-framework/ready/landing-zone)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [The Definitive Guide to Importing Your Cloud Resources into IaC](https://blog.cloudgeni.ai/the-definitive-guide-to-importing-your-cloud-resources-into-iac)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Enhanced Local IDE Experience for AWS Step Functions](https://aws.amazon.com/blogs/compute/introducing-an-enhanced-local-ide-experience-for-aws-step-functions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Terraform for Standardizing AWS Deployments](https://t.co/5E4FLUyh98)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Azure Cloud Adoption Framework: Platform Landing Zone Implementation Options](https://learn.microsoft.com/en-gb/azure/cloud-adoption-framework/ready/landing-zone/implementation-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Enterprise-Scale Azure Subscription Vending Using Azure Verified Modules (AVM)](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/enterprise%e2%80%91scale-azure-subscription-vending-using-azure-verified-modules-avm/4507751)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Azure Landing Zone IaC Accelerator Release Notes](https://azure.github.io/Azure-Landing-Zones/accelerator/accelerator-release-notes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Building a FinOps-Ready Azure Landing Zone: Infrastructure Foundations for' Cost Optimization](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/building-a-finops-ready-azure-landing-zone-infrastructure-foundations-for-cost-o/4411706)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Scale with Confidence Using Terraform: Better Cost Visibility, Stronger' Governance, and Less Operational Overhead](https://t.co/y414rbxM7l)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Terraform Best Practices](https://github.com/antonbabenko/terraform-best-practices) <span class='md-tag md-tag--info'>⭐ 2469</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [How Kubernetes Operators Fit into Platform Building and When Traditional IaC Isn't Enough](https://www.thestack.technology/how-kubernetes-operators-fit-into-to-platform-building-and-when-traditional-iac-isnt-enough)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ClusterClass: Experimental Feature for Streamlined Cluster Lifecycle Management' in Cluster API](https://cluster-api.sigs.k8s.io/tasks/experimental-features/cluster-class)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Azure Landing Zone IaC Accelerator](https://azure.github.io/Azure-Landing-Zones/accelerator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Announcing General Availability of Terraform Azure Verified Modules for Platform Landing Zone (ALZ)](https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-general-availability-of-terraform-azure-verified-modules-for-platform/4366027)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Terraform Azure Resource IPAM Module](https://registry.terraform.io/modules/hlokensgard/res-ipam/azure/latest)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Announcing Public Preview of Terraform Export from the Azure Portal](https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-public-preview-of-terraform-export-from-the-azure-portal/4409889)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Terraform Provider for Azure IPAM](https://github.com/XtratusCloud/terraform-provider-azureipam) <span class='md-tag md-tag--info'>⭐ 9</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Terraform 1.15: Flexible Module Management, Deprecation Warnings, and Windows' ARM64 Support](https://t.co/C6uicr7ZPS)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Ephemeral Values in Terraform](https://nedinthecloud.com/2025/07/01/ephemeral-values-in-terraform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [TerraSchema: Generate JSON Schema from Terraform Configurations](https://github.com/HewlettPackard/terraschema) <span class='md-tag md-tag--info'>⭐ 68</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Pulumi: Infrastructure as Code in Any Programming Language](https://github.com/pulumi/pulumi) <span class='md-tag md-tag--info'>⭐ 25228</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [Platform Engineering Guide - 5 Key Use Cases of Internal Developer Platforms](https://www.techworld-with-nana.com/post/platform-engineering-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Enhanced Local IDE Experience for AWS Step Functions](https://aws.amazon.com/blogs/compute/introducing-an-enhanced-local-ide-experience-for-aws-step-functions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [The Maester - Terraform Module](https://cloudtips.nl/the-maester-terraform-module-8c68b2b68c51)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/globant: Infrastructure as Code using Kubernetes](https://medium.com/globant/infrastructure-as-code-using-kubernetes-d3d329446517)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Azure Cloud Adoption Framework: Platform Landing Zone Implementation Options](https://learn.microsoft.com/en-gb/azure/cloud-adoption-framework/ready/landing-zone/implementation-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Enterprise-Scale Azure Subscription Vending Using Azure Verified Modules (AVM)](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/enterprise%e2%80%91scale-azure-subscription-vending-using-azure-verified-modules-avm/4507751)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Azure Landing Zone IaC Accelerator Release Notes](https://azure.github.io/Azure-Landing-Zones/accelerator/accelerator-release-notes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Announcing General Availability of Terraform Azure Verified Modules for Platform Landing Zone (ALZ)](https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-general-availability-of-terraform-azure-verified-modules-for-platform/4366027)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Terraform Azure Resource IPAM Module](https://registry.terraform.io/modules/hlokensgard/res-ipam/azure/latest)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Announcing Public Preview of Terraform Export from the Azure Portal](https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-public-preview-of-terraform-export-from-the-azure-portal/4409889)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Terraform Provider for Azure IPAM](https://github.com/XtratusCloud/terraform-provider-azureipam) <span class='md-tag md-tag--info'>⭐ 9</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [IBM IAM for AI Agents](https://t.co/EKsVgKA4xn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Scale with Confidence Using Terraform: Better Cost Visibility, Stronger' Governance, and Less Operational Overhead](https://t.co/y414rbxM7l)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Terraform Provider for Google Cloud 7.0 is now GA](https://www.hashicorp.com/en/blog/terraform-provider-for-google-cloud-7-0-is-now-ga)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [The Definitive Guide to Importing Your Cloud Resources into IaC](https://blog.cloudgeni.ai/the-definitive-guide-to-importing-your-cloud-resources-into-iac)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Terraform for Standardizing AWS Deployments](https://t.co/5E4FLUyh98)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [DevOps Roadmap for 2026](https://github.com/milanm/DevOps-Roadmap) <span class='md-tag md-tag--info'>⭐ 19457</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [The DevOps Bottleneck: Why IaC Orchestration is the Missing Piece](https://devops.com/the-devops-bottleneck-why-iac-orchestration-is-the-missing-piece)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [The Beginner’s Guide to the Ansible Inventory](https://www.packetcoders.io/the-beginners-guide-to-the-ansible-inventory)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Terraform Best Practices](https://github.com/antonbabenko/terraform-best-practices) <span class='md-tag md-tag--info'>⭐ 2469</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ClusterClass: Experimental Feature for Streamlined Cluster Lifecycle Management' in Cluster API](https://cluster-api.sigs.k8s.io/tasks/experimental-features/cluster-class)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [stackoverflow.blog: Infrastructure as code: Create and configure infrastructure' elements in seconds](https://stackoverflow.blog/2021/03/08/infrastructure-as-code-create-and-configure-infrastructure-elements-in-seconds)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [invensislearning.com: Infrastructure as a Code Tutorial: How it Works, Types,' and Best Practices](https://www.invensislearning.com/blog/infrastructure-as-a-code-tutorial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [bridgecrew.io: 5 tips for securely adopting infrastructure as code](https://bridgecrew.io/blog/5-tips-for-securely-adopting-infrastructure-as-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -78,6 +77,7 @@
   - [spacelift.io: Terraform vs. Ansible : Key Differences and Comparison of' Tools](https://spacelift.io/blog/ansible-vs-terraform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [env0.com: Ansible vs Terraform: Choose One or Use Both?](https://www.env0.com/blog/ansible-vs-terraform-when-to-choose-one-or-use-them-together)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [awstrainingwithjagan.com: Comprehensive Comparison of Top Infrastructure' as Code (IaC) Tools](https://awstrainingwithjagan.com/infrastructure-as-code-tool-comparison)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Terraform Enterprise 2.0](https://t.co/UmacHpStqI)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Checkmarx/kics](https://github.com/Checkmarx/kics) <span class='md-tag md-tag--info'>⭐ 2637</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [gofireflyio/aiac 🌟](https://github.com/gofireflyio/aiac) <span class='md-tag md-tag--info'>⭐ 3794</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [medium.com/nerd-for-tech: Kubernetes: Declaratively Deploying Infrastructure' (IaC)](https://medium.com/nerd-for-tech/kubernetes-declaratively-deploying-infrastructure-iac-789f14d999c6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -146,5 +146,5 @@
   - [Terraform Module Releaser GitHub Action](https://github.com/techpivot/terraform-module-releaser) <span class='md-tag md-tag--info'>⭐ 221</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized GitHub Action designed to automate the release process, version tagging, and registry publication of Terraform modules. Resolves development overhead by automatically generating release logs and enforcing Semantic Versioning.
 
 ---
-💡 **Explore Related:** [Kubernetes Security](./kubernetes-security.md) | [Devsecops](./devsecops.md) | [Kustomize](./kustomize.md)
+💡 **Explore Related:** [Terraform](./terraform.md) | [Ansible](./ansible.md) | [Devsecops](./devsecops.md)
 
