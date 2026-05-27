@@ -5,8 +5,8 @@
 
 ## Standard Reference
 
-  - [Discussion: Where is AI Still Completely Useless?](https://www.reddit.com/r/Terraform/comments/1l7my1x/where_is_ai_still_completely_useless_for)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Tech companies cutting devs for AI](https://www.reddit.com/r/ProgrammerHumor/comments/1tbzih8/techcompaniescuttingdevsforai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Discussion: Where is AI Still Completely Useless?](https://www.reddit.com/r/Terraform/comments/1l7my1x/where_is_ai_still_completely_useless_for)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@andretost_75145: Using ChatGPT to learn Kubernetes and OpenShift](https://medium.com/@andretost_75145/using-chatgpt-to-learn-kubernetes-and-openshift-15051bc95535)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [betterprogramming.pub: ChatGPT and Software Architecture](https://betterprogramming.pub/chatgpt-and-software-architecture-308b6e0cc25a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [abcabhishek.substack.com: ChatGPT for generating SQL as a Data Engineer's' assistant](https://abcabhishek.substack.com/p/chatgpt-for-generating-sql-as-a-data)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -53,6 +53,13 @@
 #### Enterprise AI
 
   - [thenewstack.io: Using ChatGPT for Questions Specific to Your Company Data](https://thenewstack.io/using-chatgpt-for-questions-specific-to-your-company-data) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Technical deep-dive on Retrieval-Augmented Generation (RAG). Outlines how to query private corporate document indexes using semantic vector databases paired with ChatGPT-style APIs securely.
+## DevOps and Automation
+
+### AI-Assisted Operations
+
+#### Infrastructure as Code (1)
+
+  - **(2023)** [ansible.com: Ansible and ChatGPT: Putting it to the test](https://www.redhat.com/en/blog/channel/open-source-communities) 🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — Red Hat's experimental analysis testing generative AI capability against Ansible Playbook authoring constraints. Highlights current logical gaps and structural best practices for verification.
 ## Healthcare Technology
 
 ### Artificial Intelligence (1)
@@ -106,11 +113,16 @@
   - [GitHub Copilot Now Explains Failed Actions Jobs (GA)](https://github.blog/changelog/2025-01-15-copilot-users-can-ask-about-a-failed-actions-job-ga)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official GitHub product announcement marking the General Availability of GitHub Copilot's automated pipeline diagnostics. Empowers developers to quickly resolve failing CI/CD builds by getting clear, contextual, AI-driven summaries and remediation plans.
 ## Software Engineering
 
-### AI-Assisted Operations
+### AI-Assisted Operations (1)
 
 #### Code Generation Quality
 
   - [thenewstack.io: Developers Put AI Bots to the Test of Writing Code](https://thenewstack.io/developers-put-ai-bots-to-the-test-of-writing-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Empirical evaluation measuring code-generation accuracy across popular AI engines. Examines compiler error rates, structural vulnerabilities, and the necessity of developer supervision in AI workflows.
+### Programming Foundations
+
+#### Python Language
+
+  - **(2025)** [**Think Python**](https://allendowney.github.io/ThinkPython) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A classic computational thinking handbook utilizing Python. Focuses on algorithmic integrity, data structure designs, object-oriented implementations, and debug execution pipelines.
 
 ---
 💡 **Explore Related:** [AI](./ai.md) | [AI Agents MCP](./ai-agents-mcp.md) | [MLOps](./mlops.md)

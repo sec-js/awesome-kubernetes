@@ -11,7 +11,7 @@ V1_DIR = "docs"
 V2_DIR = "v2-docs"
 SPECIAL_ASSETS_PATH = "data/special_assets.yaml"
 CURATION_SOURCES_PATH = "data/curation_sources.yaml"
-WORKFLOW_PATH = ".github/workflows/agentic_cron.yml"
+WORKFLOW_PATH = ".github/workflows/01.1.agentic_cron.yml"
 
 class SafetyGuard:
     def __init__(self):

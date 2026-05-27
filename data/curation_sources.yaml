@@ -31,6 +31,16 @@ sources:
       - "NotebookLM"       # Official NotebookLM
       - "LangChainAI"      # Agentic frameworks
       - "llama_index"      # RAG & Agents
+      - "modelcontextpc"   # MCP Community / Protocol Updates
+      - "AlexAlbert_"      # Anthropic DevRel/MCP Specialist
+      - "swyx"             # AI Engineering & Agent Systems Expert
+      - "google-antigravity" # Google Antigravity Agentic SDK Org
+      - "GoogleDevs"       # Google Developers (for SDK and API announcements)
+    feeds:
+      - "https://www.anthropic.com/news/feed"
+      - "https://openai.com/news/feed"
+      - "https://blog.google/technology/developer/rss/"
+      - "https://blog.google/technology/ai/rss/"
 
   - topic: "Developer Productivity & AI Agents"
     accounts:
@@ -40,6 +50,10 @@ sources:
       - "midudev"          # Web Dev & AI Content Creator
       - "natfriedman"      # AI Expert (Former GitHub CEO)
       - "karpathy"         # AI Expert (Andrej Karpathy)
+    feeds:
+      - "https://github.blog/feed/"
+      - "https://github.blog/category/engineering/feed/"
+      - "https://cursor.sh/blog/rss"
 
   - topic: "Data & Big Data"
     accounts:

@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.3.19]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.19) - 2026-05-27
+
+### Added
+- **Modularized Video Hub**: Replaced the legacy monolithic `v2-docs/videos.md` with a structured, multi-page directory (`v2-docs/videos/`) separating video resources into AI Agents, DevOps/IaC/SRE, Cloud Native Core, and Fundamentals learning paths.
+- **Robust Slugification and Header Cleaning**: Upgraded the slugification and header normalization logic to ensure 100% compatibility with MkDocs anchor resolution, stripping commas, parentheses, slashes, and special symbols to prevent broken internal links.
+- **Monthly Video Automation Schedule**: Configured a monthly cron trigger (`0 6 1 * *`) in the V2 Video Hub Builder GitHub action to automate video curation and portal updates.
+
 ## [[2.3.18]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.18) - 2026-05-27
 
 ### Added

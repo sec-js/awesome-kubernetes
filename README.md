@@ -140,7 +140,7 @@ Additionally, as of May 2026, Nubenetes has reached the **Platinum Operational T
 | :--- | :--- |
 | **Total Technical Resources (Links)** | **17996+** |
 | **Specialized MD Pages** | **161** |
-| **Total Commits** | **5583+** |
+| **Total Commits** | **5597+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -178,7 +178,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 2024 | 8,359 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 2038 | 8,416 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -194,8 +194,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume (Commits / Estimated New Refs)" 0 --> 9000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 8359]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 2024]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 8416]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 2038]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -204,7 +204,7 @@ xychart-beta
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
-| 2026-05 | 1999 | 8,255 | **Agentic Inception (Gemini Era)** |
+| 2026-05 | 2013 | 8,313 | **Agentic Inception (Gemini Era)** |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
@@ -535,7 +535,7 @@ The "Platinum" tier represents the highest level of autonomous maintenance, focu
 - **Rendering Risk Detection**: Ensures HTML blocks like `<center>` include the mandatory `markdown="1"` attribute ([Mandate 19](GEMINI.md)).
 
 #### Infrastructure Auto-Sync
-- **Workflow UI Synchronization**: The [UI Sync Engine](src/sync_workflow_ui.py) automatically updates the [GitHub Actions Interface](.github/workflows/agentic_cron.yml) whenever [Curation Sources](data/curation_sources.yaml) are added or modified ([Mandate 11](GEMINI.md)).
+- **Workflow UI Synchronization**: The [UI Sync Engine](src/sync_workflow_ui.py) automatically updates the [GitHub Actions Interface](.github/workflows/01.1.agentic_cron.yml) whenever [Curation Sources](data/curation_sources.yaml) are added or modified ([Mandate 11](GEMINI.md)).
 
 #### Reputation Pulse (Vaporware Filter)
 - **Community-Based Vetting**: The [Curation Engine](src/agentic_curator.py) utilizes **Google Search Grounding** to cross-reference new tools with platforms like Reddit and Hacker News.
@@ -747,7 +747,7 @@ Maintainers can manually trigger and tune workflows via the GitHub Actions UI. T
 
 | # | Phase / Category | Workflow | Primary Manual Flags | Default | Technical Effect |
 | :---: | :--- | :--- | :--- | :---: | :--- |
-| **01** | **Discovery** | [**01.1. Automated Agentic Curation**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_cron.yml) | `historical_mode` | ==TRUE== | Processes all discovery sources (ignores 30-day window). |
+| **01** | **Discovery** | [**01.1. Automated Agentic Curation**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/01.1.agentic_cron.yml) | `historical_mode` | ==TRUE== | Processes all discovery sources (ignores 30-day window). |
 | | | | `include_*` | ==TRUE== | Toggles specific topics (k8s, cloud, ai, etc.). |
 | | | [**01.2. Backup-based Curation**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_backup.yml) | `historical_mode` | ==TRUE== | Ignores time windows for static file processing. |
 | **02** | **Integrity** | [**02.1. Intelligent Link Cleaner**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/intelligent_link_cleaner.yml) | `force_full_check` | ==FALSE== | Bypasses cache for global archive auditing. |
@@ -1009,7 +1009,7 @@ To maintain transparency and ease of navigation, all key configuration, database
 - **Global Inventory:** [`data/inventory.yaml`](data/inventory.yaml) - The "System Memory" containing all link metadata (years, stars, descriptions, and audit history).
 
 ### 13.3. Autonomous Workflows
-- **01.1. Discovery & Curation:** [**Automated Agentic Curation**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_cron.yml)
+- **01.1. Discovery & Curation:** [**Automated Agentic Curation**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/01.1.agentic_cron.yml)
 - **01.2. Backup Data Processor:** [**Backup-based Curation**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_backup.yml) — Manual JSON/MD ingestion.
 - **02.1. Link Health Check:** [**Intelligent Link Cleaner & Dedup**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/intelligent_link_cleaner.yml) — Perpetual archive integrity engine.
 - **02.2. V2 Health Monitor:** [**V2 Health Monitor**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_health.yml) — Weekly archive network validation.
