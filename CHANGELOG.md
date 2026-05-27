@@ -12,6 +12,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Robust Slugification and Header Cleaning**: Upgraded the slugification and header normalization logic to ensure 100% compatibility with MkDocs anchor resolution, stripping commas, parentheses, slashes, and special symbols to prevent broken internal links.
 - **Monthly Video Automation Schedule**: Configured a monthly cron trigger (`0 6 1 * *`) in the V2 Video Hub Builder GitHub action to automate video curation and portal updates.
 
+### Changed
+- **Persisted Hero Dashboard Cards**: Integrated the 4 glassmorphic interactive cards directly into the `v2_optimizer.py` compilation script for `v2-docs/index.md`, preventing them from being overwritten during V2 rendering cycles and updating the video link to `./videos/index.html`.
+
 ## [[2.3.18]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.18) - 2026-05-27
 
 ### Added
