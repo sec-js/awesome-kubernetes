@@ -7,11 +7,10 @@
 
   - [geekflare.com: What is Thread Dump and How to Analyze them? 🌟](https://geekflare.com/dev/generate-analyze-thread-dumps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [On heap vs off heap memory usage](http://www.javacodegeeks.com/2014/12/on-heap-vs-off-heap-memory-usage.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.flipkart.tech: The Art of System Debugging — Decoding CPU Utilization' 🌟](https://blog.flipkart.tech/the-art-of-system-debugging-decoding-cpu-utilization-da75f09ef1ff)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [DZone refcard: Java Caching](https://dzone.com/refcardz/java-caching)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [DZone: Performance Improvement in Java Applications: ORM/JPA 🌟](https://dzone.com/articles/performance-improvement-in-java-applications-orm-j)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [DZone: The JVM Architecture Explained 🌟](https://dzone.com/articles/jvm-architecture-explained)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [DZone: How to Troubleshoot Sudden CPU Spikes](https://dzone.com/articles/troubleshoot-sudden-cpu-spikes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [DZone refcard: Java Caching](https://dzone.com/refcardz/java-caching)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone: 7 JVM Arguments of Highly Effective Applications 🌟🌟🌟](https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone.com: Flight Recorder: Examining Java and Kotlin Apps](https://dzone.com/articles/flight-recorder-examining-java-and-kotlin-apps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: How to reduce your JVM app memory footprint in Docker and Kubernetes' 🌟](https://medium.com/wix-engineering/how-to-reduce-your-jvm-app-memory-footprint-in-docker-and-kubernetes-d6e030d21298)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -22,6 +21,7 @@
   - [medium.com/@sharprazor.app: Memory settings for Java process running in' Kubernetes pod](https://medium.com/@sharprazor.app/memory-settings-for-java-process-running-in-kubernetes-pod-1e608a5d2a64)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/codex: Running JVM Applications on Kubernetes: Beyond java' -jar](https://medium.com/codex/running-jvm-applications-on-kubernetes-beyond-java-jar-a095949f3e34)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [lalitchaturveditech.medium.com: Optimize Java Performance On Kubernetes](https://lalitchaturveditech.medium.com/optimize-java-performance-on-kubernetes-5f055d406ecf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.flipkart.tech: The Art of System Debugging — Decoding CPU Utilization' 🌟](https://blog.flipkart.tech/the-art-of-system-debugging-decoding-cpu-utilization-da75f09ef1ff)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jet-start.sh: Performance of Modern Java on Data-Heavy Workloads, Part 1' 🌟](https://jet-start.sh/blog/2020/06/09/jdk-gc-benchmarks-part1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone.com: Java Inside Docker: What You Must Know to Not FAIL](https://dzone.com/articles/java-inside-docker-what-you-must-know-to-not-fail)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [en.wikipedia.org/wiki/List_of_performance_analysis_tools](https://en.wikipedia.org/wiki/List_of_performance_analysis_tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -120,5 +120,5 @@
   - **(2021)** [blog.openshift.com: Performance Metrics (APM) for Spring Boot Microservices on OpenShift](https://www.redhat.com/en/blog/performance-metrics-apm-spring-boot-microservices-openshift) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive integration guide explaining how to hook up Spring Boot Prometheus metrics directly into automated OpenShift cluster telemetry layers.
 
 ---
-💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [API](./api.md) | [JVM Parameters Matrix Table](./jvm-parameters-matrix-table.md)
+💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [Visual Studio](./visual-studio.md) | [Python](./python.md)
 

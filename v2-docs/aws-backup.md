@@ -7,7 +7,6 @@
 
   - [Quantum Taps AWS for Cloud-Powered Disaster Recovery](http://www.infostor.com/backup-and_recovery/quantum-taps-aws-for-cloud-powered-disaster-recovery.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube: Migrating On Premise VM to AWS | VM Import/Export | Create EC2 instance based on on-premises server](https://www.youtube.com/watch?v=buzusNljpy4&feature=youtu.be)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: AWS Backup Service for Amazon RDS](https://medium.com/avmconsulting-blog/aws-backup-service-for-amazon-rds-3e6f5827aa66)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Design for failure lessons learnt from the Sydney AWS outage](https://www.hava.io/blog/design-for-failure-lessons-learnt-from-the-sydney-aws-outage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Chaos Monkey](https://github.com/Netflix/SimianArmy/wiki/Chaos-Monkey) <span class='md-tag md-tag--info'>⭐ 7984</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [Udemy - AWS: How to Architect with a Design for Failure Approach](https://www.udemy.com/how-to-architect-with-a-design-for-failure-approach)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -17,6 +16,7 @@
   - [dev.to: Best way to Automate AWS EBS Snapshots (without scripts)](https://dev.to/aws-builders/how-to-automate-aws-ebs-snapshots-54og)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Quick Restoration through Replacing the Root Volumes of Amazon EC2 instances](https://aws.amazon.com/blogs/compute/quick-restoration-through-replacing-the-root-volumes-of-amazon-ec2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Backup Service](https://aws.amazon.com/backup)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: AWS Backup Service for Amazon RDS](https://medium.com/avmconsulting-blog/aws-backup-service-for-amazon-rds-3e6f5827aa66)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Automate and centrally manage data protection for Amazon S3 with AWS Backup](https://aws.amazon.com/blogs/storage/automate-and-centrally-manage-data-protection-for-amazon-s3-with-aws-backup)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Preview – AWS Backup Adds Support for Amazon S3](https://aws.amazon.com/blogs/aws/preview-aws-backup-adds-support-for-amazon-s3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Disaster Recovery with AWS Managed Services, Part I: Single Region](https://aws.amazon.com/blogs/architecture/disaster-recovery-with-aws-managed-services-part-i-single-region)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -27,5 +27,5 @@
 
 
 ---
-💡 **Explore Related:** [AWS Security](./aws-security.md) | [AWS Storage](./aws-storage.md) | [AWS Databases](./aws-databases.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Public Cloud Solutions](./public-cloud-solutions.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
 

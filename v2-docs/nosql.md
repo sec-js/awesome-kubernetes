@@ -67,8 +67,8 @@
 
 #### Caching
 
-  - [Redis](https://redis.io) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive open-source, in-memory data store used as a database, cache, message broker, and streaming engine. Offers unmatched low-latency read-write cycles and versatile data structures. Highly valued for real-time applications requiring low overhead.
+  - [Redis](http://redis.io) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive open-source, in-memory data store used as a database, cache, message broker, and streaming engine. Offers unmatched low-latency read-write cycles and versatile data structures. Highly valued for real-time applications requiring low overhead.
 
 ---
-💡 **Explore Related:** [Yaml](./yaml.md) | [Message Queue](./message-queue.md) | [Databases](./databases.md)
+💡 **Explore Related:** [Databases](./databases.md) | [Message Queue](./message-queue.md) | [Crunchydata](./crunchydata.md)
 

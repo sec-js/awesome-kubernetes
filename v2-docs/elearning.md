@@ -27,9 +27,6 @@
 
 ### Databases
 
-#### PostgreSQL
-
-  - **(2025)** [learn.crunchydata.com](https://www.crunchydata.com/developers/tutorials) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An interactive database training portal detailing progressive PostgreSQL configuration, clustering, and troubleshooting. Crucial for architects planning highly available, stateful cloud-native storage engines.
 #### SQL
 
   - [SQL Police Department](https://sqlpd.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive, gamified SQL training playground where users act as police detectives to solve technical cases using structured queries. Excellent for practicing complex join and filtering logics.
@@ -124,5 +121,5 @@
   - [techiescamp/devops-projects:Real-World DevOps Projects For Learning](https://github.com/techiescamp/devops-projects)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A curated GitHub repository containing end-to-end real-world DevOps projects. Implements standard infrastructure-as-code deployments, multi-tier CI/CD pipelines, and structured orchestration designs.
 
 ---
-💡 **Explore Related:** [Recruitment](./recruitment.md) | [Freelancing](./freelancing.md) | [Finops](./finops.md)
+💡 **Explore Related:** [Finops](./finops.md) | [Recruitment](./recruitment.md) | [Appointment Scheduling](./appointment-scheduling.md)
 

@@ -5,9 +5,9 @@
 
 ## Standard Reference
 
-  - [rancher.com: Monitor Etcd with Prometheus and Grafana using Rancher](https://www.suse.com/c/rancher_blog/monitor-etcd-with-prometheus-and-grafana-using-rancher)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [community.suse.com: Comparing Modern-Day Container Image Builders: Jib, Buildpacks and Docker 🌟](https://www.rancher.com/community)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Deploy a Rancher Cluster with GitLab CI and Terraform](https://www.suse.com/c/rancher_blog/deploy-a-rancher-cluster-with-gitlab-ci-and-terraform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [community.suse.com: Comparing Modern-Day Container Image Builders: Jib, Buildpacks and Docker 🌟](https://www.rancher.com/community)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [rancher.com: Monitor Etcd with Prometheus and Grafana using Rancher](https://www.suse.com/c/rancher_blog/monitor-etcd-with-prometheus-and-grafana-using-rancher)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [rancher.com](https://www.rancher.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [rancher.com: Custom alerts using Prometheus queries](https://www.suse.com/c/rancher_blog/custom-alerts-using-prometheus-queries)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [rancher.com: Driving Kubernetes Adoption in Finance with Rancher](https://www.suse.com/c/rancher_blog/driving-kubernetes-adoption-in-finance-with-rancher)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -20,10 +20,10 @@
   - [techno-tim/k3s-ansible](https://github.com/timothystewart6/k3s-ansible) <span class='md-tag md-tag--info'>⭐ 2977</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [**k3d**](https://github.com/k3d-io/k3d) <span class='md-tag md-tag--info'>⭐ 6426</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [Harvester](https://github.com/harvester/harvester) <span class='md-tag md-tag--info'>⭐ 5030</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [aws-quickstart.github.io: Rancher on the AWS Cloud. Quick Start Reference' Deployment](https://aws-quickstart.github.io/quickstart-eks-rancher)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [RKE2 Standalone Disaster Recovery Guide](https://support.tools/post/rke2-standalone-disaster-recovery)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Rancher CNI Providers 🌟](https://rancher.com/docs/rancher/v2.x/en/faq/networking/cni-providers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Certified Kubernetes offerings](https://www.cncf.io/certification/software-conformance)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [aws-quickstart.github.io: Rancher on the AWS Cloud. Quick Start Reference' Deployment](https://aws-quickstart.github.io/quickstart-eks-rancher)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [zdnet.com: Rancher Labs closes $40M funding round to "run Kubernetes everywhere"](https://www.zdnet.com/article/rancher-labs-closes-40m-funding-round-to-run-kubernetes-everywhere)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Quick Fix: Mounting a ConfigMap to an Existing Volume in Kubernetes' Using Rancher](https://medium.com/swlh/quick-fix-mounting-a-configmap-to-an-existing-volume-in-kubernetes-using-rancher-d01c472a10ad)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Rancher 2.5 Sets out to Be the Stock Kubernetes Build for' GitOps](https://thenewstack.io/rancher-2-5-sets-out-to-be-the-stock-kubernetes-build-for-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -79,5 +79,5 @@
 
 
 ---
-💡 **Explore Related:** [Container Managers](./container-managers.md) | [Kubernetes Monitoring](./kubernetes-monitoring.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
+💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Docker](./docker.md) | [Serverless](./serverless.md)
 

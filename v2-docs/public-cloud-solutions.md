@@ -57,5 +57,5 @@
 
 
 ---
-💡 **Explore Related:** [AWS Security](./aws-security.md) | [AWS Storage](./aws-storage.md) | [AWS Databases](./aws-databases.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [Azure](./azure.md)
 

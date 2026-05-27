@@ -57,5 +57,5 @@
   - **(2023)** [codefresh.io: Using GitOps for Infrastructure and Applications With Crossplane and Argo CD](https://octopus.com/devops/gitops) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This architectural study outlines the synchronization of infrastructure and application deployments using GitOps principles, examining the strategic union of Crossplane and continuous deployment tools.
 
 ---
-💡 **Explore Related:** [Kubernetes Security](./kubernetes-security.md) | [Devsecops](./devsecops.md) | [Kustomize](./kustomize.md)
+💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Securityascode](./securityascode.md)
 

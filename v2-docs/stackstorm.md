@@ -10,5 +10,5 @@
 
 
 ---
-💡 **Explore Related:** [Registries](./registries.md) | [Jenkins](./jenkins.md) | [CI/CD](./cicd.md)
+💡 **Explore Related:** [Jenkins Alternatives](./jenkins-alternatives.md) | [Gitops](./gitops.md) | [CI/CD](./cicd.md)
 

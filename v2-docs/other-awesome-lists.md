@@ -5,7 +5,6 @@
 
 ## Standard Reference
 
-  - [github.com/shuaibiyy/awesome-terraform](https://github.com/shuaibiyy/awesome-tf) <span class='md-tag md-tag--info'>⭐ 6510</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [dev.to: The Awesome Side of GitHub - Awesome Lists | Leonardo Montini](https://dev.to/playfulprogramming/the-awesome-side-of-github-awesome-lists-2a5h)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Awesome kubetools](http://dockerlabs.collabnix.com/kubernetes/kubetools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [unofficial-kubernetes.readthedocs.io](https://unofficial-kubernetes.readthedocs.io/en/latest)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -13,25 +12,32 @@
   - [Awesome Cloud Native](https://awesome.jimmysong.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [christopherhein/awesome-eks: Awesome EKS](https://github.com/jimmyraywv/awesome-eks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dawitnida/Awesome Packer](https://github.com/dchonch/awesome-packer) <span class='md-tag md-tag--info'>⭐ 30</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [shuaibiyy/Awesome Terraform](https://github.com/shuaibiyy/awesome-tf) <span class='md-tag md-tag--info'>⭐ 6510</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [anderseknert/awesome-opa 🌟](https://github.com/open-policy-agent/awesome-opa) <span class='md-tag md-tag--info'>⭐ 886</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Awesome Software Quality](https://github.com/ligurio/sqa-wiki) <span class='md-tag md-tag--info'>⭐ 2311</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [onurakpolat/awesome-bigdata](https://github.com/oxnr/awesome-bigdata) <span class='md-tag md-tag--info'>⭐ 14400</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [https://github.com/jdauphant/awesome-ansible](https://github.com/jdauphant/awesome-ansible) <span class='md-tag md-tag--info'>⭐ 1005</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ansible-community/awesome-ansible: Awesome Ansible 🌟🌟🌟](https://github.com/ansible-community/awesome-ansible) <span class='md-tag md-tag--info'>⭐ 1878</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Devdocs.io API Documentation 🌟](https://devdocs.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Awesome AWS 🌟](https://github.com/donnemartin/awesome-aws) <span class='md-tag md-tag--info'>⭐ 14033</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [bregman-arie/devops-exercises 🌟](https://github.com/bregman-arie/devops-exercises) <span class='md-tag md-tag--info'>⭐ 82450</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [github.com/DevOps-Projects-Ideas/DevOps-Books 🌟🌟](https://github.com/DevOps-Projects-Ideas/DevOps-Books) <span class='md-tag md-tag--info'>⭐ 667</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Awesome Docker 🌟](https://github.com/veggiemonk/awesome-docker) <span class='md-tag md-tag--info'>⭐ 36056</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [Awesome Compose 🌟](https://github.com/docker/awesome-compose) <span class='md-tag md-tag--info'>⭐ 45355</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [wiki.bash-hackers.org](https://wiki.bash-hackers.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hashicorp.com: HashiCorp Learning Resources Reference Guide 🌟](https://www.hashicorp.com/blog/hashicorp-learning-resources-reference-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Awesome GitHub Actions](https://github.com/sdras/awesome-actions) <span class='md-tag md-tag--info'>⭐ 27816</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [sahilsk/awesome-jenkins](https://github.com/sahilsk/awesome-jenkins) <span class='md-tag md-tag--info'>⭐ 70</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Hacking jenkins](https://github.com/orangetw/awesome-jenkins-rce-2019)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Awesome Python 🌟](https://github.com/vinta/awesome-python) <span class='md-tag md-tag--info'>⭐ 298980</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
-  - [github.com/antonarhipov/awesome-apm: Awesome APM](https://github.com/antonarhipov/awesome-apm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [collabnix.github.io/kubetools 🌟](https://collabnix.github.io/kubetools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [realvz/awesome-eks: A curated list of awesome tools for Amazon EKS 🌟](https://github.com/realvz/awesome-eks) <span class='md-tag md-tag--info'>⭐ 341</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github: A very Long never ending Learning around Data Engineering & Machine' Learning](https://github.com/abhishek-ch/around-dataengineering)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Devdocs.io API Documentation 🌟](https://devdocs.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [divya-mohan0209.medium.com: Mo’ tenancy, Mo’ problems.](https://divya-mohan0209.medium.com/mo-tenancy-mo-problems-f031f75374f7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [diegolnasc/kubernetes-best-practices 🌟](https://github.com/diegolnasc/kubernetes-best-practices) <span class='md-tag md-tag--info'>⭐ 1498</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Available kubectl plugins](https://github.com/kubernetes-sigs/krew-index/blob/master/plugins.md) <span class='md-tag md-tag--info'>⭐ 690</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Awesome Kubectl plugins](https://github.com/ishantanu/awesome-kubectl-plugins) <span class='md-tag md-tag--info'>⭐ 1008</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Awesome GitHub Actions](https://github.com/sdras/awesome-actions) <span class='md-tag md-tag--info'>⭐ 27816</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
-  - [github.com/DevOps-Projects-Ideas/DevOps-Books 🌟🌟](https://github.com/DevOps-Projects-Ideas/DevOps-Books) <span class='md-tag md-tag--info'>⭐ 667</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github: A very Long never ending Learning around Data Engineering & Machine' Learning](https://github.com/abhishek-ch/around-dataengineering)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/antonarhipov/awesome-apm: Awesome APM](https://github.com/antonarhipov/awesome-apm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [awesomeopensource.com: The Top 110 Cidr Open Source Projects on Github 🌟](https://awesomeopensource.com/projects/cidr)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Awesome Openshift 2](https://github.com/oscp/awesome-openshift3) <span class='md-tag md-tag--info'>⭐ 27</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [@sindresorhus' Awesome](https://github.com/sindresorhus/awesome) <span class='md-tag md-tag--info'>⭐ 468957</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [@ramitsurana' Awesome Kubernetes](https://ramitsurana.github.io/awesome-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -53,10 +59,8 @@
   - [Awesome Linux](https://github.com/inputsh/awesome-linux) <span class='md-tag md-tag--info'>⭐ 5024</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [The Book of Secret Knowledge 🌟](https://github.com/trimstray/the-book-of-secret-knowledge) <span class='md-tag md-tag--info'>⭐ 222882</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [Awesome Scalability](https://github.com/binhnguyennus/awesome-scalability) <span class='md-tag md-tag--info'>⭐ 71159</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
-  - [bregman-arie/devops-exercises 🌟](https://github.com/bregman-arie/devops-exercises) <span class='md-tag md-tag--info'>⭐ 82450</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [How they SRE](https://github.com/upgundecha/howtheysre) <span class='md-tag md-tag--info'>⭐ 9723</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) <span class='md-tag md-tag--info'>⭐ 139662</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
-  - [awesomeopensource.com: The Top 110 Cidr Open Source Projects on Github 🌟](https://awesomeopensource.com/projects/cidr)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [unixorn/awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) <span class='md-tag md-tag--info'>⭐ 17712</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [developer-guy/awesome-falco](https://github.com/developer-guy/awesome-falco)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [runacapital/awesome-oss-alternatives: Awesome open-source alternatives to' SaaS 🌟](https://github.com/runacapital/awesome-oss-alternatives) <span class='md-tag md-tag--info'>⭐ 19131</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
@@ -92,7 +96,6 @@
   - [Awesome microservices](https://github.com/mfornos/awesome-microservices) <span class='md-tag md-tag--info'>⭐ 14297</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [akuity/awesome-argo 🌟](https://github.com/akuity/awesome-argo) <span class='md-tag md-tag--info'>⭐ 2437</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/adriannovegil/awesome-observability: Awesome Observability 🌟](https://github.com/adriannovegil/awesome-observability) <span class='md-tag md-tag--info'>⭐ 630</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Awesome AWS 🌟](https://github.com/donnemartin/awesome-aws) <span class='md-tag md-tag--info'>⭐ 14033</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [github.com/GoogleCloudPlatform/awesome-google-cloud: Awesome GCP](https://github.com/GoogleCloudPlatform/awesome-google-cloud) <span class='md-tag md-tag--info'>⭐ 899</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/kristofferandreasen/awesome-azure: Awesome Azure](https://github.com/kristofferandreasen/awesome-azure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/simhol/awesome-azure: Awesome Azure](https://github.com/simhol/awesome-azure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -101,11 +104,7 @@
   - [github.com/toniblyx/my-arsenal-of-aws-security-tools](https://github.com/toniblyx/my-arsenal-of-aws-security-tools) <span class='md-tag md-tag--info'>⭐ 9450</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [github.com/lukemurraynz/awesome-azure-architecture 🌟](https://github.com/lukemurraynz/awesome-azure-architecture) <span class='md-tag md-tag--info'>⭐ 1695</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/iam-veeramalla/Azure-zero-to-hero: Azure Zero to Hero Course](https://github.com/iam-veeramalla/Azure-zero-to-hero) <span class='md-tag md-tag--info'>⭐ 5046</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [Awesome Docker 🌟](https://github.com/veggiemonk/awesome-docker) <span class='md-tag md-tag--info'>⭐ 36056</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
-  - [Awesome Compose 🌟](https://github.com/docker/awesome-compose) <span class='md-tag md-tag--info'>⭐ 45355</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [collabnix.github.io: Docker Extensions 🌟](https://collabnix.github.io/docker-community-extensions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [https://github.com/jdauphant/awesome-ansible](https://github.com/jdauphant/awesome-ansible) <span class='md-tag md-tag--info'>⭐ 1005</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ansible-community/awesome-ansible: Awesome Ansible 🌟🌟🌟](https://github.com/ansible-community/awesome-ansible) <span class='md-tag md-tag--info'>⭐ 1878</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ElYusubov/AWESOME-Azure-Bicep: AWESOME Azure Bicep](https://github.com/ElYusubov/AWESOME-Azure-Bicep) <span class='md-tag md-tag--info'>⭐ 424</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [sbilly/awesome-security: Awesome Security](https://github.com/sbilly/awesome-security) <span class='md-tag md-tag--info'>⭐ 14358</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [myugan/awesome-docker-security: Awesome Docker Security](https://github.com/myugan/awesome-docker-security) <span class='md-tag md-tag--info'>⭐ 717</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -117,6 +116,7 @@
   - [Awesome API Management Tools](https://github.com/mailtoharshit/Awesome-Api-Management-Tools) <span class='md-tag md-tag--info'>⭐ 86</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Awesome API Gateway](https://github.com/yangtao309/awesome-api-gateway)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Awesome Visual Studio Code](https://github.com/viatsko/awesome-vscode) <span class='md-tag md-tag--info'>⭐ 28668</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [Awesome Python 🌟](https://github.com/vinta/awesome-python) <span class='md-tag md-tag--info'>⭐ 298980</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [Awesome Java 🌟](https://github.com/akullpp/awesome-java) <span class='md-tag md-tag--info'>⭐ 48005</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [Awesome Angular](https://github.com/PatrickJS/awesome-angular) <span class='md-tag md-tag--info'>⭐ 10017</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [thangchung/awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-core)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -182,5 +182,5 @@ Live Grounding: Aggregates verified integrations linking AI models to tools like
   - [Awesome Git 🌟](https://github.com/dictcp/awesome-git) <span class='md-tag md-tag--info'>⭐ 2858</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensive, community-curated list of tools, clients, extensions, and learning pathways for Git. This list serves as an ultimate reference directory for engineers looking to optimize repository workflows and build custom git hooks.
 
 ---
-💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Cheatsheets](./cheatsheets.md) | [Git](./git.md)
+💡 **Explore Related:** [Cheatsheets](./cheatsheets.md) | [Kubernetes](./kubernetes.md) | [Demos](./demos.md)
 

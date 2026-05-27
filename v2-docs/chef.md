@@ -10,5 +10,5 @@
 
 
 ---
-💡 **Explore Related:** [Kubernetes Security](./kubernetes-security.md) | [Devsecops](./devsecops.md) | [Kustomize](./kustomize.md)
+💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Securityascode](./securityascode.md)
 
