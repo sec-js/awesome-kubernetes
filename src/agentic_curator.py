@@ -167,6 +167,12 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                             "source_provenance": d["asset"].get("source_type", "Social"), "social_preview_url": d["rich_meta"].get("og_image", ""),
                             "category": primary_cat, "status": "online", "last_checked": datetime.now().timestamp(), **d["gh_meta"]
                         }
+                        if "youtube.com" in url or "youtu.be" in url:
+                            title_desc = f"{data['title']} {data['desc']}".lower()
+                            keywords = ["agent", "mcp", "terraform", "devops", "kubernetes", "sre", "mlops", "copilot", "gemini", "claude", "openai", "autogen", "crewai"]
+                            if any(k in title_desc for k in keywords):
+                                eval_data["is_featured_video"] = True
+                                eval_data["is_enriched"] = False
                         curator.inventory[norm_url] = eval_data
                         evaluations[url] = {"status": "INCLUDED", **eval_data}
                     else: evaluations[url] = {"status": "FILTERED"}

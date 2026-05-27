@@ -80,7 +80,7 @@
 - **(N/A)** [**==blog.awsfundamentals.com: AWS S3 Sync - An Extensive Guide==**](https://awsfundamentals.com/blog/aws-s3-sync) 🌟🌟🌟🌟
 
 ## Strategic Dimensions
-- **[🎥 Agentic Video Hub (Architectural Summary)](./videos.md)**
+- **[🎥 Agentic Video Hub (Architectural Summary)](./videos/index.md)**
 
 ### AI
 - **[AI Agents MCP](./ai-agents-mcp.md)**

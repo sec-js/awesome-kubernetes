@@ -3,7 +3,20 @@ import os
 import re
 
 INVENTORY_PATH = "data/inventory.yaml"
-V2_VIDEOS_PATH = "v2-docs/videos.md"
+VIDEOS_DIR = "v2-docs/videos"
+
+def get_target_file(category, technology):
+    cat_lower = category.lower()
+    tech_lower = technology.lower()
+    
+    if "agent" in tech_lower or "mcp" in tech_lower or "ai and future operations" in cat_lower:
+        return "ai-agents.md", "AI Agents and MCP"
+    elif "infrastructure as code" in cat_lower or "security" in cat_lower or "observability" in cat_lower or "monitoring" in cat_lower or "devops" in tech_lower or "iac" in tech_lower or "sre" in tech_lower:
+        return "devops-iac.md", "DevOps, IaC, and SRE"
+    elif "fundamentals" in cat_lower:
+        return "fundamentals.md", "Fundamentals"
+    else:
+        return "cloud-native.md", "Cloud Native Core"
 
 def generate_v2_videos():
     if not os.path.exists(INVENTORY_PATH):
@@ -29,37 +42,27 @@ def generate_v2_videos():
         print("No featured videos found in inventory.")
         return
 
-    # Logical category order following the O'Reilly learning flow
-    CATEGORY_ORDER = [
-        "Fundamentals and Documentaries",
-        "Architecture and Cloud Strategy",
-        "Infrastructure as Code",
-        "Developer Productivity",
-        "Observability and Monitoring",
-        "Security and Compliance",
-        "AI and Future Operations"
-    ]
+    # Delete old videos.md if it exists
+    old_videos_file = "v2-docs/videos.md"
+    if os.path.exists(old_videos_file):
+        os.remove(old_videos_file)
+        print(f"Removed legacy {old_videos_file}")
 
-    def category_key(cat):
-        try:
-            return CATEGORY_ORDER.index(cat)
-        except ValueError:
-            return len(CATEGORY_ORDER)
+    os.makedirs(VIDEOS_DIR, exist_ok=True)
 
-    featured_videos.sort(key=lambda x: (category_key(x["category"]), x.get("video_order", 999)))
-
+    # Helper functions
     def clean_header(text):
-        # MANDATE 30: No ampersands, no special characters
-        # Also remove the numeric prefix for the final display
         t = re.sub(r'^\d+\.\s*', '', text)
         t = t.replace("&", "and")
-        t = t.replace("(", "").replace(")", "")
-        return t
+        t = re.sub(r'[^a-zA-Z0-9\s-]', ' ', t)
+        t = re.sub(r'\s+', ' ', t)
+        return t.strip()
 
     def get_slug(text):
-        # Slug should include the numeric prefix to be unique and match TOC
-        t = text.replace("&", "and").replace("(", "").replace(")", "")
-        return t.lower().strip().replace(" ", "-").replace("/", "-").replace(".", "")
+        t = clean_header(text).lower()
+        t = re.sub(r'[^a-z0-9\s-]', '', t)
+        t = re.sub(r'[\s-]+', '-', t)
+        return t.strip('-')
 
     def is_spanish(title, summary):
         if "[SPANISH CONTENT]" in summary or "[SPANISH CONTENT]" in title:
@@ -68,70 +71,63 @@ def generate_v2_videos():
             return True
         return False
 
-    content = [
-        "# 🎥 Nubenetes Elite Video Hub",
-        "",
-        "Welcome to the **Agentic Video Hub**. This section presents a logical, architectural journey through the Cloud Native landscape, from foundational documentaries to advanced AI operations.",
-        "",
-        "## Table of Contents",
-        ""
-    ]
+    # Group videos by target file
+    themed_videos = {}
+    for v in featured_videos:
+        filename, title = get_target_file(v["category"], v["technology"])
+        if filename not in themed_videos:
+            themed_videos[filename] = {"title": title, "videos": []}
+        themed_videos[filename]["videos"].append(v)
 
-    categories = sorted(list(set(v["category"] for v in featured_videos)), key=category_key)
-    for idx, cat in enumerate(categories, 1):
-        clean_cat = clean_header(cat)
-        slug = get_slug(cat)
-        content.append(f"{idx}. [{clean_cat}](#{slug})")
+    # Generate each themed MD file
+    for filename, theme_info in themed_videos.items():
+        theme_title = theme_info["title"]
+        videos = theme_info["videos"]
+        videos.sort(key=lambda x: x.get("video_order", 999))
 
-        # Get unique technologies in this category, keeping their relative order based on video_order
-        cat_videos = [v for v in featured_videos if v["category"] == cat]
-        cat_videos.sort(key=lambda x: x.get("video_order", 999))
-        seen_techs = []
-        for v in cat_videos:
+        content = [
+            f"# 🎥 {theme_title}",
+            "",
+            f"Welcome to the **{theme_title}** section of the V2 Video Hub. Explore curated high-density videos with architectural summaries.",
+            "",
+            "## Table of Contents",
+            ""
+        ]
+
+        # Group by Technology for TOC
+        techs = []
+        for v in videos:
             tech = v.get("technology", "Cloud Native")
-            if tech not in seen_techs:
-                seen_techs.append(tech)
-        for tech in seen_techs:
-            clean_tech = clean_header(f"{tech} ({cat})")
-            tech_slug = get_slug(f"{tech} ({cat})")
-            content.append(f"    - [{clean_tech}](#{tech_slug})")
+            if tech not in techs:
+                techs.append(tech)
 
-    content.append("")
+        for idx, tech in enumerate(techs, 1):
+            clean_tech = clean_header(tech)
+            slug = get_slug(tech)
+            content.append(f"{idx}. [{clean_tech}](#{slug})")
 
-    for cat in categories:
-        clean_cat = clean_header(cat)
-        slug = get_slug(cat)
-        # Use standard headers (MkDocs generates anchors automatically)
-        content.append(f"## {clean_cat}")
-        
-        cat_videos = [v for v in featured_videos if v["category"] == cat]
-        cat_videos.sort(key=lambda x: x.get("video_order", 999))
-        
-        # Group videos by technology
-        tech_groups = {}
-        tech_order = []
-        for v in cat_videos:
+        content.append("")
+
+        # Render Grouped Videos
+        grouped_by_tech = {}
+        for v in videos:
             tech = v.get("technology", "Cloud Native")
-            if tech not in tech_groups:
-                tech_groups[tech] = []
-                tech_order.append(tech)
-            tech_groups[tech].append(v)
-            
-        for tech in tech_order:
-            clean_tech = clean_header(f"{tech} ({cat})")
-            tech_slug = get_slug(f"{tech} ({cat})")
-            content.append(f"### {clean_tech}")
-            
-            for v in tech_groups[tech]:
-                # Ensure summary is correctly indented for multiline blocks
+            if tech not in grouped_by_tech:
+                grouped_by_tech[tech] = []
+            grouped_by_tech[tech].append(v)
+
+        for tech in techs:
+            clean_tech = clean_header(tech)
+            content.append(f"## {clean_tech}")
+            content.append("")
+
+            for v in grouped_by_tech[tech]:
                 summary = v.get("summary", "").strip()
                 indented_summary = summary.replace("\n", "\n        ")
-                
                 is_sp = is_spanish(v['title'], summary)
                 lang_suffix = " [SPANISH CONTENT]" if is_sp else ""
-                
-                # Collapsible block per video for better flow
-                content.append(f"??? note \"🎬 {v['title']} | `{tech}{lang_suffix}`\"")
+
+                content.append(f"??? note \"🎬 {v['title']}{lang_suffix}\"")
                 content.append(f"    !!! info \"Architectural Summary\"")
                 content.append(f"        {indented_summary}")
                 content.append("")
@@ -142,10 +138,54 @@ def generate_v2_videos():
                 content.append('    </center>')
                 content.append("")
 
-    with open(V2_VIDEOS_PATH, "w") as f:
-        f.write("\n".join(content))
+        filepath = os.path.join(VIDEOS_DIR, filename)
+        with open(filepath, "w") as f:
+            f.write("\n".join(content))
+        print(f"Generated {filepath} with {len(videos)} videos.")
 
-    print(f"✅ Generated {V2_VIDEOS_PATH} with {len(featured_videos)} videos.")
+    # Generate Overview page
+    overview_content = [
+        "# 🎥 Agentic Video Hub",
+        "",
+        "Welcome to the **Nubenetes Elite Video Hub**. Discover highly-curated architectural video resources organized into logical learning paths:",
+        "",
+        "### Learning Dimensions",
+        "- 🤖 [**AI Agents and MCP**](./ai-agents.md) — Dive into agentic architectures, tool integration, and Model Context Protocol setups.",
+        "- 🛠️ [**DevOps, IaC, and SRE**](./devops-iac.md) — Platform engineering, infrastructure automation with Terraform, SRE, and compliance workflows utilizing AI assistants.",
+        "- ☁️ [**Cloud Native Core**](./cloud-native.md) — Architectural strategies, Kubernetes operations, networking, and MLOps platforms.",
+        "- 🏁 [**Fundamentals**](./fundamentals.md) — Documentaries, foundational cloud native concepts, and core Strategy tutorials.",
+        ""
+    ]
+    with open(os.path.join(VIDEOS_DIR, "index.md"), "w") as f:
+        f.write("\n".join(overview_content))
+    print(f"Generated {VIDEOS_DIR}/index.md")
+
+    # Update MkDocs Nav
+    update_mkdocs_nav()
+
+def update_mkdocs_nav():
+    mkdocs_path = "v2-mkdocs.yml"
+    if not os.path.exists(mkdocs_path):
+        return
+    with open(mkdocs_path, "r") as f:
+        content = f.read()
+
+    # Match exact entry and replace with nested list
+    old_entry = '- "Agentic Video Hub": videos.md'
+    new_entry = """- "Agentic Video Hub":
+      - "Overview": videos/index.md
+      - "AI Agents and MCP": videos/ai-agents.md
+      - "DevOps, IaC, and SRE": videos/devops-iac.md
+      - "Cloud Native Core": videos/cloud-native.md
+      - "Fundamentals": videos/fundamentals.md"""
+
+    if old_entry in content:
+        content = content.replace(old_entry, new_entry)
+        with open(mkdocs_path, "w") as f:
+            f.write(content)
+        print("Updated v2-mkdocs.yml navigation.")
+    else:
+        print("v2-mkdocs.yml navigation is already updated or entry not found.")
 
 if __name__ == "__main__":
     generate_v2_videos()

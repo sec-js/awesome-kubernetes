@@ -39,7 +39,8 @@ async def enrich_video_entry(url: str, entry: dict):
     2. Identify the ACTUAL technical content based on the verified video metadata.
     3. Generate a high-density architectural summary (2-3 sentences) explaining its specific value for a 2026 Cloud Native context.
     4. DO NOT describe generic YouTube platform infrastructure unless the video is specifically about it.
-    5. Select the primary technology (e.g., Kubernetes, Vitess, Istio) and a category from: [Fundamentals and Documentaries, Architecture and Cloud Strategy, Networking and Service Mesh, Infrastructure as Code, Observability and Monitoring, AI and Future Operations, Security and Compliance].
+    5. Crossover AI Agents Detection: Pay special attention to AI Agents & MCP, and how they integrate with Cloud Native (e.g. SRE with AI Agents, Kubernetes with AI Agents, IaC with Terraform and AI, DevOps with AI, MLOps with AI). If the video covers these topics, reflect it in the technology field.
+    6. Select the primary technology (e.g., Kubernetes + AI Agents, IaC + Terraform + AI Agents, DevOps + AI Agents, SRE + AI Agents, MLOps + AI Agents, or standard core tech like Kubernetes, Istio) and a category from: [Fundamentals and Documentaries, Architecture and Cloud Strategy, Networking and Service Mesh, Infrastructure as Code, Observability and Monitoring, AI and Future Operations, Security and Compliance].
 
     Return ONLY a JSON object:
     {{
