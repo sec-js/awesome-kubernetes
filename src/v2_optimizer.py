@@ -904,7 +904,7 @@ class V2VisionEngine:
                 "  - \"🔙 Back to V1 (Exhaustive)\": https://nubenetes.com/v1/", 
                 "  - \"The 2026 Vision\": index.md",
                 "  - \"Agentic Video Hub\":",
-                "      - \"Overview\": videos/index.md",
+                "      - videos/index.md",
                 "      - \"AI Agents and MCP\": videos/ai-agents.md",
                 "      - \"DevOps, IaC, and SRE\": videos/devops-iac.md",
                 "      - \"Cloud Native Core\": videos/cloud-native.md",
