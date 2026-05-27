@@ -40,6 +40,7 @@ Welcome to the **Agentic Video Hub**. This section presents a logical, architect
     - [Neural Networks AI and Future Operations](#neural-networks-ai-and-future-operations)
     - [Claude Code AI and Future Operations](#claude-code-ai-and-future-operations)
     - [LLM Architecture and Post-Training AI and Future Operations](#llm-architecture-and-post-training-ai-and-future-operations)
+    - [Agentic DevOps AI and Future Operations](#agentic-devops-ai-and-future-operations)
 
 ## Fundamentals and Documentaries
 ### Kubernetes Fundamentals and Documentaries
@@ -394,5 +395,16 @@ Welcome to the **Agentic Video Hub**. This section presents a logical, architect
     <center markdown="1">
 
     <iframe width="720" height="405" src="https://www.youtube.com/embed/9vM4p9NN0Ts" title="Stanford CS229: Building Large Language Models (LLMs)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+### Agentic DevOps AI and Future Operations
+??? note "🎬 Agentic DevOps Live | `Agentic DevOps`"
+    !!! info "Architectural Summary"
+        This official live series explores the paradigm shift from traditional CI/CD pipelines to autonomous, agent-driven operations (Agentic DevOps). It covers technical deep-dives into Azure SRE Agents for automated root cause analysis and proactive reliability, GitHub Copilot App Mod Agents for modernizing legacy systems at scale, and AI-powered workflows across GitHub and Azure DevOps. Essential for platform engineers designing self-healing environments and scalable human-in-the-loop AI governance in 2026.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLmsFUfdnGr3w9BdWjQGAwV7UPW0kspwOp" title="Agentic DevOps Live" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
