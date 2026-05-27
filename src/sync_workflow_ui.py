@@ -4,7 +4,7 @@ import re
 from src.logger import log_event
 
 CURATION_SOURCES_PATH = "data/curation_sources.yaml"
-WORKFLOW_PATH = ".github/workflows/agentic_cron.yml"
+WORKFLOW_PATH = ".github/workflows/01.1.agentic_cron.yml"
 
 class WorkflowUISync:
     """
