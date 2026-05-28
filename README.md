@@ -409,7 +409,31 @@ By separating these domains, Nubenetes ensures **100% Resilience**:
 
 ---
 
-### 5.6. Multi-Language Support Policy
+### 5.6. Dynamic YouTube Mosaic Engine
+Nubenetes manages the YouTube channel visual mosaic dynamically to support distinct V1 and V2 layout requirements from a single database source:
+
+- **Unified Schema (`data/inventory.yaml`)**: All channel metadata is stored under the `youtube_mosaic` key in the centralized inventory file:
+
+  ```yaml
+  https://www.youtube.com/@GoogleGemini:
+    title: Google Gemini
+    status: online
+    youtube_mosaic:
+      category: ai_advanced_tech        # Category grouping ID (V2)
+      image: images/google_gemini_logo.png
+      order_v1: 122                     # Flat sequence index (V1)
+      order_v2: 0                       # Category sorting index (V2)
+  ```
+
+- **Layout Generators (`src/reorganize_mosaic.py`)**:
+  * **V1 Flat Layout**: Sorts all channels globally by `order_v1` and formats them into a flat grid of 11 logos per row using simple inline width styling (`{: style="width:7%"}`). Newly added channels are appended at the end of the flat mosaic.
+  * **V2 Categorized Layout**: Groups channels by category, sorts them by `order_v2` within each group, and renders them inside custom cards with border-outline colors (e.g., purple for AI) matching the dimensions.
+
+- **Workflow Integration**: The mosaic generation is fully integrated into the **V2 Publisher** workflow (`04.1. V2 Publisher`). During any manual or automated run (cron jobs, PR merges), `src/reorganize_mosaic.py` runs automatically to rebuild both visual sections, preserving their layout differences across the entire codebase lifecycle.
+
+---
+
+### 5.7. Multi-Language Support Policy
 To embrace the diverse global Cloud Native community while maintaining international discoverability, Nubenetes implements a dual-layer linguistic strategy powered by a **Data-First Architecture**:
 
 - **Linguistic Data Persistence**: Language detection is treated as a core metadata attribute. The centralized database ([`data/inventory.yaml`](data/inventory.yaml)) stores resources using specific fields:
