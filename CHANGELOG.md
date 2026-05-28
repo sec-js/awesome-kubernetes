@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.3.35]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.35) - 2026-05-28
+
+### Added
+- **Grafana Observability Video**: Added the Viktor Farcic video `I Stopped Staring at Dashboards. AI Reads My Grafana Metrics Now.` to the V2 Video Hub under the "AI Agents and MCP" learning path.
+
 ## [[2.3.34]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.34) - 2026-05-28
 
 ### Added
