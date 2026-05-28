@@ -5,9 +5,9 @@
 
 ## Standard Reference
 
-  - [Koa.js](https://koa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [wikipedia: JavaScript](https://en.wikipedia.org/wiki/JavaScript)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [canva.com](https://www.canva.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Koa.js](https://koa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [wikipedia: Node.js](https://en.wikipedia.org/wiki/Node.js)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Npm](https://www.npmjs.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cult.honeypot.io: Best Frontend JavaScript Frameworks To Learn 2021](https://cult.honeypot.io/reads/best-frontend-javascript-frameworks-learn-2021)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -106,5 +106,5 @@
   - [freecodecamp.org: HTTP Networking in JavaScript –Handbook for Beginners](https://www.freecodecamp.org/news/http-full-course) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive foundational guide analyzing HTTP request-response lifecycles, network architectures, and client-side browser execution. Highlights modern REST API interactions and secure payload configurations.
 
 ---
-💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Java_Frameworks](./java_frameworks.md) | [API](./api.md)
+💡 **Explore Related:** [Python](./python.md) | [Visual Studio](./visual-studio.md) | [API](./api.md)
 

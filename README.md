@@ -138,9 +138,9 @@ Additionally, as of May 2026, Nubenetes has reached the **Platinum Operational T
 <!-- HEART_STATS_START -->
 | Metric | Value |
 | :--- | :--- |
-| **Total Technical Resources (Links)** | **18003+** |
+| **Total Technical Resources (Links)** | **18004+** |
 | **Specialized MD Pages** | **161** |
-| **Total Commits** | **5618+** |
+| **Total Commits** | **5622+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -178,7 +178,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 2059 | 8,503 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 2063 | 8,520 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -194,8 +194,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume (Commits / Estimated New Refs)" 0 --> 9000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 8503]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 2059]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 8520]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 2063]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -204,7 +204,7 @@ xychart-beta
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
-| 2026-05 | 2034 | 8,400 | **Agentic Inception (Gemini Era)** |
+| 2026-05 | 2038 | 8,416 | **Agentic Inception (Gemini Era)** |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
@@ -217,7 +217,7 @@ This chart shows the high-level distribution across the primary domains of Cloud
 <!-- PILLAR_CHART_START -->
 ```mermaid
 pie title Nubenetes Major Ecosystem Pillars
-    "Specialized Topics" : 3603
+    "Specialized Topics" : 3604
     "Kubernetes Ecosystem" : 3500
     "Developer Ecosystem" : 3000
     "Public/Private Cloud" : 2500
@@ -238,7 +238,7 @@ Reflecting Nubenetes' mission of global access while maintaining technical Engli
 <!-- SUB_ECO_CHART_START -->
 ```mermaid
 pie title Linguistic Diversity (Global Access)
-    "English" : 16202
+    "English" : 16203
     "Spanish" : 1080
     "French" : 180
     "Others" : 540
@@ -409,7 +409,31 @@ By separating these domains, Nubenetes ensures **100% Resilience**:
 
 ---
 
-### 5.6. Multi-Language Support Policy
+### 5.6. Dynamic YouTube Mosaic Engine
+Nubenetes manages the YouTube channel visual mosaic dynamically to support distinct V1 and V2 layout requirements from a single database source:
+
+- **Unified Schema (`data/inventory.yaml`)**: All channel metadata is stored under the `youtube_mosaic` key in the centralized inventory file:
+
+  ```yaml
+  https://www.youtube.com/@GoogleGemini:
+    title: Google Gemini
+    status: online
+    youtube_mosaic:
+      category: ai_advanced_tech        # Category grouping ID (V2)
+      image: images/google_gemini_logo.png
+      order_v1: 122                     # Flat sequence index (V1)
+      order_v2: 0                       # Category sorting index (V2)
+  ```
+
+- **Layout Generators (`src/reorganize_mosaic.py`)**:
+  * **V1 Flat Layout**: Sorts all channels globally by `order_v1` and formats them into a flat grid of 11 logos per row using simple inline width styling (`{: style="width:7%"}`). Newly added channels are appended at the end of the flat mosaic.
+  * **V2 Categorized Layout**: Groups channels by category, sorts them by `order_v2` within each group, and renders them inside custom cards with border-outline colors (e.g., purple for AI) matching the dimensions.
+
+- **Workflow Integration**: The mosaic generation is fully integrated into the **V2 Publisher** workflow (`04.1. V2 Publisher`). During any manual or automated run (cron jobs, PR merges), `src/reorganize_mosaic.py` runs automatically to rebuild both visual sections, preserving their layout differences across the entire codebase lifecycle.
+
+---
+
+### 5.7. Multi-Language Support Policy
 To embrace the diverse global Cloud Native community while maintaining international discoverability, Nubenetes implements a dual-layer linguistic strategy powered by a **Data-First Architecture**:
 
 - **Linguistic Data Persistence**: Language detection is treated as a core metadata attribute. The centralized database ([`data/inventory.yaml`](data/inventory.yaml)) stores resources using specific fields:

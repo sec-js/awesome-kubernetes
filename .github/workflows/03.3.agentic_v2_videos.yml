@@ -78,7 +78,7 @@ jobs:
         run: |
           git config --global user.name "Nubenetes Bot"
           git config --global user.email "bot@nubenetes.com"
-          git add data/inventory.yaml v2-docs/videos.md
+          git add data/inventory.yaml v2-docs/videos/
           if git diff --staged --quiet; then
             echo "No automated changes to commit."
           else
