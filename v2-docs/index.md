@@ -12,12 +12,14 @@
 </div>
 </center>
 
-<a href="https://en.wikipedia.org/wiki/Horatio_Nelson_Jackson" class="quote-card-link">
-  <div class="quote-card">
-    <div class="quote-card-text">"I do not believe you can do today's job with yesterday's methods and be in business tomorrow"</div>
-    <div class="quote-card-author">Horatio Nelson Jackson</div>
-  </div>
-</a>
+<div class="quote-card-container">
+  <a href="https://en.wikipedia.org/wiki/Horatio_Nelson_Jackson" class="quote-card-link">
+    <div class="quote-card">
+      <div class="quote-card-text">"I do not believe you can do today's job with yesterday's methods and be in business tomorrow"</div>
+      <div class="quote-card-author">Horatio Nelson Jackson</div>
+    </div>
+  </a>
+</div>
 
 <div style="display: flex; justify-content: center; gap: 24px; margin: 16px 0; flex-wrap: wrap;">
   <a href="./kubernetes.html" style="text-decoration: none; color: inherit; display: block;">

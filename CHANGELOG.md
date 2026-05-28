@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.3.23]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.23) - 2026-05-28
+
+### Changed
+- **Quote Card HTML Structure**: Wrapped the clickable `quote-card-link` in a block-level `div` container to prevent the Markdown processor from wrapping the inline `a` link in a paragraph `<p>` tag. This ensures correct HTML parsing and restores the quote card's dynamic hover animations and transitions.
+
 ## [[2.3.22]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.22) - 2026-05-28
 
 ### Changed
