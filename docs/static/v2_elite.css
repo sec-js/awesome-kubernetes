@@ -283,8 +283,9 @@ a {
 /* Hero Showcase Image wrapper (4 cars in a container) */
 .hero-showcase-wrapper {
   margin: 24px auto;
-  max-width: 650px;
-  border-radius: 12px;
+  max-width: 1100px; /* Increased from 650px to make it responsive and as large as possible */
+  width: 100%;
+  border-radius: 16px;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.08);
   background: rgba(255, 255, 255, 0.015);
@@ -353,5 +354,84 @@ a {
   background: var(--md-accent-fg-color);
   color: #09090b;
   box-shadow: 0 0 10px var(--md-accent-fg-color);
+}
+
+/* Clickable Quote Card */
+.quote-card-link {
+  display: block;
+  text-decoration: none !important;
+  color: inherit !important;
+  margin: 28px auto;
+  max-width: 1100px;
+  width: 100%;
+}
+
+.quote-card {
+  padding: 28px 36px;
+  border-radius: 14px;
+  border: 1px dashed rgba(34, 211, 238, 0.25);
+  background: rgba(34, 211, 238, 0.005);
+  position: relative;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-align: center;
+}
+
+[data-md-color-scheme="slate"] .quote-card {
+  background: rgba(34, 211, 238, 0.015);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.quote-card::before {
+  content: '“';
+  position: absolute;
+  top: -10px;
+  left: 24px;
+  font-size: 4.5rem;
+  font-family: Georgia, serif;
+  color: rgba(34, 211, 238, 0.25);
+  line-height: 1;
+}
+
+.quote-card-text {
+  font-size: 1.15rem;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: var(--md-primary-fg-color);
+  transition: color 0.3s ease;
+}
+
+[data-md-color-scheme="slate"] .quote-card-text {
+  color: #e2e8f0;
+}
+
+.quote-card-author {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--md-accent-fg-color);
+  transition: text-shadow 0.3s ease;
+}
+
+/* Quote Hover effects */
+.quote-card-link:hover .quote-card {
+  transform: translateY(-2px);
+  border-style: solid;
+  border-color: var(--md-accent-fg-color);
+  background: rgba(34, 211, 238, 0.03) !important;
+  box-shadow: 0 8px 24px rgba(34, 211, 238, 0.18);
+}
+
+.quote-card-link:hover .quote-card-text {
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.35);
+}
+
+.quote-card-link:hover .quote-card-author {
+  text-shadow: 0 0 8px rgba(34, 211, 238, 0.5);
 }
 

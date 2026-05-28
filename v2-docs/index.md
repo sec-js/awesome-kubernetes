@@ -1,5 +1,23 @@
 # Nubenetes Elite Portal (V2) | Awesome Kubernetes & Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
+<center markdown="1">
+<div class="hero-showcase-wrapper">
+  <a href="https://www.cncf.io/certification/software-conformance" class="hero-showcase-link">
+    <img src="images/container_with_cars_v2.png" alt="container_with_cars" class="hero-showcase-image" />
+    <div class="hero-showcase-overlay">
+      <span class="hero-showcase-badge">CNCF Software Conformance</span>
+    </div>
+  </a>
+</div>
+</center>
+
+<a href="https://en.wikipedia.org/wiki/Horatio_Nelson_Jackson" class="quote-card-link">
+  <div class="quote-card">
+    <div class="quote-card-text">"I do not believe you can do today's job with yesterday's methods and be in business tomorrow"</div>
+    <div class="quote-card-author">Horatio Nelson Jackson</div>
+  </div>
+</a>
+
 <div style="display: flex; justify-content: center; gap: 24px; margin: 16px 0; flex-wrap: wrap;">
   <a href="./kubernetes.html" style="text-decoration: none; color: inherit; display: block;">
     <div class="hero-badge-card hero-badge-card--cyan">
@@ -30,18 +48,6 @@
     </div>
   </a>
 </div>
-
-"I do not believe you can do today's job with yesterday's methods and be in business tomorrow" ([Horatio Nelson Jackson](https://en.wikipedia.org/wiki/Horatio_Nelson_Jackson))
-<center markdown="1">
-<div class="hero-showcase-wrapper">
-  <a href="https://www.cncf.io/certification/software-conformance" class="hero-showcase-link">
-    <img src="images/container_with_cars_v2.png" alt="container_with_cars" class="hero-showcase-image" />
-    <div class="hero-showcase-overlay">
-      <span class="hero-showcase-badge">CNCF Software Conformance</span>
-    </div>
-  </a>
-</div>
-</center>
 
 !!! abstract "The High-Density Vision"
     The V2 Edition is a curated, high-density version of the Nubenetes archive. Using **Agentic AI Orchestration**, the system selects only the most relevant, stable, and impactful resources for the modern Cloud Native ecosystem (2026 and beyond).
