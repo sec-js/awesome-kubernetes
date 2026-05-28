@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.3.22]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.22) - 2026-05-28
+
+### Changed
+- **Showcase Image Conformance Footer Bar**: Replaced the absolute badge overlay with an elegant, responsive glassmorphic footer bar `.hero-showcase-footer` beneath the image. This bar contains the CNCF conformance badge alongside an explanatory caption about workload portability, ensuring that no text covers any part of the main showcase image.
+
 ## [[2.3.21]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.21) - 2026-05-28
 
 ### Changed

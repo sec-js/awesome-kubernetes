@@ -4,8 +4,9 @@
 <div class="hero-showcase-wrapper">
   <a href="https://www.cncf.io/certification/software-conformance" class="hero-showcase-link">
     <img src="images/container_with_cars_v2.png" alt="container_with_cars" class="hero-showcase-image" />
-    <div class="hero-showcase-overlay">
-      <span class="hero-showcase-badge">CNCF Software Conformance</span>
+    <div class="hero-showcase-footer">
+      <span class="hero-showcase-badge">CNCF Conformance</span>
+      <span class="hero-showcase-caption">Standardized conformance guarantees seamless workload portability across the Cloud Native landscape.</span>
     </div>
   </a>
 </div>

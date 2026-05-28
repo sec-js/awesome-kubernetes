@@ -315,18 +315,26 @@ a {
   margin: 0 !important;
 }
 
-.hero-showcase-overlay {
-  position: absolute;
-  bottom: 12px;
-  right: 12px;
-  pointer-events: none;
+.hero-showcase-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px;
+  background: rgba(9, 9, 11, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+[data-md-color-scheme="slate"] .hero-showcase-footer {
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .hero-showcase-badge {
-  background: rgba(9, 9, 11, 0.8);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(34, 211, 238, 0.1);
+  border: 1px solid rgba(34, 211, 238, 0.3);
   color: var(--md-accent-fg-color);
   font-size: 0.72rem;
   font-weight: 700;
@@ -336,6 +344,17 @@ a {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   letter-spacing: 0.05em;
   transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.hero-showcase-caption {
+  font-size: 0.8rem;
+  color: var(--md-primary-fg-color--dark);
+  text-align: right;
+  flex: 1;
+  min-width: 250px;
+  line-height: 1.4;
+  transition: color 0.3s ease;
 }
 
 /* Hover effects */
@@ -346,14 +365,23 @@ a {
 }
 
 .hero-showcase-wrapper:hover .hero-showcase-image {
-  transform: scale(1.03);
+  transform: scale(1.02); /* slightly reduced zoom to keep it elegant */
   filter: brightness(1.05) contrast(1.02);
+}
+
+.hero-showcase-wrapper:hover .hero-showcase-footer {
+  border-top-color: rgba(34, 211, 238, 0.3);
+  background: rgba(34, 211, 238, 0.02) !important;
 }
 
 .hero-showcase-wrapper:hover .hero-showcase-badge {
   background: var(--md-accent-fg-color);
   color: #09090b;
   box-shadow: 0 0 10px var(--md-accent-fg-color);
+}
+
+.hero-showcase-wrapper:hover .hero-showcase-caption {
+  color: var(--md-primary-fg-color);
 }
 
 /* Clickable Quote Card */
