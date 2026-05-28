@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.3.21]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.21) - 2026-05-28
+
+### Changed
+- **Reordered V2 Homepage Header**: Reorganized the V2 home page layout, placing the large responsive CNCF conformance image showcase first, followed by Horatio's framed interactive quote card, and finally the four flex dashboard cards.
+- **Glassmorphic Quote Card**: Replaced the plain text quote with a styled, framed quote card featuring an interactive dashed border, a custom quote icon, and a glowing neon cyan hover state that links directly to Horatio Nelson Jackson's Wikipedia page.
+- **Enlarged Conformance Showcase**: Increased the max-width of the CNCF conformance wrapper to 1100px to ensure it remains as large as possible across all high-resolution devices.
+
 ## [[2.3.20]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.20) - 2026-05-27
 
 ### Changed
