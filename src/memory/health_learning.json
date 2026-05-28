@@ -1,3 +1,12 @@
 {
-  "blacklisted_domains": []
+  "blacklisted_domains": [],
+  "youtube_mosaic_layout_mandate": {
+    "v1_exhaustive": "Flat list of logos (11 per row) using order_v1 and inline width:7%",
+    "v2_elite": "Categorized neon-bordered card dashboard using order_v2 and width:48px",
+    "central_database": "data/inventory.yaml under the youtube_mosaic key",
+    "automation_scripts": [
+      "src/reorganize_mosaic.py",
+      "src/v2_optimizer.py"
+    ]
+  }
 }
