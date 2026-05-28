@@ -20,6 +20,7 @@
   - [Lucidchart](https://lucid.co/marketplace/91074b9b/aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [What is the best way to generate a visual diagram of the AWS environment which includes VPC, VPN, EC2, and AMIs?](https://www.pluralsight.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [CloudCanvas - Diagramming for Cloud Infrastructure](https://cloudcanvas.co)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloudogu/k8s-diagrams](https://github.com/cloudogu/k8s-diagrams) <span class='md-tag md-tag--info'>⭐ 339</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [betterprogramming.pub: Solutions Architect Tips — The 5 Types of Architecture' Diagrams](https://betterprogramming.pub/solutions-architect-tips-the-5-types-of-architecture-diagrams-eb0c11996f9e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [alibabacloud.com: How to Create an Effective Technical Architectural Diagram?](https://www.alibabacloud.com/blog/how-to-create-an-effective-technical-architectural-diagram_596100)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [learningdaily.dev: Software architecture diagramming and patterns](https://learningdaily.dev/software-architecture-diagramming-and-patterns-7d38999e7a12)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -35,7 +36,6 @@
   - [github.com/dcasati/kubernetes-PlantUML](https://github.com/dcasati/kubernetes-PlantUML) <span class='md-tag md-tag--info'>⭐ 281</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [excalidraw.com](https://excalidraw.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [diagrams.mingrammer.com: Diagram as Code](https://diagrams.mingrammer.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloudogu/k8s-diagrams](https://github.com/cloudogu/k8s-diagrams) <span class='md-tag md-tag--info'>⭐ 339</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Architecture Icons](https://aws.amazon.com/architecture/icons)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Google Cloud Architecture Icons](https://cloud.google.com/icons)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [aquasecurity/cloudsec-icons](https://github.com/aquasecurity/cloudsec-icons)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -63,5 +63,5 @@
   - [Draw.io MCP for Diagram Generation: Why It’s Worth Using](https://thomasthornton.cloud/draw-io-mcp-for-diagram-generation-why-its-worth-using)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An illustrative guide showing how the Draw.io Model Context Protocol (MCP) server allows AI assistants to programmatically generate and edit architecture diagrams. Bridges the gap between conversational design instructions and technical diagrams.
 
 ---
-💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Mkdocs](./mkdocs.md) | [Demos](./demos.md)
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Cheatsheets](./cheatsheets.md) | [Git](./git.md)
 

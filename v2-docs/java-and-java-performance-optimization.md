@@ -7,10 +7,6 @@
 
   - [geekflare.com: What is Thread Dump and How to Analyze them? 🌟](https://geekflare.com/dev/generate-analyze-thread-dumps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [On heap vs off heap memory usage](http://www.javacodegeeks.com/2014/12/on-heap-vs-off-heap-memory-usage.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [en.wikipedia.org/wiki/List_of_performance_analysis_tools](https://en.wikipedia.org/wiki/List_of_performance_analysis_tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [InspectIT](https://en.wikipedia.org/wiki/InspectIT)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [VisualVM](https://en.wikipedia.org/wiki/VisualVM)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [OverOps](https://en.wikipedia.org/wiki/OverOps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.flipkart.tech: The Art of System Debugging — Decoding CPU Utilization' 🌟](https://blog.flipkart.tech/the-art-of-system-debugging-decoding-cpu-utilization-da75f09ef1ff)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [DZone: Performance Improvement in Java Applications: ORM/JPA 🌟](https://dzone.com/articles/performance-improvement-in-java-applications-orm-j)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [DZone: The JVM Architecture Explained 🌟](https://dzone.com/articles/jvm-architecture-explained)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -28,6 +24,10 @@
   - [lalitchaturveditech.medium.com: Optimize Java Performance On Kubernetes](https://lalitchaturveditech.medium.com/optimize-java-performance-on-kubernetes-5f055d406ecf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jet-start.sh: Performance of Modern Java on Data-Heavy Workloads, Part 1' 🌟](https://jet-start.sh/blog/2020/06/09/jdk-gc-benchmarks-part1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone.com: Java Inside Docker: What You Must Know to Not FAIL](https://dzone.com/articles/java-inside-docker-what-you-must-know-to-not-fail)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [en.wikipedia.org/wiki/List_of_performance_analysis_tools](https://en.wikipedia.org/wiki/List_of_performance_analysis_tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [InspectIT](https://en.wikipedia.org/wiki/InspectIT)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [VisualVM](https://en.wikipedia.org/wiki/VisualVM)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [OverOps](https://en.wikipedia.org/wiki/OverOps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [baeldung.com: How to Analyze Java Thread Dumps 🌟](https://www.baeldung.com/java-analyze-thread-dumps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [baeldung.com: Capturing a Java Thread Dump](https://www.baeldung.com/java-thread-dump)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [DZone: Understanding the Java Memory Model and Garbage Collection 🌟](https://dzone.com/articles/understanding-the-java-memory-model-and-the-garbag)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -112,10 +112,13 @@
   - **(2021)** [blog.openshift.com: Scaling Java Containers 🌟](https://www.redhat.com/en/blog/scaling-java-containers) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores container resource limit considerations for Java workloads. Details memory calculation adjustments (Heap vs Non-Heap) to prevent OOMKills.
   - [tech.olx.com: Improving JVM Warm-up on Kubernetes 🌟](https://tech.olx.com/improving-jvm-warm-up-on-kubernetes-1b27dd8ecd58) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Operational case study detailing OLX's strategy to remediate high CPU spikes caused by JVM JIT compiling during initial Kubernetes pod scaling actions.
   - [itnext.io: How to cold start fast a java service on k8s (EKS)](https://itnext.io/how-to-cold-start-fast-a-java-service-on-k8s-eks-3a7b4450845d) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Engineering exploration highlighting techniques to minimize startup latency for Spring Boot/Quarkus container images, leveraging GraalVM, CRaC, or CPU shares.
+#### Monitoring and Profiling (1)
+
+  - **(2021)** [blog.openshift.com: Debugging Java Applications On OpenShift and Kubernetes](https://www.redhat.com/en/blog/debugging-java-applications-on-openshift-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Walkthrough covering remote JVM agent connection attachment procedures targeting pods deployed within secured target Kubernetes namespaces.
 #### Observability
 
   - **(2021)** [blog.openshift.com: Performance Metrics (APM) for Spring Boot Microservices on OpenShift](https://www.redhat.com/en/blog/performance-metrics-apm-spring-boot-microservices-openshift) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive integration guide explaining how to hook up Spring Boot Prometheus metrics directly into automated OpenShift cluster telemetry layers.
 
 ---
-💡 **Explore Related:** [Python](./python.md) | [Visual Studio](./visual-studio.md) | [API](./api.md)
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [API](./api.md) | [JVM Parameters Matrix Table](./jvm-parameters-matrix-table.md)
 

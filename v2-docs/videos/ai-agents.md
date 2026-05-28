@@ -7,8 +7,8 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 1. [Red Hat OpenShift](#red-hat-openshift)
 2. [Generative AI and Large Language Models](#generative-ai-and-large-language-models)
 3. [Red Hat OpenShift AI](#red-hat-openshift-ai)
-4. [Neural Networks](#neural-networks)
-5. [Claude Code](#claude-code)
+4. [Claude Code](#claude-code)
+5. [Neural Networks](#neural-networks)
 6. [LLM Architecture and Post-Training](#llm-architecture-and-post-training)
 7. [Agentic DevOps](#agentic-devops)
 
@@ -48,18 +48,6 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     </center>
 
-## Neural Networks
-
-??? note "🎬 ¿Qué es una Red Neuronal? Parte 1 : La Neurona | DotCSV [SPANISH CONTENT]"
-    !!! info "Architectural Summary"
-        This video deconstructs the foundational mathematical and algorithmic mechanics of a single artificial neuron, illustrating its direct relationship with linear regression, weights, biases, and activation functions. In a 2026 cloud-native landscape, mastering these core neural principles is critical for platform architects optimizing distributed micro-models and real-time AI inference engines deployed on Kubernetes-driven edge and cloud infrastructure. This granular understanding enables more efficient hardware acceleration profiling (GPUs/vGPUs/TPUs) and smarter resource allocation for decentralized machine learning pipelines.
-
-    <center markdown="1">
-
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/MRIv2IwFTPg?si=F07g869i6yIfqRdg" title="¿Qué es una Red Neuronal? Parte 1 : La Neurona | DotCSV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
-
-    </center>
-
 ## Claude Code
 
 ??? note "🎬 Mastering Claude Code in 30 minutes"
@@ -69,6 +57,18 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
     <center markdown="1">
 
     <iframe width="720" height="405" src="https://www.youtube.com/embed/6eBSHbLKuN0" title="Mastering Claude Code in 30 minutes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Neural Networks
+
+??? note "🎬 ¿Qué es una Red Neuronal? Parte 1 : La Neurona | DotCSV [SPANISH CONTENT]"
+    !!! info "Architectural Summary"
+        This video deconstructs the foundational mathematical and algorithmic mechanics of a single artificial neuron, illustrating its direct relationship with linear regression, weights, biases, and activation functions. In a 2026 cloud-native landscape, mastering these core neural principles is critical for platform architects optimizing distributed micro-models and real-time AI inference engines deployed on Kubernetes-driven edge and cloud infrastructure. This granular understanding enables more efficient hardware acceleration profiling (GPUs/vGPUs/TPUs) and smarter resource allocation for decentralized machine learning pipelines.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/MRIv2IwFTPg?si=F07g869i6yIfqRdg" title="¿Qué es una Red Neuronal? Parte 1 : La Neurona | DotCSV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
