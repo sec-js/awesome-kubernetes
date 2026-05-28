@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.3.34]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.34) - 2026-05-28
+
+### Added
+- **Link Provenance Tracking**: Added `addition_method` metadata attribute to `data/inventory.yaml` to differentiate between manually curated and automatically ingested links.
+- **Database Migration**: Migrated all 18,004 existing database entries to have `addition_method: manual` by default.
+- **Workflow & Optimizer Integration**: Programmed `src/agentic_curator.py` to mark automatically ingested resources as `automatic`, and updated `src/v2_optimizer.py` to default new V1 Markdown source resources to `manual`.
+
+### Changed
+- **Documentation & Memory Systems**: Added documentation for `addition_method` in `README.md`, `GEMINI.md`, and `src/memory/health_learning.json`.
+
 ## [[2.3.32]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.32) - 2026-05-28
 
 ### Changed

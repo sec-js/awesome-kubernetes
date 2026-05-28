@@ -55,6 +55,7 @@ This file contains the accumulated instructions and long-term vision for the aut
         *   `source_provenance`: Identifies the origin of the discovery (Twitter, RSS, Manual).
         *   `social_preview_url`: OpenGraph/Social images to enrich the V2 visual experience.
         *   `mentions_count`: Tracks resource popularity/rediscovery frequency.
+        *   `addition_method`: Tracks the resource addition origin ('manual' or 'automatic') to facilitate scaling metrics.
     - **Persistence (MANDATORY)**: Every AI agent and workflow MUST load this file at startup, update it, and INJECT the modified YAML into the final PR payload if any change is detected. Discarding the database during a workflow run is a CRITICAL FAILURE.
     - **Exhaustive Initialization**: The system supports a `FORCE_FULL_CHECK` environment variable to bypass all caches (e.g., 21-day health cache) and force a full re-validation and re-enrichment of the entire 17k+ link archive.
     - **No Trusted Bypassing**: All domains, including high-trust ones (GitHub, Google, AWS), MUST be verified for link validity. Trusted status only grants a lower priority for aggressive scraper rotation, not a bypass for existence checks.

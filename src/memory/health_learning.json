@@ -8,5 +8,13 @@
       "src/reorganize_mosaic.py",
       "src/v2_optimizer.py"
     ]
+  },
+  "addition_method_tracking": {
+    "field": "addition_method",
+    "values": ["manual", "automatic"],
+    "rules": {
+      "manual": "Assigned to all pre-existing entries and any new entries discovered by the V2 Optimizer from V1 Markdown source files (assumed manually added).",
+      "automatic": "Assigned to resources ingested automatically via curation workflows from X/Twitter, RSS, or GitHub trending."
+    }
   }
 }
