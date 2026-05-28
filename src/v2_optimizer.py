@@ -392,6 +392,8 @@ class V2VisionEngine:
                             norm_url = normalize_url(item["url"])
                             self.inventory[norm_url] = {k:v for k,v in item.items() if k not in ["url", "title", "original_file", "is_special", "aliases"]}
                             self.inventory[norm_url]["title"] = item["title"]
+                            if "addition_method" not in self.inventory[norm_url]:
+                                self.inventory[norm_url]["addition_method"] = "manual"
 
                 except Exception:
                     for l in batch: analyst_results.append(l)
@@ -501,6 +503,8 @@ class V2VisionEngine:
                 # Persist to inventory
                 self.inventory[norm_url] = {k:v for k,v in item.items() if k not in ["url", "title", "original_file", "is_special", "aliases"]}
                 self.inventory[norm_url]["title"] = item["title"]
+                if "addition_method" not in self.inventory[norm_url]:
+                    self.inventory[norm_url]["addition_method"] = "manual"
                 
                 if p_id not in project_registry or item.get("stars", 0) > project_registry[p_id].get("stars", 0):
                     if p_id in project_registry and project_registry[p_id].get("is_special"): item["is_special"] = True

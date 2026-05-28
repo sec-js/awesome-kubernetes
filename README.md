@@ -447,6 +447,7 @@ To embrace the diverse global Cloud Native community while maintaining internati
     *   `hierarchy`: Persistent, **recursive technical classification** (list of up to 10 levels) for O'Reilly-style grouping.
     *   `content_hash` / `health_score`: Advanced fields for content drift detection and reliability tracking.
     *   `source_provenance` / `social_preview_url`: Data for origin tracing and V2 visual enrichment.
+    *   `addition_method`: Origin type of the resource addition ('manual' or 'automatic') to support growth and scaling metrics.
 - **Separation of Concerns (Data vs. UI)**:
     *   **The Database (Source of Truth)**: Holds raw data, enabling future features like language-based filtering or statistics without re-processing links.
     *   **The Portal (Visual Rendering)**: The `V2VisionEngine` dynamically converts the metadata into visual UI tags (e.g., `[SPANISH CONTENT]`, `[ARCHITECT LEVEL]`).

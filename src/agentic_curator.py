@@ -165,7 +165,8 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                             "reputation_status": "Vetted" if not data.get("reputation_penalty") else "Suspicious",
                             "reputation_summary": data.get("reputation_summary", ""),
                             "source_provenance": d["asset"].get("source_type", "Social"), "social_preview_url": d["rich_meta"].get("og_image", ""),
-                            "category": primary_cat, "status": "online", "last_checked": datetime.now().timestamp(), **d["gh_meta"]
+                            "category": primary_cat, "status": "online", "last_checked": datetime.now().timestamp(),
+                            "addition_method": "automatic", **d["gh_meta"]
                         }
                         if "youtube.com" in url or "youtu.be" in url:
                             title_desc = f"{data['title']} {data['desc']}".lower()
