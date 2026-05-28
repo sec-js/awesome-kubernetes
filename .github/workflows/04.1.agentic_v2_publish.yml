@@ -63,6 +63,12 @@ jobs:
         run: |
           python -u src/v2_video_portal.py
 
+      - name: Execute Mosaic Reorganization
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: |
+          python src/reorganize_mosaic.py
+
       - name: Run V2 Publisher (Render-Only)
         env:
           PYTHONPATH: ${{ github.workspace }}
