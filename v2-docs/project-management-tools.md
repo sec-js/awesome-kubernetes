@@ -36,5 +36,5 @@
 
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Scaffolding](./scaffolding.md) | [Developerportals](./developerportals.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [QA](./qa.md) | [Project Management Methodology](./project-management-methodology.md)
 

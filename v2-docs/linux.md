@@ -11,7 +11,6 @@
   - [unix.stackexchange.com: ss - linux socket statistics utility output format](http://unix.stackexchange.com/questions/252744/ss-linux-socket-statistics-utility-output-format)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [stackoverflow.com: difference between netstat and ss in linux?](http://stackoverflow.com/questions/11763376/difference-between-netstat-and-ss-in-linux)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cyberciti.biz: Linux ip Command Examples](https://www.cyberciti.biz/faq/linux-ip-command-examples-usage-syntax)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.flipkart.tech: The Art of System Debugging — Decoding CPU Utilization' 🌟](https://blog.flipkart.tech/the-art-of-system-debugging-decoding-cpu-utilization-da75f09ef1ff)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cyberciti.biz: Red Hat introduces new no-cost RHEL option](https://www.cyberciti.biz/linux-news/red-hat-introduces-new-no-cost-rhel-option)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [enterpriseai.news: Red Hat’s Disruption of CentOS Unleashes Storm of Dissent](https://www.enterpriseai.news/2021/01/22/red-hats-disruption-of-centos-unleashes-storm-of-dissent)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloudsavvyit.com: Is Rocky Linux the new CentOS?](https://www.cloudsavvyit.com/13092/is-rocky-linux-the-new-centos)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -67,6 +66,7 @@
   - [levelup.gitconnected.com: 5 Bash String Manipulation Methods That Help Every' Developer](https://levelup.gitconnected.com/5-bash-string-manipulation-methods-that-help-every-developer-49d4ee38b593)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [piyushverma.hashnode.dev: Basic Linux Shell Scripting for DevOps Engineers](https://piyushverma.hashnode.dev/basic-linux-shell-scripting-for-devops-engineers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [betterprogramming.pub: Bash vs. Python vs. JavaScript: Which Is Better for' Automation? 🌟](https://betterprogramming.pub/bash-vs-python-vs-javascript-which-is-better-for-automation-92a277ef49e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.flipkart.tech: The Art of System Debugging — Decoding CPU Utilization' 🌟](https://blog.flipkart.tech/the-art-of-system-debugging-decoding-cpu-utilization-da75f09ef1ff)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [linuxjourney.com commandline](https://linuxjourney.com/lesson/the-shell#)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Announcing the HashiCorp Linux Repository](https://www.hashicorp.com/blog/announcing-the-hashicorp-linux-repository)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.pandorafms.org: Useful Network commands](https://blog.pandorafms.org/network-commands)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -626,5 +626,5 @@
   - [tecmint.com: Testssl.sh – Testing TLS/SSL Encryption Anywhere on Any Port](https://www.tecmint.com/testssl-sh-test-tls-ssl-encryption-in-linux-commandline)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A hands-on installation and usage guide for testssl.sh, an open-source command-line security auditing tool. It demonstrates how to scan endpoints on any port to detect SSL/TLS vulnerabilities, cipher suite issues, and configuration flaws.
 
 ---
-💡 **Explore Related:** [Cheatsheets](./cheatsheets.md) | [Kubernetes](./kubernetes.md) | [Demos](./demos.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Mkdocs](./mkdocs.md) | [Demos](./demos.md)
 

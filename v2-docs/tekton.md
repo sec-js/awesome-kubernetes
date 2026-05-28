@@ -6,7 +6,6 @@
 ## Standard Reference
 
   - [OpenShift Tekton pipelines](https://www.redhat.com/en/topics/devops/what-cicd-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [jenkins.io: Easily reuse Tekton and Jenkins X from Jenkins 🌟](https://www.jenkins.io/blog/2021/04/21/tekton-plugin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [tekline 🌟](https://github.com/joyrex2001/tekline) <span class='md-tag md-tag--info'>⭐ 11</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [tekton.dev](https://tekton.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/tektoncd](https://github.com/tektoncd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -16,6 +15,7 @@
   - [opensource.googleblog.com: The Tekton Pipelines Beta release](https://opensource.googleblog.com/2020/05/the-tekton-pipelines-beta-release.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Tekton PetClinic Demo Youtube](https://www.youtube.com/watch?v=igwFpZOUTnw)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [learn.openshift.com/middleware/pipelines](https://learn.openshift.com/middleware/pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jenkins.io: Easily reuse Tekton and Jenkins X from Jenkins 🌟](https://www.jenkins.io/blog/2021/04/21/tekton-plugin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [lambda.grofers.com: Evolving Continuous Delivery in a Cloud-Native Environment' 🌟](https://lambda.grofers.com/evolving-cd-in-a-cloud-native-environment-bb64a38145ae)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Tekton Pipelines Kickstarter. Cloud Native CI/CD with Tekton' — Laying The Foundation](https://itnext.iocloud-native-ci-cd-with-tekton-laying-the-foundation-a377a1b59ac0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.harbur.io: The Seven Steps to build a Cloud Native CI/CD for GitHub' repos using Tekton](https://blog.harbur.iothe-seven-steps-to-build-a-cloud-native-ci-cd-for-github-repos-using-tekton-31a445a3bde)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -30,5 +30,5 @@
 
 
 ---
-💡 **Explore Related:** [Jenkins Alternatives](./jenkins-alternatives.md) | [Gitops](./gitops.md) | [CI/CD](./cicd.md)
+💡 **Explore Related:** [Gitops](./gitops.md) | [Flux](./flux.md) | [Argo](./argo.md)
 

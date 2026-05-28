@@ -7,8 +7,6 @@
 
   - [Drools](https://kie.apache.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [KIE Server](https://hub.docker.com/r/jboss/kie-server)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [freecodecamp.org: Master API Testing with Postman](https://www.freecodecamp.org/news/master-api-testing-with-postman)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Automated API testing for the KIE Server 🌟](https://developers.redhat.com/blog/2020/05/01/automated-api-testing-for-the-kie-server)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.getpostman.com](https://blog.getpostman.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone: how to use postman to manage and execute your APIs](https://dzone.com/articles/how-to-use-postman-to-manage-and-execute-your-apis)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Linkedin: API Testing with Postman](https://www.linkedin.com/pulse/api-testing-postman-michael-montgomery)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -20,14 +18,16 @@
   - [blog.postman.com: Introducing the Secret Variable Type in Postman](https://blog.postman.com/introducing-secret-variable-type-in-postman)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.postman.com: Meet Matrix: Postman’s Internal Tool for Working with' Microservices](https://blog.postman.com/matrix-postman-internal-tool-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.postman.com: First 5 Things to Try If You’re New to Postman](https://blog.postman.com/postman-first-5-things-to-try)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [freecodecamp.org: Master API Testing with Postman](https://www.freecodecamp.org/news/master-api-testing-with-postman)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [learning.postman.com: Simulate user traffic to test your API performance](https://learning.postman.com/docs/collections/performance-testing/testing-api-performance)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Newman](https://github.com/postmanlabs/newman) <span class='md-tag md-tag--info'>⭐ 7221</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [blog.balasundar.com: Run Postman collections using Newman and Python](https://blog.balasundar.com/run-postman-collections-using-newman-and-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Postman Pynt 🌟](https://www.postman.com/pynt-io/workspace/pynt/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Automated API testing for the KIE Server 🌟](https://developers.redhat.com/blog/2020/05/01/automated-api-testing-for-the-kie-server)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Hoppscotch: Open-Source Alternative to Postman](https://hoppscotch.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [techwebspace.com: Get Started with the REST Assured Framework: An Example-based' Guide](https://www.techwebspace.com/get-started-with-the-rest-assured-framework-an-example-based-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 
 ---
-💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [Visual Studio](./visual-studio.md) | [Python](./python.md)
+💡 **Explore Related:** [Python](./python.md) | [Visual Studio](./visual-studio.md) | [API](./api.md)
 

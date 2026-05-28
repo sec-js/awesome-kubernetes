@@ -25,13 +25,13 @@
   - [SwaggerHub: Free Web Service](https://swagger.io/product)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [any-api.com](https://marketplace.apilayer.com/?utm_source=any-api&utm_medium=any-api-redirection&utm_campaign=any-api-redirection)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Mux: The API to Video](https://www.mux.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [softwareengineeringdaily.com: Kubernetes vs. Serverless with Matt Ward (podcast) 🌟](https://softwareengineeringdaily.com/2020/12/29/kubernetes-vs-serverless-with-matt-ward-repeat)
+  - [Devdocs.io API Documentation 🌟](https://devdocs.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [wikipedia: API Application Programming Interface](https://simple.wikipedia.org/wiki/Application_programming_interface)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [postman.com: What is an API?](https://www.postman.com/what-is-an-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/public-apis/public-apis: Try Public APIs for free 🌟](https://github.com/public-apis/public-apis) <span class='md-tag md-tag--info'>⭐ 436518</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [apifriends.com: What is an API?](https://apifriends.com/api-management/what-is-an-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [axway.com: What is API Management?](https://www.axway.com/en/products/api-management/what-is-api-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Youtube Playlist: Introduction to APIs](https://www.youtube.com/playlist?list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Devdocs.io API Documentation 🌟](https://devdocs.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: 5 Ways to Succeed with an API Gateway](https://thenewstack.io/5-ways-to-succeed-with-an-api-gateway)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [amazicworld.com: Why APIs can’t be missed when it comes to DevOps](https://amazicworld.com/why-apis-cant-be-missed-when-it-comes-to-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: API Gateway Part 1](https://medium.com/easyread/api-gateway-part-1-7901ba703f9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -150,8 +150,8 @@
   - [openapi-comment-parser](https://github.com/bee-travels/openapi-comment-parser) <span class='md-tag md-tag--info'>⭐ 256</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [IBM creates an open source tool to simplify API documentation](https://www.techrepublic.com/article/ibm-creates-an-open-source-tool-to-simplify-api-documentation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [API Business Models. 20 Models in 20 Minutes](https://www.infoq.com/presentations/API-Business-Models)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [softwareengineeringdaily.com: Kubernetes vs. Serverless with Matt Ward (podcast)' 🌟](https://softwareengineeringdaily.com/2020/12/29/kubernetes-vs-serverless-with-matt-ward-repeat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [https://swagger.io/](https://swagger.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [softwareengineeringdaily.com: Kubernetes vs. Serverless with Matt Ward (podcast)' 🌟](https://softwareengineeringdaily.com/2020/12/29/kubernetes-vs-serverless-with-matt-ward-repeat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Development Tools
 
@@ -169,5 +169,5 @@
   - [Cerebras AI](https://www.cerebras.ai) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Architectural hub detailing wafer-scale AI processors built to tackle compute limits. Facilitates unprecedented deep-learning model execution with extreme localized bandwidth optimizations.
 
 ---
-💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [Visual Studio](./visual-studio.md) | [Python](./python.md)
+💡 **Explore Related:** [Python](./python.md) | [Visual Studio](./visual-studio.md) | [Golang](./golang.md)
 

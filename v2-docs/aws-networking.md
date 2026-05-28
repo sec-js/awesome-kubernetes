@@ -5,12 +5,12 @@
 
 ## Standard Reference
 
+  - [Azure ExpressRoute Resiliency: Best Practices for Production-Critical Workloads](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/azure-expressroute-resiliency-best-practices-for-production-critical-workloads/4394842)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Cloud Networking – Zero to Hero](http://www.netdesignarena.com/index.php/2020/04/15/new-blog-series-aws-cloud-networking-zero-to-hero)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [How do I transfer a domain to AWS from another registrar?](https://repost.aws/knowledge-center)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [docs.aws.amazon.com: What Is Elastic Load Balancing?](http://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Application Load Balancer](https://aws.amazon.com/elasticloadbalancing/application-load-balancer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Find the fastest region from your location](http://aws-latency.altaircp.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Azure ExpressRoute Resiliency: Best Practices for Production-Critical Workloads](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/azure-expressroute-resiliency-best-practices-for-production-critical-workloads/4394842)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [linuxjournal.com: AWS EC2 VPC CLI](http://www.linuxjournal.com/content/aws-ec2-vpc-cli)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [tailscale.com: Connect to an AWS VPC using subnet routes](https://tailscale.com/docs/install/cloud/aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Networking for Developers](https://aws.amazon.com/es/blogs/apn/aws-networking-for-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -59,5 +59,5 @@
 
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Public Cloud Solutions](./public-cloud-solutions.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
+💡 **Explore Related:** [AWS Tools Scripts](./aws-tools-scripts.md) | [Azure](./azure.md) | [AWS](./aws.md)
 
