@@ -49,10 +49,7 @@ reset max-width with the following CSS: */
   filter: brightness(1.2);
 }
 
-/* Invert Arsys logo in dark mode */
-[data-md-color-scheme="slate"] img[src*="arsys_logo.svg"] {
-  filter: invert(1) brightness(2);
-}
+
 
 
 

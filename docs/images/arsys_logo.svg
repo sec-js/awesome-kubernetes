@@ -5,10 +5,7 @@
 	 xml:space="preserve">
 <title>logos</title>
 <style type="text/css">
-  path { fill: #2c3e50; }
-  @media (prefers-color-scheme: dark) {
-    path { fill: #ffffff; }
-  }
+  path { fill: #00a2e8; }
 </style>
 <path d="M379.988,380.625c-3.113-0.493-6.072,1.525-6.746,4.604l-14.486,47.623l-15.873-52.346h-16.51l23.811,64.568
 	c1.842,3.318,1.076,7.476-1.824,9.922c-2.383,1.864-4.684,1.864-9.645,1.825h-1.191v11.747h3.969c6.867,0,11.906-0.278,14.764-2.699
