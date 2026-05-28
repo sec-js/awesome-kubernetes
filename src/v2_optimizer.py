@@ -167,12 +167,18 @@ class V2VisionEngine:
         if os.path.exists("docs/index.md"):
             with open("docs/index.md", "r") as f:
                 idx_content = f.read()
-                mosaics = re.findall(r'<center markdown="1">\s*\n(.*?)\n\s*</center>', idx_content, re.DOTALL)
-                if mosaics:
-                    for m in mosaics:
-                        if m.count("[![") > 5: mosaic_html = m; break
                 videos_match = re.search(r'\?\?\? note "Top Videos & Clips.*?\n\s+(<center.*?</center>)', idx_content, re.DOTALL)
-                if videos_match: videos_html = videos_match.group(1)
+                if videos_match:
+                    videos_html = videos_match.group(1)
+        
+        # Dynamically generate V2 categorized mosaic from youtube_channels_mosaic.yaml
+        try:
+            from src.reorganize_mosaic import build_v2_mosaic_markdown
+            v2_mosaic_full = build_v2_mosaic_markdown("data/youtube_channels_mosaic.yaml")
+            mosaic_html = v2_mosaic_full.replace('<center markdown="1">', '').replace('</center>', '').strip()
+        except Exception as e:
+            log_event(f"  [!] Error generating V2 mosaic dynamically: {e}")
+            mosaic_html = ""
 
         for root, _, files in os.walk(V1_DIR):
             for file in files:
