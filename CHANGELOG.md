@@ -5,6 +5,55 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.3.32]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.32) - 2026-05-28
+
+### Changed
+- **Arsys Logo Dark Mode Contrast**: Changed the Arsys logo fill color to a constant corporate electric sky blue (`#00a2e8`) inside the SVG, ensuring maximum contrast on both white (V1) and slate/black (V2) backgrounds.
+- **Removed Logo CSS Inversion**: Removed the dark mode CSS filter invert rule in `extra.css` to preserve branding color integrity.
+
+## [[2.3.31]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.31) - 2026-05-28
+
+### Changed
+- **Arsys Logo Dark Mode Adaptation**: Embedded light/dark prefers-color-scheme styles inside the Arsys SVG logo and added a CSS invert filter for the slate theme in `extra.css` to fix visibility in dark mode.
+
+## [[2.3.30]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.30) - 2026-05-28
+
+### Fixed
+- **Wikimedia Commons URL Correction**: Replaced the broken HTML error page (downloaded due to invalid hash pathing) with a valid vector SVG file by using the correct MD5 filename-derived directory structure (`8/88/Arsys_logo.svg`) on upload.wikimedia.org.
+
+## [[2.3.29]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.29) - 2026-05-28
+
+### Added
+- **Arsys Channel Integration**: Registered `https://www.youtube.com/@arsys` in `data/inventory.yaml` under `cloud_providers` (V2) and ordered to append at the end of V1 flat sequence.
+
+### Fixed
+- **Video Hub Heading Level Fix**: Fixed a markdown linter error (MD001) in the generated video hub index by changing the heading increment from h3 to h2 (`## Learning Dimensions`).
+
+## [[2.3.28]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.28) - 2026-05-28
+
+### Changed
+- **Mandate 23 Documentation**: Updated `GEMINI.md` and `health_learning.json` to formally document the database-driven dual layout design of YouTube mosaics.
+
+## [[2.3.27]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.27) - 2026-05-28
+
+### Added
+- **Workflow Automation for Mosaic**: Configured the V2 Publisher workflow to execute `src/reorganize_mosaic.py` automatically on each run.
+
+## [[2.3.26]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.26) - 2026-05-28
+
+### Fixed
+- **Video Hub Index Heading Level Correction**: Adjusted generator code to prevent heading hierarchy lint failures.
+
+## [[2.3.25]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.25) - 2026-05-28
+
+### Added
+- **Database Migration for YouTube Mosaic**: Migrated YouTube channel mosaic configuration from the deprecated `youtube_channels_mosaic.yaml` to the unified monolithic `data/inventory.yaml` and refactored the layout generator to dynamically read from the database.
+
+## [[2.3.24]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.24) - 2026-05-28
+
+### Changed
+- **Restored V1 Flat YouTube Mosaic Layout**: Restored the flat list layout (11 channels per row, sorted by `order_v1`) on the V1 homepage, while preserving the advanced categorized V2 dashboard.
+
 ## [[2.3.23]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.23) - 2026-05-28
 
 ### Changed
