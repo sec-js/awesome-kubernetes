@@ -6,11 +6,12 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
 1. [Red Hat OpenShift](#red-hat-openshift)
 2. [Generative AI and Large Language Models](#generative-ai-and-large-language-models)
-3. [Red Hat OpenShift AI](#red-hat-openshift-ai)
-4. [Claude Code](#claude-code)
-5. [Neural Networks](#neural-networks)
-6. [LLM Architecture and Post-Training](#llm-architecture-and-post-training)
-7. [Agentic DevOps](#agentic-devops)
+3. [Grafana Assistant Claude Code Grafana MCP Server](#grafana-assistant-claude-code-grafana-mcp-server)
+4. [Red Hat OpenShift AI](#red-hat-openshift-ai)
+5. [Claude Code](#claude-code)
+6. [Neural Networks](#neural-networks)
+7. [LLM Architecture and Post-Training](#llm-architecture-and-post-training)
+8. [Agentic DevOps](#agentic-devops)
 
 ## Red Hat OpenShift
 
@@ -33,6 +34,18 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
     <center markdown="1">
 
     <iframe width="720" height="405" src="https://www.youtube.com/embed/aZ5EsdnpLMI?si=ESsNnVwE8IdWSiWZ" title="Artificial Intelligence | 60 Minutes Full Episodes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Grafana Assistant Claude Code Grafana MCP Server
+
+??? note "🎬 I Stopped Staring at Dashboards. AI Reads My Grafana Metrics Now."
+    !!! info "Architectural Summary"
+        This video explores how AI agents can read Grafana metrics, logs, and traces directly using Grafana Assistant and Claude Code wired up to the Grafana MCP server. It demonstrates querying Prometheus, Loki, and Tempo, generating custom dashboards from natural language, and analyzing runtime data from the command line. This workflow bridges the gap between analysis and remediation, allowing agents to verify fixes and make data-grounded decisions.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/HI6KleJAZPY" title="I Stopped Staring at Dashboards. AI Reads My Grafana Metrics Now." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
