@@ -160,5 +160,5 @@
   - [github.com/rakyll/fake-it-til-you-make-it](https://github.com/rakyll/fake-it-til-you-make-it) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A shell-based script interface to generate programmatic git commits and simulate active GitHub profile contributions. Flagged as legacy under Minimum Viable Quality (MVQ) rules due to long-term inactivity.
 
 ---
-💡 **Explore Related:** [Elearning](./elearning.md) | [Finops](./finops.md) | [Appointment Scheduling](./appointment-scheduling.md)
+💡 **Explore Related:** [Interview Questions](./interview-questions.md) | [Elearning](./elearning.md) | [Finops](./finops.md)
 

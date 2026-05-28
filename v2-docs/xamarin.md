@@ -10,5 +10,5 @@
 
 
 ---
-💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [Visual Studio](./visual-studio.md) | [Python](./python.md)
+💡 **Explore Related:** [Python](./python.md) | [Visual Studio](./visual-studio.md) | [API](./api.md)
 

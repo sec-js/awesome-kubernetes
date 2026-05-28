@@ -5,9 +5,9 @@
 
 ## Standard Reference
 
-  - [platform9.com: The Gorilla Guide to Kubernetes in the Enterprise](https://platform9.com/blog/kubernetes-service-mesh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openshift.com: Introducing OpenShift Service Mesh 2.0 🌟](https://www.redhat.com/en/blog/introducing-openshift-service-mesh-2.0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [rancher.com: Using Hybrid and Multi-Cloud Service Mesh Based Applications for Distributed Deployments](https://www.suse.com/c/rancher_blog/using-hybrid-and-multi-cloud-service-mesh-based-applications-for-distributed-deployments)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [platform9.com: Kubernetes Service Mesh: A Comparison of Istio, Linkerd and Consul](https://platform9.com/blog/kubernetes-service-mesh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [containerjournal.com: When Is Service Mesh Worth It?](https://cloudnativenow.com/features/when-is-service-mesh-worth-it)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medianova.com: Service Mesh vs. API Gateway](https://www.medianova.com/service-mesh-vs-api-gateway)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [consul.io](https://developer.hashicorp.com/consul)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -23,13 +23,9 @@
   - [Traffic Director overview](https://docs.cloud.google.com/service-mesh/docs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Traffic Director and gRPC—proxyless services for your service mesh](https://cloud.google.com/blog/products/networking/traffic-director-supports-proxyless-grpc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [L7 Internal HTTP(S) Load Balancing overview](https://docs.cloud.google.com/load-balancing/docs/l7-internal)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.christianposta.com: Do I Need an API Gateway if I Use a Service Mesh?](https://blog.christianposta.com/microservices/do-i-need-an-api-gateway-if-i-have-a-service-mesh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Application Gateway for Containers with AKS Overlay Networking and VNet Flow Logs](https://blog.cloudtrooper.net/2025/04/02/application-gateway-for-containers-a-not-so-gentle-intro-4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [AWS App Mesh with EKS and Canary deployment](https://medium.com/@anupam.s1602/aws-app-mesh-with-eks-and-canary-deployment-5503d9ba95d6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [InGate: Ingress & Gateway API Controller (Archived)](https://github.com/kubernetes-sigs/ingate) <span class='md-tag md-tag--info'>⭐ 731</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Transitioning from ingress-nginx to Traefik in Kubernetes](https://traefik.io/blog/transition-from-ingress-nginx-to-traefik)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kubernetes Gateway API](https://github.com/kubernetes-sigs/gateway-api) <span class='md-tag md-tag--info'>⭐ 2861</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ekglue - Envoy/Kubernetes glue](https://github.com/jrockway/ekglue) <span class='md-tag md-tag--info'>⭐ 29</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [InGate: Ingress & Gateway API Controller (Archived)](https://github.com/kubernetes-sigs/ingate) <span class='md-tag md-tag--info'>⭐ 731</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.christianposta.com: Do I Need an API Gateway if I Use a Service Mesh?](https://blog.christianposta.com/microservices/do-i-need-an-api-gateway-if-i-have-a-service-mesh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: Service Mesh Ultimate Guide:](https://www.infoq.com/articles/service-mesh-ultimate-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Service Mesh Adds Security, Observability and Traffic Control' to Kubernetes](https://thenewstack.io/service-mesh-adds-security-observability-and-traffic-control-to-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [lucperkins.dev: Service mesh use cases](https://lucperkins.dev/blog/service-mesh-use-cases)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -91,11 +87,22 @@
   - [infoq.com: Introducing Traffic Director: Google's Service Mesh Control' Plane](https://www.infoq.com/news/2019/04/google-traffic-director)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Examining Load Balancing Algorithms with Envoy](https://blog.envoyproxy.io/examining-load-balancing-algorithms-with-envoy-1be643ea121c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [solo.io: Why the control plane matters. Control planes are different than' data planes. Separating the control plane from data plane 🌟](https://www.solo.io/blog/why-the-control-plane-matters)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ekglue - Envoy/Kubernetes glue](https://github.com/jrockway/ekglue) <span class='md-tag md-tag--info'>⭐ 29</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [amalaruja.medium.com: Basic HTTP Routing Strategies with Envoy](https://amalaruja.medium.com/basic-http-routing-strategies-with-envoy-376be42559eb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [xDS REST and gRPC protocol](https://www.envoyproxy.io/docs/envoy/latest/api-docs/xds_protocol)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openservicemesh.io](https://openservicemesh.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kourier: A lightweight Knative Serving ingress](https://developers.redhat.com/blog/2020/06/30/kourier-a-lightweight-knative-serving-ingress)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [AWS App Mesh with EKS and Canary deployment](https://medium.com/@anupam.s1602/aws-app-mesh-with-eks-and-canary-deployment-5503d9ba95d6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Transitioning from ingress-nginx to Traefik in Kubernetes](https://traefik.io/blog/transition-from-ingress-nginx-to-traefik)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Application Gateway for Containers with AKS Overlay Networking and VNet Flow Logs](https://blog.cloudtrooper.net/2025/04/02/application-gateway-for-containers-a-not-so-gentle-intro-4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Cloud Infrastructure
+
+### Kubernetes
+
+#### Service Mesh (1)
+
+  - **(2021)** [**Service meshes to the rescue: Load balancing and scaling long-lived connections in Kubernetes 🌟**](https://learnkube.com/kubernetes-long-lived-connections) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A deep dive into the engineering challenge of load balancing long-lived connections (gRPC, HTTP/2, WebSockets) within Kubernetes. It explains how standard L4 kube-proxy load balancing fails to distribute traffic evenly and presents L7 proxies and service meshes (like Linkerd or Istio) as the definitive architectural solution.
 ## Cloud Native Infrastructure
 
 ### Data Plane
@@ -105,11 +112,18 @@
 ##### Official Docs
 
   - [Envoy](https://www.envoyproxy.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The home portal of Envoy, the industry-standard L7 proxy designed specifically for cloud-native services. Acts as the data plane engine for most modern service meshes (including Istio), delivering outstanding network performance, advanced routing, and rich observability.
-## Networking
-
-### Service Mesh (1)
+### Service Mesh (2)
 
 #### Istio
+
+##### Operations
+
+  - **(2021)** [solo.io: Navigating __Istio Config__: a look into Istio’s toolkit](https://www.solo.io/blog) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A guide detailing useful debugging utilities and CLI tools for validating and diagnosing Istio configuration sets. Explains how to leverage 'istioctl' diagnostics, debug configuration states, and inspect direct Envoy configuration mappings to maintain healthy cluster states.
+## Networking
+
+### Service Mesh (3)
+
+#### Istio (1)
 
 ##### Implementation
 
@@ -123,5 +137,5 @@
   - [Prometheus and OpenTelemetry Compatibility Issues](https://thenewstack.io/prometheus-and-opentelemetry-just-couldnt-get-along) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An informative look at the historical data model incompatibilities between Prometheus and OpenTelemetry (OTel). It details the industry efforts to reconcile standard Prometheus structures with the broader OTel landscape.
 
 ---
-💡 **Explore Related:** [Istio](./istio.md) | [Networking](./networking.md) | [Kubernetes Networking](./kubernetes-networking.md)
+💡 **Explore Related:** [Kubernetes Networking](./kubernetes-networking.md) | [Networking](./networking.md) | [Istio](./istio.md)
 

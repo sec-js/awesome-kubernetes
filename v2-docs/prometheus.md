@@ -24,19 +24,17 @@
   - [Apache ActiveMQ Artemis Using the Server](https://artemis.apache.org/components/artemis/documentation/latest/using-server.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [Apache ActiveMQ Artemis Management Console](https://artemis.apache.org/components/artemis/documentation/latest/management-console.html)
     - [Apache ActiveMQ Artemis Metrics](http://activemq.apache.org/components/artemis/documentation/latest/metrics.html)
   - [cloud.google.com: Google Cloud Managed Service for Prometheus](https://docs.cloud.google.com/stackdriver/docs/managed-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [logz.io: A Guide to Monitoring AWS Lambda Metrics with Prometheus & Logz.io](https://logz.io/blog/aws-lambda-metrics-monitoring-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Amazon Managed Service for Prometheus](https://aws.amazon.com/prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [tech.marksblogg.com: Monitor ClickHouse column oriented database with Prometheus' & Grafana](https://tech.marksblogg.com/clickhouse-prometheus-grafana.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [learnsteps.com: Monitoring Infrastructure System Design](https://www.learnsteps.com/monitoring-infrastructure-system-design)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [victoriametrics.com](https://victoriametrics.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Grafana](https://grafana.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [openlogic.com: How to develop Grafana Dashboards 🌟](https://www.openlogic.com/blog/how-visualize-prometheus-data-grafana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [**InfluxDB**:](https://www.influxdata.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [karma 🌟](https://github.com/prymitive/karma) <span class='md-tag md-tag--info'>⭐ 2639</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Cluster Monitoring stack for ARM / X86-64 platforms](https://github.com/carlosedp/cluster-monitoring) <span class='md-tag md-tag--info'>⭐ 755</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [learndevops.substack.com: Hitting prometheus API with curl and jq 🌟](https://learndevops.substack.com/p/hitting-prometheus-api-with-curl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [tech.marksblogg.com: Monitor ClickHouse column oriented database with Prometheus' & Grafana](https://tech.marksblogg.com/clickhouse-prometheus-grafana.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [**Red Hat AMQ overview**](https://developers.redhat.com/products/amq/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [learnsteps.com: Monitoring Infrastructure System Design](https://www.learnsteps.com/monitoring-infrastructure-system-design)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.couchbase.com: How to Build Observability Dashboards with Prometheus,' Grafana & Couchbase](https://blog.couchbase.com/how-to-build-observability-dashboards-prometheus-grafana-couchbase)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [logz.io: A Guide to Monitoring AWS Lambda Metrics with Prometheus & Logz.io](https://logz.io/blog/aws-lambda-metrics-monitoring-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Amazon Managed Service for Prometheus](https://aws.amazon.com/prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Grafana](https://grafana.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [openlogic.com: How to develop Grafana Dashboards 🌟](https://www.openlogic.com/blog/how-visualize-prometheus-data-grafana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [**prometheus.io**](https://prometheus.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/prometheus/prometheus](https://github.com/prometheus/prometheus) <span class='md-tag md-tag--info'>⭐ 64131</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [Dzone Refcard: Scaling and Augmenting Prometheus](https://dzone.com/refcardz/scaling-and-augmenting-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -61,6 +59,7 @@
   - [ganeshvernekar.com: Prometheus TSDB (Part 3): Memory Mapping of Head Chunks' from Disk](https://ganeshvernekar.com/blog/prometheus-tsdb-mmapping-head-chunks-from-disk)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ganeshvernekar.com: Prometheus TSDB (Part 4): Persistent Block and its Index](https://ganeshvernekar.com/blog/prometheus-tsdb-persistent-block-and-its-index)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube playlist: How to setup Prometheus 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-anCTn6um3BDsoHnIr0O2tz3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [learndevops.substack.com: Hitting prometheus API with curl and jq 🌟](https://learndevops.substack.com/p/hitting-prometheus-api-with-curl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [sysadminxpert.com: Steps to Monitor Linux Server using Prometheus](https://sysadminxpert.com/steps-to-monitor-linux-server-using-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com: Prometheus-Grafana : Node Monitoring on Kubernetes](https://medium.com/@akshitverma8191/prometheus-grafana-node-monitoring-on-kubernetes-79fd8311b56d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [zerodha.tech: Infrastructure monitoring with Prometheus at Zerodha](https://zerodha.tech/blog/infra-monitoring-at-zerodha)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -130,6 +129,7 @@
   - [**Thanos**:](https://thanos.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/ruanbekker: Thanos Cluster Setup](https://github.com/ruanbekker/thanos-cluster-setup)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Highly Available Prometheus Metrics for Distributed SQL with Thanos on GKE](https://blog.yugabyte.com/highly-available-prometheus-metrics-for-distributed-sql-with-thanos-on-gke)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [**InfluxDB**:](https://www.influxdata.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [en.wikipedia.org/wiki/InfluxDB](https://en.wikipedia.org/wiki/MIT_License)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [influxdata.com: Building a Metrics & Alerts as a Service (MaaS) Monitoring' Solution Using the InfluxDB Stack](https://www.influxdata.com/blog/building-a-metrics-alerts-as-a-service-maas-monitoring-solution-using-the-influxdb-stack)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: Flux queries](https://dzone.com/articles/flux-windowing-and-aggregation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -226,5 +226,5 @@
   - [maven.apache.org](https://maven.apache.org) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official homepage for Apache Maven, the cornerstone JVM project build and dependency system. Outlines standards for modular Project Object Model (POM) declarations.
 
 ---
-💡 **Explore Related:** [Cheatsheets](./cheatsheets.md) | [Kubernetes](./kubernetes.md) | [Demos](./demos.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Mkdocs](./mkdocs.md) | [Demos](./demos.md)
 

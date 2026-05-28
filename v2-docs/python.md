@@ -5,7 +5,6 @@
 
 ## Standard Reference
 
-  - [ec2-ssh-yplan: A pair of command line utilities for finding and SSH-ing into your Amazon EC2 instances by tag (such as ‘Name’)](https://pypi.org/project/ec2-ssh-yplan)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Full Stack Python is an open book that explains each Python web application stack layer and provides the best web resources for those topics](http://www.fullstackpython.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [Full Stack Python: Best Python Resources](http://www.fullstackpython.com/best-python-resources.html)
   - [realpython.com](http://realpython.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [LearnPython.org interactive Python tutorial](http://www.learnpython.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -82,6 +81,7 @@
   - [Python Multi-Process Execution Pool](https://github.com/eXascaleInfolab/PyExPool) <span class='md-tag md-tag--info'>⭐ 168</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Ansible and AWS: cloud IT automation management](http://cloudacademy.com/blog/ansible-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Managing the Cloud with a Few Lines of Python (EuroPython 2014)](http://pyvideo.org/video/2987/managing-the-cloud-with-a-few-lines-of-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ec2-ssh-yplan: A pair of command line utilities for finding and SSH-ing into your Amazon EC2 instances by tag (such as ‘Name’)](https://pypi.org/project/ec2-ssh-yplan)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [PyInstaller is a program that freezes (packages) Python programs into stand-alone executables, under Windows, Linux, Mac OS X, FreeBSD, Solaris and AIX](http://www.pyinstaller.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [PyInstaller official GIT repository](https://github.com/pyinstaller/pyinstaller)
   - [DictMySQL: A MySQL class for more convenient database manipulation with Python dictionary](https://github.com/gyli/DictMySQL) <span class='md-tag md-tag--info'>⭐ 56</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [WinPython: Portable Scientific Python 2/3 32/64bit Distribution for Windows](http://sourceforge.net/projects/winpython)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -89,11 +89,10 @@
   - [First web scraper](https://first-web-scraper.readthedocs.io/en/latest)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Jython is a language that makes it easy to create projects with libraries from Python and Java.](http://www.oraclejavamagazine-digital.com/javamagazine_twitter/20151112?pg=43#pg43)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Click 🌟](https://click.palletsprojects.com/en/stable)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Getting Started with Data Wrangler in VS Code](https://code.visualstudio.com/docs/datascience/data-wrangler)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Awesome Python 🌟](https://github.com/vinta/awesome-python) <span class='md-tag md-tag--info'>⭐ 298980</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [digitalocean.com python 🌟](https://www.digitalocean.com/community/tags/python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Learn Python 'subreddit'](https://www.reddit.com/r/learnpython)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dough Hellmann - Python, OpenStack and Open Source](https://doughellmann.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Awesome Python 🌟](https://github.com/vinta/awesome-python) <span class='md-tag md-tag--info'>⭐ 298980</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [Awesome Django. A curated list of awesome Django apps, projects and resources](https://gitlab.com/rosarior/awesome-django)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [fedoralovespython.org 🌟](https://fedoralovespython.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [futurecoder.io](https://futurecoder.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -264,6 +263,7 @@
   - [Profiling Python using cProfile: a concrete case](https://julien.danjou.info/blog/2015/guide-to-python-profiling-cprofile-concrete-case-carbonara)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [tracker: A time machine for debugging pesky stateful errors](https://github.com/madisonmay/tracker) <span class='md-tag md-tag--info'>⭐ 36</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [coursereport.com: A Beginner’s Guide to Python for Cybersecurity](https://www.coursereport.com/blog/python-for-cyber-security-with-flatiron-school)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Getting Started with Data Wrangler in VS Code](https://code.visualstudio.com/docs/datascience/data-wrangler)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [towardsdatascience.com: Unlimited scientific libraries and applications' in Kubernetes, instantly!](https://towardsdatascience.com/unlimited-scientific-libraries-and-applications-in-kubernetes-instantly-b69b192ec5e5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [huyenchip.com: Why data scientists shouldn’t need to know Kubernetes](https://huyenchip.com/2021/09/13/data-science-infrastructure.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [realpython.com: Machine Learning With Python 🌟🌟🌟](https://realpython.com/learning-paths/machine-learning-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -305,7 +305,14 @@
 #### Large Language Models
 
   - [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) <span class='md-tag md-tag--info'>⭐ 95379</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Highly acclaimed code-first textbook guiding the creation of a Large Language Model (LLM) from scratch in PyTorch. Illustrates attention mechanisms, tokenizers, training loops, and weight loadings.
+## Software Engineering
+
+### Programming Foundations
+
+#### Python Language
+
+  - **(2025)** [**Think Python**](https://allendowney.github.io/ThinkPython) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A classic computational thinking handbook utilizing Python. Focuses on algorithmic integrity, data structure designs, object-oriented implementations, and debug execution pipelines.
 
 ---
-💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [Visual Studio](./visual-studio.md) | [Dotnet](./dotnet.md)
+💡 **Explore Related:** [Visual Studio](./visual-studio.md) | [API](./api.md) | [Golang](./golang.md)
 
