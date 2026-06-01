@@ -112,6 +112,8 @@ jobs:
         run: playwright install chromium --with-deps
 
       - name: Workflow UI Synchronization Check (Mandate 11)
+        env:
+          PYTHONPATH: .
         run: |
           python src/sync_workflow_ui.py
 
