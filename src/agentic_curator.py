@@ -88,12 +88,12 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
         if norm_url in curator.inventory:
             cached = curator.inventory[norm_url]
             if cached.get("status") == "review_required":
-                evaluations[url] = {"status": "REVIEW_PENDING", **cached}
+                evaluations[url] = {**cached, "status": "REVIEW_PENDING"}
                 continue
             if cached.get("title") and cached.get("hierarchy"):
                 from src.gemini_utils import SESSION_TRACKER
                 SESSION_TRACKER.track_cache_hit(est_tokens=2200)
-                evaluations[url] = {"status": "INCLUDED", **cached}
+                evaluations[url] = {**cached, "status": "INCLUDED"}
                 continue
         to_evaluate.append(asset)
 
@@ -197,7 +197,7 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                                 eval_data["is_featured_video"] = True
                                 eval_data["is_enriched"] = False
                         curator.inventory[norm_url] = eval_data
-                        evaluations[url] = {"status": "INCLUDED", **eval_data}
+                        evaluations[url] = {**eval_data, "status": "INCLUDED"}
                     else:
                         evaluations[url] = {"status": "FILTERED"}
                         curator.inventory[norm_url] = {"status": "FILTERED", "score": score, "last_checked": datetime.now().timestamp()}
