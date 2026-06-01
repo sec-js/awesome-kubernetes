@@ -1,6 +1,8 @@
 import feedparser
 import asyncio
 import re
+import httpx
+from fake_useragent import UserAgent
 from datetime import datetime
 from typing import List, Dict, Optional
 from src.logger import log_event
@@ -18,13 +20,20 @@ class RSSDataExtractor:
 
     async def fetch_links_since(self, since_date: datetime, feeds: List[str]) -> List[Dict]:
         all_articles = []
+        ua = UserAgent()
         for url in feeds:
             self.log_audit("Discovery", None, f"Parsing feed: {url}")
             try:
-                # Use a thread for feedparser as it's blocking
-                feed = await asyncio.to_thread(feedparser.parse, url)
+                async with httpx.AsyncClient(follow_redirects=True, timeout=30.0) as client:
+                    headers = {'User-Agent': ua.random}
+                    response = await client.get(url, headers=headers)
+                    response.raise_for_status()
+                    content = response.content
                 
-                if feed.bozo:
+                # Use a thread for feedparser as it's blocking
+                feed = await asyncio.to_thread(feedparser.parse, content)
+                
+                if feed.bozo and len(feed.entries) == 0:
                     self.log_audit("Parsing", False, f"Malformed feed: {url}")
                     continue
 
