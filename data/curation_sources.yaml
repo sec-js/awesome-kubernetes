@@ -37,9 +37,7 @@ sources:
       - "google-antigravity" # Google Antigravity Agentic SDK Org
       - "GoogleDevs"       # Google Developers (for SDK and API announcements)
     feeds:
-      - "https://www.anthropic.com/news/feed"
-      - "https://openai.com/news/feed"
-      - "https://blog.google/technology/developer/rss/"
+      - "https://openai.com/news/rss.xml"
       - "https://blog.google/technology/ai/rss/"
 
   - topic: "Developer Productivity & AI Agents"
@@ -53,13 +51,13 @@ sources:
     feeds:
       - "https://github.blog/feed/"
       - "https://github.blog/category/engineering/feed/"
-      - "https://cursor.sh/blog/rss"
 
   - topic: "Data & Big Data"
     accounts:
       - "Databricks"
       - "ApacheSpark"
       - "snowflakedb"
+      - "UberEng"          # Uber Engineering
 
   - topic: "Infrastructure as Code & GitOps"
     accounts:
@@ -67,11 +65,9 @@ sources:
       - "PulumiCorp"
       - "ArgoProj"
       - "fluxcd"
+      - "Atlassian"        # Atlassian Engineering / Developer Updates
     feeds:
       - "https://netflixtechblog.com/feed"
-      - "https://engineering.atlassian.com/feed"
       - "https://blog.cloudflare.com/rss/"
-      - "https://medium.com/feed/uber-engineering"
       - "https://engineering.fb.com/feed/"
       - "https://aws.amazon.com/blogs/aws/feed/"
-      - "https://cloud.google.com/blog/rss/"

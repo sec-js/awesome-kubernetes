@@ -74,5 +74,5 @@ NUBENETES_CATEGORIES = [
     'qa', 'rancher', 'react', 'recruitment', 'registries', 'remote-tech-jobs', 'scaffolding', 
     'scaleway', 'securityascode', 'serverless', 'servicemesh', 'sonarqube', 'sre', 'stackstorm', 
     'swagger-code-generator-for-rest-apis', 'tekton', 'terraform', 'test-automation-frameworks', 
-    'testops', 'visual-studio', 'web-servers', 'web3', 'workfromhome', 'xamarin', 'yaml'
+    'testops', 'uncategorized', 'visual-studio', 'web-servers', 'web3', 'workfromhome', 'xamarin', 'yaml'
 ]

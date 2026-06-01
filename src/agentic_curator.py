@@ -15,12 +15,12 @@ from src.logger import log_event
 # Configuration
 V1_DIR = "docs"
 
-def get_best_category_match(suggested: str) -> Optional[str]:
-    if not suggested: return None
+def get_best_category_match(suggested: str) -> str:
+    if not suggested: return "uncategorized"
     suggested = suggested.lower().strip()
     for cat in NUBENETES_CATEGORIES:
         if suggested in cat or cat in suggested: return cat
-    return None
+    return "uncategorized"
 
 async def _get_github_activity(url: str) -> Dict:
     match = re.search(r'github\.com/([^/]+/[^/]+)', url)
@@ -104,8 +104,7 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
     from src.mandate_ingestor import get_system_mandates
     dynamic_mandates = get_system_mandates()
 
-    for i in range(0, len(to_evaluate), BATCH_SIZE):
-        batch = to_evaluate[i:i+BATCH_SIZE]
+    async def process_sub_batch(batch):
         batch_data = []
         for asset in batch:
             web_content, rich_meta = await _deep_fetch_content(asset["url"])
@@ -130,6 +129,8 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             "- If the community (Reddit, Hacker News) reports the tool as 'unstable', 'abandoned', or 'vaporware', set reputation_penalty: true.\n"
             "PHASE 2: LINGUISTIC DIVERSITY & CLASSIFICATION\n"
             "- Calculate 'impact_score' (0-100) based on architectural value, innovation, and technical depth (>= 80 is required for inclusion).\n"
+            f"- Assign a 'primary_category' strictly from this list: {', '.join(NUBENETES_CATEGORIES)}\n"
+            "- If none fit well, use 'uncategorized' and propose a better one in 'suggested_new_category'.\n"
             "- Identify TECHNICAL_HIERARCHY: List (max 10 strings) Area > Topic > Subtopics.\n"
             "PHASE 3: HIGH-DENSITY TECHNICAL SUMMARIES (Mandate 4)\n"
             "- Provide an 'en_summary' that is technical, professional and dense.\n"
@@ -137,7 +138,7 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             "- Format: Use paragraphs and bullet points if necessary. Aim for 2-5 sentences of depth.\n"
             "PHASE 4: MULTI-DIMENSIONAL TAGGING\n"
             "- Assign 1 to 3 tags from: [DE FACTO STANDARD], [ENTERPRISE-STABLE], [EMERGING], [GUIDE], [CASE STUDY], [COMMUNITY-TOOL], [LEGACY].\n"
-            "Respond ONLY JSON list: [{\"url\": \"...\", \"impact_score\": int, \"reputation_penalty\": bool, \"reputation_summary\": \"...\", \"pub_date\": \"YYYY-MM-DD\", \"primary_category\": \"...\", \"title\": \"...\", \"desc\": \"...\", \"en_summary\": \"High-density summary...\", \"language\": \"...\", \"type\": \"...\", \"level\": \"...\", \"technical_hierarchy\": [...], \"tags\": [...], \"is_microservice\": bool}, ...]\n\n"
+            "Respond ONLY JSON list: [{\"url\": \"...\", \"impact_score\": int, \"reputation_penalty\": bool, \"reputation_summary\": \"...\", \"pub_date\": \"YYYY-MM-DD\", \"primary_category\": \"...\", \"suggested_new_category\": \"...\", \"title\": \"...\", \"desc\": \"...\", \"en_summary\": \"High-density summary...\", \"language\": \"...\", \"type\": \"...\", \"level\": \"...\", \"technical_hierarchy\": [...], \"tags\": [...], \"is_microservice\": bool}, ...]\n\n"
             "RESOURCES:\n" + "\n".join([f"- {d['asset']['url']}: (MVQ Penalty: {d['mvq_penalty']}) {d['content']}" for d in batch_data])
         )
 
@@ -167,6 +168,7 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                             "reputation_summary": data.get("reputation_summary", ""),
                             "source_provenance": d["asset"].get("source_type", "Social"), "social_preview_url": d["rich_meta"].get("og_image", ""),
                             "category": primary_cat, "status": "online", "last_checked": datetime.now().timestamp(),
+                            "suggested_new_category": data.get("suggested_new_category", ""),
                             "addition_method": "automatic", **d["gh_meta"]
                         }
                         if "youtube.com" in url or "youtu.be" in url:
@@ -180,6 +182,9 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                     else: evaluations[url] = {"status": "FILTERED"}
                 curator._save_inventory()
         except Exception as e: log_event(f"  [!] Batch AI Error: {e}")
+
+    sub_batches = [to_evaluate[i:i+BATCH_SIZE] for i in range(0, len(to_evaluate), BATCH_SIZE)]
+    await asyncio.gather(*(process_sub_batch(b) for b in sub_batches))
             
     return evaluations
 
