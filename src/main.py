@@ -371,6 +371,14 @@ async def master_orchestrator():
     # 6. Finalization, Report and PR
     pr_url = None
     if modified_files_content or full_report_metrics:
+        # Generate the visual dashboard report.html (Mandate 6)
+        try:
+            from src.report_generator import generate_visual_report
+            generate_visual_report(full_report_metrics)
+            log_event("[*] Curation Dashboard report.html generated successfully.")
+        except Exception as e:
+            log_event(f"  [!] Error generating report.html: {e}")
+
         metrics = {
             "total_extracted": len(all_raw_assets),
             "start_date": since_date.isoformat(),
