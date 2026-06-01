@@ -6,6 +6,7 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
 
 1. [Kubernetes](#kubernetes)
 2. [Jenkins](#jenkins)
+3. [Spring Framework](#spring-framework)
 
 ## Kubernetes
 
@@ -38,5 +39,17 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
     <center markdown="1">
 
     <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?si=GBJtqv36O8bslj9z&amp;list=PLvBBnHmZuNQJeznYL2F-MpZYBUeLIXYEe" title="Jenkins Tutorials" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Spring Framework
+
+??? note "🎬 How a Group of Developers Took Back Control from Enterprise Java | Spring: The Documentary"
+    !!! info "Architectural Summary"
+        This documentary traces the architectural transition from heavyweight, monolithic Java EE application servers to the lightweight, dependency-injection paradigm of the Spring Framework. For a 2026 Cloud Architect, it provides essential historical context on how decoupling business logic from infrastructure paved the way for modern microservices and containerized environments. Understanding this evolution is critical for evaluating the trade-offs between complex enterprise standards and agile, developer-centric frameworks in cloud-native platforms.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/0Gb1z-2SjHY" title="How a Group of Developers Took Back Control from Enterprise Java | Spring: The Documentary" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
