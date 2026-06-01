@@ -148,7 +148,26 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             if isinstance(results, list):
                 res_map = {normalize_url(r.get("url", "")): r for r in results}
                 for d in batch_data:
-                    url = d["asset"]["url"]; norm_url = normalize_url(url); data = res_map.get(norm_url)
+                    url = d["asset"]["url"]
+                    norm_url = normalize_url(url)
+                    data = res_map.get(norm_url)
+                    if not data:
+                        # Fallback 1: Case-insensitive match on normalized url
+                        for r in results:
+                            if normalize_url(r.get("url", "")).lower() == norm_url.lower():
+                                data = r
+                                break
+                    if not data:
+                        # Fallback 2: Check if domain and path suffix match (handling protocol/www differences)
+                        from urllib.parse import urlparse
+                        p_url = urlparse(url)
+                        for r in results:
+                            r_url = r.get("url", "")
+                            p_r = urlparse(r_url)
+                            if p_url.netloc.replace("www.", "") == p_r.netloc.replace("www.", "") and p_url.path.rstrip("/") == p_r.path.rstrip("/"):
+                                data = r
+                                break
+                    
                     if not data: continue
                     score = data.get("impact_score", 50)
                     if data.get("reputation_penalty"):
