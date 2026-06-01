@@ -295,16 +295,16 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
     base_wait_time = 2.0
     
     # 1. Smart Filtering and Re-ordering
-    if use_grounding:
-        # For grounding, we MANDATE Pro models as they have superior search/reasoning capabilities
-        models = [m for m in models_pool if "pro" in m]
-        if not models:
-            models = ["gemini-1.5-pro", "gemini-1.5-pro-latest"]
-    elif prefer_flash:
+    if prefer_flash:
         # Strict filter: Only allow flash/lite models
         models = [m for m in models_pool if "flash" in m or "lite" in m]
         if not models:
             models = ["gemini-1.5-flash", "gemini-1.5-flash-latest"]
+    elif use_grounding:
+        # For grounding, we MANDATE Pro models as they have superior search/reasoning capabilities
+        models = [m for m in models_pool if "pro" in m]
+        if not models:
+            models = ["gemini-1.5-pro", "gemini-1.5-pro-latest"]
     else:
         models = models_pool
 

@@ -129,6 +129,7 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             "- Perform a real-time web search for each resource.\n"
             "- If the community (Reddit, Hacker News) reports the tool as 'unstable', 'abandoned', or 'vaporware', set reputation_penalty: true.\n"
             "PHASE 2: LINGUISTIC DIVERSITY & CLASSIFICATION\n"
+            "- Calculate 'impact_score' (0-100) based on architectural value, innovation, and technical depth (>= 80 is required for inclusion).\n"
             "- Identify TECHNICAL_HIERARCHY: List (max 10 strings) Area > Topic > Subtopics.\n"
             "PHASE 3: HIGH-DENSITY TECHNICAL SUMMARIES (Mandate 4)\n"
             "- Provide an 'en_summary' that is technical, professional and dense.\n"
@@ -142,7 +143,7 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
 
         try:
             # ENABLE GROUNDING FOR REPUTATION FILTER
-            results = await call_gemini_with_retry(prompt, use_grounding=True, role="Curator")
+            results = await call_gemini_with_retry(prompt, use_grounding=True, prefer_flash=True, role="Curator")
             if isinstance(results, list):
                 res_map = {normalize_url(r.get("url", "")): r for r in results}
                 for d in batch_data:
