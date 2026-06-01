@@ -179,7 +179,9 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                                 eval_data["is_enriched"] = False
                         curator.inventory[norm_url] = eval_data
                         evaluations[url] = {"status": "INCLUDED", **eval_data}
-                    else: evaluations[url] = {"status": "FILTERED"}
+                    else:
+                        evaluations[url] = {"status": "FILTERED"}
+                        curator.inventory[norm_url] = {"status": "FILTERED", "score": score, "last_checked": datetime.now().timestamp()}
                 curator._save_inventory()
         except Exception as e: log_event(f"  [!] Batch AI Error: {e}")
 
