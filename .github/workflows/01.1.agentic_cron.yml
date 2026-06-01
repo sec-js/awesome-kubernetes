@@ -111,6 +111,14 @@ jobs:
         if: steps.playwright-cache.outputs.cache-hit != 'true'
         run: playwright install chromium --with-deps
 
+      - name: Restore Incremental Inventory Cache
+        uses: actions/cache/restore@v5
+        with:
+          path: data/inventory.yaml
+          key: inventory-curation-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            inventory-curation-
+
       - name: Workflow UI Synchronization Check (Mandate 11)
         env:
           PYTHONPATH: .
@@ -196,3 +204,10 @@ jobs:
           BODY="### Nubenetes Automated Curation has finished.\n\n**Status:** $STATUS\n**Pull Request:** $PR_URL\n\nCheck the [workflow logs]($RUN_URL) for more details. If a visual report was generated, you can download it from the artifacts section of the workflow run."
           
           gh issue create --title "$TITLE" --body "$BODY" --label "curation-report" || echo "Failed to create issue"
+
+      - name: Persist Incremental Inventory to Cache
+        if: always()
+        uses: actions/cache/save@v5
+        with:
+          path: data/inventory.yaml
+          key: inventory-curation-${{ github.run_id }}-${{ github.run_attempt }}
