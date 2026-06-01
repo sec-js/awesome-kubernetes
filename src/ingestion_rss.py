@@ -24,7 +24,7 @@ class RSSDataExtractor:
         for url in feeds:
             self.log_audit("Discovery", None, f"Parsing feed: {url}")
             try:
-                async with httpx.AsyncClient(follow_redirects=True, timeout=30.0) as client:
+                async with httpx.AsyncClient(follow_redirects=True, timeout=30.0, verify=False) as client:
                     headers = {'User-Agent': ua.random}
                     response = await client.get(url, headers=headers)
                     response.raise_for_status()
