@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.3.39]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.39) - 2026-06-02
+
+### Added
+- **ClickHouse YouTube Channel Integration**: Registered the official ClickHouse YouTube channel in the centralized inventory and regenerated both the V1 and V2 homepage mosaics, sorting ClickHouse under the Observability, Databases & Cloud Storage category in V2.
+- **ClickHouse SVG Logo Asset**: Added a color-coded orange SVG logo for ClickHouse to guarantee legibility across light and dark platforms.
+
 ## [[2.3.38]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.38) - 2026-06-02
 
 ### Added
