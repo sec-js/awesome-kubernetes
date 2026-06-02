@@ -36,7 +36,7 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=F3al0HP0MNo" title="Kubernetes New Contributor Orientation for 2026-02-17" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/F3al0HP0MNo" title="Kubernetes New Contributor Orientation for 2026-02-17" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -46,7 +46,7 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=gkcZEXqkmZM" title="Kubernetes New Contributor Orientation for 2026-03-17" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/gkcZEXqkmZM" title="Kubernetes New Contributor Orientation for 2026-03-17" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -56,7 +56,7 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=B_8vYxurU4k" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/B_8vYxurU4k" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -66,7 +66,7 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=Frje5KfNrxE" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/Frje5KfNrxE" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -76,7 +76,7 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=V3Sq0Fgy3ds" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/V3Sq0Fgy3ds" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -86,7 +86,7 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=3B41u33BS2E" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/3B41u33BS2E" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -96,7 +96,7 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=l2HpdgRFtN0" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/l2HpdgRFtN0" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -106,7 +106,7 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=36aGHlsxlow" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/36aGHlsxlow" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -116,7 +116,7 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=XAOqUU5Xh1c" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/XAOqUU5Xh1c" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -126,7 +126,7 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=J7R-T9Y1x3Y" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/J7R-T9Y1x3Y" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
