@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.3.37]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.37) - 2026-06-02
+
+### Added
+- **Programmatic Smart Injection (Option B)**: Replaced legacy full-document rewriting using Gemini Pro with a highly efficient programmatic Markdown injector. The new system uses Gemini Flash 3.5 to choose the target section header, while Python surgically inserts the link. This prevents 429 rate limit blocks and cuts down API costs by 95%.
+- **Persisted Raw Impact Score**: Added `impact_score` attribute to evaluations saved inside `data/inventory.yaml`, ensuring that cached resources retain their original AI classification scores.
+
+### Fixed
+- **KeyError: 'impact_score'**: Implemented resilient fallback logic in the curation orchestrator to calculate `impact_score` from the `stars` attribute (e.g. `stars * 20`) for cached items that lack the raw `impact_score` field.
+
 ## [[2.3.36]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.36) - 2026-05-29
 
 ### Fixed

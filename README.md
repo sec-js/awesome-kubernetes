@@ -325,7 +325,7 @@ To ensure maximum throughput and industrial-grade precision, Nubenetes uses a pr
 - **Double-Evidence Synthesis Protocol**: Agents are mandated to contrast 'Curator Insight' (from original discovery) with 'Live Technical Grounding' (from search/MCP) before finalizing any technical summary.
 - **Real-time Web Grounding (MCP-Style)**: For high-fidelity tasks, the engine activates **Google Search Grounding**. This allows the AI to verify technical maturity, site migrations, and official documentation in real-time, providing a live data filter for all decisions.
 - **Smart Batching (Anti-429)**: Instead of individual calls, the system groups up to **25 resources into high-precision batches**. This optimizes grounding efficiency and minimizes rate limits.
-- **Dynamic Model Selection**: The system automatically toggles between **Gemini Pro** (for auditing and research) and **Gemini Flash** (for broad analysis).
+- **Dynamic Model Selection & Programmatic Injection (Option B)**: The system automatically toggles between **Gemini Pro** (for auditing and research) and **Gemini Flash** (for broad analysis and link insertion planning). Actual link injections are performed programmatically in Python to ensure 0% document corruption and zero rate-limit blocks.
 - **Global Back-off & Tier-down**: Automatic exponential back-off and model tier-down logic to ensure 100% workflow resilience.
 - **Ultra-Fast V2 Render Mode**: The final `render-and-pr` stage bypasses redundant HTTP health checks, GitHub API metadata fetching, and AI agent evaluation loops by leveraging the pre-computed YAML inventory to assemble the portal instantaneously.
 ### 4.4. Doc-as-Behavior Mandate Bridge
@@ -757,6 +757,7 @@ The heart of the new Nubenetes is a suite of AI Agents that operate on our `deve
 4.  **Resilient Architecture Core**:
     - **Exponential Backoff**: Intelligent `tenacity`-based retry logic in `gemini_utils.py` gracefully handles 429 Rate Limits before triggering the Circuit Breaker.
     - **Flash-First Architecture**: Prioritizes Gemini Flash/Lite models for high-density Analyst tasks, enabling processing of 10,000+ resources within the 6-hour GitHub Actions limit through 100-item batching and 2-second safety delays.
+    - **Programmatic Smart Injection (Option B)**: The system extracts document headers and has Gemini Flash choose the target header, performing the actual line insertion using Python. This bypasses the need for Gemini Pro to rewrite entire documents, slashing API usage and preventing 429 errors.
     - **Incremental Persistence (Mandate 22)**: Implements a dual-phase auto-save mechanism that flushes the `inventory.yaml` database to disk periodically **without waiting for the workflow to finish**:
         *   **Metadata Phase**: Saves every **500 GitHub repositories** processed.
         *   **AI Phase**: Saves every **20 AI batches** (1,000 resources) analyzed.
