@@ -126,7 +126,7 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=QtXBAz6TU2g&list=PLOU2XLYxmsIKL_eEgkKJWDRhYUEvS9eYz&index=4&pp=iAQB" title="Agent-first workflows from prompt to production" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/QtXBAz6TU2g?list=PLOU2XLYxmsIKL_eEgkKJWDRhYUEvS9eYz" title="Agent-first workflows from prompt to production" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -136,7 +136,7 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/playlist?list=PLOU2XLYxmsIJp39MsvkeWYYNwMso-HeNT" title="Cloud at Google I/O 2026" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLOU2XLYxmsIJp39MsvkeWYYNwMso-HeNT" title="Cloud at Google I/O 2026" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -146,7 +146,7 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/playlist?list=PLA6Ht2dJt3SId7vE9P5mppWdj65_l6hl7" title="Model Context Protocol (MCP) and AI Agents in DevOps" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLA6Ht2dJt3SId7vE9P5mppWdj65_l6hl7" title="Model Context Protocol (MCP) and AI Agents in DevOps" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -158,7 +158,7 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=iyc69njNYOw&list=PLOU2XLYxmsIKL_eEgkKJWDRhYUEvS9eYz&index=9&pp=iAQB" title="What's new in Android development tools" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/iyc69njNYOw?list=PLOU2XLYxmsIKL_eEgkKJWDRhYUEvS9eYz" title="What's new in Android development tools" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -170,7 +170,7 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/playlist?list=PLOU2XLYxmsIJuxYe1znksQlhLJ4w8GKCu" title="Dialogues at Google I/O 2026" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLOU2XLYxmsIJuxYe1znksQlhLJ4w8GKCu" title="Dialogues at Google I/O 2026" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -182,7 +182,7 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=ppMWxjsmk2k&linkId=61897585" title="ComfyUI + Google Models: A Creator-Friendly Agent Workflow" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/ppMWxjsmk2k" title="ComfyUI + Google Models: A Creator-Friendly Agent Workflow" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -192,7 +192,7 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=bH2nP-aCFjk&feature=youtu.be" title="Inside image generation’s Renaissance moment — the OpenAI Podcast Ep. 19" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/bH2nP-aCFjk" title="Inside image generation’s Renaissance moment — the OpenAI Podcast Ep. 19" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -202,7 +202,7 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=SSe1VmVrtw0&feature=youtu.be" title="What's new in Google AI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/SSe1VmVrtw0" title="What's new in Google AI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -214,7 +214,7 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=BtgZLw8hYiU&feature=youtu.be" title="Your AI Agent Has No Identity, Here's Why That's Dangerous" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/BtgZLw8hYiU" title="Your AI Agent Has No Identity, Here's Why That's Dangerous" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -226,7 +226,7 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=DjBBV7oZxm8" title="A Hacker's Guide to Language Models" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/DjBBV7oZxm8" title="A Hacker's Guide to Language Models" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -238,7 +238,7 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=aqmpZocmR8o&list=PLOU2XLYxmsIKL_eEgkKJWDRhYUEvS9eYz&index=3&pp=iAQB" title="Developer Keynote (Google I/O '24)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/aqmpZocmR8o?list=PLOU2XLYxmsIKL_eEgkKJWDRhYUEvS9eYz" title="Developer Keynote (Google I/O '24)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -250,7 +250,7 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/playlist?list=PLLasX02E8BPBCP7KdYsjKKFFQUmNEUmE9" title="The Shift Podcast by Microsoft Azure—Agentic Edition" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLLasX02E8BPBCP7KdYsjKKFFQUmNEUmE9" title="The Shift Podcast by Microsoft Azure—Agentic Edition" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -262,6 +262,6 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=sig3n7XyaaA&list=PLOU2XLYxmsIKL_eEgkKJWDRhYUEvS9eYz&index=2" title="What's new in Android" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/sig3n7XyaaA?list=PLOU2XLYxmsIKL_eEgkKJWDRhYUEvS9eYz" title="What's new in Android" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>

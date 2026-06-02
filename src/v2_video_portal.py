@@ -5,6 +5,56 @@ import re
 INVENTORY_PATH = "data/inventory.yaml"
 VIDEOS_DIR = "v2-docs/videos"
 
+def to_embed_url(url):
+    if not url:
+        return ""
+    # If playlist
+    if "playlist?list=" in url:
+        match = re.search(r"[?&]list=([^&#]+)", url)
+        if match:
+            return f"https://www.youtube.com/embed/videoseries?list={match.group(1)}"
+        return url
+    
+    video_id = None
+    if "youtu.be/" in url:
+        match = re.search(r"youtu\.be/([^?&#]+)", url)
+        if match:
+            video_id = match.group(1)
+    elif "embed/" in url:
+        return url
+    else:
+        match = re.search(r"[?&]v=([^&#]+)", url)
+        if match:
+            video_id = match.group(1)
+            
+    if video_id:
+        list_match = re.search(r"[?&]list=([^&#]+)", url)
+        t_match = re.search(r"[?&]t=([^&#]+)", url)
+        params = []
+        if list_match:
+            params.append(f"list={list_match.group(1)}")
+        if t_match:
+            t_val = t_match.group(1)
+            seconds = 0
+            time_matches = re.findall(r"(\d+)(h|m|s)?", t_val)
+            if time_matches:
+                for val, unit in time_matches:
+                    val_int = int(val)
+                    if unit == "h":
+                        seconds += val_int * 3600
+                    elif unit == "m":
+                        seconds += val_int * 60
+                    else:
+                        seconds += val_int
+                params.append(f"start={seconds}")
+            elif t_val.isdigit():
+                params.append(f"start={t_val}")
+        
+        query_string = f"?{f'&'.join(params)}" if params else ""
+        return f"https://www.youtube.com/embed/{video_id}{query_string}"
+        
+    return url
+
 def get_target_file(category, technology):
     cat_lower = category.lower()
     tech_lower = technology.lower()
@@ -29,7 +79,7 @@ def generate_v2_videos():
     for url, entry in inventory.items():
         if entry.get("is_featured_video"):
             featured_videos.append({
-                "url": url,
+                "url": to_embed_url(url),
                 "title": entry.get("title", "YouTube Video"),
                 "category": entry.get("category", "General"),
                 "technology": entry.get("technology", "Cloud Native"),
