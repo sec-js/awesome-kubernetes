@@ -363,7 +363,7 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                                         if match:
                                             try:
                                                 data = json.loads(match.group(0))
-                                                return data[0] if isinstance(data, list) and len(data) > 0 else data
+                                                return data
                                             except: pass
                                         
                                         # QUALITY UPGRADE: If flash failed parsing, don't give up on the key, try a Pro model

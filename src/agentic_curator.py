@@ -15,12 +15,12 @@ from src.logger import log_event
 # Configuration
 V1_DIR = "docs"
 
-def get_best_category_match(suggested: str) -> Optional[str]:
-    if not suggested: return None
+def get_best_category_match(suggested: str) -> str:
+    if not suggested: return "uncategorized"
     suggested = suggested.lower().strip()
     for cat in NUBENETES_CATEGORIES:
         if suggested in cat or cat in suggested: return cat
-    return None
+    return "uncategorized"
 
 async def _get_github_activity(url: str) -> Dict:
     match = re.search(r'github\.com/([^/]+/[^/]+)', url)
@@ -88,12 +88,12 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
         if norm_url in curator.inventory:
             cached = curator.inventory[norm_url]
             if cached.get("status") == "review_required":
-                evaluations[url] = {"status": "REVIEW_PENDING", **cached}
+                evaluations[url] = {**cached, "status": "REVIEW_PENDING"}
                 continue
             if cached.get("title") and cached.get("hierarchy"):
                 from src.gemini_utils import SESSION_TRACKER
                 SESSION_TRACKER.track_cache_hit(est_tokens=2200)
-                evaluations[url] = {"status": "INCLUDED", **cached}
+                evaluations[url] = {**cached, "status": "INCLUDED"}
                 continue
         to_evaluate.append(asset)
 
@@ -104,8 +104,7 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
     from src.mandate_ingestor import get_system_mandates
     dynamic_mandates = get_system_mandates()
 
-    for i in range(0, len(to_evaluate), BATCH_SIZE):
-        batch = to_evaluate[i:i+BATCH_SIZE]
+    async def process_sub_batch(batch):
         batch_data = []
         for asset in batch:
             web_content, rich_meta = await _deep_fetch_content(asset["url"])
@@ -130,6 +129,8 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             "- If the community (Reddit, Hacker News) reports the tool as 'unstable', 'abandoned', or 'vaporware', set reputation_penalty: true.\n"
             "PHASE 2: LINGUISTIC DIVERSITY & CLASSIFICATION\n"
             "- Calculate 'impact_score' (0-100) based on architectural value, innovation, and technical depth (>= 80 is required for inclusion).\n"
+            f"- Assign a 'primary_category' strictly from this list: {', '.join(NUBENETES_CATEGORIES)}\n"
+            "- If none fit well, use 'uncategorized' and propose a better one in 'suggested_new_category'.\n"
             "- Identify TECHNICAL_HIERARCHY: List (max 10 strings) Area > Topic > Subtopics.\n"
             "PHASE 3: HIGH-DENSITY TECHNICAL SUMMARIES (Mandate 4)\n"
             "- Provide an 'en_summary' that is technical, professional and dense.\n"
@@ -137,7 +138,7 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             "- Format: Use paragraphs and bullet points if necessary. Aim for 2-5 sentences of depth.\n"
             "PHASE 4: MULTI-DIMENSIONAL TAGGING\n"
             "- Assign 1 to 3 tags from: [DE FACTO STANDARD], [ENTERPRISE-STABLE], [EMERGING], [GUIDE], [CASE STUDY], [COMMUNITY-TOOL], [LEGACY].\n"
-            "Respond ONLY JSON list: [{\"url\": \"...\", \"impact_score\": int, \"reputation_penalty\": bool, \"reputation_summary\": \"...\", \"pub_date\": \"YYYY-MM-DD\", \"primary_category\": \"...\", \"title\": \"...\", \"desc\": \"...\", \"en_summary\": \"High-density summary...\", \"language\": \"...\", \"type\": \"...\", \"level\": \"...\", \"technical_hierarchy\": [...], \"tags\": [...], \"is_microservice\": bool}, ...]\n\n"
+            "Respond ONLY JSON list: [{\"url\": \"...\", \"impact_score\": int, \"reputation_penalty\": bool, \"reputation_summary\": \"...\", \"pub_date\": \"YYYY-MM-DD\", \"primary_category\": \"...\", \"suggested_new_category\": \"...\", \"title\": \"...\", \"desc\": \"...\", \"en_summary\": \"High-density summary...\", \"language\": \"...\", \"type\": \"...\", \"level\": \"...\", \"technical_hierarchy\": [...], \"tags\": [...], \"is_microservice\": bool}, ...]\n\n"
             "RESOURCES:\n" + "\n".join([f"- {d['asset']['url']}: (MVQ Penalty: {d['mvq_penalty']}) {d['content']}" for d in batch_data])
         )
 
@@ -147,7 +148,26 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             if isinstance(results, list):
                 res_map = {normalize_url(r.get("url", "")): r for r in results}
                 for d in batch_data:
-                    url = d["asset"]["url"]; norm_url = normalize_url(url); data = res_map.get(norm_url)
+                    url = d["asset"]["url"]
+                    norm_url = normalize_url(url)
+                    data = res_map.get(norm_url)
+                    if not data:
+                        # Fallback 1: Case-insensitive match on normalized url
+                        for r in results:
+                            if normalize_url(r.get("url", "")).lower() == norm_url.lower():
+                                data = r
+                                break
+                    if not data:
+                        # Fallback 2: Check if domain and path suffix match (handling protocol/www differences)
+                        from urllib.parse import urlparse
+                        p_url = urlparse(url)
+                        for r in results:
+                            r_url = r.get("url", "")
+                            p_r = urlparse(r_url)
+                            if p_url.netloc.replace("www.", "") == p_r.netloc.replace("www.", "") and p_url.path.rstrip("/") == p_r.path.rstrip("/"):
+                                data = r
+                                break
+                    
                     if not data: continue
                     score = data.get("impact_score", 50)
                     if data.get("reputation_penalty"):
@@ -162,11 +182,12 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                             "language": data.get("language", "English"), "resource_type": data.get("type", "Reference"),
                             "complexity": data.get("level", "Intermediate"), "hierarchy": data.get("technical_hierarchy", ["General"]),
                             "tags": data.get("tags", []), "is_microservice": data.get("is_microservice", False), "year": data.get("pub_date", "N/A")[:4],
-                            "stars": min(max(score // 20, 0), 5), "content_hash": d["hash"],
+                            "stars": min(max(score // 20, 0), 5), "impact_score": score, "content_hash": d["hash"],
                             "reputation_status": "Vetted" if not data.get("reputation_penalty") else "Suspicious",
                             "reputation_summary": data.get("reputation_summary", ""),
                             "source_provenance": d["asset"].get("source_type", "Social"), "social_preview_url": d["rich_meta"].get("og_image", ""),
                             "category": primary_cat, "status": "online", "last_checked": datetime.now().timestamp(),
+                            "suggested_new_category": data.get("suggested_new_category", ""),
                             "addition_method": "automatic", **d["gh_meta"]
                         }
                         if "youtube.com" in url or "youtu.be" in url:
@@ -176,10 +197,15 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                                 eval_data["is_featured_video"] = True
                                 eval_data["is_enriched"] = False
                         curator.inventory[norm_url] = eval_data
-                        evaluations[url] = {"status": "INCLUDED", **eval_data}
-                    else: evaluations[url] = {"status": "FILTERED"}
+                        evaluations[url] = {**eval_data, "status": "INCLUDED"}
+                    else:
+                        evaluations[url] = {"status": "FILTERED"}
+                        curator.inventory[norm_url] = {"status": "FILTERED", "score": score, "last_checked": datetime.now().timestamp()}
                 curator._save_inventory()
         except Exception as e: log_event(f"  [!] Batch AI Error: {e}")
+
+    sub_batches = [to_evaluate[i:i+BATCH_SIZE] for i in range(0, len(to_evaluate), BATCH_SIZE)]
+    await asyncio.gather(*(process_sub_batch(b) for b in sub_batches))
             
     return evaluations
 
@@ -206,9 +232,88 @@ class AgenticCurator:
         except: return []
 
     async def decide_smart_injection(self, content: str, asset: Dict) -> str:
-        prompt = f"Decide where to inject this link in the Markdown content.\nLINK: {asset['title']} ({asset['url']})\nDESC: {asset['description']}\n\nRespond ONLY with the updated full Markdown content."
-        try: return await call_gemini_with_retry(prompt, response_format="text")
-        except: return content
+        # Extract headers from the markdown content
+        lines = content.splitlines()
+        headers = [line.strip() for line in lines if line.strip().startswith("#")]
+        
+        # Build prompt for LLM (using Flash for speed/cost/reliability)
+        prompt = (
+            "You are a Cloud Native Technical Librarian.\n"
+            "Given a list of headers in a Markdown document and a new link to curate, "
+            "select the most specific header under which the link belongs.\n\n"
+            f"HEADERS:\n" + "\n".join(headers) + "\n\n"
+            f"NEW LINK:\n"
+            f"Title: {asset.get('title')}\n"
+            f"URL: {asset.get('url')}\n"
+            f"Description: {asset.get('description')}\n\n"
+            "Respond ONLY with the exact header from the list (including '#' symbols, e.g. '## Kubernetes Tools').\n"
+            "If no existing header matches perfectly, respond with 'NEW_HEADER: ## Proposed Name' (matching the appropriate heading level like ## or ###).\n"
+            "If it doesn't fit anywhere and should be appended at the end of the document, respond with 'APPEND'."
+        )
+        
+        selected_header = "APPEND"
+        try:
+            # We use Flash 3.5 (prefer_flash=True) to avoid 429 rate limits and reduce cost
+            ai_res = await call_gemini_with_retry(prompt, response_format="text", prefer_flash=True, role="General")
+            if ai_res:
+                selected_header = ai_res.strip().strip("'\"")
+        except Exception as e:
+            log_event(f"  [!] LLM injection decision failed: {e}. Defaulting to APPEND.")
+            selected_header = "APPEND"
+
+        # Format the link line according to Mandate 17
+        year = asset.get("year", "N/A")
+        year_prefix = f"**({year})** " if year and year != "N/A" else ""
+        link_line = f"  - {year_prefix}[{asset['title']}]({asset['url']}) 🌟 - {asset['description']}"
+
+        # Perform programmatic insertion in Python
+        if selected_header == "APPEND":
+            return content.rstrip() + "\n\n" + link_line + "\n"
+
+        if selected_header.startswith("NEW_HEADER:"):
+            new_h = selected_header.split("NEW_HEADER:", 1)[1].strip()
+            return content.rstrip() + f"\n\n{new_h}\n{link_line}\n"
+
+        # Else, find the header (exact or fuzzy match) and insert under it
+        header_idx = -1
+        for idx, line in enumerate(lines):
+            if line.strip() == selected_header.strip():
+                header_idx = idx
+                break
+
+        # Fuzzy match if exact match fails
+        if header_idx == -1:
+            clean_sel = selected_header.replace("#", "").strip().lower()
+            for idx, line in enumerate(lines):
+                if line.strip().startswith("#"):
+                    clean_line = line.replace("#", "").strip().lower()
+                    if clean_line == clean_sel:
+                        header_idx = idx
+                        selected_header = line
+                        break
+
+        if header_idx == -1:
+            # Fallback to append if AI proposed header not found in the list
+            return content.rstrip() + "\n\n" + link_line + "\n"
+
+        # Insert under selected_header
+        # Find the end of this header's section: when we hit a header of the same or higher level
+        header_level = len(selected_header) - len(selected_header.lstrip('#'))
+        insert_idx = len(lines)
+        for idx in range(header_idx + 1, len(lines)):
+            line = lines[idx].strip()
+            if line.startswith("#"):
+                line_level = len(line) - len(line.lstrip('#'))
+                if line_level <= header_level:
+                    insert_idx = idx
+                    break
+
+        # Move insert_idx backward past any trailing blank lines
+        while insert_idx > header_idx + 1 and lines[insert_idx - 1].strip() == "":
+            insert_idx -= 1
+
+        lines.insert(insert_idx, link_line)
+        return "\n".join(lines) + "\n"
 
     async def apply_semantic_interlinking(self, evaluations: Dict):
         log_event("[*] Applying Semantic Interlinking (Mandate 5)...")

@@ -20,6 +20,7 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 14. [Azure Verified Modules AVM](#azure-verified-modules-avm)
 15. [OpenShift](#openshift)
 16. [VS Code](#vs-code)
+17. [Cloud Native](#cloud-native)
 
 ## Kubernetes
 
@@ -230,5 +231,258 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
     <center markdown="1">
 
     <iframe width="720" height="405" src="https://www.youtube.com/embed/niuJpAKyb7c" title="Remote VS Code with Dev Tunnels: access the editor from your browser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Cloud Native
+
+??? note "🎬 Agent-first workflows from prompt to production"
+    !!! info "Architectural Summary"
+        A deep dive into the operationalization of AI agents and agentic application lifecycles on Google Cloud. Focuses on orchestrating multi-agent systems, integrating Model Context Protocol (MCP) standards, and automating secure CI/CD pipelines directly from developer environments to managed serverless backends.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=QtXBAz6TU2g&list=PLOU2XLYxmsIKL_eEgkKJWDRhYUEvS9eYz&index=4&pp=iAQB" title="Agent-first workflows from prompt to production" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 What's new in Android development tools"
+    !!! info "Architectural Summary"
+        A deep dive into the 2026 features of Android Studio and its accompanying tool suite. Focuses on native AI diagnostics, code refactoring optimizations, layout rendering acceleration, and debugging frameworks aimed at building resilient applications targetting Android 17.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=iyc69njNYOw&list=PLOU2XLYxmsIKL_eEgkKJWDRhYUEvS9eYz&index=9&pp=iAQB" title="What's new in Android development tools" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Google I/O 2026: Dialogues"
+    !!! info "Architectural Summary"
+        A highly strategic collection of panels from Google I/O 2026 focused on industrial technology shifts. Covers critical conversations with scientific leaders, including DeepMind and Boston Dynamics executives, analyzing the crossover between quantum computing, physical embodiment robotics, and proactive multi-agent orchestration. Essential viewing for enterprise architects assessing the trajectory of next-generation physical and logical agentic applications.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/playlist?list=PLOU2XLYxmsIJuxYe1znksQlhLJ4w8GKCu" title="Google I/O 2026: Dialogues" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 AI at Google I/O 2026"
+    !!! info "Architectural Summary"
+        An elite collection of developer technical sessions from Google I/O 2026. Delves deep into the architectural implementations of Google Antigravity 2.0, multi-agent frameworks, on-device AI deployments using Gemma 4, and developer-centric orchestration layers. Provides practical engineering blueprints for cloud and mobile platform engineers building autonomous, secure, and resilient agentic workflows.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/playlist?list=PLOU2XLYxmsIJp39MsvkeWYYNwMso-HeNT" title="AI at Google I/O 2026" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Integrating ComfyUI & Avid: Google AI's Big Move"
+    !!! info "Architectural Summary"
+        An expert architectural discussion detailing the integration of Google Cloud's generative AI frameworks with professional media editors like Avid Media Composer and ComfyUI. Demonstrates how multimodal search APIs powered by Gemini automate indexing, while generative models streamline localized edits. Illustrates a paradigm shift toward production-scale agentic video editing, reducing technical friction within traditional filmmaking toolchains.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=ppMWxjsmk2k&linkId=61897585" title="Integrating ComfyUI & Avid: Google AI's Big Move" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Integrating ComfyUI & Avid: Google AI's Big Move"
+    !!! info "Architectural Summary"
+        An expert architectural discussion detailing the integration of Google Cloud's generative AI frameworks with professional media editors like Avid Media Composer and ComfyUI. Demonstrates how multimodal search APIs powered by Gemini automate indexing, while generative models streamline localized edits. Illustrates a paradigm shift toward production-scale agentic video editing, reducing technical friction within traditional filmmaking toolchains.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=BtgZLw8hYiU&feature=youtu.be" title="Integrating ComfyUI & Avid: Google AI's Big Move" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Kubernetes New Contributor Orientation"
+    !!! info "Architectural Summary"
+        * **Curator Insight:** Ensuring clean code review, architectural cohesion, and governance across thousands of global developers is fundamental to the long-term sustainability of the CNCF core.
+        * **Live Grounding (MCP):** The April 2026 orientation walk-through presents SIG architectures, environment installation steps, coding standards, and repository PR policies, establishing a standard learning curve for platform engineers.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=DjBBV7oZxm8" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Kubernetes New Contributor Orientation"
+    !!! info "Architectural Summary"
+        * **Curator Insight:** Ensuring clean code review, architectural cohesion, and governance across thousands of global developers is fundamental to the long-term sustainability of the CNCF core.
+        * **Live Grounding (MCP):** The April 2026 orientation walk-through presents SIG architectures, environment installation steps, coding standards, and repository PR policies, establishing a standard learning curve for platform engineers.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=aqmpZocmR8o&list=PLOU2XLYxmsIKL_eEgkKJWDRhYUEvS9eYz&index=3&pp=iAQB" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 The Shift Podcast by Microsoft Azure—Agentic Edition"
+    !!! info "Architectural Summary"
+        An authoritative, engineering-focused video podcast playlist from Microsoft Azure that deep-dives into the architecture of agentic systems. Across several unscripted episodes, industry leads and Core AI research scientists explore multi-agent orchestration, context engineering vs. RAG, the evolution of relational and open-source databases (Postgres) to support context retrieval, and the role of unified data fabrics like Microsoft OneLake. It serves as an essential architectural design guide for software engineers and systems architects building context-aware, autonomous enterprise workloads.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/playlist?list=PLLasX02E8BPBCP7KdYsjKKFFQUmNEUmE9" title="The Shift Podcast by Microsoft Azure—Agentic Edition" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Kubernetes New Contributor Orientation for 2026-02-17"
+    !!! info "Architectural Summary"
+        Curator Insight: Structured community onboarding plays a vital role in sustaining core open-source infrastructure velocity.
+        
+        Live Grounding: This SIG Contributor Experience recording guides developers through the CNCF ecosystem, detailing SIG structures, GitHub PR triaging via Prow bot commands, and the technical requirements for official Kubernetes org membership.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=F3al0HP0MNo" title="Kubernetes New Contributor Orientation for 2026-02-17" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Kubernetes New Contributor Orientation for 2026-03-17"
+    !!! info "Architectural Summary"
+        Curator Insight: Standardized onboarding tutorials are indispensable for reducing the barrier of entry into massive microservice orchestration codebases.
+        
+        Live Grounding: This community briefing walks new contributors through the Kubernetes architecture, mentoring programs, the SIG CLI subset, and operational steps for setting up local test beds and submitting code.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=gkcZEXqkmZM" title="Kubernetes New Contributor Orientation for 2026-03-17" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Kubernetes New Contributor Orientation for 2026-04-21"
+    !!! info "Architectural Summary"
+        Curator Insight: Target-specific SIG orientations are highly valuable for engineers developing specialized client tooling or control plane extensions.
+        
+        Live Grounding: This April 2026 recording explicitly zeroes in on SIG CLI and kubectl architectures, walking contributors through local build pipelines, command validation, and the technical lifecycle of CLI contributions.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=B_8vYxurU4k" title="Kubernetes New Contributor Orientation for 2026-04-21" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Kubernetes New Contributor Orientation for 2026-03-17"
+    !!! info "Architectural Summary"
+        Curator Insight: Sustaining massive open-source systems like Kubernetes relies on structured mentoring and clear contribution pathways.
+        
+        Live Grounding: This official session recorded in March 2026 provides a guided overview of the community governance under the SIG ContribEx mentoring subproject.
+        
+        Technical Relevance:
+        - Demystifies the roles of special interest groups (SIGs) and working groups in core development.
+        - Educates cloud-native engineers on contribution guidelines, code review, and pull request mechanics.
+        - Offers direct community onboarding without hands-on coding requirements to prioritize structural understanding.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=Frje5KfNrxE" title="Kubernetes New Contributor Orientation for 2026-03-17" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Inside image generation’s Renaissance moment — the OpenAI Podcast Ep. 19"
+    !!! info "Architectural Summary"
+        **Curator Insight:** This episode deconstructs the shift in image generation architectures from early pixel-diffusion to highly coherent multi-modal reasoning models.
+        **Live Grounding:** Product and research leads at OpenAI detail ChatGPT's Images 2.0 capabilities, demonstrating breakthroughs in spatial photorealism, multilingual typography rendering, and high-fidelity aspect ratio adaptability.
+        *   **Architectural Significance:** Provides critical engineering context on how model training breakthroughs enhance character and scene consistency across iterative generative pipelines.
+        *   **Key Features Covered:** Real-time prompt evaluation, multilingual world knowledge injection, and the integration of image generators with agentic coding environments.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=bH2nP-aCFjk&feature=youtu.be" title="Inside image generation’s Renaissance moment — the OpenAI Podcast Ep. 19" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Inside image generation’s Renaissance moment — the OpenAI Podcast Ep. 19"
+    !!! info "Architectural Summary"
+        **Curator Insight:** This episode deconstructs the shift in image generation architectures from early pixel-diffusion to highly coherent multi-modal reasoning models.
+        **Live Grounding:** Product and research leads at OpenAI detail ChatGPT's Images 2.0 capabilities, demonstrating breakthroughs in spatial photorealism, multilingual typography rendering, and high-fidelity aspect ratio adaptability.
+        *   **Architectural Significance:** Provides critical engineering context on how model training breakthroughs enhance character and scene consistency across iterative generative pipelines.
+        *   **Key Features Covered:** Real-time prompt evaluation, multilingual world knowledge injection, and the integration of image generators with agentic coding environments.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=sig3n7XyaaA&list=PLOU2XLYxmsIKL_eEgkKJWDRhYUEvS9eYz&index=2" title="Inside image generation’s Renaissance moment — the OpenAI Podcast Ep. 19" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Kubernetes New Contributor Orientation for 2025-08-19"
+    !!! info "Architectural Summary"
+        An official onboarding session for aspiring Kubernetes project contributors, detailing the governance framework of the CNCF ecosystem. Explains the structural organization across Special Interest Groups (SIGs) and Working Groups, org membership criteria, and GitHub automation tools like Probot. Ideal for software engineers and site reliability engineers looking to contribute to upstream Kubernetes repositories.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=V3Sq0Fgy3ds" title="Kubernetes New Contributor Orientation for 2025-08-19" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Kubernetes New Contributor Orientation for 2025-08-19 (Alternative Link)"
+    !!! info "Architectural Summary"
+        Alternative upload or session recording of the Kubernetes 2025 contributor orientation. Outlines the CNCF governance models, organization of Special Interest Groups (SIGs), and GitHub-driven developer workflows utilizing tools like Probot. Provides key foundational insights for engineers aiming to secure organizational membership and contribute code to upstream repositories.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=3B41u33BS2E" title="Kubernetes New Contributor Orientation for 2025-08-19 (Alternative Link)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Kubernetes New Contributor Orientation for 2025-07-15"
+    !!! info "Architectural Summary"
+        An official video recording of the Kubernetes New Contributor Orientation, managed by the CNCF. It outlines upstream development workflows, Special Interest Group (SIG) engagement models, and the testing/CI pipelines (Prow) necessary for successfully contributing code and documentation to the Kubernetes repository.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=l2HpdgRFtN0" title="Kubernetes New Contributor Orientation for 2025-07-15" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Kubernetes New Contributor Orientation for 2025-09-16"
+    !!! info "Architectural Summary"
+        This video records the official monthly onboarding session organized by SIG-ContribEx for aspiring Kubernetes project developers. It breaks down the vast governance structure of the CNCF ecosystem, outlining the roles of Special Interest Groups (SIGs), the mailing lists, and how to navigate core repositories like kubernetes/community and kubernetes/enhancements. It serves as an essential stepping stone for engineers looking to actively participate in upstream cloud-native development.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=36aGHlsxlow" title="Kubernetes New Contributor Orientation for 2025-09-16" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Kubernetes New Contributor Orientation for 2025-08-18"
+    !!! info "Architectural Summary"
+        An official community onboarding video detailing the core processes of contributing to the Kubernetes codebase and ecosystem. It outlines the logical SIG structure, repository layouts, contribution workflows, and development workflows (such as Prow). This recording acts as a practical handbook for cloud engineers intending to navigate CNCF governance models.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=XAOqUU5Xh1c" title="Kubernetes New Contributor Orientation for 2025-08-18" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Kubernetes New Contributor Orientation for 2025-09-16"
+    !!! info "Architectural Summary"
+        The September 2025 edition of the official Kubernetes contributor orientation. This session focuses on guiding engineers through repository structures, the Slack channels, mailing lists, and governance mechanisms. Essential guidance for individuals aiming to commit upstream code, join SIGs, or collaborate on documentation within CNCF frameworks.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=J7R-T9Y1x3Y" title="Kubernetes New Contributor Orientation for 2025-09-16" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Kubernetes New Contributor Orientation Playlist"
+    !!! info "Architectural Summary"
+        This official, continuously updated YouTube playlist collects previous orientation sessions for new Kubernetes contributors. Organized by the Kubernetes Contributor Experience group, the videos outline technical governance structures, toolsets, and workflow patterns. It serves as an authoritative learning pathway for organizations deploying and contributing to upstream Kubernetes projects.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/playlist?list=PLA6Ht2dJt3SId7vE9P5mppWdj65_l6hl7" title="Kubernetes New Contributor Orientation Playlist" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 What is New in Google AI"
+    !!! info "Architectural Summary"
+        Recorded at Google I/O 2026, Google developer advocates and product leads present a comprehensive overview of the company's end-to-end AI stack. The session details advanced multimodal capabilities, media generation models, and robotics integration, while explaining how to leverage Google's infrastructure for agent development, vibe-coding workflows, and open-source model tuning and serving.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/watch?v=SSe1VmVrtw0&feature=youtu.be" title="What is New in Google AI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>

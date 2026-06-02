@@ -308,7 +308,7 @@ async def master_orchestrator():
                 "related_categories": evaluation.get("related_categories", []),
                 "post_date": asset.get("timestamp"),
                 "source": asset.get("source_type", "Social"),
-                "impact_score": evaluation.get("impact_score", 0),
+                "impact_score": evaluation.get("impact_score") or (evaluation.get("stars", 0) * 20) or (80 if evaluation["status"] == "INCLUDED" else 0),
                 "title": evaluation.get("title", "N/A"),
                 "language": evaluation.get("language", "English"),
                 "type": evaluation.get("resource_type", "Reference")
@@ -322,7 +322,7 @@ async def master_orchestrator():
                     "description": evaluation["description"], 
                     "year": evaluation.get("year", "N/A"),
                     "category": evaluation.get("category", "kubernetes-tools"),
-                    "impact_score": evaluation["impact_score"],
+                    "impact_score": evaluation.get("impact_score") or (evaluation.get("stars", 0) * 20) or 80,
                     "reasoning": evaluation.get("reasoning")
                 })
                 existing_urls.add(normalize_url(sanitized_url))
@@ -371,6 +371,14 @@ async def master_orchestrator():
     # 6. Finalization, Report and PR
     pr_url = None
     if modified_files_content or full_report_metrics:
+        # Generate the visual dashboard report.html (Mandate 6)
+        try:
+            from src.report_generator import generate_visual_report
+            generate_visual_report(full_report_metrics)
+            log_event("[*] Curation Dashboard report.html generated successfully.")
+        except Exception as e:
+            log_event(f"  [!] Error generating report.html: {e}")
+
         metrics = {
             "total_extracted": len(all_raw_assets),
             "start_date": since_date.isoformat(),
