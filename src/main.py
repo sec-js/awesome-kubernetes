@@ -308,7 +308,7 @@ async def master_orchestrator():
                 "related_categories": evaluation.get("related_categories", []),
                 "post_date": asset.get("timestamp"),
                 "source": asset.get("source_type", "Social"),
-                "impact_score": evaluation.get("impact_score", 0),
+                "impact_score": evaluation.get("impact_score") or (evaluation.get("stars", 0) * 20) or (80 if evaluation["status"] == "INCLUDED" else 0),
                 "title": evaluation.get("title", "N/A"),
                 "language": evaluation.get("language", "English"),
                 "type": evaluation.get("resource_type", "Reference")
@@ -322,7 +322,7 @@ async def master_orchestrator():
                     "description": evaluation["description"], 
                     "year": evaluation.get("year", "N/A"),
                     "category": evaluation.get("category", "kubernetes-tools"),
-                    "impact_score": evaluation["impact_score"],
+                    "impact_score": evaluation.get("impact_score") or (evaluation.get("stars", 0) * 20) or 80,
                     "reasoning": evaluation.get("reasoning")
                 })
                 existing_urls.add(normalize_url(sanitized_url))
