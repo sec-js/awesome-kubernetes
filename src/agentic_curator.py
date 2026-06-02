@@ -232,9 +232,88 @@ class AgenticCurator:
         except: return []
 
     async def decide_smart_injection(self, content: str, asset: Dict) -> str:
-        prompt = f"Decide where to inject this link in the Markdown content.\nLINK: {asset['title']} ({asset['url']})\nDESC: {asset['description']}\n\nRespond ONLY with the updated full Markdown content."
-        try: return await call_gemini_with_retry(prompt, response_format="text")
-        except: return content
+        # Extract headers from the markdown content
+        lines = content.splitlines()
+        headers = [line.strip() for line in lines if line.strip().startswith("#")]
+        
+        # Build prompt for LLM (using Flash for speed/cost/reliability)
+        prompt = (
+            "You are a Cloud Native Technical Librarian.\n"
+            "Given a list of headers in a Markdown document and a new link to curate, "
+            "select the most specific header under which the link belongs.\n\n"
+            f"HEADERS:\n" + "\n".join(headers) + "\n\n"
+            f"NEW LINK:\n"
+            f"Title: {asset.get('title')}\n"
+            f"URL: {asset.get('url')}\n"
+            f"Description: {asset.get('description')}\n\n"
+            "Respond ONLY with the exact header from the list (including '#' symbols, e.g. '## Kubernetes Tools').\n"
+            "If no existing header matches perfectly, respond with 'NEW_HEADER: ## Proposed Name' (matching the appropriate heading level like ## or ###).\n"
+            "If it doesn't fit anywhere and should be appended at the end of the document, respond with 'APPEND'."
+        )
+        
+        selected_header = "APPEND"
+        try:
+            # We use Flash 3.5 (prefer_flash=True) to avoid 429 rate limits and reduce cost
+            ai_res = await call_gemini_with_retry(prompt, response_format="text", prefer_flash=True, role="General")
+            if ai_res:
+                selected_header = ai_res.strip().strip("'\"")
+        except Exception as e:
+            log_event(f"  [!] LLM injection decision failed: {e}. Defaulting to APPEND.")
+            selected_header = "APPEND"
+
+        # Format the link line according to Mandate 17
+        year = asset.get("year", "N/A")
+        year_prefix = f"**({year})** " if year and year != "N/A" else ""
+        link_line = f"  - {year_prefix}[{asset['title']}]({asset['url']}) 🌟 - {asset['description']}"
+
+        # Perform programmatic insertion in Python
+        if selected_header == "APPEND":
+            return content.rstrip() + "\n\n" + link_line + "\n"
+
+        if selected_header.startswith("NEW_HEADER:"):
+            new_h = selected_header.split("NEW_HEADER:", 1)[1].strip()
+            return content.rstrip() + f"\n\n{new_h}\n{link_line}\n"
+
+        # Else, find the header (exact or fuzzy match) and insert under it
+        header_idx = -1
+        for idx, line in enumerate(lines):
+            if line.strip() == selected_header.strip():
+                header_idx = idx
+                break
+
+        # Fuzzy match if exact match fails
+        if header_idx == -1:
+            clean_sel = selected_header.replace("#", "").strip().lower()
+            for idx, line in enumerate(lines):
+                if line.strip().startswith("#"):
+                    clean_line = line.replace("#", "").strip().lower()
+                    if clean_line == clean_sel:
+                        header_idx = idx
+                        selected_header = line
+                        break
+
+        if header_idx == -1:
+            # Fallback to append if AI proposed header not found in the list
+            return content.rstrip() + "\n\n" + link_line + "\n"
+
+        # Insert under selected_header
+        # Find the end of this header's section: when we hit a header of the same or higher level
+        header_level = len(selected_header) - len(selected_header.lstrip('#'))
+        insert_idx = len(lines)
+        for idx in range(header_idx + 1, len(lines)):
+            line = lines[idx].strip()
+            if line.startswith("#"):
+                line_level = len(line) - len(line.lstrip('#'))
+                if line_level <= header_level:
+                    insert_idx = idx
+                    break
+
+        # Move insert_idx backward past any trailing blank lines
+        while insert_idx > header_idx + 1 and lines[insert_idx - 1].strip() == "":
+            insert_idx -= 1
+
+        lines.insert(insert_idx, link_line)
+        return "\n".join(lines) + "\n"
 
     async def apply_semantic_interlinking(self, evaluations: Dict):
         log_event("[*] Applying Semantic Interlinking (Mandate 5)...")
