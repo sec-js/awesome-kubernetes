@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.3.38]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.38) - 2026-06-02
+
+### Added
+- **YouTube Embed Iframe Refusal Fix**: Solved the `www.youtube.com refused to connect` error in video iframe players by implementing a parser (`to_embed_url`) in the generator script to dynamically rewrite standard YouTube watch/shortened URLs into the required embed format, fully preserving start-times (`start=...`) and playlist IDs (`list=...`).
+
+### Fixed
+- **MD037 Lint Fix (Video Portal)**: Fixed a markdown linter failure in `v2-docs/videos/cloud-native.md` (and other video documents) by converting asterisk-based bullets (`* `) in video summaries to dash-based bullets (`- `). This avoids syntax collision where the linter parses indented asterisk bullets inside blocks as malformed bold/emphasis markers.
+
 ## [[2.3.37]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.37) - 2026-06-02
 
 ### Added

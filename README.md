@@ -1060,7 +1060,7 @@ To maintain transparency and ease of navigation, all key configuration, database
 - **Curator Logic:** [`src/agentic_curator.py`](src/agentic_curator.py) - Primary classification and description engine.
 - **V2 Vision Engine:** [`src/v2_optimizer.py`](src/v2_optimizer.py) - Elite portal generation and maturity scoring.
 - **Video Hub Enrichment:** [`src/enrich_videos.py`](src/enrich_videos.py) - High-fidelity synthesis using **yt-dlp** and transcripts.
-- **Video Portal Logic:** [`src/v2_video_portal.py`](src/v2_video_portal.py) - Categorized layout with **O'Reilly Journey Builder** and multiline rendering fixes.
+- **Video Portal Logic:** [`src/v2_video_portal.py`](src/v2_video_portal.py) - Categorized layout with **O'Reilly Journey Builder**, automated watch-to-embed YouTube conversion, and markdownlint-safe bullet formatting.
 - **V2 Specialized Agents:**
     - **Health Monitor:** [`src/v2_health.py`](src/v2_health.py)
     - **Metadata Engine:** [`src/v2_metadata.py`](src/v2_metadata.py)
