@@ -123,6 +123,12 @@ def generate_v2_videos():
 
             for v in grouped_by_tech[tech]:
                 summary = v.get("summary", "").strip()
+                # Replace bullet points starting with '* ' with '- ' to avoid markdownlint MD037 errors
+                lines_sum = []
+                for line in summary.splitlines():
+                    line = re.sub(r'^(\s*)\*\s+', r'\1- ', line)
+                    lines_sum.append(line)
+                summary = "\n".join(lines_sum)
                 indented_summary = summary.replace("\n", "\n        ")
                 is_sp = is_spanish(v['title'], summary)
                 lang_suffix = " [SPANISH CONTENT]" if is_sp else ""
