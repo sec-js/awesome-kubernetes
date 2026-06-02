@@ -140,7 +140,7 @@ Additionally, as of May 2026, Nubenetes has reached the **Platinum Operational T
 | :--- | :--- |
 | **Total Technical Resources (Links)** | **18356+** |
 | **Specialized MD Pages** | **162** |
-| **Total Commits** | **5725+** |
+| **Total Commits** | **5727+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -178,7 +178,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 2166 | 8,945 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 2168 | 8,953 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -194,8 +194,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume (Commits / Estimated New Refs)" 0 --> 9000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 8945]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 2166]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 8953]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 2168]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -205,7 +205,7 @@ xychart-beta
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
 | 2026-05 | 2101 | 8,677 | **Agentic Inception (Gemini Era)** |
-| 2026-06 | 40 | 165 | Active Curation |
+| 2026-06 | 42 | 173 | Active Curation |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
@@ -1060,7 +1060,7 @@ To maintain transparency and ease of navigation, all key configuration, database
 - **Curator Logic:** [`src/agentic_curator.py`](src/agentic_curator.py) - Primary classification and description engine.
 - **V2 Vision Engine:** [`src/v2_optimizer.py`](src/v2_optimizer.py) - Elite portal generation and maturity scoring.
 - **Video Hub Enrichment:** [`src/enrich_videos.py`](src/enrich_videos.py) - High-fidelity synthesis using **yt-dlp** and transcripts.
-- **Video Portal Logic:** [`src/v2_video_portal.py`](src/v2_video_portal.py) - Categorized layout with **O'Reilly Journey Builder** and multiline rendering fixes.
+- **Video Portal Logic:** [`src/v2_video_portal.py`](src/v2_video_portal.py) - Categorized layout with **O'Reilly Journey Builder**, automated watch-to-embed YouTube conversion, and markdownlint-safe bullet formatting.
 - **V2 Specialized Agents:**
     - **Health Monitor:** [`src/v2_health.py`](src/v2_health.py)
     - **Metadata Engine:** [`src/v2_metadata.py`](src/v2_metadata.py)
