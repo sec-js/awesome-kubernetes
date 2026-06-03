@@ -114,11 +114,11 @@
 </center>
 
 ## The Agentic Pulse
-- **(N/A)** [**==Think Python==**](https://allendowney.github.io/ThinkPython) 🌟🌟🌟🌟
-- **(N/A)** [**==Angry IP Scanner (or simply ipscan)==**](https://angryip.org) 🌟🌟🌟🌟
-- **(N/A)** [**==Whitepaper: Migrating Your Databases to AWS==**](https://aws.amazon.com/dms/?audit=2019q1) 🌟🌟🌟🌟
-- **(N/A)** [**==blog.awsfundamentals.com: AWS S3 Sync - An Extensive Guide==**](https://awsfundamentals.com/blog/aws-s3-sync) 🌟🌟🌟🌟
-- **(N/A)** [**==Clean Architecture on Frontend==**](https://bespoyasov.me/blog/clean-architecture-on-frontend) 🌟🌟🌟🌟
+- **(2026)** [**==Angry IP Scanner (or simply ipscan)==**](https://angryip.org) 🌟🌟🌟🌟
+- **(2026)** [**==Zeebe workflow engine==**](https://camunda.com/platform/zeebe) 🌟🌟🌟🌟
+- **(2026)** [**==**Microk8s**==**](https://canonical.com/microk8s) 🌟🌟🌟🌟
+- **(2026)** [**==copr.fedorainfracloud.org==**](https://copr.fedorainfracloud.org/coprs) 🌟🌟🌟🌟
+- **(2026)** [**==Tutorial: Restoring a DB Instance from a DB Snapshot==**](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Tutorials.RestoringFromSnapshot.html) 🌟🌟🌟🌟
 
 ## Strategic Dimensions
 - **[🎥 Agentic Video Hub (Architectural Summary)](./videos/index.md)**

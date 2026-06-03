@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.3.41]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.41) - 2026-06-03
+
+### Fixed
+- **Agentic Pulse Metadata and Sort Logic**: Corrected the V2 optimizer script (`src/v2_optimizer.py`) to query the correct `year` attribute instead of the non-existent `pub_date` when rendering the Agentic Pulse section on the V2 home page, and introduced fallback sorting logic for entries without explicit publication years to ensure chronological precision.
+
 ## [[2.3.40]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.40) - 2026-06-03
 
 ### Removed
