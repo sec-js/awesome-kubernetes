@@ -11,11 +11,11 @@
   - [Grafana 7.0: “We’ve built one of the best visualisation tools and it’s not tied to any one database”](https://devm.io/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [grafana.com: Grafana Labs and Microsoft partner to deliver new first party Microsoft Azure service](https://grafana.com/press/2021/11/10/grafana-labs-and-microsoft-partner-to-deliver-new-first-party-microsoft-azure-service)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [grafana.com: Grafana 9.3 feature: Grafana OAuth token improvements](https://grafana.com/oss/grafana/?mdm=social)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [magalix.com: Monitoring Kubernetes Clusters Through Prometheus & Grafana' 🌟](https://www.magalix.com/blog/monitoring-of-kubernetes-cluster-through-prometheus-and-grafana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Grafana](https://grafana.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [grafana.com: Provisioning Grafana 🌟](https://grafana.com/docs/grafana/latest/administration/provisioning)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Grafana provisioning Ansible Role](https://github.com/cloudalchemy/ansible-grafana) <span class='md-tag md-tag--info'>⭐ 503</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Log Monitoring and Alerting with Grafana Loki](https://www.infracloud.io/blogs/grafana-loki-log-monitoring-alerting)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [magalix.com: Monitoring Kubernetes Clusters Through Prometheus & Grafana' 🌟](https://www.magalix.com/blog/monitoring-of-kubernetes-cluster-through-prometheus-and-grafana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Monitoring Kubernetes workloads with Prometheus and Thanos](https://itnext.io/monitoring-kubernetes-workloads-with-prometheus-and-thanos-4ddb394b32c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Why Grafana: Part II](https://medium.com/lightspeed-venture-partners/why-grafana-part-ii-2e7e42e0f7bb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [scylladb.com: Building a Grafana Backend Plugin](https://www.scylladb.com/2020/10/01/building-a-grafana-backend-plugin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -60,5 +60,5 @@
 
 
 ---
-💡 **Explore Related:** [Cheatsheets](./cheatsheets.md) | [Kubernetes](./kubernetes.md) | [Demos](./demos.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Mkdocs](./mkdocs.md) | [Demos](./demos.md)
 

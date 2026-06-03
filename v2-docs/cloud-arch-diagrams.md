@@ -5,7 +5,6 @@
 
 ## Standard Reference
 
-  - [Enterprise Web App Patterns - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/web-apps/guides/enterprise-app-patterns/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [diagrams.net](https://www.drawio.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [acloudguru.com: The top cloud diagramming tools, ranked](https://www.pluralsight.com/resources/blog/cloud/the-top-cloud-diagramming-tools-ranked)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [redhat.com: 6 architectural diagramming tools for cloud infrastructure](https://www.redhat.com/en/blog/diagramming-tools-cloud-infrastructure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -13,17 +12,13 @@
   - [redhat.com: Design professional enterprise architecture diagrams with this open source tool (diagrams.net)](https://www.redhat.com/en/blog/design-enterprise-architecture-diagrams)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Azure Architecture Icons](https://learn.microsoft.com/en-us/azure/architecture/icons)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/kubernetes: Kubernetes Icons Set](https://github.com/kubernetes/community/tree/main/icons) <span class='md-tag md-tag--info'>⭐ 12866</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [Enterprise Web App Patterns - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/web-apps/guides/enterprise-app-patterns/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloudcraft.co](https://www.cloudcraft.co)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [diagrams.net: Use Cloudcraft to export your AWS architecture to a .drawio diagram](https://www.drawio.com/blog/drawio-aws-cloudcraft)
   - [draw.io](https://app.diagrams.net)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [CloudMapper (OSS)](https://duo.com/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Lucidchart](https://www.lucidchart.com/pages)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [==Lucidscale: Import your architecture==](https://lucid.co/lucidscale) Lucidscale is the cloud visualization solution that helps organizations see and understand their cloud environment.
   - [Lucidchart](https://lucid.co/marketplace/91074b9b/aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [What is the best way to generate a visual diagram of the AWS environment which includes VPC, VPN, EC2, and AMIs?](https://www.pluralsight.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Architecture Best Practices for Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/well-architected/service-guides/azure-kubernetes-service)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Azure Landing Zone Technical Documentation](https://azure.github.io/Azure-Landing-Zones)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Azure Landing Zone - Microsoft Cloud Adoption Framework](https://learn.microsoft.com/nb-no/azure/cloud-adoption-framework/ready/landing-zone)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Hub-Spoke Network Topology in Azure - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/networking/architecture/hub-spoke)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [AZVerify: Bridging Azure Resources, Bicep Templates, and Diagrams with GitHub' Copilot](https://github.com/Azure/AZVerify) <span class='md-tag md-tag--info'>⭐ 94</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [CloudCanvas - Diagramming for Cloud Infrastructure](https://cloudcanvas.co)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [betterprogramming.pub: Solutions Architect Tips — The 5 Types of Architecture' Diagrams](https://betterprogramming.pub/solutions-architect-tips-the-5-types-of-architecture-diagrams-eb0c11996f9e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [alibabacloud.com: How to Create an Effective Technical Architectural Diagram?](https://www.alibabacloud.com/blog/how-to-create-an-effective-technical-architectural-diagram_596100)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -44,7 +39,12 @@
   - [AWS Architecture Icons](https://aws.amazon.com/architecture/icons)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Google Cloud Architecture Icons](https://cloud.google.com/icons)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [aquasecurity/cloudsec-icons](https://github.com/aquasecurity/cloudsec-icons)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [AZVerify: Bridging Azure Resources, Bicep Templates, and Diagrams with GitHub' Copilot](https://github.com/Azure/AZVerify) <span class='md-tag md-tag--info'>⭐ 94</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Azure Products by Region Table](https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/table)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Hub-Spoke Network Topology in Azure - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/networking/architecture/hub-spoke)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Azure Landing Zone Technical Documentation](https://azure.github.io/Azure-Landing-Zones)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Azure Landing Zone - Microsoft Cloud Adoption Framework](https://learn.microsoft.com/nb-no/azure/cloud-adoption-framework/ready/landing-zone)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Architecture Best Practices for Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/well-architected/service-guides/azure-kubernetes-service)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hava.io](https://www.hava.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infviz.io](https://infviz.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Account Cloud9 Visualizer](https://github.com/wongcyrus/aws-account-cloud9-visualizer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -63,5 +63,5 @@
   - [Draw.io MCP for Diagram Generation: Why It’s Worth Using](https://thomasthornton.cloud/draw-io-mcp-for-diagram-generation-why-its-worth-using)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An illustrative guide showing how the Draw.io Model Context Protocol (MCP) server allows AI assistants to programmatically generate and edit architecture diagrams. Bridges the gap between conversational design instructions and technical diagrams.
 
 ---
-💡 **Explore Related:** [Cheatsheets](./cheatsheets.md) | [Kubernetes](./kubernetes.md) | [Demos](./demos.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Mkdocs](./mkdocs.md) | [Demos](./demos.md)
 
