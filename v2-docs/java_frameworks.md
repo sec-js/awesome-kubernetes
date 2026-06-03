@@ -33,12 +33,12 @@
   - [containerjournal.com: Red Hat Adds Java Runtime for Kubernetes to Subscription](https://cloudnativenow.com/topics/cloudnativedevelopment/red-hat-adds-java-runtime-for-kubernetes-to-subscription)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kie.org](https://www.kie.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [adictosaltrabajo.com: Cómo reducir el código repetitivo con Lombok](https://adictosaltrabajo.com/2016/02/03/como-reducir-el-codigo-repetitivo-con-lombok)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Dzone: Programming Styles Compared: Spring Framework vis-a-vis Eclipse MicroProfile' 🌟🌟](https://dzone.com/articles/programming-styles-spring-boot-vis-a-vis-with-ecli)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Dekorate](http://dekorate.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github: Spring Cloud Kubernetes 🌟](https://github.com/spring-cloud/spring-cloud-kubernetes) <span class='md-tag md-tag--info'>⭐ 3530</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [Salaboy/From Monolith to K8s](https://github.com/Salaboy/from-monolith-to-k8s) <span class='md-tag md-tag--info'>⭐ 355</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dyser/kubernetes-intro](https://github.com/dsyer/kubernetes-intro)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Dzone: Programming Styles Compared: Spring Framework vis-a-vis Eclipse MicroProfile' 🌟🌟](https://dzone.com/articles/programming-styles-spring-boot-vis-a-vis-with-ecli)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [About WebSphere Liberty](https://developer.ibm.com/wasdev/websphere-liberty)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [wikipedia: Java Enterprise Edition (Java EE)](https://en.wikipedia.org/wiki/Java_Platform,_Enterprise_Edition)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [KumuluzEE](https://ee.kumuluz.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [reddit.com/r/java](https://www.reddit.com/r/java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@javachampions : Java is still free](https://medium.com/@javachampions/java-is-still-free-2-0-0-6b9aa8d6d244)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -136,6 +136,7 @@
   - [infoq.com: Spring Boot 2.6 Improves Docker Images and Metrics, Version 2.4' Is EOL](https://www.infoq.com/news/2021/12/spring-boot-2-6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to/francescoxx: Java CRUD Rest API using Spring Boot, Hibernate, Postgres,' Docker and Docker Compose](https://dev.to/francescoxx/java-crud-rest-api-using-spring-boot-hibernate-postgres-docker-and-docker-compose-5cln)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [odo](https://odo.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Dekorate](https://dekorate.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Skaffold --generate-manifests](https://skaffold.dev/docs/pipeline-stages/init/#--generate-manifests-flag)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/piomin/spring-boot-logging](https://github.com/piomin/spring-boot-logging) <span class='md-tag md-tag--info'>⭐ 276</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Spring Cloud](https://spring.io/projects/spring-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -194,8 +195,14 @@
   - [reflectoring.io: When Should I Use Project Lombok?](https://reflectoring.io/when-to-use-lombok)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Helidon.io](https://helidon.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developer.okta.com: Build REST APIs and Native Java Apps with Helidon](https://developer.okta.com/blog/2022/01/06/native-java-helidon)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [wikipedia: Java Enterprise Edition (Java EE)](https://en.wikipedia.org/wiki/Java_Platform,_Enterprise_Edition)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Red Hat OpenShift
+
+### Developer Experience
+
+#### Maven Plugins
+
+  - **(2025)** [Eclipse JKube 🌟](https://eclipse.dev/jkube) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The central documentation portal for Eclipse JKube, an open-source suite of tooling designed to facilitate the rapid containerization, deployment, and management of Java applications across Kubernetes and Red Hat OpenShift infrastructures.
 ## Runtime Optimizations
 
 ### JVM Tuning
@@ -205,5 +212,5 @@
   - [kstefanj.github.io: GC progress from JDK 8 to JDK 17](https://kstefanj.github.io/2021/11/24/gc-progress-8-17.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Empirical performance benchmarks tracking G1GC, ParallelGC, ZGC, and Shenandoah collection efficiency improvements from Java SE 8 through LTS 17.
 
 ---
-💡 **Explore Related:** [Python](./python.md) | [Visual Studio](./visual-studio.md) | [API](./api.md)
+💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [Visual Studio](./visual-studio.md) | [Python](./python.md)
 

@@ -6,10 +6,10 @@
 ## Standard Reference
 
   - [neal-davis.medium.com: ECS vs EC2 vs Lambda](https://neal-davis.medium.com/ecs-vs-ec2-vs-lambda-36b8ca380dea)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Banzai Cloud 🌟](https://banzaicloud.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@ishana98dadhich: Integrating AWS Secret Manager with EKS and' use Secrets inside the Pods: Part-1](https://medium.com/@ishana98dadhich/integrating-aws-secret-manager-with-eks-and-use-secrets-inside-the-pods-part-1-1938b0c3c2fb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [mehighlow.medium.com: Hardened-AKS/Secrets](https://mehighlow.medium.com/hardened-aks-secrets-82351c43eac4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [faun.pub: External Secret Operator on AKS (with Terraform) for Azure Key' Vault Integration (with Workload Identity)](https://faun.pub/external-secret-operator-on-aks-with-terraform-for-azure-key-vault-integration-with-workload-1d0c31082373)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Run Kubernetes Production Environment on EC2 Spot Instances With' Zero Downtime: A Complete Guide](https://medium.com/riskified-technology/run-kubernetes-on-aws-ec2-spot-instances-with-zero-downtime-f7327a95dea)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com: Kubernetes Cloud Services: Comparing GKE, EKS and AKS](https://medium.com/@Platform9Sys/kubernetes-cloud-services-comparing-gke-eks-and-aks-1fe42770cad3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: State of Managed Kubernetes 2020](https://medium.com/swlh/state-of-managed-kubernetes-2020-4be006643360)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Managed Kubernetes Services Compared: GKE vs. EKS vs. AKS](https://medium.com/better-programming/managed-kubernetes-services-compared-gke-vs-eks-vs-aks-df1ecb22bba0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -21,7 +21,6 @@
   - [daveops.xyz: Administrar usuarios en EKS](https://daveops.xyz/2020/08/25/administrar-usuarios-en-eks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Designing a Kubernetes Cluster with Amazon EKS From Scratch 🌟](https://medium.com/adobetech/designing-a-kubernetes-cluster-with-amazon-eks-from-scratch-4b4ee9d1b8f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [en.sokube.ch: AWS + Kubernetes = AWS Elastic Kubernetes Service (EKS) 🌟](https://en.sokube.ch/post/aws-kubernetes-aws-elastic-kubernetes-service-eks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Run Kubernetes Production Environment on EC2 Spot Instances With' Zero Downtime: A Complete Guide](https://medium.com/riskified-technology/run-kubernetes-on-aws-ec2-spot-instances-with-zero-downtime-f7327a95dea)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [releaseops.io: Scaling Kubernetes Deployments in AWS with Container Insights' Metrics](https://releaseops.io/blog/scaling-kubernetes-deployments-in-aws-with-container-insights-metrics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Create Kubernetes Cluster On AWS EKS](https://medium.com/codex/create-kubernetes-cluster-on-aws-eks-6ced4c488e62)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [info.acloud.guru: Scaling the hottest app in tech on AWS and Kubernetes](https://info.acloud.guru/resources/kubernetes-aws-cloud-scaling-hey)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -125,6 +124,7 @@
   - [Linode Kubernetes Engine (LKE)](https://www.linode.com/products/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Create Kubernetes Cluster Using Linode LKE](https://medium.com/codex/create-kubernetes-cluster-using-linode-lke-4f9c71d03a8d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.ediri.io: DigitalOcean Kubernetes Challenge](https://blog.ediri.io/digitalocean-kubernetes-challenge)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Banzai Cloud 🌟](https://banzaicloud.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Application Delivery
 
@@ -141,9 +141,6 @@
 #### AWS EKS Tools
 
   - **(2026)** [==eksctl: EKS installer==](https://github.com/eksctl-io/eksctl) <span class='md-tag md-tag--info'>⭐ 5202</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official CLI tool for creating and managing EKS clusters on AWS. Automates CloudFormation stacks, node group configurations, IAM integration (IRSA), and VPC provisions.
-#### Cluster Resource Management
-
-  - **(2022)** [Allocatable memory and CPU in Kubernetes Nodes 🌟](https://learnkube.com/allocatable-resources) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical breakdown of node allocatable resources in Kubernetes. Explains how `kube-reserved`, `system-reserved`, and eviction thresholds reduce physical capacity available for user pods.
 #### Cluster Security
 
   - **(2021)** [Amazon EKS Security Best Practices](https://www.stackrox.io/blog/amazon-eks-security-best-practices) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Exhaustive architectural guide compiling key security recommendations for EKS. Addresses IAM integration, VPC configurations, network segmentation, and host vulnerability hardening.
@@ -237,10 +234,10 @@
   - [aws.amazon.com: Start Pods faster by prefetching images](https://aws.amazon.com/blogs/containers/start-pods-faster-by-prefetching-images)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes latency bottlenecks during container initialization caused by large image pull steps. The post outlines the architecture of 'image prefetching' patterns, leveraging daemonsets or custom Karpenter startup scripts to warm up worker nodes with target container layers before runtime allocation. Critical for latency-sensitive applications.
 #### Security
 
+  - [Amazon EKS introduces EKS Pod Identity](https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-eks-pod-identity) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Highlights the launch of EKS Pod Identity, an evolved architectural alternative to IRSA (IAM Roles for Service Accounts). By utilizing a highly optimized local agent daemon on worker nodes, it simplifies IAM association, scales beyond IRSA session limits, and works across multiple clusters with ease. A fundamental improvement to EKS access management.
   - [cast.ai: EKS Security Checklist: 10 Best Practices for a Secure Cluster](https://cast.ai/blog/eks-security-checklist-10-best-practices-for-a-secure-cluster) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An actionable security checklist compiled by Cast.ai, detailing major cluster isolation and hardening vectors for EKS. Highlights include IAM role configurations, network policy enforcement, control plane logging, and image scanning pipelines. Ideal for rapid architectural audits before promotion to production.
   - [aws-samples/hardeneks](https://github.com/aws-samples/hardeneks) <span class='md-tag md-tag--info'>⭐ 957</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A command-line interface tool designed to run programmatic audits against an EKS cluster to identify violations of EKS Best Practices. It reviews cluster networking, IAM, configuration control, and pod policies. The output acts as an actionable hardening roadmap for platform operators.
   - [itnext.io: Top 10 Ways to Protect EKS Workloads from Ransomware](https://itnext.io/top-10-ways-to-protect-eks-workloads-from-ransomware-ae96d1c1e839) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An industry-focused checklist detailing tactical maneuvers to secure EKS against ransomware and supply chain attacks. It covers immutable storage configurations (EFS/EBS backups), strict RBAC permissions, runtime threat detection, and cluster isolation strategies. A helpful handbook for security engineering teams.
-  - [Amazon EKS introduces EKS Pod Identity](https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-eks-pod-identity) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Highlights the launch of EKS Pod Identity, an evolved architectural alternative to IRSA (IAM Roles for Service Accounts). By utilizing a highly optimized local agent daemon on worker nodes, it simplifies IAM association, scales beyond IRSA session limits, and works across multiple clusters with ease. A fundamental improvement to EKS access management.
   - [itnext.io: AWS Elastic Kubernetes Service: RBAC Authorization via AWS IAM' and RBAC Groups](https://itnext.io/aws-elastic-kubernetes-service-rbac-authorization-via-aws-iam-and-rbac-groups-7b70ded144b5) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Details the inner workings of mapping AWS IAM identity vectors to Kubernetes internal Role-Based Access Control (RBAC) groups via `aws-auth` ConfigMaps or newer EKS Access Entries. It presents strategies for configuring secure, least-privilege team cluster access. Vital for security compliance in multi-tenant environments.
 #### Service Mesh
 
@@ -645,5 +642,5 @@
   - [Amazon EKS Best Practices Guide for Security 🌟](https://aws.github.io/aws-eks-best-practices) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: The definitive handbook for securing AWS EKS environments, curated by AWS security engineers. Live Grounding: Serves as the primary operational baseline for hardening network, IAM, data, and compute resources in AWS.
 
 ---
-💡 **Explore Related:** [AWS Tools Scripts](./aws-tools-scripts.md) | [Azure](./azure.md) | [AWS](./aws.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Public Cloud Solutions](./public-cloud-solutions.md) | [Azure](./azure.md)
 

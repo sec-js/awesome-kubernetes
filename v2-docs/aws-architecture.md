@@ -33,9 +33,6 @@
 #### Open Source
 
   - [AWS Labs GitHub](https://github.com/awslabs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — AWS's central laboratory incubator on GitHub housing thousands of reference architectures, automation scripts, and experimental SDKs. Grounding validates this organization as a primary resource for cloud-native engineering patterns.
-#### Reference Architectures
-
-  - **(2023)** [**AWS Quick Start Reference Deployments**](http://aws.amazon.com/es/quickstart) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — AWS-validated CloudFormation templates and deployment guides structured to stand up complex multi-tier enterprise workloads rapidly. Grounding reveals that while many are migrating to Partner Solutions, this archive is a high-density resource for building compliant infrastructure.
 ### AWS FinOps
 
 #### Cost Management
@@ -121,14 +118,7 @@
 #### Amazon Aurora
 
   - [InfoWorld Review – Amazon Aurora Rocks MySQL](https://aws.amazon.com/blogs/aws/infoworld-review-amazon-aurora-rocks-mysql)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An influential early review of Amazon Aurora documenting how its decoupling of compute and storage engines significantly outperformed traditional MySQL instances. Grounding shows that while old, it provides the fundamental history of cloud-native storage architecture.
-## Software Engineering
-
-### Frontend Development
-
-#### Architectural Patterns
-
-  - **(2021)** [**Clean Architecture on Frontend**](https://bespoyasov.me/blog/clean-architecture-on-frontend) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An exceptional breakdown demonstrating the application of Clean Architecture principles to frontend systems. Illustrates isolation of business logic from UI components to enable extreme testability.
 
 ---
-💡 **Explore Related:** [AWS Tools Scripts](./aws-tools-scripts.md) | [Azure](./azure.md) | [AWS](./aws.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Public Cloud Solutions](./public-cloud-solutions.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
 

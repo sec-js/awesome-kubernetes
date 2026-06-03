@@ -6,9 +6,6 @@
 ## Standard Reference
 
   - [Config Sync Overview](https://docs.cloud.google.com/kubernetes-engine/config-sync/docs/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [openshift.com: From Code to Production with GitOps, Tekton and ArgoCD 🌟](https://www.redhat.com/en/blog/from-code-to-production-with-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [HashiCorp Waypoint](https://developer.hashicorp.com/waypoint)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [jenkins-x.io](https://jayex.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: What Is GitOps and Why It Might Be The Next Big Thing for DevOps](https://thenewstack.io/software-development)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [geekflare.com: An Introduction to GitOps](https://geekflare.com/topic/development)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openshift.com: Our Favorite Things from GitOps Con at KubeCon EU 🌟](https://www.redhat.com/en/blog/our-favorite-things-from-gitops-con-at-kubecon-eu)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -36,20 +33,15 @@
   - [openshift.com: OpenShift Pipelines and OpenShift GitOps are now Generally Available 🌟](https://www.redhat.com/en/blog/openshift-pipelines-and-openshift-gitops-are-now-generally-available)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloudogu.com: Automation Assistants: GitOps tools in comparison 🌟](https://platform.cloudogu.com/en/blog/gitops-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Anthos Config Management](https://docs.cloud.google.com/kubernetes-engine/docs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [How Kubernetes Operators Fit into Platform Building and When Traditional IaC Isn't Enough](https://www.thestack.technology/how-kubernetes-operators-fit-into-to-platform-building-and-when-traditional-iac-isnt-enough)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [weave.works: Weave Kubernetes Platform](https://www.weave.works/)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [waypointproject.io](https://developer.hashicorp.com/waypoint)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [openshift.com: From Code to Production with GitOps, Tekton and ArgoCD](https://www.redhat.com/en/blog/from-code-to-production-with-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jenkins-x.io](https://jayex.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [EntraExporter](https://github.com/microsoft/entraexporter) <span class='md-tag md-tag--info'>⭐ 860</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Announcing Private Preview: ArgoCD through Microsoft GitOps](https://techcommunity.microsoft.com/blog/azurearcblog/announcing-private-preview-argocd-through-microsoft-gitops/4399747)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [weave.works: Weave Kubernetes Platform](https://www.weave.works/)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [FossFLOW](https://github.com/stan-smith/FossFLOW)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github: Flux](https://github.com/fluxcd/flux) <span class='md-tag md-tag--info'>⭐ 6864</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [itnext.io: Managing Kubernetes Secrets Securely with GitOps (SOPS + AWS' KMS + Flux)](https://itnext.io/managing-kubernetes-secrets-securely-with-gitops-b8174b4f4d30)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [FossFLOW](https://github.com/stan-smith/FossFLOW)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [open-cluster-management.io](https://open-cluster-management.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/stakater/Xposer](https://github.com/stakater/Xposer) <span class='md-tag md-tag--info'>⭐ 32</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Terraform Best Practices](https://github.com/antonbabenko/terraform-best-practices) <span class='md-tag md-tag--info'>⭐ 2469</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Kubestack 🌟](https://www.kubestack.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [learn.openshift.com: GitOps introduction](https://learn.openshift.com/introduction/gitops-introduction)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ClusterClass: Experimental Feature for Streamlined Cluster Lifecycle Management' in Cluster API](https://cluster-api.sigs.k8s.io/tasks/experimental-features/cluster-class)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [WKSctl - A New OSS Kubernetes Manager using GitOps](https://www.weave.works/blog/wksctl-a-new-oss-kubernetes-manager-using-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [gitops.tech 🌟](https://www.gitops.tech)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [OpenGitOps.dev 🌟](https://opengitops.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/topics/gitops 🌟](https://github.com/topics/gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -154,8 +146,10 @@
   - [github.com/glasskube/glasskube](https://github.com/glasskube/glasskube) <span class='md-tag md-tag--info'>⭐ 3491</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [Flagger](https://flagger.app)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [partlycloudy.blog: Release to Kubernetes like a Pro with Flagger](https://partlycloudy.blog/2020/07/08/release-to-k8s-like-a-pro-with-flagger)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [WKSctl - A New OSS Kubernetes Manager using GitOps](https://www.weave.works/blog/wksctl-a-new-oss-kubernetes-manager-using-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [GitOps for Kubernetes with Jenkins](https://medium.com/stakater/gitops-for-kubernetes-with-jenkins-7db6304216e0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [GitOps with Jenkins and Kubernetes](https://medium.com/@abhishekbhardwaj510/gitops-with-jenkins-and-kubernetes-c20425244c73)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Terraform Best Practices](https://github.com/antonbabenko/terraform-best-practices) <span class='md-tag md-tag--info'>⭐ 2469</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [How to Create a GitOps Workflow with Terraform and Jenkins](https://www.hashicorp.com/resources/how-create-gitops-workflow-terraform-jenkins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [portworx.com: Automating Kubernetes Data Management with GitOps & AutoPilot](https://portworx.com/automating-kubernetes-data-management-with-gitops-autopilot)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openshift-applier](https://github.com/redhat-cop/openshift-applier) <span class='md-tag md-tag--info'>⭐ 98</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -164,9 +158,13 @@
   - [thenewstack.io: Weave GitOps Core Integrates Git with Kubernetes](https://thenewstack.io/weave-gitops-core-integrates-git-with-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Weave GitOps Trusted Delivery: A Road to Kubernetes Sanity?](https://thenewstack.io/weave-gitops-trusted-delivery-a-road-to-kubernetes-sanity)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dailymotion-oss.github.io/octopilot: Octopilot](https://dailymotion-oss.github.io/octopilot)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kubestack 🌟](https://www.kubestack.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: KubeStack: Towards Full-Stack GitOps](https://thenewstack.io/kubestack-towards-full-stack-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [How Kubernetes Operators Fit into Platform Building and When Traditional IaC Isn't Enough](https://www.thestack.technology/how-kubernetes-operators-fit-into-to-platform-building-and-when-traditional-iac-isnt-enough)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ClusterClass: Experimental Feature for Streamlined Cluster Lifecycle Management' in Cluster API](https://cluster-api.sigs.k8s.io/tasks/experimental-features/cluster-class)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/bumble-tech: GitOps for multi-cluster K8s environments 🌟](https://medium.com/bumble-tech/gitops-for-multi-cluster-k8s-environments-d305431ba6d6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.openshift.com: Introduction to GitOps with OpenShift](https://blog.openshift.comintroduction-to-gitops-with-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [learn.openshift.com: GitOps introduction](https://learn.openshift.com/introduction/gitops-introduction)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.openshift.com: is it too late to integrate GitOps?](https://blog.openshift.comis-it-too-late-to-integrate-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.openshift.com: OpenShift Authentication Integration with ArgoCD](https://blogopenshift.com/openshift-authentication-integration-with-argocd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: GitOps with Istio, Tekton and Argo CD — on OpenShift 4](https://medium.com/@joelkaplan1/gitops-with-istio-tekton-and-argo-cd-on-openshift-4-5e42d22994e3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -176,6 +174,8 @@
   - [info.acloud.guru: Adopting GitOps for Kubernetes on AWS](https://info.acloud.guru/resources/deploying-kubernetes-with-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [betterprogramming.pub: Applying DevOps to API Development for APIOps](https://betterprogramming.pub/applying-devops-to-api-development-for-apiops-21e2e605333e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube.com: GitOps Guide to the Galaxy 🌟🌟🌟](https://www.youtube.com/playlist?list=PLbMP1JcGBmSGKO8UreWpOBOhCqilejhtd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/stakater/Xposer](https://github.com/stakater/Xposer) <span class='md-tag md-tag--info'>⭐ 32</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [open-cluster-management.io](https://open-cluster-management.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Application Delivery
 
@@ -189,6 +189,20 @@
 #### Terraform Components
 
   - [AWS EKS Argo CD Terraform Component](https://github.com/cloudposse-terraform-components/aws-eks-argocd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Enterprise-ready Terraform submodule designed to deploy, configure, and bootstrap Argo CD onto an existing AWS EKS cluster. Live Grounding: Standardizes complex security configuration flags, integrates smoothly with AWS IAM roles for service accounts (IRSA), and provisions preconfigured Helm-based releases.
+## Cloud Infrastructure
+
+### Kubernetes Distributions
+
+#### Bare-Metal and Edge
+
+  - **(2026)** [**Charmed Kubernetes**](https://ubuntu.com/kubernetes/charmed-k8s) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Canonical's model-driven Kubernetes distribution designed for bare-metal, private, and multi-cloud environments. Leverages Ubuntu's automated Juju framework to manage complex cluster lifecycles, upgrades, security scanning, and seamless hypervisor scaling.
+## Cloud-Native Development
+
+### Local Development Tools
+
+#### Okteto
+
+  - **(2021)** [codefresh.io: Tutorial - Local Kubernetes Development with Okteto 🌟](https://octopus.com/devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Hands-on walkthrough displaying how to use Okteto to connect a developer workspace directly with live infrastructure, bypassing resource-heavy local systems.
 ## GitOps (1)
 
 ### Continuous Delivery
@@ -196,6 +210,11 @@
 #### Argo CD
 
   - [argoproj.github.io: Argo CD - Declarative GitOps for Kubernetes](https://argoproj.github.io/argo-cd) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Argo CD is a declarative GitOps engine that automates Kubernetes deployments. By continually matching the live cluster state to git specifications, it guarantees robust security and rapid rollback features.
+### Hybrid Cloud Platforms
+
+#### Azure Arc Integration
+
+  - **(2021)** [Kubernetes GitOps with Azure Arc and Charmed Kubernetes](https://canonical.com/blog/gitops-with-azure-arc-and-charmed-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A technical guide illustrating the integration of Charmed Kubernetes with Azure Arc to orchestrate hybrid-cloud resources. Demonstrates how GitOps configurations are pushed dynamically across decentralized architectures using unified portal controls.
 ## Infrastructure
 
 ### GitOps (2)
@@ -220,5 +239,5 @@
   - [Avoiding Mistakes with AWS OIDC Integration Conditions](https://www.wiz.io/blog/avoiding-mistakes-with-aws-oidc-integration-conditions) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An in-depth security analysis detailing how to configure AWS OpenID Connect (OIDC) trust relationships correctly in GitHub Actions and other CI providers. Highlights major vulnerabilities arising from missing subject (sub) or audience (aud) validation and shows how to restrict access patterns safely.
 
 ---
-💡 **Explore Related:** [Flux](./flux.md) | [Argo](./argo.md) | [CI/CD](./cicd.md)
+💡 **Explore Related:** [Jenkins Alternatives](./jenkins-alternatives.md) | [CI/CD](./cicd.md) | [Jenkins](./jenkins.md)
 

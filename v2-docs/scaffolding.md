@@ -34,5 +34,5 @@
   - **(2023)** [cloud.google.com: configuring_with_snippets 🌟](https://docs.cloud.google.com/code/docs/vscode/yaml-editing#configuring_with_snippets) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Official Google Cloud tutorial configuring Visual Studio Code with structural snippets, optimizing engineering speeds when deploying nested Kubernetes objects.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [QA](./qa.md) | [Project Management Methodology](./project-management-methodology.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Developerportals](./developerportals.md) | [SRE](./sre.md)
 

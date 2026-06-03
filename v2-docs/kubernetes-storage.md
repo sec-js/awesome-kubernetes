@@ -5,9 +5,9 @@
 
 ## Standard Reference
 
-  - [instana.com: The Hidden Cost of Observability: Data Volume](https://www.ibm.com/think)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [redbooks.ibm.com: IBM Storage for Red Hat OpenShift. IBM block storage & IBM Spectrum Scale](http://www.redbooks.ibm.com/abstracts/redp5565.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.min.io: Kubernetes, Consistency and Commoditization - The Way of the Cloud](https://www.min.io/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.min.io: Mono Clouds vs Multi-Clouds & Hybrid Clouds](https://www.min.io/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Monitoring jenkins using instana](https://www.ibm.com/think)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: The most popular cloud native solutions 🌟](https://thenewstack.io/cloud-native/the-most-popular-cloud-native-storage-solutions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blocksandfiles.com: geless storage is the ‘answer’ to Kubernetes data challenges](https://www.blocksandfiles.com/container-storage/2020/12/22/storageless-storage-is-the-answer-to-kubernetes-data-challenges/1611647)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [rancher.com: What is Cloud-Native Storage?](https://www.suse.com/c/rancher_blog/what-is-cloud-native-storage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -28,9 +28,6 @@
         - Deduplication
         - Compression
         - Encryption
-  - [kubestr.io](https://kubestr.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Kadalu](https://github.com/kadalu/kadalu) <span class='md-tag md-tag--info'>⭐ 749</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [VolSync 🌟](https://github.com/backube/volsync) <span class='md-tag md-tag--info'>⭐ 973</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dok.community: Data on Kubernetes 2021 Report](https://dok.community/dokc-2021-report)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Persistent storage in action: Understanding Red Hat' OpenShift’s persistent volume framework 🌟](https://developers.redhat.com/blog/2020/10/22/persistent-storage-in-action-understanding-red-hat-openshifts-persistent-volume-framework)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: How Kubernetes provides networking and storage to applications](https://thenewstack.io/how-kubernetes-provides-networking-and-storage-to-applications)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -108,6 +105,7 @@
   - [aesher9o1.medium.com: Autoscale large images faster using Longhorn (distributed' storage)](https://aesher9o1.medium.com/autoscale-large-images-faster-using-longhorn-distributed-storage-618d0cf01ba2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@abdelrhmanahmed131: Longhorn — Distributed Block Storage for' K8s](https://medium.com/@abdelrhmanahmed131/longhorn-distributed-block-storage-for-k8s-2ea11df400d1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [linbit.com: LINSTOR - kubernetes persistent container storage](https://linbit.com/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kadalu](https://github.com/kadalu/kadalu) <span class='md-tag md-tag--info'>⭐ 749</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [iomesh.com](https://www.iomesh.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [iomesh.com: Outperforming Peer Products, IOMesh Takes Cloud Native Storage' to the Next Level](https://www.iomesh.com/blog/announcing_iomesh_preview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [docs.netapp.com: Intro to Astra Data Store preview](https://docs.netapp.com/us-en/astra-data-store/concepts/intro.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -119,7 +117,9 @@
   - [SMB CSI Driver for Kubernetes](https://github.com/kubernetes-csi/csi-driver-smb) <span class='md-tag md-tag--info'>⭐ 639</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/yandex-cloud: CSI for S3](https://github.com/yandex-cloud/k8s-csi-s3) <span class='md-tag md-tag--info'>⭐ 855</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [sklar.rocks: How the CSI (Container Storage Interface) Works](https://sklar.rocks/how-container-storage-interface-works)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [kubestr.io](https://kubestr.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.kasten.io: Benchmarking and Evaluating Your Kubernetes Storage with' Kubestr](https://blog.kasten.io/benchmarking-kubernetes-storage-with-kubestr)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [VolSync 🌟](https://github.com/backube/volsync) <span class='md-tag md-tag--info'>⭐ 973</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [next.redhat.com: Introducing VolSync: your data, anywhere](https://next.redhat.com/2021/08/23/introducing-volsync-your-data-anywhere)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Discoblocks: ondat.io/discoblocks](https://www.ondat.io/discoblocks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Rook-Ceph](https://operatorhub.io/operator/rook-ceph)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -136,5 +136,5 @@
 *   Acts as a foundational storage engine for large-scale Kubernetes PV platforms (Rook-Ceph) and private clouds.
 
 ---
-💡 **Explore Related:** [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Docker](./docker.md) | [Serverless](./serverless.md)
 
