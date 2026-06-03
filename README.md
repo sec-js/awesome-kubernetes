@@ -285,24 +285,24 @@ The Nubenetes ecosystem utilizes a multi-layered defense and performance archite
 ```mermaid
 graph TD
     subgraph "Phase 1: Discovery & Rescue"
-        A["X.com/RSS Feeds"] --> B["Agentic Discoverer"]
+        A["X.com / RSS Feeds"] --> B["Agentic Discoverer"]
         B --> C{"Health Pulse"}
-        C -- "Dead" --> D["MCP Web Grounding"]
+        C -- "Dead" --> D["MCP Web<br>Grounding"]
         D -- "Rescued" --> E["Unified Inventory"]
         C -- "Alive" --> E
     end
 
     subgraph "Phase 2: Intelligent Optimization"
-        E --> F["Gemini AI Curation"]
-        F --> G["V2 Elite selection"]
+        E --> F["Gemini AI<br>Curation"]
+        F --> G["V2 Elite<br>Selection"]
         G --> H["Maturity Tagging"]
     end
 
     subgraph "Phase 3: Hardened CI/CD"
-        H --> I["Concurrency Guard"]
-        I --> J["[skip ci] Loop Prevention"]
-        J --> K["Dependency & Playwright Caching"]
-        K --> L["Native GH Pages Deployment"]
+        H --> I["Concurrency<br>Guard"]
+        I --> J["[skip ci]<br>Loop Prevention"]
+        J --> K["Dependency &<br>Playwright Caching"]
+        K --> L["Native GH Pages<br>Deployment"]
     end
 
     style I fill:#f96,stroke:#333,stroke-width:2px
