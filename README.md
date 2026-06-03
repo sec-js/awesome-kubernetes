@@ -140,7 +140,7 @@ Additionally, as of May 2026, Nubenetes has reached the **Platinum Operational T
 | :--- | :--- |
 | **Total Technical Resources (Links)** | **18356+** |
 | **Specialized MD Pages** | **162** |
-| **Total Commits** | **5737+** |
+| **Total Commits** | **5739+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -178,7 +178,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 2178 | 8,995 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 2180 | 9,003 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -193,9 +193,9 @@ config:
 xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
-    y-axis "Volume (Commits / Estimated New Refs)" 0 --> 9000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 8995]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 2178]
+    y-axis "Volume (Commits / Estimated New Refs)" 0 --> 10000
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 9003]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 2180]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -205,7 +205,7 @@ xychart-beta
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
 | 2026-05 | 2101 | 8,677 | **Agentic Inception (Gemini Era)** |
-| 2026-06 | 52 | 214 | Active Curation |
+| 2026-06 | 54 | 223 | Active Curation |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
@@ -285,24 +285,24 @@ The Nubenetes ecosystem utilizes a multi-layered defense and performance archite
 ```mermaid
 graph TD
     subgraph "Phase 1: Discovery & Rescue"
-        A["X.com/RSS Feeds"] --> B["Agentic Discoverer"]
+        A["X.com / RSS Feeds"] --> B["Agentic Discoverer"]
         B --> C{"Health Pulse"}
-        C -- "Dead" --> D["MCP Web Grounding"]
+        C -- "Dead" --> D["MCP Web<br>Grounding"]
         D -- "Rescued" --> E["Unified Inventory"]
         C -- "Alive" --> E
     end
 
     subgraph "Phase 2: Intelligent Optimization"
-        E --> F["Gemini AI Curation"]
-        F --> G["V2 Elite selection"]
+        E --> F["Gemini AI<br>Curation"]
+        F --> G["V2 Elite<br>Selection"]
         G --> H["Maturity Tagging"]
     end
 
     subgraph "Phase 3: Hardened CI/CD"
-        H --> I["Concurrency Guard"]
-        I --> J["[skip ci] Loop Prevention"]
-        J --> K["Dependency & Playwright Caching"]
-        K --> L["Native GH Pages Deployment"]
+        H --> I["Concurrency<br>Guard"]
+        I --> J["[skip ci]<br>Loop Prevention"]
+        J --> K["Dependency &<br>Playwright Caching"]
+        K --> L["Native GH Pages<br>Deployment"]
     end
 
     style I fill:#f96,stroke:#333,stroke-width:2px

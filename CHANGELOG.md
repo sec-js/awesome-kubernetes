@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.3.43]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.43) - 2026-06-03
+
+### Fixed
+- **Mermaid Diagram Text Overflow**: Wrapped long text strings inside the "4.2. Hardened Architecture (2026)" Mermaid diagram in `README.md` using `<br>` to prevent text clipping and rendering issues in standard Markdown viewers.
+
 ## [[2.3.42]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.42) - 2026-06-03
 
 ### Fixed
