@@ -15,5 +15,5 @@
 
 
 ---
-💡 **Explore Related:** [Servicemesh](./servicemesh.md) | [Istio](./istio.md) | [Networking](./networking.md)
+💡 **Explore Related:** [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md) | [Networking](./networking.md)
 

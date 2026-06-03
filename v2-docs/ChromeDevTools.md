@@ -16,5 +16,5 @@
 
 
 ---
-💡 **Explore Related:** [Visual Studio](./visual-studio.md) | [Python](./python.md) | [Dotnet](./dotnet.md)
+💡 **Explore Related:** [Python](./python.md) | [Visual Studio](./visual-studio.md) | [API](./api.md)
 

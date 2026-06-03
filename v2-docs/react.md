@@ -17,5 +17,5 @@
   - [useHooks - React Hooks Library](https://usehooks.com)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A premium library of self-contained, optimized React hooks facilitating stateful abstractions. Designed to simplify DOM tracking, event management, and browser interactions inside production web applications.
 
 ---
-💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [Visual Studio](./visual-studio.md) | [Python](./python.md)
+💡 **Explore Related:** [Python](./python.md) | [Visual Studio](./visual-studio.md) | [API](./api.md)
 
