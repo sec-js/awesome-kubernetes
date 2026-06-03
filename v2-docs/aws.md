@@ -29,13 +29,13 @@
   - [Working with the AWS Management Console](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Cloud Adoption Framework (AWS CAF)](https://aws.amazon.com/cloud-adoption-framework)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Convert AWS console actions to reusable code with AWS Console-to-Code, now generally available](https://aws.amazon.com/blogs/aws/convert-aws-console-actions-to-reusable-code-with-aws-console-to-code-now-generally-available/?trk=0d3532c8-5f49-4c86-9683-96c2417e9b4b&sc_channel=el)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Awesome AWS 🌟](https://github.com/donnemartin/awesome-aws) <span class='md-tag md-tag--info'>⭐ 14033</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [Introducing Kiro: AWS Agentic AI-Based IDE](https://markrosscloud.medium.com/introducing-kiro-aws-agentic-ai-based-ide-cded711b1409)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [docs.aws.amazon.com: Actions, resources, and condition keys for AWS services' 🌟🌟🌟](https://docs.aws.amazon.com/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Cloud Products](https://aws.amazon.com/products)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/towards-cloud-computing: 7 Free AWS Practice Labs and AWS Workshops' resources](https://medium.com/towards-cloud-computing/7-free-aws-practice-labs-and-aws-workshops-resources-d0a861f05d3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Local Zones locations](https://aws.amazon.com/about-aws/global-infrastructure/localzones/locations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [aws.amazon.com/new: What's New with AWS?](https://aws.amazon.com/new)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [repost.aws 🌟](https://repost.aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Awesome AWS 🌟](https://github.com/donnemartin/awesome-aws) <span class='md-tag md-tag--info'>⭐ 14033</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [AWS Marketplace](https://aws.amazon.com/marketplace)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws) <span class='md-tag md-tag--info'>⭐ 36416</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [AWS Ramp-Up Guides](https://aws.amazon.com/es/training/ramp-up-guides)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -66,6 +66,7 @@
   - [freecodecamp.org/news/tag/aws](https://www.freecodecamp.org/news/tag/aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [paigeshin1991.medium.com: Drop Nuclear Bomb on your AWS account. How to' clear your entire AWS services in 3 seconds](https://paigeshin1991.medium.com/drop-nuclear-bomb-on-your-aws-services-how-to-clear-your-entire-aws-account-in-3-seconds-53f28928e09c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/gargee-bhatnagar: How to Create a Custom AMI with Image Pipeline' and Automate its Creation Using EC2 Image Builder](https://medium.com/gargee-bhatnagar/how-to-create-a-custom-ami-with-image-pipeline-and-automate-its-creation-using-ec2-image-builder-7e194e39c8e9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [docs.aws.amazon.com: Actions, resources, and condition keys for AWS services' 🌟🌟🌟](https://docs.aws.amazon.com/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@imaze.enabulele: Autoscaling EC2 Instances for High Availability' and Stress Testing 🌟](https://medium.com/@imaze.enabulele/autoscaling-ec2-instances-for-high-availability-and-stress-testing-946b41f229e2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [awstip.com: How to list all resources in your AWS account](https://awstip.com/how-to-list-all-resources-in-your-aws-account-c3f18061f71b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Building highly resilient applications with on-premises interdependencies using AWS Local Zones](https://aws.amazon.com/blogs/compute/building-highly-resilient-applications-with-on-premises-interdependencies-using-aws-local-zones)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -81,7 +82,6 @@
   - [Everything AWS | Search and discover 6K+ quality AWS repositories](https://app.polymersearch.com/discover/aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Courses created by AWS experts](https://www.amazon.com/b/?node=14297978011)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: Many free and useful AWS official Dev and User guides!](https://dev.to/aws-builders/many-free-and-useful-aws-official-dev-and-user-guides-54ci)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/towards-cloud-computing: 7 Free AWS Practice Labs and AWS Workshops' resources](https://medium.com/towards-cloud-computing/7-free-aws-practice-labs-and-aws-workshops-resources-d0a861f05d3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [vladionescu.me: Scaling containers on AWS in 2022 (comparison)](https://www.vladionescu.me/posts/scaling-containers-on-aws-in-2022)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [bitmovin: Improving Video Quality on the Web](https://medium.com/aws-activate-startup-blog/bitmovin-improving-video-quality-on-the-web-8670039c4334)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [What Startups Should Know about Amazon VPC — Part 1](https://medium.com/aws-activate-startup-blog/what-startups-should-know-about-amazon-vpc-part-1-bebe94b7f228)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -132,5 +132,5 @@
   - [RunsOn: Self-hosted GitHub Actions Runners in AWS](https://runs-on.com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A commercial-grade, highly efficient solution for hosting ephemeral, auto-scaled GitHub Actions runners directly on your AWS account. Delivers a significant reduction in GitHub Actions spend (up to 10x) using cheap EC2 spot instances, fast cache persistence, and seamless setup.
 
 ---
-💡 **Explore Related:** [AWS Tools Scripts](./aws-tools-scripts.md) | [Azure](./azure.md) | [AWS Architecture](./aws-architecture.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Public Cloud Solutions](./public-cloud-solutions.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
 

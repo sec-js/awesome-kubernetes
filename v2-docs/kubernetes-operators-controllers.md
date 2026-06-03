@@ -20,11 +20,18 @@
   - [brennerm.github.io: Kubernetes operators with Python #1: Creating CRDs](https://shipit.dev/posts/k8s-operators-with-python-part-1.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [metalbear.co: Writing a Kubernetes Operator](https://metalbear.com/blog/writing-a-kubernetes-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [KPIs](https://www.kpi.org/KPI-Basics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [The Beginner’s Guide to the Ansible Inventory](https://www.packetcoders.io/the-beginners-guide-to-the-ansible-inventory)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@mikakrief: Using Azure Service Operator v2](https://medium.com/@mikakrief/using-azure-service-operator-v2-4a1fa1f5e3b8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Introduction to Azure Application Gateway for Containers (AGC)](https://blog.cloudtrooper.net/2025/02/28/application-gateway-for-containers-a-not-so-gentle-intro-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: Writing a Kubernetes Operator in Java using Quarkus' - **Cheat Sheet** 🌟](https://developers.redhat.com/cheat-sheets/writing-kubernetes-operator-java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [itnext.io: Operator Lifecycle Manager](https://itnext.io/wth-is-a-operator-lifecycle-manager-873cf1661b04)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [10 Real-World Kubernetes Troubleshooting Scenarios and Solutions](https://livingdevops.com/devops/10-real-world-kubernetes-troubleshooting-scenarios-and-solutions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [How Kubernetes Operators Fit into Platform Building and When Traditional IaC Isn't Enough](https://www.thestack.technology/how-kubernetes-operators-fit-into-to-platform-building-and-when-traditional-iac-isnt-enough)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [InGate: Ingress & Gateway API Controller (Archived)](https://github.com/kubernetes-sigs/ingate) <span class='md-tag md-tag--info'>⭐ 731</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kubernetes Gateway API](https://github.com/kubernetes-sigs/gateway-api) <span class='md-tag md-tag--info'>⭐ 2861</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hashicorp.com: Creating Workspaces with the HashiCorp Terraform Operator' for Kubernetes](https://www.hashicorp.com/blog/creating-workspaces-with-the-hashicorp-terraform-operator-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [banzaicloud.com: Kafka rolling upgrade made easy with Supertubes](https://banzaicloud.com/blog/kafka-rolling-upgrade)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devops.com: Day 2 for the Operator Ecosystem 🌟](https://devops.com/day-2-for-the-operator-ecosystem)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [itnext.io: Operator Lifecycle Manager](https://itnext.io/wth-is-a-operator-lifecycle-manager-873cf1661b04)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Domain-harvester](https://github.com/shurshun/domain-harvester)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Cass Operator](https://github.com/datastax/cass-operator) <span class='md-tag md-tag--info'>⭐ 258</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kotal operator](https://github.com/kotalco/kotal) <span class='md-tag md-tag--info'>⭐ 221</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -116,7 +123,6 @@
   - [medium.com/lonto-digital-services-integrator: Why We Developed Own Kubernetes' Controller to Copy Secrets](https://medium.com/lonto-digital-services-integrator/why-we-developed-own-kubernetes-controller-to-copy-secrets-e46368ae6db9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: HashiCorp Vault Operator Manages Kubernetes Secrets](https://thenewstack.io/hashicorp-vault-operator-manages-kubernetes-secrets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@senjutide2000: Designing a Controller for Custom Resources from' scratch for absolute beginners](https://medium.com/@senjutide2000/designing-a-controller-for-custom-resources-from-scratch-for-absolute-beginners-9cb84b7f906f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@mikakrief: Using Azure Service Operator v2](https://medium.com/@mikakrief/using-azure-service-operator-v2-4a1fa1f5e3b8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/gianlucam76/k8s-cleaner 🌟](https://github.com/gianlucam76/k8s-cleaner) <span class='md-tag md-tag--info'>⭐ 780</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dragondscv.medium.com: Controller runtime — handle resource deletion with' predicate](https://dragondscv.medium.com/controller-runtime-handle-resource-deletion-with-predicate-f69d09dd5802)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/NCCloud/mayfly: Ephemeral Kubernetes Resources 🌟](https://github.com/NCCloud/mayfly) <span class='md-tag md-tag--info'>⭐ 338</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -130,24 +136,18 @@
   - [dev.to/thenjdevopsguy: What Is A Kubernetes Operator?](https://dev.to/thenjdevopsguy/what-is-a-kubernetes-operator-53kb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [operatorhub.io](https://operatorhub.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Operator Capability Levels](https://operatorframework.io/operator-capabilities)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Kubernetes Gateway API](https://github.com/kubernetes-sigs/gateway-api) <span class='md-tag md-tag--info'>⭐ 2861</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [InGate: Ingress & Gateway API Controller (Archived)](https://github.com/kubernetes-sigs/ingate) <span class='md-tag md-tag--info'>⭐ 731</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Introduction to Azure Application Gateway for Containers (AGC)](https://blog.cloudtrooper.net/2025/02/28/application-gateway-for-containers-a-not-so-gentle-intro-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Cluster Addons 🌟](https://github.com/kubernetes-sigs/cluster-addons) <span class='md-tag md-tag--info'>⭐ 156</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [K8Spin Operator 🌟](https://github.com/k8spin/k8spin-operator) <span class='md-tag md-tag--info'>⭐ 217</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: K8Spin Provides Multitenant Isolation for Kubernetes](https://thenewstack.io/k8spin-provides-multitenant-isolation-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Discover K8Spin open source software](https://k8spin.cloud/oss-projects)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [K8s KPIs with Kuberhealthy 🌟](https://kubernetes.io/blog/2020/05/29/k8s-kpis-with-kuberhealthy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kueue Release v0.14.0](https://github.com/kubernetes-sigs/kueue/releases/tag/v0.14.0) <span class='md-tag md-tag--info'>⭐ 2513</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [10 Real-World Kubernetes Troubleshooting Scenarios and Solutions](https://livingdevops.com/devops/10-real-world-kubernetes-troubleshooting-scenarios-and-solutions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [The Beginner’s Guide to the Ansible Inventory](https://www.packetcoders.io/the-beginners-guide-to-the-ansible-inventory)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kubernetes.io: Operator pattern](https://kubernetes.io/docs/concepts/extend-kubernetes/operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.com: Build a Kubernetes Operator in 10 minutes with Operator' SDK](https://opensource.com/article/20/3/kubernetes-operator-sdk)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Testing the Operator SDK and making a prefetch mechanism for' Kubernetes](https://itnext.io/testing-the-operator-sdk-and-making-a-prefetch-mechanism-for-kubernetes-7508577efdd7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [magalix.com: Creating Custom Kubernetes Operators](https://www.magalix.com/blog/creating-custom-kubernetes-operators)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com: Writing Your First Kubernetes Operator](https://medium.com/faun/writing-your-first-kubernetes-operator-8f3df4453234)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [bmc.com: What Is a Kubernetes Operator?](https://www.bmc.com/blogs/kubernetes-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: Writing a Kubernetes Operator in Java using Quarkus' - **Cheat Sheet** 🌟](https://developers.redhat.com/cheat-sheets/writing-kubernetes-operator-java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [linuxera.org: Writing Operators using the Operator Framework SDK](https://linuxera.org/writing-operators-using-operator-framework)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: From Zero to Kubernetes Operator](https://medium.com/@victorpaulo/from-zero-to-kubernetes-operator-dd06436b9d89)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [vivilearns2code.github.io: Writing Controllers For Kubernetes Resources](https://vivilearns2code.github.io/k8s/2021/03/11/writing-controllers-for-kubernetes-custom-resources.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -191,13 +191,6 @@ Live Grounding: Provisions GPU drivers, container runtimes, device plug-ins, and
 #### CI-CD Auto-Scaling
 
   - [github.com/actions/actions-runner-controller 🌟](https://github.com/actions/actions-runner-controller) <span class='md-tag md-tag--info'>⭐ 6260</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official Kubernetes operator designed to manage self-hosted runner infrastructure dynamically. Integrates natively with Kubernetes HPA metrics to automatically scale runner pods based on job queues.
-## Cloud-Native Development
-
-### Local Development Tools
-
-#### Comparison Frameworks
-
-  - **(2021)** [rookout.com: Developer Tools for Kubernetes in 2021: Helm, Kustomize, and Skaffold (Part 1)](https://www.dynatrace.com/solutions/observability-for-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A multi-part guide evaluating local-to-remote Kubernetes developer environments. Offers in-depth technical comparisons between Skaffold, Tilt, and Garden for rapid prototyping, highlighting the trade-offs of each system.
 ## GitOps and Continuous Delivery
 
 ### GitOps
@@ -212,14 +205,7 @@ Live Grounding: Provisions GPU drivers, container runtimes, device plug-ins, and
 #### GPU Integration
 
   - [Sharing a NVIDIA GPU Between Pods in Kubernetes](https://www.cloudnativedeepdive.com/sharing-a-nvidia-gpu-between-pods-in-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Explores the technicalities of sharing physical NVIDIA GPUs among multiple Pods in Kubernetes. Covers GPU fractional slicing, Multi-Instance GPU (MIG) strategies, and workload optimization for ML/AI clusters.
-## Security
-
-### Secrets Management
-
-#### Cloud Integrations
-
-  - **(2025)** [Four Methods to Access Azure Key Vault from Azure Kubernetes Service (AKS)](https://techcommunity.microsoft.com/discussions/azurepartners/four-methods-to-access-azure-key-vault-from-azure-kubernetes-service-aks/4376662) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates four approaches to integrate Azure Key Vault secrets within AKS environments. Weighs security architectures including Azure Workload Identity and the Secrets Store CSI driver.
 
 ---
-💡 **Explore Related:** [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Openshift](./openshift.md) | [OCP 4](./ocp4.md)
+💡 **Explore Related:** [Docker](./docker.md) | [Serverless](./serverless.md) | [OCP 3](./ocp3.md)
 

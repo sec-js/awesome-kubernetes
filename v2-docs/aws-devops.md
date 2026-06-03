@@ -27,6 +27,12 @@ Live Grounding: Demonstrates step-by-step scheduling configurations, enabling cr
 Live Grounding: The active development has stalled, but the architecture remains highly relevant for federation research, featuring cross-cluster pod scheduling and proxy-pods.
 ## Public Cloud Infrastructure
 
+### AWS Architecture
+
+#### Multi-Region Blueprints
+
+  - **(2021)** [**Multi-Region Infrastructure Deployment**](https://aws.amazon.com/solutions) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: AWS Solutions library offering reference architectures for high-availability setups.
+Live Grounding: Provides automated CloudFormation and CDK deployment configurations to orchestrate secure application instances across multiple geographical AWS regions.
 ### AWS Ecosystem
 
 #### AI Ops
@@ -71,5 +77,5 @@ Live Grounding: While primarily legacy, it outlines key patterns for mapping sta
 Live Grounding: Detailed comparative resource mapping the architectural equivalents between AWS developer tooling and Azure DevOps systems.
 
 ---
-💡 **Explore Related:** [AWS Tools Scripts](./aws-tools-scripts.md) | [Azure](./azure.md) | [AWS](./aws.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Public Cloud Solutions](./public-cloud-solutions.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
 

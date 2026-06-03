@@ -21,11 +21,8 @@
   - [Google Cloud Platform: GKE Cluster Autoscaler](https://docs.cloud.google.com/kubernetes-engine/docs/concepts/cluster-autoscaler)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [DigitalOcean Kubernetes: DOKS Cluster Autoscaler](https://docs.digitalocean.com/products/kubernetes/how-to/autoscale)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: K8s Resource Management: An Autoscaling Cheat Sheet' 🌟](https://thenewstack.io/k8s-resource-management-an-autoscaling-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/jthomperoo: Predictive Horizontal Pod Autoscaler](https://github.com/jthomperoo/predictive-horizontal-pod-autoscaler) <span class='md-tag md-tag--info'>⭐ 383</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [eksworkshop.com: Configure Cluster Autoscaler (CA)](https://eksworkshop.com/scaling/deploy_ca)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [tomd.xyz: Event-driven integration on Kubernetes with Camel & KEDA](https://tomd.xyz/kubernetes-event-driven-keda)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [OpenShift 3.11: Configuring the cluster auto-scaler in AWS](https://docs.openshift.com/container-platform/3.11/admin_guide/cluster-autoscaler.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [OpenShift 4.4: Applying autoscaling to an OpenShift Container Platform cluster](https://docs.openshift.com/container-platform/4.4/machine_management/applying-autoscaling.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [levelup.gitconnected.com: Effects of Docker Image Size on AutoScaling w.r.t' Single and Multi-Node Kube Cluster](https://levelup.gitconnected.com/effects-of-docker-image-size-on-autoscaling-w-r-t-single-and-multi-node-kube-cluster-29c4f689cd99)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infracloud.io: 3 Autoscaling Projects to Optimise Kubernetes Costs](https://www.infracloud.io/blogs/3-autoscaling-projects-optimising-kubernetes-costs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infracloud.io: Kubernetes Autoscaling with Custom Metrics (updated) 🌟](https://www.infracloud.io/blogs/kubernetes-autoscaling-custom-metrics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -77,6 +74,7 @@
   - [medium.com/@badawekoo: Scaling in Kubernetes _What, Why and How?](https://medium.com/@badawekoo/scaling-in-kubernetes-what-why-and-how-d120e99be071)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [pauldally.medium.com: HorizontalPodAutoscaler uses request (not limit) to' determine when to scale by percent](https://pauldally.medium.com/horizontalpodautoscaler-uses-request-not-limit-to-determine-when-to-scale-97643d808997)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: Scaling Your Application With Kubernetes | Pavan Belagatti](https://dev.to/pavanbelagatti/scaling-your-application-with-kubernetes-5715)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/jthomperoo: Predictive Horizontal Pod Autoscaler](https://github.com/jthomperoo/predictive-horizontal-pod-autoscaler) <span class='md-tag md-tag--info'>⭐ 383</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [waswani.medium.com: Autoscaling Pods in Kubernetes](https://waswani.medium.com/autoscaling-pods-in-kubernetes-37d05000c41)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [mckornfield.medium.com: Working with HPAs in Kubernetes](https://mckornfield.medium.com/working-with-hpas-in-kubernetes-ced39263b596)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [code.egym.de: Vertical Pod Autoscaler in Kubernetes](https://code.egym.de/vertical-pod-autoscaler-in-kubernetes-b12a5c61393f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -103,6 +101,8 @@
   - [github.com/kedacore/keda/issues/2214](https://github.com/kedacore/keda/issues/2214) <span class='md-tag md-tag--info'>⭐ 10216</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [dev.to/vinod827: Scale your apps using KEDA in Kubernetes](https://dev.to/vinod827/scale-your-apps-using-keda-in-kubernetes-4i3h)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [bitnami/cluster-autoscaler](https://hub.docker.com/r/bitnami/cluster-autoscaler)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [OpenShift 3.11: Configuring the cluster auto-scaler in AWS](https://docs.openshift.com/container-platform/3.11/admin_guide/cluster-autoscaler.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [OpenShift 4.4: Applying autoscaling to an OpenShift Container Platform cluster](https://docs.openshift.com/container-platform/4.4/machine_management/applying-autoscaling.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to/danielepolencic: Scaling Kubernetes to multiple clusters and regions' 🌟](https://dev.to/danielepolencic/scaling-kubernetes-to-multiple-clusters-and-regionss-294b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Kubernetes: load-testing and high-load tuning — problems and' solutions](https://itnext.io/kubernetes-load-testing-and-high-load-tuning-problems-and-solutions-244d869a9791)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [engineering.zalando.com: Building an End to End load test automation system' on top of Kubernetes](https://engineering.zalando.com/posts/2021/03/building-an-end-to-end-load-test-automation-system-on-top-of-kubernetes.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -111,5 +111,5 @@
 
 
 ---
-💡 **Explore Related:** [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Docker](./docker.md) | [Serverless](./serverless.md)
 

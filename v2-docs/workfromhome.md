@@ -29,5 +29,5 @@
 
 
 ---
-💡 **Explore Related:** [Interview Questions](./interview-questions.md) | [Elearning](./elearning.md) | [Recruitment](./recruitment.md)
+💡 **Explore Related:** [Elearning](./elearning.md) | [Finops](./finops.md) | [Recruitment](./recruitment.md)
 

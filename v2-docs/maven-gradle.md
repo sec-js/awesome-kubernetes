@@ -56,14 +56,13 @@
 
 ##### Eclipse JKube
 
-  - [developers.redhat.com: Cloud-native Java applications made easy: Eclipse' JKube 1.0.0 now available](https://developers.redhat.com/blog/2020/09/09/cloud-native-java-applications-made-easy-eclipse-jkube-1-0-0-now-available)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Launch announcement of Eclipse JKube 1.0.0 detailing its design philosophy, architectural decoupling from old Fabric8 dependencies, and its seamless integration with modern cloud-native standards.
   - [developers.redhat.com: Java development on top of Kubernetes using Eclipse' JKube](https://developers.redhat.com/blog/2020/08/24/java-development-on-top-of-kubernetes-using-eclipse-jkube)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Exploring developer loop workflows utilizing Eclipse JKube to build, deploy, and debug Java applications in real-time inside a local or remote Kubernetes cluster environment.
+  - [developers.redhat.com: Cloud-native Java applications made easy: Eclipse' JKube 1.0.0 now available](https://developers.redhat.com/blog/2020/09/09/cloud-native-java-applications-made-easy-eclipse-jkube-1-0-0-now-available)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Launch announcement of Eclipse JKube 1.0.0 detailing its design philosophy, architectural decoupling from old Fabric8 dependencies, and its seamless integration with modern cloud-native standards.
   - [blog.marcnuri.com: Eclipse JKube introduction: Java tools and plugins for' Kubernetes and OpenShift](https://blog.marcnuri.com/eclipse-jkube-introduction-kubernetes-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introductory technical blog discussing the architecture of Eclipse JKube and explaining how it decouples deployment mechanisms into Maven/Gradle plugins, providing a highly customizable developer experience.
 #### Migration Guides
 
 ##### Eclipse JKube (1)
 
-  - **(2026)** [**eclipse.org: Migration Guide for projects using Fabric8 Maven Plugin to Eclipse JKube 🌟**](https://eclipse.dev/jkube/docs/migration-guide) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Official technical reference outlining the exact property conversions, API transformations, and plugin changes needed to move builds from `fabric8-maven-plugin` to `jkube-maven-plugin`.
   - [developers.redhat.com: Migrating from Fabric8 Maven Plugin to Eclipse JKube' 1.0.0](https://developers.redhat.com/blog/2020/09/21/migrating-from-fabric8-maven-plugin-to-eclipse-jkube-1-0-0)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Step-by-step technical guide highlighting the namespace transitions, configuration changes, and structural refactoring required when migrating legacy Fabric8 Maven build files to the modernized Eclipse JKube.
 #### Product Updates
 
@@ -181,5 +180,5 @@
   - [JBang](https://www.jbang.dev)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A CLI tool allowing Java developers to run single-file source code programs as executable scripts, handling dependency fetching on-the-fly without heavy project setups.
 
 ---
-💡 **Explore Related:** [Python](./python.md) | [Visual Studio](./visual-studio.md) | [API](./api.md)
+💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [Visual Studio](./visual-studio.md) | [Python](./python.md)
 

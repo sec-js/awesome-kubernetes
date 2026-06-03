@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.3.40]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.40) - 2026-06-03
+
+### Removed
+- **Deprecated AWS Quick Start Reference**: Confirmed retirement of the AWS Quick Starts program (replaced globally by AWS Partner Solutions), removed `https://aws.amazon.com/es/quickstart` from the centralized inventory database, and updated the V1 and V2 documentation files to delete the dead references.
+
 ## [[2.3.39]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.39) - 2026-06-02
 
 ### Added

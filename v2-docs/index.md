@@ -62,9 +62,9 @@
     2. **Standard Layer (Mapped)**: Resources identified as candidates for Elite status but pending deep AI analysis.
 
     **Current Inventory Coverage:**
-    - **V1 Base Inventory**: 18357 total resources analyzed.
-    - **V2 Elite Selection**: 14190 candidates identified (77.3% density ratio).
-    - **AI Enrichment Coverage**: 2853 / 14190 (20.11%)
+    - **V1 Base Inventory**: 18356 total resources analyzed.
+    - **V2 Elite Selection**: 14189 candidates identified (77.3% density ratio).
+    - **AI Enrichment Coverage**: 2852 / 14189 (20.1%)
     - **GitHub Metadata Coverage**: 1451 / 1763 (82.3%) - *Critical for Maturity Tagging*
     - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.
 
@@ -117,8 +117,8 @@
 - **(N/A)** [**==Think Python==**](https://allendowney.github.io/ThinkPython) 🌟🌟🌟🌟
 - **(N/A)** [**==Angry IP Scanner (or simply ipscan)==**](https://angryip.org) 🌟🌟🌟🌟
 - **(N/A)** [**==Whitepaper: Migrating Your Databases to AWS==**](https://aws.amazon.com/dms/?audit=2019q1) 🌟🌟🌟🌟
-- **(N/A)** [**==AWS Quick Start Reference Deployments==**](https://aws.amazon.com/es/quickstart) 🌟🌟🌟🌟
 - **(N/A)** [**==blog.awsfundamentals.com: AWS S3 Sync - An Extensive Guide==**](https://awsfundamentals.com/blog/aws-s3-sync) 🌟🌟🌟🌟
+- **(N/A)** [**==Clean Architecture on Frontend==**](https://bespoyasov.me/blog/clean-architecture-on-frontend) 🌟🌟🌟🌟
 
 ## Strategic Dimensions
 - **[🎥 Agentic Video Hub (Architectural Summary)](./videos/index.md)**
