@@ -25,6 +25,7 @@
   - [SwaggerHub: Free Web Service](https://swagger.io/product)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [any-api.com](https://marketplace.apilayer.com/?utm_source=any-api&utm_medium=any-api-redirection&utm_campaign=any-api-redirection)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Mux: The API to Video](https://www.mux.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [softwareengineeringdaily.com: Kubernetes vs. Serverless with Matt Ward (podcast) 🌟](https://softwareengineeringdaily.com/2020/12/29/kubernetes-vs-serverless-with-matt-ward-repeat)
+  - [https://swagger.io/](https://swagger.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Devdocs.io API Documentation 🌟](https://devdocs.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [wikipedia: API Application Programming Interface](https://simple.wikipedia.org/wiki/Application_programming_interface)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [postman.com: What is an API?](https://www.postman.com/what-is-an-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -150,7 +151,6 @@
   - [openapi-comment-parser](https://github.com/bee-travels/openapi-comment-parser) <span class='md-tag md-tag--info'>⭐ 256</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [IBM creates an open source tool to simplify API documentation](https://www.techrepublic.com/article/ibm-creates-an-open-source-tool-to-simplify-api-documentation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [API Business Models. 20 Models in 20 Minutes](https://www.infoq.com/presentations/API-Business-Models)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [https://swagger.io/](https://swagger.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [softwareengineeringdaily.com: Kubernetes vs. Serverless with Matt Ward (podcast)' 🌟](https://softwareengineeringdaily.com/2020/12/29/kubernetes-vs-serverless-with-matt-ward-repeat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Development Tools
@@ -169,5 +169,5 @@
   - [Cerebras AI](https://www.cerebras.ai) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Architectural hub detailing wafer-scale AI processors built to tackle compute limits. Facilitates unprecedented deep-learning model execution with extreme localized bandwidth optimizations.
 
 ---
-💡 **Explore Related:** [Python](./python.md) | [Visual Studio](./visual-studio.md) | [Golang](./golang.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Visual Studio](./visual-studio.md)
 

@@ -144,6 +144,9 @@
 
   - [thenewstack.io: 12 Critical Kubernetes Health Conditions You Need to Monitor](https://thenewstack.io/12-critical-kubernetes-health-conditions-you-need-to-monitor)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compiles 12 critical cluster health indicators that platform engineers should monitor. Covers specific warning metrics like CrashLoopBackOff, disk pressure thresholds, and API server request latency bounds.
   - [circonus.com: 12 Critical Kubernetes Health Conditions You Need to Monitor' and Why](https://www.circonus.com/2020/12/12-critical-kubernetes-health-conditions-you-need-to-monitor-and-why)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An alternative perspective highlighting twelve crucial Kubernetes metrics. Explains why etcd leader election loss, system OOMs, and PVC storage saturation require high-priority automated alerts.
+#### Enterprise Best Practices
+
+  - **(2022)** [sysdig.com: Seven Kubernetes monitoring best practices every monitoring solution should enable](https://www.sysdig.com/blog/kubernetes-monitoring-best-practices) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Sysdig's analysis outlining seven foundational best practices for Kubernetes metric collection. Focuses on cluster plane telemetry, standard label metadata usage, dynamic scraping strategies, and optimizing alert signal-to-noise ratios.
 #### Introduction
 
   - [circonus.com: Guide to Kubernetes Monitoring: Part 1](https://www.circonus.com/2020/09/guide-to-kubernetes-monitoring-part-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Part one of a introductory series detailing the evolution of Kubernetes observability. Outlines how pull-based metrics scrape architectures operate and explains why traditional host-centric monitoring fails in containerized runtime environments.
@@ -259,5 +262,5 @@
   - [signoz.io: Kubernetes Audit Logs - Best Practices And Configuration](https://signoz.io/blog/kubernetes-audit-logs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Outlines advanced configuration policies for the Kubernetes API audit logging engine. Deeply covers audit profiles, performance tuning, secure log transport, and compliance-driven retention metrics.
 
 ---
-💡 **Explore Related:** [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [OCP 3](./ocp3.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
 
