@@ -74,7 +74,7 @@ extra:
 extra_css:
   - https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap
   - static/extra.css
-  - static/v2_elite.css?v=2.3.42
+  - static/v2_elite.css?v=2.3.44
 
 markdown_extensions:
   - admonition
