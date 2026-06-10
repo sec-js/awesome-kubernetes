@@ -20,6 +20,7 @@
   - [brennerm.github.io: Kubernetes operators with Python #1: Creating CRDs](https://shipit.dev/posts/k8s-operators-with-python-part-1.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [metalbear.co: Writing a Kubernetes Operator](https://metalbear.com/blog/writing-a-kubernetes-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [KPIs](https://www.kpi.org/KPI-Basics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [operatorhub.io](https://operatorhub.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [How Kubernetes Operators Fit into Platform Building and When Traditional IaC Isn't Enough](https://www.thestack.technology/how-kubernetes-operators-fit-into-to-platform-building-and-when-traditional-iac-isnt-enough)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hashicorp.com: Creating Workspaces with the HashiCorp Terraform Operator' for Kubernetes](https://www.hashicorp.com/blog/creating-workspaces-with-the-hashicorp-terraform-operator-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [banzaicloud.com: Kafka rolling upgrade made easy with Supertubes](https://banzaicloud.com/blog/kafka-rolling-upgrade)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -78,7 +79,6 @@
   - [Keel 🌟](https://github.com/keel-hq/keel) <span class='md-tag md-tag--info'>⭐ 2711</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@mjkool: Kubernetes Operator — Simplified!](https://medium.com/@mjkool/kubernetes-operator-simplified-96b8c8f7e627)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@timebertt: Kubernetes Controllers at Scale: Clients, Caches,' Conflicts, Patches Explained](https://medium.com/@timebertt/kubernetes-controllers-at-scale-clients-caches-conflicts-patches-explained-aa0f7a8b4332)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [openshift/machine-api-operator](https://github.com/openshift/machine-api-operator) <span class='md-tag md-tag--info'>⭐ 185</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [rancher/system-upgrade-controller: System Upgrade Controller](https://github.com/rancher/system-upgrade-controller) <span class='md-tag md-tag--info'>⭐ 947</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [alenkacz.medium.com: Kubernetes operator best practices: Implementing observedGeneration](https://alenkacz.medium.com/kubernetes-operator-best-practices-implementing-observedgeneration-250728868792)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ckotzbauer/vulnerability-operator](https://github.com/ckotzbauer/vulnerability-operator) <span class='md-tag md-tag--info'>⭐ 87</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -128,7 +128,6 @@
   - [medium.com/geekculture: A New Pattern that Simplifies Operator Building](https://medium.com/geekculture/a-new-pattern-that-simplifies-operator-building-39df5d021cfa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [qdnqn.com: Creating Kubernetes operator using Kubebuilder](https://qdnqn.com/creating-kubernetes-operator-using-kubebuilder)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to/thenjdevopsguy: What Is A Kubernetes Operator?](https://dev.to/thenjdevopsguy/what-is-a-kubernetes-operator-53kb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [operatorhub.io](https://operatorhub.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Operator Capability Levels](https://operatorframework.io/operator-capabilities)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kubernetes Gateway API](https://github.com/kubernetes-sigs/gateway-api) <span class='md-tag md-tag--info'>⭐ 2861</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [InGate: Ingress & Gateway API Controller (Archived)](https://github.com/kubernetes-sigs/ingate) <span class='md-tag md-tag--info'>⭐ 731</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -221,5 +220,5 @@ Live Grounding: Provisions GPU drivers, container runtimes, device plug-ins, and
   - **(2025)** [Four Methods to Access Azure Key Vault from Azure Kubernetes Service (AKS)](https://techcommunity.microsoft.com/discussions/azurepartners/four-methods-to-access-azure-key-vault-from-azure-kubernetes-service-aks/4376662) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates four approaches to integrate Azure Key Vault secrets within AKS environments. Weighs security architectures including Azure Workload Identity and the Secrets Store CSI driver.
 
 ---
-💡 **Explore Related:** [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Openshift](./openshift.md) | [OCP 4](./ocp4.md)
+💡 **Explore Related:** [OCP 3](./ocp3.md) | [OCP 4](./ocp4.md) | [Openshift](./openshift.md)
 

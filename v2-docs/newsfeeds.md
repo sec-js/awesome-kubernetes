@@ -5,13 +5,13 @@
 
 ## Standard Reference
 
-  - [GitLab Collective](https://stackoverflow.com/collectives/gitlab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [reddit.com/r/jenkinsci](https://www.reddit.com/r/jenkinsci)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [reddit.com/r/openshift](https://www.reddit.com/r/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [reddit.com/r/redhat](https://www.reddit.com/r/redhat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [reddit.com/r/java](https://www.reddit.com/r/java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [reddit.com/r/devops](https://www.reddit.com/r/devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [reddit.com/r/kubernetes](https://www.reddit.com/r/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [reddit.com/r/jenkinsci](https://www.reddit.com/r/jenkinsci)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [nativecloud.dev 🌟](https://nativecloud.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [GitLab Collective](https://stackoverflow.com/collectives/gitlab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [reddit.com/r/devops](https://www.reddit.com/r/devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [reddit.com/r/maven](https://www.reddit.com/r/maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [reddit.com/r/gradle](https://www.reddit.com/r/gradle)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [reddit.com/r/azuredevops](https://www.reddit.com/r/azuredevops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -30,16 +30,16 @@
   - [reddit.com/r/ansible](https://www.reddit.com/r/ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [reddit.com/r/postgres](https://www.reddit.com/r/postgres)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [reddit.com/r/git](https://www.reddit.com/r/git)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [reddit.com/r/java](https://www.reddit.com/r/java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [reddit.com/r/python](https://www.reddit.com/r/Python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [reddit.com/r/bashonubuntuonwindows](https://www.reddit.com/r/bashonubuntuonwindows)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [crunchbase.com](https://www.crunchbase.com/organization/openshift/timeline/timeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [feedly.com](https://feedly.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [nativecloud.dev 🌟](https://nativecloud.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kube Events](https://kube.events)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Stack Overflow Collectives 🌟](https://stackoverflow.com/collectives)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Go Collective](https://stackoverflow.com/collectives/go)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 
 ---
-💡 **Explore Related:** [Interview Questions](./interview-questions.md) | [Elearning](./elearning.md) | [Recruitment](./recruitment.md)
+💡 **Explore Related:** [HR](./hr.md) | [Elearning](./elearning.md) | [Workfromhome](./workfromhome.md)
 

@@ -5,7 +5,6 @@
 
 ## Standard Reference
 
-  - [victoriametrics.com: Q2 2024 Round Up: VictoriaMetrics & VictoriaLogs Updates](https://victoriametrics.com/blog/q2-2024-round-up-victoriametrics-and-victorialogs-updates/index.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Just How Challenging Is State in Kubernetes? 🌟](https://thenewstack.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [theregister.com: 75% of databases to be cloud-hosted by 2022, says Gartner while dishing on the weak points of each provider](https://www.theregister.com/software/2020/12/02/75-of-databases-to-be-cloud-hosted-by-2022-says-gartner-while-dishing-on-the-weak-points-of-each-provider/495782)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [percona.com: DBaaS on Kubernetes: Under the Hood 🌟](https://www.percona.com/blog/dbaas-on-kubernetes-under-the-hood)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -39,9 +38,8 @@
   - [Percona.com: Percona Kubernetes Operator for Percona XtraDB Cluster](https://docs.percona.com/percona-operator-for-mysql/pxc/index.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [percona.com: MySQL 101: How to Find and Tune a Slow SQL Query](https://www.percona.com/blog/mysql-101-how-to-find-and-tune-a-slow-sql-query)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [percona.com: Storing Kubernetes Operator for Percona Server for MongoDB Secrets in Github](https://www.percona.com/blog/storing-kubernetes-operator-for-percona-server-for-mongodb-secrets-in-github)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [victoriametrics.com: Q2 2024 Round Up: VictoriaMetrics & VictoriaLogs Updates](https://victoriametrics.com/blog/q2-2024-round-up-victoriametrics-and-victorialogs-updates/index.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Operator Lifecycle Manager](https://itnext.io/wth-is-a-operator-lifecycle-manager-873cf1661b04)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [xataka.com: El Excel se ha usado en la Fórmula 1 hasta que se han dado cuenta' que no es la mejor forma de controlar las 20.000 piezas del coche](https://www.xataka.com/automovil/excel-se-ha-usado-formula-1-que-se-han-dado-cuenta-que-no-mejor-forma-controlar-20-000-piezas-coche)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [victoriametrics.com](https://victoriametrics.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: How Database Load Balancing Completes the 3-Tiered Architecture' 🌟](https://thenewstack.io/database-load-balancing-and-the-delusion-of-3-tiered-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [sqlshack.com: SQL Database on Kubernetes: Considerations and Best Practices' 🌟](https://www.sqlshack.com/sql-database-on-kubernetes-considerations-and-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: What Is Data Management in the Kubernetes Age?](https://thenewstack.io/what-is-data-management-in-the-kubernetes-age)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -161,6 +159,7 @@
   - [Apache Druid](https://druid.apache.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: Apache Druid: overview, running in Kubernetes and monitoring with' Prometheus](https://dev.to/setevoy/apache-druid-overview-running-in-kubernetes-and-monitoring-with-prometheus-g5j)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/dolthub/dolt](https://github.com/dolthub/dolt) <span class='md-tag md-tag--info'>⭐ 22792</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [victoriametrics.com](https://victoriametrics.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [SHMIG](https://github.com/mbucc/shmig) <span class='md-tag md-tag--info'>⭐ 474</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [DATA-DOG/go-sqlmock](https://github.com/DATA-DOG/go-sqlmock) <span class='md-tag md-tag--info'>⭐ 6550</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [datafold/data-diff](https://github.com/datafold/data-diff) <span class='md-tag md-tag--info'>⭐ 2987</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -173,6 +172,7 @@
   - [unifieddatascience.com: Data lake design patterns on google (GCP) cloud](https://www.unifieddatascience.com/data-lake-design-patterns-on-google-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [SQErzo: Tiny ORM for Graph databases](https://github.com/BBVA/sqerzo) <span class='md-tag md-tag--info'>⭐ 35</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [towardsdatascience.com: At Its Core: How Is a Graph Database Different from' a Relational One?](https://towardsdatascience.com/at-its-core-hows-a-graph-database-different-from-a-relational-8297ca99cb8f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [xataka.com: El Excel se ha usado en la Fórmula 1 hasta que se han dado cuenta' que no es la mejor forma de controlar las 20.000 piezas del coche](https://www.xataka.com/automovil/excel-se-ha-usado-formula-1-que-se-han-dado-cuenta-que-no-mejor-forma-controlar-20-000-piezas-coche)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Cluster Management
 
@@ -197,5 +197,5 @@
   - [SQL Studio: A Unified SQL Database Explorer](https://github.com/frectonz/sql-studio) <span class='md-tag md-tag--info'>⭐ 3539</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A single-binary SQL database administrator interface written in Rust. It streamlines querying, schema inspection, and data visualization across multiple RDBMS engines (including SQLite, PostgreSQL, and MySQL) in resource-constrained containerized runtimes.
 
 ---
-💡 **Explore Related:** [Crunchydata](./crunchydata.md) | [Message Queue](./message-queue.md) | [Yaml](./yaml.md)
+💡 **Explore Related:** [Crunchydata](./crunchydata.md) | [Yaml](./yaml.md) | [Message Queue](./message-queue.md)
 

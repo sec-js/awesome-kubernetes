@@ -6,9 +6,9 @@
 ## Standard Reference
 
   - [tutorialspoint.com](http://www.tutorialspoint.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [learn.openshift.com](https://learn.openshift.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hashicorp.com: HashiCorp Learning Resources Reference Guide 🌟](https://www.hashicorp.com/blog/hashicorp-learning-resources-reference-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [wiki.bash-hackers.org](https://wiki.bash-hackers.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [learn.openshift.com](https://learn.openshift.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [zeef.com: e-learning](https://e-learning.zeef.com/tracy.parish)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Udemy.com](https://www.udemy.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Udacity.com](https://eu.udacity.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -121,5 +121,5 @@
   - [techiescamp/devops-projects:Real-World DevOps Projects For Learning](https://github.com/techiescamp/devops-projects)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A curated GitHub repository containing end-to-end real-world DevOps projects. Implements standard infrastructure-as-code deployments, multi-tier CI/CD pipelines, and structured orchestration designs.
 
 ---
-💡 **Explore Related:** [Interview Questions](./interview-questions.md) | [Recruitment](./recruitment.md) | [Finops](./finops.md)
+💡 **Explore Related:** [HR](./hr.md) | [Newsfeeds](./newsfeeds.md) | [Workfromhome](./workfromhome.md)
 

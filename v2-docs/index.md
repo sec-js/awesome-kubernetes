@@ -62,9 +62,9 @@
     2. **Standard Layer (Mapped)**: Resources identified as candidates for Elite status but pending deep AI analysis.
 
     **Current Inventory Coverage:**
-    - **V1 Base Inventory**: 18357 total resources analyzed.
-    - **V2 Elite Selection**: 14189 candidates identified (77.29% density ratio).
-    - **AI Enrichment Coverage**: 2852 / 14189 (20.1%)
+    - **V1 Base Inventory**: 18358 total resources analyzed.
+    - **V2 Elite Selection**: 14190 candidates identified (77.3% density ratio).
+    - **AI Enrichment Coverage**: 2852 / 14190 (20.1%)
     - **GitHub Metadata Coverage**: 1451 / 1763 (82.3%) - *Critical for Maturity Tagging*
     - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.
 
@@ -72,7 +72,7 @@
 <center markdown="1">
 <div markdown="1" style="border: 1px solid #8b5cf6; border-radius: 8px; padding: 10px; margin: 8px 0; background: rgba(255, 255, 255, 0.01);" title="AI & Advanced Tech">
 
-[![Google Gemini](images/google_gemini_logo.png){: style="width:48px; height:48px; object-fit:contain; margin:6px;" .channel-logo}](https://www.youtube.com/@GoogleGemini) [![Google DeepMind](images/google_deepmind_logo.png){: style="width:48px; height:48px; object-fit:contain; margin:6px;" .channel-logo}](https://www.youtube.com/@googledeepmind) [![Anthropic](images/anthropic_logo.png){: style="width:48px; height:48px; object-fit:contain; margin:6px;" .channel-logo}](https://www.youtube.com/@anthropic-ai) [![OpenAI](images/openai_logo.png){: style="width:48px; height:48px; object-fit:contain; margin:6px;" .channel-logo}](https://www.youtube.com/OpenAI) [![Meta AI](images/meta_ai_logo.png){: style="width:48px; height:48px; object-fit:contain; margin:6px;" .channel-logo}](https://www.youtube.com/@aiatmeta) [![Microsoft Copilot](images/microsoft_copilot_logo.png){: style="width:48px; height:48px; object-fit:contain; margin:6px;" .channel-logo}](https://www.youtube.com/@Microsoft.Copilot) [![Microsoft Reactor](images/microsoft_reactor_logo.png){: style="width:48px; height:48px; object-fit:contain; margin:6px;" .channel-logo}](https://www.youtube.com/@MicrosoftReactor) [![dotcsv](images/dotcsv.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" .channel-logo}](https://www.youtube.com/@DotCSV)
+[![Google Gemini](images/google_gemini_logo.png){: style="width:48px; height:48px; object-fit:contain; margin:6px;" .channel-logo}](https://www.youtube.com/@GoogleGemini) [![Google DeepMind](images/google_deepmind_logo.png){: style="width:48px; height:48px; object-fit:contain; margin:6px;" .channel-logo}](https://www.youtube.com/@googledeepmind) [![Anthropic](images/anthropic_logo.png){: style="width:48px; height:48px; object-fit:contain; margin:6px;" .channel-logo}](https://www.youtube.com/@anthropic-ai) [![OpenAI](images/openai_logo.png){: style="width:48px; height:48px; object-fit:contain; margin:6px;" .channel-logo}](https://www.youtube.com/OpenAI) [![Meta AI](images/meta_ai_logo.png){: style="width:48px; height:48px; object-fit:contain; margin:6px;" .channel-logo}](https://www.youtube.com/@aiatmeta) [![Microsoft Copilot](images/microsoft_copilot_logo.png){: style="width:48px; height:48px; object-fit:contain; margin:6px;" .channel-logo}](https://www.youtube.com/@Microsoft.Copilot) [![Microsoft Reactor](images/microsoft_reactor_logo.png){: style="width:48px; height:48px; object-fit:contain; margin:6px;" .channel-logo}](https://www.youtube.com/@MicrosoftReactor) [![dotcsv](images/dotcsv.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" .channel-logo}](https://www.youtube.com/@DotCSV) [![Gustavo Entrala](images/gustavo_entrala.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" .channel-logo}](https://www.youtube.com/@gustavo-entrala)
 
 </div>
 

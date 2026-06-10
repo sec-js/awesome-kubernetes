@@ -20,11 +20,11 @@
   - [BBVA API Market](https://www.bbvaapimarket.com/es)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ING Developer Portal](https://developer.ing.com/openbanking)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [ING API Marketplace](https://developer.ing.com/openbanking/api-marketplace/marketplace)
   - [Telefonica Thinking Cities](https://thinking-cities.readthedocs.io/en/latest)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Open Source Friday: Spec Kit - What it is, the problems it solves, and how' clear specs make collaboration work](https://www.youtube.com/live/2IArMAhkJcE?si=_LlIjakRXHUzERjy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [BMW InnovationLab](https://github.com/BMW-InnovationLab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Public APIs Directory](https://publicapis.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Rapid API](https://rapidapi.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Open Banking](https://en.wikipedia.org/wiki/Open_banking)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [BMW InnovationLab](https://github.com/BMW-InnovationLab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Open Source Friday: Spec Kit - What it is, the problems it solves, and how' clear specs make collaboration work](https://www.youtube.com/live/2IArMAhkJcE?si=_LlIjakRXHUzERjy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Layering domains and microservices using API Gateways](https://kislayverma.com/software-architecture/layering-domains-and-microservices-using-api-gateways)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.oliverjumpertz.dev: The 10 Most Valuable Lessons I Learned As A Developer](https://blog.oliverjumpertz.dev/the-10-most-valuable-lessons-i-learned-as-a-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [genbeta.com: 32.000 desarrolladores responden sobre plataformas y lenguajes' de programación: JavaScript, AWS, GitHub y Windows, los más usados](https://www.genbeta.com/desarrollo/32-000-desarrolladores-responden-plataformas-lenguajes-programacion-javascript-aws-github-windows-usados)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -159,5 +159,5 @@ Live Grounding: Delivers strategic instruction on utilizing AI capabilities, cod
   - **(2024)** [**GitHub Copilot CLI for Beginners: Getting Started**](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli/?utm_source=twitter-cli-beginners-getting-started-cta&utm_medium=social&utm_campaign=dev-pod-copilot-cli-2026) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Introductory guide explaining how to integrate the terminal-based GitHub Copilot CLI to leverage natural-language shell queries, automating script development and git lifecycle executions.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [QA](./qa.md) | [Project Management Methodology](./project-management-methodology.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Scaffolding](./scaffolding.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md)
 
