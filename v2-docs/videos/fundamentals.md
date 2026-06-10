@@ -30,53 +30,13 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
 
     </center>
 
-??? note "🎬 Kubernetes New Contributor Orientation for 2026-02-17"
-    !!! info "Architectural Summary"
-        This orientation session provides an architectural overview of the Kubernetes upstream community, detailing the organizational hierarchy of Special Interest Groups (SIGs) and Working Groups. It guides new contributors through the technical contribution pipeline, highlighting Git workflows, Prow-based automation for PR testing and labeling, and the governance frameworks that sustain the core platform. Understanding these mechanisms is crucial for cloud-native engineers aiming to effectively drive features and maintenance within the ecosystem's foundational orchestrator.
-
-    <center markdown="1">
-
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/F3al0HP0MNo" title="Kubernetes New Contributor Orientation for 2026-02-17" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
-
-    </center>
-
-??? note "🎬 Kubernetes New Contributor Orientation for 2026-03-17"
-    !!! info "Architectural Summary"
-        This onboarding guide details the governance, contribution lifecycle, and development workflows of the Kubernetes ecosystem, highlighting the role of Special Interest Groups (SIGs) and the Prow-based CI/CD automation pipeline. It offers essential technical instruction for configuring local development environments, interacting with community repositories, and adhering to testing standards required for upstream cloud-native contributions.
-
-    <center markdown="1">
-
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/gkcZEXqkmZM" title="Kubernetes New Contributor Orientation for 2026-03-17" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
-
-    </center>
-
 ??? note "🎬 Kubernetes New Contributor Orientation"
     !!! info "Architectural Summary"
-        This orientation session provides an essential entry point for developers looking to contribute to the Kubernetes ecosystem, detailing the organizational dynamics of Special Interest Groups (SIGs) and the architectural workflow of the project. It covers the technical mechanics of the Kubernetes contribution pipeline, including Git workflows, Prow-based automated testing, and the lifecycle of Kubernetes Enhancement Proposals (KEPs) to ensure high-quality, scalable code contributions.
+        This onboarding session details the essential governance, codebase organization, and automated release mechanics of the Kubernetes project, guiding new engineers through Special Interest Groups (SIGs) and the Prow-based ChatOps CI/CD workflow. It delivers a structured pathway for landing code and documentation contributions, establishing the foundational open-source engineering practices required to maintain and scale modern cloud-native infrastructure.
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/B_8vYxurU4k" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
-
-    </center>
-
-??? note "🎬 Kubernetes New Contributor Orientation"
-    !!! info "Architectural Summary"
-        This onboarding session outlines the governance framework of Kubernetes Special Interest Groups (SIGs) and the technical workflows required to contribute to the ecosystem. It provides critical guidance on navigating community repositories, leveraging automated testing infrastructure (Prow), and adhering to code review standards essential for scaling cloud-native contributions.
-
-    <center markdown="1">
-
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/Frje5KfNrxE" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
-
-    </center>
-
-??? note "🎬 Kubernetes New Contributor Orientation"
-    !!! info "Architectural Summary"
-        This orientation session provides a comprehensive guide for aspiring Kubernetes contributors, detailing the community's organizational structure across Special Interest Groups (SIGs) and Working Groups. It covers essential technical workflows, including GitHub PR submission pipelines, Prow-based automation testing, and the critical role of OWNERS files in codebase governance, establishing a clear pathway for developers to participate in cloud-native open-source development.
-
-    <center markdown="1">
-
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/V3Sq0Fgy3ds" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/36aGHlsxlow" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -92,21 +52,51 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
 
 ??? note "🎬 Kubernetes New Contributor Orientation"
     !!! info "Architectural Summary"
-        This onboarding session guides developers through the foundational governance, structure, and technical workflows required to contribute to the Kubernetes ecosystem. It details the organizational architecture of Special Interest Groups (SIGs) and demystifies the GitHub-based development flow, highlighting automated CI/CD tooling like Prow for PR testing and triage. It provides a strategic entry point for engineers looking to influence and maintain core cloud-native orchestration systems.
+        This orientation session provides an essential entry point for developers looking to contribute to the Kubernetes ecosystem, detailing the organizational dynamics of Special Interest Groups (SIGs) and the architectural workflow of the project. It covers the technical mechanics of the Kubernetes contribution pipeline, including Git workflows, Prow-based automated testing, and the lifecycle of Kubernetes Enhancement Proposals (KEPs) to ensure high-quality, scalable code contributions.
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/l2HpdgRFtN0" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/B_8vYxurU4k" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Kubernetes New Contributor Orientation for 2026-02-17"
+    !!! info "Architectural Summary"
+        This orientation session provides an architectural overview of the Kubernetes upstream community, detailing the organizational hierarchy of Special Interest Groups (SIGs) and Working Groups. It guides new contributors through the technical contribution pipeline, highlighting Git workflows, Prow-based automation for PR testing and labeling, and the governance frameworks that sustain the core platform. Understanding these mechanisms is crucial for cloud-native engineers aiming to effectively drive features and maintenance within the ecosystem's foundational orchestrator.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/F3al0HP0MNo" title="Kubernetes New Contributor Orientation for 2026-02-17" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
 ??? note "🎬 Kubernetes New Contributor Orientation"
     !!! info "Architectural Summary"
-        This onboarding session details the essential governance, codebase organization, and automated release mechanics of the Kubernetes project, guiding new engineers through Special Interest Groups (SIGs) and the Prow-based ChatOps CI/CD workflow. It delivers a structured pathway for landing code and documentation contributions, establishing the foundational open-source engineering practices required to maintain and scale modern cloud-native infrastructure.
+        This onboarding session outlines the governance framework of Kubernetes Special Interest Groups (SIGs) and the technical workflows required to contribute to the ecosystem. It provides critical guidance on navigating community repositories, leveraging automated testing infrastructure (Prow), and adhering to code review standards essential for scaling cloud-native contributions.
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/36aGHlsxlow" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/Frje5KfNrxE" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Kubernetes New Contributor Orientation"
+    !!! info "Architectural Summary"
+        This orientation outlines the governance, SIG (Special Interest Group) structure, and contribution pipelines crucial for participating in the development of the Kubernetes ecosystem. It details the technical workflow of submitting contributions, including navigating the repository layout, adhering to OWNERS files guidelines, and leveraging Prow-based automated testing. Mastering these processes empowers cloud native architects in 2026 to successfully upstream optimizations, maintain enterprise forks, and directly influence upstream API standards.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/J7R-T9Y1x3Y" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Kubernetes New Contributor Orientation"
+    !!! info "Architectural Summary"
+        This orientation session provides a comprehensive guide for aspiring Kubernetes contributors, detailing the community's organizational structure across Special Interest Groups (SIGs) and Working Groups. It covers essential technical workflows, including GitHub PR submission pipelines, Prow-based automation testing, and the critical role of OWNERS files in codebase governance, establishing a clear pathway for developers to participate in cloud-native open-source development.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/V3Sq0Fgy3ds" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -120,13 +110,23 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
 
     </center>
 
-??? note "🎬 Kubernetes New Contributor Orientation"
+??? note "🎬 Kubernetes New Contributor Orientation for 2026-03-17"
     !!! info "Architectural Summary"
-        This orientation outlines the governance, SIG (Special Interest Group) structure, and contribution pipelines crucial for participating in the development of the Kubernetes ecosystem. It details the technical workflow of submitting contributions, including navigating the repository layout, adhering to OWNERS files guidelines, and leveraging Prow-based automated testing. Mastering these processes empowers cloud native architects in 2026 to successfully upstream optimizations, maintain enterprise forks, and directly influence upstream API standards.
+        This onboarding guide details the governance, contribution lifecycle, and development workflows of the Kubernetes ecosystem, highlighting the role of Special Interest Groups (SIGs) and the Prow-based CI/CD automation pipeline. It offers essential technical instruction for configuring local development environments, interacting with community repositories, and adhering to testing standards required for upstream cloud-native contributions.
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/J7R-T9Y1x3Y" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/gkcZEXqkmZM" title="Kubernetes New Contributor Orientation for 2026-03-17" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Kubernetes New Contributor Orientation"
+    !!! info "Architectural Summary"
+        This onboarding session guides developers through the foundational governance, structure, and technical workflows required to contribute to the Kubernetes ecosystem. It details the organizational architecture of Special Interest Groups (SIGs) and demystifies the GitHub-based development flow, highlighting automated CI/CD tooling like Prow for PR testing and triage. It provides a strategic entry point for engineers looking to influence and maintain core cloud-native orchestration systems.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/l2HpdgRFtN0" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
