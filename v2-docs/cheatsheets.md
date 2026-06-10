@@ -5,11 +5,11 @@
 
 ## Standard Reference
 
-  - [googlecloudcheatsheet.withgoogle.com: Google Cloud Developer cheat sheet](https://cloud.google.com/products)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cheat-sheets.org 🌟](http://www.cheat-sheets.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ABZ-Aaron/CheatSheets](https://github.com/ABZ-Aaron/cheat-sheets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [supple.com.au: Google advanced search operators tips and tricks](https://supple.com.au/tools/google-advance-search-operators)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [tutorialsdojo.com: AWS Cheat Sheets 🌟](https://tutorialsdojo.com/aws-cheat-sheets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [googlecloudcheatsheet.withgoogle.com: Google Cloud Developer cheat sheet](https://cloud.google.com/products)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes.io 🌟](https://kubernetes.io/docs/reference/kubectl/quick-reference)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jimmysong.io: kubectl cheat sheet 🌟](https://jimmysong.io/zh/book/kubernetes-handbook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github: K8s in 30 mins 🌟](https://github.com/rosehgal/k8s-In-30Mins) <span class='md-tag md-tag--info'>⭐ 211</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -40,7 +40,6 @@
   - [developer.mongodb.com: MongoDB Cheat Sheet](https://www.mongodb.com/docs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hackingcpp.com: C++ Cheat Sheets](https://hackingcpp.com/cpp/cheat_sheets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [lambdatest.com: The Ultimate Selenium Python Cheat Sheet for Test Automation](https://www.testmuai.com/blog/selenium-python-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone refcard: Getting Started With OpenShift 🌟](https://dzone.com/refcardz/getting-started-with-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Writing a Kubernetes Operator in Java using Quarkus' - **Cheat Sheet** 🌟](https://developers.redhat.com/cheat-sheets/writing-kubernetes-operator-java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [wizardzines.com 🌟](https://wizardzines.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cheatography.com](https://cheatography.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -183,6 +182,7 @@
   - [github.com: openshift cheat sheet 3](https://github.com/mhausenblas/openshift-cheat-sheet) <span class='md-tag md-tag--info'>⭐ 6</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [monodot.co.uk: openshift cheat sheet 4](https://monodot.co.uk/openshift-cheatsheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openshift.tips](https://openshift.tips)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone refcard: Getting Started With OpenShift 🌟](https://dzone.com/refcardz/getting-started-with-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cookbook.openshift.org 🌟](https://cookbook.openshift.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cookbook.openshift.org: How do I import an image from an external image' registry? 🌟](https://cookbook.openshift.org/image-registry-and-image-streams/how-do-i-import-an-image-from-an-external-image.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Debezium on OpenShift Cheat Sheet](https://developers.redhat.com/cheat-sheets/debezium-openshift-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -316,5 +316,5 @@
   - [atlassian.com: Git cheat sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A comprehensive and beautifully formatted PDF and web-based Git command reference guide from Atlassian. Covers essential command categories including repository creation, local staging, history review, branch management, and remote synchronization.
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Mkdocs](./mkdocs.md) | [Demos](./demos.md)
 

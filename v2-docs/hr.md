@@ -12,5 +12,5 @@
 
 
 ---
-💡 **Explore Related:** [Elearning](./elearning.md) | [Newsfeeds](./newsfeeds.md) | [Workfromhome](./workfromhome.md)
+💡 **Explore Related:** [Interview Questions](./interview-questions.md) | [Elearning](./elearning.md) | [Recruitment](./recruitment.md)
 

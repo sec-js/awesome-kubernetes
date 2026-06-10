@@ -22,5 +22,5 @@
 
 
 ---
-💡 **Explore Related:** [HR](./hr.md) | [Elearning](./elearning.md) | [Newsfeeds](./newsfeeds.md)
+💡 **Explore Related:** [Interview Questions](./interview-questions.md) | [Elearning](./elearning.md) | [Recruitment](./recruitment.md)
 

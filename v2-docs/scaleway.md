@@ -9,5 +9,5 @@
 
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Public Cloud Solutions](./public-cloud-solutions.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
+💡 **Explore Related:** [AWS Tools Scripts](./aws-tools-scripts.md) | [Azure](./azure.md) | [AWS](./aws.md)
 

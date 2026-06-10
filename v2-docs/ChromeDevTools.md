@@ -16,5 +16,5 @@
 
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Visual Studio](./visual-studio.md)
+💡 **Explore Related:** [Python](./python.md) | [Visual Studio](./visual-studio.md) | [API](./api.md)
 

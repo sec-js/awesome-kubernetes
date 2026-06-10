@@ -5,19 +5,15 @@
 
 ## Standard Reference
 
-  - [Monitoring jenkins using instana](https://www.ibm.com/think)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Monitor Etcd with Prometheus and Grafana using Rancher](https://www.suse.com/c/rancher_blog/monitor-etcd-with-prometheus-and-grafana-using-rancher)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [victoriametrics.com: Q2 2024 Round Up: VictoriaMetrics & VictoriaLogs Updates](https://victoriametrics.com/blog/q2-2024-round-up-victoriametrics-and-victorialogs-updates/index.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Kubernetes Autoscaling in Production: Best Practices for **Cluster Autoscaler, HPA and VPA**](https://www.splunk.com/en_us/appdynamics-joins-splunk.html?301=appdynamics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [thenewstack.io: Kubernetes is the Accepted Platform for Cloud Native Computing](https://thenewstack.io/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [forbes.com: Who Should Own The Job Of Observability In DevOps?](https://www.forbes.com/councils/forbestechcouncil/2021/09/03/who-should-own-the-job-of-observability-in-devops/?streamIndex=0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [**Micrometer** Collector](http://micrometer.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: The Challenges of Monitoring Kubernetes and OpenShift](https://thenewstack.io/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [instana.com: The Hidden Cost of Observability: Data Volume](https://www.ibm.com/think)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [sysdig.com: Kubernetes Monitoring with Prometheus, the ultimate guide 🌟](https://www.sysdig.com/blog/kubernetes-monitoring-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [sysdig.com: How to monitor kube-proxy 🌟](https://www.sysdig.com/blog/monitor-kube-proxy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [getenroute.io: TSDB, Prometheus, Grafana In Kubernetes: Tracing A Variable Across The OSS Monitoring Stack](https://www.saaras.io/blog/leverage-open-source-oss-derive-insights-grafana-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opsdis.com: Building a custom monitoring solution with Grafana, Prometheus and Loki](https://binero.com/observability)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [harness.io: Metrics to Improve Continuous Integration Performance](https://www.harness.io/blog/continuous-integration-performance-metrics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [skilledfield.com.au: Monitoring Kubernetes and Docker Container Logs](https://skillfield.com.au/blog/monitoring-kubernetes-and-docker-container-logs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [forbes.com: Who Should Own The Job Of Observability In DevOps?](https://www.forbes.com/councils/forbestechcouncil/2021/09/03/who-should-own-the-job-of-observability-in-devops/?streamIndex=0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoworld.com: The RED method: A new strategy for monitoring microservices](https://www.infoworld.com/article/2270578/the-red-method-a-new-strategy-for-monitoring-microservices.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [forbes.com: From Data Collection To Delivering KPIs: A Roadmap To A Mature Observability Strategy](https://www.forbes.com/councils/forbestechcouncil/2024/03/08/from-data-collection-to-delivering-kpis-a-roadmap-to-a-mature-observability-strategy/?streamIndex=0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - The observability space is a multi-billion-dollar market and for good reason—there are a lot of benefits when you implement a robust observability strategy. But extracting value is not as simple as adopting a tool, throwing your data into a black box and expecting it to spit out business-relevant, contextualized insights and helpful visualizations.
     - As they say, “Nothing good comes easy”—but when done right, a mature observability strategy will pay for itself over and over again.
@@ -42,33 +38,22 @@
   - [dynatrace.com: Monitoring of Kubernetes Infrastructure for day 2 operations](https://www.dynatrace.com/news/blog/what-is-kubernetes-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dynatrace.com: The Power of OpenShift, The Visibility of Dynatrace](https://www.dynatrace.com/news/blog/what-is-openshift-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [A Distributed Tracing Adventure in Apache Beam](http://rion.io/2020/07/04/a-distributed-tracing-adventure-in-apache-beam)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [rancher.com: Monitor Etcd with Prometheus and Grafana using Rancher](https://www.suse.com/c/rancher_blog/monitor-etcd-with-prometheus-and-grafana-using-rancher)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openshift.com: Monitoring Infrastructure Openshift 4.x Using Zabbix Operator](https://www.redhat.com/en/blog/monitoring-infrastructure-openshift-4.x-using-zabbix-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openshift.com: How to Monitor Openshift 4.x with Zabbix using Prometheus - Part 2](https://www.redhat.com/en/blog/how-to-monitoring-openshift-4.x-with-zabbix-using-prometheus-part-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [victoriametrics.com: Q2 2024 Round Up: VictoriaMetrics & VictoriaLogs Updates](https://victoriametrics.com/blog/q2-2024-round-up-victoriametrics-and-victorialogs-updates/index.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [replex.io](https://www.splunk.com/en_us/appdynamics-joins-splunk.html?301=appdynamics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [**Micrometer** Collector](http://micrometer.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/open-telemetry/opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator) <span class='md-tag md-tag--info'>⭐ 1696</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@magstherdev: OpenTelemetry Operator](https://medium.com/@magstherdev/opentelemetry-operator-d3d407354cbf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/antonarhipov/awesome-apm: Awesome APM](https://github.com/antonarhipov/awesome-apm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [victoriametrics.com](https://victoriametrics.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Grafana](https://grafana.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [magalix.com: Monitoring Kubernetes Clusters Through Prometheus & Grafana' 🌟](https://www.magalix.com/blog/monitoring-of-kubernetes-cluster-through-prometheus-and-grafana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Monitor your Azure cloud estate - Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/manage/monitor#reference-for-monitoring-azure-services)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [en.wikipedia.org/wiki/List_of_performance_analysis_tools](https://en.wikipedia.org/wiki/List_of_performance_analysis_tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [InspectIT](https://en.wikipedia.org/wiki/InspectIT)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [VisualVM](https://en.wikipedia.org/wiki/VisualVM)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [OverOps](https://en.wikipedia.org/wiki/OverOps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: Troubleshooting java applications on openshift](https://developers.redhat.com/blog/2017/08/16/troubleshooting-java-applications-on-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone: 8 Options for Capturing Thread Dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Azure App Service Auto-Heal: Capturing Relevant Data During Performance' Issues](https://techcommunity.microsoft.com/blog/appsonazureblog/azure-app-service-auto-heal-capturing-relevant-data-during-performance-issues/4390351)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Zebrium](https://www.zebrium.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [OOMKilled in Kubernetes: Understanding and Preventing Hidden Memory Leaks](https://unixarena.com/2025/04/oomkilled-in-kubernetes-the-hidden-memory-leaks-youre-missing.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone.com: Performance Patterns in Microservices-Based Integrations](https://dzone.com/articles/performance-patterns-in-microservices-based-integr-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Dzone: 14 Best Performance Testing Tools and APM Solutions](https://dzone.com/articles/14-best-performance-testing-tools-and-apm-solution)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [learnsteps.com: Monitoring Infrastructure System Design](https://www.learnsteps.com/monitoring-infrastructure-system-design)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Prometheus JMX Exporter 🌟](https://github.com/prometheus/jmx_exporter) <span class='md-tag md-tag--info'>⭐ 3305</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector) <span class='md-tag md-tag--info'>⭐ 7050</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [Wikipedia: Application Performance Index](https://en.wikipedia.org/wiki/Apdex)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Observability vs Monitoring](https://middleware.io/blog/observability-vs-monitoring)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone.com: Kubernetes Monitoring: Best Practices, Methods, and Existing' Solutions](https://dzone.com/articles/kubernetes-monitoring-best-practices-methods-and-e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [CNCF End User Technology Radar: Observability, September 2020 🌟](https://www.cncf.io/blog/2020/09/11/cncf-end-user-technology-radar-observability-september-2020)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [magalix.com: Monitoring Kubernetes Clusters Through Prometheus & Grafana' 🌟](https://www.magalix.com/blog/monitoring-of-kubernetes-cluster-through-prometheus-and-grafana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [learnsteps.com: Monitoring Infrastructure System Design](https://www.learnsteps.com/monitoring-infrastructure-system-design)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [bravenewgeek.com: The Observability Pipeline](https://bravenewgeek.com/the-observability-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: 3 Key Configuration Challenges for Kubernetes Monitoring' with Prometheus](https://thenewstack.io/3-key-configuration-challenges-for-kubernetes-monitoring-with-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Monitoring vs. Observability: What’s the Difference?](https://thenewstack.io/monitoring-vs-observability-whats-the-difference)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -160,8 +145,15 @@
   - [logz.io: Grok Pattern Examples for Log Parsing](https://logz.io/blog/grok-pattern-examples-for-log-parsing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devops.com: The Fallacy of Continuous Integration, Delivery and Testing](https://devops.com/the-fallacy-of-continuous-integration-delivery-and-testing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone.com: The Keys to Performance Tuning and Testing](https://dzone.com/articles/the-keys-to-performance-tuning-and-testing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone.com: Performance Patterns in Microservices-Based Integrations](https://dzone.com/articles/performance-patterns-in-microservices-based-integr-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [en.wikipedia.org/wiki/List_of_performance_analysis_tools](https://en.wikipedia.org/wiki/List_of_performance_analysis_tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [InspectIT](https://en.wikipedia.org/wiki/InspectIT)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [VisualVM](https://en.wikipedia.org/wiki/VisualVM)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [OverOps](https://en.wikipedia.org/wiki/OverOps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [How to read a Thread Dump](https://dzone.com/articles/how-to-read-a-thread-dump)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: 8 Options for Capturing Thread Dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.arkey.fr: Using JDK FlightRecorder and JDK Mission Control](https://blog.arkey.fr/2020/06/28/using-jdk-flight-recorder-and-jdk-mission-control)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: Troubleshooting java applications on openshift](https://developers.redhat.com/blog/2017/08/16/troubleshooting-java-applications-on-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [VisualVM: JVisualVM to an Openshift pod](https://fedidat.com/250-jvisualvm-openshift-pod)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [redhat.com: How do I analyze a Java heap dump?](https://access.redhat.com/solutions/18301)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Microservice Observability with Distributed Tracing: **OpenTelemetry.io**' 🌟](https://opentelemetry.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -183,9 +175,11 @@
   - [thenewstack.io: Jaeger vs. Zipkin: Battle of the Open Source Tracing Tools](https://thenewstack.io/jaeger-vs-zipkin-battle-of-the-open-source-tracing-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Grafana Tempo](https://github.com/grafana/tempo) <span class='md-tag md-tag--info'>⭐ 5276</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [opensource.com: Get started with distributed tracing using Grafana Tempo](https://opensource.com/article/21/2/tempo-distributed-tracing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Azure App Service Auto-Heal: Capturing Relevant Data During Performance' Issues](https://techcommunity.microsoft.com/blog/appsonazureblog/azure-app-service-auto-heal-capturing-relevant-data-during-performance-issues/4390351)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [APM in wikipedia](https://en.wikipedia.org/wiki/Application_performance_management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone.com: APM Tools Comparison](https://dzone.com/articles/apm-tools-comparison-which-one-should-you-choose)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone.com: Java Performance Monitoring: 5 Open Source Tools You Should Know](https://dzone.com/articles/java-performance-monitoring-5-open-source-tools-you-should-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Dzone: 14 Best Performance Testing Tools and APM Solutions](https://dzone.com/articles/14-best-performance-testing-tools-and-apm-solution)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [datadoghq.com](https://www.datadoghq.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Mininimum elasticsearch requirement is 6.2.x or higher](https://www.elastic.co/support/matrix#matrix_compatibility)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Elastic APM Server Docker image](https://github.com/sls-dev1/openshift-elastic-apm-server)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -205,6 +199,7 @@
   - [Krossboard](https://krossboard.app)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Krossboard: A centralized usage analytics approach for multiple Kubernetes](https://itnext.io/in-search-of-converged-usage-analytics-for-multiple-managed-kubernetes-c5108cb7f0e1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloudbees.com: Automated Build and Deploy Feedback Using Jenkins and Instana' 🌟](https://www.cloudbees.com/blog/automated-build-deploy-feedback-using-instana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [victoriametrics.com](https://victoriametrics.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Netdata](https://github.com/netdata/netdata) <span class='md-tag md-tag--info'>⭐ 78906</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [PM2](https://github.com/Unitech/pm2) <span class='md-tag md-tag--info'>⭐ 43173</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [Huginn](https://github.com/huginn/huginn) <span class='md-tag md-tag--info'>⭐ 49312</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
@@ -215,9 +210,14 @@
   - [Checkly](https://www.checklyhq.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hashicorp.com: Monitoring as Code with Terraform Cloud and Checkly](https://www.hashicorp.com/blog/monitoring-as-code-with-terraform-cloud-and-checkly)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [network-king.net: IoT use in healthcare grows but has some pitfalls](https://network-king.net/iot-use-in-healthcare-grows-but-has-its-pitfalls)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Zebrium](https://www.zebrium.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) <span class='md-tag md-tag--info'>⭐ 87087</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [OpenTelemetry (OTel) vs Application Performance Monitoring (APM)](https://medium.com/@rahul.fiem/opentelemetry-otel-vs-application-performance-monitoring-apm-86ae829877cf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [OOMKilled in Kubernetes: Understanding and Preventing Hidden Memory Leaks](https://unixarena.com/2025/04/oomkilled-in-kubernetes-the-hidden-memory-leaks-youre-missing.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [SigNoz: Open source Application Performance Monitoring (APM) & Observability' tool 🌟](https://github.com/SigNoz/signoz) <span class='md-tag md-tag--info'>⭐ 26999</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [Grafana](https://grafana.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Prometheus JMX Exporter 🌟](https://github.com/prometheus/jmx_exporter) <span class='md-tag md-tag--info'>⭐ 3305</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector) <span class='md-tag md-tag--info'>⭐ 7050</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
 ## Cloud Infrastructure
 
@@ -268,6 +268,11 @@
   - [Awesome Sysadmin](https://github.com/awesome-foss/awesome-sysadmin) <span class='md-tag md-tag--info'>⭐ 33981</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An incredibly rich curation containing production-grade open source utilities, control planes, networking layers, and security mechanisms used daily by systems architects and site reliability engineers.
 ## Observability (1)
 
+### Monitoring Practices
+
+#### Enterprise Best Practices
+
+  - **(2022)** [sysdig.com: Seven Kubernetes monitoring best practices every monitoring solution should enable](https://www.sysdig.com/blog/kubernetes-monitoring-best-practices) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Sysdig's analysis outlining seven foundational best practices for Kubernetes metric collection. Focuses on cluster plane telemetry, standard label metadata usage, dynamic scraping strategies, and optimizing alert signal-to-noise ratios.
 ### Telemetry Standards
 
 #### OpenTelemetry vs Prometheus
@@ -292,7 +297,14 @@
 #### Foundations
 
   - [Monitoring Distributed Systems - Google SRE Book](https://sre.google/sre-book/monitoring-distributed-systems) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The industry-standard chapter from Google's SRE book detailing the implementation of distributed systems monitoring. It defines the 'Four Golden Signals'—latency, traffic, errors, and saturation—providing practical blueprints to prevent alert fatigue and build actionable dashboard designs.
+## Runtime Optimizations
+
+### Kubernetes Tuning
+
+#### Monitoring and Profiling
+
+  - **(2021)** [blog.openshift.com: Debugging Java Applications On OpenShift and Kubernetes](https://www.redhat.com/en/blog/debugging-java-applications-on-openshift-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Walkthrough covering remote JVM agent connection attachment procedures targeting pods deployed within secured target Kubernetes namespaces.
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Cheatsheets](./cheatsheets.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Mkdocs](./mkdocs.md) | [Demos](./demos.md)
 

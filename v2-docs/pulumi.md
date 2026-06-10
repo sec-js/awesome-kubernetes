@@ -9,6 +9,7 @@
   - [civo.com: Manage Kubernetes clusters using the Civo Pulumi provider](https://www.civo.com/learn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [pulumi.com: From Kubernetes or Helm YAML](https://www.pulumi.com/docs/iac/guides/migration/migrating-to-pulumi/from-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [travis.media: Pulumi Tutorial: Automate Kubernetes Deployments and Operations with this Complete Guide](https://travis.media/blog/pulumi-tutorial-automate-kubernetes-operations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [pulumi/kube2pulumi](https://github.com/pulumi/kube2pulumi) <span class='md-tag md-tag--info'>⭐ 107</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Pulumi](https://www.pulumi.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [DRY (Don’t Repeat Yourself) on the cloud with Pulumi](https://blog.thundra.io/dry-dont-repeat-yourself-on-the-cloud-with-pulumi)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [build5nines.com: Beginner’s Guide to Pulumi CI/CD Pipelines](https://build5nines.com/beginners-guide-to-pulumi-ci-cd-pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -23,17 +24,9 @@
   - [siliconangle.com: Pulumi’s new registry aims to ease sharing and reusing' cloud infrastructure building blocks](https://siliconangle.com/2021/10/18/pulumis-new-registry-makes-easy-share-reuse-cloud-infrastructure-building-blocks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [pulumi.com: Running Containers on ECS Fargate](https://www.pulumi.com/registry/packages/aws/how-to-guides/ecs-fargate)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [pulumi.com: Convert Your Terraform to Pulumi](https://www.pulumi.com/tf2pulumi)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [pulumi/kube2pulumi](https://github.com/pulumi/kube2pulumi) <span class='md-tag md-tag--info'>⭐ 107</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [packetswitch.co.uk: Terraform is Good, but I Like Pulumi](https://www.packetswitch.co.uk/terraform-is-good-but-i-like-pulumi)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Observability and Performance
-
-### Performance Testing
-
-#### Microservices
-
-  - [garden.io: Performance testing on a microservice architecture](https://docs.garden.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official integration documentation for running non-disruptive, end-to-end performance tests within a modern microservices workflow. Emphasizes utilizing Garden's graph-based execution framework for local and CI load validation.
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Oauth](./oauth.md)
+💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Ansible](./ansible.md)
 

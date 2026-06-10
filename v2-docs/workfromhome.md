@@ -11,6 +11,7 @@
   - [Rocket Chat](https://www.rocket.chat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [atlassian.com/remote](https://www.atlassian.com/solutions/distributed)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Matter](https://www.getmatter.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: 10 tips for maintaining a DevOps mindset for distributed' teams](https://opensource.com/article/20/6/devops-mindset)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [forbes.com: 5 Essential Coronavirus Work From Home Tech Tips](https://www.forbes.com/sites/tjmccue/2020/03/13/5-essential-coronavirus-work-from-home-tech-tips)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [enterprisersproject.com: Remote work: 10 tips to be a better virtual collaborator](https://enterprisersproject.com/article/2021/2/remote-work-virtual-collaboration-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [elconfidencial.com: ¿Qué negociar en el acuerdo de teletrabajo? Guía práctica' para empresas y empleados](https://www.elconfidencial.com/juridico/2021-09-27/negociar-acuerdo-teletrabajo-guia-practica-empresas_3295723)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -24,10 +25,9 @@
   - [Readwise](https://readwise.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Instapaper](https://www.instapaper.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Obsidian](https://obsidian.md)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [opensource.com: 10 tips for maintaining a DevOps mindset for distributed' teams](https://opensource.com/article/20/6/devops-mindset)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [portafolio.co: Claves para liderar equipos de teletrabajo y no fracasar' en el intento](https://www.portafolio.co/tendencias/claves-para-liderar-equipos-de-teletrabajo-y-no-fracasar-en-el-intento-556586)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 
 ---
-💡 **Explore Related:** [HR](./hr.md) | [Elearning](./elearning.md) | [Newsfeeds](./newsfeeds.md)
+💡 **Explore Related:** [Interview Questions](./interview-questions.md) | [Elearning](./elearning.md) | [Recruitment](./recruitment.md)
 

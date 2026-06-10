@@ -24,8 +24,9 @@ graph TD
 
 ## Standard Reference
 
-  - [blog.min.io: Why Kubernetes Managed Object Storage Matters](https://www.min.io/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Enterprise Web App Patterns - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/web-apps/guides/enterprise-app-patterns/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoworld.com: Complexity is killing software developers](https://www.infoworld.com/article/2270714/complexity-is-killing-software-developers.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.min.io: Kubernetes, Consistency and Commoditization - The Way of the Cloud](https://www.min.io/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jaxenter.com: Practical Implications for Adopting a Multi-Cluster, Multi-Cloud Kubernetes Strategy](https://devm.io/kubernetes/kubernetes-practical-implications-171647)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jaxenter.com: Six Essential Kubernetes Extensions to Add to Your Toolkit 🌟](https://devm.io/kubernetes/kubernetes-extensions-172215)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [addwebsolution.com: How Kubernetes helps businesses manage their IT infrastructure?](https://www.addwebsolution.com/blog/how-kubernetes-helps-businesses-manage-their-it-infrastructure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -77,7 +78,6 @@ graph TD
   - [acloudguru.com: Sharing data in the cloud: 4 patterns you should know](https://www.pluralsight.com/resources/blog/business-and-leadership/sharing-data-in-the-cloud-four-patterns-everyone-should-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [softwebsolutions.com: Why enterprises need to adopt a multi-cloud strategy](https://www.softwebsolutions.com/resources/multi-cloud-adoption-strategy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [redhat.com: 5 essential tools for managing hybrid cloud infrastructure](https://www.redhat.com/en/blog/hybrid-cloud-management-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Enterprise Web App Patterns - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/web-apps/guides/enterprise-app-patterns/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [semaphoreci.com: Microfrontends: Microservices for the Frontend](https://semaphore.io/blog/microfrontends)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - Microservices are a popular way to build small, autonomous teams that can work independently. Unfortunately, by their very nature, microservices only work in the backend. Even with the best microservice architecture, frontend development still requires a high degree of interdependence, and this introduces coupling and communication overhead that can slow down everyone.
     - Can we take microservice architecture patterns and apply them to the frontend? It turns out we can. Companies such as Netflix, Zalando, and Capital One have pushed the pattern to the front, laying the groundwork for microfrontends. This article will explore microfrontends, their benefits and disadvantages, and how they differ from traditional microservices.
   - [acloudguru.com: 3 ways to practice migrating workloads to the cloud](https://www.pluralsight.com/resources/blog/cloud/3-ways-to-practice-migrating-workloads-to-the-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -90,9 +90,9 @@ graph TD
   - [phoenixnap.com: Kubernetes vs OpenShift: Key Differences Compared 🌟](https://phoenixnap.com/blog/openshift-vs-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ibm.com: OpenShift vs. Kubernetes: What’s the Difference?](https://www.ibm.com/think/topics/openshift-vs-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kelsey Hightower Fireside Chat: An Unconventional Path to IT and Some Life Advice](https://www.hashicorp.com/resources/kelsey-hightower-fireside-chat-an-unconventional-path-to-it-and-some-life-advice/?utm_source=linkedin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [levelup.gitconnected.com: How to design a system to scale to your first' 100 million users](https://levelup.gitconnected.com/how-to-design-a-system-to-scale-to-your-first-100-million-users-4450a2f9703d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/javarevisited: Microservices communication using gRPC Protocol](https://medium.com/javarevisited/microservices-communication-using-grpc-protocol-dc3a2f8b648d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [levelup.gitconnected.com: How to design a system to scale to your first' 100 million users](https://levelup.gitconnected.com/how-to-design-a-system-to-scale-to-your-first-100-million-users-4450a2f9703d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [freecodecamp.org: A Beginner-Friendly Introduction to Containers, VMs and' Docker](https://www.freecodecamp.org/news/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Red Hat automation glossary 🌟](https://www.redhat.com/en/blog/red-hat-automation-glossary)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [softwareengineeringdaily.com: The Rise of Platform Engineering 🌟](https://softwareengineeringdaily.com/2020/02/13/setting-the-stage-for-platform-engineering)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -387,5 +387,5 @@ graph TD
   - [NodeJS Best Practices (Spanish Translation)](https://github.com/goldbergyoni/nodebestpractices/blob/spanish-translation/README.spanish.md) <span class='md-tag md-tag--info'>⭐ 105273</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight hosts the comprehensive Spanish translation of the premier Node.js architecture and security handbook. Live Grounding validates its immense utility as an industry-standard guide covering testing, error handling, and production safety. [SPANISH CONTENT]
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Cheatsheets](./cheatsheets.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Mkdocs](./mkdocs.md) | [Demos](./demos.md)
 

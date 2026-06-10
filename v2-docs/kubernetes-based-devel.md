@@ -244,5 +244,5 @@
   - [blog.aquasec.com: RATs (remote access tools) in the Cloud: Kubernetes UI' Tools Turn into a Weapon](https://blog.aquasec.com/kubernetes-ui-tools-security-threat) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Crucial security review warning how misconfigured visual cluster admin panels can act as Remote Access Tools (RATs) for malicious actors to execute arbitrary code.
 
 ---
-💡 **Explore Related:** [OCP 3](./ocp3.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
+💡 **Explore Related:** [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Openshift](./openshift.md)
 

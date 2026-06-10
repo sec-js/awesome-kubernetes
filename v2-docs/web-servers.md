@@ -6,6 +6,8 @@
 ## Standard Reference
 
   - [nginx.com: The Complete NGINX Cookbook 🌟](https://www.f5.com/products/nginx/resources/library/complete-nginx-cookbook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Koa.js](https://koa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [nixCraft: 9 Awesome Open Source Web Performance Software For Linux and Unix-like' Systems](https://www.cyberciti.biz/open-source/http-web-performance-proxy-load-balancer-accelerator-software)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone Refcard: Essential Apache HTTP Server](https://dzone.com/refcardz/essential-apache-http-server)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [nixCraft: How to secure Apache with Let’s Encrypt Certificates on RHEL 8](https://www.cyberciti.biz/faq/how-to-secure-apache-with-lets-encrypt-certificates-on-rhel-8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone: Nginx Reverse Proxy Ubuntu 18.04](https://dzone.com/articles/nginx-reverse-proxy-ubuntu-1804)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -13,10 +15,8 @@
   - [medium: Using Nginx-Ingress as a Static Cache for Assets Inside Kubernetes](https://medium.com/@vdboor/using-nginx-ingress-as-a-static-cache-91bc27be04a1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Wikipedia: HAProxy](https://en.wikipedia.org/wiki/HAProxy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone.com: How to Configure HAProxy as a Proxy and Load Balancer](https://dzone.com/articles/how-to-configure-ha-proxy-as-a-proxy-and-loadbalan)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [nixCraft: 9 Awesome Open Source Web Performance Software For Linux and Unix-like' Systems](https://www.cyberciti.biz/open-source/http-web-performance-proxy-load-balancer-accelerator-software)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [High priority request queue with HAProxy](https://medium.com/swlh/high-priority-request-queue-with-haproxy-9efd639a8992)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/beyn-technology: Is Nginx dead? Is Traefik v3 20% faster than' Traefik v2?](https://medium.com/beyn-technology/is-nginx-dead-is-traefik-v3-20-faster-than-traefik-v2-f28ffb7eed3e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Koa.js](https://koa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Networking
 
@@ -82,7 +82,6 @@
 
   - [jvns.ca: New tool: an nginx playground](https://jvns.ca/blog/2021/09/24/new-tool--an-nginx-playground)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory blog post by Julia Evans launching an interactive Nginx configuration playground. It explains the core configuration blocks and how the visual playground simplifies debugging path matches and header rewrites.
   - [nginx-playground.wizardzines.com 🌟](https://nginx-playground.wizardzines.com)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The web-based visual Nginx sandbox environment created by Wizard Zines. It provides immediate graphical feedback on how routing, header injections, and rewrite directives behave without requiring a local Nginx daemon installation.
-  - **(2026)** [==Nginx==](https://www.f5.com/products/nginx) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Nginx is the premier high-performance web server, reverse proxy, and ingress standard globally. Its lightweight event-driven design allows it to process high-concurrency traffic patterns with extremely predictable memory and CPU footprints.
 #### Nginx Unit
 
 ##### Application Server
@@ -90,5 +89,5 @@
   - [unit.nginx.org](https://unit.nginx.org) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Nginx Unit is a dynamic, polyglot application server engineered to run application code across multiple runtimes (Go, Python, Node.js, PHP) simultaneously. It is entirely controlled via a declarative JSON-based REST API, making it well-suited for container-centric microservices.
 
 ---
-💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md)
+💡 **Explore Related:** [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md) | [Networking](./networking.md)
 

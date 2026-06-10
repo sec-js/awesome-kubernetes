@@ -5,21 +5,22 @@
 
 ## Standard Reference
 
-  - [openshift.com/learn/topics/serverless](https://www.redhat.com/en/technologies/cloud-computing/openshift/serverless)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [datacenterknowledge.com: Explaining Knative, the Project to Liberate Serverless from Cloud Giants](https://www.datacenterknowledge.com/servers/explaining-knative-the-project-to-liberate-serverless-from-cloud-giants)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [theregister.com: Microservices guru says think serverless, not Kubernetes: You don't want to manage 'a towering edifice of stuff'](https://www.theregister.com/software/2020/09/22/microservices-guru-says-think-serverless-not-kubernetes-you-dont-want-to-manage-a-towering-edifice-of-stuff/353334)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [serverlessguru.com: Enterprise Serverless Adoption 🌟](https://www.sls.guru/blog/enterprise-serverless-adoption)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [acloudguru.com: Containers vs serverless: Which is right for you?](https://www.pluralsight.com/resources/blog/cloud/containers-vs-serverless-which-is-right-for-you)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: Price Comparison of Popular Serverless Architecture Providers](https://dev.to/d1020/price-comparison-of-popular-serverless-architecture-providers-2jk9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [winderresearch.com: A Comparison of Serverless Frameworks for Kubernetes: OpenFaas, OpenWhisk, Fission, Kubeless and more](https://winder.ai/a-comparison-of-serverless-frameworks-for-kubernetes-openfaas-openwhisk-fission-kubeless-and-more)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [xenonstack.com: Serverless Architecture with OpenFaaS and Java](https://www.xenonstack.com/blog/serverless-open-faas-java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [datacenterknowledge.com: Explaining Knative, the Project to Liberate Serverless from Cloud Giants](https://www.datacenterknowledge.com/servers/explaining-knative-the-project-to-liberate-serverless-from-cloud-giants)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [OpenShift Serverless](https://www.redhat.com/en/technologies/cloud-computing/openshift/serverless)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openshift.com: Why and When you need to consider OpenShift Serverless](https://www.redhat.com/en/blog/why-and-when-you-need-to-consider-openshift-serverless)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Building microservices? Give Dapr a try](https://www.infoworld.com/article/2261795/building-microservices-give-dapr-a-try.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [versusmind.eu: Dapr - a serverless runtime for distributed applications 🌟](https://versusmind.eu/dapr-a-serverless-runtime-for-distributed-applications)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhat.com: What is knative?](https://www.redhat.com/en/topics/microservices/what-is-knative)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: Serverless Architecture](https://developers.redhat.com/topics/serverless-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Docker for LLMs](https://www.docker.com/llm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Azure Functions Cost Considerations and Optimization](https://build5nines.com/azure-functions-cost-considerations-and-optimization)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [itnext.io: **arkade** by example — Kubernetes apps, the easy way 🌟](https://itnext.io/kubernetes-apps-the-easy-way-f06d9e5cad3c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [martinfowler.com: Serverless Architectures](https://martinfowler.com/articles/serverless.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: Serverless Architecture](https://developers.redhat.com/topics/serverless-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Scaling My App: Serverless vs Kubernetes 🌟](https://itnext.io/scaling-my-app-serverless-vs-kubernetes-cdb8adf446e1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Is Serverless The End Of Kubernetes?](https://towardsdatascience.com/kubernetes-serverless-differences-84699f370609)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [freecodecamp.org: Serverless is cheaper, not simpler](https://www.freecodecamp.org/news/serverless-is-cheaper-not-simpler-a10c4fc30e49)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -61,16 +62,15 @@
   - [techbeacon.com: An essential guide to the 2019 serverless ecosystem](https://techbeacon.com/enterprise-it/essential-guide-2019-serverless-ecosystem)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [vshn.ch: A (Very!) Quick Comparison of Kubernetes Serverless Frameworks](https://www.vshn.ch/en/blog/a-very-quick-comparison-of-kubernetes-serverless-frameworks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [serverless.com: Serverless Framework](https://www.serverless.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Azure Functions Cost Considerations and Optimization](https://build5nines.com/azure-functions-cost-considerations-and-optimization)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [epsagon.com: Serverless Open-Source Frameworks: **OpenFaaS**, **Knative**,' & More 🌟](https://epsagon.com/blog/serverless-open-source-frameworks-openfaas-knative-more)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [OpenFaaS](https://www.openfaas.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Deploy your first Serverless Function to Kubernetes](https://itnext.io/deploy-your-first-serverless-function-to-kubernetes-232307f7b0a9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [magalix.com: Implementing FaaS in Kubernetes Using Kubeless](https://www.magalix.com/blog/implementing-faas-in-kubernetes-using-kubeless)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [itnext.io: **arkade** by example — Kubernetes apps, the easy way 🌟](https://itnext.io/kubernetes-apps-the-easy-way-f06d9e5cad3c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openfaas.com: Learn how to build functions faster using Rancher's kim and' K3s](https://www.openfaas.com/blog/kim)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [OpenFunction: Cloud Native Function-as-a-Service Platform (CNCF Sandbox' Project)](https://github.com/OpenFunction/OpenFunction) <span class='md-tag md-tag--info'>⭐ 1656</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [knative.dev](https://knative.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kn: knative client](https://github.com/knative/client) <span class='md-tag md-tag--info'>⭐ 384</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: What is knative?](https://www.redhat.com/en/topics/microservices/what-is-knative)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Build and deploy a serverless app with Camel K and' Red Hat OpenShift Serverless 1.5.0 Tech Preview](https://developers.redhat.com/blog/2020/04/24/build-and-deploy-a-serverless-app-with-camel-k-and-red-hat-openshift-serverless-1-5-0-tech-preview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [redhat-scholars.github.io: Welcome to OpenShift Serverless Logic Tutorial](https://redhat-scholars.github.io/serverless-workflow/osl/index.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubeless.io](https://kubeless.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -100,5 +100,5 @@
   - [ServerlessHorrors: A Web Compiling Nightmares in the Serverless World](https://revistacloud.com/serverlesshorrors-la-web-que-recoge-las-peores-pesadillas-del-mundo-serverless) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Un compendio técnico sobre los errores más comunes y costosos en el diseño de arquitecturas serverless. Ofrece un análisis crítico de fallos reales de concurrencia, inicios en frío ("cold starts"), costos fuera de control e integración de servicios, sirviendo como guía de advertencia para diseñadores de sistemas distribuidos. [SPANISH CONTENT]
 
 ---
-💡 **Explore Related:** [OCP 3](./ocp3.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
+💡 **Explore Related:** [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Openshift](./openshift.md)
 

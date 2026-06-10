@@ -7,7 +7,6 @@
 
   - [Redpanda is now Free & Source Available](https://www.redpanda.com/blog/open-source)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Orchestration Made Easy with Zeebe and Kafka](https://softobiz.com/microservice-orchestration-with-zeebe-and-kafka)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Banzai Cloud 🌟](https://banzaicloud.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Wikipedia: Message Broker](https://en.wikipedia.org/wiki/Message_broker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Wikipedia: Event-driven messaging](https://en.wikipedia.org/wiki/Event-driven_messaging)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Wikipedia: Streaming Data](https://en.wikipedia.org/wiki/Streaming_data)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -100,6 +99,7 @@
   - [medium: Mastering Apache Kafka on Kubernetes — Strimzi K8s operator](https://medium.com/hacking-talent/mastering-apache-kafka-on-kubernetes-strimzi-k8s-operator-2c1d21d7b89a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@ahmed.farhan: Kafka Setup in Kubernetes Using Strimzi K8s operator' — Part 2](https://medium.com/@ahmed.farhan/kafka-setup-in-kubernetes-using-strimzi-k8s-operator-part-2-1f67dbe5f14d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/adaltas: Operating Kafka in Kubernetes with Strimzi](https://medium.com/adaltas/operating-kafka-in-kubernetes-with-strimzi-84a281c6d964)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Banzai Cloud 🌟](https://banzaicloud.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [The benefits of integrating Apache Kafka with Istio](https://banzaicloud.com/blog/kafka-on-istio-benefits)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Hazelcast JET](https://jet-start.sh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [wikipedia: Workflow Engine](https://en.wikipedia.org/wiki/Workflow_engine)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -470,7 +470,7 @@
 
 #### Caching
 
-  - [Redis](http://redis.io) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive open-source, in-memory data store used as a database, cache, message broker, and streaming engine. Offers unmatched low-latency read-write cycles and versatile data structures. Highly valued for real-time applications requiring low overhead.
+  - [Redis](https://redis.io) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive open-source, in-memory data store used as a database, cache, message broker, and streaming engine. Offers unmatched low-latency read-write cycles and versatile data structures. Highly valued for real-time applications requiring low overhead.
 ### Real-Time Data Streaming (2)
 
 #### Data Stack

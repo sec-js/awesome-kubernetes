@@ -5,8 +5,8 @@
 
 ## Standard Reference
 
-  - [medium.com: Your team might not need Kubernetes](https://medium.com/faun/your-team-might-not-need-kubernetes-57240e8d554a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com: STOP!! You don’t need Microservices](https://medium.com/@ebin/stop-you-dont-need-microservices-dc732d70b3e0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com: Your team might not need Kubernetes](https://medium.com/faun/your-team-might-not-need-kubernetes-57240e8d554a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone: Programming Styles Compared: Spring Framework vis-a-vis Eclipse MicroProfile' 🌟🌟](https://dzone.com/articles/programming-styles-spring-boot-vis-a-vis-with-ecli)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [betterprogramming.pub: Domain Partitions: How To Find a Healthy Balance' Between Microservices and Monoliths](https://betterprogramming.pub/domain-partitions-how-to-find-a-healthy-balance-between-microservices-and-monoliths-2cd74206559)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: It’s time to stop making “Microservices” the goal of modernization](https://medium.com/ibm-garage/its-time-to-stop-making-microservices-the-goal-of-modernization-71758b400287)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -89,6 +89,13 @@
 #### Container Storage
 
   - [thenewstack.io: Choosing Between Container-Native and Container-Ready Storage' 🌟](https://thenewstack.io/choosing-between-container-native-and-container-ready-storage) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight: Demystifies cloud-native storage interfaces (CSI), comparing storage systems designed natively for Kubernetes with legacy storage adaptions. Live Grounding: Key guide for cloud architects evaluating storage performance, resilience, automated dynamic provisioning, and multi-protocol scaling features.
+## Networking
+
+### Web Servers
+
+#### Nginx
+
+  - **(2026)** [==Nginx==](https://www.f5.com/products/nginx) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Nginx is the premier high-performance web server, reverse proxy, and ingress standard globally. Its lightweight event-driven design allows it to process high-concurrency traffic patterns with extremely predictable memory and CPU footprints.
 ## Platform Engineering
 
 ### Cloud Native
@@ -98,5 +105,5 @@
   - [developers.redhat.com: Why Kubernetes native instead of cloud native? 🌟](https://developers.redhat.com/blog/2020/04/08/why-kubernetes-native-instead-of-cloud-native)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: Highlights the distinction between applications run on cloud infrastructure and systems designed specifically to leverage native Kubernetes operators and structures. Live Grounding: Analyzes how API extensions, CRDs, and native configuration constructs improve resilience, efficiency, and resource utilization.
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Cheatsheets](./cheatsheets.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Mkdocs](./mkdocs.md) | [Demos](./demos.md)
 

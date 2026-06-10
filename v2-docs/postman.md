@@ -29,5 +29,5 @@
 
 
 ---
-💡 **Explore Related:** [Angular](./angular.md) | [Visual Studio](./visual-studio.md) | [API](./api.md)
+💡 **Explore Related:** [Python](./python.md) | [Visual Studio](./visual-studio.md) | [API](./api.md)
 

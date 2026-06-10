@@ -5,7 +5,6 @@
 
 ## Standard Reference
 
-  - [Kubernetes Autoscaling in Production: Best Practices for **Cluster Autoscaler, HPA and VPA**](https://www.splunk.com/en_us/appdynamics-joins-splunk.html?301=appdynamics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [padok.fr: FinOps, or the Culture of Cloud Cost Optimization](https://www.theodo.com/en-fr/blog/what-is-finops-and-what-are-its-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [slideshare: FinOps: A Culture Transformation to Bring DevOps, Finance and the Business Together - AWS Summit Sydney](https://www.slideshare.net/AmazonWebServices/finops-a-culture-transformation-to-bring-devops-finance-and-the-business-together-sponsored-by-cloudability-aws-summit-sydney)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [loft.sh: The Cost of Managed Kubernetes - A Comparison 🌟](https://www.vcluster.com/blog/the-cost-of-managed-kubernetes-a-comparison)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -17,13 +16,13 @@
   - [techcommunity.microsoft.com: Azure Pricing: How to estimate Azure project costs 🌟](https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/azure-pricing-how-to-estimate-azure-project-costs/4166297)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [techcommunity.microsoft.com: Identify your savings potential in Azure 🌟](https://techcommunity.microsoft.com/blog/finopsblog/identify-your-savings-potential-in-azure/4131194)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoworld.com: 5 steps to bringing Kubernetes costs in line](https://www.infoworld.com/article/2338303/5-steps-to-bringing-kubernetes-costs-in-line.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Azure Functions Cost Considerations and Optimization](https://build5nines.com/azure-functions-cost-considerations-and-optimization)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [replex.io](https://www.splunk.com/en_us/appdynamics-joins-splunk.html?301=appdynamics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Cloudburn: An Open-Source Policy Engine for AWS Spending](https://github.com/towardsthecloud/cloudburn) <span class='md-tag md-tag--info'>⭐ 1757</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Scale with Confidence Using Terraform: Better Cost Visibility, Stronger' Governance, and Less Operational Overhead](https://t.co/y414rbxM7l)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@danielepolencic: In Kubernetes, are there hidden costs to' running many cluster nodes?](https://medium.com/@danielepolencic/reserved-cpu-and-memory-in-kubernetes-nodes-65aee1946afd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Building a FinOps-Ready Azure Landing Zone: Infrastructure Foundations for' Cost Optimization](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/building-a-finops-ready-azure-landing-zone-infrastructure-foundations-for-cost-o/4411706)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Which Azure Network is Cheaper?](https://blog.cloudtrooper.net/2026/01/16/which-azure-network-is-cheaper)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [A Guide to Azure Data Transfer Pricing](https://techcommunity.microsoft.com/blog/AzureNetworkingBlog/a-guide-to-azure-data-transfer-pricing/4374538)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Azure Functions Cost Considerations and Optimization](https://build5nines.com/azure-functions-cost-considerations-and-optimization)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [learnk8s/xlskubectl](https://github.com/learnk8s/xlskubectl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [FinOps Foundation: FinOps.org](https://www.finops.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: DevOps, NoOps, and Now FinOps?](https://medium.com/better-programming/devops-noops-finops-64e0df91bcb8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [aws.amazon.com: Introducing FinOps—Excuse Me, DevSecFinBizOps](https://aws.amazon.com/es/blogs/enterprise-strategy/introducing-finops-excuse-me-devsecfinbizops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -51,8 +50,8 @@
   - [github.com/mivano/azure-cost-cli](https://github.com/mivano/azure-cost-cli) <span class='md-tag md-tag--info'>⭐ 1117</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [https://learn.microsoft.com: View Kubernetes costs (AKS)](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/view-kubernetes-costs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/armory: Continuous Cost Optimization for Kubernetes](https://medium.com/armory/continuous-cost-optimization-for-kubernetes-4361045f0215)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [learnk8s/xlskubectl](https://github.com/learnk8s/xlskubectl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/empathyco: Cloud FinOps — Part 4: Kubernetes Cost Report](https://medium.com/empathyco/cloud-finops-part-4-kubernetes-cost-report-b4964be02dc3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@danielepolencic: In Kubernetes, are there hidden costs to' running many cluster nodes?](https://medium.com/@danielepolencic/reserved-cpu-and-memory-in-kubernetes-nodes-65aee1946afd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/develeap: Cutting down Kubernetes Costs: Cast.ai vs. Karpenter](https://medium.com/develeap/cutting-down-kubernetes-costs-cast-ai-vs-karpenter-20f6788b4c67)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [engineering.razorpay.com: The Culture of Cost Optimization — Reducing Kubernetes' cost by $300,000](https://engineering.razorpay.com/the-culture-of-cost-optimization-reducing-kubernetes-cost-by-300-000-32611cdd19d9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@suleimanabualrob: Kubernetes cost optimisation](https://medium.com/@suleimanabualrob/kubernetes-cost-optimisation-9e81b76814f6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -60,6 +59,7 @@
   - [marketplace.atlassian.com:  License Manager - Easily track your software' licenses](https://marketplace.atlassian.com/apps/1227641/license-manager-easily-track-your-software-licenses)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: FinOps EKS: 10 tips to reduce the bill up to 90% on AWS managed' Kubernetes clusters](https://dev.to/zenika/eks-10-tips-to-reduce-the-bill-up-to-90-on-aws-managed-kubernetes-clusters-epe)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/compass-true-north: Halving Kubernetes Compute Costs With Vertical' Pod Autoscaler](https://medium.com/compass-true-north/halving-kubernetes-compute-costs-with-vertical-pod-autoscaler-df658c043301)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Scale with Confidence Using Terraform: Better Cost Visibility, Stronger' Governance, and Less Operational Overhead](https://t.co/y414rbxM7l)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cremich/cdk-bill-bot: Welcome to Bill - the cost optimization bot](https://github.com/cremich/cdk-bill-bot) <span class='md-tag md-tag--info'>⭐ 487</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Finout Gets a Handle on Kubernetes Costs](https://thenewstack.io/finout-gets-a-handle-on-kubernetes-costs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -83,6 +83,11 @@
 #### FinOps (1)
 
   - [aws.amazon.com: Understanding and Cost Optimizing Amazon EKS Control Plane' Logs](https://aws.amazon.com/blogs/containers/understanding-and-cost-optimizing-amazon-eks-control-plane-logs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes CloudWatch logging costs generated by EKS API server audit logs, offering practical strategies to filter and optimize them. It details how to use Logstash, FluentBit, or CloudWatch filter patterns to eliminate verbose, low-value telemetry. Crucial for enterprise platform administrators looking to cut hidden SaaS expenses.
+## Cluster Operations
+
+### Cost Optimization (1)
+
+  - **(2023)** [infoworld.com: Kubernetes cost management for the real world](https://www.infoworld.com/article/2338428/kubernetes-cost-management-for-the-real-world.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores pragmatic methodologies for managing and forecasting costs inside Kubernetes. Contrasts standard manual scaling limits with automated tools like Kubecost and OpenCost, providing architecture guidelines for resource allocation optimization.
 ## Platform Engineering
 
 ### FinOps (2)
@@ -99,5 +104,5 @@
   - [ServerlessHorrors: A Web Compiling Nightmares in the Serverless World](https://revistacloud.com/serverlesshorrors-la-web-que-recoge-las-peores-pesadillas-del-mundo-serverless) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Un compendio técnico sobre los errores más comunes y costosos en el diseño de arquitecturas serverless. Ofrece un análisis crítico de fallos reales de concurrencia, inicios en frío ("cold starts"), costos fuera de control e integración de servicios, sirviendo como guía de advertencia para diseñadores de sistemas distribuidos. [SPANISH CONTENT]
 
 ---
-💡 **Explore Related:** [HR](./hr.md) | [Elearning](./elearning.md) | [Newsfeeds](./newsfeeds.md)
+💡 **Explore Related:** [Interview Questions](./interview-questions.md) | [Elearning](./elearning.md) | [Recruitment](./recruitment.md)
 

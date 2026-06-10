@@ -3,10 +3,6 @@
 !!! info "Architectural Context"
     Detailed reference for CI/CD Kubernetes Plugins in the context of Engineering Pipeline.
 
-## Standard Reference
-
-  - [GitLab Kubernetes Agent available on GitLab.com](https://docs.gitlab.com/releases/#gitlab-kubernetes-agent-available-on-gitlabcom)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-
 ## Continuous Delivery
 
 ### GitOps
@@ -20,12 +16,12 @@
 
 #### Jenkins
 
+  - [Jenkins Kubernetes Plugin](https://plugins.jenkins.io/kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The critical Kubernetes integration for Jenkins, executing dynamic agents directly inside cluster pods. Solves pipeline scale issues by tearing down runner instances upon build completion.
+  - [Kubernetes Continuous Deploy](https://plugins.jenkins.io/kubernetes-cd) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A traditional Jenkins plugin for deploying build outputs to Kubernetes. Note: Has fallen out of favor in modern GitOps-centric continuous delivery pipelines.
   - [openshift-pipeline](https://plugins.jenkins.io/openshift-pipeline) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Allows direct deployment integrations inside Red Hat OpenShift pipelines via Jenkins, automating image building and pipeline orchestrations.
   - [openshift-sync](https://plugins.jenkins.io/openshift-sync) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Synchronizes OpenShift environment configs, secrets, build limits, and pod templates automatically to ensure consistent CI runner execution.
   - [openshift-client](https://plugins.jenkins.io/openshift-client) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Exposes OpenShift's command-line tool definitions directly inside Jenkins jobs, enabling custom script actions to command remote clusters safely.
-  - [Jenkins Kubernetes Plugin](https://plugins.jenkins.io/kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The critical Kubernetes integration for Jenkins, executing dynamic agents directly inside cluster pods. Solves pipeline scale issues by tearing down runner instances upon build completion.
-  - [Kubernetes Continuous Deploy](https://plugins.jenkins.io/kubernetes-cd) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A traditional Jenkins plugin for deploying build outputs to Kubernetes. Note: Has fallen out of favor in modern GitOps-centric continuous delivery pipelines.
 
 ---
-💡 **Explore Related:** [Jenkins Alternatives](./jenkins-alternatives.md) | [Gitops](./gitops.md) | [Registries](./registries.md)
+💡 **Explore Related:** [Gitops](./gitops.md) | [Flux](./flux.md) | [Argo](./argo.md)
 

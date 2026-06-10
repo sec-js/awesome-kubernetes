@@ -74,6 +74,7 @@
 #### Red Hat Integrations
 
   - **(2020)** [openshift.com: Monitoring Services like an SRE in OpenShift ServiceMesh' Part 2: Collecting Standard Metrics 🌟](https://www.redhat.com/en/blog/monitoring-services-like-an-sre-in-openshift-servicemesh-part-2-collecting-standard-metrics-3) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An SRE guide on collecting service mesh metrics within OpenShift, showing how to capture telemetry signals across complex distributed setups.
+  - **(2019)** [blog.openshift.com: Red Hat OpenShift Service Mesh is now available: What you should know 🌟](https://www.redhat.com/en/blog/red-hat-openshift-service-mesh-is-now-available-what-you-should-know) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Announces OpenShift Service Mesh, bringing together Istio, Kiali, and Jaeger to provide an integrated, preconfigured microservices security and monitoring workspace.
   - [Red Hat Developer: Istio Service Mesh](https://developers.redhat.com/topics/service-mesh) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An enterprise guide from Red Hat analyzing how to integrate and secure microservice platforms on OpenShift using Istio Service Mesh configurations.
 #### Troubleshooting
 
@@ -285,5 +286,5 @@
   - [itnext.io: Observing gRPC-based Microservices on Amazon EKS running Istio](https://itnext.io/observing-grpc-based-microservices-on-amazon-eks-running-istio-77ba90dd8cc0) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive tutorial explaining telemetry configuration for gRPC-based microservices on Amazon EKS running Istio. Offers practical configurations for capturing service-to-service call latency, tracing headers, and standard Envoy metrics at the pod boundary.
 
 ---
-💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md)
+💡 **Explore Related:** [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md) | [Networking](./networking.md)
 

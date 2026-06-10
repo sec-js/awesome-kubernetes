@@ -19,7 +19,6 @@
   - [github.com/CASIA-IVA-Lab/FastSAM](https://github.com/CASIA-LMC-Lab/FastSAM) <span class='md-tag md-tag--info'>⭐ 8342</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [github.com/VikParuchuri/surya](https://github.com/datalab-to/surya) <span class='md-tag md-tag--info'>⭐ 19766</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [github.com/decodingml: Real-time news search engine using Upstash Kafka and Vector DB](https://github.com/decodingai-magazine/articles-code/tree/main/articles/ml_system_design/real_time_news_search_with_upstash_kafka_and_vector_db) <span class='md-tag md-tag--info'>⭐ 139</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Kubeflow](https://www.kubeflow.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github: A very Long never ending Learning around Data Engineering & Machine' Learning](https://github.com/abhishek-ch/around-dataengineering)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cd.foundation: Announcing the CD Foundation MLOps SIG](https://cd.foundation/blog/2020/02/11/announcing-the-cd-foundation-mlops-sig)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dafriedman97.github.io: Machine Learning from Scratch](https://dafriedman97.github.io/mlbook/content/introduction.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -76,6 +75,7 @@
   - [medium.com/mlearning-ai: The Best Object Detection Libraries That I Work' With](https://medium.com/mlearning-ai/the-best-object-detection-libraries-that-i-work-with-835428a1e01e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [artifacthub.io: mlflow-server](https://artifacthub.io/packages/helm/mlflowserver/mlflow-server)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [pypi.org/project/airflow-provider-mlflow](https://pypi.org/project/airflow-provider-mlflow)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kubeflow](https://www.kubeflow.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infracloud.io: Machine Learning Orchestration on Kubernetes using Kubeflow](https://www.infracloud.io/blogs/machine-learning-orchestration-kubernetes-kubeflow)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.devgenius.io: Kubeflow Cloud Deployment (AWS)](https://blog.devgenius.io/kubeflow-cloud-deployment-aws-46f739ccbb32)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [joseprsm.medium.com: How to build Machine Learning models that train themselves](https://joseprsm.medium.com/how-to-build-machine-learning-models-that-train-themselves-bbc87499ca5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -127,5 +127,5 @@
 
 
 ---
-💡 **Explore Related:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md) | [ChatGPT](./chatgpt.md)
+💡 **Explore Related:** [AI](./ai.md) | [ChatGPT](./chatgpt.md) | [AI Agents MCP](./ai-agents-mcp.md)
 
