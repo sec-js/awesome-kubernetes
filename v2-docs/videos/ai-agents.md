@@ -83,6 +83,16 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     </center>
 
+??? note "🎬 The 6 Levels of Claude Code Explained"
+    !!! info "Architectural Summary"
+        This video provides a structured architectural roadmap for mastering Claude Code, Anthropic's agentic CLI tool for software engineering. It details the progression from basic code generation to complex, multi-step agentic workflows, emphasizing the tool's relevance to the 2026 Kubernetes ecosystem through automated manifest refactoring, contextual codebase analysis, and direct CLI-driven infrastructure orchestration. By exploring agentic "vibe coding" levels, it helps platform engineers integrate AI-augmented automation into mission-critical CI/CD pipelines and platform engineering workflows.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/TUKYbUIXLOE" title="The 6 Levels of Claude Code Explained" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
 ## Neural Networks
 
 ??? note "🎬 ¿Qué es una Red Neuronal? Parte 1 : La Neurona | DotCSV [SPANISH CONTENT]"

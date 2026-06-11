@@ -143,5 +143,5 @@
   - [circonus.com: Monitoring for Success: What All SREs Need to Know](https://www.circonus.com/2021/04/monitoring-for-success-what-all-sres-need-to-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep technical evaluation of telemetry and metric requirements for SRE. Discusses the selection of appropriate service objectives and data collection frequencies.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [QA](./qa.md) | [Project Management Methodology](./project-management-methodology.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Scaffolding](./scaffolding.md) | [Developerportals](./developerportals.md)
 

@@ -101,6 +101,9 @@ Live Grounding: Allows developers to host LLMs, audio-to-text, and image generat
 #### Agentic Engineering (1)
 
   - [Kiro: Engineering Rigor for Agentic Development](https://kiro.dev) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An emerging framework focused on enforcing software engineering rigor, test-driven validation, and deterministic guardrails within AI Agent-driven code generation and execution loops. Provides platform architectures for managing safe agent-based deployments.
+#### Coding Assistants
+
+  - [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The official training course by Anthropic showcasing the capabilities and CLI operations of Claude Code. Demonstrates how developers can utilize the terminal agent for code reviews, refactoring, automated testing, and execution-guided software development.
 
 ---
 💡 **Explore Related:** [AI](./ai.md) | [ChatGPT](./chatgpt.md) | [MLOps](./mlops.md)

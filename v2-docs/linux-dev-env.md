@@ -36,5 +36,5 @@
   - [asdf version manager (asdf-vm)](https://asdf-vm.com) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensible, multi-language version manager capable of centralizing tool runtimes through a unified CLI configuration file (`.tool-versions`). Eliminates environmental drift across localized developer workspaces by managing multiple CLI toolchains via a modular plugin architecture.
 
 ---
-💡 **Explore Related:** [Python](./python.md) | [Visual Studio](./visual-studio.md) | [API](./api.md)
+💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [Visual Studio](./visual-studio.md) | [Python](./python.md)
 

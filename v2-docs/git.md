@@ -5,10 +5,9 @@
 
 ## Standard Reference
 
-  - [GitHub Copilot](https://github.com/copilot)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [GitKraken Git Cheat](https://www.gitkraken.com/pdfs/gitkraken-git-gui-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [GitHub Copilot](https://github.com/copilot)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [fourtheorem.com: How to end Microservice pain and embrace the Monorepo](https://fourtheorem.com/monorepo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [about.gitlab.com: GitLab 13.11 released with Kubernetes Agent and Pipeline Compliance](https://docs.gitlab.com/releases)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.blog: Getting started with GitHub Actions just got easier!](https://github.blog/news-insights/product-news/getting-started-with-github-actions-just-got-easier)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.fleetdm.com: 4 tips for GitHub Actions usability (+2 bonus tips for debugging)](https://fleetdm.com/engineering/tips-for-github-actions-usability)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openshift.com: Deploying to OpenShift using GitHub Actions](https://www.redhat.com/en/blog/deploying-to-openshift-using-github-actions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -626,7 +625,6 @@
 
   - **(2020)** [kean.github.io: Trunk-Based Development](https://kean.blog/post/trunk-based-development) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An insightful perspective on adopting Trunk-Based Development within modern development teams. The article details the practical benefits, cultural adjustments, and critical testing architectures required to maintain a stable, deployable master branch without breaking changes.
   - **(2018)** [git-flow.readthedocs.io](https://git-flow.readthedocs.io/en/latest) 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Official ReadTheDocs documentation for the CLI extension wrapper `git-flow` created to automate Driessen's branching model. It remains a helpful reference for developers managing legacy codebases that require automated creation of feature, release, and hotfix tracking structures.
-  - **(2020)** [victorops.com: Source Code Control: Trunk-Based Development vs. GitFlow](https://www.splunk.com/en_us/about-splunk/acquisitions/splunk-on-call.html) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Originally published by VictorOps (now acquired by Splunk as Splunk On-Call), this guide provides a direct comparison between Trunk-Based Development and GitFlow. It outlines the operational trade-offs between stability-centric scheduled release cycles and fast continuous deployment.
   - **(2014)** [aprendegit.com: git-flow: la rama develop y uso de feature branches](http://aprendegit.com/git-flow-la-rama-develop-y-uso-de-feature-branches) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A native Spanish guide detailing the execution of GitFlow, specifically focusing on the relationship between development branches and short-lived features. Explains branch merging rules step-by-step for teams working in collaborative Spanish-speaking developer ecosystems. [SPANISH CONTENT]
   - [Git-flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.html)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly interactive and multilingual cheat sheet illustrating the lifecycle of branches in Vincent Driessen's GitFlow model. This reference acts as an indispensable, quick-lookup guide for understanding CLI commands for features, releases, and hotfixes.
   - [Git Flow](https://nvie.com/posts/a-successful-git-branching-model)  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The original, widely adopted 2010 post by Vincent Driessen introducing the Git Flow branching model. While historically revolutionary for structured releases, modern consensus and the author's own 2020 update reflect that this model introduces excessive complexity for continuous delivery pipelines.
@@ -789,5 +787,5 @@
   - [css-tricks.com: Git: Switching Unstaged Changes to a New Branch](https://css-tricks.com/git-switching-unstaged-changes-to-a-new-branch) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Offers concrete workflows for isolating and moving accidental master/main modifications into a cleanly isolated feature branch. Demonstrates terminal patterns using checkout/switch commands while safeguarding index status.
 
 ---
-💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Mkdocs](./mkdocs.md) | [Demos](./demos.md)
+💡 **Explore Related:** [Cheatsheets](./cheatsheets.md) | [Kubernetes](./kubernetes.md) | [Demos](./demos.md)
 

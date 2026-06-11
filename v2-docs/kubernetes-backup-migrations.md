@@ -5,7 +5,6 @@
 
 ## Standard Reference
 
-  - [konveyor 🌟](https://konveyor.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [rancher.com: The No. 1 Rule of Disaster Recovery](https://www.suse.com/c/rancher_blog/the-no-1-rule-of-disaster-recovery)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [rancher.com: Disaster Recovery Preparedness for Your Kubernetes Clusters 🌟](https://www.suse.com/c/rancher_blog/disaster-recovery-preparedness-for-your-kubernetes-clusters)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [percona.com: Using Volume Snapshot/Clone in Kubernetes (GKE & Percona Kubernetes Operator for XtraDB Cluster)](https://www.percona.com/blog/using-volume-snapshot-clone-in-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -21,9 +20,7 @@
   - [containerjournal.com: Red Hat, IBM Launch Konveyor to Aggregate Kubernetes Tools](https://cloudnativenow.com/features/red-hat-ibm-launch-konveyor-to-aggregate-kubernetes-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/konveyor/crane: Crane 2.0 🌟](https://github.com/migtools/crane) <span class='md-tag md-tag--info'>⭐ 54</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubebyexample.com: Migrating to Kubernetes with Open Source Tools (Konveyor, Tackle, KubeVirt, Forklift) 🌟](https://kubebyexample.com/community/blog/migrating-to-kubernetes-with-open-source-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [thenewstack.io: 5 Best Practices to Back up Kubernetes](https://thenewstack.io/5-best-practices-to-back-up-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [martinheinz.dev: Backup-and-Restore of Containers with Kubernetes Checkpointing' API](https://martinheinz.dev/blog/85)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [RKE2 Standalone Disaster Recovery Guide](https://support.tools/post/rke2-standalone-disaster-recovery)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [konveyor 🌟](https://konveyor.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Automate SQL Server Backups with PowerShell](https://datacrazyworld.com/index.php/2025/03/16/automatiza-backups-de-sql-server-con-powershell)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kube-backup: Kubernetes resource state sync to git](https://github.com/pieterlange/kube-backup) <span class='md-tag md-tag--info'>⭐ 493</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Stash](https://github.com/stashed/stash) <span class='md-tag md-tag--info'>⭐ 1414</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -34,6 +31,7 @@
   - [longhorn issue: Move replica to a different server](https://github.com/longhorn/longhorn/issues/292) <span class='md-tag md-tag--info'>⭐ 7734</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [aithority.com: Bacula Systems Announces World’s First Enterprise-Class Backup' and Recovery Solution for Red Hat OpenShift](https://aithority.com/it-and-devops/cloud/bacula-systems-announces-worlds-first-enterprise-class-backup-and-recovery-solution-for-red-hat-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Red Hat Brings Backup, Snapshots to OpenShift Container' Storage](https://thenewstack.io/red-hat-brings-backup-snapshots-to-openshift-container-storage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: 5 Best Practices to Back up Kubernetes](https://thenewstack.io/5-best-practices-to-back-up-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Bacula Enterprise for OpenShift and Kubernetes 🌟](https://www.baculasystems.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dani-izquierdo95.medium.com: Batch processing using Cron Jobs. MySQL automated' backup on Openshift/K8s](https://dani-izquierdo95.medium.com/mysql-automated-backup-on-openshift-k8s-3690280d304f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Backup and Restore of Kubernetes Stateful Application Data with' CSI Volume Snapshots](https://itnext.io/backup-and-restore-of-kubernetes-stateful-application-data-with-csi-volume-snapshots-14ce9e6f3778)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -42,6 +40,7 @@
   - [k8up.io](https://k8up.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@amitabhprasad: Kubernetes volume backup for disaster recovery](https://medium.com/@amitabhprasad/kubernetes-volume-backup-for-disaster-recovery-56a5facee7fe)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: K8s Backup and Disaster Recovery Is More Important Than' Ever](https://thenewstack.io/k8s-backup-and-disaster-recovery-is-more-important-than-ever)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [martinheinz.dev: Backup-and-Restore of Containers with Kubernetes Checkpointing' API](https://martinheinz.dev/blog/85)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube: Kubernetes.. ETCD Backup and Restore... Very Easy Steps... CKA' Exam Tips..](https://www.youtube.com/watch?app=desktop&v=mODkt1OJDew&ab_channel=AlokKumar)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/gardener/etcd-backup-restore](https://github.com/gardener/etcd-backup-restore) <span class='md-tag md-tag--info'>⭐ 328</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes.io: Kubernetes 1.20: Kubernetes Volume Snapshot Moves to GA](https://kubernetes.io/blog/2020/12/10/kubernetes-1.20-volume-snapshot-moves-to-ga)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -59,6 +58,7 @@
   - [engineering.konveyor.io: Konveyor Engineering Knowledgebase](https://engineering.konveyor.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube: Crane 2 Preview: Introduction and Demo](https://www.youtube.com/watch?v=esIZS7PVrvs&ab_channel=Konveyor)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [slideshare.net: Migrating Java JBoss EAP Applications to Kubernetes With' S2I](https://www.slideshare.net/KonveyorIO/migrating-java-jboss-eap-applications-to-kubernetes-with-s2i)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [RKE2 Standalone Disaster Recovery Guide](https://support.tools/post/rke2-standalone-disaster-recovery)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Cloud Providers
 
@@ -69,5 +69,5 @@
   - [cloud.google.com: Announcing Backup for GKE: the easiest way to protect' GKE workloads](https://cloud.google.com/blog/products/storage-data-transfer/google-cloud-launches-backups-for-gke) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep dive into the native GKE Backup service, designed for stateful application restoration and cluster disaster recovery. Discusses how to safeguard configuration metadata and persistent volume states natively through GCP APIs.
 
 ---
-💡 **Explore Related:** [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Docker](./docker.md) | [Serverless](./serverless.md)
 

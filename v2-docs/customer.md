@@ -51,5 +51,5 @@
   - [aws.amazon.com/blogs/industries: BMW Group Develops a GenAI Assistant to' Accelerate Infrastructure Optimization on AWS](https://aws.amazon.com/blogs/industries/bmw-group-develops-a-genai-assistant-to-accelerate-infrastructure-optimization-on-aws) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews BMW Group's production deployment of a GenAI orchestrator built on Amazon Bedrock. Highlights technical methods used to automatically review AWS cloud footprints and propose infrastructure optimizations globally.
 
 ---
-💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Mkdocs](./mkdocs.md) | [Demos](./demos.md)
+💡 **Explore Related:** [Cheatsheets](./cheatsheets.md) | [Kubernetes](./kubernetes.md) | [Demos](./demos.md)
 
