@@ -106,5 +106,5 @@ Live Grounding: Allows developers to host LLMs, audio-to-text, and image generat
   - [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The official training course by Anthropic showcasing the capabilities and CLI operations of Claude Code. Demonstrates how developers can utilize the terminal agent for code reviews, refactoring, automated testing, and execution-guided software development.
 
 ---
-💡 **Explore Related:** [AI](./ai.md) | [ChatGPT](./chatgpt.md) | [MLOps](./mlops.md)
+💡 **Explore Related:** [AI](./ai.md) | [MLOps](./mlops.md) | [ChatGPT](./chatgpt.md)
 

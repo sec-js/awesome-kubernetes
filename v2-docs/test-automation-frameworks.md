@@ -33,7 +33,6 @@
   - [appium.io](http://appium.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [experitest.com: Start Automating your mobile tests with Cucumber and Appium](https://digital.ai/products/continuous-testing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [lambdatest.com: How To Integrate Cucumber With Jenkins?](https://www.testmuai.com/blog/cucumber-with-jenkins-integration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Monitor your Azure cloud estate - Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/manage/monitor#reference-for-monitoring-azure-services)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.com: 9 open source test-automation frameworks](https://opensource.com/article/20/7/open-source-test-automation-frameworks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone: best practices for selenium automation](https://dzone.com/articles/best-practices-for-selenium-automation-one-must-kn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone: top 11 challenges in autmation testing using selenium](https://dzone.com/articles/top-11-challenges-in-automation-testing-using-sele)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -47,6 +46,7 @@
   - [linkedin.com: Selenium 4 and Grid Integration with Kubernetes 🌟](https://www.linkedin.com/pulse/selenium-4-grid-integration-kubernetes-rishi-khanna)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [testrigtechnologies.com: Selenium Automation Testing: How to write automated' test scripts using selenium](https://www.testrigtechnologies.com/how-to-write-a-test-automation-selenium-test-script)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Robot Framework 🌟](https://robotframework.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Monitor your Azure cloud estate - Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/manage/monitor#reference-for-monitoring-azure-services)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [automationqahub.com: How to Configure Playwright](https://automationqahub.com/how-to-install-playwright-tool)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [automationqahub.com: How to build a Playwright Page Object Model](https://automationqahub.com/how-to-build-playwright-page-object-model)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [automationqahub.com: How to Configure multiple environments in Playwright](https://automationqahub.com/how-to-configure-multiple-environments-in-playwright)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -62,5 +62,5 @@
 
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Scaffolding](./scaffolding.md) | [Developerportals](./developerportals.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Scaffolding](./scaffolding.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md)
 

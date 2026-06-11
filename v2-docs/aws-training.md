@@ -29,9 +29,8 @@
 #### AWS Official
 
   - **(2021)** [==explore.skillbuilder.aws/learn: AWS Skill Builder 🌟==](https://skillbuilder.aws) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — AWS's official digital training hub, offering interactive learning models, gamified simulation sandboxes, and deep system architecture tracks compiled by primary cloud specialists.
-  - **(2023)** [community.aws/training: Training and Certification](https://builder.aws.com/learn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An official community hub connecting cloud builders with modern development labs, learning blueprints, and architectural expert-led events.
-  - [aws.amazon.com: Exámenes prácticos gratuitos y 100% en español para que' obtenga su certificación](https://aws.amazon.com/es/blogs/aws-spanish/examenes-practicos-gratuitos-y-100-en-espanol-para-que-obtenga-su-certificacion) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AWS-published reference article detailing official practice examinations localized in Spanish to support accessible learning globally. [SPANISH CONTENT]
   - [AWS Cloud Practitioner - Curso Completo 2023](https://www.youtube.com/watch?v=zQyrhjEAqLs) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A complete video guide systematically mapping the official AWS Cloud Practitioner certification domains in Spanish. [SPANISH CONTENT]
+  - [aws.amazon.com: Exámenes prácticos gratuitos y 100% en español para que' obtenga su certificación](https://aws.amazon.com/es/blogs/aws-spanish/examenes-practicos-gratuitos-y-100-en-espanol-para-que-obtenga-su-certificacion) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AWS-published reference article detailing official practice examinations localized in Spanish to support accessible learning globally. [SPANISH CONTENT]
   - [Schedule an Exam](https://aws.amazon.com/certification/certification-prep/testing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official registration and scheduling center for AWS Certification Exams. Provides standard instructions for coordinating remote proctoring environments.
   - [aws.amazon.com: First AWS Certification Study Guide Now Available](https://aws.amazon.com/es/about-aws/whats-new/2016/10/first-aws-certification-study-guide-now-available)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Historically notable launch announcement of the first official AWS-authored certification study guide. While structurally important, newer cloud paradigms limit its relevance for current exams.
 #### AWS Professional
@@ -52,9 +51,6 @@
 #### Exam Practice
 
   - [portal.tutorialsdojo.com: AWS Digital Courses (free)](https://portal.tutorialsdojo.com/product-category/aws/aws-digital-courses-2)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Highly-regarded training portal delivering structured practice tests and cheat sheets designed to replicate the logic and design depth of official AWS Associate and Professional certifications.
-#### Multi-Cloud Platforms
-
-  - **(2021)** [acloudguru.com](https://www.pluralsight.com/cloud-guru)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A premier enterprise learning platform specialized in modern cloud-native system training. Delivers deep hands-on sandbox labs, certification preparation curricula, and continuous technical playground resources.
 
 ---
 💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Public Cloud Solutions](./public-cloud-solutions.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
