@@ -29,6 +29,7 @@
   - [rethinkdb.com](http://rethinkdb.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [NuoDB, elastically scalable database. A revolution compared to traditional monolithic 1-box databases. NuoDB is ACID,SQL, distributed/scalable and support flexible schemas](http://www.nuodb.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Traditional database replication drawbacks](http://www.nuodb.com/blog/replication-is-it-easy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com: A chance for NewSQL databases](https://medium.com/packlinkeng/a-chance-for-newsql-databases-3bba18fea6a1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [NoSQL - Wikipedia](https://en.wikipedia.org/wiki/NoSQL)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Youtube: Introduction to NoSQL by Martin Fowler](https://www.youtube.com/watch?v=qI_g07C_Q5I)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thoughtworks.com: NoSQL Databases, an overview](https://www.thoughtworks.com/insights/blog/nosql-databases-overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -59,7 +60,6 @@
   - [Hive.apache.org](https://hive.apache.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Apache Drill](https://drill.apache.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: SQL Syntax for Apache Drill](https://dzone.com/refcardz/sql-syntax-for-apache-drill)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com: A chance for NewSQL databases](https://medium.com/packlinkeng/a-chance-for-newsql-databases-3bba18fea6a1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Data Engineering
 
@@ -70,5 +70,5 @@
   - [Redis](http://redis.io) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive open-source, in-memory data store used as a database, cache, message broker, and streaming engine. Offers unmatched low-latency read-write cycles and versatile data structures. Highly valued for real-time applications requiring low overhead.
 
 ---
-💡 **Explore Related:** [Databases](./databases.md) | [Crunchydata](./crunchydata.md) | [Yaml](./yaml.md)
+💡 **Explore Related:** [Databases](./databases.md) | [Message Queue](./message-queue.md) | [Crunchydata](./crunchydata.md)
 

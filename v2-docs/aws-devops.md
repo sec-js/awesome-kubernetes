@@ -59,7 +59,7 @@ Live Grounding: Outlines deployment connectors, security scanners, and test suit
 Live Grounding: Details step-by-step agent configurations on target environments, build specs, and continuous rollout patterns using the CodeDeploy service.
 #### DevOps Foundations
 
-  - [AWS DevOps](https://aws.amazon.com/devops/#cicd) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Main AWS portal summarizing continuous integration, deployment, and management tools.
+  - [AWS DevOps](https://aws.amazon.com/devops) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Main AWS portal summarizing continuous integration, deployment, and management tools.
 Live Grounding: Features structural overviews of AWS CodePipeline, CodeBuild, and CodeDeploy, illustrating patterns for cloud-native delivery inside AWS.
 #### Infrastructure as Code
 

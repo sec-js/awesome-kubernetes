@@ -9,7 +9,6 @@
   - [docs.microsoft.com: .NET Microservices: Architecture for Containerized .NET Applications](https://learn.microsoft.com/en-us/dotnet/architecture/microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [syncfusion.com: 10 Best C# NuGet Packages to Improve Your Productivity in 2022](https://www.syncfusion.com/blogs/post/10-best-c-nuget-packages-to-improve-your-productivity-in-2022)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devblogs.microsoft.com: Introducing Compatible Packages on NuGet.org](https://devblogs.microsoft.com/dotnet/introducing-compatible-frameworks-on-nuget-org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [andrewlock.net: Series: Deploying ASP.NET Core applications to Kubernetes' with Helm 🌟](https://andrewlock.net/series/deploying-asp-net-core-applications-to-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [wikipedia.org: .NET](https://en.wikipedia.org/wiki/.NET)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Three ways to containerize .NET applications on Red' Hat OpenShift](https://developers.redhat.com/blog/2021/03/16/three-ways-to-containerize-net-applications-on-red-hat-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: .NET 6 now available for RHEL and OpenShift](https://developers.redhat.com/articles/2021/11/15/net-60-now-available-rhel-and-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -32,6 +31,7 @@
   - [Lamar](https://jasperfx.github.io/lamar)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jeremydmiller.com: Self Diagnosing Deployments with Oakton and Lamar](https://jeremydmiller.com/2021/10/12/self-diagnosing-deployments-with-oakton-and-lamar)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dotnetcurry.com: Kubernetes for ASP.NET Core Developers – Introduction,' Architecture, Hands-On](https://www.dotnetcurry.com/aspnet-core/kubernetes-for-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [andrewlock.net: Series: Deploying ASP.NET Core applications to Kubernetes' with Helm 🌟](https://andrewlock.net/series/deploying-asp-net-core-applications-to-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Developer Tools
 
@@ -42,5 +42,5 @@
   - [Extend your coding agent with .NET Skills](https://devblogs.microsoft.com/dotnet/extend-your-coding-agent-with-dotnet-skills)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step instruction illustrating how to inject specialized .NET SDK contexts and compilation knowledge bases into autonomous coding agents to optimize C# generation pipelines.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Visual Studio](./visual-studio.md)
+💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [Visual Studio](./visual-studio.md) | [Python](./python.md)
 

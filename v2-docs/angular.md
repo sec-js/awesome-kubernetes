@@ -12,5 +12,5 @@
 
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Visual Studio](./visual-studio.md) | [API](./api.md)
+💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [Visual Studio](./visual-studio.md) | [Python](./python.md)
 

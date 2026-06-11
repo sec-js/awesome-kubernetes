@@ -5,7 +5,6 @@
 
 ## Standard Reference
 
-  - [jaxenter.com - CI/CD for Spring Boot Microservices](https://devm.io/microservices/cicd-microservices-docker-162408)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Grafana 7.0: “We’ve built one of the best visualisation tools and it’s not tied to any one database”](https://devm.io/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Payara](https://payara.fish)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [WildFly](https://www.wildfly.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -22,6 +21,7 @@
   - [openjdk.java.net: JEP 413: Code Snippets in Java API Documentation](https://openjdk.org/jeps/413)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Best Java Frameworks Solutions](https://www.peerspot.com/categories/java-frameworks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [RedHat’s WildFly Swarm](http://wildfly-swarm.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jaxenter.com: CI/CD for Spring Boot Microservices: Part 1](https://devm.io/microservices/cicd-microservices-docker-162408)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Spring Boot: ¿war o jar? Ambos](https://adictosaltrabajo.com/2018/12/13/spring-boot-war-o-jar-ambos)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [arnoldgalovics.com: Java and Spring Boot multiline log support for Fluentd (EFK stack)](https://arnoldgalovics.com/java-multiline-logs-fluentd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [geeksforgeeks.org: Best way to master spring boot , a complete roadmap](https://www.geeksforgeeks.org/springboot/best-way-to-master-spring-boot-a-complete-roadmap)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -33,17 +33,16 @@
   - [containerjournal.com: Red Hat Adds Java Runtime for Kubernetes to Subscription](https://cloudnativenow.com/topics/cloudnativedevelopment/red-hat-adds-java-runtime-for-kubernetes-to-subscription)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kie.org](https://www.kie.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [adictosaltrabajo.com: Cómo reducir el código repetitivo con Lombok](https://adictosaltrabajo.com/2016/02/03/como-reducir-el-codigo-repetitivo-con-lombok)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Oracle Java 11 and OpenJDK](https://blog.joda.org/2018/09/do-not-fall-into-oracles-java-11-trap.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [It’s time! Migrating to Java 11 🌟](https://medium.com/criciumadev/its-time-migrating-to-java-11-5eb3868354f9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github: Spring Cloud Kubernetes 🌟](https://github.com/spring-cloud/spring-cloud-kubernetes) <span class='md-tag md-tag--info'>⭐ 3530</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [Salaboy/From Monolith to K8s](https://github.com/Salaboy/from-monolith-to-k8s) <span class='md-tag md-tag--info'>⭐ 355</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dyser/kubernetes-intro](https://github.com/dsyer/kubernetes-intro)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [About WebSphere Liberty](https://developer.ibm.com/wasdev/websphere-liberty)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [KumuluzEE](https://ee.kumuluz.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone: Programming Styles Compared: Spring Framework vis-a-vis Eclipse MicroProfile' 🌟🌟](https://dzone.com/articles/programming-styles-spring-boot-vis-a-vis-with-ecli)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [About WebSphere Liberty](https://developer.ibm.com/wasdev/websphere-liberty)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [wikipedia: Java Enterprise Edition (Java EE)](https://en.wikipedia.org/wiki/Java_Platform,_Enterprise_Edition)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [KumuluzEE](https://ee.kumuluz.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [reddit.com/r/java](https://www.reddit.com/r/java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@javachampions : Java is still free](https://medium.com/@javachampions/java-is-still-free-2-0-0-6b9aa8d6d244)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Oracle Java 11 and OpenJDK](https://blog.joda.org/2018/09/do-not-fall-into-oracles-java-11-trap.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: The future of Java and OpenJDK updates without Oracle' support](https://developers.redhat.com/blog/2018/09/24/the-future-of-java-and-openjdk-updates-without-oracle-support)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [redhat.com: The history and future of OpenJDK](https://www.redhat.com/en/blog/history-and-future-openjdk)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [javarevisited.blogspot.com: The 2020 Java Developer RoadMap 🌟](https://javarevisited.blogspot.com/2019/10/the-java-developer-roadmap.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -72,6 +71,7 @@
   - [Red Hat OpenJDK](https://developers.redhat.com/products/openjdk/download)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [piotrminkowski.com: Which JDK to Choose on Kubernetes 🌟](https://piotrminkowski.com/2023/02/17/which-jdk-to-choose-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Amazon Corretto](https://aws.amazon.com/corretto)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [It’s time! Migrating to Java 11 🌟](https://medium.com/criciumadev/its-time-migrating-to-java-11-5eb3868354f9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [__AdoptOpenJDK 11__ Is the New Default 🌟](https://blog.adoptopenjdk.net/2020/06/adoptopenjdk-11-new-default)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [tecmint.com: How to Install Java 17 on RHEL-based Linux Distributions](https://www.tecmint.com/install-java-on-centos-rhel-fedora)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: Virtual Threads: New Foundations for High-Scale Java Applications](https://www.infoq.com/articles/java-virtual-threads)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -196,6 +196,13 @@
   - [Helidon.io](https://helidon.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developer.okta.com: Build REST APIs and Native Java Apps with Helidon](https://developer.okta.com/blog/2022/01/06/native-java-helidon)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Red Hat OpenShift
+
+### Developer Experience
+
+#### Maven Plugins
+
+  - **(2025)** [Eclipse JKube 🌟](https://eclipse.dev/jkube) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The central documentation portal for Eclipse JKube, an open-source suite of tooling designed to facilitate the rapid containerization, deployment, and management of Java applications across Kubernetes and Red Hat OpenShift infrastructures.
 ## Runtime Optimizations
 
 ### JVM Tuning
@@ -205,5 +212,5 @@
   - [kstefanj.github.io: GC progress from JDK 8 to JDK 17](https://kstefanj.github.io/2021/11/24/gc-progress-8-17.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Empirical performance benchmarks tracking G1GC, ParallelGC, ZGC, and Shenandoah collection efficiency improvements from Java SE 8 through LTS 17.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Visual Studio](./visual-studio.md)
+💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [Visual Studio](./visual-studio.md) | [Python](./python.md)
 

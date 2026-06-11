@@ -5,8 +5,6 @@
 
 ## Standard Reference
 
-  - [blog.crunchydata.com: How to Setup PostgreSQL Monitoring in Kubernetes](https://www.crunchydata.com/blog/setup-postgresql-monitoring-in-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.crunchydata.com: Quickly Document Your Postgres Database Using psql Meta-Commands](https://www.crunchydata.com/blog/d-meta)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [crunchydata blog: Deploying Active-Active PostgreSQL on Kubernetes](https://www.crunchydata.com/blog/active-active-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [crunchydata blog: What's New in Crunchy PostgreSQL Operator 4.0](https://www.crunchydata.com/blog/crunchy-postgres-kubernetes-operator-4.0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [info.crunchydata.com: Monitoring PostgreSQL clusters in kubernetes](https://www.crunchydata.com/blog/monitoring-postgresql-clusters-in-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -17,12 +15,14 @@
   - [info.crunchydata.com: Crunchy PostgreSQL for Kubernetes 4.3 Released](https://www.crunchydata.com/news/crunchy-postgresql-for-kuberenetes-4.3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [info.crunchydata.com: Deploy pgAdmin4 with PostgreSQL on Kubernetes](https://www.crunchydata.com/blog/deploy-pgadmin4-with-postgresql-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [info.crunchydata.com: Multi-Kubernetes Cluster PostgreSQL Deployments](https://www.crunchydata.com/blog/multi-kubernetes-cluster-postgresql-deployments)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [info.crunchydata.com: Quickly Document Your Postgres Database Using psql Meta-Commands](https://www.crunchydata.com/blog/d-meta)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [info.crunchydata.com: Fast CSV and JSON Ingestion in PostgreSQL with COPY](https://www.crunchydata.com/blog/fast-csv-and-json-ingestion-in-postgresql-with-copy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [info.crunchydata.com: Composite Primary Keys, PostgreSQL and Django](https://www.crunchydata.com/blog/composite-primary-keys-postgresql-and-django)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [info.crunchydata.com: Getting Started with PostgreSQL Operator 4.3 in OpenShift](https://www.crunchydata.com/blog/getting-started-with-postgresql-operator-4.3-in-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [info.crunchydata.com: Introducing the Postgres Prometheus Adapter](https://www.crunchydata.com/blog/using-postgres-to-back-prometheus-for-your-postgresql-monitoring-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [info.crunchydata.com: Setup ora2pg for Oracle to Postgres Migration](https://www.crunchydata.com/blog/setup-ora2pg-for-oracle-to-postgres-migration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [info.crunchydata.com: pgBackRest - Performing Backups on a Standby Cluster](https://www.crunchydata.com/blog/pgbackrest-performing-backups-on-a-standby-cluster)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [info.crunchydata.com: How to Setup PostgreSQL Monitoring in Kubernetes](https://www.crunchydata.com/blog/setup-postgresql-monitoring-in-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [info.crunchydata.com: PostgreSQL Monitoring for Application Developers: The DBA Fundamentals](https://www.crunchydata.com/blog/postgresql-monitoring-for-application-developers-dba-stats)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [info.crunchydata.com: Tuning Your Postgres Database for High Write Loads](https://www.crunchydata.com/blog/tuning-your-postgres-database-for-high-write-loads)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [info.crunchydata.com: Using the PostgreSQL Operator with Rook Ceph Storage](https://www.crunchydata.com/blog/crunchy-postgresql-operator-with-rook-ceph-storage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -48,7 +48,6 @@
   - [Crunchy PostgreSQL and Openshift](https://www.redhat.com/en/blog/leveraging-the-crunchy-postgresql)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ref1](https://www.redhat.com/en/blog/understanding-service-accounts-sccs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [ref2](https://docs.openshift.com/container-platform/4.1/authentication/understanding-and-creating-service-accounts.html)
     - [ref3](https://docs.openshift.com/container-platform/4.1/authentication/managing-security-context-constraints.html#role-based-access-to-ssc_configuring-internal-oauth)
-  - [Kubernetes.io: Operator pattern](https://kubernetes.io/docs/concepts/extend-kubernetes/operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [crunchydata.com](https://www.crunchydata.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/CrunchyData](https://github.com/CrunchyData)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/CrunchyData/postgres-operator](https://github.com/CrunchyData/postgres-operator) <span class='md-tag md-tag--info'>⭐ 4406</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
@@ -71,9 +70,17 @@
   - [ref1](https://access.crunchydata.com/documentation/postgres-operator/latest/operatorcli/pgo-overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [crunchy-pgadmin4](https://access.crunchydata.com/documentation/crunchy-postgres-containers/4.3.0/container-specifications/crunchy-pgadmin4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [pgAdmin 4](https://access.crunchydata.com/documentation/crunchy-postgres-containers/4.3.0/examples/administration/pgadmin4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kubernetes.io: Operator pattern](https://kubernetes.io/docs/concepts/extend-kubernetes/operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ref3](https://dzone.com/articles/understanding-openshift-security-context-constrain)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Data Architecture
+
+### Databases
+
+#### PostgreSQL
+
+  - **(2025)** [learn.crunchydata.com](https://www.crunchydata.com/developers/tutorials) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An interactive database training portal detailing progressive PostgreSQL configuration, clustering, and troubleshooting. Crucial for architects planning highly available, stateful cloud-native storage engines.
 
 ---
-💡 **Explore Related:** [Databases](./databases.md) | [Yaml](./yaml.md) | [Message Queue](./message-queue.md)
+💡 **Explore Related:** [Databases](./databases.md) | [Message Queue](./message-queue.md) | [NoSQL](./nosql.md)
 

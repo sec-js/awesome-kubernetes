@@ -5,6 +5,7 @@
 
 ## Standard Reference
 
+  - [Part 4 — Using the Go client framework](https://medium.com/programming-kubernetes/building-stuff-with-the-kubernetes-api-part-4-using-go-b1d0e3c1c899)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/kubernetes-client 🌟](https://github.com/kubernetes-client)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Building stuff with the Kubernetes API — TOC 🌟](https://medium.com/programming-kubernetes/building-stuff-with-the-kubernetes-api-toc-84d751876650)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [k8s-ruby: Kubernetes Ruby Client](https://github.com/k8s-ruby/k8s-ruby) <span class='md-tag md-tag--info'>⭐ 75</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -36,7 +37,6 @@
   - [blog.marcnuri.com](https://blog.marcnuri.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: How to manage microservices using OpenShift Dev Spaces' and JKube](https://developers.redhat.com/developer-sandbox/activities/how-to-manage-microservices-using-openshift-dev-spaces-and-jkube)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [javaoperatorsdk.io: Build Kubernetes Operators in Java without hassle](https://javaoperatorsdk.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Part 4 — Using the Go client framework](https://medium.com/programming-kubernetes/building-stuff-with-the-kubernetes-api-part-4-using-go-b1d0e3c1c899)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Cloud-Native
 
@@ -46,8 +46,8 @@
 
 ##### Eclipse JKube
 
-  - [developers.redhat.com: Cloud-native Java applications made easy: Eclipse' JKube 1.0.0 now available](https://developers.redhat.com/blog/2020/09/09/cloud-native-java-applications-made-easy-eclipse-jkube-1-0-0-now-available)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Launch announcement of Eclipse JKube 1.0.0 detailing its design philosophy, architectural decoupling from old Fabric8 dependencies, and its seamless integration with modern cloud-native standards.
   - [developers.redhat.com: Java development on top of Kubernetes using Eclipse' JKube](https://developers.redhat.com/blog/2020/08/24/java-development-on-top-of-kubernetes-using-eclipse-jkube)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Exploring developer loop workflows utilizing Eclipse JKube to build, deploy, and debug Java applications in real-time inside a local or remote Kubernetes cluster environment.
+  - [developers.redhat.com: Cloud-native Java applications made easy: Eclipse' JKube 1.0.0 now available](https://developers.redhat.com/blog/2020/09/09/cloud-native-java-applications-made-easy-eclipse-jkube-1-0-0-now-available)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Launch announcement of Eclipse JKube 1.0.0 detailing its design philosophy, architectural decoupling from old Fabric8 dependencies, and its seamless integration with modern cloud-native standards.
 #### Migration Guides
 
 ##### Eclipse JKube (1)
@@ -74,9 +74,8 @@
   - [developers.redhat.com: Getting started with the fabric8 Kubernetes Java' client](https://developers.redhat.com/blog/2020/05/20/getting-started-with-the-fabric8-kubernetes-java-client) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical introduction to utilizing the Fabric8 Kubernetes Java Client SDK. Details how to perform CRUD operations on Kubernetes APIs, deploy custom controllers, and stream container logs inside Java runtimes.
 #### Maven Plugins
 
-  - **(2025)** [Eclipse JKube 🌟](https://eclipse.dev/jkube) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The central documentation portal for Eclipse JKube, an open-source suite of tooling designed to facilitate the rapid containerization, deployment, and management of Java applications across Kubernetes and Red Hat OpenShift infrastructures.
   - **(2025)** [GitHub: Eclipse JKube](https://github.com/eclipse-jkube/jkube) <span class='md-tag md-tag--info'>⭐ 850</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Active repository containing the source code, extensions, and Maven/Gradle plugins for Eclipse JKube. Simplifies localized builds, auto-detects Java application frameworks, and generates matching Kubernetes resource configurations.
 
 ---
-💡 **Explore Related:** [OCP 3](./ocp3.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
+💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Docker](./docker.md) | [Serverless](./serverless.md)
 

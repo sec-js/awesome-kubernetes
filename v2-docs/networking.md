@@ -14,17 +14,16 @@
   - [HTTP/2 With JBoss EAP 7 - Tech Preview](http://blog.eisele.net/2015/11/http2-with-jboss-eap-7.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [simple-talk.com: Script Loading between HTTP/1.1 and HTTP/2](https://www.red-gate.com/simple-talk/development/dotnet-development/script-loading-between-http1-1-and-http2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [5 Tips to Boost the Performance of Your Apache Web Server](http://www.tecmint.com/apache-performance-tuning)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [awesomeopensource.com: The Top 110 Cidr Open Source Projects on Github 🌟](https://awesomeopensource.com/projects/cidr)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Manage Azure IPAM with Terraform](https://mattias.engineer/blog/2025/azure-ipam-with-terraform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Application Network Security in Azure Subnets, Endpoints, DNS, NSGs with Terraform Code](https://medium.com/@codebob75/application-network-security-in-azure-subnets-endpoints-dns-nsgs-with-terraform-code-0bcabdb3a65b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Reduce Latency with Azure Proximity Placement Groups](https://hansencloud.com/2025/02/24/reduce-latency-with-azure-proximity-placement-groups)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Azure Products by Region Table](https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/table)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Hub-Spoke Network Topology in Azure - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/networking/architecture/hub-spoke)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Azure Network Security Perimeter Concepts](https://learn.microsoft.com/en-us/azure/private-link/network-security-perimeter-concepts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Introducing Subnet Peering in Azure](https://techcommunity.microsoft.com/blog/azurenetworkingblog/introducing-subnet-peering-in-azure/4383841)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Which Azure Network is Cheaper?](https://blog.cloudtrooper.net/2026/01/16/which-azure-network-is-cheaper)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Manage Azure IPAM with Terraform](https://mattias.engineer/blog/2025/azure-ipam-with-terraform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [A Guide to Azure Data Transfer Pricing](https://techcommunity.microsoft.com/blog/AzureNetworkingBlog/a-guide-to-azure-data-transfer-pricing/4374538)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Reduce Latency with Azure Proximity Placement Groups](https://hansencloud.com/2025/02/24/reduce-latency-with-azure-proximity-placement-groups)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Hub-Spoke Network Topology in Azure - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/networking/architecture/hub-spoke)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Private Link Reality Bites: Service Endpoints vs Private Link](https://blog.cloudtrooper.net/2025/02/17/private-link-reality-bites-service-endpoints-vs-private-link)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Azure Products by Region Table](https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/table)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [NFTables mode for kube-proxy in Kubernetes](https://kubernetes.io/blog/2025/02/28/nftables-kube-proxy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [networkwalks.com: TCP/IP Model](https://networkwalks.com/tcp-ip-model)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/javarevisited: 5 Best HTTPS, SSL and TLS Courses for Beginners' in 2022](https://medium.com/javarevisited/best-https-ssl-and-tls-courses-for-beginners-4437661250b3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -40,6 +39,7 @@
   - [cyberciti.biz: Linux: IP Subnet (CIDR) Calculator That Will Help You With' Network Settings](https://www.cyberciti.biz/faq/linux-subnet-calculator-cidr)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cyberciti.biz: Linux Calculating Subnets with ipcalc and sipcalc Utilities](https://www.cyberciti.biz/tips/perform-simple-manipulation-of-ip-addresse.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [tecmint.com: How to Calculate IP Subnet Address with ipcalc Tool](https://www.tecmint.com/calculate-ip-subnet-address-with-ipcalc-tool)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [awesomeopensource.com: The Top 110 Cidr Open Source Projects on Github 🌟](https://awesomeopensource.com/projects/cidr)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [build5nines.com: IPv4 Address CIDR Range Reference and Calculator](https://build5nines.com/ipv4-address-cidr-range-reference-and-calculator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [NetBox IPAM 🌟](https://github.com/netbox-community/netbox) <span class='md-tag md-tag--info'>⭐ 20567</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [netboxlabs.com: An In-Depth Guide to NetBox for IPAM](https://netboxlabs.com/blog/netbox-ipam)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -67,5 +67,5 @@
   - [Building a DDoS Response Plan with Azure DDoS Protection](https://techcommunity.microsoft.com/blog/azurenetworksecurityblog/building-a-ddos-response-plan/4372256) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Architecture plan to withstand high-volume distributed denial-of-service attempts. Live Grounding: Focuses heavily on cloud-native patterns like rate-limiting, load-balancer protection, and Edge integration on Azure platforms.
 
 ---
-💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md)
+💡 **Explore Related:** [Servicemesh](./servicemesh.md) | [Istio](./istio.md) | [Kubernetes Networking](./kubernetes-networking.md)
 

@@ -127,10 +127,10 @@
 
 #### Prometheus
 
+  - [Setup Prometheus Using Helm Chart on Kubernetes](https://devopscube.com/setup-prometheus-helm-chart)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A direct, production-ready tutorial demonstrating how to install and configure Prometheus using official Helm charts. Explains default values overrides, persistent volume configurations, and custom alertmanager integration for instant operational visibility.
   - [blog.fourninecloud.com: Kubernetes monitoring — How to monitor using prometheus?](https://blog.fourninecloud.com/kubernetes-monitoring-how-to-monitor-using-prometheus-f2eff767f6bb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A foundational tutorial detail step-by-step deployment of Prometheus on Kubernetes. It covers target discovery, metrics collection, and node exporter setup. While helpful for beginners, modern architectures typically favor Operator-based deployments.
   - [aws.amazon.com: Using Prometheus to Avoid Disasters with Kubernetes CPU' Limits 🌟](https://aws.amazon.com/blogs/containers/using-prometheus-to-avoid-disasters-with-kubernetes-cpu-limits) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A critical engineering guide addressing the dreaded CPU throttling issue in Kubernetes caused by hard CFS limits. Combines Prometheus query analysis with kernel-level metrics to showcase how to balance application latency and resource utilization. Highly recommended for production platform engineers.
   - [itnext.io: Kubernetes: monitoring with Prometheus — exporters, a Service' Discovery, and its roles](https://itnext.io/kubernetes-monitoring-with-prometheus-exporters-a-service-discovery-and-its-roles-ce63752e5a1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deconstructs Prometheus service discovery mechanics inside Kubernetes, highlighting the difference between Pod, Service, and Endpoint discovery roles. Demonstrates how exporters expose node and application-level metrics for scrape targets.
-  - [Setup Prometheus Using Helm Chart on Kubernetes](https://devopscube.com/setup-prometheus-helm-chart)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A direct, production-ready tutorial demonstrating how to install and configure Prometheus using official Helm charts. Explains default values overrides, persistent volume configurations, and custom alertmanager integration for instant operational visibility.
 #### SLOs
 
   - [thenewstack.io: Service Level Objectives in Kubernetes](https://thenewstack.io/service-level-objectives-in-kubernetes)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Explains Service Level Objectives (SLOs) in cloud-native systems, detailing how to establish SLIs and error budgets inside Kubernetes clusters. Introduces standard math and metrics pipelines needed to track app health reliably.
@@ -262,5 +262,5 @@
   - [signoz.io: Kubernetes Audit Logs - Best Practices And Configuration](https://signoz.io/blog/kubernetes-audit-logs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Outlines advanced configuration policies for the Kubernetes API audit logging engine. Deeply covers audit profiles, performance tuning, secure log transport, and compliance-driven retention metrics.
 
 ---
-💡 **Explore Related:** [OCP 3](./ocp3.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
+💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Docker](./docker.md) | [Serverless](./serverless.md)
 

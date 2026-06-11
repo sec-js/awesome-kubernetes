@@ -5,9 +5,9 @@
 
 ## Standard Reference
 
-  - [IBM API Connect](https://www.ibm.com/docs/en/api-connect)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [chakray.com: API Strategy. How to create an API Marketplace](https://chakray.com/api-strategy-how-to-create-an-api-marketplace)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [OpenShift Ecosystem: API Management on Red Hat OpenShift with 3scale](https://www.redhat.com/en/blog/openshift-ecosystem-api-management-on-red-hat-openshift-with-3scale)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [IBM API Connect](https://www.ibm.com/docs/en/api-connect)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [chakray.com: Why API Lifecycle Management is a MUST for Your Organisation APIs](https://chakray.com/why-api-lifecycle-management-is-must-organisation-apis)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [chakray.com: 11 Steps to achieving a successful API Management Strategy](https://chakray.com/11-steps-achieving-successful-api-management-strategy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [chakray.com: Por qué API LIFECYCLE MANAGEMENT es imprescindible para la organización de APIs](https://chakray.com/es/por-que-api-lifecycle-management-imprescindible-api-organizacion)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -20,11 +20,10 @@
   - [BBVA API Market](https://www.bbvaapimarket.com/es)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ING Developer Portal](https://developer.ing.com/openbanking)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [ING API Marketplace](https://developer.ing.com/openbanking/api-marketplace/marketplace)
   - [Telefonica Thinking Cities](https://thinking-cities.readthedocs.io/en/latest)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [BMW InnovationLab](https://github.com/BMW-InnovationLab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Public APIs Directory](https://publicapis.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Rapid API](https://rapidapi.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Open Banking](https://en.wikipedia.org/wiki/Open_banking)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Open Source Friday: Spec Kit - What it is, the problems it solves, and how' clear specs make collaboration work](https://www.youtube.com/live/2IArMAhkJcE?si=_LlIjakRXHUzERjy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [BMW InnovationLab](https://github.com/BMW-InnovationLab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Layering domains and microservices using API Gateways](https://kislayverma.com/software-architecture/layering-domains-and-microservices-using-api-gateways)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.oliverjumpertz.dev: The 10 Most Valuable Lessons I Learned As A Developer](https://blog.oliverjumpertz.dev/the-10-most-valuable-lessons-i-learned-as-a-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [genbeta.com: 32.000 desarrolladores responden sobre plataformas y lenguajes' de programación: JavaScript, AWS, GitHub y Windows, los más usados](https://www.genbeta.com/desarrollo/32-000-desarrolladores-responden-plataformas-lenguajes-programacion-javascript-aws-github-windows-usados)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -36,6 +35,7 @@
   - [API Landscape](https://www.apidays.co/api-landscape)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [API Marketplace vs API Gateway (What’s the Difference?)](https://rapidapi.com/blog/api-marketplace-vs-api-gateway-whats-the-difference)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: RapidAPI Provides API Marketplace and Insight](https://dzone.com/articles/rapidapi-provides-api-marketplace-and-insight)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Open Source Friday: Spec Kit - What it is, the problems it solves, and how' clear specs make collaboration work](https://www.youtube.com/live/2IArMAhkJcE?si=_LlIjakRXHUzERjy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [moesif.com: How to choose the right API Gateway for your platform: Comparison' of Kong, Tyk, Apigee, and alternatives](https://www.moesif.com/blog/technical/api-gateways/How-to-Choose-The-Right-API-Gateway-For-Your-Platform-Comparison-Of-Kong-Tyk-Apigee-And-Alternatives)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [API Management vs API Gateway: Where Does API Analytics and Monitoring Fit?](https://dzone.com/articles/api-management-vs-api-gateway-and-where-does-api-a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [API Management vs API Gateway and where does API Analytics and Monitoring fit?](https://dev.to/moesif/api-management-vs-api-gateway-and-where-does-api-analytics-and-monitoring-fit-4g75)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -114,6 +114,15 @@ Live Grounding: Delivers strategic instruction on utilizing AI capabilities, cod
 #### Prompt Engineering
 
   - [Claude 101: Free Guides to Master Claude](https://claude101.com) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive guides to mastering Anthropic's Claude. Focuses on system instructions, complex XML markup injection, custom tool calls, and API configuration profiles for multi-agent workflows.
+## Cloud Native Infrastructure
+
+### Service Mesh
+
+#### Istio
+
+##### Operations
+
+  - **(2021)** [solo.io: Navigating __Istio Config__: a look into Istio’s toolkit](https://www.solo.io/blog) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A guide detailing useful debugging utilities and CLI tools for validating and diagnosing Istio configuration sets. Explains how to leverage 'istioctl' diagnostics, debug configuration states, and inspect direct Envoy configuration mappings to maintain healthy cluster states.
 ## Developer Experience
 
 ### AI Assisted Engineering
@@ -157,7 +166,12 @@ Live Grounding: Delivers strategic instruction on utilizing AI capabilities, cod
 ##### GitHub Copilot
 
   - **(2024)** [**GitHub Copilot CLI for Beginners: Getting Started**](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli/?utm_source=twitter-cli-beginners-getting-started-cta&utm_medium=social&utm_campaign=dev-pod-copilot-cli-2026) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Introductory guide explaining how to integrate the terminal-based GitHub Copilot CLI to leverage natural-language shell queries, automating script development and git lifecycle executions.
+### Frontend Development
+
+#### Architectural Patterns
+
+  - **(2021)** [**Clean Architecture on Frontend**](https://bespoyasov.me/blog/clean-architecture-on-frontend) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An exceptional breakdown demonstrating the application of Clean Architecture principles to frontend systems. Illustrates isolation of business logic from UI components to enable extreme testability.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Scaffolding](./scaffolding.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Scaffolding](./scaffolding.md) | [SRE](./sre.md)
 

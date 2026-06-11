@@ -111,6 +111,11 @@
 #### Code Generation Quality
 
   - [thenewstack.io: Developers Put AI Bots to the Test of Writing Code](https://thenewstack.io/developers-put-ai-bots-to-the-test-of-writing-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Empirical evaluation measuring code-generation accuracy across popular AI engines. Examines compiler error rates, structural vulnerabilities, and the necessity of developer supervision in AI workflows.
+### Programming Foundations
+
+#### Python Language
+
+  - **(2025)** [**Think Python**](https://allendowney.github.io/ThinkPython) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A classic computational thinking handbook utilizing Python. Focuses on algorithmic integrity, data structure designs, object-oriented implementations, and debug execution pipelines.
 
 ---
 💡 **Explore Related:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md) | [MLOps](./mlops.md)

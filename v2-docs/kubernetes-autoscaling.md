@@ -5,11 +5,11 @@
 
 ## Standard Reference
 
+  - [replex.io](https://www.splunk.com/en_us/appdynamics-joins-splunk.html?301=appdynamics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.scaleway.com: Understanding Kubernetes Autoscaling](https://www.scaleway.com/en/blog/understanding-kubernetes-autoscaling)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [sysdig.com: Kubernetes pod autoscaler using custom metrics](https://www.sysdig.com/blog/kubernetes-autoscaler)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [learnk8s.io: Architecting Kubernetes clusters — choosing the best autoscaling strategy 🌟](https://learnkube.com/kubernetes-autoscaling-strategies)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thinksys.com: Understanding Kubernetes Autoscaling](https://thinksys.com/devops/kubernetes-autoscaling)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Kubernetes Autoscaling in Production: Best Practices for **Cluster Autoscaler, HPA and VPA**](https://www.splunk.com/en_us/appdynamics-joins-splunk.html?301=appdynamics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [HPA: Horizontal Pod Autoscaler](https://kubernetes.io/docs/concepts/workloads/autoscaling/horizontal-pod-autoscale)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [around25.com: Horizontal Pod Autoscaler in Kubernetes 🌟](https://www.around25.com/blog/horizontal-pod-autoscaler-in-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [sysdig.com: Trigger a Kubernetes HPA with Prometheus metrics](https://www.sysdig.com/blog/kubernetes-hpa-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -111,5 +111,5 @@
 
 
 ---
-💡 **Explore Related:** [OCP 3](./ocp3.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
+💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Docker](./docker.md) | [Serverless](./serverless.md)
 

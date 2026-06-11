@@ -5,18 +5,12 @@
 
 ## Standard Reference
 
-  - [Red Hat Ceph Storage](https://ceph.io/en)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [Noobaa](https://github.com/noobaa/noobaa-core):
-        - Red Hat Multi Cloud Gateway (AWS, Azure, GCP, etc)
-        - Asynchronous replication of data between my local ceph and my cloud provider
-        - Deduplication
-        - Compression
-        - Encryption
-  - [State of OpenShift Container Storage](https://www.redhat.com/en/blog/state-of-openshift-container-storage-eran-tamir-and-duncan-hardie-red-hat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redbooks.ibm.com: IBM Storage for Red Hat OpenShift. IBM block storage & IBM Spectrum Scale](http://www.redbooks.ibm.com/abstracts/redp5565.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.min.io: Mono Clouds vs Multi-Clouds & Hybrid Clouds](https://www.min.io/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Monitoring jenkins using instana](https://www.ibm.com/think)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: The most popular cloud native solutions 🌟](https://thenewstack.io/cloud-native/the-most-popular-cloud-native-storage-solutions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blocksandfiles.com: geless storage is the ‘answer’ to Kubernetes data challenges](https://www.blocksandfiles.com/container-storage/2020/12/22/storageless-storage-is-the-answer-to-kubernetes-data-challenges/1611647)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [rancher.com: What is Cloud-Native Storage?](https://www.suse.com/c/rancher_blog/what-is-cloud-native-storage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.min.io: Why Kubernetes Managed Object Storage Matters](https://www.min.io/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [storj.io: Integrating Decentralized Cloud Storage with Duplicati](https://www.storj.io/cloud-object-storage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoworld.com: Kubernetes object storage best practices](https://www.infoworld.com/article/2269961/kubernetes-object-storage-best-practices.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.flant.com: Comparing Ceph, LINSTOR, Mayastor, and Vitastor storage performance in Kubernetes](https://palark.com/blog/kubernetes-storage-performance-linstor-ceph-mayastor-vitastor)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -24,14 +18,18 @@
   - [blocksandfiles.com: Lightbits Labs adds Kubernetes table stakes: CSI support](https://www.blocksandfiles.com/block/2020/06/23/lightbits-labs-adds-kubernetes-table-stakes-csi-support/1598623)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Longhorn Simplifies Distributed Block Storage in Kubernetes](https://www.suse.com/c/rancher_blog/longhorn-simplifies-distributed-block-storage-in-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [containerjournal.com: Rancher Labs Adds Support for Longhorn Storage on Kubernetes Clusters](https://cloudnativenow.com/topics/cloudnativeplatforms/rancher-labs-adds-support-for-longhorn-storage-on-kubernetes-clusters)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [IBM Spectrum](https://www.ibm.com/solutions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redbooks.ibm.com: IBM Storage for Red Hat OpenShift. IBM block storage & IBM Spectrum Scale](http://www.redbooks.ibm.com/abstracts/redp5565.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [searchstorage.techtarget.com: IBM Spectrum](https://www.techtarget.com/searchitchannel/definition/IBM-International-Business-Machines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blocksandfiles.com: Kubernetes storage: SmartX’s IOMesh beats Portworx, Longhorn and OpenEBS](https://www.blocksandfiles.com/block/2021/08/05/kubernetes-storage-smartxs-iomesh-beats-portworx-longhorn-and-openebs/1617691)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [min.io](https://www.min.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Rook-Ceph](https://operatorhub.io/operator/rook-ceph)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Rook](https://rook.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [State of OpenShift Container Storage](https://www.redhat.com/en/blog/state-of-openshift-container-storage-eran-tamir-and-duncan-hardie-red-hat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Red Hat Ceph Storage](https://ceph.io/en)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [Noobaa](https://github.com/noobaa/noobaa-core):
+        - Red Hat Multi Cloud Gateway (AWS, Azure, GCP, etc)
+        - Asynchronous replication of data between my local ceph and my cloud provider
+        - Deduplication
+        - Compression
+        - Encryption
   - [dok.community: Data on Kubernetes 2021 Report](https://dok.community/dokc-2021-report)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: Persistent storage in action: Understanding Red Hat' OpenShift’s persistent volume framework 🌟](https://developers.redhat.com/blog/2020/10/22/persistent-storage-in-action-understanding-red-hat-openshifts-persistent-volume-framework)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: How Kubernetes provides networking and storage to applications](https://thenewstack.io/how-kubernetes-provides-networking-and-storage-to-applications)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Kubernetes Storage Explained 🌟](https://medium.com/swlh/kubernetes-storage-explained-558e85596d0c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: A Guide to Running Stateful Applications in Kubernetes](https://thenewstack.io/a-guide-to-running-stateful-applications-in-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -70,7 +68,6 @@
   - [kubermatic.com: Keeping the State of Apps 5: Introduction to Storage Classes](https://www.kubermatic.com/blog/keeping-the-state-of-apps-5-introduction-to-storage-classes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Kubernetes: PersistentVolume and PersistentVolumeClaim — an overview' with examples](https://itnext.io/kubernetes-persistentvolume-and-persistentvolumeclaim-an-overview-with-examples-3c5688222f99)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Persistent Volumes: Separating Compute and Storage](https://thenewstack.io/persistent-volumes-separating-compute-and-storage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: Persistent storage in action: Understanding Red Hat' OpenShift’s persistent volume framework 🌟](https://developers.redhat.com/blog/2020/10/22/persistent-storage-in-action-understanding-red-hat-openshifts-persistent-volume-framework)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Resizing StatefulSet Persistent Volumes with zero downtime 🌟](https://itnext.io/resizing-statefulset-persistent-volumes-with-zero-downtime-916ebc65b1d4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/kubernetes-sigs: Local Persistence Volume Static Provisioner' 🌟](https://github.com/kubernetes-sigs/sig-storage-local-static-provisioner) <span class='md-tag md-tag--info'>⭐ 1198</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [shuanglu1993.medium.com: What happens when volumeManager in the kubelet' starts?](https://shuanglu1993.medium.com/what-happens-when-volumemanager-in-the-kubelet-starts-1fea623ac6ce)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -91,6 +88,7 @@
   - [Create ReadWriteMany PersistentVolumeClaims on your Kubernetes Cluster 🌟](https://medium.com/asl19-developers/create-readwritemany-persistentvolumeclaims-on-your-kubernetes-cluster-3a8db51f98e3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Digital Ocean: Kuberntes PVC ReadWriteMany access mode alternative](https://www.digitalocean.com/community/questions/kuberntes-pvc-readwritemany-access-mode-alternative)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: State of Persistent Storage in K8s — A Benchmark](https://itnext.io/state-of-persistent-storage-in-k8s-a-benchmark-77a96bb1ac29)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Rook](https://rook.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Using Rook On A K3s Cluster](https://itnext.io/using-rook-on-a-k3s-cluster-8a97a75ba25e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@abdulfayis: storage Orchestration for Kubernetes](https://medium.com/@abdulfayis/storage-orchestration-for-kubernetes-c6370f943e23)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Robin](https://robin.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -124,6 +122,7 @@
   - [VolSync 🌟](https://github.com/backube/volsync) <span class='md-tag md-tag--info'>⭐ 973</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [next.redhat.com: Introducing VolSync: your data, anywhere](https://next.redhat.com/2021/08/23/introducing-volsync-your-data-anywhere)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Discoblocks: ondat.io/discoblocks](https://www.ondat.io/discoblocks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Rook-Ceph](https://operatorhub.io/operator/rook-ceph)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Cloud Infrastructure
 
@@ -137,5 +136,5 @@
 *   Acts as a foundational storage engine for large-scale Kubernetes PV platforms (Rook-Ceph) and private clouds.
 
 ---
-💡 **Explore Related:** [OCP 3](./ocp3.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
+💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Docker](./docker.md) | [Serverless](./serverless.md)
 

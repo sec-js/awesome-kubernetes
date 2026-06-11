@@ -67,6 +67,7 @@
   - [xiaods/k8e](https://github.com/xiaods/k8e) <span class='md-tag md-tag--info'>⭐ 444</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight community-driven Kubernetes distribution modeled after K3s but using standard upstream components. It offers an easy install track for edge nodes and test networks looking for low operational footprints.
 #### Enterprise Platforms
 
+  - **(2026)** [==OKD==](https://okd.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — OKD is the open-source upstream community distribution of Red Hat OpenShift, fully integrating containerized virtualization, developer tools, and operators. Built on Fedora CoreOS, OKD provides cloud architects with a platform-as-a-service engine optimized for continuous deployment and complex multi-tenant operations.
   - **(2022)** [infoworld.com: 6 Kubernetes distributions leading the container revolution](https://www.infoworld.com/article/2266054/6-kubernetes-distributions-leading-the-container-revolution.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Reviews the leading container platforms guiding the market shift towards hybrid and multi-cloud Kubernetes orchestration. Evaluates enterprise-grade capabilities of tools like Red Hat OpenShift, VMware Tanzu, Rancher, and Mirantis, analyzing their management interfaces and security controls.
 #### Industry News
 
@@ -148,6 +149,9 @@
 #### Azure
 
   - [Kubernetes the Hard Way: Azure Edition](https://github.com/carlosonunez/kubernetes-the-hard-way-on-azure) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An adapted tutorial of Kelsey Hightower's 'Kubernetes the Hard Way' mapped directly onto Azure cloud infrastructure. Details setting up VNets, Azure NSGs, load balancers, and virtual machine scale sets manually to better understand control plane placement.
+#### Canonical Juju
+
+  - **(2026)** [**Conjure up**](https://canonical.com/juju) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The canonical toolset for automating cloud operations using Juju charms. Simplifies the installation of Charmed Kubernetes clusters across various clouds. Note: Conjure-up has been fully integrated and evolved directly into Canonical Juju's primary modeling environment.
 #### Community Videos
 
   - [youtube: OpenShift Commons En Vivo - KubeInit con Maria Bracho, Scott McCarty,' and Carlos Camacho (Red Hat, Spanish) 🌟](https://www.youtube.com/watch?v=9_6H7Ahsdm4&ab_channel=OpenShift) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A video presentation exploring KubeInit, its architecture, and practical use cases for bootstrapping cloud-native platforms like OpenShift and Kubernetes on local hardware. Conducted in Spanish with Red Hat experts. [SPANISH CONTENT]
@@ -252,5 +256,5 @@
   - [Stateful Kubernetes-In-a-Box with Kontena Pharos](https://blog.purestorage.com/stateful-kubernetes-pure-service-orchestrator-kontena-pharos) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A historical look at combining the Kontena Pharos Kubernetes distribution with Pure Storage orchestrators to run heavy database workloads. Useful for documenting the evolution of early volume mount drivers before CSI stabilization.
 
 ---
-💡 **Explore Related:** [OCP 3](./ocp3.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
+💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Docker](./docker.md) | [Serverless](./serverless.md)
 

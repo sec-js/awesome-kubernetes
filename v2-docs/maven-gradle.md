@@ -56,8 +56,8 @@
 
 ##### Eclipse JKube
 
-  - [developers.redhat.com: Cloud-native Java applications made easy: Eclipse' JKube 1.0.0 now available](https://developers.redhat.com/blog/2020/09/09/cloud-native-java-applications-made-easy-eclipse-jkube-1-0-0-now-available)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Launch announcement of Eclipse JKube 1.0.0 detailing its design philosophy, architectural decoupling from old Fabric8 dependencies, and its seamless integration with modern cloud-native standards.
   - [developers.redhat.com: Java development on top of Kubernetes using Eclipse' JKube](https://developers.redhat.com/blog/2020/08/24/java-development-on-top-of-kubernetes-using-eclipse-jkube)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Exploring developer loop workflows utilizing Eclipse JKube to build, deploy, and debug Java applications in real-time inside a local or remote Kubernetes cluster environment.
+  - [developers.redhat.com: Cloud-native Java applications made easy: Eclipse' JKube 1.0.0 now available](https://developers.redhat.com/blog/2020/09/09/cloud-native-java-applications-made-easy-eclipse-jkube-1-0-0-now-available)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Launch announcement of Eclipse JKube 1.0.0 detailing its design philosophy, architectural decoupling from old Fabric8 dependencies, and its seamless integration with modern cloud-native standards.
   - [blog.marcnuri.com: Eclipse JKube introduction: Java tools and plugins for' Kubernetes and OpenShift](https://blog.marcnuri.com/eclipse-jkube-introduction-kubernetes-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introductory technical blog discussing the architecture of Eclipse JKube and explaining how it decouples deployment mechanisms into Maven/Gradle plugins, providing a highly customizable developer experience.
 #### Migration Guides
 
@@ -180,5 +180,5 @@
   - [JBang](https://www.jbang.dev)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A CLI tool allowing Java developers to run single-file source code programs as executable scripts, handling dependency fetching on-the-fly without heavy project setups.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Visual Studio](./visual-studio.md)
+💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [Visual Studio](./visual-studio.md) | [Python](./python.md)
 

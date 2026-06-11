@@ -177,7 +177,12 @@
 #### Philosophical Frameworks
 
   - [thenewstack.io: DevOps Is Fed by a Tools Culture Loop](https://thenewstack.io/devops-is-fed-by-a-tools-culture-loop)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Commentary exploring the dynamic intersection between DevOps organizational practices, corporate cultures, and how continuous toolchain feedback loops dictate infrastructure modernization.
+### Version Control
+
+#### Branching Strategies
+
+  - **(2020)** [victorops.com: Source Code Control: Trunk-Based Development vs. GitFlow](https://www.splunk.com/en_us/about-splunk/acquisitions/splunk-on-call.html) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Originally published by VictorOps (now acquired by Splunk as Splunk On-Call), this guide provides a direct comparison between Trunk-Based Development and GitFlow. It outlines the operational trade-offs between stability-centric scheduled release cycles and fast continuous deployment.
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Cheatsheets](./cheatsheets.md)
+💡 **Explore Related:** [Cheatsheets](./cheatsheets.md) | [Kubernetes](./kubernetes.md) | [Demos](./demos.md)
 
