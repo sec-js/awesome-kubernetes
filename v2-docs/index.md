@@ -43,7 +43,7 @@
       <div class="hero-badge-subtitle">Architect Video Library</div>
     </div>
   </a>
-  <a href="./introduction.html" style="text-decoration: none; color: inherit; display: block;">
+  <a href="./introduction/" style="text-decoration: none; color: inherit; display: block;">
     <div class="hero-badge-card hero-badge-card--teal">
       <img src="images/hero-car.png" alt="Nubenetes Car"/>
       <div class="hero-badge-title">Get Started</div>
