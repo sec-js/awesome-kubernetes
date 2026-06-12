@@ -3,7 +3,7 @@
 <center markdown="1">
 <div class="hero-showcase-wrapper">
   <a href="https://www.cncf.io/certification/software-conformance" class="hero-showcase-link">
-    <img src="images/container_with_cars_v2.png" alt="container_with_cars" class="hero-showcase-image" />
+    <img src="/v2/images/container_with_cars_v2.png" alt="container_with_cars" class="hero-showcase-image" />
     <div class="hero-showcase-footer">
       <span class="hero-showcase-badge">CNCF Conformance</span>
       <span class="hero-showcase-caption">Standardized conformance guarantees seamless workload portability across the Cloud Native landscape.</span>
@@ -24,28 +24,28 @@
 <div style="display: flex; justify-content: center; gap: 24px; margin: 16px 0; flex-wrap: wrap;">
   <a href="./kubernetes.html" style="text-decoration: none; color: inherit; display: block;">
     <div class="hero-badge-card hero-badge-card--cyan">
-      <img src="images/kubernetes_logo.png" alt="Kubernetes"/>
+      <img src="/v2/images/kubernetes_logo.png" alt="Kubernetes"/>
       <div class="hero-badge-title">Ecosystem Core</div>
       <div class="hero-badge-subtitle">Explore Kubernetes</div>
     </div>
   </a>
   <a href="./ai-agents-mcp.html" style="text-decoration: none; color: inherit; display: block;">
     <div class="hero-badge-card hero-badge-card--purple">
-      <img src="images/ai_agents_logo.png" alt="AI & MCP Agents"/>
+      <img src="/v2/images/ai_agents_logo.png" alt="AI & MCP Agents"/>
       <div class="hero-badge-title">AI & MCP Agents</div>
       <div class="hero-badge-subtitle">Agentic Ecosystem</div>
     </div>
   </a>
   <a href="./videos/index.html" style="text-decoration: none; color: inherit; display: block;">
     <div class="hero-badge-card hero-badge-card--pink">
-      <img src="images/video_hub_logo.png" alt="Agentic Video Hub"/>
+      <img src="/v2/images/video_hub_logo.png" alt="Agentic Video Hub"/>
       <div class="hero-badge-title">Agentic Video Hub</div>
       <div class="hero-badge-subtitle">Architect Video Library</div>
     </div>
   </a>
-  <a href="./introduction.html" style="text-decoration: none; color: inherit; display: block;">
+  <a href="./introduction/" style="text-decoration: none; color: inherit; display: block;">
     <div class="hero-badge-card hero-badge-card--teal">
-      <img src="images/hero-car.png" alt="Nubenetes Car"/>
+      <img src="/v2/images/hero-car.png" alt="Nubenetes Car"/>
       <div class="hero-badge-title">Get Started</div>
       <div class="hero-badge-subtitle">Introduction Guide</div>
     </div>
