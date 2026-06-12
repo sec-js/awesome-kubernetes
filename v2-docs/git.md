@@ -5,13 +5,13 @@
 
 ## Standard Reference
 
+  - [redhat-actions/openshift-actions-runner](https://github.com/redhat-actions/openshift-actions-runners)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [redhat.com: Red Hat and GitHub Collaborate to Expand the Developer Experience on Red Hat OpenShift with GitHub Actions](https://www.redhat.com/en/about/press-releases/red-hat-and-github-collaborate-expand-developer-experience-red-hat-openshift-github-actions) Industry’s leading enterprise Kubernetes platform now integrates with GitHub, bringing DevOps automation tools from the world’s largest developer platform into the OpenShift ecosystem
   - [GitKraken Git Cheat](https://www.gitkraken.com/pdfs/gitkraken-git-gui-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [GitHub Copilot](https://github.com/copilot)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [fourtheorem.com: How to end Microservice pain and embrace the Monorepo](https://fourtheorem.com/monorepo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.blog: Getting started with GitHub Actions just got easier!](https://github.blog/news-insights/product-news/getting-started-with-github-actions-just-got-easier)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.fleetdm.com: 4 tips for GitHub Actions usability (+2 bonus tips for debugging)](https://fleetdm.com/engineering/tips-for-github-actions-usability)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openshift.com: Deploying to OpenShift using GitHub Actions](https://www.redhat.com/en/blog/deploying-to-openshift-using-github-actions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com: OpenShift GitHub Actions Runner 🌟](https://github.com/redhat-actions/openshift-actions-runners)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com: OpenShift GitHub Actions Runner Chart 🌟](https://github.com/redhat-actions/openshift-actions-runners-chart)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [GitHub Copilot is generally available to all developers](https://github.blog/news-insights/product-news/github-copilot-is-generally-available-to-all-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.blog: GitHub Copilot X: The AI-powered developer experience](https://github.blog/news-insights/product-news/github-copilot-x-the-ai-powered-developer-experience)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -32,6 +32,8 @@
   - [github-merge-bot](https://github.com/sdduursma/github-merge-bot) <span class='md-tag md-tag--info'>⭐ 4</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Rultor](http://www.rultor.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Example: CockroachDB's Bors Merge Bot](https://id.atlassian.com/login?continue=https%3A%2F%2Fid.atlassian.com%2Fjoin%2Fuser-access%3Fresource%3Dari%253Acloud%253Aconfluence%253A%253Asite%252F9568dfdc-cfdd-4632-a68e-1e18063a3152%26continue%3Dhttps%253A%252F%252Fcockroachlabs.atlassian.net%252Fwiki%252Fspaces%252FCRDB%252Fpages%252F73204099%252FBors%252BMerge%252BBot&application=confluence&orgId=52a68357-cecf-4127-a5ec-32eeac8cf060)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [CloudBees Releases Another Industry First: Feature Flagging for On-Premise' Use 🌟](https://www.previous.cloudbees.com/press/cloudbees-releases-another-industry-first-feature-flagging-premise-use)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com: RedHat Actions 🌟](https://github.com/redhat-actions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone.com: refcard - getting started with git](https://dzone.com/refcardz/getting-started-git)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Sourcetree Cheat Sheet](https://kapeli.com/cheat_sheets/Sourcetree.docset/Contents/Resources/Documents/index)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Wikipedia: Git](https://en.wikipedia.org/wiki/Git)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -78,7 +80,6 @@
   - [toptal.com: Trunk-based Development vs. Git Flow](https://www.toptal.com/software/trunk-based-development-git-flow)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: GitFlow VS Trunk-Based-Development](https://medium.com/@vafrcor2009/gitflow-vs-trunk-based-development-3beff578030b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone: Why I Prefer Trunk-Based Development Over Feature Branching and GitFlow' 🌟](https://dzone.com/articles/why-i-prefer-trunk-based-development-over-feature)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [CloudBees Releases Another Industry First: Feature Flagging for On-Premise' Use 🌟](https://www.previous.cloudbees.com/press/cloudbees-releases-another-industry-first-feature-flagging-premise-use)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cioperu.pe: 5 formas de impulsar la utilización de feature flags](https://cioperu.pe/articulo/30477/devops-5-formas-de-impulsar-la-utilizacion-de-feature-flags)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone: using gitlab API to create projects](https://dzone.com/articles/using-gitlab-rest-api-to-create-projects)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [levelup.gitconnected.com: Automating Integration and Deployment to Remote' Server](https://levelup.gitconnected.com/automating-integration-and-deployment-to-remote-server-63a2b6576ebf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -116,7 +117,6 @@
   - [build5nines.com: Configuring GitHub Actions to Run Jobs on Specific Branches](https://build5nines.com/configuring-github-actions-to-run-jobs-on-specific-branches)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [build5nines.com: GitHub Actions: Get Current Branch Name for Git Repo](https://build5nines.com/github-actions-get-current-branch-name-for-git-repo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [redhat.com: Red Hat and GitHub Collaborate to Expand the Developer Experience' on Red Hat OpenShift with GitHub Actions 🌟](https://www.redhat.com/en/about/press-releases/red-hat-and-github-collaborate-expand-developer-experience-red-hat-openshift-github-actions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com: RedHat Actions 🌟](https://github.com/redhat-actions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hipertextual.com: GitHub une fuerzas con OpenIA para crear una inteligencia' artificial capaz de autocompletar código](https://hipertextual.com/2021/06/github-inteligencia-artificial-autocompletar-codigo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [xataka.com: Para qué programar cuando una máquina lo hace (un poco) por' ti: así es Github Copilot, un sistema que se nutre del prodigioso GPT-3](https://www.xataka.com/robotica-e-ia/programar-cuando-maquina-hace-poco-ti-asi-github-copilot-sistema-que-se-nutre-prodigioso-gpt-3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: GitHub Copilot: A Powerful, Controversial Autocomplete for' Developers](https://thenewstack.io/github-copilot-a-powerful-controversial-autocomplete-for-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -787,5 +787,5 @@
   - [css-tricks.com: Git: Switching Unstaged Changes to a New Branch](https://css-tricks.com/git-switching-unstaged-changes-to-a-new-branch) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Offers concrete workflows for isolating and moving accidental master/main modifications into a cleanly isolated feature branch. Demonstrates terminal patterns using checkout/switch commands while safeguarding index status.
 
 ---
-💡 **Explore Related:** [Cheatsheets](./cheatsheets.md) | [Kubernetes](./kubernetes.md) | [Demos](./demos.md)
+💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Cheatsheets](./cheatsheets.md)
 

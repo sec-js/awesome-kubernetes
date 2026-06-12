@@ -1,0 +1,46 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cyberGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00E5FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00838F;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Futuristic Cloud-Vehicle Base -->
+  <path d="M100 350 Q 50 350 50 300 Q 50 250 100 250 L 120 200 Q 150 120 250 120 Q 350 120 380 200 L 400 250 Q 450 250 450 300 Q 450 350 400 350 Z" 
+        fill="url(#cyberGradient)" 
+        filter="url(#glow)"/>
+  
+  <!-- Kubernetes Steering Wheel as Front Wheel -->
+  <g transform="translate(140, 350) scale(0.6)">
+    <circle cx="0" cy="0" r="80" fill="#0D1117" stroke="#FFFFFF" stroke-width="15"/>
+    <g stroke="#FFFFFF" stroke-width="12" stroke-linecap="round">
+      <line x1="0" y1="-80" x2="0" y2="80" transform="rotate(0)"/>
+      <line x1="0" y1="-80" x2="0" y2="80" transform="rotate(51.4)"/>
+      <line x1="0" y1="-80" x2="0" y2="80" transform="rotate(102.8)"/>
+      <line x1="0" y1="-80" x2="0" y2="80" transform="rotate(154.2)"/>
+    </g>
+    <circle cx="0" cy="0" r="25" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Kubernetes Steering Wheel as Rear Wheel -->
+  <g transform="translate(360, 350) scale(0.6)">
+    <circle cx="0" cy="0" r="80" fill="#0D1117" stroke="#FFFFFF" stroke-width="15"/>
+    <g stroke="#FFFFFF" stroke-width="12" stroke-linecap="round">
+      <line x1="0" y1="-80" x2="0" y2="80" transform="rotate(0)"/>
+      <line x1="0" y1="-80" x2="0" y2="80" transform="rotate(51.4)"/>
+      <line x1="0" y1="-80" x2="0" y2="80" transform="rotate(102.8)"/>
+      <line x1="0" y1="-80" x2="0" y2="80" transform="rotate(154.2)"/>
+    </g>
+    <circle cx="0" cy="0" r="25" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- "N" Tech Detail -->
+  <text x="220" y="280" font-family="Arial, sans-serif" font-size="100" font-weight="bold" fill="#0D1117" opacity="0.8">N</text>
+</svg>

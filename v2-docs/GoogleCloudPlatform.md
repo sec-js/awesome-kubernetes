@@ -96,5 +96,5 @@
 Live Grounding: Delivers pre-integrated capabilities and action templates allowing Enterprise Gemini Agents to dynamically execute API operations, retrieve structured data, and handle multi-step workflows.
 
 ---
-💡 **Explore Related:** [Public Cloud Solutions](./public-cloud-solutions.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Public Cloud Solutions](./public-cloud-solutions.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [Ibm_Cloud](./ibm_cloud.md)
 

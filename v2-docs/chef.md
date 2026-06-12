@@ -10,5 +10,5 @@
 
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Securityascode](./securityascode.md)
+💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Oauth](./oauth.md)
 

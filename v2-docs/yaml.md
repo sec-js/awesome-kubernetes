@@ -6,11 +6,8 @@
 ## Standard Reference
 
   - [civo.com: Manage Kubernetes clusters using the Civo Pulumi provider](https://www.civo.com/learn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [thoughtworks.com: Kubernetes](https://www.thoughtworks.com/radar/platforms/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Polaris](https://github.com/FairwindsOps/polaris) <span class='md-tag md-tag--info'>⭐ 3368</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [arttor/helmify](https://github.com/arttor/helmify) <span class='md-tag md-tag--info'>⭐ 1734</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/geekculture: Convert Kubernetes YAML Files Into Helm Charts](https://medium.com/geekculture/convert-kubernetes-yaml-files-into-helm-charts-4107de079455)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dex.dev: YAML Templating Solutions: Helm & Kustomize](https://www.dex.dev/dex-videos/templating-solutions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thoughtworks.com: Kubernetes](https://www.thoughtworks.com/radar/platforms/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [wikipedia: YAML](https://en.wikipedia.org/wiki/YAML)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetestutorials.com: Kubernetes : Introduction to YAML 🌟](https://kubernetestutorials.com/kubernetes-tutorials/kubernetes-introduction-to-yaml)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [betterprogramming.pub: YAML Tutorial: Get Started With YAML in 5 Minutes](https://betterprogramming.pub/yaml-tutorial-get-started-with-yaml-in-5-minutes-549d462972d8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -21,6 +18,7 @@
   - [medium: Don’t Repeat Yourself with Anchors, Aliases and Extensions in Docker' Compose Files](https://medium.com/@kinghuang/docker-compose-anchors-aliases-extensions-a1e4105d70bd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jsonformatter.org/yaml-validator](https://jsonformatter.org/yaml-validator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@slashben81: How to write a YAML file for Kubernetes? | ARMO](https://medium.com/@slashben81/how-to-write-a-yaml-file-for-kubernetes-armo-76f29e533b1f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/geekculture: Convert Kubernetes YAML Files Into Helm Charts](https://medium.com/geekculture/convert-kubernetes-yaml-files-into-helm-charts-4107de079455)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [wikipedia: JSON](https://en.wikipedia.org/wiki/JSON)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone.com: The Ultimate JSON Library: JSON.simple vs. GSON vs. Jackson vs.' JSONP](https://dzone.com/articles/the-ultimate-json-library-jsonsimple-vs-gson-vs-ja)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [betterprogramming.pub: How to Make JSON and Python Talk to Each Other](https://betterprogramming.pub/how-to-make-json-and-python-talk-to-each-other-41531d58e59d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -29,6 +27,8 @@
   - [medium.com/@jonathan_37674: How to validate Kubernetes YAML files? | ARMO](https://medium.com/@jonathan_37674/how-to-validate-kubernetes-yaml-files-armo-e45dd006d633)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ketch: Getting Started](https://learn.theketch.io/docs/getting-started)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [base64encode.org](https://www.base64encode.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Polaris](https://github.com/FairwindsOps/polaris) <span class='md-tag md-tag--info'>⭐ 3368</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [arttor/helmify](https://github.com/arttor/helmify) <span class='md-tag md-tag--info'>⭐ 1734</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Application Delivery and GitOps
 
@@ -253,5 +253,5 @@
   - [automationreinvented.blogspot.com: What is Json Schema and how to perform' schema validation using Rest Assured?](https://automationreinvented.blogspot.com/2022/03/what-is-json-schema-and-how-to-perform.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed test automation walkthrough explaining JSON Schema validation with Rest Assured. Guides developers in implementing reliable regression pipelines to maintain robust system integrations.
 
 ---
-💡 **Explore Related:** [Databases](./databases.md) | [Message Queue](./message-queue.md) | [NoSQL](./nosql.md)
+💡 **Explore Related:** [Databases](./databases.md) | [Crunchydata](./crunchydata.md) | [Message Queue](./message-queue.md)
 

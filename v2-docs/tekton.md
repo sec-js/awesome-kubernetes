@@ -7,13 +7,13 @@
 
   - [OpenShift Tekton pipelines](https://www.redhat.com/en/topics/devops/what-cicd-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jenkins.io: Easily reuse Tekton and Jenkins X from Jenkins 🌟](https://www.jenkins.io/blog/2021/04/21/tekton-plugin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [tekline 🌟](https://github.com/joyrex2001/tekline) <span class='md-tag md-tag--info'>⭐ 11</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [tekton.dev](https://tekton.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/tektoncd](https://github.com/tektoncd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Tekton community](https://github.com/tektoncd/community) <span class='md-tag md-tag--info'>⭐ 395</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github: Tekton Pipelines](https://github.com/tektoncd/pipeline) <span class='md-tag md-tag--info'>⭐ 8970</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [Tekton Pipelines Docs](https://tekton.dev/docs/pipelines/pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.googleblog.com: The Tekton Pipelines Beta release](https://opensource.googleblog.com/2020/05/the-tekton-pipelines-beta-release.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [tekline 🌟](https://github.com/joyrex2001/tekline) <span class='md-tag md-tag--info'>⭐ 11</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Tekton PetClinic Demo Youtube](https://www.youtube.com/watch?v=igwFpZOUTnw)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [learn.openshift.com/middleware/pipelines](https://learn.openshift.com/middleware/pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [lambda.grofers.com: Evolving Continuous Delivery in a Cloud-Native Environment' 🌟](https://lambda.grofers.com/evolving-cd-in-a-cloud-native-environment-bb64a38145ae)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -28,7 +28,15 @@
   - [piotrminkowski.com: Canary Release on Kubernetes with Knative and Tekton](https://piotrminkowski.com/2022/03/29/canary-release-on-kubernetes-with-knative-and-tekton)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devops.com: Using LLMs to Automate Pipeline Conversions From Legacy to' Tekton](https://devops.com/using-llms-to-automate-pipeline-conversions-from-legacy-to-tekton)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Hybrid Cloud and Enterprise
+
+### OpenShift
+
+#### Pipelines and CI CD
+
+  - **(2020)** [openshift.com: Cloud-Native CI/CD with OpenShift Pipelines based on Tekton](https://www.redhat.com/en/blog/cloud-native-ci-cd-with-openshift-pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: An official Red Hat announcement outlining OpenShift Pipelines, the managed implementation of Tekton.
+Live Grounding: Details the shift from centralized Jenkins controllers to decoupled, cloud-native container steps executing inside Kubernetes Pods, providing superior resource usage and auto-scaling.
 
 ---
-💡 **Explore Related:** [Jenkins Alternatives](./jenkins-alternatives.md) | [Gitops](./gitops.md) | [CI/CD](./cicd.md)
+💡 **Explore Related:** [Jenkins Alternatives](./jenkins-alternatives.md) | [Gitops](./gitops.md) | [Registries](./registries.md)
 

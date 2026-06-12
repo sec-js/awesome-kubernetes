@@ -60,5 +60,5 @@
 
 
 ---
-💡 **Explore Related:** [Cheatsheets](./cheatsheets.md) | [Kubernetes](./kubernetes.md) | [Demos](./demos.md)
+💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Cheatsheets](./cheatsheets.md)
 

@@ -8,7 +8,6 @@
   - [paloaltonetworks.com: Is Your Organization Protected Against IAM Misconfiguration Risks?](https://www.paloaltonetworks.com/blog/2020/10/cloud-iam-misconfiguration-risks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [intezer.com: New Attacks on Kubernetes via Misconfigured Argo Workflows](https://intezer.com/blog/new-attacks-on-kubernetes-via-misconfigured-argo-workflows)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [armosec.io: Use Kubescape to check if your Kubernetes clusters are exposed to the latest K8s Symlink vulnerability (CVE-2021-25741)](https://www.armosec.io/cve-vulnerability-database)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Automating Microsoft Sentinel Deployment with Azure DevOps CI/CD](https://noodlemctwoodle.medium.com/automating-microsoft-sentinel-deployment-with-azure-devops-ci-cd-2d4ae0c4e254)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Exploring the (lack of) security in a typical Docker and Kubernetes installation](https://www.neowin.net/news/exploring-the-lack-of-security-in-a-typical-docker-and-kubernets-installation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [securityboulevard.com: DevOps vs. DevSecOps – Here’s How They Fit Together](https://securityboulevard.com/2021/02/devops-vs-devsecops-heres-how-they-fit-together)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [addteq.com: The REAL Difference between DevOps and DevSecOps](https://www.addteq.com/blog/2021/03/the-real-difference-between-devops-and-devsecops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -37,6 +36,7 @@
   - [dzone: DevOps Pipeline Quality Gates: A Double-Edged Sword](https://dzone.com/articles/devops-pipeline-quality-gates-a-double-edged-sword)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Focusing on the DevOps Pipeline 🌟](https://medium.com/capital-one-tech/focusing-on-the-devops-pipeline-topo-pal-833d15edf0bd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cncf.io: Identifying Kubernetes Config Security Threats: Pods Running as' Root](https://www.cncf.io/blog/2020/06/16/identifying-kubernetes-config-security-threats-pods-running-as-root)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Automating Microsoft Sentinel Deployment with Azure DevOps CI/CD](https://noodlemctwoodle.medium.com/automating-microsoft-sentinel-deployment-with-azure-devops-ci-cd-2d4ae0c4e254)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Project Calico](https://www.projectcalico.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [betterprogramming.pub: Kubernetes Security With Falco](https://betterprogramming.pub/kubernetes-security-with-falco-2eb060d3ae7d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [vashishtsumit89.medium.com: Security/Pen Testing: A guide to run OWASP Zap' headless in containers for CI/CD pipeline](https://vashishtsumit89.medium.com/security-pen-testing-a-guide-to-run-owasp-zap-headless-in-containers-for-ci-cd-pipeline-ddb580dae3c8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -110,8 +110,8 @@
   - [bridgecrew](https://bridgecrew.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [bridgecrew.io: Tutorial: Incorporate IaC Security in your CI/CD pipeline' with Bridgecrew, Jenkins, and GitHub](https://bridgecrew.io/blog/tutorial-incorporate-iac-security-in-your-ci-cd-pipeline-with-bridgecrew-jenkins-and-github)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itbusinessedge.com: Okta vs. Azure AD: IAM Tool Comparison](https://www.itbusinessedge.com/security/okta-vs-azure-ad)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [grype: a vulnerability scanner for container images and filesystems](https://github.com/anchore/grype) <span class='md-tag md-tag--info'>⭐ 12262</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [Kubernetes-Secrets-Store-CSI-Driver: Secrets Store CSI driver for Kubernetes' secrets](https://github.com/kubernetes-sigs/secrets-store-csi-driver) <span class='md-tag md-tag--info'>⭐ 1530</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [grype: a vulnerability scanner for container images and filesystems](https://github.com/anchore/grype) <span class='md-tag md-tag--info'>⭐ 12262</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
 ## Application Security
 
@@ -750,9 +750,6 @@
 
   - [GitHub security: what does it take to protect your company from credentials' leaking on GitHub? 🌟](https://blog.gitguardian.com/github-security) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth corporate case study and operational guide detailing the systematic threats of credential leakage in public and private Git environments. It highlights risk mitigation frameworks, API scanner configurations, and team hygiene rules required to prevent credential sprawl.
   - [blog.gitguardian.com: Secrets in source code (episode 2/3). Why secrets' in git are such a problem](https://blog.gitguardian.com/secrets-credentials-api-git) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This educational blog post outlines the threat vectors of hardcoded secrets in Git histories. It details the structural reasons why standard version control systems make secret revocation difficult once committed, presenting static pre-commit hooks as the primary defense.
-#### Secrets Scanning
-
-  - **(2022)** [jfrog.com: How to protect your secrets with Spectral and JFrog Pipelines](https://jfrog.com/blog) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical walk-through showing how to use Spectral in tandem with JFrog Pipelines. The tutorial focuses on identifying misplaced credentials and code misconfigurations inside continuous integration stages.
 #### Supply Chain Security (3)
 
   - [Anchore: Secure Container Based CI/CD Workflows](https://anchore.com/cicd) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An overview of Anchore's enterprise solutions for securing CI/CD pipelines through extensive Software Bill of Materials (SBOM) generation and continuous container inspection. It helps organizations detect upstream dependencies risk and establish a trusted supply chain.
@@ -923,6 +920,9 @@
 #### Dependency Analysis (1)
 
   - [socket.dev: Introducing Socket](https://socket.dev/blog/introducing-socket)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural introduction to Socket's active package monitoring system. Evaluates structural anomalies in dependencies by tracing suspicious network calls, API system changes, and permission escalations.
+#### Enterprise Platform
+
+  - **(2021)** [tanzu.vmware.com: Log4Shell Vulnerability Spotlights the Importance of Adopting Trusted Open Source Software Providers for the Enterprise](https://www.vmware.com/products/app-platform/tanzu)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the strategic imperative of establishing trusted open-source workflows inside enterprise build infrastructures. Demonstrates how Tanzu's curated application platform streamlines immediate mitigation tasks at runtime.
 #### Open Source Policy
 
   - [zdnet.com: Log4j: Google and IBM call for list of critical open source projects](https://www.zdnet.com/article/log4j-after-white-house-meeting-google-calls-for-list-of-critical-open-source-projects)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses high-level strategies initiated by Google and IBM to identify and secure critical open-source software structures. Explores how public-private partnerships aim to fortify base infrastructure projects globally.
@@ -989,5 +989,5 @@
   - [torq.io: 5 Security Automation Examples for Non-Developers](https://torq.io/blog/5-security-automation-examples-for-non-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides five actionable automation playbooks for SecOps teams to streamline alert triage and response actions. Contrast: Curator Insight presents low-code solutions for non-developers, while Live Grounding shows that automating through structured JSON endpoints and centralized notification platforms is key to keeping MTTR minimal. Practical operational guide.
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Securityascode](./securityascode.md)
+💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Oauth](./oauth.md)
 

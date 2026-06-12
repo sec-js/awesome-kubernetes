@@ -316,7 +316,7 @@ The bot must rotate between profiles to avoid detection:
     - **V1 Integrity Restored**: Recovered all V1 files in `docs/` to ensure original descriptive content and images are preserved.
     - **V2 Navigation Fixed**: Converted V2 top bar to a flat structure for better UX and link stability.
     - **Relative Asset Routing**: Updated all V2 image and configuration paths to point relatively to `../docs/` to avoid asset duplication.
-    - **Rendering & Path Resolution**: Implemented `<center markdown="1">` and `use_directory_urls: false` across V1 and V2 to resolve persistent image path breakage and ensure proper Markdown rendering within HTML tags.
+    - **Rendering & Path Resolution**: Restored `use_directory_urls: true` to prioritize SEO and clean URLs. Standardized on root-relative paths for manual HTML assets and `<center markdown="1">` for Markdown content within HTML blocks to prevent asset breakage across directory levels.
     - **Optimizer Alignment**: Hardened `src/v2_optimizer.py` to enforce these architectural rules (flat navigation, relative paths, and resilient V1 content extraction).
     - **Incremental Elite Engine**: Implemented a sophisticated V2 sync strategy using `data/centralized YAML inventory`.
         - **Automatic Detection**: The `agentic_v2_builder.yml` workflow now triggers automatically whenever `docs/` changes or after a curation run.
@@ -376,3 +376,4 @@ The bot must rotate between profiles to avoid detection:
 - **V2 Index Metrics Protocol**: The "Knowledge Architecture and AI Coverage Status" report in the V2 index MUST include a direct comparison between V1 and V2 inventory. This report MUST display: 1. **V1 Base Inventory** (Total resources in the master archive), 2. **V2 Elite Selection** (Count of candidates and the resulting density ratio), 3. **AI Enrichment Coverage**, and 4. **GitHub Metadata Coverage**. This ensures transparency in the knowledge distillation process.
 - **Redundancy-Free Branding**: To ensure professional UI density, the V2 Portal header MUST NOT repeat the "Nubenetes" brand. The title MUST follow the pattern: "Nubenetes Elite Portal (V2) | Awesome Kubernetes and Cloud".
 - **Decoupled Workflow Architecture**: The Agentic V2 ecosystem MUST utilize a decoupled micro-workflow structure (Health Monitor, Metadata Engine, AI Curator, and Publisher) to optimize compute quotas and minimize Gemini token consumption. Any update to the V2 rendering logic MUST use the `--render-only` flag in the Publisher pipeline to maintain execution speed.
+to maintain execution speed.

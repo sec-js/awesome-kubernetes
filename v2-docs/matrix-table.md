@@ -7,17 +7,17 @@
 
   - [try.openshift.com](https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [github.com/openshift/installer](https://github.com/openshift/installer)
   - [**k3d**](https://github.com/k3d-io/k3d) <span class='md-tag md-tag--info'>⭐ 6426</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [weave.works: Weave Kubernetes Platform](https://www.weave.works/)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Digital Ocean Kubernetes (DOKS)](https://www.digitalocean.com/products/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [napo.io: Kubernetes The (real) Hard Way on AWS](https://napo.io/posts/kubernetes-the-real-hard-way-on-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [**VMware Kubernetes Tanzu**](https://cloud.vmware.com/tanzu)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Pharos 🌟](https://k8spharos.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Linode Kubernetes Engine (LKE)](https://www.linode.com/products/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Pivotal.io: Pivotal Container Service (PKS), owned by VMware](https://pivotal.io/platform/pivotal-container-service)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [**k3s**](https://k3s.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [**k3sup (said 'ketchup')**](https://github.com/alexellis/k3sup) <span class='md-tag md-tag--info'>⭐ 7382</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [**k3OS**](https://github.com/rancher/k3os) <span class='md-tag md-tag--info'>⭐ 3491</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [K3C](https://github.com/rancher/k3c) <span class='md-tag md-tag--info'>⭐ 565</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Linode Kubernetes Engine (LKE)](https://www.linode.com/products/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [weave.works: Weave Kubernetes Platform](https://www.weave.works/)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Pivotal.io: Pivotal Container Service (PKS), owned by VMware](https://pivotal.io/platform/pivotal-container-service)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Digital Ocean Kubernetes (DOKS)](https://www.digitalocean.com/products/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [napo.io: Kubernetes The (real) Hard Way on AWS](https://napo.io/posts/kubernetes-the-real-hard-way-on-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [**VMware Kubernetes Tanzu**](https://cloud.vmware.com/tanzu)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Pharos 🌟](https://k8spharos.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Cloud Infrastructure
 
@@ -104,5 +104,5 @@
   - [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main technical documentation page for GKE (Google Kubernetes Engine). Details foundational and advanced options, covering Autopilot architecture, GKE Datapath V2 routing, and multi-cluster orchestrations.
 
 ---
-💡 **Explore Related:** [Cheatsheets](./cheatsheets.md) | [Kubernetes](./kubernetes.md) | [Demos](./demos.md)
+💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Cheatsheets](./cheatsheets.md)
 

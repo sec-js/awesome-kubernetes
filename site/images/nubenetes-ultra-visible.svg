@@ -1,0 +1,10 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <!-- Solid High-Contrast Background (LinkedIn/GitHub Style) -->
+  <rect width="256" height="256" rx="48" fill="#0D1117"/>
+  
+  <!-- Bold Stylized "N" (Nubenetes) with Cyan Accent -->
+  <path d="M70 190V66L140 135V66H186V190L116 121V190H70Z" fill="#00E5FF"/>
+  
+  <!-- Subtle Cloud Curve at the bottom for Cloud Context -->
+  <path d="M116 190H186V170C186 160 178 152 168 152H134C124 152 116 160 116 170V190Z" fill="#00E5FF" opacity="0.3"/>
+</svg>

@@ -9,5 +9,5 @@
 
 
 ---
-💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [Visual Studio](./visual-studio.md) | [Python](./python.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Visual Studio](./visual-studio.md)
 

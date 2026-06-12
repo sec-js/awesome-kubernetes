@@ -5,7 +5,9 @@
 
 ## Standard Reference
 
+  - [Koa.js](https://koa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [simplecheatsheet.com/tag/golang-cheat-sheet](https://simplecheatsheet.com/tag/golang-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [alexsniffin.medium.com: Debugging Remotely with Go in Kubernetes](https://alexsniffin.medium.com/debugging-remotely-in-kubernetes-with-go-fda4f3332316)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Microservices in Go](https://medium.com/seek-blog/microservices-in-go-2fc1570f6800)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [search.gocenter.io: JFrog Go Center](https://search.gocenter.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ammeon.com: Profiling golang microservices for high throughput on kubernetes/openshift' clusters](https://www.ammeon.com/profiling-golang-microservices-for-high-throughput-on-kubernetes-openshift-clusters)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -20,10 +22,8 @@
   - [medium.com/codex: Explore client-go Informer Patterns](https://medium.com/codex/explore-client-go-informer-patterns-4415bb5f1fbd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [shahin-mahmud.medium.com: Write your first Kubernetes operator in go](https://shahin-mahmud.medium.com/write-your-first-kubernetes-operator-in-go-177047337eae)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.kubesimplify.com: Perform CRUD Operations on Kubernetes Using Golang' 🌟](https://blog.kubesimplify.com/perform-crud-operations-on-kubernetes-using-golang)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Koa.js](https://koa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [reddit.com: What is the best microservice framework in Go?](https://www.reddit.com/r/golang/comments/jnv4bd/what_is_the_best_microservice_framework_in_go)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/vedcraft: Top Microservices Frameworks in Go](https://medium.com/vedcraft/top-microservices-frameworks-in-go-762445c30dd6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [alexsniffin.medium.com: Debugging Remotely with Go in Kubernetes](https://alexsniffin.medium.com/debugging-remotely-in-kubernetes-with-go-fda4f3332316)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Architecture
 
@@ -247,5 +247,5 @@
   - [rehacktive/caffeine](https://github.com/rehacktive/caffeine) <span class='md-tag md-tag--info'>⭐ 1175</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight shows Caffeine as a simple Go command-line tool designed to prevent system sleep cycles. Live Grounding shows stable but quiet activity, functioning perfectly as an OS-level utility.
 
 ---
-💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [Visual Studio](./visual-studio.md) | [Python](./python.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Visual Studio](./visual-studio.md)
 

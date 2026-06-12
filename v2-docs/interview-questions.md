@@ -131,5 +131,5 @@
   - [automationqahub.com: The Ultimate Git Cheat Sheet 🌟](https://automationqahub.com/mastering-git-your-ultimate-git-cheat-sheet-for-quick-reference)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight maps out a cheat sheet for rapid Git command lookups, including cherry-picking and stashing. Live Grounding indicates that quick-access reference sheets are highly valued for reducing context switching. This is an efficient reference.
 
 ---
-💡 **Explore Related:** [Elearning](./elearning.md) | [Finops](./finops.md) | [Recruitment](./recruitment.md)
+💡 **Explore Related:** [HR](./hr.md) | [Elearning](./elearning.md) | [Newsfeeds](./newsfeeds.md)
 

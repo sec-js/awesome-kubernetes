@@ -40,7 +40,8 @@
   - [developer.mongodb.com: MongoDB Cheat Sheet](https://www.mongodb.com/docs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hackingcpp.com: C++ Cheat Sheets](https://hackingcpp.com/cpp/cheat_sheets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [lambdatest.com: The Ultimate Selenium Python Cheat Sheet for Test Automation](https://www.testmuai.com/blog/selenium-python-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [docs.aws.amazon.com: Actions, resources, and condition keys for AWS services' 🌟🌟🌟](https://docs.aws.amazon.com/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone refcard: Getting Started With OpenShift 🌟](https://dzone.com/refcardz/getting-started-with-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: Writing a Kubernetes Operator in Java using Quarkus' - **Cheat Sheet** 🌟](https://developers.redhat.com/cheat-sheets/writing-kubernetes-operator-java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [wizardzines.com 🌟](https://wizardzines.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cheatography.com](https://cheatography.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [LeCoupa/awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets) <span class='md-tag md-tag--info'>⭐ 45898</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
@@ -64,6 +65,7 @@
   - [opensource.com: Watch command cheat sheet](https://opensource.com/downloads/watch-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [intellipaat.com: AWS Cheat Sheet 🌟](https://intellipaat.com/blog/tutorial/amazon-web-services-aws-tutorial/aws-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [igoroseledko.com: AWS CLI Cheat Sheet](https://www.igoroseledko.com/aws-cli-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [docs.aws.amazon.com: Actions, resources, and condition keys for AWS services' 🌟🌟🌟](https://docs.aws.amazon.com/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [awsgeek.com/Amazon-S3](http://www.awsgeek.com/Amazon-S3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [The Google Cloud Developer's Cheat Sheet 🌟](https://github.com/priyankavergadia/google-cloud-4-words) <span class='md-tag md-tag--info'>⭐ 8221</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [cloud-architect.fr: AZ-CheatSheet: Become an expert in Azure Landing Zones](https://www.cloud-architect.fr/2022/01/19/az-cheatsheet-become-an-expert-in-azure-landing-zones)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -181,11 +183,9 @@
   - [github.com: openshift cheat sheet 3](https://github.com/mhausenblas/openshift-cheat-sheet) <span class='md-tag md-tag--info'>⭐ 6</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [monodot.co.uk: openshift cheat sheet 4](https://monodot.co.uk/openshift-cheatsheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openshift.tips](https://openshift.tips)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone refcard: Getting Started With OpenShift 🌟](https://dzone.com/refcardz/getting-started-with-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cookbook.openshift.org 🌟](https://cookbook.openshift.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cookbook.openshift.org: How do I import an image from an external image' registry? 🌟](https://cookbook.openshift.org/image-registry-and-image-streams/how-do-i-import-an-image-from-an-external-image.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Debezium on OpenShift Cheat Sheet](https://developers.redhat.com/cheat-sheets/debezium-openshift-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: Writing a Kubernetes Operator in Java using Quarkus' - **Cheat Sheet** 🌟](https://developers.redhat.com/cheat-sheets/writing-kubernetes-operator-java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [https://dev.to/aurelievache: Understanding Kubernetes: part 1 – Pods](https://dev.to/aurelievache/kubernetes-sketchnotes-pods-4ib0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [garba.org: Kubernetes Pod Life Cycle Cheat Sheet](https://garba.org/posts/2018/k8s_pod_lc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Buildah Cheat Sheet](https://developers.redhat.com/cheat-sheets/buildah-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -236,7 +236,6 @@
   - [intellipaat.com: Python Cheat Sheet Basics](https://intellipaat.com/blog/tutorial/python-tutorial/python-cheat-sheet-basics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [websitesetup.org: Python Cheat Sheet](https://websitesetup.org/python-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [python.plainenglish.io: The Ultimate Python Cheat Sheet | Muhammad Umair](https://python.plainenglish.io/ultimate-python-cheat-sheet-f2930e08669c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/ekramasif: Basic Machine Learning - Python Cheatsheet](https://github.com/ekramasif/Basic-Machine-Learning/blob/main/Extraa/PythonCheatSheet.ipynb) <span class='md-tag md-tag--info'>⭐ 80</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [simplecheatsheet.com/tag/golang-cheat-sheet](https://simplecheatsheet.com/tag/golang-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Node.js Cheat Sheet](https://developers.redhat.com/cheat-sheets/nodejs-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: Selenium Cheat Sheet](https://dev.to/razgandeanu/selenium-cheat-sheet-9lc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -317,5 +316,5 @@
   - [atlassian.com: Git cheat sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A comprehensive and beautifully formatted PDF and web-based Git command reference guide from Atlassian. Covers essential command categories including repository creation, local staging, history review, branch management, and remote synchronization.
 
 ---
-💡 **Explore Related:** [Kubernetes](./kubernetes.md) | [Demos](./demos.md) | [Matrix Table](./matrix-table.md)
+💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
 

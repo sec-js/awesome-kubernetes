@@ -4,7 +4,7 @@ site_description: "Enterprise-grade curated portal for the modern Cloud Native e
 site_author: "Nubenetes"
 copyright: "Copyright &copy; 2026 Nubenetes Agentic Intelligence"
 docs_dir: v2-docs
-use_directory_urls: false
+use_directory_urls: true
 
 repo_name: "nubenetes/awesome-kubernetes"
 repo_url: "https://github.com/nubenetes/awesome-kubernetes"

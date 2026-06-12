@@ -89,8 +89,8 @@
   - [First web scraper](https://first-web-scraper.readthedocs.io/en/latest)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Jython is a language that makes it easy to create projects with libraries from Python and Java.](http://www.oraclejavamagazine-digital.com/javamagazine_twitter/20151112?pg=43#pg43)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Click 🌟](https://click.palletsprojects.com/en/stable)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Getting Started with Data Wrangler in VS Code](https://code.visualstudio.com/docs/datascience/data-wrangler)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Awesome Python 🌟](https://github.com/vinta/awesome-python) <span class='md-tag md-tag--info'>⭐ 298980</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [Getting Started with Data Wrangler in VS Code](https://code.visualstudio.com/docs/datascience/data-wrangler)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [digitalocean.com python 🌟](https://www.digitalocean.com/community/tags/python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Learn Python 'subreddit'](https://www.reddit.com/r/learnpython)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dough Hellmann - Python, OpenStack and Open Source](https://doughellmann.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -305,7 +305,14 @@
 #### Large Language Models
 
   - [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) <span class='md-tag md-tag--info'>⭐ 95379</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Highly acclaimed code-first textbook guiding the creation of a Large Language Model (LLM) from scratch in PyTorch. Illustrates attention mechanisms, tokenizers, training loops, and weight loadings.
+## Software Engineering
+
+### Programming Foundations
+
+#### Python Language
+
+  - **(2025)** [**Think Python**](https://allendowney.github.io/ThinkPython) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A classic computational thinking handbook utilizing Python. Focuses on algorithmic integrity, data structure designs, object-oriented implementations, and debug execution pipelines.
 
 ---
-💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [Visual Studio](./visual-studio.md) | [Dotnet](./dotnet.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Visual Studio](./visual-studio.md)
 

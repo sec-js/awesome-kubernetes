@@ -1,0 +1,492 @@
+/* 
+ * Nubenetes V2 Elite Portal - Enterprise Aesthetic (Cyber Cloud)
+ * Color Palette: Deep Space Black & Neon Cyan
+ */
+
+:root {
+  /* LIGHT MODE - Modern, Crisp, High Contrast */
+  --md-primary-fg-color:        #09090b; /* Zinc 950 */
+  --md-primary-fg-color--light: #18181b; /* Zinc 900 */
+  --md-primary-fg-color--dark:  #000000;
+  
+  --md-accent-fg-color:         #0ea5e9; /* Vibrant Sky Blue */
+  --md-accent-fg-color--transparent: rgba(14, 165, 233, 0.15);
+  
+  --md-primary-bg-color:        #ffffff;
+  --md-primary-bg-color--light: #f4f4f5; /* Zinc 100 */
+
+  /* Header Overrides */
+  --md-header-bg-color:         #09090b;
+  --md-header-fg-color:         #ffffff;
+}
+
+[data-md-color-scheme="slate"] {
+  /* DARK MODE - "Cyber Cloud" (Deep Space & Neon) */
+  --md-primary-fg-color:        #ffffff; 
+  --md-primary-fg-color--light: #e2e8f0; 
+  --md-primary-fg-color--dark:  #94a3b8;
+  
+  --md-accent-fg-color:         #22d3ee; /* Brighter Neon Cyan */
+  --md-accent-fg-color--transparent: rgba(34, 211, 238, 0.15);
+
+  --md-default-bg-color:        #09090b; /* Zinc 950 for main body */
+  --md-code-bg-color:           #18181b; /* Zinc 900 for code blocks */
+
+  /* Header Overrides (Dark) */
+  --md-header-bg-color:         rgba(0, 0, 0, 0.85);
+  --md-header-fg-color:         #ffffff;
+}
+
+/* ---------------------------------------------------- */
+/* UI DYNAMICS & GLASSMORPHISM                          */
+/* ---------------------------------------------------- */
+
+/* Solid/Glass Header */
+.md-header {
+  background-color: var(--md-header-bg-color) !important;
+  color: var(--md-header-fg-color) !important;
+}
+
+.md-header__button.md-logo img, 
+.md-header__button.md-logo svg {
+  fill: currentColor !important;
+}
+
+/* Ensure Search and Nav Icons are visible */
+.md-header__topic, 
+.md-header__button,
+.md-header__title,
+.md-search__input,
+.md-search__icon {
+  color: inherit !important;
+}
+
+/* Navigation Tabs */
+.md-tabs {
+  background-color: var(--md-header-bg-color);
+  opacity: 0.95;
+}
+
+.md-tabs__link {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.md-tabs__link--active,
+.md-tabs__link:hover {
+  color: #ffffff !important;
+  opacity: 1;
+}
+
+[data-md-color-scheme="slate"] .md-header {
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* ---------------------------------------------------- */
+/* ENHANCED TAGS AND CHIPS                              */
+/* ---------------------------------------------------- */
+
+.md-tag {
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  line-height: 1.2;
+  padding: 0.2rem 0.4rem;
+  vertical-align: middle;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+}
+
+.md-tag--info {
+  background-color: rgba(14, 165, 233, 0.1);
+  color: #0284c7;
+}
+
+[data-md-color-scheme="slate"] .md-tag--info {
+  background-color: rgba(56, 189, 248, 0.15);
+  color: #7dd3fc; /* Sky 300 for visibility */
+}
+
+.md-tag--success {
+  background-color: rgba(34, 197, 94, 0.1);
+  color: #16a34a;
+}
+
+[data-md-color-scheme="slate"] .md-tag--success {
+  background-color: rgba(74, 222, 128, 0.15);
+  color: #86efac; /* Green 300 */
+}
+
+/* ---------------------------------------------------- */
+/* MICRO-ANIMATIONS & HOVER STATES                      */
+/* ---------------------------------------------------- */
+
+/* Smooth Transition for all links */
+a {
+  transition: color 0.25s ease-in-out, text-shadow 0.25s ease-in-out;
+}
+
+/* Navigation items highlight with subtle glow in dark mode */
+.md-nav__link:hover {
+  color: var(--md-accent-fg-color);
+}
+[data-md-color-scheme="slate"] .md-nav__link:hover {
+  text-shadow: 0 0 8px rgba(6, 182, 212, 0.4);
+}
+
+/* Fix mobile navigation drawer header and repository section contrast in dark mode */
+@media screen and (max-width: 76.1875em) {
+  [data-md-color-scheme="slate"] .md-nav--primary .md-nav__title {
+    background-color: #18181b !important; /* Solid Zinc 900 for dark mode */
+    color: #ffffff !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+  }
+  
+  [data-md-color-scheme="slate"] .md-nav--primary .md-nav__title .md-logo svg,
+  [data-md-color-scheme="slate"] .md-nav--primary .md-nav__title .md-logo img {
+    fill: #ffffff !important;
+  }
+
+  [data-md-color-scheme="slate"] .md-nav--primary .md-nav__title .md-icon {
+    color: #ffffff !important;
+  }
+
+  [data-md-color-scheme="slate"] .md-nav__source {
+    background-color: #0f0f11 !important; /* Solid Zinc 950 / dark background */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+  }
+
+  [data-md-color-scheme="slate"] .md-source {
+    color: #ffffff !important;
+  }
+}
+
+/* Elegant Table Rows (Audit Matrix) */
+.md-typeset table tr {
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease;
+}
+
+.md-typeset table tr:hover {
+  background-color: var(--md-accent-fg-color--transparent);
+}
+
+/* Buttons and primary actions */
+.md-button {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 8px;
+  font-weight: 600;
+  border: 1px solid transparent;
+}
+
+.md-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(14, 165, 233, 0.25);
+}
+
+[data-md-color-scheme="slate"] .md-button:hover {
+  box-shadow: 0 0 20px rgba(6, 182, 212, 0.35);
+  border: 1px solid rgba(6, 182, 212, 0.5);
+}
+
+/* Star tags (Platinum status) */
+.md-typeset mark {
+  background-color: rgba(245, 158, 11, 0.15); /* Subtle Amber */
+  color: #d97706;
+  border-radius: 4px;
+  padding: 0.1em 0.3em;
+  font-weight: bold;
+}
+
+[data-md-color-scheme="slate"] .md-typeset mark {
+  background-color: rgba(251, 191, 36, 0.15);
+  color: #fbbf24;
+  text-shadow: 0 0 5px rgba(251, 191, 36, 0.4);
+}
+
+.channel-logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  margin: 6px;
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), filter 0.25s ease;
+  vertical-align: middle;
+}
+
+.channel-logo:hover {
+  transform: scale(1.15);
+  filter: brightness(1.25);
+  box-shadow: 0 0 12px var(--md-accent-fg-color);
+  border-radius: 4px;
+}
+
+/* V2 Homepage Hero Dashboard Cards */
+.hero-badge-card {
+  flex: 1;
+  max-width: 280px;
+  min-width: 200px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 24px 16px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.015);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-block;
+  cursor: pointer;
+  vertical-align: top;
+}
+
+.hero-badge-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 12px;
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), filter 0.25s ease;
+}
+
+.hero-badge-card:hover {
+  transform: translateY(-4px);
+}
+
+.hero-badge-card:hover img {
+  transform: scale(1.15);
+  filter: brightness(1.25);
+}
+
+/* Modifiers for custom theme accents */
+.hero-badge-card--cyan {
+  border-color: rgba(34, 211, 238, 0.15);
+  background: rgba(34, 211, 238, 0.015);
+}
+.hero-badge-card--cyan:hover {
+  background: rgba(34, 211, 238, 0.04) !important;
+  box-shadow: 0 8px 24px rgba(34, 211, 238, 0.15);
+  border-color: #22d3ee !important;
+}
+
+.hero-badge-card--purple {
+  border-color: rgba(139, 92, 246, 0.15);
+  background: rgba(139, 92, 246, 0.015);
+}
+.hero-badge-card--purple:hover {
+  background: rgba(139, 92, 246, 0.04) !important;
+  box-shadow: 0 8px 24px rgba(139, 92, 246, 0.15);
+  border-color: #a78bfa !important;
+}
+
+.hero-badge-card--pink {
+  border-color: rgba(236, 72, 153, 0.15);
+  background: rgba(236, 72, 153, 0.015);
+}
+.hero-badge-card--pink:hover {
+  background: rgba(236, 72, 153, 0.04) !important;
+  box-shadow: 0 8px 24px rgba(236, 72, 153, 0.15);
+  border-color: #f472b6 !important;
+}
+
+.hero-badge-card--teal {
+  border-color: rgba(20, 184, 166, 0.15);
+  background: rgba(20, 184, 166, 0.015);
+}
+.hero-badge-card--teal:hover {
+  background: rgba(20, 184, 166, 0.04) !important;
+  box-shadow: 0 8px 24px rgba(20, 184, 166, 0.15);
+  border-color: #2dd4bf !important;
+}
+
+.hero-badge-title {
+  font-weight: bold;
+  font-size: 0.95rem;
+  color: var(--md-primary-fg-color);
+}
+
+.hero-badge-subtitle {
+  font-size: 0.78rem;
+  color: var(--md-primary-fg-color--dark);
+  margin-top: 4px;
+}
+
+/* Hero Showcase Image wrapper (4 cars in a container) */
+.hero-showcase-wrapper {
+  margin: 24px auto;
+  max-width: 1100px; /* Increased from 650px to make it responsive and as large as possible */
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.015);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  display: block;
+}
+
+[data-md-color-scheme="slate"] .hero-showcase-wrapper {
+  border-color: rgba(34, 211, 238, 0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.hero-showcase-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+}
+
+.hero-showcase-image {
+  width: 100% !important;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), filter 0.4s ease;
+  margin: 0 !important;
+}
+
+.hero-showcase-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px;
+  background: rgba(9, 9, 11, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+[data-md-color-scheme="slate"] .hero-showcase-footer {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.hero-showcase-badge {
+  background: rgba(34, 211, 238, 0.1);
+  border: 1px solid rgba(34, 211, 238, 0.3);
+  color: var(--md-accent-fg-color);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  letter-spacing: 0.05em;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.hero-showcase-caption {
+  font-size: 0.8rem;
+  color: var(--md-primary-fg-color--dark);
+  text-align: right;
+  flex: 1;
+  min-width: 250px;
+  line-height: 1.4;
+  transition: color 0.3s ease;
+}
+
+/* Hover effects */
+.hero-showcase-wrapper:hover {
+  transform: translateY(-4px);
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 12px 30px rgba(34, 211, 238, 0.15);
+}
+
+.hero-showcase-wrapper:hover .hero-showcase-image {
+  transform: scale(1.02); /* slightly reduced zoom to keep it elegant */
+  filter: brightness(1.05) contrast(1.02);
+}
+
+.hero-showcase-wrapper:hover .hero-showcase-footer {
+  border-top-color: rgba(34, 211, 238, 0.3);
+  background: rgba(34, 211, 238, 0.02) !important;
+}
+
+.hero-showcase-wrapper:hover .hero-showcase-badge {
+  background: var(--md-accent-fg-color);
+  color: #09090b;
+  box-shadow: 0 0 10px var(--md-accent-fg-color);
+}
+
+.hero-showcase-wrapper:hover .hero-showcase-caption {
+  color: var(--md-primary-fg-color);
+}
+
+/* Clickable Quote Card */
+.quote-card-link {
+  display: block;
+  text-decoration: none !important;
+  color: inherit !important;
+  margin: 28px auto;
+  max-width: 1100px;
+  width: 100%;
+}
+
+.quote-card {
+  padding: 28px 36px;
+  border-radius: 14px;
+  border: 1px dashed rgba(34, 211, 238, 0.25);
+  background: rgba(34, 211, 238, 0.005);
+  position: relative;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-align: center;
+}
+
+[data-md-color-scheme="slate"] .quote-card {
+  background: rgba(34, 211, 238, 0.015);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.quote-card::before {
+  content: '“';
+  position: absolute;
+  top: -10px;
+  left: 24px;
+  font-size: 4.5rem;
+  font-family: Georgia, serif;
+  color: rgba(34, 211, 238, 0.25);
+  line-height: 1;
+}
+
+.quote-card-text {
+  font-size: 1.15rem;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: var(--md-primary-fg-color);
+  transition: color 0.3s ease;
+}
+
+[data-md-color-scheme="slate"] .quote-card-text {
+  color: #e2e8f0;
+}
+
+.quote-card-author {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--md-accent-fg-color);
+  transition: text-shadow 0.3s ease;
+}
+
+/* Quote Hover effects */
+.quote-card-link:hover .quote-card {
+  transform: translateY(-2px);
+  border-style: solid;
+  border-color: var(--md-accent-fg-color);
+  background: rgba(34, 211, 238, 0.03) !important;
+  box-shadow: 0 8px 24px rgba(34, 211, 238, 0.18);
+}
+
+.quote-card-link:hover .quote-card-text {
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.35);
+}
+
+.quote-card-link:hover .quote-card-author {
+  text-shadow: 0 0 8px rgba(34, 211, 238, 0.5);
+}
+

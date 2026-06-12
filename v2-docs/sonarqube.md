@@ -58,5 +58,5 @@
   - [youtube: Installation of Sonarqube on Kubernetes/Minikube](https://www.youtube.com/watch?v=_cT-kkvw3NQ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Video guide demonstrating how to spin up a SonarQube server inside Minikube, configured for localized developer playground environments.
 
 ---
-💡 **Explore Related:** [Jenkins Alternatives](./jenkins-alternatives.md) | [Gitops](./gitops.md) | [CI/CD](./cicd.md)
+💡 **Explore Related:** [Jenkins Alternatives](./jenkins-alternatives.md) | [Gitops](./gitops.md) | [Registries](./registries.md)
 
