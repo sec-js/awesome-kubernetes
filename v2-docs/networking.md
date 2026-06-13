@@ -5,15 +5,6 @@
 
 ## Standard Reference
 
-  - [Azure ExpressRoute Resiliency: Best Practices for Production-Critical Workloads](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/azure-expressroute-resiliency-best-practices-for-production-critical-workloads/4394842)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Deploying Virtual Networks Across Tenants Using Azure Virtual Network Manager](https://techcommunity.microsoft.com/blog/azurenetworkingblog/deploying-virtual-networks-across-tenants-using-azure-virtual-network-manager-ip/4410161)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [magic-cookie.co.uk/iplist.html](http://magic-cookie.co.uk/iplist.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [matt-rickard.com: How to Calculate a CIDR](https://mattrickard.com/how-to-calculate-a-cidr)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [docs.ansible.com: Netbox Ansible Modules 🌟](https://docs.ansible.com/projects/ansible/latest/collections/netbox/netbox/index.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [slideshare: Http Status Code Errors in SEO](http://www.slideshare.net/AdelaRoger/http-status-code-errors-in-seo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [HTTP/2 With JBoss EAP 7 - Tech Preview](http://blog.eisele.net/2015/11/http2-with-jboss-eap-7.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [simple-talk.com: Script Loading between HTTP/1.1 and HTTP/2](https://www.red-gate.com/simple-talk/development/dotnet-development/script-loading-between-http1-1-and-http2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [5 Tips to Boost the Performance of Your Apache Web Server](http://www.tecmint.com/apache-performance-tuning)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [awesomeopensource.com: The Top 110 Cidr Open Source Projects on Github 🌟](https://awesomeopensource.com/projects/cidr)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Manage Azure IPAM with Terraform](https://mattias.engineer/blog/2025/azure-ipam-with-terraform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Application Network Security in Azure Subnets, Endpoints, DNS, NSGs with Terraform Code](https://medium.com/@codebob75/application-network-security-in-azure-subnets-endpoints-dns-nsgs-with-terraform-code-0bcabdb3a65b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -58,6 +49,37 @@
   - [harshityadav95.medium.com: Load Balancing Layer 4 vs Layer 7](https://harshityadav95.medium.com/load-balancing-layer-4-vs-layer-7-f37a839afd9c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [media.pearsoncmg.com: Recursive/Iterative Queries in DNS](https://media.pearsoncmg.com/aw/ecs_kurose_compnetwork_7/cw/content/interactiveanimations/recursive-iterative-queries-in-dns/index.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Azure
+
+### Hybrid Infrastructure
+
+  - **(2025)** [**Azure ExpressRoute Resiliency: Best Practices for Production-Critical Workloads**](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/azure-expressroute-resiliency-best-practices-for-production-critical-workloads/4394842) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Deeply examines resiliency patterns for Azure ExpressRoute connectivity connecting on-premises data centers to Azure. It covers active-active configuration, secondary ExpressRoute failovers, and VPN backup strategies to prevent downtime during link outages. Indispensable for designing highly available hybrid cloud foundations.
+### Multi-Tenant
+
+  - **(2025)** [**Deploying Virtual Networks Across Tenants Using Azure Virtual Network Manager**](https://techcommunity.microsoft.com/blog/azurenetworkingblog/deploying-virtual-networks-across-tenants-using-azure-virtual-network-manager-ip/4410161) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Explains how to construct secure virtual network topologies across multiple enterprise Azure tenants using Azure Virtual Network Manager (AVNM). Details centralized mesh-network architectures, security admin rules, and policy distribution. This resource is highly practical for organizations managing complex multi-tenant landing zones.
+## HTTP
+
+### Fundamentals
+
+  - **(2015)** [slideshare: Http Status Code Errors in SEO](http://www.slideshare.net/AdelaRoger/http-status-code-errors-in-seo) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Slide presentation illustrating HTTP status codes (2xx, 3xx, 4xx, 5xx) and their impact on search engines indexing and crawling profiles. Details strategies for resolving redirect loops and handling server-side downtime. It provides basic context on HTTP error definitions but is largely focused on search marketing rather than modern container architectures.
+## IP Tools
+
+### Fundamentals (1)
+
+  - **(2022)** [matt-rickard.com: How to Calculate a CIDR](https://mattrickard.com/how-to-calculate-a-cidr) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Breaks down the math of Classless Inter-Domain Routing (CIDR) configuration, highlighting subnet masking and bitwise representation. Demonstrates how to divide network ranges to match Kubernetes pod and service address space requirements. Great educational reading for understanding IP boundaries and avoiding IP collisions in routing designs.
+### IP Generation
+
+  - **(2020)** [magic-cookie.co.uk/iplist.html](http://magic-cookie.co.uk/iplist.html) <span class='md-tag md-tag--warning'>[C CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A web-based utility tool, IPLIST, used for computing and generating ranges of IP addresses and translating formats. Helps networks administrators quickly construct complex network configurations and resolve subnets. Acts as a simple utility for local testing of IP block definitions.
+## IPAM
+
+### Ansible
+
+  - **(2024)** [==docs.ansible.com: Netbox Ansible Modules 🌟==](https://docs.ansible.com/projects/ansible/latest/collections/netbox/netbox/index.html) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Documentation on Ansible collections for Netbox, the open-source infrastructure resource model and IPAM system. Details modules for programmatically managing IP addresses, subnets, racks, and device inventories directly from GitOps execution pipelines. Enables fully automated source-of-truth orchestration across mixed networks.
+## Infrastructure
+
+### Web Servers
+
+  - **(2016)** [5 Tips to Boost the Performance of Your Apache Web Server](http://www.tecmint.com/apache-performance-tuning) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Outlines 5 performance-tuning optimization steps for Apache HTTP server installations, focusing on Multi-Processing Modules (MPM), KeepAlive configurations, and caching rules. This guide helps legacy operations maximize concurrency on system resources before migrating web workloads to container environments.
 ## Security
 
 ### Infrastructure Security
@@ -65,6 +87,18 @@
 #### Network Protection
 
   - [Building a DDoS Response Plan with Azure DDoS Protection](https://techcommunity.microsoft.com/blog/azurenetworksecurityblog/building-a-ddos-response-plan/4372256) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Architecture plan to withstand high-volume distributed denial-of-service attempts. Live Grounding: Focuses heavily on cloud-native patterns like rate-limiting, load-balancer protection, and Edge integration on Azure platforms.
+## Software Development
+
+### Java
+
+#### Application Servers
+
+  - **(2015)** [HTTP/2 With JBoss EAP 7 - Tech Preview](http://blog.eisele.net/2015/11/http2-with-jboss-eap-7.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews the technology preview of HTTP/2 protocol support within JBoss Enterprise Application Platform (EAP) 7. It covers ALPN requirements, connection multiplexing over TCP, and header compression designed to optimize application loading. Historical reference for configuring early HTTP/2 pathways in enterprise Java environments.
+### Performance
+
+#### Web Development
+
+  - **(2016)** [simple-talk.com: Script Loading between HTTP/1.1 and HTTP/2](https://www.red-gate.com/simple-talk/development/dotnet-development/script-loading-between-http1-1-and-http2) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Contrasts asset packaging and loading strategies under HTTP/1.1 (bundling, domain sharding) with the multiplexing capabilities of HTTP/2. Analyzes network request profiles to demonstrate how request prioritization and header compression alter client-side performance. Shows that old performance hacks can become anti-patterns with modern network specifications.
 
 ---
 💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md)

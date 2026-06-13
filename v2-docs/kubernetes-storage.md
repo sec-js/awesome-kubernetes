@@ -5,30 +5,6 @@
 
 ## Standard Reference
 
-  - [Red Hat Ceph Storage](https://ceph.io/en)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [Noobaa](https://github.com/noobaa/noobaa-core):
-        - Red Hat Multi Cloud Gateway (AWS, Azure, GCP, etc)
-        - Asynchronous replication of data between my local ceph and my cloud provider
-        - Deduplication
-        - Compression
-        - Encryption
-  - [State of OpenShift Container Storage](https://www.redhat.com/en/blog/state-of-openshift-container-storage-eran-tamir-and-duncan-hardie-red-hat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Monitoring jenkins using instana](https://www.ibm.com/think)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [thenewstack.io: The most popular cloud native solutions 🌟](https://thenewstack.io/cloud-native/the-most-popular-cloud-native-storage-solutions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blocksandfiles.com: geless storage is the ‘answer’ to Kubernetes data challenges](https://www.blocksandfiles.com/container-storage/2020/12/22/storageless-storage-is-the-answer-to-kubernetes-data-challenges/1611647)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [rancher.com: What is Cloud-Native Storage?](https://www.suse.com/c/rancher_blog/what-is-cloud-native-storage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.min.io: Why Kubernetes Managed Object Storage Matters](https://www.min.io/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [storj.io: Integrating Decentralized Cloud Storage with Duplicati](https://www.storj.io/cloud-object-storage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [infoworld.com: Kubernetes object storage best practices](https://www.infoworld.com/article/2269961/kubernetes-object-storage-best-practices.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.flant.com: Comparing Ceph, LINSTOR, Mayastor, and Vitastor storage performance in Kubernetes](https://palark.com/blog/kubernetes-storage-performance-linstor-ceph-mayastor-vitastor)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.newrelic.com: Kubernetes Fundamentals, Part 5: Working with Kubernetes Volumes](https://newrelic.com/blog/infrastructure-monitoring/how-to-use-kubernetes-volumes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blocksandfiles.com: Lightbits Labs adds Kubernetes table stakes: CSI support](https://www.blocksandfiles.com/block/2020/06/23/lightbits-labs-adds-kubernetes-table-stakes-csi-support/1598623)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Longhorn Simplifies Distributed Block Storage in Kubernetes](https://www.suse.com/c/rancher_blog/longhorn-simplifies-distributed-block-storage-in-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [containerjournal.com: Rancher Labs Adds Support for Longhorn Storage on Kubernetes Clusters](https://cloudnativenow.com/topics/cloudnativeplatforms/rancher-labs-adds-support-for-longhorn-storage-on-kubernetes-clusters)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [IBM Spectrum](https://www.ibm.com/solutions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redbooks.ibm.com: IBM Storage for Red Hat OpenShift. IBM block storage & IBM Spectrum Scale](http://www.redbooks.ibm.com/abstracts/redp5565.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [searchstorage.techtarget.com: IBM Spectrum](https://www.techtarget.com/searchitchannel/definition/IBM-International-Business-Machines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blocksandfiles.com: Kubernetes storage: SmartX’s IOMesh beats Portworx, Longhorn and OpenEBS](https://www.blocksandfiles.com/block/2021/08/05/kubernetes-storage-smartxs-iomesh-beats-portworx-longhorn-and-openebs/1617691)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [min.io](https://www.min.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Rook-Ceph](https://operatorhub.io/operator/rook-ceph)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Rook](https://rook.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dok.community: Data on Kubernetes 2021 Report](https://dok.community/dokc-2021-report)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -135,6 +111,99 @@
 
 *   Provides object, block, and file storage within a single cluster.
 *   Acts as a foundational storage engine for large-scale Kubernetes PV platforms (Rook-Ceph) and private clouds.
+### Strategy
+
+#### Hybrid Systems
+
+  - **(2022)** [blog.min.io: Mono Clouds vs Multi-Clouds & Hybrid Clouds](https://www.min.io/blog) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Contrasts the architectural realities of single-vendor setups ('Mono Cloud') with distributed hybrid and multi-cloud strategies. It explains how decoupling data storage using open standard object storage interfaces allows for a consistent data plane across diverse physical locations. It highlights strategies to maintain performance across public cloud boundaries and on-premise arrays.
+## Cloud Native Storage
+
+### Ceph
+
+#### Data Federation
+
+  - **(2024)** [Red Hat Ceph Storage](https://ceph.io/en) <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Ceph is an enterprise-grade, software-defined storage platform designed for petabyte-scale environments. It handles object, block, and file storage dynamically. This entry covers its integration with NooBaa Multi-Cloud Gateway for asynchronous replication, data deduplication, and multi-cloud encryption.
+### OpenShift
+
+#### Container Storage
+
+  - **(2021)** [State of OpenShift Container Storage](https://www.redhat.com/en/blog/state-of-openshift-container-storage-eran-tamir-and-duncan-hardie-red-hat) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A strategic overview of Red Hat OpenShift Container Storage (now OpenShift Data Foundation). Explores how SDS integrates with Kubernetes topologies to provide multi-cloud block, file, and object storage. Curator insight notes integration with NooBaa, while modern grounding confirms its maturation under Ceph and Rook management.
+## Enterprise Storage
+
+### IBM Storage
+
+#### Data Orchestration
+
+  - **(2023)** [IBM Spectrum](https://www.ibm.com/solutions) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — IBM Spectrum (rebranded to IBM Storage) delivers advanced software-defined storage architectures for managing hyper-scale enterprise storage profiles. Offers virtualization, global data synchronization, and extreme filesystem performance options.
+### OpenShift (1)
+
+#### Storage Integration
+
+  - **(2020)** [redbooks.ibm.com: IBM Storage for Red Hat OpenShift. IBM block storage & IBM Spectrum Scale](http://www.redbooks.ibm.com/abstracts/redp5565.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An IBM Redbook focusing on deploying storage configurations for OpenShift using Spectrum Scale and block storage. Features step-by-step guidance on setting up dynamic Container Storage Interface (CSI) drivers for stateful application layers.
+## Observability
+
+### Cost Optimization
+
+#### Data Storage
+
+  - **(2023)** [instana.com: The Hidden Cost of Observability: Data Volume](https://www.ibm.com/think) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the economic and architectural implications of high-cardinality and high-volume observability data. Provides strategies for dynamic rate limiting, smart sampling, and metric deduplication to prevent telemetry storage costs from scaling linearly with microservices growth.
+## Storage Infrastructure
+
+### Block Storage
+
+#### Longhorn
+
+  - **(2022)** [**Longhorn Simplifies Distributed Block Storage in Kubernetes**](https://www.suse.com/c/rancher_blog/longhorn-simplifies-distributed-block-storage-in-kubernetes) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An in-depth review of Longhorn, a highly integrated, lightweight distributed block storage engine designed for Kubernetes. Details Longhorn's unique architecture where every persistent volume acts as its own distributed controller, reducing cluster-wide lock bottlenecks. Outlines integrated backup, incremental replication, and snapshots operations.
+#### Rancher Integration
+
+  - **(2020)** [containerjournal.com: Rancher Labs Adds Support for Longhorn Storage on Kubernetes Clusters](https://cloudnativenow.com/topics/cloudnativeplatforms/rancher-labs-adds-support-for-longhorn-storage-on-kubernetes-clusters) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the historic inclusion and native integration of Longhorn distributed storage into Rancher's enterprise platform offerings. Covers how this integration allows cluster operators to provision highly available block storage pools through unified Kubernetes dashboard controls without complex manual setup.
+### CSI Drivers
+
+#### NVMe over Fabrics
+
+  - **(2020)** [blocksandfiles.com: Lightbits Labs adds Kubernetes table stakes: CSI support](https://www.blocksandfiles.com/block/2020/06/23/lightbits-labs-adds-kubernetes-table-stakes-csi-support/1598623) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Covers Lightbits Labs' implementation of Container Storage Interface (CSI) support to bring high-performance NVMe-over-Fabrics (NVMe-oF) storage clusters directly to Kubernetes workloads. Outlines performance benefits including low-latency IOPS, clustered volume scaling, and direct physical disk mappings.
+### Cloud Native Storage (1)
+
+#### Fundamentals
+
+  - **(2022)** [rancher.com: What is Cloud-Native Storage?](https://www.suse.com/c/rancher_blog/what-is-cloud-native-storage) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A conceptual guide detailing the definition, mechanics, and design goals of cloud-native storage frameworks on Kubernetes. Covers Container Storage Interface (CSI) specification rules, dynamic volume provisioning, storage pooling, hyper-convergence, and resilient state replication. Helpful for aligning operations teams with cloud-native persistent storage philosophies.
+#### Market Trends
+
+  - **(2023)** [**thenewstack.io: The most popular cloud native solutions 🌟**](https://thenewstack.io/cloud-native/the-most-popular-cloud-native-storage-solutions) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A survey of popular storage technologies within the Cloud Native Computing Foundation (CNCF) ecosystem. Investigates trends in adopting block, file, and object storage engines like Ceph (Rook), Longhorn, and Portworx. It contrasts hyper-converged storage solutions with external storage arrays to provide cloud architects with a balanced selection guide.
+### Decentralized Storage
+
+#### Duplicati Integration
+
+  - **(2023)** [storj.io: Integrating Decentralized Cloud Storage with Duplicati](https://www.storj.io/cloud-object-storage) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Illustrates the deployment pattern for connecting Duplicati backup workloads to Storj's decentralized S3-compatible cloud storage. Analyzes the security, replication overhead, geo-distribution properties, and cost benefits of decentralized peer-to-peer storage models compared to traditional monolithic cloud storage operators.
+### Enterprise Storage (1)
+
+#### IBM Spectrum
+
+  - **(2022)** [searchstorage.techtarget.com: IBM Spectrum](https://www.techtarget.com/searchitchannel/definition/IBM-International-Business-Machines) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A definition-oriented reference outlining the architectural components of IBM's Spectrum storage line. Details how the suite decouples physical storage media from control-plane software virtualization, allowing unified management of block, object, and file systems across hybrid clouds.
+### Kubernetes Volumes
+
+#### Core Concepts
+
+  - **(2022)** [blog.newrelic.com: Kubernetes Fundamentals, Part 5: Working with Kubernetes Volumes](https://newrelic.com/blog/infrastructure-monitoring/how-to-use-kubernetes-volumes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Part of a Kubernetes foundation series, this resource focuses on volume mounts, PersistentVolumes (PV), and PersistentVolumeClaims (PVC). Demystifies volume lifecycles, access modes (RWO, RWX, ROX), and dynamic storage provisioner interactions. Serves as a solid baseline for junior to intermediate platform engineers.
+### Object Storage
+
+#### MinIO
+
+  - **(2024)** [==min.io==](https://www.min.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The homepage portal for MinIO, the industry's de facto standard high-performance, Kubernetes-native S3-compatible object storage platform. Built from the ground up for container environments, it provides multi-tenant storage, advanced server-side encryption, and deterministic S3 API compatibility at scale.
+#### Production Guidelines
+
+  - **(2023)** [infoworld.com: Kubernetes object storage best practices](https://www.infoworld.com/article/2269961/kubernetes-object-storage-best-practices.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A best practices manual outlining how to optimize object storage interfaces inside Kubernetes. Explores tuning network topology policies, configuring proper caching buffers, setting access patterns, and choosing between single and multi-tenant namespaces. Highlights security considerations such as SSE-KMS encryption and IAM integration.
+### Storage Architecture
+
+#### Storageless Paradigms
+
+  - **(2020)** [blocksandfiles.com: geless storage is the ‘answer’ to Kubernetes data challenges](https://www.blocksandfiles.com/container-storage/2020/12/22/storageless-storage-is-the-answer-to-kubernetes-data-challenges/1611647) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines 'storageless' container storage paradigms, challenging the orthodox practice of running complex local storage clusters inside Kubernetes. Argues that offloading persistent state directly to highly available cloud object storage APIs or external managed SANs minimizes complex controller overlays and limits storage management overhead inside workloads.
+### Storage Engine
+
+#### Performance Benchmark
+
+  - **(2023)** [**blog.flant.com: Comparing Ceph, LINSTOR, Mayastor, and Vitastor storage performance in Kubernetes**](https://palark.com/blog/kubernetes-storage-performance-linstor-ceph-mayastor-vitastor) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A performance analysis and benchmark comparison of major Kubernetes open-source storage engines, evaluating Ceph, LINSTOR, Mayastor, and Vitastor. Runs real-world database access profiles to compare IOPS, CPU consumption, random read/write latency, and replication overhead. Essential reference for infrastructure architects designing high-throughput databases.
+  - **(2021)** [blocksandfiles.com: Kubernetes storage: SmartX’s IOMesh beats Portworx, Longhorn and OpenEBS](https://www.blocksandfiles.com/block/2021/08/05/kubernetes-storage-smartxs-iomesh-beats-portworx-longhorn-and-openebs/1617691) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A performance analysis showcasing SmartX's IOMesh storage benchmarks against industry-standard block storage engines like Portworx, Longhorn, and OpenEBS. Analyzes the impact of kernel versus user-space execution blocks and explains how IOMesh achieves ultra-low latencies suitable for hot relational database deployments.
 
 ---
 💡 **Explore Related:** [OCP 3](./ocp3.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)

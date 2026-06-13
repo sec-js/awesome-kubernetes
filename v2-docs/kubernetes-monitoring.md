@@ -5,7 +5,6 @@
 
 ## Standard Reference
 
-  - [botkube.io](https://botkube.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [DZone: Kubernetes Monitoring Essentials](https://dzone.com/refcardz/monitoring-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [faun.pub: Becoming DevOps — Observability](https://faun.pub/becoming-devops-observability-152b292c05b9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [levelup.gitconnected.com: Installing & Exploring the Kube-Prometheus Project](https://levelup.gitconnected.com/installing-exploring-the-kube-prometheus-project-eef375d49f6b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -76,6 +75,9 @@
 #### Cert-Manager Monitoring
 
   - [infracloud.io: Monitoring Kubernetes cert-manager Certificates with BotKube](https://www.infracloud.io/blogs/monitoring-kubernetes-cert-manager-certificates)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical guide for integrating cert-manager with BotKube. Shows how to set up active Slack or Teams alerts that notify platform engineers when TLS certificates are nearing expiration or failing ACME challenges.
+#### Collaboration Platforms
+
+  - **(2019)** [**botkube.io**](https://botkube.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Botkube is a collaboration and ChatOps tool designed to integrate Kubernetes clusters directly with popular messaging channels like Slack, Discord, and Teams. It allows debugging, running kubectl commands, and monitoring cluster alerts securely from chat interfaces.
 ### Command Line Tools
 
 #### Kubectl Usage

@@ -18,8 +18,8 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: v2-metadata-${{ github.ref }}
-  cancel-in-progress: true
+  group: v2-pipeline-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   run-metadata:

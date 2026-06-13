@@ -5,21 +5,6 @@
 
 ## Standard Reference
 
-  - [blog.scaleway.com: Understanding Kubernetes Autoscaling](https://www.scaleway.com/en/blog/understanding-kubernetes-autoscaling)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [sysdig.com: Kubernetes pod autoscaler using custom metrics](https://www.sysdig.com/blog/kubernetes-autoscaler)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [learnk8s.io: Architecting Kubernetes clusters — choosing the best autoscaling strategy 🌟](https://learnkube.com/kubernetes-autoscaling-strategies)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [thinksys.com: Understanding Kubernetes Autoscaling](https://thinksys.com/devops/kubernetes-autoscaling)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Kubernetes Autoscaling in Production: Best Practices for **Cluster Autoscaler, HPA and VPA**](https://www.splunk.com/en_us/appdynamics-joins-splunk.html?301=appdynamics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [HPA: Horizontal Pod Autoscaler](https://kubernetes.io/docs/concepts/workloads/autoscaling/horizontal-pod-autoscale)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [around25.com: Horizontal Pod Autoscaler in Kubernetes 🌟](https://www.around25.com/blog/horizontal-pod-autoscaler-in-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [sysdig.com: Trigger a Kubernetes HPA with Prometheus metrics](https://www.sysdig.com/blog/kubernetes-hpa-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [hub.helm.sh: cluster-autoscaler](https://artifacthub.io/packages/helm/stable/cluster-autoscaler)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [kedify.io: Prometheus and Kubernetes Horizontal Pod Autoscaler don’t talk, KEDA does](https://www.kedify.io/resources/blog/prometheus-and-kubernetes-horizontal-pod-autoscaler-dont-talk-keda-does)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [opcito.com: A guide to mastering autoscaling in Kubernetes with KEDA](https://www.opcito.com/blogs/a-guide-to-mastering-autoscaling-in-kubernetes-with-keda)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Amazon Web Services: EKS Cluster Autoscaler](https://docs.aws.amazon.com/eks/latest/userguide/autoscaling.html#cluster-autoscaler)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [eksworkshop.com: Configure Cluster Autoscaler (CA)](https://eksworkshop.com/scaling/deploy_ca)
-  - [Azure: AKS Cluster Autoscaler](https://learn.microsoft.com/en-us/azure/aks/cluster-autoscaler)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Google Cloud Platform: GKE Cluster Autoscaler](https://docs.cloud.google.com/kubernetes-engine/docs/concepts/cluster-autoscaler)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [DigitalOcean Kubernetes: DOKS Cluster Autoscaler](https://docs.digitalocean.com/products/kubernetes/how-to/autoscale)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: K8s Resource Management: An Autoscaling Cheat Sheet' 🌟](https://thenewstack.io/k8s-resource-management-an-autoscaling-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [eksworkshop.com: Configure Cluster Autoscaler (CA)](https://eksworkshop.com/scaling/deploy_ca)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [tomd.xyz: Event-driven integration on Kubernetes with Camel & KEDA](https://tomd.xyz/kubernetes-event-driven-keda)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -109,6 +94,69 @@
   - [thenewstack.io: Sidecars are Changing the Kubernetes Load-Testing Landscape](https://thenewstack.io/sidecars-are-changing-the-kubernetes-load-testing-landscape)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/teamsnap-engineering: Load Testing a Service with ~20,000 Requests' per Second with Locust, Helm, and Kustomize](https://medium.com/teamsnap-engineering/load-testing-a-service-with-20-000-requests-per-second-with-locust-helm-and-kustomize-ea9bea02ae28)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Cloud Platforms
+
+### AWS EKS
+
+#### EKS Autoscaling
+
+  - **(2026)** [Amazon Web Services: EKS Cluster Autoscaler](https://docs.aws.amazon.com/eks/latest/userguide/autoscaling.html#cluster-autoscaler) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AWS documentation outlining native cluster-autoscaler capabilities for EKS clusters, focusing on interactions with Auto Scaling Groups. Note: Modern 2026 Kubernetes on AWS frequently uses Karpenter alongside or in place of CA for rapid node provisioning.
+### Azure AKS
+
+#### AKS Autoscaling
+
+  - **(2026)** [Azure: AKS Cluster Autoscaler](https://learn.microsoft.com/en-us/azure/aks/cluster-autoscaler) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Microsoft reference for running the AKS Cluster Autoscaler. Details how to customize scaling thresholds, balance multi-agent pools, and optimize node auto-provisioning to minimize cloud spend while ensuring high availability.
+### DigitalOcean DOKS
+
+#### DOKS Autoscaling
+
+  - **(2025)** [DigitalOcean Kubernetes: DOKS Cluster Autoscaler](https://docs.digitalocean.com/products/kubernetes/how-to/autoscale) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Operational documentation for managing autoscaling policies inside DigitalOcean Kubernetes (DOKS). Best suited for smaller, agile software teams seeking low-overhead node group management without complex enterprise-level overhead.
+### Google Cloud GKE
+
+#### GKE Autoscaling
+
+  - **(2026)** [Google Cloud Platform: GKE Cluster Autoscaler](https://docs.cloud.google.com/kubernetes-engine/docs/concepts/cluster-autoscaler) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google Cloud documentation covering GKE Cluster Autoscaler concepts. Outlines native Node Auto-Provisioning (NAP) capabilities, which automatically optimize node-pool resource types in real-time, leveraging GCP's deep integration with GKE.
+## FinOps
+
+### Fundamentals
+
+#### Kubernetes
+
+  - **(2021)** [replex.io: An Introduction to Kubernetes FinOps](https://www.splunk.com/en_us/appdynamics-joins-splunk.html?301=appdynamics) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory foundational guide explaining how Kubernetes abstract resource consumption complicates traditional IT billing. Explores concepts like container resource requests, limits, idle capacity, and cost allocation models across teams. Illustrates how integrating observability tools helps teams isolate exact microservice costs within shared networks.
+## Infrastructure
+
+### Kubernetes (1)
+
+#### Autoscaling Concepts
+
+  - **(2022)** [blog.scaleway.com: Understanding Kubernetes Autoscaling](https://www.scaleway.com/en/blog/understanding-kubernetes-autoscaling) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This Scaleway guide introduces basic Kubernetes autoscaling patterns, describing the operational mechanics and interfaces of the HPA, VPA, and Cluster Autoscaler. Provides a solid foundation for defining cluster resources and limits.
+#### Autoscaling Overview
+
+  - **(2022)** [thinksys.com: Understanding Kubernetes Autoscaling](https://thinksys.com/devops/kubernetes-autoscaling) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A simplified overview of vertical vs. horizontal pod autoscaling and node-level scaling in cloud-native platforms. Explains the core scheduling metrics and feed loop configurations necessary to prevent thrashing in multi-tenant spaces.
+#### Autoscaling Strategies
+
+  - **(2024)** [learnk8s.io: Architecting Kubernetes clusters — choosing the best autoscaling strategy 🌟](https://learnkube.com/kubernetes-autoscaling-strategies) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An architectural exploration from Learnk8s on selecting the optimal Kubernetes autoscaling configurations. Compares the performance and cost dynamics of standard pod/node autoscaling against rapid provisioning tools like Karpenter and scale-to-zero strategies.
+#### Autoscaling with Custom Metrics
+
+  - **(2023)** [sysdig.com: Kubernetes pod autoscaler using custom metrics](https://www.sysdig.com/blog/kubernetes-autoscaler) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A technical guide for configuring Kubernetes pod autoscaling using custom application metrics. Walks through using Sysdig monitoring, Prometheus Adapter, and API aggregation registration to scale workloads based on application-level signals.
+#### Cluster Autoscaler Helm Chart
+
+  - **(2026)** [hub.helm.sh: cluster-autoscaler](https://artifacthub.io/packages/helm/stable/cluster-autoscaler) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Artifact Hub reference for the Kubernetes Cluster Autoscaler Helm chart. Automates deployment of the controller that provisions or terminates cloud VMs inside cloud node groups whenever scheduling constraints demand it. It is widely adopted across AWS, Azure, and GCP.
+#### HPA and Prometheus Integration
+
+  - **(2023)** [sysdig.com: Trigger a Kubernetes HPA with Prometheus metrics](https://www.sysdig.com/blog/kubernetes-hpa-prometheus) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An operations tutorial illustrating how to configure the Prometheus custom-metrics adapter to query custom application APIs. Demonstrates how to scale Kubernetes pods automatically based on HTTP request counts, message queues, or custom application statistics.
+#### HPA Configuration Guide
+
+  - **(2021)** [around25.com: Horizontal Pod Autoscaler in Kubernetes 🌟](https://www.around25.com/blog/horizontal-pod-autoscaler-in-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical walk-through detailing Horizontal Pod Autoscaler initialization, highlighting how resource limit boundaries are defined. Leverages synthetic workload generators to demonstrate reactive, real-time replica scale-ups.
+#### Horizontal Pod Autoscaler
+
+  - **(2026)** [HPA: Horizontal Pod Autoscaler](https://kubernetes.io/docs/concepts/workloads/autoscaling/horizontal-pod-autoscale) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official Kubernetes HPA specification documentation. Details the closed-loop control system that monitors pod resource usage and adjusts deployment replicas based on mathematical targets. Live grounding validates its position as the native industry standard for dynamic sizing.
+#### KEDA and Prometheus
+
+  - **(2024)** [kedify.io: Prometheus and Kubernetes Horizontal Pod Autoscaler don’t talk, KEDA does](https://www.kedify.io/resources/blog/prometheus-and-kubernetes-horizontal-pod-autoscaler-dont-talk-keda-does) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A Kedify brief explaining how KEDA (Kubernetes Event-driven Autoscaling) replaces traditional metric adapters by directly querying Prometheus. KEDA enables seamless scale-to-zero capabilities based on event-driven architectures. Live 2026 grounding confirms KEDA is a CNCF Graduated project and an enterprise standard for event-driven scaling.
+#### KEDA Implementation
+
+  - **(2023)** [opcito.com: A guide to mastering autoscaling in Kubernetes with KEDA](https://www.opcito.com/blogs/a-guide-to-mastering-autoscaling-in-kubernetes-with-keda) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed technical guide to implementing event-driven autoscaling with KEDA. Breaks down the deployment of Scalers, Metrics Adapters, and the core KEDA controller to autoscale Kubernetes workloads using Message Queue length, DB queries, or cloud pub/sub events.
 
 ---
 💡 **Explore Related:** [OCP 3](./ocp3.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)

@@ -5,12 +5,6 @@
 
 ## Standard Reference
 
-  - [openshift.com: Metrics-Driven Pod Constraints](https://www.redhat.com/en/blog/metrics-driven-pod-constraints)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [CISCO DNA Center with Grafana Dashboard](https://hawar.no/2021/05/cisco-dna-center-with-grafana-dashboard)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [percona.com: Tips for Designing Grafana Dashboards](https://www.percona.com/blog/designing-grafana-dashboards)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Grafana 7.0: “We’ve built one of the best visualisation tools and it’s not tied to any one database”](https://devm.io/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [grafana.com: Grafana Labs and Microsoft partner to deliver new first party Microsoft Azure service](https://grafana.com/press/2021/11/10/grafana-labs-and-microsoft-partner-to-deliver-new-first-party-microsoft-azure-service)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [grafana.com: Grafana 9.3 feature: Grafana OAuth token improvements](https://grafana.com/oss/grafana/?mdm=social)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Grafana](https://grafana.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [grafana.com: Provisioning Grafana 🌟](https://grafana.com/docs/grafana/latest/administration/provisioning)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Grafana provisioning Ansible Role](https://github.com/cloudalchemy/ansible-grafana) <span class='md-tag md-tag--info'>⭐ 503</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -58,6 +52,42 @@
   - [Telegraf Collector](https://www.influxdata.com/time-series-platform/telegraf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Artemis Prometheus Metrics Plugin](https://github.com/rh-messaging/artemis-prometheus-metrics-plugin) <span class='md-tag md-tag--info'>⭐ 28</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## DevOps and CICD
+
+### Kubernetes Deployment
+
+#### Spring Boot
+
+  - **(2021)** [jaxenter.com: CI/CD for Spring Boot Microservices: Part 2. Extending CI/CD: Kubernetes Continuous Deployment for Microservices](https://devm.io/blog) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Part two of the Spring Boot CI/CD series, shifting focus to advanced Kubernetes deployment mechanics. Walks through manifest templating, container orchestration policies, rolling updates, and continuous delivery pipelines utilizing cloud-native deployment controllers.
+## Observability
+
+### Cloud Services
+
+#### Azure Managed Grafana
+
+  - **(2021)** [grafana.com: Grafana Labs and Microsoft partner to deliver new first party Microsoft Azure service](https://grafana.com/press/2021/11/10/grafana-labs-and-microsoft-partner-to-deliver-new-first-party-microsoft-azure-service) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Commemorates the partnership leading to Azure Managed Grafana. Enables developers to run hosted Grafana instances natively within the Microsoft Azure ecosystem with seamless Active Directory integrations and Azure Monitor data ingestion.
+### Network Monitoring
+
+#### Grafana Integration
+
+  - **(2021)** [CISCO DNA Center with Grafana Dashboard](https://hawar.no/2021/05/cisco-dna-center-with-grafana-dashboard) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates how to connect Cisco DNA Center API telemetry to Grafana for unified infrastructure monitoring. Captures real-time network states and network fabric metrics. Useful for cross-domain orchestration environments.
+### Security
+
+#### Access Control
+
+  - **(2022)** [grafana.com: Grafana 9.3 feature: Grafana OAuth token improvements](https://grafana.com/oss/grafana/?mdm=social) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes OAuth token propagation and security upgrades introduced in Grafana 9.3. Allows passing OAuth tokens directly to downstream data sources like Prometheus or Elasticsearch. Solidifies RBAC alignments for enterprises implementing zero-trust telemetry planes.
+### Visualization
+
+#### Grafana Dashboards
+
+  - **(2022)** [percona.com: Tips for Designing Grafana Dashboards](https://www.percona.com/blog/designing-grafana-dashboards) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A masterclass on dashboard architecture for high-density environments. Outlines design best practices: query optimization, panel layout consolidation, and dynamic variables. Helps prevent 'dashboard fatigue' and reduce browser rendering load for operations teams.
+## Orchestration
+
+### Kubernetes Scheduling
+
+#### Pod Placement
+
+  - **(2021)** [openshift.com: Metrics-Driven Pod Constraints](https://www.redhat.com/en/blog/metrics-driven-pod-constraints) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses scheduling optimization in OpenShift through metrics-driven pod constraints. Explores how PromQL metrics can influence Kubernetes scheduling decisions. While early architectures relied on static resource limits, live 2026 patterns prioritize real-time telemetry to scale and place pods dynamically.
 
 ---
 💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Cheatsheets](./cheatsheets.md)

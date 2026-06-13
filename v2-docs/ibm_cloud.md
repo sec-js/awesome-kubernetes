@@ -5,16 +5,9 @@
 
 ## Standard Reference
 
-  - [redbooks.ibm.com: IBM Storage for Red Hat OpenShift. IBM block storage & IBM Spectrum Scale](http://www.redbooks.ibm.com/abstracts/redp5565.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [IBM Cloud](https://www.ibm.com/solutions/cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Red Hat OpenShift on IBM Cloud](https://www.ibm.com/solutions/cloud/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [IBM Knowledge Center 🌟](https://www.ibm.com/docs/en)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [IBM Leverages Containers to Advance DevOps on Mainframes](https://cloudnativenow.com/topics/cloudnativedevelopment/ibm-leverages-containers-to-advance-devops-on-mainframes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [IBM API Connect](https://www.ibm.com/docs/en/api-connect)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [openliberty.io](https://openliberty.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [IBM and Red Hat bring OpenShift to IBM Z and LinuxONE](https://www.redhat.com/en/blog/ibm-and-red-hat-bring-openshift-to-ibm-z-and-linuxone)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Red Hat OpenShift Installation Process Experiences on IBM Z/LinuxONE](https://www.redhat.com/en/blog/red-hat-openshift-installation-process-experiences-on-ibm-z-linuxone)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Installing OCP in a Mainframe z-series](https://www.redhat.com/en/blog/installing-ocp-in-a-mainframe-z-series)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [IBM Knowledge Center: IBM Cloud Pak for Multicloud Management](https://www.ibm.com/docs/en/cloud-paks/cp-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Red Hat Advanced Cluster Management for Kubernetes 🌟](https://www.redhat.com/en/technologies/management/advanced-cluster-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [IBM Cloud Pak Playbook](https://cloudpak8s.io/apps/cp4a_overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -34,6 +27,47 @@
   - [medium: tagged/cp4mcm](https://medium.com/ibm-cloud-paks-help-and-guidance-from-ibm-cloud/tagged/cp4mcm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/IBM/CP4MCM-SDK : Business Partner App Integration with IBM MCM](https://github.com/IBM/CP4MCM-SDK) <span class='md-tag md-tag--info'>⭐ 2</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Cloud Native
+
+### Mainframe DevOps
+
+#### Containers
+
+  - **(2019)** [IBM Leverages Containers to Advance DevOps on Mainframes](https://cloudnativenow.com/topics/cloudnativedevelopment/ibm-leverages-containers-to-advance-devops-on-mainframes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Explains IBM's integration of container technologies with mainframe z/OS systems. This technical bridge enables engineers to run microservice pipelines directly beside legacy transactional backends, streamlining modern DevOps methodologies on mainframes.
+## Cloud Providers
+
+### IBM Cloud
+
+#### Enterprise Platform
+
+  - **(2024)** [IBM Cloud](https://www.ibm.com/solutions/cloud) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — IBM Cloud provides comprehensive cloud native services integrated alongside specialized IBM Power and IBM Z architectures. Offers regulated industries customized hybrid setups, quantum-safe telemetry, and specialized security profiles.
+## Container Platforms
+
+### OpenShift
+
+#### Bare Metal Installation
+
+  - **(2021)** [Installing OCP in a Mainframe z-series](https://www.redhat.com/en/blog/installing-ocp-in-a-mainframe-z-series) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive into deploying Red Hat OpenShift on bare-metal IBM Z-series frames. Walks through bootstrap configuration parameters, network interface allocations, and LPAR layouts required to construct robust container runtimes.
+#### IBM Z Mainframes
+
+  - **(2020)** [IBM and Red Hat bring OpenShift to IBM Z and LinuxONE](https://www.redhat.com/en/blog/ibm-and-red-hat-bring-openshift-to-ibm-z-and-linuxone) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Tracks the strategic porting of Red Hat OpenShift Container Platform onto IBM Z and LinuxONE frameworks. This allows teams to coordinate low-latency microservices right next to mainframe transactional databases inside secured hardware zones.
+#### Installation Guides
+
+  - **(2020)** [Red Hat OpenShift Installation Process Experiences on IBM Z/LinuxONE](https://www.redhat.com/en/blog/red-hat-openshift-installation-process-experiences-on-ibm-z-linuxone) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the specialized installation requirements and architectural prerequisites when building OpenShift clusters on IBM Z mainframes. Discusses z/VM virtualization layers, network card routing configurations, and disk mapping configurations.
+## Enterprise Storage
+
+### OpenShift (1)
+
+#### Storage Integration
+
+  - **(2020)** [redbooks.ibm.com: IBM Storage for Red Hat OpenShift. IBM block storage & IBM Spectrum Scale](http://www.redbooks.ibm.com/abstracts/redp5565.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An IBM Redbook focusing on deploying storage configurations for OpenShift using Spectrum Scale and block storage. Features step-by-step guidance on setting up dynamic Container Storage Interface (CSI) drivers for stateful application layers.
+## Java Enterprise
+
+### Jakarta EE
+
+#### MicroProfile
+
+  - **(2024)** [openliberty.io](https://openliberty.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Open Liberty is a modular, fast, and light Java server runtime optimized for building microservices using MicroProfile and Jakarta EE. Its rapid startup capabilities and dynamic kernel updates suit continuous container scaling profiles.
 
 ---
 💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Public Cloud Solutions](./public-cloud-solutions.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)

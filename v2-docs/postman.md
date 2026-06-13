@@ -5,8 +5,6 @@
 
 ## Standard Reference
 
-  - [Drools](https://kie.apache.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [KIE Server](https://hub.docker.com/r/jboss/kie-server)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.getpostman.com](https://blog.getpostman.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone: how to use postman to manage and execute your APIs](https://dzone.com/articles/how-to-use-postman-to-manage-and-execute-your-apis)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Linkedin: API Testing with Postman](https://www.linkedin.com/pulse/api-testing-postman-michael-montgomery)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -27,6 +25,16 @@
   - [Hoppscotch: Open-Source Alternative to Postman](https://hoppscotch.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [techwebspace.com: Get Started with the REST Assured Framework: An Example-based' Guide](https://www.techwebspace.com/get-started-with-the-rest-assured-framework-an-example-based-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Enterprise Software
+
+### Business Rules Management
+
+#### Drools
+
+  - **(2001)** [Drools](https://kie.apache.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Apache Drools is a powerful, high-performance Business Rules Management System (BRMS) and rules engine executing the Rete algorithm. It decouples business logic from core application code, allowing dynamic rule execution and decision modeling (DMN). It integrates natively into enterprise Java ecosystems to process complex business logic asynchronously or synchronously.
+#### KIE Execution Server
+
+  - **(2014)** [KIE Server](https://hub.docker.com/r/jboss/kie-server) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — KIE Server is a modular, standalone execution server used to deploy and run business assets such as rules, processes, decisions, and planning solvers. It provides robust REST and JMS interfaces for remote interaction. Architecturally, it can run as a decoupled runtime engine within microservices architectures, containerized via Docker and Kubernetes.
 
 ---
 💡 **Explore Related:** [Angular](./angular.md) | [Visual Studio](./visual-studio.md) | [API](./api.md)

@@ -5,17 +5,6 @@
 
 ## Standard Reference
 
-  - [openshift.com/learn/topics/serverless](https://www.redhat.com/en/technologies/cloud-computing/openshift/serverless)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [datacenterknowledge.com: Explaining Knative, the Project to Liberate Serverless from Cloud Giants](https://www.datacenterknowledge.com/servers/explaining-knative-the-project-to-liberate-serverless-from-cloud-giants)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [theregister.com: Microservices guru says think serverless, not Kubernetes: You don't want to manage 'a towering edifice of stuff'](https://www.theregister.com/software/2020/09/22/microservices-guru-says-think-serverless-not-kubernetes-you-dont-want-to-manage-a-towering-edifice-of-stuff/353334)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [serverlessguru.com: Enterprise Serverless Adoption 🌟](https://www.sls.guru/blog/enterprise-serverless-adoption)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [acloudguru.com: Containers vs serverless: Which is right for you?](https://www.pluralsight.com/resources/blog/cloud/containers-vs-serverless-which-is-right-for-you)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dev.to: Price Comparison of Popular Serverless Architecture Providers](https://dev.to/d1020/price-comparison-of-popular-serverless-architecture-providers-2jk9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [winderresearch.com: A Comparison of Serverless Frameworks for Kubernetes: OpenFaas, OpenWhisk, Fission, Kubeless and more](https://winder.ai/a-comparison-of-serverless-frameworks-for-kubernetes-openfaas-openwhisk-fission-kubeless-and-more)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [xenonstack.com: Serverless Architecture with OpenFaaS and Java](https://www.xenonstack.com/blog/serverless-open-faas-java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [openshift.com: Why and When you need to consider OpenShift Serverless](https://www.redhat.com/en/blog/why-and-when-you-need-to-consider-openshift-serverless)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Building microservices? Give Dapr a try](https://www.infoworld.com/article/2261795/building-microservices-give-dapr-a-try.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [versusmind.eu: Dapr - a serverless runtime for distributed applications 🌟](https://versusmind.eu/dapr-a-serverless-runtime-for-distributed-applications)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [redhat.com: What is knative?](https://www.redhat.com/en/topics/microservices/what-is-knative)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Serverless Architecture](https://developers.redhat.com/topics/serverless-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Docker for LLMs](https://www.docker.com/llm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -91,11 +80,60 @@
 #### Distributed Application Runtime
 
   - [dapr.io](https://dapr.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight presents Dapr as a portable, event-driven runtime that simplifies building resilient, distributed microservices. Live Grounding highlights its widespread enterprise adoption as a CNCF incubated project, offering sidecar APIs for state management, pub/sub, and service invocation across any cloud.
+## Cloud Architecture
+
+### Enterprise Adoption
+
+#### Serverless
+
+  - **(2022)** [serverlessguru.com: Enterprise Serverless Adoption 🌟](https://www.sls.guru/blog/enterprise-serverless-adoption)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analysis of the architectural and organizational strategies required for enterprise-scale serverless adoption. Discusses shift-left operations, cost optimization models, and how large organizations navigate migration paths from traditional monolithic or containerized infrastructures to fully managed event-driven serverless architectures.
+### Paradigm Comparison
+
+#### Containers vs Serverless
+
+  - **(2021)** [acloudguru.com: Containers vs serverless: Which is right for you?](https://www.pluralsight.com/resources/blog/cloud/containers-vs-serverless-which-is-right-for-you)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Synthesizes key technical differences between containerization (Docker/Kubernetes) and serverless hosting models (AWS Lambda, Cloud Run). Compares execution lifecycles, scaling characteristics, operational overhead, and pricing structures to help system architects select the optimal deployment paradigm based on workload patterns.
+#### Serverless vs Containers
+
+  - **(2020)** [theregister.com: Microservices guru says think serverless, not Kubernetes: You don't want to manage 'a towering edifice of stuff'](https://www.theregister.com/software/2020/09/22/microservices-guru-says-think-serverless-not-kubernetes-you-dont-want-to-manage-a-towering-edifice-of-stuff/353334)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates the architectural trade-offs between Kubernetes container orchestration and serverless computing. Highlights arguments from industry experts advocating for serverless paradigms to bypass the high operational complexity, steep learning curve, and management overhead associated with maintaining a bespoke Kubernetes control plane.
+### Serverless (1)
+
+#### Cost Analysis
+
+  - **(2021)** [dev.to: Price Comparison of Popular Serverless Architecture Providers](https://dev.to/d1020/price-comparison-of-popular-serverless-architecture-providers-2jk9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a detailed financial breakdown and comparative matrix of major serverless execution environments, including AWS Lambda, Azure Functions, and Google Cloud Functions. Evaluates cost implications based on invocation count, execution duration, memory allocation, and data transfer rates under varying traffic scenarios.
+## Cloud Native
+
+### Application Runtime
+
+#### Dapr
+
+  - **(2022)** [Building microservices? Give Dapr a try](https://www.infoworld.com/article/2261795/building-microservices-give-dapr-a-try.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces the Distributed Application Runtime (Dapr), an event-driven, portable runtime that simplifies microservices development through a sidecar architecture. Standardizes crucial distributed systems building blocks like state management, service-to-service invocation, pub/sub messaging, and observability using language-agnostic HTTP and gRPC APIs.
+  - **(2021)** [versusmind.eu: Dapr - a serverless runtime for distributed applications 🌟](https://versusmind.eu/dapr-a-serverless-runtime-for-distributed-applications)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Exploratory analysis of Dapr (Distributed Application Runtime) as an enabling runtime for distributed cloud-native architecture. Details how its sidecar model abstracts infrastructure dependencies (e.g., Redis, Kafka, Azure Cosmos DB) from developer code, reducing technical debt and enabling rapid, portable microservice deployments.
+### Kubernetes
+
+#### Knative
+
+  - **(2020)** [datacenterknowledge.com: Explaining Knative, the Project to Liberate Serverless from Cloud Giants](https://www.datacenterknowledge.com/servers/explaining-knative-the-project-to-liberate-serverless-from-cloud-giants)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Decodes Knative's role in standardizing cloud-native serverless workloads on Kubernetes. Discusses how Knative Serving manages scale-to-zero execution and how Knative Eventing builds declarative event-driven systems, effectively preventing vendor lock-in by providing a common abstract layer over diverse cloud infrastructures.
+#### Serverless Frameworks
+
+  - **(2020)** [winderresearch.com: A Comparison of Serverless Frameworks for Kubernetes: OpenFaas, OpenWhisk, Fission, Kubeless and more](https://winder.ai/a-comparison-of-serverless-frameworks-for-kubernetes-openfaas-openwhisk-fission-kubeless-and-more) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Architectural review of open-source serverless frameworks built on Kubernetes, specifically comparing OpenFaaS, Apache OpenWhisk, Fission, and the now-deprecated Kubeless. Examines their design philosophies, scaling mechanisms (cold starts vs. pre-warmed pods), event routing backends, and developer experiences.
+### Serverless Frameworks (1)
+
+#### OpenFaaS
+
+  - **(2021)** [xenonstack.com: Serverless Architecture with OpenFaaS and Java](https://www.xenonstack.com/blog/serverless-open-faas-java) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Practical implementation guide for designing and deploying Java-based microservices using OpenFaaS on Kubernetes. Outlines the building of lightweight Docker images, optimizing Java virtual machine (JVM) cold-start times within a serverless container environment, and leveraging Prometheus for auto-scaling based on request metrics.
+## Enterprise Kubernetes
+
+### OpenShift
+
+#### Serverless (2)
+
+  - **(2024)** [OpenShift Serverless](https://www.redhat.com/en/technologies/cloud-computing/openshift/serverless)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Product page outlining Red Hat OpenShift Serverless, which abstracts container execution using Knative. Provides developers with seamless scale-to-zero features, event-driven integration with Apache Kafka, and simplified deployment models that align cloud-native serverless architectures with enterprise security and governance policies.
+  - **(2021)** [openshift.com: Why and When you need to consider OpenShift Serverless](https://www.redhat.com/en/blog/why-and-when-you-need-to-consider-openshift-serverless)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Strategic framework outlining decision criteria for adopting OpenShift Serverless. Compares operational requirements, resource footprint optimization, and workload types (such as batch processors, scheduled tasks, and event-driven APIs) where scale-to-zero behaviors offer significant infrastructure cost savings over constantly running daemon pods.
 ## Software Architecture
 
 ### Cloud Patterns
 
-#### Serverless
+#### Serverless (3)
 
   - [ServerlessHorrors: A Web Compiling Nightmares in the Serverless World](https://revistacloud.com/serverlesshorrors-la-web-que-recoge-las-peores-pesadillas-del-mundo-serverless) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Un compendio técnico sobre los errores más comunes y costosos en el diseño de arquitecturas serverless. Ofrece un análisis crítico de fallos reales de concurrencia, inicios en frío ("cold starts"), costos fuera de control e integración de servicios, sirviendo como guía de advertencia para diseñadores de sistemas distribuidos. [SPANISH CONTENT]
 

@@ -24,28 +24,28 @@
 <div style="display: flex; justify-content: center; gap: 24px; margin: 16px 0; flex-wrap: wrap;">
   <a href="./kubernetes/" style="text-decoration: none; color: inherit; display: block;">
     <div class="hero-badge-card hero-badge-card--cyan">
-      <img src="images/kubernetes_logo.png" alt="Kubernetes"/>
+      <img src="/v2/images/kubernetes_logo.png" alt="Kubernetes"/>
       <div class="hero-badge-title">Ecosystem Core</div>
       <div class="hero-badge-subtitle">Explore Kubernetes</div>
     </div>
   </a>
   <a href="./ai-agents-mcp/" style="text-decoration: none; color: inherit; display: block;">
     <div class="hero-badge-card hero-badge-card--purple">
-      <img src="images/ai_agents_logo.png" alt="AI & MCP Agents"/>
+      <img src="/v2/images/ai_agents_logo.png" alt="AI & MCP Agents"/>
       <div class="hero-badge-title">AI & MCP Agents</div>
       <div class="hero-badge-subtitle">Agentic Ecosystem</div>
     </div>
   </a>
   <a href="./videos/" style="text-decoration: none; color: inherit; display: block;">
     <div class="hero-badge-card hero-badge-card--pink">
-      <img src="images/video_hub_logo.png" alt="Agentic Video Hub"/>
+      <img src="/v2/images/video_hub_logo.png" alt="Agentic Video Hub"/>
       <div class="hero-badge-title">Agentic Video Hub</div>
       <div class="hero-badge-subtitle">Architect Video Library</div>
     </div>
   </a>
   <a href="./introduction/" style="text-decoration: none; color: inherit; display: block;">
     <div class="hero-badge-card hero-badge-card--teal">
-      <img src="images/hero-car.png" alt="Nubenetes Car"/>
+      <img src="/v2/images/hero-car.png" alt="Nubenetes Car"/>
       <div class="hero-badge-title">Get Started</div>
       <div class="hero-badge-subtitle">Introduction Guide</div>
     </div>
@@ -64,7 +64,7 @@
     **Current Inventory Coverage:**
     - **V1 Base Inventory**: 18359 total resources analyzed.
     - **V2 Elite Selection**: 14190 candidates identified (77.29% density ratio).
-    - **AI Enrichment Coverage**: 2852 / 14190 (20.1%)
+    - **AI Enrichment Coverage**: 4499 / 14190 (31.71%)
     - **GitHub Metadata Coverage**: 1451 / 1763 (82.3%) - *Critical for Maturity Tagging*
     - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.
 

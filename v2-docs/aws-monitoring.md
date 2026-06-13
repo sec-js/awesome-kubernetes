@@ -5,7 +5,6 @@
 
 ## Standard Reference
 
-  - [threatstack.com: 50 Best AWS CloudWatch Tutorials](https://www.f5.com/company/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blogs.splunk.com: AWS Agility + Splunk Visibility = Customer Success](http://blogs.splunk.com/2016/06/22/aws-video)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github: Steps I used to install Nagios in the cloud](https://github.com/andrewpuch/nagios_setup)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github: ElectricEye](https://github.com/jonrau1/ElectricEye/blob/master/README.md) <span class='md-tag md-tag--info'>⭐ 1040</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -26,6 +25,13 @@
   - [Amazon Managed Service for Grafana](https://aws.amazon.com/grafana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: AWS Introduces Amazon Managed Service for Grafana and Amazon' Managed Service for Prometheus](https://www.infoq.com/news/2021/01/aws-grafana-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Observability
+
+### Cloud Monitoring
+
+#### AWS CloudWatch
+
+  - **(2020)** [threatstack.com: 50 Best AWS CloudWatch Tutorials](https://www.f5.com/company/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A collection of 50 advanced AWS CloudWatch monitoring tutorials. Teaches engineering fundamentals on custom dashboards, log insight queries, high-resolution metric alarms, and routing configurations.
 
 ---
 💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Public Cloud Solutions](./public-cloud-solutions.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)

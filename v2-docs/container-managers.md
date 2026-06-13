@@ -5,32 +5,6 @@
 
 ## Standard Reference
 
-  - [inovex.de: Welcome To The Container Jungle: Docker vs. containerd vs. Nabla vs. Kata vs. Firecracker and more! 🌟](https://www.inovex.de/de/blog/containers-docker-containerd-nabla-kata-firecracker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [thenewstack.io: Container Best Practices: What They Are and Why You Should Care](https://thenewstack.io/containers/container-best-practices-what-they-are-and-why-you-should-care)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [OCI: Open Container Initiative](https://opencontainers.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [scrivano.org: the journey to speed up running OCI containers](https://scrivano.org/posts/2022-10-21-the-journey-to-speed-up-oci-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Frakti](https://github.com/kubernetes-retired/frakti) <span class='md-tag md-tag--info'>⭐ 675</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Why Red Hat is investing in CRI-O and Podman](https://www.redhat.com/en/blog/why-red-hat-investing-cri-o-and-podman)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Libpod: Library and tool for running OCI-based containers in Pods](https://github.com/containers/podman) <span class='md-tag md-tag--info'>⭐ 31763</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — - Libpod is a library used to create container pods. Home of Podman.
-    - Libpod provides a library for applications looking to use the Container Pod concept, popularized by Kubernetes. Libpod also contains the Pod Manager tool (Podman). Podman manages pods, containers, container images, and container volumes.
-  - [Podman remote clients for macOS and Windows](https://www.redhat.com/en/blog/podman-clients-macos-windows)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhat.com: Using Podman and Docker Compose](https://www.redhat.com/en/blog/podman-docker-compose)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhat.com: From Docker Compose to Kubernetes with Podman](https://www.redhat.com/en/blog/compose-kubernetes-podman)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhat.com: How to replace Docker with Podman on a Mac](https://www.redhat.com/en/blog/replace-docker-podman-macos)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhat.com: Exploring the new Podman secret command 🌟](https://www.redhat.com/en/blog/new-podman-secrets-command)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhat.com: How to automate Podman installation and deployment using Ansible 🌟](https://www.redhat.com/en/blog/automate-podman-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhat.com: How to use auto-updates and rollbacks in Podman](https://www.redhat.com/en/blog/podman-auto-updates-rollbacks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - New auto-update capabilities enable you to use Podman in edge use cases, update workloads once they are connected to the network, and roll back failures to a known-good state.
-    - Podman: the best tool for running containers on the edge servers. On the edge you want no human intervention. Podman+systemd support auto-update of container image & rollback, when update fails.
-  - [crunchtools.com: Should I Use Docker Compose Or Podman Compose With Podman?](http://crunchtools.com/should-i-use-docker-compose-or-podman-compose-with-podman)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhat.com: Build Kubernetes pods with Podman play kube](https://www.redhat.com/en/blog/podman-play-kube-updates)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhat.com: How to replace Docker with Podman on a Mac, revisited](https://www.redhat.com/en/blog/replace-docker-podman-mac-revisited)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhat.com: Create fast, easy, and repeatable containers with Podman and shell scripts](https://www.redhat.com/en/blog/create-containers-podman-quickly)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhat.com: How to use Podman to get information about your containers](https://www.redhat.com/en/blog/container-information-podman)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhat.com: 5 Podman features to try now](https://www.redhat.com/en/blog/podman-features-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhat.com/sysadmin/quadlet-podman](https://www.redhat.com/en/blog/quadlet-podman)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Red Hat Ecosystem Catalog](https://catalog.redhat.com/en/software/containers/explore)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [How to use the --privileged flag with container engines](https://www.redhat.com/en/blog/privileged-flag-container-engines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Promoting container images between registries with skopeo](https://www.redhat.com/en/blog/promoting-container-images-between-registries-with-skopeo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cri-o.io](https://cri-o.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Podman and Buildah for Docker users 🌟](https://developers.redhat.com/blog/2019/02/21/podman-and-buildah-for-docker-users)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -91,21 +65,105 @@
   - [youtube: How to live without Docker for developers - Part 1 | Migration' from Docker to Buildah and Podman](https://www.youtube.com/watch?app=desktop&v=Fl0iLoAMdzc&ab_channel=AndrewMalkov)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Skopeo](https://github.com/containers/skopeo) <span class='md-tag md-tag--info'>⭐ 10891</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
+## Automation and Infrastructure
+
+### Configuration Management
+
+#### Podman Orchestration
+
+  - **(2022)** [**redhat.com: How to automate Podman installation and deployment using Ansible 🌟**](https://www.redhat.com/en/blog/automate-podman-ansible) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Demonstrates the declarative configuration and automation of Podman host environments using Ansible modules. Covers setting up user namespaces for rootless execution, deploying container workloads, and auto-generating systemd services. High value for platform operations teams managing edge systems or bare-metal clusters.
+## Container Technology
+
+### Containerization
+
+#### Best Practices
+
+  - **(2021)** [thenewstack.io: Container Best Practices: What They Are and Why You Should Care](https://thenewstack.io/containers/container-best-practices-what-they-are-and-why-you-should-care) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines foundational container building guidelines, highlighting the use of minimal parent images (e.g., alpine, distroless), strict utilization of multi-stage builds, and running runtime processes as non-root users. These simple practices significantly mitigate security attack surfaces. This guide serves as a great starting point for development teams transitioning to containerized pipelines.
+#### Security
+
+  - **(2022)** [**How to use the --privileged flag with container engines**](https://www.redhat.com/en/blog/privileged-flag-container-engines) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An informative security overview regarding the risks of using the '--privileged' flag in container runtimes. Explains how this bypasses critical kernel isolation layers and presents alternative approaches, such as mapping selective Linux capabilities ('--cap-add') or rootless configurations to limit potential container breakouts.
+### Daemonless Containerization
+
+#### Automation
+
+  - **(2021)** [redhat.com: Create fast, easy, and repeatable containers with Podman and shell scripts](https://www.redhat.com/en/blog/create-containers-podman-quickly) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical guide to wrapping Podman commands inside basic shell automation scripts to build repeatable and modular application runners. Emphasizes the lightweight nature of daemonless engines, showcasing that elaborate configurations can often be replaced by clean, low-dependency shell routines.
+#### Compatibility Layers
+
+  - **(2022)** [**redhat.com: Using Podman and Docker Compose**](https://www.redhat.com/en/blog/podman-docker-compose) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Walks through how to integrate Docker Compose configurations directly with Podman by leveraging Podman's API service socket. Offers a critical bridge for development teams with complex legacy Compose files who wish to transition to daemonless, rootless setups without rewriting their local deployment manifests.
+  - **(2021)** [crunchtools.com: Should I Use Docker Compose Or Podman Compose With Podman?](http://crunchtools.com/should-i-use-docker-compose-or-podman-compose-with-podman) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates the differences between the Python-implemented Podman Compose utility and native Docker Compose coupled with Podman's backend API socket. Analyzes compatibility, performance, and volume-mounting differences to help engineers decide on the best strategy for local multi-container composition.
+#### Edge and IoT
+
+  - **(2021)** [==redhat.com: How to use auto-updates and rollbacks in Podman==](https://www.redhat.com/en/blog/podman-auto-updates-rollbacks) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Examines Podman's automated container update mechanics integrated with systemd. If an updated OCI container fails a health check on boot, Podman automatically rolls back the instance to the previous stable state. This unique, low-overhead pattern is critical for managing autonomous edge deployments and zero-touch remote operations.
+#### Features Overview
+
+  - **(2021)** [redhat.com: 5 Podman features to try now](https://www.redhat.com/en/blog/podman-features-1) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights five lesser-known Podman features, including local directory mounting without starting a container, native systemd service auto-generation, and structural image signing validation. This serves as an excellent reference for engineers looking to utilize the full capabilities of daemonless container engines.
+#### Kubernetes Migration
+
+  - **(2022)** [**redhat.com: From Docker Compose to Kubernetes with Podman**](https://www.redhat.com/en/blog/compose-kubernetes-podman) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Demonstrates Podman's capability to read and generate native Kubernetes YAML files using 'podman play kube' and 'podman generate kube'. This integration allows developers to design and test multi-container pods locally on their workstation before shipping the identical manifest to a Kubernetes production environment.
+  - **(2022)** [**redhat.com: Build Kubernetes pods with Podman play kube**](https://www.redhat.com/en/blog/podman-play-kube-updates) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Discusses enhancements made to Podman's ability to ingest Kubernetes Pod, Deployment, and PersistentVolumeClaim YAML declarations. This capability allows developers to mock Kubernetes deployment scenarios locally using systemd-integrated Podman backends, accelerating local feedback cycles and lowering cloud resource costs.
+#### MacOS Setup
+
+  - **(2023)** [**redhat.com: How to replace Docker with Podman on a Mac, revisited**](https://www.redhat.com/en/blog/replace-docker-podman-mac-revisited) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Revisits macOS migrations to Podman, featuring optimizations to helper VMs, Rosetta 2 emulation for architecture transitions (x86/ARM), and enhanced volume sharing. These modifications simplify native Mac-based workflows, confirming Podman's status as a viable corporate tool for development teams.
+  - **(2021)** [redhat.com: How to replace Docker with Podman on a Mac](https://www.redhat.com/en/blog/replace-docker-podman-macos) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A step-by-step setup guide for configuring Podman on macOS platforms to replace proprietary desktop solutions. Details how to initiate the underlying Linux VM helper, map CLI aliases, and run basic rootless OCI images. Essential onboarding documentation for development teams migrating to open-source developer environments.
+#### Observability
+
+  - **(2021)** [redhat.com: How to use Podman to get information about your containers](https://www.redhat.com/en/blog/container-information-podman) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how to use Podman diagnostic commands to inspect, log, and monitor containers. Focuses on filtering metadata arrays to verify port configurations, network bindings, and systemd hooks. Useful reference for systems administrators debugging rootless container deployments.
+#### Podman
+
+  - **(2026)** [==Libpod: Library and tool for running OCI-based containers in Pods==](https://github.com/containers/podman) <span class='md-tag md-tag--info'>⭐ 31763</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Libpod is the underlying library that hosts the Podman container management tool, enabling daemonless and rootless execution of OCI-compliant pods and containers. It brings Kubernetes pod primitives down to local workstations. In 2026, Podman remains the standard tool for local container manipulation on modern enterprise distributions.
+#### Podman Ecosystem
+
+  - **(2021)** [Podman remote clients for macOS and Windows](https://www.redhat.com/en/blog/podman-clients-macos-windows) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the architecture of remote Podman clients on macOS and Windows, which allow developers to manage containers running inside a localized Linux virtual machine. Leverages a secure REST API client configuration to bridge non-Linux developer hosts with backend container workloads without needing background system daemons.
+#### Security (1)
+
+  - **(2021)** [**redhat.com: Exploring the new Podman secret command 🌟**](https://www.redhat.com/en/blog/new-podman-secrets-command) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Explores the Podman secrets API, enabling developers to declare and manage secrets locally without embedding sensitive values inside container layers or environment variables. Highlights Podman's architectural security posture by isolating secret storage within the user's home directory structures, aligning developer practices with production container security standards.
+#### Systemd Integration
+
+  - **(2023)** [==redhat.com/sysadmin/quadlet-podman==](https://www.redhat.com/en/blog/quadlet-podman) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A detailed analysis of Quadlet, a tool within the Podman ecosystem that simplifies running containers under systemd. Instead of writing verbose systemd files, Quadlet parses simple configuration declarations to automatically create native services. This pattern is the gold standard for managing rootless container lifecycles in production Linux systems.
+### Image Management
+
+#### Skopeo
+
+  - **(2022)** [==Promoting container images between registries with skopeo==](https://www.redhat.com/en/blog/promoting-container-images-between-registries-with-skopeo) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A technical guide to utilizing Skopeo, a specialized utility designed for querying, copying, and signing container images directly across remote registries without needing local downloads or docker daemon engines. Skopeo is widely used in enterprise CI/CD pipelines to promote container images between registries with minimal latency and network overhead.
+### Registries and Catalogs
+
+#### Enterprise Repositories
+
+  - **(2026)** [**Red Hat Ecosystem Catalog**](https://catalog.redhat.com/en/software/containers/explore) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The Red Hat Ecosystem Catalog provides vetted, secure, and optimized enterprise container images. This platform allows enterprise teams to secure their base image software supply chain by sourcing artifacts that undergo regular vulnerability scans and performance verification on Red Hat Enterprise Linux and OpenShift platforms.
+### Runtimes
+
+#### CRI-O and Podman Ecosystem
+
+  - **(2022)** [**Why Red Hat is investing in CRI-O and Podman**](https://www.redhat.com/en/blog/why-red-hat-investing-cri-o-and-podman) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A strategic and technical explanation of Red Hat's investment in CRI-O as a Kubernetes-dedicated runtime, alongside Podman as a daemonless utility for local developer environments. Highlights the performance, stability, and security enhancements achieved by breaking away from the monolithic Docker daemon. This transition established the modern open-source container runtime standard.
+#### Comparison and Architecture
+
+  - **(2021)** [==inovex.de: Welcome To The Container Jungle: Docker vs. containerd vs. Nabla vs. Kata vs. Firecracker and more! 🌟==](https://www.inovex.de/de/blog/containers-docker-containerd-nabla-kata-firecracker) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A classic, comprehensive deep-dive comparing the design of traditional container runtimes (Docker, containerd) with microVM virtualization engines (Firecracker, Kata Containers) and sandboxed runtimes (Nabla). It evaluates trade-offs regarding startup speed, memory footprints, and multi-tenant security isolation. Highly referenced by platform architects as the definitive overview of runtime mechanics.
+#### Legacy Adapters
+
+  - **(2020)** [Frakti](https://github.com/kubernetes-retired/frakti) <span class='md-tag md-tag--info'>⭐ 675</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Critical Live Grounding: Frakti was built as a hypervisor-based Container Runtime Interface (CRI) for Kubernetes to execute runtimes like Kata Containers directly. This repository has been officially retired and archived by the Kubernetes organization. Contemporary architectures use direct runtime engine integrations via containerd and CRI-O, rendering Frakti legacy.
+#### Performance Tuning
+
+  - **(2022)** [**scrivano.org: the journey to speed up running OCI containers**](https://scrivano.org/posts/2022-10-21-the-journey-to-speed-up-oci-containers) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Chronicles the optimization journey taken to boost the instantiation speed of OCI-compliant containers. Focuses on file system overheads, image layer parsing, and low-level improvements inside container runtime layers. In 2026, these efforts are reflected in advanced image pulling techniques like eStargz and overlay-aware storage drivers.
+### Standards
+
+#### Open Container Initiative
+
+  - **(2026)** [==OCI: Open Container Initiative==](https://opencontainers.org) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The home of the Open Container Initiative (OCI), standardizing industry specifications for container image layouts and runtime execution behaviors. This standard ensures interoperability and prevents vendor lock-in across the modern cloud-native landscape. In 2026, compliance with OCI specifications remains mandatory for every production-ready orchestrator and runtime.
 ## DevSecOps
 
 ### CICD Pipeline Security
 
-#### Podman
+#### Podman (1)
 
   - [Build trusted pipelines/Guards with Podman containers](https://www.redhat.com/en/blog/using-container-technology-make-trusted-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Evaluates strategies for building rootless, secure continuous integration pipelines using Red Hat's Podman. Contrasts Podman's daemonless security with Docker's privileged execution models to prevent pipeline takeover attacks.
 ## Infrastructure
 
-### Containerization
+### Containerization (1)
 
 #### Kernel Internals
 
   - [Controlling Process Resources with Linux Control Groups (cgroups)](https://labs.iximiuz.com/tutorials/controlling-process-resources-with-cgroups) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A deep, interactive laboratory walk-through demonstrating how Linux Control Groups (cgroups) throttle and isolate system resources. Crucial baseline knowledge for understanding container limits in Kubernetes.
-## Observability
+## Observability (1)
 
 ### Logging
 

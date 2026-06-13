@@ -6,29 +6,12 @@
 ## Standard Reference
 
   - [NoSQL vs. SQL: Choosing a Data Management Solution](http://www.javacodegeeks.com/2015/10/nosql-vs-sql.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [NoSQL Guide, by Martin Fowler](http://martinfowler.com/nosql.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Diferencias entre SQL y NoSQL ¿Sabes cuál usar?](http://www.facilcloud.com/noticias/?p=1294&lang=es_ES)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [zdnet.com: SQL, NoSQL? What's the difference these days?](http://www.zdnet.com/article/sql-nosql-whats-the-difference-these-days)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [NoSQL Databases: 4 Game-Changing Use Cases](http://www.smartdatacollective.com/kingmesal/373466/nosql-databases-4-game-changing-use-cases)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.couchbase.com podcast: NoSQL in the Perspective of Industry Leaders](http://blog.couchbase.com/2016/january/nosql-in-the-perspective-of-industry-leaders)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [MongoDB Tools - Admin GUIs, Monitoring and Other Good Stuff](http://mongodb-tools.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.mongodirector.com: Which is the best MongoDB GUI?](http://blog.mongodirector.com/which-is-the-best-mongodb-gui)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [mongodirector: MongoDB Hosting](http://mongodirector.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [MongoDB security tutorial](https://www.mongodb.com/docs/manual/security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [MongoDB Tutorial – A Scalable NoSQL DB](http://www.javacodegeeks.com/2015/09/mongodb-a-scalable-nosql-db.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [MongoDB Cloud Manager](https://www.youtube.com/watch?v=bB57HKeOvmw&feature=youtu.be)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [3T MongoChef – Your New MongoDB GUI](http://3t.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [Connecting to your MongoDB at MongoLab](http://3t.io/blog/how-to-connect-to-mongolab)
-  - [MongoDB and Kubernetes 🌟](https://www.mongodb.com/products/integrations/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Couchdb.apache.org](http://couchdb.apache.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Cassandra.apache.org](http://cassandra.apache.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [solo.io: Step by Step: Datastax Cassandra with Istio and SNI routing](https://www.solo.io/blog/step-by-step-datastax-cassandra-with-istio-and-sni-routing) Connecting applications running outside of the Kubernetes cluster to the Cassandra database running inside the cluster.
-    - [engineeringblog.yelp.com: Orchestrating Cassandra on Kubernetes with Operators](https://engineeringblog.yelp.com/2020/11/orchestrating-cassandra-on-kubernetes-with-operators.html)
-    - [datastax.com: Apache Cassandra 4.0 is Now Delivered Via K8ssandra on Amazon EKS](https://www.ibm.com/products/datastax)
-    - [foojay.io: K8ssandra Performance Benchmarks on Cloud Managed Kubernetes](https://foojay.io/today/k8ssandra-performance-benchmarks-on-cloud-managed-kubernetes)
-    - [thenewstack.io: How to Run a Cassandra Operation in Docker](https://thenewstack.io/how-to-run-a-cassandra-operation-in-docker)
-  - [HBase.apache.org](http://hbase.apache.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [rethinkdb.com](http://rethinkdb.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [NuoDB, elastically scalable database. A revolution compared to traditional monolithic 1-box databases. NuoDB is ACID,SQL, distributed/scalable and support flexible schemas](http://www.nuodb.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Traditional database replication drawbacks](http://www.nuodb.com/blog/replication-is-it-easy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [NoSQL - Wikipedia](https://en.wikipedia.org/wiki/NoSQL)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Youtube: Introduction to NoSQL by Martin Fowler](https://www.youtube.com/watch?v=qI_g07C_Q5I)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thoughtworks.com: NoSQL Databases, an overview](https://www.thoughtworks.com/insights/blog/nosql-databases-overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -61,6 +44,37 @@
   - [dzone: SQL Syntax for Apache Drill](https://dzone.com/refcardz/sql-syntax-for-apache-drill)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com: A chance for NewSQL databases](https://medium.com/packlinkeng/a-chance-for-newsql-databases-3bba18fea6a1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Data Architecture
+
+### Databases
+
+#### Design
+
+  - **(2018)** [Traditional database replication drawbacks](http://www.nuodb.com/blog/replication-is-it-easy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: Technical blog analysis examining the underlying challenges of traditional database replication models. Examines write-scaling limitations, master-slave lag, split-brain scenarios, and the design shifts of NewSQL databases.
+#### Kubernetes
+
+  - **(2026)** [MongoDB and Kubernetes 🌟](https://www.mongodb.com/products/integrations/kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: Focuses on the official MongoDB Enterprise Kubernetes Operator. Standardizes the automation of MongoDB multi-node replica sets, sharded cluster topologies, and integrated storage configuration inside Kubernetes.
+#### Monitoring
+
+  - **(2020)** [MongoDB Cloud Manager](https://www.youtube.com/watch?v=bB57HKeOvmw&feature=youtu.be)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight / Live Grounding: Overview of MongoDB Cloud Manager, an automation and monitoring system for self-hosted MongoDB instances. Enables operational automation of deployments, rolling upgrades, granular alert triggers, and continuous backup infrastructure.
+#### NewSQL
+
+  - **(2025)** [NuoDB, elastically scalable database. A revolution compared to traditional monolithic 1-box databases. NuoDB is ACID,SQL, distributed/scalable and support flexible schemas](http://www.nuodb.com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: Features NuoDB, an elastic, cloud-native distributed SQL database. Decouples processing and storage engines to deliver high-performance transaction scaling, elastic resource tuning, and strict ACID SQL enforcement.
+#### NoSQL
+
+  - **(2026)** [Couchdb.apache.org](http://couchdb.apache.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: Project homepage of Apache CouchDB, an open-source, schema-free document database using JSON for data storage, JavaScript for MapReduce views, and HTTP/RESTful APIs. Famed for its robust sync protocol.
+  - **(2026)** [Cassandra.apache.org](http://cassandra.apache.org) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: Focuses on Apache Cassandra, a wide-column NoSQL database engine designed for high throughput and linear scaling. Features modern cloud deployments utilizing K8ssandra operators and SNI routing via Istio.
+  - **(2026)** [HBase.apache.org](http://hbase.apache.org) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: Technical introduction to Apache HBase, a distributed column-oriented database running on HDFS. It is engineered for low-latency, random access to petabytes of sparse tabular datasets.
+  - **(2024)** [rethinkdb.com](http://rethinkdb.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: Project homepage for RethinkDB, an open-source distributed document database that supports real-time push architectures. Although corporate backing ended, it remains maintained as a community project.
+  - **(2021)** [zdnet.com: SQL, NoSQL? What's the difference these days?](http://www.zdnet.com/article/sql-nosql-whats-the-difference-these-days)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: Examines the modern convergence of traditional relational databases and NoSQL systems. Explores how standard SQL platforms support JSON types, and how modern NoSQL databases offer multi-document ACID transactions, blurring traditional data storage boundaries.
+  - **(2018)** [MongoDB Tools - Admin GUIs, Monitoring and Other Good Stuff](http://mongodb-tools.com)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight / Live Grounding: A curated registry of legacy and modern MongoDB administration GUIs and monitoring tools. Note: Many independent tools listed here have transitioned to legacy status as modern enterprise setups standardize on MongoDB Atlas and Compass.
+  - **(2012)** [NoSQL Guide, by Martin Fowler](http://martinfowler.com/nosql.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight / Live Grounding: Martin Fowler's classic architectural overview defining the emergence of NoSQL persistence systems. Introduces core concepts of polyglot persistence, aggregate orientation, and the trade-offs between ACID guarantees and the BASE consistency model across document, graph, and column family databases.
+#### Security
+
+  - **(2026)** [MongoDB security tutorial](https://www.mongodb.com/docs/manual/security) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: Technical reference manual details enterprise security practices for MongoDB deployment. Covers authentication mechanisms (SCRAM, Kerberos, x.509 certificates), Role-Based Access Control (RBAC), network encryption via TLS, and auditing workflows.
+#### Tooling
+
+  - **(2023)** [3T MongoChef – Your New MongoDB GUI](http://3t.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: Features Studio 3T (formerly MongoChef), a professional IDE and GUI for MongoDB. Highlights its schema analysis capability, visual query builder, SQL-to-JSON translation, and direct migration connections for MongoLab/Atlas.
 ## Data Engineering
 
 ### In-Memory Databases

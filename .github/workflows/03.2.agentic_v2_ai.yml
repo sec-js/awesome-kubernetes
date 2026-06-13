@@ -1,6 +1,16 @@
 name: 03.2. V2 AI Curator
 
 on:
+  push:
+    branches:
+      - develop
+    paths:
+      - 'data/inventory.yaml'
+  workflow_run:
+    workflows: ["03.1. V2 Metadata Engine"]
+    branches: [develop]
+    types:
+      - completed
   workflow_dispatch:
     inputs:
       force_reevaluate:
@@ -18,12 +28,15 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: v2-ai-${{ github.ref }}
-  cancel-in-progress: true
+  group: v2-pipeline-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   run-ai:
     runs-on: ubuntu-latest
+    if: |
+      github.event_name != 'workflow_run' || 
+      github.event.workflow_run.conclusion == 'success'
     steps:
       - name: Repository Synchronization
         uses: actions/checkout@v6
@@ -67,7 +80,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes in AI analysis to commit."
           else
-            git commit -m "chore: update inventory AI analysis [skip ci]"
+            git commit -m "chore: update inventory AI analysis"
             git pull origin develop --rebase
             git push origin develop
           fi

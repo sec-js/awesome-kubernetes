@@ -5,30 +5,7 @@
 
 ## Standard Reference
 
-  - [status.aws.amazon.com: Service Health Dashboard](https://health.aws.amazon.com/health/status)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Knowledge Center](https://aws.amazon.com/premiumsupport/knowledge-center)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [AWS Glossary](http://docs.aws.amazon.com/general/latest/gr/glos-chap.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [AWS Support](https://aws.amazon.com/premiumsupport)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [slideshare.net/AmazonWebServices](http://www.slideshare.net/AmazonWebServices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [AWS 10-Minute Tutorials](https://aws.amazon.com/getting-started/hands-on)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [How do I create and activate a new Amazon Web Services account?](https://repost.aws/knowledge-center/create-and-activate-aws-account)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [AWS Activate](https://aws.amazon.com/startups)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [acloudguru.com: The Cloud Dictionary of Pain: Five Of AWS’s Toughest Cloud Topics](https://www.pluralsight.com/resources/blog/cloud/the-cloud-dictionary-of-pain-five-of-awss-toughest-cloud-topics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [acloudguru.com: 12 AWS Config rules that every account should have](https://www.pluralsight.com/resources/blog/cloud/12-aws-config-rules-that-every-account-should-have)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [What is Streaming Data?](https://aws.amazon.com/what-is/streaming-data)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [infoworld.com: Amazon’s quiet open source revolution](https://www.infoworld.com/article/2338356/amazon-s-quiet-open-source-revolution.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [k21academy.com: AWS Application Services: Lambda, SES, SNS, SQS, SWF](https://k21academy.com/aws-cloud/aws-application-services)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [workshops.aws: AWS Workshops](https://builder.aws.com/build/workshops?trk=265ae1c7-2dfc-44c6-bc73-a4d991b8bd7f&sc_channel=el)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [twitter.com/awscloud](https://x.com/awscloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [twitter.com/AWSreInvent](https://x.com/AWSreInvent)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [twitter.com/jeffbarr](https://x.com/jeffbarr)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [twitter.com/AWSstartups](https://x.com/AWSstartups)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [twitter.com/AWS_Partners](https://x.com/AWS_Partners)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Stitcher AWS Podcasts](http://www.stitcher.com/podcast/amazon-web-services/aws-podcast)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Create an API Using the Swagger Specification and the API Gateway Extensions](http://docs.aws.amazon.com/apigateway/latest/developerguide/create-api-using-import-export-api.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Working with the AWS Management Console](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [AWS Cloud Adoption Framework (AWS CAF)](https://aws.amazon.com/cloud-adoption-framework)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Convert AWS console actions to reusable code with AWS Console-to-Code, now generally available](https://aws.amazon.com/blogs/aws/convert-aws-console-actions-to-reusable-code-with-aws-console-to-code-now-generally-available/?trk=0d3532c8-5f49-4c86-9683-96c2417e9b4b&sc_channel=el)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Awesome AWS 🌟](https://github.com/donnemartin/awesome-aws) <span class='md-tag md-tag--info'>⭐ 14033</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [Introducing Kiro: AWS Agentic AI-Based IDE](https://markrosscloud.medium.com/introducing-kiro-aws-agentic-ai-based-ide-cded711b1409)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [docs.aws.amazon.com: Actions, resources, and condition keys for AWS services' 🌟🌟🌟](https://docs.aws.amazon.com/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -121,13 +98,100 @@
 #### AWS Organizations
 
   - [AWS Organizations: The Key to Managing Your Cloud Infrastructure Effectively](https://awsfundamentals.com/blog/aws-organizations-the-key-to-managing-your-cloud-infrastructure-effectively)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly clear exploration of AWS Organizations, dissecting organizational units (OUs), Service Control Policies (SCPs), and account hierarchy. Grounding shows it serves as a fundamental training material for cloud administrators establishing multi-account safety structures.
+## Cloud Infrastructure
+
+### AWS Ecosystem
+
+#### Audio Learning
+
+  - **(2026)** [Stitcher AWS Podcasts](http://www.stitcher.com/podcast/amazon-web-services/aws-podcast)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Stitcher repository hosting the AWS Podcast network. Features architectural retrospectives, engineering deep-dives, and service evolution analyses presented by active cloud product managers.
+#### Open Source Strategy
+
+  - **(2026)** [infoworld.com: Amazon’s quiet open source revolution](https://www.infoworld.com/article/2338356/amazon-s-quiet-open-source-revolution.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical exploration detailing AWS's transition from open-source software consumer to an active co-developer and primary maintainer. Discusses strategic projects like OpenSearch and Valkey, examining the structural tension and evolving relationships between public clouds and software vendors.
+#### Presentation Resources
+
+  - **(2026)** [slideshare.net/AmazonWebServices](http://www.slideshare.net/AmazonWebServices) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — AWS SlideShare platform resource aggregating architectural blueprints, slide decks, and high-impact event summaries. While SlideShare represents a legacy presentation vector, it serves as a historic archive for tracking AWS service launch topologies and historical enterprise cloud migration case studies.
+#### Social Channels
+
+  - **(2026)** [twitter.com/awscloud](https://x.com/awscloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official AWS communication broadcast feed utilized for instant notification of novel system capabilities, security alerts, and broad strategic initiatives across the AWS global infrastructure.
+  - **(2026)** [twitter.com/AWSreInvent](https://x.com/AWSreInvent)  <span class='md-tag md-tag--warning'>[EMERGING]</span> — Targeted social broadcast hub cataloging major releases, technical breakout session highlights, and real-time architectural reveals emerging from the annual AWS re:Invent technology conference.
+  - **(2026)** [twitter.com/jeffbarr](https://x.com/jeffbarr)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Social feed of AWS Chief Evangelist Jeff Barr. Serves as a high-density channel supplying core architectural context, feature releases, and developer-focused service insights.
+  - **(2026)** [twitter.com/AWSstartups](https://x.com/AWSstartups)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Targeted channel broadcasting AWS architectural optimizations, funding, and growth accelerators tailored specifically for high-velocity startup infrastructure teams.
+  - **(2026)** [twitter.com/AWS_Partners](https://x.com/AWS_Partners)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AWS Partner Network channel presenting compliance benchmarks, MSP programs, system integrator partnerships, and cloud consulting framework updates.
+#### Startup Enablement
+
+  - **(2026)** [AWS Activate](https://aws.amazon.com/startups)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AWS Activate platform framework delivering technical resources, infrastructure credits, and active mentorship pathways to startup founders. Promotes rapid prototyping by offloading cloud infrastructure costs and supplying pre-configured template architectures.
+### AWS Services
+
+#### Hands-on Tutorials
+
+  - **(2026)** [AWS 10-Minute Tutorials](https://aws.amazon.com/getting-started/hands-on)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An onboarding portal featuring bite-sized, 10-minute technical exercises across core services (EC2, S3, RDS). These tutorials utilize guided steps to help engineers rapidly spin up cloud resources while demonstrating fundamental networking, security, and storage architecture patterns.
+#### Interactive Learning
+
+  - **(2026)** [workshops.aws: AWS Workshops](https://builder.aws.com/build/workshops?trk=265ae1c7-2dfc-44c6-bc73-a4d991b8bd7f&sc_channel=el)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AWS-designed workshop aggregator offering deep, interactive labs on advanced engineering themes. Topics span Elastic Kubernetes Service (EKS) design, serverless microservices pipelines, security automation, and native database configurations under realistic operational profiles.
+#### Management Tools
+
+  - **(2026)** [Working with the AWS Management Console](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reference manual outlining browser-based navigation and administrative management via the AWS Management Console. Focuses on IAM session configuration, visual resource tracking, and dashboard personalization.
+### Application Integration
+
+#### API Management
+
+  - **(2026)** [Create an API Using the Swagger Specification and the API Gateway Extensions](http://docs.aws.amazon.com/apigateway/latest/developerguide/create-api-using-import-export-api.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A core developer guide illustrating how to design, build, and deploy high-performance endpoints in Amazon API Gateway using OpenAPI/Swagger specs. Details custom AWS extensions for integrating REST interfaces with backend Lambda and VPC endpoints.
+#### Serverless Services
+
+  - **(2026)** [k21academy.com: AWS Application Services: Lambda, SES, SNS, SQS, SWF](https://k21academy.com/aws-cloud/aws-application-services)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Technical review of AWS's modular application integration portfolio. Contrasts serverless compute (Lambda) with asynchronous message queues (SQS), publish-subscribe event routing (SNS), programmatically orchestrated state workflows (SWF/Step Functions), and secure outbound transaction messaging (SES).
+### Compliance and Governance
+
+#### AWS Config
+
+  - **(2026)** [acloudguru.com: 12 AWS Config rules that every account should have](https://www.pluralsight.com/resources/blog/cloud/12-aws-config-rules-that-every-account-should-have)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference guide identifying 12 essential AWS Config rules required to establish enterprise compliance baselines. Focuses on declarative drift detection including mandatory MFA enforcement, S3 block public access configurations, and unattached volume cleanup.
+### Enterprise Migration
+
+#### Frameworks
+
+  - **(2026)** [AWS Cloud Adoption Framework (AWS CAF)](https://aws.amazon.com/cloud-adoption-framework) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The AWS Cloud Adoption Framework (AWS CAF) defines a structured architectural approach to enterprise cloud migration. Evaluates six primary organizational perspectives to securely de-risk large-scale cloud transformations.
+### Identity and Access
+
+#### Account Administration
+
+  - **(2026)** [How do I create and activate a new Amazon Web Services account?](https://repost.aws/knowledge-center/create-and-activate-aws-account) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AWS Knowledge Center guide outlining the prerequisite multi-step verification, billing enablement, and security configurations required to bootstrap a brand-new AWS root account. Explains the foundational processes necessary to activate core global regions safely.
+### Infrastructure as Code
+
+#### AWS CLI
+
+  - **(2026)** [Convert AWS console actions to reusable code with AWS Console-to-Code, now generally available](https://aws.amazon.com/blogs/aws/convert-aws-console-actions-to-reusable-code-with-aws-console-to-code-now-generally-available/?trk=0d3532c8-5f49-4c86-9683-96c2417e9b4b&sc_channel=el) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the GA release of AWS Console-to-Code. This utility records visual, interactive browser actions within the AWS Console and programmatically translates them into clean, reusable Infrastructure-as-Code (IaC) formats, such as AWS CDK and CloudFormation, using generative AI models.
+### Troubleshooting
+
+#### DevOps Challenges
+
+  - **(2026)** [acloudguru.com: The Cloud Dictionary of Pain: Five Of AWS’s Toughest Cloud Topics](https://www.pluralsight.com/resources/blog/cloud/the-cloud-dictionary-of-pain-five-of-awss-toughest-cloud-topics) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive technical overview evaluating complex AWS configurations, pinpointing notorious friction points such as IAM policy composition, KMS key management, AWS Billing structures, and hybrid VPC peering. Provides architectural guidance to bypass structural anti-patterns.
+## Cloud Providers
+
+### AWS
+
+#### Documentation
+
+  - **(2006)** [AWS Glossary](http://docs.aws.amazon.com/general/latest/gr/glos-chap.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official reference guide compiling definitions of all key AWS vocabulary, services, and structural acronyms, ensuring team-wide alignment when designing cloud environments.
+#### Operations
+
+  - **(2008)** [AWS Support](https://aws.amazon.com/premiumsupport) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed directory of AWS premium tier services, offering technical case routing, cloud guidance, and access to Trusted Advisor tools to maintain cluster health and SLA commitments.
+#### Status Monitoring
+
+  - **(2006)** [status.aws.amazon.com: Service Health Dashboard](https://health.aws.amazon.com/health/status) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AWS’s central status console reporting operational health of active regions and services, allowing platform engineers to quickly cross-examine deployment anomalies with provider incidents.
+## Data Engineering
+
+### Streaming Data
+
+#### Architectural Concepts
+
+  - **(2026)** [What is Streaming Data?](https://aws.amazon.com/what-is/streaming-data)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS conceptual guide delineating the architecture of real-time streaming data pipelines. Compares high-throughput, sequential processing mechanisms against traditional batch structures, referencing Amazon Kinesis and Apache Kafka as key streaming backplanes.
 ## Platform Engineering
 
-### Infrastructure as Code
+### Infrastructure as Code (1)
 
 #### GitHub Actions Runners
 
-##### AWS
+##### AWS (1)
 
   - [RunsOn: Self-hosted GitHub Actions Runners in AWS](https://runs-on.com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A commercial-grade, highly efficient solution for hosting ephemeral, auto-scaled GitHub Actions runners directly on your AWS account. Delivers a significant reduction in GitHub Actions spend (up to 10x) using cheap EC2 spot instances, fast cache persistence, and seamless setup.
 

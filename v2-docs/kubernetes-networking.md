@@ -5,29 +5,6 @@
 
 ## Standard Reference
 
-  - [Monitoring jenkins using instana](https://www.ibm.com/think)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [thenewstack.io: Kubernetes is the Accepted Platform for Cloud Native Computing](https://thenewstack.io/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ovh.com - getting external traffic into kubernetes: clusterip, nodeport, loadbalancer and ingress](https://blog.ovhcloud.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [containo.us: Kubernetes Ingress & Service API Demystified](https://traefik.io/blog/kubernetes-ingress-service-api-demystified)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [devclass.com: HAProxy Ingress Controller 1.5 introduces mTLS support, gives load balancing experts more power](https://www.devclass.com/containers/2021/01/26/haproxy-ingress-controller-15-introduces-mtls-support-gives-load-balancing-experts-more-power/1619777)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [getenroute.io: Drive API Security At Kubernetes Ingress Using Helm And Envoy 🌟](https://docs.getenroute.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [openshift.com: gRPC or HTTP/2 Ingress Connectivity in OpenShift 🌟](https://www.redhat.com/en/blog/grpc-or-http/2-ingress-connectivity-in-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [searchitoperations.techtarget.com: Differences between Kubernetes Ingress vs. load balancer](https://www.techtarget.com/searchitoperations/feature/Differences-between-Kubernetes-Ingress-vs-load-balancer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloud.redhat.com: Global Load Balancer Approaches 🌟](https://www.redhat.com/en/blog/global-load-balancer-approaches)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [loft.sh: Kubernetes NGINX Ingress: 10 Useful Configuration Options 🌟](https://www.vcluster.com/blog/kubernetes-nginx-ingress)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [learnk8s.io: Tracing the path of network traffic in Kubernetes 🌟](https://learnkube.com/kubernetes-network-packets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.palark.com: Comparing Ingress controllers for Kubernetes](https://palark.com/blog/comparing-ingress-controllers-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [sysdig.com: Kubernetes Services: ClusterIP, Nodeport and LoadBalancer](https://www.sysdig.com/blog/kubernetes-services-clusterip-nodeport-loadbalancer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [otterize.com: Mastering Kubernetes networking: A journey in cloud-native packet management](https://www.cyera.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [editor.cilium.io 🌟🌟🌟](https://editor.networkpolicy.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [openshift.com: Network Policies: Controlling Cross-Project Communication on OpenShift](https://www.redhat.com/en/blog/network-policies-controlling-cross-project-communication-on-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [loft.sh: Kubernetes Network Policies: A Practitioner's Guide 🌟](https://www.vcluster.com/blog/kubernetes-network-policies-a-practitioners-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [loft.sh: Kubernetes Network Policies for Isolating Namespaces 🌟](https://www.vcluster.com/blog/kubernetes-network-policies-for-isolating-namespaces)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [buoyant.io: Kubernetes network policies with Cilium and Linkerd](https://www.buoyant.io/blog/kubernetes-network-policies-with-cilium-and-linkerd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [fusionlayer.com: Software-Defined IP Address Management (IPAM)](https://www.fusionlayer.com/products/infinity)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - Cloud computing and service automation are changing the way in which applications and data are being delivered and consumed. The existing 30-year-old networking model is failing to keep up with the automated service architectures and the Internet of Things (IoT) based on end-to-end automation.
-    - **To facilitate the migration to cloud-era computing, service providers and data centers must add networking into the automated service workflows.** This requires agility and elasticity that traditional networking products are not designed to provide. As IT environments of tomorrow involve a plethora of orchestrators and controllers spinning up services and applications inside shared networks, they all must be managed and provisioned by a unified solution authoritative for all network-related information.
-  - [Flannel](https://github.com/flannel-io/flannel) <span class='md-tag md-tag--info'>⭐ 9454</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — - [Weave-net](https://www.weave.works/)
-  - [sysdig.com: How to monitor coreDNS 🌟](https://www.sysdig.com/blog/how-to-monitor-coredns)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kubernetes Gateway API](https://github.com/kubernetes-sigs/gateway-api) <span class='md-tag md-tag--info'>⭐ 2861</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [InGate: Ingress & Gateway API Controller (Archived)](https://github.com/kubernetes-sigs/ingate) <span class='md-tag md-tag--info'>⭐ 731</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Introduction to Azure Application Gateway for Containers (AGC)](https://blog.cloudtrooper.net/2025/02/28/application-gateway-for-containers-a-not-so-gentle-intro-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -234,9 +211,18 @@
 #### Networking
 
   - [cilium.io](https://cilium.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An eBPF-powered open-source project that provides high-performance, secure, and observable networking, load balancing, and network security for Kubernetes workloads. Cilium is widely adopted by enterprise platforms due to its scale capabilities and granular L3-L7 policy controls.
-## Cloud Native Infrastructure
+## Cloud Native
 
 ### Networking (1)
+
+#### Kubernetes (1)
+
+##### Ingress Controllers
+
+  - **(2022)** [ovh.com - getting external traffic into kubernetes: clusterip, nodeport, loadbalancer and ingress](https://blog.ovhcloud.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep conceptual dive comparing methods to route traffic into a Kubernetes cluster. Details ClusterIP (internal), NodePort (static port mapping), LoadBalancer (provider cloud ingress integration), and Ingress Controllers (routing based on HTTP paths/host headers), evaluating performance trade-offs.
+## Cloud Native Infrastructure
+
+### Networking (2)
 
 #### Egress Traffic Control
 
@@ -250,13 +236,98 @@
 #### Network Policies
 
   - [blog.nody.cc: Verify your Kubernetes Cluster Network Policies: From Faith' to Proof](https://blog.nody.cc/posts/2020-06-kubernetes-network-policy-verification) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines a methodology to empirically test and verify active Kubernetes Network Policies. Details the usage of programmatic probes to transition network security evaluation from abstract policy syntax configurations to verifiable network boundaries.
-## Networking (2)
+## Networking (3)
 
-### Ingress Controllers
+### CNI
+
+#### Calico
+
+  - **(2020)** [**thenewstack.io: Tigera's Calico Aims to Ease Connectivity Pain with Kubernetes**](https://thenewstack.io/kubernetes) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Covers Tigera Calico's core value proposition of delivering flexible, secure CNI capabilities for Kubernetes environments. It contrasts Calico's IP-in-IP and BGP routing modes with standard encapsulation overlays, providing optimal performance. Integrates advanced security policy engines capable of running in both Kubernetes and hybrid virtualized clusters.
+#### Flannel
+
+  - **(2025)** [==Flannel==](https://github.com/flannel-io/flannel) <span class='md-tag md-tag--info'>⭐ 9454</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Flannel is a highly stable, lightweight Layer 3 network fabric designed specifically for Kubernetes. It runs a simple agent on each host to allocate subnet leases, supporting backends like VXLAN, host-gw, and UDP. While lacking advanced L7 policy capabilities, its extreme simplicity makes it a favorite for bootstrapping lightweight development and bare-metal environments.
+### DNS
+
+#### Monitoring
+
+  - **(2021)** [**sysdig.com: How to monitor coreDNS 🌟**](https://www.sysdig.com/blog/how-to-monitor-coredns) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Illustrates methods for monitoring CoreDNS performance within Kubernetes clusters using Prometheus metrics. Focuses on critical golden signals like request rate, latency, packet dropouts, and cache hit/miss ratios. Essential for preventing cluster-wide DNS exhaustion bottlenecks which can degrade microservice lookup times.
+### IPAM
+
+#### Automated Workflows
+
+  - **(2023)** [fusionlayer.com: Software-Defined IP Address Management (IPAM)](https://www.fusionlayer.com/products/infinity) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — FusionLayer Infinity provides centralized Software-Defined IP Address Management (IPAM) tailored for modern cloud networks and multi-orchestrator environments. It automates network and IP provisioning across distributed container infrastructures and edge data centers. This mitigates IP exhaustion and overlapping CIDR conflicts while bridging legacy networks with automated Kubernetes workloads.
+### Ingress
 
 #### Comparison
 
+  - **(2021)** [blog.palark.com: Comparing Ingress controllers for Kubernetes](https://palark.com/blog/comparing-ingress-controllers-for-kubernetes) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive comparative matrix of popular Kubernetes ingress controllers, including NGINX, Traefik, HAProxy, Contour, and Envoy-based proxies. It benchmarks them against metrics like protocol support (gRPC, HTTP/2, WebSockets), security, dynamic updates, and ease of deployment. Ideal for system architects choosing an ingress gateway for custom runtime workloads.
+#### Envoy
+
+  - **(2023)** [getenroute.io: Drive API Security At Kubernetes Ingress Using Helm And Envoy 🌟](https://docs.getenroute.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores Enroute, an Envoy-based API gateway and ingress controller for Kubernetes. Detail includes securing APIs at the edge using Helm charts to deploy and configure rate-limiting, JWT authentication, and CORS policies. It provides a lightweight, performant alternative to heavy API management gateways by coupling Envoy's speed with Kubernetes-native CRDs.
+#### Fundamentals
+
+  - **(2022)** [searchitoperations.techtarget.com: Differences between Kubernetes Ingress vs. load balancer](https://www.techtarget.com/searchitoperations/feature/Differences-between-Kubernetes-Ingress-vs-load-balancer) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Clarifies the architectural differences between raw Kubernetes LoadBalancer services and Ingress resources. It outlines the cost and operational trade-offs of using external cloud-provider load balancers versus consolidated application-layer routing inside the cluster. Crucial for infrastructure planners looking to optimize both cloud spend and traffic routing strategies.
+#### HAProxy
+
+  - **(2021)** [devclass.com: HAProxy Ingress Controller 1.5 introduces mTLS support, gives load balancing experts more power](https://www.devclass.com/containers/2021/01/26/haproxy-ingress-controller-15-introduces-mtls-support-gives-load-balancing-experts-more-power/1619777) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Covers the release of HAProxy Ingress Controller 1.5, focusing on enterprise-grade mTLS implementation for zero-trust traffic control. It explores advanced routing capabilities, client certificate verification, and low-level performance tuning options designed for high-throughput load balancing. This update bridges the gap between traditional edge proxying and cloud-native ingress management.
+#### NGINX
+
+  - **(2022)** [**loft.sh: Kubernetes NGINX Ingress: 10 Useful Configuration Options 🌟**](https://www.vcluster.com/blog/kubernetes-nginx-ingress) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Provides 10 practical configurations for optimizing the ubiquitous NGINX Ingress Controller. It details custom annotations for rate-limiting, body-size limits, SSL redirection, CORS, and header manipulation. This technical guide serves as a quick reference for hardening and scaling web traffic paths into Kubernetes clusters.
+#### OpenShift
+
+  - **(2020)** [**openshift.com: gRPC or HTTP/2 Ingress Connectivity in OpenShift 🌟**](https://www.redhat.com/en/blog/grpc-or-http/2-ingress-connectivity-in-openshift) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Focuses on establishing end-to-end gRPC and HTTP/2 transport over Red Hat OpenShift Ingress and HAProxy routers. It details the TLS termination strategies and ALPN negotiations required to maintain streaming connections. Essential for high-performance microservice communication within OpenShift SDN and OVN-Kubernetes topologies.
+#### Traefik
+
+  - **(2020)** [**containo.us: Kubernetes Ingress & Service API Demystified**](https://traefik.io/blog/kubernetes-ingress-service-api-demystified) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Evaluates the core architecture of Kubernetes Ingress resources and Service APIs, illustrating how they interact with reverse proxies. It highlights Traefik's implementation of ingress specifications, demystifying route matching, load balancing, and dynamic configuration discovery. Offers deep structural comparison between legacy Ingress and modern patterns.
+### Ingress Controllers (1)
+
+#### Comparison (1)
+
   - [Learnk8s: Comparison of Kubernetes Ingress controllers 🌟](https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit#gid=907731238) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An industry-standard comparison spreadsheet analyzing over a dozen Kubernetes Ingress controllers. Details performance, dynamic reloading capabilities, routing protocols, and native TLS/WAF integrations.
+### Load Balancing
+
+#### Multi-Cluster
+
+  - **(2021)** [**cloud.redhat.com: Global Load Balancer Approaches 🌟**](https://www.redhat.com/en/blog/global-load-balancer-approaches) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Compares various global load balancing (GSLB) architectures for multi-cluster and multi-region Kubernetes deployments. The analysis highlights DNS-based routing, Anycast IP routing, and hybrid CDN-integrated load balancers. Addresses disaster recovery, latency-based routing, and failover topologies necessary for highly resilient cloud-native systems.
+### Security
+
+#### Cilium Network Policy
+
+  - **(2024)** [==editor.cilium.io 🌟==](https://editor.networkpolicy.io) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A visual designer created by Cilium to simplify the drafting of complex Kubernetes and Cilium-specific NetworkPolicies. It translates service dependencies into valid Kubernetes YAML rules, helping developers minimize security gaps. Highly recommended for multi-tier microservice infrastructures requiring visual validation before CI/CD deployment.
+#### Namespace Isolation
+
+  - **(2022)** [**loft.sh: Kubernetes Network Policies for Isolating Namespaces 🌟**](https://www.vcluster.com/blog/kubernetes-network-policies-for-isolating-namespaces) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Focuses exclusively on namespace-level isolation techniques using declarative Network Policies. It shows how to enforce strict multi-tenancy boundaries in shared staging or production clusters, preventing unauthorized inter-namespace discovery and communication. Highlights optimal configuration patterns to ensure strict compliance.
+#### Network Policies (1)
+
+  - **(2022)** [**loft.sh: Kubernetes Network Policies: A Practitioner's Guide 🌟**](https://www.vcluster.com/blog/kubernetes-network-policies-a-practitioners-guide) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A comprehensive practical guide covering the execution and isolation mechanics of Kubernetes Network Policies. Step-by-step instructions detail how default-deny structures work, how selector matching functions, and how to test rules in staging. Empowers operators to block lateral movement of attackers within microservice deployments.
+#### OpenShift (1)
+
+  - **(2020)** [openshift.com: Network Policies: Controlling Cross-Project Communication on OpenShift](https://www.redhat.com/en/blog/network-policies-controlling-cross-project-communication-on-openshift) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates how to write and apply Network Policies to control namespace and cross-project isolation in Red Hat OpenShift. It covers ingress/egress restriction, labels, and integration with OpenShift SDN multi-tenant plugins. Protects multi-tenant workloads by applying rigid segmentation rules at the container network interface layer.
+#### Packet Management
+
+  - **(2023)** [otterize.com: Mastering Kubernetes networking: A journey in cloud-native packet management](https://www.cyera.com) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores deep-packet cloud-native networking with an emphasis on intent-based access controls and service-to-service communication. Discusses how modern Kubernetes clusters secure network pathways through dynamic declarative policies. Offers structural insight into how packet-level visibility helps identify data leakage and configuration drift.
+### Service Mesh
+
+#### Linkerd
+
+  - **(2023)** [**buoyant.io: Kubernetes network policies with Cilium and Linkerd**](https://www.buoyant.io/blog/kubernetes-network-policies-with-cilium-and-linkerd) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Highlights the cooperative synergy of deploying the Linkerd service mesh alongside Cilium's eBPF-based CNI. It details how to leverage Cilium for Layer 3/4 packet filtration and Linkerd for Layer 7 mTLS identity validation. This dual-layered framework provides maximum defense-in-depth security with minimal networking latency overhead.
+### Services
+
+#### Fundamentals (1)
+
+  - **(2021)** [sysdig.com: Kubernetes Services: ClusterIP, Nodeport and LoadBalancer](https://www.sysdig.com/blog/kubernetes-services-clusterip-nodeport-loadbalancer) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demystifies core Kubernetes service types: ClusterIP, NodePort, and LoadBalancer. It demonstrates how kube-proxy manipulates iptables or IPVS configurations to achieve internal service discovery and round-robin load balancing. Helps operators grasp how traffic finds containerized workloads from both inside and outside the IP address space.
+### Traffic Flow
+
+#### Troubleshooting
+
+  - **(2023)** [==learnk8s.io: Tracing the path of network traffic in Kubernetes 🌟==](https://learnkube.com/kubernetes-network-packets) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Offers an exceptional, granular breakdown of how network packets flow through a Kubernetes cluster. From physical network interfaces to IPVS/iptables rules and CNI-driven packet encapsulation (overlay vs. underlay), this visual guide untangles pod-to-pod and external traffic paths. Highly valuable for deep debugging of cluster network failures.
+## Observability
+
+### Cost Optimization
+
+#### Data Storage
+
+  - **(2023)** [instana.com: The Hidden Cost of Observability: Data Volume](https://www.ibm.com/think) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the economic and architectural implications of high-cardinality and high-volume observability data. Provides strategies for dynamic rate limiting, smart sampling, and metric deduplication to prevent telemetry storage costs from scaling linearly with microservices growth.
 
 ---
 💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Servicemesh](./servicemesh.md) | [Networking](./networking.md)

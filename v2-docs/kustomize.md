@@ -5,9 +5,6 @@
 
 ## Standard Reference
 
-  - [codefresh.io: Applied GitOps with Kustomize](https://octopus.com/blog/applied-gitops-with-kustomize)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [harness.io: Comparing Helm vs Kustomize](https://www.harness.io/blog/helm-vs-kustomize)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techiescamp.com: Kubernetes Kustomize Crash Course](https://courses.devopscube.com/l/products)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [chrisns/k8s-opa-boilerplate](https://github.com/chrisns/k8s-opa-boilerplate) <span class='md-tag md-tag--info'>⭐ 18</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kustomize.io 🌟](https://kustomize.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes.io: Introducing kustomize; Template-free Configuration Customization' for Kubernetes](https://kubernetes.io/blog/2018/05/29/introducing-kustomize-template-free-configuration-customization-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -46,6 +43,17 @@
 ##### Kustomize Deployments
 
   - [blog.tomarrell.com: Kustomize: Traefik v2.2 as a Kubernetes Ingress Controller](https://blog.tomarrell.com/post/traefik_v2_on_kubernetes)  <span class='md-tag md-tag--info'>[LEGACY]</span> — An operations blog outlining Traefik v2.2 deployment using Kustomize overlays. Although the specific Traefik CRD API versions are legacy, the architectural structure of managing ingress with Kustomize remains highly educational.
+## Orchestration
+
+### Kubernetes GitOps
+
+#### Helm vs Kustomize
+
+  - **(2023)** [harness.io: Comparing Helm vs Kustomize 🌟](https://www.harness.io/blog/helm-vs-kustomize) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical deep-dive into deployment automation paradigms, assessing Helm's package management and release lifecycle against Kustomize's non-destructive template-free approach. Explores hybrid deployment methodologies utilizing both toolsets.
+#### Kustomize
+
+  - **(2024)** [techiescamp.com: Kubernetes Kustomize Crash Course](https://courses.devopscube.com/l/products) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structured primer introducing Kustomize's basic overlay mechanics. Covers `kustomization.yaml` declarations, resources, patchesStrategicMerge, configMapGenerator, and secret generation to construct scalable, modular configuration states.
+  - **(2023)** [codefresh.io: Applied GitOps with Kustomize](https://octopus.com/blog/applied-gitops-with-kustomize) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates declarative application delivery models using GitOps controllers combined with Kustomize overlays. Teaches how to structure environmental variants (dev, staging, prod) without duplicating manifest declarations or relying on complex templating.
 
 ---
 💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Oauth](./oauth.md)

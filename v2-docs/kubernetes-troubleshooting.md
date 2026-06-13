@@ -5,17 +5,6 @@
 
 ## Standard Reference
 
-  - [learnk8s.io: A visual guide on troubleshooting Kubernetes deployments 🌟](https://learnkube.com/troubleshooting-deployments)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloud.redhat.com: Troubleshooting Sandboxed Containers Operator](https://www.redhat.com/en/blog/sandboxed-containers-operator-from-zero-to-hero-the-hard-way-part-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [youtube: 3 Ways to Detect Evil "Latest" Image Tags in Kubernetes - Kubevious](https://www.youtube.com/watch?v=93RlMqO4glM&t=6s&ab_channel=Kubevious)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [sysdig.com: Understanding Kubernetes pod pending problems](https://www.sysdig.com/blog/kubernetes-pod-pending-problems)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [devzero.io: Kubernetes Debugging Tips](https://www.devzero.io/blog/kubernetes-autoscaling)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [sysdig.com: What is Kubernetes CrashLoopBackOff? And how to fix it 🌟](https://www.sysdig.com/blog/debug-kubernetes-crashloopbackoff)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloudyuga.guru: How does Kubernetes assign QoS class to pods through OOM score?](https://cloudyuga.guru/blogs/k8s-qos-oomkilled)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [sysdig.com: Kubernetes OOM and CPU Throttling](https://www.sysdig.com/blog/troubleshoot-kubernetes-oom)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [sysdig.com: Understanding Kubernetes Evicted Pods](https://www.sysdig.com/blog/kubernetes-pod-evicted)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [loft.sh: Using Kubernetes Ephemeral Containers for Troubleshooting](https://www.vcluster.com/blog/using-kubernetes-ephemeral-containers-for-troubleshooting)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [kubetools.io: Kubeshark – API Traffic Analyzer for Kubernetes](https://kubetools.io/mastering-kubernetes-debugging-and-troubleshooting-with-kubeshark-real-time-visibility-query-language-service-map-and-integrations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [10 Real-World Kubernetes Troubleshooting Scenarios and Solutions](https://livingdevops.com/devops/10-real-world-kubernetes-troubleshooting-scenarios-and-solutions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [RKE2 Standalone Disaster Recovery Guide](https://support.tools/post/rke2-standalone-disaster-recovery)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kubernetes Troubleshooting: A Step-by-Step Guide](https://www.cncf.io/blog/2025/03/13/kubernetes-troubleshooting-a-step-by-step-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -120,14 +109,49 @@
   - [github.com/JamesTGrant/kubectl-debug](https://github.com/JamesTGrant/kubectl-debug) <span class='md-tag md-tag--info'>⭐ 374</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Debugging Kubernetes Systems: Practical Advice with Quality Telemetry](https://…)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Kubernetes
+## Cloud Native
+
+### Kubernetes Administration
+
+#### Autoscaling and Debugging
+
+  - **(2023)** [devzero.io: Kubernetes Debugging Tips](https://www.devzero.io/blog/kubernetes-autoscaling) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical troubleshooting guide focusing on Kubernetes autoscaling issues. It examines common problems like HPA delay metrics, cluster autoscaler bottlenecks, and misconfigured resource limits that can cause unexpected scaling failures.
+#### Resource Management
+
+  - **(2021)** [cloudyuga.guru: How does Kubernetes assign QoS class to pods through OOM score?](https://cloudyuga.guru/blogs/k8s-qos-oomkilled) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep technical analysis showing how Kubernetes assigns Quality of Service (QoS) classes (Guaranteed, Burstable, BestEffort) based on CPU/memory requests and limits. It explains how these classes map to the Linux kernel's OOM score to protect critical cluster workloads from termination.
+#### Troubleshooting
+
+  - **(2022)** [sysdig.com: What is Kubernetes CrashLoopBackOff? And how to fix it 🌟](https://www.sysdig.com/blog/debug-kubernetes-crashloopbackoff) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive reference guide for identifying and fixing the 'CrashLoopBackOff' status in Kubernetes. It walks through dynamic debugging steps, including checking application exit codes, analyzing stdout/stderr logs, and checking container configurations.
+  - **(2021)** [sysdig.com: Understanding Kubernetes pod pending problems](https://www.sysdig.com/blog/kubernetes-pod-pending-problems) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A diagnostic playbook explaining why Kubernetes Pods get stuck in the 'Pending' state. It provides methods to inspect scheduler decisions, locate resource exhaustion issues, resolve node selector taints, and debug persistent volume binding failures.
+### Kubernetes Security
+
+#### Image Vulnerabilities
+
+  - **(2021)** [youtube: 3 Ways to Detect Evil "Latest" Image Tags in Kubernetes - Kubevious](https://www.youtube.com/watch?v=93RlMqO4glM&t=6s&ab_channel=Kubevious) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical video guide demonstrating three automated ways to detect and prevent the use of mutable 'latest' image tags in production Kubernetes clusters. It details how using generic tags breaks reproducibility and bypasses security scans.
+#### Sandboxed Containers
+
+  - **(2022)** [cloud.redhat.com: Troubleshooting Sandboxed Containers Operator](https://www.redhat.com/en/blog/sandboxed-containers-operator-from-zero-to-hero-the-hard-way-part-2) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly technical troubleshooting guide for Red Hat's Sandboxed Containers Operator, which runs workloads in secure microVMs. It steps through resolving low-level virtualization conflicts, SELinux policy issues, and hypervisor startup errors.
+## Infrastructure
+
+### Kubernetes
+
+#### Observability
+
+  - **(2025)** [kubetools.io: Kubeshark – API Traffic Analyzer for Kubernetes](https://kubetools.io/mastering-kubernetes-debugging-and-troubleshooting-with-kubeshark-real-time-visibility-query-language-service-map-and-integrations) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: Analyzes Kubeshark (formerly API Tap) as an enterprise-grade API traffic analyzer for Kubernetes. Leverages eBPF technology to capture, analyze, and map microservices traffic (HTTP, gRPC, DNS) without service mesh or proxy overhead, facilitating real-time traffic analysis and validation.
+#### Troubleshooting (1)
+
+  - **(2025)** [loft.sh: Using Kubernetes Ephemeral Containers for Troubleshooting](https://www.vcluster.com/blog/using-kubernetes-ephemeral-containers-for-troubleshooting) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight / Live Grounding: Explains how to leverage Ephemeral Containers via 'kubectl debug' for live troubleshooting of production applications. Ideal for distroless, minimal, or highly secured container configurations that lack shell utilities, allowing SREs to attach dynamic debugging containers to active target pods safely.
+  - **(2024)** [learnk8s.io: A visual guide on troubleshooting Kubernetes deployments](https://learnkube.com/troubleshooting-deployments)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight / Live Grounding: An industry-standard visual flow-chart methodology that systematically traces deployment failure mechanisms in Kubernetes. Maps out diagnostic paths through Pod lifecycle phases (Pending, Running, Failed) to isolate network policies, DNS failures, or container crashes.
+  - **(2024)** [sysdig.com: Kubernetes OOM and CPU Throttling](https://www.sysdig.com/blog/troubleshoot-kubernetes-oom)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight / Live Grounding: A deeply technical guide targeting container memory boundaries (cgroups v1/v2) and CPU scheduling quirks. Explains why containers trigger Out-Of-Memory (OOM) kills (exit code 137) and how CFS bandwidth control throttles CPU performance when workloads hit limits, providing concrete remediation steps for SREs.
+  - **(2024)** [sysdig.com: Understanding Kubernetes Evicted Pods](https://www.sysdig.com/blog/kubernetes-pod-evicted)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight / Live Grounding: Detailed architectural overview explaining how the Kubernetes node agent (kubelet) monitors resources and triggers evictions (soft/hard) to preserve node stability. Analyzes the prioritizations of the eviction process based on Quality of Service (QoS) classes: Guaranteed, Burstable, and BestEffort.
+## Kubernetes (1)
 
 ### Cluster Operations
 
 #### GUI Clients
 
   - [KubeUI: A Desktop Kubernetes Client](https://github.com/IvanJosipovic/KubeUI) <span class='md-tag md-tag--info'>⭐ 308</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A native, desktop-optimized UI designed to stream, monitor, and interact with live cluster metrics and objects. Enhances developer agility through dynamic views of multi-cluster namespaces, container outputs, and active workload parameters.
-## Observability
+## Observability (1)
 
 ### Capacity Management
 
@@ -140,7 +164,7 @@
 
 ### Kubernetes Internals
 
-#### Resource Management
+#### Resource Management (1)
 
   - [The Hidden CPU Throttling Crisis in Kubernetes Clusters](https://www.kubenatives.com/p/the-hidden-cpu-throttling-crisis) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth analysis exposing the silent threat of CPU throttling inside Kubernetes clusters caused by rigid CFS quota management. Demonstrates how microservices suffer latency spikes even with low aggregate CPU consumption.
 

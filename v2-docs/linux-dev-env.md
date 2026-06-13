@@ -5,8 +5,6 @@
 
 ## Standard Reference
 
-  - [docs.microsoft.com: WSL - Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [9elements.com: Developing on Windows with WSL2](https://9elements.com/blog/developing-on-windows-with-wsl2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Windows Package Manager CLI (aka winget)](https://github.com/microsoft/winget-cli) <span class='md-tag md-tag--info'>⭐ 25901</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [Using WSL and MobaXterm to Create a Linux Dev Environment on Windows](https://nickjanetakis.com/blog/using-wsl-and-mobaxterm-to-create-a-linux-dev-environment-on-windows)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Setting Up Docker for Windows and WSL to Work Flawlessly](https://nickjanetakis.com/blog/setting-up-docker-for-windows-and-wsl-to-work-flawlessly)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -34,6 +32,14 @@
 #### Version Management
 
   - [asdf version manager (asdf-vm)](https://asdf-vm.com) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensible, multi-language version manager capable of centralizing tool runtimes through a unified CLI configuration file (`.tool-versions`). Eliminates environmental drift across localized developer workspaces by managing multiple CLI toolchains via a modular plugin architecture.
+## Local Development
+
+### Operating Systems
+
+#### WSL
+
+  - **(2026)** [docs.microsoft.com: WSL - Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official engineering documentation detailing Windows Subsystem for Linux (WSL). Enables native ELF64 execution on Windows, forming a vital platform for building local Kubernetes, Docker, and bash-heavy development pipelines directly inside Windows environments.
+  - **(2026)** [9elements.com: Developing on Windows with WSL2](https://9elements.com/blog/developing-on-windows-with-wsl2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-focused guide optimizing local Windows workflows with WSL2. Provides performance instructions on using WSL2 backends alongside Docker Desktop, configuring VS Code remote-containers, and mitigating cross-file system read/write overhead.
 
 ---
 💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Visual Studio](./visual-studio.md)

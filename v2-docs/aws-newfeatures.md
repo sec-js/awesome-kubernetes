@@ -5,10 +5,6 @@
 
 ## Standard Reference
 
-  - [Now Add or Modify Request Headers Forwarded From Amazon CloudFront to Origin](https://aws.amazon.com/about-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [London Calling! An AWS Region is coming to the UK!](http://www.allthingsdistributed.com/2015/11/aws-announces-uk-region.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [theregister.com: AWS to retire EC2-Classic – the network glue that helped start the IaaS rush](https://www.theregister.com/off-prem/2021/07/29/aws-to-retire-ec2-classic-the-network-glue-that-helped-start-the-iaas-rush/527489)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [theregister.com: The big AWS event: 120 announcements but nothing has changed](https://www.theregister.com/off-prem/2021/12/09/the-big-aws-event-120-announcements-but-nothing-has-changed/605657)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Preview – AWS Backup Adds Support for Amazon S3](https://aws.amazon.com/blogs/aws/preview-aws-backup-adds-support-for-amazon-s3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Config Rules – Dynamic Compliance Checking for Cloud Resources](https://aws.amazon.com/blogs/aws/aws-config-rules-dynamic-compliance-checking-for-cloud-resources)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Amazon Inspector – Automated Security Assessment Service](https://aws.amazon.com/blogs/aws/amazon-inspector-automated-security-assessment-service)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -119,8 +115,30 @@
   - [AWS Config supports recording exclusions by resource type](https://aws.amazon.com/about-aws/whats-new/2023/06/aws-config-recording-exclusions-resource-type)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Amazon ECS and AWS Fargate now integrate with Amazon EBS](https://aws.amazon.com/about-aws/whats-new/2024/01/amazon-ecs-fargate-integrate-ebs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Cloud Infrastructure
+
+### Compute Migration
+
+#### Virtualization
+
+  - **(2021)** [**EC2 VM Import/Export now supports migration of virtual machines with Unified Extensible Firmware Interface (UEFI) boot to AWS**](https://aws.amazon.com/about-aws) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Analyzes AWS EC2's native support for importing and exporting virtual machines utilizing Unified Extensible Firmware Interface (UEFI) boot mechanisms. This architecture capability enables seamless migration of modern on-premises systems to the AWS public cloud without requiring complex BIOS-legacy conversions. It serves as a critical bridge for enterprise disaster recovery and hybrid deployment strategies.
+### Compute Networks
+
+#### Legacy Retirement
+
+  - **(2021)** [**theregister.com: AWS to retire EC2-Classic – the network glue that helped start the IaaS rush**](https://www.theregister.com/off-prem/2021/07/29/aws-to-retire-ec2-classic-the-network-glue-that-helped-start-the-iaas-rush/527489) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Chronicles AWS's formal deprecation of EC2-Classic, the original flat network design launched in 2006, replacing it completely with isolated VPC topologies. While the source notes its historical importance as the network glue that started the cloud rush, modern engineering realities in 2026 treat it as a relic, proving that software-defined isolation is a mandatory prerequisite for modern secure clouds. The transition highlights the evolution of cloud security standards from open environments to zero-trust networks.
+### Industry Analysis
+
+#### AWS Ecosystem
+
+  - **(2021)** [theregister.com: The big AWS event: 120 announcements but nothing has changed](https://www.theregister.com/off-prem/2021/12/09/the-big-aws-event-120-announcements-but-nothing-has-changed/605657) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Presents a critical retrospective on AWS's feature release strategy during re:Invent, arguing that the volume of announcements masks a lack of foundational architectural shifts. The analysis helps platform architects filter through promotional SaaS hyperbole to focus on core compute, networking, and storage primitives. It serves as a reminder to balance rapid tool adoption against long-term maintenance overhead.
 ## Cloud Providers
 
+### AWS
+
+#### Regions
+
+  - **(2015)** [London Calling! An AWS Region is coming to the UK!](http://www.allthingsdistributed.com/2015/11/aws-announces-uk-region.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: Historical release announcement detailing the deployment of the London (eu-west-2) AWS region, providing low-latency egress pathways and data residency options for UK enterprise workloads.
 ### AWS EKS
 
 #### Security

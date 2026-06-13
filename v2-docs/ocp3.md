@@ -5,18 +5,9 @@
 
 ## Standard Reference
 
-  - [openshift.com: From Code to Production with GitOps, Tekton and ArgoCD](https://www.redhat.com/en/blog/from-code-to-production-with-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.openshift.com/ - Kubernetes: A Pod’s Life 🌟](https://www.redhat.com/en/blog/kubernetes-pods-life)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.openshift.com/: From Templates to Openshift Helm Charts](https://www.redhat.com/en/blog/from-templates-to-openshift-helm-charts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Templating on OpenShift: should I use Helm templates or OpenShift templates? 🌟](https://www.theodo.com/en-fr/blog/openshift-what-templates-should-you-use-helm-or-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: **Debugging applications** within Red Hat OpenShift containers](https://developers.redhat.com/blog/2020/01/09debugging-applications-within-red-hat-openshift-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.openshift.com/how-full-is-my-cluster-part-5-a-capacity-management-dashboard](https://blog.openshift.com/how-full-is-my-cluster-part-5-a-capacity-management-dashboard)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.openshift.com/tag/multi-datacenter](https://www.redhat.com/en/blog?f[0]=taxonomy_blog_post_category_tid:107161&f[1]=taxonomy_topic_tid:75521)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.openshift.com/: How to survive an outage and live to tell about it!](https://www.redhat.com/en/blog/metro-area-openshift-stretch-cluster-how-to-survive-an-outage-and-live-to-tell-about-it)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.openshift.com/: Stateful Workloads and the Two Data Center Conundrum](https://www.redhat.com/en/blog/stateful-workloads-and-the-two-data-center-conundrum)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [**Uncontained.io**](http://uncontained.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [GitHub redhat-cop: Ansible Role 🌟](https://github.com/redhat-cop/infra-ansible) <span class='md-tag md-tag--info'>⭐ 219</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techbeatly.com: How to create, increase or decrease project quota](https://techbeatly.com/how-to-create-increase-or-decrease-project-quota-in-openshift/#.Xd5OE9WCGUk)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Handling Angular environments in continuous delivery' with Red Hat OpenShift](https://developers.redhat.com/blog/2019/11/27/handling-angular-environments-in-continuous-delivery-with-red-hat-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.openshift.com: Introduction to GitOps with OpenShift](https://blog.openshift.comintroduction-to-gitops-with-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [learn.openshift.com: GitOps introduction](https://learn.openshift.com/introduction/gitops-introduction)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -41,6 +32,47 @@
   - [Quotas setting across multiple projects](https://docs.openshift.com/container-platform/4.2/applications/quotas/quotas-setting-across-multiple-projects.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Source-to-Image (S2I) Build](https://docs.openshift.com/container-platform/3.11/architecture/core_concepts/builds_and_image_streams.html#source-build)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Enterprise Platform
+
+### GitOps and Configuration
+
+#### ArgoCD and Tekton Pipelines
+
+  - **(2023)** [openshift.com: From Code to Production with GitOps, Tekton and ArgoCD 🌟](https://www.redhat.com/en/blog/from-code-to-production-with-gitops) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This architectural review details a continuous deployment pipeline using GitOps, Tekton, and Argo CD. Provides a blueprint for configuring enterprise-ready Kubernetes delivery systems designed to accelerate code-to-production lifecycles.
+### High Availability and Disaster Recovery
+
+#### OpenShift Stretch Clusters
+
+  - **(2022)** [blog.openshift.com/: How to survive an outage and live to tell about it!](https://www.redhat.com/en/blog/metro-area-openshift-stretch-cluster-how-to-survive-an-outage-and-live-to-tell-about-it) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An SRE-focused case study on implementing high-availability, low-latency 'stretch' OpenShift clusters across metro areas. Explores the quorum configurations and persistent storage synchronization needed to survive real-time datacenter outages.
+#### Stateful Multi-DC Routing
+
+  - **(2022)** [blog.openshift.com/: Stateful Workloads and the Two Data Center Conundrum](https://www.redhat.com/en/blog/stateful-workloads-and-the-two-data-center-conundrum) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical analysis of managing stateful workloads across a two-datacenter topology. Examines CAP theorem limitations, write replication challenges, and routing strategies to prevent split-brain states during network partition events.
+### Multi-Cluster Orchestration
+
+#### Multi-Datacenter OpenShift
+
+  - **(2024)** [blog.openshift.com/tag/multi-datacenter](https://www.redhat.com/en/blog?f[0]=taxonomy_blog_post_category_tid:107161&f[1]=taxonomy_topic_tid:75521) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A collection of Red Hat technical resources focusing on multi-datacenter OpenShift clusters. Discusses networking latency, federation strategies, state synchronization, and cluster orchestration challenges across hybrid, distributed topologies.
+### OpenShift and RedHat
+
+#### Helm Integration
+
+  - **(2022)** [blog.openshift.com/: From Templates to Openshift Helm Charts](https://www.redhat.com/en/blog/from-templates-to-openshift-helm-charts) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A migration guide helping Red Hat administrators transition application packaging from native OpenShift Templates to Helm Charts. Explains Helm packaging patterns, standardizing deployment definitions, and streamlining multi-cloud delivery.
+#### Multi-Tenancy and Quotas
+
+  - **(2021)** [techbeatly.com: How to create, increase or decrease project quota](https://techbeatly.com/how-to-create-increase-or-decrease-project-quota-in-openshift/#.Xd5OE9WCGUk) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An operations-focused administrative guide outlining how to build secure multi-tenant boundaries within Red Hat OpenShift. Demonstrates defining, updating, and auditing ResourceQuotas and LimitRanges across projects.
+#### Pod Lifecycle
+
+  - **(2021)** [blog.openshift.com/ - Kubernetes: A Pod’s Life 🌟](https://www.redhat.com/en/blog/kubernetes-pods-life) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Red Hat blog detailing the lifecycle of a Kubernetes Pod. Deeply analyzes phase transitions, readiness/liveness/startup probes, resource quotas, and how OpenShift's platform layers handle pod scheduling and graceful shutdowns.
+#### Templating Strategies
+
+  - **(2021)** [Templating on OpenShift: should I use Helm templates or OpenShift templates? 🌟](https://www.theodo.com/en-fr/blog/openshift-what-templates-should-you-use-helm-or-openshift) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comparative analysis evaluating OpenShift Templates against Helm Charts. Helps engineering managers choose between OpenShift-native templating (ideal for quick, targeted setups) and Helm charts (the standard for multi-cloud parity and community support).
+## Infrastructure
+
+### Infrastructure as Code
+
+#### Red Hat Cop Ansible
+
+  - **(2025)** [==GitHub redhat-cop: Ansible Role 🌟==](https://github.com/redhat-cop/infra-ansible) <span class='md-tag md-tag--info'>⭐ 219</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — GitHub repository featuring Ansible automation roles maintained by the Red Hat Community of Practice (CoP). Simplifies the automated provisioning, day-2 operations, cluster configuration, and user onboarding of OpenShift environments.
 
 ---
 💡 **Explore Related:** [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Openshift](./openshift.md)

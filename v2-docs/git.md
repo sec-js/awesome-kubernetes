@@ -5,33 +5,10 @@
 
 ## Standard Reference
 
-  - [redhat-actions/openshift-actions-runner](https://github.com/redhat-actions/openshift-actions-runners)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [redhat.com: Red Hat and GitHub Collaborate to Expand the Developer Experience on Red Hat OpenShift with GitHub Actions](https://www.redhat.com/en/about/press-releases/red-hat-and-github-collaborate-expand-developer-experience-red-hat-openshift-github-actions) Industry’s leading enterprise Kubernetes platform now integrates with GitHub, bringing DevOps automation tools from the world’s largest developer platform into the OpenShift ecosystem
-  - [GitKraken Git Cheat](https://www.gitkraken.com/pdfs/gitkraken-git-gui-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [GitHub Copilot](https://github.com/copilot)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [fourtheorem.com: How to end Microservice pain and embrace the Monorepo](https://fourtheorem.com/monorepo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.blog: Getting started with GitHub Actions just got easier!](https://github.blog/news-insights/product-news/getting-started-with-github-actions-just-got-easier)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.fleetdm.com: 4 tips for GitHub Actions usability (+2 bonus tips for debugging)](https://fleetdm.com/engineering/tips-for-github-actions-usability)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [openshift.com: Deploying to OpenShift using GitHub Actions](https://www.redhat.com/en/blog/deploying-to-openshift-using-github-actions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com: OpenShift GitHub Actions Runner Chart 🌟](https://github.com/redhat-actions/openshift-actions-runners-chart)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [GitHub Copilot is generally available to all developers](https://github.blog/news-insights/product-news/github-copilot-is-generally-available-to-all-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.blog: GitHub Copilot X: The AI-powered developer experience](https://github.blog/news-insights/product-news/github-copilot-x-the-ai-powered-developer-experience)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Coding Frameworks and languages are no longer the point, prompting is](https://techcommunity.microsoft.com/blog/educatordeveloperblog/coding-frameworks-and-languages-are-no-longer-the-point-prompting-is/3820265)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Gitea](https://about.gitea.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/MichaelMure/git-bug](https://github.com/git-bug/git-bug) <span class='md-tag md-tag--info'>⭐ 9860</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [github.blog: Git Credential Manager: authentication for everyone](https://github.blog/security/application-security/git-credential-manager-authentication-for-everyone)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [twitter.com/azuredevops](https://x.com/azuredevops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [How We Use Git at Microsoft](https://learn.microsoft.com/en-us/devops/develop/git/what-is-git)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [BitBucket Auto Merge](https://github.com/mikefrank-ca/bitbucket-auto-merge)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [BitBucket Bot for Microsoft Teams](https://techcommunity.microsoft.com/blog/microsoftteamsblog/new-bitbucket-bot-for-microsoft-teams/218212)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Configure bitbucket-pipelines.yml to automatically merge feature branch to master?](https://community.atlassian.com/forums/Bitbucket-questions/configure-bitbucket-pipelines-yml-to-automatically-merge-feature/qaq-p/793222)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Auto-merge between release branches](https://about.gitlab.com/gitlab-org/gitlab/-/issues/2785)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Provide merge bot functionality](https://about.gitlab.com/gitlab-org/gitlab/-/issues/14595)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Example: gitlab.gnome.org/marge-merge-bot](https://gitlab.gnome.org/users/sign_in)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.plasticscm.com: Add a mergebot to your repo!](http://blog.plasticscm.com/2018/09/add-mergebot-to-your-repo.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [PlasticSCM MergeBot Jenkins Plugin](https://plugins.jenkins.io/plasticscm-mergebot)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github-merge-bot](https://github.com/sdduursma/github-merge-bot) <span class='md-tag md-tag--info'>⭐ 4</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Rultor](http://www.rultor.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Example: CockroachDB's Bors Merge Bot](https://id.atlassian.com/login?continue=https%3A%2F%2Fid.atlassian.com%2Fjoin%2Fuser-access%3Fresource%3Dari%253Acloud%253Aconfluence%253A%253Asite%252F9568dfdc-cfdd-4632-a68e-1e18063a3152%26continue%3Dhttps%253A%252F%252Fcockroachlabs.atlassian.net%252Fwiki%252Fspaces%252FCRDB%252Fpages%252F73204099%252FBors%252BMerge%252BBot&application=confluence&orgId=52a68357-cecf-4127-a5ec-32eeac8cf060)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [CloudBees Releases Another Industry First: Feature Flagging for On-Premise' Use 🌟](https://www.previous.cloudbees.com/press/cloudbees-releases-another-industry-first-feature-flagging-premise-use)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com: RedHat Actions 🌟](https://github.com/redhat-actions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone.com: refcard - getting started with git](https://dzone.com/refcardz/getting-started-git)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -219,6 +196,13 @@
 #### Image Signing
 
   - [Sigstore](https://www.sigstore.dev) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier open-source system for cryptographic artifact signing and public ledger verification. Drastically simplifies code-signing workflows through the orchestration of ephemeral short-lived certificates and OIDC identities.
+## Collaboration and Management
+
+### ChatOps
+
+#### Microsoft Teams Integrations
+
+  - **(2017)** [BitBucket Bot for Microsoft Teams](https://techcommunity.microsoft.com/blog/microsoftteamsblog/new-bitbucket-bot-for-microsoft-teams/218212) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the architecture of the BitBucket notification integration bot for Microsoft Teams. Provides configurations for tracking branch updates, repository commits, pull request status alterations, and inline comment alerts directly inside collaborative spaces.
 ## Continuous Delivery
 
 ### CI-CD Pipelines
@@ -236,6 +220,71 @@
 #### Quality Engineering
 
   - [testmo.com: GitLab CI/CD Test Automation Pipeline & Reporting](https://www.testmo.com/guides/gitlab-ci-test-automation) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This guide explains how to integrate automated test execution and real-time test reporting inside GitLab CI/CD pipelines. It covers generating and uploading JUnit XML and JSON test results to track test suites, flaky tests, and overall system health. Modern microservices QA architectures depend on this rapid feedback loop to maintain short deployment cycles with absolute structural confidence.
+## DevOps and CICD
+
+### Atlassian Ecosystem
+
+#### Bitbucket Pipelines
+
+  - **(2018)** [Configure bitbucket-pipelines.yml to automatically merge feature branch to master?](https://community.atlassian.com/forums/Bitbucket-questions/configure-bitbucket-pipelines-yml-to-automatically-merge-feature/qaq-p/793222) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer community forum guide providing structured YAML syntax blueprints for automated cascading branch merges inside Bitbucket Pipelines. Features patterns to bypass redundant manual code integration loops.
+#### PR Automation
+
+  - **(2020)** [BitBucket Auto Merge](https://github.com/mikefrank-ca/bitbucket-auto-merge) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized Node.js utility designed to automate pull request workflows in BitBucket Server environments. It targets the programmatic evaluation of build results and peer review approvals to execute automated branches merges securely.
+### ChatOps (1)
+
+#### Release Management
+
+  - **(2014)** [Rultor](http://www.rultor.com) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Rultor is an autonomous release engineer bot that acts as an intermediary between developers and version control. It executes deployment tasks, updates dependency versions, and issues signed production releases directly via simple comment commands.
+### DevOps Community
+
+#### Azure DevOps News
+
+  - **(2015)** [twitter.com/azuredevops](https://x.com/azuredevops) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The historical Twitter (X) social feed documenting live updates, deprecation warnings, and platform status announcements regarding Azure DevOps Services. Serves as a useful historical reference for continuous platform evolution tracking.
+### Git Extensions
+
+#### Distributed Issue Tracking
+
+  - **(2018)** [==github.com/MichaelMure/git-bug==](https://github.com/git-bug/git-bug) <span class='md-tag md-tag--info'>⭐ 9860</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source, fully distributed bug tracking mechanism built directly on Git metadata. It embeds ticket management histories directly into the source control system itself, permitting offline bug tracking, decentralized issue resolution, and programmatic API access.
+### Git Security
+
+#### Identity and Access Management
+
+  - **(2021)** [==github.blog: Git Credential Manager: authentication for everyone==](https://github.blog/security/application-security/git-credential-manager-authentication-for-everyone) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Introduces and guides the utilization of the cross-platform Git Credential Manager (GCM). Explains secure credential storage and authentication workflows for providers like GitHub, GitLab, and Azure DevOps across Windows, macOS, and Linux.
+### GitHub Actions
+
+#### CICD Automation
+
+  - **(2018)** [github-merge-bot](https://github.com/sdduursma/github-merge-bot) <span class='md-tag md-tag--info'>⭐ 4</span> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A repository housing a lightweight, node-based automation agent configured to execute merges in GitHub repositories when automated code quality, linting, and reviewer metrics pass specific compliance thresholds.
+#### Debugging Best Practices
+
+  - **(2022)** [blog.fleetdm.com: 4 tips for GitHub Actions usability (+2 bonus tips for debugging)](https://fleetdm.com/engineering/tips-for-github-actions-usability) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores developer ergonomics and optimization techniques for complex GitHub Actions pipelines. It features four primary usability insights, supplemented by tactical debugging guidelines, designed to mitigate pipeline latency and ease configuration troubleshooting.
+#### OpenShift Integration
+
+  - **(2020)** [openshift.com: Deploying to OpenShift using GitHub Actions](https://www.redhat.com/en/blog/deploying-to-openshift-using-github-actions) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a highly technical integration guide detail-mapping the process of deploying cloud-native container workloads directly from GitHub Actions into Red Hat OpenShift. Discusses credentials management, build strategies, and cluster security contexts.
+#### Self-Hosted Runners
+
+  - **(2020)** [github.com: OpenShift GitHub Actions Runner 🌟](https://github.com/redhat-actions/openshift-actions-runners) <span class='md-tag md-tag--warning'>[DOCKERFILE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — GitHub repository holding Red Hat's containerized self-hosted GitHub Actions runner configurations optimized for execution on OpenShift clusters. Offers secure scaling patterns that allow pipelines to process resource-intensive compilation and container builds natively within the cluster fabric.
+#### Workflow Orchestration
+
+  - **(2019)** [github.blog: Getting started with GitHub Actions just got easier!](https://github.blog/news-insights/product-news/getting-started-with-github-actions-just-got-easier) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Documents the initial framework modifications designed to streamline the onboarding experience for GitHub Actions. It outlines the templating mechanisms and context-aware recommendations that analyze repository structures to suggest highly tailored YAML configuration files automatically.
+### GitLab Platforms
+
+#### CICD Automation (1)
+
+  - **(2017)** [Example: gitlab.gnome.org/marge-merge-bot](https://gitlab.gnome.org/users/sign_in) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Documents the integration pattern of Marge-bot, a bot framework designed for GitLab to guarantee a semi-linear commit history. It compiles, validates, and rebases merge requests sequentially before integration to maintain main branch stability.
+### Self-Hosted Git
+
+#### Source Code Management
+
+  - **(2018)** [==Gitea==](https://about.gitea.com) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A lightweight, self-hosted, all-in-one Git repository manager written in Go. Ideal for low-resource environments and containerized edge clusters, Gitea provides an alternative to heavy CI/CD management control planes with minimal operational overhead.
+### Version Control Systems
+
+#### Jenkins Plugins
+
+  - **(2018)** [PlasticSCM MergeBot Jenkins Plugin](https://plugins.jenkins.io/plasticscm-mergebot) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A historical Jenkins orchestration plugin that enables tight event synchronization with PlasticSCM MergeBots. This allows decentralized build actions to report outcome telemetry directly to version control merge layers.
+#### PlasticSCM Bots
+
+  - **(2018)** [blog.plasticscm.com: Add a mergebot to your repo!](http://blog.plasticscm.com/2018/09/add-mergebot-to-your-repo.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how to design and build custom automated merge bots inside PlasticSCM repositories. Describes the execution loops responsible for automating sanity tests, compiling builds, and automatically committing validated code.
 ## Developer Tools
 
 ### API Integration
@@ -320,7 +369,7 @@
   - [githubstatus.com/uptime 🌟](https://www.githubstatus.com/uptime)  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The dedicated uptime tracker of the GitHub platform, exposing SLA historical logs and service reliability metrics over rolling cycles. This endpoint is highly valued by operations and compliance teams validating continuous delivery commitments and tracking upstream infrastructure health. It provides empirical foundation metrics to build resilient multi-region or hybrid development setups.
 ### Security and Compliance
 
-#### Identity and Access Management
+#### Identity and Access Management (1)
 
   - **(2021)** [**github.blog: Security keys are now supported for SSH Git operations 🌟**](https://github.blog/engineering/security-keys-supported-ssh-git-operations) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An engineering post announcing GitHub's native support for physical security keys (FIDO2) during SSH-based Git operations. This capability permits developers to secure their command-line Git flows using hardware-based cryptographic keys, protecting local machines against key-extraction attacks. In 2026, enforcing hardware-backed credentials remains a core security pillar for high-compliance enterprise teams.
   - **(2020)** [Token authentication requirements for API and Git operations](https://github.blog/news-insights/company-news/token-authentication-requirements-for-api-and-git-operations) 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A critical security announcement detailing GitHub's enforcement of token-based authentication to replace standard passwords for Git operations. This initiative is a foundational component of modern supply chain security, designed to significantly reduce credential theft and brute-force vulnerabilities. From a 2026 perspective, this change has cemented the standard of multi-factor, programmatic identity verification in software delivery pipelines.
@@ -349,7 +398,7 @@
 #### SaaS Platforms
 
   - [==gitlab.com==](https://about.gitlab.com) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive single-application DevSecOps platform spanning the entire software development lifecycle. GitLab integrates Git repository management, robust container registries, declarative CI/CD pipelines, security scanning, and agile planning in a unified system.
-### Version Control Systems
+### Version Control Systems (1)
 
 #### SaaS Platforms (1)
 
@@ -372,7 +421,7 @@
 #### Documentation Engine
 
   - **(2021)** [github.blog: How we use GitHub Actions to manage GitHub Docs](https://github.blog/engineering/use-github-actions-manage-docs) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural breakdown of how GitHub engineers manage and publish their technical documentation portal, utilizing automated validation suites, linter gates, and deployments.
-#### GitHub Actions
+#### GitHub Actions (1)
 
   - **(2022)** [github.blog: How to build a CI/CD pipeline with GitHub Actions in four simple steps](https://github.blog/enterprise-software/ci-cd/build-ci-cd-pipeline-github-actions-four-steps) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An architecture-oriented introductory blueprint outlining a four-stage process for transitioning applications to automated builds, testing, and deployments using GitHub Actions.
   - **(2022)** [github.blog: 10 GitHub Actions resources to bookmark from the basics to CI/CD](https://github.blog/developer-skills/github/10-github-actions-resources-basics-ci-cd) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated collection of educational resources, documentation links, and architectural articles to guide developers from basic task configuration to enterprise delivery models.
@@ -483,6 +532,20 @@
   - [gitkraken.com: Git Tutorials: Instructional Training Videos 🌟](https://www.gitkraken.com/learn/git/tutorials)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly structured, professional video and article archive managed by the GitKraken engineering team. It targets critical code management themes, including branch optimization, visual conflict resolution, rebase configurations, and upstream synchronization strategies.
 ## Software Engineering
 
+### AI-Assisted Development
+
+#### Copilot Integrations
+
+  - **(2021)** [==GitHub Copilot 🌟==](https://github.com/copilot) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main landing framework for GitHub Copilot's developer organization. As an AI-assisted development standard, it houses the core SDK components, extension configurations, and telemetry hooks driving modern contextual code synthesis inside major integrated development environments (IDEs).
+#### Copilot Releases
+
+  - **(2022)** [==GitHub Copilot is generally available to all developers==](https://github.blog/news-insights/product-news/github-copilot-is-generally-available-to-all-developers) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Details the widespread enterprise and individual general availability launch of GitHub Copilot. It documents the underlying performance data of Codex models, technical constraints, security filtering systems, and the productivity lift observed across thousands of engineering teams.
+#### Generative Tools
+
+  - **(2023)** [==github.blog: GitHub Copilot X: The AI-powered developer experience==](https://github.blog/news-insights/product-news/github-copilot-x-the-ai-powered-developer-experience) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Explains GitHub Copilot X, representing a shift toward a multi-modal AI software engineering interface. Features inline terminal assistants, interactive documentation search engines, and automated pull request summary generators designed to enhance developer flow state.
+#### Prompt Engineering Theory
+
+  - **(2023)** [techcommunity.microsoft.com: Coding Frameworks and languages are no longer the point, prompting is](https://techcommunity.microsoft.com/blog/educatordeveloperblog/coding-frameworks-and-languages-are-no-longer-the-point-prompting-is/3820265) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines a critical shift in software engineering theory: the transition from syntax-level mastery to abstract system architecture and prompt engineering. Assesses how LLMs alter junior developer career progression and redefine architectural standards.
 ### Architecture Patterns
 
 #### Case Studies
@@ -592,6 +655,14 @@
 #### Systems Engineering
 
   - [github.com/Lightning-AI/engineering-class: Lightning Bits: Engineering' for Researchers 🌟](https://github.com/Lightning-AI/engineering-class) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An open educational repository containing modern software engineering practices tailored for artificial intelligence researchers and engineers. Focuses on bridging the gap between raw research scripting and enterprise-grade deployment mechanics.
+### Git Workflows (1)
+
+#### Automated Merges
+
+  - **(2019)** [Example: CockroachDB's Bors Merge Bot](https://id.atlassian.com/login?continue=https%3A%2F%2Fid.atlassian.com%2Fjoin%2Fuser-access%3Fresource%3Dari%253Acloud%253Aconfluence%253A%253Asite%252F9568dfdc-cfdd-4632-a68e-1e18063a3152%26continue%3Dhttps%253A%252F%252Fcockroachlabs.atlassian.net%252Fwiki%252Fspaces%252FCRDB%252Fpages%252F73204099%252FBors%252BMerge%252BBot&application=confluence&orgId=52a68357-cecf-4127-a5ec-32eeac8cf060) <span class='md-tag md-tag--warning'>[RUST CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed technical review showing how the CockroachDB team integrated the Bors merge bot into their testing workflows. It discusses mitigation patterns for 'not-yet-tested' merge race conditions on high-frequency main branches.
+#### Monorepo Management
+
+  - **(2019)** [How We Use Git at Microsoft](https://learn.microsoft.com/en-us/devops/develop/git/what-is-git) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a comprehensive study on how Microsoft manages scaling Git structures for massive engineering projects like Windows and Office. Introduces Virtual File System for Git (VFS for Git) strategies to handle multi-gigabyte repository architectures.
 ### Project Management
 
 #### GitHub Projects
@@ -728,7 +799,7 @@
 
   - **(2022)** [==github.blog: Improve Git monorepo performance with a file system monitor 🌟==](https://github.blog/engineering/improve-git-monorepo-performance-with-a-file-system-monitor) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Groundbreaking technical review demonstrating FSMonitor's architectural advantages inside extremely large scale monorepos. By eliminating full working tree scans during 'git status' commands, query durations decrease dramatically from seconds to milliseconds.
   - **(2020)** [**github.blog: Get up to speed with partial clone and shallow clone**](https://github.blog/open-source/git/get-up-to-speed-with-partial-clone-and-shallow-clone) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Outlines performance strategies for massive repositories using partial clone and shallow clone mechanisms. By selectively downloading commit history or file objects (such as omitting large blobs), teams can drastically reduce network overhead and local disk usage in enterprise-scale monorepos.
-#### Git Security
+#### Git Security (1)
 
   - [blog.gitguardian.com: Rewriting your git history, removing files permanently' - cheatsheet & guide](https://blog.gitguardian.com/rewriting-git-history-cheatsheet) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Outlines strict methodologies for removing sensitive credentials or bloated files permanently from a Git repository's history. It presents modern commands such as 'git-filter-repo' alongside legacy 'git filter-branch' to guarantee a complete scrub of sensitive elements while preventing repository corruption.
 #### Git Tools
@@ -737,7 +808,7 @@
 #### Git Visualizations
 
   - [marklodato.github.io: A Visual Git Reference 🌟](https://marklodato.github.io/visual-git-guide/index-en.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An exceptionally detailed, map-based visual guide illustrating how Git commands mutate the inner object model. Using elegant diagrams, it models branch references, commits, indexes, and directory trees, offering unmatched conceptual clarity.
-#### Git Workflows (1)
+#### Git Workflows (2)
 
   - **(2021)** [livecodestream.dev: Five Advanced Git Concepts that Make You Look Like a Pro](https://newsletter.thelongcommit.com/subscribe) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explores powerful features such as 'git bisect', dynamic interactive rebasing, reflog recovery, and worktrees. These concepts enable advanced developers to rapidly diagnose regressions and orchestrate highly structured cleanups of complex history trees.
   - [smashingmagazine.com: Getting The Most Out Of Git](https://www.smashingmagazine.com/2021/02/getting-the-most-out-of-git)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explores productivity-boosting mechanisms in Git, including aliases, stash strategies, and conflict-resolution processes. It helps developers move past standard commit/push commands into advanced staging management and history navigation techniques.
@@ -785,6 +856,13 @@
   - [dev.to: How to Use Git Stash Command](https://dev.to/mwafrika/how-to-use-git-stash-command-22bk) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Quick operational guide focusing on practical everyday Git stash operations. Outlines how to isolate unstaged changes quickly without committing incomplete features, ideal for immediate reference during high-frequency development cycles.
   - [opensource.com: 4 tips for context switching in Git](https://opensource.com/article/21/4/context-switching-git) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explores efficient productivity tactics for pivoting between hotfixes and active development cycles. Details native mechanisms including `git worktree` and `git stash` to manage disjointed working states and isolate development dependencies.
   - [css-tricks.com: Git: Switching Unstaged Changes to a New Branch](https://css-tricks.com/git-switching-unstaged-changes-to-a-new-branch) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Offers concrete workflows for isolating and moving accidental master/main modifications into a cleanly isolated feature branch. Demonstrates terminal patterns using checkout/switch commands while safeguarding index status.
+## Version Control (1)
+
+### Git
+
+#### Developer Workflows
+
+  - **(2023)** [GitKraken Git Cheat](https://www.gitkraken.com/pdfs/gitkraken-git-gui-cheat-sheet) <span class='md-tag md-tag--warning'>[PDF CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A visual Git guide produced by GitKraken that bridges command-line mechanics with GUI visualization models. It simplifies complex branching topologies, remote stashing, and cherry-picking routines to help multi-developer teams prevent state deviation.
 
 ---
 💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Cheatsheets](./cheatsheets.md)

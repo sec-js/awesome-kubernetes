@@ -5,18 +5,6 @@
 
 ## Standard Reference
 
-  - [Enterprise Web App Patterns - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/web-apps/guides/enterprise-app-patterns/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [diagrams.net](https://www.drawio.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [acloudguru.com: The top cloud diagramming tools, ranked](https://www.pluralsight.com/resources/blog/cloud/the-top-cloud-diagramming-tools-ranked)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhat.com: 6 architectural diagramming tools for cloud infrastructure](https://www.redhat.com/en/blog/diagramming-tools-cloud-infrastructure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhat.com: Try these 5 diagramming tools for network architecture](https://www.redhat.com/en/blog/diagramming-tools-network-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhat.com: Design professional enterprise architecture diagrams with this open source tool (diagrams.net)](https://www.redhat.com/en/blog/design-enterprise-architecture-diagrams)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Azure Architecture Icons](https://learn.microsoft.com/en-us/azure/architecture/icons)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloudcraft.co](https://www.cloudcraft.co)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [diagrams.net: Use Cloudcraft to export your AWS architecture to a .drawio diagram](https://www.drawio.com/blog/drawio-aws-cloudcraft)
-  - [draw.io](https://app.diagrams.net)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [CloudMapper (OSS)](https://duo.com/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Lucidchart](https://www.lucidchart.com/pages)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [==Lucidscale: Import your architecture==](https://lucid.co/lucidscale) Lucidscale is the cloud visualization solution that helps organizations see and understand their cloud environment.
-  - [Lucidchart](https://lucid.co/marketplace/91074b9b/aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloudogu/k8s-diagrams](https://github.com/cloudogu/k8s-diagrams) <span class='md-tag md-tag--info'>⭐ 339</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Architecture Best Practices for Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/well-architected/service-guides/azure-kubernetes-service)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [CloudCanvas - Diagramming for Cloud Infrastructure](https://cloudcanvas.co)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -52,6 +40,52 @@
   - [feluelle/airflow-diagrams](https://github.com/feluelle/airflow-diagrams) <span class='md-tag md-tag--info'>⭐ 359</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/contino-engineering: Data Pipeline Orchestration - Using Amazon' Managed Workflows for Apache Airflow (MWAA)](https://medium.com/contino-engineering/data-pipeline-orchestration-using-amazon-managed-workflows-for-apache-airflow-mwaa-60e5b213a0a7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Architecture Visualisation
+
+### Cloud Diagrams
+
+#### Cloudcraft
+
+  - **(2026)** [cloudcraft.co](https://www.cloudcraft.co)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Secondary entry for Cloudcraft, stressing its functionality in live-synced AWS architecture modeling, resource topology discovery, and structural cost projection.
+### Design Assets
+
+#### Azure
+
+  - **(2026)** [Azure Architecture Icons](https://learn.microsoft.com/en-us/azure/architecture/icons) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official Microsoft Azure architectural icon library. Essential resource for standardizing diagrams, topology designs, and technical reference guides for complex cloud deployments.
+### Diagramming Tools
+
+#### Cloud Infrastructure
+
+  - **(2021)** [redhat.com: 6 architectural diagramming tools for cloud infrastructure](https://www.redhat.com/en/blog/diagramming-tools-cloud-infrastructure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated evaluation of six architectural visualization utilities optimized for mapping cloud topologies. Highlights open-source software integration, collaborative multi-user modes, and programmatic generation options.
+#### Comparison
+
+  - **(2021)** [acloudguru.com: The top cloud diagramming tools, ranked](https://www.pluralsight.com/resources/blog/cloud/the-top-cloud-diagramming-tools-ranked)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comparative evaluation of modern cloud architecture diagramming solutions. Ranks options based on real-time collaboration features, shape libraries, automation, and cost models.
+#### Lucidchart
+
+  - **(2026)** [Lucidchart](https://www.lucidchart.com/pages)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Premium cloud-native workspace for collaboration and diagram creation. Includes 'Lucidscale' technology for automatically converting multicloud infrastructure APIs into comprehensive diagrams.
+  - **(2026)** [Lucidchart](https://lucid.co/marketplace/91074b9b/aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Lucidchart's integration pathway for AWS architecture imports, showing the dynamic rendering of VPC setups, IAM policies, and active compute instances.
+#### Network Topology
+
+  - **(2021)** [redhat.com: Try these 5 diagramming tools for network architecture](https://www.redhat.com/en/blog/diagramming-tools-network-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Identifies five diagramming tools tailored specifically to high-density network architecture planning. Evaluates asset libraries, port-mapping capabilities, and standard routing representations.
+#### draw.io
+
+  - **(2026)** [diagrams.net](https://www.drawio.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Access portal to Draw.io (diagrams.net), a highly customizable open-source browser and desktop application for constructing detailed infrastructure topology maps, network diagrams, and UML schemas.
+  - **(2026)** [draw.io](https://app.diagrams.net)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Web interface of the diagrams.net visualization application. Enables highly collaborative vector modeling with direct export hooks into GitHub, Google Drive, and local storage formats.
+  - **(2022)** [redhat.com: Design professional enterprise architecture diagrams with this open source tool (diagrams.net)](https://www.redhat.com/en/blog/design-enterprise-architecture-diagrams)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews diagrams.net as an enterprise tool for system architects. Highlights its rich support for native integration into Git repositories, custom shape libraries, and zero-trust self-hosting compliance.
+## Cloud Architecture
+
+### Visualization and Security
+
+#### CloudMapper
+
+  - **(2020)** [CloudMapper (OSS)](https://duo.com/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reference detailing CloudMapper's capability to run audits against raw cloud-provider APIs, facilitating dependency analysis and isolating orphaned routing records.
+## Infrastructure
+
+### Developer Tooling
+
+#### Design Patterns
+
+  - **(2023)** [Enterprise Web App Patterns - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/web-apps/guides/enterprise-app-patterns/overview) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive patterns from the Azure Architecture Center guiding development of enterprise web apps. Demonstrates decoupling strategies, state management, Zero Trust endpoint security, and microservice communication topologies.
 ## Platform Engineering
 
 ### AI Integration

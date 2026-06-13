@@ -5,17 +5,6 @@
 
 ## Standard Reference
 
-  - [searchitoperations.techtarget.com: Kubernetes policy project takes enterprise IT by storm](https://www.techtarget.com/searchitoperations/news/252467102/Kubernetes-policy-project-takes-enterprise-IT-by-storm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [fugue.co: 5 tips for using the Rego language for Open Policy Agent (OPA)](https://snyk.io/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.openshift.com: Fine-Grained Policy Enforcement in OpenShift with Open Policy Agent 🌟](https://www.redhat.com/en/blog/fine-grained-policy-enforcement-in-openshift-with-open-policy-agent)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [compile OpenPolicyAgent policies into WebAssembly and run them on the edge](https://github.com/open-policy-agent/contrib/tree/main/wasm/cloudflare-worker) <span class='md-tag md-tag--info'>⭐ 345</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Fugue: Container and Kubernetes. Runtime infrastructure security](https://snyk.io/product/container-vulnerability-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [searchitoperations.techtarget.com: CNCF policy-as-code project bridges Kubernetes security gaps](https://www.techtarget.com/searchitoperations/news/252505548/CNCF-policy-as-code-project-bridges-Kubernetes-security-gaps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloud.redhat.com: Automate Your Security Practices and Policies on OpenShift With Kyverno 🌟](https://www.redhat.com/en/blog/automate-your-security-practices-and-policies-on-openshift-with-kyverno)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [youtube: The Rise of Kubernetes Policy Engine | Ep 57](https://www.youtube.com/watch?v=0TvhTXddRGE&t=12s)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [appsecengineer.com: Kubernetes Policy Management with Kyverno](https://www.appsecengineer.com/courses-collection/kubernetes-policy-management-with-kyverno)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Apolicy](https://www.sysdig.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [sysdig.com: Sysdig and Apolicy join forces to help customers secure Infrastructure As Code and automate remediation](https://www.sysdig.com/blog/sysdig-and-apolicy-join-forces-to-help-customer-secure-infrastructure-as-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Docker Hardened Images for Every Developer](https://www.docker.com/blog/docker-hardened-images-for-every-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [IBM Vault 2.0 UI Enhancements and Reporting Improvements](https://t.co/cvOceuueCF)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Web-Check](https://web-check.xyz)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -95,6 +84,44 @@
 *   Eliminates the need for complex DSLs like Rego.
 *   Simplifies admission control, generation, mutation, and validation of workloads.
   - [kyverno.io: 56 sample policies 🌟](https://kyverno.io/policies) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A rich library of ready-to-use Kyverno policy definitions. These templates address common cloud security standards (Pod Security Standards, multi-tenancy constraints, best practices, and resource optimization parameters) for instant cluster hardening.
+## Cloud Native Security
+
+### Infrastructure Security
+
+#### IaC Scanning
+
+  - **(2021)** [Apolicy](https://www.sysdig.com) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Apolicy (acquired by Sysdig) provides advanced policy-as-code governance designed for shifting cloud security left. Scans Infrastructure-as-Code (IaC) templates and automatically matches security rules to production deployment settings.
+#### Mergers and Acquisitions
+
+  - **(2021)** [sysdig.com: Sysdig and Apolicy join forces to help customers secure Infrastructure As Code and automate remediation](https://www.sysdig.com/blog/sysdig-and-apolicy-join-forces-to-help-customer-secure-infrastructure-as-code) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry announcement detailing Sysdig's acquisition of Apolicy. Highlights the integration of IaC security analysis with runtime monitoring to establish unified, end-to-end security loops from Git commits to production containers.
+#### Runtime Analysis
+
+  - **(2024)** [Fugue: Container and Kubernetes. Runtime infrastructure security](https://snyk.io/product/container-vulnerability-management) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Fugue (now integrated under Snyk Container security suite) delivers continuous compliance and automated infrastructure monitoring for AWS, Azure, and Google Cloud alongside Kubernetes runtime configurations, mapping live states to CIS Benchmarks and SOC 2 frameworks.
+### Policy-as-Code (1)
+
+#### Educational Video
+
+  - **(2021)** [youtube: The Rise of Kubernetes Policy Engine | Ep 57](https://www.youtube.com/watch?v=0TvhTXddRGE&t=12s) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An informative panel discussion examining the rise of Kubernetes policy engines. Tracks the evolution from manual auditing workflows to declarative, automated gatekeeping systems using OPA Gatekeeper and Kyverno.
+#### Governance
+
+  - **(2021)** [searchitoperations.techtarget.com: CNCF policy-as-code project bridges Kubernetes security gaps](https://www.techtarget.com/searchitoperations/news/252505548/CNCF-policy-as-code-project-bridges-Kubernetes-security-gaps) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry report outlining CNCF policy-as-code initiatives designed to patch security deficiencies within container orchestration. Compares the operational paradigms of Rego-based OPA and YAML-native Kyverno for policy-driven environments.
+#### Kyverno
+
+  - **(2024)** [==A Kyverno policy to block custom snippet configurations for Kubernetes Nginx ingress (CVE-2021-25742==](https://github.com/kubernetes/kubernetes/issues/126811) <span class='md-tag md-tag--info'>⭐ 122403</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A critical Kyverno security policy designed to block custom Nginx Ingress snippet configurations, preventing exploitation of CVE-2021-25742. Demonstrates the practical power of declarative security rules in blocking ingress privilege escalations.
+  - **(2021)** [cloud.redhat.com: Automate Your Security Practices and Policies on OpenShift With Kyverno 🌟](https://www.redhat.com/en/blog/automate-your-security-practices-and-policies-on-openshift-with-kyverno) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Illustrates automated security practice implementation inside OpenShift clusters utilizing Kyverno. Explores Kyverno's YAML-native approach, highlighting how platform engineers write policies using standard Kubernetes resource models without learning new programming languages.
+#### Kyverno Training
+
+  - **(2023)** [appsecengineer.com: Kubernetes Policy Management with Kyverno](https://www.appsecengineer.com/courses-collection/kubernetes-policy-management-with-kyverno) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An educational course focusing on Kyverno-driven Kubernetes policy engineering. Walks developers and SREs through writing advanced manifest mutation, generation, and validation policies with real-world scenarios.
+#### OPA
+
+  - **(2020)** [searchitoperations.techtarget.com: Kubernetes policy project takes enterprise IT by storm](https://www.techtarget.com/searchitoperations/news/252467102/Kubernetes-policy-project-takes-enterprise-IT-by-storm) <span class='md-tag md-tag--warning'>[REGO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the massive industry shift toward Open Policy Agent (OPA) for centralized, policy-as-code enforcement. Emphasizes OPA's ability to unify policy layers across different tools like Kubernetes admission controllers, API gateways, and CI/CD pipelines.
+  - **(2020)** [blog.openshift.com: Fine-Grained Policy Enforcement in OpenShift with Open Policy Agent 🌟](https://www.redhat.com/en/blog/fine-grained-policy-enforcement-in-openshift-with-open-policy-agent) <span class='md-tag md-tag--warning'>[REGO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive technical article by Red Hat showcasing fine-grained policy enforcement in OpenShift using Open Policy Agent. Details how to intercept Kubernetes API requests via admission controllers to block non-compliant resource deployments programmatically.
+#### OPA Wasm
+
+  - **(2025)** [==compile OpenPolicyAgent policies into WebAssembly and run them on the edge==](https://github.com/open-policy-agent/contrib/tree/main/wasm/cloudflare-worker) <span class='md-tag md-tag--info'>⭐ 345</span> <span class='md-tag md-tag--warning'>[WEBASSEMBLY CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source utility that compiles declarative Open Policy Agent (Rego) policies into high-performance WebAssembly (Wasm) modules. Designed for lightning-fast security and routing decisions at edge platforms like Cloudflare Workers and Envoy proxies.
+#### Rego
+
+  - **(2021)** [fugue.co: 5 tips for using the Rego language for Open Policy Agent (OPA)](https://snyk.io/blog) <span class='md-tag md-tag--warning'>[REGO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An additional collection of advanced Rego development practices, focusing on unit-testing frameworks, mock injections, and playground emulator tools to ensure policy robustness and security governance.
 ## Identity and Access Management
 
 ### Cloud IAM

@@ -5,21 +5,7 @@
 
 ## Standard Reference
 
-  - [kruschecompany.com: What is a Kubernetes Operator and Where it Can be Used?](https://kruschecompany.com/wp-content/uploads/2020/01/kubernetes-operator.jpg)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kruschecompany.com: Prometheus Operator – Installing Prometheus Monitoring Within The Kubernetes Environment](https://kruschecompany.com/page-not-found)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [kube-fluentd-operator 🌟](https://github.com/vmware-archive/kube-fluentd-operator) <span class='md-tag md-tag--info'>⭐ 321</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [contentful.com: Open-sourcing kube-secret-syncer: A Kubernetes operator to sync secrets from AWS Secrets Manager](https://www.contentful.com/blog/open-source-kube-secret-syncer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [contentful-labs/kube-secret-syncer 🌟](https://github.com/contentful-labs/kube-secret-syncer)
-  - [isaaguilar/terraform-operator: Terraform Operator](https://github.com/GalleyBytes/terraform-operator) <span class='md-tag md-tag--info'>⭐ 381</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [openshift.com: Is your Operator Air-Gap Friendly?](https://www.redhat.com/en/blog/is-your-operator-air-gap-friendly)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [kuberhealthy 🌟](https://github.com/kuberhealthy/kuberhealthy) <span class='md-tag md-tag--info'>⭐ 2235</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Capsule Operator](https://github.com/projectcapsule/capsule) <span class='md-tag md-tag--info'>⭐ 2082</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/2-alchemists/krossboard-kubernetes-operator](https://github.com/2-alchemists/krossboard) <span class='md-tag md-tag--info'>⭐ 63</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloud.redhat.com: Red Hat Container Community of Practice Operators](https://www.redhat.com/en/blog/red-hat-container-community-of-practice-operators)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [openshift.com: 7 Best Practices for Writing Kubernetes Operators: An SRE Perspective](https://www.redhat.com/en/blog/7-best-practices-for-writing-kubernetes-operators-an-sre-perspective)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [openshift.com: Build Your Kubernetes Operator With the Right Tool 🌟](https://www.redhat.com/en/blog/build-your-kubernetes-operator-with-the-right-tool)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [brennerm.github.io: Kubernetes operators with Python #1: Creating CRDs](https://shipit.dev/posts/k8s-operators-with-python-part-1.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [metalbear.co: Writing a Kubernetes Operator](https://metalbear.com/blog/writing-a-kubernetes-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [KPIs](https://www.kpi.org/KPI-Basics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [operatorhub.io](https://operatorhub.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [How Kubernetes Operators Fit into Platform Building and When Traditional IaC Isn't Enough](https://www.thestack.technology/how-kubernetes-operators-fit-into-to-platform-building-and-when-traditional-iac-isnt-enough)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hashicorp.com: Creating Workspaces with the HashiCorp Terraform Operator' for Kubernetes](https://www.hashicorp.com/blog/creating-workspaces-with-the-hashicorp-terraform-operator-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -204,7 +190,54 @@ Live Grounding: Provisions GPU drivers, container runtimes, device plug-ins, and
 #### Argo CD
 
   - [feat(ui): Add AppSet to Application Resource Tree in Argo CD](https://github.com/argoproj/argo-cd/pull/26601) <span class='md-tag md-tag--info'>⭐ 22950</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official GitHub pull request introducing ApplicationSet rendering directly inside the Argo CD UI Resource Tree. This highly demanded improvement provides cluster administrators with superior visibility into generated application topologies and dependencies directly from the dashboard.
-## Platform Engineering
+## Infrastructure
+
+### Infrastructure-as-Code
+
+#### Kubernetes Operators (1)
+
+  - **(2025)** [==isaaguilar/terraform-operator: Terraform Operator==](https://github.com/GalleyBytes/terraform-operator) <span class='md-tag md-tag--info'>⭐ 381</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The Terraform Operator by GalleyBytes allows developers to run standard Terraform plans and applies directly within Kubernetes clusters as Custom Resources. It bridges the gap between cluster state declaration and external infrastructure provisioning, allowing platform teams to unified GitOps operations.
+### Kubernetes
+
+#### Architectural Patterns
+
+  - **(2020)** [kruschecompany.com: What is a Kubernetes Operator and Where it Can be Used?](https://kruschecompany.com/wp-content/uploads/2020/01/kubernetes-operator.jpg) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An visual architectural diagram and explainer delineating the Kubernetes Operator pattern. It details how controllers extend the Kubernetes control plane via Custom Resource Definitions (CRDs) to orchestrate complex stateful operations automatically. It is a vital educational resource for system administrators transiting into platform engineering roles.
+#### Cost Optimization
+
+  - **(2022)** [==github.com/2-alchemists/krossboard-kubernetes-operator==](https://github.com/2-alchemists/krossboard) <span class='md-tag md-tag--info'>⭐ 63</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The Krossboard Operator collects, normalizes, and consolidates configuration and utilization metrics across multi-cloud Kubernetes clusters. It targets FinOps automation by tracking usage trends and generating comprehensive billing insights inside multi-tenant environments.
+#### Developer Experience
+
+  - **(2021)** [openshift.com: Build Your Kubernetes Operator With the Right Tool 🌟](https://www.redhat.com/en/blog/build-your-kubernetes-operator-with-the-right-tool) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative technical study analyzing the primary toolsets available for constructing Kubernetes operators, contrasting Go-based SDKs with Helm and Ansible frameworks. It aligns tool selections with the Operator Maturity Model to help architects pick the correct framework for their specific application lifecycle needs.
+#### Log Management
+
+  - **(2024)** [==kube-fluentd-operator 🌟==](https://github.com/vmware-archive/kube-fluentd-operator) <span class='md-tag md-tag--info'>⭐ 321</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An operator originally developed by VMware to dynamically build and scale namespace-specific Fluentd logging configurations within Kubernetes. Live grounding confirms the repository is archived by VMware, signaling a shift toward OpenTelemetry-based logging operators or standardized Fluent Bit routing layers.
+#### Multi-Tenancy
+
+  - **(2026)** [==Capsule Operator==](https://github.com/projectcapsule/capsule) <span class='md-tag md-tag--info'>⭐ 2082</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Capsule is an advanced multi-tenancy operator that transforms a single physical Kubernetes cluster into a secure, multi-tenant environment. It aggregates namespaces into logical 'tenants' and enforces strict quota controls, network isolation, and dynamic ingress classes, serving as a core foundation for lightweight platform engineering designs.
+#### Observability and Monitoring
+
+  - **(2025)** [==kuberhealthy 🌟==](https://github.com/kuberhealthy/kuberhealthy) <span class='md-tag md-tag--info'>⭐ 2235</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kuberhealthy is an operator-based synthetic monitoring platform that validates Kubernetes cluster functionality by performing real-world actions as background jobs (e.g., executing actual DNS lookups or scaling test pods). It prevents silent cluster degradation by checking actual operational behavior rather than simple static metrics.
+#### Platform Engineering
+
+  - **(2021)** [cloud.redhat.com: Red Hat Container Community of Practice Operators](https://www.redhat.com/en/blog/red-hat-container-community-of-practice-operators) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory guide highlighting Red Hat's Container Community of Practice (CoP) operators, designed to solve standard platform-engineering tasks like namespace provisioning, security policy enforcement, and dynamic RBAC bindings. It represents a vital reference for building enterprise-grade platform controls.
+#### SRE and Performance
+
+  - **(2020)** [openshift.com: 7 Best Practices for Writing Kubernetes Operators: An SRE Perspective](https://www.redhat.com/en/blog/7-best-practices-for-writing-kubernetes-operators-an-sre-perspective) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An SRE-centric guide by Red Hat outlining seven best practices for writing high-performance, resilient Kubernetes operators. It addresses crucial engineering patterns like reconciliation loop idempotency, structured logging format, Prometheus metrics exposition, and error backoff handling.
+#### Security and Compliance
+
+  - **(2021)** [openshift.com: Is your Operator Air-Gap Friendly?](https://www.redhat.com/en/blog/is-your-operator-air-gap-friendly) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural guidebook from Red Hat outlining strategies for designing, packing, and maintaining Kubernetes operators inside highly-secured, disconnected (air-gapped) environments. It explores localized metadata mirroring, private container registries, and proxy routing restrictions, crucial for financial and defense platforms.
+#### Software Development
+
+  - **(2023)** [metalbear.co: Writing a Kubernetes Operator](https://metalbear.com/blog/writing-a-kubernetes-operator) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed engineering walkthrough illustrating the mechanics of building native controllers utilizing advanced Go framework layers or modern Rust-based Kubernetes SDKs. The guide focuses on standardizing watch, list, and reconciliation actions to sync intended and actual cluster state.
+  - **(2020)** [brennerm.github.io: Kubernetes operators with Python #1: Creating CRDs](https://shipit.dev/posts/k8s-operators-with-python-part-1.html) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A hands-on developer tutorial focused on building native Kubernetes Operators using Python. It guides developers through registering Custom Resource Definitions (CRDs) and implementing control loops, presenting a robust alternative to Go for infrastructure teams with deep Python expertise.
+## Organizational Dynamics
+
+### Management
+
+#### KPI Frameworks
+
+  - **(2023)** [KPIs](https://www.kpi.org/KPI-Basics) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Core reference documentation on the design, deployment, and auditing of Key Performance Indicators (KPIs). Useful for mapping cloud infrastructure metrics to quantitative operational and organizational success.
+## Platform Engineering (1)
 
 ### Compute
 
@@ -213,6 +246,11 @@ Live Grounding: Provisions GPU drivers, container runtimes, device plug-ins, and
   - [Sharing a NVIDIA GPU Between Pods in Kubernetes](https://www.cloudnativedeepdive.com/sharing-a-nvidia-gpu-between-pods-in-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Explores the technicalities of sharing physical NVIDIA GPUs among multiple Pods in Kubernetes. Covers GPU fractional slicing, Multi-Instance GPU (MIG) strategies, and workload optimization for ML/AI clusters.
 ## Security
 
+### Secret Management
+
+#### AWS Integration
+
+  - **(2021)** [contentful.com: Open-sourcing kube-secret-syncer: A Kubernetes operator to sync secrets from AWS Secrets Manager](https://www.contentful.com/blog/open-source-kube-secret-syncer) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical blog post by Contentful outlining their architectural motivation for open-sourcing kube-secret-syncer. It explains how the custom operator safely mirrors credentials from AWS Secrets Manager directly into Kubernetes Secrets.
 ### Secrets Management
 
 #### Cloud Integrations

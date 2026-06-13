@@ -5,35 +5,7 @@
 
 ## Standard Reference
 
-  - [Using Version Control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [A multi-step tutorial that covers the basics of working with Docker with Visual Studio Code and deploy on Azure](https://learn.microsoft.com/en-us/visualstudio/docker/tutorials/docker-tutorial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dev.to: Video: Visualize the architecture of your Java app, in VS Code, in 2 ¹/₂ minutes](https://dev.to/appmap/video-visualize-the-architecture-of-your-java-app-in-vs-code-in-2-minutes-568j)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [serverless-stack.com: How to debug Lambda functions with Visual Studio Code](https://guide.sst.dev/examples/how-to-debug-lambda-functions-with-visual-studio-code.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.blog: VS Code: Now creating pull requests 🌟](https://github.blog/news-insights/product-news/create-pull-requests-in-vscode)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dev.to: Visual Studio Code - Tips & Tricks - Command Palette and its friends](https://dev.to/playfulprogramming/visual-studio-code-tips-tricks-command-palette-and-its-friends-2bhi)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dev.to/this-is-learning: Visual Studio Code - Tips & Tricks - Snippets](https://dev.to/playfulprogramming/visual-studio-code-tips-tricks-snippets-5041)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [VSCode Updates](https://code.visualstudio.com/updates/v1_120)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Flexible layout 🌟](https://code.visualstudio.com/updates/v1_120/v1_46#_flexible-layout)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [GitLens interactive rebase](https://github.com/gitkraken/vscode-gitlens#interactive-rebase-editor-) <span class='md-tag md-tag--info'>⭐ 9822</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [Helm Intellisense](https://marketplace.visualstudio.com/items?utm_sq=ggv6n6jy52&itemName=Tim-Koehler.helm-intellisense&ssr=false#overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [CloudFormation Snippets 🌟](https://marketplace.visualstudio.com/items?itemName=dannysteenman.cloudformation-yaml-snippets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [GitHub Actions 🌟](https://marketplace.visualstudio.com/items?itemName=github.vscode-github-actions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Azure/vscode-kubernetes-tools 🌟](https://github.com/vscode-kubernetes-tools/vscode-kubernetes-tools) <span class='md-tag md-tag--info'>⭐ 757</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Unleashing GitHub Copilot for Infrastructure as Code (powershell, terraform, etc)](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/unleashing-github-copilot-for-infrastructure-as-code/4124031)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [GitLab Workflow](https://marketplace.visualstudio.com/items?itemName=gitlab.gitlab-workflow)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Terraform](https://marketplace.visualstudio.com/items?itemName=hashicorp.terraform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Integrated Terminal](https://code.visualstudio.com/docs/terminal/basics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.golang.org: Gopls on by default in the VS Code Go extension](https://go.dev/blog/gopls-vscode-go)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Repl.it](https://replit.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [openshift.com: Visual Web Terminal - A Turbocharged Command Line for Kubernetes and OpenShift](https://www.redhat.com/en/blog/visual-web-terminal-a-turbocharged-command-line-for-kubernetes-and-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.dev](https://github.dev/github/dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [gitpod.io 🌟🌟](https://ona.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Extensión de Visual Studio Code que genera tests y mejora tu código](https://www.youtube.com/shorts/hmq195GRYCI?si=8knOM1y50V6JcRlk)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [New VS Code Release Highlights v1.86](https://www.youtube.com/shorts/bVlIo4H0IDU)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [File Icon Theme](https://www.youtube.com/shorts/i0V1bHybv5w?si=y42F3QjNFVouu3s8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Learn with Copilot](https://www.youtube.com/shorts/rjmXBs5l_7M?si=UlQ4q1-B-JOiYwrn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Visualize your git repo in vscode with Git Graph extensions](https://www.youtube.com/shorts/vpFF1XSqWjw?si=Zr2eW_C3_3hQoXAa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [How to be a professional (un)wrapper #vscode #programmingtools #coding](https://www.youtube.com/shorts/yuzKp_KsGIk?si=ooaqRJzW2cmf6Z2M)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Google Cloud Code](https://cloud.google.com/code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Visual Studio Code JCasC-Plugin 🌟](https://marketplace.visualstudio.com/items?itemName=jcasc-developers.jcasc-plugin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Awesome Visual Studio Code](https://github.com/viatsko/awesome-vscode) <span class='md-tag md-tag--info'>⭐ 28668</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
@@ -226,6 +198,88 @@
 #### Kubernetes Integration
 
   - [blog.getambassador.io: Debugging Go Microservices in Kubernetes with VScode](https://blog.getambassador.io/debugging-go-microservices-in-kubernetes-with-vscode-a36beb48ef1) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explores techniques for real-time remote debugging of Go microservices running inside a Kubernetes cluster using Telepresence and VSCode, bridging local development environments with cloud resources.
+## Development Environments
+
+### Cloud IDEs
+
+#### CDE
+
+  - **(2019)** [gitpod.io 🌟🌟](https://ona.com) <span class='md-tag md-tag--warning'>[POLYGLOT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Gitpod provides Ephemeral Cloud Development Environments (CDEs) automated by Git triggers. It prebuilds workspaces with dependencies, licenses, and compilers, letting engineers begin writing code instantly.
+#### Online Sandboxes
+
+  - **(2016)** [Repl.it](https://replit.com) <span class='md-tag md-tag--warning'>[POLYGLOT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive, collaborative cloud workspace supporting over fifty languages. Replit incorporates instant deployment engines, hosting layers, and AI pairing models to democratize software construction.
+#### Web Editors
+
+  - **(2021)** [github.dev](https://github.dev/github/dev) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A fully web-based implementation of VS Code launched instantly from any GitHub repo by pressing `.`. It operates purely in the browser for code browsing, quick patches, and pull request reviews.
+## Development Tools
+
+### AI Assistance
+
+#### Copilot
+
+  - **(2023)** [Learn with Copilot](https://www.youtube.com/shorts/rjmXBs5l_7M?si=UlQ4q1-B-JOiYwrn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how to leverage GitHub Copilot as a learning tutor inside VS Code, instructing it to break down unfamiliar APIs, debug output stacks, and explain complex shell code.
+#### IaC
+
+  - **(2024)** [techcommunity.microsoft.com: Unleashing GitHub Copilot for Infrastructure as Code (powershell, terraform, etc)](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/unleashing-github-copilot-for-infrastructure-as-code/4124031) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores how AI pair programmers like GitHub Copilot can be leveraged to draft secure and high-quality Infrastructure as Code templates, specializing in Terraform, PowerShell, and ARM templates.
+### VS Code
+
+#### AI Assistance (1)
+
+  - **(2023)** [Extensión de Visual Studio Code que genera tests y mejora tu código](https://www.youtube.com/shorts/hmq195GRYCI?si=8knOM1y50V6JcRlk) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A Spanish-language short format video discussing AI-driven extensions that automatically write unit test suites and suggest refactoring operations to optimize runtime efficiency.
+#### Architecture Visualization
+
+  - **(2022)** [dev.to: Video: Visualize the architecture of your Java app, in VS Code, in 2 ¹/₂ minutes](https://dev.to/appmap/video-visualize-the-architecture-of-your-java-app-in-vs-code-in-2-minutes-568j) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introduction to AppMap for VS Code, illustrating how to automatically record and render execution paths, database queries, and architectural layouts of Java applications in real time.
+#### CICD Extensions
+
+  - **(2022)** [GitHub Actions 🌟](https://marketplace.visualstudio.com/items?itemName=github.vscode-github-actions) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official GitHub Actions extension for VS Code, enabling developers to build, validate, monitor, and run CI/CD workflows natively within the IDE with real-time log streaming.
+  - **(2019)** [GitLab Workflow](https://marketplace.visualstudio.com/items?itemName=gitlab.gitlab-workflow) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Integrates GitLab's merge requests, issues, and CI/CD pipelines directly into VS Code, allowing platform engineers to monitor CI statuses and conduct code reviews seamlessly inside the workspace.
+#### Collaboration
+
+  - **(2018)** [github.blog: VS Code: Now creating pull requests 🌟](https://github.blog/news-insights/product-news/create-pull-requests-in-vscode) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the native evolution of the GitHub Pull Requests and Issues extension, allowing developers to create, review, comment, and merge pull requests directly within the editor workspace to minimize context switching.
+#### Customization
+
+  - **(2023)** [File Icon Theme](https://www.youtube.com/shorts/i0V1bHybv5w?si=y42F3QjNFVouu3s8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A quick video tutorial showcasing customization of file icon themes in VS Code to enhance visual identification of complex microservice structures and directory components.
+#### Docker Deployment
+
+  - **(2021)** [A multi-step tutorial that covers the basics of working with Docker with Visual Studio Code and deploy on Azure](https://learn.microsoft.com/en-us/visualstudio/docker/tutorials/docker-tutorial) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive learning pathway walking developers through building, debugging, and running Dockerized applications inside VS Code, followed by direct container deployment to Azure App Service or Azure Container Apps.
+#### Git Extensions
+
+  - **(2016)** [==GitLens interactive rebase==](https://github.com/gitkraken/vscode-gitlens#interactive-rebase-editor-) <span class='md-tag md-tag--info'>⭐ 9822</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Detailed documentation on GitLens' visual interactive rebase tool, which translates raw CLI rebase structures into a drag-and-drop workspace UI within VS Code, significantly reducing risks when rewriting commit histories.
+  - **(2023)** [Visualize your git repo in vscode with Git Graph extensions](https://www.youtube.com/shorts/vpFF1XSqWjw?si=Zr2eW_C3_3hQoXAa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the Git Graph extension in VS Code, allowing visual tracking of branching strategies, commits, and tag histories to keep distributed teams aligned during fast deployment periods.
+#### IaC Extensions
+
+  - **(2020)** [Terraform](https://marketplace.visualstudio.com/items?itemName=hashicorp.terraform) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official HashiCorp Terraform extension, offering syntax highlighting, autocompletion, real-time dry-runs, and direct module documentation linkings to enforce clean IaC creation.
+  - **(2019)** [CloudFormation Snippets 🌟](https://marketplace.visualstudio.com/items?itemName=dannysteenman.cloudformation-yaml-snippets) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive collection of AWS CloudFormation snippets formatted for both YAML and JSON, offering platform engineers rapid, boilerplate-free template creation for AWS infrastructure stacks.
+#### Kubernetes Extensions
+
+  - **(2017)** [==Azure/vscode-kubernetes-tools 🌟==](https://github.com/vscode-kubernetes-tools/vscode-kubernetes-tools) <span class='md-tag md-tag--info'>⭐ 757</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Developed by Microsoft/Azure, this foundational extension integrates cluster management, manifest linting, Helm support, and debug workflows directly into the editor for effortless Kubernetes operations.
+  - **(2018)** [Helm Intellisense](https://marketplace.visualstudio.com/items?utm_sq=ggv6n6jy52&itemName=Tim-Koehler.helm-intellisense&ssr=false#overview) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A standard-setting VS Code extension that enables autocompletion and path matching for Helm chart values files inside template paths, eliminating common typo bugs and deployment failures during manifest compilation.
+#### Language Servers
+
+  - **(2021)** [blog.golang.org: Gopls on by default in the VS Code Go extension](https://go.dev/blog/gopls-vscode-go) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Announces the standard integration of Gopls, the official Go language server, into the VS Code Go extension, ensuring native refactoring, precise definition hopping, and autocompletion for Go developers.
+#### Productivity
+
+  - **(2024)** [How to be a professional (un)wrapper #vscode #programmingtools #coding](https://www.youtube.com/shorts/yuzKp_KsGIk?si=ooaqRJzW2cmf6Z2M)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores shortcut combinations in VS Code to efficiently wrap and unwrap block tags and brackets, improving the speed of drafting and editing structured YAML or JSON templates.
+  - **(2020)** [dev.to: Visual Studio Code - Tips & Tricks - Command Palette and its friends](https://dev.to/playfulprogramming/visual-studio-code-tips-tricks-command-palette-and-its-friends-2bhi) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structural guide detailing productivity hacks with VS Code's Command Palette (Ctrl+Shift+P) and keybindings, designed to facilitate fast search, configuration changes, and command executions for power users.
+  - **(2020)** [dev.to/this-is-learning: Visual Studio Code - Tips & Tricks - Snippets](https://dev.to/playfulprogramming/visual-studio-code-tips-tricks-snippets-5041) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Teaches developers how to write and configure custom user snippets in VS Code, allowing rapid injection of frequently used code patterns and structural templates into diverse codebases.
+  - **(2016)** [Integrated Terminal](https://code.visualstudio.com/docs/terminal/basics) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive documentation of VS Code's integrated terminal, highlighting support for multiple shells, profile configurations, and task automation without leaving the application window.
+#### Release Notes
+
+  - **(2026)** [VSCode Updates](https://code.visualstudio.com/updates/v1_120) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official release notes detailing the latest features, UX enhancements, and API updates of the monthly VS Code release cycle, highlighting ongoing integrations with AI agents and modern platform tooling.
+  - **(2024)** [New VS Code Release Highlights v1.86](https://www.youtube.com/shorts/bVlIo4H0IDU)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — High-speed video digest covering release highlights of VS Code v1.86, pointing out user interface improvements, native Git revisions, and terminal auto-completions.
+#### Serverless Debugging
+
+  - **(2021)** [serverless-stack.com: How to debug Lambda functions with Visual Studio Code](https://guide.sst.dev/examples/how-to-debug-lambda-functions-with-visual-studio-code.html) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This guide explains how to leverage the SST (Serverless Stack) framework in VS Code to live-debug AWS Lambda functions locally. It enables breakpoints and live state evaluation against real AWS services without redeploying.
+#### Version Control
+
+  - **(2015)** [Using Version Control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official guide detailing VS Code's native source control integration, enabling developers to execute Git workflows directly within the editor. It covers staging, committing, branching, and resolving merge conflicts without switching to an external terminal.
+## Kubernetes
+
+### Developer Experience
+
+#### Web Console
+
+  - **(2020)** [openshift.com: Visual Web Terminal - A Turbocharged Command Line for Kubernetes and OpenShift](https://www.redhat.com/en/blog/visual-web-terminal-a-turbocharged-command-line-for-kubernetes-and-openshift) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces Red Hat's Visual Web Terminal, combining standard CLI controls with graphical elements for OpenShift. It maps cluster payloads dynamically to decrease complex command cognitive loads.
 
 ---
 💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [API](./api.md)

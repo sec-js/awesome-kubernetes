@@ -5,17 +5,6 @@
 
 ## Standard Reference
 
-  - [dev.to: The Awesome Side of GitHub - Awesome Lists | Leonardo Montini](https://dev.to/playfulprogramming/the-awesome-side-of-github-awesome-lists-2a5h)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Awesome kubetools](http://dockerlabs.collabnix.com/kubernetes/kubetools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [unofficial-kubernetes.readthedocs.io](https://unofficial-kubernetes.readthedocs.io/en/latest)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [steveazz/awesome-slo: Awesome SLOs](https://github.com/steve-mt/awesome-slo) <span class='md-tag md-tag--info'>⭐ 280</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Awesome Cloud Native](https://awesome.jimmysong.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [christopherhein/awesome-eks: Awesome EKS](https://github.com/jimmyraywv/awesome-eks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dawitnida/Awesome Packer](https://github.com/dchonch/awesome-packer) <span class='md-tag md-tag--info'>⭐ 30</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [shuaibiyy/Awesome Terraform](https://github.com/shuaibiyy/awesome-tf) <span class='md-tag md-tag--info'>⭐ 6510</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [anderseknert/awesome-opa 🌟](https://github.com/open-policy-agent/awesome-opa) <span class='md-tag md-tag--info'>⭐ 886</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Awesome Software Quality](https://github.com/ligurio/sqa-wiki) <span class='md-tag md-tag--info'>⭐ 2311</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [onurakpolat/awesome-bigdata](https://github.com/oxnr/awesome-bigdata) <span class='md-tag md-tag--info'>⭐ 14400</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [sahilsk/awesome-jenkins](https://github.com/sahilsk/awesome-jenkins) <span class='md-tag md-tag--info'>⭐ 70</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Hacking jenkins](https://github.com/orangetw/awesome-jenkins-rce-2019)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Awesome GitHub Actions](https://github.com/sdras/awesome-actions) <span class='md-tag md-tag--info'>⭐ 27816</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
@@ -146,6 +135,13 @@ Live Grounding: Aggregates verified integrations linking AI models to tools like
 #### Curation (1)
 
   - [github.com/tensorchord/Awesome-LLMOps: Awesome LLMOps](https://github.com/tensorchord/Awesome-LLMOps) <span class='md-tag md-tag--info'>⭐ 5797</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curated, high-quality compendium of tools, libraries, and resources for the LLMOps ecosystem. Covers framework deployment, GPU scheduling, vector databases, and evaluation tools tailored for production AI pipelines.
+## Cloud Kubernetes
+
+### AWS EKS
+
+#### EKS Ecosystem
+
+  - **(2024)** [christopherhein/awesome-eks: Awesome EKS](https://github.com/jimmyraywv/awesome-eks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated directory mapping open-source tools, controller scripts, and networking drivers optimized for AWS Elastic Kubernetes Service (EKS). Features implementations of AWS-CNI, security plugins, and IAM Roles for Service Accounts (IRSA).
 ## Cloud Native Languages
 
 ### Go
@@ -153,6 +149,13 @@ Live Grounding: Aggregates verified integrations linking AI models to tools like
 #### Awesome Lists (1)
 
   - [Awesome Go 🌟](https://github.com/avelino/awesome-go) <span class='md-tag md-tag--info'>⭐ 173341</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive curated repository of high-quality Go frameworks, libraries, and software. Unmatched resource for identifying vetted dependencies for enterprise service development.
+## Data and Analytics
+
+### Big Data
+
+#### Big Data Ecosystem
+
+  - **(2025)** [==onurakpolat/awesome-bigdata==](https://github.com/oxnr/awesome-bigdata) <span class='md-tag md-tag--info'>⭐ 14400</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive directory for the distributed data ecosystem. Highlights streaming platforms (Kafka, Flink), compute engines (Spark), and modern distributed object stores, outlining integration paths for container-orchestrated big data structures.
 ## Data Architecture
 
 ### Event Streaming
@@ -161,6 +164,24 @@ Live Grounding: Aggregates verified integrations linking AI models to tools like
 
   - [Awesome Streaming](https://github.com/manuzhang/awesome-streaming)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly curated meta-resource listing frameworks, engine architectures, academic publications, and database connectors within the streaming data ecosystem. Covers key analytical and event-driven technologies.
   - [Awesome Kafka](https://github.com/monksy/awesome-kafka/blob/master/tools.md)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A rich community collection of operational utilities, libraries, and GUI packages optimized for developers and administrators deploying and scaling Apache Kafka systems.
+## Ecosystem
+
+### Directories
+
+#### Cloud Native Directory
+
+  - **(2025)** [Awesome Cloud Native](https://awesome.jimmysong.io) <span class='md-tag md-tag--warning'>[CHINESE/ENGLISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A bilingual open-source registry maintained by CNCF Ambassador Jimmy Song. Tracks global architectures, including Service Mesh patterns, serverless engines, observability pipelines, edge configurations, and specialized cloud native applications.
+#### Kubernetes Tools
+
+  - **(2023)** [Awesome kubetools](http://dockerlabs.collabnix.com/kubernetes/kubetools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive open directory cataloging hundreds of specialized utilities designed for Kubernetes administrators. Indexes micro-tools for security audits, runtime tracing, custom YAML generation, networking visualizers, and storage operators.
+### Resources
+
+#### Meta-Guides
+
+  - **(2021)** [dev.to: The Awesome Side of GitHub - Awesome Lists | Leonardo Montini](https://dev.to/playfulprogramming/the-awesome-side-of-github-awesome-lists-2a5h)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A meta-architectural analysis of the 'Awesome' list phenomenon on GitHub. Explores how community-curated technical indexes resolve discovery bottlenecks for platform engineering teams navigating the dense, fast-moving Cloud Native Computing Foundation ecosystem.
+#### Reference Guides
+
+  - **(2022)** [unofficial-kubernetes.readthedocs.io](https://unofficial-kubernetes.readthedocs.io/en/latest)  <span class='md-tag md-tag--info'>[LEGACY]</span> — An alternative, community-hosted reference documentation mirror for Kubernetes. It serves as a secondary reference for legacy API versions, core networking layers, controller logic, and low-level Linux namespace isolation processes.
 ## Enterprise Administration
 
 ### Systems Engineering
@@ -175,13 +196,46 @@ Live Grounding: Aggregates verified integrations linking AI models to tools like
 #### Curated Lists
 
   - [Awesome CI/CD 🌟](https://github.com/cicdops/awesome-ciandcd) <span class='md-tag md-tag--info'>⭐ 1996</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly extensive, community-curated collection targeting cloud-native CI/CD. Live Grounding verifies this repository remains a vital architectural map for discovering modern delivery platforms, container orchestrators, and automated pipeline security tools.
+## Infrastructure as Code
+
+### Machine Images
+
+#### Packer Ecosystem
+
+  - **(2023)** [==dawitnida/Awesome Packer==](https://github.com/dchonch/awesome-packer) <span class='md-tag md-tag--info'>⭐ 30</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A resource list containing Packer templates, multi-cloud builders, and post-processor scripts. Assists infrastructure engineers in compiling secure, automated gold images used across hybrid environments and Kubernetes worker pool nodes.
+### Terraform
+
+#### Resource Portals
+
+  - **(2025)** [==github.com/shuaibiyy/awesome-terraform==](https://github.com/shuaibiyy/awesome-tf) <span class='md-tag md-tag--info'>⭐ 6510</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A curated, high-density directory containing community-vetted tools, modules, frameworks, and resource links related to Terraform. Tracks dynamic tools like Terragrunt, TFLint, Terrascan, and infracost, helping practitioners stay updated with state-of-the-art IaC additions.
+## Observability
+
+### Reliability Engineering
+
+#### SLO Directory
+
+  - **(2023)** [==steveazz/awesome-slo: Awesome SLOs==](https://github.com/steve-mt/awesome-slo) <span class='md-tag md-tag--info'>⭐ 280</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open repository cataloging resources, tools, frameworks, and academic literature regarding Service Level Objectives (SLOs) and Service Level Indicators (SLIs). Highly valuable for SRE teams organizing multi-tenant error budget systems in production.
+## Security
+
+### Policy as Code
+
+#### OPA Ecosystem
+
+  - **(2025)** [==anderseknert/awesome-opa 🌟==](https://github.com/open-policy-agent/awesome-opa) <span class='md-tag md-tag--info'>⭐ 886</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A curated collection of resources, testing frameworks, and integrations for Open Policy Agent (OPA). Provides engineers with practical Rego examples to enforce policy-as-code restrictions across Kubernetes admission controllers and CI/CD pipelines.
 ## Software Delivery and Engineering
 
 ### Version Control and Git
 
-#### Resources
+#### Resources (1)
 
   - [Awesome Git 🌟](https://github.com/dictcp/awesome-git) <span class='md-tag md-tag--info'>⭐ 2858</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensive, community-curated list of tools, clients, extensions, and learning pathways for Git. This list serves as an ultimate reference directory for engineers looking to optimize repository workflows and build custom git hooks.
+## Software Engineering
+
+### Quality Assurance
+
+#### Curated Lists (1)
+
+  - **(2026)** [**Awesome Software Quality**](https://github.com/ligurio/sqa-wiki) <span class='md-tag md-tag--info'>⭐ 2311</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A comprehensive, curated repository of tools, frameworks, and methodologies focused on software quality assurance, testing automation, and performance analysis. This curated collection serves as an excellent resource for software development teams establishing robust test suites and security scanning checks.
 
 ---
 💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Cheatsheets](./cheatsheets.md)

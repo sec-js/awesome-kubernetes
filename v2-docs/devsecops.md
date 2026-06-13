@@ -6,7 +6,6 @@
 ## Standard Reference
 
   - [paloaltonetworks.com: Is Your Organization Protected Against IAM Misconfiguration Risks?](https://www.paloaltonetworks.com/blog/2020/10/cloud-iam-misconfiguration-risks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [intezer.com: New Attacks on Kubernetes via Misconfigured Argo Workflows](https://intezer.com/blog/new-attacks-on-kubernetes-via-misconfigured-argo-workflows)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [armosec.io: Use Kubescape to check if your Kubernetes clusters are exposed to the latest K8s Symlink vulnerability (CVE-2021-25741)](https://www.armosec.io/cve-vulnerability-database)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Exploring the (lack of) security in a typical Docker and Kubernetes installation](https://www.neowin.net/news/exploring-the-lack-of-security-in-a-typical-docker-and-kubernets-installation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [securityboulevard.com: DevOps vs. DevSecOps – Here’s How They Fit Together](https://securityboulevard.com/2021/02/devops-vs-devsecops-heres-how-they-fit-together)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -952,6 +951,11 @@
 #### Log4j
 
   - [thehackernews.com: Microsoft Warns of Continued Attacks Exploiting Apache' Log4j Vulnerabilities](https://thehackernews.com/2022/01/microsoft-warns-of-continued-attacks.html)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Aggregates threat intelligence logs detailing the sustained exploitation profiles targeting unpatched enterprise applications. Highlights why legacy architectural paths remain active targets years after patch releases.
+### Vulnerability Analysis
+
+#### Argo Workflows
+
+  - **(2021)** [intezer.com: New Attacks on Kubernetes via Misconfigured Argo Workflows](https://intezer.com/blog/new-attacks-on-kubernetes-via-misconfigured-argo-workflows) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Security analysis documenting exploits of misconfigured Argo Workflows dashboards. Explains how exposing the Argo engine dashboard API to the public internet enables malicious actors to deploy unauthorized workflow containers, highlighting the critical necessity of strict Kubernetes RBAC and network segmentation policies.
 ### Vulnerability Management (3)
 
 #### Analysis (1)

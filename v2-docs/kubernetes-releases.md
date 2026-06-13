@@ -5,18 +5,6 @@
 
 ## Standard Reference
 
-  - [sysdig.com: What’s new in Kubernetes 1.20?](https://www.sysdig.com/blog/whats-new-kubernetes-1-20)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [openshift.com: Kubernetes is Removing Docker Support, Kubernetes is Not Removing Docker Support](https://www.redhat.com/en/blog/kubernetes-is-removing-docker-support-kubernetes-is-not-removing-docker-support)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [devclass.com: Kubernetes 1.21 unloads pod security, adds dual IPv4/IPv6 networking, and shuts down gracefully](https://www.devclass.com/containers/2021/04/09/kubernetes-121-unloads-pod-security-adds-dual-ipv4/ipv6-networking-and-shuts-down-gracefully/1623619)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [openshift.com: Kubernetes 1.21 Grows Innovative New Features](https://www.redhat.com/en/blog/kubernetes-1.21-grows-innovative-new-features)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [sysdig.com: Kubernetes 1.22 – What’s new?](https://www.sysdig.com/blog/kubernetes-1-22-whats-new)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [acloudguru.com: What’s new with Kubernetes 1.22?](https://www.pluralsight.com/resources/blog/cloud/whats-new-with-kubernetes-1-22)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [sysdig.com: Kubernetes 1.23 – What’s new?](https://www.sysdig.com/blog/kubernetes-1-23-whats-new)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [sysdig.com: Kubernetes 1.24 – What’s new?](https://www.sysdig.com/blog/kubernetes-1-24-whats-new)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [sysdig.com: Kubernetes 1.25 – What’s new?](https://www.sysdig.com/blog/kubernetes-1-25-whats-new)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [datree.io: EKS 1.22 Upgrade Tutorial](https://www.datree.io/resources/eks-1-22-upgrade-tutorial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [sysdig.com: Kubernetes 1.26 – What’s new?](https://www.sysdig.com/blog/kubernetes-1-26-whats-new)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [sysdig.com: Kubernetes 1.27 – What’s new?](https://www.sysdig.com/blog/kubernetes-1-27-whats-new)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kueue Release v0.14.0](https://github.com/kubernetes-sigs/kueue/releases/tag/v0.14.0) <span class='md-tag md-tag--info'>⭐ 2513</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [relnotes.k8s.io: Kubernetes Release Notes](https://relnotes.k8s.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [magalix: What You Should Know about Kubernetes 1.20](https://www.magalix.com/blog/what-you-should-know-about-kubernetes-1.20)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -71,6 +59,48 @@
   - [thenewstack.io: Kubernetes 1.28 Accommodates the Service Mesh, Sudden Outages](https://thenewstack.io/kubernetes-1-28-accommodates-the-service-mesh-sudden-outages)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [levelup.gitconnected.com: Kubernetes Planternetes v1.28: Non-Graceful Node' Shutdown Feature](https://levelup.gitconnected.com/kubernetes-planternetes-v1-28-non-graceful-node-shutdown-feature-8608d5073519)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Cloud Kubernetes
+
+### AWS EKS
+
+#### Cluster Upgrades
+
+  - **(2022)** [datree.io: EKS 1.22 Upgrade Tutorial](https://www.datree.io/resources/eks-1-22-upgrade-tutorial) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A practical migration manual for upgrading AWS Elastic Kubernetes Service (EKS) clusters to version 1.22. Outlines architectural prerequisites, focuses on tracking and refactoring deprecated API specs, and details validation tool usage to prevent post-upgrade scheduling outages.
+## Kubernetes Core
+
+### Container Runtimes
+
+#### Dockershim Deprecation
+
+  - **(2020)** [openshift.com: Kubernetes is Removing Docker Support, Kubernetes is Not Removing Docker Support](https://www.redhat.com/en/blog/kubernetes-is-removing-docker-support-kubernetes-is-not-removing-docker-support)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat's classic architectural explainer demystifying the Dockershim deprecation. Clarifies the difference between standard Docker developer images (fully compatible with modern CRI-compliant engines) and the underlying runtime integration layers inside the Kubelet binary.
+### Releases
+
+#### v1.20
+
+  - **(2020)** [sysdig.com: What’s new in Kubernetes 1.20?](https://www.sysdig.com/blog/whats-new-kubernetes-1-20)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed technical analysis of the landmark Kubernetes 1.20 release. Reviews structural shifts including the initial deprecation of Dockershim in favor of container runtimes like containerd and CRI-O, the graduation of volume snapshot APIs, and native API priority controls.
+#### v1.21
+
+  - **(2021)** [devclass.com: Kubernetes 1.21 unloads pod security, adds dual IPv4/IPv6 networking, and shuts down gracefully](https://www.devclass.com/containers/2021/04/09/kubernetes-121-unloads-pod-security-adds-dual-ipv4/ipv6-networking-and-shuts-down-gracefully/1623619)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical news analysis detailing the core advancements of Kubernetes 1.21. Highlights the deprecation of PodSecurityPolicy, the maturation of dual-stack IPv4/IPv6 networking, and the integration of Graceful Node Shutdown to prevent local database corruption.
+  - **(2021)** [openshift.com: Kubernetes 1.21 Grows Innovative New Features](https://www.redhat.com/en/blog/kubernetes-1.21-grows-innovative-new-features)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Enterprise perspective on Kubernetes 1.21 core updates. Reviews key optimizations like CronJobs graduating to GA, stable immutable Secrets and ConfigMaps to reduce master api load, and new volume capacity limits metrics.
+#### v1.22
+
+  - **(2021)** [sysdig.com: Kubernetes 1.22 – What’s new?](https://www.sysdig.com/blog/kubernetes-1-22-whats-new)  <span class='md-tag md-tag--warning'>[EMERGING]</span> — Technical summary outlining Kubernetes 1.22's extensive API deprecations. Deep dives into the deletion of older Ingress and CustomResourceDefinition API versions, the graduation of Server-Side Apply to general availability, and experimental node-swap support configurations.
+  - **(2021)** [acloudguru.com: What’s new with Kubernetes 1.22?](https://www.pluralsight.com/resources/blog/cloud/whats-new-with-kubernetes-1-22)  <span class='md-tag md-tag--info'>[LEGACY]</span> — An educational digest of Kubernetes 1.22 features. Discusses how the elimination of legacy v1beta1 API endpoints forces developer adaptation, along with explanations of the new beta-level Pod Security Admission subsystem designed to succeed PSP.
+#### v1.23
+
+  - **(2021)** [sysdig.com: Kubernetes 1.23 – What’s new?](https://www.sysdig.com/blog/kubernetes-1-23-whats-new)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analysis of Kubernetes 1.23, featuring Dual-Stack IPv4/IPv6 networking going GA. Highlights the beta availability of Ephemeral Containers for native pod troubleshooting and the structural introduction of the gRPC liveness and readiness probe framework.
+#### v1.24
+
+  - **(2022)** [sysdig.com: Kubernetes 1.24 – What’s new?](https://www.sysdig.com/blog/kubernetes-1-24-whats-new)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the historic release of Kubernetes 1.24, which marked the absolute removal of Dockershim from the kubelet runtime module. Evaluates secondary updates including stable CSI storage capacity tracking and default-disabled beta-level API structures.
+#### v1.25
+
+  - **(2022)** [sysdig.com: Kubernetes 1.25 – What’s new?](https://www.sysdig.com/blog/kubernetes-1-25-whats-new)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth review of Kubernetes 1.25, highlighting the complete elimination of PodSecurityPolicy and the formal elevation of Pod Security Admission (PSA) to stable. Covers cgroup v2 support graduation and local container registry modifications.
+#### v1.26
+
+  - **(2022)** [sysdig.com: Kubernetes 1.26 – What’s new?](https://www.sysdig.com/blog/kubernetes-1-26-whats-new)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical review of Kubernetes 1.26 features. Analyzes the official migration of container images to the registry.k8s.io endpoint, the progression of dynamic resource allocation APIs, and the advancement of Common Expression Language (CEL) validation within CRDs.
+#### v1.27
+
+  - **(2023)** [sysdig.com: Kubernetes 1.27 – What’s new?](https://www.sysdig.com/blog/kubernetes-1-27-whats-new)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the updates in Kubernetes 1.27. Key focuses include mutable scheduling gates for custom controllers, the absolute freeze of k8s.gcr.io traffic redirection, and the general availability of the ReadWriteOncePod volume access control specification.
 
 ---
 💡 **Explore Related:** [OCP 3](./ocp3.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)

@@ -5,20 +5,6 @@
 
 ## Standard Reference
 
-  - [cloudblogs.microsoft.com: Simple steps to create scalable processes to deploy ML models as microservices](https://opensource.microsoft.com/blog/2021/07/09/simple-steps-to-create-scalable-processes-to-deploy-ml-models-as-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [rubrix](https://github.com/argilla-io/argilla) <span class='md-tag md-tag--info'>⭐ 4981</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [infoworld.com: 13 open source projects transforming AI and machine learning](https://www.infoworld.com/article/2336757/16-open-source-projects-transforming-ai-and-machine-learning.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [semaphoreci.com: Why Do We Need DevOps for ML Data?](https://semaphore.io/blog/devops-ml-data)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [mlops.community: MLOps with Flyte: The Convergence of Workflows Between Machine Learning and Engineering](https://mlops.community/blog/mlops-with-flyte-the-convergence-of-workflows-between-machine-learning-and-engineering)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [mlops.community: MLOps Simplified: orchestrating ML pipelines with infrastructure abstraction. Enabled by Flyte](https://mlops.community/blog/flyte-mlops-simplified)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [docs.microsoft.com: MLflow and Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/concept-mlflow?view=azureml-api-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [canvatechblog.com: Supporting GPU-accelerated Machine Learning with Kubernetes and Nix](https://www.canva.dev/blog/engineering/supporting-gpu-accelerated-machine-learning-with-kubernetes-and-nix)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Nix](https://nix.dev/manual/nix/2.28)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [github.com/NVIDIA/nvidia-docker: NVIDIA/nvidia-docker/volumes.go](https://github.com/NVIDIA/nvidia-docker/blob/8c0eeba474cace48fdb8216f518063db2bd2d4d1/tools/src/nvidia/volumes.go#L103) NVIDIA’s documentation is disappointingly evasive on what the “driver” is, but we find a good answer in their official source code.
-  - [github.com/meta-llama/llama-recipes](https://github.com/meta-llama/llama-cookbook) <span class='md-tag md-tag--info'>⭐ 18334</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
-  - [docs.microsoft.com: Machine Learning Experimentation in VS Code with DVC Extension](https://learn.microsoft.com/en-us/shows/vs-code-livestreams/machine-learning-experimentation-in-vs-code-with-dvc-extension)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/CASIA-IVA-Lab/FastSAM](https://github.com/CASIA-LMC-Lab/FastSAM) <span class='md-tag md-tag--info'>⭐ 8342</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [github.com/VikParuchuri/surya](https://github.com/datalab-to/surya) <span class='md-tag md-tag--info'>⭐ 19766</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
-  - [github.com/decodingml: Real-time news search engine using Upstash Kafka and Vector DB](https://github.com/decodingai-magazine/articles-code/tree/main/articles/ml_system_design/real_time_news_search_with_upstash_kafka_and_vector_db) <span class='md-tag md-tag--info'>⭐ 139</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kubeflow](https://www.kubeflow.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github: A very Long never ending Learning around Data Engineering & Machine' Learning](https://github.com/abhishek-ch/around-dataengineering)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cd.foundation: Announcing the CD Foundation MLOps SIG](https://cd.foundation/blog/2020/02/11/announcing-the-cd-foundation-mlops-sig)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -125,6 +111,82 @@
   - [isic-archive.com](https://www.isic-archive.com/#!/topWithHeader/wideContentTop/main)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [freecodecamp.org: How to Download a Kaggle Dataset Directly to a Google' Colab Notebook](https://www.freecodecamp.org/news/how-to-download-kaggle-dataset-to-google-colab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Data Engineering
+
+### CI-CD for ML
+
+  - **(2022)** [semaphoreci.com: Why Do We Need DevOps for ML Data?](https://semaphore.io/blog/devops-ml-data) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Connects classic CI/CD DevOps approaches to data-centric ML development (DataOps). Emphasizes raw data version control, schema drift verification, and deterministic pipeline stages to prevent silent model failures.
+## Data Labeling
+
+### Argilla
+
+  - **(2026)** [==rubrix==](https://github.com/argilla-io/argilla) <span class='md-tag md-tag--info'>⭐ 4981</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Formerly Rubrix, Argilla is an open-source data curation platform designed for AI and LLM workflows. Enables continuous human-in-the-loop (HITL) fine-tuning cycles. Integrates seamlessly with Hugging Face and SpaCy pipelines.
+## Data Science and ML
+
+### Computer Vision
+
+#### Segment Anything
+
+  - **(2023)** [==github.com/CASIA-IVA-Lab/FastSAM==](https://github.com/CASIA-LMC-Lab/FastSAM) <span class='md-tag md-tag--info'>⭐ 8342</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Fast Segment Anything Model (FastSAM) is a highly efficient, CNN-based real-time alternative to the original SAM. It achieves comparable zero-shot instance segmentation quality at a significantly lower computational footprint, making it ideal for edge computing and low-latency production pipelines.
+### Document AI
+
+#### OCR and Layout Analysis
+
+  - **(2024)** [==github.com/VikParuchuri/surya==](https://github.com/datalab-to/surya) <span class='md-tag md-tag--info'>⭐ 19766</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Surya provides robust, multi-lingual document OCR and highly accurate layout analysis. It leverages advanced deep learning architectures to process dense, complex documents (such as academic papers and financial statements) with structural precision, presenting a lighter alternative to legacy commercial engines.
+### ML Systems Design
+
+#### Real-Time RAG
+
+  - **(2024)** [==github.com/decodingml: Real-time news search engine using Upstash Kafka and Vector DB==](https://github.com/decodingai-magazine/articles-code/tree/main/articles/ml_system_design/real_time_news_search_with_upstash_kafka_and_vector_db) <span class='md-tag md-tag--info'>⭐ 139</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A practical system architecture blueprint for building a real-time news search engine. Utilizing Upstash managed Kafka for streaming ingest and a Vector DB for semantic indexing, this reference demonstrates how to construct serverless, high-throughput event-driven retrieval-augmented generation (RAG) pipelines.
+### MLOps
+
+#### Model Versioning
+
+  - **(2024)** [docs.microsoft.com: Machine Learning Experimentation in VS Code with DVC Extension](https://learn.microsoft.com/en-us/shows/vs-code-livestreams/machine-learning-experimentation-in-vs-code-with-dvc-extension) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An official guide demonstrating the integration of Data Version Control (DVC) within VS Code to manage datasets, track experiments, and version models natively. This approach bridges software engineering standards with data science pipelines, ensuring reproducibility of complex ML assets directly from the developer's workspace.
+## GPU Management
+
+### Nix
+
+  - **(2023)** [canvatechblog.com: Supporting GPU-accelerated Machine Learning with Kubernetes and Nix](https://www.canva.dev/blog/engineering/supporting-gpu-accelerated-machine-learning-with-kubernetes-and-nix) <span class='md-tag md-tag--warning'>[NIX CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-density engineering breakdown on using Nix alongside Kubernetes to deploy GPU-bound workloads. Solves library drift in CUDA dependency networks, ensuring highly reproducible ML platform environments.
+## Generative AI
+
+### LLM Fine-tuning
+
+#### Llama recipes
+
+  - **(2026)** [==github.com/meta-llama/llama-recipes==](https://github.com/meta-llama/llama-cookbook) <span class='md-tag md-tag--info'>⭐ 18334</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Meta's primary cookbook for deploying and fine-tuning Llama models. Features scalable recipes for parameter-efficient tuning (PEFT, LoRA), Quantization, and deployment templates inside microservices frameworks.
+## Infrastructure Abstraction
+
+### Flyte
+
+  - **(2022)** [mlops.community: MLOps Simplified: orchestrating ML pipelines with infrastructure abstraction. Enabled by Flyte](https://mlops.community/blog/flyte-mlops-simplified) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details how Flyte isolates platform operations from application execution. Machine learning engineers configure compute limits natively inside Python scripts, leaving cluster management to core operations.
+## Infrastructure-As-Code
+
+### Dependency Management
+
+#### Nix Packages
+
+  - **(2026)** [Nix](https://nix.dev/manual/nix/2.28) <span class='md-tag md-tag--warning'>[NIX CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reference manual for Nix package manager and dependency architectures. Discusses underlying system interactions, specifically comparing standard Docker host volumes with Nix's deterministic sandboxed build environments.
+## Model Serving
+
+### Microservices
+
+  - **(2021)** [cloudblogs.microsoft.com: Simple steps to create scalable processes to deploy ML models as microservices](https://opensource.microsoft.com/blog/2021/07/09/simple-steps-to-create-scalable-processes-to-deploy-ml-models-as-microservices) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A strategic guide outlining the transformation of raw trained ML algorithms into lightweight, scalable containerised microservices. Highlights REST and gRPC wrapper packaging models, optimizing response payloads for low-latency scoring endpoints.
+## Model Tracking
+
+### Azure Integration
+
+  - **(2024)** [docs.microsoft.com: MLflow and Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/concept-mlflow?view=azureml-api-2) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep technical reference on integrating MLflow telemetry inside Microsoft Azure's cloud infrastructure. Standardizes metrics tracking, hyperparameter recording, and artifact storage across hybrid deployments.
+## Open Source AI
+
+### Industry Analysis
+
+  - **(2022)** [infoworld.com: 13 open source projects transforming AI and machine learning](https://www.infoworld.com/article/2336757/16-open-source-projects-transforming-ai-and-machine-learning.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compiles core open-source projects revolutionizing machine learning architectures. Explores shifts in data orchestration, distributed training pipelines, and deployment runtimes that lower enterprise adoption barriers.
+## Orchestration
+
+### Flyte (1)
+
+  - **(2022)** [mlops.community: MLOps with Flyte: The Convergence of Workflows Between Machine Learning and Engineering](https://mlops.community/blog/mlops-with-flyte-the-convergence-of-workflows-between-machine-learning-and-engineering) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights Flyte as a robust, Kubernetes-native pipeline engine designed to unify scientific model exploration with enterprise deployment workflows. Explores its strongly-typed architecture to manage data flow.
 
 ---
 💡 **Explore Related:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md) | [ChatGPT](./chatgpt.md)

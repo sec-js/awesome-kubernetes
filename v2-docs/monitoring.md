@@ -5,45 +5,9 @@
 
 ## Standard Reference
 
-  - [Monitoring jenkins using instana](https://www.ibm.com/think)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Monitor Etcd with Prometheus and Grafana using Rancher](https://www.suse.com/c/rancher_blog/monitor-etcd-with-prometheus-and-grafana-using-rancher)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [victoriametrics.com: Q2 2024 Round Up: VictoriaMetrics & VictoriaLogs Updates](https://victoriametrics.com/blog/q2-2024-round-up-victoriametrics-and-victorialogs-updates/index.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Kubernetes Autoscaling in Production: Best Practices for **Cluster Autoscaler, HPA and VPA**](https://www.splunk.com/en_us/appdynamics-joins-splunk.html?301=appdynamics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [thenewstack.io: Kubernetes is the Accepted Platform for Cloud Native Computing](https://thenewstack.io/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [forbes.com: Who Should Own The Job Of Observability In DevOps?](https://www.forbes.com/councils/forbestechcouncil/2021/09/03/who-should-own-the-job-of-observability-in-devops/?streamIndex=0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [**Micrometer** Collector](http://micrometer.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [sysdig.com: Kubernetes Monitoring with Prometheus, the ultimate guide 🌟](https://www.sysdig.com/blog/kubernetes-monitoring-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [sysdig.com: How to monitor kube-proxy 🌟](https://www.sysdig.com/blog/monitor-kube-proxy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [getenroute.io: TSDB, Prometheus, Grafana In Kubernetes: Tracing A Variable Across The OSS Monitoring Stack](https://www.saaras.io/blog/leverage-open-source-oss-derive-insights-grafana-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [opsdis.com: Building a custom monitoring solution with Grafana, Prometheus and Loki](https://binero.com/observability)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [harness.io: Metrics to Improve Continuous Integration Performance](https://www.harness.io/blog/continuous-integration-performance-metrics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [skilledfield.com.au: Monitoring Kubernetes and Docker Container Logs](https://skillfield.com.au/blog/monitoring-kubernetes-and-docker-container-logs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [infoworld.com: The RED method: A new strategy for monitoring microservices](https://www.infoworld.com/article/2270578/the-red-method-a-new-strategy-for-monitoring-microservices.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [forbes.com: From Data Collection To Delivering KPIs: A Roadmap To A Mature Observability Strategy](https://www.forbes.com/councils/forbestechcouncil/2024/03/08/from-data-collection-to-delivering-kpis-a-roadmap-to-a-mature-observability-strategy/?streamIndex=0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - The observability space is a multi-billion-dollar market and for good reason—there are a lot of benefits when you implement a robust observability strategy. But extracting value is not as simple as adopting a tool, throwing your data into a black box and expecting it to spit out business-relevant, contextualized insights and helpful visualizations.
-    - As they say, “Nothing good comes easy”—but when done right, a mature observability strategy will pay for itself over and over again.
-  - [KPIs](https://www.kpi.org/KPI-Basics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Promster: Use Prometheus in huge deployments with dynamic clustering and scrape sharding capabilities based on ETCD service registration](http://github.com/flaviostutz/promster) <span class='md-tag md-tag--info'>⭐ 31</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [timescale.com: Prometheus vs. OpenTelemetry Metrics: A Complete Guide](https://www.tigerdata.com/blog/prometheus-vs-opentelemetry-metrics-a-complete-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [acloudguru.com: Getting started with the Elastic Stack](https://www.pluralsight.com/resources/blog/cloud/getting-started-with-the-elastic-stack)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [aws.amazon.com: Amazon Elasticsearch Service Is Now Amazon OpenSearch Service and Supports OpenSearch 1.0](https://aws.amazon.com/blogs/aws/announcing-amazon-opensearch-service-which-supports-opensearch-10)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Transitive blocks](https://fastthread.io/ft-error.jsp&s=t)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [Unresponsive JVM](https://fastthread.io/ft-error.jsp&s=t)
     - [Sudden CPU spike](https://fastthread.io/ft-error.jsp&s=t)
     - [Thread Leaks](https://fastthread.io/ft-error.jsp&s=t)
-  - [Remote Debugging of Java Applications on OpenShift](https://www.redhat.com/en/blog/remote-debugging-java-applications-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Dapper](https://research.google/pubs/dapper-a-large-scale-distributed-systems-tracing-infrastructure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [newrelic.com: OpenTracing, OpenCensus, OpenTelemetry, and New Relic (Best overview of OpenTelemetry)](https://newrelic.com/blog/dem/opentelemetry-opentracing-opencensus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [sentry.io](https://sentry.io/welcome)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - APMs like Dynatrace, etc.
-  - [Elastic APM](https://www.elastic.co/observability/application-performance-monitoring)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Elastic APM Server](https://www.elastic.co/docs/solutions/observability/apm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [adictosaltrabajo.com: Monitorización y análisis de rendimiento de aplicaciones con Dynatrace APM](https://adictosaltrabajo.com/2016/10/26/monitorizacion-y-analisis-de-rendimiento-de-aplicaciones-con-dynatrace)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dynatrace.com: openshift monitoring](https://www.dynatrace.com/hub/detail/red-hat-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dynatrace.com: Deploy OneAgent on OpenShift Container Platform](https://docs.dynatrace.com/docs/ingest-from/setup-on-container-platforms/kubernetes/legacy/deploy-oneagent-operator-openshift-legacy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [My Dynatrace proof of concept 🌟](https://github.com/nubenetes/awesome-kubernetes/blob/master/pdf/dynatrace_demo.pdf) <span class='md-tag md-tag--info'>⭐ 661</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dynatrace.com: Monitoring of Kubernetes Infrastructure for day 2 operations](https://www.dynatrace.com/news/blog/what-is-kubernetes-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dynatrace.com: The Power of OpenShift, The Visibility of Dynatrace](https://www.dynatrace.com/news/blog/what-is-openshift-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [A Distributed Tracing Adventure in Apache Beam](http://rion.io/2020/07/04/a-distributed-tracing-adventure-in-apache-beam)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [openshift.com: Monitoring Infrastructure Openshift 4.x Using Zabbix Operator](https://www.redhat.com/en/blog/monitoring-infrastructure-openshift-4.x-using-zabbix-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [openshift.com: How to Monitor Openshift 4.x with Zabbix using Prometheus - Part 2](https://www.redhat.com/en/blog/how-to-monitoring-openshift-4.x-with-zabbix-using-prometheus-part-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/open-telemetry/opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator) <span class='md-tag md-tag--info'>⭐ 1696</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@magstherdev: OpenTelemetry Operator](https://medium.com/@magstherdev/opentelemetry-operator-d3d407354cbf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/antonarhipov/awesome-apm: Awesome APM](https://github.com/antonarhipov/awesome-apm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -250,6 +214,20 @@
   - [fastthread.io](https://fastthread.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Industrial-grade online Java thread dump analyzer that uses AI diagnostics to identify CPU spikes, thread leaks, and deadlock patterns. Essential for post-mortem analysis of containerized JVM workloads.
   - [gceasy.io](https://gceasy.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Machine-learning powered JVM Garbage Collection log analyzer. Automates the detection of memory leaks, GC pauses, and heap sizing misconfigurations, offering actionable recommendations for optimization.
   - [heaphero.io](https://heaphero.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An automated cloud-based JVM heap dump analyzer built to parse large memory dumps quickly. Detects memory leaks and optimizes data structure footprints to resolve OutOfMemoryError crashes.
+## DevOps
+
+### CICD Pipelines
+
+#### Performance Metrics
+
+  - **(2023)** [harness.io: Metrics to Improve Continuous Integration Performance](https://www.harness.io/blog/continuous-integration-performance-metrics) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Formulates continuous integration performance indicators including pipeline execution speed, failure rates, queue times, and feedback loops. Explains how telemetry analytics can identify bottlenecks within containerized build nodes and testing environments.
+## Development
+
+### Java Development
+
+#### Debugging and Profiling
+
+  - **(2023)** [Remote Debugging of Java Applications on OpenShift](https://www.redhat.com/en/blog/remote-debugging-java-applications-openshift) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Outlines security and networking strategies for executing remote Java debugger connections on containerized environments inside OpenShift. Details JDWP agent configuration and port forwarding techniques.
 ## Event-Driven Architecture
 
 ### Apache Kafka
@@ -257,6 +235,13 @@
 #### Tooling and UI
 
   - [Kafdrop – Kafka Web UI 🌟](https://github.com/obsidiandynamics/kafdrop) <span class='md-tag md-tag--info'>⭐ 6135</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: Highly popular, lightweight web UI for monitoring and managing Apache Kafka. Live Grounding: Renders cluster info, brokers, topics, partition offsets, consumer group lag, and allows active JSON/protobuf message payload inspection.
+## FinOps
+
+### Fundamentals
+
+#### Kubernetes
+
+  - **(2021)** [replex.io: An Introduction to Kubernetes FinOps](https://www.splunk.com/en_us/appdynamics-joins-splunk.html?301=appdynamics) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory foundational guide explaining how Kubernetes abstract resource consumption complicates traditional IT billing. Explores concepts like container resource requests, limits, idle capacity, and cost allocation models across teams. Illustrates how integrating observability tools helps teams isolate exact microservice costs within shared networks.
 ## Infrastructure Operations
 
 ### Sysadmin Toolsets
@@ -266,8 +251,121 @@
 ##### Awesome Lists
 
   - [Awesome Sysadmin](https://github.com/awesome-foss/awesome-sysadmin) <span class='md-tag md-tag--info'>⭐ 33981</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An incredibly rich curation containing production-grade open source utilities, control planes, networking layers, and security mechanisms used daily by systems architects and site reliability engineers.
+## Networking
+
+### CNI
+
+#### Calico
+
+  - **(2020)** [**thenewstack.io: Tigera's Calico Aims to Ease Connectivity Pain with Kubernetes**](https://thenewstack.io/kubernetes) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Covers Tigera Calico's core value proposition of delivering flexible, secure CNI capabilities for Kubernetes environments. It contrasts Calico's IP-in-IP and BGP routing modes with standard encapsulation overlays, providing optimal performance. Integrates advanced security policy engines capable of running in both Kubernetes and hybrid virtualized clusters.
 ## Observability (1)
 
+### APM and Logging
+
+#### Application Performance Monitoring
+
+  - **(2024)** [sentry.io](https://sentry.io/welcome) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical framework for real-time application error tracking and performance profiling. Offers native SDK integrations across key stacks, trace stitching, and code-level context detailing for distributed microservices.
+#### Dynatrace APM
+
+  - **(2016)** [adictosaltrabajo.com: Monitorización y análisis de rendimiento de aplicaciones con Dynatrace APM](https://adictosaltrabajo.com/2016/10/26/monitorizacion-y-analisis-de-rendimiento-de-aplicaciones-con-dynatrace) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Spanish technical walk-through demonstrating Dynatrace's enterprise APM dashboard, automated instrumentation, baseline-driven anomaly detection, and deep transactional flow analysis across traditional and microservices runtimes.
+#### Dynatrace PoC
+
+  - **(2023)** [==My Dynatrace proof of concept 🌟==](https://github.com/nubenetes/awesome-kubernetes/blob/master/pdf/dynatrace_demo.pdf) <span class='md-tag md-tag--info'>⭐ 661</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive architectural evaluation report and proof of concept depicting Dynatrace deployment inside complex Kubernetes topologies. Discusses performance impact, instrumentation automation, and alerting configurations.
+#### Elastic APM
+
+  - **(2024)** [Elastic APM](https://www.elastic.co/observability/application-performance-monitoring) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An extensible APM engine integrated natively into the Elastic ecosystem. Provides distributed tracing, application-level error capturing, system metrics logging, and auto-instrumentation capabilities for modern software stacks.
+#### Elastic APM Infrastructure
+
+  - **(2024)** [Elastic APM Server](https://www.elastic.co/docs/solutions/observability/apm) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The architectural pipeline middleware component that receives telemetry from Elastic APM agents, validates schemas, processes events, and indexes performance metrics into Elasticsearch.
+#### Elastic Stack
+
+  - **(2023)** [acloudguru.com: Getting started with the Elastic Stack](https://www.pluralsight.com/resources/blog/cloud/getting-started-with-the-elastic-stack) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Technical introduction to the ELK (Elasticsearch, Logstash, Kibana) stack. Explains data ingestion pipelines, cluster architecture, storage indices, and log analysis visualization engines.
+#### Log Aggregation
+
+  - **(2023)** [skilledfield.com.au: Monitoring Kubernetes and Docker Container Logs](https://skillfield.com.au/blog/monitoring-kubernetes-and-docker-container-logs) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Details the collection and sanitization of stdout/stderr logs from Docker runtimes and Kubernetes CRI engines. Contrasts daemonset-based log forwarding with sidecar collector patterns to maximize ingestion efficiency and security isolation.
+#### Managed OpenSearch
+
+  - **(2021)** [aws.amazon.com: Amazon Elasticsearch Service Is Now Amazon OpenSearch Service and Supports OpenSearch 1.0](https://aws.amazon.com/blogs/aws/announcing-amazon-opensearch-service-which-supports-opensearch-10) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Explores AWS's transition from legacy Elasticsearch to the open-source OpenSearch engine. Explains the security, index management, and API changes required for operators migrating modern logging clusters.
+### Cost Optimization
+
+#### Data Storage
+
+  - **(2023)** [instana.com: The Hidden Cost of Observability: Data Volume](https://www.ibm.com/think) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the economic and architectural implications of high-cardinality and high-volume observability data. Provides strategies for dynamic rate limiting, smart sampling, and metric deduplication to prevent telemetry storage costs from scaling linearly with microservices growth.
+### Distributed Tracing (1)
+
+#### Data Pipelines
+
+  - **(2020)** [A Distributed Tracing Adventure in Apache Beam](http://rion.io/2020/07/04/a-distributed-tracing-adventure-in-apache-beam) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A technical retrospective of tracing asynchronous distributed execution paths in Apache Beam data processing pipelines. Addresses transaction correlation across multi-hop distributed transformations and dynamic worker scale-outs.
+#### Tracing Architecture
+
+  - **(2010)** [Dapper](https://research.google/pubs/dapper-a-large-scale-distributed-systems-tracing-infrastructure) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google's foundational research paper on Dapper, the design baseline for almost all modern distributed tracing platforms. Illustrates trace tree models, span propagation, low-overhead out-of-band collection, and application-level transparent instrumentation.
+### Infrastructure Monitoring
+
+#### Zabbix and OpenShift
+
+  - **(2022)** [cloud.redhat.com: Monitoring Infrastructure Openshift 4.x Using Zabbix Operator](https://www.redhat.com/en/blog/monitoring-infrastructure-openshift-4.x-using-zabbix-operator) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Sister article detailing the configuration of Zabbix operator configurations on OpenShift Container Platform 4.x for advanced enterprise system monitoring.
+#### Zabbix and Prometheus
+
+  - **(2022)** [openshift.com: How to Monitor Openshift 4.x with Zabbix using Prometheus - Part 2](https://www.redhat.com/en/blog/how-to-monitoring-openshift-4.x-with-zabbix-using-prometheus-part-2) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Part 2 of the Zabbix integration guide, configuring Zabbix to extract real-time Prometheus alert states and raw metrics endpoints inside the OpenShift cluster, leveraging the cluster-monitoring operator APIs.
+### Kubernetes Core
+
+#### Network Control Plane
+
+  - **(2023)** [sysdig.com: How to monitor kube-proxy 🌟](https://www.sysdig.com/blog/monitor-kube-proxy) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A targeted guide on monitoring the network proxy service of Kubernetes (kube-proxy). Explains how to expose and scrape IPVS and iptables sync performance metrics, track latency anomalies, and diagnose network routing degradation.
+### Methodology
+
+#### Microservice Patterns
+
+  - **(2022)** [infoworld.com: The RED method: A new strategy for monitoring microservices](https://www.infoworld.com/article/2270578/the-red-method-a-new-strategy-for-monitoring-microservices.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Elaborates on the RED (Rate, Errors, Duration) framework specifically designed for request-driven microservices architectures. Complements traditional USE (Utilization, Saturation, Errors) infrastructure monitoring by tracking user-facing performance bottlenecks.
+### Metrics Library
+
+#### Micrometer
+
+  - **(2026)** [**Micrometer** Collector](http://micrometer.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-focused metrics instrumentation library for JVM-based applications. Acts as a facade over various monitoring frameworks, including Prometheus, Datadog, and New Relic.
+### OSS Monitoring Stack
+
+#### Custom Architectures
+
+  - **(2024)** [opsdis.com: Building a custom monitoring solution with Grafana, Prometheus and Loki](https://binero.com/observability) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Step-by-step implementation of a unified LGTM-like stack (Prometheus, Loki, Grafana) to build an integrated logs-and-metrics platform. Evaluates multi-tenant log aggregation, label indexing strategies in Loki, and correlated dashboards.
+#### Data Flow
+
+  - **(2023)** [getenroute.io: TSDB, Prometheus, Grafana In Kubernetes: Tracing A Variable Across The OSS Monitoring Stack](https://www.saaras.io/blog/leverage-open-source-oss-derive-insights-grafana-prometheus) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Traces the operational path of variables across Prometheus TSDB blocks and Grafana dashboards. Evaluates index caching, rate computation algorithms, and query execution planning under high-load Kubernetes workloads.
+### Platform Monitoring
+
+#### Dynatrace Agent Deployment
+
+  - **(2023)** [dynatrace.com: Deploy OneAgent on OpenShift Container Platform](https://docs.dynatrace.com/docs/ingest-from/setup-on-container-platforms/kubernetes/legacy/deploy-oneagent-operator-openshift-legacy) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical deployment specification for deploying the Dynatrace OneAgent operator onto OpenShift Container Platforms. Detailing daemonset deployments, security context constraints (SCCs), and privileged execution requirements.
+#### Dynatrace OpenShift
+
+  - **(2024)** [dynatrace.com: openshift monitoring](https://www.dynatrace.com/hub/detail/red-hat-openshift) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines native integration capabilities of the Dynatrace Operator inside Red Hat OpenShift, securing auto-discovery and telemetry indexing for containerized control planes, nodes, and applications.
+#### Dynatrace OpenShift Integration
+
+  - **(2023)** [dynatrace.com: The Power of OpenShift, The Visibility of Dynatrace](https://www.dynatrace.com/news/blog/what-is-openshift-2) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores structural synergies between enterprise Kubernetes distribution OpenShift and Dynatrace monitoring. Covers auto-injection, security mapping, and automated application discovery patterns.
+#### Kubernetes Day 2
+
+  - **(2023)** [dynatrace.com: Monitoring of Kubernetes Infrastructure for day 2 operations](https://www.dynatrace.com/news/blog/what-is-kubernetes-2) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details operational processes for managing high-capacity Kubernetes deployments during Day 2 lifecycle stages. Emphasizes automated root-cause analysis, platform capacity planning, and microservices service-mesh integration.
+### Prometheus
+
+#### Cluster Core Telemetry
+
+  - **(2023)** [rancher.com: Monitor Etcd with Prometheus and Grafana using Rancher](https://www.suse.com/c/rancher_blog/monitor-etcd-with-prometheus-and-grafana-using-rancher) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Walkthrough of configuring Prometheus and Grafana alerts to monitor ETCD state stability inside Rancher-managed Kubernetes setups. Explores key ETCD metrics like DB physical size, commit latencies, and leader election frequency.
+#### Clustering and Scalability
+
+  - **(2023)** [Promster: Use Prometheus in huge deployments with dynamic clustering and scrape sharding capabilities based on ETCD service registration](http://github.com/flaviostutz/promster) <span class='md-tag md-tag--info'>⭐ 31</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Promster leverages ETCD service registration to provide dynamic clustering and automated scrape sharding for large-scale Prometheus deployments. Highly effective for distributed scale-out environments without the operational overhead of Thanos or Cortex.
+#### Kubernetes Native
+
+  - **(2024)** [sysdig.com: Kubernetes Monitoring with Prometheus, the ultimate guide 🌟](https://www.sysdig.com/blog/kubernetes-monitoring-prometheus) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive technical deep-dive into configuring the Prometheus Operator, Service Discovery patterns, and Alertmanager inside Kubernetes clusters. Demonstrates the implementation of node-exporter, kube-state-metrics, and custom metric scrapers for holistic cluster health monitoring.
+### Standards and Engines
+
+#### Metrics Comparison
+
+  - **(2024)** [timescale.com: Prometheus vs. OpenTelemetry Metrics: A Complete Guide](https://www.tigerdata.com/blog/prometheus-vs-opentelemetry-metrics-a-complete-guide) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A systematic comparison between Prometheus pull-based metrics and OpenTelemetry's push-oriented push-receiver unified protocol. Analyzes wire formats, collector architecture, and ecosystem interoperability for modern telemetry backends.
+#### OpenTelemetry History
+
+  - **(2023)** [newrelic.com: OpenTracing, OpenCensus, OpenTelemetry, and New Relic (Best overview of OpenTelemetry)](https://newrelic.com/blog/dem/opentelemetry-opentracing-opencensus) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Traces the historical evolution and technical unification of OpenTracing and OpenCensus into the singular CNCF OpenTelemetry standard. Analyzes the SDK architecture, API specifications, and collector pipeline processing topologies.
+#### VictoriaMetrics Updates
+
+  - **(2024)** [victoriametrics.com: Q2 2024 Round Up: VictoriaMetrics & VictoriaLogs Updates](https://victoriametrics.com/blog/q2-2024-round-up-victoriametrics-and-victorialogs-updates/index.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Synthesizes high-capacity enhancements of VictoriaMetrics and VictoriaLogs in mid-2024. Emphasizes advanced cluster scaling, compression efficiency improvements, and Prometheus compatibility metrics.
 ### Telemetry Standards
 
 #### OpenTelemetry vs Prometheus
@@ -292,6 +390,21 @@
 #### Foundations
 
   - [Monitoring Distributed Systems - Google SRE Book](https://sre.google/sre-book/monitoring-distributed-systems) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The industry-standard chapter from Google's SRE book detailing the implementation of distributed systems monitoring. It defines the 'Four Golden Signals'—latency, traffic, errors, and saturation—providing practical blueprints to prevent alert fatigue and build actionable dashboard designs.
+## Organizational Dynamics
+
+### DevOps Culture
+
+#### Business Telemetry
+
+  - **(2024)** [forbes.com: From Data Collection To Delivering KPIs: A Roadmap To A Mature Observability Strategy](https://www.forbes.com/councils/forbestechcouncil/2024/03/08/from-data-collection-to-delivering-kpis-a-roadmap-to-a-mature-observability-strategy/?streamIndex=0) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Maps out a roadmap for maturing operational telemetry into actionable business Key Performance Indicators (KPIs). Bridges the technical gap between raw log streams and high-level corporate performance metrics.
+#### Roles and Responsibilities
+
+  - **(2021)** [forbes.com: Who Should Own The Job Of Observability In DevOps?](https://www.forbes.com/councils/forbestechcouncil/2021/09/03/who-should-own-the-job-of-observability-in-devops/?streamIndex=0) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores organizational ownership paradigms of observability pipelines between Site Reliability Engineering (SRE) and Application Development squads. Assesses the shared-responsibility model for maintaining telemetry instrumentation standards.
+### Management
+
+#### KPI Frameworks
+
+  - **(2023)** [KPIs](https://www.kpi.org/KPI-Basics) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Core reference documentation on the design, deployment, and auditing of Key Performance Indicators (KPIs). Useful for mapping cloud infrastructure metrics to quantitative operational and organizational success.
 
 ---
 💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Cheatsheets](./cheatsheets.md)

@@ -5,19 +5,6 @@
 
 ## Standard Reference
 
-  - [Platform comparisons](https://docs.cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [AWS and GCP comparison](https://docs.cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison/aws)
-    - [Mapping of AWS services to Google Cloud](https://gregsramblings.com/blog/compare-google-cloud-to-aws)
-  - [acloudguru.com: Multicloud Fluency: 6 reasons you should learn multiple clouds](https://www.pluralsight.com/resources/blog/cloud/why-learn-multiple-cloud-platforms)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cast.ai: Ultimate cloud pricing comparison: AWS vs. Azure vs. Google Cloud in 2021](https://cast.ai/blog/cloud-pricing-comparison)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [acloudguru.com: Cloud security comparison: AWS vs. Azure vs. GCP](https://www.pluralsight.com/resources/blog/cloud/cloud-security-comparison-aws-vs-azure-vs-gcp)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [acloudguru.com: Cloud developer tooling compared: AWS vs. Azure vs. GCP](https://www.pluralsight.com/resources/blog/cloud/cloud-developer-tooling-compared-aws-vs-azure-vs-gcp)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [acloudguru.com: Blockchain cloud comparison: What is blockchain-as-a-service (BaaS)?](https://www.pluralsight.com/resources/blog/cloud/blockchain-cloud-comparison-what-is-blockchain-as-a-service-baas)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [acloudguru.com: Storage services compared: AWS vs Azure vs GCP](https://www.pluralsight.com/resources/blog/cloud/storage-showdown-aws-vs-azure-vs-gcp-cloud-comparison)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Openshift.com pricing](https://www.redhat.com/en/technologies/cloud-computing/openshift/pricing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [OpenShift in Azure](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/openshift-container-platform-4x)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [Openshift on Azure](https://azure.microsoft.com/en-us/blog/openshift-on-azure-the-easiest-fully-managed-openshift-in-the-cloud)
-  - [Gaia-X.eu](https://gaia-x.eu)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [GAIA-X: A Federated Data Infrastructure for Europe](https://www.bundeswirtschaftsministerium.de/Redaktion/EN/Dossier/gaia-x.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [jamaica-gleaner.com: Amazon outage’s future implications](http://past.jamaica-gleaner.com/article/business/20211224/amazon-outages-future-implications)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [learntocloud.guide: 3 ways to get hands on (AWS, Azure, GCP)](https://learntocloud.guide/#/projects/README)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud-mercato.com: Public Cloud Reference 🌟](https://pcr.cloud-mercato.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud-mercato.com: State of the art of Public Object Storage Europe 🌟](https://projector.cloud-mercato.com/projects/state-of-the-art-of-public-object-storage-europe)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -55,6 +42,50 @@
   - [faun.pub: Multi-Cloud is NOT the solution to the next AWS outage](https://faun.pub/multi-cloud-is-not-the-solution-to-the-next-aws-outage-bb41c0b14573)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hablemosdenube.com](https://www.hablemosdenube.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Cloud Providers
+
+### AWS
+
+#### Reliability
+
+  - **(2021)** [jamaica-gleaner.com: Amazon outage’s future implications](http://past.jamaica-gleaner.com/article/business/20211224/amazon-outages-future-implications)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: Post-mortem-based article covering large-scale AWS service interruptions. Discusses the dangers of hyper-centralized architectures and the necessity of disaster recovery models.
+### Azure
+
+#### OpenShift
+
+  - **(2026)** [OpenShift in Azure](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/openshift-container-platform-4x) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: Architectural setup for Azure Red Hat OpenShift (ARO). Covers landing zones, networking structures, integrated AD capabilities, and deployment steps for secure enterprise architectures.
+### Federation
+
+#### Standards
+
+  - **(2026)** [Gaia-X.eu](https://gaia-x.eu) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: Core website of Gaia-X. Focuses on setting up an open, federated, and sovereign European cloud architecture, emphasizing compliance standards and cross-provider data portability.
+  - **(2021)** [GAIA-X: A Federated Data Infrastructure for Europe](https://www.bundeswirtschaftsministerium.de/Redaktion/EN/Dossier/gaia-x.html)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: Strategic paper from Germany's Federal Ministry of Economic Affairs defining GAIA-X architectural blueprints, data space compliance, and federated service models.
+### Multicloud
+
+#### Architecture
+
+  - **(2026)** [cloud.google.com: Compare AWS and Azure services to Google Cloud](https://docs.cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: Official GCP mapping matrix, translating and comparing AWS and Azure services directly to Google Cloud. Indispensable for cross-platform planning, migrations, and cloud translation setups.
+  - **(2022)** [acloudguru.com: Multicloud Fluency: 6 reasons you should learn multiple clouds](https://www.pluralsight.com/resources/blog/cloud/why-learn-multiple-cloud-platforms)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: Strategic roadmap on multicloud architectures. Details the advantages of spreading workloads over diverse cloud platforms to avoid single-vendor lock-in, optimize costs, and meet data sovereignty requirements.
+#### Developer Tooling
+
+  - **(2022)** [acloudguru.com: Cloud developer tooling compared: AWS vs. Azure vs. GCP](https://www.pluralsight.com/resources/blog/cloud/cloud-developer-tooling-compared-aws-vs-azure-vs-gcp)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: High-level comparison detailing developer utility services in AWS, Azure, and GCP. Analyzes continuous integration tools, managed developer desktop environments, and serverless workflow runtimes.
+#### Emerging Services
+
+  - **(2022)** [acloudguru.com: Blockchain cloud comparison: What is blockchain-as-a-service (BaaS)?](https://www.pluralsight.com/resources/blog/cloud/blockchain-cloud-comparison-what-is-blockchain-as-a-service-baas)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: Deep dive into managed Blockchain-as-a-Service (BaaS) platforms across top cloud networks. Maps hyperledger infrastructure configurations and managed nodes architectures.
+#### FinOps
+
+  - **(2021)** [cast.ai: Ultimate cloud pricing comparison: AWS vs. Azure vs. Google Cloud in 2021](https://cast.ai/blog/cloud-pricing-comparison)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: Detailed comparative study analyzing compute, network egress, and storage pricing models of AWS, Azure, and GCP, giving technical leaders actionable data to configure cost-optimized deployments.
+#### Security
+
+  - **(2022)** [acloudguru.com: Cloud security comparison: AWS vs. Azure vs. GCP](https://www.pluralsight.com/resources/blog/cloud/cloud-security-comparison-aws-vs-azure-vs-gcp)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: Structured breakdown of the cloud security paradigms used by AWS, Azure, and GCP. Evaluates differences in IAM mechanics, VPC design, managed firewall offerings, and baseline compliance capabilities.
+#### Storage
+
+  - **(2022)** [acloudguru.com: Storage services compared: AWS vs Azure vs GCP](https://www.pluralsight.com/resources/blog/cloud/storage-showdown-aws-vs-azure-vs-gcp-cloud-comparison)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: Comparison of storage offerings in AWS, Azure, and Google Cloud, mapping object storage, network file-shares, and block volumes across durability and throughput standards.
+### OpenShift (1)
+
+#### FinOps (1)
+
+  - **(2026)** [Openshift.com pricing](https://www.redhat.com/en/technologies/cloud-computing/openshift/pricing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: Detailing Red Hat OpenShift licensing and pricing structures. Evaluates self-managed deployments against co-engineered cloud-native offerings like ROSA and ARO.
 
 ---
 💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [Ibm_Cloud](./ibm_cloud.md)

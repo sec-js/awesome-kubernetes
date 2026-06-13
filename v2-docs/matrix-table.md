@@ -5,8 +5,6 @@
 
 ## Standard Reference
 
-  - [try.openshift.com](https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [github.com/openshift/installer](https://github.com/openshift/installer)
-  - [**k3d**](https://github.com/k3d-io/k3d) <span class='md-tag md-tag--info'>⭐ 6426</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [**k3s**](https://k3s.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [**k3sup (said 'ketchup')**](https://github.com/alexellis/k3sup) <span class='md-tag md-tag--info'>⭐ 7382</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [**k3OS**](https://github.com/rancher/k3os) <span class='md-tag md-tag--info'>⭐ 3491</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
@@ -37,6 +35,13 @@
 #### Enterprise Managed
 
   - [Giant Swarm](https://www.giantswarm.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Portal for Giant Swarm's fully managed enterprise Kubernetes management service. Emphasizes modern platform engineering workflows, governance tooling, and continuous operations support.
+## Development Environments
+
+### Local Clusters
+
+#### k3d
+
+  - **(2026)** [==**k3d**==](https://github.com/k3d-io/k3d) <span class='md-tag md-tag--info'>⭐ 6426</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An indispensable utility for local container engineering that launches fully multi-node K3s clusters directly within local Docker containers. Provides extreme execution speed, robust hot-reloading configurations, and seamless local networking endpoints, serving as the modern replacement for resource-heavy virtual machines.
 ## Development Tools
 
 ### Local Kubernetes Environments
@@ -47,6 +52,13 @@
 #### Single-Node Clusters
 
   - [Minikube](https://github.com/kubernetes/minikube) <span class='md-tag md-tag--info'>⭐ 31820</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Minikube remains the standard tool for launching a single-node Kubernetes cluster locally. Supporting VM drivers, bare-metal deployment, and containerized Docker-in-Docker setups, it is a highly trusted local testing platform for developers worldwide.
+## Enterprise Kubernetes
+
+### OpenShift
+
+#### Sandbox
+
+  - **(2026)** [try.openshift.com 🌟](https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Developer trial and evaluation platform offering sandbox, cloud, and local environments (e.g., Red Hat OpenShift Local/CodeReady Containers) to test OpenShift features. Provides step-by-step paths for platform engineers to practice installation, application deployment, and cluster management.
 ## Infrastructure
 
 ### Bare Metal
