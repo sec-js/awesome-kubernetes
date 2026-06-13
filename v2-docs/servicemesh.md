@@ -6,23 +6,7 @@
 ## Standard Reference
 
   - [platform9.com: The Gorilla Guide to Kubernetes in the Enterprise](https://platform9.com/blog/kubernetes-service-mesh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [openshift.com: Introducing OpenShift Service Mesh 2.0 🌟](https://www.redhat.com/en/blog/introducing-openshift-service-mesh-2.0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [rancher.com: Using Hybrid and Multi-Cloud Service Mesh Based Applications for Distributed Deployments](https://www.suse.com/c/rancher_blog/using-hybrid-and-multi-cloud-service-mesh-based-applications-for-distributed-deployments)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [containerjournal.com: When Is Service Mesh Worth It?](https://cloudnativenow.com/features/when-is-service-mesh-worth-it)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medianova.com: Service Mesh vs. API Gateway](https://www.medianova.com/service-mesh-vs-api-gateway)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [consul.io](https://developer.hashicorp.com/consul)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [learn.hashicorp.com: Consul Service Mesh on Kubernetes Design Patterns](https://developer.hashicorp.com/consul/tutorials/archive/kubernetes-consul-design-patterns)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Announcing Linkerd 2.8: simple, secure multi-cluster Kubernetes](https://linkerd.io/2020/06/09/announcing-linkerd-2.8/index.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [linkerd.io: Announcing Linkerd's Graduation](https://linkerd.io/2021/07/28/announcing-cncf-graduation/index.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [containerjournal.com: Linkerd’s CNCF Graduation Due to its Simplicity](https://cloudnativenow.com/features/linkerds-cncf-graduation-due-to-its-simplicity)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [buoyant.io: Go directly to namespace jail: Locking down network traffic between Kubernetes namespaces](https://www.buoyant.io/blog/locking-down-network-traffic-between-kubernetes-namespaces)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [linkerd.io: Announcing automated multi-cluster failover for Kubernetes](https://linkerd.io/2022/03/09/announcing-automated-multi-cluster-failover-for-kubernetes/index.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [buoyant.io: Upgrading to Linkerd 2.12: Zero-trust-ready route-based policy, Gateway API, access logging](https://www.buoyant.io/service-mesh-academy/upgrading-to-linkerd-2-12)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [buoyant.io: Multi-Cluster, Multi-Region Setup using Linkerd Service Mesh](https://www.buoyant.io/blog/multi-cluster-multi-region-setup-using-linkerd-service-mesh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Maesh](https://traefik.io/traefik-mesh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Traffic Director overview](https://docs.cloud.google.com/service-mesh/docs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Traffic Director and gRPC—proxyless services for your service mesh](https://cloud.google.com/blog/products/networking/traffic-director-supports-proxyless-grpc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [L7 Internal HTTP(S) Load Balancing overview](https://docs.cloud.google.com/load-balancing/docs/l7-internal)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kubernetes Gateway API](https://github.com/kubernetes-sigs/gateway-api) <span class='md-tag md-tag--info'>⭐ 2861</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [InGate: Ingress & Gateway API Controller (Archived)](https://github.com/kubernetes-sigs/ingate) <span class='md-tag md-tag--info'>⭐ 731</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.christianposta.com: Do I Need an API Gateway if I Use a Service Mesh?](https://blog.christianposta.com/microservices/do-i-need-an-api-gateway-if-i-have-a-service-mesh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -103,6 +87,60 @@
 #### Service Mesh (1)
 
   - **(2021)** [**Service meshes to the rescue: Load balancing and scaling long-lived connections in Kubernetes 🌟**](https://learnkube.com/kubernetes-long-lived-connections) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A deep dive into the engineering challenge of load balancing long-lived connections (gRPC, HTTP/2, WebSockets) within Kubernetes. It explains how standard L4 kube-proxy load balancing fails to distribute traffic evenly and presents L7 proxies and service meshes (like Linkerd or Istio) as the definitive architectural solution.
+## Cloud Native
+
+### Cloud Networking
+
+#### Google Cloud Load Balancing
+
+  - **(2026)** [L7 Internal HTTP(S) Load Balancing overview](https://docs.cloud.google.com/load-balancing/docs/l7-internal) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-density reference guide explaining Google Cloud's L7 Internal HTTP(S) Load Balancing architecture. It details how the Envoy-based proxy subsystem handles complex traffic routing, security configurations, and backend scaling within secure VPC boundaries.
+### Kubernetes Security
+
+#### Zero Trust Networking
+
+  - **(2022)** [buoyant.io: Go directly to namespace jail: Locking down network traffic between Kubernetes namespaces](https://www.buoyant.io/blog/locking-down-network-traffic-between-kubernetes-namespaces) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep technical tutorial on using Linkerd policy engines to enforce strict network boundaries between Kubernetes namespaces. It provides configuration steps to establish a default-deny state, allowing only explicitly verified mTLS endpoints to communicate.
+### Networking Architecture
+
+#### Comparative Analysis
+
+  - **(2022)** [medianova.com: Service Mesh vs. API Gateway](https://www.medianova.com/service-mesh-vs-api-gateway) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural comparison between API Gateways and Service Meshes. It clearly defines the roles of north-south traffic routing (handled at the cluster edge by gateways) and east-west service connectivity (orchestrated within clusters by meshes), showing how they complement each other.
+### Service Mesh (2)
+
+#### Consul Design Patterns
+
+  - **(2021)** [learn.hashicorp.com: Consul Service Mesh on Kubernetes Design Patterns](https://developer.hashicorp.com/consul/tutorials/archive/kubernetes-consul-design-patterns) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This architectural guide details design patterns for running HashiCorp Consul Service Mesh inside Kubernetes. Key topics include configuring sidecar injection, managing ingress and egress gateways, and setting up cross-cluster routing across hybrid environments.
+#### Consul Service Mesh
+
+  - **(2026)** [consul.io](https://developer.hashicorp.com/consul) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — HashiCorp Consul is a mature, multi-platform service networking solution providing registry-based service discovery, secure service mesh capabilities, and dynamic key-value configuration. It secures application-to-application traffic via automated mTLS, across both Kubernetes and bare-metal servers.
+#### Evaluation Strategy
+
+  - **(2021)** [containerjournal.com: When Is Service Mesh Worth It?](https://cloudnativenow.com/features/when-is-service-mesh-worth-it) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical evaluation discussing when to deploy a service mesh within microservice clusters. It weighs the benefits of built-in mTLS and telemetry against resource overhead, network latency, and the operational complexity introduced by sidecar architectures.
+#### Google Cloud Traffic Director
+
+  - **(2026)** [Traffic Director overview](https://docs.cloud.google.com/service-mesh/docs) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google Cloud's Traffic Director is a fully managed, enterprise-grade traffic control plane designed for service meshes. Supporting open xDS APIs, it acts as the centralized controller that configures service discovery, global load balancing, and secure routing rules across Envoy proxies.
+#### High Availability
+
+  - **(2022)** [linkerd.io: Announcing automated multi-cluster failover for Kubernetes](https://linkerd.io/2022/03/09/announcing-automated-multi-cluster-failover-for-kubernetes/index.html) <span class='md-tag md-tag--warning'>[RUST CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This release notes details Linkerd's automated multi-cluster failover mechanisms. It shows how the service mesh detects path latency anomalies or endpoint failures and automatically redirects critical traffic to redundant environments without requiring manual operator steps.
+#### Istio and OpenShift
+
+  - **(2020)** [openshift.com: Introducing OpenShift Service Mesh 2.0 🌟](https://www.redhat.com/en/blog/introducing-openshift-service-mesh-2.0) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This release guide details OpenShift Service Mesh 2.0, which integrates Istio, Envoy, Kiali, and Jaeger into a cohesive control plane. It enables enterprise operators to manage mTLS traffic encryption, distributed tracing, and complex routing behaviors natively within OpenShift.
+#### Linkerd Ecosystem
+
+  - **(2021)** [linkerd.io: Announcing Linkerd's Graduation](https://linkerd.io/2021/07/28/announcing-cncf-graduation/index.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This documentation marks Linkerd's graduation from the Cloud Native Computing Foundation (CNCF), validating its status as an enterprise-grade service mesh. It reviews how Linkerd's minimalist, Rust-based proxy architecture (linkerd2-proxy) delivers security and speed with minimal overhead.
+  - **(2021)** [containerjournal.com: Linkerd’s CNCF Graduation Due to its Simplicity](https://cloudnativenow.com/features/linkerds-cncf-graduation-due-to-its-simplicity) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analysis of Linkerd's graduation in the CNCF, attributing its success to its design simplicity. By prioritizing a lightweight, sidecar proxy written in Rust and avoiding complex dynamic APIs, Linkerd offers platform teams zero-trust networks without high management costs.
+#### Linkerd Releases
+
+  - **(2022)** [buoyant.io: Upgrading to Linkerd 2.12: Zero-trust-ready route-based policy, Gateway API, access logging](https://www.buoyant.io/service-mesh-academy/upgrading-to-linkerd-2-12) <span class='md-tag md-tag--warning'>[RUST CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An upgrade manual for Linkerd 2.12, detailing the implementation of route-based network policies using the Kubernetes Gateway API. This update allows platform engineers to define fine-grained security policies and collect traffic diagnostics at the individual HTTP route level.
+  - **(2020)** [Announcing Linkerd 2.8: simple, secure multi-cluster Kubernetes](https://linkerd.io/2020/06/09/announcing-linkerd-2.8/index.html) <span class='md-tag md-tag--warning'>[RUST CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Announcement detailing the release of Linkerd 2.8, which introduced zero-config multi-cluster routing capabilities. Utilizing secure gateway architectures, Linkerd extends cluster boundaries so pods can securely communicate with remote clusters via mTLS.
+#### Multi-Cluster Architectures
+
+  - **(2022)** [buoyant.io: Multi-Cluster, Multi-Region Setup using Linkerd Service Mesh](https://www.buoyant.io/blog/multi-cluster-multi-region-setup-using-linkerd-service-mesh) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An engineering guide showing how to design and build multi-cluster and multi-region network topologies using Linkerd. It focuses on configuring DNS resolution, matching security certificates, and building robust, low-latency inter-cluster communication links.
+#### Proxyless gRPC
+
+  - **(2021)** [Traffic Director and gRPC—proxyless services for your service mesh](https://cloud.google.com/blog/products/networking/traffic-director-supports-proxyless-grpc) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural guide detailing Google Cloud Traffic Director's support for proxyless gRPC. This method lets gRPC applications communicate directly with the control plane via xDS, reducing latency and resource consumption by eliminating the need for sidecar proxies.
+#### Traefik Mesh
+
+  - **(2023)** [Maesh](https://traefik.io/traefik-mesh) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Traefik Mesh (formerly Maesh) was a lightweight, SMI-compliant service mesh that simplified container communications without complex sidecar architectures. Traefik Labs retired the project in late 2023, but its dynamic endpoint routing designs remain historically significant.
 ## Cloud Native Infrastructure
 
 ### Data Plane
@@ -114,7 +152,7 @@
   - [Envoy](https://www.envoyproxy.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The home portal of Envoy, the industry-standard L7 proxy designed specifically for cloud-native services. Acts as the data plane engine for most modern service meshes (including Istio), delivering outstanding network performance, advanced routing, and rich observability.
 ## Networking
 
-### Service Mesh (2)
+### Service Mesh (3)
 
 #### Istio
 

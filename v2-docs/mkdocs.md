@@ -5,7 +5,6 @@
 
 ## Standard Reference
 
-  - [Using Third Party Network Operators with OpenShift](https://app.gitbook.com/o/-LbOdudvkdYwKCQYAHS8/s/RrlyoCHlF8LNFTvw74mT)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [fastapi.tiangolo.com](https://fastapi.tiangolo.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Cloud Architecture
@@ -61,6 +60,13 @@
 #### Computational Notebooks
 
   - [r-bloggers.com: How to use R Markdown (part one)](https://www.r-bloggers.com/2022/02/how-to-use-r-markdown-part-one)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory tutorial on R Markdown, illustrating how to combine executable R code blocks with narrative text to generate reproducible, high-quality analytical reports. Explores output compilation into HTML, PDF, and MS Word. Double-Evidence: While tailored to statistics, live grounding highlights R Markdown's critical role in reproducible research, data engineering pipelines, and programmatic executive report generation.
+## Infrastructure
+
+### OpenShift
+
+#### Networking
+
+  - **(2021)** [Using Third Party Network Operators with OpenShift](https://app.gitbook.com/o/-LbOdudvkdYwKCQYAHS8/s/RrlyoCHlF8LNFTvw74mT) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the integration of external, non-default network operators and custom network plugins within the OpenShift cluster lifecycle management framework.
 
 ---
 💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Cheatsheets](./cheatsheets.md)

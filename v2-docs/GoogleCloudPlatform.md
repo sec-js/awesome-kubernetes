@@ -5,17 +5,6 @@
 
 ## Standard Reference
 
-  - [googlecloudcheatsheet.withgoogle.com: Google Cloud Developer cheat sheet](https://cloud.google.com/products)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Google Cloud Build](https://cloud.google.com/build)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Platform comparisons](https://docs.cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [AWS and GCP comparison](https://docs.cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison/aws)
-    - [Mapping of AWS services to Google Cloud](https://gregsramblings.com/blog/compare-google-cloud-to-aws)
-  - [cloud.google.com: Secret Manager Best Practices](https://docs.cloud.google.com/secret-manager/docs/best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloud.google.com: VPN network overview](https://docs.cloud.google.com/vpc/docs/vpc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [kinsta.com: Top 7 Advantages of Choosing Google Cloud Hosting](https://kinsta.com/blog/cloud-platform-for-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Config Sync Overview](https://docs.cloud.google.com/kubernetes-engine/config-sync/docs/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Google Cloud AppSheet](https://about.appsheet.com/home)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [infoworld.com: Google Cloud AppSheet review: No-code with extras](https://www.infoworld.com/article/2270941/google-cloud-appsheet-review-no-code-with-extras.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloud.google.com: The gcloud tool cheat sheet](https://docs.cloud.google.com/sdk/docs/cheatsheet?hl=en)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.google.com](https://cloud.google.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.google.com: DevOps](https://cloud.google.com/devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Cloud Developer Tools](https://cloud.google.com/products/tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -94,6 +83,64 @@
 
   - [Level Up Your Agents: Announcing Google's Official Skills Repository](https://cloud.google.com/blog/topics/developers-practitioners/level-up-your-agents-announcing-googles-official-skills-repository) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Google's official skills repository and toolkit for modular agentic development.
 Live Grounding: Delivers pre-integrated capabilities and action templates allowing Enterprise Gemini Agents to dynamically execute API operations, retrieve structured data, and handle multi-step workflows.
+## Application Development
+
+### Low-Code  No-Code
+
+#### AppSheet
+
+  - **(2014)** [Google Cloud AppSheet](https://about.appsheet.com/home) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AppSheet is Google Cloud's premier no-code development platform. It enables rapid generation of mobile and desktop applications utilizing diverse data sources like Google Sheets, SQL databases, and Salesforce. Architecturally, it abstracts complex frontend and API connections, transforming structured data schemas into rich interactive user experiences.
+#### AppSheet Review
+
+  - **(2020)** [infoworld.com: Google Cloud AppSheet review: No-code with extras](https://www.infoworld.com/article/2270941/google-cloud-appsheet-review-no-code-with-extras.html) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive technical review evaluating AppSheet's feature set, architectural constraints, and enterprise value. The analysis investigates performance limitations, security configurations, and offline data syncing capabilities, providing practical recommendations on when to choose AppSheet over bespoke application development.
+## Cloud Architecture
+
+### Cloud Security
+
+#### Secret Management
+
+  - **(2020)** [cloud.google.com: Secret Manager Best Practices](https://docs.cloud.google.com/secret-manager/docs/best-practices) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This guide defines official architectural patterns for managing sensitive configuration data using GCP Secret Manager. It details least-privilege IAM models, secret rotation automation, auditing, regionalization, and secure injection patterns into containerized workloads. It is critical for maintaining compliance under modern Zero-Trust architectures.
+### Google Cloud
+
+#### CLI Reference
+
+  - **(2015)** [cloud.google.com: The gcloud tool cheat sheet](https://docs.cloud.google.com/sdk/docs/cheatsheet?hl=en) <span class='md-tag md-tag--warning'>[BASH / SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A dense, essential reference command list for the `gcloud` Command Line Interface (CLI). It catalogs crucial syntax patterns for managing compute instances, container runtimes, IAM profiles, networking fabrics, and billing accounts. This resource acts as an absolute necessity for platform engineers and script automation.
+### Infrastructure Assessment
+
+#### GCP Benefits
+
+  - **(2017)** [kinsta.com: Top 7 Advantages of Choosing Google Cloud Hosting](https://kinsta.com/blog/cloud-platform-for-developers) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This architectural evaluation highlights key advantages of choosing Google Cloud Platform, including its state-of-the-art global fiber network, live migration of virtual machines, redundant security protocols, and cost efficiency. It serves as a technical justification asset for selecting cloud providers based on networking speeds and enterprise reliability.
+### Networking
+
+#### VPC
+
+  - **(2016)** [cloud.google.com: VPN network overview](https://docs.cloud.google.com/vpc/docs/vpc) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google Cloud's Virtual Private Cloud (VPC) provides global, scalable, and flexible networking for cloud-based resources. Unlike regional VPCs of other cloud providers, GCP VPCs are global, allowing single networks to span multiple regions without complex peering. It includes robust routing tables, firewall rules, and Private Google Access for secure internal networking.
+## Cloud Providers
+
+### Google Cloud Platform (1)
+
+#### Developer Tooling
+
+  - **(2025)** [googlecloudcheatsheet.withgoogle.com: Google Cloud Developer cheat sheet](https://cloud.google.com/products) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official, interactive Google Cloud developer reference map designed to organize the vast landscape of GCP compute, networking, security, and storage tools. It assists technical architects in mapping requirements to target-state managed services with optimized configurations.
+### Multicloud
+
+#### Architecture
+
+  - **(2026)** [cloud.google.com: Compare AWS and Azure services to Google Cloud](https://docs.cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: Official GCP mapping matrix, translating and comparing AWS and Azure services directly to Google Cloud. Indispensable for cross-platform planning, migrations, and cloud translation setups.
+## DevOps and Culture
+
+### Glossary and Tools Ecosystem
+
+#### Enterprise SaaS Platforms
+
+  - **(2026)** [Google Cloud Build](https://cloud.google.com/build)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google Cloud's managed CI/CD pipeline engine designed to compile, execute, and deploy dockerized artifacts across cloud-native target systems. Fully supports declarative security configurations, IAM access gates, and integrated artifact registry feeds.
+## Enterprise Platform
+
+### GitOps and Configuration
+
+#### Config Sync
+
+  - **(2026)** [Config Sync](https://docs.cloud.google.com/kubernetes-engine/config-sync/docs/overview) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Config Sync is a GitOps-native service for GKE and hybrid clouds that continually reconciles cluster state with a central repository. It supports hierarchical namespaces, multi-tenancy, and deep integration with GCP-native IAM and policy enforcement tools. Live grounding validates its position as a central tool within GKE Enterprise configurations.
 
 ---
 💡 **Explore Related:** [Public Cloud Solutions](./public-cloud-solutions.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [Ibm_Cloud](./ibm_cloud.md)

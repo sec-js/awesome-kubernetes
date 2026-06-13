@@ -5,37 +5,7 @@
 
 ## Standard Reference
 
-  - [Config Sync Overview](https://docs.cloud.google.com/kubernetes-engine/config-sync/docs/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [jenkins-x.io](https://jayex.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [HashiCorp Waypoint](https://developer.hashicorp.com/waypoint)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [thenewstack.io: What Is GitOps and Why It Might Be The Next Big Thing for DevOps](https://thenewstack.io/software-development)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [geekflare.com: An Introduction to GitOps](https://geekflare.com/topic/development)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [openshift.com: Our Favorite Things from GitOps Con at KubeCon EU 🌟](https://www.redhat.com/en/blog/our-favorite-things-from-gitops-con-at-kubecon-eu)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [openshift.com: What is GitOps? 🌟](https://www.redhat.com/en/topics/devops/what-is-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [shipa.io: GitOps in the enterprise 🌟](https://shipa.io/gitops-in-the-enterprise)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [shipa.io: GitOps meets AppOps](https://shipa.io/gitops-meets-appops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhat.com: An illustrated guide to GitOps](https://www.redhat.com/en/blog/illustrated-guide-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [jimangel.io: Self-Updating GitOps](https://www.jimangel.io/posts/self-updating-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhat.com: 3 rules for applying principles of GitOps to enterprise architecture](https://www.redhat.com/en/blog/3-gitops-rules-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [containerjournal.com: The 4 Levels of GitOps Maturity](https://cloudnativenow.com/features/the-4-levels-of-gitops-maturity)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [As an ops engineer not too familiar with Git, you just need to know 6 commands](https://x.com/janakiramm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhat.com: How to use GitOps in your enterprise architecture strategy 🌟](https://www.redhat.com/en/blog/understanding-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhat.com: Comparing GitOps implementation patterns: Pros and cons](https://www.redhat.com/en/blog/gitops-implementation-patterns)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [chrisshort.net: GitOps: An implementation of DevOps (abstracts)](https://chrisshort.net)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [==chrisshort.net: GitOps: An implementation of DevOps==](https://chrisshort.net/gitops-an-implementation-of-devops) GitOps is a prescriptive way of implementing DevOps. You will not succeed in using GitOps if you haven't embraced some DevOps philosophies along the way.
-  - [containerjournal.com: GitOps Workflows and Principles for Kubernetes](https://cloudnativenow.com/topics/gitops-workflows-and-principles-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [harness.io: 6 Actionable GitOps Best Practices To Help You Get Started](https://www.harness.io/blog/gitops-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [codefresh.io: How to Model Your Gitops Environments and Promote Releases between Them 🌟](https://octopus.com/blog/how-to-model-your-gitops-environments)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [harness.io: Managing the 'Git' in 'GitOps': 4 Ways to Structure Code in Your GitOps Repos 🌟](https://www.harness.io/blog/gitops-repo-structure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [containerjournal.com: GitOps Workflows Expanding Beyond Kubernetes Clusters](https://cloudnativenow.com/features/gitops-workflows-expanding-beyond-kubernetes-clusters)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [containerjournal.com: Best of 2022: GitOps: The Missing Link for CI/CD for Kubernetes](https://cloudnativenow.com/features/gitops-the-missing-link-for-ci-cd-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [loft.sh: GitOps + Kubernetes Explained](https://www.vcluster.com/blog/gitops-kubernetes-explained)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.blog: Applying GitOps principles to your operations](https://github.blog/enterprise-software/devops/applying-gitops-principles-to-your-operations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [searchitoperations.techtarget.com: GitOps pros grapple with Kubernetes configuration management. GitOps users seek ideal Kubernetes config tool 🌟](https://www.techtarget.com/searchitoperations/news/252492459/GitOps-pros-grapple-with-Kubernetes-configuration-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [openshift.com: Announcing OpenShift GitOps](https://www.redhat.com/en/blog/announcing-openshift-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [openshift.com: OpenShift Pipelines and OpenShift GitOps are now Generally Available 🌟](https://www.redhat.com/en/blog/openshift-pipelines-and-openshift-gitops-are-now-generally-available)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloudogu.com: Automation Assistants: GitOps tools in comparison 🌟](https://platform.cloudogu.com/en/blog/gitops-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Anthos Config Management](https://docs.cloud.google.com/kubernetes-engine/docs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [openshift.com: From Code to Production with GitOps, Tekton and ArgoCD](https://www.redhat.com/en/blog/from-code-to-production-with-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [How Kubernetes Operators Fit into Platform Building and When Traditional IaC Isn't Enough](https://www.thestack.technology/how-kubernetes-operators-fit-into-to-platform-building-and-when-traditional-iac-isnt-enough)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [gitops.tech 🌟](https://www.gitops.tech)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [OpenGitOps.dev 🌟](https://opengitops.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -179,6 +149,11 @@
 
 ## Application Delivery
 
+### Continuous Deployment
+
+#### Waypoint
+
+  - **(2026)** [waypointproject.io](https://developer.hashicorp.com/waypoint) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — HashiCorp Waypoint structures the application build, deploy, and release lifecycle using a unified declarative HCL workflow. While early versions operated as a lightweight standalone PaaS CLI, newer updates integrate it as a foundational deployment engine for internal developer platforms. Live grounding highlights its integration inside HashiCorp's expanded cloud control suites.
 ### Helm
 
 #### Alternative Engines
@@ -189,6 +164,13 @@
 #### Terraform Components
 
   - [AWS EKS Argo CD Terraform Component](https://github.com/cloudposse-terraform-components/aws-eks-argocd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Enterprise-ready Terraform submodule designed to deploy, configure, and bootstrap Argo CD onto an existing AWS EKS cluster. Live Grounding: Standardizes complex security configuration flags, integrates smoothly with AWS IAM roles for service accounts (IRSA), and provisions preconfigured Helm-based releases.
+## CI-CD
+
+### Continuous Delivery
+
+#### Jenkins X
+
+  - **(2021)** [jenkins-x.io](https://jayex.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — An open-source, cloud-native continuous delivery tool engineered specifically for Kubernetes environments. It orchestrates pipelines using Tekton and incorporates GitOps principles for environment promotion. Though highly influential, by 2026 it is largely considered a legacy project with declining community adoption relative to modern GitOps platforms.
 ## Cloud Infrastructure
 
 ### Kubernetes Distributions
@@ -212,18 +194,120 @@
 #### Okteto
 
   - **(2021)** [codefresh.io: Tutorial - Local Kubernetes Development with Okteto 🌟](https://octopus.com/devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Hands-on walkthrough displaying how to use Okteto to connect a developer workspace directly with live infrastructure, bypassing resource-heavy local systems.
+## Enterprise Platform
+
+### GitOps and Configuration
+
+#### ArgoCD and Tekton Pipelines
+
+  - **(2023)** [openshift.com: From Code to Production with GitOps, Tekton and ArgoCD 🌟](https://www.redhat.com/en/blog/from-code-to-production-with-gitops) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This architectural review details a continuous deployment pipeline using GitOps, Tekton, and Argo CD. Provides a blueprint for configuring enterprise-ready Kubernetes delivery systems designed to accelerate code-to-production lifecycles.
+#### Config Sync
+
+  - **(2026)** [Config Sync](https://docs.cloud.google.com/kubernetes-engine/config-sync/docs/overview) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Config Sync is a GitOps-native service for GKE and hybrid clouds that continually reconciles cluster state with a central repository. It supports hierarchical namespaces, multi-tenancy, and deep integration with GCP-native IAM and policy enforcement tools. Live grounding validates its position as a central tool within GKE Enterprise configurations.
+### Multi-Cluster Orchestration
+
+#### Anthos
+
+  - **(2026)** [Anthos Config Management](https://docs.cloud.google.com/kubernetes-engine/docs) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The GKE Enterprise (formerly Anthos) documentation resource suite provides blueprints for managed enterprise Kubernetes topologies. It outlines complex control plane federations, hybrid cloud service meshes, and identity integrations. The modern 2026 platform architecture emphasizes unified control over distributed on-premise and public cloud clusters.
+## Enterprise Platforms
+
+### OpenShift Integration
+
+#### GitOps Tools
+
+  - **(2021)** [openshift.com: Announcing OpenShift GitOps](https://www.redhat.com/en/blog/announcing-openshift-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Announces OpenShift GitOps, an out-of-the-box framework integrating Argo CD into OpenShift clusters. It provides platform engineers with declarative configuration tools to manage cluster states and deploy multi-tenant application workloads.
+  - **(2021)** [openshift.com: OpenShift Pipelines and OpenShift GitOps are now Generally Available 🌟](https://www.redhat.com/en/blog/openshift-pipelines-and-openshift-gitops-are-now-generally-available) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the General Availability of OpenShift Pipelines and OpenShift GitOps. Built on Tekton and Argo CD, this combination provides an integrated, cloud-native delivery pipeline for building and deploying microservices securely on OpenShift.
 ## GitOps (1)
 
-### Continuous Delivery
+### Automation Workflows
+
+#### CICD Integration
+
+  - **(2022)** [containerjournal.com: Best of 2022: GitOps: The Missing Link for CI/CD for Kubernetes](https://cloudnativenow.com/features/gitops-the-missing-link-for-ci-cd-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry report analyzing why GitOps is the preferred continuous delivery pattern for Kubernetes workloads. Shows how separating CI build stages from CD pull reconciliation loops improves security and system stability.
+  - **(2021)** [jimangel.io: Self-Updating GitOps](https://www.jimangel.io/posts/self-updating-gitops) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A step-by-step guide to setting up self-updating GitOps loops. Demonstrates how to design automated CI/CD pipelines that update container tag values in Git repositories, closing the continuous integration loop without manual drift.
+#### Repository Layouts
+
+  - **(2021)** [harness.io: Managing the 'Git' in 'GitOps': 4 Ways to Structure Code in Your GitOps Repos 🌟](https://www.harness.io/blog/gitops-repo-structure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores four strategies for structuring code and infrastructure within GitOps repositories. Examines the impact of repository layouts on access control, RBAC isolation, and release pipelines.
+#### Tool Comparison
+
+  - **(2021)** [cloudogu.com: Automation Assistants: GitOps tools in comparison 🌟](https://platform.cloudogu.com/en/blog/gitops-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An in-depth comparison of top-tier GitOps tools, including Argo CD, Flux, and Fleet. Evaluates key architectural differences in multi-cluster scaling, security segregation, user interfaces, and reconciliation performance.
+### Continuous Delivery (1)
 
 #### Argo CD
 
   - [argoproj.github.io: Argo CD - Declarative GitOps for Kubernetes](https://argoproj.github.io/argo-cd) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Argo CD is a declarative GitOps engine that automates Kubernetes deployments. By continually matching the live cluster state to git specifications, it guarantees robust security and rapid rollback features.
+### Developer Platform
+
+#### Application Delivery (1)
+
+  - **(2021)** [shipa.io: GitOps meets AppOps](https://shipa.io/gitops-meets-appops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Proposes the concept of 'AppOps' as a way to simplify application management on top of GitOps engines. Highlights abstracting raw Kubernetes configurations from developers, allowing them to define service parameters while platform engineers run GitOps loops.
+### Developer Tools
+
+#### Git Basics
+
+  - **(2021)** [As an ops engineer not too familiar with Git, you just need to know 6 commands](https://x.com/janakiramm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Simplifies Git repository workflows for operations engineers transitioning to cloud-native platforms. Summarizes six vital Git commands required to manage configurations, branch structures, and environment deployments in GitOps cycles.
+### Enterprise Delivery
+
+#### Application Platforms
+
+  - **(2021)** [shipa.io: GitOps in the enterprise 🌟](https://shipa.io/gitops-in-the-enterprise)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Addresses the real-world complexities of running GitOps inside multi-tenant, enterprise business environments. Explores security boundaries, handling raw Kubernetes YAML bloat, and simplifying developer delivery workflows using abstractions.
+#### Architecture Rules
+
+  - **(2021)** [redhat.com: 3 rules for applying principles of GitOps to enterprise architecture](https://www.redhat.com/en/blog/3-gitops-rules-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Presents three architectural rules for applying GitOps principles across enterprise environments. Promotes decoupling infrastructure, writing strict declarative definitions, and keeping independent stages cleanly isolated.
+#### Implementation Patterns
+
+  - **(2021)** [redhat.com: Comparing GitOps implementation patterns: Pros and cons](https://www.redhat.com/en/blog/gitops-implementation-patterns) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural comparison of mono-repo vs. multi-repo and push vs. pull GitOps deployment structures. Highlights security boundaries, deployment velocities, and coordination overhead with each pattern.
+#### Multi-Infrastructure
+
+  - **(2021)** [containerjournal.com: GitOps Workflows Expanding Beyond Kubernetes Clusters](https://cloudnativenow.com/features/gitops-workflows-expanding-beyond-kubernetes-clusters) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the extension of GitOps patterns beyond traditional Kubernetes clusters. Investigates how cloud services, database configurations, and network switches are managed declaratively using tools like Crossplane.
+#### Strategy Planning
+
+  - **(2021)** [redhat.com: How to use GitOps in your enterprise architecture strategy 🌟](https://www.redhat.com/en/blog/understanding-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Details how to align GitOps deployment pipelines with strict corporate security policies and regulatory compliance. It provides blueprints for change control auditing, access separation, and automated rollback strategies.
 ### Hybrid Cloud Platforms
 
 #### Azure Arc Integration
 
   - **(2021)** [Kubernetes GitOps with Azure Arc and Charmed Kubernetes](https://canonical.com/blog/gitops-with-azure-arc-and-charmed-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A technical guide illustrating the integration of Charmed Kubernetes with Azure Arc to orchestrate hybrid-cloud resources. Demonstrates how GitOps configurations are pushed dynamically across decentralized architectures using unified portal controls.
+### Kubernetes Packaging
+
+#### Configuration Management
+
+  - **(2021)** [searchitoperations.techtarget.com: GitOps pros grapple with Kubernetes configuration management. GitOps users seek ideal Kubernetes config tool 🌟](https://www.techtarget.com/searchitoperations/news/252492459/GitOps-pros-grapple-with-Kubernetes-configuration-management) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the configuration choices GitOps teams face when selecting templating tools. Evaluates Helm, Kustomize, and Jsonnet, focusing on how they help scale and manage complex manifests while avoiding duplication.
+### Methodology and Principles
+
+#### Best Practices
+
+  - **(2021)** [harness.io: 6 Actionable GitOps Best Practices To Help You Get Started](https://www.harness.io/blog/gitops-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Outlines six actionable best practices for setting up GitOps pipelines. Recommends repository separation, secure credentials management, clear deployment pathways, and drift alerting loops.
+#### Community Trends
+
+  - **(2021)** [openshift.com: Our Favorite Things from GitOps Con at KubeCon EU 🌟](https://www.redhat.com/en/blog/our-favorite-things-from-gitops-con-at-kubecon-eu)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Summarizes the key technical advancements and case studies presented at GitOps Con EU. Tracks community updates across Argo CD, Flux, multi-cluster management, and governance standards for enterprise-grade continuous deployments.
+#### Culture and Strategy
+
+  - **(2021)** [chrisshort.net: GitOps: An implementation of DevOps (abstracts)](https://chrisshort.net)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores how GitOps serves as a prescriptive path to implement DevOps. Argues that successful GitOps requires mature automation loops, clear infrastructure definitions, and strong cultural alignment.
+#### Declarative Infrastructure
+
+  - **(2021)** [openshift.com: What is GitOps? 🌟](https://www.redhat.com/en/topics/devops/what-is-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A foundational guide outlining the main tenets of GitOps as defined by the OpenGitOps working group. Covers declarative state models, pull-based agents, versioned source control, and automated reconciliation loops.
+#### DevOps Evolution
+
+  - **(2021)** [thenewstack.io: What Is GitOps and Why It Might Be The Next Big Thing for DevOps](https://thenewstack.io/software-development)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the foundational history, mechanisms, and overall value of GitOps in modern enterprise DevOps. Describes how managing declarative files in Git simplifies rollbacks, enforces drift protection, and reduces human error during production upgrades.
+#### Enterprise Delivery (1)
+
+  - **(2021)** [github.blog: Applying GitOps principles to your operations](https://github.blog/enterprise-software/devops/applying-gitops-principles-to-your-operations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A GitHub technical blueprint detailing how to apply version-controlled GitOps patterns to enterprise operations. Recommends workflows utilizing GitHub Actions, PR code reviews, and policy checks to control cluster states.
+#### Kubernetes Native
+
+  - **(2021)** [containerjournal.com: GitOps Workflows and Principles for Kubernetes](https://cloudnativenow.com/topics/gitops-workflows-and-principles-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the close architectural relationship between GitOps patterns and Kubernetes design principles. Discusses the continuous reconciliation loop, custom resource management, and state resolution engines.
+  - **(2021)** [loft.sh: GitOps + Kubernetes Explained](https://www.vcluster.com/blog/gitops-kubernetes-explained)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explains the mechanics of GitOps on Kubernetes, showing how reconciliation loops match target clusters to source repositories. Also covers isolating multi-tenant workloads using virtual clusters (vclusters) alongside GitOps tools.
+#### Maturity Models
+
+  - **(2021)** [containerjournal.com: The 4 Levels of GitOps Maturity](https://cloudnativenow.com/features/the-4-levels-of-gitops-maturity)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains the four evolutionary levels of GitOps adoption. Outlines transition stages from simple code tracking in Git to fully automated multi-cluster reconciliation, continuous policy compliance, and self-healing.
+#### Visual Explanations
+
+  - **(2021)** [redhat.com: An illustrated guide to GitOps](https://www.redhat.com/en/blog/illustrated-guide-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An illustrated technical guide demonstrating GitOps continuous integration and continuous delivery patterns. It provides clear visual explanations of push-based vs. pull-based architectures and the role of kubernetes operators.
+### Release Engineering
+
+#### Environment Promotion
+
+  - **(2021)** [codefresh.io: How to Model Your Gitops Environments and Promote Releases between Them 🌟](https://octopus.com/blog/how-to-model-your-gitops-environments) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Structural blueprint showing how to organize GitOps environments and manage release promotions. Compares different repository layout patterns, Kustomize directory layouts, and automated PR promotion routes.
 ## Infrastructure
 
 ### GitOps (2)

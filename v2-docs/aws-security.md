@@ -5,7 +5,6 @@
 
 ## Standard Reference
 
-  - [AWS Security Blog](http://blogs.aws.amazon.com/security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Tutorial: Configure Apache Web Server on Amazon Linux to use SSL/TLS](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/SSL-on-an-instance.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [The Most Popular AWS Security Blog Posts in 2015](http://blogs.aws.amazon.com/security/post/Tx4QX7W51NDSLO/The-Most-Popular-AWS-Security-Blog-Posts-in-2015)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Announcing Industry Best Practices for Securing AWS Resources](http://blogs.aws.amazon.com/security/post/Tx3PTTZB14FWPBA/Announcing-Industry-Best-Practices-for-Securing-AWS-Resources)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -14,20 +13,12 @@
   - [Updated Whitepaper Available: AWS Best Practices for DDoS Resiliency](http://blogs.aws.amazon.com/security/post/Tx6QAIBSQTJPHB/Updated-Whitepaper-Available-AWS-Best-Practices-for-DDoS-Resiliency)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Security Blog: In Case You Missed These: AWS Security Blog Posts from June, July, and August 2016](http://blogs.aws.amazon.com/security/post/Tx3KVD6T490MM47/In-Case-You-Missed-These-AWS-Security-Blog-Posts-from-June-July-and-August)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Amazon s2n: AWS’s new Open Source implementation of the SSL/TLS network encryption protocols](http://blogs.aws.amazon.com/security/post/TxLEHNNDPUFDU9/Automated-Reasoning-and-Amazon-s2n)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [acloudguru.com: How to audit and secure an AWS account](https://www.pluralsight.com/resources/blog/cloud/how-to-audit-and-secure-an-aws-account)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [yobyot.com: AWS multi-region KMS keys and Data Lifecycle Manager: better together](https://yobyot.com/aws/aws-multi-region-keys-and-ec2-data-lifecycle-manager/2021/08/18)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [docs.aws.amazon.com: AWS Security Reference Architecture (AWS SRA) 🌟](https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [AWS Identity and Access Management - Getting Started](http://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Identity and Access Management (IAM) best practices in 2016](http://blogs.aws.amazon.com/security/post/Tx2OB7YGHMB7WCM/Adhere-to-IAM-Best-Practices-in-2016)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [How to Record and Govern Your IAM Resource Configurations Using AWS Config](http://blogs.aws.amazon.com/security/post/Tx14ADBJOCAT9NS/How-to-Record-and-Govern-Your-IAM-Resource-Configurations-Using-AWS-Config)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [How to Use SAML to Automatically Direct Federated Users to a Specific AWS Management Console Page](http://blogs.aws.amazon.com/security/post/Tx2CGWIB8SBYW2J/How-to-Use-SAML-to-Automatically-Direct-Federated-Users-to-a-Specific-AWS-Manage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [keepler.io: Gestionando el control de accesos en nuestro data lake en AWS](https://keepler.io/es/2021/03/15/gestionando-el-control-de-accesos-en-nuestro-data-lake-en-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.wut.dev: Moving AWS Accounts and OUs Within An Organization - Not So Simple!](https://wut.dev/blog/2024/07/05/moving-aws-accounts-within-organization.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [How to Automatically Update Your Security Groups for Amazon CloudFront and AWS WAF by Using AWS Lambda (boto3 python)](http://blogs.aws.amazon.com/security/post/Tx1LPI2H6Q6S5KC/How-to-Automatically-Update-Your-Security-Groups-for-Amazon-CloudFront-and-AWS-W)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [How to Use AWS WAF to Block IP Addresses That Generate Bad Requests](http://blogs.aws.amazon.com/security/post/Tx223ZW25YRPRKV/How-to-Use-AWS-WAF-to-Block-IP-Addresses-That-Generate-Bad-Requests)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [How to Reduce Security Threats and Operating Costs Using AWS WAF and Amazon CloudFront](http://blogs.aws.amazon.com/security/post/Tx1G747SE1R2ZWE/How-to-Reduce-Security-Threats-and-Operating-Costs-Using-AWS-WAF-and-Amazon-Clou)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [AWS WAF sample rules](https://github.com/amazon-archives/aws-waf-sample) <span class='md-tag md-tag--info'>⭐ 511</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [k21academy.com: AWS Secrets Manager](https://k21academy.com/aws-cloud/aws-secrets-manager)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Security](https://aws.amazon.com/security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Security docs](https://docs.aws.amazon.com/security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Amazon’s customer service backdoor](https://medium.com/@espringe/amazon-s-customer-service-backdoor-be375b3428c4#.qyixu5mu3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -95,6 +86,45 @@
   - [blog.devops.dev: Debugging Kubernetes Secrets, Why My Pod Wouldn’t Start](https://blog.devops.dev/manage-secrets-on-aws-and-helm-as-environment-variables-f7ec998c58fc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Vault](https://github.com/99designs/aws-vault) <span class='md-tag md-tag--info'>⭐ 8976</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
+## Cloud Infrastructure
+
+### AWS Governance
+
+#### Organizations
+
+  - **(2024)** [**blog.wut.dev: Moving AWS Accounts and OUs Within An Organization - Not So Simple!**](https://wut.dev/blog/2024/07/05/moving-aws-accounts-within-organization.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An in-depth analysis of the operational complexities and network-level friction encountered when migrating AWS accounts and Organizational Units (OUs) across differing AWS Organizations. Details hidden traps involving Service Control Policies (SCPs), RAM shares, billing, and resource-linked roles. This manual remains highly valuable for cloud architects undertaking corporate restructures or migrations.
+### AWS Security (1)
+
+#### Architectural Blueprints
+
+  - **(2024)** [==docs.aws.amazon.com: AWS Security Reference Architecture (AWS SRA) 🌟==](https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The authoritative blueprint detailing prescriptive guidance to design, build, and run security services within a multi-account AWS Organization environment. Organizes AWS Security services (Security Hub, GuardDuty, Macie, IAM) into logical account-level divisions. In 2026, the SRA continues to be the industry-standard template for enterprise AWS governance, serving as the foundational reference architecture for cloud security engineers.
+#### Compliance and Auditing
+
+  - **(2021)** [acloudguru.com: How to audit and secure an AWS account](https://www.pluralsight.com/resources/blog/cloud/how-to-audit-and-secure-an-aws-account) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive guide detailing security auditing strategies for AWS accounts. Key recommendations focus on establishing continuous monitoring patterns using AWS CloudTrail, securing root entities with MFA, and leveraging AWS Config for resource mapping. Under current 2026 security benchmarks, these recommendations form the minimal security posture baselines, though contemporary patterns favor automated multi-account orchestration via AWS Control Tower.
+#### Data Protection and Encryption
+
+  - **(2021)** [yobyot.com: AWS multi-region KMS keys and Data Lifecycle Manager: better together](https://yobyot.com/aws/aws-multi-region-keys-and-ec2-data-lifecycle-manager/2021/08/18) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the combined integration of AWS Multi-Region KMS keys with Amazon Data Lifecycle Manager (DLM) to manage encrypted EBS volumes across multiple regional sectors. Facilitates disaster recovery topologies by eliminating the need to re-encrypt snapshots with localized keys during inter-region replication. In 2026 cloud-native resilience paradigms, this configuration is a proven pattern for maintaining low RTO/RPO across fault domains.
+#### Identity and Access Management
+
+  - **(2025)** [==AWS Identity and Access Management - Getting Started==](http://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official AWS foundational guide on configuring roles, policies, and users using Identity and Access Management (IAM). Highlights crucial best practices for avoiding permanent credentials, utilizing temporary security tokens, and crafting fine-grained permissions. In 2026, modern implementations universally pair this basic guidance with AWS IAM Identity Center to handle enterprise single sign-on workflows.
+#### Network Security
+
+  - **(2024)** [**AWS WAF sample rules**](https://github.com/amazon-archives/aws-waf-sample) <span class='md-tag md-tag--info'>⭐ 511</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A historical repository containing sample AWS WAF rule sets and templates designed for traffic filtering. Critical Live Grounding: Although useful for understanding core rule constructs, this repository has been officially archived. Modern practitioners are strongly advised to utilize AWS Managed Rules or partner-provided WAF protections managed centrally via AWS Firewall Manager instead of copying legacy templates.
+#### Secret Management
+
+  - **(2021)** [k21academy.com: AWS Secrets Manager](https://k21academy.com/aws-cloud/aws-secrets-manager) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces AWS Secrets Manager, focusing on programmatic secret retrieval, lifecycle rotation, and native RDS integrations. Explains how the platform helps developers eliminate hardcoded credentials in application manifests. Dynamic secrets rotation via AWS Secrets Manager remains a key security paradigm for securing microservices databases.
+### Security and Compliance
+
+#### AWS Security (2)
+
+  - **(2026)** [==AWS Security Blog==](http://blogs.aws.amazon.com/security) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — AWS's official technical security feed, featuring deep dives on IAM policies, KMS setups, threat detection strategies, and compliance architectures. Essential reading for platform security architects guarding complex enterprise infrastructures.
+## Data Engineering
+
+### Data Lake Security
+
+#### AWS Lake Formation
+
+  - **(2021)** [keepler.io: Gestionando el control de accesos en nuestro data lake en AWS](https://keepler.io/es/2021/03/15/gestionando-el-control-de-accesos-en-nuestro-data-lake-en-aws) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses access control management structures applied to enterprise Data Lakes on AWS. Emphasizes shifting away from fragile S3 bucket policies toward automated, centralized metadata policies managed by AWS Lake Formation. A critical guide for data engineers aiming to secure transactional storage engines without degrading execution latency or performance.
 ## Platform Engineering
 
 ### CI-CD Security

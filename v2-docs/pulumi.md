@@ -5,10 +5,6 @@
 
 ## Standard Reference
 
-  - [Pulumi VS Terraform](https://www.pulumi.com/docs/iac/comparisons/terraform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [civo.com: Manage Kubernetes clusters using the Civo Pulumi provider](https://www.civo.com/learn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [pulumi.com: From Kubernetes or Helm YAML](https://www.pulumi.com/docs/iac/guides/migration/migrating-to-pulumi/from-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [travis.media: Pulumi Tutorial: Automate Kubernetes Deployments and Operations with this Complete Guide](https://travis.media/blog/pulumi-tutorial-automate-kubernetes-operations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Pulumi](https://www.pulumi.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [DRY (Don’t Repeat Yourself) on the cloud with Pulumi](https://blog.thundra.io/dry-dont-repeat-yourself-on-the-cloud-with-pulumi)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [build5nines.com: Beginner’s Guide to Pulumi CI/CD Pipelines](https://build5nines.com/beginners-guide-to-pulumi-ci-cd-pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -26,6 +22,22 @@
   - [pulumi/kube2pulumi](https://github.com/pulumi/kube2pulumi) <span class='md-tag md-tag--info'>⭐ 107</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [packetswitch.co.uk: Terraform is Good, but I Like Pulumi](https://www.packetswitch.co.uk/terraform-is-good-but-i-like-pulumi)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Infrastructure as Code
+
+### IaC Orchestrators
+
+#### Bootstrapping
+
+  - **(2024)** [travis.media: Pulumi Tutorial: Automate Kubernetes Deployments and Operations with this Complete Guide](https://travis.media/blog/pulumi-tutorial-automate-kubernetes-operations) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An end-to-end practical tutorial of the Pulumi platform, outlining stack setups, configuration management, state handling, and deployment execution. Offers software engineers a direct path to transition infrastructure definitions into code bases.
+#### Cloud Integration
+
+  - **(2024)** [civo.com: Manage Kubernetes clusters using the Civo Pulumi provider](https://www.civo.com/learn) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A programmatic infrastructure guide exploring cluster deployment on Civo's managed K3s cloud utilizing the Pulumi SDK. It shows how developers can replace YAML definitions with type-safe software code pipelines to control computing bounds directly.
+#### Comparison Studies
+
+  - **(2026)** [Pulumi VS Terraform](https://www.pulumi.com/docs/iac/comparisons/terraform) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official comparative architectural study analyzing the structural trade-offs between Pulumi's imperative, program-driven IaC model and Terraform's declarative HCL framework. Evaluates differences in state persistence, dynamic resource declaration, and team scaling.
+#### Migration Strategies
+
+  - **(2025)** [pulumi.com: From Kubernetes or Helm YAML](https://www.pulumi.com/docs/iac/guides/migration/migrating-to-pulumi/from-kubernetes) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An official Pulumi migration blueprint showing how to programmatically translate existing Kubernetes YAML manifests and Helm charts into type-safe programming code. This workflow transition unlocks dynamic variables, native testing frameworks, and advanced CI.
 ## Observability and Performance
 
 ### Performance Testing

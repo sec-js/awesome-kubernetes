@@ -5,121 +5,18 @@
 
 ## Standard Reference
 
-  - [Azure ExpressRoute Resiliency: Best Practices for Production-Critical Workloads](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/azure-expressroute-resiliency-best-practices-for-production-critical-workloads/4394842)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Announcing Public Preview of Terraform Export from the Azure Portal](https://techcommunity.microsoft.com/blog/AzureToolsBlog/announcing-public-preview-of-terraform-export-from-the-azure-portal/4409889)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Azure Landing Zones Accelerators for Bicep and Terraform. Announcing General Availability!](https://techcommunity.microsoft.com/blog/azuretoolsblog/azure-landing-zones-accelerators-for-bicep-and-terraform-announcing-general-avai/4029866)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [thomasthornton.cloud: Deploy Terraform using Azure DevOps](https://thomasthornton.cloud/deploy-terraform-using-azure-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Deploying Virtual Networks Across Tenants Using Azure Virtual Network Manager](https://techcommunity.microsoft.com/blog/azurenetworkingblog/deploying-virtual-networks-across-tenants-using-azure-virtual-network-manager-ip/4410161)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Enterprise Web App Patterns - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/web-apps/guides/enterprise-app-patterns/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Azure Products by Region Table](https://azure.microsoft.com/en-us/en-us/explore/global-infrastructure/products-by-region/table)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Microsoft Azure](https://azure.microsoft.com/en-us)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Microsoft Docs](https://learn.microsoft.com/en-us)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Azure Docs](https://learn.microsoft.com/en-us/azure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Azure Updates 🌟](https://azure.microsoft.com/en-us/en-us/updates)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Azure Updates AKS 🌟](https://azure.microsoft.com/en-us/en-us/updates/?query=AKS)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Microsoft Learn - Learning Rooms Directory](https://techcommunity.microsoft.com/?product=All)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Non-interactive logins: minimizing the blind spot](https://techcommunity.microsoft.com/blog/microsoftsentinelblog/non-interactive-logins-minimizing-the-blind-spot/2287932)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: How to create a VPN between Azure and AWS using only managed solutions](https://techcommunity.microsoft.com/blog/fasttrackforazureblog/how-to-create-a-vpn-between-azure-and-aws-using-only-managed-solutions/2281900)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [k21academy.com: Azure Data Lake Overview For Beginners](https://k21academy.com/azure-data/azure-data-lake)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [theregister.com: Microsoft Azure deprecations: API changes will break applications and PowerShell scripts](https://www.theregister.com/off-prem/2021/09/03/microsoft-azure-deprecations-api-changes-will-break-applications-and-powershell-scripts/748744)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [k21academy.com: Azure RBAC Vs Azure Policies Vs Azure Blueprints](https://k21academy.com/azure-cloud/azure-rbac-vs-azure-policies-vs-azure-blueprints)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [docs.microsoft.com: Multi-tenant user management scenarios](https://learn.microsoft.com/en-us/en-us/azure/active-directory/fundamentals/multi-tenant-user-management-scenarios)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [azure.microsoft.com: Choose the best global distribution solution for your applications with Azure](https://azure.microsoft.com/en-us/en-us/blog/choose-the-best-global-distribution-solution-for-your-applications-with-azure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Leveraging Azure Event Hub, Microsoft Fabric, and Power BI for Real-Time Data Analytics](https://techcommunity.microsoft.com/blog/educatordeveloperblog/leveraging-azure-event-hub-microsoft-fabric-and-power-bi-for-real-time-data-anal/4028701)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Azure SQL Managed Instance pools: new features](https://techcommunity.microsoft.com/blog/azuresqlblog/azure-sql-managed-instance-pools-new-features/4044688)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Microsoft Fabric - Multi-Tenant Architecture](https://techcommunity.microsoft.com/blog/fasttrackforazureblog/microsoft-fabric---multi-tenant-architecture/4119429)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Azure Orphan Resources](https://techcommunity.microsoft.com/blog/fasttrackforazureblog/azure-orphan-resources/3492198)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [github.com/dolevshor/azure-orphan-resources](https://github.com/dolevshor/azure-orphan-resources) Centralize orphan resources in Azure environments
-  - [techcommunity.microsoft.com: Azure Architecture - Course Blueprint](https://techcommunity.microsoft.com/blog/azurearchitectureblog/azure-course-blueprints/4338972)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Azure Policy for Kubernetes releases support for custom policy](https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/azure-policy-for-kubernetes-releases-support-for-custom-policy/2699466)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Azure Policy Recommended Practices](https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/azure-policy-recommended-practices/3798024)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [infoq.com: Microsoft Refreshes its Well-Architected Framework](https://www.infoq.com/news/2023/11/azure-well-architected-framework)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Get tailored insights with our Advisor Well-Architected assessments](https://techcommunity.microsoft.com/blog/finopsblog/get-tailored-insights-with-our-advisor-well-architected-assessments/4218239)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Infra in Azure for Developers - The What](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/infra-in-azure-for-developers---the-what/4026102)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Azure OpenAI Landing Zone reference architecture](https://techcommunity.microsoft.com/blog/azurearchitectureblog/azure-openai-landing-zone-reference-architecture/3882102)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: New feature: easily assign regulatory compliance policies to your Azure Landing Zone](https://techcommunity.microsoft.com/blog/azurearchitectureblog/new-feature-easily-assign-regulatory-compliance-policies-to-your-azure-landing-z/4074957)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Azure landing zones custom archetypes using Terraform](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/azure-landing-zones-custom-archetypes-using-terraform/3791172)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: From Zero to Hero with Azure Landing Zones](https://techcommunity.microsoft.com/blog/startupsatmicrosoftblog/from-zero-to-hero-with-azure-landing-zones/4229195)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Generally available: Azure Bastion now support shareable links](https://azure.microsoft.com/en-us/en-us/updates/generally-available-azure-bastion-shareable-links)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [theregister.com: Microsoft has made Azure Linux generally available. Repeat, Azure Linux](https://www.theregister.com/software/2023/05/26/microsofts-azure-linux-distro-is-now-generally-available/568359)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [CommandLine Ninja](https://commandline.ninja)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [azurebrains.com: Azurebrains](https://blog.azurebrains.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [docs.microsoft.com: Understand Azure Load Balancing. Decision tree for load balancing in Azure](https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [mvark.blogspot.com: Comparison of Azure Front Door, Traffic Manager, Application Gateway & Load Balancer](http://mvark.blogspot.com/2019/12/comparison-of-azure-front-door-traffic.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Azure Load Testing](https://azure.microsoft.com/en-us/en-gb/products/load-testing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [azure.microsoft.com: Microsoft Azure Load Testing is now generally available](https://azure.microsoft.com/en-us/en-gb/blog/microsoft-azure-load-testing-is-now-generally-available)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/microsoft/CBL-Mariner](https://github.com/microsoft/azurelinux) <span class='md-tag md-tag--info'>⭐ 4823</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [azure.microsoft.com: Azure Quickstart Templates](https://learn.microsoft.com/en-us/samples/browse/?expanded=azure&products=azure-resource-manager)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: ARM Template Specs now GA!](https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/arm-template-specs-now-ga/2402618)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [learn.microsoft.com: DevTest and DevOps for microservice solutions](https://learn.microsoft.com/en-us/azure/devtest-labs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [docs.microsoft.com: Build applications with Azure DevOps (Learning Path)](https://learn.microsoft.com/en-gb/training/browse)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Building a path to success for microservices and .NET Core - Project Tye + GitHub Actions](https://techcommunity.microsoft.com/blog/appsonazureblog/building-a-path-to-success-for-microservices-and-net-core---project-tye--github-/1502270)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [thomasthornton.cloud: Scout Suite reports using Azure DevOps Pipeline](https://thomasthornton.cloud/scout-suite-reports-using-azure-devops-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloud.google.com: Crea una canalización de CI/CD con Azure Pipelines y Compute Engine](https://docs.cloud.google.com/dotnet/docs/creating-cicd-pipeline-vsts-compute-engine)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [thinksys.com: Azure DevOps Pipeline Complete Guide 2022](https://thinksys.com/azure/azure-devops-pipeline-complete-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: CICD in Synapse SQL: How to deliver your database objects across multiple environments](https://techcommunity.microsoft.com/blog/azuresynapseanalyticsblog/cicd-in-synapse-sql-how-to-deliver-your-database-objects-across-multiple-environ/3267507)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [learn.microsoft.com: Azure DevOps Templates - Template types & usage 🌟🌟](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/templates?view=azure-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Azure DevOps Pipelines: If Expressions and Conditions 🌟](https://techcommunity.microsoft.com/blog/healthcareandlifesciencesblog/azure-devops-pipelines-if-expressions-and-conditions/3737159)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [datascientest.com: Azure DevOps Pipeline YAML: why configure CI/CD pipelines with YAML?](https://liora.io/en/azure-devops-pipeline-yaml-why-configure-ci-cd-pipelines-with-yaml)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [learn.microsoft.com: Managed DevOps Pools documentation](https://learn.microsoft.com/en-us/azure/devops/managed-devops-pools/?view=azure-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [datascientest.com: Azure DevOps vs GitHub Actions: Which is the best CI/CD tool?](https://liora.io/en/azure-devops-vs-github-actions-which-is-the-best-ci-cd-tool)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Dynamic user membership rules, Azure Active Directory Administrative Units and password reset! 🌟](https://techcommunity.microsoft.com/discussions/azure/dynamic-user-membership-rules-azure-active-directory-administrative-units-and-pa/3281164)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [learn.microsoft.com: Application registration permissions for custom roles in Azure Active Directory](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/custom-available-permissions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [learn.microsoft.com: What are Azure Active Directory recommendations? 🌟🌟](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/overview-recommendations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Azure Permissions 101: How to manage Azure access effectively](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/azure-permissions-101-how-to-manage-azure-access-effectively/4067468)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Important: Azure AD Graph Retirement and Powershell Module Deprecation](https://techcommunity.microsoft.com/blog/microsoft-entra-blog/important-azure-ad-graph-retirement-and-powershell-module-deprecation/3848270)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [vcloud-lab.com: Get started and configure certificate-based authentication in Azure](http://vcloud-lab.com/entries/microsoft-azure/get-started-and-configure-with-certificate-based-authentication-in-azure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [vcloud-lab.com: Create an Azure App registrations in Azure Active Directory using PowerShell & AzureCLI](http://vcloud-lab.com/entries/microsoft-azure/create-an-azure-app-registrations-in-azure-active-directory-using-powershell-azurecli)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Azure Arc overview](https://learn.microsoft.com/en-us/en-us/azure/azure-arc/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [azurearcjumpstart.io](https://jumpstart.azure.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Standardize DevOps practices across hybrid and multicloud environments](https://techcommunity.microsoft.com/blog/itopstalkblog/standardize-devops-practices-across-hybrid-and-multicloud-environments/2795010)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [seifbassem.com: SSH into your Azure Arc-enabled servers from anywhere](https://blog.seifbassem.com/blogs/posts/azure-arc-ssh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ismiletechnologies.com: Secure DevOps Kit For Azure(AzSK)](https://ismiletechnologies.com/en_us/devsecops/secure-devops-kit-azureazsk)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [learn.microsoft.com: Configure a Java app for Azure App Service](https://learn.microsoft.com/en-us/azure/app-service/configure-language-java-deploy-run)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Azure Monitor Logs Next Evolution: Multi-tier logging](https://techcommunity.microsoft.com/blog/azureobservabilityblog/azure-monitor-logs-next-evolution-multi-tier-logging/4200871)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Introducing Azure Monitor managed service for Prometheus 🌟](https://techcommunity.microsoft.com/blog/azureobservabilityblog/introducing-azure-monitor-managed-service-for-prometheus/3600185)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: How To Monitor Your Multi-Tenant Solution on Azure With Azure Monitor](https://techcommunity.microsoft.com/blog/azureobservabilityblog/how-to-monitor-your-multi-tenant-solution-on-azure-with-azure-monitor/4042140)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Azure Orphan Resources Grafana Dashboard](https://techcommunity.microsoft.com/discussions/azurepartners/azure-orphan-resources-grafana-dashboard/4120303)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [PowerShell](https://learn.microsoft.com/en-us/powershell)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [deepinstinct.com: What makes powershell a challenge for cybersecurity solutions? 🌟](https://www.deepinstinct.com/blog/what-makes-powershell-a-challenge-for-cybersecurity-solutions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.guybarrette.com: Powershell prompt: How to display your current Kubernetes context using Oh-My-Posh 3 🌟](https://www.linkedin.com/newsletters/6962087231775772672)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [acloudguru.com: The Beginner’s Guide to Azure PowerShell: One Shell to Rule Them All](https://www.pluralsight.com/resources/blog/cloud/one-shell-to-rule-them-all-5-reasons-to-use-powershell-for-cloud-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: An example why PowerShell is so important!](https://techcommunity.microsoft.com/discussions/windowspowershell/an-example-why-powershell-is-so-important/3041748)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [commandline.ninja: Use Powershell to find windows services configured to run as another user](https://commandline.ninja/use-powershell-to-find-services-configured-to-run-as-another-user)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Use PowerShell to retrieve all assigned Intune policies and applications per Azure AD group!](https://techcommunity.microsoft.com/discussions/microsoft-intune/use-powershell-to-retrieve-all-assigned-intune-policies-and-applications-per-azu/3217498)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Use PowerShell to search for accounts in Active Directory that have gone stale!](https://techcommunity.microsoft.com/discussions/windowsserver/use-powershell-to-search-for-accounts-in-active-directory-that-have-gone-stale/3585934)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Azure Storage Blob Count & Capacity usage Calculator](https://techcommunity.microsoft.com/blog/azurepaasblog/azure-storage-blob-count--capacity-usage-calculator/3516855)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Azure PowerShell Tips and Tricks](https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/azure-powershell-tips-and-tricks/4066848)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Announcing a new login experience with Azure PowerShell and Azure CLI](https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-a-new-login-experience-with-azure-powershell-and-azure-cli/4109357)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Abhisheksinhacoder/collection-of-useful-scripts](https://github.com/Abhisheksinha1506/Collection-of-Useful-Scripts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/search?l=powershell](https://github.com/search?l=powershell&q=stars%3A%3E1&s=stars&type=Repositories)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [systemcenterdudes.com: Create Operational SCCM Collection Using Powershell Script](https://www.systemcenterdudes.com/create-operational-sccm-collection-using-powershell-script)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [prae1809/PowerShell-Scripts: OperationalCollections](https://github.com/prae1809/PowerShell-Scripts/tree/master/OperationalCollections) This script will create a set of 134 SCCM collections for your various needs. These collections can be used for operational tasks afterward.
-  - [powershellgallery.com: Microsoft.PowerShell.Crescendo](https://www.powershellgallery.com/packages/Microsoft.PowerShell.Crescendo/1.1.0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [commandline.ninja: Video Intro to Secret Management with Powershell](https://commandline.ninja/video-intro-to-secret-management-with-powershell)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Announcing template-based previews of Azure CLI and Azure PowerShell for Key Vault deployments](https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-template-based-previews-of-azure-cli-and-azure-powershell-for-key-vau/3933802)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [mandiant.com: Azure Run Command for Dummies](https://cloud.google.com/blog/topics/threat-intelligence/azure-run-command-dummies)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [docs.microsoft.com: Run scripts in your Linux VM by using action Run Commands](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/run-command)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [docs.microsoft.com: Run scripts in your Windows VM by using action Run Commands](https://learn.microsoft.com/en-us/en-us/azure/virtual-machines/windows/run-command)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [docs.microsoft.com: Desired State Configuration overview for decision makers 🌟](https://learn.microsoft.com/en-us/powershell/dsc/overview/decisionmaker?view=dsc-1.1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: (Part-1) Leverage Bicep: Standard model to Automate Azure IaaS deployment](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/part-1-leverage-bicep-standard-model-to-automate-azure-iaas-deployment/3804348)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [insight-services-apac.github.io: Getting Started with Bicep](https://blog.insight-services-apac.dev/2023/12/04/getting-started-bicep)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Infra in Azure for Developers - The How (Part 2)](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/infra-in-azure-for-developers---the-how-part-2/4046385)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Announcing public preview of Bicep templates support for Microsoft Graph](https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/announcing-public-preview-of-bicep-templates-support-for-microsoft-graph/4141772)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Azure Traffic Manager](https://learn.microsoft.com/en-us/azure/traffic-manager)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Centralized private resolver architecture implementation using Azure private DNS resolver](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/centralized-private-resolver-architecture-implementation-using-azure-private-dns/4132622)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Create an Azure Active Directory tenant for P2S OpenVPN protocol connections](https://learn.microsoft.com/en-us/azure/vpn-gateway/openvpn-azure-ad-tenant)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Security Control: Implement security best practices](https://techcommunity.microsoft.com/blog/microsoftdefendercloudblog/security-control-implement-security-best-practices/2269914)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [learn.microsoft.com: Conditional Access architecture and personas](https://learn.microsoft.com/en-us/entra/identity/conditional-access/plan-conditional-access)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Microsoft Announces General Availability of Defender for APIs](https://techcommunity.microsoft.com/blog/microsoftdefendercloudblog/microsoft-announces-general-availability-of-defender-for-apis/3981488)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: What’s new in Defender: How Copilot for Security can transform your SOC](https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/what%e2%80%99s-new-in-defender-how-copilot-for-security-can-transform-your-soc/4084222)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Monitoring Microsoft Sentinel Reports with Dashboard Hub & Power BI](https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/monitoring-microsoft-sentinel-reports-with-dashboard-hub--power-bi/4203870)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Azure Virtual WAN introduces its first SaaS offering](https://azure.microsoft.com/en-us/en-us/blog/azure-virtual-wan-introduces-its-first-saas-offering)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Azure Data Factory: How to split a file into multiple output files with Bicep](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/azure-data-factory-how-to-split-a-file-into-multiple-output-files-with-bicep/4039825)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Introducing Azure Container Apps: a serverless container service for running modern apps at scale](https://techcommunity.microsoft.com/blog/appsonazureblog/introducing-azure-container-apps-a-serverless-container-service-for-running-mode/2867265)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Azure Policy for Azure Container Apps? Yes, please](https://techcommunity.microsoft.com/blog/fasttrackforazureblog/azure-policy-for-azure-container-apps-yes-please/3775200)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Azure Container Storage in Public Preview](https://techcommunity.microsoft.com/blog/azurestorageblog/azure-container-storage-in-public-preview/3819246)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [docs.microsoft.com: Using Policy with Azure Site Recovery](https://learn.microsoft.com/en-us/en-us/azure/site-recovery/azure-to-azure-how-to-enable-policy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [infoworld.com: Getting started with Azure OpenAI](https://www.infoworld.com/article/2337918/getting-started-with-azure-openai.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: The AI Study Guide: Azure’s top free resources for learning generative AI in 2024](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/the-ai-study-guide-azure%E2%80%99s-top-free-resources-for-learning-generative-ai-in-2024/4036890)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@mikakrief: Using Azure Service Operator v2](https://medium.com/@mikakrief/using-azure-service-operator-v2-4a1fa1f5e3b8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Introduction to Azure Application Gateway for Containers (AGC)](https://blog.cloudtrooper.net/2025/02/28/application-gateway-for-containers-a-not-so-gentle-intro-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Automating Microsoft Sentinel Deployment with Azure DevOps CI/CD](https://noodlemctwoodle.medium.com/automating-microsoft-sentinel-deployment-with-azure-devops-ci-cd-2d4ae0c4e254)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -412,6 +309,38 @@
 
   - [Announcing Azure MCP Server 2.0 Stable Release for Self-Hosted Agentic Cloud Automation](https://devblogs.microsoft.com/azure-sdk/announcing-azure-mcp-server-2-0-stable-release) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Announcement of Microsoft Azure's MCP Server 2.0 release for agentic automation.
 Live Grounding: Provides stable, secure integrations allowing compliant AI models to deploy, manage, and query Azure cloud assets using the standardized Model Context Protocol.
+## Artificial Intelligence
+
+### Generative AI
+
+#### Azure OpenAI Service
+
+  - **(2023)** [infoworld.com: Getting started with Azure OpenAI](https://www.infoworld.com/article/2337918/getting-started-with-azure-openai.html) <span class='md-tag md-tag--warning'>[PYTHON / JSON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural onboarding guide detailing Azure OpenAI implementations. Covers core model deployment strategies, secure endpoint provisioning, and prompt fine-tuning pipelines.
+#### Developer Enablement
+
+  - **(2024)** [techcommunity.microsoft.com: The AI Study Guide: Azure’s top free resources for learning generative AI in 2024](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/the-ai-study-guide-azure%E2%80%99s-top-free-resources-for-learning-generative-ai-in-2024/4036890) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed technical directory collecting high-impact free training resources, virtual sandboxes, and labs released by Microsoft to master generative AI modeling.
+## Cloud Architecture
+
+### Artificial Intelligence (1)
+
+#### Azure OpenAI
+
+  - **(2023)** [**techcommunity.microsoft.com: Azure OpenAI Landing Zone reference architecture**](https://techcommunity.microsoft.com/blog/azurearchitectureblog/azure-openai-landing-zone-reference-architecture/3882102) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Provides a comprehensive architectural reference for deploying enterprise-grade generative AI workloads within Azure. It outlines landing zone designs focusing on network isolation, private endpoints, regional failover strategies, and policy-driven governance. Essential for architects seeking structured deployment patterns for secure large language model environments.
+## Cloud Governance
+
+### FinOps and Cost Optimization
+
+#### Dashboards
+
+  - **(2024)** [techcommunity.microsoft.com: Azure Orphan Resources Grafana Dashboard](https://techcommunity.microsoft.com/discussions/azurepartners/azure-orphan-resources-grafana-dashboard/4120303) <span class='md-tag md-tag--warning'>[JSON / KQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces a highly efficient Grafana visualization dashboard engineered to identify orphaned Azure resources like detached disks, unassigned public IPs, and idle interfaces to streamline resource cleanups and FinOps management.
+### Identity and Access Management
+
+#### Azure Active Directory
+
+  - **(2022)** [vcloud-lab.com: Create an Azure App registrations in Azure Active Directory using PowerShell & AzureCLI](http://vcloud-lab.com/entries/microsoft-azure/create-an-azure-app-registrations-in-azure-active-directory-using-powershell-azurecli) <span class='md-tag md-tag--warning'>[POWERSHELL / BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Step-by-step programmatic blueprint for automating App Registrations within Entra ID. Detailed scripts walk engineers through generating application registrations, assigning service principals, granting automated API credentials, and handling secret creation securely via Azure CLI and PowerShell.
+#### CLI and Tooling
+
+  - **(2024)** [techcommunity.microsoft.com: Announcing a new login experience with Azure PowerShell and Azure CLI](https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-a-new-login-experience-with-azure-powershell-and-azure-cli/4109357) <span class='md-tag md-tag--warning'>[POWERSHELL / BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep dive into the modern Microsoft authentication runtime enhancements within Azure CLI and PowerShell. Discusses Web Account Manager integration and single-sign-on (SSO) support configurations.
 ## Cloud Infrastructure
 
 ### Azure
@@ -439,9 +368,16 @@ Live Grounding: Provides stable, secure integrations allowing compliant AI model
 #### Fleet Management
 
   - **(2025)** [Limitless Kubernetes Scaling for AI and Data-intensive Workloads: The AKS Fleet Strategy](http://blog.aks.azure.com/2025/04/02/Scaling-Kubernetes-for-AI-and-Data-intensive-Workloads) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep dives into Azure Kubernetes Service (AKS) Fleet Manager strategies to run multi-cluster AI workloads. Outlines global routing, high-density scheduling optimizations, and cross-cluster resource synchronization required for distributed training.
+## Cloud Platforms
+
+### Public Cloud
+
+#### Azure (1)
+
+  - **(2026)** [Microsoft Azure](https://azure.microsoft.com/en-us) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Primary reference portal for Microsoft Azure's cloud-native computing, compute virtualization, storage platforms, AKS orchestration, and global software-defined networking.
 ## Cloud Providers
 
-### Azure (1)
+### Azure (2)
 
 #### AKS
 
@@ -451,6 +387,37 @@ Live Grounding: Provides stable, secure integrations allowing compliant AI model
 #### AKS Updates
 
   - [Azure Updates AKS 🌟](https://azure.microsoft.com/en-us/updates/?query=AKS) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Official update tracking feed detailing Azure Kubernetes Service platform improvements, retired APIs, and native feature promotions. Curator insights mark it as a vital operational pulse for infrastructure engineers, while live grounding confirms its role in tracking Kubernetes version deprecations and control plane releases.
+## Cloud Security
+
+### DevSecOps
+
+#### Compliance and Guardrails
+
+  - **(2022)** [ismiletechnologies.com: Secure DevOps Kit For Azure(AzSK)](https://ismiletechnologies.com/en_us/devsecops/secure-devops-kit-azureazsk) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed technical analysis of the Secure DevOps Kit for Azure (AzSK). Addresses historical pipeline security validation patterns; notes its transition and deprecation path in favor of modern native tools like Azure Policy and Defender for Cloud.
+### Identity and Access Management (1)
+
+#### Conditional Access
+
+  - **(2024)** [learn.microsoft.com: Conditional Access architecture and personas](https://learn.microsoft.com/en-us/entra/identity/conditional-access/plan-conditional-access) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official architectural blueprint detailing Microsoft Entra Conditional Access designs. Outlines persona-based rules, diagnostic flows, and zero-trust configuration policies.
+### SecOps
+
+#### Virtual Machines
+
+  - **(2021)** [mandiant.com: Azure Run Command for Dummies](https://cloud.google.com/blog/topics/threat-intelligence/azure-run-command-dummies) <span class='md-tag md-tag--warning'>[POWERSHELL / BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep security analysis of the operational usage and vulnerabilities of the VM Run Command feature. Explores lateral movement techniques and mechanisms to restrict, audit, and log execution pipelines.
+### SecOps and Governance
+
+#### API Security
+
+  - **(2023)** [techcommunity.microsoft.com: Microsoft Announces General Availability of Defender for APIs](https://techcommunity.microsoft.com/blog/microsoftdefendercloudblog/microsoft-announces-general-availability-of-defender-for-apis/3981488) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces the general availability of Defender for APIs. Details how to continuously discover, analyze, and secure exposed API endpoints from credential misuse, data leaks, and anomalous traffic patterns.
+#### Generative AI and SecOps
+
+  - **(2024)** [techcommunity.microsoft.com: What’s new in Defender: How Copilot for Security can transform your SOC](https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/what%e2%80%99s-new-in-defender-how-copilot-for-security-can-transform-your-soc/4084222) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews the implementation pattern of Microsoft Copilot for Security within modern SOC environments, highlighting AI-guided incident triaging and programmatic forensic query generation.
+#### Microsoft Defender for Cloud
+
+  - **(2021)** [techcommunity.microsoft.com: Security Control: Implement security best practices](https://techcommunity.microsoft.com/blog/microsoftdefendercloudblog/security-control-implement-security-best-practices/2269914) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Deep dive into Defender for Cloud security baseline controls. Highlights how to enforce continuous security postures and configuration tracking across multi-cloud environments.
+#### SIEM  SOAR Monitoring
+
+  - **(2024)** [techcommunity.microsoft.com: Monitoring Microsoft Sentinel Reports with Dashboard Hub & Power BI](https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/monitoring-microsoft-sentinel-reports-with-dashboard-hub--power-bi/4203870) <span class='md-tag md-tag--warning'>[KQL / POWERBI DAX CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Detailed configuration walkthrough for exporting Microsoft Sentinel telemetry, analytical alerts, and security KPIs directly into custom Power BI dashboards.
 ## Cloud-Native Infrastructure
 
 ### Infrastructure as Code
@@ -458,8 +425,276 @@ Live Grounding: Provides stable, secure integrations allowing compliant AI model
 #### AI-Assisted Operations
 
   - [Enhancing Infrastructure as Code Generation with GitHub Copilot for Azure](https://techcommunity.microsoft.com/blog/AzureDevCommunityBlog/enhancing-infrastructure-as-code-generation-with-github-copilot-for-azure/4388514)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: Analyzes the application of LLM co-pilots in rapidly writing secure ARM and Bicep configurations. Live Grounding: Demonstrates how contextual AI generators drastically lower human-error risk in pipeline IaC templates. Highly representative of modern 2025/2026 operational shifts.
-## Networking
+## Compute and Containers
 
+### AKS and Storage
+
+#### Cloud-Native Volume Drivers
+
+  - **(2023)** [techcommunity.microsoft.com: Azure Container Storage in Public Preview](https://techcommunity.microsoft.com/blog/azurestorageblog/azure-container-storage-in-public-preview/3819246) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details Azure Container Storage, a managed cloud-native block storage driver designed directly for Kubernetes, optimizing ephemeral and local storage pools for high IOPS databases.
+### Azure Container Apps
+
+#### Compliance and Policy
+
+  - **(2023)** [techcommunity.microsoft.com: Azure Policy for Azure Container Apps? Yes, please](https://techcommunity.microsoft.com/blog/fasttrackforazureblog/azure-policy-for-azure-container-apps-yes-please/3775200) <span class='md-tag md-tag--warning'>[JSON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Deep dive into governing Azure Container Apps environments using Azure Policy. Shows how to prevent unencrypted public ingress, configure secure registries, and enforce HTTPS-only traffic rules.
+#### Serverless Containers
+
+  - **(2021)** [techcommunity.microsoft.com: Introducing Azure Container Apps: a serverless container service for running modern apps at scale](https://techcommunity.microsoft.com/blog/appsonazureblog/introducing-azure-container-apps-a-serverless-container-service-for-running-mode/2867265) <span class='md-tag md-tag--warning'>[YAML / BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces Azure Container Apps (ACA), a fully-managed serverless application runtime built on Kubernetes APIs, KEDA scaling engines, Dapr runtimes, and Envoy proxy configs.
+### Virtual Machines (1)
+
+#### Systems Management
+
+  - **(2024)** [docs.microsoft.com: Run scripts in your Linux VM by using action Run Commands](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/run-command) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official documentation covering remote configuration execution within Linux host runtimes using native Run Command engines, bypassing public SSH ports entirely.
+## Data Engineering
+
+### Azure Data Factory
+
+#### Infrastructure as Code (1)
+
+  - **(2024)** [techcommunity.microsoft.com: Azure Data Factory: How to split a file into multiple output files with Bicep](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/azure-data-factory-how-to-split-a-file-into-multiple-output-files-with-bicep/4039825) <span class='md-tag md-tag--warning'>[BICEP / JSON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Demonstrates how to declare and deploy an Azure Data Factory pipeline to programmatically split massive text or CSV files into multiple physical partitions using Azure Bicep parameters.
+## Data Platform
+
+### Databases
+
+#### SQL Managed Instance
+
+  - **(2024)** [techcommunity.microsoft.com: Azure SQL Managed Instance pools: new features](https://techcommunity.microsoft.com/blog/azuresqlblog/azure-sql-managed-instance-pools-new-features/4044688) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates architectural improvements within Azure SQL Managed Instance (MI) pools. Focuses on the pre-provisioning of compute resources to dramatically accelerate instance deployment speeds and optimize the cost footprints of multi-tenant microservice database architectures.
+#### Synapse Analytics
+
+  - **(2022)** [techcommunity.microsoft.com: CICD in Synapse SQL: How to deliver your database objects across multiple environments](https://techcommunity.microsoft.com/blog/azuresynapseanalyticsblog/cicd-in-synapse-sql-how-to-deliver-your-database-objects-across-multiple-environ/3267507) <span class='md-tag md-tag--warning'>[SQL / YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explores CI/CD pipelines in Synapse SQL. Outlines the delivery of database state and SQL schemas safely across staging and production environments using DacPac-based automated build artifact release processes.
+### Real-Time Analytics
+
+#### Streaming
+
+  - **(2024)** [techcommunity.microsoft.com: Leveraging Azure Event Hub, Microsoft Fabric, and Power BI for Real-Time Data Analytics](https://techcommunity.microsoft.com/blog/educatordeveloperblog/leveraging-azure-event-hub-microsoft-fabric-and-power-bi-for-real-time-data-anal/4028701) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explores building high-throughput event processing pipelines by integrating Azure Event Hubs directly with Microsoft Fabric and Power BI for real-time reporting. Demonstrates patterns for streaming event telemetry from distributed systems directly into Fabric OneLake with minimal ETL overhead.
+### SaaS Architecture
+
+#### Multi-Tenancy
+
+  - **(2024)** [techcommunity.microsoft.com: Microsoft Fabric - Multi-Tenant Architecture](https://techcommunity.microsoft.com/blog/fasttrackforazureblog/microsoft-fabric---multi-tenant-architecture/4119429) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Technical blueprint detailing tenant segregation strategies in Microsoft Fabric's multi-tenant software-as-a-service layout. Evaluates partition schemes using discrete workspaces, dedicated capacities, and OneLake access control boundaries to satisfy enterprise compliance requirements.
+### Storage
+
+#### Data Lake
+
+  - **(2023)** [k21academy.com: Azure Data Lake Overview For Beginners](https://k21academy.com/azure-data/azure-data-lake) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Foundational architectural overview of Azure Data Lake Storage (ADLS) Gen2. Synthesizes the core capabilities of hierarchical namespaces with the cost-efficiency of standard Azure Blob Storage, catering specifically to distributed big data analytical workloads such as Spark and Databricks.
+## Developer Platforms
+
+### CICD
+
+#### Project Tye
+
+  - **(2020)** [techcommunity.microsoft.com: Building a path to success for microservices and .NET Core - Project Tye + GitHub Actions](https://techcommunity.microsoft.com/blog/appsonazureblog/building-a-path-to-success-for-microservices-and-net-core---project-tye--github-/1502270) <span class='md-tag md-tag--warning'>[C# CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Explores local microservice orchestration and containerized deployments using Project Tye and GitHub Actions. Live Grounding Note: Microsoft has archived Project Tye, redirecting enterprise .NET microservice engineering efforts toward the robust .NET Aspire framework.
+## Governance
+
+### API Management
+
+#### Deprecations
+
+  - **(2021)** [theregister.com: Microsoft Azure deprecations: API changes will break applications and PowerShell scripts](https://www.theregister.com/off-prem/2021/09/03/microsoft-azure-deprecations-api-changes-will-break-applications-and-powershell-scripts/748744) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Analysis of legacy Azure API version deprecation schemes. Highlights how sudden API retirements impact automated provisioning pipelines and PowerShell deployment scripts. Emphasizes the crucial requirement for engineering teams to systematically audit API versions used in IaC templates.
+### Cloud Architecture (1)
+
+#### Assessments
+
+  - **(2024)** [techcommunity.microsoft.com: Get tailored insights with our Advisor Well-Architected assessments](https://techcommunity.microsoft.com/blog/finopsblog/get-tailored-insights-with-our-advisor-well-architected-assessments/4218239) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Outlines Azure Advisor integration with the Well-Architected Assessment suite. Enables automated evaluation of running subscriptions against WAF pillars, prioritizing critical remediation recommendations directly in the portal.
+#### Well-Architected Framework
+
+  - **(2023)** [infoq.com: Microsoft Refreshes its Well-Architected Framework](https://www.infoq.com/news/2023/11/azure-well-architected-framework) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed review of Microsoft's refreshed Well-Architected Framework (WAF). Explores updated guidance on operational excellence, reliability, security, performance, and cost engineering targeted at modern containerized, serverless, and AI-driven systems.
+### Compliance
+
+#### Landing Zones
+
+  - **(2024)** [techcommunity.microsoft.com: New feature: easily assign regulatory compliance policies to your Azure Landing Zone](https://techcommunity.microsoft.com/blog/azurearchitectureblog/new-feature-easily-assign-regulatory-compliance-policies-to-your-azure-landing-z/4074957) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details a portal enhancement simplifying the direct assignment of regulatory standards (such as PCI-DSS or HIPAA) onto subscription hierarchies in Azure Landing Zones. Minimizes administrative tasks during security auditing phases.
+### Containers
+
+#### Kubernetes Security
+
+  - **(2021)** [techcommunity.microsoft.com: Azure Policy for Kubernetes releases support for custom policy](https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/azure-policy-for-kubernetes-releases-support-for-custom-policy/2699466) <span class='md-tag md-tag--warning'>[REGO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical deep dive into custom policy authoring within Azure Policy for Kubernetes (using OPA Gatekeeper). Allows enterprise security teams to define custom admission control constraints directly on AKS clusters, securing microservice deployments natively.
+### Cost Optimization (1)
+
+#### FinOps (1)
+
+  - **(2022)** [techcommunity.microsoft.com: Azure Orphan Resources](https://techcommunity.microsoft.com/blog/fasttrackforazureblog/azure-orphan-resources/3492198) <span class='md-tag md-tag--warning'>[KQL / POWERSHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Details the usage of a centralized Azure Workbook solution to identify and remediate orphaned cloud resources (e.g., unattached managed disks, idle load balancers, unused public IPs). Promotes advanced FinOps methodologies to automate resource governance and reduce unnecessary operational spend.
+### Education
+
+#### Cloud Architecture (2)
+
+  - **(2024)** [techcommunity.microsoft.com: Azure Architecture - Course Blueprint](https://techcommunity.microsoft.com/blog/azurearchitectureblog/azure-course-blueprints/4338972) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curated educational blueprint mapping cloud architecture learning paths with structured reference scenarios. Designed to accelerate readiness for platform architects modeling complex Azure infrastructures.
+#### DevOps Learning Path
+
+  - **(2023)** [docs.microsoft.com: Build applications with Azure DevOps (Learning Path)](https://learn.microsoft.com/en-gb/training/browse) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Official educational learning path detailing how to design and build multi-stage integration pipelines in Azure DevOps. Offers step-by-step guidance on automated build triggers, testing strategies, and artifact packaging.
+#### Resources
+
+  - **(2026)** [azurebrains.com: Azurebrains](https://blog.azurebrains.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A community-focused learning hub providing technical breakdowns, exam preparation content, and implementation tutorials detailing core Azure administrative, infrastructure, and automation services.
+### Security
+
+#### Access Control
+
+  - **(2023)** [k21academy.com: Azure RBAC Vs Azure Policies Vs Azure Blueprints](https://k21academy.com/azure-cloud/azure-rbac-vs-azure-policies-vs-azure-blueprints) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Architectural comparison of Azure's primary governance frameworks: Azure RBAC (identity authorization), Azure Policy (resource compliance), and Azure Blueprints. Live Grounding notes that while Blueprints remains supported, Microsoft modern practices heavily steer enterprise platform engineering towards Azure Template Specs and Bicep stacks for deployment template compliance.
+#### Compliance Auditing
+
+  - **(2021)** [thomasthornton.cloud: Scout Suite reports using Azure DevOps Pipeline](https://thomasthornton.cloud/scout-suite-reports-using-azure-devops-pipeline) <span class='md-tag md-tag--warning'>[YAML / PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Guides engineering teams in implementing automated multi-cloud configuration auditing. Shows how to integrate Scout Suite within an Azure DevOps pipeline to automatically generate and export compliance audit reports on build completion.
+#### Policy Compliance
+
+  - **(2023)** [Azure Policy Recommended Practices](https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/azure-policy-recommended-practices/3798024) <span class='md-tag md-tag--warning'>[JSON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Compiles recommended practices for designing, testing, and assigning Azure Policies across management group scopes. Explains policy evaluation lifecycles, execution latency mitigation, and automated remediation patterns via Managed Identities.
+## Hybrid and Multicloud
+
+### Azure Arc
+
+#### DevOps and GitOps
+
+  - **(2021)** [techcommunity.microsoft.com: Standardize DevOps practices across hybrid and multicloud environments](https://techcommunity.microsoft.com/blog/itopstalkblog/standardize-devops-practices-across-hybrid-and-multicloud-environments/2795010) <span class='md-tag md-tag--warning'>[YAML / GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Establishes a centralized GitOps and DevOps configuration control plane across heterogeneous infrastructure footprints using Azure Arc. Detail-oriented walkthrough showing how to scale policy execution and application pipelines onto hybrid Kubernetes environments safely.
+#### Infrastructure Automation
+
+  - **(2024)** [azurearcjumpstart.io](https://jumpstart.azure.com) <span class='md-tag md-tag--warning'>[HCL / BICEP / BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The premier architectural gateway and orchestration sandbox for Azure Arc adoption. Provides fully-automated reference templates to deploy hybrid resources, Kubernetes environments, and virtual machines across multi-cloud topologies via Infrastructure as Code.
+#### Secure Connectivity
+
+  - **(2022)** [seifbassem.com: SSH into your Azure Arc-enabled servers from anywhere](https://blog.seifbassem.com/blogs/posts/azure-arc-ssh) <span class='md-tag md-tag--warning'>[BASH / POWERSHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Illustrates how to achieve secure, credential-based SSH tunneling into hybrid on-premises servers using the Azure Arc relay plane. Negates the operational need for open public-facing management ports or specialized site-to-site VPN setups.
+## Identity and Access
+
+### Access Control (1)
+
+#### RBAC
+
+  - **(2024)** [techcommunity.microsoft.com: Azure Permissions 101: How to manage Azure access effectively](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/azure-permissions-101-how-to-manage-azure-access-effectively/4067468) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An enterprise primer on Azure IAM. Explores critical inheritance concepts, subscription hierarchies, custom role scopes, and service principals to help platform engineers configure robust, clutter-free access mechanisms.
+### Active Directory
+
+#### Authentication
+
+  - **(2020)** [vcloud-lab.com: Get started and configure certificate-based authentication in Azure](http://vcloud-lab.com/entries/microsoft-azure/get-started-and-configure-with-certificate-based-authentication-in-azure) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides step-by-step guidance on setting up Certificate-Based Authentication (CBA) inside Microsoft Entra ID. Explains custom domain settings and client-certificate trust configurations to secure machine-to-machine integrations or restrict administrative console access.
+#### Deprecations (1)
+
+  - **(2023)** [techcommunity.microsoft.com: Important: Azure AD Graph Retirement and Powershell Module Deprecation](https://techcommunity.microsoft.com/blog/microsoft-entra-blog/important-azure-ad-graph-retirement-and-powershell-module-deprecation/3848270) <span class='md-tag md-tag--warning'>[POWERSHELL / REST CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Technical warning details the retirement timeline for legacy Azure AD Graph APIs and related PowerShell modules. Outlines steps for migrating enterprise workflows to the performant, highly secure Microsoft Graph API ecosystem. Live Grounding confirms this deprecation is fully complete.
+#### Governance (1)
+
+  - **(2022)** [techcommunity.microsoft.com: Dynamic user membership rules, Azure Active Directory Administrative Units and password reset! 🌟](https://techcommunity.microsoft.com/discussions/azure/dynamic-user-membership-rules-azure-active-directory-administrative-units-and-pa/3281164) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains the administration of user populations inside Microsoft Entra ID (formerly Azure AD). Reviews the use of dynamic user membership rules and Administrative Units (AUs) to isolate management boundaries and simplify delegated administration tasks.
+#### Operations
+
+  - **(2023)** [learn.microsoft.com: What are Azure Active Directory recommendations? 🌟🌟](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/overview-recommendations) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A guide detailing Microsoft Entra ID's integrated identity recommendations tool. Analyzes patterns that systematically surface security weaknesses, such as stale application registration profiles or legacy authentication methods, and delivers built-in remediation steps.
+#### RBAC (1)
+
+  - **(2023)** [learn.microsoft.com: Application registration permissions for custom roles in Azure Active Directory](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/custom-available-permissions) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Granular breakdown of API permissions mappings for custom role definitions inside Microsoft Entra ID. Promotes Principle of Least Privilege architectures by allowing security administrators to restrict application registration capabilities to authorized service owners.
+## Infrastructure
+
+### CICD (1)
+
+#### Azure Pipelines
+
+  - **(2023)** [learn.microsoft.com: Azure DevOps Templates - Template types & usage 🌟🌟](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/templates?view=azure-devops) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive developer reference mapping types, parameters, and variable inheritance models inside Azure DevOps YAML templates. Promotes pipeline reuse paradigms to standardize governance across multi-repository microservice architectures.
+  - **(2023)** [techcommunity.microsoft.com: Azure DevOps Pipelines: If Expressions and Conditions 🌟](https://techcommunity.microsoft.com/blog/healthcareandlifesciencesblog/azure-devops-pipelines-if-expressions-and-conditions/3737159) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Deconstructs the syntax and execution rules for evaluation logic (if expressions and conditional tasks) in Azure DevOps YAML pipelines. Empowers platform engineers to orchestrate environment deployment triggers dynamically.
+  - **(2023)** [datascientest.com: Azure DevOps Pipeline YAML: why configure CI/CD pipelines with YAML?](https://liora.io/en/azure-devops-pipeline-yaml-why-configure-ci-cd-pipelines-with-yaml) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Analyzes why engineering organizations should configure continuous deployment using YAML-based pipelines-as-code over legacy classic visual release pipelines, focusing on auditable history, branching strategies, and native template reuse.
+  - **(2022)** [thinksys.com: Azure DevOps Pipeline Complete Guide 2022](https://thinksys.com/azure/azure-devops-pipeline-complete-guide) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An end-to-end operational guide outlining Azure DevOps Pipeline components. Deeply parses agent configurations, target environments, multi-stage pipeline topologies, and variables mapping to construct production-ready release pipelines.
+#### Comparison
+
+  - **(2023)** [datascientest.com: Azure DevOps vs GitHub Actions: Which is the best CI/CD tool?](https://liora.io/en/azure-devops-vs-github-actions-which-is-the-best-ci-cd-tool) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates operational, syntax, and governance differences between Azure DevOps and GitHub Actions. Outlines core selection criteria to assist modern software teams in matching their repository structures and target delivery speed with the appropriate runner ecosystem.
+#### Cross-Cloud Pipelines
+
+  - **(2022)** [cloud.google.com: Crea una canalización de CI/CD con Azure Pipelines y Compute Engine](https://docs.cloud.google.com/dotnet/docs/creating-cicd-pipeline-vsts-compute-engine) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Technical walkthrough outlining cross-cloud pipeline architectures. Demonstrates step-by-step how to configure Azure DevOps Pipelines to deploy containerized or native applications directly onto Google Compute Engine instances.
+#### IaC
+
+  - **(2021)** [thomasthornton.cloud: Deploy Terraform using Azure DevOps](https://thomasthornton.cloud/deploy-terraform-using-azure-devops) <span class='md-tag md-tag--warning'>[YAML / TERRAFORM CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Demonstrates how to build automated, highly secure Terraform pipelines inside Azure DevOps. Explores handling sensitive state files safely within Azure Blob Storage backends and setting up secure Service Connections to authenticate with resource groups.
+#### Managed Pools
+
+  - **(2024)** [learn.microsoft.com: Managed DevOps Pools documentation](https://learn.microsoft.com/en-us/azure/devops/managed-devops-pools/?view=azure-devops) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes Managed DevOps Pools in Azure DevOps, outlining host provisioning behaviors, network peering capabilities, and performance optimizations. Reduces the maintenance overhead associated with managing self-hosted virtual machine scale sets for intensive build tasks.
+### Developer Tooling
+
+#### CLI Tools
+
+  - **(2026)** [CommandLine Ninja](https://commandline.ninja) <span class='md-tag md-tag--warning'>[BASH / POWERSHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-quality community technical portal sharing advanced CLI scripts, terminal short-cuts, Bash and PowerShell recipes, and administrative strategies to aid cloud infrastructure engineers in operational tasks.
+#### Concepts
+
+  - **(2024)** [techcommunity.microsoft.com: Infra in Azure for Developers - The What](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/infra-in-azure-for-developers---the-what/4026102) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A foundational primer highlighting essential cloud infrastructure paradigms for developers. Bridges application development workflows with operational requirements, explaining how compute, virtual networks, and managed databases interact.
+#### Design Patterns
+
+  - **(2023)** [Enterprise Web App Patterns - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/web-apps/guides/enterprise-app-patterns/overview) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive patterns from the Azure Architecture Center guiding development of enterprise web apps. Demonstrates decoupling strategies, state management, Zero Trust endpoint security, and microservice communication topologies.
+#### DevTest Labs
+
+  - **(2023)** [learn.microsoft.com: DevTest and DevOps for microservice solutions](https://learn.microsoft.com/en-us/azure/devtest-labs) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive documentation outlining Azure DevTest Labs architectures. Emphasizes automated environment shutdown rules, VM sizing policies, and pre-packaged dev artifact ingestion designed to control costs during microservice testing phases.
+### IaC (1)
+
+#### Landing Zones (1)
+
+  - **(2024)** [techcommunity.microsoft.com: Azure Landing Zones Accelerators for Bicep and Terraform. Announcing General Availability!](https://techcommunity.microsoft.com/blog/azuretoolsblog/azure-landing-zones-accelerators-for-bicep-and-terraform-announcing-general-avai/4029866) <span class='md-tag md-tag--warning'>[BICEP / TERRAFORM CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analysis of the generally available Azure Landing Zone (ALZ) Accelerators built on Bicep and Terraform. Explains how platform teams can implement standardized management groups, landing zone subscriptions, and network topologies programmatically.
+  - **(2024)** [techcommunity.microsoft.com: From Zero to Hero with Azure Landing Zones](https://techcommunity.microsoft.com/blog/startupsatmicrosoftblog/from-zero-to-hero-with-azure-landing-zones/4229195) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An onboarding and adoption framework aimed at startups and growing mid-market companies to establish highly secure, compliant Azure Landing Zones. Demonstrates step-by-step infrastructure scaling paths using best practice patterns.
+  - **(2023)** [techcommunity.microsoft.com: Azure landing zones custom archetypes using Terraform](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/azure-landing-zones-custom-archetypes-using-terraform/3791172) <span class='md-tag md-tag--warning'>[TERRAFORM CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Technical deep dive outlining how to customize archetype definitions within the official Azure Landing Zones Terraform module. Teaches platform engineers how to dynamically construct custom policy assignments and management structures.
+#### Template Specs
+
+  - **(2021)** [techcommunity.microsoft.com: ARM Template Specs now GA!](https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/arm-template-specs-now-ga/2402618) <span class='md-tag md-tag--warning'>[ARM JSON / BICEP CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the release of ARM Template Specs. This allows engineering teams to store, version, and share ARM/Bicep template resources securely within Azure, replacing unsecured external repository sharing mechanisms.
+#### Terraform Integration
+
+  - **(2024)** [Announcing Public Preview of Terraform Export from the Azure Portal](https://techcommunity.microsoft.com/blog/AzureToolsBlog/announcing-public-preview-of-terraform-export-from-the-azure-portal/4409889) <span class='md-tag md-tag--warning'>[TERRAFORM CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Introduces the public preview feature enabling direct export of existing Azure resources into fully configured, executable Terraform files from the Azure Portal, simplifying legacy cloud migrations to IaC.
+### Networking
+
+#### Hybrid Connectivity
+
+##### VPN
+
+  - **(2021)** [techcommunity.microsoft.com: How to create a VPN between Azure and AWS using only managed solutions](https://techcommunity.microsoft.com/blog/fasttrackforazureblog/how-to-create-a-vpn-between-azure-and-aws-using-only-managed-solutions/2281900) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Detailed technical guide outlining the design and deployment of site-to-site IPsec VPN connections between AWS and Azure environments using native managed endpoints. Avoids third-party virtual appliances by leveraging Azure VPN Gateway and AWS Virtual Private Gateway. Live Grounding verifies that although multi-cloud network overlays like Aviatrix exist, this native architecture remains a highly resilient, cost-effective baseline.
+#### Load Balancing
+
+  - **(2023)** [docs.microsoft.com: Understand Azure Load Balancing. Decision tree for load balancing in Azure](https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Microsoft's prescriptive load-balancing decision tree. Provides architects with logical criteria to differentiate and pair Azure Application Gateway, Azure Front Door, Traffic Manager, and Azure Load Balancer for global or regional microservice endpoints.
+  - **(2019)** [mvark.blogspot.com: Comparison of Azure Front Door, Traffic Manager, Application Gateway & Load Balancer](http://mvark.blogspot.com/2019/12/comparison-of-azure-front-door-traffic.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural comparison mapping the distinct use cases of Front Door, Traffic Manager, Application Gateway, and standard Azure Load Balancers. Live Grounding verifies that although compiled in 2019, the core layering concepts (layer 4 vs layer 7 routing, global vs regional ingress) remain highly accurate.
+### Operating Systems
+
+#### Azure Linux
+
+  - **(2020)** [==github.com/microsoft/CBL-Mariner==](https://github.com/microsoft/azurelinux) <span class='md-tag md-tag--info'>⭐ 4823</span> <span class='md-tag md-tag--warning'>[GO / C / SPEC CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official open-source repository for Azure Linux (CBL-Mariner). Explores the platform's architectural components, highlighting why this lightweight Linux OS is the optimal host-OS layer inside AKS to run critical containerized microservices securely.
+  - **(2023)** [theregister.com: Microsoft has made Azure Linux generally available. Repeat, Azure Linux](https://www.theregister.com/software/2023/05/26/microsofts-azure-linux-distro-is-now-generally-available/568359) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reports on the General Availability of Azure Linux (formerly CBL-Mariner), Microsoft's custom-built Linux distribution engineered to run containerized microservice workloads inside AKS. Highlight features include a highly optimized, lightweight, and secured kernel design.
+## Infrastructure as Code (2)
+
+### Azure Bicep
+
+#### Developer Onboarding
+
+  - **(2023)** [insight-services-apac.github.io: Getting Started with Bicep](https://blog.insight-services-apac.dev/2023/12/04/getting-started-bicep) <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Onboarding reference designed to accelerate transition from verbose ARM templates to highly concise Azure Bicep syntax. Discusses parameters, tooling environments, and modular structures.
+#### Developer Workflows
+
+  - **(2024)** [techcommunity.microsoft.com: Infra in Azure for Developers - The How (Part 2)](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/infra-in-azure-for-developers---the-how-part-2/4046385) <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Part 2 of an application-focused infra guide instructing developers how to rapidly model and deploy backing databases, queues, and vault parameters via Azure Bicep files.
+#### IaaS Provisioning
+
+  - **(2023)** [techcommunity.microsoft.com: (Part-1) Leverage Bicep: Standard model to Automate Azure IaaS deployment](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/part-1-leverage-bicep-standard-model-to-automate-azure-iaas-deployment/3804348) <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A structured architectural guide on automating complex enterprise virtual machines, virtual networks, and core IaaS infrastructure topologies securely using modular Azure Bicep code configurations.
+#### Microsoft Graph Integration
+
+  - **(2024)** [techcommunity.microsoft.com: Announcing public preview of Bicep templates support for Microsoft Graph](https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/announcing-public-preview-of-bicep-templates-support-for-microsoft-graph/4141772) <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the native integration support of Microsoft Graph models within declarative Bicep configurations, facilitating unified resource and tenant identity definitions in CI/CD pipelines.
+### Azure Key Vault
+
+#### Secret Management
+
+  - **(2023)** [techcommunity.microsoft.com: Announcing template-based previews of Azure CLI and Azure PowerShell for Key Vault deployments](https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-template-based-previews-of-azure-cli-and-azure-powershell-for-key-vau/3933802) <span class='md-tag md-tag--warning'>[POWERSHELL / BICEP CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews the preview support for declarative, template-based provisioning structures within Key Vault configurations using CLI and PowerShell modules, minimizing custom setup scripts.
+### Azure Resource Manager
+
+#### Reference Architecture Templates
+
+  - **(2024)** [Azure Quickstart Templates 🌟](https://learn.microsoft.com/en-us/samples/browse/?expanded=azure&products=azure-resource-manager) <span class='md-tag md-tag--warning'>[BICEP / JSON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A massive repository hosting thousands of open-source ARM and Bicep reference templates, curated to accelerate sandbox provisioning and enterprise pattern standardization.
+### Scripting Repository
+
+#### SysOps Automation
+
+  - **(2023)** [Abhisheksinhacoder/collection-of-useful-scripts](https://github.com/Abhisheksinha1506/Collection-of-Useful-Scripts) <span class='md-tag md-tag--warning'>[POWERSHELL / BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open community-maintained index of automation workflows, system utilities, and configuration scripts to handle everyday DevOps, Windows, and Linux provisioning tasks.
+## Knowledge Bases
+
+### Community Hub
+
+#### Microsoft Learn
+
+  - **(2025)** [techcommunity.microsoft.com: Microsoft Learn - Learning Rooms Directory](https://techcommunity.microsoft.com/?product=All)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Interactive forum directory facilitating peer discussion and community-led learning for Microsoft technical certifications and cloud-native application designs.
+### Documentation Hub
+
+#### Azure (3)
+
+  - **(2026)** [Azure Docs](https://learn.microsoft.com/en-us/azure) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The technical knowledge library for all Azure platform services. Provides SDK implementations, security designs, CLI tools, and infrastructure-as-code documentation.
+#### Microsoft
+
+  - **(2026)** [Microsoft Docs](https://learn.microsoft.com/en-us) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main technical documentation library for Microsoft's developer tools, platform frameworks, and API definitions.
+## Networking (1)
+
+### Azure (4)
+
+#### Hybrid Infrastructure
+
+  - **(2025)** [**Azure ExpressRoute Resiliency: Best Practices for Production-Critical Workloads**](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/azure-expressroute-resiliency-best-practices-for-production-critical-workloads/4394842) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Deeply examines resiliency patterns for Azure ExpressRoute connectivity connecting on-premises data centers to Azure. It covers active-active configuration, secondary ExpressRoute failovers, and VPN backup strategies to prevent downtime during link outages. Indispensable for designing highly available hybrid cloud foundations.
+#### Multi-Tenant
+
+  - **(2025)** [**Deploying Virtual Networks Across Tenants Using Azure Virtual Network Manager**](https://techcommunity.microsoft.com/blog/azurenetworkingblog/deploying-virtual-networks-across-tenants-using-azure-virtual-network-manager-ip/4410161) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Explains how to construct secure virtual network topologies across multiple enterprise Azure tenants using Azure Virtual Network Manager (AVNM). Details centralized mesh-network architectures, security admin rules, and policy distribution. This resource is highly practical for organizations managing complex multi-tenant landing zones.
 ### Ingress
 
 #### Azure AGC
@@ -467,6 +702,87 @@ Live Grounding: Provides stable, secure integrations allowing compliant AI model
 ##### Istio Integration
 
   - [Application Gateway for Containers: Istio Integration](https://blog.cloudtrooper.net/2025/11/21/application-gateway-for-containers-istio-integration) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A modern engineering analysis detailing the integration of Azure Application Gateway for Containers (AGC) with an internal Istio service mesh topology. Focuses on seamless north-south traffic routing and end-to-end TLS bridging configurations inside Azure cloud architectures.
+## Networking and Edge
+
+### Load Balancing (1)
+
+#### DNS Traffic Routing
+
+  - **(2024)** [Azure Traffic Manager](https://learn.microsoft.com/en-us/azure/traffic-manager) <span class='md-tag md-tag--warning'>[BASH / POWERSHELL / BICEP CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official engineering design guide detailing global routing methods for Azure Traffic Manager. Compares priority, geographic, subnet, and performance DNS resolution structures for high availability.
+### Private DNS Resolver
+
+#### Hybrid Connectivity (1)
+
+  - **(2024)** [techcommunity.microsoft.com: Centralized private resolver architecture implementation using Azure private DNS resolver](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/centralized-private-resolver-architecture-implementation-using-azure-private-dns/4132622) <span class='md-tag md-tag--warning'>[BICEP / TERRAFORM CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Technical blueprint detailing centralized private DNS resolution architectures in complex hub-and-spoke models using the managed Private DNS Resolver service, eliminating legacy DNS VM setups.
+### VPN Gateways
+
+#### Identity and Access Management (2)
+
+  - **(2024)** [Create an Azure Active Directory tenant for P2S OpenVPN protocol connections](https://learn.microsoft.com/en-us/azure/vpn-gateway/openvpn-azure-ad-tenant) <span class='md-tag md-tag--warning'>[BICEP / XML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step security implementation detailing how to integrate Entra ID authentication criteria into Point-to-Site OpenVPN connections, enforcing identity controls and MFA for remote system access.
+## Observability and Monitoring
+
+### Azure Monitor
+
+#### Log Analytics
+
+  - **(2024)** [techcommunity.microsoft.com: Azure Monitor Logs Next Evolution: Multi-tier logging](https://techcommunity.microsoft.com/blog/azureobservabilityblog/azure-monitor-logs-next-evolution-multi-tier-logging/4200871) <span class='md-tag md-tag--warning'>[KQL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the latest multi-tier logging architectures inside Log Analytics. Analyzes the financial and technical trade-offs between Analytics, Basic, and Auxiliary logging pipelines, enabling cost-effective multi-tier log ingestion for high-volume endpoints.
+### Metrics and Telemetry
+
+#### Prometheus Ecosystem
+
+  - **(2022)** [techcommunity.microsoft.com: Introducing Azure Monitor managed service for Prometheus 🌟](https://techcommunity.microsoft.com/blog/azureobservabilityblog/introducing-azure-monitor-managed-service-for-prometheus/3600185) <span class='md-tag md-tag--warning'>[YAML / PROMQL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep-dive introduction to Azure's fully managed Prometheus runtime. Eliminates the management overhead of running Prometheus at scale while enabling seamless native monitoring of Azure Kubernetes Service (AKS) metrics via PromQL and Grafana integrations.
+### Multi-Tenancy (1)
+
+#### Enterprise Architecture (1)
+
+  - **(2024)** [techcommunity.microsoft.com: How To Monitor Your Multi-Tenant Solution on Azure With Azure Monitor](https://techcommunity.microsoft.com/blog/azureobservabilityblog/how-to-monitor-your-multi-tenant-solution-on-azure-with-azure-monitor/4042140) <span class='md-tag md-tag--warning'>[KQL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Strategic system architecture detailing how to configure monitoring structures across complex multi-tenant solutions. Demonstrates secure workspace isolation, multi-tenant log parsing, and consolidated dashboard aggregation setups.
+## Platform Automation
+
+### PowerShell
+
+#### Azure Storage Utilities
+
+  - **(2022)** [techcommunity.microsoft.com: Azure Storage Blob Count & Capacity usage Calculator](https://techcommunity.microsoft.com/blog/azurepaasblog/azure-storage-blob-count--capacity-usage-calculator/3516855) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Technical walkthrough of a script engineered to rapidly calculate total storage metrics and file distributions inside massive Azure Blob Storage buckets, implementing asynchronous SDK optimizations to bypass throttling limits.
+#### Cloud Management (1)
+
+  - **(2021)** [acloudguru.com: The Beginner’s Guide to Azure PowerShell: One Shell to Rule Them All](https://www.pluralsight.com/resources/blog/cloud/one-shell-to-rule-them-all-5-reasons-to-use-powershell-for-cloud-management) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Onboarding blueprint introducing systems engineers to Azure PowerShell. Explores the basic conventions of the Az module library, command structures, context shifting, and automation strategies for cloud resource management.
+#### Configuration Management
+
+  - **(2023)** [docs.microsoft.com: Desired State Configuration overview for decision makers 🌟](https://learn.microsoft.com/en-us/powershell/dsc/overview/decisionmaker?view=dsc-1.1) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — High-level overview of PowerShell Desired State Configuration (DSC) models for enterprise orchestration. Compares pull/push architectures and drift correction features in cloud-native contexts.
+#### Developer Ergonomics
+
+  - **(2022)** [blog.guybarrette.com: Powershell prompt: How to display your current Kubernetes context using Oh-My-Posh 3 🌟](https://www.linkedin.com/newsletters/6962087231775772672) <span class='md-tag md-tag--warning'>[POWERSHELL / JSON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Practical developer guide showcasing how to inject current active Kubernetes contexts and namespaces straight into local PowerShell terminals using Oh-My-Posh prompts, dramatically decreasing deployment accidents.
+#### Developer Frameworks
+
+  - **(2023)** [powershellgallery.com: Microsoft.PowerShell.Crescendo](https://www.powershellgallery.com/packages/Microsoft.PowerShell.Crescendo/1.1.0) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Comprehensive overview of the Microsoft Crescendo orchestration framework. Demonstrates how to programmatically wrap legacy command-line interfaces inside native PowerShell modules returning object outputs.
+#### Developer Productivity
+
+  - **(2024)** [techcommunity.microsoft.com: Azure PowerShell Tips and Tricks](https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/azure-powershell-tips-and-tricks/4066848) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curated collection of advanced performance optimizations, shell-profiling frameworks, and multi-tenant environment management tips specifically tailored for Azure PowerShell CLI environments.
+#### Device and Policy Management
+
+  - **(2022)** [techcommunity.microsoft.com: Use PowerShell to retrieve all assigned Intune policies and applications per Azure AD group!](https://techcommunity.microsoft.com/discussions/microsoft-intune/use-powershell-to-retrieve-all-assigned-intune-policies-and-applications-per-azu/3217498) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Demonstrates programmatic methods to query and extract active Microsoft Intune compliance policies, assignments, and application deployments per Microsoft Entra Group via native PowerShell API calls.
+#### Directory Services
+
+  - **(2022)** [techcommunity.microsoft.com: Use PowerShell to search for accounts in Active Directory that have gone stale!](https://techcommunity.microsoft.com/discussions/windowsserver/use-powershell-to-search-for-accounts-in-active-directory-that-have-gone-stale/3585934) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Practical scripting guide utilizing the Active Directory module to easily discover and quarantine stale domain user and machine accounts, reducing lateral movement vectors.
+#### Open Source Ecosystem
+
+  - **(2024)** [github.com/search?l=powershell](https://github.com/search?l=powershell&q=stars%3A%3E1&s=stars&type=Repositories) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Real-time query index displaying high-impact open-source automation modules, libraries, and frameworks within the global GitHub PowerShell community.
+#### Scripting Runtimes
+
+  - **(2024)** [PowerShell](https://learn.microsoft.com/en-us/powershell) <span class='md-tag md-tag--warning'>[POWERSHELL / C# CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Landing portal and core developer repository for Microsoft PowerShell. Details the cross-platform scripting runtime, object-oriented pipelines, and the extensive module ecosystem utilized for enterprise-scale systems management.
+#### Secret Management (1)
+
+  - **(2022)** [commandline.ninja: Video Intro to Secret Management with Powershell](https://commandline.ninja/video-intro-to-secret-management-with-powershell) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Walkthrough demonstrating how to implement local credential isolation patterns using the PowerShell SecretManagement and SecretStore systems, integrating native pipelines with remote vaults.
+#### Security and Auditing
+
+  - **(2023)** [commandline.ninja: Use Powershell to find windows services configured to run as another user](https://commandline.ninja/use-powershell-to-find-services-configured-to-run-as-another-user) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Audit-centric script utility designed to traverse Windows systems configurations to detect non-standard services operating with user-defined service accounts, helping administrators maintain identity compliance guidelines.
+#### Security and Threat Mitigation
+
+  - **(2023)** [deepinstinct.com: What makes powershell a challenge for cybersecurity solutions? 🌟](https://www.deepinstinct.com/blog/what-makes-powershell-a-challenge-for-cybersecurity-solutions) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the dual-use security challenges of PowerShell runtimes within enterprise perimeters. Outlines evasion behaviors, in-memory obfuscation routines, and techniques to counter living-off-the-land system attacks.
+#### Systems Management (1)
+
+  - **(2021)** [techcommunity.microsoft.com: An example why PowerShell is so important!](https://techcommunity.microsoft.com/discussions/windowspowershell/an-example-why-powershell-is-so-important/3041748) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Technical review demonstrating how object-based scripting pipelines increase system automation reliability compared to legacy text parsing, showcasing practical operational troubleshooting routines in hybrid environments.
+  - **(2020)** [systemcenterdudes.com: Create Operational SCCM Collection Using Powershell Script](https://www.systemcenterdudes.com/create-operational-sccm-collection-using-powershell-script) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Automated script that constructs over 130 standardized device collections inside System Center Configuration Manager (SCCM), standardizing patch deployment rings and device groupings.
 ## Platform Engineering (1)
 
 ### AI Integration
@@ -482,7 +798,7 @@ Live Grounding: Provides stable, secure integrations allowing compliant AI model
 ##### Azure DevOps
 
   - [Automate Pull Request Descriptions in Azure DevOps with Azure OpenAI](https://johnlokerse.dev/2025/02/10/automate-pull-request-descriptions-in-azure-devops-with-azure-openai) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A practical implementation guide demonstrating how to integrate Azure OpenAI into Azure DevOps pipelines to automatically generate comprehensive pull request descriptions from code differences. Demonstrates prompt engineering techniques and YAML pipeline configurations to enhance team productivity and standardise PR documentation using generative AI.
-#### Infrastructure as Code (1)
+#### Infrastructure as Code (3)
 
 ##### Azure DevOps (1)
 
@@ -500,13 +816,25 @@ Live Grounding: Provides stable, secure integrations allowing compliant AI model
   - [Securing Azure DevOps When Using Private Repositories](https://www.linkedin.com/top-content/?trk=article_not_found)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyses secure integration patterns for private Azure DevOps environments. Offers standard reference controls for isolating source code hosting, managing external worker access, and mitigating common misconfiguration patterns across self-hosted agent pools.
   - [Update to Azure DevOps Allowed IP Addresses](https://devblogs.microsoft.com/devops/update-to-ado-allowed-ip-addresses) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official documentation outlines the network security updates for Azure DevOps, focusing on the transitioning IP address ranges and service tags. Crucial for security engineers managing firewalls and strict ingress/egress rules to maintain uninterrupted pipeline connectivity.
   - [Dependabot Version Updates in Azure DevOps](https://www.returngis.net/2025/02/dependabot-updates-en-azure-devops) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical guide explaining the installation and automated orchestration of Dependabot-style dependency scanning and automated PR version updates within Azure DevOps repositories. Written in Spanish. [SPANISH CONTENT]
-### Cloud Security
+### Cloud Security (1)
 
 #### Identity Federation
 
   - [mattias.engineer: Azure Federated Identity Credentials for GitHub](https://mattias.engineer/blog/2024/azure-federated-credentials-github) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An in-depth configuration guide explaining how to design passwordless integrations between GitHub Actions and Microsoft Azure using OpenID Connect (OIDC). Eliminates long-lived static API secrets in favor of short-lived federated credentials.
-## Security
+## Platform-as-a-Service
 
+### App Services
+
+#### Java Runtime Development
+
+  - **(2024)** [learn.microsoft.com: Configure a Java app for Azure App Service](https://learn.microsoft.com/en-us/azure/app-service/configure-language-java-deploy-run) <span class='md-tag md-tag--warning'>[JAVA / XML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep architectural guidance on configuring and tuning enterprise-grade Java web applications (JAR/WAR format) on App Service. Focuses on runtime custom JVM parameters, APM agent injection, and scaling profiles for high-performance enterprise applications.
+## Security (1)
+
+### Identity and Access (1)
+
+#### Azure AD
+
+  - **(2021)** [techcommunity.microsoft.com: Non-interactive logins: minimizing the blind spot](https://techcommunity.microsoft.com/blog/microsoftsentinelblog/non-interactive-logins-minimizing-the-blind-spot/2287932) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A security guide for monitoring and securing non-interactive system logins. Demonstrates Sentinel SIEM implementations to minimize attack surfaces and verify service principal actions.
 ### Identity Management
 
 #### Cloud Integration

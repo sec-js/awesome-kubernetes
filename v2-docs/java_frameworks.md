@@ -5,34 +5,7 @@
 
 ## Standard Reference
 
-  - [jaxenter.com - CI/CD for Spring Boot Microservices](https://devm.io/microservices/cicd-microservices-docker-162408)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Grafana 7.0: “We’ve built one of the best visualisation tools and it’s not tied to any one database”](https://devm.io/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Payara](https://payara.fish)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [WildFly](https://www.wildfly.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [TomEE from Tomitribe](http://tomee.apache.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [JDK 15: The new features in Java 15](https://www.infoworld.com/article/2256828/jdk-15-the-new-features-in-java-15.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [GitHub Welcomes the OpenJDK Project!](https://github.blog/news-insights/company-news/github-welcomes-the-openjdk-project)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [java-success.com: 01: Q07 – Q12 Java Micro & Web services Interview Q&As](https://www.java-success.com/microservices-interview-questions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [javatechonline.com: Making Java easy to learn - OOPs Design Principles](https://javatechonline.com/oops-principles-oops-design-principles)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [geeksforgeeks.org: 5 Best Java Frameworks For Microservices](https://www.geeksforgeeks.org/blogs/best-java-frameworks-for-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Oracle Java](https://www.oracle.com/java/technologies/java-se-glance.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [blogs.oracle.com: Introducing the Free Java License (Java 17)](https://blogs.oracle.com/cloud-infrastructure/post/introducing-free-java-license)
-  - [AdoptOpenJDk](https://adoptium.net)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [docs.microsoft.com: Microsoft OpenJDK](https://learn.microsoft.com/en-us/java/openjdk/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [All You Need To Know For Migrating To Java 11](https://nipafx.dev/java-11-migration-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [openjdk.java.net: JEP 413: Code Snippets in Java API Documentation](https://openjdk.org/jeps/413)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Best Java Frameworks Solutions](https://www.peerspot.com/categories/java-frameworks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [RedHat’s WildFly Swarm](http://wildfly-swarm.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Spring Boot: ¿war o jar? Ambos](https://adictosaltrabajo.com/2018/12/13/spring-boot-war-o-jar-ambos)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [arnoldgalovics.com: Java and Spring Boot multiline log support for Fluentd (EFK stack)](https://arnoldgalovics.com/java-multiline-logs-fluentd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [geeksforgeeks.org: Best way to master spring boot , a complete roadmap](https://www.geeksforgeeks.org/springboot/best-way-to-master-spring-boot-a-complete-roadmap)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [learnk8s.io: Developing and deploying Spring Boot microservices on Kubernetes](https://learnkube.com/spring-boot-kubernetes-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Spring Cloud Kubernetes](https://spring.io/projects/spring-cloud/-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [testcontainers-spring-boot 🌟](https://github.com/PlaytikaOSS/testcontainers-spring-boot) <span class='md-tag md-tag--info'>⭐ 877</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/spring-projects: springboot enables these probes automatically when running in k8s](https://github.com/spring-projects/spring-boot#L73) <span class='md-tag md-tag--info'>⭐ 80690</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
-  - [developer.okta.com: Secure Secrets With Spring Cloud Config and Vault 🌟](https://developer.okta.com/blog/2022/10/20/spring-vault)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [containerjournal.com: Red Hat Adds Java Runtime for Kubernetes to Subscription](https://cloudnativenow.com/topics/cloudnativedevelopment/red-hat-adds-java-runtime-for-kubernetes-to-subscription)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [kie.org](https://www.kie.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [adictosaltrabajo.com: Cómo reducir el código repetitivo con Lombok](https://adictosaltrabajo.com/2016/02/03/como-reducir-el-codigo-repetitivo-con-lombok)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Oracle Java 11 and OpenJDK](https://blog.joda.org/2018/09/do-not-fall-into-oracles-java-11-trap.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [It’s time! Migrating to Java 11 🌟](https://medium.com/criciumadev/its-time-migrating-to-java-11-5eb3868354f9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github: Spring Cloud Kubernetes 🌟](https://github.com/spring-cloud/spring-cloud-kubernetes) <span class='md-tag md-tag--info'>⭐ 3530</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
@@ -196,6 +169,32 @@
   - [Helidon.io](https://helidon.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developer.okta.com: Build REST APIs and Native Java Apps with Helidon](https://developer.okta.com/blog/2022/01/06/native-java-helidon)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Cloud Native Security
+
+### Secret Management
+
+#### Spring Cloud
+
+  - **(2022)** [developer.okta.com: Secure Secrets With Spring Cloud Config and Vault 🌟](https://developer.okta.com/blog/2022/10/20/spring-vault) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive tutorial on integrating Spring Cloud Config Server with HashiCorp Vault to secure environment-specific secrets. Addresses encryption mechanisms, identity-based transit security, and dynamic secret renewal inside containerized deployments.
+## DevOps and CICD
+
+### Kubernetes Deployment
+
+#### Observability
+
+  - **(2020)** [arnoldgalovics.com: Java and Spring Boot multiline log support for Fluentd (EFK stack)](https://arnoldgalovics.com/java-multiline-logs-fluentd) <span class='md-tag md-tag--warning'>[XML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Solves the critical architectural issue of parsing Java multiline stack traces into unified single events inside a Fluentd-based (EFK) logging stack. Focuses on custom Logback layouts and Fluentd regex configurations to prevent fragmented container logs in production.
+#### Spring Boot
+
+  - **(2023)** [learnk8s.io: Developing and deploying Spring Boot microservices on Kubernetes](https://learnkube.com/spring-boot-kubernetes-guide) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed technical guide by Learnk8s showcasing real-world strategies for running Spring Boot microservices on Kubernetes. Explains resource request/limit tunings, liveness/readiness orchestration, dynamic configuration injection, and graceful shutdown settings.
+  - **(2021)** [jaxenter.com: CI/CD for Spring Boot Microservices: Part 1](https://devm.io/microservices/cicd-microservices-docker-162408) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Part one of a technical guide demonstrating containerized delivery strategies for Spring Boot microservices using Docker. Details optimized multi-stage build processes, security hardening of base images, and continuous integration pipeline automation.
+  - **(2021)** [jaxenter.com: CI/CD for Spring Boot Microservices: Part 2. Extending CI/CD: Kubernetes Continuous Deployment for Microservices](https://devm.io/blog) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Part two of the Spring Boot CI/CD series, shifting focus to advanced Kubernetes deployment mechanics. Walks through manifest templating, container orchestration policies, rolling updates, and continuous delivery pipelines utilizing cloud-native deployment controllers.
+## Java Enterprise
+
+### Jakarta EE
+
+#### Application Servers
+
+  - **(2024)** [WildFly](https://www.wildfly.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — WildFly is an ultra-fast, lightweight Jakarta EE compliance application server. Features an advanced modular architecture that dynamically loads required resources, drastically reducing startup overhead in containerized and virtual environments.
 ## Runtime Optimizations
 
 ### JVM Tuning
@@ -203,6 +202,73 @@
 #### Garbage Collection
 
   - [kstefanj.github.io: GC progress from JDK 8 to JDK 17](https://kstefanj.github.io/2021/11/24/gc-progress-8-17.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Empirical performance benchmarks tracking G1GC, ParallelGC, ZGC, and Shenandoah collection efficiency improvements from Java SE 8 through LTS 17.
+## Software Development
+
+### Business Automation
+
+#### Rule Engines
+
+  - **(2025)** [kie.org](https://www.kie.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official landing hub for KIE (Knowledge Is Everything) community projects, featuring Drools, jBPM, and OptaPlanner. These business automation frameworks facilitate complex decision logic, process orchestration, and advanced resource planning inside cloud-native architectures.
+### Java
+
+#### Ecosystem
+
+  - **(2020)** [GitHub Welcomes the OpenJDK Project!](https://github.blog/news-insights/company-news/github-welcomes-the-openjdk-project) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the migration of the OpenJDK project repository and source control system over to GitHub. This migration modernizes the developer collaboration workflow for the Java SDK, offering improved CI/CD integration. Bridges Java's historical development processes with modern ecosystem structures.
+#### Features
+
+  - **(2020)** [**JDK 15: The new features in Java 15**](https://www.infoworld.com/article/2256828/jdk-15-the-new-features-in-java-15.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Summarizes the additions introduced in JDK 15, including Edwards-Curve Digital Signature Algorithm (EdDSA), hidden classes, and previews of sealed classes and records. It traces the platform progression towards modern memory-friendly footprints suitable for building containerized Java microservices.
+#### Interview Preparation
+
+  - **(2021)** [java-success.com: 01: Q07 – Q12 Java Micro & Web services Interview Q&As](https://www.java-success.com/microservices-interview-questions) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides interview preparation and architectural Q&As covering Java microservices and enterprise web services patterns. Covers distributed tracing, REST API boundaries, service discovery mechanisms, and fault tolerance libraries. Serves as a quick reference for developers brushing up on domain-driven service designs.
+### Java Ecosystem
+
+#### Code Quality
+
+  - **(2016)** [adictosaltrabajo.com: Cómo reducir el código repetitivo con Lombok](https://adictosaltrabajo.com/2016/02/03/como-reducir-el-codigo-repetitivo-con-lombok) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An informative tutorial detailing how Project Lombok reduces boilerplate Java code by auto-generating getters, setters, constructors, and builders at compile-time. Serves as an essential productivity baseline for developing lightweight domain models.
+#### Documentation Engine
+
+  - **(2021)** [openjdk.java.net: JEP 413: Code Snippets in Java API Documentation](https://openjdk.org/jeps/413) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduction of JEP 413, which standardizes the `@snippet` tag within the Java Standard Doclet engine. This feature significantly enhances API documentation maintenance by allowing developers to embed programmatically validated code samples in Javadoc comments.
+#### Enterprise Support
+
+  - **(2019)** [containerjournal.com: Red Hat Adds Java Runtime for Kubernetes to Subscription](https://cloudnativenow.com/topics/cloudnativedevelopment/red-hat-adds-java-runtime-for-kubernetes-to-subscription) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A historical news piece detailing Red Hat's native Java compilation support inclusions within standard Red Hat Enterprise Linux and OpenShift subscriptions. Facilitated centralized enterprise maintenance agreements for JVM-based cloud migrations.
+#### Migration
+
+  - **(2021)** [All You Need To Know For Migrating To Java 11](https://nipafx.dev/java-11-migration-guide) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A granular technical guide charting standard operational migrations from Java 8 legacy platforms to Java 11. Demystifies classloading behaviors, modular architecture complications under the JPMS (Java Platform Module System), and deprecated API removals required for modernization.
+#### Object-Oriented Design
+
+  - **(2024)** [javatechonline.com: Making Java easy to learn - OOPs Design Principles](https://javatechonline.com/oops-principles-oops-design-principles) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive architectural breakdown of core Object-Oriented Design principles in Java. It provides deep conceptual coverage of the SOLID layout (Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, Dependency Inversion) alongside DRY and KISS paradigms, serving as a critical foundation for building maintainable, loosely coupled backend systems.
+#### Runtimes
+
+  - **(2025)** [AdoptOpenJDk](https://adoptium.net) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Eclipse Adoptium (formerly AdoptOpenJDK) delivers high-performance, vendor-neutral OpenJDK binaries fully verified by the Java Compatibility Kit (TCK). It serves as the default, risk-free infrastructure runtime layer for enterprise-grade continuous deployment loops and cloud containerization.
+  - **(2024)** [Oracle Java](https://www.oracle.com/java/technologies/java-se-glance.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The definitive resource for Oracle's official Java SE Platform, featuring critical documentation and licensing adjustments. While historically restricted, Oracle's introduction of the Free Java License (NFTC) for Java 17+ represents a strategic pivot to incentivize developers, though vendor-neutral distributions continue to gain platform parity.
+  - **(2024)** [docs.microsoft.com: Microsoft OpenJDK](https://learn.microsoft.com/en-us/java/openjdk/overview) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Microsoft's dedicated, long-term support distribution of OpenJDK optimized specifically for executing intensive enterprise Java applications on Microsoft Azure platforms. Features optimized memory management, container awareness, and deep Azure PaaS integration out of the box.
+### Microservices Frameworks
+
+#### Evaluations
+
+  - **(2024)** [Best Java Frameworks Solutions](https://www.peerspot.com/categories/java-frameworks) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — PeerSpot's crowd-sourced evaluation directory comparing production-level experiences with Spring Boot, Jakarta EE, Quarkus, and other enterprise Java frameworks. Synthesizes key user telemetry concerning long-term operational costs, performance, and talent acquisition.
+#### Jakarta EE (1)
+
+  - **(2025)** [Payara](https://payara.fish) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Payara Server and Payara Micro deliver robust, enterprise-supported distributions engineered directly for MicroProfile and Jakarta EE deployments. Offers high-performance data grid features, built-in cloud scalability, and a highly responsive ecosystem suitable for hybrid cloud operations.
+  - **(2025)** [TomEE from Tomitribe](http://tomee.apache.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Apache TomEE is an enterprise-grade, lightweight application server that implements the Jakarta EE Web Profile on top of Apache Tomcat. Ideally suited for legacy modernization and standard-compliant microservices that seek an alternative to heavyweight Java EE application servers.
+  - **(2019)** [RedHat’s WildFly Swarm](http://wildfly-swarm.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — WildFly Swarm (which transitioned to Thorntail and was subsequently archived) pioneered bootable, minimal Jakarta EE architectures. Current cloud-native standards in 2026 designate this as a legacy framework, with engineering consensus overwhelmingly shifting toward Red Hat Quarkus for high-efficiency runtimes.
+#### Java Microservices
+
+  - **(2024)** [geeksforgeeks.org: 5 Best Java Frameworks For Microservices](https://www.geeksforgeeks.org/blogs/best-java-frameworks-for-microservices) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An evaluation of five dominant Java microservice frameworks including Spring Boot, Quarkus, Helidon, Micronaut, and Play. Highly valuable for enterprise architects seeking to compare cold-start compilation times, runtime memory footprints, and Native Image capabilities via GraalVM within modern cloud environments.
+#### Spring Boot (1)
+
+  - **(2025)** [==github.com/spring-projects: springboot enables these probes automatically when running in k8s==](https://github.com/spring-projects/spring-boot#L73) <span class='md-tag md-tag--info'>⭐ 80690</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main repository link highlighting Spring Boot's built-in Kubernetes integration features. Focuses on native health check endpoints, where Spring Boot automatically detects container platform hostings and exposes dedicated, decoupled `/actuator/health/liveness` and `/actuator/health/readiness` routing.
+#### Spring Boot Packaging
+
+  - **(2018)** [Spring Boot: ¿war o jar? Ambos](https://adictosaltrabajo.com/2018/12/13/spring-boot-war-o-jar-ambos) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — An analytical study in Spanish assessing whether to package Spring Boot applications as executable JARs or traditional WAR files. Provides critical context for bridging the gap between legacy application servers and lightweight container deployment options.
+#### Spring Boot Roadmap
+
+  - **(2024)** [geeksforgeeks.org: Best way to master spring boot , a complete roadmap](https://www.geeksforgeeks.org/springboot/best-way-to-master-spring-boot-a-complete-roadmap) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive pedagogical roadmap designed to guide engineering teams through mastering Spring Boot. Covers core Dependency Injection, persistence abstractions, web endpoint routing, and deployment topologies, establishing standard training templates.
+### Testing Tools
+
+#### Integration Testing
+
+  - **(2025)** [==testcontainers-spring-boot 🌟==](https://github.com/PlaytikaOSS/testcontainers-spring-boot) <span class='md-tag md-tag--info'>⭐ 877</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source auto-configuration integration that simplifies using Testcontainers inside Spring Boot applications. Eliminates boilerplate bootstrap code for starting, testing, and tearing down containerized dependencies like PostgreSQL, Kafka, and Redis during build pipelines.
 
 ---
 💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Visual Studio](./visual-studio.md)

@@ -5,12 +5,6 @@
 
 ## Standard Reference
 
-  - [openproject.org: How to create, configure and manage your projects with OpenProject](https://www.openproject.org/blog/create-configure-manage-projects-openproject)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [youtube.com: Learn to deploy OpenProject with Postgres in Kubernetes](https://www.youtube.com/watch?v=2mNAsrThius&ab_channel=CloudControl)
-  - [entrepreneur.com: Which Project Management Timeline Tool Is Right for Your Team?](https://www.entrepreneur.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Google meet: meet.new](https://meet.google.com/unsupported?meetingCode=new&ref=https://meet.google.com/new?authuser%3D0%26hs%3D178)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [GH repos: repo.new](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fnew)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [GH Gists: gist.new](https://gist.github.com/starred)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Zoom: zoom.new](https://zoom.us/signin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Jira](https://www.atlassian.com/software/jira)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [OpenProject](https://www.openproject.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [nextcloud.com](https://nextcloud.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -34,6 +28,40 @@
   - [itsfoss.com: Gitter: A Cross-Platform Open Source Community Platform for' Developers](https://itsfoss.com/gitter)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ifuckinghatejira.com](https://ifuckinghatejira.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Continuous Integration
+
+### GitHub
+
+#### Developer Productivity
+
+  - **(2024)** [GH repos: repo.new](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fnew)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The standard browser shortcut (`repo.new`) designed to route authenticated developer sessions directly to GitHub's repository creation workspace. Enables rapid workspace initialization and deployment pipeline seeding.
+## Productivity
+
+### Collaboration
+
+#### Virtual Meetings
+
+  - **(2024)** [Google meet: meet.new](https://meet.google.com/unsupported?meetingCode=new&ref=https://meet.google.com/new?authuser%3D0%26hs%3D178)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates the Google Meet instant launch redirect engine (meet.new). Highlights modern browser routing pipelines and user profile sessions bridging within SaaS workspaces to bootstrap live teleconferencing frameworks.
+#### Web Conferencing
+
+  - **(2024)** [Zoom: zoom.new](https://zoom.us/signin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The virtual web conferencing shortcut (`zoom.new`) routing users to Zoom's active meeting creation panel. Highlights the utility of quick SaaS redirects in managing remote development operations.
+### GitHub (1)
+
+#### Snippet Management
+
+  - **(2024)** [GH Gists: gist.new](https://gist.github.com/starred)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An efficiency shortcut (`gist.new`) that directs users to GitHub's Gist creation environment. Allows developers to rapidly save, share, and audit isolated code configurations, terminal scripts, or stack traces without initializing full Git trees.
+## Project Management
+
+### Open Source Tools
+
+#### Collaboration (1)
+
+  - **(2023)** [openproject.org: How to create, configure and manage your projects with OpenProject](https://www.openproject.org/blog/create-configure-manage-projects-openproject)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A walkthrough of managing agile and waterfall project environments with OpenProject. Details project configuration, Gantt charts, issue logging, and outlines deployment options for hosting the collaborative suite on Kubernetes using PostgreSQL backends.
+### Productivity (1)
+
+#### Analysis
+
+  - **(2022)** [entrepreneur.com: Which Project Management Timeline Tool Is Right for Your Team?](https://www.entrepreneur.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares project scheduling frameworks, collaborative timeline structures, and management software alternatives. Evaluates user interfaces, API endpoints, integration ecosystems, and pricing configurations to guide software architecture selections.
 
 ---
 💡 **Explore Related:** [DevOps](./devops.md) | [Scaffolding](./scaffolding.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md)

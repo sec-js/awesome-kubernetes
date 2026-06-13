@@ -5,8 +5,6 @@
 
 ## Standard Reference
 
-  - [Quantum Taps AWS for Cloud-Powered Disaster Recovery](http://www.infostor.com/backup-and_recovery/quantum-taps-aws-for-cloud-powered-disaster-recovery.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [youtube: Migrating On Premise VM to AWS | VM Import/Export | Create EC2 instance based on on-premises server](https://www.youtube.com/watch?v=buzusNljpy4&feature=youtu.be)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Design for failure lessons learnt from the Sydney AWS outage](https://www.hava.io/blog/design-for-failure-lessons-learnt-from-the-sydney-aws-outage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Chaos Monkey](https://github.com/Netflix/SimianArmy/wiki/Chaos-Monkey) <span class='md-tag md-tag--info'>⭐ 7984</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [Udemy - AWS: How to Architect with a Design for Failure Approach](https://www.udemy.com/how-to-architect-with-a-design-for-failure-approach)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -25,6 +23,20 @@
   - [Migrate Resources Between AWS Accounts](https://aws.amazon.com/blogs/architecture/migrate-resources-between-aws-accounts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Multi-Region Migration using AWS Application Migration Service](https://aws.amazon.com/blogs/architecture/multi-region-migration-using-aws-application-migration-service)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Cloud Migration
+
+### AWS VM Import
+
+#### Infrastructure Modernization
+
+  - **(2020)** [youtube: Migrating On Premise VM to AWS | VM Import/Export | Create EC2 instance based on on-premises server](https://www.youtube.com/watch?v=buzusNljpy4&feature=youtu.be)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A video demonstration on utilizing AWS VM Import/Export pipelines to import running virtual machines directly into AWS EC2 environments. Includes steps to prepare storage drivers, configure IAM roles, and coordinate offline validations.
+## Disaster Recovery
+
+### Cloud Storage
+
+#### Hybrid Architecture
+
+  - **(2018)** [Quantum Taps AWS for Cloud-Powered Disaster Recovery](http://www.infostor.com/backup-and_recovery/quantum-taps-aws-for-cloud-powered-disaster-recovery.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines Quantum's migration and disaster recovery patterns employing AWS storage architectures. Compares physical tape storage strategies with cloud-native, on-demand recovery targets, emphasizing data deduplication and network transit performance.
 
 ---
 💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Public Cloud Solutions](./public-cloud-solutions.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)

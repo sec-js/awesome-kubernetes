@@ -5,31 +5,6 @@
 
 ## Standard Reference
 
-  - [blog.scrumstudy.com: Scrum and Kanban, alike or different?](http://blog.scrumstudy.com/scrum-and-kanban-alike-or-different-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cio.com: Agile vs. waterfall: Project methodologies compared](https://www.cio.com/article/194093/agile-vs-waterfall-project-methodologies-compared.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhat.com: 11 considerations for effectively managing a Linux sysadmin team 🌟](https://www.redhat.com/en/blog/11-manager-considerations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloudbees.com: How Asynchronous Communication Can Boost Productivity](https://www.cloudbees.com/blog/asynchronous-development)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [creately.com: How to Better Manage Your Projects with Kanban Boards](https://creately.com/blog/project-management/what-is-a-kanban-board)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [noidea.dog/glue: Being Glue](https://www.noidea.dog/glue)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [infoworld.com: What to do when your devops team is downsized](https://www.infoworld.com/article/2337651/what-to-do-when-your-devops-team-is-downsized.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [rockcontent.com: Conoce los principales tipos de consultoría en las que tu negocio puede invertir para explotar su potencial](https://analoghq.ai/blog/es/tipos-de-consultoria)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blogs.elconfidencial.com: Los españoles somos más improductivos que nunca y el problema no es de los empleados](https://www.elconfidencial.com/tecnologia/tribuna/2022-02-12/productividad-tecnologia-startups-apps_3373786)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [magnet.xataka.com: Esclavos de la improductividad: el 70% de las reuniones impiden que los empleados hagan su trabajo](https://www.xataka.com/magnet/esclavos-improductividad-70-reuniones-impiden-que-empleados-hagan-su-trabajo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [businessinsider.es: Avanzar en la carrera profesional y conseguir ascensos dentro de la empresa será mucho más difícil para las personas que teletrabajan, según el CEO de IBM](https://www.businessinsider.es/desarrollo-profesional/teletrabajar-perjudica-carrera-profesional-posibles-ascensos-1240782)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [genbeta.com: Un ex-CEO, sobre el origen de tener gente que ni hace falta en las empresas: “Contratas a alguien, y lo primero que hace es contratar"](https://www.genbeta.com/actualidad/ex-ceo-origen-tener-gente-que-hace-falta-empresas-contratas-a-alguien-primero-que-hace-contratar-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [businessinsider.es: La brillante explicación de Steve Jobs sobre por qué los buenos empleados renuncian al trabajo](https://www.businessinsider.es/desarrollo-profesional/explicacion-steve-jobs-buenos-empleados-renuncian-trabajo-1137601)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [itrevolution.com: The Problem With Org Charts](https://itrevolution.com/articles/the-problem-with-org-charts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [itrevolution.com: Get Started With Team Topologies In 8 Steps](https://itrevolution.com/articles/get-started-with-team-topologies-in-8-steps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [greycampus.com: What's the Difference? Agile vs Scrum vs Waterfall vs Kanban](https://www.greycampus.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [lucidchart.com: Agile vs. Waterfall vs. Kanban vs. Scrum: What’s the Difference?](https://lucid.co/blog/agile-vs-waterfall-vs-kanban-vs-scrum)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [deloitte.com: Bringing Agile benefits to a waterfall project](https://www.deloitte.com/us/en/insights/industry/government-public-sector-services.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [k21academy.com: Scrum vs Kanban](https://k21academy.com/scrum/scrum-vs-kanban)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Aprende cómo distribuir mejor las responsabilidades con la Matriz RACI](https://analoghq.ai/blog/es/matriz-raci)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [gazafatonarioit.com: Entiende el MVP (Producto Mínimo Viable) y por qué prefiero Producto que se pueda probar, utilizar y adorar más temprano](http://www.gazafatonarioit.com/2020/09/entiende-el-mvp-producto-minimo-viable.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [nichesoftware.co.nz: Promotion Driven Development (PDD) 🌟](http://www.nichesoftware.co.nz/2021/05/29/promotion-driven-development.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [businessinsider.es: "Estoy atrapado en unos hábitos poco saludables y me siento abrumado por todo lo que tengo que hacer, ¿cómo puedo aprender a decir no?"](https://www.businessinsider.es/desarrollo-profesional/tan-dificil-decir-no-jefe-965459)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [businessinsider.es: Así es como tu educación te ha moldeado sutilmente para que nunca consigas ascender en el trabajo](https://www.businessinsider.es/desarrollo-profesional/razon-nunca-consigues-ascender-trabajo-conseguir-mejor-sueldo-970737)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [isprox.com: 16 Estilos de liderazgo: ¿cuál es más efectivo?](https://isprox.com/es/16-estilos-liderazgo-cual-es-mas-efectivo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Open Source Friday: Spec Kit - What it is, the problems it solves, and how' clear specs make collaboration work](https://www.youtube.com/live/2IArMAhkJcE?si=_LlIjakRXHUzERjy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: Project Management Methodology: A Beginner's Guide](https://dzone.com/articles/best-emerging-project-management-methodologies-in)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: A Complete Guide to the Project Management Lifecycle](https://dzone.com/articles/a-complete-guide-to-project-management-life-cycle)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -146,6 +121,83 @@
   - [euroresidentes.com: La intimidación verbal en la empresa](https://www.euroresidentes.com/empresa/exito-empresarial/la-intimidacin-verbal-en-la-empresa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [swarmia.com/build: Build Elements of an Effective Software Organization](https://www.swarmia.com/build)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Collaboration and Management
+
+### Agile Methodologies
+
+#### Hybrid Systems Integration
+
+  - **(2021)** [deloitte.com: Bringing Agile benefits to a waterfall project](https://www.deloitte.com/us/en/insights/industry/government-public-sector-services.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Presents a Deloitte case study on injecting iterative agile practices into strict, legacy waterfall programs. Highlights strategies for improving feedback loops and team velocity without violating contracts.
+#### Lifecycle Management
+
+  - **(2021)** [greycampus.com: What's the Difference? Agile vs Scrum vs Waterfall vs Kanban](https://www.greycampus.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative reference covering Agile, Scrum, Waterfall, and Kanban. Clarifies the different project tracking models, milestone definitions, and role profiles to help teams select the right approach.
+  - **(2020)** [cio.com: Agile vs. waterfall: Project methodologies compared](https://www.cio.com/article/194093/agile-vs-waterfall-project-methodologies-compared.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a comprehensive architectural evaluation comparing iterative, fast-feedback agile practices against high-stability, sequential waterfall engineering methods. Evaluates risk management and execution costs across both styles.
+#### Visual Kanban Systems
+
+  - **(2021)** [creately.com: How to Better Manage Your Projects with Kanban Boards](https://creately.com/blog/project-management/what-is-a-kanban-board) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operational playbook for creating, maintaining, and auditing visual Kanban boards. Explains concepts like WIP (Work-in-Progress) limit caps and visual bottlenecks to maximize system flow.
+#### Workflow Mapping
+
+  - **(2021)** [lucidchart.com: Agile vs. Waterfall vs. Kanban vs. Scrum: What’s the Difference?](https://lucid.co/blog/agile-vs-waterfall-vs-kanban-vs-scrum) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A visual guide illustrating the execution and planning structures of popular software delivery frameworks. Maps project management methods to help organizations select the right approach.
+#### Workflow Models
+
+  - **(2021)** [k21academy.com: Scrum vs Kanban](https://k21academy.com/scrum/scrum-vs-kanban) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Contrasts Scrum's structured sprints and specialized roles against Kanban's continuous, visual flow. Helps teams choose the right framework based on task volatility and deployment frequency.
+  - **(2018)** [blog.scrumstudy.com: Scrum and Kanban, alike or different?](http://blog.scrumstudy.com/scrum-and-kanban-alike-or-different-2) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Contrasts Scrum's structured, time-boxed iteration cycles against Kanban's continuous flow, limit-driven task processing engine. Serves as an organizational tool to optimize team velocity and reduce resource overhead.
+### Professional Services
+
+#### Consulting Frameworks
+
+  - **(2022)** [rockcontent.com: Conoce los principales tipos de consultoría en las que tu negocio puede invertir para explotar su potencial](https://analoghq.ai/blog/es/tipos-de-consultoria) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Classifies the various categories of IT and business consulting delivery structures. Outlines when to use staff augmentation vs. specialized tactical advisors to solve technology and architecture blockages.
+### Team Management
+
+#### Asynchronous Operations
+
+  - **(2020)** [cloudbees.com: How Asynchronous Communication Can Boost Productivity](https://www.cloudbees.com/blog/asynchronous-development) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Argues for asynchronous communication strategies within modern distributed engineering organizations. Demolishes real-time communication habits in favor of detailed documentation, lowering team context-switching taxes.
+#### Distributed Workplace Dynamics
+
+  - **(2023)** [businessinsider.es: Avanzar en la carrera profesional y conseguir ascensos dentro de la empresa será mucho más difícil para las personas que teletrabajan, según el CEO de IBM](https://www.businessinsider.es/desarrollo-profesional/teletrabajar-perjudica-carrera-profesional-posibles-ascensos-1240782) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates career trajectory metrics for remote engineers versus in-office teams, citing data from IBM. Examines how lack of proximity changes performance evaluations and promotion dynamics.
+#### Governance Frameworks
+
+  - **(2022)** [rockcontent.com: mejor las responsabilidades con la Matriz RACI](https://analoghq.ai/blog/es/matriz-raci) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a supplementary analysis of RACI deployment strategies within engineering groups. Focuses on minimizing handoff bottlenecks and avoiding ambiguous task assignments.
+#### Infrastructure Operations
+
+  - **(2021)** [redhat.com: 11 considerations for effectively managing a Linux sysadmin team 🌟](https://www.redhat.com/en/blog/11-manager-considerations) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights 11 operational considerations for organizing and directing Linux systems administration teams. Discusses training, configuration consistency, automation tooling integration, and on-call operational schedules.
+#### Meeting Auditing
+
+  - **(2022)** [magnet.xataka.com: Esclavos de la improductividad: el 70% de las reuniones impiden que los empleados hagan su trabajo](https://www.xataka.com/magnet/esclavos-improductividad-70-reuniones-impiden-que-empleados-hagan-su-trabajo) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes metrics demonstrating that excessive corporate meetings actively prevent engineers from completing specialized tasks. Synthesizes recovery structures to reduce meeting overhead and protect deep work.
+#### Organizational Design
+
+  - **(2023)** [genbeta.com: Un ex-CEO, sobre el origen de tener gente que ni hace falta en las empresas: “Contratas a alguien, y lo primero que hace es contratar"](https://www.genbeta.com/actualidad/ex-ceo-origen-tener-gente-que-hace-falta-empresas-contratas-a-alguien-primero-que-hace-contratar-1) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes organizational bloat inside fast-growing software companies. Critiques hiring cycles where manager status is tied to team headcount rather than direct delivery value.
+#### Organizational Topologies
+
+  - **(2018)** [itrevolution.com: The Problem With Org Charts](https://itrevolution.com/articles/the-problem-with-org-charts) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deconstructs traditional organizational charts, detailing why they fail to represent true team interaction patterns. Advocates for models aligned with software system boundaries to improve output.
+#### Productivity Paradigms
+
+  - **(2022)** [blogs.elconfidencial.com: Los españoles somos más improductivos que nunca y el problema no es de los empleados](https://www.elconfidencial.com/tecnologia/tribuna/2022-02-12/productividad-tecnologia-startups-apps_3373786) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical piece evaluating systemic workspace productivity failures within Spanish enterprises. Critiques the over-adoption of superficial toolsets and meeting bloat over focused engineering work.
+#### Professional Boundary Management
+
+  - **(2021)** [businessinsider.es: "Estoy atrapado en unos hábitos poco saludables y me siento abrumado por todo lo que tengo que hacer, ¿cómo puedo aprender a decir no?"](https://www.businessinsider.es/desarrollo-profesional/tan-dificil-decir-no-jefe-965459) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides actionable guidance on managing workplace boundaries and learning how to push back on unrealistic deadlines. Offers methods for professional refusal to prevent developer burnout.
+#### Retention Strategies
+
+  - **(2022)** [businessinsider.es: La brillante explicación de Steve Jobs sobre por qué los buenos empleados renuncian al trabajo](https://www.businessinsider.es/desarrollo-profesional/explicacion-steve-jobs-buenos-empleados-renuncian-trabajo-1137601) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Revisits Steve Jobs' insights on why top-tier developers leave organizations. Focuses on the problems of micromanagement, lack of technical leadership autonomy, and poor engineering vision.
+#### Sociological Career Dynamics
+
+  - **(2021)** [businessinsider.es: Así es como tu educación te ha moldeado sutilmente para que nunca consigas ascender en el trabajo](https://www.businessinsider.es/desarrollo-profesional/razon-nunca-consigues-ascender-trabajo-conseguir-mejor-sueldo-970737) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores how traditional educational training can reinforce overly compliant behaviors in the workplace. Offers advice on shifting mindset to take proactive ownership of career growth.
+#### Software Culture
+
+  - **(2018)** [noidea.dog/glue: Being Glue](https://www.noidea.dog/glue) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An influential essay on 'Glue Work' in software organizations—the essential task coordination, mentor work, and documentation that keeps teams stable but is often unrewarded. Crucial for designing equitable promotion paths.
+#### Strategic Resource Allocation
+
+  - **(2023)** [infoworld.com: What to do when your devops team is downsized](https://www.infoworld.com/article/2337651/what-to-do-when-your-devops-team-is-downsized.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Offers a survival playbook for managing technical architecture and site reliability obligations within downsized DevOps departments. Identifies steps for deprecating redundant frameworks and focusing on automated operations.
+#### Team Topologies Framework
+
+  - **(2020)** [itrevolution.com: Get Started With Team Topologies In 8 Steps](https://itrevolution.com/articles/get-started-with-team-topologies-in-8-steps) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational implementation guide for Team Topologies. Outlines an eight-step method for structuring stream-aligned, platform, enabling, and complicated-subsystem teams to minimize communication bottlenecks.
+## Organizational Dynamics
+
+### Leadership
+
+#### Management Styles
+
+  - **(2023)** [isprox.com: 16 Estilos de liderazgo: ¿cuál es más efectivo?](https://isprox.com/es/16-estilos-liderazgo-cual-es-mas-efectivo) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A strategic assessment of 16 core leadership styles and their operational efficacy within engineering teams. Analyzes situational leadership, transformational paradigms, and democratic approaches to optimize organizational performance and team velocity.
 ## Security
 
 ### Cloud Native
@@ -153,6 +205,16 @@
 #### Kubernetes Hardening
 
   - [Kubernetes Security Best Practices: A DevSecOps Perspective](https://www.linkedin.com/top-content/career)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A DevSecOps assessment explaining key patterns for hardening Kubernetes namespaces. Reviews best practices for securing configuration secrets, configuring network isolation policies, and enforcing runtime container constraints.
+## Software Engineering
+
+### Software Architecture Theory
+
+#### Engineering Culture Critique
+
+  - **(2021)** [nichesoftware.co.nz: Promotion Driven Development (PDD) 🌟](http://www.nichesoftware.co.nz/2021/05/29/promotion-driven-development.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A critique of Promotion Driven Development (PDD), where developers pick trendy, complex technologies to build their resumes rather than choosing simple, appropriate solutions for business needs.
+#### Product Delivery MVP
+
+  - **(2020)** [gazafatonarioit.com: Entiende el MVP (Producto Mínimo Viable) y por qué prefiero Producto que se pueda probar, utilizar y adorar más temprano](http://www.gazafatonarioit.com/2020/09/entiende-el-mvp-producto-minimo-viable.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Critiques traditional definitions of the Minimum Viable Product (MVP). Advocates for building 'Lovable' early releases that prioritize high quality, user feedback, and long-term product viability.
 
 ---
 💡 **Explore Related:** [DevOps](./devops.md) | [Scaffolding](./scaffolding.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md)

@@ -5,7 +5,6 @@
 
 ## Standard Reference
 
-  - [civo.com: Manage Kubernetes clusters using the Civo Pulumi provider](https://www.civo.com/learn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dex.dev: YAML Templating Solutions: Helm & Kustomize](https://www.dex.dev/dex-videos/templating-solutions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thoughtworks.com: Kubernetes](https://www.thoughtworks.com/radar/platforms/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [wikipedia: YAML](https://en.wikipedia.org/wiki/YAML)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -115,6 +114,11 @@
 #### Templating
 
   - [Kapitan: Generic templated configuration management for Kubernetes, Terraform' and other things](https://kapitan.dev) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A powerful configuration generator for Kubernetes and cloud platforms. Includes native cryptographic secrets handling (supporting GPG, KMS, Vault), allowing multi-environment configurations to remain secure in Git.
+### IaC Orchestrators
+
+#### Cloud Integration
+
+  - **(2024)** [civo.com: Manage Kubernetes clusters using the Civo Pulumi provider](https://www.civo.com/learn) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A programmatic infrastructure guide exploring cluster deployment on Civo's managed K3s cloud utilizing the Pulumi SDK. It shows how developers can replace YAML definitions with type-safe software code pipelines to control computing bounds directly.
 ## Orchestration
 
 ### Kubernetes

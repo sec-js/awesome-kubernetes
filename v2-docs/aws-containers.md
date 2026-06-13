@@ -5,10 +5,7 @@
 
 ## Standard Reference
 
-  - [Amazon ECS-optimized AMI](http://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-optimized_AMI.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Amazon EC2 Container Registry Documentation](http://aws.amazon.com/es/documentation/ecr)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Get started with Amazon EC2 Container Registry (Amazon ECR)](http://docs.aws.amazon.com/AmazonECR/latest/userguide/ECR_GetStarted.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Using Docker Machine with AWS](http://blog.scottlowe.org/2016/03/22/using-docker-machine-with-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.couchbase.com: Getting Started with Docker for AWS and Scaling Nodes](http://blog.couchbase.com/2016/july/docker-for-aws-getting-started-scaling-nodes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [aws-quickstart.github.io: Rancher on the AWS Cloud. Quick Start Reference' Deployment](https://aws-quickstart.github.io/quickstart-eks-rancher)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [neal-davis.medium.com: ECS vs EC2 vs Lambda](https://neal-davis.medium.com/ecs-vs-ec2-vs-lambda-36b8ca380dea)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -23,9 +20,22 @@
   - [aws.plainenglish.io: How to Push a Docker Image to the AWS ECR](https://aws.plainenglish.io/how-to-push-an-image-to-aws-ecr-b2be848c2ef)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [awslabs/amazon-ecr-credential-helper: Amazon ECR Docker Credential Helper](https://github.com/awslabs/amazon-ecr-credential-helper) <span class='md-tag md-tag--info'>⭐ 2704</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Public Cloud Platforms
+## Cloud Providers
 
 ### AWS
+
+#### Compute
+
+  - **(2026)** [Amazon ECS-optimized AMI](http://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-optimized_AMI.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: Deep dive into the Amazon ECS-Optimized AMI. Details the pre-integrated container runtimes, AWS ECS Agent configurations, and kernel optimizations necessary for running resilient ECS clusters.
+#### Container Registries
+
+  - **(2026)** [Amazon EC2 Container Registry Documentation](http://aws.amazon.com/es/documentation/ecr)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: High-density guide on Amazon Elastic Container Registry (ECR). Focuses on IAM integration, secure image scanning, replication rules, and optimization strategies for secure high-velocity deployments.
+#### Legacy Tooling
+
+  - **(2016)** [Using Docker Machine with AWS](http://blog.scottlowe.org/2016/03/22/using-docker-machine-with-aws)  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight / Live Grounding: Historical guide for provisioning AWS EC2 instances with docker runtimes using Docker Machine. Note: Docker Machine has been officially deprecated; modern architectures prioritize IaC utilities.
+## Public Cloud Platforms
+
+### AWS (1)
 
 #### Container Orchestration Comparison
 

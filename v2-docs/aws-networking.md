@@ -5,14 +5,6 @@
 
 ## Standard Reference
 
-  - [AWS Cloud Networking – Zero to Hero](http://www.netdesignarena.com/index.php/2020/04/15/new-blog-series-aws-cloud-networking-zero-to-hero)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [How do I transfer a domain to AWS from another registrar?](https://repost.aws/knowledge-center)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [docs.aws.amazon.com: What Is Elastic Load Balancing?](http://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Application Load Balancer](https://aws.amazon.com/elasticloadbalancing/application-load-balancer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Find the fastest region from your location](http://aws-latency.altaircp.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Azure ExpressRoute Resiliency: Best Practices for Production-Critical Workloads](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/azure-expressroute-resiliency-best-practices-for-production-critical-workloads/4394842)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [linuxjournal.com: AWS EC2 VPC CLI](http://www.linuxjournal.com/content/aws-ec2-vpc-cli)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [tailscale.com: Connect to an AWS VPC using subnet routes](https://tailscale.com/docs/install/cloud/aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Networking for Developers](https://aws.amazon.com/es/blogs/apn/aws-networking-for-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Elastic Network Adapter](https://aws.amazon.com/blogs/aws/elastic-network-adapter-high-performance-network-interface-for-amazon-ec2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloudonaut.io: What Architects Need to Know About Networking on AWS](https://cloudonaut.io/what-architects-need-to-know-about-networking-on-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -57,6 +49,44 @@
   - [faun.pub: Using AWS API Gateway As Proxy To Our Internal Application](https://faun.pub/using-aws-api-gateway-as-proxy-to-our-internal-application-369eb115db70)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [aws.amazon.com: Architecture patterns for consuming private APIs cross-account](https://aws.amazon.com/blogs/compute/architecture-patterns-for-consuming-private-apis-cross-account)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Cloud Infrastructure
+
+### AWS
+
+#### Performance Optimization
+
+  - **(2026)** [**Find the fastest region from your location**](http://aws-latency.altaircp.com) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A real-time, lightweight browser-based network diagnostics tool designed to measure latency from the client's location to all global AWS regions. Crucial for system architects during high-availability bootstrapping and regional ingress planning to minimize user-perceived network delays.
+### AWS CLI
+
+#### Virtual Private Cloud
+
+  - **(2018)** [linuxjournal.com: AWS EC2 VPC CLI](http://www.linuxjournal.com/content/aws-ec2-vpc-cli) 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — An archived guide explaining direct configuration of AWS VPC resources through raw CLI commands. While modern 2026 paradigms mandate declarative Infrastructure as Code (such as Terraform or Pulumi), this remains a relevant low-level troubleshooting reference for imperative shell scripting.
+### Network Security
+
+#### Mesh VPN
+
+  - **(2023)** [==tailscale.com: Connect to an AWS VPC using subnet routes==](https://tailscale.com/docs/install/cloud/aws) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical reference detailing the secure integration of Tailscale subnet routers with AWS Virtual Private Clouds. Enables developers and operators to access cloud private subnets directly via a WireGuard-backed mesh VPN without incurring the high cost or operational overhead of traditional IPSec gateways.
+## Cloud Providers
+
+### Amazon Web Services
+
+#### Cloud Networking
+
+  - **(2020)** [AWS Cloud Networking – Zero to Hero](http://www.netdesignarena.com/index.php/2020/04/15/new-blog-series-aws-cloud-networking-zero-to-hero) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive cloud networking series detailing VPC designs on AWS. Teaches subnet segmentation, routing tables, internet gateways, secure NAT topologies, and transit VPC architectures needed to host secure, enterprise-grade cloud services.
+#### Elastic Load Balancing
+
+  - **(2025)** [docs.aws.amazon.com: What Is Elastic Load Balancing?](http://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The definitive AWS reference detailing Elastic Load Balancing (ELB) topologies. It contrasts Application, Network, Classic, and Gateway Load Balancers against key protocol layers, latency profiles, scaling patterns, and SSL offloading requirements.
+  - **(2025)** [Application Load Balancer](https://aws.amazon.com/elasticloadbalancing/application-load-balancer) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive technical guide to the AWS Application Load Balancer. Details Layer 7 traffic routing mechanics, URL-path forwarding, target group setups, native integrations with AWS Web Application Firewall, and automated certificate management via ACM.
+#### Route 53 DNS
+
+  - **(2024)** [How do I transfer a domain to AWS from another registrar?](https://repost.aws/knowledge-center) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official AWS guide to transferring domain names to Amazon Route 53 with zero application downtime. Highlights zone preservation, DNSSEC handshakes, transfer authentication codes, and security configurations required for risk-free domain migration.
+## Networking
+
+### Azure
+
+#### Hybrid Infrastructure
+
+  - **(2025)** [**Azure ExpressRoute Resiliency: Best Practices for Production-Critical Workloads**](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/azure-expressroute-resiliency-best-practices-for-production-critical-workloads/4394842) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Deeply examines resiliency patterns for Azure ExpressRoute connectivity connecting on-premises data centers to Azure. It covers active-active configuration, secondary ExpressRoute failovers, and VPN backup strategies to prevent downtime during link outages. Indispensable for designing highly available hybrid cloud foundations.
 
 ---
 💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Public Cloud Solutions](./public-cloud-solutions.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)

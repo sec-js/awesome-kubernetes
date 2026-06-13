@@ -5,12 +5,6 @@
 
 ## Standard Reference
 
-  - [docs.fluxcd.io](https://docs.fluxcd.io/en/1.22.2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [toolkit.fluxcd.io: GitOps Toolkit 🌟](https://fluxcd.io/flux)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [alicegg.tech: Managing a Kubernetes cluster with Helm and FluxCD](https://alicegg.tech/2020/11/09/helm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [acloudguru.com: Adopting GitOps for Kubernetes on AWS 🌟](https://www.pluralsight.com/resources/blog/cloud/adopting-gitops-for-kubernetes-on-aws?utm_source=linkedin&utm_medium=social&utm_campaign=kubernetesblog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [docs.microsoft.com: Configurations and GitOps with Azure Arc enabled Kubernetes](https://learn.microsoft.com/en-us/azure/azure-arc/kubernetes/conceptual-gitops-flux2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/onedr0p/flux-cluster-template: Template for deploying k3s backed by Flux](https://github.com/onedr0p/cluster-template) <span class='md-tag md-tag--info'>⭐ 2742</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/flux-iac/tofu-controller](https://github.com/flux-iac/tofu-controller) <span class='md-tag md-tag--info'>⭐ 1640</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [A Complete Step by Step Guide to Implementing a GitOps Workflow with Flux 🌟](https://managedkube.com/gitops/flux/weaveworks/guide/tutorial/2020/05/01/a-complete-step-by-step-guide-to-implementing-a-gitops-workflow-with-flux.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Managing Kubernetes Secrets Securely with GitOps (SOPS + AWS' KMS + Flux)](https://itnext.io/managing-kubernetes-secrets-securely-with-gitops-b8174b4f4d30)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -40,6 +34,36 @@
   - [blog.aenix.io: Argo CD vs Flux CD](https://blog.aenix.io/argo-cd-vs-flux-cd-7b1d67a246ca)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cncf.io: How to GitOps your Terraform](https://www.cncf.io/blog/2022/09/30/how-to-gitops-your-terraform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Cloud Native
+
+### GitOps
+
+#### AWS EKS
+
+##### Implementation
+
+  - **(2021)** [acloudguru.com: Adopting GitOps for Kubernetes on AWS 🌟](https://www.pluralsight.com/resources/blog/cloud/adopting-gitops-for-kubernetes-on-aws?utm_source=linkedin&utm_medium=social&utm_campaign=kubernetesblog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural guide covering patterns for adopting GitOps continuous delivery structures on Amazon EKS. Connects the dots between declarative manifest repositories, Flux/ArgoCD engines, and automated AWS networking components to guarantee highly auditable release loops.
+#### Azure Arc
+
+##### Multi-Cluster
+
+  - **(2024)** [docs.microsoft.com: Configurations and GitOps with Azure Arc enabled Kubernetes](https://learn.microsoft.com/en-us/azure/azure-arc/kubernetes/conceptual-gitops-flux2) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Microsoft Azure official architectures describing the integration of Flux v2 into Azure Arc-enabled Kubernetes configurations. This deployment framework allows centralized teams to declare cluster states globally and push configurations down to distributed, edge, and hybrid-cloud clusters.
+#### FluxCD
+
+##### GitOps Toolkit
+
+  - **(2026)** [toolkit.fluxcd.io: GitOps Toolkit 🌟](https://fluxcd.io/flux) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The core landing page for Flux v2 (GitOps Toolkit), the standard CNCF-graduated continuous delivery controller engine for Kubernetes. Written in Go, it utilizes specialized Kubernetes custom controllers (Source, Kustomize, Helm, Notification) to deliver git-defined cluster states.
+##### Helm Integration
+
+  - **(2020)** [alicegg.tech: Managing a Kubernetes cluster with Helm and FluxCD](https://alicegg.tech/2020/11/09/helm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Clear technical breakdown showing how to structure a GitOps configuration repository deploying Helm charts using FluxCD. Explains the transition of manual release execution to declarative git workflows, keeping target application versions aligned automatically.
+##### Legacy v1
+
+  - **(2022)** [docs.fluxcd.io](https://docs.fluxcd.io/en/1.22.2) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Historical documentation for FluxCD v1 (legacy). Live grounding underscores that Flux v1 is deprecated and archived, replaced completely by the microservices-based GitOps Toolkit (Flux v2), which handles multi-tenancy and multiple source configurations.
+#### K3s
+
+##### Infrastructure Templates
+
+  - **(2026)** [==github.com/onedr0p/flux-cluster-template: Template for deploying k3s backed by Flux==](https://github.com/onedr0p/cluster-template) <span class='md-tag md-tag--info'>⭐ 2742</span> <span class='md-tag md-tag--warning'>[YAML/GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly functional, production-ready GitHub template designed to boot lightweight K3s clusters managed end-to-end via Flux GitOps. Includes fully integrated platform components such as Prometheus/Grafana stacks, cert-manager, Renovate Bot setups, and ingress setups.
 
 ---
 💡 **Explore Related:** [Jenkins Alternatives](./jenkins-alternatives.md) | [Gitops](./gitops.md) | [Registries](./registries.md)

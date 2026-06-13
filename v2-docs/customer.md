@@ -5,11 +5,6 @@
 
 ## Standard Reference
 
-  - [infoworld.com: Why Mercedes-Benz runs on 900 Kubernetes clusters](https://www.infoworld.com/article/2335723/why-mercedes-benz-runs-on-900-kubernetes-clusters.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [hibridosyelectricos.com: Tesla recurre a China para aumentar la calidad de fabricación de sus coches eléctricos](https://www.hibridosyelectricos.com/coches/tesla-recurre-china-calidad-fabricacion-coches-electricos_66230_102.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - La Gigafactoría de Tesla en Shanghái es todo un ejemplo de eficiencia, innovación tecnológica y calidad de fabricación. El responsable de este logro es Tom Zhu, su jefe de Operaciones, que recientemente visitó las dos plantas estadounidenses.
-    - W. Edward Deming fue un ingeniero y consultor estadounidense reconocido como el padre de la gestión de la calidad total en la fabricación de automóviles. Se le considera uno de los responsables del progreso de la industria, gracias al desarrollo de una serie de teorías funcionales y económicas que, desde hace años, supervisan la producción de los vehículos que se fabrican en casi todo el mundo.
-    - Las teorías de Deming estaban muy por delante de su tiempo. Afirman que las organizaciones que se centran en reducir únicamente los costes de producción, automáticamente disminuyen la calidad de sus productos. Por el contrario, aquellas que se concentran en mejorar la calidad, automáticamente rebajan los costes.
-  - [health.google: AI-enabled imaging and diagnostics previously thought impossible](https://health.google/imaging-and-diagnostics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [xataka.com: El Excel se ha usado en la Fórmula 1 hasta que se han dado cuenta' que no es la mejor forma de controlar las 20.000 piezas del coche](https://www.xataka.com/automovil/excel-se-ha-usado-formula-1-que-se-han-dado-cuenta-que-no-mejor-forma-controlar-20-000-piezas-coche)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [BMW IT-Zentrum](https://www.facebook.com/pages/BMW-IT-Zentrum/122968844423716)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [**BMW ConnectedDrive**:](https://www.bmw-connecteddrive.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -49,6 +44,23 @@
 #### Case Studies
 
   - [aws.amazon.com/blogs/industries: BMW Group Develops a GenAI Assistant to' Accelerate Infrastructure Optimization on AWS](https://aws.amazon.com/blogs/industries/bmw-group-develops-a-genai-assistant-to-accelerate-infrastructure-optimization-on-aws) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews BMW Group's production deployment of a GenAI orchestrator built on Amazon Bedrock. Highlights technical methods used to automatically review AWS cloud footprints and propose infrastructure optimizations globally.
+## Modern Architecture
+
+### Artificial Intelligence (1)
+
+#### Medical Imaging
+
+  - **(2024)** [==health.google: AI-enabled imaging and diagnostics previously thought impossible==](https://health.google/imaging-and-diagnostics) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Overview of Google Health's platform for deploying AI models in clinical imaging and diagnostics. Illustrates the deep architectural requirements of running highly secure, real-time inferencing applications inside strictly compliant healthcare data architectures.
+### Industrial Engineering
+
+#### Quality Assurance
+
+  - **(2023)** [**hibridosyelectricos.com: Tesla recurre a China para aumentar la calidad de fabricación de sus coches eléctricos**](https://www.hibridosyelectricos.com/coches/tesla-recurre-china-calidad-fabricacion-coches-electricos_66230_102.html) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Insightful case study analyzing how Deming's classic Total Quality Management (TQM) principles are integrated into automated automotive manufacturing lines at Tesla's Shanghai plant. Synthesizes industrial feedback-loop theories with modern agile deployment frameworks.
+### Kubernetes
+
+#### Enterprise Scaling
+
+  - **(2021)** [==infoworld.com: Why Mercedes-Benz runs on 900 Kubernetes clusters==](https://www.infoworld.com/article/2335723/why-mercedes-benz-runs-on-900-kubernetes-clusters.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A monumental real-world case study showcasing why Mercedes-Benz runs its software fleet across 900+ Kubernetes clusters worldwide. Outlines critical decisions on isolated cluster boundaries, security profiles, and unified platform operations at global industrial scale.
 
 ---
 💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Cheatsheets](./cheatsheets.md)

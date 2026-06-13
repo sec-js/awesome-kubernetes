@@ -5,21 +5,7 @@
 
 ## Standard Reference
 
-  - [Intoduction to Kubernetes (slides, beginners and advanced)](https://docs.google.com/presentation/d/1zrfVlE5r61ZNQrmXKx5gJmBcXnoa_WerHEnTxu5SMco/edit)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [millionvisit.blogspot.com: Kubernetes for Developers #1: Kubernetes Architecture and Features](http://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-1-kubernetes-architecture.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [millionvisit.blogspot.com: Kubernetes for Developers #2: Kubernetes for Local Development](http://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-2-Local-development.html)
-    - [millionvisit.blogspot.com: Kubernetes for Developers #3: kubectl CLI](http://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-3-kubectl-cli.html)
-    - [millionvisit.blogspot.com: Kubernetes for Developers #4: Enable kubectl bash autocompletion](http://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-4-kubectl-autocompletion.html)
-    - [millionvisit.blogspot.com: Kubernetes for Developers #5: Kubernetes Web UI Dashboard](http://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-5-webui-dashboard.html)
-    - [millionvisit.blogspot.com: Kubernetes for Developers #6: Kubernetes Objects](http://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-6-KubernetesObjects.html)
-    - [millionvisit.blogspot.com: Kubernetes for Developers #7: Imperative vs. Declarative Kubernetes Objects](http://millionvisit.blogspot.com/2021/01/kubernetes-for-developers-7-imperative-vs-Declarative.html)
-    - [millionvisit.blogspot.com: Kubernetes for Developers #9: Kubernetes Pod Lifecycle](http://millionvisit.blogspot.com/2021/03/kubernetes-for-developers-9-Kubernetes-Pod-Lifecycle.html)
-    - [millionvisit.blogspot.com: Kubernetes for Developers #10: Kubernetes Pod YAML manifest in-detail](http://millionvisit.blogspot.com/2021/03/kubernetes-for-developers-10-kubernetes-Pod-YAML-manifest.html)
-    - [millionvisit.blogspot.com: Kubernetes for Developers #14: Kubernetes Deployment YAML manifest in-detail](http://millionvisit.blogspot.com/2021/05/kubernetes-for-developers-14-Kubernetes-Deployment-YAML-manifest.html)
-  - [educative.io/courses/the-kubernetes-course: Learn Kubernetes: A Deep Dive 🌟🌟🌟](https://www.educative.io/courses/learn-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetesbyexample.com](http://kubernetesbyexample.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [devopswithkubernetes.com](https://courses.mooc.fi/org/uh-cs/courses/devops-with-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Openshift Baremetal - Installer's Bake-off: Agent vs Assisted vs IPI](https://www.youtube.com/watch?si=vK_9UKjGV8F24Ebt&v=1v15VSKPZRU&feature=youtu.be)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Kubernetes para principiantes - La guía definitiva para principiantes absolutos](https://www.youtube.com/playlist?list=PLaR6Rq6Z4IqcKOKT4c0uGkBt3YSRQ9S5v&si=qGpgMP56yagniZx8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [What is Podman and How Does it Compare to Docker?](https://build5nines.com/what-is-podman-and-how-does-it-compare-to-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes.io: Kubernetes Tutorials](https://kubernetes.io/docs/tutorials)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devopscube.com: Kubernetes Tutorials For Beginners: Getting Started Guide](https://devopscube.com/kubernetes-tutorials-beginners)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -97,6 +83,13 @@
 #### CLI
 
   - [Quiz Grader](https://github.com/ned1313/quiz-grader)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight utility engineered to automate the grading and feedback of quizzes and programming assignments. It processes markdown-based inputs to generate structured performance assessments. Grounding highlights its utility in small-scale educational pipelines or self-assessment exercises.
+## Infrastructure and Platform
+
+### Kubernetes Fundamentals
+
+#### Developer Onboarding
+
+  - **(2020)** [millionvisit.blogspot.com: Kubernetes for Developers #1: Kubernetes Architecture and Features 🌟](http://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-1-kubernetes-architecture.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demystifies the architectural layer of Kubernetes from a software developer's perspective. Evaluates container orchestration design patterns, exposing how declarative configurations automate deployment, load balancing, and self-healing across microservice-based systems.
 ## Networking
 
 ### Service Mesh
@@ -106,6 +99,23 @@
 ##### Implementation
 
   - [Implementing Istio From Start To Finish](https://www.cloudnativedeepdive.com/implementing-istio-from-start-to-finish)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An implementation guide mapping out the lifecycle steps required to deploy, secure, and operate an Istio service mesh in enterprise environments. It provides structured insights on handling namespace injection, ambient mesh considerations, and mutual TLS enforcement.
+## Orchestration
+
+### Kubernetes Core
+
+#### Developer Guide
+
+  - **(2021)** [Kubernetes para principiantes - La guía definitiva para principiantes absolutos](https://www.youtube.com/playlist?list=PLaR6Rq6Z4IqcKOKT4c0uGkBt3YSRQ9S5v&si=qGpgMP56yagniZx8) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A localized, step-by-step video tutorial series guiding Spanish-speaking engineers through initial Kubernetes configurations. It demystifies foundational architectural blocks, helping absolute beginners gain practical competence deploying applications, defining services, and understanding basic YAML schemas.
+#### Training and Presentation
+
+  - **(2025)** [==educative.io/courses/the-kubernetes-course: Learn Kubernetes: A Deep Dive 🌟🌟🌟==](https://www.educative.io/courses/learn-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An interactive, deep-dive learning path that covers Kubernetes architecture, network management, and persistent storage configurations. This course features hands-on environments to deploy and scale containerized workloads, making it a premier educational resource for preparing engineers for Certified Kubernetes Administrator (CKA) certifications.
+  - **(2025)** [==devopswithkubernetes.com==](https://courses.mooc.fi/org/uh-cs/courses/devops-with-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An open-access DevOps curriculum from the University of Helsinki covering container orchestration, CI/CD, and cluster management. It teaches practical deployment strategies and microservices monitoring techniques. In 2026, it remains one of the most highly regarded educational resources for hands-on DevOps and Kubernetes training.
+  - **(2021)** [Intoduction to Kubernetes (slides, beginners and advanced)](https://docs.google.com/presentation/d/1zrfVlE5r61ZNQrmXKx5gJmBcXnoa_WerHEnTxu5SMco/edit) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive slide deck summarizing Kubernetes architecture, including control plane components, scheduling algorithms, and core object types like Pods, Services, and Deployments. It serves as an excellent visual introduction for onboarding development teams to cloud-native orchestrators.
+### OpenShift
+
+#### Baremetal Provisioning
+
+  - **(2023)** [**Openshift Baremetal - Installer's Bake-off: Agent vs Assisted vs IPI**](https://www.youtube.com/watch?si=vK_9UKjGV8F24Ebt&v=1v15VSKPZRU&feature=youtu.be) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A deep-dive video comparing three main OpenShift installation paths for bare-metal systems: Agent-based, Assisted, and Installer-Provisioned Infrastructure (IPI). It highlights the trade-offs of each approach in terms of networking, deployment speed, and ongoing maintenance. This is an essential reference for platform architects designing private cloud clusters.
 ## Platform Engineering
 
 ### CI-CD Pipelines

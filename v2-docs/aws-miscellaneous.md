@@ -5,22 +5,6 @@
 
 ## Standard Reference
 
-  - [AWS Application Discovery Service](http://docs.aws.amazon.com/application-discovery/latest/userguide/what-is-appdiscovery.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [AWS Elastic Beanstalk Documentation](http://aws.amazon.com/documentation/elastic-beanstalk)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Deploying a High-Availability PHP Application with an External Amazon RDS Database to Elastic Beanstalk](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/php-ha-tutorial.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Creating and Deploying PHP Applications on AWS Elastic Beanstalk](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_PHP_eb.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Configuring an Application Load Balancer](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/environments-cfg-applicationloadbalancer.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [AWS OpsWorks](https://aws.amazon.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.rackspace.com: Patch and AMI Management for Windows on AWS](http://blog.rackspace.com/patch-and-ami-management-for-windows-on-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [aws.amazon.com/en/iot](https://aws.amazon.com/iot)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [What Is AWS IoT?](http://docs.aws.amazon.com/iot/latest/developerguide/what-is-aws-iot.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [localstack.cloud](https://www.localstack.cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [How can I troubleshoot errors using the AWS CLI to manage my service quota requests?](https://repost.aws/es/knowledge-center/troubleshoot-service-quotas-cli-commands)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [AWS API: get-service-quota](https://docs.aws.amazon.com/cli/latest/reference/service-quotas/get-service-quota.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.logrocket.com: AWS Amplify and React Native: A tutorial](https://blog.logrocket.com/aws-amplify-react-native-tutorial-examples)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [sst.dev: Moving away from CDK: CDK doesn’t create the infrastructure you define](https://sst.dev/blog/moving-away-from-cdk)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [AWS Cloud Endure Migration](https://aws.amazon.com/application-migration-service)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Trainline.com dumps Oracle and Microsoft, gulps AWS Kool-Aid](http://www.theregister.co.uk/2016/07/13/trainline_dumps_oracle_microsoft_goes_full_aws_cto_interview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [treblle.com: How does Treblle scale on AWS without breaking the bank?](https://treblle.com/blog/how-does-treblle-scale-on-aws-without-breaking-the-bank)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Elastic Beanstalk Supports ASP.NET Core and Multi-App .NET Support](https://aws.amazon.com/about-aws/whats-new/2016/08/aws-elastic-beanstalk-supports-asp-net-core-and-multi-app-net-support)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Elastic Beanstalk Supports Application Load Balancer](https://aws.amazon.com/about-aws/whats-new/2016/08/aws-elastic-beanstalk-supports-application-load-balancer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -60,6 +44,80 @@
   - [dev.to: Automatic API Key rotation for Amazon Managed Grafana](https://dev.to/aws-heroes/automatic-api-key-rotation-for-amazon-managed-grafana-2h68)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@mike_tyson_cloud: AWS Landing Zone: Mastering the Architecture' — Best Practices and Design Secrets](https://medium.com/@mike_tyson_cloud/aws-landing-zone-mastering-the-architecture-best-practices-and-design-secrets-a37746f72962)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Cloud Infrastructure
+
+### AWS CLI
+
+#### Governance and Compliance
+
+  - **(2024)** [**How can I troubleshoot errors using the AWS CLI to manage my service quota requests?**](https://repost.aws/es/knowledge-center/troubleshoot-service-quotas-cli-commands) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official troubleshooting guide detailing how to inspect, requests, and remediate soft and hard AWS quota limits using command-line queries. Highly critical for highly dynamic platform teams deploying infrastructure using elastic scaling.
+  - **(2024)** [**AWS API: get-service-quota**](https://docs.aws.amazon.com/cli/latest/reference/service-quotas/get-service-quota.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Technical API reference guide detailing the implementation parameters of the `get-service-quota` call. Serves as a vital piece for programmatic automated testing tools tracking threshold capacity across multi-account enterprise landing zones.
+### Configuration Management
+
+#### AWS OpsWorks
+
+  - **(2024)** [AWS OpsWorks](https://aws.amazon.com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — AWS OpsWorks documentation. *Live Grounding 2026 Warning*: AWS deprecated and decommissioned OpsWorks for Chef Automate and Puppet Enterprise in 2024. This tool is fully legacy, with active migrations guiding teams toward modern alternatives like AWS Systems Manager or self-hosted config managers.
+### Development Environments
+
+#### Mocking Platforms
+
+  - **(2026)** [==localstack.cloud==](https://www.localstack.cloud) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier cloud emulation platform that permits the direct local execution of complete AWS environments. This offline tool drastically accelerates development speed and cuts CI pipeline testing costs by simulating advanced services locally.
+### Infrastructure as Code
+
+#### SST Framework
+
+  - **(2024)** [==sst.dev: Moving away from CDK: CDK doesn’t create the infrastructure you define==](https://sst.dev/blog/moving-away-from-cdk) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An influential structural critique and architectural analysis on why the SST framework abandoned AWS CDK to build custom engines (SST Ion) backed by Pulumi. Discusses massive performance boosts, local sandbox speed, and CloudFormation abstraction limits.
+### Load Balancing
+
+#### AWS Elastic Beanstalk
+
+  - **(2023)** [**Configuring an Application Load Balancer**](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/environments-cfg-applicationloadbalancer.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Advanced network routing guide covering Application Load Balancer (ALB) provisioning within Elastic Beanstalk. Addresses crucial configuration items including path-based routing, target group thresholds, and SSL/TLS certificate termination configurations.
+### Operating Systems
+
+#### OS Patching
+
+  - **(2020)** [blog.rackspace.com: Patch and AMI Management for Windows on AWS](http://blog.rackspace.com/patch-and-ami-management-for-windows-on-aws) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Rackspace blog illustrating corporate AMI lifecycle automation and system patching workflows for Windows Server environments on AWS. Explores strategies for maintaining security compliance in highly regulated environments running Windows workloads.
+### PaaS
+
+#### AWS Elastic Beanstalk (1)
+
+  - **(2023)** [AWS Elastic Beanstalk Documentation](http://aws.amazon.com/documentation/elastic-beanstalk) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Comprehensive documentation repository for AWS's classic Platform-as-a-Service orchestration engine. In 2026, Elastic Beanstalk continues to serve legacy application hosting, though modern serverless and container runtimes (such as ECS, EKS, and AWS App Runner) have largely superseded it for greenfield architectures.
+#### Application Architecture
+
+  - **(2022)** [**Deploying a High-Availability PHP Application with an External Amazon RDS Database to Elastic Beanstalk**](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/php-ha-tutorial.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Step-by-step tutorial on deploying a highly available PHP stack on AWS Elastic Beanstalk integrated with an external multi-AZ Amazon RDS database. Highlights key state-decoupling patterns essential for building horizontally scalable web applications.
+#### PHP Deployments
+
+  - **(2022)** [Creating and Deploying PHP Applications on AWS Elastic Beanstalk](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_PHP_eb.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed reference manual focusing on package configurations, runtime extensions, and `.ebextensions` configuration customization for PHP environments on Elastic Beanstalk. Highly technical for configuring custom web servers (Nginx/Apache) inside PaaS constraints.
+## Enterprise Migration
+
+### Case Studies
+
+#### Cloud Migration
+
+  - **(2016)** [Trainline.com dumps Oracle and Microsoft, gulps AWS Kool-Aid](http://www.theregister.co.uk/2016/07/13/trainline_dumps_oracle_microsoft_goes_full_aws_cto_interview) 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Historic case study highlighting Trainline's massive infrastructure modernization program, abandoning rigid legacy Oracle and Microsoft setups for a completely decoupled public cloud topology. Highlights early engineering patterns of modern cloud-first enterprises.
+### Migration Assessment
+
+#### AWS Application Migration Service
+
+  - **(2025)** [**AWS Cloud Endure Migration**](https://aws.amazon.com/application-migration-service) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Core technical repository detailing AWS Application Migration Service (MGN), the definitive successor to CloudEndure Migration. Implements continuous block-level system replication to guarantee near-zero RTO during massive system transitions to AWS.
+#### AWS Discovery
+
+  - **(2022)** [**AWS Application Discovery Service**](http://docs.aws.amazon.com/application-discovery/latest/userguide/what-is-appdiscovery.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Official documentation for AWS Application Discovery Service. Provides automated host scanning, performance mapping, and dependency graphing to prepare on-premises legacy environments for complex lift-and-shift operations into public cloud instances.
+## Internet of Things
+
+### IoT Cloud Platforms
+
+#### AWS IoT Core
+
+  - **(2025)** [==aws.amazon.com/en/iot==](https://aws.amazon.com/iot) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Main product portal detailing AWS's massive-scale IoT platform capabilities. Showcases how edge nodes seamlessly securely connect and publish data back to cloud databases using robust MQTT brokers and hardware-secured certificates.
+  - **(2024)** [**What Is AWS IoT?**](http://docs.aws.amazon.com/iot/latest/developerguide/what-is-aws-iot.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Core documentation introducing AWS IoT Core concepts, device registry, device shadows, and rule engines. A fundamental architectural framework for understanding real-time data streaming and distributed event architectures at the physical-to-digital edge.
+## Mobile and Web Development
+
+### Amplify
+
+#### React Native
+
+  - **(2021)** [blog.logrocket.com: AWS Amplify and React Native: A tutorial](https://blog.logrocket.com/aws-amplify-react-native-tutorial-examples) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A hands-on walk-through for setting up mobile frontend integrations with AWS backends using the AWS Amplify SDK. While highly popular for early prototype development, modern 2026 enterprise teams prefer highly decoupled serverless stacks for enterprise mobile apps.
 
 ---
 💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Public Cloud Solutions](./public-cloud-solutions.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)

@@ -5,15 +5,6 @@
 
 ## Standard Reference
 
-  - [Announcing Public Preview of Terraform Export from the Azure Portal](https://techcommunity.microsoft.com/blog/AzureToolsBlog/announcing-public-preview-of-terraform-export-from-the-azure-portal/4409889)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [agileconnection.com: Infrastructure as Code: The Foundation of Effective DevOps](https://www.stickyminds.com/?utm_source=d7ac)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhat.com: Pull vs. push in automated VM provisioning: What you need to know](https://www.redhat.com/en/blog/pull-push-provisioning-cicd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [infoworld.com: 5 priorities that cut cloud costs and improve IT ops](https://www.infoworld.com/article/2338245/5-priorities-that-cut-cloud-costs-and-improve-it-ops.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [matt-rickard.com: Infrastructure as Code Will be Written by AI](https://mattrickard.com/infrastructure-as-code-will-be-written-by-ai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [k21academy.com: Terraform vs Ansible: Working, Difference, Provisioning 🌟](https://k21academy.com/devops/terraform-vs-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techcommunity.microsoft.com: Infrastructure as Code (IaC): Comparing the Tools](https://techcommunity.microsoft.com/blog/itopstalkblog/infrastructure-as-code-iac-comparing-the-tools/3205045)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Deploying Virtual Networks Across Tenants Using Azure Virtual Network Manager](https://techcommunity.microsoft.com/blog/azurenetworkingblog/deploying-virtual-networks-across-tenants-using-azure-virtual-network-manager-ip/4410161)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloud.google.com/config-connector](https://docs.cloud.google.com/config-connector/docs/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Terraform Provider for Google Cloud 7.0 is now GA](https://www.hashicorp.com/en/blog/terraform-provider-for-google-cloud-7-0-is-now-ga)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [How Kubernetes Operators Fit into Platform Building and When Traditional IaC Isn't Enough](https://www.thestack.technology/how-kubernetes-operators-fit-into-to-platform-building-and-when-traditional-iac-isnt-enough)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [The Beginner’s Guide to the Ansible Inventory](https://www.packetcoders.io/the-beginners-guide-to-the-ansible-inventory)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -84,6 +75,25 @@
   - [IaC and OpenShift Virtualization handshake (using Terraform for VMs on OCP)](https://medium.com/@nidhibansal26/iac-and-openshift-virtualization-handshake-c0a4ada79af5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Building a FinOps-Ready Azure Landing Zone: Infrastructure Foundations for' Cost Optimization](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/building-a-finops-ready-azure-landing-zone-infrastructure-foundations-for-cost-o/4411706)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Automation
+
+### Configuration Management
+
+#### Architecture
+
+  - **(2022)** [redhat.com: Pull vs. push in automated VM provisioning: What you need to know](https://www.redhat.com/en/blog/pull-push-provisioning-cicd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: Explores the design trade-offs between push-based (e.g., Ansible orchestrating ssh) and pull-based (e.g., agent-driven puppet/chef/gitops) VM provisioning configurations.
+### Infrastructure as Code
+
+#### Artificial Intelligence
+
+  - **(2022)** [matt-rickard.com: Infrastructure as Code Will be Written by AI](https://mattrickard.com/infrastructure-as-code-will-be-written-by-ai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: Explores the trajectory of IaC generation using AI models. Evaluates how Large Language Models generate infrastructure patterns, pointing out risks like hallucinated variables or drift.
+#### DevOps
+
+  - **(2021)** [agileconnection.com: Infrastructure as Code: The Foundation of Effective DevOps](https://www.stickyminds.com/?utm_source=d7ac)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: Reviews the foundational core principles of Infrastructure as Code. Explores configuration drift, declarative patterns, and continuous integration paths inside automated delivery pipelines.
+#### Tooling
+
+  - **(2024)** [k21academy.com: Terraform vs Ansible: Working, Difference, Provisioning 🌟](https://k21academy.com/devops/terraform-vs-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight / Live Grounding: Direct comparison of Terraform (declarative, immutable cloud provisioning) versus Ansible (procedural, configuration-management-centric engine), highlighting where to utilize each tool.
+  - **(2022)** [techcommunity.microsoft.com: Infrastructure as Code (IaC): Comparing the Tools](https://techcommunity.microsoft.com/blog/itopstalkblog/infrastructure-as-code-iac-comparing-the-tools/3205045)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: Evaluates differences between multi-cloud and native tools (Terraform, Pulumi, Bicep, ARM). Covers state preservation, compile-time validation, and native provider integrations.
 ## Cloud Architecture
 
 ### AWS Governance
@@ -93,7 +103,7 @@
   - [AWS Organizations: The Key to Managing Your Cloud Infrastructure Effectively](https://awsfundamentals.com/blog/aws-organizations-the-key-to-managing-your-cloud-infrastructure-effectively)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly clear exploration of AWS Organizations, dissecting organizational units (OUs), Service Control Policies (SCPs), and account hierarchy. Grounding shows it serves as a fundamental training material for cloud administrators establishing multi-account safety structures.
 ### AWS Well-Architected
 
-#### Infrastructure as Code
+#### Infrastructure as Code (1)
 
   - [AWS Well-Architected IaC Analyzer](https://github.com/aws-samples/well-architected-iac-analyzer) <span class='md-tag md-tag--info'>⭐ 473</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS-sourced open-source analyzer designed to inspect Infrastructure as Code (CloudFormation, Terraform) templates against AWS Well-Architected practices before deployment. Grounding demonstrates how incorporating this tool into continuous integration checks reduces pre-production compliance failures.
 ## Cloud Infrastructure
@@ -109,18 +119,37 @@
 
 *   Guides cloud platform teams to construct GitOps-driven workflows.
 *   Automatically provisions fully governed, secure, and networked Azure subscriptions using Bicep or Terraform.
-### Infrastructure as Code (1)
+### Infrastructure as Code (2)
 
 #### AI Generation
 
   - [Terraform 2.0 in Practice: Using AI to Generate Infrastructure as Code](https://markaicode.com/terraform-ai-infrastructure-as-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on AI-driven generation of HCL infrastructure files. Covers schema checking, validating security guardrails in prompt pipelines, and continuous integration workflows for automated infrastructure verification.
+## Cloud Providers
+
+### Google Cloud
+
+#### IaC Operators
+
+  - **(2020)** [cloud.google.com/config-connector](https://docs.cloud.google.com/config-connector/docs/overview) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Config Connector is a Kubernetes add-on that enables managing Google Cloud resources using native Kubernetes custom resource definitions (CRDs). It enforces declarative Infrastructure as Code (IaC) directly through the Kubernetes control plane, ensuring continuous reconciliation of cloud infrastructure.
+### Multicloud
+
+#### FinOps
+
+  - **(2023)** [infoworld.com: 5 priorities that cut cloud costs and improve IT ops](https://www.infoworld.com/article/2338245/5-priorities-that-cut-cloud-costs-and-improve-it-ops.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: Operational manual showcasing cost reduction strategies. Covers autoscaling boundaries, orphaned storage remediation, container right-sizing, and active cost attribution dashboards.
 ## Cloud-Native Infrastructure
 
-### Infrastructure as Code (2)
+### Infrastructure as Code (3)
 
 #### AI-Assisted Operations
 
   - [Enhancing Infrastructure as Code Generation with GitHub Copilot for Azure](https://techcommunity.microsoft.com/blog/AzureDevCommunityBlog/enhancing-infrastructure-as-code-generation-with-github-copilot-for-azure/4388514)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: Analyzes the application of LLM co-pilots in rapidly writing secure ARM and Bicep configurations. Live Grounding: Demonstrates how contextual AI generators drastically lower human-error risk in pipeline IaC templates. Highly representative of modern 2025/2026 operational shifts.
+## Infrastructure
+
+### IaC
+
+#### Terraform Integration
+
+  - **(2024)** [Announcing Public Preview of Terraform Export from the Azure Portal](https://techcommunity.microsoft.com/blog/AzureToolsBlog/announcing-public-preview-of-terraform-export-from-the-azure-portal/4409889) <span class='md-tag md-tag--warning'>[TERRAFORM CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Introduces the public preview feature enabling direct export of existing Azure resources into fully configured, executable Terraform files from the Azure Portal, simplifying legacy cloud migrations to IaC.
 ## Infrastructure Operations
 
 ### Sysadmin Toolsets
@@ -130,6 +159,13 @@
 ##### Awesome Lists
 
   - [Awesome Sysadmin](https://github.com/awesome-foss/awesome-sysadmin) <span class='md-tag md-tag--info'>⭐ 33981</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An incredibly rich curation containing production-grade open source utilities, control planes, networking layers, and security mechanisms used daily by systems architects and site reliability engineers.
+## Networking
+
+### Azure (1)
+
+#### Multi-Tenant
+
+  - **(2025)** [**Deploying Virtual Networks Across Tenants Using Azure Virtual Network Manager**](https://techcommunity.microsoft.com/blog/azurenetworkingblog/deploying-virtual-networks-across-tenants-using-azure-virtual-network-manager-ip/4410161) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Explains how to construct secure virtual network topologies across multiple enterprise Azure tenants using Azure Virtual Network Manager (AVNM). Details centralized mesh-network architectures, security admin rules, and policy distribution. This resource is highly practical for organizations managing complex multi-tenant landing zones.
 ## Platform Engineering (1)
 
 ### AI Integration
@@ -139,7 +175,7 @@
   - [Terraform & OpenTofu Skill for AI Agents](https://github.com/antonbabenko/terraform-skill) <span class='md-tag md-tag--info'>⭐ 1881</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An experimental, open-source repository establishing unified Model Context Protocol (MCP) skills or AI tools for Terraform and OpenTofu. Empowers AI agents to dynamically generate, parse, validate, and execute infrastructure-as-code definitions with semantic awareness.
 ### CI-CD Pipelines
 
-#### Infrastructure as Code (3)
+#### Infrastructure as Code (4)
 
 ##### GitHub Actions
 

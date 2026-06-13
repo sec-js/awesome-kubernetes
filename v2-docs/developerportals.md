@@ -6,20 +6,6 @@
 ## Standard Reference
 
   - [IBM API Connect](https://www.ibm.com/docs/en/api-connect)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [chakray.com: API Strategy. How to create an API Marketplace](https://chakray.com/api-strategy-how-to-create-an-api-marketplace)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [OpenShift Ecosystem: API Management on Red Hat OpenShift with 3scale](https://www.redhat.com/en/blog/openshift-ecosystem-api-management-on-red-hat-openshift-with-3scale)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [chakray.com: Why API Lifecycle Management is a MUST for Your Organisation APIs](https://chakray.com/why-api-lifecycle-management-is-must-organisation-apis)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [chakray.com: 11 Steps to achieving a successful API Management Strategy](https://chakray.com/11-steps-achieving-successful-api-management-strategy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [chakray.com: Por qué API LIFECYCLE MANAGEMENT es imprescindible para la organización de APIs](https://chakray.com/es/por-que-api-lifecycle-management-imprescindible-api-organizacion)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [chakray.com: 11 Pasos para lograr una estrategia API Management exitosa](https://chakray.com/es/11-pasos-lograr-estrategia-api-management-exitosa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Kong API Manager](https://konghq.com/products/kong-gateway)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [openshift.com: Modern Application Development With Kong Konnect Enterprise and Red Hat OpenShift](https://www.redhat.com/en/blog/modern-application-development-with-kong-konnect-enterprise-and-red-hat-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [konghq.com: Kong and Red Hat: Delivering Seamless Customer Experience](https://konghq.com/blog/news/kong-and-red-hat-collaboration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [high-mobility.com](https://www.high-mobility.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [REST Auto API Tutorial](https://www.high-mobility.com/car-api)
-  - [Smartcar API for BMW](https://smartcar.com/brand/bmw)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [BBVA API Market](https://www.bbvaapimarket.com/es)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ING Developer Portal](https://developer.ing.com/openbanking)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [ING API Marketplace](https://developer.ing.com/openbanking/api-marketplace/marketplace)
-  - [Telefonica Thinking Cities](https://thinking-cities.readthedocs.io/en/latest)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [BMW InnovationLab](https://github.com/BMW-InnovationLab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Public APIs Directory](https://publicapis.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Rapid API](https://rapidapi.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -114,6 +100,24 @@ Live Grounding: Delivers strategic instruction on utilizing AI capabilities, cod
 #### Prompt Engineering
 
   - [Claude 101: Free Guides to Master Claude](https://claude101.com) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive guides to mastering Anthropic's Claude. Focuses on system instructions, complex XML markup injection, custom tool calls, and API configuration profiles for multi-agent workflows.
+## Cloud Native
+
+### API Gateways
+
+#### Kong Gateway
+
+  - **(2026)** [Kong API Manager](https://konghq.com/products/kong-gateway) <span class='md-tag md-tag--warning'>[LUA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kong Gateway is a highly optimized, cloud-native API gateway built on Nginx and OpenResty. It handles low-latency reverse-proxying, dynamic rate limiting, token-based authentication, and structural request transformations across complex distributed microservice environments via dynamic plug-ins.
+### Kubernetes Platforms
+
+#### Kong and OpenShift Integration
+
+  - **(2022)** [openshift.com: Modern Application Development With Kong Konnect Enterprise and Red Hat OpenShift](https://www.redhat.com/en/blog/modern-application-development-with-kong-konnect-enterprise-and-red-hat-openshift) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An implementation manual detailing how to integrate Kong Konnect Enterprise within Red Hat OpenShift clusters. It highlights modern architectures that utilize hybrid-cloud deployments, linking centralized control planes with secure distributed data-plane proxies.
+#### OpenShift API Management
+
+  - **(2021)** [OpenShift Ecosystem: API Management on Red Hat OpenShift with 3scale](https://www.redhat.com/en/blog/openshift-ecosystem-api-management-on-red-hat-openshift-with-3scale) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural blueprint detailing the deployment of Red Hat 3scale API Management natively on Red Hat OpenShift. This setup enables automated traffic shaping, secure token-based authentication, and deep telemetry for microservices running across hybrid cloud environments.
+#### Partner Integration
+
+  - **(2021)** [konghq.com: Kong and Red Hat: Delivering Seamless Customer Experience](https://konghq.com/blog/news/kong-and-red-hat-collaboration) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A strategic overview of the technical integration between Kong and Red Hat. The article highlights certified operators, security integrations, and shared automation patterns designed to simplify application delivery pipelines in secure OpenShift environments.
 ## Developer Experience
 
 ### AI Assisted Engineering
@@ -141,6 +145,42 @@ Live Grounding: Delivers strategic instruction on utilizing AI capabilities, cod
 #### AI Tooling
 
   - [Warp: The Agentic Development Environment](https://www.warp.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates Warp, a Rust-based modern terminal platform embedding native AI workflows. Outlines command prediction, architectural collaboration features, and native agentic debugging directly from terminal logs.
+## Enterprise Architecture
+
+### API Management
+
+#### API Economy
+
+  - **(2022)** [chakray.com: API Strategy. How to create an API Marketplace](https://chakray.com/api-strategy-how-to-create-an-api-marketplace) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A strategic exploration of API Marketplace architectures, describing how organizations can turn internal service endpoints into discoverable, monetized assets. It highlights self-service portals, developer registration, security governance, and multi-tenant management principles.
+#### Lifecycle Governance
+
+  - **(2022)** [chakray.com: Why API Lifecycle Management is a MUST for Your Organisation APIs](https://chakray.com/why-api-lifecycle-management-is-must-organisation-apis) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This reference details the core components of API Lifecycle Management, illustrating how systemic control from initial API design to final deprecation protects organizational infrastructure from technical debt, version drift, and security vulnerabilities.
+  - **(2022)** [chakray.com: Por qué API LIFECYCLE MANAGEMENT es imprescindible para la organización de APIs](https://chakray.com/es/por-que-api-lifecycle-management-imprescindible-api-organizacion) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Spanish-language implementation guide detailing why structured API Lifecycle Management is critical to scale modern IT operations. It highlights core lifecycle stages, automated validation techniques, and methods to safely retire legacy integrations.
+#### Strategy Design
+
+  - **(2022)** [chakray.com: 11 Steps to achieving a successful API Management Strategy](https://chakray.com/11-steps-achieving-successful-api-management-strategy) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive 11-step methodology designed to establish an enterprise-wide API management strategy. Topics cover aligning technical specifications with business objectives, identifying developer portals, implementing zero-trust security, and collecting usage metrics.
+  - **(2022)** [chakray.com: 11 Pasos para lograr una estrategia API Management exitosa](https://chakray.com/es/11-pasos-lograr-estrategia-api-management-exitosa) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Spanish-language framework outlining 11 strategic stages to implement, scale, and optimize an organization's API Management capabilities. This resource is helpful for systems architects aligning multi-region network routing policies with security and compliance standards.
+## Fintech
+
+### Open Banking
+
+#### Financial APIs
+
+  - **(2023)** [BBVA API Market](https://www.bbvaapimarket.com/es) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The BBVA API Market is a secure, enterprise-grade Open Banking portal offering developers regulated access to payment networks, identity validations, and financial histories. It serves as a gold standard for financial integration architectures and PSD2 compliance.
+  - **(2023)** [ING Developer Portal](https://developer.ing.com/openbanking) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — ING's developer portal hosts a suite of standardized PSD2 and open banking APIs designed for secure transaction routing, account inquiries, and payment initiation services. Backed by solid sandbox environments and rigorous security architectures, it simplifies cross-border fintech application development.
+## IoT and Edge
+
+### Automotive APIs
+
+#### Connected Car SDKs
+
+  - **(2023)** [high-mobility.com](https://www.high-mobility.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — High Mobility is an advanced connected car API platform that standardizes telemetry data from multiple automotive manufacturers into a single, cohesive REST interface. It allows secure, permission-based access to diagnostics, chassis parameters, and system status without custom OBD hardware.
+  - **(2023)** [Smartcar API for BMW](https://smartcar.com/brand/bmw) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Smartcar's platform offers native, cloud-to-cloud integration with BMW's digital services. This allows software developers to verify vehicle location, calculate range, and manage locking systems through standard API endpoints, bypassing complex physical telemetry devices.
+### Smart Cities
+
+#### FIWARE Platform
+
+  - **(2020)** [Telefonica Thinking Cities](https://thinking-cities.readthedocs.io/en/latest) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Telefonica's Thinking Cities is an IoT architecture platform based on the FIWARE open standard. It enables municipalities to ingest context-aware data, route real-time telemetry from heterogeneous urban sensors, and configure analytical dashboards for municipal services.
 ## Platform Engineering
 
 ### AI Integration

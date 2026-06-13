@@ -5,26 +5,7 @@
 
 ## Standard Reference
 
-  - [redhat.com: An Architect's guide to APIs: SOAP, REST, GraphQL, and gRPC 🌟](https://www.redhat.com/en/blog/apis-soap-rest-graphql-grpc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [snipcart.com: API vs. Microservices: A Beginners Guide to Understand Them 🌟](https://snipcart.com/blog/microservices-vs-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [genbeta.com: Hace 20 años, este correo de Jeff Bezos en Amazon cambió para siempre la forma en que programamos apps](https://www.genbeta.com/desarrollo/hace-22-anos-este-correo-jeff-bezos-amazon-cambio-para-siempre-forma-que-programamos-apps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [You Bet That APIs Power DevOps Tools](http://seguridad-informacion.blogspot.com/2020/07/you-bet-that-apis-power-devops-tools.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [vishnuch.tech: Interprocess Communication in Microservices 🌟](https://blog.flatturtle.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [geeksforgeeks.org: Basics of SOAP – Simple Object Access Protocol](https://www.geeksforgeeks.org/computer-networks/basics-of-soap-simple-object-access-protocol)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [jitendrazaa.com: Create SOAP message using Java](http://www.jitendrazaa.com/blog/java/create-soap-message-using-java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [geeksforgeeks.org: REST API (Introduction)](https://www.geeksforgeeks.org/node-js/rest-api-introduction)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [geeksforgeeks.org: REST API Architectural Constraints](https://www.geeksforgeeks.org/javascript/rest-api-architectural-constraints)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [mulesoft.com: What is a RESTful API?](https://www.mulesoft.com/api/rest/what-is-rest-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [open-rpc.org lightweight RPC framework 🌟](https://www.open-rpc.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [geeksforgeeks.org: Difference between REST API and SOAP API](https://www.geeksforgeeks.org/websites-apps/difference-between-rest-api-and-soap-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [softwaretestingportal.com: API Testing, Key Terminologies and more...](http://www.softwaretestingportal.com/2020/03/31/api-testing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [youtube: API Testing Part 1- API Core Concepts](https://www.youtube.com/watch?v=b0D_bkcT4a4&t=1s&ab_channel=SoftwareDiagnosticsCenter)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [tricentis.com: Getting started with automated continuous performance testing](https://shiftsync.tricentis.com/software-testing-blogs-69/getting-started-with-automated-continuous-performance-testing-406)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [portswigger.net: Introducing vAPI – an open source lab environment to learn about API security](https://portswigger.net)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [free-web-services.com](http://free-web-services.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [SwaggerHub: Free Web Service](https://swagger.io/product)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [any-api.com](https://marketplace.apilayer.com/?utm_source=any-api&utm_medium=any-api-redirection&utm_campaign=any-api-redirection)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Mux: The API to Video](https://www.mux.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [softwareengineeringdaily.com: Kubernetes vs. Serverless with Matt Ward (podcast) 🌟](https://softwareengineeringdaily.com/2020/12/29/kubernetes-vs-serverless-with-matt-ward-repeat)
   - [https://swagger.io/](https://swagger.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Devdocs.io API Documentation 🌟](https://devdocs.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [wikipedia: API Application Programming Interface](https://simple.wikipedia.org/wiki/Application_programming_interface)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -167,6 +148,75 @@
 #### Enterprise Infrastructure
 
   - [Cerebras AI](https://www.cerebras.ai) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Architectural hub detailing wafer-scale AI processors built to tackle compute limits. Facilitates unprecedented deep-learning model execution with extreme localized bandwidth optimizations.
+## Modern Architecture
+
+### API Design
+
+#### JSON-RPC
+
+  - **(2025)** [**open-rpc.org lightweight RPC framework 🌟**](https://www.open-rpc.org) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Technical documentation for OpenRPC, a lightweight protocol-agnostic specification mapping JSON-RPC 2.0. Acts as the functional equivalent of OpenAPI for RPC patterns, enabling automated documentation, client generation, and mock capabilities.
+#### Protocol Selection
+
+  - **(2023)** [==redhat.com: An Architect's guide to APIs: SOAP, REST, GraphQL, and gRPC 🌟==](https://www.redhat.com/en/blog/apis-soap-rest-graphql-grpc) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Architect's guide from Red Hat evaluating primary integration patterns: REST, SOAP, GraphQL, and gRPC. Delivers technical criteria on when to employ high-speed binary protocols like gRPC versus highly flexible REST APIs or query-centric GraphQL schemas.
+  - **(2023)** [**geeksforgeeks.org: Difference between REST API and SOAP API**](https://www.geeksforgeeks.org/websites-apps/difference-between-rest-api-and-soap-api) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A technical comparison highlighting the practical trade-offs of REST versus SOAP architectures. Weighs SOAP's strict built-in WS-Security policies and transactions against REST's performance optimization and JSON payload flexibility.
+#### REST
+
+  - **(2023)** [**geeksforgeeks.org: REST API (Introduction)**](https://www.geeksforgeeks.org/node-js/rest-api-introduction) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An introductory technical breakdown of REST APIs. Explains basic stateless routing, structural resources, and standard HTTP method mapping required for exposing scalable endpoints to clients and federated services.
+  - **(2023)** [**geeksforgeeks.org: REST API Architectural Constraints**](https://www.geeksforgeeks.org/javascript/rest-api-architectural-constraints) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Explores the six architectural constraints of REST (e.g., statelessness, uniform interface, cacheability). Understanding these rules is critical for API designers to ensure cross-team alignment and reliable web-scale architectures.
+#### SOAP
+
+  - **(2023)** [geeksforgeeks.org: Basics of SOAP – Simple Object Access Protocol](https://www.geeksforgeeks.org/computer-networks/basics-of-soap-simple-object-access-protocol) 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A comprehensive review of SOAP basics, XML schemas, and structural constraints. Indispensable for corporate integration projects where developers must hook legacy financial or government SOAP endpoints into modern JSON wrappers.
+  - **(2017)** [jitendrazaa.com: Create SOAP message using Java](http://www.jitendrazaa.com/blog/java/create-soap-message-using-java) 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A code-focused guide illustrating programmatic creation and manual parsing of XML-heavy SOAP messages in Java environments. Helpful for software engineers managing legacy SOAP-based integrations inside contemporary JVM frameworks.
+#### Swagger
+
+  - **(2025)** [==SwaggerHub: Free Web Service==](https://swagger.io/product) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier interface hub for creating and executing APIs using OpenAPI standards. Standardizes API development, contract-first design, interactive documentation, and testing layers across enterprise microservices environments.
+### DevOps and SRE
+
+#### API Integration
+
+  - **(2020)** [You Bet That APIs Power DevOps Tools](http://seguridad-informacion.blogspot.com/2020/07/you-bet-that-apis-power-devops-tools.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores how automated APIs undergird all DevOps integrations, toolchains, and security controls. Details programmatic integration points between CI pipelines, configuration engines, and cloud host environments.
+### Microservices (1)
+
+#### Architectural History
+
+  - **(2024)** [**genbeta.com: Hace 20 años, este correo de Jeff Bezos en Amazon cambió para siempre la forma en que programamos apps**](https://www.genbeta.com/desarrollo/hace-22-anos-este-correo-jeff-bezos-amazon-cambio-para-siempre-forma-que-programamos-apps) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A deep historical dive analyzing how Jeff Bezos's internal 'API Mandate' (circa 2002) permanently restructured software engineering at Amazon. This forced decoupling of teams became the conceptual foundation of cloud services and the microservices movement.
+#### Interprocess Communication
+
+  - **(2022)** [**vishnuch.tech: Interprocess Communication in Microservices 🌟**](https://blog.flatturtle.com) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An in-depth technical analysis on Interprocess Communication (IPC) within microservices networks. Examines execution differences between synchronous gRPC calls and asynchronous message brokers (RabbitMQ, Kafka) to maximize microservices throughput.
+#### System Design Concepts
+
+  - **(2022)** [**snipcart.com: API vs. Microservices: A Beginners Guide to Understand Them 🌟**](https://snipcart.com/blog/microservices-vs-api) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Conceptual breakdown contrasting APIs against the broader microservice design paradigm. Clarifies common terminology confusions and acts as an excellent training module for traditional backend engineers transitioning to modern distributed microservice designs.
+### Serverless Integration
+
+#### Media APIs
+
+  - **(2026)** [==Mux: The API to Video==](https://www.mux.com) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Developer-friendly media API specializing in global video processing, storage, and streaming. Showcases modern architecture shifts toward offloading complex compute operations to external high-performance SaaS platforms, featuring discussion on Serverless vs Kubernetes models.
+## Quality and Testing
+
+### API Development
+
+#### API Directories
+
+  - **(2024)** [any-api.com](https://marketplace.apilayer.com/?utm_source=any-api&utm_medium=any-api-redirection&utm_campaign=any-api-redirection) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A public directory containing structured technical specs for hundreds of third-party REST APIs. Useful for application architects seeking ready-made SaaS integrations and building fast web prototypes.
+#### Mock APIs
+
+  - **(2020)** [free-web-services.com](http://free-web-services.com) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A public directory gathering free web APIs and sandbox endpoints. Ideal utility tool for developers testing multi-system integrations or mocking network data calls within local sandbox environments.
+### API Testing
+
+#### Basics
+
+  - **(2021)** [youtube: API Testing Part 1- API Core Concepts](https://www.youtube.com/watch?v=b0D_bkcT4a4&t=1s&ab_channel=SoftwareDiagnosticsCenter) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — First entry of a structured video training course exploring core mechanical concepts of API validations. Designed for quality engineering teams transitioning from manual front-end testing workflows to programmatic, automated test designs.
+  - **(2020)** [softwaretestingportal.com: API Testing, Key Terminologies and more...](http://www.softwaretestingportal.com/2020/03/31/api-testing) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introductory guide framing API validation standards, core terminologies, and integration tests. Serves as a vital guide for engineering groups integrating programmatic validation scripts within automated testing pipelines.
+### Performance Testing
+
+#### Continuous Integration
+
+  - **(2022)** [**tricentis.com: Getting started with automated continuous performance testing**](https://shiftsync.tricentis.com/software-testing-blogs-69/getting-started-with-automated-continuous-performance-testing-406) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Detailed methodology guide regarding shift-left performance testing. Focuses on setting up automated, continuous load and performance tests inside active integration pipelines to discover latency bottlenecks prior to production merges.
+### Security Testing
+
+#### Vulnerability Labs
+
+  - **(2023)** [**portswigger.net: Introducing vAPI – an open source lab environment to learn about API security**](https://portswigger.net) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An introduction to vAPI, an open-source vulnerable API lab based on the OWASP API Security Top 10. Indispensable practical sandboxed learning environment for DevSecOps engineers seeking to secure microservices APIs against modern exploit patterns.
 
 ---
 💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Visual Studio](./visual-studio.md)

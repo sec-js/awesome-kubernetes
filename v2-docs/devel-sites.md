@@ -5,13 +5,6 @@
 
 ## Standard Reference
 
-  - [Amazon CodeWhisperer 🌟](https://aws.amazon.com/q/developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [geeksforgeeks.org: 7 Most In-Demand and High Paying Programming Jobs](https://www.geeksforgeeks.org/blogs/7-most-in-demand-and-high-paying-programming-jobs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [infoworld.com: Complexity is killing software developers](https://www.infoworld.com/article/2270714/complexity-is-killing-software-developers.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [trio.dev: Angular vs React: Is Angular Dead?](https://trio.dev/angular-vs-react)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dev.to: A Better Way To Code: Documentation Driven Development](https://dev.to/playfulprogramming/a-better-way-to-code-documentation-driven-development-1kem)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [GitHub Copilot](https://github.com/copilot)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Amazon CodeGuru Reviewer](https://aws.amazon.com/codeguru/profiler)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: 7 API Tools for REST Developers and Testers](https://dev.to/javinpaul/7-api-tools-for-rest-developers-and-testers-n67)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [El camino del Frontend Developer](https://github.com/mrcodedev/frontend-developer-resources) <span class='md-tag md-tag--info'>⭐ 3537</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
@@ -52,13 +45,52 @@
   - [oclif.io 🌟](https://oclif.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@jdxcode: 12 Factor CLI Apps](https://medium.com/@jdxcode/12-factor-cli-apps-dd3c227a0e46)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Software Engineering
+## Developer Tools
 
+### AI Assistance
+
+#### Code Quality
+
+  - **(2026)** [Amazon CodeGuru Reviewer](https://aws.amazon.com/codeguru/profiler) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Service page detailing Amazon CodeGuru Reviewer, an AI-powered code analysis tool. Scans pull requests to detect difficult-to-find bugs, concurrency issues, resource leaks, and security vulnerabilities, providing intelligent, automated optimization recommendations based on AWS best practices.
+#### Generative AI
+
+  - **(2024)** [Amazon CodeWhisperer](https://aws.amazon.com/q/developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Overview of Amazon's AI-powered coding companion (subsequently consolidated into Amazon Q Developer). Generates real-time code suggestions from natural language prompts, detects security vulnerabilities, and highlights reference attributions, assisting developers working in AWS environments.
+## Frontend Development
+
+### Framework Comparison
+
+#### JS Ecosystem
+
+  - **(2022)** [trio.dev: Angular vs React: Is Angular Dead?](https://trio.dev/angular-vs-react) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed technical comparison of Angular and React. Analyzes architectural approaches (opinionated MVC framework vs. flexible component library), performance optimizations, data binding patterns, ecosystem lifecycles, and their suitability for enterprise micro-frontend applications.
+## Professional Development
+
+### Career Guidance
+
+#### Industry Trends
+
+  - **(2023)** [geeksforgeeks.org: 7 Most In-Demand and High Paying Programming Jobs](https://www.geeksforgeeks.org/blogs/7-most-in-demand-and-high-paying-programming-jobs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Identifies and ranks high-value programming and engineering professions in modern software industries. Highlights Cloud Architects, DevOps Engineers, and Site Reliability Engineers (SREs) as top-paying tier jobs due to the global enterprise transition to containerized and multi-cloud architectures.
+### Software Engineering
+
+#### Methodology
+
+  - **(2021)** [dev.to: A Better Way To Code: Documentation Driven Development](https://dev.to/playfulprogramming/a-better-way-to-code-documentation-driven-development-1kem)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores Documentation-Driven Development (DDD) as a framework for software construction. Explains how writing user guides, API specifications, and architecture designs before coding clarifies business logic, decreases system complexity, and improves collaboration across distributed microservice teams.
+## Software Engineering (1)
+
+### AI-Assisted Development
+
+#### Copilot Integrations
+
+  - **(2021)** [==GitHub Copilot 🌟==](https://github.com/copilot) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main landing framework for GitHub Copilot's developer organization. As an AI-assisted development standard, it houses the core SDK components, extension configurations, and telemetry hooks driving modern contextual code synthesis inside major integrated development environments (IDEs).
 ### Developer Experience
 
 #### IDEs and Tooling
 
   - [IntelliJ vs. VSCode for Rust Development](https://users.rust-lang.org/t/anyone-here-go-intellij-vscode/84499)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Community-driven performance and usability evaluation contrasting IntelliJ Rust and VSCode (rust-analyzer) workflows. Discusses compilation feedback, macro expansion speeds, and debugging tool integrations.
+### Practices
+
+#### Developer Cognitive Load
+
+  - **(2022)** [**infoworld.com: Complexity is killing software developers**](https://www.infoworld.com/article/2270714/complexity-is-killing-software-developers.html) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Critiques the rising cognitive load facing software developers due to tool sprawl in the cloud-native ecosystem. It traces how managing infrastructure-as-code, CI/CD pathways, and microservices orchestrators can overshadow core programming tasks. The author advocates for dedicated platform engineering teams to build abstractions that simplify developer workflows.
 
 ---
 💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Visual Studio](./visual-studio.md)

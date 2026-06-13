@@ -5,7 +5,6 @@
 
 ## Standard Reference
 
-  - [OpenShift Tekton pipelines](https://www.redhat.com/en/topics/devops/what-cicd-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jenkins.io: Easily reuse Tekton and Jenkins X from Jenkins 🌟](https://www.jenkins.io/blog/2021/04/21/tekton-plugin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [tekton.dev](https://tekton.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/tektoncd](https://github.com/tektoncd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -28,6 +27,13 @@
   - [piotrminkowski.com: Canary Release on Kubernetes with Knative and Tekton](https://piotrminkowski.com/2022/03/29/canary-release-on-kubernetes-with-knative-and-tekton)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devops.com: Using LLMs to Automate Pipeline Conversions From Legacy to' Tekton](https://devops.com/using-llms-to-automate-pipeline-conversions-from-legacy-to-tekton)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Cloud Native CI-CD
+
+### Tekton
+
+#### OpenShift Pipelines
+
+  - **(2024)** [OpenShift Tekton pipelines](https://www.redhat.com/en/topics/devops/what-cicd-pipeline) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights OpenShift Pipelines, powered by the cloud-native, Kubernetes-native Tekton framework. Decouples build stages into individual pods, ensuring high resilience, dynamic isolation, and declarative YAML-driven build definition.
 ## Hybrid Cloud and Enterprise
 
 ### OpenShift

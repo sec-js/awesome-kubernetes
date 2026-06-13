@@ -5,10 +5,6 @@
 
 ## Standard Reference
 
-  - [techcommunity.microsoft.com: Full-stack .NET 6 Apps with Blazor WebAssembly and Azure Static Web Apps](https://techcommunity.microsoft.com/blog/appsonazureblog/full-stack-net-6-apps-with-blazor-webassembly-and-azure-static-web-apps/2933428)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [docs.microsoft.com: .NET Microservices: Architecture for Containerized .NET Applications](https://learn.microsoft.com/en-us/dotnet/architecture/microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [syncfusion.com: 10 Best C# NuGet Packages to Improve Your Productivity in 2022](https://www.syncfusion.com/blogs/post/10-best-c-nuget-packages-to-improve-your-productivity-in-2022)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [devblogs.microsoft.com: Introducing Compatible Packages on NuGet.org](https://devblogs.microsoft.com/dotnet/introducing-compatible-frameworks-on-nuget-org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [andrewlock.net: Series: Deploying ASP.NET Core applications to Kubernetes' with Helm 🌟](https://andrewlock.net/series/deploying-asp-net-core-applications-to-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [wikipedia.org: .NET](https://en.wikipedia.org/wiki/.NET)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Three ways to containerize .NET applications on Red' Hat OpenShift](https://developers.redhat.com/blog/2021/03/16/three-ways-to-containerize-net-applications-on-red-hat-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -40,6 +36,20 @@
 #### .NET Integration
 
   - [Extend your coding agent with .NET Skills](https://devblogs.microsoft.com/dotnet/extend-your-coding-agent-with-dotnet-skills)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step instruction illustrating how to inject specialized .NET SDK contexts and compilation knowledge bases into autonomous coding agents to optimize C# generation pipelines.
+## Software Development
+
+### .NET
+
+#### Architecture
+
+  - **(2021)** [**techcommunity.microsoft.com: Full-stack .NET 6 Apps with Blazor WebAssembly and Azure Static Web Apps**](https://techcommunity.microsoft.com/blog/appsonazureblog/full-stack-net-6-apps-with-blazor-webassembly-and-azure-static-web-apps/2933428) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Explores building modern full-stack application suites utilizing Blazor WebAssembly and hosting them on Azure Static Web Apps. Details how the static assets run efficiently in the browser while securely integrating with serverless Azure Functions API endpoints. Ideal for lightweight web structures that demand high performance, rapid CI/CD, and global scale.
+#### Dependency Management
+
+  - **(2021)** [**devblogs.microsoft.com: Introducing Compatible Packages on NuGet.org**](https://devblogs.microsoft.com/dotnet/introducing-compatible-frameworks-on-nuget-org) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Introduces a NuGet package manager update that highlights framework compatibility, making package target evaluation straightforward. Explains how targeting netstandard, net6.0, and newer .NET TFMs reduces library selection friction. This functionality ensures dependency alignment during large-scale migration of microservice codebases.
+  - **(2022)** [syncfusion.com: 10 Best C# NuGet Packages to Improve Your Productivity in 2022](https://www.syncfusion.com/blogs/post/10-best-c-nuget-packages-to-improve-your-productivity-in-2022) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews 10 key NuGet packages that increase development speed and product quality in C# environments, including AutoMapper, Newtonsoft.Json, and Serilog. It explains how these libraries streamline routine operations like object mapping, data serialization, and advanced structured logging, improving overall software design patterns.
+#### Microservices
+
+  - **(2024)** [==docs.microsoft.com: .NET Microservices: Architecture for Containerized .NET Applications==](https://learn.microsoft.com/en-us/dotnet/architecture/microservices) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The comprehensive blueprint for designing and deploying microservices-based architectures with .NET Core and .NET 8+. Focuses on domain-driven design (DDD), containerization, API gateways, database per microservice patterns, and CQRS implementations. Indispensable handbook for building robust, scalable enterprise cloud-native systems.
 
 ---
 💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Visual Studio](./visual-studio.md)

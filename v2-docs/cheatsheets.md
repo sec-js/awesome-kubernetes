@@ -5,41 +5,8 @@
 
 ## Standard Reference
 
-  - [googlecloudcheatsheet.withgoogle.com: Google Cloud Developer cheat sheet](https://cloud.google.com/products)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cheat-sheets.org 🌟](http://www.cheat-sheets.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ABZ-Aaron/CheatSheets](https://github.com/ABZ-Aaron/cheat-sheets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [supple.com.au: Google advanced search operators tips and tricks](https://supple.com.au/tools/google-advance-search-operators)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [tutorialsdojo.com: AWS Cheat Sheets 🌟](https://tutorialsdojo.com/aws-cheat-sheets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [kubernetes.io 🌟](https://kubernetes.io/docs/reference/kubectl/quick-reference)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [jimmysong.io: kubectl cheat sheet 🌟](https://jimmysong.io/zh/book/kubernetes-handbook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github: K8s in 30 mins 🌟](https://github.com/rosehgal/k8s-In-30Mins) <span class='md-tag md-tag--info'>⭐ 211</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [computingforgeeks.com: Kubectl Cheat Sheet for Kubernetes Admins & CKA Exam Prep](https://computingforgeeks.com/kubectl-cheat-sheet-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/devoriales/kubectl-cheatsheet](https://github.com/devoriales/cheatsheets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [lzone.de: Docker Swarm Cheat Sheet](https://lzone.de/#/LZone%20Cheat%20Sheets/Docker%20Swarm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.github.com/training-kit: Git cheat sheet](https://training.github.com/downloads/github-git-cheat-sheet.pdf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [justingarrison.com: GitHub URL Hacks 🌟](https://justingarrison.com/blog/2021-07-11-github-url-hacks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dev.to: Git it Right🔥🔥🚀(Git CheatSheet) 🌟](https://dev.to/hey_atharva/git-it-right-git-cheatsheet-4o0h)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [geeksforgeeks.org: Essential Git Commands 🌟](https://www.geeksforgeeks.org/git/essential-git-commands)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [GitKraken Git Cheat](https://www.gitkraken.com/pdfs/gitkraken-git-gui-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [terraform.io: Terraform Commands](https://developer.hashicorp.com/terraform/cli/commands)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [acloudguru.com: The Ultimate Terraform Cheatsheet](https://www.pluralsight.com/resources/blog/cloud/the-ultimate-terraform-cheatsheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [searchitoperations.techtarget.com: Terraform cheat sheet: Notable commands, HCL and more](https://www.techtarget.com/searchitoperations/tip/Terraform-cheat-sheet-Notable-commands-HCL-and-more)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techbeatly.com: Terraform Cheat Sheet](https://techbeatly.com/terraform-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [pixelbeat.org/cmdline](http://www.pixelbeat.org/cmdline.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [linuxhandbook.com: Yum Command Cheat Sheet](https://linuxhandbook.com/cheatsheets/yum)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [pentestmonkey.net: ssh cheat sheet](http://pentestmonkey.net/cheat-sheet/ssh-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [The SSH Commands Cheat Sheet for Linux SysAdmins / Users](https://computingforgeeks.com/ssh-commands-cheat-sheet-linux)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [mastertheboss.com: OpenShift Cheat Sheet](http://www.mastertheboss.com/soa-cloud/openshift/openshift-cheatsheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [maven.apache.org: Maven Quick Reference Card](http://maven.apache.org/guides/MavenQuickReferenceCard.pdf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [journaldev.com](https://www.digitalocean.com/community/tutorials/maven-commands-options-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cheatography.com](https://cheatography.com/mikesac/cheat-sheets/maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [JMeter Web Application Testing Cheatsheet](http://blog.extremehacking.org/blog/2015/11/09/jmeter-web-application-testing-cheatsheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Cheat Sheet for Regular Expression in Jmeter](http://performanceoptimize.blogspot.com/2017/04/RegularExpressionCheatSheet.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [docs.microsoft.com: Build JavaScript applications using TypeScript](https://www.typescriptlang.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [postgrescheatsheet.com](https://www.tigerdata.com/learn/postgres-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developer.mongodb.com: MongoDB Cheat Sheet](https://www.mongodb.com/docs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [hackingcpp.com: C++ Cheat Sheets](https://hackingcpp.com/cpp/cheat_sheets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [lambdatest.com: The Ultimate Selenium Python Cheat Sheet for Test Automation](https://www.testmuai.com/blog/selenium-python-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone refcard: Getting Started With OpenShift 🌟](https://dzone.com/refcardz/getting-started-with-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Writing a Kubernetes Operator in Java using Quarkus' - **Cheat Sheet** 🌟](https://developers.redhat.com/cheat-sheets/writing-kubernetes-operator-java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [wizardzines.com 🌟](https://wizardzines.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -263,6 +230,40 @@
 #### Managed Kubernetes
 
   - **(2022)** [**learnk8s.io/research:  Comparison of Kubernetes managed services 🌟**](https://learnkube.com/research) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Comprehensive comparison matrix evaluating key metrics of major managed Kubernetes engines, mapping out scalability limits, upgrade strategies, and CNI setups.
+## Cloud Providers
+
+### Google Cloud Platform
+
+#### Developer Tooling
+
+  - **(2025)** [googlecloudcheatsheet.withgoogle.com: Google Cloud Developer cheat sheet](https://cloud.google.com/products) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official, interactive Google Cloud developer reference map designed to organize the vast landscape of GCP compute, networking, security, and storage tools. It assists technical architects in mapping requirements to target-state managed services with optimized configurations.
+## Container Orchestration
+
+### Kubernetes
+
+#### Architecture and Concepts
+
+  - **(2024)** [jimmysong.io/kubernetes-handbook/concepts/pod.html 🌟](https://jimmysong.io/zh/book/kubernetes-handbook) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed technical breakdown of the Kubernetes Pod lifecycle within Jimmy Song's handbook. Analyzes initialization dynamics, sidecar injection patterns, node-level network interfaces (CNI), multi-container shared namespaces, and graceful shutdown mechanics.
+#### Bootstrapping
+
+  - **(2023)** [==github: K8s in 30 mins 🌟==](https://github.com/rosehgal/k8s-In-30Mins) <span class='md-tag md-tag--info'>⭐ 211</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An accelerated educational repository mapping core Kubernetes abstractions, including Pods, Services, Deployments, and ReplicaSets. It translates complex container orchestration mechanics into brief visual explanations, facilitating quick developer onboarding for distributed systems development.
+#### CLI Management
+
+  - **(2024)** [computingforgeeks.com: Kubectl Cheat Sheet for Kubernetes Admins & CKA Exam Prep](https://computingforgeeks.com/kubectl-cheat-sheet-kubernetes) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized administration guide mapping essential kubectl commands for live platform troubleshooting and Certified Kubernetes Administrator (CKA) execution. Covers state descriptions, namespace filtering, and logging mechanics for large multi-tenant clusters.
+  - **(2023)** [github.com/devoriales/kubectl-cheatsheet](https://github.com/devoriales/cheatsheets) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source, opinionated collection of kubectl commands curated specifically for critical production debugging. It prioritizes node-level maintenance commands, network troubleshooting steps, and secure pod execution syntaxes to minimize MTTR.
+## Data Science and ML
+
+### Databases
+
+#### NoSQL Document Stores
+
+  - **(2025)** [developer.mongodb.com: MongoDB Cheat Sheet](https://www.mongodb.com/docs) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official MongoDB developer cheat sheet compiling query API methods, aggregation pipelines, schema validations, index configurations, and replication set management patterns required to maintain distributed, document-based NoSQL backends.
+#### PostgreSQL Administration
+
+  - **(2024)** [postgrescheatsheet.com](https://www.tigerdata.com/learn/postgres-cheat-sheet) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A target-rich reference manual detailing PostgreSQL-specific administration commands, schema locks, index architectures (GIN/GiST), vacuum diagnostics, and replication parameters required to maintain highly-available relational storage layers.
+#### Relational SQL
+
+  - **(2023)** [github.com/ABZ-Aaron: SQL Cheat Sheet 🌟](https://github.com/ABZ-Aaron/cheat-sheets) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An intensive SQL syntax compilation focusing on relational queries. Highlights transaction control, subqueries, complex JOIN strategies, CTEs, and window functions used across major RDBMS engines (PostgreSQL, MySQL, SQLite).
 ## Developer Reference
 
 ### Syntax Cheat Sheets
@@ -270,6 +271,23 @@
 #### Language Manuals
 
   - [QuickRef.ME - Quick Reference Cheat Sheets](https://quickref.me/index.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A massive aggregator of high-density cheat sheets and quick reference guides covering terminal systems, programming syntaxes, database commands, and deployment paradigms.
+## Developer Resources
+
+### GitHub Platform
+
+#### Productivity Hacks
+
+  - **(2021)** [justingarrison.com: GitHub URL Hacks 🌟](https://justingarrison.com/blog/2021-07-11-github-url-hacks) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A collection of advanced GitHub browser URL tricks and query modifiers designed to streamline asynchronous developer workflows. Enables instant code diff generations, direct blame visualizations, and target branch comparisons without loading heavy local IDE environments.
+### Reference Manuals
+
+#### Cheat Sheets (1)
+
+  - **(2023)** [cheat-sheets.org 🌟](http://www.cheat-sheets.org) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A widely cataloged aggregator portal consolidating technical cheat sheets for systems, databases, and networks. While visually legacy, it offers an offline-friendly reference architecture for engineers executing migration workflows on retro or multi-era stacks.
+### Web OSINT
+
+#### Search Optimization
+
+  - **(2022)** [supple.com.au: Google advanced search operators tips and tricks](https://supple.com.au/tools/google-advance-search-operators) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A granular guide to utilizing Google's advanced search operators for technical research and open-source intelligence (OSINT). This reference maps specific syntax combinations for finding leaked files, scanning public directories, and performing basic vulnerability indexing on target domains.
 ## Education and Automation
 
 ### Grading Systems
@@ -277,6 +295,27 @@
 #### CLI
 
   - [Quiz Grader](https://github.com/ned1313/quiz-grader)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight utility engineered to automate the grading and feedback of quizzes and programming assignments. It processes markdown-based inputs to generate structured performance assessments. Grounding highlights its utility in small-scale educational pipelines or self-assessment exercises.
+## Infrastructure as Code
+
+### Terraform
+
+#### Best Practices
+
+  - **(2024)** [acloudguru.com: The Ultimate Terraform Cheatsheet](https://www.pluralsight.com/resources/blog/cloud/the-ultimate-terraform-cheatsheet) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive Terraform guide focusing on complex declarative HCL scenarios. It provides architectural blueprints for modular infrastructure definitions, dynamic code blocks, dependency locks, and robust state locking strategies to support parallel developer team updates.
+#### CLI Reference
+
+  - **(2026)** [terraform.io: Terraform Commands](https://developer.hashicorp.com/terraform/cli/commands) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The authoritative HashiCorp CLI reference for Terraform infrastructure lifecycle orchestration. Details standard workflow mechanics alongside essential state commands like taint, state import, and multi-workspace management needed to maintain integrity across environments.
+  - **(2024)** [techbeatly.com: Terraform Cheat Sheet](https://techbeatly.com/terraform-cheat-sheet) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A community-focused Terraform reference for fast automation setups. Features clear examples for dry-run validations, automated state target modifications, and headless pipeline integrations utilizing dynamic environment files.
+#### HCL Syntax
+
+  - **(2023)** [searchitoperations.techtarget.com: Terraform cheat sheet: Notable commands, HCL and more](https://www.techtarget.com/searchitoperations/tip/Terraform-cheat-sheet-Notable-commands-HCL-and-more) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical technical brief exploring declarative HCL infrastructure deployments. Synthesizes variable files configuration, provider schemas, output variables, and execution sequencing designed to execute safe, incremental rolling updates in cloud environments.
+## Kubernetes (1)
+
+### Developer Experience (1)
+
+#### CLI Tools
+
+  - **(2015)** [Kubectl Autocomplete](https://kubernetes.io/docs/reference/kubectl/quick-reference) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reference guide on installing shell-specific (Bash, Zsh) command completion parameters for kubectl, offering instant visual feedback on resource specs to maximize admin speed.
 ## Operating Systems
 
 ### Linux Utilities
@@ -284,6 +323,14 @@
 #### CLI Curation
 
   - **(2025)** [**CommandLineFu 🌟**](https://www.commandlinefu.com/commands/browse) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An immense, user-voted platform for sharing and assessing terminal tricks. Perfect for tracking down highly specific, multi-tool regex constructs or one-liners.
+### LinuxUNIX
+
+#### Package Management
+
+  - **(2024)** [linuxhandbook.com: Yum Command Cheat Sheet](https://linuxhandbook.com/cheatsheets/yum) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A quick operational guide to managing dependencies via the YUM/DNF package manager on Red Hat-family Linux servers. Includes key command syntaxes for repository subscriptions, dependency locks, cleaning operations, and automated security patching.
+#### Shell Commands
+
+  - **(2023)** [pixelbeat.org/cmdline](http://www.pixelbeat.org/cmdline.html) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An expansive Linux command-line cheat sheet capturing lower-level shell manipulations, network diagnostics, process management parameters, and advanced sed/awk text filtering pipelines. It acts as an essential diagnostic utility handbook for infrastructure engineers.
 ## Programming Languages
 
 ### Go
@@ -292,6 +339,31 @@
 
   - [devhints.io/go: Go cheatsheet](https://devhints.io/go) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights a concise, single-page reference sheet covering Go syntax, control flow, channels, and basic standard library interfaces. Live Grounding confirms this is a widely-used cheatsheet for quick syntax lookups during day-to-day coding. It is optimized for speed and readability.
   - [github.com: golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Duplicate reference of the high-density Go cheat-sheet database. It provides programmatic access to Go fundamentals, standard functions, and syntax paradigms to streamline engineering workflows.
+## Quality Assurance and Testing
+
+### Performance Testing
+
+#### Dynamic Parsing
+
+  - **(2021)** [Cheat Sheet for Regular Expression in Jmeter](http://performanceoptimize.blogspot.com/2017/04/RegularExpressionCheatSheet.html) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A focused guide to using regular expression extractors in JMeter to handle dynamic correlation. Demonstrates how to isolate session tokens, CSRF tokens, and state parameters within API payloads to enable seamless end-to-end integration flows.
+#### Load Generation
+
+  - **(2022)** [JMeter Web Application Testing Cheatsheet](http://blog.extremehacking.org/blog/2015/11/09/jmeter-web-application-testing-cheatsheet) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical performance testing reference for orchestrating scalable web application simulations with Apache JMeter. Outlines parameterization patterns, thread configurations, cookie controls, and assertion setups to generate uniform traffic under test workloads.
+### Test Automation
+
+#### Browser Testing
+
+  - **(2024)** [lambdatest.com: The Ultimate Selenium Python Cheat Sheet for Test Automation](https://www.testmuai.com/blog/selenium-python-cheat-sheet) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A robust test automation reference detailing Selenium interactions with Python. It provides clear patterns for explicit/implicit waits, headless browser executions, shadow DOM exploration, and multi-browser testing grids within CI pipelines.
+## Security and Networking
+
+### Secure Shell SSH
+
+#### Penetration Testing
+
+  - **(2022)** [pentestmonkey.net: ssh cheat sheet](http://pentestmonkey.net/cheat-sheet/ssh-cheat-sheet) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A security-centric SSH reference focused on vulnerability testing, dynamic SOCKS proxying, and credential manipulation patterns. Essential for platform architects looking to identify remote access configurations vulnerable to privilege escalation.
+#### System Administration
+
+  - **(2024)** [The SSH Commands Cheat Sheet for Linux SysAdmins / Users](https://computingforgeeks.com/ssh-commands-cheat-sheet-linux) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive SSH command reference detailing robust system management patterns. Highlights custom configuration files setup, SSH agent keys, cipher specifications, and multiplexing connections to manage multiple remote nodes concurrently.
 ## Software Development
 
 ### Scripting
@@ -301,11 +373,24 @@
   - **(2025)** [==Bash Pitfalls 🌟==](http://mywiki.wooledge.org/BashPitfalls) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The legendary Wooledge guide listing common Bash coding mistakes and how to fix them. Covering quoting, scope, pipeline traps, and array logic, this resource is a mandatory read for any systems engineer.
 ## Software Engineering
 
+### Build Tools
+
+#### Java Ecosystem
+
+  - **(2024)** [lzone.de/cheat-sheet/Maven](https://lzone.de/#/LZone%20Cheat%20Sheets/Docker%20Swarm) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated list of quick Maven CLI hacks and optimization overrides. Outlines specific strategies for skipping unit tests, updating locked-down snapshots, and managing local repository paths on transient CI/CD runners.
+  - **(2023)** [maven.apache.org: Maven Quick Reference Card](http://maven.apache.org/guides/MavenQuickReferenceCard.pdf) <span class='md-tag md-tag--warning'>[PDF CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official Maven quick reference card mapping the core project object model (POM) lifecycle phases. It covers the structural execution flow (compile, test, package, install, deploy) along with core plugin definitions and dependency scope settings.
+  - **(2023)** [journaldev.com](https://www.digitalocean.com/community/tutorials/maven-commands-options-cheat-sheet) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced Maven CLI reference mapping performance flags and optimization parameters. Covers dependency tree isolation, active profile selection, offline execution modes, and debugging scripts designed to improve CI pipeline runtimes for Java services.
+  - **(2022)** [cheatography.com](https://cheatography.com/mikesac/cheat-sheets/maven) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A crowdsourced Maven build sheet documenting base POM hierarchies and build commands. Tailored for junior developers transitioning into the Java ecosystem, it simplifies complex multi-module concepts and repositories.
 ### NodeJS
 
-#### Best Practices
+#### Best Practices (1)
 
   - [NodeJS Best Practices (Spanish Translation)](https://github.com/goldbergyoni/nodebestpractices/blob/spanish-translation/README.spanish.md) <span class='md-tag md-tag--info'>⭐ 105273</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight hosts the comprehensive Spanish translation of the premier Node.js architecture and security handbook. Live Grounding validates its immense utility as an industry-standard guide covering testing, error handling, and production safety. [SPANISH CONTENT]
+### System Programming
+
+#### Modern C
+
+  - **(2024)** [hackingcpp.com: C++ Cheat Sheets](https://hackingcpp.com/cpp/cheat_sheets) <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced visual reference detailing Modern C++ (including standards C++20/C++23). Maps RAII architectures, smart pointers, lambda closures, STL algorithms, template metaprogramming, and concurrent execution patterns for high-frequency trading and low-latency systems.
 ### Version Control
 
 #### Branching Strategies
@@ -314,6 +399,23 @@
 #### Git Operations
 
   - [atlassian.com: Git cheat sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A comprehensive and beautifully formatted PDF and web-based Git command reference guide from Atlassian. Covers essential command categories including repository creation, local staging, history review, branch management, and remote synchronization.
+### Web Development
+
+#### TypeScript Architecture
+
+  - **(2026)** [docs.microsoft.com: Build JavaScript applications using TypeScript](https://www.typescriptlang.org) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official Microsoft documentation and developer learning track for TypeScript. Details type configurations, advanced decorators, compiler configs, and module resolution patterns needed to build modern, type-safe enterprise applications.
+## Version Control (1)
+
+### Git
+
+#### Developer Workflows
+
+  - **(2023)** [dev.to: Git it Right🔥🔥🚀(Git CheatSheet) 🌟](https://dev.to/hey_atharva/git-it-right-git-cheatsheet-4o0h) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A community-focused guide compiling common Git traps and operational strategies for state recovery. Illustrates interactive rebasing workflows, manual commit recovery using git reflog, and remote force-with-lease push protections to avoid code loss.
+  - **(2023)** [GitKraken Git Cheat](https://www.gitkraken.com/pdfs/gitkraken-git-gui-cheat-sheet) <span class='md-tag md-tag--warning'>[PDF CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A visual Git guide produced by GitKraken that bridges command-line mechanics with GUI visualization models. It simplifies complex branching topologies, remote stashing, and cherry-picking routines to help multi-developer teams prevent state deviation.
+#### Fundamentals
+
+  - **(2024)** [github.github.com/training-kit: Git cheat sheet](https://training.github.com/downloads/github-git-cheat-sheet.pdf) <span class='md-tag md-tag--warning'>[PDF CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official training reference from GitHub outlining standard Git version control lifecycles. It provides concrete command breakdowns for repository branching, remote synchronization, history rewriting, and local workspace management safely and systematically.
+  - **(2024)** [geeksforgeeks.org: Essential Git Commands 🌟](https://www.geeksforgeeks.org/git/essential-git-commands) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational Git tutorial documenting commands from system initialization to upstream integration. Serves as a primary learning reference for junior developers, illustrating basic workspace staging, branch merge strategies, and conflict mitigation.
 
 ---
 💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)

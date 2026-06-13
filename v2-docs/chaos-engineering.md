@@ -5,19 +5,6 @@
 
 ## Standard Reference
 
-  - [Chaos Mesh](https://github.com/chaos-mesh/chaos-mesh) <span class='md-tag md-tag--info'>⭐ 7710</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [pingcap.com: chaos-mesh-action: Integrate Chaos Engineering into Your CI](https://www.pingcap.com/blog/chaos-mesh-action-integrate-chaos-engineering-into-your-ci)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [openshift.com: Introduction to Kraken, a Chaos Tool for OpenShift/Kubernetes](https://www.redhat.com/en/blog/introduction-to-kraken-a-chaos-tool-for-openshift/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.flant.com: Open Source solutions for chaos engineering in Kubernetes](https://palark.com/blog/chaos-engineering-in-kubernetes-open-source-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - kube-monkey
-    - chaoskube
-    - Chaos Mesh
-    - Litmus Chaos
-    - Chaos Toolkit
-    - KubeInvaders
-  - [blog.palark.com: Attaining harmony of chaos in Kubernetes with Chaos Mesh](https://palark.com/blog/chaos-mesh-in-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Azure Chaos Studio](https://azure.microsoft.com/en-us/products/chaos-studio/#overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [techcommunity.microsoft.com: Announcing the Public Preview of Azure Chaos Studio](https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/announcing-the-public-preview-of-azure-chaos-studio/2893050)
-    - [docs.microsoft.com: What is Azure Chaos Studio?](https://learn.microsoft.com/en-us/azure/chaos-studio/chaos-studio-overview)
-    - [sqlservercentral.com: Chaos Engineering in Azure](https://www.sqlservercentral.com/articles/chaos-engineering-in-azure)
   - [Awesome Chaos Engineering](https://github.com/dastergon/awesome-chaos-engineering) <span class='md-tag md-tag--info'>⭐ 6564</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [thenewstack.io: Chaos Engineering Is Not Just for Ops](https://thenewstack.io/chaos-engineering-is-not-just-for-ops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Why Chaos Engineering Isn’t Just for Operations](https://thenewstack.io/why-chaos-engineering-isnt-just-for-operations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -51,6 +38,30 @@
   - [chaosblade](https://github.com/chaosblade-io/chaosblade) <span class='md-tag md-tag--info'>⭐ 6334</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [aws.amazon.com: Automating and Scaling Chaos Engineering using AWS Fault' Injection Simulator](https://aws.amazon.com/blogs/industries/automating-and-scaling-chaos-engineering-using-aws-fault-injection-simulator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Cloud Infrastructure
+
+### Microsoft Azure
+
+#### Chaos Engineering (1)
+
+  - **(2021)** [Azure Chaos Studio](https://azure.microsoft.com/en-us/products/chaos-studio/#overview) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A fully managed chaos engineering service integrated natively within Microsoft Azure. Enables developers and platform engineers to measure, understand, and improve application resilience against real-world disruptions by injecting controlled faults (e.g., VM shutdowns, network latency, resource exhaustion) across Azure resources and AKS clusters.
+## Cloud Native
+
+### Reliability Engineering
+
+#### Chaos Engineering (2)
+
+  - **(2021)** [blog.palark.com: Attaining harmony of chaos in Kubernetes with Chaos Mesh](https://palark.com/blog/chaos-mesh-in-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed analysis of integrating Chaos Mesh into Kubernetes environments to orchestrate fault injection experiments. Explores architectural components like Chaos Daemon and Controller Manager, detailing how they leverage Custom Resource Definitions (CRDs) to disrupt pods, simulate network latency, and test system resilience without manual intervention.
+## Orchestration
+
+### Kubernetes Reliability
+
+#### Chaos Engineering (3)
+
+  - **(2026)** [==Chaos Mesh==](https://github.com/chaos-mesh/chaos-mesh) <span class='md-tag md-tag--info'>⭐ 7710</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Chaos Mesh is a CNCF incubating, enterprise-grade cloud-native Chaos Engineering platform. Orchestrates complex injections (network delay, pod failures, system call anomalies, JVM faults) to systematically probe Kubernetes resiliency in real-world scenarios.
+  - **(2024)** [blog.flant.com: Open Source solutions for chaos engineering in Kubernetes](https://palark.com/blog/chaos-engineering-in-kubernetes-open-source-tools) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive comparative overview of leading open-source chaos frameworks. Evaluates kube-monkey, chaoskube, Chaos Mesh, Litmus Chaos, Chaos Toolkit, and KubeInvaders. Critiques design tradeoffs, ease of configuration, and targeting mechanisms.
+  - **(2023)** [pingcap.com: chaos-mesh-action: Integrate Chaos Engineering into Your CI](https://www.pingcap.com/blog/chaos-mesh-action-integrate-chaos-engineering-into-your-ci) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how to leverage `chaos-mesh-action` to embed automated resilience and regression testing into GitHub Actions pipelines. Facilitates shift-left testing by validating containerized application performance during destructive scenarios before production deployment.
+  - **(2022)** [openshift.com: Introduction to Kraken, a Chaos Tool for OpenShift/Kubernetes](https://www.redhat.com/en/blog/introduction-to-kraken-a-chaos-tool-for-openshift/kubernetes) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introduction to Kraken (originally developed by Red Hat), a powerful chaos tool specifically optimized to stress-test OpenShift and Kubernetes control planes. Details configuration models for testing network partitions, API server latencies, and node failures.
 ## Platform Engineering
 
 ### Architectural Patterns
@@ -62,7 +73,7 @@
 
 ### AWS
 
-#### Chaos Engineering (1)
+#### Chaos Engineering (4)
 
   - [Chaos engineering on Amazon EKS using AWS Fault Injection Simulator](https://aws.amazon.com/blogs/devops/chaos-engineering-on-amazon-eks-using-aws-fault-injection-simulator) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Guided workflow utilizing AWS FIS (Fault Injection Simulator) to execute controlled resilience and disruption experiments against EKS node groups and containers. Demonstrates monitoring system reaction metrics and reinforcing application failover.
 
