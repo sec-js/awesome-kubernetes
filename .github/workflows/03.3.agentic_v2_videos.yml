@@ -101,4 +101,3 @@ jobs:
         with:
           path: data/inventory.yaml
           key: inventory-v2-${{ github.run_id }}-${{ github.run_attempt }}
-ttempt }}
