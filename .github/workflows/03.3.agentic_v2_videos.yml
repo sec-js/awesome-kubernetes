@@ -8,6 +8,11 @@ on:
       - 'src/v2_video_portal.py'
       - 'src/enrich_videos.py'
       - 'data/inventory.yaml'
+  workflow_run:
+    workflows: ["03.2. V2 AI Curator"]
+    branches: [develop]
+    types:
+      - completed
   schedule:
     - cron: '0 6 1 * *'  # Runs on the 1st of every month at 06:00 UTC (every ~30 days)
   workflow_dispatch:
@@ -28,12 +33,15 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: v2-video-hub-${{ github.ref }}
-  cancel-in-progress: true
+  group: v2-pipeline-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   build-video-hub:
     runs-on: ubuntu-latest
+    if: |
+      github.event_name != 'workflow_run' || 
+      github.event.workflow_run.conclusion == 'success'
     steps:
       - name: Repository Synchronization
         uses: actions/checkout@v6
@@ -82,7 +90,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No automated changes to commit."
           else
-            git commit -m "docs: update Video Hub with high-fidelity metadata [skip ci]"
+            git commit -m "docs: update Video Hub with high-fidelity metadata"
             git pull origin develop --rebase
             git push origin develop
           fi
@@ -93,3 +101,4 @@ jobs:
         with:
           path: data/inventory.yaml
           key: inventory-v2-${{ github.run_id }}-${{ github.run_attempt }}
+ttempt }}
