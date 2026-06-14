@@ -82,7 +82,7 @@
 
 #### Large Language Models
 
-  - **(2024)** [==LLMs-from-scratch==](https://github.com/rasbt/LLMs-from-scratch) <span class='md-tag md-tag--info'>⭐ 97129</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight highlights this acclaimed resource for building a fully functional PyTorch Transformer from scratch. Live Grounding verifies it is an indispensable textbook for AI engineers, laying bare tokenization, self-attention calculations, optimization loops, and model loading mechanics without library abstractions.
+  - **(2024)** [==LLMs-from-scratch==](https://github.com/rasbt/LLMs-from-scratch) <span class='md-tag md-tag--info'>⭐ 97132</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight highlights this acclaimed resource for building a fully functional PyTorch Transformer from scratch. Live Grounding verifies it is an indispensable textbook for AI engineers, laying bare tokenization, self-attention calculations, optimization loops, and model loading mechanics without library abstractions.
 ### Generative AI
 
 #### Data Analysis Automation
@@ -132,7 +132,7 @@
   - **(2015)** [fedoralovespython.org 🌟](https://fedoralovespython.org) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Specialized guide highlighting Python integration within Fedora and Red Hat Linux distributions. Demonstrates system-level binary dependencies, pip-to-rpm management, and kernel automation script packaging.
 #### Resource Curation
 
-  - **(2014)** [==Awesome Python 🌟==](https://github.com/vinta/awesome-python) <span class='md-tag md-tag--info'>⭐ 302814</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The quintessential curated directory indexing thousands of top-tier Python packages, libraries, frameworks, and tools across data science, web development, containerization, and networking.
+  - **(2014)** [==Awesome Python 🌟==](https://github.com/vinta/awesome-python) <span class='md-tag md-tag--info'>⭐ 302822</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The quintessential curated directory indexing thousands of top-tier Python packages, libraries, frameworks, and tools across data science, web development, containerization, and networking.
 #### Server Infrastructure
 
   - **(2020)** [digitalocean.com python 🌟](https://www.digitalocean.com/community/tags/python) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Multi-layered tutorial portal offering system administration, server setup, and Django/Flask containerization guides on DigitalOcean VMs, covering production-grade Nginx configurations and daemon process control.
@@ -650,7 +650,7 @@ Live Grounding: Constructs object-oriented linked nodes, manual pointer mapping 
 
 #### Parsing
 
-  - **(2026)** [==pydantic/pydantic==](https://github.com/pydantic/pydantic) <span class='md-tag md-tag--info'>⭐ 28023</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: The absolute industry standard data enforcement framework utilizing type annotation structures.
+  - **(2026)** [==pydantic/pydantic==](https://github.com/pydantic/pydantic) <span class='md-tag md-tag--info'>⭐ 28024</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: The absolute industry standard data enforcement framework utilizing type annotation structures.
 Live Grounding: High-density Rust-compiled (V2) validation tool that guarantees strict configuration processing, extreme execution speed, and direct integration into microservice engines.
 ### Data Visualization
 
@@ -766,7 +766,7 @@ Live Grounding: Deep-dives into subclassing mechanics, resolving method chains v
 #### Static Analysis
 
   - **(2025)** [==github.com/microsoft/pyright==](https://github.com/microsoft/pyright) <span class='md-tag md-tag--info'>⭐ 15475</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight defines Pyright as Microsoft's performant static type checker for Python. Live Grounding highlights its critical importance in large-scale enterprise deployments, providing quick type verification directly inside continuous integration pipelines.
-  - **(2025)** [==Ruff==](https://github.com/astral-sh/ruff) <span class='md-tag md-tag--info'>⭐ 47967</span> <span class='md-tag md-tag--warning'>[RUST CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight introduces Ruff as an extremely fast Python linter and formatter written in Rust. Live Grounding confirms Ruff is a de facto industry standard, dramatically lowering CI run times by replacing several older style checkers with a single compiled utility.
+  - **(2025)** [==Ruff==](https://github.com/astral-sh/ruff) <span class='md-tag md-tag--info'>⭐ 47969</span> <span class='md-tag md-tag--warning'>[RUST CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight introduces Ruff as an extremely fast Python linter and formatter written in Rust. Live Grounding confirms Ruff is a de facto industry standard, dramatically lowering CI run times by replacing several older style checkers with a single compiled utility.
   - **(2024)** [**Pydeps 🌟**](https://github.com/thebjorn/pydeps) <span class='md-tag md-tag--info'>⭐ 2096</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight highlights Pydeps as a visual engine designed to diagram python import structures. Live Grounding validates its status as an excellent tool for architectural decomposition, enabling teams to trace cyclic dependencies and plan clean decoupling pathways.
 ### Python Development
 

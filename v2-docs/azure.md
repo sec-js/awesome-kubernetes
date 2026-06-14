@@ -1124,6 +1124,13 @@
 ##### Automation Resources
 
   - **(2023)** [YannickRe/msgraph-utility-scripts](https://github.com/YannickRe/msgraph-utility-scripts) <span class='md-tag md-tag--info'>⭐ 8</span> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A public repository compiling specialized utility files designed to interact with MS Graph endpoints. Facilitates typical administrator chores like account auditing and system migration tasks.
+## Infrastructure
+
+### Configuration Management
+
+#### PowerShell DSC
+
+  - **(2021)** [docs.microsoft.com: Using configuration data in DSC](https://learn.microsoft.com/en-us/powershell/dsc/configurations/configdata?view=dsc-1.1) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An official Microsoft technical reference covering the segregation of operational configuration schemas from logic execution steps inside PowerShell Desired State Configuration (DSC) frameworks.
 ## Infrastructure and Platform
 
 ### Tenant Governance (1)
@@ -1412,6 +1419,11 @@
   - **(2026)** [Azure Sandbox](https://learn.microsoft.com/en-us/azure/architecture/guide/azure-sandbox/azure-sandbox) <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly structured framework for rapidly spinning up isolated, secure development environments (sandboxes) on Azure. The architecture features pre-configured networking, automated lifecycle policies to prevent cost overrun, and mock workloads. It is perfect for developers to safely test cloud-native architectures and PoCs.
 ## Security (1)
 
+### Identity and Access (3)
+
+#### OIDC Integration
+
+  - **(2023)** [techcommunity.microsoft.com: Introduction to Azure DevOps Workload identity federation (OIDC) with Terraform](https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=09213cdc-9f30-4e82-aa6f-9b6e8d82dab3&redirect_uri=https%3A%2F%2Ftechcommunity.microsoft.com%2Ft5%2Fs%2Fauth%2Foauth2callback%2Fproviderid%2Fdefault&response_type=code&state=t32RGeYIHrLX7VZiIP5Idsc47642cGWeSnDaow_6xtt0AVO-pN2q_aKbw0Dw-5VfiAvlYRC6AjPqIjJ7tTD1oClJ2fvT9BIa-6OwFcbLVaGkbYkIAE0gmCezmGXRDrJwzJR9YyiSjnMURsQeirF4CS5A4QI2afRW2Y563huvTZiWPqnMHS5Lx_G1x1stZSViKRMJRdvOE0G-tlOGg5nQw1Q4Ie55Bqkrtp6BguyPyVA&scope=User.Read+openid+email+profile+offline_access&referer=https%3A%2F%2Ftechcommunity.microsoft.com%2Fblog%2F-%2Fintroduction-to-azure-devops-workload-identity-federation-oidc%2F3908687) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Technical guide on configuring Azure DevOps Workload Identity Federation with Terraform. Explains using OIDC to exchange short-lived federated credentials, eliminating the need to store long-lived cloud secret keys inside pipeline variables.
 ### Network Security (2)
 
 #### Azure Firewall
@@ -1514,6 +1526,13 @@
 ##### Privilege Audit
 
   - **(2020)** [commandline.ninja: Use Powershell to find windows services configured to run as another user](https://commandline.ninja/use-powershell-to-find-services-configured-to-run-as-another-user) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines an automated auditing solution leveraging custom WMI queries to locate active background services configured with custom service-account parameters rather than default LocalSystem context pools.
+## Software Engineering
+
+### CICD Platforms
+
+#### Mobile DevOps
+
+  - **(2022)** [arjavdave.com: Continuous Integration: CI/CD for iOS (Part 1)](https://arjavdave.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized technical series outlining the construction of CI/CD pipelines for Apple iOS applications. Discusses Xcode configuration frameworks, automated signing, and remote deployment to App Store Connect.
 ## Testing
 
 ### Load Testing

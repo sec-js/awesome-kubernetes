@@ -5,7 +5,6 @@
 
 ## Standard Reference
 
-  - [paloaltonetworks.com: Is Your Organization Protected Against IAM Misconfiguration Risks?](https://www.paloaltonetworks.com/blog/2020/10/cloud-iam-misconfiguration-risks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [armosec.io: Use Kubescape to check if your Kubernetes clusters are exposed to the latest K8s Symlink vulnerability (CVE-2021-25741)](https://www.armosec.io/cve-vulnerability-database)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Exploring the (lack of) security in a typical Docker and Kubernetes installation](https://www.neowin.net/news/exploring-the-lack-of-security-in-a-typical-docker-and-kubernets-installation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [securityboulevard.com: DevOps vs. DevSecOps – Here’s How They Fit Together](https://securityboulevard.com/2021/02/devops-vs-devsecops-heres-how-they-fit-together)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -74,7 +73,6 @@
   - [hashicorp.com: Announcing HashiCorp Vault 1.8](https://www.hashicorp.com/blog/vault-1-8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hashicorp.com: A Kubernetes User's Guide to HashiCorp Nomad Secret Management](https://www.hashicorp.com/blog/a-kubernetes-user-s-guide-to-hashicorp-nomad-secret-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hashicorp.com: HashiCorp Vault Use Cases and Best Practices on Azure](https://www.hashicorp.com/blog/hashicorp-vault-use-cases-and-best-practices-on-azure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Install Hashicorp Vault on Kubernetes using Helm - Part 1 |' Marco Franssen](https://marcofranssen.nl/install-hashicorp-vault-on-kubernetes-using-helm-part-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hashicorp.com: Integrating Azure AD Identity with HashiCorp Vault — Part' 1: Azure Application Auth via OIDC](https://www.hashicorp.com/blog/integrating-azure-ad-identity-hashicorp-vault-part-1-application-auth-oidc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@pratyush.mathur: Secrets Management Using Vault in K8S](https://medium.com/@pratyush.mathur/secrets-management-using-vault-in-k8s-272462c37fd8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hashicorp.com: Kubernetes Vault Integration via Sidecar Agent Injector vs.' CSI Provider](https://www.hashicorp.com/blog/kubernetes-vault-integration-via-sidecar-agent-injector-vs-csi-provider)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -742,7 +740,7 @@
   - **(2023)** [**cloud.google.com: Analyze secrets with Cloud Asset Inventory**](https://docs.cloud.google.com/secret-manager/docs/analyze-resources) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Introduces GCP-native tools and asset inventories designed to analyze and scan resource metadata for exposed secrets. Helps security teams audit access control policies, verify Secret Manager integration parameters, and enforce organizational IAM constraints dynamically.
 #### GitOps Encrypted Secrets
 
-  - **(2026)** [==sops: Simple and flexible tool for managing secrets 🌟==](https://github.com/getsops/sops) <span class='md-tag md-tag--info'>⭐ 22091</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An essential open-source tool for file-level encryption inside configuration management pipelines. SOPS supports partial file encryption for formats like YAML, JSON, and ENV, integrating natively with AWS KMS, GCP KMS, Azure Key Vault, HashiCorp Vault, age, and PGP. It is highly valued in GitOps workflows for its ability to securely commit encrypted configurations.
+  - **(2026)** [==sops: Simple and flexible tool for managing secrets 🌟==](https://github.com/getsops/sops) <span class='md-tag md-tag--info'>⭐ 22092</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An essential open-source tool for file-level encryption inside configuration management pipelines. SOPS supports partial file encryption for formats like YAML, JSON, and ENV, integrating natively with AWS KMS, GCP KMS, Azure Key Vault, HashiCorp Vault, age, and PGP. It is highly valued in GitOps workflows for its ability to securely commit encrypted configurations.
   - **(2020)** [**thorsten-hans.com: Encrypt your Kubernetes Secrets with Mozilla SOPS**](https://www.thorsten-hans.com/encrypt-your-kubernetes-secrets-with-mozilla-sops) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A hands-on technical walkthrough for using Mozilla SOPS to securely encrypt Kubernetes Secrets manifests before committing them to VCS. Perfect for engineers implementing secure GitOps strategies with ArgoCD or FluxCD.
 #### HashiCorp Vault
 
@@ -936,8 +934,8 @@
   - **(2026)** [==deepfence/ThreatMapper 🌟==](https://github.com/deepfence/ThreatMapper) <span class='md-tag md-tag--info'>⭐ 5278</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — ThreatMapper is an open-source Cloud Native Application Protection Platform (CNAPP) designed by Deepfence. It maps runtime behaviors to trace attack paths across networks and registries, highlighting vulnerable exposed services. This tool helps security teams prioritize remediation efforts based on actual threat exposure.
 #### Container Scanning
 
-  - **(2026)** [==Clair==](https://github.com/quay/clair) <span class='md-tag md-tag--info'>⭐ 11011</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly scalable, API-driven container vulnerability static analysis engine. Clair analyzes image layers against indexed vulnerability databases and is integrated as a core scanning backend in enterprise-grade container registries like Quay and Harbor.
-  - **(2026)** [==trivy==](https://github.com/aquasecurity/trivy) <span class='md-tag md-tag--info'>⭐ 36430</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Aqua Security's Trivy is an exceptionally fast, highly versatile security scanner for containers, IaC configurations, and software vulnerabilities. Known for its streamlined caching, wide packaging-format support, and outstanding CI integration. It is universally adopted as a de facto container validation tool in secure software pipelines.
+  - **(2026)** [==Clair==](https://github.com/quay/clair) <span class='md-tag md-tag--info'>⭐ 11012</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly scalable, API-driven container vulnerability static analysis engine. Clair analyzes image layers against indexed vulnerability databases and is integrated as a core scanning backend in enterprise-grade container registries like Quay and Harbor.
+  - **(2026)** [==trivy==](https://github.com/aquasecurity/trivy) <span class='md-tag md-tag--info'>⭐ 36431</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Aqua Security's Trivy is an exceptionally fast, highly versatile security scanner for containers, IaC configurations, and software vulnerabilities. Known for its streamlined caching, wide packaging-format support, and outstanding CI integration. It is universally adopted as a de facto container validation tool in secure software pipelines.
   - **(2026)** [Anchore](https://anchore.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main enterprise platform hub of Anchore. Provides automated Software Bill of Materials (SBOM) generation, continuous image vulnerability assessment, and policy enforcement engines. Vital for organizations seeking to inject continuous risk modeling and compliance gates into cloud-native supply chains.
   - **(2022)** [sysdig.com: Top vulnerability assessment and management best practices](https://www.sysdig.com/blog/vulnerability-assessment) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical guide on establishing vulnerability management practices across container registries and active Kubernetes runtimes. Highlights using distroless images, automating build blocks on critical CVE discoveries, and running runtime drift detection to track package modifications.
   - **(2021)** [thenewstack.io: Anchore: Scan Your Container Images for Vulnerabilities from the Command Line](https://thenewstack.io/anchore-scan-your-container-images-for-vulnerabilities-from-the-command-line) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains utilizing Anchore's command-line interfaces to run comprehensive security and configuration audits on local container images. Focuses on deep extraction of system dependencies, library structures, and misconfigurations, showing how to identify risks prior to pushing images into registries.
@@ -959,9 +957,49 @@
 #### Modern Secrets Paradigms
 
   - **(2021)** [thenewstack.io: Reasons to Implement HashiCorp Vault and Other Zero Trust Tools](https://thenewstack.io/reasons-to-implement-hashicorp-vault-and-other-zero-trust-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the business and architectural drivers behind implementing HashiCorp Vault as part of a comprehensive Zero Trust strategy. Details how organizations eliminate static credentials, leverage short-lived dynamic credentials, and decouple trust from traditional network perimeters to establish identity-driven runtime security.
+## Security and Compliance
+
+### Automated Security Remediation
+
+#### Ansible and CyberArk
+
+  - **(2021)** [ansible.com: Automating Security with CyberArk and Red Hat Ansible Automation Platform](https://www.redhat.com/en/blog/automating-security-with-cyberark-and-red-hat-ansible-automation-platform) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights patterns for automated incident remediation and threat response using CyberArk security profiles triggered by Ansible playbooks. Details dynamic credential rotation and rapid privilege revocation scenarios under active security events. Provides an enterprise-grade framework for unifying dev-sec-ops monitoring with automated compliance enforcement.
+### CICD Security (1)
+
+#### Penetration Testing (1)
+
+  - **(2021)** [research.nccgroup.com: 10 real-world stories of how we’ve compromised CI/CD pipelines](https://www.nccgroup.com/research) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Case-study driven review from NCC Group outlining real-world exploits used to compromise continuous delivery channels. Common vectors include poorly protected secrets, dependency confusion attacks, and unauthenticated pipeline runners. This security research highlights the critical importance of runtime monitoring and pipeline isolation to prevent supply-chain compromises.
+### Cloud Security (1)
+
+#### Identity and Access Management (2)
+
+  - **(2020)** [paloaltonetworks.com: Is Your Organization Protected Against IAM Misconfiguration Risks?](https://www.paloaltonetworks.com/blog/2020/10/cloud-iam-misconfiguration-risks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the critical risks of overly permissive and misconfigured cloud IAM policies across multi-cloud topologies. Details security mechanisms to audit privilege escalation, enforce the principle of least privilege, and perform automated continuous IAM posture validation. Live grounding highlights these practices as foundational pillars within Palo Alto's Prisma Cloud CNAPP stack.
+### Container Security (1)
+
+#### Runtime Observability
+
+  - **(2022)** [dynatrace.com: Container security: What it is, why it’s tricky, and how to do it right](https://www.dynatrace.com/knowledge-base/container-security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the unique security paradigms of ephemeral cloud containers, emphasizing kernel namespace segregation and runtime vulnerability identification. Demonstrates how modern observability platforms injection agents to dynamically monitor behavior and block suspicious system calls. Perfect for architects defining proactive threat prevention strategies.
+### Infrastructure as Code (3)
+
+#### IaC Security
+
+  - **(2021)** [about.gitlab.com: Fantastic Infrastructure as Code security attacks and how to find them](https://about.gitlab.com/blog/fantastic-infrastructure-as-code-security-attacks-and-how-to-find-them) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Identifies attack vectors in Infrastructure as Code (IaC) configurations such as Terraform and CloudFormation, focusing on credential leakage and loose firewall definitions. Outlines automated detection workflows using static analysis tools like Kics, TFLint, and GitLab's built-in SAST scanners. Crucial for embedding preventative controls directly within continuous delivery workflows.
+### Secrets Management (1)
+
+#### Ansible and CyberArk (1)
+
+  - **(2021)** [ansible.com: Simplifying secrets management with CyberArk and Red Hat Ansible Automation Platform](https://www.redhat.com/en/blog/simplifying-secrets-management-with-cyberark-and-red-hat-ansible-automation-platform) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the integration of CyberArk Conjur with the Red Hat Ansible Automation Platform to secure dynamic configurations. Demonstrates how Ansible playbooks can fetch secrets at runtime without hardcoding sensitive strings, mitigating credentials sprawl. This collaboration optimizes audit capabilities and identity assertion within enterprise infrastructure operations.
+#### HashiCorp Vault (1)
+
+  - **(2021)** [medium: Install Hashicorp Vault on Kubernetes using Helm - Part 1 |' Marco Franssen](https://marcofranssen.nl/install-hashicorp-vault-on-kubernetes-using-helm-part-1) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive walkthrough demonstrating how to install and configure HashiCorp Vault inside a Kubernetes cluster using the official Helm chart. Explores setting up Raft storage backend, initializing the Vault transit seal, and configuring secure pod configurations. An excellent technical reference for establishing a reliable, self-hosted secret engine in cloud environments.
+### Vulnerability Scanning (3)
+
+#### Grype and GitLab
+
+  - **(2021)** [about.gitlab.com: How to secure your container images with GitLab and Grype](https://about.gitlab.com/blog/secure-container-images-with-gitlab-and-grype)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Step-by-step implementation guide to running Grype vulnerability scanner inside a GitLab CI/CD pipeline. Demonstrates configuration flags to parse container filesystems, output standardized SBOM reports, and fail builds on severe vulnerabilities. This design secures the build supply chain before container artifacts reach production registries.
 ## Security and Governance
 
-### Cloud Security (1)
+### Cloud Security (2)
 
 #### Data Sovereignty
 
@@ -969,7 +1007,7 @@
 #### Misconfiguration Prevention
 
   - **(2021)** [redeszone.net: No configurar bien la nube es culpable de la mayoría de vulnerabilidades](https://www.redeszone.net/noticias/seguridad/configurar-mal-nube-vulnerabilidades) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Spanish-language technical article validating that improper cloud asset configuration represents the primary cause of modern cloud breaches. Emphasizes the critical necessity of using static IaC code validation to detect leaky resources prior to pipeline execution.
-### Container Security (1)
+### Container Security (2)
 
 #### Industry Trends (1)
 

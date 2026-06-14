@@ -262,6 +262,23 @@
 #### Interoperability
 
   - **(2026)** [==Telegraf Prometheus Output Plugin==](https://github.com/influxdata/telegraf/tree/master/plugins/outputs/prometheus_client) <span class='md-tag md-tag--info'>⭐ 17615</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Source code and implementation guide for Telegraf's Prometheus output integration. Allows standard push-based collection architectures to export telemetry data via a pull-based scraping API.
+### Monitoring
+
+#### IoT Observability
+
+  - **(2023)** [grafana.com: Using Telegraf plugins to visualize industrial IoT data with the Grafana Cloud Hosted Prometheus service](https://grafana.com/blog/using-telegraf-plugins-to-visualize-industrial-iot-data-with-the-grafana-cloud-hosted-prometheus-service) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates pipeline setups connecting InfluxData's Telegraf collectors to Grafana Cloud. Explains parsing MQTT or Modbus industrial machinery telemetry feeds and transforming them into Prometheus-compliant timeseries data.
+#### Metrics Collection
+
+  - **(2024)** [Prometheus](https://nubenetes.com/prometheus/#aws-managed-services-for-prometheus-and-grafana) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Prometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud. It utilizes a pull-based metrics collection model over HTTP, powered by a highly efficient dimensional data model (TSDB) with PromQL. Essential for Kubernetes cloud-native environments, it excels in dynamic service discovery and real-time operational visibility.
+#### Prometheus Agent
+
+  - **(2022)** [grafana.com: Why we created a Prometheus Agent mode from the Grafana Agent](https://grafana.com/blog/why-we-created-a-prometheus-agent-mode-from-the-grafana-agent) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the technical reasoning for deploying Prometheus in Agent Mode instead of as a full collector database. Explains memory savings, localized caching patterns, and metrics forwarding via standard Remote Write protocols.
+#### Prometheus Getting Started
+
+  - **(2023)** [grafana.com: Get started with Prometheus with these three easy projects](https://grafana.com/blog/get-started-with-prometheus-with-these-three-easy-projects)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A hands-on, multi-project tutorial designed to build core competencies with Prometheus metrics collections, PromQL search syntax, and standard Node Exporter integrations.
+#### Prometheus Meta-Monitoring
+
+  - **(2023)** [grafana.com: How we use metamonitoring Prometheus servers to monitor all other Prometheus servers at Grafana Labs](https://grafana.com/blog/how-we-use-metamonitoring-prometheus-servers-to-monitor-all-other-prometheus-servers-at-grafana-labs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-performance monitoring case study from Grafana Labs. Illustrates the architectural pattern of metamonitoring, utilizing dedicated Prometheus servers to watch, query, and alert on larger global telemetry networks.
 ### Monitoring Integrations
 
 #### Database Monitoring (1)

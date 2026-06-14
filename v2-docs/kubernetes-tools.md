@@ -181,7 +181,7 @@
   - **(2021)** [==sheaf==](https://github.com/bryanl/sheaf) <span class='md-tag md-tag--info'>⭐ 30</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A packaging utility designed to compile Kubernetes application manifests and associated container image layers into standalone relocatable archives. Crucial for provisioning air-gapped systems or on-prem environments. The project is archived, with users directed to standard solutions like Carvel or Helm.
 #### Developer Platforms
 
-  - **(2022)** [acorn-io/acorn](https://github.com/obot-platform/obot) <span class='md-tag md-tag--info'>⭐ 828</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Acorn, which evolved towards the Obot platform under its maintainers, is a container-native application deployment framework. It simplifies standard Kubernetes complexity, packaging microservices, networks, and storage into clean, self-contained runtimes.
+  - **(2022)** [acorn-io/acorn](https://github.com/obot-platform/obot) <span class='md-tag md-tag--info'>⭐ 829</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Acorn, which evolved towards the Obot platform under its maintainers, is a container-native application deployment framework. It simplifies standard Kubernetes complexity, packaging microservices, networks, and storage into clean, self-contained runtimes.
 #### SaaS Provisioning
 
 ##### Operators
@@ -534,7 +534,7 @@
 
 #### CDK8s
 
-  - **(2026)** [==cdk8s==](https://github.com/cdk8s-team/cdk8s) <span class='md-tag md-tag--info'>⭐ 4822</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The GitHub repository containing the core source code for CDK8s. It allows developers to model Kubernetes resources as structured code in TypeScript, Python, Java, or Go. It features full support for custom-generated CRDs, letting platform teams build clean, reusable configuration libraries.
+  - **(2026)** [==cdk8s==](https://github.com/cdk8s-team/cdk8s) <span class='md-tag md-tag--info'>⭐ 4823</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The GitHub repository containing the core source code for CDK8s. It allows developers to model Kubernetes resources as structured code in TypeScript, Python, Java, or Go. It features full support for custom-generated CRDs, letting platform teams build clean, reusable configuration libraries.
 ## Configuration Management (2)
 
 ### Declarative GitOps
@@ -584,7 +584,7 @@
 
 #### Cloud Emulation
 
-  - **(2024)** [==Floci - An AWS Local Emulator Alternative==](https://github.com/floci-io/floci) <span class='md-tag md-tag--info'>⭐ 14061</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An active and highly performant local alternative to localstack. Emulates AWS cloud service behavior locally using specialized lightweight container footprints.
+  - **(2024)** [==Floci - An AWS Local Emulator Alternative==](https://github.com/floci-io/floci) <span class='md-tag md-tag--info'>⭐ 14063</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An active and highly performant local alternative to localstack. Emulates AWS cloud service behavior locally using specialized lightweight container footprints.
 ## Continuous Integration and Delivery
 
 ### Cloud Native CI-CD
@@ -938,7 +938,7 @@
 
 #### Developer Productivity (1)
 
-  - **(2021)** [==github.com/Wilfred/difftastic==](https://github.com/Wilfred/difftastic) <span class='md-tag md-tag--info'>⭐ 25488</span> <span class='md-tag md-tag--warning'>[RUST CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Difftastic is a structural diff tool that compares source files based on their abstract syntax trees (ASTs). For platform teams, it filters out noise like formatting shifts in Kubernetes manifests and highlights genuine semantic changes. It dramatically increases review speeds for complex changes.
+  - **(2021)** [==github.com/Wilfred/difftastic==](https://github.com/Wilfred/difftastic) <span class='md-tag md-tag--info'>⭐ 25487</span> <span class='md-tag md-tag--warning'>[RUST CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Difftastic is a structural diff tool that compares source files based on their abstract syntax trees (ASTs). For platform teams, it filters out noise like formatting shifts in Kubernetes manifests and highlights genuine semantic changes. It dramatically increases review speeds for complex changes.
 #### Drift Detection
 
   - **(2021)** [==github.com/ajayk/drifter==](https://github.com/ajayk/drifter) <span class='md-tag md-tag--info'>⭐ 17</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Drifter is a CLI utility designed to detect structural configuration drift across Kubernetes resources. By comparing live running cluster states against baseline templates, it identifies configuration changes. This tool provides lightweight validation for infrastructure consistency.
@@ -1070,7 +1070,7 @@
 
 #### OCI Specification
 
-  - **(2025)** [==github.com/distribution/distribution==](https://github.com/distribution/distribution) <span class='md-tag md-tag--info'>⭐ 10469</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The Distribution project (formerly Docker Registry) is the foundational codebase implementing the OCI Distribution Specification. It powers the backbone of enterprise image registries worldwide, coordinating reliable, high-performance container manifest storage, replication, and secure transport.
+  - **(2025)** [==github.com/distribution/distribution==](https://github.com/distribution/distribution) <span class='md-tag md-tag--info'>⭐ 10470</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The Distribution project (formerly Docker Registry) is the foundational codebase implementing the OCI Distribution Specification. It powers the backbone of enterprise image registries worldwide, coordinating reliable, high-performance container manifest storage, replication, and secure transport.
 ### Multi-Cloud Provisioning
 
 #### Cluster Management (2)
@@ -1484,7 +1484,7 @@
 
 #### Observability Platform
 
-  - **(2026)** [==SigNoz: Open source Application Performance Monitoring (APM) & Observability' tool 🌟==](https://github.com/SigNoz/signoz) <span class='md-tag md-tag--info'>⭐ 27331</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive open-source APM and observability platform natively integrated with OpenTelemetry. Tracks telemetry, trace spans, metrics, and application logs in a unified, high-performance UI backed by ClickHouse. Widely recognized as a major open-source competitor to Datadog.
+  - **(2026)** [==SigNoz: Open source Application Performance Monitoring (APM) & Observability' tool 🌟==](https://github.com/SigNoz/signoz) <span class='md-tag md-tag--info'>⭐ 27333</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive open-source APM and observability platform natively integrated with OpenTelemetry. Tracks telemetry, trace spans, metrics, and application logs in a unified, high-performance UI backed by ClickHouse. Widely recognized as a major open-source competitor to Datadog.
 ### Alert Management
 
 #### Visualizers
@@ -1829,7 +1829,7 @@
   - **(2020)** [awesome-it/adeploy](https://github.com/awesome-it/adeploy) <span class='md-tag md-tag--info'>⭐ 14</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An Ansible-based automation utility designed to orchestrate early-stage Kubernetes cluster deployments. Modern production operations have entirely transitioned to Kubernetes-native platforms (e.g., Kubeadm, Cluster API) and GitOps tooling (e.g., Argo CD).
 #### Image Registry (1)
 
-  - **(2025)** [**crazy-max/diun**](https://github.com/crazy-max/diun) <span class='md-tag md-tag--info'>⭐ 4720</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Diun (Docker Image Update Notifier) is a lightweight CLI application designed to monitor Docker registries and notify team members of active image updates. With support for multiple notification backends (Slack, Telegram, Webhooks), it bridges the gap between static registry management and automated GitOps continuous integration pipelines.
+  - **(2025)** [**crazy-max/diun**](https://github.com/crazy-max/diun) <span class='md-tag md-tag--info'>⭐ 4721</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Diun (Docker Image Update Notifier) is a lightweight CLI application designed to monitor Docker registries and notify team members of active image updates. With support for multiple notification backends (Slack, Telegram, Webhooks), it bridges the gap between static registry management and automated GitOps continuous integration pipelines.
 ### Installation
 
 #### Artifact Management
@@ -2119,7 +2119,7 @@
   - **(2022)** [Exploring Kubernetes Pods with Meshery](https://docs.meshery.io/guides/tutorials/kubernetes-pods)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operational guide from the Meshery documentation focusing on managing and inspecting Kubernetes Pods within a service mesh environment. It illustrates how to leverage Meshery's visual designer to orchestrate workloads.
 #### Observability Platforms
 
-  - **(2019)** [==Meshery==](https://github.com/meshery/meshery) <span class='md-tag md-tag--info'>⭐ 10278</span> <span class='md-tag md-tag--warning'>[GO / JAVASCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Meshery is a comprehensive multi-service mesh management plane designed to provision, validate, and optimize service mesh infrastructures. Operating as a CNCF project, it supports multiple service mesh architectures from a single portal.
+  - **(2019)** [==Meshery==](https://github.com/meshery/meshery) <span class='md-tag md-tag--info'>⭐ 10279</span> <span class='md-tag md-tag--warning'>[GO / JAVASCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Meshery is a comprehensive multi-service mesh management plane designed to provision, validate, and optimize service mesh infrastructures. Operating as a CNCF project, it supports multiple service mesh architectures from a single portal.
 ### Testing Frameworks
 
 #### Automation Tools

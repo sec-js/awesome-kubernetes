@@ -381,6 +381,13 @@
 ### Workflows
 
   - **(2024)** [==github.com/Netflix/metaflow 🌟==](https://github.com/Netflix/metaflow) <span class='md-tag md-tag--info'>⭐ 10128</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Metaflow is Netflix's human-centric framework designed for building and managing production-grade data science pipelines. It seamlessly integrates local development with enterprise-scale cloud infrastructures, handling data caching, model versioning, and compute scaling automatically.
+## Software Engineering
+
+### DevOps (1)
+
+#### AI-Assisted Workflows
+
+  - **(2023)** [about.gitlab.com: How is AI/ML changing DevOps?](https://about.gitlab.com/blog/how-is-ai-ml-changing-devops) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates the evolving integration of AI and Machine Learning inside DevSecOps pipelines. Discusses automated code suggestion mechanisms, ML-driven vulnerability remediation, and predictive diagnostic models, outlining the performance gains and code-security shifts this creates inside delivery loops.
 ## Workflow Transition
 
 ### Best Practices

@@ -78,6 +78,13 @@
 #### Static Analysis
 
   - **(2020)** [**developers.redhat.com: Static analysis with KubeAudit for Red Hat OpenShift**](https://developers.redhat.com/blog/2020/10/09/static-analysis-with-kubeaudit-for-red-hat-openshift) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Walks through deploying KubeAudit to analyze deployment files for Red Hat OpenShift. Demonstrates scanning manifests for security misconfigurations, path privileges, and resource constraints before cluster deployment.
+## Security
+
+### DevSecOps
+
+#### Application Security
+
+  - **(2021)** [synopsys.com: How to integrate automated AST tools in your CI/CD pipeline](https://www.blackduck.com/blog/integrating-automated-ast-tools.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This article describes how to integrate automated Application Security Testing (AST) scanners (SAST, DAST, SCA) inside CI/CD pipelines. It explains how to establish automated quality gates to prevent vulnerable code from progressing to integration and production staging layers.
 
 ---
 💡 **Explore Related:** [DevOps](./devops.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [QA](./qa.md)

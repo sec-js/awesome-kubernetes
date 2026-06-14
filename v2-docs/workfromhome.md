@@ -3,6 +3,13 @@
 !!! info "Architectural Context"
     Detailed reference for Work From Home in the context of Career & Industry.
 
+## Collaboration Tools
+
+### Document Management
+
+#### External Links
+
+  - **(2026)** [Google docs & Sheets](https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fdocs.google.com%2F&dsh=S20332737%3A1779029801683182&emr=1&followup=https%3A%2F%2Fdocs.google.com%2F&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AWa2PauuoeLcrRlG9wsx3FKpxmPOwZ0aEG9g04i8ZgsTyIUOHV3UzhWURaJlrxS0xYmo_YZUJM0_Rw)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Redirect link to Google Docs and Sheets login portal, commonly utilized by operations and product teams for maintaining functional specification spreadsheets and collaborative dynamic documentation.
 ## DevOps
 
 ### Culture

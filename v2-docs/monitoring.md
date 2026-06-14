@@ -96,7 +96,7 @@
 
 #### Agent Frameworks
 
-  - **(2026)** [==Huginn==](https://github.com/huginn/huginn) <span class='md-tag md-tag--info'>⭐ 49467</span> <span class='md-tag md-tag--warning'>[RUBY CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly versatile open-source system designed for orchestrating automated web-scraping, webhook handling, and event-driven tasks. In 2026, Huginn serves as a vital tool for engineers seeking a self-hosted, deterministic agent network to automate security and integration pipelines.
+  - **(2026)** [==Huginn==](https://github.com/huginn/huginn) <span class='md-tag md-tag--info'>⭐ 49468</span> <span class='md-tag md-tag--warning'>[RUBY CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly versatile open-source system designed for orchestrating automated web-scraping, webhook handling, and event-driven tasks. In 2026, Huginn serves as a vital tool for engineers seeking a self-hosted, deterministic agent network to automate security and integration pipelines.
 ## Business Strategy
 
 ### Management
@@ -177,6 +177,11 @@
 #### Performance Engineering
 
   - **(2021)** [Tutorial: Guide to automated SRE-driven performance engineering 🌟](https://www.dynatrace.com/news/blog/guide-to-automated-sre-driven-performance-engineering-analysis) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural guide detailing how to build automated SRE gates within delivery pipelines. This strategy emphasizes defining Service Level Objectives (SLOs) early. In 2026, this is increasingly automated using GitOps control loops like Keptn to continuously analyze deployment performance metrics.
+### Serverless (1)
+
+#### AWS Lambda Monitoring
+
+  - **(2021)** [dynatrace.com: A look behind the scenes of AWS Lambda and our new Lambda monitoring extension](https://www.dynatrace.com/knowledge-base/aws-lambda) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Dynatrace's AWS Lambda extension leverages the AWS Lambda Telemetry API to collect execution-level metrics, logs, and cold-start details with minimal execution overhead. The extension collects trace data from the execution environment asynchronously, preventing monitoring latency from impacting client response times. This offers complete end-to-end transaction tracing from API Gateways through serverless compute to downstream databases.
 ## Container Orchestration
 
 ### Containers
@@ -250,6 +255,13 @@
 ### Time Series Databases
 
   - **(2026)** [==TDengine==](https://github.com/taosdata/TDengine) <span class='md-tag md-tag--info'>⭐ 24903</span> <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source time-series database optimized specifically for IoT and telemetry data storage. Utilizing a unique 'one table per data source' structure, TDengine offers extremely fast writing speeds and high-efficiency query execution, challenging traditional solutions in 2026.
+## Data Stores
+
+### Elasticsearch
+
+#### Performance Tuning
+
+  - **(2022)** [blog.bigdataboutique.com: Tuning Elasticsearch: The Ideal Java Heap Size](https://bigdataboutique.com/blog/tuning-elasticsearch-the-ideal-java-heap-size-2toq2j) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This technical guide details memory allocation strategies for JVM-based Elasticsearch nodes. It focuses on the critical rule of thumb of setting JVM heap sizes to 50% of available physical RAM (capping at 32GB to avoid breaking compressed ordinary object pointers / OOPs) while leaving the remainder for OS file system caching. Correct heap configuration directly prevents garbage collection pauses and OOM crashes in high-throughput indexing setups.
 ## DevOps
 
 ### Automation (1)
@@ -344,9 +356,17 @@
 
 #### Resources
 
-  - **(2026)** [==Awesome Sysadmin==](https://github.com/awesome-foss/awesome-sysadmin) <span class='md-tag md-tag--info'>⭐ 34273</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exhaustive curation of open-source sysadmin resources, listing production-ready system monitors, configuration management tools, security suites, and virtualization frameworks used globally by SREs.
+  - **(2026)** [==Awesome Sysadmin==](https://github.com/awesome-foss/awesome-sysadmin) <span class='md-tag md-tag--info'>⭐ 34276</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exhaustive curation of open-source sysadmin resources, listing production-ready system monitors, configuration management tools, security suites, and virtualization frameworks used globally by SREs.
 ## Observability (8)
 
+### APM (1)
+
+#### Analysis
+
+  - **(2022)** [dynatrace.com: Why conventional observability fails in Kubernetes environments—A real-world use case 🌟](https://www.dynatrace.com/news/blog)  <span class='md-tag md-tag--info'>[LEGACY]</span> — This analysis explores why legacy, non-topological monitoring tools fail in dynamic, highly ephemeral Kubernetes architectures. It highlights the necessity of real-time topology mapping and automated entity correlation to avoid alert fatigue during cascade failures. Standard static dashboard approaches are contrasted with causal, AI-driven monitoring models.
+#### Commercial Observability
+
+  - **(2023)** [dynatrace.com: Dynatrace monitoring for Kubernetes and OpenShift](https://www.dynatrace.com/technologies/kubernetes-monitoring) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This product reference explains Dynatrace's AI-driven observability agent, OneAgent, customized for Kubernetes and Red Hat OpenShift. By leveraging automatic injection at the container layer, it delivers full-stack trace and metric collection without manual code changes or pod sidecars. The Davis AI engine processes this topological data to automate root-cause analysis for microservice anomalies.
 ### APM and Logging
 
 #### Application Performance Monitoring
@@ -368,7 +388,7 @@
 
 #### Observability Platform
 
-  - **(2026)** [==SigNoz: Open source Application Performance Monitoring (APM) & Observability' tool 🌟==](https://github.com/SigNoz/signoz) <span class='md-tag md-tag--info'>⭐ 27331</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive open-source APM and observability platform natively integrated with OpenTelemetry. Tracks telemetry, trace spans, metrics, and application logs in a unified, high-performance UI backed by ClickHouse. Widely recognized as a major open-source competitor to Datadog.
+  - **(2026)** [==SigNoz: Open source Application Performance Monitoring (APM) & Observability' tool 🌟==](https://github.com/SigNoz/signoz) <span class='md-tag md-tag--info'>⭐ 27333</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive open-source APM and observability platform natively integrated with OpenTelemetry. Tracks telemetry, trace spans, metrics, and application logs in a unified, high-performance UI backed by ClickHouse. Widely recognized as a major open-source competitor to Datadog.
 ### Application Monitoring
 
 #### .NET Core
@@ -515,6 +535,19 @@
 #### Metrics Comparison
 
   - **(2023)** [timescale.com: Prometheus vs. OpenTelemetry Metrics: A Complete Guide](https://www.tigerdata.com/blog/prometheus-vs-opentelemetry-metrics-a-complete-guide) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a comprehensive architectural comparison between Prometheus metric collection (pull-based, PromQL-native) and OpenTelemetry (push-based OTLP, multi-signal trace correlation). Guides technical architects on choosing the appropriate framework or blending them in a hybrid topology.
+### Tracing
+
+#### Distributed Tracing (3)
+
+  - **(2021)** [grafana.com: A beginner's guide to distributed tracing and how it can increase an application's performance 🌟](https://grafana.com/blog/a-beginners-guide-to-distributed-tracing-and-how-it-can-increase-an-applications-performance)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This introductory guide outlines the foundational mechanics of distributed tracing, exploring how request lifecycles are visualized using traces, spans, and parent-child span relationships. It clarifies how tracing correlates disjointed events across multi-service boundaries, enabling developers to detect latency bottlenecks and optimize microservice architectures.
+#### Grafana Tempo
+
+  - **(2020)** [grafana.com: Announcing Grafana Tempo, a massively scalable distributed tracing system 🌟](https://grafana.com/blog/announcing-grafana-tempo-a-massively-scalable-distributed-tracing-system) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Grafana Tempo is an open-source, high-scale, easy-to-use, and cost-effective distributed tracing backend. Designed to require only object storage (like S3 or GCS) to operate, it eliminates the operational overhead and high costs of running complex indexes via Elasticsearch or Cassandra. Tempo integrates deeply with Grafana, Prometheus, and Loki, enabling seamless correlation between logs, metrics, and traces.
+### Visualization
+
+#### Dashboards
+
+  - **(2024)** [Grafana](https://nubenetes.com/grafana/) <span class='md-tag md-tag--warning'>[GO/TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Grafana is the industry-standard multi-platform open-source analytics and interactive visualization web application. It supports query, visualization, alerting, and analysis of metrics, logs, and traces from diverse backends (Prometheus, Elasticsearch, Loki, Jaeger). Its pluggable architecture allows organizations to build unified operational dashboards across heterogeneous data layers.
 ## Observability and Monitoring
 
 ### Application Performance Monitoring (1)
@@ -526,7 +559,7 @@
 
 #### Uptime-Kuma
 
-  - **(2021)** [==louislam/uptime-kuma==](https://github.com/louislam/uptime-kuma) <span class='md-tag md-tag--info'>⭐ 87987</span> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly popular self-hosted synthetic monitoring tool written in Node.js. It features multi-protocol ping, HTTP/TCP checks, certificate monitoring, integration with multi-channel alert providers, and highly intuitive dashboards, serving as a lightweight alternative to commercial APM and uptime tools.
+  - **(2021)** [==louislam/uptime-kuma==](https://github.com/louislam/uptime-kuma) <span class='md-tag md-tag--info'>⭐ 87988</span> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly popular self-hosted synthetic monitoring tool written in Node.js. It features multi-protocol ping, HTTP/TCP checks, certificate monitoring, integration with multi-channel alert providers, and highly intuitive dashboards, serving as a lightweight alternative to commercial APM and uptime tools.
 ## Performance Engineering (1)
 
 ### Profiling
@@ -571,7 +604,7 @@
   - **(2022)** [dashbird.io: Monitoring vs Observability: Can you tell the difference? 🌟](https://dashbird.io/blog/monitoring-vs-observability)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the divergence of monitoring and observability, specifically within the context of serverless architectures (AWS Lambda). Focuses on cold starts, API Gateway timeouts, and distributed event-driven systems. Curator Insight: Serverless perspective on observability. Live Grounding: Demonstrates how standard infrastructure agent models fall short when managing dynamic ephemerality.
 #### Theory
 
-##### APM (1)
+##### APM (2)
 
   - **(2023)** [dynatrace.com: What is observability? Not just logs, metrics and traces](https://www.dynatrace.com/news/blog/what-is-observability-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Expands the definition of observability beyond simple logs, metrics, and tracing, arguing for contextual topology maps, automatic root-cause identification, and continuous profiling. Curator Insight: Vendor-informed perspective on next-gen APM. Live Grounding: Emphasizes the need for automated graph topology representations over pure telemetry pipelines.
 ##### Monitoring vs Observability (1)

@@ -3,10 +3,6 @@
 !!! info "Architectural Context"
     Detailed reference for Cloud Asset Inventory in the context of Architectural Foundations.
 
-## Standard Reference
-
-  - [CloudCanvas - Diagramming for Cloud Infrastructure](https://cloudcanvas.co)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-
 ## Cloud Infrastructure and Orchestration
 
 ### Asset Management and Governance
@@ -20,6 +16,13 @@
 #### Distributed Block Storage
 
   - **(2026)** [==Ceph: A Distributed Object, Block, and File Storage Platform==](https://github.com/ceph/ceph) <span class='md-tag md-tag--info'>⭐ 16707</span> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An enterprise-grade, highly scalable distributed storage ecosystem providing object, block, and file system storage on a single unified cluster. Widely adopted as the primary storage layer backing cloud platforms and Kubernetes orchestration (Rook-Ceph).
+## Infrastructure as Code
+
+### Architecture
+
+#### Diagrams
+
+  - **(2024)** [CloudCanvas - Diagramming for Cloud Infrastructure](https://cloudcanvas.co) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> — CloudCanvas is an emerging interactive workspace tool tailored for designing cloud topologies and auto-generating infrastructure-as-code manifests. By linking architectural nodes directly to API-driven configurations, it helps bridge the gap between architectural diagramming and operational execution.
 
 ---
 💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)

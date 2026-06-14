@@ -111,6 +111,11 @@
 #### IDE Integrations
 
   - **(2025)** [Google Cloud Code](https://cloud.google.com/code) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A powerful suite of IDE plugins (VS Code, IntelliJ) designed to accelerate development of cloud-native systems on GCP. Curator highlights focus on debugging Kubernetes clusters directly from local workstations. Live engineering teams use Cloud Code to minimize the gap between local code changes and GCP deployment environments, driving faster development feedback loops.
+### Google Cloud Platform (1)
+
+#### Product Catalog
+
+  - **(2026)** [console.cloud.google.com/products](https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fconsole.cloud.google.com%2Fproducts&dsh=S-837258255%3A1779033921742301&followup=https%3A%2F%2Fconsole.cloud.google.com%2Fproducts&osid=1&passive=1209600&service=cloudconsole&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AWa2PavdLijoZE8HgBUBXNoU1YfsOf-olUjJ8JfmhFG_0QoTjdDv1sVmFwi8Eo6EXbpyWStjzuTRaQ) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The comprehensive management control plane for Google Cloud Platform (GCP) services, showcasing serverless runtimes, managed databases, and enterprise networking. It provides native Kubernetes (GKE), AI services, and IAM frameworks to construct highly available applications. Curated portal access maps directly to programmatic infrastructure control and cloud service catalogs.
 ### High Availability
 
 #### Architecture
@@ -177,7 +182,7 @@
 
 ### GCP
 
-#### Product Catalog
+#### Product Catalog (1)
 
   - **(2026)** [**googlecloudcheatsheet.withgoogle.com: Google Cloud Developer cheat sheet**](https://cloud.google.com/products) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Google's official product portal mapping its enterprise suite of cloud computing, data analytics, and machine learning services. Serves as a primary reference for system architects evaluating Google's managed offerings, providing documentation and pathing for product integration.
 ### Google Kubernetes Engine GKE
@@ -240,6 +245,13 @@
 #### Terraform
 
   - **(2021)** [cloud.google.com: Declarative Export. Build your perfect Google Cloud infrastructure using Terraform and the gcloud CLI](https://cloud.google.com/blog/products/application-development/google-cloud-cli-declarative-export-preview) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines the gcloud CLI declarative export feature, allowing operators to automatically translate active GCP live resource states into production-ready Terraform configurations or Kubernetes Config Connector manifests.
+## DevSecOps
+
+### CICD Pipelines (1)
+
+#### Hybrid Cloud Architecture
+
+  - **(2022)** [A hybrid cloud-native DevSecOps pipeline with JFrog Artifactory and GKE on-prem 🌟](https://docs.cloud.google.com/architecture) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Architectural reference for constructing a hybrid DevSecOps pipeline integrating JFrog Artifactory with GKE on-prem (Anthos/Google Distributed Cloud). It focuses on secure container image lifecycle management, automated vulnerability scanning, and binary promotion across hybrid control planes. This blueprint ensures consistent compliance and minimal latency for high-throughput enterprise deployments.
 ## DevSecOps and IDEs
 
 ### Google Cloud Code

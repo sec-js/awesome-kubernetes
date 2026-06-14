@@ -108,6 +108,26 @@
 #### Cloud Native (1)
 
   - **(2023)** [groundcover.com: Cloud-native CI/CD? Yeah, that’s a thing 🌟](https://www.groundcover.com/blog/ci-cd-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the shift to Kubernetes-native continuous delivery models. Compares Tekton and declarative GitOps runtimes like Argo CD and Flux to highlight the safety benefits of in-cluster loops.
+## Continuous Delivery (1)
+
+### CICD and Testing
+
+#### Pipeline as Code
+
+  - **(2022)** [testguild.com: Pipeline as Code with Mohamed Labouardy](https://testguild.com/podcast/a345-mohamed) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Podcast episode reviewing the strategic transition to declarative configuration pipelines (Pipeline as Code). Emphasizes integration of automated compliance scanning, container vulnerability reports, and regression testing suites.
+### CICD Best Practices
+
+#### Learning Paths
+
+  - **(2023)** [about.gitlab.com: How to learn CI/CD fast](https://about.gitlab.com/blog/how-to-learn-ci-cd-fast) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Tactical guide establishing a rapid, practice-centric training program to master continuous delivery fundamentals. Walks through setting up simple multi-stage build pipelines, lint checks, test suites, and Docker deployment actions.
+#### Overview
+
+  - **(2023)** [**about.gitlab.com: How to keep up with CI/CD best practices**](https://about.gitlab.com/blog/how-to-keep-up-with-ci-cd-best-practices) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Synthesis of modern continuous integration frameworks, emphasizing pipeline standardization, artifact isolation, and fast feedback loops. Discusses optimization of runner resource footprints and build steps parallelization.
+### Deployment Strategies
+
+#### Blue-Green and Canary
+
+  - **(2024)** [==harness.io: Intro to Deployment Strategies: Blue-Green, Canary, and More 🌟==](https://www.harness.io/blog/blue-green-canary-deployment-strategies) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Highly detailed structural evaluation of Kubernetes deployment paradigms. Contrasts blue-green switches, canary rollouts, and rolling deployments based on system overhead, traffic redirection latency, and blast-radius containment.
 ## Deployment and Delivery
 
 ### CICD and Delivery
@@ -136,9 +156,9 @@
 #### Resource Portals
 
   - **(2025)** [Awesome CI/CD 🌟](https://github.com/cicdops/awesome-ciandcd) <span class='md-tag md-tag--info'>⭐ 1999</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An extensive curated list capturing modern DevOps platforms, delivery engines, automated linting, security scanning, and container validation tools, acting as a foundational technical index for engineering teams.
-### Deployment Strategies
+### Deployment Strategies (1)
 
-#### Blue-Green and Canary
+#### Blue-Green and Canary (1)
 
   - **(2023)** [blog.container-solutions.com: Deployment Strategies 🌟](https://blog.container-solutions.com/deployment-strategies)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — In-depth guide comparing core deployment topologies: recreate, rolling update, blue/green, canary, and shadow. Focuses on the trade-offs of budget, state management, infrastructure replication overhead, and traffic routing mechanisms.
   - **(2023)** [opsmx.com: What is Blue Green Deployment ?](https://www.opsmx.com/blog/blue-green-deployment)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory primer defining the operational mechanics of blue-green architectures. Focuses on setting up mirrored hosting environments, routing configurations, and robust database rollback plans.
@@ -212,7 +232,7 @@
 #### Kubernetes Orchestration
 
   - **(2021)** [devopsdigest.com: CI/CD Deployments: How to Expedite Across a Kubernetes Environment With DevOps Orchestration](https://www.devopsdigest.com/cicd-deployments-how-to-expedite-across-a-kubernetes-environment-with-devops-orchestration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Accelerating release cycles in Kubernetes environments requires modernizing the CI/CD pipeline with cloud-native orchestration techniques. By automating build, test, and container promotion workflows, teams can minimize deployment errors and configuration drift. The focus is on implementing progressive delivery strategies such as canary and blue-green deployments to de-risk production releases.
-### Continuous Delivery (1)
+### Continuous Delivery (2)
 
 #### Patterns
 
@@ -267,7 +287,7 @@
 
 #### UI Visualization
 
-  - **(2024)** [==feat(ui): Add AppSet to Application Resource Tree in Argo CD==](https://github.com/argoproj/argo-cd/pull/26601) <span class='md-tag md-tag--info'>⭐ 23126</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official Argo CD feature enhancement that maps ApplicationSets directly inside the dashboard UI tree. This view simplifies managing multi-tenant topologies and nested application definitions for platform operators.
+  - **(2024)** [==feat(ui): Add AppSet to Application Resource Tree in Argo CD==](https://github.com/argoproj/argo-cd/pull/26601) <span class='md-tag md-tag--info'>⭐ 23128</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official Argo CD feature enhancement that maps ApplicationSets directly inside the dashboard UI tree. This view simplifies managing multi-tenant topologies and nested application definitions for platform operators.
 ## Methodology (1)
 
 ### Culture
@@ -283,7 +303,7 @@
 
 ### Developer Experience
 
-#### Continuous Delivery (2)
+#### Continuous Delivery (3)
 
   - **(2023)** [thenewstack.io: Improve Dev Experience to Maximize the Business Value of CD](https://thenewstack.io/improve-dev-experience-to-maximize-the-business-value-of-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores developer experience (DevEx) as an accelerator for continuous deployment initiatives. Details how centralized developer portals and self-service pipeline catalogs eliminate delivery friction.
 ## Software Engineering

@@ -63,6 +63,13 @@
 #### Quarkus
 
   - **(2020)** [developers.redhat.com: Spring Boot to Quarkus migrations and more in Red Hat’s migration toolkit for applications 5.1.0](https://developers.redhat.com/blog/2020/12/08/spring-boot-to-quarkus-migrations-and-more-in-red-hats-migration-toolkit-for-applications-5-1-0)  <span class='md-tag md-tag--info'>[LEGACY]</span> — An exploration of Red Hat's Migration Toolkit for Applications 5.1.0, focusing on automating the migration path from legacy Spring Boot dependencies to lightweight, Kubernetes-native Quarkus microservices to reduce resource overhead.
+## Artifact Management
+
+### Container Registries
+
+#### Red Hat Quay
+
+  - **(2022)** [OpenShift Registry & Quay](https://nubenetes.com/registries/) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive analysis of Red Hat Quay and the integrated OpenShift Container Registry. Details secure image storage, vulnerability scanning with Clair, and geo-replication capabilities. It highlights Quay's enterprise-grade multi-tenancy and RBAC controls, which ensure secure artifact promotion within high-performance microservices pipelines.
 ## CI-CD
 
 ### App Migration (1)
@@ -89,6 +96,13 @@
 #### Automated Builds
 
   - **(2020)** [openshift.com: Keep Your Applications Secure With Automatic Rebuilds](https://www.redhat.com/en/blog/keep-your-applications-secure-with-automatic-rebuilds) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed technical guide illustrating how to configure OpenShift's image change triggers and ImageStreams to drive automatic rebuilds of downstream containers when upstream base images update or fix security issues. This methodology tightens SecOps loops, ensuring immediate mitigation of CVEs. It integrates container registry security alerts directly with native cluster build systems.
+## Cloud Infrastructure
+
+### Managed Kubernetes
+
+#### Azure Red Hat OpenShift
+
+  - **(2020)** [Introducing Azure Red Hat OpenShift on OpenShift 4 🌟](https://www.redhat.com/en/blog/introducing-azure-red-hat-openshift-on-openshift-4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the managed Azure Red Hat OpenShift (ARO) offering on OpenShift 4, built on operator-led cluster lifecycle management. It discusses direct integration with Microsoft Azure services, integrated scaling, and unified support channels. This managed service drastically simplifies operational overhead, letting enterprises focus purely on microservices delivery.
 ## Cloud Native
 
 ### Kubernetes Serverless
@@ -149,6 +163,21 @@
 #### Image Management
 
   - **(2019)** [cloudowski.com: Openshift ImageStreams](https://cloudowski.com/articles/why-managing-container-images-on-openshift-is-better-than-on-kubernetes) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This analysis compares OpenShift ImageStreams with vanilla Kubernetes image pulling mechanisms. It explains how ImageStreams provide abstraction layers over container registries, enabling automatic redeployments upon detection of updated remote images (triggers). By decoupling pods from concrete repository URLs, it automates deployment lifecycle workflows for platform engineering teams.
+## Container Platforms
+
+### OKD  OpenShift
+
+#### Cluster Bootstrap
+
+  - **(2020)** [openshift.com: Deploy a multi-master OKD 4.5 cluster using a single command in ~30 minutes](https://www.redhat.com/en/blog/deploy-a-multi-master-okd-4.5-cluster-using-a-single-command-in-30-minutes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the deployment of an upstream OKD 4.5 cluster (the open-source origin of OpenShift) using the quick installer-provisioned infrastructure (IPI) workflow. It provides a step-by-step breakdown of how a single command automates the bootstrapping of multi-master control planes on cloud providers. Useful for labs and staging environments targeting standard Kubernetes platform development.
+### OpenShift (2)
+
+#### FAQ
+
+  - **(2020)** [openshift.com: 8 Answers to 7 OpenShift Questions 🌟](https://www.redhat.com/en/blog/8-answers-to-7-openshift-questions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical synthesis addressing common operational and architectural questions regarding Red Hat OpenShift deployment modes, upgrade cycles, and subscription models. It clarifies the differentiators between upstream Kubernetes and OpenShift's opinionated, enterprise-ready application platform. Useful for enterprise decision-makers evaluating platform migrations or hybrid-cloud architectures.
+#### Infrastructure Provisioning
+
+  - **(2021)** [Fully Automated OpenShift Deployments With VMware vSphere](https://www.redhat.com/en/blog/fully-automated-openshift-deployments-with-vmware-vsphere) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed documentation on Installer-Provisioned Infrastructure (IPI) for Red Hat OpenShift on VMware vSphere environments. The automation workflow covers DNS registration, load balancing, virtual machine provisioning, and cluster bootstrapping directly from the installer. This integration streamlines on-premise private cloud delivery, reducing manual operational overhead to nearly zero.
 ## Containerization
 
 ### Container Engines
@@ -163,7 +192,7 @@
   - **(2017)** [cri-o.io](https://cri-o.io) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official home of CRI-O, an optimized Container Runtime Interface (CRI) designed specifically and exclusively for Kubernetes. CRI-O avoids overhead by supporting only OCI-compliant runtimes, removing unnecessary client CLI abstractions to deliver minimum-footprint workload execution.
 ## Containers and Orchestration
 
-### OpenShift (2)
+### OpenShift (3)
 
 #### Installation and Setup
 
@@ -310,7 +339,7 @@
 
   - **(2021)** [**developers.redhat.com: Troubleshooting application performance with Red Hat OpenShift metrics, Part 4: Gathering performance metrics**](https://developers.redhat.com/articles/2021/07/29/troubleshooting-application-performance-red-hat-openshift-metrics-part-4) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Part 4 of an diagnostics series focusing on scraping application targets and debugging latency. Shows how to use the built-in PromQL interface on OpenShift to trace application runtime anomalies.
   - **(2021)** [developers.redhat.com: Troubleshooting application performance with Red Hat OpenShift metrics, Part 1: Requirements](https://developers.redhat.com/articles/2021/07/08/troubleshooting-application-performance-red-hat-openshift-metrics-part-1) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Part 1 of an observability series discussing the performance requirements of gathering application telemetry in OpenShift. Outlines the infrastructure metrics, agent resource targets, and storage patterns required for steady operations.
-### OpenShift (3)
+### OpenShift (4)
 
 #### OpenShift Serverless (1)
 
@@ -461,7 +490,7 @@
 #### Database and Registry
 
   - **(2020)** [operatorhub.io/operator/quay](https://operatorhub.io/operator/quay) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The Quay Operator automates the installation, scaling, configuration, and day-2 operations of Red Hat Quay on Kubernetes and OpenShift. It handles storage provisioning, database migrations, and ingress configurations via custom resource definitions.
-### Managed Kubernetes
+### Managed Kubernetes (1)
 
 #### ROSA
 
@@ -506,7 +535,7 @@
   - **(2021)** [redhat.com: ACM Ansible Integration Overview](https://www.redhat.com/en/blog) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores integrations bridging Red Hat Advanced Cluster Management (ACM) with Ansible Automation Platform. Automates physical or non-Kubernetes resource tasks at critical points in cluster lifecycles.
 ## Infrastructure Security
 
-### Container Registries
+### Container Registries (1)
 
 #### Project Quay
 
@@ -721,6 +750,23 @@
 #### Cluster Security
 
   - **(2020)** [blog.openshift.com: Introducing Red Hat OpenShift 4.3 to Enhance Kubernetes Security 🌟](https://www.redhat.com/en/blog/introducing-red-hat-openshift-4-3-to-enhance-kubernetes-security) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This analysis details OpenShift 4.3's enhanced security features. It reviews the integration of automated certificate rotation, enhanced cryptography with FIPS 140-2 compliance, encryption-at-rest for etcd key-value stores, and advanced ingress security configurations. These features form the baseline of modern OpenShift multi-tenant security architecture.
+## Security and Compliance
+
+### Access Control
+
+#### OpenShift IAM
+
+  - **(2021)** [openshift.com: Ask an OpenShift Admin Office Hour - Authentication and Authorization](https://www.redhat.com/en/blog/ask-an-openshift-admin-office-hour-authentication-and-authorization)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive session breakdown focused on OpenShift's native OAuth server, identity providers (LDAP, Active Directory, Keycloak), and RBAC mapping strategies. It provides deep troubleshooting techniques for authentication flow misconfigurations and token management. Live grounding validates these techniques as crucial for securing enterprise-grade API endpoints.
+### Network Security
+
+#### Prisma Cloud
+
+  - **(2023)** [docs.aporeto.com: OpenShift Master API Protection](https://docs.prismacloud.io/en) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details how to protect the OpenShift Master API using microsegmentation and identity-based security policies, now consolidated under Palo Alto Networks Prisma Cloud. It explores runtime enforcement, traffic whitelist policies, and vulnerability detection to shield critical control planes. Live grounding shows that Aporeto's identity-based security is now fully integrated into the Prisma Cloud platform.
+### OpenShift Security
+
+#### Cluster Design
+
+  - **(2021)** [openshift.com: OpenShift Security Best Practices for Kubernetes Cluster Design 🌟](https://www.redhat.com/en/blog/openshift-security-best-practices-for-kubernetes-cluster-design) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores architectural security design patterns for OpenShift, including network segmentation, API access control, multi-tenancy models, and secure OS configurations via CoreOS. It highlights key defensive controls like Security Context Constraints (SCCs) and identity provider integrations. A must-read for compliance-oriented infrastructure architects designing high-security Kubernetes platforms.
 ## Service Mesh (1)
 
 ### Red Hat OpenShift

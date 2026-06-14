@@ -9,6 +9,14 @@
   - [Best Project Management Software of 2020](https://neilpatel.com/blog/best-project-management-software)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [techrepublic.com: Kanboard: A simple to deploy, easy to use Kanban board' for project management](https://www.techrepublic.com/article/kanboard-a-simple-to-deploy-easy-to-use-kanban-board-for-project-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Collaboration Tools
+
+### SaaS Utilities
+
+#### Quick Link
+
+  - **(2026)** [**Google Docs: doc.new**](https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fu%2F0%2Fcreate%3Fusp%3Ddot_new&dsh=S-551027576%3A1779031360486315&followup=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fu%2F0%2Fcreate%3Fusp%3Ddot_new&ltmpl=docs&osid=1&passive=1209600&service=wise&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AWa2PasT3fzmBVDogbYOa448WODYqcNpbr94eLlOd4kL-w5BLgVa3s5bweNB_q-BV6hVUtWFJzfuoQ) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Direct shortcut mechanism for instantly initializing an empty, collaborative Google Doc environment under the user's active Google account identity. Highly useful for collaborative platform runtime documentation and note taking.
+  - **(2026)** [**Spreadsheets: sheet.new**](https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fu%2F0%2Fcreate%3Fusp%3Ddot_new&dsh=S338656440%3A1779029465061496&followup=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fu%2F0%2Fcreate%3Fusp%3Ddot_new&ltmpl=sheets&osid=1&passive=1209600&service=wise&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AWa2PauvFLix7FhDQsyeXMzly7IlWofT_GeExGBZD5PeXgcMI8_fmgxBG05tRNkG3ISAaCxExVB7) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Browser shortcut mapping that provisions a blank cloud-based Google Sheets environment immediately. Typically used within operational engineering environments for quick tracking of cluster audits, FinOps billing lists, or migration runbooks.
 ## Developer Productivity
 
 ### Business Utilities

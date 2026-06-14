@@ -91,7 +91,7 @@
 
 #### Core Engine
 
-  - **(2026)** [==Kubernetes Cluster with **Kubeadm**==](https://github.com/kubernetes/kubeadm) <span class='md-tag md-tag--info'>⭐ 3980</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The standard bootstrapping engine for establishing conformant clusters, maintained by Kubernetes SIG-Cluster-Lifecycle. It abstracts certificate generation, etcd cluster building, and node onboarding into simplified `kubeadm init` and `kubeadm join` commands. It serves as the foundation for higher-level platform controllers.
+  - **(2026)** [==Kubernetes Cluster with **Kubeadm**==](https://github.com/kubernetes/kubeadm) <span class='md-tag md-tag--info'>⭐ 3981</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The standard bootstrapping engine for establishing conformant clusters, maintained by Kubernetes SIG-Cluster-Lifecycle. It abstracts certificate generation, etcd cluster building, and node onboarding into simplified `kubeadm init` and `kubeadm join` commands. It serves as the foundation for higher-level platform controllers.
 ### Deployment Tools
 
 #### AWS

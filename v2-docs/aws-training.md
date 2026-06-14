@@ -45,6 +45,20 @@
 #### Educational Resources
 
   - **(2021)** [analyticsindiamag.com: Free Online Resources To Get Started On Cloud Computing](https://analyticsindiamag.com/free-online-resources-to-get-started-on-cloud-computing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compiles high-quality, free resources to master fundamental cloud computing concepts. Lists tutorials, official cloud vendor training pathways, and community projects to help newcomers build structured knowledge in distributed systems.
+## Infrastructure
+
+### Cloud Computing (1)
+
+#### AWS Training
+
+  - **(2024)** [explore.skillbuilder.aws: AWS Skill Builder - Introducción a AWS Data Pipeline (Español Latinoamérica) | AWS Technical Essentials (Spanish from Latin America) - Free](https://skillbuilder.aws/search?searchText=aws-technical-essential-spanish-from-latin-america&showRedirectNotFoundBanner=true) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory training course on AWS Data Pipeline, tailored for Spanish-speaking cloud engineers. Details basic data processing workflows, scheduling, and error handling for distributed cloud storage architectures.
+## Security
+
+### Identity and Access
+
+#### AWS Security Fundamentals
+
+  - **(2024)** [explore.skillbuilder.aws: AWS Security Fundamentals (free)](https://skillbuilder.aws/search?searchText=aws-security-fundamentals-second-edition&showRedirectNotFoundBanner=true)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A fundamental training program covering core security topologies inside AWS. Explores the Shared Responsibility Model, IAM resource authorization, KMS encryption keys, and continuous infrastructure auditing.
 
 ---
 💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)

@@ -172,6 +172,13 @@
 
   - **(2016)** [Trainline.com dumps Oracle and Microsoft, gulps AWS Kool-Aid](http://www.theregister.co.uk/2016/07/13/trainline_dumps_oracle_microsoft_goes_full_aws_cto_interview) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight records Trainline's radical migration from legacy on-prem Oracle and Microsoft SQL/Windows monoliths to AWS. Live Grounding notes this historical case study illustrates the industry's massive mid-2010s migration pattern, proving that legacy modernization directly unlocks operational agility and cloud scalability.
   - **(2016)** [London DevOps - Trainline, A DevOps Journey - Chris Turvil](https://www.youtube.com/watch?v=IUvUmqu1MBQ) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight tracks the cultural and technical journey of Trainline’s DevOps transition during their full AWS migration. Live Grounding points to this talk as a textbook cultural reference, showing that microservices and infrastructure modernization fail without a parallel shift in organizational communication and delivery practices.
+## Serverless
+
+### Voice User Interfaces
+
+#### Alexa Skills
+
+  - **(2017)** [New Alexa Skills Kit Template: Build a Trivia Skill in under an Hour](https://developer.amazon.com) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Step-by-step developer tutorial detailing integration patterns between the Alexa Skills Kit and AWS Lambda serverless functions. Marked legacy as current conversational AI models have largely replaced basic programmatic trivia setups in production.
 ## Testing and Chaos
 
 ### Chaos Engineering

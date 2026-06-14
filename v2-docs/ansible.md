@@ -29,11 +29,33 @@
 
 ## Automation
 
+### API Integration
+
+#### Ansible HTTP
+
+  - **(2021)** [ansible.com: Automating your business application's REST API with Ansible](https://www.redhat.com/en/technologies/management/ansible/application-delivery)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This guide demonstrates orchestrating custom application workflows and RESTful APIs using Ansible's `uri` module. It details credential authentication, payload handling, and status code verification within a continuous integration or system-provisioning pipeline, eliminating the need for ad-hoc scripting.
 ### Advanced Orchestration
 
 #### Ansible Extensions
 
   - **(2020)** [opensource.com: Integrate your calendar with Ansible to avoid schedule conflicts 🌟](https://opensource.com/article/20/10/calendar-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A creative approach to scheduling production changes using Ansible playbooks hooked to digital calendars. It highlights API communication and conditional logic execution inside custom Ansible integrations. Ideal for teams seeking to automate maintenance windows safely.
+### Configuration Management
+
+#### Ansible Communities
+
+  - **(2022)** [ansible.com: The Top 10 Ansible Blogs of 2022](https://www.redhat.com/en/blog/top-10-ansible-blogs-2022)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated digest of the most impactful Ansible-focused blogs of 2022, highlighting innovations in automation controller integrations, cloud-native operators, and execution environment isolation. This compilation serves as a learning map for engineering teams adapting to enterprise automation patterns and modular collections.
+#### Ansible Networking
+
+  - **(2023)** [ansible.com: Fundamentals of Network Automation with Ansible Validated Content using the network.base collection](https://www.redhat.com/en/blog/based-validated-network-content) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This resource covers Ansible's network validated content library, structured to help infrastructure teams quickly adopt reliable network automation capabilities. Focusing on the `network.base` collection, it details architectural standards for managing multi-vendor network fabrics with reusable, pre-validated playbooks and tasks.
+  - **(2020)** [ansible.com: Ansible Network Resource Modules: Deep Dive on Return Values](https://www.redhat.com/en/blog/ansible-network-resource-modules-deep-dive-on-return-values) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This technical breakdown examines the structure and execution flow of Ansible Network Resource Modules, focusing on standard return structures (`before`, `after`, and `gathered`). It explains how network engineers can build precise declarative state files for network appliances, enabling idempotent drift correction and structured state auditing.
+### Infrastructure Management
+
+#### Ansible Collections
+
+  - **(2020)** [ansible.com: Announcing the Red Hat Enterprise Linux Certified Ansible Collection 🌟](https://www.redhat.com/en/blog/announcing-the-red-hat-enterprise-linux-certified-ansible-collection) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Announcement of the Red Hat Enterprise Linux (RHEL) System Roles as certified Ansible collections. This allows sysadmins to manage core operating system configuration parameters (network interfaces, SELinux, firewall rules, and storage pools) using vendor-supported, stable, and declarative code modules.
+#### Satellite
+
+  - **(2021)** [ansible.com: Automating Red Hat Satellite with Ansible](https://www.redhat.com/en/blog/automating-red-hat-satellite-with-ansible) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This technical resource details integrating Ansible with Red Hat Satellite to manage enterprise OS life cycles. It explains using Satellite Collections to provision instances, register hosts to subscription channels, and configure patch schedules automatically across large-scale physical and cloud environments.
 ### Infrastructure as Code
 
 #### Ansible
@@ -82,6 +104,19 @@
 #### Red Hat Ecosystem
 
   - **(2020)** [theregister.com: Juggling Ansible, OpenShift and K8s? This is for you: Red Hat couples automation to cluster management](https://www.theregister.com/software/2020/10/14/juggling-ansible-openshift-and-k8s-this-is-for-you-red-hat-couples-automation-to-cluster-management/656846) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical piece detailing how architects manage complex workflows across bare-metal systems, OpenShift, and standard Kubernetes clusters. It underscores how Ansible bridges the gaps that cloud-native orchestration engines cannot directly reach, minimizing system isolation and manual intervention.
+### Platform
+
+#### Ansible AAP
+
+  - **(2021)** [ansible.com: Introducing Ansible Automation Platform 2](https://www.redhat.com/en/blog/introducing-ansible-automation-platform-2) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This article introduces Ansible Automation Platform 2, showcasing its containerized architecture shift. By replacing standard python virtualenvs with execution environments (isolated containers containing all Python/Ansible dependencies), AAP 2 solves scalability limitations and drift issues across enterprise deployment nodes.
+  - **(2021)** [ansible.com: What's new in Ansible Automation Platform 2: automation controller](https://www.redhat.com/en/blog/whats-new-in-ansible-automation-platform-2-automation-controller) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights details of the 'automation controller,' which replaces Ansible Tower in AAP 2. Built to decouple control plane and execution plane functions, it improves job routing, credential management, and multi-tenant scaling through decentralized execution environments.
+  - **(2020)** [ansible.com: Red Hat Ansible Automation Platform 1.2](https://www.redhat.com/en/blog/now-available-red-hat-ansible-automation-platform-1.2) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Overview of the legacy Red Hat Ansible Automation Platform v1.2 release. It highlights the convergence of Ansible Tower, Engine, and Network Engine, alongside introducing private automation hubs to store and control internal automation content within secure environments.
+#### Ansible Catalog
+
+  - **(2020)** [ansible.com: Automation services catalog, the newest addition to the Ansible Automation Platform](https://www.redhat.com/en/technologies/management/ansible) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This document covers the self-service Automation Services Catalog in Red Hat AAP. It allows business users to request IT resources using automated Ansible plays in a structured governance framework, tracking compliance and multi-level approvals across organization boundaries.
+#### Ansible Tower
+
+  - **(2020)** [ansible.com/blog/topic/ansible-tower](https://www.redhat.com/en/blog/channel/red-hat-ansible-automation)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Official updates channel focusing on Ansible Tower (the precursor to AAP's automation controller). Content spans legacy scaling strategies, visual workflow design, API routing, and integrations with enterprise LDAP systems.
 ## Automation and Orchestration
 
 ### AI and Automation
@@ -202,7 +237,7 @@
 
 #### Jinja
 
-  - **(2024)** [==jinja 🌟==](https://github.com/pallets/jinja) <span class='md-tag md-tag--info'>⭐ 11663</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official repository for Jinja, the ubiquitous Python-based templating engine. Jinja underpins all dynamic evaluation structures inside Ansible, enabling programmatic infrastructure assembly.
+  - **(2024)** [==jinja 🌟==](https://github.com/pallets/jinja) <span class='md-tag md-tag--info'>⭐ 11664</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official repository for Jinja, the ubiquitous Python-based templating engine. Jinja underpins all dynamic evaluation structures inside Ansible, enabling programmatic infrastructure assembly.
 ## Cloud Infrastructure
 
 ### AWS
@@ -322,7 +357,7 @@
   - **(2021)** [opensource.com: 10 ways Ansible is for everyone 🌟](https://opensource.com/article/21/1/ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how Ansible's declarative engine appeals to cross-disciplinary teams. Demonstrates scalability patterns from developers to network engineers, showcasing low cognitive load syntax and multi-vendor abstraction layers as key drivers for enterprise-wide adoption.
   - **(2021)** [linkedin.com: Ansible what is it and what not](https://www.linkedin.com/pulse/ansible-what-marcel-koert)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analytically bounds Ansible's utility profile by identifying what it is and what it is not. Highlights its primary purpose in deployment, configuration state assurance, and software orchestration while detailing architectural anti-patterns where alternative solutions (like direct programming languages) fit better.
   - **(2021)** [developers.redhat.com: Four reasons developers should use Ansible](https://developers.redhat.com/articles/2021/09/27/four-reasons-developers-should-use-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines architectural benefits why software engineers should embrace configuration as code using Ansible. Focuses on local development environment parity, simplified build runners, database schema migrations, and application topologies.
-#### Configuration Management
+#### Configuration Management (1)
 
   - **(2021)** [redhat.com: How to pass extra variables to an Ansible playbook](https://www.redhat.com/en/blog/extra-variables-ansible-playbook) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Clarifies the mechanism of variable precedence in Ansible by focusing on "extra variables" passed via command-line arguments (`--extra-vars` or `-e`). This approach represents the highest level of precedence, enabling runtime dynamic overrides essential for CI/CD integrations.
 #### Containers
@@ -498,6 +533,20 @@
   - **(2020)** [github.com/tom-256/ansible-awx-packer](https://github.com/tom-256/ansible-awx-packer) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An inactive HashiCorp Packer template configured to compile machine images with Ansible AWX pre-installed. Represents vintage configuration patterns before the containerized, operator-managed microservices architecture became the default delivery method.
   - **(2020)** [github.com/scorputty/packer-centos-awx](https://github.com/scorputty/packer-centos-awx) <span class='md-tag md-tag--info'>⭐ 1</span> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A legacy Packer configuration designed to output CentOS-based virtual machine images with pre-baked AWX deployments. Reflects older DevOps paradigms focused on VM-based immutable infrastructure instead of Kubernetes runtimes.
   - **(2019)** [github.com/jsmartin/ansible-tower-packer](https://github.com/jsmartin/ansible-tower-packer) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Vintage HashiCorp Packer scripts utilized to generate machine images initialized with Red Hat Ansible Tower software. Serves as historical code archeology for engineers maintaining legacy, VM-based environments.
+## Kubernetes (2)
+
+### Operators (1)
+
+#### Ansible Operators
+
+  - **(2021)** [ansible.com: Fast vs Easy: Benchmarking Ansible Operators for Kubernetes](https://www.redhat.com/en/blog/fast-vs-easy-benchmarking-ansible-operators-for-kubernetes) <span class='md-tag md-tag--warning'>[PYTHON/GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This benchmark study analyzes Ansible-based Kubernetes Operators versus Go and Helm alternatives. It compares reconciliation latency, operational memory consumption, and execution complexity, demonstrating that while Ansible operators provide rapid developer velocity and utilize familiar YAML logic, Go operators excel at higher scaling metrics.
+## Observability
+
+### Automation (2)
+
+#### Ansible Integration (3)
+
+  - **(2022)** [dynatrace.com: Achieve faster time to value by deploying thousands of OneAgents at once with Ansible (Preview)](https://www.dynatrace.com/platform/oneagent) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details utilizing Ansible automation to rapidly deploy and configure thousands of Dynatrace OneAgent nodes simultaneously. It leverages certified collections to deploy system services across heterogeneous OS landscapes while ensuring uniform host tagging and environment variables.
 ## System Administration
 
 ### Linux Automation

@@ -13,10 +13,16 @@
   - [eleconomista.es: La ayuda del SEPE a los autónomos: así pueden cobrar el' paro a la vez que trabajan](https://www.eleconomista.es/economia/noticias/11391909/09/21/La-ayuda-del-SEPE-a-los-autonomos-asi-pueden-cobrar-el-paro-a-la-vez-que-trabajan.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [malt 🌟](https://www.malt.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [upwork 🌟](https://www.upwork.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [freelancer 🌟](https://www.freelancer.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [fiverr](https://www.fiverr.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [remoteone](https://remote.one)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Business and Careers
+
+### Freelance Platforms
+
+#### Sourcing
+
+  - **(2026)** [freelancer 🌟](https://www.freelancer.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Global platform cataloging remote engineering resource pipelines. Offers transactional milestone frameworks and structured API tooling to help engineering management source specialized technical talent on demand.
 ## Careers
 
 ### Freelancing (1)

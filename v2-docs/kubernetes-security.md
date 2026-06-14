@@ -455,6 +455,14 @@
 #### Access Control (1)
 
   - [thenewstack.io: Cloud Native Identity and Access Management in Kubernetes](https://thenewstack.io/cloud-native-identity-and-access-management-in-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Examines identity federation, user access management, and internal service-to-service authentication models. Curator insight details mapping cluster roles directly to organizational single sign-on identities. Live grounding indicates that decentralized identity and modern authentication are critical to maintaining least privilege in high-scale infrastructure.
+### Kubernetes Security (1)
+
+#### Hardening (1)
+
+  - **(2023)** [sysdig.com: Kubernetes Security Guide 🌟](https://www.sysdig.com/blog/kubernetes-security-guide) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Sysdig's comprehensive guide to securing Kubernetes platforms details a multi-layered defense strategy covering container image scanning, runtime protection, network policies, and role-based access control (RBAC). It highlights compliance mappings (such as CIS benchmarks) and operational best practices for detecting abnormal kernel system calls using eBPF-based agents.
+#### Secrets Management (1)
+
+  - **(2021)** [Hands on your first Kubernetes secrets 🌟](https://www.theodo.com/en-uk/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This hands-on tutorial guides developers through creating, decoding, and mounting native Kubernetes Secret resources within applications. It highlights base64 encoding limitations and advises on key architectural alternatives, such as HashiCorp Vault integration, Sealed Secrets, or CSI secret store drivers for production environments.
 ### Network Security
 
 #### Internet Exposure
@@ -539,7 +547,7 @@
 #### eBPF and Cilium
 
   - **(2021)** [isovalent.com: Detecting a Container Escape with Cilium and eBPF](https://isovalent.com/blog/post/2021-11-container-escape) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth case study of container escape tactics and real-time detection utilizing eBPF and Cilium. It highlights limits of traditional syscall auditing, showcasing how kernel-level hooks identify privilege escalation without agent-induced overhead. Live Grounding points to eBPF-based security as the modern baseline for runtime security orchestration.
-### Secrets Management (1)
+### Secrets Management (2)
 
 #### Conceptual (1)
 

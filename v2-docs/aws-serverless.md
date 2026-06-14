@@ -83,6 +83,13 @@
 #### AWS SAM Pipelines
 
   - **(2021)** [Introducing AWS SAM Pipelines: Automatically generate deployment pipelines for serverless applications](https://aws.amazon.com/blogs/compute/introducing-aws-sam-pipelines-automatically-generate-deployment-pipelines-for-serverless-applications) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces AWS SAM Pipelines, a feature within the Serverless Application Model CLI that auto-generates multi-stage CI/CD pipelines. It supports integration with Jenkins, GitLab, GitHub Actions, and Bitbucket, standardizing infrastructure-as-code deployment procedures across corporate accounts.
+## Infrastructure
+
+### Automation
+
+#### AWS Lambda and EventBridge
+
+  - **(2024)** [How do I stop and start EC2 instances at regular intervals using AWS Lambda? (Video)](https://repost.aws/knowledge-center/start-stop-lambda-eventbridge)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An operational video walkthrough demonstrating serverless compute cost-reduction routines. Details how to coordinate AWS Lambda with EventBridge cron schedules to automate lifecycle actions for EC2 fleets.
 ## Infrastructure as Code
 
 ### AWS CDK

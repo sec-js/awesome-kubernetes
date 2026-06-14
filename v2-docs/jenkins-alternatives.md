@@ -136,6 +136,16 @@
 ##### Git Integration
 
   - **(2022)** [armory.io: Git Pull Support in Spinnaker](https://www.harness.io/products/continuous-delivery) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight addresses configuring Git pull trigger functionality inside Spinnaker. Live Grounding confirms that enabling automated repository monitoring allows Spinnaker to initiate targeted application pipelines immediately upon commit detection. This establishes the prerequisite feedback loop necessary for true continuous delivery.
+## DevSecOps
+
+### CICD Pipelines
+
+#### Tekton Pipelines
+
+  - **(2023)** [Tekton](https://nubenetes.com/tekton/) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Deep-dive review of Tekton, a Kubernetes-native open-source framework for building continuous integration and delivery (CI/CD) pipelines. It structures pipeline blocks using standard CRDs (Tasks, Pipelines, PipelineRuns), eliminating VM-based runner dependencies. Live validation establishes Tekton as the standard engine powering modern cloud-native container build environments like OpenShift Pipelines.
+#### Tool Comparison
+
+  - **(2021)** [k21academy.com: Azure pipelines VS Jenkins](https://k21academy.com/azure-cloud/azure-pipelines-vs-jenkins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive comparative analysis contrasting Jenkins (self-hosted, highly extensible, plugin-heavy) against Azure Pipelines (managed, cloud-native SaaS, deep Azure integration). Highlights differences in maintenance overhead, security configurations, build agent execution, and enterprise scaling architectures. Essential reading for platform teams deciding on their continuous delivery stack.
 ## Enterprise Platforms
 
 ### Red Hat OpenShift
@@ -160,7 +170,7 @@
 #### Jenkins Alternatives
 
   - **(2024)** [lambdatest.com: 21 Of The Best Jenkins Alternatives For Developers](https://www.testmuai.com/blog/best-jenkins-alternatives) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Surveys the shifting ecosystem of modern Continuous Integration (CI) tools, contrasting traditional server-based systems with cloud-native architectures. Outlines key replacements for Jenkins (such as GitHub Actions, GitLab CI, and CircleCI), detailing differences in hosting topologies, plugin dependency models, and configuration maintenance burdens.
-#### Tool Comparison
+#### Tool Comparison (1)
 
   - **(2024)** [lambdatest.com: TeamCity vs. Jenkins: Picking The Right CI/CD Tool](https://www.testmuai.com/blog/teamcity-vs-jenkins-picking-the-right-ci-cd-tool) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the structural and financial differences between JetBrains TeamCity and open-source Jenkins. Highlights Jenkins' raw extensibility via thousands of community-authored plugins against TeamCity's high-quality out-of-the-box features, configuration-as-code capabilities, and refined user-access controls.
   - **(2024)** [cBamboo vs Jenkins: Showdown Of CI/CD Tools](https://www.testmuai.com/blog/bamboo-vs-jenkins-showdown-of-ci-cd-tools) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares Atlassian's commercial Bamboo platform against open-source Jenkins. Investigates how Bamboo's native integrations with Jira and Bitbucket simplify build-to-deploy traceability for enterprise engineering operations, weighing these out-of-the-box benefits against the licensing model and configuration flexibility of Jenkins.
@@ -194,11 +204,18 @@
 #### Kubeflow
 
   - **(2026)** [==kubeflow==](https://www.kubeflow.org) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kubeflow is the leading cloud-native open-source MLOps suite designed to construct, deploy, and run modular machine learning workflows on Kubernetes clusters. Provides a comprehensive platform for managing Jupyter notebooks, workflow pipelines, and highly optimized inference deployments.
+## Orchestration and Packaging
+
+### Cloud-Native Delivery (1)
+
+#### Keptn
+
+  - **(2026)** [**Keptn**](https://nubenetes.com/keptn/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Nubenetes architectural reference on Keptn, a CNCF enterprise-grade control plane for cloud-native application lifecycle orchestration. Integrates SLO-based evaluations, automated canary promotions, and zero-touch application remediation out of the box.
 ## Platform Architecture
 
 ### CICD
 
-#### Tekton Pipelines
+#### Tekton Pipelines (1)
 
   - **(2026)** [github.com/openshift/pipelines-tutorial](https://github.com/openshift/pipelines-tutorial) <span class='md-tag md-tag--info'>⭐ 322</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive learning path and hands-on laboratory environment focused on Tekton. Provides configurations for Tasks, Pipelines, PipelineRuns, and Trigger EventListeners on OpenShift clusters, validating cloud-native automation patterns.
 ## Software Delivery

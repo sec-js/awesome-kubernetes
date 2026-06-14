@@ -65,6 +65,16 @@
 #### Serverless
 
   - **(2022)** [dev.to: Construyendo un MVP sin base de datos](https://dev.to/sergomz/construyendo-un-mvp-sin-base-de-datos-1i4k) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses practical architectural patterns to construct functional MVPs without incorporating an actual persistent database, using flat-files, local memory, or external SaaS instead. Explains how this architectural decoupling lowers initial operational complexity and lets developers focus on testing business logic.
+## Business and Careers
+
+### Management Patterns
+
+#### Leadership
+
+  - **(2022)** [business.vogue.es: Adiós a los jefes tóxicos: este es el nuevo tipo de liderazgo gentil que triunfa](https://www.vogue.es/lideres) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analysis of evolving corporate management cultures and toxic workplace mitigation. Discusses the value of empathetic leadership and structured soft skills in reducing developer attrition within modern tech teams.
+#### Team Performance
+
+  - **(2023)** [creately.com: A Step By Step Guide to Set KPIs for Team Members](https://creately.com/guides/how-to-set-kpis-for-team-members) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A step-by-step guide to setting actionable KPIs for engineering teams. Explores balancing quantitative delivery metrics with qualitative team-growth targets to align development outputs with business objectives.
 ## Engineering Leadership
 
 ### Agile Methodologies
@@ -223,7 +233,7 @@
 #### Workplace Well-being
 
   - **(2021)** [businessinsider.es: "Estoy atrapado en unos hábitos poco saludables y me siento abrumado por todo lo que tengo que hacer, ¿cómo puedo aprender a decir no?"](https://www.businessinsider.es/desarrollo-profesional/tan-dificil-decir-no-jefe-965459) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Spanish article offering behavioral strategies to establish professional boundaries and politely decline excessive workloads. Helps technical staff overcome burnout, prioritize core technical obligations, and build healthier relationships with management.
-### Leadership
+### Leadership (1)
 
 #### Engineering Culture
 

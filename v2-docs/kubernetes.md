@@ -854,6 +854,13 @@
 #### Troubleshooting
 
   - **(2023)** [itnext.io: Successful & Short Kubernetes Stories For DevOps Architects](https://itnext.io/successful-short-kubernetes-stories-for-devops-architects-677f8bfed803)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A compilation of brief, high-impact architectural case studies illustrating real-world engineering failures and subsequent triumphs. It covers troubleshooting container networking, node resource exhaustion, and complex ingress rules.
+## Cloud Architecture
+
+### NoOps and Serverless
+
+#### Overview
+
+  - **(2026)** [==Serverless Architectures==](https://nubenetes.com/serverless/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — In-depth analysis exploring execution concepts, billing architectures, scalability curves, and performance tradeoffs inherent in Serverless patterns. Details key differences between FaaS, cloud-managed runtimes, and self-hosted Knative workloads.
 ## Cloud Architecture and Infrastructure Strategy
 
 ### High Availability (1)
@@ -1153,6 +1160,33 @@
 #### ctr CLI
 
   - **(2023)** [labs.iximiuz.com: How to work with container images using ctr](https://labs.iximiuz.com/courses/containerd-cli/ctr/image-management) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Deep technical laboratory exercise focused on managing low-level container images using the containerd 'ctr' CLI. Vital for operations engineers debugging nodes directly where high-level runtimes like docker are not installed.
+## Containers and Orchestration
+
+### Container Concepts
+
+#### Pods Deep Dive
+
+  - **(2025)** [==iximiuz.com: Containers vs. Pods - Taking a Deeper Look==](https://labs.iximiuz.com/tutorials/containers-vs-pods) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Deep technical review of the boundaries separating a standard Linux container from a Kubernetes Pod. Illustrates namespace sharing, IPC barriers, loopback network interfaces, and volume mounting mechanics between multi-container structures.
+### Kubernetes Development
+
+#### API Client Libraries
+
+  - **(2026)** [==Client Libraries for Kubernetes==](https://nubenetes.com/kubernetes-client-libraries/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Complete directory of supported Kubernetes API client libraries (Python, Go, Java, JavaScript, etc.). Details patterns for programmatic service discovery, controller building, and custom automation direct from application runtime code.
+### Kubernetes Operations
+
+#### Pod Restarts
+
+  - **(2024)** [qvault.io: How to Restart All Pods in a Kubernetes Namespace](https://www.boot.dev) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Tactical guide walking through multiple methods of forcing a restart on all Pods inside a Kubernetes Namespace. Covers `kubectl rollout restart deployment` as the clean rolling-restart standard, contrasted against disruptive container terminations.
+### Kubernetes Storage
+
+#### Volumes Overview
+
+  - **(2026)** [==Kubernetes Storage - Volumes==](https://nubenetes.com/kubernetes-storage/#kubernetes-volumes) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Detailed catalog explaining stateful execution patterns inside Kubernetes. Focuses on lifecycle dynamics of Ephemeral, Persistent (PV), and PersistentVolumeClaims (PVC), alongside container storage interfaces (CSI) used to integrate modern storage backends.
+### Virtualization VS Containers
+
+#### Kubernetes Concept
+
+  - **(2025)** [==iximiuz.com: How Kubernetes Reinvented Virtual Machines (in a good sense) 🌟🌟==](https://labs.iximiuz.com/tutorials/kubernetes-vs-virtual-machines) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Insightful analysis explaining how Kubernetes replicates hypervisor features through API-driven isolation, network namespaces, and cgroups. Demonstrates how K8s serves as the cloud operating system, abstraction layer, and software-defined datacenter.
 ## Core Architecture
 
 ### Controller Manager
@@ -1710,6 +1744,11 @@
 #### Self-Hosted Runners
 
   - **(2025)** [RunsOn: Self-hosted GitHub Actions Runners in AWS](https://runs-on.com) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An innovative open-source self-hosting solution that provisions fast, secure, on-demand EC2 single-use runners for GitHub Actions on AWS. Offers extreme cost reductions (up to 10x) utilizing EC2 spot instances with minimal boot delays.
+### Crossplane and Control Planes
+
+#### Overview (1)
+
+  - **(2026)** [==Crossplane==](https://nubenetes.com/crossplane/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Comprehensive review of Crossplane, a CNCF control-plane framework transforming Kubernetes clusters into universal infrastructure schedulers. Permits declarative definition of cloud resources (RDS, S3, VMs) alongside native Kubernetes schemas.
 ## Introductory
 
 ### Concepts (1)
@@ -2204,7 +2243,7 @@
 #### Technical Publications
 
   - **(2025)** [itnext.io/tagged/kubernetes](https://itnext.io/tagged/kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — ITNext's Kubernetes publication channels highly technical, deep-dive articles authored by practicing engineers. Topics heavily favor custom controllers, eBPF telemetry, service mesh performance, and advanced GitOps architectures.
-### Cloud Architecture
+### Cloud Architecture (1)
 
 #### Hands-on Operations
 
@@ -2797,7 +2836,7 @@
 #### Mock Exams
 
   - **(2022)** [==jamesbuckett/ckad-questions==](https://github.com/jamesbuckett/ckad-questions) <span class='md-tag md-tag--info'>⭐ 209</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An intensive, community-driven collection of practice challenges and mock scenarios tailored specifically to match the format of the official CKAD examination. By guiding candidates through mock tasks involving ConfigMaps, ingress controllers, and multi-container pods, it bridges theoretical API knowledge and hands-on terminal execution.
-#### Overview
+#### Overview (2)
 
   - **(2021)** [kodekloud.com: CKA vs CKAD vs CKS – What is the Difference](https://kodekloud.com/blog/cka-vs-ckad-vs-cks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive, comparative breakdown highlighting the structural differences, syllabus domains, and target audiences of the three main Linux Foundation Kubernetes exams (CKA, CKAD, CKS). It helps system administrators, application developers, and security engineers choose the certification pathway matching their professional profiles.
 #### Preparation

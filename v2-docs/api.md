@@ -20,10 +20,8 @@
   - [betterprogramming.pub: How To Deprecate APIs the Right Way](https://betterprogramming.pub/how-to-deprecate-apis-the-right-way-371c1cbf1723)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone.com: REST vs. Messaging for Microservices 🌟](https://dzone.com/articles/rest-vs-messaging-for-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@ezinneanne: Best API documentation tools you need](https://medium.com/@ezinneanne/best-api-documentation-tools-you-need-cf3ef2c47e89)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.postman.com: How to choose between REST vs. GraphQL vs. gRPC vs.' SOAP](https://blog.postman.com/how-to-choose-between-rest-vs-graphql-vs-grpc-vs-soap)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [writersbyte.com: Introduction to APIs with Python FastAPI](https://writersbyte.com/introduction-to-apis-with-python-fastapi)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.devgenius.io: REST APIs with Python 🌟](https://blog.devgenius.io/rest-apis-with-python-f330c7ffc6ab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.postman.com: You Can Now Capture Responses Using the Postman Proxy](https://blog.postman.com/capture-responses-using-the-postman-proxy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [apifriends.com: What are the different types of APIs? 🌟](https://apifriends.com/api-creation/different-types-apis)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [wikipedia: SOAP](https://en.wikipedia.org/wiki/SOAP)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [guru99.com: SOAP Web Services Tutorial: Simple Object Access Protocol. What' is SOAP?](https://www.guru99.com/soap-simple-object-access-protocol.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -283,7 +281,7 @@
   - **(2024)** [geeksforgeeks.org: Basics of SOAP – Simple Object Access Protocol](https://www.geeksforgeeks.org/computer-networks/basics-of-soap-simple-object-access-protocol) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explains the structural foundations of Simple Object Access Protocol (SOAP). It describes key architectural elements such as the SOAP Envelope, Header, Body, and Fault structures alongside the WSDL (Web Services Description Language) interface definitions. While largely replaced by REST and JSON in modern applications, SOAP remains critical in highly secure financial and enterprise systems.
 #### Public Directories
 
-  - **(2024)** [==github.com/public-apis/public-apis: Try Public APIs for free 🌟==](https://github.com/public-apis/public-apis) <span class='md-tag md-tag--info'>⭐ 441427</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly curated, massive directory of free, public APIs categorized by topic (such as Auth, Data, Analytics, and weather). This repository is the de facto standard resource for engineers searching for mock datasets or utility endpoints to build prototypes. It demonstrates the utility of community-led open-source curation for modern software experimentation.
+  - **(2024)** [==github.com/public-apis/public-apis: Try Public APIs for free 🌟==](https://github.com/public-apis/public-apis) <span class='md-tag md-tag--info'>⭐ 441438</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly curated, massive directory of free, public APIs categorized by topic (such as Auth, Data, Analytics, and weather). This repository is the de facto standard resource for engineers searching for mock datasets or utility endpoints to build prototypes. It demonstrates the utility of community-led open-source curation for modern software experimentation.
   - **(2023)** [**freecodecamp.org: Public APIs Developers Can Use in Their Projects**](https://www.freecodecamp.org/news/public-apis-for-developers) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Introduces a handpicked list of highly functional public APIs suited for portfolio projects and app prototypes. The compilation features modern REST APIs that do not require complex OAuth authorization flows, covering categories like machine learning, weather forecasting, financial data, and geolocation. It serves as an accessible entry-point for learning API integration patterns.
 #### Strategic Governance
 
@@ -357,6 +355,13 @@
 #### Process Automation
 
   - **(2021)** [thenewstack.io: True Success in Process Automation Requires Microservices](https://thenewstack.io/true-success-in-process-automation-requires-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the convergence of Business Process Management (BPM) and microservices architecture. Argues that workflow orchestration must be decoupled into independent, scalable microservices to achieve resilience and avoid monolithic bottlenecks.
+## Observability
+
+### Data Ingestion
+
+#### WebSockets IoT
+
+  - **(2022)** [grafana.com: How to use WebSockets to visualize real-time IoT data in Grafana](https://grafana.com/blog/how-to-use-websockets-to-visualize-real-time-iot-data-in-grafana) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Detailed technical walk-through demonstrating Grafana's capacity to consume and visualize sub-second real-time streaming data via WebSockets. Focuses on setting up custom dashboards for high-density IoT telemetry and event queues.
 ## Public Resources
 
 ### Catalogs
@@ -364,6 +369,13 @@
 #### Web Services
 
   - **(2025)** [free-web-services.com](http://free-web-services.com) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A public directory index mapping legacy web services and free APIs. Helpful for basic testing, though modern developers often prefer containerized local mocks for CI integration consistency.
+## Quality Assurance
+
+### API Design (1)
+
+#### Network Debugging
+
+  - **(2022)** [blog.postman.com: You Can Now Capture Responses Using the Postman Proxy](https://blog.postman.com/capture-responses-using-the-postman-proxy) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Technical guide showing how to deploy Postman's native Proxy configuration to capture request and response payloads in real-time. Extremely useful for reverse-engineering closed APIs and debugging mobile/IoT traffic flow.
 ## Software Development
 
 ### Java
@@ -373,6 +385,21 @@
   - **(2018)** [Creando un API REST en Java (parte 1)](https://www.oscarblancarteblog.com/2018/06/25/creando-un-api-rest-en-java-parte-1) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A fundamental Spanish-language walkthrough on implementing RESTful endpoints using Java JAX-RS or Spring Boot. Details the structural setup, HTTP method mapping, and architectural guidelines for request-response serialization.
 ## Software Engineering
 
+### API Design (2)
+
+#### Industry Surveys
+
+  - **(2025)** [postman.com: Postman State of the API Report 🌟](https://www.postman.com/state-of-api/2025) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The Postman 2025 State of the API Report. Synthesizes empirical telemetry and global developer feedback detailing the rise of API-first designs, modern validation toolchains, protocol shifts toward gRPC, and the growing ubiquity of AI-augmented API design.
+  - **(2019)** [smartbear.com: The State of API 2019 Report 🌟](https://smartbear.com/resources/all) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The 2019 State of API Report by SmartBear. Highlights historical trends in API quality, governance, and protocol dominance (REST/SOAP transition era), useful for tracking historical architecture patterns and standards progression.
+#### Protocol Selection
+
+  - **(2023)** [blog.postman.com: How to choose between REST vs. GraphQL vs. gRPC vs.' SOAP](https://blog.postman.com/how-to-choose-between-rest-vs-graphql-vs-grpc-vs-soap) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An elite architectural breakdown contrasting REST, GraphQL, gRPC, and SOAP protocols. Outlines technical selection heuristics based on transport performance, serialization structures, payload size, type-safety guarantees, and network latency tolerances inside microservice topologies.
+#### SOAP vs REST
+
+  - **(2020)** [reply.com: Web Services: SOAP and REST - A Simple Introduction](https://www.reply.com/solidsoft-reply/en) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A fundamental comparative breakdown of SOAP (protocol-driven XML) vs REST (architectural constraints/JSON). Explains system performance trade-offs, security controls (WS-Security), and state management requirements inside distributed systems.
+#### gRPC Protocol
+
+  - **(2015)** [developers.googleblog.com: Introducing gRPC, a new open source HTTP/2 RPC Framework](https://developers.googleblog.com/introducing-grpc-a-new-open-source-http2-rpc-framework) <span class='md-tag md-tag--warning'>[MULTI-LANGUAGE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google's landmark announcement introducing gRPC, an open-source, high-performance RPC framework built on HTTP/2 multiplexing and Protocol Buffers serialization. Serves as historical documentation of the transition from heavy XML/JSON REST interfaces to streaming, contract-based communications.
 ### API Integration
 
 #### Public Directories (1)

@@ -9,12 +9,26 @@
   - [Dzone: how to use postman to manage and execute your APIs](https://dzone.com/articles/how-to-use-postman-to-manage-and-execute-your-apis)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Kubernetes Tutorial: Your Complete Guide to Deploying an App on' AWS with Postman 🌟](https://medium.com/better-practices/kubernetes-tutorial-b6f302a67426)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [vaishnavidontha.hashnode.dev: API Testing using Postman - Part 1](https://vaishnavidontha.hashnode.dev/api-testing-using-postman-part-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.postman.com: Postman’s Proxy Now Fully Supports HTTPS Endpoints](https://blog.postman.com/postmans-proxy-now-fully-supports-https-endpoints)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.postman.com: Introducing the Secret Variable Type in Postman](https://blog.postman.com/introducing-secret-variable-type-in-postman)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.postman.com: Meet Matrix: Postman’s Internal Tool for Working with' Microservices](https://blog.postman.com/matrix-postman-internal-tool-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.postman.com: First 5 Things to Try If You’re New to Postman](https://blog.postman.com/postman-first-5-things-to-try)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.balasundar.com: Run Postman collections using Newman and Python](https://blog.balasundar.com/run-postman-collections-using-newman-and-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## API Development
+
+### Testing and Debugging
+
+#### Getting Started
+
+  - **(2021)** [blog.postman.com: First 5 Things to Try If You’re New to Postman](https://blog.postman.com/postman-first-5-things-to-try)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A foundational guide covering fundamental Postman workflows, including sending requests, creating collections, executing environment variables, and automated test scripting. It introduces developers to rapid API prototyping and assertions using Chai-based test libraries. This entry point establishes robust habits for automated integration testing in microservices architectures.
+#### Postman Proxy
+
+  - **(2021)** [blog.postman.com: Postman’s Proxy Now Fully Supports HTTPS Endpoints](https://blog.postman.com/postmans-proxy-now-fully-supports-https-endpoints)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Postman's built-in proxy captures HTTPS traffic directly from mobile devices and desktop clients, facilitating API inspection. Utilizing custom SSL certificates, it decrypts SSL/TLS payloads locally to allow seamless request debugging. This integration accelerates contract testing and troubleshooting within local microservices environments.
+## Architecture
+
+### Microservices
+
+#### Internal Developer Platforms
+
+  - **(2021)** [blog.postman.com: Meet Matrix: Postman’s Internal Tool for Working with' Microservices](https://blog.postman.com/matrix-postman-internal-tool-microservices) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Matrix is Postman's internal developer tool designed to orchestrate local microservices development, simplifying the execution and coordination of dependent services. It acts as a lightweight developer portal, bridging the gap between local compose files and remote staging environments. Live engineering truth reveals it as a custom service runner that enhances developer workflow automation and mitigates configuration drift.
 ## Quality Assurance
 
 ### API Testing Automation

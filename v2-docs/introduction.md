@@ -1220,6 +1220,11 @@ graph TD
   - **(2022)** [zdnet.com: The year ahead in DevOps and agile: bring on the automation, bring on the business involvement](https://www.zdnet.com/article/the-year-ahead-in-devops-and-agile-more-automation-more-business-involvement-needed)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines evolutionary trends in agile delivery and DevOps, emphasizing the integration of business operations with engineering pipelines. It underscores automation, value-stream mapping, and the integration of artificial intelligence into CI/CD pipelines.
 ## Software Engineering (2)
 
+### Architecture Patterns (1)
+
+#### Microservices (7)
+
+  - **(2024)** [dynatrace.com: What are microservices? All you need to know](https://www.dynatrace.com/knowledge-base/microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-level architectural overview exploring the decoupling of corporate monoliths into agile microservices. Discusses structural changes, challenges in service discovery, and the crucial role of tracing telemetry for maintaining state consistency.
 ### Education (1)
 
 #### Systems Programming

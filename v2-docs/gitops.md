@@ -89,6 +89,22 @@
 #### Patterns
 
   - **(2021)** [itnext.io: Principles, Patterns, and Practices for Effective Infrastructure as Code](https://itnext.io/principles-patterns-and-practices-for-effective-infrastructure-as-code-e5f7bbe13df1) <span class='md-tag md-tag--warning'>[TERRAFORM CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Maps out foundational engineering principles applied to Infrastructure as Code (IaC), including modular design, idempotency, and automated testing. These practices ensure underlying infrastructure layouts remain stable and predictable. This structural guidance is crucial to building scaling pipelines that feed into GitOps controllers.
+## CICD
+
+### GitOps (3)
+
+#### Deployment Strategies
+
+  - **(2021)** [about.gitlab.com: 3 Ways to approach GitOps 🌟](https://about.gitlab.com/blog/gitops-done-3-ways) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A structured analysis comparing three common approaches to implementing GitOps. Contrasts pull-based versus push-based agent configurations, discussing security considerations, cluster scaling restrictions, and auditability trade-offs.
+#### Enterprise Transition
+
+  - **(2021)** [ibm.com: Enable GitOps](https://www.ibm.com/garage) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An enterprise change-management guide from IBM Garage focusing on GitOps adoption. Details organizational processes, environment categorization, and verification configurations required to transition legacy pipelines into declarative GitOps models.
+#### FluxCD
+
+  - **(2025)** [Flux. The GitOps operator for Kubernetes](https://nubenetes.com/flux/) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main technical documentation and resources for Flux, the CNCF-graduated continuous delivery tool for Kubernetes. Analyzes multi-tenancy configurations, automated image update policies, and source controller optimizations that make Flux a core component of modern GitOps workflows.
+#### Kustomize Manifests
+
+  - **(2025)** [Kustomize - Template-Free Kubernetes Configuration Customization](https://nubenetes.com/kustomize/) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical reference for Kustomize, the template-free engine used to manage Kubernetes configurations. Details declarative base and overlay architectures, allowing developers to manage configurations for different environments (dev, staging, prod) without using complex Helm template structures.
 ## Cloud Infrastructure
 
 ### Infrastructure as Code (1)
@@ -114,7 +130,7 @@
   - **(2025)** [**Announcing Private Preview: ArgoCD through Microsoft GitOps**](https://techcommunity.microsoft.com/blog/azurearcblog/announcing-private-preview-argocd-through-microsoft-gitops/4399747) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An announcement regarding native ArgoCD integration managed directly through Azure Arc-enabled Kubernetes and Microsoft GitOps. This development bridges the gap between AKS native extensions and industry-standard GitOps tools, offering declarative cluster state management at scale. It significantly reduces operational overhead by hosting and maintaining control plane elements as a first-class Azure service.
 ## Cluster Management
 
-### GitOps (3)
+### GitOps (4)
 
 #### Anthos
 
@@ -131,7 +147,7 @@
   - **(2022)** [piotrminkowski.com: GitOps with Advanced Cluster Management for Kubernetes 🌟](https://piotrminkowski.com/2022/10/24/gitops-with-advanced-cluster-management-for-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth technical walkthrough focusing on multi-cluster GitOps orchestration patterns. It maps out deployment structures managed via Red Hat Advanced Cluster Management (RHACM) working alongside central ArgoCD configurations.
 ## Continuous Delivery
 
-### GitOps (4)
+### GitOps (5)
 
 #### Adoption Trends
 
@@ -236,7 +252,7 @@
   - **(2023)** [opensourceforu.com: Embracing Progressive Delivery In Kubernetes With GitOps](https://www.opensourceforu.com/2023/10/embracing-progressive-delivery-in-kubernetes-with-gitops) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailing structural implementations of progressive delivery, such as automated canaries, A/B testing, and blue-green rollouts, working in tandem with GitOps tools (like Flagger or Argo Rollouts) to control application lifecycle safety dynamically.
 ## Deployment and Delivery
 
-### GitOps (5)
+### GitOps (6)
 
 #### Octopilot
 
@@ -265,7 +281,7 @@
 
   - **(2024)** [Flagger](https://flagger.app) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Flagger is an industry-standard Kubernetes progressive delivery operator that automates canary rollouts, A/B testing, and blue/green patterns. By orchestrating service mesh routers (Istio, Linkerd) and ingress controllers, Flagger analyzes metrics and safely triggers rollbacks on anomalies.
   - **(2020)** [partlycloudy.blog: Release to Kubernetes like a Pro with Flagger](https://partlycloudy.blog/2020/07/08/release-to-k8s-like-a-pro-with-flagger)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive technical article illustrating advanced canary release architecture using Flagger on active Kubernetes environments. It provides real-world patterns for integrating automated Prometheus metrics checks and defining sensitive rollback parameters.
-## GitOps (6)
+## GitOps (7)
 
 ### Applications
 
@@ -437,7 +453,7 @@
 
 ### Hybrid Cloud
 
-#### GitOps (7)
+#### GitOps (8)
 
   - **(2021)** [Kubernetes GitOps with Azure Arc and Charmed Kubernetes](https://canonical.com/blog/gitops-with-azure-arc-and-charmed-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical case study showcasing hybrid cloud management by linking Canonical's Charmed Kubernetes clusters with Microsoft Azure Arc. It details how Azure Arc acts as an overlay management plane, allowing administrators to push unified GitOps policies, access controls, and application resources to on-premises Charmed clusters.
 ### Kubernetes Distributions
@@ -457,7 +473,7 @@
   - **(2024)** [Kubestack: Terraform GitOps Framework 🌟](https://www.kubestack.com) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kubestack is a specialized GitOps framework tailored for managing cloud-managed and bare-metal Kubernetes clusters using Terraform. Featuring a robust multi-tier environment structure, it guarantees absolute parity from local development platforms through to multi-zone production configurations. It helps platform engineers declare and provision compliant Kubernetes footprints.
 ### Kubestack
 
-#### GitOps (8)
+#### GitOps (9)
 
   - **(2021)** [thenewstack.io: KubeStack: Towards Full-Stack GitOps](https://thenewstack.io/kubestack-towards-full-stack-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed technical review mapping Kubestack's strategies for providing complete declarative lifecycle management for both underlying cloud infrastructure and application layer resources.
 ## Kubernetes (1)
@@ -484,16 +500,23 @@
 #### eBPF vs Proxy
 
   - **(2021)** [solo.io: Exploring Cilium Layer 7 Capabilities Compared to Istio](https://www.solo.io/blog) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural analysis contrasting Cilium's kernel-level L7 eBPF traffic management with Istio's user-space Envoy proxy routing, comparing performance and complexity trade-offs.
+## Orchestration and Packaging
+
+### Helm and GitOps
+
+#### Helm Overview
+
+  - **(2026)** [==Helm==](https://nubenetes.com/helm/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Deep-dive architecture portal on Helm, the package manager for Kubernetes. Focuses on structuring dry templates, lifecycle hooks, chart dependencies, release versioning, and secure variables management inside GitOps pipelines.
 ## Platform Architecture
 
-### GitOps (9)
+### GitOps (10)
 
 #### Modern Pipelines
 
   - **(2020)** [openshift.com: From Code to Production with GitOps, Tekton and ArgoCD 🌟](https://www.redhat.com/en/blog/from-code-to-production-with-gitops) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Introduces robust continuous delivery architectures utilizing Tekton for image construction and Argo CD for GitOps-based state syncs. Serves as the primary operational blueprint for enterprise microservice platforms in 2026.
 ## Platform Engineering
 
-### GitOps (10)
+### GitOps (11)
 
 #### Helm Lifecycle Management
 
@@ -523,7 +546,7 @@
   - **(2020)** [==open-cluster-management.io==](https://open-cluster-management.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Open Cluster Management (OCM) is a modular, extensible CNCF project designed to orchestrate fleets of Kubernetes clusters at scale. It defines standardized API abstractions for cluster registration, application deployment policies, and compliance management.
 ## Provisioning
 
-### GitOps (11)
+### GitOps (12)
 
 #### Legacy Tools (1)
 

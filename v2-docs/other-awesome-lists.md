@@ -30,7 +30,7 @@
 
 #### Awesome Lists (1)
 
-  - **(2025)** [==Awesome MCP Servers==](https://github.com/punkpeye/awesome-mcp-servers) <span class='md-tag md-tag--info'>⭐ 89108</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: A community-curated collection of servers implementing the Model Context Protocol. Live Grounding: Aggregates verified integrations linking AI models to tools like relational databases, enterprise APIs, version control providers, and local execution runtimes.
+  - **(2025)** [==Awesome MCP Servers==](https://github.com/punkpeye/awesome-mcp-servers) <span class='md-tag md-tag--info'>⭐ 89111</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: A community-curated collection of servers implementing the Model Context Protocol. Live Grounding: Aggregates verified integrations linking AI models to tools like relational databases, enterprise APIs, version control providers, and local execution runtimes.
 ## API Development
 
 ### API Gateway
@@ -68,7 +68,7 @@
 
 #### Resource Curation
 
-  - **(2014)** [==Awesome Python 🌟==](https://github.com/vinta/awesome-python) <span class='md-tag md-tag--info'>⭐ 302814</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The quintessential curated directory indexing thousands of top-tier Python packages, libraries, frameworks, and tools across data science, web development, containerization, and networking.
+  - **(2014)** [==Awesome Python 🌟==](https://github.com/vinta/awesome-python) <span class='md-tag md-tag--info'>⭐ 302822</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The quintessential curated directory indexing thousands of top-tier Python packages, libraries, frameworks, and tools across data science, web development, containerization, and networking.
 ## Cloud Infrastructure
 
 ### AWS
@@ -214,7 +214,7 @@
   - **(2023)** [==Awesome Container==](https://github.com/tcnksm/awesome-container) <span class='md-tag md-tag--info'>⭐ 175</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A specialized index investigating low-level container building, runtimes (runc, containerd, CRI-O), image specification standards, and isolation platforms. Ideal for system engineers seeking to master virtualization fundamentals and security sandboxing at the kernel boundary.
 #### General
 
-  - **(2023)** [==@sindresorhus' Awesome==](https://github.com/sindresorhus/awesome) <span class='md-tag md-tag--info'>⭐ 475602</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main index repository by Sindre Sorhus, tracking development resources and technologies globally. Highly useful for architects trying to cross-reference multiple tech stack capabilities.
+  - **(2023)** [==@sindresorhus' Awesome==](https://github.com/sindresorhus/awesome) <span class='md-tag md-tag--info'>⭐ 475614</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main index repository by Sindre Sorhus, tracking development resources and technologies globally. Highly useful for architects trying to cross-reference multiple tech stack capabilities.
 #### Kubernetes (1)
 
   - **(2023)** [==@ramitsurana' Awesome Kubernetes==](https://ramitsurana.github.io/awesome-kubernetes) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A thoroughly organized directory of tools, books, tutorials, and libraries designed for Kubernetes users. Serves as an invaluable learning roadmap for operations engineers and developers to discover and adopt production-grade tooling in their DevOps lifecycles.
@@ -238,7 +238,7 @@
   - **(2023)** [==Awesome Productivity==](https://github.com/jyguyomarch/awesome-productivity) <span class='md-tag md-tag--info'>⭐ 3257</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A curated directory showcasing productivity systems, workspace organizers, automated scripting kits, and distraction-blocking helpers. Designed to aid engineers in maximizing throughput and focusing effort during large-scale development sprints.
 #### Scalability
 
-  - **(2023)** [==Awesome Scalability==](https://github.com/binhnguyennus/awesome-scalability) <span class='md-tag md-tag--info'>⭐ 71719</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A legendary repository outlining the structural design patterns for massive, highly available backend systems. Covering microservices coordination, message brokers, caching schemas, and consensus databases, this represents the gold standard for backend systems architects.
+  - **(2023)** [==Awesome Scalability==](https://github.com/binhnguyennus/awesome-scalability) <span class='md-tag md-tag--info'>⭐ 71720</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A legendary repository outlining the structural design patterns for massive, highly available backend systems. Covering microservices coordination, message brokers, caching schemas, and consensus databases, this represents the gold standard for backend systems architects.
 #### Security (2)
 
   - **(2023)** [==magnologan/awesome-k8s-security: Awesome Kubernetes (K8s) Security 🌟==](https://github.com/magnologan/awesome-k8s-security) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A premier directory indexing specialized Kubernetes security packages, scanners, CVE logs, and hardening guides. It collects key scanning tools such as Falco, Trivy, and Polaris, helping cloud compliance officers map cluster defense strategies against known attack matrices.
@@ -250,7 +250,7 @@
 
 #### DevOps
 
-  - **(2023)** [==The Book of Secret Knowledge 🌟==](https://github.com/trimstray/the-book-of-secret-knowledge) <span class='md-tag md-tag--info'>⭐ 228281</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive, high-density repository of DevOps command cheatsheets, diagnostic scripts, network testing algorithms, and configuration templates. Highly useful for site reliability engineers performing active cluster incident responses and systems troubleshooting under pressure.
+  - **(2023)** [==The Book of Secret Knowledge 🌟==](https://github.com/trimstray/the-book-of-secret-knowledge) <span class='md-tag md-tag--info'>⭐ 228291</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive, high-density repository of DevOps command cheatsheets, diagnostic scripts, network testing algorithms, and configuration templates. Highly useful for site reliability engineers performing active cluster incident responses and systems troubleshooting under pressure.
 ### Educational Resources
 
 #### Articles
@@ -516,7 +516,7 @@
 
 #### Resources (11)
 
-  - **(2026)** [==Awesome Go 🌟==](https://github.com/avelino/awesome-go) <span class='md-tag md-tag--info'>⭐ 175397</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive curated repository of high-quality Go frameworks, libraries, and software. Unmatched resource for identifying vetted dependencies for enterprise service development. Ideal for building lightweight, hyper-fast microservices, Kubernetes operators, and cloud infrastructure CLI tools.
+  - **(2026)** [==Awesome Go 🌟==](https://github.com/avelino/awesome-go) <span class='md-tag md-tag--info'>⭐ 175402</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive curated repository of high-quality Go frameworks, libraries, and software. Unmatched resource for identifying vetted dependencies for enterprise service development. Ideal for building lightweight, hyper-fast microservices, Kubernetes operators, and cloud infrastructure CLI tools.
 ### Java
 
 #### Resources (12)
@@ -555,7 +555,7 @@
 
 #### Interview Preparation (1)
 
-  - **(2026)** [==Tech Interview Handbook==](https://github.com/yangshun/tech-interview-handbook) <span class='md-tag md-tag--info'>⭐ 140287</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive prep suite for engineering roles, focusing on algorithms, practical system design topologies, behavioral matrices, and resume optimizations. Provides actionable code structures and design templates built to satisfy high-bar technical interview pipelines.
+  - **(2026)** [==Tech Interview Handbook==](https://github.com/yangshun/tech-interview-handbook) <span class='md-tag md-tag--info'>⭐ 140288</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive prep suite for engineering roles, focusing on algorithms, practical system design topologies, behavioral matrices, and resume optimizations. Provides actionable code structures and design templates built to satisfy high-bar technical interview pipelines.
 ### Education (1)
 
 #### Foundations
@@ -603,7 +603,7 @@
   - **(2026)** [==Awesome JMeter==](https://github.com/aliesbelik/awesome-jmeter) <span class='md-tag md-tag--info'>⭐ 790</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A structured list of plugins, performance test plans, and reporting scripts designed to optimize Apache JMeter pipelines. Essential for load testing web services, gRPC endpoints, and databases under intense scale constraints. Acts as an excellent resource for performance engineering teams targeting resource bottlenecks.
 #### QA
 
-  - **(2026)** [==Awesome Testing==](https://github.com/TheJambo/awesome-testing) <span class='md-tag md-tag--info'>⭐ 2288</span> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly practical directory highlighting testing paradigms, dynamic scanning modules, and manual/automated testing resources. Focuses on QA educational resources as well as modern test design techniques. Helps teams build scalable integration test harnesses within cloud workflows.
+  - **(2026)** [==Awesome Testing==](https://github.com/TheJambo/awesome-testing) <span class='md-tag md-tag--info'>⭐ 2289</span> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly practical directory highlighting testing paradigms, dynamic scanning modules, and manual/automated testing resources. Focuses on QA educational resources as well as modern test design techniques. Helps teams build scalable integration test harnesses within cloud workflows.
 #### Snippets
 
   - **(2026)** [Awesome Testing code snippets](https://github.com/slawekradzyminski/AwesomeTesting) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A handy collection of code snippets, unit tests, and mocking architectures written across various development frameworks. Assists individual developers in quickly establishing mock-ups and isolated test cases. Ideal for bootstrapping automated integration tests in diverse multi-language environments.

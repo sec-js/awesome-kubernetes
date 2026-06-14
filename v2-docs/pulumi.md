@@ -50,6 +50,11 @@
 #### Pulumi (3)
 
   - **(2022)** [travis.media: Pulumi Tutorial: Automate Kubernetes Deployments and Operations with this Complete Guide](https://travis.media/blog/pulumi-tutorial-automate-kubernetes-operations) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — End-to-end tutorial detailing the programmatic definition of namespaces, ingress controllers, replicas, and pod affinity rules inside target Kubernetes environments using Pulumi's type-safe bindings.
+### Multi-Cloud
+
+#### Pulumi Registry
+
+  - **(2024)** [Pulumi Cloud Providers](https://www.pulumi.com/registry/packages) <span class='md-tag md-tag--warning'>[MULTI-LANGUAGE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The central registry portal hosting official Pulumi cloud infrastructure providers. Enables multi-cloud platform declaration (AWS, Kubernetes, Azure, GCP) using modern programming languages, supporting highly parameterized microservice deployments.
 ### Multi-Cloud Provisioning
 
 #### Comparisons
@@ -71,7 +76,7 @@
   - **(2022)** [pulumi.com: Observability with Infrastructure as Code](https://www.pulumi.com/blog/observability-with-infrastructure-as-code) <span class='md-tag md-tag--warning'>[POLYGLOT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural guide explaining how to integrate observability tooling, health checks, and tracing sidecars dynamically during the code-driven resource compilation phase inside Pulumi pipelines.
 ### Package Management
 
-#### Pulumi Registry
+#### Pulumi Registry (1)
 
   - **(2021)** [siliconangle.com: Pulumi’s new registry aims to ease sharing and reusing cloud infrastructure building blocks](https://siliconangle.com/2021/10/18/pulumis-new-registry-makes-easy-share-reuse-cloud-infrastructure-building-blocks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed insight into the launch of the Pulumi Registry, a public marketplace supporting modular package sharing and reusability of multi-cloud components across diverse language boundaries.
 ## Kubernetes Developer Experience

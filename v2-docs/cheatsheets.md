@@ -9,7 +9,6 @@
   - [mastertheboss.com: OpenShift Cheat Sheet](http://www.mastertheboss.com/soa-cloud/openshift/openshift-cheatsheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone refcard: Getting Started With OpenShift 🌟](https://dzone.com/refcardz/getting-started-with-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Red Hat Developer cheat sheets 🌟](https://developers.redhat.com/cheatsheets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [simplecheatsheet.com](https://simplecheatsheet.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: The DevOps Cheat Sheet](https://medium.com/dataseries/the-devops-cheat-sheet-3177d6cf361c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Intermediate Linux Cheat Sheet](https://developers.redhat.com/cheat-sheets/intermediate-linux-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [bash.cyberciti.biz: Man command](https://bash.cyberciti.biz/guide/Man_command)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -85,6 +84,13 @@
 #### Change Data Capture
 
   - **(2026)** [developers.redhat.com: Debezium on OpenShift Cheat Sheet](https://developers.redhat.com/cheat-sheets/debezium-openshift-cheat-sheet) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An integration cheat sheet for configuring Debezium CDC within OpenShift pipelines. Curator Insight underscores real-time event streaming advantages. Live Grounding verifies Debezium's critical role in decoupling microservice databases without code changes.
+## Automation
+
+### Configuration Management
+
+#### Ansible Reference
+
+  - **(2020)** [google.com/site/mrxpalmeiras: Ansible Cheat Sheet 🌟](https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fsite%2Fmrxpalmeiras%2Fansible%2Fansible-cheat-sheet&dsh=S-1707972940%3A1779029132636791&followup=https%3A%2F%2Fsites.google.com%2Fsite%2Fmrxpalmeiras%2Fansible%2Fansible-cheat-sheet&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AWa2PaujYnU1vHeNQrrR9IV_P56nGiUWnqqM_hG1PBGMZyTXDsxITg7865jvpdfY8gDYaRf3YwR5Kw) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Duplicate entry for community-compiled Ansible reference guidelines detailing task writing, loops, and inventory structure commands. Restricted behind authentication barriers, making it less accessible for active production pipelines.
 ## Cloud Providers
 
 ### AWS
@@ -100,6 +106,13 @@
 #### Architecture Reference
 
   - **(2024)** [==The Google Cloud Developer's Cheat Sheet 🌟==](https://github.com/priyankavergadia/google-cloud-4-words) <span class='md-tag md-tag--info'>⭐ 8225</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exceptionally popular developer's directory translating Google Cloud's extensive product portfolio into four-word functional summaries accompanied by visual flowcharts. It simplifies GCP's architectural choices across compute, database, and machine learning domains.
+## Collaboration
+
+### Documentation
+
+#### Project Wikis
+
+  - **(2021)** [confluence.sakaiproject.org](https://sakaiproject.atlassian.net/wiki) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Central wiki repository hosted by Atlassian Confluence detailing design decisions, setup scripts, and architectural patterns of the open-source Sakai educational software suite. Highly valued for tracing monolithic Java stack layouts and migrations.
 ## Containers
 
 ### Security and Hardening
@@ -163,7 +176,7 @@
   - **(2024)** [TSQL and SQL Queries Cheat Sheet](https://helpercodes.com/sql-query-cheatsheet-tutorial) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A Transact-SQL (T-SQL) syntax index for Microsoft SQL Server. It details platform-specific constructs, stored procedures, exception handling, and query patterns critical for developers working inside enterprise Windows ecosystem storage layers.
 ## DevOps
 
-### Automation
+### Automation (1)
 
 #### Education Tooling
 
@@ -264,7 +277,7 @@
   - **(2024)** [**justingarrison.com: GitHub URL Hacks 🌟**](https://justingarrison.com/blog/2021-07-11-github-url-hacks) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: Deep-dive into URL query parameters and routing hacks to unlock hidden GitHub UI functionality. Live Grounding: Remains a goldmine for platform engineers needing to programmatically link to specific branch comparisons, file edit modes, or issue templates directly from CI/CD dashboards.
 ## Enterprise Systems
 
-### Automation (1)
+### Automation (2)
 
 #### RPA
 
@@ -300,7 +313,7 @@
 #### AWS CLI
 
   - **(2023)** [igoroseledko.com: AWS CLI Cheat Sheet](https://www.igoroseledko.com/aws-cli-cheat-sheet) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A targeted reference outlining essential command syntax for managing cloud environments via the AWS CLI. It covers resource provisioning, profile changes, and remote service diagnostic commands to streamline dev workflows.
-### Configuration Management
+### Configuration Management (1)
 
 #### Ansible
 
@@ -403,6 +416,13 @@
 #### Reference Materials
 
   - **(2023)** [thenewstack.io: K8s Resource Management: An Autoscaling Cheat Sheet 🌟](https://thenewstack.io/k8s-resource-management-an-autoscaling-cheat-sheet) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A concise, actionable reference sheet summarizing core resources limits, request definitions, and autoscaler configuration arguments. A stellar quick-guide for DevOps engineers designing production-ready workload templates.
+## Networking (1)
+
+### Reference
+
+#### Network Cheat Sheets
+
+  - **(2022)** [Networking Cheat Sheet](https://nubenetes.com/networking/) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Consolidated technical reference detailing essential low-level networking parameters, CIDR calculations, subnetting concepts, and critical routing architectures. Serves as a quick diagnostic lookup sheet for standard network protocol analysis and port troubleshooting.
 ## Observability
 
 ### Metrics and Monitoring
@@ -492,6 +512,20 @@
 #### Methodology
 
   - **(2023)** [teamhood.com: scrum cheat sheet](https://teamhood.com/agile/scrum-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical guide outlining Scrum frameworks, detailing sprint cycles, key delivery templates, user-story estimation rules, and standard agile metrics to optimize development velocity.
+## Quality Assurance
+
+### Performance Testing
+
+#### Apache JMeter
+
+  - **(2019)** [CheatSheet for JMeter __time Function Calls](https://www.ufcquechoisir-brest.org) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Quick syntax sheet formatting the use of Apache JMeter `__time` variables during heavy performance evaluation loops. Note: The target URL appears redirected or potentially compromised; users should reference direct JMeter core documentation instead.
+## Reference Portal
+
+### Cheat Sheets (8)
+
+#### General IT
+
+  - **(2021)** [simplecheatsheet.com](https://simplecheatsheet.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-oriented cheat sheet aggregate portal designed for quick reference access. Houses quick syntax charts for scripting runtimes, operating system CLIs, and configuration tools, optimizing task execution speed for active software engineers.
 ## Research
 
 ### Architecture Analysis
@@ -506,7 +540,7 @@
 #### OWASP
 
   - **(2026)** [==cheatsheetseries.owasp.org: OWASP Cheat Sheet Series 🌟🌟==](https://cheatsheetseries.owasp.org/index.html) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: The definitive security reference series detailing modern web app vulnerability mitigations. Live Grounding: Updated dynamically through 2026, this master reference provides critical strategies for API authorization, OAuth2 implementation, Kubernetes security, and safe HCL practices, establishing itself as a mandatory enterprise engineering standard.
-### Networking (1)
+### Networking (2)
 
 #### Network Scanning
 
@@ -551,7 +585,7 @@
 
   - **(2026)** [==Markdown Cheat Sheet 4==](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) <span class='md-tag md-tag--info'>⭐ 60214</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — One of the most starred and utilized Markdown references on GitHub. Curator Insight emphasizes its extreme offline utility. Live Grounding validates its legacy status as the primary standard for formatting across modern source code platforms.
   - **(2026)** [freecodecamp.org: Markdown Cheat Sheet – How to Write in Markdown with Examples](https://www.freecodecamp.org/news/markdown-cheat-sheet) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An educational guide explaining Markdown basics with real-world examples. Curator Insight values its utility for technical writers. Live Grounding shows its broad usage in software engineering bootcamps and initial developer onboardings.
-### Performance Testing
+### Performance Testing (1)
 
 #### JMeter
 
@@ -580,7 +614,7 @@
 #### NodeJS
 
   - **(2023)** [developers.redhat.com: Node.js Cheat Sheet](https://developers.redhat.com/cheat-sheets/nodejs-cheat-sheet) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A Red Hat developer cheat sheet for production-scale Node.js configurations. Explores performance tracking, package configuration optimization, dependency management, and safe containerization.
-### Documentation
+### Documentation (1)
 
 #### Markup Languages
 
@@ -642,7 +676,7 @@
 #### Command Line
 
   - **(2023)** [**pixelbeat.org/cmdline**](http://www.pixelbeat.org/cmdline.html) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: Classic command-line compilation covering coreutils, file manipulation, and processing utilities. Live Grounding: A raw, high-density index of GNU coreutils commands, providing standard parameters for sed, awk, find, and tar.
-#### Networking (2)
+#### Networking (3)
 
   - **(2025)** [==curl cheat sheet for Linux and Unix users==](https://daniel.haxx.se/blog/wp-content/uploads/2020/01/sticker-cheat-sheet.png) <span class='md-tag md-tag--warning'>[IMAGE/PDF CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: The definitive visual sticker/cheat sheet for curl options, designed by curl's creator Daniel Stenberg. Live Grounding: An absolute authority on debugging HTTP protocols, specifying TLS versions, configuring headers, and parsing response outputs in pipeline scripts.
 #### Session Management

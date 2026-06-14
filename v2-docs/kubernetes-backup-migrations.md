@@ -18,7 +18,6 @@
   - [blog.devgenius.io: Backup, Restore and Migrate Kubernetes Cluster resources' using Velero](https://blog.devgenius.io/backup-restore-and-migrate-kubernetes-cluster-resources-using-velero-a9b6997e4b54)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [PX-Backup](https://portworx.com/products/px-backup)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [engineering.konveyor.io: Konveyor Engineering Knowledgebase](https://engineering.konveyor.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [slideshare.net: Migrating Java JBoss EAP Applications to Kubernetes With' S2I](https://www.slideshare.net/KonveyorIO/migrating-java-jboss-eap-applications-to-kubernetes-with-s2i)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Application Migration
 
@@ -27,6 +26,20 @@
 #### Enterprise Migration
 
   - **(2020)** [**konveyor 🌟**](https://konveyor.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An open-source application modernization platform that helps developers migrate legacy virtual machines, stateful services, and bare-metal workloads to Kubernetes. It provides discovery, analysis, and execution tools for large-scale container migrations.
+## Cloud-Native Migration
+
+### Application Modernization
+
+#### Source-to-Image
+
+  - **(2022)** [slideshare.net: Migrating Java JBoss EAP Applications to Kubernetes With' S2I](https://www.slideshare.net/KonveyorIO/migrating-java-jboss-eap-applications-to-kubernetes-with-s2i) 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Presentation outlining migration strategies for porting legacy Java JBoss EAP applications into Red Hat OpenShift/Kubernetes using Source-to-Image (S2I). While S2I remains an enterprise staple in traditional OpenShift pipelines, the industry in 2026 has increasingly shifted toward Cloud Native Buildpacks.
+## Hybrid Cloud and Enterprise
+
+### OpenShift
+
+#### Data Management
+
+  - **(2024)** [**redhat.com: OpenShift Backup and Recovery with Kasten K10**](https://www.redhat.com/es/blog) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A technical guide on integrating Veeam's Kasten K10 platform with Red Hat OpenShift. Demonstrates policy-based automation for backup, disaster recovery, and mobility across multi-tenant clusters while ensuring encrypted volume snapshots.
 ## Infrastructure
 
 ### Control Plane
@@ -141,7 +154,7 @@
   - **(2021)** [youtube: Crane 2 Preview: Introduction and Demo](https://www.youtube.com/watch?v=esIZS7PVrvs&ab_channel=Konveyor) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical walk-through demonstrating Crane's core architecture. Highlights dynamic resource mapping, metadata updates, and persistent volume sync during migration windows.
 ## Kubernetes
 
-### Data Management
+### Data Management (1)
 
 #### Backup
 
