@@ -110,7 +110,7 @@ Let's improve both the private & public IT sector and the opportunities in large
 
 <center markdown="1">
 
-<iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" src="https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F1089077482&show_artwork=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/seatbelts-music" title="Seatbelts" target="_blank" style="color: #cccccc; text-decoration: none;">Seatbelts</a> · <a href="https://soundcloud.com/seatbelts-music/sets/cowboy-bebop-tank-the-best" title="COWBOY BEBOP Tank! the! Best!" target="_blank" style="color: #cccccc; text-decoration: none;">COWBOY BEBOP Tank! the! Best!</a></div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GZl7N8sXyEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 </center>
 ----
