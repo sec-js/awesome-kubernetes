@@ -5,8 +5,8 @@
 
 ## Standard Reference
 
-  - [medium.com: Your team might not need Kubernetes](https://medium.com/faun/your-team-might-not-need-kubernetes-57240e8d554a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com: STOP!! You don’t need Microservices](https://medium.com/@ebin/stop-you-dont-need-microservices-dc732d70b3e0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com: Your team might not need Kubernetes](https://medium.com/faun/your-team-might-not-need-kubernetes-57240e8d554a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone: Programming Styles Compared: Spring Framework vis-a-vis Eclipse MicroProfile' 🌟🌟](https://dzone.com/articles/programming-styles-spring-boot-vis-a-vis-with-ecli)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [betterprogramming.pub: Domain Partitions: How To Find a Healthy Balance' Between Microservices and Monoliths](https://betterprogramming.pub/domain-partitions-how-to-find-a-healthy-balance-between-microservices-and-monoliths-2cd74206559)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: It’s time to stop making “Microservices” the goal of modernization](https://medium.com/ibm-garage/its-time-to-stop-making-microservices-the-goal-of-modernization-71758b400287)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -94,5 +94,5 @@
   - **(2019)** [From monolith to containers: How Verizon containerized legacy applications on OpenShift 🌟](https://www.youtube.com/watch?v=Q6i0LK4vHsU)  <span class='md-tag md-tag--info'>[LEGACY]</span> — This real-world enterprise case study details Verizon's migration journey from a legacy monolithic architecture to containerized workloads on Red Hat OpenShift. It highlights practical strategies for managing stateful applications, addressing legacy security constraints, and overcoming organizational resistance. The resulting deployment demonstrates how automated orchestration accelerates feature delivery and improves cluster utilization.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [About](./about.md)
 

@@ -212,5 +212,5 @@
   - **(2022)** [datree.io: EKS 1.22 Upgrade Tutorial](https://www.datree.io/resources/eks-1-22-upgrade-tutorial)  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An operations-oriented technical walkthrough focusing on upgrading Amazon EKS clusters to version 1.22. It documents the impact of deprecated v1beta1 API removals, specifically detailing transitions for Ingress and CustomResourceDefinition objects. SREs can leverage this guide to configure validation scripts and preventative gatekeeping within CI/CD pipelines prior to AWS control-plane updates.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
+💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Docker](./docker.md)
 

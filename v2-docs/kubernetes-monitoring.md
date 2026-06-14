@@ -150,13 +150,20 @@
 #### Job and CronJob Execution
 
   - **(2021)** [itnext.io: Monitoring Kubernetes Jobs](https://itnext.io/monitoring-kubernetes-jobs-8adc241a7b60) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Targets the specific challenges of monitoring short-lived batch jobs and CronJobs inside Kubernetes. Outlines Prometheus query logic (PromQL) to detect run execution duration, failure codes, and long-running abandoned pods that bypass typical active deployment scraping rules.
-## Infrastructure as Code
+## Infrastructure
 
-### Helm
+### Hardware
 
-#### Prometheus Deployment
+#### GPU Virtualization
 
-  - **(2023)** [Setup Prometheus Using Helm Chart on Kubernetes](https://devopscube.com/setup-prometheus-helm-chart) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical guide on installing a production-ready Prometheus instance into Kubernetes using Helm. Explains configuring persistent storage claims, setting retention policies, and overriding default ingress objects.
+  - **(2022)** [Sharing a NVIDIA GPU Between Pods in Kubernetes](https://www.cloudnativedeepdive.com/sharing-a-nvidia-gpu-between-pods-in-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — In-depth technical exploration of fractional GPU sharing techniques, including NVIDIA Multi-Instance GPU (MIG) and MPS, within Kubernetes clusters. Resolves major resource allocation bottlenecks to drive cost-effective machine learning workflows.
+## Kubernetes (2)
+
+### Resource Management
+
+#### CPU Throttling
+
+  - **(2024)** [CPU Limits in Kubernetes: Deep Dive into Pod Throttling and Kernel Interactions](https://www.linkedin.com/pulse/cpu-limits-kubernetes-why-your-pod-idle-still-deep-dive-lazarev-k3m7f?utm_source=share&utm_medium=member_android&utm_campaign=share_via) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exceptionally detailed deep dive into kernel interactions, Linux control groups (cgroups), and the Completely Fair Scheduler (CFS) quota mechanism inside Kubernetes. It demystifies why pods experience severe throttling even when aggregate CPU metrics appear healthy, analyzing the impact of short-duration burst workloads. It provides essential mathematical formulas and kernel parameters to fine-tune pod limits safely.
 ## Log Management and Diagnostics
 
 ### Audit Logging
@@ -210,7 +217,7 @@
 #### eBPF-Based Telemetry (1)
 
   - **(2023)** [isovalent.com: What are the 4 Golden Signals for Monitoring Kubernetes?](https://isovalent.com/blog/post/what-are-the-4-golden-signals-for-monitoring-kubernetes) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the implementation of Google's 'Four Golden Signals' within Kubernetes, highlighting how eBPF-powered tools like Cilium provide transparent application level metrics (latency, traffic, errors, saturation) without relying on traditional sidecar architectures.
-### Resource Management
+### Resource Management (1)
 
 #### Sizing and Quotas
 
@@ -324,7 +331,16 @@
 
   - **(2023)** [8 Best Kubernetes monitoring tools; Paid & open-source](https://middleware.io/blog/kubernetes-monitoring/tools) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compiles a curated comparison of eight high-performance paid and open-source monitoring platforms. Focuses on the trade-offs of using managed SaaS models versus self-hosted, cloud-native monitoring stacks with respect to total cost of ownership, alerting, and data retention.
   - **(2022)** [betterstack.com: 10 Best Kubernetes Monitoring Tools in 2022 🌟](https://betterstack.com/community/comparisons/kubernetes-monitoring-tools) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative market review of ten leading commercial and open-source Kubernetes monitoring suites. Evaluates architecture models, scaling properties, out-of-the-box features, and implementation overheads across modern toolchains like Prometheus, Datadog, Dynatrace, and Better Stack.
+## Site Reliability Engineering
+
+### Observability (2)
+
+#### Monitoring Theory
+
+##### Distributed Systems
+
+  - **(2016)** [==Monitoring Distributed Systems - Google SRE Book==](https://sre.google/sre-book/monitoring-distributed-systems) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The foundational text establishing distributed systems monitoring fundamentals. Introduces the 'four golden signals' (latency, traffic, errors, and saturation) and addresses the core engineering trade-offs between white-box and black-box monitoring. Curator Insight: Seminal SRE literature defining core telemetry metrics. Live Grounding: Remains the architectural blueprint for modern production-grade telemetry frameworks globally.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
+💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Docker](./docker.md)
 

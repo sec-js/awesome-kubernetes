@@ -239,6 +239,13 @@
 #### Operator Perspectives
 
   - **(2021)** [opensource.com: What Kubernetes taught me about development](https://opensource.com/article/21/12/kubernetes-developer) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural reflection detailing key developer-centric shifts encountered when adapting to Kubernetes environments. It explores paradigms like declarative APIs, container-first test loops, and how platform engineers must redefine application boundaries in microservice environments.
+## Infrastructure as Code
+
+### Helm (1)
+
+#### Prometheus Deployment
+
+  - **(2023)** [Setup Prometheus Using Helm Chart on Kubernetes](https://devopscube.com/setup-prometheus-helm-chart) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical guide on installing a production-ready Prometheus instance into Kubernetes using Helm. Explains configuring persistent storage claims, setting retention policies, and overriding default ingress objects.
 ## Multi-Cluster Management
 
 ### Project Sveltos
@@ -321,6 +328,9 @@
 #### Java Microservices
 
   - **(2022)** [openshift.com: Introducing the Quarkus Helm Chart](https://www.redhat.com/en/blog/introducing-the-quarkus-helm-chart) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introduction detailing the design of the Quarkus Helm Chart, optimized for cloud-native Java microservices. It highlights native compiling integrations, GraalVM deployment profiles, and how to harness OpenShift pipelines for highly efficient container bootstrapping.
+#### Learning Hubs
+
+  - **(2025)** [Red Hat Training & Certification Community](https://access.redhat.com/community/learn) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat's official training ecosystem community. It offers platform operators, architects, and developers verified learning pathways, course materials, and labs covering OpenShift administration and cloud-native practices.
 #### Legacy Charts
 
   - **(2020)** [==Jenkins==](https://github.com/helm/charts/tree/master/stable/jenkins) <span class='md-tag md-tag--info'>⭐ 15424</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — The deprecated stable Helm chart repository for Jenkins. It is strongly recommended to avoid this legacy version, as active development and security patches have transitioned exclusively to the official Jenkins community repository on Artifact Hub.
@@ -356,5 +366,5 @@
   - **(2022)** [aws.amazon.com: Preventing Kubernetes misconfigurations using Datree](https://aws.amazon.com/blogs/containers/preventing-kubernetes-misconfigurations-using-datree) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS technical write-up detailing the configuration of Datree policies inside Amazon EKS clusters to catch security and configuration drift. It details automated testing strategies to block misconfigured resource manifests at pre-commit and pipeline execution gates.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [About](./about.md)
 

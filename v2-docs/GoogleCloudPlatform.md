@@ -337,5 +337,5 @@
   - **(2026)** [github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform) <span class='md-tag md-tag--warning'>[MULTI CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The master landing organization for Google Cloud Platform's open-source projects, APIs, and CLI utilities. Holds structural frameworks, SDKs, and enterprise infrastructure design tools.
 
 ---
-💡 **Explore Related:** [Edge Computing](./edge-computing.md) | [Azure](./azure.md) | [AWS Storage](./aws-storage.md)
+💡 **Explore Related:** [AWS Serverless](./aws-serverless.md) | [AWS Backup](./aws-backup.md) | [AWS Databases](./aws-databases.md)
 

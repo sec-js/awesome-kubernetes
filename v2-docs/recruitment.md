@@ -38,13 +38,6 @@
 #### Git Manipulation
 
   - **(2015)** [github.com/rakyll/fake-it-til-you-make-it](https://github.com/rakyll/fake-it-til-you-make-it) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A shell-based contribution graphic simulation script. Evaluated as a legacy tool under Minimum Viable Quality metrics due to lack of active commits since 2015. Retained only to showcase historical Git metadata manipulation patterns.
-## Engineering Leadership
-
-### Remote Work
-
-#### Team Management
-
-  - **(2021)** [entrepreneur.com: ¿Cómo manejar un equipo que trabaja desde sus casas?](https://spanish.entrepreneur.com) <span class='md-tag md-tag--warning'>[ES CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Offers tactical guidelines for managing distributed engineering teams working in remote environments. Recommends implementing asynchronous collaboration tools, defining objective performance milestones, and promoting active virtual team meetings to ensure software project alignment and mitigate remote developer isolation.
 ## Industry Analysis
 
 ### Automation Impact
@@ -132,7 +125,7 @@
 #### Generational Dynamics
 
   - **(2021)** [forbes.com: ‘The Great Resignation’: Why Gen Z Is Leaving The Workforce In Droves…And What To Do About It](https://www.forbes.com/sites/jasonwingard/2021/09/02/the-great-resignation-why-gen-z-is-leaving-the-workforce-in-drovesand-what-to-do-about-it)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analysis of generational workplace transitions, detailing why entry-level cohorts demand greater cultural alignment and transparent organizational pipelines. It guides engineering managers in refining talent onboarding strategies and organizational goal architectures.
-### Remote Work (1)
+### Remote Work
 
 #### Future of Work
 
@@ -222,7 +215,7 @@
 #### Contract Analysis
 
   - **(2020)** [mikzuit/fair-job-offer](https://github.com/mikzuit/fair-job-offer) <span class='md-tag md-tag--info'>⭐ 19</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight: A direct calculator tool created to evaluate contract offers and compensation fairness. Live Grounding: This repository is now archived and categorized as legacy due to complete commit inactivity since 2020, yet still acts as an architectural blueprint for programmatic contract parser apps.
-#### Remote Work (2)
+#### Remote Work (1)
 
   - **(2022)** [codigonuevo.com: ¿Debería adaptarse el sueldo del teletrabajo al lugar en el que vivas?](https://www.codigonuevo.com/yo/deberia-adaptarse-sueldo-teletrabajo-lugar-vivas-AOCN305757) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Explores the debate surrounding salary adjustment based on geographic location for teleworkers. Live Grounding: Discusses the socioeconomic and architectural impact of localized vs. flat salary structures in a remote-first tech ecosystem, emphasizing how cost-of-living adjustments affect developer retention and organizational design.
 ### Education
@@ -267,5 +260,5 @@
   - **(2022)** [businessinsider.es: Los 9 factores que más repercuten en la felicidad en el trabajo, según los trabajadores](https://www.businessinsider.es/desarrollo-profesional/9-factores-repercuten-felicidad-trabajador-352445) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Examines nine primary factors contributing to happiness and stability in modern workplaces. Live Grounding: Pinpoints flexibility, operational autonomy, psychological safety, and meaningful work as key drivers to minimize technical debt and turnover within engineering groups.
 
 ---
-💡 **Explore Related:** [HR](./hr.md) | [Elearning](./elearning.md) | [Newsfeeds](./newsfeeds.md)
+💡 **Explore Related:** [Appointment Scheduling](./appointment-scheduling.md) | [Finops](./finops.md) | [Digital Money](./digital-money.md)
 

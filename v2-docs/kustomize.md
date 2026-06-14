@@ -84,7 +84,14 @@
 #### Kubestack
 
   - **(2026)** [==Kubestack Gitops Framework==](https://github.com/kbst/terraform-kubestack) <span class='md-tag md-tag--info'>⭐ 709</span> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source Terraform-driven GitOps framework configured to simplify public cloud Kubernetes platform deployments and application configurations. It leverages native inheritance behaviors of Terraform modules to manage multi-cluster topologies predictably. It bridges infrastructure provisioning and GitOps continuous delivery workflows.
+## Infrastructure Security
+
+### Inbound Traffic Management
+
+#### Traefik
+
+  - **(2020)** [blog.tomarrell.com: Kustomize: Traefik v2.2 as a Kubernetes Ingress Controller](https://blog.tomarrell.com/post/traefik_v2_on_kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical integration blog detailing how to deploy and customize the Traefik v2.2 Ingress Controller using Kustomize configurations. It illustrates how to define overlays for environment-specific network values, secure SSL contexts, and service exposures. Useful reference for managing non-trivial ingress manifests programmatically.
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Oauth](./oauth.md)
+💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Ansible](./ansible.md)
 

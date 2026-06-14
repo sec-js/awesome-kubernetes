@@ -40,5 +40,5 @@
   - **(2022)** [**thenewstack.io: How to Analyze Code and Find Vulnerabilities with SonarQube**](https://thenewstack.io/how-to-analyze-code-and-find-vulnerabilities-with-sonarqube) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Teaches developers how to interpret SonarQube dashboards to discover common security vulnerabilities and code smells. Demonstrates optimization rules and quality profiles adjustment methods.
 
 ---
-💡 **Explore Related:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md) | [Flux](./flux.md)
+💡 **Explore Related:** [Jenkins](./jenkins.md) | [Argo](./argo.md) | [CI/CD](./cicd.md)
 

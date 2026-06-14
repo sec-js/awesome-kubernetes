@@ -5,6 +5,7 @@
 
 ## Standard Reference
 
+  - [medium.com/geekculture: Convert Kubernetes YAML Files Into Helm Charts](https://medium.com/geekculture/convert-kubernetes-yaml-files-into-helm-charts-4107de079455)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dex.dev: YAML Templating Solutions: Helm & Kustomize](https://www.dex.dev/dex-videos/templating-solutions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [wikipedia: YAML](https://en.wikipedia.org/wiki/YAML)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetestutorials.com: Kubernetes : Introduction to YAML 🌟](https://kubernetestutorials.com/kubernetes-tutorials/kubernetes-introduction-to-yaml)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -16,7 +17,6 @@
   - [medium: Don’t Repeat Yourself with Anchors, Aliases and Extensions in Docker' Compose Files](https://medium.com/@kinghuang/docker-compose-anchors-aliases-extensions-a1e4105d70bd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jsonformatter.org/yaml-validator](https://jsonformatter.org/yaml-validator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@slashben81: How to write a YAML file for Kubernetes? | ARMO](https://medium.com/@slashben81/how-to-write-a-yaml-file-for-kubernetes-armo-76f29e533b1f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/geekculture: Convert Kubernetes YAML Files Into Helm Charts](https://medium.com/geekculture/convert-kubernetes-yaml-files-into-helm-charts-4107de079455)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [wikipedia: JSON](https://en.wikipedia.org/wiki/JSON)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone.com: The Ultimate JSON Library: JSON.simple vs. GSON vs. Jackson vs.' JSONP](https://dzone.com/articles/the-ultimate-json-library-jsonsimple-vs-gson-vs-ja)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [betterprogramming.pub: How to Make JSON and Python Talk to Each Other](https://betterprogramming.pub/how-to-make-json-and-python-talk-to-each-other-41531d58e59d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -39,24 +39,10 @@
   - **(2021)** [==Kubectl output options 🌟==](https://gist.github.com/so0k/42313dbb3b547a0f51a547bb968696ba) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A curated technical guide detailing advanced kubectl formatting options. It covers jsonpath extractions, custom columns, and Go templating recipes. This cheat sheet is incredibly valuable for platform engineers querying complex cluster statuses directly from the command line.
 #### Configuration Management
 
-
-??? abstract "Architect's Technical Comparison Table"
-    | Solution | Maturity | Primary Focus | Language | Stars |
-    | :--- | :--- | :--- | :--- | :--- |
-    | [itnext.io: Kubernetes YAML Tips | Daniele Polencic 🌟](https://itnext.io/kubernetes-yaml-tips-and-tricks-904a2c0b2b81) |  | Configuration Management | YAML | 🌟🌟🌟🌟 |
-    | [k8syaml.com 🌟](https://k8syaml.com) |  | Configuration Management | N/A | 🌟🌟🌟🌟 |
-    | [itnext.io: How to create Kubernetes YAML files 🌟](https://itnext.io/how-to-create-kubernetes-yaml-files-abb8426eeb45) |  | Configuration Management | N/A | 🌟🌟🌟🌟 |
-    | [boxunix.com: A Better Way of Organizing Your Kubernetes Manifest Files 🌟](https://boxunix.com/2020/05/15/a-better-way-of-organizing-your-kubernetes-manifest-files) |  | Configuration Management | N/A | 🌟🌟🌟🌟 |
-    | [linkedin.com/pulse: How to write YAML file for Kubernetes | Megha S.k](https://www.linkedin.com/pulse/how-write-yaml-file-kubernetes-megha-s-k) |  | Configuration Management | N/A | 🌟🌟🌟 |
-
   - **(2021)** [**itnext.io: Kubernetes YAML Tips | Daniele Polencic 🌟**](https://itnext.io/kubernetes-yaml-tips-and-tricks-904a2c0b2b81) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An ITNext tutorial compilation detailing advanced YAML tips and tricks for Kubernetes. It explains how to combine multiple YAML documents, optimize resource blocks, and safely check designs using dry-run flags. It is a highly practical reference for application operators.
-  - **(2021)** [**k8syaml.com 🌟**](https://k8syaml.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An interactive web environment designed to generate clean, standard Kubernetes manifests based on best-practice configurations. It enables operators to construct and validate resources without writing boilerplate templates from scratch.
   - **(2021)** [**itnext.io: How to create Kubernetes YAML files 🌟**](https://itnext.io/how-to-create-kubernetes-yaml-files-abb8426eeb45) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A step-by-step ITNext guide explaining how to construct production-ready Kubernetes configuration manifests. It discusses schema rules, basic resources, and templating practices to prevent deployment failures.
   - **(2020)** [**boxunix.com: A Better Way of Organizing Your Kubernetes Manifest Files 🌟**](https://boxunix.com/2020/05/15/a-better-way-of-organizing-your-kubernetes-manifest-files) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A tactical blog post detailing file hierarchy designs for managing Kubernetes manifests. It compares simple raw file naming to directory segmentation, Kustomize overrides, and Helm charts. This serves as a helpful guide for platform engineers standardizing GitOps setups.
   - **(2021)** [linkedin.com/pulse: How to write YAML file for Kubernetes | Megha S.k](https://www.linkedin.com/pulse/how-write-yaml-file-kubernetes-megha-s-k) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory LinkedIn Pulse guide on designing and formatting Kubernetes configurations. It covers basic resource schemas for Pods, Services, and Deployments, offering a straightforward reference for developers starting with Kubernetes.
-#### Policy Enforcement
-
-  - **(2021)** [**dev.to: Automating quality checks for Kubernetes YAMLs**](https://dev.to/wkrzywiec/automating-quality-checks-for-kubernetes-yamls-398) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A detailed technical guide demonstrating how to integrate automated quality controls for Kubernetes manifests within build pipelines. It explains how to combine linters and security checks to validate configurations before they are deployed.
 #### Validation
 
   - **(2021)** [**instrumenta/kubeval**](https://github.com/instrumenta/kubeval) <span class='md-tag md-tag--info'>⭐ 3226</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A historic CLI tool used to validate Kubernetes configuration manifests against JSON schemas. Although it is archived and has been largely replaced by Kubeconform, Kubeval remains an important reference point in the evolution of Kubernetes configuration testing.
@@ -246,5 +232,5 @@
   - **(2023)** [kubevious.io: Top Kubernetes YAML Validation Tools](https://kubevious.io/blog/post/top-kubernetes-yaml-validation-tools) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A market breakdown contrasting modern validation utilities for Kubernetes platforms. Reviews differences between structural validators, OPA-based policy enforcement engines, and semantic layout detectors.
 
 ---
-💡 **Explore Related:** [Message Queue](./message-queue.md) | [Databases](./databases.md) | [Crunchydata](./crunchydata.md)
+💡 **Explore Related:** [Crunchydata](./crunchydata.md) | [Databases](./databases.md) | [Message Queue](./message-queue.md)
 

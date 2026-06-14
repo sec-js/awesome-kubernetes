@@ -401,5 +401,5 @@
   - **(2022)** [**ML Platform Workshop**](https://github.com/aporia-ai/mlplatform-workshop) <span class='md-tag md-tag--info'>⭐ 445</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A hands-on technical workshop repository showcasing the design of an end-to-end Machine Learning Platform. Demonstrates real-world integration of model registries, tracking servers, and deployment mechanisms under production-like conditions. Excellent educational resource for learning the architectural glue of modern MLOps frameworks.
 
 ---
-💡 **Explore Related:** [AI](./ai.md) | [AI Agents MCP](./ai-agents-mcp.md) | [ChatGPT](./chatgpt.md)
+💡 **Explore Related:** [AI](./ai.md) | [ChatGPT](./chatgpt.md) | [AI Agents MCP](./ai-agents-mcp.md)
 

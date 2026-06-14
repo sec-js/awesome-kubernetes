@@ -6,13 +6,18 @@
 ## Standard Reference
 
   - [Terraform Provider for Google Cloud 7.0 is now GA](https://www.hashicorp.com/en/blog/terraform-provider-for-google-cloud-7-0-is-now-ga)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [hashicorp.com: HashiCorp Learning Resources Reference Guide 🌟](https://www.hashicorp.com/blog/hashicorp-learning-resources-reference-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hashicorp.com: HashiCorp Teams with AWS on New Control Tower Account Factory' for Terraform](https://www.hashicorp.com/blog/hashicorp-teams-with-aws-on-new-control-tower-account-factory-for-terraform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Terraform for Standardizing AWS Deployments](https://t.co/5E4FLUyh98)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Application Network Security in Azure Subnets, Endpoints, DNS, NSGs with Terraform Code](https://medium.com/@codebob75/application-network-security-in-azure-subnets-endpoints-dns-nsgs-with-terraform-code-0bcabdb3a65b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hashicorp.com: Build secure AI applications on Azure with HashiCorp Terraform' and Vault](https://www.hashicorp.com/blog/build-secure-ai-applications-on-azure-with-hashicorp-terraform-and-vault)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [fsgeorgee.medium.com: Growing out of Heroku to Terraform, Docker and AWS](https://fsgeorgee.medium.com/growing-out-of-heroku-to-terraform-docker-and-aws-69e66df4132d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hashicorp.com: HashiCorp Learning Resources Reference Guide 🌟](https://www.hashicorp.com/blog/hashicorp-learning-resources-reference-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Scale with Confidence Using Terraform: Better Cost Visibility, Stronger' Governance, and Less Operational Overhead](https://t.co/y414rbxM7l)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Terraform 1.15: Flexible Module Management, Deprecation Warnings, and Windows' ARM64 Support](https://t.co/C6uicr7ZPS)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [The Maester - Terraform Module](https://cloudtips.nl/the-maester-terraform-module-8c68b2b68c51)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.hashicorp.com: HashiCorp Cloud](https://cloud.hashicorp.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hashicorp.com: Multi-Region Replication Now Available with HCP Vault](https://www.hashicorp.com/blog/multi-region-replication-now-available-with-hcp-vault)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [levelup.gitconnected.com: Continuous Integration and Continuous Deployment' with Terraform Cloud](https://levelup.gitconnected.com/continuous-integration-continuous-deployment-with-terraform-cloud-ad384f29d7a0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Terraform 1.15: Flexible Module Management, Deprecation Warnings, and Windows' ARM64 Support](https://t.co/C6uicr7ZPS)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com: Why should Terraform be one of your DevOps tools?](https://medium.com/devopslinks/why-should-terraform-be-one-of-your-devops-tools-29ae15861b1f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [udemy.com: Learn DevOps: Infrastructure Automation With Terraform](https://www.udemy.com/learn-devops-infrastructure-automation-with-terraform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: AWS API Gateway](https://medium.com/@hashiroulap/terraform-aws-api-gateway-6d86a010f359)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -110,7 +115,6 @@
   - [medium.com/@dmglascoe: Deploying IAM Users and S3 Buckets using Boto3' and Terraform](https://medium.com/@dmglascoe/deploying-iam-users-and-s3-buckets-using-boto3-and-terraform-71ec04b2e14b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hashicorp.com: Terraform Practices: The Good, the Bad, and the Ugly](https://www.hashicorp.com/resources/terraform-practices-the-good-the-bad-and-the-ugly)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [A Guide to Cloud Cost Optimization with HashiCorp Terraform 🌟](https://www.hashicorp.com/blog/a-guide-to-cloud-cost-optimization-with-hashicorp-terraform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Scale with Confidence Using Terraform: Better Cost Visibility, Stronger' Governance, and Less Operational Overhead](https://t.co/y414rbxM7l)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [bridgecrew.io: Terraform security 101: Best practices for secure infrastructure' as code 🌟](https://bridgecrew.io/blog/terraform-security-101-best-practices-for-secure-infrastructure-as-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@ranjana-jha: Infrastructure as a code best practices : Terraform](https://medium.com/@ranjana-jha/infrastructure-as-a-code-best-practices-terraform-d7ae4291d621)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [sairamkrish.medium.com: Terraform — Best practices and project setup](https://sairamkrish.medium.com/terraform-best-practices-and-project-setup-1772ad04cf5e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -124,8 +128,6 @@
   - [hashicorp.com: Announcing Support for Code Signing for AWS Lambda in the' Terraform AWS Provider](https://www.hashicorp.com/blog/announcing-support-for-aws-lambda-code-signing-in-the-terraform-aws-provider)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/devops-mojo: Terraform — Workspaces Overview 🌟](https://medium.com/devops-mojo/terraform-workspaces-overview-what-is-terraform-workspace-introduction-getting-started-519848392724)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [awesomeopensource.com: Terraform Aws Multi Az Subnets](https://awesomeopensource.com/project/cloudposse/terraform-aws-multi-az-subnets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Application Network Security in Azure Subnets, Endpoints, DNS, NSGs with Terraform Code](https://medium.com/@codebob75/application-network-security-in-azure-subnets-endpoints-dns-nsgs-with-terraform-code-0bcabdb3a65b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [The Maester - Terraform Module](https://cloudtips.nl/the-maester-terraform-module-8c68b2b68c51)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hashicorp.com: New Terraform Tutorials on Provisioning and Managing Kubernetes' Clusters 🌟](https://www.hashicorp.com/blog/new-terraform-tutorials-on-provisioning-and-managing-kubernetes-clusters)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Deploying and Managing a Minimal App in a Kubernetes Cluster with Terraform and Ansible](https://www.hashicorp.com/resources/deploying-managing-minimal-app-kubernetes-cluster-terraform-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Deploy Any Resource With The New Kubernetes Provider for HashiCorp Terraform](https://www.hashicorp.com/blog/deploy-any-resource-with-the-new-kubernetes-provider-for-hashicorp-terraform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -141,7 +143,6 @@
   - [medium.com/@tarikucar: Getting started with Google Cloud Storage with Terraform' 🚀](https://medium.com/@tarikucar/getting-started-with-google-cloud-storage-with-terraform-dfb26d85e2dd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hashicorp.com: Access Google Cloud from HCP Terraform with workload identity](https://www.hashicorp.com/blog/access-google-cloud-from-hcp-terraform-with-workload-identity)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hashicorp.com: Terraform Adds Support for GKE Autopilot](https://www.hashicorp.com/blog/terraform-adds-support-for-gke-autopilot)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Terraform for Standardizing AWS Deployments](https://t.co/5E4FLUyh98)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone: terraform with AWS](https://dzone.com/articles/terraform-with-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hashicorp.com: Terraforming RDS: What Instacart Learned Managing Over 50' AWS RDS PostgreSQL Instances with Terraform](https://www.hashicorp.com/resources/terraform-what-instacart-learned-managing-over-50-aws-rds-postgresql-instances)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone: how to deploy apps effortlessly with **packer and terraform**](https://dzone.com/articles/how-to-deploy-apps-effortlessly-with-packer-and-te)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -178,7 +179,6 @@
   - [medium: Using Terraform with Azure — the right way](https://medium.com/01001101/using-terraform-with-azure-the-right-way-35af3b51a6b0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hashicorp.com: Configuring Azure Application Gateway with Consul-Terraform-Sync](https://www.hashicorp.com/blog/configuring-azure-application-gateway-with-consul-terraform-sync)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hashicorp.com: Building a secure Azure reference architecture with Terraform](https://www.hashicorp.com/blog/building-a-secure-azure-reference-architecture-with-terraform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [hashicorp.com: Build secure AI applications on Azure with HashiCorp Terraform' and Vault](https://www.hashicorp.com/blog/build-secure-ai-applications-on-azure-with-hashicorp-terraform-and-vault)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [awstip.com: Deploying Azure Infrastructure with Terraform](https://awstip.com/deploying-azure-infrastructure-with-terraform-e34046c65d0f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [faun.pub: Azure DevOps: Deploying Azure Resources using Terraform](https://faun.pub/azure-devops-deploying-azure-resources-using-terraform-1f2fe46c6aa0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ibrahims.medium.com: Azure Terraform Pipeline — DevOps](https://ibrahims.medium.com/azure-terraform-pipeline-devops-b57005a37936)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -349,25 +349,6 @@
 #### IaC (3)
 
   - **(2024)** [==registry.terraform.io: Terraform Azure Resources 🌟==](https://registry.terraform.io/modules/azurerm/resources/azure/latest) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official HashiCorp documentation registry detailing resource definitions and configuration syntax for the AzureRM provider. It acts as the definitive engineering blueprint for implementing cloud infrastructure, handling resource management, lifecycle controls, and API calls across the Azure cloud environment.
-## CICD Pipelines
-
-### Terraform
-
-#### Azure DevOps Pipelines
-
-  - **(2025)** [Azure DevOps Terraform Pipeline (Complete Guide + YAML Examples)](https://deniscooper.co.uk/azure-devops-terraform-pipeline) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive configuration guide showing how to set up robust, multi-stage YAML pipelines in Azure DevOps for Terraform configurations. Solves remote backend locking and authentication hurdles.
-### Terraform Testing
-
-#### Azure DevOps
-
-  - **(2025)** [Automate Terraform Testing with Azure DevOps Pipelines](https://skundunotes.com/2025/01/22/automate-terraform-testing-with-azure-devops-pipelines) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed technical blueprint demonstrating the integration of automated security verification and configuration syntax checks inside Azure DevOps release steps for HashiCorp Terraform.
-## Cloud DevOps
-
-### Infrastructure as Code
-
-#### Terraform Orchestration
-
-  - **(2022)** [thomasthornton.cloud: Deploy Terraform using Azure DevOps](https://thomasthornton.cloud/deploy-terraform-using-azure-devops) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A guide on orchestrating Terraform plan and apply commands using Azure DevOps YAML pipelines. While curator insights center on simple task execution and state file security, 2026 enterprise engineering standards require using OpenID Connect (OIDC) Workload Identity instead of hardcoded client secrets to run automated deployments.
 ## Cloud Infrastructure
 
 ### AWS (1)
@@ -457,14 +438,11 @@
 #### Platform Engineering
 
   - **(2022)** [hub.qovery.com: Terraform is Not the Golden Hammer](https://www.qovery.com/docs/getting-started/introduction) <span class='md-tag md-tag--primary'>[CASE STUDY]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical critique from Qovery discussing the boundaries of Terraform. Argues that while it is exceptional for static cloud resource layout, it remains ill-suited for real-time application deployment layers and dynamic developer self-service tasks.
-### Infrastructure as Code (1)
+### Infrastructure as Code
 
 #### AWS Integrations
 
   - **(2021)** [trek10.com: Beginner's Guide to Using Terraform with AWS 🌟](https://caylent.com/blog/beginners-guide-to-using-terraform-with-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical, step-by-step introduction to establishing your first AWS configurations using Terraform. Covers authenticating to AWS providers, configuring remote S3 state backends, and provisioning modular VPCs.
-#### Azure IPAM
-
-  - **(2025)** [Manage Azure IPAM with Terraform](https://mattias.engineer/blog/2025/azure-ipam-with-terraform) <span class='md-tag md-tag--warning'>[TERRAFORM CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive guide to automating Azure IP Address Management (IPAM) using Terraform. It outlines strategies for programmatic subnet delegation, non-overlapping address space allocation, and enterprise-wide IP tracking to prevent resource collision in complex hub-and-spoke virtual architectures.
 #### Best Practices
 
   - **(2025)** [terraform-best-practices.com 🌟](https://www.terraform-best-practices.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The comprehensive industry reference manual outlining community-validated coding styles, state file segmenting strategies, remote locking configurations, and automated enterprise pipeline architectures.
@@ -498,9 +476,6 @@
 
   - **(2021)** [acloudguru.com: What does the Terraform 1.0 release mean for you?](https://acloudguru.com/blog/engineering/what-does-the-terraform-1-0-release-mean-for-you)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the watershed release of Terraform 1.0. This release established long-term API stability, backward compatibility guarantees, and highly optimized upgrade lifecycles, cementing its status as an enterprise-grade staple.
   - **(2021)** [thenewstack.io: Terraform 1.0 Reflects What HashiCorp Has Learned About Infrastructure-as-Code](https://thenewstack.io/terraform-1-0-reflects-what-hashicorp-has-learned-about-infrastructure-as-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An executive retrospection of the lessons that shaped the landmark Terraform 1.0 milestone. Highlights improvements in state file handling, custom provider interfaces, and the maturation of HCL syntax semantics.
-#### Migration Strategies
-
-  - **(2026)** [The Definitive Guide to Importing Your Cloud Resources into IaC](https://blog.cloudgeni.ai/the-definitive-guide-to-importing-your-cloud-resources-into-iac) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed technical review addressing drift reconciliation when converting untracked click-ops clouds into declarative state files. Reviews native state import commands and toolkits that automate resource generation.
 #### Module Development
 
   - **(2022)** [acloudguru.com: How to use Terraform outputs and inputs](https://www.pluralsight.com/resources/blog/cloud/how-to-use-terraform-inputs-and-outputs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A fundamental guide to module parameterization. Clarifies how to construct flexible, highly reusable modules using input variables (with strict validation rules) and export modular properties via standard outputs.
@@ -529,9 +504,6 @@
 
   - **(2024)** [learn.hashicorp.com: Configure Default Tags for AWS Resources 🌟](https://developer.hashicorp.com/terraform/tutorials/aws/aws-default-tags)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Demonstrates how to configure centralized tagging profiles directly inside the AWS provider block. Enables developers to inherit unified organizational compliance tags automatically across all provisioned AWS cloud assets.
   - **(2020)** [env0.com: We’re Opensourcing Terratag to Make Multicloud Resource Tagging Easier](https://www.env0.com/blog/were-opensourcing-terratag-to-make-multicloud-resource-tagging-easier)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduction to Terratag, an open-source CLI tool designed to automatically inject standard tagging and metadata into all Terraform resources before planning/applying. Crucial for establishing centralized cost allocation and organization-wide governance.
-#### Terraform AVM
-
-  - **(2024)** [learn.microsoft.com: Introduction to using Azure Verified Modules for Terraform](https://learn.microsoft.com/en-us/samples/azure-samples/avm-terraform-labs/avm-terraform-labs) <span class='md-tag md-tag--warning'>[TERRAFORM CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the application of Azure Verified Modules specifically optimized for Terraform configurations. Demonstrates how to write scalable HCL blocks backed by Microsoft-maintained definitions, matching enterprise governance standards.
 #### Terraform Practices
 
   - **(2026)** [Terraform Best Practices](https://github.com/antonbabenko/terraform-best-practices) <span class='md-tag md-tag--info'>⭐ 2473</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A definitive guide detailing patterns and antipatterns for structural Terraform designs. Features industry-accepted guidelines on monorepo layout, variable validation, dynamic module injection, and drift remediation within production enterprise clouds.
@@ -572,7 +544,7 @@
 #### Static Analysis
 
   - **(2021)** [Bridgecrew: Misconfigured Terraform Modules Are a Security Issue](https://thenewstack.io/bridgecrew-all-these-misconfigured-terraform-modules-are-a-security-issue)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the cybersecurity risks introduced by copying untrusted community-designed modules. Emphasizes the imperative for dev teams to perform automated static analysis and linting (e.g., using Checkov) in CI/CD pipelines to catch vulnerabilities pre-deployment.
-### Terraform (1)
+### Terraform
 
 #### CICD Integration
 
@@ -635,7 +607,7 @@
   - **(2020)** [Announcing Databricks Labs Terraform integration on AWS and Azure](https://www.databricks.com/blog/2020/09/11/announcing-databricks-labs-terraform-integration-on-aws-and-azure.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Announcement of the official integration allowing teams to provision Databricks workspaces, clusters, and notebook assets declaratively. Streamlines the delivery of automated data pipelines and data lakehouses within cloud-native platforms.
 ## DevOps (1)
 
-### Infrastructure as Code (2)
+### Infrastructure as Code (1)
 
 #### AI Integration
 
@@ -643,18 +615,6 @@
 #### Pulumi
 
   - **(2026)** [==Pulumi: Infrastructure as Code in Any Programming Language==](https://github.com/pulumi/pulumi) <span class='md-tag md-tag--info'>⭐ 25299</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source, multi-cloud infrastructure platform that enables architects to build, deploy, and manage resources using general-purpose programming languages. Supports TypeScript, Go, Python, C#, and Java, using real language constructs like loops, functions, and standard testing libraries.
-#### Terraform (2)
-
-##### Secrets
-
-  - **(2025)** [Ephemeral Values in Terraform](https://nedinthecloud.com/2025/07/01/ephemeral-values-in-terraform) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains the design and execution mechanics of Ephemeral Values introduced in modern Terraform releases. Discusses preventing credential leakages by keeping sensitive short-lived resources completely out of persistent state logs.
-## FinOps and Cloud Cost
-
-### IaC FinOps
-
-#### Terraform Integration
-
-  - **(2024)** [==InfraCost + Terraform PRs: Making Cost Awareness Effortless==](https://www.linkedin.com/pulse/infracost-terraform-prs-making-cost-awareness-martin-jackson-a6sge?utm_source=share&utm_medium=member_android&utm_campaign=share_via) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Demonstrates how to integrate Infracost into GitHub Pull Requests to inspect infrastructure cost differences before deployment. Evaluates how shift-left practices can prevent unexpected spend increases by highlighting charges directly in developer workflows.
 ## Infrastructure
 
 ### Cloud Computing
@@ -667,7 +627,7 @@
 #### Bare Metal
 
   - **(2026)** [==poseidon/typhoon==](https://github.com/poseidon/typhoon) <span class='md-tag md-tag--info'>⭐ 2044</span> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Typhoon is a minimalist, secure, and performant bare-metal and multi-cloud Kubernetes distribution built entirely with Terraform. It bootstraps standard, upstream CNCF-compliant Kubernetes onto Flatcar Container Linux (and historically CoreOS), providing an excellent reference model for git-driven infrastructure without vendor lock-in.
-### Infrastructure as Code (3)
+### Infrastructure as Code (2)
 
 #### Newsletters
 
@@ -692,7 +652,7 @@
 #### Packer Documentation
 
   - **(2026)** [packer.io docs](https://developer.hashicorp.com/packer/docs) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official documentation hub for Packer, containing technical references for builders, provisioners, and post-processors. Details syntax configurations for HCL templates, dynamic plugins, and integrating container/VM deployment images directly into CI/CD pipelines.
-## Infrastructure as Code (4)
+## Infrastructure as Code (3)
 
 ### AWS (2)
 
@@ -716,11 +676,6 @@
 #### Legacy Platforms
 
   - **(2023)** [run-x/opta: Opta - Supercharge DevOps on any cloud](https://github.com/run-x/opta) <span class='md-tag md-tag--info'>⭐ 912</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Opta is an archived high-level declarative infrastructure platform that abstracted low-level Terraform details into service-centric YAML layouts. While it successfully simplified multi-cloud container orchestration, the project has been officially archived. Current platform engineering teams should look to modern modular structures like Terramate or native OpenTofu/Terraform configurations.
-### Ansible
-
-#### Image Provisioning
-
-  - **(2021)** [getbetterdevops.io: Build Docker Images Using Ansible and Packer](https://www.empowersurvivors.net) <span class='md-tag md-tag--warning'>[YAML/HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical blueprint demonstrating how to integrate Ansible playbooks as provisioning engines inside HashiCorp Packer build runs. Outlines processes to construct audited, standardized, and security-hardened Docker images.
 ### Azure (2)
 
 #### Identity
@@ -732,7 +687,7 @@
 #### Templates
 
   - **(2022)** [github.com/amitmavgupta/azure-terraform](https://github.com/amitmavgupta/azure-terraform) <span class='md-tag md-tag--info'>⭐ 29</span> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A centralized repository of common Azure resource templates compiled using Terraform. Serves as a useful playground for setting up App Services, Cosmos DB, and Virtual Networks.
-### Azure DevOps (1)
+### Azure DevOps
 
 #### Modules
 
@@ -943,15 +898,6 @@
 #### Hyper-Converged Infrastructure
 
   - **(2023)** [**thenewstack.io: Better Together: Hyper-Converged Kubernetes with Terraform**](https://thenewstack.io/better-together-hyper-converged-kubernetes-with-terraform) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Investigates the architectural patterns of provisioning and managing hyper-converged Kubernetes environments using Terraform. Demonstrates how unified HCL pipelines can coordinate both the physical or virtual computing fabric and the logical Kubernetes control plane. Live grounding emphasizes that this hybrid orchestration layer improves operational consistency across multi-cloud topologies.
-### Landing Zones
-
-#### Accelerators
-
-  - **(2026)** [Azure Landing Zone IaC Accelerator Release Notes](https://azure.github.io/Azure-Landing-Zones/accelerator/accelerator-release-notes) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official release ledger tracking enhancements, bug fixes, and feature updates for the Azure Landing Zones IaC Accelerator. Essential for platform engineering teams to maintain up-to-date, compliant architectures using official Terraform or Bicep modules. It keeps organizations informed on modern security baseline integrations and multi-tenant tooling enhancements.
-  - **(2024)** [techcommunity.microsoft.com: Azure Landing Zones Accelerators for Bicep and Terraform. Announcing General Availability!](https://techcommunity.microsoft.com/blog/azuretoolsblog/azure-landing-zones-accelerators-for-bicep-and-terraform-announcing-general-avai/4029866) <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — GA announcement of the official Bicep and Terraform accelerators designed for deploying Azure Landing Zones (ALZ). These accelerators provide enterprise developers with template-driven deployment mechanisms for core platform hubs and spokes, reducing manual deployment errors and accelerating migration timelines.
-#### Azure Verified Modules
-
-  - **(2026)** [Enterprise-Scale Azure Subscription Vending Using Azure Verified Modules (AVM)](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/enterprise%e2%80%91scale-azure-subscription-vending-using-azure-verified-modules-avm/4507751) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates enterprise subscription vending architectures powered by Azure Verified Modules (AVM). This automated design leverages Terraform and Bicep to standardize resource organization, virtual network integration, and governance controls. Architects use subscription vending to scale and provision environments reliably in multi-tenant frameworks.
 ### Languages
 
 #### Syntax Engines
@@ -1040,7 +986,7 @@
 #### Providers (4)
 
   - **(2020)** [mitchellh/terraform-provider-multispace](https://github.com/mitchellh/terraform-provider-multispace) <span class='md-tag md-tag--info'>⭐ 148</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly specialized custom provider allowing interaction with external workspaces within a single run. Solves state dependency sharing patterns dynamically, conceptualized by Mitchell Hashimoto.
-### Terraform (3)
+### Terraform (1)
 
 #### AWS Integration
 
@@ -1076,9 +1022,6 @@
 #### Azure Modules
 
   - **(2023)** [**thomasthornton.cloud: Writing reusable Terraform modules (azure)**](https://thomasthornton.cloud/writing-reusable-terraform-modules) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Advanced extension of writing reusable modules for Azure. Emphasizes maintaining backward compatibility, configuring strict semantic versioning tags in private registries, and automating modular state tests.
-#### Azure Verified Modules (1)
-
-  - **(2025)** [Announcing General Availability of Terraform Azure Verified Modules for Platform Landing Zone (ALZ)](https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-general-availability-of-terraform-azure-verified-modules-for-platform/4366027) <span class='md-tag md-tag--warning'>[TERRAFORM CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the general availability of Terraform-based Azure Verified Modules (AVM) for constructing platform landing zones. These modules offer verified, highly robust IaC templates that align with Microsoft's official structural guidelines. This release significantly reduces the development overhead required to build enterprise platform hubs.
 #### Best Practices (3)
 
   - **(2024)** [masterpoint.io: Three Terraform Use-cases You Need to Start Implementing](https://masterpoint.io/blog/terraform-use-cases) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Presents three advanced structural paradigms: multi-region dynamic workspace state querying, native mock-testing checks, and programmatic policy validation integration. Demonstrates production patterns that decoupled dependencies and enforce safe execution boundaries.
@@ -1116,9 +1059,6 @@
 #### Ecosystem Evolution
 
   - **(2024)** [**devops.com: Building on Terraform: Evolution, not Revolution**](https://devops.com/building-on-terraform-evolution-not-revolution) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Explores the continuous evolution of HashiCorp Terraform and OpenTofu within the enterprise IaC landscape. Highlights how organizational adoption patterns have shifted from manual HCL execution to structured platform engineering paradigms. While the source stresses steady progress, live grounding demonstrates that license changes (BSL) have spurred a parallel, stable ecosystem under the Linux Foundation (OpenTofu).
-#### Export Utility
-
-  - **(2025)** [Export Terraform Code from the Azure Portal](https://mattias.engineer/blog/2025/azure-portal-export-terraform) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A practical exploration of the Azure Portal's feature for exporting active cloud resource configurations directly into functional HashiCorp Terraform modules. Decreases setup friction for legacy system migrations.
 #### Integrations
 
   - **(2023)** [youtube HashiCorp: Telemetry transformed: Terraforming Grafana for next-gen dashboards](https://www.youtube.com/watch?v=qGdGMnQ83SA) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical video walkthrough showing how to manage and deploy dashboards, alert limits, and data sources in Grafana as code. Integrates monitoring directly alongside the lifecycle of target environments.
@@ -1134,10 +1074,6 @@
 #### Observability and Security (1)
 
   - **(2023)** [overmind.tech: Is Observability relevant for Terraform?](https://overmind.tech/blog/is-observability-relevant-for-terraform) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the convergence of systems observability and infrastructure-as-code deployments. Focuses on tracing how execution plans, resource dependencies, and actual run-time failures map visually to simplify debugging for DevOps teams. Live grounding highlights that real-time observation of state transitions significantly reduces mean-time-to-resolution (MTTR) when rolling back failed changes.
-#### Official Integration (1)
-
-  - **(2025)** [Announcing Public Preview of Terraform Export from the Azure Portal](https://techcommunity.microsoft.com/blog/AzureToolsBlog/announcing-public-preview-of-terraform-export-from-the-azure-portal/4409889) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official announcement detailing native preview features to export existing Azure assets into declarative Terraform code blocks directly inside the portal interface. Eliminates reliance on custom parsing tools.
-  - **(2025)** [Announcing Public Preview of Terraform Export from the Azure Portal](https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-public-preview-of-terraform-export-from-the-azure-portal/4409889) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Secondary portal-integration documentation describing technical setups for exporting active resource configurations. Focuses on producing clean, modular Terraform files from complex legacy environments.
 #### Pre-flight Verification
 
   - **(2021)** [github.com/jamesw4/confirm-tfvars](https://github.com/jamesw4/confirm-tfvars) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — confirm-tfvars acts as a tactical CLI guardrail that intercepts execution workflows to verify designated variables inside active tfvars files before applying. It serves as an architectural firewall during production execution runs, reducing the risk of human-error configurations causing cascading resource destruction.
@@ -1207,17 +1143,14 @@
 #### Development
 
   - **(2022)** [digitalocean.com: How To Build a Custom Terraform Module](https://www.digitalocean.com/community/tutorials/how-to-build-a-custom-terraform-module) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An educational workflow outlining step-by-step module construction in Terraform. Details module inputs, outputs, structure conventions, and guidelines for publishing modules to external registries.
-#### IPAM
-
-  - **(2025)** [Terraform Azure Resource IPAM Module](https://registry.terraform.io/modules/hlokensgard/res-ipam/azure/latest) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Specialized Terraform registry module designed to automate IP Address Management (IPAM) inside multi-VNet architectures. Standardizes subnetworking allocations dynamically to prevent prefix overlapping.
-### Terraform Orchestration (1)
+### Terraform Orchestration
 
 #### Monorepo Management
 
   - **(2024)** [mineiros-io/terramate](https://github.com/terramate-io/terramate) <span class='md-tag md-tag--info'>⭐ 3598</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Terramate delivers powerful orchestration, selective change detection, and modular code generation for multi-directory Terraform and OpenTofu monorepos. It optimizes large-scale continuous deployment pipelines by executing runs only in directories containing modified plans. By generating dynamic DRY configurations, it ensures strict state isolation and mitigates workspace blast radiuses.
 ### Terraform Providers (2)
 
-#### Azure IPAM (1)
+#### Azure IPAM
 
   - **(2024)** [==Terraform Provider for Azure IPAM==](https://github.com/XtratusCloud/terraform-provider-azureipam) <span class='md-tag md-tag--info'>⭐ 10</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Custom open-source Terraform provider built to automate cloud IP address allocation directly from centralized Azure IPAM solutions. Ensures smooth networking configuration inside containerized setups.
 ### User Interfaces
@@ -1311,10 +1244,10 @@
 #### API Gateway
 
   - **(2024)** [learn.hashicorp.com: y Serverless Applications with AWS Lambda and API Gateway 🌟](https://developer.hashicorp.com/terraform/tutorials/aws/lambda-api-gateway)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Standard HashiCorp tutorial teaching developers how to architect, deploy, and configure high-performance serverless endpoints using AWS Lambda and API Gateway, entirely declared via modular HCL files.
-#### Infrastructure as Code (5)
+#### Infrastructure as Code (4)
 
   - **(2023)** [==AWS Lambda the Terraform Way==](https://github.com/nsriram/lambda-the-terraform-way) <span class='md-tag md-tag--info'>⭐ 1260</span> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A widely starred open-source template repository outlining best practices for packaging, versioning, and deploying AWS Lambda functions natively using Terraform. Eliminates dependencies on external serverless frameworks by leveraging HCL zip archiving capabilities.
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Oauth](./oauth.md) | [Ansible](./ansible.md)
+💡 **Explore Related:** [IaC](./iac.md) | [Ansible](./ansible.md) | [Devsecops](./devsecops.md)
 

@@ -5,9 +5,8 @@
 
 ## Standard Reference
 
+  - [Azure Landing Zone IaC Accelerator](https://azure.github.io/Azure-Landing-Zones/accelerator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Automating Microsoft Sentinel Deployment with Azure DevOps CI/CD](https://noodlemctwoodle.medium.com/automating-microsoft-sentinel-deployment-with-azure-devops-ci-cd-2d4ae0c4e254)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Automating Kubernetes Deployments with Helm Charts](https://blog.devops.dev/automating-kubernetes-deployments-with-helm-charts-baaec0e6fbc5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [FossFLOW](https://github.com/stan-smith/FossFLOW)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Wikipedia.org: DevOps](https://en.wikipedia.org/wiki/DevOps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Wikipedia.org: Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Wikipedia.org: Continuous Delivery](https://en.wikipedia.org/wiki/Continuous_delivery)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -32,15 +31,16 @@
   - [guru99.com: CI/CD Pipeline: Learn with Example 🌟🌟🌟](https://www.guru99.com/ci-cd-pipeline.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone.com: How To Build an Effective CI/CD Pipeline](https://dzone.com/articles/how-to-build-an-effective-cicd-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hart-michael.medium.com: Why You Need Continuous Deployment](https://hart-michael.medium.com/why-you-need-continuous-deployment-93d7b5936523)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Automating Kubernetes Deployments with Helm Charts](https://blog.devops.dev/automating-kubernetes-deployments-with-helm-charts-baaec0e6fbc5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone.com: An Overview of CI/CD Pipelines With Kubernetes](https://dzone.com/articles/an-overview-of-cicd-pipelines-with-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [betanews.com: Overcoming observability challenges in the CI/CD Pipeline](https://betanews.com/2022/01/26/overcoming-observability-challenges)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Continuous Kubernetes blue-green deployments on Azure using Nginx,' AppGateway or TrafficManager — part 2](https://medium.com/@denniszielke/continuous-kubernetes-blue-green-deployments-on-azure-using-nginx-appgateway-or-trafficmanager-4490bce29cb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [gitconnected.com: Blue-Green with Canary Deployment — A Novel approach](https://levelup.gitconnected.com/blue-green-with-canary-deployment-a-novel-approach-2cee77ff564d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cd.foundation: Intro to Deployment Strategies: Blue-Green, Canary, and More' 🌟](https://cd.foundation/blog/2021/03/24/intro-to-deployment-strategies-blue-green-canary-and-more)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devopslearners.com: Blue-Green vs Canary Deployment](https://devopslearners.com/blue-green-vs-canary-deployment-76436d7f6bc1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Azure Landing Zone IaC Accelerator](https://azure.github.io/Azure-Landing-Zones/accelerator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [mediatemple.net: Cloud-Native CI/CD Workflows in AWS: 3 Use Cases](https://mediatemple.net/blog/cloud-hosting/cicd-workflows-aws-3-use-cases)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Terraform Enterprise 2.0](https://t.co/UmacHpStqI)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [FossFLOW](https://github.com/stan-smith/FossFLOW)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: DevOps: CI/CD Tools to Watch Out for in 2022](https://dzone.com/articles/devops-cicd-tools-to-watch-out-for-in-2022)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [betterprogramming.pub: When Should You Self-Host CI Tools? | William Anderson](https://betterprogramming.pub/when-should-you-self-host-ci-tools-330fc38d2a6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
@@ -51,6 +51,27 @@
 #### Developer Productivity
 
   - **(2024)** [GitBook Webinar: GitBook for Public Docs](https://www.youtube.com/watch?si=dWSDPD4eXvF3dx5r&v=gnYU0jtQbug&feature=youtu.be)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Webinar presentation highlighting standard configurations for establishing clear, highly readable public documentation using GitBook, emphasizing real-time integrations and Markdown-based code setups.
+## AI Engineering
+
+### Agentic Frameworks
+
+#### Developer Experience
+
+  - **(2025)** [Kiro: Engineering Rigor for Agentic Development](https://kiro.dev) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kiro is a testing and engineering framework designed to bring traditional software discipline—such as regression testing, linting, and sandbox executing—to LLM agents and multi-agent workflows. It establishes strict validation steps to ensure agent behaviors remain deterministic, secure, and aligned with standard corporate software engineering guidelines.
+## Architecture
+
+### Patterns
+
+#### Twelve-Factor App
+
+  - **(2023)** [The 12-Factor App: An Updated Guide](https://newsletter.francofernando.com/p/the-12-factor-app-an-updated-guide) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Revisits the classic 12-Factor app principles through a modern cloud-native lens. Analyzes how declarations like declarative formats, clean environment parity, and port binding apply to contemporary container networks.
+## Architecture and Visualization
+
+### Interactive Diagramming
+
+#### AI Integration
+
+  - **(2025)** [Draw.io MCP for Diagram Generation: Why It’s Worth Using](https://thomasthornton.cloud/draw-io-mcp-for-diagram-generation-why-its-worth-using) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Implements the Model Context Protocol (MCP) to dynamically generate and modify Draw.io structures directly via conversational AI interfaces. Seamlessly links large language models with visual blueprint execution, allowing real-time canvas updates and automated layout formatting based on conversational technical specs.
 ## CICD Pipeline
 
 ### GitHub Actions
@@ -74,7 +95,7 @@
   - **(2020)** [aws.amazon.com: Automating safe, hands-off deployments 🌟🌟](https://aws.amazon.com/es/builders-library/automating-safe-hands-off-deployments) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly technical AWS Builders Library analysis detailing Amazon's safe, automated deployment methodologies. Highlights pipeline design using fractional wave rollouts, automated synthetic testing, and automated rollbacks triggered by alarm thresholds.
 ### CI-CD Pipelines
 
-#### Architecture
+#### Architecture (1)
 
   - **(2022)** [thenewstack.io: Are Monolith CI/CD Pipelines Killing Quality in Your Software?](https://thenewstack.io/are-monolith-ci-cd-pipelines-killing-quality-in-your-software)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyses the risks of monolithic pipelines on deployment safety. Recommends aligning decoupled micro-pipelines with distinct microservice models to avoid pipeline dependency bottlenecks.
 ### Cloud Native
@@ -108,6 +129,15 @@
 #### Cloud Native (1)
 
   - **(2023)** [groundcover.com: Cloud-native CI/CD? Yeah, that’s a thing 🌟](https://www.groundcover.com/blog/ci-cd-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the shift to Kubernetes-native continuous delivery models. Compares Tekton and declarative GitOps runtimes like Argo CD and Flux to highlight the safety benefits of in-cluster loops.
+## Cloud Native (2)
+
+### Application Delivery
+
+#### Package Management
+
+##### Introductory
+
+  - **(2021)** [harness.io: Introduction to Helm: Charts, Deployments, & More 🌟](https://www.harness.io/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — High-impact breakdown of Helm core components including Chart.yaml, value overriding mechanics, and templating practices. Details how modern continuous delivery engines natively incorporate Helm to optimize release logic.
 ## Continuous Delivery (1)
 
 ### CICD and Testing
@@ -141,9 +171,16 @@
 #### Developer Productivity (1)
 
   - **(2025)** [**action-tmate: Debug GitHub Actions via SSH**](https://github.com/mxschmitt/action-tmate) <span class='md-tag md-tag--info'>⭐ 3550</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An essential interactive troubleshooting tool that opens a secure tmate SSH session directly into active GitHub Actions runners, enabling real-time terminal diagnostics of failing pipeline runs.
+#### Enterprise Tooling
+
+  - **(2025)** [PMEase QuickBuild](https://www.pmease.com) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A powerful commercial build and configuration management tool geared towards large enterprises. Combines high-capacity agents, visual dependency chains, and precise audit trails for legacy and cloud-native workloads.
 #### Industry Reports
 
+  - **(2024)** [GigaOm's Radar for Enterprise CI/CD 🌟](https://jfrog.com/pipelines)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry analyst review of enterprise CI/CD solutions. Highlights the positioning of systems like JFrog Pipelines on parameters including multi-cloud portability, automated governance, secure distribution, and hybrid scalability.
   - **(2021)** [cloudbees.com: Continuous Delivery Tools: The 5 You Absolutely Need to Know in 2021](https://www.cloudbees.com/blog/cicd-tools-to-know-2021)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Historical retrospective outlining the landscape of CI/CD systems in 2021. Offers context on how delivery tools have transitioned from central-server models to modern cloud-native, GitOps-driven architectures.
+#### Jenkins
+
+  - **(2023)** [Back of the Napkin Guide to Updating Jenkins](https://www.jenkins.io/blog/2023/10/31/marc-s-napkin-upgrade-guide) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A pragmatic quick-reference outlining safe, robust upgrade strategies for legacy Jenkins master/agent nodes. Covers JVM runtime alignment, plugins dependency management, and core server updates with minimum outage windows.
 #### Kubernetes Native
 
   - **(2024)** [harness.io: Kubernetes CI/CD Best Practices](https://www.harness.io/blog/kubernetes-ci-cd-best-practices) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A professional guide detailing best practices for Kubernetes-native CI/CD. Emphasizes image tag immutability, secure namespace configuration, automated GitOps pull routines, secrets orchestration, and strict readiness validations.
@@ -156,10 +193,14 @@
 #### Resource Portals
 
   - **(2025)** [Awesome CI/CD 🌟](https://github.com/cicdops/awesome-ciandcd) <span class='md-tag md-tag--info'>⭐ 1999</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An extensive curated list capturing modern DevOps platforms, delivery engines, automated linting, security scanning, and container validation tools, acting as a foundational technical index for engineering teams.
+#### Self-Hosted Runners
+
+  - **(2025)** [Buildbot](https://buildbot.net) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A Python-based framework designed for continuous integration testing. Although largely surpassed by Kubernetes-native engines, Buildbot remains a robust, highly extensible platform for complex, non-standard compilation requirements.
 ### Deployment Strategies (1)
 
 #### Blue-Green and Canary (1)
 
+  - **(2024)** [semaphoreci.com: Continuous Blue-Green Deployments With Kubernetes 🌟](https://semaphore.io/blog/continuous-blue-green-deployments-with-kubernetes) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Technical tutorial illustrating native implementation of blue-green deployments on Kubernetes. Demonstrates how to manipulate service selectors, manage ingress controllers, and swap traffic dynamically with zero application downtime.
   - **(2023)** [blog.container-solutions.com: Deployment Strategies 🌟](https://blog.container-solutions.com/deployment-strategies)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — In-depth guide comparing core deployment topologies: recreate, rolling update, blue/green, canary, and shadow. Focuses on the trade-offs of budget, state management, infrastructure replication overhead, and traffic routing mechanisms.
   - **(2023)** [opsmx.com: What is Blue Green Deployment ?](https://www.opsmx.com/blog/blue-green-deployment)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory primer defining the operational mechanics of blue-green architectures. Focuses on setting up mirrored hosting environments, routing configurations, and robust database rollback plans.
 #### Education
@@ -175,6 +216,7 @@
 #### Kubernetes Management
 
   - **(2025)** [Devtron Labs: Devtron provides a 'seamless,’ 'implementation agnostic uniform interface' across Kubernetes Life Cycle integrated with most Opensource and commercial tools](https://devtron.ai) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source, tool-agnostic application management platform for Kubernetes. Unifies discrete CI/CD workflows, GitOps, observability tooling, and cluster resource debugging into a single visual interface, drastically lowering cognitive load.
+  - **(2025)** [Canine: A Developer-friendly PaaS for Kubernetes](https://canine.sh) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-centric, lightweight PaaS layer running directly on top of Kubernetes. Canine simplifies native container deployments and configurations, reducing cognitive load and shortening inner-loop development iterations.
 ### Progressive Delivery
 
 #### Feature Flags
@@ -227,6 +269,9 @@
 #### Evaluation
 
   - **(2022)** [harness.io: What is a CI/CD Platform and why should I care? 🌟](https://www.harness.io/blog/what-is-cicd-platform-why-should-i-care) 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Contrasts custom-built scripts and legacy tooling loops with integrated, enterprise-class CI/CD platforms. Focuses on compliance enforcement, deployment governance, and engineering self-service capabilities.
+#### Tooling
+
+  - **(2021)** [devops.com: 7 Popular Open Source CI/CD Tools](https://devops.com/7-popular-open-source-ci-cd-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares seven dominant open-source CI/CD frameworks, assessing execution speed, plugin ecosystems, maintenance overhead, and architectural fitness for hybrid and Kubernetes configurations.
 ### CICD
 
 #### Kubernetes Orchestration
@@ -234,7 +279,7 @@
   - **(2021)** [devopsdigest.com: CI/CD Deployments: How to Expedite Across a Kubernetes Environment With DevOps Orchestration](https://www.devopsdigest.com/cicd-deployments-how-to-expedite-across-a-kubernetes-environment-with-devops-orchestration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Accelerating release cycles in Kubernetes environments requires modernizing the CI/CD pipeline with cloud-native orchestration techniques. By automating build, test, and container promotion workflows, teams can minimize deployment errors and configuration drift. The focus is on implementing progressive delivery strategies such as canary and blue-green deployments to de-risk production releases.
 ### Continuous Delivery (2)
 
-#### Patterns
+#### Patterns (1)
 
   - **(2020)** [continuousdelivery.com: Patterns 🌟](https://continuousdelivery.com/implementing/patterns) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A seminal reference of continuous delivery patterns. Evaluates technical blueprints for automated schema updates, blue-green environments, canary verification loops, and clean decoupling of software builds from configurations.
 ### Continuous Integration
@@ -254,9 +299,14 @@
   - **(2023)** [clickittech.com: CI/CD Best Practices: Top 10 Practices for Financial Services](https://www.clickittech.com/devops/ci-cd-best-practices) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines specialized continuous delivery configurations designed for high-regulation financial environments. Covers security orchestration, strict separation of duties, and audit trail automation.
 ### Infrastructure as Code
 
-#### AI Integration
+#### AI Integration (1)
 
   - **(2026)** [**Terraform & OpenTofu Skill for AI Agents**](https://github.com/antonbabenko/terraform-skill) <span class='md-tag md-tag--info'>⭐ 2012</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An open-source Model Context Protocol (MCP) skill set built for AI agents. Simplifies parsing, validating, and managing Terraform and OpenTofu infrastructure configurations through intelligent, context-aware LLM tool calls.
+### Product Management
+
+#### Methodology (1)
+
+  - **(2020)** [mindtheproduct.com: The Product Managers’ Guide to Continuous Delivery and DevOps 🌟🌟](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Bridges the gap between technical release pipelines and business product management. Explains DevOps principles, release gating, and CD strategies to align cross-functional teams with deployment automation architectures.
 ## DevOps and CICD
 
 ### CICD Automation
@@ -264,18 +314,42 @@
 #### Terraform Release Management
 
   - **(2026)** [Terraform Module Releaser GitHub Action](https://github.com/techpivot/terraform-module-releaser) <span class='md-tag md-tag--info'>⭐ 223</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An automated GitHub Action that manages release tagging, semantic version tracking, and registration publication processes for Terraform modules. Mitigates distribution overhead by auto-generating changelogs and managing tags.
+## Developer Experience (1)
+
+### AI-Assisted Coding
+
+#### Claude Code
+
+  - **(2025)** [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An official hands-on tutorial and demonstration course by Anthropic showing the real-world utility of Claude Code. It covers basic terminal setups, interactive file refactoring, automated git commit orchestration, and contextual testing loops. Highly valuable for teams integrating terminal-based AI agents directly into daily engineering pipelines.
+## FinOps and Cloud Cost
+
+### IaC FinOps
+
+#### Terraform Integration
+
+  - **(2024)** [==InfraCost + Terraform PRs: Making Cost Awareness Effortless==](https://www.linkedin.com/pulse/infracost-terraform-prs-making-cost-awareness-martin-jackson-a6sge?utm_source=share&utm_medium=member_android&utm_campaign=share_via) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Demonstrates how to integrate Infracost into GitHub Pull Requests to inspect infrastructure cost differences before deployment. Evaluates how shift-left practices can prevent unexpected spend increases by highlighting charges directly in developer workflows.
+## Industry Analysis
+
+### DevOps Trends
+
+  - **(2021)** [sdtimes.com: CI/CD pipelines are expanding 🌟](https://sdtimes.com/devops/ci-cd-pipelines-are-expanding)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive industry report analyzing the evolution of modern CI/CD pipelines as they swallow up operations, security compliance (DevSecOps), and AI/ML model integration (MLOps). It traces how simple deployment automation has evolved into highly integrated, complex policy engines that run across distributed clouds.
+## Infrastructure
+
+### Kubernetes Distributions
+
+#### Enterprise Distributions
+
+  - **(2023)** [weave.works: Weave Kubernetes Platform](https://www.weave.works/) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The enterprise Kubernetes distribution offering from Weaveworks (WKP) built heavily around declarative GitOps concepts and Cluster API. Following Weaveworks' operational cessation in early 2024, WKP is no longer commercially active, but its patterns directly influenced modern multi-cluster management strategies.
 ## Infrastructure as Code (1)
 
-### AI Integration (1)
-
-#### Copilot for Azure
-
-  - **(2025)** [Enhancing Infrastructure as Code Generation with GitHub Copilot for Azure](https://techcommunity.microsoft.com/blog/AzureDevCommunityBlog/enhancing-infrastructure-as-code-generation-with-github-copilot-for-azure/4388514) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical optimization guide exploring the use of GitHub Copilot for drafting Bicep, ARM, and Terraform configurations. Shows how to engineer precise prompt schemas to maintain syntax standards.
 ### CICD and Delivery (1)
 
 #### Security and Compliance
 
   - **(2023)** [devops.com: 8 Security Considerations for CI/CD](https://devops.com/8-security-considerations-for-ci-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Actionable checklist of eight vital security considerations for pipeline configurations. Addresses fundamental practices such as secure secrets injection, runner environment isolation, least-privilege RBAC, and validation processes to prevent supply-chain vulnerabilities.
+#### Self-Hosted Runners (1)
+
+  - **(2025)** [Cloud Posse runs-on: GitHub Actions Self-Hosted Runners](https://docs.cloudposse.com/components/library/aws/runs-on) <span class='md-tag md-tag--warning'>[TERRAFORM CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A collection of Cloud Posse Terraform modules designed to automate secure, dynamically autoscaling self-hosted GitHub Actions runners inside AWS networks, optimization execution speed while keeping compute costs minimal.
 ### GitOps (2)
 
 #### Configuration Management
@@ -288,7 +362,7 @@
 #### UI Visualization
 
   - **(2024)** [==feat(ui): Add AppSet to Application Resource Tree in Argo CD==](https://github.com/argoproj/argo-cd/pull/26601) <span class='md-tag md-tag--info'>⭐ 23128</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official Argo CD feature enhancement that maps ApplicationSets directly inside the dashboard UI tree. This view simplifies managing multi-tenant topologies and nested application definitions for platform operators.
-## Methodology (1)
+## Methodology (2)
 
 ### Culture
 
@@ -301,13 +375,18 @@
   - **(2018)** [opensource.com: What is CI/CD?](https://opensource.com/article/18/8/what-cicd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational educational guide detailing the concepts, benefits, and components of Continuous Integration and Continuous Deployment (CI/CD). It explains how pipeline automation accelerates software delivery, guarantees build consistency, and serves as the operational substrate for DevOps cultures.
 ## Platform Engineering (1)
 
-### Developer Experience
+### Developer Experience (2)
 
 #### Continuous Delivery (3)
 
   - **(2023)** [thenewstack.io: Improve Dev Experience to Maximize the Business Value of CD](https://thenewstack.io/improve-dev-experience-to-maximize-the-business-value-of-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores developer experience (DevEx) as an accelerator for continuous deployment initiatives. Details how centralized developer portals and self-service pipeline catalogs eliminate delivery friction.
 ## Software Engineering
 
+### AI Tools
+
+#### Developer Productivity (2)
+
+  - **(2024)** [**Programming with GitHub Copilot Agent Mode**](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/programming-with-github-copilot-agent-mode/4400630) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A deep dive into the engineering capabilities of GitHub Copilot's 'Agent Mode.' It details how the agent acts autonomously to analyze workspace dependencies, generate multi-file modifications, run localized compilations, and iterate on test suites based on natural language prompts.
 ### AI-Assisted Development
 
 #### GitHub Copilot
@@ -320,15 +399,18 @@
   - **(2019)** [developers.redhat.com: 10 tips for reviewing code you don't like](https://developers.redhat.com/blog/2019/07/08/10-tips-for-reviewing-code-you-dont-like)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides practical tips for reviewing code in challenging situations. Recommends focusing on objective structural designs, automating style checking, and maintaining clear communication to build strong team culture.
 ### SDLC
 
-#### Methodology (2)
+#### Methodology (3)
 
   - **(2023)** [harness.io: Understanding the Phases of the Software Development Life Cycle](https://www.harness.io/blog/software-development-life-cycle)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details contemporary Software Development Life Cycle (SDLC) methodologies. Maps traditional planning and execution frameworks to cloud-native continuous integration and deployment loops.
 ### Version Control
 
+#### Git Best Practices
+
+  - **(2018)** [Purposeful Commits](https://chrisarcand.com/purposeful-commits) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical essay discussing optimal commit message hygiene and atomic commits. Argues that purposeful, structured histories are critical for tracking down regression roots and ensuring easy codebase traversability.
 #### Trunk-Based Development
 
   - **(2022)** [thinkinglabs.io: Feature Branching considered evil 🌟](https://thinkinglabs.io/talks/feature-branching-considered-evil.html) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical critique of long-lived feature branching practices, advocating strongly for trunk-based development. Explains how delayed merges impede true continuous integration and degrade delivery velocities.
 
 ---
-💡 **Explore Related:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md) | [Flux](./flux.md)
+💡 **Explore Related:** [Jenkins](./jenkins.md) | [Argo](./argo.md) | [Gitops](./gitops.md)
 

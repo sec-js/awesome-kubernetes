@@ -9,7 +9,6 @@
   - [github.com: OpenShift GitHub Actions Runner Chart 🌟](https://github.com/redhat-actions/openshift-actions-runners-chart)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Auto-merge between release branches](https://about.gitlab.com/gitlab-org/gitlab/-/issues/2785)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Provide merge bot functionality](https://about.gitlab.com/gitlab-org/gitlab/-/issues/14595)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [CloudBees Releases Another Industry First: Feature Flagging for On-Premise' Use 🌟](https://www.previous.cloudbees.com/press/cloudbees-releases-another-industry-first-feature-flagging-premise-use)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone.com: refcard - getting started with git](https://dzone.com/refcardz/getting-started-git)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Wikipedia: Git](https://en.wikipedia.org/wiki/Git)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone.com: Top 20 git commands with examples 🌟](https://dzone.com/articles/top-20-git-commands-with-examples)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -55,6 +54,7 @@
   - [toptal.com: Trunk-based Development vs. Git Flow](https://www.toptal.com/software/trunk-based-development-git-flow)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: GitFlow VS Trunk-Based-Development](https://medium.com/@vafrcor2009/gitflow-vs-trunk-based-development-3beff578030b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone: Why I Prefer Trunk-Based Development Over Feature Branching and GitFlow' 🌟](https://dzone.com/articles/why-i-prefer-trunk-based-development-over-feature)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [CloudBees Releases Another Industry First: Feature Flagging for On-Premise' Use 🌟](https://www.previous.cloudbees.com/press/cloudbees-releases-another-industry-first-feature-flagging-premise-use)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cioperu.pe: 5 formas de impulsar la utilización de feature flags](https://cioperu.pe/articulo/30477/devops-5-formas-de-impulsar-la-utilizacion-de-feature-flags)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone: using gitlab API to create projects](https://dzone.com/articles/using-gitlab-rest-api-to-create-projects)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [levelup.gitconnected.com: Automating Integration and Deployment to Remote' Server](https://levelup.gitconnected.com/automating-integration-and-deployment-to-remote-server-63a2b6576ebf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -695,6 +695,7 @@
 #### Next-Gen Platforms
 
   - **(2023)** [github.blog: GitHub Copilot X: The AI-powered developer experience](https://github.blog/news-insights/product-news/github-copilot-x-the-ai-powered-developer-experience) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Launches GitHub Copilot X, integrating advanced conversational LLMs directly into pull requests, system terminals, and developer documentation frameworks. Highlights the transition from raw autocomplete tools to full conversational software lifecycle management.
+  - **(2023)** [computerhoy.com: GitHub Copilot X: así es la nueva IA parecida a ChatGPT y destinada a ayudar a programadores](https://computerhoy.20minutos.es) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the technical specifications of Copilot X, including terminal tool integration, automated PR description synthesis, and integrated chat widgets. Examines the performance gains from switching to OpenAI's GPT-4 framework.
 #### Practical Guide
 
   - **(2021)** [towardsdatascience.com: Generating Python Scripts with OpenAi’s Github Copilot](https://towardsdatascience.com/generating-python-scripts-with-openais-github-copilot-da0b3fdd989)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A hands-on exploration demonstrating code generation strategies for Python scripts using Copilot. Focuses on writing high-quality comments to prompt correct library imports and database operations. Outlines testing methodologies to weed out hallucinations.
@@ -1095,5 +1096,5 @@
   - **(2021)** [css-tricks.com: Git: Switching Unstaged Changes to a New Branch](https://css-tricks.com/git-switching-unstaged-changes-to-a-new-branch)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes rapid tactics for extracting uncommitted, unstaged alterations into a newly spawned local feature branch. Guides developers on preserving workspace fluidity when starting feature-work inside the wrong branch context without triggering merge hazards.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [About](./about.md)
 

@@ -329,13 +329,6 @@
 #### Hypervisors
 
   - **(2023)** [**github.com/cyberus-technology/virtualbox-kvm: KVM Backend for VirtualBox' 🌟**](https://github.com/cyberus-technology/virtualbox-kvm) <span class='md-tag md-tag--info'>⭐ 1113</span> <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A performance-focused extension enabling Oracle VirtualBox to delegate execution directly to the native Linux Kernel-based Virtual Machine (KVM) backend. It removes proprietary kernel module requirements. Live Grounding highlights its architectural value for running clean virtualization loops inside Linux workstations.
-## Kubernetes
-
-### Resource Management
-
-#### CPU Throttling
-
-  - **(2024)** [CPU Limits in Kubernetes: Deep Dive into Pod Throttling and Kernel Interactions](https://www.linkedin.com/pulse/cpu-limits-kubernetes-why-your-pod-idle-still-deep-dive-lazarev-k3m7f?utm_source=share&utm_medium=member_android&utm_campaign=share_via) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exceptionally detailed deep dive into kernel interactions, Linux control groups (cgroups), and the Completely Fair Scheduler (CFS) quota mechanism inside Kubernetes. It demystifies why pods experience severe throttling even when aggregate CPU metrics appear healthy, analyzing the impact of short-duration burst workloads. It provides essential mathematical formulas and kernel parameters to fine-tune pod limits safely.
 ## Networking (2)
 
 ### DNS Troubleshooting
@@ -637,5 +630,5 @@
   - **(2022)** [redhat.com: How to customize VM and cloud images with guestfish](https://www.redhat.com/en/blog/customize-vm-cloud-images-guestfish) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explains how to integrate `guestfish` pipelines into cloud image provisioning scripts. Details the automated modification of network configurations, credential injection, and software installations within raw VM images.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [About](./about.md)
 

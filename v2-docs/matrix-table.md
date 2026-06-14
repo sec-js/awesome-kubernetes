@@ -5,10 +5,10 @@
 
 ## Standard Reference
 
-  - [Linode Kubernetes Engine (LKE)](https://www.linode.com/products/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [napo.io: Kubernetes The (real) Hard Way on AWS](https://napo.io/posts/kubernetes-the-real-hard-way-on-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [**VMware Kubernetes Tanzu**](https://cloud.vmware.com/tanzu)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Pharos 🌟](https://k8spharos.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Linode Kubernetes Engine (LKE)](https://www.linode.com/products/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Container Engines
 
@@ -62,13 +62,6 @@
 #### Minikube
 
   - **(2026)** [==Minikube==](https://github.com/kubernetes/minikube) <span class='md-tag md-tag--info'>⭐ 31871</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Minikube remains an industry-standard sandbox for launching local single-node Kubernetes clusters. Supports diverse VM drivers, bare-metal deployment modes, and native Docker-in-Docker execution environments tailored for application testing.
-## Networking and Security
-
-### Kubernetes Networking
-
-#### Ingress and Traffic
-
-  - **(2023)** [==Learnk8s: Comparison of Kubernetes Ingress Controllers 🌟🌟==](https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit#gid=907731238) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An expansive, community-maintained comparison spreadsheet detailing the feature matrices, protocol supports, dynamic reloading behaviors, and ecosystem integrations of various Ingress Controllers. Live Grounding highlights this dynamic reference as an essential resource for architects choosing ingress tools based on enterprise requirements.
 ## Platform Architecture
 
 ### Cloud Providers
@@ -104,5 +97,5 @@
   - **(2026)** [==Weave Kubernetes System Control - wksctl==](https://github.com/weaveworks/wksctl) <span class='md-tag md-tag--info'>⭐ 389</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Weaveworks' Weave Kubernetes System Control (wksctl) was a GitOps-based tool for cluster creation, configuring infrastructure directly from a declared state stored in git. Curator Insight vs Live Grounding: Following Weaveworks' operational shutdown, this tool has been archived and is considered historical legacy.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [About](./about.md)
 

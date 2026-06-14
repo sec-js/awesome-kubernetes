@@ -8,16 +8,14 @@
   - [Transitive blocks](https://fastthread.io/ft-error.jsp&s=t)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [Unresponsive JVM](https://fastthread.io/ft-error.jsp&s=t)
     - [Sudden CPU spike](https://fastthread.io/ft-error.jsp&s=t)
     - [Thread Leaks](https://fastthread.io/ft-error.jsp&s=t)
-  - [medium.com/@magstherdev: OpenTelemetry Operator](https://medium.com/@magstherdev/opentelemetry-operator-d3d407354cbf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Zebrium](https://www.zebrium.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [magalix.com: Monitoring Kubernetes Clusters Through Prometheus & Grafana' 🌟](https://www.magalix.com/blog/monitoring-of-kubernetes-cluster-through-prometheus-and-grafana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [en.wikipedia.org/wiki/List_of_performance_analysis_tools](https://en.wikipedia.org/wiki/List_of_performance_analysis_tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [InspectIT](https://en.wikipedia.org/wiki/InspectIT)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [VisualVM](https://en.wikipedia.org/wiki/VisualVM)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [OverOps](https://en.wikipedia.org/wiki/OverOps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone: 8 Options for Capturing Thread Dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Zebrium](https://www.zebrium.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@magstherdev: OpenTelemetry Operator](https://medium.com/@magstherdev/opentelemetry-operator-d3d407354cbf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone.com: Performance Patterns in Microservices-Based Integrations](https://dzone.com/articles/performance-patterns-in-microservices-based-integr-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Dzone: 14 Best Performance Testing Tools and APM Solutions](https://dzone.com/articles/14-best-performance-testing-tools-and-apm-solution)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Wikipedia: Application Performance Index](https://en.wikipedia.org/wiki/Apdex)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone.com: Kubernetes Monitoring: Best Practices, Methods, and Existing' Solutions](https://dzone.com/articles/kubernetes-monitoring-best-practices-methods-and-e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [CNCF End User Technology Radar: Observability, September 2020 🌟](https://www.cncf.io/blog/2020/09/11/cncf-end-user-technology-radar-observability-september-2020)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -66,6 +64,7 @@
   - [logz.io: Grok Pattern Examples for Log Parsing](https://logz.io/blog/grok-pattern-examples-for-log-parsing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone.com: The Keys to Performance Tuning and Testing](https://dzone.com/articles/the-keys-to-performance-tuning-and-testing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [How to read a Thread Dump](https://dzone.com/articles/how-to-read-a-thread-dump)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: 8 Options for Capturing Thread Dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [awkwardferny.medium.com: Setting up Distributed Tracing in Kubernetes with' OpenTracing, Jaeger, and Ingress-NGINX](https://awkwardferny.medium.com/setting-up-distributed-tracing-with-opentelemetry-jaeger-in-kubernetes-ingress-nginx-cfdda7d9441d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ploffay.medium.com: Five years evolution of open-source distributed tracing' 🌟](https://ploffay.medium.com/five-years-evolution-of-open-source-distributed-tracing-ec1c5a5dd1ac)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Medium: Distributed Tracing and Monitoring using OpenCensus](https://medium.com/@rghetia/distributed-tracing-and-monitoring-using-opencensus-fe5f6e9479fb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -76,6 +75,7 @@
   - [APM in wikipedia](https://en.wikipedia.org/wiki/Application_performance_management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone.com: APM Tools Comparison](https://dzone.com/articles/apm-tools-comparison-which-one-should-you-choose)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone.com: Java Performance Monitoring: 5 Open Source Tools You Should Know](https://dzone.com/articles/java-performance-monitoring-5-open-source-tools-you-should-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Dzone: 14 Best Performance Testing Tools and APM Solutions](https://dzone.com/articles/14-best-performance-testing-tools-and-apm-solution)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Krossboard: A centralized usage analytics approach for multiple Kubernetes](https://itnext.io/in-search-of-converged-usage-analytics-for-multiple-managed-kubernetes-c5108cb7f0e1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [stackpulse.com: Automated Kubernetes Pod Restarting Analysis with StackPulse](https://stackpulse.com/blog/automated-kubernetes-pod-restarting-analysis-with-stackpulse)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hashicorp.com: Monitoring as Code with Terraform Cloud and Checkly](https://www.hashicorp.com/blog/monitoring-as-code-with-terraform-cloud-and-checkly)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -357,6 +357,13 @@
 #### Resources
 
   - **(2026)** [==Awesome Sysadmin==](https://github.com/awesome-foss/awesome-sysadmin) <span class='md-tag md-tag--info'>⭐ 34277</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exhaustive curation of open-source sysadmin resources, listing production-ready system monitors, configuration management tools, security suites, and virtualization frameworks used globally by SREs.
+## Kubernetes Management
+
+### Monitoring and Observability
+
+#### etcd Monitoring
+
+  - **(2023)** [Monitor Etcd with Prometheus and Grafana using Rancher](https://www.suse.com/c/rancher_blog/monitor-etcd-with-prometheus-and-grafana-using-rancher) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operational runbook explaining how to configure Prometheus and Grafana within SUSE Rancher to audit and visualize etcd status. Evaluates critical etcd parameters including database size, disk synchronization latency, and peer communication health.
 ## Observability (8)
 
 ### APM (1)
@@ -400,6 +407,9 @@
   - **(2020)** [blog.arkey.fr: Using JDK FlightRecorder and JDK Mission Control](https://blog.arkey.fr/2020/06/28/using-jdk-flight-recorder-and-jdk-mission-control) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the usage of JDK Flight Recorder (JFR) and JDK Mission Control (JMC) for low-overhead, production-grade JVM diagnostic profiling. Explains trace capture of memory, CPU, and I/O cycles.
   - **(2020)** [Remote Debugging of Java Applications on OpenShift](https://www.redhat.com/en/blog/remote-debugging-java-applications-openshift) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses specifically on configuring JDWP parameters in enterprise Java container builds to allow secure, remote interactive debugging from IDEs directly to pods in OpenShift.
   - **(2020)** [redhat.com: How do I analyze a Java heap dump?](https://access.redhat.com/solutions/18301) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical solution article detailing how to trigger, extract, and analyze memory heap dumps from JVMs running inside Linux containers, leveraging standard OpenJDK CLI tools.
+#### Java JMX
+
+  - **(2017)** [developers.redhat.com: Troubleshooting java applications on openshift (Jolokia)](https://developers.redhat.com/blog/2017/08/16/troubleshooting-java-applications-on-openshift) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Guides developers on using Jolokia, an HTTP/JSON bridge for JMX, to securely query and troubleshoot Java microservices deployed inside Red Hat OpenShift pods.
 #### Java Spring Boot
 
   - **(2022)** [javatechonline.com: How To Monitor Spring Boot Microservices Using ELK Stack?](https://javatechonline.com/how-to-monitor-spring-boot-microservices-using-elk-stack) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a step-by-step architectural guide on routing Logback appender JSON streams from Spring Boot microservices into Logstash, indexing them in Elasticsearch, and visualizing error trends in Kibana.
@@ -506,6 +516,11 @@
 #### Prometheus Scale
 
   - **(2020)** [Promster: Use Prometheus in huge deployments with dynamic clustering and scrape sharding capabilities based on ETCD service registration](http://github.com/flaviostutz/promster) <span class='md-tag md-tag--info'>⭐ 31</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Leverages ETCD service registration to provide dynamic clustering and automated scrape sharding for distributed Prometheus deployments. While offering a lightweight alternative for scale-out setups, modern production environments in 2026 predominantly utilize Thanos, Cortex, or VictoriaMetrics for highly available global metrics engines.
+### Monitoring
+
+#### Metrics Collection
+
+  - **(2024)** [Prometheus](https://nubenetes.com/prometheus/) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Prometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud. It utilizes a pull-based metrics collection model over HTTP, powered by a highly efficient dimensional data model (TSDB) with PromQL. Essential for Kubernetes cloud-native environments, it excels in dynamic service discovery and real-time operational visibility.
 ### OpenTelemetry (1)
 
 #### Collector Infrastructure
@@ -569,9 +584,16 @@
 ##### Continuous Profiling
 
   - **(2022)** [medium.com/performance-engineering-for-the-ordinary-barbie: Why profiling should be part of regular software development workflow 🌟](https://medium.com/performance-engineering-for-the-ordinary-barbie/why-profiling-should-be-part-of-regular-software-development-workflow-8b19b7f52b38) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the engineering benefits of integrating continuous runtime code profiling (CPU, Heap Allocation, Thread Locks) into developer workflows. Curator Insight: Advocacy for persistent tracing profiles. Live Grounding: Invaluable for diagnosing microservice memory leaks before deploying changes to live users.
+### Testing
+
+#### Benchmarking
+
+##### HTTP Tools
+
+  - **(2021)** [blog.cloud-mercato.com: New HTTP benchmark tool **pycurlb**](https://blog.cloud-mercato.com/new-http-benchmark-tool-pycurlb) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces pycurlb, a Python-based wrapper and benchmarking utility utilizing libcurl for low-overhead HTTP performance testing. Explores its use cases in testing microservice latency and raw throughput. Curator Insight: Quick functional introduction of a new pycurl tool. Live Grounding: Provides an alternative for developers seeking a highly customizable, scriptable curl execution engine for API baselining.
 ## Security (1)
 
-### Monitoring
+### Monitoring (1)
 
 #### Host Security
 
@@ -626,6 +648,11 @@
 ##### Telemetry Routing
 
   - **(2019)** [bravenewgeek.com: The Observability Pipeline](https://bravenewgeek.com/the-observability-pipeline) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive technical exploration of the 'Observability Pipeline' architectural pattern, illustrating how to decouple telemetry sources from destinations using intermediate routing layers (e.g., Vector). Curator Insight: Deep-dive on data routing middleware. Live Grounding: A fundamental design paradigm for modern platform engineering, preventing vendor lock-in and optimizing ingestion costs.
+#### Infrastructure Design
+
+##### Telemetry Pipelines
+
+  - **(2022)** [learnsteps.com: Monitoring Infrastructure System Design](https://www.learnsteps.com/monitoring-infrastructure-system-design) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural breakdown of designing an end-to-end monitoring infrastructure from scratch. Examines the selection of pull vs. push telemetry models, buffer queues (like Kafka), and time-series databases (TSDBs). Curator Insight: High-level overview of system design for monitoring platforms. Live Grounding: Serves as a great architectural primer for platform engineering teams building internal metrics systems.
 #### Logging Systems
 
 ##### Architecture (1)
@@ -633,5 +660,5 @@
   - **(2022)** [learnsteps.com: Logging Infrastructure System Design](https://www.learnsteps.com/logging-infrastructure-system-design) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Structural system architecture deep-dive covering high-volume log collection, queuing, indexing, and durable storage tiers (such as ELK, Grafana Loki, or OpenSearch). Curator Insight: Deep blueprint on logging pipeline design. Live Grounding: Essential reading for scaling logging clusters without sacrificing lookup speeds or bloating cloud storage costs.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [About](./about.md)
 

@@ -11,13 +11,6 @@
   - [foreseeti.com: How to become and stay AWS well architected in a smart way](https://foreseeti.com/how-to-become-and-stay-aws-well-architected-in-a-smart-way)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@buraktahtacioglu: AWS Well-Architected Framework — AWS Roadmap](https://medium.com/@buraktahtacioglu/aws-well-architected-framework-aws-roadmap-80aaa6ca7f53)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Cloud Architecture
-
-### Case Studies
-
-#### Enterprise Scale
-
-  - **(2019)** [aws.amazon.com: Trainline Case Study](https://aws.amazon.com/solutions/case-studies) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural case study mapping Trainline's migrations onto AWS using ECS containerized deployments and RDS clusters. Demonstrates successful reduction in database locking periods and outlines zero-downtime blue/green microservice delivery strategies.
 ## Cloud Infrastructure
 
 ### AWS
@@ -50,15 +43,6 @@
 #### Compliance Auditing
 
   - **(2026)** [AWS Well-Architected IaC Analyzer](https://github.com/aws-samples/well-architected-iac-analyzer) <span class='md-tag md-tag--info'>⭐ 483</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS-backed auditing analyzer designed to inspect CloudFormation and Terraform designs against the AWS Well-Architected standard. Evaluates infrastructure-as-code deployments for security vulnerabilities and reliability issues before runtime provisioning.
-## Cloud Native
-
-### AWS (1)
-
-#### Governance (1)
-
-##### AWS Organizations
-
-  - **(2024)** [AWS Organizations: The Key to Managing Your Cloud Infrastructure Effectively](https://awsfundamentals.com/blog/aws-organizations-the-key-to-managing-your-cloud-infrastructure-effectively)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores core configuration benefits of AWS Organizations for multi-account governance. Highlights service control policies (SCPs), unified billing, and secure programmatic account instantiation using IaC.
 ## Cloud Platform
 
 ### AWS Infrastructure
@@ -106,7 +90,7 @@
   - **(2023)** [This is My Architecture](https://aws.amazon.com/architecture/this-is-my-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AWS's premier video and article series showcasing production-grade architectural solutions. Focuses on design tradeoffs, performance strategies, and networking topologies of modern web applications.
 ### Cloud Governance (1)
 
-#### Case Studies (1)
+#### Case Studies
 
   - **(2023)** [==github.com/ministryofjustice: Modernisation Platform - Architecture Decisions==](https://github.com/ministryofjustice/modernisation-platform/tree/main/architecture-decision-record) <span class='md-tag md-tag--info'>⭐ 724</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The public collection of Architecture Decision Records (ADRs) from the UK Ministry of Justice Modernisation Platform. This serves as a key reference for cloud governance, public sector IT standards, and clear decision documentation.
 ## Kubernetes and Platform Engineering
@@ -117,14 +101,7 @@
 
   - **(2023)** [AWS App2Container: Migrate your Applications to Containers at Scale](https://aws.amazon.com/blogs/architecture/migrate-your-applications-to-containers-at-scale) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Introduces AWS App2Container, a tool that automates the migration of legacy .NET and Java web applications into containerized structures ready for deployment on Amazon ECS or EKS.
   - **(2023)** [Let’s Architect! Architecting microservices with containers](https://aws.amazon.com/blogs/architecture/lets-architect-architecting-microservices-with-containers)  <span class='md-tag md-tag--info'>[LEGACY]</span> — A foundational guide for decoupling large legacy applications. Explores container hosting options on ECS and EKS, microservice discovery patterns, and inter-service security standards.
-## Software Engineering
-
-### Frontend Architecture
-
-#### Design Patterns
-
-  - **(2021)** [Clean Architecture on Frontend](https://bespoyasov.me/blog/clean-architecture-on-frontend) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Adapts Robert C. Martin's Clean Architecture principles to modern client-side frontend applications. Focuses on isolation of core business domains, UI frameworks, and data sources via explicit dependency inversion layers, simplifying testing and future framework transitions.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Serverless](./aws-serverless.md) | [AWS Backup](./aws-backup.md)
 

@@ -63,6 +63,9 @@
 #### Software Architecture
 
   - **(2020)** [==react js: mithi/react-philosophies==](https://github.com/mithi/react-philosophies) <span class='md-tag md-tag--info'>⭐ 3728</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly structured philosophy repository outlining architectural principles for designing maintainable React codebases. Emphasizes declarative code patterns, state encapsulation, hook extraction, and unit testing strategies.
+#### State Management
+
+  - **(2019)** [useHooks - React Hooks Library](https://usehooks.com) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Production-ready React hook recipes facilitating decoupled side effects, event listener bindings, dynamic state persistence, and responsive UI behaviors without custom boilerplate code.
 ### Real-Time Communication
 
 #### Notifications
@@ -102,5 +105,5 @@
   - **(2009)** [==github.com/nodejs/node==](https://github.com/nodejs/node) <span class='md-tag md-tag--info'>⭐ 117761</span> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Core development branch of the Node.js runtime. Details foundational V8 updates, event loop mechanics (libuv integration), core module performance tweaks, and security updates essential for server-side architectures.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
+💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [Angular](./angular.md) | [API](./api.md)
 

@@ -5,7 +5,6 @@
 
 ## Standard Reference
 
-  - [Docker for LLMs](https://www.docker.com/llm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone refcard: Getting Started with Docker](https://dzone.com/refcardz/getting-started-with-docker-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone refcard: Java Containerization 🌟](https://dzone.com/refcardz/java-containerization)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Strategies of docker images optimization](https://medium.com/sciforce/strategies-of-docker-images-optimization-2ca9cc5719b6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -60,6 +59,7 @@
   - [hwchiu.medium.com: Docker Networking Model — Introduction](https://hwchiu.medium.com/docker-networking-model-introduction-194a2a2c9b68)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Understanding Docker Volumes, Mounts and Layers and How to Manage' Data in Containers](https://medium.com/nycdev/understanding-docker-volumes-mounts-and-layers-9fa17befa493)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [betterprogramming.pub: 5 Simple Tips For Debugging Docker Containers 🌟](https://betterprogramming.pub/5-simple-tips-for-debugging-docker-containers-271cb3dee77a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Docker for LLMs](https://www.docker.com/llm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Docker anti-patterns | Codefresh](https://medium.com/containers-101/docker-anti-patterns-ad2a1fcd5ce1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Docker Hardened Images for Every Developer](https://www.docker.com/blog/docker-hardened-images-for-every-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infosecwriteups.com: Attacking and securing Docker containers](https://infosecwriteups.com/attacking-and-securing-docker-containers-cc8c80f05b5b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -129,13 +129,6 @@
 #### Docker Buildx
 
   - **(2021)** [releasehub.com: Cutting Build Time In Half with Docker’s Buildx Kubernetes Driver](https://release.com/blog/cutting-build-time-in-half-docker-buildx-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines how to optimize CI/CD pipeline build performance by scaling compilation workloads using the Docker Buildx Kubernetes driver. Demonstrates how offloading build tasks to Kubernetes clusters yields massive cache reuse and parallelization gains.
-## Cloud Computing
-
-### Training
-
-#### Multi-Cloud Education
-
-  - **(2023)** [acloudguru.com](https://www.pluralsight.com/cloud-guru)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A premier e-learning platform (now part of Pluralsight) specializing in cloud computing, DevOps, and container certifications (AWS, Azure, GCP, Kubernetes). Provides hands-on sandbox environments and deep technical pathways designed to train enterprise-grade engineering organizations.
 ## Cloud Infrastructure
 
 ### AWS
@@ -468,6 +461,7 @@
   - **(2020)** [developers.redhat.com: Red Hat Universal Base Images for Docker users](https://developers.redhat.com/blog/2020/03/24/red-hat-universal-base-images-for-docker-users) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This guide explains the structure, licensing, and optimization of Red Hat Universal Base Images (UBI) for developers using Docker or other non-RHEL runtimes. It showcases how UBI provides a free, secure, and enterprise-grade base image platform that maintains strict compatibility with Red Hat Enterprise Linux. It is crucial for standardizing commercial container dependencies.
 #### Container Management (1)
 
+  - **(2026)** [Portainer 🌟](https://www.portainer.io) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Portainer is a leading container management platform designed to simplify Docker, Kubernetes, and Azure ACI environments through an intuitive web interface. It allows platform administrators to easily deploy stacks, monitor real-time resources, manage networks/volumes, and control user access (RBAC). In 2026, it serves as a robust bridging portal between command-line container engines and full-scale orchestration management.
   - **(2026)** [Portainer Community Edition](https://www.portainer.io/install) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The Community Edition of Portainer provides a self-hosted, lightweight administration portal for managing standalone Docker daemons, Swarm clusters, and edge environments. It abstracts complex container and volume operations into a responsive dashboard, reducing operational friction. It remains a popular, stable, and highly trusted portal for developer environments and internal infrastructure management.
 #### Debugging
 
@@ -690,5 +684,5 @@
   - **(2026)** [==ory/dockertest==](https://github.com/ory/dockertest) <span class='md-tag md-tag--info'>⭐ 4519</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Dockertest enables developers to spin up ephemeral Docker containers directly from Go, Rust, or other language test suites to act as real dependencies (e.g., PostgreSQL, Redis). Unlike mock interfaces, it guarantees that integration tests run against actual database engines and stateful systems, disposing of them automatically when tests finish. It represents a gold standard in unit and integration testing pipelines for cloud-native microservices.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
+💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md)
 

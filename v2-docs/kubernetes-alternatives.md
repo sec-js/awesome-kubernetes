@@ -5,21 +5,14 @@
 
 ## Standard Reference
 
-  - [medium: Why Not Use Kubernetes?](https://medium.com/better-programming/why-not-use-kubernetes-52a89ada5e22)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com: Your team might not need Kubernetes](https://medium.com/faun/your-team-might-not-need-kubernetes-57240e8d554a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Why Not Use Kubernetes?](https://medium.com/better-programming/why-not-use-kubernetes-52a89ada5e22)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [sysadmincasts.com: Nomad 🌟](https://sysadmincasts.com/episodes/74-nomad)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [stackshare.io: Kubernetes vs Portainer](https://stackshare.io/stackups/kubernetes-vs-portainer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kpatronas.medium.com: Docker swarm: High Availability](https://kpatronas.medium.com/docker-swarm-high-availability-36ea7ee7f9e8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloudsavvyit.com: What is Docker Swarm Mode and When Should You Use It?](https://www.cloudsavvyit.com/13049/what-is-docker-swarm-mode-and-when-should-you-use-it)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.opstree.com: A Comparison Between Various Container Orchestration Services!' (ECS vs Kubernetes)](https://blog.opstree.com/2021/06/21/a-comparison-between-various-container-orchestration-services-ecs-vs-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Cloud Native Infrastructure
-
-### Kubernetes Orchestration
-
-#### Technology Assessment
-
-  - **(2020)** [**thenewstack.io: Do I Really Need Kubernetes? 🌟**](https://thenewstack.io/do-i-really-need-kubernetes) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Offers a pragmatic architectural counter-argument to automatic Kubernetes adoption. Evaluates alternatives such as managed serverless containers (ECS, Cloud Run) and PaaS solutions, analyzing whether the infrastructure scale justifies K8s operational complexity and platform engineering overhead.
 ## Deployment
 
 ### PaaS
@@ -37,13 +30,6 @@
 #### Tau Edge
 
   - **(2025)** [==github.com/taubyte/tau: Tau==](https://github.com/taubyte/tau) <span class='md-tag md-tag--info'>⭐ 5051</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Tau is an innovative, high-performance decentralized computing platform running WebAssembly (Wasm) workloads on the edge. It integrates autonomous routing, multi-tenant serverless orchestration, and distributed transactional db sync natively without standard cloud overhead.
-## Infrastructure
-
-### Containerization
-
-#### Container Management
-
-  - **(2026)** [Portainer 🌟](https://www.portainer.io) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Portainer is a leading container management platform designed to simplify Docker, Kubernetes, and Azure ACI environments through an intuitive web interface. It allows platform administrators to easily deploy stacks, monitor real-time resources, manage networks/volumes, and control user access (RBAC). In 2026, it serves as a robust bridging portal between command-line container engines and full-scale orchestration management.
 ## Infrastructure as Code
 
 ### Ansible
@@ -150,5 +136,5 @@
   - **(2026)** [Taubyte](https://taubyte.com) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An innovative WebAssembly-native edge cloud designed to eliminate typical virtualization layers. Offers decentralized and autonomous execution of lightweight, globally scaling serverless routines.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
+💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Docker](./docker.md)
 

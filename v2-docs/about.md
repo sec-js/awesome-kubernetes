@@ -23,8 +23,13 @@ We build bridges based on **evidence**, not politics or hype. If a solution cann
 #### 2.3. Anti-Bikeshining: Abstractions over Reinvention
 We prioritize established frameworks and enterprise standards over ad-hoc, unmaintainable tooling. Reinventing the wheel is often a symptom of misaligned incentives in the IT sector.
 
-### 📊 3. Comparative Maturity Framework
+#### 2.4. Avoiding Engineering Anti-Patterns
+We combat the culture of **Promotion-Driven Development (PDD)**, where complexity is manufactured for personal career visibility rather than business value. 
 
+  - [Promotion-Based Development: A Fast Track to Mediocrity](https://vadimkravcenko.com/shorts/promotion-based-development/) <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Dissects how rewarding "shiny new things" over battle-tested stability leads to fragile architectures.
+  - [Reddit: The Reality of Promotion-Driven Development](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A raw, evidence-based discussion from senior engineers on the industry's most common misaligned incentives.
+
+### 📊 3. Comparative Maturity Framework
 | Principle | Strategic Focus | Primary Toolset | Architectural Impact |
 | :--- | :--- | :--- | :--- |
 | **DevOps** | Automation & Frequency | CI/CD Pipelines | Operational Speed |
@@ -95,5 +100,5 @@ We advocate for a technical sector where quality and evidence-based decisions ta
   - **(2024)** [Terraform Kubernetes Boilerplates 🌟](https://nubenetes.com/terraform/) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A library of enterprise-stable Terraform templates configured specifically for modern Kubernetes environments (EKS, GKE, AKS). Includes pre-tested infrastructure specifications for VPC topologies, private nodes, and dynamic ingress setups.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

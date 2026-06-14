@@ -28,5 +28,5 @@
   - **(2021)** [Serverless Computing: Moving from DevOps to NoOps](https://devops.com/serverless-computing-moving-from-devops-to-noops) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates how serverless architectures drive NoOps execution. Emphasizes shifting operations responsibilities (e.g., node provisioning, patching, scaling) to public cloud platforms, allowing developers to focus strictly on code components.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
+💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Docker](./docker.md)
 

@@ -66,6 +66,11 @@
 #### Okteto
 
   - **(2021)** [okteto.com: Kubernetes for Developers Blog Series by Okteto](https://www.okteto.com/blog/kubernetes-basics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A guide series covering Okteto's Cloud Development Environment (CDE) paradigm. Demonstrates how developers can synchronize code in real-time straight to remote container runtimes without local compiler requirements.
+### Graph-Based Dev and Test
+
+#### Garden Documentation
+
+  - **(2021)** [garden.io: cloud native devops platform](https://docs.garden.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural specifications for the Garden orchestration tool. Details graph configurations, Helm-based packaging models, pipeline test automation patterns, and enterprise testing setups inside remote clusters.
 ### Inner-Loop Automation
 
 #### Comparisons
@@ -77,6 +82,9 @@
 #### DevSpace Analysis
 
   - **(2020)** [thenewstack.io: DevSpace Designed to Lower the Kubernetes Learning Curve](https://thenewstack.io/devspace-designed-to-lower-the-kubernetes-learning-curve)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how DevSpace simplifies cluster testing for backend teams by replacing complex kubectl calls and image building scripts with high-performance, real-time file-reloading profiles.
+#### Guides
+
+  - **(2021)** [rookout.com: Developer Tools for Kubernetes in 2021: Helm, Kustomize, and Skaffold (Part 1)](https://www.dynatrace.com/solutions/observability-for-developers) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive multi-part review of critical Kubernetes development tools. Examines deployment mechanisms (Helm, Kustomize), real-time sync engines (Skaffold, Tilt, Garden), IDE extensions, and container building alternatives.
 #### Skaffold Tutorials
 
   - **(2021)** [dev.to: How to Simplify Your Local Kubernetes Development With Skaffold](https://dev.to/otomato_io/local-kubernetes-development-with-skaffold-i0k)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical onboarding guide detailing local cloud-native development workflows using Skaffold. Explores live file-reloading, log streaming, and localized namespace configurations for multi-service apps.
@@ -163,7 +171,7 @@
 #### Evaluation (1)
 
   - **(2021)** [blog.radwell.codes: What’s the best Kubernetes distribution for local environments? 🌟](https://blog.radwell.codes/2021/05/best-kubernetes-distribution-for-local-environments)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes localized Kubernetes distributions from a CPU and memory efficiency standpoint. Helps engineers match custom testing configurations against hardware-constrained developer machines.
-#### Guides
+#### Guides (1)
 
   - **(2021)** [itnext.io: Run Kubernetes On Your Machine](https://itnext.io/run-kubernetes-on-your-machine-7ee463af21a2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-focused guide covering local Kubernetes provisioning alternatives. Evaluates resource overhead, file synchronization speeds, network configurations, and host integration points across different platforms.
   - **(2021)** [itnext.io: Kubernetes in a box](https://itnext.io/kubernetes-in-a-box-7a146ba9f681)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A guide detailing 'Kubernetes in a box' sandbox creation methodologies. Outlines structural strategies for configuring minimal host dependencies, local routing setups, and automatic configuration sync setups.
@@ -254,5 +262,5 @@
   - **(2022)** [**blog.aquasec.com: RATs (remote access tools) in the Cloud: Kubernetes UI Tools Turn into a Weapon**](https://blog.aquasec.com/kubernetes-ui-tools-security-threat) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A cybersecurity threat analysis exposing how unsecured and misconfigured Kubernetes administration dashboards can be targeted by attackers as remote access tools (RATs). Outlines strict network isolation, zero-trust patterns, and RBAC strategies.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
+💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Docker](./docker.md)
 

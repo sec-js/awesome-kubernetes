@@ -10,15 +10,16 @@
   - [aroworkshop.io 🌟](http://aroworkshop.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [O'Reilly Free Book: **Openshift for developers**](https://www.redhat.com/en/technologies/cloud-computing/openshift/for-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [NetworkPolicies and Microsegmentation](https://www.redhat.com/en/blog/channel/hybrid-cloud-infrastructure/networkpolicies-and-microsegmentation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [learn.openshift.com](https://learn.openshift.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [docs.openshift.com: Understanding networking](https://docs.openshift.com/container-platform/4.4/networking/understanding-networking.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [IBM Cloud Pak Playbook](https://cloudpak8s.io/apps/cp4a_overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [learn.openshift.com](https://learn.openshift.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [IBM Cloud Pak Playbook: cloudpak8s.io](https://cloudpak8s.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [OpenShift 3.11: Configuring the cluster auto-scaler in AWS](https://docs.openshift.com/container-platform/3.11/admin_guide/cluster-autoscaler.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [OpenShift 4.4: Applying autoscaling to an OpenShift Container Platform cluster](https://docs.openshift.com/container-platform/4.4/machine_management/applying-autoscaling.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [reddit.com/r/redhat](https://www.reddit.com/r/redhat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [reddit.com/r/openshift](https://www.reddit.com/r/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [docs.openshift.com: Understanding networking](https://docs.openshift.com/container-platform/4.4/networking/understanding-networking.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Wikipedia.org: OpenShift](https://en.wikipedia.org/wiki/OpenShift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [docs.openshift.com 🌟](https://docs.openshift.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [reddit.com/r/openshift](https://www.reddit.com/r/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [reddit.com/r/redhat](https://www.reddit.com/r/redhat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [OpenShift.io](https://openshift.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openshift-ireland.com](https://openshift-ireland.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [I’m So Sorry OpenShift, I’ve Taken You for Granted 🌟](https://medium.com/swlh/im-so-sorry-openshift-i-ve-taken-you-for-granted-f36fb47ea4d9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -39,7 +40,6 @@
   - [stackoverflow.com: Is that possible to deploy an openshift or kubernetes' in DMZ zone? 🌟](https://stackoverflow.com/questions/59518363/is-that-possible-to-deploy-an-openshift-or-kubernetes-in-dmz-zone)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.ibm.com: OpenShift Ingress](https://cloud.ibm.com/docs/openshift?topic=openshift-ingress)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: OpenShift Egress Options](https://dzone.com/articles/openshift-egress-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [IBM Cloud Pak Playbook: cloudpak8s.io](https://cloudpak8s.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## CI-CD
 
@@ -133,13 +133,6 @@
 #### Egress Firewalls
 
   - **(2024)** [**Accessing External Services Using Egress Router**](https://www.redhat.com/en/blog/accessing-external-services-using-egress-router) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Deep-dive into configuring Red Hat OpenShift Egress Router pods to map outbound traffic to dedicated public IPs. This facilitates firewalled external resources (like legacy DBs) to authorize connections from fluid Kubernetes pods securely.
-## Performance Engineering
-
-### Kubernetes Optimization
-
-#### Autonomous Tuning
-
-  - **(2025)** [**How Kruize Optimizes OpenShift Workloads**](https://developers.redhat.com/articles/2025/06/25/how-kruize-optimizes-openshift-workloads#what_is_kruize_autotune_) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Technical review explaining how the Kruize Autotune project leverages prometheus metrics to autonomously profile and adjust microservices allocations on enterprise OpenShift clusters.
 ## Platform Engineering (1)
 
 ### Architectural Insights
@@ -234,5 +227,5 @@
   - **(2022)** [opensource.com: Why choose Rocket.Chat for your open source chat tool](https://opensource.com/article/22/1/rocketchat-data-privacy) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical review advocating for Rocket.Chat as a privacy-focused, scalable, open-source communication application. Provides design concepts for self-hosting chat infrastructure inside sandboxed container platforms.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Serverless](./serverless.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
+💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Docker](./docker.md)
 
