@@ -3,6 +3,12 @@ name: 07.1. PR Guardian AI
 on:
   pull_request:
     types: [opened, synchronize]
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: 'PR number to analyze'
+        required: false
+        type: string
 
 jobs:
   agentic-presubmit:
@@ -29,7 +35,7 @@ jobs:
           GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
           GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_NUMBER: ${{ github.event.inputs.pr_number || github.event.pull_request.number }}
           PYTHONPATH: ${{ github.workspace }}
         run: |
           python src/pr_guardian.py
