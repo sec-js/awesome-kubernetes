@@ -950,7 +950,7 @@ class V2VisionEngine:
                     "We prioritize established frameworks and enterprise standards over ad-hoc, unmaintainable tooling. Reinventing the wheel is often a symptom of misaligned incentives in the IT sector.\n\n"
                     "#### 2.4. Avoiding Engineering Anti-Patterns\n"
                     "We combat the culture of **Promotion-Driven Development (PDD)**, where complexity is manufactured for personal career visibility rather than business value. \n\n"
-                    "  - [Promotion-Driven Development: A Fast Track to Mediocrity](https://vadimkravcenko.com/shorts/promotion-driven-development) <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Dissects how rewarding \"shiny new things\" over battle-tested stability leads to fragile architectures.\n"
+                    "  - [Promotion-Based Development: A Fast Track to Mediocrity](https://vadimkravcenko.com/shorts/promotion-based-development/) <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Dissects how rewarding \"shiny new things\" over battle-tested stability leads to fragile architectures.\n"
                     "  - [Reddit: The Reality of Promotion-Driven Development](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A raw, evidence-based discussion from senior engineers on the industry's most common misaligned incentives.\n\n"
                     "### 📊 3. Comparative Maturity Framework\n"
                     "| Principle | Strategic Focus | Primary Toolset | Architectural Impact |\n"
