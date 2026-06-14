@@ -110,6 +110,13 @@
 #### Spring Boot
 
   - **(2021)** [blog.openshift.com: Performance Metrics (APM) for Spring Boot Microservices on OpenShift](https://www.redhat.com/en/blog/performance-metrics-apm-spring-boot-microservices-openshift) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical deep-dive on collecting JVM metrics, distributed traces, and custom telemetry from Spring Boot workloads on OpenShift/Kubernetes, utilizing tools like Micrometer, Prometheus, and Jaeger.
+## Observability and Troubleshooting
+
+### JVM Performance
+
+#### Diagnostics (3)
+
+  - **(2021)** [blog.heaphero.io: What is GC Log, thread dump and Heapdump? 🌟](https://blog.heaphero.io/what-is-gc-log-thread-dump-and-heapdump) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A diagnostic reference explaining the roles of garbage collection (GC) logs, thread dumps, and heap dumps in Java Virtual Machine (JVM) analysis. GC logs map memory reclamation patterns, thread dumps identify concurrency deadlocks, and heap dumps pinpoint memory leaks. This guide bridges the gap between raw JVM telemetry and pragmatic troubleshooting workflows.
 ## Software Development
 
 ### Caching Strategy

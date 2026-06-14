@@ -202,7 +202,7 @@
 
 #### Identity and Access Management
 
-  - **(2024)** [==Git Credential Manager Core==](https://github.com/git-ecosystem/git-credential-manager) <span class='md-tag md-tag--info'>⭐ 8977</span> <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Git Credential Manager is a secure, cross-platform helper that simplifies multi-factor authentication for hosts like GitHub, GitLab, and Azure DevOps. It securely stores credentials in platform-native keychains, abstracting token lifecycle management away from developers.
+  - **(2024)** [==Git Credential Manager Core==](https://github.com/git-ecosystem/git-credential-manager) <span class='md-tag md-tag--info'>⭐ 8978</span> <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Git Credential Manager is a secure, cross-platform helper that simplifies multi-factor authentication for hosts like GitHub, GitLab, and Azure DevOps. It securely stores credentials in platform-native keychains, abstracting token lifecycle management away from developers.
 ## Development
 
 ### Libraries
@@ -1020,6 +1020,9 @@
 #### Automated Pipelines
 
   - **(2021)** [loves.cloud: Creating a fully automated DevSecOps CI/CD Pipeline](https://loves.cloud/creation-of-a-fully-automated-devsecops-cicd-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This guide provides blueprints for assembling an end-to-end automated DevSecOps pipeline. Shows how to chain static analysis (SonarQube), dependency checking, and container vulnerability scanning (Trivy) into active continuous integration workflows.
+#### Best Practices
+
+  - **(2022)** [techerati.com: DevSecOps: Eight tips for truly securing software](https://www.techerati.com/features-hub/devsecops-eight-tips-for-truly-securing-software)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An architectural blueprint detailing eight foundational pillars for embedding security directly into the CI/CD pipeline. Key concepts include shifted-left vulnerability scanning, automated compliance checks, dependency analysis, and developer-centric security education. The article offers high-level pragmatic strategies for organizations transitioning from traditional DevOps to modern DevSecOps frameworks.
 #### Commercial CD
 
   - **(2021)** [harness.io: Automated DevSecOps with StackHawk and Harness](https://www.harness.io/blog/automated-devsecops) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This integration post demonstrates combining Harness continuous delivery pipelines with StackHawk dynamic application security testing. Explains triggering automated DAST sweeps during local staging or canary rollout stages to catch vulnerabilities pre-production.

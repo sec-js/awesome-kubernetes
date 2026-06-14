@@ -315,7 +315,7 @@
   - **(2015)** [==The Art of Command Line==](https://github.com/jlevy/the-art-of-command-line) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premium, single-page reference for command-line mastery. Highly dense and comprehensive, it details advanced processes, pipeline debugging, and cloud utility integrations. Live Grounding establishes this repository as a global industry standard for technical terminal operations.
 #### Shell Configuration
 
-  - **(2013)** [==github.com/zsh-users/zsh-autosuggestions 🌟==](https://github.com/zsh-users/zsh-autosuggestions) <span class='md-tag md-tag--info'>⭐ 35689</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A high-efficiency plugin that suggest terminal execution commands as you type, pulling context dynamically from local shells. It drastically reduces keystrokes and context switching. Live Grounding demonstrates that it has become an essential productivity tool across modern engineering environments.
+  - **(2013)** [==github.com/zsh-users/zsh-autosuggestions 🌟==](https://github.com/zsh-users/zsh-autosuggestions) <span class='md-tag md-tag--info'>⭐ 35690</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A high-efficiency plugin that suggest terminal execution commands as you type, pulling context dynamically from local shells. It drastically reduces keystrokes and context switching. Live Grounding demonstrates that it has become an essential productivity tool across modern engineering environments.
   - **(2009)** [==Oh My Zsh==](https://ohmyz.sh) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier framework for managing Zsh shell configurations. It comes packaged with thousands of community-authored helper functions, themes, and CLI integrations. Live Grounding highlights its unparalleled adoption across developer workstations, standardizing interactive command-line interfaces.
 #### Tricks and Tweaks
 
@@ -413,6 +413,13 @@
 #### SSH and Encryption
 
   - **(2026)** [**redhat.com: Using ssh-keygen and sharing for key-based authentication in Linux**](https://www.redhat.com/en/blog/configure-ssh-keygen) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive guide to generating and deploying cryptographic SSH keypairs. Discusses security practices such as passphrase utilization, key algorithms (RSA vs. Ed25519), and multi-host access management.
+## Observability and Troubleshooting
+
+### Linux Systems
+
+#### Kernel Diagnostics
+
+  - **(2022)** [blog.ycrash.io: dmesg – Unix/Linux command, beginners introduction with examples](https://blog.ycrash.io/dmesg-unix-linux-command-beginners-introduction-with-examples) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A fundamental reference guide to using the `dmesg` utility for examining kernel-level ring buffer logs in Unix and Linux operating systems. The resource highlights critical subcommands for parsing device driver issues, memory allocation failures (including Out-Of-Memory/OOM kills), and hardware initialization errors. It provides essential CLI commands to help system administrators and site reliability engineers troubleshoot core OS issues.
 ## Operating Systems and Infrastructure
 
 ### Command Line (1)

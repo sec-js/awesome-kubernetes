@@ -195,7 +195,7 @@
 
 #### AWS Emulation
 
-  - **(2026)** [==github.com/localstack/localstack==](https://github.com/localstack/localstack) <span class='md-tag md-tag--info'>⭐ 65045</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight identifies the open-source repository for LocalStack, the premier AWS cloud emulator. Live Grounding underscores its unparalleled adoption (>65k stars), showing it as a foundational dependency for developer productivity, enabling local execution of Lambdas, S3, DynamoDB, and CloudFormation stacks.
+  - **(2026)** [==github.com/localstack/localstack==](https://github.com/localstack/localstack) <span class='md-tag md-tag--info'>⭐ 65044</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight identifies the open-source repository for LocalStack, the premier AWS cloud emulator. Live Grounding underscores its unparalleled adoption (>65k stars), showing it as a foundational dependency for developer productivity, enabling local execution of Lambdas, S3, DynamoDB, and CloudFormation stacks.
   - **(2026)** [localstack.cloud](https://www.localstack.cloud) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights the enterprise cloud platform offering advanced local emulation of AWS services. Live Grounding reinforces that LocalStack has become the industry standard for offline AWS cloud development, supporting complex services like IAM, EKS, and RDS, which radically reduces cloud spend and speeds up inner-loop iteration cycles.
 #### EC2 Metadata
 

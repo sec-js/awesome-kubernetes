@@ -154,6 +154,13 @@
 #### System Administration
 
   - **(2026)** [==How-To Secure A Linux Server==](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) <span class='md-tag md-tag--info'>⭐ 27773</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly comprehensive, widely reference-validated repository providing detailed, step-by-step instructions for securing enterprise Linux installations. Key configurations cover SSH daemon hardening, secure user boundaries, kernel performance optimizations, and automated intrusion monitoring. In modern 2026 operations, this guide remains a vital source for building secure base golden images inside automated IaC pipelines.
+## Security and Governance
+
+### CICD Security
+
+#### Azure and GitHub Integration
+
+  - **(2022)** [Deploying to Azure: Secure Your GitHub Workflow with OIDC](https://thomasthornton.cloud/deploying-to-azure-secure-your-github-workflow-with-oidc) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the mechanism of securing deployment pipelines on Azure by leveraging GitHub Actions with OIDC federation. This setup eliminates credential rotation burdens and prevents high-privilege credential leakage. The article guides developers through creating federated credentials in Azure AD and configuring GitHub workflows for passwordless authentication.
 ## Security and Identity
 
 ### AWS IAM (1)

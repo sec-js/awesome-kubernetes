@@ -196,6 +196,13 @@ graph TD
 #### Enterprise Patterns
 
   - **(2025)** [Enterprise Web App Patterns - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/web-apps/guides/enterprise-app-patterns/overview) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Production-proven patterns and implementation pathways from the Azure Architecture Center. Establishes migration guidelines for modernizing monolithic applications into elastic web architectures.
+## Architecture Patterns
+
+### Microservices (2)
+
+#### Cloud-Native Infrastructure
+
+  - **(2022)** [techerati.com: Microservices in the Cloud-Native Era](https://www.techerati.com/features-hub/microservices-in-the-cloud-native-era) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the strategic paradigm shift toward microservices as the de facto structural archetype for scalable cloud platforms. It dissects operational complexities including traffic routing, discovery mechanisms, and failure domain containment through circuit-breakers. A vital read for architects planning monolithic-to-microservices migrations under modern Kubernetes-centric infrastructures.
 ## Artificial Intelligence and ML
 
 ### Machine Learning Engineering
@@ -572,7 +579,7 @@ graph TD
 #### Cloud Native Strategy
 
   - **(2019)** [weave.works: Going Cloud Native: 6 essential things you need to know](https://www.weave.works/technologies/going-cloud-native-6-essential-things-you-need-to-know) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Weave Works lays out six core pillars for going cloud native, focusing on containerization, declarative state management, and GitOps workflows to establish efficient deployment setups.
-### Microservices (2)
+### Microservices (3)
 
 #### Enterprise Solutions (1)
 
@@ -712,7 +719,7 @@ graph TD
     
     A case study from Shopify detailing the infrastructure and engineering effort required to maintain sub-minute continuous integration pipelines for large codebases. Explores parallelization techniques, test selection algorithms, and cache-optimization strategies that scale.
 
-### Microservices (3)
+### Microservices (4)
 
 #### Tooling Ecosystem
 
@@ -873,7 +880,7 @@ graph TD
 
   - **(2023)** [n-ix.com: How to reduce your technical debt: An ultimate guide](https://www.n-ix.com/reduce-technical-debt) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A holistic architectural playbook for diagnosing, budgeting, and paying down complex software debt. Proposes systematic approaches like code reviews, architectural documentation, and legacy modernization patterns.
   - **(2023)** [infoworld.com: You can’t run away from technical debt](https://www.infoworld.com/article/2338860/you-cant-run-away-from-technical-debt.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses the inevitability of technical debt as cloud environments and architectures naturally age. Argues that cloud adoption does not eliminate debt but merely shifts it to configuration, infrastructure, and IaC domains.
-## Microservices (4)
+## Microservices (5)
 
 ### Anti-Patterns (1)
 
@@ -958,7 +965,7 @@ graph TD
 #### Curated Reference
 
   - **(2021)** [redhat.com: Top 8 resources for microservices architecture of 2021](https://www.redhat.com/en/blog/best-microservices-2021) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated compilation of top-tier resources discussing microservices, distributed logging, service mesh implementations, and event-driven patterns. Provides platform architects with a quick roadmap to explore advanced container patterns and decentralized database design approaches.
-### Architecture Patterns
+### Architecture Patterns (1)
 
 #### Anti-Patterns (2)
 
@@ -1042,7 +1049,7 @@ graph TD
 #### Dependency Isolation
 
   - **(2022)** [itnext.io: Isolating and Managing Dependencies in 12-factor Microservice Applications — with Kubernetes](https://itnext.io/isolating-and-managing-dependencies-in-12-factor-microservice-applications-with-kubernetes-988638f8bc6d) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses specifically on Factor II (Dependencies). Demonstrates isolating system dependencies using container images, multi-stage Dockerfiles, and initContainers to orchestrate external DB readiness checks before app startup.
-#### Microservices (5)
+#### Microservices (6)
 
   - **(2022)** [itnext.io: 12 factor Microservice applications — on Kubernetes](https://itnext.io/12-factor-microservice-applications-on-kubernetes-db913008b018) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive into implementing the complete 12-Factor framework within Kubernetes. Highlights strict environmental isolation, declarative deployment processes, and scaling microservices with pod replicas.
 #### Paradigms (1)
@@ -1138,7 +1145,7 @@ graph TD
     
     Evaluates the shifting architectural landscape towards event-driven API patterns. Discusses protocols and specifications like WebSockets, Server-Sent Events, and AsyncAPI, analyzing how they enable real-time asynchronous streaming and responsive microservice architectures.
 
-### Microservices (6)
+### Microservices (7)
 
 #### Decomposition Patterns
 
@@ -1220,9 +1227,9 @@ graph TD
   - **(2022)** [zdnet.com: The year ahead in DevOps and agile: bring on the automation, bring on the business involvement](https://www.zdnet.com/article/the-year-ahead-in-devops-and-agile-more-automation-more-business-involvement-needed)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines evolutionary trends in agile delivery and DevOps, emphasizing the integration of business operations with engineering pipelines. It underscores automation, value-stream mapping, and the integration of artificial intelligence into CI/CD pipelines.
 ## Software Engineering (2)
 
-### Architecture Patterns (1)
+### Architecture Patterns (2)
 
-#### Microservices (7)
+#### Microservices (8)
 
   - **(2024)** [dynatrace.com: What are microservices? All you need to know](https://www.dynatrace.com/knowledge-base/microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-level architectural overview exploring the decoupling of corporate monoliths into agile microservices. Discusses structural changes, challenges in service discovery, and the crucial role of tracing telemetry for maintaining state consistency.
 ### Education (1)
