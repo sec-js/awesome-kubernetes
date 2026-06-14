@@ -65,6 +65,7 @@
     *   [9.6. Automated Mandate Auditing](#96-automated-mandate-auditing)
     *   [9.7. Multi-Part Reporting Engine](#97-multi-part-reporting-engine)
     *   [9.8. Workflow UI Auto-Sync](#98-workflow-ui-auto-sync)
+    *   [9.9. Resilience and Massive Recovery (The 6-Hour Rule)](#99-resilience-and-massive-recovery-the-6-hour-rule)
 10. [10. Branching Strategy and Lifecycle](#10-branching-strategy-and-lifecycle)
 11. [11. Contributing to the Archive](#11-contributing-to-the-archive)
     *   [How to Contribute](#how-to-contribute)
@@ -133,14 +134,14 @@ Additionally, as of May 2026, Nubenetes has reached the **Platinum Operational T
 ## 2. Repository Metrics and Evolution
 
 ### 2.1. The "Heart" of Nubenetes
-(Stats as of 2026-06-13)
+(Stats as of 2026-06-14)
 
 <!-- HEART_STATS_START -->
 | Metric | Value |
 | :--- | :--- |
 | **Total Technical Resources (Links)** | **18359+** |
 | **Specialized MD Pages** | **162** |
-| **Total Commits** | **5807+** |
+| **Total Commits** | **5810+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -150,16 +151,16 @@ Top 10 categories by link volume in the exhaustive V1 archive.
 <!-- TOP_CATEGORIES_START -->
 | Category (Markdown Page) | Total Links |
 | :--- | :---: |
-| [Kubernetes](docs/kubernetes.md) | 1271 |
-| [Kubernetes Tools](docs/kubernetes-tools.md) | 808 |
-| [Terraform](docs/terraform.md) | 712 |
-| [Azure](docs/azure.md) | 608 |
-| [Demos](docs/demos.md) | 596 |
-| [Git](docs/git.md) | 521 |
-| [Jenkins](docs/jenkins.md) | 448 |
-| [Devsecops](docs/devsecops.md) | 409 |
-| [Introduction](docs/introduction.md) | 387 |
-| [Managed Kubernetes In Public Cloud](docs/managed-kubernetes-in-public-cloud.md) | 376 |
+| [Kubernetes Tools](docs/kubernetes-tools.md) | 768 |
+| [Kubernetes](docs/kubernetes.md) | 711 |
+| [Terraform](docs/terraform.md) | 414 |
+| [Demos](docs/demos.md) | 363 |
+| [Azure](docs/azure.md) | 296 |
+| [Git](docs/git.md) | 265 |
+| [Visual Studio](docs/visual-studio.md) | 262 |
+| [Monitoring](docs/monitoring.md) | 254 |
+| [Devsecops](docs/devsecops.md) | 232 |
+| [Ocp4](docs/ocp4.md) | 224 |
 <!-- TOP_CATEGORIES_END -->
 
 ### 2.3. Historical Growth (Commits and References)
@@ -178,7 +179,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 2248 | 9,284 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 2251 | 9,296 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -194,8 +195,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume (Commits / Estimated New Refs)" 0 --> 10000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 9284]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 2248]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 9296]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 2251]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -205,7 +206,7 @@ xychart-beta
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
 | 2026-05 | 2101 | 8,677 | **Agentic Inception (Gemini Era)** |
-| 2026-06 | 122 | 503 | Active Curation |
+| 2026-06 | 125 | 516 | Active Curation |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
@@ -954,6 +955,21 @@ To handle the scale of 17k+ resources, the engine automatically fragments report
 
 ### 9.8. Workflow UI Auto-Sync
 Maintains **Mandate 11** by detecting new categories and alerting maintainers to update the GitHub Actions interface.
+
+### 9.9. Resilience and Massive Recovery (The 6-Hour Rule)
+When processing massive datasets (e.g., full AI re-evaluations of 18k+ links), workflows may hit the **GitHub Actions 6-hour execution limit**. Nubenetes is designed to handle this gracefully:
+
+1.  **Incremental Persistence**: The engine saves progress to the GitHub Actions Cache periodically (every 20 batches). Even if the job is cancelled or times out, the `Persist Incremental Inventory to Cache` step runs `always()`.
+2.  **Recovery Procedure**: If a workflow fails due to "exceeded the maximum execution time", follow these steps to resume:
+    *   **Trigger**: Go to the Actions tab and select the failed workflow (e.g., `03.2. V2 AI Curator`).
+    *   **Run Workflow**: Select the `develop` branch.
+    *   **restore_cache**: Set to `true` (Downloads the last saved state).
+    *   **force_reevaluate**: Set to `false` (Ensures the AI only processes links that are still pending/missing metadata).
+3.  **Finalization and Promotion**: Once the AI recovery run completes successfully (which will be much faster as it only processes pending items):
+    *   **Manual Publisher Trigger**: If the automated chain does not trigger, manually run the `04.1. V2 Publisher` workflow.
+    *   **Automated PR**: The Publisher will automatically create or update the Pull Request from `develop` to `master`.
+    *   **Human Review**: The final step remains a manual review and merge of the PR by the repository owner to deploy to production.
+4.  **Efficiency**: This strategy ensures zero token waste and zero loss of processing time, allowing the system to reach 100% coverage across multiple successive runs if necessary.
 
 ---
 

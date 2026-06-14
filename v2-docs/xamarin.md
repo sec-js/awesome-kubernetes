@@ -7,14 +7,14 @@
 
   - [Wikipedia: Xamarin](https://en.wikipedia.org/wiki/Xamarin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Software Engineering
+## Mobile Development
 
-### Mobile Development
+### Cross-Platform
 
-#### Cross-Platform Frameworks
+#### Xamarin (1)
 
-  - **(2024)** [dotnet.microsoft.com: What is Xamarin?](https://dotnet.microsoft.com/en-us/apps/xamarin) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A historic overview of Xamarin's design, detailing how Mono-based runtimes compile C# code into native iOS and Android packages. It serves as a transition guide for teams porting legacy mobile systems to the modern .NET MAUI ecosystem.
+  - **(2024)** [dotnet.microsoft.com: What is Xamarin?](https://dotnet.microsoft.com/en-us/apps/xamarin) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory resource detailing Xamarin's architecture, demonstrating how C# code gets compiled to native binaries using Mono or .NET execution runtimes. It highlights the historically unified codebase approach for mobile UI design. This documentation is primarily of historical interest as the ecosystem transitions entirely to modern .NET MAUI runtimes.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Visual Studio](./visual-studio.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 

@@ -3,19 +3,15 @@
 !!! info "Architectural Context"
     Detailed reference for React in the context of Developer Ecosystem.
 
-## Standard Reference
-
-  - [web.dev/explore/react](https://web.dev/explore/react)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [freecodecamp.org: How to Get Started With React – A Beginner's Guide](https://www.freecodecamp.org/news/get-started-with-react-for-beginners)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-
 ## Software Engineering
 
 ### Frontend Development
 
-#### React Framework
+#### React Ecosystem
 
-  - [useHooks - React Hooks Library](https://usehooks.com)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A premium library of self-contained, optimized React hooks facilitating stateful abstractions. Designed to simplify DOM tracking, event management, and browser interactions inside production web applications.
+  - **(2023)** [freecodecamp.org: How to Get Started With React – A Beginner's Guide](https://www.freecodecamp.org/news/get-started-with-react-for-beginners) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory foundational guide to React.js. Covers essential SPA concepts including state management, props, components, and virtual DOM, serving as an onboarding tool for full-stack developers.
+  - **(2022)** [web.dev/explore/react](https://web.dev/explore/react) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google's comprehensive developer resource hub focused on optimizing React application performance. Emphasizes web vitals, code-splitting, bundle reduction, and server-side rendering strategies crucial for designing low-latency web interfaces.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Visual Studio](./visual-studio.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 

@@ -6,25 +6,18 @@
 ## Standard Reference
 
   - [AWS Knowledge Center](https://aws.amazon.com/premiumsupport/knowledge-center)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Awesome AWS 🌟](https://github.com/donnemartin/awesome-aws) <span class='md-tag md-tag--info'>⭐ 14033</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [Introducing Kiro: AWS Agentic AI-Based IDE](https://markrosscloud.medium.com/introducing-kiro-aws-agentic-ai-based-ide-cded711b1409)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [docs.aws.amazon.com: Actions, resources, and condition keys for AWS services' 🌟🌟🌟](https://docs.aws.amazon.com/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [AWS Cloud Products](https://aws.amazon.com/products)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [DevOps Made Easy: Install AWS CLI, ECS CLI, Docker & Terraform Using Chocolatey](https://dev.to/aws-builders/devops-made-easy-install-aws-cli-ecs-cli-docker-terraform-using-chocolatey-2lld)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Cloudburn: An Open-Source Policy Engine for AWS Spending](https://github.com/towardsthecloud/cloudburn) <span class='md-tag md-tag--info'>⭐ 1757</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Terraform for Standardizing AWS Deployments](https://t.co/5E4FLUyh98)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Enhanced Local IDE Experience for AWS Step Functions](https://aws.amazon.com/blogs/compute/introducing-an-enhanced-local-ide-experience-for-aws-step-functions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/towards-cloud-computing: 7 Free AWS Practice Labs and AWS Workshops' resources](https://medium.com/towards-cloud-computing/7-free-aws-practice-labs-and-aws-workshops-resources-d0a861f05d3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [repost.aws 🌟](https://repost.aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Local Zones locations](https://aws.amazon.com/about-aws/global-infrastructure/localzones/locations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [aws.amazon.com/new: What's New with AWS?](https://aws.amazon.com/new)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Marketplace](https://aws.amazon.com/marketplace)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws) <span class='md-tag md-tag--info'>⭐ 36416</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws) <span class='md-tag md-tag--info'>⭐ 36426</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [AWS Ramp-Up Guides](https://aws.amazon.com/es/training/ramp-up-guides)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [serverlessland.com](https://serverlessland.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [serverlessland.com/patterns: Serverless Patterns Collection](https://serverlessland.com/patterns)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS SAM Pipelines](https://serverlessland.com/explore/sam-pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [aws/containers-roadmap: AWS Containers Roadmap](https://github.com/aws/containers-roadmap) <span class='md-tag md-tag--info'>⭐ 5345</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [aws/containers-roadmap: AWS Containers Roadmap](https://github.com/aws/containers-roadmap) <span class='md-tag md-tag--info'>⭐ 5350</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [dashbird.io: Get started and keep using AWS for free](https://dashbird.io/blog/use-aws-free)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: AWS Basics](https://dzone.com/articles/aws-basics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: AWS Basics: Bastion Hosts and NAT](https://dzone.com/articles/aws-basics-bastian-hosts-and-nat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -86,20 +79,13 @@
   - [AWS re:Post – A Reimagined Q&A Experience for the AWS Community](https://aws.amazon.com/blogs/aws/aws-repost-a-reimagined-qa-experience-for-the-aws-community)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: Amazon Introduces re:Post, a "Stack Overflow" for AWS](https://www.infoq.com/news/2021/12/amazon-repost-questions-answers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Cloud Architecture
-
-### AWS Architectures
-
-#### Open Source
-
-  - [AWS Labs GitHub](https://github.com/awslabs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — AWS's central laboratory incubator on GitHub housing thousands of reference architectures, automation scripts, and experimental SDKs. Grounding validates this organization as a primary resource for cloud-native engineering patterns.
-### AWS Governance
-
-#### AWS Organizations
-
-  - [AWS Organizations: The Key to Managing Your Cloud Infrastructure Effectively](https://awsfundamentals.com/blog/aws-organizations-the-key-to-managing-your-cloud-infrastructure-effectively)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly clear exploration of AWS Organizations, dissecting organizational units (OUs), Service Control Policies (SCPs), and account hierarchy. Grounding shows it serves as a fundamental training material for cloud administrators establishing multi-account safety structures.
 ## Cloud Infrastructure
 
+### AWS
+
+#### Resources
+
+  - **(2026)** [==Awesome AWS 🌟==](https://github.com/donnemartin/awesome-aws) <span class='md-tag md-tag--info'>⭐ 14064</span> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier reference catalog for Amazon Web Services (AWS), containing curated libraries, open-source utilities, and official whitepapers. It covers key compute, storage, networking, and serverless components. It is universally recognized as the gold standard resource for AWS-centric platform engineering teams seeking validated architectural patterns.
 ### AWS Ecosystem
 
 #### Audio Learning
@@ -165,9 +151,16 @@
 #### DevOps Challenges
 
   - **(2026)** [acloudguru.com: The Cloud Dictionary of Pain: Five Of AWS’s Toughest Cloud Topics](https://www.pluralsight.com/resources/blog/cloud/the-cloud-dictionary-of-pain-five-of-awss-toughest-cloud-topics) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive technical overview evaluating complex AWS configurations, pinpointing notorious friction points such as IAM policy composition, KMS key management, AWS Billing structures, and hybrid VPC peering. Provides architectural guidance to bypass structural anti-patterns.
+## Cloud Platform
+
+### AWS Infrastructure
+
+#### Reference Architectures
+
+  - **(2026)** [AWS Labs GitHub](https://github.com/awslabs) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> — The central AWS Labs GitHub organization housing hundreds of active experimental projects, tooling integrations, and reference CDK blueprints. Live Grounding highlights this hub as a critical launchpad for emerging patterns in infrastructure-as-code and cloud automation. It provides platform engineering teams with robust, peer-reviewed building blocks for accelerated architecture design.
 ## Cloud Providers
 
-### AWS
+### AWS (1)
 
 #### Documentation
 
@@ -185,16 +178,14 @@
 #### Architectural Concepts
 
   - **(2026)** [What is Streaming Data?](https://aws.amazon.com/what-is/streaming-data)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS conceptual guide delineating the architecture of real-time streaming data pipelines. Compares high-throughput, sequential processing mechanisms against traditional batch structures, referencing Amazon Kinesis and Apache Kafka as key streaming backplanes.
-## Platform Engineering
+## FinOps and Cloud Cost
 
-### Infrastructure as Code (1)
+### AWS Optimization
 
-#### GitHub Actions Runners
+#### Policy Engines
 
-##### AWS (1)
-
-  - [RunsOn: Self-hosted GitHub Actions Runners in AWS](https://runs-on.com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A commercial-grade, highly efficient solution for hosting ephemeral, auto-scaled GitHub Actions runners directly on your AWS account. Delivers a significant reduction in GitHub Actions spend (up to 10x) using cheap EC2 spot instances, fast cache persistence, and seamless setup.
+  - **(2024)** [**Cloudburn: An Open-Source Policy Engine for AWS Spending**](https://github.com/towardsthecloud/cloudburn) <span class='md-tag md-tag--info'>⭐ 1765</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Introduces Cloudburn, an open-source command-line tool designed to audit AWS resource groups. By using declarative policies, it alerts teams to idle resources, non-standard instance types, and unassigned Elastic IPs to keep real-world deployments within budget limits.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Public Cloud Solutions](./public-cloud-solutions.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
 

@@ -16,95 +16,91 @@
 
 ### Containerization
 
-#### Node.js Runtime Optimization
+#### Node.js Deployment
 
-  - [developers.redhat.com: Introduction to the Node.js reference architecture,' Part 5: Building good containers](https://developers.redhat.com/articles/2021/08/26/introduction-nodejs-reference-architecture-part-5-building-good-containers#what_base_images_to_start_with_) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Red Hat's authoritative architectural guide on building robust, lean OCI containers for Node.js. Outlines parent image selections, non-root user setups, and proper process signal delegation (PID 1).
-## Design and UI
+  - **(2021)** [developers.redhat.com: Introduction to the Node.js reference architecture, Part 5: Building good containers](https://developers.redhat.com/articles/2021/08/26/introduction-nodejs-reference-architecture-part-5-building-good-containers#what_base_images_to_start_with_) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Part of Red Hat's Node.js reference architecture focusing on secure container images. Outlines distroless base choices, multi-stage Docker builds, user permissions management, and resource allocation policies for production runtimes.
+## Developer Productivity
 
-### Assets
-
-#### Background Generators
-
-  - [bgjar.com](https://bgjar.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Flexible programmatic SVG background generator outputting lightweight background vector assets. Accelerates application load times by replacing rasterized UI files with scale-independent mathematical lines.
-### Inspiration
-
-#### Web Portals
-
-  - [cssnectar.com](https://cssnectar.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curated design gallery aggregating modern CSS styles and interactive layout experiments. Serves as a performance-minded reference portal for advanced responsive design implementations.
-### Prototyping
-
-#### Mockup Tools
-
-  - [mockuper.net](https://mockuper.net)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Interactive visual prototyping canvas helping developers generate polished mockups within browser hardware skins. Streamlines high-fidelity visual alignment for system interface presentations.
-## Languages and Runtimes
-
-### JavaScript (1)
-
-#### Fundamentals
-
-  - [dev.to: JavaScript Objects](https://dev.to/shreyazz/javascript-objects-57ob)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Foundational guide reviewing object composition, prototype structures, and memory behaviors in modern ECMAScript specifications.
-  - [dev.to: JavaScript Arrays and its Methods](https://dev.to/insha/javascript-array-and-its-methods-432k)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A handbook defining native array manipulation methods including map, filter, and reduce operations, key to high-density data transformation in node processes.
-  - [dev.to: Getting Started with JavaScript Modules](https://dev.to/thecoollearner/getting-started-with-javascript-modules-2mkg)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Introduces JavaScript's module pattern history, comparing ES6 export/import definitions with legacy CommonJS modules.
-#### Validation Techniques
-
-  - [dev.to: Username Validator](https://dev.to/lizardkinglk/username-validator-1n8g)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical walk-through explaining regular expressions and string checking techniques to construct secure and robust validation logic.
-### JavaScript Engine
-
-#### V8 Core
-
-  - [v8.dev:](https://v8.dev) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Google's open-source high-performance JavaScript and WebAssembly engine. Powers Chrome and Node.js runtimes, acting as the foundation of modern high-scale cloud services.
-## Runtime Environments
-
-### Node.js Platform
-
-#### JavaScript Runtime
-
-  - **(2026)** [==nodejs.org==](https://nodejs.org/en) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official site of Node.js, the premier open-source event-driven JavaScript runtime engine. Provides technical APIs for enterprise-grade backend systems leveraging scalable asynchronous I/O loops.
-#### Source Repository
-
-  - [github.com/nodejs/node](https://github.com/nodejs/node) <span class='md-tag md-tag--info'>⭐ 117335</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main development and contribution branch of the Node.js runtime environment. Documents core engine optimizations, engine updates, and runtime safety patches.
-## Software Engineering
-
-### Application Architecture
-
-#### Notification Systems
-
-  - [dev.to: How to add In-App notifications to any web app!](https://dev.to/novu/how-to-add-in-app-notifications-to-any-web-app-1b4n)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Step-by-step architectural tutorial detailing real-time in-app notification infrastructure integrations using Novu. Explores WebSocket connections, transaction pipelines, and pre-built UI components.
-### Backend Development
-
-#### API Generation
-
-  - [dev.to: How to build 7,000+ REST APIs within 2 mins (Node.js + MySQL) !!](https://dev.to/o1lab/how-to-build-7-000-rest-apis-within-2-mins-node-js-mysql-470b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Technical deep dive showing rapid database-to-API automation workflows using relational database schemas. Focuses on minimizing operational overhead through automatic API generation.
-### Developer Experience
-
-#### IDEs and Tooling
-
-  - [IntelliJ vs. VSCode for Rust Development](https://users.rust-lang.org/t/anyone-here-go-intellij-vscode/84499)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Community-driven performance and usability evaluation contrasting IntelliJ Rust and VSCode (rust-analyzer) workflows. Discusses compilation feedback, macro expansion speeds, and debugging tool integrations.
-#### Workspace Cleanup
-
-  - [npkill.js.org](https://npkill.js.org)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A fast, dependency-free interactive command-line interface (CLI) tool designed to scan and target heavy node_modules directories. Significantly improves localized workspace disk efficiency.
-### Frontend Development
-
-#### React Best Practices
-
-  - [react js: mithi/react-philosophies](https://github.com/mithi/react-philosophies) <span class='md-tag md-tag--info'>⭐ 3731</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A curated philosophy repository outlining architectural rules for designing highly maintainable React components. Promotes declarative clean code patterns, separation of concerns, and effective state models.
-#### React Framework
-
-  - [useHooks - React Hooks Library](https://usehooks.com)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A premium library of self-contained, optimized React hooks facilitating stateful abstractions. Designed to simplify DOM tracking, event management, and browser interactions inside production web applications.
 ### Package Management
 
-#### Ecosystem Announcements
+#### Supply Chain Security
 
-  - **(2020)** [npm has joined GitHub](https://github.blog/news-insights/company-news/npm-has-joined-github) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Historical press release detail outlining GitHub's acquisition of the NPM package registry, discussing planned supply-chain security enhancements and repository-native workflow optimizations.
-### Web Development
+  - **(2020)** [npm has joined GitHub](https://github.blog/news-insights/company-news/npm-has-joined-github) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official announcement details the strategic acquisition of npm by GitHub, paving the way for integrated supply chain security, advanced registry caching, and unified CI/CD workflow security features.
+### UIUX Design
 
-#### Client-Side Storage
+#### Asset Generation
 
-  - [freecodecamp.org: Web Storage API – How to Store Data on the Browser](https://www.freecodecamp.org/news/web-storage-api-how-to-store-data-on-the-browser) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Deep-dive analysis of persistent browser storage mechanisms focusing on LocalStorage and SessionStorage APIs. Evaluates operational constraints, security risks (XSS), and data serialization best practices.
-#### HTTP Networking
+  - **(2020)** [bgjar.com](https://bgjar.com) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Dynamic SVG background generator that lets designers and engineers instantiate light-weight, scalable graphic backgrounds. Crucial for reducing DOM paint overhead compared to rasterized assets.
+#### Inspiration
 
-  - [freecodecamp.org: HTTP Networking in JavaScript –Handbook for Beginners](https://www.freecodecamp.org/news/http-full-course) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive foundational guide analyzing HTTP request-response lifecycles, network architectures, and client-side browser execution. Highlights modern REST API interactions and secure payload configurations.
+  - **(2016)** [cssnectar.com](https://cssnectar.com) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curation registry for exceptional web designs and styling practices. Evaluated by industry specialists, providing reference patterns for visual design, complex layouts, and innovative UI paradigms.
+#### Mockups
+
+  - **(2018)** [mockuper.net](https://mockuper.net) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Interactive web-based mockup generator built to produce high-fidelity device prototypes, assisting frontend architects in matching production UI implementations to designer specifications.
+### Workspace Optimization
+
+#### Dependency Auditing
+
+  - **(2020)** [npkill.js.org](https://npkill.js.org) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Light and fast CLI utility to find and eliminate heavy `node_modules` folders, optimizing local disk space and build pipeline footprints during modern development.
+## Frontend Development
+
+### Browser Storage
+
+#### State Persistence
+
+  - **(2021)** [freecodecamp.org: Web Storage API – How to Store Data on the Browser](https://www.freecodecamp.org/news/web-storage-api-how-to-store-data-on-the-browser) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores client-side data persistence layers including LocalStorage, SessionStorage, and modern alternatives like IndexedDB. Compares design tradeoffs between execution thread safety, payload capacity limits, and synchronous blocking.
+### JavaScript Fundamentals
+
+#### Data Structures
+
+  - **(2021)** [dev.to: JavaScript Objects](https://dev.to/shreyazz/javascript-objects-57ob) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Synthesized guide detailing JavaScript object fundamentals, highlighting prototype inheritance, property descriptors, and performance implications of dynamically typed structures.
+  - **(2021)** [dev.to: JavaScript Arrays and its Methods](https://dev.to/insha/javascript-array-and-its-methods-432k) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Exploration of ECMAScript array methods (such as map, filter, and reduce), analyzing memory implications, time complexity, and mutations in highly responsive user interface pipelines.
+#### Module Systems
+
+  - **(2020)** [dev.to: Getting Started with JavaScript Modules](https://dev.to/thecoollearner/getting-started-with-javascript-modules-2mkg) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduction to ECMAScript Modules (ESM) compared with CommonJS, mapping how modern bundlers resolve imports, tree-shake unused exports, and perform asynchronous code-splitting.
+### React Framework
+
+#### Software Architecture
+
+  - **(2020)** [==react js: mithi/react-philosophies==](https://github.com/mithi/react-philosophies) <span class='md-tag md-tag--info'>⭐ 3728</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly structured philosophy repository outlining architectural principles for designing maintainable React codebases. Emphasizes declarative code patterns, state encapsulation, hook extraction, and unit testing strategies.
+### Real-Time Communication
+
+#### Notifications
+
+  - **(2022)** [dev.to: How to add In-App notifications to any web app!](https://dev.to/novu/how-to-add-in-app-notifications-to-any-web-app-1b4n) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural guide on integrating live in-app notifications using Novu, exploring WebSockets, SSE (Server-Sent Events), and decoupled state synchronization across client nodes.
+### Security and Validation
+
+#### Regular Expressions
+
+  - **(2021)** [dev.to: Username Validator](https://dev.to/lizardkinglk/username-validator-1n8g) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Regular expression guide and implementation for validating user credentials on the client-side. Emphasizes security considerations like ReDoS (Regular Expression Denial of Service) and input sanitization before processing database commits.
+## Protocols and API Design
+
+### HTTP Networking
+
+#### Client-Server Communication
+
+  - **(2022)** [freecodecamp.org: HTTP Networking in JavaScript –Handbook for Beginners](https://www.freecodecamp.org/news/http-full-course) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Deep-dive handbook covering HTTP protocols, status codes, fetch APIs, CORS configurations, and asynchronous stream handling. Essential reading for constructing robust and latency-aware client-server network requests.
+### REST APIs
+
+#### Rapid Prototyping
+
+  - **(2021)** [dev.to: How to build 7,000+ REST APIs within 2 mins (Node.js + MySQL) !!](https://dev.to/o1lab/how-to-build-7-000-rest-apis-within-2-mins-node-js-mysql-470b) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstration of automated REST API generation from relational schemas using code generator frameworks. Examines dynamic routing models, DB pool initialization, and the trade-offs of using automated ORMs versus custom SQL design.
+## Runtime Environments
+
+### JavaScript Engines
+
+#### Optimization
+
+  - **(2008)** [v8.dev:](https://v8.dev) <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official site of Google's high-performance, open-source WebAssembly and JavaScript engine written in C++. Powering Node.js and Chromium, it compiles JavaScript directly to native machine code using advanced JIT compilation techniques.
+### Node.js Platform
+
+#### Asynchronous Systems
+
+  - **(2009)** [nodejs.org](https://nodejs.org/en) <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Home of the Node.js project, an asynchronous event-driven JavaScript runtime built on Chrome's V8 engine. Leverages a non-blocking I/O model to run high-throughput networking services at scale.
+#### Source Repository
+
+  - **(2009)** [==github.com/nodejs/node==](https://github.com/nodejs/node) <span class='md-tag md-tag--info'>⭐ 117760</span> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Core development branch of the Node.js runtime. Details foundational V8 updates, event loop mechanics (libuv integration), core module performance tweaks, and security updates essential for server-side architectures.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Visual Studio](./visual-studio.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 

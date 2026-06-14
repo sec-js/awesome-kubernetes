@@ -34,11 +34,22 @@
   - [reddit.com/r/python](https://www.reddit.com/r/Python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [reddit.com/r/bashonubuntuonwindows](https://www.reddit.com/r/bashonubuntuonwindows)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [crunchbase.com](https://www.crunchbase.com/organization/openshift/timeline/timeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [feedly.com](https://feedly.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Kube Events](https://kube.events)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Stack Overflow Collectives 🌟](https://stackoverflow.com/collectives)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Go Collective](https://stackoverflow.com/collectives/go)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## FinOps and Cloud Cost
+
+### Community Resources
+
+#### Curation
+
+  - **(2023)** [feedly.com](https://feedly.com) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A widely-used content aggregator tool used by FinOps engineers to curate technology updates, track major cloud provider releases, and aggregate performance engineering best practices in a single feed.
+#### Events
+
+  - **(2023)** [Kube Events](https://kube.events) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A community event calendar mapping meetups and conferences across the CNCF and Kubernetes ecosystem, focusing on platform engineering, container tuning, and cloud-native cost management sessions.
+#### Forums
+
+  - **(2023)** [AWS Forums](https://repost.aws) 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A legacy discussion forum resource for AWS developers troubleshooting infrastructure configurations and billing queries. Note: The platform has largely migrated to AWS Re:Post for community support.
 
 ---
 💡 **Explore Related:** [HR](./hr.md) | [Elearning](./elearning.md) | [Workfromhome](./workfromhome.md)

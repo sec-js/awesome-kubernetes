@@ -6,71 +6,29 @@
 ## Standard Reference
 
   - [cncf.io: From distributed tracing to APM: Taking OpenTelemetry and Jaeger up a level](https://www.cncf.io/blog/2021/04/29/from-distributed-tracing-to-apm-taking-opentelemetry-and-jaeger-up-a-level/?utm_source=thenewstack&utm_medium=twitter&utm_campaign=platform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [**InfluxDB**:](https://www.influxdata.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [tech.marksblogg.com: Monitor ClickHouse column oriented database with Prometheus' & Grafana](https://tech.marksblogg.com/clickhouse-prometheus-grafana.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [victoriametrics.com](https://victoriametrics.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Grafana](https://grafana.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openlogic.com: How to develop Grafana Dashboards 🌟](https://www.openlogic.com/blog/how-visualize-prometheus-data-grafana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [learndevops.substack.com: Hitting prometheus API with curl and jq 🌟](https://learndevops.substack.com/p/hitting-prometheus-api-with-curl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.couchbase.com: How to Build Observability Dashboards with Prometheus,' Grafana & Couchbase](https://blog.couchbase.com/how-to-build-observability-dashboards-prometheus-grafana-couchbase)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [logz.io: A Guide to Monitoring AWS Lambda Metrics with Prometheus & Logz.io](https://logz.io/blog/aws-lambda-metrics-monitoring-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Amazon Managed Service for Prometheus](https://aws.amazon.com/prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [**Red Hat AMQ overview**](https://developers.redhat.com/products/amq/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [**prometheus.io**](https://prometheus.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/prometheus/prometheus](https://github.com/prometheus/prometheus) <span class='md-tag md-tag--info'>⭐ 64131</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [Dzone Refcard: Scaling and Augmenting Prometheus](https://dzone.com/refcardz/scaling-and-augmenting-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Monitoring Self-Destructing Apps Using Prometheus](https://dzone.com/articles/prometheus-collectors)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Monitoring kubernetes with Prometheus](https://opensource.com/article/19/11/introduction-monitoring-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Ensure High Availability and Uptime With Kubernetes Horizontal Pod Autoscaler (HPA) and Prometheus](https://dzone.com/articles/ensure-high-availability-and-uptime-with-kubernete)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Set Up and Integrate Prometheus With Grafana for Monitoring.](https://dzone.com/articles/monitoring-using-spring-boot-20-prometheus-and-gra)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [PromQL Tutorial](https://medium.com/@valyala/promql-tutorial-for-beginners-9ab455142085)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [How to use Ansible to set up system monitoring with Prometheus](https://opensource.com/article/18/3/how-use-ansible-set-system-monitoring-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Initial experiences with the Prometheus monitoring system](https://medium.com/@griggheo/initial-experiences-with-the-prometheus-monitoring-system-167054ac439c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [prometheus.io/docs/instrumenting/writing_exporters/](https://prometheus.io/docs/instrumenting/writing_exporters)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devconnected.com/complete-node-exporter-mastery-with-prometheus/](https://devconnected.com/complete-node-exporter-mastery-with-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Librerías cliente](https://prometheus.io/docs/instrumenting/clientlibs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Pushgateway](https://github.com/prometheus/pushgateway) <span class='md-tag md-tag--info'>⭐ 3333</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [Exportadores de Datos](https://prometheus.io/docs/instrumenting/exporters)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [magalix.com: Monitoring of Kubernetes Clusters To Manage Large Scale Projects](https://www.magalix.com/blog/monitor-kuberentes-cluster-to-manage-large-scale-projects)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Cloud Native Monitoring with Prometheus 🌟](https://samirbehara.com/2019/05/30/cloud-native-monitoring-with-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [itnext.io - Prometheus: yet-another-cloudwatch-exporter — collecting AWS' CloudWatch metrics](https://itnext.io/prometheus-yet-another-cloudwatch-exporter-collecting-aws-cloudwatch-metrics-806bd34818a8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Prometheus Monitoring Ecosystem Begins to Mature](https://containerjournal-com.cdn.ampproject.org/c/s/containerjournal.com/topics/container-ecosystems/prometheus-monitoring-ecosystem-begins-to-mature/amp)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [learnsteps.com: Monitoring Infrastructure System Design](https://www.learnsteps.com/monitoring-infrastructure-system-design)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ganeshvernekar.com: Prometheus TSDB (Part 1): The Head Block](https://ganeshvernekar.com/blog/prometheus-tsdb-the-head-block)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ganeshvernekar.com: Prometheus TSDB (Part 2): WAL and Checkpoint](https://ganeshvernekar.com/blog/prometheus-tsdb-wal-and-checkpoint)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ganeshvernekar.com: Prometheus TSDB (Part 3): Memory Mapping of Head Chunks' from Disk](https://ganeshvernekar.com/blog/prometheus-tsdb-mmapping-head-chunks-from-disk)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ganeshvernekar.com: Prometheus TSDB (Part 4): Persistent Block and its Index](https://ganeshvernekar.com/blog/prometheus-tsdb-persistent-block-and-its-index)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [youtube playlist: How to setup Prometheus 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-anCTn6um3BDsoHnIr0O2tz3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [sysadminxpert.com: Steps to Monitor Linux Server using Prometheus](https://sysadminxpert.com/steps-to-monitor-linux-server-using-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com: Prometheus-Grafana : Node Monitoring on Kubernetes](https://medium.com/@akshitverma8191/prometheus-grafana-node-monitoring-on-kubernetes-79fd8311b56d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [zerodha.tech: Infrastructure monitoring with Prometheus at Zerodha](https://zerodha.tech/blog/infra-monitoring-at-zerodha)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [devopscube.com: How to Setup Prometheus Monitoring On Kubernetes Cluster' 🌟](https://devopscube.com/setup-prometheus-monitoring-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [prometheus-operator.dev 🌟](https://prometheus-operator.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [gabrieltanner.org: Golang Application monitoring using Prometheus](https://gabrieltanner.org/blog/collecting-prometheus-metrics-in-golang)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [promlens.com 🌟](https://promlens.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Prometheus monitoring with Elastic Stack in Kubernetes 🌟](https://medium.com/avmconsulting-blog/prometheus-monitoring-with-elastic-stack-in-kubernetes-5cf0aaa7ce04)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [portworx.com: Monitoring Kubernetes Backup with Prometheus and Grafana](https://portworx.com/kubernetes-backup-monitoring)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [itnext.io: Observability at Scale](https://itnext.io/observability-at-scale-52d0d9a5fb9b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jonbc.medium.com: Hacking your way to Observability — Part 1 : Metrics](https://jonbc.medium.com/hacking-your-way-to-observability-part-1-cf4cd42fb4dc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [opensource.com: Run Prometheus at home in a container](https://opensource.com/article/21/7/run-prometheus-home-container)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [faun.pub: Production grade Kubernetes Monitoring using Prometheus 🌟](https://faun.pub/production-grade-kubernetes-monitoring-using-prometheus-78144b835b60)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [howtoforge.com: How to Install Prometheus System Monitoring Tool on Ubuntu' 20.04](https://www.howtoforge.com/how-to-install-prometheus-on-ubuntu-20-04)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cribl.io: Using Prometheus for Agentless Monitoring](https://cribl.io/blog/using-prometheus-for-agentless-monitoring)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [aprenderbigdata.com: Prometheus: Introducción a la Monitorización de Métricas](https://aprenderbigdata.com/prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [youtube: Monitoring your k6 load test: how to install Grafana and Prometheus' on a Kubernetes cluster](https://www.youtube.com/watch?v=GL2v81xYuAQ&ab_channel=k6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [jfrog.com: Don’t let Prometheus Steal your Fire](https://jfrog.com/blog/dont-let-prometheus-steal-your-fire)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [itnext.io: Monitoring Spark Streaming on K8s with Prometheus and Grafana](https://itnext.io/monitoring-spark-streaming-on-k8s-with-prometheus-and-grafana-e6d8720c4a02)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [source.coveo.com: Prometheus at scale](https://source.coveo.com/2021/11/11/prometheus-at-scale)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com: Prometheus HA with Thanos Sidecar Or Receiver?](https://medium.com/infracloud-technologies/prometheus-ha-with-thanos-sidecar-or-receiver-2c8d0e585ff1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [prometheus.io: Comparison to Alternatives 🌟](https://prometheus.io/docs/introduction/comparison)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloudsavvyit.com: What is Prometheus and Why Is It So Popular](https://www.cloudsavvyit.com/15124/what-is-prometheus-and-why-is-it-so-popular)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [infracloud.io: Prometheus Definitive Guide Part I - Metrics and Use Cases](https://www.infracloud.io/blogs/prometheus-architecture-metrics-use-cases)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jonbc.medium.com: Hacking your way to Observability — Part 2 : Alerts](https://jonbc.medium.com/hacking-your-way-to-observability-part-2-c38baaee6b92)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/gumgum-tech: How to reduce your Prometheus cost | Daniel Fernandez](https://medium.com/gumgum-tech/how-to-reduce-your-prometheus-cost-6c7cc685e347)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/kubecost: Prometheus Grafana: configuration & query examples' 🌟](https://medium.com/kubecost/prometheus-grafana-configuration-query-examples-885b91b6ca6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dev.to: How to monitor nginx in Kubernetes with Prometheus](https://dev.to/eckelon/how-to-monitor-nginx-in-kubernetes-with-prometheus-j5f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [promlabs.com: Avoid These 6 Mistakes When Getting Started With Prometheus](https://promlabs.com/blog/2022/12/11/avoid-these-6-mistakes-when-getting-started-with-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [itnext.io: Hardening Monitoring: a step-by-step guide](https://itnext.io/hardening-monitoring-a-step-by-step-guide-7a18007c915)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.devops.dev: Deploying Prometheus and Grafana in a Multi-Node Kubernetes' Cluster and Auto-Scaling with KEDA](https://blog.devops.dev/deploying-prometheus-and-grafana-in-a-multi-node-kubernetes-cluster-and-auto-scaling-with-keda-eccecfbd8950)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.devops.dev: Observability: Better CI for your prometheus alerts with' pint instead of promtool 🌟](https://blog.devops.dev/observability-better-ci-for-your-prometheus-alerts-32aaea3b3d77)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.zelarsoft.com: Website Monitoring By Using Prometheus Blackbox Exporter' with Grafana](https://blog.zelarsoft.com/website-monitoring-by-using-prometheus-blackbox-exporter-with-grafana-c4004bb03131)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -79,206 +37,386 @@
   - [blog.devops.dev: How to Monitor your Application using Prometheus 🌟](https://blog.devops.dev/deploying-and-monitoring-an-application-using-prometheus-on-kubernetes-cluster-483773f789f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone.com: Deploying Prometheus and Grafana as Applications Using ArgoCD — Including' Dashboards](https://dzone.com/articles/deploying-prometheus-and-grafana-as-applications-u)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com: How to find unused Prometheus metrics using mimirtool 🌟](https://medium.com/@dotdc/how-to-find-unused-prometheus-metrics-using-mimirtool-a44560173543)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [rtfm.co.ua: Prometheus: Kubernetes endpoints monitoring with blackbox-exporter](https://rtfm.co.ua/en/prometheus-kubernetes-endpoints-monitoring-with-blackbox-exporter)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/criteo-engineering: How we reduced our Prometheus infrastructure' footprint by a third](https://medium.com/criteo-engineering/how-we-reduced-our-prometheus-infrastructure-footprint-by-a-third-8bf8171e46b1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.devops.dev: Observability Concept in Prometheus](https://blog.devops.dev/observability-concept-in-prometheus-9f0093fa7495)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [horovits.medium.com: Prometheus Now Supports OpenTelemetry Metrics](https://horovits.medium.com/prometheus-now-supports-opentelemetry-metrics-83f85878e46a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [thenewstack.io: 30 Pull Requests Later, Prometheus Memory Use Is Cut in' Half](https://thenewstack.io/30-pull-requests-later-prometheus-memory-use-is-cut-in-half)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devxblog.hashnode.dev: Prometheus: Elevate Your Monitoring Game](https://devxblog.hashnode.dev/prometheus-elevate-your-monitoring-game)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devxblog.hashnode.dev: Simplified Setup: Prometheus, cAdvisor, redis and' Node Exporter](https://devxblog.hashnode.dev/simplified-setup-prometheus-cadvisor-redis-and-node-exporter)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [fosstechnix.com: Install Prometheus and Grafana on Ubuntu 24.04 LTS 🌟](https://www.fosstechnix.com/install-prometheus-and-grafana-on-ubuntu-24-04)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Kubernetes Lessons in Alerting](https://medium.com/better-programming/kubernetes-lessons-in-alerting-a0b7a455e89d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [karma 🌟](https://github.com/prymitive/karma) <span class='md-tag md-tag--info'>⭐ 2639</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Alertmanager 0.23.0-rc.0 with awscloud SNS support is available for testing. There are also bugfixes and features for amtool](https://github.com/prometheus/alertmanager/releases/tag/v0.23.0-rc.0) <span class='md-tag md-tag--info'>⭐ 8485</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [tech.loveholidays.com: Dynamic alert routing with Prometheus and Alertmanager](https://tech.loveholidays.com/dynamic-alert-routing-with-prometheus-and-alertmanager-f6a919edb5f8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [prometheus.io: Introducing Prometheus Agent Mode, an Efficient and Cloud-Native' Way for Metric Forwarding](https://prometheus.io/blog/2021/11/16/agent)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cncf.io: Prometheus announces an Agent to address a new range of use cases](https://www.cncf.io/blog/2021/11/16/prometheus-announces-an-agent-to-address-a-new-range-of-use-cases)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [thenewstack.io: CNCF Prometheus Agent Could Be a ‘Game Changer’ for Edge](https://thenewstack.io/cncf-prometheus-agent-could-be-a-game-changer-for-edge)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@ehsan-khodadadi: Prometheus Multi-Cluster monitoring using Prometheus' Agent Mode](https://medium.com/@ehsan-khodadadi/prometheus-multi-cluster-monitoring-using-prometheus-agent-mode-cab2cdb20c11)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/techspiration: Deploying Prometheus Multi-Cluster monitoring' using Prometheus Agent Mode](https://medium.com/techspiration/deploying-prometheus-multi-cluster-monitoring-using-prometheus-agent-mode-a04d89afeed7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Promgen 🌟](https://github.com/line/promgen) <span class='md-tag md-tag--info'>⭐ 1123</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Promcat: A resource catalog for enterprise-class Prometheus monitoring 🌟](https://promcat.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Prometheus Demo: prometheus.demo.do.prometheus.io 🌟](https://prometheus.demo.do.prometheus.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Sloth 🌟](https://github.com/slok/sloth) <span class='md-tag md-tag--info'>⭐ 2487</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [itnext.io: SLOs should be easy, say hi to Sloth 🌟](https://itnext.io/slos-should-be-easy-say-hi-to-sloth-9c8a225df0d4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [PromTools: SLOs with Prometheus 🌟](https://promtools.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [slo-libsonnet](https://github.com/metalmatze/slo-libsonnet) <span class='md-tag md-tag--info'>⭐ 118</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [SLO Generator](https://github.com/google/slo-generator) <span class='md-tag md-tag--info'>⭐ 562</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [monitoring2.substack.com: Big Prometheus. Thanos, Cortex, M3DB and VictoriaMetrics' at scale 🌟](https://monitoring2.substack.com/p/big-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [**Prometheus TSDB**](https://prometheus.io/docs/prometheus/latest/storage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [**Cortex**:](https://cortexmetrics.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/cortexproject/cortex](https://github.com/cortexproject/cortex) <span class='md-tag md-tag--info'>⭐ 5802</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [**Thanos**:](https://thanos.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/ruanbekker: Thanos Cluster Setup](https://github.com/ruanbekker/thanos-cluster-setup)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Highly Available Prometheus Metrics for Distributed SQL with Thanos on GKE](https://blog.yugabyte.com/highly-available-prometheus-metrics-for-distributed-sql-with-thanos-on-gke)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [en.wikipedia.org/wiki/InfluxDB](https://en.wikipedia.org/wiki/MIT_License)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [influxdata.com: Building a Metrics & Alerts as a Service (MaaS) Monitoring' Solution Using the InfluxDB Stack](https://www.influxdata.com/blog/building-a-metrics-alerts-as-a-service-maas-monitoring-solution-using-the-influxdb-stack)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: Flux queries](https://dzone.com/articles/flux-windowing-and-aggregation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [thenewstack.io: Make a GitOps Workflow Using InfluxDB Templates](https://thenewstack.io/make-a-gitops-workflow-using-influxdb-templates)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [influxdata.com: Running InfluxDB 2.0 and Telegraf Using Docker](https://www.influxdata.com/blog/running-influxdb-2-0-and-telegraf-using-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [influxdata.com: InfluxDB Tech Tips: API Invokable Scripts in InfluxDB Cloud](https://www.influxdata.com/blog/tldr-influxdb-tech-tips-api-invokable-scripts-influxdb-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [exporterhub.io 🌟](https://exporterhub.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Prometheus JMX Exporter 🌟](https://github.com/prometheus/jmx_exporter) <span class='md-tag md-tag--info'>⭐ 3305</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [blackbox_exporter 🌟](https://github.com/prometheus/blackbox_exporter) <span class='md-tag md-tag--info'>⭐ 5694</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [Example: How to Use Prometheus Monitoring With Java to Gather Data. Gathering' Java Metrics with Prometheus Monitoring (ActiveMQ)](https://www.openlogic.com/blog/prometheus-java-monitoring-and-gathering-data)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Maven Prometheus instrumentation library for JVM applications (client library)](https://mvnrepository.com/artifact/io.prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [engineeringblog.yelp.com: Improving the performance of the Prometheus JMX' Exporter](https://engineeringblog.yelp.com/2020/10/improving-the-performance-of-the-prometheus-jmx-exporter.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [prometheus-community/elasticsearch_exporter](https://github.com/prometheus-community/elasticsearch_exporter) <span class='md-tag md-tag--info'>⭐ 2074</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@akashjoffical08: Monitor Uptime of Endpoints in K8s using Blackbox' Exporter 🌟](https://medium.com/@akashjoffical08/monitor-uptime-of-endpoints-in-k8s-using-blackbox-exporter-f80166a328e9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.devops.dev: Monitoring MySQL using Prometheus, Grafana and mysqld_exporter' in Kubernetes](https://blog.devops.dev/monitoring-mysql-using-prometheus-and-grafana-in-kubernetes-16e7ae3de5dd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [muxinc/certificate-expiry-monitor](https://github.com/muxinc/certificate-expiry-monitor) <span class='md-tag md-tag--info'>⭐ 168</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [enix/x509-certificate-exporter](https://github.com/enix/x509-certificate-exporter) <span class='md-tag md-tag--info'>⭐ 924</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [aws.amazon.com: Building a Prometheus remote write exporter for the OpenTelemetry' Go SDK](https://aws.amazon.com/blogs/opensource/building-a-prometheus-remote-write-exporter-for-the-opentelemetry-go-sdk)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@dast04: Writing Custom Prometheus Exporters (in Python) — Kubernetes](https://medium.com/@dast04/writing-custom-prometheus-exporters-in-python-kubernetes-73626b66d78c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector) <span class='md-tag md-tag--info'>⭐ 7050</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [thenewstack.io: Lightstep’s OpenTelemetry Launchers Simplify Integration' to Line of Code](https://thenewstack.io/lightsteps-opentelemetry-launchers-simplify-integration-to-line-of-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [OpenTelemetry Launchers 🌟](https://github.com/search?q=org%3Alightstep+launcher)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [thenewstack.io: Demystifying Distributed Traces in OpenTelemetry](https://thenewstack.io/demystifying-distributed-traces-in-opentelemetry)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: OpenTelemetry Specification v1.0.0, Tracing Edition](https://medium.com/opentelemetry/opentelemetry-specification-v1-0-0-tracing-edition-72dd08936978)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Tracing in eDreams ODIGEO Lodging with Open Telemetry and Grafana' Tempo](https://medium.com/edreams-odigeo-tech/tracing-in-edreams-odigeo-lodging-with-open-telemetry-and-grafana-tempo-bd1f20ddf49d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@tathagatapaul7: OpenTelemetry in Kubernetes: Deploying your' Collector and Metrics Backend](https://medium.com/@tathagatapaul7/opentelemetry-in-kubernetes-deploying-your-collector-and-metrics-backend-b8ec86ac4a43)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [thenewstack.io: Maximizing Kubernetes Efficiency with OpenTelemetry Tracing](https://thenewstack.io/maximizing-kubernetes-efficiency-with-opentelemetry-tracing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Telegraf Collector](https://www.influxdata.com/time-series-platform/telegraf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Telegraf Prometheus Output Plugin](https://github.com/influxdata/telegraf/tree/master/plugins/outputs/prometheus_client) <span class='md-tag md-tag--info'>⭐ 17536</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
-  - [Telegraf Ansible Role](https://github.com/rossmcdonald/telegraf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [sysadminxpert.com: How to Monitor Linux System with Grafana and Telegraf](https://sysadminxpert.com/monitor-linux-system-with-grafana-and-telegraf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [influxdata.com: Three Ways to Keep Cardinality Under Control When Using' Telegraf](https://www.influxdata.com/blog/three-ways-to-keep-cardinality-under-control-when-using-telegraf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloud.google.com: Get planet-scale monitoring with Managed Service for Prometheus](https://cloud.google.com/blog/products/operations/introducing-google-cloud-managed-service-for-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [prometheus.io: Installarion](https://prometheus.io/docs/prometheus/latest/installation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [prometheus.io: Getting Started](https://prometheus.io/docs/prometheus/latest/getting_started)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [galaxy.ansible.com/cloudalchemy/node-exporter](https://galaxy.ansible.com/cloudalchemy/node-exporter)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [galaxy.ansible.com/mesaguy/prometheus](https://galaxy.ansible.com/mesaguy/prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [galaxy.ansible.com/William-Yeh/prometheus](https://galaxy.ansible.com/William-Yeh/prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [galaxy.ansible.com/UnderGreen/prometheus-node-exporter](https://galaxy.ansible.com/UnderGreen/prometheus-node-exporter)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [itnext.io/prometheus-with-grafana-using-ansible-549e575c9dfa](https://itnext.io/prometheus-with-grafana-using-ansible-549e575c9dfa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [arthursens.medium.com: Risk analysis and security compliance in Kube-prometheus](https://arthursens.medium.com/risk-analysis-and-security-compliance-in-kube-prometheus-10c8cfb180b8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devstack.in: Deploy Prometheus Operator with Helm3 and Private Registry' 🌟](https://devstack.in/2020/05/25/deploy-prometheus-operator-with-helm3-and-private-registry)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/israeli-tech-radar: How to create a Monitoring Stack using Kube-Prometheus-stack' (Part 1)](https://medium.com/israeli-tech-radar/how-to-create-a-monitoring-stack-using-kube-prometheus-stack-part-1-eff8bf7ba9a9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Cluster Monitoring stack for ARM / X86-64 platforms](https://github.com/carlosedp/cluster-monitoring) <span class='md-tag md-tag--info'>⭐ 755</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [logz.io](https://logz.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [activemq.apache.org/components/classic/documentation](https://activemq.apache.org/components/classic/documentation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Artemis Prometheus Metrics Plugin](https://github.com/rh-messaging/artemis-prometheus-metrics-plugin) <span class='md-tag md-tag--info'>⭐ 28</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Promitor 🌟](https://promitor.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloud.google.com: Google Cloud Managed Service for Prometheus is now generally' available](https://cloud.google.com/blog/products/devops-sre/easy-managed-prometheus-metrics-service-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Application Delivery
+## Cloud Native Infrastructure
 
-### Helm
+### Observability
 
-#### Observability
+#### Prometheus (1)
 
-  - [sstarcher/helm-exporter](https://github.com/sstarcher/helm-exporter) <span class='md-tag md-tag--info'>⭐ 298</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A Prometheus exporter designed to surface real-time metrics for deployed Helm releases. It monitors charts metadata, tracking status, revisions, and health states across namespaces to empower advanced alert rules.
-## Application Integration
+##### AWS Integration
+
+  - **(2020)** [itnext.io - Prometheus: yet-another-cloudwatch-exporter — collecting AWS CloudWatch metrics](https://itnext.io/prometheus-yet-another-cloudwatch-exporter-collecting-aws-cloudwatch-metrics-806bd34818a8) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This article introduces 'YACE' (Yet Another CloudWatch Exporter), a high-performance Go-based exporter designed to retrieve AWS CloudWatch metrics. By utilizing AWS API calls optimally, YACE reduces AWS API transactional costs compared to the official Java-based CloudWatch exporter.
+##### Agentless Monitoring
+
+  - **(2021)** [cribl.io: Using Prometheus for Agentless Monitoring](https://cribl.io/blog/using-prometheus-for-agentless-monitoring) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Explores agentless infrastructure monitoring architectures with Prometheus. Contrasts deploying individual node_exporter daemons with querying API-based metric proxy endpoints, using SNMP exporters, or utilizing blackbox endpoints to analyze legacy infrastructure targets.
+##### Architecture Overview
+
+  - **(2019)** [Cloud Native Monitoring with Prometheus 🌟](https://samirbehara.com/2019/05/30/cloud-native-monitoring-with-prometheus) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural review of cloud-native monitoring patterns utilizing Prometheus. It contrasts traditional push-based monitoring models with the pull-based multi-dimensional metrics architecture, mapping the interaction between Server, Discovery, Alertmanager, and Grafana.
+##### Case Studies
+
+  - **(2020)** [zerodha.tech: Infrastructure monitoring with Prometheus at Zerodha](https://zerodha.tech/blog/infra-monitoring-at-zerodha) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An engineering case study documenting Zerodha's migration of their high-throughput financial infrastructure monitoring to Prometheus. Highlights architecture optimizations to scale telemetry ingestion across thousands of nodes and handle high-cardinality financial datasets.
+##### Client Libraries
+
+  - **(2026)** [Librerías cliente](https://prometheus.io/docs/instrumenting/clientlibs) <span class='md-tag md-tag--warning'>[MULTI-LANGUAGE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official directory and guide for Prometheus client libraries. It lists first-party (Go, Java, Python, Ruby) and community-developed client SDKs used to instrument application code, manage thread-safe internal registry states, and expose HTTP endpoints for pull-based metric ingestion.
+  - **(2020)** [gabrieltanner.org: Golang Application monitoring using Prometheus](https://gabrieltanner.org/blog/collecting-prometheus-metrics-in-golang) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical walk-through detailing how to instrument a Go application with custom Prometheus metrics using the official client library. Demonstrates defining, registering, and incrementing Counters and Gauges, and exposes them over an HTTP handler endpoint.
+##### Core Platform
+
+  - **(2026)** [**prometheus.io**](https://prometheus.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official homepage for Prometheus, the graduated CNCF monitoring system. Prometheus utilizes a pull model over HTTP, a multi-dimensional data model with time-series metrics identified by key-value pairs, dynamic target discovery (Kubernetes API integration), and the specialized query language PromQL.
+##### Database Monitoring
+
+  - **(2020)** [sysdig.com: Top 10 metrics in PostgreSQL monitoring with Prometheus 🌟](https://www.sysdig.com/blog/postgresql-monitoring) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth article evaluating the top 10 PostgreSQL performance metrics to monitor with Prometheus via postgres_exporter. Highlights queries, cache hit ratios, active connections, vacuum frequency, lock contentions, and replication lag optimization.
+##### Deployment
+
+  - **(2020)** [howtoforge.com: How to Install Prometheus System Monitoring Tool on Ubuntu 20.04](https://www.howtoforge.com/how-to-install-prometheus-on-ubuntu-20-04) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A standard system administration guide explaining the manual compilation, security provisioning, and installation of the Prometheus system monitoring engine on Ubuntu 20.04 LTS servers. Focuses on directory provisioning, systemd automation, and basic target verification.
+##### Deployment Automation
+
+  - **(2018)** [How to use Ansible to set up system monitoring with Prometheus](https://opensource.com/article/18/3/how-use-ansible-set-system-monitoring-prometheus) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates how to automate the installation, configuration, and host-level metric exporting of a Prometheus instance across Linux server fleets using Ansible playbooks. Focuses on systemd service creation, configuration templating, and automated firewall rules.
+##### Docker Swarm
+
+  - **(2020)** [innoq.com: Scraping a Docker swarm service with Prometheus](https://www.innoq.com/en/blog/2020/04/scraping-docker-swarm-service-instances-with-prometheus) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This article outlines architectural patterns to configure Prometheus scraping in a Docker Swarm cluster. Focuses on resolving dynamic Swarm task container IPs by implementing native DNS service discovery patterns or deploying customized scraping helper daemons.
+##### Ecosystem Evolution
+
+  - **(2020)** [Prometheus Monitoring Ecosystem Begins to Mature](https://containerjournal-com.cdn.ampproject.org/c/s/containerjournal.com/topics/container-ecosystems/prometheus-monitoring-ecosystem-begins-to-mature/amp) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This article evaluates the maturity curve of the Prometheus ecosystem. It details the transition from single-node monitoring limitations to high-availability multi-cluster metrics storage engines (e.g., Thanos, Cortex). Highlights the consolidation of the Prometheus Operator and the expansion of security features like TLS.
+##### Homelab
+
+  - **(2021)** [opensource.com: Run Prometheus at home in a container](https://opensource.com/article/21/7/run-prometheus-home-container) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical homelab guide detailing how to run a Prometheus instance in a Docker container. Covers simple YAML config creation to target local system services and networking equipment, establishing basic observability without complex orchestration.
+##### Infrastructure Monitoring
+
+  - **(2020)** [sysadminxpert.com: Steps to Monitor Linux Server using Prometheus](https://sysadminxpert.com/steps-to-monitor-linux-server-using-prometheus) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A step-by-step practical guide detailing the manual installation, systemd daemonization, and configuration of Prometheus and Node Exporter on a bare-metal or virtual Linux instance, providing a baseline setup for server metrics capture.
+##### Introduction
+
+  - **(2020)** [aprenderbigdata.com: Prometheus: Introducción a la Monitorización de Métricas](https://aprenderbigdata.com/prometheus) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A Spanish-language introduction to Prometheus metrics monitoring. Covers core architecture, the dynamic pull-model paradigm over HTTP, structural metric types (Counters, Gauges, Histograms, Summaries), and basic PromQL querying patterns.
+##### Kubernetes Monitoring
+
+  - **(2020)** [devopscube.com: How to Setup Prometheus Monitoring On Kubernetes Cluster 🌟](https://devopscube.com/setup-prometheus-monitoring-on-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed deployment tutorial explaining how to configure a Prometheus monitoring stack inside a Kubernetes cluster from scratch. Discusses writing YAML manifests for ConfigMaps, Deployments, ClusterRoles, ClusterRoleBindings, and Services to auto-scrape endpoints.
+  - **(2019)** [Monitoring kubernetes with Prometheus](https://opensource.com/article/19/11/introduction-monitoring-prometheus) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This article outlines the fundamentals of monitoring Kubernetes clusters using Prometheus. It details how Prometheus auto-discovers endpoints, services, and nodes via the Kubernetes API, and highlights the roles of Node Exporter and kube-state-metrics in capturing OS and cluster-level state metrics.
+##### Kubernetes Operators
+
+  - **(2026)** [prometheus-operator.dev 🌟](https://prometheus-operator.dev) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official documentation portal for Prometheus Operator. The operator simplifies cloud-native metrics operations on Kubernetes. The operator introduces custom resource definitions (CRDs) like Prometheus, ServiceMonitor, PodMonitor, and Alertmanager, allowing declarative platform setups aligned with typical GitOps patterns.
+##### Pushgateway
+
+  - **(2026)** [==Pushgateway==](https://github.com/prometheus/pushgateway) <span class='md-tag md-tag--info'>⭐ 3334</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official GitHub repository for Prometheus Pushgateway. Designed to allow ephemeral, short-lived, or batch jobs to push metrics to an intermediate gateway, which Prometheus then scrapes. Note that official guidelines advise against using Pushgateway for standard applications due to structural state issues.
+##### Query Tools
+
+  - **(2021)** [promlens.com 🌟](https://promlens.com) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — PromLens is an advanced query builder and analyzer for PromQL. Created to help developers write, visualize, and debug complex PromQL expressions, it provides syntactic parsing, inline documentation, and tree-based diagnostic tools. Now integrated as an official Prometheus community project.
+##### Security
+
+  - **(2021)** [devclass.com: Safety…first? Prometheus 2.24 finally features TLS on HTTP serving endpoints](https://www.devclass.com/containers/2021/01/07/safetyfirst-prometheus-224-finally-features-tls-on-http-serving-endpoints/1626636) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the inclusion of native TLS encryption and basic authentication on HTTP endpoints starting in Prometheus 2.24. This change improved security by removing the historical requirement to deploy Nginx or Apache sidecar reverse proxies in front of Prometheus to secure control traffic.
+##### TSDB Internals
+
+  - **(2020)** [ganeshvernekar.com: Prometheus TSDB (Part 1): The Head Block](https://ganeshvernekar.com/blog/prometheus-tsdb-the-head-block) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The first entry of a detailed deep dive into Prometheus Time Series Database (TSDB) internals, focusing on the Head Block. It explains the mechanics of in-memory chunk allocation, active series data indexing, inverted index algorithms, and posting list lookups for instant query resolution.
+  - **(2020)** [ganeshvernekar.com: Prometheus TSDB (Part 2): WAL and Checkpoint](https://ganeshvernekar.com/blog/prometheus-tsdb-wal-and-checkpoint) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Part two of the TSDB deep dive, detailing Write-Ahead Logging (WAL) and checkpointing operations. It outlines how Prometheus guarantees data persistence during system crashes by sequentially logging samples, and explains the checkpoint garbage collection strategy to optimize disk space.
+  - **(2020)** [ganeshvernekar.com: Prometheus TSDB (Part 3): Memory Mapping of Head Chunks from Disk](https://ganeshvernekar.com/blog/prometheus-tsdb-mmapping-head-chunks-from-disk) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Part three of the TSDB deep dive, explaining how Prometheus memory-maps (mmap) historical head chunks to disk. By offloading cold chunks from RAM to disk while maintaining access references in memory, Prometheus significantly reduces its operational RAM requirements under dense monitoring workloads.
+  - **(2020)** [ganeshvernekar.com: Prometheus TSDB (Part 4): Persistent Block and its Index](https://ganeshvernekar.com/blog/prometheus-tsdb-persistent-block-and-its-index) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Part four of the TSDB deep-dive series, analyzing the persistent block layout and its index structures on disk. Covers how the compactor merges historical 2-hour TSDB blocks, compresses the indices, and manages directory structures to allow low-overhead analytical PromQL queries.
+##### Tutorials
+
+  - **(2019)** [youtube playlist: How to setup Prometheus 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-anCTn6um3BDsoHnIr0O2tz3) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structured video playlist designed for developers and administrators learning Prometheus. Walks through server configuration, writing simple PromQL metric expressions, creating Prometheus alerting rules, and building operational metrics dashboards in Grafana.
+#### Scale and Architecture
+
+##### Best Practices
+
+  - **(2020)** [itnext.io: Observability at Scale](https://itnext.io/observability-at-scale-52d0d9a5fb9b) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An engineering blueprint addressing observability architecture at scale. It covers how to handle extreme metric ingestion rates, reduce high metric cardinality overheads, structure federated Prometheus servers, and deploy Thanos for long-term historical storage and global query capabilities.
+## Cloud Native Platforms
+
+### Azure
+
+#### Azure Monitor Integration
+
+  - **(2025)** [Promitor 🌟](https://promitor.io) <span class='md-tag md-tag--warning'>[C# CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An Azure Monitor collector that translates native Microsoft cloud diagnostics into a standard Prometheus-compatible API format, linking closed-source telemetry with open tools.
+### Google Cloud Platform
+
+#### Managed Observability
+
+  - **(2026)** [cloud.google.com: Google Cloud Managed Service for Prometheus](https://docs.cloud.google.com/stackdriver/docs/managed-prometheus) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official engineering configuration docs for GCP's managed Prometheus service. Guides users on setting up GKE-based scrapers and writing scalable PromQL statements.
+  - **(2021)** [cloud.google.com: Get planet-scale monitoring with Managed Service for Prometheus](https://cloud.google.com/blog/products/operations/introducing-google-cloud-managed-service-for-prometheus) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Announcement details of Google's managed Prometheus service. Details how GCP scales metric workloads globally using Monarch storage engines while preserving native PromQL and operator structures.
+#### Product Announcements
+
+  - **(2022)** [cloud.google.com: Google Cloud Managed Service for Prometheus is now generally available](https://cloud.google.com/blog/products/devops-sre/easy-managed-prometheus-metrics-service-for-kubernetes) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Historical general availability statement for Google's managed Prometheus. Highlights seamless backend compatibility designed to handle high-frequency system workloads.
+### Kubernetes
+
+#### Multi-Arch Telemetry
+
+  - **(2025)** [==Cluster Monitoring stack for ARM / X86-64 platforms==](https://github.com/carlosedp/cluster-monitoring) <span class='md-tag md-tag--info'>⭐ 754</span> <span class='md-tag md-tag--warning'>[JSONNET CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A specialized telemetry suite crafted for physical, edge, and multi-architecture Kubernetes clusters running on ARM or x86 systems. Extends modern operators to resource-constrained environments.
+## Infrastructure
 
 ### Message Brokers
 
-#### High-Performance Messaging
+#### ActiveMQ
 
-  - **(2026)** [==Apache Artemis JMeter==](https://github.com/apache/artemis) <span class='md-tag md-tag--info'>⭐ 1017</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The official GitHub mirror of Apache ActiveMQ Artemis, housing the high-performance non-blocking asynchronous message broker. It provides native support for AMQP, MQTT, STOMP, and OpenWire. It delivers ultra-low latency and scalable message distribution under extreme workloads.
-#### JMS
-
-  - [ActiveMQ 5.x "classic"](https://activemq.apache.org/components/classic) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — The classic implementation of Apache ActiveMQ, continuing to power millions of production enterprise nodes. It offers rich support for JMS client specifications alongside robust clustering and persistence. Ideal for traditional integration architecture, though increasingly superseded by Artemis.
+  - **(2024)** [==Apache Artemis JMeter==](https://github.com/apache/artemis) <span class='md-tag md-tag--info'>⭐ 1024</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official source repository for Apache ActiveMQ Artemis. Built with Netty, this broker delivers low-latency messaging, supports AMQP, MQTT, and STOMP, and provides an efficient data distribution engine for high-density architectures.
 ## Infrastructure as Code
 
 ### Ansible
 
-#### Prometheus Setup
+#### Infrastructure Visualization
 
-  - **(2021)** [==Idealista: This ansible role installs a Prometheus Node Exporter in a debian environment==](https://github.com/idealista/prometheus_jmx_exporter_role) <span class='md-tag md-tag--info'>⭐ 6</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source Ansible playbook role for deploying Prometheus Node and JMX Exporters. Streamlines standard system configuration across large Debian-based server groups.
-## Message Brokers (1)
+  - **(2020)** [itnext.io/prometheus-with-grafana-using-ansible-549e575c9dfa](https://itnext.io/prometheus-with-grafana-using-ansible-549e575c9dfa) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step developer guide showing the unified deployment of Prometheus and Grafana onto target servers using automated Ansible configuration blocks.
+#### Legacy Deployments
 
-### ActiveMQ Artemis
+  - **(2020)** [galaxy.ansible.com/William-Yeh/prometheus](https://galaxy.ansible.com/William-Yeh/prometheus) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A historical Ansible module for Prometheus installations. Live Grounding Note: Currently unmaintained. Modern orchestrations have transitioned to Helm charts or upstream operators.
+#### Node Exporter Deployment
 
-#### Configuration
+  - **(2024)** [==Idealista: This ansible role installs a Prometheus Node Exporter in a debian environment==](https://github.com/idealista/prometheus_jmx_exporter_role) <span class='md-tag md-tag--info'>⭐ 6</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Specialized Ansible playbook role targeting JMX and Node Exporter configurations inside Debian architectures. Ideal for standardized on-premise JVM infrastructure telemetry deployment.
+  - **(2025)** [galaxy.ansible.com/cloudalchemy/node-exporter](https://galaxy.ansible.com/cloudalchemy/node-exporter) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highly standard Cloud Alchemy Ansible role configured to install, register, and maintain Prometheus Node Exporter. Leverages secure systemd user privileges and handles multi-distro variations flawlessly.
+  - **(2024)** [galaxy.ansible.com/UnderGreen/prometheus-node-exporter](https://galaxy.ansible.com/UnderGreen/prometheus-node-exporter) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight, target-focused Ansible role specifically created to provision Prometheus Node Exporter. Useful for simple, bare-metal telemetry rollouts.
+#### Prometheus Deployment
 
-  - **(2025)** [Apache ActiveMQ Artemis Using the Server](https://artemis.apache.org/components/artemis/documentation/latest/using-server.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical reference manual for active clustering, configuration tuning, and observability monitoring of Apache ActiveMQ Artemis brokers. Outlines JMS and MQTT message routing optimization.
+  - **(2024)** [galaxy.ansible.com/mesaguy/prometheus](https://galaxy.ansible.com/mesaguy/prometheus) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Ansible playbooks designed to orchestrate server installation, Alertmanager nodes, and basic discovery pipelines. Highly parameterizable configuration schemas.
+#### Telegraf Deployment
+
+  - **(2024)** [Telegraf Ansible Role](https://github.com/rossmcdonald/telegraf) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Ansible playbook role to provision and configure the Telegraf agent across varied Linux operating systems. Automates configuration generation and systemd unit registration.
+### Package Archives
+
+#### Metric Collection
+
+  - **(2020)** [telegraf-1.14.0-1 (rpm)](https://www.influxdata.com/time-series-platform/telegraf) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A targeted RPM bundle archive compiling Telegraf 1.14 alongside dependencies like Apache ActiveMQ scripts. Retained for air-gapped systems running legacy RedHat workloads.
+## Middleware
+
+### Messaging Orchestration
+
+#### ActiveMQ Classic
+
+  - **(2026)** [activemq.apache.org/components/classic/documentation](https://activemq.apache.org/components/classic/documentation) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official operational guidelines for ActiveMQ Classic. Walks developers through configuring JMX performance statistics, thread monitoring, and telemetry collection with tools like Telegraf.
+#### Artemis Extensions
+
+  - **(2024)** [==Artemis Prometheus Metrics Plugin==](https://github.com/rh-messaging/artemis-prometheus-metrics-plugin) <span class='md-tag md-tag--info'>⭐ 28</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Duplicates technical setup for the Artemis-Prometheus plugin, highlighting metrics formatting for queue lengths, active sessions, and underlying JVM memory states.
+#### Artemis Management
+
+  - **(2026)** [Apache ActiveMQ Artemis Using the Server](https://artemis.apache.org/components/artemis/documentation/latest/using-server.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Operational manual for running ActiveMQ Artemis brokers. Outlines built-in administrative consoles, advanced queues monitoring, and direct telemetry integration using Micrometer frameworks.
 ## Observability (1)
 
-### Grafana
+### Alert Management
 
-#### Dashboards
+#### Core Releases
 
-  - **(2026)** [Grafana Dashboards with Telegraf Collectors](https://grafana.com/grafana/dashboards/?collector=Telegraf) <span class='md-tag md-tag--warning'>[JSON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Grafana's official dashboard repository for configurations collecting data via InfluxData Telegraf. Simplifies dashboard creation for system resources, daemon sets, and application runtimes.
-### Kubernetes Monitoring
+  - **(2021)** [==Alertmanager 0.23.0-rc.0 with awscloud SNS support is available for testing. There are also bugfixes and features for amtool==](https://github.com/prometheus/alertmanager/releases/tag/v0.23.0-rc.0) <span class='md-tag md-tag--info'>⭐ 8504</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Release analysis of Alertmanager's v0.23 release cycle, detailing the addition of native AWS SNS integrations. Outlines the operational workflow for forwarding alerts straight to mobile endpoints, email, and lambda tasks.
+#### Visualizers
 
-#### Image Exporters
+  - **(2023)** [==karma 🌟==](https://github.com/prymitive/karma) <span class='md-tag md-tag--info'>⭐ 2648</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly functional and responsive dashboard for Prometheus Alertmanager alerts. Enables deep filtering and cluster aggregation across diverse Alertmanager nodes, dramatically improving SRE triage workflows.
+### Application Instrumentation
 
-  - **(2024)** [==k8s-image-availability-exporter==](https://github.com/deckhouse/k8s-image-availability-exporter) <span class='md-tag md-tag--info'>⭐ 249</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A specialized Prometheus exporter that continuously verifies container registry availability for images specified in Kubernetes configurations. Helps catch container start failures (e.g., ErrImagePull) before pods crash.
-### Long-term Storage
+#### JVM
 
-#### M3DB
+  - **(2026)** [**Micrometer** Collector](http://micrometer.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The definitive dimensional metrics instrumentation facade for JVM-based programs. Acts as an abstraction layer resembling SLF4J, allowing seamless target conversions to Prometheus, Datadog, or Wavefront formats.
+### Big Data Monitoring
 
-  - **(2026)** [**M3**:](https://m3db.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source, highly scalable distributed time-series database (M3) designed by Uber. Serves as a high-density metric clustering backend with built-in multi-region replication and long-term storage configurations.
-### Managed Prometheus
+#### Apache Spark
 
-#### Google Cloud
+  - **(2021)** [itnext.io: Monitoring Spark Streaming on K8s with Prometheus and Grafana](https://itnext.io/monitoring-spark-streaming-on-k8s-with-prometheus-and-grafana-e6d8720c4a02) <span class='md-tag md-tag--warning'>[SCALA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — In-depth guide on scraping Apache Spark streaming analytics metrics running on Kubernetes. Explains the integration of Prometheus JMX exporter configurations with custom Grafana visualizations for stream latency.
+### Distributed Storage
 
-  - **(2026)** [cloud.google.com: Google Cloud Managed Service for Prometheus](https://docs.cloud.google.com/stackdriver/docs/managed-prometheus) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google Cloud's fully managed service for Prometheus. Provides automated cluster monitoring, global querying, and metric collection across Google Kubernetes Engine (GKE) deployments.
+#### Cortex Engine
+
+  - **(2024)** [==github.com/cortexproject/cortex==](https://github.com/cortexproject/cortex) <span class='md-tag md-tag--info'>⭐ 5812</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Open-source repository for Cortex. Implements Prometheus as a service, allowing isolated multi-tenancy, long-term metric durability in object storage (S3/GCS), and horizontally scalable querying.
+  - **(2024)** [**Cortex**:](https://cortexmetrics.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural landing page of Cortex, an enterprise-grade, horizontally scalable, multi-tenant TSDB. Note: Since 2024-2025, many users have migrated toward Thanos or VictoriaMetrics, yet Cortex remains a highly resilient classic for long-term storage.
+#### InfluxDB
+
+  - **(2022)** [influxdata.com: InfluxDB Tech Tips: API Invokable Scripts in InfluxDB Cloud](https://www.influxdata.com/blog/tldr-influxdb-tech-tips-api-invokable-scripts-influxdb-cloud) <span class='md-tag md-tag--warning'>[FLUX CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how to leverage API Invokable Scripts in InfluxDB Cloud to run parameterized queries over HTTP, creating lightweight backend APIs for custom metric visualization utilities.
+  - **(2021)** [influxdata.com: Building a Metrics & Alerts as a Service (MaaS) Monitoring Solution Using the InfluxDB Stack](https://www.influxdata.com/blog/building-a-metrics-alerts-as-a-service-maas-monitoring-solution-using-the-influxdb-stack) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores an architecture for metrics and alerting as a service (MaaS) built on the InfluxDB stack. Highlights utilizing multi-tenancy, dynamic bucket allocations, and custom push metric pipelines.
+  - **(2021)** [thenewstack.io: Make a GitOps Workflow Using InfluxDB Templates](https://thenewstack.io/make-a-gitops-workflow-using-influxdb-templates) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates how to manage InfluxDB templates inside a GitOps continuous deployment pipeline. Highlights automated testing, version control, and validation of monitoring components via declarative mechanisms.
+  - **(2021)** [influxdata.com: Running InfluxDB 2.0 and Telegraf Using Docker](https://www.influxdata.com/blog/running-influxdb-2-0-and-telegraf-using-docker) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Simple, practical walkthrough describing how to deploy InfluxDB 2.0 alongside the Telegraf metric collector agent using Docker Compose. Covers configuring basic input plugins and output endpoints.
+#### M3 Engine
+
+  - **(2023)** [**M3**:](https://m3db.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural homepage of M3, Uber’s highly scalable, distributed TSDB engine. Highly custom-built to support massive data ingestion volumes and dynamic metric downsampling with optimized storage layouts.
+#### Thanos Engine
+
+  - **(2024)** [**Thanos**:](https://thanos.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official landing page for Thanos, a CNCF graduated project providing highly available, infinitely scalable Prometheus monitoring. Known for sidecar-based object storage offloading and cost-effective downsampling.
+  - **(2022)** [Highly Available Prometheus Metrics for Distributed SQL with Thanos on GKE](https://blog.yugabyte.com/highly-available-prometheus-metrics-for-distributed-sql-with-thanos-on-gke) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates deploying Thanos alongside Prometheus Operator on Google Kubernetes Engine (GKE) to collect metrics for YugabyteDB. Highlights the implementation of Multi-Cluster and Multi-Tenant metric architectures using Thanos Receiver and Store gateways.
+  - **(2021)** [github.com/ruanbekker: Thanos Cluster Setup](https://github.com/ruanbekker/thanos-cluster-setup) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Developer guide outlining the architectural deployment of a highly available Thanos cluster with Docker Compose. Demonstrates configuring Thanos Sidecar, Querier, Store Gateway, and S3 object storage targets.
+### Load Testing
+
+#### k6 Integrations
+
+  - **(2022)** [youtube: Monitoring your k6 load test: how to install Grafana and Prometheus on a Kubernetes cluster](https://www.youtube.com/watch?v=GL2v81xYuAQ&ab_channel=k6) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Step-by-step tutorial on integrating k6 load tests with Prometheus and Grafana on Kubernetes. Explains configuring the k6 operator, exposing metrics, and visualising request rate and response distribution dashboards.
 ### Metrics
 
-#### Prometheus (1)
+#### Interoperability
 
-  - [Setup Prometheus Using Helm Chart on Kubernetes](https://devopscube.com/setup-prometheus-helm-chart)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A direct, production-ready tutorial demonstrating how to install and configure Prometheus using official Helm charts. Explains default values overrides, persistent volume configurations, and custom alertmanager integration for instant operational visibility.
-### Metrics Library
+  - **(2026)** [==Telegraf Prometheus Output Plugin==](https://github.com/influxdata/telegraf/tree/master/plugins/outputs/prometheus_client) <span class='md-tag md-tag--info'>⭐ 17616</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Source code and implementation guide for Telegraf's Prometheus output integration. Allows standard push-based collection architectures to export telemetry data via a pull-based scraping API.
+### Monitoring Integrations
 
-#### Micrometer
+#### Database Monitoring (1)
 
-  - **(2026)** [**Micrometer** Collector](http://micrometer.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-focused metrics instrumentation library for JVM-based applications. Acts as a facade over various monitoring frameworks, including Prometheus, Datadog, and New Relic.
-### Monitoring Stack
+  - **(2021)** [sysdig.com: How to monitor Redis with Prometheus](https://www.sysdig.com/blog/redis-prometheus) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical guide on configuring the Prometheus Redis Exporter. Outlines key performance indicators such as active client connections, memory fragmentation ratios, command latency, and key eviction policies.
+#### Ingress and Proxy
 
-#### Helm Charts
+  - **(2021)** [dev.to: How to monitor nginx in Kubernetes with Prometheus](https://dev.to/eckelon/how-to-monitor-nginx-in-kubernetes-with-prometheus-j5f) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Covers setting up Prometheus metrics for Nginx in Kubernetes clusters. Discusses configuring sidecars using Nginx VTS or official stub status metrics to trace payload rates and latency distribution.
+### Observability Security
 
-##### kube-prometheus-stack
+#### Hardening
 
-  - [prometheus-community/kube-prometheus-stack 🌟🌟](https://artifacthub.io/packages/helm/prometheus-community/kube-prometheus-stack)  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The de facto standard Helm chart for deploying Prometheus and Grafana on Kubernetes. It manages the custom resource definitions (CRDs), handles scraper configurations, and provides out-of-the-box system alerting rules.
+  - **(2021)** [itnext.io: Hardening Monitoring: a step-by-step guide](https://itnext.io/hardening-monitoring-a-step-by-step-guide-7a18007c915) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Systematic walkthrough on hardening a Prometheus-based observability control plane. Implements RBAC, transport layer security (mTLS), network micro-segmentation, and endpoint authentication schemas.
 ### OpenTelemetry
 
-#### Java Instrumentation
+#### Collector Infrastructure
 
-  - **(2023)** [newrelic.com: Understand OpenTelemetry Part 4: Instrument a Java App with OpenTelemetry](https://newrelic.com/blog/apm/java-opentelemetry)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Hands-on guide demonstrating automatic and manual trace instrumentation in Java applications utilizing OpenTelemetry. Covers runtime performance adjustments, JVM garbage collection exports, and spans optimization.
+  - **(2026)** [==OpenTelemetry Collector==](https://github.com/open-telemetry/opentelemetry-collector) <span class='md-tag md-tag--info'>⭐ 7132</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A high-performance processing engine capable of receiving, parsing, filtering, and routing traces, metrics, and logs across vendor-agnostic infrastructure. Serves as the central data pipeline component in modern cloud-native observability stacks.
+#### Distributed Tracing
+
+  - **(2022)** [thenewstack.io: Demystifying Distributed Traces in OpenTelemetry](https://thenewstack.io/demystifying-distributed-traces-in-opentelemetry) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep-dive publication illuminating the mechanics of trace context propagation and span relationships inside distributed applications. Explains how trace-headers flow seamlessly across HTTP/gRPC transport boundaries.
+#### Go SDK
+
+  - **(2021)** [aws.amazon.com: Building a Prometheus remote write exporter for the OpenTelemetry Go SDK](https://aws.amazon.com/blogs/opensource/building-a-prometheus-remote-write-exporter-for-the-opentelemetry-go-sdk) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step architectural design on constructing a Prometheus remote write exporter using the OpenTelemetry Go SDK. Demonstrates the conversion pipeline from OTel internal data points to time-series blocks compatible with Managed Prometheus ingestion points.
+#### Java Runtime
+
+  - **(2022)** [newrelic.com: Understand OpenTelemetry Part 4: Instrument a Java App with OpenTelemetry](https://newrelic.com/blog/apm/java-opentelemetry) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed technical guide for implementing OpenTelemetry Java Agents. Walks engineers through automatic runtime byte-code manipulation, tracing JVM database operations, and configuring remote exporter endpoints.
+#### Kubernetes Integration
+
+  - **(2023)** [thenewstack.io: Maximizing Kubernetes Efficiency with OpenTelemetry Tracing](https://thenewstack.io/maximizing-kubernetes-efficiency-with-opentelemetry-tracing) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines methodologies for correlating application-level distributed traces with Kubernetes underlying node resource exhaustion. Helps SRE teams optimize container sizing based on real-world request pathways.
+#### SDK Bootstraps
+
+  - **(2021)** [OpenTelemetry Launchers 🌟](https://github.com/search?q=org%3Alightstep+launcher) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Repository group containing Lightstep’s multi-language configuration wrappers. Designed to assist telemetry setup, though developers in 2026 have transitioned to upstream OTel SDK extensions for long-term support.
+#### Zero-Code Instrumentation
+
+  - **(2021)** [thenewstack.io: Lightstep’s OpenTelemetry Launchers Simplify Integration to Line of Code](https://thenewstack.io/lightsteps-opentelemetry-launchers-simplify-integration-to-line-of-code) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Historical analysis of Lightstep’s OTel Launchers, designed to streamline SDK initialization down to a single configuration command. Curator Insight: Provides simplified bootstrappers. Live Grounding: Modern architectures have shifted fully to official upstream OpenTelemetry auto-instrumentation packages.
 ### Prometheus (2)
 
-#### Docker Swarm Integration
+#### Core Platform (1)
 
-  - **(2020)** [innoq.com: Scraping a Docker swarm service with Prometheus](https://www.innoq.com/en/blog/2020/04/scraping-docker-swarm-service-instances-with-prometheus) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Solves service discovery challenges when scraping Docker Swarm tasks with Prometheus. Demonstrates configuring dynamic multi-interface DNS tracking or external Consul agents to discover changing IP assignments.
-#### Lifecycle Management
+  - **(2026)** [==github.com/prometheus/prometheus==](https://github.com/prometheus/prometheus) <span class='md-tag md-tag--info'>⭐ 64489</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Source codebase for Prometheus, the benchmark cloud-native telemetry engine. Employs active scraping mechanics over HTTP alongside a custom-built local TSDB to deliver sub-second querying speeds and powerful alerting capabilities.
+#### Custom Instrumentation
 
-  - **(2022)** [**sysdig.com: Prometheus 2.37 – The first long-term supported release! 🌟**](https://www.sysdig.com/blog) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Focuses on the release of Prometheus 2.37, the platform's first official Long-Term Support (LTS) release. Evaluates stability guarantees, API version support, and security patch lifecycles for enterprise environments.
-#### Security
+  - **(2026)** [prometheus.io: Writing Exporters](https://prometheus.io/docs/instrumenting/writing_exporters) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official engineering guidelines for architecting Prometheus exporters. Focuses on core metric exposition design, label usage, scraping cycles, and custom translation layers to prevent performance overhead on monitored endpoints.
+#### Ecosystem
 
-  - **(2021)** [devclass.com: Safety…first? Prometheus 2.24 finally features TLS on HTTP serving endpoints](https://www.devclass.com/containers/2021/01/07/safetyfirst-prometheus-224-finally-features-tls-on-http-serving-endpoints/1626636)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the engineering update in Prometheus 2.24 that added built-in TLS and basic authentication to HTTP scrape targets. This update removed the requirement of hosting reverse proxy sidecars for cluster telemetry.
-#### Site Reliability Engineering
+  - **(2026)** [Prometheus Third Party Exporters](https://prometheus.io/docs/instrumenting/exporters) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An extensive inventory tracking community and third-party metrics exporters for Prometheus. Bridges native non-instrumented services (e.g., databases, physical hardware) to the Prometheus pull framework.
+#### Initial Configuration
 
-  - **(2021)** [==opensource.google: Prometheus SLO example==](https://github.com/google/prometheus-slo-burn-example) <span class='md-tag md-tag--info'>⭐ 142</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Google's open-source templates demonstrating complex multi-window, multi-burn-rate Alerting on Service Level Objectives (SLOs) within Prometheus. Establishes the standard implementation of modern SRE monitoring guidelines.
-### Prometheus Exporters
+  - **(2026)** [prometheus.io: Getting Started](https://prometheus.io/docs/prometheus/latest/getting_started) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — First-steps reference for Prometheus integration. Demonstrates basic config targets, scrape intervals, validation mechanisms, and initial evaluations of metric payloads using the integrated expression browser.
+#### Operational Deployment
 
-#### AWS CloudWatch
+  - **(2026)** [prometheus.io: Installarion](https://prometheus.io/docs/prometheus/latest/installation) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Core installation reference documentation for Prometheus. Covers local compilation, Docker container deployments, configuration structures, and standard runtime execution arguments.
+### Prometheus Ecosystem
 
-  - **(2026)** [==YACE - yet another cloudwatch exporter 🌟==](https://github.com/prometheus-community/yet-another-cloudwatch-exporter) <span class='md-tag md-tag--info'>⭐ 1203</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Highly performance-optimized Prometheus exporter (YACE) designed to query metrics from AWS CloudWatch. Leverages cost-effective batched APIs to retrieve data without incurring high AWS costs.
-#### Oracle Database
+#### Agent Architecture
 
-  - **(2022)** [sysdig.com: How to monitor an Oracle database with Prometheus. The OracleDB Prometheus exporter](https://www.sysdig.com/blog/monitor-oracle-database-prometheus) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed implementation roadmap for the OracleDB Prometheus Exporter. Covers configuration strategies, secure credential storage, table space metrics mapping, and listener health telemetry.
-#### PostgreSQL
+  - **(2021)** [prometheus.io: Introducing Prometheus Agent Mode, an Efficient and Cloud-Native Way for Metric Forwarding](https://prometheus.io/blog/2021/11/16/agent) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Covers the official introducing of Prometheus Agent Mode. Details an optimized, lightweight metrics forwarding mode that omits local query operations to cut resource budgets in high-scale environments.
+#### Architecture Comparison
 
-  - **(2022)** [**sysdig.com: Top 10 metrics in PostgreSQL monitoring with Prometheus 🌟**](https://www.sysdig.com/blog/postgresql-monitoring) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Examines the key database performance indicators to monitor in PostgreSQL via Prometheus. Focuses on index utilization ratios, cache hits, locks, and replication lag metrics.
-#### Redis
+  - **(2023)** [prometheus.io: Comparison to Alternatives 🌟](https://prometheus.io/docs/introduction/comparison) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official reference comparison of Prometheus against alternative timeseries systems like InfluxDB and OpenTelemetry. Highlights key differences regarding pull vs push architectures and dimensional data storage.
+#### Best Practices (1)
 
-  - **(2021)** [sysdig.com: How to monitor Redis with Prometheus](https://www.sysdig.com/blog/redis-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A tactical guide to instrumentation for Redis using Prometheus. Outlines how to track key memory management indicators, key evictions, instantaneous command latency, and connection scaling bounds.
-## Observability and Performance
+  - **(2022)** [promlabs.com: Avoid These 6 Mistakes When Getting Started With Prometheus](https://promlabs.com/blog/2022/12/11/avoid-these-6-mistakes-when-getting-started-with-prometheus) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes six critical anti-patterns when setting up Prometheus. Addresses excessive metrics cardinality, sub-optimal query designs using rate(), and failing to configure robust alert routing mechanisms.
+#### Configuration Management
 
-### Performance Testing
+  - **(2022)** [==Promgen 🌟==](https://github.com/line/promgen) <span class='md-tag md-tag--info'>⭐ 1124</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Promgen is a web UI and CLI helper utility designed to simplify the generation of scrape target targets and custom alerting rule files for large-scale Prometheus configurations.
+#### Core Architecture
 
-#### Load Testing
+  - **(2024)** [**Prometheus TSDB**](https://prometheus.io/docs/prometheus/latest/storage) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep architectural dive into the internal engineering of Prometheus TSDB. Discusses memory-mapped files, write-ahead logging (WAL), chunk compression, compaction cycles, and dynamic metric block structures.
+#### Core Principles
 
-  - [jmeter.apache.org](https://jmeter.apache.org) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Apache JMeter is the industry standard for performing robust load tests across varied protocols (HTTP, FTP, SOAP, Database). Allows extensive functional testing and architectural load emulation.
-## Software Engineering
+  - **(2021)** [infracloud.io: Prometheus Definitive Guide Part I - Metrics and Use Cases](https://www.infracloud.io/blogs/prometheus-architecture-metrics-use-cases) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive three-part technical series explaining Prometheus metric data types, PromQL operations, and declarative target auto-discovery workflows powered by the Prometheus Operator.
+#### Edge Architectures
 
-### Build Systems
+  - **(2021)** [thenewstack.io: CNCF Prometheus Agent Could Be a ‘Game Changer’ for Edge](https://thenewstack.io/cncf-prometheus-agent-could-be-a-game-changer-for-edge) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the operational and cost-efficiency impacts of deploying Prometheus Agent Mode at edge scale. Reviews real-world tests illustrating drastic RAM reductions during dynamic cloud metrics forwarding.
+#### Installation
 
-#### Java Ecosystem
+  - **(2024)** [fosstechnix.com: Install Prometheus and Grafana on Ubuntu 24.04 LTS 🌟](https://www.fosstechnix.com/install-prometheus-and-grafana-on-ubuntu-24-04) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deployment guide detailing manual installation and service unit generation for Prometheus and Grafana on Ubuntu 24.04 LTS servers. Recommended for testing and bare-metal sandbox development.
+#### Performance and Tuning
 
-  - [maven.apache.org](https://maven.apache.org) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official homepage for Apache Maven, the cornerstone JVM project build and dependency system. Outlines standards for modular Project Object Model (POM) declarations.
+  - **(2021)** [thenewstack.io: 30 Pull Requests Later, Prometheus Memory Use Is Cut in Half](https://thenewstack.io/30-pull-requests-later-prometheus-memory-use-is-cut-in-half) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical analysis of memory optimizations within the Prometheus TSDB. Highlights how refactoring index-reading mechanics and chunk mapping in ~30 pull requests cut server memory usage by roughly half.
+  - **(2020)** [jfrog.com: Don’t let Prometheus Steal your Fire](https://jfrog.com/blog/dont-let-prometheus-steal-your-fire) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deals with performance bottleneck mitigation for large-scale Prometheus instances. Discusses techniques to combat high metric cardinality, optimizing scrape intervals, and tuning TSDB block writing processes.
+#### Production Scaling
+
+  - **(2021)** [source.coveo.com: Prometheus at scale](https://source.coveo.com/2021/11/11/prometheus-at-scale) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An enterprise-grade case study addressing scale challenges within high-ingestion environments. Proposes architectures utilizing remote write protocols, query caching layers, and multi-tenant Prometheus aggregators.
+#### Releases and Governance
+
+  - **(2022)** [sysdig.com: Prometheus 2.37 – The first long-term supported release! 🌟](https://www.sysdig.com/blog) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the architecture and long-term support (LTS) lifecycle of the Prometheus 2.37 release. Addresses enterprise-level security backports, stability matrices, and long-term patch guarantees.
+### SLAs and SLOs
+
+#### Generators
+
+  - **(2023)** [==Sloth 🌟==](https://github.com/slok/sloth) <span class='md-tag md-tag--info'>⭐ 2500</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Sloth is an automated, developer-friendly generator for SLO alerting. Evaluates declarative YAML templates and outputs production-grade PromQL rules representing complex multi-window, multi-burn-rate algorithms.
+  - **(2023)** [==SLO Generator==](https://github.com/google/slo-generator) <span class='md-tag md-tag--info'>⭐ 562</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive open-source tool built to parse SLO specifications and compute service level indicators, supporting data extraction from both Prometheus and diverse multi-cloud storage backends.
+  - **(2021)** [itnext.io: SLOs should be easy, say hi to Sloth 🌟](https://itnext.io/slos-should-be-easy-say-hi-to-sloth-9c8a225df0d4) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Walkthrough exploring how Sloth helps teams declare Service Level Objectives as code. Translates high-level metrics guidelines into functional alerting matrices without writing raw PromQL equations.
+#### Jsonnet Libraries
+
+  - **(2022)** [==slo-libsonnet==](https://github.com/metalmatze/slo-libsonnet) <span class='md-tag md-tag--info'>⭐ 118</span> <span class='md-tag md-tag--warning'>[JSONNET CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A modular Jsonnet library designed for defining and generating Prometheus-based SLOs, multi-window burn rates, and dashboards using a modular configuration-as-code pattern. Highly compatible with kube-prometheus.
+#### Reference Implementation
+
+  - **(2021)** [==opensource.google: Prometheus SLO example==](https://github.com/google/prometheus-slo-burn-example) <span class='md-tag md-tag--info'>⭐ 142</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Google's open-source templates demonstrating complex multi-window, multi-burn-rate Alerting on Service Level Objectives (SLOs) within Prometheus. Establishes the standard implementation of modern SRE monitoring guidelines.
+### Scraping and Exporters
+
+#### Blackbox Probing
+
+  - **(2024)** [==blackbox_exporter 🌟==](https://github.com/prometheus/blackbox_exporter) <span class='md-tag md-tag--info'>⭐ 5729</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official Prometheus community-supported exporter designed to probe endpoints over HTTP, HTTPS, DNS, TCP, ICMP, and gRPC protocols. Crucial for verifying application routing availability and TLS certificate statuses.
+  - **(2022)** [rtfm.co.ua: Prometheus: Kubernetes endpoints monitoring with blackbox-exporter](https://rtfm.co.ua/en/prometheus-kubernetes-endpoints-monitoring-with-blackbox-exporter) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on deploying the Prometheus Blackbox Exporter to monitor endpoint availability via HTTP, HTTPS, TCP, and ICMP protocols, optimizing synthetic probe latency tracks.
+#### Cloud Exporters
+
+  - **(2024)** [==YACE - yet another cloudwatch exporter 🌟==](https://github.com/prometheus-community/yet-another-cloudwatch-exporter) <span class='md-tag md-tag--info'>⭐ 1209</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Highly performance-optimized Prometheus exporter (YACE) designed to query metrics from AWS CloudWatch. Leverages cost-effective batched APIs to retrieve data without incurring high AWS costs.
+#### Database Monitoring (2)
+
+  - **(2024)** [==prometheus-community/elasticsearch_exporter==](https://github.com/prometheus-community/elasticsearch_exporter) <span class='md-tag md-tag--info'>⭐ 2078</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Standard Prometheus-community exporter that queries Elasticsearch cluster health, shard counts, JVM memory usage, indexing metrics, and search latency times.
+  - **(2021)** [sysdig.com: How to monitor an Oracle database with Prometheus. The OracleDB Prometheus exporter](https://www.sysdig.com/blog/monitor-oracle-database-prometheus) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates deploying the OracleDB Prometheus Exporter to parse system tables. Outlines collecting Oracle-specific metrics like tablespace storage usage, connection pool saturation, and SGA/PGA memory allocations.
+#### Discovery
+
+  - **(2023)** [exporterhub.io 🌟](https://exporterhub.io) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive, community-curated directory designed to catalog Prometheus exporters and dashboard integrations, simplifying target discovery for complex microservice infrastructure.
+#### JVM Monitoring
+
+  - **(2024)** [==Prometheus JMX Exporter 🌟==](https://github.com/prometheus/jmx_exporter) <span class='md-tag md-tag--info'>⭐ 3306</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A highly critical Prometheus collector that scrapes and formats JVM JMX mBeans. Widely utilized in enterprise legacy clusters running Java applications, Kafka, and Cassandra.
+  - **(2020)** [engineeringblog.yelp.com: Improving the performance of the Prometheus JMX Exporter](https://engineeringblog.yelp.com/2020/10/improving-the-performance-of-the-prometheus-jmx-exporter.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Case study exploring performance bottlenecks in the standard JMX Exporter. Details tuning allocations and scrape intervals to dramatically reduce CPU and garbage collection overhead in heavily metrics-dense Cassandra clusters.
+#### Kubernetes Exporters
+
+  - **(2023)** [==sstarcher/helm-exporter==](https://github.com/sstarcher/helm-exporter) <span class='md-tag md-tag--info'>⭐ 301</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A Prometheus exporter designed to surface real-time metrics for deployed Helm releases. It monitors charts metadata, tracking status, revisions, and health states across namespaces to empower advanced alert rules.
+  - **(2023)** [==k8s-image-availability-exporter==](https://github.com/deckhouse/k8s-image-availability-exporter) <span class='md-tag md-tag--info'>⭐ 251</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A specialized Prometheus exporter that continuously verifies container registry availability for images specified in Kubernetes configurations. Helps catch container start failures (e.g., ErrImagePull) before pods crash.
+#### Security Exporters
+
+  - **(2024)** [==enix/x509-certificate-exporter==](https://github.com/enix/x509-certificate-exporter) <span class='md-tag md-tag--info'>⭐ 929</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Highly configurable Prometheus exporter focused on scanning and detecting TLS/SSL certificates from filesystems, Kubernetes Secrets, and PEM files. Helps automatically alert on expiring network assets.
+  - **(2021)** [==muxinc/certificate-expiry-monitor==](https://github.com/muxinc/certificate-expiry-monitor) <span class='md-tag md-tag--info'>⭐ 169</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Lightweight utility that continuously monitors the expiration of X.509 SSL/TLS certificates. Generates metrics consumable by Prometheus to allow early alerting on certificate renewals.
+### System Monitoring
+
+#### Linux
+
+  - **(2021)** [sysadminxpert.com: How to Monitor Linux System with Grafana and Telegraf](https://sysadminxpert.com/monitor-linux-system-with-grafana-and-telegraf) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Operational guide demonstrating Linux host resource tracking. Integrates Telegraf, InfluxDB, and Grafana to produce unified kernel and virtual filesystem tracking dashboards.
+### Time Series Databases
+
+#### Cardinality Management
+
+  - **(2020)** [influxdata.com: Three Ways to Keep Cardinality Under Control When Using Telegraf](https://www.influxdata.com/blog/three-ways-to-keep-cardinality-under-control-when-using-telegraf) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Addresses strategies to control high-cardinality metadata tag explosions inside InfluxDB and other time-series databases. Outlines data lifecycle controls and tag-filtering options inside Telegraf.
+### Visualization
+
+#### Grafana Dashboards
+
+  - **(2026)** [Grafana Dashboards with Telegraf Collectors](https://grafana.com/grafana/dashboards/?collector=Telegraf) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curated dashboard collection optimized for displaying metrics gathered via Telegraf. Provides visual paradigms for memory, system operations, disk throughput, and CPU scaling.
+## Systems Design
+
+### Observability (2)
+
+#### Infrastructure Design
+
+##### Telemetry Pipelines
+
+  - **(2022)** [learnsteps.com: Monitoring Infrastructure System Design](https://www.learnsteps.com/monitoring-infrastructure-system-design) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural breakdown of designing an end-to-end monitoring infrastructure from scratch. Examines the selection of pull vs. push telemetry models, buffer queues (like Kafka), and time-series databases (TSDBs). Curator Insight: High-level overview of system design for monitoring platforms. Live Grounding: Serves as a great architectural primer for platform engineering teams building internal metrics systems.
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Cheatsheets](./cheatsheets.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
 

@@ -5,7 +5,6 @@
 
 ## Standard Reference
 
-  - [itnext.io: Kubernetes: load-testing and high-load tuning — problems and' solutions](https://itnext.io/kubernetes-load-testing-and-high-load-tuning-problems-and-solutions-244d869a9791)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devops.com: Shift-Right Testing: The Emergence of TestOps](https://devops.com/shift-right-testing-the-emergence-of-testops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devopsonline.co.uk: DevOps and the emergence of TestOps!](https://www.devopsonline.co.uk/devops-and-the-emergence-of-testops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opcito.com: TestOps: How to automate your software pipeline at the speed' of DevOps](https://www.opcito.com/blogs/testops-how-to-automate-your-software-pipeline-at-the-speed-of-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -17,7 +16,7 @@
   - [thenewstack.io: Removing the Roadblock to Continuous Performance Testing](https://thenewstack.io/removing-the-roadblock-to-continuous-performance-testing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [guru99.com: What is Test Driven Development (TDD)? Tutorial with Example](https://www.guru99.com/test-driven-development.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [functionize.com: Testers vs TDD](https://www.functionize.com/blog/testers-vs-tdd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [copyist](https://github.com/cockroachdb/copyist) <span class='md-tag md-tag--info'>⭐ 852</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [copyist](https://github.com/cockroachdb/copyist) <span class='md-tag md-tag--info'>⭐ 853</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.com: Cerberus - An open source solution for continuous testing' at scale](https://opensource.com/article/20/8/cerberus-test-automation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Diffblue](https://www.diffblue.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Cicada: A tool for testing microservices](https://cicadatesting.github.io/cicada-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -44,8 +43,8 @@
 
 #### API Mocking
 
-  - **(2020)** [==Smocker (server mock) is a simple and efficient HTTP mock server==](https://github.com/smocker-dev/smocker) <span class='md-tag md-tag--info'>⭐ 1279</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Smocker is an execution-efficient, REST API-driven HTTP mocking utility designed for microservice local integration testing. It allows defining dynamic request matches and custom mocking scenarios via direct YAML configurations.
+  - **(2020)** [==Smocker (server mock) is a simple and efficient HTTP mock server==](https://github.com/smocker-dev/smocker) <span class='md-tag md-tag--info'>⭐ 1281</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Smocker is an execution-efficient, REST API-driven HTTP mocking utility designed for microservice local integration testing. It allows defining dynamic request matches and custom mocking scenarios via direct YAML configurations.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Scaffolding](./scaffolding.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [QA](./qa.md)
 

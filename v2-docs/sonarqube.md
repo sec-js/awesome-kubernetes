@@ -14,49 +14,31 @@
   - [Dzone: SonarCloud integration with SpringBoot Maven](https://dzone.com/articles/sonarcloud-integration-with-springboot-maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Running SonarQube on Kubernetes](https://medium.com/@akamenev/running-sonarqube-on-azure-kubernetes-92a1b9051120)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## DevSecOps
+## Continuous Integration
 
-### Continuous Inspection
+### CICD Pipelines
 
-#### Static Code Analysis
+#### Jenkins Integration
 
-##### Execution
+  - **(2021)** [**itnext.io: SonarQube: running tests from Jenkins Pipeline in Docker**](https://itnext.io/sonarqube-running-tests-from-jenkins-pipeline-from-docker-7740702b6f42) <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Demonstrates executing static security tests during automated container-based Jenkins workflows. Explores Docker volume mapping, token handling, and multi-stage pipeline configuration.
+### Code Quality
 
-  - [thenewstack.io: How to Analyze Code and Find Vulnerabilities with SonarQube](https://thenewstack.io/how-to-analyze-code-and-find-vulnerabilities-with-sonarqube)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Hands-on guide to running static analyzers against real codebases using SonarQube scanners, configuring quality gates, and reviewing vulnerability alerts.
-##### Installation
+#### Deployment Guides
 
-  - [thenewstack.io: How to Install the SonarQube Security Analysis Platform](https://thenewstack.io/how-to-install-the-sonarqube-security-analysis-platform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step deployment guide detailing how to host SonarQube locally or on dedicated infrastructure, including database dependencies and JVM configurations.
-##### SonarQube
+  - **(2022)** [thenewstack.io: How to Install the SonarQube Security Analysis Platform](https://thenewstack.io/how-to-install-the-sonarqube-security-analysis-platform) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical installation guide covering SonarQube deployments in cloud environments. Details system prerequisite profiles, host tuning metrics, and database integration configurations.
+#### Kubernetes Deployment
 
-  - **(2026)** [==Sonarqube.org==](https://www.sonarsource.com/products/sonarqube) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The leading platform for continuous inspection of code quality, executing automatic reviews with static analysis of code to detect bugs, security vulnerabilities, and code smells across 30+ programming languages.
-##### SonarQube Scanner
+  - **(2024)** [**click-to-deploy/sonarqube**](https://github.com/GoogleCloudPlatform/click-to-deploy/tree/master/k8s/sonarqube) <span class='md-tag md-tag--info'>⭐ 772</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Google Cloud Platform blueprint repository designed to ease the deployment of SonarQube on Google Kubernetes Engine (GKE) via highly standardized manifest suites.
+  - **(2023)** [**hub.helm.sh/charts/oteemo/sonarqube**](https://artifacthub.io/packages/helm/oteemo/sonarqube) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Provides community Helm templates to install SonarQube onto Kubernetes nodes. Supports production deployments utilizing stateful postgres instances and customizable security boundaries.
+  - **(2022)** [youtube: Installation of Sonarqube on Kubernetes/Minikube](https://www.youtube.com/watch?v=_cT-kkvw3NQ) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Walkthrough showing how to stand up SonarQube in a localized Minikube setting. Explains storage class mappings, persistent volume bindings, and port-forwarding constraints.
+#### Static Analysis Platforms
 
-  - **(2026)** [**SonarQube Scanner Overview**](https://docs.sonarsource.com/sonarqube-server/analyzing-source-code/overview) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Core index for the official SonarQube scanner integrations, providing detailed configurations for popular build tools and continuous integration platforms like Gradle, MSBuild, Maven, Jenkins, and Azure DevOps.
-### Continuous Integration
+  - **(2026)** [==Sonarqube.org==](https://www.sonarsource.com/products/sonarqube) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Industry-standard platform for automated static code analysis, structural design checks, and bug detection. Integrates directly into modern CI pipelines to enforce automated quality gates and track technical debt.
+  - **(2026)** [==SonarQube Scanner Overview==](https://docs.sonarsource.com/sonarqube-server/analyzing-source-code/overview) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official architectural overview of SonarQube scanning tooling. Details execution mechanics with Gradle, MSBuild, Maven, Jenkins, Azure DevOps, and generic bash runner scripts.
+#### Vulnerability Assessment
 
-#### Jenkins Pipelines
-
-##### Dockerized Scans
-
-  - [itnext.io: SonarQube: running tests from Jenkins Pipeline in Docker](https://itnext.io/sonarqube-running-tests-from-jenkins-pipeline-from-docker-7740702b6f42)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Deep technical guide showing how to architect a Jenkins pipeline that runs unit tests and executes SonarQube code coverage scans natively inside transient Docker containers.
-### Kubernetes Native
-
-#### Google Cloud Platform
-
-##### Blueprints
-
-  - [click-to-deploy/sonarqube](https://github.com/GoogleCloudPlatform/click-to-deploy/tree/master/k8s/sonarqube) <span class='md-tag md-tag--info'>⭐ 771</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A Google Cloud Platform blueprint repository designed to ease the deployment of SonarQube on Google Kubernetes Engine (GKE) via highly standardized manifest suites.
-#### Helm Deployments
-
-##### SonarQube (1)
-
-  - **(2024)** [hub.helm.sh/charts/oteemo/sonarqube](https://artifacthub.io/packages/helm/oteemo/sonarqube) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Helm chart repository listing for deploying SonarQube on Kubernetes, complete with configurations for persistence, ingress routing, and integrated database deployments.
-#### Local Environments
-
-##### Video Tutorials
-
-  - [youtube: Installation of Sonarqube on Kubernetes/Minikube](https://www.youtube.com/watch?v=_cT-kkvw3NQ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Video guide demonstrating how to spin up a SonarQube server inside Minikube, configured for localized developer playground environments.
+  - **(2022)** [**thenewstack.io: How to Analyze Code and Find Vulnerabilities with SonarQube**](https://thenewstack.io/how-to-analyze-code-and-find-vulnerabilities-with-sonarqube) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Teaches developers how to interpret SonarQube dashboards to discover common security vulnerabilities and code smells. Demonstrates optimization rules and quality profiles adjustment methods.
 
 ---
-💡 **Explore Related:** [Jenkins Alternatives](./jenkins-alternatives.md) | [Gitops](./gitops.md) | [Registries](./registries.md)
+💡 **Explore Related:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md) | [Flux](./flux.md)
 

@@ -17,11 +17,18 @@
 
 ## Artificial Intelligence
 
-### AI Workflows
+### Deep Learning
 
-#### Prompt Engineering
+#### Large Language Models
 
-  - [Claude 101: Free Guides to Master Claude](https://claude101.com) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive guides to mastering Anthropic's Claude. Focuses on system instructions, complex XML markup injection, custom tool calls, and API configuration profiles for multi-agent workflows.
+  - **(2024)** [==LLMs-from-scratch==](https://github.com/rasbt/LLMs-from-scratch) <span class='md-tag md-tag--info'>⭐ 97098</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight highlights this acclaimed resource for building a fully functional PyTorch Transformer from scratch. Live Grounding verifies it is an indispensable textbook for AI engineers, laying bare tokenization, self-attention calculations, optimization loops, and model loading mechanics without library abstractions.
+## Artificial Intelligence and LLMs
+
+### Prompt Engineering
+
+#### Developer Productivity
+
+  - **(2024)** [**Awesome NotebookLM Slide Prompts**](https://github.com/serenakeyitan/awesome-notebookLM-prompts) <span class='md-tag md-tag--info'>⭐ 3750</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A master curation of system-level prompt templates specifically optimized for Google NotebookLM. It accelerates complex source material ingestions, contextual extractions, and structured summarizing processes for technical architects. (Live Grounding: Highlights the 2026 intersection of AI workflow orchestration and engineering documentation maintenance).
 ## Cloud Native Infrastructure
 
 ### Infrastructure as Code
@@ -33,7 +40,6 @@
 
 #### AIOps Diagnostics
 
-  - [k8sgpt.ai](https://k8sgpt.ai) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier AI-native diagnostic framework for Kubernetes cluster operations. Scans running clusters, decodes anomalies, and references OpenAI integrations to deliver actionable mitigation strategies.
   - [github.com/robusta-dev/kubernetes-chatgpt-bot](https://github.com/robusta-dev/kubernetes-chatgpt-bot) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An intelligent triage chatbot linking cluster failures directly to LLM advice. Hooks Prometheus alert outputs to supply operators with instantaneous log summaries and debug steps.
   - [itnext.io: K8sGPT + LocalAI: Unlock Kubernetes superpowers for free!](https://itnext.io/k8sgpt-localai-unlock-kubernetes-superpowers-for-free-584790de9b65) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — In-depth guide configuring a fully offline AI diagnostics engine inside protected networks. Combines K8sGPT analytical tooling with LocalAI offline LLMs to safeguard internal data streams.
 #### Declarative Manifests
@@ -53,16 +59,9 @@
 #### Enterprise AI
 
   - [thenewstack.io: Using ChatGPT for Questions Specific to Your Company Data](https://thenewstack.io/using-chatgpt-for-questions-specific-to-your-company-data) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Technical deep-dive on Retrieval-Augmented Generation (RAG). Outlines how to query private corporate document indexes using semantic vector databases paired with ChatGPT-style APIs securely.
-## Healthcare Technology
-
-### Artificial Intelligence (1)
-
-#### Speech and Voice Systems
-
-  - [Microsoft Dragon Copilot: Unified Voice AI Assistant for Healthcare](https://news.microsoft.com/source/2025/03/03/microsoft-dragon-copilot-provides-the-healthcare-industrys-first-unified-voice-ai-assistant-that-enables-clinicians-to-streamline-clinical-documentation-surface-information-and-automate-task) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Official press release detailing Microsoft's Dragon Copilot launch. Explores the application of ambient clinical speech models to draft medical charts automatically under strict HIPAA compliance.
 ## Human Productivity
 
-### Artificial Intelligence (2)
+### Artificial Intelligence (1)
 
 #### HR Operations
 
@@ -70,40 +69,13 @@
 #### Workplace Automation
 
   - **(2023)** [businessinsider.es: Uso ChatGPT entre 50 y 70 veces al día para todo, desde preparar reuniones hasta quitarme el pegamento de los dedos](https://www.businessinsider.es/tecnologia/uso-chatgpt-50-70-veces-dia-ser-productivo-1228162) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span> 🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reportaje de carácter práctico que expone la incorporación intensiva de agentes de IA conversacional dentro del flujo de trabajo corporativo diario, ilustrando la aceleración de tareas de síntesis y redacción técnica. [SPANISH CONTENT]
-## Knowledge Management
-
-### AI Workflows (1)
-
-#### NotebookLM Prompting
-
-  - [Awesome NotebookLM Slide Prompts](https://github.com/serenakeyitan/awesome-notebookLM-prompts) <span class='md-tag md-tag--info'>⭐ 3412</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A master repository containing systemic prompts for Google NotebookLM. Accelerates deep source material analysis, structured outlining, and programmatic context extraction.
-## Machine Learning
-
-### AI Hardware Acceleration
-
-#### Enterprise Infrastructure
-
-  - [Cerebras AI](https://www.cerebras.ai) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Architectural hub detailing wafer-scale AI processors built to tackle compute limits. Facilitates unprecedented deep-learning model execution with extreme localized bandwidth optimizations.
-### Deep Learning Foundations
-
-#### Large Language Models
-
-  - [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) <span class='md-tag md-tag--info'>⭐ 95379</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Highly acclaimed code-first textbook guiding the creation of a Large Language Model (LLM) from scratch in PyTorch. Illustrates attention mechanisms, tokenizers, training loops, and weight loadings.
 ## Market Analysis
 
-### Artificial Intelligence (3)
+### Artificial Intelligence (2)
 
 #### Industry Dynamics
 
   - [genbeta.com: En la era de la inteligencia artificial, Microsoft es el nuevo' Google](https://www.genbeta.com/a-fondo/era-inteligencia-artificial-microsoft-nuevo-google) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analiza la evolución de Microsoft como líder de la revolución de IA generativa a través de su alianza con OpenAI, contrastándolo con la postura reactiva de Google ante los modelos de lenguaje transformadores. [SPANISH CONTENT]
-## Platform Engineering
-
-### AI Integration (1)
-
-#### Coding Assistants
-
-  - [Google Launches Gemini Code Assist, Challenging GitHub Copilot with Generous Free Tier](https://www.xataka.com/robotica-e-ia/google-lanza-misil-github-copilot-su-asistente-programacion-ofrece-mucho-uso-gratuito-que-microsoft) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Spanish news analysis covering the competitive launch of Google Gemini Code Assist and its direct threat to GitHub Copilot's market dominance. Highlights its multi-repository context window, competitive pricing strategies, and integration into IDEs. [SPANISH CONTENT]
-  - [GitHub Copilot Now Explains Failed Actions Jobs (GA)](https://github.blog/changelog/2025-01-15-copilot-users-can-ask-about-a-failed-actions-job-ga)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official GitHub product announcement marking the General Availability of GitHub Copilot's automated pipeline diagnostics. Empowers developers to quickly resolve failing CI/CD builds by getting clear, contextual, AI-driven summaries and remediation plans.
 ## Software Engineering
 
 ### AI-Assisted Operations
@@ -113,5 +85,5 @@
   - [thenewstack.io: Developers Put AI Bots to the Test of Writing Code](https://thenewstack.io/developers-put-ai-bots-to-the-test-of-writing-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Empirical evaluation measuring code-generation accuracy across popular AI engines. Examines compiler error rates, structural vulnerabilities, and the necessity of developer supervision in AI workflows.
 
 ---
-💡 **Explore Related:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md) | [MLOps](./mlops.md)
+💡 **Explore Related:** [AI](./ai.md) | [AI Agents MCP](./ai-agents-mcp.md) | [MLOps](./mlops.md)
 

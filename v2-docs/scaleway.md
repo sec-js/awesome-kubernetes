@@ -3,14 +3,14 @@
 !!! info "Architectural Context"
     Detailed reference for Scaleway Public Cloud in the context of Cloud Providers (Hyperscalers).
 
-## Infrastructure
+## Cloud Native Architecture
 
-### Architecture
+### SaaS Architecture Patterns
 
-#### Design Patterns
+#### Tenant Isolation
 
-  - **(2023)** [SaaS Solutions - What is the difference between a multi-instance and a multi-tenant architecture](https://www.scaleway.com/en/en/blog/saas-multi-tenant-vs-multi-instance-architectures)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight / Live Grounding: Analytical comparison of Multi-tenant (shared infrastructure, logical segregation) versus Multi-instance (physical/virtual infrastructure replication) SaaS deployment models.
+  - **(2022)** [SaaS Solutions - What is the difference between a multi-instance and a multi-tenant architecture](https://www.scaleway.com/en/en/blog/saas-multi-tenant-vs-multi-instance-architectures) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural guide analyzing the trade-offs between multi-instance and multi-tenant architectures. It reviews namespace limits, network segmentation strategies, and storage separation models crucial for SaaS developers on Kubernetes.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Public Cloud Solutions](./public-cloud-solutions.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
 

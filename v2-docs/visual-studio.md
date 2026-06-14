@@ -6,16 +6,6 @@
 ## Standard Reference
 
   - [Flexible layout 🌟](https://code.visualstudio.com/updates/v1_120/v1_46#_flexible-layout)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Google Cloud Code](https://cloud.google.com/code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Visual Studio Code JCasC-Plugin 🌟](https://marketplace.visualstudio.com/items?itemName=jcasc-developers.jcasc-plugin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Awesome Visual Studio Code](https://github.com/viatsko/awesome-vscode) <span class='md-tag md-tag--info'>⭐ 28668</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
-  - [AWS Toolkits for Cloud9, JetBrains and VS Code now support interaction with over 200 new resource types 🌟](https://aws.amazon.com/about-aws/whats-new/2021/11/aws-toolkits-cloud9-jetbrains-vs-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Getting Started with Data Wrangler in VS Code](https://code.visualstudio.com/docs/datascience/data-wrangler)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [kite: Code Faster with AI Autocomplete](https://kite.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Ruff](https://github.com/astral-sh/ruff) <span class='md-tag md-tag--info'>⭐ 47643</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
-  - [thorsten-hans.com: Debugging apps in Kubernetes with Bridge](https://www.thorsten-hans.com/debugging-apps-in-kubernetes-with-bridge)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [marketplace.visualstudio.com: Bridge to Kubernetes (VSCode)](https://marketplace.visualstudio.com/items?itemName=mindaro.mindaro)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [marketplace.visualstudio.com: Learn Cloud 🌟](https://marketplace.visualstudio.com/items?itemName=azurepaas-tools.vscode-learncloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [code.visualstudio.com: Visual Studio Code](https://code.visualstudio.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [vscode.github.com: GitHub and Visual Studio Code 🌟](https://vscode.github.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [VScode run from WSL in Linux: Cannot activate the 'Atlassian for VSCode' (Official)' extension because 'git' extension is not loaded](https://bitbucket.org/atlassianlabs/atlascode/issues/112/cannot-activate-the-atlassian-for-vscode)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -66,7 +56,7 @@
   - [Indent-Rainbow:](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Live Server:](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [SVG:](https://marketplace.visualstudio.com/items?itemName=jock.svg)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Python Visual Studio Code](https://github.com/microsoft/vscode-python) <span class='md-tag md-tag--info'>⭐ 4618</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [Python Visual Studio Code](https://github.com/microsoft/vscode-python) <span class='md-tag md-tag--info'>⭐ 4623</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [betterprogramming.pub: The Best VS Code Extensions to Supercharge Your Git](https://betterprogramming.pub/the-best-vs-code-extensions-to-supercharge-your-git-5d5ab3f64f64)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone.com: 10 VS Code Extensions to Fight Technical Debt](https://dzone.com/articles/10-vs-code-extensions-to-fight-technical-debt)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: Superb VSCode extensions changing your coding life](https://dev.to/duckinm/superb-vscode-extensions-changing-your-coding-life-2cmb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -141,14 +131,14 @@
   - [JM Meessen: Declarative Jenkinsfile Support](https://marketplace.visualstudio.com/items?itemName=jmMeessen.jenkins-declarative-support)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Alessandro Fragnani: Jenkins Status](https://marketplace.visualstudio.com/items?itemName=alefragnani.jenkins-status)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Remote debugging on Kubernetes using VS Code](https://developers.redhat.com/articles/2021/12/13/remote-debugging-kubernetes-using-vs-code#)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) <span class='md-tag md-tag--info'>⭐ 5083</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) <span class='md-tag md-tag--info'>⭐ 5123</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [blog.stackademic.com: Debugging Microservices Locally with mirrord](https://blog.stackademic.com/mastering-local-microservices-debugging-with-mirrord-0a99443c1544)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kenneth.io: Introducing remote debugging of Node.js apps on Azure App Service' from VS Code](https://kenneth.io/post/introducing-remote-debugging-of-nodejs-apps-on-azure-app-service-from-vs-code-in-public-preview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Python in Visual Studio Code – September 2020 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-september-2020-release)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Python in Visual Studio Code – January 2021 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-january-2021-release)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [realpython.com: Python Development in Visual Studio Code](https://realpython.com/python-development-visual-studio-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/golang/vscode-go 🌟](https://github.com/golang/vscode-go/blob/master/README.md) <span class='md-tag md-tag--info'>⭐ 4248</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [Bridge to Kubernetes 🌟](https://github.com/microsoft/mindaro) <span class='md-tag md-tag--info'>⭐ 303</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/golang/vscode-go 🌟](https://github.com/golang/vscode-go/blob/master/README.md) <span class='md-tag md-tag--info'>⭐ 4252</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [Bridge to Kubernetes 🌟](https://github.com/microsoft/mindaro) <span class='md-tag md-tag--info'>⭐ 304</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [visualstudiomagazine.com: Bridge to Kubernetes Simplifies Microservice Development' in Visual Studio/VS Code](https://visualstudiomagazine.com/articles/2020/10/07/bridge-kubernetes.aspx)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Gitpod Open Sources a ‘Holistic IDE’](https://thenewstack.io/gitpod-open-sources-a-holistic-ide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [piotrminkowski.com: Development on Kubernetes: IDE & TOOLS](https://piotrminkowski.com/2020/08/03/development-on-kubernetes-ide-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -198,6 +188,13 @@
 #### Kubernetes Integration
 
   - [blog.getambassador.io: Debugging Go Microservices in Kubernetes with VScode](https://blog.getambassador.io/debugging-go-microservices-in-kubernetes-with-vscode-a36beb48ef1) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explores techniques for real-time remote debugging of Go microservices running inside a Kubernetes cluster using Telepresence and VSCode, bridging local development environments with cloud resources.
+## Developer Tools
+
+### IDE
+
+#### VS Code
+
+  - **(2026)** [==Awesome Visual Studio Code==](https://github.com/viatsko/awesome-vscode) <span class='md-tag md-tag--info'>⭐ 28743</span> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive directory of extensions, themes, and configuration recipes designed to turn VS Code into a productivity powerhouse. Highly relevant for cloud-native developers seeking extensions for Kubernetes, Terraform, Docker, and remote workspace development. Serves as a daily driver resource for developer enablement teams.
 ## Development Environments
 
 ### Cloud IDEs
@@ -221,7 +218,7 @@
 #### IaC
 
   - **(2024)** [techcommunity.microsoft.com: Unleashing GitHub Copilot for Infrastructure as Code (powershell, terraform, etc)](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/unleashing-github-copilot-for-infrastructure-as-code/4124031) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores how AI pair programmers like GitHub Copilot can be leveraged to draft secure and high-quality Infrastructure as Code templates, specializing in Terraform, PowerShell, and ARM templates.
-### VS Code
+### VS Code (1)
 
 #### AI Assistance (1)
 
@@ -244,7 +241,7 @@
   - **(2021)** [A multi-step tutorial that covers the basics of working with Docker with Visual Studio Code and deploy on Azure](https://learn.microsoft.com/en-us/visualstudio/docker/tutorials/docker-tutorial) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive learning pathway walking developers through building, debugging, and running Dockerized applications inside VS Code, followed by direct container deployment to Azure App Service or Azure Container Apps.
 #### Git Extensions
 
-  - **(2016)** [==GitLens interactive rebase==](https://github.com/gitkraken/vscode-gitlens#interactive-rebase-editor-) <span class='md-tag md-tag--info'>⭐ 9822</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Detailed documentation on GitLens' visual interactive rebase tool, which translates raw CLI rebase structures into a drag-and-drop workspace UI within VS Code, significantly reducing risks when rewriting commit histories.
+  - **(2016)** [==GitLens interactive rebase==](https://github.com/gitkraken/vscode-gitlens#interactive-rebase-editor-) <span class='md-tag md-tag--info'>⭐ 9839</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Detailed documentation on GitLens' visual interactive rebase tool, which translates raw CLI rebase structures into a drag-and-drop workspace UI within VS Code, significantly reducing risks when rewriting commit histories.
   - **(2023)** [Visualize your git repo in vscode with Git Graph extensions](https://www.youtube.com/shorts/vpFF1XSqWjw?si=Zr2eW_C3_3hQoXAa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the Git Graph extension in VS Code, allowing visual tracking of branching strategies, commits, and tag histories to keep distributed teams aligned during fast deployment periods.
 #### IaC Extensions
 
@@ -252,7 +249,7 @@
   - **(2019)** [CloudFormation Snippets 🌟](https://marketplace.visualstudio.com/items?itemName=dannysteenman.cloudformation-yaml-snippets) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive collection of AWS CloudFormation snippets formatted for both YAML and JSON, offering platform engineers rapid, boilerplate-free template creation for AWS infrastructure stacks.
 #### Kubernetes Extensions
 
-  - **(2017)** [==Azure/vscode-kubernetes-tools 🌟==](https://github.com/vscode-kubernetes-tools/vscode-kubernetes-tools) <span class='md-tag md-tag--info'>⭐ 757</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Developed by Microsoft/Azure, this foundational extension integrates cluster management, manifest linting, Helm support, and debug workflows directly into the editor for effortless Kubernetes operations.
+  - **(2017)** [==Azure/vscode-kubernetes-tools 🌟==](https://github.com/vscode-kubernetes-tools/vscode-kubernetes-tools) <span class='md-tag md-tag--info'>⭐ 762</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Developed by Microsoft/Azure, this foundational extension integrates cluster management, manifest linting, Helm support, and debug workflows directly into the editor for effortless Kubernetes operations.
   - **(2018)** [Helm Intellisense](https://marketplace.visualstudio.com/items?utm_sq=ggv6n6jy52&itemName=Tim-Koehler.helm-intellisense&ssr=false#overview) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A standard-setting VS Code extension that enables autocompletion and path matching for Helm chart values files inside template paths, eliminating common typo bugs and deployment failures during manifest compilation.
 #### Language Servers
 
@@ -280,7 +277,14 @@
 #### Web Console
 
   - **(2020)** [openshift.com: Visual Web Terminal - A Turbocharged Command Line for Kubernetes and OpenShift](https://www.redhat.com/en/blog/visual-web-terminal-a-turbocharged-command-line-for-kubernetes-and-openshift) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces Red Hat's Visual Web Terminal, combining standard CLI controls with graphical elements for OpenShift. It maps cluster payloads dynamically to decrease complex command cognitive loads.
+## Software Engineering
+
+### Python
+
+#### Static Analysis
+
+  - **(2025)** [==Ruff==](https://github.com/astral-sh/ruff) <span class='md-tag md-tag--info'>⭐ 47960</span> <span class='md-tag md-tag--warning'>[RUST CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight introduces Ruff as an extremely fast Python linter and formatter written in Rust. Live Grounding confirms Ruff is a de facto industry standard, dramatically lowering CI run times by replacing several older style checkers with a single compiled utility.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [API](./api.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 

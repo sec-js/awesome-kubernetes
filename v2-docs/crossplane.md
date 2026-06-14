@@ -8,53 +8,53 @@
   - [medium: Using Crossplane to Provision a Kubernetes Cluster in Google Cloud](https://medium.com/dzerolabs/using-crossplane-to-provision-a-kubernetes-cluster-in-google-cloud-cf5374d765ee)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [faun.pub: Defining Infrastructure Declaratively with Crossplane](https://faun.pub/defining-infrastructure-declaratively-with-crossplane-eb9e0a98ae38)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Control Planes
+## GitOps and CICD
 
-### Cloud Infrastructure As Code
+### GitOps
 
-#### Architectural Strategy
+#### FluxCD
 
-  - [Crossplane, a Universal Control Plane API for Cloud Computing](https://www.infoq.com/news/2019/01/upbound-crossplane)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical article introducing Crossplane's architectural strategy. It outlines the core benefits of moving from static execution runs to active, continuously reconciling API-driven cloud control planes.
-#### Crossplane
+##### Crossplane
 
-  - **(2026)** [==crossplane.io==](https://www.crossplane.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Crossplane transforms Kubernetes into a universal control plane. By exposing managed cloud infrastructure as custom Resource Definitions (CRDs), it allows platform teams to build native compositions without external IaC tools.
-#### Market Evaluation
+  - **(2021)** [itnext.io: GitOpsify Cloud Infrastructure with Crossplane and Flux](https://itnext.io/gitopsify-cloud-infrastructure-with-crossplane-and-flux-d605d3043452) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Details the direct implementation of GitOps pipelines using Flux CD as the reconciliation engine to manage cloud infrastructure generated via Crossplane. By declarative versioning of Crossplane custom resources in Git, engineers establish an automated feedback loop where changes are continuously reconciled against live AWS, GCP, or Azure endpoints.
+#### Methodologies
 
-  - [symphony.is: Crossplane - The New Kid in Town](https://symphony.is/blog/crossplane---the-new-kid-in-town-)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational review of Crossplane's technology, analyzing why real-time cloud infrastructure reconciliation represents the future of cloud resource management.
-#### Presentations
+  - **(2022)** [codefresh.io: Using GitOps for Infrastructure and Applications With Crossplane and Argo CD](https://octopus.com/devops/gitops) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A strategic evaluation of GitOps workflows and state-reconciliation mechanisms for infrastructure and applications. By contrasting push vs. pull GitOps pipelines (e.g., using Argo CD or Octopus Deploy with Crossplane), the guide highlights methods for treating Kubernetes as the source of truth for all environment mutations.
+## Platform Engineering
 
-  - [Presentation: YAML your cloud](https://docs.google.com/presentation/d/1IZXCiQl_NUawHMvKJANCG2_LIBZseUpY-XyPjlghj9E/edit)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical slide deck focused on using unified YAML for cross-cloud resource control, detailing how standard declarative formats reduce administrative friction.
-#### Reference Architectures
+### Control Planes
 
-  - [upbound/platform-ref-multi-k8s: Upbound's reference platform for multi-cloud' Kubernetes with Crossplane](https://github.com/upbound/platform-ref-multi-k8s) <span class='md-tag md-tag--info'>⭐ 66</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Upbound's standardized reference architecture for running multi-cloud Kubernetes clusters via Crossplane. It highlights production-grade modular design, credential partitioning, and composition patterns.
-  - [askmeegs/yaml-your-cloud](https://github.com/askmeegs/yaml-your-cloud) <span class='md-tag md-tag--info'>⭐ 6</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstration codebase representing compositions and templates for unified cloud infrastructure configurations, providing a reference layout for Crossplane training labs.
-### Developer Platforms
+#### Crossplane (1)
 
-#### Internal Developer Platforms
+##### Code Samples
 
-  - [Crossplane: A Kubernetes Control Plane to Roll Your Own PaaS](https://thenewstack.io/crossplane-a-kubernetes-control-plane-to-roll-your-own-paas)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses Crossplane's capability to orchestrate complete Internal Developer Platforms (IDPs). Highlights how custom control planes abstract infrastructure complexity, facilitating developer self-service workflows.
-### Red Hat Ecosystem
+  - **(2021)** [askmeegs/yaml-your-cloud](https://github.com/askmeegs/yaml-your-cloud) <span class='md-tag md-tag--info'>⭐ 6</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Code repository designed as a companion to the 'YAML your cloud' presentation, offering practical Kubernetes manifest examples and Crossplane configurations. It showcases foundational multi-cloud provider settings, composition patterns, and claims structures used in active training environments.
+##### History
 
-#### OpenShift Integration
+  - **(2019)** [Crossplane, a Universal Control Plane API for Cloud Computing](https://www.infoq.com/news/2019/01/upbound-crossplane) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Features the initial release and architectural goals of Crossplane as a universal control plane API designed to transcend traditional Infrastructure as Code (IaC) architectures. Discusses the early-stage vision of running custom resource definitions in Kubernetes to manage heterogeneous cloud providers, establishing the foundation of modern Platform Engineering.
+##### Infrastructure as Code
 
-  - [Crossplane as an OpenShift Operator to manage and provision cloud-native services](https://blog.crossplane.io/crossplane-openshift-operator-cloud-native-services) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Deep dive into installing and operating Crossplane within Red Hat OpenShift. Shows how platform administrators can unify container scheduling and cloud service management using OpenShift operators.
-## Developer Experience
+  - **(2026)** [crossplane.io](https://www.crossplane.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official portal for Crossplane, a CNCF incubating framework that extends the Kubernetes API to manage external cloud infrastructure. By transforming Kubernetes clusters into universal control planes, Crossplane allows platform teams to orchestrate cloud databases, VPCs, and serverless resources using custom resources (CRDs) and declarative YAML, standardizing cloud platform automation.
+##### Introduction
 
-### Kubernetes Core Concepts
+  - **(2021)** [symphony.is: Crossplane - The New Kid in Town](https://symphony.is/blog/crossplane---the-new-kid-in-town-) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a high-level overview of Crossplane's architectural architecture compared to traditional static provisioning tools like Terraform. Highlights the advantages of continuous reconciliation loops that prevent configuration drift and promote dynamic state enforcement across heterogeneous cloud infrastructures.
+##### Platform-as-a-Service
 
-#### Complexity Analysis
+  - **(2021)** [Crossplane: A Kubernetes Control Plane to Roll Your Own PaaS](https://thenewstack.io/crossplane-a-kubernetes-control-plane-to-roll-your-own-paas) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Describes the strategic value proposition of leveraging Crossplane to design highly tailored, enterprise-grade internal Platform-as-a-Service (PaaS) engines. Explains how platform teams can abstract away raw cloud-provider APIs, presenting developers with simplified, customized APIs (Compositions) that ensure automated compliance and operational consistency.
+##### Presentations
 
-  - [itnext.io: Why do developers find Kubernetes so hard?](https://itnext.io/why-do-developers-find-kubernetes-hard-6532e8d6ce7f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry critique analyzing the steep cognitive curve of native Kubernetes. The article provides structured recommendations on how Platform Engineering can establish abstraction layers for developers.
-## GitOps
+  - **(2021)** [Presentation: YAML your cloud](https://docs.google.com/presentation/d/1IZXCiQl_NUawHMvKJANCG2_LIBZseUpY-XyPjlghj9E/edit) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical slide-deck detailing how to leverage Crossplane to declare cloud infrastructure purely using Kubernetes-native YAML. It covers custom resource definitions (CRDs), dynamic provider integration, resource composition layers, and best practices for architectural abstractions to decouple infrastructure definitions from vendor-specific formats.
+##### RedHat OpenShift
 
-### Continuous Delivery
+  - **(2020)** [Crossplane as an OpenShift Operator to manage and provision cloud-native services](https://blog.crossplane.io/crossplane-openshift-operator-cloud-native-services) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Documents the operational integration of Crossplane as a certified Red Hat OpenShift Operator. It highlights how Enterprise Platform Engineers can leverage OpenShift's native RBAC, security context constraints, and Operator Lifecycle Manager (OLM) to safely orchestrate multi-cloud infrastructure directly from Red Hat deployments, enabling compliant developer self-service.
+##### Reference Architectures
 
-#### Flux Integration
+  - **(2023)** [upbound/platform-ref-multi-k8s: Upbound's reference platform for multi-cloud' Kubernetes with Crossplane](https://github.com/upbound/platform-ref-multi-k8s) <span class='md-tag md-tag--info'>⭐ 66</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A blueprint repository illustrating standard compositions and platform-ref layouts for deploying multi-cloud Kubernetes clusters using Crossplane. Provides direct, working configurations for credential partitioning, identity federation, and modular configuration hierarchies that conform to the Upbound control plane architecture.
+### Developer Experience
 
-  - [itnext.io: GitOpsify Cloud Infrastructure with Crossplane and Flux](https://itnext.io/gitopsify-cloud-infrastructure-with-crossplane-and-flux-d605d3043452) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A granular guide on uniting Flux CD and Crossplane. Details the construction of continuous GitOps pipelines where infrastructure drifts are self-reconciled using Flux's lightweight controllers.
-#### Infrastructure Orchestration
+#### Kubernetes Usability
 
-  - **(2023)** [codefresh.io: Using GitOps for Infrastructure and Applications With Crossplane and Argo CD](https://octopus.com/devops/gitops) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This architectural study outlines the synchronization of infrastructure and application deployments using GitOps principles, examining the strategic union of Crossplane and continuous deployment tools.
+  - **(2021)** [itnext.io: Why do developers find Kubernetes so hard?](https://itnext.io/why-do-developers-find-kubernetes-hard-6532e8d6ce7f) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Diagnoses the cognitive load and operational hurdles associated with exposing raw Kubernetes interfaces directly to application developers. It analyzes the friction created by complex network topologies, YAML verbosity, and security policies, making the case for platform abstraction layers and custom developer portals.
 
 ---
 💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Oauth](./oauth.md)

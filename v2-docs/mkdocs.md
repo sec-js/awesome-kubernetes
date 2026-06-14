@@ -3,71 +3,109 @@
 !!! info "Architectural Context"
     Detailed reference for MkDocs, Mardkown & GitHub Pages in the context of Architectural Foundations.
 
-## Standard Reference
+## Cloud Native Infrastructure
 
-  - [fastapi.tiangolo.com](https://fastapi.tiangolo.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+### Edge Proxy
 
-## Cloud Architecture
+#### Traefik
 
-### Developer Experience
+  - **(2026)** [docs.traefik.io](https://doc.traefik.io/traefik)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The production documentation portal of Traefik Proxy, itself a prime real-world showcase of dynamic MkDocs engineering. Details configuration of ingress routing, TLS terminations, and middleware inside Kubernetes. In 2026, it represents a standard design pattern for deploying zero-trust edge proxies.
+## Data Engineering and Science
 
-#### CICD and GitOps Pipelines
+### Scientific Documentation
 
-  - **(2023)** [thomasthornton.cloud: Deploying MkDocs to GitHub Pages with GitHub Actions](https://thomasthornton.cloud/deploying-mkdocs-to-github-pages-with-github-actions) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A walkthrough detailing the automation of MkDocs builds and their subsequent deployment to GitHub Pages using custom GitHub Actions. It highlights optimal repository configurations and credential management for secure deployments. Double-Evidence: The author outlines simple build actions, and live grounding verifies that this approach remains the standard practice for automated documentation deployment in modern software repositories.
-  - [build5nines.com: GitHub Actions: Run Pandoc to convert Markdown to Word' Document](https://build5nines.com/github-actions-run-pandoc-to-convert-markdown-to-word-document)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A step-by-step implementation guide demonstrating how to use GitHub Actions and Pandoc to dynamically convert Markdown documentation into Microsoft Word formats. This pipeline bridges technical writing with corporate document delivery workflows. Double-Evidence: The guide streamlines document translation, and live grounding highlights its practical value in enterprise environments where technical documentation must be exported for non-technical stakeholders automatically.
-  - [dev.to: How to View Build Logs for GitHub Pages](https://dev.to/github/visualize-github-pages-build-logs-1mc1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A debugging guide that illustrates how to locate, read, and interpret build and compilation logs within GitHub Actions to resolve static site generation failures on GitHub Pages. Double-Evidence: A critical operational guide for developers, live grounding confirms its troubleshooting utility when Jekyll or MkDocs compilation fails due to malformed Markdown or missing dependencies.
-#### Documentation Engines
+#### R Markdown
 
-  - [MkDocs](https://www.mkdocs.org)  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A fast, simple, and highly customizable static site generator geared towards building project documentation. Written in Python and configured with a single YAML file, it translates Markdown sources into lightweight, responsive static sites. Double-Evidence: While traditional documentation systems require heavy server-side rendering, live grounding confirms MkDocs remains a foundational tool in enterprise GitOps-driven documentation pipelines.
-  - [websites that use MkDocs](https://www.wappalyzer.com/technologies/documentation-tools/mkdocs)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technology profile tracking the adoption and deployment footprint of MkDocs across live web properties. Provides analytics, traffic estimates, and structural deployment metrics for sites using this engine. Double-Evidence: Curator tracking shows widespread enterprise adoption; live grounding confirms its extensive use among developer-centric SaaS products and open-source platforms.
-  - [Material for MkDocs](https://squidfunk.github.io/mkdocs-material)  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A premium, highly customizable theme for MkDocs built on top of HTML5, CSS3, and JavaScript, featuring built-in search, localization, and responsive layouts. It offers advanced search, syntax highlighting, and custom components natively. Double-Evidence: Widely regarded as the premier interface for technical docs, live grounding confirms it is the industry-standard choice for enterprise-grade open-source documentation hubs due to its high accessibility and extensive feature set.
-  - [opensource.com: How to create a documentation site with Docsify and GitHub' Pages](https://opensource.com/article/20/7/docsify-github-pages)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A technical guide explaining how to deploy a dynamic, zero-build documentation site using Docsify hosted on GitHub Pages. Docsify parses Markdown files on the fly in the browser, eliminating the static pre-compilation step. Double-Evidence: This guide explores alternative lightweight documentation patterns, and live grounding shows Docsify is highly valued for simple project wikis where build pipeline complexity is undesired.
-  - [freecodecamp.org: Documentation Libraries to Help You Write Good Docs](https://www.freecodecamp.org/news/documentation-libraries-to-help-you-write-good-docs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A curated review comparing several popular documentation frameworks, including Docusaurus, Docsify, MkDocs, and GitBook, assessing their performance, ease of use, and customization options. Double-Evidence: This resource acts as an initial architecture decision record, and live grounding confirms its high educational value for teams selecting a documentation framework aligned with their technical stacks.
-#### Documentation Platforms
+  - **(2022)** [r-bloggers.com: How to use R Markdown (part one)](https://www.r-bloggers.com/2022/02/how-to-use-r-markdown-part-one) <span class='md-tag md-tag--warning'>[R CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive practical guide on R Markdown implementation strategies. Illustrates how to merge active mathematical scripts (R, Python, SQL) with clean prose to compile beautiful reproducible reports. Essential knowledge for building data pipeline documentation platforms.
+## Documentation and Workflow
 
-  - [gitbook.com](https://www.gitbook.com)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A collaborative, cloud-hosted documentation platform that simplifies knowledge sharing for technical and non-technical teams alike. Integrates natively with Git repositories while offering rich visual editors. Double-Evidence: Transitioned from an open-source CLI to a full SaaS platform; live grounding shows GitBook is widely adopted by commercial SaaS companies for product user-guides and internal engineering playbooks.
-#### Frontend Engineering
+### CICD Pipelines
 
-  - [dev.to: How we made the __markdown toolbar__](https://dev.to/devteam/how-we-made-the-markdown-toolbar-4f09)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An engineering deep-dive by the Dev.to development team detailing the design, performance considerations, and implementation of their native, high-performance Markdown toolbar. Covers textarea manipulations and keyboard short-cuts. Double-Evidence: The article outlines custom editor integrations; live grounding confirms its value for engineering teams looking to implement intuitive, real-time rich-text Markdown editing interfaces in custom web platforms.
-#### Knowledge Management
+#### Pandoc Conversions
 
-  - [dev.to: An amazing note-taking system with Markdown and Git Series' Articles](https://dev.to/scottshipp/series/15100)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive multi-part series detailing the configuration of a personal knowledge management system utilizing Markdown and Git version control. Explores organizational hierarchies, local editor configurations, and automated synchronization strategies. Double-Evidence: The guide outlines decentralized note-taking, and live grounding validates its utility for developers moving away from proprietary, centralized SaaS tools toward local-first GitOps practices.
-#### Office and Collaboration Tools
+  - **(2022)** [build5nines.com: GitHub Actions: Run Pandoc to convert Markdown to Word Document](https://build5nines.com/github-actions-run-pandoc-to-convert-markdown-to-word-document) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical CI/CD automation guide explaining how to integrate Pandoc within GitHub Actions workflows to programmatically convert Markdown documentation into Microsoft Word format. Solves friction points in corporate pipelines where business stakeholders require standard office documents built directly from Git repositories.
+#### Static Hosting
 
-  - [theverge.com: Google Docs is getting more Markdown support](https://www.theverge.com/2022/3/29/23002138/google-docs-markdown-support-formatting-update)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — News coverage of Google Workspace's expanded native Markdown support, allowing users to format lists, headers, and text formatting via inline Markdown symbols inside Google Docs. Double-Evidence: Highlighting the convergence of developer patterns and mainstream office productivity tools, live grounding confirms this feature significantly bridges the gap between raw code documentation and collaborative enterprise writing.
-  - [popsci.com: Google’s expanded Markdown feature could change how you work](https://www.popsci.com/diy/use-markdown-google)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A workflow guide explaining how to leverage Google Docs' integrated Markdown parsing engine to boost document draft speeds and establish seamless collaborative writing habits for diverse technical teams. Double-Evidence: This article outlines practical text-entry benefits, while live grounding indicates its effectiveness for streamlining hybrid workflows where engineers draft in Markdown and product managers review in real-time document editors.
-#### Static Site Generators
+  - **(2022)** [thomasthornton.cloud: Deploying MkDocs to GitHub Pages with GitHub Actions](https://thomasthornton.cloud/deploying-mkdocs-to-github-pages-with-github-actions) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A pipeline tutorial detailing GitHub Actions workflows configured to auto-compile MkDocs sources and deploy the generated static pages to GitHub Pages. It highlights secure token usage, automated branch creation, and caching mechanisms to optimize documentation build speeds.
+### Knowledge Management
 
-  - [opensource.com: Build your website with Jekyll](https://opensource.com/article/21/9/build-website-jekyll)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A deep-dive guide to Jekyll, the Ruby-based static site generator that powers GitHub Pages default build actions. Outlines site configuration, directory structure, liquid templating, and page compilation. Double-Evidence: While newer engines (like Hugo and MkDocs) are often preferred for modern technical sites, live grounding verifies Jekyll remains a robust, highly extensible engine for complex blogs and static portfolios.
-#### Static Site Hosting
+#### GitOps Docs
 
-  - [pages.github.com](https://pages.github.com)  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A static site hosting service offered directly by GitHub that takes HTML, CSS, and JavaScript files straight from a repository, optionally running them through a build process, and publishes a website. Double-Evidence: The primary deployment target for documentation sites, live grounding confirms GitHub Pages remains the most integrated, reliable, and cost-effective hosting layer for open-source project documentation.
-  - [Access control for GitHub Pages](https://github.blog/changelog/2021-01-21-access-control-for-github-pages)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Official announcement of access control integration for GitHub Pages, allowing enterprise administrators to restrict documentation site visibility to specific organization members. Double-Evidence: This feature bridges open-source tooling with corporate governance, and live grounding confirms it is essential for securing internal architecture wikis, runbooks, and design docs without deploying dedicated servers.
-#### Technical Writing Utilities
+  - **(2022)** [dev.to: An amazing note-taking system with Markdown and Git Series' Articles](https://dev.to/scottshipp/series/15100)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An innovative developer series exploring the construction of a personalized knowledge-base built using Git repository version control and plain-text Markdown. Establishes the organizational structures needed to run rapid note-taking workflows with low operational overhead.
+### SaaS Portals
 
-  - **(2024)** [**guides.github.com: Markdown Cheat Sheet 2**](https://docs.github.com/en) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The authoritative documentation portal for GitHub, offering deep-dives into GitHub Flavored Markdown (GFM) and integration patterns. It outlines security implications, task lists, and interactive rendering rules. Double-Evidence: While a generic entry point, live grounding confirms this repository of guides is the primary reference for understanding platform-specific rendering behaviors on the GitHub UI.
-  - **(2022)** [**github.blog: Include diagrams in your Markdown files with Mermaid**](https://github.blog/developer-skills/github/include-diagrams-markdown-files-mermaid) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Announcement and engineering guide detailing GitHub's native support for Mermaid.js diagrams directly within Markdown. Enables the declarative creation of flowcharts, sequence diagrams, and architecture maps in plain text. Double-Evidence: Moving from static image uploads to text-based diagram rendering, live grounding highlights this feature as a massive advancement for keeping software architecture diagrams in sync with code updates via Git.
-  - [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An interactive, web-based tool designed to simplify the creation, styling, and formatting of complex Markdown tables. It supports imports from CSV or Excel, reducing manual syntax alignment overhead. Double-Evidence: A staple utility for technical writers; live grounding confirms its status as a critical efficiency booster for maintaining clean, readable tabular data in Markdown-based documents.
-  - [markdownguide.org](https://www.markdownguide.org)  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An exhaustive reference guide covering the syntax, best practices, and extended features of the Markdown markup language. It provides clear examples of basic syntax, extended elements, and compatibility matrices across parsers. Double-Evidence: This guide serves as the authoritative standard for syntax validation, and live grounding shows it is widely integrated into onboarding resources for junior developers and technical writers globally.
-  - [Markdown Cheat Sheet 4](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) <span class='md-tag md-tag--info'>⭐ 60200</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — One of the most referenced cheat sheets on GitHub for fast, offline-compatible Markdown syntax lookups. Includes rendering comparisons for basic elements, blockquotes, code blocks, and inline HTML. Double-Evidence: Despite its age, live grounding confirms its massive utility and continued reference value in developer wikis, representing a classic standard for text formatting.
-  - [opensource.com: An introduction to Markdown](https://opensource.com/article/19/9/introduction-markdown)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational article outlining the philosophy and implementation of Markdown as an open-source plain-text formatting syntax. It highlights the productivity gains of writing in readable text without GUI editor lock-in. Double-Evidence: This guide advocates for standard open documentation formats, and live grounding demonstrates its usefulness for onboarding team members transitioning to modern plain-text documentation workflows.
-  - [readme.so](https://readme.so)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An interactive, visual editor designed to structure README files rapidly. Users can drag and drop pre-configured sections (e.g., Installation, API Reference, Badges) and edit them in real-time. Double-Evidence: Designed to simplify project landing pages, live grounding validates readme.so as an essential productivity tool that significantly improves repository discoverability and onboarding quality.
-  - [github.com/Ileriayo/markdown-badges: Markdown Badges](https://github.com/Ileriayo/markdown-badges) <span class='md-tag md-tag--info'>⭐ 16607</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive curated catalog of dynamic, consistent, and beautiful SVG shields and badges for GitHub repositories. It supports a wide array of languages, frameworks, cloud providers, and developer tools. Double-Evidence: The catalog provides standardized visual signifiers; live grounding confirms it is standard practice for enriching project READMEs to present structured metadata about technologies and CI status.
-## Data Science and AI
+#### GitBook
 
-### Scientific Computing
+  - **(2026)** [gitbook.com](https://www.gitbook.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main portal for GitBook, a cloud SaaS platform designed for high-performance team knowledge bases and collaborative API hubs. Bridges the gap between git-based developers and non-technical document writers with live bi-directional sync tools.
+### Static Site Generators
 
-#### Computational Notebooks
+#### Access Security
 
-  - [r-bloggers.com: How to use R Markdown (part one)](https://www.r-bloggers.com/2022/02/how-to-use-r-markdown-part-one)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory tutorial on R Markdown, illustrating how to combine executable R code blocks with narrative text to generate reproducible, high-quality analytical reports. Explores output compilation into HTML, PDF, and MS Word. Double-Evidence: While tailored to statistics, live grounding highlights R Markdown's critical role in reproducible research, data engineering pipelines, and programmatic executive report generation.
-## Infrastructure
+  - **(2021)** [Access control for GitHub Pages](https://github.blog/changelog/2021-01-21-access-control-for-github-pages)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Release details for managing fine-grained access authentication layers on top of hosted GitHub Pages sites. Solves critical compliance requirements for enterprise teams wanting to utilize cost-effective static hosting pipelines for sensitive internal technical guides.
+#### Build Troubleshooting
 
-### OpenShift
+  - **(2021)** [dev.to: How to View Build Logs for GitHub Pages](https://dev.to/github/visualize-github-pages-build-logs-1mc1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An operations guide detailing how to inspect, analyze, and troubleshoot build logs for site deployments within GitHub Pages pipelines. Highly valuable for debugging custom Jekyll configurations, missing node dependencies, or YAML syntax errors.
+#### Case Study
 
-#### Networking
+  - **(2026)** [websites that use MkDocs](https://www.wappalyzer.com/technologies/documentation-tools/mkdocs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Wappalyzer's web-telemetry tracking the enterprise-scale adoption of the MkDocs engine. It demonstrates that the 'Docs-as-Code' model has captured a massive share of internal and external API reference portals, proving that engineering teams prefer version-controlled Markdown over traditional SaaS wikis.
+#### Docsify Hosting
 
-  - **(2021)** [Using Third Party Network Operators with OpenShift](https://app.gitbook.com/o/-LbOdudvkdYwKCQYAHS8/s/RrlyoCHlF8LNFTvw74mT) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the integration of external, non-default network operators and custom network plugins within the OpenShift cluster lifecycle management framework.
+  - **(2020)** [opensource.com: How to create a documentation site with Docsify and GitHub Pages](https://opensource.com/article/20/7/docsify-github-pages) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A tutorial explaining how to build light, dynamic document systems using Docsify on GitHub Pages. Contrasts static compilers with Docsify's model, which parses Markdown files dynamically in the browser without build compile loops, offering zero-setup developer portals.
+#### Jekyll
+
+  - **(2021)** [opensource.com: Build your website with Jekyll](https://opensource.com/article/21/9/build-website-jekyll) <span class='md-tag md-tag--warning'>[RUBY CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical guide outlining how to design, customize, and publish responsive websites using Jekyll, the Ruby-based static site compiler. Details Liquid template structures, metadata variables, and seamless integrations with default GitHub Pages pipelines.
+#### MkDocs
+
+  - **(2026)** [MkDocs](https://www.mkdocs.org) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The home of the MkDocs static site generator, a highly extensible Python-based system built specifically for developer documentation compiled from Markdown. It supports continuous integration workflows perfectly, rendering light, lightning-fast static assets optimized for standard search engine indexing.
+#### MkDocs Themes
+
+  - **(2026)** [Material for MkDocs](https://squidfunk.github.io/mkdocs-material) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The documentation portal for Material for MkDocs, the industry-standard UI layout for engineering document sites. Highlights integrated site search, dark-mode styling, responsive navigation layouts, and rich plugin customization features. In 2026, it is the standard base for global developer portals.
+#### Static Hosting (1)
+
+  - **(2026)** [pages.github.com](https://pages.github.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A static site hosting service offered directly by GitHub that takes HTML, CSS, and JavaScript files straight from a repository. The primary deployment target for documentation sites, live grounding confirms GitHub Pages remains the most integrated, reliable, and cost-effective hosting layer.
+### Writing Tools
+
+#### Diagrams as Code
+
+  - **(2022)** [github.blog: Include diagrams in your Markdown files with Mermaid](https://github.blog/developer-skills/github/include-diagrams-markdown-files-mermaid)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Announcement of the native integration of Mermaid.js rendering directly inside GitHub repository Markdown parsers. Enables platform teams to compile architectures, flowcharts, and sequence diagrams programmatically using simple text syntax inside Git documentation files.
+#### Documentation Libraries
+
+  - **(2021)** [freecodecamp.org: Documentation Libraries to Help You Write Good Docs](https://www.freecodecamp.org/news/documentation-libraries-to-help-you-write-good-docs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical directory detailing various open-source platforms and styling systems built specifically for drafting great software documentation. Evaluates and compares structures like Docusaurus, MkDocs, and VuePress to guide project teams.
+#### Interactive Readmes
+
+  - **(2026)** [readme.so](https://readme.so) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive, web-based visual generator allowing developers to compose clean, formatted repository README files using drag-and-drop structural elements. Streamlines onboarding and standardizes presentation layouts across open-source initiatives.
+#### Markdown Reference
+
+  - **(2019)** [opensource.com: An introduction to Markdown](https://opensource.com/article/19/9/introduction-markdown)  <span class='md-tag md-tag--info'>[LEGACY]</span> — An early introduction detailing why open-source projects adopt Markdown over legacy visual editors. Emphasizes parsing efficiency, cross-platform compatibility, and the ease of managing text-based version control in git workflows.
+#### Markdown Utilities
+
+  - **(2026)** [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An essential web utility for programmatically building, editing, and converting complex data tables into clean Markdown code block matrices. Dramatically reduces manual formatting pain points for technical writers and catalog builders globally.
+#### Metadata Badges
+
+  - **(2026)** [==github.com/Ileriayo/markdown-badges: Markdown Badges==](https://github.com/Ileriayo/markdown-badges) <span class='md-tag md-tag--info'>⭐ 16697</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive curated catalog of dynamic, consistent, and beautiful SVG shields and badges for GitHub repositories. It supports a wide array of languages, frameworks, cloud providers, and developer tools. Live grounding confirms it is standard practice for enriching project READMEs.
+#### WYSIWYG Integrations
+
+  - **(2022)** [theverge.com: Google Docs is getting more Markdown support](https://www.theverge.com/2022/3/29/23002138/google-docs-markdown-support-formatting-update)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry report covering the expansion of native Markdown auto-formatting support in Google Docs. Signals the increasing migration of engineering documentation workflows into mainstream, corporate office applications, bridging the gap between developers and business analysts.
+  - **(2022)** [popsci.com: Google’s expanded Markdown feature could change how you work](https://www.popsci.com/diy/use-markdown-google)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical exploration of Google's Markdown shortcut updates. Details productivity benefits for technical writers who need to seamlessly transition text-based formats between IDE files and collaborative company workspaces.
+#### Web Editors
+
+  - **(2020)** [dev.to: How we made the __markdown toolbar__](https://dev.to/devteam/how-we-made-the-markdown-toolbar-4f09) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep developer retrospective explaining how the Forem engineering team built their optimized web markdown toolbar. Explores UI/UX constraints, raw JS selection insertion techniques, and accessibility-compliant inputs. Highly valuable for front-end platform architects building internal developer tools.
+## Software Development
+
+### Documentation Tools
+
+#### Markdown
+
+  - **(2026)** [==Markdown Cheat Sheet 4==](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) <span class='md-tag md-tag--info'>⭐ 60213</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — One of the most starred and utilized Markdown references on GitHub. Curator Insight emphasizes its extreme offline utility. Live Grounding validates its legacy status as the primary standard for formatting across modern source code platforms.
+  - **(2026)** [markdownguide.org](https://www.markdownguide.org) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The definitive platform-neutral guide to standard and extended Markdown syntax. Curator Insight praises its simplicity. Live Grounding proves its continued necessity as the absolute standard for project readme documentation.
+## Software Engineering
+
+### Documentation
+
+#### Markup Languages
+
+  - **(2026)** [**guides.github.com: Markdown Cheat Sheet 2**](https://docs.github.com/en) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The authoritative reference guide for GitHub Flavored Markdown (GFM). Essential for managing documentation structures, creating rich README files, formatting issue trackers, and building interactive templates within the developer workflow.
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Cheatsheets](./cheatsheets.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
 

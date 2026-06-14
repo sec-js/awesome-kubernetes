@@ -6,7 +6,6 @@
 ## Standard Reference
 
   - [help.sonatype.com: Inbound SSL - Configuring to Serve Content via HTTPS](https://help.sonatype.com/en/sonatype-nexus-repository.html/security/configuring-ssl?_ga=2.250230211.411976214.1575978022-1513910029.1575978022#ConfiguringSSL-InboundSSL-ConfiguringtoServeContentviaHTTPS)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [projectquay.io](https://www.projectquay.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone refcard: Using Repository Managers](https://dzone.com/refcardz/binary-repository-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [docs.openshift.com: Integrated OpenShift Container Platform registry](https://docs.openshift.com/container-platform/4.8/registry/architecture-component-imageregistry.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone: Getting started with Nexus](https://dzone.com/articles/getting-started-nexus-maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -19,118 +18,113 @@
   - [freesoft.dev: Ansible Role: Harbor API Codifying](https://freesoft.dev/program/126957220)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/swlh: Deploy Your Private Docker Registry as a Pod in Kubernetes](https://medium.com/swlh/deploy-your-private-docker-registry-as-a-pod-in-kubernetes-f6a489bf0180)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## CI-CD Pipelines
+## Artifact Management
 
-### Jenkins Ecosystem
+### Package Repositories
 
-#### Video Tutorials
+#### JFrog Artifactory
 
-  - [youtube: Jenkins Integration with Nexus](https://www.youtube.com/watch?v=qbO4MTESiJQ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A video guide showing integration steps for building Jenkins jobs and storing artifacts into a target Sonatype Nexus server repository.
-  - [youtube: uploading artifacts from jenkins to nexus](https://www.youtube.com/watch?v=7NmGSnqLd58)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A hands-on video tutorial showing Maven-based Jenkins builds pushing compilation outputs and binary distributions into local Nexus environments.
-## Career Development
+  - **(2026)** [JFrog Container Registry](https://jfrog.com/container-registry) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on the dedicated, free-tier edition of JFrog Container Registry built specifically for Docker, Helm, and OCI image curation. Powered by Artifactory engine mechanics, it delivers high performance and local caching. It offers a solid starting registry for developers transitioning to robust artifact tracking.
+  - **(2021)** [JFrog Artifactory: Your Kubernetes Registry](https://jfrog.com/blog/jfrog-artifactory-kubernetes-registry) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed platform landing page showing how JFrog Artifactory serves as an enterprise-grade Kubernetes container registry. It highlights native support for helm charts, secure repository proxies, and geographical cluster mirroring. This product is a leading commercial solution for robust software artifact management.
+  - **(2021)** [jfrog.com: What Artifactory as your kubernetes docker registry means to you](https://jfrog.com/integrations/kubernetes-docker-registry) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores technical benefits of leveraging JFrog Artifactory as a Kubernetes-native registry, detailing how its universal binary repository engine supports multiple environments simultaneously. It covers secure image scanning, remote repository proxy configuration, and integration with Kubernetes cluster pull secrets. This guide assists architects in scaling their application runtimes securely.
+#### JFrog Best Practices
 
-### Industry Trends
+  - **(2021)** [The JFrog journey to kubernetes: best practices for taking your containers all the way to production](https://jfrog.com/whitepaper/the-jfrog-journey-to-kubernetes-best-practices-for-taking-your-containers-all-the-way-to-production) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural whitepaper addressing modern methodologies and challenges when transitioning containerized systems from development to Kubernetes production. It explores concepts such as immutable builds, metadata tagging, and geo-replication of artifact registries. An essential document for platform architects planning large-scale rollouts.
+#### Nexus
 
-#### Market Analysis
+  - **(2026)** [sonatype.com/nexus-repository-oss](https://www.sonatype.com/products/sonatype-nexus-repository) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Homepage for Sonatype Nexus Repository OSS, a leading artifact repository manager supporting diverse formats including Maven, npm, Docker, and PyPI. It provides developer platforms with a unified proxy, host, and group layout for secure software development life cycles. As a critical component of CI/CD toolchains, it prevents localized build failures by caching public dependencies.
+  - **(2026)** [Nexus Repository Manager (NXRM) 3 🌟](https://help.sonatype.com/en/sonatype-nexus-repository.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive technical documentation for Sonatype Nexus Repository Manager 3 (NXRM3), covering setup, configuration, API utilization, and integration hooks. It detail operations for configuring high-volume artifact staging, blob store provisioning, and granular security role configurations. It acts as the primary reference manual for platform and security engineering teams implementing modern repository topologies.
+#### Nexus Automation
 
-  - [seekingalpha.com: JFrog Reminds Me Of MongoDB](https://seekingalpha.com/article/4427517-jfrog-reminds-me-of-mongodb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A financial market study of JFrog's business model and growth strategy, drawing comparisons to MongoDB's database model and developer adoption lifecycle.
-## Cloud Native Security and Artifact Management
+  - **(2021)** [==github.com/samrocketman/nexus3-config-as-code==](https://github.com/samrocketman/nexus3-config-as-code) <span class='md-tag md-tag--info'>⭐ 62</span> <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A declarative Groovy-scripted configuration-as-code bootstrap utility designed for automating Sonatype Nexus 3 settings. Live grounding shows this repository has been unmaintained for over four years. While serving as an architectural blueprint for programmatic configuration management, modern operators have largely replaced direct scripting.
+#### Nexus Community
 
-### Container Registry
+  - **(2026)** [Sonatype Nexus Community 🌟](https://github.com/sonatype-nexus-community) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The primary ecosystem landing organization for third-party integrations, developer plugins, and extension scripts built around Sonatype Nexus. It serves as a decentralized catalog of community resources. While containing many unmaintained or vintage projects, it represents an outstanding archival codebase for custom integrations.
+#### Nexus Configuration
 
-#### Deployment Guides
+  - **(2019)** [blog.sonatype.com: Using Nexus 3 as Your Repository – Part 3: Docker Images 🌟](https://www.sonatype.com/blog/using-sonatype-nexus-repository-3-part-3-docker-images) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical blog post detailing the step-by-step setup of Sonatype Nexus 3 as a private Docker registry. It covers the creation of hosted, proxy, and group Docker repositories to control and optimize image distribution pipelines. The article explains port allocation strategies and security context mechanisms essential for registry configuration.
+#### Nexus Integrations
 
-  - [goharbor.io: Deploy Harbor with the Quick Installation Script](https://goharbor.io/docs/2.0.0/install-config/quick-install-script) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Official quick-start deployment guide describing the automated script installation pipeline for Harbor. It provides developers and sandbox operators with rapid local provisioning using Docker and Docker Compose.
+  - **(2020)** [==Sonatype Nexus Community: Nexus Kubernetes OpenShift 🌟==](https://github.com/sonatype-nexus-community/nexus-kubernetes-openshift) <span class='md-tag md-tag--info'>⭐ 8</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A community-driven GitHub repository containing Helm charts and manifest configurations designed to deploy Sonatype Nexus in OpenShift environments. Live grounding confirms this repository has been unmaintained for several years and is now marked legacy. Modern deployments should prioritize official Helm charts from the mainstream Sonatype organization for production use.
+  - **(2018)** [==github.com/cinhtau/sonatype-nexus-waffle==](https://github.com/cinhtau/sonatype-nexus-waffle) <span class='md-tag md-tag--info'>⭐ 6</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An archived community plugin targeting Windows Active Directory single sign-on (SSO) authentication within Sonatype Nexus. Live grounding confirms it is obsolete, unmaintained, and legacy. Useful primarily as vintage integration code, modern Nexus deployments utilize modern OIDC and LDAP endpoints.
+#### Nexus Operations
+
+  - **(2019)** [hackermoon.com: cleanup old docker images from nexus repository](https://hackernoon.com/cleanup-old-docker-images-from-nexus-repository-617b1004dad8) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Explores operational strategies and garbage collection scripts to prune legacy and unused container images from Sonatype Nexus repository databases. Over time, registry storage can bloat; this guide addresses cleanup tasks and configuration of scheduled maintenance tasks. It provides shell commands and API calls to maintain underlying storage health.
+#### Nexus Tooling
+
+  - **(2020)** [==GitHub: Nexus-CLI==](https://github.com/mlabouardy/nexus-cli) <span class='md-tag md-tag--info'>⭐ 294</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A command-line interface tool written in Go to interact with and manage Nexus repositories. Real-world grounding shows this repository has had no active maintenance in over four years, pointing to a legacy project. Platform operators should pivot to using official Nexus APIs or modern alternative tooling.
+  - **(2020)** [nexus3-cli.readthedocs.io](https://nexus3-cli.readthedocs.io/en/latest) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Documentation portal for a Python-based third-party CLI wrapper targeting Sonatype Nexus 3 APIs. It outlines tasks such as repository setup, user configuration, and image manipulation via CLI scripts. Given modern orchestration shifts toward native declarative operators, this CLI library has transitioned into a legacy tool.
+#### Nexus Tutorials
+
+  - **(2021)** [Devopscube.com: Setup Nexus Kubernetes 🌟](https://devopscube.com/setup-nexus-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed walk-through detailing how to install and configure Sonatype Nexus Repository Manager on a Kubernetes cluster. It breaks down persistent volume claims (PVCs), service exposes, and deployment manifest constructs. The guide simplifies the process of establishing a self-managed, centralized artifact cache on top of cloud-native infrastructure.
+## CICD Pipeline
+
+### Integration Tutorials
+
+#### Jenkins and Nexus
+
+  - **(2020)** [youtube: Jenkins Integration with Nexus](https://www.youtube.com/watch?v=qbO4MTESiJQ) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Video tutorial focusing on the integration of Jenkins CI servers with Sonatype Nexus Repository Manager. It explains plugin configurations, build step triggers, and authentication variables needed to securely push builds to repository hosts. This resource offers a visual walk-through of pipeline configurations.
+  - **(2020)** [youtube: uploading artifacts from jenkins to nexus](https://www.youtube.com/watch?v=7NmGSnqLd58) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Video tutorial demonstrating standard techniques for configuring Maven, Gradle, or shell scripts inside Jenkins pipelines to automate artifact delivery to Nexus targets. It details credential management and pipeline syntax. Perfect for developers transitioning from manual delivery configurations to pipeline-managed deliveries.
+### OpenShift and JFrog
+
+#### DevOps Integrations
+
+  - **(2020)** [openshift.com: Using JFrog's Artifactory and Red Hat OpenShift Together](https://www.redhat.com/en/blog/18333-2) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical tutorial demonstrating practical steps to configure and run JFrog Artifactory on Red Hat OpenShift container clusters. It guides platform engineers through deployment steps, operator configuration, and cluster-wide pull authorization parameters. It focuses on validating container origin trust within regulated enterprise clusters.
+## Container Management
+
+### Docker Security
+
+#### Insecure Registries
+
+  - **(2020)** [==Configure Docker Service To Use Insecure Registry==](https://github.com/Juniper/contrail-docker/wiki/Configure-docker-service-to-use-insecure-registry) <span class='md-tag md-tag--info'>⭐ 48</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A legacy wiki repository explaining systems-level configurations required to allow the Docker daemon to communicate with insecure, self-hosted registries. It highlights modification of systemd services and the daemon.json config file. This historic resource has been unmaintained for several years and serves solely as a retro technical reference.
+  - **(2018)** [Running an insecure registry –insecure-registry](https://forums.docker.com/t/running-an-insecure-registry-insecure-registry/8159) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Community forum thread detailing user-submitted troubleshooting tips and configuration overrides for the `--insecure-registry` docker daemon parameter. This historical Q&A addresses common handshake and certificate mapping issues during registry prototyping. Modern security postures mandate avoiding insecure setups in production environments.
+### P2P Container Distribution
+
+#### Kraken
+
+  - **(2024)** [==uber/kraken==](https://github.com/uber/kraken) <span class='md-tag md-tag--info'>⭐ 6699</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Uber's peer-to-peer (P2P) Docker registry designed for ultra-high-throughput image distribution in highly distributed, large-scale container cluster environments. Real-world grounding shows this project is archived and legacy, with the industry shifting toward CNCF Dragonfly. It remains a historical reference for complex peer-to-peer registry orchestration patterns.
+## DevOps Platform Choices
+
+### DevOps Comparison
+
+#### GitHub vs JFrog
+
+  - **(2022)** [jfrog.com: GitHub vs JFrog: Who Can do the Job for DevOps?](https://jfrog.com/blog/github-vs-jfrog-who-can-do-the-job-for-devops) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative analysis evaluating the technical capabilities, package registry performance, and CI/CD tools of GitHub (Actions and Packages) versus JFrog's dedicated artifact management ecosystem. It highlights differences in granular access, performance scalability, and enterprise regulatory support. The article advises when to rely on a hybrid model or dedicated artifact platform.
+## Infrastructure Security
+
+### Container Registries
+
 #### Harbor
 
-  - [Harbor](https://goharbor.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — CNCF-graduated enterprise-grade registry that secures cloud-native artifacts with role-based access control, vulnerability scanning, and cryptographic signing. It serves as a central hub for microservice images, offering high-throughput image replication and multi-tenant capabilities.
-#### P2P Distribution
+  - **(2026)** [Harbor](https://goharbor.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Harbor is a CNCF Graduated, enterprise-class container registry that secures artifacts with role-based access control, vulnerability scanning (via Trivy), and cryptographic image signing (via Cosign/Notary). It provides multi-tenant capabilities, geographic replication, and advanced audit logging. As a de facto standard for private cloud registries, it is highly adopted globally.
+#### Harbor Automation
 
-  - [uber/kraken](https://github.com/uber/kraken) <span class='md-tag md-tag--info'>⭐ 6692</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Uber's open-source peer-to-peer (P2P) Docker registry designed for ultra-high-throughput image distribution in massive clusters. Although highly optimized, it is largely archived in favor of CNCF Dragonfly.
-## Enterprise Kubernetes
+  - **(2021)** [==nicholasamorim/ansible-role-harbor==](https://github.com/nicholasamorim/ansible-role-harbor) <span class='md-tag md-tag--info'>⭐ 26</span> <span class='md-tag md-tag--warning'>[YML CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An Ansible role built to deploy and configure Harbor container registries on virtual machine hosts. Real-world grounding shows this project is unmaintained, reflecting a classic VM-centric infrastructure-as-code deployment pattern. Modern container-centric deployments strongly favor Kubernetes-native Helm-based installation paths.
+  - **(2020)** [galaxy.ansible.com/mkgin/vmware-harbor](https://galaxy.ansible.com/mkgin/vmware-harbor) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — An Ansible Galaxy integration hub targeting VMware's deployment instances of the Harbor container registry. This legacy role is built for deploying VM-hosted registries. Modern engineering workflows prioritize containerized cluster deployments instead of Ansible-orchestrated VM-level Harbor runtimes.
+  - **(2019)** [mramanathan/ansible-harbor](https://github.com/mramanathan/ansible-harbor) <span class='md-tag md-tag--warning'>[YML CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A legacy, inactive Ansible playbook repository configured to deploy a Harbor instance. Real-world grounding confirms zero recent updates, classifying it as obsolete. Platform engineers are encouraged to reference standard, actively maintained Kubernetes operator resources or Helm charts instead.
+#### Harbor Installation
 
-### Red Hat OpenShift
+  - **(2021)** [goharbor.io: Deploy Harbor with the Quick Installation Script](https://goharbor.io/docs/2.0.0/install-config/quick-install-script) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step instructions for deploying a Harbor container registry instance quickly using an automated install script. This setup is highly suited for developer local environments, evaluations, and rapid proof-of-concept deployments. In production environments, enterprise-ready architectures should use the official Harbor Helm Chart instead.
+#### Project Quay
 
-#### CI-CD Pipelines (1)
+  - **(2026)** [github.com/quay](https://github.com/quay) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The master GitHub organization for Project Quay, hosting core engines, the Clair container vulnerability scanner, deployment operators, and custom storage connectors. This collective ecosystem delivers advanced container management utilities designed for high-availability environments. It represents the central technical repository for self-hosted, enterprise-ready image registries.
+#### Quay Licensing
 
-  - **(2020)** [openshift.com: Using JFrog's Artifactory and Red Hat OpenShift Together](https://www.redhat.com/en/blog/18333-2) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural guide detailing integrations between JFrog Artifactory and Red Hat OpenShift, showing how to coordinate secure, automated image promotion paths.
-#### Image Management
+  - **(2019)** [Quay 3.1 Certified Operator is not available in Openshift and must be purchased](https://www.redhat.com/en/technologies/cloud-computing/quay) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Historical reference regarding the commercial positioning and purchasing models of the Red Hat Quay 3.1 Certified Operator within OpenShift ecosystems. While previously highlighting commercial limitations, modern OpenShift ecosystems have integrated operators and community Project Quay alternatives smoothly. This documentation is legacy, detailing enterprise licensing landscapes of the 2019 era.
+#### Quay Operators
 
-  - [cloudowski.com: Openshift ImageStreams](https://cloudowski.com/articles/why-managing-container-images-on-openshift-is-better-than-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical architectural review contrasting OpenShift ImageStreams with standard Kubernetes container registry integrations. It explains how ImageStreams abstract container images and automate rolling deployments on build mutations.
-## Infrastructure Standards
+  - **(2026)** [==Quay Community Edition operator==](https://github.com/quay/quay-operator) <span class='md-tag md-tag--info'>⭐ 145</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official Kubernetes Operator designed to automate the lifecycle, database migrations, and SSL termination of Project Quay registries inside OpenShift and Kubernetes clusters. It handles storage setup, migration tracks, and configuration synchronization natively. Utilizing this operator dramatically reduces the operational overhead of running high-availability registry setups.
+#### Quay Releases
 
-### Artifact Registry
+  - **(2019)** [Quay 3.0 released in May 2019](https://www.redhat.com/en/blog/introducing-red-hat-quay-3-registry-your-linux-and-windows-containers) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Announcement documentation marking the release of Red Hat Quay 3.0, introducing Windows Container support and a multi-architecture architecture overhaul. This release solidified Quay's capability to orchestrate high-availability registries across diverse operating system nodes. While conceptually informative, it is categorized as legacy given the continuous evolutionary releases of the v3.x and v4.x lineages in modern production.
+## Market and Strategy
 
-#### Best Practices
+### DevOps Platforms
 
-  - [The JFrog journey to kubernetes: best practices for taking your containers' all the way to production](https://jfrog.com/whitepaper/the-jfrog-journey-to-kubernetes-best-practices-for-taking-your-containers-all-the-way-to-production)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed whitepaper detailing strategies for transitioning binaries safely into Kubernetes environments, highlighting JFrog's best practices for container staging.
-#### CLI Utilities
+#### JFrog Strategy
 
-  - **(2026)** [nexus3-cli.readthedocs.io](https://nexus3-cli.readthedocs.io/en/latest) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Documentation site for Python-based command-line utilities built to interface with Nexus 3 APIs. It simplifies batch tasks and permissions reporting.
-  - [GitHub: Nexus-CLI](https://github.com/mlabouardy/nexus-cli) <span class='md-tag md-tag--info'>⭐ 294</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A custom command-line interface helper for managing Nexus repository clusters, written in Go. The repository is unmaintained with no commit activity in over four years.
-#### DevOps Guides
-
-  - [Devopscube.com: Setup Nexus Kubernetes 🌟](https://devopscube.com/setup-nexus-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly practical step-by-step installation guide demonstrating how to provision Sonatype Nexus on a Kubernetes cluster. It covers configuration for Persistent Volumes, persistent claims, and ingress routing.
-#### Enterprise Kubernetes (1)
-
-  - [Sonatype Nexus Community: Nexus Kubernetes OpenShift 🌟](https://github.com/sonatype-nexus-community/nexus-kubernetes-openshift) <span class='md-tag md-tag--info'>⭐ 8</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A community-supported project featuring Helm charts and YAML manifests to deploy Sonatype Nexus in OpenShift and standard Kubernetes. Currently marked as legacy due to over four years of inactivity.
-#### Enterprise Platforms
-
-  - **(2026)** [**sonatype.com/nexus-repository-oss**](https://www.sonatype.com/products/sonatype-nexus-repository) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The main landing page for Sonatype Nexus Repository Manager, a universal artifact engine supporting major formats including npm, PyPI, Maven, and OCI containers. It plays a critical role in secure software supply chains.
-  - **(2026)** [**Nexus Repository Manager (NXRM) 3 🌟**](https://help.sonatype.com/en/sonatype-nexus-repository.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Official comprehensive documentation for Sonatype Nexus Repository Manager 3, providing deployment, backup, migration, and clustering guidelines for enterprise system administrators.
-  - **(2022)** [jfrog.com: What Artifactory as your kubernetes docker registry means to you](https://jfrog.com/integrations/kubernetes-docker-registry) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exploration of JFrog Artifactory's role as a local Kubernetes Docker registry proxy, showing how it minimizes deployment latency and manages external registry rate limits.
-  - [JFrog Artifactory: Your Kubernetes Registry](https://jfrog.com/blog/jfrog-artifactory-kubernetes-registry)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep technical article showing how JFrog Artifactory works as a high-density Kubernetes-integrated OCI registry with caching and security protections.
-#### Industry Trends (1)
-
-  - [jfrog.com: GitHub vs JFrog: Who Can do the Job for DevOps?](https://jfrog.com/blog/github-vs-jfrog-who-can-do-the-job-for-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed product comparison of GitHub Packages and JFrog Artifactory, contrasting binary registry performance limits, metadata depth, and enterprise scaling models.
-#### Infrastructure as Code
-
-  - [github.com/samrocketman/nexus3-config-as-code](https://github.com/samrocketman/nexus3-config-as-code) <span class='md-tag md-tag--info'>⭐ 62</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A declarative configuration-as-code utility for bootstrapping Nexus 3 configurations, utilizing Groovy scripting. Unmaintained for over four years and marked as legacy.
-#### Legacy Resources
-
-  - [github.com/cinhtau/sonatype-nexus-waffle](https://github.com/cinhtau/sonatype-nexus-waffle) <span class='md-tag md-tag--info'>⭐ 6</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An archive project that integrates Nexus authentication with Active Directory. It is inactive and obsolete, retained purely for vintage reference purposes.
-#### Open Source Initiatives
-
-  - [Sonatype Nexus Community 🌟](https://github.com/sonatype-nexus-community) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The master community hub containing third-party integrations, developer plugins, and configuration scripts targeting the Sonatype Nexus software ecosystem.
-### Container Registry (1)
-
-#### Artifact Registry (1)
-
-  - **(2021)** [blog.sonatype.com: Using Nexus 3 as Your Repository – Part 3: Docker Images 🌟](https://www.sonatype.com/blog/using-sonatype-nexus-repository-3-part-3-docker-images) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The third segment in Sonatype's setup series, illustrating container hosting paradigms, private Docker registry configurations, and the setup of secure local proxy repositories.
-#### Configuration Guides
-
-  - [Configure Docker Service To Use Insecure Registry](https://github.com/Juniper/contrail-docker/wiki/Configure-docker-service-to-use-insecure-registry) <span class='md-tag md-tag--info'>⭐ 48</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A historic wiki page detailing Docker daemon changes needed to whitelist unencrypted private registries. It is classified as legacy due to lack of commits in more than four years.
-  - [Running an insecure registry –insecure-registry](https://forums.docker.com/t/running-an-insecure-registry-insecure-registry/8159)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A classic Docker community forum discussion focusing on troubleshooting local TLS handshake issues when executing push operations to local registry endpoints.
-#### Enterprise Platforms (1)
-
-  - **(2022)** [Quay 3.1 Certified Operator is not available in Openshift and must be purchased](https://www.redhat.com/en/technologies/cloud-computing/quay) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An official overview of Red Hat Quay subscription models, outlining security policies, vulnerability scanning integrations, and platform scaling mechanisms for multi-cluster enterprise deployments.
-  - [Quay.io](https://quay.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly secure, enterprise-ready container registry platform providing advanced geo-replication, vulnerability scanning via Clair, and multi-tenant authentication patterns. It integrates natively with Red Hat ecosystem tooling.
-  - [JFrog Container Registry](https://jfrog.com/container-registry)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Enterprise landing page for JFrog's Container Registry, showing support for Helm, Docker, and OCI specifications with high-availability clustering and build-of-materials reporting.
-#### Kubernetes Operators
-
-  - **(2024)** [Quay Community Edition operator](https://github.com/quay/quay-operator) <span class='md-tag md-tag--info'>⭐ 143</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official Kubernetes Operator for deploying and managing the life cycle of Project Quay registries. It automates storage setup, database migrations, and SSL termination within OpenShift and OKD clusters.
-#### Maintenance Scripts
-
-  - [hackermoon.com: cleanup old docker images from nexus repository](https://hackernoon.com/cleanup-old-docker-images-from-nexus-repository-617b1004dad8)  <span class='md-tag md-tag--info'>[LEGACY]</span> — A guide on managing storage allocations in Nexus Repository Manager by automating the deletion of legacy Docker image tags. It outlines task scheduler configurations and artifact purging tasks.
-#### Open Source Initiatives (1)
-
-  - [Red Hat Introduces open source Project Quay container registry](https://www.redhat.com/en/blog/red-hat-introduces-open-source-project-quay-container-registry)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A historical press release from Red Hat explaining the architectural transition and open-sourcing of Project Quay, detailing its integration into standard enterprise container management stacks.
-  - [github.com/quay](https://github.com/quay) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The master GitHub organization for Project Quay, housing the enterprise registry engine, the Clair vulnerability scanner, the setup operators, and auxiliary storage backend connectors.
-#### Release Notes
-
-  - [Quay 3.0 released in May 2019](https://www.redhat.com/en/blog/introducing-red-hat-quay-3-registry-your-linux-and-windows-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official release documentation for Red Hat Quay 3.0. It highlights architectural additions including Windows Container support, a revamped UI, and improved multi-tenant namespace management.
-## Infrastructure as Code and Automation
-
-### Configuration Management
-
-#### Ansible
-
-  - [nicholasamorim/ansible-role-harbor](https://github.com/nicholasamorim/ansible-role-harbor) <span class='md-tag md-tag--info'>⭐ 26</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An Ansible role dedicated to provisioning and configuring Harbor. Due to limited recent maintenance, it serves primarily as a reference architecture for legacy automation projects.
-  - [mramanathan/ansible-harbor](https://github.com/mramanathan/ansible-harbor)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Legacy Ansible playbook for Harbor deployment orchestration. It lacks modern feature updates and is deprecated in favor of Kubernetes-native Helm-based deployments.
-#### VMware
-
-  - [galaxy.ansible.com/mkgin/vmware-harbor](https://galaxy.ansible.com/mkgin/vmware-harbor)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Ansible Galaxy role designed to install Harbor registries on VMware-based virtual infrastructure. It remains a historical reference but has been surpassed by containerized approaches.
+  - **(2021)** [seekingalpha.com: JFrog Reminds Me Of MongoDB](https://seekingalpha.com/article/4427517-jfrog-reminds-me-of-mongodb) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An external market analysis tracing JFrog's economic trajectory and product adoption patterns, comparing its position in the DevOps ecosystem to MongoDB's disruptive influence in databases. It discusses developer adoption, platform consolidation, and commercial growth. The article presents a non-technical overview of JFrog's platform viability.
 
 ---
-💡 **Explore Related:** [Jenkins Alternatives](./jenkins-alternatives.md) | [Gitops](./gitops.md) | [CI/CD](./cicd.md)
+💡 **Explore Related:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md) | [Flux](./flux.md)
 

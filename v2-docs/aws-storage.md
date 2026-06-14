@@ -11,53 +11,90 @@
 
 ## Cloud Infrastructure
 
-### AWS Storage
+### Compute
 
-#### Amazon EBS
+#### AWS EC2
 
-  - [How to Build Sparse EBS Volumes for Fun and Easy Snapshotting](https://aws.amazon.com/blogs/apn/how-to-build-sparse-ebs-volumes-for-fun-and-easy-snapshotting) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced architectural post detailing how to create sparse files inside loop devices on EBS volumes to minimize storage footprints. Analyzes the financial and performance benefits of sparse block allocations during automated snapshots.
-  - [devopscube.com: How to Automate EBS Snapshot Creation, Retention and Deletion](https://devopscube.com/automate-ebs-snapshot-creation-deletion)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains various mechanisms for lifecycle management of AWS EBS snapshots. Covers automated configuration using Amazon DLM (Data Lifecycle Manager), custom Lambda functions, and AWS CLI scripts.
-  - [percona.com: Performance of Various EBS Storage Types in AWS](https://www.percona.com/blog/performance-of-various-ebs-storage-types-in-aws) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth performance analysis of EBS volume classes (gp2, gp3, io2, etc.) when hosting database engines. Contains IOPS benchmarking, throughput limits, and cost-efficiency matrices vital for database architects.
-  - [dev.to: Adding an EBS volume to a running AWS EC2 Instance](https://dev.to/aws-builders/adding-an-ebs-volume-to-a-running-aws-ec2-instance-311l)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A step-by-step tutorial on attaching, partition formatting (ext4/xfs), and mounting a new EBS volume onto an active Linux EC2 instance without triggering server downtime.
-#### Amazon EFS
+##### Storage Provisioning
 
-  - [EFS Elastic File System](https://aws.amazon.com/blogs/aws/amazon-elastic-file-system-production-ready-in-three-regions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The historic production-ready announcement of AWS Elastic File System (EFS). Establishes the core characteristics of shared NFS storage scaling dynamically for concurrent EC2/container instances.
-  - [Amazon Elastic File System triples read throughput](https://aws.amazon.com/about-aws/whats-new/2021/01/amazon-elastic-file-system-triples-read-throughput)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Announcement detailing architectural performance enhancements to AWS EFS. Details how the platform tripled read limits, providing immediate benefits to read-heavy workloads like distributed machine learning or CMS host arrays.
-  - [infoq.com: AWS Transfer Family Introduces Support for EFS](https://www.infoq.com/news/2021/01/aws-transfer-ftp-efs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reports on the strategic integration between AWS Transfer Family (SFTP/FTPS/FTP) and EFS. Enables developers to expose shared file systems securely directly to remote partners without managing SFTP instance clusters.
-#### Amazon S3
+  - **(2021)** [dev.to: Adding an EBS volume to a running AWS EC2 Instance](https://dev.to/aws-builders/adding-an-ebs-volume-to-a-running-aws-ec2-instance-311l) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical step-by-step guide on dynamically attaching and mounting an Elastic Block Store (EBS) volume to an active Linux EC2 instance. Covers the CLI/Console orchestration, filesystem creation, and mounting adjustments (via fstab) required to safely expand storage capacity without inducing instance downtime.
+### Data Integration
 
-  - **(2023)** [**blog.awsfundamentals.com: AWS S3 Sync - An Extensive Guide**](https://awsfundamentals.com/blog/aws-s3-sync) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A detailed, high-density guide on utilizing the aws s3 sync CLI command. Includes performance tuning parameters like concurrency configs, exclusion patterns, and handling large scales securely.
-  - **(2021)** [acloudguru.com: S3 Glacier Instant Retrieval deep dive: Which S3 Storage Class is right for me?](https://www.pluralsight.com/resources/blog/cloud/s3-glacier-instant-retrieval-deep-dive-which-s3-storage-class-is-right-for-me) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive into S3 Glacier Instant Retrieval, analyzing costs and access latency. Explains the strategic sweet spot of the tier for archival data that requires millisecond retrieval speeds without standard Glacier delays.
-  - [S3 FAQ](https://aws.amazon.com/s3/faqs) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official AWS documentation addressing technical details of Simple Storage Service (S3). Provides absolute specifications for consistency models, replication capabilities, access control lists, and durability guarantees.
-  - [cloudkatha.com: Is S3 Region Specific or Global? What do you think?](https://cloudkatha.com/is-s3-region-specific-or-global-what-do-you-think)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Clarifies the architectural paradox of Amazon S3's namespace being globally unique while data is stored physically in regional clusters. Details the implications on DNS, endpoint routing, and latency.
-  - [cloudkatha.com: This is why S3 Bucket Names are unique Globally](https://cloudkatha.com/why-s3-bucket-names-are-unique-globally)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the technical constraints under the hood that necessitate globally unique S3 bucket names. Outlines DNS mapping to S3 regional endpoints and the routing restrictions of the HTTP REST API.
-  - [cloudkatha.com: AWS S3 Storage Classes: Everything You Need to Know](https://cloudkatha.com/aws-s3-storage-classes-everything-you-need-to-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A complete comparative guide to S3 Storage Classes, detailing Standard, Intelligent-Tiering, Standard-IA, One Zone-IA, and Glacier options. Analyzes pricing structures, retrieval latency, and redundancy across availability zones.
-  - [A step-by-step guide to synchronize data between Amazon S3 buckets](https://aws.amazon.com/blogs/storage/a-step-by-step-guide-to-synchronize-data-between-amazon-s3-buckets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official AWS blog showing patterns for cross-bucket data synchronization. Compares the use of AWS CLI Sync, S3 Batch Operations, and S3 Same-Region / Cross-Region Replication (SRR/CRR) for diverse use cases.
-#### Analytics
+#### AWS Transfer Family
 
-  - [Monitor Amazon S3 activity using S3 server access logs and Pandas in Python](https://aws.amazon.com/blogs/storage/monitor-amazon-s3-activity-using-s3-server-access-logs-and-pandas-in-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Shows how to parse raw S3 access logs using Python and Pandas. Walks through identifying bad actors, evaluating storage patterns, and monitoring data transfer metrics for cost control.
-#### Hybrid Cloud
+  - **(2021)** [infoq.com: AWS Transfer Family Introduces Support for EFS](https://www.infoq.com/news/2021/01/aws-transfer-ftp-efs) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains the native integration between AWS Transfer Family (SFTP/FTPS/FTP) and Amazon Elastic File System (EFS). This architectural capability enables secure file exchanges directly from external trading partners into a managed, distributed NFS backend. It simplifies data ingestion pipelines and removes the administrative burden of running custom FTP gateway VMs.
+### Reliability Engineering
 
-  - [Connect Amazon S3 File Gateway using AWS PrivateLink for Amazon S3](https://aws.amazon.com/es/blogs/architecture/connect-amazon-s3-file-gateway-using-aws-privatelink-for-amazon-s3) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural post detailing how to establish a secure, private connection from on-premises Storage Gateways to S3 via AWS PrivateLink. Prevents traffic traversal over the public internet, satisfying rigorous enterprise compliance models.
-### High Availability
+#### Multi-Region Architectures
 
-#### Multi-Region
-
-  - [Building an active-active, latency-based application across multiple Regions 🌟](https://aws.amazon.com/blogs/storage/building-an-active-active-latency-based-application-across-multiple-regions) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An elite architectural blueprint for active-active multi-region AWS applications. Uses S3 Cross-Region Replication (CRR), Route 53 latency-based routing, and DynamoDB Global Tables to design highly resilient services.
-### Object Storage
-
-#### MinIO
-
-  - **(2022)** [**blog.min.io: Certificate-based Authentication for S3**](https://www.min.io/blog/certificate-based-authentication-with-s3) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Explains how to implement robust Mutual TLS (mTLS) and client certificate-based authentication with MinIO. Outlines secure key exchanges and architectural mapping of certificates to IAM policies.
+  - **(2021)** [Building an active-active, latency-based application across multiple Regions 🌟](https://aws.amazon.com/blogs/storage/building-an-active-active-latency-based-application-across-multiple-regions) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines patterns for constructing active-active, latency-routed storage setups across multiple geographical AWS Regions. Focuses on orchestrating distributed systems with zero-RTO ambitions, detailing replication policies, DNS-level routing strategies, and conflict-free data synchronization. Key trade-offs in consistency and replication lag are analyzed to build resilient enterprise services.
 ### Storage
 
-#### Distributed Filesystems
+#### AWS EFS
 
-  - [Ceph: A Distributed Object, Block, and File Storage Platform](https://github.com/ceph/ceph) <span class='md-tag md-tag--info'>⭐ 16621</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The industry-standard unified, distributed storage system designed to provide excellent performance, reliability, and scalability.
+##### Performance Tuning
 
-*   Provides object, block, and file storage within a single cluster.
-*   Acts as a foundational storage engine for large-scale Kubernetes PV platforms (Rook-Ceph) and private clouds.
+  - **(2021)** [Amazon Elastic File System triples read throughput](https://aws.amazon.com/about-aws/whats-new/2021/01/amazon-elastic-file-system-triples-read-throughput) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces a significant platform enhancement where Amazon EFS tripled its read throughput capacities for standard performance-tier volumes. This architectural upgrade enhances high-concurrency read-intensive container workloads, such as machine learning training pipelines and content management systems, without necessitating manual reconfiguration or structural modifications.
+  - **(2016)** [EFS Elastic File System](https://aws.amazon.com/blogs/aws/amazon-elastic-file-system-production-ready-in-three-regions) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the initial production availability of Amazon Elastic File System (EFS), delivering a fully-managed, highly available NFSv4-compliant file system. By decoupling capacity planning from provisioning, EFS dynamically scales storage up or down as files are written or deleted, presenting a highly scalable shared filesystem interface suitable for distributed application architectures.
+#### AWS S3
+
+##### Analytics
+
+  - **(2021)** [Monitor Amazon S3 activity using S3 server access logs and Pandas in Python](https://aws.amazon.com/blogs/storage/monitor-amazon-s3-activity-using-s3-server-access-logs-and-pandas-in-python) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the implementation of data-driven security audits and monitoring on Amazon S3. Leveraging Python's Pandas library, the post walks through parsing raw S3 server access logs to construct structured dataframes. This allows engineers to query access patterns, detect anomalous behaviors, and automate compliance audits with high precision without provisioning complex database engines.
+## Cloud Infrastructure and Orchestration
+
+### Storage and Databases
+
+#### Distributed Block Storage
+
+  - **(2026)** [==Ceph: A Distributed Object, Block, and File Storage Platform==](https://github.com/ceph/ceph) <span class='md-tag md-tag--info'>⭐ 16704</span> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An enterprise-grade, highly scalable distributed storage ecosystem providing object, block, and file system storage on a single unified cluster. Widely adopted as the primary storage layer backing cloud platforms and Kubernetes orchestration (Rook-Ceph).
+## Cloud Native Storage
+
+### AWS EBS
+
+#### Snapshot Automation
+
+  - **(2023)** [devopscube.com: How to Automate EBS Snapshot Creation, Retention and Deletion](https://devopscube.com/automate-ebs-snapshot-creation-deletion) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical DevOps guide detailing automation patterns for the creation, lifecycle retention, and deletion of AWS EBS snapshots. Shows how to use AWS Lifecycle Manager and bash cron jobs to guarantee cluster data durability without compiling excessive storage debt.
+#### Sparse Snapshots
+
+  - **(2021)** [How to Build Sparse EBS Volumes for Fun and Easy Snapshotting](https://aws.amazon.com/blogs/apn/how-to-build-sparse-ebs-volumes-for-fun-and-easy-snapshotting) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An advanced AWS storage engineering tutorial explaining how to design sparse EBS volumes to facilitate fast, economical block-level backup snapshot loops. This architecture minimizes data transfer overhead and significantly lowers cloud backup costs.
+#### Storage Performance
+
+  - **(2023)** [percona.com: Performance of Various EBS Storage Types in AWS](https://www.percona.com/blog/performance-of-various-ebs-storage-types-in-aws) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Percona's detailed database performance benchmark analyzing various AWS EBS storage classes. Compares the performance profile of gp3 and io2 architectures under strenuous database transaction loads, providing cost-to-performance optimizations.
+### AWS S3 (1)
+
+#### FAQ Reference
+
+  - **(2026)** [S3 FAQ](https://aws.amazon.com/s3/faqs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The authoritative FAQ database for Amazon Simple Storage Service (S3). Details critical technical specs, replication topologies, consistency models, and performance ceilings. Essential architectural standard for designing large cloud-native storage systems.
+#### Private Connectivity
+
+  - **(2022)** [Connect Amazon S3 File Gateway using AWS PrivateLink for Amazon S3](https://aws.amazon.com/es/blogs/architecture/connect-amazon-s3-file-gateway-using-aws-privatelink-for-amazon-s3) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A security-focused guide detailing how to mount and connect AWS S3 File Gateways securely using AWS PrivateLink endpoints. Eliminates exposure to the public internet by keeping all backup transactions fully routed within local corporate VPC networks.
+#### S3 Architecture
+
+  - **(2022)** [cloudkatha.com: Is S3 Region Specific or Global? What do you think?](https://cloudkatha.com/is-s3-region-specific-or-global-what-do-you-think)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural exploration of S3's unique global namespace structure contrasted with its region-restricted data placement paradigms. Essential reading for platform architects designing multi-region, low-latency backup structures or dynamic global CDNs.
+#### S3 Namespace
+
+  - **(2022)** [cloudkatha.com: This is why S3 Bucket Names are unique Globally](https://cloudkatha.com/why-s3-bucket-names-are-unique-globally)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A conceptual guide explaining why AWS enforces global uniqueness constraints on S3 bucket identifiers. Demystifies DNS resolution and routing paths used by storage endpoints to guarantee secure API request routing worldwide.
+#### S3 Synchronization
+
+  - **(2022)** [A step-by-step guide to synchronize data between Amazon S3 buckets](https://aws.amazon.com/blogs/storage/a-step-by-step-guide-to-synchronize-data-between-amazon-s3-buckets) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A step-by-step engineering blueprint outlining how to execute multi-TB synchronization loops between distinct S3 buckets using CLI, AWS Batch, and replication mechanisms. Crucial for disaster recovery planning and regional migration strategies.
+#### Storage Lifecycle
+
+  - **(2022)** [cloudkatha.com: AWS S3 Storage Classes: Everything You Need to Know](https://cloudkatha.com/aws-s3-storage-classes-everything-you-need-to-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive deep-dive into AWS S3 storage classes, analyzing latency specs, durability SLA patterns, and price points of different tiers. Highly valuable for data platform engineers designing lifecycle transition rules to automate low-cost cold storage.
+  - **(2022)** [acloudguru.com: S3 Glacier Instant Retrieval deep dive: Which S3 Storage Class is right for me?](https://www.pluralsight.com/resources/blog/cloud/s3-glacier-instant-retrieval-deep-dive-which-s3-storage-class-is-right-for-me)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical guide on the S3 Glacier Instant Retrieval storage class. It breaks down the math of retrieval cost vs storage tier pricing models, helping platform engineers choose the optimal tier for instant-access archival files.
+### S3 API Compatibility
+
+#### S3 Security
+
+  - **(2023)** [blog.min.io: Certificate-based Authentication for S3](https://www.min.io/blog/certificate-based-authentication-with-s3) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — MinIO's security engineering guide detailing dynamic certificate-based authentication protocols (mTLS) over S3-compatible APIs. In 2026, MinIO remains the preferred choice for running high-performance private cloud object storage securely without relying on IAM SaaS solutions.
+## Cloud Platform
+
+### AWS Infrastructure
+
+#### Storage Management
+
+  - **(2023)** [blog.awsfundamentals.com: AWS S3 Sync - An Extensive Guide](https://awsfundamentals.com/blog/aws-s3-sync) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An extensive guide on using AWS S3 Sync commands, showing how to achieve efficient filesystems syncs between local storage and S3 targets. It explains multi-threading optimization, inclusion/exclusion rules, and integrity checks. This reference is highly valuable for system administrators maintaining basic backup and sync pipelines.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Public Cloud Solutions](./public-cloud-solutions.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
 

@@ -3,33 +3,32 @@
 !!! info "Architectural Context"
     Detailed reference for Appointment Scheduling Software in the context of Career & Industry.
 
-## Standard Reference
+## Collaborative Operations
 
-  - [Calendly](https://calendly.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [youcanbook.me](https://youcanbook.me)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Acuity Scheduling](https://acuityscheduling.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Karen](https://karenapp.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Google Calendar appointment slots](https://support.google.com/calendar/answer/190998)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cal.com](https://cal.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [support.google.com: How to set up an appointment schedule](https://support.google.com/google-workspace-individual/answer/10729749)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [wpamelia.com: Calendly vs YouCanBook.Me](https://wpamelia.com/calendly-vs-youcanbook-me)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [wpamelia.com: Calendly vs Acuity](https://wpamelia.com/calendly-vs-acuity)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [wpamelia.com: Calendly vs Doodle](https://wpamelia.com/calendly-vs-doodle)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [karenapp.io: Calendly vs ScheduleOnce](https://karenapp.io/articles/calendly-vs-scheduleonce)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+### Workspace Scheduling
 
-## Productivity
+#### Commercial Tools
 
-### Collaboration
+  - **(2025)** [Calendly](https://calendly.com) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — SaaS scheduling tool providing automated invite links, corporate calendar integration, and round-robin scheduling algorithms to streamline business workflow coordination.
+  - **(2024)** [youcanbook.me](https://youcanbook.me) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Commercial booking platform with advanced team scheduling integrations. Offers CSS layout customization, direct CRM linking, and webhook support for automated post-booking workflows.
+  - **(2024)** [Acuity Scheduling](https://acuityscheduling.com) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — SaaS scheduling platform owned by Squarespace, designed for services industries. Features robust intake-form handling, integrated payment processing, and automated reminder sequences.
+  - **(2024)** [Doodle](https://doodle.com/en) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Collaborative scheduling engine specializing in group polling to establish consensus times. Cuts down back-and-forth emails when coordinating meetings across varying external directories.
+  - **(2023)** [Karen](https://karenapp.io) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AI-assisted scheduling tool featuring conversational UI interfaces. Automates appointment bookings and coordinates meeting slots through direct text and chat platform integrations.
+  - **(2023)** [ScheduleOnce](https://www.oncehub.com) <span class='md-tag md-tag--warning'>[C# CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — OnceHub scheduling software built for enterprise marketing and inbound sales routing. Provides round-robin scheduling, multi-account CRM matching, and advanced resource allocations.
+#### Market Comparisons
 
-#### Scheduling
+  - **(2023)** [wpamelia.com: Calendly vs YouCanBook.Me](https://wpamelia.com/calendly-vs-youcanbook-me)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative guide highlighting the functional boundaries of Calendly and YouCanBook.Me. Reviews custom notification loops, pricing tiers, and calendar synchronization speeds.
+  - **(2023)** [wpamelia.com: Calendly vs Acuity](https://wpamelia.com/calendly-vs-acuity)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Contrasts Calendly's simple scheduling workflows with Acuity's robust service booking engine. Analyzes the design paths for each depending on organizational scale and billing needs.
+  - **(2023)** [wpamelia.com: Calendly vs Doodle](https://wpamelia.com/calendly-vs-doodle)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Presents a clear use-case contrast between Calendly's automated 1-on-1 bookings and Doodle's group polling mechanism, explaining when to implement each framework.
+  - **(2023)** [karenapp.io: Calendly vs ScheduleOnce](https://karenapp.io/articles/calendly-vs-scheduleonce)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the feature sets of Calendly and ScheduleOnce. Maps Calendly's individual link-sharing speed against ScheduleOnce's complex multi-tier lead generation and round-robin routing flows.
+#### Open Source Tools
 
-  - **(2026)** [Doodle](https://doodle.com/en) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A widely adopted scheduling and meeting coordination platform. While simple from a user-experience standpoint, its cloud-native integration with major enterprise directory calendars represents a standard tool in resource allocation and meeting automation workflows.
-  - **(2026)** [ScheduleOnce](https://www.oncehub.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A professional scheduling engine within the OnceHub portfolio designed for complex, rules-based meeting allocation. Leverages smart API automation and integrations to streamline lead-routing, resource management, and customer journey touchpoints.
-### Enterprise Integration
+  - **(2026)** [==cal.com==](https://cal.com) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Cal.com is a highly customizable, open-source scheduling infrastructure. Positioned as a self-hosted, API-driven, GDPR-compliant core alternative to proprietary booking software.
+#### Workspace Features
 
-#### Exchange Scheduling
-
-  - **(2022)** [timewatch.com: Outlook Resource Scheduling – View and report on Employee Outlook Calendars](https://www.timewatch.com/blog/outlook-resource-scheduling) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on native and third-party solutions for resource scheduling within Exchange/Outlook environments. Addresses gaps in standard Outlook scheduling mechanisms to allow reporting and tracking of employee calendar allocations.
+  - **(2022)** [timewatch.com: Outlook Resource Scheduling – View and report on Employee Outlook Calendars](https://www.timewatch.com/blog/outlook-resource-scheduling)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details Outlook's administrative resource scheduler designed to coordinate shared physical and digital workspace assets like conference rooms, vehicles, and equipment.
+  - **(2022)** [support.google.com: How to set up an appointment schedule](https://support.google.com/google-workspace-individual/answer/10729749) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the modernized Google Workspace Appointment Schedule booking page ecosystem. Integrates dynamic availability checks to minimize overlap bookings and optimize schedules.
+  - **(2021)** [Google Calendar appointment slots](https://support.google.com/calendar/answer/190998) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Legacy Google Calendar booking block system. Live grounding shows this feature was officially retired in late 2024, fully replaced by Google's newer 'Appointment Schedules' tool.
 
 ---
 💡 **Explore Related:** [HR](./hr.md) | [Elearning](./elearning.md) | [Newsfeeds](./newsfeeds.md)

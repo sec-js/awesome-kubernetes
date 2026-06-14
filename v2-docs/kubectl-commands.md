@@ -5,11 +5,8 @@
 
 ## Standard Reference
 
-  - [A Complete Guide to Kubectl exec](https://refine.dev/blog/kubectl-exec-command)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ansibleforkubernetes.com 🌟](https://www.ansibleforkubernetes.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Get kubectl access to your private cluster from anywhere](https://blog.alexellis.io/get-private-kubectl-access-anywhere)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: 4 Simple Kubernetes Terminal Customizations to Boost Your Productivity](https://medium.com/better-programming/4-simple-kubernetes-terminal-customizations-to-boost-your-productivity-deda60a19924)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [hidetatz/kubecolor 🌟](https://github.com/hidetatz/kubecolor) <span class='md-tag md-tag--info'>⭐ 1445</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hidetatz/kubecolor 🌟](https://github.com/hidetatz/kubecolor) <span class='md-tag md-tag--info'>⭐ 1446</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [container-registry.com: Lifting Developers’ Productivity 🌟](https://container-registry.com/posts/productivity-lift-buildkit-cli-for-kubectl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Boosting your kubectl productivity](https://itnext.io/boosting-your-kubectl-productivity-b348f7c25712)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Ready-to-use commands and tips for kubectl](https://medium.com/flant-com/kubectl-commands-and-tips-7b33de0c5476)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -45,31 +42,20 @@
   - [itnext.io: Using ‘kubectl explain’ for Custom Resources](https://itnext.io/understanding-kubectl-explain-9d703396cc8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/trstringer/kubectl-example](https://github.com/trstringer/kubectl-example) <span class='md-tag md-tag--info'>⭐ 13</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubectl Shell Autocomplete](https://blog.heptio.com/kubectl-shell-autocomplete-heptioprotip-48dd023e0bf3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [complete-alias](https://github.com/cykerway/complete-alias) <span class='md-tag md-tag--info'>⭐ 811</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [complete-alias](https://github.com/cykerway/complete-alias) <span class='md-tag md-tag--info'>⭐ 814</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Connect to containers using Kubectl Exec](https://itnext.io/connect-to-containers-using-kubectl-exec-b1fb5c171f03)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [goteleport.com: kubectl exec vs SSH](https://goteleport.com/blog/ssh-vs-kubectl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hackernoon.com: How to Work With the Kubectl Debug Command](https://hackernoon.com/how-to-work-with-the-kubectl-debug-command)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Copy secrets between namespaces](https://stackoverflow.com/questions/55515594/is-there-a-way-to-share-a-configmap-in-kubernetes-between-namespaces)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Continuous Integration
-
-### CI Tools
-
-#### Jenkins
-
-  - [Jenkins Kubernetes Plugin](https://plugins.jenkins.io/kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The critical Kubernetes integration for Jenkins, executing dynamic agents directly inside cluster pods. Solves pipeline scale issues by tearing down runner instances upon build completion.
-  - [Kubernetes Continuous Deploy](https://plugins.jenkins.io/kubernetes-cd) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A traditional Jenkins plugin for deploying build outputs to Kubernetes. Note: Has fallen out of favor in modern GitOps-centric continuous delivery pipelines.
 ## Kubernetes
 
 ### Developer Experience
 
-#### CLI Tools
-
-  - **(2015)** [Kubectl Autocomplete](https://kubernetes.io/docs/reference/kubectl/quick-reference) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reference guide on installing shell-specific (Bash, Zsh) command completion parameters for kubectl, offering instant visual feedback on resource specs to maximize admin speed.
 #### Container Builds
 
-  - **(2021)** [==vmware-tanzu/buildkit-cli-for-kubectl (kubectl plugin)==](https://github.com/vmware-archive/buildkit-cli-for-kubectl) <span class='md-tag md-tag--info'>⭐ 506</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A kubectl plugin designed to execute container builds directly on remote BuildKit instances inside clusters. Live grounding confirms the project has been archived under VMware, steering teams to direct BuildKit operators or Kaniko.
+  - **(2021)** [==vmware-tanzu/buildkit-cli-for-kubectl (kubectl plugin)==](https://github.com/vmware-archive/buildkit-cli-for-kubectl) <span class='md-tag md-tag--info'>⭐ 505</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A kubectl plugin designed to execute container builds directly on remote BuildKit instances inside clusters. Live grounding confirms the project has been archived under VMware, steering teams to direct BuildKit operators or Kaniko.
 
 ---
-💡 **Explore Related:** [OCP 3](./ocp3.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
+💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
 
