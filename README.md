@@ -65,6 +65,7 @@
     *   [9.6. Automated Mandate Auditing](#96-automated-mandate-auditing)
     *   [9.7. Multi-Part Reporting Engine](#97-multi-part-reporting-engine)
     *   [9.8. Workflow UI Auto-Sync](#98-workflow-ui-auto-sync)
+    *   [9.9. Resilience and Massive Recovery (The 6-Hour Rule)](#99-resilience-and-massive-recovery-the-6-hour-rule)
 10. [10. Branching Strategy and Lifecycle](#10-branching-strategy-and-lifecycle)
 11. [11. Contributing to the Archive](#11-contributing-to-the-archive)
     *   [How to Contribute](#how-to-contribute)
@@ -954,6 +955,17 @@ To handle the scale of 17k+ resources, the engine automatically fragments report
 
 ### 9.8. Workflow UI Auto-Sync
 Maintains **Mandate 11** by detecting new categories and alerting maintainers to update the GitHub Actions interface.
+
+### 9.9. Resilience and Massive Recovery (The 6-Hour Rule)
+When processing massive datasets (e.g., full AI re-evaluations of 18k+ links), workflows may hit the **GitHub Actions 6-hour execution limit**. Nubenetes is designed to handle this gracefully:
+
+1.  **Incremental Persistence**: The engine saves progress to the GitHub Actions Cache periodically (every 20 batches). Even if the job is cancelled or times out, the `Persist Incremental Inventory to Cache` step runs `always()`.
+2.  **Recovery Procedure**: If a workflow fails due to "exceeded the maximum execution time", follow these steps to resume:
+    *   **Trigger**: Go to the Actions tab and select the failed workflow (e.g., `03.2. V2 AI Curator`).
+    *   **Run Workflow**: Select the `develop` branch.
+    *   **restore_cache**: Set to `true` (Downloads the last saved state).
+    *   **force_reevaluate**: Set to `false` (Ensures the AI only processes links that are still pending/missing metadata).
+3.  **Efficiency**: This strategy ensures zero token waste and zero loss of processing time, allowing the system to reach 100% coverage across multiple successive runs if necessary.
 
 ---
 
