@@ -53,8 +53,6 @@
   - [thedigitalprojectmanager.com: Create A Responsibility Assignment Matrix' (RACI Chart) That Works](https://thedigitalprojectmanager.com/raci-chart-made-simple)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Minimum Viable Product](https://en.wikipedia.org/wiki/Minimum_viable_product)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: MVP vs MDP = Viability vs Delight. What You Really Need?](https://medium.com/swlh/mvp-vs-mdp-viability-vs-delight-what-you-really-need-296b42df005d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [devdriven.by](https://devdriven.by)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [devdriven.by: Promotion Driven Development](https://devdriven.by/promotion)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [reddit.com: Promotion Driven Development](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [en.wikipedia.org: Kiss up kick down](https://en.wikipedia.org/wiki/Kiss_up_kick_down)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 

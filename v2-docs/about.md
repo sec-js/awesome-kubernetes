@@ -60,6 +60,19 @@ We advocate for a technical sector where quality and evidence-based decisions ta
   - [HBR: Stop Hiring for Culture Fit](https://hbr.org/2019/11/stop-hiring-for-culture-fit) <span class='md-tag md-tag--warning'>[EMERGING]</span> — A critical perspective on how "culture fit" often hides bias and hinders technical innovation.
   - [Defining Day-2 Operations](https://dzone.com/articles/defining-day-2-operations) <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Shifts the focus from the excitement of the first deployment to the long-term reality of maintaining production stability.
 
+### 🧩 7. Technical Leadership & The 'Glue' Factor
+True seniority is measured by the ability to hold teams together through communication and shared context.
+
+  - [Being Glue](https://noidea.dog/glue) <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An industry-standard analysis of the essential, non-coding technical tasks that ensure project success.
+  - [How Big Tech Runs Tech Projects](https://blog.pragmaticengineer.com/project-management-at-big-tech) <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A seminal critique of ceremonial Scrum versus result-oriented engineering pragmatism.
+  - [Martin Fowler: Retrospectives Antipatterns](https://martinfowler.com/articles/retrospective-antipatterns.html) <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Essential guide for transforming team feedback loops from blame games into architectural improvement cycles.
+
+### 📈 8. Scaling with Evidence: DORA & Value Streams
+We advocate for data-driven engineering management to avoid the trap of "gut-feeling" decision making.
+
+  - [Driving DevOps with Value Stream Management](https://www.infoq.com/articles/DevOps-value-stream) <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Dissects how to align microservice delivery with business outcomes through flow metrics.
+  - [Better Metrics for Building High Performance Teams](https://www.infoq.com/articles/better-metrics-team-performance) <span class='md-tag md-tag--warning'>[EMERGING]</span> — Beyond LOC and commits: using DORA metrics to cultivate a culture of systemic stability.
+
 > *"I am a big fan of the scientific method. Engineers do not build bridges from a right or left perspective... hello! I have a problem, can you help me? Engineers rely on evidence."* — **Mark Stevenson**
 
 ---
@@ -68,7 +81,6 @@ We advocate for a technical sector where quality and evidence-based decisions ta
 
   - [DZone: Defining Day-2 Operations](https://dzone.com/articles/defining-day-2-operations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [alexander-goida.medium.com: Thoughts about breaking silos of software engineering' teams 🌟](https://alexander-goida.medium.com/thoughts-about-breaking-silos-of-software-engineering-teams-323d1f78ef68)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [devdriven.by: Promotion Driven Development](https://devdriven.by/promotion)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [reddit.com: Promotion Driven Development](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [en.wikipedia.org: Kiss up kick down](https://en.wikipedia.org/wiki/Kiss_up_kick_down)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
