@@ -22,6 +22,16 @@ special_assets:
       - Gateway Hub: Add a 'Navigation Paths' section to guide users to dimensions.
     keywords: ["introduction", "getting started", "fundamentals", "microservices"]
 
+  - file: "about.md"
+    v1_rule: "Preserve the original manifest and historical context. Do not reorganize text."
+    v2_rule: |
+      - Platinum Manifest: Transform the V1 text into a high-density 'Engineering Manifest' for 2026.
+      - Core Story: Preserve the Munich car manufacturer origin as the project's 'Genesis'.
+      - Philosophy Pillars: Visualize the DevOps vs GitOps vs SRE principles in an advanced table.
+      - The 'Hard Way' Warning: Include a section on technical quality and standardization vs obfuscation.
+      - Scientific Method: Feature the Mark Stevenson quote as a foundational principle.
+    keywords: ["about", "mission", "philosophy", "manifesto", "history"]
+
 # Navigation Renaming
 dimension_renaming:
   "Intelligent Control Plane": "AI"
