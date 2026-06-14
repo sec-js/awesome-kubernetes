@@ -862,6 +862,11 @@
 #### Providers (2)
 
   - **(2022)** [github.com/tlkamp/terraform-provider-validation: Validation Provider](https://github.com/tlkamp/terraform-provider-validation) <span class='md-tag md-tag--info'>⭐ 42</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An auxiliary custom validation provider that provides functions to run assertions, validate string constraints, and execute advanced checks before Terraform proceeds to infrastructure application phases.
+### Database Automation
+
+#### Terraform and Azure
+
+  - **(2022)** [thomasthornton.cloud: Enabling PostgreSQL flexible server logs and configuring a retention period using Terraform](https://thomasthornton.cloud/enabling-postgresql-flexible-server-logs-and-configuring-a-retention-period-using-terraform) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical implementation guide for leveraging HashiCorp Terraform to configure diagnostic logging and retention policies on Azure Database for PostgreSQL Flexible Server. By defining IaC blocks for diagnostic settings and log forwarding, platform engineers can automate the streaming of engine logs to Azure Monitor, Log Analytics, or Storage Accounts. This configuration ensures compliance with enterprise security audits and automated log archival.
 ### Dependency Management
 
 #### Upgrade Automation

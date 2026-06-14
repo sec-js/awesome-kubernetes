@@ -9,7 +9,6 @@
   - [Dzone: how to use postman to manage and execute your APIs](https://dzone.com/articles/how-to-use-postman-to-manage-and-execute-your-apis)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Kubernetes Tutorial: Your Complete Guide to Deploying an App on' AWS with Postman 🌟](https://medium.com/better-practices/kubernetes-tutorial-b6f302a67426)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [vaishnavidontha.hashnode.dev: API Testing using Postman - Part 1](https://vaishnavidontha.hashnode.dev/api-testing-using-postman-part-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.postman.com: Introducing the Secret Variable Type in Postman](https://blog.postman.com/introducing-secret-variable-type-in-postman)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.balasundar.com: Run Postman collections using Newman and Python](https://blog.balasundar.com/run-postman-collections-using-newman-and-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## API Development
@@ -38,6 +37,13 @@
 ##### Testing Frameworks
 
   - **(2021)** [freecodecamp.org: Master API Testing with Postman](https://www.freecodecamp.org/news/master-api-testing-with-postman) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight presents this masterclass from FreeCodeCamp for comprehensive API testing utilizing Postman. Live Grounding notes that while GUI based testing is powerful for debugging, exporting these suites for CLI integration via Newman remains the gold standard for automated pipelines. It serves as an essential foundational guide for quality engineering.
+## Security and Governance
+
+### API Lifecycle
+
+#### Secrets Management
+
+  - **(2023)** [blog.postman.com: Introducing the Secret Variable Type in Postman](https://blog.postman.com/introducing-secret-variable-type-in-postman) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Postman's 'Secret' variable type enhances security workflows by preventing sensitive data leakage in API tests and collections. It masks sensitive values (like API keys or tokens) in the Postman UI and console logs, protecting them from accidental exposure during sharing or screen-sharing sessions. This feature represents a critical upgrade for enterprise DevSecOps pipelines integrating automated API testing.
 ## Software Architecture
 
 ### Business Rules

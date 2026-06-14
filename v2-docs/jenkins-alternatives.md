@@ -72,7 +72,7 @@
 
 #### Local Execution
 
-  - **(2024)** [==dagger/dagger: Dagger is a portable devkit for CICD==](https://github.com/dagger/dagger) <span class='md-tag md-tag--info'>⭐ 15953</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main Git repository for Dagger, the revolutionary CI/CD engine built on BuildKit. Enables writing robust pipelines in general-purpose languages like Go, Python, or TypeScript, completely replacing verbose, fragile YAML pipeline orchestrations.
+  - **(2024)** [==dagger/dagger: Dagger is a portable devkit for CICD==](https://github.com/dagger/dagger) <span class='md-tag md-tag--info'>⭐ 15954</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main Git repository for Dagger, the revolutionary CI/CD engine built on BuildKit. Enables writing robust pipelines in general-purpose languages like Go, Python, or TypeScript, completely replacing verbose, fragile YAML pipeline orchestrations.
   - **(2023)** [dagger.io](https://dagger.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Dagger is a highly portable CI/CD development kit that allows developers to define pipelines as application code. Powered by BuildKit, it guarantees identical pipeline behavior during local dev iterations and execution on remote cloud CI systems.
 ### CICD Orchestration
 

@@ -584,7 +584,7 @@
 
 #### Cloud Emulation
 
-  - **(2024)** [==Floci - An AWS Local Emulator Alternative==](https://github.com/floci-io/floci) <span class='md-tag md-tag--info'>⭐ 14063</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An active and highly performant local alternative to localstack. Emulates AWS cloud service behavior locally using specialized lightweight container footprints.
+  - **(2024)** [==Floci - An AWS Local Emulator Alternative==](https://github.com/floci-io/floci) <span class='md-tag md-tag--info'>⭐ 14064</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An active and highly performant local alternative to localstack. Emulates AWS cloud service behavior locally using specialized lightweight container footprints.
 ## Continuous Integration and Delivery
 
 ### Cloud Native CI-CD
@@ -1039,7 +1039,7 @@
 
 #### Image Building (3)
 
-  - **(2026)** [==kaniko==](https://github.com/GoogleContainerTools/kaniko) <span class='md-tag md-tag--info'>⭐ 15768</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kaniko is an open-source tool developed by Google to build container images from Dockerfiles inside containerized environments (like Kubernetes) without requiring a privileged Docker daemon. It executes each instruction in the Dockerfile entirely in user space, avoiding risky Docker-in-Docker (DinD) security practices. Kaniko remains a de facto standard tool for secure, isolated cloud-native CI/CD build environments.
+  - **(2026)** [==kaniko==](https://github.com/GoogleContainerTools/kaniko) <span class='md-tag md-tag--info'>⭐ 15767</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kaniko is an open-source tool developed by Google to build container images from Dockerfiles inside containerized environments (like Kubernetes) without requiring a privileged Docker daemon. It executes each instruction in the Dockerfile entirely in user space, avoiding risky Docker-in-Docker (DinD) security practices. Kaniko remains a de facto standard tool for secure, isolated cloud-native CI/CD build environments.
 ### Control Plane
 
 #### etcd Management
@@ -1484,7 +1484,7 @@
 
 #### Observability Platform
 
-  - **(2026)** [==SigNoz: Open source Application Performance Monitoring (APM) & Observability' tool 🌟==](https://github.com/SigNoz/signoz) <span class='md-tag md-tag--info'>⭐ 27333</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive open-source APM and observability platform natively integrated with OpenTelemetry. Tracks telemetry, trace spans, metrics, and application logs in a unified, high-performance UI backed by ClickHouse. Widely recognized as a major open-source competitor to Datadog.
+  - **(2026)** [==SigNoz: Open source Application Performance Monitoring (APM) & Observability' tool 🌟==](https://github.com/SigNoz/signoz) <span class='md-tag md-tag--info'>⭐ 27334</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive open-source APM and observability platform natively integrated with OpenTelemetry. Tracks telemetry, trace spans, metrics, and application logs in a unified, high-performance UI backed by ClickHouse. Widely recognized as a major open-source competitor to Datadog.
 ### Alert Management
 
 #### Visualizers
@@ -1613,7 +1613,7 @@
 
 #### UI Tools (2)
 
-  - **(2017)** [==github.com/portainer/portainer==](https://github.com/portainer/portainer) <span class='md-tag md-tag--info'>⭐ 37719</span> <span class='md-tag md-tag--warning'>[GO / JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Portainer is a container management application that simplifies configuration and monitoring of multi-engine container environments, including Kubernetes. Featuring an intuitive web interface, it lowers the operational barrier for developers and sysadmins, facilitating application delivery and role-based access control.
+  - **(2017)** [==github.com/portainer/portainer==](https://github.com/portainer/portainer) <span class='md-tag md-tag--info'>⭐ 37720</span> <span class='md-tag md-tag--warning'>[GO / JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Portainer is a container management application that simplifies configuration and monitoring of multi-engine container environments, including Kubernetes. Featuring an intuitive web interface, it lowers the operational barrier for developers and sysadmins, facilitating application delivery and role-based access control.
 ### Developer Productivity (2)
 
 #### Port Forwarding (3)
@@ -2471,7 +2471,7 @@
   - **(2018)** [helm-ecr 🌟](https://github.com/vetyy/helm-ecr) <span class='md-tag md-tag--info'>⭐ 24</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A legacy helper tool designed to authenticate Helm and local installations with AWS Elastic Container Registry (ECR). Native Helm 3 OCI capabilities and integrated AWS IRSA have made direct external credential management tools obsolete.
 #### Single Sign-On
 
-  - **(2026)** [==Authelia 🌟==](https://github.com/authelia/authelia) <span class='md-tag md-tag--info'>⭐ 28048</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Authelia is an open-source authentication and authorization server providing single sign-on (SSO) for applications behind reverse proxies. It supports multi-factor authentication (MFA), dynamic security policies, and user management, offloading auth logic from backend systems.
+  - **(2026)** [==Authelia 🌟==](https://github.com/authelia/authelia) <span class='md-tag md-tag--info'>⭐ 28049</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Authelia is an open-source authentication and authorization server providing single sign-on (SSO) for applications behind reverse proxies. It supports multi-factor authentication (MFA), dynamic security policies, and user management, offloading auth logic from backend systems.
 ### Compliance and Auditing
 
 #### Dependency Tracking

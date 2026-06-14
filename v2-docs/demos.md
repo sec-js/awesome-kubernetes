@@ -1411,6 +1411,11 @@
 #### Red Hat Ecosystem
 
   - **(2025)** [==Portfolio Architecture WorkShops 🌟==](https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops/#) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Comprehensive architectural workshops presenting verified blueprints for complex hybrid cloud systems, retail edge strategies, and AI/ML model deployment operations. It serves as a highly detailed blueprint catalog for modern enterprise architects.
+### CICD Platforms (1)
+
+#### Azure DevOps (1)
+
+  - **(2021)** [thomasthornton.cloud: A DevOps journey using Azure DevOps](https://thomasthornton.cloud/a-devops-journey-using-azure-devops) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive retrospective detailing the strategic transition and ongoing journey of adopting Azure DevOps for enterprise platform engineering. The guide explores centralizing pipeline definitions, managing environment gates, optimizing agent pools, and leveraging built-in boards and repositories. It highlights pragmatic challenges and structural lessons learned during real-world migrations to cloud-native delivery workflows.
 ### Custom Controller Patterns
 
 #### Kubernetes Operators

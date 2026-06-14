@@ -137,7 +137,7 @@
 
 #### Model Context Protocol
 
-  - **(2025)** [==Azure DevOps MCP Server==](https://github.com/microsoft/azure-devops-mcp) <span class='md-tag md-tag--info'>⭐ 1812</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An official Microsoft MCP server repository enabling AI Agents (like Claude or GitHub Copilot) to interact seamlessly with Azure DevOps. Allows agents to manage work items, query repositories, and orchestrate pipeline runs.
+  - **(2025)** [==Azure DevOps MCP Server==](https://github.com/microsoft/azure-devops-mcp) <span class='md-tag md-tag--info'>⭐ 1813</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An official Microsoft MCP server repository enabling AI Agents (like Claude or GitHub Copilot) to interact seamlessly with Azure DevOps. Allows agents to manage work items, query repositories, and orchestrate pipeline runs.
 ### DevOps Platforms
 
 #### DevTest Labs
@@ -1403,6 +1403,14 @@
 #### dbatools Module
 
   - **(2026)** [==dbatools.io==](https://dbatools.io) <span class='md-tag md-tag--warning'>[POWERSHELL / SQL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source, community-driven PowerShell module consisting of hundreds of command abstractions for automated SQL Server administration and migration. It allows administrators to securely perform complex backups, migration tasks, security audits, and configuration deployments in seconds. A vital tool for database engineering teams migrating infrastructure to the cloud.
+## Platform Engineering (1)
+
+### CICD Platforms
+
+#### Azure DevOps (2)
+
+  - **(2022)** [thomasthornton.cloud: Conditional Variables in Azure DevOps Pipelines](https://thomasthornton.cloud/conditional-variables-in-azure-devops-pipelines) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed evaluation of configuring dynamic and conditional variable expressions within Azure DevOps YAML pipelines. By utilizing built-in pipeline expressions, developers can adjust variable values based on source branch, trigger conditions, or build parameters. This capability promotes DRY (Don't Repeat Yourself) practices and allows high levels of pipeline reuse across different environments.
+  - **(2022)** [thomasthornton.cloud: Adding pull-request comments to Azure DevOps Repo from Azure DevOps Pipelines](https://thomasthornton.cloud/adding-pull-request-comments-to-azure-devops-repo-from-azure-devops-pipelines) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step automation guide showing how to programmatically publish comments back to Azure DevOps pull requests directly from active CI pipelines. Using the Azure DevOps REST API or CLI within pipeline stages, teams can auto-post code quality summaries, terraform plans, or security scanner findings. This approach shortens the feedback loop for developers and streamlines team review processes.
 ## Quality Assurance
 
 ### Performance Testing
@@ -1528,7 +1536,7 @@
   - **(2020)** [commandline.ninja: Use Powershell to find windows services configured to run as another user](https://commandline.ninja/use-powershell-to-find-services-configured-to-run-as-another-user) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines an automated auditing solution leveraging custom WMI queries to locate active background services configured with custom service-account parameters rather than default LocalSystem context pools.
 ## Software Engineering
 
-### CICD Platforms
+### CICD Platforms (1)
 
 #### Mobile DevOps
 

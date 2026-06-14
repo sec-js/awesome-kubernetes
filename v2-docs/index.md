@@ -62,9 +62,9 @@
     2. **Standard Layer (Mapped)**: Resources identified as candidates for Elite status but pending deep AI analysis.
 
     **Current Inventory Coverage:**
-    - **V1 Base Inventory**: 18574 total resources analyzed.
-    - **V2 Elite Selection**: 14389 candidates identified (77.47% density ratio).
-    - **AI Enrichment Coverage**: 10340 / 14389 (71.86%)
+    - **V1 Base Inventory**: 18585 total resources analyzed.
+    - **V2 Elite Selection**: 14398 candidates identified (77.47% density ratio).
+    - **AI Enrichment Coverage**: 10351 / 14398 (71.89%)
     - **GitHub Metadata Coverage**: 1452 / 1764 (82.31%) - *Critical for Maturity Tagging*
     - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.
 
@@ -306,7 +306,10 @@ To ensure industrial-grade precision, every resource in V2 is classified using o
 | **`[ENTERPRISE-STABLE]`** | Battle-tested and reliable. | Proven solutions with strong community and commercial support. |
 | **`[EMERGING]`** | The cutting edge. | High-potential tools and patterns (e.g., AI Agents, MCP) shaping the future. |
 | **`[GUIDE]`** | Strategic knowledge. | High-quality tutorials, architectural deep-dives, and decision matrices. |
+| **`[CASE STUDY]`** | Real-world evidence. | Practical implementations and architectural lessons from production environments. |
+| **`[COMMUNITY-TOOL]`** | Open-source ecosystem. | Valuable community-driven tools that enrich the ecosystem but may not have enterprise-grade support. |
 | **`[LEGACY]`** | Historical context. | Established tools that are being replaced or are primarily for maintaining older stacks. |
+| **`[SPANISH CONTENT]`** | Localized knowledge. | Resources in Spanish preserved for native speakers while indexed in English (Mandate 10). |
 
 ## Technical Impact (Relevance Score)
 

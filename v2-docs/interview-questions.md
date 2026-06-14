@@ -11,7 +11,6 @@
   - [TGB - AWS Interview Questions and Answers - Frequently asked](https://www.techgeekbuzz.com/top-aws-interview-questions-and-answers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [grokkinginterview.com: 13 REST API interview questions you need to know](https://grokkinginterview.com/13-rest-api-interview-questions-you-need-to-know-f0e7ec857550)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [denic.hashnode.dev: Resources to crush the technical interview](https://denic.hashnode.dev/resources-to-crush-the-technical-interview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [vitalflux.com: 15 Tricky DevOps Architect Interview Questions & Answers](https://vitalflux.com/devops-architect-interview-questions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devsecops.co.in: DevOps Interview Questions and Answers](https://devsecops.co.in/2021/05/20/devops-interview-questions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [towardsdev.com: Microservice Interview questions for Backend Developers' series-1](https://towardsdev.com/microservice-interview-questions-for-backend-developers-series-1-112d623a7c2a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [50+ Java Collections Interview Questions for Beginners and Experienced Programmers](https://medium.com/javarevisited/50-java-collections-interview-questions-for-beginners-and-experienced-programmers-4d2c224cc5ab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -92,6 +91,13 @@
 #### System Design (1)
 
   - **(2026)** [github.com/moabukar/tech-vault](https://github.com/moabukar/tech-vault) <span class='md-tag md-tag--info'>⭐ 3415</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A massive compiled database containing cheat sheets, system design diagrams, and software development resources. Serves as a vital study companion for engineers preparing for platform and architectural assessments.
+## Career and Leadership
+
+### DevOps Architecture
+
+#### Interview Prep (1)
+
+  - **(2023)** [vitalflux.com: 15 Tricky DevOps Architect Interview Questions & Answers](https://vitalflux.com/devops-architect-interview-questions) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical questionnaire dissecting complex architectural design patterns, microservices deployment paradigms, and high-availability setups. The resource targets senior DevOps and Platform Architects, focusing on continuous delivery bottlenecks, disaster recovery topologies, and infrastructure optimization. This guide provides structural frameworks to articulate complex cloud decisions during design panels.
 ## Data Engineering
 
 ### Event Streaming

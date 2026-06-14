@@ -58,7 +58,7 @@
 
 #### API Gateway
 
-  - **(2023)** [==Envoy Gateway==](https://github.com/envoyproxy/gateway) <span class='md-tag md-tag--info'>⭐ 2799</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official Envoy Gateway project aimed at unifying ingress controller configurations using the Kubernetes Gateway API. Simplifies managing edge proxy deployments, routing rules, TLS terminations, and access logging under a standard, community-supported model.
+  - **(2023)** [==Envoy Gateway==](https://github.com/envoyproxy/gateway) <span class='md-tag md-tag--info'>⭐ 2800</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official Envoy Gateway project aimed at unifying ingress controller configurations using the Kubernetes Gateway API. Simplifies managing edge proxy deployments, routing rules, TLS terminations, and access logging under a standard, community-supported model.
 #### Installation
 
   - **(2022)** [getenvoy.io](https://www.envoyproxy.io/docs/envoy/latest/start/install) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Distribution platform providing certified binaries, installer packages, and bootstrapping resources for Envoy Proxy, facilitating direct deployments on local machines or hybrid container systems.

@@ -34,7 +34,7 @@
 #### Go Frameworks
 
   - **(2025)** [==go-micro==](https://github.com/micro/go-micro) <span class='md-tag md-tag--info'>⭐ 22775</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight introduces go-micro as a distributed systems development framework providing key abstractions for microservices. Live Grounding notes its journey through corporate and open-source licensing changes, yet it remains a foundational toolkit for service discovery, RPC, and event-driven architectures in Go.
-  - [go-kratos/kratos](https://github.com/go-kratos/kratos) <span class='md-tag md-tag--info'>⭐ 25728</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight defines Kratos as a heavy-duty microservice framework for Go, designed for highly scalable web-scale systems. Live Grounding highlights its extensive use of gRPC/Protobuf-first code generation, integrated observability, and pluggable service discovery protocols.
+  - [go-kratos/kratos](https://github.com/go-kratos/kratos) <span class='md-tag md-tag--info'>⭐ 25727</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight defines Kratos as a heavy-duty microservice framework for Go, designed for highly scalable web-scale systems. Live Grounding highlights its extensive use of gRPC/Protobuf-first code generation, integrated observability, and pluggable service discovery protocols.
 ### Networking
 
 #### Go High-Performance Network Libraries
@@ -202,7 +202,7 @@
   - [create-go-app/cli](https://github.com/create-go-app/cli) <span class='md-tag md-tag--info'>⭐ 2758</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight introduces this CLI to construct boilerplate-free backend, frontend, and web applications in Go. Live Grounding shows its capability to pre-configure deployment assets like Dockerfiles and Kubernetes manifests to quicken development cycles.
 #### Resources
 
-  - **(2026)** [==Awesome Go 🌟==](https://github.com/avelino/awesome-go) <span class='md-tag md-tag--info'>⭐ 175402</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive curated repository of high-quality Go frameworks, libraries, and software. Unmatched resource for identifying vetted dependencies for enterprise service development. Ideal for building lightweight, hyper-fast microservices, Kubernetes operators, and cloud infrastructure CLI tools.
+  - **(2026)** [==Awesome Go 🌟==](https://github.com/avelino/awesome-go) <span class='md-tag md-tag--info'>⭐ 175407</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive curated repository of high-quality Go frameworks, libraries, and software. Unmatched resource for identifying vetted dependencies for enterprise service development. Ideal for building lightweight, hyper-fast microservices, Kubernetes operators, and cloud infrastructure CLI tools.
 #### Version Managers
 
   - [gobrew 🌟](https://github.com/kevincobain2000/gobrew) <span class='md-tag md-tag--info'>⭐ 423</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights Gobrew as an elegant and fast Go version manager that downloads and switches active toolchains easily. Live Grounding notes its speed and simplicity, making it a competitive alternative to gvm and asdf for dedicated Go development.
@@ -236,7 +236,7 @@
 
 #### NodeJS
 
-  - **(2024)** [==NodeJS Best Practices (Spanish Translation)==](https://github.com/goldbergyoni/nodebestpractices/blob/spanish-translation/README.spanish.md) <span class='md-tag md-tag--info'>⭐ 105317</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Spanish localization of the leading Node.js architecture and security handbook. It offers comprehensive design blueprints covering error handling, clean architecture, security, production readiness, and testing guidelines for scalable enterprise systems.
+  - **(2024)** [==NodeJS Best Practices (Spanish Translation)==](https://github.com/goldbergyoni/nodebestpractices/blob/spanish-translation/README.spanish.md) <span class='md-tag md-tag--info'>⭐ 105318</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Spanish localization of the leading Node.js architecture and security handbook. It offers comprehensive design blueprints covering error handling, clean architecture, security, production readiness, and testing guidelines for scalable enterprise systems.
 ## Utilities
 
 ### Go Tools (1)

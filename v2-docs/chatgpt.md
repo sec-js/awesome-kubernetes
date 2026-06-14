@@ -21,7 +21,7 @@
 
 #### Large Language Models
 
-  - **(2024)** [==LLMs-from-scratch==](https://github.com/rasbt/LLMs-from-scratch) <span class='md-tag md-tag--info'>⭐ 97132</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight highlights this acclaimed resource for building a fully functional PyTorch Transformer from scratch. Live Grounding verifies it is an indispensable textbook for AI engineers, laying bare tokenization, self-attention calculations, optimization loops, and model loading mechanics without library abstractions.
+  - **(2024)** [==LLMs-from-scratch==](https://github.com/rasbt/LLMs-from-scratch) <span class='md-tag md-tag--info'>⭐ 97134</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight highlights this acclaimed resource for building a fully functional PyTorch Transformer from scratch. Live Grounding verifies it is an indispensable textbook for AI engineers, laying bare tokenization, self-attention calculations, optimization loops, and model loading mechanics without library abstractions.
 ## Artificial Intelligence and LLMs
 
 ### Prompt Engineering
