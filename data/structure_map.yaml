@@ -120452,23 +120452,20 @@ https://www.ewsolutions.com/worst-project-management-practices:
   - page: platform-and-site-reliability.md
     is_bold: false
     is_highlighted: false
-https://devdriven.by:
+https://vadimkravcenko.com/shorts/promotion-based-development/:
   v1:
   - page: project-management-methodology.md
-    is_bold: false
+    is_bold: true
+    is_highlighted: false
+  - page: about.md
+    is_bold: true
     is_highlighted: false
   v2:
-  - page: platform-and-site-reliability.md
-    is_bold: false
+  - page: about.md
+    is_bold: true
     is_highlighted: false
-https://devdriven.by/promotion:
-  v1:
   - page: project-management-methodology.md
-    is_bold: false
-    is_highlighted: false
-  v2:
-  - page: platform-and-site-reliability.md
-    is_bold: false
+    is_bold: true
     is_highlighted: false
 https://www.lavanguardia.com/vivo/20211113/7856878/cualidades-mas-valoran-empleados-jefe-pmv.html:
   v1:

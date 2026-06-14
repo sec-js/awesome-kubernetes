@@ -191,13 +191,9 @@
 
 - [ewsolutions.com: Worst Project Management Practices](https://www.ewsolutions.com/worst-project-management-practices)
 
-### DevDriven.By
+### Promotion-Based Development
 
-- [devdriven.by](https://devdriven.by)
-
-### Promotion Driven Development
-
-- [devdriven.by: Promotion Driven Development](https://devdriven.by/promotion) When you write code to increase your visibility with management, let things break so that you can be the hero that fixes them and generally work on things that lead to a corner office asap
+- [Promotion-Based Development: A Fast Track to Mediocrity](https://vadimkravcenko.com/shorts/promotion-based-development/) When you write code to increase your visibility with management, let things break so that you can be the hero that fixes them and generally work on things that lead to a corner office asap
 - [nichesoftware.co.nz: Promotion Driven Development (PDD) 🌟](http://www.nichesoftware.co.nz/2021/05/29/promotion-driven-development.html)
 - [reddit.com: Promotion Driven Development](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development)
 
