@@ -16,7 +16,7 @@ CURRENT_KEY_INDEX = 0
 DISCOVERED_MODELS = []
 GLOBAL_COOLDOWN_UNTIL = 0
 THROTTLED_MODELS = {} # {model_name: timestamp}
-GLOBAL_AI_SEMAPHORE = asyncio.Semaphore(5) # Max 5 concurrent calls globally
+GLOBAL_AI_SEMAPHORE = asyncio.Semaphore(15) # Increased to 15 for high-tier processing
 
 class GeminiSessionTracker:
     def __init__(self):

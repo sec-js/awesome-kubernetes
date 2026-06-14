@@ -217,14 +217,16 @@ class V2VisionEngine:
         online_links = list(fast_online)
         total_needs = len(needs_check)
         async with httpx.AsyncClient(timeout=15.0, follow_redirects=True, verify=False) as client:
-            for i in range(0, total_needs, 50):
-                batch = needs_check[i:i+50]
+            # Mandate 16/22: Resilient asynchronous health checks with increased concurrency
+            CHUNK_SIZE = 100 
+            for i in range(0, total_needs, CHUNK_SIZE):
+                batch = needs_check[i:i+CHUNK_SIZE]
                 tasks = [self._check_single_link_resilient(client, l) for l in batch]
                 results = await asyncio.gather(*tasks)
                 online_links.extend([r for r in results if r is not None])
                 if i % 100 == 0:
                     log_event(f"    [>] Progress: [{i}/{total_needs}] links validated over network...")
-                await asyncio.sleep(0.1)
+                await asyncio.sleep(0.05) # Minimal delay
         return online_links
 
     async def _check_single_link_resilient(self, client, link: Dict):
@@ -274,7 +276,7 @@ class V2VisionEngine:
         processed_gh_metadata = set()
         gh_fetch_count = 0
         gh_tasks = []
-        gh_sem = asyncio.Semaphore(15) # Up to 15 concurrent fetches for GitHub API stability
+        gh_sem = asyncio.Semaphore(30) # Increased for final sprint strategy
 
         async def _fetch_gh_with_sem(url: str):
             async with gh_sem:
