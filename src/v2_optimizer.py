@@ -270,28 +270,39 @@ class V2VisionEngine:
         dynamic_mandates = get_system_mandates()
 
         # Mandate 15: Proactive Enrichment for V2 (GitHub metadata is critical for tags)
-        # To avoid duplicate logs and redundant API calls, we deduplicate unique GitHub repos first
+        # Optimized: Parallel fetching with Semaphore to avoid sequential bottleneck
         processed_gh_metadata = set()
         gh_fetch_count = 0
+        gh_tasks = []
+        gh_sem = asyncio.Semaphore(15) # Up to 15 concurrent fetches for GitHub API stability
+
+        async def _fetch_gh_with_sem(url: str):
+            async with gh_sem:
+                return url, await get_github_activity(url)
+
         for l in links:
             norm_url = normalize_url(l["url"])
             if "github.com" not in norm_url or self.render_only: continue
-            
+
             cached = self.inventory.get(norm_url, {})
             # Mandate 43: Always ensure GH metadata for GitHub links in V2 to power [DE FACTO STANDARD] logic
             if (enrich_metadata or not cached.get("gh_stars")) and norm_url not in processed_gh_metadata:
-                log_event(f"  [METADATA] V2 Pulse: Fetching GH Activity for {norm_url}")
-                processed_gh_metadata.add(norm_url) # Add BEFORE await to block any (even theoretical) parallelism
-                gh_data = await get_github_activity(norm_url)
+                processed_gh_metadata.add(norm_url)
+                gh_tasks.append(_fetch_gh_with_sem(norm_url))
+
+        if gh_tasks:
+            log_event(f"  [METADATA] V2 Pulse: Batch fetching {len(gh_tasks)} GitHub profiles in parallel...", section_break=True)
+            gh_results = await asyncio.gather(*gh_tasks)
+            for norm_url, gh_data in gh_results:
                 if gh_data:
                     if norm_url not in self.inventory: self.inventory[norm_url] = {}
                     self.inventory[norm_url].update(gh_data)
-                    
-                gh_fetch_count += 1
-                if gh_fetch_count % 500 == 0:
-                    log_event(f"    [💾] Periodic Save: Persisting inventory after {gh_fetch_count} metadata fetches...")
-                    from src.inventory_manager import save_inventory
-                    save_inventory(self.inventory)
+                    gh_fetch_count += 1
+
+            # Periodic Save: Save once after the massive batch
+            from src.inventory_manager import save_inventory
+            save_inventory(self.inventory)
+            log_event(f"    [💾] Inventory Persisted: {gh_fetch_count} metadata entries updated.")
 
         for l in links:
             item = l.copy()
@@ -353,14 +364,13 @@ class V2VisionEngine:
             analyst_results = []
 
             # 1.1 Fast-Track: Large Batches, NO GROUNDING (Fast)
-            BATCH_SIZE_FAST = 50 # Balanced "Sweet Spot" for RPM/TPM and timeout safety (2026)
+            # Optimized: Parallel batch processing to leverage high-tier API quotas
+            BATCH_SIZE_FAST = 50 
             total_fast = len(fast_track)
-            for i in range(0, total_fast, BATCH_SIZE_FAST):
-                batch = fast_track[i:i+BATCH_SIZE_FAST]
-                batch_num = (i // BATCH_SIZE_FAST) + 1
-                total_batches = (total_fast + BATCH_SIZE_FAST - 1) // BATCH_SIZE_FAST
-                log_event(f"    [>] Fast-Track: Processing Batch {batch_num}/{total_batches}...")
+            fast_tasks = []
 
+            async def _process_fast_batch(batch_links, batch_idx, total_b):
+                log_event(f"    [>] Fast-Track: Queuing Batch {batch_idx}/{total_b}...")
                 prompt = (
                     f"You are the Nubenetes Technical Analyst (2026).\n"
                     f"{dynamic_mandates}\n"
@@ -368,14 +378,15 @@ class V2VisionEngine:
                     "PHASE 5: TECHNICAL SYNTHESIS (FAST-TRACK)\n"
                     "- Use provided metadata, AI summaries, and descriptions to classify maturity.\n"
                     "Respond ONLY JSON: {{\"results\": [{{ \"idx\": int, \"year\": \"YYYY\", \"stars\": 0-5, \"hierarchy\": [\"Area\", \"Topic\", ...], \"tags\": [\"...\"], \"summary\": \"Synthesis...\", \"language\": \"...\", \"type\": \"...\", \"complexity\": \"...\", \"is_microservice\": bool }}, ...]}}\n\n"
-                    "LINKS:\n" + "\n".join([f"{idx}. {l['title']} ({l['url']}) | Stars: {l.get('gh_stars', l.get('stars'))} | Existing Summary: {l.get('ai_summary', l.get('description'))}" for idx, l in enumerate(batch)])
+                    "LINKS:\n" + "\n".join([f"{idx}. {l['title']} ({l['url']}) | Stars: {l.get('gh_stars', l.get('stars'))} | Existing Summary: {l.get('ai_summary', l.get('description'))}" for idx, l in enumerate(batch_links)])
                 )
                 try:
                     data = await call_gemini_with_retry(prompt, prefer_flash=True, use_grounding=False, role="Analyst-Fast")
+                    batch_results = []
                     for res in data.get("results", []):
                         idx = int(res["idx"])
-                        if idx < len(batch):
-                            item = batch[idx].copy()
+                        if idx < len(batch_links):
+                            item = batch_links[idx].copy()
                             eval_data = {
                                 "year": str(res.get("year", "N/A")), "stars": min(max(int(res.get("stars", 0)), 0), 5),
                                 "ai_summary": res.get("summary", item.get("ai_summary", "")),
@@ -386,23 +397,43 @@ class V2VisionEngine:
                                 "status": "online", "is_special": item.get("is_special", False)
                             }
                             item.update(eval_data)
-                            analyst_results.append(item)
+                            batch_results.append(item)
                             
-                            # Mandate 22: Incremental Persistence to avoid data loss
+                            # Incremental Persistence
                             norm_url = normalize_url(item["url"])
                             self.inventory[norm_url] = {k:v for k,v in item.items() if k not in ["url", "title", "original_file", "is_special", "aliases"]}
                             self.inventory[norm_url]["title"] = item["title"]
-                            if "addition_method" not in self.inventory[norm_url]:
-                                self.inventory[norm_url]["addition_method"] = "manual"
+                    return batch_results
+                except Exception as e:
+                    log_event(f"    [!] Error in Fast-Batch {batch_idx}: {e}")
+                    return batch_links # Fallback to original links (standard layer)
 
-                except Exception:
-                    for l in batch: analyst_results.append(l)
+            total_batches_fast = (total_fast + BATCH_SIZE_FAST - 1) // BATCH_SIZE_FAST
+            for i in range(0, total_fast, BATCH_SIZE_FAST):
+                batch = fast_track[i:i+BATCH_SIZE_FAST]
+                batch_num = (i // BATCH_SIZE_FAST) + 1
+                fast_tasks.append(_process_fast_batch(batch, batch_num, total_batches_fast))
 
-                # Mandate 22: Save every 20 batches to disk
-                if batch_num % 20 == 0:
-                    log_event(f"    [💾] Periodic Save: Persisting inventory at batch {batch_num}...")
-                    from src.inventory_manager import save_inventory
-                    save_inventory(self.inventory)
+            if fast_tasks:
+                log_event(f"[*] Agent Phase 1.1: Dispatching {len(fast_tasks)} parallel batches...")
+                
+                # Use as_completed to persist results incrementally during parallel execution
+                processed_count = 0
+                for task in asyncio.as_completed(fast_tasks):
+                    r_list = await task
+                    analyst_results.extend(r_list)
+                    processed_count += 1
+                    
+                    # Mandate 22: Save every 10 batches to disk to avoid data loss during 6h timeouts
+                    if processed_count % 10 == 0:
+                        log_event(f"    [💾] Periodic Save: Persisting inventory after {processed_count} batches...")
+                        from src.inventory_manager import save_inventory
+                        save_inventory(self.inventory)
+
+                # Final Save
+                from src.inventory_manager import save_inventory
+                save_inventory(self.inventory)
+                log_event(f"    [💾] Inventory Persisted after {len(analyst_results)} AI evaluations.")
 
                 await asyncio.sleep(2.0) # Safety delay to respect TPM limits
 
