@@ -965,7 +965,11 @@ When processing massive datasets (e.g., full AI re-evaluations of 18k+ links), w
     *   **Run Workflow**: Select the `develop` branch.
     *   **restore_cache**: Set to `true` (Downloads the last saved state).
     *   **force_reevaluate**: Set to `false` (Ensures the AI only processes links that are still pending/missing metadata).
-3.  **Efficiency**: This strategy ensures zero token waste and zero loss of processing time, allowing the system to reach 100% coverage across multiple successive runs if necessary.
+3.  **Finalization and Promotion**: Once the AI recovery run completes successfully (which will be much faster as it only processes pending items):
+    *   **Manual Publisher Trigger**: If the automated chain does not trigger, manually run the `04.1. V2 Publisher` workflow.
+    *   **Automated PR**: The Publisher will automatically create or update the Pull Request from `develop` to `master`.
+    *   **Human Review**: The final step remains a manual review and merge of the PR by the repository owner to deploy to production.
+4.  **Efficiency**: This strategy ensures zero token waste and zero loss of processing time, allowing the system to reach 100% coverage across multiple successive runs if necessary.
 
 ---
 
