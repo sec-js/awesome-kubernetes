@@ -9,7 +9,6 @@ on:
       - 'docs/**'
   workflow_run:
     workflows: ["03.3. V2 Video Hub Builder"]
-    branches: [develop]
     types:
       - completed
   workflow_dispatch:
