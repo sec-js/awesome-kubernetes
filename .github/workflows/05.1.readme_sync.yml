@@ -12,8 +12,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: readme-sync-${{ github.ref }}
-  cancel-in-progress: true
+  group: v2-pipeline-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   sync-readme:

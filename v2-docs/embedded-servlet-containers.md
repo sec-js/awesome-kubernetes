@@ -14,7 +14,7 @@
 
 #### Migration
 
-  - **(2021)** [Apache Tomcat migration tool for Jakarta EE](https://github.com/apache/tomcat-jakartaee-migration) <span class='md-tag md-tag--info'>⭐ 188</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A command-line utility designed to automatically migrate legacy Java EE 8 web applications to modern Jakarta EE (9+) architectures. It translates package namespaces from javax.* to jakarta.* in binaries and source code.
+  - **(2021)** [Apache Tomcat migration tool for Jakarta EE](https://github.com/apache/tomcat-jakartaee-migration) <span class='md-tag md-tag--info'>⭐ 188</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A command-line utility designed to automatically migrate legacy Java EE 8 web applications to modern Jakarta EE (9+) architectures. It translates package namespaces from `javax.*` to `jakarta.*` in binaries and source code.
 #### Web Servers
 
   - **(2026)** [Undertow](http://undertow.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly performant, modular web server designed by Red Hat. Written in Java, it features non-blocking, asynchronous capabilities, functioning as a powerful, lightweight container engine for high-density microservices.
