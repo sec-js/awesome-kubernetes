@@ -91,7 +91,7 @@
   - **(2019)** [itnext.io: docker in docker](https://itnext.io/docker-in-docker-521958d34efd) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural analysis of executing Docker commands inside a Docker container (DinD). Discusses security implications, privileged access requirements, and alternative approaches like mounting the host's Docker socket.
 #### Networking
 
-  - **(2018)** [**ref1: docker build --network=host**](https://github.com/awslabs/amazon-eks-ami/issues/183) <span class='md-tag md-tag--info'>⭐ 2652</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A long-standing GitHub issue discussing Docker build networking constraints, specifically regarding the utilization of host-networking. Valuable for troubleshooting build-time network discovery and enterprise proxy traversal.
+  - **(2018)** [**ref1: docker build --network=host**](https://github.com/awslabs/amazon-eks-ami/issues/183) <span class='md-tag md-tag--info'>⭐ 2651</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A long-standing GitHub issue discussing Docker build networking constraints, specifically regarding the utilization of host-networking. Valuable for troubleshooting build-time network discovery and enterprise proxy traversal.
 ### Enterprise Platforms
 
 #### SAP
@@ -537,7 +537,7 @@
 
 #### Access Management
 
-  - **(2021)** [==Connecting and authenticating to Jenkins with Teleport Application Access==](https://github.com/gravitational/teleport/discussions/8330) <span class='md-tag md-tag--info'>⭐ 20485</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Explains how to secure Jenkins controller instances with identity-aware authorization proxies via Teleport Application Access. *Curator Insight*: Security gateways. *Live Grounding*: Critical blueprint for modern security compliance, eliminating the vulnerability of exposing Jenkins directly to the internet.
+  - **(2021)** [==Connecting and authenticating to Jenkins with Teleport Application Access==](https://github.com/gravitational/teleport/discussions/8330) <span class='md-tag md-tag--info'>⭐ 20488</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Explains how to secure Jenkins controller instances with identity-aware authorization proxies via Teleport Application Access. *Curator Insight*: Security gateways. *Live Grounding*: Critical blueprint for modern security compliance, eliminating the vulnerability of exposing Jenkins directly to the internet.
 #### Credentials Binding
 
   - **(2021)** [jenkins.io: Git Username/Password Credentials Binding for sh, bat, and powershell 🌟](https://www.jenkins.io/blog/2021/07/27/git-credentials-binding-phase-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Covers Jenkins secure credential binding updates, preventing execution shells (sh, bat, powershell) from exposing VCS passwords in public log systems. *Curator Insight*: Securing git commands. *Live Grounding*: Baseline security practice required to prevent credentials leakage.

@@ -31,7 +31,7 @@
 
 #### Awesome Lists (1)
 
-  - **(2025)** [==Awesome MCP Servers==](https://github.com/punkpeye/awesome-mcp-servers) <span class='md-tag md-tag--info'>⭐ 89049</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: A community-curated collection of servers implementing the Model Context Protocol. Live Grounding: Aggregates verified integrations linking AI models to tools like relational databases, enterprise APIs, version control providers, and local execution runtimes.
+  - **(2025)** [==Awesome MCP Servers==](https://github.com/punkpeye/awesome-mcp-servers) <span class='md-tag md-tag--info'>⭐ 89105</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: A community-curated collection of servers implementing the Model Context Protocol. Live Grounding: Aggregates verified integrations linking AI models to tools like relational databases, enterprise APIs, version control providers, and local execution runtimes.
 ## API Development
 
 ### API Gateway
@@ -57,7 +57,7 @@
 
 #### Curated Ecosystems
 
-  - **(2023)** [github.com/tensorchord/Awesome-LLMOps: Awesome LLMOps](https://github.com/tensorchord/Awesome-LLMOps) <span class='md-tag md-tag--info'>⭐ 5841</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An expansive, curated catalog of leading open-source LLMOps tooling, libraries, and frameworks. Curator Insight and Live Grounding validate this repository as a comprehensive roadmap for configuring production vector databases, distributed training trackers, model testing beds, and low-latency inference gateways.
+  - **(2023)** [github.com/tensorchord/Awesome-LLMOps: Awesome LLMOps](https://github.com/tensorchord/Awesome-LLMOps) <span class='md-tag md-tag--info'>⭐ 5843</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An expansive, curated catalog of leading open-source LLMOps tooling, libraries, and frameworks. Curator Insight and Live Grounding validate this repository as a comprehensive roadmap for configuring production vector databases, distributed training trackers, model testing beds, and low-latency inference gateways.
 ### MLOps (1)
 
 #### Kubernetes Machine Learning
@@ -69,7 +69,7 @@
 
 #### Resource Curation
 
-  - **(2014)** [==Awesome Python 🌟==](https://github.com/vinta/awesome-python) <span class='md-tag md-tag--info'>⭐ 302727</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The quintessential curated directory indexing thousands of top-tier Python packages, libraries, frameworks, and tools across data science, web development, containerization, and networking.
+  - **(2014)** [==Awesome Python 🌟==](https://github.com/vinta/awesome-python) <span class='md-tag md-tag--info'>⭐ 302811</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The quintessential curated directory indexing thousands of top-tier Python packages, libraries, frameworks, and tools across data science, web development, containerization, and networking.
 ## Cloud Infrastructure
 
 ### AWS
@@ -88,7 +88,7 @@
   - **(2026)** [github.com/simhol/awesome-azure: Awesome Azure](https://github.com/simhol/awesome-azure) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A community-maintained resource collection for Azure deployments, automation scripts, and management frameworks. This index aggregates specialized tools and networking resources that complement official Microsoft documentation. It functions as a valuable secondary reference for enterprise cloud-migration pipelines.
 #### Training (1)
 
-  - **(2026)** [==github.com/iam-veeramalla/Azure-zero-to-hero: Azure Zero to Hero Course==](https://github.com/iam-veeramalla/Azure-zero-to-hero) <span class='md-tag md-tag--info'>⭐ 5103</span> <span class='md-tag md-tag--warning'>[PYTHON/SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A structured, hands-on learning roadmap tracking Azure Cloud Administration, DevOps architectures, and fundamental services. Focuses on practical engineering exercises, building CI/CD pipelines, and writing ARM/Bicep infrastructure templates. Serves as an exceptional onboarding tool for transition-phase cloud engineers.
+  - **(2026)** [==github.com/iam-veeramalla/Azure-zero-to-hero: Azure Zero to Hero Course==](https://github.com/iam-veeramalla/Azure-zero-to-hero) <span class='md-tag md-tag--info'>⭐ 5105</span> <span class='md-tag md-tag--warning'>[PYTHON/SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A structured, hands-on learning roadmap tracking Azure Cloud Administration, DevOps architectures, and fundamental services. Focuses on practical engineering exercises, building CI/CD pipelines, and writing ARM/Bicep infrastructure templates. Serves as an exceptional onboarding tool for transition-phase cloud engineers.
 ### DigitalOcean
 
 #### Resources (5)
@@ -134,7 +134,7 @@
   - **(2026)** [koslib/awesome-containerized-security 🌟](https://github.com/koslib/awesome-containerized-security) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open repository cataloging security scanners, image validation standards, and host sandboxing tools. Aids DevSecOps engineers in hardening continuous integration pipelines and preventing privilege escalation exploits within cluster nodes.
 #### DevSecOps Integration
 
-  - **(2026)** [sottlmarek/DevSecOps: Ultimate DevSecOps library 🌟](https://github.com/sottlmarek/DevSecOps) <span class='md-tag md-tag--info'>⭐ 6757</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A comprehensive reference detailing methodologies, pipeline security patterns, and scanners for DevSecOps implementation. Provides instructions on integrating static and dynamic analysis, secrets detection, and compliance gates within continuous delivery pipelines.
+  - **(2026)** [sottlmarek/DevSecOps: Ultimate DevSecOps library 🌟](https://github.com/sottlmarek/DevSecOps) <span class='md-tag md-tag--info'>⭐ 6760</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A comprehensive reference detailing methodologies, pipeline security patterns, and scanners for DevSecOps implementation. Provides instructions on integrating static and dynamic analysis, secrets detection, and compliance gates within continuous delivery pipelines.
 #### DevSecOps Tools
 
   - **(2026)** [hahwul/DevSecOps](https://github.com/hahwul/DevSecOps) <span class='md-tag md-tag--info'>⭐ 2127</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly structured index cataloging security automation software, container scanning scripts, dependency checkers, and automated risk analysis systems. Essential for hardening software supply chains.
@@ -172,7 +172,7 @@
 
 #### Reference Frameworks
 
-  - **(2025)** [==Awesome Docker 🌟==](https://github.com/veggiemonk/awesome-docker) <span class='md-tag md-tag--info'>⭐ 36213</span> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier community directory compiling top-tier runtimes, base images, build extensions, registries, and runtime protection systems. An indispensable reference manual for Cloud Native architects.
+  - **(2025)** [==Awesome Docker 🌟==](https://github.com/veggiemonk/awesome-docker) <span class='md-tag md-tag--info'>⭐ 36214</span> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier community directory compiling top-tier runtimes, base images, build extensions, registries, and runtime protection systems. An indispensable reference manual for Cloud Native architects.
 ### Docker
 
 #### Extensions
@@ -184,7 +184,7 @@
 
 #### GitHub Actions
 
-  - **(2026)** [**Awesome GitHub Actions**](https://github.com/sdras/awesome-actions) <span class='md-tag md-tag--info'>⭐ 27904</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier community-backed library for GitHub Actions workflows, custom actions, and orchestrator tools. Streamlines structural pipelines by detailing matrix patterns, self-hosted runner optimizations, and security hardening configurations.
+  - **(2026)** [**Awesome GitHub Actions**](https://github.com/sdras/awesome-actions) <span class='md-tag md-tag--info'>⭐ 27907</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier community-backed library for GitHub Actions workflows, custom actions, and orchestrator tools. Streamlines structural pipelines by detailing matrix patterns, self-hosted runner optimizations, and security hardening configurations.
 #### Jenkins Ecosystem
 
   - **(2026)** [sahilsk/awesome-jenkins](https://github.com/sahilsk/awesome-jenkins) <span class='md-tag md-tag--info'>⭐ 70</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A focused index consolidating plugins, shared pipeline library patterns, and optimization practices for Jenkins automation servers. Excellent resource for maintaining complex legacy enterprise build pipelines.
@@ -202,13 +202,13 @@
 
 #### Cloud Native (1)
 
-  - **(2023)** [==rootsongjc/awesome-cloud-native 🌟==](https://github.com/rootsongjc/awesome-cloud-native) <span class='md-tag md-tag--info'>⭐ 2412</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensive library mapping the CNCF Cloud Native landscape, detailing Service Meshes, dynamic storages, logging setups, and database drivers. Provides platform architects with a systematic catalog to structure and maintain resilient, cloud-agnostic application footprints.
+  - **(2023)** [==rootsongjc/awesome-cloud-native 🌟==](https://github.com/rootsongjc/awesome-cloud-native) <span class='md-tag md-tag--info'>⭐ 2413</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensive library mapping the CNCF Cloud Native landscape, detailing Service Meshes, dynamic storages, logging setups, and database drivers. Provides platform architects with a systematic catalog to structure and maintain resilient, cloud-agnostic application footprints.
 #### Containers (1)
 
   - **(2023)** [==Awesome Container==](https://github.com/tcnksm/awesome-container) <span class='md-tag md-tag--info'>⭐ 175</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A specialized index investigating low-level container building, runtimes (runc, containerd, CRI-O), image specification standards, and isolation platforms. Ideal for system engineers seeking to master virtualization fundamentals and security sandboxing at the kernel boundary.
 #### General
 
-  - **(2023)** [==@sindresorhus' Awesome==](https://github.com/sindresorhus/awesome) <span class='md-tag md-tag--info'>⭐ 475442</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main index repository by Sindre Sorhus, tracking development resources and technologies globally. Highly useful for architects trying to cross-reference multiple tech stack capabilities.
+  - **(2023)** [==@sindresorhus' Awesome==](https://github.com/sindresorhus/awesome) <span class='md-tag md-tag--info'>⭐ 475597</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main index repository by Sindre Sorhus, tracking development resources and technologies globally. Highly useful for architects trying to cross-reference multiple tech stack capabilities.
 #### Kubernetes (1)
 
   - **(2023)** [==@ramitsurana' Awesome Kubernetes==](https://ramitsurana.github.io/awesome-kubernetes) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A thoroughly organized directory of tools, books, tutorials, and libraries designed for Kubernetes users. Serves as an invaluable learning roadmap for operations engineers and developers to discover and adopt production-grade tooling in their DevOps lifecycles.
@@ -220,7 +220,7 @@
   - **(2023)** [Awesome kubetools](http://dockerlabs.collabnix.com/kubernetes/kubetools) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated handbook cataloging CLI-level tools, visual interfaces, and monitoring integrations for Kubernetes clusters. This repository serves as a catalog of terminal enhancements like k9s and kubectx to streamline manual control of multiple namespaces.
 #### Linux
 
-  - **(2023)** [==Awesome Linux==](https://github.com/inputsh/awesome-linux) <span class='md-tag md-tag--info'>⭐ 5047</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A premier directory of Linux performance diagnostic utilities, shell configurations, system metrics collectors, and custom distributions. This guide is an invaluable reference for platform engineers optimizing base host OS layers for container node hosts.
+  - **(2023)** [==Awesome Linux==](https://github.com/inputsh/awesome-linux) <span class='md-tag md-tag--info'>⭐ 5048</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A premier directory of Linux performance diagnostic utilities, shell configurations, system metrics collectors, and custom distributions. This guide is an invaluable reference for platform engineers optimizing base host OS layers for container node hosts.
 #### Meta-Analysis
 
   - **(2023)** [dev.to: The Awesome Side of GitHub - Awesome Lists | Leonardo Montini](https://dev.to/playfulprogramming/the-awesome-side-of-github-awesome-lists-2a5h)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical piece exploring the architectural and community value of GitHub's curated lists. Explains how these directories democratize community knowledge sharing and guides software developers in discovering, evaluating, and contributing to open-source resource landscapes.
@@ -229,10 +229,10 @@
   - **(2023)** [==github.com/calvin-puram: Awesome Kubernetes Operator Resources==](https://github.com/calvin-puram/awesome-kubernetes-operator-resources) <span class='md-tag md-tag--info'>⭐ 245</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A specialized guide indexing SDKs, patterns, and source repositories for writing Kubernetes Operators. It provides concrete references on the Operator SDK, Kubebuilder framework, and controller-runtime systems, allowing platform developers to build automated, stateful management controllers.
 #### Productivity
 
-  - **(2023)** [==Awesome Productivity==](https://github.com/jyguyomarch/awesome-productivity) <span class='md-tag md-tag--info'>⭐ 3255</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A curated directory showcasing productivity systems, workspace organizers, automated scripting kits, and distraction-blocking helpers. Designed to aid engineers in maximizing throughput and focusing effort during large-scale development sprints.
+  - **(2023)** [==Awesome Productivity==](https://github.com/jyguyomarch/awesome-productivity) <span class='md-tag md-tag--info'>⭐ 3257</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A curated directory showcasing productivity systems, workspace organizers, automated scripting kits, and distraction-blocking helpers. Designed to aid engineers in maximizing throughput and focusing effort during large-scale development sprints.
 #### Scalability
 
-  - **(2023)** [==Awesome Scalability==](https://github.com/binhnguyennus/awesome-scalability) <span class='md-tag md-tag--info'>⭐ 71703</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A legendary repository outlining the structural design patterns for massive, highly available backend systems. Covering microservices coordination, message brokers, caching schemas, and consensus databases, this represents the gold standard for backend systems architects.
+  - **(2023)** [==Awesome Scalability==](https://github.com/binhnguyennus/awesome-scalability) <span class='md-tag md-tag--info'>⭐ 71719</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A legendary repository outlining the structural design patterns for massive, highly available backend systems. Covering microservices coordination, message brokers, caching schemas, and consensus databases, this represents the gold standard for backend systems architects.
 #### Security (2)
 
   - **(2023)** [==magnologan/awesome-k8s-security: Awesome Kubernetes (K8s) Security 🌟==](https://github.com/magnologan/awesome-k8s-security) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A premier directory indexing specialized Kubernetes security packages, scanners, CVE logs, and hardening guides. It collects key scanning tools such as Falco, Trivy, and Polaris, helping cloud compliance officers map cluster defense strategies against known attack matrices.
@@ -244,7 +244,7 @@
 
 #### DevOps
 
-  - **(2023)** [==The Book of Secret Knowledge 🌟==](https://github.com/trimstray/the-book-of-secret-knowledge) <span class='md-tag md-tag--info'>⭐ 228192</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive, high-density repository of DevOps command cheatsheets, diagnostic scripts, network testing algorithms, and configuration templates. Highly useful for site reliability engineers performing active cluster incident responses and systems troubleshooting under pressure.
+  - **(2023)** [==The Book of Secret Knowledge 🌟==](https://github.com/trimstray/the-book-of-secret-knowledge) <span class='md-tag md-tag--info'>⭐ 228278</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive, high-density repository of DevOps command cheatsheets, diagnostic scripts, network testing algorithms, and configuration templates. Highly useful for site reliability engineers performing active cluster incident responses and systems troubleshooting under pressure.
 ### Educational Resources
 
 #### Articles
@@ -261,7 +261,7 @@
 
 #### Resources (8)
 
-  - **(2026)** [==onurakpolat/awesome-bigdata==](https://github.com/oxnr/awesome-bigdata) <span class='md-tag md-tag--info'>⭐ 14439</span> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive directory for the distributed data ecosystem. Highlights streaming platforms (Kafka, Flink), compute engines (Spark), and modern distributed object stores, outlining integration paths for container-orchestrated big data structures. Indispensable for Big Data platform architects.
+  - **(2026)** [==onurakpolat/awesome-bigdata==](https://github.com/oxnr/awesome-bigdata) <span class='md-tag md-tag--info'>⭐ 14440</span> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive directory for the distributed data ecosystem. Highlights streaming platforms (Kafka, Flink), compute engines (Spark), and modern distributed object stores, outlining integration paths for container-orchestrated big data structures. Indispensable for Big Data platform architects.
 ### Data Curation
 
 #### Web Scraping
@@ -312,14 +312,14 @@
 
 #### Reference Guides
 
-  - **(2026)** [==bregman-arie/devops-exercises 🌟==](https://github.com/bregman-arie/devops-exercises) <span class='md-tag md-tag--info'>⭐ 82749</span> <span class='md-tag md-tag--warning'>[PYTHON/YAML CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A massive curated repository containing thousands of questions, answers, and hands-on exercises covering Linux, Jenkins, Docker, Kubernetes, Ansible, Terraform, AWS, and system design. (Live Grounding: With over 82k stars, it stands in 2026 as the preeminent resource for preparing systems engineers and validating platform architecture skills).
+  - **(2026)** [==bregman-arie/devops-exercises 🌟==](https://github.com/bregman-arie/devops-exercises) <span class='md-tag md-tag--info'>⭐ 82758</span> <span class='md-tag md-tag--warning'>[PYTHON/YAML CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A massive curated repository containing thousands of questions, answers, and hands-on exercises covering Linux, Jenkins, Docker, Kubernetes, Ansible, Terraform, AWS, and system design. (Live Grounding: With over 82k stars, it stands in 2026 as the preeminent resource for preparing systems engineers and validating platform architecture skills).
 ## Developer Tools
 
 ### IDE
 
 #### VS Code
 
-  - **(2026)** [==Awesome Visual Studio Code==](https://github.com/viatsko/awesome-vscode) <span class='md-tag md-tag--info'>⭐ 28743</span> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive directory of extensions, themes, and configuration recipes designed to turn VS Code into a productivity powerhouse. Highly relevant for cloud-native developers seeking extensions for Kubernetes, Terraform, Docker, and remote workspace development. Serves as a daily driver resource for developer enablement teams.
+  - **(2026)** [==Awesome Visual Studio Code==](https://github.com/viatsko/awesome-vscode) <span class='md-tag md-tag--info'>⭐ 28747</span> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive directory of extensions, themes, and configuration recipes designed to turn VS Code into a productivity powerhouse. Highly relevant for cloud-native developers seeking extensions for Kubernetes, Terraform, Docker, and remote workspace development. Serves as a daily driver resource for developer enablement teams.
 ### Methodology (1)
 
 #### Resources (9)
@@ -337,7 +337,7 @@
   - **(2026)** [Bash and Expect Snippets](https://www.igoroseledko.com/bash-and-expect-snippets) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A practical blog and snippet collection focused on automation patterns using Bash scripting combined with Expect. Highly useful for scripting interactions with CLI interfaces that lack native APIs or configuration options. Largely legacy in modern IaC environments, but remains a vital Swiss army knife for legacy systems integration.
 #### PowerShell
 
-  - **(2026)** [==janikvonrotz/awesome-powershell==](https://github.com/janikvonrotz/awesome-powershell) <span class='md-tag md-tag--info'>⭐ 5395</span> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A curated repository detailing modules, cmdlets, and automation patterns using cross-platform PowerShell. Invaluable for platform engineers managing hybrid cloud setups, Windows nodes inside container networks, or Active Directory automation. This serves as a vital tool for enterprise systems integration.
+  - **(2026)** [==janikvonrotz/awesome-powershell==](https://github.com/janikvonrotz/awesome-powershell) <span class='md-tag md-tag--info'>⭐ 5396</span> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A curated repository detailing modules, cmdlets, and automation patterns using cross-platform PowerShell. Invaluable for platform engineers managing hybrid cloud setups, Windows nodes inside container networks, or Active Directory automation. This serves as a vital tool for enterprise systems integration.
   - **(2026)** [awesomerank.github.io: janikvonrotz/awesome-powershell](https://awesomerank.github.io/lists/janikvonrotz/awesome-powershell.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — An automatically ranked rendering of the Awesome PowerShell directory, categorizing contributions by community engagement and updates. It provides engineers with instant visibility into which PowerShell modules are actively maintained versus those that have lapsed into legacy status.
 ## Documentation (1)
 
@@ -357,7 +357,7 @@
 
 #### Reference Architectures
 
-  - **(2026)** [==Awesome Compose 🌟==](https://github.com/docker/awesome-compose) <span class='md-tag md-tag--info'>⭐ 45538</span> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Awesome Compose is an official, highly curated repository of declarative multi-container topologies using Docker Compose. It showcases optimal configuration patterns for databases, caching layers, application servers, and microservices (e.g., PostgreSQL, Redis, Elasticsearch, Go, Python, React). It represents a critical, high-impact reference architecture for platform engineers standardizing local development setups.
+  - **(2026)** [==Awesome Compose 🌟==](https://github.com/docker/awesome-compose) <span class='md-tag md-tag--info'>⭐ 45540</span> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Awesome Compose is an official, highly curated repository of declarative multi-container topologies using Docker Compose. It showcases optimal configuration patterns for databases, caching layers, application servers, and microservices (e.g., PostgreSQL, Redis, Elasticsearch, Go, Python, React). It represents a critical, high-impact reference architecture for platform engineers standardizing local development setups.
 ## Infrastructure and Operations
 
 ### Cloud Operations
@@ -386,12 +386,12 @@
   - **(2026)** [Awesome DevOps](https://github.com/awesome-soft/awesome-devops) <span class='md-tag md-tag--info'>⭐ 518</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A multi-disciplinary tool index mapping platforms for provisioning, monitoring, security, container hosting, and deployment automation. Acts as a quick-lookup repository for constructing comprehensive DevOps toolchains.
 #### Syllabus and Training
 
-  - **(2026)** [**MichaelCade/90DaysOfDevOps 🌟**](https://github.com/MichaelCade/90DaysOfDevOps) <span class='md-tag md-tag--info'>⭐ 29496</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An intensive, community-acclaimed learning curriculum tracking systems and DevOps fundamentals over a 90-day syllabus. Deeply targets foundational to advanced configurations in virtualization, Kubernetes, CI/CD, and monitoring.
+  - **(2026)** [**MichaelCade/90DaysOfDevOps 🌟**](https://github.com/MichaelCade/90DaysOfDevOps) <span class='md-tag md-tag--info'>⭐ 29497</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An intensive, community-acclaimed learning curriculum tracking systems and DevOps fundamentals over a 90-day syllabus. Deeply targets foundational to advanced configurations in virtualization, Kubernetes, CI/CD, and monitoring.
 ### Developer Productivity
 
 #### Shell Ecosystems
 
-  - **(2026)** [**unixorn/awesome-zsh-plugins**](https://github.com/unixorn/awesome-zsh-plugins) <span class='md-tag md-tag--info'>⭐ 17761</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensive index of Zsh themes, performance plugins, and CLI integrations designed to improve operational throughput. Streamlines developer environment workflows, integrating native shell helpers for Kubernetes, Git, and Docker operations.
+  - **(2026)** [**unixorn/awesome-zsh-plugins**](https://github.com/unixorn/awesome-zsh-plugins) <span class='md-tag md-tag--info'>⭐ 17762</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensive index of Zsh themes, performance plugins, and CLI integrations designed to improve operational throughput. Streamlines developer environment workflows, integrating native shell helpers for Kubernetes, Git, and Docker operations.
 ### Infrastructure as Code
 
 #### Enterprise Documentation
@@ -401,7 +401,7 @@
 
 #### Case Studies
 
-  - **(2026)** [How they SRE](https://github.com/upgundecha/howtheysre) <span class='md-tag md-tag--info'>⭐ 9730</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An invaluable reference listing real-world operational workflows from major software companies. Provides technical insights into telemetry design, high-concurrency database setups, cluster failovers, and on-call team topologies.
+  - **(2026)** [How they SRE](https://github.com/upgundecha/howtheysre) <span class='md-tag md-tag--info'>⭐ 9731</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An invaluable reference listing real-world operational workflows from major software companies. Provides technical insights into telemetry design, high-concurrency database setups, cluster failovers, and on-call team topologies.
 #### General SRE
 
   - **(2026)** [awesome-sre/awesome-sre](https://github.com/awesome-sre/awesome-sre) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A general SRE community registry documenting articles, telemetry paradigms, cluster performance charts, and manual failover plans for high-concurrency web systems.
@@ -416,17 +416,17 @@
   - **(2026)** [steveazz/awesome-slo: Awesome SLOs](https://github.com/steve-mt/awesome-slo) <span class='md-tag md-tag--info'>⭐ 280</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly practical resource library mapping Service Level Objectives (SLOs) and Service Level Indicators (SLIs). Curates specialized tooling and calculators designed to help teams construct resilient alerting networks and manage operational error budgets.
 #### SRE Reference
 
-  - **(2026)** [**dastergon/awesome-sre**](https://github.com/dastergon/awesome-sre) <span class='md-tag md-tag--info'>⭐ 13264</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The definitive collection of Site Reliability Engineering papers, patterns, operational postmortem schemas, and metric trackers. Essential reading for operations leaders setting up robust on-call architectures and incident routing systems.
+  - **(2026)** [**dastergon/awesome-sre**](https://github.com/dastergon/awesome-sre) <span class='md-tag md-tag--info'>⭐ 13267</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The definitive collection of Site Reliability Engineering papers, patterns, operational postmortem schemas, and metric trackers. Essential reading for operations leaders setting up robust on-call architectures and incident routing systems.
 ### System Administration
 
 #### Interview Prep
 
-  - **(2018)** [**trimstray/test-your-sysadmin-skills**](https://github.com/trimstray/test-your-sysadmin-skills) <span class='md-tag md-tag--info'>⭐ 11656</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An intensive, community-driven collection of system administration questions covering Linux kernel parameters, networking, security controls, and CI/CD pipelines. Curator Insight flags it as an essential baseline framework. Live Grounding notes that while static, it remains a fantastic benchmarking schema.
+  - **(2018)** [**trimstray/test-your-sysadmin-skills**](https://github.com/trimstray/test-your-sysadmin-skills) <span class='md-tag md-tag--info'>⭐ 11657</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An intensive, community-driven collection of system administration questions covering Linux kernel parameters, networking, security controls, and CI/CD pipelines. Curator Insight flags it as an essential baseline framework. Live Grounding notes that while static, it remains a fantastic benchmarking schema.
 ### Systems Administration
 
 #### Tools and Infrastructure
 
-  - **(2026)** [**Awesome SysAdmin**](https://github.com/kahun/awesome-sysadmin) <span class='md-tag md-tag--info'>⭐ 24309</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier community-led index indexing system administration tools and software solutions. Essential for discovering stable, self-hosted services for network mapping, backups, monitoring, and automated system setups.
+  - **(2026)** [**Awesome SysAdmin**](https://github.com/kahun/awesome-sysadmin) <span class='md-tag md-tag--info'>⭐ 24308</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier community-led index indexing system administration tools and software solutions. Essential for discovering stable, self-hosted services for network mapping, backups, monitoring, and automated system setups.
 ## Infrastructure as Code (1)
 
 ### Ansible
@@ -439,12 +439,12 @@
 
 #### Bicep
 
-  - **(2026)** [==ElYusubov/AWESOME-Azure-Bicep: AWESOME Azure Bicep==](https://github.com/ElYusubov/AWESOME-Azure-Bicep) <span class='md-tag md-tag--info'>⭐ 430</span> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An index of resource libraries, module registries, and extension directories tailored for Azure Bicep DSL. Bicep has largely superseded ARM JSON templates as Microsoft's first-party IaC solution. This resource serves as a crucial reference for cloud platform engineers aiming to write clean, declarative Azure infrastructure code.
+  - **(2026)** [==ElYusubov/AWESOME-Azure-Bicep: AWESOME Azure Bicep==](https://github.com/ElYusubov/AWESOME-Azure-Bicep) <span class='md-tag md-tag--info'>⭐ 431</span> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An index of resource libraries, module registries, and extension directories tailored for Azure Bicep DSL. Bicep has largely superseded ARM JSON templates as Microsoft's first-party IaC solution. This resource serves as a crucial reference for cloud platform engineers aiming to write clean, declarative Azure infrastructure code.
 ### Curation (2)
 
 #### Community Directories
 
-  - **(2025)** [==github.com/shuaibiyy/awesome-terraform==](https://github.com/shuaibiyy/awesome-tf) <span class='md-tag md-tag--info'>⭐ 6529</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensive directory of modules, tools, linters, frameworks, and packages curated by the Terraform community. Acts as a core index for tracking dynamic tooling ecosystems like Terragrunt, TFLint, Terrascan, and cost optimization utilities.
+  - **(2025)** [==github.com/shuaibiyy/awesome-terraform==](https://github.com/shuaibiyy/awesome-tf) <span class='md-tag md-tag--info'>⭐ 6530</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensive directory of modules, tools, linters, frameworks, and packages curated by the Terraform community. Acts as a core index for tracking dynamic tooling ecosystems like Terragrunt, TFLint, Terrascan, and cost optimization utilities.
 ### Packer
 
 #### Images
@@ -463,7 +463,7 @@
 
 #### Search Engine
 
-  - **(2023)** [==clusterpedia-io/clusterpedia 🌟==](https://github.com/clusterpedia-io/clusterpedia) <span class='md-tag md-tag--info'>⭐ 872</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Clusterpedia is a high-performance open-source search engine for multi-cluster Kubernetes resources. It periodically synchronizes objects from countless distinct environments into a centralized database, exposing a standard Kubernetes API endpoint to enable low-latency, cross-cluster resource discovery and management.
+  - **(2023)** [==clusterpedia-io/clusterpedia 🌟==](https://github.com/clusterpedia-io/clusterpedia) <span class='md-tag md-tag--info'>⭐ 873</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Clusterpedia is a high-performance open-source search engine for multi-cluster Kubernetes resources. It periodically synchronizes objects from countless distinct environments into a centralized database, exposing a standard Kubernetes API endpoint to enable low-latency, cross-cluster resource discovery and management.
 ## Observability and Monitoring
 
 ### Application Performance Monitoring
@@ -510,7 +510,7 @@
 
 #### Resources (11)
 
-  - **(2026)** [==Awesome Go 🌟==](https://github.com/avelino/awesome-go) <span class='md-tag md-tag--info'>⭐ 175350</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive curated repository of high-quality Go frameworks, libraries, and software. Unmatched resource for identifying vetted dependencies for enterprise service development. Ideal for building lightweight, hyper-fast microservices, Kubernetes operators, and cloud infrastructure CLI tools.
+  - **(2026)** [==Awesome Go 🌟==](https://github.com/avelino/awesome-go) <span class='md-tag md-tag--info'>⭐ 175394</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive curated repository of high-quality Go frameworks, libraries, and software. Unmatched resource for identifying vetted dependencies for enterprise service development. Ideal for building lightweight, hyper-fast microservices, Kubernetes operators, and cloud infrastructure CLI tools.
 ### Java
 
 #### Resources (12)
@@ -520,7 +520,7 @@
 
 #### Angular
 
-  - **(2026)** [==Awesome Angular==](https://github.com/PatrickJS/awesome-angular) <span class='md-tag md-tag--info'>⭐ 10027</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive curated collection of modules, state management patterns (NgRx), and testing pipelines for the Angular framework. Primarily useful for frontend web development teams constructing large-scale enterprise administration panels and dashboard portals. Includes dynamic blueprints for client-side single page applications (SPAs).
+  - **(2026)** [==Awesome Angular==](https://github.com/PatrickJS/awesome-angular) <span class='md-tag md-tag--info'>⭐ 10028</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive curated collection of modules, state management patterns (NgRx), and testing pipelines for the Angular framework. Primarily useful for frontend web development teams constructing large-scale enterprise administration panels and dashboard portals. Includes dynamic blueprints for client-side single page applications (SPAs).
 ## Security (3)
 
 ### Containers (2)
@@ -537,7 +537,7 @@
 
 #### Resources (13)
 
-  - **(2026)** [==sbilly/awesome-security: Awesome Security==](https://github.com/sbilly/awesome-security) <span class='md-tag md-tag--info'>⭐ 14419</span> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A monumental collection of software security components, pen-testing tools, cryptography resources, and threat intelligence feeds. Essential for SecOps engineers establishing modern compliance standards across application and network boundaries. Highly versatile, spanning from host security to Kubernetes runtime defenses.
+  - **(2026)** [==sbilly/awesome-security: Awesome Security==](https://github.com/sbilly/awesome-security) <span class='md-tag md-tag--info'>⭐ 14421</span> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A monumental collection of software security components, pen-testing tools, cryptography resources, and threat intelligence feeds. Essential for SecOps engineers establishing modern compliance standards across application and network boundaries. Highly versatile, spanning from host security to Kubernetes runtime defenses.
 ### Policy as Code
 
 #### OPA
@@ -549,7 +549,7 @@
 
 #### Interview Preparation (1)
 
-  - **(2026)** [==Tech Interview Handbook==](https://github.com/yangshun/tech-interview-handbook) <span class='md-tag md-tag--info'>⭐ 140276</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive prep suite for engineering roles, focusing on algorithms, practical system design topologies, behavioral matrices, and resume optimizations. Provides actionable code structures and design templates built to satisfy high-bar technical interview pipelines.
+  - **(2026)** [==Tech Interview Handbook==](https://github.com/yangshun/tech-interview-handbook) <span class='md-tag md-tag--info'>⭐ 140286</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive prep suite for engineering roles, focusing on algorithms, practical system design topologies, behavioral matrices, and resume optimizations. Provides actionable code structures and design templates built to satisfy high-bar technical interview pipelines.
 ### Education (1)
 
 #### Foundations
@@ -564,7 +564,7 @@
 
 #### SaaS Alternatives
 
-  - **(2026)** [**runacapital/awesome-oss-alternatives: Awesome open-source alternatives to' SaaS 🌟**](https://github.com/runacapital/awesome-oss-alternatives) <span class='md-tag md-tag--info'>⭐ 19230</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An architectural directory showcasing open-source, self-hostable equivalents to commercial SaaS platforms. Helps enterprise tech architects mitigate vendor lock-in, streamline data compliance, and deploy privacy-centric containerized services locally.
+  - **(2026)** [**runacapital/awesome-oss-alternatives: Awesome open-source alternatives to' SaaS 🌟**](https://github.com/runacapital/awesome-oss-alternatives) <span class='md-tag md-tag--info'>⭐ 19234</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An architectural directory showcasing open-source, self-hostable equivalents to commercial SaaS platforms. Helps enterprise tech architects mitigate vendor lock-in, streamline data compliance, and deploy privacy-centric containerized services locally.
 ### Quality Assurance
 
 #### SQA Frameworks

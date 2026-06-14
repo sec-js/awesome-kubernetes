@@ -110,7 +110,7 @@
 
 #### Cloud Emulation
 
-  - **(2024)** [==Floci - An AWS Local Emulator Alternative==](https://github.com/floci-io/floci) <span class='md-tag md-tag--info'>⭐ 14044</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An active and highly performant local alternative to localstack. Emulates AWS cloud service behavior locally using specialized lightweight container footprints.
+  - **(2024)** [==Floci - An AWS Local Emulator Alternative==](https://github.com/floci-io/floci) <span class='md-tag md-tag--info'>⭐ 14060</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An active and highly performant local alternative to localstack. Emulates AWS cloud service behavior locally using specialized lightweight container footprints.
 ## Infrastructure
 
 ### DevOps

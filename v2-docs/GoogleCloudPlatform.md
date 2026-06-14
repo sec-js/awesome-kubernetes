@@ -18,7 +18,7 @@
 
 #### Command-Line Tools
 
-  - **(2025)** [**Google Agents CLI**](https://github.com/google/agents-cli) <span class='md-tag md-tag--info'>⭐ 2840</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official command-line tool from Google built to design, test, and deploy agentic AI workflows. Leveraging the Model Context Protocol (MCP) and Google LLM APIs, it facilitates automated task orchestration across local filesystems and remote cloud APIs.
+  - **(2025)** [**Google Agents CLI**](https://github.com/google/agents-cli) <span class='md-tag md-tag--info'>⭐ 2852</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official command-line tool from Google built to design, test, and deploy agentic AI workflows. Leveraging the Model Context Protocol (MCP) and Google LLM APIs, it facilitates automated task orchestration across local filesystems and remote cloud APIs.
 ## AI Engineering
 
 ### Agentic Frameworks
@@ -205,7 +205,7 @@
 
 #### Config Connector
 
-  - **(2020)** [==github.com/GoogleCloudPlatform/k8s-config-connector: GCP Config Connector==](https://github.com/GoogleCloudPlatform/k8s-config-connector) <span class='md-tag md-tag--info'>⭐ 1041</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Config Connector is a Kubernetes Custom Resource Definition (CRD) controller that allows operators to manage Google Cloud resources natively as if they were standard Kubernetes objects. It bridges GitOps configurations with physical cloud infrastructure provisioning.
+  - **(2020)** [==github.com/GoogleCloudPlatform/k8s-config-connector: GCP Config Connector==](https://github.com/GoogleCloudPlatform/k8s-config-connector) <span class='md-tag md-tag--info'>⭐ 1042</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Config Connector is a Kubernetes Custom Resource Definition (CRD) controller that allows operators to manage Google Cloud resources natively as if they were standard Kubernetes objects. It bridges GitOps configurations with physical cloud infrastructure provisioning.
 ## DevOps and Delivery
 
 ### CICD

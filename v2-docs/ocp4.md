@@ -293,7 +293,7 @@
 
 #### Hosted Control Planes
 
-  - **(2022)** [==github.com/openshift/hypershift: HyperShift==](https://github.com/openshift/hypershift) <span class='md-tag md-tag--info'>⭐ 525</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — HyperShift decouples the OpenShift control plane from the infrastructure, hosting it as standard containerized workloads within a central management cluster. This architecture enables lightning-fast provisioning, significantly lower operational overhead, and highly cost-effective multi-tenant fleet management.
+  - **(2022)** [==github.com/openshift/hypershift: HyperShift==](https://github.com/openshift/hypershift) <span class='md-tag md-tag--info'>⭐ 526</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — HyperShift decouples the OpenShift control plane from the infrastructure, hosting it as standard containerized workloads within a central management cluster. This architecture enables lightning-fast provisioning, significantly lower operational overhead, and highly cost-effective multi-tenant fleet management.
 ### Network Engineering
 
 #### Cloud Provider Integration (2)

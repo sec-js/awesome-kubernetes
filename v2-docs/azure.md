@@ -58,7 +58,7 @@
 
 #### REST API
 
-  - **(2026)** [==Microsoft REST API Guidelines 🌟🌟🌟==](https://github.com/microsoft/api-guidelines/blob/vNext/Guidelines.md) <span class='md-tag md-tag--info'>⭐ 23288</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The comprehensive standards document establishing design specifications for REST APIs across Microsoft platforms. It defines explicit protocols for HTTP methods, error handling, versioning, pagination, and JSON schemas. This serves as a highly robust benchmark for software engineers designing public-facing and microservices-based API endpoints.
+  - **(2026)** [==Microsoft REST API Guidelines 🌟🌟🌟==](https://github.com/microsoft/api-guidelines/blob/vNext/Guidelines.md) <span class='md-tag md-tag--info'>⭐ 23289</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The comprehensive standards document establishing design specifications for REST APIs across Microsoft platforms. It defines explicit protocols for HTTP methods, error handling, versioning, pagination, and JSON schemas. This serves as a highly robust benchmark for software engineers designing public-facing and microservices-based API endpoints.
 ## Architecture
 
 ### Container Orchestration
@@ -137,7 +137,7 @@
 
 #### Model Context Protocol
 
-  - **(2025)** [==Azure DevOps MCP Server==](https://github.com/microsoft/azure-devops-mcp) <span class='md-tag md-tag--info'>⭐ 1810</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An official Microsoft MCP server repository enabling AI Agents (like Claude or GitHub Copilot) to interact seamlessly with Azure DevOps. Allows agents to manage work items, query repositories, and orchestrate pipeline runs.
+  - **(2025)** [==Azure DevOps MCP Server==](https://github.com/microsoft/azure-devops-mcp) <span class='md-tag md-tag--info'>⭐ 1812</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An official Microsoft MCP server repository enabling AI Agents (like Claude or GitHub Copilot) to interact seamlessly with Azure DevOps. Allows agents to manage work items, query repositories, and orchestrate pipeline runs.
 ### DevOps Platforms
 
 #### DevTest Labs
@@ -218,7 +218,7 @@
 
 #### Command-Line Tools
 
-  - **(2026)** [github.com/Azure/azqr](https://github.com/Azure/azqr) <span class='md-tag md-tag--info'>⭐ 773</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A command-line utility designed to scan Azure resource groups or subscriptions and quickly generate a compliance and recommendation report based on Well-Architected Framework benchmarks. Highly effective for rapid technical audits, finding configuration drifts, and securing container and PaaS architectures.
+  - **(2026)** [github.com/Azure/azqr](https://github.com/Azure/azqr) <span class='md-tag md-tag--info'>⭐ 774</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A command-line utility designed to scan Azure resource groups or subscriptions and quickly generate a compliance and recommendation report based on Well-Architected Framework benchmarks. Highly effective for rapid technical audits, finding configuration drifts, and securing container and PaaS architectures.
 ### Frameworks
 
 #### WAF Assessments
@@ -819,7 +819,7 @@
 
 #### Azure Pipelines
 
-  - **(2025)** [==microsoft/azure-pipelines-yaml: Azure Pipelines YAML 🌟==](https://github.com/microsoft/azure-pipelines-yaml) <span class='md-tag md-tag--info'>⭐ 1286</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The authoritative schema repository and reference collection for declarative Azure Pipelines. Enables structural version-controlled pipeline configuration, complex dependencies routing, and native agent integration.
+  - **(2025)** [==microsoft/azure-pipelines-yaml: Azure Pipelines YAML 🌟==](https://github.com/microsoft/azure-pipelines-yaml) <span class='md-tag md-tag--info'>⭐ 1287</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The authoritative schema repository and reference collection for declarative Azure Pipelines. Enables structural version-controlled pipeline configuration, complex dependencies routing, and native agent integration.
   - **(2023)** [==Azure-Samples/azure-pipelines-variable-templates==](https://github.com/Azure-Samples/azure-pipelines-variable-templates) <span class='md-tag md-tag--info'>⭐ 38</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A foundational template architecture for Azure DevOps Pipelines. Standardizes the sharing, ingestion, and management of environment variables across distinct build, test, and release environments to dry up pipeline manifests.
   - **(2022)** [Azure-Samples/azure-pipelines-remote-tasks](https://github.com/Azure-Samples/azure-pipelines-remote-tasks) <span class='md-tag md-tag--info'>⭐ 3</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstration framework and reusable templates for executing decentralized Azure Pipeline tasks against remote execution nodes, secure network environments, and custom virtualization fabrics.
 #### Platform Integration
@@ -879,7 +879,7 @@
   - **(2021)** [muycomputer.com: WinGet 1.0, ya está aquí el administrador de paquetes para Windows](https://www.muycomputer.com/2021/06/03/winget-1-0-paquetes-windows-10) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Spanish technical review covering the landmark 1.0 release of Windows Package Manager (winget). Focuses on structural installation paths, package repository security checks, and developer environment automation.
 #### Windows Tooling
 
-  - **(2024)** [==Windows Package Manager CLI (aka winget)==](https://github.com/microsoft/winget-cli) <span class='md-tag md-tag--info'>⭐ 26021</span> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official open-source repository for winget-cli, Microsoft's Windows Package Manager. Standardizes command-line app deployment, installation, dependency discovery, and workspace updates.
+  - **(2024)** [==Windows Package Manager CLI (aka winget)==](https://github.com/microsoft/winget-cli) <span class='md-tag md-tag--info'>⭐ 26023</span> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official open-source repository for winget-cli, Microsoft's Windows Package Manager. Standardizes command-line app deployment, installation, dependency discovery, and workspace updates.
 ## Developer Tools
 
 ### IDE Extensions
@@ -1182,7 +1182,7 @@
 
 ##### Declarative Deployments
 
-  - **(2026)** [==Bicep==](https://github.com/Azure/bicep) <span class='md-tag md-tag--info'>⭐ 3604</span> <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier declarative DSL for provisioning Azure resources. Bicep simplifies the authoring experience over raw JSON ARM templates, featuring modular design structures and native validation checks.
+  - **(2026)** [==Bicep==](https://github.com/Azure/bicep) <span class='md-tag md-tag--info'>⭐ 3605</span> <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier declarative DSL for provisioning Azure resources. Bicep simplifies the authoring experience over raw JSON ARM templates, featuring modular design structures and native validation checks.
 ### Package Management (2)
 
 #### PowerShell Gallery
@@ -1362,7 +1362,7 @@
   - **(2023)** [thenewstack.io: Deploying Microsoft’s New Linux Distribution as a VM is Not Easy](https://thenewstack.io/deploying-microsofts-new-linux-distribution-as-a-vm-is-not-easy) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Critical technical evaluation of deploying Microsoft's CBL-Mariner (Azure Linux) inside standalone virtual environments. Highlights physical complexity patterns against containerized native benefits.
 #### Kernel Curation
 
-  - **(2026)** [==github.com/microsoft/CBL-Mariner==](https://github.com/microsoft/azurelinux) <span class='md-tag md-tag--info'>⭐ 4988</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official repository for Azure Linux (formerly CBL-Mariner), a lightweight, container-optimized OS designed for minimal footprint and maximum security inside AKS. Strips away non-essential packages to shrink attack surfaces and secure running microservices.
+  - **(2026)** [==github.com/microsoft/CBL-Mariner==](https://github.com/microsoft/azurelinux) <span class='md-tag md-tag--info'>⭐ 4994</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official repository for Azure Linux (formerly CBL-Mariner), a lightweight, container-optimized OS designed for minimal footprint and maximum security inside AKS. Strips away non-essential packages to shrink attack surfaces and secure running microservices.
 ## Platform Automation and Tooling
 
 ### Command Line Interface

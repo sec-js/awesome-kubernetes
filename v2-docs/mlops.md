@@ -121,7 +121,7 @@
 
 #### Human-In-The-Loop
 
-  - **(2023)** [==rubrix==](https://github.com/argilla-io/argilla) <span class='md-tag md-tag--info'>⭐ 5000</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Formerly Rubrix, Argilla is a premier open-source data curation platform designed for AI and LLM workflows. Enables continuous human-in-the-loop (HITL) fine-tuning cycles. It seamlessly integrates with Hugging Face, SpaCy, and LangChain, optimizing training data quality through iterative annotation, validation, and curation mechanisms.
+  - **(2023)** [==rubrix==](https://github.com/argilla-io/argilla) <span class='md-tag md-tag--info'>⭐ 5001</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Formerly Rubrix, Argilla is a premier open-source data curation platform designed for AI and LLM workflows. Enables continuous human-in-the-loop (HITL) fine-tuning cycles. It seamlessly integrates with Hugging Face, SpaCy, and LangChain, optimizing training data quality through iterative annotation, validation, and curation mechanisms.
 ### Data Ops
 
 #### CI-CD (1)
@@ -182,7 +182,7 @@
 
 ### Containerization
 
-  - **(2023)** [tensorchord/envd: Reproducible development environment for AI/ML 🌟](https://github.com/tensorchord/envd) <span class='md-tag md-tag--info'>⭐ 2210</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An innovative local development environment generator for ML engineering. Envd translates Python declarations into isolated container definitions, ensuring high reproducibility for CUDA packages, pip dependency trees, and IDE plugins without writing complex Dockerfiles.
+  - **(2023)** [tensorchord/envd: Reproducible development environment for AI/ML 🌟](https://github.com/tensorchord/envd) <span class='md-tag md-tag--info'>⭐ 2209</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An innovative local development environment generator for ML engineering. Envd translates Python declarations into isolated container definitions, ensuring high reproducibility for CUDA packages, pip dependency trees, and IDE plugins without writing complex Dockerfiles.
 ## Distributed Systems
 
 ### Compute Engines
@@ -194,7 +194,7 @@
 
 ### Visualization
 
-  - **(2024)** [**github.com/aimhubio/aim**](https://github.com/aimhubio/aim) <span class='md-tag md-tag--info'>⭐ 6155</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Aim is an open-source, highly responsive experiment tracking and visualization dashboard for machine learning. It provides a robust query language and a user-friendly UI to compare thousands of metrics, hyperparameters, and logs across deep learning runs.
+  - **(2024)** [**github.com/aimhubio/aim**](https://github.com/aimhubio/aim) <span class='md-tag md-tag--info'>⭐ 6154</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Aim is an open-source, highly responsive experiment tracking and visualization dashboard for machine learning. It provides a robust query language and a user-friendly UI to compare thousands of metrics, hyperparameters, and logs across deep learning runs.
 ## Generative AI
 
 ### Distributed Systems (1)
@@ -229,7 +229,7 @@
 
 #### Command Line Tools
 
-  - **(2024)** [**github.com/XuehaiPan/nvitop 🌟**](https://github.com/XuehaiPan/nvitop) <span class='md-tag md-tag--info'>⭐ 6956</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An interactive, terminal-based GPU monitoring tool that acts as a modern replacement for nvidia-smi. It provides real-time tracking of GPU resource consumption, memory configurations, process owners, and historical usage diagrams directly in the shell.
+  - **(2024)** [**github.com/XuehaiPan/nvitop 🌟**](https://github.com/XuehaiPan/nvitop) <span class='md-tag md-tag--info'>⭐ 6957</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An interactive, terminal-based GPU monitoring tool that acts as a modern replacement for nvidia-smi. It provides real-time tracking of GPU resource consumption, memory configurations, process owners, and historical usage diagrams directly in the shell.
 ### GPU Orchestration
 
 #### Kubernetes Operators
@@ -295,7 +295,7 @@
 
 #### OCR
 
-  - **(2024)** [==github.com/VikParuchuri/surya==](https://github.com/datalab-to/surya) <span class='md-tag md-tag--info'>⭐ 20797</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Surya provides multi-lingual document OCR and accurate layout analysis powered by deep learning. It delivers high-fidelity reading and structuring of dense scientific papers, tables, and financial layouts, serving as a lighter, open substitute for legacy systems.
+  - **(2024)** [==github.com/VikParuchuri/surya==](https://github.com/datalab-to/surya) <span class='md-tag md-tag--info'>⭐ 20801</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Surya provides multi-lingual document OCR and accurate layout analysis powered by deep learning. It delivers high-fidelity reading and structuring of dense scientific papers, tables, and financial layouts, serving as a lighter, open substitute for legacy systems.
 ### Education
 
 #### Study Materials
@@ -315,7 +315,7 @@
 
 #### Fine-tuning
 
-  - **(2023)** [==github.com/meta-llama/llama-recipes==](https://github.com/meta-llama/llama-cookbook) <span class='md-tag md-tag--info'>⭐ 18352</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Meta's core repository for scaling LLM deployments. It offers highly robust templates for PEFT (Parameter-Efficient Fine-Tuning) such as LoRA, model quantization, and optimization strategies that enable low-latency inference setups inside microservices frameworks.
+  - **(2023)** [==github.com/meta-llama/llama-recipes==](https://github.com/meta-llama/llama-cookbook) <span class='md-tag md-tag--info'>⭐ 18353</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Meta's core repository for scaling LLM deployments. It offers highly robust templates for PEFT (Parameter-Efficient Fine-Tuning) such as LoRA, model quantization, and optimization strategies that enable low-latency inference setups inside microservices frameworks.
 ### MLOps
 
 #### Model Pipelines
@@ -380,7 +380,7 @@
   - **(2024)** [**zenml.io: ZenML**](https://www.zenml.io) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — ZenML is an extensible MLOps pipeline framework designed to decouple data engineering and machine learning workflows from physical target infrastructure. It integrates with major cloud stacks and allows reproducible local executions to scale to production environments effortlessly.
 ### Workflows
 
-  - **(2024)** [==github.com/Netflix/metaflow 🌟==](https://github.com/Netflix/metaflow) <span class='md-tag md-tag--info'>⭐ 10129</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Metaflow is Netflix's human-centric framework designed for building and managing production-grade data science pipelines. It seamlessly integrates local development with enterprise-scale cloud infrastructures, handling data caching, model versioning, and compute scaling automatically.
+  - **(2024)** [==github.com/Netflix/metaflow 🌟==](https://github.com/Netflix/metaflow) <span class='md-tag md-tag--info'>⭐ 10128</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Metaflow is Netflix's human-centric framework designed for building and managing production-grade data science pipelines. It seamlessly integrates local development with enterprise-scale cloud infrastructures, handling data caching, model versioning, and compute scaling automatically.
 ## Workflow Transition
 
 ### Best Practices

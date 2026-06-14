@@ -202,7 +202,7 @@
 
 #### Jinja
 
-  - **(2024)** [==jinja 🌟==](https://github.com/pallets/jinja) <span class='md-tag md-tag--info'>⭐ 11661</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official repository for Jinja, the ubiquitous Python-based templating engine. Jinja underpins all dynamic evaluation structures inside Ansible, enabling programmatic infrastructure assembly.
+  - **(2024)** [==jinja 🌟==](https://github.com/pallets/jinja) <span class='md-tag md-tag--info'>⭐ 11662</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official repository for Jinja, the ubiquitous Python-based templating engine. Jinja underpins all dynamic evaluation structures inside Ansible, enabling programmatic infrastructure assembly.
 ## Cloud Infrastructure
 
 ### AWS
@@ -466,7 +466,7 @@
   - **(2021)** [youtube: Ansible Collections 🌟](https://www.youtube.com/watch?app=desktop&v=AXnDrGgLaF0&feature=share&ab_channel=RobertdeBock) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A video-based walkthrough demonstrating how to construct, package, distribute, and consume Ansible Collections. The tutorial outlines the transition from legacy monolithic roles to modular collection structures containing plugins, playbooks, and roles.
 #### Web Console
 
-  - **(2026)** [==Ansible AWX==](https://github.com/ansible/awx) <span class='md-tag md-tag--info'>⭐ 15454</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — AWX serves as the open-source upstream project for Ansible Automation Platform/Tower. Written in Django and React, it provides a web-based user interface, REST API, and task engine to centrally manage Ansible inventories, credentials, playbooks, and scheduling in containerized environments.
+  - **(2026)** [==Ansible AWX==](https://github.com/ansible/awx) <span class='md-tag md-tag--info'>⭐ 15453</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — AWX serves as the open-source upstream project for Ansible Automation Platform/Tower. Written in Django and React, it provides a web-based user interface, REST API, and task engine to centrally manage Ansible inventories, credentials, playbooks, and scheduling in containerized environments.
 ### Ansible Testing
 
 #### Best Practices (1)

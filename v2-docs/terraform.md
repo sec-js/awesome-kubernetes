@@ -782,7 +782,7 @@
   - **(2023)** [dev.to/aws-builders: Unleashing the Power of CDK and Terraform in Cloud Deployments](https://dev.to/aws-builders/unleashing-the-power-of-cdk-and-terraform-in-cloud-deployments-5680) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An assessment and comparison of Terraform CDKTF versus standard AWS CDK, highlighting architectural hybrid options. Helps organizations leverage multi-cloud platforms using familiar imperative development styles.
 #### Frameworks
 
-  - **(2025)** [==terraform-cdk 🌟==](https://github.com/hashicorp/terraform-cdk) <span class='md-tag md-tag--info'>⭐ 5078</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Cloud Development Kit for Terraform (CDKTF) allowing engineers to write imperative application code (TypeScript, Python, Java) to define declarative infrastructure assets. A strong choice for teams moving away from HCL syntax.
+  - **(2025)** [==terraform-cdk 🌟==](https://github.com/hashicorp/terraform-cdk) <span class='md-tag md-tag--info'>⭐ 5077</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Cloud Development Kit for Terraform (CDKTF) allowing engineers to write imperative application code (TypeScript, Python, Java) to define declarative infrastructure assets. A strong choice for teams moving away from HCL syntax.
 ### CICD (1)
 
 #### Automation Patterns
@@ -832,7 +832,7 @@
 
 #### Linter
 
-  - **(2024)** [==github.com/terraform-linters/tflint==](https://github.com/terraform-linters/tflint/releases/tag/v0.51.0) <span class='md-tag md-tag--info'>⭐ 5741</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A highly robust framework and compiler-aware linter for Terraform configurations. Detects provider-specific errors, catches deprecated constructs, and enforces organizational standards within enterprise delivery pipelines.
+  - **(2024)** [==github.com/terraform-linters/tflint==](https://github.com/terraform-linters/tflint/releases/tag/v0.51.0) <span class='md-tag md-tag--info'>⭐ 5742</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A highly robust framework and compiler-aware linter for Terraform configurations. Detects provider-specific errors, catches deprecated constructs, and enforces organizational standards within enterprise delivery pipelines.
   - **(2022)** [prcode.co.uk: Terraform Code Quality](https://prcode.co.uk/2022/02/08/terraform-code-quality) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An optimization guide examining programmatic code-quality practices for Terraform. Reviews how static code validation, standard structural constraints, linting, and formatting tools improve delivery confidence.
 ### Configuration Management
 
@@ -857,7 +857,7 @@
   - **(2025)** [==github.com/cloudposse?q=terraform-==](https://github.com/cloudposse?q=terraform-) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier repository suite of highly modular, enterprise-tested blueprints authored by Cloud Posse. These patterns are widely adopted for orchestrating complex AWS and Kubernetes infrastructure layers using declarative conventions.
 #### Community Directories
 
-  - **(2025)** [==github.com/shuaibiyy/awesome-terraform==](https://github.com/shuaibiyy/awesome-tf) <span class='md-tag md-tag--info'>⭐ 6529</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensive directory of modules, tools, linters, frameworks, and packages curated by the Terraform community. Acts as a core index for tracking dynamic tooling ecosystems like Terragrunt, TFLint, Terrascan, and cost optimization utilities.
+  - **(2025)** [==github.com/shuaibiyy/awesome-terraform==](https://github.com/shuaibiyy/awesome-tf) <span class='md-tag md-tag--info'>⭐ 6530</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensive directory of modules, tools, linters, frameworks, and packages curated by the Terraform community. Acts as a core index for tracking dynamic tooling ecosystems like Terragrunt, TFLint, Terrascan, and cost optimization utilities.
 ### Data Validation
 
 #### Providers (2)
@@ -996,7 +996,7 @@
 
 #### Tooling
 
-  - **(2025)** [==github.com/GoogleCloudPlatform/terraformer 🌟==](https://github.com/GoogleCloudPlatform/terraformer) <span class='md-tag md-tag--info'>⭐ 14541</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A widely adopted CLI tool that reverse-engineers existing cloud infrastructure into declarative HCL code and states. Acts as a vital tool during migration processes from manual setups to systematic GitOps configurations.
+  - **(2025)** [==github.com/GoogleCloudPlatform/terraformer 🌟==](https://github.com/GoogleCloudPlatform/terraformer) <span class='md-tag md-tag--info'>⭐ 14540</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A widely adopted CLI tool that reverse-engineers existing cloud infrastructure into declarative HCL code and states. Acts as a vital tool during migration processes from manual setups to systematic GitOps configurations.
 ### SaaS Integration
 
 #### Providers (3)
@@ -1229,7 +1229,7 @@
 #### Tooling (2)
 
   - **(2026)** [==graphviz.org==](https://graphviz.org) <span class='md-tag md-tag--warning'>[C CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Open-source graph visualization software. Frequently paired with `terraform graph` to render DOT files into legible visual topologies, depicting complex network, instance, and workspace dependency graphs.
-  - **(2023)** [**Rover - Terraform Visualizer 🌟**](https://github.com/im2nguyen/rover) <span class='md-tag md-tag--info'>⭐ 3309</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An interactive Terraform visualizer that parses local plan files to construct interactive, searchable web topologies. Accelerates architectural validation and configuration review workflows.
+  - **(2023)** [**Rover - Terraform Visualizer 🌟**](https://github.com/im2nguyen/rover) <span class='md-tag md-tag--info'>⭐ 3308</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An interactive Terraform visualizer that parses local plan files to construct interactive, searchable web topologies. Accelerates architectural validation and configuration review workflows.
 #### Topology Mapping
 
   - **(2024)** [cycloidio/inframap: Inframap 🌟](https://github.com/cycloidio/inframap) <span class='md-tag md-tag--info'>⭐ 2035</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Inframap compiles native HCL files or existing Terraform state inputs directly into comprehensive node-link visualization graphs. By executing clean AST parsing, the tool extracts backend dependencies, service connections, and active endpoints. It outputs directly to DOT format to enable programmatic generation of up-to-date cloud deployment maps.
@@ -1283,7 +1283,7 @@
 
 #### GitOps Encrypted Secrets
 
-  - **(2026)** [==sops: Simple and flexible tool for managing secrets 🌟==](https://github.com/getsops/sops) <span class='md-tag md-tag--info'>⭐ 22088</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An essential open-source tool for file-level encryption inside configuration management pipelines. SOPS supports partial file encryption for formats like YAML, JSON, and ENV, integrating natively with AWS KMS, GCP KMS, Azure Key Vault, HashiCorp Vault, age, and PGP. It is highly valued in GitOps workflows for its ability to securely commit encrypted configurations.
+  - **(2026)** [==sops: Simple and flexible tool for managing secrets 🌟==](https://github.com/getsops/sops) <span class='md-tag md-tag--info'>⭐ 22091</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An essential open-source tool for file-level encryption inside configuration management pipelines. SOPS supports partial file encryption for formats like YAML, JSON, and ENV, integrating natively with AWS KMS, GCP KMS, Azure Key Vault, HashiCorp Vault, age, and PGP. It is highly valued in GitOps workflows for its ability to securely commit encrypted configurations.
 ## Serverless (1)
 
 ### AWS (3)

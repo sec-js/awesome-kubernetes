@@ -62,10 +62,10 @@
     2. **Standard Layer (Mapped)**: Resources identified as candidates for Elite status but pending deep AI analysis.
 
     **Current Inventory Coverage:**
-    - **V1 Base Inventory**: 18359 total resources analyzed.
-    - **V2 Elite Selection**: 14190 candidates identified (77.29% density ratio).
-    - **AI Enrichment Coverage**: 9317 / 14190 (65.66%)
-    - **GitHub Metadata Coverage**: 1451 / 1763 (82.3%) - *Critical for Maturity Tagging*
+    - **V1 Base Inventory**: 18360 total resources analyzed.
+    - **V2 Elite Selection**: 14191 candidates identified (77.29% density ratio).
+    - **AI Enrichment Coverage**: 9317 / 14191 (65.65%)
+    - **GitHub Metadata Coverage**: 1452 / 1764 (82.31%) - *Critical for Maturity Tagging*
     - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.
 
 

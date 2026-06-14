@@ -51,7 +51,7 @@
 
 #### NVIDIA Operators
 
-  - **(2025)** [NVIDIA GPU Operator](https://github.com/NVIDIA/gpu-operator) <span class='md-tag md-tag--info'>⭐ 2738</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Kubernetes operator designed to automate the management of NVIDIA software components on nodes. Live Grounding: Provisions GPU drivers, container runtimes, device plug-ins, and monitoring tools automatically, ensuring consistent access to hardware acceleration.
+  - **(2025)** [NVIDIA GPU Operator](https://github.com/NVIDIA/gpu-operator) <span class='md-tag md-tag--info'>⭐ 2739</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Kubernetes operator designed to automate the management of NVIDIA software components on nodes. Live Grounding: Provisions GPU drivers, container runtimes, device plug-ins, and monitoring tools automatically, ensuring consistent access to hardware acceleration.
 ## Application Delivery
 
 ### Continuous Deployment
@@ -190,7 +190,7 @@
 
 #### Controller SDKs
 
-  - **(2026)** [==kubernetes-sigs/kubebuilder==](https://github.com/kubernetes-sigs/kubebuilder) <span class='md-tag md-tag--info'>⭐ 9181</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kubebuilder is the industry-standard developer framework for generating custom Kubernetes APIs and controllers. Leveraging structured scaffolding, advanced code generators, and controller-runtime wrappers, it streamlines the creation of highly reliable operators.
+  - **(2026)** [==kubernetes-sigs/kubebuilder==](https://github.com/kubernetes-sigs/kubebuilder) <span class='md-tag md-tag--info'>⭐ 9182</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kubebuilder is the industry-standard developer framework for generating custom Kubernetes APIs and controllers. Leveraging structured scaffolding, advanced code generators, and controller-runtime wrappers, it streamlines the creation of highly reliable operators.
 #### Guides and Best Practices (2)
 
   - **(2024)** [opensource.com: Build a Kubernetes Operator in 10 minutes with Operator SDK](https://opensource.com/article/20/3/kubernetes-operator-sdk) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A step-by-step tutorial on bootstrapping custom operators using the Operator SDK. It demonstrates how to wrap Ansible playbooks or Go logic to build automated, declarative infrastructure controls.
@@ -307,7 +307,7 @@
 
 #### Hardware Integration
 
-  - **(2026)** [==NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes==](https://github.com/NVIDIA/k8s-device-plugin) <span class='md-tag md-tag--info'>⭐ 3789</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — This specialized DaemonSet exposes physical GPU properties to the local kubelet node manager. Operating as the essential link for hardware-accelerated workloads, it handles task-scheduling configurations and sets device-isolation runtimes so container systems can safely slice and access host GPU hardware.
+  - **(2026)** [==NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes==](https://github.com/NVIDIA/k8s-device-plugin) <span class='md-tag md-tag--info'>⭐ 3788</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — This specialized DaemonSet exposes physical GPU properties to the local kubelet node manager. Operating as the essential link for hardware-accelerated workloads, it handles task-scheduling configurations and sets device-isolation runtimes so container systems can safely slice and access host GPU hardware.
 ## Infrastructure as Code
 
 ### AI Integrations
@@ -340,7 +340,7 @@
 
 #### UI Visualization
 
-  - **(2024)** [==feat(ui): Add AppSet to Application Resource Tree in Argo CD==](https://github.com/argoproj/argo-cd/pull/26601) <span class='md-tag md-tag--info'>⭐ 23124</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official Argo CD feature enhancement that maps ApplicationSets directly inside the dashboard UI tree. This view simplifies managing multi-tenant topologies and nested application definitions for platform operators.
+  - **(2024)** [==feat(ui): Add AppSet to Application Resource Tree in Argo CD==](https://github.com/argoproj/argo-cd/pull/26601) <span class='md-tag md-tag--info'>⭐ 23126</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official Argo CD feature enhancement that maps ApplicationSets directly inside the dashboard UI tree. This view simplifies managing multi-tenant topologies and nested application definitions for platform operators.
 ## Media
 
 ### Streaming
@@ -371,7 +371,7 @@
   - **(2021)** [InGate: Ingress & Gateway API Controller (Archived)](https://github.com/kubernetes-sigs/ingate) <span class='md-tag md-tag--info'>⭐ 728</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Architectural prototype designed to test Ingress integration patterns. Live engineering truth confirms this repository is archived by SIG-Network, as development has shifted entirely toward the standardized Gateway API.
 #### Gateway API
 
-  - **(2023)** [**Kubernetes Gateway API**](https://github.com/kubernetes-sigs/gateway-api) <span class='md-tag md-tag--info'>⭐ 2884</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Official GitHub repository for the standard Kubernetes Gateway API. This next-generation specification supersedes standard Ingress, offering expressive, role-oriented, and extensible routing APIs (Gateway, GatewayClass, and Route resources).
+  - **(2023)** [**Kubernetes Gateway API**](https://github.com/kubernetes-sigs/gateway-api) <span class='md-tag md-tag--info'>⭐ 2885</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Official GitHub repository for the standard Kubernetes Gateway API. This next-generation specification supersedes standard Ingress, offering expressive, role-oriented, and extensible routing APIs (Gateway, GatewayClass, and Route resources).
 ### Ingress and Routing
 
 #### Host Port Allocation
@@ -392,7 +392,7 @@
 
 #### OpenTelemetry Operator
 
-  - **(2021)** [==github.com/open-telemetry/opentelemetry-operator==](https://github.com/open-telemetry/opentelemetry-operator) <span class='md-tag md-tag--info'>⭐ 1716</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kubernetes operator for automating the deployment and management of the OpenTelemetry Collector. Simplifies application instrumentation via automated inject mechanisms for Java, NodeJS, Python, and Dotnet, facilitating declarative telemetry pipeline management across clusters.
+  - **(2021)** [==github.com/open-telemetry/opentelemetry-operator==](https://github.com/open-telemetry/opentelemetry-operator) <span class='md-tag md-tag--info'>⭐ 1717</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kubernetes operator for automating the deployment and management of the OpenTelemetry Collector. Simplifies application instrumentation via automated inject mechanisms for Java, NodeJS, Python, and Dotnet, facilitating declarative telemetry pipeline management across clusters.
 ### Logging
 
 #### Pipeline Management
@@ -435,7 +435,7 @@
 
 #### Resource Management
 
-  - **(2026)** [==github.com/gianlucam76/k8s-cleaner 🌟==](https://github.com/gianlucam76/k8s-cleaner) <span class='md-tag md-tag--info'>⭐ 790</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A dynamic garbage-collection engine built to maintain clean, clutter-free cluster environments. By looking up orphaned, obsolete, or outdated configmaps, secrets, persistent volumes, and failed pods, it prunes cluster footprints against user-defined scheduling filters.
+  - **(2026)** [==github.com/gianlucam76/k8s-cleaner 🌟==](https://github.com/gianlucam76/k8s-cleaner) <span class='md-tag md-tag--info'>⭐ 791</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A dynamic garbage-collection engine built to maintain clean, clutter-free cluster environments. By looking up orphaned, obsolete, or outdated configmaps, secrets, persistent volumes, and failed pods, it prunes cluster footprints against user-defined scheduling filters.
 ### Data Protection and Backup
 
 #### Observability (1)

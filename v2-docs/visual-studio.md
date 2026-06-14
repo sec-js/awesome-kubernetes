@@ -131,7 +131,7 @@
   - [JM Meessen: Declarative Jenkinsfile Support](https://marketplace.visualstudio.com/items?itemName=jmMeessen.jenkins-declarative-support)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Alessandro Fragnani: Jenkins Status](https://marketplace.visualstudio.com/items?itemName=alefragnani.jenkins-status)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Remote debugging on Kubernetes using VS Code](https://developers.redhat.com/articles/2021/12/13/remote-debugging-kubernetes-using-vs-code#)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) <span class='md-tag md-tag--info'>⭐ 5123</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) <span class='md-tag md-tag--info'>⭐ 5128</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [blog.stackademic.com: Debugging Microservices Locally with mirrord](https://blog.stackademic.com/mastering-local-microservices-debugging-with-mirrord-0a99443c1544)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kenneth.io: Introducing remote debugging of Node.js apps on Azure App Service' from VS Code](https://kenneth.io/post/introducing-remote-debugging-of-nodejs-apps-on-azure-app-service-from-vs-code-in-public-preview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Python in Visual Studio Code – September 2020 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-september-2020-release)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -194,7 +194,7 @@
 
 #### VS Code
 
-  - **(2026)** [==Awesome Visual Studio Code==](https://github.com/viatsko/awesome-vscode) <span class='md-tag md-tag--info'>⭐ 28743</span> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive directory of extensions, themes, and configuration recipes designed to turn VS Code into a productivity powerhouse. Highly relevant for cloud-native developers seeking extensions for Kubernetes, Terraform, Docker, and remote workspace development. Serves as a daily driver resource for developer enablement teams.
+  - **(2026)** [==Awesome Visual Studio Code==](https://github.com/viatsko/awesome-vscode) <span class='md-tag md-tag--info'>⭐ 28747</span> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive directory of extensions, themes, and configuration recipes designed to turn VS Code into a productivity powerhouse. Highly relevant for cloud-native developers seeking extensions for Kubernetes, Terraform, Docker, and remote workspace development. Serves as a daily driver resource for developer enablement teams.
 ## Development Environments
 
 ### Cloud IDEs
@@ -241,7 +241,7 @@
   - **(2021)** [A multi-step tutorial that covers the basics of working with Docker with Visual Studio Code and deploy on Azure](https://learn.microsoft.com/en-us/visualstudio/docker/tutorials/docker-tutorial) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive learning pathway walking developers through building, debugging, and running Dockerized applications inside VS Code, followed by direct container deployment to Azure App Service or Azure Container Apps.
 #### Git Extensions
 
-  - **(2016)** [==GitLens interactive rebase==](https://github.com/gitkraken/vscode-gitlens#interactive-rebase-editor-) <span class='md-tag md-tag--info'>⭐ 9839</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Detailed documentation on GitLens' visual interactive rebase tool, which translates raw CLI rebase structures into a drag-and-drop workspace UI within VS Code, significantly reducing risks when rewriting commit histories.
+  - **(2016)** [==GitLens interactive rebase==](https://github.com/gitkraken/vscode-gitlens#interactive-rebase-editor-) <span class='md-tag md-tag--info'>⭐ 9841</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Detailed documentation on GitLens' visual interactive rebase tool, which translates raw CLI rebase structures into a drag-and-drop workspace UI within VS Code, significantly reducing risks when rewriting commit histories.
   - **(2023)** [Visualize your git repo in vscode with Git Graph extensions](https://www.youtube.com/shorts/vpFF1XSqWjw?si=Zr2eW_C3_3hQoXAa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the Git Graph extension in VS Code, allowing visual tracking of branching strategies, commits, and tag histories to keep distributed teams aligned during fast deployment periods.
 #### IaC Extensions
 
@@ -283,7 +283,7 @@
 
 #### Static Analysis
 
-  - **(2025)** [==Ruff==](https://github.com/astral-sh/ruff) <span class='md-tag md-tag--info'>⭐ 47960</span> <span class='md-tag md-tag--warning'>[RUST CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight introduces Ruff as an extremely fast Python linter and formatter written in Rust. Live Grounding confirms Ruff is a de facto industry standard, dramatically lowering CI run times by replacing several older style checkers with a single compiled utility.
+  - **(2025)** [==Ruff==](https://github.com/astral-sh/ruff) <span class='md-tag md-tag--info'>⭐ 47967</span> <span class='md-tag md-tag--warning'>[RUST CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight introduces Ruff as an extremely fast Python linter and formatter written in Rust. Live Grounding confirms Ruff is a de facto industry standard, dramatically lowering CI run times by replacing several older style checkers with a single compiled utility.
 
 ---
 💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)

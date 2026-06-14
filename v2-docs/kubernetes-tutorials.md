@@ -103,7 +103,7 @@
 
 #### Career Path
 
-  - **(2026)** [**DevOps Roadmap for 2026**](https://github.com/milanm/DevOps-Roadmap) <span class='md-tag md-tag--info'>⭐ 19608</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensive, highly-vetted community map outlining modern DevOps and platform engineering educational pathways. Synthesizes knowledge milestones across systems internals, network protocols, continuous integration/continuous delivery protocols, and hybrid observability.
+  - **(2026)** [**DevOps Roadmap for 2026**](https://github.com/milanm/DevOps-Roadmap) <span class='md-tag md-tag--info'>⭐ 19614</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensive, highly-vetted community map outlining modern DevOps and platform engineering educational pathways. Synthesizes knowledge milestones across systems internals, network protocols, continuous integration/continuous delivery protocols, and hybrid observability.
 ## Frontend Development
 
 ### React Framework
@@ -161,7 +161,7 @@
 
 ##### Cheat Sheets
 
-  - **(2025)** [==omerbsezer/Fast-Kubernetes 🌟🌟==](https://github.com/omerbsezer/Fast-Kubernetes) <span class='md-tag md-tag--info'>⭐ 3492</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A popular open-source repository featuring highly structured terminal cheat sheets, resource blueprints, and YAML patterns. Focuses on accelerating daily CKA commands, manifest construction, and cluster maintenance routines.
+  - **(2025)** [==omerbsezer/Fast-Kubernetes 🌟🌟==](https://github.com/omerbsezer/Fast-Kubernetes) <span class='md-tag md-tag--info'>⭐ 3493</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A popular open-source repository featuring highly structured terminal cheat sheets, resource blueprints, and YAML patterns. Focuses on accelerating daily CKA commands, manifest construction, and cluster maintenance routines.
 #### Interactive Platform
 
   - **(2026)** [**educative.io/courses/the-kubernetes-course: Learn Kubernetes: A Deep Dive 🌟🌟🌟**](https://www.educative.io/courses/learn-kubernetes) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A text-first training curriculum with browser-native sandbox environments. Investigates internal API server flows, cluster scheduler behaviors, and advanced persistent volumes without installation friction.

@@ -30,7 +30,7 @@
 
 #### Windows Tooling
 
-  - **(2024)** [==Windows Package Manager CLI (aka winget)==](https://github.com/microsoft/winget-cli) <span class='md-tag md-tag--info'>⭐ 26021</span> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official open-source repository for winget-cli, Microsoft's Windows Package Manager. Standardizes command-line app deployment, installation, dependency discovery, and workspace updates.
+  - **(2024)** [==Windows Package Manager CLI (aka winget)==](https://github.com/microsoft/winget-cli) <span class='md-tag md-tag--info'>⭐ 26023</span> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official open-source repository for winget-cli, Microsoft's Windows Package Manager. Standardizes command-line app deployment, installation, dependency discovery, and workspace updates.
 ## Local Development
 
 ### Operating Systems

@@ -8,7 +8,6 @@ on:
       - 'data/inventory.yaml'
   workflow_run:
     workflows: ["03.1. V2 Metadata Engine"]
-    branches: [develop]
     types:
       - completed
   workflow_dispatch:

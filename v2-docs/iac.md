@@ -166,15 +166,15 @@
 
 #### AI Code Generation
 
-  - **(2026)** [gofireflyio/aiac 🌟](https://github.com/gofireflyio/aiac) <span class='md-tag md-tag--info'>⭐ 3793</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Duplicate entry of the AI-powered infrastructure command-line application (aiac). Generates clean IaC templates, Dockerfiles, and CI pipelines through natural language translation engines.
+  - **(2026)** [gofireflyio/aiac 🌟](https://github.com/gofireflyio/aiac) <span class='md-tag md-tag--info'>⭐ 3792</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Duplicate entry of the AI-powered infrastructure command-line application (aiac). Generates clean IaC templates, Dockerfiles, and CI pipelines through natural language translation engines.
 #### Security Scanning
 
-  - **(2026)** [Checkmarx/kics](https://github.com/Checkmarx/kics) <span class='md-tag md-tag--info'>⭐ 2648</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source static code analysis engine designed to uncover vulnerabilities and structural issues in IaC manifests. Parses Terraform, Kubernetes manifests, Helm charts, Dockerfiles, and Ansible files for compliance discrepancies.
+  - **(2026)** [Checkmarx/kics](https://github.com/Checkmarx/kics) <span class='md-tag md-tag--info'>⭐ 2649</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source static code analysis engine designed to uncover vulnerabilities and structural issues in IaC manifests. Parses Terraform, Kubernetes manifests, Helm charts, Dockerfiles, and Ansible files for compliance discrepancies.
 ### Roadmaps
 
 #### Career Path
 
-  - **(2026)** [**DevOps Roadmap for 2026**](https://github.com/milanm/DevOps-Roadmap) <span class='md-tag md-tag--info'>⭐ 19608</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensive, highly-vetted community map outlining modern DevOps and platform engineering educational pathways. Synthesizes knowledge milestones across systems internals, network protocols, continuous integration/continuous delivery protocols, and hybrid observability.
+  - **(2026)** [**DevOps Roadmap for 2026**](https://github.com/milanm/DevOps-Roadmap) <span class='md-tag md-tag--info'>⭐ 19614</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensive, highly-vetted community map outlining modern DevOps and platform engineering educational pathways. Synthesizes knowledge milestones across systems internals, network protocols, continuous integration/continuous delivery protocols, and hybrid observability.
 ## DevOps Automation and Modern Systems Engineering
 
 ### Infrastructure-as-Code
@@ -202,7 +202,7 @@
 
 #### Resources
 
-  - **(2026)** [==Awesome Sysadmin==](https://github.com/awesome-foss/awesome-sysadmin) <span class='md-tag md-tag--info'>⭐ 34227</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exhaustive curation of open-source sysadmin resources, listing production-ready system monitors, configuration management tools, security suites, and virtualization frameworks used globally by SREs.
+  - **(2026)** [==Awesome Sysadmin==](https://github.com/awesome-foss/awesome-sysadmin) <span class='md-tag md-tag--info'>⭐ 34269</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exhaustive curation of open-source sysadmin resources, listing production-ready system monitors, configuration management tools, security suites, and virtualization frameworks used globally by SREs.
 ## Infrastructure as Code (3)
 
 ### Terraform Providers

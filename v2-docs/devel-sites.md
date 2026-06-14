@@ -54,7 +54,7 @@
 
 #### Desktop Clients
 
-  - **(2024)** [**FreeLens**](https://github.com/freelensapp/freelens) <span class='md-tag md-tag--info'>⭐ 5145</span> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — FreeLens is a lightweight, open-source alternative desktop client for managing Kubernetes clusters. It provides platform operators with real-time visual telemetry and container log streams, optimizing daily operational tasks without complex terminal overhead.
+  - **(2024)** [**FreeLens**](https://github.com/freelensapp/freelens) <span class='md-tag md-tag--info'>⭐ 5146</span> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — FreeLens is a lightweight, open-source alternative desktop client for managing Kubernetes clusters. It provides platform operators with real-time visual telemetry and container log streams, optimizing daily operational tasks without complex terminal overhead.
 ## DevOps and CICD
 
 ### Automated Code Review
