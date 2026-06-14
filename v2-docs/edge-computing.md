@@ -39,5 +39,5 @@
   - **(2021)** [thenewstack.io: Cloudian CTO: Kubernetes, Standardization Key to Edge](https://thenewstack.io/cloudian-cto-kubernetes-standardization-key-to-edge)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An executive perspective from Cloudian highlighting Kubernetes standardization as the foundational component of modern edge architecture. It analyzes strategies to coordinate hybrid storage clusters safely across remote zones.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Serverless](./aws-serverless.md) | [AWS Backup](./aws-backup.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Azure](./azure.md) | [AWS Storage](./aws-storage.md)
 

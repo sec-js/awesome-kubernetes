@@ -27,8 +27,8 @@ graph TD
   - [ringcentral.co.uk: Software as a Service (SaaS)](https://www.ringcentral.com/gb/en/blog/definitions/software-as-a-service-saas)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ringcentral.co.uk: Cloud Management 🌟](https://www.ringcentral.com/gb/en/blog/definitions/cloud-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kelsey Hightower Fireside Chat: An Unconventional Path to IT and Some Life Advice](https://www.hashicorp.com/resources/kelsey-hightower-fireside-chat-an-unconventional-path-to-it-and-some-life-advice/?utm_source=linkedin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/javarevisited: Microservices communication using gRPC Protocol](https://medium.com/javarevisited/microservices-communication-using-grpc-protocol-dc3a2f8b648d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [levelup.gitconnected.com: How to design a system to scale to your first' 100 million users](https://levelup.gitconnected.com/how-to-design-a-system-to-scale-to-your-first-100-million-users-4450a2f9703d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/javarevisited: Microservices communication using gRPC Protocol](https://medium.com/javarevisited/microservices-communication-using-grpc-protocol-dc3a2f8b648d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Monolithic versus Microservice architecture](https://www.enterprisetimes.co.uk/2020/07/23/monolithic-versus-microservice-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cncf.io: Top 7 challenges to becoming cloud native](https://www.cncf.io/blog/2020/09/15/top-7-challenges-to-becoming-cloud-native)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [techrepublic.com: Kubernetes will deliver the app store experience for enterprise' software, says Weaveworks CEO](https://www.techrepublic.com/article/kubernetes-will-deliver-the-app-store-experience-for-enterprise-software-says-weaveworks-ceo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -191,6 +191,11 @@ graph TD
 #### Orchestration
 
   - **(2021)** [stackoverflow.blog: Using Kubernetes to rethink your system architecture and ease technical debt 🌟](https://stackoverflow.blog/2021/05/19/rethinking-system-architecture-can-kubernetes-help-to-solve-rewrite-anxiety) 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Discusses utilizing a migration to Kubernetes as a strategic catalyst to refactor legacy monoliths. Reorganizes monolithic systems into decoupled containers, successfully lowering long-term architectural tech debt.
+### Web Applications
+
+#### Enterprise Patterns
+
+  - **(2025)** [Enterprise Web App Patterns - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/web-apps/guides/enterprise-app-patterns/overview) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Production-proven patterns and implementation pathways from the Azure Architecture Center. Establishes migration guidelines for modernizing monolithic applications into elastic web architectures.
 ## Architecture Patterns
 
 ### Microservices (2)
@@ -362,13 +367,6 @@ graph TD
     
     Explores three fundamental high-availability cloud strategies: active-active vs active-passive configurations, geo-redundant database replication, and zero-downtime DNS-routed failovers. Discusses mathematical SLA models and network traffic planning required to achieve high service uptime.
 
-#### Multi-Region Deployments
-
-??? note "engineering.monday.com: monday.com’s Multi-Regional Architecture: A Deep Dive"
-    **[Access Resource](https://engineering.monday.com/monday-coms-multi-regional-architecture-a-deep-dive)** 🌟🌟🌟🌟🌟 | Level: Advanced
-    
-    A real-world architectural dissection of how monday.com implemented a highly resilient, multi-regional cloud strategy to improve latency and adhere to strict regional data regulations. Explains state replication strategies, request routing optimizations, and database scaling bottlenecks encountered during global scaling.
-
 ### Market Trends (1)
 
 #### Open Source Business Models
@@ -418,15 +416,6 @@ graph TD
 #### Business Drivers
 
   - **(2022)** [thenewstack.io: Reasons to Opt for a Multicloud Strategy](https://thenewstack.io/reasons-to-opt-for-a-multicloud-strategy) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines key operational drivers supporting a deliberate multi-cloud migration strategy, centering on geographic expansion, regional regulatory mandates, and optimized billing leverage. The resource emphasizes treating multi-cloud as a strategic framework to optimize application delivery across diverse vendor strengths.
-### Storage and Hybrid Systems
-
-#### Topology Comparison
-
-??? note "blog.min.io: Mono Clouds vs Multi-Clouds & Hybrid Clouds"
-    **[Access Resource](https://www.min.io/blog)** 🌟🌟🌟🌟 | Level: Intermediate
-    
-    Details the comparative trade-offs between mono-cloud, multi-cloud, and hybrid cloud topologies from an object storage and data gravity perspective. MinIO highlights the critical role of data portability and standardized APIs (S3) in enabling architectural freedom across multi-cloud footprints.
-
 ## Cloud Infrastructure
 
 ### Automation
@@ -458,6 +447,13 @@ graph TD
   - **(2021)** [phoenixnap.com: Kubernetes vs OpenShift: Key Differences Compared 🌟](https://phoenixnap.com/blog/openshift-vs-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Breaks down core differences between vanilla Kubernetes and Red Hat OpenShift, evaluating deployment mechanics, security configurations (SCC vs RBAC), built-in routing, out-of-the-box monitoring, and support models.
   - **(2021)** [simplilearn.com: Understanding The Difference Between Kubernetes Vs. Openshift](https://www.simplilearn.com/kubernetes-vs-openshift-article)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An educational comparison detailing the architectural boundaries of Kubernetes and OpenShift. Explores developer workflows, installation processes, built-in CI/CD pipelines, and licensing structures.
   - **(2019)** [spec-india.com: Kubernetes VS Openshift (July 23rd 2019)](https://www.spec-india.com/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares upstream open-source Kubernetes with Red Hat OpenShift. Focuses on user-interface options, CLI differences, security policies, image registry capabilities, and integrated CI/CD toolchain setups in enterprise deployments.
+## Cloud Infrastructure and Orchestration
+
+### Public Cloud Administration
+
+#### AWS Fundamentals
+
+  - **(2023)** [AWS Cloud Practitioner - Curso Completo 2023](https://www.youtube.com/watch?v=zQyrhjEAqLs) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive Spanish instructional syllabus targeting the AWS Certified Cloud Practitioner domain. Details key global infrastructure components, core services (EC2, S3, RDS, VPC), billing architectures, and foundational security frameworks.
 ## Cloud Native and Kubernetes Core
 
 ### Business Value and ROI
@@ -475,11 +471,6 @@ graph TD
     Deep dive into core Kubernetes architectures, detailing controller-manager reconciliation mechanisms, kube-scheduler filters, and API-driven status updates. Provides a technical reference for engineers wanting to design resource control loops and manage standard system interactions.
 
 #### Fundamentals (1)
-
-??? note "cloud.google.com: What is Kubernetes? 🌟"
-    **[Access Resource](https://cloud.google.com/learn/what-is-kubernetes)** 🌟🌟🌟🌟🌟 | Level: Beginner
-    
-    A comprehensive foundation on Kubernetes, detailing its architectural pillars including the control plane, worker nodes, and declarative API engine. It outlines container scheduling, automated self-healing, and service discovery mechanisms essential for running resilient, modern cloud-native systems.
 
 ??? note "weave.works: What is a Kubernetes Cluster? 🌟"
     **[Access Resource](https://www.weave.works/blog/kubernetes-cluster)** 🌟🌟🌟🌟 | Level: Beginner
@@ -688,19 +679,12 @@ graph TD
     
     Discusses the evolution of the Kubernetes API and the growing necessity for user interfaces that abstract the complex YAML declarations. Explores trends like custom controllers, platform wrappers, and programmatic DSLs to simplify operations for non-expert system developers.
 
-#### Technology Assessment
-
-??? note "thenewstack.io: Do I Really Need Kubernetes? 🌟"
-    **[Access Resource](https://thenewstack.io/do-i-really-need-kubernetes)** 🌟🌟🌟🌟 | Level: Intermediate
-    
-    Offers a pragmatic architectural counter-argument to automatic Kubernetes adoption. Evaluates alternatives such as managed serverless containers (ECS, Cloud Run) and PaaS solutions, analyzing whether the infrastructure scale justifies K8s operational complexity and platform engineering overhead.
-
 ### Professional Development (1)
 
 #### Career Engineering (1)
 
   - **(2020)** [javarevisited.blogspot.com: Why Every Programmer, DevOps Engineer Should learn Docker and Kubernetes in 2020](https://javarevisited.blogspot.com/2020/11/why-devops-engineer-learn-docker-kubernetes.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines why containerization and container orchestration skills have transitioned from advanced operational specialties to core software development competencies. Highlights the industry-wide ubiquity of Docker and Kubernetes for consistent, reproducible builds across local and cloud environments.
-### Technology Assessment (1)
+### Technology Assessment
 
 #### Compute Paradigms
 
@@ -1292,5 +1276,5 @@ graph TD
   - **(2022)** [ubiqum.com: 20 Software Development Tools that will make you more productive](https://ubiqum.com/blog/20-software-development-tools-that-will-make-you-more-productive)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curated technical list analyzing software development tools engineered to enhance engineering velocity. Explores IDE extensions, local container utilities, source control clients, and task automators critical for scaling developer operations.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [About](./about.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
 

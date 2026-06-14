@@ -7,10 +7,10 @@
 
   - [geekflare.com: What is Thread Dump and How to Analyze them? 🌟](https://geekflare.com/dev/generate-analyze-thread-dumps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [On heap vs off heap memory usage](http://www.javacodegeeks.com/2014/12/on-heap-vs-off-heap-memory-usage.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [DZone refcard: Java Caching](https://dzone.com/refcardz/java-caching)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [DZone: Performance Improvement in Java Applications: ORM/JPA 🌟](https://dzone.com/articles/performance-improvement-in-java-applications-orm-j)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [DZone: The JVM Architecture Explained 🌟](https://dzone.com/articles/jvm-architecture-explained)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [DZone: How to Troubleshoot Sudden CPU Spikes](https://dzone.com/articles/troubleshoot-sudden-cpu-spikes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [DZone refcard: Java Caching](https://dzone.com/refcardz/java-caching)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone: 7 JVM Arguments of Highly Effective Applications 🌟🌟🌟](https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone.com: Flight Recorder: Examining Java and Kotlin Apps](https://dzone.com/articles/flight-recorder-examining-java-and-kotlin-apps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: How to reduce your JVM app memory footprint in Docker and Kubernetes' 🌟](https://medium.com/wix-engineering/how-to-reduce-your-jvm-app-memory-footprint-in-docker-and-kubernetes-d6e030d21298)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -34,16 +34,6 @@
   - [DZone: Memory Leaks and Java Code](https://dzone.com/articles/memory-leak-andjava-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Hazelcast JET](https://jet-start.sh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## CICD Pipelines
-
-### Jenkins Management
-
-#### Infrastructure Upgrades
-
-  - **(2019)** [Running Jenkins on Java 11 🌟](https://www.jenkins.io/doc/administration/requirements/jenkins-on-java-11/#:~:text=The%20easiest%20way%20to%20run,images%2C%20use%20the%20jdk11%20tag.)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Comprehensive administration runbook describing JVM upgrade pathways from Java 8 to Java 11. Addresses class-loading modifications, modularization parameters, and deprecated agent arguments.
-#### JVM Performance Tuning
-
-  - **(2016)** [jenkins.io - Tuning Jenkins GC For Responsiveness and Stability with Large Instances 🌟](https://www.jenkins.io/blog/2016/11/21/gc-tuning) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Critical infrastructure advisory detailing memory allocation and G1GC GC argument tuning for massive Jenkins instances. Provides ready-to-use flag structures to eliminate long-duration Stop-The-World JVM freezes.
 ## Cloud Native Infrastructure
 
 ### Kubernetes
@@ -183,5 +173,5 @@
   - **(2020)** [developers.redhat.com: Checkpointing Java from outside of Java](https://developers.redhat.com/blog/2020/10/15/checkpointing-java-from-outside-of-java) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exploration of JVM checkpoint/restore methodologies focusing on Coordinated Restore at Checkpoint (CRaC) and external CRIU mechanisms. This approach enables instantaneous microservice startup by taking cold snapshots of memory, dramatically lowering latency penalties in serverless deployments.
 
 ---
-💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [Angular](./angular.md) | [API](./api.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 

@@ -8,9 +8,9 @@
   - [Build a Python Microservice with Amazon Web Services Lambda & API Gateway](http://www.giantflyingsaucer.com/blog/?p=5730)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.powerupcloud.com: AWS inventory details in CSV using lambda](http://blog.powerupcloud.com/2016/02/07/aws-inventory-details-in-csv-using-lambda)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [betterprogramming.pub: Lambda vs. Step Functions: The Battle of Cost and' Performance](https://betterprogramming.pub/lambda-vs-step-functions-the-battle-of-cost-and-performance-5f008045e2ab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [kothiyal-anuj.medium.com: Serverless Diary: The Ultimate Guide to **Caching' in the Cloud**](https://kothiyal-anuj.medium.com/serverless-diary-the-ultimate-guide-to-caching-in-the-cloud-249f6a06915f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [npmjs.com: Lambda load test](https://www.npmjs.com/package/lambda-load-test)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.usejournal.com: Building a Serverless Back-end with AWS](https://blog.usejournal.com/building-a-serverless-back-end-with-aws-5bb3642a3f4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [kothiyal-anuj.medium.com: Serverless Diary: The Ultimate Guide to **Caching' in the Cloud**](https://kothiyal-anuj.medium.com/serverless-diary-the-ultimate-guide-to-caching-in-the-cloud-249f6a06915f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Going Serverless (on AWS)](https://medium.com/galvanize/going-serverless-on-aws-116a04a0defd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [liavyona09.medium.com: Spice up Your Kubernetes Environment with AWS Lambda](https://liavyona09.medium.com/spice-up-your-kubernetes-environment-with-aws-lambda-a07d81347607)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Serverless enterprise-grade multi-tenancy using AWS | Tarek Becker](https://medium.com/@tarekbecker/serverless-enterprise-grade-multi-tenancy-using-aws-76ff5f4d0a23)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -198,5 +198,5 @@
   - **(2024)** [AWS Step Functions](https://aws.amazon.com/step-functions) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A managed serverless orchestration service that simplifies state machine design for multi-step microservices. It coordinates complex distributed workflows, manages execution state, handles built-in retries, and integrates natively with over 200 AWS services to prevent deep nesting of Lambda functions.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Backup](./aws-backup.md) | [AWS Databases](./aws-databases.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
 

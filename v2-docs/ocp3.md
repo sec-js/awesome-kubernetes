@@ -12,10 +12,10 @@
   - [learn.openshift.com: GitOps introduction](https://learn.openshift.com/introduction/gitops-introduction)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.openshift.com: is it too late to integrate GitOps?](https://blog.openshift.comis-it-too-late-to-integrate-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.openshift.com: OpenShift Authentication Integration with ArgoCD](https://blogopenshift.com/openshift-authentication-integration-with-argocd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone: 8 Options for Capturing Thread Dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Container-native virtualization allows to run and manage virtual machine workloads alongside container workloads](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.2/html/container-native_virtualization/container-native-virtualization-2-1-release-notes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [How to Run HA Elasticsearch (ELK) on Red Hat OpenShift](https://portworx.com/run-ha-elasticsearch-elk-red-hat-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Installing debugging tools into a Red Hat OpenShift' container with **oc-inject**](https://developers.redhat.com/blog/2020/01/15installing-debugging-tools-into-a-red-hat-openshift-container-with-oc-inject)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: 8 Options for Capturing Thread Dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Quotas setting per project](https://docs.openshift.com/container-platform/4.2/applications/quotas/quotas-setting-per-project.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Quotas setting across multiple projects](https://docs.openshift.com/container-platform/4.2/applications/quotas/quotas-setting-across-multiple-projects.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Source-to-Image (S2I) Build](https://docs.openshift.com/container-platform/3.11/architecture/core_concepts/builds_and_image_streams.html#source-build)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -28,6 +28,13 @@
 
   - **(2019)** [blog.openshift.com/: From Templates to Openshift Helm Charts](https://www.redhat.com/en/blog/from-templates-to-openshift-helm-charts) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides step-by-step guidance on porting proprietary OpenShift templates into standard Helm Charts, improving cross-platform compatibility and simplifying application rollout processes.
   - **(2019)** [Templating on OpenShift: should I use Helm templates or OpenShift templates? 🌟](https://www.theodo.com/en-fr/blog/openshift-what-templates-should-you-use-helm-or-openshift) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comparative analysis contrasting OpenShift native templates with Helm charts. Outlines how Helm's global community, revision tracking, and subchart structures provide a superior template solution for complex microservice environments.
+## Observability
+
+### Application Monitoring
+
+#### Java JMX
+
+  - **(2017)** [developers.redhat.com: Troubleshooting java applications on openshift (Jolokia)](https://developers.redhat.com/blog/2017/08/16/troubleshooting-java-applications-on-openshift) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Guides developers on using Jolokia, an HTTP/JSON bridge for JMX, to securely query and troubleshoot Java microservices deployed inside Red Hat OpenShift pods.
 ## Platform Architecture
 
 ### Administration
@@ -97,5 +104,5 @@
   - **(2018)** [developers.redhat.com: Securing .NET Core on OpenShift using HTTPS](https://developers.redhat.com/blog/2018/10/12/securing-net-core-on-openshift-using-https) <span class='md-tag md-tag--warning'>[C# CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Guides engineers through configuring ASP.NET Core microservices with end-to-end TLS encryption on OpenShift. Discusses dynamic integration of local server certificates using OpenShift's service serving certificates feature.
 
 ---
-💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Docker](./docker.md)
+💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
 

@@ -5,6 +5,7 @@
 
 ## Standard Reference
 
+  - [Kubernetes Troubleshooting: A Step-by-Step Guide](https://www.cncf.io/blog/2025/03/13/kubernetes-troubleshooting-a-step-by-step-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: 5 tips for troubleshooting apps on Kubernetes](https://medium.com/@alexellisuk/5-tips-for-troubleshooting-apps-on-kubernetes-835b6b539c24)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [veducate.co.uk: How to fix in Kubernetes – Deleting a PVC stuck in status' “Terminating”](https://veducate.co.uk/kubernetes-pvc-terminating)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [levelup.gitconnected.com: 5 tips for troubleshooting apps on Kubernetes](https://levelup.gitconnected.com/5-tips-for-troubleshooting-apps-on-kubernetes-835b6b539c24)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -43,7 +44,6 @@
   - [medium.com/@it-craftsman: How to fix Kubernetes namespaces stuck in terminating' state](https://medium.com/@it-craftsman/how-to-fix-kubernetes-namespaces-stuck-in-terminating-state-ea46c5fff045)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@reefland: Access PVC Data without the POD; troubleshooting Kubernetes.](https://medium.com/@reefland/access-pvc-data-without-the-pod-troubleshooting-kubernetes-b28bfdd7502)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/geekculture: K8s Troubleshooting — How to Debug CoreDNS Issues](https://medium.com/geekculture/k8s-troubleshooting-how-to-debug-coredns-issues-724e8b973cfc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Kubernetes Troubleshooting: A Step-by-Step Guide](https://www.cncf.io/blog/2025/03/13/kubernetes-troubleshooting-a-step-by-step-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [How to quarantine pods](https://www.reddit.com/r/kubernetes/comments/gt3uvg/how_to_quarantine_pods)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [tetrate.io: How to debug microservices in Kubernetes with proxy, sidecar' or service mesh?](https://www.tetrate.io/blog/how-to-debug-microservices-in-kubernetes-with-proxy-sidecar-or-service-mesh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [sumanthkumarc.medium.com: Debugging namespace deletion issue in Kubernetes](https://sumanthkumarc.medium.com/debugging-namespace-deletion-issue-in-kubernetes-f6f8b40a4368)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -81,13 +81,6 @@
 #### Flatcar Linux
 
   - **(2024)** [kinvolk.io](https://kinvolk.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official portal of Kinvolk (acquired by Microsoft), pioneers of Flatcar Container Linux, Lokomotive Kubernetes, and Inspektor Gadget. The platform represents an essential pillar in the development of minimal, immutable operating systems and eBPF-based Kubernetes tooling.
-## Container Runtimes
-
-### containerd
-
-#### ctr CLI
-
-  - **(2023)** [labs.iximiuz.com: How to work with container images using ctr](https://labs.iximiuz.com/courses/containerd-cli/ctr/image-management) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Deep technical laboratory exercise focused on managing low-level container images using the containerd 'ctr' CLI. Vital for operations engineers debugging nodes directly where high-level runtimes like docker are not installed.
 ## Development Workflow
 
 ### IDE Extensions
@@ -217,13 +210,6 @@
 #### kubectl plugins
 
   - **(2020)** [==kubectl-debug==](https://github.com/aylei/kubectl-debug) <span class='md-tag md-tag--info'>⭐ 2305</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Originally a popular community-built plugin to launch debugging containers within target pods, `kubectl-debug` has largely been superseded by native Kubernetes Ephemeral Containers (`kubectl debug` command) in modern releases. This project remains a valuable reference for historical context and legacy cluster compatibility. For modern clusters, engineers are strongly advised to transition to built-in Kubernetes diagnostic commands.
-## Kubernetes Platform Engine
-
-### Cluster Operations
-
-#### Memory Management
-
-  - **(2025)** [OOMKilled in Kubernetes: Understanding and Preventing Hidden Memory Leaks](https://unixarena.com/2025/04/oomkilled-in-kubernetes-the-hidden-memory-leaks-youre-missing.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Diagnoses Kubernetes `OOMKilled` (Exit Code 137) events caused by memory leaks, misconfigured resource limits, and JVM heap management issues. Explains how to set appropriate limits/requests while implementing profiling tools to prevent container churn.
 ## Observability (1)
 
 ### Debugging
@@ -236,6 +222,7 @@
   - **(2021)** [github.com/JamesTGrant/kubectl-debug](https://github.com/JamesTGrant/kubectl-debug) <span class='md-tag md-tag--info'>⭐ 373</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A kubectl plugin designed to launch temporary debugging containers within a target pod namespace. Streamlines manual container introspection prior to the widespread adoption of native ephemeral containers.
 #### CLI Operations
 
+  - **(2023)** [A Complete Guide to Kubectl exec](https://refine.dev/blog/kubectl-exec-command) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive guide explaining the inner workings of the 'kubectl exec' command. Breaks down how connection handshakes occur between the API server, Kubelet, and container runtimes (CRI).
   - **(2021)** [thenewstack.io: Living with Kubernetes: 12 Commands to Debug Your Workloads 🌟](https://thenewstack.io/living-with-kubernetes-12-commands-to-debug-your-workloads)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curated list of 12 essential kubectl commands designed to streamline low-level container and network diagnostics. Targets common day-2 operational challenges, addressing resource pressure, storage attachments, and system event inspection.
 #### Container Debugging
 
@@ -279,5 +266,5 @@
   - **(2024)** [KubeUI: A Desktop Kubernetes Client](https://github.com/IvanJosipovic/KubeUI) <span class='md-tag md-tag--info'>⭐ 311</span> <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-performance, desktop-optimized UI designed to stream, monitor, and interact with live cluster metrics and objects. It enhances developer agility through dynamic views of multi-cluster namespaces and active workload metrics.
 
 ---
-💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Docker](./docker.md)
+💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
 

@@ -197,5 +197,5 @@
   - **(2022)** [thenewstack.io: 7 Benefits of Testing in Isolation](https://thenewstack.io/7-benefits-of-testing-in-isolation) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines seven architectural advantages of isolated component testing. Details why using service mocks, localized databases, and sandboxed test environments accelerates regression tracking and simplifies dependency configurations.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Developerportals](./developerportals.md) | [Chaos Engineering](./chaos-engineering.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [Test Automation Frameworks](./test-automation-frameworks.md)
 

@@ -101,5 +101,5 @@ We advocate for a technical sector where quality and evidence-based decisions ta
   - **(2024)** [Terraform Kubernetes Boilerplates 🌟](https://nubenetes.com/terraform/) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A library of enterprise-stable Terraform templates configured specifically for modern Kubernetes environments (EKS, GKE, AKS). Includes pre-tested infrastructure specifications for VPC topologies, private nodes, and dynamic ingress setups.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Other Awesome Lists](./other-awesome-lists.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
 

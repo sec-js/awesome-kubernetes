@@ -5,13 +5,13 @@
 
 ## Standard Reference
 
+  - [awesomeopensource.com: The Top 110 Cidr Open Source Projects on Github 🌟](https://awesomeopensource.com/projects/cidr)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Application Network Security in Azure Subnets, Endpoints, DNS, NSGs with Terraform Code](https://medium.com/@codebob75/application-network-security-in-azure-subnets-endpoints-dns-nsgs-with-terraform-code-0bcabdb3a65b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/javarevisited: 5 Best HTTPS, SSL and TLS Courses for Beginners' in 2022](https://medium.com/javarevisited/best-https-ssl-and-tls-courses-for-beginners-4437661250b3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [wisc.edu: CIDR Conversion Table](https://kb.wisc.edu/ns/page.php?id=3493)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: What Is CIDR (Classless Inter-Domain Routing)](https://dzone.com/articles/what-is-cidr-classless-inter-domain-routing-in-mul)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cyberciti.biz: Linux: IP Subnet (CIDR) Calculator That Will Help You With' Network Settings](https://www.cyberciti.biz/faq/linux-subnet-calculator-cidr)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cyberciti.biz: Linux Calculating Subnets with ipcalc and sipcalc Utilities](https://www.cyberciti.biz/tips/perform-simple-manipulation-of-ip-addresse.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [awesomeopensource.com: The Top 110 Cidr Open Source Projects on Github 🌟](https://awesomeopensource.com/projects/cidr)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [wikipedia: List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Wikipedia: HTTP/2](https://en.wikipedia.org/wiki/HTTP/2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Wikipedia: HTTP/3](https://en.wikipedia.org/wiki/HTTP/3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -106,5 +106,5 @@
   - **(2024)** [alexandrehtrb.github.io: HTTP/2 and HTTP/3 explained](https://alexandrehtrb.github.io/posts/2024/03/http2-and-http3-explained) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A thorough engineering analysis contrasting architectural behaviors of HTTP/2 and HTTP/3. Examines the structural transition from TCP-based flows to UDP-based QUIC, detailing performance impacts.
 
 ---
-💡 **Explore Related:** [Kubernetes Networking](./kubernetes-networking.md) | [Caching](./caching.md) | [Web Servers](./web-servers.md)
+💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md)
 

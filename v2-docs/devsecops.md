@@ -6,7 +6,6 @@
 ## Standard Reference
 
   - [armosec.io: Use Kubescape to check if your Kubernetes clusters are exposed to the latest K8s Symlink vulnerability (CVE-2021-25741)](https://www.armosec.io/cve-vulnerability-database)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Automating Microsoft Sentinel Deployment with Azure DevOps CI/CD](https://noodlemctwoodle.medium.com/automating-microsoft-sentinel-deployment-with-azure-devops-ci-cd-2d4ae0c4e254)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Exploring the (lack of) security in a typical Docker and Kubernetes installation](https://www.neowin.net/news/exploring-the-lack-of-security-in-a-typical-docker-and-kubernets-installation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [securityboulevard.com: DevOps vs. DevSecOps – Here’s How They Fit Together](https://securityboulevard.com/2021/02/devops-vs-devsecops-heres-how-they-fit-together)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [addteq.com: The REAL Difference between DevOps and DevSecOps](https://www.addteq.com/blog/2021/03/the-real-difference-between-devops-and-devsecops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -35,6 +34,7 @@
   - [dzone: DevOps Pipeline Quality Gates: A Double-Edged Sword](https://dzone.com/articles/devops-pipeline-quality-gates-a-double-edged-sword)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Focusing on the DevOps Pipeline 🌟](https://medium.com/capital-one-tech/focusing-on-the-devops-pipeline-topo-pal-833d15edf0bd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cncf.io: Identifying Kubernetes Config Security Threats: Pods Running as' Root](https://www.cncf.io/blog/2020/06/16/identifying-kubernetes-config-security-threats-pods-running-as-root)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Automating Microsoft Sentinel Deployment with Azure DevOps CI/CD](https://noodlemctwoodle.medium.com/automating-microsoft-sentinel-deployment-with-azure-devops-ci-cd-2d4ae0c4e254)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Project Calico](https://www.projectcalico.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [betterprogramming.pub: Kubernetes Security With Falco](https://betterprogramming.pub/kubernetes-security-with-falco-2eb060d3ae7d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [vashishtsumit89.medium.com: Security/Pen Testing: A guide to run OWASP Zap' headless in containers for CI/CD pipeline](https://vashishtsumit89.medium.com/security-pen-testing-a-guide-to-run-owasp-zap-headless-in-containers-for-ci-cd-pipeline-ddb580dae3c8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -107,13 +107,13 @@
   - [bridgecrew.io: Tutorial: Incorporate IaC Security in your CI/CD pipeline' with Bridgecrew, Jenkins, and GitHub](https://bridgecrew.io/blog/tutorial-incorporate-iac-security-in-your-ci-cd-pipeline-with-bridgecrew-jenkins-and-github)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itbusinessedge.com: Okta vs. Azure AD: IAM Tool Comparison](https://www.itbusinessedge.com/security/okta-vs-azure-ad)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## CICD Pipeline
+## Application Development
 
-### Pipeline Automation
+### Cloud-Native Java
 
-#### JFrog Pipelines
+#### Tanzu Framework
 
-  - **(2021)** [jfrog.com: How I Leaped Forward My Jenkins Build with JFrog Pipelines](https://jfrog.com/blog) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the transition of software build jobs from standard Jenkins architectures to optimized JFrog Pipelines. It details structural enhancements in build speeds, caching mechanisms, and overall pipeline orchestrations using Artifactory integrations. This technical blog demonstrates techniques for reducing CI bottleneck overhead.
+  - **(2022)** [tanzu.vmware.com: Microservices with Spring Cloud Kubernetes Reference Architecture 🌟](https://www.vmware.com/products/app-platform/tanzu) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides the canonical reference architecture for running high-scale Spring Cloud applications natively on Kubernetes. Evaluates Spring Cloud Kubernetes integrations for service discovery, centralized configuration via ConfigMaps, and seamless external secrets management, aligning with 2026 Tanzu application platform standards.
 ## Cloud Architecture
 
 ### Infrastructure Automation
@@ -128,6 +128,13 @@
 #### Advanced Templating
 
   - **(2022)** [**Kapitan**](https://kapitan.dev) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An open-source configuration management engine built to generate clean declarative configurations (Kubernetes manifests, Terraform, Ansible) using Python and Jsonnet. Kapitan simplifies managing configurations for multiple environments by using a single source of truth.
+## Container Infrastructure
+
+### CI-CD Pipelines
+
+#### Pipeline Security
+
+  - **(2022)** [Build trusted pipelines/Guards with Podman containers](https://www.redhat.com/en/blog/using-container-technology-make-trusted-pipeline) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes how to design highly secure, isolated CI/CD pipelines using Podman container guards. By isolating execution steps within unprivileged container sandboxes, this architecture protects build systems and host servers from security compromises.
 ## Containers
 
 ### Security and Hardening
@@ -155,6 +162,11 @@
 #### Static Analysis
 
   - **(2021)** [securecoding.com: Code Audit: How to Ensure Compliance for an Application](https://www.securecoding.com/blog/code-audit-how-to-ensure-compliance-for-an-application) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on designing structural code auditing protocols to assure continuous regulatory and technical compliance. Outlines SAST/DAST tooling patterns, automated linting integration, and structured reviewer workflows. Designed for engineering managers seeking to build high-maturity compliance loops into software delivery pipelines.
+### Continuous Delivery
+
+#### Security Policy
+
+  - **(2020)** [computing.co.uk: CloudBees gets busy with security, visibility and control as DevOps evolves](https://www.computing.co.uk/news/4020521/cloudbees-busy-security-visibility-control-devops-evolves) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines corporate initiatives aimed at embedding security validations and automated pipeline compliance directly within Jenkins-based and unified enterprise orchestration systems.
 ### GitOps Secrets
 
 #### Mozilla SOPS
@@ -1062,5 +1074,5 @@
   - **(2022)** [permission.site](https://permission.site)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive security validation platform that allows engineers to test how various browser APIs, iframe permissions, and Content Security Policies (CSP) behave, enabling precise verification of client-side web application security postures.
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Ansible](./ansible.md)
+💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Oauth](./oauth.md)
 

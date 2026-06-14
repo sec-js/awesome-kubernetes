@@ -729,6 +729,9 @@ Live Grounding: Deep-dives into subclassing mechanics, resolving method chains v
 #### CLI Generation
 
   - **(2025)** [==google/python-fire 🌟==](https://github.com/google/python-fire) <span class='md-tag md-tag--info'>⭐ 28203</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight presents Google Fire as a library that instantly derives fully operational CLI endpoints from any Python object. Live Grounding confirms its extensive use in data engineering pipelines to easily export complex programmatic code without setting up manual parsing boilerplate.
+#### Computer Science Foundations
+
+  - **(2024)** [Think Python](https://allendowney.github.io/ThinkPython) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry-standard manual detailing computer science foundations using Python. Progresses through data structures, algorithms, functional routines, and object-oriented modeling with highly verified, elegant coding conventions.
 #### Debugging Tools
 
   - **(2016)** [tracker: A time machine for debugging pesky stateful errors](https://github.com/madisonmay/tracker) <span class='md-tag md-tag--info'>⭐ 36</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight details a utility designed to capture and track mutational state transitions in Python objects over time. Live Grounding observes that while the repository is now dormant and unmaintained, the architecture of immutable tracking states remains a core conceptual design in complex state-machine debugging.
@@ -919,5 +922,5 @@ Live Grounding: Assesses PyScript's interface layer, detailing direct DOM manipu
   - **(2015)** [TDD with Django, from scratch: a beginner's intro to testing and web development](http://www.pyvideo.org/video/3509/tdd-with-django-from-scratch-a-beginners-intro) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Historical tutorial introducing Test-Driven Development (TDD) concepts in Django. Evaluates assertion workflows, testing isolated model components, and unit test integrations within early Python CI environments.
 
 ---
-💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [Angular](./angular.md) | [API](./api.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 

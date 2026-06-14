@@ -129,5 +129,5 @@
   - **(2026)** [soshace](https://soshace.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated remote work platform targeting web developers, specifically focusing on React, Angular, and Node.js engineers. It offers transparent vetting and direct client-to-developer contracts. Live grounding emphasizes its utility for medium-sized businesses seeking rapid frontend scaling.
 
 ---
-💡 **Explore Related:** [Appointment Scheduling](./appointment-scheduling.md) | [Finops](./finops.md) | [Recruitment](./recruitment.md)
+💡 **Explore Related:** [HR](./hr.md) | [Elearning](./elearning.md) | [Newsfeeds](./newsfeeds.md)
 

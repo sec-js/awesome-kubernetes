@@ -5,7 +5,6 @@
 
 ## Standard Reference
 
-  - [Certified Kubernetes offerings](https://www.cncf.io/certification/software-conformance)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Quick Fix: Mounting a ConfigMap to an Existing Volume in Kubernetes' Using Rancher](https://medium.com/swlh/quick-fix-mounting-a-configmap-to-an-existing-volume-in-kubernetes-using-rancher-d01c472a10ad)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.kubecost.com: Rancher vs Kubernetes: It’s not either or](https://blog.kubecost.com/blog/rancher-vs-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [akyriako.medium.com: Provision an on-prems Kubernetes Cluster with Rancher,' Terraform and Ansible](https://akyriako.medium.com/provision-an-on-prems-kubernetes-cluster-with-rancher-terraform-and-ansible-e26e24059319)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -20,7 +19,15 @@
   - [medium.com: OKE Clusters from Rancher 2.0](https://medium.com/swlh/oke-clusters-from-rancher-2-0-409131ad1293)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com: Rancher deployed Kubernetes on Oracle Cloud Infrastructure](https://medium.com/@jlamillan/rancher-deployed-kubernetes-on-oracle-cloud-infrastructure-6b0656cdaec0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kubernautic](https://kubernauts.sh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Certified Kubernetes offerings](https://www.cncf.io/certification/software-conformance)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Cloud Native
+
+### Kubernetes
+
+#### Rancher Management
+
+  - **(2022)** [aws-quickstart.github.io: Rancher on the AWS Cloud. Quick Start Reference Deployment](https://aws-quickstart.github.io/quickstart-eks-rancher) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official AWS Quick Start reference guide for standing up Rancher on AWS. This architecture installs Rancher on an Amazon EKS cluster, giving enterprise operations teams a unified interface to govern multiple downstream clusters, enforce unified RBAC models, and manage complex multi-tenant environments.
 ## Container Engines
 
 ### Lightweight Runtimes
@@ -145,6 +152,20 @@
 #### Tutorials
 
   - **(2021)** [itnext.io: Fleet Management of Kubernetes Clusters at Scale — Rancher’s Fleet](https://itnext.io/fleet-management-of-kubernetes-clusters-at-scale-ranchers-fleet-de161cc52325)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight reviews Fleet's design for multi-cluster scaling. Live engineering truth in 2026 confirms that the fundamental architectures of GitOps bundles and target custom resource definitions (CRDs) outlined here continue to dictate how Fleet scales in production setups.
+## Infrastructure (1)
+
+### Cluster Management
+
+#### RKE2
+
+  - **(2024)** [RKE2 Standalone Disaster Recovery Guide](https://support.tools/post/rke2-standalone-disaster-recovery) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Critical disaster recovery operational manual targeting RKE2 standalone clusters. Focuses on backup restoration, etcd snapshot recovery, and certificate rotation when cluster management planes fail.
+## Introductory
+
+### Concepts
+
+#### Core Resources
+
+  - **(2021)** [community.suse.com: Stupid Simple Kubernetes — Deployments, Services and Ingresses Explained](https://www.rancher.com/community)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a clean, foundational model detailing the relationship between Deployments, Services, and Ingress resources. Explains how these layers work together to manage container replicas, handle traffic distribution, and expose APIs to external users.
 ## Kubernetes Management
 
 ### Case Studies
@@ -190,6 +211,9 @@
 #### Alerting
 
   - **(2023)** [rancher.com: Custom alerts using Prometheus queries](https://www.suse.com/c/rancher_blog/custom-alerts-using-prometheus-queries) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operational guide focusing on formulating custom alert conditions using PromQL queries in Rancher. Shows how to integrate metrics with alert systems and route notifications to modern receivers like Slack or PagerDuty.
+#### etcd Monitoring
+
+  - **(2023)** [Monitor Etcd with Prometheus and Grafana using Rancher](https://www.suse.com/c/rancher_blog/monitor-etcd-with-prometheus-and-grafana-using-rancher) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operational runbook explaining how to configure Prometheus and Grafana within SUSE Rancher to audit and visualize etcd status. Evaluates critical etcd parameters including database size, disk synchronization latency, and peer communication health.
 ### Multi-Cluster Orchestration
 
 #### Enterprise Management
@@ -261,5 +285,5 @@
   - **(2025)** [==Harvester==](https://github.com/harvester/harvester) <span class='md-tag md-tag--info'>⭐ 5054</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight showcases Harvester as a modern open-source HCI built on KubeVirt and Longhorn. Live grounding in 2026 confirms Harvester has fully matured into an enterprise-stable alternative to VMware ESXi, enabling seamless co-habitation of VM and container environments under unified Kubernetes control planes.
 
 ---
-💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Docker](./docker.md)
+💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
 

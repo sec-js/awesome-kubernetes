@@ -5,9 +5,9 @@
 
 ## Standard Reference
 
+  - [Docker Hardened Images for Every Developer](https://www.docker.com/blog/docker-hardened-images-for-every-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [IBM Vault 2.0 UI Enhancements and Reporting Improvements](https://t.co/cvOceuueCF)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Web-Check](https://web-check.xyz)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Docker Hardened Images for Every Developer](https://www.docker.com/blog/docker-hardened-images-for-every-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [IBM IAM for AI Agents](https://t.co/EKsVgKA4xn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Automate policies enforcement with Policy-as-Code 🌟](https://medium.com/airwalk/automate-policies-enforcement-with-policy-as-code-2f20aac9e2b0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [magalix.com: Integrating Open Policy Agent (OPA) With Kubernetes 🌟](https://www.magalix.com/blog/integrating-open-policy-agent-opa-with-kubernetes-a-deep-dive-tutorial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -180,5 +180,5 @@
   - **(2022)** [MagTape](https://github.com/tmobile/magtape) <span class='md-tag md-tag--info'>⭐ 152</span> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — An admission controller developed by T-Mobile that evaluates resources against organizational policy constraints during creation. Written in Node.js, it offered a lightweight alternative to OPA for specific JSON schema validations. By 2026, it has been largely archived, with developers migrating to Gatekeeper or Kyverno.
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Ansible](./ansible.md)
+💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Oauth](./oauth.md)
 

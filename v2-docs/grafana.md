@@ -17,6 +17,15 @@
   - [cleancloud-k8s.com: Handling Multiline Logs with Loki and Fluent Bit on' Kubernetes](https://cleancloud-k8s.com/2022/01/19/handling-multiline-logging-with-loki-and-fluent-bit-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [faun.pub: Grafana, Prometheus, and Loki: Exploring Metrics and Logs](https://faun.pub/grafana-prometheus-and-loki-exploring-metrics-and-logs-f198637784fc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Cloud Architecture
+
+### Certification
+
+#### AWS
+
+##### Solutions Architect Professional
+
+  - **(2020)** [Tips on Passing AWS Certified Solutions Architect - Professional Level](https://www.linkedin.com/top-content/?trk=article_not_found) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A strategic study guide for passing the AWS Certified Solutions Architect - Professional exam. The content focuses on advanced architectural design patterns, multi-tier application migration, cost optimization, and high-availability setups across complex AWS environments. Curator Insight: Highly structured blueprint for enterprise AWS exam prep. Live Grounding: Real-world value lies in understanding multi-account strategies, organizational governance, and security at scale.
 ## Infrastructure as Code
 
 ### Package Archives
@@ -231,5 +240,5 @@
   - **(2023)** [==Grafana Faro 🌟==](https://grafana.com/oss/faro) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Introduction to Grafana Faro, an open-source web SDK designed for Frontend Application Observability. Collects real-time core web vitals, user logs, console errors, and session metrics.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [About](./about.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
 

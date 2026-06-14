@@ -12,7 +12,6 @@
   - [blog.mongodirector.com: Which is the best MongoDB GUI?](http://blog.mongodirector.com/which-is-the-best-mongodb-gui)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [mongodirector: MongoDB Hosting](http://mongodirector.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [MongoDB Tutorial – A Scalable NoSQL DB](http://www.javacodegeeks.com/2015/09/mongodb-a-scalable-nosql-db.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com: A chance for NewSQL databases](https://medium.com/packlinkeng/a-chance-for-newsql-databases-3bba18fea6a1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [NoSQL - Wikipedia](https://en.wikipedia.org/wiki/NoSQL)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [vishnu.hashnode.dev: 4 Types Of NoSQL Databases](https://vishnu.hashnode.dev/4-types-of-nosql-databases)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: When to Use MongoDB Rather than MySQL](https://medium.com/@rsk.saikrishna/when-to-use-mongodb-rather-than-mysql-d03ceff2e922)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -25,6 +24,7 @@
   - [betterprogramming.pub: MongoDB Schema Validation Rules](https://betterprogramming.pub/mongodb-schema-validation-rules-8a1afc6ea67b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [code.likeagirl.io: Docker: Setup Simple Application with MongoDB for Data' Storage](https://code.likeagirl.io/docker-setup-simple-application-with-mongodb-for-data-storage-272bdb3036ad)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: SQL Syntax for Apache Drill](https://dzone.com/refcardz/sql-syntax-for-apache-drill)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com: A chance for NewSQL databases](https://medium.com/packlinkeng/a-chance-for-newsql-databases-3bba18fea6a1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Data Architecture
 
@@ -129,5 +129,5 @@
   - **(2021)** [github.com/oslabs-beta: Odin's Eye](https://github.com/oslabs-beta/OdinsEye) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Open-source developer utility designed to monitor distributed microservices architecture patterns, tracking internal query metrics and communication flows. Primarily active within the community sandbox.
 
 ---
-💡 **Explore Related:** [Crunchydata](./crunchydata.md) | [Databases](./databases.md) | [Yaml](./yaml.md)
+💡 **Explore Related:** [Yaml](./yaml.md) | [Message Queue](./message-queue.md) | [Databases](./databases.md)
 

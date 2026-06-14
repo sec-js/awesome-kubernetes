@@ -36,6 +36,13 @@
 #### Site Reliability Engineering
 
   - **(2021)** [openshift.com: From Ops to SRE - Evolution of the OpenShift Dedicated Team](https://www.redhat.com/en/blog/from-ops-to-sre-evolution-of-the-openshift-dedicated-team)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyses the operational and structural evolution of Red Hat's OpenShift Dedicated SRE team. Documents the shift from classic system administration to an automation-first SRE model to govern fleet-scale, multi-tenant Kubernetes platforms at high availability.
+## Cloud Native
+
+### Kubernetes
+
+#### Progressive Delivery
+
+  - **(2024)** [**Iter8**](https://iter8.tools) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A Kubernetes-native release validation and progressive delivery tool. Iter8 enables automated canary testing, A/B testing, and SLO evaluation. It coordinates traffic shifting using Service Meshes or Gateways, evaluating metrics from Prometheus and metrics-server to automate rollbacks or promote stable microservice builds.
 ## Continuous Delivery
 
 ### Feature Management
@@ -139,6 +146,13 @@
   - **(2022)** [getcortexapp.com: A guide to the best SRE tools](https://www.cortex.io/post/a-guide-to-the-best-sre-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Cortex's architectural guide evaluating modern SRE tooling stacks. Highlights service catalogs, central tracking, alert deduplication, automated runbooks, and performance benchmarking.
   - **(2021)** [thenewstack.io: The Site Reliability Engineering Tool Stack](https://thenewstack.io/the-site-reliability-engineering-tool-stack)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the fundamental tooling categories necessary for robust SRE practices, spanning declarative Infrastructure as Code (IaC), performance profiling, on-call management, and automated monitoring integrations.
   - **(2021)** [thenewstack.io: The Best Site Reliability Engineering Tools in 2021](https://thenewstack.io/the-best-site-reliability-engineering-tools-in-2021)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An evaluative overview of top-tier reliability platforms. Focuses on tools addressing continuous anomaly detection, SLO dashboards, chaos engineering, and incident management pipelines.
+## Platform Engineering (1)
+
+### Design Methodology
+
+#### Platform Democracy
+
+  - **(2023)** [Platform Democracy: Rethinking Who Builds and Consumes Your Internal Platform](https://www.syntasso.io/post/platform-democracy-rethinking-who-builds-and-consumes-your-internal-platform) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the shift from top-down platform imposition to a collaborative platform democracy model where users actively influence platform features. Focuses on Kratix-style platform design that co-creates platform capabilities to better align with actual developer workflows and organizational requirements.
 ## Reliability Engineering (1)
 
 ### Cloud Native Paradigms
@@ -169,6 +183,15 @@
 #### Synergies
 
   - **(2020)** [thenewstack.io: Where Site Reliability Engineering Overlaps with DevOps](https://thenewstack.io/where-the-site-reliability-engineer-role-overlaps-with-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the functional overlaps between SREs and DevOps professionals. Highlights how monitoring, CI/CD automation, and shared configuration management unify these roles into a cohesive system reliability and deployment delivery vehicle.
+## Site Reliability Engineering (3)
+
+### Observability (1)
+
+#### Monitoring Theory
+
+##### Distributed Systems
+
+  - **(2016)** [==Monitoring Distributed Systems - Google SRE Book==](https://sre.google/sre-book/monitoring-distributed-systems) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The foundational text establishing distributed systems monitoring fundamentals. Introduces the 'four golden signals' (latency, traffic, errors, and saturation) and addresses the core engineering trade-offs between white-box and black-box monitoring. Curator Insight: Seminal SRE literature defining core telemetry metrics. Live Grounding: Remains the architectural blueprint for modern production-grade telemetry frameworks globally.
 ## Software Engineering
 
 ### Professional Development
@@ -176,7 +199,12 @@
 #### Core Architectures
 
   - **(2025)** [==Skills for Real Engineers==](https://github.com/mattpocock/skills) <span class='md-tag md-tag--info'>⭐ 128202</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exceptionally popular repository detailing the foundational principles, design philosophies, and architectural protocols required for master-level software delivery. While the curator focuses on career advancement, live engineering practice indicates that mastering these fundamentals is vital to surviving rapid AI development shifts. It represents an elite reference for engineering standardizations.
+### Version Control Systems
+
+#### Git Workflows
+
+  - **(2020)** [victorops.com: Source Code Control: Trunk-Based Development vs. GitFlow](https://www.splunk.com/en_us/about-splunk/acquisitions/splunk-on-call.html) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An evaluation of GitFlow versus Trunk-Based Development, analyzing how branching strategies affect MTTR, deployment frequency, and software quality. It details the operational changes and tooling adjustments required to adopt trunk-based methodologies.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Developerportals](./developerportals.md) | [Chaos Engineering](./chaos-engineering.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [QA](./qa.md)
 

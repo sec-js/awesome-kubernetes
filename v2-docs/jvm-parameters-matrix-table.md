@@ -9,5 +9,5 @@
 
 
 ---
-💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [Angular](./angular.md) | [API](./api.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 

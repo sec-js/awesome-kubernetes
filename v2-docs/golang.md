@@ -5,7 +5,9 @@
 
 ## Standard Reference
 
+  - [Koa.js](https://koa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [simplecheatsheet.com/tag/golang-cheat-sheet](https://simplecheatsheet.com/tag/golang-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [alexsniffin.medium.com: Debugging Remotely with Go in Kubernetes](https://alexsniffin.medium.com/debugging-remotely-in-kubernetes-with-go-fda4f3332316)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Microservices in Go](https://medium.com/seek-blog/microservices-in-go-2fc1570f6800)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [search.gocenter.io: JFrog Go Center](https://search.gocenter.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ammeon.com: Profiling golang microservices for high throughput on kubernetes/openshift' clusters](https://www.ammeon.com/profiling-golang-microservices-for-high-throughput-on-kubernetes-openshift-clusters)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -19,10 +21,8 @@
   - [Part 4 — Using the Go client framework](https://medium.com/programming-kubernetes/building-stuff-with-the-kubernetes-api-part-4-using-go-b1d0e3c1c899)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/codex: Explore client-go Informer Patterns](https://medium.com/codex/explore-client-go-informer-patterns-4415bb5f1fbd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [shahin-mahmud.medium.com: Write your first Kubernetes operator in go](https://shahin-mahmud.medium.com/write-your-first-kubernetes-operator-in-go-177047337eae)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Koa.js](https://koa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [reddit.com: What is the best microservice framework in Go?](https://www.reddit.com/r/golang/comments/jnv4bd/what_is_the_best_microservice_framework_in_go)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/vedcraft: Top Microservices Frameworks in Go](https://medium.com/vedcraft/top-microservices-frameworks-in-go-762445c30dd6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [alexsniffin.medium.com: Debugging Remotely with Go in Kubernetes](https://alexsniffin.medium.com/debugging-remotely-in-kubernetes-with-go-fda4f3332316)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Architecture
 
@@ -84,11 +84,6 @@
 #### Debugging Tools
 
   - [github.com/groundcover-com: Container Restarts Watcher](https://github.com/groundcover-com/blog/tree/main/blog_k8s_containers_restarts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight points to a companion code repository for a Groundcover blog exploring Kubernetes container restart triggers. Live Grounding confirms it serves as a lightweight diagnostic template to intercept CrashLoopBackOff states in real-time.
-### Microservice Runtimes
-
-#### Dapr
-
-  - **(2026)** [==Dapr==](https://dapr.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The Distributed Application Runtime. Employs a highly modular sidecar design to deliver developer-focused APIs for pub/sub messaging, state management, and actor models.
 ### Web Frameworks
 
 #### Request Binding
@@ -251,5 +246,5 @@
   - [rehacktive/caffeine](https://github.com/rehacktive/caffeine) <span class='md-tag md-tag--info'>⭐ 1176</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight shows Caffeine as a simple Go command-line tool designed to prevent system sleep cycles. Live Grounding shows stable but quiet activity, functioning perfectly as an OS-level utility.
 
 ---
-💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [Angular](./angular.md) | [API](./api.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 

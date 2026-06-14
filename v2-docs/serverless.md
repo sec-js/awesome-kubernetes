@@ -5,8 +5,8 @@
 
 ## Standard Reference
 
-  - [Docker for LLMs](https://www.docker.com/llm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Serverless Architecture](https://developers.redhat.com/topics/serverless-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Docker for LLMs](https://www.docker.com/llm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: What a typical 100% Serverless Architecture looks like in AWS!](https://medium.com/serverless-transformation/what-a-typical-100-serverless-architecture-looks-like-in-aws-40f252cd0ecb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: Implementing Serverless Microservices Architecture on AWS](https://dzone.com/articles/implementing-serverless-microservices-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [vimal-dwarampudi.medium.com: Serverless Architecture design on major clouds](https://vimal-dwarampudi.medium.com/serverless-architecture-design-on-major-clouds-8c53c2aa62d2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -71,6 +71,13 @@
 #### Operational Cost
 
   - **(2020)** [freecodecamp.org: Serverless is cheaper, not simpler](https://www.freecodecamp.org/news/serverless-is-cheaper-not-simpler-a10c4fc30e49)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Challenges the popular industry narrative that serverless frameworks simplify system designs. While highlighting significant cost reductions, this case study warns about the operational complexities of distributed event routing, IAM configuration boundaries, and cold start mitigations.
+## Cloud Infrastructure and Orchestration
+
+### Serverless Architecture
+
+#### Case Studies
+
+  - **(2021)** [ServerlessHorrors: A Web Compiling Nightmares in the Serverless World](https://revistacloud.com/serverlesshorrors-la-web-que-recoge-las-peores-pesadillas-del-mundo-serverless) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A catalog documenting real-world runtime failures, billing anomalies, database connection exhaustion, cold start latency bottlenecks, and unexpected vendor configurations within modern serverless cloud setups.
 ## Cloud Native
 
 ### FaaS Basics
@@ -111,6 +118,7 @@
 
 #### Dapr
 
+  - **(2026)** [==Dapr==](https://dapr.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The Distributed Application Runtime. Employs a highly modular sidecar design to deliver developer-focused APIs for pub/sub messaging, state management, and actor models.
   - **(2022)** [**Building microservices? Give Dapr a try**](https://www.infoworld.com/article/2261795/building-microservices-give-dapr-a-try.html) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A deep analysis of Dapr's capabilities, detailing how its service abstraction layer accelerates microservice software delivery while avoiding tight coupling to infrastructure providers.
 ### Serverless (1)
 
@@ -123,7 +131,7 @@
 #### CI-CD
 
   - **(2019)** [**theburningmonk.com: Why you should use ephemeral environments when you do serverless**](https://theburningmonk.com/2019/09/why-you-should-use-temporary-stacks-when-you-do-serverless) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Recommends utilizing ephemeral stack deployments per developer or pull request. Highlights how to leverage zero-marginal-cost resource provisioning characteristics of cloud serverless.
-#### Case Studies
+#### Case Studies (1)
 
   - **(2022)** [**thenewstack.io: How Daily.Dev Built a Low-Budget Serverless Scraping Pipeline for Online Articles**](https://thenewstack.io/how-daily-dev-built-a-low-budget-serverless-scraping-pipeline-for-online-articles) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Details how daily.dev constructed a cost-efficient article parsing ecosystem by combining serverless scraping pipelines, queue storage, and ephemeral container tasks.
   - **(2020)** [**dashbird.io: Serverless Case Study – Coca-Cola**](https://dashbird.io/blog/serverless-case-study-coca-cola) <span class='md-tag md-tag--primary'>[CASE STUDY]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A key industrial case study tracking how Coca-Cola migrated critical transaction systems to serverless, noting immense scale capacity and severe operational cost savings.
@@ -213,6 +221,13 @@
 #### Visuals
 
   - **(2023)** [==serverlessland.com: EDA VISUALS 🌟🌟🌟==](https://serverlessland.com/event-driven-architecture/visuals) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A curated collection of visual explanations covering event-driven mechanics. Helps developers visually digest routing, choreographies, and filtering topologies.
+## FinOps and Cloud Cost
+
+### Azure Optimization
+
+#### Serverless (3)
+
+  - **(2024)** [**Azure Functions Cost Considerations and Optimization**](https://build5nines.com/azure-functions-cost-considerations-and-optimization) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Examines cost structures and billing patterns in serverless environments, focusing on Azure Functions. Compares Consumption, Premium, and Dedicated App Service plans, outlining how to minimize cold starts and optimize execution runtimes.
 ## Infrastructure as Code
 
 ### Serverless Integration
@@ -220,7 +235,14 @@
 #### Hybrid Automation
 
   - **(2019)** [**theburningmonk.com: Making Terraform and Serverless framework work together**](https://theburningmonk.com/2019/03/making-terraform-and-serverless-framework-work-together) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A classic, influential case study analyzing the architecture of combining HashiCorp Terraform (for heavy resources like VPCs, databases, IAM) with Serverless Framework (for ephemeral Lambdas). Explores state output handoffs, parameter store structures, and pipeline coordination protocols. Live grounding confirms that while newer tools have merged these functions, this division of labor remains highly performant and stable.
+## Kubernetes
+
+### Tooling
+
+#### Deployment Tools
+
+  - **(2021)** [**itnext.io: **arkade** by example — Kubernetes apps, the easy way 🌟**](https://itnext.io/kubernetes-apps-the-easy-way-f06d9e5cad3c) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Introduces arkade, a lightning-fast application installer for Kubernetes. Simplifies cluster bootstrap setups by deploying tools like OpenFaaS or cert-manager with one-line commands.
 
 ---
-💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Docker](./docker.md)
+💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
 

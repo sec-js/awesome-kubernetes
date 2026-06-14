@@ -66,5 +66,5 @@
   - **(2022)** [cloudkatha.com: How to Create an S3 Bucket using CloudFormation](https://cloudkatha.com/how-to-create-an-s3-bucket-using-cloudformation) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A foundational tutorial detailing the YAML patterns required to create and lock down basic AWS S3 buckets inside CloudFormation templates. It details parameters for versioning rules, basic access controls, and server-side encryption.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Serverless](./aws-serverless.md) | [AWS Backup](./aws-backup.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
 

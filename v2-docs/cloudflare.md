@@ -37,5 +37,5 @@
   - **(2026)** [Cloudflare workers (Serverless)](https://workers.cloudflare.com) <span class='md-tag md-tag--warning'>[JAVASCRIPT/WEBASSEMBLY CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Cloudflare Workers is an advanced serverless architecture utilizing V8 engine isolates. It runs application code directly at global edge locations, yielding near-zero cold-start overhead.
 
 ---
-💡 **Explore Related:** [Kubernetes Networking](./kubernetes-networking.md) | [Caching](./caching.md) | [Networking](./networking.md)
+💡 **Explore Related:** [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md) | [Networking](./networking.md)
 

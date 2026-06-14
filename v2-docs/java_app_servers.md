@@ -5,13 +5,22 @@
 
 ## Standard Reference
 
-  - [About WebSphere Liberty](https://developer.ibm.com/wasdev/websphere-liberty)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [wikipedia: Jakarta EE](https://en.wikipedia.org/wiki/Jakarta_EE)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Wikipedia: Payara Server](https://en.wikipedia.org/wiki/Payara_Server)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone: Getting Started With Java EE 8, Payara 5 and Eclipse Oxygen](https://dzone.com/articles/getting-started-with-java-ee-8-payara-5-and-eclips)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Red Hat JBoss Enterprise Application Platform (JBoss EAP)](https://developers.redhat.com/products/eap/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone: Jakarta EE & Wildfly Running on Kubernetes](https://dzone.com/articles/jakarta-ee-amp-wildfly-running-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [About WebSphere Liberty](https://developer.ibm.com/wasdev/websphere-liberty)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Cloud DevOps
+
+### CI-CD Pipelines
+
+#### Build Environments
+
+##### Runtime Configuration
+
+  - **(2025)** [Install Java 23 in an Azure DevOps Pipeline](https://www.returngis.net/2025/02/como-instalar-java-23-en-una-pipeline-de-azure-devops) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates how to dynamically install Java 23 onto Azure DevOps pipeline agents using automated setup tasks. In 2026, using localized runtime installation tasks is preferred over relying on pre-baked VM images, allowing pipelines to remain flexible and easily adapt to new framework versions.
 ## Cloud-Native Java
 
 ### Runtimes
@@ -47,5 +56,5 @@
   - **(2026)** [Payara](https://payara.fish) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Payara Server and Payara Micro provide high-performance, container-friendly environments for running Jakarta EE and MicroProfile workloads. Designed for critical production architectures, it supports built-in clustering, hazelcast-powered data grids, and auto-tuning capabilities inside Kubernetes deployments.
 
 ---
-💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [Angular](./angular.md) | [API](./api.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 

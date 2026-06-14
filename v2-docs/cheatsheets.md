@@ -7,6 +7,7 @@
 
   - [tutorialsdojo.com: AWS Cheat Sheets 🌟](https://tutorialsdojo.com/aws-cheat-sheets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [mastertheboss.com: OpenShift Cheat Sheet](http://www.mastertheboss.com/soa-cloud/openshift/openshift-cheatsheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone refcard: Getting Started With OpenShift 🌟](https://dzone.com/refcardz/getting-started-with-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Red Hat Developer cheat sheets 🌟](https://developers.redhat.com/cheatsheets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: The DevOps Cheat Sheet](https://medium.com/dataseries/the-devops-cheat-sheet-3177d6cf361c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Intermediate Linux Cheat Sheet](https://developers.redhat.com/cheat-sheets/intermediate-linux-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -47,7 +48,6 @@
   - [cyberciti.biz: Linux ip Command Examples](https://www.cyberciti.biz/faq/linux-ip-command-examples-usage-syntax)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ssh cheat sheet](https://cheatsheet.dennyzhang.com/cheatsheet-ssh-a4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openshift.tips](https://openshift.tips)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone refcard: Getting Started With OpenShift 🌟](https://dzone.com/refcardz/getting-started-with-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [faun.pub: Helm Command Cheat Sheet | By M. Sharma](https://faun.pub/helm-command-cheat-sheet-by-m-sharma-488706ecf131)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jrebel.com/blog/maven-cheat-sheet](https://www.jrebel.com/blog/maven-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium 1](https://medium.com/@TimvanBaarsen/maven-cheat-sheet-45942d8c0b86)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -84,11 +84,6 @@
 #### Change Data Capture
 
   - **(2026)** [developers.redhat.com: Debezium on OpenShift Cheat Sheet](https://developers.redhat.com/cheat-sheets/debezium-openshift-cheat-sheet) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An integration cheat sheet for configuring Debezium CDC within OpenShift pipelines. Curator Insight underscores real-time event streaming advantages. Live Grounding verifies Debezium's critical role in decoupling microservice databases without code changes.
-### Kubernetes Operators
-
-#### Java Quarkus
-
-  - **(2026)** [developers.redhat.com: Writing a Kubernetes Operator in Java using Quarkus - **Cheat Sheet** 🌟](https://developers.redhat.com/cheat-sheets/writing-kubernetes-operator-java) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced developer reference for implementing custom Kubernetes Operators in Java using Quarkus. Curator Insight highlights Quarkus' small memory footprint. Live Grounding shows a significant surge in Java Operator SDK adoption for enterprise platforms.
 ## Automation
 
 ### Configuration Management
@@ -100,6 +95,9 @@
 
 ### AWS
 
+#### Security and IAM
+
+  - **(2026)** [**docs.aws.amazon.com: Actions, resources, and condition keys for AWS services 🌟🌟🌟**](https://docs.aws.amazon.com/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The definitive AWS reference for constructing fine-grained IAM policies. It outlines exact service actions, resource types, and condition context keys required to enforce the principle of least privilege in enterprise architectures. This resource is indispensable for security engineers building cloud access models.
 #### Storage
 
   - **(2023)** [awsgeek.com/Amazon-S3](http://www.awsgeek.com/Amazon-S3) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly visual architectural breakdown of Amazon S3 features, storage classes, and lifecycle policies. This resource maps complex cloud storage abstractions into readable visual cheat sheets, clarifying performance tiers and security boundaries. Excellent for quick architectural onboarding and design sessions.
@@ -142,9 +140,6 @@
 #### Glossary (1)
 
   - **(2026)** [Machine Learning Glossary](https://developers.google.com/machine-learning/glossary)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An authoritative dictionary compiled by Google to standardize terms across core AI and machine learning engineering domains. Explores architectural paradigms, neural network elements, deployment metrics, and training pipeline semantics crucial for production systems.
-#### Python Labs
-
-  - **(2023)** [==github.com/ekramasif: Basic Machine Learning - Python Cheatsheet==](https://github.com/ekramasif/Basic-Machine-Learning/blob/main/Extraa/PythonCheatSheet.ipynb) <span class='md-tag md-tag--info'>⭐ 80</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An interactive Jupyter Notebook consolidating standard machine learning algorithms in Python. Details array configurations, basic Scikit-Learn validation tests, and pandas pipeline configurations.
 ### Notebook Environments
 
 #### JupyterLab
@@ -380,7 +375,7 @@
   - **(2023)** [developers.redhat.com: Advanced Linux commands cheat sheet for developers](https://developers.redhat.com/cheat-sheets/advanced-linux-commands) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An intensive guide addressing advanced Linux system diagnostic and telemetry commands (e.g., lsof, strace, ss, ip). It equips systems engineers to quickly troubleshoot process bottlenecks, kernel states, and network connections.
 ### Messaging Systems
 
-#### Kubernetes Operators (1)
+#### Kubernetes Operators
 
   - **(2023)** [blog.jromanmartin.io: ActiveMQ, Kafka, Strimzi and CodeReady Containers](https://blog.jromanmartin.io/cheat-sheets) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architecture-focused blog explaining how to coordinate Apache ActiveMQ, Kafka, Strimzi operators, and CodeReady Containers in Kubernetes environments. It provides real-world patterns for building resilient, event-driven microservices.
 ### Networking
@@ -589,7 +584,6 @@
 #### Markdown
 
   - **(2026)** [==Markdown Cheat Sheet 4==](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) <span class='md-tag md-tag--info'>⭐ 60214</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — One of the most starred and utilized Markdown references on GitHub. Curator Insight emphasizes its extreme offline utility. Live Grounding validates its legacy status as the primary standard for formatting across modern source code platforms.
-  - **(2026)** [markdownguide.org](https://www.markdownguide.org) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The definitive platform-neutral guide to standard and extended Markdown syntax. Curator Insight praises its simplicity. Live Grounding proves its continued necessity as the absolute standard for project readme documentation.
   - **(2026)** [freecodecamp.org: Markdown Cheat Sheet – How to Write in Markdown with Examples](https://www.freecodecamp.org/news/markdown-cheat-sheet) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An educational guide explaining Markdown basics with real-world examples. Curator Insight values its utility for technical writers. Live Grounding shows its broad usage in software engineering bootcamps and initial developer onboardings.
 ### Performance Testing (1)
 
@@ -723,5 +717,5 @@
   - **(2025)** [**blog.gitguardian.com: Docker Security Best Practices & Cheat Sheet 🌟**](https://blog.gitguardian.com/how-to-improve-your-docker-containers-security-cheat-sheet) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Focuses on protecting applications by avoiding hardcoded secrets, securing base images, and implementing strict runtime privileges within Docker builds. Provides precise, actionable rules for integrating automated container security checks into CI/CD pipelines.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [About](./about.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

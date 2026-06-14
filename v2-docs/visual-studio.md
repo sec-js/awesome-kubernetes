@@ -571,5 +571,5 @@
   - **(2026)** [**Jest**](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Integrates Jest unit testing workflows directly into the editor. It offers real-time inline test failures, active watch mode triggers, and visual coverage reports. This setup simplifies local feedback loops for enterprise microservices developed in TypeScript or JavaScript.
 
 ---
-💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [Angular](./angular.md) | [API](./api.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 

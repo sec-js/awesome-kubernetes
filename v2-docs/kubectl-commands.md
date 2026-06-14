@@ -43,7 +43,6 @@
 
   - **(2026)** [==ahmetb/kubectl-aliases==](https://github.com/ahmetb/kubectl-aliases) <span class='md-tag md-tag--info'>⭐ 3691</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An automated system that generates systematic shell aliases for 'kubectl', significantly enhancing engineering productivity. It minimizes operational friction by programmatic expansion of over 800 permutations of flags and subcommands, allowing administrators to interface with Kubernetes clusters using succinct shorthand sequences.
   - **(2026)** [==github.com/trstringer/kubectl-example==](https://github.com/trstringer/kubectl-example) <span class='md-tag md-tag--info'>⭐ 13</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A reference repository providing curated template patterns and concrete command-line configurations for common 'kubectl' usage patterns. Designed to shorten the ramp-up time for operators, it acts as a declarative cheat-sheet for state transitions and diagnostic queries.
-  - **(2026)** [==Flag export deprecated in kubernetes 1.14==](https://github.com/kubernetes/kubernetes/pull/73787) <span class='md-tag md-tag--info'>⭐ 123002</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — The upstream Kubernetes pull request deprecating the '--export' flag in 'kubectl get'. Live grounding confirms that as of Kubernetes 1.18+, this flag was completely removed in favor of alternative serialization pipelines, requiring automation scripts to migrate away from this legacy pattern.
   - **(2026)** [kubectl explain](https://jamesdefabia.github.io/docs/user-guide/kubectl/kubectl_explain) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official reference documentation for 'kubectl explain', a critical utility for schema exploration within the Kubernetes API. Architecturally, it queries the cluster OpenAPI specification directly to output detailed structural layouts of specific resources, assisting developers in constructing valid declarative YAML manifests.
   - **(2026)** [itnext.io: Using ‘kubectl explain’ for Custom Resources](https://itnext.io/understanding-kubectl-explain-9d703396cc8) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical guide showcasing how to leverage 'kubectl explain' to dynamically inspect Custom Resource Definitions (CRDs). By querying the discovery API, platform engineers can navigate deeply nested custom resource structures and ensure compliance with schemas registered via operator patterns.
   - **(2026)** [kubectl Shell Autocomplete](https://blog.heptio.com/kubectl-shell-autocomplete-heptioprotip-48dd023e0bf3) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive into setting up shell autocomplete for 'kubectl' across Bash, Zsh, and fish environments. From an operational efficiency perspective, autocompletion queries API resources dynamically, minimizing context switching and reducing manual spelling errors during incident response.
@@ -52,13 +51,6 @@
 #### Security
 
   - **(2026)** [goteleport.com: kubectl exec vs SSH](https://goteleport.com/blog/ssh-vs-kubectl) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural comparison contrasting standard SSH access with the API-driven 'kubectl exec' command. From a security boundary posture, it highlights why 'kubectl exec' is preferred inside modern clusters as it eliminates secondary authentication pipelines and relies purely on Kubernetes RBAC structures.
-## Deployment and Orchestration
-
-### Cluster Provisioning
-
-#### Remote Access
-
-  - **(2020)** [blog.alexellis.io: Get kubectl access to your private cluster from anywhere](https://blog.alexellis.io/get-private-kubectl-access-anywhere) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores techniques for securely accessing the Kubernetes API control plane of isolated or private networks without exposing standard firewall ports. Explains how reverse-proxy tunnels provide secure endpoints. Live Grounding validates that tunnel mechanisms like inlets, Tailscale, or Cloudflare Tunnels have become common choices for secure edge environments.
 ## Developer Experience
 
 ### Shell
@@ -78,9 +70,6 @@
 #### Kubectl Plugins
 
   - **(2025)** [Kubectl plugins and tools](https://nubenetes.com/kubernetes/#kubectl-plugins) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This reference compilation highlights external tools and kubectl extensions managed via Krew. It details how third-party plugins (like `neat`, `kns`, or security-focused extensions) expand basic kubectl operational debugging and cluster-inspection capabilities.
-#### Productivity (1)
-
-  - **(2021)** [Kubernetes productivity tips and tricks 🌟](https://www.theodo.com/en-fr/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practitioner's guide to enhancing CLI-based Kubernetes productivity. It explores advanced setups such as custom shell autocompletion, kubectx/kubens utilities, smart aliases, and log-tailing helpers designed to reduce cognitive overhead during real-time incident responses.
 ## Kubernetes Platform
 
 ### Cluster Administration
@@ -124,13 +113,6 @@
 #### Config Management
 
   - **(2023)** [**learnitguide.net: How to Create ConfigMap from Properties File Using K8s' Client**](https://www.learnitguide.net/2023/04/how-to-create-configmap-from-properties.html) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Demonstrates methods to compile Kubernetes ConfigMaps from structured properties files. Bridges common application configurations with native cloud manifest patterns.
-## Observability
-
-### Debugging
-
-#### CLI Operations
-
-  - **(2023)** [A Complete Guide to Kubectl exec](https://refine.dev/blog/kubectl-exec-command) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive guide explaining the inner workings of the 'kubectl exec' command. Breaks down how connection handshakes occur between the API server, Kubelet, and container runtimes (CRI).
 ## Operations and UX
 
 ### CLI Plugins
@@ -140,5 +122,5 @@
   - **(2026)** [hidetatz/kubecolor 🌟](https://github.com/hidetatz/kubecolor) <span class='md-tag md-tag--info'>⭐ 1446</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kubecolor is a highly adopted command-line wrapper for kubectl that colorizes terminal outputs. It improves cluster observability by visually distinguishing resource types, labels, statuses, and namespaces during interactive CLI operations.
 
 ---
-💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Docker](./docker.md)
+💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
 

@@ -5,6 +5,12 @@
 
 ## Security
 
+### IAM
+
+#### Protocols
+
+  - **(2022)** [curity.io: OAuth 2.0 Overview](https://curity.io/resources/learn/oauth-overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industrial-grade review of the OAuth 2.0 protocol specifications, flows, and grant types. Provides system architects with core design criteria to safely establish authorization states between microservice deployments. Underlines secure handling of access, refresh, and id tokens.
+  - **(2022)** [curity.io: OpenID Connect Overview](https://curity.io/resources/learn/openid-connect-overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a comprehensive architecture overview of OpenID Connect (OIDC) acting as the authentication layer on top of OAuth 2.0. Analyzes ID token syntax, discovery endpoints, and flows for multi-tenant systems. Essential background knowledge for implementing cloud-native federated identities.
 ### Identity and Access
 
 #### OAuth2 (1)

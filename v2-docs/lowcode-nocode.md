@@ -38,5 +38,5 @@
   - **(2021)** [techradar.com: Low-code could replace "traditional" coding within months](https://www.techradar.com/news/low-code-could-replace-traditional-coding-within-months) 🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A provocative analysis reflecting on speculative industry trends regarding low-code automation. It highlights how aggressive market expansion projections suggest rapid enterprise adoption, while detailing the ongoing debate about scalability limits.
 
 ---
-💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [Angular](./angular.md) | [API](./api.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 

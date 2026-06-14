@@ -6,8 +6,9 @@
 ## Standard Reference
 
   - [Spring Cloud Kubernetes](https://spring.io/projects/spring-cloud/-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Dzone: Programming Styles Compared: Spring Framework vis-a-vis Eclipse MicroProfile' 🌟🌟](https://dzone.com/articles/programming-styles-spring-boot-vis-a-vis-with-ecli)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [It’s time! Migrating to Java 11 🌟](https://medium.com/criciumadev/its-time-migrating-to-java-11-5eb3868354f9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [About WebSphere Liberty](https://developer.ibm.com/wasdev/websphere-liberty)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Dzone: Programming Styles Compared: Spring Framework vis-a-vis Eclipse MicroProfile' 🌟🌟](https://dzone.com/articles/programming-styles-spring-boot-vis-a-vis-with-ecli)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [wikipedia: Java Enterprise Edition (Java EE)](https://en.wikipedia.org/wiki/Java_Platform,_Enterprise_Edition)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [reddit.com/r/java](https://www.reddit.com/r/java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@javachampions : Java is still free](https://medium.com/@javachampions/java-is-still-free-2-0-0-6b9aa8d6d244)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -18,7 +19,6 @@
   - [betterprogramming.pub: Learn SOLID Design Principles in Java by Coding It](https://betterprogramming.pub/learn-solid-design-principles-in-java-by-coding-it-dcbf64a17b53)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/javarevisited: Do you know about the different microservices' frameworks for Java? 🌟](https://medium.com/javarevisited/do-you-know-about-the-different-microservices-frameworks-for-java-90b61f8cdbd7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [IBM JDK](https://developer.ibm.com/javasdk)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [It’s time! Migrating to Java 11 🌟](https://medium.com/criciumadev/its-time-migrating-to-java-11-5eb3868354f9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Eclipse MicroProfile: 5 Things You Need to Know 🌟](https://medium.com/@alextheedom/eclipse-microprofile-5-things-you-need-to-know-e7a0bc9a3fb6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Multi-Tenancy Implementation using Spring Boot + Hibernate 🌟](https://medium.com/swlh/multi-tenancy-implementation-using-spring-boot-hibernate-6a8e3ecb251a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [stackoverflow.com: How to map a MySQL JSON column to a Java entity property' using JPA and Hibernate](https://stackoverflow.com/questions/44308167/how-to-map-a-mysql-json-column-to-a-java-entity-property-using-jpa-and-hibernate)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -101,9 +101,6 @@
 #### Manifest Generation
 
   - **(2025)** [**Dekorate**](https://dekorate.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An annotation-based code generation tool that automatically creates Kubernetes manifests (YAML, JSON) during compile time. By decorating Java code directly, developers can emit Deployment, Service, and Ingress templates without leaving their IDEs. While highly convenient for Java-centric shops, it can obscure platform-level complexities that DevOps teams may need to manage externally.
-#### Maven Integration
-
-  - **(2025)** [**JKube**](https://eclipse.dev/jkube) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Eclipse JKube is a collection of plugins and libraries used for building container images and generating Kubernetes manifests out of Java projects. Successor to the popular Fabric8 Maven Plugin, it integrates natively into Maven and Gradle builds. In 2026, it remains a robust enterprise choice for teams seeking to automate image builds and deployments directly from their existing JVM build pipelines.
 #### Orchestration Tooling
 
   - **(2025)** [==Skaffold --generate-manifests==](https://skaffold.dev/docs/pipeline-stages/init/#--generate-manifests-flag) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Detail on Skaffold's `--generate-manifests` capability, which facilitates local build and deployment orchestration on Kubernetes. This tool manages the developer inner loop by tracking local code modifications, triggering rebuilding/tagging of images, and automating deployments. It has become an industry standard for continuous local feedback loops in multi-service local environments.
@@ -307,11 +304,6 @@
   - **(2021)** [openjdk.java.net: JEP 413: Code Snippets in Java API Documentation](https://openjdk.org/jeps/413) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This proposal details JEP 413, introducing the `@snippet` tag for Java API documentation. By allowing the integration of validated, syntax-highlighted code snippets directly from external source files or internal blocks, it replaces fragile HTML `<pre>` tags, streamlining the documentation-as-code workflow for large enterprise platforms.
 ## Kubernetes and Cloud Native
 
-### CICD
-
-#### Dockerization
-
-  - **(2020)** [jaxenter.com: CI/CD for Spring Boot Microservices: Part 1](https://devm.io/microservices/cicd-microservices-docker-162408) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details optimal Docker containerization patterns for Spring Boot microservices, addressing multi-stage image builds, layer caching, and minimizing runtime footprint sizes. It shows how to design pipeline steps to generate secure, unprivileged OCI-compliant container images.
 ### Microservices (1)
 
 #### Best Practices
@@ -437,7 +429,6 @@
 #### Licensing
 
   - **(2021)** [Oracle Java](https://www.oracle.com/java/technologies/java-se-glance.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details Oracle's licensing pivot with the introduction of the No-Fee Terms and Conditions (NFTC) license for JDK 17. The analysis explains how this license permits free production usage, easing previous compliance friction for enterprise environments.
-  - **(2018)** [Oracle's Java 11 trap - Use OpenJDK instead! 🌟](https://blog.joda.org/2018/09/do-not-fall-into-oracles-java-11-trap.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly discussed warning article regarding the commercial risks associated with using Oracle JDK 11 without a paid subscription. The piece strongly urges teams to migrate standard JVM deployments to community OpenJDK distributions to maintain licensing compliance.
 #### OpenJDK Support
 
   - **(2018)** [developers.redhat.com: The future of Java and OpenJDK updates without Oracle support](https://developers.redhat.com/blog/2018/09/24/the-future-of-java-and-openjdk-updates-without-oracle-support) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat's strategic statement on taking over the stewardship of OpenJDK updates (specifically JDK 8 and JDK 11) after Oracle's support cycles. It outlines Red Hat's commitment to community-driven, enterprise-grade, open-source Java runtimes suitable for cloud native microservices.
@@ -559,13 +550,6 @@
 #### MVC
 
   - **(2021)** [javatutorial.net: Introduction to Spring Web Framework](https://javatutorial.net/introduction-to-spring-web-framework) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A starter guide outlining fundamental request-handling mechanics in Spring MVC. It illustrates how the DispatcherServlet delegates routing, how controllers process model attributes, and the configuration patterns needed to expose clean RESTful endpoints.
-## Storage and Data
-
-### Performance Benchmarking
-
-#### Etcd Storage Tuning
-
-  - **(2021)** [ibm.com: Using Fio to Tell Whether Your Storage is Fast Enough for Etcd](https://www.ibm.com/think/cloud) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical benchmarking guide using the `fio` utility to measure disk write latency, specifically validating physical storage readiness for critical Kubernetes Etcd backends. Outlines how high write latency triggers cluster-wide instability and master-node leader election failures. Crucial reading for systems administrators configuring bare-metal or hypervisor storage fabrics.
 ## Web Layer (1)
 
 ### Full Stack
@@ -575,5 +559,5 @@
   - **(2022)** [javarevisited.blogspot.com: Spring Boot + Angular Example Tutorial for Java Developers](https://javarevisited.blogspot.com/2022/01/spring-boot-angular-example-tutorial.html#axzz7HV4HFjED) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A fullstack starter tutorial demonstrating how to integrate a Spring Boot backend API with an Angular single-page frontend application. It covers structuring cross-origin request policies (CORS), handling JSON model parsing, and securing application endpoints.
 
 ---
-💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [Angular](./angular.md) | [API](./api.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 

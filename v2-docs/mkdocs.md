@@ -97,6 +97,7 @@
 #### Markdown
 
   - **(2026)** [==Markdown Cheat Sheet 4==](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) <span class='md-tag md-tag--info'>⭐ 60214</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — One of the most starred and utilized Markdown references on GitHub. Curator Insight emphasizes its extreme offline utility. Live Grounding validates its legacy status as the primary standard for formatting across modern source code platforms.
+  - **(2026)** [markdownguide.org](https://www.markdownguide.org) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The definitive platform-neutral guide to standard and extended Markdown syntax. Curator Insight praises its simplicity. Live Grounding proves its continued necessity as the absolute standard for project readme documentation.
 ## Software Engineering
 
 ### Documentation
@@ -106,5 +107,5 @@
   - **(2026)** [**guides.github.com: Markdown Cheat Sheet 2**](https://docs.github.com/en) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The authoritative reference guide for GitHub Flavored Markdown (GFM). Essential for managing documentation structures, creating rich README files, formatting issue trackers, and building interactive templates within the developer workflow.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [About](./about.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
 

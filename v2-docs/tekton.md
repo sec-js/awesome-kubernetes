@@ -61,7 +61,14 @@
 #### Tekton UI Extensions
 
   - **(2021)** [tekline 🌟](https://github.com/joyrex2001/tekline) <span class='md-tag md-tag--info'>⭐ 11</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores Tekline, a lightweight community-driven visualization and command-line helper tool for viewing the status of Tekton Pipeline runs. Bypasses the complex dashboard setups, providing developers with instant, readable feedback on pipeline step executions and container build logs directly in terminal dashboards.
+## Platform Architecture
+
+### CICD
+
+#### Tekton Pipelines (2)
+
+  - **(2020)** [openshift.com: Cloud-Native CI/CD with OpenShift Pipelines based on Tekton](https://www.redhat.com/en/blog/cloud-native-ci-cd-with-openshift-pipelines) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Introduces OpenShift Pipelines as the modern serverless, cloud-native standard built on the Tekton project. Explains how Tekton's CRD-first strategy delivers secure, isolated build containers without a centralized daemon or controller bottlenecks.
 
 ---
-💡 **Explore Related:** [Jenkins](./jenkins.md) | [Argo](./argo.md) | [CI/CD](./cicd.md)
+💡 **Explore Related:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md) | [Flux](./flux.md)
 

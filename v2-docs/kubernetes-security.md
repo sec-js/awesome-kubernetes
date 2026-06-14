@@ -6,6 +6,7 @@
 ## Standard Reference
 
   - [jetstack.io: Securing Istio workloads with mTLS using cert-manager](https://www.cyberark.com/venafi-and-cyberark-machine-identity-security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [faun.pub: External Secret Operator on AKS (with Terraform) for Azure Key' Vault Integration (with Workload Identity)](https://faun.pub/external-secret-operator-on-aks-with-terraform-for-azure-key-vault-integration-with-workload-1d0c31082373)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Single Sign-On in Kubernetes](https://medium.com/@andriisumko/single-sign-on-in-kubernetes-1ad9528350ed)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone - OAuth 2.0](https://dzone.com/articles/oauth-20-beginners-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: How to Harden Your Kubernetes Cluster for Production 🌟](https://medium.com/better-programming/how-to-harden-your-kubernetes-cluster-for-production-7e47990efc2a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -98,7 +99,6 @@
   - [ibrahims.medium.com: Security Context — Kubernetes](https://ibrahims.medium.com/security-context-kubernetes-9672ae2380f9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com: Securing Kubernetes Dashboard on EKS with Pomerium](https://medium.com/dev-genius/securing-kubernetes-dashboard-on-eks-with-pomerium-e98c47610e2f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [mahira-technology.medium.com: Kubernetes Secrets Management: Level Up with' External Secrets Operator](https://mahira-technology.medium.com/kubernetes-secrets-management-level-up-with-external-secrets-operator-ed7d32df2189)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [faun.pub: External Secret Operator on AKS (with Terraform) for Azure Key' Vault Integration (with Workload Identity)](https://faun.pub/external-secret-operator-on-aks-with-terraform-for-azure-key-vault-integration-with-workload-1d0c31082373)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.lightspin.io: NGINX Custom Snippets CVE-2021-25742](https://blog.lightspin.io/nginx-custom-snippets-cve-2021-25742)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## API Access Protection
@@ -212,6 +212,13 @@
 #### Runtime Isolation
 
   - **(2020)** [thenewstack.io: A Security Comparison of Docker, CRI-O and Containerd 🌟](https://thenewstack.io/a-security-comparison-of-docker-cri-o-and-containerd) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares the security architecture and attack surfaces of primary container runtimes: Docker, CRI-O, and Containerd. Discusses rootless execution, sandboxed runtimes (Kata, gVisor), and syscall filtering.
+## Networking (1)
+
+### CNI
+
+#### Cilium
+
+  - **(2026)** [cilium.io 🌟](https://cilium.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main website for Cilium, the industry-standard networking, security, and observability engine powered by eBPF. Eliminates routing performance penalties and delivers deep API metrics.
 ## Networking and Security
 
 ### Security Compliance
@@ -322,9 +329,6 @@
 #### AWS EKS Network
 
   - **(2024)** [Security Group Rules EKS](https://docs.aws.amazon.com/eks/latest/userguide/sec-group-reqs.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official AWS configuration documentation detailing the network security boundaries for Amazon EKS clusters. It defines minimal requirements for control-plane-to-node communication over secure ports. This ensures highly restrictive ingress/egress patterns in security groups.
-#### EKS Hardening
-
-  - **(2024)** [Amazon EKS Best Practices Guide for Security 🌟](https://aws.github.io/aws-eks-best-practices) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The definitive enterprise guide for hardening EKS clusters against cloud-native threats. It covers network segregation, IAM roles for service accounts (IRSA), secrets encryption, and runtime defense. This is a foundational checklist for any platform engineering team running on AWS.
 ### Cluster Hardening (2)
 
 #### Audit Logs
@@ -343,11 +347,6 @@
 #### Standard Checklists
 
   - **(2023)** [kubernetes.io: Security Checklist 🌟🌟](https://kubernetes.io/docs/concepts/security/security-checklist) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official security checklist published by upstream Kubernetes maintainers. It serves as an authoritative map for hardening cluster networks, applying role access structures, and validating runtimes. Essential baseline documentation for cloud infrastructure engineers.
-### Compliance
-
-#### CIS Benchmarks (1)
-
-  - **(2024)** [ibm.com: CIS Benchmarks](https://www.ibm.com/topics) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The Center for Internet Security (CIS) Benchmarks provide globally recognized consensus-based best practices for securing IT systems, clouds, and Kubernetes environments. Organizations use these structured guidelines to validate and harden infrastructure configurations, ensuring compliance with strict security mandates through automated configuration auditors.
 ### Deployment Security (1)
 
 #### Hardening
@@ -387,10 +386,6 @@
 #### Authentication and Authorization
 
   - **(2022)** [dev.to/thenjdevopsguy: The 4 C’s Of Kubernetes Security](https://dev.to/thenjdevopsguy/the-4-cs-of-kubernetes-security-3i9e) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates enterprise patterns for integrating Kubernetes Role-Based Access Control (RBAC) with corporate directory systems (OIDC, Active Directory). Examines tools like Dex to implement single sign-on (SSO) strategies across multi-cluster environments. Essential reading for cluster operations scaling across departments.
-#### Protocols
-
-  - **(2022)** [curity.io: OAuth 2.0 Overview](https://curity.io/resources/learn/oauth-overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industrial-grade review of the OAuth 2.0 protocol specifications, flows, and grant types. Provides system architects with core design criteria to safely establish authorization states between microservice deployments. Underlines secure handling of access, refresh, and id tokens.
-  - **(2022)** [curity.io: OpenID Connect Overview](https://curity.io/resources/learn/openid-connect-overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a comprehensive architecture overview of OpenID Connect (OIDC) acting as the authentication layer on top of OAuth 2.0. Analyzes ID token syntax, discovery endpoints, and flows for multi-tenant systems. Essential background knowledge for implementing cloud-native federated identities.
 #### SSO
 
   - **(2022)** [dev.to/gabrielbiasi: Automatic SSO in Kubernetes workloads using a sidecar container](https://dev.to/gabrielbiasi/automatic-sso-in-kubernetes-workloads-using-a-sidecar-container-3752)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines an automated SSO sidecar integration pattern inside Kubernetes pods, abstracting authentication logic away from application-level containers. Details OAuth token management and redirect intercept strategies executed transparently at the pod level. Simplifies identity integration across multiple microservices.
@@ -638,7 +633,7 @@
   - **(2025)** [==kubescape==](https://github.com/kubescape/kubescape) <span class='md-tag md-tag--info'>⭐ 11480</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An active CNCF Sandbox tool providing multi-framework configuration scanning, risk analysis, and vulnerability management. It integrates into CI/CD pipelines to ensure continuous verification of compliance frameworks (like CIS and NSA-CISA). Essential for enterprise teams seeking unified security visibility.
 ### Vulnerability Assessment
 
-#### CIS Benchmarks (2)
+#### CIS Benchmarks (1)
 
   - **(2022)** [rancher/cis-operator](https://github.com/rancher/cis-operator) <span class='md-tag md-tag--info'>⭐ 55</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Rancher's cis-operator is an automated tool running CIS security scans natively within Rancher ecosystems. It generates compliance reports validating control plane and worker components against standard security baselines. A key utility for multi-cluster environments managed via Rancher.
   - **(2022)** [blog.flant.com: Kubernetes cluster security assessment with kube-bench and kube-hunter](https://palark.com/blog/kubernetes-security-with-kube-bench-and-kube-hunter)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates how to deploy and configure Aqua Security's kube-bench alongside kube-hunter. Shows how to automate node validation against CIS benchmarks, and actively scan cluster endpoints for network exposure vectors. Offers a potent open-source combination for regular pentesting operations.
@@ -703,5 +698,5 @@
   - **(2020)** [gist.github.com: How to protect your ~/.kube/ configuration](https://gist.github.com/PatrLind/e651d3cbc3bf68e4bd9fcc9568cbd3fb) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides hardening steps for securing developer workstation `~/.kube/config` files. Details POSIX permissions adjustments, the usage of credential helpers, and avoiding static administrative token storage.
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Ansible](./ansible.md)
+💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Oauth](./oauth.md)
 

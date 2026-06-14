@@ -114,9 +114,6 @@
 #### EKS Kubernetes
 
   - **(2023)** [Amazon EKS now supports Kubernetes version 1.25](https://aws.amazon.com/blogs/containers/amazon-eks-now-supports-kubernetes-version-1-25) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Amazon EKS added support for Kubernetes version 1.25, bringing security policy updates, API removals (such as PodSecurityPolicy), and core platform enhancements like container registry authentication improvements.
-#### EKS Security
-
-  - **(2023)** [Amazon EKS introduces EKS Pod Identity](https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-eks-pod-identity) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — EKS Pod Identity simplifies the association of IAM roles with Kubernetes service accounts. This model bypasses the complexities of OIDC trust configurations, offering highly scalable, secure, and isolated credential structures for containers.
 #### EKS Windows
 
   - **(2022)** [Amazon EKS launches automated provisioning and lifecycle management for Windows containers](https://aws.amazon.com/about-aws/whats-new/2022/12/amazon-eks-automated-provisioning-lifecycle-management-windows-containers) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Amazon EKS automated the deployment and lifecycle management of Windows container nodes. It simplifies AMI updates, security patching, and scaling operations for Windows-based workloads on Kubernetes, aligning them with traditional Linux container management patterns.
@@ -317,7 +314,7 @@
 #### EKS Networking
 
   - **(2021)** [==Amazon VPC CNI plugin increases pods per node limits==](https://aws.amazon.com/about-aws/whats-new/2021/07/amazon-vpc-cni-plugin-increases-pods-per-node-limits) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Introduces Prefix Delegation in the AWS VPC CNI, multiplying the number of pods allocatable per node. By assigning /28 IPv4 prefixes to network interfaces instead of single secondary IPs, small-to-medium EC2 instances can support significantly higher container densities. This architecture directly addresses the IP exhaustion problem in enterprise Kubernetes deployments on AWS.
-#### EKS Security (1)
+#### EKS Security
 
   - **(2021)** [==Amazon EKS clusters now support user authentication with OIDC compatible identity providers==](https://aws.amazon.com/about-aws/whats-new/2021/02/amazon-eks-clusters-support-user-authentication-oidc-compatible-identity-providers) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Enables EKS clusters to utilize external OpenID Connect (OIDC) compatible identity providers for user authentication. This decouples Kubernetes RBAC from direct IAM identity mappings, allowing developers to leverage existing SSO solutions like Okta or Keycloak. It simplifies security governance by maintaining enterprise identity standards at the cluster API level.
 ### Market Analysis (1)
@@ -411,5 +408,5 @@
   - **(2021)** [Introducing new self-paced courses to improve Java and Python code quality with Amazon CodeGuru](https://aws.amazon.com/blogs/devops/new-self-paced-courses-to-improve-java-and-python-code-quality-with-amazon-codeguru) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Educational curriculum focusing on utilizing CodeGuru's machine-learning engines to detect concurrency bugs, resource leaks, and performance bottlenecks in Java and Python. These courses provide hands-on telemetry guides to maximize DevSecOps efficiency. Architecturally, CodeGuru integrates into CI/CD pipelines to enforce static and dynamic code quality.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Serverless](./aws-serverless.md) | [AWS Backup](./aws-backup.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
 

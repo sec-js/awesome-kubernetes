@@ -816,6 +816,13 @@
 ##### Couler
 
   - **(2023)** [**Couler**](https://github.com/couler-proj/couler) <span class='md-tag md-tag--info'>⭐ 944</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Couler is an open-source Python SDK built to simplify programming native Kubernetes workflow engines like Argo or Tekton. It allows machine learning and data engineering teams to construct complex workflows via intuitive Python code instead of hand-writing endless YAML sheets.
+## Security (4)
+
+### Compliance
+
+#### CIS Benchmarks
+
+  - **(2024)** [ibm.com: CIS Benchmarks](https://www.ibm.com/topics) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The Center for Internet Security (CIS) Benchmarks provide globally recognized consensus-based best practices for securing IT systems, clouds, and Kubernetes environments. Organizations use these structured guidelines to validate and harden infrastructure configurations, ensuring compliance with strict security mandates through automated configuration auditors.
 ## Software Engineering
 
 ### Backend Development
@@ -827,5 +834,5 @@
   - **(2020)** [adambien.blog - 75th **airhacks.tv** Questions and Answers: Kafka, JAX-RS, MicroProfile, JSON-B, GSON, JWT, VSC, NetBeans, Java Fullstack](https://adambien.blog/roller/abien/entry/kafka_jax_rs_microprofile_json) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An edition of Adam Bien's 'airhacks.tv' Q&A series focusing on modern enterprise Java backend architectures. Key engineering discussions cover reactive Kafka messaging integration using MicroProfile, JAX-RS REST endpoint implementations, and a comparison of JSON serialization libraries (JSON-B vs GSON).
 
 ---
-💡 **Explore Related:** [Crunchydata](./crunchydata.md) | [Databases](./databases.md) | [Yaml](./yaml.md)
+💡 **Explore Related:** [Yaml](./yaml.md) | [Databases](./databases.md) | [Crunchydata](./crunchydata.md)
 
