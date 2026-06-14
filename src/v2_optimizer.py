@@ -312,9 +312,9 @@ class V2VisionEngine:
                 cached = self.inventory[norm_url]
                 item.update(cached)
                 if is_special: item["is_special"] = True
-                # Mandate 30: Hierarchy is mandatory for ELITE AI curation, 
-                # but for RENDER-ONLY (Fast-Track) we MUST preserve all online links to avoid pruning valid V1 sections.
-                if cached.get("hierarchy") or self.render_only or "stars" in cached:
+                # Mandate 30: Hierarchy and AI Summaries are mandatory for ELITE AI curation.
+                # Optimized Skip Logic: Only skip if we already have BOTH hierarchy and a summary.
+                if (cached.get("hierarchy") and cached.get("ai_summary")) or self.render_only:
                     if project_id not in project_registry or item.get("stars", 0) > project_registry[project_id].get("stars", 0):
                         if project_id in project_registry and project_registry[project_id].get("is_special"): item["is_special"] = True
                         project_registry[project_id] = item
