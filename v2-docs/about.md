@@ -8,6 +8,12 @@
 !!! quote "The Positive Sum Game"
     ==*"Open Source is most successful when is played as a positive sum game" (Sarah Novotny)*==
 
+<center markdown="1">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t_hdOVsdRSE" title="Jimmy Sax - Time" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</center>
+
 ### 🏛️ 1. The Genesis: Munich 2018
 Nubenetes was forged in the internals of a massive Cloud Native transformation for a **major multinational car manufacturer** in Munich. Coordinating hundreds of microservices, thousands of developers, and millions of end-users taught us a fundamental truth: **Standardization, Automation, and GitOps are not "best practices"—they are survival requirements.**
 
