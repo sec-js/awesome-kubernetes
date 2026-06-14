@@ -44,8 +44,6 @@
   - [Red Hat Application Migration Toolkit](https://developers.redhat.com/products/mta/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: **Red Hat Container Development Kit**](https://developers.redhat.com/products/cdk/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: OpenShift Egress Options](https://dzone.com/articles/openshift-egress-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Descheduler for Kubernetes 🌟](https://github.com/kubernetes-sigs/descheduler) <span class='md-tag md-tag--info'>⭐ 5441</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [kubernetes-sigs: Trimaran: Load-aware scheduling plugins 🌟](https://github.com/kubernetes-sigs/scheduler-plugins/tree/master/pkg/trimaran) <span class='md-tag md-tag--info'>⭐ 1295</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## AI-ML
 
@@ -114,6 +112,13 @@
 #### OpenShift
 
   - **(2022)** [==github.com: Maistra Istio==](https://github.com/maistra/istio) <span class='md-tag md-tag--info'>⭐ 94</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official GitHub repository for Maistra's modified Istio control plane code. Optimized for multi-tenancy support, advanced security policies, and tight integration within OpenShift environments.
+## Cluster Management
+
+### Scheduling and Node Assignment
+
+#### Dynamic Balancing
+
+  - **(2026)** [==Descheduler for Kubernetes 🌟==](https://github.com/kubernetes-sigs/descheduler) <span class='md-tag md-tag--info'>⭐ 5441</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly critical Kubernetes SIG project that addresses scheduling drift by continuously examining running pods against modified constraints, evicting pods that violate affinities, taints, topology spreads, or resource capacities.
 ## Compute and Runtime
 
 ### Local Container Engines
@@ -219,7 +224,7 @@
 #### Troubleshooting Protocols
 
   - **(2020)** [==blog.openshift.com: Simplifying OpenShift Case Information Gathering Workflow: **Must-Gather Operator** (In the context of Red Hat OpenShift 4.x and Kubernetes, **it is considered a bad practice to ssh into a node and perform debugging actions**) 🌟==](https://www.redhat.com/en/blog/simplifying-openshift-case-information-gathering-workflow-must-gather-operator) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Introduces the Must-Gather Operator framework as a secure alternative to direct SSH debugging of underlying cluster nodes. Details how the automated diagnostic engine programmatically aggregates core configuration files, CRDs, namespace event logs, and kernel metrics.
-### Cluster Management
+### Cluster Management (1)
 
 #### Developer Tooling
 
@@ -420,7 +425,7 @@
 #### Ansible
 
   - **(2021)** [tommeramber/ocp-automations](https://github.com/tommeramber/ocp-automations) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A community repository of automation playbooks and scripts designed to streamline configuration, security hardening, and deployment procedures across diverse OpenShift Container Platform clusters.
-### Cluster Management (1)
+### Cluster Management (2)
 
 #### Declarative Nodes
 
@@ -487,6 +492,11 @@
 
   - **(2026)** [==AWS Account Set Up 🌟==](https://github.com/openshift/installer/blob/main/docs/user/aws/README.md) <span class='md-tag md-tag--info'>⭐ 1550</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — This repository guide outlines the specific IAM policies, resource quotas, Route53 configurations, and networking permissions required to install OpenShift on AWS using the native installer-provisioned infrastructure (IPI). It is a vital technical reference for cloud infrastructure engineers.
   - **(2020)** [OpenShift 4 on AWS Quick Starts 🌟](https://aws.amazon.com/blogs/opensource/openshift-4-on-aws-quick-start)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An official AWS blueprint details early CloudFormation-driven automations to instantiate OpenShift 4 environments. While largely replaced by Modern Partner Solutions, it remains an informative model for multi-AZ topology layouts.
+### Scheduling
+
+#### Load-Aware
+
+  - **(2024)** [kubernetes-sigs: Trimaran: Load-aware scheduling plugins 🌟](https://github.com/kubernetes-sigs/scheduler-plugins/tree/master/pkg/trimaran) <span class='md-tag md-tag--info'>⭐ 1295</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A collection of scheduling plugins (TargetLoadPacked and LoadWatcher) under the Trimaran umbrella that enable real-time, load-aware scheduling in Kubernetes. Instead of scheduling purely based on static requests, it utilizes actual node resource utilization metrics. Active in 2026, it is vital for optimizing cluster efficiency and reducing overall infrastructure costs.
 ## Infrastructure and Operations
 
 ### Enterprise Cluster Management
@@ -617,7 +627,7 @@
   - **(2026)** [**try.openshift.com 🌟**](https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Unified gateway for trialing OpenShift deployments across public clouds, virtualization platforms, and local developer workstations (via OpenShift Local). Enables architects to evaluate operational complexity and developer tooling. Continually updated in 2026 to reflect the latest stable 4.x features.
 ## Platforms
 
-### Cluster Management (2)
+### Cluster Management (3)
 
 #### Cluster Provisioning (1)
 

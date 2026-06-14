@@ -121,7 +121,7 @@
 
 #### Human-In-The-Loop
 
-  - **(2023)** [==rubrix==](https://github.com/argilla-io/argilla) <span class='md-tag md-tag--info'>⭐ 5001</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Formerly Rubrix, Argilla is a premier open-source data curation platform designed for AI and LLM workflows. Enables continuous human-in-the-loop (HITL) fine-tuning cycles. It seamlessly integrates with Hugging Face, SpaCy, and LangChain, optimizing training data quality through iterative annotation, validation, and curation mechanisms.
+  - **(2023)** [==rubrix==](https://github.com/argilla-io/argilla) <span class='md-tag md-tag--info'>⭐ 5002</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Formerly Rubrix, Argilla is a premier open-source data curation platform designed for AI and LLM workflows. Enables continuous human-in-the-loop (HITL) fine-tuning cycles. It seamlessly integrates with Hugging Face, SpaCy, and LangChain, optimizing training data quality through iterative annotation, validation, and curation mechanisms.
 ### Data Ops
 
 #### CI-CD (1)

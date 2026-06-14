@@ -121,7 +121,6 @@ graph TD
   - [kubedex.com: Kubernetes On-Prem, OpenShift vs PKS vs Rancher](https://kubedex.com/redhat-openshift-vs-pivotal-pks-vs-rancher)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com: Kubernetes — What Is It, What Problems Does It Solve and How' Does It Compare With Alternatives?](https://medium.com/@srikanth.k/kubernetes-what-is-it-what-problems-does-it-solve-how-does-it-compare-with-its-alternatives-937fe80b754f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [levelup.gitconnected.com: OpenShift — The Next Level of Kubernetes](https://levelup.gitconnected.com/openshift-the-next-level-of-kubernetes-6d58ad722b26)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [forbes.com: 13 Signs You’re Selling Yourself Short In Your Career](https://www.forbes.com/sites/adunolaadeshola/2021/04/28/13-signs-youre-selling-yourself-short-in-your-career)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: 7 Software Development Models You Should Know](https://dzone.com/articles/7-software-development-models-you-should-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: The Concept of Domain-Driven Design Explained](https://dzone.com/articles/the-concept-of-domain-driven-design-explained)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/codex: DDD — Events Are Complex](https://medium.com/codex/ddd-events-are-complex-db4b1fb57817)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -1096,6 +1095,11 @@ graph TD
 #### Microservices Governance
 
   - **(2021)** [getcortexapp.com: Why You Need a Microservices Catalog Tool](https://www.cortex.io/post/why-you-need-a-microservices-catalog-tool) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the operational sprawl that occurs as organizations scale their microservices topologies. Proposes centralized service catalogs (similar to Backstage or Cortex) to map dependencies, track security compliance, enforce reliability standards, and assign service ownership across teams.
+## Professional Development (2)
+
+### Career Guidance
+
+  - **(2021)** [forbes.com: 13 Signs You’re Selling Yourself Short In Your Career](https://www.forbes.com/sites/adunolaadeshola/2021/04/28/13-signs-youre-selling-yourself-short-in-your-career) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An executive career-strategy publication focusing on professional growth, self-worth, and leadership traits. Though non-technical, 2026 engineering team development paradigms heavily emphasize these foundational soft skills alongside cloud proficiency to foster highly autonomous Platform Engineering structures.
 ## Reliability Engineering
 
 ### Resilience Patterns (1)

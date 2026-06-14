@@ -39,31 +39,18 @@
   - [dzone: quarkus refcard](https://dzone.com/refcardz/quarkus-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: Build a Java REST API With Quarkus](https://dzone.com/articles/build-a-java-rest-api-with-quarkus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: A Java developer's guide to Quarkus](https://dzone.com/articles/a-java-developers-guide-to-quarkus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: Why should I choose Quarkus over Spring for my microservices?](https://developers.redhat.com/articles/2021/08/31/why-should-i-choose-quarkus-over-spring-my-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: Quarkus for Spring developers: Getting started 🌟](https://developers.redhat.com/articles/2021/09/20/quarkus-spring-developers-getting-started)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone refcard: Getting Started With Quarkus Serverless Functions](https://dzone.com/refcardz/getting-started-with-quarkus-serverless-functions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [piotrminkowski.com: Quarkus Tips, Tricks and Techniques 🌟](https://piotrminkowski.com/2021/10/12/quarkus-tips-tricks-and-techniques)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: Boost throughput with RESTEasy Reactive in Quarkus' 2.2](https://developers.redhat.com/articles/2021/11/04/boost-throughput-resteasy-reactive-quarkus-22)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [javaadvent.com: You need more than containers. A short history of the' mess we're in](https://www.javaadvent.com/2021/12/you-need-more-than-containers-a-short-history-of-the-mess-were-in.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: Quarkus for Spring developers: Kubernetes-native' design patterns](https://developers.redhat.com/articles/2021/10/11/quarkus-spring-developers-kubernetes-native-design-patterns)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [infoq.com: Kubernetes Native Java with Quarkus](https://www.infoq.com/articles/native-java-quarkus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [auth0.com: Java Microservices with Spring Boot and Spring Cloud](https://auth0.com/blog/java-spring-boot-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhat.com: Cloud-native business automation with Kogito](https://www.redhat.com/en/blog/cloud-native-business-automation-kogito)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [kogito.kie.org](https://kogito.kie.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Red Hat Thorntail](https://thorntail.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: Microservices: Quarkus vs. Spring Boot](https://dzone.com/articles/microservices-quarkus-vs-spring-boot)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [JPA streamer 🌟](https://jpastreamer.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [logbook](https://github.com/zalando/logbook) <span class='md-tag md-tag--info'>⭐ 2048</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/javarevisited: Logging in Java — Log4j vs Logback vs SLF4J' 🌟](https://medium.com/javarevisited/logging-in-java-log4j-vs-logback-vs-slf4j-88c533088d2a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [GoodforGod/java-logger-benchmark](https://github.com/GoodforGod/java-logger-benchmark) <span class='md-tag md-tag--info'>⭐ 16</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: The Best Java Testing Frameworks to focus in 2021](https://dzone.com/articles/the-best-java-testing-frameworks-to-focus-in-2021)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [jfrunit](https://github.com/moditect/jfrunit) <span class='md-tag md-tag--info'>⭐ 326</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [morling.dev: Introducing JfrUnit 1.0.0.Alpha1](https://www.morling.dev/blog/introducing-jfrunit-1-0-0-alpha1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [java-success.com: 5 Ways to debug thread-safety issues in Java](https://www.java-success.com/debugging-java-thread-safety-multi-threading-concurrency-issues)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [reflectoring.io: When Should I Use Project Lombok?](https://reflectoring.io/when-to-use-lombok)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Helidon.io](https://helidon.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developer.okta.com: Build REST APIs and Native Java Apps with Helidon](https://developer.okta.com/blog/2022/01/06/native-java-helidon)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Cloud Native
+
+### Containers
+
+#### Evolution
+
+  - **(2021)** [javaadvent.com: You need more than containers. A short history of the' mess we're in](https://www.javaadvent.com/2021/12/you-need-more-than-containers-a-short-history-of-the-mess-were-in.html) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A historical retrospect on containerization, arguing that raw containers alone cannot solve distributed application challenges. Modern 2026 environments validate this thesis, illustrating the necessary evolution toward fully automated Platform Engineering, service meshes, and optimized framework runtimes.
 ## Cloud Native Architecture
 
 ### Kubernetes
@@ -76,6 +63,16 @@
 #### Case Study
 
   - **(2023)** [Salaboy/From Monolith to K8s](https://github.com/Salaboy/from-monolith-to-k8s) <span class='md-tag md-tag--info'>⭐ 354</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive practical blueprint mapping out the refactoring of monolithic architectures to Kubernetes-native services. Demonstrates key modernization steps including structural separation of services, data partitioning, and ingress configuration. This project is highly referenceable as a hands-on pedagogical resource for architectural transitions.
+## Cloud-Native Platforms
+
+### Java Microservices
+
+#### API Security
+
+  - **(2022)** [developer.okta.com: Build REST APIs and Native Java Apps with Helidon](https://developer.okta.com/blog/2022/01/06/native-java-helidon) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Step-by-step tutorial on constructing cloud-native REST endpoints using Helidon MP and compiling them into native executables using GraalVM. Incorporates OIDC authentication using Okta, demonstrating how to achieve sub-second startup times and minuscule memory footprints for containerized Java workloads.
+#### Frameworks
+
+  - **(2026)** [==Helidon.io==](https://helidon.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source, high-performance collection of Java libraries for writing microservices running on a core Netty engine (Helidon MP/SE). Helidon 4 pioneered the adoption of Java virtual threads (Project Loom) for massive concurrency without reactive complexity, establishing itself as a premier lightweight microservice runtime.
 ## Data Access
 
 ### Hibernate
@@ -213,7 +210,7 @@
 #### Ecosystem
 
   - **(2020)** [youtube: CyberJUG-HH:Why is everybody talking about Quarkus?](https://www.youtube.com/watch?v=nXXPOS8gjtA) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Recorded Hamburg Java User Group session discussing the core value proposition of Quarkus, highlighting developer hot-reload, testing loops, and memory profiles. Provides live benchmarking comparing standard HotSpot VM deployment metrics versus optimized GraalVM native binaries. Highly recommended for onboarding Java developers looking to demystify Quarkus execution.
-#### Evolution
+#### Evolution (1)
 
   - **(2021)** [**infoq.com: Quarkus 2.0 Delivers Continuous Testing, CLI and Supports Minimal JDK 11**](https://www.infoq.com/news/2021/08/quarkus-2-0-final-release) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — In-depth technical review of the Quarkus 2.0 release, emphasizing the inclusion of Continuous Testing features that run test suites automatically on code changes. It details the transition to JDK 11 as the minimum baseline and reviews CLI optimizations. This release marked the maturity stage of Quarkus, cementing its developer-experience leadership in the modern Java landscape.
 #### Fundamentals (1)
@@ -252,7 +249,7 @@
   - **(2020)** [**spring.io: Creating Docker images with Spring Boot 2.3.0.M1**](https://spring.io/blog/2020/01/27/creating-docker-images-with-spring-boot-2-3-0-m1) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Historic blog introducing native buildpack support and layer customization in Spring Boot 2.3. This milestone revolutionized how Spring applications were containerized by eliminating manual Dockerfile maintenance. While the 2.3.x release line is now legacy, these core concepts laid the foundation for Spring Boot 3's high-performance container integration, including native image compilation.
   - **(2022)** [dev.to: The Simple Guide To Dockerizing Spring Boot](https://dev.to/jarjanazy/the-simple-guide-to-dockerizing-spring-boot-og4) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A streamlined tutorial on writing minimal, multi-stage Dockerfiles for Spring Boot apps. Explains the process of isolating compilation environments from execution environments to keep final production images slim. This guide is highly useful for developers seeking a quick setup, although it lacks advanced security practices like non-root execution by default.
   - **(2021)** [youtube: Creating Docker Images With Spring Boot](https://www.youtube.com/watch?v=1w1Jv9qssqg) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Visual step-by-step walkthrough covering the creation of Docker images using modern Spring Boot tooling. It demonstrates the utility of Paketo Buildpacks versus traditional Dockerfile approaches, focusing on builder configurations and layered JARs. It provides an accessible entry point for visual learners transitioning into containerized Java architectures.
-#### Evolution (1)
+#### Evolution (2)
 
   - **(2021)** [**infoq.com: Spring Boot 2.6 Improves Docker Images and Metrics, Version 2.4 Is EOL**](https://www.infoq.com/news/2021/12/spring-boot-2-6) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Analysis of Spring Boot 2.6 features, including improvements to Docker image building and enhanced Prometheus metrics integration. It details the deprecation of older versions and highlights architectural changes in actuator endpoints. While Spring Boot 2.x is now officially legacy, understanding these transition periods is critical for enterprise migration archeology.
 #### Fundamentals (2)
@@ -327,6 +324,56 @@
 #### Istio Integration
 
   - **(2020)** [__Spring Boot Istio library__: Spring Boot library for integration with Istio](https://piotrminkowski.com/2020/06/10/spring-boot-library-for-integration-with-istio) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Presents a custom integration library that enables Spring Boot applications to interact directly with Istio service mesh configurations. It streamlines routing policies, enables mTLS, and manages request-tracing header propagation transparently at the platform boundary.
+## Modern Java
+
+### Automation
+
+#### Business Rules
+
+  - **(2021)** [redhat.com: Cloud-native business automation with Kogito](https://www.redhat.com/en/blog/cloud-native-business-automation-kogito) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces Kogito, a cloud-native business automation engine built on Drools and jBPM. It is designed to run business rules as lightweight, containerized microservices. In 2026, Kogito is widely used to bring complex decision-making processes into serverless workflows on Quarkus.
+  - **(2021)** [kogito.kie.org](https://kogito.kie.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official documentation portal for Kogito, Red Hat's cloud-native business automation framework. Optimized for Kubernetes-native runtimes, Kogito is recognized in 2026 as the leading solution for running low-latency, declarative workflows inside microservices.
+### Frameworks (1)
+
+#### Database Access
+
+  - **(2021)** [JPA streamer 🌟](https://jpastreamer.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source library that allows developers to write standard JPA queries using Java's functional Stream API. By eliminating complex boilerplates, JPAstreamer greatly simplifies data access layers in modern, database-heavy microservices in 2026.
+#### Kubernetes Integration (2)
+
+  - **(2021)** [developers.redhat.com: Quarkus for Spring developers: Kubernetes-native' design patterns](https://developers.redhat.com/articles/2021/10/11/quarkus-spring-developers-kubernetes-native-design-patterns) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores how Spring Boot developers can utilize Quarkus to build Kubernetes-native application patterns, such as direct ConfigMap/Secret binding and health probe automation. By 2026, native Kubernetes integration inside Java frameworks has significantly reduced the need for external boilerplate sidecars.
+#### Logging (3)
+
+  - **(2026)** [==logbook==](https://github.com/zalando/logbook) <span class='md-tag md-tag--info'>⭐ 2048</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensible Java library developed by Zalando for logging HTTP requests and responses. In 2026, Logbook is a de facto standard for security compliance and audit logging in distributed environments, providing clean, structured JSON payloads with context-safe credential masking.
+#### MicroProfile (1)
+
+  - **(2021)** [Red Hat Thorntail](https://thorntail.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Formerly known as WildFly Swarm, Thorntail was Red Hat's early MicroProfile runtime. In 2026, Thorntail is entirely deprecated and archived. Red Hat has transitioned its engineering effort and user community to Quarkus, which serves as the modern standard for fast cloud-native Java.
+#### Migrations
+
+  - **(2021)** [developers.redhat.com: Quarkus for Spring developers: Getting started 🌟](https://developers.redhat.com/articles/2021/09/20/quarkus-spring-developers-getting-started) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A practical guide helping Spring Boot developers transition to Quarkus by leveraging Quarkus's Spring Compatibility API. In 2026, this guide remains extremely relevant for migrating legacy microservices, enabling developers to use familiar Spring annotations under a faster Quarkus engine.
+#### Quarkus (2)
+
+  - **(2021)** [piotrminkowski.com: Quarkus Tips, Tricks and Techniques 🌟](https://piotrminkowski.com/2021/10/12/quarkus-tips-tricks-and-techniques) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated blog post packed with tips, tricks, and advanced architectural patterns for Quarkus developers. It highlights key features like reactive programming, Panache ORM, and Quarkus Dev Services. 2026 practices emphasize using Dev Services to automatically spin up Testcontainers dynamically.
+  - **(2021)** [infoq.com: Kubernetes Native Java with Quarkus](https://www.infoq.com/articles/native-java-quarkus) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive analysis of running native Java workloads on Kubernetes. It covers ahead-of-time (AOT) compilation trade-offs and build pipelines. In 2026, these native compilation profiles are standard practice, ensuring enterprise Java workloads start in milliseconds and use minimal memory.
+#### Quarkus vs Spring
+
+  - **(2021)** [developers.redhat.com: Why should I choose Quarkus over Spring for my microservices?](https://developers.redhat.com/articles/2021/08/31/why-should-i-choose-quarkus-over-spring-my-microservices) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed technical comparison explaining the advantages of Quarkus over Spring for cloud-native Java workloads. While Spring Boot 3 has improved native compilation, Quarkus remains highly competitive in 2026 for serverless startup time, memory footprints, and GraalVM build optimization.
+#### Reactive Programming (1)
+
+  - **(2021)** [developers.redhat.com: Boost throughput with RESTEasy Reactive in Quarkus' 2.2](https://developers.redhat.com/articles/2021/11/04/boost-throughput-resteasy-reactive-quarkus-22) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep-dive explaining performance gains achieved through RESTEasy Reactive in Quarkus 2.2+. By running non-blocking HTTP endpoints directly on the underlying Netty event loop, this architecture maximizes throughput. It is the default approach for building high-scale Java APIs in 2026.
+#### Spring Cloud (1)
+
+  - **(2021)** [auth0.com: Java Microservices with Spring Boot and Spring Cloud](https://auth0.com/blog/java-spring-boot-microservices) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed tutorial for constructing secure, modular Java microservices using Spring Boot, Spring Cloud, and OAuth2/OIDC. Although service meshes have taken over some Spring Cloud networking logic, these client-side application patterns remain a core standard in 2026 enterprise architectures.
+### Performance
+
+#### Benchmarking
+
+  - **(2026)** [==GoodforGod/java-logger-benchmark==](https://github.com/GoodforGod/java-logger-benchmark) <span class='md-tag md-tag--info'>⭐ 16</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A performance micro-benchmark comparing major Java logging frameworks like SLF4J, Logback, and Log4j2. For high-throughput microservices in 2026, understanding logging allocation costs and thread contention is critical to maximizing compute efficiency in Kubernetes clusters.
+#### Concurrency (1)
+
+  - **(2021)** [java-success.com: 5 Ways to debug thread-safety issues in Java](https://www.java-success.com/debugging-java-thread-safety-multi-threading-concurrency-issues) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An educational guide detailing patterns to debug complex multi-threading and concurrency issues in Java. In 2026, with the widespread adoption of Java Virtual Threads (Project Loom), debugging paradigms have shifted from traditional thread pool management to lightweight structured concurrency practices.
+#### Testing (1)
+
+  - **(2026)** [==jfrunit==](https://github.com/moditect/jfrunit) <span class='md-tag md-tag--info'>⭐ 326</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly innovative JUnit extension enabling assertions against Java Flight Recorder (JFR) events. In 2026, JfrUnit is standard for continuous performance regression testing, automatically blocking commits that trigger abnormal CPU usage or memory allocations.
+  - **(2021)** [morling.dev: Introducing JfrUnit 1.0.0.Alpha1](https://www.morling.dev/blog/introducing-jfrunit-1-0-0-alpha1) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The introductory blog post for JfrUnit, outlining its mission to enable assertions against performance metrics in unit tests. By capturing Flight Recorder diagnostics, JfrUnit solves the historically difficult problem of detecting performance issues before applications reach production.
 ## Software Development
 
 ### Business Automation
@@ -390,7 +437,7 @@
   - **(2019)** [javarevisited.blogspot.com: The 2020 Java Developer RoadMap 🌟](https://javarevisited.blogspot.com/2019/10/the-java-developer-roadmap.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive developer roadmap outlining the tools, frameworks, and foundational concepts required to master modern Java development. This curriculum includes coverage of JVM internals, MVC frameworks, container integration, concurrency models, and cloud native microservice patterns.
 ### Java Language
 
-#### Concurrency (1)
+#### Concurrency (2)
 
   - **(2016)** [java67.com: How to Create and Start Multiple Threads in Java? - Example Tutorial](https://www.java67.com/2016/05/how-to-use-multiple-threads-in-java.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A fundamental programming tutorial demonstrating how to initiate and manage multiple threads within Java. While basic, it covers structural concurrency paradigms, runnable abstractions, and thread execution states before the widespread adoption of ExecutorServices.
 #### Migration (1)
@@ -410,7 +457,7 @@
 #### Interview Prep
 
   - **(2022)** [java-success.com: 01: Q07 – Q12 Java Micro & Web services Interview Q&As](https://www.java-success.com/microservices-interview-questions) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive Q&A preparation guide addressing core interview topics in Java microservices. This document covers crucial real-world concepts: database-per-service patterns, eventual consistency, CQRS (Command Query Responsibility Segregation), and saga-driven transactions.
-#### Java Microservices
+#### Java Microservices (1)
 
   - **(2023)** [javatechonline.com: Making Java easy to learn - Microservices In Java 🌟](https://javatechonline.com/microservices-in-java) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A programmatic blueprint for building microservices in the Java ecosystem. The tutorial covers architectural pillars: API Gateways, service discovery, distributed configuration, load balancing, and fault tolerance patterns using Spring Cloud and resilient frameworks.
   - **(2023)** [geeksforgeeks.org: 5 Best Java Frameworks For Microservices](https://www.geeksforgeeks.org/blogs/best-java-frameworks-for-microservices) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This architectural comparison rates the top 5 Java frameworks for constructing microservices: Spring Boot, Micronaut, Quarkus, Helidon, and Dropwizard. It evaluates memory footprint, startup time, and cloud native integration capabilities.
@@ -419,6 +466,13 @@
 #### Annotations
 
   - **(2023)** [javatechonline.com: Making Java easy to learn - Spring Boot Annotations With Examples](https://javatechonline.com/spring-boot-annotations-with-examples) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed technical catalog of Spring Boot annotations with practical code examples. It explores the mechanics of configuration annotations, injection decorators, web mapping handlers, and data persistence markers essential for modern cloud microservices.
+## Software Engineering
+
+### Java Development
+
+#### Code Generation
+
+  - **(2021)** [reflectoring.io: When Should I Use Project Lombok?](https://reflectoring.io/when-to-use-lombok) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores Project Lombok's role in reducing Java boilerplate (getters, setters, builders) through compile-time annotation processing. While highly beneficial for clean data objects, it details architectural trade-offs such as IDE support dependencies, debugging difficulties, and potential issues with framework integration (e.g., Hibernate lazy loading).
 ## Spring Ecosystem
 
 ### Application Framework
@@ -434,7 +488,7 @@
 #### Functional Bean Registration
 
   - **(2021)** [blog.frankel.ch: Annotation-free Spring](https://blog.frankel.ch/annotation-free-spring) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores annotation-free bean configuration in Spring, leveraging functional Kotlin or Java DSLs. By replacing classical runtime annotation scanning with declarative bean definitions, this approach lowers application startup latencies and improves GraalVM compile-time reflection analysis.
-#### Logging (3)
+#### Logging (4)
 
   - **(2021)** [java67.com: How to set the logging level with application.properties in Spring Boot - Example Tutorial](https://www.java67.com/2021/10/how-to-set-logging-level-in-spring-boot-.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Teaches developers how to dynamically set and manage logging levels (`DEBUG`, `INFO`, `ERROR`) using application configuration files. It avoids the use of verbose XML logging templates, allowing developers to target package-level logs cleanly.
 ### Core Platform (1)
@@ -463,7 +517,7 @@
   - **(2020)** [Spring Boot native images. The path towards Spring Boot native applications](https://spring.io/blog/2020/06/10/the-path-towards-spring-boot-native-applications) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details Spring's path towards compiling JVM applications into GraalVM native binaries. By executing class-path analysis and proxy initialization at compile time, native compilation minimizes memory overhead and scales startup times down to milliseconds, transforming Java's serverless viability.
 ### Interoperability (1)
 
-#### MicroProfile (1)
+#### MicroProfile (2)
 
   - **(2018)** [developers.redhat.com: Eclipse MicroProfile for Spring Boot developers](https://developers.redhat.com/blog/2018/11/21/eclipse-microprofile-for-spring-boot-developers) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A mapping reference designed to help Spring Boot developers translate standard Spring concepts into Eclipse MicroProfile equivalents. It details how CDI annotation-driven injection patterns align with Spring's dependency injection mechanisms, easing cross-framework platform migrations.
 ### Microservices (2)

@@ -25,8 +25,6 @@
   - [medium.com/@jonathan_37674: How to validate Kubernetes YAML files? | ARMO](https://medium.com/@jonathan_37674/how-to-validate-kubernetes-yaml-files-armo-e45dd006d633)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ketch: Getting Started](https://learn.theketch.io/docs/getting-started)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [base64encode.org](https://www.base64encode.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Polaris](https://github.com/FairwindsOps/polaris) <span class='md-tag md-tag--info'>⭐ 3367</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [arttor/helmify](https://github.com/arttor/helmify) <span class='md-tag md-tag--info'>⭐ 1738</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Cloud Native Operations
 
@@ -185,6 +183,13 @@
 #### Visualizers
 
   - **(2025)** [jsoncrack.com: JSON Crack 🌟🌟](https://jsoncrack.com) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive data visualization platform that constructs graph representations of nested JSON schemas. Helps platform engineers conceptualize structural relationships and analyze nested configurations in high-density graphs.
+## GitOps and Configuration
+
+### Helm Chart Generation
+
+#### Migration Tools
+
+  - **(2021)** [arttor/helmify](https://github.com/arttor/helmify) <span class='md-tag md-tag--info'>⭐ 1738</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An automation utility that converts standard declarative Kubernetes manifests directly into valid, paramaterized Helm charts. It simplifies migrations and accelerates the distribution setup of packaged deployments.
 ## Infrastructure as Code
 
 ### Ansible
@@ -192,6 +197,13 @@
 #### YAML Syntax (1)
 
   - **(2022)** [**docs.ansible.com: YAML anchors and aliases: sharing variable values**](https://docs.ansible.com/projects/ansible/latest/user_guide/playbooks_advanced_syntax.html#yaml-anchors-and-aliases-sharing-variable-values) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Official Ansible documentation showing how playbooks use YAML anchors and aliases. It demonstrates how to share variable lists, task setups, and connection settings across playbooks. This is a core best practice for maintaining massive infrastructure inventories.
+## Networking and Security
+
+### Security Compliance
+
+#### Config Validation
+
+  - **(2026)** [==Polaris==](https://github.com/FairwindsOps/polaris) <span class='md-tag md-tag--info'>⭐ 3367</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A widely adopted configuration validation engine designed to audit Kubernetes manifests, charts, and running pods against dozens of best practices. Identifies issues including lack of resource limits, security context issues, and networking misconfigurations.
 ## Platform Engineering
 
 ### Kubernetes Manifests

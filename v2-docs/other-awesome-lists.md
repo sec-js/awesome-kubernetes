@@ -11,7 +11,6 @@
   - [hashicorp.com: HashiCorp Learning Resources Reference Guide 🌟](https://www.hashicorp.com/blog/hashicorp-learning-resources-reference-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [awesomeopensource.com: The Top 110 Cidr Open Source Projects on Github 🌟](https://awesomeopensource.com/projects/cidr)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [wiki.bash-hackers.org](https://wiki.bash-hackers.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [collabnix.github.io/kubetools 🌟](https://collabnix.github.io/kubetools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## AI and Machine Learning
 
@@ -31,7 +30,7 @@
 
 #### Awesome Lists (1)
 
-  - **(2025)** [==Awesome MCP Servers==](https://github.com/punkpeye/awesome-mcp-servers) <span class='md-tag md-tag--info'>⭐ 89105</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: A community-curated collection of servers implementing the Model Context Protocol. Live Grounding: Aggregates verified integrations linking AI models to tools like relational databases, enterprise APIs, version control providers, and local execution runtimes.
+  - **(2025)** [==Awesome MCP Servers==](https://github.com/punkpeye/awesome-mcp-servers) <span class='md-tag md-tag--info'>⭐ 89108</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: A community-curated collection of servers implementing the Model Context Protocol. Live Grounding: Aggregates verified integrations linking AI models to tools like relational databases, enterprise APIs, version control providers, and local execution runtimes.
 ## API Development
 
 ### API Gateway
@@ -69,7 +68,7 @@
 
 #### Resource Curation
 
-  - **(2014)** [==Awesome Python 🌟==](https://github.com/vinta/awesome-python) <span class='md-tag md-tag--info'>⭐ 302811</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The quintessential curated directory indexing thousands of top-tier Python packages, libraries, frameworks, and tools across data science, web development, containerization, and networking.
+  - **(2014)** [==Awesome Python 🌟==](https://github.com/vinta/awesome-python) <span class='md-tag md-tag--info'>⭐ 302814</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The quintessential curated directory indexing thousands of top-tier Python packages, libraries, frameworks, and tools across data science, web development, containerization, and networking.
 ## Cloud Infrastructure
 
 ### AWS
@@ -88,7 +87,7 @@
   - **(2026)** [github.com/simhol/awesome-azure: Awesome Azure](https://github.com/simhol/awesome-azure) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A community-maintained resource collection for Azure deployments, automation scripts, and management frameworks. This index aggregates specialized tools and networking resources that complement official Microsoft documentation. It functions as a valuable secondary reference for enterprise cloud-migration pipelines.
 #### Training (1)
 
-  - **(2026)** [==github.com/iam-veeramalla/Azure-zero-to-hero: Azure Zero to Hero Course==](https://github.com/iam-veeramalla/Azure-zero-to-hero) <span class='md-tag md-tag--info'>⭐ 5105</span> <span class='md-tag md-tag--warning'>[PYTHON/SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A structured, hands-on learning roadmap tracking Azure Cloud Administration, DevOps architectures, and fundamental services. Focuses on practical engineering exercises, building CI/CD pipelines, and writing ARM/Bicep infrastructure templates. Serves as an exceptional onboarding tool for transition-phase cloud engineers.
+  - **(2026)** [==github.com/iam-veeramalla/Azure-zero-to-hero: Azure Zero to Hero Course==](https://github.com/iam-veeramalla/Azure-zero-to-hero) <span class='md-tag md-tag--info'>⭐ 5104</span> <span class='md-tag md-tag--warning'>[PYTHON/SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A structured, hands-on learning roadmap tracking Azure Cloud Administration, DevOps architectures, and fundamental services. Focuses on practical engineering exercises, building CI/CD pipelines, and writing ARM/Bicep infrastructure templates. Serves as an exceptional onboarding tool for transition-phase cloud engineers.
 ### DigitalOcean
 
 #### Resources (5)
@@ -152,12 +151,19 @@
 
 #### SecOps
 
-  - **(2026)** [==github.com/toniblyx/my-arsenal-of-aws-security-tools==](https://github.com/toniblyx/my-arsenal-of-aws-security-tools) <span class='md-tag md-tag--info'>⭐ 9457</span> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exceptional collection of open-source security tools, auditing frameworks, and penetration testing scripts specifically curated for AWS environments. It includes foundational systems for IAM scanning, network path analysis, and continuous compliance. This repository is widely recognized by security teams as a must-have resource for AWS vulnerability assessments.
+  - **(2026)** [==github.com/toniblyx/my-arsenal-of-aws-security-tools==](https://github.com/toniblyx/my-arsenal-of-aws-security-tools) <span class='md-tag md-tag--info'>⭐ 9458</span> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exceptional collection of open-source security tools, auditing frameworks, and penetration testing scripts specifically curated for AWS environments. It includes foundational systems for IAM scanning, network path analysis, and continuous compliance. This repository is widely recognized by security teams as a must-have resource for AWS vulnerability assessments.
 ### Azure (1)
 
 #### Governance
 
   - **(2026)** [==globalbao/awesome-azure-policy: AWESOME-Azure-Policy==](https://github.com/globalbao/awesome-azure-policy) <span class='md-tag md-tag--info'>⭐ 539</span> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive collection of custom Azure Policy definitions, initiative templates, and execution scripts. This project enables cloud architects to enforce automated governance, compliance frameworks, and infrastructure standards across complex tenant hierarchies. Highly valuable for heavily regulated financial and healthcare cloud environments.
+## Cloud-Native Platforms
+
+### Kubernetes Operations
+
+#### Curation
+
+  - **(2026)** [==collabnix.github.io/kubetools 🌟==](https://collabnix.github.io/kubetools) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensive community-driven index of Kubernetes open-source software, CLI wrappers, and development utilities. Acts as a prominent repository of engineering resources, classifying tools by functional domain from development platforms to production monitoring.
 ## Container Orchestration
 
 ### Kubernetes
@@ -168,7 +174,7 @@
   - **(2026)** [christopherhein/awesome-eks: Awesome EKS](https://github.com/jimmyraywv/awesome-eks) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly focused directory of networking drivers, controller scripts, and utilities optimized for AWS Elastic Kubernetes Service (EKS). Crucial for platforms implementing AWS-CNI custom networking policies, security plugins, and IAM Roles for Service Accounts (IRSA). It assists engineering leads in bridging native AWS security primitives with Kubernetes service accounts.
 ## Containers
 
-### Curation
+### Curation (1)
 
 #### Reference Frameworks
 
@@ -196,7 +202,7 @@
 #### Jenkins Vulnerabilities
 
   - **(2026)** [Hacking jenkins](https://github.com/orangetw/awesome-jenkins-rce-2019) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical security write-up archiving exploit chains, threat indicators, and software mitigation structures for the historic 2019 Jenkins Remote Code Execution flaws. Essential archival case study for engineering modern supply chain mitigations.
-## Curation (1)
+## Curation (2)
 
 ### Awesome Lists (2)
 
@@ -208,7 +214,7 @@
   - **(2023)** [==Awesome Container==](https://github.com/tcnksm/awesome-container) <span class='md-tag md-tag--info'>⭐ 175</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A specialized index investigating low-level container building, runtimes (runc, containerd, CRI-O), image specification standards, and isolation platforms. Ideal for system engineers seeking to master virtualization fundamentals and security sandboxing at the kernel boundary.
 #### General
 
-  - **(2023)** [==@sindresorhus' Awesome==](https://github.com/sindresorhus/awesome) <span class='md-tag md-tag--info'>⭐ 475597</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main index repository by Sindre Sorhus, tracking development resources and technologies globally. Highly useful for architects trying to cross-reference multiple tech stack capabilities.
+  - **(2023)** [==@sindresorhus' Awesome==](https://github.com/sindresorhus/awesome) <span class='md-tag md-tag--info'>⭐ 475602</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main index repository by Sindre Sorhus, tracking development resources and technologies globally. Highly useful for architects trying to cross-reference multiple tech stack capabilities.
 #### Kubernetes (1)
 
   - **(2023)** [==@ramitsurana' Awesome Kubernetes==](https://ramitsurana.github.io/awesome-kubernetes) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A thoroughly organized directory of tools, books, tutorials, and libraries designed for Kubernetes users. Serves as an invaluable learning roadmap for operations engineers and developers to discover and adopt production-grade tooling in their DevOps lifecycles.
@@ -244,7 +250,7 @@
 
 #### DevOps
 
-  - **(2023)** [==The Book of Secret Knowledge 🌟==](https://github.com/trimstray/the-book-of-secret-knowledge) <span class='md-tag md-tag--info'>⭐ 228278</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive, high-density repository of DevOps command cheatsheets, diagnostic scripts, network testing algorithms, and configuration templates. Highly useful for site reliability engineers performing active cluster incident responses and systems troubleshooting under pressure.
+  - **(2023)** [==The Book of Secret Knowledge 🌟==](https://github.com/trimstray/the-book-of-secret-knowledge) <span class='md-tag md-tag--info'>⭐ 228281</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive, high-density repository of DevOps command cheatsheets, diagnostic scripts, network testing algorithms, and configuration templates. Highly useful for site reliability engineers performing active cluster incident responses and systems troubleshooting under pressure.
 ### Educational Resources
 
 #### Articles
@@ -440,7 +446,7 @@
 #### Bicep
 
   - **(2026)** [==ElYusubov/AWESOME-Azure-Bicep: AWESOME Azure Bicep==](https://github.com/ElYusubov/AWESOME-Azure-Bicep) <span class='md-tag md-tag--info'>⭐ 431</span> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An index of resource libraries, module registries, and extension directories tailored for Azure Bicep DSL. Bicep has largely superseded ARM JSON templates as Microsoft's first-party IaC solution. This resource serves as a crucial reference for cloud platform engineers aiming to write clean, declarative Azure infrastructure code.
-### Curation (2)
+### Curation (3)
 
 #### Community Directories
 
@@ -510,7 +516,7 @@
 
 #### Resources (11)
 
-  - **(2026)** [==Awesome Go 🌟==](https://github.com/avelino/awesome-go) <span class='md-tag md-tag--info'>⭐ 175394</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive curated repository of high-quality Go frameworks, libraries, and software. Unmatched resource for identifying vetted dependencies for enterprise service development. Ideal for building lightweight, hyper-fast microservices, Kubernetes operators, and cloud infrastructure CLI tools.
+  - **(2026)** [==Awesome Go 🌟==](https://github.com/avelino/awesome-go) <span class='md-tag md-tag--info'>⭐ 175397</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive curated repository of high-quality Go frameworks, libraries, and software. Unmatched resource for identifying vetted dependencies for enterprise service development. Ideal for building lightweight, hyper-fast microservices, Kubernetes operators, and cloud infrastructure CLI tools.
 ### Java
 
 #### Resources (12)
@@ -549,7 +555,7 @@
 
 #### Interview Preparation (1)
 
-  - **(2026)** [==Tech Interview Handbook==](https://github.com/yangshun/tech-interview-handbook) <span class='md-tag md-tag--info'>⭐ 140286</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive prep suite for engineering roles, focusing on algorithms, practical system design topologies, behavioral matrices, and resume optimizations. Provides actionable code structures and design templates built to satisfy high-bar technical interview pipelines.
+  - **(2026)** [==Tech Interview Handbook==](https://github.com/yangshun/tech-interview-handbook) <span class='md-tag md-tag--info'>⭐ 140287</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive prep suite for engineering roles, focusing on algorithms, practical system design topologies, behavioral matrices, and resume optimizations. Provides actionable code structures and design templates built to satisfy high-bar technical interview pipelines.
 ### Education (1)
 
 #### Foundations
