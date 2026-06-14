@@ -952,7 +952,7 @@ class V2VisionEngine:
                     "We combat the culture of **Promotion-Driven Development (PDD)**, where complexity is manufactured for personal career visibility rather than business value. \n\n"
                     "  - [Promotion-Based Development: A Fast Track to Mediocrity](https://vadimkravcenko.com/shorts/promotion-based-development/) <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Dissects how rewarding \"shiny new things\" over battle-tested stability leads to fragile architectures.\n"
                     "  - [Reddit: The Reality of Promotion-Driven Development](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A raw, evidence-based discussion from senior engineers on the industry's most common misaligned incentives.\n\n"
-                    "### 📊 3. Comparative Maturity Framework\n"
+                    "### 📊 3. Comparative Maturity Framework\n\n"
                     "| Principle | Strategic Focus | Primary Toolset | Architectural Impact |\n"
                     "| :--- | :--- | :--- | :--- |\n"
                     "| **DevOps** | Automation & Frequency | CI/CD Pipelines | Operational Speed |\n"

@@ -30,6 +30,7 @@ We combat the culture of **Promotion-Driven Development (PDD)**, where complexit
   - [Reddit: The Reality of Promotion-Driven Development](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A raw, evidence-based discussion from senior engineers on the industry's most common misaligned incentives.
 
 ### 📊 3. Comparative Maturity Framework
+
 | Principle | Strategic Focus | Primary Toolset | Architectural Impact |
 | :--- | :--- | :--- | :--- |
 | **DevOps** | Automation & Frequency | CI/CD Pipelines | Operational Speed |
