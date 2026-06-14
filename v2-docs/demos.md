@@ -358,7 +358,7 @@
 
 #### Developer Productivity
 
-  - **(2024)** [**Awesome NotebookLM Slide Prompts**](https://github.com/serenakeyitan/awesome-notebookLM-prompts) <span class='md-tag md-tag--info'>⭐ 3750</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A master curation of system-level prompt templates specifically optimized for Google NotebookLM. It accelerates complex source material ingestions, contextual extractions, and structured summarizing processes for technical architects. (Live Grounding: Highlights the 2026 intersection of AI workflow orchestration and engineering documentation maintenance).
+  - **(2024)** [**Awesome NotebookLM Slide Prompts**](https://github.com/serenakeyitan/awesome-notebookLM-prompts) <span class='md-tag md-tag--info'>⭐ 3760</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A master curation of system-level prompt templates specifically optimized for Google NotebookLM. It accelerates complex source material ingestions, contextual extractions, and structured summarizing processes for technical architects. (Live Grounding: Highlights the 2026 intersection of AI workflow orchestration and engineering documentation maintenance).
 ## CI-CD
 
 ### Azure
@@ -902,7 +902,7 @@
 
 #### Reference Guides
 
-  - **(2026)** [==bregman-arie/devops-exercises 🌟==](https://github.com/bregman-arie/devops-exercises) <span class='md-tag md-tag--info'>⭐ 82749</span> <span class='md-tag md-tag--warning'>[PYTHON/YAML CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A massive curated repository containing thousands of questions, answers, and hands-on exercises covering Linux, Jenkins, Docker, Kubernetes, Ansible, Terraform, AWS, and system design. (Live Grounding: With over 82k stars, it stands in 2026 as the preeminent resource for preparing systems engineers and validating platform architecture skills).
+  - **(2026)** [==bregman-arie/devops-exercises 🌟==](https://github.com/bregman-arie/devops-exercises) <span class='md-tag md-tag--info'>⭐ 82758</span> <span class='md-tag md-tag--warning'>[PYTHON/YAML CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A massive curated repository containing thousands of questions, answers, and hands-on exercises covering Linux, Jenkins, Docker, Kubernetes, Ansible, Terraform, AWS, and system design. (Live Grounding: With over 82k stars, it stands in 2026 as the preeminent resource for preparing systems engineers and validating platform architecture skills).
 ### Learning Resources (1)
 
 #### Methodologies
@@ -919,7 +919,7 @@
 
 #### No Code Movement
 
-  - **(2020)** [==github.com/kelseyhightower/nocode==](https://github.com/kelseyhightower/nocode) <span class='md-tag md-tag--info'>⭐ 65388</span> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kelsey Hightower's legendary satirical repository highlighting that the best way to write secure, bug-free, and highly maintainable software is by writing 'no code' at all. Highly popular and philosophically beloved in the cloud-native ecosystem.
+  - **(2020)** [==github.com/kelseyhightower/nocode==](https://github.com/kelseyhightower/nocode) <span class='md-tag md-tag--info'>⭐ 65387</span> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kelsey Hightower's legendary satirical repository highlighting that the best way to write secure, bug-free, and highly maintainable software is by writing 'no code' at all. Highly popular and philosophically beloved in the cloud-native ecosystem.
 ## DevSecOps and Automation
 
 ### End-to-End Pipelines
@@ -1284,7 +1284,7 @@
 
 #### Kubernetes Integration (1)
 
-  - **(2026)** [==github: Spring Cloud Kubernetes 🌟==](https://github.com/spring-cloud/spring-cloud-kubernetes) <span class='md-tag md-tag--info'>⭐ 3535</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A specialized integration library that allows Spring Cloud applications to run transparently on Kubernetes. It maps Kubernetes ConfigMaps and Secrets to Spring's Environment, and translates discovery mechanisms to native Kubernetes endpoints. It bridges the gap between Cloud Native infrastructure patterns and Java application logic.
+  - **(2026)** [==github: Spring Cloud Kubernetes 🌟==](https://github.com/spring-cloud/spring-cloud-kubernetes) <span class='md-tag md-tag--info'>⭐ 3534</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A specialized integration library that allows Spring Cloud applications to run transparently on Kubernetes. It maps Kubernetes ConfigMaps and Secrets to Spring's Environment, and translates discovery mechanisms to native Kubernetes endpoints. It bridges the gap between Cloud Native infrastructure patterns and Java application logic.
 ## Local Development (4)
 
 ### Legacy Cluster Tools
@@ -1616,7 +1616,7 @@
 
 ##### Spring Petclinic
 
-  - **(2023)** [==github.com/spring-projects/spring-petclinic==](https://github.com/spring-projects/spring-petclinic) <span class='md-tag md-tag--info'>⭐ 9301</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight targets the actual source code repository for the Spring Petclinic community project. Live Grounding confirms this project is an invaluable asset across the software industry to demonstrate testing, framework upgrades, Docker containerization, and platform deployment strategies. It serves as the baseline target for countless CI/CD benchmarks.
+  - **(2023)** [==github.com/spring-projects/spring-petclinic==](https://github.com/spring-projects/spring-petclinic) <span class='md-tag md-tag--info'>⭐ 9303</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight targets the actual source code repository for the Spring Petclinic community project. Live Grounding confirms this project is an invaluable asset across the software industry to demonstrate testing, framework upgrades, Docker containerization, and platform deployment strategies. It serves as the baseline target for countless CI/CD benchmarks.
   - **(2022)** [spring-petclinic.github.io](https://spring-petclinic.github.io) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights the official Spring Petclinic documentation as the premier reference application for modern Java software architectures. Live Grounding confirms its role as a testing bed for showcasing complex microservice interactions, database bindings, and telemetry configuration patterns.
 ##### Spring Petclinic Red Hat
 

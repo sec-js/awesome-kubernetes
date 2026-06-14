@@ -394,7 +394,7 @@
 
 ##### Node Scaling Metrics
 
-  - **(2023)** [**awslabs/eks-node-viewer**](https://github.com/awslabs/eks-node-viewer) <span class='md-tag md-tag--info'>⭐ 1633</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly functional CLI diagnostic tool designed to visualize real-time cost, resource utilization, and scheduling efficiency across Amazon EKS node groups. Highly integrated with dynamic autoscaling engines like Karpenter to optimize infrastructure financial footprints.
+  - **(2023)** [**awslabs/eks-node-viewer**](https://github.com/awslabs/eks-node-viewer) <span class='md-tag md-tag--info'>⭐ 1632</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly functional CLI diagnostic tool designed to visualize real-time cost, resource utilization, and scheduling efficiency across Amazon EKS node groups. Highly integrated with dynamic autoscaling engines like Karpenter to optimize infrastructure financial footprints.
 ##### Spot Instancing
 
   - **(2022)** [itnext.io: Running resilient workloads in EKS using Spot instances](https://itnext.io/running-production-workloads-in-eks-using-spot-instances-fc6808a7b462) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical implementation guide for orchestrating highly available production applications on cost-effective AWS Spot Instances. Synthesizes node-termination handlers, pod disruption budgets, and multi-instance-type autoscaling groups to manage interruptions.

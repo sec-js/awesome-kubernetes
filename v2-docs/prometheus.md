@@ -236,7 +236,7 @@
 
 #### Cortex Engine
 
-  - **(2024)** [==github.com/cortexproject/cortex==](https://github.com/cortexproject/cortex) <span class='md-tag md-tag--info'>⭐ 5812</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Open-source repository for Cortex. Implements Prometheus as a service, allowing isolated multi-tenancy, long-term metric durability in object storage (S3/GCS), and horizontally scalable querying.
+  - **(2024)** [==github.com/cortexproject/cortex==](https://github.com/cortexproject/cortex) <span class='md-tag md-tag--info'>⭐ 5811</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Open-source repository for Cortex. Implements Prometheus as a service, allowing isolated multi-tenancy, long-term metric durability in object storage (S3/GCS), and horizontally scalable querying.
   - **(2024)** [**Cortex**:](https://cortexmetrics.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural landing page of Cortex, an enterprise-grade, horizontally scalable, multi-tenant TSDB. Note: Since 2024-2025, many users have migrated toward Thanos or VictoriaMetrics, yet Cortex remains a highly resilient classic for long-term storage.
 #### InfluxDB
 
@@ -261,7 +261,7 @@
 
 #### Interoperability
 
-  - **(2026)** [==Telegraf Prometheus Output Plugin==](https://github.com/influxdata/telegraf/tree/master/plugins/outputs/prometheus_client) <span class='md-tag md-tag--info'>⭐ 17616</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Source code and implementation guide for Telegraf's Prometheus output integration. Allows standard push-based collection architectures to export telemetry data via a pull-based scraping API.
+  - **(2026)** [==Telegraf Prometheus Output Plugin==](https://github.com/influxdata/telegraf/tree/master/plugins/outputs/prometheus_client) <span class='md-tag md-tag--info'>⭐ 17615</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Source code and implementation guide for Telegraf's Prometheus output integration. Allows standard push-based collection architectures to export telemetry data via a pull-based scraping API.
 ### Monitoring Integrations
 
 #### Database Monitoring (1)
@@ -302,7 +302,7 @@
 
 #### Core Platform (1)
 
-  - **(2026)** [==github.com/prometheus/prometheus==](https://github.com/prometheus/prometheus) <span class='md-tag md-tag--info'>⭐ 64489</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Source codebase for Prometheus, the benchmark cloud-native telemetry engine. Employs active scraping mechanics over HTTP alongside a custom-built local TSDB to deliver sub-second querying speeds and powerful alerting capabilities.
+  - **(2026)** [==github.com/prometheus/prometheus==](https://github.com/prometheus/prometheus) <span class='md-tag md-tag--info'>⭐ 64491</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Source codebase for Prometheus, the benchmark cloud-native telemetry engine. Employs active scraping mechanics over HTTP alongside a custom-built local TSDB to deliver sub-second querying speeds and powerful alerting capabilities.
 #### Custom Instrumentation
 
   - **(2026)** [prometheus.io: Writing Exporters](https://prometheus.io/docs/instrumenting/writing_exporters) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official engineering guidelines for architecting Prometheus exporters. Focuses on core metric exposition design, label usage, scraping cycles, and custom translation layers to prevent performance overhead on monitored endpoints.
@@ -355,7 +355,7 @@
 
 #### Generators
 
-  - **(2023)** [==Sloth 🌟==](https://github.com/slok/sloth) <span class='md-tag md-tag--info'>⭐ 2500</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Sloth is an automated, developer-friendly generator for SLO alerting. Evaluates declarative YAML templates and outputs production-grade PromQL rules representing complex multi-window, multi-burn-rate algorithms.
+  - **(2023)** [==Sloth 🌟==](https://github.com/slok/sloth) <span class='md-tag md-tag--info'>⭐ 2501</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Sloth is an automated, developer-friendly generator for SLO alerting. Evaluates declarative YAML templates and outputs production-grade PromQL rules representing complex multi-window, multi-burn-rate algorithms.
   - **(2023)** [==SLO Generator==](https://github.com/google/slo-generator) <span class='md-tag md-tag--info'>⭐ 562</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive open-source tool built to parse SLO specifications and compute service level indicators, supporting data extraction from both Prometheus and diverse multi-cloud storage backends.
   - **(2021)** [itnext.io: SLOs should be easy, say hi to Sloth 🌟](https://itnext.io/slos-should-be-easy-say-hi-to-sloth-9c8a225df0d4) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Walkthrough exploring how Sloth helps teams declare Service Level Objectives as code. Translates high-level metrics guidelines into functional alerting matrices without writing raw PromQL equations.
 #### Jsonnet Libraries
@@ -368,14 +368,14 @@
 
 #### Blackbox Probing
 
-  - **(2024)** [==blackbox_exporter 🌟==](https://github.com/prometheus/blackbox_exporter) <span class='md-tag md-tag--info'>⭐ 5729</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official Prometheus community-supported exporter designed to probe endpoints over HTTP, HTTPS, DNS, TCP, ICMP, and gRPC protocols. Crucial for verifying application routing availability and TLS certificate statuses.
+  - **(2024)** [==blackbox_exporter 🌟==](https://github.com/prometheus/blackbox_exporter) <span class='md-tag md-tag--info'>⭐ 5728</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official Prometheus community-supported exporter designed to probe endpoints over HTTP, HTTPS, DNS, TCP, ICMP, and gRPC protocols. Crucial for verifying application routing availability and TLS certificate statuses.
   - **(2022)** [rtfm.co.ua: Prometheus: Kubernetes endpoints monitoring with blackbox-exporter](https://rtfm.co.ua/en/prometheus-kubernetes-endpoints-monitoring-with-blackbox-exporter) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on deploying the Prometheus Blackbox Exporter to monitor endpoint availability via HTTP, HTTPS, TCP, and ICMP protocols, optimizing synthetic probe latency tracks.
 #### Cloud Exporters
 
   - **(2024)** [==YACE - yet another cloudwatch exporter 🌟==](https://github.com/prometheus-community/yet-another-cloudwatch-exporter) <span class='md-tag md-tag--info'>⭐ 1209</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Highly performance-optimized Prometheus exporter (YACE) designed to query metrics from AWS CloudWatch. Leverages cost-effective batched APIs to retrieve data without incurring high AWS costs.
 #### Database Monitoring (2)
 
-  - **(2024)** [==prometheus-community/elasticsearch_exporter==](https://github.com/prometheus-community/elasticsearch_exporter) <span class='md-tag md-tag--info'>⭐ 2078</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Standard Prometheus-community exporter that queries Elasticsearch cluster health, shard counts, JVM memory usage, indexing metrics, and search latency times.
+  - **(2024)** [==prometheus-community/elasticsearch_exporter==](https://github.com/prometheus-community/elasticsearch_exporter) <span class='md-tag md-tag--info'>⭐ 2077</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Standard Prometheus-community exporter that queries Elasticsearch cluster health, shard counts, JVM memory usage, indexing metrics, and search latency times.
   - **(2021)** [sysdig.com: How to monitor an Oracle database with Prometheus. The OracleDB Prometheus exporter](https://www.sysdig.com/blog/monitor-oracle-database-prometheus) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates deploying the OracleDB Prometheus Exporter to parse system tables. Outlines collecting Oracle-specific metrics like tablespace storage usage, connection pool saturation, and SGA/PGA memory allocations.
 #### Discovery
 

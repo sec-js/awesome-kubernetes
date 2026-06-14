@@ -29,7 +29,7 @@
   - **(2024)** [github.com/dcasati/kubernetes-PlantUML](https://github.com/dcasati/kubernetes-PlantUML) <span class='md-tag md-tag--info'>⭐ 282</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An essential open-source library containing specialized sprites, components, and macro templates to model highly detailed, complex Kubernetes configurations using PlantUML syntax.
 #### Python Tooling
 
-  - **(2026)** [==mingrammer/diagrams==](https://github.com/mingrammer/diagrams) <span class='md-tag md-tag--info'>⭐ 42348</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly popular open-source Python framework that allows engineers to write cloud infrastructure diagrams directly as Python code. It supports hundreds of built-in components covering AWS, GCP, Azure, and Kubernetes services.
+  - **(2026)** [==mingrammer/diagrams==](https://github.com/mingrammer/diagrams) <span class='md-tag md-tag--info'>⭐ 42349</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly popular open-source Python framework that allows engineers to write cloud infrastructure diagrams directly as Python code. It supports hundreds of built-in components covering AWS, GCP, Azure, and Kubernetes services.
 ### Visualization
 
 #### 3D Isometric

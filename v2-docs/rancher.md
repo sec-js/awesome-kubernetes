@@ -75,7 +75,7 @@
   - **(2024)** [k3s_hetzner](https://gitlab.com/k3s_hetzner/k3s_hetzner) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly optimized Terraform and shell module to quickly provision high-availability, low-cost K3s clusters on Hetzner Cloud virtual infrastructure, including private network bridging.
 #### SSH Bootstrapping
 
-  - **(2026)** [****k3sup (said 'ketchup')****](https://github.com/alexellis/k3sup) <span class='md-tag md-tag--info'>⭐ 7384</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An utility by Alex Ellis using SSH to provision K3s directly from local machines. It sets up secure, direct API configurations, bridges cluster nodes instantly, and configures target servers for operational readiness.
+  - **(2026)** [****k3sup (said 'ketchup')****](https://github.com/alexellis/k3sup) <span class='md-tag md-tag--info'>⭐ 7383</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An utility by Alex Ellis using SSH to provision K3s directly from local machines. It sets up secure, direct API configurations, bridges cluster nodes instantly, and configures target servers for operational readiness.
 ### Hardware
 
 #### Raspberry Pi
@@ -123,7 +123,7 @@
 
 #### Ansible Automation
 
-  - **(2024)** [**techno-tim/k3s-ansible**](https://github.com/timothystewart6/k3s-ansible) <span class='md-tag md-tag--info'>⭐ 2985</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight highlights k3s-ansible as a widely adopted playbook for HA K3s deployments. Live grounding in 2026 shows that while still highly useful for bare-metal home labs and edge clusters, active maintainer shifts require users to cross-verify configuration options against newer Ansible collections. It remains a reliable solution for provisioning multi-master etcd setups and edge nodes.
+  - **(2024)** [**techno-tim/k3s-ansible**](https://github.com/timothystewart6/k3s-ansible) <span class='md-tag md-tag--info'>⭐ 2986</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight highlights k3s-ansible as a widely adopted playbook for HA K3s deployments. Live grounding in 2026 shows that while still highly useful for bare-metal home labs and edge clusters, active maintainer shifts require users to cross-verify configuration options against newer Ansible collections. It remains a reliable solution for provisioning multi-master etcd setups and edge nodes.
 ### Kubernetes Provisioning
 
 #### AutoK3s

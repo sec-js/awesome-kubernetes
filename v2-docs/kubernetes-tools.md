@@ -33,11 +33,11 @@
   - [downloadkubernetes.com: Download Kubernetes 🌟](https://www.downloadkubernetes.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ramitsurana/awesome-kubernetes: Tools 🌟](https://github.com/ramitsurana/awesome-kubernetes#configuration) <span class='md-tag md-tag--info'>⭐ 15992</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [KSS - Kubernetes pod status on steroid](https://github.com/chmouel/kss) <span class='md-tag md-tag--info'>⭐ 43</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [kubectl-tree](https://github.com/ahmetb/kubectl-tree) <span class='md-tag md-tag--info'>⭐ 3383</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [kubectl-tree](https://github.com/ahmetb/kubectl-tree) <span class='md-tag md-tag--info'>⭐ 3386</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [Kubecle](https://github.com/rydogs/kubecle) <span class='md-tag md-tag--info'>⭐ 57</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Permission Manager 🌟](https://github.com/sighupio/permission-manager) <span class='md-tag md-tag--info'>⭐ 1370</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Permission Manager 🌟](https://github.com/sighupio/permission-manager) <span class='md-tag md-tag--info'>⭐ 1371</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloudnatively.com: Kubernetes client tools overview](https://www.cloudnatively.com/kubernetes-client-tools-overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [kubectx + kubens: : Power tools for kubectl🌟🌟](https://github.com/ahmetb/kubectx) <span class='md-tag md-tag--info'>⭐ 19806</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [kubectx + kubens: : Power tools for kubectl🌟🌟](https://github.com/ahmetb/kubectx) <span class='md-tag md-tag--info'>⭐ 19807</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [go-kubectx](https://github.com/aca/go-kubectx)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubevious: application centric Kubernetes UI 🌟](https://kubevious.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [KubeStellar Console 🌟](https://console.kubestellar.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -83,7 +83,7 @@
   - [Cluster Turndown](https://github.com/kubecost/cluster-turndown) <span class='md-tag md-tag--info'>⭐ 286</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubergui: Kubernetes Deployment Builder🌟](https://github.com/BrandonPotter/kubergui) <span class='md-tag md-tag--info'>⭐ 91</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [fubectl](https://github.com/kubermatic/fubectl) <span class='md-tag md-tag--info'>⭐ 1002</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Authelia 🌟](https://github.com/authelia/authelia) <span class='md-tag md-tag--info'>⭐ 28043</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [Authelia 🌟](https://github.com/authelia/authelia) <span class='md-tag md-tag--info'>⭐ 28049</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [k8sdeploy](https://github.com/pyang55/k8sdeploy) <span class='md-tag md-tag--info'>⭐ 20</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [node-policy-webhook](https://github.com/softonic/node-policy-webhook) <span class='md-tag md-tag--info'>⭐ 17</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubeonoff](https://github.com/GambitResearch/kubeonoff) <span class='md-tag md-tag--info'>⭐ 24</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -161,7 +161,7 @@
   - [enterprisersproject.com: Kubernetes: 6 open source tools to put your cluster' to the test](https://enterprisersproject.com/article/2021/5/kubernetes-6-open-source-tools-to-test-clusters)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubectl-node-restart 🌟](https://github.com/MnrGreg/kubectl-node-restart) <span class='md-tag md-tag--info'>⭐ 109</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [k8s-platform-lcm: Kubernetes platform lifecycle management 🌟](https://github.com/arminc/k8s-platform-lcm) <span class='md-tag md-tag--info'>⭐ 182</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Nebula](https://github.com/slackhq/nebula) <span class='md-tag md-tag--info'>⭐ 17398</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [Nebula](https://github.com/slackhq/nebula) <span class='md-tag md-tag--info'>⭐ 17399</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [kube-bench 🌟](https://github.com/aquasecurity/kube-bench) <span class='md-tag md-tag--info'>⭐ 8078</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [kube-bench-exporter](https://github.com/yashvardhan-kukreja/kube-bench-exporter) <span class='md-tag md-tag--info'>⭐ 12</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Karmada](https://github.com/karmada-io/karmada) <span class='md-tag md-tag--info'>⭐ 5498</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
@@ -175,11 +175,11 @@
   - [forklift.konveyor.io 🌟](https://forklift.konveyor.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.com: Migrate virtual machines to Kubernetes with this new tool' - forklift 🌟](https://opensource.com/article/21/6/migrate-vms-kubernetes-forklift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubebox](https://github.com/astefanutti/kubebox) <span class='md-tag md-tag--info'>⭐ 2230</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [skooner - Kubernetes Dashboard](https://github.com/skooner-k8s/skooner) <span class='md-tag md-tag--info'>⭐ 1440</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [skooner - Kubernetes Dashboard](https://github.com/skooner-k8s/skooner) <span class='md-tag md-tag--info'>⭐ 1439</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Polaris](https://github.com/FairwindsOps/polaris) <span class='md-tag md-tag--info'>⭐ 3367</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [KTail: Kubernetes log viewer 🌟](https://www.ktail.de)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Manifesto 🌟](https://gitlab.com/jackatbancast/manifesto)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [SigNoz: Open source Application Performance Monitoring (APM) & Observability' tool 🌟](https://github.com/SigNoz/signoz) <span class='md-tag md-tag--info'>⭐ 27327</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [SigNoz: Open source Application Performance Monitoring (APM) & Observability' tool 🌟](https://github.com/SigNoz/signoz) <span class='md-tag md-tag--info'>⭐ 27330</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [port-map-operator](https://github.com/MOZGIII/port-map-operator) <span class='md-tag md-tag--info'>⭐ 28</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Raspbernetes - Kubernetes Cluster: k8s-gitops](https://github.com/xUnholy/k8s-gitops) <span class='md-tag md-tag--info'>⭐ 634</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kpexec](https://github.com/ssup2/kpexec) <span class='md-tag md-tag--info'>⭐ 270</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -203,7 +203,7 @@
   - [Minnaker](https://github.com/armory/minnaker) <span class='md-tag md-tag--info'>⭐ 156</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kubesurveyor 🌟](https://github.com/viralpoetry/kubesurveyor)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubectl-tmux-exec](https://github.com/predatorray/kubectl-tmux-exec) <span class='md-tag md-tag--info'>⭐ 141</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [grype: a vulnerability scanner for container images and filesystems](https://github.com/anchore/grype) <span class='md-tag md-tag--info'>⭐ 12394</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [grype: a vulnerability scanner for container images and filesystems](https://github.com/anchore/grype) <span class='md-tag md-tag--info'>⭐ 12400</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [KubeView 🌟](https://github.com/benc-uk/kubeview) <span class='md-tag md-tag--info'>⭐ 1201</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Rancher Desktop 🌟](https://github.com/rancher-sandbox/rancher-desktop) <span class='md-tag md-tag--info'>⭐ 7191</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [salesforce/Sloop - Kubernetes History Visualization 🌟](https://github.com/salesforce/sloop) <span class='md-tag md-tag--info'>⭐ 1579</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -218,7 +218,7 @@
   - [connaisseur](https://github.com/sse-secure-systems/connaisseur) <span class='md-tag md-tag--info'>⭐ 473</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ketall](https://github.com/corneliusweig/ketall) <span class='md-tag md-tag--info'>⭐ 751</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kube-scheduler-simulator](https://github.com/kubernetes-sigs/kube-scheduler-simulator) <span class='md-tag md-tag--info'>⭐ 1092</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [multus-cni 🌟](https://github.com/k8snetworkplumbingwg/multus-cni) <span class='md-tag md-tag--info'>⭐ 2881</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [multus-cni 🌟](https://github.com/k8snetworkplumbingwg/multus-cni) <span class='md-tag md-tag--info'>⭐ 2882</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kim - The Kubernetes Image Manager](https://github.com/rancher/kim) <span class='md-tag md-tag--info'>⭐ 321</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [KUDO: The Kubernetes Universal Declarative Operator 🌟](https://kudo.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [K8sPurger 🌟](https://github.com/yogeshkk/K8sPurger) <span class='md-tag md-tag--info'>⭐ 256</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -247,14 +247,14 @@
   - [biosimulations/deployment](https://github.com/biosimulations/deployment) <span class='md-tag md-tag--info'>⭐ 3</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [chrislusf/seaweedfs](https://github.com/chrislusf/seaweedfs) <span class='md-tag md-tag--info'>⭐ 26</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [DaspawnW/vault-crd](https://github.com/DaspawnW/vault-crd) <span class='md-tag md-tag--info'>⭐ 175</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [stakater/Reloader 🌟](https://github.com/stakater/Reloader) <span class='md-tag md-tag--info'>⭐ 10134</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [stakater/Reloader 🌟](https://github.com/stakater/Reloader) <span class='md-tag md-tag--info'>⭐ 10133</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [dignajar/another-ldap](https://github.com/dignajar/another-ldap) <span class='md-tag md-tag--info'>⭐ 51</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [anchore/syft](https://github.com/anchore/syft) <span class='md-tag md-tag--info'>⭐ 9100</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [anchore/syft](https://github.com/anchore/syft) <span class='md-tag md-tag--info'>⭐ 9106</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [chr-fritz/csi-sshfs](https://github.com/chr-fritz/csi-sshfs) <span class='md-tag md-tag--info'>⭐ 30</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ctrox/csi-s3](https://github.com/ctrox/csi-s3) <span class='md-tag md-tag--info'>⭐ 831</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [codesenberg/bombardier 🌟](https://github.com/codesenberg/bombardier) <span class='md-tag md-tag--info'>⭐ 6796</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [fstab/cifs](https://github.com/fstab/cifs) <span class='md-tag md-tag--info'>⭐ 218</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [bloomberg/goldpinger 🌟](https://github.com/bloomberg/goldpinger) <span class='md-tag md-tag--info'>⭐ 2706</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [bloomberg/goldpinger 🌟](https://github.com/bloomberg/goldpinger) <span class='md-tag md-tag--info'>⭐ 2707</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [haxsaw/hikaru 🌟](https://github.com/haxsaw/hikaru) <span class='md-tag md-tag--info'>⭐ 210</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ofek/csi-gcs](https://github.com/ofek/csi-gcs) <span class='md-tag md-tag--info'>⭐ 159</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [target/pod-reaper](https://github.com/target/pod-reaper) <span class='md-tag md-tag--info'>⭐ 210</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -281,7 +281,7 @@
   - [keisku/kubectl-explore](https://github.com/keisku/kubectl-explore) <span class='md-tag md-tag--info'>⭐ 599</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [abahmed/kwatch](https://github.com/abahmed/kwatch) <span class='md-tag md-tag--info'>⭐ 1010</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cuber-cloud/cuber-gem: CUBER](https://github.com/cuber-cloud/cuber-gem) <span class='md-tag md-tag--info'>⭐ 714</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [eldadru/ksniff 🌟](https://github.com/eldadru/ksniff) <span class='md-tag md-tag--info'>⭐ 3473</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [eldadru/ksniff 🌟](https://github.com/eldadru/ksniff) <span class='md-tag md-tag--info'>⭐ 3472</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [openclarity/kubeclarity](https://github.com/openclarity/kubeclarity) <span class='md-tag md-tag--info'>⭐ 44</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@ryan.dardis: KubeClarity — Cloud-Native Security Scanning for' your Kubernetes Cluster and more](https://medium.com/@ryan.dardis/kubeclarity-cloud-native-security-scanning-for-your-kubernetes-cluster-and-more-7c3ee6a16556)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [NimbleArchitect/kubectl-ice 🌟](https://github.com/NimbleArchitect/kubectl-ice) <span class='md-tag md-tag--info'>⭐ 255</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -317,7 +317,7 @@
   - [github.com/chenjiandongx/kubectl-count](https://github.com/chenjiandongx/kubectl-count) <span class='md-tag md-tag--info'>⭐ 39</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/rothgar/bashScheduler](https://github.com/rothgar/bashScheduler)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes-sigs/kwok](https://github.com/kubernetes-sigs/kwok) <span class='md-tag md-tag--info'>⭐ 3124</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [github.com/squat/kilo](https://github.com/squat/kilo) <span class='md-tag md-tag--info'>⭐ 2262</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/squat/kilo](https://github.com/squat/kilo) <span class='md-tag md-tag--info'>⭐ 2263</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/krateoplatformops/krateo](https://github.com/krateoplatformops/krateo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/jwcesign/kubespider](https://github.com/jwcesign/kubespider)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [faun.pub: A browser based remote desktop solution on kubernetes](https://faun.pub/a-browser-based-remote-desktop-solution-on-kubernetes-d6b3d33e73b6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -352,15 +352,15 @@
   - [github.com/yonahd/kor](https://github.com/yonahd/kor) <span class='md-tag md-tag--info'>⭐ 1798</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [granted.dev](https://www.granted.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/Trolley-MGMT/trolleymgmt](https://github.com/Trolley-MGMT/trolleymgmt) <span class='md-tag md-tag--info'>⭐ 113</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/akuity/kargo](https://github.com/akuity/kargo) <span class='md-tag md-tag--info'>⭐ 3351</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [github.com/Wilfred/difftastic](https://github.com/Wilfred/difftastic) <span class='md-tag md-tag--info'>⭐ 25486</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [github.com/akuity/kargo](https://github.com/akuity/kargo) <span class='md-tag md-tag--info'>⭐ 3350</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [github.com/Wilfred/difftastic](https://github.com/Wilfred/difftastic) <span class='md-tag md-tag--info'>⭐ 25488</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [github.com/kubernetes/git-sync ⭐](https://github.com/kubernetes/git-sync) <span class='md-tag md-tag--info'>⭐ 2704</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/kubepug/kubepug: Deprecations AKA KubePug - Pre UpGrade (Checker)' ⭐](https://github.com/kubepug/kubepug) <span class='md-tag md-tag--info'>⭐ 1836</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/kubepug/kubepug: Deprecations AKA KubePug - Pre UpGrade (Checker)' ⭐](https://github.com/kubepug/kubepug) <span class='md-tag md-tag--info'>⭐ 1835</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/hcavarsan/kftray ⭐](https://github.com/hcavarsan/kftray) <span class='md-tag md-tag--info'>⭐ 1524</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/kubetail-org/kubetail 🌟](https://github.com/kubetail-org/kubetail) <span class='md-tag md-tag--info'>⭐ 1720</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kubetail 🌟](https://github.com/johanhaleby/kubetail) <span class='md-tag md-tag--info'>⭐ 3489</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [Stern 🌟](https://github.com/stern/stern) <span class='md-tag md-tag--info'>⭐ 4731</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [github.com/portainer/portainer](https://github.com/portainer/portainer) <span class='md-tag md-tag--info'>⭐ 37716</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [Stern 🌟](https://github.com/stern/stern) <span class='md-tag md-tag--info'>⭐ 4733</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [github.com/portainer/portainer](https://github.com/portainer/portainer) <span class='md-tag md-tag--info'>⭐ 37719</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [github.com/kubecfg/kubecfg](https://github.com/kubecfg/kubecfg) <span class='md-tag md-tag--info'>⭐ 255</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [zhimin-wen.medium.com: Curl as a Network Protocol Testing Tool](https://zhimin-wen.medium.com/curl-as-a-network-protocol-testing-tool-7f49151ea365)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kcp: a prototype of a Kubernetes API server that is not a Kubernetes cluster' - a place to create, update, and maintain Kube-like APIs with controllers above or without clusters](https://github.com/kcp-dev/kcp) <span class='md-tag md-tag--info'>⭐ 2785</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -389,13 +389,13 @@
   - [blog.logrocket.com: Intro to KubeVela: A better way to ship applications](https://blog.logrocket.com/kubevela-intro-better-way-ship-applications)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [px.dev: Pixie](https://px.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [docs.pixielabs.ai: Pixie](https://docs.pixielabs.ai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com: Pixie - Instant Kubernetes-Native Application Observability](https://github.com/pixie-io/pixie) <span class='md-tag md-tag--info'>⭐ 6463</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [github.com: Pixie - Instant Kubernetes-Native Application Observability](https://github.com/pixie-io/pixie) <span class='md-tag md-tag--info'>⭐ 6462</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [developers.redhat.com: Using Dekorate to generate Kubernetes manifests for' Java applications](https://developers.redhat.com/blog/2021/03/17/using-dekorate-to-generate-kubernetes-manifests-for-java-applications)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/cyberark/kubesploit 🌟](https://github.com/cyberark/kubesploit) <span class='md-tag md-tag--info'>⭐ 1226</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cyberark.com: Kubesploit: A New Offensive Tool for Testing Containerized' Environments](https://www.cyberark.com/resources/threat-research-blog/kubesploit-a-new-offensive-tool-for-testing-containerized-environments)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kubeshop 🌟](https://kubeshop.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [venturebeat.com: Kubeshop wants to be a Kubernetes product pipeline](https://venturebeat.com/2021/09/17/kubeshop-wants-to-be-a-kubernetes-product-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Meshery](https://github.com/meshery/meshery) <span class='md-tag md-tag--info'>⭐ 10277</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [Meshery](https://github.com/meshery/meshery) <span class='md-tag md-tag--info'>⭐ 10278</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [Exploring Kubernetes Pods with Meshery](https://docs.meshery.io/guides/tutorials/kubernetes-pods)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubeshop/monokle](https://github.com/kubeshop/monokle) <span class='md-tag md-tag--info'>⭐ 2138</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/kubeshop-i: Monokle 1.5.0 Release](https://medium.com/kubeshop-i/monokle-1-5-0-release-kubeshop-95f574563c79)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -425,7 +425,7 @@
   - [moule3053/mck8s](https://github.com/moule3053/mck8s) <span class='md-tag md-tag--info'>⭐ 73</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [shipwright-io/build: shipwright](https://github.com/shipwright-io/build) <span class='md-tag md-tag--info'>⭐ 810</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [telekom/das-schiff](https://github.com/telekom/das-schiff) <span class='md-tag md-tag--info'>⭐ 366</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [NetMaker](https://github.com/gravitl/netmaker) <span class='md-tag md-tag--info'>⭐ 11629</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [NetMaker](https://github.com/gravitl/netmaker) <span class='md-tag md-tag--info'>⭐ 11628</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [Karpenter](https://karpenter.sh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [techcrunch.com: AWS launches Karpenter, an open source autoscaler for Kubernetes' clusters](https://techcrunch.com/2021/11/30/aws-launches-karpenter-an-open-source-autoscaler-for-kubernetes-clusters)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Karpenter: Open-Source, High-Performance Kubernetes Cluster Autoscaler](https://itnext.io/karpenter-open-source-high-performance-kubernetes-cluster-autoscaler-d56e3ab06aae)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -477,9 +477,9 @@
   - [blog.werf.io: werf v1.2 is now stable! Here’s what it is all about](https://blog.werf.io/werf-v1-2-is-now-stable-heres-what-it-is-all-about-832ed647810f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.werf.io: Deploying Helm charts with dependencies in Kubernetes via' werf](https://blog.werf.io/deploying-helm-charts-with-dependencies-in-kubernetes-via-werf-17e5457cdd3f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [aquasecurity/starboard](https://github.com/aquasecurity/starboard) <span class='md-tag md-tag--info'>⭐ 1375</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [nicolaka/netshoot](https://github.com/nicolaka/netshoot) <span class='md-tag md-tag--info'>⭐ 10771</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [nicolaka/netshoot](https://github.com/nicolaka/netshoot) <span class='md-tag md-tag--info'>⭐ 10773</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [syntasso/kratix](https://github.com/syntasso/kratix) <span class='md-tag md-tag--info'>⭐ 753</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [grpc-ecosystem/grpc-gateway: gRPC-Gateway](https://github.com/grpc-ecosystem/grpc-gateway) <span class='md-tag md-tag--info'>⭐ 19919</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [grpc-ecosystem/grpc-gateway: gRPC-Gateway](https://github.com/grpc-ecosystem/grpc-gateway) <span class='md-tag md-tag--info'>⭐ 19918</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [blog.logrocket.com: An all-in-one guide to gRPC-Gateway](https://blog.logrocket.com/guide-to-grpc-gateway)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [teamcode-inc/kubeorbit](https://github.com/teamcode-inc/kubeorbit) <span class='md-tag md-tag--info'>⭐ 454</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [vcluster.com](https://www.vcluster.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -493,7 +493,7 @@
   - [medium.com/linux-shots: ConfigMap Reloader — Automatically reload new data' from ConfigMap/Secret to deployments](https://medium.com/linux-shots/configmap-secret-reloader-automatically-add-reload-data-from-configmap-secret-to-deployments-dc245e06b92c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kluctl.io 🌟](https://kluctl.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/sl1pm4t/k2tf: Kubernetes YAML to Terraform HCL converter](https://github.com/sl1pm4t/k2tf) <span class='md-tag md-tag--info'>⭐ 1229</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [PaloAltoNetworks/rbac-police](https://github.com/PaloAltoNetworks/rbac-police) <span class='md-tag md-tag--info'>⭐ 352</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [PaloAltoNetworks/rbac-police](https://github.com/PaloAltoNetworks/rbac-police) <span class='md-tag md-tag--info'>⭐ 353</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [m9sweeper/m9sweeper](https://github.com/m9sweeper/m9sweeper) <span class='md-tag md-tag--info'>⭐ 264</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/reddec/keycloak-ext-operator](https://github.com/reddec/keycloak-ext-operator) <span class='md-tag md-tag--info'>⭐ 23</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [purelb/purelb](https://gitlab.com/purelb/purelb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -517,13 +517,13 @@
   - [infrahq/infra 🌟](https://github.com/infrahq/infra) <span class='md-tag md-tag--info'>⭐ 1461</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/we-dcode/kubetunnel](https://github.com/we-dcode/kubetunnel) <span class='md-tag md-tag--info'>⭐ 200</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [tanka](https://github.com/grafana/tanka) <span class='md-tag md-tag--info'>⭐ 2670</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [kubevirt](https://github.com/kubevirt/kubevirt) <span class='md-tag md-tag--info'>⭐ 6899</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [kubeinvaders](https://github.com/lucky-sideburn/kubeinvaders) <span class='md-tag md-tag--info'>⭐ 1106</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [kubevirt](https://github.com/kubevirt/kubevirt) <span class='md-tag md-tag--info'>⭐ 6900</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [kubeinvaders](https://github.com/lucky-sideburn/kubeinvaders) <span class='md-tag md-tag--info'>⭐ 1107</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [mlrun](https://github.com/mlrun/mlrun) <span class='md-tag md-tag--info'>⭐ 1672</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [odigos](https://github.com/odigos-io/odigos) <span class='md-tag md-tag--info'>⭐ 3658</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [odigos](https://github.com/odigos-io/odigos) <span class='md-tag md-tag--info'>⭐ 3657</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [Grafana OnCall OSS](https://grafana.com/oss/oncall)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [RBAC Wizard: Herramienta para visualizar y analizar la configuración RBAC' de Kubernetes](https://t.…)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Bank Vaults: Un Cuchillo Suizo para HashiCorp Vault en Kubernetes](https://github.com/bank-vaults/bank-vaults) <span class='md-tag md-tag--info'>⭐ 2253</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Bank Vaults: Un Cuchillo Suizo para HashiCorp Vault en Kubernetes](https://github.com/bank-vaults/bank-vaults) <span class='md-tag md-tag--info'>⭐ 2254</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [K3s vs Talos Linux](https://faun.pub/k3s-vs-talos-linux-8a1e0dce9a77)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Atomic ConfigMap Updates in Kubernetes: How Symlinks and Kubelet Make It' Happen](https://medium.com/itnext/atomic-configmap-updates-in-kubernetes-how-symlinks-and-kubelet-make-it-happen-21a44338c247)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ASCIIFlow](https://asciiflow.com/#)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -560,7 +560,7 @@
 
 #### Developer Platforms
 
-  - **(2022)** [acorn-io/acorn](https://github.com/obot-platform/obot) <span class='md-tag md-tag--info'>⭐ 825</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Acorn, which evolved towards the Obot platform under its maintainers, is a container-native application deployment framework. It simplifies standard Kubernetes complexity, packaging microservices, networks, and storage into clean, self-contained runtimes.
+  - **(2022)** [acorn-io/acorn](https://github.com/obot-platform/obot) <span class='md-tag md-tag--info'>⭐ 828</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Acorn, which evolved towards the Obot platform under its maintainers, is a container-native application deployment framework. It simplifies standard Kubernetes complexity, packaging microservices, networks, and storage into clean, self-contained runtimes.
 #### SaaS Provisioning
 
 ##### Operators
@@ -637,7 +637,7 @@
 
 #### Desktop Clients
 
-  - **(2024)** [**FreeLens**](https://github.com/freelensapp/freelens) <span class='md-tag md-tag--info'>⭐ 5145</span> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — FreeLens is a lightweight, open-source alternative desktop client for managing Kubernetes clusters. It provides platform operators with real-time visual telemetry and container log streams, optimizing daily operational tasks without complex terminal overhead.
+  - **(2024)** [**FreeLens**](https://github.com/freelensapp/freelens) <span class='md-tag md-tag--info'>⭐ 5146</span> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — FreeLens is a lightweight, open-source alternative desktop client for managing Kubernetes clusters. It provides platform operators with real-time visual telemetry and container log streams, optimizing daily operational tasks without complex terminal overhead.
   - **(2025)** [Kubeterm: Graphical Management Tool for Kubernetes](https://github.com/kbterm/kubeterm) <span class='md-tag md-tag--info'>⭐ 211</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source desktop client designed to simplify Kubernetes administration and performance monitoring. By rendering graphical resource mappings, it significantly lowers the cognitive load required to debug deployments, services, and complex namespaces.
 ## Configuration
 
@@ -659,7 +659,7 @@
 
 #### Cloud Emulation
 
-  - **(2024)** [==Floci - An AWS Local Emulator Alternative==](https://github.com/floci-io/floci) <span class='md-tag md-tag--info'>⭐ 14044</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An active and highly performant local alternative to localstack. Emulates AWS cloud service behavior locally using specialized lightweight container footprints.
+  - **(2024)** [==Floci - An AWS Local Emulator Alternative==](https://github.com/floci-io/floci) <span class='md-tag md-tag--info'>⭐ 14060</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An active and highly performant local alternative to localstack. Emulates AWS cloud service behavior locally using specialized lightweight container footprints.
 ## Continuous Integration and Delivery
 
 ### Cloud Native CI-CD
@@ -725,7 +725,7 @@
 
 #### Go Development
 
-  - **(2018)** [==Ko: Easy Go Containers 🌟==](https://github.com/ko-build/ko) <span class='md-tag md-tag--info'>⭐ 8451</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A fast, lightweight container image builder custom-tailored for Go applications. ko builds and publishes images without requiring a local Docker daemon, producing secure, minimal distroless-base images by default.
+  - **(2018)** [==Ko: Easy Go Containers 🌟==](https://github.com/ko-build/ko) <span class='md-tag md-tag--info'>⭐ 8450</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A fast, lightweight container image builder custom-tailored for Go applications. ko builds and publishes images without requiring a local Docker daemon, producing secure, minimal distroless-base images by default.
 ### Learning Resources
 
 #### Curated Lists
@@ -742,7 +742,7 @@
 
 #### AI Optimization
 
-  - **(2024)** [**OpenOps: No-Code FinOps Automation Platform with AI**](https://github.com/openops-cloud/openops) <span class='md-tag md-tag--info'>⭐ 1034</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An open-source, no-code platform utilizing AI to identify and automate cloud cost optimizations. Connects directly with Kubernetes metrics to suggest sizing adjustments and automatically remove unused resources.
+  - **(2024)** [**OpenOps: No-Code FinOps Automation Platform with AI**](https://github.com/openops-cloud/openops) <span class='md-tag md-tag--info'>⭐ 1035</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An open-source, no-code platform utilizing AI to identify and automate cloud cost optimizations. Connects directly with Kubernetes metrics to suggest sizing adjustments and automatically remove unused resources.
 ### Kubernetes FinOps
 
 #### Tooling
@@ -790,7 +790,7 @@
 
 #### Image Building (1)
 
-  - **(2026)** [==kaniko==](https://github.com/GoogleContainerTools/kaniko) <span class='md-tag md-tag--info'>⭐ 15769</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kaniko is an open-source tool developed by Google to build container images from Dockerfiles inside containerized environments (like Kubernetes) without requiring a privileged Docker daemon. It executes each instruction in the Dockerfile entirely in user space, avoiding risky Docker-in-Docker (DinD) security practices. Kaniko remains a de facto standard tool for secure, isolated cloud-native CI/CD build environments.
+  - **(2026)** [==kaniko==](https://github.com/GoogleContainerTools/kaniko) <span class='md-tag md-tag--info'>⭐ 15768</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kaniko is an open-source tool developed by Google to build container images from Dockerfiles inside containerized environments (like Kubernetes) without requiring a privileged Docker daemon. It executes each instruction in the Dockerfile entirely in user space, avoiding risky Docker-in-Docker (DinD) security practices. Kaniko remains a de facto standard tool for secure, isolated cloud-native CI/CD build environments.
 ### Control Plane
 
 #### etcd Management
@@ -812,7 +812,7 @@
 
 #### Hardware Integration
 
-  - **(2026)** [==NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes==](https://github.com/NVIDIA/k8s-device-plugin) <span class='md-tag md-tag--info'>⭐ 3789</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — This specialized DaemonSet exposes physical GPU properties to the local kubelet node manager. Operating as the essential link for hardware-accelerated workloads, it handles task-scheduling configurations and sets device-isolation runtimes so container systems can safely slice and access host GPU hardware.
+  - **(2026)** [==NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes==](https://github.com/NVIDIA/k8s-device-plugin) <span class='md-tag md-tag--info'>⭐ 3788</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — This specialized DaemonSet exposes physical GPU properties to the local kubelet node manager. Operating as the essential link for hardware-accelerated workloads, it handles task-scheduling configurations and sets device-isolation runtimes so container systems can safely slice and access host GPU hardware.
 ## Infrastructure and Platform
 
 ### Kubernetes Tooling
@@ -897,7 +897,7 @@
 
 #### AppOps and GitOps
 
-  - **(2025)** [==Devtron==](https://github.com/devtron-labs/devtron) <span class='md-tag md-tag--info'>⭐ 5511</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive, open-source AppOps platform for Kubernetes designed to consolidate CI/CD pipelines, GitOps, observability, and cost optimization. Provides self-service deployment interfaces, security checks, and deep resource validation for multicluster operations.
+  - **(2025)** [==Devtron==](https://github.com/devtron-labs/devtron) <span class='md-tag md-tag--info'>⭐ 5513</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive, open-source AppOps platform for Kubernetes designed to consolidate CI/CD pipelines, GitOps, observability, and cost optimization. Provides self-service deployment interfaces, security checks, and deep resource validation for multicluster operations.
 ## Kubernetes and Scaling
 
 ### Advanced Scaling
@@ -925,7 +925,7 @@
 
 #### Serverless ML
 
-  - **(2019)** [==KFServing 🌟==](https://github.com/kserve/kserve) <span class='md-tag md-tag--info'>⭐ 5571</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — KServe (formerly KFServing) provides a highly performant, serverless machine learning inference platform on Kubernetes. It abstracts raw routing, scaling, and GPU configurations, supporting frameworks like TensorFlow, PyTorch, and ONNX.
+  - **(2019)** [==KFServing 🌟==](https://github.com/kserve/kserve) <span class='md-tag md-tag--info'>⭐ 5573</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — KServe (formerly KFServing) provides a highly performant, serverless machine learning inference platform on Kubernetes. It abstracts raw routing, scaling, and GPU configurations, supporting frameworks like TensorFlow, PyTorch, and ONNX.
 ## Multi-Cluster
 
 ### Service Management
@@ -1040,7 +1040,7 @@
   - **(2020)** [kube-burner 🌟](https://github.com/kube-burner/kube-burner) <span class='md-tag md-tag--info'>⭐ 773</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized performance and orchestration tool designed to stress-test Kubernetes clusters. It automates object creation, monitors cluster health in real time via Prometheus, and measures scheduling latency at scale.
 #### Observability (2)
 
-  - **(2021)** [==ddosify/ddosify==](https://github.com/getanteon/anteon) <span class='md-tag md-tag--info'>⭐ 8529</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Rebranded from Ddosify to Anteon, this is a high-performance, developer-centric network load-testing and observability platform. It allows simulating high concurrency to benchmark REST APIs, HTTP endpoints, and Kubernetes workloads.
+  - **(2021)** [==ddosify/ddosify==](https://github.com/getanteon/anteon) <span class='md-tag md-tag--info'>⭐ 8528</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Rebranded from Ddosify to Anteon, this is a high-performance, developer-centric network load-testing and observability platform. It allows simulating high concurrency to benchmark REST APIs, HTTP endpoints, and Kubernetes workloads.
 #### Stress Testing
 
   - **(2021)** [openshift: Introducing kube-burner, A tool to Burn Down Kubernetes and OpenShift 🌟](https://www.redhat.com/en/blog/introducing-kube-burner-a-tool-to-burn-down-kubernetes-and-openshift) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat's official announcement and architectural breakdown of kube-burner. It covers how the tool enables platform engineers to benchmark OpenShift and standard Kubernetes cluster limits by automating mass resource creation and metric collection.
@@ -1120,7 +1120,7 @@
 
 #### Batch Workloads (1)
 
-  - **(2020)** [Armada](https://github.com/armadaproject/armada) <span class='md-tag md-tag--info'>⭐ 599</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-throughput, multi-cluster batch queuing system built on top of Kubernetes. Armada manages tens of thousands of concurrent jobs across geographically distributed clusters, optimized for machine learning and quantitative analysis.
+  - **(2020)** [Armada](https://github.com/armadaproject/armada) <span class='md-tag md-tag--info'>⭐ 600</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-throughput, multi-cluster batch queuing system built on top of Kubernetes. Armada manages tens of thousands of concurrent jobs across geographically distributed clusters, optimized for machine learning and quantitative analysis.
 ## Security
 
 ### CICD Security
@@ -1191,7 +1191,7 @@
   - **(2024)** [**The Kubernetes Goat**](https://github.com/madhuakula/kubernetes-goat) <span class='md-tag md-tag--info'>⭐ 5674</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The premier interactive security training platform containing an intentionally vulnerable Kubernetes cluster. Designed as an educational sandbox to demonstrate real-world cluster vulnerabilities, RBAC privilege escalations, metadata exposure, and container breakout exploits.
 #### Post-Deployment Scanning
 
-  - **(2025)** [==kubescape==](https://github.com/kubescape/kubescape) <span class='md-tag md-tag--info'>⭐ 11481</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An active CNCF Sandbox tool providing multi-framework configuration scanning, risk analysis, and vulnerability management. It integrates into CI/CD pipelines to ensure continuous verification of compliance frameworks (like CIS and NSA-CISA). Essential for enterprise teams seeking unified security visibility.
+  - **(2025)** [==kubescape==](https://github.com/kubescape/kubescape) <span class='md-tag md-tag--info'>⭐ 11480</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An active CNCF Sandbox tool providing multi-framework configuration scanning, risk analysis, and vulnerability management. It integrates into CI/CD pipelines to ensure continuous verification of compliance frameworks (like CIS and NSA-CISA). Essential for enterprise teams seeking unified security visibility.
 ### Vulnerability Scanning
 
 #### Runtime Security (2)
@@ -1203,7 +1203,7 @@
 
 #### Model Context Protocol
 
-  - **(2024)** [==Tabularis: Open Source Desktop Client for Modern Databases with AI and MCP' Integration==](https://github.com/TabularisDB/tabularis/blob/main/README.es.md) <span class='md-tag md-tag--info'>⭐ 2418</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source desktop database client featuring Model Context Protocol (MCP) integrations. This compliance allows local LLMs to safely query, analyze, and update database schemas within strict user security boundaries.
+  - **(2024)** [==Tabularis: Open Source Desktop Client for Modern Databases with AI and MCP' Integration==](https://github.com/TabularisDB/tabularis/blob/main/README.es.md) <span class='md-tag md-tag--info'>⭐ 2422</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source desktop database client featuring Model Context Protocol (MCP) integrations. This compliance allows local LLMs to safely query, analyze, and update database schemas within strict user security boundaries.
 ## Storage
 
 ### Kubernetes Storage

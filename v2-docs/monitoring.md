@@ -100,17 +100,17 @@
   - [Krossboard](https://krossboard.app)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Krossboard: A centralized usage analytics approach for multiple Kubernetes](https://itnext.io/in-search-of-converged-usage-analytics-for-multiple-managed-kubernetes-c5108cb7f0e1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloudbees.com: Automated Build and Deploy Feedback Using Jenkins and Instana' 🌟](https://www.cloudbees.com/blog/automated-build-deploy-feedback-using-instana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Netdata](https://github.com/netdata/netdata) <span class='md-tag md-tag--info'>⭐ 79142</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
-  - [PM2](https://github.com/Unitech/pm2) <span class='md-tag md-tag--info'>⭐ 43211</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
-  - [Huginn](https://github.com/huginn/huginn) <span class='md-tag md-tag--info'>⭐ 49463</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
-  - [OS Query](https://github.com/osquery/osquery) <span class='md-tag md-tag--info'>⭐ 23308</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
-  - [Glances](https://github.com/nicolargo/glances) <span class='md-tag md-tag--info'>⭐ 32820</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [Netdata](https://github.com/netdata/netdata) <span class='md-tag md-tag--info'>⭐ 79146</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [PM2](https://github.com/Unitech/pm2) <span class='md-tag md-tag--info'>⭐ 43210</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [Huginn](https://github.com/huginn/huginn) <span class='md-tag md-tag--info'>⭐ 49466</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [OS Query](https://github.com/osquery/osquery) <span class='md-tag md-tag--info'>⭐ 23311</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [Glances](https://github.com/nicolargo/glances) <span class='md-tag md-tag--info'>⭐ 32824</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [TDengine](https://github.com/taosdata/TDengine) <span class='md-tag md-tag--info'>⭐ 24903</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [stackpulse.com: Automated Kubernetes Pod Restarting Analysis with StackPulse](https://stackpulse.com/blog/automated-kubernetes-pod-restarting-analysis-with-stackpulse)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Checkly](https://www.checklyhq.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hashicorp.com: Monitoring as Code with Terraform Cloud and Checkly](https://www.hashicorp.com/blog/monitoring-as-code-with-terraform-cloud-and-checkly)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [OpenTelemetry (OTel) vs Application Performance Monitoring (APM)](https://medium.com/@rahul.fiem/opentelemetry-otel-vs-application-performance-monitoring-apm-86ae829877cf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [SigNoz: Open source Application Performance Monitoring (APM) & Observability' tool 🌟](https://github.com/SigNoz/signoz) <span class='md-tag md-tag--info'>⭐ 27327</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [SigNoz: Open source Application Performance Monitoring (APM) & Observability' tool 🌟](https://github.com/SigNoz/signoz) <span class='md-tag md-tag--info'>⭐ 27330</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
 ## Architecture
 
@@ -261,7 +261,7 @@
 
 #### Observability and UI
 
-  - **(2023)** [==Kafdrop – Kafka Web UI 🌟==](https://github.com/obsidiandynamics/kafdrop) <span class='md-tag md-tag--info'>⭐ 6138</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kafdrop is a popular, lightweight web UI for monitoring and managing Apache Kafka clusters. It renders real-time views of brokers, topic structures, partition offsets, consumer group lag, and permits active JSON/protobuf message payload inspection.
+  - **(2023)** [==Kafdrop – Kafka Web UI 🌟==](https://github.com/obsidiandynamics/kafdrop) <span class='md-tag md-tag--info'>⭐ 6137</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kafdrop is a popular, lightweight web UI for monitoring and managing Apache Kafka clusters. It renders real-time views of brokers, topic structures, partition offsets, consumer group lag, and permits active JSON/protobuf message payload inspection.
 ## Infrastructure (1)
 
 ### Performance Testing
@@ -276,7 +276,7 @@
 
 #### Resources
 
-  - **(2026)** [==Awesome Sysadmin==](https://github.com/awesome-foss/awesome-sysadmin) <span class='md-tag md-tag--info'>⭐ 34227</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exhaustive curation of open-source sysadmin resources, listing production-ready system monitors, configuration management tools, security suites, and virtualization frameworks used globally by SREs.
+  - **(2026)** [==Awesome Sysadmin==](https://github.com/awesome-foss/awesome-sysadmin) <span class='md-tag md-tag--info'>⭐ 34269</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exhaustive curation of open-source sysadmin resources, listing production-ready system monitors, configuration management tools, security suites, and virtualization frameworks used globally by SREs.
 ## Observability (7)
 
 ### APM and Logging
@@ -339,7 +339,7 @@
   - **(2018)** [opensource.com: Distributed tracing in a microservices world](https://opensource.com/article/18/9/distributed-tracing-microservices-world) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains the architectural necessity of distributed tracing inside modern microservice mesh environments, outlining how it visualizes service dependency networks and identifies downstream latency.
 #### OpenTelemetry Operator
 
-  - **(2021)** [==github.com/open-telemetry/opentelemetry-operator==](https://github.com/open-telemetry/opentelemetry-operator) <span class='md-tag md-tag--info'>⭐ 1716</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kubernetes operator for automating the deployment and management of the OpenTelemetry Collector. Simplifies application instrumentation via automated inject mechanisms for Java, NodeJS, Python, and Dotnet, facilitating declarative telemetry pipeline management across clusters.
+  - **(2021)** [==github.com/open-telemetry/opentelemetry-operator==](https://github.com/open-telemetry/opentelemetry-operator) <span class='md-tag md-tag--info'>⭐ 1717</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kubernetes operator for automating the deployment and management of the OpenTelemetry Collector. Simplifies application instrumentation via automated inject mechanisms for Java, NodeJS, Python, and Dotnet, facilitating declarative telemetry pipeline management across clusters.
 #### Research
 
   - **(2010)** [Dapper](https://research.google/pubs/dapper-a-large-scale-distributed-systems-tracing-infrastructure) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google's seminal research paper on large-scale distributed systems tracing infrastructure. Formed the theoretical basis and design patterns for modern tracing architectures including Zipkin, Jaeger, and OpenTelemetry.
@@ -453,7 +453,7 @@
 
 #### Uptime-Kuma
 
-  - **(2021)** [==louislam/uptime-kuma==](https://github.com/louislam/uptime-kuma) <span class='md-tag md-tag--info'>⭐ 87970</span> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly popular self-hosted synthetic monitoring tool written in Node.js. It features multi-protocol ping, HTTP/TCP checks, certificate monitoring, integration with multi-channel alert providers, and highly intuitive dashboards, serving as a lightweight alternative to commercial APM and uptime tools.
+  - **(2021)** [==louislam/uptime-kuma==](https://github.com/louislam/uptime-kuma) <span class='md-tag md-tag--info'>⭐ 87985</span> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly popular self-hosted synthetic monitoring tool written in Node.js. It features multi-protocol ping, HTTP/TCP checks, certificate monitoring, integration with multi-channel alert providers, and highly intuitive dashboards, serving as a lightweight alternative to commercial APM and uptime tools.
 ## Performance Engineering
 
 ### Profiling

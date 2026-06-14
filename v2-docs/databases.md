@@ -73,7 +73,7 @@
 
 #### ClickHouse
 
-  - **(2024)** [==Altinity/clickhouse-operator==](https://github.com/Altinity/clickhouse-operator) <span class='md-tag md-tag--info'>⭐ 2521</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The enterprise standard ClickHouse Operator developed by Altinity. Automates the deployment, provisioning, scaling, configuration, and monitoring of high-throughput columnar databases inside Kubernetes environments.
+  - **(2024)** [==Altinity/clickhouse-operator==](https://github.com/Altinity/clickhouse-operator) <span class='md-tag md-tag--info'>⭐ 2520</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The enterprise standard ClickHouse Operator developed by Altinity. Automates the deployment, provisioning, scaling, configuration, and monitoring of high-throughput columnar databases inside Kubernetes environments.
   - **(2021)** [==radondb/radondb-clickhouse-kubernetes==](https://github.com/radondb/radondb-clickhouse-kubernetes) <span class='md-tag md-tag--info'>⭐ 86</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — RadonDB's legacy operator and integration configurations for orchestrating ClickHouse OLAP environments. Highly useful as a historic reference for custom columnar database operators.
 #### MySQL
 
@@ -467,7 +467,7 @@
   - **(2020)** [thenewstack.io: Maria DB Gets Reactive with a Non-Blocking Connector for Java](https://thenewstack.io/maria-db-gets-reactive-with-a-non-blocking-connector-for-java) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores MariaDB's reactive Java driver. Details how non-blocking I/O operations and asynchronous connections improve database throughput in highly concurrent microservice runtimes.
 ### Git-for-Data
 
-  - **(2026)** [==github.com/dolthub/dolt==](https://github.com/dolthub/dolt) <span class='md-tag md-tag--info'>⭐ 23418</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An innovative SQL database implementing Git-style version control concepts (clone, push, pull, branch, merge) over table structures and data cells. Perfect for decentralized collaborative data management pipelines.
+  - **(2026)** [==github.com/dolthub/dolt==](https://github.com/dolthub/dolt) <span class='md-tag md-tag--info'>⭐ 23419</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An innovative SQL database implementing Git-style version control concepts (clone, push, pull, branch, merge) over table structures and data cells. Perfect for decentralized collaborative data management pipelines.
 ### Local Development (1)
 
   - **(2022)** [thenewstack.io: Deploy MySQL and phpMyAdmin with Docker](https://thenewstack.io/deploy-mysql-and-phpmyadmin-with-docker) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Practical tutorial for setting up local developer environments with Docker Compose. Pairs a standard MySQL instance with phpMyAdmin for rapid schema prototyping and database visualization.
@@ -553,7 +553,7 @@
 
 #### Model Context Protocol
 
-  - **(2024)** [==Tabularis: Open Source Desktop Client for Modern Databases with AI and MCP' Integration==](https://github.com/TabularisDB/tabularis/blob/main/README.es.md) <span class='md-tag md-tag--info'>⭐ 2418</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source desktop database client featuring Model Context Protocol (MCP) integrations. This compliance allows local LLMs to safely query, analyze, and update database schemas within strict user security boundaries.
+  - **(2024)** [==Tabularis: Open Source Desktop Client for Modern Databases with AI and MCP' Integration==](https://github.com/TabularisDB/tabularis/blob/main/README.es.md) <span class='md-tag md-tag--info'>⭐ 2422</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source desktop database client featuring Model Context Protocol (MCP) integrations. This compliance allows local LLMs to safely query, analyze, and update database schemas within strict user security boundaries.
 ### Testing
 
 #### Mocking

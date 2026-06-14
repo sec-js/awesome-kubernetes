@@ -164,7 +164,7 @@
 
 #### Scalable TSDB
 
-  - **(2022)** [==github.com/grafana/mimir==](https://github.com/grafana/mimir) <span class='md-tag md-tag--info'>⭐ 5125</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Grafana Mimir is a highly scalable, multi-tenant database for long-term Prometheus metrics storage. Engineered to easily process billions of active series with fast query performance and operational isolation.
+  - **(2022)** [==github.com/grafana/mimir==](https://github.com/grafana/mimir) <span class='md-tag md-tag--info'>⭐ 5124</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Grafana Mimir is a highly scalable, multi-tenant database for long-term Prometheus metrics storage. Engineered to easily process billions of active series with fast query performance and operational isolation.
 ### User Experience Monitoring
 
 #### Frontend Observability

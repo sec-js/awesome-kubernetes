@@ -108,7 +108,7 @@
   - **(2021)** [xenonstack.com: Serverless Architecture with OpenFaaS and Java](https://www.xenonstack.com/blog/serverless-open-faas-java) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Evaluates using JVM workloads within OpenFaaS, detailing compilation strategies, framework footprint reduction, and optimizing startup latency for container pods.
 #### OpenFunction
 
-  - **(2026)** [**OpenFunction: Cloud Native Function-as-a-Service Platform (CNCF Sandbox' Project)**](https://github.com/OpenFunction/OpenFunction) <span class='md-tag md-tag--info'>⭐ 1656</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A CNCF Sandbox project delivering an enterprise-grade cloud-native FaaS runtime. Integrates Knative, Shipwright, Dapr, and KEDA components to simplify polyglot development pipelines.
+  - **(2026)** [**OpenFunction: Cloud Native Function-as-a-Service Platform (CNCF Sandbox' Project)**](https://github.com/OpenFunction/OpenFunction) <span class='md-tag md-tag--info'>⭐ 1655</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A CNCF Sandbox project delivering an enterprise-grade cloud-native FaaS runtime. Integrates Knative, Shipwright, Dapr, and KEDA components to simplify polyglot development pipelines.
 ### Microservice Runtimes
 
 #### Dapr

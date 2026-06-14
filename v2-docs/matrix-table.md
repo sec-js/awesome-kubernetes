@@ -23,7 +23,7 @@
 
 #### SSH Bootstrapping
 
-  - **(2026)** [****k3sup (said 'ketchup')****](https://github.com/alexellis/k3sup) <span class='md-tag md-tag--info'>⭐ 7384</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An utility by Alex Ellis using SSH to provision K3s directly from local machines. It sets up secure, direct API configurations, bridges cluster nodes instantly, and configures target servers for operational readiness.
+  - **(2026)** [****k3sup (said 'ketchup')****](https://github.com/alexellis/k3sup) <span class='md-tag md-tag--info'>⭐ 7383</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An utility by Alex Ellis using SSH to provision K3s directly from local machines. It sets up secure, direct API configurations, bridges cluster nodes instantly, and configures target servers for operational readiness.
 ## Edge Computing
 
 ### Operating Systems
@@ -42,7 +42,7 @@
 
 #### Edge and IoT (1)
 
-  - **(2023)** [==xiaods/k8e==](https://github.com/xiaods/k8e) <span class='md-tag md-tag--info'>⭐ 450</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A lightweight Kubernetes distribution (k8e, standing for "k8s easy") modeled after K3s but strictly adhering to standard upstream components. It is tailored for low-resource edge architectures, CI environments, and hobbyist networks requiring low memory profiles and simple setups.
+  - **(2023)** [==xiaods/k8e==](https://github.com/xiaods/k8e) <span class='md-tag md-tag--info'>⭐ 449</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A lightweight Kubernetes distribution (k8e, standing for "k8s easy") modeled after K3s but strictly adhering to standard upstream components. It is tailored for low-resource edge architectures, CI environments, and hobbyist networks requiring low memory profiles and simple setups.
 ## Local Development
 
 ### Kubernetes Environments
@@ -61,7 +61,7 @@
 
 #### Minikube
 
-  - **(2026)** [==Minikube==](https://github.com/kubernetes/minikube) <span class='md-tag md-tag--info'>⭐ 31870</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Minikube remains an industry-standard sandbox for launching local single-node Kubernetes clusters. Supports diverse VM drivers, bare-metal deployment modes, and native Docker-in-Docker execution environments tailored for application testing.
+  - **(2026)** [==Minikube==](https://github.com/kubernetes/minikube) <span class='md-tag md-tag--info'>⭐ 31871</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Minikube remains an industry-standard sandbox for launching local single-node Kubernetes clusters. Supports diverse VM drivers, bare-metal deployment modes, and native Docker-in-Docker execution environments tailored for application testing.
 ## Networking and Security
 
 ### Kubernetes Networking
@@ -83,7 +83,7 @@
 
 #### Enterprise Playbooks
 
-  - **(2026)** [==**Kubespray**==](https://github.com/kubernetes-sigs/kubespray) <span class='md-tag md-tag--info'>⭐ 18557</span> <span class='md-tag md-tag--warning'>[PYTHON/ANSIBLE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The industry standard Ansible automation framework for deploying enterprise-ready, production-grade clusters. Combining Kubeadm with highly flexible, battle-tested playbooks, it handles network policy deployment (CNIs like Calico/Cilium), storage classes, node lifecycle operations, and multi-distribution OS configurations.
+  - **(2026)** [==**Kubespray**==](https://github.com/kubernetes-sigs/kubespray) <span class='md-tag md-tag--info'>⭐ 18556</span> <span class='md-tag md-tag--warning'>[PYTHON/ANSIBLE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The industry standard Ansible automation framework for deploying enterprise-ready, production-grade clusters. Combining Kubeadm with highly flexible, battle-tested playbooks, it handles network policy deployment (CNIs like Calico/Cilium), storage classes, node lifecycle operations, and multi-distribution OS configurations.
 #### Roles
 
   - **(2026)** [==Ansible Role - Kubernetes (Jeff Geerling)==](https://github.com/geerlingguy/ansible-role-kubernetes) <span class='md-tag md-tag--info'>⭐ 626</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Jeff Geerling's highly popular, community-standard Ansible role designed to automate core system dependencies, swap disabling, package installations, and initial Kubeadm commands on Debian and RedHat distributions, simplifying playbooks deployment.
@@ -96,7 +96,7 @@
 
 #### AWS
 
-  - **(2026)** [==GitHub: Kubernetes Cluster with Kops==](https://github.com/kubernetes/kops) <span class='md-tag md-tag--info'>⭐ 16626</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kubernetes Operations (kops) is a production-grade orchestration tool designed to configure, scale, and manage highly available clusters on public cloud environments. Its declarative structure manages cloud instances, security groups, route tables, and internal etcd scaling configurations directly, primarily focusing on AWS.
+  - **(2026)** [==GitHub: Kubernetes Cluster with Kops==](https://github.com/kubernetes/kops) <span class='md-tag md-tag--info'>⭐ 16625</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kubernetes Operations (kops) is a production-grade orchestration tool designed to configure, scale, and manage highly available clusters on public cloud environments. Its declarative structure manages cloud instances, security groups, route tables, and internal etcd scaling configurations directly, primarily focusing on AWS.
 ### GitOps
 
 #### Legacy Tools

@@ -6,6 +6,7 @@
 ## Standard Reference
 
   - [**uncontained.io**: External Jenkins Integration 🌟](http://v1.uncontained.io/playbooks/continuous_delivery/external-jenkins-integration.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github - fabric8, maven plugin](https://github.com/fabric8io/fabric8-maven-plugin) <span class='md-tag md-tag--info'>⭐ 334</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: jenkins cicd getting started with groovy and docker](https://medium.com/@fvtool/jenkins-cicd-getting-started-with-groovy-and-docker-containers-part-2-b03a1b934a49)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [OCP 4.2 - Jenkins image](https://docs.openshift.com/container-platform/4.2/openshift_images/using_images/images-other-jenkins-agent.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone: 4 ways to build applications in openshift](https://dzone.com/articles/4-ways-to-build-applications-in-openshift-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
