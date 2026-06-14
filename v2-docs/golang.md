@@ -32,18 +32,15 @@
 #### Design Patterns
 
   - [ebosas/microservices](https://github.com/ebosas/microservices) <span class='md-tag md-tag--info'>⭐ 309</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight showcases a reference architecture modeling an end-to-end microservices pattern in Go. Live Grounding reveals it as a practical template illustrating API Gateways, service registries, and gRPC communication loops.
-#### Distributed Application Runtime
-
-  - [dapr.io](https://dapr.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight presents Dapr as a portable, event-driven runtime that simplifies building resilient, distributed microservices. Live Grounding highlights its widespread enterprise adoption as a CNCF incubated project, offering sidecar APIs for state management, pub/sub, and service invocation across any cloud.
 #### Go Frameworks
 
-  - **(2025)** [==go-micro==](https://github.com/micro/go-micro) <span class='md-tag md-tag--info'>⭐ 22751</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight introduces go-micro as a distributed systems development framework providing key abstractions for microservices. Live Grounding notes its journey through corporate and open-source licensing changes, yet it remains a foundational toolkit for service discovery, RPC, and event-driven architectures in Go.
-  - [go-kratos/kratos](https://github.com/go-kratos/kratos) <span class='md-tag md-tag--info'>⭐ 25688</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight defines Kratos as a heavy-duty microservice framework for Go, designed for highly scalable web-scale systems. Live Grounding highlights its extensive use of gRPC/Protobuf-first code generation, integrated observability, and pluggable service discovery protocols.
+  - **(2025)** [==go-micro==](https://github.com/micro/go-micro) <span class='md-tag md-tag--info'>⭐ 22774</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight introduces go-micro as a distributed systems development framework providing key abstractions for microservices. Live Grounding notes its journey through corporate and open-source licensing changes, yet it remains a foundational toolkit for service discovery, RPC, and event-driven architectures in Go.
+  - [go-kratos/kratos](https://github.com/go-kratos/kratos) <span class='md-tag md-tag--info'>⭐ 25729</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight defines Kratos as a heavy-duty microservice framework for Go, designed for highly scalable web-scale systems. Live Grounding highlights its extensive use of gRPC/Protobuf-first code generation, integrated observability, and pluggable service discovery protocols.
 ### Networking
 
 #### Go High-Performance Network Libraries
 
-  - [gnet](https://github.com/panjf2000/gnet) <span class='md-tag md-tag--info'>⭐ 11156</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight highlights gnet as a high-performance, non-blocking, event-driven networking library built on top of epoll/kqueue. Live Grounding showcases its superiority over Go's standard net library for raw throughput and ultra-low latency, making it ideal for custom edge proxies and IoT gateways.
+  - [gnet](https://github.com/panjf2000/gnet) <span class='md-tag md-tag--info'>⭐ 11173</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight highlights gnet as a high-performance, non-blocking, event-driven networking library built on top of epoll/kqueue. Live Grounding showcases its superiority over Go's standard net library for raw throughput and ultra-low latency, making it ideal for custom edge proxies and IoT gateways.
 ## Business Applications
 
 ### Go Web Apps
@@ -79,10 +76,10 @@
 ##### Local Sandbox
 
   - [collabnix.com: Kubernetes CRUD Operation using Go on Docker Desktop](https://collabnix.com/kubernetes-crud-operation-using-go-on-docker-desktop)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight details setting up a local Docker Desktop Kubernetes instance and running basic CRUD client-go scripts. Live Grounding identifies this as an entry-level tutorial for engineers bridging local development with Kubernetes API fundamentals. It covers authentication via kubeconfig and resource life cycle actions.
-  - [iximiuz/client-go-examples](https://github.com/iximiuz/client-go-examples) <span class='md-tag md-tag--info'>⭐ 1114</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight gathers high-quality recipes illustrating direct usage of Kubernetes client-go. Live Grounding highlights its pedagogical design, illustrating dynamic clients, Typed clients, and standard Controller loops in easy-to-digest formats.
+  - [iximiuz/client-go-examples](https://github.com/iximiuz/client-go-examples) <span class='md-tag md-tag--info'>⭐ 1116</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight gathers high-quality recipes illustrating direct usage of Kubernetes client-go. Live Grounding highlights its pedagogical design, illustrating dynamic clients, Typed clients, and standard Controller loops in easy-to-digest formats.
 #### Testing Frameworks
 
-  - [kubernetes-sigs/e2e-framework](https://github.com/kubernetes-sigs/e2e-framework) <span class='md-tag md-tag--info'>⭐ 652</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight presents this official Kubernetes SIG framework for writing robust end-to-end tests for operators and controllers. Live Grounding highlights its structured step-by-step test phases, integrated kind cluster spin-up, and native client-go validation patterns.
+  - [kubernetes-sigs/e2e-framework](https://github.com/kubernetes-sigs/e2e-framework) <span class='md-tag md-tag--info'>⭐ 659</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight presents this official Kubernetes SIG framework for writing robust end-to-end tests for operators and controllers. Live Grounding highlights its structured step-by-step test phases, integrated kind cluster spin-up, and native client-go validation patterns.
 ### Kubernetes Observability
 
 #### Debugging Tools
@@ -106,22 +103,19 @@
 #### Advanced Projects
 
   - **(2022)** [blog.logrocket.com: How to build a blockchain from scratch with Go](https://blog.logrocket.com/build-blockchain-with-go) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A guide illustrating how to build a basic blockchain protocol in Go from scratch. Walks through cryptography, hashing, transaction processing, and basic consensus mechanism structures.
-#### Awesome Lists
-
-  - [Awesome Go 🌟](https://github.com/avelino/awesome-go) <span class='md-tag md-tag--info'>⭐ 173341</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive curated repository of high-quality Go frameworks, libraries, and software. Unmatched resource for identifying vetted dependencies for enterprise service development.
 #### Configuration Management
 
-  - [go-ini/ini](https://github.com/go-ini/ini) <span class='md-tag md-tag--info'>⭐ 3540</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A feature-rich, high-performance ini file parser for Go. Offers seamless serialization and deserialization, essential for managing localized configuration states in production environments.
+  - [go-ini/ini](https://github.com/go-ini/ini) <span class='md-tag md-tag--info'>⭐ 3542</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A feature-rich, high-performance ini file parser for Go. Offers seamless serialization and deserialization, essential for managing localized configuration states in production environments.
 #### Core Reference
 
-  - **(2020)** [github.com/paliimx: Data Structures and Algorithms implementation in Go](https://github.com/ua-nick/Data-Structures-and-Algorithms) <span class='md-tag md-tag--info'>⭐ 2774</span> <span class='md-tag md-tag--warning'>[ES CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Provides clear native Go implementations of foundational data structures and computer science algorithms. Excellent reference code for technical optimization tasks. [SPANISH CONTENT]
+  - **(2020)** [github.com/paliimx: Data Structures and Algorithms implementation in Go](https://github.com/ua-nick/Data-Structures-and-Algorithms) <span class='md-tag md-tag--info'>⭐ 2773</span> <span class='md-tag md-tag--warning'>[ES CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Provides clear native Go implementations of foundational data structures and computer science algorithms. Excellent reference code for technical optimization tasks. [SPANISH CONTENT]
   - **(2026)** [golang.org](https://go.dev) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official home of the Go programming language, designed for building simple, reliable, and highly efficient cloud-native software. Serves as the ultimate portal for runtime specifications and core packages.
-  - [github.com/golang/go](https://github.com/golang/go) <span class='md-tag md-tag--info'>⭐ 134018</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The open-source repository containing the implementation of the Go toolchain, compiler, and runtime. Underpins the entire modern container and cloud-native ecosystem (Docker, Kubernetes).
-  - [golang-design/history](https://github.com/golang-design/history) <span class='md-tag md-tag--info'>⭐ 1074</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An extensive curated historical archive documenting the design decisions, proposals, and development milestones of the Go programming language.
-  - [Golang for Node.js Developers](https://github.com/miguelmota/golang-for-nodejs-developers) <span class='md-tag md-tag--info'>⭐ 4773</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comparison manual translating Node.js practices and architectural paradigms into native Go-based idioms like goroutines, structures, and native channels.
-  - [The Ultimate Go Study Guide](https://github.com/hoanhan101/ultimate-go) <span class='md-tag md-tag--info'>⭐ 14910</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive handbook detailing memory layout, profiling, and concurrency semantics of Go. Features visual diagrams and deep-dives into mechanical sympathy concepts for high-performance engineering.
+  - [github.com/golang/go](https://github.com/golang/go) <span class='md-tag md-tag--info'>⭐ 134675</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The open-source repository containing the implementation of the Go toolchain, compiler, and runtime. Underpins the entire modern container and cloud-native ecosystem (Docker, Kubernetes).
+  - [golang-design/history](https://github.com/golang-design/history) <span class='md-tag md-tag--info'>⭐ 1076</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An extensive curated historical archive documenting the design decisions, proposals, and development milestones of the Go programming language.
+  - [Golang for Node.js Developers](https://github.com/miguelmota/golang-for-nodejs-developers) <span class='md-tag md-tag--info'>⭐ 4772</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comparison manual translating Node.js practices and architectural paradigms into native Go-based idioms like goroutines, structures, and native channels.
+  - [The Ultimate Go Study Guide](https://github.com/hoanhan101/ultimate-go) <span class='md-tag md-tag--info'>⭐ 14911</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive handbook detailing memory layout, profiling, and concurrency semantics of Go. Features visual diagrams and deep-dives into mechanical sympathy concepts for high-performance engineering.
   - [go.dev: A new search experience on pkg.go.dev](https://go.dev/blog/pkgsite-search-redesign) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Details the architectural redesign of the official Go package registry search. Highlights usability and indexing upgrades implemented to streamline package discovery for developers.
-  - [quii/learn-go-with-tests](https://github.com/quii/learn-go-with-tests) <span class='md-tag md-tag--info'>⭐ 23658</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An elite educational resource teaching Go fundamentals strictly through Test-Driven Development (TDD). Combines theoretical language semantics with highly disciplined, production-grade engineering habits.
+  - [quii/learn-go-with-tests](https://github.com/quii/learn-go-with-tests) <span class='md-tag md-tag--info'>⭐ 23696</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An elite educational resource teaching Go fundamentals strictly through Test-Driven Development (TDD). Combines theoretical language semantics with highly disciplined, production-grade engineering habits.
   - [dev.to: Getting started with Go-Lang](https://dev.to/treva123mutebi/getting-started-with-go-lang-1g0) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A basic introduction to the Go environment setup, variables, syntax, and package structures. Ideal for developers getting started with the language runtime.
   - [dev.to/mavensingh: Advantages and Disadvantages of Go](https://dev.to/mavensingh/advantages-and-disadvantages-of-go-5gha) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A high-level evaluation of Go's strengths (such as concurrency models and compiling speeds) balanced against its notable limits, such as strict syntax structures and historical generic compromises.
   - [dev.to: Getting Started With Go (golang) | Michael Levan](https://dev.to/thenjdevopsguy/getting-started-with-go-golang-5eh8) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides DevOps engineers with an approachable blueprint to learn Go. Teaches syntax foundations, environmental variable setups, and building basic utility CLIs.
@@ -156,33 +150,33 @@
 
 #### Go Libraries
 
-  - **(2025)** [**volatiletech/sqlboiler**](https://github.com/aarondl/sqlboiler) <span class='md-tag md-tag--info'>⭐ 6992</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight frames SQLBoiler as a database-first generator tool producing type-safe Go ORM code from database schemas. Live Grounding confirms its widespread production usage where performance and strict static typing are preferred over runtime-reflective ORMs like GORM.
+  - **(2025)** [**volatiletech/sqlboiler**](https://github.com/aarondl/sqlboiler) <span class='md-tag md-tag--info'>⭐ 6990</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight frames SQLBoiler as a database-first generator tool producing type-safe Go ORM code from database schemas. Live Grounding confirms its widespread production usage where performance and strict static typing are preferred over runtime-reflective ORMs like GORM.
 ## DevOps Tools
 
 ### Templating
 
 #### Go Templates
 
-  - [Masterminds/sprig: Sprig: Template functions for Go templates](https://github.com/Masterminds/sprig) <span class='md-tag md-tag--info'>⭐ 4713</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight presents Sprig as a comprehensive library of template functions for Go, heavily utilized in Helm charts. Live Grounding confirms its status as an industry-standard dependency for dynamic Helm manifest generation, though recent development has shifted to maintenance mode.
+  - [Masterminds/sprig: Sprig: Template functions for Go templates](https://github.com/Masterminds/sprig) <span class='md-tag md-tag--info'>⭐ 4721</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight presents Sprig as a comprehensive library of template functions for Go, heavily utilized in Helm charts. Live Grounding confirms its status as an industry-standard dependency for dynamic Helm manifest generation, though recent development has shifted to maintenance mode.
 ## Media Utilities
 
 ### Go Applications
 
 #### CLI Downloaders
 
-  - [github.com/iawia002/lux 🌟](https://github.com/iawia002/lux) <span class='md-tag md-tag--info'>⭐ 31371</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight describes Lux (formerly Annie) as a fast, concurrent video downloader written in Go supporting multiple global media platforms. Live Grounding shows its vast popularity due to its high speed, multiple output formats, and clean concurrent implementation.
+  - [github.com/iawia002/lux 🌟](https://github.com/iawia002/lux) <span class='md-tag md-tag--info'>⭐ 31408</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight describes Lux (formerly Annie) as a fast, concurrent video downloader written in Go supporting multiple global media platforms. Live Grounding shows its vast popularity due to its high speed, multiple output formats, and clean concurrent implementation.
 ### Go Packages
 
 #### YouTube Downloader
 
-  - [kkdai/youtube](https://github.com/kkdai/youtube) <span class='md-tag md-tag--info'>⭐ 3887</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight identifies this package as a popular Go library and CLI for downloading YouTube videos. Live Grounding verifies it actively handles the ever-shifting signature and decryption schemas deployed by YouTube to maintain reliable media extraction.
+  - [kkdai/youtube](https://github.com/kkdai/youtube) <span class='md-tag md-tag--info'>⭐ 3899</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight identifies this package as a popular Go library and CLI for downloading YouTube videos. Live Grounding verifies it actively handles the ever-shifting signature and decryption schemas deployed by YouTube to maintain reliable media extraction.
 ## Programming Languages
 
 ### Go (1)
 
 #### Code Generators
 
-  - [mholt/json-to-go](https://github.com/mholt/json-to-go) <span class='md-tag md-tag--info'>⭐ 4621</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight presents json-to-go as a developer productivity tool that instantaneously translates JSON strings into Go struct definitions. Live Grounding highlights its enduring status as a daily utility for web backend engineers parsing complex APIs.
+  - [mholt/json-to-go](https://github.com/mholt/json-to-go) <span class='md-tag md-tag--info'>⭐ 4623</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight presents json-to-go as a developer productivity tool that instantaneously translates JSON strings into Go struct definitions. Live Grounding highlights its enduring status as a daily utility for web backend engineers parsing complex APIs.
   - [curl-to-go](https://mholt.github.io/curl-to-go)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight showcases this companion tool to json-to-go, converting curl commands directly into functional Go HTTP client code. Live Grounding confirms its usefulness in rapid prototyping of API clients by eliminating repetitive net/http boilerplate generation.
 #### Code Linters
 
@@ -195,32 +189,31 @@
   - [Delve: a debugger for the Go Programming Language](https://github.com/derekparker/delve) <span class='md-tag md-tag--info'>⭐ 663</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight frames Delve as the official, industry-standard debugger for Go, offering runtime state visibility. Live Grounding highlights its deep integration into JetBrains Goland, VSCode, and cloud-native containerized debugging workflows.
 #### Learning Resources
 
-  - [inancgumus/learngo 🌟](https://github.com/inancgumus/learngo) <span class='md-tag md-tag--info'>⭐ 20032</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight lists LearnGo as a massive collection of interactive tutorials, quizzes, and micro-projects to master Go. Live Grounding verifies its stellar reputation as one of the most visual and thorough education resources for Go developers worldwide.
+  - [inancgumus/learngo 🌟](https://github.com/inancgumus/learngo) <span class='md-tag md-tag--info'>⭐ 20055</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight lists LearnGo as a massive collection of interactive tutorials, quizzes, and micro-projects to master Go. Live Grounding verifies its stellar reputation as one of the most visual and thorough education resources for Go developers worldwide.
   - [Mathieu-Desrochers/Learning-Go](https://github.com/Mathieu-Desrochers/Learning-Go)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight covers personal coding exercises and challenges compiled while learning Go. Live Grounding confirms it's a small-scale individual repository with low public impact.
 #### Project Scaffolding
 
-  - [create-go-app/cli](https://github.com/create-go-app/cli) <span class='md-tag md-tag--info'>⭐ 2761</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight introduces this CLI to construct boilerplate-free backend, frontend, and web applications in Go. Live Grounding shows its capability to pre-configure deployment assets like Dockerfiles and Kubernetes manifests to quicken development cycles.
-#### Reference Docs
+  - [create-go-app/cli](https://github.com/create-go-app/cli) <span class='md-tag md-tag--info'>⭐ 2759</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight introduces this CLI to construct boilerplate-free backend, frontend, and web applications in Go. Live Grounding shows its capability to pre-configure deployment assets like Dockerfiles and Kubernetes manifests to quicken development cycles.
+#### Resources
 
-  - [devhints.io/go: Go cheatsheet](https://devhints.io/go) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights a concise, single-page reference sheet covering Go syntax, control flow, channels, and basic standard library interfaces. Live Grounding confirms this is a widely-used cheatsheet for quick syntax lookups during day-to-day coding. It is optimized for speed and readability.
-  - [github.com: golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Duplicate reference of the high-density Go cheat-sheet database. It provides programmatic access to Go fundamentals, standard functions, and syntax paradigms to streamline engineering workflows.
+  - **(2026)** [==Awesome Go 🌟==](https://github.com/avelino/awesome-go) <span class='md-tag md-tag--info'>⭐ 175350</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive curated repository of high-quality Go frameworks, libraries, and software. Unmatched resource for identifying vetted dependencies for enterprise service development. Ideal for building lightweight, hyper-fast microservices, Kubernetes operators, and cloud infrastructure CLI tools.
 #### Version Managers
 
-  - [gobrew 🌟](https://github.com/kevincobain2000/gobrew) <span class='md-tag md-tag--info'>⭐ 421</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights Gobrew as an elegant and fast Go version manager that downloads and switches active toolchains easily. Live Grounding notes its speed and simplicity, making it a competitive alternative to gvm and asdf for dedicated Go development.
+  - [gobrew 🌟](https://github.com/kevincobain2000/gobrew) <span class='md-tag md-tag--info'>⭐ 422</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights Gobrew as an elegant and fast Go version manager that downloads and switches active toolchains easily. Live Grounding notes its speed and simplicity, making it a competitive alternative to gvm and asdf for dedicated Go development.
 ## Public Cloud
 
 ### Google Cloud
 
 #### Go Samples
 
-  - [GoogleCloudPlatform/golang-samples: Sample apps and code written for Google' Cloud in the Go programming language.](https://github.com/GoogleCloudPlatform/golang-samples) <span class='md-tag md-tag--info'>⭐ 4622</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight outlines a large collection of idiomatic examples for utilizing Google Cloud APIs within Go applications. Live Grounding proves its importance for production engineering teams using services like BigQuery, Cloud Run, and GKE.
+  - [GoogleCloudPlatform/golang-samples: Sample apps and code written for Google' Cloud in the Go programming language.](https://github.com/GoogleCloudPlatform/golang-samples) <span class='md-tag md-tag--info'>⭐ 4624</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight outlines a large collection of idiomatic examples for utilizing Google Cloud APIs within Go applications. Live Grounding proves its importance for production engineering teams using services like BigQuery, Cloud Run, and GKE.
 ## Security
 
 ### Access Control
 
 #### Go Libraries (1)
 
-  - [cap](https://github.com/hashicorp/cap) <span class='md-tag md-tag--info'>⭐ 478</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight shows cap as HashiCorp's library to ease Linux capability handling in Go programs. Live Grounding highlights its integration in secure container-adjacent projects to enforce the principle of least privilege at the system-call level.
+  - [cap](https://github.com/hashicorp/cap) <span class='md-tag md-tag--info'>⭐ 479</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight shows cap as HashiCorp's library to ease Linux capability handling in Go programs. Live Grounding highlights its integration in secure container-adjacent projects to enforce the principle of least privilege at the system-call level.
 ### Secrets Management
 
 #### Go Libraries (2)
@@ -228,24 +221,24 @@
   - [dsa0x/sicher](https://github.com/dsa0x/sicher) <span class='md-tag md-tag--info'>⭐ 31</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight showcases Sicher as a lightweight tool for managing environment variables and secrets securely within Go applications. Live Grounding indicates low community activity and lack of recent updates, which makes it less suitable for production compared to established secure runtimes.
 ## Software Engineering
 
-### Developer Experience
+### Languages
 
-#### IDEs and Tooling
+#### Go (2)
 
-  - [IntelliJ vs. VSCode for Rust Development](https://users.rust-lang.org/t/anyone-here-go-intellij-vscode/84499)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Community-driven performance and usability evaluation contrasting IntelliJ Rust and VSCode (rust-analyzer) workflows. Discusses compilation feedback, macro expansion speeds, and debugging tool integrations.
-### NodeJS
+  - **(2025)** [github.com: golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-density Go reference database. It details Go core syntaxes, standard library definitions, channels, interface rules, and concurrency patterns to accelerate systems-level software development.
+### Web Development
 
-#### Best Practices
+#### NodeJS
 
-  - [NodeJS Best Practices (Spanish Translation)](https://github.com/goldbergyoni/nodebestpractices/blob/spanish-translation/README.spanish.md) <span class='md-tag md-tag--info'>⭐ 105273</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight hosts the comprehensive Spanish translation of the premier Node.js architecture and security handbook. Live Grounding validates its immense utility as an industry-standard guide covering testing, error handling, and production safety. [SPANISH CONTENT]
+  - **(2024)** [==NodeJS Best Practices (Spanish Translation)==](https://github.com/goldbergyoni/nodebestpractices/blob/spanish-translation/README.spanish.md) <span class='md-tag md-tag--info'>⭐ 105315</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Spanish localization of the leading Node.js architecture and security handbook. It offers comprehensive design blueprints covering error handling, clean architecture, security, production readiness, and testing guidelines for scalable enterprise systems.
 ## Utilities
 
 ### Go Tools (1)
 
 #### System Utilities
 
-  - [rehacktive/caffeine](https://github.com/rehacktive/caffeine) <span class='md-tag md-tag--info'>⭐ 1175</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight shows Caffeine as a simple Go command-line tool designed to prevent system sleep cycles. Live Grounding shows stable but quiet activity, functioning perfectly as an OS-level utility.
+  - [rehacktive/caffeine](https://github.com/rehacktive/caffeine) <span class='md-tag md-tag--info'>⭐ 1176</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight shows Caffeine as a simple Go command-line tool designed to prevent system sleep cycles. Live Grounding shows stable but quiet activity, functioning perfectly as an OS-level utility.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Visual Studio](./visual-studio.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 

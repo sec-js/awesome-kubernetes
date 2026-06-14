@@ -5,52 +5,94 @@
 
 ## Standard Reference
 
-  - [andrewlock.net: Series: Deploying ASP.NET Core applications to Kubernetes' with Helm 🌟](https://andrewlock.net/series/deploying-asp-net-core-applications-to-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [wikipedia.org: .NET](https://en.wikipedia.org/wiki/.NET)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: Three ways to containerize .NET applications on Red' Hat OpenShift](https://developers.redhat.com/blog/2021/03/16/three-ways-to-containerize-net-applications-on-red-hat-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: .NET 6 now available for RHEL and OpenShift](https://developers.redhat.com/articles/2021/11/15/net-60-now-available-rhel-and-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [telerik.com: Your First Microservice in .NET 6](https://www.telerik.com/blogs/your-first-microservice-dotnet-6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [stackify.com: Who will Dominate in the future: .Net or Java?](https://stackify.com/who-will-dominate-in-the-future-net-or-java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [devblogs.microsoft.com: Announcing Rate Limiting for .NET](https://devblogs.microsoft.com/dotnet/announcing-rate-limiting-for-dotnet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.jetbrains.com: Getting Started with ASP.NET Core and gRPC](https://blog.jetbrains.com/dotnet/2021/07/19/getting-started-with-asp-net-core-and-grpc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: Building a RESTful Service Using ASP.NET Core and dotConnect for' PostgreSQL](https://dzone.com/articles/building-a-restful-service-using-aspnet-core-and-d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [enlear.academy: Repository Pattern and Unit of Work with ASP.NET Core Web' API](https://enlear.academy/repository-pattern-and-unit-of-work-with-asp-net-core-web-api-6802e1aa4f78)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [itnext.io: How to Build an Event-Driven ASP.NET Core Microservice Architecture](https://itnext.io/how-to-build-an-event-driven-asp-net-core-microservice-architecture-e0ef2976f33f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [NuGet/docs.microsoft.com-nuget: nuspec](https://github.com/NuGet/docs.microsoft.com-nuget/blob/main/docs/reference/nuspec.md) <span class='md-tag md-tag--info'>⭐ 160</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [gist.github.com: Creating and Publishing NuGet Packages](https://gist.github.com/andykuszyk/a5ee80ae263e77f651bed878c1deb03b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [khalidabuhakmeh.com: A .NET 5.0 Guide: From Idea To NuGet Package](https://khalidabuhakmeh.com/a-dotnet-five-guide-from-idea-to-nuget-package)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [devblogs.microsoft.com: Getting Started with DevOps and .NET MAUI](https://devblogs.microsoft.com/dotnet/devops-for-dotnet-maui)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [App-vNext/Polly](https://github.com/App-vNext/Polly) <span class='md-tag md-tag--info'>⭐ 14171</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [medium: Microservices Resilience and Fault Tolerance with applying Retry' and Circuit-Breaker patterns using Polly](https://medium.com/aspnetrun/microservices-resilience-and-fault-tolerance-with-applying-retry-and-circuit-breaker-patterns-c32e518db990)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [procodeguide.com: Build Resilient Microservices (Web API) using Polly in' ASP.NET Core](https://procodeguide.com/programming/polly-in-aspnet-core)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Paradigm framework](https://www.paradigm.net.co)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Oakton](https://jasperfx.github.io/oakton)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Lamar](https://jasperfx.github.io/lamar)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [jeremydmiller.com: Self Diagnosing Deployments with Oakton and Lamar](https://jeremydmiller.com/2021/10/12/self-diagnosing-deployments-with-oakton-and-lamar)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dotnetcurry.com: Kubernetes for ASP.NET Core Developers – Introduction,' Architecture, Hands-On](https://www.dotnetcurry.com/aspnet-core/kubernetes-for-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Developer Tools
+## Application Development
 
-### AI Coding Assistants
+### .NET Framework
 
-#### .NET Integration
+#### API Security
 
-  - [Extend your coding agent with .NET Skills](https://devblogs.microsoft.com/dotnet/extend-your-coding-agent-with-dotnet-skills)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step instruction illustrating how to inject specialized .NET SDK contexts and compilation knowledge bases into autonomous coding agents to optimize C# generation pipelines.
-## Software Development
+  - **(2022)** [==devblogs.microsoft.com: Announcing Rate Limiting for .NET==](https://devblogs.microsoft.com/dotnet/announcing-rate-limiting-for-dotnet) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Introduces native, built-in rate-limiting middleware for ASP.NET Core. Explores implementing Token Bucket, Fixed Window, and Concurrency algorithms directly within modern APIs to safeguard microservices from traffic overloads.
+#### Architectural Guides
 
-### .NET
+  - **(2024)** [==docs.microsoft.com: .NET Microservices: Architecture for Containerized .NET Applications==](https://learn.microsoft.com/en-us/dotnet/architecture/microservices) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive architectural design guide for planning and building containerized .NET microservices. Focuses on Domain-Driven Design (DDD) principles, CQRS patterns, Outbox event delivery, and deployment best practices inside Docker environments.
+#### Blazor and Static Web Apps
 
-#### Architecture
+  - **(2022)** [**techcommunity.microsoft.com: Full-stack .NET 6 Apps with Blazor WebAssembly and Azure Static Web Apps**](https://techcommunity.microsoft.com/blog/appsonazureblog/full-stack-net-6-apps-with-blazor-webassembly-and-azure-static-web-apps/2933428) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Outlines deploying full-stack Blazor WebAssembly client applications with Azure Static Web Apps. Details integrated serverless API hosting using Azure Functions, explaining how this architecture reduces hosting costs compared to traditional VM models.
+#### Core Architecture
 
-  - **(2021)** [**techcommunity.microsoft.com: Full-stack .NET 6 Apps with Blazor WebAssembly and Azure Static Web Apps**](https://techcommunity.microsoft.com/blog/appsonazureblog/full-stack-net-6-apps-with-blazor-webassembly-and-azure-static-web-apps/2933428) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Explores building modern full-stack application suites utilizing Blazor WebAssembly and hosting them on Azure Static Web Apps. Details how the static assets run efficiently in the browser while securely integrating with serverless Azure Functions API endpoints. Ideal for lightweight web structures that demand high performance, rapid CI/CD, and global scale.
-#### Dependency Management
+  - **(2026)** [==wikipedia.org: .NET==](https://en.wikipedia.org/wiki/.NET) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — High-level reference outlining the modern cross-platform, open-source .NET framework. Explores how its high-performance runtime (CLR), optimized garbage collection, and fast JIT compiler make it suitable for modern container deployments.
+#### Ecosystem Comparisons
 
-  - **(2021)** [**devblogs.microsoft.com: Introducing Compatible Packages on NuGet.org**](https://devblogs.microsoft.com/dotnet/introducing-compatible-frameworks-on-nuget-org) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Introduces a NuGet package manager update that highlights framework compatibility, making package target evaluation straightforward. Explains how targeting netstandard, net6.0, and newer .NET TFMs reduces library selection friction. This functionality ensures dependency alignment during large-scale migration of microservice codebases.
-  - **(2022)** [syncfusion.com: 10 Best C# NuGet Packages to Improve Your Productivity in 2022](https://www.syncfusion.com/blogs/post/10-best-c-nuget-packages-to-improve-your-productivity-in-2022) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews 10 key NuGet packages that increase development speed and product quality in C# environments, including AutoMapper, Newtonsoft.Json, and Serilog. It explains how these libraries streamline routine operations like object mapping, data serialization, and advanced structured logging, improving overall software design patterns.
-#### Microservices
+  - **(2022)** [stackify.com: Who will Dominate in the future: .Net or Java?](https://stackify.com/who-will-dominate-in-the-future-net-or-java) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares performance metrics, runtime speeds, and support costs of .NET against Oracle Java. Analyzes how container optimizations, start-up times, and ecosystem tooling affect cloud resource efficiency.
+#### Event-Driven Microservices
 
-  - **(2024)** [==docs.microsoft.com: .NET Microservices: Architecture for Containerized .NET Applications==](https://learn.microsoft.com/en-us/dotnet/architecture/microservices) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The comprehensive blueprint for designing and deploying microservices-based architectures with .NET Core and .NET 8+. Focuses on domain-driven design (DDD), containerization, API gateways, database per microservice patterns, and CQRS implementations. Indispensable handbook for building robust, scalable enterprise cloud-native systems.
+  - **(2022)** [==itnext.io: How to Build an Event-Driven ASP.NET Core Microservice Architecture==](https://itnext.io/how-to-build-an-event-driven-asp-net-core-microservice-architecture-e0ef2976f33f) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Explains how to construct an event-driven ASP.NET Core microservices network using message brokers like RabbitMQ or Apache Kafka. Integrates clean architecture practices, transactional Outbox patterns, and retry strategies to ensure reliable messaging.
+#### Microservices Design
+
+  - **(2021)** [**telerik.com: Your First Microservice in .NET 6**](https://www.telerik.com/blogs/your-first-microservice-dotnet-6) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A hands-on guide to building a microservice using ASP.NET Core 6 Minimal APIs. Demonstrates how to write lightweight, highly optimized web APIs with minimal boilerplate code, perfect for deployment within containerized clusters.
+#### OpenShift Containers
+
+  - **(2021)** [**developers.redhat.com: Three ways to containerize .NET applications on Red Hat OpenShift**](https://developers.redhat.com/blog/2021/03/16/three-ways-to-containerize-net-applications-on-red-hat-openshift) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Details three distinct strategies to containerize and run .NET applications on Red Hat OpenShift. Evaluates the benefits of Dockerfile builds, Source-to-Image (S2I) pipelines, and deployment templates for enterprise scalability.
+#### RHEL Support
+
+  - **(2021)** [**developers.redhat.com: .NET 6 now available for RHEL and OpenShift**](https://developers.redhat.com/articles/2021/11/15/net-60-now-available-rhel-and-openshift) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Announces native Red Hat Enterprise Linux (RHEL) and OpenShift support for .NET 6. Focuses on pre-configured, secure container base images and integration setups that simplify enterprise deployments.
+#### gRPC Communication
+
+  - **(2021)** [**blog.jetbrains.com: Getting Started with ASP.NET Core and gRPC**](https://blog.jetbrains.com/dotnet/2021/07/19/getting-started-with-asp-net-core-and-grpc) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Presents a technical guide on configuring high-performance gRPC services using ASP.NET Core. Details protobuf schema creation, client generation, and HTTP/2 connection pooling to achieve ultra-low latency between microservices.
+## Cloud Infrastructure and Orchestration
+
+### Container Orchestration
+
+#### Kubernetes
+
+  - **(2021)** [dotnetcurry.com: Kubernetes for ASP.NET Core Developers – Introduction, Architecture, Hands-On](https://www.dotnetcurry.com/aspnet-core/kubernetes-for-developers) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An educational guide targeted at .NET architects migrating legacy backends to Kubernetes. Details fundamental infrastructure layers including Pods, ReplicaSets, Deployments, Services, and containerization pipelines using Docker.
+## Software Architecture and .NET Development
+
+### Application Diagnostics
+
+#### CLI Engines
+
+  - **(2025)** [Oakton](https://jasperfx.github.io/oakton) <span class='md-tag md-tag--warning'>[C# CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An robust CLI command parser and diagnostic middleware for .NET console applications. Enables advanced command-line tool structuring, service health assessments, and native execution hook extensions within standard ASP.NET Core hosts.
+#### Environment Validation
+
+  - **(2021)** [jeremydmiller.com: Self Diagnosing Deployments with Oakton and Lamar](https://jeremydmiller.com/2021/10/12/self-diagnosing-deployments-with-oakton-and-lamar) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Presents a design paradigm combining Lamar's compilation-safe IoC container with Oakton's self-diagnostics capability. Outlines systems validation strategies that trigger build failures if container registrations or service setups fail.
+#### IoC Containers
+
+  - **(2025)** [Lamar](https://jasperfx.github.io/lamar) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced, high-performance IoC container and assembly scanning engine compatible with Microsoft's DI standards. Leverages Roslyn-powered dynamic code compilation to optimize dependency resolution pathways in microservices.
+### Client Technologies
+
+#### CICD and DevOps
+
+  - **(2022)** [devblogs.microsoft.com: Getting Started with DevOps and .NET MAUI](https://devblogs.microsoft.com/dotnet/devops-for-dotnet-maui) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines continuous integration and continuous delivery patterns configured specifically for .NET MAUI multi-platform client applications. Walks through pipeline configuration across iOS, Android, and desktop build targets using GitHub Actions and Azure Pipelines.
+### Microservices
+
+#### Resilience Patterns
+
+  - **(2026)** [==App-vNext/Polly==](https://github.com/App-vNext/Polly) <span class='md-tag md-tag--info'>⭐ 14192</span> <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier resilient fault-handling library for the .NET ecosystem. Enables developers to configure sophisticated reliability policies including Retry, Circuit Breaker, Timeout, Bulkhead Isolation, and Fallback, acting as the bedrock for stable microservices.
+  - **(2022)** [procodeguide.com: Build Resilient Microservices (Web API) using Polly in ASP.NET Core](https://procodeguide.com/programming/polly-in-aspnet-core) <span class='md-tag md-tag--warning'>[C# CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides a hands-on architectural approach to integrating Polly policy frameworks inside ASP.NET Core Web APIs. Details proper HttpClientFactory patterns, fallback strategies, and configuring resilient endpoint routing.
+### Package Management
+
+#### Ecosystem Curation
+
+  - **(2022)** [syncfusion.com: 10 Best C# NuGet Packages to Improve Your Productivity in 2022](https://www.syncfusion.com/blogs/post/10-best-c-nuget-packages-to-improve-your-productivity-in-2022) <span class='md-tag md-tag--warning'>[C# CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated evaluation of top-tier NuGet packages designed to elevate developer productivity inside modern .NET enterprise ecosystems. Features utility frameworks covering high-speed serialization, deep-object mapping, unit testing extensions, logging, and database interfacing.
+#### NuGet Specification
+
+  - **(2026)** [NuGet/docs.microsoft.com-nuget: nuspec](https://github.com/NuGet/docs.microsoft.com-nuget/blob/main/docs/reference/nuspec.md) <span class='md-tag md-tag--info'>⭐ 160</span> <span class='md-tag md-tag--warning'>[XML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This reference specification details the .nuspec XML manifest schema governing NuGet packages. It provides structured guidance on targeting framework frameworks, orchestrating assembly dependencies, defining metadata, and managing compilation assemblies, acting as the foundational automation configuration schema for .NET artifact pipelines.
+  - **(2023)** [devblogs.microsoft.com: Introducing Compatible Packages on NuGet.org](https://devblogs.microsoft.com/dotnet/introducing-compatible-frameworks-on-nuget-org) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Details framework compatibility structures implemented by NuGet.org, facilitating cross-platform library discovery. Explains target framework resolution paradigms mapping dependencies across .NET Standard, .NET Core, and legacy frameworks.
+#### Publishing Workflows
+
+  - **(2023)** [gist.github.com: Creating and Publishing NuGet Packages](https://gist.github.com/andykuszyk/a5ee80ae263e77f651bed878c1deb03b) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A concise, developer-centric guide mapping the CLI workflows required to construct and publish NuGet packages. Explores packing commands, validation, local server configuration, target registry configuration, and security practices for handling API keys.
+  - **(2020)** [khalidabuhakmeh.com: A .NET 5.0 Guide: From Idea To NuGet Package](https://khalidabuhakmeh.com/a-dotnet-five-guide-from-idea-to-nuget-package) <span class='md-tag md-tag--warning'>[C# CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth guide detailing library creation from conceptual design down to artifact compilation in .NET. Focuses on setting up proper SDK project styles, automating versioning, target framework multi-targeting rules, and optimizing continuous integration for deployment.
+### Web Frameworks
+
+#### Microservices (1)
+
+  - **(2024)** [Paradigm framework](https://www.paradigm.net.co) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source development platform designed to facilitate rapid, highly structured .NET microservice engineering. Standardizes dependency configurations, modular architectures, data mapping protocols, and enterprise repository patterns.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Visual Studio](./visual-studio.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 

@@ -3,32 +3,21 @@
 !!! info "Architectural Context"
     Detailed reference for CI/CD Kubernetes Plugins in the context of Engineering Pipeline.
 
-## Continuous Delivery
+## CICD
 
 ### GitOps
 
-#### GitLab
+#### GitLab Integration
 
-  - [**GitLab Kubernetes Agent**](https://docs.gitlab.com/user/clusters/agent) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The GitLab Agent for Kubernetes. Establishes a secure pull-based GitOps connection inside the cluster, avoiding external security exposures.
-## Continuous Integration
+  - **(2024)** [==GitLab Kubernetes Agent==](https://docs.gitlab.com/user/clusters/agent) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A secure, bidirectional, and active cluster integration agent (now known as the GitLab Agent for Kubernetes) that enables enterprise GitOps workflows. Operating inside the target cluster, it pulls configurations from Git repositories, avoiding the security risk of exposing Kube-apiserver endpoints to external CI runners.
+## Software Engineering
 
-### CI Tools
+### Collaborative Platforms
 
-#### Jenkins
+#### Kubernetes Integration
 
-  - [openshift-pipeline](https://plugins.jenkins.io/openshift-pipeline) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Allows direct deployment integrations inside Red Hat OpenShift pipelines via Jenkins, automating image building and pipeline orchestrations.
-  - [openshift-sync](https://plugins.jenkins.io/openshift-sync) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Synchronizes OpenShift environment configs, secrets, build limits, and pod templates automatically to ensure consistent CI runner execution.
-  - [openshift-client](https://plugins.jenkins.io/openshift-client) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Exposes OpenShift's command-line tool definitions directly inside Jenkins jobs, enabling custom script actions to command remote clusters safely.
-  - [Jenkins Kubernetes Plugin](https://plugins.jenkins.io/kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The critical Kubernetes integration for Jenkins, executing dynamic agents directly inside cluster pods. Solves pipeline scale issues by tearing down runner instances upon build completion.
-  - [Kubernetes Continuous Deploy](https://plugins.jenkins.io/kubernetes-cd) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A traditional Jenkins plugin for deploying build outputs to Kubernetes. Note: Has fallen out of favor in modern GitOps-centric continuous delivery pipelines.
-## DevOps and CICD
-
-### GitLab Platforms
-
-#### Container Registries
-
-  - **(2021)** [about.gitlab.com: GitLab 14.1 released with Helm Chart Registry and Escalation Policies](https://docs.gitlab.com/releases/#gitlab-kubernetes-agent-available-on-gitlabcom) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Covers GitLab's 14.1 release, which integrated a built-in Helm Chart Registry directly into its package management suite. This addition simplifies cloud-native artifact delivery pipelines within a single UI. The release also standardized on-call escalation policies for continuous application incident management.
+  - **(2021)** [about.gitlab.com: GitLab 14.1 released with Helm Chart Registry and Escalation Policies](https://docs.gitlab.com/releases/#gitlab-kubernetes-agent-available-on-gitlabcom) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Details the GitLab 14.1 release, highlighting its integrated Helm chart registry and custom escalation policies. Explains how teams can store and manage Kubernetes deployment packaging files directly alongside their application source code.
 
 ---
-💡 **Explore Related:** [Jenkins Alternatives](./jenkins-alternatives.md) | [Gitops](./gitops.md) | [Registries](./registries.md)
+💡 **Explore Related:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md) | [Flux](./flux.md)
 

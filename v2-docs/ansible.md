@@ -5,342 +5,514 @@
 
 ## Standard Reference
 
-  - [Jenkins](https://www.jenkins.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone: Running Ansible Playbooks From Jenkins](https://dzone.com/articles/running-ansible-playbooks-from-jenkins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [itnext.io: Ansible and Jenkins — automate your scritps 🌟](https://itnext.io/ansible-and-jenkins-automate-your-scritps-8dff99ef653)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [The Beginner’s Guide to the Ansible Inventory](https://www.packetcoders.io/the-beginners-guide-to-the-ansible-inventory)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [https://github.com/jdauphant/awesome-ansible](https://github.com/jdauphant/awesome-ansible) <span class='md-tag md-tag--info'>⭐ 1005</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Ansible for DevOps Examples](https://github.com/geerlingguy/ansible-for-devops) <span class='md-tag md-tag--info'>⭐ 9761</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [youtube playlist: Ansible Tutorial - by Thetips4you 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-al0Knm1A0eEXfGyd5kCi16p)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [docs.ansible.com](https://docs.ansible.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dureka.co: What Is Ansible?](https://www.edureka.co/blog/what-is-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone: Part 2: Deploying Applications](https://dzone.com/articles/part-2-deploying-applications)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone: 10 easy to use modules in ansible](https://dzone.com/articles/10-easy-to-use-modules-in-ansible-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Dzone: Running Ansible at Scale](https://dzone.com/articles/running-ansible-at-scale)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Udemy.com: Ansible Essentials: Simplicity in Automation (Free Tutorial)](https://www.udemy.com/ansible-essentials-simplicity-in-automation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Deployment of Microservices in Cloud With Ansible](https://medium.com/avmconsulting-blog/deploying-microservices-via-ansible-in-cloud-platform-a03d46b7bd68)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [opensource.com: How to install software with Ansible](https://opensource.com/article/20/9/install-packages-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [opensource.com: Automate your container orchestration with Ansible modules' for Kubernetes 🌟](https://opensource.com/article/20/9/ansible-modules-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [opensource.com: A quickstart guide to Ansible 🌟](https://opensource.com/article/19/2/quickstart-guide-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [opensource.com: 7 things you can do with Ansible right now](https://opensource.com/article/20/9/ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [opensource.com: Integrate your calendar with Ansible to avoid schedule conflicts' 🌟](https://opensource.com/article/20/10/calendar-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [opensource.com: My first day using Ansible](https://opensource.com/article/20/10/first-day-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [siliconangle.com: Red Hat ties Ansible automation to Kubernetes cluster' management 🌟](https://siliconangle.com/2020/10/13/red-hat-ties-ansible-automation-kubernetes-cluster-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [thenewstack.io: Red Hat Brings Ansible Automation to Kubernetes 🌟](https://thenewstack.io/red-hat-brings-ansible-automation-to-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [zdnet.com: ed Hat expands Ansible ready to run cloud programs 🌟](https://www.zdnet.com/article/red-hat-expands-ansible-ready-to-run-cloud-programs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [opensource.com: 10 Ansible modules for Linux system automation c](https://opensource.com/article/20/10/ansible-modules-linux)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [opensource.com: Set up an Ansible lab in 20 minutes](https://opensource.com/article/20/12/ansible-lab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [opensource.com: 4 lines of code to improve your Ansible play](https://opensource.com/article/21/1/improve-ansible-play)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [opensource.com: 10 ways Ansible is for everyone 🌟](https://opensource.com/article/21/1/ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [linkedin.com: Ansible what is it and what not](https://www.linkedin.com/pulse/ansible-what-marcel-koert)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developer.okta.com: Tutorial: Ansible and Account Automation with Okta](https://developer.okta.com/blog/2021/02/05/okta-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [opensource.com: How Ansible got started and grew](https://opensource.com/article/21/2/ansible-origin-story)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [toptechskills.com: Ansible Tutorials & Courses 🌟](https://www.toptechskills.com/ansible-tutorials-courses)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [toptechskills.com: How to Speed Up Your Ansible Playbooks Over 600% 🌟](https://www.toptechskills.com/ansible-tutorials-courses/speed-up-ansible-playbooks-pipelining-mitogen)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [opensource.com: 5 everyday sysadmin tasks to automate with Ansible 🌟](https://opensource.com/article/21/3/ansible-sysadmin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Ansible 3.3.0 released](https://groups.google.com/g/ansible-devel/c/CdQ7eWUUm8k?pli=1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [fedoramagazine.org: Using Ansible to configure Podman containers 🌟](https://fedoramagazine.org/using-ansible-to-configure-podman-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhat.com: Introduction to RHEL System Roles 🌟](https://www.redhat.com/en/blog/introduction-rhel-system-roles)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [linuxtechlab.com: Ansible Tutorial: Introduction to simple Ansible commands](https://linuxtechlab.com/ansible-tutorial-simple-commands)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [analyticsindiamag.com: Ansible vs Docker: A Detailed Comparison Of DevOps' Tools](https://analyticsindiamag.com/ansible-vs-docker-a-detailed-comparison-of-devops-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cyberciti.biz: How to define multiple when conditions in Ansible](https://www.cyberciti.biz/faq/how-to-define-multiple-when-conditions-in-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dev.to: DevOps 101 : Introduction to Ansible](https://dev.to/grayhat/devops-101-introduction-to-ansible-1n64)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: Automate Red Hat JBoss Web Server deployments with' Ansible](https://developers.redhat.com/articles/2021/08/30/automate-red-hat-jboss-web-server-deployments-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [opensource.com: How I keep my file folders tidy with Ansible](https://opensource.com/article/21/9/keep-folders-tidy-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: Four reasons developers should use Ansible](https://developers.redhat.com/articles/2021/09/27/four-reasons-developers-should-use-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [vitux.com: How to speed-up an Ansible Playbook 🌟](https://vitux.com/how-to-speed-up-an-ansible-playbook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [opensource.com: 9 ways to learn Ansible this year 🌟](https://opensource.com/article/22/1/learn-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloud.google.com: How to deploy the Google Cloud Ops Agent with Ansible](https://cloud.google.com/blog/products/operations/use-ansible-to-deploy-the-google-cloud-ops-agent)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloudbees.com: Getting Started Quickly With Ansible Ad Hoc Commands](https://www.cloudbees.com/blog/getting-started-quickly-with-ansible-ad-hoc-commands)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [middlewareinventory.com: Ansible List Examples – How to create and append' items to List 🌟](https://www.middlewareinventory.com/blog/ansible-list-examples-how-to-create-and-append-items-to-list)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [middlewareinventory.com: Ansible Dictionary – How to create and add items' to dict](https://www.middlewareinventory.com/blog/ansible-dict)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [middlewareinventory.com: How to use ansible with S3 – Ansible aws_s3 examples' | Devops Junction](https://www.middlewareinventory.com/blog/ansible-aws_s3-example)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dlford.io: Orchestrate Your Systems with Ansible Playbooks - How to Home' Lab Part 10 🌟](https://www.dlford.io/ansible-orchestration-how-to-home-lab-part-10)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [learning-devops-tools-with-nandita.blogspot.com: Overview of Ansible and' Ansible Playbooks](https://learning-devops-tools-with-nandita.blogspot.com/2022/08/overview-of-ansible-and-ansible.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.learncodeonline.in: Everything about Ansible Variables 🌟](https://blog.learncodeonline.in/everything-about-ansible-variables)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.learncodeonline.in: Managing File Operations With Ansible 🌟](https://blog.learncodeonline.in/managing-file-operations-with-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: How to install VMs and Ansible Automation Platform' on Mac M1](https://developers.redhat.com/articles/2022/10/25/how-install-vms-and-ansible-automation-platform-mac-m1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [devopscube.com: How to Setup Ansible AWS Dynamic Inventory](https://devopscube.com/setup-ansible-aws-dynamic-inventory)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [tomsitcafe.com: Getting started with Ansible playbooks: more steps towards' DevOps](https://tomsitcafe.com/2023/02/14/getting-started-with-ansible-playbooks-more-steps-towards-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [tomsitcafe.com: Conditional statements – making decisions in Ansible code](https://tomsitcafe.com/2023/02/17/conditional-statements-making-decisions-in-ansible-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [tomsitcafe.com: How to implement and use handlers in Ansible code?](https://tomsitcafe.com/2023/03/06/how-to-implement-and-use-handlers-in-ansible-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [tomsitcafe.com: Configuration file blueprints: Jinja2 templates in the Ansible' code](https://tomsitcafe.com/2023/03/13/configuration-file-blueprints-jinja2-templates-in-the-ansible-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [tomsitcafe.com: Handling sensitive data with Ansible Vault: encrypting strings' instead of files](https://tomsitcafe.com/2023/03/16/handling-sensitive-data-with-ansible-vault-encrypting-strings-instead-of-files)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [sayali.hashnode.dev: Day 56: Understanding Ad-hoc commands in Ansible' 🌟](https://sayali.hashnode.dev/day-56-understanding-ad-hoc-commands-in-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [tomsitcafe.com: Let’s use a more flexible directory structure for an Ansible' project](https://tomsitcafe.com/2023/05/11/lets-use-a-more-flexible-directory-structure-for-an-ansible-project)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [tomsitcafe.com: Enhancing Ansible Automation: Exploring the Power of Ansible' Semaphore, a Modern Open-Source GUI](https://tomsitcafe.com/2023/05/15/ansible-semaphore-a-modern-open-source-gui-for-our-ansible-automation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [tomsitcafe.com: Mastering Ansible: Navigating the Most Common Errors and' Mistakes](https://tomsitcafe.com/2023/06/02/mastering-ansible-navigating-the-most-common-errors-and-mistakes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [tomsitcafe.com: Automating APIs with Ansible: A Comprehensive Guide](https://tomsitcafe.com/2023/06/09/automating-apis-with-ansible-a-comprehensive-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@Techie1: Networking tasks in production using Ansible](https://medium.com/@Techie1/networking-tasks-in-production-using-ansible-b09d0a6121f7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/cloud-native-daily: Getting Started with Ansible: A Comprehensive' Guide for DevOps Beginners](https://medium.com/cloud-native-daily/getting-started-with-ansible-a-comprehensive-guide-for-devops-beginners-fd2fb3fd7a40)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [devopsinside.com: Is Kubernetes killing tools like Ansible?](https://devopsinside.com/how-kubernetes-is-killing-tools-like-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [intellipaat.com: Ansible vs Kubernetes vs Docker](https://intellipaat.com/blog/ansible-vs-kubernetes-vs-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/naveensilver/Ansible](https://github.com/naveensilver/Ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [thenewstack.io: How to Put a GUI on Ansible, Using Semaphore](https://thenewstack.io/how-to-put-a-gui-on-ansible-using-semaphore)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [infraxpertzz.com: Deploying Custom Files with Jinja2 Template 🌟](https://infraxpertzz.com/deploying-custom-files-with-jinja2-template)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [jinja 🌟](https://github.com/pallets/jinja) <span class='md-tag md-tag--info'>⭐ 11634</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [techforce1.nl: Creating your first Ansible module](https://techforce1.nl/creating-your-first-ansible-module)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [linuxctl.com: Ansible - Interacting with external REST API](https://linuxctl.com/2017/01/ansible---interacting-with-external-rest-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [steampunk.si: Let us give Ansible a REST](https://steampunk.si/blog/let-us-give-ansible-a-rest)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [opensource.com: Using Ansible with REST APIs](https://opensource.com/article/21/9/ansible-rest-apis)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [youtube playlist: Ansible Tutorial - by Infra Xpertzz 🌟](https://www.youtube.com/playlist?list=PLOwxB_PX3s3WSfhzVtwhxXwy7QpkmtnzR)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [youtube: Ansible for beginners - by XavkiEn](https://www.youtube.com/playlist?list=PLWZKNB9waqIXEL-NIapWwIADPtkspe9vk)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [youtube: Exercises / Monitoring : How to install node exporter 🌟](https://www.youtube.com/watch?v=NgRuap0MmZw&ab_channel=XavkiEn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/k3s-io/k3s-ansible 🌟](https://github.com/k3s-io/k3s-ansible) <span class='md-tag md-tag--info'>⭐ 2793</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/PyratLabs/ansible-role-k3s 🌟](https://github.com/PyratLabs/ansible-role-k3s) <span class='md-tag md-tag--info'>⭐ 712</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: Set up mod_cluster for Red Hat JBoss Web Server with' Ansible](https://developers.redhat.com/articles/2021/09/28/set-modcluster-red-hat-jboss-web-server-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [middlewareinventory.com: Ansible Playbook Examples – Sample Ansible Playbooks' | Devops Junction](https://www.middlewareinventory.com/blog/ansible-playbook-example)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Ansible Collections 🌟](https://github.com/ansible-collections)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Amazon AWS Collection 🌟](https://github.com/ansible-collections/amazon.aws) <span class='md-tag md-tag--info'>⭐ 386</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Radware/radware-ansible: Radware Ansible Collection](https://github.com/Radware/radware-ansible) <span class='md-tag md-tag--info'>⭐ 10</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhat.com: Red Hat Ansible Automation Platform Enhancements and New Certified' Ansible Content Collections Refine the Automation Experience to Drive Business Imperatives](https://www.redhat.com/en/about/press-releases/red-hat-ansible-automation-platform-enhancements-and-new-certified-ansible-content-collections-refine-automation-experience-drive-business-imperatives)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [pypi.org: ansible-navigator 🌟](https://pypi.org/project/ansible-navigator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhat.com: From the datacenter to the edge: The open hybrid cloud vision' for Red Hat Ansible Automation Platform 2](https://www.redhat.com/en/blog/datacenter-edge-open-hybrid-cloud-vision-red-hat-ansible-automation-platform-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhat.com: Redefining the possibilities of IT automation across your ecosystem' with Red Hat partners](https://www.redhat.com/en/blog/redefining-possibilities-it-automation-across-your-ecosystem-red-hat-partners)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [crn.com: IBM’s Red Hat Reveals Ansible Automation Platform 2 Early Access](https://www.crn.com/news/cloud/ibm-s-red-hat-reveals-ansible-automation-platform-2-early-access)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [devops.com: Red Hat Extends Scope of Ansible Automation Ambitions](https://devops.com/red-hat-extends-scope-of-ansible-automation-ambitions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhat.com: Red Hat Ansible Automation Platform 2 Drives Cloud-Native Automation' and Helps Developers Become Automators](https://www.redhat.com/en/about/press-releases/red-hat-ansible-automation-platform-2-drives-cloud-native-automation-and-helps-developers-become-automators)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [venturebeat.com: Red Hat brings Ansible IT automation engine to Azure](https://venturebeat.com/2021/12/08/red-hat-brings-its-ansible-it-automation-engine-to-azure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhat.com: Red Hat Brings Industry-Leading Ansible Automation Platform' to **Microsoft Azure**](https://www.redhat.com/en/about/press-releases/red-hat-brings-industry-leading-ansible-automation-platform-microsoft-azure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [wraltechwire.com: Red Hat expands hybrid cloud efforts in Ansible deal with' Microsoft Azure](https://www.wraltechwire.com/2021/12/11/red-hat-expands-hybrid-cloud-efforts-in-ansible-deal-with-microsoft-azure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [List of Red Hat Supported Maintained Ansible Collections 🌟](https://access.redhat.com/articles/4993781)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [opensource.com: 5 tips for choosing an Ansible collection that's right' for you](https://opensource.com/article/21/3/ansible-collections)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [youtube: Ansible Collections 🌟](https://www.youtube.com/watch?app=desktop&v=AXnDrGgLaF0&feature=share&ab_channel=RobertdeBock)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [linuxtechi.com: How to Use Loops in Ansible Playbook](https://www.linuxtechi.com/how-to-use-loops-in-ansible-playbook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Ansible AWX](https://github.com/ansible/awx) <span class='md-tag md-tag--info'>⭐ 15428</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
-  - [AWX Operator](https://github.com/ansible/awx-operator) <span class='md-tag md-tag--info'>⭐ 1484</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [linuxsysadmins.com: Install Ansible AWX on Kubernetes in 5 minutes](https://www.linuxsysadmins.com/install-ansible-awx-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [steampunk.si: Managing infrastructure using Ansible Tower](https://steampunk.si/blog/managing-infrastructure-using-ansible-tower)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [maquinasvirtuales.eu: Docker Swarm: Instalar Ansible AWX](https://www.maquinasvirtuales.eu/docker-swarm-instalar-ansible-awx)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [techsupportpk.com: Install Ansible AWX on CentOS, RHEL 7, 8](https://www.techsupportpk.com/2020/03/how-to-install-ansible-awx-centos-rhel-7-8.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Ansible AWX: from scratch to REST API (part 4 of 8)](https://medium.com/@claudio.domingos/ansible-awx-from-scratch-to-rest-api-part-4-of-8-4aa860d823f6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [galaxy.ansible.com/geerlingguy/awx 🌟](https://galaxy.ansible.com/geerlingguy/awx)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [AWX Ansible Collection: galaxy.ansible.com/awx/awx](https://galaxy.ansible.com/awx/awx)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/tom-256/ansible-awx-packer](https://github.com/tom-256/ansible-awx-packer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/scorputty/packer-centos-awx](https://github.com/scorputty/packer-centos-awx) <span class='md-tag md-tag--info'>⭐ 1</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/jsmartin/ansible-tower-packer](https://github.com/jsmartin/ansible-tower-packer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [artifacthub.io: Helm Charts - AWX](https://artifacthub.io/packages/search?ts_query_web=awx&sort=relevance&page=1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [AWS Marketplace (AMIs): AWX/Tower](https://aws.amazon.com/marketplace/search/results?searchTerms=tower)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Foreman](https://www.theforeman.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [jeffgeerling.com: Testing your Ansible roles with Molecule](https://www.jeffgeerling.com/blog/2018/testing-your-ansible-roles-molecule)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [opensource.com: Testing Ansible roles with Molecule](https://opensource.com/article/18/12/testing-ansible-roles-molecule)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com: Test driven Development with Ansible using Molecule](https://medium.com/@moep_moep/test-driven-development-with-ansible-using-molecule-3386cef987ac)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [tomsitcafe.com: How to test Ansible code with Molecule](https://tomsitcafe.com/2023/04/27/how-to-test-ansible-code-with-molecule)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ansiblefordevops.com](https://www.ansiblefordevops.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ansibleforkubernetes.com 🌟](https://www.ansibleforkubernetes.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/automateyournetwork/automate_your_network: Automate Your Network' - John Capobianco - July 1st 2023](https://github.com/automateyournetwork/automate_your_network) <span class='md-tag md-tag--info'>⭐ 645</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [galaxy.ansible.com](https://galaxy.ansible.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [galaxy.ansible.com/geerlingguy](https://galaxy.ansible.com/geerlingguy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Ansible Role: Docker 🌟](https://github.com/geerlingguy/ansible-role-docker) <span class='md-tag md-tag--info'>⭐ 2261</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Tronde/ansible-role-rhel-patchmanagement](https://github.com/Tronde/ansible-role-rhel-patchmanagement) <span class='md-tag md-tag--info'>⭐ 75</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [konstruktoid/ansible-hvault-inventory: Dynamic Ansible inventory using HashiCorp' Vault SSH OTP and local password rotation](https://github.com/konstruktoid/ansible-hvault-inventory) <span class='md-tag md-tag--info'>⭐ 23</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/opstree-technology: Understanding Ansible: Helm diff plugin 🌟](https://medium.com/opstree-technology/ansible-helm-diff-plugin-63e1cda299a3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: AWS Configuration with Web Server in EC2 Using Ansible](https://medium.com/@ayushsingh1525/aws-configuration-with-apache-server-in-ec2-using-ansible-2ef61f98872e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [adamtheautomator.com: How to Use the Ansible Kubernetes Module](https://adamtheautomator.com/ansible-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [galaxy.ansible.com/nginxinc/nginx_core](https://galaxy.ansible.com/nginxinc/nginx_core)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/oravirt/ansible-oracle](https://github.com/oravirt/ansible-oracle) <span class='md-tag md-tag--info'>⭐ 368</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/oravirt/ansible-oracle-modules](https://github.com/oravirt/ansible-oracle-modules) <span class='md-tag md-tag--info'>⭐ 217</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [oravirt.wordpress.com: Getting started with ansible-oracle](https://oravirt.wordpress.com/2014/10/01/getting-started-with-ansible-oracle)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [oravirt.wordpress.com: Changes in ansible-oracle v1.2](https://oravirt.wordpress.com/2014/11/05/changes-in-ansible-oracle-v1-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/abessifi/ansible-sqlplus](https://github.com/abessifi/ansible-sqlplus) <span class='md-tag md-tag--info'>⭐ 1</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [stackoverflow.com: Ansible playbook to execute Oracle script](https://stackoverflow.com/questions/41796466/ansible-playbook-to-execute-oracle-script)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [stackoverflow.com: Running Oracle SQL scripts with Ansible playbook](https://stackoverflow.com/questions/41341823/running-oracle-sql-scripts-with-ansible-playbook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Ansistrano](https://github.com/ansistrano)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Capistrano](https://capistranorb.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [opensource.com: How I use Ansible and anacron for automation](https://opensource.com/article/21/9/ansible-anacron-automation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [opensource.com: Use anacron for a better crontab](https://opensource.com/article/21/2/linux-automation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Automation
 
-### Ansible
+### Advanced Orchestration
 
-#### Culture and Advocacy
+#### Ansible Extensions
 
-  - **(2023)** [redhat.com: Renewing my thrill at work with Ansible](https://www.redhat.com/en/blog/renewed-thrill-ansible) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advocate-oriented discussion detailing human-factor efficiency gains when transitioning manual operational scripts into declarative Ansible plays.
-#### Enterprise Architecture
+  - **(2020)** [opensource.com: Integrate your calendar with Ansible to avoid schedule conflicts 🌟](https://opensource.com/article/20/10/calendar-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A creative approach to scheduling production changes using Ansible playbooks hooked to digital calendars. It highlights API communication and conditional logic execution inside custom Ansible integrations. Ideal for teams seeking to automate maintenance windows safely.
+### Infrastructure as Code
 
-  - **(2020)** [theregister.com: Juggling Ansible, OpenShift and K8s? This is for you: Red Hat couples automation to cluster management](https://www.theregister.com/software/2020/10/14/juggling-ansible-openshift-and-k8s-this-is-for-you-red-hat-couples-automation-to-cluster-management/656846) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Critical analysis of Red Hat's product unification strategies linking Ansible automation patterns to modern distributed Kubernetes cluster management planes.
-#### Kubernetes Integration
+#### Ansible
 
-  - **(2023)** [openshift.com: Ansible and OpenShift: Connecting for Success 🌟](https://www.redhat.com/en/blog/ansible-and-openshift-connecting-for-success) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Outlines architectural models for coupling Ansible Automation Platform engine with Red Hat OpenShift. Demonstrates infrastructure-as-code, cluster lifecycle provisioning, and service mesh management.
-#### Linux Administration
+  - **(2025)** [docs.ansible.com](https://docs.ansible.com) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The definitive technical documentation portal for Ansible. It includes playbooks, modules, inventories, and advanced execution patterns. Engineers refer to this manual for building scalable configuration management and infrastructure-as-code deployments.
+#### Ansible Experience
 
-  - **(2023)** [redhat.com: Demystifying Ansible for Linux sysadmins 🌟](https://www.redhat.com/en/blog/demystifying-ansible-sysadmins) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A strategic bridge linking traditional shell scripting to structured Ansible playbooks, explaining step execution, variable scopes, and idempotency guarantees.
-  - **(2023)** [redhat.com: Quick start guide to Ansible for Linux sysadmins 🌟](https://www.redhat.com/en/blog/ansible-quick-start) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Technical quick start for configuring local control nodes, inventory schemas, dynamic host variables, and executing basic ad-hoc Ansible modules across clusters.
-  - **(2022)** [redhat.com: Add a repo and install a package the Ansible way](https://www.redhat.com/en/blog/install-ansible-way) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Step-by-step guidance on automated package manager configurations using dnf/apt modules and safe remote repository additions with idempotency rules.
-#### Module Deep-Dive
+  - **(2020)** [opensource.com: My first day using Ansible](https://opensource.com/article/20/10/first-day-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A reflective developer-experience piece outlining initial onboarding pain points and successes with Ansible. The author covers YAML structure, hosts file syntax, and basic ad-hoc commands. Helpful for understanding typical learning curves of new engineers.
+#### Ansible Introduction
 
-  - **(2022)** [redhat.com: How to automate system reboots using the Ansible reboot module](https://www.redhat.com/en/blog/automate-reboot-ansible) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Evaluates deep playbook integration of the native Ansible reboot module, configuring timeouts, boot validations, and post-reboot verification strategies.
-  - **(2022)** [redhat.com: How to use Ansible to send an email using Gmail](https://www.redhat.com/en/blog/configure-gmail-using-ansible) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Walkthrough configuring safe execution setups of mail automation workflows using Google Gmail SMTP server secure authentication parameters.
-#### Network Automation
+  - **(2021)** [dureka.co: What Is Ansible?](https://www.edureka.co/blog/what-is-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory training resource detailing how Ansible leverages an agentless architecture to manage target environments. It explains playbooks, tasks, and the idempotent model that prevents state drifting. Recommended for engineers transitioning from manual system administration.
+  - **(2019)** [opensource.com: A quickstart guide to Ansible 🌟](https://opensource.com/article/19/2/quickstart-guide-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A fast-paced guide to configuring Ansible controller environments and target nodes. It simplifies SSH authentication setups and inventory management. This article is ideal for starting with local automation in sandboxed test labs.
+#### Ansible Lab Setup
 
-  - **(2022)** [redhat.com: How to use Ansible to configure a reverse proxy 🌟](https://www.redhat.com/en/blog/reverse-proxy-ansible) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Details deployment templates of HAProxy or Nginx reverse proxy systems utilizing Ansible templates, systemd control blocks, and variable definitions.
-#### Role Development
+  - **(2020)** [opensource.com: Set up an Ansible lab in 20 minutes](https://opensource.com/article/20/12/ansible-lab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A rapid, step-by-step setup guide for creating a local, containerized or virtualized Ansible test environment. It helps engineers quickly practice playbook execution, SSH configuration, and inventory targeting without risk. Highly practical for sandbox experimentation.
+#### Ansible Linux Modules
 
-  - **(2023)** [redhat.com: 8 steps to developing an Ansible role in Linux 🌟](https://www.redhat.com/en/blog/developing-ansible-role) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Architectural best practices on directory scaffolding, task distribution, handler setups, and variable isolation pattern constraints for building reusable, modular Ansible roles.
-#### Training and Education
+  - **(2020)** [opensource.com: 10 Ansible modules for Linux system automation c](https://opensource.com/article/20/10/ansible-modules-linux)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive into ten foundational Ansible modules for Linux OS administration (copy, service, template, user, etc.). This acts as a reference for writing stable, repeatable configuration scripts on host systems. Highly useful for managing underlying Kubernetes node environments.
+#### Ansible Management
 
-  - **(2023)** [redhat.com: Ansible Essentials: Simplicity in Automation Technical Overview (Free Course) 🌟](https://www.redhat.com/en/services/training/au094-ansible-essentials-simplicity-automation-technical-overview) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Entry-level overview mapping Ansible core structures. Discusses agentless node communication over SSH/WinRM, YAML playbooks structure, variables, inventory configurations, and simple task structures.
-  - **(2023)** [redhat.com: Got automation? Here's a quick guide to get you up to speed on Ansible 🌟](https://www.redhat.com/en/blog/how-start-ansible) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Introduces critical concepts of YAML configuration, inventory grouping, module executions, and target definitions for fast deployment tasks.
-### Config Management
+  - **(2020)** [opensource.com: How to install software with Ansible](https://opensource.com/article/20/9/install-packages-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A task-oriented tutorial explaining package management across multiple Linux distributions using Ansible. It illustrates the declarative use of apt, yum, and dnf modules. Essential for automating bare-metal or VM-based virtualized resources.
+#### Ansible Training
 
-#### Tool Comparison
+  - **(2024)** [redhat.com: Ansible Essentials: Simplicity in Automation Technical Overview (Free Course) 🌟](https://www.redhat.com/en/services/training/au094-ansible-essentials-simplicity-automation-technical-overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A free, official Red Hat technical training course outlining the foundations of YAML configuration, agentless execution, and task execution patterns. Ideal for onboarding engineers to standard enterprise automation playbooks safely and effectively.
+#### Ansible Use Cases
 
-  - **(2023)** [acloudguru.com: Ansible vs Puppet: Which is right for you?](https://www.pluralsight.com/resources/blog/cloud/ansible-vs-puppet-which-is-right-for-you) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Detailed contrast between agentless push architectures (Ansible) and agent-driven pull synchronization state architectures (Puppet). Reviews security, execution speed, and DSL onboarding curves.
-## Cloud Native
+  - **(2020)** [opensource.com: 7 things you can do with Ansible right now](https://opensource.com/article/20/9/ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights versatile use cases for Ansible beyond simple package installs, such as configuration drift remediation, system health auditing, and network routing updates. Shows how it acts as an automation framework across modern corporate infrastructure.
+#### Cloud Automation
 
-### Orchestration
+  - **(2021)** [zdnet.com: ed Hat expands Ansible ready to run cloud programs 🌟](https://www.zdnet.com/article/red-hat-expands-ansible-ready-to-run-cloud-programs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines Red Hat's expanding cloud-native marketplace initiatives, detailing pre-integrated Ansible playbooks for public cloud vendors. This eases deployment boundaries on AWS, Azure, and Google Cloud, making it highly relevant for platform teams architecting unified multi-cloud automation planes.
+#### Developer Experience
 
-#### Kubernetes
+  - **(2021)** [redhat.com: Renewing my thrill at work with Ansible](https://www.redhat.com/en/blog/renewed-thrill-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practitioner's personal narrative showing how shifting from manual scripts to structured declarative YAML improves engineering efficiency. It showcases how automation reduces operational fatigue, shifting dev focus toward building features. A solid developer-advocate study of Ansible benefits.
+### Kubernetes Management
 
-##### API Integration
+#### Ansible Integration
 
-  - **(2024)** [docs.ansible.com: kubernetes.core.k8s – Manage Kubernetes (K8s) objects](https://docs.ansible.com/projects/ansible/latest/collections/kubernetes/core/k8s_module.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Core reference documentation for the 'kubernetes.core.k8s' module, allowing Ansible control planes to deploy and interact with native Kubernetes API resources directly. It integrates seamlessly with kubectl credentials to process declarative manifest payloads or inline spec configurations.
-##### Event-Driven Automation
+  - **(2020)** [opensource.com: Automate your container orchestration with Ansible modules for Kubernetes 🌟](https://opensource.com/article/20/9/ansible-modules-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the deployment of Kubernetes manifests directly using Ansible's native modules (k8s module). It demonstrates how to orchestrate complex Helm charts and resource configurations programmatically. This bridges the divide between standard IaC pipelines and cluster environments.
+#### OpenShift Integration
 
-  - **(2023)** [ansible.com: Kubernetes Meets Event-Driven Ansible 🌟](https://www.redhat.com/en/blog/kubernetes-meets-event-driven-ansible) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces Event-Driven Ansible (EDA) acting in concert with Kubernetes clusters. This architecture leverages rulebooks to capture cloud-native events (e.g., Prometheus alerts, K8s events) and initiate immediate, automated operational remediation tasks across external IT platforms without manual operations.
-##### Helm Integration
+  - **(2020)** [openshift.com: Ansible and OpenShift: Connecting for Success 🌟](https://www.redhat.com/en/blog/ansible-and-openshift-connecting-for-success)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on Red Hat's strategy for scaling hybrid deployments through OpenShift and Ansible integrations. It discusses using Ansible to handle Day-2 cluster operations, such as external storage provisioning and network switch configurations. Essential for hybrid enterprise architectures.
+#### Red Hat and Ansible
 
-  - **(2024)** [docs.ansible.com: kubernetes.core.helm module – Manages Kubernetes packages with the Helm package manager](https://docs.ansible.com/projects/ansible/latest/collections/kubernetes/core/helm_module.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official reference for the 'kubernetes.core.helm' Ansible module. Connects infrastructure automation to cloud-native application setups, allowing platform teams to manage Helm chart releases, state, values overrides, and plugin dependencies from unified playbooks.
-  - **(2024)** [docs.ansible.com: kubernetes.core.helm_plugin module – Manage Helm plugins](https://docs.ansible.com/projects/ansible/latest/collections/kubernetes/core/helm_plugin_module.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details target configurations for orchestrating Helm plugins on target controller nodes. This dedicated module ensures Helm extensions (e.g., helm-diff, helm-secrets) are programmatically present and aligned with infrastructure-as-code deployment criteria.
-## DevOps and Automation
+  - **(2020)** [siliconangle.com: Red Hat ties Ansible automation to Kubernetes cluster management 🌟](https://siliconangle.com/2020/10/13/red-hat-ties-ansible-automation-kubernetes-cluster-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry report covering Red Hat's native convergence of Ansible and Kubernetes cluster management via Advanced Cluster Management (ACM). This integration empowers teams to configure physical network layers and bare-metal nodes dynamically as Kubernetes clusters scale out.
+  - **(2020)** [thenewstack.io: Red Hat Brings Ansible Automation to Kubernetes 🌟](https://thenewstack.io/red-hat-brings-ansible-automation-to-kubernetes)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Explains how Red Hat bridges legacy VM architecture with container orchestration. By utilizing Ansible operators inside Kubernetes, operations teams can trigger external automation workflows from cloud-native custom resources, drastically simplifying hybrid cloud integrations.
+#### Red Hat Ecosystem
 
-### AI-Assisted Operations
-
-#### Infrastructure as Code
-
-  - **(2023)** [ansible.com: Ansible and ChatGPT: Putting it to the test](https://www.redhat.com/en/blog/channel/open-source-communities) 🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — Red Hat's experimental analysis testing generative AI capability against Ansible Playbook authoring constraints. Highlights current logical gaps and structural best practices for verification.
-## Infrastructure as Code (1)
+  - **(2020)** [theregister.com: Juggling Ansible, OpenShift and K8s? This is for you: Red Hat couples automation to cluster management](https://www.theregister.com/software/2020/10/14/juggling-ansible-openshift-and-k8s-this-is-for-you-red-hat-couples-automation-to-cluster-management/656846) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical piece detailing how architects manage complex workflows across bare-metal systems, OpenShift, and standard Kubernetes clusters. It underscores how Ansible bridges the gaps that cloud-native orchestration engines cannot directly reach, minimizing system isolation and manual intervention.
+## Automation and Orchestration
 
 ### AI and Automation
 
-#### Ansible (1)
+#### Code Generation
 
-##### AI-Assisted Coding
+  - **(2023)** [ansible.ai](https://www.redhat.com/en/technologies/management/ansible/ai-automation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Overview of Red Hat's automated intelligence strategy. Explores AI integration within playbook authoring tools to accelerate operational workflows, automate syntax validation, and optimize task declarations.
+  - **(2023)** [redhat.com: Red Hat Ansible Lightspeed with IBM watsonx Code Assistant](https://www.redhat.com/en/technologies/management/ansible/automation-coding-assistant)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural breakdown of Red Hat Ansible Lightspeed powered by IBM watsonx Code Assistant. Analyzes the generative model converting raw text prompts to stable, context-aware Ansible tasks.
+### Ansible (1)
 
-  - **(2024)** [ansible.ai](https://www.redhat.com/en/technologies/management/ansible/ai-automation) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains Ansible Lightspeed, an AI-driven coding companion integrating IBM watsonx Code Assistant. It generates clean, syntactically correct Ansible tasks and playbooks based on natural language prompts, accelerating development while strictly respecting compliance and licensing telemetry.
-  - **(2024)** [redhat.com: Red Hat Ansible Lightspeed with IBM watsonx Code Assistant](https://www.redhat.com/en/technologies/management/ansible/automation-coding-assistant)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural overview of Red Hat's enterprise-grade AI-assisted automation service. Highlights features like context-aware recommendations, source-code attribution transparency, and tight integration with VS Code, allowing platform engineering teams to securely scale declarative infrastructure delivery.
-### CI-CD Pipelines
+#### Application Delivery
 
-#### Ansible Automation Platform
+  - **(2021)** [developers.redhat.com: Set up mod_cluster for Red Hat JBoss Web Server with Ansible](https://developers.redhat.com/articles/2021/09/28/set-modcluster-red-hat-jboss-web-server-ansible) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Guides system engineers on configuring mod_cluster web server components inside Red Hat JBoss environments. Shows how to dynamically balance traffic routing paths using automated playbooks.
+#### Control Flow
 
-##### Code Deployment
+  - **(2023)** [tomsitcafe.com: Conditional statements – making decisions in Ansible code](https://tomsitcafe.com/2023/02/17/conditional-statements-making-decisions-in-ansible-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep dive into conditional execution mechanisms within Ansible playbooks. Illustrates dynamic logic control using `when` blocks, registered outputs, and complex Jinja2 conditional expressions to manage multi-os targets.
+#### Data Structures
 
-  - **(2023)** [redhat.com: 6 steps to automating code pushes with Ansible Automation Platform 🌟](https://www.redhat.com/en/blog/6-code-pushes-aap)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines a structured, 6-step workflow for integrating Red Hat Ansible Automation Platform (AAP) into modern continuous delivery pipelines. Contrasting basic SSH pushes with structured AAP controllers, the article details automation execution environments, webhooks, and secure variable passing to establish highly repeatable, auditable deployment pipelines.
-### Configuration Management
+  - **(2022)** [redhat.com/sysadmin/ansible-lists-dictionaries-yaml: How to work with lists and dictionaries in Ansible 🌟](https://www.redhat.com/en/blog/ansible-lists-dictionaries-yaml)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical deep dive demonstrating the manipulation of complex YAML lists and dictionaries in Ansible. Explores mapping, filtering, and joining complex host matrices with native Jinja2 structures.
+#### Foundations
 
-#### Ansible (2)
+  - **(2022)** [learning-devops-tools-with-nandita.blogspot.com: Overview of Ansible and Ansible Playbooks](https://learning-devops-tools-with-nandita.blogspot.com/2022/08/overview-of-ansible-and-ansible.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An foundational introduction to Ansible configuration management, detailing the core architecture, agentless push model, and YAML playbook structures. Clarifies how task-state validation enforces declarative infrastructure configurations.
+#### Playbook Architecture
 
-##### CLI Operations
+  - **(2021)** [dlford.io: Orchestrate Your Systems with Ansible Playbooks - How to Home Lab Part 10 🌟](https://www.dlford.io/ansible-orchestration-how-to-home-lab-part-10)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical blueprint for orchestrating home lab infrastructures using modular Ansible playbooks. Curator Insight highlights its step-by-step approach to mapping variables, while Live Grounding validates its continued relevance for self-hosted DevOps environments using decoupled role directories.
+#### Playbook Design
 
-  - **(2022)** [redhat.com: Deep dive into Ansible ad hoc commands](https://www.redhat.com/en/blog/ansible-ad-hoc-commands)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the utility of Ansible's CLI ad-hoc execution model for rapid diagnostic, verification, and lightweight operations. The author contrasts these declarative imperative steps against complex structured playbooks, highlighting execution context, concurrent fork settings, and modular pattern matches.
-##### Community Resources
+  - **(2023)** [tomsitcafe.com: Getting started with Ansible playbooks: more steps towards DevOps](https://tomsitcafe.com/2023/02/14/getting-started-with-ansible-playbooks-more-steps-towards-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the anatomy of fundamental Ansible playbooks, focusing on variable declaration, inventory definition, and core task blocks. Guides operators transitioning from shell scripts to declarative orchestration.
+#### Project Structure
 
-  - **(2021)** [redhat.com: 16 AnsibleFest presentations for sysadmins](https://www.redhat.com/en/blog/ansiblefest-sysadmins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated catalog of technical presentations from Red Hat's AnsibleFest, targetting core system administration automation tasks. Live grounding verifies that while these sessions demonstrate classic system tasks, they form the bedrock for modern AAP (Ansible Automation Platform) and Event-Driven architecture patterns.
-##### Data Structures
+  - **(2023)** [tomsitcafe.com: Let’s use a more flexible directory structure for an Ansible project](https://tomsitcafe.com/2023/05/11/lets-use-a-more-flexible-directory-structure-for-an-ansible-project)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates architectural patterns for structural scaling in Ansible. Recommends multi-environment directories, external roles, and separated configuration scopes to maximize system maintenance and clarity.
+#### Reference Architectures
 
-  - **(2022)** [redhat.com/sysadmin/ansible-lists-dictionaries-yaml: How to work with lists and dictionaries in Ansible 🌟](https://www.redhat.com/en/blog/ansible-lists-dictionaries-yaml)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed documentation on manipulating advanced YAML structures (lists and dictionaries) within Ansible playbooks. Live grounding underscores that understanding key-value maps, iteration over sequences, and complex data structures is fundamental for constructing resilient, reusable playbooks.
-##### Dynamic Inventory
+  - **(2024)** [==Ansible for DevOps Examples==](https://github.com/geerlingguy/ansible-for-devops) <span class='md-tag md-tag--info'>⭐ 9786</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier community-standard GitHub repository containing configuration blueprints for Jeff Geerling's 'Ansible for DevOps'. Serves as a primary reference for deploying Kubernetes clusters and microservices.
+#### Reference Projects
 
-  - **(2021)** [redhat.com: How to create dynamic inventory files in Ansible](https://www.redhat.com/en/blog/ansible-dynamic-inventories)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on dynamic inventory mechanisms designed to discover target nodes automatically in volatile public cloud environments. Rather than relying on static inventory files, this architectural pattern query APIs to cluster and group instances based on dynamic tags, ensuring seamless elastic operations.
-  - **(2021)** [redhat.com: How to write a Python script to create dynamic Ansible inventories](https://www.redhat.com/en/blog/ansible-dynamic-inventory-python) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep-dive tutorial on implementing low-level customized dynamic inventories through native Python scripts outputting standard JSON payloads. Demonstrates how to parse external APIs and output correctly formatted group lists, variable hashes, and meta blocks for direct use by Ansible controllers.
-##### Execution Environments
+  - **(2023)** [middlewareinventory.com: Ansible Playbook Examples – Sample Ansible Playbooks | Devops Junction](https://www.middlewareinventory.com/blog/ansible-playbook-example)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A collection of practical Ansible playbook blueprints. Offers concrete system administration examples covering package management, file state adjustments, and cron-job automation.
+  - **(2020)** [github.com/naveensilver/Ansible](https://github.com/naveensilver/Ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Open-source repository archiving custom Ansible playbooks, tasks, and configurations for diverse operational setups. Serves as a useful template library for practical implementation reference.
+#### Task Lifecycle
 
-  - **(2023)** [redhat.com: How to set up and use Python virtual environments for Ansible](https://www.redhat.com/en/blog/python-venv-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Addresses python dependency isolation issues by establishing virtual environments (venvs) specifically designed to run decoupled Ansible control planes. Live grounding reveals that isolating execution runtimes prevents dependency skew (e.g., PyYAML or Jinja2 version conflicts) across shared developer systems, cementing an essential best practice for enterprise scaling.
-##### Hardware Architectures
+  - **(2023)** [tomsitcafe.com: How to implement and use handlers in Ansible code?](https://tomsitcafe.com/2023/03/06/how-to-implement-and-use-handlers-in-ansible-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Covers design patterns for Ansible handlers, focusing on event-driven task execution. Shows how to trigger service reloads or post-installation actions only when underlying states are programmatically mutated.
+#### Templating
 
-  - **(2023)** [community.ibm.com: Red Hat Ansible Automation Platform on IBM Z and IBM LinuxONE is generally available now!](https://community.ibm.com/community/user/blogs/daniel-jast1/2023/12/07/red-hat-aap-on-ibm-z-and-linuxone)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Covers the general availability of Red Hat Ansible Automation Platform (AAP) running directly on mainframe environments (IBM Z and LinuxONE). This bridge brings high-performance enterprise automation, execution environments, and orchestration to legacy, highly secure core banking and enterprise platforms.
-##### Integrations
+  - **(2023)** [tomsitcafe.com: Configuration file blueprints: Jinja2 templates in the Ansible code](https://tomsitcafe.com/2023/03/13/configuration-file-blueprints-jinja2-templates-in-the-ansible-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive guide to combining dynamic system variables with Jinja2 templates. Demonstrates how to write portable templates for production file delivery and custom microservice configurations.
+  - **(2023)** [infraxpertzz.com: Deploying Custom Files with Jinja2 Template 🌟](https://infraxpertzz.com/deploying-custom-files-with-jinja2-template)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates file manipulation techniques using the `template` module. Focuses on transforming standard templates into application parameters during environment deployments.
+#### Troubleshooting
 
-  - **(2021)** [redhat.com: Using Ansible to interact with web endpoints](https://www.redhat.com/en/blog/ansible-web-endpoints)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates methods for driving API-centric systems from Ansible tasks using standard modules like 'uri'. Synthesizes request handling patterns (headers, payload formats, authentication, state checking), providing core mechanisms for coordinating workflows with non-SSH REST APIs.
-##### Introduction
+  - **(2023)** [tomsitcafe.com: Mastering Ansible: Navigating the Most Common Errors and Mistakes](https://tomsitcafe.com/2023/06/02/mastering-ansible-navigating-the-most-common-errors-and-mistakes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compiles and diagnoses common developer anti-patterns in Ansible. Discusses task failures, unhandled error structures, inventory syntax problems, and execution privilege elevation errors with clear remediations.
+### Ansible Developer Tooling
 
-  - **(2023)** [k21academy.com: Ansible for Beginners | Overview | Architecture & Use Cases 🌟](https://k21academy.com/devops/ansible-for-beginners)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive primer on Ansible architecture, highlighting its agentless nature, SSH/WinRM connection protocols, and the core components of inventory, playbooks, and modules. It bridges beginner comprehension with declarative automation frameworks, laying down architectural foundations for orchestration.
-##### Modular Design
+#### CLI and TUI
 
-  - **(2021)** [redhat.com: A brief introduction to Ansible roles for Linux system administration 🌟](https://www.redhat.com/en/blog/ansible-system-role)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on decomposing complex playbooks into modular, reusable architectural units known as Ansible Roles. Illustrates directory structures (tasks, vars, templates, defaults) ensuring dry-principle compliance, easier distribution via Ansible Galaxy, and modular OS-level management.
-##### Module Development
+  - **(2024)** [pypi.org: ansible-navigator 🌟](https://pypi.org/project/ansible-navigator) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A core CLI/TUI interactive developer environment tool for managing, reviewing, and linting playbooks within containerized Execution Environments. Replaces legacy direct CLI runs.
+### Ansible Ecosystem
 
-  - **(2024)** [docs.ansible.com: Developing Ansible modules](https://docs.ansible.com/projects/ansible/latest/dev_guide/developing_modules_general.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official reference detailing programmatic custom Ansible module design in Python. Highlights module argument parsing specs, standardized JSON output interfaces, exit status codes (changed, failed), and module utility helpers, essential for extending platform automation capabilities.
-##### Orchestration UI
+#### Cloud Inventory
 
-  - **(2024)** [Semaphore UI 🌟](https://mightyclaws.co.uk/bournemouth)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An elegant, lightweight, open-source alternative to Ansible Tower/AWX. Semaphore UI offers an easy-to-deploy interface for running Ansible playbooks with secure secret management, job scheduling, detailed deployment logs, and clean team permission controls.
-  - **(2022)** [Ansible Tower Docs](https://legacy-controller-docs.ansible.com/ansible-tower) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Archive documentation for Ansible Tower, Red Hat's enterprise GUI and REST endpoint for managing scalable automation. Live grounding notes that Ansible Tower has been deprecated and succeeded by Red Hat Ansible Automation Platform (AAP) controller interfaces.
-##### Package Management
+  - **(2023)** [devopscube.com: How to Setup Ansible AWS Dynamic Inventory](https://devopscube.com/setup-ansible-aws-dynamic-inventory)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Hands-on guide to implementing dynamic AWS EC2 inventories in Ansible. Details configuration of the `amazon.aws.aws_ec2` plugin to query live infrastructure metadata, replacing brittle static inventory files.
+#### Collections
 
-  - **(2022)** [redhat.com: How to install software packages with an Ansible playbook](https://www.redhat.com/en/blog/software-packages-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the architectural patterns of Ansible package management across heterogeneous operating systems. Synthesizing the generic 'package' module alongside OS-specific module interfaces like 'dnf' or 'apt', it shows how declarative package state (present, absent, latest) ensures robust configuration enforcement.
-##### Performance Tuning
+  - **(2024)** [Ansible Collections 🌟](https://github.com/ansible-collections) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Upstream GitHub organization containing certified and community Ansible Content Collections. Reflects the modern decentralized packaging model of the modern Ansible ecosystem.
+  - **(2024)** [Amazon AWS Collection 🌟](https://github.com/ansible-collections/amazon.aws) <span class='md-tag md-tag--info'>⭐ 388</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official Amazon Web Services Content Collection for Ansible. Provides production-ready modules for provisioning, updating, and de-provisioning EC2, VPC, S3, and RDS infrastructure assets.
+  - **(2023)** [Radware/radware-ansible: Radware Ansible Collection](https://github.com/Radware/radware-ansible) <span class='md-tag md-tag--info'>⭐ 10</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Specialized Ansible Content Collection optimized for provisioning and managing Radware networking nodes, load balancers, and cloud security suites programmatically.
+### Ansible Extensibility
 
-  - **(2022)** [redhat.com: 8 ways to speed up your Ansible playbooks](https://www.redhat.com/en/blog/faster-ansible-playbook-execution) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses critical optimization techniques to dramatically reduce Ansible playbook execution latencies. Highlights include configuring pipelining, tuning parallel forks, disabling host fact gathering when unnecessary, leveraging execution context caches, and configuring custom strategy plug-ins (such as free vs. linear).
-##### Playbook Architecture
+#### Module Development
 
-  - **(2024)** [docs.ansible.com: Working With Playbooks](https://docs.ansible.com/projects/ansible/latest/user_guide/playbooks.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The foundational documentation detailing Ansible Playbooks, the declarative configuration orchestrators of the ecosystem. Analyzes structural YAML syntax, loop mechanisms, dynamic conditionals, error handling (rescue/always blocks), variable scoping, and execution flow controls.
-##### Plugins
+  - **(2024)** [docs.ansible.com: Developing Ansible modules](https://docs.ansible.com/projects/ansible/latest/dev_guide/developing_modules_general.html) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official engineering documentation guiding development of custom Ansible modules. Details internal Python dependencies, standard exit codes, state validation, and interface expectations.
+  - **(2023)** [techforce1.nl: Creating your first Ansible module](https://techforce1.nl/creating-your-first-ansible-module) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A developer-focused guide on writing custom Ansible modules using Python. Focuses on subclassing native utilities, validating input configurations, and programmatically reporting task execution status.
+### Ansible GUI
 
-  - **(2021)** [redhat.com: How to write an Ansible plugin to create inventory files](https://www.redhat.com/en/blog/ansible-plugin-inventory-files) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step development guide for authoring high-performance custom Ansible Inventory Plugins, representing the modern successor to dynamic inventory scripts. Grounded in the native Ansible codebase, this mechanism integrates cleanly with configurations caching and custom configuration structures.
-##### Quality Assurance
+#### Semaphore UI
 
-  - **(2023)** [ansible.com: Creating Custom Rules for Ansible Lint](https://www.redhat.com/en/blog/creating-custom-rules-for-ansible-lint) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the construction of programmatic custom rules for Ansible-Lint, allowing platforms to automatically enforce compliance, naming conventions, and secure coding styles. Live grounding highlights its role in Enterprise GitOps gates to block unvetted configuration styles.
-##### Templating
+  - **(2023)** [tomsitcafe.com: Enhancing Ansible Automation: Exploring the Power of Ansible Semaphore, a Modern Open-Source GUI](https://tomsitcafe.com/2023/05/15/ansible-semaphore-a-modern-open-source-gui-for-our-ansible-automation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Overview of Semaphore, an lightweight, open-source web-based management UI for Ansible playbooks. Discusses its usefulness as a low-overhead, resource-efficient alternative to Red Hat AWX or Tower.
+  - **(2023)** [Semaphore UI 🌟](https://mightyclaws.co.uk/bournemouth)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A resource exploring Semaphore UI for infrastructure deployment. Validates Semaphore UI's utility as a responsive, lightweight graphical interface for local and remote playbook orchestration.
+  - **(2023)** [thenewstack.io: How to Put a GUI on Ansible, Using Semaphore](https://thenewstack.io/how-to-put-a-gui-on-ansible-using-semaphore)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Detailed, step-by-step tutorial on deploying and managing Semaphore UI. Highlights configuration of inventory integration, credential injection, and user role management.
+### Ansible Integration (1)
 
-  - **(2022)** [redhat.com: How to create dynamic configuration files using Ansible templates](https://www.redhat.com/en/blog/ansible-templates-configuration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on dynamic config delivery using the Jinja2 templating engine embedded within Ansible's template module. Highlights the rendering of variables, loops, conditional structures, and filter operations, proving essential for generating complex application settings during runtime deployment phases.
-##### Testing Frameworks
+#### API Automation
 
-  - **(2024)** [Ansible Molecule](https://docs.ansible.com/projects/molecule) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Home page for Molecule, the de facto standard testing framework designed to validate Ansible roles across diverse backend drivers (Docker, Podman, Vagrant, or Cloud instances). It orchestrates container creation, static analysis (linting), playbook execution, and validation checks.
-  - **(2022)** [PDF: Practical Ansible Testing with Molecule](https://www.redhat.com/en/ansible-collaborative) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Complete architectural guide covering practical patterns of role testing with Molecule. Illustrates deep integration into CI/CD build environments, multi-scenario configurations, testinfra assertion script writing, and strategy implementation to guarantee platform delivery standards.
-##### Troubleshooting
+  - **(2023)** [tomsitcafe.com: Automating APIs with Ansible: A Comprehensive Guide](https://tomsitcafe.com/2023/06/09/automating-apis-with-ansible-a-comprehensive-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Guide on managing and interfacing with API endpoints using Ansible's `uri` module. Covers REST payloads, HTTP authentication, and response code assertion to orchestrate cloud microservices.
+  - **(2022)** [steampunk.si: Let us give Ansible a REST](https://steampunk.si/blog/let-us-give-ansible-a-rest) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines advanced patterns of REST API orchestration. Discusses robust exception-handling, rate-limiting, and state-reconciliation when interacting with distributed microservice control planes.
+  - **(2021)** [redhat.com: Using Ansible to interact with web endpoints](https://www.redhat.com/en/blog/ansible-web-endpoints)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat technical guide detailing the integration of Ansible tasks with web service endpoints. Demonstrates querying system telemetry and automating security configuration updates via standard API hooks.
+  - **(2021)** [opensource.com: Using Ansible with REST APIs](https://opensource.com/article/21/9/ansible-rest-apis)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Guides operators on constructing robust workflows that consume external RESTful services. Explains parsing, filtering, and conditional logic application over retrieved JSON payloads.
+  - **(2017)** [linuxctl.com: Ansible - Interacting with external REST API](https://linuxctl.com/2017/01/ansible---interacting-with-external-rest-api)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Classic technical overview of API orchestration inside Ansible. Demonstrates raw RESTful request design to manage legacy web applications that lack official content collections.
+### Ansible Platforms
 
-  - **(2021)** [redhat.com: 6 troubleshooting skills for Ansible playbooks 🌟](https://www.redhat.com/en/blog/troubleshoot-ansible-playbooks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Features critical diagnostics methodologies for debugging failed Ansible playbooks. Includes running in dry-run mode ('--check'), interactive task stepping, variable inspection via 'debug', using dynamic profiling plugins, and increasing verbosity levels ('-vvvv') to pinpoint structural failures.
-##### Variables
+#### Local Development
 
-  - **(2021)** [redhat.com: How to pass extra variables to an Ansible playbook](https://www.redhat.com/en/blog/extra-variables-ansible-playbook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Clarifies variable precedence hierarchies in Ansible with a focus on dynamically passing inputs at runtime via command-line arguments ('--extra-vars' or '-e'). Evaluates inline JSON, YAML syntax parsing, and external JSON file loads to demonstrate highly dynamic control behaviors.
-### Database Management
+  - **(2022)** [developers.redhat.com: How to install VMs and Ansible Automation Platform on Mac M1](https://developers.redhat.com/articles/2022/10/25/how-install-vms-and-ansible-automation-platform-mac-m1) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed engineering guide for configuring local VM environments and deploying Red Hat Ansible Automation Platform (AAP) on Apple Silicon (M1/M2) hardware. Demonstrates hypervisor compatibility layers and target architecture translation.
+### Ansible Quality Assurance
+
+#### Static Analysis
+
+  - **(2023)** [ansible.com: Creating Custom Rules for Ansible Lint](https://www.redhat.com/en/blog/creating-custom-rules-for-ansible-lint) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — In-depth tutorial explaining the creation of custom rules for `ansible-lint` using Python. Essential for platform engineering groups enforcing code quality standards, security compliance, and organizational guardrails across repositories.
+### Ansible Security
+
+#### Secret Management
+
+  - **(2023)** [tomsitcafe.com: Handling sensitive data with Ansible Vault: encrypting strings instead of files](https://tomsitcafe.com/2023/03/16/handling-sensitive-data-with-ansible-vault-encrypting-strings-instead-of-files)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on best-practice implementations of `ansible-vault` for granular string-level cryptography. Helps secure sensitive credentials and API tokens inside version-controlled Git files without encrypting entire playbooks.
+### Enterprise Platform
+
+#### Architecture
+
+  - **(2021)** [redhat.com: From the datacenter to the edge: The open hybrid cloud vision for Red Hat Ansible Automation Platform 2](https://www.redhat.com/en/blog/datacenter-edge-open-hybrid-cloud-vision-red-hat-ansible-automation-platform-2) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the shift to distributed execution plane models in AAP 2. Replaces monolithic scheduler architecture with portable, lightweight execution environments optimized for edge sites.
+#### Mainframe Automation
+
+  - **(2023)** [community.ibm.com: Red Hat Ansible Automation Platform on IBM Z and IBM LinuxONE is generally available now!](https://community.ibm.com/community/user/blogs/daniel-jast1/2023/12/07/red-hat-aap-on-ibm-z-and-linuxone) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Analyzes the availability of Red Hat Ansible Automation Platform on IBM Z and LinuxONE. Bridges legacy mainframe operating systems with modern infrastructure-as-code and configuration workflows.
+#### Partnership
+
+  - **(2022)** [redhat.com: Redefining the possibilities of IT automation across your ecosystem with Red Hat partners](https://www.redhat.com/en/blog/redefining-possibilities-it-automation-across-your-ecosystem-red-hat-partners)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates Red Hat's ecosystem collaboration strategy, focusing on certified infrastructure plugins. Covers streamlined workflows developed alongside AWS, Cisco, and F5 networking nodes.
+#### Releases
+
+  - **(2021)** [redhat.com: Red Hat Ansible Automation Platform Enhancements and New Certified Ansible Content Collections Refine the Automation Experience to Drive Business Imperatives](https://www.redhat.com/en/about/press-releases/red-hat-ansible-automation-platform-enhancements-and-new-certified-ansible-content-collections-refine-automation-experience-drive-business-imperatives)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Press release detailing structural updates to Red Hat Ansible Automation Platform. Evaluates certified collections integrations designed to unify cloud, edge, and hybrid container automation.
+  - **(2021)** [crn.com: IBM’s Red Hat Reveals Ansible Automation Platform 2 Early Access](https://www.crn.com/news/cloud/ibm-s-red-hat-reveals-ansible-automation-platform-2-early-access)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Early access architecture overview of Ansible Automation Platform 2. Highlights migration of task-execution modules to isolated container engines, decoupling control loops from hosts.
+  - **(2021)** [devops.com: Red Hat Extends Scope of Ansible Automation Ambitions](https://devops.com/red-hat-extends-scope-of-ansible-automation-ambitions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the strategic expansion of AAP 2 automation layers. Explores decoupling control loops from target runtimes and shifting execution flows closer to network boundaries and multi-cloud edges.
+### Templating Engine
+
+#### Jinja
+
+  - **(2024)** [==jinja 🌟==](https://github.com/pallets/jinja) <span class='md-tag md-tag--info'>⭐ 11661</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official repository for Jinja, the ubiquitous Python-based templating engine. Jinja underpins all dynamic evaluation structures inside Ansible, enabling programmatic infrastructure assembly.
+## Cloud Infrastructure
+
+### AWS
+
+#### Marketplace
+
+  - **(2024)** [AWS Marketplace (AMIs): AWX/Tower](https://aws.amazon.com/marketplace/search/results?searchTerms=tower) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated catalog of Amazon Machine Images (AMIs) featuring pre-configured deployments of Ansible Tower and AWX. This enables fast, turn-key deployment of configuration management control centers within VPC structures on AWS.
+### Ansible (2)
+
+#### Cloud Provisioning
+
+  - **(2024)** [Public Cloud Guides 🌟](https://docs.ansible.com/projects/ansible/latest/scenario_guides/cloud_guides.html) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official scenario guides showing how to use Ansible to provision, manage, and orchestrate resources across AWS, Azure, Google Cloud, and other major hyper-scalers using native cloud modules.
+## Cloud Native and Orchestration
+
+### Coexistence
+
+#### K8s vs Ansible
+
+  - **(2023)** [devopsinside.com: Is Kubernetes killing tools like Ansible?](https://devopsinside.com/how-kubernetes-is-killing-tools-like-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides an architectural analysis of the symbiotic relationship between GitOps/Kubernetes and Ansible. Demonstrates that while Kubernetes excels at scheduling containers, Ansible remains essential for provisioning the underlying OS and physical compute infrastructure.
+### Foundations (1)
+
+#### Comparison
+
+  - **(2023)** [intellipaat.com: Ansible vs Kubernetes vs Docker](https://intellipaat.com/blog/ansible-vs-kubernetes-vs-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comparative breakdown defining the roles of Ansible, Docker, and Kubernetes in a modern platform ecosystem. Outlines physical setup layers, container virtualization, and orchestration scheduling.
+### Kubernetes
+
+#### Bootstrap and Cluster Ops
+
+  - **(2024)** [**github.com/k3s-io/k3s-ansible 🌟**](https://github.com/k3s-io/k3s-ansible) <span class='md-tag md-tag--info'>⭐ 2804</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The production-standard repository for automating K3s lightweight Kubernetes cluster deployments using Ansible. Fully covers control plane initialization, high availability setups, and agent cluster joins.
+  - **(2024)** [github.com/PyratLabs/ansible-role-k3s 🌟](https://github.com/PyratLabs/ansible-role-k3s) <span class='md-tag md-tag--info'>⭐ 713</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highly structured, modular Ansible role tailored for deploying K3s. Implements fine-grained host configuration and robust systemd lifecycle management over target K3s nodes.
+#### Event-Driven Automation
+
+  - **(2023)** [ansible.com: Kubernetes Meets Event-Driven Ansible 🌟](https://www.redhat.com/en/blog/kubernetes-meets-event-driven-ansible) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the intersection of Event-Driven Ansible (EDA) and Kubernetes environments. Details using rulebooks to ingest K8s events and automate remediation workflows, scaling operations, and policy compliance.
+## Container Orchestration
+
+### Docker Swarm
+
+#### Deployments
+
+  - **(2021)** [maquinasvirtuales.eu: Docker Swarm: Instalar Ansible AWX](https://www.maquinasvirtuales.eu/docker-swarm-instalar-ansible-awx) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Spanish language guide detailing the installation and configuration of Ansible AWX on Docker Swarm. Since modern AWX development has strictly pivoted to Kubernetes/AWX Operator, this resource serves primarily as a legacy reference for swarm-based topologies.
+### Kubernetes (1)
+
+#### Ansible Integration (2)
+
+  - **(2025)** [ansibleforkubernetes.com 🌟](https://www.ansibleforkubernetes.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reference site for Jeff Geerling's "Ansible for Kubernetes" book. It showcases advanced architectural patterns using Ansible to orchestrate cloud-native Kubernetes systems, write custom operators, and manage application lifecycles inside pods.
+#### Deployments (1)
+
+  - **(2022)** [linuxsysadmins.com: Install Ansible AWX on Kubernetes in 5 minutes](https://www.linuxsysadmins.com/install-ansible-awx-on-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A rapid deployment guide demonstrating how to bootstrap an instance of Ansible AWX on a Kubernetes cluster using the AWX Operator. It covers namespace preparation, applying the custom resource manifest, and verifying initial service exposures.
+#### Helm
+
+  - **(2024)** [artifacthub.io: Helm Charts - AWX](https://artifacthub.io/packages/search?ts_query_web=awx&sort=relevance&page=1) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Helm Charts indexing service for AWX deployments on Kubernetes. While the AWX Operator is the official, Red Hat-endorsed packaging system, third-party and legacy Helm Charts exist to satisfy custom, manifest-driven deployment architectures.
+#### Helm Integration
+
+  - **(2024)** [docs.ansible.com: kubernetes.core.helm module – Manages Kubernetes packages with the Helm package manager](https://docs.ansible.com/projects/ansible/latest/collections/kubernetes/core/helm_module.html) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official reference for the `kubernetes.core.helm` Ansible module. This enables declarative state management of Helm packages inside Kubernetes clusters directly from playbooks, bridging traditional automation with modern GitOps pipelines.
+  - **(2024)** [docs.ansible.com: kubernetes.core.helm_plugin module – Manage Helm plugins](https://docs.ansible.com/projects/ansible/latest/collections/kubernetes/core/helm_plugin_module.html) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official documentation detailing Ansible's `kubernetes.core.helm_plugin` module. This module automates the installation, update, and removal of core Helm plugins, streamlining toolchain dependencies directly on administrative cluster environments.
+#### Object Management
+
+  - **(2024)** [docs.ansible.com: kubernetes.core.k8s – Manage Kubernetes (K8s) objects](https://docs.ansible.com/projects/ansible/latest/collections/kubernetes/core/k8s_module.html) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official documentation for the cornerstone `kubernetes.core.k8s` module. It allows direct, declarative definition of Kubernetes objects inside Ansible playbooks using native YAML manifest definitions, enabling a blended hybrid orchestration pattern.
+  - **(2022)** [adamtheautomator.com: How to Use the Ansible Kubernetes Module](https://adamtheautomator.com/ansible-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical tutorial focusing on deploying applications inside Kubernetes utilizing the `k8s` Ansible module. It highlights authentication patterns, namespace orchestration, and managing deployments or services using declarative syntax.
+#### Operators
+
+  - **(2026)** [**AWX Operator**](https://github.com/ansible/awx-operator) <span class='md-tag md-tag--info'>⭐ 1487</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The AWX Operator is a cloud-native Kubernetes Operator designed to automate the deployment, lifecycle management, scaling, and upgrades of AWX. By leveraging Custom Resource Definitions (CRDs), it simplifies complex Postgres and web-app state management inside K8s.
+## DevOps and Learning Resources
+
+### Video Courses
 
 #### Ansible (3)
 
-##### SQL Server
+  - **(2023)** [youtube playlist: Ansible Tutorial - by Infra Xpertzz 🌟](https://www.youtube.com/playlist?list=PLOwxB_PX3s3WSfhzVtwhxXwy7QpkmtnzR)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Video-driven learning path focusing on task controls and failure remediation. Teaches handlers, block-rescue operations, and robust error management patterns within unstable systems.
+  - **(2021)** [youtube: Ansible for beginners - by XavkiEn](https://www.youtube.com/playlist?list=PLWZKNB9waqIXEL-NIapWwIADPtkspe9vk) <span class='md-tag md-tag--warning'>[FRENCH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory video tutorial cataloging infrastructure automation concepts in French. Perfect for engineering teams building foundational declarative syntax and control loop capabilities.
+#### Practical Labs
 
-  - **(2021)** [redhat.com: Using Ansible to deploy Microsoft SQL Server 2019 on Red Hat Enterprise Linux 8](https://www.redhat.com/en/blog/mssql-linux-easy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step enterprise deployment blueprint showcasing the use of Ansible automation to scale, install, configure, and secure MS SQL Server 2019 running on Red Hat Enterprise Linux (RHEL) 8, providing highly reliable enterprise database hosting.
-### Infrastructure Sandbox
+  - **(2021)** [youtube: Exercises / Monitoring : How to install node exporter 🌟](https://www.youtube.com/watch?v=NgRuap0MmZw&ab_channel=XavkiEn) <span class='md-tag md-tag--warning'>[FRENCH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical lab illustrating the deployment of Prometheus Node Exporter. Details how to utilize modular Ansible roles to dynamically configure, enable, and monitor Linux targets.
+## Infrastructure as Code (1)
 
-#### Vagrant
+### Ansible (4)
 
-##### AWX
+#### Application Servers
 
-  - **(2022)** [vagrant: centos-awx](https://portal.cloud.hashicorp.com/vagrant/discover/krlex/centos-awx)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Vagrant-packaged virtual environments configuring AWX (the open-source foundation of Ansible Automation Platform) on CentOS nodes. Designed for developer testing, this pipeline enables local operations of AWX interfaces prior to native Kubernetes/K3s migration of execution plans.
-##### Ansible Tower
+  - **(2021)** [developers.redhat.com: Automate Red Hat JBoss Web Server deployments with Ansible](https://developers.redhat.com/articles/2021/08/30/automate-red-hat-jboss-web-server-deployments-ansible) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Automates deployment and cluster routing for enterprise Red Hat JBoss Web Server (JWS) environments. Illustrates how to orchestrate JBoss installations, execute configuration templating, and deploy Java war artifacts securely.
+#### Automation (1)
 
-  - **(2022)** [vagrant: ansible tower](https://portal.cloud.hashicorp.com/vagrant/discover/ansible/tower)  <span class='md-tag md-tag--info'>[LEGACY]</span> — A public Vagrant box registry listing designed to rapidly spin up sandbox testing instances of Ansible Tower inside VirtualBox. Highly useful for historical reference or offline legacy environments, though largely superseded by container-based AAP development engines.
-### OS Administration
+  - **(2021)** [opensource.com: How I keep my file folders tidy with Ansible](https://opensource.com/article/21/9/keep-folders-tidy-ansible) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines practical patterns utilizing system file management modules to implement directory cleanup pipelines. Discusses setting metadata states, purging logs, and securing directory permissions dynamically.
+#### Best Practices
 
-#### Ansible (4)
+  - **(2021)** [opensource.com: 5 tips for choosing an Ansible collection that's right for you](https://opensource.com/article/21/3/ansible-collections) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical framework for evaluating and selecting Ansible Collections from Galaxy. It highlights assessment metrics such as maintainability, documentation quality, namespace conventions, and community engagement to mitigate security and stability risks in automation supply chains.
+#### CLI Operations
 
-##### User Management
+  - **(2021)** [redhat.com: Deep dive into Ansible ad hoc commands](https://www.redhat.com/en/blog/ansible-ad-hoc-commands) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive review of Ansible's ad hoc execution framework. Details parameter tuning, custom module invocation, inline parameter strings, and executing operations in parallel across large inventories.
+  - **(2021)** [cloudbees.com: Getting Started Quickly With Ansible Ad Hoc Commands](https://www.cloudbees.com/blog/getting-started-quickly-with-ansible-ad-hoc-commands) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Quickstart manual introducing core CLI execution flags. Guides administrators through managing services, querying infrastructure facts, and auditing system state metrics without the overhead of playbooks.
+#### Cloud Collections
 
-  - **(2022)** [redhat.com: 4 steps to create Linux users from a csv file with Ansible](https://www.redhat.com/en/blog/ansible-create-users-csv)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates operational pattern mechanics for parsing structured CSV data within Ansible playbooks. Utilizing the 'read_csv' module coupled with the 'user' and 'authorized_key' core modules, this guide illustrates high-density data-driven automation patterns for local user provisioning across dynamic host environments.
-### Public Cloud
+  - **(2022)** [**oci-ansible-collection.readthedocs.io**](https://oci-ansible-collection.readthedocs.io/en/latest) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Official Sphinx documentation detailing Oracle Cloud Infrastructure (OCI) Ansible Collection. It gives DevOps engineers a standardized declarative approach to provisioning and managing OCI virtual networks, compute instances, database nodes, and object storage systems.
+#### Cloud Integration
 
-#### Ansible (5)
+  - **(2021)** [cloud.google.com: How to deploy the Google Cloud Ops Agent with Ansible](https://cloud.google.com/blog/products/operations/use-ansible-to-deploy-the-google-cloud-ops-agent) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a deployment playbook for installing the Google Cloud Ops Agent across diverse VM groups. Shows how to automate logging and metrics configurations, streamlining GCP telemetry pipelines.
+  - **(2021)** [middlewareinventory.com: How to use ansible with S3 – Ansible aws_s3 examples | Devops Junction](https://www.middlewareinventory.com/blog/ansible-aws_s3-example) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details utilizing AWS collection modules inside Ansible, specifically focusing on the 'aws_s3' module. Covers bucket creation, security policy management, data transfers, and credential resolution within playbooks.
+  - **(2021)** [techbeatly.com: Ansible for Infrastructure Provisioning in AWS | Ansible Real Life Series - youtube](https://techbeatly.com/ansible-for-infrastructure-provisioning-in-aws-ansible-real-life-series) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A video walk-through covering end-to-end AWS provisioning with Ansible. Demonstrates spawning target EC2 virtual compute hosts, binding security group topologies, setting up VPC parameters, and managing tags.
+#### Cloud Integrations
 
-##### AWS
+  - **(2021)** [redhat.com: Red Hat Brings Industry-Leading Ansible Automation Platform to **Microsoft Azure**](https://www.redhat.com/en/about/press-releases/red-hat-brings-industry-leading-ansible-automation-platform-microsoft-azure) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A strategic managed service offering that integrates Ansible Automation Platform directly into Microsoft Azure. This native integration enables enterprise-level, cloud-native automation and orchestration of Azure resources with seamless access to Azure billing and services.
+#### Collections (1)
 
-  - **(2022)** [techbeatly.com: Ansible for Infrastructure Provisioning in AWS | Ansible Real Life Series - youtube](https://techbeatly.com/ansible-for-infrastructure-provisioning-in-aws-ansible-real-life-series)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Real-world walkthrough focusing on automating AWS public cloud resources using the standard 'amazon.aws' collection. Details the creation of VPCs, security groups, and EC2 compute instances within standard enterprise configurations to demonstrate how Ansible can perform both provisioning and OS configuration.
-##### Cloud Scenarios
+  - **(2024)** [AWX Ansible Collection: galaxy.ansible.com/awx/awx](https://galaxy.ansible.com/awx/awx) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official `awx.awx` Ansible Collection, which provides dedicated modules to interact programmatically with AWX/Tower API endpoints. This enables GitOps-style management of AWX configurations, job templates, credentials, and organizational schemas.
+#### Community
 
-  - **(2024)** [Public Cloud Guides 🌟](https://docs.ansible.com/projects/ansible/latest/scenario_guides/cloud_guides.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Extensive dynamic scenario playbooks for provisioning, configuring, and maintaining public cloud resources using Ansible. Provides reference materials covering AWS, Azure, GCP, and OpenStack environments to drive platform automation.
-##### Oracle Cloud
+  - **(2021)** [redhat.com: 16 AnsibleFest presentations for sysadmins](https://www.redhat.com/en/blog/ansiblefest-sysadmins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical index of key presentations from AnsibleFest. Highlights session outcomes regarding next-generation optimization patterns, security auditing, multi-cloud management, and enterprise migration strategies.
+#### Community Authors
 
-  - **(2024)** [oci-ansible-collection.readthedocs.io](https://oci-ansible-collection.readthedocs.io/en/latest) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive documentation portal for the Oracle Cloud Infrastructure (OCI) Ansible collection. Allows engineering teams to model OCI virtual networks, compute instances, storage buckets, and DB systems inside unified Ansible pipelines.
-### Security
+  - **(2026)** [galaxy.ansible.com/geerlingguy](https://galaxy.ansible.com/geerlingguy) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official Ansible Galaxy repository page for Jeff Geerling (geerlingguy), the most prominent community contributor in the Ansible landscape. Host to dozens of highly maintained roles covering PHP, Docker, Jenkins, and Kubernetes.
+#### Comparison (1)
 
-#### Ansible (6)
+  - **(2021)** [acloudguru.com: Ansible vs Puppet: Which is right for you?](https://www.pluralsight.com/resources/blog/cloud/ansible-vs-puppet-which-is-right-for-you)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep analytical comparison weighing Ansible's procedural, agentless, SSH-driven philosophy against Puppet's declarative, master/agent pull topology. Compares target infrastructure footprints, security boundaries, and operational skills overhead.
+  - **(2021)** [analyticsindiamag.com: Ansible vs Docker: A Detailed Comparison Of DevOps Tools](https://analyticsindiamag.com/ansible-vs-docker-a-detailed-comparison-of-devops-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Decouples the architectural concepts of container runtime deployment (Docker) and multi-node system orchestration (Ansible). Highlights how combining these two paradigms enables rapid deployment of complex application stacks.
+#### Concepts
 
-##### PKI Automation
+  - **(2021)** [opensource.com: 10 ways Ansible is for everyone 🌟](https://opensource.com/article/21/1/ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how Ansible's declarative engine appeals to cross-disciplinary teams. Demonstrates scalability patterns from developers to network engineers, showcasing low cognitive load syntax and multi-vendor abstraction layers as key drivers for enterprise-wide adoption.
+  - **(2021)** [linkedin.com: Ansible what is it and what not](https://www.linkedin.com/pulse/ansible-what-marcel-koert)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analytically bounds Ansible's utility profile by identifying what it is and what it is not. Highlights its primary purpose in deployment, configuration state assurance, and software orchestration while detailing architectural anti-patterns where alternative solutions (like direct programming languages) fit better.
+  - **(2021)** [developers.redhat.com: Four reasons developers should use Ansible](https://developers.redhat.com/articles/2021/09/27/four-reasons-developers-should-use-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines architectural benefits why software engineers should embrace configuration as code using Ansible. Focuses on local development environment parity, simplified build runners, database schema migrations, and application topologies.
+#### Configuration Management
 
-  - **(2023)** [Ansible Let's Encrypt Collection](https://www.telekom-mms.com/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Operational overview detailing how to automate the validation, generation, installation, and programmatic renewal of TLS/SSL certificates using Let's Encrypt ACME challenges within automated Ansible environments. Bridges infrastructure operations and security compliance.
-##### Secrets Management
+  - **(2021)** [redhat.com: How to pass extra variables to an Ansible playbook](https://www.redhat.com/en/blog/extra-variables-ansible-playbook) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Clarifies the mechanism of variable precedence in Ansible by focusing on "extra variables" passed via command-line arguments (`--extra-vars` or `-e`). This approach represents the highest level of precedence, enabling runtime dynamic overrides essential for CI/CD integrations.
+#### Containers
 
-  - **(2023)** [youtube: Ansible Automation | How to Secure and Protect Critical Information Playbooks Using Ansible Vault](https://www.youtube.com/watch?v=mc20VwxYaGE&t=3s&ab_channel=CLOUDLEARNHUB)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed exploration of Ansible Vault mechanisms for encrypting sensitive files, strings, and variables within version-controlled repositories. Explains secure symmetric encryption keys, inline variable decryption, and multi-vault password setups crucial for maintaining GitOps-aligned configurations without exposing plain-text credentials.
+  - **(2021)** [fedoramagazine.org: Using Ansible to configure Podman containers 🌟](https://fedoramagazine.org/using-ansible-to-configure-podman-containers) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces Podman automation using native Ansible modules. Details how to coordinate rootless container deployments, configure volume mapping, publish network ports, and manage container life cycles without requiring a system-level Docker daemon.
+#### Continuous Delivery
+
+  - **(2021)** [redhat.com: 6 steps to automating code pushes with Ansible Automation Platform 🌟](https://www.redhat.com/en/blog/6-code-pushes-aap) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Walks through enterprise application deployment pipelines using the Red Hat Ansible Automation Platform. Details integration with git version-control systems, webhook execution triggers, and reliable rollbacks.
+#### Core Concepts
+
+  - **(2024)** [docs.ansible.com: Working With Playbooks](https://docs.ansible.com/projects/ansible/latest/user_guide/playbooks.html) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official reference documentation for writing and executing Ansible Playbooks. This standard manual explains YAML syntax, task execution flows, variable precedence, and handler behaviors, forming the fundamental baseline for all Ansible-driven infrastructure automation.
+#### Curated Lists
+
+  - **(2022)** [**https://github.com/jdauphant/awesome-ansible**](https://github.com/jdauphant/awesome-ansible) <span class='md-tag md-tag--info'>⭐ 1004</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A curated repository listing valuable Ansible tools, libraries, playbooks, roles, and learning materials. Ideal for discovering community extensions, monitoring integrations, and operational best-practices.
+#### Data Structures (1)
+
+  - **(2021)** [middlewareinventory.com: Ansible List Examples – How to create and append items to List 🌟](https://www.middlewareinventory.com/blog/ansible-list-examples-how-to-create-and-append-items-to-list) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive guide focusing on handling array data structures inside playbooks. Analyzes syntax patterns for dynamic list instantiation, appending list items, utilizing filter operations, and handling nested array patterns.
+  - **(2021)** [middlewareinventory.com: Ansible Dictionary – How to create and add items to dict](https://www.middlewareinventory.com/blog/ansible-dict) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details key-value dictionary patterns inside YAML variables. Focuses on declarative creation, updating nested structures, merging multiple dictionaries with custom filters, and validating variable shapes.
+#### Database Deployment
+
+  - **(2021)** [**github.com/oravirt/ansible-oracle**](https://github.com/oravirt/ansible-oracle) <span class='md-tag md-tag--info'>⭐ 367</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A highly robust, community-driven Ansible repository designed to automate Oracle Database and Grid Infrastructure installations. This collection manages kernel parameters, prerequisites, ASM storage volumes, and database engine upgrades. It serves as an essential framework for migrating legacy Oracle setups to hybrid structures.
+  - **(2021)** [github.com/oravirt/ansible-oracle-modules](https://github.com/oravirt/ansible-oracle-modules) <span class='md-tag md-tag--info'>⭐ 217</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized suite of Ansible modules specifically engineered to interact directly with internal Oracle database schemas. These modules handle tasks like tablespace adjustments, user provisioning, and initialization parameter alterations. They act as the post-install orchestration companion to base automation engines.
+  - **(2019)** [redhat.com: Using Ansible to deploy Microsoft SQL Server 2019 on Red Hat Enterprise Linux 8](https://www.redhat.com/en/blog/mssql-linux-easy) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive Red Hat tutorial demonstrating how to use Ansible system roles to install and optimize Microsoft SQL Server 2019 on RHEL 8. It covers disk allocation, OS kernel parameters adjustment, and high-availability configuration. This is a foundational guide for platform teams automating traditional databases.
+  - **(2021)** [github.com/abessifi/ansible-sqlplus](https://github.com/abessifi/ansible-sqlplus) <span class='md-tag md-tag--info'>⭐ 1</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight community-focused Ansible module enabling seamless SQL*Plus shell operations within automated tasks. It allows DBAs to execute SQL and PL/SQL scripts without writing complex shell wrappers. It serves as an ad-hoc query execution tool for classic on-premises database systems.
+  - **(2014)** [oravirt.wordpress.com: Getting started with ansible-oracle](https://oravirt.wordpress.com/2014/10/01/getting-started-with-ansible-oracle) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An early community guide to bootstrapping Oracle automated configurations using ansible-oracle. It introduces infrastructure engineers to basic node topologies, directory layouts, and execution variables. It serves as a historical baseline for modern database-as-code deployments.
+  - **(2014)** [oravirt.wordpress.com: Changes in ansible-oracle v1.2](https://oravirt.wordpress.com/2014/11/05/changes-in-ansible-oracle-v1-2) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Release analysis highlighting the enhancements introduced in ansible-oracle v1.2. The article outlines performance-tuning improvements, bug fixes for Oracle Restart configurations, and more flexible network settings. This is a reference point for tracking configuration history.
+#### Dependency Management
+
+  - **(2023)** [List of Red Hat Supported Maintained Ansible Collections 🌟](https://access.redhat.com/articles/4993781) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive directory of officially supported Ansible Collections maintained by Red Hat and its certified partners. This registry ensures enterprise compliance, stability, and security by providing thoroughly tested modules for operating systems, networks, and cloud providers.
+#### Docker Deployment
+
+  - **(2026)** [**Ansible Role: Docker 🌟**](https://github.com/geerlingguy/ansible-role-docker) <span class='md-tag md-tag--info'>⭐ 2270</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An exceptionally popular and robust Ansible role designed by Jeff Geerling to handle complete installation and configuration of Docker on diverse Linux distros. It sets up the Docker daemon, manages system services, and handles dependencies.
+#### Education
+
+  - **(2025)** [ansiblefordevops.com](https://www.ansiblefordevops.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Companion portal for "Ansible for DevOps" by Jeff Geerling, widely recognized as the definitive handbook on automation. It provides architectural examples, source repositories, and deployment guides covering bare-metal, VM, and cloud environments.
+  - **(2022)** [opensource.com: 9 ways to learn Ansible this year 🌟](https://opensource.com/article/22/1/learn-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Presents nine structured avenues to quickly learn and master Ansible. Features suggestions including interactive hands-on sandboxes, real-world role patterns, training resources, and active developer forums.
+  - **(2021)** [toptechskills.com: Ansible Tutorials & Courses 🌟](https://www.toptechskills.com/ansible-tutorials-courses)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An aggregated directory of high-quality courses, sandbox tutorials, and certification preparation resources. Curates practical pathways to assist operations teams in validating skills and developing complex infrastructure configurations.
+#### Enterprise Control
+
+  - **(2021)** [Ansible Tower Docs](https://legacy-controller-docs.ansible.com/ansible-tower) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Legacy documentation archive for Ansible Tower, Red Hat's proprietary enterprise web console and REST API dashboard for Ansible. Note that in recent product lifecycles, Ansible Tower has been superseded and integrated into the containerized Red Hat Ansible Automation Platform.
+  - **(2021)** [steampunk.si: Managing infrastructure using Ansible Tower](https://steampunk.si/blog/managing-infrastructure-using-ansible-tower) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A workflow guide focusing on using Ansible Tower/AWX for infrastructure management. It demonstrates practical orchestration patterns such as job templates, dynamic inventory syncing, notification webhooks, and Role-Based Access Control (RBAC) definitions.
+#### Enterprise Integration
+
+  - **(2021)** [redhat.com: Introduction to RHEL System Roles 🌟](https://www.redhat.com/en/blog/introduction-rhel-system-roles) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains Red Hat Enterprise Linux (RHEL) System Roles, which are pre-packaged, vendor-supported Ansible collections designed for standardizing OS parameters. Highlights roles for storage layout, network configurations, timesync, and security baselines.
+#### Enterprise Platforms
+
+  - **(2021)** [redhat.com: Red Hat Ansible Automation Platform 2 Drives Cloud-Native Automation and Helps Developers Become Automators](https://www.redhat.com/en/about/press-releases/red-hat-ansible-automation-platform-2-drives-cloud-native-automation-and-helps-developers-become-automators) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat Ansible Automation Platform 2 introduces containerized execution environments to decouple automation runtime from the control plane. This architectural shift eliminates dependency conflicts and enhances scalability across hybrid cloud environments. It serves as an enterprise-grade control system for distributed IT automation.
+#### Environment Management
+
+  - **(2021)** [redhat.com: How to set up and use Python virtual environments for Ansible](https://www.redhat.com/en/blog/python-venv-ansible) <span class='md-tag md-tag--warning'>[BASH/PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Solves python library conflicts on Ansible controller nodes using Python virtual environments ('venv'). Details installation sequences, dependencies isolation, pip package mapping, and using python path variables inside runner pipelines.
+#### History
+
+  - **(2021)** [opensource.com: How Ansible got started and grew](https://opensource.com/article/21/2/ansible-origin-story)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Chronicles the evolution of Ansible from its early development roots to Red Hat's premier configuration orchestration platform. Reviews historical design choices, including agentless SSH transport, zero-bootstrap setup, and Python-based plugins, which shaped its current market domination.
+#### Identity Access Management
+
+  - **(2021)** [developer.okta.com: Tutorial: Ansible and Account Automation with Okta](https://developer.okta.com/blog/2021/02/05/okta-ansible) <span class='md-tag md-tag--warning'>[PYTHON/YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Illustrates how to bridge identity providers with system-level configuration, specifically integrating Okta APIs with Ansible modules. Details dynamic workflows for onboarding user accounts, security grouping, and programmatic credential management directly within continuous integration topologies.
+#### Introduction
+
+  - **(2021)** [redhat.com: Demystifying Ansible for Linux sysadmins 🌟](https://www.redhat.com/en/blog/demystifying-ansible-sysadmins) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demystifies Ansible automation mechanics specifically tailored to system administration architectures. The guide explores the core agentless architecture, declarative state models, SSH control path transport, and how standard shell operations mapping to modules can prevent configuration drift on production fleets.
+  - **(2021)** [redhat.com: Got automation? Here's a quick guide to get you up to speed on Ansible 🌟](https://www.redhat.com/en/blog/how-start-ansible) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A fundamental roadmap designed for traditional engineers migrating from shell scripting paradigms. Covers declarative task design, module encapsulation principles, and strategies to orchestrate reliable parallel host commands with idempotent verification.
+  - **(2021)** [k21academy.com: Ansible for Beginners | Overview | Architecture & Use Cases 🌟](https://k21academy.com/devops/ansible-for-beginners)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive introductory architectural layout outlining controller requirements, managed nodes, dynamic inventory files, YAML playbook hierarchy, and general configuration management use-cases across environments.
+  - **(2021)** [dev.to: DevOps 101 : Introduction to Ansible](https://dev.to/grayhat/devops-101-introduction-to-ansible-1n64) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A DevOps-focused introduction to Ansible fundamentals. Features simple configurations, basic execution strategies, state assertions, and standard recommendations for writing clean, readable YAML blueprints.
+#### Inventory Management
+
+  - **(2021)** [redhat.com: How to create dynamic inventory files in Ansible](https://www.redhat.com/en/blog/ansible-dynamic-inventories) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Addresses scaling issues in dynamic cloud networks. Introduces automated discovery strategies using dynamic inventories, eliminating hardcoded target assets via API integration across clouds.
+  - **(2021)** [redhat.com: How to write a Python script to create dynamic Ansible inventories](https://www.redhat.com/en/blog/ansible-dynamic-inventory-python) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical tutorial showing how to write custom dynamic inventory parsers in Python. Explains API data queries, caching requirements, and generating the standard JSON output format expected by the Ansible runner.
+  - **(2021)** [redhat.com: How to write an Ansible plugin to create inventory files](https://www.redhat.com/en/blog/ansible-plugin-inventory-files) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Explains how to develop optimized Ansible inventory plugins in Python. Details how native inventory plugins outperform legacy inventory scripts by integrating natively with caching classes and validating settings.
+#### Linux Administration
+
+  - **(2021)** [redhat.com: A brief introduction to Ansible roles for Linux system administration 🌟](https://www.redhat.com/en/blog/ansible-system-role) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exploration of Red Hat's system-roles design pattern, standardizing administrative tasks across Red Hat Enterprise Linux (RHEL). These structured roles provide pre-packaged, robust modules for managing SELinux, firewalls, and storage.
+#### Modular Design
+
+  - **(2021)** [redhat.com: 8 steps to developing an Ansible role in Linux 🌟](https://www.redhat.com/en/blog/developing-ansible-role) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A strict blueprint outlining the 8-step process to package, version, and manage custom Ansible roles. Promotes standard practices using standard role directory layouts—defaults, tasks, vars, handlers, templates, and meta—ensuring clean distribution.
+#### NGINX Automation
+
+  - **(2021)** [**galaxy.ansible.com/nginxinc/nginx_core**](https://galaxy.ansible.com/nginxinc/nginx_core) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The official Ansible NGINX Core Collection. It automates the installation, configuration, and execution of NGINX Open Source and NGINX Plus instances. It provides modular, enterprise-ready playbooks to streamline load-balancing, reverse proxies, and web operations across heterogeneous environments.
+#### Network Automation
+
+  - **(2023)** [github.com/automateyournetwork/automate_your_network: Automate Your Network' - John Capobianco - July 1st 2023](https://github.com/automateyournetwork/automate_your_network) <span class='md-tag md-tag--info'>⭐ 647</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive network automation repository by John Capobianco supporting his publication. It presents concrete playbooks and collections to programmatically manage, audit, and document enterprise network appliances and switches.
+#### Network Engineering
+
+  - **(2021)** [redhat.com: How to use Ansible to configure a reverse proxy 🌟](https://www.redhat.com/en/blog/reverse-proxy-ansible) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step design of an automated reverse proxy layer using HAProxy or Nginx. Illustrates template integration with dynamic backend target pools, configuring routing rules, load-balancer health checks, and secure SSL/TLS listeners through automation.
+#### Notification
+
+  - **(2021)** [redhat.com: How to use Ansible to send an email using Gmail](https://www.redhat.com/en/blog/configure-gmail-using-ansible) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates programmatic notification workflows by configuring Ansible to route runtime alerts through Gmail SMTP relays. Explains secure credential injection, target port bindings, and task logic triggers during deployment failure modes.
+#### Optimization
+
+  - **(2021)** [opensource.com: 4 lines of code to improve your Ansible play](https://opensource.com/article/21/1/improve-ansible-play) <span class='md-tag md-tag--warning'>[INI/YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes execution bottlenecks in Ansible infrastructure automation, providing a blueprint to optimize configuration files. Demonstrates how establishing pipelining and tuning persistent connection control paths in 'ansible.cfg' reduces remote execution latency up to 600%. It offers an elegant balance of minimal footprint overhead with immense execution gains.
+  - **(2021)** [toptechskills.com: How to Speed Up Your Ansible Playbooks Over 600% 🌟](https://www.toptechskills.com/ansible-tutorials-courses/speed-up-ansible-playbooks-pipelining-mitogen) <span class='md-tag md-tag--warning'>[PYTHON/YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Details Mitogen connection plugin integration with Ansible. Analyzes native SSH overhead bottlenecks and shows how Mitogen's pipelining engine and multiplexed processes can reduce CPU utilization on controller nodes while speeding up runtimes by over 600%.
+  - **(2021)** [vitux.com: How to speed-up an Ansible Playbook 🌟](https://vitux.com/how-to-speed-up-an-ansible-playbook) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An optimization manual detailing how to address slow playbook execution issues. Covers disabling system facts gathering, adjusting connection fork limits, utilizing custom caching backends, and modularizing tasks.
+  - **(2021)** [redhat.com: 8 ways to speed up your Ansible playbooks](https://www.redhat.com/en/blog/faster-ansible-playbook-execution) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Presents eight engineering recommendations to optimize Ansible playbook execution. Features execution strategies (free strategy), task-level profiling, asynchronous execution, facts caching, and tuned pipelining configurations.
+#### Package Management
+
+  - **(2021)** [redhat.com: Add a repo and install a package the Ansible way](https://www.redhat.com/en/blog/install-ansible-way) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines platform-agnostic package provisioning in enterprise environments. Illustrates standard configurations using generic package modules, repository definitions, GPG key ingestion, and target package state auditing across Red Hat and Debian host targets.
+  - **(2021)** [redhat.com: How to install software packages with an Ansible playbook](https://www.redhat.com/en/blog/software-packages-ansible) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews the foundational mechanics of configuring multi-package software installations via declarative playbooks. Details state assertions, package locks, standard repository overrides, and handler bindings for service restarts.
+#### Package Registry
+
+  - **(2026)** [galaxy.ansible.com](https://galaxy.ansible.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Ansible Galaxy serves as the central hub and public registry for finding, downloading, and sharing community-driven or certified Ansible collections, roles, and modules, serving as the core package ecosystem for modern IaC.
+#### Playbook Design (1)
+
+  - **(2021)** [linuxtechi.com: How to Use Loops in Ansible Playbook](https://www.linuxtechi.com/how-to-use-loops-in-ansible-playbook) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A detailed technical guide on implementing repetitive execution logic in Ansible playbooks using `loop` and legacy `with_*` statements. It covers complex data structures, nesting loops, and filtering, allowing developers to optimize playbooks and prevent task duplication.
+#### Quickstart
+
+  - **(2021)** [redhat.com: Quick start guide to Ansible for Linux sysadmins 🌟](https://www.redhat.com/en/blog/ansible-quick-start) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operations-oriented quickstart reference designed for immediate onboarding. Details secure SSH key exchange setups, target fleet inventory definition files, and foundational playbook composition methodologies to implement standardized configurations across Linux distributions.
+  - **(2021)** [linuxtechlab.com: Ansible Tutorial: Introduction to simple Ansible commands](https://linuxtechlab.com/ansible-tutorial-simple-commands) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Focuses on instant-impact shell execution using Ansible ad hoc commands. Details fast syntax constructs for basic file copying, service manipulation, shell executions, and quick state analysis without the overhead of writing full-scale playbooks.
+#### Releases (1)
+
+  - **(2021)** [ansible.com: Announcing the Community Ansible 3.0.0 Package 🌟](https://www.redhat.com/en/blog/channel/open-source-communities)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the structural transition introduced in Ansible 3.0.0. Focuses on the architectural split that separated 'ansible-core' engine components from 'collections' packages, resolving dependency bottlenecks and streamlining modern community module delivery.
+  - **(2021)** [Ansible 3.3.0 released](https://groups.google.com/g/ansible-devel/c/CdQ7eWUUm8k?pli=1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Release analysis for Ansible 3.3.0. Details backward compatibility constraints, system engine integration tests, updated community collections, and critical bug fixes mapped back to the underlying 'ansible-core' codebase.
+#### Roles
+
+  - **(2022)** [galaxy.ansible.com/geerlingguy/awx 🌟](https://galaxy.ansible.com/geerlingguy/awx) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A popular, legacy Ansible role by Jeff Geerling designed for automated installation of AWX on virtual or bare-metal systems. Note that since modern AWX relies almost exclusively on the Kubernetes AWX Operator, this role is largely legacy.
+#### Scheduling and Automation
+
+  - **(2021)** [opensource.com: How I use Ansible and anacron for automation](https://opensource.com/article/21/9/ansible-anacron-automation) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An integration tutorial demonstrating how to pair Ansible task execution with anacron's scheduling engine. It resolves typical automation gaps on intermittently connected devices or workstations where rigid system cron configurations fail. It is a smart design pattern for local edge maintenance automation.
+#### Secret Management (1)
+
+  - **(2024)** [konstruktoid/ansible-hvault-inventory: Dynamic Ansible inventory using HashiCorp' Vault SSH OTP and local password rotation](https://github.com/konstruktoid/ansible-hvault-inventory) <span class='md-tag md-tag--info'>⭐ 23</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced dynamic Ansible inventory script integrating directly with HashiCorp Vault. It automates credential rotation, securely requests temporary SSH One-Time Passwords (OTP), and pulls inventory variables dynamically from secure vaults.
+#### Security
+
+  - **(2021)** [youtube: Ansible Automation | How to Secure and Protect Critical Information Playbooks Using Ansible Vault](https://www.youtube.com/watch?v=mc20VwxYaGE&t=3s&ab_channel=CLOUDLEARNHUB) <span class='md-tag md-tag--warning'>[SHELL/YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step video guide exploring secret management using Ansible Vault. Details workflows for encrypting yaml files, inline variables encryption, managing vault passwords, and secure secret resolution in CI/CD runners.
+#### Security Automation
+
+  - **(2022)** [Ansible Let's Encrypt Collection](https://www.telekom-mms.com/blog) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized Ansible Collection designed to automate the lifecycle of Let's Encrypt TLS/SSL certificates. It leverages the ACME protocol to orchestrate automated domain validation, certificate issuance, renewal, and web server configuration reloading across infrastructure.
+#### System Management
+
+  - **(2021)** [redhat.com: How to automate system reboots using the Ansible reboot module](https://www.redhat.com/en/blog/automate-reboot-ansible) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical deep dive on the 'ansible.builtin.reboot' module, detailing configuration parameters for safe kernel patching or driver upgrades. Explains the orchestration mechanics of initiating reboots, handling control channel disconnects, and validating post-reboot target accessibility.
+  - **(2021)** [opensource.com: 5 everyday sysadmin tasks to automate with Ansible 🌟](https://opensource.com/article/21/3/ansible-sysadmin) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines five common system maintenance workloads—package updates, log cleanup, backup tasks, service verification, and user management—and converts them into structured, reusable Ansible modules. Minimizes variance and repetitive sysadmin activities.
+  - **(2021)** [redhat.com: 4 steps to create Linux users from a csv file with Ansible](https://www.redhat.com/en/blog/ansible-create-users-csv) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Shows how to automate user onboarding by reading CSV files inside Ansible playbooks. Details loop patterns, CSV parser integration, group creation, dynamic username validation, and secure password hashing algorithms.
+#### System Patching
+
+  - **(2023)** [Tronde/ansible-role-rhel-patchmanagement](https://github.com/Tronde/ansible-role-rhel-patchmanagement) <span class='md-tag md-tag--info'>⭐ 75</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A community-contributed Ansible role designed to streamline patch management workflows across Red Hat Enterprise Linux (RHEL) architectures. Enables system updates, security errata auditing, and automated reboot coordination.
+#### Templating (1)
+
+  - **(2021)** [redhat.com: How to create dynamic configuration files using Ansible templates](https://www.redhat.com/en/blog/ansible-templates-configuration) <span class='md-tag md-tag--warning'>[YAML/JINJA2 CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates the design of dynamic configuration templates using the Jinja2 engine in Ansible. Details parsing nested loops, multi-variable evaluations, default parameters, and writing customized configuration payloads for system targets.
+#### Troubleshooting (1)
+
+  - **(2021)** [redhat.com: 6 troubleshooting skills for Ansible playbooks 🌟](https://www.redhat.com/en/blog/troubleshoot-ansible-playbooks) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A strategic guide outlining crucial diagnostics and troubleshooting workflows for failing Ansible playbooks. Key techniques include utilizing debug modules, verbose logging (`-vvvv`), step execution, check-mode dry runs, and analyzing variable scopes to pinpoint structural or runtime issues.
+#### Tutorials
+
+  - **(2021)** [youtube: Ansible Collections 🌟](https://www.youtube.com/watch?app=desktop&v=AXnDrGgLaF0&feature=share&ab_channel=RobertdeBock) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A video-based walkthrough demonstrating how to construct, package, distribute, and consume Ansible Collections. The tutorial outlines the transition from legacy monolithic roles to modular collection structures containing plugins, playbooks, and roles.
+#### Web Console
+
+  - **(2026)** [==Ansible AWX==](https://github.com/ansible/awx) <span class='md-tag md-tag--info'>⭐ 15454</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — AWX serves as the open-source upstream project for Ansible Automation Platform/Tower. Written in Django and React, it provides a web-based user interface, REST API, and task engine to centrally manage Ansible inventories, credentials, playbooks, and scheduling in containerized environments.
+### Ansible Testing
+
+#### Best Practices (1)
+
+  - **(2021)** [PDF: Practical Ansible Testing with Molecule](https://www.redhat.com/en/ansible-collaborative) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive Red Hat joint whitepaper demonstrating enterprise-grade validation patterns using Molecule. It emphasizes CI/CD testing pipeline integration, linting standards, and execution verification across multi-platform targets.
+#### Molecule
+
+  - **(2026)** [Ansible Molecule](https://docs.ansible.com/projects/molecule) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Molecule is the definitive testing framework for Ansible roles and collections. It orchestrates test infrastructure using containers or VMs, runs linters, executes target playbooks, and runs validation scripts to guarantee code reliability across systems.
+#### Tutorials (1)
+
+  - **(2023)** [tomsitcafe.com: How to test Ansible code with Molecule](https://tomsitcafe.com/2023/04/27/how-to-test-ansible-code-with-molecule) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical walkthrough highlighting modern Ansible Molecule paradigms. The guide explores configuring the `molecule.yml` control file, executing syntax verification, lint checks, and provisioning isolated test drivers for validation.
+  - **(2018)** [jeffgeerling.com: Testing your Ansible roles with Molecule](https://www.jeffgeerling.com/blog/2018/testing-your-ansible-roles-molecule) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry-standard guide authored by Jeff Geerling exploring test-driven development for Ansible roles. It introduces Molecule's core workflow, demonstrating how to use Docker drivers to spin up clean instances, execute roles, and verify states.
+  - **(2018)** [opensource.com: Testing Ansible roles with Molecule](https://opensource.com/article/18/12/testing-ansible-roles-molecule) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduction to testing Ansible configuration playbooks using the Molecule framework. The guide focuses on improving role determinism and reliability by enforcing lint checks and testing playbooks inside standardized container environments.
+### Deployment Tools
+
+#### Application Deployment
+
+  - **(2022)** [**Capistrano**](https://capistranorb.com) <span class='md-tag md-tag--warning'>[RUBY CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A remote server automation and deployment framework written in Ruby. It is a classic standard for multi-stage deployments, file synchronization, and atomic rollbacks. It remains highly popular for standard VM infrastructures, though cloud-native projects have largely migrated to Kubernetes-based systems.
+  - **(2022)** [Ansistrano](https://github.com/ansistrano) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — An Ansible-based application deployment solution heavily inspired by Ruby's Capistrano. It targets zero-downtime scripting setups using multi-release symlink rotations. While highly valuable for legacy monorepo VMs, it is mostly archived in modern cloud-native, containerized architectures.
+### Foreman
+
+#### Systems Provisioning
+
+  - **(2026)** [Foreman](https://www.theforeman.org) <span class='md-tag md-tag--warning'>[RUBY CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Foreman is an enterprise lifecycle and provisioning management tool for physical and virtual servers. Integrating with Ansible via Foreman Ansible Modules (FAM), it matches bare-metal provisioning with configuration management and dynamic inventory mapping.
+### Packer
+
+#### Machine Images
+
+  - **(2020)** [github.com/tom-256/ansible-awx-packer](https://github.com/tom-256/ansible-awx-packer) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An inactive HashiCorp Packer template configured to compile machine images with Ansible AWX pre-installed. Represents vintage configuration patterns before the containerized, operator-managed microservices architecture became the default delivery method.
+  - **(2020)** [github.com/scorputty/packer-centos-awx](https://github.com/scorputty/packer-centos-awx) <span class='md-tag md-tag--info'>⭐ 1</span> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A legacy Packer configuration designed to output CentOS-based virtual machine images with pre-baked AWX deployments. Reflects older DevOps paradigms focused on VM-based immutable infrastructure instead of Kubernetes runtimes.
+  - **(2019)** [github.com/jsmartin/ansible-tower-packer](https://github.com/jsmartin/ansible-tower-packer) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Vintage HashiCorp Packer scripts utilized to generate machine images initialized with Red Hat Ansible Tower software. Serves as historical code archeology for engineers maintaining legacy, VM-based environments.
+## System Administration
+
+### Linux Automation
+
+#### Scheduling
+
+  - **(2021)** [opensource.com: Use anacron for a better crontab](https://opensource.com/article/21/2/linux-automation) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exploration of Linux job execution using anacron instead of traditional crontabs. This tutorial highlights anacron's ability to trigger deferred system-level maintenance tasks and backups even after systemic power shutdowns. It provides system engineers with a highly reliable automation fallback plan.
+## Virtualization
+
+### Vagrant
+
+#### Sandboxing
+
+  - **(2021)** [vagrant: ansible tower](https://portal.cloud.hashicorp.com/vagrant/discover/ansible/tower) <span class='md-tag md-tag--warning'>[RUBY CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A pre-configured Vagrant box used for local sandboxing, prototyping, and testing of Ansible Tower configurations. Useful for local legacy exploration but superseded by container-native and operator-based development local loops.
+  - **(2021)** [vagrant: centos-awx](https://portal.cloud.hashicorp.com/vagrant/discover/krlex/centos-awx) <span class='md-tag md-tag--warning'>[RUBY CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specific Vagrant box packaging AWX pre-installed on CentOS. Provides a historical self-contained laboratory for testing old iterations of AWX before the modern, mandatory transition to Kubernetes-based runtime platforms.
 
 ---
 💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Oauth](./oauth.md)

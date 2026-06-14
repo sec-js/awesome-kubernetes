@@ -5,64 +5,78 @@
 
 ## Standard Reference
 
-  - [Jira](https://www.atlassian.com/software/jira)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [OpenProject](https://www.openproject.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [nextcloud.com](https://nextcloud.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Servicenow](https://www.servicenow.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Atlassian Confluence](https://www.atlassian.com/software/confluence)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [opensource.com: A guide to simplifying invoicing with this open source tool](https://opensource.com/article/21/7/open-source-invoicing-po)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [devops.com: Clubhouse Becomes Shortcut to Transform Software Project Management](https://devops.com/clubhouse-becomes-shortcut-to-transform-software-project-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [engineeringmanagement.info: Planning and Schedule Free Templates](https://www.engineeringmanagement.info/2017/02/planning-and-schedule-free-templates.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [namelix.com](https://namelix.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Best Project Management Software of 2020](https://neilpatel.com/blog/best-project-management-software)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [opensource.com: 3 open source alternatives to Confluence](https://opensource.com/article/20/9/open-source-alternatives-confluence)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [joplin](https://github.com/laurent22/joplin) <span class='md-tag md-tag--info'>⭐ 54901</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
-  - [Podium](https://github.com/sa-mw-dach/podium)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Swim](https://swimm.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [thenewstack.io: Swimm Helps New Dev Hires Stay Afloat with Continuous Documentation](https://thenewstack.io/swimm-helps-new-dev-hires-stay-afloat-with-continuous-documentation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [techrepublic.com: Kanboard: A simple to deploy, easy to use Kanban board' for project management](https://www.techrepublic.com/article/kanboard-a-simple-to-deploy-easy-to-use-kanban-board-for-project-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [btw.so: Open Source Alternatives 🌟](https://www.btw.so/open-source-alternatives)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [opensource.com: 5 open source alternatives to Zoom](https://opensource.com/article/21/9/alternatives-zoom)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [makeuseof.com: The 8 Best Open-Source Project Management Software](https://www.makeuseof.com/best-open-source-project-management-software)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [opensource.com: Open source tools for running a small business in 2022](https://opensource.com/article/21/12/open-source-business-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [itsfoss.com: Gitter: A Cross-Platform Open Source Community Platform for' Developers](https://itsfoss.com/gitter)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ifuckinghatejira.com](https://ifuckinghatejira.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Continuous Integration
+## Developer Productivity
 
-### GitHub
+### Business Utilities
 
-#### Developer Productivity
+#### Invoicing
 
-  - **(2024)** [GH repos: repo.new](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fnew)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The standard browser shortcut (`repo.new`) designed to route authenticated developer sessions directly to GitHub's repository creation workspace. Enables rapid workspace initialization and deployment pipeline seeding.
-## Productivity
+  - **(2021)** [opensource.com: A guide to simplifying invoicing with this open source tool](https://opensource.com/article/21/7/open-source-invoicing-po)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A guided overview of utilizing modern, open-source invoicing and billing software to streamline purchase order processes and administrative overhead within smaller tech businesses or individual consulting practices.
+#### Naming Generator
 
+  - **(2026)** [namelix.com](https://namelix.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AI-powered naming utility that uses machine learning to suggest brand and project names, assisting developers in rapidly finding high-quality names for new microservices or open-source projects.
+#### Operations
+
+  - **(2022)** [opensource.com: Open source tools for running a small business in 2022](https://opensource.com/article/21/12/open-source-business-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces a foundational toolkit of open-source ERP, accounting, and task-tracking platforms designed to help modern startups operate efficiently without proprietary vendor lock-in.
 ### Collaboration
 
-#### Virtual Meetings
+#### Chat Platforms
 
-  - **(2024)** [Google meet: meet.new](https://meet.google.com/unsupported?meetingCode=new&ref=https://meet.google.com/new?authuser%3D0%26hs%3D178)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates the Google Meet instant launch redirect engine (meet.new). Highlights modern browser routing pipelines and user profile sessions bridging within SaaS workspaces to bootstrap live teleconferencing frameworks.
-#### Web Conferencing
+  - **(2020)** [itsfoss.com: Gitter: A Cross-Platform Open Source Community Platform for Developers](https://itsfoss.com/gitter)  <span class='md-tag md-tag--info'>[LEGACY]</span> — An exploration of Gitter, a highly integrated developer-focused chat tool. Note: In late 2020, Gitter migrated its infrastructure to the Matrix network, moving away from legacy proprietary structures.
+#### Cloud Storage
 
-  - **(2024)** [Zoom: zoom.new](https://zoom.us/signin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The virtual web conferencing shortcut (`zoom.new`) routing users to Zoom's active meeting creation panel. Highlights the utility of quick SaaS redirects in managing remote development operations.
-### GitHub (1)
+  - **(2026)** [nextcloud.com](https://nextcloud.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly customizable, open-source content collaboration platform providing file sharing, document editing, and workspace tools natively deployable on self-hosted Kubernetes architecture for absolute data sovereignty.
+#### Micro-frontends
 
-#### Snippet Management
+  - **(2020)** [Podium](https://github.com/sa-mw-dach/podium) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer tool designed to orchestrate server-side-rendered micro-frontends (podlets) in modular architectures, ensuring fast composition and high decoupling of user interfaces.
+#### Video Conferencing
 
-  - **(2024)** [GH Gists: gist.new](https://gist.github.com/starred)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An efficiency shortcut (`gist.new`) that directs users to GitHub's Gist creation environment. Allows developers to rapidly save, share, and audit isolated code configurations, terminal scripts, or stack traces without initializing full Git trees.
-## Project Management
+  - **(2026)** [Google meet: meet.new](https://meet.google.com/unsupported?meetingCode=new&ref=https://meet.google.com/new?authuser%3D0%26hs%3D178)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google's direct-action domain shortcut ('meet.new') designed to bypass portal menus and launch an encrypted video conference session with a single browser call.
+  - **(2026)** [Zoom: zoom.new](https://zoom.us/signin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Efficiency shortcut (`zoom.new`) routing enterprise authenticated sessions straight to instantly active online conference rooms.
+  - **(2021)** [opensource.com: 5 open source alternatives to Zoom](https://opensource.com/article/21/9/alternatives-zoom)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews five secure open-source video conferencing alternatives (such as Jitsi Meet) that can be easily deployed within self-hosted infrastructures to preserve data isolation.
+### Documentation
 
-### Open Source Tools
+#### Continuous Documentation
 
-#### Collaboration (1)
+  - **(2026)** [Swim](https://swimm.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A modern continuous documentation platform that automatically updates internal technical guides by syncing directly with git repositories and tracking code changes dynamically.
+  - **(2021)** [thenewstack.io: Swimm Helps New Dev Hires Stay Afloat with Continuous Documentation](https://thenewstack.io/swimm-helps-new-dev-hires-stay-afloat-with-continuous-documentation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines how continuous documentation practices supported by Swimm accelerate engineering onboarding, ensuring new developers have real-time, context-aware code blueprints.
+#### Knowledge Base
 
-  - **(2023)** [openproject.org: How to create, configure and manage your projects with OpenProject](https://www.openproject.org/blog/create-configure-manage-projects-openproject)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A walkthrough of managing agile and waterfall project environments with OpenProject. Details project configuration, Gantt charts, issue logging, and outlines deployment options for hosting the collaborative suite on Kubernetes using PostgreSQL backends.
-### Productivity (1)
+  - **(2026)** [Atlassian Confluence](https://www.atlassian.com/software/confluence)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Enterprise corporate wiki and collaborative document editor platform. Helps development teams compile, search, and maintain technical wikis, sprint retrospectives, and Architecture Decision Records (ADRs).
+  - **(2020)** [opensource.com: 3 open source alternatives to Confluence](https://opensource.com/article/20/9/open-source-alternatives-confluence)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative guide highlighting three popular open-source alternatives to Confluence, enabling teams to build customizable, cost-effective, and secure self-hosted internal documentation bases.
+#### Note-Taking
 
-#### Analysis
+  - **(2026)** [==joplin==](https://github.com/laurent22/joplin) <span class='md-tag md-tag--info'>⭐ 55181</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A widely adopted open-source note-taking and to-do application. Supports End-to-End Encryption (E2EE), Markdown editing, and dynamic synchronization across private cloud systems.
+### Project Management
 
-  - **(2022)** [entrepreneur.com: Which Project Management Timeline Tool Is Right for Your Team?](https://www.entrepreneur.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares project scheduling frameworks, collaborative timeline structures, and management software alternatives. Evaluates user interfaces, API endpoints, integration ecosystems, and pricing configurations to guide software architecture selections.
+#### Agile Platforms
+
+  - **(2026)** [Jira](https://www.atlassian.com/software/jira)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Industry-standard agile project management and issue-tracking platform. Widely integrated with Git providers and CI/CD triggers to coordinate work items across scale-out software development and platform engineering teams.
+  - **(2026)** [ifuckinghatejira.com](https://ifuckinghatejira.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A satirical community-run portal expressing development team frustrations with overly complex Agile/Jira administrative overhead, emphasizing the need for streamlined development workflows.
+  - **(2021)** [devops.com: Clubhouse Becomes Shortcut to Transform Software Project Management](https://devops.com/clubhouse-becomes-shortcut-to-transform-software-project-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews the rebranding and feature expansion of Clubhouse into Shortcut, reinforcing its identity as a fast, highly collaborative agile task and workflow tracking platform built for growth-stage engineering teams.
+  - **(2021)** [entrepreneur.com: Which Project Management Timeline Tool Is Right for Your Team?](https://www.entrepreneur.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analysis of team timeline planning utilities, providing technical leaders with actionable parameters to choose optimal roadmap platforms aligned with team velocity and sizing.
+#### Open Source PM
+
+  - **(2026)** [OpenProject](https://www.openproject.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Premier open-source web-based project management software supporting hybrid, agile, and classic waterfall projects. Features collaborative planning, roadmapping, and robust issue tracking.
+  - **(2023)** [openproject.org: How to create, configure and manage your projects with OpenProject](https://www.openproject.org/blog/create-configure-manage-projects-openproject)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Configuration reference outlining project structures in OpenProject, combined with deployment walk-throughs for hosting the platform using PostgreSQL databases containerized within Kubernetes clusters.
+  - **(2021)** [makeuseof.com: The 8 Best Open-Source Project Management Software](https://www.makeuseof.com/best-open-source-project-management-software)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical list highlighting eight high-grade open-source project management platforms that grant software teams full deployment flexibility, customization, and absolute data control.
+#### Templates
+
+  - **(2017)** [engineeringmanagement.info: Planning and Schedule Free Templates](https://www.engineeringmanagement.info/2017/02/planning-and-schedule-free-templates.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated repository containing free, downloadable project planning, scheduling, and Gantt chart templates designed to assist engineering managers in tracking milestones and system deployments.
+### Utilities
+
+#### Alternatives Finder
+
+  - **(2022)** [btw.so: Open Source Alternatives 🌟](https://www.btw.so/open-source-alternatives)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive database index mapping popular proprietary SaaS applications to functional, privacy-focused open-source alternatives, assisting companies in reducing licensing expenditures.
+#### GitHub Shortcuts
+
+  - **(2026)** [GH repos: repo.new](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fnew)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The standard browser shortcut (`repo.new`) designed to route authenticated developer sessions directly to GitHub's repository creation workspace. Enables rapid workspace initialization and deployment pipeline seeding.
+  - **(2026)** [GH Gists: gist.new](https://gist.github.com/starred)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An efficiency shortcut (`gist.new`) that directs users to GitHub's Gist creation environment. Allows developers to rapidly save, share, and audit isolated code configurations, terminal scripts, or stack traces without initializing full Git trees.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Scaffolding](./scaffolding.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [QA](./qa.md)
 

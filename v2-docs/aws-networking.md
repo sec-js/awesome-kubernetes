@@ -5,89 +5,168 @@
 
 ## Standard Reference
 
-  - [AWS Networking for Developers](https://aws.amazon.com/es/blogs/apn/aws-networking-for-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Elastic Network Adapter](https://aws.amazon.com/blogs/aws/elastic-network-adapter-high-performance-network-interface-for-amazon-ec2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloudonaut.io: What Architects Need to Know About Networking on AWS](https://cloudonaut.io/what-architects-need-to-know-about-networking-on-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloudonaut.io: Advanced AWS Networking: Pitfalls That You Should Avoid](https://cloudonaut.io/advanved-aws-networking-pitfalls-that-you-should-avoid)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Resolve DNS names of Network Load Balancer nodes to limit cross-Zone traffic](https://aws.amazon.com/blogs/networking-and-content-delivery/resolve-dns-names-of-network-load-balancer-nodes-to-limit-cross-zone-traffic)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/seligman/aws-ip-ranges: AWS's ip-ranges.json](https://github.com/seligman/aws-ip-ranges) <span class='md-tag md-tag--info'>⭐ 286</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Building a Global Network with AWS Transit Gateway](https://medium.com/avmconsulting-blog/building-a-global-network-with-aws-transit-gateway-7ab0e5222f12)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [aws.amazon.com: Creating active/passive BGP connections over AWS Direct' Connect](https://aws.amazon.com/blogs/networking-and-content-delivery/creating-active-passive-bgp-connections-over-aws-direct-connect)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [towardsaws.com: Networking Basics in AWS](https://towardsaws.com/networking-basics-in-aws-ab72882855c4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Secure Connectivity from Public to Private: Introducing EC2 Instance Connect' Endpoint](https://aws.amazon.com/blogs/compute/secure-connectivity-from-public-to-private-introducing-ec2-instance-connect-endpoint-june-13-2023)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Configuring Route 53 for cost protection from NXDOMAIN attacks](https://docs.aws.amazon.com/whitepapers/latest/aws-best-practices-ddos-resiliency/configuring-route53-for-cost-protection-from-nxdomain-attacks.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [AWS Summit Series 2016 | London: Deep Dive on Elastic Load Balancing](https://www.youtube.com/watch?v=HinwLb2lpLQ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ably.com: Balancing act: the current limits of AWS network load balancers](https://ably.com/blog/limits-aws-network-load-balancers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [luis-sena.medium.com: Automated AWS Load Balancer Warm-Up](https://luis-sena.medium.com/automated-aws-load-balancer-warm-up-d0b4084c8bbc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dashbird.io: AWS Elastic Load Balancing from a Serverless perspective](https://dashbird.io/blog/aws-application-load-balancer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [aws blogs - New – AWS Application Load Balancer](https://aws.amazon.com/blogs/aws/new-aws-application-load-balancer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: 10 reasons why you should think about using an AWS Application Load' Balancer](https://medium.com/ankercloud-engineering/10-reasons-why-you-should-think-about-using-an-aws-application-loadbalancer-945f57816c34)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Introducing the AWS Load Balancer Controller](https://aws.amazon.com/blogs/containers/introducing-aws-load-balancer-controller)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Fine-tuning blue/green deployments on application load balancer](https://aws.amazon.com/blogs/devops/blue-green-deployments-with-application-load-balancer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [faun.pub: End To End SSL Encryption With AWS Application Load Balancer](https://faun.pub/end-to-end-ssl-encryption-with-aws-application-load-balancer-b43db918bd9e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [aws.amazon.com/about-aws: Application Load Balancer enables configuring' HTTP client keepalive duration](https://aws.amazon.com/about-aws/whats-new/2024/03/application-load-balancer-http-keepalive-duration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Centralized Traffic Inspection with Gateway Load Balancer on AWS](https://aws.amazon.com/blogs/apn/centralized-traffic-inspection-with-gateway-load-balancer-on-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [AWS WAF enhances rate-based rules to support lower rate limits](https://aws.amazon.com/about-aws/whats-new/2024/08/aws-waf-rate-based-rules-lower-rate-limits)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [NGINX Plus on the AWS Cloud: Quick Start Reference Deployment](https://aws.amazon.com/about-aws/whats-new/2016/09/nginx-plus-on-the-aws-cloud-quick-start-reference-deployment)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com: Optimizing Latency and Bandwidth for AWS Traffic](https://medium.com/aws-activate-startup-blog/optimizing-latency-and-bandwidth-for-aws-traffic-cdfd18d0d0f7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS-VPC](https://en.wikipedia.org/wiki/Amazon_Virtual_Private_Cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Build a Modular and Scalable Amazon VPC Architecture with New Quick Start](https://aws.amazon.com/about-aws/whats-new/2016/07/build-a-modular-and-scalable-amazon-vpc-architecture-with-new-quick-start)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Specifying the VPC for your Amazon RDS DB Instance](https://aws.amazon.com/about-aws/whats-new/2016/08/specifying-the-vpc-for-your-amazon-rds-db-instance)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [awsfundamentals.blogspot.com: AWS Virtual Private Cloud - VPC](https://awsfundamentals.blogspot.com/2019/12/aws-vpc-fundamental.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Reduce Cost and Increase Security with Amazon VPC Endpoints](https://aws.amazon.com/blogs/architecture/reduce-cost-and-increase-security-with-amazon-vpc-endpoints)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ealtili.medium.com: Deepdive to VPCs and Connections to VPC](https://ealtili.medium.com/deepdive-to-vpcs-and-connections-to-vpc-2de3fb164d7c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Centralize access using VPC interface endpoints to access AWS services across multiple VPCs](https://aws.amazon.com/blogs/networking-and-content-delivery/centralize-access-using-vpc-interface-endpoints)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [betterprogramming.pub: AWS: Creating a VPC With an Auto-scaling Group' Using T2.micro Instances](https://betterprogramming.pub/aws-creating-a-vpc-with-an-auto-scaling-group-using-t2-micro-instances-4ac2c5c7795b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [alanblackmore.medium.com: What is AWS VPC Peering? 🌟](https://alanblackmore.medium.com/what-is-aws-vpc-peering-af85c1e29fb2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [awstip.com: Setting Up AWS VPC Endpoint Connection](https://awstip.com/setting-up-aws-vpc-endpoint-connection-d4294d0c2204)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [towardsaws.com: How to centralize VPC endpoints in AWS](https://towardsaws.com/how-to-centralize-vpc-endpoints-in-aws-64c68b5b9d50)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloudonaut.io: AWS Client VPN: Connected with the Cloud](https://cloudonaut.io/aws-client-vpn-connected-with-the-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Amazon CloudFront now supports HTTP/2](https://aws.amazon.com/about-aws/whats-new/2016/09/amazon-cloudfront-now-supports-http2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [aws.amazon.com: Authorization@Edge using cookies: Protect your Amazon CloudFront' content from being downloaded by unauthenticated users](https://aws.amazon.com/de/blogs/networking-and-content-delivery/authorizationedge-using-cookies-protect-your-amazon-cloudfront-content-from-being-downloaded-by-unauthenticated-users)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [alexdebrie.com: A Detailed Overview of AWS API Gateway](https://www.alexdebrie.com/posts/api-gateway-elements)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [towardsaws.com: Accessing a Private REST API from another Private REST API' in AWS API Gateway](https://towardsaws.com/accessing-a-private-rest-api-from-another-private-rest-api-in-aws-api-gateway-5112b835c0d4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [faun.pub: Using AWS API Gateway As Proxy To Our Internal Application](https://faun.pub/using-aws-api-gateway-as-proxy-to-our-internal-application-369eb115db70)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [aws.amazon.com: Architecture patterns for consuming private APIs cross-account](https://aws.amazon.com/blogs/compute/architecture-patterns-for-consuming-private-apis-cross-account)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Cloud Infrastructure
 
 ### AWS
 
+#### API Gateway
+
+##### Architecture
+
+  - **(2020)** [alexdebrie.com: A Detailed Overview of AWS API Gateway](https://www.alexdebrie.com/posts/api-gateway-elements)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An extensive architectural analysis of AWS API Gateway, deconstructing HTTP APIs, REST APIs, and WebSockets. Provides deep insights into routing, request validation, and authorization strategies that underpin serverless microservices architectures.
+##### Cross-Account Patterns
+
+  - **(2021)** [aws.amazon.com: Architecture patterns for consuming private APIs cross-account](https://aws.amazon.com/blogs/compute/architecture-patterns-for-consuming-private-apis-cross-account) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines security and network topology blueprints for consuming private APIs across different AWS accounts. Highlights the interaction of VPC endpoints, API Gateway resource policies, and Route 53 resolver rules to secure enterprise SaaS products.
+#### Architecture Best Practices
+
+  - **(2018)** [cloudonaut.io: What Architects Need to Know About Networking on AWS](https://cloudonaut.io/what-architects-need-to-know-about-networking-on-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A rigorous exploration of architectural decision-making within AWS networking. Focuses on the trade-offs of VPC endpoints, routing tables, and peering limits. Grounded in 2026 engineering truths, this piece highlights the shift from complex transit VPCs to Transit Gateway standards.
+#### CDN
+
+##### CloudFront
+
+  - **(2016)** [Amazon CloudFront now supports HTTP/2](https://aws.amazon.com/about-aws/whats-new/2016/09/amazon-cloudfront-now-supports-http2) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Announces native HTTP/2 support in CloudFront, highlighting performance gains from request multiplexing and header compression. A major historical milestone for fast content delivery networks, paving the way for modern responsive web applications.
+##### Edge Security
+
+  - **(2021)** [aws.amazon.com: Authorization@Edge using cookies: Protect your Amazon CloudFront content from being downloaded by unauthenticated users](https://aws.amazon.com/de/blogs/networking-and-content-delivery/authorizationedge-using-cookies-protect-your-amazon-cloudfront-content-from-being-downloaded-by-unauthenticated-users) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Presents edge security patterns leveraging Lambda@Edge or CloudFront Functions to validate cookies and JWTs. This approach prevents unauthorized downloads of static content directly at the CDN tier, dramatically reducing backend origin load.
+#### DNS and Domain Management
+
+##### Route 53
+
+  - **(2021)** [How do I transfer a domain to AWS from another registrar?](https://repost.aws/knowledge-center) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A granular tutorial on migrating DNS management to Amazon Route 53 from external registrars. While straightforward, real-world deployment requires careful TTL planning and nameserver transition strategies to prevent query dropouts and route interruptions during migration.
+#### Direct Connect
+
+##### BGP Routing
+
+  - **(2019)** [aws.amazon.com: Creating active/passive BGP connections over AWS Direct Connect](https://aws.amazon.com/blogs/networking-and-content-delivery/creating-active-passive-bgp-connections-over-aws-direct-connect) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores advanced Route-Maps and BGP configuration options to establish resilient active/passive patterns on AWS Direct Connect. Explains path selection using AS-Path prepending and local preference. Critical for hybrid enterprise integrations demanding robust automated failover.
+#### EC2 Networking
+
+##### ENA
+
+  - **(2016)** [Elastic Network Adapter](https://aws.amazon.com/blogs/aws/elastic-network-adapter-high-performance-network-interface-for-amazon-ec2) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the high-performance ENA interface designed for AWS EC2 instances. Live architectures rely heavily on ENA for low-latency network performance and SR-IOV-enabled network virtualization up to 100 Gbps. Crucial for understanding network throughput bottlenecks in heavy database and distributed systems workloads.
+#### IP Range Utilities
+
+  - **(2018)** [github.com/seligman/aws-ip-ranges: AWS's ip-ranges.json](https://github.com/seligman/aws-ip-ranges) <span class='md-tag md-tag--info'>⭐ 286</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A vital open-source parser designed to track dynamic AWS IP range changes from ip-ranges.json. Essential for configuring robust hybrid on-premises firewalls and programmatic security rules. Modern setups frequently replace manual parsing with AWS Managed Prefix Lists, rendering manual scripts legacy but historically significant.
+#### Kubernetes Networking
+
+##### Controllers
+
+  - **(2020)** [Introducing the AWS Load Balancer Controller](https://aws.amazon.com/blogs/containers/introducing-aws-load-balancer-controller) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces the Kubernetes-native controller that provisions ALBs and NLBs directly from EKS Ingress and Service objects. A de facto standard in EKS architectures, replacing generic reverse proxies with tightly integrated AWS-managed application delivery controllers.
+#### Load Balancing
+
+##### Announcements
+
+  - **(2016)** [aws blogs - New – AWS Application Load Balancer](https://aws.amazon.com/blogs/aws/new-aws-application-load-balancer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The foundational blog post introducing AWS ALB in 2016, revolutionizing container and microservices ingress on AWS. Contrasts CLB's limitations with ALB's ability to host multiple target groups on a single instance port, enabling dense ECS/EKS hosting.
+##### Application Load Balancer
+
+  - **(2020)** [Application Load Balancer](https://aws.amazon.com/elasticloadbalancing/application-load-balancer) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The authoritative landing page for AWS ALB, highlighting its Layer 7 request routing capabilities, HTTP/2 support, and WAF integrations. Modern microservices rely on ALB's path-based and host-based routing to expose APIs dynamically.
+##### Configuration Updates
+
+  - **(2024)** [aws.amazon.com/about-aws: Application Load Balancer enables configuring HTTP client keepalive duration](https://aws.amazon.com/about-aws/whats-new/2024/03/application-load-balancer-http-keepalive-duration) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the 2024 update enabling custom HTTP keep-alive duration configurations on ALB. Architects use this feature to align load balancer timeouts with backend server timeouts, effectively eliminating random 502 Bad Gateway errors in microservices.
+##### Deep Dive
+
+  - **(2016)** [AWS Summit Series 2016 | London: Deep Dive on Elastic Load Balancing](https://www.youtube.com/watch?v=HinwLb2lpLQ) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A detailed architectural retrospective on AWS ELB, tracing its path from Classic Load Balancer (CLB) to specialized Application (ALB) and Network (NLB) balancers. While archived, it provides unmatched technical insights into early AWS software-defined networking design.
+##### Documentation
+
+  - **(2020)** [docs.aws.amazon.com: What Is Elastic Load Balancing?](http://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official guide detailing the operational mechanics of Application, Network, Gateway, and Classic load balancers. Details targets, health checks, and cross-zone routing configurations. This represents the primary blueprint for modern ingress systems.
+##### Network Load Balancer
+
+  - **(2021)** [ably.com: Balancing act: the current limits of AWS network load balancers](https://ably.com/blog/limits-aws-network-load-balancers) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly critical real-world analysis detailing the edge-case limitations of AWS Network Load Balancers under extreme load. Outlines connection resets, silent drops, and target group scaling constraints. Live systems use this data to plan high-throughput gRPC and WebSocket infrastructure.
+  - **(2020)** [Resolve DNS names of Network Load Balancer nodes to limit cross-Zone traffic](https://aws.amazon.com/blogs/networking-and-content-delivery/resolve-dns-names-of-network-load-balancer-nodes-to-limit-cross-zone-traffic) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates NLB node DNS resolution mechanisms to control cross-zone traffic costs. A critical reference for low-latency systems. Curator insight underlines zonal isolation; live operations utilize cross-zone disabling to reduce inter-availability zone latency and data transfer costs.
+##### Serverless Integration
+
+  - **(2020)** [dashbird.io: AWS Elastic Load Balancing from a Serverless perspective](https://dashbird.io/blog/aws-application-load-balancer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes Application Load Balancer configurations when integrated with serverless backends like AWS Lambda. Details pricing, cold-starts, and architectural trade-offs compared to API Gateway. Live systems often choose ALB for cost-effective, high-volume HTTP routing.
+#### Network Management
+
+  - **(2019)** [aws.amazon.com: Network operations with AWS Network Manager](https://aws.amazon.com/products) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on AWS Network Manager as a single pane of glass for monitoring global hybrid networks. Live cloud architectures utilize Network Manager to synthesize telemetry from AWS Transit Gateway, SD-WAN devices, and on-premises branch offices into actionable alerts.
+#### Networking Concepts
+
+  - **(2020)** [AWS Networking for Developers](https://aws.amazon.com/es/blogs/apn/aws-networking-for-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Synthesizes AWS's core networking constructs for software engineers. While early guides treat VPC and subnetting as peripheral, modern development architectures position these as foundational security boundaries. The guide details CIDR blocks, VPC structure, and security groups.
+#### Networking Pitfalls
+
+  - **(2019)** [cloudonaut.io: Advanced AWS Networking: Pitfalls That You Should Avoid](https://cloudonaut.io/advanved-aws-networking-pitfalls-that-you-should-avoid) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deconstructs highly complex pitfalls in AWS network implementations, specifically Route 53 routing loops and VPC peering scaling bottlenecks. While historic guides suggest basic VPC peers, live production systems demand Transit Gateways and PrivateLink to scale securely without IP overlap.
+#### Networking Tutorials
+
+  - **(2020)** [AWS Cloud Networking – Zero to Hero](http://www.netdesignarena.com/index.php/2020/04/15/new-blog-series-aws-cloud-networking-zero-to-hero)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Provides a step-by-step pathway from basic networking to comprehensive AWS network design. Contrasts entry-level topologies with complex multi-region enterprise structures. Essential reading for operations personnel migrating legacy on-prem networks to standard AWS subnets and VPC peers.
 #### Performance Optimization
 
-  - **(2026)** [**Find the fastest region from your location**](http://aws-latency.altaircp.com) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A real-time, lightweight browser-based network diagnostics tool designed to measure latency from the client's location to all global AWS regions. Crucial for system architects during high-availability bootstrapping and regional ingress planning to minimize user-perceived network delays.
-### AWS CLI
+  - **(2018)** [Find the fastest region from your location](http://aws-latency.altaircp.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An essential community-built utility for testing regional latencies directly from client browsers to AWS data centers. Critical for architects choosing optimal regions for low-latency interactive applications and global disaster recovery architectures.
+#### RDS
 
-#### Virtual Private Cloud
+##### VPC Integration
 
-  - **(2018)** [linuxjournal.com: AWS EC2 VPC CLI](http://www.linuxjournal.com/content/aws-ec2-vpc-cli) 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — An archived guide explaining direct configuration of AWS VPC resources through raw CLI commands. While modern 2026 paradigms mandate declarative Infrastructure as Code (such as Terraform or Pulumi), this remains a relevant low-level troubleshooting reference for imperative shell scripting.
-### Network Security
+  - **(2016)** [Specifying the VPC for your Amazon RDS DB Instance](https://aws.amazon.com/about-aws/whats-new/2016/08/specifying-the-vpc-for-your-amazon-rds-db-instance) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Documents the structural capability to assign Amazon RDS database instances to isolated VPC subnets. Critical for security architecture, establishing clear boundary isolation where databases exist in strictly private subnets separated from public app tiers.
+#### Remote Access VPN
 
-#### Mesh VPN
+  - **(2019)** [cloudonaut.io: AWS Client VPN: Connected with the Cloud](https://cloudonaut.io/aws-client-vpn-connected-with-the-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates AWS Client VPN as a fully managed client-to-site VPN service. Contrasts self-managed OpenVPN boxes with AWS's elastic scale, highlighting directory service integrations, routing configurations, and target network associations.
+#### Reverse Proxy
 
-  - **(2023)** [==tailscale.com: Connect to an AWS VPC using subnet routes==](https://tailscale.com/docs/install/cloud/aws) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical reference detailing the secure integration of Tailscale subnet routers with AWS Virtual Private Clouds. Enables developers and operators to access cloud private subnets directly via a WireGuard-backed mesh VPN without incurring the high cost or operational overhead of traditional IPSec gateways.
-## Cloud Providers
+##### NGINX Plus
 
-### Amazon Web Services
+  - **(2016)** [NGINX Plus on the AWS Cloud: Quick Start Reference Deployment](https://aws.amazon.com/about-aws/whats-new/2016/09/nginx-plus-on-the-aws-cloud-quick-start-reference-deployment) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A legacy but highly informative deployment blueprint for configuring high-availability NGINX Plus instances on AWS. Explains load-balancing patterns, session persistence, and active health checks that bridge standard EC2 architectures with NGINX's enterprise proxy features.
+#### Security
 
-#### Cloud Networking
+##### DDoS Resiliency
 
-  - **(2020)** [AWS Cloud Networking – Zero to Hero](http://www.netdesignarena.com/index.php/2020/04/15/new-blog-series-aws-cloud-networking-zero-to-hero) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive cloud networking series detailing VPC designs on AWS. Teaches subnet segmentation, routing tables, internet gateways, secure NAT topologies, and transit VPC architectures needed to host secure, enterprise-grade cloud services.
-#### Elastic Load Balancing
+  - **(2022)** [Configuring Route 53 for cost protection from NXDOMAIN attacks](https://docs.aws.amazon.com/whitepapers/latest/aws-best-practices-ddos-resiliency/configuring-route53-for-cost-protection-from-nxdomain-attacks.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines security blueprints to mitigate Route 53 billing anomalies caused by NXDOMAIN flood attacks. Demonstrates Route 53 Resolver query logging, caching, and CloudFront-to-Route53 integrations. Essential for enterprise architectural planning to protect cloud budgets from DDoS vectors.
+##### EC2 Connect
 
-  - **(2025)** [docs.aws.amazon.com: What Is Elastic Load Balancing?](http://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The definitive AWS reference detailing Elastic Load Balancing (ELB) topologies. It contrasts Application, Network, Classic, and Gateway Load Balancers against key protocol layers, latency profiles, scaling patterns, and SSL offloading requirements.
-  - **(2025)** [Application Load Balancer](https://aws.amazon.com/elasticloadbalancing/application-load-balancer) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive technical guide to the AWS Application Load Balancer. Details Layer 7 traffic routing mechanics, URL-path forwarding, target group setups, native integrations with AWS Web Application Firewall, and automated certificate management via ACM.
-#### Route 53 DNS
+  - **(2023)** [Secure Connectivity from Public to Private: Introducing EC2 Instance Connect Endpoint](https://aws.amazon.com/blogs/compute/secure-connectivity-from-public-to-private-introducing-ec2-instance-connect-endpoint-june-13-2023)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces the EC2 Instance Connect Endpoint (EICE), a major evolutionary step in secure bastion-free SSH/RDP connectivity. Unlike traditional setups requiring public IPs or VPNs, EICE tunnels secure administrative connections directly through private subnets without exposed bastions.
+##### Gateway Load Balancer
 
-  - **(2024)** [How do I transfer a domain to AWS from another registrar?](https://repost.aws/knowledge-center) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official AWS guide to transferring domain names to Amazon Route 53 with zero application downtime. Highlights zone preservation, DNSSEC handshakes, transfer authentication codes, and security configurations required for risk-free domain migration.
-## Networking
+  - **(2021)** [Centralized Traffic Inspection with Gateway Load Balancer on AWS](https://aws.amazon.com/blogs/apn/centralized-traffic-inspection-with-gateway-load-balancer-on-aws) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides reference architectures for Gateway Load Balancer (GWLB), routing ingress traffic through third-party virtual security appliances (firewalls, IDS/IPS). Employs GENEVE encapsulation to maintain transparent client source IPs across the inspection cluster.
+##### WAF
 
-### Azure
+  - **(2024)** [AWS WAF enhances rate-based rules to support lower rate limits](https://aws.amazon.com/about-aws/whats-new/2024/08/aws-waf-rate-based-rules-lower-rate-limits) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the critical update reducing AWS WAF rate-based rule limits to protect low-traffic APIs and login endpoints from brute-force attacks. Provides developers with more granular rate-limiting controls to prevent application abuse at the edge.
+#### VPC
 
-#### Hybrid Infrastructure
+##### CLI Administration
 
-  - **(2025)** [**Azure ExpressRoute Resiliency: Best Practices for Production-Critical Workloads**](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/azure-expressroute-resiliency-best-practices-for-production-critical-workloads/4394842) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Deeply examines resiliency patterns for Azure ExpressRoute connectivity connecting on-premises data centers to Azure. It covers active-active configuration, secondary ExpressRoute failovers, and VPN backup strategies to prevent downtime during link outages. Indispensable for designing highly available hybrid cloud foundations.
+  - **(2014)** [linuxjournal.com: AWS EC2 VPC CLI](http://www.linuxjournal.com/content/aws-ec2-vpc-cli)  <span class='md-tag md-tag--info'>[LEGACY]</span> — A legacy reference guide exploring early AWS CLI tools used to configure VPC environments. While historical, it charts the evolution from raw manual terminal commands to modern declarative Infrastructure-as-Code tooling like Terraform and AWS CDK.
+##### Fundamentals
+
+  - **(2019)** [awsfundamentals.blogspot.com: AWS Virtual Private Cloud - VPC](https://awsfundamentals.blogspot.com/2019/12/aws-vpc-fundamental.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-level introductory guide detailing the core components of Amazon VPCs, including Subnets, Route Tables, Internet Gateways, and Security Groups. Ideal for engineers transitioning from traditional infrastructure to virtualized cloud networks.
+##### VPC Endpoints
+
+  - **(2021)** [Centralize access using VPC interface endpoints to access AWS services across multiple VPCs](https://aws.amazon.com/blogs/networking-and-content-delivery/centralize-access-using-vpc-interface-endpoints) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced networking pattern describing how to route traffic through centralized VPC endpoints across complex multi-VPC configurations. Live architectures utilize Route 53 Private Hosted Zones and Transit Gateway routing to avoid redundant endpoint charges.
+  - **(2020)** [Reduce Cost and Increase Security with Amazon VPC Endpoints](https://aws.amazon.com/blogs/architecture/reduce-cost-and-increase-security-with-amazon-vpc-endpoints)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the architectural and fiscal benefits of adopting VPC Endpoints (Interface and Gateway types). Contrasts expensive NAT Gateway data processing charges with direct private connectivity to AWS services like S3 and DynamoDB, dramatically reducing costs.
+#### VPC Architecture
+
+  - **(2016)** [Build a Modular and Scalable Amazon VPC Architecture with New Quick Start](https://aws.amazon.com/about-aws/whats-new/2016/07/build-a-modular-and-scalable-amazon-vpc-architecture-with-new-quick-start) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An archetypal reference detailing modular AWS VPC deployment patterns. Explores multi-AZ layouts, public/private subnets, and NAT Gateway placements. This blueprint remains the structural basis for most automated enterprise VPC templates today.
+#### VPN and Overlay Networks
+
+##### Tailscale
+
+  - **(2022)** [tailscale.com: Connect to an AWS VPC using subnet routes](https://tailscale.com/docs/install/cloud/aws) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the installation of Tailscale inside an AWS VPC to build low-overhead overlay networks using subnet routing. Real-world engineering proves that Tailscale's WireGuard-based routing simplifies cross-cloud access without the complexity of traditional IPsec VPNs.
+### Azure Networking
+
+#### Hybrid Connectivity
+
+  - **(2025)** [Azure ExpressRoute Resiliency: Best Practices for Production-Critical Workloads](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/azure-expressroute-resiliency-best-practices-for-production-critical-workloads/4394842) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines best practices for designing resilient Azure ExpressRoute topologies to safeguard production-critical hybrid cloud environments. Architects are guided through configuring dual-homing, active-active paths, BFD (Bidirectional Forwarding Detection), and automated failover strategies to prevent network isolation.
+## Software Engineering
+
+### Deployment Patterns
+
+#### Blue-Green
+
+##### ALB
+
+  - **(2021)** [Fine-tuning blue/green deployments on application load balancer](https://aws.amazon.com/blogs/devops/blue-green-deployments-with-application-load-balancer) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on ALB's advanced routing capabilities to orchestrate safe blue/green deployments by shifting traffic percentages between target groups. A crucial operational pattern for continuous delivery pipelines, minimizing deployment blast radius.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Public Cloud Solutions](./public-cloud-solutions.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
 

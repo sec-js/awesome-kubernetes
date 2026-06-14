@@ -5,33 +5,25 @@
 
 ## Standard Reference
 
-  - [Google Cloud Code](https://cloud.google.com/code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Wikipedia: Spring Roo](https://en.wikipedia.org/wiki/Spring_Roo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Atomist](https://go.atomist.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Cloud-Native Development
-
-### Continuous Delivery
-
-#### Skaffold
-
-  - [skaffold](https://skaffold.dev)  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Highly active open-source CLI utility by Google that automates the workflow for building, pushing, and deploying Kubernetes applications. Accelerates inner-loop cycles through continuous live-sync engine integration.
 ## Developer Experience
 
-### Application Bootstrapping
+### Inner Loop Development
 
-#### Kubernetes Configuration
+#### Local Tooling
 
-  - **(2023)** [**Ambassador Edge Stack. K8S Initializer  (scaffolding tool) 🌟**](https://blackbird.a8r.io) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Ambassador K8S Initializer is a browser-based wizard that creates custom templates for ingress rules, TLS configurations, and Kubernetes manifests, lowering initial administrative hurdles.
-#### Scaffolding
+  - **(2023)** [cloud.google.com: configuring_with_snippets 🌟](https://docs.cloud.google.com/code/docs/vscode/yaml-editing#configuring_with_snippets) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reference manual for configuring IDE tooling with specialized cloud code snippets. Demonstrates how Cloud Code streamlines the creation of valid Kubernetes YAML definitions directly inside IDE environments like VS Code.
+## Software Engineering
 
-  - [callicoder.com: Scaffolding your Spring Boot Application with Yeoman](https://www.callicoder.com/scaffolding-your-spring-boot-application) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Tutorial detailing Spring Boot bootstrapping with Yeoman. While historic, modern scaffolding architectures like JHipster and Spring Initializr have entirely replaced Yeoman for microservice projects.
-  - [jhipster](https://www.jhipster.tech) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — JHipster is a premier development platform to quickly generate, develop, and deploy modern web applications and microservice architectures. It automates containerization, CI/CD templates, and frontend-backend binding.
-### IDEs and Editors
+### Application Scaffolding
 
-#### Snippet Engines
+#### Boilerplate Tools
 
-  - **(2023)** [cloud.google.com: configuring_with_snippets 🌟](https://docs.cloud.google.com/code/docs/vscode/yaml-editing#configuring_with_snippets) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Official Google Cloud tutorial configuring Visual Studio Code with structural snippets, optimizing engineering speeds when deploying nested Kubernetes objects.
+  - **(2024)** [jhipster](https://www.jhipster.tech) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A prominent development platform used to generate, develop, and deploy full-stack web applications and microservice architectures. Combines Spring Boot with modern front-end frameworks (Angular/React/Vue) and features built-in support for Kubernetes deployment manifests.
+  - **(2021)** [Ambassador Edge Stack. K8S Initializer  (scaffolding tool) 🌟](https://blackbird.a8r.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The Ambassador K8s Initializer helps engineers bootstrap cloud-native applications with ready-made Kubernetes configurations. It simplifies ingress setup, routing rules, and observability hooks by generating tailored declarative manifests.
+  - **(2018)** [callicoder.com: Scaffolding your Spring Boot Application with Yeoman](https://www.callicoder.com/scaffolding-your-spring-boot-application) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Guide to scaffolding custom Spring Boot microservice structures using Yeoman templates. Demonstrates automated directory and build-file generation, promoting unified architecture standards across early development teams.
 
 ---
 💡 **Explore Related:** [DevOps](./devops.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [QA](./qa.md)

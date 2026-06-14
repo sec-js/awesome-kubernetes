@@ -8,102 +8,67 @@
   - [IBM IAM for AI Agents](https://t.co/EKsVgKA4xn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [PulseMCP](https://pulsemcp.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Agentic Engineering
+## AI Engineering
 
-### AI Assistants
+### AI Agents
 
-#### Claude Code
+#### Web Automation
 
-  - [Claude Code Best Practice](https://github.com/shanraisshan/claude-code-best-practice) <span class='md-tag md-tag--info'>⭐ 54376</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Curated collection of best practices, system prompts, and architecture layouts for Claude Code.
-Live Grounding: Explores advanced CLI-driven agent workflows, highlighting configuration optimizations, shell integration strategies, and secure execution configurations in local and remote environments.
-#### Developer Tools
-
-  - [Cursor AI Fundamentals Course](https://cursor.com/es/learn) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Comprehensive educational course focused on maximizing efficiency within Cursor AI Editor.
-Live Grounding: Delivers strategic instruction on utilizing AI capabilities, codebase indexing, and multi-file edit workflows to accelerate modern software engineering. Explicitly marked as Spanish localized educational content. [SPANISH CONTENT]
-### Agentic Frameworks
-
-#### Skills Integration
-
-  - [Level Up Your Agents: Announcing Google's Official Skills Repository](https://cloud.google.com/blog/topics/developers-practitioners/level-up-your-agents-announcing-googles-official-skills-repository) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Google's official skills repository and toolkit for modular agentic development.
-Live Grounding: Delivers pre-integrated capabilities and action templates allowing Enterprise Gemini Agents to dynamically execute API operations, retrieve structured data, and handle multi-step workflows.
-### Kubernetes AI Operators
-
-#### Observability Agents
-
-  - **(2024)** [**HolmesGPT (Robusta)**](https://github.com/HolmesGPT/holmesgpt) <span class='md-tag md-tag--info'>⭐ 2480</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: An AI-driven troubleshooting assistant for Kubernetes clusters by Robusta.
-Live Grounding: Utilizes LLM agents to autonomously parse Prometheus alerts, collect pod logs, inspect live status, and deliver actionable remediation steps for infrastructure incidents.
+  - **(2025)** [==Skyvern==](https://github.com/Skyvern-ai/Skyvern) <span class='md-tag md-tag--info'>⭐ 21895</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: An AI-powered web browser automation agent designed to extract data and execute workflows on complex interfaces. Live Grounding: Translates plain-text instructions into resilient selenium-style interactions, dynamically adapting to DOM mutations and bypassing rigid selector patterns.
 ### Model Context Protocol
 
 #### Architecture
 
-  - [anthropic.com: Introducing the Model Context Protocol](https://www.anthropic.com/news/model-context-protocol) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: The official announcement introducing Anthropic's Model Context Protocol (MCP).
-Live Grounding: Outlines an open, universal standard connecting AI agents to real-world data sources, replacing fragmented integrations with a standardized client-server model.
-#### Azure Integrations
+  - **(2024)** [anthropic.com: Introducing the Model Context Protocol](https://www.anthropic.com/news/model-context-protocol) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Anthropic's release document introducing the Model Context Protocol (MCP), an open-standard protocol enabling LLM agents to securely interact with external tools and data sources. MCP standardizes the JSON-RPC interface between hosts and servers, resolving the integration fragmentation that previously plagued generative AI integrations and agentic workflows.
+#### Awesome Lists
 
-  - [Announcing Azure MCP Server 2.0 Stable Release for Self-Hosted Agentic Cloud Automation](https://devblogs.microsoft.com/azure-sdk/announcing-azure-mcp-server-2-0-stable-release) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Announcement of Microsoft Azure's MCP Server 2.0 release for agentic automation.
-Live Grounding: Provides stable, secure integrations allowing compliant AI models to deploy, manage, and query Azure cloud assets using the standardized Model Context Protocol.
-#### Curation
+  - **(2025)** [==Awesome MCP Servers==](https://github.com/punkpeye/awesome-mcp-servers) <span class='md-tag md-tag--info'>⭐ 89049</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: A community-curated collection of servers implementing the Model Context Protocol. Live Grounding: Aggregates verified integrations linking AI models to tools like relational databases, enterprise APIs, version control providers, and local execution runtimes.
+#### Developer Experience
 
-  - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) <span class='md-tag md-tag--info'>⭐ 87348</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: A community-curated collection of servers implementing the Model Context Protocol.
-Live Grounding: Aggregates verified integrations linking AI models to tools like relational databases, enterprise APIs, version control providers, and local execution runtimes.
-#### Directory
+  - **(2025)** [MCPBundles](https://www.mcpbundles.com) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — MCPBundles is a discovery and packaging platform designed to bundle various Model Context Protocol servers for rapid deployment. It simplifies agentic application building by providing curated, pre-configured groupings of tools (e.g., database drivers, git utilities, API endpoints) that can be integrated into AI hosts in a single setup operation.
+#### Google Cloud
 
-  - **(2024)** [MCPBundles](https://www.mcpbundles.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Visual directory cataloging compatible Model Context Protocol bundles.
-Live Grounding: Serves as a discovering directory for engineers looking to fast-track their agent integrations with off-the-shelf and community-built MCP connectors.
-#### Documentation
-
-  - **(2024)** [modelcontextprotocol.io: MCP Official Documentation](https://modelcontextprotocol.io/docs/getting-started/intro) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Official landing portal and technical documentation for the Model Context Protocol.
-Live Grounding: Provides structured schemas, development SDKs (TypeScript and Python), and step-by-step guides for engineers building secure, interoperable AI-data integrations.
-#### Google Cloud Managed
-
-  - [Google Cloud Managed MCP](https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-managed-mcp-for-gemini) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Announcement of Google Cloud's Managed MCP platform for enterprise Gemini integrations.
-Live Grounding: Offers robust, fully managed hosting for MCP servers, ensuring secure data retrieval, automatic scaling, and strict enterprise-grade compliance bounds.
+  - **(2025)** [Google Cloud Managed MCP](https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-managed-mcp-for-gemini) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google Cloud's managed solution for Model Context Protocol, allowing enterprise Gemini models to safely interact with local data sources and external enterprise systems. By hosting and scaling MCP servers inside Google's managed environment, it minimizes operational overhead while securing transactional agentic workflows with native cloud IAM.
 #### Official Servers
 
-  - [GitHub MCP Server](https://github.com/modelcontextprotocol/servers) <span class='md-tag md-tag--info'>⭐ 86081</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: Primary collection of production-grade Model Context Protocol (MCP) servers.
-Live Grounding: Establishes development standards for JSON-RPC 2.0 based message exchange between host agents and enterprise backend systems.
-### Web Automation Agents
+  - **(2025)** [==GitHub MCP Server==](https://github.com/modelcontextprotocol/servers) <span class='md-tag md-tag--info'>⭐ 87175</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: Primary collection of production-grade Model Context Protocol (MCP) servers. Live Grounding: Establishes development standards for JSON-RPC 2.0 based message exchange between host agents and enterprise backend systems.
+#### Specifications
 
-#### RPA Engines
+  - **(2025)** [modelcontextprotocol.io: MCP Official Documentation](https://modelcontextprotocol.io/docs/getting-started/intro) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official technical documentation and specifications for the Model Context Protocol (MCP). It provides comprehensive blueprints for implementing client-server architectures, defining standard JSON-RPC 2.0 schemas for prompt execution, resource exploration, and tool binding. Serves as the authoritative source for developers building LLM integrations.
+## AI Infrastructure
 
-  - [Skyvern](https://github.com/Skyvern-ai/Skyvern) <span class='md-tag md-tag--info'>⭐ 21696</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: An AI-powered web browser automation agent designed to extract data and execute workflows on complex interfaces.
-Live Grounding: Translates plain-text instructions into resilient selenium-style interactions, dynamically adapting to DOM mutations and bypassing rigid selector patterns.
-## Cloud Native AI
+### Distributed Computing
 
-### Distributed Orchestration
+#### Kube-Ray
 
-#### Ray Clusters
+  - **(2025)** [Kube-Ray](https://github.com/ray-project/kuberay) <span class='md-tag md-tag--info'>⭐ 2541</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: An open-source Kubernetes Operator enabling the deployment and management of Ray clusters. Live Grounding: Serves as the backbone for distributed machine learning workloads on Kubernetes, abstracting compute node scaling, memory configuration, and actor scheduling.
+### Hardware Orchestration
 
-  - [Kube-Ray](https://github.com/ray-project/kuberay) <span class='md-tag md-tag--info'>⭐ 2507</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: An open-source Kubernetes Operator enabling the deployment and management of Ray clusters.
-Live Grounding: Serves as the backbone for distributed machine learning workloads on Kubernetes, abstracting compute node scaling, memory configuration, and actor scheduling.
-### Infrastructure Acceleration
+#### NVIDIA Operators
 
-#### GPU Management
-
-  - [NVIDIA GPU Operator](https://github.com/NVIDIA/gpu-operator) <span class='md-tag md-tag--info'>⭐ 2712</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: Kubernetes operator designed to automate the management of NVIDIA software components on nodes.
-Live Grounding: Provisions GPU drivers, container runtimes, device plug-ins, and monitoring tools automatically, ensuring consistent access to hardware acceleration.
+  - **(2025)** [NVIDIA GPU Operator](https://github.com/NVIDIA/gpu-operator) <span class='md-tag md-tag--info'>⭐ 2738</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Kubernetes operator designed to automate the management of NVIDIA software components on nodes. Live Grounding: Provisions GPU drivers, container runtimes, device plug-ins, and monitoring tools automatically, ensuring consistent access to hardware acceleration.
 ### LLM Serving
 
-#### Inference Engines
+#### LocalAI
 
-  - [vLLM on Kubernetes](https://github.com/vllm-project/vllm) <span class='md-tag md-tag--info'>⭐ 80712</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: Integration guides and deployment schemas for hosting vLLM on Kubernetes clusters.
-Live Grounding: Standardizes memory-efficient LLM serving using PagedAttention. Features rapid integration with Kubernetes HPA (Horizontal Pod Autoscaler) and native Prometheus performance scraping.
-### Self-Hosted LLM
+  - **(2025)** [**LocalAI**](https://github.com/mudler/LocalAI) <span class='md-tag md-tag--info'>⭐ 46827</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: A self-hosted, community-first OpenAI-compatible API gateway running on local hardware. Live Grounding: Allows developers to host LLMs, audio-to-text, and image generation services inside Kubernetes without external data dependencies, optimized for consumer-grade and enterprise hardware.
+#### vLLM
 
-#### Edge Serving
+  - **(2025)** [==vLLM on Kubernetes==](https://github.com/vllm-project/vllm) <span class='md-tag md-tag--info'>⭐ 82769</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: Integration guides and deployment schemas for hosting vLLM on Kubernetes clusters. Live Grounding: Standardizes memory-efficient LLM serving using PagedAttention. Features rapid integration with Kubernetes HPA (Horizontal Pod Autoscaler) and native Prometheus performance scraping.
+## Cloud Native Operations
 
-  - **(2023)** [==LocalAI==](https://github.com/mudler/LocalAI) <span class='md-tag md-tag--info'>⭐ 46406</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: A self-hosted, community-first OpenAI-compatible API gateway running on local hardware.
-Live Grounding: Allows developers to host LLMs, audio-to-text, and image generation services inside Kubernetes without external data dependencies, optimized for consumer-grade and enterprise hardware.
-## Platform Engineering
+### AI AIOps
 
-### AI Integration
+#### Kubernetes Troubleshooting
 
-#### Agentic Engineering (1)
+  - **(2025)** [HolmesGPT (Robusta)](https://github.com/HolmesGPT/holmesgpt) <span class='md-tag md-tag--info'>⭐ 2621</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: An AI-driven troubleshooting assistant for Kubernetes clusters by Robusta. Live Grounding: Utilizes LLM agents to autonomously parse Prometheus alerts, collect pod logs, inspect live status, and deliver actionable remediation steps for infrastructure incidents.
+## Developer Experience (1)
 
-  - [Kiro: Engineering Rigor for Agentic Development](https://kiro.dev) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An emerging framework focused on enforcing software engineering rigor, test-driven validation, and deterministic guardrails within AI Agent-driven code generation and execution loops. Provides platform architectures for managing safe agent-based deployments.
-#### Coding Assistants
+### AI-Assisted Coding
 
-  - [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The official training course by Anthropic showcasing the capabilities and CLI operations of Claude Code. Demonstrates how developers can utilize the terminal agent for code reviews, refactoring, automated testing, and execution-guided software development.
+#### Claude Code
+
+  - **(2025)** [==Claude Code Best Practice==](https://github.com/shanraisshan/claude-code-best-practice) <span class='md-tag md-tag--info'>⭐ 57621</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Curated collection of best practices, system prompts, and architecture layouts for Claude Code. Live Grounding: Explores advanced CLI-driven agent workflows, highlighting configuration optimizations, shell integration strategies, and secure execution configurations in local and remote environments.
 
 ---
 💡 **Explore Related:** [AI](./ai.md) | [MLOps](./mlops.md) | [ChatGPT](./chatgpt.md)

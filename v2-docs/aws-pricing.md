@@ -39,5 +39,5 @@
   - **(2022)** [thenewstack.io: 7 Tips for Cutting Down Your AWS Kubernetes Bill](https://thenewstack.io/kubernetes/7-tips-for-cutting-down-your-aws-kubernetes-bill) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates architectural techniques to trim EKS clusters expenditures, describing auto-scalers (Karpenter), spot instances usage, strict namespace limits, and FinOps practices to optimize CPU allocation.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Public Cloud Solutions](./public-cloud-solutions.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
 

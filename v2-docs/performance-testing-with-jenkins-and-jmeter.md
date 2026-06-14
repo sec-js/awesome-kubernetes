@@ -40,77 +40,92 @@
   - [tech.loveholidays.com: Load testing in production with Grafana Loki, Kubernetes' and Golang](https://tech.loveholidays.com/load-testing-in-production-with-grafana-loki-kubernetes-and-golang-1699554d2aa3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [betterprogramming.pub: The 5-Step Checklist for Serverless Load Testing](https://betterprogramming.pub/the-5-step-checklist-for-serverless-load-testing-346f4a60841d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Continuous Integration
+## CICD
 
-### CI Tools
+### GitHub Actions
 
-#### GitHub Actions
+#### Performance Automation
 
-  - [thenewstack.io: Simple Load Testing with GitHub Actions](https://thenewstack.io/simple-load-testing-with-github-actions) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical guide for implementing low-overhead load testing routines within CI pipelines. Explores triggering synthetic benchmarks during typical code validation runs inside GitHub runners.
-#### Jenkins
+  - **(2022)** [thenewstack.io: Simple Load Testing with GitHub Actions](https://thenewstack.io/simple-load-testing-with-github-actions) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical engineering guide detailing how to build an automated, zero-infrastructure load testing flow using GitHub Actions. It highlights how integrating lightweight load generators (like k6 or Vegeta) into standard YAML workflows establishes early performance baselines and guards against performance regressions.
+### Jenkins
 
-  - [performance-plugin](https://github.com/jenkinsci/performance-plugin) <span class='md-tag md-tag--info'>⭐ 194</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A stable Jenkins CI plugin designed to ingest, compile, and visualize execution metrics from varied load-testing libraries including JMeter, Taurus, and JUnit.
-  - [plugins.jenkins.io: gatling](https://plugins.jenkins.io/gatling) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Integrates Gatling load simulation tests into modern Jenkins jobs. Features automated metrics visualization, pipeline validation, and conditional build-failing mechanisms.
-## Observability and Performance
+#### Reporting Plugins
 
-### Kubernetes Internals
+  - **(2024)** [performance-plugin](https://github.com/jenkinsci/performance-plugin) <span class='md-tag md-tag--info'>⭐ 194</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This Jenkins CI plugin compiles, parses, and visualizes execution metrics from load testing utilities like JMeter, Taurus, and JUnit directly within build workflows. Architecturally, it helps teams enforce automated quality gates by failing pipelines based on strict metric thresholds (e.g., error percentages or response time limits).
+  - **(2023)** [plugins.jenkins.io: gatling](https://plugins.jenkins.io/gatling) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official Jenkins integration for Gatling, enabling automated parsing of Gatling simulation results inside CI workflows. It charts performance trends over time, facilitating rapid visual regression tracking and immediate identification of microservice performance degradation in downstream builds.
+## Cloud Infrastructure
 
-#### Autotuning
+### Azure
 
-  - [How Kruize Optimizes OpenShift Workloads](https://developers.redhat.com/articles/2025/06/25/how-kruize-optimizes-openshift-workloads#what_is_kruize_autotune_) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a comprehensive overview of how Kruize Autotune optimizes resource efficiency in OpenShift and Kubernetes workloads. Evaluates real-time scaling mechanisms and automated recommendations to reduce resource waste.
-#### Resource Management
+#### Testing Services
 
-  - [The Hidden CPU Throttling Crisis in Kubernetes Clusters](https://www.kubenatives.com/p/the-hidden-cpu-throttling-crisis) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth analysis exposing the silent threat of CPU throttling inside Kubernetes clusters caused by rigid CFS quota management. Demonstrates how microservices suffer latency spikes even with low aggregate CPU consumption.
+  - **(2024)** [docs.microsoft.com: Azure Load Testing](https://learn.microsoft.com/en-us/azure/app-testing) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Azure's managed load testing service that lets developers generate high-scale load using existing Apache JMeter scripts. Synthesizing live cloud updates, it integrates seamlessly with Azure Monitor to provide end-to-end insights from client-side response times to server-side resource bottlenecks, aiding rapid optimization.
+  - **(2021)** [azure.microsoft.com: Introducing Azure Load Testing: Optimize app performance at scale](https://azure.microsoft.com/en-us/blog/introducing-azure-load-testing-optimize-app-performance-at-scale) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The launch blog post detailing the debut of Microsoft's Azure Load Testing service. It explains how the tool bridges the gap between raw load generation and cloud application monitoring, allowing developers to execute JMeter scripts in an automated cloud-native paradigm directly from GitHub Actions or Azure Pipelines.
+  - **(2021)** [infoq.com: Microsoft Introduces a Fully-Managed Azure Load Testing Service in Preview](https://www.infoq.com/news/2021/12/azure-load-testing-preview) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Industry reporting on Azure's entry into fully managed performance testing, discussing how it leverages Apache JMeter under the hood. It provides a historical snapshot of Microsoft's move to simplify distributed load testing for engineering teams, eliminating the manual upkeep of VM scale sets for load generation.
+## Performance Engineering
+
+### Load Testing
+
+#### Distributed Testing
+
+  - **(2022)** [**JMeter Distributed Testing Step-by-step**](https://venkatmatta.com/wp-content/uploads/2016/03/jmeter_distributed_testing_step_by_step.pdf) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Operational step-by-step documentation detailing JMeter distributed execution topologies. Solves communication issues between controllers and performance workers during heavy test sequences.
+#### Kubernetes Deployment
+
+  - **(2022)** [**dev.to: The most elegant way to performance test your microservices running on Kubernetes**](https://dev.to/ksingh7/the-most-elegant-way-to-performance-test-your-microservices-running-on-kubernetes-2mo2) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Demonstrates running scalable API performance evaluations in target Kubernetes setups. Promotes executing testing runs close to targets using container workloads to limit network noise.
+#### Observability
+
+  - **(2022)** [**linkedin.com: Tuning Grafana - Jmeter Dashboards**](https://www.linkedin.com/pulse/tuning-grafana-jmeter-dashboards-ezhil-arasu) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Examines methodologies for directing live JMeter thread telemetry to Grafana dashboards via InfluxDB. Gives operational teams real-time visibility into transaction metrics during heavy profiling runs.
+#### Testing Frameworks
+
+  - **(2026)** [==jmeter.apache.org==](https://jmeter.apache.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Industry-standard, open-source performance evaluation engine. Simulates high-velocity workloads against a wide array of application protocols to measure system response under stress.
+  - **(2026)** [==jmeter.apache.org: Best Practices==](https://jmeter.apache.org/usermanual/best-practices.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official design guidelines detailing how to configure JMeter for massive volume tests. Recommends relying on CLI mode and minimizing logging resources to avoid client-side load skew.
+#### Tutorials
+
+  - **(2023)** [**youtube: JMeter API Performance Testing Tutorial 🌟**](https://www.youtube.com/watch?v=8r5LYzUIepo) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Educational walkthrough mapping API load-test workflows. Covers parameterizing user requests, analyzing server metrics, and troubleshooting unexpected timeouts in dynamic microservices backends.
+  - **(2021)** [tutorialspoint.com: JMeter Quick Guide](https://www.tutorialspoint.com/jmeter/pdf/jmeter_quick_guide.pdf) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Reference manual covering basic JMeter thread management and test flow structures. Designed to help teams write simple API validations and performance regression scripts.
+### Testing
+
+#### Benchmarking
+
+##### HTTP Tools
+
+  - **(2021)** [blog.cloud-mercato.com: New HTTP benchmark tool **pycurlb**](https://blog.cloud-mercato.com/new-http-benchmark-tool-pycurlb) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces pycurlb, a Python-based wrapper and benchmarking utility utilizing libcurl for low-overhead HTTP performance testing. Explores its use cases in testing microservice latency and raw throughput. Curator Insight: Quick functional introduction of a new pycurl tool. Live Grounding: Provides an alternative for developers seeking a highly customizable, scriptable curl execution engine for API baselining.
+## Systems
+
+### Performance Tuning
+
+#### Diagnostic Tools
+
+  - **(2022)** [blog.desdelinux.net: Microsoft Performance-Tools, una serie de herramientas open source para analizar el rendimiento del sistema](https://blog.desdelinux.net/microsoft-performance-tools-una-serie-de-herramientas-open-source-para-analizar-el-rendimiento-del-sistema) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Overview of Microsoft's Performance-Tools suite, which provides cross-platform command-line tools for analyzing trace logs, Windows/Linux system resource usage, and overall system performance. It details how architects can inspect CPU, disk, and networking bottlenecks at a low kernel-level, enhancing system-level optimization.
+## Testing (1)
+
 ### Performance Testing
 
-#### APIs
+#### Gatling
 
-  - [youtube: JMeter API Performance Testing Tutorial 🌟](https://www.youtube.com/watch?v=8r5LYzUIepo) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A rich step-by-step video tutorial demonstrating the creation and deployment of API performance tests. Focuses on payload modeling, validation assertions, and interpreting stress test metrics under high-throughput conditions.
-#### Cloud Platforms
+  - **(2025)** [gatling.io](https://gatling.io) <span class='md-tag md-tag--warning'>[SCALA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Gatling is a highly optimized, asynchronous load-testing framework designed for high-concurrency scenarios. Written in Scala and Java, it utilizes Netty and Akka actors under the hood to handle thousands of concurrent virtual users on a single host machine, avoiding the thread-per-user overhead common in legacy frameworks like JMeter.
+#### JMeter
 
-  - [docs.microsoft.com: Azure Load Testing](https://learn.microsoft.com/en-us/azure/app-testing) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official portal documenting Microsoft Azure Load Testing, a fully managed performance validation platform that natively ingests JMeter tests to target complex cloud environments.
-  - [azure.microsoft.com: Introducing Azure Load Testing: Optimize app performance' at scale](https://azure.microsoft.com/en-us/blog/introducing-azure-load-testing-optimize-app-performance-at-scale) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An informative product reveal detailing Azure Load Testing's architecture. Explains how it connects with Azure Monitor to surface service-side bottlenecks alongside synthetic request stats.
-  - [infoq.com: Microsoft Introduces a Fully-Managed Azure Load Testing Service' in Preview](https://www.infoq.com/news/2021/12/azure-load-testing-preview) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — High-level overview of Microsoft’s fully-managed Azure Load Testing release. Illustrates how developers can leverage native cloud scaling to validate app reliability and discover performance boundaries.
-#### Commercial Platforms
+  - **(2022)** [softwaretestingmagazine.com: Learning JMeter : Documentation, Tutorials, Videos](https://www.softwaretestingmagazine.com/tools/learning-jmeter-documentation-tutorials-videos) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive compilation of tutorials, documentation, and videos for Apache JMeter. From an architectural standpoint, JMeter remains a foundational Java-based tool for load testing and performance measurement. Although newer Go/Rust-based tooling is rising, JMeter's extensive protocol support (HTTP, JDBC, JMS) ensures its continued enterprise relevance.
+#### Locust
 
-  - [octoperf.com](https://octoperf.com) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An enterprise-grade SaaS platform enabling rapid cloud-native scaling of JMeter scripts. Provides simplified infrastructure setup, robust real-time analytics, and automated reporting out-of-the-box.
-  - [flood.io](https://flood.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A scalable load testing suite by Tricentis that supports JMeter, Gatling, and browser-driven scaling. Integrates directly into cloud environments to spawn distributed agents on demand.
-#### Distributed Load Testing
+  - **(2025)** [==Locust==](https://locust.io) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source, developer-centric performance testing tool that enables writing load scenarios in pure Python. It avoids fragile XML configuration files by favoring dynamic, code-as-configuration scripts, allowing engineering teams to scale out tests across millions of concurrent users using an event-driven greenlet model.
+#### SaaS Platforms
 
-  - **(2016)** [JMeter Distributed Testing Step-by-step](https://venkatmatta.com/wp-content/uploads/2016/03/jmeter_distributed_testing_step_by_step.pdf) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed execution manual outlining steps to orchestrate distributed JMeter server architectures. Teaches how to configure multiple remote load injectors managed by a master engine to bypass network bottlenecks.
-#### HTTP Benchmarking
+  - **(2024)** [octoperf.com](https://octoperf.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Octoperf is a commercial, cloud-native performance testing platform built directly on top of Apache JMeter. It streamlines the creation, execution, and analysis of large-scale JMeter tests without the burden of managing local load generator infrastructure. Ideal for modern DevOps pipelines seeking codeless test design and real-time reporting dashboards.
+  - **(2024)** [flood.io](https://flood.io) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Tricentis Flood is a cloud-hosted load testing platform that supports JMeter, Gatling, and Selenium. It allows engineering teams to scale massive distributed loads from global geographic regions to assert system resiliency. It serves as a critical integration point for modern CI/CD pipelines aiming to shift performance testing left.
+#### Service Level Objectives
 
-  - [blog.cloud-mercato.com: New HTTP benchmark tool **pycurlb**](https://blog.cloud-mercato.com/new-http-benchmark-tool-pycurlb) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive introducing `pycurlb`, a fast performance tool wrapping libcurl for rapid HTTP request benchmarking in Python. Explores real-world performance results and technical comparisons.
-#### Load Testing
+  - **(2023)** [thenewstack.io: Simple HTTP Load Testing with SLOs](https://thenewstack.io/simple-http-load-testing-with-slos) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical exploration of how modern load testing tools are adopting Service Level Objectives (SLOs) as first-class assertions. It contrasts classical metric collections against modern SLO-driven assertions (e.g., verifying 95th percentile latency is under 100ms), showcasing how to integrate these checks directly into automated deployment flows.
+#### Vegeta
 
-  - [jmeter.apache.org](https://jmeter.apache.org) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Apache JMeter is the industry standard for performing robust load tests across varied protocols (HTTP, FTP, SOAP, Database). Allows extensive functional testing and architectural load emulation.
-  - [jmeter.apache.org: Best Practices](https://jmeter.apache.org/usermanual/best-practices.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official JMeter optimization playbook outlining key configuration standards. Focuses on minimizing CLI resource utilization, visual component overhead, and tuning JVM garbage collection for stable testing.
-  - [tutorialspoint.com: JMeter Quick Guide](https://www.tutorialspoint.com/jmeter/pdf/jmeter_quick_guide.pdf) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A fundamental PDF reference covering JMeter elements, request structures, variables, assertions, and visualization. Acts as an excellent quick-reference material for performance engineers.
-  - [softwaretestingmagazine.com: Learning JMeter : Documentation, Tutorials,' Videos](https://www.softwaretestingmagazine.com/tools/learning-jmeter-documentation-tutorials-videos) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An aggregated knowledge index linking to advanced tutorials, video courses, and functional documentation designed to accelerate the learning curve for Apache JMeter load tests.
-  - [gatling.io](https://gatling.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Gatling is an elite developer-centric performance benchmarking framework. Relies on an asynchronous engine built upon Netty and Akka to simulate massive loads using minimal system resources.
-  - [Locust](https://locust.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Locust is a highly flexible, open-source distributed user simulation tool written in Python. Test behaviors are defined naturally as Python code, avoiding complex UI scripting configurations.
-  - [thenewstack.io: Simple HTTP Load Testing with SLOs](https://thenewstack.io/simple-http-load-testing-with-slos) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive into managing performance validations by mapping assertions to specific SLO thresholds. Emphasizes maintaining strict error budgets during automated application updates.
-  - [tsenart/vegeta 🌟](https://github.com/tsenart/vegeta) <span class='md-tag md-tag--info'>⭐ 25040</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Vegeta is an exceptionally fast, command-line HTTP load-testing library written in Go. Ideal for asserting constant request rates and visualizing detailed performance latencies under heavy loads.
-#### Microservices
+  - **(2025)** [==tsenart/vegeta 🌟==](https://github.com/tsenart/vegeta) <span class='md-tag md-tag--info'>⭐ 25067</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Vegeta is an incredibly fast, highly optimized command-line HTTP load-testing tool and library written in Go. From an architectural perspective, it excels at maintaining a constant request rate (RPS) to pinpoint precisely when and where services break down, generating highly customizable text or vector graphic reports.
+### Web Performance
 
-  - [dev.to: The most elegant way to performance test your microservices running' on Kubernetes](https://dev.to/ksingh7/the-most-elegant-way-to-performance-test-your-microservices-running-on-kubernetes-2mo2) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structured guide demonstrating elegant and scalable patterns for performance testing distributed microservices. Focuses on cluster-native deployments and simulating traffic anomalies directly within Kubernetes namespaces.
-#### Monitoring
+#### Industry Acquisitions
 
-  - [linkedin.com: Tuning Grafana - Jmeter Dashboards](https://www.linkedin.com/pulse/tuning-grafana-jmeter-dashboards-ezhil-arasu) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized optimization guide detailing Grafana and JMeter integration. Focuses on pipeline configurations, exporting live telemetry to InfluxDB, and maintaining high-fidelity visualization dashboards without performance degradation.
-#### Operating Systems
-
-  - [blog.desdelinux.net: Microsoft Performance-Tools, una serie de herramientas' open source para analizar el rendimiento del sistema](https://blog.desdelinux.net/microsoft-performance-tools-una-serie-de-herramientas-open-source-para-analizar-el-rendimiento-del-sistema) <span class='md-tag md-tag--warning'>[ES CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Análisis en español de Microsoft Performance-Tools, una suite de código abierto basada en .NET Core para recopilar trazas y métricas del sistema operativo en entornos Linux y Windows. [SPANISH CONTENT]
-#### Web Performance
-
-  - [devops.com: Catchpoint to Acquire Webpagetest.org](https://devops.com/catchpoint-to-acquire-webpagetest-org) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines Catchpoint’s strategic acquisition of the highly popular open-source tool WebPageTest. Highlights long-term development roadmaps and standardizations for internet performance tools.
-## Operations and Reliability
-
-### Service Level Objectives
-
-#### Progressive Delivery
-
-  - [Iter8](https://iter8.tools) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A Kubernetes-native progressive delivery platform that orchestrates metric-driven canary releases and A/B tests. Live grounding shows Iter8's ability to validate runtime SLO performance, using Prometheus and OpenTelemetry targets to automate application promotion or rollbacks.
+  - **(2020)** [devops.com: Catchpoint to Acquire Webpagetest.org](https://devops.com/catchpoint-to-acquire-webpagetest-org) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analysis of Catchpoint's acquisition of WebPageTest, the industry-standard front-end performance auditing tool. Synthesizing live ecosystem changes, the platform continues to operate as an essential resource for tracing core web vitals and waterfall execution charts, bolstered by Catchpoint's global infrastructure.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Scaffolding](./scaffolding.md) | [QA](./qa.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [QA](./qa.md) | [Test Automation Frameworks](./test-automation-frameworks.md)
 

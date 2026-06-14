@@ -5,7 +5,6 @@
 
 ## Standard Reference
 
-  - [Windows Package Manager CLI (aka winget)](https://github.com/microsoft/winget-cli) <span class='md-tag md-tag--info'>⭐ 25901</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [Using WSL and MobaXterm to Create a Linux Dev Environment on Windows](https://nickjanetakis.com/blog/using-wsl-and-mobaxterm-to-create-a-linux-dev-environment-on-windows)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Setting Up Docker for Windows and WSL to Work Flawlessly](https://nickjanetakis.com/blog/setting-up-docker-for-windows-and-wsl-to-work-flawlessly)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Take your Linux development experience in Windows to the next level with WSL and Visual Studio Code Remote](https://devblogs.microsoft.com/commandline/take-your-linux-development-experience-in-windows-to-the-next-level-with-wsl-and-visual-studio-code-remote)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -27,11 +26,11 @@
 
 ## Developer Experience
 
-### Local Environment
+### Package Management
 
-#### Version Management
+#### Windows Tooling
 
-  - [asdf version manager (asdf-vm)](https://asdf-vm.com) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensible, multi-language version manager capable of centralizing tool runtimes through a unified CLI configuration file (`.tool-versions`). Eliminates environmental drift across localized developer workspaces by managing multiple CLI toolchains via a modular plugin architecture.
+  - **(2024)** [==Windows Package Manager CLI (aka winget)==](https://github.com/microsoft/winget-cli) <span class='md-tag md-tag--info'>⭐ 26021</span> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official open-source repository for winget-cli, Microsoft's Windows Package Manager. Standardizes command-line app deployment, installation, dependency discovery, and workspace updates.
 ## Local Development
 
 ### Operating Systems
@@ -42,5 +41,5 @@
   - **(2026)** [9elements.com: Developing on Windows with WSL2](https://9elements.com/blog/developing-on-windows-with-wsl2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-focused guide optimizing local Windows workflows with WSL2. Provides performance instructions on using WSL2 backends alongside Docker Desktop, configuring VS Code remote-containers, and mitigating cross-file system read/write overhead.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Visual Studio](./visual-studio.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 

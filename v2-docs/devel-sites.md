@@ -5,93 +5,171 @@
 
 ## Standard Reference
 
-  - [dev.to: 7 API Tools for REST Developers and Testers](https://dev.to/javinpaul/7-api-tools-for-rest-developers-and-testers-n67)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [El camino del Frontend Developer](https://github.com/mrcodedev/frontend-developer-resources) <span class='md-tag md-tag--info'>⭐ 3537</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [python.plainenglish.io: 15 GitHub Repos That Every Developers Must Bookmark' Right Now](https://python.plainenglish.io/15-github-repos-that-every-developers-must-bookmark-right-now-eee01db63977)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dev.to: Top 3 sites for programmers](https://dev.to/why_and_how/top-3-sites-for-programmers-4bmc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [makeuseof.com: The 5 Best Open-Source Webinar Software](https://www.makeuseof.com/best-open-source-webinar-software)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone.com: Software Engineering Best Practices That High-Performing Teams' Follow](https://dzone.com/articles/software-engineering-best-practices-that-high-perf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [analyticsinsight.net: Top 10 programming languages to learn for better job' opportunities in 2022](https://www.analyticsinsight.net/top-10-programming-languages-to-learn-for-better-job-opportunities-in-2022)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dev.to: 🚀10 Trending projects on GitHub for web developers - 3rd December' 2021](https://dev.to/iainfreestone/10-trending-projects-on-github-for-web-developers-3rd-december-2021-12f5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [techrepublic.com: The best programming languages to learn in 2022](https://www.techrepublic.com/article/the-best-programming-languages-to-learn-in-2022)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [baeldung.com: Concurrency vs Parallelism](https://www.baeldung.com/cs/concurrency-vs-parallelism)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [readwrite.com: Tech for Programmers in 2022: The Good, The Bad, and The' Ugly](https://readwrite.com/tech-for-programmers-in-2022-the-good-the-bad-and-the-ugly)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dev.to: 19 Valuable GitHub Repositories for Beginner Developers 📚✨](https://dev.to/madza/19-valuable-github-repositories-for-beginner-developers-3i18)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [freecodecamp.org: Frontend VS Backend – What's the Difference?](https://www.freecodecamp.org/news/frontend-vs-backend-whats-the-difference)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [betterprogramming.pub: How to Refactor a Codebase?](https://betterprogramming.pub/how-to-refactor-a-codebase-982772695078)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [freecodecamp.org: What is a Full Stack Developer? 2022 Full Stack Engineer' Guide](https://www.freecodecamp.org/news/what-is-a-full-stack-developer-full-stack-engineer-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dev.to: 10 best GitHub repos for developers](https://dev.to/mariamarsh/10-best-github-repos-for-developers-5gmp)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dev.to: 5 Books and Courses to Learn Object Oriented Programming in Depth](https://dev.to/javinpaul/5-books-and-courses-to-learn-object-oriented-programming-in-depth-4kff)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [freecodecamp.org: How to Start Learning to Code – Handbook for Beginners](https://www.freecodecamp.org/news/learn-coding-for-everyone-handbook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [refactoring.guru: Design Patterns](https://refactoring.guru/design-patterns)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: 7 Best Java Design Pattern Books for Beginners and Experienced Programmers](https://medium.com/javarevisited/7-best-books-to-learn-design-patterns-for-java-programmers-5627b93eefdb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [shadman-jamil.medium.com: Most Useful Software Architecture Patterns](https://shadman-jamil.medium.com/most-useful-software-architecture-patterns-68e171405292)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@victor.ronin: Design your code for readability vs. writability](https://medium.com/@victor.ronin/design-your-code-for-readability-vs-writability-d42f04cc6f4d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [betterprogramming.pub: How SOLID Remains Solid — Software Principles vs.' Patterns](https://betterprogramming.pub/how-solid-remains-solid-software-principles-vs-patterns-c77c623a628b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [FreeLens](https://github.com/freelensapp/freelens) <span class='md-tag md-tag--info'>⭐ 5073</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [dev.to: 15 Developer Tools to Make You Super Productive](https://dev.to/sourcegraph/15-developer-tools-to-make-you-super-productive-2g0a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [firebase.google.com](https://firebase.google.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [supabase.com](https://supabase.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.logrocket.com: Working with Supabase Studio](https://blog.logrocket.com/working-supabase-studio)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [infoq.com: Ballerina for Full-Stack Developers: A Guide to Creating Backend' APIs](https://www.infoq.com/articles/ballerina-fullstack-rest-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [softwarecollections.org](https://www.softwarecollections.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Red Hat Software Collections](https://developers.redhat.com/products/softwarecollections/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Red Hat Developer Toolset](https://developers.redhat.com/products/developertoolset/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: Red Hat Software Collections 3.8 and Red Hat Developer' Toolset 11 now generally available](https://developers.redhat.com/articles/2021/11/15/red-hat-software-collections-38-and-red-hat-developer-toolset-11-now-generally)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dhall-lang.org: Dhall Configuration Language](https://dhall-lang.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ddev.com](https://ddev.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [opensource.com: 16 reasons DDEV will be your new favorite web development' environment](https://opensource.com/article/22/12/ddev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [oclif.io 🌟](https://oclif.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@jdxcode: 12 Factor CLI Apps](https://medium.com/@jdxcode/12-factor-cli-apps-dd3c227a0e46)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Developer Tools
+## Backend-as-a-Service
 
-### AI Assistance
+### Google Cloud
 
-#### Code Quality
+#### BaaS Platform
 
-  - **(2026)** [Amazon CodeGuru Reviewer](https://aws.amazon.com/codeguru/profiler) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Service page detailing Amazon CodeGuru Reviewer, an AI-powered code analysis tool. Scans pull requests to detect difficult-to-find bugs, concurrency issues, resource leaks, and security vulnerabilities, providing intelligent, automated optimization recommendations based on AWS best practices.
-#### Generative AI
+  - **(2026)** [firebase.google.com](https://firebase.google.com) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google's premium Backend-as-a-Service platform. Features real-time JSON databases, managed authentication, and serverless compute triggers optimized for client applications and lightweight microservices.
+### PostgreSQL
 
-  - **(2024)** [Amazon CodeWhisperer](https://aws.amazon.com/q/developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Overview of Amazon's AI-powered coding companion (subsequently consolidated into Amazon Q Developer). Generates real-time code suggestions from natural language prompts, detects security vulnerabilities, and highlights reference attributions, assisting developers working in AWS environments.
-## Frontend Development
+#### BaaS Platform (1)
 
-### Framework Comparison
+  - **(2026)** [supabase.com](https://supabase.com) <span class='md-tag md-tag--warning'>[TYPESCRIPT/ELIXIR CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The premier open-source Firebase alternative. Leverages production-ready PostgreSQL with real-time sync networks, integrated authentication engines, and automated REST/GraphQL APIs, highly compatible with cloud-native container workloads.
+#### Database Tooling
 
-#### JS Ecosystem
+  - **(2022)** [blog.logrocket.com: Working with Supabase Studio](https://blog.logrocket.com/working-supabase-studio) <span class='md-tag md-tag--warning'>[SQL/TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical exploration of Supabase Studio, an embedded database UI. Shows how to configure relational tables, manage Row-Level Security (RLS) configurations, and run SQL commands without leaving the platform UI.
+## Career
 
-  - **(2022)** [trio.dev: Angular vs React: Is Angular Dead?](https://trio.dev/angular-vs-react) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed technical comparison of Angular and React. Analyzes architectural approaches (opinionated MVC framework vs. flexible component library), performance optimizations, data binding patterns, ecosystem lifecycles, and their suitability for enterprise micro-frontend applications.
-## Professional Development
+### Industry Trends
 
-### Career Guidance
+#### Languages
 
-#### Industry Trends
+  - **(2022)** [analyticsinsight.net: Top 10 programming languages to learn for better job opportunities in 2022](https://www.analyticsinsight.net/top-10-programming-languages-to-learn-for-better-job-opportunities-in-2022) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Assesses primary programming languages driving enterprise applications and microservices (including Go, Rust, TypeScript, and Python) based on comprehensive job market metrics.
+#### Learning Paths
 
-  - **(2023)** [geeksforgeeks.org: 7 Most In-Demand and High Paying Programming Jobs](https://www.geeksforgeeks.org/blogs/7-most-in-demand-and-high-paying-programming-jobs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Identifies and ranks high-value programming and engineering professions in modern software industries. Highlights Cloud Architects, DevOps Engineers, and Site Reliability Engineers (SREs) as top-paying tier jobs due to the global enterprise transition to containerized and multi-cloud architectures.
-### Software Engineering
+  - **(2022)** [freecodecamp.org: What is a Full Stack Developer? 2022 Full Stack Engineer Guide](https://www.freecodecamp.org/news/what-is-a-full-stack-developer-full-stack-engineer-guide) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A career guide details full-stack software development proficiencies, mapping expectations across modern client frameworks, server endpoints, relational/non-relational databases, and fundamental platform operations.
+#### Market Analysis
 
-#### Methodology
+  - **(2024)** [geeksforgeeks.org: 7 Most In-Demand and High Paying Programming Jobs](https://www.geeksforgeeks.org/blogs/7-most-in-demand-and-high-paying-programming-jobs) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analysis of high-demand cloud and software engineering specializations, highlighting systems architecture, DevOps, machine learning engineering, and backend microservice design.
+## Cluster Management
 
-  - **(2021)** [dev.to: A Better Way To Code: Documentation Driven Development](https://dev.to/playfulprogramming/a-better-way-to-code-documentation-driven-development-1kem)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores Documentation-Driven Development (DDD) as a framework for software construction. Explains how writing user guides, API specifications, and architecture designs before coding clarifies business logic, decreases system complexity, and improves collaboration across distributed microservice teams.
-## Software Engineering (1)
+### GUI Tools
 
-### AI-Assisted Development
+#### Desktop Clients
 
-#### Copilot Integrations
+  - **(2024)** [**FreeLens**](https://github.com/freelensapp/freelens) <span class='md-tag md-tag--info'>⭐ 5145</span> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — FreeLens is a lightweight, open-source alternative desktop client for managing Kubernetes clusters. It provides platform operators with real-time visual telemetry and container log streams, optimizing daily operational tasks without complex terminal overhead.
+## DevOps and CICD
 
-  - **(2021)** [==GitHub Copilot 🌟==](https://github.com/copilot) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main landing framework for GitHub Copilot's developer organization. As an AI-assisted development standard, it houses the core SDK components, extension configurations, and telemetry hooks driving modern contextual code synthesis inside major integrated development environments (IDEs).
-### Developer Experience
+### Automated Code Review
 
-#### IDEs and Tooling
+#### Amazon CodeGuru
 
-  - [IntelliJ vs. VSCode for Rust Development](https://users.rust-lang.org/t/anyone-here-go-intellij-vscode/84499)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Community-driven performance and usability evaluation contrasting IntelliJ Rust and VSCode (rust-analyzer) workflows. Discusses compilation feedback, macro expansion speeds, and debugging tool integrations.
-### Practices
+  - **(2026)** [Amazon CodeGuru Reviewer](https://aws.amazon.com/codeguru/profiler) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Amazon CodeGuru Reviewer is an AI-driven security and performance analysis service built to find hard-to-detect defects within CI/CD pipelines. It identifies security vulnerabilities, synchronization issues, and resource leaks. In 2026, it offers refined cloud-native optimization suggestions tailored to AWS service dependencies and serverless execution environments.
+## DevOps Automation and Modern Systems Engineering
+
+### Software Engineering Principles
 
 #### Developer Cognitive Load
 
-  - **(2022)** [**infoworld.com: Complexity is killing software developers**](https://www.infoworld.com/article/2270714/complexity-is-killing-software-developers.html) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Critiques the rising cognitive load facing software developers due to tool sprawl in the cloud-native ecosystem. It traces how managing infrastructure-as-code, CI/CD pathways, and microservices orchestrators can overshadow core programming tasks. The author advocates for dedicated platform engineering teams to build abstractions that simplify developer workflows.
+  - **(2022)** [infoworld.com: Complexity is killing software developers](https://www.infoworld.com/article/2270714/complexity-is-killing-software-developers.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Addresses the rising developer cognitive load induced by the sprawl of cloud-native configurations, tooling, and infrastructure details. Argues for developer-centric abstractions and internal developer platforms (IDPs) to insulate application developers from cloud complexity and boost velocity.
+## Developer Productivity
+
+### Integrated Development Environments
+
+#### Rust
+
+  - **(2022)** [IntelliJ vs. VSCode for Rust Development](https://users.rust-lang.org/t/anyone-here-go-intellij-vscode/84499) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comparative review evaluating IntelliJ Rust versus VSCode + rust-analyzer. Analyzes memory footprint, compilation speed feedback loops, macro expansion accuracy, and integrated debugger performance.
+## Developer Tooling
+
+### CLI Frameworks
+
+#### Oclif
+
+  - **(2026)** [oclif.io 🌟](https://oclif.io) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Oclif is an extensible Node.js CLI framework engineered by Salesforce/Heroku for constructing robust command-line tools. It supports self-documenting commands, precise flag parsing, and an advanced, scalable plugin architecture. Live grounding indicates its continued dominance as the underlying engine for enterprise-grade command-line environments and developer tooling kits globally.
+## Development Environments
+
+### Local Orchestration
+
+#### DDEV
+
+  - **(2026)** [ddev.com](https://ddev.com) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — DDEV is an open-source local development tool built on Docker that abstracts container complexity for PHP, Node.js, and Python CMS environments. Live grounding confirms its extensive use in enterprise web development, offering automated local SSL, seamless DB migrations, and platform integrations. It remains a key standard for teams looking to mirror production architectures locally with minimal overhead.
+#### DDEV Guides
+
+  - **(2022)** [opensource.com: 16 reasons DDEV will be your new favorite web development environment](https://opensource.com/article/22/12/ddev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This foundational guide details DDEV's architecture and outlines several core operational reasons to adopt it for local developer environments. The resource highlights zero-config SSL, automated multisite networking, and seamless cross-platform orchestration. It acts as a clear migration roadmap from customized Docker Compose layouts to a standardized, team-wide orchestration abstraction layer.
+## Infrastructure
+
+### Enterprise Operating Systems
+
+#### Software Collections
+
+  - **(2021)** [developers.redhat.com: Red Hat Software Collections 3.8 and Red Hat Developer Toolset 11 now generally available](https://developers.redhat.com/articles/2021/11/15/red-hat-software-collections-38-and-red-hat-developer-toolset-11-now-generally) <span class='md-tag md-tag--warning'>[C/C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Release summary detailing Red Hat Software Collections 3.8 and Developer Toolset 11. Explains runtime lifecycle considerations, package availability, and GCC version upgrades for building enterprise software on RHEL platforms.
+## Software Engineering
+
+### AI-Assisted Development
+
+#### Copilot Ecosystem
+
+  - **(2023)** [==GitHub Copilot 🌟==](https://github.com/copilot) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main landing framework for GitHub Copilot's developer organization. As an AI-assisted development standard, it houses the core SDK components, extension configurations, and telemetry hooks driving modern contextual code synthesis inside major integrated development environments (IDEs).
+### Collaboration
+
+#### Media Tools
+
+  - **(2021)** [makeuseof.com: The 5 Best Open-Source Webinar Software](https://www.makeuseof.com/best-open-source-webinar-software) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluation of five dominant open-source platforms suitable for hosting high-density webinars. Assesses audio/video synchronization qualities, deployment flexibility, and server performance requirements.
+### Configuration Languages
+
+#### Dhall
+
+  - **(2026)** [dhall-lang.org: Dhall Configuration Language](https://dhall-lang.org) <span class='md-tag md-tag--warning'>[HASKELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Dhall is a programmable, statically typed, non-Turing-complete configuration language. It is designed to safely generate standard JSON and YAML configuration maps while eliminating duplicate structural code and dynamic security vectors.
+### Design Patterns
+
+#### Refactoring
+
+  - **(2026)** [refactoring.guru: Design Patterns](https://refactoring.guru/design-patterns) <span class='md-tag md-tag--warning'>[MULTI-LANGUAGE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exceptional digital guide outlining classical Creational, Structural, and Behavioral software design patterns. Provides clean, production-ready code examples in Go, Python, Java, and TypeScript alongside practical refactoring advice.
+### Developer Productivity (1)
+
+#### Learning Paths (1)
+
+  - **(2022)** [dev.to: 19 Valuable GitHub Repositories for Beginner Developers 📚✨](https://dev.to/madza/19-valuable-github-repositories-for-beginner-developers-3i18) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A collection of nineteen core GitHub repositories offering essential templates, API collections, and documentation guidelines to bootstrap professional developers.
+#### Resources
+
+  - **(2022)** [dev.to: Top 3 sites for programmers](https://dev.to/why_and_how/top-3-sites-for-programmers-4bmc) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines top interactive websites and platforms for software developers to hone programming logic, learn syntax, and prepare for architectural coding interviews.
+  - **(2022)** [dev.to: 15 Developer Tools to Make You Super Productive](https://dev.to/sourcegraph/15-developer-tools-to-make-you-super-productive-2g0a) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines fifteen specialized software developer tools, covering shell customization utilities, automated search engines, linting systems, and IDE extensions engineered to maximize coding velocity.
+  - **(2021)** [dev.to: 10 best GitHub repos for developers](https://dev.to/mariamarsh/10-best-github-repos-for-developers-5gmp) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights ten essential GitHub repositories containing computer science guidelines, system architecture patterns, and algorithmic exercises critical for platform and backend software engineering.
+### Education
+
+#### Systems Programming
+
+  - **(2024)** [==Build Your Own X==](https://github.com/codecrafters-io/build-your-own-x) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An immensely popular community-driven compilation of step-by-step guides for building complex software systems (compilers, databases, operating systems, Docker) from scratch. Perfect for deep pedagogical exploration of core engineering systems.
+### Frontend
+
+#### Frameworks
+
+  - **(2022)** [trio.dev: Angular vs React: Is Angular Dead?](https://trio.dev/angular-vs-react) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative study evaluating the architectural paradigms of Angular vs. React. Evaluates runtime performance, state management approaches, scaling potential, and long-term maintenance overhead in large-scale enterprise portals.
+#### Learning Paths (2)
+
+  - **(2024)** [**El camino del Frontend Developer**](https://github.com/mrcodedev/frontend-developer-resources) <span class='md-tag md-tag--info'>⭐ 3536</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An extensive frontend development roadmap repository, detailing system tools, CSS architectures, modern frameworks (React, Vue, Angular), and build systems (Vite, Webpack) required for client engineering.
+#### Trending
+
+  - **(2021)** [dev.to: 🚀10 Trending projects on GitHub for web developers - 3rd December 2021](https://dev.to/iainfreestone/10-trending-projects-on-github-for-web-developers-3rd-december-2021-12f5) <span class='md-tag md-tag--warning'>[JAVASCRIPT/TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Weekly technical snapshot capturing ten trending open-source projects on GitHub, focusing on next-generation web platforms, development libraries, and modular application utilities.
+### Fundamentals
+
+#### Concepts
+
+  - **(2021)** [freecodecamp.org: Frontend VS Backend – What's the Difference?](https://www.freecodecamp.org/news/frontend-vs-backend-whats-the-difference) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Core documentation outlining the client-server architecture model. Contrasts browser rendering, DOM manipulation, and static client hosting with server runtime execution, API interfaces, and database persistence layers.
+#### Learning Paths (3)
+
+  - **(2022)** [freecodecamp.org: How to Start Learning to Code – Handbook for Beginners](https://www.freecodecamp.org/news/learn-coding-for-everyone-handbook) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational software engineering handbook designed to quickly familiarize beginner programmers with the UNIX command line, version control operations (Git), and basic application code structures.
+#### Object-Oriented Programming
+
+  - **(2021)** [dev.to: 5 Books and Courses to Learn Object Oriented Programming in Depth](https://dev.to/javinpaul/5-books-and-courses-to-learn-object-oriented-programming-in-depth-4kff) <span class='md-tag md-tag--warning'>[JAVA/C++ CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews five industry-standard courses and manuals targeting deep Object-Oriented Programming (OOP) architectures, clean design principles (SOLID), and enterprise domain-driven modeling patterns.
+### Languages (1)
+
+#### Cloud-Native Programming
+
+  - **(2021)** [infoq.com: Ballerina for Full-Stack Developers: A Guide to Creating Backend APIs](https://www.infoq.com/articles/ballerina-fullstack-rest-api) <span class='md-tag md-tag--warning'>[BALLERINA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical evaluation of Ballerina as an open-source programming language specifically designed for backend microservice integration. Focuses on native support for HTTP/2, gRPC, and JSON data transformations.
+### Methodology
+
+#### Documentation
+
+  - **(2021)** [dev.to: A Better Way To Code: Documentation Driven Development](https://dev.to/playfulprogramming/a-better-way-to-code-documentation-driven-development-1kem) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces Documentation Driven Development (DDD). Explains how specifying schemas, system boundaries, and API interfaces in documentation before coding leads to cleaner microservice separation.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Visual Studio](./visual-studio.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 

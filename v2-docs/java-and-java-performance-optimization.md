@@ -34,90 +34,137 @@
   - [DZone: Memory Leaks and Java Code](https://dzone.com/articles/memory-leak-andjava-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Hazelcast JET](https://jet-start.sh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Cloud Native Languages
+## Cloud Native Infrastructure
 
-### Java
+### Kubernetes
 
-#### Caching
+#### Containerized JVM Tuning
 
-  - **(2025)** [Tecnologías de Heap-Offloading son EHcache, Memcached, Jillegal library, etc.](http://ehcache.org) <span class='md-tag md-tag--warning'>[ES CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Robust, standards-compliant Java caching library supporting off-heap storage to bypass JVM Garbage Collection overhead. Crucial for high-throughput microservices requiring low-latency data access. [SPANISH CONTENT]
-#### Kubernetes Integration
+  - **(2021)** [blog.gceasy.io: Best practices: Java memory arguments for Containers 🌟](https://blog.gceasy.io/best-practices-java-memory-arguments-for-containers) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Direct blueprint for configuring JVM heap metrics under Docker environments. Details the risks of omitting explicit container-aware memory allocation rules, preventing silent OOMKilled evictions by the host kernel.
+  - **(2020)** [blog.openshift.com: Scaling Java Containers 🌟](https://www.redhat.com/en/blog/scaling-java-containers) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive guide explaining how Linux cgroups interact with the JVM's ergonomics. Highlights historical heap-limit misalignment bugs and offers solutions using container-aware flags like UseContainerSupport and MaxRAMPercentage.
+#### JVM Container Optimization
 
-  - [piotrminkowski.com: Java Flight Recorder on Kubernetes](https://piotrminkowski.com/2024/02/13/java-flight-recorder-on-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Excellent architectural guide demonstrating how to continuously profile Java applications running on Kubernetes with Java Flight Recorder (JFR) and JDK Mission Control. Uses declarative setups for modern container observation.
-#### Memory Management
+  - **(2023)** [tech.olx.com: Improving JVM Warm-up on Kubernetes 🌟](https://tech.olx.com/improving-jvm-warm-up-on-kubernetes-1b27dd8ecd58) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains technical approaches to address CPU throttling and JIT-compilation cold starts for Java microservices running on Kubernetes. Demonstrates solutions using resource allocation adjustments, pre-heating traffic, and modern CRaC (Coordinated Restore at Checkpoint).
+  - **(2021)** [itnext.io: How to cold start fast a java service on k8s (EKS)](https://itnext.io/how-to-cold-start-fast-a-java-service-on-k8s-eks-3a7b4450845d) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Advanced techniques targeting containerized boot times. Compares performance of GraalVM Native Image compiles, AppCDS (Application Class Data Sharing), and Tiered Compilation tuning to mitigate Kubernetes container cold-start delays.
+## Infrastructure
 
-  - **(2014)** [Cambios importantes en la gestión de memoria de Java 8 de Oracle](http://karunsubramanian.com/websphere/one-important-change-in-memory-management-in-java-8) <span class='md-tag md-tag--warning'>[ES CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Explores the structural transition in Java 8 memory management, highlighting the replacement of PermGen with Metaspace. Critical for understanding modern JVM memory behavior. [SPANISH CONTENT]
-  - **(2013)** [PermGen eliminado](http://www.infoq.com/articles/Java-PERMGEN-Removed) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Deep-dive InfoQ article outlining the removal of the Permanent Generation (PermGen) in favor of Metaspace. Provides precise technical context on tuning flags and garbage collection changes. [SPANISH CONTENT]
-  - **(2011)** [How Garbage Collection differs in the three big JVMs](http://apmblog.dynatrace.com/2011/05/11/how-garbage-collection-differs-in-the-three-big-jvms) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A detailed comparison of Garbage Collection strategies across HotSpot, JRockit, and IBM J9 JVMs. Highly valuable for understanding historical differences in memory compaction and pause times.
-  - [javarevisited.blogspot.com: How Garbage Collection works in Java? Explained' (2011)](https://javarevisited.blogspot.com/2011/04/garbage-collection-in-java.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A fundamental guide detailing Java Garbage Collection mechanics, generational hypothesis, and basic GC algorithms. Ideal for building baseline knowledge of JVM memory structures.
-#### Performance Tuning
+### Container Orchestration
 
-  - **(2014)** [Free eGuide: JVM Troubleshooting Guide](http://freepromagazine.blogspot.de/2014/07/free-eguide-jvm-troubleshooting-guide.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A legacy JVM troubleshooting guide covering common performance pitfalls, memory issues, and GC analysis patterns. Offers foundational reference value despite its age.
-  - [tier1app.com](https://tier1app.com) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A dedicated APM tool for analyzing Java thread dumps and performance. Provides automated diagnostics for thread contention and deadlocks to optimize JVM application responsiveness.
-  - [fastthread.io](https://fastthread.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Industrial-grade online Java thread dump analyzer that uses AI diagnostics to identify CPU spikes, thread leaks, and deadlock patterns. Essential for post-mortem analysis of containerized JVM workloads.
-  - [gceasy.io](https://gceasy.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Machine-learning powered JVM Garbage Collection log analyzer. Automates the detection of memory leaks, GC pauses, and heap sizing misconfigurations, offering actionable recommendations for optimization.
-  - [heaphero.io](https://heaphero.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An automated cloud-based JVM heap dump analyzer built to parse large memory dumps quickly. Detects memory leaks and optimizes data structure footprints to resolve OutOfMemoryError crashes.
-  - [Jillegal OffHeap Module](https://github.com/serkan-ozal/jillegal) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An experimental library designed to bypass standard JVM memory allocation by managing objects off-heap. Note: This project is archived and has been inactive for over 4 years; it is recommended for historical study rather than production use.
-  - [Byteman](https://byteman.jboss.org) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly flexible bytecode injection tool that simplifies tracing, monitoring, and chaos testing in Java applications. Uses side-loaded rules to inject diagnostics without rebuilding code.
-  - [developers.redhat.com: Collect JDK Flight Recorder events at runtime with' JMC Agent 🌟](https://developers.redhat.com/blog/2020/10/29/collect-jdk-flight-recorder-events-at-runtime-with-jmc-agent) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Demonstrates using the JDK Mission Control (JMC) Agent to dynamically inject JFR events into running JVMs. Enables real-time production diagnostics with near-zero overhead.
-  - [developers.redhat.com: Checkpointing Java from outside of Java](https://developers.redhat.com/blog/2020/10/15/checkpointing-java-from-outside-of-java) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Introduces techniques to checkpoint running Java processes from the OS level using CRIU. Essential groundwork for achieving instant-start capabilities in containerized Java serverless workloads.
-  - [developers.redhat.com: A faster way to access JDK Flight Recorder data](https://developers.redhat.com/articles/2021/11/23/faster-way-access-jdk-flight-recorder-data) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explores programmatic, low-latency access to JDK Flight Recorder data streams at runtime. Provides architecture blueprints for exporting profiling telemetry directly into external APM platforms.
-## Infrastructure Integration
-
-### Local Development
-
-#### Networking
-
-  - [vladmihalcea.com: How to tunnel localhost to the public Internet](https://vladmihalcea.com/tunnel-localhost-public-internet) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical walkthrough on exposing local servers to the public internet using tools like ngrok. Facilitates rapid debugging of external webhooks and third-party APIs during local microservices development.
-## Runtime Optimizations
-
-### Application Architecture
-
-#### Caching Strategies
-
-  - [vladmihalcea.com: Caching best practices](https://vladmihalcea.com/caching-best-practices) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Advanced guidelines on data caching layers. Focuses on cache eviction strategies, write-through sync, and invalidation consistency protocols in microservices.
-#### Persistence Layer
-
-  - [vladmihalcea.com: 14 High-Performance Java Persistence Tips](https://vladmihalcea.com/14-high-performance-java-persistence-tips) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — In-depth checklist to optimize JDBC, Hibernate, and JPA operations. Discusses query batching, dirty checking, dynamic sorting, and connection pool sizing.
-### JVM Tuning
-
-#### Garbage Collection
-
-  - [developers.redhat.com: Shenandoah garbage collection in OpenJDK 16: Concurrent' reference processing](https://developers.redhat.com/articles/2021/05/20/shenandoah-garbage-collection-openjdk-16-concurrent-reference-processing) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep dive into OpenJDK 16's concurrent reference processing in the Shenandoah Garbage Collector. Discusses structural barrier enhancements that limit GC pauses to sub-milliseconds.
-  - [kstefanj.github.io: GC progress from JDK 8 to JDK 17](https://kstefanj.github.io/2021/11/24/gc-progress-8-17.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Empirical performance benchmarks tracking G1GC, ParallelGC, ZGC, and Shenandoah collection efficiency improvements from Java SE 8 through LTS 17.
-  - [developers.redhat.com: How to choose the best Java garbage collector](https://developers.redhat.com/articles/2021/11/02/how-choose-best-java-garbage-collector) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architect guide comparing major modern GCs (G1, ZGC, Shenandoah) against application profiles to balance maximum throughput, latency tolerances, and system memory.
-#### Language Fundamentals
-
-  - [Running Jenkins on Java 11 🌟](https://www.jenkins.io/doc/administration/requirements/jenkins-on-java-11/#:~:text=The%20easiest%20way%20to%20run,images%2C%20use%20the%20jdk11%20tag.) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Administrative guide addressing the platform transition of the Jenkins controller from obsolete Java 8 engines to modern Java 11 runtime profiles.
-  - [javarevisited.blogspot.com: 10 Things Java Programmers Should Learn in 2022](https://javarevisited.blogspot.com/2017/12/10-things-java-programmers-should-learn.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights classic competencies for advanced Java engineers, such as concurrency paradigms, GC tuning, microservices, and modern framework shifts.
-  - [freecodecamp.org: Learn the Basics of Java Programming](https://www.freecodecamp.org/news/learn-the-basics-of-java-programming) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Beginner-centric handbook focusing on OOP concepts, procedural mechanics, and structural paradigms inside the Java virtual machine environment.
-  - [freecodecamp.org: Advanced Object-Oriented Programming in Java – Full Book](https://www.freecodecamp.org/news/object-oriented-programming-in-java) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed technical book-style guide exploring advanced object-oriented paradigms. Focuses on design patterns, polymorphic interfaces, and encapsulation policies.
-  - [linkedin.com/pulse: Difference between Executor, ExecutorService, and Executors' class in Java!](https://www.linkedin.com/pulse/difference-between-executor-executorservice-executors-omar-ismail) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Clarifies functional differences in the Java Concurrency Framework interface hierarchy. Highlights thread pooling strategies and execution submission lifecycles.
-  - [freecodecamp.org: How to Write Unit Tests in Java](https://www.freecodecamp.org/news/java-unit-testing) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Walkthrough covering JUnit 5 framework testing. Focuses on parameterized tests, Mockito integration, and code coverage reporting in build cycles.
-#### Monitoring and Profiling
-
-  - [developers.redhat.com: Get started with JDK Flight Recorder in OpenJDK 8u' 🌟](https://developers.redhat.com/blog/2020/08/25/get-started-with-jdk-flight-recorder-in-openjdk-8u) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Outlines configuring and analyzing OpenJDK 8u runtime events utilizing JDK Flight Recorder (JFR) and Mission Control. Essential for debugging containerized legacy runtimes.
-  - [blog.heaphero.io: HeapHero - Java & Android Heap Dump Analyzer](https://blog.heaphero.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Portal exploring the HeapHero engine. Focuses on indexing memory leaks, analyzing garbage collection impact, and tracking unused objects from heap dumps.
-  - [developers.redhat.com: JDK Flight Recorder support for GraalVM Native Image:' The journey so far 🌟](https://developers.redhat.com/articles/2021/07/23/jdk-flight-recorder-support-graalvm-native-image-journey-so-far) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews progress in compiling low-overhead JVM diagnostics natively inside GraalVM images. Analyzes memory footprint tracking constraints and compilation trade-offs.
-  - [speakerdeck.com: Profiling a Java Application @DevDays 2023 | Victor Rentea](https://speakerdeck.com/victorrentea/profiling-a-java-application-at-devdays-2023) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — High-density presentation slide deck dissecting execution profiling tools. Teaches identification of CPU hotspots, thread lock contention, and high garbage creation loops.
-#### Performance Optimization
-
-  - [OpenHFT/Java-Thread-Affinity](https://github.com/OpenHFT/Java-Thread-Affinity) <span class='md-tag md-tag--info'>⭐ 1895</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Highly optimized library that binds Java execution threads to specific CPU cores. Mitigates task context-switching overhead in low-latency financial systems.
-### Kubernetes Tuning
-
-#### JVM in Containers
-
-  - **(2022)** [blog.gceasy.io: Best practices: Java memory arguments for Containers 🌟](https://blog.gceasy.io/best-practices-java-memory-arguments-for-containers) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep analysis of standard flags (like -XX:+UseContainerSupport and -XX:MaxRAMPercentage) needed to ensure JVM containers accurately dynamically self-size.
-  - **(2021)** [blog.openshift.com: Scaling Java Containers 🌟](https://www.redhat.com/en/blog/scaling-java-containers) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores container resource limit considerations for Java workloads. Details memory calculation adjustments (Heap vs Non-Heap) to prevent OOMKills.
-  - [tech.olx.com: Improving JVM Warm-up on Kubernetes 🌟](https://tech.olx.com/improving-jvm-warm-up-on-kubernetes-1b27dd8ecd58) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Operational case study detailing OLX's strategy to remediate high CPU spikes caused by JVM JIT compiling during initial Kubernetes pod scaling actions.
-  - [itnext.io: How to cold start fast a java service on k8s (EKS)](https://itnext.io/how-to-cold-start-fast-a-java-service-on-k8s-eks-3a7b4450845d) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Engineering exploration highlighting techniques to minimize startup latency for Spring Boot/Quarkus container images, leveraging GraalVM, CRaC, or CPU shares.
-#### Monitoring and Profiling (1)
-
-  - **(2021)** [blog.openshift.com: Debugging Java Applications On OpenShift and Kubernetes](https://www.redhat.com/en/blog/debugging-java-applications-on-openshift-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Walkthrough covering remote JVM agent connection attachment procedures targeting pods deployed within secured target Kubernetes namespaces.
 #### Observability
 
-  - **(2021)** [blog.openshift.com: Performance Metrics (APM) for Spring Boot Microservices on OpenShift](https://www.redhat.com/en/blog/performance-metrics-apm-spring-boot-microservices-openshift) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive integration guide explaining how to hook up Spring Boot Prometheus metrics directly into automated OpenShift cluster telemetry layers.
+  - **(2024)** [piotrminkowski.com: Java Flight Recorder on Kubernetes](https://piotrminkowski.com/2024/02/13/java-flight-recorder-on-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A real-world implementation guide demonstrating how to manage JDK Flight Recorder (JFR) captures inside containerized Kubernetes clusters. By leveraging modern diagnostic operators like Cryostat, the guide details automated collection pipelines that prevent performance overhead in production microservices.
+### Networking
+
+#### Development Tools
+
+  - **(2021)** [vladmihalcea.com: How to tunnel localhost to the public Internet](https://vladmihalcea.com/tunnel-localhost-public-internet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical guide explaining how to tunnel local developer server environments to the public internet using tools like ngrok and SSH reverse forwarding. It details routing steps necessary to test webhook integrations, third-party platform callbacks, and mobile application APIs.
+## JVM Architecture
+
+### Ahead-of-Time Compilation
+
+#### Diagnostics
+
+  - **(2021)** [developers.redhat.com: JDK Flight Recorder support for GraalVM Native Image: The journey so far 🌟](https://developers.redhat.com/articles/2021/07/23/jdk-flight-recorder-support-graalvm-native-image-journey-so-far) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights runtime monitoring capabilities for Ahead-of-Time (AOT) compiled Java applications. Explains how native binaries built with GraalVM leverage JFR events to expose custom runtime execution metrics.
+### High-Performance Systems
+
+#### Thread Affinity
+
+  - **(2022)** [**OpenHFT/Java-Thread-Affinity**](https://github.com/OpenHFT/Java-Thread-Affinity) <span class='md-tag md-tag--info'>⭐ 1897</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Highly optimized library that binds Java execution threads to specific CPU cores. Mitigates task context-switching overhead in low-latency financial systems, guaranteeing deterministic scheduling on modern multi-core hardware.
+### Memory Management
+
+#### Diagnostics (1)
+
+  - **(2021)** [blog.heaphero.io: HeapHero - Java & Android Heap Dump Analyzer](https://blog.heaphero.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical analysis and troubleshooting advice targeting Java OutOfMemoryErrors. Discusses using automated heap analysis to pinpoint classloader leaks, redundant data allocations, and memory bloat.
+#### Garbage Collection
+
+  - **(2021)** [developers.redhat.com: Shenandoah garbage collection in OpenJDK 16: Concurrent reference processing](https://developers.redhat.com/articles/2021/05/20/shenandoah-garbage-collection-openjdk-16-concurrent-reference-processing) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — In-depth technical breakdown of Shenandoah GC's concurrent reference processing capabilities in OpenJDK 16. Details how reducing concurrent STW (Stop-The-World) phases minimizes millisecond-level tail latencies for highly parallel microservices.
+  - **(2021)** [developers.redhat.com: How to choose the best Java garbage collector](https://developers.redhat.com/articles/2021/11/02/how-choose-best-java-garbage-collector) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical selection matrix mapping GC choices (G1GC, ZGC, Shenandoah, Serial) to enterprise architectural requirements such as maximum throughput, heap density, or strict SLA-bound tail latency limits.
+### Performance Profiling
+
+#### Diagnostics (2)
+
+  - **(2023)** [speakerdeck.com: Profiling a Java Application @DevDays 2023 | Victor Rentea](https://speakerdeck.com/victorrentea/profiling-a-java-application-at-devdays-2023)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep presentation deck outlining hands-on strategies for profiling complex enterprise Java deployments. Explores diagnosing thread contention, locking bottlenecks, heap leaks, and high JIT compilation latency.
+  - **(2020)** [developers.redhat.com: Get started with JDK Flight Recorder in OpenJDK 8u 🌟](https://developers.redhat.com/blog/2020/08/25/get-started-with-jdk-flight-recorder-in-openjdk-8u) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Explores backporting JDK Flight Recorder to OpenJDK 8u, enabling low-overhead hardware and software event monitoring in production environments. Demonstrates negligible performance drag (<1%) compared to legacy profilers.
+## Java Platform
+
+### Runtime and JVM
+
+#### Garbage Collection (1)
+
+  - **(2021)** [kstefanj.github.io: GC progress from JDK 8 to JDK 17](https://kstefanj.github.io/2021/11/24/gc-progress-8-17.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive technical evaluation tracking the performance evolution and design changes of garbage collectors from JDK 8 to JDK 17. The analysis highlights significant throughput gains, memory footprint reductions, and sub-millisecond pause-time optimizations achieved in modern G1 and ZGC algorithms, making Java 17 highly optimized for containerized microservice execution environments.
+## Observability (1)
+
+### Application Monitoring
+
+#### Java Diagnostics
+
+  - **(2020)** [Debugging Java Applications On OpenShift and Kubernetes](https://www.redhat.com/en/blog/debugging-java-applications-on-openshift-kubernetes) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates techniques for profiling and debugging remote Java applications running on Kubernetes pods. Walks through port-forwarding JDWP connections and using CLI profiling utilities.
+#### Java Performance
+
+  - **(2026)** [tier1app.com](https://tier1app.com) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Platform behind core JVM diagnostic tools such as GCEasy, FastThread, and HeapHero. Provides automated analysis of GC logs, thread dumps, and heap dumps to resolve memory leaks and performance bottlenecks.
+  - **(2026)** [FastThread.io](https://fastthread.io) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An automated engine designed to diagnose JVM thread dumps. Resolves thread lock contention, transaction delays, and thread starvation bottlenecks in Kubernetes-hosted enterprise Java services.
+  - **(2026)** [gceasy.io 🌟](https://gceasy.io) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced JVM garbage collection log analyzer. Uses machine learning algorithms to evaluate GC pauses, throughput, and memory trends, delivering actionable tuning recommendations for JVM sizing and GC algorithms (G1GC, ZGC).
+  - **(2026)** [heaphero.io](https://heaphero.io) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An instant heap dump analyzer that processes HPROF and system files to isolate leaking data structures. Generates visual memory maps to point out waste and duplicate objects in JVM workloads.
+### Application Performance Monitoring
+
+#### Spring Boot
+
+  - **(2021)** [blog.openshift.com: Performance Metrics (APM) for Spring Boot Microservices on OpenShift](https://www.redhat.com/en/blog/performance-metrics-apm-spring-boot-microservices-openshift) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical deep-dive on collecting JVM metrics, distributed traces, and custom telemetry from Spring Boot workloads on OpenShift/Kubernetes, utilizing tools like Micrometer, Prometheus, and Jaeger.
+## Software Development
+
+### Caching Strategy
+
+#### Off-Heap Storage
+
+  - **(2024)** [Tecnologías de Heap-Offloading son EHcache, Memcached, Jillegal library, etc.](http://ehcache.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The de facto robust, standard open-source caching framework for Java. Supports tiering structures including heap, off-heap, disk, and clustered setups, offering seamless integration with Spring and Hibernate.
+#### Performance Optimization
+
+  - **(2022)** [vladmihalcea.com: Caching best practices](https://vladmihalcea.com/caching-best-practices) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep dive into professional application-level cache patterns (Read-Through, Write-Behind, Cache-Aside). Outlines pitfalls including cache-stampede risks, stale data races, and invalidation strategies for highly scalable database applications.
+### Java
+
+#### Career Development
+
+  - **(2022)** [javarevisited.blogspot.com: 10 Things Java Programmers Should Learn in 2022](https://javarevisited.blogspot.com/2017/12/10-things-java-programmers-should-learn.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Overview of essential modern skills for Java developers, highlighting GraalVM, Spring Boot 3, reactive microservices, Docker, Kubernetes integration, and concurrency APIs.
+#### Concurrency
+
+  - **(2021)** [linkedin.com/pulse: Difference between Executor, ExecutorService, and Executors class in Java!](https://www.linkedin.com/pulse/difference-between-executor-executorservice-executors-omar-ismail)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational analysis detailing Java's concurrent executing frameworks. Clarifies the design differences between low-level task processing (Executor), managed futures lifecycle APIs (ExecutorService), and utility factories (Executors).
+#### Database Persistence
+
+  - **(2022)** [vladmihalcea.com: 14 High-Performance Java Persistence Tips](https://vladmihalcea.com/14-high-performance-java-persistence-tips) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive optimization handbook detailing JPA and Hibernate performance tuning. Focuses on resolving N+1 query patterns, configuring connection pools, leveraging batch updates, and using database-specific capabilities.
+#### Language Fundamentals
+
+  - **(2021)** [freecodecamp.org: Learn the Basics of Java Programming](https://www.freecodecamp.org/news/learn-the-basics-of-java-programming)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Introductory guide to Java development kit setup, language syntax, primitive types, control flows, object-oriented concepts, and basic error handling patterns.
+#### Object-Oriented Programming
+
+  - **(2021)** [freecodecamp.org: Advanced Object-Oriented Programming in Java – Full Book](https://www.freecodecamp.org/news/object-oriented-programming-in-java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Advanced curriculum covering deep encapsulation, inheritance hierarchies, abstract factories, polymorphical design patterns, interfaces, and SOLID architectural design principles in Java.
+### Testing
+
+#### Unit Testing
+
+  - **(2021)** [freecodecamp.org: How to Write Unit Tests in Java](https://www.freecodecamp.org/news/java-unit-testing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Step-by-step introduction to writing predictable unit tests using JUnit 5 and Mockito. Emphasizes isolating dependency mock-injection frameworks and measuring robust branch coverage.
+## Software Engineering
+
+### Java Virtual Machine
+
+#### Diagnostics and Troubleshooting
+
+  - **(2024)** [Byteman](https://byteman.jboss.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly robust runtime bytecode injection tool utilizing JBoss rule engines to trace, test, and inject faults into live Java applications. By using Event-Condition-Action (ECA) rules without requiring source code modifications, it remains a vital instrument for simulating extreme edge cases, chaos engineering, and tracing complex cloud microservices.
+  - **(2021)** [developers.redhat.com: A faster way to access JDK Flight Recorder data](https://developers.redhat.com/articles/2021/11/23/faster-way-access-jdk-flight-recorder-data) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical review of modern JVM Flight Recorder streaming capabilities. It reviews strategies for consuming real-time telemetry events via Java in-memory APIs, offering low-latency, zero-overhead diagnostic monitoring without relying on bulky local file dumps.
+  - **(2020)** [developers.redhat.com: Collect JDK Flight Recorder events at runtime with JMC Agent 🌟](https://developers.redhat.com/blog/2020/10/29/collect-jdk-flight-recorder-events-at-runtime-with-jmc-agent) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed Red Hat guide walking through real-time runtime JVM tracing using the JMC Agent. It explains how to dynamically inject custom JDK Flight Recorder (JFR) event declarations into third-party libraries and production codebases on-the-fly, bypassing the need for restarts or manual instrumentation.
+  - **(2014)** [Free eGuide: JVM Troubleshooting Guide](http://freepromagazine.blogspot.de/2014/07/free-eguide-jvm-troubleshooting-guide.html)  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A legacy reference guide focused on classical JVM diagnostics, thread dump analysis, and heap tracking. While it lays down correct foundational principles for identifying memory leaks and deadlock patterns, its technical utility is limited today given its lack of coverage on modern diagnostic frameworks like JDK Flight Recorder, Cryostat, and advanced container-aware heap tools.
+#### Garbage Collection (2)
+
+  - **(2011)** [How Garbage Collection differs in the three big JVMs](http://apmblog.dynatrace.com/2011/05/11/how-garbage-collection-differs-in-the-three-big-jvms) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — An architectural comparison of garbage collection strategies across the three historically major JVM engines: Oracle HotSpot, IBM J9, and Oracle JRockit. It evaluates generational assumptions, compaction pauses, and old-generation management policies. Although useful for legacy support, it predates modern developments like ZGC or Shenandoah.
+  - **(2011)** [javarevisited.blogspot.com: How Garbage Collection works in Java? Explained (2011)](https://javarevisited.blogspot.com/2011/04/garbage-collection-in-java.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A fundamental learning resource explaining basic JVM Garbage Collection loops, young-and-old generational divisions, and classic algorithms (such as Serial and Parallel collectors). While standard for conceptual onboarding, developers should supplement this material with modern G1GC and low-latency concurrent garbage collectors.
+#### Memory Management (1)
+
+  - **(2016)** [Jillegal OffHeap Module](https://github.com/serkan-ozal/jillegal) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An experimental and now archived Java library designed to bypass standard JVM memory management by allocating objects directly off-heap. While historically notable for developers seeking ultra-low latency and manual pointer manipulation, modern JDK developments—specifically the Foreign Function and Memory API (Project Panama)—have rendered this library obsolete. It remains useful primarily as a reference for educational and historical exploration of raw memory control within the Java ecosystem.
+  - **(2014)** [Cambios importantes en la gestión de memoria de Java 8 de Oracle](http://karunsubramanian.com/websphere/one-important-change-in-memory-management-in-java-8) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical article exploring the systemic shifts in Oracle Java 8's memory management model, highlighting the deletion of Permanent Generation (PermGen) and the introduction of Metaspace. It details how class metadata is offloaded to native memory, significantly reducing the occurrence of OutOfMemoryError exceptions in enterprise application servers like IBM WebSphere and JBoss.
+  - **(2014)** [PermGen eliminado](http://www.infoq.com/articles/Java-PERMGEN-Removed)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive technical brief on InfoQ describing the dynamic architecture shift resulting from the removal of PermGen in JDK 8. The article reviews Metaspace configuration parameters, auto-tuning behavior, garbage collection triggers for classloader metadata, and the operational adjustments required for zero-downtime Java migrations.
+#### Performance Optimization (1)
+
+  - **(2020)** [developers.redhat.com: Checkpointing Java from outside of Java](https://developers.redhat.com/blog/2020/10/15/checkpointing-java-from-outside-of-java) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exploration of JVM checkpoint/restore methodologies focusing on Coordinated Restore at Checkpoint (CRaC) and external CRIU mechanisms. This approach enables instantaneous microservice startup by taking cold snapshots of memory, dramatically lowering latency penalties in serverless deployments.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Visual Studio](./visual-studio.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 

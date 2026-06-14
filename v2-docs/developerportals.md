@@ -6,198 +6,253 @@
 ## Standard Reference
 
   - [IBM API Connect](https://www.ibm.com/docs/en/api-connect)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [BMW InnovationLab](https://github.com/BMW-InnovationLab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Public APIs Directory](https://publicapis.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Rapid API](https://rapidapi.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Open Banking](https://en.wikipedia.org/wiki/Open_banking)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Open Source Friday: Spec Kit - What it is, the problems it solves, and how' clear specs make collaboration work](https://www.youtube.com/live/2IArMAhkJcE?si=_LlIjakRXHUzERjy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Layering domains and microservices using API Gateways](https://kislayverma.com/software-architecture/layering-domains-and-microservices-using-api-gateways)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.oliverjumpertz.dev: The 10 Most Valuable Lessons I Learned As A Developer](https://blog.oliverjumpertz.dev/the-10-most-valuable-lessons-i-learned-as-a-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [genbeta.com: 32.000 desarrolladores responden sobre plataformas y lenguajes' de programación: JavaScript, AWS, GitHub y Windows, los más usados](https://www.genbeta.com/desarrollo/32-000-desarrolladores-responden-plataformas-lenguajes-programacion-javascript-aws-github-windows-usados)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/readme/guides: Functional Programming 101](https://github.com/readme/guides/functional-programming-basics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/apache-apisix: 10 most common use cases of an API Gateway](https://medium.com/apache-apisix/10-most-use-cases-of-an-api-gateway-in-api-led-architecture-f4d7fa160dcf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [siliconrepublic.com: 10 dev tools recommended by start-up founders](https://www.siliconrepublic.com/advice/dev-tools-recommended-by-irish-start-up-founders)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [howhttps.works](https://howhttps.works)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dev.to: HTTPS for Developers 🌟](https://dev.to/tiangolo/https-for-developers-1774)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [API Landscape](https://www.apidays.co/api-landscape)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [API Marketplace vs API Gateway (What’s the Difference?)](https://rapidapi.com/blog/api-marketplace-vs-api-gateway-whats-the-difference)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: RapidAPI Provides API Marketplace and Insight](https://dzone.com/articles/rapidapi-provides-api-marketplace-and-insight)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [moesif.com: How to choose the right API Gateway for your platform: Comparison' of Kong, Tyk, Apigee, and alternatives](https://www.moesif.com/blog/technical/api-gateways/How-to-Choose-The-Right-API-Gateway-For-Your-Platform-Comparison-Of-Kong-Tyk-Apigee-And-Alternatives)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [API Management vs API Gateway: Where Does API Analytics and Monitoring Fit?](https://dzone.com/articles/api-management-vs-api-gateway-and-where-does-api-a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [API Management vs API Gateway and where does API Analytics and Monitoring fit?](https://dev.to/moesif/api-management-vs-api-gateway-and-where-does-api-analytics-and-monitoring-fit-4g75)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Red Hat 3scale API Management](https://www.redhat.com/en/technologies/jboss-middleware/3scale)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Red Hat 3Scale API Management @Youtube](https://www.youtube.com/watch?v=kBBBhpKIv9I)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Adding API Gateway Policies Now Easier With Red Hat 3scale API Management](https://developers.redhat.com/blog/2018/05/30/3scale-api-gateway-policies)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Install Red Hat 3scale and configure tenants with 7 simple commands](https://developers.redhat.com/blog/2019/09/09/install-3scale-multitenant-in-7-commands)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: New custom metrics and air gapped (restricted networks)' installation in Red Hat 3scale API Management 2.9](https://developers.redhat.com/blog/2020/10/29/new-custom-metrics-and-air-gapped-installation-in-red-hat-3scale-api-management-2-9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: Enhance application security by rotating 3scale access' tokens](https://developers.redhat.com/blog/2021/04/29/enhance-application-security-by-rotating-3scale-access-tokens)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: How to expose a WebSocket endpoint using Red Hat' 3scale API Management](https://developers.redhat.com/articles/2021/07/01/how-expose-websocket-endpoint-using-red-hat-3scale-api-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: Simplify load balancing for API gateways using Red' Hat 3scale API Management](https://developers.redhat.com/articles/2021/08/11/simplify-load-balancing-api-gateways-using-red-hat-3scale-api-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Google Apigee API Manager](https://cloud.google.com/apigee)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Apigee @Youtube](https://www.youtube.com/user/apigee)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [WSO2 @Youtube](https://www.youtube.com/user/WSO2TechFlicks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Kong API Platform @Youtube](https://www.youtube.com/channel/UCJfQURxlI_pQdeJUGXtA_zw)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Kong API Gateway - From Zero to Production](https://medium.com/swlh/kong-api-gateway-zero-to-production-5b8431495ee)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: KONG — The Microservice API Gateway](https://medium.com/@far3ns/kong-the-microservice-api-gateway-526c4ca0cfa6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Running services with Knative & Kong](https://medium.com/nerd-for-tech/running-services-with-knative-kong-3135c0d94dfa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: Breaking Up a Monolithic Database with Kong](https://dzone.com/articles/breaking-up-a-monolithic-database-with-kong)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@martin.hodges: Why do I need an API Gateway on a Kubernetes' cluster](https://medium.com/@martin.hodges/why-do-i-need-an-api-gateway-on-a-kubernetes-cluster-c70f15da836c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Tyk API Manager](https://tyk.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Tyk @Youtube](https://www.youtube.com/channel/UCe3VG8wgz03u73xiomGeQzQ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Axway API Management](https://www.axway.com/en/products/api-management/full-lifecycle-api-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Axway API Management @Youtube](https://www.youtube.com/channel/UCsRNLDnXvgtz6qsleSlVcqQ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [axway.com/digitize](https://axway.com/digitize)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [MuleSoft API Manager](https://www.mulesoft.com/platform/api/manager)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [MuleSoft @Youtube](https://www.youtube.com/user/mulesoftvids)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Backstage Developer Portal:](https://backstage.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Backstage @Youtube](https://www.youtube.com/channel/UCHBvqSwbfAf5Vx1jrwkG43Q)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@_gdantas: Backstage and Terraform — A Powerful Combination for' Ops, Wonderful for Devs](https://medium.com/@_gdantas/backstage-and-terraform-a-powerful-combination-for-ops-wonderful-for-devs-c04ebce849f0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [piotrminkowski.com: Getting Started with Backstage](https://piotrminkowski.com/2024/06/13/getting-started-with-backstage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [piotrminkowski.com: Backstage on Kubernetes](https://piotrminkowski.com/2024/06/28/backstage-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [apisix](https://github.com/apache/apisix) <span class='md-tag md-tag--info'>⭐ 16627</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
-  - [thenewstack.io - APISIX: An Open Source API Gateway for Microservices](https://thenewstack.io/apisix-an-open-source-api-gateway-for-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Lura 🌟](https://luraproject.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [KrakenD: The fastest API gateway comes with true linear scalability 🌟](https://www.krakend.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [krakend.io: KrakenD framework becomes a Linux Foundation project](https://www.krakend.io/blog/krakend-framework-joins-the-linux-foundation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Spring Cloud Gateway](https://spring.io/projects/spring-cloud-gateway)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dzone: Custom Rate Limiting for Microservices 🌟](https://dzone.com/articles/rate-limiting-for-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloudtechtwitter.com: Pattern: API Gateway / Backends for Frontends](https://www.cloudtechtwitter.com/2022/05/pattern-api-gateway-backends-for.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@jeevansathisocial: High-performance API gateway](https://medium.com/@jeevansathisocial/high-performance-api-gateway-3661d5a2fee0s-3661d5a2fee0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developer.mobileconnect.io](https://developer.mobileconnect.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developer.android.com](https://developer.android.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developer.apple.com](https://developer.apple.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [auto-api.dev](https://auto-api.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [High Mobility @Youtube](https://www.youtube.com/channel/UCZNjYn1NXEgPa_ENPna9Atw)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [smartcar.com](https://smartcar.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [rapidapi.com/collection/car-api](https://rapidapi.com/collection/car-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Wikipedia: PSD2 - the Revised Payment Services Directive](https://en.wikipedia.org/wiki/Payment_Services_Directive)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [openbankingtracker.com](https://www.openbankingtracker.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Santander APIs](https://developerhub.santander.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [CaixaBank API Store](https://apistore.caixabank.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Deutsche Bank API Program](https://developer.db.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [TSB API Developer Portal](https://apis.developer.tsb.co.uk)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Rabobank Developer Portal](https://developer.rabobank.nl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Cecabank API Market](https://apimarket.cecabank.es)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Open Insurance](https://openinsurance.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [santalucia.es](https://api-market.santalucia.es)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Agentic Engineering
+## Application Development
 
-### AI Assistants
+### Mobile
 
-#### Claude Code
+#### Android Ecosystem
 
-  - [Claude Code Best Practice](https://github.com/shanraisshan/claude-code-best-practice) <span class='md-tag md-tag--info'>⭐ 54376</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Curated collection of best practices, system prompts, and architecture layouts for Claude Code.
-Live Grounding: Explores advanced CLI-driven agent workflows, highlighting configuration optimizations, shell integration strategies, and secure execution configurations in local and remote environments.
-#### Developer Tools
+  - **(2026)** [==developer.android.com==](https://developer.android.com) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Google's official portal containing documentation, API reference guides, and system architectures for Android app development. It is the primary ecosystem hub for designing mobile client interactions, modern networking protocols, and securing client-to-backend API integrations.
+#### iOS Ecosystem
 
-  - [Cursor AI Fundamentals Course](https://cursor.com/es/learn) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Comprehensive educational course focused on maximizing efficiency within Cursor AI Editor.
-Live Grounding: Delivers strategic instruction on utilizing AI capabilities, codebase indexing, and multi-file edit workflows to accelerate modern software engineering. Explicitly marked as Spanish localized educational content. [SPANISH CONTENT]
-## Artificial Intelligence
-
-### AI Workflows
-
-#### Prompt Engineering
-
-  - [Claude 101: Free Guides to Master Claude](https://claude101.com) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive guides to mastering Anthropic's Claude. Focuses on system instructions, complex XML markup injection, custom tool calls, and API configuration profiles for multi-agent workflows.
-## Cloud Native
-
-### API Gateways
-
-#### Kong Gateway
-
-  - **(2026)** [Kong API Manager](https://konghq.com/products/kong-gateway) <span class='md-tag md-tag--warning'>[LUA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kong Gateway is a highly optimized, cloud-native API gateway built on Nginx and OpenResty. It handles low-latency reverse-proxying, dynamic rate limiting, token-based authentication, and structural request transformations across complex distributed microservice environments via dynamic plug-ins.
-### Kubernetes Platforms
-
-#### Kong and OpenShift Integration
-
-  - **(2022)** [openshift.com: Modern Application Development With Kong Konnect Enterprise and Red Hat OpenShift](https://www.redhat.com/en/blog/modern-application-development-with-kong-konnect-enterprise-and-red-hat-openshift) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An implementation manual detailing how to integrate Kong Konnect Enterprise within Red Hat OpenShift clusters. It highlights modern architectures that utilize hybrid-cloud deployments, linking centralized control planes with secure distributed data-plane proxies.
-#### OpenShift API Management
-
-  - **(2021)** [OpenShift Ecosystem: API Management on Red Hat OpenShift with 3scale](https://www.redhat.com/en/blog/openshift-ecosystem-api-management-on-red-hat-openshift-with-3scale) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural blueprint detailing the deployment of Red Hat 3scale API Management natively on Red Hat OpenShift. This setup enables automated traffic shaping, secure token-based authentication, and deep telemetry for microservices running across hybrid cloud environments.
-#### Partner Integration
-
-  - **(2021)** [konghq.com: Kong and Red Hat: Delivering Seamless Customer Experience](https://konghq.com/blog/news/kong-and-red-hat-collaboration) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A strategic overview of the technical integration between Kong and Red Hat. The article highlights certified operators, security integrations, and shared automation patterns designed to simplify application delivery pipelines in secure OpenShift environments.
-## Developer Experience
-
-### AI Assisted Engineering
-
-#### Multi-Repository Architectures
-
-  - [Using Workspaces for AI Changes Across Multiple Repos](https://ettema.dev/posts/ai-multi-repo-workspaces) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates methods for utilizing structured developer workspaces to safely implement, coordinate, and review automated AI-driven modifications across sprawling multi-repository codebases. Offers patterns for multi-repo orchestrations and version control management.
-## Developer Tools (1)
-
-### AI Coding Assistants
-
-#### .NET Integration
-
-  - [Extend your coding agent with .NET Skills](https://devblogs.microsoft.com/dotnet/extend-your-coding-agent-with-dotnet-skills)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step instruction illustrating how to inject specialized .NET SDK contexts and compilation knowledge bases into autonomous coding agents to optimize C# generation pipelines.
-### Collaboration and Workflow
-
-#### Documentation Engines
-
-  - [What is a GitHub Wiki and How Do You Use it?](https://www.freecodecamp.org/news/what-is-github-wiki-and-how-do-you-use-it) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This practical guide breaks down the structure and utility of GitHub Wikis for software project documentation. It walks through syntax formatting, sidebar architecture, and collaborative editing patterns. While modern enterprise teams often prefer Docs-as-Code paradigms built with tools like MkDocs or Docusaurus, GitHub Wikis still serve as a quick, low-overhead option for repository-centric developer documentation.
-#### Open Source Education
-
-  - [GitHub for Beginners: Getting Started with OSS Contributions](https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-oss-contributions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An official GitHub onboarding guide tailored for software engineers looking to initiate their contributions to Open Source Software (OSS) projects. It teaches how to fork repositories, configure branches, submit pull requests, and write structured issues. Understanding these fundamentals is crucial for developers seeking to participate in the global cloud-native ecosystem.
-### Terminal Systems
-
-#### AI Tooling
-
-  - [Warp: The Agentic Development Environment](https://www.warp.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates Warp, a Rust-based modern terminal platform embedding native AI workflows. Outlines command prediction, architectural collaboration features, and native agentic debugging directly from terminal logs.
-## Enterprise Architecture
+  - **(2026)** [==developer.apple.com==](https://developer.apple.com) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Apple's developer resources hub, providing SDK documentation, SwiftUI design frameworks, and distribution guidelines. The platform provides fundamental patterns for building client-side integrations with microservices and remote API architectures under strict security criteria.
+## Architecture
 
 ### API Management
 
 #### API Economy
 
-  - **(2022)** [chakray.com: API Strategy. How to create an API Marketplace](https://chakray.com/api-strategy-how-to-create-an-api-marketplace) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A strategic exploration of API Marketplace architectures, describing how organizations can turn internal service endpoints into discoverable, monetized assets. It highlights self-service portals, developer registration, security governance, and multi-tenant management principles.
-#### Lifecycle Governance
+  - **(2023)** [chakray.com: API Strategy. How to create an API Marketplace](https://chakray.com/api-strategy-how-to-create-an-api-marketplace)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses the technical and business requirements for architecting an API Marketplace, which facilitates resource monetization, secure tenant isolation, and developer onboarding. Emphasizes the integration of central API gateways with developer portals to streamline access control.
+#### API Governance
 
-  - **(2022)** [chakray.com: Why API Lifecycle Management is a MUST for Your Organisation APIs](https://chakray.com/why-api-lifecycle-management-is-must-organisation-apis) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This reference details the core components of API Lifecycle Management, illustrating how systemic control from initial API design to final deprecation protects organizational infrastructure from technical debt, version drift, and security vulnerabilities.
-  - **(2022)** [chakray.com: Por qué API LIFECYCLE MANAGEMENT es imprescindible para la organización de APIs](https://chakray.com/es/por-que-api-lifecycle-management-imprescindible-api-organizacion) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Spanish-language implementation guide detailing why structured API Lifecycle Management is critical to scale modern IT operations. It highlights core lifecycle stages, automated validation techniques, and methods to safely retire legacy integrations.
-#### Strategy Design
+  - **(2023)** [chakray.com: Why API Lifecycle Management is a MUST for Your Organisation APIs](https://chakray.com/why-api-lifecycle-management-is-must-organisation-apis)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Argues the necessity of complete lifecycle governance—from design and prototyping to retirement—for managing systemic API environments. Details risk minimization and development streamlining benefits.
+  - **(2023)** [chakray.com: 11 Steps to achieving a successful API Management Strategy](https://chakray.com/11-steps-achieving-successful-api-management-strategy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Synthesizes an eleven-step action plan to define and execute a scalable API strategy, detailing critical factors such as architectural pattern choices, SLA setups, and metric tracing.
+  - **(2023)** [chakray.com: Por qué API LIFECYCLE MANAGEMENT es imprescindible para la organización de APIs](https://chakray.com/es/por-que-api-lifecycle-management-imprescindible-api-organizacion) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Spanish language deep dive exploring why complete lifecycle governance is crucial for modern enterprise IT systems, mapping stages from deployment to clean deprecation.
+  - **(2023)** [chakray.com: 11 Pasos para lograr una estrategia API Management exitosa](https://chakray.com/es/11-pasos-lograr-estrategia-api-management-exitosa) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Spanish version outlines the eleven key steps for drafting and deploying an enterprise API Management structure, securing internal services, and setting up clean billing paths.
+#### Case Studies
 
-  - **(2022)** [chakray.com: 11 Steps to achieving a successful API Management Strategy](https://chakray.com/11-steps-achieving-successful-api-management-strategy) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive 11-step methodology designed to establish an enterprise-wide API management strategy. Topics cover aligning technical specifications with business objectives, identifying developer portals, implementing zero-trust security, and collecting usage metrics.
-  - **(2022)** [chakray.com: 11 Pasos para lograr una estrategia API Management exitosa](https://chakray.com/es/11-pasos-lograr-estrategia-api-management-exitosa) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Spanish-language framework outlining 11 strategic stages to implement, scale, and optimize an organization's API Management capabilities. This resource is helpful for systems architects aligning multi-region network routing policies with security and compliance standards.
-## Fintech
+  - **(2022)** [konghq.com: Kong and Red Hat: Delivering Seamless Customer Experience](https://konghq.com/blog/news/kong-and-red-hat-collaboration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights corporate collaboration structures between Kong and Red Hat. Evaluates unified cloud-native operator setups to quickly provision API boundaries within complex enterprise networks.
+#### Cloud Services
 
-### Open Banking
+  - **(2026)** [Google Apigee API Manager](https://cloud.google.com/apigee) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google Cloud's premier enterprise API management platform designed to build, secure, and monitor APIs globally. Provides integrated developer portals, advanced machine learning-driven threat detection, and seamless serverless hosting layers.
+#### Enterprise Platforms
 
-#### Financial APIs
+  - **(2026)** [**MuleSoft API Manager**](https://www.mulesoft.com/platform/api/manager) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — MuleSoft API Manager acts as a centralized control plane for securing, governing, and analyzing APIs across the enterprise. It enables deep integration with the Anypoint Platform, offering capabilities like policy enforcement, SLA contracts, and traffic routing to coordinate complex integration topologies.
+  - **(2026)** [Axway API Management @Youtube](https://www.youtube.com/channel/UCsRNLDnXvgtz6qsleSlVcqQ) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Axway API Management provides enterprise-grade lifecycle management, security, and governance for APIs across multi-cloud environments. Their official video channel serves as an educational repository detailing gateway integration, policy configuration, and hybrid deployment architectures.
+  - **(2026)** [MuleSoft @Youtube](https://www.youtube.com/user/mulesoftvids) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official YouTube channel containing technical deep dives, system integration tutorials, and architectural best practices for the MuleSoft Anypoint Platform. It covers API-led connectivity, microservices orchestration, and complex enterprise integration patterns (EIPs).
+#### Gateway Engines
 
-  - **(2023)** [BBVA API Market](https://www.bbvaapimarket.com/es) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The BBVA API Market is a secure, enterprise-grade Open Banking portal offering developers regulated access to payment networks, identity validations, and financial histories. It serves as a gold standard for financial integration architectures and PSD2 compliance.
-  - **(2023)** [ING Developer Portal](https://developer.ing.com/openbanking) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — ING's developer portal hosts a suite of standardized PSD2 and open banking APIs designed for secure transaction routing, account inquiries, and payment initiation services. Backed by solid sandbox environments and rigorous security architectures, it simplifies cross-border fintech application development.
-## IoT and Edge
+  - **(2026)** [Kong API Manager](https://konghq.com/products/kong-gateway) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kong Gateway is the world's most popular lightweight, fast, and highly customizable open-source API gateway. Powered by Nginx and Lua/Go, it offers sub-millisecond request latencies alongside dynamic routing and robust plugin ecosystems.
+  - **(2026)** [Tyk API Manager](https://tyk.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A powerful, lightweight, open-source API Gateway and Management Platform written entirely in Go. Possesses stellar clustering configurations, multi-data-center capabilities, and dynamic rate limiting without external dependencies.
+#### Infrastructure Patterns
 
-### Automotive APIs
+  - **(2022)** [API Marketplace vs API Gateway (What’s the Difference?)](https://rapidapi.com/blog/api-marketplace-vs-api-gateway-whats-the-difference)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Clarifies the architectural differences between an API Gateway (acting as a reverse proxy for traffic control, authentication, and routing) and an API Marketplace (providing a discovery platform, billing infrastructure, and developer portal). Helps architects choose correct patterns for internal vs. external exposure.
+  - **(2022)** [moesif.com: How to choose the right API Gateway for your platform: Comparison of Kong, Tyk, Apigee, and alternatives](https://www.moesif.com/blog/technical/api-gateways/How-to-Choose-The-Right-API-Gateway-For-Your-Platform-Comparison-Of-Kong-Tyk-Apigee-And-Alternatives) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares core enterprise-grade API Gateways, including Kong, Tyk, Apigee, and cloud-native solutions. Delves into benchmarks, execution models (e.g., Lua-based vs. Go-based plugins), licensing, and performance overheads under high-throughput microservice configurations.
+  - **(2021)** [developers.redhat.com: Simplify load balancing for API gateways using Red Hat 3scale API Management](https://developers.redhat.com/articles/2021/08/11/simplify-load-balancing-api-gateways-using-red-hat-3scale-api-management) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates traffic management policies and network topologies designed to optimize high-performance load balancing in front of 3scale API gateways. Focuses on minimizing round-trip times and preventing traffic hotspots.
+#### Kubernetes Orchestration
 
-#### Connected Car SDKs
+  - **(2022)** [openshift.com: Modern Application Development With Kong Konnect Enterprise and Red Hat OpenShift](https://www.redhat.com/en/blog/modern-application-development-with-kong-konnect-enterprise-and-red-hat-openshift) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores structural benefits of running Kong Konnect's control-and-data-plane models inside Red Hat OpenShift clusters. Streamlines decentralized routing while maintaining strong tenant access restrictions.
+  - **(2020)** [OpenShift Ecosystem: API Management on Red Hat OpenShift with 3scale](https://www.redhat.com/en/blog/openshift-ecosystem-api-management-on-red-hat-openshift-with-3scale) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights deep deployment patterns of running Red Hat 3scale inside OpenShift clusters. Analyzes operator-based management, auto-scaling characteristics, and native Kubernetes Custom Resource Definitions (CRDs) used to define API policies declaratively.
+#### Observability Platforms
 
-  - **(2023)** [high-mobility.com](https://www.high-mobility.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — High Mobility is an advanced connected car API platform that standardizes telemetry data from multiple automotive manufacturers into a single, cohesive REST interface. It allows secure, permission-based access to diagnostics, chassis parameters, and system status without custom OBD hardware.
-  - **(2023)** [Smartcar API for BMW](https://smartcar.com/brand/bmw) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Smartcar's platform offers native, cloud-to-cloud integration with BMW's digital services. This allows software developers to verify vehicle location, calculate range, and manage locking systems through standard API endpoints, bypassing complex physical telemetry devices.
-### Smart Cities
+  - **(2021)** [API Management vs API Gateway and where does API Analytics and Monitoring fit?](https://dev.to/moesif/api-management-vs-api-gateway-and-where-does-api-analytics-and-monitoring-fit-4g75)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the delineation between routing runtime proxies (Gateways) and higher-level API lifecycle portals (Management), while explaining how analytics software fits in. Investigates the collection of telemetry metrics to track user behavior and API health without injecting latency.
+#### Operations and Deployment
 
-#### FIWARE Platform
+  - **(2020)** [developers.redhat.com: New custom metrics and air gapped (restricted networks) installation in Red Hat 3scale API Management 2.9](https://developers.redhat.com/blog/2020/10/29/new-custom-metrics-and-air-gapped-installation-in-red-hat-3scale-api-management-2-9) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores deep administrative patterns introduced in 3scale 2.9, highlighting secure installation procedures on air-gapped systems and restricted enterprise networks. Evaluates custom telemetry collection pipelines for specialized monitoring.
+  - **(2019)** [Install Red Hat 3scale and configure tenants with 7 simple commands](https://developers.redhat.com/blog/2019/09/09/install-3scale-multitenant-in-7-commands)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical administrative guide demonstrating rapid scripting mechanisms to install and configure multi-tenant structures in 3scale. Promotes standardized deployment setups on container platforms with minimum operational footprint.
+#### Persistent Connections
 
-  - **(2020)** [Telefonica Thinking Cities](https://thinking-cities.readthedocs.io/en/latest) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Telefonica's Thinking Cities is an IoT architecture platform based on the FIWARE open standard. It enables municipalities to ingest context-aware data, route real-time telemetry from heterogeneous urban sensors, and configure analytical dashboards for municipal services.
+  - **(2021)** [developers.redhat.com: How to expose a WebSocket endpoint using Red Hat 3scale API Management](https://developers.redhat.com/articles/2021/07/01/how-expose-websocket-endpoint-using-red-hat-3scale-api-management) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A highly technical guide demonstrating gateway configurations needed to establish persistent WebSocket connections through the 3scale API gateway. Discusses protocol upgrading, timeout values, and scaling metrics.
+#### Red Hat Ecosystem
+
+  - **(2026)** [Red Hat 3scale API Management](https://www.redhat.com/en/technologies/jboss-middleware/3scale) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Identical platform reference focusing on Red Hat 3scale API Gateway configurations. Delivers a cloud-native, operator-driven API management framework optimized for scaling microservices on OpenShift clusters with declarative security controls.
+  - **(2018)** [Adding API Gateway Policies Now Easier With Red Hat 3scale API Management](https://developers.redhat.com/blog/2018/05/30/3scale-api-gateway-policies)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines the declarative system for defining gateway routing rules and header manipulation schemas inside 3scale API Management without updating custom Lua scripts. Details deployment configurations for standard enterprise security controls.
+#### Security and Protocols
+
+  - **(2021)** [developers.redhat.com: Enhance application security by rotating 3scale access tokens](https://developers.redhat.com/blog/2021/04/29/enhance-application-security-by-rotating-3scale-access-tokens)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains robust administrative paradigms for managing secrets through programmatic, seamless rotation of 3scale access tokens. Mitigates exposure risk and integrates directly into CI/CD secrets management flows.
+#### Video Walkthroughs
+
+  - **(2026)** [Apigee @Youtube](https://www.youtube.com/user/apigee)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official video reference library for Google Cloud's Apigee, covering security policies, proxy design, billing implementation, and hybrid runtime cluster orchestration.
+  - **(2026)** [WSO2 @Youtube](https://www.youtube.com/user/WSO2TechFlicks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official visual channel for WSO2. Highlights integration capabilities, open-source API gateway patterns, and customer identity access management (CIAM) setups on Kubernetes-centric topologies.
+  - **(2026)** [Kong API Platform @Youtube](https://www.youtube.com/channel/UCJfQURxlI_pQdeJUGXtA_zw)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Visual resources from KongHQ covering distributed gateway topologies, Konnect control planes, service mesh patterns, and complex custom plugin developments.
+  - **(2026)** [Tyk @Youtube](https://www.youtube.com/channel/UCe3VG8wgz03u73xiomGeQzQ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official visual guides highlighting Go plugin development, portal styling, API deprecation workflows, and analytics pipeline setups on Tyk's cloud-native infrastructure.
+  - **(2018)** [Red Hat 3Scale API Management @Youtube](https://www.youtube.com/watch?v=kBBBhpKIv9I)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introductory visual walk-through highlighting the administration console, policy enforcement engine, and developer onboarding capabilities of Red Hat 3scale. Outlines baseline topologies for connecting containerized web applications.
+### Design Patterns
+
+#### Microservices Patterns
+
+  - **(2022)** [cloudtechtwitter.com: Pattern: API Gateway / Backends for Frontends](https://www.cloudtechtwitter.com/2022/05/pattern-api-gateway-backends-for.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural review of the Backend-for-Frontend (BFF) and API Gateway patterns. It details how tailoring dedicated backend gateways to specific user interfaces (web, mobile, IoT) minimizes payload size, decouples frontend release cycles, and limits over-fetching.
+### Microservices
+
+#### API Gateways
+
+  - **(2021)** [Layering domains and microservices using API Gateways](https://kislayverma.com/software-architecture/layering-domains-and-microservices-using-api-gateways) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes architectural design patterns for structuring enterprise APIs by layering domain services behind a unified API Gateway layer. Discusses decoupling strategies, cross-cutting concerns (auth, rate-limiting), and how to avoid anti-patterns when decomposing monoliths into distributed microservice topologies.
+## Developer Experience
+
+### AI-Assisted Coding
+
+#### Claude Code
+
+  - **(2025)** [==Claude Code Best Practice==](https://github.com/shanraisshan/claude-code-best-practice) <span class='md-tag md-tag--info'>⭐ 57621</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Curated collection of best practices, system prompts, and architecture layouts for Claude Code. Live Grounding: Explores advanced CLI-driven agent workflows, highlighting configuration optimizations, shell integration strategies, and secure execution configurations in local and remote environments.
+## Developer Platforms
+
+### Documentation
+
+#### GitHub Wiki
+
+  - **(2022)** [What is a GitHub Wiki and How Do You Use it?](https://www.freecodecamp.org/news/what-is-github-wiki-and-how-do-you-use-it) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Detailed guide on utilizing GitHub Wikis for repository documentation. It describes markdown editing, sidebar customization, and managing wiki repositories locally as standard Git remotes.
+### Git Repositories
+
+#### GitHub
+
+##### Open Source
+
+  - **(2022)** [GitHub for Beginners: Getting Started with OSS Contributions](https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-oss-contributions) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Practical handbook introducing developers to open-source software (OSS) contribution workflows on GitHub. Explains fork-and-pull-request models, issue triage, branch hygiene, and code review communication norms.
+## Domain APIs
+
+### Automotive
+
+#### API Marketplaces
+
+  - **(2026)** [rapidapi.com/collection/car-api](https://rapidapi.com/collection/car-api) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated catalog of vehicle-related APIs on the RapidAPI platform. It showcases options for vehicle specifications, license plate lookups, VIN decoding, and telematics APIs, providing a hub for rapidly testing mock automotive payloads.
+#### API Standardization
+
+  - **(2026)** [auto-api.dev](https://auto-api.dev) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical portal representing High Mobility's Auto API initiatives. It outlines structured vehicle telemetry standards and standardized JSON payloads to bridge the gap between automotive hardware and cloud-native application developers.
+#### Connected Vehicle API
+
+  - **(2026)** [**smartcar.com**](https://smartcar.com) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Smartcar provides a developer-friendly API platform for connected vehicles, enabling telemetry collection, remote door locking, and EV battery charging management. It abstracts away complex proprietary OBD protocols into a standard RESTful developer portal.
+  - **(2026)** [Smartcar API for BMW](https://smartcar.com/brand/bmw) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized portal demonstrating the application of the Smartcar API to integrate directly with BMW connected vehicles. It details configuration patterns, authorization flows, and supported telemetry fields specific to BMW models.
+#### Open Source Labs
+
+  - **(2026)** [BMW InnovationLab](https://github.com/BMW-InnovationLab) <span class='md-tag md-tag--warning'>[VARIOUS CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The GitHub organization hosting open-source tools, scripts, and algorithms developed by BMW's InnovationLab team. These projects focus on supply chain optimizations, computer vision algorithms, and robotic tooling modules.
+#### Telemetry
+
+  - **(2026)** [high-mobility.com](https://www.high-mobility.com) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — High Mobility offers an enterprise platform that standardizes vehicle APIs across multiple major car manufacturers. Developers can retrieve standardized telematics, status, and control endpoints through a secure, unified gateway infrastructure.
+#### Tutorials
+
+  - **(2026)** [High Mobility @Youtube](https://www.youtube.com/channel/UCZNjYn1NXEgPa_ENPna9Atw) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — High Mobility's official media channel, hosting developer walkthroughs, car API integrations, emulator configurations, and real-world connected car telemetry demonstrations.
+### Fintech
+
+#### Banking Gateways
+
+
+??? abstract "Architect's Technical Comparison Table"
+    | Solution | Maturity | Primary Focus | Language | Stars |
+    | :--- | :--- | :--- | :--- | :--- |
+    | [BBVA API Market](https://www.bbvaapimarket.com/es) |  | Banking Gateways | Spanish | 🌟🌟🌟🌟 |
+    | [Deutsche Bank API Program](https://developer.db.com) |  | Banking Gateways | English | 🌟🌟🌟🌟 |
+    | [ING Developer Portal](https://developer.ing.com/openbanking) |  | Banking Gateways | English | 🌟🌟🌟🌟 |
+    | [TSB API Developer Portal](https://apis.developer.tsb.co.uk) |  | Banking Gateways | English | 🌟🌟🌟 |
+    | [Cecabank API Market](https://apimarket.cecabank.es) |  | Banking Gateways | Spanish | 🌟🌟🌟 |
+
+  - **(2026)** [**BBVA API Market**](https://www.bbvaapimarket.com/es) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — BBVA's commercial API platform, allowing external developers to securely consume core banking capabilities. It features REST integrations for payments, transactions, customer identification, and financial data insights within a PSD2-compliant workspace.
+  - **(2026)** [**Deutsche Bank API Program**](https://developer.db.com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The developer portal for Deutsche Bank, providing secure and standard access to financial APIs. It supports secure OAuth2 protocols, enabling applications to run transaction processing, accounts reconciliation, and credit evaluations.
+  - **(2026)** [**ING Developer Portal**](https://developer.ing.com/openbanking) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — ING's open-banking marketplace and developer portal. The catalog details APIs for cash management, transaction services, accounts balance, and PSD2 compliance, backed by strong authentication and sandbox simulation tools.
+  - **(2026)** [TSB API Developer Portal](https://apis.developer.tsb.co.uk) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A PSD2-compliant developer ecosystem facilitating open-banking integration with TSB Bank. It offers sandbox environments, sandbox mock data, and security protocols to test account information and payment initiation APIs.
+  - **(2026)** [Cecabank API Market](https://apimarket.cecabank.es) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Cecabank's developer platform designed to align financial integration with the PSD2 mandate. It provides endpoints for third-party providers (TPPs) to execute payment initiations and retrieve consolidated account balance statements.
+#### Insurtech
+
+  - **(2026)** [Open Insurance](https://openinsurance.io) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An initiative advocating for open API standards within the insurance sector (Insurtech). It establishes data exchange models for claims processing, policy management, and underwritings to promote interoperability among traditional and digital insurers.
+  - **(2026)** [santalucia.es](https://api-market.santalucia.es) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Santalucía's corporate API marketplace, streamlining business-to-business integrations for digital insurance products. It exposes quoting engines, client registrations, and insurance claims endpoints to external partners.
+#### Open Banking
+
+  - **(2026)** [openbankingtracker.com](https://www.openbankingtracker.com) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized tracking directory detailing open banking regulations, standards, APIs, and market readiness metrics globally. It acts as an architectural ledger monitoring PSD2 implementation and global banking API catalog availability.
+### IoT
+
+#### Smart Cities
+
+  - **(2026)** [Telefonica Thinking Cities](https://thinking-cities.readthedocs.io/en/latest) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive documentation portal explaining Telefónica's IoT architecture and FIWARE-based 'Thinking Cities' platform. It provides guidelines for streaming, mapping, and aggregating sensors telemetry to build urban monitoring environments.
+## Industry Insights
+
+### DevOps
+
+#### Developer Productivity
+
+  - **(2021)** [siliconrepublic.com: 10 dev tools recommended by start-up founders](https://www.siliconrepublic.com/advice/dev-tools-recommended-by-irish-start-up-founders)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compiles professional tool recommendations and operational insights from modern startup founders designed to optimize engineering workflows. Explores high-impact toolsets covering automated CI/CD pipelines, integrated testing, task tracking, and developer-centric communication loops.
+### Surveys
+
+#### Developer Ecosystem
+
+  - **(2022)** [genbeta.com: 32.000 desarrolladores responden sobre plataformas y lenguajes de programación: JavaScript, AWS, GitHub y Windows, los más usados](https://www.genbeta.com/desarrollo/32-000-desarrolladores-responden-plataformas-lenguajes-programacion-javascript-aws-github-windows-usados) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Presents empirical results from a comprehensive survey of 32,000 developers mapping out global development trends. Synthesizes adoption patterns for languages, cloud environments, and operating systems, detailing the persistent dominance of JavaScript, AWS, and Windows platforms in the enterprise ecosystem.
+## Infrastructure
+
+### API Gateway
+
+#### Cloud Native
+
+  - **(2026)** [==apisix==](https://github.com/apache/apisix) <span class='md-tag md-tag--info'>⭐ 16724</span> <span class='md-tag md-tag--warning'>[LUA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Apache APISIX is a high-performance, dynamic cloud-native API gateway built on Nginx and OpenResty. It provides dynamic routing, active health checking, security protection, and telemetry integration, utilizing etcd for state storage to achieve ultra-low latency configurations.
+#### Go Engines
+
+  - **(2026)** [==KrakenD: The fastest API gateway comes with true linear scalability 🌟==](https://www.krakend.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — KrakenD is an enterprise-ready, open-source API Gateway engineered for linear scalability and ultra-high performance. By utilizing a stateless execution model, it avoids the overhead of internal database lookups, delivering sub-millisecond routing, data transformation, and endpoint aggregation.
+  - **(2026)** [**Lura 🌟**](https://luraproject.org) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Lura (formerly KrakenD framework) is an ultra-performant, stateless API Gateway engine written in Go. It allows developers to construct high-throughput microservice aggregations, protocol translations, and response manipulations using declarative configurations with zero state.
+#### Industry News
+
+  - **(2021)** [thenewstack.io - APISIX: An Open Source API Gateway for Microservices](https://thenewstack.io/apisix-an-open-source-api-gateway-for-microservices) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An editorial piece analyzing the microservices-centric architectural benefits of Apache APISIX. The article highlights its pluggable architecture, dynamic configuration sync via etcd, and its comparative advantages in speed and extensibility against traditional Java or Go gateways.
+#### Java Spring Ecosystem
+
+  - **(2026)** [==Spring Cloud Gateway==](https://spring.io/projects/spring-cloud-gateway) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Spring Cloud Gateway provides an API routing mechanism built on Spring WebFlux and Project Reactor. Ideal for Java and Spring Boot microservice architectures, it facilitates non-blocking, reactive traffic routing, security filtering, and resilience patterns like circuit breaking.
+#### Open Source Governance
+
+  - **(2021)** [krakend.io: KrakenD framework becomes a Linux Foundation project](https://www.krakend.io/blog/krakend-framework-joins-the-linux-foundation) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official announcement outlining the donation of the KrakenD framework (now Lura) to the Linux Foundation. This strategic move ensures vendor-neutral governance and fosters open-source community collaboration for next-generation, high-performance API gateways.
+## Infrastructure and Security
+
+### Networking Protocols
+
+#### Local Development Environments
+
+  - **(2020)** [dev.to: HTTPS for Developers 🌟](https://dev.to/tiangolo/https-for-developers-1774) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Written by the creator of FastAPI, this comprehensive guide explains HTTPS implementation details for application developers, covering Let's Encrypt certificates, reverse proxies, and local development setups. Decouples complex infrastructure definitions from local workflows to ensure production-grade security defaults during local testing.
+#### Transport Layer Security
+
+  - **(2020)** [howhttps.works](https://howhttps.works)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive, visual educational resource designed to unpack the complex mechanics of the HTTPS protocol, TLS handshakes, and public key cryptography. Highly useful for onboarding developers to understand transport-layer security and key-exchange negotiations in web systems.
 ## Platform Engineering
 
-### AI Integration
+### Developer Portal
 
-#### Coding Assistants
+#### Internal Developer Platforms
 
-  - [Best Practices for Using GitHub Copilot](https://docs.github.com/en/copilot/get-started/best-practices) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The authoritative guidelines from GitHub for maximizing productivity and code quality using GitHub Copilot. Outlines advanced prompt engineering strategies, structuring context files, dealing with security vulnerabilities, and validation routines.
+  - **(2026)** [==Backstage Developer Portal:==](https://backstage.io) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Created by Spotify and donated to the CNCF, Backstage is an open-source framework for building internal developer portals. It unifies infrastructure tooling, services, and documentation under a single, centralized Software Catalog to streamline development workflows and reduce cognitive load.
+  - **(2026)** [Backstage @Youtube](https://www.youtube.com/channel/UCHBvqSwbfAf5Vx1jrwkG43Q) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official CNCF Backstage YouTube channel, featuring community meetups, architecture reviews, plugin development tutorials, and adoption case studies. It serves as an essential visual learning reference for Platform Engineering teams designing internal developer platforms (IDPs).
+#### Kubernetes Deployment
+
+  - **(2024)** [piotrminkowski.com: Backstage on Kubernetes](https://piotrminkowski.com/2024/06/28/backstage-on-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This guide details the production deployment steps for running Backstage on Kubernetes. It covers containerization, Helm chart configuration, database state persistence, and securing identity management integration for scalable developer portal deployments.
+#### Tutorials (1)
+
+  - **(2024)** [piotrminkowski.com: Getting Started with Backstage](https://piotrminkowski.com/2024/06/13/getting-started-with-backstage) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive technical guide to bootstrapping Backstage, configuring the software catalog, and writing custom templates. The resource outlines practical steps to integrate local tooling with the developer portal, enabling swift adoption of self-service developer templates.
 ## Software Engineering
 
-### Developer Experience (1)
+### AI-Assisted Development
 
-#### AI Assisted Coding
+#### GitHub Copilot
 
-##### GitHub Copilot
+  - **(2026)** [Best Practices for Using GitHub Copilot](https://docs.github.com/en/copilot/get-started/best-practices) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Authoritative guidelines from GitHub designed to optimize interaction with Copilot. Covers prompt engineering tactics (such as context-setting files and comments), managing AI security and license compliance, and verifying generated output.
+### Programming Paradigms
 
-  - **(2024)** [**GitHub Copilot CLI for Beginners: Getting Started**](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli/?utm_source=twitter-cli-beginners-getting-started-cta&utm_medium=social&utm_campaign=dev-pod-copilot-cli-2026) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Introductory guide explaining how to integrate the terminal-based GitHub Copilot CLI to leverage natural-language shell queries, automating script development and git lifecycle executions.
+#### Functional Programming
+
+  - **(2023)** [github.com/readme/guides: Functional Programming 101](https://github.com/readme/guides/functional-programming-basics) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory guide exploring core tenets of the functional programming paradigm, such as immutability, pure functions, and referential transparency. Synthesizes practical benefits of adopting these concepts in modern application development to minimize side effects, simplify testing, and boost concurrent performance.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Scaffolding](./scaffolding.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [QA](./qa.md)
 

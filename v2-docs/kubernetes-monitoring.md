@@ -61,208 +61,249 @@
   - [medium.com/@bareckidarek: TCP packets traffic visualization for kubernetes' by k8spacket and Grafana](https://medium.com/@bareckidarek/tcp-packets-traffic-visualization-for-kubernetes-by-k8spacket-and-grafana-bb87cb106f30)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [pakdailytimes.com: TCP packets traffic visualization for kubernetes by k8spacket' and Grafana](https://www.pakdailytimes.com/2022/12/tcp-packets-traffic-visualization-for.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Observability
+## Advanced Telemetry and FinOps
 
-### Capacity Management
+### Cost Management
 
-#### Kernel Internals
+#### Telemetry-Driven Budgeting
 
-##### Pod Throttling
+  - **(2023)** [loft.sh: Kubernetes Cost Monitoring with Prometheus & Grafana](https://www.vcluster.com/blog/kubernetes-cost-monitoring-with-prometheus-and-grafana) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how to harness native Prometheus resource allocation metrics combined with community tools like Kubecost to model cluster spending. Provides strategies for isolating workloads, dividing costs by namespace or tenant, and building real-time cost transparency dashboards in multi-tenant environments.
+### Log Aggregation
 
-  - **(2024)** [**CPU Limits in Kubernetes: Deep Dive into Pod Throttling and Kernel Interactions**](https://www.linkedin.com/pulse/cpu-limits-kubernetes-why-your-pod-idle-still-deep-dive-lazarev-k3m7f?utm_source=share&utm_medium=member_android&utm_campaign=share_via) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A deep analysis of the Linux kernel's Completely Fair Scheduler (CFS) quotas and how they cause Kubernetes pod throttling despite low resource utilization. Indispensable for engineers diagnosing performance degradation under restrictive CPU limit settings.
+#### PLG Stack Architecture
+
+  - **(2022)** [dev.to: Monitoring Kubernetes cluster logs and metrics using Grafana, Prometheus and Loki](https://dev.to/leroykayanda/kubernetes-monitoring-using-grafana-3dhc) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical implementation guide to bootstrapping the PLG (Prometheus, Loki, Grafana) observability stack. Focuses on Promtail configuration for cluster log collection, metric ingestion via Prometheus, and crafting unified correlation panels inside Grafana.
+### Troubleshooting Stacks
+
+#### Loki and Komodor Integration
+
+  - **(2022)** [anaisurl.com: Full Tutorial: Monitoring and Troubleshooting stack with Prometheus, Grafana, Loki and Komodor 🌟](https://anaisurl.com/full-tutorial-monitoring) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Guides readers through deploying a cohesive, modern cloud-native observability stack. Integrates Prometheus metric collections with Grafana dashboarding, Loki-based log aggregation, and Komodor's specialized Kubernetes troubleshooting platform to build rapid root-cause workflows.
+### eBPF-Based Telemetry
+
+#### Pixie Deep Dive
+
+  - **(2021)** [itnext.io: How to tackle Kubernetes observability challenges with Pixie](https://itnext.io/how-to-tackle-kubernetes-observability-challenges-with-pixie-4c6414ca913) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores Pixie, an eBPF-powered Kubernetes-native observability tool that collects high-resolution telemetry, logs, and network flows directly from the Linux kernel without requiring code changes or sidecar agents. Highlights how Pixie simplifies network profiling and debug loops.
+## Cloud Native Platforms
+
+### Kubernetes
+
+#### Helm Deployments
+
+  - **(2026)** [prometheus-community/kube-prometheus-stack 🌟🌟](https://artifacthub.io/packages/helm/prometheus-community/kube-prometheus-stack) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The standard Helm chart package representing the Kubernetes Prometheus Operator stack. Streamlines deployment of custom resources like ServiceMonitors and PrometheusRules.
+#### Telemetry Bundles
+
+  - **(2026)** [==kube-prometheus==](https://github.com/prometheus-operator/kube-prometheus) <span class='md-tag md-tag--info'>⭐ 7673</span> <span class='md-tag md-tag--warning'>[JSONNET CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The reference monitoring deployment for Kubernetes. Orchestrates the Prometheus Operator, Grafana, Alertmanager, and a collection of native exporters designed to monitor master control plane components.
+## Cluster Telemetry Stacks
+
+### Cluster Monitoring
+
+#### Health and Diagnostics
+
+  - **(2021)** [thenewstack.io: 12 Critical Kubernetes Health Conditions You Need to Monitor](https://thenewstack.io/12-critical-kubernetes-health-conditions-you-need-to-monitor) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Synthesizes twelve key health metrics and warning events across the cluster runtime, pinpointing latent issues like Out-Of-Memory (OOM) kills, disk pressure, CrashLoopBackOffs, API latency degradation, and certificate expirations before they escalate into service outages.
+#### Metric Analysis
+
+  - **(2020)** [circonus.com: 12 Critical Kubernetes Health Conditions You Need to Monitor and Why](https://www.circonus.com/2020/12/12-critical-kubernetes-health-conditions-you-need-to-monitor-and-why) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains the underlying physical and logical causes of twelve critical Kubernetes failure states. Details the operational impact of unmonitored container throttling, persistent volume capacity exhaustion, and node readiness changes, providing theoretical context on Kubelet behavior.
+#### Production Engineering
+
+  - **(2022)** [sysdig.com: Monitoring Kubernetes in Production](https://www.sysdig.com/blog/monitoring-kubernetes) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive production playbook for running observability systems inside highly available, scale-out Kubernetes environments. It addresses data scraping performance bottlenecks, long-term metric storage strategies (using Cortex/Thanos), and operational guidelines for sizing Prometheus resources to survive high-cardinality label spikes.
+### Control Plane Diagnostics
+
+#### Core Components
+
+  - **(2021)** [sysdig.com: How to monitor Kubernetes control plane](https://www.sysdig.com/blog/monitor-kubernetes-control-plane) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly technical guide detailing how to expose, scrap, and interpret diagnostic metrics from core Kubernetes control plane components, including etcd, kube-apiserver, kube-controller-manager, and kube-scheduler. Provides target Grafana layouts and alerting thresholds critical for cluster-wide health.
+## Container Orchestration
+
+### Kubernetes (1)
+
+#### Observability
+
+##### Best Practices
+
+  - **(2023)** [sysdig.com: Seven Kubernetes monitoring best practices every monitoring solution should enable](https://www.sysdig.com/blog/kubernetes-monitoring-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines seven core principles for establishing a reliable Kubernetes monitoring framework, highlighting metric aggregation, container life-cycle awareness, and Prometheus auto-discovery. Curator Insight: Essential practices for K8s monitoring. Live Grounding: Practical guidelines for scaling Prometheus and agent-based scrapers without experiencing massive ingestion bottlenecks.
+## Dynamic Component Monitoring
+
+### Cloud-Native Observability
+
+#### Grafana Cloud and AWS
+
+  - **(2022)** [youtube.com: Cloud Quick POCs - Kubernetes monitoring metrics using Grafana Cloud on AWS EKS | Observability | Grafana](https://www.youtube.com/watch?v=FVDHWPxK5nU&ab_channel=CloudQuickPOCs) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical video walk-through demonstrating rapid prototyping of observability loops on AWS EKS using Grafana Cloud. Showcases agents configuration, telemetry ingestion endpoints, and deploying curated visual layouts with minimal local monitoring footprint.
+### Cluster Monitoring (1)
+
+#### Fundamentals
+
+  - **(2020)** [circonus.com: Guide to Kubernetes Monitoring: Part 1](https://www.circonus.com/2020/09/guide-to-kubernetes-monitoring-part-1) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Part one of a progressive handbook examining Kubernetes cluster metrics architecture. It contrasts internal metric aggregation via the Metrics API (used by horizontal pod autoscalers) with the comprehensive structural details scraped by Prometheus, detailing what data to collect and why.
+#### Metrics Reference
+
+  - **(2022)** [kubermatic.com: The Complete Guide to Kubernetes Metrics](https://www.kubermatic.com/blog/the-complete-guide-to-kubernetes-metrics) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive technical breakdown dividing Kubernetes observability telemetry into node, container, API, and control plane layers. Evaluates core architectural tools such as cAdvisor, Metric-Server, and Prometheus while guiding readers on constructing unified dashboards.
+### Security and Certificates
+
+#### ChatOps Integration
+
+  - **(2021)** [infracloud.io: Monitoring Kubernetes cert-manager Certificates with BotKube](https://www.infracloud.io/blogs/monitoring-kubernetes-cert-manager-certificates) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details an elegant ChatOps pattern that integrates BotKube with cert-manager to actively push real-time TLS certificate expiration warnings and validation failures to Slack or Microsoft Teams, streamlining automated certificate lifecycle operations in production clusters.
+### Telemetry Protocols
+
+#### Object State Monitoring
+
+  - **(2024)** [**kube-state-metrics 🌟**](https://github.com/kubernetes/kube-state-metrics) <span class='md-tag md-tag--info'>⭐ 6137</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A vital system service that translates raw Kubernetes API server state data (e.g., deployments, pod counts, resource limits, cronjobs) into high-fidelity Prometheus metrics. Unlike cAdvisor, which captures resource usage, kube-state-metrics models cluster resource orchestration configurations.
+### Workload Monitoring
+
+#### Job and CronJob Execution
+
+  - **(2021)** [itnext.io: Monitoring Kubernetes Jobs](https://itnext.io/monitoring-kubernetes-jobs-8adc241a7b60) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Targets the specific challenges of monitoring short-lived batch jobs and CronJobs inside Kubernetes. Outlines Prometheus query logic (PromQL) to detect run execution duration, failure codes, and long-running abandoned pods that bypass typical active deployment scraping rules.
+## Infrastructure as Code
+
+### Helm
+
+#### Prometheus Deployment
+
+  - **(2023)** [Setup Prometheus Using Helm Chart on Kubernetes](https://devopscube.com/setup-prometheus-helm-chart) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical guide on installing a production-ready Prometheus instance into Kubernetes using Helm. Explains configuring persistent storage claims, setting retention policies, and overriding default ingress objects.
+## Log Management and Diagnostics
+
+### Audit Logging
+
+#### Compliance and Forensics
+
+  - **(2022)** [tealfeed.com: Kubernetes Audit Logs: Who created or deleted a namespace?](https://tealfeed.com/kubernetes-audit-logs-created-deleted-namespace-ho5o3) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Practical, real-world forensic guide demonstrating how to parse API server audit event streams to discover user identity and administrative footprints behind resource creation and deletion events inside complex Kubernetes clusters.
+#### Threat Detection
+
+  - **(2020)** [qlinh.com: Leveraging Kubernetes audit logs for threat detection](https://qlinh.com/infosec/2020/09/30/threat-detection-with-kubernetes-audit-logs.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed security analysis explaining how to configure the Kubernetes API server audit logging policy to capture active cluster states. Provides techniques for piping log streams to SIEM systems to detect privilege escalation, unauthorized namespace actions, and suspicious API execution.
+### Command Line Tools
+
+#### Terminal Interfaces
+
+  - **(2020)** [bul: Interactive TUI for Exploring Kubernetes Container Logs](https://github.com/ynqa/bul) <span class='md-tag md-tag--info'>⭐ 16</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — An interactive Terminal User Interface (TUI) written in Go designed to query and stream local Kubernetes container logs. Live Grounding Note: Because development has remained inactive for years, it is considered legacy; modern engineers typically use tools like K9s or Stern in active production.
+### Log Aggregation (1)
+
+#### EFK Stack Deployments
+
+  - **(2020)** [digitalocean.com: How To Set Up an Elasticsearch, Fluentd and Kibana (EFK) Logging Stack on Kubernetes](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-elasticsearch-fluentd-and-kibana-efk-logging-stack-on-kubernetes) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A classic, step-by-step tutorial on deploying the enterprise-grade EFK (Elasticsearch, Fluentd, Kibana) stack. Details how to orchestrate Fluentd as a DaemonSet to parse container logs, store them in a stateful Elasticsearch cluster, and build analysis dashboards in Kibana.
+#### Fundamentals (1)
+
+  - **(2023)** [devopscube.com: Kubernetes Logging Tutorial For Beginners 🌟](https://devopscube.com/kubernetes-logging-tutorial) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory blueprint covering fundamental logging behaviors in containerized orchestration environments. Demystifies container log storage paths, standard troubleshooting CLI workflows with `kubectl logs`, and simple forwarding architectures.
+  - **(2021)** [opensource.com: What you need to know about cluster logging in Kubernetes 🌟](https://opensource.com/article/21/11/cluster-logging-kubernetes) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains native Kubernetes logging mechanics, focusing on how logs are collected from standard output (stdout/stderr) streams and buffered on nodes. Analyzes community patterns for scraping and shipping these records to central analytical pipelines.
+#### Production Scale Logging
+
+  - **(2021)** [itnext.io: Kubernetes Logging in Production](https://itnext.io/kubernetes-logging-in-production-545ea88d9a4a) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines advanced production log aggregation architecture patterns. Investigates the trade-offs of using Node-level logging agents versus pod-level sidecars, detailing backpressure mitigation, rate-limiting rules, and long-term cold-storage archiving strategies.
+#### SaaS Integrations
+
+  - **(2021)** [papertrail.com: Quick and Easy Way to Implement Kubernetes Logging](https://www.papertrail.com/blog/quick-and-easy-way-to-implement-kubernetes-logging) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores lightweight strategies to stream local container console logs directly to Papertrail's managed cloud-native logging endpoints, using minimal DaemonSet forwarders to speed up troubleshooting in development environments.
+## Modern Observability and Service Mesh
+
+### Cluster Monitoring (2)
+
+#### Prometheus Setup
+
+  - **(2021)** [blog.fourninecloud.com: Kubernetes monitoring — How to monitor using prometheus?](https://blog.fourninecloud.com/kubernetes-monitoring-how-to-monitor-using-prometheus-f2eff767f6bb) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A beginner-to-intermediate tutorial demonstrating how to install, configure, and operate a Prometheus instance on a Kubernetes cluster. Outlines basic service discovery configurations, exporter architectures, and Prometheus-operator customization patterns.
+#### Service Discovery Mechanics
+
+  - **(2020)** [itnext.io: Kubernetes: monitoring with Prometheus — exporters, a Service Discovery, and its roles](https://itnext.io/kubernetes-monitoring-with-prometheus-exporters-a-service-discovery-and-its-roles-ce63752e5a1) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demystifies Prometheus's powerful dynamic Service Discovery engine inside Kubernetes, parsing how role specifications (Node, Endpoint, Pod, Service, Ingress) translate API-server resource updates into automatic, low-overhead scrap targets.
+### Network Performance
+
+#### NetFlow Telemetry
+
+  - **(2022)** [blog.palark.com: Service communication monitoring in Kubernetes with NetFlow](https://palark.com/blog/kubernetes-services-interaction-monitoring-with-netflow) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines technical patterns to capture and map container-to-container network interaction patterns using NetFlow/IPFIX protocols. It details how to leverage low-overhead agents to translate raw kernel TCP/UDP exchanges into structured microservices maps.
+#### eBPF and NetObserv
+
+  - **(2023)** [rcarrata.com: Network Observability Deep Dive in Kubernetes with NetObserv Operator](https://rcarrata.github.io/observability/netobserv-1) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides an architectural deep dive into NetObserv Operator, a network observability solution leveraging eBPF to capture flow telemetry directly inside the Linux kernel. Solves container network performance tracking, bandwidth hotspots, and multi-tenant isolation issues without sidecars.
+### Reliability Engineering
+
+#### eBPF-Based Telemetry (1)
+
+  - **(2023)** [isovalent.com: What are the 4 Golden Signals for Monitoring Kubernetes?](https://isovalent.com/blog/post/what-are-the-4-golden-signals-for-monitoring-kubernetes) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the implementation of Google's 'Four Golden Signals' within Kubernetes, highlighting how eBPF-powered tools like Cilium provide transparent application level metrics (latency, traffic, errors, saturation) without relying on traditional sidecar architectures.
+### Resource Management
+
+#### Sizing and Quotas
+
+  - **(2021)** [aws.amazon.com: Using Prometheus to Avoid Disasters with Kubernetes CPU Limits 🌟](https://aws.amazon.com/blogs/containers/using-prometheus-to-avoid-disasters-with-kubernetes-cpu-limits) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical deep dive into using Prometheus metric queries to track CFS (Completely Fair Scheduler) throttle time within AWS EKS. Demonstrates how micro-throttling hurts API tail-latencies and how to safely size resources to eliminate runtime CPU limit bottlenecks.
+### Telemetry Protocols (1)
+
+#### OpenTelemetry Runtime
+
+  - **(2023)** [opentelemetry.io: Creating a Kubernetes Cluster with Runtime Observability](https://opentelemetry.io/blog/2023/k8s-runtime-observability) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed technical blueprint for configuring modern OpenTelemetry collectors and instrumentation operators directly within a cluster. Demonstrates standard practices for unifying tracing, logs, and metrics pipelines into a scalable, open-source standard observability ecosystem.
+#### SigNoz and OpenTelemetry
+
+  - **(2023)** [signoz.io: Kubernetes Cluster Monitoring with OpenTelemetry | Complete Tutorial 🌟](https://signoz.io/blog/opentelemetry-kubernetes-cluster-metrics-monitoring) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive implementation guide showcasing SigNoz as a full-featured, open-source alternative to Datadog. It demonstrates configuring OpenTelemetry collectors to ingest cluster metrics, application traces, and platform logs into an integrated ClickHouse backend.
+### eBPF-Based Telemetry (2)
+
+#### Commercial Integrations
+
+  - **(2022)** [newrelic.com: Pixie](https://newrelic.com/platform/kubernetes-pixie) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights New Relic's platform integration of Pixie, the open-source eBPF observability tool. Explains how kernel-level tracing simplifies microservice communication tracking, HTTP/gRPC parsing, and resource utilization monitoring without code modifications.
+## Observability (1)
+
 ### ChatOps
 
-#### Cert-Manager Monitoring
-
-  - [infracloud.io: Monitoring Kubernetes cert-manager Certificates with BotKube](https://www.infracloud.io/blogs/monitoring-kubernetes-cert-manager-certificates)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical guide for integrating cert-manager with BotKube. Shows how to set up active Slack or Teams alerts that notify platform engineers when TLS certificates are nearing expiration or failing ACME challenges.
 #### Collaboration Platforms
 
   - **(2019)** [**botkube.io**](https://botkube.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Botkube is a collaboration and ChatOps tool designed to integrate Kubernetes clusters directly with popular messaging channels like Slack, Discord, and Teams. It allows debugging, running kubectl commands, and monitoring cluster alerts securely from chat interfaces.
-### Command Line Tools
-
-#### Kubectl Usage
-
-  - [middlewareinventory.com: Get CPU and Memory Usage of NODES and PODS – Kubectl' 🌟](https://www.middlewareinventory.com/blog/cpu-memory-usage-nodes-k8s)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A clear, task-focused tutorial demonstrating how to query cluster performance metrics directly using the `kubectl top` command. Explains metrics-server requirements and how to target resource utilization trends across namespaces.
-### FinOps
-
-#### Cost Monitoring
-
-##### Prometheus and Grafana
-
-  - **(2023)** [**loft.sh: Kubernetes Cost Monitoring with Prometheus & Grafana**](https://www.vcluster.com/blog/kubernetes-cost-monitoring-with-prometheus-and-grafana) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A FinOps tutorial detailing how to set up cost monitoring dashboards in Kubernetes. Using Prometheus and Grafana, it links CPU and memory metrics to cloud instance pricing sheets to identify underutilized resources.
-### Grafana Cloud
-
-#### SaaS Monitoring
-
-##### AWS EKS
-
-  - [youtube.com: Cloud Quick POCs - Kubernetes monitoring metrics using Grafana' Cloud on AWS EKS | Observability | Grafana](https://www.youtube.com/watch?v=FVDHWPxK5nU&ab_channel=CloudQuickPOCs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A video guide illustrating the quick setup of AWS EKS cluster metrics tracking using Grafana Cloud. Ideal for engineers seeking a fast SaaS onboarding experience without hosting their own telemetry storage backends.
 ### Logging
 
-#### Command Line Tools (1)
-
-  - [bul: Interactive TUI for Exploring Kubernetes Container Logs](https://github.com/ynqa/bul) <span class='md-tag md-tag--info'>⭐ 16</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive Terminal User Interface (TUI) written in Go for streaming and searching Kubernetes container logs. Grounding suggests that development has stalled (inactive for over 4 years), so while technically functional for local dev, tools like Stern or K9s are preferred in enterprise environments.
-  - [kubelog.de](https://kubelog.de)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized logging utility designed to simplify container log fetching. Grounding reveals it as a community-driven project that acts as an easy alternative to standard kubectl logs with colorized output.
-#### Concepts
-
-  - [opensource.com: What you need to know about cluster logging in Kubernetes' 🌟](https://opensource.com/article/21/11/cluster-logging-kubernetes)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Provides an essential primer on the core Kubernetes logging architecture, explaining stdout/stderr streams, node-level log rotation, and log collector agents. Highly valued for explaining foundational mechanisms before diving into specific tooling.
-  - [devopscube.com: Kubernetes Logging Tutorial For Beginners 🌟](https://devopscube.com/kubernetes-logging-tutorial)  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An elite, entry-level tutorial introducing Kubernetes logging paradigms, covering container stdout extraction, cluster-level log architectures, and daemonset collection. Curators praise its lucid diagrams and step-by-step practical commands.
-#### EFK
-
-  - [digitalocean.com: How To Set Up an Elasticsearch, Fluentd and Kibana (EFK)' Logging Stack on Kubernetes](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-elasticsearch-fluentd-and-kibana-efk-logging-stack-on-kubernetes)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A structured, hands-on deployment guide for the classic EFK (Elasticsearch, Fluentd, Kibana) logging stack on Kubernetes. Despite newer logging alternatives, the EFK architecture remains a highly stable and widely documented enterprise standard.
 #### Elasticsearch
 
-  - [elastic.co: How to configure Elastic Cloud on Kubernetes with SAML and hot-warm-cold' architecture](https://www.elastic.co/es/blog/how-to-configure-elastic-cloud-on-kubernetes-with-saml-and-hot-warm-cold-architecture) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A detailed guide on configuring Elastic Cloud on Kubernetes (ECK) featuring single sign-on via SAML and cost-efficient hot-warm-cold storage architectures. Essential for multi-tenant, enterprise security requirements.
+  - **(2022)** [elastic.co: How to configure Elastic Cloud on Kubernetes with SAML and hot-warm-cold architecture](https://www.elastic.co/es/blog/how-to-configure-elastic-cloud-on-kubernetes-with-saml-and-hot-warm-cold-architecture) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive reference guide for deploying Elastic Cloud on Kubernetes (ECK) implementing robust SAML authentication alongside an efficient hot-warm-cold storage topology. Designed to achieve secure, cost-optimized, and high-performance log retention structures.
 #### Operators
 
-  - [kube-logging/logging-operator](https://github.com/kube-logging/logging-operator) <span class='md-tag md-tag--info'>⭐ 1696</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A Kubernetes operator designed to manage logging pipelines using Fluentd and Fluent Bit. Provides automated scaling, multi-tenant log isolation, and declarative routing rules, drastically reducing log management complexity.
-#### Patterns
+  - **(2026)** [kube-logging/logging-operator](https://github.com/kube-logging/logging-operator) <span class='md-tag md-tag--info'>⭐ 1695</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An enterprise-grade Kubernetes operator engineered to automate the lifecycle of Fluentd and Fluent Bit collectors. Simplifies logging pipelines through declarative CRDs, featuring dynamic multi-tenant log isolation, secure buffer management, and reliable downstream routing rules.
+#### Security Auditing
 
-  - [dev.to: Kubernetes Practice — Logging with Logstash and FluentD by Sidecar' Container](https://dev.to/devopsvn/kubernetes-practice-logging-with-logstash-and-fluentd-by-sidecar-container-16oi)  <span class='md-tag md-tag--info'>[LEGACY]</span> — A practical walkthrough deploying a sidecar container pattern for log extraction using Logstash and Fluentd. Demonstrates how to ship multi-line log streams from legacy apps that cannot write standard stdout/stderr.
-#### Production Architecture
+  - **(2023)** [signoz.io: Kubernetes Audit Logs - Best Practices And Configuration](https://signoz.io/blog/kubernetes-audit-logs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive architectural guide to configuring and securing Kubernetes control plane audit logs. Provides concrete strategies for defining audit policies, optimizing backend targets, and establishing compliance-ready configurations necessary for enterprise security standards.
+#### Sidecar Pattern
 
-  - [itnext.io: Kubernetes Logging in Production](https://itnext.io/kubernetes-logging-in-production-545ea88d9a4a) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Discusses architectural patterns for scale-resilient Kubernetes logging. Compares node-agent logging (DaemonSet) with sidecar injectors, outlining CPU/memory overhead trade-offs for high-volume enterprise traffic.
-#### SaaS Logging
+  - **(2021)** [dev.to: Kubernetes Practice — Logging with Logstash and FluentD by Sidecar Container](https://dev.to/devopsvn/kubernetes-practice-logging-with-logstash-and-fluentd-by-sidecar-container-16oi)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed technical analysis of localized cluster logging using Logstash and Fluentd configured within Kubernetes sidecar containers. Focuses on isolating log streams per pod, implementing resource limits to prevent sidecar starvation, and decoupling application logging pipelines from the local node file system.
+#### Utilities
 
-  - [papertrail.com: Quick and Easy Way to Implement Kubernetes Logging](https://www.papertrail.com/blog/quick-and-easy-way-to-implement-kubernetes-logging)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides an entry-level walkthrough on configuring Kubernetes container logging to stream directly to SolarWinds Papertrail. Ideal for small-scale projects needing instant search and log aggregation without hosting Elasticsearch.
+  - **(2022)** [kubelog.de](https://kubelog.de)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A simplified, community-driven logging helper tool and playground for streaming container logs and tracing events inside localized Kubernetes development sandboxes.
 ### Metrics
 
-#### Prometheus
+#### SLO Management
 
-  - [blog.fourninecloud.com: Kubernetes monitoring — How to monitor using prometheus?](https://blog.fourninecloud.com/kubernetes-monitoring-how-to-monitor-using-prometheus-f2eff767f6bb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A foundational tutorial detail step-by-step deployment of Prometheus on Kubernetes. It covers target discovery, metrics collection, and node exporter setup. While helpful for beginners, modern architectures typically favor Operator-based deployments.
-  - [aws.amazon.com: Using Prometheus to Avoid Disasters with Kubernetes CPU' Limits 🌟](https://aws.amazon.com/blogs/containers/using-prometheus-to-avoid-disasters-with-kubernetes-cpu-limits) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A critical engineering guide addressing the dreaded CPU throttling issue in Kubernetes caused by hard CFS limits. Combines Prometheus query analysis with kernel-level metrics to showcase how to balance application latency and resource utilization. Highly recommended for production platform engineers.
-  - [itnext.io: Kubernetes: monitoring with Prometheus — exporters, a Service' Discovery, and its roles](https://itnext.io/kubernetes-monitoring-with-prometheus-exporters-a-service-discovery-and-its-roles-ce63752e5a1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deconstructs Prometheus service discovery mechanics inside Kubernetes, highlighting the difference between Pod, Service, and Endpoint discovery roles. Demonstrates how exporters expose node and application-level metrics for scrape targets.
-  - [Setup Prometheus Using Helm Chart on Kubernetes](https://devopscube.com/setup-prometheus-helm-chart)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A direct, production-ready tutorial demonstrating how to install and configure Prometheus using official Helm charts. Explains default values overrides, persistent volume configurations, and custom alertmanager integration for instant operational visibility.
-#### SLOs
-
-  - [thenewstack.io: Service Level Objectives in Kubernetes](https://thenewstack.io/service-level-objectives-in-kubernetes)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Explains Service Level Objectives (SLOs) in cloud-native systems, detailing how to establish SLIs and error budgets inside Kubernetes clusters. Introduces standard math and metrics pipelines needed to track app health reliably.
-  - [thenewstack.io: SLOs in Kubernetes, 1 Year Later](https://thenewstack.io/slos-in-kubernetes-1-year-later) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Follow-up retrospective on implementing and maintaining SLO programs. Evaluates failures, cultural barriers, and technical evolution (like OpenSLO), offering architectural lessons from long-term metric monitoring.
+  - **(2022)** [thenewstack.io: SLOs in Kubernetes, 1 Year Later](https://thenewstack.io/slos-in-kubernetes-1-year-later) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operational retrospective detailing the practical challenges and iterative tuning required to maintain robust SLO metrics over a twelve-month horizon in live production environments. Discusses tackling alert fatigue and scaling telemetry storage.
+  - **(2021)** [thenewstack.io: Service Level Objectives in Kubernetes](https://thenewstack.io/service-level-objectives-in-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analysis of implementing resilient Service Level Objectives (SLOs) natively inside Kubernetes environments. Explains mathematical error-budget calculation methodologies, Prometheus alert thresholds, and the strategic alignment of technical service indicators with business values.
 #### Telegraf
 
-  - [influxdata.com: Expand Kubernetes Monitoring with Telegraf Operator](https://www.influxdata.com/blog/expand-kubernetes-monitoring-telegraf-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details using the Telegraf Operator to automatically inject sidecar containers for comprehensive metric harvesting. Grounding shows how it simplifies complex time-series data streams directly into InfluxDB.
-### Monitoring Practices
+  - **(2021)** [influxdata.com: Expand Kubernetes Monitoring with Telegraf Operator](https://www.influxdata.com/blog/expand-kubernetes-monitoring-telegraf-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural blueprint detailing how to auto-inject Telegraf sidecar containers into application pods using a specialized Kubernetes Operator. Streamlines deep telemetry collection across heterogeneous clusters without requiring manual deployment manifests modifications.
+### Networking
 
-#### Alerting Policies
+#### Deep Packet Inspection
 
-  - [thenewstack.io: 12 Critical Kubernetes Health Conditions You Need to Monitor](https://thenewstack.io/12-critical-kubernetes-health-conditions-you-need-to-monitor)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compiles 12 critical cluster health indicators that platform engineers should monitor. Covers specific warning metrics like CrashLoopBackOff, disk pressure thresholds, and API server request latency bounds.
-  - [circonus.com: 12 Critical Kubernetes Health Conditions You Need to Monitor' and Why](https://www.circonus.com/2020/12/12-critical-kubernetes-health-conditions-you-need-to-monitor-and-why)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An alternative perspective highlighting twelve crucial Kubernetes metrics. Explains why etcd leader election loss, system OOMs, and PVC storage saturation require high-priority automated alerts.
-#### Enterprise Best Practices
+  - **(2026)** [**kubeshark/kubeshark**](https://github.com/kubeshark/kubeshark) <span class='md-tag md-tag--info'>⭐ 11951</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An open-source, eBPF-driven network monitoring and L7 protocol debugging engine offering Wireshark-like inspection for Kubernetes. Captures, decodes, and records TCP/UDP traffic at the kernel level across dynamic microservices.
+  - **(2026)** [kubeshark.co](https://www.immo-pop.com/login)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The enterprise portal for Kubeshark, a powerful, eBPF-powered real-time network analyzer tailored for Kubernetes. Enables seamless API traffic debugging and security scanning across all network interfaces without introducing sidecars or proxy overhead.
+#### eBPF Platform
 
-  - **(2022)** [sysdig.com: Seven Kubernetes monitoring best practices every monitoring solution should enable](https://www.sysdig.com/blog/kubernetes-monitoring-best-practices) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Sysdig's analysis outlining seven foundational best practices for Kubernetes metric collection. Focuses on cluster plane telemetry, standard label metadata usage, dynamic scraping strategies, and optimizing alert signal-to-noise ratios.
-#### Introduction
+  - **(2026)** [github.com/microsoft/retina](https://github.com/microsoft/retina) <span class='md-tag md-tag--info'>⭐ 3144</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Microsoft's eBPF-powered cloud-native network observability platform. Delivers deep distributed packet captures, connection tracking, and granular network telemetry for debugging multi-cluster Kubernetes deployments.
+### Security
 
-  - [circonus.com: Guide to Kubernetes Monitoring: Part 1](https://www.circonus.com/2020/09/guide-to-kubernetes-monitoring-part-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Part one of a introductory series detailing the evolution of Kubernetes observability. Outlines how pull-based metrics scrape architectures operate and explains why traditional host-centric monitoring fails in containerized runtime environments.
-#### Job Telemetry
+#### Certificate Monitoring
 
-  - [itnext.io: Monitoring Kubernetes Jobs](https://itnext.io/monitoring-kubernetes-jobs-8adc241a7b60)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Addresses the specific challenge of monitoring ephemeral Kubernetes CronJobs and Jobs. Focuses on setting up Alertmanager rules that isolate transient run errors from long-running service alerts.
-#### Production Readiness
+  - **(2021)** [itnext.io: Monitoring Certificates Expiration in Kubernetes with X.509 Exporter](https://itnext.io/monitoring-certificates-expiration-in-kubernetes-with-x-509-exporter-8030b69f611d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical deployment reference for integrating the X.509 Certificate Exporter into Prometheus monitoring frameworks to track and alert on TLS/SSL certificate lifetimes inside Kubernetes. Prevents unexpected service disruptions stemming from expired certificates.
+### Standards
 
-  - **(2021)** [sysdig.com: Monitoring Kubernetes in Production](https://www.sysdig.com/blog/monitoring-kubernetes) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operational guide covering the complexities of monitoring Kubernetes clusters in live production. It focuses on scaling metrics infrastructure, scraping limits, and setting up centralized dashboards for multi-cluster operations.
-### Monitoring Stack
+#### Interoperability
 
-#### Alerting Policies (1)
+  - **(2022)** [Prometheus and OpenTelemetry Compatibility Issues](https://thenewstack.io/prometheus-and-opentelemetry-just-couldnt-get-along) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Critically analyzes the historical divergence and friction between Prometheus metrics conventions and OpenTelemetry metrics data models. Explores alignment efforts, such as native OTLP support in Prometheus, to achieve semantic parity across enterprise cloud-native telemetry pipelines.
+## Practical Diagnostics
 
-  - [dev.to/mikeyglitz: Proactive Kubernetes Monitoring with Alerting](https://dev.to/mikeyglitz/proactive-kubernetes-monitoring-with-alerting-58en)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explains how to set up proactive alerts inside Kubernetes using Prometheus rules paired with Slack webhooks. Walks through alert configurations for pending pods, node pressure events, and high namespace limit utilization.
-#### Helm Charts
+### Alert Engineering
 
-##### kube-prometheus-stack
+#### Proactive Operations
 
-  - [prometheus-community/kube-prometheus-stack 🌟🌟](https://artifacthub.io/packages/helm/prometheus-community/kube-prometheus-stack)  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The de facto standard Helm chart for deploying Prometheus and Grafana on Kubernetes. It manages the custom resource definitions (CRDs), handles scraper configurations, and provides out-of-the-box system alerting rules.
-#### Kube-State-Metrics
+  - **(2023)** [dev.to/mikeyglitz: Proactive Kubernetes Monitoring with Alerting](https://dev.to/mikeyglitz/proactive-kubernetes-monitoring-with-alerting-58en) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Offers actionable guidance on moving from reactive firefighting to proactive alerts in production. Instructs readers on designing Alertmanager routing keys, building non-flapping alert thresholds, and writing actionable runbooks attached to notifications.
+### Cluster Monitoring (3)
 
-  - [kube-state-metrics 🌟](https://github.com/kubernetes/kube-state-metrics) <span class='md-tag md-tag--info'>⭐ 6125</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The official repository for kube-state-metrics. This system service listens to the Kubernetes API server and generates Prometheus-compatible metrics representing the state of objects (such as deployments, pods, and nodes) rather than raw resource usage.
-#### Kubernetes Control Plane
+#### Visual Dashboarding
 
-  - **(2023)** [**sysdig.com: How to monitor Kubernetes control plane**](https://www.sysdig.com/blog/monitor-kubernetes-control-plane) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A deep dive tutorial explaining how to parse metrics from core control plane components like the API Server, etcd, controller manager, and scheduler. Essential reading for platform teams building enterprise SLAs around cluster health.
-#### Loki Configuration
+  - **(2022)** [adamtheautomator.com: Utilizing Grafana & Prometheus Kubernetes Cluster Monitoring 🌟](https://adamtheautomator.com/prometheus-kubernetes) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive technical walkthrough on manual and Helm-based deployments of Prometheus and Grafana. Details how to import community dashboards, configure custom scraping target paths, and orchestrate baseline alerts to streamline daily cluster operations.
+### Command Line Tools (1)
 
-  - [dev.to: Monitoring Kubernetes cluster logs and metrics using Grafana,' Prometheus and Loki](https://dev.to/leroykayanda/kubernetes-monitoring-using-grafana-3dhc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A deployment guide detailing how to build a unified log and metrics tracking pipeline using Prometheus, Grafana, and Loki (the PLG stack). Focuses on optimal Promtail configurations for efficient pod log ingestion.
-#### Market Comparisons
+#### Kubectl Cheat Sheets
 
-  - **(2024)** [8 Best Kubernetes monitoring tools; Paid & open-source](https://middleware.io/blog/kubernetes-monitoring/tools) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An updated evaluation comparing top-tier commercial and open-source observability tooling. Helps architects evaluate software packages on their capacity to unify metrics, traces, and application logs into single pane dashboards.
-  - [betterstack.com: 10 Best Kubernetes Monitoring Tools in 2022 🌟](https://betterstack.com/community/comparisons/kubernetes-monitoring-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative overview analyzing ten leading Kubernetes monitoring solutions. Contrasts self-hosted open-source deployments with managed APM SaaS platforms, evaluating features, maintenance costs, and ingestion limits.
-#### Prometheus Integration
+  - **(2022)** [middlewareinventory.com: Get CPU and Memory Usage of NODES and PODS – Kubectl 🌟](https://www.middlewareinventory.com/blog/cpu-memory-usage-nodes-k8s) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A quick-reference guide focused on using native 'kubectl top' commands and JSONPath querying to extract direct, real-time node and pod resource usage statistics. Useful for rapid ad-hoc troubleshooting loops where formal Prometheus monitoring endpoints are inaccessible.
+### Market Evaluations
 
-  - [adamtheautomator.com: Utilizing Grafana & Prometheus Kubernetes Cluster' Monitoring 🌟](https://adamtheautomator.com/prometheus-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed configuration manual showcasing how to deploy the kube-prometheus telemetry stack on Kubernetes via Helm. Includes steps for building custom dashboard interfaces and setting up routing rules in Alertmanager.
-#### Prometheus Operator
+#### Monitoring Toolchains
 
-##### Kube-Prometheus
-
-  - [kube-prometheus](https://github.com/prometheus-operator/kube-prometheus) <span class='md-tag md-tag--info'>⭐ 7651</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The official codebase for kube-prometheus. This repository offers a pre-configured telemetry stack that deploys the Prometheus Operator, Grafana dashboards, Alertmanager rules, and node collectors optimized for monitoring Kubernetes master components.
-#### Troubleshooting Platforms
-
-  - [anaisurl.com: Full Tutorial: Monitoring and Troubleshooting stack with' Prometheus, Grafana, Loki and Komodor 🌟](https://anaisurl.com/full-tutorial-monitoring)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An extensive tutorial demonstrating the installation and routing setup of a modern troubleshooting stack. Combines Prometheus metrics, Grafana dashboards, Loki log aggregators, and Komodor for tracking configuration change impacts in Kubernetes.
-### Network Observability
-
-#### NetFlow
-
-  - **(2021)** [blog.palark.com: Service communication monitoring in Kubernetes with NetFlow](https://palark.com/blog/kubernetes-services-interaction-monitoring-with-netflow) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how to monitor inter-service communication within Kubernetes by exporting NetFlow data from the underlying Linux network namespace. Curator insight notes its lightweight footprint, while grounding reminds that eBPF has largely superseded pure NetFlow approaches in 2026.
-#### Wireshark
-
-  - [kubeshark.co](https://www.immo-pop.com/login)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Note: This link appears redirected to an unrelated domain (immo-pop.com), signaling a precision failure under Mandate 32. It is flagged for review, while users are redirected to the official open-source Kubeshark repository.
-#### eBPF
-
-  - **(2022)** [**rcarrata.com: Network Observability Deep Dive in Kubernetes with NetObserv Operator**](https://rcarrata.github.io/observability/netobserv-1) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Deep dive into Red Hat's NetObserv Operator, showcasing how eBPF is leveraged to gather network flow telemetry without sidecars. Live grounding confirms NetObserv's evolution into a robust tool for analyzing Kubernetes internal traffic patterns and diagnosing network bottlenecks.
-  - [kubeshark/kubeshark](https://github.com/kubeshark/kubeshark) <span class='md-tag md-tag--info'>⭐ 11905</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Kubeshark provides deep API traffic inspection and network analysis for Kubernetes. Operating via eBPF, it captures and decodes L7 protocols (HTTP/2, gRPC, Redis) in real-time, functioning as 'Wireshark for Kubernetes'.
-  - [github.com/microsoft/retina](https://github.com/microsoft/retina) <span class='md-tag md-tag--info'>⭐ 3143</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Microsoft Retina is a highly advanced, eBPF-powered network observability platform for Kubernetes. It aggregates deep network metrics, handles connection tracking, and performs distributed packet captures transparently.
-### Reliability Engineering
-
-#### Cilium
-
-##### Four Golden Signals
-
-  - [isovalent.com: What are the 4 Golden Signals for Monitoring Kubernetes?](https://isovalent.com/blog/post/what-are-the-4-golden-signals-for-monitoring-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An advanced technical blog demonstrating how to monitor Google's 4 Golden Signals using Cilium's eBPF architecture and Prometheus. This method allows teams to gather application performance metrics without sidecar injection overhead.
-### Runtime Observability
-
-#### eBPF (1)
-
-  - [newrelic.com: Pixie](https://newrelic.com/platform/kubernetes-pixie)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the integration of Pixie, an eBPF-driven Kubernetes observability tool, with New Relic. It highlights instant telemetry collection without code instrumentation, capturing metrics, traces, and logs. Live grounding highlights its CNCF Sandbox hosting and widespread adoption for real-time debugging.
-### Telemetry Standards
-
-#### Core Metrics Guide
-
-  - [kubermatic.com: The Complete Guide to Kubernetes Metrics](https://www.kubermatic.com/blog/the-complete-guide-to-kubernetes-metrics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A complete manual detailing metrics collection pathways in Kubernetes. Explores how the metrics pipeline aggregates metrics from cAdvisor, Kubelet, and API sources, explaining the roles of both metrics-server and custom prometheus adapters.
-#### OpenTelemetry
-
-  - [opentelemetry.io: Creating a Kubernetes Cluster with Runtime Observability](https://opentelemetry.io/blog/2023/k8s-runtime-observability) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Provides step-by-step guidance on provisioning a Kubernetes cluster with built-in runtime observability using OpenTelemetry. It details standardizing telemetry signals (metrics, traces, logs) straight from the container runtime interface. Grounding confirms its status as the default open-standard approach.
-  - [signoz.io: Kubernetes Cluster Monitoring with OpenTelemetry | Complete' Tutorial 🌟](https://signoz.io/blog/opentelemetry-kubernetes-cluster-metrics-monitoring) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive masterclass on configuring the OpenTelemetry Collector daemonset to monitor Kubernetes system components. It contrasts traditional Prometheus agent scraping with OTel's unified ingestion pipeline. Demonstrates clear performance benefits and architectural modernization.
-#### OpenTelemetry vs Prometheus
-
-  - [Prometheus and OpenTelemetry Compatibility Issues](https://thenewstack.io/prometheus-and-opentelemetry-just-couldnt-get-along) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An informative look at the historical data model incompatibilities between Prometheus and OpenTelemetry (OTel). It details the industry efforts to reconcile standard Prometheus structures with the broader OTel landscape.
-### eBPF Monitoring
-
-#### Pixie Integration
-
-  - [itnext.io: How to tackle Kubernetes observability challenges with Pixie](https://itnext.io/how-to-tackle-kubernetes-observability-challenges-with-pixie-4c6414ca913) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Explains how to use Pixie, an eBPF-driven platform, to achieve instant observability on Kubernetes clusters. Demonstrates capturing system-wide HTTP traffic, db queries, and CPU profiles with zero code instrumenting overhead.
-## Operations and Reliability
-
-### Observability and Monitoring
-
-#### Foundations
-
-  - [Monitoring Distributed Systems - Google SRE Book](https://sre.google/sre-book/monitoring-distributed-systems) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The industry-standard chapter from Google's SRE book detailing the implementation of distributed systems monitoring. It defines the 'Four Golden Signals'—latency, traffic, errors, and saturation—providing practical blueprints to prevent alert fatigue and build actionable dashboard designs.
-## Platform Engineering
-
-### Compute
-
-#### GPU Integration
-
-  - [Sharing a NVIDIA GPU Between Pods in Kubernetes](https://www.cloudnativedeepdive.com/sharing-a-nvidia-gpu-between-pods-in-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Explores the technicalities of sharing physical NVIDIA GPUs among multiple Pods in Kubernetes. Covers GPU fractional slicing, Multi-Instance GPU (MIG) strategies, and workload optimization for ML/AI clusters.
-## Security
-
-### Certificates
-
-#### Monitoring
-
-  - [itnext.io: Monitoring Certificates Expiration in Kubernetes with X.509 Exporter](https://itnext.io/monitoring-certificates-expiration-in-kubernetes-with-x-509-exporter-8030b69f611d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores configuring the Prometheus X.509 Certificate Exporter to continuously scan Kubernetes secret spaces. Prevents outages by alerting on expiring internal and ingress SSL/TLS certificates.
-### Threat Detection
-
-#### Audit Logs
-
-  - [qlinh.com: Leveraging Kubernetes audit logs for threat detection](https://qlinh.com/infosec/2020/09/30/threat-detection-with-kubernetes-audit-logs.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A security-oriented analysis showing how to leverage Kubernetes API audit logs to capture malicious actions and abnormal cluster behavior. Grounding confirms its high value in implementing Falco-based SIEM ingestion architectures.
-  - [tealfeed.com: Kubernetes Audit Logs: Who created or deleted a namespace?](https://tealfeed.com/kubernetes-audit-logs-created-deleted-namespace-ho5o3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A targeted troubleshooting guide focused on analyzing the Kube-APIServer audit log payload. Explains how to parse JSON audit trails to track exact identity, timestamp, and API verbs executing namespace lifecycle events.
-  - [signoz.io: Kubernetes Audit Logs - Best Practices And Configuration](https://signoz.io/blog/kubernetes-audit-logs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Outlines advanced configuration policies for the Kubernetes API audit logging engine. Deeply covers audit profiles, performance tuning, secure log transport, and compliance-driven retention metrics.
+  - **(2023)** [8 Best Kubernetes monitoring tools; Paid & open-source](https://middleware.io/blog/kubernetes-monitoring/tools) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compiles a curated comparison of eight high-performance paid and open-source monitoring platforms. Focuses on the trade-offs of using managed SaaS models versus self-hosted, cloud-native monitoring stacks with respect to total cost of ownership, alerting, and data retention.
+  - **(2022)** [betterstack.com: 10 Best Kubernetes Monitoring Tools in 2022 🌟](https://betterstack.com/community/comparisons/kubernetes-monitoring-tools) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative market review of ten leading commercial and open-source Kubernetes monitoring suites. Evaluates architecture models, scaling properties, out-of-the-box features, and implementation overheads across modern toolchains like Prometheus, Datadog, Dynatrace, and Better Stack.
 
 ---
-💡 **Explore Related:** [OCP 3](./ocp3.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
+💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
 
