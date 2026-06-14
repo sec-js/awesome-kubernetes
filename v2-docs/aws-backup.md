@@ -8,6 +8,13 @@
   - [Udemy - AWS: How to Architect with a Design for Failure Approach](https://www.udemy.com/how-to-architect-with-a-design-for-failure-approach)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: AWS Backup Service for Amazon RDS](https://medium.com/avmconsulting-blog/aws-backup-service-for-amazon-rds-3e6f5827aa66)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Cloud Architecture
+
+### AWS Solutions
+
+#### Disaster Recovery
+
+  - **(2021)** [Linkedin discussion: Need help on Backup and restore methods of EC2 using s3 services](https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fgroups%2F49531%2F49531-6093375473969090562) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Professional community forum troubleshooting AWS EC2 backup patterns using Amazon S3 storage. Discusses native snapshot systems, cron-based automation pipelines, and third-party orchestration agents to safeguard virtual machine disks.
 ## Cloud Migration
 
 ### AWS Competency
@@ -39,7 +46,7 @@
   - **(2021)** [**AWS Backup Adds Support for Amazon S3**](https://aws.amazon.com/blogs/aws/preview-aws-backup-adds-support-for-amazon-s3) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Introduces preview support for centralizing data protection across S3 buckets using AWS Backup policies. It allows security and operations teams to automate backups, lifecycles, and restores of S3 objects alongside other AWS resources. This replaces customized AWS Lambda or S3 replication-based snapshot workarounds with a managed compliance framework.
 ## Infrastructure
 
-### Disaster Recovery
+### Disaster Recovery (1)
 
 #### AWS Architectures
 

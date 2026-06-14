@@ -41,6 +41,13 @@
 #### VMware Tanzu
 
   - **(2022)** [zdnet.com: VMware brings Tanzu Application Platform into GA to ease Kubernetes adoption](https://www.zdnet.com/article/vmware-brings-tanzu-application-platform-into-ga-to-ease-kubernetes-adoption) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — News of VMware's general availability announcement of Tanzu Application Platform (TAP). TAP serves as an enterprise-grade PaaS (Platform-as-a-Service) overlay on Kubernetes, packaging cloud-native buildpacks, API portals, Cartographer supply chains, and security scanning tools to deliver a streamlined developer experience.
+## Databases
+
+### Kubernetes Operators
+
+#### VMware Tanzu (1)
+
+  - **(2020)** [tanzu.vmware.com: VMware Tanzu SQL: MySQL at Scale Made Easy for Kubernetes](https://blogs.vmware.com/tanzu/vmware-tanzu-sql-mysql-at-scale-kubernetes) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Tanzu SQL provides a robust, operator-driven solution for provisioning and operating MySQL databases within Kubernetes clusters. It automates common lifecycle events such as data replication, high availability clustering, automatic backups, and critical security patching.
 ## Delivery
 
 ### Air-Gapped Deployments
@@ -48,11 +55,18 @@
 #### Zero Trust
 
   - **(2026)** [==defenseunicorns/zarf==](https://github.com/zarf-dev/zarf) <span class='md-tag md-tag--info'>⭐ 1925</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly resilient developer tool designed by Defense Unicorns to package, deploy, and manage Kubernetes clusters and cloud-native applications in strictly air-gapped, offline, or secure zero-trust environments. Zarf bundles container registries, Helm charts, binary dependencies, and configurations into a single cryptographically signed archive file, completely removing internet reliance.
+## Education
+
+### Kubernetes
+
+#### Training
+
+  - **(2020)** [tanzu.vmware.com: Introducing KubeAcademy Pro: In-Depth Kubernetes Training, Totally Free](https://blogs.vmware.com/tanzu/introducing-kubeacademy-pro-in-depth-kubernetes-training-totally-free)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — KubeAcademy by VMware provides modular education resources and deep-dive technical courses targeting Kubernetes administrators and application developers. It focuses on practical application scaling, cluster security, debugging, and continuous integration concepts.
 ## Infrastructure
 
 ### AI and GPU Computing
 
-#### VMware Tanzu (1)
+#### VMware Tanzu (2)
 
   - **(2022)** [dev.to/saintdle: Deploying Nvidia GPU enabled Tanzu Kubernetes Clusters](https://dev.to/saintdle/deploying-nvidia-gpu-enabled-tanzu-kubernetes-clusters-40ma) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed engineering walkthrough detailing the enablement of Nvidia GPU acceleration within guest Tanzu Kubernetes Grid (TKG) clusters on vSphere. Covers vGPU profiles, driver configuration, and assigning hardware-accelerated nodes to support AI/ML and deep learning workloads.
 ### Bare Metal
@@ -116,11 +130,35 @@
   - **(2026)** [VMware hands-on Labs 🌟](https://labs.hol.vmware.com/HOL)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly rated, free cloud-based interactive training platform provided by Broadcom/VMware. It allows platform engineers and administrators to gain hands-on operational experience with VMware Tanzu, vSphere with Kubernetes, NSX-T, and modern multicloud management tools without needing local hardware.
 ### Virtualization
 
-#### VMware Tanzu (2)
+#### VMware Tanzu (3)
 
   - **(2020)** [**VMware vSphere 7 with Kubernetes** - Project Pacific](https://www.vmware.com/products/cloud-infrastructure/vsphere) <span class='md-tag md-tag--warning'>[PROPRIETARY CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A transformative enterprise initiative (Project Pacific) that embedded native Kubernetes capabilities directly into the ESXi hypervisor. vSphere with Tanzu enables virtualization administrators to manage VMs and native Tanzu Kubernetes Grid (TKG) guest clusters inside a single vSphere Client interface, converging IT operations.
   - **(2020)** [cormachogan.com: A first look at vSphere with Kubernetes in action](https://cormachogan.com/2020/04/01/a-first-look-at-vsphere-with-kubernetes-in-action)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A hands-on architectural exploration of the early vSphere with Kubernetes implementation. The post walks through supervisor cluster enablement, native vSphere Pods execution, storage class integration with VMware CNS (Cloud Native Storage), and basic network policies.
   - **(2020)** [cormachogan.com: Building a TKG Cluster in vSphere with Kubernetes](https://cormachogan.com/2020/04/07/building-a-tkg-guest-cluster-in-vsphere-with-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep technical guide demonstrating how to declare and bootstrap Tanzu Kubernetes Grid (TKG) workload clusters (guest clusters) inside a vSphere supervisor cluster. Explains the underlying declarative custom resource definition (CRD) configurations matching Cluster API mechanics.
+## Kubernetes (1)
+
+### Operations
+
+#### Productivity
+
+  - **(2021)** [Kubernetes productivity tips and tricks 🌟](https://www.theodo.com/en-fr/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practitioner's guide to enhancing CLI-based Kubernetes productivity. It explores advanced setups such as custom shell autocompletion, kubectx/kubens utilities, smart aliases, and log-tailing helpers designed to reduce cognitive overhead during real-time incident responses.
+## Kubernetes Platforms
+
+### Mirantis
+
+#### Enterprise
+
+  - **(2020)** [Mirantis Docker Enterprise 3.1+ with Kubernetes](https://www.mirantis.com/software/mirantis-kubernetes-engine) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Formerly Docker Enterprise, Mirantis Kubernetes Engine (MKE) provides enterprise-ready cluster deployment capabilities utilizing either Kubernetes or Swarm orchestrators. It features integrated identity management, safe private image registries, and granular role-based security tooling.
+### Rancher
+
+#### Multi-Cluster
+
+  - **(2026)** [Rancher: Enterprise management for Kubernetes](https://nubenetes.com/rancher/) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Rancher is a unified platform for managing multi-cluster, heterogeneous Kubernetes deployments across diverse cloud providers and bare metal hosts. It simplifies operational management by providing centralized authentication, unified RBAC access, structured audit logs, and simplified Helm catalog deployments.
+### Red Hat OpenShift
+
+#### Enterprise (1)
+
+  - **(2026)** [Openshift Container Platform](https://nubenetes.com/openshift/) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat OpenShift is a premier enterprise-grade hybrid cloud Kubernetes application platform. It adds out-of-the-box developer tooling, integrated security standards, cluster virtualization, internal registry configurations, and Operator-based life cycle management directly over raw Kubernetes.
 ## Networking
 
 ### CNI Plugins
@@ -130,7 +168,7 @@
   - **(2024)** [==github: Weave Net - Weaving Containers into Applications==](https://github.com/weaveworks/weave) <span class='md-tag md-tag--info'>⭐ 6612</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Weave Net is a widely adopted container CNI plugin that creates an autonomous peer-to-peer overlay network with no external database requirements. The repository was archived by Weaveworks in 2024, prompting enterprise engineering teams to migrate to active, high-performance CNIs like Cilium (eBPF-driven) or Calico.
 ### Service Mesh
 
-#### VMware Tanzu (3)
+#### VMware Tanzu (4)
 
   - **(2020)** [blogs.vmware.com: VMware Tanzu Service Mesh, built on VMware NSX is Now Available!](https://blogs.vmware.com/networkvirtualization/2020/03/vmware-tanzu-service-mesh-built-on-vmware-nsx-is-now-available.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Announcement of VMware Tanzu Service Mesh (TSM), an Istio-based commercial service mesh integrated with VMware NSX. TSM delivers end-to-end traffic management, zero-trust security policies, cross-cluster connectivity, and deep API observability across hybrid and multi-cloud Kubernetes deployments.
 ## Observability
@@ -191,14 +229,14 @@
   - **(2021)** [thenewstack.io: How to Deploy Kubernetes with Kubeadm and containerd](https://thenewstack.io/how-to-deploy-kubernetes-with-kubeadm-and-containerd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical deployment guide focusing on initializing Kubeadm-driven clusters using containerd as the underlying Container Runtime Interface (CRI) instead of Docker. Explains config setup, namespace settings, and systemd integration.
 #### Core Engine
 
-  - **(2026)** [==Kubernetes Cluster with **Kubeadm**==](https://github.com/kubernetes/kubeadm) <span class='md-tag md-tag--info'>⭐ 3980</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The standard bootstrapping engine for establishing conformant clusters, maintained by Kubernetes SIG-Cluster-Lifecycle. It abstracts certificate generation, etcd cluster building, and node onboarding into simplified `kubeadm init` and `kubeadm join` commands. It serves as the foundation for higher-level platform controllers.
+  - **(2026)** [==Kubernetes Cluster with **Kubeadm**==](https://github.com/kubernetes/kubeadm) <span class='md-tag md-tag--info'>⭐ 3981</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The standard bootstrapping engine for establishing conformant clusters, maintained by Kubernetes SIG-Cluster-Lifecycle. It abstracts certificate generation, etcd cluster building, and node onboarding into simplified `kubeadm init` and `kubeadm join` commands. It serves as the foundation for higher-level platform controllers.
 #### Guides (1)
 
   - **(2021)** [mirantis.com: How to install Kubernetes with Kubeadm: A quick and dirty guide](https://www.mirantis.com/blog/how-install-kubernetes-kubeadm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Mirantis' architectural guide to installing Kubernetes utilizing Kubeadm. Outlines exact host configurations, networking kernel parameter modifications, and container runtime configs needed to establish a conformant control plane.
   - **(2018)** [Setting Up a Kubernetes Cluster on Ubuntu 18.04](https://loves.cloud/setting-up-a-kubernetes-cluster-on-ubuntu-18-04)  <span class='md-tag md-tag--info'>[LEGACY]</span> — An early tutorial detailing step-by-step master and worker initialization on legacy Ubuntu 18.04 using Kubeadm. Explains system preparation, Docker daemon runtime configuration, and initial CNI deployment steps.
 #### Learning
 
-  - **(2026)** [==**Kelsey Hightower: kubernetes the hard way**==](https://github.com/kelseyhightower/kubernetes-the-hard-way) <span class='md-tag md-tag--info'>⭐ 48652</span> <span class='md-tag md-tag--warning'>[MARKDOWN/SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kelsey Hightower's legendary guide for bootstrapping highly available clusters manually without automated installers. It details SSL/TLS certificate generation, etcd cluster builds, and control plane daemon setup (kube-apiserver, kube-scheduler, etc.), representing the gold standard for understanding low-level Kubernetes engineering.
+  - **(2026)** [==**Kelsey Hightower: kubernetes the hard way**==](https://github.com/kelseyhightower/kubernetes-the-hard-way) <span class='md-tag md-tag--info'>⭐ 48653</span> <span class='md-tag md-tag--warning'>[MARKDOWN/SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kelsey Hightower's legendary guide for bootstrapping highly available clusters manually without automated installers. It details SSL/TLS certificate generation, etcd cluster builds, and control plane daemon setup (kube-apiserver, kube-scheduler, etc.), representing the gold standard for understanding low-level Kubernetes engineering.
 #### Ubuntu
 
   - **(2021)** [blog.radwell.codes: Provisioning Single-node Kubernetes Cluster using kubeadm on Ubuntu 20.04](https://blog.radwell.codes/2021/05/provisioning-single-node-kubernetes-cluster-using-kubeadm-on-ubuntu-20-04)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A step-by-step workflow focused on configuring a single-node Kubernetes cluster on Ubuntu 20.04 using Kubeadm. Outlines how to untaint the control plane node to enable single-node scheduling for development and resource-constrained test beds.

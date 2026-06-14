@@ -25,9 +25,16 @@
   - [blog.devgenius.io: Daily useful Kubernetes aliases](https://blog.devgenius.io/daily-useful-kubernetes-aliases-c35f7f411f39)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Copy secrets between namespaces](https://stackoverflow.com/questions/55515594/is-there-a-way-to-share-a-configmap-in-kubernetes-between-namespaces)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Cloud Native
+## Automation
 
 ### Kubernetes
+
+#### Ansible Modules
+
+  - **(2024)** [Manage Kubernetes (K8s) objects](https://docs.ansible.com/collections.html) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official documentation detailing Ansible's specialized `kubernetes.core.k8s` module capabilities. It focuses on declaratively orchestrating Kubernetes objects directly from Ansible playbooks, allowing organizations to cleanly bridge traditional VM configuration setups with modern containerized platform configurations.
+## Cloud Native
+
+### Kubernetes (1)
 
 #### CICD and Builds
 
@@ -51,13 +58,18 @@
 #### Productivity
 
   - **(2026)** [==complete-alias==](https://github.com/cykerway/complete-alias) <span class='md-tag md-tag--info'>⭐ 814</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A shell integration tool designed to resolve completion mechanisms for aliased commands. For platform engineers running complex aliased 'kubectl' pipelines, this tool bridges the gap by enabling native parameter autocomplete for custom aliases, preserving system-level speed.
-## Kubernetes (1)
+## Kubernetes (2)
 
 ### Developer Experience (1)
 
 #### Container Builds
 
   - **(2021)** [==vmware-tanzu/buildkit-cli-for-kubectl (kubectl plugin)==](https://github.com/vmware-archive/buildkit-cli-for-kubectl) <span class='md-tag md-tag--info'>⭐ 505</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A kubectl plugin designed to execute container builds directly on remote BuildKit instances inside clusters. Live grounding confirms the project has been archived under VMware, steering teams to direct BuildKit operators or Kaniko.
+### Operations
+
+#### Kubectl Plugins
+
+  - **(2025)** [Kubectl plugins and tools](https://nubenetes.com/kubernetes/#kubectl-plugins) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This reference compilation highlights external tools and kubectl extensions managed via Krew. It details how third-party plugins (like `neat`, `kns`, or security-focused extensions) expand basic kubectl operational debugging and cluster-inspection capabilities.
 ## Kubernetes Platform
 
 ### Cluster Administration
@@ -65,7 +77,7 @@
 #### K8s Contexts
 
   - **(2020)** [**itnext.io: Kubernetes Contexts: Complete Guide for Developers**](https://itnext.io/kubernetes-contexts-complete-guide-for-developers-7ea5b2fc75c7) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Explains how kubeconfig context matrices are structured. Aids teams in safely managing user authorization levels across distinct dev, staging, and production clusters.
-#### Kubectl Plugins
+#### Kubectl Plugins (1)
 
   - **(2021)** [**shardul.dev: Most Useful kubectl Plugins**](https://shardul.dev/most-useful-kubectl-plugins) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Reviews highly useful extensions managed via the Krew plugins system. Showcases tools that expand administrator diagnostic capacities, log operations, and performance checks.
 #### Kubectl Productivity

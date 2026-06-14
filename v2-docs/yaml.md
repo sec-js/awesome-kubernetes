@@ -60,6 +60,13 @@
 #### Validation
 
   - **(2021)** [**instrumenta/kubeval**](https://github.com/instrumenta/kubeval) <span class='md-tag md-tag--info'>⭐ 3226</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A historic CLI tool used to validate Kubernetes configuration manifests against JSON schemas. Although it is archived and has been largely replaced by Kubeconform, Kubeval remains an important reference point in the evolution of Kubernetes configuration testing.
+## Configuration
+
+### YAML
+
+#### Pitfalls
+
+  - **(2023)** [ruudvanasseldonk.com: The yaml document from hell](https://ruuda.nl/2023/the-yaml-document-from-hell)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analysis detailing edge cases, confusing specifications, and common syntactical pitfalls inherent to the YAML standard. It highlights issues such as Norway country-code confusion (`NO` parsed as boolean `false`), string coercion, and massive object graph vulnerabilities, promoting defensive configuration practices.
 ## Configuration Management (1)
 
 ### IDE Integration
@@ -155,6 +162,13 @@
 
   - **(2024)** [json-schema.org: Understanding JSON Schema 🌟](https://json-schema.org/understanding-json-schema/reference) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official validation vocabulary specification for JSON documents. Enables programmatic enforcement of structural constraints, data types, and required fields across distributed microservice payload interfaces.
   - **(1999)** [json.org: Introducing JSON](https://www.json.org/json-en.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The authoritative reference specification for JavaScript Object Notation (JSON). Outlines the fundamental grammar, parsing tokens, and universal data structures that underpin modern web APIs and state distribution layers.
+## DevOps
+
+### CICD
+
+#### Automation
+
+  - **(2022)** [about.gitlab.com: Tips for productive DevOps workflows: JSON formatting with jq and CI/CD linting automation](https://about.gitlab.com/blog/devops-workflows-json-format-jq-ci-cd-lint) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical walkthrough on improving pipeline developer velocity using GitLab CI/CD, JSON manipulation with `jq`, and linting tooling. It focuses on isolating syntax-checking phases to fail fast, validating config schemas before they are applied to running stages.
 ## Developer Workspace
 
 ### Command-Line Tooling
@@ -197,6 +211,13 @@
 #### YAML Syntax (1)
 
   - **(2022)** [**docs.ansible.com: YAML anchors and aliases: sharing variable values**](https://docs.ansible.com/projects/ansible/latest/user_guide/playbooks_advanced_syntax.html#yaml-anchors-and-aliases-sharing-variable-values) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Official Ansible documentation showing how playbooks use YAML anchors and aliases. It demonstrates how to share variable lists, task setups, and connection settings across playbooks. This is a core best practice for maintaining massive infrastructure inventories.
+## Kubernetes (1)
+
+### DevSecOps
+
+#### Linting
+
+  - **(2021)** [thomasthornton.cloud: Analyze your Kubernetes YAML files and Helm Charts to ensure best practices using KubeLinter in Azure DevOps Pipeline](https://thomasthornton.cloud/analyze-your-kubernetes-yaml-files-and-helm-charts-to-ensure-best-practices-using-kuberlinter-in-azure-devops-pipeline) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This post walks through embedding KubeLinter in Azure DevOps CI/CD pipelines to audit Kubernetes manifests and Helm charts. It highlights security and performance check validations, such as identifying missing resource limits, root privileges, or improper security contexts before deployment.
 ## Networking and Security
 
 ### Security Compliance

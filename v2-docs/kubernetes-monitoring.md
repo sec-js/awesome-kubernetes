@@ -280,6 +280,27 @@
 #### Interoperability
 
   - **(2022)** [Prometheus and OpenTelemetry Compatibility Issues](https://thenewstack.io/prometheus-and-opentelemetry-just-couldnt-get-along) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Critically analyzes the historical divergence and friction between Prometheus metrics conventions and OpenTelemetry metrics data models. Explores alignment efforts, such as native OTLP support in Prometheus, to achieve semantic parity across enterprise cloud-native telemetry pipelines.
+## Observability and Monitoring
+
+### Grafana
+
+#### Application Metrics
+
+  - **(2024)** [**grafana.com: A beginner's guide to Kubernetes application monitoring**](https://grafana.com/blog/a-beginners-guide-to-kubernetes-application-monitoring) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Highly accessible guide to setting up application-level observability within Kubernetes. Covers instrumenting code with client libraries, configuring target discovery, and mapping RED (Rate, Errors, Duration) metrics.
+#### FinOps and Resources
+
+  - **(2024)** [**grafana.com: How to optimize resource utilization with Kubernetes Monitoring for Grafana Cloud 🌟**](https://grafana.com/blog/how-to-optimize-resource-utilization-with-kubernetes-monitoring-for-grafana-cloud) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Explores automated resource optimization strategies through Grafana Cloud monitoring. Uses cluster CPU and Memory utilization analytics to identify over-provisioned namespaces, enabling significant cost reduction in microservice architectures.
+#### Kubernetes Monitoring
+
+  - **(2024)** [**grafana.com: Introducing Kubernetes Monitoring in Grafana Cloud**](https://grafana.com/blog/introducing-kubernetes-monitoring-in-grafana-cloud) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Introduces Grafana Cloud's integrated Kubernetes monitoring platform. Showcases automated cluster discovery, pre-configured dashboards, and seamless Prometheus/Grafana integration for instant visibility into infrastructure and workload health.
+### Prometheus
+
+#### High Cardinality
+
+  - **(2024)** [==grafana.com: How to manage high cardinality metrics in Prometheus and Kubernetes==](https://grafana.com/blog/how-to-manage-high-cardinality-metrics-in-prometheus-and-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Crucial blueprint for managing high cardinality metrics within Prometheus. Outlines techniques like metric dropping, relabeling rules, and dashboard optimization to mitigate memory pressure and reduce monitoring costs in dynamic container environments.
+#### Prometheus Operator
+
+  - **(2024)** [==grafana.com: How to monitor Kubernetes clusters with the Prometheus Operator==](https://grafana.com/blog/how-to-monitor-kubernetes-clusters-with-the-prometheus-operator) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Comprehensive configuration guide for deploying and managing the Prometheus Operator on Kubernetes. Demonstrates configuring ServiceMonitor and PodMonitor custom resources to automate collection of dynamic microservice targets.
 ## Practical Diagnostics
 
 ### Alert Engineering

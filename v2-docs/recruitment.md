@@ -18,6 +18,19 @@
   - [trycircular.com (Spain)](https://trycircular.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [skamille.medium.com: An incomplete list of skills senior engineers need,' beyond coding](https://skamille.medium.com/an-incomplete-list-of-skills-senior-engineers-need-beyond-coding-8ed4a521b29f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## DevOps Culture
+
+### Workforce Strategy
+
+#### IT Outsourcing
+
+  - **(2023)** [computing.es: Retos del outsourcing de servicios IT en España](https://www.computing.es/mundo-digital/retos-del-outsourcing-de-servicios-it-en-espana) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Review of the organizational and cultural obstacles of IT outsourcing in Spain. Highlights critical problems of scaling DevSecOps capabilities externally, knowledge silos, and contract-driven constraints versus modern product team topologies.
+#### Remote Culture
+
+  - **(2022)** [about.gitlab.com: How to navigate The Great Resignation](https://about.gitlab.com/blog/how-to-navigate-the-great-resignation) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Strategic insights from GitLab on navigating post-pandemic talent shifts. Highlights the critical importance of async workflows, transparent documentation, and remote-first practices to attract and retain highly skilled infrastructure engineers.
+#### Talent Retention
+
+  - **(2022)** [hays.es: ‘La Gran Renuncia’: ¿por qué tantos profesionales se están planteando dejar su trabajo?](https://www.hays.es) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analysis of the causes driving the 'Great Resignation' across professional services in Spain. Examines work-life balance deficiencies, mental exhaustion, and stagnant careers as root causes, providing prescriptive corporate recommendations.
 ## Developer Platform
 
 ### Automation

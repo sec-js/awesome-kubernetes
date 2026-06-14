@@ -231,7 +231,7 @@
 
 #### Cloud Emulation
 
-  - **(2024)** [==Floci - An AWS Local Emulator Alternative==](https://github.com/floci-io/floci) <span class='md-tag md-tag--info'>⭐ 14061</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An active and highly performant local alternative to localstack. Emulates AWS cloud service behavior locally using specialized lightweight container footprints.
+  - **(2024)** [==Floci - An AWS Local Emulator Alternative==](https://github.com/floci-io/floci) <span class='md-tag md-tag--info'>⭐ 14063</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An active and highly performant local alternative to localstack. Emulates AWS cloud service behavior locally using specialized lightweight container footprints.
 #### Database Extensions
 
   - **(2023)** [github.com/Saniewski/mongo-express-docker-extension](https://github.com/Saniewski/mongo-express-docker-extension) <span class='md-tag md-tag--info'>⭐ 11</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized Docker Desktop extension embedding Mongo Express tools into local engineering control panels. Streamlines administrative database actions, collection querying, and sandbox testing workflows.
@@ -283,6 +283,11 @@
 #### Lifecycle Management
 
   - **(2018)** [stevelasker.blog: Docker Tagging: Best practices for tagging and versioning docker images](https://stevelasker.blog/2018/03/01/docker-tagging-best-practices-for-tagging-and-versioning-docker-images) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines release artifact numbering frameworks for corporate environments. Outlines semantic naming paradigms and explains the operational risks of using volatile tags in automated orchestration environments.
+### Networking
+
+#### Deep Dive
+
+  - **(2023)** [iximiuz.com: Container Networking Is Simple! 🌟](https://labs.iximiuz.com/tutorials/container-networking-from-scratch) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This comprehensive deep-dive tutorial demonstrates how container networking is constructed from scratch using native Linux namespaces, veth pairs, and bridge devices. It walks through creating isolated environments step-by-step and configuring IP routing and NAT to route outbound and inbound traffic safely.
 ### Orchestration Concepts
 
 #### Architecture Comparison
@@ -323,6 +328,11 @@
 #### OS Level Virtualization
 
   - **(2021)** [==iximiuz.com: Learning Containers From The Bottom Up | Ivan Velichko 🌟🌟🌟==](https://iximiuz.com/en/posts/container-learning-path) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly-rated, bottom-up container learning path created by Ivan Velichko. Traces container concepts back to bare-metal OS fundamentals, covering chroot, cgroups, linux namespaces, and runc.
+### Container Builds
+
+#### Docker BuildKit
+
+  - **(2026)** [==buildkit==](https://docs.docker.com/build) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Docker's next-generation container image building engine, designed to replace the legacy builder. It introduces high-performance features including concurrent stage execution, efficient caching via import/export, and secret-mounting without leaving traces in image history.
 ### Container Engines
 
 #### Alternatives
@@ -356,7 +366,7 @@
   - **(2021)** [linuxadictos.com: Docker presenta nuevas capacidades para desarrolladores](https://www.linuxadictos.com/docker-presenta-nuevas-capacidades-para-desarrolladores.html) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines historical advancements in the Docker developer ecosystem, analyzing features like multi-architecture build mechanisms and enhanced orchestration tooling.
 ### Docker Networking and Volumes
 
-#### Networking
+#### Networking (1)
 
   - **(2021)** [**iximiuz.com: What Actually Happens When You Publish a Container Port 🌟**](https://iximiuz.com/en/posts/docker-publish-container-ports) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An elite architectural exploration of how published ports route traffic. Explains packet pathways from the host NIC through iptables, DNAT rules, virtual interfaces, and down to the application's listen sockets.
 #### Volumes
@@ -593,6 +603,13 @@
 #### Log Management
 
   - **(2026)** [sematext: Monitor Docker Metrics & Logs 🌟](https://sematext.com/capabilities/container-monitoring) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Sematext's container monitoring solution provides deep-dive observability for Docker, Kubernetes, and containerized applications. It automatically gathers resource utilization metrics and log streams from daemon processes without requiring manual configuration of host-level forwarders. This platform is highly valuable for hybrid deployments, offering unified log searching and performance alerting to minimize container-level MTTD (Mean Time to Detection).
+## Orchestration (1)
+
+### Container Engines (1)
+
+#### Docker Swarm
+
+  - **(2024)** [Docker Swarm](https://nubenetes.com/kubernetes-alternatives/#docker-swarm) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes Docker Swarm as a simple container orchestration alternative to Kubernetes. Evaluates its built-in overlay network routing mesh and single-node setup advantages, noting that its enterprise adoption has decreased in favor of Kubernetes-native environments.
 ## Performance
 
 ### Diagnostics (1)
@@ -602,7 +619,7 @@
   - **(2021)** [pythonspeed.com: Docker can slow down your code and distort your benchmarks](https://pythonspeed.com/articles/docker-performance-overhead) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details performance degradation anomalies caused by container virtualization. Focuses on CPU hyper-threading constraints, memory allocation overhead, and VM barriers on macOS/Windows, highlighting how these dynamics can distort micro-benchmarks.
 ## Platform
 
-### Container Engines (1)
+### Container Engines (2)
 
 #### Alternatives (3)
 

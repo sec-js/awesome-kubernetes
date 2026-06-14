@@ -49,6 +49,11 @@
   - **(2024)** [==Artemis Prometheus Metrics Plugin==](https://github.com/rh-messaging/artemis-prometheus-metrics-plugin) <span class='md-tag md-tag--info'>⭐ 28</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Duplicates technical setup for the Artemis-Prometheus plugin, highlighting metrics formatting for queue lengths, active sessions, and underlying JVM memory states.
 ## Observability
 
+### Infrastructure as Code (1)
+
+#### Grafana Provisioning
+
+  - **(2023)** [grafana.com: A complete guide to managing Grafana as code: tools, tips, and tricks](https://grafana.com/blog/a-complete-guide-to-managing-grafana-as-code-tools-tips-and-tricks) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An architectural guide detailing how to manage Grafana as code. Explores declarative tools, GitOps synchronization methods, and APIs (such as Grizzly, Terraform, and Kubernetes Operators) to achieve reproducible visualization dashboards, alert rules, and secure data sources inside multi-tenant configurations.
 ### Log Management
 
 #### Deployment Guides
@@ -71,6 +76,11 @@
 #### JVM Monitoring
 
   - **(2024)** [==Prometheus JMX Exporter 🌟==](https://github.com/prometheus/jmx_exporter) <span class='md-tag md-tag--info'>⭐ 3306</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A highly critical Prometheus collector that scrapes and formats JVM JMX mBeans. Widely utilized in enterprise legacy clusters running Java applications, Kafka, and Cassandra.
+### Telemetry
+
+#### eBPF Application Monitoring
+
+  - **(2023)** [grafana.com: Grafana Beyla 1.0 release: zero-code instrumentation for application telemetry using eBPF](https://grafana.com/blog/grafana-beyla-1-0-release-zero-code-instrumentation-for-application-telemetry-using-ebpf) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces Grafana Beyla 1.0, an eBPF-based auto-instrumentation tool designed to gather application telemetry (traces and RED metrics) without source code modification. Using eBPF, Beyla auto-detects web services and captures critical HTTP/S and gRPC latency data directly from the kernel space, making it highly valuable for heterogeneous, high-throughput microservice architectures.
 ### Visualization (1)
 
 #### Grafana Configuration
@@ -79,7 +89,7 @@
 #### Grafana Extensibility
 
   - **(2020)** [scylladb.com: Building a Grafana Backend Plugin](https://www.scylladb.com/2020/10/01/building-a-grafana-backend-plugin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-oriented walkthrough showing how to construct custom backend data plugins for Grafana using Go. It focuses on implementing optimized query parsers, managing API secrets, and routing telemetry queries directly to non-native time-series databases.
-#### Infrastructure as Code (1)
+#### Infrastructure as Code (2)
 
   - **(2026)** [==Grafana provisioning Ansible Role==](https://github.com/cloudalchemy/ansible-grafana) <span class='md-tag md-tag--info'>⭐ 503</span> <span class='md-tag md-tag--warning'>[ANSIBLE CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An automated Ansible role engineered by Cloud Alchemy to deploy, configure, and maintain Grafana services. It translates Grafana's file-based provisioning API parameters into clean Ansible playbooks, standardizing monitoring stack deployments across virtualized environments.
 #### Product Updates
@@ -89,6 +99,64 @@
 
   - **(2021)** [zdnet.com: Grafana 8.0 integrates with Prometheus alerting](https://www.zdnet.com/article/grafana-8-0-integrates-with-prometheus-alerting)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses the release of Grafana 8.0 and its significant consolidation of the platform's alerting architecture. The update introduces deep integration with Prometheus Alertmanager, allowing operators to construct complex multi-dimensional alert workflows directly.
   - **(2021)** [thenewstack.io: Grafana 8.0 Rethinks Alerts and Visualizations](https://thenewstack.io/grafana-8-0-rethinks-alerts-and-visualizations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An technical review examining Grafana 8.0's visualization panel system and unified alerting engine. The article details how these visual rendering upgrades improved dashboard performance and standardized monitoring logic across multiple telemetry backends.
+## Observability and Delivery
+
+### Application Observability
+
+#### Grafana Faro RUM
+
+  - **(2022)** [grafana.com: Introducing Grafana Faro, an open source project for frontend application observability](https://grafana.com/blog/introducing-grafana-faro-oss-application-observability)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces Grafana Faro, an open-source JavaScript SDK designed to capture frontend Web-Vitals, console exceptions, and real-user-monitoring (RUM) metrics. Faro integrates client-side trace-contexts with backend services via OpenTelemetry, enabling end-to-end transaction transparency. A critical tool for aligning frontend application performance with deep backend container telemetries.
+### Kubernetes Observability
+
+#### Grafana Cloud
+
+  - **(2021)** [grafana.com: A 3-step guide to troubleshooting and visualizing Kubernetes with Grafana Cloud](https://grafana.com/blog/a-3-step-guide-to-troubleshooting-and-visualizing-kubernetes-with-grafana-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Simplifies cluster-wide observability configurations down to three primary phases: installing the agent, collecting Prometheus metrics/Loki logs, and loading predefined cluster-health dashboards. Provides actionable advice to visually debug pod scheduling limits, node starvation, and OOM-Killed container cycles rapidly.
+### Load Testing
+
+#### k6 and OpenTelemetry
+
+  - **(2022)** [grafana.com: Testing shift left observability with the Grafana Stack, OpenTelemetry, and k6](https://grafana.com/blog/testing-shift-left-observability-with-the-grafana-stack-opentelemetry-and-k6) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural validation of incorporating performance and observability telemetry early in the software lifecycle. Demonstrates using k6 for synthetic load generation while leveraging OpenTelemetry and the Grafana Stack to evaluate container bottlenecks during integration phases. This shift-left pattern prevents performance regressions before software hits live production environments.
+### Metrics Querying
+
+#### PromQL Basics
+
+  - **(2021)** [grafana.com: Video: How to build a Prometheus query in Grafana](https://grafana.com/blog/video-how-to-build-a-prometheus-query-in-grafana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Video breakdown demonstrating the assembly of PromQL (Prometheus Query Language) structures inside Grafana's query editor. Explores metric labels, functions like `rate()`, aggregation operations, and template variables. A foundational resource to help infrastructure engineers formulate robust alerting rules and visual dashboards.
+### Network Monitoring
+
+#### Advanced Prometheus
+
+  - **(2021)** [grafana.com: An advanced guide to network monitoring with Grafana and Prometheus](https://grafana.com/blog/an-advanced-guide-to-network-monitoring-with-grafana-and-prometheus) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Builds on foundational network concepts to introduce complex PromQL configurations, high-density traffic visualizations, and multi-layered alert thresholds. Explores analyzing network interface errors, tracking packet drop trends, and integrating blackbox exporter synthetic probes to build a highly resilient multi-cluster tracking profile.
+#### Prometheus snmp_exporter
+
+  - **(2021)** [grafana.com: A beginner's guide to network monitoring with Grafana and Prometheus](https://grafana.com/blog/a-beginners-guide-to-network-monitoring-with-grafana-and-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A foundational walkthrough on tracking physical and virtual networking infrastructure using Prometheus snmp_exporter. Focuses on gathering router/switch metrics, parsing bandwidth limits, and building clear Grafana interfaces to visualize network bottlenecks. An excellent baseline guide for administrators connecting traditional networks to cloud topologies.
+### Platform Operations
+
+#### Managed Observability
+
+  - **(2021)** [grafana.com: Why companies choose Grafana Cloud over self-managed OSS stacks](https://grafana.com/blog/why-companies-choose-grafana-cloud-over-self-hosted-oss-stacks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the total cost of ownership (TCO) differences when operating self-hosted Prometheus/Loki/Tempo stacks versus utilizing Grafana Cloud. Evaluates scalability challenges, engineering maintenance resources, and the advantages of centralized enterprise licensing. Practical resource for decision makers evaluating managed telemetry platforms.
+### Synthetic Monitoring
+
+#### Grafana Alerting
+
+  - **(2021)** [grafana.com: Top 5 user-requested synthetic monitoring alerts in Grafana Cloud](https://grafana.com/blog/top-5-user-requested-synthetic-monitoring-alerts-in-grafana-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Shares actionable configurations for the most prominent user-requested synthetic monitoring alerts in Grafana Cloud, including DNS failures, HTTP latency spikes, SSL certificate expirations, and global availability drops. Facilitates preemptive identification of microservice edge-network connectivity failures before user impact occurs.
+### Visualization (2)
+
+#### Dashboard Design
+
+  - **(2021)** [grafana.com: Grafana dashboards: A complete guide to all the different types you can build](https://grafana.com/blog/grafana-dashboards-a-complete-guide-to-all-the-different-types-you-can-build)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Detailed directory detailing Grafana dashboard templates designed for infrastructure health, application profiling, alerting states, and executive summaries. Illustrates best practices for using colors, mapping dynamic parameters, and structuring queries to minimize browser rendering lag. Excellent primer for SRE and platform teams establishing visualization frameworks.
+#### Grafana Cloud (1)
+
+  - **(2021)** [grafana.com: What's new in Grafana Cloud for July 2021: Traces, live streaming, Kubernetes and Docker integrations, and more](https://grafana.com/blog/whats-new-in-grafana-cloud-for-july-2021-traces-live-streaming-kubernetes-and-docker-integrations-and-more)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines major feature enhancements in Grafana Cloud, highlighting integrations for distributed tracing with Tempo, real-time live streaming visualization, and streamlined onboarding for Kubernetes environments. This release accelerated the telemetry unification workflow, offering single-pane views across isolated environments.
+#### Grafana Cloud Integration
+
+  - **(2021)** [grafana.com: Introducing the AWS CloudWatch integration, Grafana Cloud's first fully managed integration](https://grafana.com/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Focuses on Grafana Cloud's fully managed integration for AWS CloudWatch. Automates connection configurations, IAM policy templates, and out-of-the-box system dashboards to rapidly pull metrics from EC2, RDS, and ECS without setting up complex collectors. This SaaS integration reduces initial ingestion setups down to minutes.
+#### Grafana Plugins
+
+  - **(2021)** [grafana.com: Introducing the new and improved New Relic plugin for Grafana](https://grafana.com/blog/introducing-the-new-and-improved-new-relic-plugin-for-grafana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the upgraded New Relic integration for Grafana dashboards, permitting operations teams to query NRQL data blocks directly. It enables telemetry unification by blending APM, infrastructure metrics, and custom log searches within a single visual canvas. This integration mitigates team operational silos during incident triage cycles.
+  - **(2021)** [Popular community plugins that can improve your Grafana dashboards 🌟](https://grafana.com/blog/popular-community-plugins-that-can-improve-your-grafana-dashboards)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights top community-created visualization plugins extending the native capabilities of Grafana dashboards, including specialized charting tools, flow diagrams, and advanced geographic mappings. Helps dashboard authors enrich analytics panels and improve observability interfaces across operations groups.
+#### Grafana Releases
+
+  - **(2021)** [grafana.com: Grafana 8.1 released: New Geomap and Annotations panels, updated plugin management, and more](https://grafana.com/oss/grafana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical announcement detailing the new capabilities in Grafana 8.1, including the rewritten unified Geomap panel, automated annotations query integrations, and an upgraded interface for local plugin management. These features enhance geographical spatial data analysis and speed up event correlation during active incident mitigation.
 ## Observability and Monitoring
 
 ### Data Collection

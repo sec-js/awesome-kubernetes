@@ -9,7 +9,6 @@
   - [jetstack.io: Securing Istio workloads with mTLS using cert-manager](https://www.cyberark.com/venafi-and-cyberark-machine-identity-security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/solo-io blog](https://medium.com/solo-io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/solo-io: Istio the Easy Way (Again!)](https://medium.com/solo-io/istio-the-easy-way-again-b0504347b7ce)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [istiobyexample.dev 🌟](https://istiobyexample.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com: Getting started with Istio](https://medium.com/swlh/getting-started-with-istio-524628c025)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [magalix.com: Getting Started With Istio: Overview And Installation](https://www.magalix.com/blog/getting-started-with-istio-overview-and-installation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [magalix.com: Working with Istio: Track your services with Kiali](https://www.magalix.com/blog/working-with-istio-track-your-services-with-kiali)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -46,6 +45,13 @@
   - [faun.pub: A beginner’s guide to Jaeger](https://faun.pub/a-beginners-guide-to-jaeger-ed75ce5ed8f4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Troubleshooting Envoy with Kiali](https://medium.com/kialiproject/troubleshooting-envoy-with-kiali-7f78a57b16ad)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Cloud Native
+
+### Service Mesh
+
+#### Istio Examples
+
+  - **(2024)** [istiobyexample.dev 🌟](https://istiobyexample.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An exemplary repository of practical, real-world Istio deployment configurations. Provides direct templates for traffic routing, rate limiting, and mTLS security configurations, serving as an indispensable resource for platform teams building service mesh architectures.
 ## Cloud Native Infrastructure
 
 ### Data Plane
@@ -61,14 +67,14 @@
 #### Automation
 
   - **(2023)** [==istio-ecosystem/admiral==](https://github.com/istio-ecosystem/admiral) <span class='md-tag md-tag--info'>⭐ 639</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An active Istio-ecosystem tool that automates multi-cluster configuration management. Eliminates the need to manually configure ServiceEntries and DNS across clusters, programmatically stitching distinct meshes together for transparent scale.
-#### Service Mesh
+#### Service Mesh (1)
 
   - **(2021)** [tetrate.io: Multicluster Management with Kubernetes and Istio 🌟](https://tetrate.io/blog/what-is-istio-and-why-does-kubernetes-need-it)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores Tetrate's approach to cross-cluster service visibility, network isolation boundaries, and identity propagation in heterogeneous environments. Demonstrates patterns for maintaining strong administrative boundaries across hybrid networks.
   - **(2021)** [thenewstack.io: Multicluster Management with Kubernetes and Istio](https://thenewstack.io/multicluster-management-with-kubernetes-and-istio)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the primary deployment patterns for multi-cluster Kubernetes environments running Istio. Compares shared control planes with replicated control planes, highlighting the network and operational trade-offs of each design.
 #### Traffic Management
 
   - **(2021)** [piotrminkowski.com: Multicluster Traffic Mirroring with Istio and Kind](https://piotrminkowski.com/2021/07/12/multicluster-traffic-mirroring-with-istio-and-kind)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical technical guide for creating a multi-cluster local playground using Kind and Istio. Detailed configurations walk developers through setting up cross-cluster network routes and safely mirroring production traffic to staging environments.
-### Service Mesh (1)
+### Service Mesh (2)
 
 #### API Gateway (1)
 
@@ -163,7 +169,7 @@
 #### Visualization
 
   - **(2026)** [Kibana](https://www.elastic.co/kibana) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The industry-standard data visualization and exploration dashboard designed specifically for Elastic Stack and OpenSearch engines. Enables deep analytical queries, log visualization, machine learning anomalies detection, and application performance monitoring (APM) reporting.
-### Service Mesh (2)
+### Service Mesh (3)
 
 #### Troubleshooting
 
@@ -172,7 +178,7 @@
 
   - **(2023)** [==github.com: kiali==](https://github.com/kiali/kiali) <span class='md-tag md-tag--info'>⭐ 3617</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The source repository for Kiali, an indispensable observability dashboard. Provides real-time interactive topologies, configuration validation, and native wizard-based creations of complex traffic routing mechanisms directly within Istio.
   - **(2022)** [kiali.io](https://kiali.io) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Homepage for Kiali, the primary management and visualization console for Istio. Delivers dynamic physical and logical topology maps, active health metrics, and direct configurations diagnostic tracking.
-## Service Mesh (3)
+## Service Mesh (4)
 
 ### Architecture (1)
 

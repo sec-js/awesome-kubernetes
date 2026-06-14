@@ -3,6 +3,13 @@
 !!! info "Architectural Context"
     Detailed reference for Scaleway Public Cloud in the context of Cloud Providers (Hyperscalers).
 
+## Cloud Native
+
+### Managed Kubernetes
+
+#### Scaleway Kapsule
+
+  - **(2025)** [scaleway.com: Kubernetes Kapsule](https://www.scaleway.com/en/en/kubernetes-kapsule) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official technical guide for Scaleway's managed Kubernetes implementation (Kapsule). Describes control-plane operations, auto-scaling configuration, and provisioning persistent storage volumes across European cloud regions.
 ## Cloud Native Architecture
 
 ### SaaS Architecture Patterns

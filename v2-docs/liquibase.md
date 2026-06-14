@@ -20,6 +20,20 @@
 #### Database Deployment
 
   - **(2021)** [piotrminkowski.com: Blue-green deployment with a database on Kubernetes 🌟](https://piotrminkowski.com/2021/02/18/blue-green-deployment-with-a-database-on-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical blueprint demonstrating blue-green deployments on Kubernetes for applications bound to transactional databases. Explores state synchronization, schema compatibility, and traffic routing mechanisms to prevent transaction loss during rolling updates.
+## Continuous Delivery
+
+### Database GitOps
+
+#### Liquibase (1)
+
+  - **(2023)** [**percona: Database Schema Management Via Liquibase**](https://percona.community/blog) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Architectural guide for automating relational database migrations using Liquibase in CI/CD chains. Evaluates declarative XML/SQL changeset formats, execution tracking setups, and rollback configurations necessary to safely release database modifications alongside microservices.
+## Data Architecture
+
+### Database Migrations
+
+#### Tool Comparison
+
+  - **(2024)** [liquibase.org: Liquibase vs. Flyway](https://www.liquibase.com/liquibase-vs-flyway)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed evaluation of the architectural trade-offs between Liquibase and Flyway. This resource explores Liquibase's multi-database abstraction layers (XML, YAML, JSON) alongside Flyway's developer-focused, SQL-first approach, explaining their impact on continuous delivery pipelines and database schema version control.
 ## Database Architecture
 
 ### Cloud Native Databases
@@ -27,7 +41,7 @@
 #### Vitess
 
   - **(2021)** [docs.planetscale.com: The PlanetScale workflow 🌟](https://planetscale.com/docs/vitess/best-practices) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Documentation outlining the schema migration workflow in PlanetScale, powered by Vitess. Introduces non-blocking schema changes and deployment branches, enabling developers to modify production databases without locking tables or causing downtime.
-### Database GitOps
+### Database GitOps (1)
 
 #### Schema Management
 

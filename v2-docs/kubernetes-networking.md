@@ -249,7 +249,14 @@
 ##### Packet Management
 
   - **(2023)** [**otterize.com: Mastering Kubernetes networking: A journey in cloud-native packet management**](https://www.cyera.com) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A granular guide targeting the operational management of ingress and egress pipelines within security-conscious setups. Traces dynamic security parameters, microsegmentation patterns, and real-time firewall configurations.
-## Networking (1)
+## Kubernetes
+
+### Networking (1)
+
+#### Architecture
+
+  - **(2021)** [stackrox.com: Kubernetes Networking Demystified: A Brief Guide](https://www.stackrox.io/blog/kubernetes-networking-demystified) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This reference guide deconstructs core Kubernetes networking patterns: container-to-container, pod-to-pod, pod-to-service, and external access mechanisms. It explains the mechanics of CNI plugins, IPAM allocations, iptables/IPVS load balancing, and dynamic ingress mapping.
+## Networking (2)
 
 ### CNI
 

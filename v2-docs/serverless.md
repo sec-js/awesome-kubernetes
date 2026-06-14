@@ -41,6 +41,11 @@
   - **(2021)** [fathomtech.io: Microservices vs. Serverless](https://fathomtech.io/blog/microservices-vs-serverless) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates operational tradeoffs, deployment mechanics, and cost models between traditional containerized microservices and pure event-driven serverless architectures.
 ## Cloud Architecture
 
+### AWS Solutions
+
+#### Orchestration Decision
+
+  - **(2024)** [**aws.amazon.com: Serverless or Kubernetes on AWS 🌟**](https://docs.aws.amazon.com/modern-apps-strategy-on-aws-how-to-choose) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Architectural decision framework comparing AWS Serverless (Lambda, Fargate) with Kubernetes (EKS). Helps engineers select paradigms based on latency requirements, long-running processes, runtime dependencies, and overall operational overhead.
 ### Comparative Systems
 
 #### Industry Trends

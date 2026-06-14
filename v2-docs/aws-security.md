@@ -140,6 +140,13 @@
 #### Open Policy Agent
 
   - **(2022)** [Realize Policy-as-Code with AWS Cloud Development Kit through Open Policy Agent 🌟](https://aws.amazon.com/blogs/opensource/realize-policy-as-code-with-aws-cloud-development-kit-through-open-policy-agent) <span class='md-tag md-tag--warning'>[TYPESCRIPT/REGO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed walk-through demonstrating Policy-as-Code setups within AWS CDK deployment models using Open Policy Agent (OPA). Teaches engineers how to compile cloud infrastructure representations and parse them against Rego policies to catch insecure setups before resource creation.
+## Security (1)
+
+### Identity and Access
+
+#### AWS IAM
+
+  - **(2022)** [ermetic.com: Diving Deeply into IAM Policy Evaluation – Highlights from AWS re:Inforce IAM433](https://www.tenable.com/blog/diving-deeply-into-iam-policy-evaluation-highlights-from-aws-reinforce-iam433) <span class='md-tag md-tag--warning'>[JSON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An in-depth analysis of AWS Identity and Access Management policy logic based on re:Inforce insights. Decodes complex interaction flows between implicit and explicit denies, SCP policies, permissions boundaries, and resource-based rules.
 ## Security and Compliance (1)
 
 ### Linux Hardening
@@ -149,7 +156,7 @@
   - **(2026)** [==How-To Secure A Linux Server==](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) <span class='md-tag md-tag--info'>⭐ 27773</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly comprehensive, widely reference-validated repository providing detailed, step-by-step instructions for securing enterprise Linux installations. Key configurations cover SSH daemon hardening, secure user boundaries, kernel performance optimizations, and automated intrusion monitoring. In modern 2026 operations, this guide remains a vital source for building secure base golden images inside automated IaC pipelines.
 ## Security and Identity
 
-### AWS IAM
+### AWS IAM (1)
 
 #### Access Control (1)
 

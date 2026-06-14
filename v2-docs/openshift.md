@@ -126,6 +126,13 @@
 #### Network Policies
 
   - **(2020)** [GitHub: redhat-cop OpenShift Toolkit Network Policy 🌟](https://github.com/redhat-cop/openshift-toolkit/tree/master/networkpolicy) <span class='md-tag md-tag--info'>⭐ 236</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Developed by the Red Hat Community of Practice, this repository provides highly standardized, reusable NetworkPolicy templates. While early implementations relied on basic IP blocks, live engineering practices in 2026 demand these profiles for enforcing zero-trust namespaces.
+## Orchestration and Packaging
+
+### Networking (1)
+
+#### Egress Firewalls
+
+  - **(2024)** [**Accessing External Services Using Egress Router**](https://www.redhat.com/en/blog/accessing-external-services-using-egress-router) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Deep-dive into configuring Red Hat OpenShift Egress Router pods to map outbound traffic to dedicated public IPs. This facilitates firewalled external resources (like legacy DBs) to authorize connections from fluid Kubernetes pods securely.
 ## Performance Engineering
 
 ### Kubernetes Optimization

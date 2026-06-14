@@ -8,7 +8,6 @@
   - [levelup.gitconnected.com: How to design a system to scale to your first' 100 million users](https://levelup.gitconnected.com/how-to-design-a-system-to-scale-to-your-first-100-million-users-4450a2f9703d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [magalix.com: Kubernetes And Databases 🌟](https://www.magalix.com/blog/kubernetes-and-database)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Not using trendy technologies is the best thing for your Startup!](https://medium.com/dataseries/not-using-nosql-is-good-i-stuck-to-sql-4504a67972f0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dok.community: Data on Kubernetes 2021 Report](https://dok.community/dokc-2021-report)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [venturebeat.com: The rise of Kubernetes and its impact on enterprise databases](https://venturebeat.com/2021/11/03/the-rise-of-kubernetes-and-its-impact-on-enterprise-databases)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [betterprogramming.pub: Multi-Tenancy Support With Spring Boot, Liquibase,' and PostgreSQL](https://betterprogramming.pub/multi-tenancy-support-with-spring-boot-liquibase-and-postgresql-d41942dc0639)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@bijit211987: Kubernetes ready for stateful workloads and to' Revolutionize Enterprise Database Management](https://medium.com/@bijit211987/kubernetes-ready-for-stateful-workloads-and-to-revolutionize-enterprise-database-management-3cd619b1a0b2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -467,7 +466,7 @@
   - **(2020)** [thenewstack.io: Maria DB Gets Reactive with a Non-Blocking Connector for Java](https://thenewstack.io/maria-db-gets-reactive-with-a-non-blocking-connector-for-java) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores MariaDB's reactive Java driver. Details how non-blocking I/O operations and asynchronous connections improve database throughput in highly concurrent microservice runtimes.
 ### Git-for-Data
 
-  - **(2026)** [==github.com/dolthub/dolt==](https://github.com/dolthub/dolt) <span class='md-tag md-tag--info'>⭐ 23420</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An innovative SQL database implementing Git-style version control concepts (clone, push, pull, branch, merge) over table structures and data cells. Perfect for decentralized collaborative data management pipelines.
+  - **(2026)** [==github.com/dolthub/dolt==](https://github.com/dolthub/dolt) <span class='md-tag md-tag--info'>⭐ 23421</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An innovative SQL database implementing Git-style version control concepts (clone, push, pull, branch, merge) over table structures and data cells. Perfect for decentralized collaborative data management pipelines.
 ### Local Development (1)
 
   - **(2022)** [thenewstack.io: Deploy MySQL and phpMyAdmin with Docker](https://thenewstack.io/deploy-mysql-and-phpmyadmin-with-docker) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Practical tutorial for setting up local developer environments with Docker Compose. Pairs a standard MySQL instance with phpMyAdmin for rapid schema prototyping and database visualization.
@@ -559,6 +558,23 @@
 #### Mocking
 
   - **(2024)** [==DATA-DOG/go-sqlmock==](https://github.com/DATA-DOG/go-sqlmock) <span class='md-tag md-tag--info'>⭐ 6554</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly adopted SQL mock library for Golang designed to mock standard database/sql/driver behaviors. Facilitates robust database interaction testing without spinning up active infrastructure engines.
+## Storage and Data
+
+### Data on Kubernetes (2)
+
+#### Industry Research
+
+  - **(2021)** [dok.community: Data on Kubernetes 2021 Report](https://dok.community/dokc-2021-report)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This classic report maps standard adoption trends of stateful workloads in containerized environments. It highlights performance, operations, and resource efficiency as key factors convincing enterprises to run workloads on native Kubernetes storage pools instead of external infrastructure.
+### Database Operations
+
+#### Database DevOps
+
+  - **(2021)** [informationweek.com: Can Enterprises Benefit From Adopting Database DevOps?](https://www.informationweek.com/software-services/can-enterprises-benefit-from-adopting-database-devops-)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the benefits and execution risks of incorporating schema migrations and database state configurations into CI/CD pipelines. Discusses tools like Liquibase and Flyway to version-control structural changes alongside software deployments. This integration reduces deployment mismatches and prevents manual database drift.
+### Database Operators
+
+#### Crunchy PostgreSQL
+
+  - **(2023)** [Crunchy Data PostgreSQL Operator](https://nubenetes.com/crunchydata/) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Evaluates the Crunchy PostgreSQL Operator (PGO) which automates production-grade PostgreSQL deployments on Kubernetes. Features include automated high availability, pgBackRest-driven backup orchestration, connection pooling via pgBouncer, and deep monitoring metrics. A de facto standard solution for enterprises migrating critical relational engines into Kubernetes platforms.
 ## System Architecture
 
 ### Data Management

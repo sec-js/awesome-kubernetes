@@ -5,7 +5,6 @@
 
 ## Standard Reference
 
-  - [dok.community: Data on Kubernetes 2021 Report](https://dok.community/dokc-2021-report)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Kubernetes Storage Explained 🌟](https://medium.com/swlh/kubernetes-storage-explained-558e85596d0c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Solution architect’s guide to Kubernetes persistent storage](https://medium.com/weareservian/solution-architects-guide-to-kubernetes-persistant-storage-3c9660187e8f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cncf.io: Container Attached Storage is Cloud Native Storage (CAS)](https://www.cncf.io/blog/2020/09/22/container-attached-storage-is-cloud-native-storage-cas)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -30,7 +29,6 @@
   - [devineer.medium.com: Get to Grips with Kubernetes Volumes: A Practical Tutorial](https://devineer.medium.com/get-to-grips-with-kubernetes-volumes-a-practical-tutorial-c41853c64f02)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [airplane.dev: How to use Kubernetes ephemeral volumes & storage 🌟](https://www.airplane.dev/blog/kubernetes-ephemeral-storage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.devgenius.io: When K8s pods are stuck mounting large volumes](https://blog.devgenius.io/when-k8s-pods-are-stuck-mounting-large-volumes-2915e6656cb8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dok.community: DoKC Data on Kubernetes](https://dok.community)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Create ReadWriteMany PersistentVolumeClaims on your Kubernetes Cluster 🌟](https://medium.com/asl19-developers/create-readwritemany-persistentvolumeclaims-on-your-kubernetes-cluster-3a8db51f98e3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com/@abdulfayis: storage Orchestration for Kubernetes](https://medium.com/@abdulfayis/storage-orchestration-for-kubernetes-c6370f943e23)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Robin](https://robin.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -250,6 +248,26 @@
 #### MinIO
 
   - **(2026)** [==min.io==](https://www.min.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — MinIO is a high-performance, S3-compatible object storage platform built specifically for native Kubernetes deployments. Architected for enterprise private clouds, it delivers high-throughput storage for demanding data workloads, including AI training pipelines and distributed object analytics.
+## Storage and Data
+
+### Container Attached Storage (2)
+
+#### OpenEBS
+
+  - **(2023)** [OpenEBS Features and Benefits](https://openebs.io/docs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive guide to OpenEBS Container Attached Storage (CAS) engine. Details how local volumes, Jiva, and Mayastor architectures allow teams to build highly resilient, dynamic persistent storage volumes directly using local disk pools. CNCF validation confirms OpenEBS's position as a robust storage framework for stateful microservices.
+### Data on Kubernetes
+
+#### Community Hub
+
+  - **(2026)** [dok.community: DoKC Data on Kubernetes](https://dok.community)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The central hub for the Data on Kubernetes Community (DoKC), which advocates for running stateful microservices, operators, and relational databases directly inside Kubernetes. It gathers technical resources, patterns, and performance studies to validate production reliability. A leading organization defining stateful application architectures.
+#### Industry Research
+
+  - **(2021)** [dok.community: Data on Kubernetes 2021 Report](https://dok.community/dokc-2021-report)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This classic report maps standard adoption trends of stateful workloads in containerized environments. It highlights performance, operations, and resource efficiency as key factors convincing enterprises to run workloads on native Kubernetes storage pools instead of external infrastructure.
+### Performance Benchmarking
+
+#### Etcd Storage Tuning
+
+  - **(2021)** [ibm.com: Using Fio to Tell Whether Your Storage is Fast Enough for Etcd](https://www.ibm.com/think/cloud) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical benchmarking guide using the `fio` utility to measure disk write latency, specifically validating physical storage readiness for critical Kubernetes Etcd backends. Outlines how high write latency triggers cluster-wide instability and master-node leader election failures. Crucial reading for systems administrators configuring bare-metal or hypervisor storage fabrics.
 
 ---
 💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)

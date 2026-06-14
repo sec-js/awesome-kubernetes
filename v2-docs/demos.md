@@ -16,7 +16,6 @@
   - [Running Thorntail apps on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/thorntail-on-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Running Spring Boot applications on Openshift](http://www.mastertheboss.com/jboss-frameworks/spring/deploy-your-springboot-applications-on-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [SysAdmin Casts](https://sysadmincasts.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloud quick POCs](https://www.youtube.com/channel/UCv9MUffHWyo2GgLIDLVu0KQ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [DevStack](https://devstack.in)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes-advocate.medium.com 🌟](https://kubernetes-advocate.medium.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [swissarmydevops.com](https://swissarmydevops.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -358,7 +357,7 @@
 
 #### Developer Productivity
 
-  - **(2024)** [**Awesome NotebookLM Slide Prompts**](https://github.com/serenakeyitan/awesome-notebookLM-prompts) <span class='md-tag md-tag--info'>⭐ 3760</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A master curation of system-level prompt templates specifically optimized for Google NotebookLM. It accelerates complex source material ingestions, contextual extractions, and structured summarizing processes for technical architects. (Live Grounding: Highlights the 2026 intersection of AI workflow orchestration and engineering documentation maintenance).
+  - **(2024)** [**Awesome NotebookLM Slide Prompts**](https://github.com/serenakeyitan/awesome-notebookLM-prompts) <span class='md-tag md-tag--info'>⭐ 3761</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A master curation of system-level prompt templates specifically optimized for Google NotebookLM. It accelerates complex source material ingestions, contextual extractions, and structured summarizing processes for technical architects. (Live Grounding: Highlights the 2026 intersection of AI workflow orchestration and engineering documentation maintenance).
 ## CI-CD
 
 ### Azure
@@ -383,8 +382,21 @@
   - **(2020)** [CI/CD for Kubernetes through a Spring Boot example (Banzai Cloud CI/CD)](https://teletype.in/@sravancynixit/CcwqFANxY) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Continuous Integration and Deployment guide utilizing Banzai Cloud automation pipelines for Spring Boot applications. Illustrates container building, secure credential handling, configuration injects, and blue-green application promotion tactics on Kubernetes.
 ## CICD
 
+### GitLab CI
+
+#### Pipeline Design
+
+  - **(2022)** [about.gitlab.com: The basics of CI: How to run jobs sequentially, in parallel, or out of order](https://about.gitlab.com/blog/basics-of-gitlab-ci-updated) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Technical guide focused on configuring GitLab CI for advanced pipelines. Outlines steps to transition from basic sequential stages to highly optimized workflows utilizing Direct Acyclic Graphs (DAGs) and dynamic parallel task configurations.
+### GitOps (1)
+
+#### GitLab Agent
+
+  - **(2022)** [about.gitlab.com: GitOps with GitLab: Connect with a Kubernetes cluster](https://about.gitlab.com/blog/gitops-with-gitlab-connecting-the-cluster) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Step-by-step documentation detailing the setup of the GitLab Agent for Kubernetes. Provides secure pull-based GitOps workflows, ensuring real-time configuration sync and immediate cluster telemetry reporting to the GitLab enterprise console.
 ### Jenkins
 
+#### Jenkins Pipeline Training
+
+  - **(2020)** [experfy.com e-learning: Effective Jenkins - Continuous Delivery and Continuous Integration](https://training.experfy.com/courses/effective-jenkins-continuous-delivery-and-continuous-integration) <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A training curriculum on writing robust continuous integration and continuous deployment scripts in Jenkins using declarative Groovy DSL syntax. Regarded as legacy compared to contemporary container-native declarative engine configurations.
 #### Parallel Pipelines
 
   - **(2021)** [Using Jenkins Pipeline parallel stages to build Maven project with different JDKs](https://e.printstacktrace.blog/using-jenkins-pipeline-parallel-stages-to-build-maven-project-with-different-jdks) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical guide illustrating how to build a Maven project against multiple JDKs simultaneously using Jenkins parallel stages. Live Grounding highlights its architectural utility for modern engineering, ensuring system backward-compatibility and multi-runtime reliability during pipeline validation.
@@ -1042,7 +1054,7 @@
 #### Webhooks
 
   - **(2021)** [webhooks.app](https://webhooks.app) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Utility software engineered to facilitate fast interception, logging, inspection, and local validation of webhooks. Proves useful when debugging live Kubernetes Mutating Webhook Admission Controllers or debugging automated external event triggers.
-## GitOps (1)
+## GitOps (2)
 
 ### Continuous Deployment
 
@@ -1325,6 +1337,11 @@
   - **(2022)** [thenewstack.io: Maximize K3s Resource Efficiency with Calico eBPF Data Plane](https://thenewstack.io/maximize-k3s-resource-efficiency-with-calico-ebpf-data-plane) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Technical review examining performance and resource footprint improvements when deploying Calico's eBPF data plane inside lightweight K3s environments. Demonstrates significant CPU overhead reductions compared to legacy iptables architectures.
 ## Observability (1)
 
+### Microservices Telemetry
+
+#### Grafana Stack
+
+  - **(2022)** [grafana.com: How Istio, Tempo, and Loki speed up debugging for microservices](https://grafana.com/blog/how-istio-tempo-and-loki-speed-up-debugging-for-microservices) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Details how to configure the unified Grafana observability stack (Loki for logs, Tempo for traces, Istio for mesh networking) to accelerate troubleshooting in microservices. Focuses on setting up automatic correlation IDs to jump from logs to tracing traces instantly.
 ### Monitoring
 
 #### Message Brokers
@@ -1360,6 +1377,16 @@
 #### Masterclass (1)
 
   - **(2023)** [**github.com/stacksimplify/azure-aks-kubernetes-masterclass 🌟**](https://github.com/stacksimplify/azure-aks-kubernetes-masterclass) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly comprehensive masterclass repository containing declarative HCL files and manifests to deploy AKS with Azure Disks, Azure Files, Application Gateway ingress, and active Azure AD integration.
+### Kubernetes (2)
+
+#### EKS Training
+
+  - **(2025)** [eksworkshop.com](https://eksworkshop.com/) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The canonical AWS EKS workshop framework. Outlines standard cluster orchestration procedures, highlighting network configurations (AWS VPC CNI), identity management (IAM Roles for Service Accounts - IRSA), and modern storage drivers (EBS/EFS CSI).
+### Kubernetes Security
+
+#### RKE Best Practices
+
+  - **(2021)** [stackrox.com: Part 1 - Rancher Kubernetes Engine (RKE) Security Best Practices for Cluster Setup 🌟](https://www.stackrox.io/blog/rancher-kubernetes-engine-security-part-1) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Delineates critical security configurations and hardening guidelines for Rancher Kubernetes Engine (RKE) deployments. Explores secure etcd database clustering, role-based access control policies, TLS configuration, and master node network isolation.
 ## Platform Architecture
 
 ### CICD (2)
@@ -1515,6 +1542,13 @@
 #### OpenShift Labs
 
   - **(2023)** [github.com/openshift-labs 🌟](https://github.com/openshift-labs) <span class='md-tag md-tag--warning'>[GO / YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An official repository that runs web-accessible, sandbox-styled instructional courses for OpenShift. Guides engineers through Operator lifecycle development, security tuning, and multi-tenant networking setups.
+## Resource Portal
+
+### Video Tutorials
+
+#### Cloud PoC
+
+  - **(2023)** [cloud quick POCs](https://www.youtube.com/channel/UCv9MUffHWyo2GgLIDLVu0KQ) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A compiled collection of video tutorials and rapid proofs-of-concept demonstrating containerization, multi-tier cloud networking, and infrastructure provisioning patterns across AWS, Azure, and Google Cloud Platform.
 ## Security (2)
 
 ### Admission Control
@@ -1598,7 +1632,7 @@
 #### Local Development (5)
 
   - **(2021)** [learn.hashicorp.com: Consul Service Discovery and Mesh on Minikube 🌟](https://developer.hashicorp.com/consul/tutorials/get-started-kubernetes/kubernetes-gs-deploy?in=consul%2Fkubernetes) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical HashiCorp tutorial teaching how to bootstrap and configure Consul Service Mesh inside Minikube. Details transparent proxy routing, catalog synchronization rules, and enforcing secure service-to-service cryptographic identities.
-### GitOps (2)
+### GitOps (3)
 
 #### Progressive Delivery
 

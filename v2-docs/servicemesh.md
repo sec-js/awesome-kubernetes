@@ -40,6 +40,13 @@
 #### Load Balancing
 
   - **(2026)** [L7 Internal HTTP(S) Load Balancing overview](https://docs.cloud.google.com/load-balancing/docs/l7-internal) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google Cloud's internal Layer 7 load balancer enables highly available, private distribution of HTTP(S) traffic inside VPC networks. Designed for microservice architectures, it leverages Envoy-based proxying to offer advanced routing, header manipulation, and secure gRPC/HTTP/2 transport. Its native integration with Google Kubernetes Engine (GKE) facilitates seamless service-to-service communication with minimal operational overhead.
+## Cloud Native
+
+### Service Mesh (1)
+
+#### Istio
+
+  - **(2026)** [Istio](https://nubenetes.com/istio/) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive entry point to Istio architecture, the enterprise-grade service mesh. Details how engineers manage traffic routes, secure service-to-service communication with mutual TLS, and gain deep tracing observability across distributed Kubernetes deployments.
 ## Cloud Native Infrastructure
 
 ### API Management
@@ -66,7 +73,7 @@
 #### Service Mesh Architecture
 
   - **(2020)** [infoq.com: Adoption of Cloud Native Architecture, Part 3: Service Orchestration and Service Mesh](https://www.infoq.com/articles/cloud-native-architecture-adoption-part3) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes evolution of enterprise service orchestration, detailing how meshes take over where basic container scheduling falls short. Explores routing, discovery patterns, and traffic policies in multi-language microservices topologies.
-### Service Mesh (1)
+### Service Mesh (2)
 
 #### Adoption Patterns
 
@@ -198,7 +205,7 @@
 #### Load Balancing Algorithms
 
   - **(2021)** [Examining Load Balancing Algorithms with Envoy](https://blog.envoyproxy.io/examining-load-balancing-algorithms-with-envoy-1be643ea121c) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical evaluation of core load balancing mechanisms built into the Envoy proxy. The guide dissects active versus passive routing behaviors, highlighting the performance profiles of Round Robin, Weighted Least Request, and Ring Hash algorithms under dynamic microservice topologies. It provides critical architecture insights for configuring Envoy to manage asymmetric backend loads and minimize tail latencies.
-### Service Mesh (2)
+### Service Mesh (3)
 
 #### Open Service Mesh
 
@@ -217,7 +224,7 @@
 ##### Azure Application Gateway
 
   - **(2025)** [==Application Gateway for Containers with AKS Overlay Networking and VNet Flow Logs==](https://blog.cloudtrooper.net/2025/04/02/application-gateway-for-containers-a-not-so-gentle-intro-4) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A deep-dive technical investigation of Azure's next-generation Application Gateway for Containers (AGC) running atop AKS Overlay Networking. Details the setup, logging mechanics, and network telemetry capture.
-### Service Mesh (3)
+### Service Mesh (4)
 
 #### Architecture Guides
 

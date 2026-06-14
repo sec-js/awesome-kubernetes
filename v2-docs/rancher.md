@@ -35,6 +35,13 @@
 #### Archived Projects
 
   - **(2021)** [K3C](https://github.com/rancher/k3c) <span class='md-tag md-tag--info'>⭐ 564</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight features K3C as a classic lightweight container engine. Live grounding in 2026 confirms that K3C is an archived repository, serving primarily as an intellectual precursor to container daemon simplification and modular containerd patterns.
+## DevSecOps
+
+### GitOps
+
+#### Rancher Fleet
+
+  - **(2021)** [digitalis.io: Kubernetes GitOps Continuous Integration and Delivery with Fleet and Rancher](https://digitalis.io/post/kubernetes-gitops-continuous-integration-and-delivery-with-fleet-and-rancher) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details deployment architectures using SUSE Rancher's Fleet to drive large-scale Kubernetes cluster configuration via GitOps. Focuses on orchestrating deployments across hundreds of isolated down-stream clusters with dynamic group mapping and drift reconciliation. Essential reference for operationalizing standardized environments at edge scale.
 ## Edge and IoT
 
 ### Application Lifecycle
@@ -137,7 +144,7 @@
   - **(2020)** [**K3OS Value Add**](https://www.youtube.com/watch?v=2LNxGVS81mE)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight details the conceptual value add of k3OS. Live grounding in 2026 reviews this video for historical context on single-purpose OS design, emphasizing immutable infrastructure patterns that have now matured into modern OS initiatives.
 ## Enterprise Infrastructure
 
-### GitOps
+### GitOps (1)
 
 #### Fleet Management
 
@@ -224,7 +231,7 @@
   - **(2025)** [Rancher CNI Providers 🌟](https://www.rancher.com/docs/rancher/v2.x/en/faq/networking/cni-providers) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Centralized reference for configuring Container Network Interface (CNI) providers within Rancher clusters. Details the networking benefits, security policies, and eBPF routing properties of Canal, Calico, Flannel, and Cilium.
 ### Product Updates
 
-#### GitOps (1)
+#### GitOps (2)
 
   - **(2020)** [thenewstack.io: Rancher 2.5 Sets out to Be the Stock Kubernetes Build for GitOps](https://thenewstack.io/rancher-2-5-sets-out-to-be-the-stock-kubernetes-build-for-gitops) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An editorial evaluating Rancher 2.5's ambition to serve as the unified standard platform for GitOps continuous deployment, scaling from local systems up to millions of edge computing clusters.
 #### Rancher 2.5
@@ -241,7 +248,7 @@
 #### Kubernetes Local
 
   - **(2026)** [**rancherdesktop.io**](https://rancherdesktop.io) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An open-source desktop application bringing Kubernetes and container management to macOS, Windows, and Linux. Built on K3s and nerdctl, it serves as a robust local developer alternative to commercial virtualization solutions.
-### GitOps (2)
+### GitOps (3)
 
 #### Local Sandboxes
 

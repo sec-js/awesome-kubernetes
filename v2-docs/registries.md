@@ -90,6 +90,18 @@
 #### GitHub vs JFrog
 
   - **(2022)** [jfrog.com: GitHub vs JFrog: Who Can do the Job for DevOps?](https://jfrog.com/blog/github-vs-jfrog-who-can-do-the-job-for-devops) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative analysis evaluating the technical capabilities, package registry performance, and CI/CD tools of GitHub (Actions and Packages) versus JFrog's dedicated artifact management ecosystem. It highlights differences in granular access, performance scalability, and enterprise regulatory support. The article advises when to rely on a hybrid model or dedicated artifact platform.
+## DevSecOps and Registry
+
+### Artifact Management (1)
+
+#### Security Hardening
+
+  - **(2025)** [**guides.sonatype.com: secure docker registries**](https://help.sonatype.com/index.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Technical guide addressing safe configuration patterns for private container registries. Emphasizes proxy configurations, custom SSL certificate injection, and registry cleanup policies to reduce host storage demands.
+### CICD Integration
+
+#### Sonatype Nexus
+
+  - **(2025)** [Nexus Platform Plugin for Jenkins](https://help.sonatype.com/en/sonatype-platform-plugin-for-jenkins.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive integration guide for the Sonatype Nexus Platform plugin in Jenkins pipelines. It facilitates automated artifact publishing, component evaluation against security policies, and vulnerability reporting directly within the CI/CD execution pipeline.
 ## Infrastructure Security
 
 ### Container Registries
@@ -124,6 +136,13 @@
 #### JFrog Strategy
 
   - **(2021)** [seekingalpha.com: JFrog Reminds Me Of MongoDB](https://seekingalpha.com/article/4427517-jfrog-reminds-me-of-mongodb) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An external market analysis tracing JFrog's economic trajectory and product adoption patterns, comparing its position in the DevOps ecosystem to MongoDB's disruptive influence in databases. It discusses developer adoption, platform consolidation, and commercial growth. The article presents a non-technical overview of JFrog's platform viability.
+## Orchestration and Packaging
+
+### Helm and GitOps
+
+#### Artifactory
+
+  - **(2025)** [==jfrog.com: Kubernetes Helm Chart Repositories 🌟==](https://docs.jfrog.com) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Enterprise guide to leveraging JFrog Artifactory as a secure, high-availability Helm chart repository. Covers repository layout, role-based access control, package versioning, and integration with Kubernetes container execution steps.
 
 ---
 💡 **Explore Related:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md) | [Flux](./flux.md)

@@ -761,6 +761,13 @@
 #### Event-Driven Architecture (4)
 
   - **(2020)** [stackoverflow.blog: How event-driven architecture solves modern web app problems 🌟](https://stackoverflow.blog/2020/03/16/how-event-driven-architecture-solves-modern-web-app-problems)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This study from StackOverflow contrasts traditional request-response architectures with asynchronous event structures. It explains how shifting to non-blocking patterns resolves high-concurrency web app bottlenecks, increasing system fault tolerance.
+## Observability
+
+### Monitoring (2)
+
+#### Kafka Ecosystem
+
+  - **(2023)** [grafana.com: Get comprehensive monitoring for your Apache Kafka ecosystem instances quickly with Grafana Cloud](https://grafana.com/blog/get-comprehensive-monitoring-for-your-apache-kafka-ecosystem-instances-quickly-with-grafana-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A guide to implementing telemetry tracking for Apache Kafka clusters inside Grafana Cloud. Demonstrates telemetry ingestion setups for monitoring broker memory pools, throughput levels, and consumer offsets.
 ## Orchestration
 
 ### Workflow Engines
@@ -801,7 +808,7 @@
 ##### Kubernetes Integration
 
   - **(2026)** [==airflow.apache.org: KubernetesPodOperator 🌟🌟🌟==](https://airflow.apache.org/docs/apache-airflow-providers-cncf-kubernetes/stable/operators.html) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The KubernetesPodOperator allows Airflow tasks to execute dynamically inside isolated, single-use Kubernetes Pods. By isolating runtime dependencies, it lets developers execute pipeline tasks of any language or version without changing parent worker system environments.
-##### Monitoring (2)
+##### Monitoring (3)
 
   - **(2021)** [redhat.com: Monitoring Apache Airflow using Prometheus](https://www.redhat.com/en/blog/monitoring-apache-airflow-using-prometheus) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical walk-through detailing the integration of Apache Airflow metrics with Prometheus and Grafana dashboards. By leveraging StatsD exporters to capture worker runs and task duration logs, platform engineers can proactively identify bottlenecks in data ingestion pipelines.
 #### Kubernetes SDKs
@@ -809,6 +816,13 @@
 ##### Couler
 
   - **(2023)** [**Couler**](https://github.com/couler-proj/couler) <span class='md-tag md-tag--info'>⭐ 944</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Couler is an open-source Python SDK built to simplify programming native Kubernetes workflow engines like Argo or Tekton. It allows machine learning and data engineering teams to construct complex workflows via intuitive Python code instead of hand-writing endless YAML sheets.
+## Security (4)
+
+### Compliance
+
+#### CIS Benchmarks
+
+  - **(2024)** [ibm.com: CIS Benchmarks](https://www.ibm.com/topics) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The Center for Internet Security (CIS) Benchmarks provide globally recognized consensus-based best practices for securing IT systems, clouds, and Kubernetes environments. Organizations use these structured guidelines to validate and harden infrastructure configurations, ensuring compliance with strict security mandates through automated configuration auditors.
 ## Software Engineering
 
 ### Backend Development

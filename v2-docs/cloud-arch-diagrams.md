@@ -5,7 +5,6 @@
 
 ## Standard Reference
 
-  - [CloudCanvas - Diagramming for Cloud Infrastructure](https://cloudcanvas.co)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [betterprogramming.pub: Solutions Architect Tips — The 5 Types of Architecture' Diagrams](https://betterprogramming.pub/solutions-architect-tips-the-5-types-of-architecture-diagrams-eb0c11996f9e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [learningdaily.dev: Software architecture diagramming and patterns](https://learningdaily.dev/software-architecture-diagramming-and-patterns-7d38999e7a12)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [alanblackmore.medium.com: AWS Diagram Architecture](https://alanblackmore.medium.com/aws-diagram-architecture-afb50ea569a4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -133,8 +132,23 @@
 #### Visualization (1)
 
   - **(2021)** [AWS Account Cloud9 Visualizer](https://github.com/wongcyrus/aws-account-cloud9-visualizer) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized developer tool tailored for deployment inside AWS Cloud9 instances. Allows engineers to quickly visualize localized cloud development patterns and inspect running sandboxes directly from the IDE.
+## Infrastructure
+
+### Visualizations
+
+#### Cloud Discovery (1)
+
+  - **(2024)** [AWS Perspective 🌟](https://docs.aws.amazon.com/solutions/workload-discovery-on-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Technical blueprint for Workload Discovery on AWS (formerly AWS Perspective). This serverless solution dynamically visualizes cloud layouts, maintains historical dependency logs, and facilitates compliance audits.
+#### GCP Diagramming
+
+  - **(2021)** [cloud.google.com: Introducing a Google Cloud architecture diagramming tool](https://cloud.google.com/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces Google Cloud's web-based console architecture designer. Explains how engineering departments construct, validate, and export precise GCP topology maps using standardized reference modules.
 ## Infrastructure as Code
 
+### Architecture
+
+#### Diagrams
+
+  - **(2024)** [CloudCanvas - Diagramming for Cloud Infrastructure](https://cloudcanvas.co) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> — CloudCanvas is an emerging interactive workspace tool tailored for designing cloud topologies and auto-generating infrastructure-as-code manifests. By linking architectural nodes directly to API-driven configurations, it helps bridge the gap between architectural diagramming and operational execution.
 ### Verification and AI
 
 #### Copilot Verification

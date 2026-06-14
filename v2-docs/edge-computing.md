@@ -9,9 +9,16 @@
   - [cncf.io: Hosted Edge vs Cloud: the battle for latency and security 🌟](https://www.cncf.io/blog/2021/12/08/hosted-edge-vs-cloud-the-battle-for-latency-and-security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [betterprogramming.pub: I Worked at Microsoft Cloud and Google Mobile for' 3 Years — Here Are the Differences in Ecosystems](https://betterprogramming.pub/why-working-on-cloud-vs-mobile-edge-is-so-different-e32930f1c801)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Architecture
+
+### Edge Computing (1)
+
+#### Distributed Systems
+
+  - **(2022)** [Red Hat's approach to Edge Computing 🌟](https://www.redhat.com/en/solutions/edge-computing-approach) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes Red Hat's edge computing framework using lightweight OpenShift single-node configurations and MicroShift. It details how the architecture addresses low-latency processing, disconnected operations, and remote automated lifecycle management. This framework enables enterprise microservices to deploy seamlessly from core data centers to resource-constrained IoT gateways.
 ## Kubernetes Edge
 
-### Architecture
+### Architecture (1)
 
   - **(2021)** [thenewstack.io: A New Kubernetes Edge Architecture](https://thenewstack.io/a-new-kubernetes-edge-architecture) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exploratory piece mapping out cutting-edge architectural patterns for multi-cluster edge configurations, comparing unified central control plane models with highly autonomous, decoupled local cluster patterns.
 ### KubeEdge

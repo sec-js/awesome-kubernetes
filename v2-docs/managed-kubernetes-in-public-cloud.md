@@ -824,6 +824,13 @@
 #### Tooling Comparison
 
   - **(2021)** [Compare tools for multi-cloud Kubernetes management 🌟](https://www.techtarget.com/searchcloudcomputing/tip/Compare-tools-for-multi-cloud-Kubernetes-management) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Synthesizes and contrasts several enterprise-grade multi-cloud Kubernetes management suites including Red Hat OpenShift, Rancher, Platform9, and Terraform. Highlights the design trade-offs between hypervisor-style centralized management interfaces and modular GitOps delivery systems. (Live Grounding: While some listed tools like StackPointCloud are defunct or archived, the architectural comparison criteria remains critical for multi-cluster evaluations in 2026).
+## Observability (3)
+
+### Telemetry
+
+#### Azure Monitoring
+
+  - **(2022)** [grafana.com: Scrape Azure metrics and monitor AKS using Grafana Agent 🌟](https://grafana.com/blog/scrape-azure-metrics-and-monitor-aks-using-grafana-agent) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A telemetry extraction guide focused on deploying Grafana Agent inside AKS to scrape and forward metrics directly to Grafana Cloud. Avoids expensive, proprietary log-forwarding configurations and maintains unified telemetry visualization dashboards.
 ## Operations and Troubleshooting
 
 ### Diagnostic Analysis
@@ -842,7 +849,7 @@
 #### Disaster Recovery
 
   - **(2022)** [community.ops.io: One day I woke up to a crashed AKS cluster and this is what I did to get it back to life](https://community.ops.io/javi_labs/one-day-wake-up-to-a-crashed-aks-cluster-and-this-is-what-i-did-to-get-it-back-to-life-1592) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An educational post-mortem detailing disaster recovery of a critically degraded AKS cluster. Highlights issues with custom DNS resolution, routing, and dynamic debugging tools. Serves as a great diagnostic checklist for production failures.
-### Observability (3)
+### Observability (4)
 
 #### Prometheus and Grafana
 
@@ -862,6 +869,31 @@
 #### Tutorials
 
   - **(2022)** [build5nines.com: Terraform: Create an AKS Cluster 🌟](https://build5nines.com/terraform-create-an-aks-cluster) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A step-by-step practical guide detailing the construction of an AKS cluster using Terraform. Walks through basic variables, resource groups, virtual networks, and node configuration blocks.
+### Azure Compute
+
+#### AKS and ACI
+
+  - **(2022)** [k21academy.com: Azure Kubernetes Service & Azure Container Instances For Beginners 🌟](https://k21academy.com/azure-cloud/azure-container-instances-and-kubernetes-service) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory training reference explaining Azure Kubernetes Service (AKS) and Azure Container Instances (ACI). Describes virtual node orchestration patterns to dynamically offload execution spikes from AKS onto ACI serverless compute.
+### Azure Networking
+
+#### AKS VNET Integration
+
+  - **(2021)** [azurecloudai.blog: Deploy Azure Kubernetes Service (AKS) to a preexisting VNET](https://azurecloudai.blog/verify.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Technical guide outlining the architectural parameters needed to deploy Azure Kubernetes Service (AKS) within a custom, pre-existing Virtual Network (VNET). Addresses CIDR constraints, subnet delegation, and Azure CNI configurations.
+### Data Protection
+
+#### AKS Backup
+
+  - **(2022)** [azure.microsoft.com: Private preview: Azure Kubernetes Service (AKS) Backup 🌟](https://azure.microsoft.com/en-us/updates?id=private-preview-aks-backup) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Announcement details for Azure Kubernetes Service (AKS) Backup. Highlights native recovery features for stateful PVs and configuration states. Note: Now fully GA and enterprise-stable, this backup protocol integrates securely with Azure Backup Center.
+### Kubernetes (1)
+
+#### Managed Kubernetes Comparison
+
+  - **(2021)** [stackrox.com: EKS vs GKE vs AKS - Evaluating Kubernetes in the Cloud](https://www.stackrox.io/blog/eks-vs-gke-vs-aks-jan2021) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A multi-dimensional comparison of the three primary managed Kubernetes services: AWS EKS, Google GKE, and Azure AKS. Weighs crucial metrics including control plane management fees, SLA guarantees, automated master scaling, and IAM-to-K8s role bindings.
+### Kubernetes Security
+
+#### EKS Secrets KMS
+
+  - **(2021)** [devoriales.com: AWS EKS Secret Encryption: Securing Your EKS Secrets At Rest with AWS KMS](https://devoriales.com/aws-eks-secret-encryption-securing-your-eks-secrets-at-rest-with-aws-kms) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A security hardening guide detailing the setup of envelope encryption for Kubernetes Secrets within AWS EKS using Key Management Service (KMS) integrations. Crucial for complying with enterprise-grade data-at-rest protection standards.
 ## Performance and Scale
 
 ### Container Runtimes

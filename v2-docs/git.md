@@ -180,6 +180,27 @@
 #### Terraform Modules
 
   - **(2023)** [registry.terraform.io/modules/markti/github-runner](https://registry.terraform.io/modules/markti/github-runner/azurerm) <span class='md-tag md-tag--warning'>[TERRAFORM CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An infrastructure-as-code (IaC) Terraform module tailored for automating self-hosted GitHub Actions runners in Microsoft Azure. Employs Virtual Machine Scale Sets (VMSS) alongside ephemeral instances to secure and scale cluster execution tasks. Essential for enterprise workloads demanding isolated network pathways.
+## Cloud Native
+
+### GitOps
+
+#### GitLab Kubernetes Agent
+
+  - **(2022)** [about.gitlab.com: A new era of Kubernetes integrations on GitLab.com](https://about.gitlab.com/blog/gitlab-kubernetes-agent-on-gitlab-com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces the GitLab Agent for Kubernetes, enabling pull-based GitOps deployment workflows. This architecture shifts away from traditional push-based CI models, offering enhanced security and continuous state reconciliation.
+#### GitLab Operator
+
+  - **(2022)** [about.gitlab.com: GitLab’s Kubernetes Operator with support for Red Hat OpenShift is now generally available](https://about.gitlab.com/blog/open-shift-ga) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Announces general availability of the GitLab Kubernetes Operator with Red Hat OpenShift support. Discusses lifecycle automation, upgrades, and scaling procedures for self-hosted GitLab instances inside secure enterprise clusters.
+  - **(2022)** [about.gitlab.com: How to install and use the GitLab Kubernetes Operator (on OCP)](https://about.gitlab.com/blog/gko-on-ocp) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operational installation guide for deploying the GitLab Kubernetes Operator on Red Hat OpenShift. Discusses Ingress controllers, Security Context Constraints (SCC), and persistent storage volumes.
+### Helm Charts
+
+#### GitLab Deployment
+
+  - **(2021)** [about.gitlab.com: GitLab Chart works towards Kubernetes 1.22](https://about.gitlab.com/blog/gitlab-chart-works-towards-kubernetes-1-22) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details architectural changes to the GitLab Helm Chart to support Kubernetes 1.22. Evaluates adaptations required for API deprecations, specifically focusing on Ingress resources.
+### Kubernetes Management
+
+#### GitLab Integrations
+
+  - **(2022)** [about.gitlab.com: Simple Kubernetes management with GitLab](https://about.gitlab.com/blog/simple-kubernetes-management-with-gitlab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural guide on using GitLab as a unified management plane for Kubernetes. Covers cluster connecting procedures, security posture monitoring, and automated Auto DevOps pipelines.
 ## Cloud Native Operations
 
 ### Kubernetes
@@ -257,7 +278,7 @@
 ##### OpenShift Operator
 
   - **(2021)** [containerjournal.com: GitLab Brings Kubernetes Operator to Red Hat OpenShift](https://cloudnativenow.com/features/gitlab-brings-kubernetes-operator-to-red-hat-openshift) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The GitLab Kubernetes Operator on Red Hat OpenShift automates the lifecycle management of self-hosted GitLab instances. By leveraging the Operator SDK, it provides native integration with OpenShift security contexts, automated upgrades, and scale-out capabilities for enterprise-grade GitOps engines.
-#### GitOps
+#### GitOps (1)
 
   - **(2025)** [Jenkins-X UpdateBOT](https://github.com/jenkins-x/updatebot) <span class='md-tag md-tag--info'>⭐ 40</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A dynamic automation component within the Jenkins-X ecosystem. It monitors downstream project dependencies and automatically creates, updates, and merges pull requests across microservices' configuration and manifest repositories.
 ### Continuous Deployment (1)
@@ -314,9 +335,9 @@
   - **(2024)** [twitter.com/azuredevops](https://x.com/azuredevops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official communication stream detailing updates and security patches for Azure DevOps platforms. Serves as a useful secondary source for tracking telemetry optimizations and service level agreements (SLAs) directly from engineering teams.
   - **(2018)** [Microsoft Visual Studio Team Services (VSTS)](https://www.dotnetcurry.com/visualstudio/1322/what-is-visual-studio-team-system-vsts) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the architectural features of Microsoft's Visual Studio Team Services (VSTS) before its transition to Azure DevOps. Focuses on classical application lifecycle management (ALM) mechanisms and pipeline integration schemas.
   - **(2018)** [Microsoft Visual Studio Team Services (VSTS) Tutorial: The Cloud ALM Platform](https://www.softwaretestinghelp.com/microsoft-vsts-tutorial-1)  <span class='md-tag md-tag--info'>[LEGACY]</span> — A fundamental tutorial documenting task management and build execution models inside legacy VSTS configurations. Serves as a migration reference for enterprise architects aiming to port legacy environments to modern Azure DevOps structures.
-### GitOps (1)
+### GitOps (2)
 
-#### Kubernetes Management
+#### Kubernetes Management (1)
 
 ##### Multi-Cluster
 
@@ -681,6 +702,21 @@
 
   - **(2021)** [xataka.com: Para qué programar cuando una máquina lo hace (un poco) por ti: así es Github Copilot, un sistema que se nutre del prodigioso GPT-3](https://www.xataka.com/robotica-e-ia/programar-cuando-maquina-hace-poco-ti-asi-github-copilot-sistema-que-se-nutre-prodigioso-gpt-3) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep analysis of GitHub Copilot's initial GPT-3 powered capabilities. Explains how neural networks infer developer intent from raw codebase comments and structural definitions. Anticipates major technical transitions from manual coding to template-based prompt engineering.
   - **(2021)** [thenewstack.io: GitHub Copilot: A Powerful, Controversial Autocomplete for Developers](https://thenewstack.io/github-copilot-a-powerful-controversial-autocomplete-for-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A critical overview of the productivity opportunities and structural controversies introduced by the early deployment of Copilot. Examines the tension between automated code reuse and copyright licensing schemes. Explores the initial legal definitions of AI-generated content.
+### CICD Platforms (1)
+
+#### GitLab CI Basics
+
+  - **(2022)** [gitlab.com: GitLab’s guide to CI/CD for beginners](https://about.gitlab.com/blog/beginner-guide-ci-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory educational guide to GitLab CI/CD fundamentals. Outlines basic pipeline stages, executor configuration structures, and standard YAML declarative properties.
+#### GitLab CI Optimization
+
+  - **(2023)** [about.gitlab.com: Want a more effective CI/CD pipeline? Try our pro tips](https://about.gitlab.com/blog/effective-ci-cd-pipelines) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Advanced tuning guide for optimizing GitLab CI/CD workflows. Focuses on implementing Directed Acyclic Graphs (DAG), tuning runner cache policies, and constructing efficient pipeline inheritance layers.
+  - **(2022)** [about.gitlab.com: How we used parallel CI/CD jobs to increase our productivity](https://about.gitlab.com/blog/using-run-parallel-jobs) <span class='md-tag md-tag--primary'>[CASE STUDY]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operational case study on implementing parallel GitLab CI runner tasks. Highlights how configuring parallel test suites significantly reduced development pipeline feedback cycles.
+#### Multi-Environment Deployments
+
+  - **(2022)** [about.gitlab.com: How to use GitLab CI to deploy to multiple environments](https://about.gitlab.com/blog/ci-deployment-and-environments)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details configurations for deploying workloads across multiple cloud environments using GitLab CI. Covers environment variable scoping, secure secret injections, and manual approval gates.
+#### Pipeline Editor
+
+  - **(2021)** [about.gitlab.com: Meet Pipeline Editor, your one-stop-shop for building a CI/CD pipeline](https://about.gitlab.com/blog/pipeline-editor-overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights GitLab's visual Pipeline Editor, featuring dynamic YAML schema validation, pipeline visualization dashboards, and real-time syntax checking.
 ### Collaborative Platforms
 
 #### Continuous Integration (1)
@@ -698,6 +734,17 @@
 #### Kubernetes Integration
 
   - **(2021)** [docs.gitlab.com: Install GitLab Runner on Red Hat OpenShift](https://docs.gitlab.com/runner/install/openshift.html) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The official guide for installing GitLab Runner on Red Hat OpenShift using the GitLab Runner Operator. Outlines configuration steps, security context constraints (SCC), and custom resource designs for managing secure, scalable pipeline workloads.
+### Developer Productivity (3)
+
+#### Desktop Clients
+
+  - **(2021)** [about.gitlab.com: Why we built GitDock, our desktop app to navigate your GitLab activities](https://about.gitlab.com/blog/gitpod-desktop-app-personal-activities)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces GitDock, a desktop application designed to centralize GitLab tasks, merge requests, and build pipelines in a unified status panel.
+#### Grafana GitHub Integration
+
+  - **(2022)** [grafana: How we use the Grafana GitHub plugin to track outstanding pull requests](https://grafana.com/blog/how-we-use-the-grafana-github-plugin-to-track-outstanding-pull-requests) <span class='md-tag md-tag--primary'>[CASE STUDY]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed technical guide on configuring Grafana dashboards with GitHub plugins. Demonstrates building engineering performance visualizations to track commit frequencies, PR lifetimes, and team review velocities.
+#### VS Code Extensions
+
+  - **(2025)** [Visual Studio Code (Git Extensions)](https://nubenetes.com/visual-studio/)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A guide to utilizing visual Git extensions inside VS Code. Helps developers manage commit sequences, visualize branch merges, and resolve conflicts within a unified IDE workspace.
 ### Documentation (2)
 
 #### Markup Languages
@@ -746,6 +793,11 @@
 #### LLM Training
 
   - **(2023)** [==lucidrains/PaLM-rlhf-pytorch==](https://github.com/lucidrains/PaLM-rlhf-pytorch) <span class='md-tag md-tag--info'>⭐ 7864</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source PyTorch implementation combining the PaLM architecture with Reinforcement Learning from Human Feedback (RLHF). Crucial blueprint for organizations aiming to construct and fine-tune private, self-hosted LLM engines for internal code synthesis.
+### Software Delivery
+
+#### Code Review Protocols
+
+  - **(2023)** [about.gitlab.com: Why small merge requests are key to a great review 🌟](https://about.gitlab.com/blog/iteration-and-code-review)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes productivity advantages of using small, isolated merge requests. Illustrates how reducing code change surface areas results in higher-quality reviews, rapid QA approvals, and decreased defect leakage.
 ### Version Control (2)
 
 #### Automation Bots
@@ -836,6 +888,15 @@
   - **(2022)** [cloudbees.com: Git Push: An In-Depth Tutorial With Examples](https://www.cloudbees.com/blog/git-push-an-in-depth-tutorial-with-examples)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides an architectural exploration of outbound object streaming. Covers local-to-remote handshakes, force pushing safety flags (`--force-with-lease`), upstream setup options (`-u`), and push hook validations.
   - **(2022)** [opensource.com: My guide to using the Git push command safely](https://opensource.com/article/22/4/git-push)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how to run write operations to remote repositories safely. Emphasizes workflows using `--force-with-lease` and configure branch protection to protect production branches.
   - **(2021)** [cloudbees.com: Git Pull: How It Works With Detailed Examples](https://www.cloudbees.com/blog/git-pull-how-it-works-with-detailed-examples)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demystifies `git pull` as a compound command combining `git fetch` with either `git merge` or `git rebase`. Explains default tracking branches, fast-forward parameters, and safety flags like `--ff-only`.
+#### Git Performance
+
+  - **(2021)** [about.gitlab.com: How Git Partial Clone lets you fetch only the large file you need](https://about.gitlab.com/blog/partial-clone-for-massive-repositories)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes git-clone optimizations inside large enterprise monorepos. Demonstrates using partial cloning configs to bypass heavy binary blobs, downloading asset datasets dynamically during active execution loops.
+#### Git Rebasing
+
+  - **(2023)** [gitlab.com: How to keep your Git history clean with interactive rebase](https://about.gitlab.com/blog/keep-git-history-clean-with-interactive-rebase)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical walk-through of interactive Git rebasing workflows. Explains strategies for squashing commit histories and resolving code conflicts before initiating target branch merges.
+#### Git Standards
+
+  - **(2021)** [about.gitlab.com: The new Git default branch name](https://about.gitlab.com/blog/new-git-default-branch-name)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides guidelines on migrating default git branch nomenclature from 'master' to 'main'. Details configuration updates required for local developer systems and central hosting providers.
 #### GitLab Automation
 
   - **(2026)** [**Marge-bot: A merge-bot for GitLab**](https://github.com/smarkets/marge-bot) <span class='md-tag md-tag--info'>⭐ 738</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly robust Python-based merge bot for GitLab. Implements a strict 'not-by-default' merge pipeline strategy, testing rebased target branches in isolation prior to master commits. Essential for keeping high-throughput GitLab monorepos permanently green.
@@ -843,6 +904,9 @@
   - **(2022)** [Example: gitlab.gnome.org/marge-merge-bot](https://gitlab.gnome.org/users/sign_in) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical real-world case study showcasing the implementation of the Smarkets Marge-bot inside GNOME's GitLab infrastructure. Examines performance outcomes when maintaining high-volume open-source codebases under automated review queues.
   - **(2021)** [Example: GStreamer Merge Bot](https://gitlab.freedesktop.org/gstreamer-merge-bot) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A real-world production reference analyzing the deployment of a dedicated GitLab merge bot within the GStreamer ecosystem. Details structural optimizations for automating extensive suite tests across complex multimedia pipelines.
   - **(2021)** [lab.texthtml.net: Gitlab Merge Bot](https://lab.texthtml.net/gitlab/merge-bot) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight Dockerized automation assistant engineered to streamline GitLab merge requests. Orchestrates pipeline status polling and auto-approves merges on successful continuous integration runs, optimizing delivery velocity.
+#### GitLab Code Review
+
+  - **(2021)** [about.gitlab.com: How GitLab's 5 new code review features will make life easier](https://about.gitlab.com/blog/5-code-review-features)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores five key GitLab features designed to streamline the code review process. Includes visual multi-line comment mapping, customized approval gates, and Code Owners configuration.
 #### Monorepo Strategy
 
   - **(2020)** [**How We Use Git at Microsoft**](https://learn.microsoft.com/en-us/devops/develop/git/what-is-git) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Explores Microsoft's internal scaling strategies for Git, focusing on large-scale engineering pipelines and the Virtual File System for Git (VFS for Git). Outlines physical scale limitations and monorepo performance tuning. Current industry patterns validate that virtualized filesystems remain crucial for multi-gigabyte corporate codebases.
@@ -858,6 +922,9 @@
 #### Trunk-Based Development
 
   - **(2018)** [slideshare.net: Git version control and trunk based approach with VSTS](https://www.slideshare.net/arunmurughan/git-version-control-and-trunk-based-approach-with-vsts) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟 <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A legacy slide presentation analyzing the migration from branch-heavy Git workflows to modern trunk-based development inside Visual Studio Team Services (now Azure DevOps). Focuses on optimizing the feedback loop and minimizing code integration debt through quick merges. Current industry engineering truth shows this approach is highly aligned with modern continuous deployment pipelines.
+#### VS Code Integrations
+
+  - **(2022)** [gitlab.com: How to do GitLab merge request reviews in VS Code](https://about.gitlab.com/blog/mr-reviews-with-vs-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates integrating GitLab Merge Request code reviews directly inside Visual Studio Code. Enables developers to comment, review changes, and manage approvals without switching context to the web UI.
 #### Workflows
 
 
