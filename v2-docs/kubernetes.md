@@ -21,7 +21,6 @@
   - [Docker Hardened Images for Every Developer](https://www.docker.com/blog/docker-hardened-images-for-every-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Wikipedia.org: Kubernetes](https://en.wikipedia.org/wiki/Kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kubernetes magic is in enterprise standardization, not app portability](https://www.techrepublic.com/article/kubernetes-magic-is-in-enterprise-standardization-not-app-portability)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techbeacon.com: 25 Kubernetes experts you should follow on Twitter](https://techbeacon.com/enterprise-it/25-kubernetes-experts-you-should-follow-twitter)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: A Practical Step-by-Step Guide to Understanding Kubernetes](https://medium.com/better-programming/a-practical-step-by-step-guide-to-understanding-kubernetes-d8be7f82e533)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Kubernetes, a practical introduction](https://medium.com/nexton/kubernetes-a-practical-introduction-18a5b69e7763)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium: Starting with kubernetes](https://medium.com/@thomaspoignant/starting-with-kubernetes-db121b09fd4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -415,7 +414,6 @@
   - [Kubernetes: Getting Started (Free)](https://www.udemy.com/course/kubernetes-getting-started)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [medium.com: Top 15 Online Courses to Learn Docker, Kubernetes, and AWS for' Fullstack Developers and DevOps Engineers](https://medium.com/javarevisited/top-15-online-courses-to-learn-docker-kubernetes-and-aws-for-fullstack-developers-and-devops-d8cc4f16e773)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [en.wikipedia.org: Payment Card Industry Data Security Standard](https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ramitsurana/awesome-kubernetes: Tools 🌟](https://github.com/ramitsurana/awesome-kubernetes#configuration) <span class='md-tag md-tag--info'>⭐ 15992</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
 ## AI and Orchestration
 
@@ -423,7 +421,7 @@
 
 #### Command-Line Tools
 
-  - **(2025)** [**Google Agents CLI**](https://github.com/google/agents-cli) <span class='md-tag md-tag--info'>⭐ 2852</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official command-line tool from Google built to design, test, and deploy agentic AI workflows. Leveraging the Model Context Protocol (MCP) and Google LLM APIs, it facilitates automated task orchestration across local filesystems and remote cloud APIs.
+  - **(2025)** [**Google Agents CLI**](https://github.com/google/agents-cli) <span class='md-tag md-tag--info'>⭐ 2853</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official command-line tool from Google built to design, test, and deploy agentic AI workflows. Leveraging the Model Context Protocol (MCP) and Google LLM APIs, it facilitates automated task orchestration across local filesystems and remote cloud APIs.
 ## API Server
 
 ### Architecture
@@ -886,6 +884,9 @@
 
 ### Community
 
+#### Directory
+
+  - **(2021)** [techbeacon.com: 25 Kubernetes experts you should follow on Twitter](https://techbeacon.com/enterprise-it/25-kubernetes-experts-you-should-follow-twitter) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A curated directory of 25 Kubernetes experts and thought leaders. While compiled in 2021, current 2026 analysis indicates that many highlighted figures have transitioned to wider Platform Engineering, AI infrastructure, and multi-cloud platform architectures, though their legacy core insights on orchestration remain highly foundational.
 #### Events
 
 ##### ArgoCon
@@ -1271,6 +1272,13 @@
 #### FinOps
 
   - **(2021)** [itnext.io: Embracing failures and cutting infrastructure costs: Spot instances in Kubernetes](https://itnext.io/embracing-failures-and-cutting-infrastructure-costs-spot-instances-in-kubernetes-6976781beacc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A strategic engineering guide detailing how to harness AWS Spot Instances or GCP Preemptible VMs safely within Kubernetes clusters to slash compute spend. It provides design patterns for node affinity, tolerations, and Karpenter/Cluster-Autoscaler configurations that handle sudden, 2-minute instance termination warnings. It presents architectural methods to isolate fault-tolerant batch or microservice workloads from critical stateful systems.
+## Curation
+
+### Reference Guides
+
+#### Awesome Lists
+
+  - **(2026)** [==ramitsurana/awesome-kubernetes: Tools 🌟==](https://github.com/ramitsurana/awesome-kubernetes#configuration) <span class='md-tag md-tag--info'>⭐ 15992</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exhaustive resource collection tracking ecosystem projects, documentation, configurations, and utilities. It serves as a comprehensive reference guide for cloud-native architects looking to select vetted tooling across networking, storage, security, and developer platforms.
 ## Data Management
 
 ### Databases
@@ -1354,7 +1362,7 @@
 #### System Implementation
 
   - **(2023)** [dev.to: Build my own Kubernetes journey (10 Part Series) | Jonatan Ezron](https://dev.to/jonatan5524/build-my-own-kubernetes-journey-1a3j)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive, ten-part engineering chronicle detailing the step-by-step setup and configuration of a home-lab Kubernetes cluster. Walks through local storage provisioners, container network interfaces (CNIs), ingress setup, and application deployment configurations, serving as a pragmatic guide for practitioners.
-### Reference Guides
+### Reference Guides (1)
 
 #### API Reference
 
@@ -2317,7 +2325,7 @@
 
 #### Rightsizing Tools
 
-  - **(2024)** [==github.com/FairwindsOps: Goldilocks is a utility that can help you identify' a starting point for resource requests and limits==](https://github.com/FairwindsOps/goldilocks) <span class='md-tag md-tag--info'>⭐ 3249</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Goldilocks is a highly popular utility that analyzes Vertical Pod Autoscaler (VPA) recommendations.
+  - **(2024)** [==github.com/FairwindsOps: Goldilocks is a utility that can help you identify' a starting point for resource requests and limits==](https://github.com/FairwindsOps/goldilocks) <span class='md-tag md-tag--info'>⭐ 3250</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Goldilocks is a highly popular utility that analyzes Vertical Pod Autoscaler (VPA) recommendations.
 - Automatically creates VPAs for workloads and visualizes ideal resource boundaries in a clean dashboard.
 - Essential for platform engineers aiming to establish baseline CPU and memory allocations.
   - **(2023)** [==kondense 🌟==](https://github.com/unagex/kondense) <span class='md-tag md-tag--info'>⭐ 368</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kondense is an open-source, lightweight auto-tuning utility for Kubernetes.

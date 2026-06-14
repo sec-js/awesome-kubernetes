@@ -41,9 +41,7 @@
   - [betterprogramming.pub: Build a Highly Available Kubernetes Operator Using' Golang](https://betterprogramming.pub/building-a-highly-available-kubernetes-operator-using-golang-fe4a44c395c2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [betterprogramming.pub: Writing Custom Kubernetes Controller and Webhooks](https://betterprogramming.pub/writing-custom-kubernetes-controller-and-webhooks-141230820e9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [betterprogramming.pub: How To Write Tests for Your Kubernetes Operator](https://betterprogramming.pub/write-tests-for-your-kubernetes-operator-d3d6a9530840)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [contentful-labs/kube-secret-syncer 🌟](https://github.com/contentful-labs/kube-secret-syncer) <span class='md-tag md-tag--info'>⭐ 194</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [KUDO: The Kubernetes Universal Declarative Operator 🌟](https://kudo.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [abhirockzz/kubexpose-operator](https://github.com/abhirockzz/kubexpose-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## AI Infrastructure
 
@@ -116,7 +114,7 @@
   - **(2023)** [metalbear.co: Writing a Kubernetes Operator](https://metalbear.com/blog/writing-a-kubernetes-operator) <span class='md-tag md-tag--warning'>[RUST CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An innovative blueprint illustrating operator design with Rust and the kube-rs framework. In 2026, Rust operators are increasingly adopted for edge-computing and resource-constrained environments to minimize memory footprint and avoid the garbage collection pauses of Go and JVM languages.
 #### Reference Implementations
 
-  - **(2026)** [==kubernetes/sample-controller==](https://github.com/kubernetes/sample-controller) <span class='md-tag md-tag--info'>⭐ 3485</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The canonical sample controller repository managed by the Kubernetes API machinery SIG. It serves as the official, direct architectural blueprint for creating custom controllers using client-go libraries. Live grounding verifies it is the foundational reference tool for understanding thread-safe informer caches and queue sync mechanisms.
+  - **(2026)** [==kubernetes/sample-controller==](https://github.com/kubernetes/sample-controller) <span class='md-tag md-tag--info'>⭐ 3486</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The canonical sample controller repository managed by the Kubernetes API machinery SIG. It serves as the official, direct architectural blueprint for creating custom controllers using client-go libraries. Live grounding verifies it is the foundational reference tool for understanding thread-safe informer caches and queue sync mechanisms.
 #### Stateful Applications
 
   - **(2021)** [developers.redhat.com: Managing stateful applications with Kubernetes Operators in Golang 🌟](https://developers.redhat.com/articles/2021/08/04/managing-stateful-applications-kubernetes-operators-golang) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An enterprise guide mapping the management of stateful database engines inside Kubernetes using Go-based operators. Highlights local volume binding, replication coordination, and automatic failovers. Reconciled with 2026 patterns, this forms the underlying theory for stateful database-as-a-service (DBaaS) offerings on Kubernetes.
@@ -190,7 +188,7 @@
 
 #### Controller SDKs
 
-  - **(2026)** [==kubernetes-sigs/kubebuilder==](https://github.com/kubernetes-sigs/kubebuilder) <span class='md-tag md-tag--info'>⭐ 9182</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kubebuilder is the industry-standard developer framework for generating custom Kubernetes APIs and controllers. Leveraging structured scaffolding, advanced code generators, and controller-runtime wrappers, it streamlines the creation of highly reliable operators.
+  - **(2026)** [==kubernetes-sigs/kubebuilder==](https://github.com/kubernetes-sigs/kubebuilder) <span class='md-tag md-tag--info'>⭐ 9183</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kubebuilder is the industry-standard developer framework for generating custom Kubernetes APIs and controllers. Leveraging structured scaffolding, advanced code generators, and controller-runtime wrappers, it streamlines the creation of highly reliable operators.
 #### Guides and Best Practices (2)
 
   - **(2024)** [opensource.com: Build a Kubernetes Operator in 10 minutes with Operator SDK](https://opensource.com/article/20/3/kubernetes-operator-sdk) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A step-by-step tutorial on bootstrapping custom operators using the Operator SDK. It demonstrates how to wrap Ansible playbooks or Go logic to build automated, declarative infrastructure controls.
@@ -386,6 +384,11 @@
 ##### Operators (18)
 
   - **(2023)** [==redhat-cop/keepalived-operator: Keepalived operator==](https://github.com/redhat-cop/keepalived-operator) <span class='md-tag md-tag--info'>⭐ 123</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Manages Keepalived deployments within Kubernetes clusters. It coordinates VIP (Virtual IP) failover protocols across physical or virtual cluster node interfaces.
+### Operator
+
+#### Expose Service
+
+  - **(2021)** [abhirockzz/kubexpose-operator](https://github.com/abhirockzz/kubexpose-operator) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An experimental Go-based operator designed to automatically create Ingress resources or load balancers for annotated services. Designed as a learning showcase for Kubebuilder workflows, this project is archived in 2026 but remains a valuable reference for custom ingress generation patterns.
 ## Observability
 
 ### Distributed Tracing
@@ -463,7 +466,7 @@
   - **(2024)** [kube-fluentd-operator 🌟](https://github.com/vmware-archive/kube-fluentd-operator) <span class='md-tag md-tag--info'>⭐ 321</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A now-archived operator designed to dynamically construct namespace-specific Fluentd logging pipelines in Kubernetes. Modern platform engineering architectures have largely transitioned to standardized OpenTelemetry or Fluent Bit routing setups.
 #### Operators (24)
 
-  - **(2025)** [Speculator: Redis Operator](https://github.com/OT-CONTAINER-KIT/redis-operator) <span class='md-tag md-tag--info'>⭐ 1378</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced Redis Operator developed by OT Container Kit. Features automated failover management, backup orchestrations, persistence configuration, and Redis Sentinel cluster sizing within Kubernetes native deployments.
+  - **(2025)** [Speculator: Redis Operator](https://github.com/OT-CONTAINER-KIT/redis-operator) <span class='md-tag md-tag--info'>⭐ 1379</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced Redis Operator developed by OT Container Kit. Features automated failover management, backup orchestrations, persistence configuration, and Redis Sentinel cluster sizing within Kubernetes native deployments.
   - **(2025)** [Kotal operator](https://github.com/kotalco/kotal) <span class='md-tag md-tag--info'>⭐ 221</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A multi-client blockchain node operator for Kubernetes. Simplifies configuring and maintaining decentralized networks (such as Ethereum and IPFS) through native Kubernetes custom resources.
   - **(2024)** [Cass Operator](https://github.com/datastax/cass-operator) <span class='md-tag md-tag--info'>⭐ 258</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — DataStax's Kubernetes operator designed to simplify Apache Cassandra cluster deployment and operations. Automates complex stateful management workflows including horizontal scaling, rolling upgrades, and cluster healing.
   - **(2022)** [Sentry Operator](https://github.com/jace-ys/sentry-operator) <span class='md-tag md-tag--info'>⭐ 27</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An infrastructure automation controller developed to provision, update, and manage Sentry instances, projects, and DSN configuration parameters inside a unified Kubernetes environment.
@@ -659,6 +662,13 @@
 #### HashiCorp Vault
 
   - **(2025)** [==github.com/ricoberger/vault-secrets-operator==](https://github.com/ricoberger/vault-secrets-operator) <span class='md-tag md-tag--info'>⭐ 687</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — This operator provides direct synchronization between HashiCorp Vault secrets and Kubernetes Secrets storage classes. By tracking external Vault paths, it triggers dynamic, secure updates to dependent application pods the moment source secrets are rotated.
+## Security and Identity
+
+### Secrets Management (1)
+
+#### External Secrets Sync
+
+  - **(2021)** [contentful-labs/kube-secret-syncer 🌟](https://github.com/contentful-labs/kube-secret-syncer) <span class='md-tag md-tag--info'>⭐ 194</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A targeted operator designed to synchronize secrets securely from external services (specifically AWS Parameter Store) directly into native Kubernetes Secrets, ensuring cloud-hosted secrets stay continuously aligned with active workloads.
 ## Storage (1)
 
 ### Volume Management

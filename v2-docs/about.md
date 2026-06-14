@@ -18,7 +18,7 @@
 
 #### Jinja
 
-  - **(2024)** [==jinja 🌟==](https://github.com/pallets/jinja) <span class='md-tag md-tag--info'>⭐ 11662</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official repository for Jinja, the ubiquitous Python-based templating engine. Jinja underpins all dynamic evaluation structures inside Ansible, enabling programmatic infrastructure assembly.
+  - **(2024)** [==jinja 🌟==](https://github.com/pallets/jinja) <span class='md-tag md-tag--info'>⭐ 11663</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official repository for Jinja, the ubiquitous Python-based templating engine. Jinja underpins all dynamic evaluation structures inside Ansible, enabling programmatic infrastructure assembly.
 ## Cloud Native
 
 ### Kubernetes Development

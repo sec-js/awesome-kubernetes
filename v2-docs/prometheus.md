@@ -302,7 +302,7 @@
 
 #### Core Platform (1)
 
-  - **(2026)** [==github.com/prometheus/prometheus==](https://github.com/prometheus/prometheus) <span class='md-tag md-tag--info'>⭐ 64491</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Source codebase for Prometheus, the benchmark cloud-native telemetry engine. Employs active scraping mechanics over HTTP alongside a custom-built local TSDB to deliver sub-second querying speeds and powerful alerting capabilities.
+  - **(2026)** [==github.com/prometheus/prometheus==](https://github.com/prometheus/prometheus) <span class='md-tag md-tag--info'>⭐ 64493</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Source codebase for Prometheus, the benchmark cloud-native telemetry engine. Employs active scraping mechanics over HTTP alongside a custom-built local TSDB to deliver sub-second querying speeds and powerful alerting capabilities.
 #### Custom Instrumentation
 
   - **(2026)** [prometheus.io: Writing Exporters](https://prometheus.io/docs/instrumenting/writing_exporters) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official engineering guidelines for architecting Prometheus exporters. Focuses on core metric exposition design, label usage, scraping cycles, and custom translation layers to prevent performance overhead on monitored endpoints.

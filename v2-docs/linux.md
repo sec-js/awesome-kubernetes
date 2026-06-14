@@ -236,7 +236,7 @@
 
 #### Kernel Tracing
 
-  - **(2018)** [==bpftrace==](https://github.com/bpftrace/bpftrace) <span class='md-tag md-tag--info'>⭐ 10159</span> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A high-level tracing language and diagnostic toolkit built on top of the Linux eBPF subsystem. It allows system engineers to dynamically probe kernel modules, trace memory allocations, and analyze latency. Live Grounding shows that bpftrace is a core diagnostic pillar in production engineering.
+  - **(2018)** [==bpftrace==](https://github.com/bpftrace/bpftrace) <span class='md-tag md-tag--info'>⭐ 10160</span> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A high-level tracing language and diagnostic toolkit built on top of the Linux eBPF subsystem. It allows system engineers to dynamically probe kernel modules, trace memory allocations, and analyze latency. Live Grounding shows that bpftrace is a core diagnostic pillar in production engineering.
 ### Operating Systems (1)
 
 #### Compilation

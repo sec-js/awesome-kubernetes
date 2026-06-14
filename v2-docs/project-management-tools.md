@@ -50,7 +50,7 @@
   - **(2020)** [opensource.com: 3 open source alternatives to Confluence](https://opensource.com/article/20/9/open-source-alternatives-confluence)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative guide highlighting three popular open-source alternatives to Confluence, enabling teams to build customizable, cost-effective, and secure self-hosted internal documentation bases.
 #### Note-Taking
 
-  - **(2026)** [==joplin==](https://github.com/laurent22/joplin) <span class='md-tag md-tag--info'>⭐ 55186</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A widely adopted open-source note-taking and to-do application. Supports End-to-End Encryption (E2EE), Markdown editing, and dynamic synchronization across private cloud systems.
+  - **(2026)** [==joplin==](https://github.com/laurent22/joplin) <span class='md-tag md-tag--info'>⭐ 55187</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A widely adopted open-source note-taking and to-do application. Supports End-to-End Encryption (E2EE), Markdown editing, and dynamic synchronization across private cloud systems.
 ### Project Management
 
 #### Agile Platforms
