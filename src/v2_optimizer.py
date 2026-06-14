@@ -960,9 +960,19 @@ class V2VisionEngine:
                     "Preserves historical context, the original curator's voice, and every technically valid link discovered since 2018. It serves as the foundational truth for the entire ecosystem.\n\n"
                     "#### 4.2. V2 Elite Portal (Distilled)\n"
                     "An O'Reilly-style technical library where 18k+ resources are filtered, ranked by impact, and enriched with AI-driven architectural summaries for high-speed reference.\n\n"
+                    "### 🛡️ 5. Strategic Standards & Cultural Shifts\n"
+                    "Engineering excellence is as much about **culture** as it is about code. These foundational resources define the strategic landscape of modern Cloud Native organizations:\n\n"
+                    "  - [The Agile Manifesto](https://agilemanifesto.org) <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The primary root of modern iterative development and the shift away from monolithic planning.\n"
+                    "  - [Google: SRE vs. DevOps — Competing Standards or Close Friends?](https://cloud.google.com/blog/products/gcp/sre-vs-devops-competing-standards-or-close-friends) <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An essential blueprint for understanding the symbiotic relationship between reliability engineering and delivery speed.\n"
+                    "  - [The 4 Levels of GitOps Maturity](https://cloudnativenow.com/features/the-4-levels-of-gitops-maturity) <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A roadmap for evolving from manual deployments to a fully automated, self-healing state.\n"
+                    "  - [Necessary Culture Change with GitOps](https://itnext.io/necessary-culture-change-with-gitops-2c63f4fe9604) <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> — Dissects the organizational friction and the necessary mindset shift required to adopt declarative infrastructure.\n\n"
+                    "### ⚖️ 6. Meritocracy & Careers in 2026\n"
+                    "We advocate for a technical sector where quality and evidence-based decisions take precedence over corporate politics.\n\n"
+                    "  - [HBR: Stop Hiring for Culture Fit](https://hbr.org/2019/11/stop-hiring-for-culture-fit) <span class='md-tag md-tag--warning'>[EMERGING]</span> — A critical perspective on how \"culture fit\" often hides bias and hinders technical innovation.\n"
+                    "  - [Defining Day-2 Operations](https://dzone.com/articles/defining-day-2-operations) <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Shifts the focus from the excitement of the first deployment to the long-term reality of maintaining production stability.\n\n"
                     "> *\"I am a big fan of the scientific method. Engineers do not build bridges from a right or left perspective... hello! I have a problem, can you help me? Engineers rely on evidence.\"* — **Mark Stevenson**\n\n"
                     "---\n\n"
-                )
+                    )
 
             md += await render_node(info["content"], -1, f_name.replace(".md", ""), used_headers, is_intro=(f_name=="introduction.md" or f_name=="about.md"))
             
