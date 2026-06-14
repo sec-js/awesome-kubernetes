@@ -933,8 +933,33 @@ class V2VisionEngine:
             if f_name == "introduction.md":
                 md += "## Vision 2026\n\n!!! quote \"The Evolution of Autonomy\"\n    From manual curation to agentic intelligence.\n\n### Ecosystem Map\n\n\n```mermaid\ngraph TD\n    A[Foundations] --> B[AI & Intelligence]\n    A --> C[Hardened Infra]\n    B --> D[Agentic Curation]\n    C --> E[Enterprise Stability]\n    D --> F[Nubenetes Portal]\n    E --> F\n```\n\n\n"
 
-            
-            md += await render_node(info["content"], -1, f_name.replace(".md", ""), used_headers, is_intro=(f_name=="introduction.md"))
+            if f_name == "about.md":
+                md += (
+                    "## The Nubenetes Engineering Manifest\n\n"
+                    "!!! quote \"The Positive Sum Game\"\n"
+                    "    ==*\"Open Source is most successful when is played as a positive sum game\" (Sarah Novotny)*==\n\n"
+                    "### 🏛️ The Genesis: Munich 2018\n"
+                    "Nubenetes was forged in the internals of a massive Cloud Native transformation for a **major multinational car manufacturer** in Munich. Coordinating hundreds of microservices, thousands of developers, and millions of end-users taught us a fundamental truth: **Standardization, Automation, and GitOps are not \"best practices\"—they are survival requirements.**\n\n"
+                    "### 🧠 Our Engineering Philosophy\n"
+                    "We reject technical obfuscation as a competitive advantage. Solutions that are \"the hard way\" by design do not scale and create fragile, person-dependent silos. \n\n"
+                    "1.  **Correctness by Design**: We believe in doing DevOps correctly through the **GitOps pattern**. Automation without correctness is just faster failure.\n"
+                    "2.  **The Scientific Method**: We build bridges based on **evidence**, not politics or hype. If a solution cannot be empirically verified and automated, it is a liability.\n"
+                    "3.  **Abstractions vs. Reinventing the Wheel**: We prioritize established frameworks and enterprise standards over ad-hoc, unmaintainable tooling.\n\n"
+                    "### 📊 Comparative Maturity Framework\n\n"
+                    "| Principle | Strategic Focus | Primary Toolset | Architectural Impact |\n"
+                    "| :--- | :--- | :--- | :--- |\n"
+                    "| **DevOps** | Automation & Frequency | CI/CD Pipelines | Operational Speed |\n"
+                    "| **GitOps** | ==Correctness & Drift Control== | Git + Kubernetes | ==Enterprise Stability== |\n"
+                    "| **SRE** | Reliability & Prevention | Observability | Scalable Quality |\n\n"
+                    "### 🚀 The 2026 Vision: Agentic Intelligence\n"
+                    "Nubenetes has evolved from a historical manual archive into an **Agentic Knowledge Graph**. \n\n"
+                    "*   **V1 Archive (Exhaustive)**: Preserves historical context, the original curator's voice, and every technically valid link discovered since 2018.\n"
+                    "*   **V2 Elite Portal (Distilled)**: An O'Reilly-style technical library where 18k+ resources are filtered, ranked by impact, and enriched with AI-driven architectural summaries.\n\n"
+                    "> *\"I am a big fan of the scientific method. Engineers rely on evidence. If you want to save the world, think like an engineer.\"* — **Mark Stevenson**\n\n"
+                    "---\n\n"
+                )
+
+            md += await render_node(info["content"], -1, f_name.replace(".md", ""), used_headers, is_intro=(f_name=="introduction.md" or f_name=="about.md"))
             
             # Add Semantic "See Also" ONLY ONCE at the end of the page
             related = [f"[{data[f]['title']}](./{f})" for f in data if f != f_name and data[f]["dim"] == info["dim"]]
