@@ -1,4 +1,4 @@
-# Fundamentals
+# 🎥 Fundamentals
 
 Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated high-density videos with architectural summaries.
 

@@ -15,8 +15,6 @@
     - [OpenShift](#openshift)
     - [Performance and Tuning](#performance-and-tuning)
     - [Streaming and Scheduling](#streaming-and-scheduling)
-  - [Batch Scheduling](#batch-scheduling)
-    - [Kueue](#kueue)
   - [Cloud Platforms](#cloud-platforms)
     - [Databricks](#databricks)
   - [Data Pipelines](#data-pipelines)
@@ -56,11 +54,6 @@
 #### Streaming and Scheduling
 
   - **(2023)** [**docs.databricks.com: Use scheduler pools for multiple streaming workloads**](https://docs.databricks.com/aws/en/structured-streaming/production) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Deep dives into configuring Spark scheduler pools to enforce Fair Scheduling (FAIR) when running multiple concurrent Structured Streaming queries in a shared production workspace. Prevents heavy resource queries from starving lightweight streaming jobs. Live Grounding verifies that proper allocation of pool weights remains a mandatory configuration practice for robust multi-tenant streaming pipelines.
-### Batch Scheduling
-
-#### Kueue
-
-  - **(2024)** [**Red Hat Build of Kueue**](https://docs.redhat.com/en/documentation/openshift_container_platform/4.21/html/ai_workloads/red-hat-build-of-kueue) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Focuses on Red Hat's enterprise integration of Kueue, a Kubernetes-native job queueing system designed to manage resource quotas, tenant isolation, and fair-share scheduling for high-performance AI/ML and batch workloads. Live Grounding confirms Kueue is crucial in 2026 for orchestrating GPU and CPU cluster resource allocation dynamically across large-scale enterprise clusters.
 ### Cloud Platforms
 
 #### Databricks
@@ -83,5 +76,5 @@
   - **(2021)** [opensourceforu.com: Kubernetes Adoption Widespread for Big Data: Survey](https://www.opensourceforu.com/2021/12/kubernetes-adoption-widespread-for-big-data-survey/?amp) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details industry survey results illustrating the widespread migration of Big Data and stateful analytics workloads onto Kubernetes. Shows the transition from static, dedicated bare-metal clusters to dynamic, container-orchestrated platforms. Live Grounding confirms this historical trajectory has culminated in 2026, where cloud-native orchestration is the unquestioned standard for running Spark, Flink, and ML training pipelines.
 
 ---
-💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Kubernetes Client Libraries](./kubernetes-client-libraries.md)
+💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
 

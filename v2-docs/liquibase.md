@@ -88,5 +88,5 @@
   - **(2023)** [martinfowler.com](https://martinfowler.com/articles/evodb.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A seminal essay on evolutionary database architectures. Highlights methods for treating database schemas as declarative code, versioning migrations, and automating data migrations safely inside unified application delivery pipelines.
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Chef](./chef.md)
+💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Oauth](./oauth.md)
 

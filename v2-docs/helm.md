@@ -68,9 +68,6 @@
 1. [Cloud Native Architecture](#cloud-native-architecture)
   - [Development Methodologies](#development-methodologies)
     - [Operator Perspectives](#operator-perspectives)
-1. [Infrastructure as Code](#infrastructure-as-code)
-  - [Helm](#helm-1)
-    - [Prometheus Deployment](#prometheus-deployment)
 1. [Kubernetes Tools](#kubernetes-tools)
   - [General Reference](#general-reference)
 1. [Multi-Cluster Management](#multi-cluster-management)
@@ -86,6 +83,8 @@
   - [Prometheus Ecosystem](#prometheus-ecosystem)
     - [Helm Deployments](#helm-deployments)
 1. [Platform Engineering](#platform-engineering)
+  - [Application Delivery](#application-delivery-1)
+    - [Catalog UI](#catalog-ui)
   - [Kubernetes GitOps and Packaging](#kubernetes-gitops-and-packaging)
     - [Alternative Deployment Engines](#alternative-deployment-engines)
     - [Auditing and Maintenance](#auditing-and-maintenance)
@@ -100,7 +99,6 @@
     - [Helm Templates](#helm-templates)
     - [Helm Visualization and UI](#helm-visualization-and-ui)
     - [Java Microservices](#java-microservices)
-    - [Learning Hubs](#learning-hubs)
     - [Legacy Charts](#legacy-charts)
     - [Legacy Utilities](#legacy-utilities)
     - [Lifecycle Hooks](#lifecycle-hooks)
@@ -283,13 +281,6 @@
 #### Operator Perspectives
 
   - **(2021)** [opensource.com: What Kubernetes taught me about development](https://opensource.com/article/21/12/kubernetes-developer) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural reflection detailing key developer-centric shifts encountered when adapting to Kubernetes environments. It explores paradigms like declarative APIs, container-first test loops, and how platform engineers must redefine application boundaries in microservice environments.
-## Infrastructure as Code
-
-### Helm (1)
-
-#### Prometheus Deployment
-
-  - **(2023)** [Setup Prometheus Using Helm Chart on Kubernetes](https://devopscube.com/setup-prometheus-helm-chart) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical guide on installing a production-ready Prometheus instance into Kubernetes using Helm. Explains configuring persistent storage claims, setting retention policies, and overriding default ingress objects.
 ## Kubernetes Tools
 
 ### General Reference
@@ -362,7 +353,7 @@
 
 #### Validation Tools
 
-  - **(2025)** [github.com/projectsveltos: sveltosctl](https://github.com/projectsveltos/sveltosctl) <span class='md-tag md-tag--info'>⭐ 36</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1d3b6a73" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 7 L 20 12 L 30 12 L 40 4 L 50 4" fill="none" stroke="url(#spark-grad-1d3b6a73)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The CLI dashboard for Project Sveltos. It specializes in executing dry-runs and drift validations on declarative ClusterProfiles to ensure configuration validity prior to propagating resources to remote edge clusters.
+  - **(2025)** [github.com/projectsveltos: sveltosctl](https://github.com/projectsveltos/sveltosctl) <span class='md-tag md-tag--info'>⭐ 36</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e7d8570d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 10 L 20 8 L 30 13 L 40 12 L 50 6" fill="none" stroke="url(#spark-grad-e7d8570d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The CLI dashboard for Project Sveltos. It specializes in executing dry-runs and drift validations on declarative ClusterProfiles to ensure configuration validity prior to propagating resources to remote edge clusters.
 ## Networking and Ingress
 
 ### Ingress Controllers
@@ -386,6 +377,11 @@
   - **(2026)** [prometheus-community.github.io: Prometheus Community Kubernetes Helm Charts 🌟](https://prometheus-community.github.io/helm-charts) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official Prometheus community Helm charts registry, housing the essential kube-prometheus-stack. This remains the absolute industry standard for managing Prometheus, Grafana dashboards, Alertmanager definitions, and metrics-collector sidecars.
 ## Platform Engineering
 
+### Application Delivery (1)
+
+#### Catalog UI
+
+  - **(2025)** [==kubeapps.dev 🌟==](https://kubeapps.dev) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A web-based control plane for deploying and managing packaged cloud-native applications on Kubernetes. Provides visual tooling to interact with Helm charts, Operators, and Carvel packages with integrated RBAC and multi-cluster deployment scopes.
 ### Kubernetes GitOps and Packaging
 
 #### Alternative Deployment Engines
@@ -433,9 +429,6 @@
 #### Java Microservices
 
   - **(2022)** [openshift.com: Introducing the Quarkus Helm Chart](https://www.redhat.com/en/blog/introducing-the-quarkus-helm-chart) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introduction detailing the design of the Quarkus Helm Chart, optimized for cloud-native Java microservices. It highlights native compiling integrations, GraalVM deployment profiles, and how to harness OpenShift pipelines for highly efficient container bootstrapping.
-#### Learning Hubs
-
-  - **(2025)** [Red Hat Training & Certification Community](https://access.redhat.com/community/learn) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat's official training ecosystem community. It offers platform operators, architects, and developers verified learning pathways, course materials, and labs covering OpenShift administration and cloud-native practices.
 #### Legacy Charts
 
   - **(2020)** [==Jenkins==](https://github.com/helm/charts/tree/master/stable/jenkins) <span class='md-tag md-tag--info'>⭐ 15424</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0436d7b7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 2 L 20 9 L 30 13 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-0436d7b7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — The deprecated stable Helm chart repository for Jenkins. It is strongly recommended to avoid this legacy version, as active development and security patches have transitioned exclusively to the official Jenkins community repository on Artifact Hub.
@@ -471,5 +464,5 @@
   - **(2022)** [aws.amazon.com: Preventing Kubernetes misconfigurations using Datree](https://aws.amazon.com/blogs/containers/preventing-kubernetes-misconfigurations-using-datree) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS technical write-up detailing the configuration of Datree policies inside Amazon EKS clusters to catch security and configuration drift. It details automated testing strategies to block misconfigured resource manifests at pre-commit and pipeline execution gates.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
 

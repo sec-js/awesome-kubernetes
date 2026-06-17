@@ -1,4 +1,4 @@
-# AI Agents and MCP
+# 🎥 AI Agents and MCP
 
 Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curated high-density videos with architectural summaries.
 

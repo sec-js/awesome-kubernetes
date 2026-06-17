@@ -1,7 +1,7 @@
 # Chrome and Firefox DevTools. HTTP Protocols and WebSockets
 
 !!! info "Architectural Context"
-    Detailed reference for Chrome & Firefox DevTools. HTTP Protocols & WebSockets in the context of Developer Ecosystem.
+    Detailed reference for Chrome and Firefox DevTools. HTTP Protocols and WebSockets in the context of Developer Ecosystem.
 
 ## Table of Contents
 
@@ -31,5 +31,5 @@
   - **(2021)** [digitalocean.com: How To Debug Node.js with the Built-In Debugger and Chrome DevTools](https://www.digitalocean.com/community/tutorials/how-to-debug-node-js-with-the-built-in-debugger-and-chrome-devtools) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive tutorial on attaching Chrome DevTools directly to Node.js backend processes. Step-by-step guidance on setting execution break points, inspecting call stacks, and detecting memory leaks.
 
 ---
-💡 **Explore Related:** [Angular](./angular.md) | [Python](./python.md) | [Dom](./dom.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 

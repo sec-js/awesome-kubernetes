@@ -199,5 +199,5 @@
   - **(2025)** [==jfrog.com: Kubernetes Helm Chart Repositories 🌟==](https://docs.jfrog.com) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Enterprise guide to leveraging JFrog Artifactory as a secure, high-availability Helm chart repository. Covers repository layout, role-based access control, package versioning, and integration with Kubernetes container execution steps.
 
 ---
-💡 **Explore Related:** [Jenkins](./jenkins.md) | [Sonarqube](./sonarqube.md) | [Stackstorm](./stackstorm.md)
+💡 **Explore Related:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md) | [Flux](./flux.md)
 

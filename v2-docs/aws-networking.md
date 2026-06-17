@@ -241,5 +241,5 @@
   - **(2021)** [Fine-tuning blue/green deployments on application load balancer](https://aws.amazon.com/blogs/devops/blue-green-deployments-with-application-load-balancer) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on ALB's advanced routing capabilities to orchestrate safe blue/green deployments by shifting traffic percentages between target groups. A crucial operational pattern for continuous delivery pipelines, minimizing deployment blast radius.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
 

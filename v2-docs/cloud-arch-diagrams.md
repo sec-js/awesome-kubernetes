@@ -5,9 +5,6 @@
 
 ## Table of Contents
 
-1. [Architecture](#architecture)
-  - [Web Applications](#web-applications)
-    - [Enterprise Patterns](#enterprise-patterns)
 1. [Architecture and Design](#architecture-and-design)
   - [Diagrams-as-Code](#diagrams-as-code)
     - [Guide](#guide)
@@ -33,24 +30,17 @@
     - [AWS](#aws-1)
     - [Azure](#azure)
     - [GCP](#gcp)
-    - [Kubernetes](#kubernetes)
     - [Security](#security-1)
   - [Diagrams as Code](#diagrams-as-code)
     - [AWS CloudFormation](#aws-cloudformation)
     - [Airflow](#airflow)
     - [Python](#python)
-  - [Guides](#guides)
-    - [AWS](#aws-2)
   - [Interactive Diagramming](#interactive-diagramming)
-    - [AI Integration](#ai-integration)
     - [Enterprise](#enterprise)
     - [Innovative](#innovative)
     - [Web](#web)
   - [Kubernetes Visualizer](#kubernetes-visualizer)
     - [Go](#go)
-1. [Cloud Governance](#cloud-governance)
-  - [Enterprise Architecture](#enterprise-architecture)
-    - [Landing Zones](#landing-zones)
 1. [Cloud Infrastructure](#cloud-infrastructure)
   - [Azure Networking](#azure-networking)
     - [Global Infrastructure](#global-infrastructure)
@@ -58,28 +48,18 @@
 1. [Cloud Platforms](#cloud-platforms)
   - [AWS Integration](#aws-integration)
     - [Visualization](#visualization-1)
-1. [Container Orchestration](#container-orchestration)
-  - [Azure Kubernetes Service](#azure-kubernetes-service)
-    - [Well-Architected Framework](#well-architected-framework)
 1. [Infrastructure](#infrastructure)
   - [Visualizations](#visualizations)
     - [Cloud Discovery](#cloud-discovery-1)
     - [GCP Diagramming](#gcp-diagramming)
 1. [Infrastructure as Code](#infrastructure-as-code)
-  - [Architecture](#architecture-1)
+  - [Architecture](#architecture)
     - [Diagrams](#diagrams)
   - [Verification and AI](#verification-and-ai)
     - [Copilot Verification](#copilot-verification)
 1. [Kubernetes Tools](#kubernetes-tools)
   - [General Reference](#general-reference)
 
-## Architecture
-
-### Web Applications
-
-#### Enterprise Patterns
-
-  - **(2025)** [Enterprise Web App Patterns - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/web-apps/guides/enterprise-app-patterns/overview) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Production-proven patterns and implementation pathways from the Azure Architecture Center. Establishes migration guidelines for modernizing monolithic applications into elastic web architectures.
 ## Architecture and Design
 
 ### Diagrams-as-Code
@@ -153,9 +133,6 @@
 #### GCP
 
   - **(2024)** [Google Cloud Architecture Icons](https://cloud.google.com/icons) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The standardized Google Cloud Platform graphical asset library and system diagram rules. Designed to assist cloud architects in drafting Google-recommended structures with consistent representations for compute, storage, data, and analytical pipelines.
-#### Kubernetes
-
-  - **(2023)** [==github.com/kubernetes: Kubernetes Icons Set==](https://github.com/kubernetes/community/tree/main/icons) <span class='md-tag md-tag--info'>⭐ 12886</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a419dff2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 9 L 20 11 L 30 7 L 40 7 L 50 2" fill="none" stroke="url(#spark-grad-a419dff2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official CNCF-maintained Kubernetes graphic catalog containing SVGs and PNGs representing key system objects like Pods, Services, Deployments, ingress, and Custom Resources. Vital for creating highly precise architectural designs of cloud-native infrastructure.
 #### Security (1)
 
   - **(2021)** [aquasecurity/cloudsec-icons](https://github.com/aquasecurity/cloudsec-icons) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source library of dedicated cybersecurity and DevSecOps icons created by Aqua Security. Empowers application security professionals to visually document threat boundaries, firewall parameters, and container compliance elements in systems architecture graphs.
@@ -171,16 +148,8 @@
 
   - **(2020)** [==diagrams.mingrammer.com: Diagram as Code==](https://diagrams.mingrammer.com) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An industry-standard open-source library that empowers architects to represent system architectures using pure Python code. By aligning with GitOps paradigms, diagrams are treated as software dependencies, allowing automated code-driven rendering and versioning across AWS, GCP, Azure, and Kubernetes ecosystems without manual editing tools.
   - **(2022)** [**github.com/awslabs/diagram-as-code 🌟**](https://github.com/awslabs/diagram-as-code) <span class='md-tag md-tag--info'>⭐ 1519</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-180f1ce5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 13 L 20 3 L 30 13 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-180f1ce5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An AWS Labs community experiment designed to showcase the power of programmatically rendering complex systems architecture. Helps engineers integrate documentation updates directly inside release workflows.
-### Guides
-
-#### AWS (2)
-
-  - **(2023)** [What is the best way to generate a visual diagram of the AWS environment which includes VPC, VPN, EC2, and AMIs?](https://www.pluralsight.com) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive tutorial on Pluralsight outlining best-practice workflows for generating infrastructure diagrams. Provides structured advice on combining automated discovery with custom visual canvases.
 ### Interactive Diagramming
 
-#### AI Integration
-
-  - **(2025)** [Draw.io MCP for Diagram Generation: Why It’s Worth Using](https://thomasthornton.cloud/draw-io-mcp-for-diagram-generation-why-its-worth-using) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Implements the Model Context Protocol (MCP) to dynamically generate and modify Draw.io structures directly via conversational AI interfaces. Seamlessly links large language models with visual blueprint execution, allowing real-time canvas updates and automated layout formatting based on conversational technical specs.
 #### Enterprise
 
   - **(2025)** [Lucidchart](https://www.lucidchart.com/pages) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry-standard collaborative workspace used by enterprise organizations to build visual structures. Integrates with Lucidscale to auto-generate cloud diagrams directly from configuration payloads.
@@ -196,14 +165,6 @@
 #### Go
 
   - **(2021)** [cloudogu/k8s-diagrams](https://github.com/cloudogu/k8s-diagrams) <span class='md-tag md-tag--info'>⭐ 339</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-00078e7e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 3 L 20 4 L 30 5 L 40 5 L 50 2" fill="none" stroke="url(#spark-grad-00078e7e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized CLI utility built to parse Kubernetes live states and manifest specifications directly into clean, structured architectural diagrams. Resolves the operational pain point of manual cluster mapping, providing engineers with an accurate visual layout of active workloads, routes, and cluster components.
-## Cloud Governance
-
-### Enterprise Architecture
-
-#### Landing Zones
-
-  - **(2026)** [Azure Landing Zone Technical Documentation](https://azure.github.io/Azure-Landing-Zones) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Central knowledge base for Azure Landing Zones (ALZ) design principles and implementations. This portal provides guidance on identity management, network topology, subscription organization, and proactive governance policies. It acts as the key blueprint for deploying scalable multi-subscription cloud platform architectures.
-  - **(2026)** [Azure Landing Zone - Microsoft Cloud Adoption Framework](https://learn.microsoft.com/nb-no/azure/cloud-adoption-framework/ready/landing-zone) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains the architectural principles of Azure Landing Zones under the Microsoft CAF. It emphasizes separation of concerns across management, connectivity, and identity planes, while using custom policy assignments for automated control. This guidance helps platform teams establish a robust foundation for onboarding application workloads.
 ## Cloud Infrastructure
 
 ### Azure Networking
@@ -221,13 +182,6 @@
 #### Visualization (1)
 
   - **(2021)** [AWS Account Cloud9 Visualizer](https://github.com/wongcyrus/aws-account-cloud9-visualizer) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized developer tool tailored for deployment inside AWS Cloud9 instances. Allows engineers to quickly visualize localized cloud development patterns and inspect running sandboxes directly from the IDE.
-## Container Orchestration
-
-### Azure Kubernetes Service
-
-#### Well-Architected Framework
-
-  - **(2026)** [Architecture Best Practices for Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/well-architected/service-guides/azure-kubernetes-service) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official technical guide mapping Azure Well-Architected Framework (WAF) principles to Azure Kubernetes Service (AKS). It details architectural guidance on cluster networking, high availability, node pools, security integration, and cost management. This serves as the definitive reference for engineering enterprise-grade, highly resilient Kubernetes control and data planes on Azure.
 ## Infrastructure
 
 ### Visualizations
@@ -240,7 +194,7 @@
   - **(2021)** [cloud.google.com: Introducing a Google Cloud architecture diagramming tool](https://cloud.google.com/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces Google Cloud's web-based console architecture designer. Explains how engineering departments construct, validate, and export precise GCP topology maps using standardized reference modules.
 ## Infrastructure as Code
 
-### Architecture (1)
+### Architecture
 
 #### Diagrams
 
@@ -260,5 +214,5 @@
   - [medium.com/contino-engineering: Data Pipeline Orchestration - Using Amazon' Managed Workflows for Apache Airflow (MWAA)](https://medium.com/contino-engineering/data-pipeline-orchestration-using-amazon-managed-workflows-for-apache-airflow-mwaa-60e5b213a0a7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/contino-engineering: Data Pipeline Orchestration - Using Amazon' Managed Workflows for Apache Airflow (MWAA) in the Kubernetes Tools ecosystem.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
 

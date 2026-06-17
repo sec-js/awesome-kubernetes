@@ -1,7 +1,7 @@
 # AWS Storage. S3 and EBS. AWS Storage Gateway
 
 !!! info "Architectural Context"
-    Detailed reference for AWS Storage. S3 & EBS. AWS Storage Gateway in the context of Cloud Providers (Hyperscalers).
+    Detailed reference for AWS Storage. S3 and EBS. AWS Storage Gateway in the context of Cloud Providers (Hyperscalers).
 
 ## Table of Contents
 
@@ -138,5 +138,5 @@
   - **(2023)** [blog.awsfundamentals.com: AWS S3 Sync - An Extensive Guide](https://awsfundamentals.com/blog/aws-s3-sync) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An extensive guide on using AWS S3 Sync commands, showing how to achieve efficient filesystems syncs between local storage and S3 targets. It explains multi-threading optimization, inclusion/exclusion rules, and integrity checks. This reference is highly valuable for system administrators maintaining basic backup and sync pipelines.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
 

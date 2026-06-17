@@ -12,7 +12,6 @@
   - [AWS Optimization](#aws-optimization)
     - [Data Transfer](#data-transfer)
     - [EKS Cost Reduction](#eks-cost-reduction)
-    - [EKS Log Optimization](#eks-log-optimization)
     - [Policy Engines](#policy-engines)
     - [SMB Frameworks](#smb-frameworks)
   - [Azure Optimization](#azure-optimization)
@@ -29,9 +28,7 @@
   - [Kubernetes FinOps](#kubernetes-finops)
     - [AKS Cost Allocation](#aks-cost-allocation)
     - [Actionable Frameworks](#actionable-frameworks)
-    - [Cost Management](#cost-management)
     - [Cost Platforms](#cost-platforms)
-    - [Foundational Concepts](#foundational-concepts)
     - [Observability Integrations](#observability-integrations)
     - [ROI Analysis](#roi-analysis)
     - [Tooling](#tooling)
@@ -60,6 +57,8 @@
 
 #### General Reference
 
+  - [Scale with Confidence Using Terraform: Better Cost Visibility, Stronger' Governance, and Less Operational Overhead](https://t.co/y414rbxM7l)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Scale with Confidence Using Terraform: Better Cost Visibility, Stronger' Governance, and Less Operational Overhead in the Kubernetes Tools ecosystem.
+  - [medium.com/@danielepolencic: In Kubernetes, are there hidden costs to' running many cluster nodes?](https://medium.com/@danielepolencic/reserved-cpu-and-memory-in-kubernetes-nodes-65aee1946afd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==medium.com/@danielepolencic: In Kubernetes, are there hidden costs to' running many cluster nodes?== in the Kubernetes Tools ecosystem.
   - [medium: DevOps, NoOps, and Now FinOps?](https://medium.com/better-programming/devops-noops-finops-64e0df91bcb8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: DevOps, NoOps, and Now FinOps? in the Kubernetes Tools ecosystem.
   - [cncf.io: FinOps for Kubernetes: Insufficient – or nonexistent – Kubernetes' cost monitoring is causing overspend](https://www.cncf.io/blog/2021/06/29/finops-for-kubernetes-insufficient-or-nonexistent-kubernetes-cost-monitoring-is-causing-overspend)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: FinOps for Kubernetes: Insufficient – or nonexistent – Kubernetes' cost monitoring is causing overspend in the Kubernetes Tools ecosystem.
   - [faun.pub: FinOps – introduction, origins and next steps](https://faun.pub/finops-introduction-origins-and-next-steps-bcdaa8b82417)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering faun.pub: FinOps – introduction, origins and next steps in the Kubernetes Tools ecosystem.
@@ -70,12 +69,10 @@
   - [medium.com/@tarunbehal02: AWS Cost Optimizations : My Learnings](https://medium.com/@tarunbehal02/aws-cost-optimizations-my-learnings-fcdc14da1f58)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@tarunbehal02: AWS Cost Optimizations : My Learnings in the Kubernetes Tools ecosystem.
   - [medium.com/armory: Continuous Cost Optimization for Kubernetes](https://medium.com/armory/continuous-cost-optimization-for-kubernetes-4361045f0215)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/armory: Continuous Cost Optimization for Kubernetes in the Kubernetes Tools ecosystem.
   - [medium.com/empathyco: Cloud FinOps — Part 4: Kubernetes Cost Report](https://medium.com/empathyco/cloud-finops-part-4-kubernetes-cost-report-b4964be02dc3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==medium.com/empathyco: Cloud FinOps — Part 4: Kubernetes Cost Report== in the Kubernetes Tools ecosystem.
-  - [medium.com/@danielepolencic: In Kubernetes, are there hidden costs to' running many cluster nodes?](https://medium.com/@danielepolencic/reserved-cpu-and-memory-in-kubernetes-nodes-65aee1946afd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==medium.com/@danielepolencic: In Kubernetes, are there hidden costs to' running many cluster nodes?== in the Kubernetes Tools ecosystem.
   - [medium.com/develeap: Cutting down Kubernetes Costs: Cast.ai vs. Karpenter](https://medium.com/develeap/cutting-down-kubernetes-costs-cast-ai-vs-karpenter-20f6788b4c67)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/develeap: Cutting down Kubernetes Costs: Cast.ai vs. Karpenter in the Kubernetes Tools ecosystem.
   - [engineering.razorpay.com: The Culture of Cost Optimization — Reducing Kubernetes' cost by $300,000](https://engineering.razorpay.com/the-culture-of-cost-optimization-reducing-kubernetes-cost-by-300-000-32611cdd19d9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering engineering.razorpay.com: The Culture of Cost Optimization — Reducing Kubernetes' cost by $300,000 in the Kubernetes Tools ecosystem.
   - [medium.com/@suleimanabualrob: Kubernetes cost optimisation](https://medium.com/@suleimanabualrob/kubernetes-cost-optimisation-9e81b76814f6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@suleimanabualrob: Kubernetes cost optimisation in the Kubernetes Tools ecosystem.
   - [medium.com/compass-true-north: Halving Kubernetes Compute Costs With Vertical' Pod Autoscaler](https://medium.com/compass-true-north/halving-kubernetes-compute-costs-with-vertical-pod-autoscaler-df658c043301)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/compass-true-north: Halving Kubernetes Compute Costs With Vertical' Pod Autoscaler in the Kubernetes Tools ecosystem.
-  - [Scale with Confidence Using Terraform: Better Cost Visibility, Stronger' Governance, and Less Operational Overhead](https://t.co/y414rbxM7l)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Scale with Confidence Using Terraform: Better Cost Visibility, Stronger' Governance, and Less Operational Overhead in the Kubernetes Tools ecosystem.
 ## FinOps and Cloud Cost
 
 ### AWS Optimization
@@ -87,9 +84,6 @@
 #### EKS Cost Reduction
 
   - **(2023)** [==dev.to: FinOps EKS: 10 tips to reduce the bill up to 90% on AWS managed Kubernetes clusters==](https://dev.to/zenika/eks-10-tips-to-reduce-the-bill-up-to-90-on-aws-managed-kubernetes-clusters-epe) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Provides ten advanced tips to reduce Amazon EKS costs by up to 90%. Focuses on deploying the Karpenter autoscaler, using AWS Graviton instances, rightsizing pod resources, and setting up automated dev-environment shutdown policies.
-#### EKS Log Optimization
-
-  - **(2023)** [**aws.amazon.com: Understanding and Cost Optimizing Amazon EKS Control Plane Logs**](https://aws.amazon.com/blogs/containers/understanding-and-cost-optimizing-amazon-eks-control-plane-logs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Analyzes the high CloudWatch cost challenges generated by Amazon EKS control plane logs (API server, authenticator, audit, scheduler). Demonstrates how to configure fluent-bit to filter and route only essential telemetry records to cheap storage.
 #### Policy Engines
 
   - **(2024)** [**Cloudburn: An Open-Source Policy Engine for AWS Spending**](https://github.com/towardsthecloud/cloudburn) <span class='md-tag md-tag--info'>⭐ 1765</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-fe15c8c2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 10 L 20 12 L 30 4 L 40 13 L 50 5" fill="none" stroke="url(#spark-grad-fe15c8c2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Introduces Cloudburn, an open-source command-line tool designed to audit AWS resource groups. By using declarative policies, it alerts teams to idle resources, non-standard instance types, and unassigned Elastic IPs to keep real-world deployments within budget limits.
@@ -135,15 +129,9 @@
 #### Actionable Frameworks
 
   - **(2023)** [**infoworld.com: 5 steps to bringing Kubernetes costs in line**](https://www.infoworld.com/article/2338303/5-steps-to-bringing-kubernetes-costs-in-line.html) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Presents a clear five-step methodology to control Kubernetes infrastructure spend. Covers standard practices like adjusting request/limit ratios, configuring cluster autoscalers (VPA/HPA), and moving non-critical workloads to spot instance pools.
-#### Cost Management
-
-  - **(2023)** [==infoworld.com: Kubernetes cost management for the real world==](https://www.infoworld.com/article/2338428/kubernetes-cost-management-for-the-real-world.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A deep dive into the challenges of multi-tenant Kubernetes cost attribution across dynamic namespaces. Contrasts raw hyper-scaler billing records against granular container resource consumption metrics, detailing how Kubecost and OpenCost establish accurate, real-world chargeback frameworks.
 #### Cost Platforms
 
   - **(2022)** [**thenewstack.io: Finout Gets a Handle on Kubernetes Costs**](https://thenewstack.io/finout-gets-a-handle-on-kubernetes-costs) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Reviews Finout's capability to combine multiple cloud invoices (such as AWS, Snowflake, Datadog) and Kubernetes metrics into a single interface. Demonstrates how to link infrastructure spend directly to actual business unit metrics.
-#### Foundational Concepts
-
-  - **(2022)** [replex.io: An Introduction to Kubernetes FinOps](https://www.splunk.com/en_us/appdynamics-joins-splunk.html?301=appdynamics) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory resource explaining how to divide shared Kubernetes costs across teams. Describes using namespace resource limits and pod metadata tags to set up fair chargeback structures.
 #### Observability Integrations
 
   - **(2023)** [**thenewstack.io: Grafana Wants to Help You Avoid Getting Dinged by Kubernetes Costs**](https://thenewstack.io/grafana-wants-to-help-you-avoid-getting-dinged-by-kubernetes-costs) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Discusses Grafana's work to build native cost-monitoring tools directly into standard monitoring dashboards. Explores using Prometheus metrics from OpenCost to display cluster financial trends alongside hardware utilization data.
@@ -208,5 +196,5 @@
   - **(2023)** [venturebeat.com: Cloud costs are unmanageable: It’s time we standardize billing](https://venturebeat.com/datadecisionmakers/cloud-costs-are-unmanageable-its-time-we-standardize-billing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A strategic industry op-ed advocating for the standardization of multi-vendor cloud billing schemas. Highlights the engineering frustrations of parsing divergent APIs and billing models, driving the community push toward the FinOps Open Cost & Usage Specification (FOCUS).
 
 ---
-💡 **Explore Related:** [Appointment Scheduling](./appointment-scheduling.md) | [Recruitment](./recruitment.md) | [Digital Money](./digital-money.md)
+💡 **Explore Related:** [HR](./hr.md) | [Elearning](./elearning.md) | [Newsfeeds](./newsfeeds.md)
 

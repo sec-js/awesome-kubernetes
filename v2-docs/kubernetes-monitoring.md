@@ -44,12 +44,9 @@
     - [Object State Monitoring](#object-state-monitoring)
   - [Workload Monitoring](#workload-monitoring)
     - [Job and CronJob Execution](#job-and-cronjob-execution)
-1. [Infrastructure](#infrastructure)
-  - [Hardware](#hardware)
-    - [GPU Virtualization](#gpu-virtualization)
-1. [Kubernetes](#kubernetes-2)
-  - [Resource Management](#resource-management)
-    - [CPU Throttling](#cpu-throttling)
+1. [Infrastructure as Code](#infrastructure-as-code)
+  - [Helm](#helm)
+    - [Prometheus Deployment](#prometheus-deployment)
 1. [Log Management and Diagnostics](#log-management-and-diagnostics)
   - [Audit Logging](#audit-logging)
     - [Compliance and Forensics](#compliance-and-forensics)
@@ -70,7 +67,7 @@
     - [eBPF and NetObserv](#ebpf-and-netobserv)
   - [Reliability Engineering](#reliability-engineering)
     - [eBPF-Based Telemetry](#ebpf-based-telemetry-1)
-  - [Resource Management](#resource-management-1)
+  - [Resource Management](#resource-management)
     - [Sizing and Quotas](#sizing-and-quotas)
   - [Telemetry Protocols](#telemetry-protocols-1)
     - [OpenTelemetry Runtime](#opentelemetry-runtime)
@@ -264,20 +261,13 @@
 #### Job and CronJob Execution
 
   - **(2021)** [itnext.io: Monitoring Kubernetes Jobs](https://itnext.io/monitoring-kubernetes-jobs-8adc241a7b60) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Targets the specific challenges of monitoring short-lived batch jobs and CronJobs inside Kubernetes. Outlines Prometheus query logic (PromQL) to detect run execution duration, failure codes, and long-running abandoned pods that bypass typical active deployment scraping rules.
-## Infrastructure
+## Infrastructure as Code
 
-### Hardware
+### Helm
 
-#### GPU Virtualization
+#### Prometheus Deployment
 
-  - **(2022)** [Sharing a NVIDIA GPU Between Pods in Kubernetes](https://www.cloudnativedeepdive.com/sharing-a-nvidia-gpu-between-pods-in-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — In-depth technical exploration of fractional GPU sharing techniques, including NVIDIA Multi-Instance GPU (MIG) and MPS, within Kubernetes clusters. Resolves major resource allocation bottlenecks to drive cost-effective machine learning workflows.
-## Kubernetes (2)
-
-### Resource Management
-
-#### CPU Throttling
-
-  - **(2024)** [CPU Limits in Kubernetes: Deep Dive into Pod Throttling and Kernel Interactions](https://www.linkedin.com/pulse/cpu-limits-kubernetes-why-your-pod-idle-still-deep-dive-lazarev-k3m7f) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exceptionally detailed deep dive into kernel interactions, Linux control groups (cgroups), and the Completely Fair Scheduler (CFS) quota mechanism inside Kubernetes. It demystifies why pods experience severe throttling even when aggregate CPU metrics appear healthy, analyzing the impact of short-duration burst workloads. It provides essential mathematical formulas and kernel parameters to fine-tune pod limits safely.
+  - **(2023)** [Setup Prometheus Using Helm Chart on Kubernetes](https://devopscube.com/setup-prometheus-helm-chart) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical guide on installing a production-ready Prometheus instance into Kubernetes using Helm. Explains configuring persistent storage claims, setting retention policies, and overriding default ingress objects.
 ## Log Management and Diagnostics
 
 ### Audit Logging
@@ -331,7 +321,7 @@
 #### eBPF-Based Telemetry (1)
 
   - **(2023)** [isovalent.com: What are the 4 Golden Signals for Monitoring Kubernetes?](https://isovalent.com/blog/post/what-are-the-4-golden-signals-for-monitoring-kubernetes) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the implementation of Google's 'Four Golden Signals' within Kubernetes, highlighting how eBPF-powered tools like Cilium provide transparent application level metrics (latency, traffic, errors, saturation) without relying on traditional sidecar architectures.
-### Resource Management (1)
+### Resource Management
 
 #### Sizing and Quotas
 
@@ -447,5 +437,5 @@
   - **(2022)** [betterstack.com: 10 Best Kubernetes Monitoring Tools in 2022 🌟](https://betterstack.com/community/comparisons/kubernetes-monitoring-tools) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative market review of ten leading commercial and open-source Kubernetes monitoring suites. Evaluates architecture models, scaling properties, out-of-the-box features, and implementation overheads across modern toolchains like Prometheus, Datadog, Dynatrace, and Better Stack.
 
 ---
-💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Kubernetes Client Libraries](./kubernetes-client-libraries.md)
+💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
 

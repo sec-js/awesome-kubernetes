@@ -47,5 +47,5 @@
   - **(2021)** [**whizlabs.com: AWS Kinesis vs Kafka Apache**](https://www.whizlabs.com/blog/kinesis-vs-kafka) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Comparative architectural review between AWS Kinesis and Apache Kafka. Analyzes data retention policies, throughput capabilities, scaling overheads, and total cost of ownership (TCO) profiles.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
 

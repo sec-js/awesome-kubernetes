@@ -1,4 +1,4 @@
-# Nubenetes Elite Portal (V2) | Awesome Kubernetes and Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Nubenetes Elite Portal (V2) | Awesome Kubernetes & Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 <center markdown="1">
 <div class="hero-showcase-wrapper">
@@ -150,7 +150,7 @@
 - **[Monitoring](./monitoring.md)**
 - **[Other Awesome Lists](./other-awesome-lists.md)**
 - **[Prometheus](./prometheus.md)**
-### Platform and Site Reliability
+### Platform & Site Reliability
 - **[Chaos Engineering](./chaos-engineering.md)**
 - **[Developerportals](./developerportals.md)**
 - **[DevOps](./devops.md)**
@@ -206,7 +206,7 @@
 - **[Private Cloud Solutions](./private-cloud-solutions.md)**
 - **[Public Cloud Solutions](./public-cloud-solutions.md)**
 - **[Scaleway](./scaleway.md)**
-### Networking and Service Mesh
+### Networking & Service Mesh
 - **[Caching](./caching.md)**
 - **[Cloudflare](./cloudflare.md)**
 - **[Istio](./istio.md)**
@@ -236,7 +236,7 @@
 - **[Openshift](./openshift.md)**
 - **[Rancher](./rancher.md)**
 - **[Serverless](./serverless.md)**
-### Data and Advanced Analytics
+### Data & Advanced Analytics
 - **[Crunchydata](./crunchydata.md)**
 - **[Databases](./databases.md)**
 - **[Message Queue](./message-queue.md)**
@@ -281,7 +281,7 @@
 - **[Visual Studio](./visual-studio.md)**
 - **[Web3](./web3.md)**
 - **[Xamarin](./xamarin.md)**
-### Career and Industry
+### Career & Industry
 - **[Appointment Scheduling](./appointment-scheduling.md)**
 - **[Digital Money](./digital-money.md)**
 - **[Elearning](./elearning.md)**

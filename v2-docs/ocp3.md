@@ -11,6 +11,9 @@
 1. [Architectural Foundations](#architectural-foundations)
   - [Kubernetes Tools](#kubernetes-tools)
     - [General Reference](#general-reference)
+1. [Observability](#observability)
+  - [Application Monitoring](#application-monitoring)
+    - [Java JMX](#java-jmx)
 1. [Platform Architecture](#platform-architecture)
   - [Administration](#administration)
     - [Automation](#automation)
@@ -59,13 +62,20 @@
   - [learn.openshift.com: GitOps introduction](https://learn.openshift.com/introduction/gitops-introduction)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering learn.openshift.com: GitOps introduction in the Kubernetes Tools ecosystem.
   - [blog.openshift.com: is it too late to integrate GitOps?](https://blog.openshift.comis-it-too-late-to-integrate-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.openshift.com: is it too late to integrate GitOps? in the Kubernetes Tools ecosystem.
   - [blog.openshift.com: OpenShift Authentication Integration with ArgoCD](https://blogopenshift.com/openshift-authentication-integration-with-argocd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.openshift.com: OpenShift Authentication Integration with ArgoCD in the Kubernetes Tools ecosystem.
-  - [dzone: 8 Options for Capturing Thread Dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: 8 Options for Capturing Thread Dumps in the Kubernetes Tools ecosystem.
   - [Container-native virtualization allows to run and manage virtual machine workloads alongside container workloads](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.2/html/container-native_virtualization/container-native-virtualization-2-1-release-notes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Container-native virtualization allows to run and manage virtual machine workloads alongside container workloads in the Kubernetes Tools ecosystem.
   - [How to Run HA Elasticsearch (ELK) on Red Hat OpenShift](https://portworx.com/run-ha-elasticsearch-elk-red-hat-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering How to Run HA Elasticsearch (ELK) on Red Hat OpenShift in the Kubernetes Tools ecosystem.
   - [developers.redhat.com: Installing debugging tools into a Red Hat OpenShift' container with **oc-inject**](https://developers.redhat.com/blog/2020/01/15installing-debugging-tools-into-a-red-hat-openshift-container-with-oc-inject)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering developers.redhat.com: Installing debugging tools into a Red Hat OpenShift' container with **oc-inject** in the Kubernetes Tools ecosystem.
+  - [dzone: 8 Options for Capturing Thread Dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: 8 Options for Capturing Thread Dumps in the Kubernetes Tools ecosystem.
   - [Quotas setting per project](https://docs.openshift.com/container-platform/4.2/applications/quotas/quotas-setting-per-project.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Quotas setting per project in the Kubernetes Tools ecosystem.
   - [Quotas setting across multiple projects](https://docs.openshift.com/container-platform/4.2/applications/quotas/quotas-setting-across-multiple-projects.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Quotas setting across multiple projects in the Kubernetes Tools ecosystem.
   - [Source-to-Image (S2I) Build](https://docs.openshift.com/container-platform/3.11/architecture/core_concepts/builds_and_image_streams.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Source-to-Image (S2I) Build in the Kubernetes Tools ecosystem.
+## Observability
+
+### Application Monitoring
+
+#### Java JMX
+
+  - **(2017)** [developers.redhat.com: Troubleshooting java applications on openshift (Jolokia)](https://developers.redhat.com/blog/2017/08/16/troubleshooting-java-applications-on-openshift) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Guides developers on using Jolokia, an HTTP/JSON bridge for JMX, to securely query and troubleshoot Java microservices deployed inside Red Hat OpenShift pods.
 ## Platform Architecture
 
 ### Administration
@@ -135,5 +145,5 @@
   - **(2018)** [developers.redhat.com: Securing .NET Core on OpenShift using HTTPS](https://developers.redhat.com/blog/2018/10/12/securing-net-core-on-openshift-using-https) <span class='md-tag md-tag--warning'>[C# CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Guides engineers through configuring ASP.NET Core microservices with end-to-end TLS encryption on OpenShift. Discusses dynamic integration of local server certificates using OpenShift's service serving certificates feature.
 
 ---
-💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Kubernetes Client Libraries](./kubernetes-client-libraries.md)
+💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
 
