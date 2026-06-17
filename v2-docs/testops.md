@@ -3,11 +3,14 @@
 !!! info "Architectural Context"
     Detailed reference for TestOps and Continuous Testing in the context of Platform & Site Reliability.
 
-## Standard Reference
+## Architectural Foundations
 
-  - [guru99.com: What is Continuous Testing in DevOps? Definition, Benefits,' Tools](https://www.guru99.com/continuous-testing.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [guru99.com: What is Test Driven Development (TDD)? Tutorial with Example](https://www.guru99.com/test-driven-development.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+### Kubernetes Tools
 
+#### General Reference
+
+  - [guru99.com: What is Continuous Testing in DevOps? Definition, Benefits,' Tools](https://www.guru99.com/continuous-testing.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering guru99.com: What is Continuous Testing in DevOps? Definition, Benefits,' Tools in the Kubernetes Tools ecosystem.
+  - [guru99.com: What is Test Driven Development (TDD)? Tutorial with Example](https://www.guru99.com/test-driven-development.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering guru99.com: What is Test Driven Development (TDD)? Tutorial with Example in the Kubernetes Tools ecosystem.
 ## DevOps and Quality Assurance
 
 ### Continuous Testing
@@ -87,5 +90,5 @@
   - **(2021)** [synopsys.com: How to integrate automated AST tools in your CI/CD pipeline](https://www.blackduck.com/blog/integrating-automated-ast-tools.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This article describes how to integrate automated Application Security Testing (AST) scanners (SAST, DAST, SCA) inside CI/CD pipelines. It explains how to establish automated quality gates to prevent vulnerable code from progressing to integration and production staging layers.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [QA](./qa.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Chaos Engineering](./chaos-engineering.md) | [Developerportals](./developerportals.md)
 

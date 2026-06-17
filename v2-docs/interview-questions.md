@@ -3,19 +3,13 @@
 !!! info "Architectural Context"
     Detailed reference for Interview Questions in the context of Career & Industry.
 
-## Standard Reference
+## Architectural Foundations
 
-  - [guru99.com: Top 19 Ansible Interview Questions and Answers for 2022](https://www.guru99.com/ansible-interview-questions.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [devsecops.co.in: 100+ Ansible Interview Questions and Answers](https://devsecops.co.in/2021/05/18/ansible-interview-questions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [mrdevops.hashnode.dev: Top 40 Terraform Interview Questions and Answers' for 2023](https://mrdevops.hashnode.dev/top-40-terraform-interview-questions-and-answers-for-2023)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [TGB - AWS Interview Questions and Answers - Frequently asked](https://www.techgeekbuzz.com/top-aws-interview-questions-and-answers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [grokkinginterview.com: 13 REST API interview questions you need to know](https://grokkinginterview.com/13-rest-api-interview-questions-you-need-to-know-f0e7ec857550)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [denic.hashnode.dev: Resources to crush the technical interview](https://denic.hashnode.dev/resources-to-crush-the-technical-interview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [devsecops.co.in: DevOps Interview Questions and Answers](https://devsecops.co.in/2021/05/20/devops-interview-questions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [towardsdev.com: Microservice Interview questions for Backend Developers' series-1](https://towardsdev.com/microservice-interview-questions-for-backend-developers-series-1-112d623a7c2a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [50+ Java Collections Interview Questions for Beginners and Experienced Programmers](https://medium.com/javarevisited/50-java-collections-interview-questions-for-beginners-and-experienced-programmers-4d2c224cc5ab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [devsecops.co.in: Kubernetes Interview Questions and Answers](https://devsecops.co.in/2021/05/22/kubernetes-interview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+### Kubernetes Tools
 
+#### General Reference
+
+  - [guru99.com: Top 19 Ansible Interview Questions and Answers for 2022](https://www.guru99.com/ansible-interview-questions.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering guru99.com: Top 19 Ansible Interview Questions and Answers for 2022 in the Kubernetes Tools ecosystem.
 ## Architecture
 
 ### System Design
@@ -41,6 +35,9 @@
 #### Aviation and Career Tools
 
   - **(2026)** [grow.google: interview warmup](https://grow.google/grow-your-career/articles/interview-tips) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive tool developed by Google that leverages voice-to-text and NLP algorithms to evaluate mock interview responses. Analyzes candidate language patterns to offer structural feedback for technical and programmatic roles.
+#### Cloud Networking
+
+  - **(2026)** [learnsteps.com: DevOps Interview Questions: How will you design your cloud VPC and subnets?](https://www.learnsteps.com/devops-interview-questions-how-will-you-design-your-cloud-vpc-and-subnets) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural scenario walkthrough evaluating VPC partition layout designs. Focuses on address planning, NAT placements, security group hierarchies, and transit routing rules within high-availability clouds.
 #### Database and SQL
 
   - **(2026)** [gcreddy.com: SQL Interview Questions and Answers](https://www.gcreddy.com/2022/02/sql-interview-questions-and-answers.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides fundamental SQL database query interview questions. Teaches logical query execution paths, normalization theories, basic syntax structure, and joining mechanisms across tabular databases.
@@ -192,5 +189,5 @@
   - **(2021)** [automationreinvented.blogspot.com: Top 70 interview questions on Automation Testing-Selenium-TestNG Set-06? TestNG Tricky Interview questions 2021 for SDET-QAE?](https://automationreinvented.blogspot.com/2021/01/top-60-interview-questions-on.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Broad UI automation preparation set evaluating Selenium WebDriver API combined with TestNG assertions. Covers dynamic wait mechanisms, Page Object Pattern configurations, and multi-thread test runs.
 
 ---
-💡 **Explore Related:** [HR](./hr.md) | [Elearning](./elearning.md) | [Newsfeeds](./newsfeeds.md)
+💡 **Explore Related:** [Appointment Scheduling](./appointment-scheduling.md) | [Finops](./finops.md) | [Digital Money](./digital-money.md)
 

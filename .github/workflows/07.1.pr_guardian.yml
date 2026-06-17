@@ -14,10 +14,14 @@ jobs:
   agentic-presubmit:
     runs-on: ubuntu-latest
     permissions:
+      contents: write
       pull-requests: write
     steps:
       - name: Checkout Code
         uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.head.ref || github.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name || github.repository }}
 
       - name: Python Environment
         uses: actions/setup-python@v6
@@ -39,3 +43,16 @@ jobs:
           PYTHONPATH: ${{ github.workspace }}
         run: |
           python src/pr_guardian.py
+
+      - name: Commit Auto-Corrections
+        if: always() && github.event_name == 'pull_request'
+        run: |
+          git config --global user.name "nubenetes-bot"
+          git config --global user.email "bot@nubenetes.com"
+          git add docs/ v2-docs/ README.md data/inventory.yaml src/memory/
+          if ! git diff --cached --quiet; then
+            git commit -m "style(cleaner): auto-correcting formatting & URL normalization"
+            git push origin HEAD:${{ github.event.pull_request.head.ref }} || echo "⚠️ Push failed (likely fork permission limit)."
+          else
+            echo "No formatting changes to commit."
+          fi

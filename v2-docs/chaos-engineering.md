@@ -3,22 +3,25 @@
 !!! info "Architectural Context"
     Detailed reference for Chaos Engineering in the context of Platform & Site Reliability.
 
-## Standard Reference
+## Architectural Foundations
 
-  - [medium.com/adidoescode: Chaos Engineering: How simulating adversity can' help build eCommerce Resilience](https://medium.com/adidoescode/chaos-engineering-how-simulating-adversity-can-help-build-ecommerce-resilience-4a799c8912dc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [faun.pub: What is Chaos Engineering?](https://faun.pub/what-is-chaos-engineering-a89b64db9af0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [reddit: Help with Kube Monkey setup](https://www.reddit.com/r/openshift/comments/e1j5qzrbac_for_container_access_to_destroy_other)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [GitHub: monkey-ops, Openshift compliant, no cluster-admin required](https://github.comjoshmsmith/monkey-ops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com: Getting Started with Chaos Engineering](https://1829034.medium.com/getting-started-with-chaos-engineering-13e85a438d37)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/better-practices: Learn how your Kubernetes clusters respond' to failure using Gremlin and Grafana](https://medium.com/better-practices/chaos-d3ef238ec328)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [awstip.com: Kubernetes Chaos Monkey: A Scheduled Random Pod Deletion Python' Script for Testing Cluster Resilience](https://awstip.com/kubernetes-chaos-monkey-a-scheduled-random-pod-deletion-python-script-for-testing-cluster-6eac429554b2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@alex.ivenin: Chaos engineering in kubernetes](https://medium.com/@alex.ivenin/chaos-engineering-in-kubernetes-4de425132ba1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+### Kubernetes Tools
 
+#### General Reference
+
+  - [reddit: Help with Kube Monkey setup](https://www.reddit.com/r/openshift/comments/e1j5qzrbac_for_container_access_to_destroy_other)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit: Help with Kube Monkey setup in the Kubernetes Tools ecosystem.
 ## Curated Playbooks
 
 ### Awesome Lists
 
   - **(2023)** [==Awesome Chaos Engineering==](https://github.com/dastergon/awesome-chaos-engineering) <span class='md-tag md-tag--info'>⭐ 6589</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier curated directory of resources, tools, and papers dedicated to the practice of Chaos Engineering. It indexes tools for simulating network latency, injecting resource stress, and terminating instances across various platforms, with a strong focus on cloud-native environments. This is a must-have reference for engineering teams building self-healing, fault-tolerant distributed systems.
+## Platform Engineering
+
+### Design Methodology
+
+#### Platform Democracy
+
+  - **(2023)** [Platform Democracy: Rethinking Who Builds and Consumes Your Internal Platform](https://www.syntasso.io/post/platform-democracy-rethinking-who-builds-and-consumes-your-internal-platform) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the shift from top-down platform imposition to a collaborative platform democracy model where users actively influence platform features. Focuses on Kratix-style platform design that co-creates platform capabilities to better align with actual developer workflows and organizational requirements.
 ## Resilience
 
 ### Chaos Engineering (1)
@@ -26,6 +29,7 @@
 #### Cloud Architecture
 
   - **(2021)** [aws.amazon.com: Verify the resilience of your workloads using Chaos Engineering](https://aws.amazon.com/blogs/architecture/verify-the-resilience-of-your-workloads-using-chaos-engineering) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An enterprise guide from AWS demonstrating resilience validation of distributed workloads using chaos principles. Maps failure injection patterns to the AWS Well-Architected Framework, emphasizing targeted, automated disruption sequences that verify high-availability topologies and recovery mechanisms.
+  - **(2021)** [Chaos engineering on Amazon EKS using AWS Fault Injection Simulator](https://aws.amazon.com/blogs/devops/chaos-engineering-on-amazon-eks-using-aws-fault-injection-simulator) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical walkthrough demonstrating how to orchestrate chaos experiments on Amazon EKS using AWS Fault Injection Simulator (FIS). Highlights configuring managed cluster actions to trigger node terminations, API failures, and container termination within isolated namespaces.
   - **(2021)** [aws.amazon.com: Chaos Engineering with LitmusChaos on Amazon EKS](https://aws.amazon.com/blogs/containers/chaos-engineering-with-litmuschaos-on-amazon-eks) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides an architectural blueprint for integrating LitmusChaos with Amazon EKS. Walks through installing custom resources, setting up experiment workflows for container and node disruptions, and verifying application resilience with AWS native CloudWatch metrics.
   - **(2021)** [Azure Chaos Studio](https://azure.microsoft.com/en-us/products/chaos-studio/#overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides an overview of Azure Chaos Studio, Microsoft's managed chaos orchestration platform. Explains how to configure fault injection pipelines against virtual machines, AKS clusters, and key-value stores directly inside the Azure portal.
   - **(2021)** [aws.amazon.com: Automating and Scaling Chaos Engineering using AWS Fault Injection Simulator](https://aws.amazon.com/blogs/industries/automating-and-scaling-chaos-engineering-using-aws-fault-injection-simulator) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details structural blueprints for scaling and automating chaos engineering across multiple accounts using AWS FIS. Illustrates how to integrate fault tests with CI/CD systems and automated event alarms to prevent unintended outages.
@@ -56,7 +60,7 @@
 
   - **(2022)** [opsmx.com: What is Chaos Engineering?](https://www.opsmx.com/blog/what-is-chaos-engineering)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory overview defining chaos engineering principles and lifecycle. Explains the process of forming a steady-state hypothesis, orchestrating failure experiments (such as resource spikes or network drops), and analyzing output telemetry to continuously harden cloud workloads.
   - **(2021)** [thenewstack.io: Chaos Engineering Made Simple](https://thenewstack.io/chaos-engineering-made-simple)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Simplifies chaos engineering for development teams, presenting an incremental approach to failure testing. Details how minimal disruption sequences in staging help debug configuration fallbacks before attempting large-scale production game days.
-#### Kubernetes Tools
+#### Kubernetes Tools (1)
 
   - **(2025)** [==chaosblade==](https://github.com/chaosblade-io/chaosblade) <span class='md-tag md-tag--info'>⭐ 6352</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Alibaba's multi-platform chaos engineering tool designed to inject faults across various levels of a system. Specifically targets OS resource exhaustion, network degradation, disk I/O bottlenecks, and deep application-layer faults for languages like Java, Go, and C++.
   - **(2024)** [==GitHub: kube-monkey==](https://github.com/asobti/kube-monkey) <span class='md-tag md-tag--info'>⭐ 3064</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A Go-based Kubernetes implementation of Netflix's Chaos Monkey. kube-monkey runs inside k8s clusters to systematically schedule and delete random Pod instances within designated namespaces, forcing development teams to architect highly redundant and self-healing services.
@@ -78,5 +82,5 @@
   - **(2021)** [thenewstack.io: Develop a Daily Reporting System for Chaos Mesh to Improve System Resilience](https://thenewstack.io/develop-a-daily-reporting-system-for-chaos-mesh-to-improve-system-resilience)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the development of a daily scheduled reporting workflow for Chaos Mesh. Explains how to parse and visualize test experiment outcomes, providing automated resilience scores and history charts for technical stakeholders.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [QA](./qa.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Developerportals](./developerportals.md) | [QA](./qa.md)
 

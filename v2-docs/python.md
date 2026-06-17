@@ -3,79 +3,26 @@
 !!! info "Architectural Context"
     Detailed reference for Python in the context of Developer Ecosystem.
 
-## Standard Reference
+## Architectural Foundations
 
-  - [nixCraft: Python Execute Unix/Linux Command Examples 🌟](http://www.cyberciti.biz/faq/python-execute-unix-linux-command-examples)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [stackoverflow: Create dictionary from splitted strings from list of strings](http://stackoverflow.com/questions/34319156/create-dictionary-from-splitted-strings-from-list-of-strings)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [devbattles.com: Python list. Functions and Methods lists](http://www.devbattles.com/en/sand/post-1754-Python_list_Functions_and_Methods_lists)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [devbattles.com: Python: sorting lists by .sort () with - in simple words](http://www.devbattles.com/en/sand/post-1752-Python_sorting_lists_by_sort__with__in_simple_words)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [stackoverflow: Problems installing python3 on RHEL 🌟](http://stackoverflow.com/questions/8087184/problems-installing-python3-on-rhel)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Getting Started with Django REST Framework (DRF) and AngularJS (Part 1)](http://engineroom.trackmaven.com/blog/getting-started-drf-angularjs-part-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [Getting Started with Django REST Framework (DRF) and AngularJS (Part 2)](http://engineroom.trackmaven.com/blog/getting-started-drf-angularjs-part-2)
-    - [Part 2 Supplementary Code](https://github.com/TrackMaven/getting-started-with-drf-angular/tree/part-2)
-  - [devbattles.com: Python Flask, Part 1: Hello World!](http://www.devbattles.com/en/sand/post-1757-Python_Flask_Part_1_Hello_World)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Dead simple {for devs} python crawler (script) for extracting structured data from any website into CSV](http://blog.webhose.io/2015/08/16/dead-simple-for-devs-python-crawler-script-for-extracting-structured-data-from-any-almost-website-into-csv)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Jython is a language that makes it easy to create projects with libraries from Python and Java.](http://www.oraclejavamagazine-digital.com/javamagazine_twitter/20151112?pg=43#pg43)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Learn Python 'subreddit'](https://www.reddit.com/r/learnpython)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Python progression path - From apprentice to guru](https://stackoverflow.com/questions/2573135/python-progression-path-from-apprentice-to-guru)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [reddit: Why Python](https://www.reddit.com/r/Python/comments/3ylxmk/why_python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [reddit.com: Modules every python developer should know](https://www.reddit.com/r/Python/comments/3yg2u4/modules_every_python_developer_should_know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [reddit.com: My thoughts about moving from Python 2.7 to Python 3.x](https://www.reddit.com/r/Python/comments/3yjlim/my_thoughts_about_moving_from_python_27_to_python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [en.wikibooks.org: Python Programming](https://upload.wikimedia.org/wikipedia/commons/9/91/Python_Programming.pdf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [reddit.com: Functions vs. Classes](https://www.reddit.com/r/learnpython/comments/40rieo/functions_vs_classes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Complexity of Python Operations](https://www.ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [reddit.com: Multiprocessing vs Threading?](https://www.reddit.com/r/learnpython/comments/418z8b/multiprocessing_vs_threading)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [linuxconfig.org: python tuples 🌟](https://linuxconfig.org/python-tuples)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: 3 Seemingly Simple Python Features That Confuse Beginners](https://betterprogramming.pub/3-seemingly-simple-python-features-that-confuse-beginners-313575312dcf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [pub.towardsai.net: OPs Concept in Python](https://pub.towardsai.net/oops-concept-in-python-b5f5833d57db)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [pub.towardsai.net: Class and Objects in Python with Examples](https://pub.towardsai.net/class-and-objects-in-python-with-examples-591c6ca95ee6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dineshkumarkb.com: How to specify non PYPI requirements in your requirements.txt' file](https://dineshkumarkb.com/tech/how-to-specify-non-pypi-requirements-in-your-requirements-txt-file)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [jhhemal.medium.com: Some Tips and Tricks for Writing Better Code in Python](https://jhhemal.medium.com/some-tips-and-tricks-for-writing-better-code-in-python-f65e4b6814fd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [jhhemal.medium.com: Some Essential Built-in Tools for Working with Lists](https://jhhemal.medium.com/some-essential-built-in-tools-for-working-with-lists-81c4f9d5f25e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dineshkumarkb.com: Reverse a linked list without additional datastructures' using python](https://dineshkumarkb.com/tech/reverse-a-linked-list-without-additional-datastructures-using-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [tecadmin.net: How To Read, Write & Parse CSV in Python](https://tecadmin.net/read-write-csv-in-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [writersbyte.com: 4 key Python Data Structures every beginner must know](https://writersbyte.com/4-key-python-data-structures-e-very-beginner-must-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [python.plainenglish.io: Special Methods Will Change How You Write Classes' in Python](https://python.plainenglish.io/special-methods-that-will-change-how-you-build-classes-in-python-cd0226b52eb6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com: Learn about Exceptions in Python](https://medium.com/@andreas.soularidis/learn-about-exceptions-in-python-fef309f66a78)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [tusharsrivastava.hashnode.dev: Handling text files in python - an easy guide' for beginners](https://tusharsrivastava.hashnode.dev/handling-text-files-in-python-an-easy-guide-for-beginners)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: A Simple Guide to Handle Text Files in Python | Andreas Soularidis](https://medium.com/@andreas.soularidis/a-simple-guide-to-handle-text-files-in-python-cd8a1a33ecaf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.varunsingh.in: 5 Python Tricks That Made Me A Good Python Developer](https://blog.varunsingh.in/5-python-tricks-that-made-me-a-good-python-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [python.plainenglish.io: How to Perform Read and Write Operations on JSON' Files in Python](https://python.plainenglish.io/how-to-perform-read-and-write-operations-on-json-files-in-python-a5bac724320d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.alluxi.com: 8 habilidades que necesitas para ser un gran programador' Python](https://blog.alluxi.com/8-habilidades-que-necesitas-para-ser-un-gran-programador-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@florian.rieger: If you haven‘t heard of descriptors, you don‘t' know Python](https://medium.com/@florian.rieger/if-you-haven-t-heard-of-descriptors-you-don-t-know-python-1ea4fd1614c2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.devgenius.io: Logging in Python](https://blog.devgenius.io/logging-in-python-adec94519755)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.devgenius.io: Introduction to python dictionaries](https://blog.devgenius.io/introduction-to-python-dictionaries-89045c9bf315)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [levelup.gitconnected.com: Fully Explained Array Data Structure in Python](https://levelup.gitconnected.com/fully-explained-array-data-structure-in-python-67dd9a12b695)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [pub.towardsai.net: Python: Zero to Hero with Examples](https://pub.towardsai.net/python-zero-to-hero-with-examples-c7a5dedb968b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: Getting Started With Pyvcloud — A Python Library](https://betterprogramming.pub/getting-started-with-pyvcloud-a-python-library-2e77092ed3ea)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: This Is Why You Should Use Tortoise-ORM in Your Python' Projects](https://betterprogramming.pub/this-is-why-you-should-use-tortoise-orm-in-your-python-projects-a3897dc5309e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [docker.com: How to Train and Deploy a Linear Regression Model Using PyTorch' – Part 1 (Machine Learning)](https://www.docker.com/blog/how-to-train-and-deploy-a-linear-regression-model-using-pytorch-part-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: Learning Python With Program Templates: The Input' One, Process One Template](https://betterprogramming.pub/learning-python-with-program-templates-the-input-one-process-one-template-d7ed5156d3fc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: Automate Filling Templates With Python 🌟](https://betterprogramming.pub/automate-filling-templates-with-python-1ff6c6fd595e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [pub.towardsai.net: Why Map(), Filter() And Reduce() Functions are so Famous?](https://pub.towardsai.net/why-map-filter-and-reduce-functions-are-so-famous-4c8e42fd0755)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [amitprius.medium.com: Python Dictionary: Zero to Hero with Examples](https://amitprius.medium.com/python-dictionary-zero-to-hero-with-examples-a7497a672dd4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [python.plainenglish.io: It’s Time to Say Goodbye to These Obsolete Python' Libraries 🌟](https://python.plainenglish.io/its-time-to-say-goodbye-to-these-obsolete-python-libraries-7c02aa77d84a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [guru99.com: Mutable & Immutable Objects in Python {EXAMPLES} 🌟](https://www.guru99.com/mutable-and-immutable-in-python.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: Python List Comprehensions Are More Powerful Than' You Might Think](https://betterprogramming.pub/python-list-comprehensions-are-more-powerful-than-you-might-think-3363a90e5bb0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@yonatanzunger: Advanced Python: Achieving High Performance with' Code Generation 🌟🌟](https://medium.com/@yonatanzunger/advanced-python-achieving-high-performance-with-code-generation-796b177ec79)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@connect.hashblock: Learn how you can create a chatbot in Python](https://medium.com/@connect.hashblock/learn-how-you-can-create-a-chatbot-in-python-da136467309b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [adicode.ml: Take your web development to next level with these python libraries](https://adicode.ml/python-libraries-for-webdevelopment)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@terminalsandcoffee: Mastering Python: How to Generate a List' of Dictionaries for Files in Your Working Directory with One Script](https://medium.com/@terminalsandcoffee/mastering-python-how-to-generate-a-list-of-dictionaries-for-files-in-your-working-directory-with-7cab8b485e69)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.devops.dev: Generating A List of Dictionaries With Python](https://blog.devops.dev/generating-a-list-of-dictionaries-with-python-77fca1854911)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [python.plainenglish.io: REST: A Quick Guide to Building Scalable and Flexible' Systems Using HTTP](https://python.plainenglish.io/rest-a-quick-guide-to-building-scalable-and-flexible-systems-using-http-62154841eefd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [hub.tinztwins.de: 7 Hidden Python Tips for 2024](https://hub.tinztwins.de/7-hidden-python-tips-for-2024)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/bitgrit-data-science-publication: latexify: Writing LaTeX with' Python](https://medium.com/bitgrit-data-science-publication/latexify-writing-latex-with-python-6c0fa4b2e9d5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: Dockerize Your Django Apps](https://betterprogramming.pub/dockerize-your-django-apps-428189407c69)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [rajansahu713.medium.com: Hands-On Guide to Restful API using Flask Python](https://rajansahu713.medium.com/hands-on-guide-to-restful-api-using-flask-python-16270f866ffe)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [reddit: Ship Better Python Using Feature Flags](https://www.reddit.com/r/Python/comments/3zl3g4/ship_better_python_using_feature_flags)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [reddit: Real examples of unit testing](https://www.reddit.com/r/learnpython/comments/3zl0p6/real_examples_of_unit_testing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: How to Use Pandas to Consume Data and Perform Data' Analysis](https://betterprogramming.pub/how-to-use-pandas-to-consume-data-and-perform-data-analysis-76e000ad5480)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [iaviral.medium.com: Most used functions in Pandas](https://iaviral.medium.com/most-used-functions-in-pandas-7c12ae238185)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: Pandas Illustrated: The Definitive Visual Guide to' Pandas](https://betterprogramming.pub/pandas-illustrated-the-definitive-visual-guide-to-pandas-c31fa921a43)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [hands-on.cloud: Quick Intro To Python 3 for AWS Automation Engineers 🌟](https://hands-on.cloud/quick-introduction-to-python-for-aws-automation-engineers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@d.deloatch: How to Stop all Instances Using AWS SDK for Python' (Boto3)](https://medium.com/@d.deloatch/how-to-stop-all-instances-using-aws-sdk-for-python-boto3-2e02af03177)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Build Interactive CLI Tools in Python](https://medium.com/codestory/build-interactive-cli-tools-in-python-47303c50d75)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [python.plainenglish.io: 12 Python Snippets That Will Boost Your Productivity](https://python.plainenglish.io/python-snippets-7e8dcbeae26e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+### Kubernetes Tools
 
+#### General Reference
+
+  - [stackoverflow: Create dictionary from splitted strings from list of strings](https://stackoverflow.com/questions/34319156/create-dictionary-from-splitted-strings-from-list-of-strings)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering stackoverflow.com in the Kubernetes Tools ecosystem.
+  - [Complexity of Python Operations](https://ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ics.uci.edu in the Kubernetes Tools ecosystem.
+  - [Jython is a language that makes it easy to create projects with libraries from Python and Java.](https://www.techzine.eu#pg43)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.techzine.eu in the Kubernetes Tools ecosystem.
+  - [Learn Python 'subreddit'](https://www.reddit.com/r/learnpython)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Learn Python 'subreddit' in the Kubernetes Tools ecosystem.
+  - [Python progression path - From apprentice to guru](https://stackoverflow.com/questions/2573135/python-progression-path-from-apprentice-to-guru)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Python progression path - From apprentice to guru in the Kubernetes Tools ecosystem.
+  - [reddit: Why Python](https://www.reddit.com/r/Python/comments/3ylxmk/why_python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit: Why Python in the Kubernetes Tools ecosystem.
+  - [reddit.com: Modules every python developer should know](https://www.reddit.com/r/Python/comments/3yg2u4/modules_every_python_developer_should_know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com: Modules every python developer should know in the Kubernetes Tools ecosystem.
+  - [reddit.com: My thoughts about moving from Python 2.7 to Python 3.x](https://www.reddit.com/r/Python/comments/3yjlim/my_thoughts_about_moving_from_python_27_to_python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com: My thoughts about moving from Python 2.7 to Python 3.x in the Kubernetes Tools ecosystem.
+  - [reddit.com: Functions vs. Classes](https://www.reddit.com/r/learnpython/comments/40rieo/functions_vs_classes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com: Functions vs. Classes in the Kubernetes Tools ecosystem.
+  - [reddit.com: Multiprocessing vs Threading?](https://www.reddit.com/r/learnpython/comments/418z8b/multiprocessing_vs_threading)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com: Multiprocessing vs Threading? in the Kubernetes Tools ecosystem.
+  - [docker.com: How to Train and Deploy a Linear Regression Model Using PyTorch' – Part 1 (Machine Learning)](https://www.docker.com/blog/how-to-train-and-deploy-a-linear-regression-model-using-pytorch-part-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docker.com: How to Train and Deploy a Linear Regression Model Using PyTorch' – Part 1 (Machine Learning) in the Kubernetes Tools ecosystem.
+  - [guru99.com: Mutable & Immutable Objects in Python {EXAMPLES} 🌟](https://www.guru99.com/mutable-and-immutable-in-python.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering guru99.com: Mutable & Immutable Objects in Python {EXAMPLES} 🌟 in the Kubernetes Tools ecosystem.
+  - [reddit: Ship Better Python Using Feature Flags](https://www.reddit.com/r/Python/comments/3zl3g4/ship_better_python_using_feature_flags)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit: Ship Better Python Using Feature Flags in the Kubernetes Tools ecosystem.
+  - [reddit: Real examples of unit testing](https://www.reddit.com/r/learnpython/comments/3zl0p6/real_examples_of_unit_testing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit: Real examples of unit testing in the Kubernetes Tools ecosystem.
 ## Artificial Intelligence
 
 ### Deep Learning
@@ -141,7 +88,7 @@
   - **(2008)** [Dough Hellmann - Python, OpenStack and Open Source](https://doughellmann.com) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Professional engineering journal by Doug Hellmann focusing on deep standard library structures (PyMOTW) and enterprise-level OpenStack cloud engineering with Python.
 #### Tutorials
 
-  - **(2020)** [github.com/Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Massive community structured learning resource outlining a day-by-day progression from Python fundamentals to advanced paradigms like functional programming, API development, and data analysis.
+  - **(2020)** [github.com/Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) <span class='md-tag md-tag--info'>⭐ 65301</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Massive community structured learning resource outlining a day-by-day progression from Python fundamentals to advanced paradigms like functional programming, API development, and data analysis.
   - **(2014)** [Python 3.4 Programming Tutorials - YouTube](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Classical educational video series introducing the standard features of Python 3.4 and Django 1.7. Serves as a reference for legacy syntax structures and foundational MVC designs.
   - **(2012)** [realpython.com](http://realpython.com) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Premier Python learning platform delivering granular technical deep-dives into topics ranging from async concurrency, memory management, and advanced typing schemas to automated system scripting.
   - **(2010)** [LearnPython.org interactive Python tutorial](http://www.learnpython.org) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Browser-based, interactive Python learning playground allowing engineers to quickly grasp procedural syntax, object models, and key library capabilities through directly executed code challenges.
@@ -439,6 +386,11 @@ Live Grounding: Prevents host dependency mutation, explains lock file scopes, an
 
   - **(2021)** [towardsdatascience.com: Fall in Love with Your Environment Setup](https://towardsdatascience.com/fall-in-love-with-your-environment-setup-779dfbf047ba) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Promotes a highly optimized local workspace utilizing modern terminal packages and code style automation.
 Live Grounding: Outlines configurations for zsh shell environments, poetry dependency lock structures, linting configurations (flake8), and styling formatters (black).
+### Operating Systems
+
+#### Red Hat Enterprise Linux
+
+  - **(2012)** [**stackoverflow: Problems installing python3 on RHEL 🌟**](https://stackoverflow.com/questions/8087184/installing-python-3-on-rhel) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Highly referenced community StackOverflow discussion outlining strategies and troubleshooting methods for compiling and installing Python 3 on RHEL environments. Addresses library dependency resolution and alternative package repositories like SCL. Essential historical reference for systems administrators managing enterprise Linux boxes.
 ### Python Runtime
 
 #### Performance Tuning
@@ -729,9 +681,6 @@ Live Grounding: Deep-dives into subclassing mechanics, resolving method chains v
 #### CLI Generation
 
   - **(2025)** [==google/python-fire 🌟==](https://github.com/google/python-fire) <span class='md-tag md-tag--info'>⭐ 28203</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight presents Google Fire as a library that instantly derives fully operational CLI endpoints from any Python object. Live Grounding confirms its extensive use in data engineering pipelines to easily export complex programmatic code without setting up manual parsing boilerplate.
-#### Computer Science Foundations
-
-  - **(2024)** [Think Python](https://allendowney.github.io/ThinkPython) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry-standard manual detailing computer science foundations using Python. Progresses through data structures, algorithms, functional routines, and object-oriented modeling with highly verified, elegant coding conventions.
 #### Debugging Tools
 
   - **(2016)** [tracker: A time machine for debugging pesky stateful errors](https://github.com/madisonmay/tracker) <span class='md-tag md-tag--info'>⭐ 36</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight details a utility designed to capture and track mutational state transitions in Python objects over time. Live Grounding observes that while the repository is now dormant and unmaintained, the architecture of immutable tracking states remains a core conceptual design in complex state-machine debugging.
@@ -773,6 +722,9 @@ Live Grounding: Deep-dives into subclassing mechanics, resolving method chains v
 #### Command-Line Utilities
 
   - **(2026)** [==Click 🌟==](https://click.palletsprojects.com/en/stable) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Python's premier command-line interface creation kit, designed to make writing composable CLI tools quick and fun with minimal boilerplate. Leverages Python decorators to declare options, arguments, and validation logic, offering a highly structured runtime environment with native support for nested commands and automated help page generation.
+#### Data Structures (3)
+
+  - **(2018)** [devbattles.com: Python list. Functions and Methods lists](https://www.hugedomains.com/domain_profile.cfm?d=devbattles.com) 🌟 <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Originally an educational guide covering fundamental Python list operations, methods, and manipulation syntax. Although the hosting domain has expired, the technical topic remains a staple of Python development. Designated as legacy due to domain redirection.
 ### Python Fundamentals
 
 #### Advanced Syntax
@@ -797,7 +749,7 @@ Live Grounding: Aggregates comprehensive technical tracks in systems programming
 
   - **(2022)** [aigents.co: Pro Python Tips for Data Analysts](https://aigents.co/data-science-blog/coding-tutorial/pro-python-tips-for-data-analysts) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: A practical collection of efficient Python routines designed specifically for optimization of data workloads.
 Live Grounding: Analyzes vectorization tricks, performance improvements during heavy pandas and numpy usage, and memory preservation tricks when manipulating complex analytical data structures.
-#### Data Structures (3)
+#### Data Structures (4)
 
   - **(2022)** [freecodecamp.org: Python Dictionary – How to Perform CRUD Operations on dicts in Python](https://www.freecodecamp.org/news/everything-you-need-to-know-about-python-dictionaries) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Covers the fundamental data structure lifecycle operations of Python's mapping container (dict).
 Live Grounding: Breaks down underlying hash table architectures, CRUD syntax paradigms, key access, and updates using optimized standard collection techniques.
@@ -922,5 +874,5 @@ Live Grounding: Assesses PyScript's interface layer, detailing direct DOM manipu
   - **(2015)** [TDD with Django, from scratch: a beginner's intro to testing and web development](http://www.pyvideo.org/video/3509/tdd-with-django-from-scratch-a-beginners-intro) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Historical tutorial introducing Test-Driven Development (TDD) concepts in Django. Evaluates assertion workflows, testing isolated model components, and unit test integrations within early Python CI environments.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
+💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [Angular](./angular.md) | [API](./api.md)
 

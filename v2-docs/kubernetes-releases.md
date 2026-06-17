@@ -3,16 +3,6 @@
 !!! info "Architectural Context"
     Detailed reference for Kubernetes Releases in the context of The Container Stack.
 
-## Standard Reference
-
-  - [magalix: What You Should Know about Kubernetes 1.20](https://www.magalix.com/blog/what-you-should-know-about-kubernetes-1.20)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Kubernetes v1.22 ends Cloud Provider LoadBalancer lock-in](https://medium.com/thermokline/kubernetes-v1-22-ends-cloud-provider-loadbalancer-lock-in-80ed7907695e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.runx.dev: Will That Kubernetes v1.22 Upgrade Break My Application?](https://blog.runx.dev/will-that-kubernetes-v1-22-upgrade-break-my-application-cc339dc2e2c7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [inder-devops.medium.com: It’s Time to Migrate your Container Runtime, Kubernetes' 1.24 is coming](https://inder-devops.medium.com/its-time-to-migrate-your-container-runtime-kubernetes-1-24-is-coming-f0c0b6b9bb90)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [alexandrev.medium.com: Kubernetes Autoscaling 1.26: A Game-Changer for KEDA' Users?](https://alexandrev.medium.com/kubernetes-autoscaling-1-26-a-game-changer-for-keda-users-c718a81fb155)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@jonathan_37674: Kubernetes 1.27: Everything You Should Know' | ARMO](https://medium.com/@jonathan_37674/kubernetes-1-27-everything-you-should-know-armo-236de6d77272)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [levelup.gitconnected.com: Kubernetes Planternetes v1.28: Non-Graceful Node' Shutdown Feature](https://levelup.gitconnected.com/kubernetes-planternetes-v1-28-non-graceful-node-shutdown-feature-8608d5073519)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-
 ## Cloud Integrations
 
 ### AWS
@@ -212,5 +202,5 @@
   - **(2022)** [datree.io: EKS 1.22 Upgrade Tutorial](https://www.datree.io/resources/eks-1-22-upgrade-tutorial)  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An operations-oriented technical walkthrough focusing on upgrading Amazon EKS clusters to version 1.22. It documents the impact of deprecated v1beta1 API removals, specifically detailing transitions for Ingress and CustomResourceDefinition objects. SREs can leverage this guide to configure validation scripts and preventative gatekeeping within CI/CD pipelines prior to AWS control-plane updates.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
+💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Docker](./docker.md)
 

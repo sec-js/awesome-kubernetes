@@ -3,12 +3,6 @@
 !!! info "Architectural Context"
     Detailed reference for Oracle Cloud Infrastructure (OCI) in the context of Cloud Providers (Hyperscalers).
 
-## Standard Reference
-
-  - [blogs.oracle.com: Access hands-on exercises for Oracle Cloud Infrastructure' with ease](https://blogs.oracle.com/oracleuniversity/post/hands-on-labs-oci-training)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blogs.oracle.com: Oracle RAC on Docker - Now with Full Production Support](https://blogs.oracle.com/maa/post/oracle-rac-on-docker-now-with-full-production-support)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blogs.oracle.com: Announcing private Kubernetes clusters](https://blogs.oracle.com/cloud-infrastructure/announcing-private-kubernetes-clusters)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-
 ## Cloud Integrations
 
 ### Oracle Cloud
@@ -38,5 +32,5 @@
   - **(2023)** [Oracle Container Engine for Kubernetes (OKE)](https://docs.oracle.com/en-us/iaas/Content/ContEng/Concepts/contengoverview.htm) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official product documentation for Oracle Container Engine for Kubernetes (OKE). It highlights the architectural integration of managed master nodes, native storage arrays, virtual cloud networks, and IAM profiles, delivering an enterprise-ready environment for demanding production workloads.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Backup](./aws-backup.md) | [AWS Containers](./aws-containers.md)
 

@@ -203,9 +203,14 @@ async def get_github_activity(url: str) -> Dict:
     """
     Mandate 15: Fetch real-time GitHub metadata (stars, license, last push).
     """
+    default_meta = {
+        "gh_stars": 0,
+        "gh_pushed": "N/A",
+        "gh_license": "N/A"
+    }
     match = re.search(r'github\.com/([^/]+/[^/]+)', url)
-    if not match: return {}
-    repo = match.group(1)
+    if not match: return default_meta
+    repo = match.group(1).split('#')[0].split('?')[0].rstrip('/')
     api_url = f"https://api.github.com/repos/{repo}"
     
     # Import GH_TOKEN from config locally to avoid circular dependencies
@@ -220,13 +225,16 @@ async def get_github_activity(url: str) -> Dict:
             resp = await client.get(api_url, headers=headers, timeout=10.0)
             if resp.status_code == 200:
                 data = resp.json()
+                lic = data.get("license")
+                lic_id = lic.get("spdx_id", "N/A") if isinstance(lic, dict) else "N/A"
                 return {
                     "gh_stars": data.get("stargazers_count", 0),
                     "gh_pushed": data.get("pushed_at", "N/A"),
-                    "gh_license": data.get("license", {}).get("spdx_id", "N/A")
+                    "gh_license": lic_id
                 }
     except: pass
-    return {}
+    return default_meta
+
 
 def sanitize_trailing_slashes(url: str) -> str:
     """

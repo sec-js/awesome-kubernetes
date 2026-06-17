@@ -3,29 +3,17 @@
 !!! info "Architectural Context"
     Detailed reference for NoSQL Databases and NewSQL in the context of Data & Advanced Analytics.
 
-## Standard Reference
+## Architectural Foundations
 
-  - [NoSQL vs. SQL: Choosing a Data Management Solution](http://www.javacodegeeks.com/2015/10/nosql-vs-sql.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Diferencias entre SQL y NoSQL ¿Sabes cuál usar?](http://www.facilcloud.com/noticias/?p=1294&lang=es_ES)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [NoSQL Databases: 4 Game-Changing Use Cases](http://www.smartdatacollective.com/kingmesal/373466/nosql-databases-4-game-changing-use-cases)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.couchbase.com podcast: NoSQL in the Perspective of Industry Leaders](http://blog.couchbase.com/2016/january/nosql-in-the-perspective-of-industry-leaders)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.mongodirector.com: Which is the best MongoDB GUI?](http://blog.mongodirector.com/which-is-the-best-mongodb-gui)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [mongodirector: MongoDB Hosting](http://mongodirector.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [MongoDB Tutorial – A Scalable NoSQL DB](http://www.javacodegeeks.com/2015/09/mongodb-a-scalable-nosql-db.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [NoSQL - Wikipedia](https://en.wikipedia.org/wiki/NoSQL)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [vishnu.hashnode.dev: 4 Types Of NoSQL Databases](https://vishnu.hashnode.dev/4-types-of-nosql-databases)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: When to Use MongoDB Rather than MySQL](https://medium.com/@rsk.saikrishna/when-to-use-mongodb-rather-than-mysql-d03ceff2e922)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@suvankar.dey80: Time Series SQL vs No SQL](https://medium.com/@suvankar.dey80/time-series-sql-vs-no-sql-a8c7f40d80a8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [wikipedia: Couchbase Server](https://en.wikipedia.org/wiki/Couchbase_Server)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.couchbase.com: How to Build Observability Dashboards with Prometheus,' Grafana & Couchbase](https://blog.couchbase.com/how-to-build-observability-dashboards-prometheus-grafana-couchbase)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Query JSON Using SQL With Couchbase Query Workbench](https://dzone.com/articles/query-json-using-sql-with-couchbase-query-workbenc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [MongoLab: Fully managed MongoDB-as-a-Service](https://mongolab.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Orchestrate: DBaaS|NoSQL with One REST API](https://orchestrate.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: MongoDB Schema Validation Rules](https://betterprogramming.pub/mongodb-schema-validation-rules-8a1afc6ea67b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [code.likeagirl.io: Docker: Setup Simple Application with MongoDB for Data' Storage](https://code.likeagirl.io/docker-setup-simple-application-with-mongodb-for-data-storage-272bdb3036ad)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone: SQL Syntax for Apache Drill](https://dzone.com/refcardz/sql-syntax-for-apache-drill)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com: A chance for NewSQL databases](https://medium.com/packlinkeng/a-chance-for-newsql-databases-3bba18fea6a1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+### Kubernetes Tools
 
+#### General Reference
+
+  - [NoSQL vs. SQL: Choosing a Data Management Solution](https://www.javacodegeeks.com/2015/10/nosql-vs-sql.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.javacodegeeks.com in the Kubernetes Tools ecosystem.
+  - [Diferencias entre SQL y NoSQL ¿Sabes cuál usar?](https://www.blog.facilcloud.com/noticias/sql-vs-nosql-which-one-should-i-use/?lang=es_ES)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.blog.facilcloud.com in the Kubernetes Tools ecosystem.
+  - [NoSQL Databases: 4 Game-Changing Use Cases](https://www.smartdatacollective.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.smartdatacollective.com in the Kubernetes Tools ecosystem.
+  - [MongoDB Tutorial – A Scalable NoSQL DB](https://www.javacodegeeks.com/2015/09/mongodb-a-scalable-nosql-db.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.javacodegeeks.com in the Kubernetes Tools ecosystem.
+  - [Query JSON Using SQL With Couchbase Query Workbench](https://dzone.com/articles/query-json-using-sql-with-couchbase-query-workbenc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Query JSON Using SQL With Couchbase Query Workbench in the Kubernetes Tools ecosystem.
 ## Data Architecture
 
 ### Big Data
@@ -129,5 +117,5 @@
   - **(2021)** [github.com/oslabs-beta: Odin's Eye](https://github.com/oslabs-beta/OdinsEye) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Open-source developer utility designed to monitor distributed microservices architecture patterns, tracking internal query metrics and communication flows. Primarily active within the community sandbox.
 
 ---
-💡 **Explore Related:** [Yaml](./yaml.md) | [Message Queue](./message-queue.md) | [Databases](./databases.md)
+💡 **Explore Related:** [Crunchydata](./crunchydata.md) | [Databases](./databases.md) | [Yaml](./yaml.md)
 

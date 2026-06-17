@@ -3,48 +3,6 @@
 !!! info "Architectural Context"
     Detailed reference for Machine Learning Ops (MLOps) and Data Science in the context of AI.
 
-## Standard Reference
-
-  - [cd.foundation: Announcing the CD Foundation MLOps SIG](https://cd.foundation/blog/2020/02/11/announcing-the-cd-foundation-mlops-sig)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ravirajag.dev: MLOps Basics - Week 10: Summary](https://www.ravirajag.dev/blog/mlops-summary)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/workday-engineering: Implementing a Fully Automated Sharding' Strategy on Kubernetes for Multi-tenanted Machine Learning Applications](https://medium.com/workday-engineering/implementing-a-fully-automated-sharding-strategy-on-kubernetes-for-multi-tenanted-machine-learning-4371c48122ae)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/globant: Advantages of Deploying Machine Learning models with' Kubernetes 🌟](https://medium.com/globant/advantages-of-deploying-machine-learning-models-with-kubernetes-8454cc7c565e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/pythoneers: MLOps: Tool Stack Requirement in Machine Learning' Pipeline](https://medium.com/pythoneers/mlops-tool-stack-requirement-in-machine-learning-pipeline-474b39f09dfc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/formaloo: How no-code platforms are democratizing data science' and software development 🌟](https://medium.com/formaloo/making-databases-as-easy-as-playing-with-legos-no-code-no-problem-ed41d4fde269)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [datarevenue.com: Airflow vs. Luigi vs. Argo vs. MLFlow vs. KubeFlow](https://www.datarevenue.com/en-blog/airflow-vs-luigi-vs-argo-vs-mlflow-vs-kubeflow)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [swirlai.substack.com: SAI #08: Request-Response Model Deployment - The MLOps' Way, Spark - Executor Memory Structure and more... 🌟](https://swirlai.substack.com/p/sai-08-request-response-model-deployment)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [openai.com: Scaling Kubernetes to 7,500 nodes 🌟](https://openai.com/research/scaling-kubernetes-to-7500-nodes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@study.uttam: Main Challenges of Machine Learning](https://medium.com/@study.uttam/main-challenges-of-machine-learning-eb06dffac3da)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/ai-hero: Streamlining Machine Learning Operations (MLOps) with' Kubernetes and Terraform](https://medium.com/ai-hero/streamlining-machine-learning-operations-with-kubernetes-and-terraform-41baad37998e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@karanshingde: Machine Learning in Production— Your Comprehensive' 101 Practical Guide](https://medium.com/@karanshingde/machine-learning-in-production-your-comprehensive-101-practical-guide-c7de0b5ad011)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [marvelousmlops.substack.com: CI/CD for MLOps on GitLab (part 1)](https://marvelousmlops.substack.com/p/cicd-for-mlops-on-gitlab-part-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/aiguys: MLOps: Serving AI apps to million users](https://medium.com/aiguys/mlops-serving-ai-to-million-users-c77ed718b7ed)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [marvelousmlops.substack.com: How to sell MLOps in large Organizations](https://marvelousmlops.substack.com/p/how-to-sell-mlops-in-large-organizations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [marvelousmlops.substack.com: MLOps roadmap 2024](https://marvelousmlops.substack.com/p/mlops-roadmap-2024)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [marvelousmlops.substack.com: Technical roles in Data Science: Who is doing' what?](https://marvelousmlops.substack.com/p/technical-roles-in-data-science-who)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [marvelousmlops.substack.com: Traceability & Reproducibility](https://marvelousmlops.substack.com/p/traceability-and-reproducibility)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [seattledataguy.substack.com: Data Engineering Vs Machine Learning Pipelines](https://seattledataguy.substack.com/p/data-engineering-vs-machine-learning)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@samiullah6799: Different Roles in MLOps](https://medium.com/@samiullah6799/different-roles-in-mlops-0918de5321a4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [marvelousmlops.substack.com: Sharpen your cookiecutter: speed up repo creation' with workflows](https://marvelousmlops.substack.com/p/sharpen-your-cookiecutter-speed-up)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [decodingml.substack.com: How to ensure your models are fail-safe in production?](https://decodingml.substack.com/p/how-to-ensure-your-models-are-fail)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@kevin30101999: Machine Learning Pipeline using Argo workflow' 🌟](https://medium.com/@kevin30101999/machine-learning-pipeline-using-argo-workflow-be91feb07c41)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Marvelous MLOps Substack](https://marvelousmlops.substack.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [decodingml.substack.com: Decoding ML Newsletter](https://decodingml.substack.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/mlearning-ai: The Best Object Detection Libraries That I Work' With](https://medium.com/mlearning-ai/the-best-object-detection-libraries-that-i-work-with-835428a1e01e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.devgenius.io: Kubeflow Cloud Deployment (AWS)](https://blog.devgenius.io/kubeflow-cloud-deployment-aws-46f739ccbb32)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [joseprsm.medium.com: How to build Machine Learning models that train themselves](https://joseprsm.medium.com/how-to-build-machine-learning-models-that-train-themselves-bbc87499ca5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/dkatalis: Creating a Mutating Webhook for Great Good! Or: how' to automatically provision Pods on a specific node pool](https://medium.com/dkatalis/creating-a-mutating-webhook-for-great-good-b21acb941207)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [stackoverflow.com: How is Flyte tailored to "Data and Machine Learning"?](https://stackoverflow.com/questions/72657318/how-is-flyte-tailored-to-data-and-machine-learning)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@timleonardDS: Who Let the DAGs out? Register an External DAG' with Flyte (Chapter 3)](https://medium.com/@timleonardDS/who-lets-the-dags-out-register-an-external-dag-with-flyte-chapter-3-bad0ea781119)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.devops.dev: Mastering Machine Learning at Scale with Azure Machine' Learning](https://blog.devops.dev/mastering-machine-learning-at-scale-with-azure-machine-learning-dfaa4bf4353c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [marvelousmlops.substack.com: Model serving architectures on Databricks](https://marvelousmlops.substack.com/p/model-serving-architectures-on-databricks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/sync-computing: Top 9 Lessons Learned about Databricks Jobs Serverless](https://medium.com/sync-computing/top-9-lessons-learned-about-databricks-jobs-serverless-41a43e99ded5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/bakdata: Scalable Machine Learning with Kafka Streams and KServe](https://medium.com/bakdata/scalable-machine-learning-with-kafka-streams-and-kserve-85308858d867)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@bchenjh: Distributed full fine-tuning of Llama2 on Kubernetes](https://medium.com/@bchenjh/full-fine-tuning-of-llama2-on-kubernetes-a983e1eb2259)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [learn.iterative.ai: Iterative Tools for Data Scientists & Analysts](https://learn.iterative.ai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.devgenius.io: Training model with Jenkins using docker: MLOPS](https://blog.devgenius.io/training-model-with-jenkins-using-docker-mlops-b18579ddb677)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: Attach a Visual Debugger to ML-training Jobs on Kubernetes](https://betterprogramming.pub/attach-a-visual-debugger-to-ml-training-jobs-on-kubernetes-eb9678389f1f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-
 ## AI and Machine Learning
 
 ### Bio-Computing
@@ -65,6 +23,14 @@
 #### Landscape Evaluation
 
   - **(2022)** [infoworld.com: 13 open source projects transforming AI and machine learning](https://www.infoworld.com/article/2336757/16-open-source-projects-transforming-ai-and-machine-learning.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — An analytical review of thirteen disruptive open-source initiatives restructuring the artificial intelligence and machine learning paradigm. Covers emerging runtimes, foundational data lakes, model-serving layers, and high-performance training acceleration engines that dominate the landscape.
+## Architectural Foundations
+
+### Kubernetes Tools
+
+#### General Reference
+
+  - [cd.foundation: Announcing the CD Foundation MLOps SIG](https://cd.foundation/blog/2020/02/11/announcing-the-cd-foundation-mlops-sig)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cd.foundation: Announcing the CD Foundation MLOps SIG in the Kubernetes Tools ecosystem.
+  - [stackoverflow.com: How is Flyte tailored to "Data and Machine Learning"?](https://stackoverflow.com/questions/72657318/how-is-flyte-tailored-to-data-and-machine-learning)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering stackoverflow.com: How is Flyte tailored to "Data and Machine Learning"? in the Kubernetes Tools ecosystem.
 ## AutoML
 
 ### Low-Code
@@ -401,5 +367,5 @@
   - **(2022)** [**ML Platform Workshop**](https://github.com/aporia-ai/mlplatform-workshop) <span class='md-tag md-tag--info'>⭐ 445</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A hands-on technical workshop repository showcasing the design of an end-to-end Machine Learning Platform. Demonstrates real-world integration of model registries, tracking servers, and deployment mechanisms under production-like conditions. Excellent educational resource for learning the architectural glue of modern MLOps frameworks.
 
 ---
-💡 **Explore Related:** [AI](./ai.md) | [AI Agents MCP](./ai-agents-mcp.md) | [ChatGPT](./chatgpt.md)
+💡 **Explore Related:** [AI](./ai.md) | [ChatGPT](./chatgpt.md) | [AI Agents MCP](./ai-agents-mcp.md)
 

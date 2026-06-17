@@ -3,10 +3,6 @@
 !!! info "Architectural Context"
     Detailed reference for Angular framework in the context of Developer Ecosystem.
 
-## Standard Reference
-
-  - [javascript.plainenglish.io: Angular is Costing Companies Billions](https://javascript.plainenglish.io/enough-why-its-time-to-rip-out-angular-7d831802c8a2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-
 ## App Development
 
 ### Frontend
@@ -26,5 +22,5 @@
   - **(2026)** [angular.io: Building and serving Angular apps](https://angular.dev/guide/build) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official instructions covering deployment execution and active asset compilation within the Angular CLI environment. Emphasizes production bundling configurations, static asset caching, and lazy loading strategies.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md) | [Java_Frameworks](./java_frameworks.md)
+💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [API](./api.md) | [Linux Dev Env](./linux-dev-env.md)
 

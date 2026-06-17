@@ -3,17 +3,30 @@
 !!! info "Architectural Context"
     Detailed reference for AWS DevOps. AWS CodePipeline in the context of Cloud Providers (Hyperscalers).
 
-## Standard Reference
+## Architectural Foundations
 
-  - [Amazon DevOps Guru](https://aws.amazon.com/devops/-guru)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [AWS CodeDeploy: Deploying from a Development Account to a Production Account](http://blogs.aws.amazon.com/application-management/post/Tx3PE3JTSVJSFI7/AWS-CodeDeploy-Deploying-from-a-Development-Account-to-a-Production-Account)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blazemeter.com: Three Ways DevOps Benefit from AWS CodePipeline](https://blazemeter.com/blog/three-ways-devops-benefit-aws-codepipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [aws.plainenglish.io: AWS CodePipeline for Amazon ECS](https://aws.plainenglish.io/aws-codepipeline-for-amazon-ecs-part-2-a-blue-green-deployment-type-c162fd73be91)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@d.kumarkaran12: DevSecOps with AWS CodePipeline and ECS](https://medium.com/@d.kumarkaran12/devsecops-with-aws-codepipeline-and-ecs-c800f139a9ee)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+### Kubernetes Tools
 
+#### General Reference
+
+  - [AWS CodeDeploy: Deploying from a Development Account to a Production Account](https://aws.amazon.com/blogs/devops/aws-codedeploy-deploying-from-a-development-account-to-a-production-account)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering aws.amazon.com in the Kubernetes Tools ecosystem.
+## CI-CD
+
+### Cloud-Native Delivery
+
+#### AWS
+
+  - **(2019)** [blazemeter.com: Three Ways DevOps Benefit from AWS CodePipeline](https://www.blazemeter.com/blog/devops-best-practices-testing) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight emphasizes the DevOps efficiency gains using AWS-native pipelines. Live Grounding demonstrates how the platform automates continuous integration, integrates performance testing tools like BlazeMeter, and reduces manual deployment risk. It serves as a practical blueprint for cloud-native delivery.
+## Cloud Infrastructure
+
+### AWS Ecosystem
+
+#### Cloud Services
+
+  - **(2026)** [AWS DevOps 🌟](https://aws.amazon.com/devops) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AWS’s primary DevOps portal, presenting their native continuous delivery and infrastructure management stack, including CodePipeline, CodeBuild, and CloudFormation. While curator listings highlight frictionless integration with EC2 and ECS, live architectural patterns in 2026 showcase teams frequently combining AWS-native compute with cloud-agnostic deployment runtimes to avoid platform lock-in.
 ## Cloud Providers
 
-### AWS
+### AWS (1)
 
 #### Infrastructure-as-Code
 
@@ -60,5 +73,5 @@
   - **(2021)** [admiralty.io: Multi-Region AWS Fargate on EKS](https://admiralty.io/docs/tutorials/fargate) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Granular implementation tutorial for deploying Admiralty proxy schedulers to configure cross-cluster communication channels that target serverless AWS Fargate environments in multi-region setups.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Backup](./aws-backup.md) | [AWS Containers](./aws-containers.md)
 

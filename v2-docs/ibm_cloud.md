@@ -3,24 +3,14 @@
 !!! info "Architectural Context"
     Detailed reference for IBM in the context of Cloud Providers (Hyperscalers).
 
-## Standard Reference
+## Architectural Foundations
 
-  - [Red Hat OpenShift on IBM Cloud](https://www.ibm.com/solutions/cloud/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [IBM Knowledge Center 🌟](https://www.ibm.com/docs/en)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [IBM API Connect](https://www.ibm.com/docs/en/api-connect)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [IBM Knowledge Center: IBM Cloud Pak for Multicloud Management](https://www.ibm.com/docs/en/cloud-paks/cp-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [IBM Cloud Pak Playbook](https://cloudpak8s.io/apps/cp4a_overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [IBM Cloud Pak Playbook: cloudpak8s.io](https://cloudpak8s.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [IBM Vault 2.0 UI Enhancements and Reporting Improvements](https://t.co/cvOceuueCF)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [About WebSphere Liberty](https://developer.ibm.com/wasdev/websphere-liberty)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [reuters.com: IBM to break up 109-year old company to focus on cloud growth' 🌟](https://www.reuters.com/article/us-ibm-divestiture/ibm-to-break-up-109-year-old-company-to-focus-on-cloud-growth-idUSKBN26T1TZ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [WebSphere Liberty](https://developer.ibm.com/wasdev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Download WAS Liberty](https://developer.ibm.com/wasdev/downloads)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [OpenShift Container Platform 4.2. Installing on IBM Z (html)](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.2/html/installing_on_ibm_z)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [OpenShift Container Platform 4.2. Installing on IBM Z (pdf)](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.2/pdf/installing_on_ibm_z)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/search?q=cp4mcm](https://medium.com/search?q=cp4mcm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: tagged/cp4mcm](https://medium.com/ibm-cloud-paks-help-and-guidance-from-ibm-cloud/tagged/cp4mcm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+### Kubernetes Tools
 
+#### General Reference
+
+  - [OpenShift Container Platform 4.2. Installing on IBM Z (html)](https://docs.redhat.com/en/documentation/openshift_container_platform/4.2/html/installing_on_ibm_z/index)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.redhat.com in the Kubernetes Tools ecosystem.
+  - [OpenShift Container Platform 4.2. Installing on IBM Z (pdf)](https://docs.redhat.com/en/documentation/openshift_container_platform/4.2/pdf/installing_on_ibm_z/index)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.redhat.com in the Kubernetes Tools ecosystem.
 ## Cloud-Native Java
 
 ### Runtimes
@@ -38,6 +28,14 @@
   - **(2026)** [**DockerHub: websphere-liberty**](https://hub.docker.com/_/websphere-liberty) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The official WebSphere Liberty image on Docker Hub, providing a highly optimized cloud-native runtime designed for Java EE and MicroProfile. Live Grounding emphasizes its value for enterprise application modernization, delivering low-footprint containers with IBM technical backing.
 ## Enterprise Integration
 
+### Cloud-Native Storage
+
+#### IBM Spectrum Scale Integration
+
+  - **(2020)** [redbooks.ibm.com: IBM Storage for Red Hat OpenShift. IBM block storage & IBM Spectrum Scale](http://www.redbooks.ibm.com/abstracts/redp5565.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This comprehensive Redbook outlines deployment architecture guidelines for IBM Block Storage and IBM Spectrum Scale CSI drivers within OpenShift environments. It details technical patterns for high-performance file sharing, security isolation, multi-zone availability, and persistent volume provisioning needed for enterprise-grade workloads.
+#### IBM Storage Systems
+
+  - **(2022)** [IBM Spectrum](https://www.ibm.com/solutions) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — IBM Spectrum (now rebranded under IBM Storage) delivers enterprise-grade software-defined storage architectures tailored for highly demanding Kubernetes deployments. The portfolio provides integrated high-performance block, file, and object interfaces designed for secure backup, recovery, and dynamic persistent volume management in complex hybrid-cloud ecosystems.
 ### Enterprise Mainframe
 
 #### Bare Metal Installation
@@ -82,5 +80,5 @@
   - **(2019)** [IBM Leverages Containers to Advance DevOps on Mainframes](https://cloudnativenow.com/topics/cloudnativedevelopment/ibm-leverages-containers-to-advance-devops-on-mainframes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details how IBM brought containerization architectures (like z/OS Container Extensions) to its zSystems mainframes. Live Grounding confirms this as a key modernization vector, enabling developers to build and test mainframe workloads using Git-driven Docker/Kubernetes workflows.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Backup](./aws-backup.md) | [AWS Containers](./aws-containers.md)
 

@@ -3,59 +3,18 @@
 !!! info "Architectural Context"
     Detailed reference for Project Management in the context of Platform & Site Reliability.
 
-## Standard Reference
+## Architectural Foundations
 
-  - [dzone: Project Management Methodology: A Beginner's Guide](https://dzone.com/articles/best-emerging-project-management-methodologies-in)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone: A Complete Guide to the Project Management Lifecycle](https://dzone.com/articles/a-complete-guide-to-project-management-life-cycle)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone: Top 40 Project Management Terms and Concepts of 2019](https://dzone.com/articles/top-40-project-management-terms-and-concepts-of-20)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [agilecheetah.com: Why So Many Developers are Fed Up with Agile](https://agilecheetah.com/why-so-many-developers-are-fed-up-with-agile-pt-3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Scrum Teams That Don’t Verify Their Outcomes Are Basically Waterfall' Teams](https://medium.com/serious-scrum/scrum-teams-that-dont-verify-their-outcomes-are-basically-waterfall-teams-cb208acdcc61)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Nine Steps to Successfully Start Your New Product Owner Job](https://medium.com/serious-scrum/nine-steps-to-successfully-start-your-new-product-owner-job-b276c85e3dde)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [carlos-piqueres.medium.com: Product Backlog vs Sprint Backlog](https://carlos-piqueres.medium.com/product-backlog-vs-sprint-backlog-c951f972e979)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [skamille.medium.com: How New Managers Fail Individual Contributors](https://skamille.medium.com/how-new-managers-fail-individual-contributors-839a13bda1c5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [acumen.io: Can Kanban scale for teams of over 50 developers? When should' you consider moving to Scrum?](https://www.acumen.io/blog/can-kanban-scale-for-teams-of-over-50-developers-when-should-you-consider-moving-to-scrum)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: How to Speed Up Your Progress With Feedback](https://betterprogramming.pub/how-to-speed-up-your-progress-with-feedback-1f41872b290a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: Sprint Planning: Best Practices](https://betterprogramming.pub/sprint-planning-best-practices-1aad4103f6cb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@victor.ronin: The dark side of a cross-functional team](https://medium.com/@victor.ronin/the-dark-side-of-a-cross-functional-team-e0d379e37c70)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [alexander-goida.medium.com: Thoughts about breaking silos of software engineering' teams 🌟](https://alexander-goida.medium.com/thoughts-about-breaking-silos-of-software-engineering-teams-323d1f78ef68)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@TonyBologni: 4 reasons why 4 is the perfect team size for (agile)' software development 🌟](https://medium.com/@TonyBologni/4-reasons-why-4-is-the-perfect-team-size-for-agile-software-development-8597d33f3cfe)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/dkatalis: Component Team vs Feature Team in a Nutshell 🌟](https://medium.com/dkatalis/component-team-vs-feature-team-in-a-nutshell-60c58671496f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/the-ascent: Quiet People in Meetings Are Incredible](https://medium.com/the-ascent/quiet-people-in-meetings-are-incredible-7bb05ef9acd1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [autoblog.com: VW CEO lost his job over buggy software that delayed new models](https://www.autoblog.com/2022/07/25/vw-ceo-herbert-diess-fired-over-cariad-buggy-software)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: Techniques for Managing Your Time and Cognitive Load' as a Senior Leader](https://betterprogramming.pub/techniques-for-managing-your-time-and-cognitive-load-as-a-senior-leader-2b9eadb0daa4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/awesome-agile: 10 Ways Managers are Wasting Their Developers' Potential](https://medium.com/awesome-agile/10-ways-managers-are-wasting-their-developers-potential-5c0d78d8f8ba)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: Stop Hiring Software Engineers](https://betterprogramming.pub/stop-hiring-software-engineers-8545520437ac)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/developer-purpose: Think before you code. Engineering’s most' underrated advice](https://medium.com/developer-purpose/think-before-you-code-engineerings-most-underrated-advice-40b47e08a3fc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: How to Grow as a (Software) Engineering Manager](https://betterprogramming.pub/how-do-you-grow-as-a-software-engineering-manager-33a05873693)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: Good Leadership Is About Growth, Not Brilliance](https://betterprogramming.pub/good-leadership-is-about-growth-not-brilliance-af8ca30f1a3a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterhumans.pub: 8 Communication Hacks I Use To Appear More Senior As a' Young Employee](https://betterhumans.pub/8-communication-hacks-i-use-to-appear-more-senior-as-a-young-employee-9106468bf5aa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [jproco.medium.com: Deliver a Product Roadmap That Survives Startup Velocity](https://jproco.medium.com/deliver-a-product-roadmap-that-survives-startup-velocity-f9be4fb9893e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/career-of-you: A Ten-Step Process for Team Leaders to Reduce' Meeting Overload and Take Back Their Time](https://medium.com/career-of-you/a-ten-step-process-for-team-leaders-to-reduce-meeting-overload-and-take-back-their-time-407cf1f8f09b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: The Importance of Code Ownership 🌟](https://betterprogramming.pub/the-underestimated-importance-of-clear-code-ownership-baed758e47b8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [bootcamp.uxdesign.cc: A quick win to prepare for every meeting using templates](https://bootcamp.uxdesign.cc/a-quick-win-to-prepare-for-every-meeting-using-templates-d2359c849433)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [huryn.substack.com: 3 Ways to Create 10X Better Product Roadmaps](https://huryn.substack.com/p/3-ways-to-create-10x-better-product)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [jchyip.medium.com: My critique of “the Spotify Model”: Part 1](https://jchyip.medium.com/my-critique-of-the-spotify-model-part-1-197d335ef7af)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@tom-neal: CTO Checklist](https://medium.com/@tom-neal/cto-checklist-1a2ef3d6502)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone.com: Productivity: Noise Is the Problem 🌟🌟](https://dzone.com/articles/effectiveness-noise-is-the-problem)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [levelup.gitconnected.com: How to manage your technical backlog](https://levelup.gitconnected.com/how-to-manage-your-technical-backlog-868415f8eea9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techrepublic.com: What is Lean Software Development?](https://www.techrepublic.com/article/lean-development)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@ElizAyer: Meetings *are* the work](https://medium.com/@ElizAyer/meetings-are-the-work-9e429dde6aa3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [inc.com: 27 Years Ago, Steve Jobs Said the Best Employees Focus on Content,' Not Process. Research Shows He Was Right](https://www.inc.com/jeff-haden/27-years-ago-steve-jobs-said-best-employees-focus-on-content-not-process-workplace-research-shows-he-was-right.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Bus factor](https://en.wikipedia.org/wiki/Bus_factor)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/codex: The Only True Agency A Software Engineer Requires](https://medium.com/codex/the-only-true-agency-a-software-engineer-requires-2c0816b263bc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [eleconomista.es: Cómo es un mal jefe y qué debe aprender para liderar mejor' su empresa (y ser feliz)](https://www.eleconomista.es/status/noticias/10679296/07/20/Como-es-un-mal-jefe-y-que-debe-aprender-para-liderar-mejor-su-empresa-y-ser-feliz.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: Team Topologies — A New Way of Thinking About Teams](https://betterprogramming.pub/team-topologies-a-new-way-of-thinking-about-teams-8f4853038509)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [rethinkagile.org: 5 reasons why Agile is better than Waterfall](https://www.rethinkagile.org/post/5-reasons-why-agile-is-better-than-waterfall)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [thedigitalprojectmanager.com: Waterfall Vs Agile: ¿Cuál Metodología Debes' Utilizar Para Tu Proyecto?](https://thedigitalprojectmanager.com/es/agile-frente-a-waterfall)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [guru99.com: Agile Vs Scrum: Know the Difference](https://www.guru99.com/agile-vs-scrum.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Are Scrum and Kanban Allies Or Enemies?](https://medium.com/serious-scrum/are-scrum-and-kanban-allies-or-enemies-9d1d27353cd7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [wikipedia: Responsibility assignment matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [thedigitalprojectmanager.com: Create A Responsibility Assignment Matrix' (RACI Chart) That Works](https://thedigitalprojectmanager.com/raci-chart-made-simple)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Minimum Viable Product](https://en.wikipedia.org/wiki/Minimum_viable_product)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: MVP vs MDP = Viability vs Delight. What You Really Need?](https://medium.com/swlh/mvp-vs-mdp-viability-vs-delight-what-you-really-need-296b42df005d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [reddit.com: Promotion Driven Development](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [en.wikipedia.org: Kiss up kick down](https://en.wikipedia.org/wiki/Kiss_up_kick_down)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+### Kubernetes Tools
 
+#### General Reference
+
+  - [dzone: Project Management Methodology: A Beginner's Guide](https://dzone.com/articles/best-emerging-project-management-methodologies-in)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Project Management Methodology: A Beginner's Guide in the Kubernetes Tools ecosystem.
+  - [dzone: A Complete Guide to the Project Management Lifecycle](https://dzone.com/articles/a-complete-guide-to-project-management-life-cycle)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: A Complete Guide to the Project Management Lifecycle in the Kubernetes Tools ecosystem.
+  - [dzone: Top 40 Project Management Terms and Concepts of 2019](https://dzone.com/articles/top-40-project-management-terms-and-concepts-of-20)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Top 40 Project Management Terms and Concepts of 2019 in the Kubernetes Tools ecosystem.
+  - [dzone.com: Productivity: Noise Is the Problem 🌟🌟](https://dzone.com/articles/effectiveness-noise-is-the-problem)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==dzone.com: Productivity: Noise Is the Problem== 🌟🌟 in the Kubernetes Tools ecosystem.
+  - [guru99.com: Agile Vs Scrum: Know the Difference](https://www.guru99.com/agile-vs-scrum.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering guru99.com: Agile Vs Scrum: Know the Difference in the Kubernetes Tools ecosystem.
+  - [reddit.com: Promotion Driven Development](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com: Promotion Driven Development in the Kubernetes Tools ecosystem.
 ## Architecture
 
 ### Prototyping
@@ -244,6 +203,13 @@
 #### Conflict Resolution (1)
 
   - **(2021)** [euroresidentes.com: La intimidación verbal en la empresa](https://www.euroresidentes.com/empresa/exito-empresarial/la-intimidacin-verbal-en-la-empresa) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Tackles verbal intimidation and toxic communication habits in corporate environments. Outlines methods for building psychological safety, addressing workplace harassment, and establishing strict ethical communication rules to protect engineering talent.
+## Management and Strategy
+
+### Engineering Culture (1)
+
+#### Career Development (3)
+
+  - **(2023)** [**Promotion-Based Development: A Fast Track to Mediocrity**](https://vadimkravcenko.com/shorts/promotion-based-development) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A thought-provoking critique of development environments where promotion tracks heavily incentivize complex over-engineering and short-term visibility tasks rather than long-term architectural stability. Warns against standard architectural anti-patterns created by misaligned individual KPIs. Highly valuable reading for engineering leadership.
 ## Organizational Design (1)
 
 ### Team Topologies
@@ -347,7 +313,7 @@
   - **(2022)** [k21academy.com: Scrum vs Kanban](https://k21academy.com/scrum/scrum-vs-kanban)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical overview comparing Scrum sprints and Kanban boards, aimed at cloud engineering professionals. Emphasizes how task-level agile delivery frameworks interface with cloud DevOps pipelines to drive high-frequency infrastructure deployments.
 ### Anti-Patterns (1)
 
-#### Engineering Culture (1)
+#### Engineering Culture (2)
 
   - **(2021)** [nichesoftware.co.nz: Promotion Driven Development (PDD) 🌟](http://www.nichesoftware.co.nz/2021/05/29/promotion-driven-development.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Critiques the anti-pattern of Promotion Driven Development (PDD), where engineers select unnecessary, highly complex tools and over-engineer architectures to pad resumes for promotions. Warns against the resulting complexity, technical debt, and team maintenance burdens.
 ### Hybrid Methodologies
@@ -369,5 +335,5 @@
   - **(2022)** [**techcrunch.com: Protestware on the rise: Why developers are sabotaging their own code**](https://techcrunch.com/2022/07/27/protestware-code-sabotage) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Investigates the complex security phenomenon of 'protestware,' where open-source maintainers intentionally introduce destructive changes or regional exploits into widely used packages for political or social reasons. Details the architectural impact on enterprise software supply chains and highlights the urgent necessity for robust dependency pinning, software bills of materials, and strict package mirroring.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [QA](./qa.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Chaos Engineering](./chaos-engineering.md) | [Developerportals](./developerportals.md)
 

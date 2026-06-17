@@ -29,7 +29,7 @@ async def run_metadata_enrichment():
         
         cached = engine.inventory.get(norm_url, {})
         # Enrich if missing or if forced
-        if (force_full or not cached.get("gh_stars")) and norm_url not in processed_gh_metadata:
+        if (force_full or cached.get("gh_stars") is None) and norm_url not in processed_gh_metadata:
             processed_gh_metadata.add(norm_url)
             gh_tasks.append(_fetch_gh_with_sem(norm_url))
 

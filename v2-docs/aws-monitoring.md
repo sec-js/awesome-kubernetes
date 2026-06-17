@@ -3,16 +3,15 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Monitoring and Logging in the context of Cloud Providers (Hyperscalers).
 
-## Standard Reference
+## Architectural Foundations
 
-  - [blogs.splunk.com: AWS Agility + Splunk Visibility = Customer Success](http://blogs.splunk.com/2016/06/22/aws-video)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: AWS Account Security Monitoring](https://medium.com/swlh/aws-account-security-monitoring-d7ca129d52ac)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [kevintuei.medium.com: A Deep Dive into Logs and Metrics for AWS Observability' — One Observability Workshop](https://kevintuei.medium.com/a-deep-dive-into-logs-and-metrics-for-aws-observability-one-observability-workshop-14c162932174)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [logz.io: What are AWS EC2 Instances? A Tutorial for EC2 Metrics Shipping' with Logz.io](https://logz.io/blog/aws-ec2-metrics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [logz.io: A Guide to Monitoring AWS Lambda Metrics with Prometheus & Logz.io](https://logz.io/blog/aws-lambda-metrics-monitoring-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone: Optimize AWS Costs With CloudWatch's Advanced Metrics, Dashboards,' and Alerts](https://dzone.com/articles/optimize-aws-costs-with-cloudwatchs-advanced-metri)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com: Up and running with Amazon Managed Service for Prometheus](https://medium.com/devops-techable/up-and-running-with-amazon-managed-service-for-prometheus-6fd12e56bff6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+### Kubernetes Tools
 
+#### General Reference
+
+  - [logz.io: What are AWS EC2 Instances? A Tutorial for EC2 Metrics Shipping' with Logz.io](https://logz.io/blog/aws-ec2-metrics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering logz.io: What are AWS EC2 Instances? A Tutorial for EC2 Metrics Shipping' with Logz.io in the Kubernetes Tools ecosystem.
+  - [logz.io: A Guide to Monitoring AWS Lambda Metrics with Prometheus & Logz.io](https://logz.io/blog/aws-lambda-metrics-monitoring-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering logz.io: A Guide to Monitoring AWS Lambda Metrics with Prometheus & Logz.io in the Kubernetes Tools ecosystem.
+  - [dzone: Optimize AWS Costs With CloudWatch's Advanced Metrics, Dashboards,' and Alerts](https://dzone.com/articles/optimize-aws-costs-with-cloudwatchs-advanced-metri)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Optimize AWS Costs With CloudWatch's Advanced Metrics, Dashboards,' and Alerts in the Kubernetes Tools ecosystem.
 ## Cloud Native Platforms
 
 ### AWS
@@ -80,5 +79,5 @@
   - **(2022)** [Custom Health Check: HealthCheckCustomConfig](https://docs.aws.amazon.com/cloud-map/latest/api/API_HealthCheckCustomConfig.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official reference guide for Cloud Map API's custom health checks. Explains dynamic service discovery patterns for serverless workloads where traditional load balancer health checks are inapplicable.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Backup](./aws-backup.md) | [AWS Containers](./aws-containers.md)
 

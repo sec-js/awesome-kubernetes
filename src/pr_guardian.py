@@ -1,5 +1,9 @@
 import os
+import re
+import sys
+import httpx
 import asyncio
+import subprocess
 from github import Github
 from src.config import GH_TOKEN, TARGET_REPO
 from src.gemini_utils import call_gemini_with_retry
@@ -26,6 +30,55 @@ async def analyze_pr_diff(diff_text: str) -> str:
     except Exception as e:
         return f"⚠️ Guardian AI temporarily unavailable: {e}"
 
+def auto_format_file(filepath: str):
+    if not os.path.exists(filepath):
+        return
+    with open(filepath, "r", encoding="utf-8") as f:
+        content = f.read()
+    
+    original_content = content
+    
+    # 1. Clean URLs
+    from src.gemini_utils import normalize_url
+    def repl_link(match):
+        text = match.group(1)
+        url = match.group(2)
+        if url.startswith(("http://", "https://")):
+            try:
+                cleaned = normalize_url(url)
+                return f"[{text}]({cleaned})"
+            except:
+                return match.group(0)
+        return match.group(0)
+    
+    content = re.sub(r'\[([^\]]+)\]\((https?://[^\)]+)\)', repl_link, content)
+    
+    # 2. Clean headers (e.g., ampersands to "and", strip emojis)
+    lines = content.splitlines()
+    new_lines = []
+    for line in lines:
+        if line.strip().startswith("#"):
+            line = line.replace("&", "and")
+            line = re.sub(r'[\U00010000-\U0010ffff]', '', line)
+            for char in "🧠☁️🌟🛡️🧪💎🕵️✨⚠️🔴🟡✅📍🎥":
+                line = line.replace(char, "")
+            line = re.sub(r'\s+', ' ', line).strip()
+            match = re.match(r'^(#+)\s*(.*)', line)
+            if match:
+                level, title = match.groups()
+                line = f"{level} {title.strip()}"
+        new_lines.append(line)
+    
+    content = "\n".join(new_lines) + ("\n" if original_content.endswith("\n") else "")
+    
+    # 3. Clean <center> tags (Mandate 19)
+    content = re.sub(r'<center(?! markdown="1")>', '<center markdown="1">', content)
+    
+    if content != original_content:
+        with open(filepath, "w", encoding="utf-8") as f:
+            f.write(content)
+        print(f"[*] Auto-formatted file: {filepath}")
+
 def main():
     pr_number = os.getenv("PR_NUMBER")
     if not pr_number:
@@ -36,29 +89,58 @@ def main():
     repo = g.get_repo(TARGET_REPO)
     pr = repo.get_pull(int(pr_number))
 
-    # We don't want to comment repeatedly on the same commit
-    # So we check if we already commented
-    bot_signature = "<!-- PR_GUARDIAN_SIGNATURE -->"
-    for comment in pr.get_issue_comments():
-        if bot_signature in comment.body:
-            print("Already commented on this PR.")
-            # Optional: update the comment or just exit
-            return
+    # Get changed files in PR and run auto-formatting
+    try:
+        files = pr.get_files()
+        modified_files = [f.filename for f in files if f.status in ["modified", "added"]]
+        for filepath in modified_files:
+            if filepath.endswith(".md"):
+                auto_format_file(filepath)
+    except Exception as e:
+        print(f"Warning: Failed to fetch files for auto-formatting: {e}")
 
-    # Get PR diff
-    diff_url = pr.diff_url
-    import httpx
-    diff_text = httpx.get(diff_url).text
+    # Fetch base branch and get the updated diff (with auto-fixes applied)
+    try:
+        subprocess.run(["git", "fetch", "origin", pr.base.ref, "--depth=1"], capture_output=True)
+        diff_process = subprocess.run(["git", "diff", f"origin/{pr.base.ref}"], capture_output=True, text=True)
+        diff_text = diff_process.stdout
+    except Exception as e:
+        print(f"Warning: Failed to get git diff locally: {e}. Falling back to GitHub PR diff.")
+        diff_text = httpx.get(pr.diff_url).text
 
     # Skip if too huge or not markdown
-    if len(diff_text) > 50000:
+    if len(diff_text) > 100000:
+        print("Diff is too large for AI analysis (>100KB). Skipping detailed AI check, but auto-formatting was completed.")
         return
         
     analysis = asyncio.run(analyze_pr_diff(diff_text))
     
+    # Check if comment already exists to avoid duplication
+    bot_signature = "<!-- PR_GUARDIAN_SIGNATURE -->"
+    existing_comment = None
+    for comment in pr.get_issue_comments():
+        if bot_signature in comment.body:
+            existing_comment = comment
+            break
+
     final_comment = f"{bot_signature}\n### 🛡️ Nubenetes PR Guardian\n\n{analysis}"
-    pr.create_issue_comment(final_comment)
-    print("Guardian comment posted.")
+    
+    if existing_comment:
+        existing_comment.edit(final_comment)
+        print("Existing Guardian comment updated.")
+    else:
+        pr.create_issue_comment(final_comment)
+        print("Guardian comment posted.")
+
+    # Determine if validation passed
+    clean_analysis = analysis.strip().lower()
+    if "pr meets nubenetes standards" in clean_analysis:
+        print("✅ PR Meets Nubenetes Standards!")
+        sys.exit(0)
+    else:
+        print("❌ PR violates Nubenetes mandates. Exiting with 1.")
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()
+

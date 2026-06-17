@@ -3,12 +3,6 @@
 !!! info "Architectural Context"
     Detailed reference for Project Management Tools in the context of Platform & Site Reliability.
 
-## Standard Reference
-
-  - [Servicenow](https://www.servicenow.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Best Project Management Software of 2020](https://neilpatel.com/blog/best-project-management-software)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techrepublic.com: Kanboard: A simple to deploy, easy to use Kanban board' for project management](https://www.techrepublic.com/article/kanboard-a-simple-to-deploy-easy-to-use-kanban-board-for-project-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-
 ## Collaboration Tools
 
 ### SaaS Utilities
@@ -86,5 +80,5 @@
   - **(2026)** [GH Gists: gist.new](https://gist.github.com/starred)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An efficiency shortcut (`gist.new`) that directs users to GitHub's Gist creation environment. Allows developers to rapidly save, share, and audit isolated code configurations, terminal scripts, or stack traces without initializing full Git trees.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [QA](./qa.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Chaos Engineering](./chaos-engineering.md) | [Developerportals](./developerportals.md)
 

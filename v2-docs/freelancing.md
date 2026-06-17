@@ -3,19 +3,6 @@
 !!! info "Architectural Context"
     Detailed reference for Freelancing in the context of Career & Industry.
 
-## Standard Reference
-
-  - [gestoresderiesgo.com: Prohibición de utilizar programas informáticos que permitan llevar una doble contabilidad empresarial](http://www.gestoresderiesgo.com/colaboradores/prohibicion-de-utilizar-programas-informaticos-que-permitan-llevar-una-doble-contabilidad-empresarial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [eleconomista.es: Solo el 13% de autónomos en tarifa plana 'sobrevive' después de 24 meses](https://www.eleconomista.es/economia/noticias/11338080/07/21/Solo-el-13-de-autonomos-en-tarifa-plana-sobrevive-despues-de-24-meses.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [eleconomista.es: El acceso a financiación, una barrera (casi) infranqueable' para los autónomos](https://www.eleconomista.es/actualidad/noticias/11361634/08/21/El-acceso-a-financiacion-una-barrera-casi-infranqueable-para-los-autonomos.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [eleconomista.es: Estas son las cuotas de los autónomos a la Seguridad Social' y los derechos que garantizan](https://www.eleconomista.es/economia/noticias/11368404/08/21/Estas-son-las-cuotas-de-los-autonomos-a-la-Seguridad-Social-y-los-derechos-que-garantizan.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [eleconomista.es: Estos son los gastos de los autónomos que no se pueden' deducir en el IVA](https://www.eleconomista.es/economia/noticias/11390425/09/21/Estos-son-los-gastos-de-los-autonomos-que-no-se-pueden-deducir-en-el-IVA.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [eleconomista.es: La ayuda del SEPE a los autónomos: así pueden cobrar el' paro a la vez que trabajan](https://www.eleconomista.es/economia/noticias/11391909/09/21/La-ayuda-del-SEPE-a-los-autonomos-asi-pueden-cobrar-el-paro-a-la-vez-que-trabajan.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [malt 🌟](https://www.malt.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [upwork 🌟](https://www.upwork.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [fiverr](https://www.fiverr.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [remoteone](https://remote.one)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-
 ## Business and Careers
 
 ### Freelance Platforms
@@ -129,5 +116,5 @@
   - **(2026)** [soshace](https://soshace.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated remote work platform targeting web developers, specifically focusing on React, Angular, and Node.js engineers. It offers transparent vetting and direct client-to-developer contracts. Live grounding emphasizes its utility for medium-sized businesses seeking rapid frontend scaling.
 
 ---
-💡 **Explore Related:** [HR](./hr.md) | [Elearning](./elearning.md) | [Newsfeeds](./newsfeeds.md)
+💡 **Explore Related:** [Appointment Scheduling](./appointment-scheduling.md) | [Finops](./finops.md) | [Digital Money](./digital-money.md)
 

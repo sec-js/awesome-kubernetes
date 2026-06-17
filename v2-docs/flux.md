@@ -3,19 +3,16 @@
 !!! info "Architectural Context"
     Detailed reference for Flux. The GitOps operator for Kubernetes in the context of Engineering Pipeline.
 
-## Standard Reference
+## Architectural Foundations
 
-  - [dzone: Developing Applications on Multi-tenant Clusters With Flux and Kustomize](https://dzone.com/articles/developing-applications-on-multitenant-clusters-wi)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloud-viadee.medium.com: GitOps for IT-Architects: Transparent and Secure' Kubernetes deployments](https://cloud-viadee.medium.com/gitops-for-it-architects-6312e7822819)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [johnclarke73.medium.com: How GitOps works for us](https://johnclarke73.medium.com/our-continuous-delivery-journey-11d86dd68a49)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Integrating GitOps Deployments in Kubernetes Using Weave Flux](https://medium.com/contino-engineering/integrating-gitops-deployments-in-kubernetes-using-weave-flux-9a617ea17684)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cncf.io: Flux: Server-side reconciliation is coming](https://www.cncf.io/blog/2021/10/07/server-side-reconciliation-is-coming)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.ediri.io: Flux With Buckets: Is This Still GitOps?](https://blog.ediri.io/flux-with-buckets-is-this-still-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [levelup.gitconnected.com: Flux CD: Getting Started](https://levelup.gitconnected.com/flux-cd-getting-started-1a06671d718f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone.com: GitOps: Flux vs Argo CD 🌟](https://dzone.com/articles/gitops-flux-vs-argo-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.aenix.io: Argo CD vs Flux CD](https://blog.aenix.io/argo-cd-vs-flux-cd-7b1d67a246ca)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cncf.io: How to GitOps your Terraform](https://www.cncf.io/blog/2022/09/30/how-to-gitops-your-terraform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+### Kubernetes Tools
 
+#### General Reference
+
+  - [dzone: Developing Applications on Multi-tenant Clusters With Flux and Kustomize](https://dzone.com/articles/developing-applications-on-multitenant-clusters-wi)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Developing Applications on Multi-tenant Clusters With Flux and Kustomize in the Kubernetes Tools ecosystem.
+  - [cncf.io: Flux: Server-side reconciliation is coming](https://www.cncf.io/blog/2021/10/07/server-side-reconciliation-is-coming)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Flux: Server-side reconciliation is coming in the Kubernetes Tools ecosystem.
+  - [dzone.com: GitOps: Flux vs Argo CD 🌟](https://dzone.com/articles/gitops-flux-vs-argo-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone.com: GitOps: Flux vs Argo CD 🌟 in the Kubernetes Tools ecosystem.
+  - [cncf.io: How to GitOps your Terraform](https://www.cncf.io/blog/2022/09/30/how-to-gitops-your-terraform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: How to GitOps your Terraform in the Kubernetes Tools ecosystem.
 ## Deployment and Orchestration
 
 ### GitOps
@@ -76,6 +73,7 @@
   - **(2025)** [docs.microsoft.com: Configurations and GitOps with Azure Arc enabled Kubernetes](https://learn.microsoft.com/en-us/azure/azure-arc/kubernetes/conceptual-gitops-flux2) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Microsoft's guide to deploying enterprise multi-cluster configurations using Azure Arc integrated with Flux v2 GitOps extensions. Enables unified policy-driven application deployment across hybrid cloud estates.
   - **(2022)** [thenewstack.io: GitOps at Home: Automate Code Deploys with Kubernetes and Flux](https://thenewstack.io/gitops-at-home-automate-code-deploys-with-kubernetes-and-flux) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical walkthrough for setting up self-hosted GitOps pipelines on homelabs or small clusters using Flux. Highlights automated deployment routines and resource orchestration.
   - **(2021)** [docs.fluxcd.io](https://docs.fluxcd.io/en/1.22.2) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Archived reference documentation for the legacy Flux v1 orchestrator. Left online purely as historical reference; teams must use modern Flux v2 systems for controller architectures and security controls.
+  - **(2021)** [itnext.io: Managing Kubernetes Secrets Securely with GitOps (SOPS + AWS KMS + Flux)](https://itnext.io/managing-kubernetes-secrets-securely-with-gitops-b8174b4f4d30) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A crucial guide explaining how to securely manage encrypted Kubernetes Secrets in public Git repositories using Mozilla SOPS, AWS KMS, and the Flux source/kustomize decryption drivers.
   - **(2021)** [acloudguru.com: Adopting GitOps for Kubernetes on AWS 🌟](https://www.pluralsight.com/resources/blog/cloud/adopting-gitops-for-kubernetes-on-aws?utm_source=linkedin&utm_medium=social&utm_campaign=kubernetesblog) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A strategic overview of adopting GitOps paradigms for EKS workloads. Outlines structural patterns, IAM roles for service accounts integration, and state synchronization using Flux controllers.
   - **(2021)** [blog.sldk.de: Introduction to GitOps on Kubernetes with Flux v2 🌟](https://blog.sldk.de/2021/02/introduction-to-gitops-on-kubernetes-with-flux-v2) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A clear introduction to the fundamental architecture of Flux v2. Explains key resources including GitRepository, Kustomization, and how they combine to deploy reliable workloads.
   - **(2020)** [alicegg.tech: Managing a Kubernetes cluster with Helm and FluxCD](https://alicegg.tech/2020/11/09/helm) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed architectural analysis of managing Helm releases within Flux GitOps pipelines. Explores automated release upgrades, HelmRepository declarations, and rollback mechanisms.
@@ -88,5 +86,5 @@
   - **(2022)** [thenewstack.io: Deploy Stateful Workloads on Kubernetes with Ondat and FluxCD](https://thenewstack.io/deploy-stateful-workloads-on-kubernetes-with-ondat-and-fluxcd) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores deploying resilient, stateful microservices using Ondat (formerly StorageOS) as a persistent software-defined storage layer combined with Flux for deployment state synchronization. Live Grounding notes that while Ondat offered advanced CSI-driven capabilities, consolidation in the cloud-native storage sector has shifted focus toward alternatives like Longhorn, Rook/Ceph, or cloud-managed block storage.
 
 ---
-💡 **Explore Related:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md) | [Argo](./argo.md)
+💡 **Explore Related:** [Argo](./argo.md) | [CI/CD](./cicd.md) | [Gitops](./gitops.md)
 

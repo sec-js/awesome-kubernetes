@@ -3,16 +3,6 @@
 !!! info "Architectural Context"
     Detailed reference for Tekton and Tekton Pipelines in the context of Engineering Pipeline.
 
-## Standard Reference
-
-  - [learn.openshift.com/middleware/pipelines](https://learn.openshift.com/middleware/pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [lambda.grofers.com: Evolving Continuous Delivery in a Cloud-Native Environment' 🌟](https://lambda.grofers.com/evolving-cd-in-a-cloud-native-environment-bb64a38145ae)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [itnext.io: Tekton Pipelines Kickstarter. Cloud Native CI/CD with Tekton' — Laying The Foundation](https://itnext.iocloud-native-ci-cd-with-tekton-laying-the-foundation-a377a1b59ac0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.harbur.io: The Seven Steps to build a Cloud Native CI/CD for GitHub' repos using Tekton](https://blog.harbur.iothe-seven-steps-to-build-a-cloud-native-ci-cd-for-github-repos-using-tekton-31a445a3bde)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [sm43.medium.com: World of Tekton 😺 (Part 1)](https://sm43.medium.com/world-of-tekton-part-1-999738d63e25)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Tekton: Concepts of Pipelines (Part 2)](https://sm43.medium.com/tekton-concepts-of-pipelines-part-2-cd86ad40bd34)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [devops.com: Using LLMs to Automate Pipeline Conversions From Legacy to' Tekton](https://devops.com/using-llms-to-automate-pipeline-conversions-from-legacy-to-tekton)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-
 ## Cloud Native Delivery
 
 ### CICD and GitOps
@@ -61,14 +51,7 @@
 #### Tekton UI Extensions
 
   - **(2021)** [tekline 🌟](https://github.com/joyrex2001/tekline) <span class='md-tag md-tag--info'>⭐ 11</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores Tekline, a lightweight community-driven visualization and command-line helper tool for viewing the status of Tekton Pipeline runs. Bypasses the complex dashboard setups, providing developers with instant, readable feedback on pipeline step executions and container build logs directly in terminal dashboards.
-## Platform Architecture
-
-### CICD
-
-#### Tekton Pipelines (2)
-
-  - **(2020)** [openshift.com: Cloud-Native CI/CD with OpenShift Pipelines based on Tekton](https://www.redhat.com/en/blog/cloud-native-ci-cd-with-openshift-pipelines) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Introduces OpenShift Pipelines as the modern serverless, cloud-native standard built on the Tekton project. Explains how Tekton's CRD-first strategy delivers secure, isolated build containers without a centralized daemon or controller bottlenecks.
 
 ---
-💡 **Explore Related:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md) | [Flux](./flux.md)
+💡 **Explore Related:** [Argo](./argo.md) | [CI/CD](./cicd.md) | [Gitops](./gitops.md)
 

@@ -3,10 +3,6 @@
 !!! info "Architectural Context"
     Detailed reference for Cloudflare Public Cloud in the context of Networking & Service Mesh.
 
-## Standard Reference
-
-  - [venturebeat.com: Cloudflare acquires Linc to automate web app deployment](https://venturebeat.com/2020/12/22/cloudflare-acquires-linc-to-automate-web-app-deployment)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-
 ## Cloud Infrastructure
 
 ### Edge Network
@@ -37,5 +33,5 @@
   - **(2026)** [Cloudflare workers (Serverless)](https://workers.cloudflare.com) <span class='md-tag md-tag--warning'>[JAVASCRIPT/WEBASSEMBLY CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Cloudflare Workers is an advanced serverless architecture utilizing V8 engine isolates. It runs application code directly at global edge locations, yielding near-zero cold-start overhead.
 
 ---
-💡 **Explore Related:** [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md) | [Networking](./networking.md)
+💡 **Explore Related:** [Caching](./caching.md) | [Istio](./istio.md) | [Kubernetes Networking](./kubernetes-networking.md)
 

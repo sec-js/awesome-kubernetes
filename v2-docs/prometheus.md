@@ -3,69 +3,6 @@
 !!! info "Architectural Context"
     Detailed reference for Prometheus in the context of Architectural Foundations.
 
-## Standard Reference
-
-  - [cncf.io: From distributed tracing to APM: Taking OpenTelemetry and Jaeger up a level](https://www.cncf.io/blog/2021/04/29/from-distributed-tracing-to-apm-taking-opentelemetry-and-jaeger-up-a-level/?utm_source=thenewstack&utm_medium=twitter&utm_campaign=platform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [openlogic.com: How to develop Grafana Dashboards 🌟](https://www.openlogic.com/blog/how-visualize-prometheus-data-grafana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [learndevops.substack.com: Hitting prometheus API with curl and jq 🌟](https://learndevops.substack.com/p/hitting-prometheus-api-with-curl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.couchbase.com: How to Build Observability Dashboards with Prometheus,' Grafana & Couchbase](https://blog.couchbase.com/how-to-build-observability-dashboards-prometheus-grafana-couchbase)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [logz.io: A Guide to Monitoring AWS Lambda Metrics with Prometheus & Logz.io](https://logz.io/blog/aws-lambda-metrics-monitoring-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [**Red Hat AMQ overview**](https://developers.redhat.com/products/amq/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Dzone Refcard: Scaling and Augmenting Prometheus](https://dzone.com/refcardz/scaling-and-augmenting-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Monitoring Self-Destructing Apps Using Prometheus](https://dzone.com/articles/prometheus-collectors)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Ensure High Availability and Uptime With Kubernetes Horizontal Pod Autoscaler (HPA) and Prometheus](https://dzone.com/articles/ensure-high-availability-and-uptime-with-kubernete)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Set Up and Integrate Prometheus With Grafana for Monitoring.](https://dzone.com/articles/monitoring-using-spring-boot-20-prometheus-and-gra)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [PromQL Tutorial](https://medium.com/@valyala/promql-tutorial-for-beginners-9ab455142085)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Initial experiences with the Prometheus monitoring system](https://medium.com/@griggheo/initial-experiences-with-the-prometheus-monitoring-system-167054ac439c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [devconnected.com/complete-node-exporter-mastery-with-prometheus/](https://devconnected.com/complete-node-exporter-mastery-with-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [magalix.com: Monitoring of Kubernetes Clusters To Manage Large Scale Projects](https://www.magalix.com/blog/monitor-kuberentes-cluster-to-manage-large-scale-projects)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com: Prometheus-Grafana : Node Monitoring on Kubernetes](https://medium.com/@akshitverma8191/prometheus-grafana-node-monitoring-on-kubernetes-79fd8311b56d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Prometheus monitoring with Elastic Stack in Kubernetes 🌟](https://medium.com/avmconsulting-blog/prometheus-monitoring-with-elastic-stack-in-kubernetes-5cf0aaa7ce04)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [portworx.com: Monitoring Kubernetes Backup with Prometheus and Grafana](https://portworx.com/kubernetes-backup-monitoring)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [jonbc.medium.com: Hacking your way to Observability — Part 1 : Metrics](https://jonbc.medium.com/hacking-your-way-to-observability-part-1-cf4cd42fb4dc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [faun.pub: Production grade Kubernetes Monitoring using Prometheus 🌟](https://faun.pub/production-grade-kubernetes-monitoring-using-prometheus-78144b835b60)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com: Prometheus HA with Thanos Sidecar Or Receiver?](https://medium.com/infracloud-technologies/prometheus-ha-with-thanos-sidecar-or-receiver-2c8d0e585ff1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloudsavvyit.com: What is Prometheus and Why Is It So Popular](https://www.cloudsavvyit.com/15124/what-is-prometheus-and-why-is-it-so-popular)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [jonbc.medium.com: Hacking your way to Observability — Part 2 : Alerts](https://jonbc.medium.com/hacking-your-way-to-observability-part-2-c38baaee6b92)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/gumgum-tech: How to reduce your Prometheus cost | Daniel Fernandez](https://medium.com/gumgum-tech/how-to-reduce-your-prometheus-cost-6c7cc685e347)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/kubecost: Prometheus Grafana: configuration & query examples' 🌟](https://medium.com/kubecost/prometheus-grafana-configuration-query-examples-885b91b6ca6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.devops.dev: Deploying Prometheus and Grafana in a Multi-Node Kubernetes' Cluster and Auto-Scaling with KEDA](https://blog.devops.dev/deploying-prometheus-and-grafana-in-a-multi-node-kubernetes-cluster-and-auto-scaling-with-keda-eccecfbd8950)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.devops.dev: Observability: Better CI for your prometheus alerts with' pint instead of promtool 🌟](https://blog.devops.dev/observability-better-ci-for-your-prometheus-alerts-32aaea3b3d77)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.zelarsoft.com: Website Monitoring By Using Prometheus Blackbox Exporter' with Grafana](https://blog.zelarsoft.com/website-monitoring-by-using-prometheus-blackbox-exporter-with-grafana-c4004bb03131)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.devops.dev: Monitoring a Spring Boot application in Kubernetes with' Prometheus 🌟](https://blog.devops.dev/monitoring-a-spring-boot-application-in-kubernetes-with-prometheus-a2d4ec7f9922)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [devopstalks.in: Everything about Prometheus](https://devopstalks.in/everything-about-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.devops.dev: How to Monitor your Application using Prometheus 🌟](https://blog.devops.dev/deploying-and-monitoring-an-application-using-prometheus-on-kubernetes-cluster-483773f789f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone.com: Deploying Prometheus and Grafana as Applications Using ArgoCD — Including' Dashboards](https://dzone.com/articles/deploying-prometheus-and-grafana-as-applications-u)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com: How to find unused Prometheus metrics using mimirtool 🌟](https://medium.com/@dotdc/how-to-find-unused-prometheus-metrics-using-mimirtool-a44560173543)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/criteo-engineering: How we reduced our Prometheus infrastructure' footprint by a third](https://medium.com/criteo-engineering/how-we-reduced-our-prometheus-infrastructure-footprint-by-a-third-8bf8171e46b1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.devops.dev: Observability Concept in Prometheus](https://blog.devops.dev/observability-concept-in-prometheus-9f0093fa7495)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [horovits.medium.com: Prometheus Now Supports OpenTelemetry Metrics](https://horovits.medium.com/prometheus-now-supports-opentelemetry-metrics-83f85878e46a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [devxblog.hashnode.dev: Prometheus: Elevate Your Monitoring Game](https://devxblog.hashnode.dev/prometheus-elevate-your-monitoring-game)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [devxblog.hashnode.dev: Simplified Setup: Prometheus, cAdvisor, redis and' Node Exporter](https://devxblog.hashnode.dev/simplified-setup-prometheus-cadvisor-redis-and-node-exporter)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Kubernetes Lessons in Alerting](https://medium.com/better-programming/kubernetes-lessons-in-alerting-a0b7a455e89d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [tech.loveholidays.com: Dynamic alert routing with Prometheus and Alertmanager](https://tech.loveholidays.com/dynamic-alert-routing-with-prometheus-and-alertmanager-f6a919edb5f8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cncf.io: Prometheus announces an Agent to address a new range of use cases](https://www.cncf.io/blog/2021/11/16/prometheus-announces-an-agent-to-address-a-new-range-of-use-cases)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@ehsan-khodadadi: Prometheus Multi-Cluster monitoring using Prometheus' Agent Mode](https://medium.com/@ehsan-khodadadi/prometheus-multi-cluster-monitoring-using-prometheus-agent-mode-cab2cdb20c11)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/techspiration: Deploying Prometheus Multi-Cluster monitoring' using Prometheus Agent Mode](https://medium.com/techspiration/deploying-prometheus-multi-cluster-monitoring-using-prometheus-agent-mode-a04d89afeed7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Promcat: A resource catalog for enterprise-class Prometheus monitoring 🌟](https://promcat.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Prometheus Demo: prometheus.demo.do.prometheus.io 🌟](https://prometheus.demo.do.prometheus.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [PromTools: SLOs with Prometheus 🌟](https://promtools.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [monitoring2.substack.com: Big Prometheus. Thanos, Cortex, M3DB and VictoriaMetrics' at scale 🌟](https://monitoring2.substack.com/p/big-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [en.wikipedia.org/wiki/InfluxDB](https://en.wikipedia.org/wiki/MIT_License)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone: Flux queries](https://dzone.com/articles/flux-windowing-and-aggregation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Example: How to Use Prometheus Monitoring With Java to Gather Data. Gathering' Java Metrics with Prometheus Monitoring (ActiveMQ)](https://www.openlogic.com/blog/prometheus-java-monitoring-and-gathering-data)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Maven Prometheus instrumentation library for JVM applications (client library)](https://mvnrepository.com/artifact/io.prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@akashjoffical08: Monitor Uptime of Endpoints in K8s using Blackbox' Exporter 🌟](https://medium.com/@akashjoffical08/monitor-uptime-of-endpoints-in-k8s-using-blackbox-exporter-f80166a328e9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.devops.dev: Monitoring MySQL using Prometheus, Grafana and mysqld_exporter' in Kubernetes](https://blog.devops.dev/monitoring-mysql-using-prometheus-and-grafana-in-kubernetes-16e7ae3de5dd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@dast04: Writing Custom Prometheus Exporters (in Python) — Kubernetes](https://medium.com/@dast04/writing-custom-prometheus-exporters-in-python-kubernetes-73626b66d78c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: OpenTelemetry Specification v1.0.0, Tracing Edition](https://medium.com/opentelemetry/opentelemetry-specification-v1-0-0-tracing-edition-72dd08936978)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Tracing in eDreams ODIGEO Lodging with Open Telemetry and Grafana' Tempo](https://medium.com/edreams-odigeo-tech/tracing-in-edreams-odigeo-lodging-with-open-telemetry-and-grafana-tempo-bd1f20ddf49d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@tathagatapaul7: OpenTelemetry in Kubernetes: Deploying your' Collector and Metrics Backend](https://medium.com/@tathagatapaul7/opentelemetry-in-kubernetes-deploying-your-collector-and-metrics-backend-b8ec86ac4a43)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [arthursens.medium.com: Risk analysis and security compliance in Kube-prometheus](https://arthursens.medium.com/risk-analysis-and-security-compliance-in-kube-prometheus-10c8cfb180b8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [devstack.in: Deploy Prometheus Operator with Helm3 and Private Registry' 🌟](https://devstack.in/2020/05/25/deploy-prometheus-operator-with-helm3-and-private-registry)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/israeli-tech-radar: How to create a Monitoring Stack using Kube-Prometheus-stack' (Part 1)](https://medium.com/israeli-tech-radar/how-to-create-a-monitoring-stack-using-kube-prometheus-stack-part-1-eff8bf7ba9a9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [logz.io](https://logz.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-
 ## Cloud Native Infrastructure
 
 ### Observability
@@ -166,6 +103,13 @@
 #### Multi-Arch Telemetry
 
   - **(2025)** [==Cluster Monitoring stack for ARM / X86-64 platforms==](https://github.com/carlosedp/cluster-monitoring) <span class='md-tag md-tag--info'>⭐ 754</span> <span class='md-tag md-tag--warning'>[JSONNET CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A specialized telemetry suite crafted for physical, edge, and multi-architecture Kubernetes clusters running on ARM or x86 systems. Extends modern operators to resource-constrained environments.
+## Data Management
+
+### Kubernetes Storage
+
+#### Backup Monitoring
+
+  - **(2023)** [portworx.com: Monitoring Kubernetes Backup with Prometheus and Grafana](https://portworx.com/blog/kubernetes-backup-monitoring) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical overview of configuring Prometheus and Grafana to monitor stateful backup operations within Kubernetes. Evaluates critical operational metrics such as recovery point objective (RPO) compliance, storage utilization, and backup job failures. Crucial for operations teams managing enterprise-grade database persistence on Kubernetes.
 ## Infrastructure
 
 ### Message Brokers
@@ -199,6 +143,21 @@
 #### Metric Collection
 
   - **(2020)** [telegraf-1.14.0-1 (rpm)](https://www.influxdata.com/time-series-platform/telegraf) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A targeted RPM bundle archive compiling Telegraf 1.14 alongside dependencies like Apache ActiveMQ scripts. Retained for air-gapped systems running legacy RedHat workloads.
+## Kubernetes Tools
+
+### General Reference
+
+  - [cncf.io: From distributed tracing to APM: Taking OpenTelemetry and Jaeger up a level](https://www.cncf.io/blog/2021/04/29/from-distributed-tracing-to-apm-taking-opentelemetry-and-jaeger-up-a-level/?utm_source=thenewstack&utm_medium=twitter&utm_campaign=platform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.cncf.io in the Kubernetes Tools ecosystem.
+  - [logz.io: A Guide to Monitoring AWS Lambda Metrics with Prometheus & Logz.io](https://logz.io/blog/aws-lambda-metrics-monitoring-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering logz.io: A Guide to Monitoring AWS Lambda Metrics with Prometheus & Logz.io in the Kubernetes Tools ecosystem.
+  - [openlogic.com: How to develop Grafana Dashboards 🌟](https://www.openlogic.com/blog/how-visualize-prometheus-data-grafana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering openlogic.com: How to develop Grafana Dashboards 🌟 in the Kubernetes Tools ecosystem.
+  - [Monitoring Self-Destructing Apps Using Prometheus](https://dzone.com/articles/prometheus-collectors)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Monitoring Self-Destructing Apps Using Prometheus in the Kubernetes Tools ecosystem.
+  - [Ensure High Availability and Uptime With Kubernetes Horizontal Pod Autoscaler (HPA) and Prometheus](https://dzone.com/articles/ensure-high-availability-and-uptime-with-kubernete)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Ensure High Availability and Uptime With Kubernetes Horizontal Pod Autoscaler (HPA) and Prometheus in the Kubernetes Tools ecosystem.
+  - [Set Up and Integrate Prometheus With Grafana for Monitoring.](https://dzone.com/articles/monitoring-using-spring-boot-20-prometheus-and-gra)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Set Up and Integrate Prometheus With Grafana for Monitoring. in the Kubernetes Tools ecosystem.
+  - [dzone.com: Deploying Prometheus and Grafana as Applications Using ArgoCD — Including' Dashboards](https://dzone.com/articles/deploying-prometheus-and-grafana-as-applications-u)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==dzone.com: Deploying Prometheus and Grafana as Applications Using ArgoCD — Including' Dashboards== in the Kubernetes Tools ecosystem.
+  - [cncf.io: Prometheus announces an Agent to address a new range of use cases](https://www.cncf.io/blog/2021/11/16/prometheus-announces-an-agent-to-address-a-new-range-of-use-cases)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Prometheus announces an Agent to address a new range of use cases in the Kubernetes Tools ecosystem.
+  - [dzone: Flux queries](https://dzone.com/articles/flux-windowing-and-aggregation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Flux queries in the Kubernetes Tools ecosystem.
+  - [Example: How to Use Prometheus Monitoring With Java to Gather Data. Gathering' Java Metrics with Prometheus Monitoring (ActiveMQ)](https://www.openlogic.com/blog/prometheus-java-monitoring-and-gathering-data)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Example: How to Use Prometheus Monitoring With Java to Gather Data. Gathering' Java Metrics with Prometheus Monitoring (ActiveMQ) in the Kubernetes Tools ecosystem.
+  - [logz.io](https://logz.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering logz.io in the Kubernetes Tools ecosystem.
 ## Middleware
 
 ### Messaging Orchestration
@@ -267,9 +226,6 @@
 #### IoT Observability
 
   - **(2023)** [grafana.com: Using Telegraf plugins to visualize industrial IoT data with the Grafana Cloud Hosted Prometheus service](https://grafana.com/blog/using-telegraf-plugins-to-visualize-industrial-iot-data-with-the-grafana-cloud-hosted-prometheus-service) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates pipeline setups connecting InfluxData's Telegraf collectors to Grafana Cloud. Explains parsing MQTT or Modbus industrial machinery telemetry feeds and transforming them into Prometheus-compliant timeseries data.
-#### Metrics Collection
-
-  - **(2024)** [Prometheus](https://nubenetes.com/prometheus/#aws-managed-services-for-prometheus-and-grafana) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Prometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud. It utilizes a pull-based metrics collection model over HTTP, powered by a highly efficient dimensional data model (TSDB) with PromQL. Essential for Kubernetes cloud-native environments, it excels in dynamic service discovery and real-time operational visibility.
 #### Prometheus Agent
 
   - **(2022)** [grafana.com: Why we created a Prometheus Agent mode from the Grafana Agent](https://grafana.com/blog/why-we-created-a-prometheus-agent-mode-from-the-grafana-agent) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the technical reasoning for deploying Prometheus in Agent Mode instead of as a full collector database. Explains memory savings, localized caching patterns, and metrics forwarding via standard Remote Write protocols.
@@ -424,16 +380,7 @@
 #### Grafana Dashboards
 
   - **(2026)** [Grafana Dashboards with Telegraf Collectors](https://grafana.com/grafana/dashboards/?collector=Telegraf) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curated dashboard collection optimized for displaying metrics gathered via Telegraf. Provides visual paradigms for memory, system operations, disk throughput, and CPU scaling.
-## Systems Design
-
-### Observability (2)
-
-#### Infrastructure Design
-
-##### Telemetry Pipelines
-
-  - **(2022)** [learnsteps.com: Monitoring Infrastructure System Design](https://www.learnsteps.com/monitoring-infrastructure-system-design) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural breakdown of designing an end-to-end monitoring infrastructure from scratch. Examines the selection of pull vs. push telemetry models, buffer queues (like Kafka), and time-series databases (TSDBs). Curator Insight: High-level overview of system design for monitoring platforms. Live Grounding: Serves as a great architectural primer for platform engineering teams building internal metrics systems.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [About](./about.md)
 

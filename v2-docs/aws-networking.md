@@ -3,23 +3,6 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Networking in the context of Cloud Providers (Hyperscalers).
 
-## Standard Reference
-
-  - [medium: Building a Global Network with AWS Transit Gateway](https://medium.com/avmconsulting-blog/building-a-global-network-with-aws-transit-gateway-7ab0e5222f12)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [towardsaws.com: Networking Basics in AWS](https://towardsaws.com/networking-basics-in-aws-ab72882855c4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [luis-sena.medium.com: Automated AWS Load Balancer Warm-Up](https://luis-sena.medium.com/automated-aws-load-balancer-warm-up-d0b4084c8bbc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: 10 reasons why you should think about using an AWS Application Load' Balancer](https://medium.com/ankercloud-engineering/10-reasons-why-you-should-think-about-using-an-aws-application-loadbalancer-945f57816c34)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [faun.pub: End To End SSL Encryption With AWS Application Load Balancer](https://faun.pub/end-to-end-ssl-encryption-with-aws-application-load-balancer-b43db918bd9e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com: Optimizing Latency and Bandwidth for AWS Traffic](https://medium.com/aws-activate-startup-blog/optimizing-latency-and-bandwidth-for-aws-traffic-cdfd18d0d0f7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [AWS-VPC](https://en.wikipedia.org/wiki/Amazon_Virtual_Private_Cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ealtili.medium.com: Deepdive to VPCs and Connections to VPC](https://ealtili.medium.com/deepdive-to-vpcs-and-connections-to-vpc-2de3fb164d7c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: AWS: Creating a VPC With an Auto-scaling Group' Using T2.micro Instances](https://betterprogramming.pub/aws-creating-a-vpc-with-an-auto-scaling-group-using-t2-micro-instances-4ac2c5c7795b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [alanblackmore.medium.com: What is AWS VPC Peering? 🌟](https://alanblackmore.medium.com/what-is-aws-vpc-peering-af85c1e29fb2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [awstip.com: Setting Up AWS VPC Endpoint Connection](https://awstip.com/setting-up-aws-vpc-endpoint-connection-d4294d0c2204)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [towardsaws.com: How to centralize VPC endpoints in AWS](https://towardsaws.com/how-to-centralize-vpc-endpoints-in-aws-64c68b5b9d50)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [towardsaws.com: Accessing a Private REST API from another Private REST API' in AWS API Gateway](https://towardsaws.com/accessing-a-private-rest-api-from-another-private-rest-api-in-aws-api-gateway-5112b835c0d4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [faun.pub: Using AWS API Gateway As Proxy To Our Internal Application](https://faun.pub/using-aws-api-gateway-as-proxy-to-our-internal-application-369eb115db70)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-
 ## Cloud Infrastructure
 
 ### AWS
@@ -175,5 +158,5 @@
   - **(2021)** [Fine-tuning blue/green deployments on application load balancer](https://aws.amazon.com/blogs/devops/blue-green-deployments-with-application-load-balancer) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on ALB's advanced routing capabilities to orchestrate safe blue/green deployments by shifting traffic percentages between target groups. A crucial operational pattern for continuous delivery pipelines, minimizing deployment blast radius.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Backup](./aws-backup.md) | [AWS Containers](./aws-containers.md)
 
