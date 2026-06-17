@@ -44,7 +44,7 @@
 
   - **(2026)** [cidr.xyz 🌟](https://cidr.xyz) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An highly intuitive visual interface designed for parsing, structuring, and exploring Classless Inter-Domain Routing blocks. Translates complex binary IP masks, network paths, and IP pools into interactive graphics.
   - **(2023)** [build5nines.com: IPv4 Address CIDR Range Reference and Calculator](https://build5nines.com/ipv4-address-cidr-range-reference-and-calculator) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A combination calculator and instructional index designed to assist engineers in structuring network scopes, identifying overlapping pools, and designing multi-subnet routing topologies.
-  - **(2022)** [magic-cookie.co.uk/iplist.html](http://magic-cookie.co.uk/iplist.html) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A clean, functional web-hosted tool designed to take target subnets and generate explicit lists of available IP host addresses. Simplifies routing tables, firewall access whitelist designs, and proxy allocations.
+  - **(2022)** [magic-cookie.co.uk/iplist.html](https://magic-cookie.co.uk/iplist.html) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A clean, functional web-hosted tool designed to take target subnets and generate explicit lists of available IP host addresses. Simplifies routing tables, firewall access whitelist designs, and proxy allocations.
 #### Cheat Sheets
 
   - **(2022)** [networkproguide.com: CIDR Subnet Mask Cheat Sheet](https://networkproguide.com/cidr-subnet-mask-ipv4-cheat-sheet) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An educational cheat sheet breaking down subnet masking protocols, mapping binary configurations to standard decimal equivalents, and addressing structural divisions.
@@ -84,7 +84,7 @@
 #### Status Codes
 
   - **(2026)** [http.cat 🌟](https://http.cat) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A popular, visually descriptive resource mapping standard HTTP status codes to illustrative cat photos. Frequently used by developers as an educational tool, debug reference, and routing response helper.
-  - **(2015)** [slideshare: Http Status Code Errors in SEO](http://www.slideshare.net/AdelaRoger/http-status-code-errors-in-seo) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An educational slide compilation tracking HTTP status response codes and assessing their performance impacts on search crawl optimizations, redirect protocols, and indexing configurations.
+  - **(2015)** [slideshare: Http Status Code Errors in SEO](https://www.slideshare.net/AdelaRoger/http-status-code-errors-in-seo) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An educational slide compilation tracking HTTP status response codes and assessing their performance impacts on search crawl optimizations, redirect protocols, and indexing configurations.
 ### HTTP Optimization
 
 #### Browser Performance
@@ -94,12 +94,12 @@
 
 #### Performance Tuning
 
-  - **(2016)** [5 Tips to Boost the Performance of Your Apache Web Server](http://www.tecmint.com/apache-performance-tuning) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Outlines traditional tuning strategies designed to optimize Apache HTTP Server performance. Details configurations governing MPM choice (pre-fork, worker, event), compression, and session handling.
+  - **(2016)** [5 Tips to Boost the Performance of Your Apache Web Server](https://www.tecmint.com/apache-performance-tuning) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Outlines traditional tuning strategies designed to optimize Apache HTTP Server performance. Details configurations governing MPM choice (pre-fork, worker, event), compression, and session handling.
 ### Protocol Evolution
 
 #### Enterprise Servers
 
-  - **(2015)** [HTTP/2 With JBoss EAP 7 - Tech Preview](http://blog.eisele.net/2015/11/http2-with-jboss-eap-7.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details configurations and challenges during the early-access implementation of HTTP/2 routing inside JBoss EAP 7. Outlines setup rules for ALPN dependencies, TLS parameters, and concurrent stream mappings.
+  - **(2015)** [HTTP/2 With JBoss EAP 7 - Tech Preview](https://blog.eisele.net/2015/11/http2-with-jboss-eap-7.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details configurations and challenges during the early-access implementation of HTTP/2 routing inside JBoss EAP 7. Outlines setup rules for ALPN dependencies, TLS parameters, and concurrent stream mappings.
 #### HTTP2
 
   - **(2015)** [SPDY & HTTP 2 with Akamai CTO Guy Podjarny](https://www.youtube.com/watch?v=WkLBrHW4NhQ) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A collection of research, implementation guides, and case studies detailing performance characteristics during the migration phase from Google's SPDY protocol toward formal HTTP/2 frameworks.

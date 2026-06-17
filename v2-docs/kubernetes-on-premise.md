@@ -16,7 +16,7 @@
 
 #### General Reference
 
-  - [wecloudpro.com: Deploy HA kubernetes cluster in AWS in less than 5 minutes](http://wecloudpro.com/2020/01/13/kube-autp-aws.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering wecloudpro.com in the Kubernetes Tools ecosystem.
+  - [wecloudpro.com: Deploy HA kubernetes cluster in AWS in less than 5 minutes](https://wecloudpro.com/2020/01/13/kube-autp-aws.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering wecloudpro.com in the Kubernetes Tools ecosystem.
   - [blog.kubecost.com: Kubernetes kOps: Step-By-Step Example & Alternatives](https://blog.kubecost.com/blog/kubernetes-kops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.kubecost.com: Kubernetes kOps: Step-By-Step Example & Alternatives in the Kubernetes Tools ecosystem.
   - [imsundeep8.medium.com: Deploy Production-grade Kubernetes Cluster using' kOps on Amazon Cloud (AWS)](https://imsundeep8.medium.com/deploy-production-grade-kubernetes-cluster-using-kops-on-amazon-cloud-aws-abc79f46aa32)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering imsundeep8.medium.com: Deploy Production-grade Kubernetes Cluster using' kOps on Amazon Cloud (AWS) in the Kubernetes Tools ecosystem.
   - [medium.com: **Demystifying High Availability in Kubernetes Using Kubeadm**](https://medium.com/velotio-perspectives/demystifying-high-availability-in-kubernetes-using-kubeadm-3d83ed8c458b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com: **Demystifying High Availability in Kubernetes Using Kubeadm** in the Kubernetes Tools ecosystem.
@@ -156,12 +156,12 @@
 
 #### Multi-Cluster
 
-  - **(2026)** [Rancher: Enterprise management for Kubernetes](https://nubenetes.com/rancher/) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Rancher is a unified platform for managing multi-cluster, heterogeneous Kubernetes deployments across diverse cloud providers and bare metal hosts. It simplifies operational management by providing centralized authentication, unified RBAC access, structured audit logs, and simplified Helm catalog deployments.
+  - **(2026)** [Rancher: Enterprise management for Kubernetes](https://nubenetes.com/rancher) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Rancher is a unified platform for managing multi-cluster, heterogeneous Kubernetes deployments across diverse cloud providers and bare metal hosts. It simplifies operational management by providing centralized authentication, unified RBAC access, structured audit logs, and simplified Helm catalog deployments.
 ### Red Hat OpenShift
 
 #### Enterprise (1)
 
-  - **(2026)** [Openshift Container Platform](https://nubenetes.com/openshift/) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat OpenShift is a premier enterprise-grade hybrid cloud Kubernetes application platform. It adds out-of-the-box developer tooling, integrated security standards, cluster virtualization, internal registry configurations, and Operator-based life cycle management directly over raw Kubernetes.
+  - **(2026)** [Openshift Container Platform](https://nubenetes.com/openshift) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat OpenShift is a premier enterprise-grade hybrid cloud Kubernetes application platform. It adds out-of-the-box developer tooling, integrated security standards, cluster virtualization, internal registry configurations, and Operator-based life cycle management directly over raw Kubernetes.
 ## Networking
 
 ### CNI Plugins

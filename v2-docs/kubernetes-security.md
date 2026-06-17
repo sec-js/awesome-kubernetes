@@ -125,7 +125,7 @@
 
 ### Network Penetration Testing
 
-  - **(2020)** [cyberark.com: Attacking Kubernetes Clusters Through Your Network Plumbing: Part 1](https://www.cyberark.com/resources/threat-research-blog/attacking-kubernetes-clusters-through-your-network-plumbing-part-1?utm_sq=goa40uvlx1) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Delves into how container network interfaces (CNIs) and underlying network configurations can be targets for spoofing, route injection, and MITM attacks within shared Kubernetes clusters.
+  - **(2020)** [cyberark.com: Attacking Kubernetes Clusters Through Your Network Plumbing: Part 1](https://www.cyberark.com/resources/threat-research-blog/attacking-kubernetes-clusters-through-your-network-plumbing-part-1) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Delves into how container network interfaces (CNIs) and underlying network configurations can be targets for spoofing, route injection, and MITM attacks within shared Kubernetes clusters.
 ## CVE Analysis
 
 ### Network Vulnerabilities
@@ -158,7 +158,7 @@
   - **(2020)** [containerjournal.com: How to Secure Your Kubernetes Cluster 🌟](https://cloudnativenow.com/topics/cloudnativesecurity/how-to-secure-your-kubernetes-cluster) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Evaluates cluster configurations across storage, networking, and deployment lifecycles. Discusses the replacement of deprecated Pod Security Policies with built-in Pod Security Standards and third-party policy engines.
 ### Network Policies (1)
 
-  - **(2019)** [==Kubernetes Security Best Practices 🌟==](https://github.com/freach/kubernetes-security-best-practice/blob/master/README.md#firewall-ports-fire) <span class='md-tag md-tag--info'>⭐ 2712</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A curated GitHub repository delineating hardened configurations for Kubernetes API servers, Kubelets, and network boundaries. It details port-level access rules, ingress/egress filtering, and cluster isolation tactics to defend against pivot attacks.
+  - **(2019)** [==Kubernetes Security Best Practices 🌟==](https://github.com/freach/kubernetes-security-best-practice/blob/master/README.md) <span class='md-tag md-tag--info'>⭐ 2712</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A curated GitHub repository delineating hardened configurations for Kubernetes API servers, Kubelets, and network boundaries. It details port-level access rules, ingress/egress filtering, and cluster isolation tactics to defend against pivot attacks.
 ### Operational Security
 
   - **(2020)** [codeburst.io: 7 Kubernetes Security Best Practices You Must Follow](https://codeburst.io/7-kubernetes-security-best-practices-you-must-follow-ae32f1ed6444) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines fundamental security practices for Kubernetes workloads, focusing on enabling RBAC, using namespaces for boundary control, managing secrets securely, and upgrading Kubernetes control planes to address known CVEs.
@@ -187,7 +187,7 @@
 
 ### SSO and OIDC Configuration
 
-  - **(2020)** [talkingquickly.co.uk: Kubernetes Single Sign On - A detailed guide 🌟](http://www.talkingquickly.co.uk/kubernetes-sso-a-detailed-guide) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how to integrate Kubernetes API access with external identity providers (OIDC) to enable secure Single Sign-On (SSO) and unify role assignments across developers.
+  - **(2020)** [talkingquickly.co.uk: Kubernetes Single Sign On - A detailed guide 🌟](https://www.talkingquickly.co.uk/kubernetes-sso-a-detailed-guide) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how to integrate Kubernetes API access with external identity providers (OIDC) to enable secure Single Sign-On (SSO) and unify role assignments across developers.
 ## Industry Reports
 
 ### Archived Market Trends
@@ -202,7 +202,7 @@
 
 #### Networking
 
-  - **(2024)** [EC2 ENI and IP Limit](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html#AvailableIpPerENI) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Critical hardware reference outlining IP address and Elastic Network Interface (ENI) allocation limits per EC2 instance type. This heavily dictates pod density capabilities when utilizing the VPC CNI plug-in. Platform architects use this data to calculate scaling limits and avoid network exhaustion.
+  - **(2024)** [EC2 ENI and IP Limit](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Critical hardware reference outlining IP address and Elastic Network Interface (ENI) allocation limits per EC2 instance type. This heavily dictates pod density capabilities when utilizing the VPC CNI plug-in. Platform architects use this data to calculate scaling limits and avoid network exhaustion.
 ## Kubernetes Platform Engine
 
 ### Cluster Installation and Hardening
@@ -558,7 +558,7 @@
   - **(2019)** [enterprisersproject.com: How to explain Kubernetes Secrets in plain English 🌟](https://enterprisersproject.com/article/2019/8/kubernetes-secrets-explained-plain-english)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory conceptual explanation of Kubernetes Secrets. Translates low-level pod definitions and etcd mappings into non-technical language to align business stakeholders on cloud-native security postures.
 #### Developer Practice
 
-  - **(2021)** [millionvisit.blogspot.com: Kubernetes for Developers #19: Manage app credentials using Kubernetes Secrets 🌟](http://millionvisit.blogspot.com/2021/07/kubernetes-for-developers-19-manage-app-credentials-using-Kubernetes-Secrets.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Developer-centric guide to configuring application manifests for secret consumption. Compares the security profiles of importing secrets as environment variables against dynamic filesystem mounts, detailing runtime behavior and update propagation.
+  - **(2021)** [millionvisit.blogspot.com: Kubernetes for Developers #19: Manage app credentials using Kubernetes Secrets 🌟](https://millionvisit.blogspot.com/2021/07/kubernetes-for-developers-19-manage-app-credentials-using-Kubernetes-Secrets.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Developer-centric guide to configuring application manifests for secret consumption. Compares the security profiles of importing secrets as environment variables against dynamic filesystem mounts, detailing runtime behavior and update propagation.
 #### External Secrets
 
   - **(2025)** [==external-secrets.io 🌟==](https://external-secrets.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The industry-standard operator for syncing external secrets management services (like AWS Secrets Manager, Vault, or GCP Secret Manager) into Kubernetes Secret objects. This eliminates storing sensitive configuration inside git repositories, supporting true GitOps workflows. Decoupled and secure, it is a critical security-centric component.

@@ -161,7 +161,7 @@
 
 #### Medical Imaging
 
-  - **(2024)** [isic-archive.com](https://www.isic-archive.com/#!/topWithHeader/wideContentTop/main) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The International Skin Imaging Collaboration (ISIC) hosts the world's largest open clinical image archive for dermatological AI research. This platform is a critical resource for clinical validation, transfer learning, and training diagnostic computer vision architectures.
+  - **(2024)** [isic-archive.com](https://www.isic-archive.com) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The International Skin Imaging Collaboration (ISIC) hosts the world's largest open clinical image archive for dermatological AI research. This platform is a critical resource for clinical validation, transfer learning, and training diagnostic computer vision architectures.
 #### Regression Analysis
 
   - **(2023)** [kaggle.com: Sports Car Prices dataset](https://www.kaggle.com/datasets/rkiattisak/sports-car-prices-dataset) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A multivariate tabular dataset cataloging sports car configurations alongside retail pricing. Ideal for baseline testing of regression models, feature encoding exercises, and setting up clean tabular learning pipelines.

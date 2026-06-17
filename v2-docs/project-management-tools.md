@@ -46,7 +46,7 @@
   - **(2020)** [Podium](https://github.com/sa-mw-dach/podium) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer tool designed to orchestrate server-side-rendered micro-frontends (podlets) in modular architectures, ensuring fast composition and high decoupling of user interfaces.
 #### Video Conferencing
 
-  - **(2026)** [Google meet: meet.new](https://meet.google.com/unsupported?meetingCode=new&ref=https://meet.google.com/new?authuser%3D0%26hs%3D178)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google's direct-action domain shortcut ('meet.new') designed to bypass portal menus and launch an encrypted video conference session with a single browser call.
+  - **(2026)** [Google meet: meet.new](https://meet.google.com/unsupported?meetingCode=new)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google's direct-action domain shortcut ('meet.new') designed to bypass portal menus and launch an encrypted video conference session with a single browser call.
   - **(2026)** [Zoom: zoom.new](https://zoom.us/signin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Efficiency shortcut (`zoom.new`) routing enterprise authenticated sessions straight to instantly active online conference rooms.
   - **(2021)** [opensource.com: 5 open source alternatives to Zoom](https://opensource.com/article/21/9/alternatives-zoom)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews five secure open-source video conferencing alternatives (such as Jitsi Meet) that can be easily deployed within self-hosted infrastructures to preserve data isolation.
 ### Documentation

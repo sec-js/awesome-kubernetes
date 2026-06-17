@@ -1,4 +1,4 @@
-# Container Runtimes/Managers, Base Images and Container Tools. Podman, Buildah & Skopeo
+# Container Runtimes/Managers, Base Images and Container Tools. Podman, Buildah and Skopeo
 
 !!! info "Architectural Context"
     Detailed reference for Container Runtimes/Managers, Base Images and Container Tools. Podman, Buildah & Skopeo in the context of The Container Stack.
@@ -72,7 +72,7 @@
 
 #### Compose Comparison
 
-  - **(2021)** [crunchtools.com: Should I Use Docker Compose Or Podman Compose With Podman?](http://crunchtools.com/should-i-use-docker-compose-or-podman-compose-with-podman) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This architectural comparison contrasts the usage of Podman Compose with Docker Compose running on Podman's virtualized API socket. The synthesis recommends leveraging the Docker-compatible socket configuration in enterprise environments for high-fidelity compatibility with complex multi-container definitions.
+  - **(2021)** [crunchtools.com: Should I Use Docker Compose Or Podman Compose With Podman?](https://crunchtools.com/should-i-use-docker-compose-or-podman-compose-with-podman) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This architectural comparison contrasts the usage of Podman Compose with Docker Compose running on Podman's virtualized API socket. The synthesis recommends leveraging the Docker-compatible socket configuration in enterprise environments for high-fidelity compatibility with complex multi-container definitions.
 #### Decompiled Engines
 
   - **(2022)** [dev.to: Containers without Docker (podman, buildah, and skopeo)](https://dev.to/cedricclyburn/containers-without-docker-podman-buildah-and-skopeo-1eal) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analysis of the modular container ecosystem, detailing how monolithic Docker tasks are decomposed into specialized, unprivileged utilities: Podman for execution, Buildah for image creation, and Skopeo for registry transfer. This architecture optimizes security and performance in enterprise environments.
@@ -123,7 +123,7 @@
   - **(2021)** [ubi-micro: RHEL tiny images to build containers 🌟](https://github.com/fatherlinux/ubi-micro) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source repository dedicated to UBI-Micro, Red Hat's smallest, zero-dependency base image layer designed for extreme attack surface minimization. It contains only essential package databases and relies on host-side tools like Buildah to inject necessary microservice binaries.
   - **(2019)** [Introducing the Red Hat Universal Base Image 🌟](https://www.redhat.com/en/blog/introducing-red-hat-universal-base-image)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An overview introducing the Red Hat Universal Base Image (UBI), designed to provide enterprise RHEL security configurations without subscription constraints. UBI delivers a reliable foundation for packaging and distributing cloud-native microservices across multi-cloud environments.
   - **(2019)** [What is Red Hat Universal Base Image?](https://developers.redhat.com/blog/2019/10/09/what-is-red-hat-universal-base-image)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deconstructs the design of Red Hat's Universal Base Image, explaining its lifecycle, support commitments, and open redistribution model. It outlines how UBI bridges the gap between secure RHEL package dependency requirements and standard public distribution channels.
-  - **(2019)** [RH Universal Base Image FAQ](https://developers.redhat.com/articles/ubi-faq/#resources)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive FAQ resource answering technical queries regarding Red Hat UBI redistribution rights, support channels, and package installation configurations. Explains differences between standard, minimal, and micro base layers to help developers choose the right runtime footprint.
+  - **(2019)** [RH Universal Base Image FAQ](https://developers.redhat.com/articles/ubi-faq)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive FAQ resource answering technical queries regarding Red Hat UBI redistribution rights, support channels, and package installation configurations. Explains differences between standard, minimal, and micro base layers to help developers choose the right runtime footprint.
 ### Image Synthesis
 
 #### BuildKit Integration

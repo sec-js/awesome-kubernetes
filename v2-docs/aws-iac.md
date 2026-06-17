@@ -9,8 +9,8 @@
 
 #### General Reference
 
-  - [AWS Cloud Formation Release History](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/ReleaseHistory.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.aws.amazon.com in the Kubernetes Tools ecosystem.
-  - [All the AWS Resource Types Reference for AWS CloudFormation](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.aws.amazon.com in the Kubernetes Tools ecosystem.
+  - [AWS Cloud Formation Release History](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/ReleaseHistory.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.aws.amazon.com in the Kubernetes Tools ecosystem.
+  - [All the AWS Resource Types Reference for AWS CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.aws.amazon.com in the Kubernetes Tools ecosystem.
   - [medium.com/bb-tutorials-and-thoughts: How To Deploy and Run Python APIs' on AWS App Runner With CloudFormation](https://medium.com/bb-tutorials-and-thoughts/how-to-deploy-and-run-python-apis-on-aws-app-runner-with-cloudformation-cf9c6fd14cf6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/bb-tutorials-and-thoughts: How To Deploy and Run Python APIs' on AWS App Runner With CloudFormation in the Kubernetes Tools ecosystem.
 ## Cloud Computing
 

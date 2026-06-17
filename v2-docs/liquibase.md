@@ -53,7 +53,7 @@
 
 #### Schema Evolution
 
-  - **(2006)** [liquibase.org](http://www.liquibase.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Liquibase is an open-source, platform-independent database schema migration tool designed to track, version, and deploy schema modifications. Employing XML, YAML, JSON, or SQL formats, it integrates into enterprise CI/CD pipelines to ensure database schemas evolve safely and repeatably alongside application code.
+  - **(2006)** [liquibase.org](https://www.liquibase.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Liquibase is an open-source, platform-independent database schema migration tool designed to track, version, and deploy schema modifications. Employing XML, YAML, JSON, or SQL formats, it integrates into enterprise CI/CD pipelines to ensure database schemas evolve safely and repeatably alongside application code.
 ## Infrastructure as Code
 
 ### Database Migration (1)

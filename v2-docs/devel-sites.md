@@ -1,4 +1,4 @@
-# Development & Frameworks. Websites for web developers
+# Development and Frameworks. Websites for web developers
 
 !!! info "Architectural Context"
     Detailed reference for Development & Frameworks. Websites for web developers in the context of Developer Ecosystem.

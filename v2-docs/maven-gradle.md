@@ -1,4 +1,4 @@
-# Maven, Gradle & SDKMAN
+# Maven, Gradle and SDKMAN
 
 !!! info "Architectural Context"
     Detailed reference for Maven, Gradle & SDKMAN in the context of Developer Ecosystem.
@@ -9,7 +9,7 @@
 
 #### General Reference
 
-  - [Create the scaffolding for your microservice](http://fuse.labs.osecloud.com/fuse/creating-a-microservices-project-with-maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering fuse.labs.osecloud.com in the Kubernetes Tools ecosystem.
+  - [Create the scaffolding for your microservice](https://fuse.labs.osecloud.com/fuse/creating-a-microservices-project-with-maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering fuse.labs.osecloud.com in the Kubernetes Tools ecosystem.
   - [Wikipedia.org: Apache Maven](https://en.wikipedia.org/wiki/Apache_Maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Wikipedia.org: Apache Maven in the Kubernetes Tools ecosystem.
   - [Dzone.com: Creating a Maven Archetype](https://dzone.com/articles/create-maven-archetype-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone.com: Creating a Maven Archetype in the Kubernetes Tools ecosystem.
   - [Dzone refcard: Apache Maven 2](https://dzone.com/asset/download/212)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone refcard: Apache Maven 2 in the Kubernetes Tools ecosystem.
@@ -40,7 +40,7 @@
   - **(2026)** [==maven.apache.org==](https://maven.apache.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official documentation gateway to Apache Maven, the foundational software project management and comprehension tool. Standardizes Java project build lifecycles through declarative Project Object Model (POM) XML configurations.
 #### Apache Maven Standards
 
-  - **(2026)** [==maven.apache.org: Introduction to the Standard Directory Layout==](http://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official specifications detailing the Maven Standard Directory Layout. Establishing highly rigid, predictable folder hierarchies ensures seamless code compilation and compilation reproducibility without custom config overrides.
+  - **(2026)** [==maven.apache.org: Introduction to the Standard Directory Layout==](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official specifications detailing the Maven Standard Directory Layout. Establishing highly rigid, predictable folder hierarchies ensures seamless code compilation and compilation reproducibility without custom config overrides.
 #### Build Daemon Optimization
 
   - **(2025)** [==apache/maven-mvnd==](https://github.com/apache/maven-mvnd) <span class='md-tag md-tag--info'>⭐ 3428</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Apache Maven Daemon repository. Drastically reduces compilation overhead by utilizing persistent background execution processes to store compiler hot-spots and plugin contexts.
@@ -63,7 +63,7 @@
   - **(2020)** [dev.to: Maven Plugin Configuration - The (Unknown) Tiny Details](https://dev.to/khmarbaise/maven-plugin-configuration-the-unknown-tiny-details-1emm) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highly granular analysis exploring the inner mechanics of Maven's build configuration injection. Details hidden quirks in dependency resolution, class loading, and goal executions.
 #### Project Templating
 
-  - **(2020)** [Handwritten Maven archetype project scaffolding](http://www.programmersought.com/article/1858176023) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed blueprint on writing and designing customized Maven archetypes. Empowers platform teams to automate standard microservice scaffolding configurations, keeping architectural consistency high.
+  - **(2020)** [Handwritten Maven archetype project scaffolding](https://www.programmersought.com/article/1858176023) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed blueprint on writing and designing customized Maven archetypes. Empowers platform teams to automate standard microservice scaffolding configurations, keeping architectural consistency high.
 #### Release and Reporting Plugins
 
   - **(2026)** [==Apache Maven Javadoc Plugin==](https://maven.apache.org/plugins/maven-javadoc-plugin) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Generates standardized, comprehensive API documentation in HTML layout using the javadoc tool. Configurable to strictly enforce javadoc correctness at runtime compilation.

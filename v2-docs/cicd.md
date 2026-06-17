@@ -181,7 +181,7 @@
 
 #### Feature Flags
 
-  - **(2025)** [split.io: Progressive Delivery](https://www.harness.io/harness-devops-academy/progressive-delivery?utm_campaign=fme&utm_source=split_io&utm_medium=redirect&utm_content=individual) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Foundational architectural overview of progressive delivery principles. Explains decoupling deployments from business releases using smart canary gates, dynamic feature flags, and real-time monitoring of impact metrics.
+  - **(2025)** [split.io: Progressive Delivery](https://www.harness.io/harness-devops-academy/progressive-delivery) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Foundational architectural overview of progressive delivery principles. Explains decoupling deployments from business releases using smart canary gates, dynamic feature flags, and real-time monitoring of impact metrics.
 ## DevOps (1)
 
 ### Agile

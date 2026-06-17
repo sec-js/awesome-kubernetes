@@ -9,7 +9,7 @@
 
 #### General Reference
 
-  - [tutorialspoint.com](http://www.tutorialspoint.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.tutorialspoint.com in the Kubernetes Tools ecosystem.
+  - [tutorialspoint.com](https://www.tutorialspoint.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.tutorialspoint.com in the Kubernetes Tools ecosystem.
   - [learn.openshift.com](https://learn.openshift.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering learn.openshift.com in the Kubernetes Tools ecosystem.
   - [hashicorp.com: HashiCorp Learning Resources Reference Guide 🌟](https://www.hashicorp.com/blog/hashicorp-learning-resources-reference-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering hashicorp.com: HashiCorp Learning Resources Reference Guide 🌟 in the Kubernetes Tools ecosystem.
   - [wiki.bash-hackers.org](https://wiki.bash-hackers.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering wiki.bash-hackers.org in the Kubernetes Tools ecosystem.
@@ -79,7 +79,7 @@
 
 #### Public Sector
 
-  - **(2026)** [**redhatgov.io**](http://redhatgov.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Specialized platform engineering portal with focused guides on locking down OpenShift infrastructure to meet strict military, intelligence, and federal government security benchmarks (DISA STIG, FIPS, NIST). A mandatory reference for architects building air-gapped, zero-trust container setups.
+  - **(2026)** [**redhatgov.io**](https://redhatgov.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Specialized platform engineering portal with focused guides on locking down OpenShift infrastructure to meet strict military, intelligence, and federal government security benchmarks (DISA STIG, FIPS, NIST). A mandatory reference for architects building air-gapped, zero-trust container setups.
 ## Professional Development
 
 ### Certifications
@@ -137,7 +137,7 @@
 
 #### Full-Stack Development
 
-  - **(2023)** [open-bootcamp.com](http://open-bootcamp.com) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — An archived Spanish-language full-stack and DevOps coding bootcamp. Provided highly popular, modular pathways for development and deployment, but is no longer actively maintained as of late 2023.
+  - **(2023)** [open-bootcamp.com](https://open-bootcamp.com) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — An archived Spanish-language full-stack and DevOps coding bootcamp. Provided highly popular, modular pathways for development and deployment, but is no longer actively maintained as of late 2023.
 ### Developer Productivity
 
 #### Muscle Memory
@@ -152,7 +152,7 @@
 
 #### Eclipse and Git
 
-  - **(2023)** [vogella.com](http://www.vogella.com/tutorials) 🌟🌟 <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An extensive library of software architecture write-ups focused primarily on Git structures, Java microservices development, and traditional IDE configurations. Very helpful for standard legacy design, though lacking modern Kubernetes-native patterns.
+  - **(2023)** [vogella.com](https://www.vogella.com/tutorials) 🌟🌟 <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An extensive library of software architecture write-ups focused primarily on Git structures, Java microservices development, and traditional IDE configurations. Very helpful for standard legacy design, though lacking modern Kubernetes-native patterns.
 ### Programming
 
 #### Interactive Coding

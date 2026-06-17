@@ -75,10 +75,10 @@
 
   - **(2023)** [itnext.io: Labels & Annotations in Kubernetes | Daniele Polencic](https://itnext.io/labels-and-annotations-in-kubernetes-234944b0f7ab) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Contrasts the mechanical functions of Kubernetes Labels (used for query selection and resource grouping) and Annotations (used to attach non-identifying operational metadata for integration tools).
   - **(2022)** [cast.ai: Kubernetes Labels: Expert Guide with 10 Best Practices](https://cast.ai/blog/kubernetes-labels-expert-guide-with-10-best-practices) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Establishes ten labeling best practices for enterprise systems. Analyzes how labeling impacts downstream scheduling, network topology routing, dynamic autoscaling, and metrics collection.
-  - **(2021)** [millionvisit.blogspot.com: Kubernetes for Developers #11: Pod Organization using Labels](http://millionvisit.blogspot.com/2021/03/kubernetes-for-developers-11-pod-organization-using-labels.html) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introduction to organizing pods using semantic label patterns. Covers metadata strategies for managing multi-tier applications across environments and tracking target release states.
+  - **(2021)** [millionvisit.blogspot.com: Kubernetes for Developers #11: Pod Organization using Labels](https://millionvisit.blogspot.com/2021/03/kubernetes-for-developers-11-pod-organization-using-labels.html) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introduction to organizing pods using semantic label patterns. Covers metadata strategies for managing multi-tier applications across environments and tracking target release states.
 #### Objects and Namespaces
 
-  - **(2021)** [millionvisit.blogspot.com: Kubernetes for Developers #8: Kubernetes Object Name, Labels, Selectors and Namespace](http://millionvisit.blogspot.com/2021/02/kubernetes-for-developers-8-Object%20Name-Labels-Selectors-Namespace.html) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces developers to core API resource concepts. Focuses on naming schemes, metadata definitions, and organizing resources using standard selector syntaxes.
+  - **(2021)** [millionvisit.blogspot.com: Kubernetes for Developers #8: Kubernetes Object Name, Labels, Selectors and Namespace](https://millionvisit.blogspot.com/2021/02/kubernetes-for-developers-8-Object%20Name-Labels-Selectors-Namespace.html) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces developers to core API resource concepts. Focuses on naming schemes, metadata definitions, and organizing resources using standard selector syntaxes.
 #### Runtime Lifecycle
 
   - **(2021)** [thenewstack.io: How do applications run on kubernetes?](https://thenewstack.io/how-do-applications-run-on-kubernetes) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introduction to the mechanics of running containers on Kubernetes. Maps the journey of a workload manifest from API parsing through scheduling to Kubelet execution.
@@ -107,10 +107,10 @@
 
 #### Liveness Probes
 
-  - **(2021)** [millionvisit.blogspot.com: Kubernetes for Developers #12: Effective way of using K8 Liveness Probe](http://millionvisit.blogspot.com/2021/04/kubernetes-for-developers-12-effective-way-of-using-k8-liveness-probe.html) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Developer-centric strategies for designing efficient liveness probes. Emphasizes isolating deadlock checks from deep application flows to prevent overloading key resources.
+  - **(2021)** [millionvisit.blogspot.com: Kubernetes for Developers #12: Effective way of using K8 Liveness Probe](https://millionvisit.blogspot.com/2021/04/kubernetes-for-developers-12-effective-way-of-using-k8-liveness-probe.html) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Developer-centric strategies for designing efficient liveness probes. Emphasizes isolating deadlock checks from deep application flows to prevent overloading key resources.
 #### Readiness Probes
 
-  - **(2021)** [millionvisit.blogspot.com: Kubernetes for Developers #13: Effective way of using K8 Readiness Probe](http://millionvisit.blogspot.com/2021/04/kubernetes-for-developers-13-effective-way-of-using-k8-readiness-probe.html) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Focuses on building effective readiness probes that reflect accurate application startup phases and resource warm-ups, preventing traffic routing before initialization finishes.
+  - **(2021)** [millionvisit.blogspot.com: Kubernetes for Developers #13: Effective way of using K8 Readiness Probe](https://millionvisit.blogspot.com/2021/04/kubernetes-for-developers-13-effective-way-of-using-k8-readiness-probe.html) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Focuses on building effective readiness probes that reflect accurate application startup phases and resource warm-ups, preventing traffic routing before initialization finishes.
 ## Application Management
 
 ### Custom Controllers
@@ -266,7 +266,7 @@
 
 #### Resources
 
-  - **(2021)** [==KEP-2837: Especificaciones de Recursos a Nivel de Pod==](https://github.com/kubernetes/enhancements/blob/ddf7d2a8c098e97b0714f31e88abad3b3e0e706c/keps/sig-node/2837-pod-level-resource-spec/README.md#summary) <span class='md-tag md-tag--info'>⭐ 3887</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A critical Kubernetes Enhancement Proposal (KEP) addressing resource specification directly at the Pod level rather than duplicating definitions across individual container configurations. This proposed structural shift promises to optimize vertical pod autoscaling, simplify scheduler math, and streamline declarative application configurations.
+  - **(2021)** [==KEP-2837: Especificaciones de Recursos a Nivel de Pod==](https://github.com/kubernetes/enhancements/blob/ddf7d2a8c098e97b0714f31e88abad3b3e0e706c/keps/sig-node/2837-pod-level-resource-spec/README.md) <span class='md-tag md-tag--info'>⭐ 3887</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A critical Kubernetes Enhancement Proposal (KEP) addressing resource specification directly at the Pod level rather than duplicating definitions across individual container configurations. This proposed structural shift promises to optimize vertical pod autoscaling, simplify scheduler math, and streamline declarative application configurations.
 ### Microservices (1)
 
 #### Platform Engineering
@@ -346,7 +346,7 @@
 
 #### Control Plane (4)
 
-  - **(2021)** [**brennerm.github.io: Kubernetes Overview Diagrams 🌟**](https://shipit.dev/posts/kubernetes-overview-diagrams.html#architecture) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An exceptional visual and architectural map detailing the data flow and interconnectivity between the API server, etcd, controller manager, and worker nodes. Essential reference for understanding component-level communications and network policies.
+  - **(2021)** [**brennerm.github.io: Kubernetes Overview Diagrams 🌟**](https://shipit.dev/posts/kubernetes-overview-diagrams.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An exceptional visual and architectural map detailing the data flow and interconnectivity between the API server, etcd, controller manager, and worker nodes. Essential reference for understanding component-level communications and network policies.
 ### Workloads
 
 #### Enterprise Use-Cases
@@ -448,7 +448,7 @@
 
 #### Overview
 
-  - **(2026)** [==Serverless Architectures==](https://nubenetes.com/serverless/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — In-depth analysis exploring execution concepts, billing architectures, scalability curves, and performance tradeoffs inherent in Serverless patterns. Details key differences between FaaS, cloud-managed runtimes, and self-hosted Knative workloads.
+  - **(2026)** [==Serverless Architectures==](https://nubenetes.com/serverless) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — In-depth analysis exploring execution concepts, billing architectures, scalability curves, and performance tradeoffs inherent in Serverless patterns. Details key differences between FaaS, cloud-managed runtimes, and self-hosted Knative workloads.
 ## Cloud Architecture and Infrastructure Strategy
 
 ### High Availability (1)
@@ -486,7 +486,7 @@
 
 ##### ArgoCon
 
-  - **(2026)** [ArgoCon North America 2026 Call for Proposals](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/argocon/#call-for-proposals)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official Call for Proposals portal for ArgoCon North America 2026. Focuses on collecting real-world architectures, case studies, and enterprise patterns utilizing Argo CD, Argo Workflows, Argo Rollouts, and Argo Events.
+  - **(2026)** [ArgoCon North America 2026 Call for Proposals](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/argocon)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official Call for Proposals portal for ArgoCon North America 2026. Focuses on collecting real-world architectures, case studies, and enterprise patterns utilizing Argo CD, Argo Workflows, Argo Rollouts, and Argo Events.
 ## Cloud Native and Kubernetes
 
 ### Networking and Edge Routing
@@ -550,7 +550,7 @@
 
 #### Research
 
-  - **(2022)** [docs.google.com - learnk8s.io: Research on the trade offs when choosing an instance type for a kubernetes cluster](https://docs.google.com/spreadsheets/d/1yhkuBJBY2iO2Ax5FcbDMdWD5QLTVO6Y_kYt_VumnEtI/edit#gid=1994017257) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive reference spreadsheet mapping public cloud compute options. Analyzes network limits, local disks performance, memory ratios, and OS-reserved compute resources to guide infrastructure designers.
+  - **(2022)** [docs.google.com - learnk8s.io: Research on the trade offs when choosing an instance type for a kubernetes cluster](https://docs.google.com/spreadsheets/d/1yhkuBJBY2iO2Ax5FcbDMdWD5QLTVO6Y_kYt_VumnEtI/edit) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive reference spreadsheet mapping public cloud compute options. Analyzes network limits, local disks performance, memory ratios, and OS-reserved compute resources to guide infrastructure designers.
 #### Worker Nodes
 
   - **(2023)** [learnk8s.io: Architecting Kubernetes clusters — choosing a worker node size](https://learnkube.com/kubernetes-node-size) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the trade-offs of choosing small versus large instance types for Kubernetes worker nodes. Discusses pod density limits, network interfaces, control plane overhead, and daemon-set resource allocation footprint.
@@ -603,7 +603,7 @@
 
 #### Onboarding
 
-  - **(2025)** [slack.kubernetes.io](http://slack.kubernetes.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official automated invitation portal designed to seamlessly onboard developers, system administrators, and technology partners into the global Kubernetes Slack organization. By simplifying community entry, it serves as the foundational doorway to direct collaborative engineering across SIG working groups.
+  - **(2025)** [slack.kubernetes.io](https://slack.kubernetes.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official automated invitation portal designed to seamlessly onboard developers, system administrators, and technology partners into the global Kubernetes Slack organization. By simplifying community entry, it serves as the foundational doorway to direct collaborative engineering across SIG working groups.
 #### Real-time Support
 
   - **(2025)** [kubernetes.slack.com](https://kubernetes.slack.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official Slack community space for the global Kubernetes ecosystem, hosting hundreds of thousands of developers, SREs, and cluster administrators. Organized into channels (e.g., #sig-network, #sig-storage, #kubernetes-users), it provides an unparalleled collaborative hub for solving technical issues and driving project governance.
@@ -759,7 +759,7 @@
 
 #### API Client Libraries
 
-  - **(2026)** [==Client Libraries for Kubernetes==](https://nubenetes.com/kubernetes-client-libraries/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Complete directory of supported Kubernetes API client libraries (Python, Go, Java, JavaScript, etc.). Details patterns for programmatic service discovery, controller building, and custom automation direct from application runtime code.
+  - **(2026)** [==Client Libraries for Kubernetes==](https://nubenetes.com/kubernetes-client-libraries) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Complete directory of supported Kubernetes API client libraries (Python, Go, Java, JavaScript, etc.). Details patterns for programmatic service discovery, controller building, and custom automation direct from application runtime code.
 ### Kubernetes Operations
 
 #### Pod Restarts
@@ -769,7 +769,7 @@
 
 #### Volumes Overview
 
-  - **(2026)** [==Kubernetes Storage - Volumes==](https://nubenetes.com/kubernetes-storage/#kubernetes-volumes) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Detailed catalog explaining stateful execution patterns inside Kubernetes. Focuses on lifecycle dynamics of Ephemeral, Persistent (PV), and PersistentVolumeClaims (PVC), alongside container storage interfaces (CSI) used to integrate modern storage backends.
+  - **(2026)** [==Kubernetes Storage - Volumes==](https://nubenetes.com/kubernetes-storage) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Detailed catalog explaining stateful execution patterns inside Kubernetes. Focuses on lifecycle dynamics of Ephemeral, Persistent (PV), and PersistentVolumeClaims (PVC), alongside container storage interfaces (CSI) used to integrate modern storage backends.
 ### Virtualization VS Containers
 
 #### Kubernetes Concept
@@ -900,7 +900,7 @@
 
 #### Awesome Lists
 
-  - **(2026)** [==ramitsurana/awesome-kubernetes: Tools 🌟==](https://github.com/ramitsurana/awesome-kubernetes#configuration) <span class='md-tag md-tag--info'>⭐ 15992</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exhaustive resource collection tracking ecosystem projects, documentation, configurations, and utilities. It serves as a comprehensive reference guide for cloud-native architects looking to select vetted tooling across networking, storage, security, and developer platforms.
+  - **(2026)** [==ramitsurana/awesome-kubernetes: Tools 🌟==](https://github.com/ramitsurana/awesome-kubernetes) <span class='md-tag md-tag--info'>⭐ 15992</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exhaustive resource collection tracking ecosystem projects, documentation, configurations, and utilities. It serves as a comprehensive reference guide for cloud-native architects looking to select vetted tooling across networking, storage, security, and developer platforms.
 ## Data Management
 
 ### Databases
@@ -1100,7 +1100,7 @@
 
 #### Practical Guides
 
-  - **(2020)** [elmanytas.es: Kubernetes para impostores III](http://elmanytas.es/?q=node/358) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly practical Spanish-language guide dissecting Kubernetes primitives and runtime structures. It demystifies the steep learning curve by explaining pods, services, and deployments with a pragmatic, developer-focused narrative.
+  - **(2020)** [elmanytas.es: Kubernetes para impostores III](https://elmanytas.es/?q=node/358) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly practical Spanish-language guide dissecting Kubernetes primitives and runtime structures. It demystifies the steep learning curve by explaining pods, services, and deployments with a pragmatic, developer-focused narrative.
 ### Tutorials
 
 #### Deployment Workflow
@@ -1217,7 +1217,7 @@
 
 #### etcd Administration
 
-  - **(2023)** [kubernetes.io: Operating etcd clusters for Kubernetes](https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#securing-etcd-clusters) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official operational guidelines for running production etcd clusters. Focuses on cluster deployment, securing communication with mutual TLS (mTLS), performance tuning, and performing safe backup and restore operations.
+  - **(2023)** [kubernetes.io: Operating etcd clusters for Kubernetes](https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official operational guidelines for running production etcd clusters. Focuses on cluster deployment, securing communication with mutual TLS (mTLS), performance tuning, and performing safe backup and restore operations.
 #### etcd Core Concepts
 
   - **(2022)** [learnk8s.io: How etcd works with and without Kubernetes](https://learnkube.com/etcd-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Compares the execution of etcd as a standalone key-value store with its role as Kubernetes' single source of truth. Investigates Raft consensus mechanics, write paths, and how the API server serializes resource states.
@@ -1336,7 +1336,7 @@
 
 #### Overview (1)
 
-  - **(2026)** [==Crossplane==](https://nubenetes.com/crossplane/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Comprehensive review of Crossplane, a CNCF control-plane framework transforming Kubernetes clusters into universal infrastructure schedulers. Permits declarative definition of cloud resources (RDS, S3, VMs) alongside native Kubernetes schemas.
+  - **(2026)** [==Crossplane==](https://nubenetes.com/crossplane) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Comprehensive review of Crossplane, a CNCF control-plane framework transforming Kubernetes clusters into universal infrastructure schedulers. Permits declarative definition of cloud resources (RDS, S3, VMs) alongside native Kubernetes schemas.
 ## Introductory
 
 ### Concepts (1)
@@ -1359,7 +1359,7 @@
   - [platform9.com: The Gorilla Guide to Kubernetes in the Enterprise](https://platform9.com/blog/kubernetes-service-mesh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering platform9.com in the Kubernetes Tools ecosystem.
   - [containerjournal.com: The Rise of the KubeMaster 🌟](https://cloudnativenow.com/features/the-rise-of-the-kubemaster)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cloudnativenow.com in the Kubernetes Tools ecosystem.
   - [geekflare.com: 10 Kubernetes Best Practices for Better Container Orchestration](https://geekflare.com/cybersecurity/kubernetes-security-scanner)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering geekflare.com in the Kubernetes Tools ecosystem.
-  - [blog.kubecost.com: Kubecost raises $5.5 million to help teams monitor and reduce their Kubernetes spend](http://blog.kubecost.com/blog/announcing-kubecost-first-round)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.kubecost.com in the Kubernetes Tools ecosystem.
+  - [blog.kubecost.com: Kubecost raises $5.5 million to help teams monitor and reduce their Kubernetes spend](https://blog.kubecost.com/blog/announcing-kubecost-first-round)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.kubecost.com in the Kubernetes Tools ecosystem.
   - [divya-mohan0209.medium.com: Mo’ tenancy, Mo’ problems.](https://divya-mohan0209.medium.com/mo-tenancy-mo-problems-f031f75374f7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering divya-mohan0209.medium.com: Mo’ tenancy, Mo’ problems. in the Kubernetes Tools ecosystem.
   - [Introducing Kiro: AWS Agentic AI-Based IDE](https://markrosscloud.medium.com/introducing-kiro-aws-agentic-ai-based-ide-cded711b1409)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Introducing Kiro: AWS Agentic AI-Based IDE in the Kubernetes Tools ecosystem.
   - [k8sref.io](https://www.k8sref.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering k8sref.io in the Kubernetes Tools ecosystem.
@@ -1608,7 +1608,7 @@
   - [medium.com/@chamakenjefi: Kubernetes deployments using a ConfigMap with' a custom index.html page](https://medium.com/@chamakenjefi/kubernetes-deployments-using-a-configmap-with-a-custom-index-html-page-5b4de0a7aa1b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@chamakenjefi: Kubernetes deployments using a ConfigMap with' a custom index.html page in the Kubernetes Tools ecosystem.
   - [medium.com/@vrnvav97: Canary Deployment in Kubernetes](https://medium.com/@vrnvav97/canary-deployment-in-kubernetes-a18c81cb9b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@vrnvav97: Canary Deployment in Kubernetes in the Kubernetes Tools ecosystem.
   - [medium.com/@the.nick.miller: Custom Deployments with Kubernetes](https://medium.com/@the.nick.miller/multi-container-deployments-with-kubernetes-33c824d8d9a4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@the.nick.miller: Custom Deployments with Kubernetes in the Kubernetes Tools ecosystem.
-  - [amolmote.hashnode.dev: ReplicaSet & Deployment In Kubernetes 🌟](https://amolmote.hashnode.dev/replicaset-deployment-in-kubernetes#heading-what-is-deployment)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==amolmote.hashnode.dev: ReplicaSet & Deployment In Kubernetes== 🌟 in the Kubernetes Tools ecosystem.
+  - [amolmote.hashnode.dev: ReplicaSet & Deployment In Kubernetes 🌟](https://amolmote.hashnode.dev/replicaset-deployment-in-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==amolmote.hashnode.dev: ReplicaSet & Deployment In Kubernetes== 🌟 in the Kubernetes Tools ecosystem.
   - [teplyheng.medium.com: Understand the difference between Deployments and' ReplicaSet 🌟](https://teplyheng.medium.com/understand-the-difference-between-deployments-and-replicaset-7e1cfd4d8639)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering teplyheng.medium.com: Understand the difference between Deployments and' ReplicaSet 🌟 in the Kubernetes Tools ecosystem.
   - [teplyheng.medium.com: In-depth understanding of Deployments in Kubernetes](https://teplyheng.medium.com/in-depth-understanding-of-deployments-in-kubernetes-af2c93ca4a24)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering teplyheng.medium.com: In-depth understanding of Deployments in Kubernetes in the Kubernetes Tools ecosystem.
   - [routerhan.medium.com: Understanding Kubernetes Deployment — A Beginner’s' Guide](https://routerhan.medium.com/understanding-kubernetes-deployment-a-beginners-guide-6723c19dbd57)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering routerhan.medium.com: Understanding Kubernetes Deployment — A Beginner’s' Guide in the Kubernetes Tools ecosystem.
@@ -2231,7 +2231,7 @@
 #### Priority Class
 
   - **(2023)** [devopscube.com: Kubernetes Pod Priority, PriorityClass, and Preemption Explained 🌟](https://devopscube.com/pod-priorityclass-preemption) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operations guide detailing the setup, risk mitigation, and security policies governing PriorityClasses, helping operators protect critical platform controllers from being starved of compute resources.
-  - **(2022)** [bytes.devopscube.com: Kubernetes Pod Priority & Preemption](https://bytes.devopscube.com/p/pod-priority-preemption-explained?s=r) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a comprehensive architectural overview of Kubernetes Pod Priority and Preemption. It explains how high-priority containers can evict lower-priority workloads from fully saturated worker nodes.
+  - **(2022)** [bytes.devopscube.com: Kubernetes Pod Priority & Preemption](https://bytes.devopscube.com/p/pod-priority-preemption-explained) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a comprehensive architectural overview of Kubernetes Pod Priority and Preemption. It explains how high-priority containers can evict lower-priority workloads from fully saturated worker nodes.
 #### Taints and Tolerations
 
   - **(2020)** [returngis.net: Organizar los pods en Kubernetes usando taints y tolerations](https://www.returngis.net/2020/06/organizar-los-pods-en-kubernetes-usando-taints-y-tolerations) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes scheduling isolation strategies using Node Taints and Pod Tolerations. Outlines patterns to dedicate specific hardware pools to isolated tenant classes or heavy ML workloads (written in Spanish).
@@ -2521,7 +2521,7 @@
 
 #### Affinity Controls
 
-  - **(2026)** [Affinity and anti-affinity](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#affinity-and-anti-affinity) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reference guide on node affinity and pod-to-pod affinity/anti-affinity. This declarative configuration interface allows operators to write rules constraining pod placement relative to host labels and existing workloads, enabling active high-availability topologies.
+  - **(2026)** [Affinity and anti-affinity](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reference guide on node affinity and pod-to-pod affinity/anti-affinity. This declarative configuration interface allows operators to write rules constraining pod placement relative to host labels and existing workloads, enabling active high-availability topologies.
 #### Topology Spread
 
   - **(2026)** [Pod Topology Spread Constraints](https://kubernetes.io/docs/concepts/scheduling-eviction/topology-spread-constraints) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Documentation covering Pod Topology Spread Constraints, a critical framework for distributing pods evenly across failure domains like availability zones, regions, or host groups. It explains how to set maximum skew limits to ensure high availability and prevent single-point infrastructure failures.
@@ -2818,7 +2818,7 @@
   - **(2020)** [Kubernetes 101](https://leanpub.com/kubernetes-101)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory technical book designed to bridge the knowledge gap for software developers transitioning to orchestrator-driven architectures. It breaks down critical components like Pods, Deployments, Services, and ingress resources, offering simple, step-by-step command patterns to build confidence with kubectl.
 #### Core Literature (1)
 
-  - **(2019)** [Kubernetes: Up and Running, 2nd Edition](http://shop.oreilly.com/product/0636920223788.do)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Written by co-creators of Kubernetes, this canonical O'Reilly volume serves as the gold-standard literature for understanding the architecture, design choices, and day-to-day operation of Kubernetes clusters. It covers declarative API design, multi-container pod patterns, and distributed service state.
+  - **(2019)** [Kubernetes: Up and Running, 2nd Edition](https://shop.oreilly.com/product/0636920223788.do)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Written by co-creators of Kubernetes, this canonical O'Reilly volume serves as the gold-standard literature for understanding the architecture, design choices, and day-to-day operation of Kubernetes clusters. It covers declarative API design, multi-container pod patterns, and distributed service state.
 #### NodeJS
 
   - **(2019)** [digitalocean.com: From Containers to Kubernetes with Node.js eBook](https://www.digitalocean.com/community/books/from-containers-to-kubernetes-with-node-js-ebook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical, application-focused eBook demonstrating the end-to-end containerization lifecycle of a Node.js application. It walks through drafting efficient Dockerfiles, setting up local development via Minikube, and writing declarative manifests to scale production microservices on Kubernetes.

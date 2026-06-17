@@ -71,7 +71,7 @@
 
 #### Workflows
 
-  - **(2020)** [zdnet.com: Puppet introduces beta of cloud-native, event-driven DevOps program: Relay](https://www.zdnet.com/article/puppet-introduces-beta-of-cloud-native-event-driven-devops-program-relay/#ftag=RSSbaffb68) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Historically documents Puppet's launch of Relay, an event-driven automation engine designed to bridge third-party API events with containerized remediation workflows. Note: Relay was subsequently archived as Puppet's focus shifted post-acquisition, making this of historical interest for cloud-native workflow design.
+  - **(2020)** [zdnet.com: Puppet introduces beta of cloud-native, event-driven DevOps program: Relay](https://www.zdnet.com/article/puppet-introduces-beta-of-cloud-native-event-driven-devops-program-relay) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Historically documents Puppet's launch of Relay, an event-driven automation engine designed to bridge third-party API events with containerized remediation workflows. Note: Relay was subsequently archived as Puppet's focus shifted post-acquisition, making this of historical interest for cloud-native workflow design.
 ### Industry Reports
 
 #### Tooling Landscape

@@ -27,7 +27,7 @@
 
 ###### Monitoring
 
-  - **(2024)** [Monitor your Azure cloud estate - Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/manage/monitor#reference-for-monitoring-azure-services) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Microsoft's official framework for implementing enterprise-wide monitoring strategies across Azure subscription models. It details Azure Monitor integrations, Log Analytics configurations, and service-level baseline configurations. Curator Insight: Strategic enterprise adoption guide. Live Grounding: Focuses heavily on mapping technical telemetry directly to business outcomes and platform compliance frameworks.
+  - **(2024)** [Monitor your Azure cloud estate - Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/manage/monitor) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Microsoft's official framework for implementing enterprise-wide monitoring strategies across Azure subscription models. It details Azure Monitor integrations, Log Analytics configurations, and service-level baseline configurations. Curator Insight: Strategic enterprise adoption guide. Live Grounding: Focuses heavily on mapping technical telemetry directly to business outcomes and platform compliance frameworks.
 ## Cloud Operations
 
 ### Infrastructure Validation
@@ -48,7 +48,7 @@
 
 #### Low-Code Testing
 
-  - **(2022)** [tutorials.virtualan.io: Idaithalam - Lowcode Test Automation](https://tutorials.virtualan.io/#/Idaithalam) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces Idaithalam, a low-code, metadata-driven API testing framework built under Virtualan. It details how to leverage declarative Excel spreadsheets or Postman collections to generate and execute complex integration test suites, reducing the necessity for heavy programming while ensuring high test coverage.
+  - **(2022)** [tutorials.virtualan.io: Idaithalam - Lowcode Test Automation](https://tutorials.virtualan.io) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces Idaithalam, a low-code, metadata-driven API testing framework built under Virtualan. It details how to leverage declarative Excel spreadsheets or Postman collections to generate and execute complex integration test suites, reducing the necessity for heavy programming while ensuring high test coverage.
 ### Acceptance Testing
 
 #### Keyword-Driven Frameworks
@@ -86,7 +86,7 @@
 
 #### Appium Core
 
-  - **(2024)** [==appium.io==](http://appium.io) <span class='md-tag md-tag--warning'>[MULTI-LANGUAGE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source, cross-platform mobile automation tool implementing the W3C WebDriver protocol for native, hybrid, and mobile web applications. Establishes a standard interface to control iOS (via XCUITest) and Android (via UIAutomator2) devices without requiring recompilation of the target mobile applications.
+  - **(2024)** [==appium.io==](https://appium.io) <span class='md-tag md-tag--warning'>[MULTI-LANGUAGE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source, cross-platform mobile automation tool implementing the W3C WebDriver protocol for native, hybrid, and mobile web applications. Establishes a standard interface to control iOS (via XCUITest) and Android (via UIAutomator2) devices without requiring recompilation of the target mobile applications.
   - **(2023)** [==automationqahub.com: How to get started with Appium 2.0==](https://automationqahub.com/how-to-do-mobile-automation-using-appium-2-0) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Evaluates the decoupled architecture of Appium 2.0, where mobile drivers (like UIAutomator2 and XCUITest) and plugins are installed independently from the core CLI. Explains the command line utilities to manage drivers, configure server execution parameters, and adapt existing test scripts to the upgraded ecosystem.
 #### BDD Automation
 

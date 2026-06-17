@@ -24,7 +24,7 @@
   - **(2022)** [Keptn Jenkins Shared Library](https://github.com/keptn-sandbox/keptn-jenkins-library) <span class='md-tag md-tag--info'>⭐ 8</span> <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A pipeline-as-code integration allowing Jenkins jobs to dispatch Keptn-driven operations such as performance testing, quality gate validation, and continuous remediation, combining classic CI with modern orchestrators.
 #### Video Guides
 
-  - **(2020)** [youtube: Level-Up your Jenkins-based Delivery with Keptn](https://www.youtube.com/watch?v=VYRdirdjOAg&t=5s)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Visual walk-through demonstrating how Keptn decouples delivery orchestrations from Jenkinsfiles. Shows how to configure service quality gates using declarative SLIs/SLOs to automatically rollback failing pipelines.
+  - **(2020)** [youtube: Level-Up your Jenkins-based Delivery with Keptn](https://www.youtube.com/watch?v=VYRdirdjOAg)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Visual walk-through demonstrating how Keptn decouples delivery orchestrations from Jenkinsfiles. Shows how to configure service quality gates using declarative SLIs/SLOs to automatically rollback failing pipelines.
 ### Continuous Delivery
 
 #### Enterprise Observability

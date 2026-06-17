@@ -1,4 +1,4 @@
-# DevOps Demos. Boilerplates/Samples, Tutorials & Screencasts
+# DevOps Demos. Boilerplates/Samples, Tutorials and Screencasts
 
 !!! info "Architectural Context"
     Detailed reference for DevOps Demos. Boilerplates/Samples, Tutorials & Screencasts in the context of Architectural Foundations.
@@ -28,7 +28,7 @@
 
 #### Multi-Cluster Deployments
 
-  - **(2020)** [alesnosek.com: CI/CD Pipeline Spanning Multiple OpenShift Clusters (jenkins & tekton)](http://alesnosek.com/blog/2020/06/30/ci-slash-cd-pipeline-spanning-multiple-openshift-clusters) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the architecture of CI/CD pipelines running across multiple isolated OpenShift environments. Contrasts Jenkins and Tekton setups, proposing patterns for safe environment transition and credential management.
+  - **(2020)** [alesnosek.com: CI/CD Pipeline Spanning Multiple OpenShift Clusters (jenkins & tekton)](https://alesnosek.com/blog/2020/06/30/ci-slash-cd-pipeline-spanning-multiple-openshift-clusters) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the architecture of CI/CD pipelines running across multiple isolated OpenShift environments. Contrasts Jenkins and Tekton setups, proposing patterns for safe environment transition and credential management.
 #### Tekton Pipelines
 
   - **(2021)** [developers.redhat.com: Getting started with Tekton and Pipelines](https://developers.redhat.com/blog/2021/01/13/getting-started-with-tekton-and-pipelines) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A step-by-step developer guide on constructing custom Tekton pipelines. Guides engineers through defining Tasks, Pipelines, and trigger templates to translate software releases into managed Kubernetes resources.
@@ -211,7 +211,7 @@
 
 #### OpenShift and Camel
 
-  - **(2021)** [developers.redhat.com: Modernizing applications with Apache Camel, JavaScript, and Red Hat OpenShift](https://developers.redhat.com/articles/2021/07/26/modernizing-applications-apache-camel-javascript-and-red-hat-openshift#) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Examines legacy integration strategies and modern microservices orchestration utilizing Apache Camel K (native integrations) coupled with Node.js/JavaScript on Red Hat OpenShift. Discusses enterprise integration patterns (EIPs) within modern container systems.
+  - **(2021)** [developers.redhat.com: Modernizing applications with Apache Camel, JavaScript, and Red Hat OpenShift](https://developers.redhat.com/articles/2021/07/26/modernizing-applications-apache-camel-javascript-and-red-hat-openshift) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Examines legacy integration strategies and modern microservices orchestration utilizing Apache Camel K (native integrations) coupled with Node.js/JavaScript on Red Hat OpenShift. Discusses enterprise integration patterns (EIPs) within modern container systems.
 ### Spring to Quarkus
 
 #### Framework Migration
@@ -388,7 +388,7 @@
 
 #### Cloud Engineering
 
-  - **(2026)** [learntocloud.guide](https://learntocloud.guide/#/projects/README)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An open-source, highly structured educational roadmap designed to transition traditional sysadmins into proficient cloud engineers. It guides learners through networking, Linux administration, infrastructure as code, and cloud-native topologies. Live grounding highlights its massive adoption within the DevOps community.
+  - **(2026)** [learntocloud.guide](https://learntocloud.guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An open-source, highly structured educational roadmap designed to transition traditional sysadmins into proficient cloud engineers. It guides learners through networking, Linux administration, infrastructure as code, and cloud-native topologies. Live grounding highlights its massive adoption within the DevOps community.
 ## Cloud Native
 
 ### Security
@@ -730,7 +730,7 @@
 
 ##### Jenkins Pipelines (1)
 
-  - **(2021)** [youtube: How to set up AWS Kubernetes Jenkins pipeline](https://www.youtube.com/watch?v=zI7_8M2KtRI&t=7s&ab_channel=MicroserviceFactory) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight presents this video guide as a roadmap to deploying and running Jenkins pipelines on AWS EKS Kubernetes clusters. Live Grounding highlights the use of IAM Roles for Service Accounts (IRSA) to dynamically authorize cloud resource creation directly from Jenkins pods. This pattern avoids insecure long-lived static AWS access credentials.
+  - **(2021)** [youtube: How to set up AWS Kubernetes Jenkins pipeline](https://www.youtube.com/watch?v=zI7_8M2KtRI&ab_channel=MicroserviceFactory) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight presents this video guide as a roadmap to deploying and running Jenkins pipelines on AWS EKS Kubernetes clusters. Live Grounding highlights the use of IAM Roles for Service Accounts (IRSA) to dynamically authorize cloud resource creation directly from Jenkins pods. This pattern avoids insecure long-lived static AWS access credentials.
 ### Observability
 
 #### Metrics Collection
@@ -859,7 +859,7 @@
 
 #### Azure Cloud Testing
 
-  - **(2024)** [==github.com/microsoft: Contoso Traders - Cloud testing tools demo app==](https://github.com/microsoft/contosotraders-cloudtesting#contoso-traders---cloud-testing-tools-demo-app) <span class='md-tag md-tag--info'>⭐ 168</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive, multi-platform microservices demonstration application showcasing Azure cloud testing solutions. Features Playwright end-to-end tests, load testing scenarios, and automated regression validations.
+  - **(2024)** [==github.com/microsoft: Contoso Traders - Cloud testing tools demo app==](https://github.com/microsoft/contosotraders-cloudtesting) <span class='md-tag md-tag--info'>⭐ 168</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive, multi-platform microservices demonstration application showcasing Azure cloud testing solutions. Features Playwright end-to-end tests, load testing scenarios, and automated regression validations.
 ## Developer Experience (1)
 
 ### Inner Loop Development
@@ -987,7 +987,7 @@
 
 #### Developer Workspaces
 
-  - **(2024)** [OpenShift.io Samples 🌟🌟](https://workspaces.openshift.com/#/getstarted) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Enterprise cloud developer templates optimized for Red Hat OpenShift Workspaces (Eclipse Che). Facilitates the rapid provisioning of secure, IDE-integrated environments for compiling and deploying cloud-native workloads.
+  - **(2024)** [OpenShift.io Samples 🌟🌟](https://workspaces.openshift.com) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Enterprise cloud developer templates optimized for Red Hat OpenShift Workspaces (Eclipse Che). Facilitates the rapid provisioning of secure, IDE-integrated environments for compiling and deploying cloud-native workloads.
 ## Hybrid Cloud Solutions
 
 ### Multi-Cloud Architectures
@@ -1052,7 +1052,7 @@
 
 #### OKD Community Platform
 
-  - **(2020)** [openshift.com: Recap: OKD 4 Testing and Deployment Workshop - Videos and Additional Resources](https://www.redhat.com/en/blog/recap-okd-4-testing-and-deployment-workshop-videos-and-additional-resources?utm_source=thenewstack&utm_medium=twitter&utm_campaign=platform) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compiles core workshop resources on OKD 4 deployment, testing, and lifecycle patterns. Explores underlying Fedora CoreOS operating mechanics and bootstrap procedures for community-led OpenShift clusters.
+  - **(2020)** [openshift.com: Recap: OKD 4 Testing and Deployment Workshop - Videos and Additional Resources](https://www.redhat.com/en/blog/recap-okd-4-testing-and-deployment-workshop-videos-and-additional-resources) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compiles core workshop resources on OKD 4 deployment, testing, and lifecycle patterns. Explores underlying Fedora CoreOS operating mechanics and bootstrap procedures for community-led OpenShift clusters.
 #### Red Hat ACM
 
   - **(2020)** [Advanced Cluster Management Demos](https://www.youtube.com/playlist?list=PLbMP1JcGBmSFA56rykbH2fg1F9Tozk4of)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated playlist of technical capabilities inside Red Hat Advanced Cluster Management (ACM), focusing on policy enforcement, lifecycle orchestration, and multi-cluster visualization.
@@ -1182,16 +1182,16 @@
 
 ### General Reference
 
-  - [kubernetesbyexample.com](http://kubernetesbyexample.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering kubernetesbyexample.com in the Kubernetes Tools ecosystem.
+  - [kubernetesbyexample.com](https://kubernetesbyexample.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering kubernetesbyexample.com in the Kubernetes Tools ecosystem.
   - [k8s Initializer 🌟](https://blackbird.a8r.io/initializer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blackbird.a8r.io in the Kubernetes Tools ecosystem.
   - [blog.jetstack.io: Istio OIDC Authentication](https://developer.cyberark.com/blog/istio-oidc-authentication)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering developer.cyberark.com in the Kubernetes Tools ecosystem.
   - [trstringer.com: Deploy to AKS Using a Managed Identity from a GitHub Actions Self-Hosted Runner 🌟](https://trstringer.com/deploy-to-aks-from-github-actions/-self-hosted)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering trstringer.com in the Kubernetes Tools ecosystem.
-  - [Clustering WildFly on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/clustering-wildfly-on-openshift-using-wildfly-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.mastertheboss.com in the Kubernetes Tools ecosystem.
-  - [Java EE example on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/java-ee-example-application-on-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.mastertheboss.com in the Kubernetes Tools ecosystem.
-  - [Microprofile example on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/running-microprofile-applications-on-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.mastertheboss.com in the Kubernetes Tools ecosystem.
-  - [Deploying WildFly apps on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/using-wildfly-on-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.mastertheboss.com in the Kubernetes Tools ecosystem.
-  - [Running Thorntail apps on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/thorntail-on-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.mastertheboss.com in the Kubernetes Tools ecosystem.
-  - [Running Spring Boot applications on Openshift](http://www.mastertheboss.com/jboss-frameworks/spring/deploy-your-springboot-applications-on-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.mastertheboss.com in the Kubernetes Tools ecosystem.
+  - [Clustering WildFly on Openshift](https://www.mastertheboss.com/soa-cloud/openshift/clustering-wildfly-on-openshift-using-wildfly-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.mastertheboss.com in the Kubernetes Tools ecosystem.
+  - [Java EE example on Openshift](https://www.mastertheboss.com/soa-cloud/openshift/java-ee-example-application-on-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.mastertheboss.com in the Kubernetes Tools ecosystem.
+  - [Microprofile example on Openshift](https://www.mastertheboss.com/soa-cloud/openshift/running-microprofile-applications-on-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.mastertheboss.com in the Kubernetes Tools ecosystem.
+  - [Deploying WildFly apps on Openshift](https://www.mastertheboss.com/soa-cloud/openshift/using-wildfly-on-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.mastertheboss.com in the Kubernetes Tools ecosystem.
+  - [Running Thorntail apps on Openshift](https://www.mastertheboss.com/soa-cloud/openshift/thorntail-on-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.mastertheboss.com in the Kubernetes Tools ecosystem.
+  - [Running Spring Boot applications on Openshift](https://www.mastertheboss.com/jboss-frameworks/spring/deploy-your-springboot-applications-on-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.mastertheboss.com in the Kubernetes Tools ecosystem.
   - [SysAdmin Casts](https://sysadmincasts.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering SysAdmin Casts in the Kubernetes Tools ecosystem.
   - [DevStack](https://devstack.in)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering DevStack in the Kubernetes Tools ecosystem.
   - [kubernetes-advocate.medium.com 🌟](https://kubernetes-advocate.medium.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering kubernetes-advocate.medium.com 🌟 in the Kubernetes Tools ecosystem.
@@ -1244,7 +1244,7 @@
   - [Deploying Docker Images to OpenShift](https://dzone.com/articles/deploying-docker-images-to-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Deploying Docker Images to OpenShift in the Kubernetes Tools ecosystem.
   - [medium: Tutorial : Secure your API with x509 Mutual Authentication with' Spring Boot on OpenShift4](https://medium.com/@erfin.feluzy/tutorial-secure-your-api-with-x509-mutual-authentication-with-spring-boot-on-openshift4-416a00a47af8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Tutorial : Secure your API with x509 Mutual Authentication with' Spring Boot on OpenShift4 in the Kubernetes Tools ecosystem.
   - [medium.com: Red Hat OpenShift Virtualization in nested VMware vSphere Cluster](https://medium.com/@carlosedp/red-hat-openshift-virtualization-in-nested-vmware-vsphere-56c5e5d76a80)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com: Red Hat OpenShift Virtualization in nested VMware vSphere Cluster in the Kubernetes Tools ecosystem.
-  - [JBoss Web Server Operator 🌟](https://access.redhat.com/documentation/en-us/red_hat_jboss_web_server/5.4/html-single/red_hat_jboss_web_server_for_openshift/index#jws_operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering JBoss Web Server Operator 🌟 in the Kubernetes Tools ecosystem.
+  - [JBoss Web Server Operator 🌟](https://access.redhat.com/documentation/en-us/red_hat_jboss_web_server/5.4/html-single/red_hat_jboss_web_server_for_openshift/index)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering JBoss Web Server Operator 🌟 in the Kubernetes Tools ecosystem.
   - [developers.redhat.com: How to deploy a Java application on Kubernetes in' minutes](https://developers.redhat.com/developer-sandbox/how-to-deploy-java-application-in-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering developers.redhat.com: How to deploy a Java application on Kubernetes in' minutes in the Kubernetes Tools ecosystem.
   - [developers.redhat.com: Welcome to the Developer Sandbox for Red Hat OpenShift.' Part 1: Deploying full-stack JavaScript applications to the Developer Sandbox for Red Hat OpenShift](https://developers.redhat.com/developer-sandbox/activities/deploying-full-stack-javascript-applications-to-the-sandbox/part1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering developers.redhat.com: Welcome to the Developer Sandbox for Red Hat OpenShift.' Part 1: Deploying full-stack JavaScript applications to the Developer Sandbox for Red Hat OpenShift in the Kubernetes Tools ecosystem.
   - [IBM Cloud Pak Playbook](https://cloudpak8s.io/apps/cp4a_overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering IBM Cloud Pak Playbook in the Kubernetes Tools ecosystem.
@@ -1352,7 +1352,7 @@
 
 #### Message Brokers
 
-  - **(2020)** [piotrminkowski.com: RabbitMQ Monitoring on Kubernetes](https://piotrminkowski.com/2020/09/29/rabbitmq-monitoring-on-kubernetes/?utm_sq=gl0f6vph5e) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical tutorial focused on architecting a comprehensive RabbitMQ monitoring pipeline within Kubernetes. Illustrates how to configure Prometheus Operator's custom resources, register dedicated ServiceMonitors, and implement rich Grafana dashboard systems to observe telemetry metrics such as message rates, consumer connections, and disk storage alerts.
+  - **(2020)** [piotrminkowski.com: RabbitMQ Monitoring on Kubernetes](https://piotrminkowski.com/2020/09/29/rabbitmq-monitoring-on-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical tutorial focused on architecting a comprehensive RabbitMQ monitoring pipeline within Kubernetes. Illustrates how to configure Prometheus Operator's custom resources, register dedicated ServiceMonitors, and implement rich Grafana dashboard systems to observe telemetry metrics such as message rates, consumer connections, and disk storage alerts.
 ### OpenTelemetry
 
 #### Governance
@@ -1387,7 +1387,7 @@
 
 #### EKS Training
 
-  - **(2025)** [eksworkshop.com](https://eksworkshop.com/) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The canonical AWS EKS workshop framework. Outlines standard cluster orchestration procedures, highlighting network configurations (AWS VPC CNI), identity management (IAM Roles for Service Accounts - IRSA), and modern storage drivers (EBS/EFS CSI).
+  - **(2025)** [eksworkshop.com](https://eksworkshop.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The canonical AWS EKS workshop framework. Outlines standard cluster orchestration procedures, highlighting network configurations (AWS VPC CNI), identity management (IAM Roles for Service Accounts - IRSA), and modern storage drivers (EBS/EFS CSI).
 ### Kubernetes Security
 
 #### RKE Best Practices
@@ -1416,7 +1416,7 @@
   - **(2025)** [**Portfolio Architecture Tooling**](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A technical toolset and mapping library designed to programmatically generate clean, unified, and compliant architectural diagrams for hybrid cloud deployments. Enables platform teams to model complex networking, storage, and cluster connections cleanly.
 #### Red Hat Ecosystem
 
-  - **(2025)** [==Portfolio Architecture WorkShops 🌟==](https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops/#) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Comprehensive architectural workshops presenting verified blueprints for complex hybrid cloud systems, retail edge strategies, and AI/ML model deployment operations. It serves as a highly detailed blueprint catalog for modern enterprise architects.
+  - **(2025)** [==Portfolio Architecture WorkShops 🌟==](https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Comprehensive architectural workshops presenting verified blueprints for complex hybrid cloud systems, retail edge strategies, and AI/ML model deployment operations. It serves as a highly detailed blueprint catalog for modern enterprise architects.
 ### CICD Platforms (1)
 
 #### Azure DevOps (1)

@@ -149,7 +149,7 @@
 
 #### Container Images
 
-  - **(2020)** [youtube: 3 Ways to Detect Evil "Latest" Image Tags in Kubernetes - Kubevious](https://www.youtube.com/watch?v=93RlMqO4glM&t=6s&ab_channel=Kubevious)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Using the 'latest' container image tag in production is a critical antipattern that breaks deployment reproducibility and introduces security risks. This guide uses Kubevious to outline three automated detection techniques to intercept and block these non-deterministic tags in deployment pipelines. It emphasizes implementing admission controllers to enforce strict version tagging.
+  - **(2020)** [youtube: 3 Ways to Detect Evil "Latest" Image Tags in Kubernetes - Kubevious](https://www.youtube.com/watch?v=93RlMqO4glM&ab_channel=Kubevious)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Using the 'latest' container image tag in production is a critical antipattern that breaks deployment reproducibility and introduces security risks. This guide uses Kubevious to outline three automated detection techniques to intercept and block these non-deterministic tags in deployment pipelines. It emphasizes implementing admission controllers to enforce strict version tagging.
 ### Troubleshooting
 
 #### Architectural Slides

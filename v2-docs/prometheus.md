@@ -140,7 +140,7 @@
 
 ### General Reference
 
-  - [cncf.io: From distributed tracing to APM: Taking OpenTelemetry and Jaeger up a level](https://www.cncf.io/blog/2021/04/29/from-distributed-tracing-to-apm-taking-opentelemetry-and-jaeger-up-a-level/?utm_source=thenewstack&utm_medium=twitter&utm_campaign=platform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.cncf.io in the Kubernetes Tools ecosystem.
+  - [cncf.io: From distributed tracing to APM: Taking OpenTelemetry and Jaeger up a level](https://www.cncf.io/blog/2021/04/29/from-distributed-tracing-to-apm-taking-opentelemetry-and-jaeger-up-a-level)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.cncf.io in the Kubernetes Tools ecosystem.
   - [openlogic.com: How to develop Grafana Dashboards 🌟](https://www.openlogic.com/blog/how-visualize-prometheus-data-grafana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering openlogic.com: How to develop Grafana Dashboards 🌟 in the Kubernetes Tools ecosystem.
   - [learndevops.substack.com: Hitting prometheus API with curl and jq 🌟](https://learndevops.substack.com/p/hitting-prometheus-api-with-curl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering learndevops.substack.com: Hitting prometheus API with curl and jq 🌟 in the Kubernetes Tools ecosystem.
   - [blog.couchbase.com: How to Build Observability Dashboards with Prometheus,' Grafana & Couchbase](https://blog.couchbase.com/how-to-build-observability-dashboards-prometheus-grafana-couchbase)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.couchbase.com: How to Build Observability Dashboards with Prometheus,' Grafana & Couchbase in the Kubernetes Tools ecosystem.
@@ -227,7 +227,7 @@
 
 #### JVM
 
-  - **(2026)** [**Micrometer** Collector](http://micrometer.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The definitive dimensional metrics instrumentation facade for JVM-based programs. Acts as an abstraction layer resembling SLF4J, allowing seamless target conversions to Prometheus, Datadog, or Wavefront formats.
+  - **(2026)** [**Micrometer** Collector](https://micrometer.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The definitive dimensional metrics instrumentation facade for JVM-based programs. Acts as an abstraction layer resembling SLF4J, allowing seamless target conversions to Prometheus, Datadog, or Wavefront formats.
 ### Big Data Monitoring
 
 #### Apache Spark
@@ -270,7 +270,7 @@
   - **(2023)** [grafana.com: Using Telegraf plugins to visualize industrial IoT data with the Grafana Cloud Hosted Prometheus service](https://grafana.com/blog/using-telegraf-plugins-to-visualize-industrial-iot-data-with-the-grafana-cloud-hosted-prometheus-service) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates pipeline setups connecting InfluxData's Telegraf collectors to Grafana Cloud. Explains parsing MQTT or Modbus industrial machinery telemetry feeds and transforming them into Prometheus-compliant timeseries data.
 #### Metrics Collection
 
-  - **(2024)** [Prometheus](https://nubenetes.com/prometheus/#aws-managed-services-for-prometheus-and-grafana) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Prometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud. It utilizes a pull-based metrics collection model over HTTP, powered by a highly efficient dimensional data model (TSDB) with PromQL. Essential for Kubernetes cloud-native environments, it excels in dynamic service discovery and real-time operational visibility.
+  - **(2024)** [Prometheus](https://nubenetes.com/prometheus) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Prometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud. It utilizes a pull-based metrics collection model over HTTP, powered by a highly efficient dimensional data model (TSDB) with PromQL. Essential for Kubernetes cloud-native environments, it excels in dynamic service discovery and real-time operational visibility.
 #### Prometheus Agent
 
   - **(2022)** [grafana.com: Why we created a Prometheus Agent mode from the Grafana Agent](https://grafana.com/blog/why-we-created-a-prometheus-agent-mode-from-the-grafana-agent) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the technical reasoning for deploying Prometheus in Agent Mode instead of as a full collector database. Explains memory savings, localized caching patterns, and metrics forwarding via standard Remote Write protocols.

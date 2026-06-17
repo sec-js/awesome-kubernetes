@@ -1,4 +1,4 @@
-# AWS Storage. S3 & EBS. AWS Storage Gateway
+# AWS Storage. S3 and EBS. AWS Storage Gateway
 
 !!! info "Architectural Context"
     Detailed reference for AWS Storage. S3 & EBS. AWS Storage Gateway in the context of Cloud Providers (Hyperscalers).
@@ -9,8 +9,8 @@
 
 #### General Reference
 
-  - [Making Requests to Amazon S3 over IPv6](http://docs.aws.amazon.com/AmazonS3/latest/dev/ipv6-access.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.aws.amazon.com in the Kubernetes Tools ecosystem.
-  - [Getting Started with AWS Storage Gateway](http://docs.aws.amazon.com/storagegateway/latest/userguide/GettingStarted-common.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.aws.amazon.com in the Kubernetes Tools ecosystem.
+  - [Making Requests to Amazon S3 over IPv6](https://docs.aws.amazon.com/AmazonS3/latest/dev/ipv6-access.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.aws.amazon.com in the Kubernetes Tools ecosystem.
+  - [Getting Started with AWS Storage Gateway](https://docs.aws.amazon.com/storagegateway/latest/userguide/GettingStarted-common.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.aws.amazon.com in the Kubernetes Tools ecosystem.
   - [awstip.com: Uploading files to S3 through API Gateway](https://awstip.com/uploading-files-to-s3-through-api-gateway-7bb78c0d0483)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering awstip.com: Uploading files to S3 through API Gateway in the Kubernetes Tools ecosystem.
 ## Cloud Infrastructure
 

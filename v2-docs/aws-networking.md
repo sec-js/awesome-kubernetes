@@ -85,7 +85,7 @@
   - **(2016)** [AWS Summit Series 2016 | London: Deep Dive on Elastic Load Balancing](https://www.youtube.com/watch?v=HinwLb2lpLQ) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A detailed architectural retrospective on AWS ELB, tracing its path from Classic Load Balancer (CLB) to specialized Application (ALB) and Network (NLB) balancers. While archived, it provides unmatched technical insights into early AWS software-defined networking design.
 ##### Documentation
 
-  - **(2020)** [docs.aws.amazon.com: What Is Elastic Load Balancing?](http://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official guide detailing the operational mechanics of Application, Network, Gateway, and Classic load balancers. Details targets, health checks, and cross-zone routing configurations. This represents the primary blueprint for modern ingress systems.
+  - **(2020)** [docs.aws.amazon.com: What Is Elastic Load Balancing?](https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official guide detailing the operational mechanics of Application, Network, Gateway, and Classic load balancers. Details targets, health checks, and cross-zone routing configurations. This represents the primary blueprint for modern ingress systems.
 ##### Network Load Balancer
 
   - **(2021)** [ably.com: Balancing act: the current limits of AWS network load balancers](https://ably.com/blog/limits-aws-network-load-balancers) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly critical real-world analysis detailing the edge-case limitations of AWS Network Load Balancers under extreme load. Outlines connection resets, silent drops, and target group scaling constraints. Live systems use this data to plan high-throughput gRPC and WebSocket infrastructure.
@@ -104,10 +104,10 @@
   - **(2019)** [cloudonaut.io: Advanced AWS Networking: Pitfalls That You Should Avoid](https://cloudonaut.io/advanved-aws-networking-pitfalls-that-you-should-avoid) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deconstructs highly complex pitfalls in AWS network implementations, specifically Route 53 routing loops and VPC peering scaling bottlenecks. While historic guides suggest basic VPC peers, live production systems demand Transit Gateways and PrivateLink to scale securely without IP overlap.
 #### Networking Tutorials
 
-  - **(2020)** [AWS Cloud Networking – Zero to Hero](http://www.netdesignarena.com/index.php/2020/04/15/new-blog-series-aws-cloud-networking-zero-to-hero)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Provides a step-by-step pathway from basic networking to comprehensive AWS network design. Contrasts entry-level topologies with complex multi-region enterprise structures. Essential reading for operations personnel migrating legacy on-prem networks to standard AWS subnets and VPC peers.
+  - **(2020)** [AWS Cloud Networking – Zero to Hero](https://www.netdesignarena.com/index.php/2020/04/15/new-blog-series-aws-cloud-networking-zero-to-hero)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Provides a step-by-step pathway from basic networking to comprehensive AWS network design. Contrasts entry-level topologies with complex multi-region enterprise structures. Essential reading for operations personnel migrating legacy on-prem networks to standard AWS subnets and VPC peers.
 #### Performance Optimization
 
-  - **(2018)** [Find the fastest region from your location](http://aws-latency.altaircp.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An essential community-built utility for testing regional latencies directly from client browsers to AWS data centers. Critical for architects choosing optimal regions for low-latency interactive applications and global disaster recovery architectures.
+  - **(2018)** [Find the fastest region from your location](https://aws-latency.altaircp.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An essential community-built utility for testing regional latencies directly from client browsers to AWS data centers. Critical for architects choosing optimal regions for low-latency interactive applications and global disaster recovery architectures.
 #### RDS
 
 ##### VPC Integration
@@ -139,7 +139,7 @@
 
 ##### CLI Administration
 
-  - **(2014)** [linuxjournal.com: AWS EC2 VPC CLI](http://www.linuxjournal.com/content/aws-ec2-vpc-cli)  <span class='md-tag md-tag--info'>[LEGACY]</span> — A legacy reference guide exploring early AWS CLI tools used to configure VPC environments. While historical, it charts the evolution from raw manual terminal commands to modern declarative Infrastructure-as-Code tooling like Terraform and AWS CDK.
+  - **(2014)** [linuxjournal.com: AWS EC2 VPC CLI](https://www.linuxjournal.com/content/aws-ec2-vpc-cli)  <span class='md-tag md-tag--info'>[LEGACY]</span> — A legacy reference guide exploring early AWS CLI tools used to configure VPC environments. While historical, it charts the evolution from raw manual terminal commands to modern declarative Infrastructure-as-Code tooling like Terraform and AWS CDK.
 ##### Fundamentals
 
   - **(2019)** [awsfundamentals.blogspot.com: AWS Virtual Private Cloud - VPC](https://awsfundamentals.blogspot.com/2019/12/aws-vpc-fundamental.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-level introductory guide detailing the core components of Amazon VPCs, including Subnets, Route Tables, Internet Gateways, and Security Groups. Ideal for engineers transitioning from traditional infrastructure to virtualized cloud networks.

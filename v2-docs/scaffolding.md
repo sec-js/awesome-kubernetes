@@ -17,7 +17,7 @@
 
 #### Local Tooling
 
-  - **(2023)** [cloud.google.com: configuring_with_snippets 🌟](https://docs.cloud.google.com/code/docs/vscode/yaml-editing#configuring_with_snippets) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reference manual for configuring IDE tooling with specialized cloud code snippets. Demonstrates how Cloud Code streamlines the creation of valid Kubernetes YAML definitions directly inside IDE environments like VS Code.
+  - **(2023)** [cloud.google.com: configuring_with_snippets 🌟](https://docs.cloud.google.com/code/docs/vscode/yaml-editing) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reference manual for configuring IDE tooling with specialized cloud code snippets. Demonstrates how Cloud Code streamlines the creation of valid Kubernetes YAML definitions directly inside IDE environments like VS Code.
 ## Software Engineering
 
 ### Application Scaffolding
@@ -31,7 +31,7 @@
 
 #### Java Ecosystem
 
-  - **(2025)** [Maven](https://nubenetes.com/maven-gradle/) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comparative architectural overview of Maven and Gradle. Outlines declarative XML configurations versus programmatic Groovy/Kotlin Gradle DSL scripts, analyzing cache efficiency, parallel build runtimes, and enterprise dependency-resolution policies.
+  - **(2025)** [Maven](https://nubenetes.com/maven-gradle) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comparative architectural overview of Maven and Gradle. Outlines declarative XML configurations versus programmatic Groovy/Kotlin Gradle DSL scripts, analyzing cache efficiency, parallel build runtimes, and enterprise dependency-resolution policies.
 
 ---
 💡 **Explore Related:** [DevOps](./devops.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [QA](./qa.md)

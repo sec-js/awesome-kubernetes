@@ -1,4 +1,4 @@
-# API Marketplaces. API Management with API Gateways & Developer Portals
+# API Marketplaces. API Management with API Gateways and Developer Portals
 
 !!! info "Architectural Context"
     Detailed reference for API Marketplaces. API Management with API Gateways & Developer Portals in the context of Platform & Site Reliability.

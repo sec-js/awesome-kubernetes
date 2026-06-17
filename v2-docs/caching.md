@@ -40,7 +40,7 @@
   - **(2022)** [surfingcomplexity.blog: Cache invalidation really is one of the hardest problems in computer science](https://surfingcomplexity.blog/2022/11/25/cache-invalidation-really-is-one-of-the-hardest-things-in-computer-science) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical exploration detailing the complex nature of distributed cache invalidation strategies. It breaks down systemic issues with race conditions, expiration parameters, and multi-region database sync mechanisms.
 #### Slides
 
-  - **(2015)** [Slideshare: Caching](http://www.slideshare.net/NasceniaIT/brown-bag-caching-rafi-faisal-48694442)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A fundamental slide presentation mapping out early caching architectures. It provides high-level overviews of browser cache policies, reverse proxy structures, CDN nodes, and database query caches.
+  - **(2015)** [Slideshare: Caching](https://www.slideshare.net/NasceniaIT/brown-bag-caching-rafi-faisal-48694442)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A fundamental slide presentation mapping out early caching architectures. It provides high-level overviews of browser cache policies, reverse proxy structures, CDN nodes, and database query caches.
 ### Data Grid
 
 #### In-Memory Caching
@@ -55,7 +55,7 @@
   - **(2025)** [Varnish Cache](https://www.varnish.org/index.html) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Varnish Cache is an extremely fast, thread-optimized HTTP reverse proxy and cache director. It provides the powerful Varnish Configuration Language (VCL) allowing platform engineers to define custom request routing at the cache edge.
   - **(2025)** [varnish-software.com](https://www.varnish-software.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Commercial portal for Varnish Software. It showcases enterprise extensions, massive cache storage configurations, real-time metrics dashboards, and distributed high-availability features built to scale globally.
   - **(2021)** [fedoramagazine.org: Varnish: Your site faster and more stable](https://fedoramagazine.org/varnish-site-faster-stable)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical system administration guide demonstrating how to set up, secure, and monitor Varnish Cache on enterprise Linux configurations to handle surge traffic and ensure static file acceleration.
-  - **(2020)** [The Varnish Book](http://info.varnish-software.com/the-varnish-book) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The definitive technical documentation book for Varnish configurations. It provides advanced tutorials on VCL architecture, Edge Side Includes (ESI) structures, security rules, and performance analysis.
+  - **(2020)** [The Varnish Book](https://info.varnish-software.com/the-varnish-book) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The definitive technical documentation book for Varnish configurations. It provides advanced tutorials on VCL architecture, Edge Side Includes (ESI) structures, security rules, and performance analysis.
 ## Edge and Serverless
 
 ### WebAssembly Platforms
@@ -69,22 +69,22 @@
 
 #### Redis
 
-  - **(2023)** [Redis](http://redis.io) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The documentation portal for Redis, an in-memory data store used as a cache, database, and message broker. It highlights key features like replication, clustering, and data structures (such as Streams and Sorted Sets) that power real-time apps.
+  - **(2023)** [Redis](https://redis.io) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The documentation portal for Redis, an in-memory data store used as a cache, database, and message broker. It highlights key features like replication, clustering, and data structures (such as Streams and Sorted Sets) that power real-time apps.
 ## Infrastructure and Caching
 
 ### Database and Storage
 
 #### Tarantool and Nginx
 
-  - **(2016)** [highscalability.com: Building nginx and Tarantool based services 🌟](http://highscalability.com/blog/2016/2/17/building-nginx-and-tarantool-based-services.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural breakdown of low-latency services combining Nginx and the Tarantool in-memory database. Highlights how custom application routing directly bypassing intermediate application runtimes yields astronomical throughput with sub-millisecond delays.
+  - **(2016)** [highscalability.com: Building nginx and Tarantool based services 🌟](https://highscalability.com/blog/2016/2/17/building-nginx-and-tarantool-based-services.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural breakdown of low-latency services combining Nginx and the Tarantool in-memory database. Highlights how custom application routing directly bypassing intermediate application runtimes yields astronomical throughput with sub-millisecond delays.
 ### Edge Caching (1)
 
 #### Enterprise Linux Support
 
-  - **(2019)** [Red Hat Enterprise Linux Blog. Tag: Varnish](http://rhelblog.redhat.com/tag/varnish) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat's official integration portal outlining configuration blueprints for running Varnish Cache inside Red Hat Enterprise Linux (RHEL) architectures. Highlights systemd customization and repository setups to guarantee enterprise-level stability and high-availability HTTP caching.
+  - **(2019)** [Red Hat Enterprise Linux Blog. Tag: Varnish](https://rhelblog.redhat.com/tag/varnish) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat's official integration portal outlining configuration blueprints for running Varnish Cache inside Red Hat Enterprise Linux (RHEL) architectures. Highlights systemd customization and repository setups to guarantee enterprise-level stability and high-availability HTTP caching.
 #### Legacy Varnish Tuning
 
-  - **(2015)** [slideshare: Varnish - Tips & Tricks - 4Developers 2015](http://www.slideshare.net/piotrpasich/varnish-47199139) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A historical deep-dive into legacy Varnish tuning configurations, highlighting Varnish Configuration Language (VCL) tricks and early cache invalidation mechanisms. While architectural fundamentals remain sound, newer deployments leverage cloud-native operators or CDN-side configurations.
+  - **(2015)** [slideshare: Varnish - Tips & Tricks - 4Developers 2015](https://www.slideshare.net/piotrpasich/varnish-47199139) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A historical deep-dive into legacy Varnish tuning configurations, highlighting Varnish Configuration Language (VCL) tricks and early cache invalidation mechanisms. While architectural fundamentals remain sound, newer deployments leverage cloud-native operators or CDN-side configurations.
 #### VM Administration
 
   - **(2020)** [digitalocean.com: How To Speed Up Static Web Pages with Varnish Cache Server on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-speed-up-static-web-pages-with-varnish-cache-server-on-ubuntu-20-04) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A hands-on installation manual detailing how to integrate Varnish Cache on Ubuntu VM environments to accelerate static content delivery. Serves as an excellent foundational reference for monolithic deployments and non-containerized reverse proxies.
@@ -92,16 +92,16 @@
 
 #### High-Performance Caching
 
-  - **(2026)** [==memcached.org==](http://memcached.org) <span class='md-tag md-tag--warning'>[C CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An industry-standard distributed memory object caching system designed for extreme performance and simplicity. Utilizing multi-threaded slab allocation, Memcached continues to serve as the default high-efficiency tier for raw key-value pair lookups.
+  - **(2026)** [==memcached.org==](https://memcached.org) <span class='md-tag md-tag--warning'>[C CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An industry-standard distributed memory object caching system designed for extreme performance and simplicity. Utilizing multi-threaded slab allocation, Memcached continues to serve as the default high-efficiency tier for raw key-value pair lookups.
 #### Memcached Fundamentals
 
-  - **(2012)** [Slideshare: Introduction to memcached](http://www.slideshare.net/oemebamo/introduction-to-memcached) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A baseline slide presentation outlining Memcached's memory structure, client hashing, and key eviction strategies. Highly useful for engineers studying early web-scale architecture concepts and memory-efficient software design.
+  - **(2012)** [Slideshare: Introduction to memcached](https://www.slideshare.net/oemebamo/introduction-to-memcached) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A baseline slide presentation outlining Memcached's memory structure, client hashing, and key eviction strategies. Highly useful for engineers studying early web-scale architecture concepts and memory-efficient software design.
 #### Redis Deep-Dive
 
   - **(2022)** [**architecturenotes.co: Redis Explained 🌟🌟**](https://architecturenotes.co/p/redis) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An exceptional, visually illustrated deep-dive analyzing Redis execution cycles, single-threaded multiplexing event loops, and data structural formats. Demystifies complex operational mechanisms such as AOF/RDB persistence and memory eviction strategies.
 #### Redis Foundations
 
-  - **(2013)** [Slideshare: Introduction to Redis](http://www.slideshare.net/dvirsky/introduction-to-redis) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A legacy educational slide deck focusing on fundamental Redis data types and master-replica layouts. Helpful for conceptual framing, though modern configurations in 2026 leverage more sophisticated cluster/sentinel topologies.
+  - **(2013)** [Slideshare: Introduction to Redis](https://www.slideshare.net/dvirsky/introduction-to-redis) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A legacy educational slide deck focusing on fundamental Redis data types and master-replica layouts. Helpful for conceptual framing, though modern configurations in 2026 leverage more sophisticated cluster/sentinel topologies.
 ### Kubernetes Caching
 
 #### Distributed Caching
@@ -124,20 +124,20 @@
   - **(2014)** [Nginxconf 2014. When Dynamic Becomes Static:The Next Step in Web Caching Techniques: Wim Godden](https://www.youtube.com/watch?v=OssIuHbgzJY) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A progressive conference talk detailing advanced architectural patterns to transform dynamic responses into static cache structures. Explores proxy caching, microcaching, and purge mechanics on the Nginx reverse proxy layer to survive heavy traffic spikes.
 #### Nginx Customization
 
-  - **(2015)** [Nginx: a caching, thumbnailing, reverse proxying image server? 🌟](http://charlesleifer.com/blog/nginx-a-caching-thumbnailing-reverse-proxying-image-server-) <span class='md-tag md-tag--warning'>[NGINX CONF CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structural configuration showcase demonstrating Nginx's ability to act as a real-time, lightweight image resizing proxy using its native image filter module. Illustrates the power of Nginx as an all-in-one low-footprint media engine.
+  - **(2015)** [Nginx: a caching, thumbnailing, reverse proxying image server? 🌟](https://charlesleifer.com/blog/nginx-a-caching-thumbnailing-reverse-proxying-image-server-) <span class='md-tag md-tag--warning'>[NGINX CONF CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structural configuration showcase demonstrating Nginx's ability to act as a real-time, lightweight image resizing proxy using its native image filter module. Illustrates the power of Nginx as an all-in-one low-footprint media engine.
 ## Networking
 
 ### Load Balancing
 
 #### Database Proxy
 
-  - **(2015)** [slideshare: Load Balancing MySQL with HAProxy](http://www.slideshare.net/Severalnines/load-balancing-mysql-with-haproxy-webinar-replay-english-44071270) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Slide presentation focused on load balancing MySQL database backends. It illustrates TCP level health checks, read/write splitting, query redirection patterns, and seamless failover configurations.
-  - **(2015)** [slideshare: Performance Tuning of HAProxy for Database Load Balancing](http://www.slideshare.net/Severalnines/haproxy-mysql-slides) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep technical slide deck illustrating OS and kernel-level optimizations for HAProxy. It details socket buffer limits, epoll utilization, and high-concurrency TCP handshake tunings for databases.
-  - **(2014)** [slideshare: How To Set Up SQL Load Balancing with HAProxy](http://www.slideshare.net/Severalnines/severalnines-ha-proxyjul20143) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A step-by-step instructional slide deck detailing the setup of robust database proxies. It explores load balancing techniques, health verification agents, and transaction limits for active SQL backends.
+  - **(2015)** [slideshare: Load Balancing MySQL with HAProxy](https://www.slideshare.net/Severalnines/load-balancing-mysql-with-haproxy-webinar-replay-english-44071270) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Slide presentation focused on load balancing MySQL database backends. It illustrates TCP level health checks, read/write splitting, query redirection patterns, and seamless failover configurations.
+  - **(2015)** [slideshare: Performance Tuning of HAProxy for Database Load Balancing](https://www.slideshare.net/Severalnines/haproxy-mysql-slides) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep technical slide deck illustrating OS and kernel-level optimizations for HAProxy. It details socket buffer limits, epoll utilization, and high-concurrency TCP handshake tunings for databases.
+  - **(2014)** [slideshare: How To Set Up SQL Load Balancing with HAProxy](https://www.slideshare.net/Severalnines/severalnines-ha-proxyjul20143) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A step-by-step instructional slide deck detailing the setup of robust database proxies. It explores load balancing techniques, health verification agents, and transaction limits for active SQL backends.
 #### HAProxy
 
-  - **(2015)** [slideshare: Haproxy web performance](http://www.slideshare.net/haproxytech/haproxy-web-performance-55536394)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical presentation slides focusing on HAProxy optimizations. It targets key configurations for decreasing response latency, including Keep-Alive tuning, memory buffers, and HTTP protocol compression.
-  - **(2015)** [slideshare: Haproxy best practice](http://www.slideshare.net/haproxytech/haproxy-best-practice)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A collection of engineering best practices for building highly available HAProxy configurations. It covers multi-tenant rate limiting, connection pooling limits, SSL offloading patterns, and syslog configurations.
+  - **(2015)** [slideshare: Haproxy web performance](https://www.slideshare.net/haproxytech/haproxy-web-performance-55536394)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical presentation slides focusing on HAProxy optimizations. It targets key configurations for decreasing response latency, including Keep-Alive tuning, memory buffers, and HTTP protocol compression.
+  - **(2015)** [slideshare: Haproxy best practice](https://www.slideshare.net/haproxytech/haproxy-best-practice)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A collection of engineering best practices for building highly available HAProxy configurations. It covers multi-tenant rate limiting, connection pooling limits, SSL offloading patterns, and syslog configurations.
 ### Security
 
 #### HAProxy (1)

@@ -93,7 +93,7 @@
 
 #### Architecture
 
-  - **(2020)** [millionvisit.blogspot.com: Kubernetes for Developers #1: Kubernetes Architecture and Features 🌟](http://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-1-kubernetes-architecture.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-first manual illustrating structural components and cluster design properties. Guides programmers to understand how their API payload deployments translates to actual container lifecycle actions on physical machines.
+  - **(2020)** [millionvisit.blogspot.com: Kubernetes for Developers #1: Kubernetes Architecture and Features 🌟](https://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-1-kubernetes-architecture.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-first manual illustrating structural components and cluster design properties. Guides programmers to understand how their API payload deployments translates to actual container lifecycle actions on physical machines.
 ## Infrastructure
 
 ### Networking
@@ -114,7 +114,7 @@
 
 ### General Reference
 
-  - [kubernetesbyexample.com](http://kubernetesbyexample.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering kubernetesbyexample.com in the Kubernetes Tools ecosystem.
+  - [kubernetesbyexample.com](https://kubernetesbyexample.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering kubernetesbyexample.com in the Kubernetes Tools ecosystem.
   - [medium.com: Kubernetes 101: Pods, Nodes, Containers, and Clusters](https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com: Kubernetes 101: Pods, Nodes, Containers, and Clusters in the Kubernetes Tools ecosystem.
   - [medium.com: Learn Kubernetes in Under 3 Hours: A Detailed Guide to Orchestrating' Containers](https://medium.com/free-code-camp/learn-kubernetes-in-under-3-hours-a-detailed-guide-to-orchestrating-containers-114ff420e882)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com: Learn Kubernetes in Under 3 Hours: A Detailed Guide to Orchestrating' Containers in the Kubernetes Tools ecosystem.
   - [kubernetestutorials.com: Install and Deploy Kubernetes on CentOs 7](https://kubernetestutorials.com/install-and-deploy-kubernetes-on-centos-7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering kubernetestutorials.com: Install and Deploy Kubernetes on CentOs 7 in the Kubernetes Tools ecosystem.

@@ -332,7 +332,7 @@
 
 #### Curation (2)
 
-  - **(2022)** [developers.redhat.com: 8 open source Kubernetes security tools](https://developers.redhat.com/articles/2022/06/20/8-open-source-kubernetes-security-tools#) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates eight open-source security utilities critical for securing containerized environments. Highlights runtime threat detectors, IaC scanners, policy compliance checkers, and secrets managers, discussing deployment strategies for secure platform engineering.
+  - **(2022)** [developers.redhat.com: 8 open source Kubernetes security tools](https://developers.redhat.com/articles/2022/06/20/8-open-source-kubernetes-security-tools) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates eight open-source security utilities critical for securing containerized environments. Highlights runtime threat detectors, IaC scanners, policy compliance checkers, and secrets managers, discussing deployment strategies for secure platform engineering.
 ## Cluster Lifecycle
 
 ### Upgrades and Compliance
@@ -521,7 +521,7 @@
 
 #### Awesome Lists
 
-  - **(2026)** [==ramitsurana/awesome-kubernetes: Tools 🌟==](https://github.com/ramitsurana/awesome-kubernetes#configuration) <span class='md-tag md-tag--info'>⭐ 15992</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exhaustive resource collection tracking ecosystem projects, documentation, configurations, and utilities. It serves as a comprehensive reference guide for cloud-native architects looking to select vetted tooling across networking, storage, security, and developer platforms.
+  - **(2026)** [==ramitsurana/awesome-kubernetes: Tools 🌟==](https://github.com/ramitsurana/awesome-kubernetes) <span class='md-tag md-tag--info'>⭐ 15992</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exhaustive resource collection tracking ecosystem projects, documentation, configurations, and utilities. It serves as a comprehensive reference guide for cloud-native architects looking to select vetted tooling across networking, storage, security, and developer platforms.
 ## Data Engineering
 
 ### MLOps Platforms
@@ -775,7 +775,7 @@
 
 #### Developer Tooling (2)
 
-  - **(2026)** [ASCIIFlow](https://asciiflow.com/#) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — ASCIIFlow is a highly practical, browser-based editor used to design clear, text-based ASCII flowcharts and architecture diagrams. It is widely valued by software engineers and systems architects for embedding clean diagrams directly into markdown readme files, codebases, and configuration headers. This straightforward design utility simplifies collaborative technical documentation across teams.
+  - **(2026)** [ASCIIFlow](https://asciiflow.com) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — ASCIIFlow is a highly practical, browser-based editor used to design clear, text-based ASCII flowcharts and architecture diagrams. It is widely valued by software engineers and systems architects for embedding clean diagrams directly into markdown readme files, codebases, and configuration headers. This straightforward design utility simplifies collaborative technical documentation across teams.
 ## Edge Computing
 
 ### Lightweight Kubernetes
@@ -926,7 +926,7 @@
   - **(2025)** [==Cluster API Provider for Managed Bare Metal Hardware==](https://github.com/metal3-io/cluster-api-provider-metal3) <span class='md-tag md-tag--info'>⭐ 277</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The Cluster API Provider for Metal3 enabling automated declarative provisioning of physical bare-metal hardware using Kubernetes-native configurations. Simplifies lifecycle management (provisioning, scale, and de-provisioning) of physical compute nodes in highly customized datacenters.
 #### Educational Content (1)
 
-  - **(2022)** [youtube.com: How to Write Software That Sets Up Kubernetes Anywhere with Kubermatic Kubeone](https://www.youtube.com/watch?v=BJufhuPK2DY&t=250s&ab_channel=Kubermatic) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth engineering presentation explaining how to build software capable of bootstrap-installing Kubernetes on any physical host or bare-metal provider, showcasing the architectural internals of the open-source KubeOne tool.
+  - **(2022)** [youtube.com: How to Write Software That Sets Up Kubernetes Anywhere with Kubermatic Kubeone](https://www.youtube.com/watch?v=BJufhuPK2DY&ab_channel=Kubermatic) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth engineering presentation explaining how to build software capable of bootstrap-installing Kubernetes on any physical host or bare-metal provider, showcasing the architectural internals of the open-source KubeOne tool.
 #### Multi-Cloud
 
   - **(2023)** [Ksctl: Cloud Agnostic Kubernetes Management tool](https://github.com/ksctl/ksctl) <span class='md-tag md-tag--info'>⭐ 269</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A cloud-agnostic cluster management command-line tool designed to easily deploy HA clusters across different hyperscalers like AWS, Azure, GCP, or Civo, and local environments such as kind, maintaining standardized bootstrap workflows.

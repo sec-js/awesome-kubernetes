@@ -1,4 +1,4 @@
-# Kubernetes Distributions & Installers Matrix Table
+# Kubernetes Distributions and Installers Matrix Table
 
 !!! info "Architectural Context"
     Detailed reference for Kubernetes Distributions & Installers Matrix Table in the context of Architectural Foundations.
@@ -69,7 +69,7 @@
 
 #### Ingress and Traffic
 
-  - **(2023)** [==Learnk8s: Comparison of Kubernetes Ingress Controllers 🌟🌟==](https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit#gid=907731238) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An expansive, community-maintained comparison spreadsheet detailing the feature matrices, protocol supports, dynamic reloading behaviors, and ecosystem integrations of various Ingress Controllers. Live Grounding highlights this dynamic reference as an essential resource for architects choosing ingress tools based on enterprise requirements.
+  - **(2023)** [==Learnk8s: Comparison of Kubernetes Ingress Controllers 🌟🌟==](https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An expansive, community-maintained comparison spreadsheet detailing the feature matrices, protocol supports, dynamic reloading behaviors, and ecosystem integrations of various Ingress Controllers. Live Grounding highlights this dynamic reference as an essential resource for architects choosing ingress tools based on enterprise requirements.
 ## Platform Architecture
 
 ### Cloud Providers

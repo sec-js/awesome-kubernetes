@@ -1,4 +1,4 @@
-# 🎥 Agentic Video Hub
+# Agentic Video Hub
 
 Welcome to the **Nubenetes Elite Video Hub**. Discover highly-curated architectural video resources organized into logical learning paths:
 

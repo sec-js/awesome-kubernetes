@@ -1,4 +1,4 @@
-# Nubenetes: The Intelligent Cloud Native Archive 🧠☁️
+# Nubenetes: The Intelligent Cloud Native Archive
 
 [![Automated Agentic Curation](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/01.1.agentic_cron.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/01.1.agentic_cron.yml)
 [![V2 Health Monitor](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/02.2.agentic_v2_health.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/02.2.agentic_v2_health.yml)
@@ -343,7 +343,7 @@ Nubenetes operates with two distinct editions to serve different engineering nee
 ### 5.1. V1: The Exhaustive Archive
 - **Purpose:** Preservation of all technical knowledge since 2018.
 - **SEO Guard:** Deployed at the domain root (`/`) to preserve 6+ years of historical backlinks and deep-links.
-- **Fallback Access:** Also available at [nubenetes.com/v1/](https://nubenetes.com/v1/).
+- **Fallback Access:** Also available at [nubenetes.com/v1/](https://nubenetes.com/v1).
 - **Source of Truth:** The `docs/` directory.
 - **YouTube Mosaic:** Kept as a flat, historically ordered list of channel logos (11 per row) using simple inline width styling (`{: style="width:7%"}`). Newly added channels are appended at the end of this list.
 
@@ -364,7 +364,7 @@ Nubenetes operates with two distinct editions to serve different engineering nee
 - **Semantic Cross-Linking:** The portal autonomously identifies and links related categories within the same strategic dimension (e.g., suggesting `Flux` when reading about `Argo`), creating a cohesive **Industrial Knowledge Graph**.
 - **Executive Context**: Every strategic dimension features an AI-generated **State-of-the-Art Introduction** providing high-level architectural context and industry direction before the link listings.
 - **Source of Truth:** The `v2-docs/` directory (Derived from V1).
-- **Deployment:** [nubenetes.com/v2/](https://nubenetes.com/v2/)
+- **Deployment:** [nubenetes.com/v2/](https://nubenetes.com/v2)
 
 ### 5.3. Architecture Comparison Matrix: V1 vs. V2
 To better understand the dual-nature of the project, the following matrix details the technical and philosophical differences between the two editions:
@@ -403,7 +403,7 @@ To scale to 10,000+ resources while staying within GitHub's 6-hour execution lim
 | **V2 AI Curator** | **Intelligence** | On-demand / Manual | Generates summaries and hierarchy using Gemini AI. |
 | **V2 Publisher** | **Aesthetics** | Automatic on Push | Fast-track rendering of the portal (V2 Portal). |
 
-#### 🚀 Decoupled Execution Strategy
+#### Decoupled Execution Strategy
 By separating these domains, Nubenetes ensures **100% Resilience**:
 1.  **Isolation of Failures**: A GitHub API rate limit in the Metadata Engine does not stop the AI Curator from processing already cached data.
 2.  **Quota Optimization**: Health checks use high-concurrency async HTTP, while the AI Curator uses structured batching to protect Gemini TPM/RPM.
@@ -484,12 +484,12 @@ To maintain a high-performance "Single Source of Truth", Nubenetes implements au
 #### Intelligent Cleaning Observability
 
 ```log
-# 1. PROGRESS TRACKING & PARALLEL EXECUTION
+# 1. PROGRESS TRACKING and PARALLEL EXECUTION
 [14:01:20] [*] Queue: 17110 links prioritized for validation.
 [14:01:25] [>] Progress: [45/17110] links validated...
 [14:01:29] [>] Progress: [90/17110] links validated...
 
-# 2. SEMANTIC DRIFT (Optimized & Deduplicated): Detecting silent content updates via SHA256
+# 2. SEMANTIC DRIFT (Optimized and Deduplicated): Detecting silent content updates via SHA256
 [14:01:32] [!] DRIFT DETECTED: https://lzone.de
 [14:01:33] [!] DRIFT DETECTED: https://hackerone.com/reports/1249583
 # Meaning: Content changed significantly. Flagged for AI re-evaluation (only logged once per unique URL).
@@ -562,7 +562,7 @@ The "Platinum" tier represents the highest level of autonomous maintenance, focu
 #### Advanced Safety and Standard Hardening
 - **Structural Integrity Audit**: [Safety Guard](src/safety_guard.py) enforces [Mandate 30](GEMINI.md) by blocking ampersands (`&`) and emojis in section titles to ensure cross-platform rendering.
 - **Anchor & TOC Validation**: Verifies that Table of Contents links point to valid, strictly lowercase anchors.
-- **Rendering Risk Detection**: Ensures HTML blocks like `<center>` include the mandatory `markdown="1"` attribute ([Mandate 19](GEMINI.md)).
+- **Rendering Risk Detection**: Ensures HTML blocks like `<center markdown="1">` include the mandatory `markdown="1"` attribute ([Mandate 19](GEMINI.md)).
 
 #### Infrastructure Auto-Sync
 - **Workflow UI Synchronization**: The [UI Sync Engine](src/sync_workflow_ui.py) automatically updates the [GitHub Actions Interface](.github/workflows/01.1.agentic_cron.yml) whenever [Curation Sources](data/curation_sources.yaml) are added or modified ([Mandate 11](GEMINI.md)).
@@ -952,7 +952,7 @@ Every Pull Request targeting the `develop` branch is subjected to a **blocking p
 - **Self-Healing Auto-Corrective Commits**: The [PR Guardian](src/pr_guardian.py) automatically applies auto-formatting directly to modified markdown files on the PR branch, addressing minor styling and normalization issues:
     *   *URL Normalization*: Strips social tracking parameters (e.g., `utm_source`) and enforces a zero-trailing-slash policy on new links via [normalize_url](src/gemini_utils.py#L241).
     *   *Heading Cleanups*: Replaces ampersands (`&` -> `and`) and strips emojis (e.g. `🧠`, `🌟`) in H2-H6 headers to ensure rendering standards.
-    *   *HTML Center Attributes*: Automatically adds the mandatory `markdown="1"` attribute to `<center>` HTML tags to allow MkDocs parsing.
+    *   *HTML Center Attributes*: Automatically adds the mandatory `markdown="1"` attribute to `<center markdown="1">` HTML tags to allow MkDocs parsing.
     *   *Auto-Push*: If auto-fixes are applied, the bot commits and pushes the formatting changes back to the head branch ref dynamically.
 - **README Integrity Gate**: A dedicated "Hard Safety Gate" ([`src/safety_readme.py`](src/safety_readme.py)) executes to verify that all 15 mandatory sections are preserved and correctly numbered.
 

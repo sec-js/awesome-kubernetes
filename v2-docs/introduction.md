@@ -604,7 +604,7 @@ graph TD
 
 #### Cookbook
 
-  - **(2023)** [cookbook.learndataengineering.com: The Data Engineering Cookbook](https://cookbook.learndataengineering.com/docs/05-CaseStudies/#data-science-at-CERN) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive community cookbook gathering foundational data engineering designs, pipelines, and frameworks. Includes real-world infrastructure and data science architecture case studies, such as processing extreme datasets at CERN.
+  - **(2023)** [cookbook.learndataengineering.com: The Data Engineering Cookbook](https://cookbook.learndataengineering.com/docs/05-CaseStudies) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive community cookbook gathering foundational data engineering designs, pipelines, and frameworks. Includes real-world infrastructure and data science architecture case studies, such as processing extreme datasets at CERN.
 ## DevOps and CICD
 
 ### Continuous Integration
@@ -705,7 +705,7 @@ graph TD
 
 #### Paradigms
 
-  - **(2021)** [cloudscaling.com: The History of Pets vs Cattle and How to Use the Analogy Properly](http://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Unpacks the historical context of the 'Pets vs Cattle' cloud infrastructure analogy. Contrasts bespoke, manually maintained systems (pets) with standardized, automatically rebuilt, and ephemeral containerized node pools (cattle).
+  - **(2021)** [cloudscaling.com: The History of Pets vs Cattle and How to Use the Analogy Properly](https://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Unpacks the historical context of the 'Pets vs Cattle' cloud infrastructure analogy. Contrasts bespoke, manually maintained systems (pets) with standardized, automatically rebuilt, and ephemeral containerized node pools (cattle).
 ### Cloud Financials
 
 #### FinOps
@@ -734,7 +734,7 @@ graph TD
 
   - [ringcentral.co.uk: Software as a Service (SaaS)](https://www.ringcentral.com/gb/en/blog/definitions/software-as-a-service-saas)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.ringcentral.com in the Kubernetes Tools ecosystem.
   - [ringcentral.co.uk: Cloud Management 🌟](https://www.ringcentral.com/gb/en/blog/definitions/cloud-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.ringcentral.com in the Kubernetes Tools ecosystem.
-  - [Kelsey Hightower Fireside Chat: An Unconventional Path to IT and Some Life Advice](https://www.hashicorp.com/resources/kelsey-hightower-fireside-chat-an-unconventional-path-to-it-and-some-life-advice/?utm_source=linkedin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.hashicorp.com in the Kubernetes Tools ecosystem.
+  - [Kelsey Hightower Fireside Chat: An Unconventional Path to IT and Some Life Advice](https://www.hashicorp.com/resources/kelsey-hightower-fireside-chat-an-unconventional-path-to-it-and-some-life-advice)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.hashicorp.com in the Kubernetes Tools ecosystem.
   - [levelup.gitconnected.com: How to design a system to scale to your first' 100 million users](https://levelup.gitconnected.com/how-to-design-a-system-to-scale-to-your-first-100-million-users-4450a2f9703d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering levelup.gitconnected.com: How to design a system to scale to your first' 100 million users in the Kubernetes Tools ecosystem.
   - [medium.com/javarevisited: Microservices communication using gRPC Protocol](https://medium.com/javarevisited/microservices-communication-using-grpc-protocol-dc3a2f8b648d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==medium.com/javarevisited: Microservices communication using gRPC Protocol== in the Kubernetes Tools ecosystem.
   - [Monolithic versus Microservice architecture](https://www.enterprisetimes.co.uk/2020/07/23/monolithic-versus-microservice-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Monolithic versus Microservice architecture in the Kubernetes Tools ecosystem.

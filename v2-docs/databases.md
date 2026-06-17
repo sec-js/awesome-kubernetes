@@ -322,7 +322,7 @@
 #### MySQL Operators
 
   - **(2024)** [Moco](https://cybozu-go.github.io/moco) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduction to Cybozu's Moco, a highly resilient, modern Go-written MySQL operator for Kubernetes. Focuses on cluster setups, fast failover mechanics, and maintaining an extremely small operational footprint.
-  - **(2021)** [tusacentral.com: MySQL on Kubernetes demystified](http://www.tusacentral.com/joomla/index.php/mysql-blogs/243-mysql-on-kubernetes-demystified) <span class='md-tag md-tag--warning'>[CONCEPTUAL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demystifies MySQL container orchestration inside Kubernetes. Details local storage access, stateful set configuration, service discovery networks, and high-availability design constraints.
+  - **(2021)** [tusacentral.com: MySQL on Kubernetes demystified](https://www.tusacentral.com/joomla/index.php/mysql-blogs/243-mysql-on-kubernetes-demystified) <span class='md-tag md-tag--warning'>[CONCEPTUAL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demystifies MySQL container orchestration inside Kubernetes. Details local storage access, stateful set configuration, service discovery networks, and high-availability design constraints.
 #### PostgreSQL HA
 
   - **(2023)** [devopscube.com: How to Deploy PostgreSQL Statefulset in Kubernetes With High Availability](https://devopscube.com/deploy-postgresql-statefulset) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive architectural guide to deploying a highly available PostgreSQL cluster on Kubernetes using standard StatefulSets. Covers headless services, persistent volume claims, replica configurations, and health probes.
@@ -577,7 +577,7 @@
 
 #### Crunchy PostgreSQL
 
-  - **(2023)** [Crunchy Data PostgreSQL Operator](https://nubenetes.com/crunchydata/) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Evaluates the Crunchy PostgreSQL Operator (PGO) which automates production-grade PostgreSQL deployments on Kubernetes. Features include automated high availability, pgBackRest-driven backup orchestration, connection pooling via pgBouncer, and deep monitoring metrics. A de facto standard solution for enterprises migrating critical relational engines into Kubernetes platforms.
+  - **(2023)** [Crunchy Data PostgreSQL Operator](https://nubenetes.com/crunchydata) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Evaluates the Crunchy PostgreSQL Operator (PGO) which automates production-grade PostgreSQL deployments on Kubernetes. Features include automated high availability, pgBackRest-driven backup orchestration, connection pooling via pgBouncer, and deep monitoring metrics. A de facto standard solution for enterprises migrating critical relational engines into Kubernetes platforms.
 ## System Architecture
 
 ### Data Management

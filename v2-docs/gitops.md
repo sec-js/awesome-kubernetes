@@ -103,10 +103,10 @@
   - **(2021)** [ibm.com: Enable GitOps](https://www.ibm.com/garage) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An enterprise change-management guide from IBM Garage focusing on GitOps adoption. Details organizational processes, environment categorization, and verification configurations required to transition legacy pipelines into declarative GitOps models.
 #### FluxCD
 
-  - **(2025)** [Flux. The GitOps operator for Kubernetes](https://nubenetes.com/flux/) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main technical documentation and resources for Flux, the CNCF-graduated continuous delivery tool for Kubernetes. Analyzes multi-tenancy configurations, automated image update policies, and source controller optimizations that make Flux a core component of modern GitOps workflows.
+  - **(2025)** [Flux. The GitOps operator for Kubernetes](https://nubenetes.com/flux) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main technical documentation and resources for Flux, the CNCF-graduated continuous delivery tool for Kubernetes. Analyzes multi-tenancy configurations, automated image update policies, and source controller optimizations that make Flux a core component of modern GitOps workflows.
 #### Kustomize Manifests
 
-  - **(2025)** [Kustomize - Template-Free Kubernetes Configuration Customization](https://nubenetes.com/kustomize/) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical reference for Kustomize, the template-free engine used to manage Kubernetes configurations. Details declarative base and overlay architectures, allowing developers to manage configurations for different environments (dev, staging, prod) without using complex Helm template structures.
+  - **(2025)** [Kustomize - Template-Free Kubernetes Configuration Customization](https://nubenetes.com/kustomize) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical reference for Kustomize, the template-free engine used to manage Kubernetes configurations. Details declarative base and overlay architectures, allowing developers to manage configurations for different environments (dev, staging, prod) without using complex Helm template structures.
 ## Cloud Infrastructure
 
 ### Infrastructure as Code (1)
@@ -241,7 +241,7 @@
   - **(2021)** [weave.works: The world’s largest telcos are now embracing GitOps. Deutsche Telekom explains why](https://www.weave.works/blog/deutsche-telekom-explain-why-they-chose-gitops-for-5g) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Case study analyzing how major telecommunications networks (e.g., Deutsche Telekom) apply GitOps workflows to govern large-scale 5G infrastructure. Curator Insight validates complex hybrid deployments, while Live Grounding proves the absolute necessity of Git-driven edge management to ensure consistent performance over thousands of remote kubernetes endpoints.
 #### Testing Environments
 
-  - **(2021)** [==github.com/cloudogu/gitops-playground#example-applications==](https://github.com/cloudogu/gitops-playground#example-applications) <span class='md-tag md-tag--info'>⭐ 266</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A fully configured local testing playground that showcases multi-tool GitOps pipelines. Includes pre-wired sample apps to help developers analyze live sync processes, drift reconciliation, and integration dynamics using ArgoCD and Flux.
+  - **(2021)** [==github.com/cloudogu/gitops-playground#example-applications==](https://github.com/cloudogu/gitops-playground) <span class='md-tag md-tag--info'>⭐ 266</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A fully configured local testing playground that showcases multi-tool GitOps pipelines. Includes pre-wired sample apps to help developers analyze live sync processes, drift reconciliation, and integration dynamics using ArgoCD and Flux.
 #### Tool Comparison
 
   - **(2021)** [blog.container-solutions.com: FluxCD, ArgoCD or Jenkins X: Which Is the Right GitOps Tool for You? 🌟](https://blog.container-solutions.com/fluxcd-argocd-jenkins-x-gitops-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares design architectures of FluxCD, ArgoCD, and Jenkins X. Contrasts Flux's minimal controller-native footprints with ArgoCD's feature-rich enterprise dashboard and Jenkins X's opinionated, complete CI/CD environments.
@@ -465,7 +465,7 @@
   - **(2026)** [Charmed Kubernetes](https://ubuntu.com/kubernetes/charmed-k8s) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Canonical's enterprise Kubernetes distribution orchestrated using Juju Charms. This platform automates deployment, scaling, lifecycle management, and day-2 operations of multi-cloud Kubernetes clusters using modular, declarative software models, ensuring easy integration with Ceph, OpenStack, and major public clouds.
 #### Enterprise Distributions
 
-  - **(2023)** [weave.works: Weave Kubernetes Platform](https://www.weave.works/) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The enterprise Kubernetes distribution offering from Weaveworks (WKP) built heavily around declarative GitOps concepts and Cluster API. Following Weaveworks' operational cessation in early 2024, WKP is no longer commercially active, but its patterns directly influenced modern multi-cluster management strategies.
+  - **(2023)** [weave.works: Weave Kubernetes Platform](https://www.weave.works) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The enterprise Kubernetes distribution offering from Weaveworks (WKP) built heavily around declarative GitOps concepts and Cluster API. Following Weaveworks' operational cessation in early 2024, WKP is no longer commercially active, but its patterns directly influenced modern multi-cluster management strategies.
 ## Infrastructure as Code (4)
 
 ### Kubernetes Provisioning
@@ -508,7 +508,7 @@
 
 #### Helm Overview
 
-  - **(2026)** [==Helm==](https://nubenetes.com/helm/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Deep-dive architecture portal on Helm, the package manager for Kubernetes. Focuses on structuring dry templates, lifecycle hooks, chart dependencies, release versioning, and secure variables management inside GitOps pipelines.
+  - **(2026)** [==Helm==](https://nubenetes.com/helm) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Deep-dive architecture portal on Helm, the package manager for Kubernetes. Focuses on structuring dry templates, lifecycle hooks, chart dependencies, release versioning, and secure variables management inside GitOps pipelines.
 ## Platform Architecture
 
 ### GitOps (10)

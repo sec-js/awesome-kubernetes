@@ -168,7 +168,7 @@
 
 #### Interactive
 
-  - **(2020)** [Python mini-quiz](http://www.mypythonquiz.com) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Interactive programming assessment platform evaluating real-time Python syntax, generator scopes, collection methods, and general algorithms through self-paced quizzes.
+  - **(2020)** [Python mini-quiz](https://www.mypythonquiz.com) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Interactive programming assessment platform evaluating real-time Python syntax, generator scopes, collection methods, and general algorithms through self-paced quizzes.
 ## Software Testing
 
 ### API Automation

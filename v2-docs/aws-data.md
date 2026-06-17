@@ -9,7 +9,7 @@
 
 #### General Reference
 
-  - [Using Spark SQL for ETL](http://blogs.aws.amazon.com/bigdata/post/Tx2D93GZRHU3TES/Using-Spark-SQL-for-ETL)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blogs.aws.amazon.com in the Kubernetes Tools ecosystem.
+  - [Using Spark SQL for ETL](https://blogs.aws.amazon.com/bigdata/post/Tx2D93GZRHU3TES/Using-Spark-SQL-for-ETL)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blogs.aws.amazon.com in the Kubernetes Tools ecosystem.
   - [medium: No-Code Data Collect API on AWS](https://medium.com/@dima.statz_89242/no-code-data-collect-api-on-aws-d79e3681d204)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: No-Code Data Collect API on AWS in the Kubernetes Tools ecosystem.
 ## Cloud Infrastructure
 
@@ -17,8 +17,8 @@
 
 #### Big Data
 
-  - **(2025)** [**aws.amazon.com/big-data**](http://aws.amazon.com/big-data) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Official AWS portal showcasing enterprise managed data services. Covers analytical platform integrations utilizing Amazon EMR, AWS Glue, Athena, and cloud-native Amazon Redshift.
-  - **(2025)** [**blogs.aws.amazon.com/bigdata**](http://blogs.aws.amazon.com/bigdata) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — AWS Big Data blog feed publishing architectural insights, streaming pipeline blueprints, lake house migrations, and optimized resource configurations on top of AWS analytics stacks.
+  - **(2025)** [**aws.amazon.com/big-data**](https://aws.amazon.com/big-data) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Official AWS portal showcasing enterprise managed data services. Covers analytical platform integrations utilizing Amazon EMR, AWS Glue, Athena, and cloud-native Amazon Redshift.
+  - **(2025)** [**blogs.aws.amazon.com/bigdata**](https://blogs.aws.amazon.com/bigdata) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — AWS Big Data blog feed publishing architectural insights, streaming pipeline blueprints, lake house migrations, and optimized resource configurations on top of AWS analytics stacks.
 #### ETL
 
   - **(2025)** [==AWS Data Pipeline==](https://aws.amazon.com/glue) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official page of AWS Glue, a fully managed serverless data integration service. Identifies structural discovery using AWS Glue Data Catalog, PySpark ETL execution, and schema registry controls.

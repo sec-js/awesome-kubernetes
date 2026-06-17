@@ -1,4 +1,4 @@
-# Jenkins & CloudBees
+# Jenkins and CloudBees
 
 !!! info "Architectural Context"
     Detailed reference for Jenkins & CloudBees in the context of Engineering Pipeline.
@@ -9,7 +9,7 @@
 
 #### General Reference
 
-  - [jenkins users mailing list: Declarative pipelines vs scripted](http://jenkins-ci.361315.n4.nabble.com/Declarative-pipelines-vs-scripted-td4891792.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering jenkins-ci.361315.n4.nabble.com in the Kubernetes Tools ecosystem.
+  - [jenkins users mailing list: Declarative pipelines vs scripted](https://jenkins-ci.361315.n4.nabble.com/Declarative-pipelines-vs-scripted-td4891792.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering jenkins-ci.361315.n4.nabble.com in the Kubernetes Tools ecosystem.
   - [reddit.com/r/jenkinsci](https://www.reddit.com/r/jenkinsci)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/jenkinsci in the Kubernetes Tools ecosystem.
   - [dzone: getting started with jenkins the ultimate guide](https://dzone.com/articles/getting-started-with-jenkins-the-ultimate-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: getting started with jenkins the ultimate guide in the Kubernetes Tools ecosystem.
   - [dzone: jenkins in a nutshell](https://dzone.com/articles/jenkins-in-a-nutshell)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: jenkins in a nutshell in the Kubernetes Tools ecosystem.
@@ -140,7 +140,7 @@
   - **(2020)** [Redis Fingerprint Storage Plugin](https://github.com/jenkinsci/redis-fingerprint-storage-plugin) <span class='md-tag md-tag--info'>⭐ 5</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical implementation of Jenkins' external fingerprint storage framework utilizing Redis. Solves local disk IO bottlenecks by shifting artifact tracking records to an in-memory Redis cluster, enhancing controller scalability.
 #### High Availability
 
-  - **(2019)** [templates.cloudonaut.io: Jenkins 2.0: highly available master and dynamic agents](https://templates.cloudonaut.io/en/stable/jenkins/#jenkins-20-highly-available-master) <span class='md-tag md-tag--warning'>[YML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive configuration templates for building resilient AWS-native Jenkins configurations. Features a highly available active master setup integrated with auto-scaling dynamic build agents on Amazon ECS.
+  - **(2019)** [templates.cloudonaut.io: Jenkins 2.0: highly available master and dynamic agents](https://templates.cloudonaut.io/en/stable/jenkins) <span class='md-tag md-tag--warning'>[YML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive configuration templates for building resilient AWS-native Jenkins configurations. Features a highly available active master setup integrated with auto-scaling dynamic build agents on Amazon ECS.
 #### Industry Standards
 
   - **(2020)** [aws.amazon.com/blogs: Why Jenkins still continuously serves developers 🌟](https://aws.amazon.com/blogs/opensource/why-jenkins-still-continuously-serves-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS technical analysis detailing why Jenkins remains a widely used CI/CD platform. It highlights its plugin ecosystem, massive deployment base, and adaptability within highly customized cloud-native environments.
@@ -174,7 +174,7 @@
   - **(2018)** [Jenkins: Shifting Gears 🌟🌟](https://www.jenkins.io/blog/2018/08/31/shifting-gears)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The 'Shifting Gears' strategic blueprint outlining Jenkins Evergreen and efforts toward Cloud-Native Jenkins. It describes structural shifts towards cloud-native data stores, serverless build execution, and automated configurations.
 #### Telemetry
 
-  - **(2026)** [stats.jenkins.io 🌟](http://stats.jenkins.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Live landing dashboard presenting global aggregated usage statistics of the Jenkins ecosystem. Tracks monthly active installations, plugin adoption counts, OS distributions, and version trends across the community.
+  - **(2026)** [stats.jenkins.io 🌟](https://stats.jenkins.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Live landing dashboard presenting global aggregated usage statistics of the Jenkins ecosystem. Tracks monthly active installations, plugin adoption counts, OS distributions, and version trends across the community.
   - **(2018)** [jenkins-infra/jenkins-usage-stats 🌟](https://github.com/jenkins-infra/jenkins-usage-stats) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official scripts and tools used by the Jenkins Infrastructure team to process, aggregate, and publish anonymous usage statistics from global Jenkins installations. Helps track plugin usage trends and version distributions.
 #### Tutorial
 
@@ -462,7 +462,7 @@
 
 #### Linting
 
-  - **(2025)** [Pipeline Development Tools (Command-line Pipeline Linter)](https://www.jenkins.io/doc/book/pipeline/development/#linter) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The standard linting interface built to parse dynamic Jenkinsfiles against syntax engines. Ensures early discovery of Groovy typos, security blocks, and formatting errors before pipelines run on physical infrastructure.
+  - **(2025)** [Pipeline Development Tools (Command-line Pipeline Linter)](https://www.jenkins.io/doc/book/pipeline/development) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The standard linting interface built to parse dynamic Jenkinsfiles against syntax engines. Ensures early discovery of Groovy typos, security blocks, and formatting errors before pipelines run on physical infrastructure.
 #### Local Execution
 
   - **(2025)** [Jenkinsfile Runner Test Framework](https://github.com/jenkinsci/jenkinsfile-runner-test-framework) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A dedicated integration test harness designed to systematically validate pipeline structures using localized Jenkinsfile Runner micro-runtimes. Ensures robust sanity checking without deploying configurations to dynamic server nodes.
@@ -515,7 +515,7 @@
 
 #### Infrastructure Upgrades
 
-  - **(2019)** [Running Jenkins on Java 11 🌟](https://www.jenkins.io/doc/administration/requirements/jenkins-on-java-11/#:~:text=The%20easiest%20way%20to%20run,images%2C%20use%20the%20jdk11%20tag.)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Comprehensive administration runbook describing JVM upgrade pathways from Java 8 to Java 11. Addresses class-loading modifications, modularization parameters, and deprecated agent arguments.
+  - **(2019)** [Running Jenkins on Java 11 🌟](https://www.jenkins.io/doc/administration/requirements/jenkins-on-java-11)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Comprehensive administration runbook describing JVM upgrade pathways from Java 8 to Java 11. Addresses class-loading modifications, modularization parameters, and deprecated agent arguments.
 #### JVM Performance Tuning
 
   - **(2016)** [jenkins.io - Tuning Jenkins GC For Responsiveness and Stability with Large Instances 🌟](https://www.jenkins.io/blog/2016/11/21/gc-tuning) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Critical infrastructure advisory detailing memory allocation and G1GC GC argument tuning for massive Jenkins instances. Provides ready-to-use flag structures to eliminate long-duration Stop-The-World JVM freezes.
@@ -528,7 +528,7 @@
 
 #### Declarative vs Scripted
 
-  - **(2021)** [youtube/Bribe By Bytes: Jenkins Pipelines | Pipeline Concept | Types of Pipelines | Part 1](https://www.youtube.com/watch?v=iddMXjmr7mk&t=657s&ab_channel=BribeByBytes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Covers declarative versus scripted pipelines in Jenkins, defining the programmatic DSL paradigms and stage blocks inside modern Jenkinsfiles. *Curator Insight*: Compares pipeline design models. *Live Grounding*: While declarative is the industry default, scripted pipeline syntax remains critical for custom Groovy orchestration.
+  - **(2021)** [youtube/Bribe By Bytes: Jenkins Pipelines | Pipeline Concept | Types of Pipelines | Part 1](https://www.youtube.com/watch?v=iddMXjmr7mk&ab_channel=BribeByBytes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Covers declarative versus scripted pipelines in Jenkins, defining the programmatic DSL paradigms and stage blocks inside modern Jenkinsfiles. *Curator Insight*: Compares pipeline design models. *Live Grounding*: While declarative is the industry default, scripted pipeline syntax remains critical for custom Groovy orchestration.
   - **(2021)** [itnext.io: Jenkins Tutorial — Part 1 — Pipelines 🌟](https://itnext.io/jenkins-tutorial-part-1-pipelines-bd1397cf5509)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed multi-part series covering parameterized builds, variable contexts, parallel phases, and interactive user inputs. *Curator Insight*: Multi-step pipelines deep dive. *Live Grounding*: Highly regarded learning path that guides engineers from basics to complex production Jenkinsfiles.
 #### Execution Steps
 
@@ -599,7 +599,7 @@
 
 #### Brand and Design
 
-  - **(2021)** [docs.google.com: Jenkins Artwork Social Media & Open Graph Images](https://docs.google.com/presentation/d/1Q1PgNnRTgzBpVRXPqQo3PudzCa2eoc6_1_NRjFRMLrU/edit#slide=id.g778409cba7_0_46)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A shared repository of official Jenkins marketing slide templates, community brand guidelines, and graphics resources. *Curator Insight*: Design assets. *Live Grounding*: Handy for technical presenters preparing team slides or design documents.
+  - **(2021)** [docs.google.com: Jenkins Artwork Social Media & Open Graph Images](https://docs.google.com/presentation/d/1Q1PgNnRTgzBpVRXPqQo3PudzCa2eoc6_1_NRjFRMLrU/edit)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A shared repository of official Jenkins marketing slide templates, community brand guidelines, and graphics resources. *Curator Insight*: Design assets. *Live Grounding*: Handy for technical presenters preparing team slides or design documents.
 #### Infrastructure Issues
 
   - **(2021)** [**github.com/jenkins-infra/jenkins.io/issues**](https://github.com/jenkins-infra/jenkins.io/issues) <span class='md-tag md-tag--info'>⭐ 427</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The official issue tracker for the Jenkins project documentation and core infrastructure. *Curator Insight*: Issues tracking portal. *Live Grounding*: Vital reference resource for looking up plugin deprecations and configuration workarounds.
@@ -754,7 +754,7 @@
 
 #### Gradle Reference
 
-  - **(2026)** [==Gradle Cheat Sheets==](https://nubenetes.com/cheatsheets/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — High-density command syntax cheatsheet for Gradle, highlighting Kotlin/Groovy DSL setups, caching options, task graphs management, and daemon management to significantly improve build execution times.
+  - **(2026)** [==Gradle Cheat Sheets==](https://nubenetes.com/cheatsheets) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — High-density command syntax cheatsheet for Gradle, highlighting Kotlin/Groovy DSL setups, caching options, task graphs management, and daemon management to significantly improve build execution times.
 ## Frameworks and Ecosystem
 
 ### Community Presentations
