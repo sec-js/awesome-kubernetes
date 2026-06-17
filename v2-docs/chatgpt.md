@@ -3,14 +3,6 @@
 !!! info "Architectural Context"
     Detailed reference for ChatGPT in the context of AI.
 
-## AI and Platform Engineering
-
-### AI Assistants
-
-#### Developer Productivity
-
-  - **(2025)** [GitHub Copilot Now Explains Failed Actions Jobs (GA)](https://github.blog/changelog/2025-01-15-copilot-users-can-ask-about-a-failed-actions-job-ga)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — General availability announcement detailing Copilot's integration into the GitHub Actions run logs. Empowers engineers to ask AI to interpret errors, trace failures, and propose immediate pipeline repair steps.
-  - **(2024)** [Google Launches Gemini Code Assist, Challenging GitHub Copilot with Generous Free Tier](https://www.xataka.com/robotica-e-ia/google-lanza-misil-github-copilot-su-asistente-programacion-ofrece-mucho-uso-gratuito-que-microsoft) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details Google's launch of Gemini Code Assist, leveraging a vast token context window. Emphasizes integration within internal IDEs and Google Cloud Platform services to challenge the GitHub Copilot ecosystem.
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -19,6 +11,13 @@
 
   - [Discussion: Where is AI Still Completely Useless?](https://www.reddit.com/r/Terraform/comments/1l7my1x/where_is_ai_still_completely_useless_for)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Discussion: Where is AI Still Completely Useless? in the Kubernetes Tools ecosystem.
   - [Tech companies cutting devs for AI](https://www.reddit.com/r/ProgrammerHumor/comments/1tbzih8/techcompaniescuttingdevsforai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Tech companies cutting devs for AI in the Kubernetes Tools ecosystem.
+  - [medium.com/@andretost_75145: Using ChatGPT to learn Kubernetes and OpenShift](https://medium.com/@andretost_75145/using-chatgpt-to-learn-kubernetes-and-openshift-15051bc95535)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@andretost_75145: Using ChatGPT to learn Kubernetes and OpenShift in the Kubernetes Tools ecosystem.
+  - [betterprogramming.pub: ChatGPT and Software Architecture](https://betterprogramming.pub/chatgpt-and-software-architecture-308b6e0cc25a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering betterprogramming.pub: ChatGPT and Software Architecture in the Kubernetes Tools ecosystem.
+  - [abcabhishek.substack.com: ChatGPT for generating SQL as a Data Engineer's' assistant](https://abcabhishek.substack.com/p/chatgpt-for-generating-sql-as-a-data)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering abcabhishek.substack.com: ChatGPT for generating SQL as a Data Engineer's' assistant in the Kubernetes Tools ecosystem.
+  - [techrepublic.com: ChatGPT Cheat Sheet: Complete Guide for 2023](https://www.techrepublic.com/article/chatgpt-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering techrepublic.com: ChatGPT Cheat Sheet: Complete Guide for 2023 in the Kubernetes Tools ecosystem.
+  - [businessinsider.mx: 5 trucos de ChatGPT que pueden ayudar a reducir tu carga' laboral](https://businessinsider.mx/trucos-chatgpt-aminorar-carga-laboranl_vida-profesional)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering businessinsider.mx: 5 trucos de ChatGPT que pueden ayudar a reducir tu carga' laboral in the Kubernetes Tools ecosystem.
+  - [christianmartinezfinancialfox.medium.com: How to use ChatGPT to improve' your Microsft Excel skills?](https://christianmartinezfinancialfox.medium.com/how-to-use-chatgpt-to-improve-your-microsft-excel-skills-41817b6465df)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering christianmartinezfinancialfox.medium.com: How to use ChatGPT to improve' your Microsft Excel skills? in the Kubernetes Tools ecosystem.
+  - [TableauGPT — The Ultimate Guide on how to utilize its full potential in Finance](https://christianmartinezfinancialfox.medium.com/tableaugpt-the-ultimate-guide-on-how-to-utilize-its-full-potential-445939e3833d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering TableauGPT — The Ultimate Guide on how to utilize its full potential in Finance in the Kubernetes Tools ecosystem.
 ## Artificial Intelligence
 
 ### Deep Learning
@@ -30,7 +29,7 @@
 
 ### Prompt Engineering
 
-#### Developer Productivity (1)
+#### Developer Productivity
 
   - **(2024)** [**Awesome NotebookLM Slide Prompts**](https://github.com/serenakeyitan/awesome-notebookLM-prompts) <span class='md-tag md-tag--info'>⭐ 3761</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A master curation of system-level prompt templates specifically optimized for Google NotebookLM. It accelerates complex source material ingestions, contextual extractions, and structured summarizing processes for technical architects. (Live Grounding: Highlights the 2026 intersection of AI workflow orchestration and engineering documentation maintenance).
 ## Cloud Native Infrastructure
@@ -44,18 +43,11 @@
 
 #### AIOps Diagnostics
 
-  - [itnext.io: K8sGPT + LocalAI: Unlock Kubernetes superpowers for free!](https://itnext.io/k8sgpt-localai-unlock-kubernetes-superpowers-for-free-584790de9b65) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — In-depth guide configuring a fully offline AI diagnostics engine inside protected networks. Combines K8sGPT analytical tooling with LocalAI offline LLMs to safeguard internal data streams.
   - [github.com/robusta-dev/kubernetes-chatgpt-bot](https://github.com/robusta-dev/kubernetes-chatgpt-bot) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An intelligent triage chatbot linking cluster failures directly to LLM advice. Hooks Prometheus alert outputs to supply operators with instantaneous log summaries and debug steps.
+  - [itnext.io: K8sGPT + LocalAI: Unlock Kubernetes superpowers for free!](https://itnext.io/k8sgpt-localai-unlock-kubernetes-superpowers-for-free-584790de9b65) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — In-depth guide configuring a fully offline AI diagnostics engine inside protected networks. Combines K8sGPT analytical tooling with LocalAI offline LLMs to safeguard internal data streams.
 #### Declarative Manifests
 
   - [github.com/robusta-dev/chatgpt-yaml-generator](https://github.com/robusta-dev/chatgpt-yaml-generator) <span class='md-tag md-tag--info'>⭐ 117</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A tailored schema wizard matching generative prompts to robust Kubernetes structures. Generates production-ready configurations containing service boundaries, volume bindings, and routing structures.
-## Cloud Native Operations
-
-### AI-Powered Operations AIOps
-
-#### Kubernetes Troubleshooting
-
-  - **(2023)** [k8sgpt.ai](https://k8sgpt.ai) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An innovative, community-driven tool that integrates LLMs directly with Kubernetes diagnostic commands. By parsing cluster states, configuration anomalies, and system logs, k8sgpt provides clear explanations and automated remediation commands. It is a premier tool in the shift towards AI-powered autonomous operations (AIOps).
 ## Data Analysis
 
 ### Spreadsheet Automation
@@ -89,28 +81,11 @@
   - [genbeta.com: En la era de la inteligencia artificial, Microsoft es el nuevo' Google](https://www.genbeta.com/a-fondo/era-inteligencia-artificial-microsoft-nuevo-google) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analiza la evolución de Microsoft como líder de la revolución de IA generativa a través de su alianza con OpenAI, contrastándolo con la postura reactiva de Google ante los modelos de lenguaje transformadores. [SPANISH CONTENT]
 ## Software Engineering
 
-### AI-Assisted Development
-
-#### LLM Prompting
-
-  - **(2025)** [Claude 101: Free Guides to Master Claude](https://claude101.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A curated reference hub containing structured tutorials, system prompting templates, and context optimization strategies for leveraging Anthropic's Claude models. Focuses on maximizing the quality of complex reasoning pipelines and architectural code reviews.
 ### AI-Assisted Operations
 
 #### Code Generation Quality
 
   - [thenewstack.io: Developers Put AI Bots to the Test of Writing Code](https://thenewstack.io/developers-put-ai-bots-to-the-test-of-writing-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Empirical evaluation measuring code-generation accuracy across popular AI engines. Examines compiler error rates, structural vulnerabilities, and the necessity of developer supervision in AI workflows.
-### Python
-
-#### Computer Science Foundations
-
-  - **(2024)** [Think Python](https://allendowney.github.io/ThinkPython) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry-standard manual detailing computer science foundations using Python. Progresses through data structures, algorithms, functional routines, and object-oriented modeling with highly verified, elegant coding conventions.
-## Specialized AI Applications
-
-### Healthcare Systems
-
-#### Voice Assistants
-
-  - **(2025)** [Microsoft Dragon Copilot: Unified Voice AI Assistant for Healthcare](https://news.microsoft.com/source/2025/03/03/microsoft-dragon-copilot-provides-the-healthcare-industrys-first-unified-voice-ai-assistant-that-enables-clinicians-to-streamline-clinical-documentation-surface-information-and-automate-task)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines Microsoft's Dragon Copilot, the healthcare industry's first unified voice AI assistant. It streamlines clinical documentation, automates repetitive administrative tasks, and securely surfaces critical patient records within strict HIPAA compliance parameters.
 
 ---
 💡 **Explore Related:** [AI](./ai.md) | [AI Agents MCP](./ai-agents-mcp.md) | [MLOps](./mlops.md)

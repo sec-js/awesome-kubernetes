@@ -9,11 +9,18 @@
 
 #### General Reference
 
-  - [docs.openshift.com: Integrated OpenShift Container Platform registry](https://docs.redhat.com/en/documentation/openshift_container_platform/4.8/html/registry/index)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.redhat.com in the Kubernetes Tools ecosystem.
-  - [help.sonatype.com: Inbound SSL - Configuring to Serve Content via HTTPS](https://help.sonatype.com/en/404-page.html?_ga=2.250230211.411976214.1575978022-1513910029.1575978022#ConfiguringSSL-InboundSSL-ConfiguringtoServeContentviaHTTPS)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering help.sonatype.com in the Kubernetes Tools ecosystem.
+  - [help.sonatype.com: Inbound SSL - Configuring to Serve Content via HTTPS](https://help.sonatype.com/en/sonatype-nexus-repository.html/security/configuring-ssl?_ga=2.250230211.411976214.1575978022-1513910029.1575978022#ConfiguringSSL-InboundSSL-ConfiguringtoServeContentviaHTTPS)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering help.sonatype.com in the Kubernetes Tools ecosystem.
+  - [Dzone refcard: Using Repository Managers](https://dzone.com/refcardz/binary-repository-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone refcard: Using Repository Managers in the Kubernetes Tools ecosystem.
+  - [docs.openshift.com: Integrated OpenShift Container Platform registry](https://docs.openshift.com/container-platform/4.8/registry/architecture-component-imageregistry.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.openshift.com: Integrated OpenShift Container Platform registry in the Kubernetes Tools ecosystem.
   - [Dzone: Getting started with Nexus](https://dzone.com/articles/getting-started-nexus-maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Getting started with Nexus in the Kubernetes Tools ecosystem.
   - [stackoverflow: run nexus3 with docker in a kubernetes cluster](https://stackoverflow.com/questions/42766349/run-nexus-3-with-docker-in-a-kubernetes-cluster)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering stackoverflow: run nexus3 with docker in a kubernetes cluster in the Kubernetes Tools ecosystem.
+  - [sonatype: how to delete docker images from Nexus Repository Manager](https://support.sonatype.com/hc/en-us/articles/360009696054-How-to-delete-docker-images-from-Nexus-Repository-Manager)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering sonatype: how to delete docker images from Nexus Repository Manager in the Kubernetes Tools ecosystem.
+  - [support.sonatype.com: Using self signed certificates with Nexus Repository' Manager and Docker Daemon](https://support.sonatype.com/hc/en-us/articles/217542177-Using-Self-Signed-Certificates-with-Nexus-Repository-Manager-and-Docker-Daemon)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering support.sonatype.com: Using self signed certificates with Nexus Repository' Manager and Docker Daemon in the Kubernetes Tools ecosystem.
+  - [support.sonatype.com: SSL Certificate Guide](https://support.sonatype.com/hc/en-us/articles/213465768-SSL-Certificate-Guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering support.sonatype.com: SSL Certificate Guide in the Kubernetes Tools ecosystem.
   - [Jenkins: Publish Maven Artifacts to Nexus OSS Using Pipelines or Maven Jobs' 🌟](https://dzone.com/articles/jenkins-publish-maven-artifacts-to-nexus-oss-using)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Jenkins: Publish Maven Artifacts to Nexus OSS Using Pipelines or Maven Jobs' 🌟 in the Kubernetes Tools ecosystem.
+  - [blog.mimacom.com/automate-nexus](https://blog.mimacom.com/automate-nexus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.mimacom.com/automate-nexus in the Kubernetes Tools ecosystem.
+  - [freesoft.dev: Ansible Role: Harbor API Codifying](https://freesoft.dev/program/126957220)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering freesoft.dev: Ansible Role: Harbor API Codifying in the Kubernetes Tools ecosystem.
+  - [medium.com/swlh: Deploy Your Private Docker Registry as a Pod in Kubernetes](https://medium.com/swlh/deploy-your-private-docker-registry-as-a-pod-in-kubernetes-f6a489bf0180)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/swlh: Deploy Your Private Docker Registry as a Pod in Kubernetes in the Kubernetes Tools ecosystem.
 ## Artifact Management
 
 ### Package Repositories
@@ -125,13 +132,6 @@
 #### Quay Releases
 
   - **(2019)** [Quay 3.0 released in May 2019](https://www.redhat.com/en/blog/introducing-red-hat-quay-3-registry-your-linux-and-windows-containers) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Announcement documentation marking the release of Red Hat Quay 3.0, introducing Windows Container support and a multi-architecture architecture overhaul. This release solidified Quay's capability to orchestrate high-availability registries across diverse operating system nodes. While conceptually informative, it is categorized as legacy given the continuous evolutionary releases of the v3.x and v4.x lineages in modern production.
-## Infrastructure Standards
-
-### Container Registry
-
-#### Legacy Resources
-
-  - **(2026)** [guides.sonatype.com: secure docker registries](https://help.sonatype.com/en/404-page.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An identical retired documentation path representing defunct guidelines on Nexus-based private container security. Preserved purely for historical configuration mapping.
 ## Market and Strategy
 
 ### DevOps Platforms
@@ -148,5 +148,5 @@
   - **(2025)** [==jfrog.com: Kubernetes Helm Chart Repositories 🌟==](https://docs.jfrog.com) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Enterprise guide to leveraging JFrog Artifactory as a secure, high-availability Helm chart repository. Covers repository layout, role-based access control, package versioning, and integration with Kubernetes container execution steps.
 
 ---
-💡 **Explore Related:** [Argo](./argo.md) | [CI/CD](./cicd.md) | [Gitops](./gitops.md)
+💡 **Explore Related:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md) | [Flux](./flux.md)
 

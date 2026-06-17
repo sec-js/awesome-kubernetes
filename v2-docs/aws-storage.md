@@ -9,7 +9,9 @@
 
 #### General Reference
 
-  - [Getting Started with AWS Storage Gateway](https://docs.aws.amazon.com/storagegateway)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.aws.amazon.com in the Kubernetes Tools ecosystem.
+  - [Making Requests to Amazon S3 over IPv6](http://docs.aws.amazon.com/AmazonS3/latest/dev/ipv6-access.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.aws.amazon.com in the Kubernetes Tools ecosystem.
+  - [Getting Started with AWS Storage Gateway](http://docs.aws.amazon.com/storagegateway/latest/userguide/GettingStarted-common.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.aws.amazon.com in the Kubernetes Tools ecosystem.
+  - [awstip.com: Uploading files to S3 through API Gateway](https://awstip.com/uploading-files-to-s3-through-api-gateway-7bb78c0d0483)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering awstip.com: Uploading files to S3 through API Gateway in the Kubernetes Tools ecosystem.
 ## Cloud Infrastructure
 
 ### Compute
@@ -24,11 +26,6 @@
 #### AWS Transfer Family
 
   - **(2021)** [infoq.com: AWS Transfer Family Introduces Support for EFS](https://www.infoq.com/news/2021/01/aws-transfer-ftp-efs) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains the native integration between AWS Transfer Family (SFTP/FTPS/FTP) and Amazon Elastic File System (EFS). This architectural capability enables secure file exchanges directly from external trading partners into a managed, distributed NFS backend. It simplifies data ingestion pipelines and removes the administrative burden of running custom FTP gateway VMs.
-### Object Storage
-
-#### AWS
-
-  - **(2023)** [Making Requests to Amazon S3 over IPv6](https://docs.aws.amazon.com/AmazonS3/latest/API) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight views this as an essential networking guide for modern cloud topologies. Live Grounding validates that configuring S3 endpoints over IPv6 reduces IPv4 address exhaustion issues and optimizes hybrid-cloud routing. It offers actionable configuration endpoints and IAM policy adaptations.
 ### Reliability Engineering
 
 #### Multi-Region Architectures
@@ -102,5 +99,5 @@
   - **(2023)** [blog.awsfundamentals.com: AWS S3 Sync - An Extensive Guide](https://awsfundamentals.com/blog/aws-s3-sync) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An extensive guide on using AWS S3 Sync commands, showing how to achieve efficient filesystems syncs between local storage and S3 targets. It explains multi-threading optimization, inclusion/exclusion rules, and integrity checks. This reference is highly valuable for system administrators maintaining basic backup and sync pipelines.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Backup](./aws-backup.md) | [AWS Containers](./aws-containers.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
 

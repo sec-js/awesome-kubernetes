@@ -22,13 +22,6 @@ graph TD
 ```
 
 
-## Application Architecture
-
-### Microservices
-
-#### Design Patterns
-
-  - **(2018)** [developer.com: Overcoming the Common Microservices Anti-Patterns](https://dzone.com/articles/microservices-anti-patterns) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight dissects common architectural pitfalls in distributed systems. Live Grounding analyzes anti-patterns such as the 'Distributed Monolith', hardcoded network locations, and shared databases. It offers structural refactoring paths crucial for microservice transitions.
 ## Application Modernization
 
 ### Monolith to Microservices
@@ -59,7 +52,7 @@ graph TD
 #### Patterns
 
   - **(2022)** [acloudguru.com: Sharing data in the cloud: 4 patterns you should know](https://www.pluralsight.com/resources/blog/business-and-leadership/sharing-data-in-the-cloud-four-patterns-everyone-should-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines four distinct cloud-native patterns for shared-data architectures. Evaluates data virtualization, API-driven delivery, direct database sharing, and messaging queues based on security and real-time synchronization requirements.
-### Microservices (1)
+### Microservices
 
 #### Fundamentals
 
@@ -89,15 +82,20 @@ graph TD
   - **(2023)** [blog.scaleway.com: SaaS Solutions - What is the difference between a multi-instance and a multi-tenant architecture](https://www.scaleway.com/en/blog/saas-multi-tenant-vs-multi-instance-architectures)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares multi-instance setups (dedicated systems per tenant) against multi-tenant models (shared compute/database with strict software isolation). Examines resource scaling, security boundaries, and noisy neighbor challenges.
 ### Technical Debt
 
-#### Microservices (2)
+#### Microservices (1)
 
   - **(2022)** [infoq.com: Managing Technical Debt in a Microservice Architecture](https://www.infoq.com/articles/managing-technical-debt-microservices) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates the specific vectors of technical debt in microservices, including library drift, API versioning overhead, and domain-model fragmentation. Offers architectural rules of thumb to control distributed sprawl.
 #### Orchestration
 
   - **(2021)** [stackoverflow.blog: Using Kubernetes to rethink your system architecture and ease technical debt 🌟](https://stackoverflow.blog/2021/05/19/rethinking-system-architecture-can-kubernetes-help-to-solve-rewrite-anxiety) 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Discusses utilizing a migration to Kubernetes as a strategic catalyst to refactor legacy monoliths. Reorganizes monolithic systems into decoupled containers, successfully lowering long-term architectural tech debt.
+### Web Applications
+
+#### Enterprise Patterns
+
+  - **(2025)** [Enterprise Web App Patterns - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/web-apps/guides/enterprise-app-patterns/overview) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Production-proven patterns and implementation pathways from the Azure Architecture Center. Establishes migration guidelines for modernizing monolithic applications into elastic web architectures.
 ## Architecture Patterns
 
-### Microservices (3)
+### Microservices (2)
 
 #### Cloud-Native Infrastructure
 
@@ -153,7 +151,7 @@ graph TD
 
 ### Cloud-Native
 
-#### Design Patterns (1)
+#### Design Patterns
 
   - **(2020)** [capstonec.com: You Will Love These Cloud-native App Architecture Patterns 🌟](https://capstonec.com/2020/10/08/cloud-native-app-architecture-patterns)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates key structural patterns that define modern cloud-native systems, focusing on twelve-factor application rules, API-first delivery, resilient circuit breakers, and decoupling persistent storage systems from execution units.
 ### Hybrid Cloud Strategy
@@ -266,13 +264,6 @@ graph TD
     
     Explores three fundamental high-availability cloud strategies: active-active vs active-passive configurations, geo-redundant database replication, and zero-downtime DNS-routed failovers. Discusses mathematical SLA models and network traffic planning required to achieve high service uptime.
 
-#### Multi-Region Deployments
-
-??? note "engineering.monday.com: monday.com’s Multi-Regional Architecture: A Deep Dive"
-    **[Access Resource](https://engineering.monday.com/monday-coms-multi-regional-architecture-a-deep-dive)** 🌟🌟🌟🌟🌟 | Level: Advanced
-    
-    A real-world architectural dissection of how monday.com implemented a highly resilient, multi-regional cloud strategy to improve latency and adhere to strict regional data regulations. Explains state replication strategies, request routing optimizations, and database scaling bottlenecks encountered during global scaling.
-
 ### Market Trends (1)
 
 #### Open Source Business Models
@@ -322,15 +313,6 @@ graph TD
 #### Business Drivers
 
   - **(2022)** [thenewstack.io: Reasons to Opt for a Multicloud Strategy](https://thenewstack.io/reasons-to-opt-for-a-multicloud-strategy) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines key operational drivers supporting a deliberate multi-cloud migration strategy, centering on geographic expansion, regional regulatory mandates, and optimized billing leverage. The resource emphasizes treating multi-cloud as a strategic framework to optimize application delivery across diverse vendor strengths.
-### Storage and Hybrid Systems
-
-#### Topology Comparison
-
-??? note "blog.min.io: Mono Clouds vs Multi-Clouds & Hybrid Clouds"
-    **[Access Resource](https://www.min.io/blog)** 🌟🌟🌟🌟 | Level: Intermediate
-    
-    Details the comparative trade-offs between mono-cloud, multi-cloud, and hybrid cloud topologies from an object storage and data gravity perspective. MinIO highlights the critical role of data portability and standardized APIs (S3) in enabling architectural freedom across multi-cloud footprints.
-
 ## Cloud Infrastructure
 
 ### Automation
@@ -338,9 +320,6 @@ graph TD
 #### Concepts
 
   - **(2021)** [thenewstack.io: What Is Cloud Automation and How Does It Benefit IT Teams? 🌟](https://thenewstack.io/what-is-cloud-automation-and-how-does-it-benefit-it-teams)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demystifies cloud automation paradigms, describing how automated resource provisioning, scaling, and configuration reduce operational overhead and human error. Key focus is placed on programmatic API orchestration and infrastructure-as-code.
-#### Glossary
-
-  - **(2022)** [redhat.com: Red Hat automation glossary 🌟](https://www.redhat.com/en/blog/red-hat-automation-glossary)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a comprehensive terminology reference mapping modern DevOps, configuration management, and automation jargon. Offers clear, enterprise-aligned definitions for terms like CI/CD, IaC, GitOps, and orchestration engines.
 ### DevOps
 
 #### Infrastructure Abstraction
@@ -365,6 +344,13 @@ graph TD
   - **(2021)** [phoenixnap.com: Kubernetes vs OpenShift: Key Differences Compared 🌟](https://phoenixnap.com/blog/openshift-vs-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Breaks down core differences between vanilla Kubernetes and Red Hat OpenShift, evaluating deployment mechanics, security configurations (SCC vs RBAC), built-in routing, out-of-the-box monitoring, and support models.
   - **(2021)** [simplilearn.com: Understanding The Difference Between Kubernetes Vs. Openshift](https://www.simplilearn.com/kubernetes-vs-openshift-article)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An educational comparison detailing the architectural boundaries of Kubernetes and OpenShift. Explores developer workflows, installation processes, built-in CI/CD pipelines, and licensing structures.
   - **(2019)** [spec-india.com: Kubernetes VS Openshift (July 23rd 2019)](https://www.spec-india.com/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares upstream open-source Kubernetes with Red Hat OpenShift. Focuses on user-interface options, CLI differences, security policies, image registry capabilities, and integrated CI/CD toolchain setups in enterprise deployments.
+## Cloud Infrastructure and Orchestration
+
+### Public Cloud Administration
+
+#### AWS Fundamentals
+
+  - **(2023)** [AWS Cloud Practitioner - Curso Completo 2023](https://www.youtube.com/watch?v=zQyrhjEAqLs) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive Spanish instructional syllabus targeting the AWS Certified Cloud Practitioner domain. Details key global infrastructure components, core services (EC2, S3, RDS, VPC), billing architectures, and foundational security frameworks.
 ## Cloud Native and Kubernetes Core
 
 ### Business Value and ROI
@@ -382,11 +368,6 @@ graph TD
     Deep dive into core Kubernetes architectures, detailing controller-manager reconciliation mechanisms, kube-scheduler filters, and API-driven status updates. Provides a technical reference for engineers wanting to design resource control loops and manage standard system interactions.
 
 #### Fundamentals (1)
-
-??? note "cloud.google.com: What is Kubernetes? 🌟"
-    **[Access Resource](https://cloud.google.com/learn/what-is-kubernetes)** 🌟🌟🌟🌟🌟 | Level: Beginner
-    
-    A comprehensive foundation on Kubernetes, detailing its architectural pillars including the control plane, worker nodes, and declarative API engine. It outlines container scheduling, automated self-healing, and service discovery mechanisms essential for running resilient, modern cloud-native systems.
 
 ??? note "weave.works: What is a Kubernetes Cluster? 🌟"
     **[Access Resource](https://www.weave.works/blog/kubernetes-cluster)** 🌟🌟🌟🌟 | Level: Beginner
@@ -485,7 +466,7 @@ graph TD
 #### Kubernetes (1)
 
   - **(2018)** [developers.redhat.com: Why Kubernetes is The New Application Server](https://developers.redhat.com/blog/2018/06/28/why-kubernetes-is-the-new-application-server) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This guide analyzes the transition from traditional enterprise application servers (like JBoss or WebSphere) to Kubernetes. It positions Kubernetes as the modern application server, handling routing, state management, and lifecycle patterns natively.
-### Design Patterns (2)
+### Design Patterns (1)
 
 #### Operators and Sidecars
 
@@ -495,7 +476,7 @@ graph TD
 #### Cloud Native Strategy
 
   - **(2019)** [weave.works: Going Cloud Native: 6 essential things you need to know](https://www.weave.works/technologies/going-cloud-native-6-essential-things-you-need-to-know) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Weave Works lays out six core pillars for going cloud native, focusing on containerization, declarative state management, and GitOps workflows to establish efficient deployment setups.
-### Microservices (4)
+### Microservices (3)
 
 #### Enterprise Solutions (1)
 
@@ -595,19 +576,12 @@ graph TD
     
     Discusses the evolution of the Kubernetes API and the growing necessity for user interfaces that abstract the complex YAML declarations. Explores trends like custom controllers, platform wrappers, and programmatic DSLs to simplify operations for non-expert system developers.
 
-#### Technology Assessment
-
-??? note "thenewstack.io: Do I Really Need Kubernetes? 🌟"
-    **[Access Resource](https://thenewstack.io/do-i-really-need-kubernetes)** 🌟🌟🌟🌟 | Level: Intermediate
-    
-    Offers a pragmatic architectural counter-argument to automatic Kubernetes adoption. Evaluates alternatives such as managed serverless containers (ECS, Cloud Run) and PaaS solutions, analyzing whether the infrastructure scale justifies K8s operational complexity and platform engineering overhead.
-
 ### Professional Development (1)
 
 #### Career Engineering (1)
 
   - **(2020)** [javarevisited.blogspot.com: Why Every Programmer, DevOps Engineer Should learn Docker and Kubernetes in 2020](https://javarevisited.blogspot.com/2020/11/why-devops-engineer-learn-docker-kubernetes.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines why containerization and container orchestration skills have transitioned from advanced operational specialties to core software development competencies. Highlights the industry-wide ubiquity of Docker and Kubernetes for consistent, reproducible builds across local and cloud environments.
-### Technology Assessment (1)
+### Technology Assessment
 
 #### Compute Paradigms
 
@@ -642,7 +616,7 @@ graph TD
     
     A case study from Shopify detailing the infrastructure and engineering effort required to maintain sub-minute continuous integration pipelines for large codebases. Explores parallelization techniques, test selection algorithms, and cache-optimization strategies that scale.
 
-### Microservices (5)
+### Microservices (4)
 
 #### Tooling Ecosystem
 
@@ -712,7 +686,7 @@ graph TD
   - **(2024)** [cope.es: El ejemplo de 'la moneda' con el que entender cómo funciona un ordenador cuántico: "Será una revolución"](https://www.cope.es/programas/la-linterna/noticias/ejemplo-moneda-con-que-entender-como-funciona-ordenador-cuantico-una-revolucion-20240407_3232557) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduce los principios de la computación cuántica de manera accesible mediante la analogía de una moneda girando para ilustrar la superposición. Destaca el impacto potencial de los cúbits frente a la computación clásica.
 ## Frontend Architecture
 
-### Design Patterns (3)
+### Design Patterns (2)
 
 #### BFF
 
@@ -758,21 +732,106 @@ graph TD
 
 ### General Reference
 
+  - [ringcentral.co.uk: Software as a Service (SaaS)](https://www.ringcentral.com/gb/en/blog/definitions/software-as-a-service-saas)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.ringcentral.com in the Kubernetes Tools ecosystem.
+  - [ringcentral.co.uk: Cloud Management 🌟](https://www.ringcentral.com/gb/en/blog/definitions/cloud-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.ringcentral.com in the Kubernetes Tools ecosystem.
+  - [Kelsey Hightower Fireside Chat: An Unconventional Path to IT and Some Life Advice](https://www.hashicorp.com/resources/kelsey-hightower-fireside-chat-an-unconventional-path-to-it-and-some-life-advice/?utm_source=linkedin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.hashicorp.com in the Kubernetes Tools ecosystem.
+  - [levelup.gitconnected.com: How to design a system to scale to your first' 100 million users](https://levelup.gitconnected.com/how-to-design-a-system-to-scale-to-your-first-100-million-users-4450a2f9703d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering levelup.gitconnected.com: How to design a system to scale to your first' 100 million users in the Kubernetes Tools ecosystem.
+  - [medium.com/javarevisited: Microservices communication using gRPC Protocol](https://medium.com/javarevisited/microservices-communication-using-grpc-protocol-dc3a2f8b648d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==medium.com/javarevisited: Microservices communication using gRPC Protocol== in the Kubernetes Tools ecosystem.
+  - [Monolithic versus Microservice architecture](https://www.enterprisetimes.co.uk/2020/07/23/monolithic-versus-microservice-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Monolithic versus Microservice architecture in the Kubernetes Tools ecosystem.
   - [cncf.io: Top 7 challenges to becoming cloud native](https://www.cncf.io/blog/2020/09/15/top-7-challenges-to-becoming-cloud-native)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Top 7 challenges to becoming cloud native in the Kubernetes Tools ecosystem.
+  - [techrepublic.com: Kubernetes will deliver the app store experience for enterprise' software, says Weaveworks CEO](https://www.techrepublic.com/article/kubernetes-will-deliver-the-app-store-experience-for-enterprise-software-says-weaveworks-ceo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering techrepublic.com: Kubernetes will deliver the app store experience for enterprise' software, says Weaveworks CEO in the Kubernetes Tools ecosystem.
+  - [shahirdaya.medium.com: What does it mean to be Cloud Native? 🌟](https://shahirdaya.medium.com/what-does-it-mean-to-be-cloud-native-12360a324571)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering shahirdaya.medium.com: What does it mean to be Cloud Native? 🌟 in the Kubernetes Tools ecosystem.
+  - [skamille.medium.com: Make Boring Plans](https://skamille.medium.com/make-boring-plans-9438ce5cb053)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering skamille.medium.com: Make Boring Plans in the Kubernetes Tools ecosystem.
+  - [cloud-melon.com: Under the hood of Kubernetes and microservices](https://cloud-melon.com/2019/12/26/under-the-hood-of-kubernetes-and-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cloud-melon.com: Under the hood of Kubernetes and microservices in the Kubernetes Tools ecosystem.
+  - [medium: A Design Analysis of Cloud-based Microservices Architecture at Netflix](https://medium.com/swlh/a-design-analysis-of-cloud-based-microservices-architecture-at-netflix-98836b2da45f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: A Design Analysis of Cloud-based Microservices Architecture at Netflix in the Kubernetes Tools ecosystem.
+  - [hashicorp.com: Why Microservices? 🌟](https://www.hashicorp.com/resources/why-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering hashicorp.com: Why Microservices? 🌟 in the Kubernetes Tools ecosystem.
+  - [medium: Microservices Architecture From A to Z 🌟](https://medium.com/swlh/microservices-architecture-from-a-to-z-7287da1c5d28)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Microservices Architecture From A to Z 🌟 in the Kubernetes Tools ecosystem.
+  - [skycrafters.io: Do Containers Really Contain? Virtual Machines vs. Containers' 🌟](https://skycrafters.io/blog/2021/06/08/do-containers-really-contain)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering skycrafters.io: Do Containers Really Contain? Virtual Machines vs. Containers' 🌟 in the Kubernetes Tools ecosystem.
+  - [medium: Container Fundamentals — Part 1](https://medium.com/techbeatly/container-fundamentals-part-i-445881a81b7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Container Fundamentals — Part 1 in the Kubernetes Tools ecosystem.
+  - [medium: What is microservices and why is it different? 🌟](https://medium.com/microservices-for-net-developers/what-is-microservices-and-why-is-it-different-fac017cb8cf4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: What is microservices and why is it different? 🌟 in the Kubernetes Tools ecosystem.
   - [How Your Application Architecture Has Evolved 🌟](https://dzone.com/articles/how-your-application-architecture-evolved)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering How Your Application Architecture Has Evolved 🌟 in the Kubernetes Tools ecosystem.
+  - [fylamynt.com: Mastering Cloud Automation in the Cloud-Native Era 🌟](https://www.fylamynt.com/post/mastering-cloud-automation-in-the-cloud-native-era)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering fylamynt.com: Mastering Cloud Automation in the Cloud-Native Era 🌟 in the Kubernetes Tools ecosystem.
+  - [medium: Monoliths vs Microservices](https://medium.com/getdefault-in/monoliths-vs-microservices-59cff20bb106)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Monoliths vs Microservices in the Kubernetes Tools ecosystem.
   - [dzone: Top 6 Time Wastes as a Software Engineer](https://dzone.com/articles/top-time-wastes-as-a-software-engineer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Top 6 Time Wastes as a Software Engineer in the Kubernetes Tools ecosystem.
+  - [hiralee.medium.com: Software Architecture vs Design](https://hiralee.medium.com/software-design-vs-architecture-1da0a94322a4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering hiralee.medium.com: Software Architecture vs Design in the Kubernetes Tools ecosystem.
+  - [blog.deref.io: Containers Don't Solve Everything 🌟](https://blog.deref.io/containers-dont-solve-everything)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.deref.io: Containers Don't Solve Everything 🌟 in the Kubernetes Tools ecosystem.
   - [dzone: Transitioning from Monolith to Microservices (with python django' example)](https://dzone.com/articles/transitioning-from-monolith-to-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Transitioning from Monolith to Microservices (with python django' example) in the Kubernetes Tools ecosystem.
   - [cncf.io: How to justify infrastructure replacement to your manager](https://www.cncf.io/blog/2021/10/29/how-to-justify-infrastructure-replacement-to-your-manager)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: How to justify infrastructure replacement to your manager in the Kubernetes Tools ecosystem.
+  - [techrepublic.com: Enterprises get closer to the app store experience with' Kubernetes and GitOps](https://www.techrepublic.com/article/enterprises-get-closer-to-the-app-store-experience-with-kubernetes-and-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==techrepublic.com: Enterprises get closer to the app store experience with' Kubernetes and GitOps== in the Kubernetes Tools ecosystem.
+  - [venturebeat.com: 5 ways the world of IT operations will shift in 2022 (and' beyond)](https://venturebeat.com/2021/12/22/5-ways-the-world-of-it-operations-will-shift-in-2022-and-beyond)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering venturebeat.com: 5 ways the world of IT operations will shift in 2022 (and' beyond) in the Kubernetes Tools ecosystem.
+  - [blog.devgenius.io: Distributed Monolith](https://blog.devgenius.io/distributed-monolith-1d2d9f86a68f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==blog.devgenius.io: Distributed Monolith== in the Kubernetes Tools ecosystem.
+  - [medium.com/geekculture: A Beginners Guide to Understanding Microservices](https://medium.com/geekculture/a-beginners-guide-to-understanding-microservices-d2a8bae871b7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/geekculture: A Beginners Guide to Understanding Microservices in the Kubernetes Tools ecosystem.
+  - [medium.com/interviewnoodle: Shift from Monolith to CQRS 🌟](https://medium.com/interviewnoodle/shift-from-monolith-to-cqrs-a34bab75617e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==medium.com/interviewnoodle: Shift from Monolith to CQRS== 🌟 in the Kubernetes Tools ecosystem.
+  - [medium.com/@ajin.sunny: System Design Architecture: Stateful vs. Stateless' 🌟](https://medium.com/@ajin.sunny/system-design-architecture-stateful-vs-stateless-62ed0ddb9f2b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==medium.com/@ajin.sunny: System Design Architecture: Stateful vs. Stateless==' 🌟 in the Kubernetes Tools ecosystem.
+  - [medium.com/@ajin.sunny: System Design Concept: Rate limiting 🌟](https://medium.com/@ajin.sunny/system-design-concept-rate-limiting-f4da72371533)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@ajin.sunny: System Design Concept: Rate limiting 🌟 in the Kubernetes Tools ecosystem.
+  - [medium.com/@ajin.sunny: Rate limiting in Distributed Systems 🌟](https://medium.com/@ajin.sunny/rate-limiting-in-distributed-systems-bbeca0c47b96)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@ajin.sunny: Rate limiting in Distributed Systems 🌟 in the Kubernetes Tools ecosystem.
+  - [blog.devgenius.io: Top 10 Architecture Characteristics / Non-Functional' Requirements with Cheatsheet 🌟](https://blog.devgenius.io/top-10-architecture-characteristics-non-functional-requirements-with-cheatsheat-7ad14bbb0a9b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.devgenius.io: Top 10 Architecture Characteristics / Non-Functional' Requirements with Cheatsheet 🌟 in the Kubernetes Tools ecosystem.
+  - [medium.com/dotnet-hub: Software Architecture — Introduction to Cloud Native' Application Architecture 🌟](https://medium.com/dotnet-hub/introduction-to-cloud-native-application-architecture-what-is-cloud-native-architecture-overview-benefits-e9be9aca0dd3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==medium.com/dotnet-hub: Software Architecture — Introduction to Cloud Native' Application Architecture== 🌟 in the Kubernetes Tools ecosystem.
+  - [bootcamp.uxdesign.cc: Popular Tech Stack for Startups in 2022](https://bootcamp.uxdesign.cc/popular-tech-stack-for-startups-in-2022-f3b53f50c18)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering bootcamp.uxdesign.cc: Popular Tech Stack for Startups in 2022 in the Kubernetes Tools ecosystem.
+  - [medium.com/@interviewready: Data Replication in Distributed System](https://medium.com/@interviewready/data-replication-in-distributed-system-87f7d265ff28)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@interviewready: Data Replication in Distributed System in the Kubernetes Tools ecosystem.
+  - [semaphoreci.medium.com: 12 Ways to Improve Your Monolith Before Transitioning' to Microservices 🌟](https://semaphoreci.medium.com/12-ways-to-improve-your-monolith-before-transitioning-to-microservices-d1061e96ca1a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==semaphoreci.medium.com: 12 Ways to Improve Your Monolith Before Transitioning' to Microservices== 🌟 in the Kubernetes Tools ecosystem.
+  - [hardiks.medium.com: Top 6 Best practices for Container Orchestration' 🌟](https://hardiks.medium.com/top-6-best-practices-for-container-orchestration-b4b0d3398ebc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==hardiks.medium.com: Top 6 Best practices for Container Orchestration==' 🌟 in the Kubernetes Tools ecosystem.
+  - [medium.com/@nadinCodeHat: HTTP based Microservices is a bad idea 🌟](https://medium.com/@nadinCodeHat/http-based-microservices-is-a-bad-idea-670d3db29ca6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@nadinCodeHat: HTTP based Microservices is a bad idea 🌟 in the Kubernetes Tools ecosystem.
+  - [medium.com/qe-unit: Microservices — Do You Need Them? Are You Ready? 🌟](https://medium.com/qe-unit/the-microservices-adoption-roadmap-e37f3f32877)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/qe-unit: Microservices — Do You Need Them? Are You Ready? 🌟 in the Kubernetes Tools ecosystem.
+  - [cloudnativeislamabad.hashnode.dev: Virtualization vs Containerization](https://cloudnativeislamabad.hashnode.dev/virtualization-vs-containerization)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cloudnativeislamabad.hashnode.dev: Virtualization vs Containerization in the Kubernetes Tools ecosystem.
+  - [medium.com/javarevisited: Distributed Transaction Management in Microservices' — Part 1 🌟](https://medium.com/javarevisited/distributed-transaction-management-in-microservices-part-1-bb7dc1fbee9f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/javarevisited: Distributed Transaction Management in Microservices' — Part 1 🌟 in the Kubernetes Tools ecosystem.
+  - [betterprogramming.pub: How to Transform a Monolith Application Into a' Microservices Architecture](https://betterprogramming.pub/how-to-transform-a-monolith-application-into-a-microservices-architecture-1e00363a03ba)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==betterprogramming.pub: How to Transform a Monolith Application Into a' Microservices Architecture== in the Kubernetes Tools ecosystem.
+  - [medium.com/codex: MicroServices Architecture to Solve Distributed Transaction' Management Problem](https://medium.com/codex/solving-distributed-transaction-management-problem-in-microservices-architecture-586ab3087efe)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/codex: MicroServices Architecture to Solve Distributed Transaction' Management Problem in the Kubernetes Tools ecosystem.
+  - [betterprogramming.pub: How I Split a Monolith Into Microservices Without' Refactoring 🌟🌟🌟](https://betterprogramming.pub/how-i-split-a-monolith-into-microservices-without-refactoring-5d76924c34c2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==betterprogramming.pub: How I Split a Monolith Into Microservices Without' Refactoring== 🌟🌟🌟 in the Kubernetes Tools ecosystem.
+  - [ust.com: Do we really need Kubernetes and containers?](https://www.ust.com/en/insights/do-we-really-need-kubernetes-and-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ust.com: Do we really need Kubernetes and containers? in the Kubernetes Tools ecosystem.
+  - [levelup.gitconnected.com: Do you know Distributed Job Scheduling in Microservices' Architecture? 🌟](https://levelup.gitconnected.com/do-you-know-distributed-job-scheduling-in-microservices-architecture-44082adad8ac)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering levelup.gitconnected.com: Do you know Distributed Job Scheduling in Microservices' Architecture? 🌟 in the Kubernetes Tools ecosystem.
+  - [medium.com/javarevisited: Microservices Communication part 1-every programmer' must know 🌟](https://medium.com/javarevisited/microservices-communication-part-1-every-programmer-must-know-7c6607d2d563)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==medium.com/javarevisited: Microservices Communication part 1-every programmer' must know== 🌟 in the Kubernetes Tools ecosystem.
+  - [medium.com/javarevisited: Microservices Communication — part 2— Sync vs' Async vs Hybrid?](https://medium.com/javarevisited/microservices-communication-part-2-sync-vs-async-vs-hybrid-23d057e137d8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/javarevisited: Microservices Communication — part 2— Sync vs' Async vs Hybrid? in the Kubernetes Tools ecosystem.
+  - [medium.com/javarevisited: Why Microservices are not silver bullet? 10 Reasons' for NOT using Microservices](https://medium.com/javarevisited/why-microservices-are-not-silver-bullet-10-reasons-for-not-using-microservices-74f7c0fa98c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/javarevisited: Why Microservices are not silver bullet? 10 Reasons' for NOT using Microservices in the Kubernetes Tools ecosystem.
+  - [rahulh123.medium.com: Choosing the Right Architecture: Monolithic vs. Microservices' — Analyzing Requirements for Success](https://rahulh123.medium.com/choosing-the-right-architecture-monolithic-vs-microservices-analyzing-requirements-for-success-70d681f6a1d0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering rahulh123.medium.com: Choosing the Right Architecture: Monolithic vs. Microservices' — Analyzing Requirements for Success in the Kubernetes Tools ecosystem.
+  - [waswani.medium.com: Microservices Communication: Data Sharing using Database,' an AntiPattern !!!](https://waswani.medium.com/microservices-data-sharing-using-database-an-antipattern-35e0196ee2ad)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering waswani.medium.com: Microservices Communication: Data Sharing using Database,' an AntiPattern !!! in the Kubernetes Tools ecosystem.
+  - [medium.com/@bill.salvaggio: The AWS Cloud Resume Challenge Project](https://medium.com/@bill.salvaggio/the-aws-cloud-resume-challenge-project-c5c0c6fe9593)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==medium.com/@bill.salvaggio: The AWS Cloud Resume Challenge Project== in the Kubernetes Tools ecosystem.
+  - [blog.lealdasilva.com: Why You Should Switch from VMware to Proxmox in 2024](https://blog.lealdasilva.com/vmware2proxmox)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.lealdasilva.com: Why You Should Switch from VMware to Proxmox in 2024 in the Kubernetes Tools ecosystem.
+  - [towardsdev.com: Solution architecture 101 — Are you ready for the Solution' Architect Path 🌟](https://towardsdev.com/solution-architecture-101-are-you-ready-for-the-solution-architect-path-5a2d01aebbb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==towardsdev.com: Solution architecture 101 — Are you ready for the Solution' Architect Path== 🌟 in the Kubernetes Tools ecosystem.
+  - [mkaschke.medium.com: ud Native Part 1: What Is Cloud Native? 🌟](https://mkaschke.medium.com/cloud-native-part-1-what-is-cloud-native-40640f128834)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==mkaschke.medium.com: ud Native Part 1: What Is Cloud Native?== 🌟 in the Kubernetes Tools ecosystem.
+  - [medium.com/promyze: Avoid accidental complexity and technical debt](https://medium.com/promyze/avoid-accidental-complexity-and-technical-debt-2dc2cdf4dd4b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/promyze: Avoid accidental complexity and technical debt in the Kubernetes Tools ecosystem.
+  - [maheshwari-bittu.medium.com: Why Event-Driven Architecture (EDA) is needed?' 🌟](https://maheshwari-bittu.medium.com/why-event-driven-architecture-eda-is-needed-fac2f00f25a8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering maheshwari-bittu.medium.com: Why Event-Driven Architecture (EDA) is needed?' 🌟 in the Kubernetes Tools ecosystem.
+  - [medium.com/rocco-scaramuzzi-tech: Event-Driven Microservice Architecture,' don’t use only events but use commands too!](https://medium.com/rocco-scaramuzzi-tech/event-driven-microservice-architecture-dont-use-only-events-but-use-commands-too-b8694d370436)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/rocco-scaramuzzi-tech: Event-Driven Microservice Architecture,' don’t use only events but use commands too! in the Kubernetes Tools ecosystem.
+  - [deeptimittalblogger.medium.com: Event driven architecture](https://deeptimittalblogger.medium.com/event-driven-architecture-111f504a8cbc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering deeptimittalblogger.medium.com: Event driven architecture in the Kubernetes Tools ecosystem.
+  - [medium.com/mcdonalds-technical-blog: Behind the scenes: McDonald’s event-driven' architecture](https://medium.com/mcdonalds-technical-blog/behind-the-scenes-mcdonalds-event-driven-architecture-51a6542c0d86)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/mcdonalds-technical-blog: Behind the scenes: McDonald’s event-driven' architecture in the Kubernetes Tools ecosystem.
+  - [medium.com/mcdonalds-technical-blog: McDonald’s event-driven architecture:' The data journey and how it works](https://medium.com/mcdonalds-technical-blog/mcdonalds-event-driven-architecture-the-data-journey-and-how-it-works-4591d108821f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/mcdonalds-technical-blog: McDonald’s event-driven architecture:' The data journey and how it works in the Kubernetes Tools ecosystem.
+  - [levelup.gitconnected.com: Error Handling in Event-Driven Systems](https://levelup.gitconnected.com/error-handling-in-event-driven-systems-1f0a7ef2cfb7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering levelup.gitconnected.com: Error Handling in Event-Driven Systems in the Kubernetes Tools ecosystem.
+  - [faun.pub: Understanding the Differences Between Event-Driven, Message-Driven,' and Microservices Architectures with AWS Services](https://faun.pub/what-is-difference-of-event-driven-architecture-message-driven-architecture-and-microservices-f5623e51f868)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering faun.pub: Understanding the Differences Between Event-Driven, Message-Driven,' and Microservices Architectures with AWS Services in the Kubernetes Tools ecosystem.
+  - [levelup.gitconnected.com: 5 Tips To Design For Multi-Tenancy Architecture](https://levelup.gitconnected.com/5-tips-to-design-for-multi-tenancy-architecture-5f7d55657d77)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering levelup.gitconnected.com: 5 Tips To Design For Multi-Tenancy Architecture in the Kubernetes Tools ecosystem.
+  - [levelup.gitconnected.com: Multi-Tenant Application](https://levelup.gitconnected.com/multi-tenant-application-a29153d31c5a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering levelup.gitconnected.com: Multi-Tenant Application in the Kubernetes Tools ecosystem.
   - [dzone.com: Shift-Left: A Developer's Pipe(line) Dream?](https://dzone.com/articles/shift-left-a-developers-pipeline-dream)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==dzone.com: Shift-Left: A Developer's Pipe(line) Dream?== in the Kubernetes Tools ecosystem.
+  - [medium: Multi Cloud Enterprise Deployment Pattern](https://medium.com/solutions-architecture-patterns/multi-cloud-enterprise-deployment-pattern-19571604e64b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Multi Cloud Enterprise Deployment Pattern in the Kubernetes Tools ecosystem.
   - [Automation is the future of cloud cost optimization](https://www.cncf.io/blog/2021/09/29/automation-is-the-future-of-cloud-cost-optimization)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Automation is the future of cloud cost optimization in the Kubernetes Tools ecosystem.
   - [dzone: 7 Microservices Best Practices for Developers 🌟](https://dzone.com/articles/7-microservices-best-practices-for-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: 7 Microservices Best Practices for Developers 🌟 in the Kubernetes Tools ecosystem.
+  - [blog.couchbase.com: 4 Patterns for Microservices Architecture in Couchbase](https://blog.couchbase.com/microservices-architecture-in-couchbase)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.couchbase.com: 4 Patterns for Microservices Architecture in Couchbase in the Kubernetes Tools ecosystem.
+  - [medium: Pragmatic Microservices 🌟](https://medium.com/microservices-in-practice/microservices-in-practice-7a3e85b6624c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Pragmatic Microservices 🌟 in the Kubernetes Tools ecosystem.
+  - [medium.com/@sandeepsharmaster: Design your Cloud Microservices Apps the' DDD way (Hexagonal Architecture)](https://medium.com/@sandeepsharmaster/modernize-your-cloud-microservices-apps-hexagonal-architecture-769696494c0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@sandeepsharmaster: Design your Cloud Microservices Apps the' DDD way (Hexagonal Architecture) in the Kubernetes Tools ecosystem.
+  - [medium.com/@denhox: Sharing Data Between Microservices](https://medium.com/@denhox/sharing-data-between-microservices-fe7fb9471208)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@denhox: Sharing Data Between Microservices in the Kubernetes Tools ecosystem.
+  - [medium.com/@maneesha649nirman: Design Patterns For Microservices](https://medium.com/@maneesha649nirman/design-patterns-for-microservices-30bed0d215f5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@maneesha649nirman: Design Patterns For Microservices in the Kubernetes Tools ecosystem.
+  - [medium.com/@vinciabhinav7: Microservices Communication Architecture Patterns' 🌟](https://medium.com/@vinciabhinav7/microservices-communication-architecture-patterns-a8e77e614c2c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==medium.com/@vinciabhinav7: Microservices Communication Architecture Patterns==' 🌟 in the Kubernetes Tools ecosystem.
+  - [medium.com/javarevisited: Top 10 Microservices Design Principles and Best' Practices for Experienced Developers 🌟](https://medium.com/javarevisited/10-microservices-design-principles-every-developer-should-know-44f2f69e960f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==medium.com/javarevisited: Top 10 Microservices Design Principles and Best' Practices for Experienced Developers== 🌟 in the Kubernetes Tools ecosystem.
+  - [medium.com/@mbarkin.narin: Problem Solving Strategies for Microservice Architecture' Part III](https://medium.com/@mbarkin.narin/problem-solving-strategies-for-microservice-architecture-part-iii-c15830151890)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@mbarkin.narin: Problem Solving Strategies for Microservice Architecture' Part III in the Kubernetes Tools ecosystem.
+  - [developer.com: Overcoming the Common Microservices Anti-Patterns](https://www.developer.com/design/solving-microservices-anti-patterns)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering developer.com: Overcoming the Common Microservices Anti-Patterns in the Kubernetes Tools ecosystem.
   - [dzone: Micro Frontends With Example 🌟](https://dzone.com/articles/micro-frontends-by-example-8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Micro Frontends With Example 🌟 in the Kubernetes Tools ecosystem.
+  - [levelup.gitconnected.com: Micro Frontend Architecture](https://levelup.gitconnected.com/micro-frontend-architecture-794442e9b325)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering levelup.gitconnected.com: Micro Frontend Architecture in the Kubernetes Tools ecosystem.
   - [dzone: Micro-Frontend Architecture](https://dzone.com/articles/micro-frontend-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==dzone: Micro-Frontend Architecture== in the Kubernetes Tools ecosystem.
+  - [medium.com/whispering-data: The State of Data Engineering 2022](https://medium.com/whispering-data/the-state-of-data-engineering-2022-d6ef0f7cf607)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==medium.com/whispering-data: The State of Data Engineering 2022== in the Kubernetes Tools ecosystem.
+  - [joereis.substack.com: Data Engineering in 2024. What I'm Seeing](https://joereis.substack.com/p/data-engineering-in-2024-what-im)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering joereis.substack.com: Data Engineering in 2024. What I'm Seeing in the Kubernetes Tools ecosystem.
+  - [betterprogramming.pub: A Cloud Migration Questionnaire for Solution Architects' 🌟🌟](https://betterprogramming.pub/a-cloud-migration-questionnaire-for-solution-architects-dec7ffcf063e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering betterprogramming.pub: A Cloud Migration Questionnaire for Solution Architects' 🌟🌟 in the Kubernetes Tools ecosystem.
+  - [What is Platform as a Service Software?](https://www.trustradius.com/platform-as-a-service-paas)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering What is Platform as a Service Software? in the Kubernetes Tools ecosystem.
+  - [ramansharma.substack.com: Containers are not just for Kubernetes](https://ramansharma.substack.com/p/containers-are-not-just-for-kubernetes-fa330653cbbd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==ramansharma.substack.com: Containers are not just for Kubernetes== in the Kubernetes Tools ecosystem.
+  - [wikipedia: Java Enterprise Edition (Java EE)](https://en.wikipedia.org/wiki/Java_Platform,_Enterprise_Edition)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering wikipedia: Java Enterprise Edition (Java EE) in the Kubernetes Tools ecosystem.
   - [dzone: Monolith to Microservices Using the Strangler Pattern 🌟](https://dzone.com/articles/monolith-to-microservices-using-the-strangler-patt)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Monolith to Microservices Using the Strangler Pattern 🌟 in the Kubernetes Tools ecosystem.
   - [Dzone.com: 4 Cluster Management Tools to Compare](https://dzone.com/articles/4-cluster-management-tools-to-compare)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone.com: 4 Cluster Management Tools to Compare in the Kubernetes Tools ecosystem.
   - [Dzone.com: A Comparison of Kubernetes Distributions](https://dzone.com/articles/kubernetes-distributions-how-do-i-choose-one)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone.com: A Comparison of Kubernetes Distributions in the Kubernetes Tools ecosystem.
+  - [medium.com: The Differences Between Kubernetes and Openshift](https://medium.com/levvel-consulting/the-differences-between-kubernetes-and-openshift-ae778059a90e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com: The Differences Between Kubernetes and Openshift in the Kubernetes Tools ecosystem.
+  - [blog.netsil.com: Kubernetes vs Openshift vs Tectonic: Comparing Enterprise' Options](https://blog.netsil.com/kubernetes-vs-openshift-vs-tectonic-comparing-enterprise-options-e3a34dc60519)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.netsil.com: Kubernetes vs Openshift vs Tectonic: Comparing Enterprise' Options in the Kubernetes Tools ecosystem.
+  - [kubedex.com: Kubernetes On-Prem, OpenShift vs PKS vs Rancher](https://kubedex.com/redhat-openshift-vs-pivotal-pks-vs-rancher)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering kubedex.com: Kubernetes On-Prem, OpenShift vs PKS vs Rancher in the Kubernetes Tools ecosystem.
+  - [medium.com: Kubernetes — What Is It, What Problems Does It Solve and How' Does It Compare With Alternatives?](https://medium.com/@srikanth.k/kubernetes-what-is-it-what-problems-does-it-solve-how-does-it-compare-with-its-alternatives-937fe80b754f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com: Kubernetes — What Is It, What Problems Does It Solve and How' Does It Compare With Alternatives? in the Kubernetes Tools ecosystem.
+  - [levelup.gitconnected.com: OpenShift — The Next Level of Kubernetes](https://levelup.gitconnected.com/openshift-the-next-level-of-kubernetes-6d58ad722b26)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering levelup.gitconnected.com: OpenShift — The Next Level of Kubernetes in the Kubernetes Tools ecosystem.
   - [dzone: 7 Software Development Models You Should Know](https://dzone.com/articles/7-software-development-models-you-should-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: 7 Software Development Models You Should Know in the Kubernetes Tools ecosystem.
   - [dzone: The Concept of Domain-Driven Design Explained](https://dzone.com/articles/the-concept-of-domain-driven-design-explained)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==dzone: The Concept of Domain-Driven Design Explained== in the Kubernetes Tools ecosystem.
+  - [medium.com/codex: DDD — Events Are Complex](https://medium.com/codex/ddd-events-are-complex-db4b1fb57817)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/codex: DDD — Events Are Complex in the Kubernetes Tools ecosystem.
 ## Methodology (1)
 
 ### Careers
@@ -822,7 +881,7 @@ graph TD
 
   - **(2023)** [n-ix.com: How to reduce your technical debt: An ultimate guide](https://www.n-ix.com/reduce-technical-debt) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A holistic architectural playbook for diagnosing, budgeting, and paying down complex software debt. Proposes systematic approaches like code reviews, architectural documentation, and legacy modernization patterns.
   - **(2023)** [infoworld.com: You can’t run away from technical debt](https://www.infoworld.com/article/2338860/you-cant-run-away-from-technical-debt.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses the inevitability of technical debt as cloud environments and architectures naturally age. Argues that cloud adoption does not eliminate debt but merely shifts it to configuration, infrastructure, and IaC domains.
-## Microservices (6)
+## Microservices (5)
 
 ### Anti-Patterns (1)
 
@@ -837,7 +896,7 @@ graph TD
 #### Event-Driven Architecture
 
   - **(2016)** [infoq.com: Turning Microservices Inside-Out](https://www.infoq.com/articles/microservices-inside-out) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This piece outlines Martin Kleppmann's paradigm of 'turning the database inside-out'. It advocates for treating state logs as a first-class citizen, enabling downstream services to process and construct specialized read-optimized views.
-### Design Patterns (4)
+### Design Patterns (3)
 
 #### Best Practices (2)
 
@@ -991,7 +1050,7 @@ graph TD
 #### Dependency Isolation
 
   - **(2022)** [itnext.io: Isolating and Managing Dependencies in 12-factor Microservice Applications — with Kubernetes](https://itnext.io/isolating-and-managing-dependencies-in-12-factor-microservice-applications-with-kubernetes-988638f8bc6d) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses specifically on Factor II (Dependencies). Demonstrates isolating system dependencies using container images, multi-stage Dockerfiles, and initContainers to orchestrate external DB readiness checks before app startup.
-#### Microservices (7)
+#### Microservices (6)
 
   - **(2022)** [itnext.io: 12 factor Microservice applications — on Kubernetes](https://itnext.io/12-factor-microservice-applications-on-kubernetes-db913008b018) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive into implementing the complete 12-Factor framework within Kubernetes. Highlights strict environmental isolation, declarative deployment processes, and scaling microservices with pod replicas.
 #### Paradigms (1)
@@ -1010,15 +1069,6 @@ graph TD
 
   - **(2024)** [thenewstack.io: Kubernetes Evolution: From Microservices to Batch Processing Powerhouse 🌟🌟](https://thenewstack.io/kubernetes-evolution-from-microservices-to-batch-processing-powerhouse) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores Kubernetes' evolution from a simple microservices hosting platform to an advanced orchestrator for heavy batch processing, AI/ML training runs, and high-performance computing (HPC) jobs.
 ## Platform Engineering (3)
-
-### Internal Developer Platforms
-
-#### Organizational Structure (1)
-
-??? note "softwareengineeringdaily.com: The Rise of Platform Engineering 🌟"
-    **[Access Resource](https://softwareengineeringdaily.com/2020/02/13/setting-the-stage-for-platform-engineering)** 🌟🌟🌟🌟🌟 | Level: Advanced
-    
-    Historically significant piece tracking the evolution from traditional DevOps silos to Platform Engineering. Discusses building Internal Developer Platforms (IDPs) to lower cognitive load for application developers, establishing self-service infrastructure portals, and applying product management principles to internal tooling.
 
 ### PaaS Solutions
 
@@ -1096,7 +1146,7 @@ graph TD
     
     Evaluates the shifting architectural landscape towards event-driven API patterns. Discusses protocols and specifications like WebSockets, Server-Sent Events, and AsyncAPI, analyzing how they enable real-time asynchronous streaming and responsive microservice architectures.
 
-### Microservices (8)
+### Microservices (7)
 
 #### Decomposition Patterns
 
@@ -1120,7 +1170,7 @@ graph TD
     
     Provides an enterprise architectural path for decomposing traditional monoliths into distributed services. It focuses on identifying bounded contexts, managing cross-service communication via asynchronous events, and restructuring development teams around microservices boundaries.
 
-#### Design Patterns (5)
+#### Design Patterns (4)
 
 ??? note "infoq.com: Principles for Microservice Design: Think IDEALS, Rather than SOLID"
     **[Access Resource](https://www.infoq.com/articles/microservices-design-ideals)** 🌟🌟🌟🌟🌟 | Level: Advanced
@@ -1180,7 +1230,7 @@ graph TD
 
 ### Architecture Patterns (2)
 
-#### Microservices (9)
+#### Microservices (8)
 
   - **(2024)** [dynatrace.com: What are microservices? All you need to know](https://www.dynatrace.com/knowledge-base/microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-level architectural overview exploring the decoupling of corporate monoliths into agile microservices. Discusses structural changes, challenges in service discovery, and the crucial role of tracing telemetry for maintaining state consistency.
 ### Education (1)
@@ -1227,5 +1277,5 @@ graph TD
   - **(2022)** [ubiqum.com: 20 Software Development Tools that will make you more productive](https://ubiqum.com/blog/20-software-development-tools-that-will-make-you-more-productive)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curated technical list analyzing software development tools engineered to enhance engineering velocity. Explores IDE extensions, local container utilities, source control clients, and task automators critical for scaling developer operations.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [About](./about.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
 

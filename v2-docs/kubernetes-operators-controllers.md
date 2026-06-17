@@ -32,8 +32,50 @@
 
 #### General Reference
 
+  - [kruschecompany.com: Prometheus Operator – Installing Prometheus Monitoring Within The Kubernetes Environment](https://kruschecompany.com/page-not-found)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering kruschecompany.com in the Kubernetes Tools ecosystem.
+  - [hashicorp.com: Creating Workspaces with the HashiCorp Terraform Operator' for Kubernetes](https://www.hashicorp.com/blog/creating-workspaces-with-the-hashicorp-terraform-operator-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering hashicorp.com: Creating Workspaces with the HashiCorp Terraform Operator' for Kubernetes in the Kubernetes Tools ecosystem.
+  - [banzaicloud.com: Kafka rolling upgrade made easy with Supertubes](https://banzaicloud.com/blog/kafka-rolling-upgrade)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering banzaicloud.com: Kafka rolling upgrade made easy with Supertubes in the Kubernetes Tools ecosystem.
   - [cncf.io: Kubernetes Operators 101](https://www.cncf.io/blog/2020/10/02/kubernetes-operators-101)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Kubernetes Operators 101 in the Kubernetes Tools ecosystem.
   - [cncf.io: CNCF Operator White Paper (PDF) 🌟](https://www.cncf.io/wp-content/uploads/2021/07/CNCF_Operator_WhitePaper.pdf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: CNCF Operator White Paper (PDF) 🌟 in the Kubernetes Tools ecosystem.
+  - [levelup.gitconnected.com: Operators : Extending Kubernetes Capabilities](https://levelup.gitconnected.com/operators-extending-kubernetes-capabilities-184df001b7e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==levelup.gitconnected.com: Operators : Extending Kubernetes Capabilities== in the Kubernetes Tools ecosystem.
+  - [medium.com/@samng1991216: Building Kubernetes Operator Application from' Scratch (Part 1)](https://medium.com/@samng1991216/building-kubernetes-operator-application-from-scratch-part-1-211b6b2467df)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@samng1991216: Building Kubernetes Operator Application from' Scratch (Part 1) in the Kubernetes Tools ecosystem.
+  - [medium.com/@mjkool: Kubernetes Operator — Simplified!](https://medium.com/@mjkool/kubernetes-operator-simplified-96b8c8f7e627)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@mjkool: Kubernetes Operator — Simplified! in the Kubernetes Tools ecosystem.
+  - [medium.com/@timebertt: Kubernetes Controllers at Scale: Clients, Caches,' Conflicts, Patches Explained](https://medium.com/@timebertt/kubernetes-controllers-at-scale-clients-caches-conflicts-patches-explained-aa0f7a8b4332)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@timebertt: Kubernetes Controllers at Scale: Clients, Caches,' Conflicts, Patches Explained in the Kubernetes Tools ecosystem.
+  - [alenkacz.medium.com: Kubernetes operator best practices: Implementing observedGeneration](https://alenkacz.medium.com/kubernetes-operator-best-practices-implementing-observedgeneration-250728868792)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering alenkacz.medium.com: Kubernetes operator best practices: Implementing observedGeneration in the Kubernetes Tools ecosystem.
+  - [betterprogramming.pub: Build a Kubernetes Operator in 10 Minutes 🌟](https://betterprogramming.pub/build-a-kubernetes-operator-in-10-minutes-11eec1492d30)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering betterprogramming.pub: Build a Kubernetes Operator in 10 Minutes 🌟 in the Kubernetes Tools ecosystem.
+  - [alain-airom.medium.com: Kubernetes Operators Patterns and Best Practices' 🌟](https://alain-airom.medium.com/kubernetes-operators-patterns-and-best-practices-b7fbaa4cbd1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering alain-airom.medium.com: Kubernetes Operators Patterns and Best Practices' 🌟 in the Kubernetes Tools ecosystem.
+  - [awstip.com: Manage AWS services directly from Kubernetes - AWS Controllers' for Kubernetes (ACK)](https://awstip.com/manage-aws-services-directly-from-kubernetes-%EF%B8%8F-6c94e376febb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering awstip.com: Manage AWS services directly from Kubernetes - AWS Controllers' for Kubernetes (ACK) in the Kubernetes Tools ecosystem.
+  - [medium.com/@marom.itamar: Kubernetes Controllers, Custom Resources, and' Operators Explained](https://medium.com/@marom.itamar/kubernetes-controllers-custom-resources-and-operators-explained-8e92f46829f6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@marom.itamar: Kubernetes Controllers, Custom Resources, and' Operators Explained in the Kubernetes Tools ecosystem.
+  - [faun.pub: A Definitive guide to Kubernetes Operator — The crawl!](https://faun.pub/a-definitive-guide-to-kubernetes-operator-the-crawl-7647b278c28b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==faun.pub: A Definitive guide to Kubernetes Operator — The crawl!== in the Kubernetes Tools ecosystem.
+  - [paul-the-kelly.medium.com: Extending the Kubernetes API using Operators](https://paul-the-kelly.medium.com/extending-the-kubernetes-api-using-operators-9ffc8364ae5c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering paul-the-kelly.medium.com: Extending the Kubernetes API using Operators in the Kubernetes Tools ecosystem.
+  - [faun.pub: Kubernetes Controllers, Custom Resources, and Operators Explained](https://faun.pub/kubernetes-controllers-custom-resources-and-operators-explained-8e92f46829f6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==faun.pub: Kubernetes Controllers, Custom Resources, and Operators Explained== in the Kubernetes Tools ecosystem.
+  - [medium.com/sda-se: Kubernetes Operator to the rescue. How our own MongoDB' Operator improved our deployments](https://medium.com/sda-se/kubernetes-operator-to-the-rescue-how-our-own-mongodb-operator-improved-our-deployments-6d5ba3324abc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/sda-se: Kubernetes Operator to the rescue. How our own MongoDB' Operator improved our deployments in the Kubernetes Tools ecosystem.
+  - [betterprogramming.pub: How To Use Server-Side Apply in K8S Operators](https://betterprogramming.pub/how-to-use-server-side-apply-in-k8s-operators-5cbff023183c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering betterprogramming.pub: How To Use Server-Side Apply in K8S Operators in the Kubernetes Tools ecosystem.
+  - [betterprogramming.pub: Goldilocks vs. KRR](https://betterprogramming.pub/goldilocks-vs-krr-c986dfd7484d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering betterprogramming.pub: Goldilocks vs. KRR in the Kubernetes Tools ecosystem.
+  - [medium.com/lonto-digital-services-integrator: Why We Developed Own Kubernetes' Controller to Copy Secrets](https://medium.com/lonto-digital-services-integrator/why-we-developed-own-kubernetes-controller-to-copy-secrets-e46368ae6db9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/lonto-digital-services-integrator: Why We Developed Own Kubernetes' Controller to Copy Secrets in the Kubernetes Tools ecosystem.
+  - [medium.com/@senjutide2000: Designing a Controller for Custom Resources from' scratch for absolute beginners](https://medium.com/@senjutide2000/designing-a-controller-for-custom-resources-from-scratch-for-absolute-beginners-9cb84b7f906f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@senjutide2000: Designing a Controller for Custom Resources from' scratch for absolute beginners in the Kubernetes Tools ecosystem.
+  - [medium.com/@mikakrief: Using Azure Service Operator v2](https://medium.com/@mikakrief/using-azure-service-operator-v2-4a1fa1f5e3b8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@mikakrief: Using Azure Service Operator v2 in the Kubernetes Tools ecosystem.
+  - [dragondscv.medium.com: Controller runtime — handle resource deletion with' predicate](https://dragondscv.medium.com/controller-runtime-handle-resource-deletion-with-predicate-f69d09dd5802)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dragondscv.medium.com: Controller runtime — handle resource deletion with' predicate in the Kubernetes Tools ecosystem.
+  - [medium.com/@magstherdev: OpenTelemetry Operator](https://medium.com/@magstherdev/opentelemetry-operator-d3d407354cbf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@magstherdev: OpenTelemetry Operator in the Kubernetes Tools ecosystem.
+  - [medium.com/@adnn.selimovic: Creating Kubernetes operator using **Kubebuilder**](https://medium.com/@adnn.selimovic/creating-kubernetes-operator-using-kubebuilder-15db5f29ee50)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@adnn.selimovic: Creating Kubernetes operator using **Kubebuilder** in the Kubernetes Tools ecosystem.
+  - [medium.com/geekculture: A New Pattern that Simplifies Operator Building](https://medium.com/geekculture/a-new-pattern-that-simplifies-operator-building-39df5d021cfa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/geekculture: A New Pattern that Simplifies Operator Building in the Kubernetes Tools ecosystem.
+  - [qdnqn.com: Creating Kubernetes operator using Kubebuilder](https://qdnqn.com/creating-kubernetes-operator-using-kubebuilder)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering qdnqn.com: Creating Kubernetes operator using Kubebuilder in the Kubernetes Tools ecosystem.
+  - [magalix.com: Creating Custom Kubernetes Operators](https://www.magalix.com/blog/creating-custom-kubernetes-operators)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering magalix.com: Creating Custom Kubernetes Operators in the Kubernetes Tools ecosystem.
+  - [medium.com: Writing Your First Kubernetes Operator](https://medium.com/faun/writing-your-first-kubernetes-operator-8f3df4453234)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com: Writing Your First Kubernetes Operator in the Kubernetes Tools ecosystem.
+  - [medium: From Zero to Kubernetes Operator](https://medium.com/@victorpaulo/from-zero-to-kubernetes-operator-dd06436b9d89)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: From Zero to Kubernetes Operator in the Kubernetes Tools ecosystem.
+  - [cloudark.medium.com: Writing Kubernetes Custom Controllers](https://cloudark.medium.com/kubernetes-custom-controllers-b6c7d0668fdf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cloudark.medium.com: Writing Kubernetes Custom Controllers in the Kubernetes Tools ecosystem.
+  - [medium: Kubernetes Dummy Operator in Java](https://medium.com/xgeeks/kubernetes-dummy-operator-in-java-6b2f26198a55)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Kubernetes Dummy Operator in Java in the Kubernetes Tools ecosystem.
+  - [betterprogramming.pub: Build a Highly Available Kubernetes Operator Using' Golang](https://betterprogramming.pub/building-a-highly-available-kubernetes-operator-using-golang-fe4a44c395c2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering betterprogramming.pub: Build a Highly Available Kubernetes Operator Using' Golang in the Kubernetes Tools ecosystem.
+  - [betterprogramming.pub: Writing Custom Kubernetes Controller and Webhooks](https://betterprogramming.pub/writing-custom-kubernetes-controller-and-webhooks-141230820e9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering betterprogramming.pub: Writing Custom Kubernetes Controller and Webhooks in the Kubernetes Tools ecosystem.
+  - [betterprogramming.pub: How To Write Tests for Your Kubernetes Operator](https://betterprogramming.pub/write-tests-for-your-kubernetes-operator-d3d6a9530840)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering betterprogramming.pub: How To Write Tests for Your Kubernetes Operator in the Kubernetes Tools ecosystem.
+  - [KUDO: The Kubernetes Universal Declarative Operator 🌟](https://kudo.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering KUDO: The Kubernetes Universal Declarative Operator 🌟 in the Kubernetes Tools ecosystem.
+## Architecture
+
+### Kubernetes Operators
+
+#### Java Quarkus
+
+  - **(2026)** [developers.redhat.com: Writing a Kubernetes Operator in Java using Quarkus - **Cheat Sheet** 🌟](https://developers.redhat.com/cheat-sheets/writing-kubernetes-operator-java) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced developer reference for implementing custom Kubernetes Operators in Java using Quarkus. Curator Insight highlights Quarkus' small memory footprint. Live Grounding shows a significant surge in Java Operator SDK adoption for enterprise platforms.
 ## CICD Pipeline
 
 ### Kubernetes and Containers
@@ -41,6 +83,13 @@
 #### Self-Hosted Infrastructure
 
   - **(2020)** [==github.com/actions/actions-runner-controller 🌟==](https://github.com/actions/actions-runner-controller) <span class='md-tag md-tag--info'>⭐ 6298</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official Kubernetes operator designed to manage self-hosted GitHub Actions runner infrastructure dynamically. Integrates natively with Horizontal Pod Autoscaler (HPA) targets to scale runner deployments in response to webhook event metrics.
+## Cloud Infrastructure
+
+### Kubernetes and Operators
+
+#### Platform Engineering
+
+  - **(2026)** [How Kubernetes Operators Fit into Platform Building and When Traditional IaC Isn't Enough](https://www.thestack.technology/how-kubernetes-operators-fit-into-to-platform-building-and-when-traditional-iac-isnt-enough) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares traditional static IaC runtimes against active reconciliation patterns in Kubernetes Operators. Highlights instances where platform engineering teams require continuously running controller loops to prevent configuration drifts.
 ## Cloud Native Infrastructure
 
 ### Kubernetes Extension
@@ -75,6 +124,13 @@
 #### Tool Comparison
 
   - **(2021)** [openshift.com: Build Your Kubernetes Operator With the Right Tool 🌟](https://www.redhat.com/en/blog/build-your-kubernetes-operator-with-the-right-tool)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative guide highlighting the tradeoffs between different operator developer tools like Helm, Ansible, and Go. It establishes a maturity model to help teams choose tools based on their application's lifecycle complexity. Essential reference for migration strategies from simple manifest templates to active state-reconciliation loops.
+## Data and AI
+
+### Batch Scheduling
+
+#### Kueue
+
+  - **(2024)** [**Red Hat Build of Kueue**](https://docs.redhat.com/en/documentation/openshift_container_platform/4.21/html/ai_workloads/red-hat-build-of-kueue#about-kueue) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Focuses on Red Hat's enterprise integration of Kueue, a Kubernetes-native job queueing system designed to manage resource quotas, tenant isolation, and fair-share scheduling for high-performance AI/ML and batch workloads. Live Grounding confirms Kueue is crucial in 2026 for orchestrating GPU and CPU cluster resource allocation dynamically across large-scale enterprise clusters.
 ## Data and Databases
 
 ### Lifecycle Management
@@ -145,11 +201,6 @@
 #### Enterprise Patterns
 
   - **(2024)** [cloud.redhat.com: Red Hat Container Community of Practice Operators](https://www.redhat.com/en/blog/red-hat-container-community-of-practice-operators) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference of operations practices created by Red Hat's Container Community of Practice. Discusses deployment methods, multi-tenant isolation operators, and configuration frameworks built to manage complex setups.
-### Registries and Catalogs
-
-#### Operator Discovery
-
-  - **(2026)** [operatorhub.io](https://operatorhub.io) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — OperatorHub is the central ecosystem registry showcasing community and enterprise Operators. It functions as an indexing catalog that standardizes installation formats, promoting packaging standards aligned with the Operator Lifecycle Manager (OLM) format.
 ## FinOps and Autoscaling
 
 ### Green Ops
@@ -178,67 +229,79 @@
   - **(2024)** [==Bare Metal Operator==](https://github.com/metal3-io/baremetal-operator) <span class='md-tag md-tag--info'>⭐ 745</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A Metal3 driver integration designed to inspect, provision, and maintain bare-metal servers using standard Kubernetes resources. It bridges Kubernetes management layers directly to physical infrastructure provisioning.
 ### Cluster Management
 
-#### Node Provisioning
+#### Node Upgrades
 
 ##### Operators (5)
 
-  - **(2024)** [==openshift/machine-api-operator==](https://github.com/openshift/machine-api-operator) <span class='md-tag md-tag--info'>⭐ 186</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A foundational OpenShift subsystem that manages machines as standard resources. It dynamically scales cloud infrastructure nodes up or down according to compute demands.
-#### Node Upgrades
-
-##### Operators (6)
-
   - **(2024)** [==rancher/system-upgrade-controller: System Upgrade Controller==](https://github.com/rancher/system-upgrade-controller) <span class='md-tag md-tag--info'>⭐ 952</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Orchestrates OS-level and Kubernetes runtime updates across node pools. It structures a sequential drain, upgrade, and uncordon pipeline to maintain continuous service availability.
+### Container Orchestration
+
+#### Kubernetes Operators (1)
+
+  - **(2023)** [itnext.io: Operator Lifecycle Manager](https://itnext.io/wth-is-a-operator-lifecycle-manager-873cf1661b04) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains Operator Lifecycle Manager (OLM) as part of the Operator Framework. Highlights catalog management, automated dependency resolution, security upgrades, and dynamic operator scaling across production enterprise clusters.
 ### Control Plane
 
 #### etcd Coordination
 
-##### Operators (7)
+##### Operators (6)
 
   - **(2022)** [==Quentin-M/etcd-cloud-operator==](https://github.com/Quentin-M/etcd-cloud-operator) <span class='md-tag md-tag--info'>⭐ 234</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An early framework designed to coordinate etcd state engines in dynamic environments. Modern production setups have moved towards official cloud-provider tooling or alternative operators.
 ### Data Management (1)
 
 #### Apache Flink
 
-##### Operators (8)
+##### Operators (7)
 
   - **(2024)** [==spotify/flink-on-k8s-operator: Kubernetes Operator for Apache Flink==](https://github.com/spotify/flink-on-k8s-operator) <span class='md-tag md-tag--info'>⭐ 225</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Developed by Spotify, this operator simplifies Apache Flink execution. It manages stream-processing job lifecycles, dynamically allocates cluster resources, and automates state checkpointing.
 #### Databases
 
-##### Operators (9)
+##### Operators (8)
 
   - **(2024)** [==DB Operator 🌟==](https://github.com/kloeckner-i/db-operator) <span class='md-tag md-tag--info'>⭐ 163</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The DB Operator facilitates external and in-cluster database administration. It manages PostgreSQL and MySQL configurations natively by separating deployment credentials from application logic, automating dynamic user and table creation using custom resources.
 #### In-Memory Databases
 
-##### Operators (10)
+##### Operators (9)
 
   - **(2023)** [==krestomatio/keydb-operator==](https://github.com/krestomatio/keydb-operator) <span class='md-tag md-tag--info'>⭐ 59</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Manages KeyDB setups, providing high-speed, multi-threaded cache nodes with automated replica synchronization, cluster scaling, and rapid failover handling.
 #### MongoDB
 
-##### Operators (11)
+##### Operators (10)
 
   - **(2023)** [==OT-CONTAINER-KIT/mongodb-operator: MongoDB Operator==](https://github.com/OT-CONTAINER-KIT/mongodb-operator) <span class='md-tag md-tag--info'>⭐ 49</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Manages MongoDB databases, replica sets, and sharded environments. It automates scaling, credential updates, and physical storage volume mounts within the cluster.
 #### Object Storage
 
-##### Operators (12)
+##### Operators (11)
 
   - **(2022)** [==didil/autobucket-operator==](https://github.com/didil/autobucket-operator) <span class='md-tag md-tag--info'>⭐ 12</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A developer-focused operator that dynamically constructs cloud-native storage buckets (e.g., AWS S3) via dynamic pod annotations, streamlining access to stateful storage assets.
 #### PostgreSQL
 
-##### Operators (13)
+##### Operators (12)
 
   - **(2024)** [==reactive-tech/kubegres==](https://github.com/reactive-tech/kubegres) <span class='md-tag md-tag--info'>⭐ 1351</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kubegres is a lightweight operator for managing PostgreSQL clusters. It coordinates master-replica setups, automated failovers, and physical backups using native StateSets with minimal footprint.
 #### Streaming Data
 
-##### Operators (14)
+##### Operators (13)
 
   - **(2023)** [==pravega/pravega-operator==](https://github.com/pravega/pravega-operator) <span class='md-tag md-tag--info'>⭐ 40</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Deploys and maintains high-throughput Pravega streaming architectures, orchestrating the state of BookKeeper, ZooKeeper, and active cluster storage segments.
 ### GitOps
 
 #### Infrastructure-as-Code
 
-##### Operators (15)
+##### Operators (14)
 
   - **(2024)** [==isaaguilar/terraform-operator: Terraform Operator==](https://github.com/GalleyBytes/terraform-operator) <span class='md-tag md-tag--info'>⭐ 380</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Executes declarative Terraform pipelines natively as custom resources inside clusters. It matches dynamic GitOps deployment models to external cloud infrastructure, allowing teams to unify orchestration under a single control plane.
+### Hardware
+
+#### GPU Virtualization
+
+  - **(2022)** [Sharing a NVIDIA GPU Between Pods in Kubernetes](https://www.cloudnativedeepdive.com/sharing-a-nvidia-gpu-between-pods-in-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — In-depth technical exploration of fractional GPU sharing techniques, including NVIDIA Multi-Instance GPU (MIG) and MPS, within Kubernetes clusters. Resolves major resource allocation bottlenecks to drive cost-effective machine learning workflows.
+### Networking
+
+#### Ingress
+
+##### Azure Application Gateway
+
+  - **(2025)** [**Introduction to Azure Application Gateway for Containers (AGC)**](https://blog.cloudtrooper.net/2025/02/28/application-gateway-for-containers-a-not-so-gentle-intro-1) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An introductory architecture guide covering the capabilities of Azure's modern Application Gateway for Containers (AGC). Illustrates how it integrates natively via Gateway API parameters to deliver low-latency application routing.
 ## Infrastructure and Hardware
 
 ### AIML Infrastructure
@@ -253,6 +316,11 @@
 #### Validation and Testing
 
   - **(2024)** [AI Meets Terraform: Prompt Strategies for Test Generation](https://masterpoint.io/blog/ai-meets-tf-prompt-strategies-for-test-generation) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores LLM prompting strategies designed to automatically generate high-quality integration testing assertions for Terraform infrastructure codebases. Outlines systematic framework specifications to minimize manual testing overhead.
+### Ansible
+
+#### Core Concepts
+
+  - **(2022)** [The Beginner’s Guide to the Ansible Inventory](https://www.packetcoders.io/the-beginners-guide-to-the-ansible-inventory) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive primer exploring how to declare, structure, and organize Ansible inventories. Covers standard INI and YAML file declarations, host-group structures, nested grouping, and introductory dynamic inventory strategies.
 ## Kubernetes
 
 ### Troubleshooting
@@ -260,6 +328,13 @@
 #### Playbooks
 
   - **(2023)** [10 Real-World Kubernetes Troubleshooting Scenarios and Solutions](https://livingdevops.com/devops/10-real-world-kubernetes-troubleshooting-scenarios-and-solutions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This compilation details ten authentic, highly technical outage scenarios encountered in production Kubernetes clusters, complete with step-by-step diagnostic paths and resolutions. It covers complex issues like DNS resolution failure, certificate expiration, and stateful volume mounting locks. The practical nature of these scenarios makes this an invaluable resource for active operations teams.
+## Kubernetes Developer Experience
+
+### Inner-Loop Automation
+
+#### Guides
+
+  - **(2021)** [rookout.com: Developer Tools for Kubernetes in 2021: Helm, Kustomize, and Skaffold (Part 1)](https://www.dynatrace.com/solutions/observability-for-developers) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive multi-part review of critical Kubernetes development tools. Examines deployment mechanisms (Helm, Kustomize), real-time sync engines (Skaffold, Tilt, Garden), IDE extensions, and container building alternatives.
 ## Kubernetes GitOps and Packaging
 
 ### Argo Project Ecosystem
@@ -273,16 +348,16 @@
 
 #### Video Processing
 
-##### Operators (16)
+##### Operators (15)
 
   - **(2023)** [==gst-pipeline-operator: A Kubernetes operator for running audio/video processing' pipelines==](https://github.com/tinyzimmer/gst-pipeline-operator) <span class='md-tag md-tag--info'>⭐ 24</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly specialized operator configured to execute GStreamer audio/video pipelines inside clusters, scaling media ingestion, processing topologies, and delivery channels dynamically.
-## Networking
+## Networking (1)
 
 ### DNS
 
 #### Service Discovery
 
-##### Operators (17)
+##### Operators (16)
 
   - **(2023)** [==Meerkat==](https://github.com/borchero/meerkat) <span class='md-tag md-tag--info'>⭐ 38</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A dynamic networking operator designed to update and map external DNS routes. It reads internal networking resource allocations to dynamically register up-to-date hostname directories.
 ### DNS and Ingress
@@ -302,14 +377,14 @@
 
 #### Host Port Allocation
 
-##### Operators (18)
+##### Operators (17)
 
   - **(2022)** [==HostPort Operator==](https://github.com/rmb938/hostport-allocator) <span class='md-tag md-tag--info'>⭐ 18</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An allocation controller that coordinates and locks dedicated hostPorts for pods. It mitigates physical scheduling conflicts when multiple high-performance workloads require direct edge node exposure.
 ### Load Balancing
 
 #### High Availability
 
-##### Operators (19)
+##### Operators (18)
 
   - **(2023)** [==redhat-cop/keepalived-operator: Keepalived operator==](https://github.com/redhat-cop/keepalived-operator) <span class='md-tag md-tag--info'>⭐ 123</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Manages Keepalived deployments within Kubernetes clusters. It coordinates VIP (Virtual IP) failover protocols across physical or virtual cluster node interfaces.
 ### Operator
@@ -328,31 +403,31 @@
 
 #### Pipeline Management
 
-##### Operators (20)
+##### Operators (19)
 
   - **(2023)** [==Logging Operator==](https://github.com/OT-CONTAINER-KIT/logging-operator) <span class='md-tag md-tag--info'>⭐ 51</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Simplifies multi-tenant logging infrastructure by coordinating central Fluentd and Fluent Bit setups. It manages complex logging filters and output endpoints declaratively.
 ### Metrics
 
 #### Thanos Orchestration
 
-##### Operators (21)
+##### Operators (20)
 
   - **(2023)** [==banzaicloud/thanos-operator 🌟==](https://github.com/banzaicloud/thanos-operator) <span class='md-tag md-tag--info'>⭐ 283</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Streamlines Thanos-based monitoring architectures by provisioning Query, Store, Compact, and Ruler resources. It manages historical metrics storage across dynamic environments.
 #### TimeSeries Databases
 
-##### Operators (22)
+##### Operators (21)
 
   - **(2024)** [==VictoriaMetrics/operator==](https://github.com/VictoriaMetrics/operator) <span class='md-tag md-tag--info'>⭐ 566</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Coordinates components of VictoriaMetrics (including VMCluster and VMAgent). It manages complex metrics scraping rules and automates long-term TSDB storage scaling.
 ### Monitoring
 
 #### External Integration
 
-##### Operators (23)
+##### Operators (22)
 
   - **(2023)** [==uptimerobot-operator==](https://github.com/brennerm/uptimerobot-operator) <span class='md-tag md-tag--info'>⭐ 60</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Synchronizes current routing profiles with the UptimeRobot API. It dynamically configures exterior synthetic latency testing targets as new ingresses scale up or out.
 #### Ingress Monitoring
 
-##### Operators (24)
+##### Operators (23)
 
   - **(2023)** [==IngressMonitorController (Deprecated)==](https://github.com/stakater/IngressMonitorController) <span class='md-tag md-tag--info'>⭐ 735</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An older monitoring operator designed to orchestrate uptime checks across multiple external platforms. Live Grounding indicates that this project has been archived and deprecated in favor of active native alternatives.
 ## Operations and Reliability
@@ -386,13 +461,13 @@
 
 ### Kubernetes (1)
 
-#### Networking (1)
+#### Networking (2)
 
   - **(2023)** [github.com/carlosedp/lbconfig-operator: External Load Balancer Operator' 🌟](https://github.com/carlosedp/lbconfig-operator) <span class='md-tag md-tag--info'>⭐ 63</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Operator that dynamically provisions and configures external hardware/software load balancers (such as F5 BIG-IP or HAProxy) based on Kubernetes ingress or service resource updates.
 #### Observability (3)
 
   - **(2024)** [kube-fluentd-operator 🌟](https://github.com/vmware-archive/kube-fluentd-operator) <span class='md-tag md-tag--info'>⭐ 321</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A now-archived operator designed to dynamically construct namespace-specific Fluentd logging pipelines in Kubernetes. Modern platform engineering architectures have largely transitioned to standardized OpenTelemetry or Fluent Bit routing setups.
-#### Operators (25)
+#### Operators (24)
 
   - **(2025)** [Speculator: Redis Operator](https://github.com/OT-CONTAINER-KIT/redis-operator) <span class='md-tag md-tag--info'>⭐ 1379</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced Redis Operator developed by OT Container Kit. Features automated failover management, backup orchestrations, persistence configuration, and Redis Sentinel cluster sizing within Kubernetes native deployments.
   - **(2025)** [Kotal operator](https://github.com/kotalco/kotal) <span class='md-tag md-tag--info'>⭐ 221</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A multi-client blockchain node operator for Kubernetes. Simplifies configuring and maintaining decentralized networks (such as Ethereum and IPFS) through native Kubernetes custom resources.
@@ -402,7 +477,7 @@
   - **(2020)** [kruschecompany.com: What is a Kubernetes Operator and Where it Can be Used?](https://kruschecompany.com/wp-content/uploads/2020/01/kubernetes-operator.jpg)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Illustrated guide defining the role, architecture, and common deployment strategies of Kubernetes Operators. Explains how custom controllers automate day-2 infrastructure management tasks like scaling, backups, and state healing.
   - **(2020)** [devops.com: Day 2 for the Operator Ecosystem 🌟](https://devops.com/day-2-for-the-operator-ecosystem) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on Kubernetes Operator lifecycle maturity models, introducing toolkits like KUDO (Kubernetes Universal Declarative Operator). Covers operational challenges, telemetry gathering, and unified configuration schemas.
   - **(2019)** [infoq.com: Kubernetes Operators in Depth](https://www.infoq.com/articles/kubernetes-operators-in-depth) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — High-density architectural breakdown exploring the reconciliation loop, custom controller watch mechanisms, and cache behaviors inside the Kubernetes API server model. Essential reading for platform architects building operators.
-## Platform Engineering
+## Platform Engineering (1)
 
 ### GitOps and Configuration
 
@@ -422,7 +497,7 @@
 #### Conceptual Overviews (2)
 
   - **(2024)** [thenewstack.io: K8Spin Provides Multitenant Isolation for Kubernetes](https://thenewstack.io/k8spin-provides-multitenant-isolation-for-kubernetes) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An article discussing how K8Spin implements virtualized tenant workspaces. Reviews performance overheads and resource boundaries of namespace isolation relative to physical, heavy, multi-cluster architectures.
-#### Registries and Catalogs (1)
+#### Registries and Catalogs
 
   - **(2024)** [Discover K8Spin open source software](https://k8spin.cloud/oss-projects) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main portal cataloging K8Spin's open-source projects. Focuses on lightweight cluster sharing tools, providing APIs designed to bootstrap secure developer workspaces instantly.
 #### Resource Isolation
@@ -434,19 +509,19 @@
 
 #### Synthetic Monitoring
 
-##### Operators (26)
+##### Operators (25)
 
   - **(2024)** [==kuberhealthy 🌟==](https://github.com/kuberhealthy/kuberhealthy) <span class='md-tag md-tag--info'>⭐ 2247</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kuberhealthy schedules dynamic, real-world actions as background test suites. It detects underlying API, network, or storage decay that static monitoring tools overlook by continually validating that clusters are functionally operational.
 ### Testing
 
 #### Load Testing
 
-##### Operators (27)
+##### Operators (26)
 
   - **(2022)** [kubeload - load testing](https://github.com/Efrat19/kubeload) <span class='md-tag md-tag--info'>⭐ 24</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operator framework that manages and scales load testing deployments inside a cluster. It coordinates distributed engines to simulate realistic traffic profiles against selected cluster endpoints, streamlining continuous integration workflows.
 #### Performance Benchmarking
 
-##### Operators (28)
+##### Operators (27)
 
   - **(2024)** [==cloud-bulldozer/benchmark-operator: The Chuck Norris of cloud benchmarks==](https://github.com/cloud-bulldozer/benchmark-operator) <span class='md-tag md-tag--info'>⭐ 305</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Automates heavy performance testing (e.g., FIO, uperf) within active clusters. It deploys targets, isolates benchmark metrics, and exports execution data to visualization layers.
 ## Resources
@@ -455,64 +530,64 @@
 
 #### Migration
 
-##### Operators (29)
+##### Operators (28)
 
   - **(2021)** [thenewstack.io: We Pushed Helm to the Limit, then Built a Kubernetes Operator 🌟](https://thenewstack.io/we-pushed-helm-to-the-limit-then-built-a-kubernetes-operator) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A real-world case study outlining the transition from Helm charts to custom Go operators. It discusses the scaling limitations of template parsing when implementing complex state machines.
 ### Education
 
 #### Architectural Decision
 
-##### Operators (30)
+##### Operators (29)
 
   - **(2021)** [kubermatic.com: Why Implementing Kubernetes Operators Is a Good Idea! 🌟](https://www.kubermatic.com/blog/why-implementing-kubernetes-operators-is-a-good-idea) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the competitive operational advantages of selecting the Operator pattern over traditional scripting approaches, focusing on automated self-healing and standardized state reconciliation.
 #### Architectural Pattern
 
-##### Operators (31)
+##### Operators (30)
 
   - **(2021)** [itnext.io: Kubernetes Operators: Cruise Control for Managing Cloud-Native Apps](https://itnext.io/kubernetes-operators-cruise-control-for-managing-cloud-native-apps-db328ef8e345) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical article comparing manual sysadmin runbooks with the automatic capabilities of Operators. It covers automated backups, version migrations, and disaster recovery loops.
 #### Concepts
 
-##### Operators (32)
+##### Operators (31)
 
   - **(2021)** [container-solutions.com: Kubernetes Operators Explained](https://blog.container-solutions.com/kubernetes-operators-explained) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An foundational architectural guide explaining the design of the Kubernetes Operator pattern. It covers the core mechanics of custom controllers, the reconciliation loop, and CRDs, codifying operational knowledge into software.
 #### Deep Dive
 
-##### Operators (33)
+##### Operators (32)
 
   - **(2021)** [iximiuz.com: Exploring Kubernetes Operator Pattern 🌟](https://iximiuz.com/en/posts/kubernetes-operator-pattern) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive analysis on the mechanics of the controller runtime. It explains internal structures such as informers, dynamic work queues, and client-go caches, illustrating how reconciliation loops run concurrently.
 #### Hands-on Development
 
-##### Operators (34)
+##### Operators (33)
 
   - **(2021)** [itnext.io: Kubexpose: A Kubernetes Operator, for fun and profit!](https://itnext.io/kubexpose-a-kubernetes-operator-for-fun-and-profit-f528586eee07) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> — A practical walk-through detailing the development of Kubexpose, an experimental custom controller designed to simplify cluster service exposure rules.
 #### Introductory
 
-##### Operators (35)
+##### Operators (34)
 
   - **(2021)** [learnsteps.com: Advance Kubernetes: What exactly are Kubernetes Operators?](https://www.learnsteps.com/advanced-kubernetes-what-exactly-are-kubernetes-operators) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory post explaining the mechanics of custom Kubernetes controllers. It maps physical operator duties to software loops to illustrate the benefits of declarative configurations.
 #### Java Ecosystem
 
-##### Operators (36)
+##### Operators (35)
 
   - **(2021)** [spring.io: Get to Know a Kubernetes Operator!](https://spring.io/blog/2021/11/19/get-to-know-a-kubernetes-operator) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A guide demonstrating the Java Operator SDK. It details how Java-centric teams can write native controllers using GraalVM to compile down to low-memory native executables.
 #### Official Guide
 
-##### Operators (37)
+##### Operators (36)
 
   - **(2021)** [kubernetes.io: Writing a Controller for Pod Labels](https://kubernetes.io/blog/2021/06/21/writing-a-controller-for-pod-labels) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory blog post from the Kubernetes maintainers details the process of writing an active controller that automatically validates and formats Pod label schemas.
 #### Trade-off Evaluation
 
-##### Operators (38)
+##### Operators (37)
 
   - **(2021)** [blog.px.dev/k8s-operator: 3 Reasons to Use Kubernetes Operators (and 2 Reasons Not To)](https://blog.px.dev/k8s-operator) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates the advantages and disadvantages of deploying Operators. It contrasts automation capabilities against increased control-plane pressure and code maintenance costs.
 #### Tutorial Series
 
-##### Operators (39)
+##### Operators (38)
 
   - **(2021)** [medium.com: Getting Started With Kubernetes Operators (Helm Based) - Part 1](https://www.velotio.com/engineering-blog/getting-started-with-kubernetes-operators-helm-based-part-1) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A multi-phase training guide tracking operator design frameworks. It walks through building Helm-based control planes, transitioning to Ansible controllers, and writing performant Golang reconcilers.
 #### Value Proposition
 
-##### Operators (40)
+##### Operators (39)
 
   - **(2022)** [practicalkubernetes.blogspot.com: Making the case for Kubernetes Operators](https://practicalkubernetes.blogspot.com/2022/01/making-case-for-kubernetes-operators.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses why operators are well-suited for stateful databases and complex storage platforms, translating operational procedures into reliable code loops.
 ## Security
@@ -521,55 +596,60 @@
 
 #### Dynamic RBAC
 
-##### Operators (41)
+##### Operators (40)
 
   - **(2023)** [==redhat-cop/dynamic-rbac-operator: Dynamic RBAC Operator==](https://github.com/redhat-cop/dynamic-rbac-operator) <span class='md-tag md-tag--info'>⭐ 23</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Dynamically coordinates RBAC permissions based on directory groups or namespace annotations, simplifying user onboarding and access control administration.
 #### RBAC
 
-##### Operators (42)
+##### Operators (41)
 
   - **(2024)** [==FairwindsOps/rbac-manager: RBAC Manager 🌟==](https://github.com/FairwindsOps/rbac-manager) <span class='md-tag md-tag--info'>⭐ 1654</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — RBAC Manager mitigates the configuration overhead of managing Kubernetes users and permissions. It provides structured Custom Resources that simplify standard RoleBindings and ClusterRoleBindings under a clean API.
 ### Enterprise Architecture
 
 #### Air-Gapped Environments
 
-##### Operators (43)
+##### Operators (42)
 
   - **(2021)** [openshift.com: Is your Operator Air-Gap Friendly?](https://www.redhat.com/en/blog/is-your-operator-air-gap-friendly) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains critical design rules for deploying operators inside highly secure, disconnected, or air-gapped systems, detailing offline container registries, local metadata hosting, and strict network configurations.
 ### Multi-tenancy
 
-#### Platform Engineering (1)
+#### Platform Engineering (2)
 
-##### Operators (44)
+##### Operators (43)
 
   - **(2024)** [==Capsule Operator==](https://github.com/projectcapsule/capsule) <span class='md-tag md-tag--info'>⭐ 2095</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Capsule aggregates namespaces into virtual 'tenants', providing secure multi-tenancy. It enforces dynamic network isolation, storage limits, and ingress classes, forming a foundation for platform engineering.
 ### Secrets Management
 
 #### AWS Integration
 
-##### Operators (45)
+##### Operators (44)
 
   - **(2021)** [contentful.com: Open-sourcing kube-secret-syncer: A Kubernetes operator to sync secrets from AWS Secrets Manager](https://www.contentful.com/blog/open-source-kube-secret-syncer) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed technical review describing the open-sourcing of kube-secret-syncer. The tool synchronizes secrets dynamically from AWS Secrets Manager to Kubernetes namespaces, removing manual config synchronization overhead.
+#### Cloud Integrations
+
+##### Azure
+
+  - **(2025)** [Four Methods to Access Azure Key Vault from Azure Kubernetes Service (AKS)](https://techcommunity.microsoft.com/discussions/azurepartners/four-methods-to-access-azure-key-vault-from-azure-kubernetes-service-aks/4376662)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores key architectural patterns for integrating Azure Key Vault (AKV) with Azure Kubernetes Service (AKS). Reviews Azure AD Workload Identity federation, the Secrets Store CSI Driver, and AKS-native mechanisms. Enables engineering teams to eliminate static cloud credentials from cluster runtime contexts.
 #### Multi-Provider Secrets
 
-##### Operators (46)
+##### Operators (45)
 
   - **(2024)** [==digitalis-io/vals-operator==](https://github.com/digitalis-io/vals-operator) <span class='md-tag md-tag--info'>⭐ 167</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Utilizes the vals framework to dynamically parse and inject secrets from Vault, AWS SSM, and GCP Secret Manager. It prevents local credential storage risks and eliminates third-party platform lock-in.
 #### Registry Authentication
 
-##### Operators (47)
+##### Operators (46)
 
   - **(2023)** [==registry-creds==](https://github.com/alexellis/registry-creds) <span class='md-tag md-tag--info'>⭐ 350</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Automatically syncs image pull credentials across diverse namespaces from registry platforms like ECR, GCR, and Docker Hub. It solves multi-tenant credential sharing securely without requiring manual duplications.
 #### Simplification
 
-##### Operators (48)
+##### Operators (47)
 
   - **(2022)** [Michaelpalacce/SimpleSecrets](https://github.com/Michaelpalacce/SimpleSecrets) <span class='md-tag md-tag--info'>⭐ 25</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> — An experimental secrets management utility that simplifies distributing and syncing environment configurations securely across multiple namespaces.
 ### Vulnerability Management
 
 #### Scanning (1)
 
-##### Operators (49)
+##### Operators (48)
 
   - **(2023)** [==ckotzbauer/vulnerability-operator==](https://github.com/ckotzbauer/vulnerability-operator) <span class='md-tag md-tag--info'>⭐ 87</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Integrates scanning engines with active cluster runtimes, cross-referencing running container image tags against security databases to alert administrators to new vulnerabilities.
 ## Security and Compliance
@@ -606,11 +686,11 @@
 #### Cron Engines
 
   - **(2025)** [==github.com/furiko-io/furiko==](https://github.com/furiko-io/furiko) <span class='md-tag md-tag--info'>⭐ 502</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Furiko is an advanced execution platform designed to host ad-hoc and cron jobs in complex production clusters. It expands upon native CronJob limitations by offering comprehensive concurrency controls, deep execution history archives, and parameterized triggers suited for high-throughput batch environments.
-#### Operators (50)
+#### Operators (49)
 
   - **(2024)** [==github.com/ContainerSolutions/delayed-jobs-operator==](https://github.com/ContainerSolutions/delayed-jobs-operator) <span class='md-tag md-tag--info'>⭐ 10</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A minor controller designed to rate-limit or defer the spin-up of batch execution workloads. It introduces explicit queues or temporal delays before initiating pods, safeguarding backend databases from heavy, simultaneous connection storms.
   - **(2024)** [github.com/lukaszraczylo/jobs-manager-operator 🌟](https://github.com/lukaszraczylo/jobs-manager-operator) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized job execution supervisor focused on automated lifecycle pruning. It dynamically clears completed or broken jobs based on custom-defined TTL guidelines, preventing etcd congestion caused by historical batch resources.
 
 ---
-💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Docker](./docker.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md)
+💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
 

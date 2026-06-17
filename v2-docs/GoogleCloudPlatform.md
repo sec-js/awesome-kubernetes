@@ -58,7 +58,12 @@
 
 #### General Reference
 
+  - [medium.com/google-cloud/tagged/devops](https://medium.com/google-cloud/tagged/devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/google-cloud/tagged/devops in the Kubernetes Tools ecosystem.
+  - [venturebeat.com: Google Cloud announces Network Connectivity Center to simplify' hybrid cloud management](https://venturebeat.com/2021/03/23/google-cloud-announces-network-connectivity-center-to-simplify-hybrid-cloud-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering venturebeat.com: Google Cloud announces Network Connectivity Center to simplify' hybrid cloud management in the Kubernetes Tools ecosystem.
+  - [medium.com/google-cloud: Design your Landing Zone — Design Considerations' Part 4— IaC, GitOps and CI/CD (Google Cloud Adoption Series)](https://medium.com/google-cloud/design-your-landing-zone-design-considerations-part-4-iac-gitops-and-ci-cd-google-cloud-ae3f533c6dbd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/google-cloud: Design your Landing Zone — Design Considerations' Part 4— IaC, GitOps and CI/CD (Google Cloud Adoption Series) in the Kubernetes Tools ecosystem.
   - [engineering.mercari.com: Kubernetes based autoscaler for Cloud Spanner](https://engineering.mercari.com/en/blog/entry/20211222-kubernetes-based-spanner-autoscaler)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering engineering.mercari.com: Kubernetes based autoscaler for Cloud Spanner in the Kubernetes Tools ecosystem.
+  - [medium.com/google-cloud: Anthos-at-Home: Spinning Up a Bare-Metal Anthos' Cluster on Dumpster Servers](https://medium.com/google-cloud/anthos-at-home-spinning-up-a-bare-metal-anthos-cluster-on-dumpster-servers-5bcef301cfa5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/google-cloud: Anthos-at-Home: Spinning Up a Bare-Metal Anthos' Cluster on Dumpster Servers in the Kubernetes Tools ecosystem.
+  - [Terraform Provider for Google Cloud 7.0 is now GA](https://www.hashicorp.com/en/blog/terraform-provider-for-google-cloud-7-0-is-now-ga)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Terraform Provider for Google Cloud 7.0 is now GA in the Kubernetes Tools ecosystem.
 ## Cloud Infrastructure
 
 ### Compute
@@ -335,5 +340,5 @@
   - **(2026)** [github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform) <span class='md-tag md-tag--warning'>[MULTI CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The master landing organization for Google Cloud Platform's open-source projects, APIs, and CLI utilities. Holds structural frameworks, SDKs, and enterprise infrastructure design tools.
 
 ---
-💡 **Explore Related:** [AWS Backup](./aws-backup.md) | [AWS Containers](./aws-containers.md) | [AWS Data](./aws-data.md)
+💡 **Explore Related:** [Edge Computing](./edge-computing.md) | [Azure](./azure.md) | [AWS Storage](./aws-storage.md)
 

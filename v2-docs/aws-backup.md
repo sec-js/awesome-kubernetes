@@ -3,6 +3,14 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Backup and Migrations. Design for failure. Disaster Recovery in the context of Cloud Providers (Hyperscalers).
 
+## Architectural Foundations
+
+### Kubernetes Tools
+
+#### General Reference
+
+  - [Udemy - AWS: How to Architect with a Design for Failure Approach](https://www.udemy.com/how-to-architect-with-a-design-for-failure-approach)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Udemy - AWS: How to Architect with a Design for Failure Approach in the Kubernetes Tools ecosystem.
+  - [medium: AWS Backup Service for Amazon RDS](https://medium.com/avmconsulting-blog/aws-backup-service-for-amazon-rds-3e6f5827aa66)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: AWS Backup Service for Amazon RDS in the Kubernetes Tools ecosystem.
 ## Cloud Architecture
 
 ### AWS Solutions
@@ -89,5 +97,5 @@
   - **(2016)** [Design for failure lessons learnt from the Sydney AWS outage](https://www.hava.io/blog/design-for-failure-lessons-learnt-from-the-sydney-aws-outage) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural retrospective analyzing service failures during a historic AWS Sydney region outage. Live Grounding highlights how this post underscores the vital design-for-failure paradigm, proving that high availability requires cross-region failovers, active-active topologies, and robust client retry configurations.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Containers](./aws-containers.md) | [AWS Data](./aws-data.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
 

@@ -3,6 +3,14 @@
 !!! info "Architectural Context"
     Detailed reference for Scaffolding Tools in the context of Platform & Site Reliability.
 
+## Architectural Foundations
+
+### Kubernetes Tools
+
+#### General Reference
+
+  - [Wikipedia: Spring Roo](https://en.wikipedia.org/wiki/Spring_Roo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Wikipedia: Spring Roo in the Kubernetes Tools ecosystem.
+  - [Atomist](https://go.atomist.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Atomist in the Kubernetes Tools ecosystem.
 ## Developer Experience
 
 ### Inner Loop Development
@@ -26,5 +34,5 @@
   - **(2025)** [Maven](https://nubenetes.com/maven-gradle/) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comparative architectural overview of Maven and Gradle. Outlines declarative XML configurations versus programmatic Groovy/Kotlin Gradle DSL scripts, analyzing cache efficiency, parallel build runtimes, and enterprise dependency-resolution policies.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Chaos Engineering](./chaos-engineering.md) | [Developerportals](./developerportals.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [QA](./qa.md)
 
