@@ -449,7 +449,7 @@
 - [youtube: GKE Autopilot - Fully Managed Kubernetes Service From Google 🌟](https://www.youtube.com/watch?v=Zztufl4mFQ4&feature=youtu.be)
 - [insights.project-a.com: Using GitHub Actions to deploy to Kubernetes in GKE 🌟](https://www.project-a.vc/perspectives)
 - [faun.pub: How to automate the setup of a Kubernetes cluster on GCP](https://faun.pub/how-to-automate-the-setup-of-a-kubernetes-cluster-on-gcp-e97918bf41de) Using Ansible to install, setup, and configure a Google Kubernetes Cluster (GKE) on Google Cloud Platform (GCP).
-- [Kubernetes Cloud DNS](https://docs.cloud.google.com/kubernetes-engine/docs/how-to/cloud-dns#vpc_scope_dns) GCP now makes it easy to query DNS for Kubernetes services across multiple clusters from anywhere inside the VPC! The less stuff users have to run in their clusters, the more they can use for their own apps. It was always problematic to make users admin their own DNS.
+- [Kubernetes Cloud DNS](https://docs.cloud.google.com/kubernetes-engine/docs/how-to/cloud-dns) GCP now makes it easy to query DNS for Kubernetes services across multiple clusters from anywhere inside the VPC! The less stuff users have to run in their clusters, the more they can use for their own apps. It was always problematic to make users admin their own DNS.
 - [seroter.com: Using the new Google Cloud Config Controller to provision and manage cloud services via the Kubernetes Resource Model](https://seroter.com/2021/08/18/using-the-new-google-cloud-config-controller-to-provision-and-manage-cloud-services-via-the-kubernetes-resource-model) I look at a new managed service that provisions cloud-native services as if they were k8s resources.
 - [cloud.google.com: Announcing Backup for GKE: the easiest way to protect GKE workloads 🌟](https://cloud.google.com/blog/products/storage-data-transfer/google-cloud-launches-backups-for-gke)
 - Features of Google Kubernetes Engine that NO other K8s provider has or are rapidly copying:
@@ -525,7 +525,7 @@
     - [thenewstack.io: Quickly Install a Kubernetes Cluster with KubeKey](https://thenewstack.io/quickly-install-a-kubernetes-cluster-with-kubekey)
 - [kubesphere.io: Scaling a Kubernetes Cluster: One of the Best Practices for Using KubeKey](https://kubesphere.io/blogs/scale-kubernetes-cluster-using-kubekey)
 - [itnext.io: Adding Master Nodes to Achieve HA: One of the Best Practices for Using KubeKey](https://itnext.io/adding-master-nodes-to-achieve-ha-one-of-the-best-practices-for-using-kubekey-6207e94b0bdd)
-- [youtube: Create a Jenkins Pipeline on Kubernetes with CI/CD Pipeline Template in KubeSphere](https://www.youtube.com/watch?v=MU5LdM83x9s&t=40s&ab_channel=KubeSphere) Two built-in Jenkins pipeline templates are available in KubeSphere 3.1. DevOps team can generate CICD or customize the workflow as you need by simple drag-and-drop.
+- [youtube: Create a Jenkins Pipeline on Kubernetes with CI/CD Pipeline Template in KubeSphere](https://www.youtube.com/watch?v=MU5LdM83x9s&ab_channel=KubeSphere) Two built-in Jenkins pipeline templates are available in KubeSphere 3.1. DevOps team can generate CICD or customize the workflow as you need by simple drag-and-drop.
 - [itnext.io: KubeSphere: A New Pluggable Kubernetes Application Management Platform](https://itnext.io/kubesphere-a-new-pluggable-kubernetes-application-management-platform-bf078b9f3330)
 
 ## Giant Swarm

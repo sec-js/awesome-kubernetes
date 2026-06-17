@@ -3,6 +3,15 @@
 !!! info "Architectural Context"
     Detailed reference for Document Object Model (DOM) in the context of Developer Ecosystem.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Web Development](#web-development)
+  - [DOM](#dom)
+    - [JavaScript](#javascript)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -21,5 +30,5 @@
   - **(2026)** [freecodecamp.org: How the Document Object Model Works in JavaScript – DOM' Tutorial for Beginners](https://www.freecodecamp.org/news/javascript-dom) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical guide breaking down DOM traversal and event propagation mechanics (bubbling and capturing). Essential for intermediate UI engineering, it covers the structural boundaries of web browsers and highlights optimization patterns for interface updates.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
+💡 **Explore Related:** [Angular](./angular.md) | [Python](./python.md) | [Java_Frameworks](./java_frameworks.md)
 

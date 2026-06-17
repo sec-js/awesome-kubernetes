@@ -3,6 +3,85 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Miscellaneous in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Application Development](#application-development)
+  - [Container Orchestration](#container-orchestration)
+    - [App Runner](#app-runner)
+  - [Frontend and Mobile](#frontend-and-mobile)
+    - [AWS Amplify](#aws-amplify)
+  - [Microservices](#microservices)
+    - [E-commerce Reference](#e-commerce-reference)
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Infrastructure](#cloud-infrastructure)
+  - [AWS](#aws)
+    - [Application Deployment](#application-deployment)
+    - [Application Platform Updates](#application-platform-updates)
+    - [Cloud Migration](#cloud-migration)
+    - [Configuration Management](#configuration-management)
+    - [Hybrid Cloud](#hybrid-cloud)
+    - [Infrastructure APIs](#infrastructure-apis)
+    - [Infrastructure Operations](#infrastructure-operations)
+    - [Load Balancing](#load-balancing)
+    - [PaaS Architecture](#paas-architecture)
+    - [PaaS Platform](#paas-platform)
+    - [Web Servers](#web-servers)
+  - [Ecosystem](#ecosystem)
+    - [AWS Partners](#aws-partners)
+    - [Case Studies](#case-studies)
+  - [FinOps](#finops)
+    - [Cost Optimization](#cost-optimization)
+  - [FinOps and Sustainability](#finops-and-sustainability)
+    - [Green Ops](#green-ops)
+  - [High Performance Computing](#high-performance-computing)
+    - [Life Sciences](#life-sciences)
+  - [IoT and Edge](#iot-and-edge)
+    - [AWS IoT Core](#aws-iot-core)
+  - [Migration](#migration)
+    - [AWS MGN](#aws-mgn)
+  - [Operations](#operations)
+    - [Service Quotas](#service-quotas)
+  - [Virtual Private Servers](#virtual-private-servers)
+    - [AWS Lightsail](#aws-lightsail)
+1. [Cloud Native Infrastructure](#cloud-native-infrastructure)
+  - [Service Mesh](#service-mesh)
+    - [AWS](#aws-1)
+1. [Edge and IoT](#edge-and-iot)
+  - [AWS](#aws-2)
+    - [IoT Platforms](#iot-platforms)
+1. [Infrastructure as Code](#infrastructure-as-code)
+  - [AWS CDK](#aws-cdk)
+    - [Core Platform](#core-platform)
+    - [EKS and Kubernetes](#eks-and-kubernetes)
+    - [Migration Tools](#migration-tools)
+    - [Serverless Applications](#serverless-applications)
+  - [Alternative IaC](#alternative-iac)
+    - [SST](#sst)
+1. [Networking and Security](#networking-and-security)
+  - [Identity and Access](#identity-and-access)
+    - [Secrets Management](#secrets-management)
+  - [Remote Access](#remote-access)
+    - [AWS Systems Manager](#aws-systems-manager)
+  - [Service Mesh](#service-mesh-1)
+    - [Multi-Account](#multi-account)
+1. [Organizational Culture](#organizational-culture)
+  - [Migration Journeys](#migration-journeys)
+    - [Trainline](#trainline)
+1. [Serverless](#serverless)
+  - [Voice User Interfaces](#voice-user-interfaces)
+    - [Alexa Skills](#alexa-skills)
+1. [Testing and Chaos](#testing-and-chaos)
+  - [Chaos Engineering](#chaos-engineering)
+    - [AWS FIS](#aws-fis)
+  - [Debugging](#debugging)
+    - [AWS Troubleshooting](#aws-troubleshooting)
+  - [Local Emulation](#local-emulation)
+    - [AWS Emulation](#aws-emulation)
+    - [EC2 Metadata](#ec2-metadata)
+    - [Gitpod Integration](#gitpod-integration)
+
 ## Application Development
 
 ### Container Orchestration
@@ -84,6 +163,11 @@
 #### Case Studies
 
   - **(2025)** [AWS Partner Network (APN) blog](https://aws.amazon.com/blogs/apn) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight focuses on architecture walkthroughs, such as deploying high-availability services on AWS using Spotinst (now Spot by NetApp) and configuring Active Directory SSO. Live Grounding validates these blog posts as critical operational blueprints for multi-tenant integrations and cost-optimization strategies in enterprise environments.
+### FinOps
+
+#### Cost Optimization
+
+  - **(2023)** [treblle.com: How does Treblle scale on AWS without breaking the bank?](https://treblle.com/blog/how-does-treblle-scale-on-aws-without-breaking-the-bank) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights Treblle’s architectural strategy for processing billions of API requests on AWS affordably. Live Grounding details how modern SaaS platforms leverage spot instances, API gateway caching, serverless scale-to-zero databases, and intensive performance profiling to decouple traffic volume from infrastructure costs.
 ### FinOps and Sustainability
 
 #### Green Ops
@@ -198,15 +282,15 @@
 
 #### AWS Emulation
 
-  - **(2026)** [==github.com/localstack/localstack==](https://github.com/localstack/localstack) <span class='md-tag md-tag--info'>⭐ 65044</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight identifies the open-source repository for LocalStack, the premier AWS cloud emulator. Live Grounding underscores its unparalleled adoption (>65k stars), showing it as a foundational dependency for developer productivity, enabling local execution of Lambdas, S3, DynamoDB, and CloudFormation stacks.
+  - **(2026)** [==github.com/localstack/localstack==](https://github.com/localstack/localstack) <span class='md-tag md-tag--info'>⭐ 65044</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-86f309f0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 5 L 20 3 L 30 9 L 40 3 L 50 3" fill="none" stroke="url(#spark-grad-86f309f0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight identifies the open-source repository for LocalStack, the premier AWS cloud emulator. Live Grounding underscores its unparalleled adoption (>65k stars), showing it as a foundational dependency for developer productivity, enabling local execution of Lambdas, S3, DynamoDB, and CloudFormation stacks.
   - **(2026)** [localstack.cloud](https://www.localstack.cloud) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights the enterprise cloud platform offering advanced local emulation of AWS services. Live Grounding reinforces that LocalStack has become the industry standard for offline AWS cloud development, supporting complex services like IAM, EKS, and RDS, which radically reduces cloud spend and speeds up inner-loop iteration cycles.
 #### EC2 Metadata
 
-  - **(2025)** [Amazon EC2 Metadata Mock](https://github.com/aws/amazon-ec2-metadata-mock) <span class='md-tag md-tag--info'>⭐ 291</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight presents this tool as a local mock for the Amazon EC2 Instance Metadata Service (IMDSv1/v2). Live Grounding confirms its high utility in local testing pipelines and CI/CD environments, allowing developers to simulate instance roles, security credentials, and spot interruption notices without provisioning real cloud resources.
+  - **(2025)** [Amazon EC2 Metadata Mock](https://github.com/aws/amazon-ec2-metadata-mock) <span class='md-tag md-tag--info'>⭐ 291</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e71d389d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 3 L 20 8 L 30 8 L 40 6 L 50 6" fill="none" stroke="url(#spark-grad-e71d389d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight presents this tool as a local mock for the Amazon EC2 Instance Metadata Service (IMDSv1/v2). Live Grounding confirms its high utility in local testing pipelines and CI/CD environments, allowing developers to simulate instance roles, security credentials, and spot interruption notices without provisioning real cloud resources.
 #### Gitpod Integration
 
   - **(2021)** [github.com/omenking/localstack-gitpod-template: LocalStack Gitpod Template](https://github.com/omenking/localstack-gitpod-template) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight introduces a Gitpod configuration template for bootstrapping LocalStack development environments instantly in the browser. Live Grounding highlights this as an efficient template for cloud-native training, though production teams in 2026 typically leverage official Dev Container or LocalStack-supported cloud environments.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md)
 

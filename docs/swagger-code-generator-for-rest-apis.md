@@ -4,7 +4,7 @@
 - [https://github.com/swagger-api/swagger-codegen](https://github.com/swagger-api/swagger-codegen)
 - [youtube.com: SwaggerHub 101 An Introduction to Getting Started with SwaggerHub](https://www.youtube.com/watch?v=CoUl9_NWdqQ)
 - [youtube.com: Building an API with Swagger](https://www.youtube.com/watch?v=PbwQWw7xSOM)
-- [jonnylangefeld.com: Kubernetes: How to View Swagger UI](https://jonnylangefeld.com/blog/kubernetes-how-to-view-swagger-ui?utm_sq=gkuh13vgq3)
+- [jonnylangefeld.com: Kubernetes: How to View Swagger UI](https://jonnylangefeld.com/blog/kubernetes-how-to-view-swagger-ui)
 - [baeldung.com: Using Swagger (OpenAPI) for a Spring REST API With Kotlin](https://www.baeldung.com/kotlin/swagger-spring-rest-api)
 
 ## Videos

@@ -25,7 +25,7 @@
 ## CIDR subnets
 
 - [==cidr.xyz== 🌟](https://cidr.xyz) An interactive IP address and CIDR range visualizer
-- [magic-cookie.co.uk/iplist.html](http://magic-cookie.co.uk/iplist.html) Convert CIDR notation to a range of IP addresses
+- [magic-cookie.co.uk/iplist.html](https://magic-cookie.co.uk/iplist.html) Convert CIDR notation to a range of IP addresses
 - https://en.wikipedia.org/wiki/Classful_network
 - [gist.github.com: chadmcrowell/cidr.sh 🌟](https://gist.github.com/chadmcrowell/f3fc3be2ca1fcb887034162c14d77e74)
 - [==opensource.com: A Linux networking guide to CIDR notation and configuration - sipcalc== 🌟](https://opensource.com/article/16/12/cidr-network-notation-configuration-linux)
@@ -57,7 +57,7 @@
 ### HTTP Status Codes
 
 - [wikipedia: List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
-- [slideshare: Http Status Code Errors in SEO](http://www.slideshare.net/AdelaRoger/http-status-code-errors-in-seo)
+- [slideshare: Http Status Code Errors in SEO](https://www.slideshare.net/AdelaRoger/http-status-code-errors-in-seo)
 - [http.cat 🌟](https://http.cat)
 
 <center markdown="1">
@@ -70,18 +70,18 @@
 
 - [Wikipedia: HTTP/2](https://en.wikipedia.org/wiki/HTTP/2)
 - [SPDY & HTTP 2 with Akamai CTO Guy Podjarny](https://www.youtube.com/watch?v=WkLBrHW4NhQ)
-    - [cURL mantainer: http2 explained 🌟](http://http2-explained.haxx.se)
-    - [cURL mantainer: curl and HTTP/2 by default](http://daniel.haxx.se/blog/2015/12/14/curl-and-http2-by-default)
-    - [cURL mantainer: A 2015 retrosprective](http://daniel.haxx.se/blog/2015/12/20/a-2015-retrospective)
+    - [cURL mantainer: http2 explained 🌟](https://http2-explained.haxx.se)
+    - [cURL mantainer: curl and HTTP/2 by default](https://daniel.haxx.se/blog/2015/12/14/curl-and-http2-by-default)
+    - [cURL mantainer: A 2015 retrosprective](https://daniel.haxx.se/blog/2015/12/20/a-2015-retrospective)
     - [http2.github.io HTTP/2 🌟](https://http2.github.io)
     - [http2.github.io HTTP/2 Frequently Asked Questions 🌟](https://http2.github.io/faq)
     - [HTTP/2 resources](https://pinboard.in/u:rmurphey/t:http2)
     - [A Simple Performance Comparison of HTTPS, SPDY and HTTP/2 🌟](https://blog.httpwatch.com/2015/01/16/a-simple-performance-comparison-of-https-spdy-and-http2/comment-page-1)
     - [blog.cloudflare.com - Tools for debugging, testing and using HTTP/2](https://blog.cloudflare.com/tools-for-debugging-testing-and-using-http-2)
     - [blog.cloudflare.com - HTTP/2 For Web Developers](https://blog.cloudflare.com/http-2-for-web-developers)
-- [HTTP/2 With JBoss EAP 7 - Tech Preview](http://blog.eisele.net/2015/11/http2-with-jboss-eap-7.html)
+- [HTTP/2 With JBoss EAP 7 - Tech Preview](https://blog.eisele.net/2015/11/http2-with-jboss-eap-7.html)
 - [simple-talk.com: Script Loading between HTTP/1.1 and HTTP/2](https://www.red-gate.com/simple-talk/development/dotnet-development/script-loading-between-http1-1-and-http2)
-- [5 Tips to Boost the Performance of Your Apache Web Server](http://www.tecmint.com/apache-performance-tuning)
+- [5 Tips to Boost the Performance of Your Apache Web Server](https://www.tecmint.com/apache-performance-tuning)
 
 ### HTTP/3
 

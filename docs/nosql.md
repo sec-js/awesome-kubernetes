@@ -14,12 +14,12 @@
 
 - [NoSQL - Wikipedia](https://en.wikipedia.org/wiki/NoSQL)
 - [Youtube: Introduction to NoSQL by Martin Fowler](https://www.youtube.com/watch?v=qI_g07C_Q5I)
-- [NoSQL vs. SQL: Choosing a Data Management Solution](http://www.javacodegeeks.com/2015/10/nosql-vs-sql.html)
-- [NoSQL Guide, by Martin Fowler](http://martinfowler.com/nosql.html)
+- [NoSQL vs. SQL: Choosing a Data Management Solution](https://www.javacodegeeks.com/2015/10/nosql-vs-sql.html)
+- [NoSQL Guide, by Martin Fowler](https://martinfowler.com/nosql.html)
 - [thoughtworks.com: NoSQL Databases, an overview](https://www.thoughtworks.com/insights/blog/nosql-databases-overview)
-- [Diferencias entre SQL y NoSQL ¿Sabes cuál usar?](http://www.facilcloud.com/noticias/?p=1294&lang=es_ES)
-- [zdnet.com: SQL, NoSQL? What's the difference these days?](http://www.zdnet.com/article/sql-nosql-whats-the-difference-these-days)
-- [NoSQL Databases: 4 Game-Changing Use Cases](http://www.smartdatacollective.com/kingmesal/373466/nosql-databases-4-game-changing-use-cases)
+- [Diferencias entre SQL y NoSQL ¿Sabes cuál usar?](https://www.facilcloud.com/noticias/?p=1294&lang=es_ES)
+- [zdnet.com: SQL, NoSQL? What's the difference these days?](https://www.zdnet.com/article/sql-nosql-whats-the-difference-these-days)
+- [NoSQL Databases: 4 Game-Changing Use Cases](https://www.smartdatacollective.com/kingmesal/373466/nosql-databases-4-game-changing-use-cases)
 - [How to Evolve from RDBMS to NoSQL + SQL 🌟](https://www.linkedin.com/pulse/how-evolve-from-rdbms-nosql-sql-jim-scott)
 - [NoSQL Databases: a Survey and Decision Guidance](https://medium.baqend.com/nosql-databases-a-survey-and-decision-guidance-ea7823a822d)
 - [dev.to: NoSQL Database Design for E-Commerce Apps in 2021](https://dev.to/danielkolb/nosql-database-design-for-e-commerce-apps-in-2021-390e)
@@ -37,22 +37,22 @@
 - [wikipedia: Couchbase Server](https://en.wikipedia.org/wiki/Couchbase_Server)
 - [couchbase.com](https://www.couchbase.com)
 - [blog.couchbase.com: How to Build Observability Dashboards with Prometheus, Grafana & Couchbase](https://blog.couchbase.com/how-to-build-observability-dashboards-prometheus-grafana-couchbase)
-- [blog.couchbase.com podcast: NoSQL in the Perspective of Industry Leaders](http://blog.couchbase.com/2016/january/nosql-in-the-perspective-of-industry-leaders)
+- [blog.couchbase.com podcast: NoSQL in the Perspective of Industry Leaders](https://blog.couchbase.com/2016/january/nosql-in-the-perspective-of-industry-leaders)
 - [Query JSON Using SQL With Couchbase Query Workbench](https://dzone.com/articles/query-json-using-sql-with-couchbase-query-workbenc) Would you like to query a JSON document database using SQL-like syntax? Couchbase has N1QL for you.
 
 ### MongoDB Tools and MongoDB as a Service
 
-- [MongoDB Tools - Admin GUIs, Monitoring and Other Good Stuff](http://mongodb-tools.com)
-- [blog.mongodirector.com: Which is the best MongoDB GUI?](http://blog.mongodirector.com/which-is-the-best-mongodb-gui)
+- [MongoDB Tools - Admin GUIs, Monitoring and Other Good Stuff](https://mongodb-tools.com)
+- [blog.mongodirector.com: Which is the best MongoDB GUI?](https://blog.mongodirector.com/which-is-the-best-mongodb-gui)
 - [MongoLab: Fully managed MongoDB-as-a-Service](https://mongolab.com)
 - [Orchestrate: DBaaS|NoSQL with One REST API](https://orchestrate.io)
-- [mongodirector: MongoDB Hosting](http://mongodirector.com)
+- [mongodirector: MongoDB Hosting](https://mongodirector.com)
 - [MongoDB security tutorial](https://www.mongodb.com/docs/manual/security)
 - [Avoiding pitfalls running Mongo 3.2 in Docker on OSX](https://iainhunter.wordpress.com/2016/01/12/avoiding-pitfalls-running-mongo-3-2-in-docker-on-osx)
-- [MongoDB Tutorial – A Scalable NoSQL DB](http://www.javacodegeeks.com/2015/09/mongodb-a-scalable-nosql-db.html)
+- [MongoDB Tutorial – A Scalable NoSQL DB](https://www.javacodegeeks.com/2015/09/mongodb-a-scalable-nosql-db.html)
 - [MongoDB Cloud Manager](https://www.youtube.com/watch?v=bB57HKeOvmw&feature=youtu.be)
-- [3T MongoChef – Your New MongoDB GUI](http://3t.io)
-    - [Connecting to your MongoDB at MongoLab](http://3t.io/blog/how-to-connect-to-mongolab)
+- [3T MongoChef – Your New MongoDB GUI](https://3t.io)
+    - [Connecting to your MongoDB at MongoLab](https://3t.io/blog/how-to-connect-to-mongolab)
 - [MongoDB and Kubernetes 🌟](https://www.mongodb.com/products/integrations/kubernetes)
 - [betterprogramming.pub: MongoDB Schema Validation Rules](https://betterprogramming.pub/mongodb-schema-validation-rules-8a1afc6ea67b) How to apply schema validation rules in a collection.
 - [hashinteractive.com: MONGODUMP AND MONGORESTORE VS MONGOEXPORT AND MONGOIMPORT](https://hashinteractive.com/blog/mongodump-and-mongorestore-vs-mongoexport-and-mongoimport)
@@ -63,20 +63,20 @@
 
 ### Redis
 
-- [Redis](http://redis.io)
+- [Redis](https://redis.io)
 
 ### Alternatives
 
-- [Couchdb.apache.org](http://couchdb.apache.org)
-- [Cassandra.apache.org](http://cassandra.apache.org)
+- [Couchdb.apache.org](https://couchdb.apache.org)
+- [Cassandra.apache.org](https://cassandra.apache.org)
     - [solo.io: Step by Step: Datastax Cassandra with Istio and SNI routing](https://www.solo.io/blog/step-by-step-datastax-cassandra-with-istio-and-sni-routing) Connecting applications running outside of the Kubernetes cluster to the Cassandra database running inside the cluster.
     - [engineeringblog.yelp.com: Orchestrating Cassandra on Kubernetes with Operators](https://engineeringblog.yelp.com/2020/11/orchestrating-cassandra-on-kubernetes-with-operators.html)
     - [datastax.com: Apache Cassandra 4.0 is Now Delivered Via K8ssandra on Amazon EKS](https://www.ibm.com/products/datastax)
     - [foojay.io: K8ssandra Performance Benchmarks on Cloud Managed Kubernetes](https://foojay.io/today/k8ssandra-performance-benchmarks-on-cloud-managed-kubernetes)
     - [thenewstack.io: How to Run a Cassandra Operation in Docker](https://thenewstack.io/how-to-run-a-cassandra-operation-in-docker)
-- [HBase.apache.org](http://hbase.apache.org)
+- [HBase.apache.org](https://hbase.apache.org)
 - [Hive.apache.org](https://hive.apache.org)
-- [rethinkdb.com](http://rethinkdb.com)
+- [rethinkdb.com](https://rethinkdb.com)
 
 ### Apache Drill. Schema free SQL query on everything engines
 
@@ -85,8 +85,8 @@
 
 ## NewSQL
 
-- [NuoDB, elastically scalable database. A revolution compared to traditional monolithic 1-box databases. NuoDB is ACID,SQL, distributed/scalable and support flexible schemas](http://www.nuodb.com)
-- [Traditional database replication drawbacks](http://www.nuodb.com/blog/replication-is-it-easy)
+- [NuoDB, elastically scalable database. A revolution compared to traditional monolithic 1-box databases. NuoDB is ACID,SQL, distributed/scalable and support flexible schemas](https://www.nuodb.com)
+- [Traditional database replication drawbacks](https://www.nuodb.com/blog/replication-is-it-easy)
 - [medium.com: A chance for NewSQL databases](https://medium.com/packlinkeng/a-chance-for-newsql-databases-3bba18fea6a1)
 
 ## Videos

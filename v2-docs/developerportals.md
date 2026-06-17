@@ -3,6 +3,90 @@
 !!! info "Architectural Context"
     Detailed reference for API Marketplaces. API Management with API Gateways & Developer Portals in the context of Platform & Site Reliability.
 
+## Table of Contents
+
+1. [Application Development](#application-development)
+  - [Mobile](#mobile)
+    - [Android Ecosystem](#android-ecosystem)
+    - [iOS Ecosystem](#ios-ecosystem)
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Architecture](#architecture)
+  - [API Management](#api-management)
+    - [API Economy](#api-economy)
+    - [API Governance](#api-governance)
+    - [Case Studies](#case-studies)
+    - [Cloud Services](#cloud-services)
+    - [Enterprise Platforms](#enterprise-platforms)
+    - [Gateway Engines](#gateway-engines)
+    - [Infrastructure Patterns](#infrastructure-patterns)
+    - [Kubernetes Orchestration](#kubernetes-orchestration)
+    - [Observability Platforms](#observability-platforms)
+    - [Operations and Deployment](#operations-and-deployment)
+    - [Persistent Connections](#persistent-connections)
+    - [Red Hat Ecosystem](#red-hat-ecosystem)
+    - [Security and Protocols](#security-and-protocols)
+    - [Video Walkthroughs](#video-walkthroughs)
+  - [Design Patterns](#design-patterns)
+    - [Microservices Patterns](#microservices-patterns)
+  - [Microservices](#microservices)
+    - [API Gateways](#api-gateways)
+1. [Developer Experience](#developer-experience)
+  - [AI-Assisted Coding](#ai-assisted-coding)
+    - [Claude Code](#claude-code)
+1. [Developer Platforms](#developer-platforms)
+  - [Documentation](#documentation)
+    - [GitHub Wiki](#github-wiki)
+  - [Git Repositories](#git-repositories)
+    - [GitHub](#github)
+      - [Open Source](#open-source)
+1. [Domain APIs](#domain-apis)
+  - [Automotive](#automotive)
+    - [API Marketplaces](#api-marketplaces)
+    - [API Standardization](#api-standardization)
+    - [Connected Vehicle API](#connected-vehicle-api)
+    - [Open Source Labs](#open-source-labs)
+    - [Telemetry](#telemetry)
+    - [Tutorials](#tutorials)
+  - [Fintech](#fintech)
+    - [Banking Gateways](#banking-gateways)
+    - [Insurtech](#insurtech)
+    - [Open Banking](#open-banking)
+  - [IoT](#iot)
+    - [Smart Cities](#smart-cities)
+1. [Industry Insights](#industry-insights)
+  - [DevOps](#devops)
+    - [Developer Productivity](#developer-productivity)
+  - [Surveys](#surveys)
+    - [Developer Ecosystem](#developer-ecosystem)
+1. [Infrastructure](#infrastructure)
+  - [API Gateway](#api-gateway)
+    - [Cloud Native](#cloud-native)
+    - [Go Engines](#go-engines)
+    - [Industry News](#industry-news)
+    - [Java Spring Ecosystem](#java-spring-ecosystem)
+    - [Open Source Governance](#open-source-governance)
+1. [Infrastructure and Security](#infrastructure-and-security)
+  - [Networking Protocols](#networking-protocols)
+    - [Local Development Environments](#local-development-environments)
+    - [Transport Layer Security](#transport-layer-security)
+1. [Networking](#networking)
+  - [Service Mesh](#service-mesh)
+    - [eBPF vs Proxy](#ebpf-vs-proxy)
+1. [Platform Engineering](#platform-engineering)
+  - [Developer Portal](#developer-portal)
+    - [Internal Developer Platforms](#internal-developer-platforms)
+    - [Kubernetes Deployment](#kubernetes-deployment)
+    - [Tutorials](#tutorials-1)
+1. [Software Engineering](#software-engineering)
+  - [AI-Assisted Development](#ai-assisted-development)
+    - [GitHub Copilot](#github-copilot)
+  - [Collaboration](#collaboration)
+    - [Documentation Specifications](#documentation-specifications)
+  - [Programming Paradigms](#programming-paradigms)
+    - [Functional Programming](#functional-programming)
+
 ## Application Development
 
 ### Mobile
@@ -118,7 +202,7 @@
 
 #### Claude Code
 
-  - **(2025)** [==Claude Code Best Practice==](https://github.com/shanraisshan/claude-code-best-practice) <span class='md-tag md-tag--info'>⭐ 57660</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Curated collection of best practices, system prompts, and architecture layouts for Claude Code. Live Grounding: Explores advanced CLI-driven agent workflows, highlighting configuration optimizations, shell integration strategies, and secure execution configurations in local and remote environments.
+  - **(2025)** [==Claude Code Best Practice==](https://github.com/shanraisshan/claude-code-best-practice) <span class='md-tag md-tag--info'>⭐ 57660</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-26ea52d5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 2 L 20 3 L 30 5 L 40 3 L 50 2" fill="none" stroke="url(#spark-grad-26ea52d5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Curated collection of best practices, system prompts, and architecture layouts for Claude Code. Live Grounding: Explores advanced CLI-driven agent workflows, highlighting configuration optimizations, shell integration strategies, and secure execution configurations in local and remote environments.
 ## Developer Platforms
 
 ### Documentation
@@ -205,7 +289,7 @@
 
 #### Cloud Native
 
-  - **(2026)** [==apisix==](https://github.com/apache/apisix) <span class='md-tag md-tag--info'>⭐ 16724</span> <span class='md-tag md-tag--warning'>[LUA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Apache APISIX is a high-performance, dynamic cloud-native API gateway built on Nginx and OpenResty. It provides dynamic routing, active health checking, security protection, and telemetry integration, utilizing etcd for state storage to achieve ultra-low latency configurations.
+  - **(2026)** [==apisix==](https://github.com/apache/apisix) <span class='md-tag md-tag--info'>⭐ 16724</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-182e8c75" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 13 L 20 9 L 30 10 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-182e8c75)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[LUA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Apache APISIX is a high-performance, dynamic cloud-native API gateway built on Nginx and OpenResty. It provides dynamic routing, active health checking, security protection, and telemetry integration, utilizing etcd for state storage to achieve ultra-low latency configurations.
 #### Go Engines
 
   - **(2026)** [==KrakenD: The fastest API gateway comes with true linear scalability 🌟==](https://www.krakend.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — KrakenD is an enterprise-ready, open-source API Gateway engineered for linear scalability and ultra-high performance. By utilizing a stateless execution model, it avoids the overhead of internal database lookups, delivering sub-millisecond routing, data transformation, and endpoint aggregation.
@@ -229,6 +313,13 @@
 #### Transport Layer Security
 
   - **(2020)** [howhttps.works](https://howhttps.works)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive, visual educational resource designed to unpack the complex mechanics of the HTTPS protocol, TLS handshakes, and public key cryptography. Highly useful for onboarding developers to understand transport-layer security and key-exchange negotiations in web systems.
+## Networking
+
+### Service Mesh
+
+#### eBPF vs Proxy
+
+  - **(2021)** [solo.io: Exploring Cilium Layer 7 Capabilities Compared to Istio](https://www.solo.io/blog) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural analysis contrasting Cilium's kernel-level L7 eBPF traffic management with Istio's user-space Envoy proxy routing, comparing performance and complexity trade-offs.
 ## Platform Engineering
 
 ### Developer Portal
@@ -250,6 +341,11 @@
 #### GitHub Copilot
 
   - **(2026)** [Best Practices for Using GitHub Copilot](https://docs.github.com/en/copilot/get-started/best-practices) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Authoritative guidelines from GitHub designed to optimize interaction with Copilot. Covers prompt engineering tactics (such as context-setting files and comments), managing AI security and license compliance, and verifying generated output.
+### Collaboration
+
+#### Documentation Specifications
+
+  - **(2023)** [Open Source Friday: Spec Kit - What it is, the problems it solves, and how clear specs make collaboration work](https://www.youtube.com/live/2IArMAhkJcE?si=_LlIjakRXHUzERjy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on 'Spec Kit' - an open framework designed to facilitate collaborative creation of technical specifications. Details how clear, shared specification templates improve open-source contributions, bridge communication gaps between product and engineering, and keep technical debt in check.
 ### Programming Paradigms
 
 #### Functional Programming
@@ -257,5 +353,5 @@
   - **(2023)** [github.com/readme/guides: Functional Programming 101](https://github.com/readme/guides/functional-programming-basics) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory guide exploring core tenets of the functional programming paradigm, such as immutability, pure functions, and referential transparency. Synthesizes practical benefits of adopting these concepts in modern application development to minimize side effects, simplify testing, and boost concurrent performance.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [QA](./qa.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [SRE](./sre.md) | [Chaos Engineering](./chaos-engineering.md)
 

@@ -3,6 +3,199 @@
 !!! info "Architectural Context"
     Detailed reference for Java and Java Programming Models. Open Source Microservices Frameworks in the context of Developer Ecosystem.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Native](#cloud-native)
+  - [Containers](#containers)
+    - [Evolution](#evolution)
+1. [Cloud Native Architecture](#cloud-native-architecture)
+  - [Kubernetes](#kubernetes)
+    - [Fundamentals](#fundamentals)
+  - [Microservices Migration](#microservices-migration)
+    - [Case Study](#case-study)
+1. [Cloud-Native Platforms](#cloud-native-platforms)
+  - [Java Microservices](#java-microservices)
+    - [API Security](#api-security)
+    - [Frameworks](#frameworks)
+1. [Data Access](#data-access)
+  - [Hibernate](#hibernate)
+    - [Concurrency Control](#concurrency-control)
+    - [Security](#security)
+  - [Logging](#logging)
+    - [Hibernate](#hibernate-1)
+    - [Spring Data JPA](#spring-data-jpa)
+1. [Developer Experience](#developer-experience)
+  - [Inner Loop](#inner-loop)
+    - [Kubernetes CLI](#kubernetes-cli)
+    - [Manifest Generation](#manifest-generation)
+    - [Maven Integration](#maven-integration)
+    - [Orchestration Tooling](#orchestration-tooling)
+  - [Observability](#observability)
+    - [Logging](#logging-1)
+  - [Testing](#testing)
+    - [Integration Testing](#integration-testing)
+1. [Enterprise Java](#enterprise-java)
+  - [Cloud Migration](#cloud-migration)
+    - [Modernization](#modernization)
+    - [Namespace Migration](#namespace-migration)
+  - [Framework Selection](#framework-selection)
+    - [Architecture Battle](#architecture-battle)
+    - [Developer Education](#developer-education)
+    - [Market Analysis](#market-analysis)
+  - [JBoss EAP](#jboss-eap)
+    - [Development Environment](#development-environment)
+  - [Jakarta EE](#jakarta-ee)
+    - [Core Platform](#core-platform)
+  - [MicroProfile](#microprofile)
+    - [Framework Standard](#framework-standard)
+    - [Industry Trends](#industry-trends)
+    - [Specification](#specification)
+  - [Quarkus](#quarkus)
+    - [Spring Compatibility](#spring-compatibility)
+  - [Runtimes](#runtimes)
+    - [WildFly Swarm](#wildfly-swarm)
+1. [Event-Driven Architecture](#event-driven-architecture)
+  - [Distributed Transactions](#distributed-transactions)
+    - [Saga Pattern](#saga-pattern)
+  - [Kafka Integration](#kafka-integration)
+    - [Microservices](#microservices)
+    - [Spring Kafka](#spring-kafka)
+1. [Java Cloud Native](#java-cloud-native)
+  - [Industry Evolution](#industry-evolution)
+    - [Analysis](#analysis)
+  - [Quarkus](#quarkus-1)
+    - [API Development](#api-development)
+    - [Containerization](#containerization)
+    - [Core Runtime](#core-runtime)
+    - [Deployment Infrastructure](#deployment-infrastructure)
+    - [Developer Experience](#developer-experience-1)
+    - [Ecosystem](#ecosystem)
+    - [Evolution](#evolution-1)
+    - [Fundamentals](#fundamentals-1)
+    - [Industry Impact](#industry-impact)
+    - [Interoperability](#interoperability)
+    - [Migration](#migration)
+    - [Reactive Architecture](#reactive-architecture)
+    - [Reactive Programming](#reactive-programming)
+    - [Standards](#standards)
+  - [Spring Boot](#spring-boot)
+    - [API Documentation](#api-documentation)
+    - [Containerization](#containerization-1)
+    - [Evolution](#evolution-2)
+    - [Fundamentals](#fundamentals-2)
+    - [Kubernetes Deployment](#kubernetes-deployment)
+    - [Kubernetes Integration](#kubernetes-integration)
+    - [Local Development](#local-development)
+    - [Microservices Architecture](#microservices-architecture)
+    - [Microservices Security](#microservices-security)
+  - [Spring Cloud](#spring-cloud)
+    - [API Gateway](#api-gateway)
+    - [Configuration Management](#configuration-management)
+    - [Core Framework](#core-framework)
+    - [Kubernetes Integration](#kubernetes-integration-1)
+    - [Secrets Management](#secrets-management)
+1. [Java Platform](#java-platform)
+  - [Concurrency](#concurrency)
+    - [Project Loom](#project-loom)
+  - [Documentation](#documentation)
+    - [Javadoc](#javadoc)
+1. [Kubernetes and Cloud Native](#kubernetes-and-cloud-native)
+  - [CICD](#cicd)
+    - [Dockerization](#dockerization)
+  - [Microservices](#microservices-1)
+    - [Best Practices](#best-practices)
+  - [Observability](#observability-1)
+    - [Logging](#logging-2)
+  - [Scaling](#scaling)
+    - [Autoscaling](#autoscaling)
+  - [Service Mesh](#service-mesh)
+    - [Istio Integration](#istio-integration)
+1. [Modern Java](#modern-java)
+  - [Automation](#automation)
+    - [Business Rules](#business-rules)
+  - [Frameworks](#frameworks-1)
+    - [Database Access](#database-access)
+    - [Kubernetes Integration](#kubernetes-integration-2)
+    - [Logging](#logging-3)
+    - [MicroProfile](#microprofile-1)
+    - [Migrations](#migrations)
+    - [Quarkus](#quarkus-2)
+    - [Quarkus vs Spring](#quarkus-vs-spring)
+    - [Reactive Programming](#reactive-programming-1)
+    - [Spring Cloud](#spring-cloud-1)
+  - [Performance](#performance)
+    - [Benchmarking](#benchmarking)
+    - [Concurrency](#concurrency-1)
+    - [Testing](#testing-1)
+1. [Software Development](#software-development)
+  - [Business Automation](#business-automation)
+    - [Rule Engines](#rule-engines)
+  - [Cloud Native Java](#cloud-native-java)
+    - [Containerization](#containerization-2)
+    - [Kubernetes Deployment](#kubernetes-deployment-1)
+    - [Modernization](#modernization-1)
+  - [Design Patterns](#design-patterns)
+    - [OOP Principles](#oop-principles)
+  - [JVM Internals](#jvm-internals)
+    - [Garbage Collection](#garbage-collection)
+  - [Java Ecosystem](#java-ecosystem)
+    - [Code Quality](#code-quality)
+    - [Governance](#governance)
+    - [History](#history)
+    - [Installation](#installation)
+    - [JDK Distribution](#jdk-distribution)
+    - [Licensing](#licensing)
+    - [OpenJDK Support](#openjdk-support)
+    - [Roadmaps](#roadmaps)
+  - [Java Language](#java-language)
+    - [Concurrency](#concurrency-2)
+    - [Migration](#migration-1)
+    - [Syntax and Features](#syntax-and-features)
+  - [Microservices Design](#microservices-design)
+    - [Interview Prep](#interview-prep)
+    - [Java Microservices](#java-microservices-1)
+  - [Spring Framework](#spring-framework)
+    - [Annotations](#annotations)
+1. [Software Engineering](#software-engineering)
+  - [Java Development](#java-development)
+    - [Code Generation](#code-generation)
+1. [Spring Ecosystem](#spring-ecosystem)
+  - [Application Framework](#application-framework)
+    - [Release Analysis](#release-analysis)
+  - [Configuration](#configuration)
+    - [Application Properties](#application-properties)
+    - [Functional Bean Registration](#functional-bean-registration)
+    - [Logging](#logging-4)
+  - [Core Platform](#core-platform-1)
+    - [Annotations](#annotations-1)
+    - [Developer Education](#developer-education-1)
+    - [Modernization](#modernization-2)
+    - [Optimization](#optimization)
+  - [Data Access](#data-access-1)
+    - [JDBC](#jdbc)
+  - [GraalVM](#graalvm)
+    - [Native Image](#native-image)
+  - [Interoperability](#interoperability-1)
+    - [MicroProfile](#microprofile-2)
+  - [Microservices](#microservices-2)
+    - [Application Framework](#application-framework-1)
+  - [Observability](#observability-2)
+    - [Administration UI](#administration-ui)
+  - [Packaging](#packaging)
+    - [Deployment Formats](#deployment-formats)
+  - [Platform](#platform)
+    - [Core Framework](#core-framework-1)
+  - [Security](#security-1)
+    - [Access Control](#access-control)
+  - [Web Layer](#web-layer)
+    - [MVC](#mvc)
+1. [Web Layer](#web-layer-1)
+  - [Full Stack](#full-stack)
+    - [Spring Boot and Angular](#spring-boot-and-angular)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -10,11 +203,10 @@
 #### General Reference
 
   - [Spring Cloud Kubernetes](https://spring.io/projects/spring-cloud/-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering spring.io in the Kubernetes Tools ecosystem.
-  - [It’s time! Migrating to Java 11 🌟](https://medium.com/criciumadev/its-time-migrating-to-java-11-5eb3868354f9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering It’s time! Migrating to Java 11 🌟 in the Kubernetes Tools ecosystem.
-  - [About WebSphere Liberty](https://developer.ibm.com/wasdev/websphere-liberty)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering About WebSphere Liberty in the Kubernetes Tools ecosystem.
   - [Dzone: Programming Styles Compared: Spring Framework vis-a-vis Eclipse MicroProfile' 🌟🌟](https://dzone.com/articles/programming-styles-spring-boot-vis-a-vis-with-ecli)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Programming Styles Compared: Spring Framework vis-a-vis Eclipse MicroProfile' 🌟🌟 in the Kubernetes Tools ecosystem.
-  - [wikipedia: Java Enterprise Edition (Java EE)](https://en.wikipedia.org/wiki/Java_Platform,_Enterprise_Edition)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering wikipedia: Java Enterprise Edition (Java EE) in the Kubernetes Tools ecosystem.
   - [reddit.com/r/java](https://www.reddit.com/r/java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/java in the Kubernetes Tools ecosystem.
+  - [About WebSphere Liberty](https://developer.ibm.com/wasdev/websphere-liberty)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering About WebSphere Liberty in the Kubernetes Tools ecosystem.
+  - [wikipedia: Java Enterprise Edition (Java EE)](https://en.wikipedia.org/wiki/Java_Platform,_Enterprise_Edition)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering wikipedia: Java Enterprise Edition (Java EE) in the Kubernetes Tools ecosystem.
   - [medium.com/@javachampions : Java is still free](https://medium.com/@javachampions/java-is-still-free-2-0-0-6b9aa8d6d244)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@javachampions : Java is still free in the Kubernetes Tools ecosystem.
   - [dzone: Java Creator James Gosling Interview](https://dzone.com/articles/java-creator-james-gosling-interview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Java Creator James Gosling Interview in the Kubernetes Tools ecosystem.
   - [dzone: Choosing Library To Build Rest API in Java](https://dzone.com/articles/building-rest-api-in-java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Choosing Library To Build Rest API in Java in the Kubernetes Tools ecosystem.
@@ -23,6 +215,7 @@
   - [betterprogramming.pub: Learn SOLID Design Principles in Java by Coding It](https://betterprogramming.pub/learn-solid-design-principles-in-java-by-coding-it-dcbf64a17b53)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering betterprogramming.pub: Learn SOLID Design Principles in Java by Coding It in the Kubernetes Tools ecosystem.
   - [medium.com/javarevisited: Do you know about the different microservices' frameworks for Java? 🌟](https://medium.com/javarevisited/do-you-know-about-the-different-microservices-frameworks-for-java-90b61f8cdbd7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/javarevisited: Do you know about the different microservices' frameworks for Java? 🌟 in the Kubernetes Tools ecosystem.
   - [IBM JDK](https://developer.ibm.com/javasdk)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering IBM JDK in the Kubernetes Tools ecosystem.
+  - [It’s time! Migrating to Java 11 🌟](https://medium.com/criciumadev/its-time-migrating-to-java-11-5eb3868354f9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering It’s time! Migrating to Java 11 🌟 in the Kubernetes Tools ecosystem.
   - [Eclipse MicroProfile: 5 Things You Need to Know 🌟](https://medium.com/@alextheedom/eclipse-microprofile-5-things-you-need-to-know-e7a0bc9a3fb6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Eclipse MicroProfile: 5 Things You Need to Know 🌟 in the Kubernetes Tools ecosystem.
   - [medium: Multi-Tenancy Implementation using Spring Boot + Hibernate 🌟](https://medium.com/swlh/multi-tenancy-implementation-using-spring-boot-hibernate-6a8e3ecb251a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==medium: Multi-Tenancy Implementation using Spring Boot + Hibernate== 🌟 in the Kubernetes Tools ecosystem.
   - [stackoverflow.com: How to map a MySQL JSON column to a Java entity property' using JPA and Hibernate](https://stackoverflow.com/questions/44308167/how-to-map-a-mysql-json-column-to-a-java-entity-property-using-jpa-and-hibernate)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering stackoverflow.com: How to map a MySQL JSON column to a Java entity property' using JPA and Hibernate in the Kubernetes Tools ecosystem.
@@ -65,7 +258,7 @@
 
 #### Case Study
 
-  - **(2023)** [Salaboy/From Monolith to K8s](https://github.com/Salaboy/from-monolith-to-k8s) <span class='md-tag md-tag--info'>⭐ 354</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive practical blueprint mapping out the refactoring of monolithic architectures to Kubernetes-native services. Demonstrates key modernization steps including structural separation of services, data partitioning, and ingress configuration. This project is highly referenceable as a hands-on pedagogical resource for architectural transitions.
+  - **(2023)** [Salaboy/From Monolith to K8s](https://github.com/Salaboy/from-monolith-to-k8s) <span class='md-tag md-tag--info'>⭐ 354</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2ba9f9fc" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 5 L 20 5 L 30 8 L 40 13 L 50 8" fill="none" stroke="url(#spark-grad-2ba9f9fc)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive practical blueprint mapping out the refactoring of monolithic architectures to Kubernetes-native services. Demonstrates key modernization steps including structural separation of services, data partitioning, and ingress configuration. This project is highly referenceable as a hands-on pedagogical resource for architectural transitions.
 ## Cloud-Native Platforms
 
 ### Java Microservices
@@ -104,6 +297,9 @@
 #### Manifest Generation
 
   - **(2025)** [**Dekorate**](https://dekorate.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An annotation-based code generation tool that automatically creates Kubernetes manifests (YAML, JSON) during compile time. By decorating Java code directly, developers can emit Deployment, Service, and Ingress templates without leaving their IDEs. While highly convenient for Java-centric shops, it can obscure platform-level complexities that DevOps teams may need to manage externally.
+#### Maven Integration
+
+  - **(2025)** [**JKube**](https://eclipse.dev/jkube) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Eclipse JKube is a collection of plugins and libraries used for building container images and generating Kubernetes manifests out of Java projects. Successor to the popular Fabric8 Maven Plugin, it integrates natively into Maven and Gradle builds. In 2026, it remains a robust enterprise choice for teams seeking to automate image builds and deployments directly from their existing JVM build pipelines.
 #### Orchestration Tooling
 
   - **(2025)** [==Skaffold --generate-manifests==](https://skaffold.dev/docs/pipeline-stages/init) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Detail on Skaffold's `--generate-manifests` capability, which facilitates local build and deployment orchestration on Kubernetes. This tool manages the developer inner loop by tracking local code modifications, triggering rebuilding/tagging of images, and automating deployments. It has become an industry standard for continuous local feedback loops in multi-service local environments.
@@ -111,12 +307,12 @@
 
 #### Logging (1)
 
-  - **(2024)** [github.com/piomin/spring-boot-logging](https://github.com/piomin/spring-boot-logging) <span class='md-tag md-tag--info'>⭐ 276</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A utility library designed to simplify HTTP request/response logging in Spring Boot applications. It provides pre-configured logging filters that output telemetry in structured, customizable layouts suitable for parsing tools like Elasticsearch or Fluentd. It is highly valued by development teams seeking instant operational insight without having to draft custom servlet filter logic.
+  - **(2024)** [github.com/piomin/spring-boot-logging](https://github.com/piomin/spring-boot-logging) <span class='md-tag md-tag--info'>⭐ 276</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9bfa76f2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 10 L 20 2 L 30 3 L 40 4 L 50 3" fill="none" stroke="url(#spark-grad-9bfa76f2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A utility library designed to simplify HTTP request/response logging in Spring Boot applications. It provides pre-configured logging filters that output telemetry in structured, customizable layouts suitable for parsing tools like Elasticsearch or Fluentd. It is highly valued by development teams seeking instant operational insight without having to draft custom servlet filter logic.
 ### Testing
 
 #### Integration Testing
 
-  - **(2025)** [==testcontainers-spring-boot 🌟==](https://github.com/PlaytikaOSS/testcontainers-spring-boot) <span class='md-tag md-tag--info'>⭐ 876</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A powerful open-source library that automates the lifecycle of Docker containers (PostgreSQL, Kafka, Redis) during JUnit test execution. It eliminates the need for shared database environments and mock frameworks, leading to high-fidelity integration tests. Today, this tool is universally recognized as a best-practice asset for CI/CD test suites across the Spring ecosystem.
+  - **(2025)** [==testcontainers-spring-boot 🌟==](https://github.com/PlaytikaOSS/testcontainers-spring-boot) <span class='md-tag md-tag--info'>⭐ 876</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-77a3557a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 2 L 20 3 L 30 6 L 40 9 L 50 4" fill="none" stroke="url(#spark-grad-77a3557a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A powerful open-source library that automates the lifecycle of Docker containers (PostgreSQL, Kafka, Redis) during JUnit test execution. It eliminates the need for shared database environments and mock frameworks, leading to high-fidelity integration tests. Today, this tool is universally recognized as a best-practice asset for CI/CD test suites across the Spring ecosystem.
 ## Enterprise Java
 
 ### Cloud Migration
@@ -198,7 +394,7 @@
   - **(2021)** [**developers.redhat.com: Build an API using Quarkus from the ground up 🌟**](https://developers.redhat.com/blog/2021/05/11/building-an-api-using-quarkus-from-the-ground-up) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Step-by-step tutorial showing how to write, construct, secure, and run a REST API using Panache ORM and RESTEasy within Quarkus. Details how to simplify Hibernate boilerplates through active record pattern styling. It provides an excellent architectural base template for deploying standard microservice endpoints.
 #### Containerization
 
-  - **(2024)** [**Quarkus Images**](https://github.com/quarkusio/quarkus-images) <span class='md-tag md-tag--info'>⭐ 123</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Repository containing base container images optimized for compiling and running Quarkus workloads. It provides base runtime images tailored for both traditional JVM execution and native binaries built via GraalVM. Essential for DevOps engineers seeking minimized image attack vectors and optimized build-stage cache structures.
+  - **(2024)** [**Quarkus Images**](https://github.com/quarkusio/quarkus-images) <span class='md-tag md-tag--info'>⭐ 123</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-19b8a532" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 11 L 20 4 L 30 3 L 40 6 L 50 11" fill="none" stroke="url(#spark-grad-19b8a532)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Repository containing base container images optimized for compiling and running Quarkus workloads. It provides base runtime images tailored for both traditional JVM execution and native binaries built via GraalVM. Essential for DevOps engineers seeking minimized image attack vectors and optimized build-stage cache structures.
 #### Core Runtime
 
   - **(2026)** [==quarkus.io==](https://quarkus.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official landing page for Quarkus, the 'Supersonic Subatomic Java' framework designed explicitly for GraalVM and OpenJDK. Quarkus optimizes Java applications for Kubernetes by providing incredibly low memory footprints and near-instant startup speeds (sub-millisecond boot). Over the years, it has matured into a powerful enterprise competitor to Spring Boot, specifically for serverless and container-dense runtimes.
@@ -263,7 +459,7 @@
   - **(2023)** [==learnk8s.io: Developing and deploying Spring Boot microservices on Kubernetes==](https://learnkube.com/spring-boot-kubernetes-guide) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A highly technical deep dive into deployment strategies for Spring Boot microservices on Kubernetes, focusing on resource constraints, graceful shutdown, and container sizing. It bridges the gap between Java's JVM memory footprints and Kubernetes container limits. This guide remains an industry gold-standard reference for configuring thread pools and JVM ergonomics inside container environments.
 #### Kubernetes Integration
 
-  - **(2026)** [==github.com/spring-projects: springboot enables these probes automatically when running in k8s==](https://github.com/spring-projects/spring-boot#L73) <span class='md-tag md-tag--info'>⭐ 80916</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Details Spring Boot's built-in Kubernetes-native integration features, specifically the auto-detection of container platform hosting. Once identified, it splits Spring Actuator's health check endpoint into dedicated `/actuator/health/liveness` and `/actuator/health/readiness` routes. This out-of-the-box support guarantees smooth coordination with Kubernetes container lifecycles during zero-downtime rollouts.
+  - **(2026)** [==github.com/spring-projects: springboot enables these probes automatically when running in k8s==](https://github.com/spring-projects/spring-boot#L73) <span class='md-tag md-tag--info'>⭐ 80916</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-46f99651" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 4 L 20 11 L 30 3 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-46f99651)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Details Spring Boot's built-in Kubernetes-native integration features, specifically the auto-detection of container platform hosting. Once identified, it splits Spring Actuator's health check endpoint into dedicated `/actuator/health/liveness` and `/actuator/health/readiness` routes. This out-of-the-box support guarantees smooth coordination with Kubernetes container lifecycles during zero-downtime rollouts.
 #### Local Development
 
   - **(2022)** [**dev.to/francescoxx: Java CRUD Rest API using Spring Boot, Hibernate, Postgres, Docker and Docker Compose**](https://dev.to/francescoxx/java-crud-rest-api-using-spring-boot-hibernate-postgres-docker-and-docker-compose-5cln) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical tutorial illustrating the deployment of a classic Spring Boot CRUD application integrated with PostgreSQL and automated locally via Docker Compose. It serves as an excellent starting template for setting up standard developer sandboxes. Modern platforms in 2026 often replace this flow with Testcontainers for local testing, but Docker Compose remains a solid base for local multi-service orchestration.
@@ -287,7 +483,7 @@
   - **(2026)** [==Spring Cloud==](https://spring.io/projects/spring-cloud) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The comprehensive ecosystem orchestrating distributed systems patterns (configuration management, service discovery, circuit breakers, routing, and telemetry). It provides a high-level abstraction model for constructing robust microservices. While Kubernetes handles many infrastructure-level concerns, Spring Cloud remains essential for application-level resilience and service coordination.
 #### Kubernetes Integration (1)
 
-  - **(2026)** [==github: Spring Cloud Kubernetes 🌟==](https://github.com/spring-cloud/spring-cloud-kubernetes) <span class='md-tag md-tag--info'>⭐ 3534</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A specialized integration library that allows Spring Cloud applications to run transparently on Kubernetes. It maps Kubernetes ConfigMaps and Secrets to Spring's Environment, and translates discovery mechanisms to native Kubernetes endpoints. It bridges the gap between Cloud Native infrastructure patterns and Java application logic.
+  - **(2026)** [==github: Spring Cloud Kubernetes 🌟==](https://github.com/spring-cloud/spring-cloud-kubernetes) <span class='md-tag md-tag--info'>⭐ 3534</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7e7215a0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 11 L 20 12 L 30 9 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-7e7215a0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A specialized integration library that allows Spring Cloud applications to run transparently on Kubernetes. It maps Kubernetes ConfigMaps and Secrets to Spring's Environment, and translates discovery mechanisms to native Kubernetes endpoints. It bridges the gap between Cloud Native infrastructure patterns and Java application logic.
   - **(2019)** [**piotrminkowski.com: Microservices with spring cloud kubernetes**](https://piotrminkowski.com/2019/12/20/microservices-with-spring-cloud-kubernetes) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Real-world tutorial illustrating how to build and orchestrate Spring microservices leveraging Kubernetes service discovery and configurations instead of Eureka and Config Server. It presents a streamlined operational model by offloading standard cluster networking to native Kubernetes tools. A classic architecture reference for optimizing resource footprints in enterprise k8s environments.
 #### Secrets Management
 
@@ -307,6 +503,11 @@
   - **(2021)** [openjdk.java.net: JEP 413: Code Snippets in Java API Documentation](https://openjdk.org/jeps/413) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This proposal details JEP 413, introducing the `@snippet` tag for Java API documentation. By allowing the integration of validated, syntax-highlighted code snippets directly from external source files or internal blocks, it replaces fragile HTML `<pre>` tags, streamlining the documentation-as-code workflow for large enterprise platforms.
 ## Kubernetes and Cloud Native
 
+### CICD
+
+#### Dockerization
+
+  - **(2020)** [jaxenter.com: CI/CD for Spring Boot Microservices: Part 1](https://devm.io/microservices/cicd-microservices-docker-162408) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details optimal Docker containerization patterns for Spring Boot microservices, addressing multi-stage image builds, layer caching, and minimizing runtime footprint sizes. It shows how to design pipeline steps to generate secure, unprivileged OCI-compliant container images.
 ### Microservices (1)
 
 #### Best Practices
@@ -345,7 +546,7 @@
   - **(2021)** [developers.redhat.com: Quarkus for Spring developers: Kubernetes-native' design patterns](https://developers.redhat.com/articles/2021/10/11/quarkus-spring-developers-kubernetes-native-design-patterns) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores how Spring Boot developers can utilize Quarkus to build Kubernetes-native application patterns, such as direct ConfigMap/Secret binding and health probe automation. By 2026, native Kubernetes integration inside Java frameworks has significantly reduced the need for external boilerplate sidecars.
 #### Logging (3)
 
-  - **(2026)** [==logbook==](https://github.com/zalando/logbook) <span class='md-tag md-tag--info'>⭐ 2048</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensible Java library developed by Zalando for logging HTTP requests and responses. In 2026, Logbook is a de facto standard for security compliance and audit logging in distributed environments, providing clean, structured JSON payloads with context-safe credential masking.
+  - **(2026)** [==logbook==](https://github.com/zalando/logbook) <span class='md-tag md-tag--info'>⭐ 2048</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e9777950" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 2 L 20 5 L 30 4 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-e9777950)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensible Java library developed by Zalando for logging HTTP requests and responses. In 2026, Logbook is a de facto standard for security compliance and audit logging in distributed environments, providing clean, structured JSON payloads with context-safe credential masking.
 #### MicroProfile (1)
 
   - **(2021)** [Red Hat Thorntail](https://thorntail.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Formerly known as WildFly Swarm, Thorntail was Red Hat's early MicroProfile runtime. In 2026, Thorntail is entirely deprecated and archived. Red Hat has transitioned its engineering effort and user community to Quarkus, which serves as the modern standard for fast cloud-native Java.
@@ -369,13 +570,13 @@
 
 #### Benchmarking
 
-  - **(2026)** [==GoodforGod/java-logger-benchmark==](https://github.com/GoodforGod/java-logger-benchmark) <span class='md-tag md-tag--info'>⭐ 16</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A performance micro-benchmark comparing major Java logging frameworks like SLF4J, Logback, and Log4j2. For high-throughput microservices in 2026, understanding logging allocation costs and thread contention is critical to maximizing compute efficiency in Kubernetes clusters.
+  - **(2026)** [==GoodforGod/java-logger-benchmark==](https://github.com/GoodforGod/java-logger-benchmark) <span class='md-tag md-tag--info'>⭐ 16</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b31ac831" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 11 L 20 3 L 30 2 L 40 9 L 50 7" fill="none" stroke="url(#spark-grad-b31ac831)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A performance micro-benchmark comparing major Java logging frameworks like SLF4J, Logback, and Log4j2. For high-throughput microservices in 2026, understanding logging allocation costs and thread contention is critical to maximizing compute efficiency in Kubernetes clusters.
 #### Concurrency (1)
 
   - **(2021)** [java-success.com: 5 Ways to debug thread-safety issues in Java](https://www.java-success.com/debugging-java-thread-safety-multi-threading-concurrency-issues) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An educational guide detailing patterns to debug complex multi-threading and concurrency issues in Java. In 2026, with the widespread adoption of Java Virtual Threads (Project Loom), debugging paradigms have shifted from traditional thread pool management to lightweight structured concurrency practices.
 #### Testing (1)
 
-  - **(2026)** [==jfrunit==](https://github.com/moditect/jfrunit) <span class='md-tag md-tag--info'>⭐ 326</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly innovative JUnit extension enabling assertions against Java Flight Recorder (JFR) events. In 2026, JfrUnit is standard for continuous performance regression testing, automatically blocking commits that trigger abnormal CPU usage or memory allocations.
+  - **(2026)** [==jfrunit==](https://github.com/moditect/jfrunit) <span class='md-tag md-tag--info'>⭐ 326</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8b7aca87" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 4 L 20 6 L 30 2 L 40 4 L 50 12" fill="none" stroke="url(#spark-grad-8b7aca87)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly innovative JUnit extension enabling assertions against Java Flight Recorder (JFR) events. In 2026, JfrUnit is standard for continuous performance regression testing, automatically blocking commits that trigger abnormal CPU usage or memory allocations.
   - **(2021)** [morling.dev: Introducing JfrUnit 1.0.0.Alpha1](https://www.morling.dev/blog/introducing-jfrunit-1-0-0-alpha1) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The introductory blog post for JfrUnit, outlining its mission to enable assertions against performance metrics in unit tests. By capturing Flight Recorder diagnostics, JfrUnit solves the historically difficult problem of detecting performance issues before applications reach production.
 ## Software Development
 
@@ -432,6 +633,7 @@
 #### Licensing
 
   - **(2021)** [Oracle Java](https://www.oracle.com/java/technologies/java-se-glance.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details Oracle's licensing pivot with the introduction of the No-Fee Terms and Conditions (NFTC) license for JDK 17. The analysis explains how this license permits free production usage, easing previous compliance friction for enterprise environments.
+  - **(2018)** [Oracle's Java 11 trap - Use OpenJDK instead! 🌟](https://blog.joda.org/2018/09/do-not-fall-into-oracles-java-11-trap.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly discussed warning article regarding the commercial risks associated with using Oracle JDK 11 without a paid subscription. The piece strongly urges teams to migrate standard JVM deployments to community OpenJDK distributions to maintain licensing compliance.
 #### OpenJDK Support
 
   - **(2018)** [developers.redhat.com: The future of Java and OpenJDK updates without Oracle support](https://developers.redhat.com/blog/2018/09/24/the-future-of-java-and-openjdk-updates-without-oracle-support) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat's strategic statement on taking over the stewardship of OpenJDK updates (specifically JDK 8 and JDK 11) after Oracle's support cycles. It outlines Red Hat's commitment to community-driven, enterprise-grade, open-source Java runtimes suitable for cloud native microservices.
@@ -532,7 +734,7 @@
 
 #### Administration UI
 
-  - **(2026)** [==codecentric's Spring Boot Admin UI 🌟==](https://github.com/codecentric/spring-boot-admin) <span class='md-tag md-tag--info'>⭐ 12828</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A popular community dashboard engineered to coordinate, monitor, and manage Spring Boot applications. By parsing actuator telemetry data, it displays real-time statistics including thread states, JVM metrics, memory usage, dynamic logging levels, and distributed transaction status.
+  - **(2026)** [==codecentric's Spring Boot Admin UI 🌟==](https://github.com/codecentric/spring-boot-admin) <span class='md-tag md-tag--info'>⭐ 12828</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-07b74f63" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 11 L 20 9 L 30 9 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-07b74f63)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A popular community dashboard engineered to coordinate, monitor, and manage Spring Boot applications. By parsing actuator telemetry data, it displays real-time statistics including thread states, JVM metrics, memory usage, dynamic logging levels, and distributed transaction status.
 ### Packaging
 
 #### Deployment Formats
@@ -562,5 +764,5 @@
   - **(2022)** [javarevisited.blogspot.com: Spring Boot + Angular Example Tutorial for Java Developers](https://javarevisited.blogspot.com/2022/01/spring-boot-angular-example-tutorial.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A fullstack starter tutorial demonstrating how to integrate a Spring Boot backend API with an Angular single-page frontend application. It covers structuring cross-origin request policies (CORS), handling JSON model parsing, and securing application endpoints.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
+💡 **Explore Related:** [Angular](./angular.md) | [Python](./python.md) | [Dom](./dom.md)
 

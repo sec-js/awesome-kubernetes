@@ -234,7 +234,7 @@
 - [percona.com: MySQL on Kubernetes with GitOps 🌟](https://www.percona.com/blog/mysql-on-kubernetes-with-gitops)
 - [Moco](https://cybozu-go.github.io/moco) MOCO is a Kubernetes operator for MySQL created and maintained by Cybozu.
 - [cloudsavvyit.com: How to Run PHPMyAdmin in a Docker Container](https://www.cloudsavvyit.com/13842/how-to-run-phpmyadmin-in-a-docker-container)
-- [tusacentral.com: MySQL on Kubernetes demystified](http://www.tusacentral.com/joomla/index.php/mysql-blogs/243-mysql-on-kubernetes-demystified)
+- [tusacentral.com: MySQL on Kubernetes demystified](https://www.tusacentral.com/joomla/index.php/mysql-blogs/243-mysql-on-kubernetes-demystified)
 - [dzone: PostgreSQL vs MySQL Performance](https://dzone.com/articles/postgresql-versus-mysql-performance)
 - [thenewstack.io: Deploy MySQL and phpMyAdmin with Docker](https://thenewstack.io/deploy-mysql-and-phpmyadmin-with-docker)
 

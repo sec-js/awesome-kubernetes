@@ -3,21 +3,73 @@
 !!! info "Architectural Context"
     Detailed reference for Caching Solutions in the context of Networking & Service Mesh.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Data and Caching](#data-and-caching)
+  - [CDN](#cdn)
+    - [Fundamentals](#fundamentals)
+  - [Caching Fundamentals](#caching-fundamentals)
+    - [Cache Invalidation](#cache-invalidation)
+    - [Slides](#slides)
+  - [Data Grid](#data-grid)
+    - [In-Memory Caching](#in-memory-caching)
+  - [Edge Caching](#edge-caching)
+    - [Varnish](#varnish)
+1. [Edge and Serverless](#edge-and-serverless)
+  - [WebAssembly Platforms](#webassembly-platforms)
+    - [Tau Edge](#tau-edge)
+1. [Infrastructure](#infrastructure)
+  - [Caching](#caching)
+    - [Redis](#redis)
+1. [Infrastructure and Caching](#infrastructure-and-caching)
+  - [Database and Storage](#database-and-storage)
+    - [Tarantool and Nginx](#tarantool-and-nginx)
+  - [Edge Caching](#edge-caching-1)
+    - [Enterprise Linux Support](#enterprise-linux-support)
+    - [Legacy Varnish Tuning](#legacy-varnish-tuning)
+    - [VM Administration](#vm-administration)
+  - [In-Memory Datastores](#in-memory-datastores)
+    - [High-Performance Caching](#high-performance-caching)
+    - [Memcached Fundamentals](#memcached-fundamentals)
+    - [Redis Deep-Dive](#redis-deep-dive)
+    - [Redis Foundations](#redis-foundations)
+  - [Kubernetes Caching](#kubernetes-caching)
+    - [Distributed Caching](#distributed-caching)
+  - [Kubernetes Operators](#kubernetes-operators)
+    - [Varnish Deployment](#varnish-deployment)
+  - [Network and Security](#network-and-security)
+    - [TLS Offloading](#tls-offloading)
+  - [Web Servers](#web-servers)
+    - [Nginx Caching](#nginx-caching)
+    - [Nginx Customization](#nginx-customization)
+1. [Networking](#networking)
+  - [Load Balancing](#load-balancing)
+    - [Database Proxy](#database-proxy)
+    - [HAProxy](#haproxy)
+  - [Security](#security)
+    - [HAProxy](#haproxy-1)
+1. [Performance](#performance)
+  - [Caching](#caching-1)
+    - [Varnish on RHEL](#varnish-on-rhel)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
 
 #### General Reference
 
-  - [nixCraft: 9 Awesome Open Source Web Performance Software For Linux and Unix-like' Systems](https://www.cyberciti.biz/open-source/http-web-performance-proxy-load-balancer-accelerator-software)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering nixCraft: 9 Awesome Open Source Web Performance Software For Linux and Unix-like' Systems in the Kubernetes Tools ecosystem.
-  - [DZone refcard: Java Caching](https://dzone.com/refcardz/java-caching)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering DZone refcard: Java Caching in the Kubernetes Tools ecosystem.
+  - [kothiyal-anuj.medium.com: Serverless Diary: The Ultimate Guide to **Caching' in the Cloud**](https://kothiyal-anuj.medium.com/serverless-diary-the-ultimate-guide-to-caching-in-the-cloud-249f6a06915f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering kothiyal-anuj.medium.com: Serverless Diary: The Ultimate Guide to **Caching' in the Cloud** in the Kubernetes Tools ecosystem.
   - [Wikipedia: Web cache](https://en.wikipedia.org/wiki/Web_cache)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Wikipedia: Web cache in the Kubernetes Tools ecosystem.
   - [Wikipedia: Dynamic site acceleration](https://en.wikipedia.org/wiki/Dynamic_site_acceleration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Wikipedia: Dynamic site acceleration in the Kubernetes Tools ecosystem.
+  - [nixCraft: 9 Awesome Open Source Web Performance Software For Linux and Unix-like' Systems](https://www.cyberciti.biz/open-source/http-web-performance-proxy-load-balancer-accelerator-software)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering nixCraft: 9 Awesome Open Source Web Performance Software For Linux and Unix-like' Systems in the Kubernetes Tools ecosystem.
   - [Dzone: An Introduction to Caching: How and Why We Do It 🌟](https://dzone.com/articles/introducing-amp-assimilating-caching-quick-read-fo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: An Introduction to Caching: How and Why We Do It 🌟 in the Kubernetes Tools ecosystem.
   - [medium: Caching — System Design Concept 🌟](https://medium.com/enjoy-algorithm/caching-system-design-concept-500134cff300)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Caching — System Design Concept 🌟 in the Kubernetes Tools ecosystem.
   - [medium: Microservices Distributed Caching](https://medium.com/design-microservices-architecture-with-patterns/microservices-distributed-caching-76828817e41b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Microservices Distributed Caching in the Kubernetes Tools ecosystem.
-  - [kothiyal-anuj.medium.com: Serverless Diary: The Ultimate Guide to **Caching' in the Cloud**](https://kothiyal-anuj.medium.com/serverless-diary-the-ultimate-guide-to-caching-in-the-cloud-249f6a06915f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering kothiyal-anuj.medium.com: Serverless Diary: The Ultimate Guide to **Caching' in the Cloud** in the Kubernetes Tools ecosystem.
   - [medium.com/rtkal: Distributed Cache Design](https://medium.com/rtkal/distributed-cache-design-348cbe334df1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/rtkal: Distributed Cache Design in the Kubernetes Tools ecosystem.
+  - [DZone refcard: Java Caching](https://dzone.com/refcardz/java-caching)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering DZone refcard: Java Caching in the Kubernetes Tools ecosystem.
   - [Dzone: Getting Started with Infinispan](https://dzone.com/refcardz/getting-started-infinispan)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Getting Started with Infinispan in the Kubernetes Tools ecosystem.
   - [Red Hat Data Grid Overview](https://developers.redhat.com/products/datagrid/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Red Hat Data Grid Overview in the Kubernetes Tools ecosystem.
   - [Wikipedia: CDN Content Delivery Network](https://en.wikipedia.org/wiki/Content_delivery_network)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Wikipedia: CDN Content Delivery Network in the Kubernetes Tools ecosystem.
@@ -62,7 +114,7 @@
 
 #### Tau Edge
 
-  - **(2025)** [==github.com/taubyte/tau: Tau==](https://github.com/taubyte/tau) <span class='md-tag md-tag--info'>⭐ 5051</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Tau is an innovative, high-performance decentralized computing platform running WebAssembly (Wasm) workloads on the edge. It integrates autonomous routing, multi-tenant serverless orchestration, and distributed transactional db sync natively without standard cloud overhead.
+  - **(2025)** [==github.com/taubyte/tau: Tau==](https://github.com/taubyte/tau) <span class='md-tag md-tag--info'>⭐ 5051</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-944a1678" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 12 L 20 5 L 30 3 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-944a1678)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Tau is an innovative, high-performance decentralized computing platform running WebAssembly (Wasm) workloads on the edge. It integrates autonomous routing, multi-tenant serverless orchestration, and distributed transactional db sync natively without standard cloud overhead.
 ## Infrastructure
 
 ### Caching
@@ -106,12 +158,12 @@
 
 #### Distributed Caching
 
-  - **(2024)** [github.com/mittwald/kube-httpcache](https://github.com/mittwald/kube-httpcache) <span class='md-tag md-tag--info'>⭐ 312</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An engineered Kubernetes-native HTTP caching platform that bundles Varnish with a specialized controller sidecar. It queries Kubernetes API endpoints directly to dynamically reconstruct and scale Varnish backend configurations without requiring manual server reloads.
+  - **(2024)** [github.com/mittwald/kube-httpcache](https://github.com/mittwald/kube-httpcache) <span class='md-tag md-tag--info'>⭐ 312</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2ecab920" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 8 L 20 7 L 30 7 L 40 6 L 50 10" fill="none" stroke="url(#spark-grad-2ecab920)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An engineered Kubernetes-native HTTP caching platform that bundles Varnish with a specialized controller sidecar. It queries Kubernetes API endpoints directly to dynamically reconstruct and scale Varnish backend configurations without requiring manual server reloads.
 ### Kubernetes Operators
 
 #### Varnish Deployment
 
-  - **(2023)** [github.com/IBM/varnish-operator](https://github.com/IBM/varnish-operator) <span class='md-tag md-tag--info'>⭐ 69</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized Kubernetes Operator developed by IBM to deploy, manage, and scale Varnish Cache setups natively within container orchestrators. Although useful for cloud-native setups, in 2026 it faces stiff competition from service meshes offering in-built caching proxies.
+  - **(2023)** [github.com/IBM/varnish-operator](https://github.com/IBM/varnish-operator) <span class='md-tag md-tag--info'>⭐ 69</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-64fcbf6f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 6 L 20 7 L 30 12 L 40 3 L 50 2" fill="none" stroke="url(#spark-grad-64fcbf6f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized Kubernetes Operator developed by IBM to deploy, manage, and scale Varnish Cache setups natively within container orchestrators. Although useful for cloud-native setups, in 2026 it faces stiff competition from service meshes offering in-built caching proxies.
 ### Network and Security
 
 #### TLS Offloading
@@ -136,6 +188,7 @@
   - **(2014)** [slideshare: How To Set Up SQL Load Balancing with HAProxy](https://www.slideshare.net/Severalnines/severalnines-ha-proxyjul20143) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A step-by-step instructional slide deck detailing the setup of robust database proxies. It explores load balancing techniques, health verification agents, and transaction limits for active SQL backends.
 #### HAProxy
 
+  - **(2025)** [HAProxy](https://www.haproxy.org) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — HAProxy is an industry-standard, high-performance TCP/HTTP load balancer and proxy. It is widely praised for its raw event-driven architecture, rich session routing mechanisms, security structures, and efficiency.
   - **(2015)** [slideshare: Haproxy web performance](https://www.slideshare.net/haproxytech/haproxy-web-performance-55536394)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical presentation slides focusing on HAProxy optimizations. It targets key configurations for decreasing response latency, including Keep-Alive tuning, memory buffers, and HTTP protocol compression.
   - **(2015)** [slideshare: Haproxy best practice](https://www.slideshare.net/haproxytech/haproxy-best-practice)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A collection of engineering best practices for building highly available HAProxy configurations. It covers multi-tenant rate limiting, connection pooling limits, SSL offloading patterns, and syslog configurations.
 ### Security
@@ -152,5 +205,5 @@
   - **(2021)** [varnish-cache.org: Installation on RedHat](https://vinyl-cache.org/docs/trunk/installation/index.html) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deployment documentation detailing how to install and configure Varnish Cache on RedHat Enterprise Linux. Focuses on setting up Varnish as an edge reverse-proxy caching layer to handle high-concurrency HTTP/S read operations in web services.
 
 ---
-💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md)
+💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Web Servers](./web-servers.md) | [Kubernetes Networking](./kubernetes-networking.md)
 

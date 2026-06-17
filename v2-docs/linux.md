@@ -3,6 +3,189 @@
 !!! info "Architectural Context"
     Detailed reference for Linux and SSH in the context of Architectural Foundations.
 
+## Table of Contents
+
+1. [Administration](#administration)
+  - [Systemd Logs](#systemd-logs)
+  - [User Management](#user-management)
+1. [Automation](#automation)
+  - [Bash Scripting](#bash-scripting)
+  - [Data Ops](#data-ops)
+  - [Task Scheduling](#task-scheduling)
+1. [Command Line](#command-line)
+  - [Productivity](#productivity)
+  - [Reference](#reference)
+1. [Container Orchestration](#container-orchestration)
+  - [Docker](#docker)
+    - [Patterns](#patterns)
+    - [Tooling](#tooling)
+1. [Containerization](#containerization)
+  - [Fundamentals](#fundamentals)
+1. [Developer Workspace](#developer-workspace)
+  - [Command-Line Tooling](#command-line-tooling)
+    - [JSON and YAML Manipulators](#json-and-yaml-manipulators)
+1. [Development](#development)
+  - [Build Systems](#build-systems)
+1. [File System](#file-system)
+  - [Comparison](#comparison)
+  - [Data Transfer](#data-transfer)
+  - [File Search](#file-search)
+  - [Metadata](#metadata)
+  - [Storage Monitoring](#storage-monitoring)
+1. [Infrastructure](#infrastructure)
+  - [Ecosystem](#ecosystem)
+    - [Foundations](#foundations)
+    - [Learning Portals](#learning-portals)
+  - [Networking](#networking)
+    - [SSH Management](#ssh-management)
+    - [SSH Security](#ssh-security)
+    - [SSH Tunnels](#ssh-tunnels)
+  - [Operating Systems](#operating-systems)
+    - [Linux Distributions](#linux-distributions)
+  - [Security](#security)
+    - [SSLTLS](#ssltls)
+1. [Infrastructure and Operations](#infrastructure-and-operations)
+  - [Career Development](#career-development)
+    - [Interview Prep](#interview-prep)
+  - [Linux Kernel](#linux-kernel)
+    - [Containerization](#containerization-1)
+  - [Networking](#networking-1)
+    - [Monitoring](#monitoring)
+    - [Packet Analysis](#packet-analysis)
+    - [Routing and Bridging](#routing-and-bridging)
+    - [Scanning](#scanning)
+    - [System Diagnostics](#system-diagnostics)
+  - [Observability](#observability)
+    - [Kernel Tracing](#kernel-tracing)
+  - [Operating Systems](#operating-systems-1)
+    - [Compilation](#compilation)
+    - [Memory Management](#memory-management)
+  - [Shell Scripting](#shell-scripting)
+    - [Best Practices](#best-practices)
+    - [CLI Development](#cli-development)
+    - [Configuration Management](#configuration-management)
+    - [Debugging](#debugging)
+    - [Introduction](#introduction)
+    - [Language Features](#language-features)
+    - [Modern Shell Alternatives](#modern-shell-alternatives)
+    - [System Security](#system-security)
+    - [Text Processing](#text-processing)
+  - [Software Distribution](#software-distribution)
+    - [FedoraRedHat](#fedoraredhat)
+    - [Package Management](#package-management)
+  - [System Administration](#system-administration)
+    - [Documentation](#documentation)
+    - [Interview Prep](#interview-prep-1)
+    - [Troubleshooting](#troubleshooting)
+  - [System Utilities](#system-utilities)
+    - [Concurrency](#concurrency)
+  - [Terminal Environment](#terminal-environment)
+    - [Best Practices](#best-practices-1)
+    - [Shell Configuration](#shell-configuration)
+    - [Tricks and Tweaks](#tricks-and-tweaks)
+  - [Virtualization](#virtualization)
+    - [Hypervisors](#hypervisors)
+1. [Kubernetes Tools](#kubernetes-tools)
+  - [General Reference](#general-reference)
+1. [Networking](#networking-2)
+  - [DNS Troubleshooting](#dns-troubleshooting)
+  - [Data Transfer](#data-transfer-1)
+  - [Diagnostics](#diagnostics)
+    - [Socket Analysis](#socket-analysis)
+    - [Traffic Analysis](#traffic-analysis)
+    - [Troubleshooting](#troubleshooting-1)
+  - [Fundamentals](#fundamentals-1)
+    - [Systems Administration](#systems-administration)
+  - [Monitoring](#monitoring-1)
+    - [Bandwidth Analytics](#bandwidth-analytics)
+  - [Network Architecture](#network-architecture)
+    - [Proxies](#proxies)
+  - [Protocols](#protocols)
+    - [DNS](#dns)
+    - [Transport Layer](#transport-layer)
+  - [Security](#security-1)
+    - [Firewalls](#firewalls)
+1. [Networking and Security](#networking-and-security)
+  - [Data Transfer Protocols](#data-transfer-protocols)
+    - [Command Line Utilities](#command-line-utilities)
+  - [Directory Services](#directory-services)
+    - [LDAP Analysis](#ldap-analysis)
+  - [Network Services](#network-services)
+    - [Linux Networking](#linux-networking)
+    - [Port Monitoring](#port-monitoring)
+    - [SSH and Encryption](#ssh-and-encryption)
+1. [Observability and Troubleshooting](#observability-and-troubleshooting)
+  - [Linux Systems](#linux-systems)
+    - [Kernel Diagnostics](#kernel-diagnostics)
+1. [Operating Systems and Infrastructure](#operating-systems-and-infrastructure)
+  - [Command Line](#command-line-1)
+    - [Modern Shells](#modern-shells)
+    - [Process Piping](#process-piping)
+    - [Text Processing](#text-processing-1)
+    - [Text Search](#text-search)
+    - [Utility Demos](#utility-demos)
+  - [Infrastructure Automation](#infrastructure-automation)
+    - [SysAdmin Blogs](#sysadmin-blogs)
+  - [Linux](#linux)
+    - [Cheat Sheets](#cheat-sheets)
+    - [Community and General Resources](#community-and-general-resources)
+    - [Operations Handbook](#operations-handbook)
+    - [SysAdmin Tutorials](#sysadmin-tutorials)
+    - [Systemd Administration](#systemd-administration)
+  - [Linux Kernel](#linux-kernel-1)
+    - [Container Virtualization](#container-virtualization)
+    - [Engineering News](#engineering-news)
+  - [Storage and File Systems](#storage-and-file-systems)
+    - [Data Synchronization](#data-synchronization)
+    - [File Search Utilities](#file-search-utilities)
+  - [System Diagnostics](#system-diagnostics-1)
+    - [Hardware Inventory](#hardware-inventory)
+  - [System Monitoring](#system-monitoring)
+    - [Process Diagnostics](#process-diagnostics)
+    - [Resource Aggregation](#resource-aggregation)
+1. [Packaging](#packaging)
+  - [RPM](#rpm)
+1. [Performance](#performance)
+  - [Memory Monitoring](#memory-monitoring)
+  - [Monitoring](#monitoring-2)
+1. [Process Management](#process-management)
+  - [Java JVM](#java-jvm)
+  - [Networking](#networking-3)
+  - [Signals](#signals)
+1. [Productivity](#productivity-1)
+  - [Text Editors](#text-editors)
+    - [Interactive Learning](#interactive-learning)
+    - [Neovim](#neovim)
+    - [Vim](#vim)
+    - [Vim Plugins](#vim-plugins)
+    - [Workflows](#workflows)
+1. [Security](#security-2)
+  - [Data Sanitation](#data-sanitation)
+  - [Penetration Testing](#penetration-testing)
+1. [Security and Compliance](#security-and-compliance)
+  - [Linux Hardening](#linux-hardening)
+    - [System Administration](#system-administration-1)
+1. [Software Engineering](#software-engineering)
+  - [Development Tools](#development-tools)
+    - [File Comparison](#file-comparison)
+    - [File System Watching](#file-system-watching)
+    - [Terminal Recording](#terminal-recording)
+    - [Text Editors](#text-editors-1)
+  - [Systems Programming](#systems-programming)
+    - [Architecture and Design](#architecture-and-design)
+    - [Legacy Code Translation](#legacy-code-translation)
+    - [Technical Insights](#technical-insights)
+    - [Time and Serialization](#time-and-serialization)
+1. [Storage](#storage)
+  - [Cloud Sync](#cloud-sync)
+1. [Text Processing](#text-processing-2)
+  - [Comparison](#comparison-1)
+  - [Regex](#regex)
+  - [Sed](#sed)
+  - [XML Parsing](#xml-parsing)
+1. [Virtualization](#virtualization-1)
+  - [Disk Utilities](#disk-utilities)
+
 ## Administration
 
 ### Systemd Logs
@@ -15,7 +198,7 @@
 
 ### Bash Scripting
 
-  - **(2026)** [==github: Safe ways to do things in bash==](https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md) <span class='md-tag md-tag--info'>⭐ 4784</span> <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Serves as the authoritative style manual for compiling safe, error-free bash scripts. Maintained within the Shellharden project, it outlines rigorous quoting standards, expansion parameters, array handling, and variable declarations to prevent system exploits or unexpected command executions.
+  - **(2026)** [==github: Safe ways to do things in bash==](https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md) <span class='md-tag md-tag--info'>⭐ 4784</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-5e169291" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 12 L 20 11 L 30 9 L 40 2 L 50 4" fill="none" stroke="url(#spark-grad-5e169291)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Serves as the authoritative style manual for compiling safe, error-free bash scripts. Maintained within the Shellharden project, it outlines rigorous quoting standards, expansion parameters, array handling, and variable declarations to prevent system exploits or unexpected command executions.
   - **(2022)** [igoroseledko.com: Checking Multiple Variables in Bash](https://www.igoroseledko.com/checking-multiple-variables-in-bash) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Demonstrates how to design robust multiple-variable validation gates in bash. Explains clean syntax logic using operators like `[[ -z ... ]]` and logical structures, preventing common run-time evaluation failures.
   - **(2022)** [Introduction to Bash Scripting Interactive training](https://ebook.bobby.sh/training.html) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical, interactive learning roadmap focused on scripting fundamentals. Coaches developers on variables, arrays, command-line arguments, exit statuses, and control loops to automate everyday infrastructure tasks.
   - **(2022)** [redhat.com: Bash scripting: How to read data from text files](https://www.redhat.com/en/blog/data-text-files) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Guides developers on parsing files safely within bash loops. Emphasizes the use of the Internal Field Separator (IFS) and the `read -r` command to prevent inadvertent character modifications and backslash evaluations.
@@ -46,7 +229,7 @@
   - **(2016)** [Wait until Your Dockerized Database Is Ready before Continuing](https://nickjanetakis.com/blog/wait-until-your-dockerized-database-is-ready-before-continuing) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An engineering guide detail routing startup procedures in Docker systems. It details wait-for patterns to ensure databases are fully accepting connections prior to application initialization. Live Grounding emphasizes this pattern as crucial for avoiding container crash loops in Kubernetes environments.
 #### Tooling
 
-  - **(2016)** [github.com/nickjj/wait-until](https://github.com/nickjj/wait-until) <span class='md-tag md-tag--info'>⭐ 65</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight shell utility designed to pause execution scripts until a target TCP port or system command registers a successful response. It is highly optimized for CI/CD pipeline synchronicity. Live Grounding confirms its role in orchestrating sequential container boots.
+  - **(2016)** [github.com/nickjj/wait-until](https://github.com/nickjj/wait-until) <span class='md-tag md-tag--info'>⭐ 65</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-4fc99be2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 6 L 20 8 L 30 10 L 40 12 L 50 3" fill="none" stroke="url(#spark-grad-4fc99be2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight shell utility designed to pause execution scripts until a target TCP port or system command registers a successful response. It is highly optimized for CI/CD pipeline synchronicity. Live Grounding confirms its role in orchestrating sequential container boots.
 ## Containerization
 
 ### Fundamentals
@@ -156,7 +339,7 @@
   - **(2002)** [**ngrep**](https://ngrep.sourceforge.net) <span class='md-tag md-tag--warning'>[C CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A network analysis utility that matches regular expressions to packets on network interfaces. It provides a familiar grep-like interface for analyzing raw wire payloads. Live Grounding verifies its critical role in live debugging, packet tracing, and network system forensics.
 #### Routing and Bridging
 
-  - **(2014)** [**Linux networking examples and tutorials for advanced users**](https://github.com/knorrie/network-examples) <span class='md-tag md-tag--info'>⭐ 972</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly technical repository detailing configurations for advanced Linux routing, bridging, and virtual networking (VLAN, VXLAN, VRF). Live Grounding highlights its tremendous value for systems architects implementing Software-Defined Networking (SDN) solutions natively in Linux.
+  - **(2014)** [**Linux networking examples and tutorials for advanced users**](https://github.com/knorrie/network-examples) <span class='md-tag md-tag--info'>⭐ 972</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-49e397b6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 10 L 20 8 L 30 11 L 40 10 L 50 9" fill="none" stroke="url(#spark-grad-49e397b6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly technical repository detailing configurations for advanced Linux routing, bridging, and virtual networking (VLAN, VXLAN, VRF). Live Grounding highlights its tremendous value for systems architects implementing Software-Defined Networking (SDN) solutions natively in Linux.
 #### Scanning
 
   - **(2001)** [**Angry IP Scanner (or simply ipscan)**](https://angryip.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An extremely fast, multi-threaded IP and port scanner. It queries device attributes, MAC addresses, and open ports across subnets. Live Grounding tracks it as an essential tool for rapid physical infrastructure auditing.
@@ -167,7 +350,7 @@
 
 #### Kernel Tracing
 
-  - **(2018)** [==bpftrace==](https://github.com/bpftrace/bpftrace) <span class='md-tag md-tag--info'>⭐ 10160</span> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A high-level tracing language and diagnostic toolkit built on top of the Linux eBPF subsystem. It allows system engineers to dynamically probe kernel modules, trace memory allocations, and analyze latency. Live Grounding shows that bpftrace is a core diagnostic pillar in production engineering.
+  - **(2018)** [==bpftrace==](https://github.com/bpftrace/bpftrace) <span class='md-tag md-tag--info'>⭐ 10160</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-86f7c620" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 11 L 20 13 L 30 3 L 40 9 L 50 4" fill="none" stroke="url(#spark-grad-86f7c620)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A high-level tracing language and diagnostic toolkit built on top of the Linux eBPF subsystem. It allows system engineers to dynamically probe kernel modules, trace memory allocations, and analyze latency. Live Grounding shows that bpftrace is a core diagnostic pillar in production engineering.
 ### Operating Systems (1)
 
 #### Compilation
@@ -204,7 +387,7 @@
   - **(2021)** [linuxshelltips.com: What’s the Difference Between ${} and $() in Bash](https://www.linuxshelltips.com/difference-between-and-in-bash) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical exploration delineating the execution boundaries of parameter expansion vs. process substitution inside POSIX shells. It details variable isolation and command replacement execution paths. Live Grounding confirms understanding this distinction is crucial to prevent runtime execution bugs.
 #### Modern Shell Alternatives
 
-  - **(2021)** [==zx==](https://github.com/google/zx) <span class='md-tag md-tag--info'>⭐ 45534</span> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A modern execution tool built by Google that lets developers write robust scripting pipelines using JavaScript or TypeScript. It automates child-process management, string escaping, and error checks. Live Grounding validates it as a major evolutionary replacement for unwieldy Bash scripts in contemporary pipelines.
+  - **(2021)** [==zx==](https://github.com/google/zx) <span class='md-tag md-tag--info'>⭐ 45534</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b659893e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 2 L 20 11 L 30 11 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-b659893e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A modern execution tool built by Google that lets developers write robust scripting pipelines using JavaScript or TypeScript. It automates child-process management, string escaping, and error checks. Live Grounding validates it as a major evolutionary replacement for unwieldy Bash scripts in contemporary pipelines.
 #### System Security
 
   - **(2021)** [redhat.com: Audit user accounts for never-expiring passwords with a Bash script](https://www.redhat.com/en/blog/find-non-expiring-passwords) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — An operational guide focusing on security compliance pipelines by leveraging Bash to query and audit Linux system user stores. It highlights methods to trace non-expiring passwords and security holes. Live Grounding confirms its tactical value in legacy compliance auditing and quick infrastructure scans.
@@ -230,7 +413,7 @@
   - **(2004)** [tldp.org: The Linux System Administrator's Guide 🌟](https://tldp.org/LDP/sag/html/index.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A historic, comprehensive manual detailing Linux system initialization, filesystem structure, and low-level administrative operations. While modern systemd paradigms have evolved, Live Grounding confirms it still offers critical theoretical fundamentals of POSIX architecture.
 #### Interview Prep (1)
 
-  - **(2018)** [**trimstray/test-your-sysadmin-skills**](https://github.com/trimstray/test-your-sysadmin-skills) <span class='md-tag md-tag--info'>⭐ 11657</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An intensive, community-driven collection of system administration questions covering Linux kernel parameters, networking, security controls, and CI/CD pipelines. Curator Insight flags it as an essential baseline framework. Live Grounding notes that while static, it remains a fantastic benchmarking schema.
+  - **(2018)** [**trimstray/test-your-sysadmin-skills**](https://github.com/trimstray/test-your-sysadmin-skills) <span class='md-tag md-tag--info'>⭐ 11657</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2fd85c5b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 2 L 20 7 L 30 12 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-2fd85c5b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An intensive, community-driven collection of system administration questions covering Linux kernel parameters, networking, security controls, and CI/CD pipelines. Curator Insight flags it as an essential baseline framework. Live Grounding notes that while static, it remains a fantastic benchmarking schema.
 #### Troubleshooting
 
   - **(2020)** [Start using systemd as a troubleshooting tool](https://opensource.com/article/20/5/systemd-troubleshooting-tool) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A diagnostic guide outlining how to use systemd commands for deep service tracing, failure analysis, and system boot sequence optimization. It details journalctl options and state tracing. Live Grounding shows its practical value in production systems where systemd is the standard supervisor.
@@ -246,7 +429,7 @@
   - **(2015)** [==The Art of Command Line==](https://github.com/jlevy/the-art-of-command-line) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premium, single-page reference for command-line mastery. Highly dense and comprehensive, it details advanced processes, pipeline debugging, and cloud utility integrations. Live Grounding establishes this repository as a global industry standard for technical terminal operations.
 #### Shell Configuration
 
-  - **(2013)** [==github.com/zsh-users/zsh-autosuggestions 🌟==](https://github.com/zsh-users/zsh-autosuggestions) <span class='md-tag md-tag--info'>⭐ 35690</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A high-efficiency plugin that suggest terminal execution commands as you type, pulling context dynamically from local shells. It drastically reduces keystrokes and context switching. Live Grounding demonstrates that it has become an essential productivity tool across modern engineering environments.
+  - **(2013)** [==github.com/zsh-users/zsh-autosuggestions 🌟==](https://github.com/zsh-users/zsh-autosuggestions) <span class='md-tag md-tag--info'>⭐ 35690</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0d98477a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 5 L 20 13 L 30 11 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-0d98477a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A high-efficiency plugin that suggest terminal execution commands as you type, pulling context dynamically from local shells. It drastically reduces keystrokes and context switching. Live Grounding demonstrates that it has become an essential productivity tool across modern engineering environments.
   - **(2009)** [==Oh My Zsh==](https://ohmyz.sh) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier framework for managing Zsh shell configurations. It comes packaged with thousands of community-authored helper functions, themes, and CLI integrations. Live Grounding highlights its unparalleled adoption across developer workstations, standardizing interactive command-line interfaces.
 #### Tricks and Tweaks
 
@@ -259,14 +442,7 @@
 
 #### Hypervisors
 
-  - **(2023)** [**github.com/cyberus-technology/virtualbox-kvm: KVM Backend for VirtualBox' 🌟**](https://github.com/cyberus-technology/virtualbox-kvm) <span class='md-tag md-tag--info'>⭐ 1113</span> <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A performance-focused extension enabling Oracle VirtualBox to delegate execution directly to the native Linux Kernel-based Virtual Machine (KVM) backend. It removes proprietary kernel module requirements. Live Grounding highlights its architectural value for running clean virtualization loops inside Linux workstations.
-## Kubernetes
-
-### Resource Management
-
-#### CPU Throttling
-
-  - **(2024)** [CPU Limits in Kubernetes: Deep Dive into Pod Throttling and Kernel Interactions](https://www.linkedin.com/pulse/cpu-limits-kubernetes-why-your-pod-idle-still-deep-dive-lazarev-k3m7f) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exceptionally detailed deep dive into kernel interactions, Linux control groups (cgroups), and the Completely Fair Scheduler (CFS) quota mechanism inside Kubernetes. It demystifies why pods experience severe throttling even when aggregate CPU metrics appear healthy, analyzing the impact of short-duration burst workloads. It provides essential mathematical formulas and kernel parameters to fine-tune pod limits safely.
+  - **(2023)** [**github.com/cyberus-technology/virtualbox-kvm: KVM Backend for VirtualBox' 🌟**](https://github.com/cyberus-technology/virtualbox-kvm) <span class='md-tag md-tag--info'>⭐ 1113</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0928cf86" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 12 L 20 8 L 30 3 L 40 3 L 50 2" fill="none" stroke="url(#spark-grad-0928cf86)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A performance-focused extension enabling Oracle VirtualBox to delegate execution directly to the native Linux Kernel-based Virtual Machine (KVM) backend. It removes proprietary kernel module requirements. Live Grounding highlights its architectural value for running clean virtualization loops inside Linux workstations.
 ## Kubernetes Tools
 
 ### General Reference
@@ -344,7 +520,7 @@
   - **(2022)** [redhat.com: Linux troubleshooting commands: 4 tools for DNS name resolution problems](https://www.redhat.com/en/blog/DNS-name-resolution-troubleshooting-tools) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Examines core network diagnostics utilities including `nslookup`, `dig`, `host`, and local resolution file audits. Addresses common container networking issues and cluster DNS lookup routing misconfigurations.
 ### Data Transfer (1)
 
-  - **(2024)** [==wcurl==](https://github.com/curl/wcurl) <span class='md-tag md-tag--info'>⭐ 512</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A lightweight command wrapper designed by the curl maintainers to simplify raw file downloads. Removes the need to manually define standard flags like `-O` and `--create-dirs`, reducing script friction when packaging container layers.
+  - **(2024)** [==wcurl==](https://github.com/curl/wcurl) <span class='md-tag md-tag--info'>⭐ 512</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c60deea0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 12 L 20 10 L 30 4 L 40 5 L 50 6" fill="none" stroke="url(#spark-grad-c60deea0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A lightweight command wrapper designed by the curl maintainers to simplify raw file downloads. Removes the need to manually define standard flags like `-O` and `--create-dirs`, reducing script friction when packaging container layers.
   - **(2024)** [blog.techiescamp.com: wcurl: A Simple Wrapper for curl to download files](https://blog.techiescamp.com/docs/wcurl) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Practical walkthrough illustrating how `wcurl` simplifies download pipelines. Compares its streamlined syntax to raw `curl` or `wget` commands, highlighting its utility in lightweight Dockerfiles and thin container runtimes.
   - **(2021)** [opensource.com: 7 handy tricks for using the Linux wget command](https://opensource.com/article/21/10/linux-wget-command) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Uncovers non-trivial `wget` features such as mirrors, background downloads, custom user-agent injection, and rate limits. Helps construct robust image building processes and remote asset harvesting operations.
 ### Diagnostics
@@ -358,7 +534,7 @@
 #### Troubleshooting (1)
 
   - **(2021)** [redhat.com: 5 Linux network troubleshooting commands 🌟](https://www.redhat.com/en/blog/five-network-commands)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Identifies the five critical networking commands that form the bedrock of modern Linux diagnostics. Contrasts modern iproute2 implementations like 'ip' and 'ss' against deprecated net-tools equivalents, providing a fast troubleshooting playbook for solving local network isolation issues.
-  - **(2026)** [==termshark==](https://github.com/gcla/termshark) <span class='md-tag md-tag--info'>⭐ 9909</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A Go-based terminal user interface (TUI) for `tshark` (Wireshark command-line engine). Enables native, interactive network packet analysis over headless SSH connections on remote servers or Kubernetes nodes without X11 overhead.
+  - **(2026)** [==termshark==](https://github.com/gcla/termshark) <span class='md-tag md-tag--info'>⭐ 9909</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9cbdac60" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 9 L 20 2 L 30 10 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-9cbdac60)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A Go-based terminal user interface (TUI) for `tshark` (Wireshark command-line engine). Enables native, interactive network packet analysis over headless SSH connections on remote servers or Kubernetes nodes without X11 overhead.
   - **(2021)** [linuxshelltips.com: How to Use Netcat to Scan Open Ports in Linux 🌟](https://www.linuxshelltips.com/netcat-linux-port-scanning) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This technical walkthrough explores `netcat` (nc) as a versatile networking diagnostic utility. While traditional sources highlight its basic port scanning abilities, live engineering practices prioritize it for rapid TCP/UDP socket testing and validating firewall/ingress rules before deploying full-scale scanning agents like Nmap.
 ### Fundamentals (1)
 
@@ -427,7 +603,7 @@
 
 #### Modern Shells
 
-  - **(2026)** [==oilshell: Alternative shells==](https://github.com/oils-for-unix/oils/wiki/Alternative-Shells) <span class='md-tag md-tag--info'>⭐ 3343</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exceptional evaluation wiki comparing next-generation Unix shells (Oils, Nushell, Fish, Zsh). Outlines parsing behaviors, JSON-first architectures, and language safety enhancements aimed at replacing classical POSIX bash scripts.
+  - **(2026)** [==oilshell: Alternative shells==](https://github.com/oils-for-unix/oils/wiki/Alternative-Shells) <span class='md-tag md-tag--info'>⭐ 3343</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-92289b35" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 12 L 20 5 L 30 10 L 40 12 L 50 2" fill="none" stroke="url(#spark-grad-92289b35)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exceptional evaluation wiki comparing next-generation Unix shells (Oils, Nushell, Fish, Zsh). Outlines parsing behaviors, JSON-first architectures, and language safety enhancements aimed at replacing classical POSIX bash scripts.
 #### Process Piping
 
   - **(2026)** [**tecmint.com: How to Run Commands from Standard Input Using Tee and Xargs in Linux**](https://www.tecmint.com/pipe-command-output-to-other-commands) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explores the powerful concurrency and output-splitting capabilities of xargs and tee. Demonstrates how to design resilient pipeline architectures for bulk file processing and systems automation.
@@ -561,7 +737,7 @@
   - **(2020)** [redhat.com: Recursive Vim macros: One step further into automating repetitive tasks](https://www.redhat.com/en/blog/recursive-vim-macros) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Technical tutorial focusing on writing, debugging, and executing recursive Vim macros. Teaches how to automate highly complex, repetitive multi-line editing patterns efficiently without leaving the terminal.
 #### Vim Plugins
 
-  - **(2024)** [==VimWiki==](https://github.com/vimwiki/vimwiki) <span class='md-tag md-tag--info'>⭐ 9468</span> <span class='md-tag md-tag--warning'>[VIML CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An incredibly powerful, native Vim plugin that transforms Vim into a personal wiki engine. It manages plain-text files, automates list formatting, links diary entries, and exports to HTML dynamically. Double-Evidence: The repository establishes local, high-speed terminal note-taking; live grounding shows it is a legendary choice for terminal-based power users who value zero-latency knowledge capture.
+  - **(2024)** [==VimWiki==](https://github.com/vimwiki/vimwiki) <span class='md-tag md-tag--info'>⭐ 9468</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6f2abfb5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 10 L 20 13 L 30 13 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-6f2abfb5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[VIML CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An incredibly powerful, native Vim plugin that transforms Vim into a personal wiki engine. It manages plain-text files, automates list formatting, links diary entries, and exports to HTML dynamically. Double-Evidence: The repository establishes local, high-speed terminal note-taking; live grounding shows it is a legendary choice for terminal-based power users who value zero-latency knowledge capture.
 #### Workflows
 
   - **(2023)** [blog.ashwinchat.com: 9 Months of Full Time Neovim + Tmux](https://blog.ashwinchat.com/9-months-of-full-time-vim) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly reflective engineering journal detailing a 9-month migration from IDEs to a unified Neovim and Tmux terminal setup. Evaluates configuration complexity, speed gains, and terminal ergonomics.
@@ -579,7 +755,7 @@
 
 #### System Administration (1)
 
-  - **(2026)** [==How-To Secure A Linux Server==](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) <span class='md-tag md-tag--info'>⭐ 27773</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly comprehensive, widely reference-validated repository providing detailed, step-by-step instructions for securing enterprise Linux installations. Key configurations cover SSH daemon hardening, secure user boundaries, kernel performance optimizations, and automated intrusion monitoring. In modern 2026 operations, this guide remains a vital source for building secure base golden images inside automated IaC pipelines.
+  - **(2026)** [==How-To Secure A Linux Server==](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) <span class='md-tag md-tag--info'>⭐ 27773</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-32d078ce" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 5 L 20 2 L 30 6 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-32d078ce)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly comprehensive, widely reference-validated repository providing detailed, step-by-step instructions for securing enterprise Linux installations. Key configurations cover SSH daemon hardening, secure user boundaries, kernel performance optimizations, and automated intrusion monitoring. In modern 2026 operations, this guide remains a vital source for building secure base golden images inside automated IaC pipelines.
 ## Software Engineering
 
 ### Development Tools
@@ -638,5 +814,5 @@
   - **(2022)** [redhat.com: How to customize VM and cloud images with guestfish](https://www.redhat.com/en/blog/customize-vm-cloud-images-guestfish) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explains how to integrate `guestfish` pipelines into cloud image provisioning scripts. Details the automated modification of network configurations, credential injection, and software installations within raw VM images.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
 

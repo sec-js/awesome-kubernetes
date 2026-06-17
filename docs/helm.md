@@ -172,7 +172,7 @@
   - [Automating Kubernetes Deployments with Helm Charts](https://blog.devops.dev/automating-kubernetes-deployments-with-helm-charts-baaec0e6fbc5) 🌟 - This article explains how to automate Kubernetes deployments using Helm charts. It covers the creation of Helm charts, their structure, and how to use them for consistent and repeatable application deployments in Kubernetes environments.
 
 - [codeengineered.com: 4 Places To Find Helm Charts](https://codeengineered.com/blog/2020/helm-find-charts)
-- [hub.helm.sh 🌟](http://hub.helm.sh) -> [artifacthub.io 🌟](https://artifacthub.io) Find, install and publish
+- [hub.helm.sh 🌟](https://hub.helm.sh) -> [artifacthub.io 🌟](https://artifacthub.io) Find, install and publish
 Kubernetes packages
     - [New Location For Stable and Incubator Charts](https://helm.sh/blog/new-location-stable-incubator-charts)
     - [charts.helm.sh/stable 🌟](https://charts.helm.sh/stable)
@@ -230,7 +230,7 @@ Kubernetes packages
 - [maorfr/helm-backup: Helm Backup Plugin](https://github.com/maorfr/helm-backup) Helm plugin which performs backup/restore of releases in a namespace to/from a file
 - [helmwave/helmwave](https://github.com/helmwave/helmwave) Helmwave is helm3-native tool for deploy your Helm Charts. HelmWave is like docker-compose for helm.
 - [github.com/jkosik: helm-decomposer](https://github.com/jkosik/helm-decomposer) Decomposes Helm package and visualizes hierarchy of subcharts and images
-- [github.com/projectsveltos: sveltosctl](https://github.com/projectsveltos/sveltosctl#display-outcome-of-clusterprofiles-in-dryrun-mode) A CLI to nicely display resources/helm charts deployed in CAPI Cluster by Sveltos. Collect tech-support from managed Kubernetes clusters sveltosctl nicely displays resources and Helm charts info in CAPI Kubernetes Clusters deployed using ClusterProfile. It also provides the ability to generate configuration snapshots and roll backs to a previously taken configuration snapshot.
+- [github.com/projectsveltos: sveltosctl](https://github.com/projectsveltos/sveltosctl) A CLI to nicely display resources/helm charts deployed in CAPI Cluster by Sveltos. Collect tech-support from managed Kubernetes clusters sveltosctl nicely displays resources and Helm charts info in CAPI Kubernetes Clusters deployed using ClusterProfile. It also provides the ability to generate configuration snapshots and roll backs to a previously taken configuration snapshot.
 - [abhaypore.medium.com: Migrate your manifest yaml files into Helm Chart](https://abhaypore.medium.com/migrate-your-manifest-yaml-files-into-helm-chart-32a44230f3b5)
 
 ## Helm Books

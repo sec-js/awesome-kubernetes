@@ -3,6 +3,81 @@
 !!! info "Architectural Context"
     Detailed reference for Site Reliability Engineering (SRE) in the context of Platform & Site Reliability.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Careers](#careers)
+  - [DevOps and SRE](#devops-and-sre)
+    - [Skills Development](#skills-development)
+1. [Cloud Infrastructure](#cloud-infrastructure)
+  - [Managed Kubernetes](#managed-kubernetes)
+    - [Site Reliability Engineering](#site-reliability-engineering)
+1. [Cloud Native](#cloud-native)
+  - [Kubernetes](#kubernetes)
+    - [Progressive Delivery](#progressive-delivery)
+1. [Continuous Delivery](#continuous-delivery)
+  - [Feature Management](#feature-management)
+    - [Reliability Engineering](#reliability-engineering)
+  - [SLO Validation](#slo-validation)
+    - [REST APIs](#rest-apis)
+1. [Observability](#observability)
+  - [Monitoring](#monitoring)
+    - [SRE Fundamentals](#sre-fundamentals)
+  - [Service Level Objectives](#service-level-objectives)
+    - [Community Events](#community-events)
+    - [Declarative Standards](#declarative-standards)
+    - [GitOps](#gitops)
+    - [Google Best Practices](#google-best-practices)
+  - [Site Reliability Engineering](#site-reliability-engineering-1)
+    - [Root Cause Analysis](#root-cause-analysis)
+1. [Operations](#operations)
+  - [Organizational Design](#organizational-design)
+    - [Operating Models](#operating-models)
+  - [Platform Engineering](#platform-engineering)
+    - [Organizational Design](#organizational-design-1)
+    - [Strategic Alignment](#strategic-alignment)
+  - [SRE vs DevOps](#sre-vs-devops)
+    - [Conceptual Frameworks](#conceptual-frameworks)
+    - [Tooling](#tooling)
+  - [Site Reliability Engineering](#site-reliability-engineering-2)
+    - [Best Practices](#best-practices)
+    - [Career Lifecycle](#career-lifecycle)
+    - [Cloud Native Ecosystem](#cloud-native-ecosystem)
+    - [Enterprise Architecture](#enterprise-architecture)
+    - [Google Best Practices](#google-best-practices-1)
+    - [Google SRE Book](#google-sre-book)
+    - [Incident Management](#incident-management)
+    - [Industry Trends](#industry-trends)
+    - [Podcasts](#podcasts)
+    - [Scalability](#scalability)
+    - [Skills Development](#skills-development-1)
+    - [Tooling](#tooling-1)
+1. [Platform Engineering](#platform-engineering-1)
+  - [Design Methodology](#design-methodology)
+    - [Platform Democracy](#platform-democracy)
+1. [Reliability Engineering](#reliability-engineering-1)
+  - [Cloud Native Paradigms](#cloud-native-paradigms)
+  - [SRE](#sre)
+    - [Best Practices](#best-practices-1)
+  - [SRE vs DevOps](#sre-vs-devops-1)
+    - [Industry Analysis](#industry-analysis)
+    - [Introductory Frameworks](#introductory-frameworks)
+    - [Open Source Culture](#open-source-culture)
+    - [Organizational Frameworks](#organizational-frameworks)
+    - [Professional Roles](#professional-roles)
+    - [Synergies](#synergies)
+1. [Site Reliability Engineering](#site-reliability-engineering-3)
+  - [Observability](#observability-1)
+    - [Monitoring Theory](#monitoring-theory)
+      - [Distributed Systems](#distributed-systems)
+1. [Software Engineering](#software-engineering)
+  - [Professional Development](#professional-development)
+    - [Core Architectures](#core-architectures)
+  - [Version Control Systems](#version-control-systems)
+    - [Git Workflows](#git-workflows)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -72,7 +147,7 @@
   - **(2021)** [SLOconf](https://www.sloconf.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official site of SLOconf, the premier developer conference and community space focused entirely on Service Level Objectives, error budgets, and reliability-driven service platforms.
 #### Declarative Standards
 
-  - **(2021)** [==OpenSLO specification 🌟==](https://github.com/OpenSLO/OpenSLO) <span class='md-tag md-tag--info'>⭐ 1496</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The vendor-agnostic OpenSLO specification defines standard YAML schemas for declaring SLOs, SLIs, and error budgets. In 2026, it remains the standard for orchestrating declarative system health models inside GitOps automation.
+  - **(2021)** [==OpenSLO specification 🌟==](https://github.com/OpenSLO/OpenSLO) <span class='md-tag md-tag--info'>⭐ 1496</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-cb0643a4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 6 L 20 2 L 30 7 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-cb0643a4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The vendor-agnostic OpenSLO specification defines standard YAML schemas for declaring SLOs, SLIs, and error budgets. In 2026, it remains the standard for orchestrating declarative system health models inside GitOps automation.
 #### GitOps
 
   - **(2022)** [thenewstack.io: Automate User Satisfaction with This GitOps-Friendly Spec for Service Level Objectives](https://thenewstack.io/automate-user-satisfaction-with-this-gitops-friendly-spec-for-service-level-objectives) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores using GitOps mechanics to track reliability definitions. Outlines managing SLO declarations as declarative code in Git repository workflows to programmatically configure observability tools.
@@ -201,7 +276,7 @@
 
 #### Core Architectures
 
-  - **(2025)** [==Skills for Real Engineers==](https://github.com/mattpocock/skills) <span class='md-tag md-tag--info'>⭐ 128202</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exceptionally popular repository detailing the foundational principles, design philosophies, and architectural protocols required for master-level software delivery. While the curator focuses on career advancement, live engineering practice indicates that mastering these fundamentals is vital to surviving rapid AI development shifts. It represents an elite reference for engineering standardizations.
+  - **(2025)** [==Skills for Real Engineers==](https://github.com/mattpocock/skills) <span class='md-tag md-tag--info'>⭐ 128202</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1ae169fb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 9 L 20 4 L 30 5 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-1ae169fb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exceptionally popular repository detailing the foundational principles, design philosophies, and architectural protocols required for master-level software delivery. While the curator focuses on career advancement, live engineering practice indicates that mastering these fundamentals is vital to surviving rapid AI development shifts. It represents an elite reference for engineering standardizations.
 ### Version Control Systems
 
 #### Git Workflows
@@ -209,5 +284,5 @@
   - **(2020)** [victorops.com: Source Code Control: Trunk-Based Development vs. GitFlow](https://www.splunk.com/en_us/about-splunk/acquisitions/splunk-on-call.html) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An evaluation of GitFlow versus Trunk-Based Development, analyzing how branching strategies affect MTTR, deployment frequency, and software quality. It details the operational changes and tooling adjustments required to adopt trunk-based methodologies.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [QA](./qa.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Developerportals](./developerportals.md) | [Chaos Engineering](./chaos-engineering.md)
 

@@ -92,7 +92,7 @@
 - [Announcing the Crunchy Data Developer Portal](https://www.crunchydata.com/blog/announcing-the-crunchy-data-developer-portal)
 - [Crunchy Data Developer Portal](https://www.crunchydata.com/developers) Self-service tools for developers and data scientists to easily get productive with PostgreSQL and Crunchy Data products.
 
-## Crunchy Data Postgres Operator in OpenShift 4. Overview & Proof of Concept
+## Crunchy Data Postgres Operator in OpenShift 4. Overview and Proof of Concept
 
 - In earlier days, Red Hat recommended running PostgreSQL database outside the Kubernetes cluster. Now, with [Kubernetes Operator](https://kubernetes.io/docs/concepts/extend-kubernetes/operator) technology, you can run stateful database applications on Kubernetes.
 - [Crunchy PostgreSQL Operator](https://github.com/CrunchyData/postgres-operator) extends Kubernetes to give you the power to easily  create, configure and manage PostgreSQL clusters at scale.  When combined with the [Crunchy PostgreSQL Container Suite](https://github.com/CrunchyData/crunchy-containers), the Crunchy PostgreSQL Operator provides an open source software solution for PostgreSQL scaling, high-availability, disaster recovery, monitoring, and more.  All of this capability comes with the repeatability and automation that comes from Operators on Kubernetes.
@@ -314,7 +314,7 @@ openshift.io/scc: restricted
 
 - Refs:
     - [ref1](https://docs.openshift.com/container-platform/3.6/admin_guide/manage_scc.html)
-    - [ref2](https://docs.openshift.com/container-platform/3.6/admin_guide/manage_scc.html#add-scc-to-user-group-project)
+    - [ref2](https://docs.openshift.com/container-platform/3.6/admin_guide/manage_scc.html)
     - [ref3 🌟](https://dzone.com/articles/understanding-openshift-security-context-constrain)
 
 ##### Workflow1 without custom Service Account and without DeploymentConfig
@@ -360,7 +360,7 @@ users:
 - References:
     - [ref1](https://www.redhat.com/en/blog/understanding-service-accounts-sccs)
     - [ref2](https://docs.openshift.com/container-platform/4.1/authentication/understanding-and-creating-service-accounts.html)
-    - [ref3](https://docs.openshift.com/container-platform/4.1/authentication/managing-security-context-constraints.html#role-based-access-to-ssc_configuring-internal-oauth)
+    - [ref3](https://docs.openshift.com/container-platform/4.1/authentication/managing-security-context-constraints.html)
 
 ##### Workflow3 with custom service Account and DeploymentConfig
 
@@ -408,7 +408,7 @@ HISTFILESIZE=2000
 shopt -s checkwinsize
 # If set, the pattern "**" used in a pathname expansion context will
 # match all files and zero or more directories and subdirectories.
-#shopt -s globstar
+# shopt -s globstar
 # make less more friendly for non-text input files, see lesspipe(1)
 [-x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 # set variable identifying the chroot you work in (used in the prompt below)
@@ -422,12 +422,12 @@ esac
 # uncomment for a colored prompt, if the terminal has the capability; turned
 # off by default to not distract the user: the focus in a terminal window
 # should be on the output of commands, not on the prompt
-#force_color_prompt=yes
+# force_color_prompt=yes
 if [-n "$force_color_prompt" ]; then
     if [-x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
-    # We have color support; assume it's compliant with Ecma-48
-    # (ISO/IEC-6429). (Lack of such support is extremely rare, and such
-    # a case would tend to support setf rather than setaf.)
+# We have color support; assume it's compliant with Ecma-48
+# (ISO/IEC-6429). (Lack of such support is extremely rare, and such
+# a case would tend to support setf rather than setaf.)
     color_prompt=yes
     else
     color_prompt=
@@ -451,20 +451,20 @@ esac
 if [-x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
     alias ls='ls --color=auto'
-    #alias dir='dir --color=auto'
-    #alias vdir='vdir --color=auto'
+# alias dir='dir --color=auto'
+# alias vdir='vdir --color=auto'
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
 fi
 # colored GCC warnings and errors
-#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+# export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-# Add an "alert" alias for long running commands.  Use like so:
-#   sleep 10; alert
+# Add an "alert" alias for long running commands. Use like so:
+# sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([$? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*/;s/[;&|]\s*alert$/'\'')"'
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -483,20 +483,20 @@ elif [-f /etc/bash_completion ]; then
     . /etc/bash_completion
 fi
 fi
-#########################################
+######################################### 
 # CRUNCHYDATA POSTGRES OPERATOR SETTINGS:
-#########################################
+######################################### 
 # operator env vars
 export PATH=$PATH:$HOME/odev/bin
 export PGO_APISERVER_URL=https://127.0.0.1:18443
-#export PGO_APISERVER_URL=https://172.25.212.138:8443
+# export PGO_APISERVER_URL=https://172.25.212.138:8443
 export PGO_CA_CERT=$HOME/odev/src/github.com/crunchydata/postgres-operator/conf/postgres-operator/server.crt
 export PGO_CLIENT_CERT=$HOME/odev/src/github.com/crunchydata/postgres-operator/conf/postgres-operator/server.crt
 export PGO_CLIENT_KEY=$HOME/odev/src/github.com/crunchydata/postgres-operator/conf/postgres-operator/server.key
-#alias setip='export PGO_APISERVER_URL=https://`kubectl get service postgres-operator -o=jsonpath="{.spec.clusterIP}"`:18443'
-#alias alog='kubectl logs `kubectl get pod --selector=name=postgres-operator -o jsonpath="{.items[0].metadata.name}"` -c apiserver'
-#alias olog='kubectl logs `kubectl get pod --selector=name=postgres-operator -o jsonpath="{.items[0].metadata.name}"` -c operator'
-#
+# alias setip='export PGO_APISERVER_URL=https://`kubectl get service postgres-operator -o=jsonpath="{.spec.clusterIP}"`:18443'
+# alias alog='kubectl logs `kubectl get pod --selector=name=postgres-operator -o jsonpath="{.items[0].metadata.name}"` -c apiserver'
+# alias olog='kubectl logs `kubectl get pod --selector=name=postgres-operator -o jsonpath="{.items[0].metadata.name}"` -c operator'
+# 
 export CCP_IMAGE_TAG=rhel7-11.1-2.3.0
 export CCP_IMAGE_PREFIX=registry.connect.redhat.com/crunchydata
 export PGO_CMD=oc
@@ -539,7 +539,7 @@ $PGO_CMD  -n "$PGO_OPERATOR_NAMESPACE" logs `$PGO_CMD  -n "$PGO_OPERATOR_NAMESPA
 function slog () {
 $PGO_CMD  -n "$PGO_OPERATOR_NAMESPACE" logs `$PGO_CMD  -n "$PGO_OPERATOR_NAMESPACE" get pod --selector=name=postgres-operator -o jsonpath="{.items[0].metadata.name}"` -c scheduler
 }
-#export DOCKER_HOST=tcp://localhost:2375
+# export DOCKER_HOST=tcp://localhost:2375
 # crunchy containers: https://github.com/CrunchyData/crunchy-containers/tree/2.4.1
 export GOPATH=$HOME/cdev        # set path to your new Go workspace
 export GOBIN=$GOPATH/bin        # set bin path 

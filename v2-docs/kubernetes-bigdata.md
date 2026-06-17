@@ -3,6 +3,29 @@
 !!! info "Architectural Context"
     Detailed reference for Big Data and Kubernetes Big Data in the context of The Container Stack.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Data and AI](#data-and-ai)
+  - [Apache Spark](#apache-spark)
+    - [Cloud Migration](#cloud-migration)
+    - [Cost Optimization](#cost-optimization)
+    - [OpenShift](#openshift)
+    - [Performance and Tuning](#performance-and-tuning)
+    - [Streaming and Scheduling](#streaming-and-scheduling)
+  - [Batch Scheduling](#batch-scheduling)
+    - [Kueue](#kueue)
+  - [Cloud Platforms](#cloud-platforms)
+    - [Databricks](#databricks)
+  - [Data Pipelines](#data-pipelines)
+    - [Apache Spark](#apache-spark-1)
+  - [Databricks](#databricks-1)
+    - [Governance](#governance)
+  - [Market Analysis](#market-analysis)
+    - [Adoption Trends](#adoption-trends)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -33,6 +56,11 @@
 #### Streaming and Scheduling
 
   - **(2023)** [**docs.databricks.com: Use scheduler pools for multiple streaming workloads**](https://docs.databricks.com/aws/en/structured-streaming/production) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Deep dives into configuring Spark scheduler pools to enforce Fair Scheduling (FAIR) when running multiple concurrent Structured Streaming queries in a shared production workspace. Prevents heavy resource queries from starving lightweight streaming jobs. Live Grounding verifies that proper allocation of pool weights remains a mandatory configuration practice for robust multi-tenant streaming pipelines.
+### Batch Scheduling
+
+#### Kueue
+
+  - **(2024)** [**Red Hat Build of Kueue**](https://docs.redhat.com/en/documentation/openshift_container_platform/4.21/html/ai_workloads/red-hat-build-of-kueue) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Focuses on Red Hat's enterprise integration of Kueue, a Kubernetes-native job queueing system designed to manage resource quotas, tenant isolation, and fair-share scheduling for high-performance AI/ML and batch workloads. Live Grounding confirms Kueue is crucial in 2026 for orchestrating GPU and CPU cluster resource allocation dynamically across large-scale enterprise clusters.
 ### Cloud Platforms
 
 #### Databricks
@@ -47,7 +75,7 @@
 
 #### Governance
 
-  - **(2024)** [**github.com/databrickslabs/ucx: Databricks Labs UCX**](https://github.com/databrickslabs/ucx) <span class='md-tag md-tag--info'>⭐ 308</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — The Databricks Labs UCX project provides a specialized framework designed to upgrade legacy Databricks workspaces to Unity Catalog governance standards. Simplifies catalog and privilege migrations automatically. Live Grounding confirms UCX is standard for enterprise organizations establishing secure, centralized data governance, metadata isolation, and unified access controls.
+  - **(2024)** [**github.com/databrickslabs/ucx: Databricks Labs UCX**](https://github.com/databrickslabs/ucx) <span class='md-tag md-tag--info'>⭐ 308</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3982b5e1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 11 L 20 7 L 30 8 L 40 6 L 50 2" fill="none" stroke="url(#spark-grad-3982b5e1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — The Databricks Labs UCX project provides a specialized framework designed to upgrade legacy Databricks workspaces to Unity Catalog governance standards. Simplifies catalog and privilege migrations automatically. Live Grounding confirms UCX is standard for enterprise organizations establishing secure, centralized data governance, metadata isolation, and unified access controls.
 ### Market Analysis
 
 #### Adoption Trends
@@ -55,5 +83,5 @@
   - **(2021)** [opensourceforu.com: Kubernetes Adoption Widespread for Big Data: Survey](https://www.opensourceforu.com/2021/12/kubernetes-adoption-widespread-for-big-data-survey/?amp) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details industry survey results illustrating the widespread migration of Big Data and stateful analytics workloads onto Kubernetes. Shows the transition from static, dedicated bare-metal clusters to dynamic, container-orchestrated platforms. Live Grounding confirms this historical trajectory has culminated in 2026, where cloud-native orchestration is the unquestioned standard for running Spark, Flink, and ML training pipelines.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
+💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Kubernetes Client Libraries](./kubernetes-client-libraries.md)
 

@@ -327,7 +327,7 @@
 ## OWASP
 
 - [vashishtsumit89.medium.com: Security/Pen Testing: A guide to run OWASP Zap headless in containers for CI/CD pipeline](https://vashishtsumit89.medium.com/security-pen-testing-a-guide-to-run-owasp-zap-headless-in-containers-for-ci-cd-pipeline-ddb580dae3c8)
-- [cloud.google.com: OWASP Top 10 mitigation options on Google Cloud 🌟](https://docs.cloud.google.com/architecture/security/owasp-top-ten-mitigation#product_overviews) Terrific guidance in this paper that explains each attack vector and which product(s) can help
+- [cloud.google.com: OWASP Top 10 mitigation options on Google Cloud 🌟](https://docs.cloud.google.com/architecture/security/owasp-top-ten-mitigation) Terrific guidance in this paper that explains each attack vector and which product(s) can help
 - [thenewstack.io: Latest OWASP Top 10 Surfaces Web Development Security Bugs](https://thenewstack.io/the-latest-owasp-top-10-looks-a-lot-like-the-old-owasp)
 - [thenewstack.io: OWASP Top 10: A Guide to the Worst Software Vulnerabilities](https://thenewstack.io/owasp-top-10-a-guide-to-the-worst-software-vulnerabilities)
 - [==owasp.org: OWASP API Security Project== 🌟](https://owasp.org/www-project-api-security)
@@ -480,8 +480,8 @@
 
 - [pyca/bcrypt](https://github.com/pyca/bcrypt) Modern(-ish) password hashing for your software and your servers.
 - [argon2-cffi](https://argon2-cffi.readthedocs.io/en/stable)
-- [docs.python.org: scrypt (standard library)](https://docs.python.org/3/library/hashlib.html#hashlib.scrypt)
-- [cryptography.io: scrypt (cryptography)](https://cryptography.io/en/latest/hazmat/primitives/key-derivation-functions/#cryptography.hazmat.primitives.kdf.scrypt.Scrypt)
+- [docs.python.org: scrypt (standard library)](https://docs.python.org/3/library/hashlib.html)
+- [cryptography.io: scrypt (cryptography)](https://cryptography.io/en/latest/hazmat/primitives/key-derivation-functions)
 
 ### Store private data in git repo
 
@@ -560,7 +560,7 @@
     - [Azure Key Vault to Kubernetes](https://github.com/SparebankenVest/azure-key-vault-to-kubernetes) Azure Key Vault to Kubernetes (akv2k8s for short) makes it simple and secure to use Azure Key Vault secrets, keys and certificates in Kubernetes.
 - [Neoteroi/essentials-configuration-keyvault](https://github.com/Neoteroi/essentials-configuration-keyvault) Azure Key Vault source for essentials-configuration
 - [==techcommunity.microsoft.com: In preview: Azure Key Vault secrets provider extension for Arc enabled Kubernetes clusters==](https://techcommunity.microsoft.com/blog/azurearcblog/in-preview-azure-key-vault-secrets-provider-extension-for-arc-enabled-kubernetes/3002160)
-- [vcloud-lab.com: Create Azure Key Vault Certificates on Azure Portal and Powershell](http://vcloud-lab.com/entries/microsoft-azure/-create-azure-key-vault-certificates-on-azure-portal-and-powershell)
+- [vcloud-lab.com: Create Azure Key Vault Certificates on Azure Portal and Powershell](https://vcloud-lab.com/entries/microsoft-azure/-create-azure-key-vault-certificates-on-azure-portal-and-powershell)
 
 ### CyberArk and Ansible
 
@@ -619,7 +619,7 @@
 - [redhat.com: Improving Linux container security with seccomp 🌟](https://www.redhat.com/en/blog/container-security-seccomp) Try this method of using an OCI runtime hook for tracing syscalls before you build a container.
 - [openshift.com: Signing and Verifying Container Images 🌟](https://www.redhat.com/en/blog/signing-and-verifying-container-images)
 - [redhat.com: Introducing Red Hat Vulnerability Scanner Certification](https://www.redhat.com/en/blog/introducing-red-hat-vulnerability-scanner-certification)
-- [docs.microsoft.com: Introduction to Azure Defender for container registries](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-container-registries-introduction#when-are-images-scanned) Defender for Container Registries Continuous Image Scan for vulnerabilities is now available for General Availability (GA)
+- [docs.microsoft.com: Introduction to Azure Defender for container registries](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-container-registries-introduction) Defender for Container Registries Continuous Image Scan for vulnerabilities is now available for General Availability (GA)
 - [techbeacon.com: 17 open-source container security tools 🌟](https://techbeacon.com/security/17-open-source-container-security-tools)
 - [about.gitlab.com: How to secure your container images with GitLab and Grype](https://about.gitlab.com/blog/secure-container-images-with-gitlab-and-grype) - [grype: a vulnerability scanner for container images and filesystems](https://github.com/anchore/grype)
 - [GoogleContainerTools/container-structure-test](https://github.com/GoogleContainerTools/container-structure-test) validate the structure of your container images

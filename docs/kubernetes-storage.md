@@ -194,7 +194,7 @@
 ### IBM Spectrum Storage Suite
 
 - [IBM Spectrum](https://www.ibm.com/solutions) IBM Spectrum Storage software for data-driven architecture. A complete storage software family with AI-infused capability that changes the economics of storage on-prem and in the hybrid multicloud.
-- [redbooks.ibm.com: IBM Storage for Red Hat OpenShift. IBM block storage & IBM Spectrum Scale](http://www.redbooks.ibm.com/abstracts/redp5565.html)
+- [redbooks.ibm.com: IBM Storage for Red Hat OpenShift. IBM block storage & IBM Spectrum Scale](https://www.redbooks.ibm.com/abstracts/redp5565.html)
 - [searchstorage.techtarget.com: IBM Spectrum](https://www.techtarget.com/searchitchannel/definition/IBM-International-Business-Machines)
 
 ### Linbit

@@ -3,6 +3,215 @@
 !!! info "Architectural Context"
     Detailed reference for Cheat Sheets in the context of Architectural Foundations.
 
+## Table of Contents
+
+1. [Architecture](#architecture)
+  - [Application Frameworks](#application-frameworks)
+    - [Quarkus](#quarkus)
+  - [Application Security](#application-security)
+    - [Token Security](#token-security)
+  - [Data Pipelines](#data-pipelines)
+    - [Apache Kafka](#apache-kafka)
+    - [Change Data Capture](#change-data-capture)
+  - [Kubernetes Operators](#kubernetes-operators)
+    - [Java Quarkus](#java-quarkus)
+1. [Automation](#automation)
+  - [Configuration Management](#configuration-management)
+    - [Ansible Reference](#ansible-reference)
+1. [Cloud Providers](#cloud-providers)
+  - [AWS](#aws)
+    - [Storage](#storage)
+  - [GCP](#gcp)
+    - [Architecture Reference](#architecture-reference)
+1. [Collaboration](#collaboration)
+  - [Documentation](#documentation)
+    - [Project Wikis](#project-wikis)
+1. [Containers](#containers)
+  - [Security and Hardening](#security-and-hardening)
+    - [Compliance Frameworks](#compliance-frameworks)
+1. [Core Kubernetes](#core-kubernetes)
+  - [Basics](#basics)
+    - [Glossary](#glossary)
+1. [Data Science and ML](#data-science-and-ml)
+  - [Data Science](#data-science)
+    - [Cheat Sheets](#cheat-sheets-1)
+  - [Machine Learning](#machine-learning)
+    - [Glossary](#glossary-1)
+    - [Python Labs](#python-labs)
+  - [Notebook Environments](#notebook-environments)
+    - [JupyterLab](#jupyterlab)
+1. [Databases and Storage](#databases-and-storage)
+  - [NoSQL Databases](#nosql-databases)
+    - [MongoDB](#mongodb)
+  - [Relational Databases](#relational-databases)
+    - [MySQL and MariaDB](#mysql-and-mariadb)
+    - [Performance Tuning](#performance-tuning)
+    - [PostgreSQL](#postgresql)
+    - [SQL](#sql)
+    - [T-SQL](#t-sql)
+1. [DevOps](#devops)
+  - [Automation](#automation-1)
+    - [Education Tooling](#education-tooling)
+1. [Developer Education](#developer-education)
+  - [Cheat Sheets](#cheat-sheets-2)
+    - [Command Line Tools](#command-line-tools)
+    - [Reference Hubs](#reference-hubs)
+  - [Frontend Development](#frontend-development)
+    - [Cheat Sheets](#cheat-sheets-3)
+1. [Developer Productivity](#developer-productivity)
+  - [Documentation Tools](#documentation-tools)
+    - [Cross-Platform Clients](#cross-platform-clients)
+    - [Offline Readers](#offline-readers)
+    - [Windows Clients](#windows-clients)
+  - [General References](#general-references)
+    - [Admin Shortcuts](#admin-shortcuts)
+1. [Developer Tooling](#developer-tooling)
+  - [Developer Knowledge](#developer-knowledge)
+    - [Cheat Sheets](#cheat-sheets-4)
+1. [Development](#development)
+  - [Version Control](#version-control)
+    - [Git](#git)
+    - [Git Clients](#git-clients)
+    - [GitHub](#github)
+1. [Enterprise Systems](#enterprise-systems)
+  - [Automation](#automation-2)
+    - [RPA](#rpa)
+1. [Frontend Development](#frontend-development-1)
+  - [Frameworks](#frameworks)
+    - [React and TypeScript](#react-and-typescript)
+1. [Information Retrieval](#information-retrieval)
+  - [Developer Education](#developer-education-1)
+    - [Cheat Sheets](#cheat-sheets-5)
+  - [OSINT](#osint)
+    - [Search Optimization](#search-optimization)
+1. [Infrastructure](#infrastructure)
+  - [Cloud Computing](#cloud-computing)
+    - [AWS](#aws-1)
+    - [AWS CLI](#aws-cli)
+  - [Configuration Management](#configuration-management-1)
+    - [Ansible](#ansible)
+  - [Container Orchestration](#container-orchestration)
+    - [Ansible Kubernetes](#ansible-kubernetes)
+    - [Docker Swarm](#docker-swarm)
+  - [Containerization](#containerization)
+    - [Container Build](#container-build)
+  - [Developer Education](#developer-education-2)
+    - [Cheat Sheets](#cheat-sheets-6)
+  - [Infrastructure as Code](#infrastructure-as-code)
+    - [Terraform](#terraform)
+  - [Linux Administration](#linux-administration)
+    - [Command Line Tools](#command-line-tools-1)
+    - [Job Scheduling](#job-scheduling)
+    - [Log Management](#log-management)
+    - [Troubleshooting](#troubleshooting)
+  - [Messaging Systems](#messaging-systems)
+    - [Kubernetes Operators](#kubernetes-operators-1)
+  - [Networking](#networking)
+    - [Secure Shell](#secure-shell)
+  - [Operating Systems](#operating-systems)
+    - [Linux Utilities](#linux-utilities)
+    - [Package Management](#package-management)
+  - [Shell Scripting](#shell-scripting)
+    - [Cheat Sheets](#cheat-sheets-7)
+1. [Infrastructure and Operations](#infrastructure-and-operations)
+  - [Shell Scripting](#shell-scripting-1)
+    - [Best Practices](#best-practices)
+  - [Terminal Environment](#terminal-environment)
+    - [Tricks and Tweaks](#tricks-and-tweaks)
+1. [Kubernetes and Scaling](#kubernetes-and-scaling)
+  - [Resource Management](#resource-management)
+    - [Reference Materials](#reference-materials)
+1. [Kubernetes Tools](#kubernetes-tools)
+  - [General Reference](#general-reference)
+1. [Networking](#networking-1)
+  - [Reference](#reference)
+    - [Network Cheat Sheets](#network-cheat-sheets)
+1. [Observability](#observability)
+  - [Metrics and Monitoring](#metrics-and-monitoring)
+    - [Prometheus](#prometheus)
+1. [Orchestration](#orchestration)
+  - [Kubernetes](#kubernetes)
+    - [CLI Management](#cli-management)
+    - [Certification Prep](#certification-prep)
+    - [Declarative Configuration](#declarative-configuration)
+    - [Practice Lab](#practice-lab)
+    - [Training and Concepts](#training-and-concepts)
+    - [Troubleshooting and Operations](#troubleshooting-and-operations)
+1. [Platform](#platform)
+  - [Container Orchestration](#container-orchestration-1)
+    - [Kubernetes](#kubernetes-1)
+    - [OpenShift](#openshift)
+  - [Package Management](#package-management-1)
+    - [Helm](#helm)
+1. [Project Management](#project-management)
+  - [Agile and Scrum](#agile-and-scrum)
+    - [Methodology](#methodology)
+1. [Quality Assurance](#quality-assurance)
+  - [Performance Testing](#performance-testing)
+    - [Apache JMeter](#apache-jmeter)
+1. [Reference Portal](#reference-portal)
+  - [Cheat Sheets](#cheat-sheets-8)
+    - [General IT](#general-it)
+1. [Research](#research)
+  - [Architecture Analysis](#architecture-analysis)
+    - [Infrastructure Design](#infrastructure-design)
+1. [Security](#security)
+  - [Application Security](#application-security-1)
+    - [OWASP](#owasp)
+  - [Networking](#networking-2)
+    - [Network Scanning](#network-scanning)
+  - [Penetration Testing](#penetration-testing)
+    - [Secure Shell](#secure-shell-1)
+    - [Security Auditing](#security-auditing)
+1. [Software Development](#software-development)
+  - [Build Automation](#build-automation)
+    - [Gradle](#gradle)
+    - [Maven](#maven)
+  - [CICD Platforms](#cicd-platforms)
+    - [Jenkins](#jenkins)
+  - [Documentation Tools](#documentation-tools-1)
+    - [Markdown](#markdown)
+  - [Performance Testing](#performance-testing-1)
+    - [JMeter](#jmeter)
+1. [Software Engineering](#software-engineering)
+  - [APIs](#apis)
+    - [Automation and Scripting](#automation-and-scripting)
+    - [Testing and Lifecycle](#testing-and-lifecycle)
+  - [Agile and DevOps](#agile-and-devops)
+    - [Productivity](#productivity)
+  - [Back-End Development](#back-end-development)
+    - [NodeJS](#nodejs)
+  - [Documentation](#documentation-1)
+    - [Markup Languages](#markup-languages)
+  - [Languages](#languages)
+    - [C](#c)
+    - [Go](#go)
+    - [JavaScript](#javascript)
+    - [Python](#python)
+    - [TypeScript](#typescript)
+  - [Microservices](#microservices)
+    - [REST Clients](#rest-clients)
+  - [Version Control Systems](#version-control-systems)
+    - [Git Operations](#git-operations)
+    - [Git Workflows](#git-workflows)
+  - [Web Development](#web-development)
+    - [NodeJS](#nodejs-1)
+1. [Software Quality](#software-quality)
+  - [Testing Automation](#testing-automation)
+    - [Selenium](#selenium)
+1. [Systems](#systems)
+  - [Linux](#linux)
+    - [Administration](#administration)
+    - [Command Line](#command-line)
+    - [Networking](#networking-3)
+    - [Session Management](#session-management)
+    - [Storage](#storage-1)
+1. [Virtualization and Containers](#virtualization-and-containers)
+  - [Docker](#docker)
+    - [CLI Reference](#cli-reference)
+    - [Enterprise Tools](#enterprise-tools)
+    - [Security Hardening](#security-hardening)
+
 ## Architecture
 
 ### Application Frameworks
@@ -23,6 +232,11 @@
 #### Change Data Capture
 
   - **(2026)** [developers.redhat.com: Debezium on OpenShift Cheat Sheet](https://developers.redhat.com/cheat-sheets/debezium-openshift-cheat-sheet) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An integration cheat sheet for configuring Debezium CDC within OpenShift pipelines. Curator Insight underscores real-time event streaming advantages. Live Grounding verifies Debezium's critical role in decoupling microservice databases without code changes.
+### Kubernetes Operators
+
+#### Java Quarkus
+
+  - **(2026)** [developers.redhat.com: Writing a Kubernetes Operator in Java using Quarkus - **Cheat Sheet** 🌟](https://developers.redhat.com/cheat-sheets/writing-kubernetes-operator-java) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced developer reference for implementing custom Kubernetes Operators in Java using Quarkus. Curator Insight highlights Quarkus' small memory footprint. Live Grounding shows a significant surge in Java Operator SDK adoption for enterprise platforms.
 ## Automation
 
 ### Configuration Management
@@ -34,9 +248,6 @@
 
 ### AWS
 
-#### Security and IAM
-
-  - **(2026)** [**docs.aws.amazon.com: Actions, resources, and condition keys for AWS services 🌟🌟🌟**](https://docs.aws.amazon.com/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The definitive AWS reference for constructing fine-grained IAM policies. It outlines exact service actions, resource types, and condition context keys required to enforce the principle of least privilege in enterprise architectures. This resource is indispensable for security engineers building cloud access models.
 #### Storage
 
   - **(2023)** [awsgeek.com/Amazon-S3](https://www.awsgeek.com/Amazon-S3) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly visual architectural breakdown of Amazon S3 features, storage classes, and lifecycle policies. This resource maps complex cloud storage abstractions into readable visual cheat sheets, clarifying performance tiers and security boundaries. Excellent for quick architectural onboarding and design sessions.
@@ -44,7 +255,7 @@
 
 #### Architecture Reference
 
-  - **(2024)** [==The Google Cloud Developer's Cheat Sheet 🌟==](https://github.com/priyankavergadia/google-cloud-4-words) <span class='md-tag md-tag--info'>⭐ 8225</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exceptionally popular developer's directory translating Google Cloud's extensive product portfolio into four-word functional summaries accompanied by visual flowcharts. It simplifies GCP's architectural choices across compute, database, and machine learning domains.
+  - **(2024)** [==The Google Cloud Developer's Cheat Sheet 🌟==](https://github.com/priyankavergadia/google-cloud-4-words) <span class='md-tag md-tag--info'>⭐ 8225</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-35fdbc9f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 12 L 20 6 L 30 9 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-35fdbc9f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exceptionally popular developer's directory translating Google Cloud's extensive product portfolio into four-word functional summaries accompanied by visual flowcharts. It simplifies GCP's architectural choices across compute, database, and machine learning domains.
 ## Collaboration
 
 ### Documentation
@@ -79,6 +290,9 @@
 #### Glossary (1)
 
   - **(2026)** [Machine Learning Glossary](https://developers.google.com/machine-learning/glossary)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An authoritative dictionary compiled by Google to standardize terms across core AI and machine learning engineering domains. Explores architectural paradigms, neural network elements, deployment metrics, and training pipeline semantics crucial for production systems.
+#### Python Labs
+
+  - **(2023)** [==github.com/ekramasif: Basic Machine Learning - Python Cheatsheet==](https://github.com/ekramasif/Basic-Machine-Learning/blob/main/Extraa/PythonCheatSheet.ipynb) <span class='md-tag md-tag--info'>⭐ 80</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-61a8a922" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 12 L 20 2 L 30 12 L 40 3 L 50 6" fill="none" stroke="url(#spark-grad-61a8a922)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An interactive Jupyter Notebook consolidating standard machine learning algorithms in Python. Details array configurations, basic Scikit-Learn validation tests, and pandas pipeline configurations.
 ### Notebook Environments
 
 #### JupyterLab
@@ -105,8 +319,8 @@
   - **(2024)** [datadoghq.com: PostgreSQL Cheatsheet](https://www.datadoghq.com/resources/datadog-postgresql-cheatsheet) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A production-oriented PostgreSQL maintenance manual from Datadog. Concentrates on performance telemetry, vacuum parameters, deep query tracking metrics, locking processes, and performance troubleshooting.
 #### SQL
 
-  - **(2024)** [==github.com/enochtangg/quick-SQL-cheatsheet: Quick SQL Cheatsheet 🌟==](https://github.com/enochtangg/quick-SQL-cheatsheet) <span class='md-tag md-tag--info'>⭐ 5402</span> <span class='md-tag md-tag--warning'>[SQL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly-starred quick-reference guide for standard SQL query patterns. Highlights efficient subquery constructions, join variants, data filtering options, and indexing architectures to accelerate database optimization workflows.
-  - **(2025)** [github.com/ABZ-Aaron: SQL Cheat Sheet 🌟](https://github.com/ABZ-Aaron/cheat-sheets) <span class='md-tag md-tag--info'>⭐ 1714</span> <span class='md-tag md-tag--warning'>[SQL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An intensive SQL compilation focusing on relational queries. Highlights transaction control, subqueries, complex JOIN strategies, CTEs, and window functions used across major RDBMS engines (PostgreSQL, MySQL, SQLite).
+  - **(2024)** [==github.com/enochtangg/quick-SQL-cheatsheet: Quick SQL Cheatsheet 🌟==](https://github.com/enochtangg/quick-SQL-cheatsheet) <span class='md-tag md-tag--info'>⭐ 5402</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-4610a55a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 13 L 20 8 L 30 8 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-4610a55a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SQL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly-starred quick-reference guide for standard SQL query patterns. Highlights efficient subquery constructions, join variants, data filtering options, and indexing architectures to accelerate database optimization workflows.
+  - **(2025)** [github.com/ABZ-Aaron: SQL Cheat Sheet 🌟](https://github.com/ABZ-Aaron/cheat-sheets) <span class='md-tag md-tag--info'>⭐ 1714</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-098ed815" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 2 L 20 12 L 30 10 L 40 3 L 50 2" fill="none" stroke="url(#spark-grad-098ed815)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SQL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An intensive SQL compilation focusing on relational queries. Highlights transaction control, subqueries, complex JOIN strategies, CTEs, and window functions used across major RDBMS engines (PostgreSQL, MySQL, SQLite).
   - **(2024)** [intellipaat.com: SQL Commands Cheat Sheet](https://intellipaat.com/blog/tutorial/sql-tutorial/sql-commands-cheat-sheet) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational SQL index summarizing syntax patterns across major engines. Synthesizes basic statements with introductory query filters, making it a reliable reference for new database engineers.
   - **(2024)** [hackr.io: SQL Commands Tutorial: DDL, DML, TCL and DQL Commands](https://hackr.io/blog/sql-commands) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A tutorial breaking down relational SQL execution engines into distinct scopes: DDL, DML, TCL, and DQL. Facilitates clean storage engine configuration, schema updates, and programmatic transactional isolation patterns.
   - **(2023)** [github.com/swapnakpanda: SQL_CheatSheet.png](https://github.com/swapnakpanda/Infographics/blob/main/Cheat%20Sheet/Database/SQL_CheatSheet.png) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A dense visual database infographic grouping standard relational concepts. Outlines join configurations, index lookups, data grouping rules, and typical query structures in a high-density schematic map.
@@ -129,8 +343,8 @@
   - **(2024)** [==cheat.sh 🌟==](https://cheat.sh) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A terminal-centric query engine that outputs syntax definitions and code templates directly to curl queries. By removing the need to search through browser interfaces, it drastically improves developer productivity for CLI operations.
 #### Reference Hubs
 
-  - **(2024)** [==LeCoupa/awesome-cheatsheets==](https://github.com/LeCoupa/awesome-cheatsheets) <span class='md-tag md-tag--info'>⭐ 46016</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensive collection of high-density cheat sheets targeting mainstream programming environments, databases, and container architectures. It serves as a rapid reference hub for backend engineers looking to quickly lookup API syntaxes and commands.
-  - **(2024)** [**detailyang/awesome-cheatsheet**](https://github.com/detailyang/awesome-cheatsheet) <span class='md-tag md-tag--info'>⭐ 8395</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A massive, consolidated cheat sheet repository that maps systems administration scripts, databases, and low-level tools in structured layouts. It is an exceptional reference point for quickly identifying syntax nuances and patterns.
+  - **(2024)** [==LeCoupa/awesome-cheatsheets==](https://github.com/LeCoupa/awesome-cheatsheets) <span class='md-tag md-tag--info'>⭐ 46016</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-01ea01a6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 5 L 20 2 L 30 4 L 40 12 L 50 3" fill="none" stroke="url(#spark-grad-01ea01a6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensive collection of high-density cheat sheets targeting mainstream programming environments, databases, and container architectures. It serves as a rapid reference hub for backend engineers looking to quickly lookup API syntaxes and commands.
+  - **(2024)** [**detailyang/awesome-cheatsheet**](https://github.com/detailyang/awesome-cheatsheet) <span class='md-tag md-tag--info'>⭐ 8395</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8fbcc9f5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 5 L 20 4 L 30 13 L 40 5 L 50 4" fill="none" stroke="url(#spark-grad-8fbcc9f5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A massive, consolidated cheat sheet repository that maps systems administration scripts, databases, and low-level tools in structured layouts. It is an exceptional reference point for quickly identifying syntax nuances and patterns.
   - **(2024)** [cheat-sheets.org 🌟](https://www.cheat-sheets.org) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A long-standing reference repository indexing thousands of HTML and PDF cheat sheets since the early web era. It is an exceptional library for looking up legacy programming syntaxes and low-level hardware or networking specifications.
 ### Frontend Development
 
@@ -227,7 +441,7 @@
 
 #### React and TypeScript
 
-  - **(2026)** [==React+TypeScript Cheatsheets==](https://github.com/typescript-cheatsheets/react) <span class='md-tag md-tag--info'>⭐ 47065</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier open-source guide for integrating React with TypeScript securely. Resolves complex enterprise type-safety challenges, targeting typed props, generic components, hook lifecycles, and advanced context configurations.
+  - **(2026)** [==React+TypeScript Cheatsheets==](https://github.com/typescript-cheatsheets/react) <span class='md-tag md-tag--info'>⭐ 47065</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ecc7526d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 10 L 20 7 L 30 9 L 40 6 L 50 3" fill="none" stroke="url(#spark-grad-ecc7526d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier open-source guide for integrating React with TypeScript securely. Resolves complex enterprise type-safety challenges, targeting typed props, generic components, hook lifecycles, and advanced context configurations.
 ## Information Retrieval
 
 ### Developer Education (1)
@@ -314,7 +528,7 @@
   - **(2023)** [developers.redhat.com: Advanced Linux commands cheat sheet for developers](https://developers.redhat.com/cheat-sheets/advanced-linux-commands) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An intensive guide addressing advanced Linux system diagnostic and telemetry commands (e.g., lsof, strace, ss, ip). It equips systems engineers to quickly troubleshoot process bottlenecks, kernel states, and network connections.
 ### Messaging Systems
 
-#### Kubernetes Operators
+#### Kubernetes Operators (1)
 
   - **(2023)** [blog.jromanmartin.io: ActiveMQ, Kafka, Strimzi and CodeReady Containers](https://blog.jromanmartin.io/cheat-sheets) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architecture-focused blog explaining how to coordinate Apache ActiveMQ, Kafka, Strimzi operators, and CodeReady Containers in Kubernetes environments. It provides real-world patterns for building resilient, event-driven microservices.
 ### Networking
@@ -361,7 +575,7 @@
 
   - [tutorialsdojo.com: AWS Cheat Sheets 🌟](https://tutorialsdojo.com/aws-cheat-sheets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering tutorialsdojo.com in the Kubernetes Tools ecosystem.
   - [mastertheboss.com: OpenShift Cheat Sheet](https://www.mastertheboss.com/soa-cloud/openshift/openshift-cheatsheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.mastertheboss.com in the Kubernetes Tools ecosystem.
-  - [dzone refcard: Getting Started With OpenShift 🌟](https://dzone.com/refcardz/getting-started-with-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone refcard: Getting Started With OpenShift 🌟 in the Kubernetes Tools ecosystem.
+  - [simplecheatsheet.com/tag/golang-cheat-sheet](https://simplecheatsheet.com/tag/golang-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering simplecheatsheet.com/tag/golang-cheat-sheet in the Kubernetes Tools ecosystem.
   - [Red Hat Developer cheat sheets 🌟](https://developers.redhat.com/cheatsheets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Red Hat Developer cheat sheets 🌟 in the Kubernetes Tools ecosystem.
   - [medium: The DevOps Cheat Sheet](https://medium.com/dataseries/the-devops-cheat-sheet-3177d6cf361c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: The DevOps Cheat Sheet in the Kubernetes Tools ecosystem.
   - [developers.redhat.com: Intermediate Linux Cheat Sheet](https://developers.redhat.com/cheat-sheets/intermediate-linux-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering developers.redhat.com: Intermediate Linux Cheat Sheet in the Kubernetes Tools ecosystem.
@@ -401,6 +615,7 @@
   - [cyberciti.biz: Linux ip Command Examples](https://www.cyberciti.biz/faq/linux-ip-command-examples-usage-syntax)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cyberciti.biz: Linux ip Command Examples in the Kubernetes Tools ecosystem.
   - [ssh cheat sheet](https://cheatsheet.dennyzhang.com/cheatsheet-ssh-a4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ssh cheat sheet in the Kubernetes Tools ecosystem.
   - [openshift.tips](https://openshift.tips)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering openshift.tips in the Kubernetes Tools ecosystem.
+  - [dzone refcard: Getting Started With OpenShift 🌟](https://dzone.com/refcardz/getting-started-with-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone refcard: Getting Started With OpenShift 🌟 in the Kubernetes Tools ecosystem.
   - [faun.pub: Helm Command Cheat Sheet | By M. Sharma](https://faun.pub/helm-command-cheat-sheet-by-m-sharma-488706ecf131)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering faun.pub: Helm Command Cheat Sheet | By M. Sharma in the Kubernetes Tools ecosystem.
   - [jrebel.com/blog/maven-cheat-sheet](https://www.jrebel.com/blog/maven-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering jrebel.com/blog/maven-cheat-sheet in the Kubernetes Tools ecosystem.
   - [medium 1](https://medium.com/@TimvanBaarsen/maven-cheat-sheet-45942d8c0b86)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium 1 in the Kubernetes Tools ecosystem.
@@ -414,7 +629,6 @@
   - [levelup.gitconnected.com: NestJS: Microservices with gRPC, API Gateway,' and Authentication — Part 1/2](https://levelup.gitconnected.com/nestjs-microservices-with-grpc-api-gateway-and-authentication-part-1-2-650009c03686)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering levelup.gitconnected.com: NestJS: Microservices with gRPC, API Gateway,' and Authentication — Part 1/2 in the Kubernetes Tools ecosystem.
   - [sqltutorial.org: SQL Cheat Sheet](https://www.sqltutorial.org/sql-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering sqltutorial.org: SQL Cheat Sheet in the Kubernetes Tools ecosystem.
   - [python.plainenglish.io: The Ultimate Python Cheat Sheet | Muhammad Umair](https://python.plainenglish.io/ultimate-python-cheat-sheet-f2930e08669c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering python.plainenglish.io: The Ultimate Python Cheat Sheet | Muhammad Umair in the Kubernetes Tools ecosystem.
-  - [simplecheatsheet.com/tag/golang-cheat-sheet](https://simplecheatsheet.com/tag/golang-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering simplecheatsheet.com/tag/golang-cheat-sheet in the Kubernetes Tools ecosystem.
   - [dzone: Scrum refcard](https://dzone.com/refcardz/scrum)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Scrum refcard in the Kubernetes Tools ecosystem.
 ## Networking (1)
 
@@ -441,7 +655,6 @@
 ??? abstract "Architect's Technical Comparison Table"
     | Solution | Maturity | Primary Focus | Language | Stars |
     | :--- | :--- | :--- | :--- | :--- |
-    | [kubernetes.io 🌟](https://kubernetes.io/docs/reference/kubectl/quick-reference) |  | CLI Management | Markdown | 🌟🌟🌟🌟🌟 |
     | [developers.redhat.com: Kubernetes Cheat Sheet](https://developers.redhat.com/cheat-sheets/kubernetes) |  | CLI Management | PDF | 🌟🌟🌟🌟 |
     | [mirantis.com: Kubernetes Cheat Sheet 🌟](https://www.mirantis.com/blog/kubernetes-cheat-sheet) |  | CLI Management | HTML | 🌟🌟🌟 |
     | [dockerlabs.collabnix.com: Cheatsheet - Kubectl 🌟](https://dockerlabs.collabnix.com/kubernetes/cheatsheets/kubectl.html) |  | CLI Management | HTML | 🌟🌟🌟 |
@@ -452,7 +665,6 @@
     | [opensource.com: 9 kubectl commands sysadmins need to know 🌟](https://opensource.com/article/20/5/kubectl-cheat-sheet) |  | CLI Management | HTML | 🌟🌟🌟 |
     | [fabric8 - kubectl](https://github.com/fabric8io/kansible/blob/master/vendor/k8s.io/kubernetes/docs/user-guide/kubectl-cheatsheet.md) |  | CLI Management | Markdown | 🌟🌟🌟 |
 
-  - **(2026)** [==kubernetes.io 🌟==](https://kubernetes.io/docs/reference/kubectl/quick-reference) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The canonical reference documentation for the kubectl command-line utility. Provides up-to-date syntax patterns for resource creation, patch edits, formatting outputs, and real-time container log analysis across active nodes.
   - **(2024)** [**developers.redhat.com: Kubernetes Cheat Sheet**](https://developers.redhat.com/cheat-sheets/kubernetes) <span class='md-tag md-tag--warning'>[PDF CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Enterprise-focused Red Hat guide summarizing essential kubectl command structures for cluster administrators. Designed to aid engineers managing OpenShift or vanilla Kubernetes distributions, ensuring fast recovery and diagnostic workflows.
   - **(2024)** [mirantis.com: Kubernetes Cheat Sheet 🌟](https://www.mirantis.com/blog/kubernetes-cheat-sheet) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A consolidated quick-reference handbook by Mirantis. Emphasizes safe deletion practices, container inspection mechanics, and context manipulation protocols inside high-concurrency staging environments.
   - **(2024)** [dockerlabs.collabnix.com: Cheatsheet - Kubectl 🌟](https://dockerlabs.collabnix.com/kubernetes/cheatsheets/kubectl.html) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A collaborative tutorial reference detailing standard kubectl execution sequences. Designed for cloud-native learners mapping Docker concepts directly onto operational Kubernetes paradigms.
@@ -461,7 +673,7 @@
   - **(2022)** [learncloudnative.com: Kubernetes CLI (kubectl) tips you didn't know about](https://learncloudnative.com/blog/2022-05-10-kubectl-tips) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Advanced productivity guide detailing hidden features and productivity parameters within kubectl. Includes custom columns formatting, JSONPath parsing templates, and multi-context aliasing for faster operational feedback loops.
   - **(2021)** [opensource.com: Learn essential Kubernetes commands with a new cheat sheet](https://opensource.com/article/21/5/kubernetes-cheat-sheet) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Introduces standard cluster control commands through a downloadable reference guide. Geared toward system engineers shifting from legacy virtual machine setups to distributed container configurations.
   - **(2020)** [opensource.com: 9 kubectl commands sysadmins need to know 🌟](https://opensource.com/article/20/5/kubectl-cheat-sheet) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical review highlighting nine essential commands for cluster administration. Focuses on pod logging, resource deletion, and port-forwarding debugging patterns crucial for day-to-day sysadmin monitoring.
-  - **(2018)** [fabric8 - kubectl](https://github.com/fabric8io/kansible/blob/master/vendor/k8s.io/kubernetes/docs/user-guide/kubectl-cheatsheet.md) <span class='md-tag md-tag--info'>⭐ 266</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A historic, vendor-sourced reference of early kubectl command structures hosted in the fabric8 ecosystem. While some elements lean legacy, it documents fundamental container routing patterns and administrative tasks foundational to older clusters.
+  - **(2018)** [fabric8 - kubectl](https://github.com/fabric8io/kansible/blob/master/vendor/k8s.io/kubernetes/docs/user-guide/kubectl-cheatsheet.md) <span class='md-tag md-tag--info'>⭐ 266</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-60cef4e4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 11 L 20 11 L 30 13 L 40 10 L 50 6" fill="none" stroke="url(#spark-grad-60cef4e4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A historic, vendor-sourced reference of early kubectl command structures hosted in the fabric8 ecosystem. While some elements lean legacy, it documents fundamental container routing patterns and administrative tasks foundational to older clusters.
   - **(2023)** [thechief.io: The Definitive Kubectl Cheat Sheet](https://thechief.io/c/editorial/definitive-kubectl-cheat-sheet) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highly categorized command lookup resource organizing kubectl syntax by functional target. Covers advanced diagnostic functions like resource patching and configuration rollbacks to aid in complex site reliability engineering scenarios.
   - **(2023)** [myfuturehub.com: Must Keep these Kubernetes Commands handy](https://myfuturehub.com/must-keep-these-kubernetes-commands-handy) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A collection of critical shell-based commands for quick-reference when inspecting Kubernetes deployments. Focuses on common tasks like scaling workloads, port routing, and viewing log queues.
   - **(2022)** [cloudtechtwitter.com: kubernetes common commands](https://www.cloudtechtwitter.com/2022/05/kubernetes-common-commands.html) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A community-sourced compilation of the most frequent command patterns used during cluster debugging. Offers lightweight syntax models for checking endpoint states and validating daemon status.
@@ -476,7 +688,7 @@
   - **(2024)** [kunchalavikram1427: kubernetes Public](https://github.com/kunchalavikram1427/Kubernetes_public) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A public community repository comprising manifests, setup recipes, and operational scripting files for educational Kubernetes clusters. Useful for individual engineers seeking boilerplate YAML configs for standard testing.
 #### Training and Concepts
 
-  - **(2024)** [**github: K8s in 30 mins 🌟**](https://github.com/rosehgal/k8s-In-30Mins) <span class='md-tag md-tag--info'>⭐ 212</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An accelerated educational repository mapping core Kubernetes abstractions, including Pods, Services, Deployments, and ReplicaSets. Translates complex container orchestration mechanics into brief visual explanations, facilitating quick developer onboarding for distributed systems development.
+  - **(2024)** [**github: K8s in 30 mins 🌟**](https://github.com/rosehgal/k8s-In-30Mins) <span class='md-tag md-tag--info'>⭐ 212</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7a22cd4b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 8 L 20 6 L 30 4 L 40 9 L 50 12" fill="none" stroke="url(#spark-grad-7a22cd4b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An accelerated educational repository mapping core Kubernetes abstractions, including Pods, Services, Deployments, and ReplicaSets. Translates complex container orchestration mechanics into brief visual explanations, facilitating quick developer onboarding for distributed systems development.
   - **(2024)** [intellipaat.com 🌟](https://intellipaat.com/blog/tutorial/devops-tutorial/kubernetes-cheat-sheet) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — DevOps tutorial outlining essential kubectl operations and resource templates. Aimed at training cloud administrators for standard operational pipelines, troubleshooting, and microservice deployment mapping.
 #### Troubleshooting and Operations
 
@@ -493,7 +705,7 @@
   - **(2026)** [garba.org: Kubernetes Pod Life Cycle Cheat Sheet](https://garba.org/posts/2018/k8s_pod_lc) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical breakdown of Pod lifecycle states, start probes, and termination parameters. Curator Insight notes its value in troubleshooting restart loops. Live Grounding underscores how pod lifecycles affect blue-green deployment strategies.
 #### OpenShift
 
-  - **(2026)** [==github.com: openshift cheat sheet 3==](https://github.com/mhausenblas/openshift-cheat-sheet) <span class='md-tag md-tag--info'>⭐ 6</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A community-maintained cheat sheet targeting container scaling and routing. Curator Insight notes its applicability to early setups. Live Grounding points to its continued historical use as a reliable baseline bookmark for bare-metal deployments.
+  - **(2026)** [==github.com: openshift cheat sheet 3==](https://github.com/mhausenblas/openshift-cheat-sheet) <span class='md-tag md-tag--info'>⭐ 6</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f8440b8c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 7 L 20 4 L 30 6 L 40 5 L 50 9" fill="none" stroke="url(#spark-grad-f8440b8c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A community-maintained cheat sheet targeting container scaling and routing. Curator Insight notes its applicability to early setups. Live Grounding points to its continued historical use as a reliable baseline bookmark for bare-metal deployments.
   - **(2026)** [developers.redhat.com: Red Hat OpenShift Container Platform Cheat Sheet](https://developers.redhat.com/cheat-sheets/red-hat-openshift-container-platform) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An official Red Hat publication for managing the OpenShift Container Platform CLI. Curator Insight notes its criticality for enterprise engineers. Live Grounding emphasizes how OpenShift-specific oc extensions synchronize with base Kubernetes APIs.
   - **(2026)** [github.com: Openshift cheat sheet 1](https://github.com/nekop/openshift-sandbox/blob/master/docs/command-cheatsheet.md) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A public Git-based repository mapping common OpenShift CLI operations. Curator Insight focuses on developers utilizing localized sandbox configurations. Live Grounding demonstrates how manual cluster troubleshooting remains standard despite GitOps workflows.
   - **(2026)** [gist.github.com: Openshift cheat sheet 2](https://gist.github.com/rafaeltuelho/111850b0db31106a4d12a186e1fbc53e) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated GitHub Gist focusing on route creations and project management inside OpenShift. Curator Insight points to easy execution structures. Live Grounding highlights how engineers bypass standard dashboard overhead with direct Gist terminal blocks.
@@ -583,7 +795,8 @@
 
 #### Markdown
 
-  - **(2026)** [==Markdown Cheat Sheet 4==](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) <span class='md-tag md-tag--info'>⭐ 60214</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — One of the most starred and utilized Markdown references on GitHub. Curator Insight emphasizes its extreme offline utility. Live Grounding validates its legacy status as the primary standard for formatting across modern source code platforms.
+  - **(2026)** [==Markdown Cheat Sheet 4==](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) <span class='md-tag md-tag--info'>⭐ 60214</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-5c5bf9d4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 7 L 20 3 L 30 5 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-5c5bf9d4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — One of the most starred and utilized Markdown references on GitHub. Curator Insight emphasizes its extreme offline utility. Live Grounding validates its legacy status as the primary standard for formatting across modern source code platforms.
+  - **(2026)** [markdownguide.org](https://www.markdownguide.org) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The definitive platform-neutral guide to standard and extended Markdown syntax. Curator Insight praises its simplicity. Live Grounding proves its continued necessity as the absolute standard for project readme documentation.
   - **(2026)** [freecodecamp.org: Markdown Cheat Sheet – How to Write in Markdown with Examples](https://www.freecodecamp.org/news/markdown-cheat-sheet) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An educational guide explaining Markdown basics with real-world examples. Curator Insight values its utility for technical writers. Live Grounding shows its broad usage in software engineering bootcamps and initial developer onboardings.
 ### Performance Testing (1)
 
@@ -626,8 +839,7 @@
   - **(2025)** [hackingcpp.com: C++ Cheat Sheets](https://hackingcpp.com/cpp/cheat_sheets) <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced Modern C++ reference targeting specifications up to C++23. Explains smart memory management, standard template library algorithms, and modern concurrency features.
 #### Go
 
-  - **(2025)** [devhints.io/go: Go cheatsheet](https://devhints.io/go) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-density Go interface dashboard providing rapid syntactical access. Highlights slice memory operations, struct compositions, dynamic channels, and concurrency waitgroups to speed up systems programming.
-  - **(2025)** [github.com: golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet) <span class='md-tag md-tag--info'>⭐ 8800</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A high-density Go reference database. It details Go core syntaxes, standard library definitions, channels, interface rules, and concurrency patterns to accelerate systems-level software development.
+  - **(2025)** [github.com: golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet) <span class='md-tag md-tag--info'>⭐ 8800</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f540cad0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 2 L 20 7 L 30 4 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-f540cad0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A high-density Go reference database. It details Go core syntaxes, standard library definitions, channels, interface rules, and concurrency patterns to accelerate systems-level software development.
 #### JavaScript
 
   - **(2022)** [opensource.com: JavaScript cheat sheet](https://opensource.com/downloads/javascript-cheat-sheet) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A modern quick-reference syntax compiler for ES6+ JavaScript. Designed to optimize developer productivity, it covers data types, manipulation protocols, async/await structures, and event-driven browser interfaces.
@@ -656,7 +868,7 @@
 
 #### NodeJS (1)
 
-  - **(2024)** [==NodeJS Best Practices (Spanish Translation)==](https://github.com/goldbergyoni/nodebestpractices/blob/spanish-translation/README.spanish.md) <span class='md-tag md-tag--info'>⭐ 105318</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Spanish localization of the leading Node.js architecture and security handbook. It offers comprehensive design blueprints covering error handling, clean architecture, security, production readiness, and testing guidelines for scalable enterprise systems.
+  - **(2024)** [==NodeJS Best Practices (Spanish Translation)==](https://github.com/goldbergyoni/nodebestpractices/blob/spanish-translation/README.spanish.md) <span class='md-tag md-tag--info'>⭐ 105318</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b63ca5bb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 8 L 20 4 L 30 9 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-b63ca5bb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Spanish localization of the leading Node.js architecture and security handbook. It offers comprehensive design blueprints covering error handling, clean architecture, security, production readiness, and testing guidelines for scalable enterprise systems.
 ## Software Quality
 
 ### Testing Automation
@@ -702,7 +914,7 @@
     | [dev.to: Docker Commands Cheat Sheet | Pragyan Tripathi](https://dev.to/pragyanatvade/docker-commands-cheat-sheet-47n4) |  | CLI Reference | HTML | 🌟🌟🌟 |
     | [dockerlux.github.io: Docker Cheat Sheet 🌟](https://dockerlux.github.io/pdf/cheat-sheet-v2.pdf) |  | CLI Reference | PDF | 🌟🌟🌟 |
 
-  - **(2025)** [==github.com: Docker cheat Sheet==](https://github.com/wsargent/docker-cheat-sheet) <span class='md-tag md-tag--info'>⭐ 22528</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — One of the most popular, extensive open-source community references for Docker command lines and runtime configurations. Meticulously compiles network setups, volume bindings, Dockerfile directives, and diagnostic debugging tricks into a highly accessible repository.
+  - **(2025)** [==github.com: Docker cheat Sheet==](https://github.com/wsargent/docker-cheat-sheet) <span class='md-tag md-tag--info'>⭐ 22528</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1225c599" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 6 L 20 13 L 30 4 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-1225c599)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — One of the most popular, extensive open-source community references for Docker command lines and runtime configurations. Meticulously compiles network setups, volume bindings, Dockerfile directives, and diagnostic debugging tricks into a highly accessible repository.
   - **(2024)** [dockerlabs.collabnix.com: The Ultimate Docker Cheat Sheet 🌟](https://dockerlabs.collabnix.com/docker/cheatsheet) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structured repository aggregating developer instructions for Docker engines, Compose, and Swarm. Acts as a key educational path for transition training from basic container builds to multi-container microservice orchestrations.
   - **(2024)** [intellipaat.com: Docker Cheat Sheet 🌟](https://intellipaat.com/blog/tutorial/devops-tutorial/docker-cheat-sheet) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A DevOps educational reference tracking foundational Docker engine instructions. Maps container operational lifecycles, network architectures, and filesystem volume setups to simplify learner integration journeys.
   - **(2024)** [linuxhandbook.com: Docker Commands for Managing Container Lifecycle (Definitive Guide)](https://linuxhandbook.com/container-lifecycle-docker-commands) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Excellent analytical guide covering state transitions within a Docker container lifecycle. Explains deep distinctions between create, start, run, pause, stop, and kill operational phases, with real-world troubleshooting diagnostics.
@@ -717,5 +929,5 @@
   - **(2025)** [**blog.gitguardian.com: Docker Security Best Practices & Cheat Sheet 🌟**](https://blog.gitguardian.com/how-to-improve-your-docker-containers-security-cheat-sheet) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Focuses on protecting applications by avoiding hardcoded secrets, securing base images, and implementing strict runtime privileges within Docker builds. Provides precise, actionable rules for integrating automated container security checks into CI/CD pipelines.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Other Awesome Lists](./other-awesome-lists.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
 

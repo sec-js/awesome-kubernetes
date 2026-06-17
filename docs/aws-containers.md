@@ -24,14 +24,14 @@
 
 ## Amazon ECS optimized AMI
 
-- [Amazon ECS-optimized AMI](http://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-optimized_AMI.html)
+- [Amazon ECS-optimized AMI](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-optimized_AMI.html)
 
 ## AWS EC2 Container Registry ECR (Docker)
 
 - [A Better Dev/Test Experience: Docker and AWS](https://medium.com/aws-activate-startup-blog/a-better-dev-test-experience-docker-and-aws-291da5ab1238)
-- [Amazon EC2 Container Registry Documentation](http://aws.amazon.com/es/documentation/ecr)
-- [Get started with Amazon EC2 Container Registry (Amazon ECR)](http://docs.aws.amazon.com/AmazonECR/latest/userguide/ECR_GetStarted.html)
-- [Using Docker Machine with AWS](http://blog.scottlowe.org/2016/03/22/using-docker-machine-with-aws)
+- [Amazon EC2 Container Registry Documentation](https://aws.amazon.com/es/documentation/ecr)
+- [Get started with Amazon EC2 Container Registry (Amazon ECR)](https://docs.aws.amazon.com/AmazonECR/latest/userguide/ECR_GetStarted.html)
+- [Using Docker Machine with AWS](https://blog.scottlowe.org/2016/03/22/using-docker-machine-with-aws)
 - [Docker Datacenter on the AWS Cloud: Quick Start Reference Deployment](https://aws.amazon.com/es/about-aws/whats-new/2016/06/docker-datacenter-on-the-aws-cloud-quick-start-reference-deployment)
 - [ecrcp](https://github.com/bit-cloner/ecrcp) aims to mimic cp command in Linux systems as closely as possible in its implementation. Consider ecrcp to be the cp equivalent to copy container images from docker hub to ECR.
 - [aws.plainenglish.io: How to Push a Docker Image to the AWS ECR](https://aws.plainenglish.io/how-to-push-an-image-to-aws-ecr-b2be848c2ef)
@@ -39,4 +39,4 @@
 
 ## Docker for AWS
 
-- [blog.couchbase.com: Getting Started with Docker for AWS and Scaling Nodes](http://blog.couchbase.com/2016/july/docker-for-aws-getting-started-scaling-nodes)
+- [blog.couchbase.com: Getting Started with Docker for AWS and Scaling Nodes](https://blog.couchbase.com/2016/july/docker-for-aws-getting-started-scaling-nodes)

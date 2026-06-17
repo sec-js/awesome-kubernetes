@@ -3,6 +3,29 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Training and Certification in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Computing](#cloud-computing)
+  - [AWS](#aws)
+    - [Certification Administration](#certification-administration)
+    - [Certification Training](#certification-training)
+    - [Community Learning](#community-learning)
+    - [Infrastructure as Code](#infrastructure-as-code)
+    - [Official Training](#official-training)
+  - [Training](#training)
+    - [Community Learning](#community-learning-1)
+    - [Educational Resources](#educational-resources)
+    - [Multi-Cloud Education](#multi-cloud-education)
+1. [Infrastructure](#infrastructure)
+  - [Cloud Computing](#cloud-computing-1)
+    - [AWS Training](#aws-training)
+1. [Security](#security)
+  - [Identity and Access](#identity-and-access)
+    - [AWS Security Fundamentals](#aws-security-fundamentals)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -33,6 +56,7 @@
   - **(2016)** [aws.amazon.com: First AWS Certification Study Guide Now Available](https://aws.amazon.com/es/about-aws/whats-new/2016/10/first-aws-certification-study-guide-now-available)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Historical announcement of the first official AWS Certified Solutions Architect - Associate Study Guide. While highly informative on classical concepts, modern practitioners must supplement it with current AWS documentation to address the evolved features of modern cloud services.
 #### Community Learning
 
+  - **(2023)** [community.aws/training: Training and Certification](https://builder.aws.com/learn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The centralized AWS Builder community training site featuring articles, community-sourced tutorials, and architectural guidelines written by AWS Heroes and user group leaders worldwide.
   - **(2023)** [awscerts.slack.com](https://awscerts.slack.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A dedicated global Slack community focusing on AWS Certifications. Serves as a peer-to-peer discussion hub where developers and architects share study tips, ask technical questions, and exchange real-world infrastructure experience.
 #### Infrastructure as Code
 
@@ -48,6 +72,9 @@
 #### Educational Resources
 
   - **(2021)** [analyticsindiamag.com: Free Online Resources To Get Started On Cloud Computing](https://analyticsindiamag.com/free-online-resources-to-get-started-on-cloud-computing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compiles high-quality, free resources to master fundamental cloud computing concepts. Lists tutorials, official cloud vendor training pathways, and community projects to help newcomers build structured knowledge in distributed systems.
+#### Multi-Cloud Education
+
+  - **(2023)** [acloudguru.com](https://www.pluralsight.com/cloud-guru)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A premier e-learning platform (now part of Pluralsight) specializing in cloud computing, DevOps, and container certifications (AWS, Azure, GCP, Kubernetes). Provides hands-on sandbox environments and deep technical pathways designed to train enterprise-grade engineering organizations.
 ## Infrastructure
 
 ### Cloud Computing (1)
@@ -64,5 +91,5 @@
   - **(2024)** [explore.skillbuilder.aws: AWS Security Fundamentals (free)](https://skillbuilder.aws/search?searchText=aws-security-fundamentals-second-edition&showRedirectNotFoundBanner=true)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A fundamental training program covering core security topologies inside AWS. Explores the Shared Responsibility Model, IAM resource authorization, KMS encryption keys, and continuous infrastructure auditing.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md)
 

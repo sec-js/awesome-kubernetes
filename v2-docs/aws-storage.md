@@ -3,6 +3,45 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Storage. S3 & EBS. AWS Storage Gateway in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Infrastructure](#cloud-infrastructure)
+  - [Compute](#compute)
+    - [AWS EC2](#aws-ec2)
+      - [Storage Provisioning](#storage-provisioning)
+  - [Data Integration](#data-integration)
+    - [AWS Transfer Family](#aws-transfer-family)
+  - [Reliability Engineering](#reliability-engineering)
+    - [Multi-Region Architectures](#multi-region-architectures)
+  - [Storage](#storage)
+    - [AWS EFS](#aws-efs)
+      - [Performance Tuning](#performance-tuning)
+    - [AWS S3](#aws-s3)
+      - [Analytics](#analytics)
+1. [Cloud Infrastructure and Orchestration](#cloud-infrastructure-and-orchestration)
+  - [Storage and Databases](#storage-and-databases)
+    - [Distributed Block Storage](#distributed-block-storage)
+1. [Cloud Native Storage](#cloud-native-storage)
+  - [AWS EBS](#aws-ebs)
+    - [Snapshot Automation](#snapshot-automation)
+    - [Sparse Snapshots](#sparse-snapshots)
+    - [Storage Performance](#storage-performance)
+  - [AWS S3](#aws-s3-1)
+    - [FAQ Reference](#faq-reference)
+    - [Private Connectivity](#private-connectivity)
+    - [S3 Architecture](#s3-architecture)
+    - [S3 Namespace](#s3-namespace)
+    - [S3 Synchronization](#s3-synchronization)
+    - [Storage Lifecycle](#storage-lifecycle)
+  - [S3 API Compatibility](#s3-api-compatibility)
+    - [S3 Security](#s3-security)
+1. [Cloud Platform](#cloud-platform)
+  - [AWS Infrastructure](#aws-infrastructure)
+    - [Storage Management](#storage-management)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -50,7 +89,7 @@
 
 #### Distributed Block Storage
 
-  - **(2026)** [==Ceph: A Distributed Object, Block, and File Storage Platform==](https://github.com/ceph/ceph) <span class='md-tag md-tag--info'>⭐ 16707</span> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An enterprise-grade, highly scalable distributed storage ecosystem providing object, block, and file system storage on a single unified cluster. Widely adopted as the primary storage layer backing cloud platforms and Kubernetes orchestration (Rook-Ceph).
+  - **(2026)** [==Ceph: A Distributed Object, Block, and File Storage Platform==](https://github.com/ceph/ceph) <span class='md-tag md-tag--info'>⭐ 16707</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2d010a68" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 2 L 20 3 L 30 2 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-2d010a68)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An enterprise-grade, highly scalable distributed storage ecosystem providing object, block, and file system storage on a single unified cluster. Widely adopted as the primary storage layer backing cloud platforms and Kubernetes orchestration (Rook-Ceph).
 ## Cloud Native Storage
 
 ### AWS EBS
@@ -99,5 +138,5 @@
   - **(2023)** [blog.awsfundamentals.com: AWS S3 Sync - An Extensive Guide](https://awsfundamentals.com/blog/aws-s3-sync) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An extensive guide on using AWS S3 Sync commands, showing how to achieve efficient filesystems syncs between local storage and S3 targets. It explains multi-threading optimization, inclusion/exclusion rules, and integrity checks. This reference is highly valuable for system administrators maintaining basic backup and sync pipelines.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md)
 

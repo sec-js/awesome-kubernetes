@@ -3,6 +3,19 @@
 !!! info "Architectural Context"
     Detailed reference for Human Resources in the context of Career & Industry.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Organizations](#organizations)
+  - [Financial Risk](#financial-risk)
+    - [Startups](#startups)
+  - [Remote Work](#remote-work)
+    - [Company Handbooks](#company-handbooks)
+  - [Work Culture](#work-culture)
+    - [Startups](#startups-1)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -29,5 +42,5 @@
   - **(2026)** [elconfidencial.com: Olvida RRHH, ahora es el Departamento de Diversión: la infantilización del país de las 6.000 'startups'](https://www.elconfidencial.com/mundo/2023-03-10/milenializacion-mercado-laboral-israeli-startups_3551800) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical study investigating modern employee retention trends in high-tech environments, specifically exploring the architectural shifts in human resources and corporate cultural structures.
 
 ---
-💡 **Explore Related:** [Elearning](./elearning.md) | [Newsfeeds](./newsfeeds.md) | [Workfromhome](./workfromhome.md)
+💡 **Explore Related:** [Appointment Scheduling](./appointment-scheduling.md) | [Recruitment](./recruitment.md) | [Digital Money](./digital-money.md)
 

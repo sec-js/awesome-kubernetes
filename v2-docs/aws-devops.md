@@ -3,6 +3,29 @@
 !!! info "Architectural Context"
     Detailed reference for AWS DevOps. AWS CodePipeline in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Providers](#cloud-providers)
+  - [AWS](#aws)
+    - [Infrastructure-as-Code](#infrastructure-as-code)
+1. [Cloud-Native Provisioning](#cloud-native-provisioning)
+  - [CICD Integration](#cicd-integration)
+    - [AWS CodeDeploy](#aws-codedeploy)
+    - [AWS CodePipeline](#aws-codepipeline)
+    - [AWS DevOps](#aws-devops)
+    - [CDK Pipelines](#cdk-pipelines)
+    - [Comparisons](#comparisons)
+    - [Jenkins Integration](#jenkins-integration)
+  - [Observability](#observability)
+    - [AWS DevOps Guru](#aws-devops-guru)
+1. [Multi-Cluster and Edge](#multi-cluster-and-edge)
+  - [Cluster Federation](#cluster-federation)
+    - [Admiralty](#admiralty)
+    - [Serverless Integration](#serverless-integration)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -63,5 +86,5 @@
   - **(2021)** [admiralty.io: Multi-Region AWS Fargate on EKS](https://admiralty.io/docs/tutorials/fargate) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Granular implementation tutorial for deploying Admiralty proxy schedulers to configure cross-cluster communication channels that target serverless AWS Fargate environments in multi-region setups.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md)
 

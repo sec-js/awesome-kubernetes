@@ -91,7 +91,7 @@
 
 ## API Gateway vs. Load Balancer: What's The Difference?
 
-- [blog.hubspot.com: API Gateway vs. Load Balancer: What's The Difference?](https://blog.hubspot.com/website/api-gateway-vs-load-balancer#:~:text=An%20API%20gateway%20vs.,network%20traffic%20across%20multiple%20servers) An API gateway vs. load balancer comparison can be boiled down to the fact that they both manage traffic entering your website or application but have different roles. An API gateway handles authentication and security policies, while a load balancer API distributes network traffic across multiple servers.
+- [blog.hubspot.com: API Gateway vs. Load Balancer: What's The Difference?](https://blog.hubspot.com/website/api-gateway-vs-load-balancer) An API gateway vs. load balancer comparison can be boiled down to the fact that they both manage traffic entering your website or application but have different roles. An API gateway handles authentication and security policies, while a load balancer API distributes network traffic across multiple servers.
 
 ## Python FastAPI
 
@@ -104,7 +104,7 @@
 ## Motivation
 
 - [APIs published, APIs consumed: mainstream enterprises increasingly behave like software vendors](https://www.zdnet.com/article/apis-published-apis-consumed-mainstream-enterprises-increasingly-behave-like-software-vendors) Mainstream enterprises increasingly reach out to customers with APIs, digital services. Unlike software providers though, many still have mostly on-premises infrastructure.
-- [You Bet That APIs Power DevOps Tools](http://seguridad-informacion.blogspot.com/2020/07/you-bet-that-apis-power-devops-tools.html)
+- [You Bet That APIs Power DevOps Tools](https://seguridad-informacion.blogspot.com/2020/07/you-bet-that-apis-power-devops-tools.html)
 
 ## State of the API Report
 
@@ -128,7 +128,7 @@
 - [geeksforgeeks.org: Basics of SOAP – Simple Object Access Protocol](https://www.geeksforgeeks.org/computer-networks/basics-of-soap-simple-object-access-protocol)
 - For information about the latest work on SOAP and a full list of SOAP specifications refer to the [W3C Technical Reports](https://www.w3.org/TR)
 - [guru99.com: SOAP Web Services Tutorial: Simple Object Access Protocol. What is SOAP?](https://www.guru99.com/soap-simple-object-access-protocol.html)
-- [jitendrazaa.com: Create SOAP message using Java](http://www.jitendrazaa.com/blog/java/create-soap-message-using-java)
+- [jitendrazaa.com: Create SOAP message using Java](https://www.jitendrazaa.com/blog/java/create-soap-message-using-java)
 - [dzone: Creating a SOAP Web Service With Spring Boot Starter Web Services](https://dzone.com/articles/creating-a-soap-web-service-with-spring-boot-start) we cover the concepts of SOAP and REST and show you all the code you need to use SOAP web services in a Spring Boot app.
 
 ### REST API Protocol (Representational State Transfer)
@@ -241,12 +241,12 @@
 
 ### API Testing
 
-- [softwaretestingportal.com: API Testing, Key Terminologies and more...](http://www.softwaretestingportal.com/2020/03/31/api-testing)
+- [softwaretestingportal.com: API Testing, Key Terminologies and more...](https://www.softwaretestingportal.com/2020/03/31/api-testing)
 - [dzone.com: 10 API Testing Tips for Beginners (SOAP and REST)](https://dzone.com/articles/10-api-testing-tips-for-beginners-soap-amp-rest) Let's take a look at ten API testing tips for beginners with a focus on REST APIs and SOAP APIs.
 - [mockoon 🌟](https://mockoon.com) Create mock APIs in seconds. Mockoon is the easiest and quickest way to run mock API locally. No remote deployment, no account required, open source.
 - [mockapy](https://pythonium.net/mockapy) Create mock APIs from a JSON object and customize their behavior using a Python rule engine. Open source.
 - [thenewstack.io: 4 Essential Tools for Protecting APIs and Web Applications](https://thenewstack.io/4-essential-tools-for-protecting-apis-and-web-applications)
-- [youtube: API Testing Part 1- API Core Concepts](https://www.youtube.com/watch?v=b0D_bkcT4a4&t=1s&ab_channel=SoftwareDiagnosticsCenter)
+- [youtube: API Testing Part 1- API Core Concepts](https://www.youtube.com/watch?v=b0D_bkcT4a4&ab_channel=SoftwareDiagnosticsCenter)
 - [microcks.io 🌟](https://microcks.io) Open source Kubernetes Native tool for API Mocking and Testing. If you are looking for a tool that helps in microservices API testing on Kubernetes it is worth taking a look at microcksio. It supports OpenAPI 3 and e.g. Kafka with [Avro encoding](https://microcks.io/documentation/guides/avro-messaging)
 - [tricentis.com: Getting started with automated continuous performance testing](https://shiftsync.tricentis.com/software-testing-blogs-69/getting-started-with-automated-continuous-performance-testing-406)
 - [dev.to: Top 15 Automated API Testing Tools](https://dev.to/katalon/top-15-automated-api-testing-tools-lasted-update-32ip)
@@ -286,10 +286,10 @@
 ## Free Web Services (Public APIs)
   - [Public APIs Directory](https://publicapis.io) - A curated directory of over 1000 free public REST APIs for developers to discover and integrate into their projects. It allows browsing by category, comparing alternatives, and accessing code examples.
 
-- [free-web-services.com](http://free-web-services.com)
+- [free-web-services.com](https://free-web-services.com)
 - [SwaggerHub: Free Web Service](https://swagger.io/product)
 - [programmableweb.com](https://www.programmableweb.com)
-- [any-api.com](https://marketplace.apilayer.com/?utm_source=any-api&utm_medium=any-api-redirection&utm_campaign=any-api-redirection)
+- [any-api.com](https://marketplace.apilayer.com)
 - [Rapid API](https://rapidapi.com)
 
 ## Open Banking

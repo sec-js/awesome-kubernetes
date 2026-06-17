@@ -1,4 +1,4 @@
-# Nubenetes: Awesome Kubernetes & Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Nubenetes: Awesome Kubernetes and Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 !!! tip "Nubenetes V2: Agentic Elite Edition is now live!"
     Looking for a high-density, AI-curated experience? Explore our [**V2 Elite Portal**](/v2/) - Optimized for 2026 Architectural Standards.
@@ -31,8 +31,8 @@ A curated list of awesome references collected since 2018. Microservices archite
     - [2021 Gartner Report Top Trends Infra & Operations](https://puppet.com/resources/report/gartner-report-top-trends-impacting-infrastructure-and-operations-for-2021)
 - [CRI-O Lightweight Container Runtime for Kubernetes](https://cri-o.io)
 - [Open Container Initiative](https://opencontainers.org)
-- [agilemethodology.org](http://agilemethodology.org)
-- [agilemanifesto.org](http://agilemanifesto.org)
+- [agilemethodology.org](https://agilemethodology.org)
+- [agilemanifesto.org](https://agilemanifesto.org)
 - [12factor.net](https://12factor.net) - [Are You 12-Factor Application Ready?](https://dzone.com/articles/are-you-12-factor-application-ready) - [12-factor app infographic](https://dzone.com/whitepapers/the-12-factor-app-infographic) - [An illustrated guide to 12 Factor Apps 🌟](https://www.redhat.com/en/blog/12-factor-app)
 - [openpracticelibrary.com](https://openpracticelibrary.com) - [Top 10 most visited pages](https://www.redhat.com/en/blog/top-10-most-used-open-practice-library-concepts)
 - [roadmap.sh](https://roadmap.sh) - [DevOps Roadmap](https://roadmap.sh/devops) - [Kubernetes Roadmap](https://roadmap.sh/kubernetes)
@@ -40,7 +40,7 @@ A curated list of awesome references collected since 2018. Microservices archite
     - [roadmap.sh/terraform](https://roadmap.sh/terraform)
 - [API Landscape](https://apilandscape.apiscene.io)
 - [Stack Overflow Annual Developer Survey](https://survey.stackoverflow.co)
-    - [2021](https://survey.stackoverflow.co/2021#technology-most-loved-dreaded-and-wanted)
+    - [2021](https://survey.stackoverflow.co/2021)
     - [2022 🌟](https://survey.stackoverflow.co/2022) - [betterprogramming.pub](https://betterprogramming.pub/stack-overflow-2022-developer-survey-where-is-the-industry-heading-3cd4a0cd41f3)
 - [Stack Overflow Collectives](https://stackoverflow.com/collectives) Communities for your favorite technologies
     - [Go Collective](https://stackoverflow.com/collectives/go)
@@ -52,7 +52,7 @@ A curated list of awesome references collected since 2018. Microservices archite
     - [WSO2 Collective](https://stackoverflow.com/collectives/wso2)
     - etc
 - [Open Source Guides](https://opensource.guide)
-- [The Open Group: Making Standards Work](https://www.opengroup.org) - [publications.opengroup.org](http://publications.opengroup.org) - [The TOGAF® Standard, a standard of The Open Group](https://www.opengroup.org/togaf)
+- [The Open Group: Making Standards Work](https://www.opengroup.org) - [publications.opengroup.org](https://publications.opengroup.org) - [The TOGAF® Standard, a standard of The Open Group](https://www.opengroup.org/togaf)
 - [How Your Application Architecture Has Evolved 🌟](https://dzone.com/articles/how-your-application-architecture-evolved)
 - [==Kubernetes magic is in enterprise standardization, not app portability==](https://www.techrepublic.com/article/kubernetes-magic-is-in-enterprise-standardization-not-app-portability)
 - [A new role to emerge: Kubernetes Manager (KubeMaster) 🌟](https://cloudnativenow.com/features/the-rise-of-the-kubemaster)
@@ -190,7 +190,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 ## Software Delivery Pipeline
 - [CI/CD - Continuous Integration & Continuous Delivery](cicd.md)
 - [Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs 🌟](git.md)
-### Jenkins & CloudBees
+### Jenkins and CloudBees
 - [Jenkins & CloudBees 😀](jenkins.md)
 - [Performance testing with Jenkins, JMeter, Gatling, Azure Load Testing, etc](performance-testing-with-jenkins-and-jmeter.md)
 ### OpenShift Pipelines
@@ -208,7 +208,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Docker Registries. Quay, Nexus, JFrog Artifactory, Harbor and more](registries.md)
 - [Linux & SSH](linux.md)
 - [MkDocs & GitHub Pages](mkdocs.md)
-### Web Servers, Reverse Proxies, Java Runtimes & Caching Solutions
+### Web Servers, Reverse Proxies, Java Runtimes and Caching Solutions
 - [Web Servers & Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more](web-servers.md)
 - [Java EE/Jakarta EE and MicroProfile Runtimes: Payara, JBoss EAP, WebSphere Liberty, WildFly and more](java_app_servers.md)
 - [Embedded Servlet Containers in SpringBoot: Jetty, Tomcat, Undertow and more](embedded-servlet-containers.md)
@@ -240,7 +240,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Relational Databases and Database DevOps 🌟](databases.md)
 - [Crunchy Data PostgreSQL Operator](crunchydata.md)
 - [NoSQL Databases](nosql.md)
-## Cloud Based Integration & Messaging. Data Processing & Streaming (aka Data Pipeline)
+## Cloud Based Integration and Messaging. Data Processing and Streaming (aka Data Pipeline)
 - [Data Pipeline 🌟](message-queue.md)
 ## Service Mesh
 - [Service Mesh](servicemesh.md)
@@ -288,7 +288,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Swagger code generator for REST APIs](swagger-code-generator-for-rest-apis.md)
 - [API Test Automation with Postman and REST Assured](postman.md)
 - [API Marketplaces. API Management with API Gateways & Developer Portals 🌟](developerportals.md)
-## Development & Frameworks
+## Development and Frameworks
 - [Websites for web developers](devel-sites.md)
 - [Angular](angular.md)
 - [Document Object Model (DOM)](dom.md)

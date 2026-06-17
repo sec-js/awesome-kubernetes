@@ -3,6 +3,20 @@
 !!! info "Architectural Context"
     Detailed reference for Sonarqube in the context of Engineering Pipeline.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Continuous Integration](#continuous-integration)
+  - [CICD Pipelines](#cicd-pipelines)
+    - [Jenkins Integration](#jenkins-integration)
+  - [Code Quality](#code-quality)
+    - [Deployment Guides](#deployment-guides)
+    - [Kubernetes Deployment](#kubernetes-deployment)
+    - [Static Analysis Platforms](#static-analysis-platforms)
+    - [Vulnerability Assessment](#vulnerability-assessment)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -31,7 +45,7 @@
   - **(2022)** [thenewstack.io: How to Install the SonarQube Security Analysis Platform](https://thenewstack.io/how-to-install-the-sonarqube-security-analysis-platform) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical installation guide covering SonarQube deployments in cloud environments. Details system prerequisite profiles, host tuning metrics, and database integration configurations.
 #### Kubernetes Deployment
 
-  - **(2024)** [**click-to-deploy/sonarqube**](https://github.com/GoogleCloudPlatform/click-to-deploy/tree/master/k8s/sonarqube) <span class='md-tag md-tag--info'>⭐ 772</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Google Cloud Platform blueprint repository designed to ease the deployment of SonarQube on Google Kubernetes Engine (GKE) via highly standardized manifest suites.
+  - **(2024)** [**click-to-deploy/sonarqube**](https://github.com/GoogleCloudPlatform/click-to-deploy/tree/master/k8s/sonarqube) <span class='md-tag md-tag--info'>⭐ 772</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-23aa4e7c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 5 L 20 5 L 30 11 L 40 8 L 50 3" fill="none" stroke="url(#spark-grad-23aa4e7c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Google Cloud Platform blueprint repository designed to ease the deployment of SonarQube on Google Kubernetes Engine (GKE) via highly standardized manifest suites.
   - **(2023)** [**hub.helm.sh/charts/oteemo/sonarqube**](https://artifacthub.io/packages/helm/oteemo/sonarqube) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Provides community Helm templates to install SonarQube onto Kubernetes nodes. Supports production deployments utilizing stateful postgres instances and customizable security boundaries.
   - **(2022)** [youtube: Installation of Sonarqube on Kubernetes/Minikube](https://www.youtube.com/watch?v=_cT-kkvw3NQ) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Walkthrough showing how to stand up SonarQube in a localized Minikube setting. Explains storage class mappings, persistent volume bindings, and port-forwarding constraints.
 #### Static Analysis Platforms
@@ -43,5 +57,5 @@
   - **(2022)** [**thenewstack.io: How to Analyze Code and Find Vulnerabilities with SonarQube**](https://thenewstack.io/how-to-analyze-code-and-find-vulnerabilities-with-sonarqube) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Teaches developers how to interpret SonarQube dashboards to discover common security vulnerabilities and code smells. Demonstrates optimization rules and quality profiles adjustment methods.
 
 ---
-💡 **Explore Related:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md) | [Flux](./flux.md)
+💡 **Explore Related:** [Jenkins](./jenkins.md) | [Stackstorm](./stackstorm.md) | [Tekton](./tekton.md)
 

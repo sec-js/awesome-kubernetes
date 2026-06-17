@@ -3,6 +3,179 @@
 !!! info "Architectural Context"
     Detailed reference for Visual Studio Code in the context of Developer Ecosystem.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [CICD Pipeline](#cicd-pipeline)
+  - [Jenkins Tools](#jenkins-tools)
+    - [Monitoring](#monitoring)
+    - [Syntax Highlighting](#syntax-highlighting)
+    - [Validation and Linting](#validation-and-linting)
+1. [Cloud Infrastructure](#cloud-infrastructure)
+  - [Infrastructure as Code](#infrastructure-as-code)
+    - [Azure](#azure)
+  - [PaaS](#paas)
+    - [Azure](#azure-1)
+  - [SecOps](#secops)
+    - [AWS IAM](#aws-iam)
+    - [Security Code Scanning](#security-code-scanning)
+1. [Cloud Native](#cloud-native)
+  - [Containerization](#containerization)
+    - [VS Code Tooling](#vs-code-tooling)
+  - [Kubernetes](#kubernetes)
+    - [Configuration Validation](#configuration-validation)
+    - [GitOps](#gitops)
+    - [Local Clusters](#local-clusters)
+    - [Red Hat OpenShift](#red-hat-openshift)
+    - [VS Code Tooling](#vs-code-tooling-1)
+1. [Cloud Native Languages](#cloud-native-languages)
+  - [Go](#go)
+    - [Kubernetes Integration](#kubernetes-integration)
+1. [Cloud-Native Development](#cloud-native-development)
+  - [Azure](#azure-2)
+    - [Remote Debugging](#remote-debugging)
+  - [Kubernetes](#kubernetes-1)
+    - [Local Development](#local-development)
+    - [Remote Debugging](#remote-debugging-1)
+    - [Traffic Mirroring](#traffic-mirroring)
+1. [Collaboration](#collaboration)
+  - [Agile Management](#agile-management)
+    - [VS Code Tooling](#vs-code-tooling-2)
+  - [Continuous Integration](#continuous-integration)
+    - [Azure](#azure-3)
+  - [Documentation](#documentation)
+    - [VS Code Tooling](#vs-code-tooling-3)
+  - [IDE Customization](#ide-customization)
+    - [VS Code Tooling](#vs-code-tooling-4)
+  - [Remote Development](#remote-development)
+    - [VS Code Tooling](#vs-code-tooling-5)
+  - [Version Control](#version-control)
+    - [VS Code Tooling](#vs-code-tooling-6)
+1. [Developer Environment](#developer-environment)
+  - [IDE Tooling](#ide-tooling)
+    - [Visual Studio Code](#visual-studio-code-1)
+      - [Ecosystem and General Productivity](#ecosystem-and-general-productivity)
+      - [Extension Development and Integrations](#extension-development-and-integrations)
+      - [Language-Specific Tooling](#language-specific-tooling)
+      - [Remote Development and Collaborative Coding](#remote-development-and-collaborative-coding)
+      - [Version Control Integration](#version-control-integration)
+1. [Developer Productivity](#developer-productivity)
+  - [Editor Tools](#editor-tools)
+    - [VS Code](#vs-code)
+    - [VS Code Plugins](#vs-code-plugins)
+  - [Short Videos](#short-videos)
+    - [AI Tooling](#ai-tooling)
+    - [API Testing](#api-testing)
+    - [Architecture Design](#architecture-design)
+    - [Configuration](#configuration)
+    - [Debugging](#debugging)
+    - [Documentation](#documentation-1)
+    - [Formatting](#formatting)
+    - [Git Integration](#git-integration)
+    - [Java Development](#java-development)
+    - [Markdown](#markdown)
+    - [Tips and Tricks](#tips-and-tricks)
+    - [UI Customization](#ui-customization)
+  - [Version Control](#version-control-1)
+    - [GitHub](#github)
+1. [Developer Tools](#developer-tools)
+  - [IDE](#ide)
+    - [VS Code](#vs-code-1)
+1. [Development](#development)
+  - [DevOps](#devops)
+    - [IDE Integration](#ide-integration)
+1. [Development Environment](#development-environment)
+  - [AI-Assisted Engineering](#ai-assisted-engineering)
+    - [VS Code Tooling](#vs-code-tooling-7)
+  - [Cloud IDE](#cloud-ide)
+    - [Code Browsing](#code-browsing)
+    - [Microsoft](#microsoft)
+    - [Platform Engineering](#platform-engineering)
+    - [Trends](#trends)
+  - [Configuration Management](#configuration-management)
+    - [VS Code Tooling](#vs-code-tooling-8)
+  - [Debugging](#debugging-1)
+    - [VS Code Tooling](#vs-code-tooling-9)
+  - [Documentation](#documentation-2)
+    - [Python](#python)
+  - [IDE Customization](#ide-customization-1)
+    - [VS Code Tooling](#vs-code-tooling-10)
+  - [IDE Enhancements](#ide-enhancements)
+    - [VS Code Tooling](#vs-code-tooling-11)
+  - [IDE Extensions](#ide-extensions)
+    - [Git Integration](#git-integration-1)
+    - [Project Management](#project-management)
+  - [Language Tooling](#language-tooling)
+    - [Go](#go-1)
+    - [Python](#python-1)
+  - [Linter and Formatter](#linter-and-formatter)
+    - [Python](#python-2)
+  - [Next-Gen IDE](#next-gen-ide)
+    - [JetBrains](#jetbrains)
+  - [Operating Systems](#operating-systems)
+    - [Chrome OS](#chrome-os)
+  - [Productivity](#productivity)
+    - [Community Resource](#community-resource)
+  - [Release Updates](#release-updates)
+    - [Microsoft](#microsoft-1)
+  - [Version Control](#version-control-2)
+    - [VS Code Tooling](#vs-code-tooling-12)
+1. [Development Environments](#development-environments)
+  - [Cloud IDEs](#cloud-ides)
+    - [CDE](#cde)
+    - [Online Sandboxes](#online-sandboxes)
+    - [Web Editors](#web-editors)
+1. [Development Tools](#development-tools)
+  - [AI Assistance](#ai-assistance)
+    - [Copilot](#copilot)
+    - [IaC](#iac)
+  - [VS Code](#vs-code-2)
+    - [AI Assistance](#ai-assistance-1)
+    - [Architecture Visualization](#architecture-visualization)
+    - [CICD Extensions](#cicd-extensions)
+    - [Collaboration](#collaboration-1)
+    - [Customization](#customization)
+    - [Docker Deployment](#docker-deployment)
+    - [Git Extensions](#git-extensions)
+    - [IaC Extensions](#iac-extensions)
+    - [Kubernetes Extensions](#kubernetes-extensions)
+    - [Language Servers](#language-servers)
+    - [Productivity](#productivity-1)
+    - [Release Notes](#release-notes)
+    - [Serverless Debugging](#serverless-debugging)
+    - [Version Control](#version-control-3)
+1. [Documentation](#documentation-3)
+  - [Developer Tooling](#developer-tooling)
+    - [IDE Platforms](#ide-platforms)
+    - [IDE Troubleshooting](#ide-troubleshooting)
+    - [Web Debugging](#web-debugging)
+1. [Engineering Productivity](#engineering-productivity)
+  - [Architecture Documentation](#architecture-documentation)
+    - [VS Code Tooling](#vs-code-tooling-13)
+1. [Frontend Development](#frontend-development)
+  - [Local Server](#local-server)
+    - [VS Code Tooling](#vs-code-tooling-14)
+  - [React Utility](#react-utility)
+    - [VS Code Tooling](#vs-code-tooling-15)
+1. [Kubernetes](#kubernetes-2)
+  - [Developer Experience](#developer-experience)
+    - [Web Console](#web-console)
+1. [Learning Resources](#learning-resources)
+  - [Tutorials](#tutorials)
+    - [IDE Platforms](#ide-platforms-1)
+1. [Software Engineering](#software-engineering)
+  - [API Testing](#api-testing-1)
+    - [VS Code Tooling](#vs-code-tooling-16)
+  - [Databases](#databases)
+    - [NoSQL](#nosql)
+    - [ORM and Tools](#orm-and-tools)
+  - [Python](#python-3)
+    - [Static Analysis](#static-analysis)
+  - [Testing](#testing)
+    - [Unit Testing](#unit-testing)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -105,14 +278,14 @@
 
 #### Local Development
 
-  - **(2024)** [==Bridge to Kubernetes 🌟==](https://github.com/microsoft/mindaro) <span class='md-tag md-tag--info'>⭐ 304</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Formerly a popular Microsoft tool for redirection of Kubernetes cluster traffic to local workstations. Live Grounding indicates this project has been retired and archived by Microsoft. Teams seeking similar workflows should look to solutions like mirrord or Telepresence.
+  - **(2024)** [==Bridge to Kubernetes 🌟==](https://github.com/microsoft/mindaro) <span class='md-tag md-tag--info'>⭐ 304</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-73f7bae5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 4 L 20 13 L 30 5 L 40 12 L 50 13" fill="none" stroke="url(#spark-grad-73f7bae5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Formerly a popular Microsoft tool for redirection of Kubernetes cluster traffic to local workstations. Live Grounding indicates this project has been retired and archived by Microsoft. Teams seeking similar workflows should look to solutions like mirrord or Telepresence.
   - **(2020)** [piotrminkowski.com: Development on Kubernetes: IDE & TOOLS](https://piotrminkowski.com/2020/08/03/development-on-kubernetes-ide-tools) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architecture review by Piotr Mińkowski evaluating toolchains for Kubernetes development. Compares local compilation and sync speeds using Bridge to Kubernetes, Skaffold, and Telepresence within modern developer pipelines.
 #### Remote Debugging (1)
 
   - **(2021)** [developers.redhat.com: Remote debugging on Kubernetes using VS Code](https://developers.redhat.com/articles/2021/12/13/remote-debugging-kubernetes-using-vs-code) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed architectural guide by Red Hat outlining remote debugging topologies for containerized apps on Kubernetes using VS Code. Instructs on configuring port-forwarding and Delve/gdb configurations inside remote pods.
 #### Traffic Mirroring
 
-  - **(2026)** [==metalbear-co/mirrord==](https://github.com/metalbear-co/mirrord) <span class='md-tag md-tag--info'>⭐ 5128</span> <span class='md-tag md-tag--warning'>[RUST CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An enterprise-grade tool that plugs local processes directly into remote Kubernetes namespaces. It avoids image building or cluster redeployments by mirroring incoming network traffic, DNS resolutions, and environment variables dynamically to the local environment. Highly effective for rapid microservices testing.
+  - **(2026)** [==metalbear-co/mirrord==](https://github.com/metalbear-co/mirrord) <span class='md-tag md-tag--info'>⭐ 5128</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-043c3349" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 10 L 20 7 L 30 8 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-043c3349)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[RUST CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An enterprise-grade tool that plugs local processes directly into remote Kubernetes namespaces. It avoids image building or cluster redeployments by mirroring incoming network traffic, DNS resolutions, and environment variables dynamically to the local environment. Highly effective for rapid microservices testing.
 ## Collaboration
 
 ### Agile Management
@@ -207,7 +380,7 @@
   - **(2020)** [blogs.windows.com: Bringing the browser developer tools to Visual Studio' Code](https://blogs.windows.com/msedgedev/2020/10/01/microsoft-edge-tools-vscode) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces Microsoft Edge Developer Tools integration directly inside VS Code. This allows engineers to run element inspection, network profiling, and DOM debugging natively in the IDE, reducing context-switching latency during web application development.
 ##### Language-Specific Tooling
 
-  - **(2024)** [==Python Visual Studio Code==](https://github.com/microsoft/vscode-python) <span class='md-tag md-tag--info'>⭐ 4623</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official VS Code Python extension repository. Serves as a primary integration layer for code-formatting, Jupyter Notebook systems, pytest architectures, and type checker implementations.
+  - **(2024)** [==Python Visual Studio Code==](https://github.com/microsoft/vscode-python) <span class='md-tag md-tag--info'>⭐ 4623</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c41afb0e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 4 L 20 7 L 30 7 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-c41afb0e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official VS Code Python extension repository. Serves as a primary integration layer for code-formatting, Jupyter Notebook systems, pytest architectures, and type checker implementations.
   - **(2022)** [freecodecamp.org: How to Use Markdown in VSCode – Syntax and Examples](https://www.freecodecamp.org/news/how-to-use-markdown-in-vscode) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A technical guide to writing, parsing, and rendering Markdown natively in VS Code. Highlights capabilities for inline previewing, styling syntax, and utilizing the editor for software architecture decision records (ADRs).
   - **(2021)** [realpython.com: Advanced Visual Studio Code for Python Developers](https://realpython.com/advanced-visual-studio-code-python) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth guide on advanced VS Code customizations for Python development. Focuses on setting up testing frameworks, optimizing linting utilities, configuring type checkers (Pylance), and managing complex virtual environments natively.
 ##### Remote Development and Collaborative Coding
@@ -297,7 +470,7 @@
 
 #### VS Code (1)
 
-  - **(2026)** [==Awesome Visual Studio Code==](https://github.com/viatsko/awesome-vscode) <span class='md-tag md-tag--info'>⭐ 28747</span> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive directory of extensions, themes, and configuration recipes designed to turn VS Code into a productivity powerhouse. Highly relevant for cloud-native developers seeking extensions for Kubernetes, Terraform, Docker, and remote workspace development. Serves as a daily driver resource for developer enablement teams.
+  - **(2026)** [==Awesome Visual Studio Code==](https://github.com/viatsko/awesome-vscode) <span class='md-tag md-tag--info'>⭐ 28747</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-604f5ec7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 13 L 20 13 L 30 8 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-604f5ec7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive directory of extensions, themes, and configuration recipes designed to turn VS Code into a productivity powerhouse. Highly relevant for cloud-native developers seeking extensions for Kubernetes, Terraform, Docker, and remote workspace development. Serves as a daily driver resource for developer enablement teams.
 ## Development
 
 ### DevOps
@@ -384,7 +557,7 @@
 
 #### Go (1)
 
-  - **(2026)** [==github.com/golang/vscode-go 🌟==](https://github.com/golang/vscode-go/blob/master/README.md) <span class='md-tag md-tag--info'>⭐ 4252</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official Visual Studio Code Go extension, providing rich language support via the Go Language Server (gopls). Integrates Delve for robust debugging, automated importing, structural profiling, and diagnostic testing.
+  - **(2026)** [==github.com/golang/vscode-go 🌟==](https://github.com/golang/vscode-go/blob/master/README.md) <span class='md-tag md-tag--info'>⭐ 4252</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d82839ce" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 6 L 20 4 L 30 11 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-d82839ce)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official Visual Studio Code Go extension, providing rich language support via the Go Language Server (gopls). Integrates Delve for robust debugging, automated importing, structural profiling, and diagnostic testing.
 #### Python (1)
 
   - **(2022)** [realpython.com: Python Development in Visual Studio Code](https://realpython.com/python-development-visual-studio-code) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive deep dive by Real Python into configuring Visual Studio Code as a professional Python development IDE. Covers workspace setup, linters, debug configurations, and unit testing frameworks.
@@ -471,7 +644,7 @@
   - **(2021)** [A multi-step tutorial that covers the basics of working with Docker with Visual Studio Code and deploy on Azure](https://learn.microsoft.com/en-us/visualstudio/docker/tutorials/docker-tutorial) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive learning pathway walking developers through building, debugging, and running Dockerized applications inside VS Code, followed by direct container deployment to Azure App Service or Azure Container Apps.
 #### Git Extensions
 
-  - **(2016)** [==GitLens interactive rebase==](https://github.com/gitkraken/vscode-gitlens) <span class='md-tag md-tag--info'>⭐ 9841</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Detailed documentation on GitLens' visual interactive rebase tool, which translates raw CLI rebase structures into a drag-and-drop workspace UI within VS Code, significantly reducing risks when rewriting commit histories.
+  - **(2016)** [==GitLens interactive rebase==](https://github.com/gitkraken/vscode-gitlens) <span class='md-tag md-tag--info'>⭐ 9841</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-61883865" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 11 L 20 12 L 30 2 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-61883865)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Detailed documentation on GitLens' visual interactive rebase tool, which translates raw CLI rebase structures into a drag-and-drop workspace UI within VS Code, significantly reducing risks when rewriting commit histories.
   - **(2023)** [Visualize your git repo in vscode with Git Graph extensions](https://www.youtube.com/shorts/vpFF1XSqWjw?si=Zr2eW_C3_3hQoXAa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the Git Graph extension in VS Code, allowing visual tracking of branching strategies, commits, and tag histories to keep distributed teams aligned during fast deployment periods.
 #### IaC Extensions
 
@@ -479,7 +652,7 @@
   - **(2019)** [CloudFormation Snippets 🌟](https://marketplace.visualstudio.com/items?itemName=dannysteenman.cloudformation-yaml-snippets) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive collection of AWS CloudFormation snippets formatted for both YAML and JSON, offering platform engineers rapid, boilerplate-free template creation for AWS infrastructure stacks.
 #### Kubernetes Extensions
 
-  - **(2017)** [==Azure/vscode-kubernetes-tools 🌟==](https://github.com/vscode-kubernetes-tools/vscode-kubernetes-tools) <span class='md-tag md-tag--info'>⭐ 762</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Developed by Microsoft/Azure, this foundational extension integrates cluster management, manifest linting, Helm support, and debug workflows directly into the editor for effortless Kubernetes operations.
+  - **(2017)** [==Azure/vscode-kubernetes-tools 🌟==](https://github.com/vscode-kubernetes-tools/vscode-kubernetes-tools) <span class='md-tag md-tag--info'>⭐ 762</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-783b647d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 8 L 20 9 L 30 2 L 40 9 L 50 7" fill="none" stroke="url(#spark-grad-783b647d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Developed by Microsoft/Azure, this foundational extension integrates cluster management, manifest linting, Helm support, and debug workflows directly into the editor for effortless Kubernetes operations.
   - **(2018)** [Helm Intellisense](https://marketplace.visualstudio.com/items&itemName=Tim-Koehler.helm-intellisense&ssr=false) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A standard-setting VS Code extension that enables autocompletion and path matching for Helm chart values files inside template paths, eliminating common typo bugs and deployment failures during manifest compilation.
 #### Language Servers
 
@@ -566,7 +739,7 @@
 
 #### Static Analysis
 
-  - **(2025)** [==Ruff==](https://github.com/astral-sh/ruff) <span class='md-tag md-tag--info'>⭐ 47969</span> <span class='md-tag md-tag--warning'>[RUST CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight introduces Ruff as an extremely fast Python linter and formatter written in Rust. Live Grounding confirms Ruff is a de facto industry standard, dramatically lowering CI run times by replacing several older style checkers with a single compiled utility.
+  - **(2025)** [==Ruff==](https://github.com/astral-sh/ruff) <span class='md-tag md-tag--info'>⭐ 47969</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ad2ba4fe" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 9 L 20 4 L 30 9 L 40 13 L 50 5" fill="none" stroke="url(#spark-grad-ad2ba4fe)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[RUST CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight introduces Ruff as an extremely fast Python linter and formatter written in Rust. Live Grounding confirms Ruff is a de facto industry standard, dramatically lowering CI run times by replacing several older style checkers with a single compiled utility.
 ### Testing
 
 #### Unit Testing
@@ -574,5 +747,5 @@
   - **(2026)** [**Jest**](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Integrates Jest unit testing workflows directly into the editor. It offers real-time inline test failures, active watch mode triggers, and visual coverage reports. This setup simplifies local feedback loops for enterprise microservices developed in TypeScript or JavaScript.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
+💡 **Explore Related:** [Angular](./angular.md) | [Python](./python.md) | [Dom](./dom.md)
 

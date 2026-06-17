@@ -3,6 +3,317 @@
 !!! info "Architectural Context"
     Detailed reference for Managed Kubernetes in Public Cloud in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Alternative Cloud](#alternative-cloud)
+  - [DigitalOcean Kubernetes DOKS](#digitalocean-kubernetes-doks)
+    - [Core Platforms](#core-platforms)
+    - [GitOps and Continuous Delivery](#gitops-and-continuous-delivery)
+  - [IBM Kubernetes Service IKS](#ibm-kubernetes-service-iks)
+    - [Core Platforms](#core-platforms-1)
+  - [Linode Kubernetes Engine LKE](#linode-kubernetes-engine-lke)
+    - [Autoscaling Core](#autoscaling-core)
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Architecture and Design](#architecture-and-design)
+  - [Microservices Design](#microservices-design)
+    - [Production AKS Deployment](#production-aks-deployment)
+  - [Serverless Migrations](#serverless-migrations)
+    - [Container Apps](#container-apps)
+1. [Architecture Blueprint](#architecture-blueprint)
+  - [Multi-Cloud and Azure](#multi-cloud-and-azure)
+    - [Infrastructure Design](#infrastructure-design)
+1. [Cloud Infrastructure](#cloud-infrastructure)
+  - [AWS](#aws)
+    - [EKS and Container Orchestration](#eks-and-container-orchestration)
+  - [Amazon EKS](#amazon-eks)
+    - [ACK](#ack)
+    - [Batch Workloads](#batch-workloads)
+    - [Cluster Provisioning](#cluster-provisioning)
+    - [Cost Optimization](#cost-optimization)
+    - [Deployments](#deployments)
+    - [Distributions](#distributions)
+    - [Helm Repositories](#helm-repositories)
+    - [Interactive Learning](#interactive-learning)
+    - [Observability](#observability)
+    - [Spot Instances](#spot-instances)
+    - [Traffic Management](#traffic-management)
+  - [Auto-scaling](#auto-scaling)
+    - [Fargate](#fargate)
+    - [Prometheus](#prometheus)
+  - [Cloud Migration](#cloud-migration)
+    - [Automation](#automation)
+  - [Continuous Delivery](#continuous-delivery)
+    - [GitOps](#gitops)
+    - [Preview Environments](#preview-environments)
+  - [Cost Optimization](#cost-optimization-1)
+    - [Best Practices](#best-practices)
+    - [Kubecost](#kubecost)
+  - [Infrastructure as Code](#infrastructure-as-code)
+    - [AWS CDK](#aws-cdk)
+    - [Terraform](#terraform)
+  - [Multi-Cluster Management](#multi-cluster-management)
+    - [Case Study](#case-study)
+    - [Rancher](#rancher)
+  - [Networking](#networking)
+    - [Best Practices](#best-practices-1)
+    - [Ingress Controllers](#ingress-controllers)
+    - [Scale Optimization](#scale-optimization)
+  - [Reliability Engineering](#reliability-engineering)
+    - [Chaos Engineering](#chaos-engineering)
+  - [Security and Compliance](#security-and-compliance)
+    - [Best Practices](#best-practices-2)
+    - [IAM](#iam)
+    - [PCI DSS](#pci-dss)
+    - [Policy Enforcement](#policy-enforcement)
+  - [Storage](#storage)
+    - [Amazon EFS](#amazon-efs)
+1. [Cloud Native](#cloud-native)
+  - [AWS EKS](#aws-eks)
+    - [Cluster Provisioning](#cluster-provisioning-1)
+    - [Community Resources](#community-resources)
+    - [Cost Optimization](#cost-optimization-2)
+    - [High Availability](#high-availability)
+    - [Machine Learning](#machine-learning)
+    - [Multi-tenancy](#multi-tenancy)
+    - [Networking](#networking-1)
+    - [Operator Pattern](#operator-pattern)
+    - [Security](#security)
+    - [Storage Solutions](#storage-solutions)
+  - [Kubernetes](#kubernetes)
+    - [Architecture Design](#architecture-design)
+    - [Industry Trends](#industry-trends)
+    - [Managed Services](#managed-services)
+    - [Platform Engineering](#platform-engineering)
+1. [Cloud Providers](#cloud-providers)
+  - [AWS EKS](#aws-eks-1)
+    - [Cluster Lifecycle](#cluster-lifecycle)
+      - [Managed Add-ons](#managed-add-ons)
+      - [Node Updates](#node-updates)
+      - [Upgrade Strategies](#upgrade-strategies)
+      - [Upgrade Strategy](#upgrade-strategy)
+    - [Cost Optimization](#cost-optimization-3)
+      - [Node Scaling Metrics](#node-scaling-metrics)
+      - [Spot Instancing](#spot-instancing)
+    - [GitOps and Automation](#gitops-and-automation)
+      - [Infrastructure Provisioning](#infrastructure-provisioning)
+    - [Hybrid Cloud](#hybrid-cloud)
+      - [Blue-Green Upgrades](#blue-green-upgrades)
+      - [Feature Matrix](#feature-matrix)
+      - [Getting Started](#getting-started)
+      - [On-Premises EKS](#on-premises-eks)
+      - [On-Premises Launch](#on-premises-launch)
+      - [Service Mesh Integration](#service-mesh-integration)
+    - [Infrastructure as Code](#infrastructure-as-code-1)
+      - [NFS Storage Autoprovisioning](#nfs-storage-autoprovisioning)
+    - [Kubernetes Distributions](#kubernetes-distributions)
+      - [Base Build](#base-build)
+    - [Machine Learning](#machine-learning-1)
+      - [Kubeflow Storage](#kubeflow-storage)
+    - [Monitoring and Observability](#monitoring-and-observability)
+      - [API Server Diagnostics](#api-server-diagnostics)
+    - [Networking](#networking-2)
+      - [CoreDNS Scaling](#coredns-scaling)
+      - [IP Management](#ip-management)
+      - [Private Connectivity](#private-connectivity)
+      - [Service Mesh Latency](#service-mesh-latency)
+    - [Scalability](#scalability)
+      - [Image Prefetching](#image-prefetching)
+      - [Proactive Scaling](#proactive-scaling)
+      - [Stateful Databases](#stateful-databases)
+    - [Security and Hardening](#security-and-hardening)
+      - [Compliance Auditing](#compliance-auditing)
+      - [RBAC Mapping](#rbac-mapping)
+      - [Ransomware Defense](#ransomware-defense)
+    - [Storage](#storage-1)
+      - [EBS Migration](#ebs-migration)
+      - [Persistent Volumes](#persistent-volumes)
+  - [Azure Kubernetes Service AKS](#azure-kubernetes-service-aks)
+    - [API Gateway](#api-gateway)
+    - [Autoscaling](#autoscaling)
+    - [Community Updates](#community-updates)
+    - [Edge Computing](#edge-computing)
+    - [Enterprise Design Patterns](#enterprise-design-patterns)
+    - [High Availability](#high-availability-1)
+    - [Identity and Access Control](#identity-and-access-control)
+    - [Ingress and Routing](#ingress-and-routing)
+    - [Machine Learning Workloads](#machine-learning-workloads)
+    - [Multi-Tenancy](#multi-tenancy)
+    - [Observability](#observability-1)
+    - [Onboarding](#onboarding)
+    - [Operations](#operations)
+    - [Security](#security-1)
+  - [Google Kubernetes Engine GKE](#google-kubernetes-engine-gke)
+    - [Cost Optimization](#cost-optimization-4)
+    - [DNS Optimization](#dns-optimization)
+    - [Evolution and History](#evolution-and-history)
+    - [FinOps](#finops)
+    - [Industry Analysis](#industry-analysis)
+    - [Ingress and Routing](#ingress-and-routing-1)
+    - [Multi-Cluster Architectures](#multi-cluster-architectures)
+    - [Multi-Cluster Networking](#multi-cluster-networking)
+    - [Observability](#observability-2)
+    - [Operational Tradeoffs](#operational-tradeoffs)
+    - [Performance Scaling](#performance-scaling)
+    - [Security and Compliance](#security-and-compliance-1)
+    - [Security and IAM](#security-and-iam)
+    - [Serverless Orchestration](#serverless-orchestration)
+    - [Visual Guides](#visual-guides)
+  - [Microsoft AKS](#microsoft-aks)
+    - [Architecture Baseline](#architecture-baseline)
+      - [Secure Architecture](#secure-architecture)
+    - [Getting Started](#getting-started-1)
+      - [Core Concepts](#core-concepts)
+    - [Infrastructure as Code](#infrastructure-as-code-2)
+      - [Template Generator](#template-generator)
+    - [Lifecycle and Release Notes](#lifecycle-and-release-notes)
+      - [Platform Changes](#platform-changes)
+    - [Microservices Design](#microservices-design-1)
+      - [Production Architecture](#production-architecture)
+    - [Migration and Modernization](#migration-and-modernization)
+      - [App Containerization](#app-containerization)
+    - [Networking](#networking-3)
+      - [Azure CNI](#azure-cni)
+      - [Kubenet Configuration](#kubenet-configuration)
+    - [Production Checklist](#production-checklist)
+      - [Best Practices](#best-practices-3)
+    - [Runtime Environments](#runtime-environments)
+      - [Windows Containers](#windows-containers)
+    - [Scheduling and Taints](#scheduling-and-taints)
+      - [Compute Node Pools](#compute-node-pools)
+    - [Security and Identity](#security-and-identity)
+      - [Entra ID Auth](#entra-id-auth)
+      - [Pod Identity Evolution](#pod-identity-evolution)
+    - [Storage](#storage-2)
+      - [StatefulSet Volume Scaling](#statefulset-volume-scaling)
+1. [Cloud-Native Infrastructure](#cloud-native-infrastructure)
+  - [Cluster Provisioning](#cluster-provisioning-2)
+    - [High Availability](#high-availability-2)
+    - [KubeKey](#kubekey)
+  - [Managed Kubernetes](#managed-kubernetes)
+    - [Azure AKS](#azure-aks)
+1. [Container Platforms](#container-platforms)
+  - [Enterprise Platforms](#enterprise-platforms)
+    - [Cluster API](#cluster-api)
+    - [KubeSphere](#kubesphere)
+    - [Managed Kubernetes](#managed-kubernetes-1)
+1. [Delivery and CICD](#delivery-and-cicd)
+  - [Application Packaging](#application-packaging)
+    - [Draft and Acorn](#draft-and-acorn)
+  - [Continuous Deployment](#continuous-deployment)
+    - [Azure Pipelines](#azure-pipelines)
+1. [Developer Experience](#developer-experience)
+  - [Inner Loop Development](#inner-loop-development)
+    - [Local Tooling](#local-tooling)
+1. [Development Tools](#development-tools)
+  - [Storage](#storage-3)
+    - [Volume Synchronization](#volume-synchronization)
+1. [Financial Operations](#financial-operations)
+  - [Cost Optimization](#cost-optimization-5)
+    - [Node Allocation](#node-allocation)
+1. [Infrastructure](#infrastructure)
+  - [Hybrid and On-Premises](#hybrid-and-on-premises)
+    - [Azure Stack Hub](#azure-stack-hub)
+  - [Ingress and Routing](#ingress-and-routing-2)
+    - [Application Gateway AGIC](#application-gateway-agic)
+    - [Dynamic DNS](#dynamic-dns)
+    - [ExternalDNS](#externaldns)
+    - [Hybrid Ingress Architecture](#hybrid-ingress-architecture)
+    - [TLS Ingress Controller](#tls-ingress-controller)
+  - [Networking and CNI](#networking-and-cni)
+    - [Azure CNI Cilium](#azure-cni-cilium)
+    - [Azure CNI Overlay](#azure-cni-overlay)
+    - [BYO CNI](#byo-cni)
+    - [Calico eBPF](#calico-ebpf)
+    - [Kubenet vs Azure CNI](#kubenet-vs-azure-cni)
+    - [WireGuard Encryption](#wireguard-encryption)
+  - [Node Pools](#node-pools)
+    - [Windows Containers](#windows-containers-1)
+  - [Provisioning and IaC](#provisioning-and-iac)
+    - [ARM Templates](#arm-templates)
+    - [AWS CDK and Multicluster](#aws-cdk-and-multicluster)
+  - [Storage Systems](#storage-systems)
+    - [Private Endpoints](#private-endpoints)
+1. [Infrastructure as Code and CI-CD](#infrastructure-as-code-and-ci-cd)
+  - [CI-CD Pipelines](#ci-cd-pipelines)
+    - [GitHub Actions](#github-actions)
+      - [Oracle Cloud Infrastructure](#oracle-cloud-infrastructure)
+    - [KubeSphere](#kubesphere-1)
+      - [Jenkins](#jenkins)
+1. [Multi-Cloud Management](#multi-cloud-management)
+  - [Platform Engineering](#platform-engineering-1)
+    - [Tooling Comparison](#tooling-comparison)
+1. [Observability](#observability-3)
+  - [Telemetry](#telemetry)
+    - [Azure Monitoring](#azure-monitoring)
+1. [Operations and Troubleshooting](#operations-and-troubleshooting)
+  - [Diagnostic Analysis](#diagnostic-analysis)
+    - [Core Dumps](#core-dumps)
+    - [Windows Packet Capture](#windows-packet-capture)
+    - [Windows RDP Troubleshooting](#windows-rdp-troubleshooting)
+  - [Incident Response](#incident-response)
+    - [Disaster Recovery](#disaster-recovery)
+  - [Observability](#observability-4)
+    - [Prometheus and Grafana](#prometheus-and-grafana)
+  - [Resource Management](#resource-management)
+    - [Node Deallocation](#node-deallocation)
+    - [Node Pools Scaling](#node-pools-scaling)
+1. [Orchestration](#orchestration)
+  - [AKS](#aks)
+    - [Tutorials](#tutorials)
+  - [Azure Compute](#azure-compute)
+    - [AKS and ACI](#aks-and-aci)
+  - [Azure Networking](#azure-networking)
+    - [AKS VNET Integration](#aks-vnet-integration)
+  - [Data Protection](#data-protection)
+    - [AKS Backup](#aks-backup)
+  - [Kubernetes](#kubernetes-1)
+    - [Managed Kubernetes Comparison](#managed-kubernetes-comparison)
+  - [Kubernetes Security](#kubernetes-security)
+    - [EKS Secrets KMS](#eks-secrets-kms)
+1. [Performance and Scale](#performance-and-scale)
+  - [Container Runtimes](#container-runtimes)
+    - [Image Pull Optimization](#image-pull-optimization)
+  - [Resource Management](#resource-management-1)
+    - [LimitRanges](#limitranges)
+1. [Platform Engineering](#platform-engineering-2)
+  - [CICD and Delivery](#cicd-and-delivery)
+    - [Developer Experience](#developer-experience-1)
+    - [GitHub Actions](#github-actions-1)
+  - [Developer Experience](#developer-experience-2)
+    - [Legacy Scaffolding](#legacy-scaffolding)
+  - [GitOps](#gitops-1)
+    - [Declarative Infrastructure](#declarative-infrastructure)
+1. [Security and Governance](#security-and-governance)
+  - [Access and Identity](#access-and-identity)
+    - [Azure Key Vault](#azure-key-vault)
+    - [OAuth2 Proxy](#oauth2-proxy)
+    - [Workload Identity](#workload-identity)
+  - [Cluster Security](#cluster-security)
+    - [Multi-Tenancy Isolation](#multi-tenancy-isolation)
+  - [Microservices Security](#microservices-security)
+    - [Pod Security and Identities](#pod-security-and-identities)
+  - [Network Security](#network-security)
+    - [Network Isolation](#network-isolation)
+    - [VNet Peering](#vnet-peering)
+1. [State and Data](#state-and-data)
+  - [Database Virtualization](#database-virtualization)
+    - [SQL Server and S3 Storage](#sql-server-and-s3-storage)
+1. [Strategic Strategy](#strategic-strategy)
+  - [Ecosystem News](#ecosystem-news)
+    - [Edge Kubernetes](#edge-kubernetes)
+    - [Pricing and SLA tiers](#pricing-and-sla-tiers)
+    - [Product Roadmap](#product-roadmap)
+  - [Enterprise Architecture](#enterprise-architecture)
+    - [Automation and Runbooks](#automation-and-runbooks)
+    - [First Steps](#first-steps)
+  - [Kubernetes Management](#kubernetes-management)
+    - [AKS Ecosystem](#aks-ecosystem)
+1. [Strategy](#strategy)
+  - [Platform Strategy](#platform-strategy)
+    - [Adoption Frameworks](#adoption-frameworks)
+
 ## Alternative Cloud
 
 ### DigitalOcean Kubernetes DOKS
@@ -29,8 +340,11 @@
 
 #### General Reference
 
+  - [neal-davis.medium.com: ECS vs EC2 vs Lambda](https://neal-davis.medium.com/ecs-vs-ec2-vs-lambda-36b8ca380dea)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering neal-davis.medium.com: ECS vs EC2 vs Lambda in the Kubernetes Tools ecosystem.
   - [medium.com/@ishana98dadhich: Integrating AWS Secret Manager with EKS and' use Secrets inside the Pods: Part-1](https://medium.com/@ishana98dadhich/integrating-aws-secret-manager-with-eks-and-use-secrets-inside-the-pods-part-1-1938b0c3c2fb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@ishana98dadhich: Integrating AWS Secret Manager with EKS and' use Secrets inside the Pods: Part-1 in the Kubernetes Tools ecosystem.
   - [mehighlow.medium.com: Hardened-AKS/Secrets](https://mehighlow.medium.com/hardened-aks-secrets-82351c43eac4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==mehighlow.medium.com: Hardened-AKS/Secrets== in the Kubernetes Tools ecosystem.
+  - [faun.pub: External Secret Operator on AKS (with Terraform) for Azure Key' Vault Integration (with Workload Identity)](https://faun.pub/external-secret-operator-on-aks-with-terraform-for-azure-key-vault-integration-with-workload-1d0c31082373)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering faun.pub: External Secret Operator on AKS (with Terraform) for Azure Key' Vault Integration (with Workload Identity) in the Kubernetes Tools ecosystem.
+  - [medium: Run Kubernetes Production Environment on EC2 Spot Instances With' Zero Downtime: A Complete Guide](https://medium.com/riskified-technology/run-kubernetes-on-aws-ec2-spot-instances-with-zero-downtime-f7327a95dea)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Run Kubernetes Production Environment on EC2 Spot Instances With' Zero Downtime: A Complete Guide in the Kubernetes Tools ecosystem.
   - [medium.com: Kubernetes Cloud Services: Comparing GKE, EKS and AKS](https://medium.com/@Platform9Sys/kubernetes-cloud-services-comparing-gke-eks-and-aks-1fe42770cad3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com: Kubernetes Cloud Services: Comparing GKE, EKS and AKS in the Kubernetes Tools ecosystem.
   - [medium: State of Managed Kubernetes 2020](https://medium.com/swlh/state-of-managed-kubernetes-2020-4be006643360)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: State of Managed Kubernetes 2020 in the Kubernetes Tools ecosystem.
   - [medium: Managed Kubernetes Services Compared: GKE vs. EKS vs. AKS](https://medium.com/better-programming/managed-kubernetes-services-compared-gke-vs-eks-vs-aks-df1ecb22bba0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Managed Kubernetes Services Compared: GKE vs. EKS vs. AKS in the Kubernetes Tools ecosystem.
@@ -42,7 +356,6 @@
   - [daveops.xyz: Administrar usuarios en EKS](https://daveops.xyz/2020/08/25/administrar-usuarios-en-eks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering daveops.xyz: Administrar usuarios en EKS in the Kubernetes Tools ecosystem.
   - [medium: Designing a Kubernetes Cluster with Amazon EKS From Scratch 🌟](https://medium.com/adobetech/designing-a-kubernetes-cluster-with-amazon-eks-from-scratch-4b4ee9d1b8f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Designing a Kubernetes Cluster with Amazon EKS From Scratch 🌟 in the Kubernetes Tools ecosystem.
   - [en.sokube.ch: AWS + Kubernetes = AWS Elastic Kubernetes Service (EKS) 🌟](https://en.sokube.ch/post/aws-kubernetes-aws-elastic-kubernetes-service-eks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering en.sokube.ch: AWS + Kubernetes = AWS Elastic Kubernetes Service (EKS) 🌟 in the Kubernetes Tools ecosystem.
-  - [medium: Run Kubernetes Production Environment on EC2 Spot Instances With' Zero Downtime: A Complete Guide](https://medium.com/riskified-technology/run-kubernetes-on-aws-ec2-spot-instances-with-zero-downtime-f7327a95dea)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Run Kubernetes Production Environment on EC2 Spot Instances With' Zero Downtime: A Complete Guide in the Kubernetes Tools ecosystem.
   - [releaseops.io: Scaling Kubernetes Deployments in AWS with Container Insights' Metrics](https://releaseops.io/blog/scaling-kubernetes-deployments-in-aws-with-container-insights-metrics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering releaseops.io: Scaling Kubernetes Deployments in AWS with Container Insights' Metrics in the Kubernetes Tools ecosystem.
   - [medium: Create Kubernetes Cluster On AWS EKS](https://medium.com/codex/create-kubernetes-cluster-on-aws-eks-6ced4c488e62)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Create Kubernetes Cluster On AWS EKS in the Kubernetes Tools ecosystem.
   - [info.acloud.guru: Scaling the hottest app in tech on AWS and Kubernetes](https://info.acloud.guru/resources/kubernetes-aws-cloud-scaling-hey)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering info.acloud.guru: Scaling the hottest app in tech on AWS and Kubernetes in the Kubernetes Tools ecosystem.
@@ -51,7 +364,6 @@
   - [particule.io: Create Kubernetes federated clusters on AWS](https://particule.io/en/blog/aws-federated-eks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering particule.io: Create Kubernetes federated clusters on AWS in the Kubernetes Tools ecosystem.
   - [betterprogramming.pub: Amazon EKS Is Eating My IPs!](https://betterprogramming.pub/amazon-eks-is-eating-my-ips-e18ea057e045)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering betterprogramming.pub: Amazon EKS Is Eating My IPs! in the Kubernetes Tools ecosystem.
   - [blog.usejournal.com: Spice up Your Kubernetes Environment with AWS Lambda' 🌟](https://blog.usejournal.com/spice-up-your-kubernetes-environment-with-aws-lambda-a07d81347607)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.usejournal.com: Spice up Your Kubernetes Environment with AWS Lambda' 🌟 in the Kubernetes Tools ecosystem.
-  - [neal-davis.medium.com: ECS vs EC2 vs Lambda](https://neal-davis.medium.com/ecs-vs-ec2-vs-lambda-36b8ca380dea)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering neal-davis.medium.com: ECS vs EC2 vs Lambda in the Kubernetes Tools ecosystem.
   - [faun.pub: Kubernetes Multi-tenancy with Amazon EKS: Best practices and considerations' 🌟](https://faun.pub/kubernetes-multi-tenancy-with-amazon-eks-best-practices-and-considerations-60bfd78c2f9a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering faun.pub: Kubernetes Multi-tenancy with Amazon EKS: Best practices and considerations' 🌟 in the Kubernetes Tools ecosystem.
   - [aws.plainenglish.io: 6 Tips to Improve Availability with AWS Load Balancers' and Kubernetes](https://aws.plainenglish.io/6-tips-to-improve-availability-with-aws-load-balancers-and-kubernetes-ad8d4d1c0f61)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering aws.plainenglish.io: 6 Tips to Improve Availability with AWS Load Balancers' and Kubernetes in the Kubernetes Tools ecosystem.
   - [blog.searce.com: Optimise cost for AWS EKS cluster using Spotinst 🌟](https://blog.searce.com/optimize-cost-for-aws-eks-cluster-using-spotinst-ffcebe8e3571)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.searce.com: Optimise cost for AWS EKS cluster using Spotinst 🌟 in the Kubernetes Tools ecosystem.
@@ -125,7 +437,6 @@
   - [inder-devops.medium.com: AKS Networking Deep Dive: Kubenet vs Azure-CNI' vs Azure-CNI (overlay)](https://inder-devops.medium.com/aks-networking-deep-dive-kubenet-vs-azure-cni-vs-azure-cni-overlay-a51709171ce9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==inder-devops.medium.com: AKS Networking Deep Dive: Kubenet vs Azure-CNI' vs Azure-CNI (overlay)== in the Kubernetes Tools ecosystem.
   - [medium.com/@anjkeesari: Install Grafana Loki-Stack Helmchart in Azure Kubernetes' Services (AKS)](https://medium.com/@anjkeesari/install-grafana-loki-stack-helmchart-in-azure-kubernetes-services-aks-1359281b3321)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@anjkeesari: Install Grafana Loki-Stack Helmchart in Azure Kubernetes' Services (AKS) in the Kubernetes Tools ecosystem.
   - [blog.stackademic.com: Advanced End-to-End DevSecOps Kubernetes Three-Tier' Project using Azure AKS, fluxCD, Prometheus, Grafana, and GitLab](https://blog.stackademic.com/advanced-end-to-end-devsecops-kubernetes-three-tier-project-using-azure-aks-fluxcd-prometheus-cca3c5e61953)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.stackademic.com: Advanced End-to-End DevSecOps Kubernetes Three-Tier' Project using Azure AKS, fluxCD, Prometheus, Grafana, and GitLab in the Kubernetes Tools ecosystem.
-  - [faun.pub: External Secret Operator on AKS (with Terraform) for Azure Key' Vault Integration (with Workload Identity)](https://faun.pub/external-secret-operator-on-aks-with-terraform-for-azure-key-vault-integration-with-workload-1d0c31082373)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering faun.pub: External Secret Operator on AKS (with Terraform) for Azure Key' Vault Integration (with Workload Identity) in the Kubernetes Tools ecosystem.
   - [blog.doit-intl.com: How to Set Up Multi-Cluster Load Balancing with GKE](https://blog.doit-intl.com/how-to-setup-multi-cluster-load-balancing-with-gke-4b407e1f3dff)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.doit-intl.com: How to Set Up Multi-Cluster Load Balancing with GKE in the Kubernetes Tools ecosystem.
   - [medium: How to provision Kubernetes Cluster in GCP Cloud (K8s)? 🌟](https://medium.com/avmconsulting-blog/kubernetes-google-kubernetes-engine-gke-99abf912f912)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: How to provision Kubernetes Cluster in GCP Cloud (K8s)? 🌟 in the Kubernetes Tools ecosystem.
   - [faun.pub: How to automate the setup of a Kubernetes cluster on GCP](https://faun.pub/how-to-automate-the-setup-of-a-kubernetes-cluster-on-gcp-e97918bf41de)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering faun.pub: How to automate the setup of a Kubernetes cluster on GCP in the Kubernetes Tools ecosystem.
@@ -170,19 +481,14 @@
 
 ### AWS
 
-#### Container Orchestration
-
-  - **(2023)** [cast.ai: AWS EKS vs. ECS vs. Fargate: Where to manage your Kubernetes?](https://cast.ai/blog/aws-eks-vs-ecs-vs-fargate-where-to-manage-your-kubernetes) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive comparing AWS ECS, EKS, and serverless container execution via AWS Fargate. Synthesizing live cloud architectural trends, it presents insights into financial management, operational simplicity, and dynamic resource scaling, mapping out the trade-offs of using managed VM pools versus completely serverless options.
-  - **(2022)** [clickittech.com: Amazon ECS vs EKS : The Best Container Orchestration Platform](https://www.clickittech.com/cloud-services/amazon-ecs-vs-eks) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This comprehensive comparison highlights the operational differences, cost implications, and architecture layouts of Amazon ECS versus Amazon EKS. EKS targets standard Kubernetes-based deployments requiring high portability, while ECS is a highly optimized, opinionated AWS native orchestrator designed for seamless integration.
-  - **(2021)** [cloudonaut.io: Scaling Container Clusters on AWS: ECS and EKS](https://cloudonaut.io/scaling-container-clusters-on-aws-ecs-eks) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed comparative analysis of scaling strategies between Amazon ECS and EKS clusters. The article walks through key operational considerations, including EC2 Auto Scaling Groups, Karpenter, cluster autoscalers, and resource utilization dynamics, highlighting how choice of orchestration influences microservices scale limits.
 #### EKS and Container Orchestration
 
-  - **(2026)** [**github.com/aws-ia/terraform-aws-eks-blueprints (examples) 🌟🌟🌟**](https://github.com/aws-ia/terraform-aws-eks-blueprints) <span class='md-tag md-tag--info'>⭐ 3024</span> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A production-ready collection of Terraform modules designed to accelerate Amazon EKS cluster deployments. Live Grounding highlights its architecture for bootstrapping clusters with essential add-ons like Karpenter, AWS Load Balancer Controller, and Prometheus. It represents the industry standard for declarative EKS infrastructure provisioning.
+  - **(2026)** [**github.com/aws-ia/terraform-aws-eks-blueprints (examples) 🌟🌟🌟**](https://github.com/aws-ia/terraform-aws-eks-blueprints) <span class='md-tag md-tag--info'>⭐ 3024</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f7cfe177" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 10 L 20 12 L 30 5 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-f7cfe177)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A production-ready collection of Terraform modules designed to accelerate Amazon EKS cluster deployments. Live Grounding highlights its architecture for bootstrapping clusters with essential add-ons like Karpenter, AWS Load Balancer Controller, and Prometheus. It represents the industry standard for declarative EKS infrastructure provisioning.
 ### Amazon EKS
 
 #### ACK
 
-  - **(2026)** [==AWS Controllers for Kubernetes (ACK) 🌟==](https://github.com/aws-controllers-k8s/community) <span class='md-tag md-tag--info'>⭐ 2627</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official community hub for AWS Controllers for Kubernetes (ACK). It allows cloud platform engineers to define and manage AWS resources (like RDS databases, S3 buckets, and SQS queues) directly through standard Kubernetes manifests and controllers.
+  - **(2026)** [==AWS Controllers for Kubernetes (ACK) 🌟==](https://github.com/aws-controllers-k8s/community) <span class='md-tag md-tag--info'>⭐ 2627</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9f5e004f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 5 L 20 13 L 30 4 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-9f5e004f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official community hub for AWS Controllers for Kubernetes (ACK). It allows cloud platform engineers to define and manage AWS resources (like RDS databases, S3 buckets, and SQS queues) directly through standard Kubernetes manifests and controllers.
 #### Batch Workloads
 
   - **(2021)** [thenewstack.io: Amazon Web Services Gears Elastic Kubernetes Service for Batch Work](https://thenewstack.io/amazon-web-services-gears-elastic-kubernetes-service-for-batch-jobs) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes AWS EKS optimizations targeting high-performance batch computing and AI training workloads. It discusses integrations with Kueue, Karpenter, and specialized EC2 accelerator architectures designed to streamline modern machine learning cycles.
@@ -202,7 +508,7 @@
   - **(2021)** [linkedin.com: Amazon EKS Distro (EKS-D): The Kubernetes Distribution Used by Amazon EKS 🌟](https://www.linkedin.com/pulse/amazon-eks-distro-eks-d-kubernetes-distribution-used-gokul-chandra) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores Amazon EKS Distro (EKS-D), the same open-source upstream Kubernetes distribution used by AWS to power Amazon EKS. The article highlights its value for on-premises deployments requiring the exact upstream patches, dependencies, and security alignments maintained by Amazon.
 #### Helm Repositories
 
-  - **(2026)** [==github.com/aws/eks-charts 🌟==](https://github.com/aws/eks-charts) <span class='md-tag md-tag--info'>⭐ 1298</span> <span class='md-tag md-tag--warning'>[SMARTY CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official Helm chart repository maintained by Amazon Web Services to bootstrap essential cluster add-ons. It hosts deployment packages for core utilities like App Mesh Controller, AWS Load Balancer Controller, Node Termination Handler, and the VPC CNI plugin.
+  - **(2026)** [==github.com/aws/eks-charts 🌟==](https://github.com/aws/eks-charts) <span class='md-tag md-tag--info'>⭐ 1298</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e34e885b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 4 L 20 6 L 30 12 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-e34e885b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SMARTY CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official Helm chart repository maintained by Amazon Web Services to bootstrap essential cluster add-ons. It hosts deployment packages for core utilities like App Mesh Controller, AWS Load Balancer Controller, Node Termination Handler, and the VPC CNI plugin.
 #### Interactive Learning
 
   - **(2026)** [eksworkshop.com 🌟](https://www.eksworkshop.com) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The official Amazon EKS Workshop, serving as the industry's premier hands-on guide for EKS architecture. Updated consistently to reflect modern AWS paradigms, it leads operators through provisioning, networking (VPC CNI), security (IRSA), observability, and GitOps.
@@ -213,7 +519,7 @@
   - **(2021)** [aws.amazon.com: Streaming Kubernetes Events in Slack](https://aws.amazon.com/blogs/containers/streaming-kubernetes-events-in-slack) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Walkthrough detailing how to set up serverless notification integration pipelines that stream Kubernetes events directly to Slack. Integrates tools like BotKube or AWS Lambda with EKS clusters to optimize developer response loops.
 #### Spot Instances
 
-  - **(2026)** [==aws/aws-node-termination-handler 🌟==](https://github.com/aws/aws-node-termination-handler) <span class='md-tag md-tag--info'>⭐ 1757</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — High-efficiency agent ensuring EKS pod rescheduling during abrupt EC2 instance maintenance events, Spot interruptions, or ASG rebalance recommendations. Gracefully drains affected nodes, maintaining overall cluster operational reliability.
+  - **(2026)** [==aws/aws-node-termination-handler 🌟==](https://github.com/aws/aws-node-termination-handler) <span class='md-tag md-tag--info'>⭐ 1757</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-5a0de29d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 3 L 20 13 L 30 7 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-5a0de29d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — High-efficiency agent ensuring EKS pod rescheduling during abrupt EC2 instance maintenance events, Spot interruptions, or ASG rebalance recommendations. Gracefully drains affected nodes, maintaining overall cluster operational reliability.
 #### Traffic Management
 
   - **(2022)** [Create a pipeline with canary deployments for Amazon EKS with AWS App Mesh 🌟](https://aws.amazon.com/blogs/containers/create-a-pipeline-with-canary-deployments-for-amazon-eks-with-aws-app-mesh) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive technical walkthrough on implementing canary deployment pipelines using Amazon EKS and AWS App Mesh. It details the integration of AWS CodePipeline and Envoy-based service meshes to orchestrate fine-grained traffic shifting, minimizing blast radiuses during software rollouts.
@@ -229,15 +535,7 @@
 
 #### Automation
 
-  - **(2026)** [==github.com/awslabs: Kubernetes Migration Factory User Guide 🌟==](https://github.com/awslabs/aws-kubernetes-migration-factory) <span class='md-tag md-tag--info'>⭐ 130</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — The AWS Kubernetes Migration Factory provides an automated, programmatic framework for migrating legacy VM-based or on-premises workloads into Amazon EKS. Curator Insight notes its structured pipelines that reduce migration errors, while Live Grounding confirms its utility in enterprise-scale rehosting plans. Key features include source-to-target automation, pre-migration validation, and automated target cluster provisioning.
-### Container Orchestration (1)
-
-#### AKS Integration
-
-  - **(2023)** [techcommunity.microsoft.com: How to install an AKS cluster with the Istio service mesh add-on via Bicep](https://techcommunity.microsoft.com/blog/fasttrackforazureblog/how-to-install-an-aks-cluster-with-the-istio-service-mesh-add-on-via-bicep/3802069) <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the automated provisioning of Azure Kubernetes Service (AKS) coupled with the native Istio service mesh add-on using Bicep. This blueprint demonstrates declarative service mesh lifecycle management, reducing manual Helm or post-deployment orchestration overhead.
-#### EKS Security
-
-  - **(2023)** [Amazon EKS introduces EKS Pod Identity](https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-eks-pod-identity) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — EKS Pod Identity simplifies the association of IAM roles with Kubernetes service accounts. This model bypasses the complexities of OIDC trust configurations, offering highly scalable, secure, and isolated credential structures for containers.
+  - **(2026)** [==github.com/awslabs: Kubernetes Migration Factory User Guide 🌟==](https://github.com/awslabs/aws-kubernetes-migration-factory) <span class='md-tag md-tag--info'>⭐ 130</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ee1d8784" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 6 L 20 11 L 30 8 L 40 2 L 50 13" fill="none" stroke="url(#spark-grad-ee1d8784)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — The AWS Kubernetes Migration Factory provides an automated, programmatic framework for migrating legacy VM-based or on-premises workloads into Amazon EKS. Curator Insight notes its structured pipelines that reduce migration errors, while Live Grounding confirms its utility in enterprise-scale rehosting plans. Key features include source-to-target automation, pre-migration validation, and automated target cluster provisioning.
 ### Continuous Delivery
 
 #### GitOps
@@ -258,7 +556,7 @@
 
 #### AWS CDK
 
-  - **(2026)** [==aws-quickstart/cdk-eks-blueprints: Amazon EKS Blueprints for CDK==](https://github.com/awslabs/cdk-eks-blueprints) <span class='md-tag md-tag--info'>⭐ 510</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An AWS Cloud Development Kit (CDK) based framework that simplifies bootstrapping and configuring production-ready EKS clusters. Synthesizing developer insight with live deployment footprints, it provides programmatic control over EKS configurations, core add-ons, and IAM integrations. It is ideal for teams seeking TypeScript/Python program-based IaC over static YAML or HCL configurations.
+  - **(2026)** [==aws-quickstart/cdk-eks-blueprints: Amazon EKS Blueprints for CDK==](https://github.com/awslabs/cdk-eks-blueprints) <span class='md-tag md-tag--info'>⭐ 510</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-57da4d8f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 11 L 20 8 L 30 6 L 40 9 L 50 11" fill="none" stroke="url(#spark-grad-57da4d8f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An AWS Cloud Development Kit (CDK) based framework that simplifies bootstrapping and configuring production-ready EKS clusters. Synthesizing developer insight with live deployment footprints, it provides programmatic control over EKS configurations, core add-ons, and IAM integrations. It is ideal for teams seeking TypeScript/Python program-based IaC over static YAML or HCL configurations.
   - **(2021)** [aws.amazon.com: Continuous Delivery of Amazon EKS Clusters Using AWS CDK and CDK Pipelines](https://aws.amazon.com/blogs/containers/continuous-delivery-of-amazon-eks-clusters-using-aws-cdk-and-cdk-pipelines) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights declarative automation pathways for bootstrapping EKS clusters using AWS Cloud Development Kit (CDK) Pipelines. Enables software engineering teams to manage clusters and infrastructure configurations as deployable programming code.
 #### Terraform
 
@@ -278,7 +576,7 @@
   - **(2026)** [Amazon EKS Best Practices Guide for Networking](https://aws.github.io/aws-eks-best-practices/networking/index) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The dedicated guide for networking best practices on Amazon EKS. Focuses heavily on network design, security boundaries, container security, network policies (Calico), and optimizing cluster communication pathways.
 #### Ingress Controllers
 
-  - **(2026)** [==github.com/kubernetes-sigs/aws-load-balancer-controller==](https://github.com/kubernetes-sigs/aws-load-balancer-controller) <span class='md-tag md-tag--info'>⭐ 4300</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The core controller that manages AWS Elastic Load Balancers (ALB and NLB) on behalf of a Kubernetes cluster. Live Grounding verifies its continuous support for advanced features like target grouping by IP, ACM certificate integration, and shared ALBs. It acts as the primary ingress controller for modern AWS EKS network architectures.
+  - **(2026)** [==github.com/kubernetes-sigs/aws-load-balancer-controller==](https://github.com/kubernetes-sigs/aws-load-balancer-controller) <span class='md-tag md-tag--info'>⭐ 4300</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d9499149" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 7 L 20 2 L 30 10 L 40 13 L 50 3" fill="none" stroke="url(#spark-grad-d9499149)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The core controller that manages AWS Elastic Load Balancers (ALB and NLB) on behalf of a Kubernetes cluster. Live Grounding verifies its continuous support for advanced features like target grouping by IP, ACM certificate integration, and shared ALBs. It acts as the primary ingress controller for modern AWS EKS network architectures.
   - **(2024)** [AWS Load Balancer Controller 🌟](https://kubernetes-sigs.github.io/aws-load-balancer-controller) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Documentation focused on integrating the AWS Load Balancer Controller with ExternalDNS. This pattern automates Route 53 DNS record creation and synchronization when ALBs or NLBs are dynamically provisioned via Kubernetes Ingress or Service resources.
   - **(2021)** [aws.amazon.com: Kubernetes Ingress with AWS ALB Ingress Controller](https://aws.amazon.com/blogs/opensource/kubernetes-ingress-aws-alb-ingress-controller) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Covers the deployment and usage architecture of the AWS Application Load Balancer (ALB) Ingress Controller. It shows how the controller interprets Kubernetes Ingress resources to provision physical AWS ALB layers, routing external HTTP traffic directly to backend pods.
 #### Scale Optimization
@@ -297,7 +595,7 @@
   - **(2022)** [cast.ai: EKS Security Checklist: 10 Best Practices for a Secure Cluster](https://cast.ai/blog/eks-security-checklist-10-best-practices-for-a-secure-cluster) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A security verification checklist designed for EKS. Evaluates API network isolation, node-level hardenings, RBAC, KMS secret encryption, and runtime defense models necessary to pass enterprise audits.
 #### IAM
 
-  - **(2026)** [==azon EKS Pod Identity Webhook==](https://github.com/aws/amazon-eks-pod-identity-webhook) <span class='md-tag md-tag--info'>⭐ 683</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A mutating admission webhook that injects AWS IAM environmental variables and credentials into Kubernetes Pods. This enables IAM Roles for Service Accounts (IRSA), allowing pods to securely access external AWS API endpoints without relying on shared node-level roles.
+  - **(2026)** [==azon EKS Pod Identity Webhook==](https://github.com/aws/amazon-eks-pod-identity-webhook) <span class='md-tag md-tag--info'>⭐ 683</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ad71e69a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 5 L 20 12 L 30 11 L 40 8 L 50 9" fill="none" stroke="url(#spark-grad-ad71e69a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A mutating admission webhook that injects AWS IAM environmental variables and credentials into Kubernetes Pods. This enables IAM Roles for Service Accounts (IRSA), allowing pods to securely access external AWS API endpoints without relying on shared node-level roles.
   - **(2022)** [nextlinklabs.com: Handling Auth in EKS Clusters: Setting Up Kubernetes User Access Using AWS IAM](https://nextlinklabs.com/resources/insights/handling-authentication-in-eks-clusters-kubernetes-aws-iam) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A procedural analysis on managing administrative and developer user access to Amazon EKS using AWS IAM and the aws-auth ConfigMap. It maps IAM roles and users to internal Kubernetes RBAC groups, ensuring fine-grained, secure administrative control.
   - **(2021)** [dev.to: EKS IAM Deep Dive 🌟](https://dev.to/aws-builders/eks-iam-deep-dive-136d) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth exploration of the security layer connecting AWS Identity and Access Management with EKS. Details authentication and authorization, explaining how IAM roles map to Kubernetes groups to achieve a robust security boundary.
 #### PCI DSS
@@ -317,7 +615,7 @@
 
 #### Cluster Provisioning (1)
 
-  - **(2024)** [**eksctl: EKS installer**](https://github.com/eksctl-io/eksctl) <span class='md-tag md-tag--info'>⭐ 5203</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The official CLI orchestration tool for provisioning AWS EKS clusters. It compiles high-level YAML inputs into CloudFormation actions to automatically establish VPC, IAM, and worker nodes.
+  - **(2024)** [**eksctl: EKS installer**](https://github.com/eksctl-io/eksctl) <span class='md-tag md-tag--info'>⭐ 5203</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ded25d6c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 12 L 20 6 L 30 11 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-ded25d6c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The official CLI orchestration tool for provisioning AWS EKS clusters. It compiles high-level YAML inputs into CloudFormation actions to automatically establish VPC, IAM, and worker nodes.
   - **(2018)** [POKE - Provision Opinionated Kubernetes on EKS](https://github.com/bit-cloner/poke) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Opinionated CLI provisioning script wrapper for configuring standardized Amazon EKS instances. This project has been classified as legacy due to extensive inactivity; modern teams should leverage Terraform or EKS Blueprints instead.
 #### Community Resources
 
@@ -368,13 +666,6 @@
 #### Platform Engineering
 
   - **(2021)** [thenewstack.io: Otomi Container Platform Offers an Integrated Kubernetes Bundle](https://thenewstack.io/otomi-container-platform-offers-an-integrated-kubernetes-bundle) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Product overview of Otomi, which bundles ingress, security benchmarks, network policies, monitoring tools, and service mesh components into a unified, installable suite for Kubernetes.
-## Cloud Native and Kubernetes
-
-### Monitoring and Observability
-
-#### Network Observability
-
-  - **(2024)** [**techcommunity.microsoft.com: Advanced Network Observability for your Azure Kubernetes Service clusters through Azure Monitor**](https://techcommunity.microsoft.com/blog/azureobservabilityblog/advanced-network-observability-for-your-azure-kubernetes-service-clusters-throug/4176736) <span class='md-tag md-tag--warning'>[KQL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Unveiling advanced network observability features for AKS clusters, utilizing eBPF to capture kernel-level network telemetry. It provides deep visibility into pod-to-pod and egress traffic flow, packet drops, DNS resolution latencies, and TCP connection stats. This low-overhead monitoring is essential for debugging transient network issues inside microservices environments.
 ## Cloud Providers
 
 ### AWS EKS (1)
@@ -397,7 +688,7 @@
 
 ##### Node Scaling Metrics
 
-  - **(2023)** [**awslabs/eks-node-viewer**](https://github.com/awslabs/eks-node-viewer) <span class='md-tag md-tag--info'>⭐ 1632</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly functional CLI diagnostic tool designed to visualize real-time cost, resource utilization, and scheduling efficiency across Amazon EKS node groups. Highly integrated with dynamic autoscaling engines like Karpenter to optimize infrastructure financial footprints.
+  - **(2023)** [**awslabs/eks-node-viewer**](https://github.com/awslabs/eks-node-viewer) <span class='md-tag md-tag--info'>⭐ 1632</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-15036de0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 6 L 20 9 L 30 9 L 40 11 L 50 4" fill="none" stroke="url(#spark-grad-15036de0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly functional CLI diagnostic tool designed to visualize real-time cost, resource utilization, and scheduling efficiency across Amazon EKS node groups. Highly integrated with dynamic autoscaling engines like Karpenter to optimize infrastructure financial footprints.
 ##### Spot Instancing
 
   - **(2022)** [itnext.io: Running resilient workloads in EKS using Spot instances](https://itnext.io/running-production-workloads-in-eks-using-spot-instances-fc6808a7b462) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical implementation guide for orchestrating highly available production applications on cost-effective AWS Spot Instances. Synthesizes node-termination handlers, pod disruption budgets, and multi-instance-type autoscaling groups to manage interruptions.
@@ -419,7 +710,7 @@
   - **(2021)** [aws.amazon.com: Getting started with Amazon EKS Anywhere](https://aws.amazon.com/blogs/containers/introducing-general-availability-of-amazon-eks-anywhere) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Fundamental provisioning guide to instantiate an EKS Anywhere sandbox cluster. Leverages Docker-based local execution to demonstrate the configuration profiles and administration scripts of local EKS-compliant architectures.
 ##### On-Premises EKS
 
-  - **(2023)** [**EKS Anywhere: github.com/aws/eks-anywhere**](https://github.com/aws/eks-anywhere) <span class='md-tag md-tag--info'>⭐ 2096</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Official hybrid-cloud open-source distribution bringing EKS lifecycle tooling, operational practices, and configurations directly into bare-metal, vSphere, or Nutanix environments. Maintains uniform operational patterns across hybrid infrastructures.
+  - **(2023)** [**EKS Anywhere: github.com/aws/eks-anywhere**](https://github.com/aws/eks-anywhere) <span class='md-tag md-tag--info'>⭐ 2096</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-92931615" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 5 L 20 6 L 30 4 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-92931615)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Official hybrid-cloud open-source distribution bringing EKS lifecycle tooling, operational practices, and configurations directly into bare-metal, vSphere, or Nutanix environments. Maintains uniform operational patterns across hybrid infrastructures.
 ##### On-Premises Launch
 
   - **(2021)** [aws.amazon.com: Amazon EKS Anywhere – Now Generally Available to Create and Manage Kubernetes Clusters on Premises](https://aws.amazon.com/blogs/aws/amazon-eks-anywhere-now-generally-available-to-create-and-manage-kubernetes-clusters-on-premises) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Launches EKS Anywhere into general availability, introducing key hybrid cloud deployment architectures. Examines how on-premises teams can leverage automated OS patching, tooling uniformity, and professional AWS support channels.
@@ -435,13 +726,13 @@
 
 ##### Base Build
 
-  - **(2023)** [aws/eks-distro](https://github.com/aws/eks-distro) <span class='md-tag md-tag--info'>⭐ 1458</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source release containing the exact upstream Kubernetes components, security backports, and upstream patches used by Amazon EKS. Empowers platform developers to run highly synchronized non-AWS clusters.
+  - **(2023)** [aws/eks-distro](https://github.com/aws/eks-distro) <span class='md-tag md-tag--info'>⭐ 1458</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-cded899a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 9 L 20 2 L 30 10 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-cded899a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source release containing the exact upstream Kubernetes components, security backports, and upstream patches used by Amazon EKS. Empowers platform developers to run highly synchronized non-AWS clusters.
 #### Machine Learning (1)
 
 ##### Kubeflow Storage
 
   - **(2022)** [aws.amazon.com: Machine Learning with Kubeflow on Amazon EKS with Amazon EFS](https://aws.amazon.com/blogs/storage/machine-learning-with-kubeflow-on-amazon-eks-with-amazon-efs) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Illustrates the reference architecture for scaling distributed machine learning workloads using Kubeflow on Amazon EKS backed by AWS EFS. Addresses shared-storage patterns crucial for training datasets, model checkpoints, and collaborative Jupyter notebooks.
-#### Monitoring and Observability (1)
+#### Monitoring and Observability
 
 ##### API Server Diagnostics
 
@@ -475,7 +766,7 @@
 
 ##### Compliance Auditing
 
-  - **(2023)** [aws-samples/hardeneks](https://github.com/aws-samples/hardeneks) <span class='md-tag md-tag--info'>⭐ 958</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A command-line verification tool that systematically audits Amazon EKS clusters against established AWS operational and security best practices. Evaluates network security, IAM posture, pod disruption budgets, and admission control policies to generate a structured hardening roadmap.
+  - **(2023)** [aws-samples/hardeneks](https://github.com/aws-samples/hardeneks) <span class='md-tag md-tag--info'>⭐ 958</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e1c1ca9b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 3 L 20 10 L 30 3 L 40 8 L 50 13" fill="none" stroke="url(#spark-grad-e1c1ca9b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A command-line verification tool that systematically audits Amazon EKS clusters against established AWS operational and security best practices. Evaluates network security, IAM posture, pod disruption budgets, and admission control policies to generate a structured hardening roadmap.
 ##### RBAC Mapping
 
   - **(2023)** [itnext.io: AWS Elastic Kubernetes Service: RBAC Authorization via AWS IAM and RBAC Groups](https://itnext.io/aws-elastic-kubernetes-service-rbac-authorization-via-aws-iam-and-rbac-groups-7b70ded144b5) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep technical review of orchestrating native Kubernetes Role-Based Access Control (RBAC) securely mapped to AWS IAM roles. Details operational best practices for mapping IAM identities into the aws-auth ConfigMap or using EKS Access Entries.
@@ -575,7 +866,7 @@
   - **(2021)** [acloudguru.com: GKE ludicrous speed! GKE Image Streaming speeds up container starts](https://www.pluralsight.com/resources/blog/cloud/gke-ludicrous-speed-gke-image-streaming-speeds-up-container-starts) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores GKE Image Streaming, a performance feature that speeds up container startups by lazy-loading image layers over the network. By starting pods before the entire image is downloaded, this architecture accelerates auto-scaling and quickens recovery times from node failures.
 #### Security and Compliance (1)
 
-  - **(2024)** [==google/gke-policy-automation==](https://github.com/google/gke-policy-automation) <span class='md-tag md-tag--info'>⭐ 524</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A Google-maintained open-source tool designed to automate policy audits on GKE cluster setups using Open Policy Agent (OPA) Gatekeeper. This utility inspects cluster configuration dumps against best practices, helping security engineers secure their container footprints.
+  - **(2024)** [==google/gke-policy-automation==](https://github.com/google/gke-policy-automation) <span class='md-tag md-tag--info'>⭐ 524</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0d318108" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 6 L 20 13 L 30 13 L 40 7 L 50 9" fill="none" stroke="url(#spark-grad-0d318108)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A Google-maintained open-source tool designed to automate policy audits on GKE cluster setups using Open Policy Agent (OPA) Gatekeeper. This utility inspects cluster configuration dumps against best practices, helping security engineers secure their container footprints.
 #### Security and IAM
 
   - **(2024)** [Fetches all Primitive and Predefined GCP IAM Roles](https://github.com/darkbitio/gcp-iam-role-permissions) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source security tool that parses and exports GCE IAM pre-defined and primitive role definitions. Helps platform security architects map precise least-privilege configurations when implementing Workload Identity bounds inside production GKE clusters.
@@ -648,7 +939,7 @@
   - **(2023)** [docs.microsoft.com: AKS-managed Azure Active Directory integration](https://learn.microsoft.com/en-us/azure/aks/entra-id-control-plane-authentication) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Guides engineers in utilizing integrated Microsoft Entra ID (formerly Azure AD) to control access to AKS cluster operations via RBAC mappings and active identity directory validation.
 ##### Pod Identity Evolution
 
-  - **(2021)** [github.com: AKS: Use AAD identity for pods and make your SecOps happy](https://github.com/dfrappart/articles/blob/master/podidentityjourney.md) <span class='md-tag md-tag--info'>⭐ 6</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Journal exploring Azure AD Pod Identity to authorize pods. Note: While historically significant, modern live grounding indicates this pattern has been succeeded by Microsoft Entra Workload Identity.
+  - **(2021)** [github.com: AKS: Use AAD identity for pods and make your SecOps happy](https://github.com/dfrappart/articles/blob/master/podidentityjourney.md) <span class='md-tag md-tag--info'>⭐ 6</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e4277572" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 4 L 20 3 L 30 2 L 40 3 L 50 9" fill="none" stroke="url(#spark-grad-e4277572)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Journal exploring Azure AD Pod Identity to authorize pods. Note: While historically significant, modern live grounding indicates this pattern has been succeeded by Microsoft Entra Workload Identity.
 #### Storage (2)
 
 ##### StatefulSet Volume Scaling
@@ -663,7 +954,7 @@
   - **(2021)** [itnext.io: Adding Master Nodes to Achieve HA: One of the Best Practices for Using KubeKey](https://itnext.io/adding-master-nodes-to-achieve-ha-one-of-the-best-practices-for-using-kubekey-6207e94b0bdd) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the deployment patterns needed to scale control-plane nodes from single instances to high-availability multi-master architectures using KubeKey. It covers load-balancer integrations, internal ETCD cluster configurations, and control-plane state replication. (Live Grounding: Provides practical blueprints for production-grade self-managed control plane environments).
 #### KubeKey
 
-  - **(2025)** [**kubekey**](https://github.com/kubesphere/kubekey) <span class='md-tag md-tag--info'>⭐ 2821</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A Go-based command-line utility engineered to rapidly install, configure, and upgrade Kubernetes clusters, KubeSphere components, and runtime layers (containerd, Docker) on bare-metal and cloud environments. It highly excels in air-gapped, offline installations using custom artifact packages. (Live Grounding: KubeKey remains a highly-rated installer alternative to Kubeadm, especially popular in hybrid/on-prem environments requiring deterministic runtime setups).
+  - **(2025)** [**kubekey**](https://github.com/kubesphere/kubekey) <span class='md-tag md-tag--info'>⭐ 2821</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-fb9764c9" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 3 L 20 11 L 30 7 L 40 13 L 50 3" fill="none" stroke="url(#spark-grad-fb9764c9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A Go-based command-line utility engineered to rapidly install, configure, and upgrade Kubernetes clusters, KubeSphere components, and runtime layers (containerd, Docker) on bare-metal and cloud environments. It highly excels in air-gapped, offline installations using custom artifact packages. (Live Grounding: KubeKey remains a highly-rated installer alternative to Kubeadm, especially popular in hybrid/on-prem environments requiring deterministic runtime setups).
   - **(2021)** [kubesphere.io: Install Kubernetes 1.22 and containerd the Easy Way with kubekey](https://kubesphere.io/blogs/install-kubernetes-containerd) <span class='md-tag md-tag--warning'>[GO/YAML CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Outlines a streamlined procedural approach to installing Kubernetes 1.22 and containerd using the KubeKey engine. The guide emphasizes the migration away from Docker shim and configures high-performance runtime options using bare-metal architecture targets. (Live Grounding: Although v1.22 is legacy by 2026 standards, the architectural concepts of containerd orchestration and bare-metal bootstrapping via KubeKey remain highly instructional).
   - **(2021)** [kubesphere.io: Scaling a Kubernetes Cluster: One of the Best Practices for Using KubeKey](https://kubesphere.io/blogs/scale-kubernetes-cluster-using-kubekey) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A technical guide demonstrating how to horizontally scale existing Kubernetes compute capacities using KubeKey execution manifests. Focuses on declarative modifications of cluster-configuration files to dynamically append new worker nodes without service disruptions. (Live Grounding: Vital operations reference for cluster administrators managing hardware expansions within hybrid/private clouds).
 ### Managed Kubernetes
@@ -671,13 +962,6 @@
 #### Azure AKS
 
   - **(2025)** [youtube: The AKS Community](https://www.youtube.com/@theakscommunity) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A dedicated developer and operator community resource focusing on Azure Kubernetes Service (AKS). Tracks the evolution of enterprise-ready features, including node autoscale profiles, azure-cni overlays, Workload Identity, and cost optimization practices. (Live Grounding: Serves as an invaluable hub for tracking live updates directly from Microsoft engineers).
-## Cluster Architecture
-
-### Sizing
-
-#### Node Allocatable
-
-  - **(2023)** [learnk8s.io: Allocatable memory and CPU in Kubernetes Nodes](https://learnkube.com/allocatable-resources) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demystifies how Kubernetes computes physical allocatable resources. Deeply details the underlying formulas for `kube-reserved`, `system-reserved`, and eviction thresholds to ensure cluster stability under heavy workloads.
 ## Container Platforms
 
 ### Enterprise Platforms
@@ -710,26 +994,14 @@
 
 #### Local Tooling
 
-  - **(2023)** [==Azure/Draft 🌟==](https://github.com/Azure/draft) <span class='md-tag md-tag--info'>⭐ 642</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Azure Draft simplifies early-stage developer onboarding onto Kubernetes. By scanning source code directories, it automatically generates containerization assets including Dockerfiles, Kubernetes manifests, Helm charts, and deployment workflows.
+  - **(2023)** [==Azure/Draft 🌟==](https://github.com/Azure/draft) <span class='md-tag md-tag--info'>⭐ 642</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2026e583" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 6 L 20 4 L 30 12 L 40 8 L 50 8" fill="none" stroke="url(#spark-grad-2026e583)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Azure Draft simplifies early-stage developer onboarding onto Kubernetes. By scanning source code directories, it automatically generates containerization assets including Dockerfiles, Kubernetes manifests, Helm charts, and deployment workflows.
 ## Development Tools
 
 ### Storage (3)
 
 #### Volume Synchronization
 
-  - **(2026)** [==github.com/rebataur/djkube==](https://github.com/rebataur/fskube) <span class='md-tag md-tag--info'>⭐ 27</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A lightweight, community-driven development aid designed to bridge local filesystems with Kubernetes volumes. Live Grounding indicates the project has had minimal recent activity, classifying it as a legacy utility. It may serve as a historical reference implementation for simple synchronization mechanisms.
-## FinOps and Cloud Cost
-
-### AWS Optimization
-
-#### EKS Log Optimization
-
-  - **(2023)** [**aws.amazon.com: Understanding and Cost Optimizing Amazon EKS Control Plane Logs**](https://aws.amazon.com/blogs/containers/understanding-and-cost-optimizing-amazon-eks-control-plane-logs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Analyzes the high CloudWatch cost challenges generated by Amazon EKS control plane logs (API server, authenticator, audit, scheduler). Demonstrates how to configure fluent-bit to filter and route only essential telemetry records to cheap storage.
-### Kubernetes FinOps
-
-#### Cost Management
-
-  - **(2023)** [==infoworld.com: Kubernetes cost management for the real world==](https://www.infoworld.com/article/2338428/kubernetes-cost-management-for-the-real-world.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A deep dive into the challenges of multi-tenant Kubernetes cost attribution across dynamic namespaces. Contrasts raw hyper-scaler billing records against granular container resource consumption metrics, detailing how Kubecost and OpenCost establish accurate, real-world chargeback frameworks.
+  - **(2026)** [==github.com/rebataur/djkube==](https://github.com/rebataur/fskube) <span class='md-tag md-tag--info'>⭐ 27</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e925cb15" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 11 L 20 7 L 30 12 L 40 6 L 50 6" fill="none" stroke="url(#spark-grad-e925cb15)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A lightweight, community-driven development aid designed to bridge local filesystems with Kubernetes volumes. Live Grounding indicates the project has had minimal recent activity, classifying it as a legacy utility. It may serve as a historical reference implementation for simple synchronization mechanisms.
 ## Financial Operations
 
 ### Cost Optimization (5)
@@ -739,11 +1011,6 @@
   - **(2021)** [zartis.com: How To Save A Fortune On Azure Kubernetes Service](https://www.zartis.com/minimizing-costs-aks) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details structural cost optimization methods for AKS deployment. Discusses right-sizing node configurations, deploying Azure Spot instances for non-critical environments, and configuring cluster autoscalers. Grounding confirms these strategies are essential in architectural cost-governance pipelines.
 ## Infrastructure
 
-### Enterprise Backup
-
-#### Cloud-Native Integration
-
-  - **(2021)** [**cloud.google.com: Announcing Backup for GKE: the easiest way to protect GKE workloads**](https://cloud.google.com/blog/products/storage-data-transfer/google-cloud-launches-backups-for-gke) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An announcement introducing Backup for GKE, a fully-managed Google Cloud service for GKE environments. Operates via the GCP API control plane to restore configurations and storage elements natively.
 ### Hybrid and On-Premises
 
 #### Azure Stack Hub
@@ -843,7 +1110,7 @@
   - **(2020)** [blog.nillsf.com: Customize core dump in Azure Kubernetes](https://blog.nillsf.com/index.php/2020/12/06/customize-core-dump-in-azure-kubernetes) <span class='md-tag md-tag--warning'>[BASH/YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes advanced kernel-level customizations required to capture core dumps from Linux containers running on AKS. Focuses on configuring host path directories, container filesystem capabilities, and kernel variables. Grounding shows this is vital for diagnostic debugging in low-level runtime environments (C++/.NET) where standard logs fail during sudden container restarts.
 #### Windows Packet Capture
 
-  - **(2020)** [github.com/OvidiuBorlean/kubectl-windumps](https://github.com/OvidiuBorlean/kubectl-windumps) <span class='md-tag md-tag--info'>⭐ 7</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A legacy kubectl command-line utility facilitating TCP packet captures directly on Windows Server nodes within AKS clusters. Live grounding shows the project has been inactive for several years, yet it serves as a valuable conceptual reference for troubleshooting deep network issues.
+  - **(2020)** [github.com/OvidiuBorlean/kubectl-windumps](https://github.com/OvidiuBorlean/kubectl-windumps) <span class='md-tag md-tag--info'>⭐ 7</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e199c633" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 4 L 20 4 L 30 6 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-e199c633)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A legacy kubectl command-line utility facilitating TCP packet captures directly on Windows Server nodes within AKS clusters. Live grounding shows the project has been inactive for several years, yet it serves as a valuable conceptual reference for troubleshooting deep network issues.
 #### Windows RDP Troubleshooting
 
   - **(2023)** [learn.microsoft.com: Connect with RDP to Azure Kubernetes Service (AKS) cluster Windows Server nodes for maintenance or troubleshooting](https://learn.microsoft.com/en-us/azure/aks/rdp) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains the official configuration workflows to safely establish RDP (Remote Desktop Protocol) connections into AKS Windows Server nodes. Facilitates deep system-level maintenance, networking diagnostics, and container execution debugging.
@@ -929,20 +1196,6 @@
 #### Declarative Infrastructure
 
   - **(2021)** [seroter.com: Using the new Google Cloud Config Controller to provision and manage cloud services via the Kubernetes Resource Model](https://seroter.com/2021/08/18/using-the-new-google-cloud-config-controller-to-provision-and-manage-cloud-services-via-the-kubernetes-resource-model) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces the Google Cloud Config Controller, highlighting its use of the Kubernetes Resource Model (KRM) to declare and govern external GCP services. Allows platform teams to enforce stateful GitOps practices, treating cloud resources (like databases and networking) identical to standard Kubernetes manifests.
-## Resilience
-
-### Chaos Engineering (1)
-
-#### Cloud Architecture
-
-  - **(2021)** [Chaos engineering on Amazon EKS using AWS Fault Injection Simulator](https://aws.amazon.com/blogs/devops/chaos-engineering-on-amazon-eks-using-aws-fault-injection-simulator) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical walkthrough demonstrating how to orchestrate chaos experiments on Amazon EKS using AWS Fault Injection Simulator (FIS). Highlights configuring managed cluster actions to trigger node terminations, API failures, and container termination within isolated namespaces.
-## Security (2)
-
-### Cloud Security
-
-#### EKS Hardening
-
-  - **(2024)** [Amazon EKS Best Practices Guide for Security 🌟](https://aws.github.io/aws-eks-best-practices) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The definitive enterprise guide for hardening EKS clusters against cloud-native threats. It covers network segregation, IAM roles for service accounts (IRSA), secrets encryption, and runtime defense. This is a foundational checklist for any platform engineering team running on AWS.
 ## Security and Governance
 
 ### Access and Identity
@@ -1019,5 +1272,5 @@
   - **(2022)** [digitalocean.com: Kubernetes for startups: Why, when, and how to adopt](https://www.digitalocean.com/resources/articles/kubernetes-for-startups) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural strategy guide assessing the costs and benefits of introducing Kubernetes inside early-stage startup ecosystems. Covers common mistakes like over-engineering cluster setups early on and maps out criteria for when to transition from PaaS tools to fully-managed Kubernetes environments.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md)
 

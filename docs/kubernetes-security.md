@@ -42,7 +42,7 @@
     - [github Kyverno - Kubernetes Native Policy Management](https://github.com/nirmata/kyverno)
     - [nirmata.com: Auto-labeling Kubernetes resources with Kyverno](https://nirmata.com/2020/10/30/auto-labeling-kubernetes-resources-with-kyverno)
 - [Dzone - OAuth 2.0](https://dzone.com/articles/oauth-20-beginners-guide)
-- [Kubernetes Security Best Practices 🌟](https://github.com/freach/kubernetes-security-best-practice/blob/master/README.md#firewall-ports-fire)
+- [Kubernetes Security Best Practices 🌟](https://github.com/freach/kubernetes-security-best-practice/blob/master/README.md)
 - [jeffgeerling.com: Everyone might be a cluster-admin in your Kubernetes cluster](https://www.jeffgeerling.com/blog/2020/everyone-might-be-cluster-admin-your-kubernetes-cluster)
 - [Microsoft.com: Attack matrix for Kubernetes 🌟](https://www.microsoft.com/security/blog/2020/04/02/attack-matrix-kubernetes)
 - [codeburst.io: 7 Kubernetes Security Best Practices You Must Follow](https://codeburst.io/7-kubernetes-security-best-practices-you-must-follow-ae32f1ed6444)
@@ -65,7 +65,7 @@
 - [kyverno.io 🌟](https://kyverno.io) Kubernetes Native Policy Management. Kyverno provides advanced supply chain security, simplified YAML-based policy management, and enhanced support for Gateway API.
 - [Tetragon (Cilium)](https://github.com/cilium/tetragon) - eBPF-based Security Observability and Runtime Enforcement. Tetragon provides deep visibility into process execution, network activity, and file access, with the ability to enforce policies at the kernel level.
     - [==kyverno.io/policies== 🌟](https://kyverno.io/policies) K8s policies available in the community repository
-- [cyberark.com: Attacking Kubernetes Clusters Through Your Network Plumbing: Part 1](https://www.cyberark.com/resources/threat-research-blog/attacking-kubernetes-clusters-through-your-network-plumbing-part-1?utm_sq=goa40uvlx1)
+- [cyberark.com: Attacking Kubernetes Clusters Through Your Network Plumbing: Part 1](https://www.cyberark.com/resources/threat-research-blog/attacking-kubernetes-clusters-through-your-network-plumbing-part-1)
 - [redkubes.com: 10 Kubernetes Security Risks & Best Practices](https://redkubes.com/10-kubernetes-security-risks-best-practices)
 - [thenewstack.io: Defend the Core: Kubernetes Security at Every Layer](https://thenewstack.io/defend-the-core-kubernetes-security-at-every-layer)
 - [Analyze Kubernetes Audit logs using Falco 🌟](https://github.com/developer-guy/falco-analyze-audit-log-from-k3s-cluster) Detect intrusions that happened in your Kubernetes cluster through audit logs using Falco
@@ -87,7 +87,7 @@
 - [redhat.com: State of Kubernetes Security Report - Spring 2021 (PDF) 🌟](https://www.redhat.com/rhdc/managed-files/cl-state-kubernetes-security-report-ebook-f29117-202106-en.pdf)
 - [kubernetes.io: Overview of Cloud Native Security 🌟🌟](https://kubernetes.io/docs/concepts/security) This overview defines a model for thinking about Kubernetes security in the context of Cloud Native security.
 - [learn.hashicorp.com: Integrate a Kubernetes Cluster with an External Vault 🌟](https://developer.hashicorp.com/vault/tutorials/kubernetes-introduction/kubernetes-external-vault)
-- [talkingquickly.co.uk: Kubernetes Single Sign On - A detailed guide 🌟](http://www.talkingquickly.co.uk/kubernetes-sso-a-detailed-guide)
+- [talkingquickly.co.uk: Kubernetes Single Sign On - A detailed guide 🌟](https://www.talkingquickly.co.uk/kubernetes-sso-a-detailed-guide)
 - [armosec.io: A Practical Guide to the Different Compliance Kubernetes Security Frameworks and How They Fit Together 🌟🌟](https://www.armosec.io/blog/kubernetes-security-frameworks-and-guidance)
 - [thenewstack.io: How to Secure Kubernetes, the OS of the Cloud](https://thenewstack.io/how-to-secure-kubernetes-the-os-of-the-cloud)
 - [akhilsharma.work: The 4C's of Kubernetes Security](https://akhilsharma.work/the-4cs-of-kubernetes-security)
@@ -95,7 +95,7 @@
 - [medium: Securing the Kubernetes cluster | Lessandro Z. Ugulino](https://medium.com/@lessandro.ugulino/securing-the-kubernetes-cluster-c5ab43fe0dd0)
 - [==infoworld.com: The race to secure Kubernetes at run time==](https://www.infoworld.com/article/2270825/the-race-to-secure-kubernetes-at-runtime.html) A new wave of startups is looking to help developers secure their containerized applications after they go into production. Is this the future of application security?
 - [==goteleport.com: Kubernetes API Access Security Hardening==](https://goteleport.com/blog/kubernetes-api-access-security)
-- [infoworld.com: Securing the Kubernetes software supply chain with Microsoft's Ratify](https://www.infoworld.com/article/2271333/securing-the-kubernetes-software-supply-chain.html) Microsoft’s **Ratify** proposal adds a verification workflow to Kubernetes container deployment. The Ratify team has some demo code in their GitHub repository that shows how to use Ratify with Gatekeeper in Kubernetes. [Ratify installs using a Helm chart](https://github.com/notaryproject/ratify#quick-start), bringing along some sample configuration templates.
+- [infoworld.com: Securing the Kubernetes software supply chain with Microsoft's Ratify](https://www.infoworld.com/article/2271333/securing-the-kubernetes-software-supply-chain.html) Microsoft’s **Ratify** proposal adds a verification workflow to Kubernetes container deployment. The Ratify team has some demo code in their GitHub repository that shows how to use Ratify with Gatekeeper in Kubernetes. [Ratify installs using a Helm chart](https://github.com/notaryproject/ratify), bringing along some sample configuration templates.
 - [amazicworld.com: Top 5 security threats unique to a Kubernetes and Cloud Native stack](https://amazicworld.com/top-5-security-threats-unique-to-a-kubernetes-and-cloud-native-stack)
 - [==peoplactive.com: Kubernetes and Container Security Checklist to Build Secure Apps== [ARCHIVED]]( http://web.archive.org/web/20230528171702/https://peoplactive.com/kubernetes-security-best-practices)
 - [venturebeat.com: Kubernetes security will have a breakout year in 2022](https://venturebeat.com/2021/12/27/kubernetes-security-will-have-a-breakout-year-in-2022)
@@ -282,7 +282,7 @@
     - ["I just meant that base64 prevents you from logging a secret in plain text by accident… but many more layers are required to keep your secrets secret"](https://x.com/SWengThomas)
     - "You need to configure how the key is managed and ideally opt into something like KMS plugin (which depends on how the cluster is hosted) to make it good"
 - [enterprisersproject.com: How to explain Kubernetes Secrets in plain English 🌟](https://enterprisersproject.com/article/2019/8/kubernetes-secrets-explained-plain-english) What is a Kubernetes secret? How does this type of Kubernetes object increase security? How do you create a Kubernetes secret? What are some best practices? Experts break it down
-- [millionvisit.blogspot.com: Kubernetes for Developers #19: Manage app credentials using Kubernetes Secrets 🌟](http://millionvisit.blogspot.com/2021/07/kubernetes-for-developers-19-manage-app-credentials-using-Kubernetes-Secrets.html)
+- [millionvisit.blogspot.com: Kubernetes for Developers #19: Manage app credentials using Kubernetes Secrets 🌟](https://millionvisit.blogspot.com/2021/07/kubernetes-for-developers-19-manage-app-credentials-using-Kubernetes-Secrets.html)
 - [kubermatic.com: Keeping the State of Apps Part 2: Introduction to Secrets](https://www.kubermatic.com/blog/keeping-the-state-of-apps-part-2-introduction-to-secrets)
 - [medium: Kubernetes Secrets Explained](https://medium.com/codex/kubernetes-secrets-explained-f45baf8cefa7)
 - [medium: Managing your sensitive information during GitOps process with Secret Sealed](https://medium.com/@jerome_tarte/managing-your-sensitive-information-during-gitops-process-with-secret-sealed-27498c77e2b8)
@@ -521,7 +521,7 @@ Kubernetes supports several authentication methods out-of-the-box, such as X.509
 ## EKS Security
 
 - [Security Group Rules EKS](https://docs.aws.amazon.com/eks/latest/userguide/sec-group-reqs.html)
-- [EC2 ENI and IP Limit](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html#AvailableIpPerENI)
+- [EC2 ENI and IP Limit](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html)
 - [Calico in EKS](https://docs.aws.amazon.com/eks/latest/userguide/cni-network-policy.html)
 - [==Amazon EKS Best Practices Guide for Security== 🌟](https://aws.github.io/aws-eks-best-practices)
 - [medium.com: Securing Kubernetes Dashboard on EKS with Pomerium](https://medium.com/dev-genius/securing-kubernetes-dashboard-on-eks-with-pomerium-e98c47610e2f)

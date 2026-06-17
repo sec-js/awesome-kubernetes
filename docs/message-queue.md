@@ -1,4 +1,4 @@
-# Cloud Based Integration & Messaging. Data Processing & Streaming (aka Data Pipeline). Open Data Hub
+# Cloud Based Integration and Messaging. Data Processing and Streaming (aka Data Pipeline). Open Data Hub
 
 1. [Message Queue in Kubernetes. Event-driven Messaging. Real-Time Data Streaming](#message-queue-in-kubernetes-event-driven-messaging-real-time-data-streaming)
 2. [RPC vs Messaging](#rpc-vs-messaging)
@@ -222,7 +222,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [pradeepdaniel.medium.com: Creating an ETL data pipeline to sync data to Snowflake using Kafka and Debezium](https://pradeepdaniel.medium.com/real-time-change-data-replication-to-snowflake-using-kafka-and-debezium-d6ebb0d4eb29) Setting up a real-time data pipeline from scratch to sync data from transactional databases to Snowflake cloud warehouse.
 - [medium: A Visual Introduction to Debezium 🌟](https://medium.com/event-driven-utopia/a-visual-introduction-to-debezium-32563e23c6b8) A story-based introduction to understanding what Debezium is, how it is made of, and how it works in a real-world scenario
 - [debezium.io: Using Debezium to Create a Data Lake with Apache Iceberg](https://debezium.io/blog/2021/10/20/using-debezium-create-data-lake-with-apache-iceberg)
-- [developers.redhat.com: Improve your Kafka Connect builds of Debezium.](https://developers.redhat.com/articles/2021/12/06/improve-your-kafka-connect-builds-debezium#build_a_debezium_kafka_connect_image_with_a_custom_resource) A Kubernetes native way of building Kafka Connect images in Debezium 1.6
+- [developers.redhat.com: Improve your Kafka Connect builds of Debezium.](https://developers.redhat.com/articles/2021/12/06/improve-your-kafka-connect-builds-debezium) A Kubernetes native way of building Kafka Connect images in Debezium 1.6
 
 ## Red Hat Integration service registry and Apicurio
 
@@ -339,7 +339,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [dev.to: Running Kafka on kubernetes for local development](https://dev.to/thegroo/running-kafka-on-kubernetes-for-local-development-2a54)
 - [medium.com/udemy-engineering: Introducing Hot and Cold Retries on Apache Kafka](https://medium.com/udemy-engineering/introducing-hot-and-cold-retries-on-apache-kafka-f2f23595627b) An overview of how to build a fault-tolerant event delivery system by using non-blocking retries of Apache Kafka® in Udemy Payments Team
 - [==conduktor.io/kafka: Learn Apache Kafka like never before==](https://docs.conduktor.io/learn) Conduktor Kafkademy is the quickest, easiest and most effective way for you to learn Apache Kafka for free.
-- [developers.redhat.com: Which is better: A single Kafka cluster to rule them all, or many?](https://developers.redhat.com/articles/2022/03/10/which-better-single-kafka-cluster-rule-them-all-or-many#)
+- [developers.redhat.com: Which is better: A single Kafka cluster to rule them all, or many?](https://developers.redhat.com/articles/2022/03/10/which-better-single-kafka-cluster-rule-them-all-or-many)
 - [medium.com/dna-technology: Why we dropped event sourcing with Kafka Streams when given a second chance](https://medium.com/dna-technology/why-we-dropped-event-sourcing-with-kafka-streams-when-given-a-second-chance-b904a80bc4be)
 - [==kai-waehner.de: When NOT to use Apache Kafka?==](https://www.kai-waehner.de/blog/2022/01/04/when-not-to-use-apache-kafka)
 - [betterprogramming.pub: Everything You Need To Know About Kafka 🌟](https://betterprogramming.pub/everything-you-need-to-know-about-kafka-a83e2456d14c) A simple guide for beginners
@@ -510,7 +510,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [Understanding Red Hat AMQ Streams components for OpenShift and Kubernetes 🌟](https://developers.redhat.com/blog/2019/12/04/understanding-red-hat-amq-streams-components-for-openshift-and-kubernetes-part-1)
 - [Set up **Red Hat AMQ Streams** custom certificates on OpenShift](https://developers.redhat.com/blog/2020/04/01/set-up-red-hat-amq-streams-custom-certificates-on-openshift-update)
 - [speakerdeck.com: Apache Kafka with Red Hat AMQ Streams 🌟](https://speakerdeck.com/mabulgu/apache-kafka-with-red-hat-amq-streams)
-- [HTTP-based Kafka messaging with Red Hat AMQ Streams](https://developers.redhat.com/blog/2020/08/04/http-based-kafka-messaging-with-red-hat-amq-streams/#more-720187)
+- [HTTP-based Kafka messaging with Red Hat AMQ Streams](https://developers.redhat.com/blog/2020/08/04/http-based-kafka-messaging-with-red-hat-amq-streams)
 - [blog.jromanmartin.io: How to upgrade Strimzi Operator using the CLI](https://blog.jromanmartin.io/2020/09/25/how-upgrade-strimzi-operator.html)
 
 <center markdown="1">
@@ -559,7 +559,7 @@ Red Hat AMQ 7|JBoss AMQ 7 (Broker) or Red Hat AMQ 7 Suite|Apache ActiveMQ Artemi
 
 ## eBooks
 
-- [O'Really: Streaming data](http://streamingsystems.net)
+- [O'Really: Streaming data](https://streamingsystems.net)
 
 ## Related
 

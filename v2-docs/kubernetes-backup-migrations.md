@@ -3,6 +3,48 @@
 !!! info "Architectural Context"
     Detailed reference for Kubernetes Backup and Migrations in the context of The Container Stack.
 
+## Table of Contents
+
+1. [Application Migration](#application-migration)
+  - [Modernization](#modernization)
+    - [Enterprise Migration](#enterprise-migration)
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud-Native Migration](#cloud-native-migration)
+  - [Application Modernization](#application-modernization)
+    - [Source-to-Image](#source-to-image)
+1. [Infrastructure](#infrastructure)
+  - [Cluster Management](#cluster-management)
+    - [RKE2](#rke2)
+  - [Control Plane](#control-plane)
+    - [ETCD Administration](#etcd-administration)
+  - [Data Protection](#data-protection)
+    - [Application Consistency](#application-consistency)
+    - [Beginner Guides](#beginner-guides)
+    - [CSI Integration](#csi-integration)
+    - [Database Snapshots](#database-snapshots)
+    - [GitOps Synchronizers](#gitops-synchronizers)
+    - [Industry Analysis](#industry-analysis)
+    - [Kubernetes Backup Operators](#kubernetes-backup-operators)
+    - [Legacy Snapshots](#legacy-snapshots)
+  - [Disaster Recovery](#disaster-recovery)
+    - [Best Practices](#best-practices)
+    - [Industry Analysis](#industry-analysis-1)
+  - [Enterprise Backup](#enterprise-backup)
+    - [Cloud-Native Integration](#cloud-native-integration)
+    - [OpenShift Integration](#openshift-integration)
+    - [Proprietary Platforms](#proprietary-platforms)
+  - [Storage Systems](#storage-systems)
+    - [OpenShift Ecosystem](#openshift-ecosystem)
+    - [Replica Scheduling](#replica-scheduling)
+  - [Workload Mobility](#workload-mobility)
+    - [Migration Toolkits](#migration-toolkits)
+1. [Kubernetes](#kubernetes)
+  - [Data Management](#data-management)
+    - [Backup](#backup)
+    - [Checkpointing API](#checkpointing-api)
+
 ## Application Migration
 
 ### Modernization
@@ -36,20 +78,18 @@
 #### Source-to-Image
 
   - **(2022)** [slideshare.net: Migrating Java JBoss EAP Applications to Kubernetes With' S2I](https://www.slideshare.net/KonveyorIO/migrating-java-jboss-eap-applications-to-kubernetes-with-s2i) 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Presentation outlining migration strategies for porting legacy Java JBoss EAP applications into Red Hat OpenShift/Kubernetes using Source-to-Image (S2I). While S2I remains an enterprise staple in traditional OpenShift pipelines, the industry in 2026 has increasingly shifted toward Cloud Native Buildpacks.
-## Hybrid Cloud and Enterprise
-
-### OpenShift
-
-#### Data Management
-
-  - **(2024)** [**redhat.com: OpenShift Backup and Recovery with Kasten K10**](https://www.redhat.com/es/blog) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A technical guide on integrating Veeam's Kasten K10 platform with Red Hat OpenShift. Demonstrates policy-based automation for backup, disaster recovery, and mobility across multi-tenant clusters while ensuring encrypted volume snapshots.
 ## Infrastructure
 
+### Cluster Management
+
+#### RKE2
+
+  - **(2024)** [RKE2 Standalone Disaster Recovery Guide](https://support.tools/post/rke2-standalone-disaster-recovery) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Critical disaster recovery operational manual targeting RKE2 standalone clusters. Focuses on backup restoration, etcd snapshot recovery, and certificate rotation when cluster management planes fail.
 ### Control Plane
 
 #### ETCD Administration
 
-  - **(2025)** [**github.com/gardener/etcd-backup-restore**](https://github.com/gardener/etcd-backup-restore) <span class='md-tag md-tag--info'>⭐ 329</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Developed under the Gardener project, this agent automates snapshot generation, compression, and synchronization of multi-node ETCD clusters. Continuously writes transactional delta logs to private S3 endpoints.
+  - **(2025)** [**github.com/gardener/etcd-backup-restore**](https://github.com/gardener/etcd-backup-restore) <span class='md-tag md-tag--info'>⭐ 329</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0e9692b3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 8 L 20 8 L 30 10 L 40 2 L 50 12" fill="none" stroke="url(#spark-grad-0e9692b3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Developed under the Gardener project, this agent automates snapshot generation, compression, and synchronization of multi-node ETCD clusters. Continuously writes transactional delta logs to private S3 endpoints.
   - **(2022)** [youtube: Kubernetes.. ETCD Backup and Restore... Very Easy Steps... CKA Exam Tips..](https://www.youtube.com/watch?app=desktop&v=mODkt1OJDew&ab_channel=AlokKumar) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides step-by-step practical walk-throughs targeting control plane security and ETCD maintenance. Focuses on snapshot generation, certificates handling, and standard cluster restoration patterns.
 ### Data Protection
 
@@ -70,7 +110,7 @@
   - **(2021)** [**percona.com: Using Volume Snapshot/Clone in Kubernetes (GKE & Percona Kubernetes Operator for XtraDB Cluster)**](https://www.percona.com/blog/using-volume-snapshot-clone-in-kubernetes) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A technical case study using GKE CSI Volume Snapshots alongside the Percona Operator for MySQL XtraDB. Outlines mechanisms for zero-downtime database point-in-time synchronization and replication strategies.
 #### GitOps Synchronizers
 
-  - **(2023)** [kube-backup: Kubernetes resource state sync to git](https://github.com/pieterlange/kube-backup) <span class='md-tag md-tag--info'>⭐ 493</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Automates Kubernetes resource state replication directly to target Git repositories. This pattern acts as an early architectural precursor to fully fledged declarative GitOps platforms, maintaining a point-in-time configuration ledger.
+  - **(2023)** [kube-backup: Kubernetes resource state sync to git](https://github.com/pieterlange/kube-backup) <span class='md-tag md-tag--info'>⭐ 493</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-631d607c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 9 L 20 6 L 30 7 L 40 9 L 50 10" fill="none" stroke="url(#spark-grad-631d607c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Automates Kubernetes resource state replication directly to target Git repositories. This pattern acts as an early architectural precursor to fully fledged declarative GitOps platforms, maintaining a point-in-time configuration ledger.
 #### Industry Analysis
 
   - **(2022)** [thenewstack.io: K8s Backup and Disaster Recovery Is More Important Than Ever](https://thenewstack.io/k8s-backup-and-disaster-recovery-is-more-important-than-ever) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the growing ransomware threat vectors targeting cloud-native topologies. Explains how mutable container environments require highly distributed, immutable storage targets and separate configuration backups.
@@ -86,14 +126,14 @@
     | [akomljen.com: Kubernetes Backup and Restore with Velero 🌟](https://akomljen.com/kubernetes-backup-and-restore-with-velero) |  | Kubernetes Backup Operators | Markdown | 🌟🌟🌟🌟 |
     | [cloud.redhat.com: Velero Backup and Restore of an Application Using gp2 StorageClass on ROSA](https://www.redhat.com/en/blog/velero-backup-and-restore-of-an-application-using-gp2-storageclass-on-rosa) |  | Kubernetes Backup Operators | Markdown | 🌟🌟🌟🌟 |
 
-  - **(2026)** [==github.com/vmware-tanzu/velero==](https://github.com/velero-io/velero) <span class='md-tag md-tag--info'>⭐ 10062</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Velero is the standard open-source utility for safely backing up and restoring entire Kubernetes cluster structures and persistent volumes. Deeply integrates with both raw cloud APIs and file-level utilities like Kopia and Restic.
+  - **(2026)** [==github.com/vmware-tanzu/velero==](https://github.com/velero-io/velero) <span class='md-tag md-tag--info'>⭐ 10062</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1fef8e38" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 10 L 20 7 L 30 12 L 40 5 L 50 4" fill="none" stroke="url(#spark-grad-1fef8e38)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Velero is the standard open-source utility for safely backing up and restoring entire Kubernetes cluster structures and persistent volumes. Deeply integrates with both raw cloud APIs and file-level utilities like Kopia and Restic.
   - **(2025)** [**k8up.io**](https://k8up.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — K8up uses standard CRD objects to configure high-frequency Restic backups on selected persistent volumes. Offers integrated S3 exports, backup target management, and pruning policies.
-  - **(2024)** [**Stash**](https://github.com/stashed/stash) <span class='md-tag md-tag--info'>⭐ 1416</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An advanced Kubernetes-native operator utilizing Restic underneath to back up stateful persistent volumes. Stash implements native CSI VolumeSnapshot integrations to handle application-consistent recovery processes with automated deduplication.
+  - **(2024)** [**Stash**](https://github.com/stashed/stash) <span class='md-tag md-tag--info'>⭐ 1416</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e454a632" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 4 L 20 11 L 30 9 L 40 13 L 50 2" fill="none" stroke="url(#spark-grad-e454a632)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An advanced Kubernetes-native operator utilizing Restic underneath to back up stateful persistent volumes. Stash implements native CSI VolumeSnapshot integrations to handle application-consistent recovery processes with automated deduplication.
   - **(2021)** [**akomljen.com: Kubernetes Backup and Restore with Velero 🌟**](https://akomljen.com/kubernetes-backup-and-restore-with-velero) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A comprehensive configuration guide explaining how to deploy Velero, provision target S3 object storage adapters, and set up recurring scheduled backups for highly dynamic microservices.
   - **(2021)** [**cloud.redhat.com: Velero Backup and Restore of an Application Using gp2 StorageClass on ROSA**](https://www.redhat.com/en/blog/velero-backup-and-restore-of-an-application-using-gp2-storageclass-on-rosa) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A detailed technical walkthrough describing how to deploy Velero to safeguard stateful applications running on Red Hat OpenShift Service on AWS (ROSA) using AWS gp2 and gp3 storage architectures.
 #### Legacy Snapshots
 
-  - **(2020)** [k8s-snapshots: Automatic Volume Snapshots on Kubernetes](https://github.com/miracle2k/k8s-snapshots) <span class='md-tag md-tag--info'>⭐ 350</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — An early volume snapshotting manager targeting GCE Persistent Disks and AWS EBS volumes inside Kubernetes. It is largely considered legacy, superseded by standardised CSI volume driver capabilities.
+  - **(2020)** [k8s-snapshots: Automatic Volume Snapshots on Kubernetes](https://github.com/miracle2k/k8s-snapshots) <span class='md-tag md-tag--info'>⭐ 350</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2db3f986" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 12 L 20 12 L 30 11 L 40 3 L 50 12" fill="none" stroke="url(#spark-grad-2db3f986)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — An early volume snapshotting manager targeting GCE Persistent Disks and AWS EBS volumes inside Kubernetes. It is largely considered legacy, superseded by standardised CSI volume driver capabilities.
 ### Disaster Recovery
 
 #### Best Practices
@@ -105,6 +145,9 @@
   - **(2021)** [thenewstack.io: Cloud Native Backups, Disaster Recovery and Migrations on Kubernetes](https://thenewstack.io/cloud-native-backups-disaster-recovery-and-migrations-on-kubernetes) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines structural paradigm shifts from VM-level backups to container-native, application-aware snapshots inside Kubernetes. Outlines how to decouple configuration matrices from underlying persistent storage objects for scalable restoration.
 ### Enterprise Backup
 
+#### Cloud-Native Integration
+
+  - **(2021)** [**cloud.google.com: Announcing Backup for GKE: the easiest way to protect GKE workloads**](https://cloud.google.com/blog/products/storage-data-transfer/google-cloud-launches-backups-for-gke) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An announcement introducing Backup for GKE, a fully-managed Google Cloud service for GKE environments. Operates via the GCP API control plane to restore configurations and storage elements natively.
 #### OpenShift Integration
 
   - **(2020)** [aithority.com: Bacula Systems Announces World’s First Enterprise-Class Backup and Recovery Solution for Red Hat OpenShift](https://aithority.com/it-and-devops/cloud/bacula-systems-announces-worlds-first-enterprise-class-backup-and-recovery-solution-for-red-hat-openshift) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the integration of Bacula's backup engines within Red Hat OpenShift clusters. Offers direct bare-metal and hybrid-cloud state serialization and disaster recovery procedures compatible with traditional SANs.
@@ -135,7 +178,7 @@
   - **(2021)** [blocksandfiles.com: Red Hat OpenShift now does container storage backup 🌟](https://www.blocksandfiles.com/container-storage/2021/01/27/red-hat-openshift-now-does-container-storage-backup/1611166) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry report outlining Red Hat OpenShift's container storage data protection upgrades. Evaluates backup orchestration solutions addressing scale constraints in multi-tenant enterprise data pools.
 #### Replica Scheduling
 
-  - **(2021)** [**longhorn issue: Move replica to a different server**](https://github.com/longhorn/longhorn/issues/292) <span class='md-tag md-tag--info'>⭐ 7785</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A critical technical discussion dealing with manual scheduling, evacuation, and relocation patterns for Longhorn storage replicas. Serves as an operational guide for maintaining state synchronization across multi-node topologies.
+  - **(2021)** [**longhorn issue: Move replica to a different server**](https://github.com/longhorn/longhorn/issues/292) <span class='md-tag md-tag--info'>⭐ 7785</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2b7ae06c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 5 L 20 11 L 30 8 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-2b7ae06c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A critical technical discussion dealing with manual scheduling, evacuation, and relocation patterns for Longhorn storage replicas. Serves as an operational guide for maintaining state synchronization across multi-node topologies.
 ### Workload Mobility
 
 #### Migration Toolkits
@@ -151,13 +194,13 @@
     | [youtube: Crane 2 Preview: Introduction and Demo](https://www.youtube.com/watch?v=esIZS7PVrvs&ab_channel=Konveyor) |  | Migration Toolkits | Bash | 🌟🌟🌟 |
 
   - **(2025)** [**github.com/konveyor 🌟**](https://github.com/konveyor) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An open-source modernization and migration suite designed to analyze, refactor, and migrate complex application workloads to Kubernetes across multiple physical and cloud ecosystems.
-  - **(2024)** [**github.com/konveyor/crane: Crane 2.0 🌟**](https://github.com/migtools/crane) <span class='md-tag md-tag--info'>⭐ 54</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Crane 2.0 provides continuous state synchronization, target resource modifications, and mock-run configurations to assist operators with real-time Kubernetes cluster replatforming campaigns.
+  - **(2024)** [**github.com/konveyor/crane: Crane 2.0 🌟**](https://github.com/migtools/crane) <span class='md-tag md-tag--info'>⭐ 54</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-552f272c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 5 L 20 6 L 30 5 L 40 10 L 50 11" fill="none" stroke="url(#spark-grad-552f272c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Crane 2.0 provides continuous state synchronization, target resource modifications, and mock-run configurations to assist operators with real-time Kubernetes cluster replatforming campaigns.
   - **(2022)** [**kubebyexample.com: Migrating to Kubernetes with Open Source Tools (Konveyor, Tackle, KubeVirt, Forklift) 🌟**](https://kubebyexample.com/community/blog/migrating-to-kubernetes-with-open-source-tools) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A detailed community report detailing the deployment profiles of Konveyor, Tackle, KubeVirt, and Forklift. Walks through translating legacy application profiles into clean Kubernetes blueprints.
   - **(2021)** [**containerjournal.com: Red Hat, IBM Launch Konveyor to Aggregate Kubernetes Tools**](https://cloudnativenow.com/features/red-hat-ibm-launch-konveyor-to-aggregate-kubernetes-tools) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Announces the launch of the Konveyor community workspace, bringing together migration tools under a single framework backed by Red Hat and IBM to facilitate migration paths into Kubernetes.
   - **(2021)** [youtube: Crane 2 Preview: Introduction and Demo](https://www.youtube.com/watch?v=esIZS7PVrvs&ab_channel=Konveyor) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical walk-through demonstrating Crane's core architecture. Highlights dynamic resource mapping, metadata updates, and persistent volume sync during migration windows.
 ## Kubernetes
 
-### Data Management (1)
+### Data Management
 
 #### Backup
 
@@ -167,5 +210,5 @@
   - **(2022)** [martinheinz.dev: Backup-and-Restore of Containers with Kubernetes Checkpointing API](https://martinheinz.dev/blog/85) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> — The Kubernetes Checkpointing API introduces the revolutionary ability to freeze and snapshot a running container's state to disk for backup or migration purposes. This technical analysis demonstrates how to leverage this API to capture memory-level states, enabling ultra-fast recovery and deep forensics of active workloads. However, as of 2026, this feature remains highly experimental and runtime-dependent.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
+💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Kubernetes Client Libraries](./kubernetes-client-libraries.md)
 

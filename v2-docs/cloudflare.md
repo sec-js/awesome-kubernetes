@@ -3,6 +3,23 @@
 !!! info "Architectural Context"
     Detailed reference for Cloudflare Public Cloud in the context of Networking & Service Mesh.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Infrastructure](#cloud-infrastructure)
+  - [Edge Network](#edge-network)
+    - [Performance](#performance)
+    - [Security](#security)
+  - [Kubernetes Security](#kubernetes-security)
+    - [Zero Trust](#zero-trust)
+  - [Networking](#networking)
+    - [Email Security](#email-security)
+    - [Zero Trust](#zero-trust-1)
+  - [Serverless](#serverless)
+    - [Edge Computing](#edge-computing)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -40,5 +57,5 @@
   - **(2026)** [Cloudflare workers (Serverless)](https://workers.cloudflare.com) <span class='md-tag md-tag--warning'>[JAVASCRIPT/WEBASSEMBLY CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Cloudflare Workers is an advanced serverless architecture utilizing V8 engine isolates. It runs application code directly at global edge locations, yielding near-zero cold-start overhead.
 
 ---
-💡 **Explore Related:** [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md) | [Networking](./networking.md)
+💡 **Explore Related:** [Web Servers](./web-servers.md) | [Caching](./caching.md) | [Kubernetes Networking](./kubernetes-networking.md)
 

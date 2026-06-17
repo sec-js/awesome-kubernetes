@@ -3,6 +3,49 @@
 !!! info "Architectural Context"
     Detailed reference for Maven, Gradle & SDKMAN in the context of Developer Ecosystem.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Build Systems](#build-systems)
+  - [JVM Ecosystem](#jvm-ecosystem)
+    - [Apache Maven](#apache-maven)
+    - [Apache Maven Standards](#apache-maven-standards)
+    - [Build Daemon Optimization](#build-daemon-optimization)
+    - [Community Channels](#community-channels)
+    - [Comparative Analysis](#comparative-analysis)
+    - [Container Packaging](#container-packaging)
+    - [Framework Evolution](#framework-evolution)
+    - [Plugin Deep Dives](#plugin-deep-dives)
+    - [Project Templating](#project-templating)
+    - [Release and Reporting Plugins](#release-and-reporting-plugins)
+    - [Security and Code Quality](#security-and-code-quality)
+    - [Testing Frameworks](#testing-frameworks)
+    - [Tutorials and Guides](#tutorials-and-guides)
+1. [Cloud Providers](#cloud-providers)
+  - [OpenShift and RedHat](#openshift-and-redhat)
+    - [JVM Deployment Patterns](#jvm-deployment-patterns)
+1. [Cloud-Native Java](#cloud-native-java)
+  - [Build Tools](#build-tools)
+    - [Eclipse JKube](#eclipse-jkube)
+      - [Overview](#overview)
+      - [Release Notes](#release-notes)
+      - [Source Code](#source-code)
+  - [Package Management](#package-management)
+    - [JitPack](#jitpack)
+  - [Scripting](#scripting)
+    - [JBang](#jbang)
+1. [DevOps](#devops)
+  - [Build Tools](#build-tools-1)
+    - [Gradle](#gradle)
+      - [Documentation](#documentation)
+      - [Historical Perspective](#historical-perspective)
+1. [Developer Productivity](#developer-productivity)
+  - [IDE Integrations](#ide-integrations)
+    - [IntelliJ IDEA](#intellij-idea)
+    - [VS Code Java](#vs-code-java)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -43,7 +86,7 @@
   - **(2026)** [==maven.apache.org: Introduction to the Standard Directory Layout==](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official specifications detailing the Maven Standard Directory Layout. Establishing highly rigid, predictable folder hierarchies ensures seamless code compilation and compilation reproducibility without custom config overrides.
 #### Build Daemon Optimization
 
-  - **(2025)** [==apache/maven-mvnd==](https://github.com/apache/maven-mvnd) <span class='md-tag md-tag--info'>⭐ 3428</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Apache Maven Daemon repository. Drastically reduces compilation overhead by utilizing persistent background execution processes to store compiler hot-spots and plugin contexts.
+  - **(2025)** [==apache/maven-mvnd==](https://github.com/apache/maven-mvnd) <span class='md-tag md-tag--info'>⭐ 3428</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-05f7dab3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 5 L 20 5 L 30 5 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-05f7dab3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Apache Maven Daemon repository. Drastically reduces compilation overhead by utilizing persistent background execution processes to store compiler hot-spots and plugin contexts.
 #### Community Channels
 
   - **(2026)** [twitter.com/ASFMavenProject: The official twitter feed of the Apache Maven Project](https://x.com/ASFMavenProject) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official communication channel for the Apache Maven Project, offering real-time announcements, plugin version updates, and core framework security alerts to the broader developer community.
@@ -54,7 +97,7 @@
 #### Container Packaging
 
   - **(2020)** [**ashishtechmill.com: Demystifying Google Container Tool Jib: Java Image Builder**](https://www.ashishtechmill.com/demystifying-google-container-tool-jib-java-image-builder) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Detailed technical guide analyzing Google's Jib, an innovative containerization tool that builds Docker/OCI-compliant images for JVM applications without requiring a local Docker daemon.
-  - **(2020)** [**docker-maven-plugin**](https://github.com/fabric8io/docker-maven-plugin) <span class='md-tag md-tag--info'>⭐ 1929</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Fabric8's highly reliable Maven integration for containerization management. Lets developers orchestrate builds and container tests within pom.xml execution blocks; however, users are increasingly transitioning to Eclipse JKube for modern Cloud-Native orchestration patterns.
+  - **(2020)** [**docker-maven-plugin**](https://github.com/fabric8io/docker-maven-plugin) <span class='md-tag md-tag--info'>⭐ 1929</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f833bb7d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 8 L 20 12 L 30 11 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-f833bb7d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Fabric8's highly reliable Maven integration for containerization management. Lets developers orchestrate builds and container tests within pom.xml execution blocks; however, users are increasingly transitioning to Eclipse JKube for modern Cloud-Native orchestration patterns.
 #### Framework Evolution
 
   - **(2020)** [maarten.mulders.it: What's New in Maven 4](https://maarten.mulders.it/2020/11/whats-new-in-maven-4) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep technical review covering the core architectural changes introduced in Apache Maven 4, emphasizing the split between build and consumer POM configurations and lifecycle optimization.
@@ -101,7 +144,7 @@
   - **(2021)** [blog.marcnuri.com: Eclipse JKube 1.4.0 is now available!](https://blog.marcnuri.com/eclipse-jkube-1-4-0) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An update detailing features and improvements delivered in Eclipse JKube 1.4.0. Live Grounding indicates that updates like 1.4.0 stabilized multi-platform image generation capabilities and introduced robust handling of custom Helm charts and manifest validation rules.
 ##### Source Code
 
-  - **(2020)** [**GitHub: Eclipse JKube**](https://github.com/eclipse-jkube/jkube) <span class='md-tag md-tag--info'>⭐ 849</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The active GitHub repository for Eclipse JKube, housing Maven/Gradle plugins, extensions, and core libraries. Live Grounding indicates robust ongoing community support, enabling local resource generation, deployment, and hot-swapping inside active clusters. The project is crucial for bridging the gap between standard Java compilation and Kubernetes runtimes.
+  - **(2020)** [**GitHub: Eclipse JKube**](https://github.com/eclipse-jkube/jkube) <span class='md-tag md-tag--info'>⭐ 849</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2dc7ec48" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 13 L 20 4 L 30 5 L 40 12 L 50 6" fill="none" stroke="url(#spark-grad-2dc7ec48)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The active GitHub repository for Eclipse JKube, housing Maven/Gradle plugins, extensions, and core libraries. Live Grounding indicates robust ongoing community support, enabling local resource generation, deployment, and hot-swapping inside active clusters. The project is crucial for bridging the gap between standard Java compilation and Kubernetes runtimes.
 ### Package Management
 
 #### JitPack
@@ -138,5 +181,5 @@
   - **(2026)** [**code.visualstudio.com: Java Project Management in VS Code**](https://code.visualstudio.com/docs/java/java-project) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Guide on setting up VS Code for enterprise Java development. Showcases full integration with Apache Maven, offering seamless debugging, project dependency visualization, and execution pipelines.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
+💡 **Explore Related:** [Angular](./angular.md) | [Python](./python.md) | [Dom](./dom.md)
 

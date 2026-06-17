@@ -3,6 +3,88 @@
 !!! info "Architectural Context"
     Detailed reference for Serverless Architectures and Frameworks in the context of The Container Stack.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Architecture Decisions](#architecture-decisions)
+  - [Comparisons](#comparisons)
+    - [Containers vs Serverless](#containers-vs-serverless)
+    - [Kubernetes vs Serverless](#kubernetes-vs-serverless)
+    - [Microservices vs Serverless](#microservices-vs-serverless)
+1. [Cloud Architecture](#cloud-architecture)
+  - [AWS Solutions](#aws-solutions)
+    - [Orchestration Decision](#orchestration-decision)
+  - [Comparative Systems](#comparative-systems)
+    - [Industry Trends](#industry-trends)
+    - [Microservices Strategy](#microservices-strategy)
+    - [Scalability](#scalability)
+  - [Serverless](#serverless)
+    - [Event-Driven Systems](#event-driven-systems)
+    - [Fundamentals](#fundamentals)
+    - [Migration Patterns](#migration-patterns)
+    - [Operational Cost](#operational-cost)
+1. [Cloud Native](#cloud-native)
+  - [FaaS Basics](#faas-basics)
+    - [Definitions](#definitions)
+  - [Kubernetes Serverless](#kubernetes-serverless)
+    - [Apache OpenWhisk](#apache-openwhisk)
+    - [Framework Comparisons](#framework-comparisons)
+    - [Knative](#knative)
+    - [Knative Tooling](#knative-tooling)
+    - [Knative and API Gateways](#knative-and-api-gateways)
+    - [OpenFaaS](#openfaas)
+    - [OpenFunction](#openfunction)
+  - [Microservice Runtimes](#microservice-runtimes)
+    - [Dapr](#dapr)
+  - [Serverless](#serverless-1)
+    - [Advanced Best Practices](#advanced-best-practices)
+    - [Anti-patterns](#anti-patterns)
+    - [CI-CD](#ci-cd)
+    - [Case Studies](#case-studies)
+    - [Design Patterns](#design-patterns)
+    - [Ecosystem Landscapes](#ecosystem-landscapes)
+    - [Enterprise Strategy](#enterprise-strategy)
+    - [Operational Guides](#operational-guides)
+    - [Scaling Paradigms](#scaling-paradigms)
+    - [Visual Architectures](#visual-architectures)
+  - [Serverless Platforms](#serverless-platforms)
+    - [Azure Functions](#azure-functions)
+    - [Cost Optimization](#cost-optimization)
+    - [Frameworks](#frameworks)
+1. [Cloud-Native](#cloud-native)
+  - [Application Runtime](#application-runtime)
+    - [Dapr](#dapr-1)
+    - [Dapr Deployment](#dapr-deployment)
+  - [Orchestration and Workflow](#orchestration-and-workflow)
+    - [Dapr Workflows](#dapr-workflows)
+  - [Serverless](#serverless-2)
+    - [AWS Integration](#aws-integration)
+    - [Event-Driven](#event-driven)
+1. [Enterprise Kubernetes](#enterprise-kubernetes)
+  - [OpenShift](#openshift)
+    - [OpenShift Serverless](#openshift-serverless)
+    - [OpenShift Serverless Integration](#openshift-serverless-integration)
+    - [Serverless Workflows](#serverless-workflows)
+1. [Event Driven Architecture](#event-driven-architecture)
+  - [Data Processing](#data-processing)
+    - [Batch vs Streaming](#batch-vs-streaming)
+  - [Design Patterns](#design-patterns-1)
+    - [Enterprise Integration Patterns](#enterprise-integration-patterns)
+  - [Fundamentals](#fundamentals-1)
+    - [Concepts](#concepts)
+    - [Visuals](#visuals)
+1. [FinOps and Cloud Cost](#finops-and-cloud-cost)
+  - [Azure Optimization](#azure-optimization)
+    - [Serverless](#serverless-3)
+1. [Infrastructure as Code](#infrastructure-as-code)
+  - [Serverless Integration](#serverless-integration)
+    - [Hybrid Automation](#hybrid-automation)
+1. [Kubernetes](#kubernetes)
+  - [Tooling](#tooling)
+    - [Deployment Tools](#deployment-tools)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -10,7 +92,6 @@
 #### General Reference
 
   - [developers.redhat.com: Serverless Architecture](https://developers.redhat.com/topics/serverless-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering developers.redhat.com: Serverless Architecture in the Kubernetes Tools ecosystem.
-  - [Docker for LLMs](https://www.docker.com/llm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Docker for LLMs in the Kubernetes Tools ecosystem.
   - [medium: What a typical 100% Serverless Architecture looks like in AWS!](https://medium.com/serverless-transformation/what-a-typical-100-serverless-architecture-looks-like-in-aws-40f252cd0ecb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: What a typical 100% Serverless Architecture looks like in AWS! in the Kubernetes Tools ecosystem.
   - [dzone: Implementing Serverless Microservices Architecture on AWS](https://dzone.com/articles/implementing-serverless-microservices-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Implementing Serverless Microservices Architecture on AWS in the Kubernetes Tools ecosystem.
   - [vimal-dwarampudi.medium.com: Serverless Architecture design on major clouds](https://vimal-dwarampudi.medium.com/serverless-architecture-design-on-major-clouds-8c53c2aa62d2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering vimal-dwarampudi.medium.com: Serverless Architecture design on major clouds in the Kubernetes Tools ecosystem.
@@ -22,6 +103,7 @@
   - [oliverjumpertz.medium.com: Serverless vs. Kubernetes](https://oliverjumpertz.medium.com/serverless-vs-kubernetes-58b0b387dc98)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering oliverjumpertz.medium.com: Serverless vs. Kubernetes in the Kubernetes Tools ecosystem.
   - [wikipedia: FaaS Function as a Service](https://en.wikipedia.org/wiki/Function_as_a_service)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering wikipedia: FaaS Function as a Service in the Kubernetes Tools ecosystem.
   - [fauna.com: How does FaaS compare to PaaS and CaaS. A Comparison of Serverless' Function (FaaS) Providers](https://fauna.com/blog/comparison-faas-providers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering fauna.com: How does FaaS compare to PaaS and CaaS. A Comparison of Serverless' Function (FaaS) Providers in the Kubernetes Tools ecosystem.
+  - [Docker for LLMs](https://www.docker.com/llm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Docker for LLMs in the Kubernetes Tools ecosystem.
   - [magalix.com: Implementing FaaS in Kubernetes Using Kubeless](https://www.magalix.com/blog/implementing-faas-in-kubernetes-using-kubeless)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering magalix.com: Implementing FaaS in Kubernetes Using Kubeless in the Kubernetes Tools ecosystem.
   - [kubeless.io](https://kubeless.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering kubeless.io in the Kubernetes Tools ecosystem.
   - [medium.com: Serverless - Build a Serverless Simple Flask Application with' Kubeless on top of Kubernetes](https://medium.com/@peiruwang/serverless-build-a-serverless-simple-flask-application-with-kubeless-on-top-of-kubernetes-95c6682c3750)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com: Serverless - Build a Serverless Simple Flask Application with' Kubeless on top of Kubernetes in the Kubernetes Tools ecosystem.
@@ -74,13 +156,6 @@
 #### Operational Cost
 
   - **(2020)** [freecodecamp.org: Serverless is cheaper, not simpler](https://www.freecodecamp.org/news/serverless-is-cheaper-not-simpler-a10c4fc30e49)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Challenges the popular industry narrative that serverless frameworks simplify system designs. While highlighting significant cost reductions, this case study warns about the operational complexities of distributed event routing, IAM configuration boundaries, and cold start mitigations.
-## Cloud Infrastructure and Orchestration
-
-### Serverless Architecture
-
-#### Case Studies
-
-  - **(2021)** [ServerlessHorrors: A Web Compiling Nightmares in the Serverless World](https://revistacloud.com/serverlesshorrors-la-web-que-recoge-las-peores-pesadillas-del-mundo-serverless) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A catalog documenting real-world runtime failures, billing anomalies, database connection exhaustion, cold start latency bottlenecks, and unexpected vendor configurations within modern serverless cloud setups.
 ## Cloud Native
 
 ### FaaS Basics
@@ -102,9 +177,11 @@
 #### Knative
 
   - **(2026)** [==knative.dev==](https://knative.dev) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier Kubernetes-native platform for serverless workloads. Offers enterprise-grade Serving (scale-to-zero, request-driven autoscaling) and highly decoupled Eventing models.
+  - **(2021)** [**redhat.com: What is knative?**](https://www.redhat.com/en/topics/microservices/what-is-knative) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Red Hat's baseline structural review of Knative, mapping its internal serving controllers, ingress routes, and cluster event models for enterprise operators.
+  - **(2020)** [**datacenterknowledge.com: Explaining Knative, the Project to Liberate Serverless from Cloud Giants**](https://www.datacenterknowledge.com/servers/explaining-knative-the-project-to-liberate-serverless-from-cloud-giants) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Examines Knative's industry goal of creating an open, pluggable platform layer that frees enterprise organizations from public cloud vendor lock-in.
 #### Knative Tooling
 
-  - **(2026)** [**kn: knative client**](https://github.com/knative/client) <span class='md-tag md-tag--info'>⭐ 385</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The official CLI client ('kn') for interacting with Knative installations, enabling rapid deployment of serving entities and management of decoupled event bindings.
+  - **(2026)** [**kn: knative client**](https://github.com/knative/client) <span class='md-tag md-tag--info'>⭐ 385</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6d255076" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 5 L 20 12 L 30 11 L 40 3 L 50 8" fill="none" stroke="url(#spark-grad-6d255076)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The official CLI client ('kn') for interacting with Knative installations, enabling rapid deployment of serving entities and management of decoupled event bindings.
 #### Knative and API Gateways
 
   - **(2021)** [**dev.to: FaaS on Kubernetes: From AWS Lambda & API Gateway To Knative & Kong API Gateway**](https://dev.to/pmbanugo/faas-on-kubernetes-from-aws-lambda-api-gateway-to-knative-kong-api-gateway-4n84) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Practical technical demonstration outlining how to replicate proprietary cloud FaaS configurations by using open components like Knative and Kong API Gateway inside a Kubernetes cluster.
@@ -116,12 +193,11 @@
   - **(2021)** [xenonstack.com: Serverless Architecture with OpenFaaS and Java](https://www.xenonstack.com/blog/serverless-open-faas-java) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Evaluates using JVM workloads within OpenFaaS, detailing compilation strategies, framework footprint reduction, and optimizing startup latency for container pods.
 #### OpenFunction
 
-  - **(2026)** [**OpenFunction: Cloud Native Function-as-a-Service Platform (CNCF Sandbox' Project)**](https://github.com/OpenFunction/OpenFunction) <span class='md-tag md-tag--info'>⭐ 1655</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A CNCF Sandbox project delivering an enterprise-grade cloud-native FaaS runtime. Integrates Knative, Shipwright, Dapr, and KEDA components to simplify polyglot development pipelines.
+  - **(2026)** [**OpenFunction: Cloud Native Function-as-a-Service Platform (CNCF Sandbox' Project)**](https://github.com/OpenFunction/OpenFunction) <span class='md-tag md-tag--info'>⭐ 1655</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a321efd8" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 4 L 20 6 L 30 12 L 40 8 L 50 4" fill="none" stroke="url(#spark-grad-a321efd8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A CNCF Sandbox project delivering an enterprise-grade cloud-native FaaS runtime. Integrates Knative, Shipwright, Dapr, and KEDA components to simplify polyglot development pipelines.
 ### Microservice Runtimes
 
 #### Dapr
 
-  - **(2026)** [==Dapr==](https://dapr.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The Distributed Application Runtime. Employs a highly modular sidecar design to deliver developer-focused APIs for pub/sub messaging, state management, and actor models.
   - **(2022)** [**Building microservices? Give Dapr a try**](https://www.infoworld.com/article/2261795/building-microservices-give-dapr-a-try.html) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A deep analysis of Dapr's capabilities, detailing how its service abstraction layer accelerates microservice software delivery while avoiding tight coupling to infrastructure providers.
 ### Serverless (1)
 
@@ -134,7 +210,7 @@
 #### CI-CD
 
   - **(2019)** [**theburningmonk.com: Why you should use ephemeral environments when you do serverless**](https://theburningmonk.com/2019/09/why-you-should-use-temporary-stacks-when-you-do-serverless) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Recommends utilizing ephemeral stack deployments per developer or pull request. Highlights how to leverage zero-marginal-cost resource provisioning characteristics of cloud serverless.
-#### Case Studies (1)
+#### Case Studies
 
   - **(2022)** [**thenewstack.io: How Daily.Dev Built a Low-Budget Serverless Scraping Pipeline for Online Articles**](https://thenewstack.io/how-daily-dev-built-a-low-budget-serverless-scraping-pipeline-for-online-articles) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Details how daily.dev constructed a cost-efficient article parsing ecosystem by combining serverless scraping pipelines, queue storage, and ephemeral container tasks.
   - **(2020)** [**dashbird.io: Serverless Case Study – Coca-Cola**](https://dashbird.io/blog/serverless-case-study-coca-cola) <span class='md-tag md-tag--primary'>[CASE STUDY]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A key industrial case study tracking how Coca-Cola migrated critical transaction systems to serverless, noting immense scale capacity and severe operational cost savings.
@@ -182,7 +258,7 @@
 
 #### Dapr Workflows
 
-  - **(2023)** [**github.com/diagrid-labs/dapr-workflow-demos**](https://github.com/diagrid-labs/dapr-workflow-demos) <span class='md-tag md-tag--info'>⭐ 62</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Repository showcasing the capabilities of the Dapr Workflow engine, enabling developers to build stateful orchestrations directly in application code. Curator insights point out its lightweight nature compared to heavy workflow engines. Live 2026 validation indicates Dapr Workflow is widely deployed for low-latency orchestrations.
+  - **(2023)** [**github.com/diagrid-labs/dapr-workflow-demos**](https://github.com/diagrid-labs/dapr-workflow-demos) <span class='md-tag md-tag--info'>⭐ 62</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6de5abde" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 6 L 20 6 L 30 9 L 40 5 L 50 13" fill="none" stroke="url(#spark-grad-6de5abde)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Repository showcasing the capabilities of the Dapr Workflow engine, enabling developers to build stateful orchestrations directly in application code. Curator insights point out its lightweight nature compared to heavy workflow engines. Live 2026 validation indicates Dapr Workflow is widely deployed for low-latency orchestrations.
 ### Serverless (2)
 
 #### AWS Integration
@@ -197,6 +273,7 @@
 
 #### OpenShift Serverless
 
+  - **(2026)** [==OpenShift Serverless==](https://www.redhat.com/en/technologies/cloud-computing/openshift/serverless) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Red Hat's production-hardened Knative integration. Provides out-of-the-box scale-to-zero capabilities, event routing, and secure cluster integration under the OpenShift console.
   - **(2021)** [**openshift.com: Why and When you need to consider OpenShift Serverless**](https://www.redhat.com/en/blog/why-and-when-you-need-to-consider-openshift-serverless) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Analytically presents key decision variables for deploying OpenShift Serverless, highlighting resource cost reductions, pod auto-scaling, and cluster efficiency.
 #### OpenShift Serverless Integration
 
@@ -247,5 +324,5 @@
   - **(2021)** [**itnext.io: **arkade** by example — Kubernetes apps, the easy way 🌟**](https://itnext.io/kubernetes-apps-the-easy-way-f06d9e5cad3c) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Introduces arkade, a lightning-fast application installer for Kubernetes. Simplifies cluster bootstrap setups by deploying tools like OpenFaaS or cert-manager with one-line commands.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
+💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Kubernetes Client Libraries](./kubernetes-client-libraries.md)
 

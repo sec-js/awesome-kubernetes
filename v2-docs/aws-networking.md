@@ -3,6 +3,69 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Networking in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Infrastructure](#cloud-infrastructure)
+  - [AWS](#aws)
+    - [API Gateway](#api-gateway)
+      - [Architecture](#architecture)
+      - [Cross-Account Patterns](#cross-account-patterns)
+    - [Architecture Best Practices](#architecture-best-practices)
+    - [CDN](#cdn)
+      - [CloudFront](#cloudfront)
+      - [Edge Security](#edge-security)
+    - [DNS and Domain Management](#dns-and-domain-management)
+      - [Route 53](#route-53)
+    - [Direct Connect](#direct-connect)
+      - [BGP Routing](#bgp-routing)
+    - [EC2 Networking](#ec2-networking)
+      - [ENA](#ena)
+    - [IP Range Utilities](#ip-range-utilities)
+    - [Kubernetes Networking](#kubernetes-networking)
+      - [Controllers](#controllers)
+    - [Load Balancing](#load-balancing)
+      - [Announcements](#announcements)
+      - [Application Load Balancer](#application-load-balancer)
+      - [Configuration Updates](#configuration-updates)
+      - [Deep Dive](#deep-dive)
+      - [Documentation](#documentation)
+      - [Network Load Balancer](#network-load-balancer)
+      - [Serverless Integration](#serverless-integration)
+    - [Network Management](#network-management)
+    - [Networking Concepts](#networking-concepts)
+    - [Networking Pitfalls](#networking-pitfalls)
+    - [Networking Tutorials](#networking-tutorials)
+    - [Performance Optimization](#performance-optimization)
+    - [RDS](#rds)
+      - [VPC Integration](#vpc-integration)
+    - [Remote Access VPN](#remote-access-vpn)
+    - [Reverse Proxy](#reverse-proxy)
+      - [NGINX Plus](#nginx-plus)
+    - [Security](#security)
+      - [DDoS Resiliency](#ddos-resiliency)
+      - [EC2 Connect](#ec2-connect)
+      - [Gateway Load Balancer](#gateway-load-balancer)
+      - [WAF](#waf)
+    - [VPC](#vpc)
+      - [CLI Administration](#cli-administration)
+      - [Fundamentals](#fundamentals)
+      - [VPC Endpoints](#vpc-endpoints)
+    - [VPC Architecture](#vpc-architecture)
+    - [VPN and Overlay Networks](#vpn-and-overlay-networks)
+      - [Tailscale](#tailscale)
+  - [Azure Networking](#azure-networking)
+    - [Hybrid Connectivity](#hybrid-connectivity)
+1. [Networking](#networking)
+  - [Performance](#performance)
+    - [Diagnostics](#diagnostics)
+1. [Software Engineering](#software-engineering)
+  - [Deployment Patterns](#deployment-patterns)
+    - [Blue-Green](#blue-green)
+      - [ALB](#alb)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -63,7 +126,7 @@
   - **(2016)** [Elastic Network Adapter](https://aws.amazon.com/blogs/aws/elastic-network-adapter-high-performance-network-interface-for-amazon-ec2) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the high-performance ENA interface designed for AWS EC2 instances. Live architectures rely heavily on ENA for low-latency network performance and SR-IOV-enabled network virtualization up to 100 Gbps. Crucial for understanding network throughput bottlenecks in heavy database and distributed systems workloads.
 #### IP Range Utilities
 
-  - **(2018)** [github.com/seligman/aws-ip-ranges: AWS's ip-ranges.json](https://github.com/seligman/aws-ip-ranges) <span class='md-tag md-tag--info'>⭐ 286</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A vital open-source parser designed to track dynamic AWS IP range changes from ip-ranges.json. Essential for configuring robust hybrid on-premises firewalls and programmatic security rules. Modern setups frequently replace manual parsing with AWS Managed Prefix Lists, rendering manual scripts legacy but historically significant.
+  - **(2018)** [github.com/seligman/aws-ip-ranges: AWS's ip-ranges.json](https://github.com/seligman/aws-ip-ranges) <span class='md-tag md-tag--info'>⭐ 286</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-51d1c97d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 5 L 20 8 L 30 8 L 40 5 L 50 13" fill="none" stroke="url(#spark-grad-51d1c97d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A vital open-source parser designed to track dynamic AWS IP range changes from ip-ranges.json. Essential for configuring robust hybrid on-premises firewalls and programmatic security rules. Modern setups frequently replace manual parsing with AWS Managed Prefix Lists, rendering manual scripts legacy but historically significant.
 #### Kubernetes Networking
 
 ##### Controllers
@@ -178,5 +241,5 @@
   - **(2021)** [Fine-tuning blue/green deployments on application load balancer](https://aws.amazon.com/blogs/devops/blue-green-deployments-with-application-load-balancer) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on ALB's advanced routing capabilities to orchestrate safe blue/green deployments by shifting traffic percentages between target groups. A crucial operational pattern for continuous delivery pipelines, minimizing deployment blast radius.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md)
 

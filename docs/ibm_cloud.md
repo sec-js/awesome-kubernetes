@@ -57,7 +57,7 @@
 ### IBM Storage for Red Hat OpenShift. IBM Spectrum Storage Suite
 
 - [IBM Spectrum](https://www.ibm.com/solutions) IBM Spectrum Storage software for data-driven architecture. A complete storage software family with AI-infused capability that changes the economics of storage on-prem and in the hybrid multicloud.
-- [redbooks.ibm.com: IBM Storage for Red Hat OpenShift. IBM block storage & IBM Spectrum Scale](http://www.redbooks.ibm.com/abstracts/redp5565.html)
+- [redbooks.ibm.com: IBM Storage for Red Hat OpenShift. IBM block storage & IBM Spectrum Scale](https://www.redbooks.ibm.com/abstracts/redp5565.html)
 
 ## IBM Cloud Paks and OpenShift
   - [IBM Vault 2.0 UI Enhancements and Reporting Improvements](https://t.co/cvOceuueCF) - This update to IBM Vault 2.0 focuses on improving the user interface for better feature discoverability and product usability. It also includes reporting enhancements to provide greater transparency and support for forecasting.

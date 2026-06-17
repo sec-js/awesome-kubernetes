@@ -3,6 +3,31 @@
 !!! info "Architectural Context"
     Detailed reference for AWS IaC in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Computing](#cloud-computing)
+  - [AWS](#aws)
+    - [Infrastructure as Code](#infrastructure-as-code)
+1. [Infrastructure as Code](#infrastructure-as-code-1)
+  - [Automated Generation](#automated-generation)
+    - [AWS Resource Importers](#aws-resource-importers)
+    - [Compute Orchestration](#compute-orchestration)
+    - [Recording Tools](#recording-tools)
+  - [CloudFormation](#cloudformation)
+    - [Automated Generation](#automated-generation-1)
+    - [Compliance and Policy](#compliance-and-policy)
+    - [Criticism and Analysis](#criticism-and-analysis)
+    - [GitOps Integrations](#gitops-integrations)
+    - [Identity and Access Management](#identity-and-access-management)
+    - [Messaging Configuration](#messaging-configuration)
+    - [Pre-commit Hooks](#pre-commit-hooks)
+    - [Registries](#registries)
+    - [Starter Templates](#starter-templates)
+    - [Storage Configuration](#storage-configuration)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -69,5 +94,5 @@
   - **(2022)** [cloudkatha.com: How to Create an S3 Bucket using CloudFormation](https://cloudkatha.com/how-to-create-an-s3-bucket-using-cloudformation) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A foundational tutorial detailing the YAML patterns required to create and lock down basic AWS S3 buckets inside CloudFormation templates. It details parameters for versioning rules, basic access controls, and server-side encryption.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md)
 

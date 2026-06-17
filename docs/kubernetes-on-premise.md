@@ -41,7 +41,7 @@
 ## Comparative Analysis of Kubernetes Deployment Tools
 
 - [A Comparative Analysis of Kubernetes Deployment Tools: Kubespray, kops, and conjure-up](https://www.altoros.com/blog/404-page-doesnt-exist)
-- [wecloudpro.com: Deploy HA kubernetes cluster in AWS in less than 5 minutes](http://wecloudpro.com/2020/01/13/kube-autp-aws.html)
+- [wecloudpro.com: Deploy HA kubernetes cluster in AWS in less than 5 minutes](https://wecloudpro.com/2020/01/13/kube-autp-aws.html)
 
 ## Deploying Kubernetes Cluster with Kops
 

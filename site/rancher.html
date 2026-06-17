@@ -6,19 +6,19 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="A curated list of awesome IT projects and resources. Inspired by the awesome list.">
+        <meta name="description" content="Enterprise-grade curated portal for the modern Cloud Native ecosystem. High-density, AI-driven selection of top-tier resources.">
       
       
         <meta name="author" content="Nubenetes">
       
       
-        <link rel="canonical" href="https://nubenetes.com/rancher.html">
+        <link rel="canonical" href="https://nubenetes.com/v2/rancher.html">
       
       
-        <link rel="prev" href="ocp4.html">
+        <link rel="prev" href="openshift.html">
       
       
-        <link rel="next" href="cicd.html">
+        <link rel="next" href="serverless.html">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>Rancher - Enterprise management for Kubernetes - Nubenetes</title>
+        <title>Rancher - Nubenetes V2 | The AI's Cut</title>
       
     
     
@@ -49,27 +49,21 @@
       
         
         
-        
-        <link rel="stylesheet" href="assets/external/fonts.googleapis.com/css.49ea35f2.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
     
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
+    
       <link rel="stylesheet" href="static/extra.css">
+    
+      <link rel="stylesheet" href="static/v2_elite.css?v=2.3.44">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
-  
-
-
-  
-  
-
-<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config",""),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
-  
-    <script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
-  
 
     
     
@@ -83,7 +77,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="red">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -101,6 +95,10 @@
       
     </div>
     
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
     
       
 
@@ -108,15 +106,10 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="index.html" title="Nubenetes" class="md-header__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href="index.html" title="Nubenetes V2 | The AI&#39;s Cut" class="md-header__button md-logo" aria-label="Nubenetes V2 | The AI's Cut" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
-  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
-  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
-  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
-  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
-</svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -127,13 +120,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Nubenetes
+            Nubenetes V2 | The AI's Cut
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Rancher - Enterprise management for Kubernetes
+              Rancher
             
           </span>
         </div>
@@ -146,20 +139,20 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
     
-      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 1 3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5z"/></svg>
       </label>
     
   
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="light-blue" data-md-color-accent="yellow"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
     
-      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 11c0 5.55-3.84 10.74-9 12-5.16-1.26-9-6.45-9-12V5l9-4 9 4zm-9 10c3.75-1 7-5.46 7-9.78V6.3l-7-3.12L5 6.3v4.92C5 15.54 8.25 20 12 21m-3-6.67c1.76 2.17 5.13 2.24 6.97.07.23-.27.08-.68-.26-.74a4.5 4.5 0 0 1-3.18-2.2 4.5 4.5 0 0 1-.32-3.86.453.453 0 0 0-.51-.6c-3.34.62-4.89 4.61-2.7 7.33"/></svg>
       </label>
     
   
@@ -223,7 +216,7 @@
         <a href="https://github.com/nubenetes/awesome-kubernetes" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     nubenetes/awesome-kubernetes
@@ -245,13 +238,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="https://nubenetes.com/v2/" class="md-tabs__link">
+      <a href="https://nubenetes.com/v1/" class="md-tabs__link">
         
   
   
     
   
-  🚀 Try Nubenetes V2 (Elite Portal)
+  🔙 Back to V1 (Exhaustive)
 
       </a>
     </li>
@@ -270,7 +263,7 @@
   
     
   
-  Home
+  The 2026 Vision
 
       </a>
     </li>
@@ -285,13 +278,13 @@
     
     
       <li class="md-tabs__item">
-        <a href="introduction.html" class="md-tabs__link">
+        <a href="videos/index.html" class="md-tabs__link">
           
   
   
     
   
-  Intro
+  Agentic Video Hub
 
         </a>
       </li>
@@ -307,443 +300,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="sre.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  SRE
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="devops.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  DevOps
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="devsecops.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  DevSecOps
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="noops.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  NoOps
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="docker.html" class="md-tabs__link">
-        
-  
-  
-    
-  
-  Docker
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="kubernetes.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  K8s
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="openshift.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  OpenShift
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-    
-  
-  
-    
-    
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="rancher.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Rancher
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="cicd.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  CI/CD
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="monitoring.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Montrg
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="iac.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Infra Prov
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="ansible.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Config Mgmt
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="databases.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  DB
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="message-queue.html" class="md-tabs__link">
-        
-  
-  
-    
-  
-  Data Pipeline
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="servicemesh.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Service Mesh
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="demos.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Demos
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="public-cloud-solutions.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Cloud
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="api.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  APIs
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="devel-sites.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Dev
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="qa.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  QA
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="ai.html" class="md-tabs__link">
+        <a href="ai-agents-mcp.html" class="md-tabs__link">
           
   
   
@@ -765,13 +322,13 @@
     
     
       <li class="md-tabs__item">
-        <a href="project-management-methodology.html" class="md-tabs__link">
+        <a href="about.html" class="md-tabs__link">
           
   
   
     
   
-  Project Mgmt
+  Architectural Foundations
 
         </a>
       </li>
@@ -787,13 +344,13 @@
     
     
       <li class="md-tabs__item">
-        <a href="other-awesome-lists.html" class="md-tabs__link">
+        <a href="chaos-engineering.html" class="md-tabs__link">
           
   
   
     
   
-  Refs+
+  Platform & Site Reliability
 
         </a>
       </li>
@@ -809,13 +366,13 @@
     
     
       <li class="md-tabs__item">
-        <a href="recruitment.html" class="md-tabs__link">
+        <a href="ansible.html" class="md-tabs__link">
           
   
   
     
   
-  Hiring
+  Hardened Infrastructure
 
         </a>
       </li>
@@ -828,17 +385,20 @@
   
   
   
-    <li class="md-tabs__item">
-      <a href="customer.html" class="md-tabs__link">
-        
+    
+    
+      <li class="md-tabs__item">
+        <a href="GoogleCloudPlatform.html" class="md-tabs__link">
+          
   
   
     
   
-  Clients
+  Cloud Providers (Hyperscalers)
 
-      </a>
-    </li>
+        </a>
+      </li>
+    
   
 
       
@@ -847,17 +407,44 @@
   
   
   
-    <li class="md-tabs__item">
-      <a href="uncategorized.html" class="md-tabs__link">
-        
+    
+    
+      <li class="md-tabs__item">
+        <a href="caching.html" class="md-tabs__link">
+          
   
   
     
   
-  Uncategorized
+  Networking & Service Mesh
 
-      </a>
-    </li>
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="container-managers.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  The Container Stack
+
+        </a>
+      </li>
+    
   
 
       
@@ -866,17 +453,86 @@
   
   
   
-    <li class="md-tabs__item">
-      <a href="about.html" class="md-tabs__link">
-        
+    
+    
+      <li class="md-tabs__item">
+        <a href="crunchydata.html" class="md-tabs__link">
+          
   
   
     
   
-  About
+  Data & Advanced Analytics
 
-      </a>
-    </li>
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="argo.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Engineering Pipeline
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="ChromeDevTools.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Developer Ecosystem
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="appointment-scheduling.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Career & Industry
+
+        </a>
+      </li>
+    
   
 
       
@@ -910,25 +566,20 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="index.html" title="Nubenetes" class="md-nav__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href="index.html" title="Nubenetes V2 | The AI&#39;s Cut" class="md-nav__button md-logo" aria-label="Nubenetes V2 | The AI's Cut" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
-  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
-  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
-  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
-  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
-</svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
-    Nubenetes
+    Nubenetes V2 | The AI's Cut
   </label>
   
     <div class="md-nav__source">
       <a href="https://github.com/nubenetes/awesome-kubernetes" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     nubenetes/awesome-kubernetes
@@ -945,14 +596,14 @@
   
   
     <li class="md-nav__item">
-      <a href="https://nubenetes.com/v2/" class="md-nav__link">
+      <a href="https://nubenetes.com/v1/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    🚀 Try Nubenetes V2 (Elite Portal)
+    🔙 Back to V1 (Exhaustive)
   
 
     
@@ -979,7 +630,7 @@
   <span class="md-ellipsis">
     
   
-    Home
+    The 2026 Vision
   
 
     
@@ -1001,899 +652,8 @@
     
     
       
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="introduction.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Intro
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="sre.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    SRE
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="devops.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    DevOps
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="devsecops.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    DevSecOps
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="noops.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    NoOps
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="docker.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Docker
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="kubernetes.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    K8s
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="openshift.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    OpenShift
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-    
-  
-  
-  
-    
-    
-      
-        
-      
-    
-    
-    
-      
-        
-        
-      
-      
-        
-      
-    
-    
-      
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" checked>
         
           
-          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Rancher
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_11">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Rancher
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Rancher - Enterprise management for Kubernetes
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="rancher.html" class="md-nav__link md-nav__link--active">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Rancher - Enterprise management for Kubernetes
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#rancher-enterprise-management-for-kubernetes" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Rancher: Enterprise management for Kubernetes
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rancher-and-terraform" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Rancher and Terraform
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rancher-desktop" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Rancher Desktop
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rancher-academy-online-training" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Rancher Academy (online training)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rancher-2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Rancher 2
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Rancher 2">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#rancher-networking-and-cni-providers" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Rancher Networking and CNI Providers
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#rancher-2-rke" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Rancher 2 RKE
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#k3s" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        K3S
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="K3S">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#k3s-tools" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        K3s Tools
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#k3s-use-cases" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        K3S Use Cases
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#k3s-in-public-clouds" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        K3S in Public Clouds
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#k3d" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        K3D
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#k3os" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        K3OS
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#k3c" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        K3C
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#hosted-rancher" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Hosted Rancher
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rancher-on-microsoft-azure" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Rancher on Microsoft Azure
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rancher-rke-on-vsphere" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Rancher RKE on vSphere
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rancher-kubernetes-on-oracle-cloud" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Rancher Kubernetes on Oracle Cloud
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rancher-software-defined-storage-with-longhorn" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Rancher Software Defined Storage with Longhorn
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rancher-fleet-to-manage-multiple-kubernetes-clusters" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Rancher Fleet to manage multiple kubernetes clusters
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#kubernautic" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Kubernautic
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#harvester-hyperconverged-infrastructure-software" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Harvester Hyperconverged Infrastructure Software
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
         
       
         
@@ -1924,14 +684,14 @@
   
   
   
-    <a href="cicd.html" class="md-nav__link">
+    <a href="videos/index.html" class="md-nav__link">
       
   
   
   <span class="md-ellipsis">
     
   
-    CI/CD
+    Agentic Video Hub
   
 
     
@@ -1965,6 +725,8 @@
       
         
       
+        
+      
     
     
     
@@ -1985,14 +747,14 @@
   
   
   
-    <a href="monitoring.html" class="md-nav__link">
+    <a href="ai-agents-mcp.html" class="md-nav__link">
       
   
   
   <span class="md-ellipsis">
     
   
-    Montrg
+    AI
   
 
     
@@ -2032,6 +794,36 @@
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
     
     
@@ -2052,14 +844,14 @@
   
   
   
-    <a href="iac.html" class="md-nav__link">
+    <a href="about.html" class="md-nav__link">
       
   
   
   <span class="md-ellipsis">
     
   
-    Infra Prov
+    Architectural Foundations
   
 
     
@@ -2086,6 +878,89 @@
   
     
     
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="chaos-engineering.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Platform & Site Reliability
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
       
         
       
@@ -2132,7 +1007,7 @@
   <span class="md-ellipsis">
     
   
-    Config Mgmt
+    Hardened Infrastructure
   
 
     
@@ -2159,6 +1034,60 @@
   
     
     
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -2186,14 +1115,14 @@
   
   
   
-    <a href="databases.html" class="md-nav__link">
+    <a href="GoogleCloudPlatform.html" class="md-nav__link">
       
   
   
   <span class="md-ellipsis">
     
   
-    DB
+    Cloud Providers (Hyperscalers)
   
 
     
@@ -2218,15 +1147,187 @@
   
   
   
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="caching.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Networking & Service Mesh
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Container Stack
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    The Container Stack
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
-      <a href="message-queue.html" class="md-nav__link">
+      <a href="container-managers.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Data Pipeline
+    Container Managers
   
 
     
@@ -2238,672 +1339,23 @@
     </li>
   
 
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="servicemesh.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Service Mesh
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="demos.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Demos
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="public-cloud-solutions.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Cloud
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="api.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    APIs
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="devel-sites.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Dev
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="qa.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    QA
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="ai.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    AI
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="project-management-methodology.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Project Mgmt
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="other-awesome-lists.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Refs+
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="recruitment.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Hiring
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
+              
+            
+              
+                
   
   
   
   
     <li class="md-nav__item">
-      <a href="customer.html" class="md-nav__link">
+      <a href="docker.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Clients
+    Docker
   
 
     
@@ -2915,22 +1367,23 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
   
     <li class="md-nav__item">
-      <a href="uncategorized.html" class="md-nav__link">
+      <a href="kubectl-commands.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Uncategorized
+    Kubectl Commands
   
 
     
@@ -2942,22 +1395,23 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
   
     <li class="md-nav__item">
-      <a href="about.html" class="md-nav__link">
+      <a href="kubernetes-alternatives.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    About
+    Kubernetes Alternatives
   
 
     
@@ -2966,6 +1420,2212 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-autoscaling.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Autoscaling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-backup-migrations.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Backup Migrations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-based-devel.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Based Devel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-bigdata.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Bigdata
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-client-libraries.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Client Libraries
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-monitoring.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Monitoring
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-on-premise.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes On Premise
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-operators-controllers.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Operators Controllers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-releases.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Releases
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-storage.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Storage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-troubleshooting.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Troubleshooting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="noops.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Noops
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ocp3.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OCP 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ocp4.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OCP 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="openshift.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Openshift
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rancher
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="rancher.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rancher
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Table of Contents
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#architectural-foundations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Architectural Foundations
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Architectural Foundations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#kubernetes-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Tools
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kubernetes Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General Reference
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#container-engines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Container Engines
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Container Engines">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lightweight-runtimes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lightweight Runtimes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Lightweight Runtimes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#archived-projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Archived Projects
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#devsecops" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DevSecOps
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DevSecOps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gitops" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GitOps
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="GitOps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rancher-fleet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rancher Fleet
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#edge-and-iot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Edge and IoT
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Edge and IoT">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#application-lifecycle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Application Lifecycle
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Application Lifecycle">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#keptn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Keptn
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#architecture-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Architecture Patterns
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Architecture Patterns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#edge-data-store" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Edge Data Store
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bare-metal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bare Metal
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bare Metal">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#home-lab" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Home Lab
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#infrastructure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Infrastructure
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cicd-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CICD Integration
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CICD Integration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gitlab-runners" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GitLab Runners
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cluster-provisioning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cluster Provisioning
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cluster Provisioning">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ansible-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ansible Roles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#custom-bootstrappers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Custom Bootstrappers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hetzner-cloud" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hetzner Cloud
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ssh-bootstrapping" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SSH Bootstrapping
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hardware" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hardware
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Hardware">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#raspberry-pi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Raspberry Pi
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#high-availability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        High Availability
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="High Availability">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#database-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Database Options
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#infrastructure-as-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Infrastructure as Code
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Infrastructure as Code">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aws-cdk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AWS CDK
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Introduction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#quick-starts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quick Starts
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lightweight-kubernetes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lightweight Kubernetes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Lightweight Kubernetes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#comparisons" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comparisons
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#k3s" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        K3s
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#local-development" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Local Development
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Local Development">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#traefik-ingress" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Traefik Ingress
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Security">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hardening" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hardening
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#runtime-auditing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Runtime Auditing
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#edge-computing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Edge Computing
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Edge Computing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#kubernetes-orchestration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Orchestration
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kubernetes Orchestration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ansible-automation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ansible Automation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kubernetes-provisioning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Provisioning
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kubernetes Provisioning">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#autok3s" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AutoK3s
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#operating-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Operating Systems
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Operating Systems">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#archived-projects-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Archived Projects (1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enterprise-infrastructure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Enterprise Infrastructure
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Enterprise Infrastructure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gitops-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GitOps (1)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="GitOps (1)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fleet-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fleet Management
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tutorials" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tutorials
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubernetes-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Management
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kubernetes Management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#case-studies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Case Studies
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Case Studies">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#finance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Finance
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Documentation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Documentation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#enterprise-manuals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Enterprise Manuals
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#education" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Education
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Education">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#training" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Training
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hyperconverged-infrastructure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hyperconverged Infrastructure
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Hyperconverged Infrastructure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#harvester" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Harvester
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#industry-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Industry History
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Industry History">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funding" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Funding
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#infrastructure-as-code-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Infrastructure as Code (1)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Infrastructure as Code (1)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#government-rke2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Government RKE2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rke" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RKE
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#introduction-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction (1)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Introduction (1)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#quick-starts-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quick Starts (1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#monitoring-and-observability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Monitoring and Observability
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Monitoring and Observability">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#alerting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alerting
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multi-cluster-orchestration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multi-Cluster Orchestration
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Multi-Cluster Orchestration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#enterprise-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Enterprise Management
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multi-tenancy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multi-Tenancy
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Multi-Tenancy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Projects
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#networking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Networking
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Networking">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cni" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CNI
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#product-updates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Product Updates
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Product Updates">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gitops-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GitOps (2)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rancher-25" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rancher 2.5
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rancher-26" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rancher 2.6
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#local-development-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Local Development (1)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Local Development (1)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#container-runtimes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Container Runtimes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Container Runtimes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#kubernetes-local" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Local
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gitops-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GitOps (3)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="GitOps (3)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#local-sandboxes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Local Sandboxes
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kubernetes-environments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Environments
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kubernetes Environments">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tutorials-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tutorials (1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#k3d" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        k3d
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#platform-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Platform Management
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Platform Management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rancher-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rancher Setup
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#product-updates-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Product Updates (1)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Product Updates (1)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rancher-desktop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rancher Desktop
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tooling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tooling
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tooling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#comparisons-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comparisons (1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#platform-engineering" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Platform Engineering
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Platform Engineering">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hyperconverged-infrastructure-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hyperconverged Infrastructure (1)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Hyperconverged Infrastructure (1)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#harvester-hci" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Harvester HCI
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="serverless.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Serverless
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="crunchydata.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data & Advanced Analytics
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="argo.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Engineering Pipeline
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="ChromeDevTools.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Developer Ecosystem
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="appointment-scheduling.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Career & Industry
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
@@ -2986,304 +3646,476 @@
                   
 
 
-
-<h1 id="suse-rancher">SUSE Rancher</h1>
-<ol>
-<li><a href="#rancher-enterprise-management-for-kubernetes">Rancher: Enterprise management for Kubernetes</a></li>
-<li><a href="#rancher-and-terraform">Rancher and Terraform</a></li>
-<li><a href="#rancher-desktop">Rancher Desktop</a></li>
-<li><a href="#rancher-academy-online-training">Rancher Academy (online training)</a></li>
-<li><a href="#rancher-2">Rancher 2</a><ol>
-<li><a href="#rancher-networking-and-cni-providers">Rancher Networking and CNI Providers</a></li>
-<li><a href="#rancher-2-rke">Rancher 2 RKE</a></li>
-</ol>
-</li>
-<li><a href="#k3s">K3S</a><ol>
-<li><a href="#k3s-tools">K3s Tools</a></li>
-<li><a href="#k3s-use-cases">K3S Use Cases</a></li>
-<li><a href="#k3s-in-public-clouds">K3S in Public Clouds</a></li>
-<li><a href="#k3d">K3D</a></li>
-<li><a href="#k3os">K3OS</a></li>
-</ol>
-</li>
-<li><a href="#k3c">K3C</a></li>
-<li><a href="#hosted-rancher">Hosted Rancher</a></li>
-<li><a href="#rancher-on-microsoft-azure">Rancher on Microsoft Azure</a></li>
-<li><a href="#rancher-rke-on-vsphere">Rancher RKE on vSphere</a></li>
-<li><a href="#rancher-kubernetes-on-oracle-cloud">Rancher Kubernetes on Oracle Cloud</a></li>
-<li><a href="#rancher-software-defined-storage-with-longhorn">Rancher Software Defined Storage with Longhorn</a></li>
-<li><a href="#rancher-fleet-to-manage-multiple-kubernetes-clusters">Rancher Fleet to manage multiple kubernetes clusters</a></li>
-<li><a href="#kubernautic">Kubernautic</a></li>
-<li><a href="#harvester-hyperconverged-infrastructure-software">Harvester Hyperconverged Infrastructure Software</a></li>
-</ol>
-<h2 id="rancher-enterprise-management-for-kubernetes">Rancher: Enterprise management for Kubernetes</h2>
-<ul>
-<li><a href="https://www.rancher.com">rancher.com</a> Rancher is enterprise management for Kubernetes, an amazing GUI for managing and installing Kubernetes clusters. They have released a number of pieces of software that are part of this ecosystem, for example <a href="https://github.com/longhorn/longhorn">Longhorn</a> which is a lightweight and reliable distributed block storage system for Kubernetes.</li>
-<li><a href="https://www.suse.com/c/rancher_blog/custom-alerts-using-prometheus-queries">rancher.com: Custom alerts using Prometheus queries</a></li>
-<li><a href="https://www.zdnet.com/article/rancher-labs-closes-40m-funding-round-to-run-kubernetes-everywhere">zdnet.com: Rancher Labs closes $40M funding round to &ldquo;run Kubernetes everywhere&rdquo;</a> The six year-old startup is going after new markets that want to run Kubernetes clusters at the edge.</li>
-<li><a href="https://medium.com/swlh/quick-fix-mounting-a-configmap-to-an-existing-volume-in-kubernetes-using-rancher-d01c472a10ad">medium: Quick Fix: Mounting a ConfigMap to an Existing Volume in Kubernetes Using Rancher</a></li>
-<li><a href="https://www.rancher.com/blog/2020/faster-kubernetes-development-rancher-devspace-loft">Faster Kubernetes Development with Rancher, DevSpace and Loft</a></li>
-<li><a href="https://www.rancher.com/blog/2020/multi-cluster-vulnerability-scanning-alcide-rancher">Multi-Cluster Vulnerability Scanning with Alcide and Rancher</a></li>
-<li><a href="https://www.suse.com/c/rancher_blog/monitor-etcd-with-prometheus-and-grafana-using-rancher">Monitor Etcd with Prometheus and Grafana using Rancher</a></li>
-<li><a href="https://www.suse.com/c/rancher_blog/driving-kubernetes-adoption-in-finance-with-rancher">rancher.com: Driving Kubernetes Adoption in Finance with Rancher</a></li>
-<li><a href="https://www.devclass.com/ci-cd/2020/10/06/open-sauce-rancher-25-puts-new-ui-forward-gets-to-continuously-delivering/1628365">devclass.com: Open sauce - Rancher 2.5 puts new UI forward, gets to continuously delivering</a></li>
-<li><a href="https://www.rancher.com/blog/2020/rancher-2-5-delivers-computing-everwhere-strategy">rancher.com: Rancher 2.5 Delivers On &ldquo;Computing Everywhere&rdquo; Strategy</a></li>
-<li><a href="https://www.rancher.com/blog/2020/speed-development-automated-kubernetes-deployments">rancher: Speed Up Development with Automated Kubernetes Deployments</a></li>
-<li><a href="https://thenewstack.io/rancher-2-5-sets-out-to-be-the-stock-kubernetes-build-for-gitops">thenewstack.io: Rancher 2.5 Sets out to Be the Stock Kubernetes Build for GitOps</a></li>
-<li><a href="https://www.rancher.com/community">SUSE &amp; Rancher Community 🌟</a> Learn and share with other cloud native enthusiasts</li>
-<li><a href="https://aws-quickstart.github.io/quickstart-eks-rancher">aws-quickstart.github.io: Rancher on the AWS Cloud. Quick Start Reference Deployment 🌟</a></li>
-<li><a href="https://dzone.com/refcardz/getting-started-with-rancher">dzone: Getting Started With Rancher 🌟</a> What is Rancher? And how does it make Kubernetes crazy easy? Rancher is a complete Kubernetes stack that&rsquo;s easy to navigate — whether it&rsquo;s physical servers on-prem or in the cloud. This Refcard helps you get started with Rancher — from zero to fully production-ready.</li>
-<li><a href="https://www.devclass.com/containers/2021/09/02/rancher-presents-first-big-release-after-suse-acquisition-ups-game-on-hosted-cluster-provisioning/1627301">devclass.com: Rancher presents first big release after SUSE acquisition, ups game on hosted cluster provisioning</a></li>
-<li><a href="https://www.suse.com/c/intro-rancher-2-6-features">suse.com: SUSE Rancher 2.6 delivers interoperability across multi-cloud environments with redesigned user experience, hosted cluster support, and improved security posture</a></li>
-<li><a href="https://www.zdnet.com/article/suse-harvester-deploying-virtual-machines-with-kubernetes">zdnet.com: SUSE Harvester: Deploying virtual machines with Kubernetes</a> We all use Kubernetes to manage containers, but now SUSE, with Harvester and Rancher, enables you to deploy VMs with it as well.</li>
-<li><a href="https://blog.kubecost.com/blog/rancher-vs-kubernetes"><mark>blog.kubecost.com: Rancher vs Kubernetes: It’s not either or</mark></a> Kubernetes (K8s) and Rancher are both open source projects focused on container management with enormous communities of contributors and users.<ul>
-<li>Kubernetes is the leader in container orchestration. It offers teams the flexibility to efficiently run containerized workloads across multiple public cloud providers and hybrid cloud environments. Kubernetes offers advanced scheduling and scaling capabilities to ensure application performance and high availability. However, its functionality focuses on managing resources within a single cluster.</li>
-<li>Rancher, on the other hand, is a platform designed to manage multiple Kubernetes clusters. It eases Kubernetes cluster management in large environments in several ways. For example, Rancher simplifies operations such as cluster provisioning, centralized security management, and monitoring workloads using popular tools such as Prometheus. Additionally, Rancher has an extensive application catalog of Helm charts for various applications such as Kubecost, Prometheus, Grafana, and MySQL.</li>
-</ul>
-</li>
-<li><a href="https://www.suse.com/c/rancher_blog/my-first-impressions-with-suse-rancher-kubernetes-projects">suse.com: My First Impressions with SUSE Rancher Kubernetes Projects</a></li>
-</ul>
-<center>
-<p><a href="https://www.youtube.com/watch?v=2LNxGVS81mE"><img alt="rancher architecture" src="images/rancher.png" /></a></p>
-</center>
-<p></br></p>
-<h2 id="rancher-and-terraform">Rancher and Terraform</h2>
-<ul>
-<li><a href="https://www.rancher.com/blog/2020/deploy-with-gitlab-ci">Deploy a Rancher Cluster with GitLab CI and Terraform</a></li>
-<li><a href="https://akyriako.medium.com/provision-an-on-prems-kubernetes-cluster-with-rancher-terraform-and-ansible-e26e24059319"><mark>akyriako.medium.com: Provision an on-prems Kubernetes Cluster with Rancher, Terraform and Ansible</mark></a> Automate the provisioning of on-premises Rancher RKE Clusters and the registration of their nodes via Terraform and Ansible</li>
-</ul>
-<h2 id="rancher-desktop">Rancher Desktop</h2>
-<ul>
-<li><a href="https://rancherdesktop.io"><mark>rancherdesktop.io</mark></a> Kubernetes and container management to the desktop. Rancher Desktop is an open-source project to bring Kubernetes and container management to the desktop.</li>
-<li><a href="https://www.suse.com/c/rancher_blog/rancher-desktop-1-0-0-has-arrived">suse.com: Rancher Desktop 1.0.0 Has Arrived</a></li>
-</ul>
-<h2 id="rancher-academy-online-training">Rancher Academy (online training)</h2>
-<ul>
-<li><a href="https://academy.rancher.com">Rancher Academy 🌟</a> Rancher Academy is a professional, no-cost, zero obligation certification program centered on empowering commercial customers and the open source community to be successful with Kubernetes and Rancher.</li>
-<li><a href="https://www.computing.co.uk/news/4015423/rancher-labs-launches-free-training-course-meet-surging-demand-kubernetes">Rancher Labs launches free training course to meet surging demand for Kubernetes skills</a> Five-week course covers how to deploy Rancher and manage Kubernetes</li>
-</ul>
-<h2 id="rancher-2">Rancher 2</h2>
-<ul>
-<li><a href="https://www.rancher.com/docs/rancher/v2.x/en"><strong>Rancher 2</strong></a></li>
-</ul>
-<h3 id="rancher-networking-and-cni-providers">Rancher Networking and CNI Providers</h3>
-<ul>
-<li><a href="https://www.rancher.com/docs/rancher/v2.x/en/faq/networking/cni-providers">Rancher CNI Providers 🌟</a></li>
-</ul>
-<h3 id="rancher-2-rke">Rancher 2 RKE</h3>
-<ul>
-<li><a href="https://www.rancher.com/products/rke"><strong>Rancher 2 RKE</strong></a> Rancher 2 that runs in docker containers. RKE is a CNCF-certified Kubernetes distribution that runs entirely within Docker containers. It solves the common frustration of installation complexity with Kubernetes by removing most host dependencies and presenting a stable path for deployment, upgrades, and rollbacks.</li>
-<li><a href="https://github.com/LukeMwila/bootstrap-rke-cluster-in-aws">Bootstrap RKE Kubernetes Cluster in AWS Environment</a></li>
-<li><a href="https://github.com/gruberdev/local-gitops">github.com/gruberdev/local-gitops: Local Gitops 🌟</a> An automated local cluster setup w/ tls, monitoring, ingress and DNS configuration. The goal of this project is to provide a simplified approach to creating your own local cluster, as well as all the utilities you&rsquo;ll need to run a functional cluster using GitOps</li>
-<li><a href="https://github.com/ranchergovernment/rke2-aws-tf">github.com/rancherfederal/rke2-aws-tf</a> This repository is intended to clearly demonstrate one method of deploying rke2 in a highly available, resilient, scalable, and simple method on AWS</li>
-</ul>
-<h2 id="k3s">K3S</h2>
-<ul>
-<li>
-<p><a href="https://support.tools/post/rke2-standalone-disaster-recovery">RKE2 Standalone Disaster Recovery Guide</a> - <em>(Related to kubernetes-backup-migrations topic)</em></p>
-</li>
-<li>
-<p><a href="https://k3s.io"><strong>k3s</strong></a> Basic kubernetes with automated installer. Lightweight Kubernetes Distribution.</p>
-</li>
-<li><a href="https://www.civo.com/blog/k8s-vs-k3s">K8s vs k3s</a> &ldquo;K3s is designed to be a single binary of less than 40MB that completely implements the Kubernetes API. In order to achieve this, they removed a lot of extra drivers that didn&rsquo;t need to be part of the core and are easily replaced with add-ons. K3s is a fully CNCF (Cloud Native Computing Foundation) <a href="https://www.cncf.io/certification/software-conformance">certified Kubernetes</a> offering. This means that you can write your YAML to operate against a regular &ldquo;full-fat&rdquo; Kubernetes and they&rsquo;ll also apply against a k3s cluster. Due to its low resource requirements, it&rsquo;s possible to run a cluster on anything from 512MB of RAM machines upwards. This means that we can allow pods to run on the master, as well as nodes. And of course, because it&rsquo;s a tiny binary, it means we can install it in a fraction of the time it takes to launch a regular Kubernetes cluster! We generally achieve sub-two minutes to launch a k3s cluster with a handful of nodes, meaning you can be deploying apps to learn/test at the drop of a hat.&rdquo;</li>
-<li><a href="https://github.com/alexellis/k3sup"><strong>k3sup (said &lsquo;ketchup&rsquo;)</strong></a> is a light-weight utility to get from zero to KUBECONFIG with k3s on any local or remote VM. All you need is ssh access and the k3sup binary to get kubectl access immediately.</li>
-<li><a href="https://medium.com/@alexellisuk/walk-through-install-kubernetes-to-your-raspberry-pi-in-15-minutes-84a8492dc95a">Install Kubernetes with k3sup and k3s</a></li>
-<li><a href="https://github.com/apk8s/k3s-gitlab">k3s-gitlab</a> k3s + Gitlab install notes. Steps for utilizing k3s to manage a self-hosted Gitlab instance.</li>
-<li><a href="https://www.rancher.com/blog/2020/upgrade-your-k3s-cluster">Upgrade Your K3s Clusters Smoothly in Rancher 2.4</a></li>
-<li><a href="https://github.com/keptn-sandbox/keptn-on-k3s">Keptn Control Plane on k3s</a> It allows you to install the Keptn control plane running on K3s within  minutes! Great way to get started using Keptn!</li>
-<li><a href="https://thenewstack.io/how-k3s-portworx-and-calico-can-serve-as-a-foundation-of-cloud-native-edge-infrastructure">thenewstack.io: How K3s, Portworx, and Calico Can Serve as a Foundation of Cloud Native Edge Infrastructure</a></li>
-<li><a href="https://thenewstack.io/tutorial-configure-cloud-native-edge-infrastructure-with-k3s-calico-portworx">thenewstack.io: Tutorial - Configure Cloud Native Edge Infrastructure with K3s, Calico, Portworx</a></li>
-<li><a href="https://github.com/aws-samples/aws-cdk-for-k3scluster">github.com/aws-samples/cdk-k3s-cluster 🌟</a> is a new JSII construct library for AWS CDK that deploys a scalable Kubernetes K3s cluster on Graviton2 Arm-based (mg6 by default) Spot instances with one command on AWS.</li>
-<li><a href="https://codeburst.io/creating-a-local-development-kubernetes-cluster-with-k3s-and-traefik-proxy-7a5033cb1c2d">codeburst.io: Creating a Local Development Kubernetes Cluster with k3s and Traefik Proxy</a></li>
-<li><a href="https://www.sysdig.com/blog/k3s-sysdig-falco">sysdig.com: K3s + Sysdig: Deploying and securing your cluster… in less than 8 minutes! 🌟</a></li>
-<li><a href="https://www.rancher.com/blog/2020/k3s-high-availability">rancher.com: Set up Your K3s Cluster for High Availability</a></li>
-<li><a href="https://blog.alexellis.io/bare-metal-kubernetes-with-k3s">blog.alexellis.io: Bare-metal Kubernetes with K3s</a></li>
-<li><a href="https://www.rancher.com/blog/2020/set-up-k3s-high-availability-using-k3d">rancher.com: Set up K3s in High Availability using k3d</a></li>
-<li><a href="https://www.rancher.com/blog/2020/k3s-high-availability">rancher.com: Set up Your K3s Cluster for High Availability on DigitalOcean</a></li>
-<li><a href="https://www.rancher.com/community">community.suse.com: Introduction to K3s 🌟</a></li>
-<li><a href="https://gitlab.com/k3s_hetzner/k3s_hetzner">k3s_hetzner</a> How to build a kubernetes cluster in <a href="https://www.hetzner.com/cloud">Hetzner Cloud</a></li>
-<li><a href="https://en.sokube.ch/post/k3s-k3d-k8s-a-new-perfect-match-for-dev-and-test-1">en.sokube.ch: K3S + K3D = K8S : a new perfect match for dev and test</a>you&rsquo;ll learn:<ul>
-<li>What&rsquo;s new with k3d v3</li>
-<li>Create a multi-server and multi-agent with k3s</li>
-<li>How to replace the default CNI plugin of k3s</li>
-</ul>
-</li>
-<li><a href="http://web.archive.org/web/20251027143124/https://github.com/digitalrebar/edgelab">edgelab 🌟 (with k3s) [ARCHIVED]</a> Materials to build and deploy a simple Edge Lab for demonstration, training and development</li>
-<li><a href="https://github.com/erebe/personal-server">github.com/erebe/personal-server: Personal server configuration with k3s 🌟</a> This document is going to describe how I manage my personal server in 2020.</li>
-<li><a href="https://dev.to/abhinavd26/all-about-k3s-lightweight-kubernetes-3ell">dev.to: All about k3s - Lightweight Kubernetes 🌟</a></li>
-<li><a href="https://gabrieltanner.org/blog/ha-kubernetes-cluster-using-k3s">gabrieltanner.org: Setting up a HA Kubernetes cluster using K3S</a> you will set up your own high availability K3S cluster and create a basic Kubernetes deployment. The tutorial will show how to set up all the resources manually and you will learn how to automate it with the official Ansible script.</li>
-<li><a href="https://nativecloud.dev/scale-out-your-raspberry-pi-k3s-cluster-to-the-cloud">nativecloud.dev: Scale out your Raspberry-Pi Kubernetes cluster to the cloud</a> Using Gardener Machine-Controller-Manager and Tailscale to extend a local Raspberry-Pi K3s cluster with cloud instances.</li>
-<li><a href="https://blog.nootch.net/post/kubernetes-at-home-with-k3s">blog.nootch.net: Kubernetes at Home With K3s</a></li>
-<li>Try out the  Kubernetes 1.23 with K3s distro: <code>curl -sfL https://get.k3s.io |INSTALL_K3S_VERSION="v1.23.1-rc1+k3s1" sh -</code> You can try on ubuntu katakoda playground in your browser :)</li>
-<li><a href="https://medium.com/@ostridelabs/k8s-vs-k3s-the-comprehensive-difference-f7667d141c0"><mark>medium.com/@ostridelabs: k8s vs k3s: The Comprehensive Difference</mark></a></li>
-<li><a href="https://www.justinpolidori.it/posts/20220611_vcluster_auth">justinpolidori.it: LDAP authentication with Dex on Kubernetes with Vcluster (K3S)</a> you&rsquo;ll learn how to grant access to users of a vcluster using DEX as a federated OpenID provider and kubelogin as a plugin for OIDC integration</li>
-<li><a href="https://itnext.io/running-k3s-workload-in-a-restricted-environment-c2f593d19005">itnext.io: Running K3S workload in a restricted environment</a></li>
-<li><a href="https://dev.to/dashaun/k3s-on-raspberry-pi-and-clusterhat-m6k">dev.to/dashaun: K3s on Raspberry Pi and ClusterHat</a></li>
-<li><a href="https://blog.getambassador.io/best-tools-for-kubernetes-local-development-a-comprehensive-guide-3577d351d31e">blog.getambassador.io: Best Tools for Kubernetes Local Development: A Comprehensive Guide</a></li>
-</ul>
-<h3 id="k3s-tools">K3s Tools</h3>
-<ul>
-<li><a href="https://github.com/tinyzimmer/k3p">tinyzimmer/k3p</a> A k3s packager and installer, primarily intended for airgapped deployments</li>
-<li><a href="https://github.com/alexellis/k3sup">alexellis/k3sup</a> bootstrap Kubernetes with k3s over SSH &lt; 1 min 🚀. k3sup is a light-weight utility to get from zero to KUBECONFIG with k3s on any local or remote VM. All you need is ssh access and the k3sup binary to get kubectl access immediately.</li>
-<li><a href="https://github.com/clanktron/k3s-ansible">clanktron/k3s-ansible</a> Automated build of HA k3s Cluster with kube-vip, Cilium, and MetalLB</li>
-<li><a href="https://github.com/timothystewart6/k3s-ansible">techno-tim/k3s-ansible</a> Automated build of HA k3s Cluster with kube-vip and MetalLB. The easiest way to bootstrap a self-hosted High Availability Kubernetes cluster. A fully automated HA k3s etcd install with kube-vip, MetalLB, and more</li>
-<li><a href="https://github.com/cnrancher/autok3s">cnrancher/autok3s</a> Run K3s Everywhere. AutoK3s is a lightweight tool for simplifying the cluster management of K3s. Key features:<ul>
-<li>Shorter provisioning time</li>
-<li>Cloud provider integration</li>
-<li>Flexible installation options</li>
-<li>Low cost</li>
-<li>Airgap K3s package management and installation</li>
-</ul>
-</li>
-</ul>
-<h3 id="k3s-use-cases">K3S Use Cases</h3>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=2LNxGVS81mE">K3S Use Cases</a>:<ol>
-<li>Edge computing and Embedded Systems</li>
-<li>IOT Gateway</li>
-<li><strong>CI environments</strong> (i.e. Jenkins with Configuration as Code)</li>
-<li>Single-App Clusters</li>
-</ol>
-</li>
-</ul>
-<h3 id="k3s-in-public-clouds">K3S in Public Clouds</h3>
-<ul>
-<li><a href="https://www.rancher.com/blog/2020/run-rancher-k3s-mysql">Run Rancher 2.4 in Azure with K3s and MySQL</a></li>
-</ul>
-<h3 id="k3d">K3D</h3>
-<ul>
-<li><a href="https://github.com/k3d-io/k3d"><strong>k3d</strong></a> k3s that runs in docker containers.</li>
-<li><a href="https://www.cncf.io/blog/2021/03/16/introduction-to-k3d-run-k3s-in-docker">cncf.io: Introduction to k3d: Run K3s in Docker</a></li>
-<li><a href="https://itnext.io/kubernetes-rancher-cluster-manager-2-6-on-your-macos-laptop-with-k3d-k3s-in-5-min-8acdb94f3376">itnext.io: Kubernetes + Rancher Cluster Manager 2.6 on your macOS laptop with k3d/k3s in 5 min</a></li>
-<li><a href="https://dev.to/iamunnip/building-a-local-kubernetes-cluster-using-k3d-2p3d">dev.to/iamunnip: Building a local Kubernetes cluster using k3d</a></li>
-<li><a href="https://akyriako.medium.com/provision-a-high-availability-k3s-cluster-with-k3d-a7519f476c9c">akyriako.medium.com: Provision a Highly Available K3S Cluster with K3D</a></li>
-</ul>
-<h3 id="k3os">K3OS</h3>
-<ul>
-<li><a href="https://github.com/rancher/k3os"><strong>k3OS</strong></a> k3OS is a Linux distribution designed to remove as much OS maintenance as possible in a Kubernetes cluster. It is specifically designed to only have what is needed to run k3s. Additionally the OS is designed to be managed by kubectl once a cluster is bootstrapped. Nodes only need to join a cluster and then all aspects of the OS can be managed from Kubernetes. Both k3OS and k3s upgrades are handled by the k3OS operator.</li>
-<li><a href="https://www.youtube.com/watch?v=2LNxGVS81mE"><strong>K3OS Value Add</strong></a>:<ul>
-<li><strong>Supports multiple architectures</strong><ul>
-<li>K3OS runs on x86 and ARM processors to give you maximum flexibility.</li>
-</ul>
-</li>
-<li><strong>Runs only the minimum required services</strong><ul>
-<li>Fewer services means a tiny attack surface, for greater security.</li>
-</ul>
-</li>
-<li><strong>Doesn&rsquo;t require a package manager</strong><ul>
-<li>The required services are built into the distribution image.</li>
-</ul>
-</li>
-<li><strong>Models infrastructure as code</strong><ul>
-<li>Manage system configuration with version control systems.</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="k3c">K3C</h2>
-<ul>
-<li><a href="https://github.com/rancher/k3c">K3C</a> Lightweight local container engine for container development. K3C is a local container engine designed to fill the same gap Docker does in the Kubernetes ecosystem. Specifically k3c focuses on developing and running local containers, basically docker run/build. Currently k3s, the <a href="https://github.com/k3s-io/k3s">lightweight Kubernetes distribution</a>, provides a great solution for Kubernetes from dev to production. While k3s satisifies the Kubernetes runtime needs, one still needs to run docker (or a docker-like tool) to actually develop and build the container images. k3c is intended to replace docker for just the functionality needed for the Kubernetes ecosystem.</li>
-</ul>
-<h2 id="hosted-rancher">Hosted Rancher</h2>
-<ul>
-<li><a href="https://www.rancher.com/blog/2020/announcing-hosted-rancher">Announcing <strong>Hosted Rancher</strong> with Rancher 2.4 🌟</a></li>
-</ul>
-<h2 id="rancher-on-microsoft-azure">Rancher on Microsoft Azure</h2>
-<ul>
-<li><a href="https://www.rancher.com/blog/2020/build-kubernetes-clusters-on-azure">rancher.com/blog: Deploy Kubernetes Clusters on Microsoft Azure with Rancher</a></li>
-</ul>
-<h2 id="rancher-rke-on-vsphere">Rancher RKE on vSphere</h2>
-<ul>
-<li><a href="https://www.rancher.com/blog/2020/stateful-kubernetes-workloads">rancher.com/blog: Stateful Kubernetes Workloads on vSphere with RKE</a></li>
-</ul>
-<h2 id="rancher-kubernetes-on-oracle-cloud">Rancher Kubernetes on Oracle Cloud</h2>
-<ul>
-<li><a href="https://medium.com/swlh/oke-clusters-from-rancher-2-0-409131ad1293">medium.com: OKE Clusters from Rancher 2.0</a> Part one of a series of articles on creating, monitoring, and managing Kubernetes clusters on OCI using Rancher.</li>
-<li><a href="https://medium.com/@jlamillan/rancher-deployed-kubernetes-on-oracle-cloud-infrastructure-6b0656cdaec0">medium.com: Rancher deployed Kubernetes on Oracle Cloud Infrastructure</a> Part two of a multi-part series on creating, monitoring, and managing Kubernetes clusters (hosted and non-hosted) on OCI.</li>
-</ul>
-<h2 id="rancher-software-defined-storage-with-longhorn">Rancher Software Defined Storage with Longhorn</h2>
-<ul>
-<li><a href="https://www.rancher.com/blog/2020/yugabyte?utm_content=126950057">rancher.com/blog: Getting Started with Longhorn Distributed Block Storage and Cloud-Native Distributed SQL</a></li>
-</ul>
-<h2 id="rancher-fleet-to-manage-multiple-kubernetes-clusters">Rancher Fleet to manage multiple kubernetes clusters</h2>
-<ul>
-<li><a href="https://github.com/rancher/fleet">github.com/rancher/fleet</a> Fleet is GitOps at scale. Fleet can manage deployments from git of raw Kubernetes YAML, Helm charts, or Kustomize or any combination of the three.</li>
-<li><a href="https://www.rancher.com/blog/2020/fleet-management-kubernetes"><strong>Fleet</strong> Management for kubernetes</a> a new open source project from the team at Rancher focused on managing fleets of Kubernetes clusters.</li>
-<li><a href="https://itnext.io/fleet-management-of-kubernetes-clusters-at-scale-ranchers-fleet-de161cc52325">itnext.io: Fleet Management of Kubernetes Clusters at Scale — Rancher’s Fleet</a></li>
-<li><a href="https://digitalis.io/post/kubernetes-gitops-continuous-integration-and-delivery-with-fleet-and-rancher">digitalis.io: Kubernetes GitOps Continuous Integration and Delivery with Fleet and Rancher</a></li>
-</ul>
-<h2 id="kubernautic">Kubernautic</h2>
-<ul>
-<li><a href="https://kubernauts.sh">Kubernautic</a> Kubernetes For Everyone, Free Forever! Start your CloudLess Journey and get free access to Rancher Shared as a Service (RSaaS) or apply to get access to your own Dedicated Rancher Dashboard (RDaaS) and save up-to 90% of your cloud costs with Auto Scaling of Spot Instances and Kubernauts Kubernetes Services KKS!</li>
-</ul>
-<h2 id="harvester-hyperconverged-infrastructure-software">Harvester Hyperconverged Infrastructure Software</h2>
-<ul>
-<li><a href="https://github.com/harvester/harvester">Harvester</a> Rancher Harvester is an open source hyper-converged infrastructure (HCI) software built on Kubernetes. It is an open source alternative to vSphere and Nutanix.</li>
-<li><a href="https://www.rancher.com/blog/2020/announcing-harvester-open-source-hyperconverged-infrastructure-software">rancher.com: Announcing Harvester: Open Source Hyperconverged Infrastructure (HCI) Software</a></li>
-</ul>
-
-
-
-
-
-
-
-
-
+  
+    <a href="https://github.com/nubenetes/awesome-kubernetes/edit/master/v2-docs/rancher.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/nubenetes/awesome-kubernetes/raw/master/v2-docs/rancher.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
+    </a>
   
 
 
+<h1 id="suse-rancher">SUSE Rancher<a class="headerlink" href="#suse-rancher" title="Permanent link">&para;</a></h1>
+<div class="admonition info">
+<p class="admonition-title">Architectural Context</p>
+<p>Detailed reference for SUSE Rancher in the context of The Container Stack.</p>
+</div>
+<h2 id="table-of-contents">Table of Contents<a class="headerlink" href="#table-of-contents" title="Permanent link">&para;</a></h2>
+<ol>
+<li><a href="#architectural-foundations">Architectural Foundations</a></li>
+<li><a href="#kubernetes-tools">Kubernetes Tools</a><ul>
+<li><a href="#general-reference">General Reference</a></li>
+</ul>
+</li>
+<li><a href="#container-engines">Container Engines</a></li>
+<li><a href="#lightweight-runtimes">Lightweight Runtimes</a><ul>
+<li><a href="#archived-projects">Archived Projects</a></li>
+</ul>
+</li>
+<li><a href="#devsecops">DevSecOps</a></li>
+<li><a href="#gitops">GitOps</a><ul>
+<li><a href="#rancher-fleet">Rancher Fleet</a></li>
+</ul>
+</li>
+<li><a href="#edge-and-iot">Edge and IoT</a></li>
+<li><a href="#application-lifecycle">Application Lifecycle</a><ul>
+<li><a href="#keptn">Keptn</a></li>
+</ul>
+</li>
+<li><a href="#architecture-patterns">Architecture Patterns</a><ul>
+<li><a href="#edge-data-store">Edge Data Store</a></li>
+</ul>
+</li>
+<li><a href="#bare-metal">Bare Metal</a><ul>
+<li><a href="#home-lab">Home Lab</a></li>
+<li><a href="#infrastructure">Infrastructure</a></li>
+</ul>
+</li>
+<li><a href="#cicd-integration">CICD Integration</a><ul>
+<li><a href="#gitlab-runners">GitLab Runners</a></li>
+</ul>
+</li>
+<li><a href="#cluster-provisioning">Cluster Provisioning</a><ul>
+<li><a href="#ansible-roles">Ansible Roles</a></li>
+<li><a href="#custom-bootstrappers">Custom Bootstrappers</a></li>
+<li><a href="#hetzner-cloud">Hetzner Cloud</a></li>
+<li><a href="#ssh-bootstrapping">SSH Bootstrapping</a></li>
+</ul>
+</li>
+<li><a href="#hardware">Hardware</a><ul>
+<li><a href="#raspberry-pi">Raspberry Pi</a></li>
+</ul>
+</li>
+<li><a href="#high-availability">High Availability</a><ul>
+<li><a href="#database-options">Database Options</a></li>
+</ul>
+</li>
+<li><a href="#infrastructure-as-code">Infrastructure as Code</a><ul>
+<li><a href="#aws-cdk">AWS CDK</a></li>
+</ul>
+</li>
+<li><a href="#introduction">Introduction</a><ul>
+<li><a href="#quick-starts">Quick Starts</a></li>
+</ul>
+</li>
+<li><a href="#lightweight-kubernetes">Lightweight Kubernetes</a><ul>
+<li><a href="#comparisons">Comparisons</a></li>
+<li><a href="#k3s">K3s</a></li>
+</ul>
+</li>
+<li><a href="#local-development">Local Development</a><ul>
+<li><a href="#traefik-ingress">Traefik Ingress</a></li>
+</ul>
+</li>
+<li><a href="#security">Security</a><ul>
+<li><a href="#hardening">Hardening</a></li>
+<li><a href="#runtime-auditing">Runtime Auditing</a></li>
+</ul>
+</li>
+<li><a href="#edge-computing">Edge Computing</a></li>
+<li><a href="#kubernetes-orchestration">Kubernetes Orchestration</a><ul>
+<li><a href="#ansible-automation">Ansible Automation</a></li>
+</ul>
+</li>
+<li><a href="#kubernetes-provisioning">Kubernetes Provisioning</a><ul>
+<li><a href="#autok3s">AutoK3s</a></li>
+</ul>
+</li>
+<li><a href="#operating-systems">Operating Systems</a><ul>
+<li><a href="#archived-projects-1">Archived Projects</a></li>
+</ul>
+</li>
+<li><a href="#enterprise-infrastructure">Enterprise Infrastructure</a></li>
+<li><a href="#gitops-1">GitOps</a><ul>
+<li><a href="#fleet-management">Fleet Management</a></li>
+<li><a href="#tutorials">Tutorials</a></li>
+</ul>
+</li>
+<li><a href="#kubernetes-management">Kubernetes Management</a></li>
+<li><a href="#case-studies">Case Studies</a><ul>
+<li><a href="#finance">Finance</a></li>
+</ul>
+</li>
+<li><a href="#documentation">Documentation</a><ul>
+<li><a href="#enterprise-manuals">Enterprise Manuals</a></li>
+</ul>
+</li>
+<li><a href="#education">Education</a><ul>
+<li><a href="#training">Training</a></li>
+</ul>
+</li>
+<li><a href="#hyperconverged-infrastructure">Hyperconverged Infrastructure</a><ul>
+<li><a href="#harvester">Harvester</a></li>
+</ul>
+</li>
+<li><a href="#industry-history">Industry History</a><ul>
+<li><a href="#funding">Funding</a></li>
+</ul>
+</li>
+<li><a href="#infrastructure-as-code-1">Infrastructure as Code</a><ul>
+<li><a href="#government-rke2">Government RKE2</a></li>
+<li><a href="#rke">RKE</a></li>
+</ul>
+</li>
+<li><a href="#introduction-1">Introduction</a><ul>
+<li><a href="#quick-starts-1">Quick Starts</a></li>
+</ul>
+</li>
+<li><a href="#monitoring-and-observability">Monitoring and Observability</a><ul>
+<li><a href="#alerting">Alerting</a></li>
+</ul>
+</li>
+<li><a href="#multi-cluster-orchestration">Multi-Cluster Orchestration</a><ul>
+<li><a href="#enterprise-management">Enterprise Management</a></li>
+</ul>
+</li>
+<li><a href="#multi-tenancy">Multi-Tenancy</a><ul>
+<li><a href="#projects">Projects</a></li>
+</ul>
+</li>
+<li><a href="#networking">Networking</a><ul>
+<li><a href="#cni">CNI</a></li>
+</ul>
+</li>
+<li><a href="#product-updates">Product Updates</a><ul>
+<li><a href="#gitops-2">GitOps</a></li>
+<li><a href="#rancher-25">Rancher 2.5</a></li>
+<li><a href="#rancher-26">Rancher 2.6</a></li>
+</ul>
+</li>
+<li><a href="#local-development-1">Local Development</a></li>
+<li><a href="#container-runtimes">Container Runtimes</a><ul>
+<li><a href="#kubernetes-local">Kubernetes Local</a></li>
+</ul>
+</li>
+<li><a href="#gitops-3">GitOps</a><ul>
+<li><a href="#local-sandboxes">Local Sandboxes</a></li>
+</ul>
+</li>
+<li><a href="#kubernetes-environments">Kubernetes Environments</a><ul>
+<li><a href="#tutorials-1">Tutorials</a></li>
+<li><a href="#k3d">k3d</a></li>
+</ul>
+</li>
+<li><a href="#platform-management">Platform Management</a><ul>
+<li><a href="#rancher-setup">Rancher Setup</a></li>
+</ul>
+</li>
+<li><a href="#product-updates-1">Product Updates</a><ul>
+<li><a href="#rancher-desktop">Rancher Desktop</a></li>
+</ul>
+</li>
+<li><a href="#tooling">Tooling</a><ul>
+<li><a href="#comparisons-1">Comparisons</a></li>
+</ul>
+</li>
+<li><a href="#platform-engineering">Platform Engineering</a></li>
+<li><a href="#hyperconverged-infrastructure-1">Hyperconverged Infrastructure</a><ul>
+<li><a href="#harvester-hci">Harvester HCI</a></li>
+</ul>
+</li>
+</ol>
+<h2 id="architectural-foundations">Architectural Foundations<a class="headerlink" href="#architectural-foundations" title="Permanent link">&para;</a></h2>
+<h3 id="kubernetes-tools">Kubernetes Tools<a class="headerlink" href="#kubernetes-tools" title="Permanent link">&para;</a></h3>
+<h4 id="general-reference">General Reference<a class="headerlink" href="#general-reference" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://www.cncf.io/certification/software-conformance">Certified Kubernetes offerings</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Certified Kubernetes offerings in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://medium.com/swlh/quick-fix-mounting-a-configmap-to-an-existing-volume-in-kubernetes-using-rancher-d01c472a10ad">medium: Quick Fix: Mounting a ConfigMap to an Existing Volume in Kubernetes' Using Rancher</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Quick Fix: Mounting a ConfigMap to an Existing Volume in Kubernetes' Using Rancher in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://blog.kubecost.com/blog/rancher-vs-kubernetes">blog.kubecost.com: Rancher vs Kubernetes: It’s not either or</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering <mark>blog.kubecost.com: Rancher vs Kubernetes: It’s not either or</mark> in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://akyriako.medium.com/provision-an-on-prems-kubernetes-cluster-with-rancher-terraform-and-ansible-e26e24059319">akyriako.medium.com: Provision an on-prems Kubernetes Cluster with Rancher,' Terraform and Ansible</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering <mark>akyriako.medium.com: Provision an on-prems Kubernetes Cluster with Rancher,' Terraform and Ansible</mark> in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://academy.rancher.com">Rancher Academy 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Rancher Academy 🌟 in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://medium.com/@alexellisuk/walk-through-install-kubernetes-to-your-raspberry-pi-in-15-minutes-84a8492dc95a">Install Kubernetes with k3sup and k3s</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Install Kubernetes with k3sup and k3s in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://en.sokube.ch/post/k3s-k3d-k8s-a-new-perfect-match-for-dev-and-test-1">en.sokube.ch: K3S + K3D = K8S : a new perfect match for dev and test</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering en.sokube.ch: K3S + K3D = K8S : a new perfect match for dev and test in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://nativecloud.dev/scale-out-your-raspberry-pi-k3s-cluster-to-the-cloud">nativecloud.dev: Scale out your Raspberry-Pi Kubernetes cluster to the cloud</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering nativecloud.dev: Scale out your Raspberry-Pi Kubernetes cluster to the cloud in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://medium.com/@ostridelabs/k8s-vs-k3s-the-comprehensive-difference-f7667d141c0">medium.com/@ostridelabs: k8s vs k3s: The Comprehensive Difference</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering <mark>medium.com/@ostridelabs: k8s vs k3s: The Comprehensive Difference</mark> in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://www.justinpolidori.it/posts/20220611_vcluster_auth">justinpolidori.it: LDAP authentication with Dex on Kubernetes with Vcluster' (K3S)</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering justinpolidori.it: LDAP authentication with Dex on Kubernetes with Vcluster' (K3S) in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://www.cncf.io/blog/2021/03/16/introduction-to-k3d-run-k3s-in-docker">cncf.io: Introduction to k3d: Run K3s in Docker</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Introduction to k3d: Run K3s in Docker in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://akyriako.medium.com/provision-a-high-availability-k3s-cluster-with-k3d-a7519f476c9c">akyriako.medium.com: Provision a Highly Available K3S Cluster with K3D</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering akyriako.medium.com: Provision a Highly Available K3S Cluster with K3D in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://medium.com/swlh/oke-clusters-from-rancher-2-0-409131ad1293">medium.com: OKE Clusters from Rancher 2.0</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com: OKE Clusters from Rancher 2.0 in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://medium.com/@jlamillan/rancher-deployed-kubernetes-on-oracle-cloud-infrastructure-6b0656cdaec0">medium.com: Rancher deployed Kubernetes on Oracle Cloud Infrastructure</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com: Rancher deployed Kubernetes on Oracle Cloud Infrastructure in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://kubernauts.sh">Kubernautic</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Kubernautic in the Kubernetes Tools ecosystem.</li>
+</ul>
+<h2 id="container-engines">Container Engines<a class="headerlink" href="#container-engines" title="Permanent link">&para;</a></h2>
+<h3 id="lightweight-runtimes">Lightweight Runtimes<a class="headerlink" href="#lightweight-runtimes" title="Permanent link">&para;</a></h3>
+<h4 id="archived-projects">Archived Projects<a class="headerlink" href="#archived-projects" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://github.com/rancher/k3c">K3C</a> <span class='md-tag md-tag--info'>⭐ 564</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f29b0e6d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 12 L 20 4 L 30 8 L 40 13 L 50 3" fill="none" stroke="url(#spark-grad-f29b0e6d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight features K3C as a classic lightweight container engine. Live grounding in 2026 confirms that K3C is an archived repository, serving primarily as an intellectual precursor to container daemon simplification and modular containerd patterns.</li>
+</ul>
+<h2 id="devsecops">DevSecOps<a class="headerlink" href="#devsecops" title="Permanent link">&para;</a></h2>
+<h3 id="gitops">GitOps<a class="headerlink" href="#gitops" title="Permanent link">&para;</a></h3>
+<h4 id="rancher-fleet">Rancher Fleet<a class="headerlink" href="#rancher-fleet" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://digitalis.io/post/kubernetes-gitops-continuous-integration-and-delivery-with-fleet-and-rancher">digitalis.io: Kubernetes GitOps Continuous Integration and Delivery with Fleet and Rancher</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details deployment architectures using SUSE Rancher's Fleet to drive large-scale Kubernetes cluster configuration via GitOps. Focuses on orchestrating deployments across hundreds of isolated down-stream clusters with dynamic group mapping and drift reconciliation. Essential reference for operationalizing standardized environments at edge scale.</li>
+</ul>
+<h2 id="edge-and-iot">Edge and IoT<a class="headerlink" href="#edge-and-iot" title="Permanent link">&para;</a></h2>
+<h3 id="application-lifecycle">Application Lifecycle<a class="headerlink" href="#application-lifecycle" title="Permanent link">&para;</a></h3>
+<h4 id="keptn">Keptn<a class="headerlink" href="#keptn" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2022)</strong> <a href="https://github.com/keptn-sandbox/keptn-on-k3s">Keptn Control Plane on k3s</a> <span class='md-tag md-tag--info'>⭐ 29</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7d169fca" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 6 L 20 3 L 30 4 L 40 11 L 50 12" fill="none" stroke="url(#spark-grad-7d169fca)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A sandbox project demonstrating how to host Keptn's automated cloud-native application delivery and lifecycle control plane directly on a highly efficient K3s edge engine.</li>
+</ul>
+<h3 id="architecture-patterns">Architecture Patterns<a class="headerlink" href="#architecture-patterns" title="Permanent link">&para;</a></h3>
+<h4 id="edge-data-store">Edge Data Store<a class="headerlink" href="#edge-data-store" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://thenewstack.io/how-k3s-portworx-and-calico-can-serve-as-a-foundation-of-cloud-native-edge-infrastructure">thenewstack.io: How K3s, Portworx, and Calico Can Serve as a Foundation of Cloud Native Edge Infrastructure</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A systems design blueprint exploring how to combine the lightweight footprint of K3s with Calico's secure CNI network policies and Portworx's persistent distributed block storage at the edge.</li>
+<li><strong>(2021)</strong> <a href="https://thenewstack.io/tutorial-configure-cloud-native-edge-infrastructure-with-k3s-calico-portworx">thenewstack.io: Tutorial - Configure Cloud Native Edge Infrastructure with K3s, Calico, Portworx</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A step-by-step tutorial configuring a complete edge topology. Leverages K3s orchestration, Calico eBPF-driven networking policies, and resilient Portworx data storage systems.</li>
+</ul>
+<h3 id="bare-metal">Bare Metal<a class="headerlink" href="#bare-metal" title="Permanent link">&para;</a></h3>
+<h4 id="home-lab">Home Lab<a class="headerlink" href="#home-lab" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2020)</strong> <a href="https://blog.nootch.net/post/kubernetes-at-home-with-k3s">blog.nootch.net: Kubernetes at Home With K3s</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A personal home-lab engineering log detailing bare-metal K3s installation, storage mounting strategies, and managing multi-tenant microservices on budget-friendly consumer hardware.</li>
+<li><strong>(2022)</strong> <a href="https://github.com/erebe/personal-server">github.com/erebe/personal-server: Personal server configuration with k3s' 🌟</a> <span class='md-tag md-tag--warning'>[NIX CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An infrastructure-as-code repository showcasing a highly efficient, custom home-lab or personal server automation template utilizing K3s and declarative configurations.</li>
+</ul>
+<h4 id="infrastructure">Infrastructure<a class="headerlink" href="#infrastructure" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2020)</strong> <a href="https://blog.alexellis.io/bare-metal-kubernetes-with-k3s">blog.alexellis.io: Bare-metal Kubernetes with K3s</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational tutorial by Alex Ellis on provisioning fully compliant bare-metal Kubernetes nodes on physical hardware using K3s, metalLB, and generic local network environments.</li>
+</ul>
+<h3 id="cicd-integration">CICD Integration<a class="headerlink" href="#cicd-integration" title="Permanent link">&para;</a></h3>
+<h4 id="gitlab-runners">GitLab Runners<a class="headerlink" href="#gitlab-runners" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://github.com/apk8s/k3s-gitlab">k3s-gitlab</a> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An automation repository dedicated to bootstrapping a local K3s runtime optimized for orchestrating GitLab CI runners, streamlining testing of containerized microservices.</li>
+</ul>
+<h3 id="cluster-provisioning">Cluster Provisioning<a class="headerlink" href="#cluster-provisioning" title="Permanent link">&para;</a></h3>
+<h4 id="ansible-roles">Ansible Roles<a class="headerlink" href="#ansible-roles" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2022)</strong> <a href="https://github.com/clanktron/k3s-ansible">clanktron/k3s-ansible</a> <span class='md-tag md-tag--info'>⭐ 36</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-4e0b7fc0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 12 L 20 12 L 30 2 L 40 3 L 50 9" fill="none" stroke="url(#spark-grad-4e0b7fc0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YML CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A robust, multi-node Ansible playbook developed to cleanly orchestrate K3s setups, handle system dependencies, bind node components, and extract active kubeconfigs automatically.</li>
+</ul>
+<h4 id="custom-bootstrappers">Custom Bootstrappers<a class="headerlink" href="#custom-bootstrappers" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://github.com/tinyzimmer/k3p">tinyzimmer/k3p</a> <span class='md-tag md-tag--info'>⭐ 13</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a93cce1f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 10 L 20 6 L 30 9 L 40 9 L 50 13" fill="none" stroke="url(#spark-grad-a93cce1f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight community helper tool designed to easily spin up and destroy transient K3s test structures inside local engineering environments or automated CI pipelines.</li>
+</ul>
+<h4 id="hetzner-cloud">Hetzner Cloud<a class="headerlink" href="#hetzner-cloud" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2024)</strong> <a href="https://gitlab.com/k3s_hetzner/k3s_hetzner">k3s_hetzner</a> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly optimized Terraform and shell module to quickly provision high-availability, low-cost K3s clusters on Hetzner Cloud virtual infrastructure, including private network bridging.</li>
+</ul>
+<h4 id="ssh-bootstrapping">SSH Bootstrapping<a class="headerlink" href="#ssh-bootstrapping" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2026)</strong> <a href="https://github.com/alexellis/k3sup"><strong><em>*k3sup (said 'ketchup')</em></strong>*</a> <span class='md-tag md-tag--info'>⭐ 7383</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-77035016" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 11 L 20 6 L 30 4 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-77035016)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An utility by Alex Ellis using SSH to provision K3s directly from local machines. It sets up secure, direct API configurations, bridges cluster nodes instantly, and configures target servers for operational readiness.</li>
+</ul>
+<h3 id="hardware">Hardware<a class="headerlink" href="#hardware" title="Permanent link">&para;</a></h3>
+<h4 id="raspberry-pi">Raspberry Pi<a class="headerlink" href="#raspberry-pi" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://dev.to/dashaun/k3s-on-raspberry-pi-and-clusterhat-m6k">dev.to/dashaun: K3s on Raspberry Pi and ClusterHat</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exploration of setting up K3s clusters on clustered Raspberry Pi physical hardware boards, examining ARM-based architecture performance and low-power microservice hosting loops.</li>
+</ul>
+<h3 id="high-availability">High Availability<a class="headerlink" href="#high-availability" title="Permanent link">&para;</a></h3>
+<h4 id="database-options">Database Options<a class="headerlink" href="#database-options" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://gabrieltanner.org/blog/ha-kubernetes-cluster-using-k3s">gabrieltanner.org: Setting up a HA Kubernetes cluster using K3S</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical tutorial demonstrating how to install high-availability K3s clusters by leveraging external SQL databases (like PostgreSQL) to store states as an alternative to etcd.</li>
+</ul>
+<h3 id="infrastructure-as-code">Infrastructure as Code<a class="headerlink" href="#infrastructure-as-code" title="Permanent link">&para;</a></h3>
+<h4 id="aws-cdk">AWS CDK<a class="headerlink" href="#aws-cdk" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2023)</strong> <a href="https://github.com/aws-samples/aws-cdk-for-k3scluster">github.com/aws-samples/cdk-k3s-cluster 🌟</a> <span class='md-tag md-tag--info'>⭐ 61</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a6fececa" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 13 L 20 4 L 30 10 L 40 4 L 50 9" fill="none" stroke="url(#spark-grad-a6fececa)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS Cloud Development Kit (CDK) resource package that constructs complete K3s virtual machine clusters on EC2, offering a highly economical alternative to managed AWS EKS services.</li>
+</ul>
+<h3 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h3>
+<h4 id="quick-starts">Quick Starts<a class="headerlink" href="#quick-starts" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2020)</strong> <a href="https://dev.to/abhinavd26/all-about-k3s-lightweight-kubernetes-3ell">dev.to: All about k3s - Lightweight Kubernetes 🌟</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A basic primer reviewing K3s' lightweight design principles, highlighting how removing non-essential drivers allows it to run smoothly on minimal RAM configurations.</li>
+</ul>
+<h3 id="lightweight-kubernetes">Lightweight Kubernetes<a class="headerlink" href="#lightweight-kubernetes" title="Permanent link">&para;</a></h3>
+<h4 id="comparisons">Comparisons<a class="headerlink" href="#comparisons" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2023)</strong> <a href="https://www.civo.com/blog/k8s-vs-k3s">K8s vs k3s</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural breakdown comparing upstream K8s clusters to lightweight K3s deployments. Evaluates memory overhead, structural dependency removals, and optimal use cases for edge architectures.</li>
+</ul>
+<h4 id="k3s">K3s<a class="headerlink" href="#k3s" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2026)</strong> <a href="https://k3s.io"><mark><strong>k3s</strong></mark></a> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly popular, fully compliant, lightweight Kubernetes distribution designed specifically for Edge, IoT, and DevSecOps CI pipelines. Packaged as a single binary, it replaces heavy etcd processes with flexible database options.</li>
+</ul>
+<h3 id="local-development">Local Development<a class="headerlink" href="#local-development" title="Permanent link">&para;</a></h3>
+<h4 id="traefik-ingress">Traefik Ingress<a class="headerlink" href="#traefik-ingress" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://codeburst.io/creating-a-local-development-kubernetes-cluster-with-k3s-and-traefik-proxy-7a5033cb1c2d">codeburst.io: Creating a Local Development Kubernetes Cluster with k3s and Traefik Proxy</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A quick-start configuration tutorial demonstrating how to build a responsive, low-footprint local testing cluster using K3s with the integrated Traefik proxy acting as the microservice ingress controller.</li>
+</ul>
+<h3 id="security">Security<a class="headerlink" href="#security" title="Permanent link">&para;</a></h3>
+<h4 id="hardening">Hardening<a class="headerlink" href="#hardening" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2022)</strong> <a href="https://itnext.io/running-k3s-workload-in-a-restricted-environment-c2f593d19005">itnext.io: Running K3S workload in a restricted environment</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized systems security post describing step-by-step procedures to configure K3s inside isolated, air-gapped corporate environments with strict proxy policies.</li>
+</ul>
+<h4 id="runtime-auditing">Runtime Auditing<a class="headerlink" href="#runtime-auditing" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://www.sysdig.com/blog/k3s-sysdig-falco">sysdig.com: K3s + Sysdig: Deploying and securing your cluster… in less than 8 minutes! 🌟</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical runtime safety guide showcasing integration of Sysdig monitoring agents and CNCF Falco threat detection engines inside light K3s edge frameworks.</li>
+</ul>
+<h2 id="edge-computing">Edge Computing<a class="headerlink" href="#edge-computing" title="Permanent link">&para;</a></h2>
+<h3 id="kubernetes-orchestration">Kubernetes Orchestration<a class="headerlink" href="#kubernetes-orchestration" title="Permanent link">&para;</a></h3>
+<h4 id="ansible-automation">Ansible Automation<a class="headerlink" href="#ansible-automation" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2024)</strong> <a href="https://github.com/timothystewart6/k3s-ansible"><strong>techno-tim/k3s-ansible</strong></a> <span class='md-tag md-tag--info'>⭐ 2986</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0bac0d0e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 11 L 20 11 L 30 9 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-0bac0d0e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight highlights k3s-ansible as a widely adopted playbook for HA K3s deployments. Live grounding in 2026 shows that while still highly useful for bare-metal home labs and edge clusters, active maintainer shifts require users to cross-verify configuration options against newer Ansible collections. It remains a reliable solution for provisioning multi-master etcd setups and edge nodes.</li>
+</ul>
+<h3 id="kubernetes-provisioning">Kubernetes Provisioning<a class="headerlink" href="#kubernetes-provisioning" title="Permanent link">&para;</a></h3>
+<h4 id="autok3s">AutoK3s<a class="headerlink" href="#autok3s" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2023)</strong> <a href="https://github.com/cnrancher/autok3s">cnrancher/autok3s</a> <span class='md-tag md-tag--info'>⭐ 938</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ec034e9c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 9 L 20 5 L 30 6 L 40 11 L 50 2" fill="none" stroke="url(#spark-grad-ec034e9c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight defines autok3s as a lightweight tool to provision and manage K3s clusters across various cloud providers. Live engineering truth in 2026 notes that its development has stabilized, functioning well for localized multi-cloud rapid prototyping. It provides an API and a CLI wrapper to simplify provisioning on AWS, Alibaba, and Tencent Cloud.</li>
+</ul>
+<h3 id="operating-systems">Operating Systems<a class="headerlink" href="#operating-systems" title="Permanent link">&para;</a></h3>
+<h4 id="archived-projects-1">Archived Projects (1)<a class="headerlink" href="#archived-projects-1" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2022)</strong> <a href="https://github.com/rancher/k3os"><strong><em>*k3OS</em></strong>*</a> <span class='md-tag md-tag--info'>⭐ 3490</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-5c055fb2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 2 L 20 8 L 30 7 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-5c055fb2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight highlights k3OS as a purpose-built operating system designed for K3s. Live engineering truth in 2026 confirms k3OS has been officially archived by Rancher. Platform engineers seeking an active declarative OS for container workloads have transitioned to alternatives like Talos Linux or MicroOS.</li>
+<li><strong>(2020)</strong> <a href="https://www.youtube.com/watch?v=2LNxGVS81mE"><strong>K3OS Value Add</strong></a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight details the conceptual value add of k3OS. Live grounding in 2026 reviews this video for historical context on single-purpose OS design, emphasizing immutable infrastructure patterns that have now matured into modern OS initiatives.</li>
+</ul>
+<h2 id="enterprise-infrastructure">Enterprise Infrastructure<a class="headerlink" href="#enterprise-infrastructure" title="Permanent link">&para;</a></h2>
+<h3 id="gitops-1">GitOps (1)<a class="headerlink" href="#gitops-1" title="Permanent link">&para;</a></h3>
+<h4 id="fleet-management">Fleet Management<a class="headerlink" href="#fleet-management" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2025)</strong> <a href="https://github.com/rancher/fleet"><strong>github.com/rancher/fleet</strong></a> <span class='md-tag md-tag--info'>⭐ 1708</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-771743dc" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 7 L 20 8 L 30 3 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-771743dc)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight presents Fleet as Rancher's GitOps engine for massive scale. Live grounding in 2026 verifies Fleet remains highly enterprise-stable, powering large-scale multi-cluster deployments across thousands of distributed edge devices by optimizing resource footprints compared to traditional GitOps operators.</li>
+</ul>
+<h4 id="tutorials">Tutorials<a class="headerlink" href="#tutorials" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://itnext.io/fleet-management-of-kubernetes-clusters-at-scale-ranchers-fleet-de161cc52325">itnext.io: Fleet Management of Kubernetes Clusters at Scale — Rancher’s Fleet</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight reviews Fleet's design for multi-cluster scaling. Live engineering truth in 2026 confirms that the fundamental architectures of GitOps bundles and target custom resource definitions (CRDs) outlined here continue to dictate how Fleet scales in production setups.</li>
+</ul>
+<h2 id="kubernetes-management">Kubernetes Management<a class="headerlink" href="#kubernetes-management" title="Permanent link">&para;</a></h2>
+<h3 id="case-studies">Case Studies<a class="headerlink" href="#case-studies" title="Permanent link">&para;</a></h3>
+<h4 id="finance">Finance<a class="headerlink" href="#finance" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2022)</strong> <a href="https://www.suse.com/c/rancher_blog/driving-kubernetes-adoption-in-finance-with-rancher">rancher.com: Driving Kubernetes Adoption in Finance with Rancher</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive case study exploring how banking and financial institutions adopt Rancher to support strict compliance requirements, air-gapped security deployments, and centralized multi-tenant access control.</li>
+</ul>
+<h3 id="documentation">Documentation<a class="headerlink" href="#documentation" title="Permanent link">&para;</a></h3>
+<h4 id="enterprise-manuals">Enterprise Manuals<a class="headerlink" href="#enterprise-manuals" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2026)</strong> <a href="https://www.rancher.com/docs/rancher/v2.x/en"><strong><em>*Rancher 2</em></strong>*</a> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The comprehensive user manual and operational documentation for SUSE Rancher v2.x. This reference is indispensable for understanding cluster recovery plans, API integrations, and networking topology guidelines.</li>
+</ul>
+<h3 id="education">Education<a class="headerlink" href="#education" title="Permanent link">&para;</a></h3>
+<h4 id="training">Training<a class="headerlink" href="#training" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2020)</strong> <a href="https://www.computing.co.uk/news/4015423/rancher-labs-launches-free-training-course-meet-surging-demand-kubernetes">Rancher Labs launches free training course to meet surging demand for Kubernetes skills</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — News coverage highlighting Rancher Labs' release of free structural training academies designed to meet surging market demands for cloud-native orchestration and DevSecOps tooling expertise.</li>
+</ul>
+<h3 id="hyperconverged-infrastructure">Hyperconverged Infrastructure<a class="headerlink" href="#hyperconverged-infrastructure" title="Permanent link">&para;</a></h3>
+<h4 id="harvester">Harvester<a class="headerlink" href="#harvester" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2022)</strong> <a href="https://www.zdnet.com/article/suse-harvester-deploying-virtual-machines-with-kubernetes">zdnet.com: SUSE Harvester: Deploying virtual machines with Kubernetes</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical assessment of SUSE Harvester, a modern hyperconverged infrastructure (HCI) solution built natively on Kubernetes components (using KubeVirt and Longhorn) to run virtual machines and containers simultaneously.</li>
+</ul>
+<h3 id="industry-history">Industry History<a class="headerlink" href="#industry-history" title="Permanent link">&para;</a></h3>
+<h4 id="funding">Funding<a class="headerlink" href="#funding" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2020)</strong> <a href="https://www.zdnet.com/article/rancher-labs-closes-40m-funding-round-to-run-kubernetes-everywhere">zdnet.com: Rancher Labs closes $40M funding round to "run Kubernetes everywhere"</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Historical coverage of Rancher Labs' $40 million Series D funding round in 2020. This pivotal event accelerated global enterprise Kubernetes adoption and set the stage for its acquisition by SUSE.</li>
+</ul>
+<h3 id="infrastructure-as-code-1">Infrastructure as Code (1)<a class="headerlink" href="#infrastructure-as-code-1" title="Permanent link">&para;</a></h3>
+<h4 id="government-rke2">Government RKE2<a class="headerlink" href="#government-rke2" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2026)</strong> <a href="https://github.com/ranchergovernment/rke2-aws-tf">github.com/rancherfederal/rke2-aws-tf</a> <span class='md-tag md-tag--info'>⭐ 91</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-fe6788b7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 12 L 20 8 L 30 9 L 40 8 L 50 8" fill="none" stroke="url(#spark-grad-fe6788b7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A production-ready, highly secure Terraform configuration designed for deploying hardened RKE2 clusters inside AWS environments. Conforms to government security and strict CIS compliance benchmarks.</li>
+</ul>
+<h4 id="rke">RKE<a class="headerlink" href="#rke" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://github.com/LukeMwila/bootstrap-rke-cluster-in-aws">Bootstrap RKE Kubernetes Cluster in AWS Environment</a> <span class='md-tag md-tag--info'>⭐ 19</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a8f25d51" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 8 L 20 2 L 30 7 L 40 5 L 50 6" fill="none" stroke="url(#spark-grad-a8f25d51)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An automation playbook demonstrating how to bootstrap highly available Rancher Kubernetes Engine (RKE) clusters in an AWS infrastructure environment using structured Terraform configurations.</li>
+</ul>
+<h3 id="introduction-1">Introduction (1)<a class="headerlink" href="#introduction-1" title="Permanent link">&para;</a></h3>
+<h4 id="quick-starts-1">Quick Starts (1)<a class="headerlink" href="#quick-starts-1" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://dzone.com/refcardz/getting-started-with-rancher">dzone: Getting Started With Rancher 🌟</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A quick-start Refcard outlining basic SUSE Rancher setup mechanisms, underlying architecture, CNI options, and step-by-step guidance on initial multi-cluster configuration.</li>
+</ul>
+<h3 id="monitoring-and-observability">Monitoring and Observability<a class="headerlink" href="#monitoring-and-observability" title="Permanent link">&para;</a></h3>
+<h4 id="alerting">Alerting<a class="headerlink" href="#alerting" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2023)</strong> <a href="https://www.suse.com/c/rancher_blog/custom-alerts-using-prometheus-queries">rancher.com: Custom alerts using Prometheus queries</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operational guide focusing on formulating custom alert conditions using PromQL queries in Rancher. Shows how to integrate metrics with alert systems and route notifications to modern receivers like Slack or PagerDuty.</li>
+</ul>
+<h3 id="multi-cluster-orchestration">Multi-Cluster Orchestration<a class="headerlink" href="#multi-cluster-orchestration" title="Permanent link">&para;</a></h3>
+<h4 id="enterprise-management">Enterprise Management<a class="headerlink" href="#enterprise-management" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2026)</strong> <a href="https://www.rancher.com"><mark>rancher.com</mark></a> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A leading enterprise Kubernetes platform facilitating multi-cluster operations across bare-metal, private, and public clouds. It centralizes cluster provisioning, authentication policies, access control (RBAC), and observability under a unified interface.</li>
+</ul>
+<h3 id="multi-tenancy">Multi-Tenancy<a class="headerlink" href="#multi-tenancy" title="Permanent link">&para;</a></h3>
+<h4 id="projects">Projects<a class="headerlink" href="#projects" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2023)</strong> <a href="https://www.suse.com/c/rancher_blog/my-first-impressions-with-suse-rancher-kubernetes-projects">suse.com: My First Impressions with SUSE Rancher Kubernetes Projects</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exploration of SUSE Rancher's 'Projects' abstraction layer. It explains how Projects group namespaces together, enabling administrative actions, security compliance, and centralized RBAC limits across microservices.</li>
+</ul>
+<h3 id="networking">Networking<a class="headerlink" href="#networking" title="Permanent link">&para;</a></h3>
+<h4 id="cni">CNI<a class="headerlink" href="#cni" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2025)</strong> <a href="https://www.rancher.com/docs/rancher/v2.x/en/faq/networking/cni-providers">Rancher CNI Providers 🌟</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Centralized reference for configuring Container Network Interface (CNI) providers within Rancher clusters. Details the networking benefits, security policies, and eBPF routing properties of Canal, Calico, Flannel, and Cilium.</li>
+</ul>
+<h3 id="product-updates">Product Updates<a class="headerlink" href="#product-updates" title="Permanent link">&para;</a></h3>
+<h4 id="gitops-2">GitOps (2)<a class="headerlink" href="#gitops-2" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2020)</strong> <a href="https://thenewstack.io/rancher-2-5-sets-out-to-be-the-stock-kubernetes-build-for-gitops">thenewstack.io: Rancher 2.5 Sets out to Be the Stock Kubernetes Build for GitOps</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An editorial evaluating Rancher 2.5's ambition to serve as the unified standard platform for GitOps continuous deployment, scaling from local systems up to millions of edge computing clusters.</li>
+</ul>
+<h4 id="rancher-25">Rancher 2.5<a class="headerlink" href="#rancher-25" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2020)</strong> <a href="https://www.devclass.com/ci-cd/2020/10/06/open-sauce-rancher-25-puts-new-ui-forward-gets-to-continuously-delivering/1628365">devclass.com: Open sauce - Rancher 2.5 puts new UI forward, gets to continuously delivering</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An archival product review documenting the launch of Rancher 2.5, which redesigned the platform's dashboard UI and introduced automated multi-cluster application delivery powered by Fleet GitOps tools.</li>
+</ul>
+<h4 id="rancher-26">Rancher 2.6<a class="headerlink" href="#rancher-26" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://www.devclass.com/containers/2021/09/02/rancher-presents-first-big-release-after-suse-acquisition-ups-game-on-hosted-cluster-provisioning/1627301">devclass.com: Rancher presents first big release after SUSE acquisition, ups game on hosted cluster provisioning</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A release overview tracking the launch of Rancher 2.6, the first landmark version following SUSE's acquisition. Highlights the platform's refined user experience and deep public cloud managed-cluster provisioning tools.</li>
+<li><strong>(2021)</strong> <a href="https://www.suse.com/c/intro-rancher-2-6-features">suse.com: SUSE Rancher 2.6 delivers interoperability across multi-cloud environments with redesigned user experience, hosted cluster support, and improved security posture</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official SUSE release summary detailing Rancher 2.6's new features. Focuses on improved multi-cloud interoperability, centralized security scanning, and simplified provisioning loops for EKS and GKE engines.</li>
+</ul>
+<h2 id="local-development-1">Local Development (1)<a class="headerlink" href="#local-development-1" title="Permanent link">&para;</a></h2>
+<h3 id="container-runtimes">Container Runtimes<a class="headerlink" href="#container-runtimes" title="Permanent link">&para;</a></h3>
+<h4 id="kubernetes-local">Kubernetes Local<a class="headerlink" href="#kubernetes-local" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2026)</strong> <a href="https://rancherdesktop.io"><strong>rancherdesktop.io</strong></a> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An open-source desktop application bringing Kubernetes and container management to macOS, Windows, and Linux. Built on K3s and nerdctl, it serves as a robust local developer alternative to commercial virtualization solutions.</li>
+</ul>
+<h3 id="gitops-3">GitOps (3)<a class="headerlink" href="#gitops-3" title="Permanent link">&para;</a></h3>
+<h4 id="local-sandboxes">Local Sandboxes<a class="headerlink" href="#local-sandboxes" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://github.com/gruberdev/local-gitops">github.com/gruberdev/local-gitops: Local Gitops 🌟</a> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight developer tool simulating local GitOps loops inside isolated testing frameworks. Ideal for testing Kubernetes state declarations on personal development hardware.</li>
+</ul>
+<h3 id="kubernetes-environments">Kubernetes Environments<a class="headerlink" href="#kubernetes-environments" title="Permanent link">&para;</a></h3>
+<h4 id="tutorials-1">Tutorials (1)<a class="headerlink" href="#tutorials-1" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://dev.to/iamunnip/building-a-local-kubernetes-cluster-using-k3d-2p3d">dev.to/iamunnip: Building a local Kubernetes cluster using k3d</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight provides a basic building block tutorial for local k3d clusters. Live grounding in 2026 confirms this guide is an excellent entry-level resource for developer onboarding, offering step-by-step instructions on setting up multi-node environments and local load balancers.</li>
+</ul>
+<h4 id="k3d">k3d<a class="headerlink" href="#k3d" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2025)</strong> <a href="https://github.com/k3d-io/k3d"><mark><strong>k3d</strong></mark></a> <span class='md-tag md-tag--info'>⭐ 6458</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1c4ba5ce" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 7 L 20 9 L 30 3 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-1c4ba5ce)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight features k3d as an indispensable utility for launching multi-node K3s clusters inside Docker containers. Live grounding in 2026 affirms k3d remains the leading choice for local multi-node Kubernetes orchestration, integration testing, and local CI/CD pipelines due to its rapid spin-up speeds and minimal resource footprint.</li>
+</ul>
+<h3 id="platform-management">Platform Management<a class="headerlink" href="#platform-management" title="Permanent link">&para;</a></h3>
+<h4 id="rancher-setup">Rancher Setup<a class="headerlink" href="#rancher-setup" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://itnext.io/kubernetes-rancher-cluster-manager-2-6-on-your-macos-laptop-with-k3d-k3s-in-5-min-8acdb94f3376">itnext.io: Kubernetes + Rancher Cluster Manager 2.6 on your macOS laptop with k3d/k3s in 5 min</a>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight presents a 5-minute guide to bootstrapping Rancher 2.6 on macOS using k3d. Live engineering review in 2026 notes that while versions have moved on to Rancher 2.x/3.x, the underlying orchestration concepts of nesting Rancher inside containerized K3s nodes remain relevant for legacy environments.</li>
+</ul>
+<h3 id="product-updates-1">Product Updates (1)<a class="headerlink" href="#product-updates-1" title="Permanent link">&para;</a></h3>
+<h4 id="rancher-desktop">Rancher Desktop<a class="headerlink" href="#rancher-desktop" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2022)</strong> <a href="https://www.suse.com/c/rancher_blog/rancher-desktop-1-0-0-has-arrived">suse.com: Rancher Desktop 1.0.0 Has Arrived</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official product launch overview of Rancher Desktop 1.0.0. Explains its technical ability to dynamically toggle Kubernetes API versions and switch runtimes easily between containerd and dockerd.</li>
+</ul>
+<h3 id="tooling">Tooling<a class="headerlink" href="#tooling" title="Permanent link">&para;</a></h3>
+<h4 id="comparisons-1">Comparisons (1)<a class="headerlink" href="#comparisons-1" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2022)</strong> <a href="https://blog.getambassador.io/best-tools-for-kubernetes-local-development-a-comprehensive-guide-3577d351d31e">blog.getambassador.io: Best Tools for Kubernetes Local Development: A Comprehensive Guide</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative market review assessing local Kubernetes developer pipelines including Minikube, Kind, and K3s. Highlights developer speed, local resources consumption, and production parity.</li>
+</ul>
+<h2 id="platform-engineering">Platform Engineering<a class="headerlink" href="#platform-engineering" title="Permanent link">&para;</a></h2>
+<h3 id="hyperconverged-infrastructure-1">Hyperconverged Infrastructure (1)<a class="headerlink" href="#hyperconverged-infrastructure-1" title="Permanent link">&para;</a></h3>
+<h4 id="harvester-hci">Harvester HCI<a class="headerlink" href="#harvester-hci" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2025)</strong> <a href="https://github.com/harvester/harvester"><mark>Harvester</mark></a> <span class='md-tag md-tag--info'>⭐ 5054</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1ef341f9" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 12 L 20 12 L 30 9 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-1ef341f9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight showcases Harvester as a modern open-source HCI built on KubeVirt and Longhorn. Live grounding in 2026 confirms Harvester has fully matured into an enterprise-stable alternative to VMware ESXi, enabling seamless co-habitation of VM and container environments under unified Kubernetes control planes.</li>
+</ul>
+<hr />
+<p>💡 <strong>Explore Related:</strong> <a href="kubernetes-storage.html">Kubernetes Storage</a> | <a href="kubernetes-alternatives.html">Kubernetes Alternatives</a> | <a href="kubernetes-client-libraries.html">Kubernetes Client Libraries</a></p>
 
-  <form class="md-feedback" name="feedback" hidden>
-    <fieldset>
-      <legend class="md-feedback__title">
-        Was this page helpful?
-      </legend>
-      <div class="md-feedback__inner">
-        <div class="md-feedback__list">
-          
-            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81"/></svg>
-            </button>
-          
-            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10m-6.5-4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m2 4.5c1.75 0 3.29.72 4.19 1.81l-1.42 1.42C14.32 16.5 13.25 16 12 16s-2.32.5-2.77 1.23l-1.42-1.42C8.71 14.72 10.25 14 12 14"/></svg>
-            </button>
-          
-        </div>
-        <div class="md-feedback__note">
-          
-            <div data-md-value="1" hidden>
-              
-              
-                
-              
-              
-              
-                
-                
-              
-              Thanks for your feedback!
-            </div>
-          
-            <div data-md-value="0" hidden>
-              
-              
-                
-              
-              
-              
-                
-                
-              
-              Thanks for your feedback! Help us improve this page by using our <a href="..." target=_blank>feedback form</a>.
-            </div>
-          
-        </div>
-      </div>
-    </fieldset>
-  </form>
+
+
+
+
+
+
+
+
+
 
 
                 
@@ -3291,8 +4123,6 @@
             </div>
           
           
-  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
-
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
@@ -3311,7 +4141,7 @@
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      2026 <a href="https://twitter.com/nubenetes">Nubenetes</a>, <a href="https://nubenetes.com/about/">about</a>.
+      Copyright &copy; 2026 Nubenetes Agentic Intelligence
     </div>
   
   
@@ -3332,8 +4162,8 @@
       
       
     
-    <a href="https://www.youtube.com/channel/UCnrc0CFnNJSG2Kt4Ohdr3UA/playlists?view=1" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M549.7 124.1c-6.2-23.7-24.8-42.3-48.3-48.6C458.9 64 288.1 64 288.1 64S117.3 64 74.7 75.5c-23.5 6.3-42 24.9-48.3 48.6C15 167 15 256.4 15 256.4s0 89.4 11.4 132.3c6.3 23.6 24.8 41.5 48.3 47.8C117.3 448 288.1 448 288.1 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zM232.2 337.6V175.2l142.7 81.2z"/></svg>
+    <a href="https://github.com/nubenetes/awesome-kubernetes" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
     </a>
   
     
@@ -3344,50 +4174,6 @@
       
     
     <a href="https://twitter.com/nubenetes" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3"/></svg>
-    </a>
-  
-    
-    
-    
-    
-      
-      
-    
-    <a href="https://github.com/nubenetes" target="_blank" rel="noopener" title="github.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M202.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1M496 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2m-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3m-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1"/></svg>
-    </a>
-  
-    
-    
-    
-    
-      
-      
-    
-    <a href="https://speakerdeck.com/nubenetes/stars" target="_blank" rel="noopener" title="speakerdeck.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M213.9 296H100c-26.5 0-52-10.5-70.7-29.3S0 222.5 0 196s10.5-52 29.3-70.7S73.5 96 100 96h132.8c10.6 0 20.8 4.2 28.3 11.7s11.7 17.7 11.7 28.3-4.2 20.8-11.7 28.3-17.7 11.7-28.3 11.7H98c-26.5 0-26.4 40 0 40h113.8c26.5 0 52 10.5 70.7 29.3s29.3 44.2 29.3 70.7-10.5 52-29.3 70.7-44.2 29.3-70.7 29.3H40c-10.6 0-20.8-4.2-28.3-11.7S0 386.6 0 376s4.2-20.8 11.7-28.3S29.4 336 40 336h173.9c26.5 0 26.5-40 0-40M298 416c13.5-9.2 25-21 33.8-34.7s14.7-29.2 17.3-45.3h64.6c2.6 0 5.2-.6 7.6-1.6s4.6-2.5 6.4-4.4 3.3-4.1 4.2-6.5 1.5-5 1.4-7.6v-120c0-2.6-.5-5.2-1.4-7.6s-2.4-4.6-4.2-6.5-4-3.3-6.4-4.4-5-1.6-7.6-1.6H296.5c9.7-11.1 15-25.3 15-40s-5.3-28.9-15-40h136.9c43.4 0 78.6 35.8 78.6 80v160c0 44.2-35.2 80-78.6 80z"/></svg>
-    </a>
-  
-    
-    
-    
-    
-      
-      
-    
-    <a href="https://www.slideshare.net/nubenetes/favorites" target="_blank" rel="noopener" title="www.slideshare.net" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M187.9 153.7c-34 0-61.7 25.7-61.7 57.7 0 31.7 27.7 57.7 61.7 57.7s61.7-26 61.7-57.7c0-32-27.7-57.7-61.7-57.7m143.4 0c-34 0-61.7 25.7-61.7 57.7 0 31.7 27.7 57.7 61.7 57.7 34.3 0 61.7-26 61.7-57.7.1-32-27.4-57.7-61.7-57.7m156.6 90-6 4.3V49.7c0-27.4-20.6-49.7-46-49.7H76.8c-25.4 0-46 22.3-46 49.7V248c-2-1.4-4.3-2.9-6.3-4.3-15.1-10.6-25.1 4-16 17.7 18.3 22.6 53.1 50.3 106.3 72-56.3 191.7 137.4 222.3 134.3 124.1 0-.7.3-56.6.3-96.6 5.1 1.1 9.4 2.3 13.7 3.1 0 39.7.3 92.8.3 93.5-3.1 98.3 190.6 67.7 134.3-124 53.1-21.7 88-49.4 106.3-72 9.1-13.8-.9-28.3-16.1-17.8m-30.5 19.2c-68.9 37.4-128.3 31.1-160.6 29.7-23.7-.9-32.6 9.1-33.7 24.9-10.3-7.7-18.6-15.5-20.3-17.1-5.1-5.4-13.7-8-27.1-7.7-31.7 1.1-89.7 7.4-157.4-28V72.3c0-34.9 8.9-45.7 40.6-45.7h317.7c30.3 0 40.9 12.9 40.9 45.7v190.6z"/></svg>
-    </a>
-  
-    
-    
-    
-    
-      
-      
-    
-    <a href="https://twitter.com/redhatspain" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3"/></svg>
     </a>
   
@@ -3414,90 +4200,15 @@
     </div>
     
     
-      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
-        <div class="md-consent__overlay"></div>
-        <aside class="md-consent__inner">
-          <form class="md-consent__form md-grid md-typeset" name="consent">
-            
-
-
-  
-
-
-<h4>Cookie consent</h4>
-<p>We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to make our documentation better.</p>
-<input class="md-toggle" type="checkbox" id="__settings" >
-<div class="md-consent__settings">
-  <ul class="task-list">
-    
-    
-      
-        
-  
-  
-    
-    
-  
-  <li class="task-list-item">
-    <label class="task-list-control">
-      <input type="checkbox" name="analytics" checked>
-      <span class="task-list-indicator"></span>
-      Google Analytics
-    </label>
-  </li>
-
-      
-    
-    
-      
-        
-  
-  
-    
-    
-  
-  <li class="task-list-item">
-    <label class="task-list-control">
-      <input type="checkbox" name="github" checked>
-      <span class="task-list-indicator"></span>
-      GitHub
-    </label>
-  </li>
-
-      
-    
-    
-  </ul>
-</div>
-<div class="md-consent__controls">
-  
-    
-      <button class="md-button md-button--primary">Accept</button>
-    
-    
-    
-  
-    
-    
-    
-      <label class="md-button" for="__settings">Manage settings</label>
-    
-  
-</div>
-          </form>
-        </aside>
-      </div>
-      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
-    
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "navigation.top", "content.code.annotate", "content.code.copy", "content.tabs.link", "navigation.prune", "navigation.indexes", "search.highlight", "search.share", "search.suggest"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.action.view", "content.action.edit", "content.tooltips", "navigation.prune", "toc.integrate"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
       <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="javascript/extra.js"></script>
+        <script src="static/v2_filter.js"></script>
       
     
   </body>

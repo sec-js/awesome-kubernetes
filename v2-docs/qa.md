@@ -3,6 +3,73 @@
 !!! info "Architectural Context"
     Detailed reference for QA/TestOps - Continuous Testing. Software Quality Test Automation in the context of Platform & Site Reliability.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Native](#cloud-native)
+  - [Kubernetes](#kubernetes)
+    - [Benchmarking](#benchmarking)
+    - [Compliance](#compliance)
+    - [Operator Testing](#operator-testing)
+  - [Kubernetes Internals](#kubernetes-internals)
+    - [Code Quality and Governance](#code-quality-and-governance)
+  - [Microservices Architecture](#microservices-architecture)
+    - [Component Testing](#component-testing)
+    - [Quality Management](#quality-management)
+  - [Multi-Cloud Strategies](#multi-cloud-strategies)
+    - [Performance Engineering](#performance-engineering)
+1. [DevOps](#devops)
+  - [Testing Pipelines](#testing-pipelines)
+    - [Continuous Testing](#continuous-testing)
+1. [Developer Experience](#developer-experience)
+  - [Testing](#testing)
+    - [Integration Testing](#integration-testing)
+1. [Frontend Development](#frontend-development)
+  - [Testing Pipelines](#testing-pipelines-1)
+    - [CI Workflows](#ci-workflows)
+1. [Infrastructure](#infrastructure)
+  - [Containerization](#containerization)
+    - [Docker Testing](#docker-testing)
+  - [Diagnostics](#diagnostics)
+    - [Tracing](#tracing)
+1. [Security](#security)
+  - [CICD Integration](#cicd-integration)
+    - [Jenkins](#jenkins)
+  - [Static Analysis](#static-analysis)
+    - [AI-assisted](#ai-assisted)
+    - [Fuzzing](#fuzzing)
+    - [SAST](#sast)
+1. [Software Engineering](#software-engineering)
+  - [Architecture](#architecture)
+    - [Error Handling Paradigms](#error-handling-paradigms)
+  - [Backend Development](#backend-development)
+    - [Python Testing Workflows](#python-testing-workflows)
+  - [Methodology](#methodology)
+    - [Engineering Culture](#engineering-culture)
+  - [Quality Assurance](#quality-assurance)
+    - [SQA Frameworks](#sqa-frameworks)
+  - [Testing](#testing-1)
+    - [API Testing Principles](#api-testing-principles)
+    - [Code Review](#code-review)
+    - [Concepts](#concepts)
+    - [Industry Evolution](#industry-evolution)
+    - [Integration Testing](#integration-testing-1)
+    - [Performance](#performance)
+    - [Performance and AB Testing](#performance-and-ab-testing)
+    - [Release Testing](#release-testing)
+    - [Reporting](#reporting)
+    - [Satire](#satire)
+    - [Test Automation Repositories](#test-automation-repositories)
+    - [Test Management](#test-management)
+    - [Unit Testing](#unit-testing)
+  - [Testing Frameworks](#testing-frameworks)
+    - [JVM Ecosystem](#jvm-ecosystem)
+    - [Java Ecosystem](#java-ecosystem)
+  - [Testing Methodology](#testing-methodology)
+    - [Component Isolation](#component-isolation)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -42,10 +109,10 @@
   - **(2020)** [kubench](https://github.com/vincentserpoul/kubench) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Orchestration framework for benchmark testing execution on Kubernetes. Measures cluster CPU, memory, and network performance, though currently dormant.
 #### Compliance
 
-  - **(2023)** [sonobuoy](https://github.com/vmware-tanzu/sonobuoy) <span class='md-tag md-tag--info'>⭐ 3043</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Diagnostic tool created by VMware Tanzu that facilitates understanding of Kubernetes cluster state by running conformance tests, security benchmarks, and custom extensions.
+  - **(2023)** [sonobuoy](https://github.com/vmware-tanzu/sonobuoy) <span class='md-tag md-tag--info'>⭐ 3043</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-90fca949" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 11 L 20 10 L 30 13 L 40 8 L 50 4" fill="none" stroke="url(#spark-grad-90fca949)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Diagnostic tool created by VMware Tanzu that facilitates understanding of Kubernetes cluster state by running conformance tests, security benchmarks, and custom extensions.
 #### Operator Testing
 
-  - **(2024)** [Chainsaw - The ultimate end to end testing tool for Kubernetes operators](https://github.com/kyverno/chainsaw) <span class='md-tag md-tag--info'>⭐ 585</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kyverno Chainsaw is a specialized declarative end-to-end testing framework tailored for Kubernetes operators and controllers. It simplifies assertions, resource creation, and mutation validation without requiring complex Golang suite writing.
+  - **(2024)** [Chainsaw - The ultimate end to end testing tool for Kubernetes operators](https://github.com/kyverno/chainsaw) <span class='md-tag md-tag--info'>⭐ 585</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-821d14fe" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 6 L 20 10 L 30 10 L 40 13 L 50 4" fill="none" stroke="url(#spark-grad-821d14fe)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kyverno Chainsaw is a specialized declarative end-to-end testing framework tailored for Kubernetes operators and controllers. It simplifies assertions, resource creation, and mutation validation without requiring complex Golang suite writing.
 ### Kubernetes Internals
 
 #### Code Quality and Governance
@@ -77,7 +144,7 @@
 
 #### Integration Testing
 
-  - **(2025)** [==testcontainers-spring-boot 🌟==](https://github.com/PlaytikaOSS/testcontainers-spring-boot) <span class='md-tag md-tag--info'>⭐ 876</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A powerful open-source library that automates the lifecycle of Docker containers (PostgreSQL, Kafka, Redis) during JUnit test execution. It eliminates the need for shared database environments and mock frameworks, leading to high-fidelity integration tests. Today, this tool is universally recognized as a best-practice asset for CI/CD test suites across the Spring ecosystem.
+  - **(2025)** [==testcontainers-spring-boot 🌟==](https://github.com/PlaytikaOSS/testcontainers-spring-boot) <span class='md-tag md-tag--info'>⭐ 876</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-77a3557a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 2 L 20 3 L 30 6 L 40 9 L 50 4" fill="none" stroke="url(#spark-grad-77a3557a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A powerful open-source library that automates the lifecycle of Docker containers (PostgreSQL, Kafka, Redis) during JUnit test execution. It eliminates the need for shared database environments and mock frameworks, leading to high-fidelity integration tests. Today, this tool is universally recognized as a best-practice asset for CI/CD test suites across the Spring ecosystem.
 ## Frontend Development
 
 ### Testing Pipelines (1)
@@ -111,7 +178,7 @@
   - **(2023)** [Metabob](https://metabob.com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AI-assisted static code analysis platform designed to detect complex logical anomalies and security vulnerabilities in repositories using graph-based neural representations of code syntax.
 #### Fuzzing
 
-  - **(2021)** [google/clusterfuzzlite 🌟](https://github.com/google/clusterfuzzlite) <span class='md-tag md-tag--info'>⭐ 528</span> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Lightweight alternative to ClusterFuzz designed specifically for CI/CD environments. Easily executes security fuzz testing on target APIs to find memory leaks, crashes, and buffer overflows.
+  - **(2021)** [google/clusterfuzzlite 🌟](https://github.com/google/clusterfuzzlite) <span class='md-tag md-tag--info'>⭐ 528</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d3e52599" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 9 L 20 7 L 30 12 L 40 8 L 50 13" fill="none" stroke="url(#spark-grad-d3e52599)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Lightweight alternative to ClusterFuzz designed specifically for CI/CD environments. Easily executes security fuzz testing on target APIs to find memory leaks, crashes, and buffer overflows.
   - **(2021)** [thenewstack.io: Google Introduces ClusterFuzzLite Security Tool for CI/CD](https://thenewstack.io/google-introduces-clusterfuzzlite-security-tool-for-ci-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural review covering Google's release of ClusterFuzzLite, highlighting its strategic value in shifting fuzz testing left directly into GitHub Actions or other CI runners.
 #### SAST
 
@@ -137,7 +204,7 @@
 
 #### SQA Frameworks
 
-  - **(2026)** [**Awesome Software Quality**](https://github.com/ligurio/sqa-wiki) <span class='md-tag md-tag--info'>⭐ 2315</span> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An elite repository tracking software quality assurance wikis, tools, and paradigms. Focuses on system profiling frameworks, regression suites, and static analysis platforms designed to secure microservice delivery channels.
+  - **(2026)** [**Awesome Software Quality**](https://github.com/ligurio/sqa-wiki) <span class='md-tag md-tag--info'>⭐ 2315</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6a51332f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 5 L 20 3 L 30 13 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-6a51332f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An elite repository tracking software quality assurance wikis, tools, and paradigms. Focuses on system profiling frameworks, regression suites, and static analysis platforms designed to secure microservice delivery channels.
 ### Testing (1)
 
 #### API Testing Principles
@@ -146,7 +213,7 @@
   - **(2022)** [softwaretestingsapiens.com: Roadmap to learn API Testing in Just 30 days](https://www.softwaretestingsapiens.com/roadmap-to-learn-api-testing) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structured learning path for mastering API-level automation testing. Guides developers from core HTTP methods to building custom suite environments using modern testing engines.
 #### Code Review
 
-  - **(2023)** [**reviewdog - A code review dog who keeps your codebase healthy.**](https://github.com/reviewdog/reviewdog) <span class='md-tag md-tag--info'>⭐ 9365</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Automated code review bot designed to parse error inputs from arbitrary linter systems and post inline comments directly back to pull requests on GitHub, GitLab, or Bitbucket.
+  - **(2023)** [**reviewdog - A code review dog who keeps your codebase healthy.**](https://github.com/reviewdog/reviewdog) <span class='md-tag md-tag--info'>⭐ 9365</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f28c7cdf" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 13 L 20 5 L 30 11 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-f28c7cdf)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Automated code review bot designed to parse error inputs from arbitrary linter systems and post inline comments directly back to pull requests on GitHub, GitLab, or Bitbucket.
 #### Concepts
 
   - **(2021)** [circleci.com: Unit testing vs integration testing 🌟](https://circleci.com/blog/unit-testing-vs-integration-testing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Educational manual detailing fundamental core differences, performance trade-offs, and ROI metrics between rapid isolated unit tests and broader integrated system tests.
@@ -169,10 +236,10 @@
   - **(2021)** [launchdarkly.com: Release Testing Explained 🌟](https://launchdarkly.com/blog/get-a-detailed-explanation-of-release-testing-several)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Conceptual breakdown of release testing paradigms within CI/CD pipelines. Distinguishes between deployment and release phases, illustrating how progressive delivery and feature flag architectures mitigate systemic runtime risks in production.
 #### Reporting
 
-  - **(2023)** [**Allure Report 🌟**](https://github.com/allure-framework/allure2) <span class='md-tag md-tag--info'>⭐ 5422</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A flexible, multi-language test report tool providing clean hierarchical representation of execution steps, attachments, and historical telemetry. Integrates with standard test runners across modern ecosystems.
+  - **(2023)** [**Allure Report 🌟**](https://github.com/allure-framework/allure2) <span class='md-tag md-tag--info'>⭐ 5422</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-99a896eb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 11 L 20 9 L 30 12 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-99a896eb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A flexible, multi-language test report tool providing clean hierarchical representation of execution steps, attachments, and historical telemetry. Integrates with standard test runners across modern ecosystems.
 #### Satire
 
-  - **(2016)** [==auchenberg/volkswagen==](https://github.com/auchenberg/volkswagen) <span class='md-tag md-tag--info'>⭐ 15447</span> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A satirical utility that detects if a test suite is running inside a CI pipeline and automatically forces a green/passing status. A humorous warning on metrics tampering.
+  - **(2016)** [==auchenberg/volkswagen==](https://github.com/auchenberg/volkswagen) <span class='md-tag md-tag--info'>⭐ 15447</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-fe4e1765" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 6 L 20 10 L 30 4 L 40 13 L 50 5" fill="none" stroke="url(#spark-grad-fe4e1765)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A satirical utility that detects if a test suite is running inside a CI pipeline and automatically forces a green/passing status. A humorous warning on metrics tampering.
 #### Test Automation Repositories
 
   - **(2026)** [==Awesome Test Automation==](https://github.com/atinfo/awesome-test-automation) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensive curated directory compiling top-tier testing tools, frameworks, and continuous validation resources. Features directories for end-to-end web tests, load injection suites, API contract testers, and mobile automation libraries.
@@ -199,5 +266,5 @@
   - **(2022)** [thenewstack.io: 7 Benefits of Testing in Isolation](https://thenewstack.io/7-benefits-of-testing-in-isolation) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines seven architectural advantages of isolated component testing. Details why using service mocks, localized databases, and sandboxed test environments accelerates regression tracking and simplifies dependency configurations.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [Test Automation Frameworks](./test-automation-frameworks.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Developerportals](./developerportals.md) | [SRE](./sre.md)
 

@@ -3,6 +3,15 @@
 !!! info "Architectural Context"
     Detailed reference for OAuth2 in the context of Hardened Infrastructure.
 
+## Table of Contents
+
+1. [Security](#security)
+  - [IAM](#iam)
+    - [Protocols](#protocols)
+  - [Identity and Access](#identity-and-access)
+    - [OAuth2](#oauth2-1)
+    - [Spring Security](#spring-security)
+
 ## Security
 
 ### IAM
@@ -21,5 +30,5 @@
   - **(2022)** [freecodecamp.org: How to Implement an OAuth2 Resource Server with Spring Security](https://www.freecodecamp.org/news/oauth2-resourceserver-with-spring-security) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A hands-on implementation tutorial detailing the deployment of an OAuth2-compliant resource server using Spring Security. It guides through configuring middleware to parse and authenticate incoming JWT requests.
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Ansible](./ansible.md)
+💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Chef](./chef.md)
 

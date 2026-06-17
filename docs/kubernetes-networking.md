@@ -40,8 +40,8 @@
 - [blog.alexellis.io: Get a LoadBalancer for your private Kubernetes cluster](https://blog.alexellis.io/ingress-for-your-local-kubernetes-cluster)
 - [dustinspecker.com: How Do Kubernetes and Docker Create IP Addresses?!](https://dustinspecker.com/posts/how-do-kubernetes-and-docker-create-ip-addresses)
 - [youtube: Kubernetes Ingress Explained Completely For Beginners](https://www.youtube.com/watch?v=VicH6KojwCI)
-- [AWS and Kubernetes Networking Options and Trade-Offs (part 1)](https://www.weave.works/)
-- [AWS and Kubernetes Networking Options and Trade-Offs (part 2)](https://www.weave.works/)
+- [AWS and Kubernetes Networking Options and Trade-Offs (part 1)](https://www.weave.works)
+- [AWS and Kubernetes Networking Options and Trade-Offs (part 2)](https://www.weave.works)
 - [medium: Service Types in Kubernetes? 🌟](https://medium.com/faun/service-types-in-kubernetes-24a1587677d6) A Service enables network access to a set of Pods in Kubernetes.
 - [containo.us: Kubernetes Ingress & Service API Demystified](https://traefik.io/blog/kubernetes-ingress-service-api-demystified)
 - [speakerdeck.com: Kubernetes and networks. Why is this so dan hard? 🌟](https://speakerdeck.com/thockin/kubernetes-and-networks-why-is-this-so-dang-hard)
@@ -53,7 +53,7 @@
 - [medium: How to setup Hetzner load balancer on a Kubernetes cluster](https://medium.com/@jmrobles/how-to-setup-hetzner-load-balancer-on-a-kubernetes-cluster-2ce79ca4a27b)
 - [zhimin-wen.medium.com: Sticky Sessions in Kubernetes 🌟](https://zhimin-wen.medium.com/sticky-sessions-in-kubernetes-56eb0e8f257d)
 - [infoq.com: Kubernetes Ingress Is Now Generally Available](https://www.infoq.com/news/2020/09/kubernetes-ingress-ga)
-- [Learnk8s: Comparison of Kubernetes Ingress Controllers 🌟🌟](https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit#gid=907731238) How do you choose the *right* Kubernetes Ingress controller when: Not all Ingress controllers support UDP, Only Kong has a free LDAP integration, Nginx Ingress and HAProxy are the only two ingress without CRDs.
+- [Learnk8s: Comparison of Kubernetes Ingress Controllers 🌟🌟](https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit) How do you choose the *right* Kubernetes Ingress controller when: Not all Ingress controllers support UDP, Only Kong has a free LDAP integration, Nginx Ingress and HAProxy are the only two ingress without CRDs.
 - [blog.alexellis.io: Get kubectl access to your private cluster from anywhere](https://blog.alexellis.io/get-private-kubectl-access-anywhere)
 - [jmrobles.medium.com: How to setup Hetzner load balancer on a Kubernetes cluster](https://jmrobles.medium.com/how-to-setup-hetzner-load-balancer-on-a-kubernetes-cluster-2ce79ca4a27b)
 - [kubernetes.io: Scaling Kubernetes Networking With EndpointSlices](https://kubernetes.io/blog/2020/09/02/scaling-kubernetes-networking-with-endpointslices) EndpointSlices are a new Kubernetes API that provides a scalable and extensible alternative to the Endpoints API.
@@ -339,7 +339,7 @@ Cilium allows users to specify an egress NAT policy
 - [Kubernetes Networking](https://kubernetes.io/docs/concepts/cluster-administration/networking)
 - Overlay Network plugins:
     - [Flannel](https://github.com/flannel-io/flannel)
-    - [Weave-net](https://www.weave.works/)
+    - [Weave-net](https://www.weave.works)
 - Routed Network Plugins:
     - [AWS-VPC](https://en.wikipedia.org/wiki/Amazon_Virtual_Private_Cloud)
     - [kube-router](https://www.kube-router.io)

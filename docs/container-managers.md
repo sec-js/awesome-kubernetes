@@ -1,4 +1,4 @@
-# Container Runtimes/Managers, Base Images and Container Tools. Podman, Buildah & Skopeo
+# Container Runtimes/Managers, Base Images and Container Tools. Podman, Buildah and Skopeo
 
 1. [Introduction](#introduction)
 2. [OCI Project. Open Container Initiative](#oci-project-open-container-initiative)
@@ -99,7 +99,7 @@
     - New auto-update capabilities enable you to use Podman in edge use cases, update workloads once they are connected to the network, and roll back failures to a known-good state.
     - Podman: the best tool for running containers on the edge servers. On the edge you want no human intervention. Podman+systemd support auto-update of container image & rollback, when update fails.
 - [opensource.com: Get podman up and running on Windows using Linux](https://opensource.com/article/21/10/podman-windows-wsl) Enable WSL 2 guests to run the podman, skopeo, or buildah commands from within Windows using the Linux distribution of your choice.
-- [crunchtools.com: Should I Use Docker Compose Or Podman Compose With Podman?](http://crunchtools.com/should-i-use-docker-compose-or-podman-compose-with-podman)
+- [crunchtools.com: Should I Use Docker Compose Or Podman Compose With Podman?](https://crunchtools.com/should-i-use-docker-compose-or-podman-compose-with-podman)
 - [medium.com: Exploring Docker alternative — Podman](https://medium.com/techbeatly/exploring-docker-alternative-podman-14674c990311)
 - [darumatic.com: Podman - Introduction 🌟](https://darumatic.com/blog/podman_introduction)
 - [redhat.com: Build Kubernetes pods with Podman play kube](https://www.redhat.com/en/blog/podman-play-kube-updates) Enhancements include building images and tearing down pods with play kube and support for Kubernetes-style init containers.
@@ -135,7 +135,7 @@
 
 - [Introducing the Red Hat Universal Base Image 🌟](https://www.redhat.com/en/blog/introducing-red-hat-universal-base-image)
 - [What is Red Hat Universal Base Image?](https://developers.redhat.com/blog/2019/10/09/what-is-red-hat-universal-base-image)
-- [RH Universal Base Image FAQ](https://developers.redhat.com/articles/ubi-faq/#resources)
+- [RH Universal Base Image FAQ](https://developers.redhat.com/articles/ubi-faq)
 - [Red Hat Ecosystem Catalog](https://catalog.redhat.com/en/software/containers/explore)
 - [ubi-micro: RHEL tiny images to build containers 🌟](https://github.com/fatherlinux/ubi-micro)
 - [developers.redhat.com: How to pick the right container base image](https://developers.redhat.com/blog/2021/04/13/how-to-pick-the-right-container-base-image)

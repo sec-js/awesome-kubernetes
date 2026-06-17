@@ -140,7 +140,7 @@ etc|N/A|N/A|N/A
 ## Jakarta EE
 
 - [developers.redhat.com: Jakarta EE 8: The new era of Java EE explained](https://developers.redhat.com/blog/2019/09/12/jakarta-ee-8-the-new-era-of-java-ee-explained)
-- [developers.redhat.com: Making Java programs cloud-ready, Part 1: An incremental approach using Jakarta EE and MicroProfile](https://developers.redhat.com/articles/2021/06/25/making-java-programs-cloud-ready-part-1-incremental-approach-using-jakarta-ee#)
+- [developers.redhat.com: Making Java programs cloud-ready, Part 1: An incremental approach using Jakarta EE and MicroProfile](https://developers.redhat.com/articles/2021/06/25/making-java-programs-cloud-ready-part-1-incremental-approach-using-jakarta-ee)
 - [developers.redhat.com: Making Java programs cloud-ready, Part 2: Upgrade the legacy Java application to Jakarta EE](https://developers.redhat.com/articles/2021/06/28/making-java-programs-cloud-ready-part-2-upgrade-legacy-java-application-jakarta)
 
 ## Eclipse MicroProfile
@@ -158,9 +158,9 @@ optimizing Enterprise Java for the microservices architecture.
 ### Server Vendors providing MicroProfile runtimes
 
 - [WebSphere Liberty from IBM](https://developer.ibm.com/wasdev/websphere-liberty)
-- [TomEE from Tomitribe](http://tomee.apache.org)
+- [TomEE from Tomitribe](https://tomee.apache.org)
 - [Payara](https://payara.fish)
-- [RedHat’s WildFly Swarm](http://wildfly-swarm.io)
+- [RedHat’s WildFly Swarm](https://wildfly-swarm.io)
 - [KumuluzEE](https://ee.kumuluz.com)
 
 ## Hibernate
@@ -169,7 +169,7 @@ optimizing Enterprise Java for the microservices architecture.
 - [stackoverflow.com: How to map a MySQL JSON column to a Java entity property using JPA and Hibernate](https://stackoverflow.com/questions/44308167/how-to-map-a-mysql-json-column-to-a-java-entity-property-using-jpa-and-hibernate)
 - [vladmihalcea.com: How to encrypt and decrypt data with Hibernate](https://vladmihalcea.com/how-to-encrypt-and-decrypt-data-with-hibernate)
 - [vladmihalcea.com: Optimistic vs. Pessimistic Locking (hibernate)](https://vladmihalcea.com/optimistic-vs-pessimistic-locking)
-- [==stackoverflow.com: What are the differences between the different saving methods in Hibernate?==](https://stackoverflow.com/questions/161224/what-are-the-differences-between-the-different-saving-methods-in-hibernate/54907032?stw=2#54907032)
+- [==stackoverflow.com: What are the differences between the different saving methods in Hibernate?==](https://stackoverflow.com/questions/161224/what-are-the-differences-between-the-different-saving-methods-in-hibernate/54907032?stw=2)
 
 ## Spring
 
@@ -200,7 +200,7 @@ optimizing Enterprise Java for the microservices architecture.
 - [piotrminkowski.com: Best practices for microservices on kubernetes 🌟](https://piotrminkowski.com/2020/03/10/best-practices-for-microservices-on-kubernetes)
 - [piotrminkowski.com: Spring Boot Autoscaling on kubernetes 🌟](https://piotrminkowski.com/2020/11/05/spring-boot-autoscaling-on-kubernetes)
 - [spring.io: What's new in Spring Boot 2.4 🌟](https://spring.io/blog/2021/01/17/what-s-new-in-spring-boot-2-4)
-    - [Changes to Application properties/yaml](https://www.youtube.com/watch?v=lgyO9C9zdrg&feature=youtu.be?t=1489s)
+    - [Changes to Application properties/yaml](https://www.youtube.com/watch?v=lgyO9C9zdrg&feature=youtu.be)
 - [arnoldgalovics.com: Java and Spring Boot multiline log support for Fluentd (EFK stack)](https://arnoldgalovics.com/java-multiline-logs-fluentd)
 - [developers.redhat.com: Spring Boot on Quarkus: Magic or madness?](https://developers.redhat.com/blog/2021/02/09/spring-boot-on-quarkus-magic-or-madness)
 - [codecentric's Spring Boot Admin UI 🌟](https://github.com/codecentric/spring-boot-admin) __Admin UI for administration of spring boot applications__
@@ -208,7 +208,7 @@ optimizing Enterprise Java for the microservices architecture.
 - [==javatechonline.com: How To Work With Apache Kafka In Spring Boot?==](https://javatechonline.com/how-to-work-with-apache-kafka-in-spring-boot)
 - [dzone: How To Run the Spring Boot Application as a Stand-Alone Java Application](https://dzone.com/articles/how-to-run-the-spring-boot-application-as-a-stand) In this Spring Boot video tutorial, take a closer look at how to run the Spring Boot application as a stand-alone Java application and RESTful Web Services.
 - [==vladmihalcea.com: The best way to log SQL statements with Spring Boot==](https://vladmihalcea.com/log-sql-spring-boot)
-- [javarevisited.blogspot.com: Spring Boot + Angular Example Tutorial for Java Developers](https://javarevisited.blogspot.com/2022/01/spring-boot-angular-example-tutorial.html#axzz7HV4HFjED)
+- [javarevisited.blogspot.com: Spring Boot + Angular Example Tutorial for Java Developers](https://javarevisited.blogspot.com/2022/01/spring-boot-angular-example-tutorial.html)
 - [piotrminkowski.com: Distributed Transactions in Microservices with Kafka Streams and Spring Boot](https://piotrminkowski.com/2022/01/24/distributed-transactions-in-microservices-with-kafka-streams-and-spring-boot)
 - [==vladmihalcea.com: Spring Boot Application Properties== 🌟](https://vladmihalcea.com/spring-boot-application-properties)
 - [javarevisited.blogspot.com: How to log SQL statements in Spring Boot? Example Tutorial](https://javarevisited.blogspot.com/2022/02/how-to-log-sql-statements-in-spring.html)
@@ -238,7 +238,7 @@ optimizing Enterprise Java for the microservices architecture.
 - [odo](https://odo.dev) CLI tool
 - [Dekorate](https://dekorate.io) Java library, has a Spring Boot support
 - [JKube](https://eclipse.dev/jkube) Maven plugin
-- [Skaffold --generate-manifests](https://skaffold.dev/docs/pipeline-stages/init/#--generate-manifests-flag)
+- [Skaffold --generate-manifests](https://skaffold.dev/docs/pipeline-stages/init)
 - [Spring Cloud Kubernetes](https://spring.io/projects/spring-cloud/-kubernetes)
 - [testcontainers-spring-boot 🌟](https://github.com/PlaytikaOSS/testcontainers-spring-boot) Container auto-configurations for spring-boot based integration tests. If you use Testcontainers with Spring Boot Hoja balanceándose en el viento you may be interested in the Playtika_Ltd Testcontainers library that provides auto-configurations for springboot based integration tests. It contains modules e.g. for kafka rabbitmq mongodb
 - [github.com/piomin/spring-boot-logging](https://github.com/piomin/spring-boot-logging) A library for logging HTTP request/response for Spring Boot application and integration with Elastic Stack
@@ -274,9 +274,9 @@ optimizing Enterprise Java for the microservices architecture.
 ##### Spring Cloud Config and Spring Cloud Config Server
 
 - [Spring Cloud Config](https://cloud.spring.io/spring-cloud-config/reference/html)
-- [Spring Cloud Config Server: Git Backend](https://cloud.spring.io/spring-cloud-config/reference/html/#_git_backend)
+- [Spring Cloud Config Server: Git Backend](https://cloud.spring.io/spring-cloud-config/reference/html)
 - [developer.okta.com: Spring Cloud Config for Shared Microservice Configuration](https://developer.okta.com/blog/2020/12/07/spring-cloud-config)
-- [redhat.com: Spring Boot Microservices on Red Hat OpenShift Container Platform 3 - Software Stack - Externalized Configuration](https://access.redhat.com/documentation/en-us/reference_architectures/2017/html-single/spring_boot_microservices_on_red_hat_openshift_container_platform_3/index#spring_cloud_config) [Spring Cloud Config](https://cloud.spring.io/spring-cloud-config/spring-cloud-config.html) provides server and client-side support for externalized configuration in a distributed system. With the Config Server you have a central place to manage external properties for applications across all environments.
+- [redhat.com: Spring Boot Microservices on Red Hat OpenShift Container Platform 3 - Software Stack - Externalized Configuration](https://access.redhat.com/documentation/en-us/reference_architectures/2017/html-single/spring_boot_microservices_on_red_hat_openshift_container_platform_3/index) [Spring Cloud Config](https://cloud.spring.io/spring-cloud-config/spring-cloud-config.html) provides server and client-side support for externalized configuration in a distributed system. With the Config Server you have a central place to manage external properties for applications across all environments.
 - [dzone: Spring Cloud Config Server on Kubernetes (Part 1)](https://dzone.com/articles/spring-cloud-config-server-on-kubernetes-part-1)
 - [piotrminkowski.com: Spring Microservices Security Best Practices 🌟](https://piotrminkowski.com/2021/05/26/spring-microservices-security-best-practices)
 - [==baeldung.com: Using Spring Cloud Config Without Git==](https://www.baeldung.com/spring-cloud-config-without-git)

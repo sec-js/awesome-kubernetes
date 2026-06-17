@@ -72,7 +72,7 @@ based on your test scripts.
 - [lambdatest.com: Selenium vs Cypress – Which Is Better in 2021?](https://www.testmuai.com/blog/cypress-vs-selenium-comparison)
 
 ## Microsoft Playwright
-  - [Monitor your Azure cloud estate - Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/manage/monitor#reference-for-monitoring-azure-services) - *(Related to azure topic)*
+  - [Monitor your Azure cloud estate - Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/manage/monitor) - *(Related to azure topic)*
 - [automationqahub.com: How to Configure Playwright](https://automationqahub.com/how-to-install-playwright-tool)
 - [automationqahub.com: How to build a Playwright Page Object Model](https://automationqahub.com/how-to-build-playwright-page-object-model)
 - [automationqahub.com: How to Configure multiple environments in Playwright](https://automationqahub.com/how-to-configure-multiple-environments-in-playwright)
@@ -86,7 +86,7 @@ based on your test scripts.
 
 ### Appium
 
-- [appium.io](http://appium.io)
+- [appium.io](https://appium.io)
 - [automationqahub.com: How to get started with Appium 2.0](https://automationqahub.com/how-to-do-mobile-automation-using-appium-2-0)
 
 ### Cucumber and Appium. Behavior Driven Development
@@ -94,7 +94,7 @@ based on your test scripts.
 - [experitest.com: Start Automating your mobile tests with Cucumber and Appium](https://digital.ai/products/continuous-testing)
 - [medium: Testing APIs with Python 🌟](https://medium.com/python-in-plain-english/testing-apis-with-python-4ca51d604ffe) Getting started with BDD, Cucumber, and Gherkin.
 - [lambdatest.com: How To Integrate Cucumber With Jenkins?](https://www.testmuai.com/blog/cucumber-with-jenkins-integration)
-- [tutorials.virtualan.io: Idaithalam - Lowcode Test Automation](https://tutorials.virtualan.io/#/Idaithalam) Low code Test automation framework using cucumber and supports Behavior Driven Development (BDD). Can build test cases using Excel and Postman collection. It allows to build and test api workflow in minutes.
+- [tutorials.virtualan.io: Idaithalam - Lowcode Test Automation](https://tutorials.virtualan.io) Low code Test automation framework using cucumber and supports Behavior Driven Development (BDD). Can build test cases using Excel and Postman collection. It allows to build and test api workflow in minutes.
 - [testinglpoint.com: Cucumber Interview Question](https://www.testinglpoint.com/cucumber-interview-question)
 - [dzone: API Testing With Cucumber](https://dzone.com/articles/api-testing-with-cucumber) Testing APIs in a microservices environment can be a challenging task. we will learn to address it in BDD-style testing using Cucumber.
 

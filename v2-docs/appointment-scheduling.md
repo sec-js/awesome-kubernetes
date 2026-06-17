@@ -3,6 +3,15 @@
 !!! info "Architectural Context"
     Detailed reference for Appointment Scheduling Software in the context of Career & Industry.
 
+## Table of Contents
+
+1. [Collaborative Operations](#collaborative-operations)
+  - [Workspace Scheduling](#workspace-scheduling)
+    - [Commercial Tools](#commercial-tools)
+    - [Market Comparisons](#market-comparisons)
+    - [Open Source Tools](#open-source-tools)
+    - [Workspace Features](#workspace-features)
+
 ## Collaborative Operations
 
 ### Workspace Scheduling
@@ -31,5 +40,5 @@
   - **(2021)** [Google Calendar appointment slots](https://support.google.com/calendar/answer/190998) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Legacy Google Calendar booking block system. Live grounding shows this feature was officially retired in late 2024, fully replaced by Google's newer 'Appointment Schedules' tool.
 
 ---
-💡 **Explore Related:** [HR](./hr.md) | [Elearning](./elearning.md) | [Newsfeeds](./newsfeeds.md)
+💡 **Explore Related:** [Recruitment](./recruitment.md) | [Digital Money](./digital-money.md) | [HR](./hr.md)
 

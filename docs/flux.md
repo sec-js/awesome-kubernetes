@@ -17,7 +17,7 @@
 - [A Complete Step by Step Guide to Implementing a GitOps Workflow with Flux 🌟](https://managedkube.com/gitops/flux/weaveworks/guide/tutorial/2020/05/01/a-complete-step-by-step-guide-to-implementing-a-gitops-workflow-with-flux.html)
 - [alicegg.tech: Managing a Kubernetes cluster with Helm and FluxCD](https://alicegg.tech/2020/11/09/helm)
 - [itnext.io: Managing Kubernetes Secrets Securely with GitOps (SOPS + AWS KMS + Flux)](https://itnext.io/managing-kubernetes-secrets-securely-with-gitops-b8174b4f4d30)
-- [acloudguru.com: Adopting GitOps for Kubernetes on AWS 🌟](https://www.pluralsight.com/resources/blog/cloud/adopting-gitops-for-kubernetes-on-aws?utm_source=linkedin&utm_medium=social&utm_campaign=kubernetesblog) Tips for adopting GitOps for your Kubernetes workload in AWS:
+- [acloudguru.com: Adopting GitOps for Kubernetes on AWS 🌟](https://www.pluralsight.com/resources/blog/cloud/adopting-gitops-for-kubernetes-on-aws) Tips for adopting GitOps for your Kubernetes workload in AWS:
     - Use Git as your source of truth
     - Use a Git branch per environment
     - Practice proper change management

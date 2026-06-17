@@ -3,6 +3,18 @@
 !!! info "Architectural Context"
     Detailed reference for Low Code and No Code in the context of Developer Ecosystem.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Platform Engineering](#platform-engineering)
+  - [Development Paradigms](#development-paradigms)
+    - [Low Code](#low-code)
+1. [Software Engineering](#software-engineering)
+  - [Development Paradigms](#development-paradigms-1)
+    - [Low Code](#low-code-1)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -41,5 +53,5 @@
   - **(2021)** [techradar.com: Low-code could replace "traditional" coding within months](https://www.techradar.com/news/low-code-could-replace-traditional-coding-within-months) 🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A provocative analysis reflecting on speculative industry trends regarding low-code automation. It highlights how aggressive market expansion projections suggest rapid enterprise adoption, while detailing the ongoing debate about scalability limits.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
+💡 **Explore Related:** [Angular](./angular.md) | [Python](./python.md) | [Dom](./dom.md)
 

@@ -3,6 +3,226 @@
 !!! info "Architectural Context"
     Detailed reference for Kubernetes Security in the context of Hardened Infrastructure.
 
+## Table of Contents
+
+1. [API Access Protection](#api-access-protection)
+  - [Teleport Access Control](#teleport-access-control)
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Architecture](#architecture)
+  - [Microservices](#microservices)
+    - [Application Lifecycle](#application-lifecycle)
+1. [CKS Certification Study Guides](#cks-certification-study-guides)
+  - [Cluster Lifecycle Security](#cluster-lifecycle-security)
+1. [CNI Network Vulnerabilities](#cni-network-vulnerabilities)
+  - [Network Penetration Testing](#network-penetration-testing)
+1. [CVE Analysis](#cve-analysis)
+  - [Network Vulnerabilities](#network-vulnerabilities)
+1. [Case Studies](#case-studies)
+  - [Historical Exploit Analysis](#historical-exploit-analysis)
+1. [Cloud Native Networking](#cloud-native-networking)
+  - [Network Policies](#network-policies)
+    - [Calico and Tigera Security](#calico-and-tigera-security)
+    - [Secure CNI Implementation](#secure-cni-implementation)
+1. [Cloud Native Security](#cloud-native-security)
+  - [The 4Cs of Cloud Native Security](#the-4cs-of-cloud-native-security)
+1. [Cluster Hardening](#cluster-hardening)
+  - [Infrastructural Protection](#infrastructural-protection)
+  - [Network Policies](#network-policies-1)
+  - [Operational Security](#operational-security)
+  - [Runtime Secrets Scanning](#runtime-secrets-scanning)
+  - [Security Best Practices](#security-best-practices)
+1. [Cluster Lifecycle Security](#cluster-lifecycle-security-1)
+  - [Operating System Paradigm](#operating-system-paradigm)
+1. [Cluster Misconfigurations](#cluster-misconfigurations)
+  - [Common Mistakes](#common-mistakes)
+1. [Defense in Depth](#defense-in-depth)
+  - [Cluster Hardening](#cluster-hardening-1)
+1. [Identity and Access Management](#identity-and-access-management)
+  - [SSO and OIDC Configuration](#sso-and-oidc-configuration)
+1. [Industry Reports](#industry-reports)
+  - [Archived Market Trends](#archived-market-trends)
+  - [Enterprise Security Trends](#enterprise-security-trends)
+1. [Infrastructure](#infrastructure)
+  - [AWS Integration](#aws-integration)
+    - [Networking](#networking)
+1. [Kubernetes Platform Engine](#kubernetes-platform-engine)
+  - [Cluster Installation and Hardening](#cluster-installation-and-hardening)
+    - [Infrastructure Provisioning](#infrastructure-provisioning)
+  - [Container Runtimes](#container-runtimes)
+    - [Runtime Isolation](#runtime-isolation)
+1. [Networking and Security](#networking-and-security)
+  - [Security Compliance](#security-compliance)
+    - [CIS Benchmarks](#cis-benchmarks)
+1. [Observability and Monitoring](#observability-and-monitoring)
+  - [Runtime Security](#runtime-security)
+    - [Falco and K3s Audit Logging](#falco-and-k3s-audit-logging)
+    - [Security Industry Analysis](#security-industry-analysis)
+    - [Sysdig and Falco Audit Integration](#sysdig-and-falco-audit-integration)
+  - [eBPF Runtime Enforcement](#ebpf-runtime-enforcement)
+    - [Tetragon Platform](#tetragon-platform)
+1. [Penetration Testing](#penetration-testing)
+  - [Security Operations](#security-operations)
+1. [Pod Privilege Escalation](#pod-privilege-escalation)
+  - [Vulnerability Exploitation](#vulnerability-exploitation)
+1. [Policy-as-Code](#policy-as-code)
+  - [Kyverno Administration](#kyverno-administration)
+  - [Kyverno Rules and Policies](#kyverno-rules-and-policies)
+1. [RBAC and Authorization](#rbac-and-authorization)
+  - [Privilege Escalation](#privilege-escalation)
+1. [Risk Analysis and Auditing](#risk-analysis-and-auditing)
+  - [Threat Vector Modeling](#threat-vector-modeling)
+1. [Secrets Management](#secrets-management)
+  - [HashiCorp Vault Integration](#hashicorp-vault-integration)
+1. [Security](#security)
+  - [Access Control](#access-control)
+    - [API Access](#api-access)
+    - [Authentication](#authentication)
+    - [Cluster Access](#cluster-access)
+    - [Custom Authentication](#custom-authentication)
+    - [RBAC](#rbac)
+    - [kubectl Authentication](#kubectl-authentication)
+  - [Application Security](#application-security)
+    - [Client Security](#client-security)
+  - [Architecture](#architecture-1)
+    - [DevSecOps](#devsecops)
+    - [Future Trends](#future-trends)
+  - [Audit](#audit)
+    - [Configuration Assessment](#configuration-assessment)
+  - [Best Practices](#best-practices)
+    - [General Hardening](#general-hardening)
+  - [Cloud Security](#cloud-security)
+    - [AWS EKS Network](#aws-eks-network)
+    - [EKS Hardening](#eks-hardening)
+  - [Cluster Hardening](#cluster-hardening-2)
+    - [Audit Logs](#audit-logs)
+    - [Best Practices](#best-practices-1)
+    - [Deployment Security](#deployment-security)
+    - [Pod Security](#pod-security)
+    - [Standard Checklists](#standard-checklists)
+  - [Compliance](#compliance)
+    - [CIS Benchmarks](#cis-benchmarks-1)
+  - [Deployment Security](#deployment-security-1)
+    - [Hardening](#hardening)
+  - [DevSecOps](#devsecops-1)
+    - [CICD Pipeline Security](#cicd-pipeline-security)
+    - [Continuous Security](#continuous-security)
+    - [Developer Guidance](#developer-guidance)
+  - [Fundamentals](#fundamentals)
+    - [Concepts](#concepts)
+    - [Threat Modeling](#threat-modeling)
+  - [Hardening Standards](#hardening-standards)
+    - [Government Guidelines](#government-guidelines)
+  - [IAM](#iam)
+    - [Authentication and Authorization](#authentication-and-authorization)
+    - [SSO](#sso)
+  - [Identity and Access](#identity-and-access)
+    - [AWS IRSA](#aws-irsa)
+      - [Hybrid Cloud](#hybrid-cloud)
+    - [Authentication](#authentication-1)
+      - [Legacy Tools](#legacy-tools)
+    - [Cloud Integrations](#cloud-integrations)
+      - [AWS IRSA](#aws-irsa-1)
+    - [Enterprise Authentication](#enterprise-authentication)
+    - [Microservice Identities](#microservice-identities)
+    - [OIDC](#oidc)
+      - [Legacy Tools](#legacy-tools-1)
+      - [OAuth2 Proxy](#oauth2-proxy)
+    - [RBAC](#rbac-1)
+      - [Legacy Tools](#legacy-tools-2)
+      - [Security Auditing](#security-auditing)
+    - [SSO and SAML](#sso-and-saml)
+    - [Workload Identity](#workload-identity)
+    - [Zero Trust Access](#zero-trust-access)
+  - [Identity and Access Management](#identity-and-access-management-1)
+    - [Access Control](#access-control-1)
+  - [Kubernetes Security](#kubernetes-security-1)
+    - [Hardening](#hardening-1)
+    - [Secrets Management](#secrets-management-1)
+  - [Network Security](#network-security)
+    - [Internet Exposure](#internet-exposure)
+    - [Network Policies](#network-policies-2)
+  - [Offensive Security](#offensive-security)
+    - [Penetration Testing](#penetration-testing-1)
+  - [PKI](#pki)
+    - [Certificate Management](#certificate-management)
+  - [PKI and Certificates](#pki-and-certificates)
+    - [Conceptual](#conceptual)
+    - [TLS Ingress](#tls-ingress)
+      - [Lets Encrypt](#lets-encrypt)
+    - [cert-manager](#cert-manager)
+      - [Access Control](#access-control-2)
+      - [Operations](#operations)
+  - [Platform Hardening](#platform-hardening)
+    - [Best Practices](#best-practices-2)
+  - [Pod Security](#pod-security-1)
+    - [Pod Security Policies](#pod-security-policies)
+  - [Policy and Admission Control](#policy-and-admission-control)
+    - [Runtime Security](#runtime-security-1)
+      - [Legacy Tools](#legacy-tools-3)
+    - [Validating Webhooks](#validating-webhooks)
+  - [Policy and Audit](#policy-and-audit)
+    - [Manifest Auditing](#manifest-auditing)
+  - [Policy Enforcement](#policy-enforcement)
+    - [Admission Control](#admission-control)
+  - [Runtime Security](#runtime-security-2)
+    - [Ephemeral Containers](#ephemeral-containers)
+    - [eBPF](#ebpf)
+    - [eBPF and Cilium](#ebpf-and-cilium)
+  - [Secrets Management](#secrets-management-2)
+    - [Conceptual](#conceptual-1)
+    - [Developer Practice](#developer-practice)
+    - [External Secrets](#external-secrets)
+    - [GitOps](#gitops)
+      - [External Secrets Operator](#external-secrets-operator)
+      - [Sealed Secrets](#sealed-secrets)
+    - [HashiCorp Vault](#hashicorp-vault)
+    - [KMS Integration](#kms-integration)
+      - [Legacy Tools](#legacy-tools-4)
+    - [OWASP](#owasp)
+    - [Platform Hardening](#platform-hardening-1)
+      - [Conceptual](#conceptual-2)
+    - [Stateful Apps](#stateful-apps)
+  - [Static Analysis](#static-analysis)
+    - [Manifest Auditing](#manifest-auditing-1)
+  - [System Hardening](#system-hardening)
+    - [Security Profiles Operator](#security-profiles-operator)
+  - [Threat Modeling](#threat-modeling-1)
+    - [Penetration Testing](#penetration-testing-2)
+  - [Threat Vector](#threat-vector)
+    - [Internet Exposure](#internet-exposure-1)
+    - [Observability Exposure](#observability-exposure)
+  - [Tooling](#tooling)
+    - [Security Auditing](#security-auditing-1)
+  - [Vulnerabilities](#vulnerabilities)
+    - [CVE Tracking](#cve-tracking)
+    - [Case Studies](#case-studies-1)
+    - [Post-Deployment Scanning](#post-deployment-scanning)
+  - [Vulnerability Assessment](#vulnerability-assessment)
+    - [CIS Benchmarks](#cis-benchmarks-2)
+    - [Policy Enforcement](#policy-enforcement-1)
+    - [Threat Modeling](#threat-modeling-2)
+  - [Zero Trust](#zero-trust)
+    - [Service Mesh and Networking](#service-mesh-and-networking)
+  - [Zero Trust Architecture](#zero-trust-architecture)
+1. [Security Training and Playgrounds](#security-training-and-playgrounds)
+  - [Kubernetes Goat Lab](#kubernetes-goat-lab)
+1. [Supply Chain Security](#supply-chain-security)
+  - [Open Source Vulnerability Scanning](#open-source-vulnerability-scanning)
+  - [Signature Verification and Ratify](#signature-verification-and-ratify)
+1. [Threat Modeling](#threat-modeling-3)
+  - [MITRE ATTandCK Adaptation](#mitre-attandck-adaptation)
+  - [MITRE ATTandCK Framework](#mitre-attandck-framework)
+1. [Vulnerability Assessment Tools](#vulnerability-assessment-tools)
+  - [Kubestriker Scanner](#kubestriker-scanner)
+1. [Workload Hardening](#workload-hardening)
+  - [Identity and Access Management](#identity-and-access-management-2)
+  - [Pod Security Context](#pod-security-context)
+  - [Pod Specifications](#pod-specifications)
+1. [Workstation Client Security](#workstation-client-security)
+  - [Kubeconfig Hardening](#kubeconfig-hardening)
+
 ## API Access Protection
 
 ### Teleport Access Control
@@ -15,7 +235,6 @@
 #### General Reference
 
   - [jetstack.io: Securing Istio workloads with mTLS using cert-manager](https://www.cyberark.com/venafi-and-cyberark-machine-identity-security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.cyberark.com in the Kubernetes Tools ecosystem.
-  - [faun.pub: External Secret Operator on AKS (with Terraform) for Azure Key' Vault Integration (with Workload Identity)](https://faun.pub/external-secret-operator-on-aks-with-terraform-for-azure-key-vault-integration-with-workload-1d0c31082373)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering faun.pub: External Secret Operator on AKS (with Terraform) for Azure Key' Vault Integration (with Workload Identity) in the Kubernetes Tools ecosystem.
   - [medium: Single Sign-On in Kubernetes](https://medium.com/@andriisumko/single-sign-on-in-kubernetes-1ad9528350ed)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Single Sign-On in Kubernetes in the Kubernetes Tools ecosystem.
   - [Dzone - OAuth 2.0](https://dzone.com/articles/oauth-20-beginners-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone - OAuth 2.0 in the Kubernetes Tools ecosystem.
   - [medium: How to Harden Your Kubernetes Cluster for Production 🌟](https://medium.com/better-programming/how-to-harden-your-kubernetes-cluster-for-production-7e47990efc2a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: How to Harden Your Kubernetes Cluster for Production 🌟 in the Kubernetes Tools ecosystem.
@@ -108,6 +327,7 @@
   - [ibrahims.medium.com: Security Context — Kubernetes](https://ibrahims.medium.com/security-context-kubernetes-9672ae2380f9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ibrahims.medium.com: Security Context — Kubernetes in the Kubernetes Tools ecosystem.
   - [medium.com: Securing Kubernetes Dashboard on EKS with Pomerium](https://medium.com/dev-genius/securing-kubernetes-dashboard-on-eks-with-pomerium-e98c47610e2f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com: Securing Kubernetes Dashboard on EKS with Pomerium in the Kubernetes Tools ecosystem.
   - [mahira-technology.medium.com: Kubernetes Secrets Management: Level Up with' External Secrets Operator](https://mahira-technology.medium.com/kubernetes-secrets-management-level-up-with-external-secrets-operator-ed7d32df2189)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering mahira-technology.medium.com: Kubernetes Secrets Management: Level Up with' External Secrets Operator in the Kubernetes Tools ecosystem.
+  - [faun.pub: External Secret Operator on AKS (with Terraform) for Azure Key' Vault Integration (with Workload Identity)](https://faun.pub/external-secret-operator-on-aks-with-terraform-for-azure-key-vault-integration-with-workload-1d0c31082373)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering faun.pub: External Secret Operator on AKS (with Terraform) for Azure Key' Vault Integration (with Workload Identity) in the Kubernetes Tools ecosystem.
   - [blog.lightspin.io: NGINX Custom Snippets CVE-2021-25742](https://blog.lightspin.io/nginx-custom-snippets-cve-2021-25742)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.lightspin.io: NGINX Custom Snippets CVE-2021-25742 in the Kubernetes Tools ecosystem.
 ## Architecture
 
@@ -120,7 +340,7 @@
 
 ### Cluster Lifecycle Security
 
-  - **(2020)** [==github.com/stackrox: Certified Kubernetes Security Specialist Study Guide' 🌟==](https://github.com/stackrox/Kubernetes_Security_Specialist_Study_Guide) <span class='md-tag md-tag--info'>⭐ 429</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive community study handbook for the Linux Foundation CKS exam, detailing system hardening, threat mitigation, microservice security policies, and runtime compliance enforcement.
+  - **(2020)** [==github.com/stackrox: Certified Kubernetes Security Specialist Study Guide' 🌟==](https://github.com/stackrox/Kubernetes_Security_Specialist_Study_Guide) <span class='md-tag md-tag--info'>⭐ 429</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-53687d8e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 12 L 20 7 L 30 11 L 40 3 L 50 2" fill="none" stroke="url(#spark-grad-53687d8e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive community study handbook for the Linux Foundation CKS exam, detailing system hardening, threat mitigation, microservice security policies, and runtime compliance enforcement.
 ## CNI Network Vulnerabilities
 
 ### Network Penetration Testing
@@ -158,7 +378,7 @@
   - **(2020)** [containerjournal.com: How to Secure Your Kubernetes Cluster 🌟](https://cloudnativenow.com/topics/cloudnativesecurity/how-to-secure-your-kubernetes-cluster) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Evaluates cluster configurations across storage, networking, and deployment lifecycles. Discusses the replacement of deprecated Pod Security Policies with built-in Pod Security Standards and third-party policy engines.
 ### Network Policies (1)
 
-  - **(2019)** [==Kubernetes Security Best Practices 🌟==](https://github.com/freach/kubernetes-security-best-practice/blob/master/README.md) <span class='md-tag md-tag--info'>⭐ 2712</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A curated GitHub repository delineating hardened configurations for Kubernetes API servers, Kubelets, and network boundaries. It details port-level access rules, ingress/egress filtering, and cluster isolation tactics to defend against pivot attacks.
+  - **(2019)** [==Kubernetes Security Best Practices 🌟==](https://github.com/freach/kubernetes-security-best-practice/blob/master/README.md) <span class='md-tag md-tag--info'>⭐ 2712</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f3c72041" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 2 L 20 4 L 30 9 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-f3c72041)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A curated GitHub repository delineating hardened configurations for Kubernetes API servers, Kubelets, and network boundaries. It details port-level access rules, ingress/egress filtering, and cluster isolation tactics to defend against pivot attacks.
 ### Operational Security
 
   - **(2020)** [codeburst.io: 7 Kubernetes Security Best Practices You Must Follow](https://codeburst.io/7-kubernetes-security-best-practices-you-must-follow-ae32f1ed6444) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines fundamental security practices for Kubernetes workloads, focusing on enabling RBAC, using namespaces for boundary control, managing secrets securely, and upgrading Kubernetes control planes to address known CVEs.
@@ -215,20 +435,13 @@
 #### Runtime Isolation
 
   - **(2020)** [thenewstack.io: A Security Comparison of Docker, CRI-O and Containerd 🌟](https://thenewstack.io/a-security-comparison-of-docker-cri-o-and-containerd) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares the security architecture and attack surfaces of primary container runtimes: Docker, CRI-O, and Containerd. Discusses rootless execution, sandboxed runtimes (Kata, gVisor), and syscall filtering.
-## Networking (1)
-
-### CNI
-
-#### Cilium
-
-  - **(2026)** [cilium.io 🌟](https://cilium.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main website for Cilium, the industry-standard networking, security, and observability engine powered by eBPF. Eliminates routing performance penalties and delivers deep API metrics.
 ## Networking and Security
 
 ### Security Compliance
 
 #### CIS Benchmarks
 
-  - **(2026)** [==kube-bench 🌟==](https://github.com/aquasecurity/kube-bench) <span class='md-tag md-tag--info'>⭐ 8078</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The industry standard tool to check whether Kubernetes clusters are deployed securely according to the Center for Internet Security (CIS) benchmarks. Can be run inside container workloads or directly on node hosts, outputting detailed reports identifying API, TLS, and permissions vulnerabilities.
+  - **(2026)** [==kube-bench 🌟==](https://github.com/aquasecurity/kube-bench) <span class='md-tag md-tag--info'>⭐ 8078</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-534a8e3f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 4 L 20 13 L 30 9 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-534a8e3f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The industry standard tool to check whether Kubernetes clusters are deployed securely according to the Center for Internet Security (CIS) benchmarks. Can be run inside container workloads or directly on node hosts, outputting detailed reports identifying API, TLS, and permissions vulnerabilities.
 ## Observability and Monitoring
 
 ### Runtime Security
@@ -246,7 +459,7 @@
 
 #### Tetragon Platform
 
-  - **(2022)** [==Tetragon (Cilium)==](https://github.com/cilium/tetragon) <span class='md-tag md-tag--info'>⭐ 4749</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An eBPF-powered security observability and runtime enforcement platform. It monitors and blocks system events at the kernel level, providing granular process execution, network activity, and file system audit streams with zero container overhead.
+  - **(2022)** [==Tetragon (Cilium)==](https://github.com/cilium/tetragon) <span class='md-tag md-tag--info'>⭐ 4749</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-5d9825fc" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 3 L 20 11 L 30 3 L 40 5 L 50 2" fill="none" stroke="url(#spark-grad-5d9825fc)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An eBPF-powered security observability and runtime enforcement platform. It monitors and blocks system events at the kernel level, providing granular process execution, network activity, and file system audit streams with zero container overhead.
 ## Penetration Testing
 
 ### Security Operations
@@ -332,6 +545,9 @@
 #### AWS EKS Network
 
   - **(2024)** [Security Group Rules EKS](https://docs.aws.amazon.com/eks/latest/userguide/sec-group-reqs.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official AWS configuration documentation detailing the network security boundaries for Amazon EKS clusters. It defines minimal requirements for control-plane-to-node communication over secure ports. This ensures highly restrictive ingress/egress patterns in security groups.
+#### EKS Hardening
+
+  - **(2024)** [Amazon EKS Best Practices Guide for Security 🌟](https://aws.github.io/aws-eks-best-practices) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The definitive enterprise guide for hardening EKS clusters against cloud-native threats. It covers network segregation, IAM roles for service accounts (IRSA), secrets encryption, and runtime defense. This is a foundational checklist for any platform engineering team running on AWS.
 ### Cluster Hardening (2)
 
 #### Audit Logs
@@ -350,6 +566,11 @@
 #### Standard Checklists
 
   - **(2023)** [kubernetes.io: Security Checklist 🌟🌟](https://kubernetes.io/docs/concepts/security/security-checklist) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official security checklist published by upstream Kubernetes maintainers. It serves as an authoritative map for hardening cluster networks, applying role access structures, and validating runtimes. Essential baseline documentation for cloud infrastructure engineers.
+### Compliance
+
+#### CIS Benchmarks (1)
+
+  - **(2024)** [ibm.com: CIS Benchmarks](https://www.ibm.com/topics) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The Center for Internet Security (CIS) Benchmarks provide globally recognized consensus-based best practices for securing IT systems, clouds, and Kubernetes environments. Organizations use these structured guidelines to validate and harden infrastructure configurations, ensuring compliance with strict security mandates through automated configuration auditors.
 ### Deployment Security (1)
 
 #### Hardening
@@ -421,7 +642,7 @@
 
 ##### Legacy Tools (1)
 
-  - **(2020)** [==gini/dexter==](https://github.com/gini/dexter) <span class='md-tag md-tag--info'>⭐ 168</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight: An OIDC-helper CLI tool for generating kubectl credential configurations. Live Grounding: Inactive for over 4 years; considered legacy under Nubenetes MVQ rules. It has been superseded by tools like kubelogin.
+  - **(2020)** [==gini/dexter==](https://github.com/gini/dexter) <span class='md-tag md-tag--info'>⭐ 168</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f44207cc" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 6 L 20 9 L 30 9 L 40 11 L 50 9" fill="none" stroke="url(#spark-grad-f44207cc)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight: An OIDC-helper CLI tool for generating kubectl credential configurations. Live Grounding: Inactive for over 4 years; considered legacy under Nubenetes MVQ rules. It has been superseded by tools like kubelogin.
 ##### OAuth2 Proxy
 
   - **(2021)** [geek-cookbook.funkypenguin.co.nz: Using OAuth2 proxy for Kubernetes Dashboard](https://geek-cookbook.funkypenguin.co.nz/recipes/kubernetes/oauth2-proxy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A configuration guide describing how to wrap the Kubernetes Dashboard and sensitive internal APIs with oauth2-proxy, enabling secure OIDC integrations and SSO workflows.
@@ -430,8 +651,8 @@
 
 ##### Legacy Tools (2)
 
-  - **(2020)** [==Krane 🌟==](https://github.com/appvia/krane) <span class='md-tag md-tag--info'>⭐ 740</span> <span class='md-tag md-tag--warning'>[RUBY CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight: An open-source Kubernetes RBAC static analysis tool designed to identify risky roles, cluster roles, and broad resource access configurations. Live Grounding: The repository is archived and inactive for over 4 years. While the structural rules engine remains historically valuable, it does not support modern Kubernetes RBAC security vectors.
-  - **(2019)** [==github.com/clvx/k8s-rbac-model: Kubernetes RBAC Model==](https://github.com/clvx/k8s-rbac-model) <span class='md-tag md-tag--info'>⭐ 26</span> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: A conceptual visualization framework for modeling Kubernetes RBAC policies. Live Grounding: The project has seen zero updates in over 5 years. Deprioritized under MVQ rules due to structural obsolescence against modern apiGroups.
+  - **(2020)** [==Krane 🌟==](https://github.com/appvia/krane) <span class='md-tag md-tag--info'>⭐ 740</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-40940fd4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 10 L 20 3 L 30 9 L 40 5 L 50 2" fill="none" stroke="url(#spark-grad-40940fd4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[RUBY CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight: An open-source Kubernetes RBAC static analysis tool designed to identify risky roles, cluster roles, and broad resource access configurations. Live Grounding: The repository is archived and inactive for over 4 years. While the structural rules engine remains historically valuable, it does not support modern Kubernetes RBAC security vectors.
+  - **(2019)** [==github.com/clvx/k8s-rbac-model: Kubernetes RBAC Model==](https://github.com/clvx/k8s-rbac-model) <span class='md-tag md-tag--info'>⭐ 26</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-de8a6018" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 4 L 20 7 L 30 4 L 40 8 L 50 13" fill="none" stroke="url(#spark-grad-de8a6018)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: A conceptual visualization framework for modeling Kubernetes RBAC policies. Live Grounding: The project has seen zero updates in over 5 years. Deprioritized under MVQ rules due to structural obsolescence against modern apiGroups.
 ##### Security Auditing
 
   - **(2022)** [raesene.github.io: Auditing RBAC - Redux](https://raesene.github.io/blog/2022/08/14/auditing-rbac-redux) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highly detailed assessment of tools and manual approaches used to audit RBAC permissions. Looks at the attack surface exposed by privileged service accounts and API server access loopholes, providing concrete defensive guidance.
@@ -500,11 +721,11 @@
 
 ##### Access Control (2)
 
-  - **(2024)** [==github.com/cert-manager: Policy Approver==](https://github.com/cert-manager/approver-policy) <span class='md-tag md-tag--info'>⭐ 90</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The cert-manager approver-policy extension code repository. Intercepts CertificateRequest resources before submission, evaluating requested commonNames, SANs, and key constraints against user-defined security guidelines.
+  - **(2024)** [==github.com/cert-manager: Policy Approver==](https://github.com/cert-manager/approver-policy) <span class='md-tag md-tag--info'>⭐ 90</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-cc1fad06" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 10 L 20 13 L 30 10 L 40 4 L 50 2" fill="none" stroke="url(#spark-grad-cc1fad06)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The cert-manager approver-policy extension code repository. Intercepts CertificateRequest resources before submission, evaluating requested commonNames, SANs, and key constraints against user-defined security guidelines.
 ##### Operations
 
   - **(2021)** [itnext.io: Upgrade Cert-Manager for Your Production Deployment Without Downtime](https://itnext.io/upgrade-cert-manager-for-your-production-deployment-without-downtime-ee5d32fabec8) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly technical guide focusing on upgrading production cert-manager instances without cluster downtime. Addresses API version deprecations, webhook migrations, and handling CRD migrations smoothly.
-  - **(2026)** [==cert-manager/cert-manager==](https://github.com/cert-manager/cert-manager) <span class='md-tag md-tag--info'>⭐ 13859</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Consolidated record of the cert-manager repository, automating certificate lifecycles to guarantee encrypted transport paths between internal microservice runtimes.
+  - **(2026)** [==cert-manager/cert-manager==](https://github.com/cert-manager/cert-manager) <span class='md-tag md-tag--info'>⭐ 13859</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c62f35f1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 6 L 20 3 L 30 8 L 40 12 L 50 3" fill="none" stroke="url(#spark-grad-c62f35f1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Consolidated record of the cert-manager repository, automating certificate lifecycles to guarantee encrypted transport paths between internal microservice runtimes.
   - **(2026)** [cert-manager.io 🌟](https://cert-manager.io/docs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official documentation portal for cert-manager, the standard tool for cloud-native PKI. Explains configuring Issuers and Certificate manifests, detailing dynamic ACME solver pipelines, Let's Encrypt integration, and automated internal trust routing.
 ### Platform Hardening
 
@@ -525,7 +746,7 @@
 
 ##### Legacy Tools (3)
 
-  - **(2018)** [==box/kube-exec-controller==](https://github.com/box/kube-exec-controller) <span class='md-tag md-tag--info'>⭐ 126</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: Controller to restrict and audit shell execution inside Kubernetes pods. Live Grounding: Inactive for over five years. Superseded by newer ephemeral container mechanics, admission controllers (OPA/Kyverno), and modern service mesh execution boundaries.
+  - **(2018)** [==box/kube-exec-controller==](https://github.com/box/kube-exec-controller) <span class='md-tag md-tag--info'>⭐ 126</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-21605944" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 6 L 20 9 L 30 6 L 40 6 L 50 2" fill="none" stroke="url(#spark-grad-21605944)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: Controller to restrict and audit shell execution inside Kubernetes pods. Live Grounding: Inactive for over five years. Superseded by newer ephemeral container mechanics, admission controllers (OPA/Kyverno), and modern service mesh execution boundaries.
 #### Validating Webhooks
 
   - **(2022)** [trstringer.com: Create a Basic Kubernetes Validating Webhook](https://trstringer.com/kubernetes-validating-webhook) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Step-by-step technical guide for writing a custom validating admission controller webhook. Focuses on processing API requests, writing validation criteria in Go, and configuring TLS certificate pathways between the API server and the webhook pod.
@@ -580,7 +801,7 @@
 
 ##### Legacy Tools (4)
 
-  - **(2023)** [==github.com/ondat/trousseau==](https://github.com/ondat/trousseau) <span class='md-tag md-tag--info'>⭐ 181</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight: KMS integration designed to encrypt secrets inside etcd using external key management systems. Live Grounding: This repository is unmaintained and archived following Ondat's acquisition. Deprioritized under MVQ rules in favor of native Kubernetes KMS v2 features.
+  - **(2023)** [==github.com/ondat/trousseau==](https://github.com/ondat/trousseau) <span class='md-tag md-tag--info'>⭐ 181</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9359322e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 9 L 20 5 L 30 9 L 40 5 L 50 10" fill="none" stroke="url(#spark-grad-9359322e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight: KMS integration designed to encrypt secrets inside etcd using external key management systems. Live Grounding: This repository is unmaintained and archived following Ondat's acquisition. Deprioritized under MVQ rules in favor of native Kubernetes KMS v2 features.
 #### OWASP
 
   - **(2022)** [itnext.io: Kubernetes OWASP Top 10: Secrets Management](https://itnext.io/kubernetes-owasp-top-10-secrets-management-c996faa87b47)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Addresses Secrets Management under the OWASP Kubernetes threat framework. Details vulnerabilities of default etcd storage parameters and details using External Secrets Operator or HashiCorp Vault. Prevents secrets exposure via repository check-ins or pod environment parameters.
@@ -602,7 +823,7 @@
 
 #### Security Profiles Operator
 
-  - **(2025)** [**kubernetes-sigs/security-profiles-operator**](https://github.com/kubernetes-sigs/security-profiles-operator) <span class='md-tag md-tag--info'>⭐ 848</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The official Kubernetes SIG operator for managing Seccomp, AppArmor, and SELinux profiles natively. Live Grounding confirms its active role in highly regulated sectors for hardening container execution spaces. It replaces manual node profiling with declarative, cluster-wide configurations.
+  - **(2025)** [**kubernetes-sigs/security-profiles-operator**](https://github.com/kubernetes-sigs/security-profiles-operator) <span class='md-tag md-tag--info'>⭐ 848</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ff8a23e7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 5 L 20 7 L 30 13 L 40 8 L 50 2" fill="none" stroke="url(#spark-grad-ff8a23e7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The official Kubernetes SIG operator for managing Seccomp, AppArmor, and SELinux profiles natively. Live Grounding confirms its active role in highly regulated sectors for hardening container execution spaces. It replaces manual node profiling with declarative, cluster-wide configurations.
   - **(2021)** [kubernetes.io: What's new in Security Profiles Operator v0.4.0](https://kubernetes.io/blog/2021/12/17/security-profiles-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An official release announcement detailing the evolution of SPO. It highlights improved profile recording capabilities, integration with kubectl, and initial support for SELinux. Crucial for understanding the transition from manual profiles to automation.
 ### Threat Modeling (1)
 
@@ -633,16 +854,16 @@
   - **(2021)** [hackerone.com: Authenticated kubernetes principal with restricted permissions can retrieve ingress-nginx serviceaccount token and secrets across all namespaces](https://hackerone.com/reports/1249583) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed post-mortem report demonstrating how restricted cluster principals could extract ingress-nginx service account tokens. This real-world vulnerability highlights the architectural danger of over-privileged system namespaces. It emphasizes the need to isolate and continuously audit ingress controller configurations.
 #### Post-Deployment Scanning
 
-  - **(2025)** [==kubescape==](https://github.com/kubescape/kubescape) <span class='md-tag md-tag--info'>⭐ 11480</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An active CNCF Sandbox tool providing multi-framework configuration scanning, risk analysis, and vulnerability management. It integrates into CI/CD pipelines to ensure continuous verification of compliance frameworks (like CIS and NSA-CISA). Essential for enterprise teams seeking unified security visibility.
+  - **(2025)** [==kubescape==](https://github.com/kubescape/kubescape) <span class='md-tag md-tag--info'>⭐ 11480</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-405075a0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 5 L 20 5 L 30 10 L 40 13 L 50 5" fill="none" stroke="url(#spark-grad-405075a0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An active CNCF Sandbox tool providing multi-framework configuration scanning, risk analysis, and vulnerability management. It integrates into CI/CD pipelines to ensure continuous verification of compliance frameworks (like CIS and NSA-CISA). Essential for enterprise teams seeking unified security visibility.
 ### Vulnerability Assessment
 
-#### CIS Benchmarks (1)
+#### CIS Benchmarks (2)
 
-  - **(2022)** [rancher/cis-operator](https://github.com/rancher/cis-operator) <span class='md-tag md-tag--info'>⭐ 55</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Rancher's cis-operator is an automated tool running CIS security scans natively within Rancher ecosystems. It generates compliance reports validating control plane and worker components against standard security baselines. A key utility for multi-cluster environments managed via Rancher.
+  - **(2022)** [rancher/cis-operator](https://github.com/rancher/cis-operator) <span class='md-tag md-tag--info'>⭐ 55</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-551ff0f6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 2 L 20 13 L 30 6 L 40 4 L 50 2" fill="none" stroke="url(#spark-grad-551ff0f6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Rancher's cis-operator is an automated tool running CIS security scans natively within Rancher ecosystems. It generates compliance reports validating control plane and worker components against standard security baselines. A key utility for multi-cluster environments managed via Rancher.
   - **(2022)** [blog.flant.com: Kubernetes cluster security assessment with kube-bench and kube-hunter](https://palark.com/blog/kubernetes-security-with-kube-bench-and-kube-hunter)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates how to deploy and configure Aqua Security's kube-bench alongside kube-hunter. Shows how to automate node validation against CIS benchmarks, and actively scan cluster endpoints for network exposure vectors. Offers a potent open-source combination for regular pentesting operations.
 #### Policy Enforcement (1)
 
-  - **(2023)** [**github.com/Shopify/kubeaudit 🌟🌟**](https://github.com/Shopify/kubeaudit) <span class='md-tag md-tag--info'>⭐ 1937</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Shopify's kubeaudit is a popular open-source tool targeting configuration analysis. Curators note its ability to audit running clusters or local manifests for root execution or privilege escalations. *Live Grounding (2026)*: The repository is archived/read-only, but its audit logic remains highly influential for policy structures.
+  - **(2023)** [**github.com/Shopify/kubeaudit 🌟🌟**](https://github.com/Shopify/kubeaudit) <span class='md-tag md-tag--info'>⭐ 1937</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-29183622" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 10 L 20 2 L 30 8 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-29183622)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Shopify's kubeaudit is a popular open-source tool targeting configuration analysis. Curators note its ability to audit running clusters or local manifests for root execution or privilege escalations. *Live Grounding (2026)*: The repository is archived/read-only, but its audit logic remains highly influential for policy structures.
   - **(2022)** [itnext.io: Kubernetes OWASP Top 10: Centralised Policy Enforcement](https://itnext.io/kubernetes-owasp-top-10-centralised-policy-enforcement-9adc53438e22)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates mitigating risks from the OWASP Kubernetes Top 10 using centralized Policy-as-Code platforms like OPA Gatekeeper or Kyverno. Focuses on setting up mutating and validating admission webhooks to prevent non-compliant configs from deploying. Establishes programmatic posture control.
   - **(2021)** [infoq.com: Armo Releases Kubescape K8s Security Testing Tool: Q&A with VP Jonathan Kaftzan](https://www.infoq.com/news/2021/09/kubescape)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interview exploring the architecture, technical goals, and philosophy behind Kubescape. Focuses on simplifying multi-framework compliance analysis for platform engineers. Details how the tool analyzes YAML formats and active runtimes to find security posture anomalies.
 #### Threat Modeling (2)
@@ -701,5 +922,5 @@
   - **(2020)** [gist.github.com: How to protect your ~/.kube/ configuration](https://gist.github.com/PatrLind/e651d3cbc3bf68e4bd9fcc9568cbd3fb) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides hardening steps for securing developer workstation `~/.kube/config` files. Details POSIX permissions adjustments, the usage of credential helpers, and avoiding static administrative token storage.
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Oauth](./oauth.md)
+💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Chef](./chef.md)
 

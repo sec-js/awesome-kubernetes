@@ -3,6 +3,149 @@
 !!! info "Architectural Context"
     Detailed reference for Machine Learning Ops (MLOps) and Data Science in the context of AI.
 
+## Table of Contents
+
+1. [AI and Machine Learning](#ai-and-machine-learning)
+  - [Bio-Computing](#bio-computing)
+    - [Protein Folding](#protein-folding)
+  - [Foundations](#foundations)
+    - [Decision Intelligence](#decision-intelligence)
+    - [Neural Networks](#neural-networks)
+  - [Open Source](#open-source)
+    - [Landscape Evaluation](#landscape-evaluation)
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [AutoML](#automl)
+  - [Low-Code](#low-code)
+    - [Code Generation](#code-generation)
+1. [CI-CD](#ci-cd)
+  - [DevOps](#devops)
+1. [CICD](#cicd)
+  - [Containers](#containers)
+1. [Cloud Platforms](#cloud-platforms)
+  - [AWS](#aws)
+    - [SageMaker](#sagemaker)
+  - [Azure](#azure)
+    - [MLflow](#mlflow)
+    - [Model Serving](#model-serving)
+    - [System Design](#system-design)
+  - [Flyte Managed](#flyte-managed)
+  - [Google Cloud](#google-cloud)
+    - [Data Analytics](#data-analytics)
+  - [OpenShift](#openshift)
+    - [Enterprise Platforms](#enterprise-platforms)
+1. [Data Engineering](#data-engineering)
+  - [Data Labeling](#data-labeling)
+    - [Human-In-The-Loop](#human-in-the-loop)
+  - [Data Ops](#data-ops)
+    - [CI-CD](#ci-cd-1)
+  - [Learning Roadmap](#learning-roadmap)
+    - [Machine Learning](#machine-learning)
+  - [Streaming](#streaming)
+    - [Kafka](#kafka)
+1. [Data Science](#data-science)
+  - [Career Guidance](#career-guidance)
+    - [Industry Trends](#industry-trends)
+  - [Cloud Notebooks](#cloud-notebooks)
+    - [Data Engineering](#data-engineering-1)
+  - [Data Frames](#data-frames)
+    - [Out-of-Core Processing](#out-of-core-processing)
+  - [Datasets](#datasets)
+    - [Medical Imaging](#medical-imaging)
+    - [Regression Analysis](#regression-analysis)
+  - [Developer Tooling](#developer-tooling)
+    - [Python Ecosystem](#python-ecosystem)
+1. [Data Version Control](#data-version-control)
+  - [Developer Tooling](#developer-tooling-1)
+1. [Deployment](#deployment)
+  - [Kubernetes Orchestration](#kubernetes-orchestration)
+1. [Development Environments](#development-environments)
+  - [Containerization](#containerization)
+1. [Distributed Systems](#distributed-systems)
+  - [Compute Engines](#compute-engines)
+    - [Ray](#ray)
+1. [Experiment Tracking](#experiment-tracking)
+  - [Visualization](#visualization)
+1. [Generative AI](#generative-ai)
+  - [Distributed Systems](#distributed-systems-1)
+    - [Case Studies](#case-studies)
+  - [LLM Ops](#llm-ops)
+    - [AWS](#aws-1)
+    - [Self-Assessment](#self-assessment)
+    - [System Design](#system-design-1)
+1. [Governance](#governance)
+  - [Maturity Models](#maturity-models)
+1. [Infrastructure](#infrastructure)
+  - [Container Runtimes](#container-runtimes)
+    - [GPU Drivers](#gpu-drivers)
+  - [GPU Monitoring](#gpu-monitoring)
+    - [Command Line Tools](#command-line-tools)
+  - [GPU Orchestration](#gpu-orchestration)
+    - [Kubernetes Operators](#kubernetes-operators)
+    - [Kubernetes Setup](#kubernetes-setup)
+    - [Nix Package Manager](#nix-package-manager)
+    - [Resource Allocation](#resource-allocation)
+1. [Kubernetes](#kubernetes)
+  - [Architectural Patterns](#architectural-patterns)
+  - [Artifact Registration](#artifact-registration)
+  - [Component Engineering](#component-engineering)
+  - [Deployment Guides](#deployment-guides)
+  - [Kubeflow](#kubeflow)
+1. [Learning Roadmap](#learning-roadmap-1)
+  - [Courses](#courses)
+  - [Curated Reference](#curated-reference)
+1. [Machine Learning](#machine-learning-1)
+  - [Competitions](#competitions)
+    - [Datasets](#datasets-1)
+  - [Computer Vision](#computer-vision)
+    - [Instance Segmentation](#instance-segmentation)
+  - [Databases](#databases)
+    - [In-database ML](#in-database-ml)
+  - [Distributed Training](#distributed-training)
+    - [Fault Tolerance](#fault-tolerance)
+  - [Document Analysis](#document-analysis)
+    - [OCR](#ocr)
+  - [Education](#education)
+    - [Study Materials](#study-materials)
+  - [Foundations](#foundations-1)
+    - [Scratch Implementations](#scratch-implementations)
+  - [Information Retrieval](#information-retrieval)
+    - [RAG Pipelines](#rag-pipelines)
+  - [Large Language Models](#large-language-models)
+    - [Fine-tuning](#fine-tuning)
+  - [MLOps](#mlops)
+    - [Model Pipelines](#model-pipelines)
+  - [Medical Imaging](#medical-imaging-1)
+    - [Computer Vision](#computer-vision-1)
+1. [Medical Imaging](#medical-imaging-2)
+  - [End-to-End Pipeline](#end-to-end-pipeline)
+1. [Model Life Cycle](#model-life-cycle)
+  - [AWS](#aws-2)
+  - [Enterprise Patterns](#enterprise-patterns)
+1. [Model Serving](#model-serving-1)
+  - [API Development](#api-development)
+    - [FastAPI](#fastapi)
+  - [Architectural Patterns](#architectural-patterns-1)
+    - [Infrastructure Selection](#infrastructure-selection)
+  - [Kubernetes](#kubernetes-1)
+    - [KServe](#kserve)
+  - [Microservices](#microservices)
+1. [Orchestration](#orchestration)
+  - [Airflow](#airflow)
+  - [Airflow Providers](#airflow-providers)
+  - [Comparative Analysis](#comparative-analysis)
+  - [Flyte](#flyte)
+  - [Frameworks](#frameworks)
+  - [Workflows](#workflows)
+1. [Software Engineering](#software-engineering)
+  - [DevOps](#devops-1)
+    - [AI-Assisted Workflows](#ai-assisted-workflows)
+1. [Workflow Transition](#workflow-transition)
+  - [Best Practices](#best-practices)
+1. [Workshops](#workshops)
+  - [Infrastructure](#infrastructure-1)
+
 ## AI and Machine Learning
 
 ### Bio-Computing
@@ -124,7 +267,7 @@
 
 #### Human-In-The-Loop
 
-  - **(2023)** [==rubrix==](https://github.com/argilla-io/argilla) <span class='md-tag md-tag--info'>⭐ 5002</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Formerly Rubrix, Argilla is a premier open-source data curation platform designed for AI and LLM workflows. Enables continuous human-in-the-loop (HITL) fine-tuning cycles. It seamlessly integrates with Hugging Face, SpaCy, and LangChain, optimizing training data quality through iterative annotation, validation, and curation mechanisms.
+  - **(2023)** [==rubrix==](https://github.com/argilla-io/argilla) <span class='md-tag md-tag--info'>⭐ 5002</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-cf4730fa" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 13 L 20 10 L 30 7 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-cf4730fa)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Formerly Rubrix, Argilla is a premier open-source data curation platform designed for AI and LLM workflows. Enables continuous human-in-the-loop (HITL) fine-tuning cycles. It seamlessly integrates with Hugging Face, SpaCy, and LangChain, optimizing training data quality through iterative annotation, validation, and curation mechanisms.
 ### Data Ops
 
 #### CI-CD (1)
@@ -180,12 +323,12 @@
 
 ### Kubernetes Orchestration
 
-  - **(2022)** [bodywork-ml/bodywork-core: Bodywork](https://github.com/bodywork-ml/bodywork-core) <span class='md-tag md-tag--info'>⭐ 436</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Bodywork acts as a pipeline orchestrator and deployment tool focused on shipping machine learning systems directly into Kubernetes. While currently seeing low developer activity, it remains a valuable conceptual blueprint for running serverless, stateful, and batch-oriented ML pipelines.
+  - **(2022)** [bodywork-ml/bodywork-core: Bodywork](https://github.com/bodywork-ml/bodywork-core) <span class='md-tag md-tag--info'>⭐ 436</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-80063ec9" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 6 L 20 7 L 30 13 L 40 12 L 50 3" fill="none" stroke="url(#spark-grad-80063ec9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Bodywork acts as a pipeline orchestrator and deployment tool focused on shipping machine learning systems directly into Kubernetes. While currently seeing low developer activity, it remains a valuable conceptual blueprint for running serverless, stateful, and batch-oriented ML pipelines.
 ## Development Environments
 
 ### Containerization
 
-  - **(2023)** [tensorchord/envd: Reproducible development environment for AI/ML 🌟](https://github.com/tensorchord/envd) <span class='md-tag md-tag--info'>⭐ 2209</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An innovative local development environment generator for ML engineering. Envd translates Python declarations into isolated container definitions, ensuring high reproducibility for CUDA packages, pip dependency trees, and IDE plugins without writing complex Dockerfiles.
+  - **(2023)** [tensorchord/envd: Reproducible development environment for AI/ML 🌟](https://github.com/tensorchord/envd) <span class='md-tag md-tag--info'>⭐ 2209</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-92382e63" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 13 L 20 7 L 30 4 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-92382e63)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An innovative local development environment generator for ML engineering. Envd translates Python declarations into isolated container definitions, ensuring high reproducibility for CUDA packages, pip dependency trees, and IDE plugins without writing complex Dockerfiles.
 ## Distributed Systems
 
 ### Compute Engines
@@ -197,7 +340,7 @@
 
 ### Visualization
 
-  - **(2024)** [**github.com/aimhubio/aim**](https://github.com/aimhubio/aim) <span class='md-tag md-tag--info'>⭐ 6154</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Aim is an open-source, highly responsive experiment tracking and visualization dashboard for machine learning. It provides a robust query language and a user-friendly UI to compare thousands of metrics, hyperparameters, and logs across deep learning runs.
+  - **(2024)** [**github.com/aimhubio/aim**](https://github.com/aimhubio/aim) <span class='md-tag md-tag--info'>⭐ 6154</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6cae91fa" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 2 L 20 9 L 30 3 L 40 6 L 50 3" fill="none" stroke="url(#spark-grad-6cae91fa)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Aim is an open-source, highly responsive experiment tracking and visualization dashboard for machine learning. It provides a robust query language and a user-friendly UI to compare thousands of metrics, hyperparameters, and logs across deep learning runs.
 ## Generative AI
 
 ### Distributed Systems (1)
@@ -232,7 +375,7 @@
 
 #### Command Line Tools
 
-  - **(2024)** [**github.com/XuehaiPan/nvitop 🌟**](https://github.com/XuehaiPan/nvitop) <span class='md-tag md-tag--info'>⭐ 6957</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An interactive, terminal-based GPU monitoring tool that acts as a modern replacement for nvidia-smi. It provides real-time tracking of GPU resource consumption, memory configurations, process owners, and historical usage diagrams directly in the shell.
+  - **(2024)** [**github.com/XuehaiPan/nvitop 🌟**](https://github.com/XuehaiPan/nvitop) <span class='md-tag md-tag--info'>⭐ 6957</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f04e6f82" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 11 L 20 11 L 30 2 L 40 12 L 50 4" fill="none" stroke="url(#spark-grad-f04e6f82)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An interactive, terminal-based GPU monitoring tool that acts as a modern replacement for nvidia-smi. It provides real-time tracking of GPU resource consumption, memory configurations, process owners, and historical usage diagrams directly in the shell.
 ### GPU Orchestration
 
 #### Kubernetes Operators
@@ -283,27 +426,27 @@
 
 #### Instance Segmentation
 
-  - **(2023)** [**github.com/CASIA-IVA-Lab/FastSAM**](https://github.com/CASIA-LMC-Lab/FastSAM) <span class='md-tag md-tag--info'>⭐ 8364</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Fast SAM offers a highly optimized, CNN-based real-time alternative to Meta's Segment Anything Model. By sacrificing minimal accuracy, it reduces latency and computation footprints, which is critical for edge deployments and microservice image APIs.
+  - **(2023)** [**github.com/CASIA-IVA-Lab/FastSAM**](https://github.com/CASIA-LMC-Lab/FastSAM) <span class='md-tag md-tag--info'>⭐ 8364</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-84edd76e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 6 L 20 6 L 30 8 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-84edd76e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Fast SAM offers a highly optimized, CNN-based real-time alternative to Meta's Segment Anything Model. By sacrificing minimal accuracy, it reduces latency and computation footprints, which is critical for edge deployments and microservice image APIs.
 ### Databases
 
 #### In-database ML
 
-  - **(2024)** [**postgresml/postgresml 🌟**](https://github.com/postgresml/postgresml) <span class='md-tag md-tag--info'>⭐ 6800</span> <span class='md-tag md-tag--warning'>[RUST CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An extension that integrates machine learning directly inside PostgreSQL, written in Rust. It enables developers to train and run real-time inference using classic models or LLMs natively through SQL, entirely bypassing external ETL and API pipeline latency.
+  - **(2024)** [**postgresml/postgresml 🌟**](https://github.com/postgresml/postgresml) <span class='md-tag md-tag--info'>⭐ 6800</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-5910dbbe" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 7 L 20 13 L 30 13 L 40 8 L 50 4" fill="none" stroke="url(#spark-grad-5910dbbe)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[RUST CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An extension that integrates machine learning directly inside PostgreSQL, written in Rust. It enables developers to train and run real-time inference using classic models or LLMs natively through SQL, entirely bypassing external ETL and API pipeline latency.
 ### Distributed Training
 
 #### Fault Tolerance
 
-  - **(2024)** [github.com/SymbioticLab/Oobleck: Oobleck - Resilient Distributed Training' Framework](https://github.com/SymbioticLab/Oobleck) <span class='md-tag md-tag--info'>⭐ 100</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source distributed training framework designed with native fault-tolerant characteristics. It mitigates expensive spot-instance preemption delays by dynamically and rapidly reorganizing parallel communication pipelines on-the-fly.
+  - **(2024)** [github.com/SymbioticLab/Oobleck: Oobleck - Resilient Distributed Training' Framework](https://github.com/SymbioticLab/Oobleck) <span class='md-tag md-tag--info'>⭐ 100</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9476d30e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 4 L 20 10 L 30 13 L 40 13 L 50 5" fill="none" stroke="url(#spark-grad-9476d30e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source distributed training framework designed with native fault-tolerant characteristics. It mitigates expensive spot-instance preemption delays by dynamically and rapidly reorganizing parallel communication pipelines on-the-fly.
 ### Document Analysis
 
 #### OCR
 
-  - **(2024)** [==github.com/VikParuchuri/surya==](https://github.com/datalab-to/surya) <span class='md-tag md-tag--info'>⭐ 20801</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Surya provides multi-lingual document OCR and accurate layout analysis powered by deep learning. It delivers high-fidelity reading and structuring of dense scientific papers, tables, and financial layouts, serving as a lighter, open substitute for legacy systems.
+  - **(2024)** [==github.com/VikParuchuri/surya==](https://github.com/datalab-to/surya) <span class='md-tag md-tag--info'>⭐ 20801</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f39bd918" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 10 L 20 6 L 30 3 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-f39bd918)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Surya provides multi-lingual document OCR and accurate layout analysis powered by deep learning. It delivers high-fidelity reading and structuring of dense scientific papers, tables, and financial layouts, serving as a lighter, open substitute for legacy systems.
 ### Education
 
 #### Study Materials
 
-  - **(2023)** [**dair-ai/ML-Course-Notes: ML Course Notes 🌟**](https://github.com/dair-ai/ML-Course-Notes) <span class='md-tag md-tag--info'>⭐ 6568</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A comprehensive collection of study notes, mathematical backgrounds, and algorithmic outlines covering modern machine learning. It is an exceptional resource for developers transitioning to production AI, offering clear reviews of model structures and deep learning theory.
+  - **(2023)** [**dair-ai/ML-Course-Notes: ML Course Notes 🌟**](https://github.com/dair-ai/ML-Course-Notes) <span class='md-tag md-tag--info'>⭐ 6568</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c3e96cd2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 11 L 20 12 L 30 7 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-c3e96cd2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A comprehensive collection of study notes, mathematical backgrounds, and algorithmic outlines covering modern machine learning. It is an exceptional resource for developers transitioning to production AI, offering clear reviews of model structures and deep learning theory.
 ### Foundations (1)
 
 #### Scratch Implementations
@@ -313,12 +456,12 @@
 
 #### RAG Pipelines
 
-  - **(2024)** [github.com/decodingml: Real-time news search engine using Upstash Kafka and Vector DB](https://github.com/decodingai-magazine/articles-code/tree/main/articles/ml_system_design/real_time_news_search_with_upstash_kafka_and_vector_db) <span class='md-tag md-tag--info'>⭐ 140</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A hands-on repository and architecture blueprint illustrating a real-time semantic news search engine. Combining Upstash managed Kafka for event streaming with a Vector Database for indexing, it shows how to build low-latency RAG systems.
+  - **(2024)** [github.com/decodingml: Real-time news search engine using Upstash Kafka and Vector DB](https://github.com/decodingai-magazine/articles-code/tree/main/articles/ml_system_design/real_time_news_search_with_upstash_kafka_and_vector_db) <span class='md-tag md-tag--info'>⭐ 140</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d510f1e7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 6 L 20 10 L 30 5 L 40 7 L 50 9" fill="none" stroke="url(#spark-grad-d510f1e7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A hands-on repository and architecture blueprint illustrating a real-time semantic news search engine. Combining Upstash managed Kafka for event streaming with a Vector Database for indexing, it shows how to build low-latency RAG systems.
 ### Large Language Models
 
 #### Fine-tuning
 
-  - **(2023)** [==github.com/meta-llama/llama-recipes==](https://github.com/meta-llama/llama-cookbook) <span class='md-tag md-tag--info'>⭐ 18353</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Meta's core repository for scaling LLM deployments. It offers highly robust templates for PEFT (Parameter-Efficient Fine-Tuning) such as LoRA, model quantization, and optimization strategies that enable low-latency inference setups inside microservices frameworks.
+  - **(2023)** [==github.com/meta-llama/llama-recipes==](https://github.com/meta-llama/llama-cookbook) <span class='md-tag md-tag--info'>⭐ 18353</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-147e5aee" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 2 L 20 3 L 30 13 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-147e5aee)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Meta's core repository for scaling LLM deployments. It offers highly robust templates for PEFT (Parameter-Efficient Fine-Tuning) such as LoRA, model quantization, and optimization strategies that enable low-latency inference setups inside microservices frameworks.
 ### MLOps
 
 #### Model Pipelines
@@ -328,12 +471,12 @@
 
 #### Computer Vision (1)
 
-  - **(2022)** [fepegar/vesseg](https://github.com/fepegar/vesseg) <span class='md-tag md-tag--info'>⭐ 44</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized neural segmentation repository targeting retinal vessel identification on ocular datasets. Built with PyTorch, it provides ready-to-run inference architectures, custom dataset preprocessors, and benchmarking tests tailored for ocular imaging.
+  - **(2022)** [fepegar/vesseg](https://github.com/fepegar/vesseg) <span class='md-tag md-tag--info'>⭐ 44</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9fc7d34a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 7 L 20 9 L 30 6 L 40 11 L 50 9" fill="none" stroke="url(#spark-grad-9fc7d34a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized neural segmentation repository targeting retinal vessel identification on ocular datasets. Built with PyTorch, it provides ready-to-run inference architectures, custom dataset preprocessors, and benchmarking tests tailored for ocular imaging.
 ## Medical Imaging (2)
 
 ### End-to-End Pipeline
 
-  - **(2023)** [github.com/10tanmay100: MEDICAL-DATA-PROJECT-END2END-WITH-FEW-MLOPS](https://github.com/10tanmay100/MEDICAL-DATA-PROJECT-END2END-WITH-FEW-MLOPS) <span class='md-tag md-tag--info'>⭐ 3</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A template project exploring end-to-end MLOps strategies for medical imaging classifications. Built to serve as a baseline architectural guide, it shows how to parse medical image sets, structure training scripts, and deploy models as queryable endpoints.
+  - **(2023)** [github.com/10tanmay100: MEDICAL-DATA-PROJECT-END2END-WITH-FEW-MLOPS](https://github.com/10tanmay100/MEDICAL-DATA-PROJECT-END2END-WITH-FEW-MLOPS) <span class='md-tag md-tag--info'>⭐ 3</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8ced138c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 2 L 20 9 L 30 10 L 40 5 L 50 9" fill="none" stroke="url(#spark-grad-8ced138c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A template project exploring end-to-end MLOps strategies for medical imaging classifications. Built to serve as a baseline architectural guide, it shows how to parse medical image sets, structure training scripts, and deploy models as queryable endpoints.
 ## Model Life Cycle
 
 ### AWS (2)
@@ -383,7 +526,7 @@
   - **(2024)** [**zenml.io: ZenML**](https://www.zenml.io) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — ZenML is an extensible MLOps pipeline framework designed to decouple data engineering and machine learning workflows from physical target infrastructure. It integrates with major cloud stacks and allows reproducible local executions to scale to production environments effortlessly.
 ### Workflows
 
-  - **(2024)** [==github.com/Netflix/metaflow 🌟==](https://github.com/Netflix/metaflow) <span class='md-tag md-tag--info'>⭐ 10128</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Metaflow is Netflix's human-centric framework designed for building and managing production-grade data science pipelines. It seamlessly integrates local development with enterprise-scale cloud infrastructures, handling data caching, model versioning, and compute scaling automatically.
+  - **(2024)** [==github.com/Netflix/metaflow 🌟==](https://github.com/Netflix/metaflow) <span class='md-tag md-tag--info'>⭐ 10128</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-30434223" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 8 L 20 10 L 30 13 L 40 13 L 50 5" fill="none" stroke="url(#spark-grad-30434223)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Metaflow is Netflix's human-centric framework designed for building and managing production-grade data science pipelines. It seamlessly integrates local development with enterprise-scale cloud infrastructures, handling data caching, model versioning, and compute scaling automatically.
 ## Software Engineering
 
 ### DevOps (1)
@@ -401,8 +544,8 @@
 
 ### Infrastructure (1)
 
-  - **(2022)** [**ML Platform Workshop**](https://github.com/aporia-ai/mlplatform-workshop) <span class='md-tag md-tag--info'>⭐ 445</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A hands-on technical workshop repository showcasing the design of an end-to-end Machine Learning Platform. Demonstrates real-world integration of model registries, tracking servers, and deployment mechanisms under production-like conditions. Excellent educational resource for learning the architectural glue of modern MLOps frameworks.
+  - **(2022)** [**ML Platform Workshop**](https://github.com/aporia-ai/mlplatform-workshop) <span class='md-tag md-tag--info'>⭐ 445</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8a3327ed" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 9 L 20 13 L 30 12 L 40 11 L 50 3" fill="none" stroke="url(#spark-grad-8a3327ed)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A hands-on technical workshop repository showcasing the design of an end-to-end Machine Learning Platform. Demonstrates real-world integration of model registries, tracking servers, and deployment mechanisms under production-like conditions. Excellent educational resource for learning the architectural glue of modern MLOps frameworks.
 
 ---
-💡 **Explore Related:** [AI](./ai.md) | [AI Agents MCP](./ai-agents-mcp.md) | [ChatGPT](./chatgpt.md)
+💡 **Explore Related:** [AI](./ai.md) | [ChatGPT](./chatgpt.md) | [AI Agents MCP](./ai-agents-mcp.md)
 

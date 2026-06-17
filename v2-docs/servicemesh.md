@@ -3,6 +3,88 @@
 !!! info "Architectural Context"
     Detailed reference for Service Mesh in the context of Networking & Service Mesh.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Infrastructure](#cloud-infrastructure)
+  - [Traffic Management](#traffic-management)
+    - [Load Balancing](#load-balancing)
+1. [Cloud Native](#cloud-native)
+  - [Service Mesh](#service-mesh-1)
+    - [Istio](#istio)
+1. [Cloud Native Infrastructure](#cloud-native-infrastructure)
+  - [API Management](#api-management)
+    - [Service Mesh Comparison](#service-mesh-comparison)
+    - [Service Mesh Integration](#service-mesh-integration)
+  - [Load Balancing](#load-balancing-1)
+    - [Legacy Tooling](#legacy-tooling)
+  - [Orchestration](#orchestration)
+    - [Service Mesh Architecture](#service-mesh-architecture)
+  - [Service Mesh](#service-mesh-2)
+    - [Adoption Patterns](#adoption-patterns)
+    - [Concepts](#concepts)
+    - [Consul](#consul)
+      - [Design Patterns](#design-patterns)
+    - [Decision Matrix](#decision-matrix)
+    - [Evaluation](#evaluation)
+    - [History](#history)
+    - [Landscape](#landscape)
+    - [Legacy Tooling](#legacy-tooling-1)
+    - [Linkerd](#linkerd)
+      - [GitOps](#gitops)
+      - [High Availability](#high-availability)
+      - [History](#history-1)
+      - [Milestones](#milestones)
+      - [Multi-Cluster](#multi-cluster)
+      - [Multi-Region](#multi-region)
+      - [Releases](#releases)
+      - [Security](#security)
+    - [Managed Services](#managed-services)
+      - [Google Cloud](#google-cloud)
+      - [History](#history-2)
+      - [Integration](#integration)
+      - [gRPC](#grpc)
+    - [Market Trends](#market-trends)
+    - [Observability](#observability)
+    - [Operations](#operations)
+    - [Performance](#performance)
+    - [Production Operations](#production-operations)
+    - [Security](#security-1)
+      - [AuthN and AuthZ](#authn-and-authz)
+      - [Best Practices](#best-practices)
+      - [mTLS](#mtls)
+    - [Testing](#testing)
+    - [Tooling](#tooling)
+      - [Meshery](#meshery)
+    - [eBPF](#ebpf)
+      - [Future Trends](#future-trends)
+1. [Cloud Native Networking](#cloud-native-networking)
+  - [Control Plane](#control-plane)
+    - [Service Mesh Architecture](#service-mesh-architecture-1)
+  - [Data Plane](#data-plane)
+    - [APIs and Protocols](#apis-and-protocols)
+    - [Load Balancing Algorithms](#load-balancing-algorithms)
+  - [Service Mesh](#service-mesh-3)
+    - [Open Service Mesh](#open-service-mesh)
+  - [Service Proxy](#service-proxy)
+    - [Integration Tools](#integration-tools)
+1. [Infrastructure](#infrastructure)
+  - [Service Mesh](#service-mesh-4)
+    - [Architecture Guides](#architecture-guides)
+    - [Kubernetes Networking](#kubernetes-networking)
+    - [Red Hat Ecosystem](#red-hat-ecosystem)
+    - [Security](#security-2)
+    - [System Design](#system-design)
+1. [Networking](#networking)
+  - [Ingress and Gateway](#ingress-and-gateway)
+    - [Controllers](#controllers)
+    - [Gateway API](#gateway-api)
+1. [Serverless and Ingress](#serverless-and-ingress)
+  - [Knative](#knative)
+    - [Ingress Controllers](#ingress-controllers)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -61,11 +143,6 @@
 #### Service Mesh Integration
 
   - **(2021)** [**devops.com: When to Use API Management and Service Mesh Together**](https://devops.com/when-to-use-api-management-and-service-mesh-together) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Explores patterns for integrating API gateways with service meshes. Highlights how to pass identity contexts, orchestrate global traffic routes, and enforce layered perimeter and transport-level security policies.
-### Data Plane
-
-#### Proxy
-
-  - **(2022)** [envoyproxy.io](https://www.envoyproxy.io) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Homepage for Envoy Proxy, the C++ cloud-native L7 edge and service proxy. Serving as the primary data plane for Istio and modern gateway tools, it offers unmatched extensibility, advanced load balancing, and dynamic runtime configuration.
 ### Load Balancing (1)
 
 #### Legacy Tooling
@@ -200,7 +277,7 @@
 #### Service Mesh Architecture (1)
 
   - **(2022)** [solo.io: Why the control plane matters. Control planes are different than data planes. Separating the control plane from data plane 🌟](https://www.solo.io/blog/why-the-control-plane-matters) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural exploration contrasting the duties of the data plane (e.g., raw proxy packet forwarding via Envoy) against the control plane (e.g., Istio, Solo.io Gloo Mesh). It demonstrates how a centralized control plane acts as the brain, translating operator-defined policies into dynamic xDS configuration streams. This separation ensures scalability, administrative decoupling, and resilient policy distribution.
-### Data Plane (1)
+### Data Plane
 
 #### APIs and Protocols
 
@@ -217,16 +294,9 @@
 
 #### Integration Tools
 
-  - **(2020)** [ekglue - Envoy/Kubernetes glue](https://github.com/jrockway/ekglue) <span class='md-tag md-tag--info'>⭐ 29</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight utility developed to bridge Envoy configuration directly with Kubernetes API endpoints. It parses Kubernetes services and endpoints to dynamically construct Envoy-compatible bootstrap configurations. While highly illustrative of early custom control plane mechanics, it has largely been superseded by native Kubernetes Gateway API and modern Envoy-based ingress controllers.
+  - **(2020)** [ekglue - Envoy/Kubernetes glue](https://github.com/jrockway/ekglue) <span class='md-tag md-tag--info'>⭐ 29</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ff1d5b3c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 4 L 20 2 L 30 5 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-ff1d5b3c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight utility developed to bridge Envoy configuration directly with Kubernetes API endpoints. It parses Kubernetes services and endpoints to dynamically construct Envoy-compatible bootstrap configurations. While highly illustrative of early custom control plane mechanics, it has largely been superseded by native Kubernetes Gateway API and modern Envoy-based ingress controllers.
 ## Infrastructure
 
-### Networking
-
-#### Ingress
-
-##### Azure Application Gateway
-
-  - **(2025)** [==Application Gateway for Containers with AKS Overlay Networking and VNet Flow Logs==](https://blog.cloudtrooper.net/2025/04/02/application-gateway-for-containers-a-not-so-gentle-intro-4) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A deep-dive technical investigation of Azure's next-generation Application Gateway for Containers (AGC) running atop AKS Overlay Networking. Details the setup, logging mechanics, and network telemetry capture.
 ### Service Mesh (4)
 
 #### Architecture Guides
@@ -244,26 +314,16 @@
 #### System Design
 
   - **(2020)** [lucperkins.dev: Service mesh use cases](https://lucperkins.dev/blog/service-mesh-use-cases) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive breakdown of architectural scenarios where introducing a service mesh becomes mathematically and operationally viable. It contrasts simple setups with distributed, high-security, and multi-cloud enterprise topologies requiring advanced traffic management.
-## Networking (1)
+## Networking
 
 ### Ingress and Gateway
 
 #### Controllers
 
-  - **(2021)** [InGate: Ingress & Gateway API Controller (Archived)](https://github.com/kubernetes-sigs/ingate) <span class='md-tag md-tag--info'>⭐ 728</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Architectural prototype designed to test Ingress integration patterns. Live engineering truth confirms this repository is archived by SIG-Network, as development has shifted entirely toward the standardized Gateway API.
+  - **(2021)** [InGate: Ingress & Gateway API Controller (Archived)](https://github.com/kubernetes-sigs/ingate) <span class='md-tag md-tag--info'>⭐ 728</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-80365125" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 11 L 20 10 L 30 12 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-80365125)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Architectural prototype designed to test Ingress integration patterns. Live engineering truth confirms this repository is archived by SIG-Network, as development has shifted entirely toward the standardized Gateway API.
 #### Gateway API
 
-  - **(2023)** [**Kubernetes Gateway API**](https://github.com/kubernetes-sigs/gateway-api) <span class='md-tag md-tag--info'>⭐ 2885</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Official GitHub repository for the standard Kubernetes Gateway API. This next-generation specification supersedes standard Ingress, offering expressive, role-oriented, and extensible routing APIs (Gateway, GatewayClass, and Route resources).
-#### Traefik
-
-  - **(2022)** [Transitioning from ingress-nginx to Traefik in Kubernetes](https://traefik.io/blog/transition-from-ingress-nginx-to-traefik)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A migration blueprint walking developers through transitioning from ingress-nginx to Traefik. Details how Traefik's native middleware, dynamic routing, and CRDs simplify TLS management and traffic splitting in dynamic environments.
-## Networking and Security
-
-### Load Balancing (2)
-
-#### Performance and Tuning
-
-  - **(2023)** [==learnk8s.io: Load balancing and scaling long-lived connections in Kubernetes 🌟🌟🌟==](https://learnkube.com/kubernetes-long-lived-connections) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exceptional, highly-detailed exploration of how Kubernetes handles long-lived connections such as gRPC, HTTP/2, and WebSockets. Analyzes why standard iptables-based kube-proxy L4 load balancing fails to distribute traffic evenly, causing backend starvation. Live Grounding highlights that resolving these issues requires client-side load balancing, proxy-assisted gRPC routing, or active connection-termination intervals.
+  - **(2023)** [**Kubernetes Gateway API**](https://github.com/kubernetes-sigs/gateway-api) <span class='md-tag md-tag--info'>⭐ 2885</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-223c2abf" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 3 L 20 7 L 30 4 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-223c2abf)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Official GitHub repository for the standard Kubernetes Gateway API. This next-generation specification supersedes standard Ingress, offering expressive, role-oriented, and extensible routing APIs (Gateway, GatewayClass, and Route resources).
 ## Serverless and Ingress
 
 ### Knative
@@ -273,5 +333,5 @@
   - **(2023)** [Kourier: A lightweight Knative Serving ingress](https://developers.redhat.com/blog/2020/06/30/kourier-a-lightweight-knative-serving-ingress) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kourier is a lightweight Ingress implementation specifically designed for Knative Serving, utilizing Envoy as the underlying data plane. It serves as an alternative to large service mesh deployments, providing fast route configurations, cold start mitigation, and scale-to-zero capabilities for serverless containers inside Kubernetes. It is heavily utilized in simplified enterprise serverless setups.
 
 ---
-💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Networking](./networking.md)
+💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Web Servers](./web-servers.md) | [Caching](./caching.md)
 

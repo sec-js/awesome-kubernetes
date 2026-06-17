@@ -3,6 +3,12 @@
 !!! info "Architectural Context"
     Detailed reference for StackStorm in the context of Engineering Pipeline.
 
+## Table of Contents
+
+1. [DevOps](#devops)
+  - [Event-Driven Automation](#event-driven-automation)
+    - [StackStorm](#stackstorm-1)
+
 ## DevOps
 
 ### Event-Driven Automation
@@ -13,5 +19,5 @@
   - **(2025)** [github.com/StackStorm](https://github.com/StackStorm) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Central repositories for the StackStorm platform containing internal event loops, action runners, rules-engine components, pack loaders, and comprehensive infrastructure orchestration drivers.
 
 ---
-💡 **Explore Related:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md) | [Flux](./flux.md)
+💡 **Explore Related:** [Jenkins](./jenkins.md) | [Sonarqube](./sonarqube.md) | [Tekton](./tekton.md)
 

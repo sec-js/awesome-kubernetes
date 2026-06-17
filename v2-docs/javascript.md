@@ -3,6 +3,47 @@
 !!! info "Architectural Context"
     Detailed reference for JavaScript in the context of Developer Ecosystem.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Native Infrastructure](#cloud-native-infrastructure)
+  - [Containerization](#containerization)
+    - [Node.js Deployment](#nodejs-deployment)
+1. [Developer Productivity](#developer-productivity)
+  - [Package Management](#package-management)
+    - [Supply Chain Security](#supply-chain-security)
+  - [UIUX Design](#uiux-design)
+    - [Asset Generation](#asset-generation)
+    - [Inspiration](#inspiration)
+    - [Mockups](#mockups)
+  - [Workspace Optimization](#workspace-optimization)
+    - [Dependency Auditing](#dependency-auditing)
+1. [Frontend Development](#frontend-development)
+  - [Browser Storage](#browser-storage)
+    - [State Persistence](#state-persistence)
+  - [JavaScript Fundamentals](#javascript-fundamentals)
+    - [Data Structures](#data-structures)
+    - [Module Systems](#module-systems)
+  - [React Framework](#react-framework)
+    - [Software Architecture](#software-architecture)
+  - [Real-Time Communication](#real-time-communication)
+    - [Notifications](#notifications)
+  - [Security and Validation](#security-and-validation)
+    - [Regular Expressions](#regular-expressions)
+1. [Protocols and API Design](#protocols-and-api-design)
+  - [HTTP Networking](#http-networking)
+    - [Client-Server Communication](#client-server-communication)
+  - [REST APIs](#rest-apis)
+    - [Rapid Prototyping](#rapid-prototyping)
+1. [Runtime Environments](#runtime-environments)
+  - [JavaScript Engines](#javascript-engines)
+    - [Optimization](#optimization)
+  - [Node.js Platform](#nodejs-platform)
+    - [Asynchronous Systems](#asynchronous-systems)
+    - [Source Repository](#source-repository)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -65,7 +106,7 @@
 
 #### Software Architecture
 
-  - **(2020)** [==react js: mithi/react-philosophies==](https://github.com/mithi/react-philosophies) <span class='md-tag md-tag--info'>⭐ 3728</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly structured philosophy repository outlining architectural principles for designing maintainable React codebases. Emphasizes declarative code patterns, state encapsulation, hook extraction, and unit testing strategies.
+  - **(2020)** [==react js: mithi/react-philosophies==](https://github.com/mithi/react-philosophies) <span class='md-tag md-tag--info'>⭐ 3728</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1bfb9598" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 8 L 20 6 L 30 12 L 40 10 L 50 4" fill="none" stroke="url(#spark-grad-1bfb9598)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly structured philosophy repository outlining architectural principles for designing maintainable React codebases. Emphasizes declarative code patterns, state encapsulation, hook extraction, and unit testing strategies.
 ### Real-Time Communication
 
 #### Notifications
@@ -102,8 +143,8 @@
   - **(2009)** [nodejs.org](https://nodejs.org/en) <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Home of the Node.js project, an asynchronous event-driven JavaScript runtime built on Chrome's V8 engine. Leverages a non-blocking I/O model to run high-throughput networking services at scale.
 #### Source Repository
 
-  - **(2009)** [==github.com/nodejs/node==](https://github.com/nodejs/node) <span class='md-tag md-tag--info'>⭐ 117761</span> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Core development branch of the Node.js runtime. Details foundational V8 updates, event loop mechanics (libuv integration), core module performance tweaks, and security updates essential for server-side architectures.
+  - **(2009)** [==github.com/nodejs/node==](https://github.com/nodejs/node) <span class='md-tag md-tag--info'>⭐ 117761</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a2c9c461" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 10 L 20 7 L 30 4 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-a2c9c461)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Core development branch of the Node.js runtime. Details foundational V8 updates, event loop mechanics (libuv integration), core module performance tweaks, and security updates essential for server-side architectures.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
+💡 **Explore Related:** [Angular](./angular.md) | [Python](./python.md) | [Dom](./dom.md)
 

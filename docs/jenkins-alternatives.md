@@ -69,7 +69,7 @@
 - [GoCD](https://www.gocd.org)
 - [Codefresh](https://octopus.com/codefresh)
 - [skaffold](https://skaffold.dev) Local Kubernetes Development. Skaffold handles the workflow for building, pushing and deploying your application, allowing you to focus on what matters most: writing code.
-- [AWS DevOps - CICD](https://aws.amazon.com/devops/#cicd)
+- [AWS DevOps - CICD](https://aws.amazon.com/devops)
 - [Google Cloud Build](https://cloud.google.com/build)
 - [Kubeflow](https://www.kubeflow.org) The Machine Learning Toolkit for Kubernetes
 - [Screwdriver API](https://github.com/screwdriver-cd/screwdriver) Screwdriver is a self-contained, pluggable service to help you build, test, and continuously deliver software using the latest containerization technologies.
@@ -162,7 +162,7 @@
 - [jfrog.com: JFrog DevOps Platform](https://jfrog.com/platform)
 - [jfrog.com: Pipelines CI/CD and the JFrog Platform Difference](https://jfrog.com/pipelines)
 - [jfrog.com: How I Leaped Forward My Jenkins Build with JFrog Pipelines](https://jfrog.com/blog)
-- [youtube: jfrog - Modern App Deployments: How to use NGINX and JFrog to Automate your Blue/Green deployments](https://www.youtube.com/watch?v=15CGdzfDlpQ&t=1s&ab_channel=JFrog)
+- [youtube: jfrog - Modern App Deployments: How to use NGINX and JFrog to Automate your Blue/Green deployments](https://www.youtube.com/watch?v=15CGdzfDlpQ&ab_channel=JFrog)
 - [cloud.redhat.com: Cloud DevOps With OpenShift and JFrog](https://www.redhat.com/en/blog/cloud-devops-with-openshift-and-jfrog)
 
 ### Semaphore

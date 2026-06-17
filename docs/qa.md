@@ -74,7 +74,7 @@ the #1 test automation community.
 - [Chainsaw - The ultimate end to end testing tool for Kubernetes operators](https://github.com/kyverno/chainsaw)
 - [collabnix.com: The Ultimate Docker Tutorial for Automation Testing](https://collabnix.com/the-ultimate-docker-tutorial-for-automation-testing)
 - [Allure Report 🌟](https://github.com/allure-framework/allure2)
-    - [Allure Jenkins Plugin 🌟](https://plugins.jenkins.io/allure-jenkins-plugin) This plugin allows to automatically generate [Allure Report](http://allure.qatools.ru) and attach it to build during Jenkins job run.
+    - [Allure Jenkins Plugin 🌟](https://plugins.jenkins.io/allure-jenkins-plugin) This plugin allows to automatically generate [Allure Report](https://allure.qatools.ru) and attach it to build during Jenkins job run.
 - [venturebeat.com: Reflect brings automated no-code web testing to the cloud](https://venturebeat.com/2021/01/22/reflect-brings-automated-no-code-web-testing-to-the-cloud)
 - [Semgrep](https://semgrep.dev) Static analysis at ludicrous speed. Find bugs and enforce code standards
     - [meetup.com: A single open-source security scanner for most languages on Jenkins](https://www.meetup.com/es-es/jenkins-online-meetup/events/276135789) As software security is becoming an increasingly bigger organization risk, static and dynamic analysis are becoming indispensable. However most popular open-source static analysis scanners cover only a handful of languages, or offer limited security rules. In this talk, we’ll present Semgrep, an open-source static analysis tool that support 12+ languages, and simplifies writing custom rules for organization-specific code patterns. In addition, we’ll show how to integrate Semgrep into a Jenkins Pipeline for scanning every commit or PR.

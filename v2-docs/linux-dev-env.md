@@ -3,6 +3,31 @@
 !!! info "Architectural Context"
     Detailed reference for WSL: Linux Dev Environment on Windows in the context of Developer Ecosystem.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Developer Experience](#developer-experience)
+  - [Package Management](#package-management)
+    - [Windows Tooling](#windows-tooling)
+1. [Development Environment](#development-environment)
+  - [Windows Subsystem for Linux](#windows-subsystem-for-linux)
+    - [Docker Desktop](#docker-desktop)
+    - [Docker Engine](#docker-engine)
+    - [Kubernetes Desktop](#kubernetes-desktop)
+    - [Resource Optimization](#resource-optimization)
+    - [Terminal Emulators](#terminal-emulators)
+    - [Ubuntu](#ubuntu)
+    - [VS Code Integration](#vs-code-integration)
+    - [WSL Installation](#wsl-installation)
+1. [Local Developer Environment](#local-developer-environment)
+  - [Version Management](#version-management)
+    - [Multi-Language Runtimes](#multi-language-runtimes)
+1. [Local Development](#local-development)
+  - [Operating Systems](#operating-systems)
+    - [WSL](#wsl)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -21,7 +46,7 @@
 
 #### Windows Tooling
 
-  - **(2024)** [==Windows Package Manager CLI (aka winget)==](https://github.com/microsoft/winget-cli) <span class='md-tag md-tag--info'>⭐ 26023</span> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official open-source repository for winget-cli, Microsoft's Windows Package Manager. Standardizes command-line app deployment, installation, dependency discovery, and workspace updates.
+  - **(2024)** [==Windows Package Manager CLI (aka winget)==](https://github.com/microsoft/winget-cli) <span class='md-tag md-tag--info'>⭐ 26023</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3f02f28d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 5 L 20 5 L 30 5 L 40 12 L 50 3" fill="none" stroke="url(#spark-grad-3f02f28d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official open-source repository for winget-cli, Microsoft's Windows Package Manager. Standardizes command-line app deployment, installation, dependency discovery, and workspace updates.
 ## Development Environment
 
 ### Windows Subsystem for Linux
@@ -54,6 +79,13 @@
   - **(2021)** [bleepingcomputer.com: Windows 11 can now install WSL from the Microsoft' Store 🌟](https://www.bleepingcomputer.com/news/microsoft/windows-11-can-now-install-wsl-from-the-microsoft-store) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This technical review details Microsoft's strategic shift to deliver WSL as an application through the Microsoft Store on Windows 11. Decoupling WSL from core OS updates allows rapid feature and driver iterations without requiring full system reboots. It guarantees that development teams can access the latest filesystem speed improvements and driver updates immediately.
   - **(2020)** [Microsoft Makes it Easier to Install WSL on Windows 10 🌟](https://www.omgubuntu.co.uk/2020/06/microsoft-wsl-install-command) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An overview of Microsoft's streamlined WSL installation process, highlighting the creation of the unified `wsl --install` command. This enhancement automates feature enablement and default distribution retrieval, lowering the onboarding barrier for DevOps engineers. This simplification is highly beneficial for enterprise-wide developer environment standardization.
   - **(2020)** [Distro installation added to WSL --install in Windows 10 insiders preview build 20246](https://devblogs.microsoft.com/commandline/distro-installation-added-to-wsl-install-in-windows-10-insiders-preview-build-20246) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This release overview highlights improvements to the `wsl --install` process in Windows Insider Build 20246, enabling customized distribution selection during initialization. These upgrades allow teams to script automated workspace setup processes without manual user interaction. This automated workflow is essential for building reproducible local development environments via code.
+## Local Developer Environment
+
+### Version Management
+
+#### Multi-Language Runtimes
+
+  - **(2026)** [==ASDF 🌟==](https://asdf-vm.com) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensible CLI runtime version manager that unifies environment configurations (Node.js, Ruby, Python, Elixir, Go, and more) under a single .tool-versions file. Successfully eliminates environment drift across development machines and CI runners via a robust plugin-driven architecture.
 ## Local Development
 
 ### Operating Systems
@@ -64,5 +96,5 @@
   - **(2026)** [9elements.com: Developing on Windows with WSL2](https://9elements.com/blog/developing-on-windows-with-wsl2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-focused guide optimizing local Windows workflows with WSL2. Provides performance instructions on using WSL2 backends alongside Docker Desktop, configuring VS Code remote-containers, and mitigating cross-file system read/write overhead.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
+💡 **Explore Related:** [Angular](./angular.md) | [Python](./python.md) | [Dom](./dom.md)
 

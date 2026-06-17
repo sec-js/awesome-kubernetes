@@ -3,6 +3,269 @@
 !!! info "Architectural Context"
     Detailed reference for Cloud Based Integration & Messaging. Data Processing & Streaming (aka Data Pipeline). Open Data Hub in the context of Data & Advanced Analytics.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Architecture](#architecture)
+  - [Data Mesh](#data-mesh)
+    - [Azure](#azure)
+    - [Data Products](#data-products)
+    - [Foundations](#foundations)
+    - [Migration](#migration)
+    - [Syntheses](#syntheses)
+  - [Hybrid Cloud](#hybrid-cloud)
+    - [App Modernization](#app-modernization)
+    - [Google Anthos](#google-anthos)
+  - [Infrastructure as Code](#infrastructure-as-code)
+    - [Event-Driven](#event-driven)
+  - [IoT](#iot)
+    - [Protocols](#protocols)
+  - [Microservices Patterns](#microservices-patterns)
+    - [Decoupling](#decoupling)
+    - [No-Code CDC](#no-code-cdc)
+    - [Schema Governance](#schema-governance)
+  - [Scalability](#scalability)
+    - [Case Studies](#case-studies)
+1. [Cloud Infrastructure](#cloud-infrastructure)
+  - [Kubernetes](#kubernetes)
+    - [Data Storage](#data-storage)
+    - [Message Brokers](#message-brokers)
+  - [PaaS](#paas)
+    - [Google Cloud](#google-cloud)
+1. [Cloud Native Infrastructure](#cloud-native-infrastructure)
+  - [Enterprise Messaging](#enterprise-messaging)
+    - [Kafka on Kubernetes](#kafka-on-kubernetes)
+      - [Architecture Overview](#architecture-overview)
+      - [Security](#security)
+  - [Kubernetes Operators](#kubernetes-operators)
+    - [Strimzi](#strimzi)
+      - [Day-2 Operations](#day-2-operations)
+1. [Cloud Native Serverless](#cloud-native-serverless)
+  - [Knative](#knative)
+    - [Eventing Integration](#eventing-integration)
+1. [Data Engineering](#data-engineering)
+  - [Change Data Capture](#change-data-capture)
+    - [Audit Systems](#audit-systems)
+    - [Connectors](#connectors)
+    - [Debezium](#debezium)
+    - [Foundations](#foundations-1)
+    - [Kafka Connect](#kafka-connect)
+    - [Pipelines](#pipelines)
+    - [PostgreSQL](#postgresql)
+    - [Production Case Studies](#production-case-studies)
+  - [Cultural Shift](#cultural-shift)
+    - [Real-Time Data](#real-time-data)
+  - [Data Lakehouse](#data-lakehouse)
+    - [Apache Iceberg](#apache-iceberg)
+  - [Data Pipelines](#data-pipelines)
+    - [Cloud Architecture](#cloud-architecture)
+    - [History](#history)
+    - [OpenShift](#openshift)
+  - [Databases](#databases)
+    - [Event Streaming](#event-streaming)
+  - [Event Streaming](#event-streaming-1)
+    - [Apache Kafka](#apache-kafka)
+    - [Architectural Patterns](#architectural-patterns)
+    - [Case Study](#case-study)
+    - [Foundations](#foundations-2)
+    - [How-To](#how-to)
+    - [Installation](#installation)
+    - [Kafka Connect SMT](#kafka-connect-smt)
+    - [Kubernetes Operators](#kubernetes-operators-1)
+    - [Machine Learning](#machine-learning)
+    - [Meta-Resources](#meta-resources)
+    - [Multi-Cluster](#multi-cluster)
+    - [Podcasts](#podcasts)
+    - [Real-Time Data](#real-time-data-1)
+    - [Tutorials](#tutorials)
+    - [UI Consoles](#ui-consoles)
+  - [Schema Registry](#schema-registry)
+    - [Apicurio](#apicurio)
+    - [Red Hat Integration](#red-hat-integration)
+  - [Stream Processing](#stream-processing)
+    - [Flink SQL](#flink-sql)
+    - [Google Cloud Dataflow](#google-cloud-dataflow)
+    - [Meta-Resources](#meta-resources-1)
+    - [Quarkus](#quarkus)
+1. [Data Platform](#data-platform)
+  - [Data Pipelines](#data-pipelines-1)
+    - [Streaming Systems](#streaming-systems)
+      - [Reference Material](#reference-material)
+  - [Machine Learning](#machine-learning-1)
+    - [Open Data Hub](#open-data-hub)
+      - [Architecture and Releases](#architecture-and-releases)
+      - [Core Platform](#core-platform)
+      - [Roadmap](#roadmap)
+1. [Enterprise Integration](#enterprise-integration)
+  - [Data Pipelines](#data-pipelines-2)
+    - [RudderStack](#rudderstack)
+      - [Customer Data Platform](#customer-data-platform)
+  - [iPaaS](#ipaas)
+    - [Architecture Concepts](#architecture-concepts)
+    - [Market Review](#market-review)
+    - [MuleSoft](#mulesoft)
+      - [Enterprise Integration Platform](#enterprise-integration-platform)
+1. [Event-Driven Systems](#event-driven-systems)
+  - [Apache Kafka](#apache-kafka-1)
+    - [Architecture and KRaft](#architecture-and-kraft)
+    - [CLI Tools](#cli-tools)
+    - [Client Development](#client-development)
+    - [Cloud Infrastructure](#cloud-infrastructure-1)
+    - [Disaster Recovery](#disaster-recovery)
+    - [Kubernetes and GitOps](#kubernetes-and-gitops)
+    - [Kubernetes Deployment](#kubernetes-deployment)
+    - [Kubernetes Operators](#kubernetes-operators-2)
+    - [Learning Resources](#learning-resources)
+    - [Observability and UI](#observability-and-ui)
+    - [Resiliency and Patterns](#resiliency-and-patterns)
+    - [Scalability and Performance](#scalability-and-performance)
+    - [Schema Governance](#schema-governance-1)
+    - [Security](#security-1)
+    - [Stream Processing](#stream-processing-1)
+    - [Testing and Emulation](#testing-and-emulation)
+    - [Topic Design](#topic-design)
+    - [Topology and Architecture](#topology-and-architecture)
+  - [Apache Kafka Connect](#apache-kafka-connect)
+    - [API and Orchestration](#api-and-orchestration)
+    - [Security](#security-2)
+  - [Case Studies](#case-studies-1)
+    - [Scale and Infrastructure](#scale-and-infrastructure)
+  - [Concepts](#concepts)
+    - [Visual Learning](#visual-learning)
+  - [Design Patterns](#design-patterns)
+    - [Transactional Outbox](#transactional-outbox)
+1. [Infrastructure](#infrastructure)
+  - [Cloud Native Integration](#cloud-native-integration)
+    - [ActiveMQ Artemis](#activemq-artemis)
+      - [Networking](#networking)
+      - [Persistence](#persistence)
+    - [Enterprise Messaging](#enterprise-messaging-1)
+      - [AMQ Streams](#amq-streams)
+      - [ActiveMQ Artemis](#activemq-artemis-1)
+      - [Red Hat AMQ](#red-hat-amq)
+    - [Kubernetes Operators](#kubernetes-operators-3)
+      - [Koperator](#koperator)
+      - [Strimzi](#strimzi-1)
+    - [Strimzi](#strimzi-2)
+      - [CLI Tools](#cli-tools-1)
+      - [Configuration](#configuration)
+      - [Introduction](#introduction)
+      - [Monitoring](#monitoring)
+      - [Security](#security-3)
+      - [Sidecar Patterns](#sidecar-patterns)
+  - [Data Streaming](#data-streaming)
+    - [Architectural Patterns](#architectural-patterns-1)
+      - [Comparisons](#comparisons)
+    - [Cloud Integration](#cloud-integration)
+      - [Azure](#azure-1)
+    - [Enterprise Kafka](#enterprise-kafka)
+      - [Confluent](#confluent)
+    - [Integrations](#integrations)
+      - [MongoDB](#mongodb)
+    - [Kafka Tooling](#kafka-tooling)
+      - [CLI and TUI](#cli-and-tui)
+      - [Enterprise GUIs](#enterprise-guis)
+    - [Managed Services](#managed-services)
+      - [Cloud Alternatives](#cloud-alternatives)
+    - [Monitoring](#monitoring-1)
+      - [Prometheus and Grafana](#prometheus-and-grafana)
+    - [Next-Gen Event Brokers](#next-gen-event-brokers)
+      - [Pulsar](#pulsar)
+      - [Redpanda](#redpanda)
+    - [Performance Tuning](#performance-tuning)
+      - [Kafka Consumers](#kafka-consumers)
+      - [Kafka Producers](#kafka-producers)
+    - [Stream Processing](#stream-processing-2)
+      - [Architectural Patterns](#architectural-patterns-2)
+      - [ksqlDB](#ksqldb)
+  - [Enterprise Integration](#enterprise-integration-1)
+    - [Apache Camel](#apache-camel)
+    - [Camel K](#camel-k)
+    - [Camel Quarkus](#camel-quarkus)
+    - [Comparison](#comparison)
+    - [Kafka Connect](#kafka-connect-1)
+  - [IoT and Edge Messaging](#iot-and-edge-messaging)
+    - [Brokers](#brokers)
+      - [Mosquitto](#mosquitto)
+    - [Protocols](#protocols-1)
+      - [MQTT](#mqtt)
+  - [Kubernetes Native](#kubernetes-native)
+    - [Camel K](#camel-k-1)
+    - [Kamelets](#kamelets)
+  - [Message Brokers](#message-brokers-1)
+    - [ActiveMQ](#activemq)
+    - [Clustering](#clustering)
+    - [Comparison](#comparison-1)
+    - [Docker](#docker)
+    - [KubeMQ](#kubemq)
+    - [RabbitMQ](#rabbitmq)
+  - [Messaging](#messaging)
+    - [Redis](#redis)
+  - [Stream Processing](#stream-processing-3)
+    - [Flink](#flink)
+      - [Kubernetes Deployment](#kubernetes-deployment-1)
+    - [In-Memory Compute](#in-memory-compute)
+      - [Hazelcast](#hazelcast)
+    - [Stateful Computations](#stateful-computations)
+      - [Flink](#flink-1)
+1. [Integration](#integration)
+  - [Data Federation](#data-federation)
+    - [Citizen Integration](#citizen-integration)
+  - [Enterprise Service Bus](#enterprise-service-bus)
+    - [Red Hat Fuse](#red-hat-fuse)
+  - [Low-Code Integration](#low-code-integration)
+    - [Syndesis](#syndesis)
+    - [Tutorials](#tutorials-1)
+1. [Microservices](#microservices)
+  - [Cloud Native](#cloud-native)
+    - [Event-Driven Architecture](#event-driven-architecture)
+  - [Decomposition](#decomposition)
+    - [Event-Driven Architecture](#event-driven-architecture-1)
+  - [Distributed Transactions](#distributed-transactions)
+    - [Patterns](#patterns)
+  - [Domain-Driven Design](#domain-driven-design)
+    - [Patterns](#patterns-1)
+  - [Enterprise Integration](#enterprise-integration-2)
+    - [Event-Driven Architecture](#event-driven-architecture-2)
+  - [Event-Driven Architecture](#event-driven-architecture-3)
+    - [Industry Trends](#industry-trends)
+    - [Kafka](#kafka)
+  - [Inter-Service Communication](#inter-service-communication)
+    - [Comparison](#comparison-2)
+  - [Kubernetes](#kubernetes-1)
+    - [CloudEvents](#cloudevents)
+  - [Patterns](#patterns-2)
+    - [Event Sourcing](#event-sourcing)
+  - [Web Development](#web-development)
+    - [Event-Driven Architecture](#event-driven-architecture-4)
+1. [Observability](#observability)
+  - [Monitoring](#monitoring-2)
+    - [Kafka Ecosystem](#kafka-ecosystem)
+1. [Orchestration](#orchestration)
+  - [Workflow Engines](#workflow-engines)
+    - [Camunda](#camunda)
+      - [Zeebe](#zeebe)
+    - [Patterns](#patterns-3)
+      - [Event-Driven Orchestration](#event-driven-orchestration)
+  - [Workflows](#workflows)
+    - [Apache Airflow](#apache-airflow)
+      - [Architecture](#architecture-1)
+      - [Container Pipelines](#container-pipelines)
+      - [DAG Management](#dag-management)
+      - [Dynamic DAGs](#dynamic-dags)
+      - [Introduction](#introduction-1)
+      - [Kubernetes Deployment](#kubernetes-deployment-2)
+      - [Kubernetes Integration](#kubernetes-integration)
+      - [Monitoring](#monitoring-3)
+    - [Kubernetes SDKs](#kubernetes-sdks)
+      - [Couler](#couler)
+1. [Software Engineering](#software-engineering)
+  - [Backend Development](#backend-development)
+    - [Java Enterprise](#java-enterprise)
+      - [MicroProfile](#microprofile)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -313,12 +576,12 @@
   - **(2026)** [kafka-tutorials.confluent.io 🌟](https://developer.confluent.io/tutorials) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An extensive hands-on tutorial catalog for implementing streaming patterns. It provides clear recipes for Kafka Streams, ksqlDB, and Kafka Connect, demonstrating stream-table joins, cryptographic masking, and real-time stateful aggregations.
 #### UI Consoles
 
-  - **(2026)** [==AKHQ (previously known as KafkaHQ) 🌟==](https://github.com/tchiotludo/akhq) <span class='md-tag md-tag--info'>⭐ 3819</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — AKHQ (formerly KafkaHQ) is a comprehensive web interface for administering and browsing Apache Kafka resources. It provides granular visibility into topics, payloads, schema registries, and consumer group offsets without requiring complex CLI interactions.
+  - **(2026)** [==AKHQ (previously known as KafkaHQ) 🌟==](https://github.com/tchiotludo/akhq) <span class='md-tag md-tag--info'>⭐ 3819</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-45523363" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 10 L 20 8 L 30 5 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-45523363)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — AKHQ (formerly KafkaHQ) is a comprehensive web interface for administering and browsing Apache Kafka resources. It provides granular visibility into topics, payloads, schema registries, and consumer group offsets without requiring complex CLI interactions.
 ### Schema Registry
 
 #### Apicurio
 
-  - **(2026)** [****Apicurio** Registry**](https://github.com/apicurio/apicurio-registry) <span class='md-tag md-tag--info'>⭐ 814</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Apicurio Registry is an open-source, high-performance centralized schema registry. It manages API contracts, OpenAPI designs, AsyncAPI definitions, Avro, and Protobuf structures, enforcing real-time payload validations over high-throughput microservice pipelines while offering direct Kubernetes operator integrations.
+  - **(2026)** [****Apicurio** Registry**](https://github.com/apicurio/apicurio-registry) <span class='md-tag md-tag--info'>⭐ 814</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8ec6a20b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 9 L 20 6 L 30 11 L 40 2 L 50 10" fill="none" stroke="url(#spark-grad-8ec6a20b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Apicurio Registry is an open-source, high-performance centralized schema registry. It manages API contracts, OpenAPI designs, AsyncAPI definitions, Avro, and Protobuf structures, enforcing real-time payload validations over high-throughput microservice pipelines while offering direct Kubernetes operator integrations.
 #### Red Hat Integration
 
   - **(2019)** [Red Hat Integration service registry](https://developers.redhat.com/blog/2019/12/16/getting-started-with-red-hat-integration-service-registry) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory guide to Red Hat's Service Registry, based on the Apicurio Registry upstream. It outlines configuration steps for maintaining schema formats (Avro, Protobuf, JSON) inside enterprise messaging pipelines, ensuring API contract governance in decoupled distributed architectures.
@@ -423,7 +686,7 @@
   - **(2021)** [developer.confluent.io 🌟🌟](https://developer.confluent.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The premier developer learning portal designed and maintained by Confluent. Provides a repository of official tutorials, code patterns, and deep-dives explaining Kafka stream processing, client APIs, and administrative best practices.
 #### Observability and UI
 
-  - **(2023)** [==Kafdrop – Kafka Web UI 🌟==](https://github.com/obsidiandynamics/kafdrop) <span class='md-tag md-tag--info'>⭐ 6137</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kafdrop is a popular, lightweight web UI for monitoring and managing Apache Kafka clusters. It renders real-time views of brokers, topic structures, partition offsets, consumer group lag, and permits active JSON/protobuf message payload inspection.
+  - **(2023)** [==Kafdrop – Kafka Web UI 🌟==](https://github.com/obsidiandynamics/kafdrop) <span class='md-tag md-tag--info'>⭐ 6137</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2d1a972e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 3 L 20 9 L 30 5 L 40 3 L 50 3" fill="none" stroke="url(#spark-grad-2d1a972e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kafdrop is a popular, lightweight web UI for monitoring and managing Apache Kafka clusters. It renders real-time views of brokers, topic structures, partition offsets, consumer group lag, and permits active JSON/protobuf message payload inspection.
   - **(2023)** [==redpanda-data/kowl==](https://github.com/redpanda-data/console) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A high-performance web dashboard optimized for debugging and exploring event-streaming platforms. Developed originally as Kowl and later rebranded as Redpanda Console, it presents outstanding visualization of schema registries, active consumer state tracking, and rapid payload searches.
   - **(2021)** [towardsdatascience.com: Overview of UI Tools for Monitoring and Management of Apache Kafka Clusters](https://towardsdatascience.com/overview-of-ui-tools-for-monitoring-and-management-of-apache-kafka-clusters-8c383f897e80)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative overview of web-based UI management consoles for monitoring and administrating Apache Kafka clusters. Contrasts Kafdrop, AKHQ, CMAK, and other alternatives on criteria like schema registry integrations, user permissions, and deployment ease.
   - **(2021)** [datadoghq.com: Monitoring Kafka performance metrics](https://www.datadoghq.com/blog/monitoring-kafka-performance-metrics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exhaustive guide detailing critical Apache Kafka performance metrics that platform operators and SREs should monitor. Highlights broker-level telemetry (e.g., under-replicated partitions, active controllers) alongside client consumer group lag.
@@ -448,8 +711,8 @@
   - **(2021)** [kafka-tutorials.confluent.io: How to count messages in a Kafka topic](https://developer.confluent.io/confluent-tutorials/count-messages/ksql)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A hands-on technical guide detailing how to run stateful aggregations, specifically counting message events within high-throughput Kafka topics, using ksqlDB. It covers the underlying SQL-like syntax required to define event streams and continuous materialized tables.
 #### Testing and Emulation
 
-  - **(2022)** [==KLoadGen - Kafka + (Avro/Json Schema) Load Generator 🌟==](https://github.com/sngular/kloadgen) <span class='md-tag md-tag--info'>⭐ 218</span> <span class='md-tag md-tag--warning'>[KOTLIN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A purpose-built performance benchmarking CLI tool designed to simulate realistic cluster loads by generating synthetic schema-validated data. It easily ingests Avro or JSON schemas to produce representative records at controllable volume rates.
-  - **(2022)** [==github.com/lensesio/fast-data-dev (Lenses Box)==](https://github.com/lensesio/fast-data-dev) <span class='md-tag md-tag--info'>⭐ 2077</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Fast-data-dev (Lenses Box) is a highly popular, all-in-one Docker environment integrating Kafka, ZooKeeper, Schema Registry, and REST Proxy components. It represents the industry standard for local developer mockups and continuous integration (CI) tests.
+  - **(2022)** [==KLoadGen - Kafka + (Avro/Json Schema) Load Generator 🌟==](https://github.com/sngular/kloadgen) <span class='md-tag md-tag--info'>⭐ 218</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0e2e8949" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 7 L 20 2 L 30 13 L 40 13 L 50 3" fill="none" stroke="url(#spark-grad-0e2e8949)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[KOTLIN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A purpose-built performance benchmarking CLI tool designed to simulate realistic cluster loads by generating synthetic schema-validated data. It easily ingests Avro or JSON schemas to produce representative records at controllable volume rates.
+  - **(2022)** [==github.com/lensesio/fast-data-dev (Lenses Box)==](https://github.com/lensesio/fast-data-dev) <span class='md-tag md-tag--info'>⭐ 2077</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-19a0082c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 12 L 20 11 L 30 7 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-19a0082c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Fast-data-dev (Lenses Box) is a highly popular, all-in-one Docker environment integrating Kafka, ZooKeeper, Schema Registry, and REST Proxy components. It represents the industry standard for local developer mockups and continuous integration (CI) tests.
 #### Topic Design
 
   - **(2022)** [newrelic.com: Effective Strategies for Kafka Topic Partitioning 🌟](https://newrelic.com/blog/observability/effective-strategies-kafka-topic-partitioning)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive into strategies for sizing and partitioning Kafka topics to balance message distribution and throughput. Analyzes the runtime cost of partition limits on broker JVM overhead, partition key selection, and strategies to prevent hot broker hotspots.
@@ -509,7 +772,7 @@
 
 ##### Koperator
 
-  - **(2024)** [**Banzai Kafka Operator**](https://github.com/banzaicloud/koperator) <span class='md-tag md-tag--info'>⭐ 790</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Originally engineered by Banzai Cloud, Koperator is a highly automated operator framework designed to manage Kafka on Kubernetes with Cruise Control integrations. While mostly superseded by Strimzi, its historical innovations in granular scaling and fine-grained rebalancing influenced modern stateful Kubernetes abstractions.
+  - **(2024)** [**Banzai Kafka Operator**](https://github.com/banzaicloud/koperator) <span class='md-tag md-tag--info'>⭐ 790</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f12e5be8" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 11 L 20 5 L 30 7 L 40 7 L 50 3" fill="none" stroke="url(#spark-grad-f12e5be8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Originally engineered by Banzai Cloud, Koperator is a highly automated operator framework designed to manage Kafka on Kubernetes with Cruise Control integrations. While mostly superseded by Strimzi, its historical innovations in granular scaling and fine-grained rebalancing influenced modern stateful Kubernetes abstractions.
 ##### Strimzi (1)
 
   - **(2026)** [==strimzi.io==](https://strimzi.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Strimzi represents the premier CNCF project for deploying and managing Apache Kafka clusters natively inside Kubernetes. By leveraging the Operator pattern, Strimzi automates node scaling, security certificate provisioning, cluster balancing, and configuration drift-correction, making it the industry blueprint for stateful distributed streaming systems.
@@ -520,13 +783,13 @@
   - **(2026)** [pepy.tech/project/strimzi-kafka-cli 🌟](https://pepy.tech/projects/strimzi-kafka-cli) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-focused companion tool providing an interactive CLI wrapper around Strimzi resource administration on Kubernetes. By abstracting tedious kubectl YAML applications into simple command structures, it significantly reduces operational cycle time when modifying topics, users, or connections.
 ##### Configuration
 
-  - **(2021)** [strimzi/kafka-kubernetes-config-provider: Kubernetes Configuration Provider' for Apache Kafka](https://github.com/strimzi/kafka-kubernetes-config-provider) <span class='md-tag md-tag--info'>⭐ 30</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized provider class allowing Kafka applications to read operational properties directly from Kubernetes Secrets and ConfigMaps. This architectural utility simplifies TLS certificate mount mappings and broker credential provisioning, eliminating redundant file sync code in application containers.
+  - **(2021)** [strimzi/kafka-kubernetes-config-provider: Kubernetes Configuration Provider' for Apache Kafka](https://github.com/strimzi/kafka-kubernetes-config-provider) <span class='md-tag md-tag--info'>⭐ 30</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-09374b4f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 7 L 20 4 L 30 13 L 40 6 L 50 10" fill="none" stroke="url(#spark-grad-09374b4f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized provider class allowing Kafka applications to read operational properties directly from Kubernetes Secrets and ConfigMaps. This architectural utility simplifies TLS certificate mount mappings and broker credential provisioning, eliminating redundant file sync code in application containers.
 ##### Introduction
 
   - **(2020)** [developers.redhat.com: Introduction to Strimzi: Apache Kafka on Kubernetes (KubeCon Europe 2020) 🌟](https://developers.redhat.com/blog/2020/08/14/introduction-to-strimzi-apache-kafka-on-kubernetes-kubecon-europe-2020) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational KubeCon session overview exploring Strimzi's architectural foundations. The piece highlights Custom Resource Definitions (CRDs) for brokers, topics, and users, highlighting how the Operator pattern abstracts the inherent friction of stateful cluster administration on Kubernetes.
 ##### Monitoring
 
-  - **(2021)** [strimzi/strimzi-canary](https://github.com/strimzi/strimzi-canary) <span class='md-tag md-tag--info'>⭐ 42</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A dedicated canary service designed to act as a diagnostic sentinel within Strimzi-managed environments. It continuously executes basic read-write loops inside dedicated topics to report real-time, end-to-end performance indicators like latency and partition availability.
+  - **(2021)** [strimzi/strimzi-canary](https://github.com/strimzi/strimzi-canary) <span class='md-tag md-tag--info'>⭐ 42</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0c5055ee" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 7 L 20 8 L 30 8 L 40 4 L 50 10" fill="none" stroke="url(#spark-grad-0c5055ee)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A dedicated canary service designed to act as a diagnostic sentinel within Strimzi-managed environments. It continuously executes basic read-write loops inside dedicated topics to report real-time, end-to-end performance indicators like latency and partition availability.
 ##### Security (3)
 
   - **(2021)** [strimzi.io: Using Kubernetes Configuration Provider to load data from Secrets and Config Maps](https://strimzi.io/blog/2021/07/22/using-kubernetes-config-provider-to-load-data-from-secrets-and-config-maps) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A tutorial guiding developers through the integration of the Kubernetes Configuration Provider inside running client workloads. It provides actual deployment manifests showcasing how dynamic secret rotation is accomplished without requiring a full cluster restart.
@@ -563,7 +826,7 @@
 
 ##### CLI and TUI
 
-  - **(2023)** [==github.com/sauljabin/kaskade==](https://github.com/sauljabin/kaskade) <span class='md-tag md-tag--info'>⭐ 1015</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An interactive, terminal-based dashboard built using Python's Textual framework to easily inspect Kafka topics. Unlike bulky desktop clients, Kaskade runs directly in developer shells, permitting efficient topic navigation, dynamic JSON payload inspection, and rapid troubleshooting of Kafka message streams.
+  - **(2023)** [==github.com/sauljabin/kaskade==](https://github.com/sauljabin/kaskade) <span class='md-tag md-tag--info'>⭐ 1015</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d6fad1c4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 10 L 20 9 L 30 3 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-d6fad1c4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An interactive, terminal-based dashboard built using Python's Textual framework to easily inspect Kafka topics. Unlike bulky desktop clients, Kaskade runs directly in developer shells, permitting efficient topic navigation, dynamic JSON payload inspection, and rapid troubleshooting of Kafka message streams.
 ##### Enterprise GUIs
 
   - **(2026)** [**conduktor.io 🌟**](https://www.conduktor.io) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Conduktor stands as the premier developer and enterprise GUI ecosystem for Kafka data governance and troubleshooting. Providing deep visual insight into consumer lag, topic state, schema registry configurations, and message payloads, it is critical for managing scale in event-driven systems.
@@ -645,7 +908,7 @@
 
 #### ActiveMQ
 
-  - **(2024)** [==Apache Artemis JMeter==](https://github.com/apache/artemis) <span class='md-tag md-tag--info'>⭐ 1024</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official source repository for Apache ActiveMQ Artemis. Built with Netty, this broker delivers low-latency messaging, supports AMQP, MQTT, and STOMP, and provides an efficient data distribution engine for high-density architectures.
+  - **(2024)** [==Apache Artemis JMeter==](https://github.com/apache/artemis) <span class='md-tag md-tag--info'>⭐ 1024</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3be59a46" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 8 L 20 8 L 30 2 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-3be59a46)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official source repository for Apache ActiveMQ Artemis. Built with Netty, this broker delivers low-latency messaging, supports AMQP, MQTT, and STOMP, and provides an efficient data distribution engine for high-density architectures.
   - **(2023)** [Apache ActiveMQ](https://activemq.apache.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main technical reference for Apache ActiveMQ, a classic multi-protocol message broker. It supports standard messaging protocols such as AMQP, MQTT, and OpenWire, making it a reliable choice for enterprise JMS applications.
   - **(2023)** [ActiveMQ 5.x "classic"](https://activemq.apache.org/components/classic) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reference page for the classic Apache ActiveMQ 5.x architecture. While stable and widely deployed across global enterprises, it is gradually being superseded by the non-blocking ActiveMQ Artemis engine.
 #### Clustering
@@ -661,7 +924,7 @@
   - **(2021)** [geshan.com.np: How to use RabbitMQ and Node.js with Docker and Docker-compose](https://geshan.com.np/blog/2021/07/rabbitmq-docker-nodejs) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical tutorial for orchestrating RabbitMQ alongside Node.js microservices using Docker Compose. It outlines steps to build local development environments and configure basic exchange-bound AMQP workflows.
 #### KubeMQ
 
-  - **(2024)** [==github.com/kubemq-io/kubemq-community 🌟==](https://github.com/kubemq-io/kubemq-community) <span class='md-tag md-tag--info'>⭐ 667</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The primary community codebase for KubeMQ. It showcases a lightweight, high-throughput message broker written in Go, specifically optimized for containerized microservice routing patterns inside Kubernetes.
+  - **(2024)** [==github.com/kubemq-io/kubemq-community 🌟==](https://github.com/kubemq-io/kubemq-community) <span class='md-tag md-tag--info'>⭐ 667</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-004501f9" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 10 L 20 6 L 30 9 L 40 8 L 50 6" fill="none" stroke="url(#spark-grad-004501f9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The primary community codebase for KubeMQ. It showcases a lightweight, high-throughput message broker written in Go, specifically optimized for containerized microservice routing patterns inside Kubernetes.
   - **(2023)** [KubeMQ.io: Kubernetes Native Message Queue Broker](https://kubemq.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main page for KubeMQ, an enterprise-grade message broker built container-first for Kubernetes. KubeMQ provides queuing, pub/sub, and gRPC patterns with low CPU and memory footprints.
 #### RabbitMQ
 
@@ -818,14 +1081,7 @@
 
 ##### Couler
 
-  - **(2023)** [**Couler**](https://github.com/couler-proj/couler) <span class='md-tag md-tag--info'>⭐ 944</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Couler is an open-source Python SDK built to simplify programming native Kubernetes workflow engines like Argo or Tekton. It allows machine learning and data engineering teams to construct complex workflows via intuitive Python code instead of hand-writing endless YAML sheets.
-## Security (4)
-
-### Compliance
-
-#### CIS Benchmarks
-
-  - **(2024)** [ibm.com: CIS Benchmarks](https://www.ibm.com/topics) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The Center for Internet Security (CIS) Benchmarks provide globally recognized consensus-based best practices for securing IT systems, clouds, and Kubernetes environments. Organizations use these structured guidelines to validate and harden infrastructure configurations, ensuring compliance with strict security mandates through automated configuration auditors.
+  - **(2023)** [**Couler**](https://github.com/couler-proj/couler) <span class='md-tag md-tag--info'>⭐ 944</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-478a549f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 3 L 20 4 L 30 4 L 40 9 L 50 12" fill="none" stroke="url(#spark-grad-478a549f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Couler is an open-source Python SDK built to simplify programming native Kubernetes workflow engines like Argo or Tekton. It allows machine learning and data engineering teams to construct complex workflows via intuitive Python code instead of hand-writing endless YAML sheets.
 ## Software Engineering
 
 ### Backend Development
@@ -837,5 +1093,5 @@
   - **(2020)** [adambien.blog - 75th **airhacks.tv** Questions and Answers: Kafka, JAX-RS, MicroProfile, JSON-B, GSON, JWT, VSC, NetBeans, Java Fullstack](https://adambien.blog/roller/abien/entry/kafka_jax_rs_microprofile_json) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An edition of Adam Bien's 'airhacks.tv' Q&A series focusing on modern enterprise Java backend architectures. Key engineering discussions cover reactive Kafka messaging integration using MicroProfile, JAX-RS REST endpoint implementations, and a comparison of JSON serialization libraries (JSON-B vs GSON).
 
 ---
-💡 **Explore Related:** [Yaml](./yaml.md) | [Databases](./databases.md) | [Crunchydata](./crunchydata.md)
+💡 **Explore Related:** [Yaml](./yaml.md) | [Newsql](./newsql.md) | [NoSQL](./nosql.md)
 

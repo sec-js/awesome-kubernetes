@@ -12,7 +12,7 @@
 - [blazemeter.com: Three Ways DevOps Benefit from AWS CodePipeline](https://blazemeter.com/blog/three-ways-devops-benefit-aws-codepipeline)
 - [AWS Partner Network - CodePipeline Integrations](https://aws.amazon.com/es/codepipeline/product-integrations)
 - [**Multi-Region Infrastructure Deployment**](https://aws.amazon.com/solutions) This solution automatically provisions and configures AWS CodePipeline to automate the CI/CD pipeline for CloudFormation templates
-- [k21academy.com: AWS DevOps Vs. Azure DevOps](https://k21academy.com/aws-cloud/aws-devops-vs-azure-devops/?utm_source=linkedin&utm_medium=referral&utm_campaign=awsdevops17_dec20_aws_cloud_computing_for_interested_parties__users)
+- [k21academy.com: AWS DevOps Vs. Azure DevOps](https://k21academy.com/aws-cloud/aws-devops-vs-azure-devops)
 - [Amazon DevOps Guru](https://aws.amazon.com/devops/-guru) ML-powered cloud operations service to improve application availability
     - [infoq.com: AWS Launches Amazon DevOps Guru](https://www.infoq.com/news/2021/01/aws-devops-guru)
 - [aws.plainenglish.io: AWS CodePipeline for Amazon ECS](https://aws.plainenglish.io/aws-codepipeline-for-amazon-ecs-part-2-a-blue-green-deployment-type-c162fd73be91) I would like to explain to you how to create an AWS CodePipeline for ECS with a Blue/green deployment type.
@@ -26,7 +26,7 @@
 
 ## AWS CodeDeploy
 
-- [AWS CodeDeploy: Deploying from a Development Account to a Production Account](http://blogs.aws.amazon.com/application-management/post/Tx3PE3JTSVJSFI7/AWS-CodeDeploy-Deploying-from-a-Development-Account-to-a-Production-Account)
+- [AWS CodeDeploy: Deploying from a Development Account to a Production Account](https://blogs.aws.amazon.com/application-management/post/Tx3PE3JTSVJSFI7/AWS-CodeDeploy-Deploying-from-a-Development-Account-to-a-Production-Account)
 - [Setting Up the Jenkins Plugin for AWS CodeDeploy](https://aws.amazon.com/blogs/devops/setting-up-the-jenkins-plugin-for-aws-codedeploy)
 - [adamtheautomator.com: Getting Started with AWS CodeDeploy](https://adamtheautomator.com/aws-codedeploy)
 

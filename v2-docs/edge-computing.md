@@ -3,6 +3,23 @@
 !!! info "Architectural Context"
     Detailed reference for Edge Computing in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Architecture](#architecture)
+  - [Edge Computing](#edge-computing-1)
+    - [Distributed Systems](#distributed-systems)
+1. [Kubernetes Edge](#kubernetes-edge)
+  - [Architecture](#architecture-1)
+  - [KubeEdge](#kubeedge)
+  - [MicroShift](#microshift)
+1. [Monitoring](#monitoring)
+  - [RHEL Edge](#rhel-edge)
+1. [Standards](#standards)
+  - [Cloudian](#cloudian)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -42,5 +59,5 @@
   - **(2021)** [thenewstack.io: Cloudian CTO: Kubernetes, Standardization Key to Edge](https://thenewstack.io/cloudian-cto-kubernetes-standardization-key-to-edge)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An executive perspective from Cloudian highlighting Kubernetes standardization as the foundational component of modern edge architecture. It analyzes strategies to coordinate hybrid storage clusters safely across remote zones.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Azure](./azure.md) | [AWS Storage](./aws-storage.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md)
 

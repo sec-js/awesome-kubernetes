@@ -1,4 +1,4 @@
-# MkDocs, Mardkown & GitHub Pages
+# MkDocs, Mardkown and GitHub Pages
 
 !!! info "Architectural Context"
     Detailed reference for MkDocs, Mardkown & GitHub Pages in the context of Architectural Foundations.
@@ -82,7 +82,7 @@
   - **(2026)** [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An essential web utility for programmatically building, editing, and converting complex data tables into clean Markdown code block matrices. Dramatically reduces manual formatting pain points for technical writers and catalog builders globally.
 #### Metadata Badges
 
-  - **(2026)** [==github.com/Ileriayo/markdown-badges: Markdown Badges==](https://github.com/Ileriayo/markdown-badges) <span class='md-tag md-tag--info'>⭐ 16701</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive curated catalog of dynamic, consistent, and beautiful SVG shields and badges for GitHub repositories. It supports a wide array of languages, frameworks, cloud providers, and developer tools. Live grounding confirms it is standard practice for enriching project READMEs.
+  - **(2026)** [==github.com/Ileriayo/markdown-badges: Markdown Badges==](https://github.com/Ileriayo/markdown-badges) <span class='md-tag md-tag--info'>⭐ 16701</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-96f7f302" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 2 L 20 3 L 30 6 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-96f7f302)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive curated catalog of dynamic, consistent, and beautiful SVG shields and badges for GitHub repositories. It supports a wide array of languages, frameworks, cloud providers, and developer tools. Live grounding confirms it is standard practice for enriching project READMEs.
 #### WYSIWYG Integrations
 
   - **(2022)** [theverge.com: Google Docs is getting more Markdown support](https://www.theverge.com/2022/3/29/23002138/google-docs-markdown-support-formatting-update)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry report covering the expansion of native Markdown auto-formatting support in Google Docs. Signals the increasing migration of engineering documentation workflows into mainstream, corporate office applications, bridging the gap between developers and business analysts.
@@ -96,8 +96,7 @@
 
 #### Markdown
 
-  - **(2026)** [==Markdown Cheat Sheet 4==](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) <span class='md-tag md-tag--info'>⭐ 60214</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — One of the most starred and utilized Markdown references on GitHub. Curator Insight emphasizes its extreme offline utility. Live Grounding validates its legacy status as the primary standard for formatting across modern source code platforms.
-  - **(2026)** [markdownguide.org](https://www.markdownguide.org) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The definitive platform-neutral guide to standard and extended Markdown syntax. Curator Insight praises its simplicity. Live Grounding proves its continued necessity as the absolute standard for project readme documentation.
+  - **(2026)** [==Markdown Cheat Sheet 4==](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) <span class='md-tag md-tag--info'>⭐ 60214</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-5c5bf9d4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 7 L 20 3 L 30 5 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-5c5bf9d4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — One of the most starred and utilized Markdown references on GitHub. Curator Insight emphasizes its extreme offline utility. Live Grounding validates its legacy status as the primary standard for formatting across modern source code platforms.
 ## Software Engineering
 
 ### Documentation
@@ -107,5 +106,5 @@
   - **(2026)** [**guides.github.com: Markdown Cheat Sheet 2**](https://docs.github.com/en) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The authoritative reference guide for GitHub Flavored Markdown (GFM). Essential for managing documentation structures, creating rich README files, formatting issue trackers, and building interactive templates within the developer workflow.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
 

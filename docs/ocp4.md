@@ -211,7 +211,7 @@
 
 - https://mirror.openshift.com/pub/openshift-v4/
 
-## OpenShift End-to-End. Day 0, Day 1 & Day 2
+## OpenShift End-to-End. Day 0, Day 1 and Day 2
 
 - [OpenShift End-to-End: **Day 0** - Plan and Deploy](https://www.redhat.com/en/technologies/cloud-computing/openshift/blog/openshift-end-to-end-plan-and-deploy)
 - [OpenShift End-to-End: **Day 1** - Core Services](https://www.redhat.com/en/technologies/cloud-computing/openshift/blog/openshift-end-to-end-core-services)
@@ -234,7 +234,7 @@
         - [quay.io](https://quay.io) container build and registry service
         - Stable tiny Linux distribution with [ignition bootstrap](https://coreos.github.io/ignition) and transaction-based update engine.
     - **OpenShift**:
-        - [Wide enterprise adoption](https://www.redhat.com/en/technologies/cloud-computing/openshift/#success-stories-intro)
+        - [Wide enterprise adoption](https://www.redhat.com/en/technologies/cloud-computing/openshift)
         - [Security](https://docs.openshift.com/container-platform/4.4/authentication/managing-security-context-constraints.html)
         - [Multi-tenancy features](https://www.slideshare.net/slideshow/20171010-multitenancy-in-openshift/80696233) (self-service)
 - OpenShift 4 is built on top of Kubernetes 1.13+ 
@@ -252,7 +252,7 @@
 1. Self-Managing Platform
 2. Application Lifecycle Management ([OLM](https://docs.openshift.com/container-platform/4.4/operators/understanding_olm/olm-understanding-olm.html)):
     - **OLM Operator**:
-        - Responsible for deploying applications defined by [ClusterServiceVersion (CSV) manifest](https://docs.openshift.com/container-platform/4.4/operators/understanding_olm/olm-understanding-olm.html#olm-csv_olm-understanding-olm).
+        - Responsible for deploying applications defined by [ClusterServiceVersion (CSV) manifest](https://docs.openshift.com/container-platform/4.4/operators/understanding_olm/olm-understanding-olm.html).
         - Not concerned with the creation of the required resources; users can choose to manually create these resources using the CLI, or  users can choose to create these resources using the Catalog Operator.
     - **Catalog Operator**:
         - Responsible for resolving and installing CSVs and the required resources they specify. It is also responsible for watching CatalogSources for updates to packages in channels and upgrading them (optionally automatically) to the latest available versions.
@@ -459,14 +459,14 @@ etcd 14h myoperator 14h
 </center>
 <br/>
 
-#### Cluster Network Operator (CNO) & Routers
+#### Cluster Network Operator (CNO) and Routers
 
 - Cluster Network Operator (CNO): The cluster network is now configured and managed by an Operator. The Operator upgrades and monitors the cluster network.
 - [Router plug-ins in OCP3:](https://docs.openshift.com/container-platform/3.11/install_config/router/index.html)
     - A « route » is the external entrypoint to a [Kubernetes Service](https://kubernetes.io/docs/concepts/services-networking/service). This is one of the biggest differences between [Kubernetes](https://kubernetes.io) and [OpenShift Enterprise (= OCP)](https://www.redhat.com/en/technologies/cloud-computing/openshift) and [origin](https://okd.io).
     - OpenShift router has the endpoints as targets and therefore the pod of the application.
     - [Shared/Stikcy sessions are enabled by default](https://dzone.com/articles/session-stickiness-in-openshift)
-    - [HAProxy template router](https://docs.openshift.com/container-platform/3.11/architecture/networking/assembly_available_router_plugins.html#architecture-haproxy-router) (default router): HTTP(s) & TLS-enabled traffic via SIN.
+    - [HAProxy template router](https://docs.openshift.com/container-platform/3.11/architecture/networking/assembly_available_router_plugins.html) (default router): HTTP(s) & TLS-enabled traffic via SIN.
         - [dzone.com/articles/openshift-egress-options](https://dzone.com/articles/openshift-egress-options)
     - F5 BIG-IP Router plug-in integrates with an existing F5 BIG-IP system in your environment
     - Since the 9th May 2018, [NGINX](https://www.redhat.com/en/blog/introducing-nginx-and-nginx-plus-routers-for-openshift) is also available as « router ».
@@ -669,7 +669,7 @@ oc login
 
 ### Istio CNI plug-in
 
-- [Istio CNI plug-in 🌟](https://docs.openshift.com/container-platform/4.4/service_mesh/service_mesh_arch/ossm-vs-community.html#ossm-cni_ossm-vs-istio) Red Hat OpenShift Service Mesh includes CNI plug-in, which provides you with an alternate way to configure application pod networking. The CNI plug-in replaces the init-container network configuration eliminating the need to grant service accounts and projects access to Security Context Constraints (SCCs) with elevated privileges.
+- [Istio CNI plug-in 🌟](https://docs.openshift.com/container-platform/4.4/service_mesh/service_mesh_arch/ossm-vs-community.html) Red Hat OpenShift Service Mesh includes CNI plug-in, which provides you with an alternate way to configure application pod networking. The CNI plug-in replaces the init-container network configuration eliminating the need to grant service accounts and projects access to Security Context Constraints (SCCs) with elevated privileges.
 
 ### Calico CNI Plug-in
 
@@ -718,7 +718,7 @@ oc login
 
 - [blog.openshift.com: openshift hive cluster as a service](https://blog.openshift.comopenshift-hive-cluster-as-a-service)
 - [github.com/openshift/hive](https://github.com/openshift/hive) **API driven OpenShift 4 cluster provisioning and management.** Hive is an operator which runs as a service on top of Kubernetes/OpenShift. The Hive service can be used to provision and perform initial configuration of OpenShift clusters. **OpenShift Hive** is an operator which enables operations teams to easily provision new PaaS environments for developers improving productivity and reducing process burden due to internalIT regulations.
-- [youtube: how to deliver OpenShift as a service (just like Red Hat)](https://www.youtube.comwatch?v=b_NOrGxfH5Y)
+- [youtube: how to deliver OpenShift as a service (just like Red Hat)](https://www.youtube.comwatch?v=b_norgxfh5y)
 
 ## OpenShift 4 Master API Protection in Public Cloud
 
@@ -810,7 +810,7 @@ oc login
 - [Red Hat Application Migration Toolkit](https://developers.redhat.com/products/mta/overview) is an assembly of open source tools that enables large-scale application migrations and modernizations. The tooling consists of multiple individual components that provide support for each phase of a migration process.
 - [windup](https://github.com/windup) upstream project for Red Hat Application Migration Toolkit
 - [RHAMT in Github Actions](https://carlosthe19916.wordpress.com/2020/04/12/rhamt-in-github-actions) You can embed the Migration Toolkit for Application MTA (now still RHAMT) in your GitHub  to ensure your app is JEE / Tomcat compliant (and more ...)
-- [Migrate your Java apps to containers with Migration Toolkit for Applications 5.0](https://developers.redhat.com/blog/2020/09/04/migrate-your-java-apps-to-containers-with-migration-toolkit-for-applications-5-0/#more-768337)
+- [Migrate your Java apps to containers with Migration Toolkit for Applications 5.0](https://developers.redhat.com/blog/2020/09/04/migrate-your-java-apps-to-containers-with-migration-toolkit-for-applications-5-0)
 - [developers.redhat.com: Spring Boot to Quarkus migrations and more in Red Hat’s migration toolkit for applications 5.1.0](https://developers.redhat.com/blog/2020/12/08/spring-boot-to-quarkus-migrations-and-more-in-red-hats-migration-toolkit-for-applications-5-1-0)
 
 ## Developer Sandbox

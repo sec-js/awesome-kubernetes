@@ -3,6 +3,38 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Monitoring and Logging in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Native Platforms](#cloud-native-platforms)
+  - [AWS](#aws)
+    - [Managed Observability](#managed-observability)
+1. [Observability and Monitoring](#observability-and-monitoring)
+  - [Case Studies](#case-studies)
+    - [Enterprise Scale](#enterprise-scale)
+  - [CloudWatch](#cloudwatch)
+    - [Alerting Systems](#alerting-systems)
+    - [Dashboards](#dashboards)
+    - [Guides Collection](#guides-collection)
+    - [Prometheus Integration](#prometheus-integration)
+  - [Enterprise Observability](#enterprise-observability)
+    - [Elastic Stack](#elastic-stack)
+  - [Legacy Systems](#legacy-systems)
+    - [Self-Hosted](#self-hosted)
+  - [Managed Services](#managed-services)
+    - [Announcements](#announcements)
+    - [Grafana](#grafana)
+1. [Security and Governance](#security-and-governance)
+  - [Cloud Governance](#cloud-governance)
+    - [Compliance and Audit](#compliance-and-audit)
+  - [Cloud Security Posture](#cloud-security-posture)
+    - [Automated Auditing](#automated-auditing)
+1. [Service Discovery](#service-discovery)
+  - [AWS Cloud Map](#aws-cloud-map)
+    - [Health Checks](#health-checks)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -73,7 +105,7 @@
 
 #### Automated Auditing
 
-  - **(2024)** [==github: ElectricEye==](https://github.com/jonrau1/ElectricEye/blob/master/README.md) <span class='md-tag md-tag--info'>⭐ 1043</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An automated cloud security assessment framework designed to continually monitor AWS environments for configuration drift, vulnerabilities, and deviations from industry standards. Outputs findings directly to AWS Security Hub.
+  - **(2024)** [==github: ElectricEye==](https://github.com/jonrau1/ElectricEye/blob/master/README.md) <span class='md-tag md-tag--info'>⭐ 1043</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c1796b3e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 6 L 20 4 L 30 4 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-c1796b3e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An automated cloud security assessment framework designed to continually monitor AWS environments for configuration drift, vulnerabilities, and deviations from industry standards. Outputs findings directly to AWS Security Hub.
 ## Service Discovery
 
 ### AWS Cloud Map
@@ -83,5 +115,5 @@
   - **(2022)** [Custom Health Check: HealthCheckCustomConfig](https://docs.aws.amazon.com/cloud-map/latest/api/API_HealthCheckCustomConfig.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official reference guide for Cloud Map API's custom health checks. Explains dynamic service discovery patterns for serverless workloads where traditional load balancer health checks are inapplicable.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md)
 

@@ -3,13 +3,132 @@
 !!! info "Architectural Context"
     Detailed reference for APIs with SOAP, REST and gRPC in the context of Developer Ecosystem.
 
-## API and Integration Testing
+## Table of Contents
 
-### Mocking and Virtualization
+1. [API Architectures](#api-architectures)
+  - [GraphQL](#graphql)
+    - [Adoption](#adoption)
+    - [Federation](#federation)
+    - [Hasura](#hasura)
+    - [Specification](#specification)
+  - [Patterns](#patterns)
+    - [Comparison](#comparison)
+  - [REST](#rest)
+    - [Design Principles](#design-principles)
+    - [Implementation](#implementation)
+    - [Introduction](#introduction)
+  - [RPC](#rpc)
+    - [Open-RPC](#open-rpc)
+    - [gRPC](#grpc)
+    - [gRPC-Web](#grpc-web)
+  - [Real-Time](#real-time)
+    - [History](#history)
+    - [Socket.IO](#socketio)
+    - [WebSockets](#websockets)
+1. [API Management](#api-management)
+  - [API Discovery](#api-discovery)
+    - [Marketplaces](#marketplaces)
+  - [API Documentation](#api-documentation)
+    - [Tooling](#tooling)
+  - [API Strategy](#api-strategy)
+    - [Business Design](#business-design)
+  - [Platform Engineering](#platform-engineering)
+    - [API Strategy](#api-strategy-1)
+1. [API Security](#api-security)
+  - [Design](#design)
+    - [Best Practices](#best-practices)
+  - [Enterprise](#enterprise)
+    - [Implementation](#implementation-1)
+  - [Protection](#protection)
+    - [Tools](#tools)
+  - [Testing](#testing)
+    - [Lab](#lab)
+  - [Threat-Modeling](#threat-modeling)
+    - [Risks](#risks)
+1. [API Testing](#api-testing)
+  - [Concepts](#concepts)
+    - [Introduction](#introduction-1)
+  - [Implementation](#implementation-2)
+    - [Python](#python)
+  - [Performance](#performance)
+    - [Continuous Integration](#continuous-integration)
+  - [Tooling](#tooling-1)
+    - [Comparison](#comparison-1)
+1. [API Tooling](#api-tooling)
+  - [All-in-One](#all-in-one)
+    - [APIDog](#apidog)
+  - [CLI Utilities](#cli-utilities)
+    - [cURL](#curl)
+  - [Codegen](#codegen)
+    - [OpenAPI](#openapi)
+  - [Design](#design-1)
+    - [SwaggerHub](#swaggerhub)
+  - [Mocking](#mocking)
+    - [Mockapy](#mockapy)
+    - [Mockoon](#mockoon)
+1. [Application Integration](#application-integration)
+  - [API Design](#api-design)
+    - [API Lifecycle](#api-lifecycle)
+    - [Architecture Comparisons](#architecture-comparisons)
+    - [Best Practices](#best-practices-1)
+    - [Documentation](#documentation)
+    - [Fundamentals](#fundamentals)
+    - [Hands-on Deployment](#hands-on-deployment)
+    - [Protocols and Formats](#protocols-and-formats)
+    - [Public Directories](#public-directories)
+    - [Strategic Governance](#strategic-governance)
+    - [Versioning and Evolution](#versioning-and-evolution)
+  - [API Gateways](#api-gateways)
+    - [Architecture Comparisons](#architecture-comparisons-1)
+    - [Best Practices](#best-practices-2)
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Architecture](#architecture)
+  - [API Management](#api-management-1)
+    - [SaaS Platforms](#saas-platforms)
+  - [System Design](#system-design)
+    - [Microservices Patterns](#microservices-patterns)
+1. [Cloud Providers](#cloud-providers)
+  - [AWS](#aws)
+    - [Serverless APIs](#serverless-apis)
+1. [Cloud Services](#cloud-services)
+  - [Media Streaming](#media-streaming)
+    - [API Infrastructure](#api-infrastructure)
+1. [Enterprise Architecture](#enterprise-architecture)
+  - [Case Studies](#case-studies)
+    - [Financial Sector](#financial-sector)
+1. [Event-Driven](#event-driven)
+  - [AsyncAPI](#asyncapi)
+    - [Simulation](#simulation)
+    - [Specification](#specification-1)
+    - [Trends](#trends)
+1. [Microservices](#microservices)
+  - [Design Patterns](#design-patterns)
+    - [Process Automation](#process-automation)
+1. [Observability](#observability)
+  - [Data Ingestion](#data-ingestion)
+    - [WebSockets IoT](#websockets-iot)
+1. [Public Resources](#public-resources)
+  - [Catalogs](#catalogs)
+    - [Web Services](#web-services)
+1. [Quality Assurance](#quality-assurance)
+  - [API Design](#api-design-1)
+    - [Network Debugging](#network-debugging)
+1. [Software Development](#software-development)
+  - [Java](#java)
+    - [REST APIs](#rest-apis)
+1. [Software Engineering](#software-engineering)
+  - [API Design](#api-design-2)
+    - [Industry Surveys](#industry-surveys)
+    - [Protocol Selection](#protocol-selection)
+    - [SOAP vs REST](#soap-vs-rest)
+    - [gRPC Protocol](#grpc-protocol)
+  - [API Integration](#api-integration)
+    - [Public Directories](#public-directories-1)
+  - [API Management](#api-management-2)
+    - [Testing](#testing-1)
 
-#### Microcks
-
-  - **(2026)** [**microcks.io**](https://microcks.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Microcks is a cloud-native platform for mocking and virtualization of APIs (REST, gRPC, GraphQL, AsyncAPI). It speeds up microservices testing by generating mock endpoints and testing compliance directly against enterprise schemas.
 ## API Architectures
 
 ### GraphQL
@@ -97,7 +216,7 @@
 
 #### Tooling
 
-  - **(2021)** [openapi-comment-parser](https://github.com/bee-travels/openapi-comment-parser) <span class='md-tag md-tag--info'>⭐ 256</span> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A Node.js CLI tool and library that extracts JSDoc-style comments from source code files to generate valid OpenAPI (Swagger) specifications automatically, streamlining API contract maintenance during local development.
+  - **(2021)** [openapi-comment-parser](https://github.com/bee-travels/openapi-comment-parser) <span class='md-tag md-tag--info'>⭐ 256</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-4d4eae7c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 12 L 20 6 L 30 9 L 40 2 L 50 3" fill="none" stroke="url(#spark-grad-4d4eae7c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A Node.js CLI tool and library that extracts JSDoc-style comments from source code files to generate valid OpenAPI (Swagger) specifications automatically, streamlining API contract maintenance during local development.
 ### API Strategy
 
 #### Business Design
@@ -203,6 +322,9 @@
 #### Best Practices (1)
 
   - **(2023)** [==freecodecamp.org: REST API Best Practices – REST Endpoint Design Examples 🌟==](https://www.freecodecamp.org/news/rest-api-best-practices-rest-endpoint-design-examples) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive blueprint for designing RESTful API endpoints using industry-standard conventions. It explains semantic HTTP verbs (GET, POST, PUT, DELETE), logical plural resource naming, status code mappings, and pagination practices. Adhering to these standards ensures intuitive consumption and predictable API performance.
+#### Documentation
+
+  - **(2024)** [==Devdocs.io API Documentation 🌟==](https://devdocs.io) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — DevDocs combines multiple API documentations into a single, searchable, fast, and offline-capable user interface. By indexing documentation for dozens of languages, frameworks, and web technologies in a unified workspace, it optimizes developer workflow speed. It is widely recognized as a crucial utility tool in modern, high-velocity engineering environments.
 #### Fundamentals
 
   - **(2024)** [==postman.com: What is an API?==](https://www.postman.com/what-is-an-api) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Postman’s foundational guide explaining the mechanics of Application Programming Interfaces (APIs). It covers request-response patterns, typical protocols, payloads (JSON/XML), and the strategic business value of exposing software interfaces. It serves as an industry-standard primer for developers starting with web services.
@@ -221,7 +343,7 @@
   - **(2024)** [geeksforgeeks.org: Basics of SOAP – Simple Object Access Protocol](https://www.geeksforgeeks.org/computer-networks/basics-of-soap-simple-object-access-protocol) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explains the structural foundations of Simple Object Access Protocol (SOAP). It describes key architectural elements such as the SOAP Envelope, Header, Body, and Fault structures alongside the WSDL (Web Services Description Language) interface definitions. While largely replaced by REST and JSON in modern applications, SOAP remains critical in highly secure financial and enterprise systems.
 #### Public Directories
 
-  - **(2024)** [==github.com/public-apis/public-apis: Try Public APIs for free 🌟==](https://github.com/public-apis/public-apis) <span class='md-tag md-tag--info'>⭐ 441446</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly curated, massive directory of free, public APIs categorized by topic (such as Auth, Data, Analytics, and weather). This repository is the de facto standard resource for engineers searching for mock datasets or utility endpoints to build prototypes. It demonstrates the utility of community-led open-source curation for modern software experimentation.
+  - **(2024)** [==github.com/public-apis/public-apis: Try Public APIs for free 🌟==](https://github.com/public-apis/public-apis) <span class='md-tag md-tag--info'>⭐ 441446</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a55c819f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 5 L 20 11 L 30 6 L 40 6 L 50 3" fill="none" stroke="url(#spark-grad-a55c819f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly curated, massive directory of free, public APIs categorized by topic (such as Auth, Data, Analytics, and weather). This repository is the de facto standard resource for engineers searching for mock datasets or utility endpoints to build prototypes. It demonstrates the utility of community-led open-source curation for modern software experimentation.
   - **(2023)** [**freecodecamp.org: Public APIs Developers Can Use in Their Projects**](https://www.freecodecamp.org/news/public-apis-for-developers) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Introduces a handpicked list of highly functional public APIs suited for portfolio projects and app prototypes. The compilation features modern REST APIs that do not require complex OAuth authorization flows, covering categories like machine learning, weather forecasting, financial data, and geolocation. It serves as an accessible entry-point for learning API integration patterns.
 #### Strategic Governance
 
@@ -415,5 +537,5 @@
   - **(2021)** [dev.to: 7 API Tools for REST Developers and Testers](https://dev.to/javinpaul/7-api-tools-for-rest-developers-and-testers-n67) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews seven essential REST API validation and design tools, analyzing the runtime capabilities and payload assertion performance of modern desktop clients and command-line instruments.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
+💡 **Explore Related:** [Angular](./angular.md) | [Python](./python.md) | [Dom](./dom.md)
 

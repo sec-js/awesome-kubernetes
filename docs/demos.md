@@ -1,4 +1,4 @@
-# DevOps Demos. Boilerplates/Samples, Tutorials & Screencasts
+# DevOps Demos. Boilerplates/Samples, Tutorials and Screencasts
 
 1. [DevOps Screencasts](#devops-screencasts)
 2. [DevOps Blogs](#devops-blogs)
@@ -111,7 +111,7 @@
 
 ## DevOps Docker Demos
 
-- [RedHatGov.io](http://redhatgov.io) is an open source collection of workshop materials that cover various topics relating to Red Hat's product portfolio.
+- [RedHatGov.io](https://redhatgov.io) is an open source collection of workshop materials that cover various topics relating to Red Hat's product portfolio.
 - [github.com/wardviaene (kubernetes, terraform, ansible, docker, etc) 🌟](https://github.com/wardviaene)
     - [wardviaene/jenkins-course](https://github.com/wardviaene/jenkins-course)
     - [wardviaene/kubernetes-course](https://github.com/wardviaene/kubernetes-course)
@@ -154,7 +154,7 @@
 
 ## Kubernetes Demos
 
-- [kubernetesbyexample.com 🌟](http://kubernetesbyexample.com)
+- [kubernetesbyexample.com 🌟](https://kubernetesbyexample.com)
 - [==Free Kubernetes== 🌟🌟](https://github.com/learnk8s/free-kubernetes) **List of free Trials/Credit for Managed Kubernetes Services.**
 - [github.com/eon01/kubernetes-workshop](https://github.com/eon01/kubernetes-workshop)
 - [wardviaene/kubernetes-course](https://github.com/wardviaene/kubernetes-course)
@@ -182,7 +182,7 @@
 - [shipa.io: GitOps in Kubernetes, the easy way–with GitHub Actions and Shipa](https://shipa.io/gitops)
 - [shipa.io: A Developer focused CI/CD pipeline for Kubernetes](https://shipa.io/a-developer-focused-ci-cd-pipeline-for-kubernetes)
 - [kruyt.org: Running a mailserver in Kubernetes](https://kruyt.org/running-a-mailserver-in-kubernetes)
-- [piotrminkowski.com: RabbitMQ Monitoring on Kubernetes](https://piotrminkowski.com/2020/09/29/rabbitmq-monitoring-on-kubernetes/?utm_sq=gl0f6vph5e)
+- [piotrminkowski.com: RabbitMQ Monitoring on Kubernetes](https://piotrminkowski.com/2020/09/29/rabbitmq-monitoring-on-kubernetes)
 - [dzone: Bootstrapping Java Kubernetes Apps With Spring Initializr and K8s Initializer 🌟](https://dzone.com/articles/bootstrapping-java-kubernetes-apps-no-yaml) Build a Spring Boot app and deploy to K8s without writing a single line of YAML.
 - [medium: Production Ready CI/CD Pipeline with Kubernetes](https://medium.com/awsblogs/ci-cd-with-kubernetes-3c29e8073c38)
 - [myweblearner.com: Kubernetes(k8s) Readiness and Liveness Probe](https://myweblearner.com/springboot_k8s_readiness_liveness.html)
@@ -341,7 +341,7 @@
 ### Cloud Native Development Architectural Diagrams Demos
 
 - Cloud-native development is an approach to building and running applications to fully exploit the advantages of the cloud computing model (i.e. responsive, elastic and resilient applications).
-- [Portfolio Architecture](https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops/#) Workshops for creating impactful architectural diagrams. This workshop will teach you how to use, design, and create architectural diagrams based on the **draw.io** tooling and Red Hat Portfolio Architecture design elelements. You'll leverage existing portfolio architecture diagrams as starting points.
+- [Portfolio Architecture](https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops) Workshops for creating impactful architectural diagrams. This workshop will teach you how to use, design, and create architectural diagrams based on the **draw.io** tooling and Red Hat Portfolio Architecture design elelements. You'll leverage existing portfolio architecture diagrams as starting points.
     - [redhatdemocentral.gitlab.io/portfolio-architecture-tooling](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling)
     - [gitlab.com: Project Examples](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples)
 
@@ -352,17 +352,17 @@
 - [github.com/OpenShiftDemos 🌟](https://github.com/OpenShiftDemos)
 - [DockerHub OpenShift Demos](https://hub.docker.com/u/openshiftdemos)
 - [Red Hat Tutorials & Examples: github.com/redhat-developer-demos 🌟](https://github.com/redhat-developer-demos)
-- [redhatgov.io](http://redhatgov.io) RedHatGov.io is an open source collection of workshop materials that cover various topics relating to Red Hat's product portfolio.
+- [redhatgov.io](https://redhatgov.io) RedHatGov.io is an open source collection of workshop materials that cover various topics relating to Red Hat's product portfolio.
 - [blog.openshift.com: OCP multi-node deployment on **AWS** using CloudFormation and Ansible (quickstart workshop)](https://www.redhat.com/en/blog/aws-and-red-hat-quickstart-workshop)
 - [Deploying Docker Images to OpenShift](https://dzone.com/articles/deploying-docker-images-to-openshift) We take a look at how to deploy a Docker image from DockerHub into RedHat's OpenShift environment, bringing added functionality along the way.
 - [SonarQube: An OpenShift-focused Docker build of Sonarqube](https://github.com/OpenShiftDemos/sonarqube-openshift-docker)
 - [Deploying PostgreSQL in MiniShift/OpenShift 3](https://www.dbi-services.com/blog/deploying-postgresql-in-minishiftopenshift)
-- [Clustering WildFly on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/clustering-wildfly-on-openshift-using-wildfly-operator)
-- [Java EE example on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/java-ee-example-application-on-openshift)
-- [Microprofile example on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/running-microprofile-applications-on-openshift)
-- [Deploying WildFly apps on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/using-wildfly-on-openshift)
-- [Running Thorntail apps on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/thorntail-on-openshift)
-- [Running Spring Boot applications on Openshift](http://www.mastertheboss.com/jboss-frameworks/spring/deploy-your-springboot-applications-on-openshift)
+- [Clustering WildFly on Openshift](https://www.mastertheboss.com/soa-cloud/openshift/clustering-wildfly-on-openshift-using-wildfly-operator)
+- [Java EE example on Openshift](https://www.mastertheboss.com/soa-cloud/openshift/java-ee-example-application-on-openshift)
+- [Microprofile example on Openshift](https://www.mastertheboss.com/soa-cloud/openshift/running-microprofile-applications-on-openshift)
+- [Deploying WildFly apps on Openshift](https://www.mastertheboss.com/soa-cloud/openshift/using-wildfly-on-openshift)
+- [Running Thorntail apps on Openshift](https://www.mastertheboss.com/soa-cloud/openshift/thorntail-on-openshift)
+- [Running Spring Boot applications on Openshift](https://www.mastertheboss.com/jboss-frameworks/spring/deploy-your-springboot-applications-on-openshift)
 - [github.com/openshiftdemos 🌟](https://github.com/openshiftdemos)
 - [github.com/openshift-labs 🌟](https://github.com/openshift-labs)
 - [MapIt](https://github.com/siamaksade/mapit-spring) MapIt is a geo-spatial Spring Boot app which shows the location of AirPorts on the Map using Leaflet.
@@ -374,7 +374,7 @@
 - [developers.redhat.com: Persistent storage in action: Understanding Red Hat OpenShift’s persistent volume framework 🌟](https://developers.redhat.com/blog/2020/10/22/persistent-storage-in-action-understanding-red-hat-openshifts-persistent-volume-framework)
 - [opensource.com: Set up Minishift and run Jenkins on Linux](https://opensource.com/article/20/11/minishift-linux) Install, configure, and use Minishift to create your first pipeline.
 - [Rcarrata's blog](https://rcarrata.com)
-- [JBoss Web Server Operator 🌟](https://access.redhat.com/documentation/en-us/red_hat_jboss_web_server/5.4/html-single/red_hat_jboss_web_server_for_openshift/index#jws_operator) Did you know that you can run Tomcat in Containers on Kubernetes in a easy supported manner? Take a look at the JBoss Web Server (a.k.a. @RedHat 's build of Tomcat) Operator for OpenShift
+- [JBoss Web Server Operator 🌟](https://access.redhat.com/documentation/en-us/red_hat_jboss_web_server/5.4/html-single/red_hat_jboss_web_server_for_openshift/index) Did you know that you can run Tomcat in Containers on Kubernetes in a easy supported manner? Take a look at the JBoss Web Server (a.k.a. @RedHat 's build of Tomcat) Operator for OpenShift
 - [developers.redhat.com: Containerize and deploy Strapi CMS applications on Kubernetes and Red Hat OpenShift](https://developers.redhat.com/blog/2021/04/09/containerize-and-deploy-strapi-applications-on-kubernetes-and-red-hat-openshift)
 - [developers.redhat.com: Build lean Java containers with the new Red Hat Universal Base Images OpenJDK runtime images 🌟](https://developers.redhat.com/articles/2021/05/24/build-lean-java-containers-new-red-hat-universal-base-images-openjdk-runtime)
 - [youtube: No YAML! Kubernetes done the easy way | DevNation Tech Talk](https://www.youtube.com/watch?v=jBDmX85IjLM&ab_channel=RedHatDeveloper)
@@ -410,7 +410,7 @@
 - [systemcraftsman/lab-tekton-pipelines: OpenShift Pipelines workshop](https://github.com/systemcraftsman/lab-tekton-pipelines)
 - [openshift.com: GitOps Using Red Hat OpenShift Pipelines (Tekton) and Red Hat Advanced Cluster Management](https://www.redhat.com/en/blog/gitops-using-red-hat-openshift-pipelines-tekton-and-red-hat-advanced-cluster-management)
 - [Set up continuous integration for .NET Core with OpenShift Pipelines](https://developers.redhat.com/blog/2020/09/24/set-up-continuous-integration-for-net-core-with-openshift-pipelines)
-- [alesnosek.com: CI/CD Pipeline Spanning Multiple OpenShift Clusters (jenkins & tekton)](http://alesnosek.com/blog/2020/06/30/ci-slash-cd-pipeline-spanning-multiple-openshift-clusters)
+- [alesnosek.com: CI/CD Pipeline Spanning Multiple OpenShift Clusters (jenkins & tekton)](https://alesnosek.com/blog/2020/06/30/ci-slash-cd-pipeline-spanning-multiple-openshift-clusters)
 - [openshift.com: Guide to OpenShift Pipelines Part 1 - Introducing OpenShift Pipelines](https://www.redhat.com/en/blog/guide-to-openshift-pipelines-part-1-introducing-openshift-pipelines)
 - [kailashyogeshwar.medium.com: How we implemented Reusable CI/CD Pipeline using Git and Tekton](https://kailashyogeshwar.medium.com/how-we-implemented-reusable-ci-cd-pipeline-using-git-and-tekton-503bed91975b)
 - [openshift.com: GitOps Using Red Hat OpenShift Pipelines (Tekton) and Red Hat Advanced Cluster Management to Deploy on Multiple Clusters 🌟](https://www.redhat.com/en/blog/gitops-using-red-hat-openshift-pipelines-tekton-and-red-hat-advanced-cluster-management-to-deploy-on-multiple-clusters)
@@ -490,7 +490,7 @@
 
 - [medium.com: Installing an OKD 4.5 Cluster](https://medium.com/@craig_robinson/guide-installing-an-okd-4-5-cluster-508a2631cbee)
     - [itnext.io: Guide: Installing an OKD 4.5 Cluster](https://itnext.io/guide-installing-an-okd-4-5-cluster-508a2631cbee)
-- [openshift.com: Recap: OKD 4 Testing and Deployment Workshop - Videos and Additional Resources](https://www.redhat.com/en/blog/recap-okd-4-testing-and-deployment-workshop-videos-and-additional-resources?utm_source=thenewstack&utm_medium=twitter&utm_campaign=platform)
+- [openshift.com: Recap: OKD 4 Testing and Deployment Workshop - Videos and Additional Resources](https://www.redhat.com/en/blog/recap-okd-4-testing-and-deployment-workshop-videos-and-additional-resources)
 
 ### Helm demos
 
@@ -526,7 +526,7 @@
 - [medium: Just commit your code and your docker server is ready (jenkins + github + docker)](https://medium.com/@deepanshuyadavv11/task1-integrating-github-jenkins-and-docker-d66a817774be)
 - [lambdatest.com: Best Jenkins Pipeline Tutorial For Beginners (Examples) 🌟](https://www.testmuai.com/blog/jenkins-pipeline-tutorial)
 - [ittroubleshooter.in: Run Parallel Builds in Kubernetes Cluster with Jenkins Pipeline 🌟](https://ittroubleshooter.in/run-parallel-build-kubernetes-cluster-jenkins)
-- [cloudogu/jenkinsfiles 🌟🌟🌟](https://github.com/cloudogu/jenkinsfiles) This project contains examples for the [Jenkins pipeline plugin](https://www.jenkins.io/solutions/pipeline), comparing both declarative and scripted syntax. The examples were developed while working on an article series called Coding Continuous Delivery published in [Java aktuell](http://www.ijug.eu/java-aktuell/das-magazin.html). Both English translation and German original can be found on the [Cloudogu Blog](https://platform.cloudogu.com/en/blog).
+- [cloudogu/jenkinsfiles 🌟🌟🌟](https://github.com/cloudogu/jenkinsfiles) This project contains examples for the [Jenkins pipeline plugin](https://www.jenkins.io/solutions/pipeline), comparing both declarative and scripted syntax. The examples were developed while working on an article series called Coding Continuous Delivery published in [Java aktuell](https://www.ijug.eu/java-aktuell/das-magazin.html). Both English translation and German original can be found on the [Cloudogu Blog](https://platform.cloudogu.com/en/blog).
 - [aws.amazon.com: Integrating Jenkins with AWS CodeArtifact to publish and consume Python artifacts](https://aws.amazon.com/blogs/devops/using-jenkins-with-codeartifact)
 - [github.com/monodot/pipeline-library-demo 🌟](https://github.com/tutorialworks/pipeline-library-demo) Demonstrates how to use a Shared Library in Jenkins pipelines. This repository defines a single function, sayHello, which will echo a greeting.
 - [piotrminkowski.com: Continuous Integration with Jenkins on Kubernetes 🌟](https://piotrminkowski.com/2020/11/10/continuous-integration-with-jenkins-on-kubernetes)
@@ -580,10 +580,10 @@
     - [Demo repository 🌟🌟🌟](https://github.com/figaw/freestyle-to-pipeline-jenkins)
 - Links of interest provided in the event:
     - [Continuation Passing Style (CPS)](https://github.com/cloudbees/groovy-cps) is a style of programming in which the remainder of the program is passed explicitly as a parameter, as opposed to that being handled implicitly represented as call stack.
-        - [Jenkins Pipeline execution engine based on Continuation Passing Style (CPS) transformation of Groovy scripts. DSL Methods:](https://jenkinsci.github.io/job-dsl-plugin/#plugin/workflow-cps):
-            - [cps](https://jenkinsci.github.io/job-dsl-plugin/#method/javaposse.jobdsl.dsl.helpers.workflow.WorkflowDefinitionContext.cps): WorkflowDefinitionContext
-            - [cpsScm](https://jenkinsci.github.io/job-dsl-plugin/#method/javaposse.jobdsl.dsl.helpers.workflow.WorkflowDefinitionContext.cpsScm): WorkflowDefinitionContext
-        - [Defines a Groovy CPS DSL definition: pipelineJob definition cps script](https://jenkinsci.github.io/job-dsl-plugin/#path/pipelineJob-definition-cps-script)
+        - [Jenkins Pipeline execution engine based on Continuation Passing Style (CPS) transformation of Groovy scripts. DSL Methods:](https://jenkinsci.github.io/job-dsl-plugin):
+            - [cps](https://jenkinsci.github.io/job-dsl-plugin): WorkflowDefinitionContext
+            - [cpsScm](https://jenkinsci.github.io/job-dsl-plugin): WorkflowDefinitionContext
+        - [Defines a Groovy CPS DSL definition: pipelineJob definition cps script](https://jenkinsci.github.io/job-dsl-plugin)
     - [Jenkins CLI](https://www.jenkins.io/doc/book/managing/cli)
     - [How to create initial "seed" job](https://github.com/jenkinsci/configuration-as-code-plugin)
     - [Jenkinsfile Runner Test Framework](https://github.com/jenkinsci/jenkinsfile-runner-test-framework)
@@ -596,12 +596,12 @@
     - Plugins:
         - [Plugin Usage](https://plugins.jenkins.io/plugin-usage-plugin) This plugin gives you the possibility to analyze the usage of your installed plugins.
         - [Pipeline as YAML (Incubated) 🌟](https://plugins.jenkins.io/pipeline-as-yaml)
-        - [Jenkins Job DSL Plugin](https://github.com/jenkinsci/job-dsl-plugin#documentation) A Groovy DSL for Jenkins Jobs - Sweeeeet!
+        - [Jenkins Job DSL Plugin](https://github.com/jenkinsci/job-dsl-plugin) A Groovy DSL for Jenkins Jobs - Sweeeeet!
         - [Least Load](https://plugins.jenkins.io/leastload) This plugin overrides the default Load Balancer behavior and assigns jobs to nodes with the least load
         - [Declarative Pipeline Migration Assistant](https://plugins.jenkins.io/declarative-pipeline-migration-assistant)
     - Jenkins Job DSL:
         - [Jenkins Job DSL API 🌟](https://jenkinsci.github.io/job-dsl-plugin)
-            - [mavenJob](https://jenkinsci.github.io/job-dsl-plugin/#path/mavenJob)
+            - [mavenJob](https://jenkinsci.github.io/job-dsl-plugin)
         - [Example of a pipeline with parameters](https://github.com/polarpoint-io/groovy-jenkins-pipelines/blob/master/jobs/parameterisedPipelines.groovy)
     - [Pipeline Global Library for ci.jenkins.io](https://github.com/jenkins-infra/pipeline-library) Collection of custom steps and variables for our Jenkins instance(s)
 
@@ -619,7 +619,7 @@
 
 ### Jenkins and AWS Kubernetes
 
-- [==youtube: How to set up AWS Kubernetes Jenkins pipeline==](https://www.youtube.com/watch?v=zI7_8M2KtRI&t=7s&ab_channel=MicroserviceFactory) Java Spring boot, terraform, helm chart, pipeline, destroy RDS.
+- [==youtube: How to set up AWS Kubernetes Jenkins pipeline==](https://www.youtube.com/watch?v=zI7_8M2KtRI&ab_channel=MicroserviceFactory) Java Spring boot, terraform, helm chart, pipeline, destroy RDS.
 
 ### SDKMAN
 
@@ -646,7 +646,7 @@
 
 Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/awesome-kubernetes/tree/master/scripts)
 
-### Postman & Newman API Automated Tests
+### Postman and Newman API Automated Tests
 
 - [LerryAlexander: Postman + Newman API Automated Tests running on a Jenkins Pipeline 🌟](https://github.com/LerryAlexander/postman_jenkins_api_tests)
 - [praveendavidmathew.medium.com: Data driven testing per request without using data file](https://praveendavidmathew.medium.com/data-driven-testing-per-request-without-using-data-file-aeb573b4f63a)
@@ -736,7 +736,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 
 ### OpenShift.io Samples
 
-- [OpenShift.io Samples 🌟🌟](https://workspaces.openshift.com/#/getstarted)
+- [OpenShift.io Samples 🌟🌟](https://workspaces.openshift.com)
 - [github.com/che-samples](https://github.com/che-samples)
 
 ## AWS Samples (Boilerplates)
@@ -773,7 +773,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [doylestowncoder.com: Building CI/CD Pipelines with Azure Data Factory: Part 1](https://travelrasik.com/category/asia)
     - [doylestowncoder.com: Building CI/CD Pipelines with Azure Data Factory: Part 2](https://travelrasik.com/category/asia)
     - [doylestowncoder.com: Building CI/CD Pipelines with Azure Data Factory: Part 3](https://travelrasik.com/category/asia)
-- [github.com/microsoft: Contoso Traders - Cloud testing tools demo app](https://github.com/microsoft/contosotraders-cloudtesting#contoso-traders---cloud-testing-tools-demo-app) The Contoso Traders app is a sample application showcasing Playwright, Azure Load Testing, Azure Chaos Studio.
+- [github.com/microsoft: Contoso Traders - Cloud testing tools demo app](https://github.com/microsoft/contosotraders-cloudtesting) The Contoso Traders app is a sample application showcasing Playwright, Azure Load Testing, Azure Chaos Studio.
 
 ### Azure DevOps Demos. Azure DevOps Pipelines
 
@@ -838,10 +838,10 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [itnext.io: Event-Driven Architectures with Kafka and Java Spring-Boot — Revision 1](https://itnext.io/event-driven-architectures-with-kafka-and-java-spring-boot-revision-1-c0d43d103ee7)
 - [codeopinion.com: Troubleshooting Kafka with 2000 Microservices](https://codeopinion.com/troubleshooting-kafka-with-2000-microservices)
 
-## Apache Camel & ActiveMQ. Event driven integration
+## Apache Camel and ActiveMQ. Event driven integration
 
 - [tomd.xyz: Event-driven integration on Kubernetes with Camel & KEDA](https://tomd.xyz/kubernetes-event-driven-keda)
-- [developers.redhat.com: Modernizing applications with Apache Camel, JavaScript, and Red Hat OpenShift](https://developers.redhat.com/articles/2021/07/26/modernizing-applications-apache-camel-javascript-and-red-hat-openshift#)
+- [developers.redhat.com: Modernizing applications with Apache Camel, JavaScript, and Red Hat OpenShift](https://developers.redhat.com/articles/2021/07/26/modernizing-applications-apache-camel-javascript-and-red-hat-openshift)
 
 ## Codeless
 
@@ -942,4 +942,4 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 
 ## Labs
 
-- [==learntocloud.guide: 3 ways to get hands on (AWS, Azure, GCP)==](https://learntocloud.guide/#/projects/README)
+- [==learntocloud.guide: 3 ways to get hands on (AWS, Azure, GCP)==](https://learntocloud.guide)

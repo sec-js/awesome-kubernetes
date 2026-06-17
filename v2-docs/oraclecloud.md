@@ -3,6 +3,23 @@
 !!! info "Architectural Context"
     Detailed reference for Oracle Cloud Infrastructure (OCI) in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Integrations](#cloud-integrations)
+  - [Oracle Cloud](#oracle-cloud)
+    - [Infrastructure](#infrastructure)
+    - [Open Source](#open-source)
+    - [Resource Management](#resource-management)
+1. [Databases](#databases)
+  - [APIs](#apis)
+    - [Best Practices](#best-practices)
+1. [Managed Kubernetes](#managed-kubernetes)
+  - [Oracle Cloud](#oracle-cloud-1)
+    - [OKE](#oke)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -41,5 +58,5 @@
   - **(2023)** [Oracle Container Engine for Kubernetes (OKE)](https://docs.oracle.com/en-us/iaas/Content/ContEng/Concepts/contengoverview.htm) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official product documentation for Oracle Container Engine for Kubernetes (OKE). It highlights the architectural integration of managed master nodes, native storage arrays, virtual cloud networks, and IAM profiles, delivering an enterprise-ready environment for demanding production workloads.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md)
 

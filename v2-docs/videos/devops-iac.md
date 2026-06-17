@@ -1,4 +1,4 @@
-# 🎥 DevOps, IaC, and SRE
+# DevOps, IaC, and SRE
 
 Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore curated high-density videos with architectural summaries.
 
@@ -18,7 +18,12 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/rT4fJNbfe14" title="Prometheus: The Documentary" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="rT4fJNbfe14" data-video-url="https://www.youtube.com/embed/rT4fJNbfe14" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/rT4fJNbfe14/hqdefault.jpg" alt="Prometheus: The Documentary" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -30,7 +35,12 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/PxyyY7TsCqs?si=kzCRojDteESqork1" title="Standardizing infrastructure automation with Terraform Enterprise" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="PxyyY7TsCqs" data-video-url="https://www.youtube.com/embed/PxyyY7TsCqs?si=kzCRojDteESqork1" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/PxyyY7TsCqs/hqdefault.jpg" alt="Standardizing infrastructure automation with Terraform Enterprise" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -42,7 +52,12 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/8g4qLzkpjeE?si=xcfl3ugsMGZ8Kthg" title="Panel: Azure DevOps vs. GitHub Actions" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="8g4qLzkpjeE" data-video-url="https://www.youtube.com/embed/8g4qLzkpjeE?si=xcfl3ugsMGZ8Kthg" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/8g4qLzkpjeE/hqdefault.jpg" alt="Panel: Azure DevOps vs. GitHub Actions" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -54,7 +69,12 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/nrhxNNH5lt0?si=U5h1mbkbF6ZEOvlj" title="What is DevSecOps? DevSecOps explained in 8 Mins" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="nrhxNNH5lt0" data-video-url="https://www.youtube.com/embed/nrhxNNH5lt0?si=U5h1mbkbF6ZEOvlj" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/nrhxNNH5lt0/hqdefault.jpg" alt="What is DevSecOps? DevSecOps explained in 8 Mins" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 

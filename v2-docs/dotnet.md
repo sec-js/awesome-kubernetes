@@ -3,6 +3,43 @@
 !!! info "Architectural Context"
     Detailed reference for Microsoft .NET in the context of Developer Ecosystem.
 
+## Table of Contents
+
+1. [Application Development](#application-development)
+  - [.NET Framework](#net-framework)
+    - [API Security](#api-security)
+    - [Architectural Guides](#architectural-guides)
+    - [Blazor and Static Web Apps](#blazor-and-static-web-apps)
+    - [Core Architecture](#core-architecture)
+    - [Ecosystem Comparisons](#ecosystem-comparisons)
+    - [Event-Driven Microservices](#event-driven-microservices)
+    - [Microservices Design](#microservices-design)
+    - [OpenShift Containers](#openshift-containers)
+    - [RHEL Support](#rhel-support)
+    - [gRPC Communication](#grpc-communication)
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Infrastructure and Orchestration](#cloud-infrastructure-and-orchestration)
+  - [Container Orchestration](#container-orchestration)
+    - [Helm and Packaging](#helm-and-packaging)
+    - [Kubernetes](#kubernetes)
+1. [Software Architecture and .NET Development](#software-architecture-and-net-development)
+  - [Application Diagnostics](#application-diagnostics)
+    - [CLI Engines](#cli-engines)
+    - [Environment Validation](#environment-validation)
+    - [IoC Containers](#ioc-containers)
+  - [Client Technologies](#client-technologies)
+    - [CICD and DevOps](#cicd-and-devops)
+  - [Microservices](#microservices)
+    - [Resilience Patterns](#resilience-patterns)
+  - [Package Management](#package-management)
+    - [Ecosystem Curation](#ecosystem-curation)
+    - [NuGet Specification](#nuget-specification)
+    - [Publishing Workflows](#publishing-workflows)
+  - [Web Frameworks](#web-frameworks)
+    - [Microservices](#microservices-1)
+
 ## Application Development
 
 ### .NET Framework
@@ -50,6 +87,9 @@
 
 ### Container Orchestration
 
+#### Helm and Packaging
+
+  - **(2022)** [andrewlock.net: Series: Deploying ASP.NET Core applications to Kubernetes with Helm 🌟](https://andrewlock.net/series/deploying-asp-net-core-applications-to-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive deep-dive tutorial series on orchestrating .NET applications inside Kubernetes using Helm. Analyzes templating, YAML manifests, dependency injections, dynamic secret handling, and values customization patterns.
 #### Kubernetes
 
   - **(2021)** [dotnetcurry.com: Kubernetes for ASP.NET Core Developers – Introduction, Architecture, Hands-On](https://www.dotnetcurry.com/aspnet-core/kubernetes-for-developers) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An educational guide targeted at .NET architects migrating legacy backends to Kubernetes. Details fundamental infrastructure layers including Pods, ReplicaSets, Deployments, Services, and containerization pipelines using Docker.
@@ -75,7 +115,7 @@
 
 #### Resilience Patterns
 
-  - **(2026)** [==App-vNext/Polly==](https://github.com/App-vNext/Polly) <span class='md-tag md-tag--info'>⭐ 14192</span> <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier resilient fault-handling library for the .NET ecosystem. Enables developers to configure sophisticated reliability policies including Retry, Circuit Breaker, Timeout, Bulkhead Isolation, and Fallback, acting as the bedrock for stable microservices.
+  - **(2026)** [==App-vNext/Polly==](https://github.com/App-vNext/Polly) <span class='md-tag md-tag--info'>⭐ 14192</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a2a0e361" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 13 L 20 6 L 30 7 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-a2a0e361)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier resilient fault-handling library for the .NET ecosystem. Enables developers to configure sophisticated reliability policies including Retry, Circuit Breaker, Timeout, Bulkhead Isolation, and Fallback, acting as the bedrock for stable microservices.
   - **(2022)** [procodeguide.com: Build Resilient Microservices (Web API) using Polly in ASP.NET Core](https://procodeguide.com/programming/polly-in-aspnet-core) <span class='md-tag md-tag--warning'>[C# CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides a hands-on architectural approach to integrating Polly policy frameworks inside ASP.NET Core Web APIs. Details proper HttpClientFactory patterns, fallback strategies, and configuring resilient endpoint routing.
 ### Package Management
 
@@ -84,7 +124,7 @@
   - **(2022)** [syncfusion.com: 10 Best C# NuGet Packages to Improve Your Productivity in 2022](https://www.syncfusion.com/blogs/post/10-best-c-nuget-packages-to-improve-your-productivity-in-2022) <span class='md-tag md-tag--warning'>[C# CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated evaluation of top-tier NuGet packages designed to elevate developer productivity inside modern .NET enterprise ecosystems. Features utility frameworks covering high-speed serialization, deep-object mapping, unit testing extensions, logging, and database interfacing.
 #### NuGet Specification
 
-  - **(2026)** [NuGet/docs.microsoft.com-nuget: nuspec](https://github.com/NuGet/docs.microsoft.com-nuget/blob/main/docs/reference/nuspec.md) <span class='md-tag md-tag--info'>⭐ 160</span> <span class='md-tag md-tag--warning'>[XML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This reference specification details the .nuspec XML manifest schema governing NuGet packages. It provides structured guidance on targeting framework frameworks, orchestrating assembly dependencies, defining metadata, and managing compilation assemblies, acting as the foundational automation configuration schema for .NET artifact pipelines.
+  - **(2026)** [NuGet/docs.microsoft.com-nuget: nuspec](https://github.com/NuGet/docs.microsoft.com-nuget/blob/main/docs/reference/nuspec.md) <span class='md-tag md-tag--info'>⭐ 160</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-bf8c02da" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 3 L 20 10 L 30 13 L 40 3 L 50 6" fill="none" stroke="url(#spark-grad-bf8c02da)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[XML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This reference specification details the .nuspec XML manifest schema governing NuGet packages. It provides structured guidance on targeting framework frameworks, orchestrating assembly dependencies, defining metadata, and managing compilation assemblies, acting as the foundational automation configuration schema for .NET artifact pipelines.
   - **(2023)** [devblogs.microsoft.com: Introducing Compatible Packages on NuGet.org](https://devblogs.microsoft.com/dotnet/introducing-compatible-frameworks-on-nuget-org) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Details framework compatibility structures implemented by NuGet.org, facilitating cross-platform library discovery. Explains target framework resolution paradigms mapping dependencies across .NET Standard, .NET Core, and legacy frameworks.
 #### Publishing Workflows
 
@@ -97,5 +137,5 @@
   - **(2024)** [Paradigm framework](https://www.paradigm.net.co) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source development platform designed to facilitate rapid, highly structured .NET microservice engineering. Standardizes dependency configurations, modular architectures, data mapping protocols, and enterprise repository patterns.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
+💡 **Explore Related:** [Angular](./angular.md) | [Python](./python.md) | [Dom](./dom.md)
 

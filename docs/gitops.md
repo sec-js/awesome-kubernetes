@@ -73,7 +73,7 @@
 - [kumomind.medium.com: Should I consider the GitOps methodology?](https://kumomind.medium.com/should-i-consider-the-gitops-methodology-f49e042b8c22)
 - [braindose.blog: 4 Key Characteristics for a Successful GitOps Implementation](https://braindose.blog/2020/03/18/4-key-characteristics-of-gitops)
 - [blog.container-solutions.com: GitOps: The Bad and the Ugly](https://blog.container-solutions.com/gitops-limitations)
-- [gitops.tech: What is GitOps? 🌟](https://www.gitops.tech/#tools)
+- [gitops.tech: What is GitOps? 🌟](https://www.gitops.tech)
 - [thenewstack.io: Misconfiguration Worries Grow](https://thenewstack.io/misconfiguration-worries-grow)
 - [codefresh.io: The pains of GitOps 1.0 🌟](https://octopus.com/devops) GitOps as a practice for releasing software has several advantages, but like all other solutions before it, has also several shortcomings.
 - [weave.works: Managing Kubernetes with GitOps in a multi-cluster, multi-cloud world](https://www.weave.works/blog/managing-kubernetes-with-gitops-in-a-multi-cluster-multi-cloud-world)
@@ -93,14 +93,14 @@
 - [thenewstack.io: Security Will Be Instrumental for the Success of GitOps](https://thenewstack.io/security-will-be-instrumental-for-the-success-of-gitops)
 - [weave.works: There’s More to GitOps Than Meets the Eye](https://www.weave.works/blog/theres-more-to-gitops-than-meets-the-eye)
 - [solo.io: GlooOps: Progressive delivery, the GitOps way](https://www.solo.io/blog)
-- [go.weave.works: The GitOps Maturity Model - 4 evolutionary steps to continuous delivery (pdf)](https://www.weave.works/)
+- [go.weave.works: The GitOps Maturity Model - 4 evolutionary steps to continuous delivery (pdf)](https://www.weave.works)
 - [thenewstack.io: A Look at GitOps for the Modern Enterprise 🌟](https://thenewstack.io/a-look-at-gitops-for-the-modern-enterprise)
 - [shipa.io: GitOps in the enterprise 🌟](https://shipa.io/gitops-in-the-enterprise)
 - [itnext.io: GitOps with Kubernetes 🌟](https://itnext.io/gitops-with-kubernetes-740f37ea015b)
 - [shipa.io: GitOps meets AppOps](https://shipa.io/gitops-meets-appops)
 - [weave.works: Automating Kubernetes with GitOps (whitepaper) 🌟](https://go.weave.works/automating-kubernetes-with-gitops-wp.html)
 - [devopslearners.com: What is GitOps?](https://devopslearners.com/what-is-gitops-168aac9a2ee) A small explanation for GitOps
-- [go.weave.works: The Practical Guide to GitOps (eBook)](https://www.weave.works/)
+- [go.weave.works: The Practical Guide to GitOps (eBook)](https://www.weave.works)
 - [enterprisersproject.com: How to explain GitOps in plain English](https://enterprisersproject.com/article/2021/6/gitops-explained-plain-english) What is GitOps and why is it important? How can IT leaders explain GitOps to others, especially if they don’t speak DevOps or cloud-native? Experts break it down
 - [redhat.com: An illustrated guide to GitOps](https://www.redhat.com/en/blog/illustrated-guide-gitops) Understanding the basic principles driving GitOps offers Enterprise Architects a new way of working in the modern enterprise.
 - [bunnyshell.com: GitOps vs. DevOps: What’s the Difference? 🌟](https://www.bunnyshell.com/blog/gitops-vs-devops)
@@ -220,7 +220,7 @@
 ## GitOps Patterns
 
 - [==github.com/cloudogu/gitops-patterns==](https://github.com/cloudogu/gitops-patterns) Collection of patterns, examples and resources for GitOps process design, GitOps repository structures, etc.
-- [github.com/cloudogu/gitops-playground#example-applications](https://github.com/cloudogu/gitops-playground#example-applications) Creates a complete GitOps-based operational stack on your Kubernetes clusters
+- [github.com/cloudogu/gitops-playground#example-applications](https://github.com/cloudogu/gitops-playground) Creates a complete GitOps-based operational stack on your Kubernetes clusters
 
 ## Git Repositories Structures
 

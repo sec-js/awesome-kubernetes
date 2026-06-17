@@ -1,4 +1,4 @@
-# Chrome & Firefox DevTools. HTTP Protocols & WebSockets
+# Chrome and Firefox DevTools. HTTP Protocols and WebSockets
 1. [ChromeDevTools](#chromedevtools)
 2. [Firefox DevTools](#firefox-devtools)
 3. [Other Tools](#other-tools)

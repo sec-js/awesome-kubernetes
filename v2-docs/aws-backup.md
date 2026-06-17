@@ -3,6 +3,45 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Backup and Migrations. Design for failure. Disaster Recovery in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Architecture](#cloud-architecture)
+  - [AWS Solutions](#aws-solutions)
+    - [Disaster Recovery](#disaster-recovery)
+1. [Cloud Migration](#cloud-migration)
+  - [AWS Competency](#aws-competency)
+    - [Enterprise Migration](#enterprise-migration)
+  - [AWS MGN](#aws-mgn)
+    - [Multi-Region](#multi-region)
+  - [Multi-Account Strategy](#multi-account-strategy)
+    - [AWS Resources](#aws-resources)
+  - [VM ImportExport](#vm-importexport)
+    - [On-Premises](#on-premises)
+1. [Data and Analytics](#data-and-analytics)
+  - [Data Protection](#data-protection)
+    - [AWS Backup](#aws-backup)
+1. [Infrastructure](#infrastructure)
+  - [Disaster Recovery](#disaster-recovery-1)
+    - [AWS Architectures](#aws-architectures)
+      - [Single Region](#single-region)
+    - [AWS Compute](#aws-compute)
+      - [EC2](#ec2)
+    - [AWS Services](#aws-services)
+      - [AWS Backup](#aws-backup-1)
+      - [Multi-Region](#multi-region-1)
+      - [S3 Protection](#s3-protection)
+    - [AWS Storage](#aws-storage)
+      - [Automation](#automation)
+      - [EBS Snapshots](#ebs-snapshots)
+      - [Veeam Integration](#veeam-integration)
+    - [Chaos Engineering](#chaos-engineering)
+    - [Cloud Integrations](#cloud-integrations)
+    - [DNS Routing](#dns-routing)
+    - [Resilience Design](#resilience-design)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -85,7 +124,7 @@
   - **(2016)** [Backup and archive to AWS Storage Gateway VTL with Veeam Backup & Replication v9](https://aws.amazon.com/es/about-aws/whats-new/2016/08/backup-and-archive-to-aws-storage-gateway-vtl-with-veeam-backup-and-replication-v9) 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — An AWS announcement detailing integration between Veeam Backup & Replication and the virtual tape library (VTL) functionality of AWS Storage Gateway. Live Grounding highlights how this hybrid solution continues to serve traditional enterprises transitioning to the cloud while maintaining legacy archiving requirements.
 #### Chaos Engineering
 
-  - **(2026)** [==Chaos Monkey==](https://github.com/Netflix/SimianArmy/wiki/Chaos-Monkey) <span class='md-tag md-tag--info'>⭐ 7984</span> <span class='md-tag md-tag--warning'>[PYTHON / GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Netflix's classic Chaos Monkey implementation, designed to randomly disable instances in production to prove resiliency. Live Grounding identifies Chaos Monkey as the conceptual grandfather of contemporary Chaos Engineering, asserting that regular, controlled failure injection is a critical architectural requirement for distributed systems.
+  - **(2026)** [==Chaos Monkey==](https://github.com/Netflix/SimianArmy/wiki/Chaos-Monkey) <span class='md-tag md-tag--info'>⭐ 7984</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-714af8dc" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 13 L 20 5 L 30 6 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-714af8dc)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON / GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Netflix's classic Chaos Monkey implementation, designed to randomly disable instances in production to prove resiliency. Live Grounding identifies Chaos Monkey as the conceptual grandfather of contemporary Chaos Engineering, asserting that regular, controlled failure injection is a critical architectural requirement for distributed systems.
 #### Cloud Integrations
 
   - **(2013)** [Quantum Taps AWS for Cloud-Powered Disaster Recovery](https://www.infostor.com/backup-and_recovery/quantum-taps-aws-for-cloud-powered-disaster-recovery.html) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An archival news piece on how Quantum leveraged AWS to enable hybrid cloud disaster recovery and tape archive features. Live Grounding views this as a foundational hybrid-cloud implementation that helped formulate modern storage tiering and backup lifecycle workflows.
@@ -97,5 +136,5 @@
   - **(2016)** [Design for failure lessons learnt from the Sydney AWS outage](https://www.hava.io/blog/design-for-failure-lessons-learnt-from-the-sydney-aws-outage) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural retrospective analyzing service failures during a historic AWS Sydney region outage. Live Grounding highlights how this post underscores the vital design-for-failure paradigm, proving that high availability requires cross-region failovers, active-active topologies, and robust client retry configurations.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md)
 

@@ -3,58 +3,159 @@
 !!! info "Architectural Context"
     Detailed reference for Artificial Intelligence in the context of AI.
 
-## AI and Agents
+## Table of Contents
 
-### Environments
+1. [AI and Orchestration](#ai-and-orchestration)
+  - [Agentic Workflows](#agentic-workflows)
+    - [Command-Line Tools](#command-line-tools)
+1. [AI Engineering](#ai-engineering)
+  - [Model Context Protocol](#model-context-protocol)
+    - [Awesome Lists](#awesome-lists)
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Artificial Intelligence](#artificial-intelligence-1)
+  - [AI Strategy](#ai-strategy)
+    - [Business Alignment](#business-alignment)
+    - [Ecosystem Landscapes](#ecosystem-landscapes)
+    - [Ecosystem Partnerships](#ecosystem-partnerships)
+    - [Hybrid Cloud Infrastructure](#hybrid-cloud-infrastructure)
+    - [Socio-Technical Impact](#socio-technical-impact)
+  - [Deep Learning](#deep-learning)
+    - [Large Language Models](#large-language-models)
+  - [Generative AI Engineering](#generative-ai-engineering)
+    - [API Integration Patterns](#api-integration-patterns)
+    - [Architecture Patterns](#architecture-patterns)
+    - [Audio and Speech Synthesis](#audio-and-speech-synthesis)
+    - [Transformer Implementations](#transformer-implementations)
+  - [LLMOps and MLOps](#llmops-and-mlops)
+    - [Curated Ecosystems](#curated-ecosystems)
+    - [Strategy and Pipelines](#strategy-and-pipelines)
+  - [Large Language Models](#large-language-models-1)
+    - [Evaluation and Safety](#evaluation-and-safety)
+    - [Industry Use Cases](#industry-use-cases)
+    - [LLM Primers](#llm-primers)
+    - [Structured Curriculums](#structured-curriculums)
+    - [Transformer Architecture](#transformer-architecture)
+  - [Machine Learning and Deep Learning Fundamentals](#machine-learning-and-deep-learning-fundamentals)
+    - [AI Primer](#ai-primer)
+    - [Career Strategy](#career-strategy)
+    - [Foundational Handbook](#foundational-handbook)
+    - [Neural Network Architectures](#neural-network-architectures)
+    - [Structured Curriculums](#structured-curriculums-1)
+1. [Artificial Intelligence and LLMs](#artificial-intelligence-and-llms)
+  - [Prompt Engineering](#prompt-engineering)
+    - [Developer Productivity](#developer-productivity)
+1. [CICD Pipelines](#cicd-pipelines)
+  - [AI and Automation](#ai-and-automation)
+    - [AI PR Automation](#ai-pr-automation)
+    - [Model Context Protocol](#model-context-protocol-1)
+1. [Cloud Infrastructure](#cloud-infrastructure)
+  - [CICD and DevOps](#cicd-and-devops)
+    - [DevSecOps](#devsecops)
+  - [Infrastructure as Code](#infrastructure-as-code)
+    - [Compliance Auditing](#compliance-auditing)
+1. [Cloud Native Operations](#cloud-native-operations)
+  - [AI AIOps](#ai-aiops)
+    - [Kubernetes Troubleshooting](#kubernetes-troubleshooting)
+  - [AI-Powered Operations AIOps](#ai-powered-operations-aiops)
+    - [Kubernetes Troubleshooting](#kubernetes-troubleshooting-1)
+  - [Infrastructure as Code](#infrastructure-as-code-1)
+    - [AI-Assisted IaC](#ai-assisted-iac)
+  - [Kubernetes Orchestration](#kubernetes-orchestration)
+    - [AI Workloads on K8s](#ai-workloads-on-k8s)
+1. [Computer Vision](#computer-vision)
+  - [Deep Learning Research](#deep-learning-research)
+    - [CVPR](#cvpr)
+    - [Generative AI](#generative-ai)
+    - [ML Notebooks](#ml-notebooks)
+1. [Container Orchestration](#container-orchestration)
+  - [Azure Kubernetes Service](#azure-kubernetes-service)
+    - [AKS Fleet Manager](#aks-fleet-manager)
+1. [DevOps](#devops)
+  - [Automation](#automation)
+    - [Education Tooling](#education-tooling)
+  - [Infrastructure as Code](#infrastructure-as-code-2)
+    - [AI Integration](#ai-integration)
+      - [Terraform](#terraform)
+1. [Developer Experience](#developer-experience)
+  - [AI-Assisted Coding](#ai-assisted-coding)
+    - [Claude Code](#claude-code)
+1. [Developer Tooling](#developer-tooling)
+  - [AI Code Assistants](#ai-code-assistants)
+    - [Effort Frameworks](#effort-frameworks)
+    - [Prompt Templates](#prompt-templates)
+1. [Emerging Technology](#emerging-technology)
+  - [Machine Learning](#machine-learning)
+    - [Course](#course)
+1. [Enterprise Architecture](#enterprise-architecture)
+  - [AIOps and Observability](#aiops-and-observability)
+    - [Incident Response](#incident-response)
+    - [Site Reliability Engineering](#site-reliability-engineering)
+    - [Strategic IT Ops](#strategic-it-ops)
+1. [FinOps and Cloud Cost](#finops-and-cloud-cost)
+  - [Azure Optimization](#azure-optimization)
+    - [AI Cost Management](#ai-cost-management)
+  - [IaC FinOps](#iac-finops)
+    - [AI Optimization](#ai-optimization)
+  - [Kubernetes FinOps](#kubernetes-finops)
+    - [Automated Optimization](#automated-optimization)
+1. [Infrastructure as Code](#infrastructure-as-code-3)
+  - [AI Integrations](#ai-integrations)
+    - [Validation and Testing](#validation-and-testing)
+1. [Kubernetes and Platform Engineering](#kubernetes-and-platform-engineering)
+  - [Platform Engineering Trends](#platform-engineering-trends)
+    - [AI Integration](#ai-integration-1)
+1. [Software Architecture and .NET Development](#software-architecture-and-net-development)
+  - [Artificial Intelligence](#artificial-intelligence-2)
+    - [Agent Integration](#agent-integration)
+1. [Software Engineering](#software-engineering)
+  - [AI Tools](#ai-tools)
+    - [Developer Productivity](#developer-productivity-1)
+  - [AI-Assisted Development](#ai-assisted-development)
+    - [CLI Tools](#cli-tools)
+    - [GitHub Copilot](#github-copilot)
+    - [Industry Impact](#industry-impact)
+    - [Multi-Repository Architecture](#multi-repository-architecture)
+    - [Next-Gen Platforms](#next-gen-platforms)
+  - [Command-Line Utilities](#command-line-utilities)
+    - [Terminal Emulators](#terminal-emulators)
+  - [Database Management](#database-management)
+    - [Model Context Protocol](#model-context-protocol-2)
+  - [Professional Development](#professional-development)
+    - [Core Architectures](#core-architectures)
 
-#### Cloud Agents
-
-  - **(2025)** [Development Environments for Cloud Agents](https://cursor.com/blog/cloud-agent-development-environments) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analysis of building custom sandboxes and isolated development runtimes for LLM-based autonomous cloud agents. Discusses secure API mocking, resource isolation, and state rollbacks.
 ## AI and Orchestration
 
 ### Agentic Workflows
 
 #### Command-Line Tools
 
-  - **(2025)** [**Google Agents CLI**](https://github.com/google/agents-cli) <span class='md-tag md-tag--info'>⭐ 2853</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official command-line tool from Google built to design, test, and deploy agentic AI workflows. Leveraging the Model Context Protocol (MCP) and Google LLM APIs, it facilitates automated task orchestration across local filesystems and remote cloud APIs.
-## AI and Platform Engineering
-
-### AI Assistants
-
-#### Developer Productivity
-
-  - **(2024)** [Google Launches Gemini Code Assist, Challenging GitHub Copilot with Generous Free Tier](https://www.xataka.com/robotica-e-ia/google-lanza-misil-github-copilot-su-asistente-programacion-ofrece-mucho-uso-gratuito-que-microsoft) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details Google's launch of Gemini Code Assist, leveraging a vast token context window. Emphasizes integration within internal IDEs and Google Cloud Platform services to challenge the GitHub Copilot ecosystem.
+  - **(2025)** [**Google Agents CLI**](https://github.com/google/agents-cli) <span class='md-tag md-tag--info'>⭐ 2853</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f7881b53" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 6 L 20 6 L 30 13 L 40 7 L 50 4" fill="none" stroke="url(#spark-grad-f7881b53)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official command-line tool from Google built to design, test, and deploy agentic AI workflows. Leveraging the Model Context Protocol (MCP) and Google LLM APIs, it facilitates automated task orchestration across local filesystems and remote cloud APIs.
 ## AI Engineering
 
 ### Model Context Protocol
 
 #### Awesome Lists
 
-  - **(2025)** [==Awesome MCP Servers==](https://github.com/punkpeye/awesome-mcp-servers) <span class='md-tag md-tag--info'>⭐ 89112</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: A community-curated collection of servers implementing the Model Context Protocol. Live Grounding: Aggregates verified integrations linking AI models to tools like relational databases, enterprise APIs, version control providers, and local execution runtimes.
+  - **(2025)** [==Awesome MCP Servers==](https://github.com/punkpeye/awesome-mcp-servers) <span class='md-tag md-tag--info'>⭐ 89112</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-396cb5e3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 4 L 20 9 L 30 10 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-396cb5e3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: A community-curated collection of servers implementing the Model Context Protocol. Live Grounding: Aggregates verified integrations linking AI models to tools like relational databases, enterprise APIs, version control providers, and local execution runtimes.
 ## Architectural Foundations
 
 ### Kubernetes Tools
 
 #### General Reference
 
+  - [Discussion: Where is AI Still Completely Useless?](https://www.reddit.com/r/Terraform/comments/1l7my1x/where_is_ai_still_completely_useless_for)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Discussion: Where is AI Still Completely Useless? in the Kubernetes Tools ecosystem.
+  - [Tech companies cutting devs for AI](https://www.reddit.com/r/ProgrammerHumor/comments/1tbzih8/techcompaniescuttingdevsforai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Tech companies cutting devs for AI in the Kubernetes Tools ecosystem.
+  - [Docker for LLMs](https://www.docker.com/llm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Docker for LLMs in the Kubernetes Tools ecosystem.
   - [guru99.com: Artificial Intelligence Tutorial for Beginners: Learn Basics' of AI 🌟🌟🌟](https://www.guru99.com/ai-tutorial.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==guru99.com: Artificial Intelligence Tutorial for Beginners: Learn Basics' of AI== 🌟🌟🌟 in the Kubernetes Tools ecosystem.
   - [technologyreview.es: "Las empresas que empiezan a lo grande con la IA' fracasan más" 🌟](https://www.technologyreview.es/s/13258/las-empresas-que-empiezan-lo-grande-con-la-ia-fracasan-mas)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==technologyreview.es: "Las empresas que empiezan a lo grande con la IA' fracasan más"== 🌟 in the Kubernetes Tools ecosystem.
   - [hipertextual.com: Diferencias entre Inteligencia Artificial, Machine Learning' y Deep Learning](https://hipertextual.com/2023/02/diferencias-ia-machine-learning)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering hipertextual.com: Diferencias entre Inteligencia Artificial, Machine Learning' y Deep Learning in the Kubernetes Tools ecosystem.
-  - [Docker for LLMs](https://www.docker.com/llm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Docker for LLMs in the Kubernetes Tools ecosystem.
   - [Introducing Kiro: AWS Agentic AI-Based IDE](https://markrosscloud.medium.com/introducing-kiro-aws-agentic-ai-based-ide-cded711b1409)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Introducing Kiro: AWS Agentic AI-Based IDE in the Kubernetes Tools ecosystem.
-  - [Discussion: Where is AI Still Completely Useless?](https://www.reddit.com/r/Terraform/comments/1l7my1x/where_is_ai_still_completely_useless_for)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Discussion: Where is AI Still Completely Useless? in the Kubernetes Tools ecosystem.
   - [hashicorp.com: Accelerate your Terraform development with Amazon CodeWhisperer](https://www.hashicorp.com/blog/accelerate-your-terraform-development-with-amazon-codewhisperer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering hashicorp.com: Accelerate your Terraform development with Amazon CodeWhisperer in the Kubernetes Tools ecosystem.
-  - [Tech companies cutting devs for AI](https://www.reddit.com/r/ProgrammerHumor/comments/1tbzih8/techcompaniescuttingdevsforai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Tech companies cutting devs for AI in the Kubernetes Tools ecosystem.
   - [blog.redbrickai.com: F.A.S.T. ⚡️ Meta AI’s Segment Anything for Medical' Imaging](https://blog.redbrickai.com/blog-posts/fast-meta-sam-for-medical-imaging)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.redbrickai.com: F.A.S.T. ⚡️ Meta AI’s Segment Anything for Medical' Imaging in the Kubernetes Tools ecosystem.
   - [hashicorp.com: Accelerating AI adoption on Azure with Terraform](https://www.hashicorp.com/blog/accelerating-ai-adoption-on-azure-with-terraform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering hashicorp.com: Accelerating AI adoption on Azure with Terraform in the Kubernetes Tools ecosystem.
   - [hashicorp.com: AI for infrastructure management](https://www.hashicorp.com/solutions/ai-infrastructure-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering hashicorp.com: AI for infrastructure management in the Kubernetes Tools ecosystem.
-## Architecture and Visualization
-
-### Interactive Diagramming
-
-#### AI Integration
-
-  - **(2025)** [Draw.io MCP for Diagram Generation: Why It’s Worth Using](https://thomasthornton.cloud/draw-io-mcp-for-diagram-generation-why-its-worth-using) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Implements the Model Context Protocol (MCP) to dynamically generate and modify Draw.io structures directly via conversational AI interfaces. Seamlessly links large language models with visual blueprint execution, allowing real-time canvas updates and automated layout formatting based on conversational technical specs.
 ## Artificial Intelligence (1)
 
 ### AI Strategy
@@ -78,12 +179,12 @@
 
 #### Large Language Models
 
-  - **(2024)** [==LLMs-from-scratch==](https://github.com/rasbt/LLMs-from-scratch) <span class='md-tag md-tag--info'>⭐ 97134</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight highlights this acclaimed resource for building a fully functional PyTorch Transformer from scratch. Live Grounding verifies it is an indispensable textbook for AI engineers, laying bare tokenization, self-attention calculations, optimization loops, and model loading mechanics without library abstractions.
+  - **(2024)** [==LLMs-from-scratch==](https://github.com/rasbt/LLMs-from-scratch) <span class='md-tag md-tag--info'>⭐ 97134</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-5746f3ae" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 2 L 20 2 L 30 12 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-5746f3ae)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight highlights this acclaimed resource for building a fully functional PyTorch Transformer from scratch. Live Grounding verifies it is an indispensable textbook for AI engineers, laying bare tokenization, self-attention calculations, optimization loops, and model loading mechanics without library abstractions.
 ### Generative AI Engineering
 
 #### API Integration Patterns
 
-  - **(2023)** [==github.com/openai/openai-cookbook: OpenAI Cookbook==](https://github.com/openai/openai-cookbook) <span class='md-tag md-tag--info'>⭐ 74150</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official, highly detailed cookbook of integration patterns and code recipes from OpenAI. Live Grounding and Curator Insight rate this as the definitive reference for engineering structured JSON model outputs, semantic embedding databases, low-latency streaming endpoints, and high-throughput bulk operations.
+  - **(2023)** [==github.com/openai/openai-cookbook: OpenAI Cookbook==](https://github.com/openai/openai-cookbook) <span class='md-tag md-tag--info'>⭐ 74150</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e9870985" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 13 L 20 13 L 30 11 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-e9870985)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official, highly detailed cookbook of integration patterns and code recipes from OpenAI. Live Grounding and Curator Insight rate this as the definitive reference for engineering structured JSON model outputs, semantic embedding databases, low-latency streaming endpoints, and high-throughput bulk operations.
 #### Architecture Patterns
 
   - **(2023)** [youtube: AWS re:Invent 2023 - From hype to impact: Building a generative AI architecture (ARC217)](https://www.youtube.com/watch?v=1Lat8dP7Eq0) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> — An advanced AWS architecture session detailing patterns to transition generative AI from experimental concepts to secure, cost-optimized, and low-latency production applications. It covers vector search performance, model endpoint caching, and distributed multi-tenant API routing. This reference is crucial for system engineers designing robust enterprise AI portals.
@@ -92,12 +193,12 @@
   - **(2024)** [amazon.science/base-tts-samples](https://www.amazon.science/base-tts-samples) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines Amazon's advanced research in large-scale text-to-speech (TTS) foundation models, presenting audio samples and technical parameters. The system demonstrates emergent properties in synthetic voice naturalness, prosody control, and emotive expression. It outlines the state of the art in developing hyper-realistic speech interfaces.
 #### Transformer Implementations
 
-  - **(2023)** [**github.com/NielsRogge/Transformers-Tutorials**](https://github.com/NielsRogge/Transformers-Tutorials) <span class='md-tag md-tag--info'>⭐ 11638</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A robust repository of detailed Jupyter notebooks demonstrating how to fine-tune, optimize, and deploy Hugging Face Transformers. Spanning multiple sensory modalities, it includes code for computer vision, natural language processing, and multimodal tasks. It serves as a go-to code library for enterprise machine learning engineers.
+  - **(2023)** [**github.com/NielsRogge/Transformers-Tutorials**](https://github.com/NielsRogge/Transformers-Tutorials) <span class='md-tag md-tag--info'>⭐ 11638</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f52608f0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 4 L 20 3 L 30 11 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-f52608f0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A robust repository of detailed Jupyter notebooks demonstrating how to fine-tune, optimize, and deploy Hugging Face Transformers. Spanning multiple sensory modalities, it includes code for computer vision, natural language processing, and multimodal tasks. It serves as a go-to code library for enterprise machine learning engineers.
 ### LLMOps and MLOps
 
 #### Curated Ecosystems
 
-  - **(2023)** [github.com/tensorchord/Awesome-LLMOps: Awesome LLMOps](https://github.com/tensorchord/Awesome-LLMOps) <span class='md-tag md-tag--info'>⭐ 5843</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An expansive, curated catalog of leading open-source LLMOps tooling, libraries, and frameworks. Curator Insight and Live Grounding validate this repository as a comprehensive roadmap for configuring production vector databases, distributed training trackers, model testing beds, and low-latency inference gateways.
+  - **(2023)** [github.com/tensorchord/Awesome-LLMOps: Awesome LLMOps](https://github.com/tensorchord/Awesome-LLMOps) <span class='md-tag md-tag--info'>⭐ 5843</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6eb12657" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 5 L 20 11 L 30 7 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-6eb12657)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An expansive, curated catalog of leading open-source LLMOps tooling, libraries, and frameworks. Curator Insight and Live Grounding validate this repository as a comprehensive roadmap for configuring production vector databases, distributed training trackers, model testing beds, and low-latency inference gateways.
 #### Strategy and Pipelines
 
   - **(2023)** [valohai.com/blog/llmops/](https://valohai.com/blog/llmops)  <span class='md-tag md-tag--warning'>[EMERGING]</span> — A detailed structural analysis mapping out the critical differences between classical MLOps pipelines and the emerging LLMOps domain. It addresses unique lifecycle challenges such as prompt versioning, parameter-efficient fine-tuning (PEFT), and the RAG validation triad. It helps platform teams adapt CI/CD tools to AI lifecycles.
@@ -114,7 +215,7 @@
   - **(2023)** [aman.ai/primers/ai/LLM: Primers - Overview of Large Language Models](https://aman.ai/primers/ai/LLM) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structured primer exploring the foundational architectures, training phases, and evaluation cycles of Large Language Models (LLMs). It maps out causal language modeling, masking methodologies, and reinforcement learning from human feedback (RLHF). This overview equips engineers with deep insights into how massive neural networks interpret context.
 #### Structured Curriculums
 
-  - **(2023)** [==github.com/mlabonne/llm-course==](https://github.com/mlabonne/llm-course) <span class='md-tag md-tag--info'>⭐ 80120</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Maxime Labonne's stellar curriculum for mastering Large Language Model engineering. Curator Insight and Live Grounding confirm its value, providing code-driven notebooks covering quantization (bitsandbytes, AWQ, GGUF), LoRA fine-tuning, direct preference optimization (DPO), and advanced retrieval-augmented generation (RAG) paradigms.
+  - **(2023)** [==github.com/mlabonne/llm-course==](https://github.com/mlabonne/llm-course) <span class='md-tag md-tag--info'>⭐ 80120</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-dc69b86c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 5 L 20 5 L 30 3 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-dc69b86c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Maxime Labonne's stellar curriculum for mastering Large Language Model engineering. Curator Insight and Live Grounding confirm its value, providing code-driven notebooks covering quantization (bitsandbytes, AWQ, GGUF), LoRA fine-tuning, direct preference optimization (DPO), and advanced retrieval-augmented generation (RAG) paradigms.
 #### Transformer Architecture
 
   - **(2023)** [aman.ai: Transformers](https://aman.ai/primers/ai/transformers) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An elegant architectural blueprint dissecting the mathematical design of the Attention is All You Need transformer model. It provides clear examinations of multi-head attention blocks, residual connections, feed-forward sublayers, and positional embeddings. Reading this is necessary for developers seeking to optimize model inference latency.
@@ -136,21 +237,14 @@
   - **(2020)** [poloclub.github.io: What is a Convolutional Neural Network?](https://poloclub.github.io/cnn-explainer) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive, visual demonstration of Convolutional Neural Networks (CNNs) designed to demystify mathematical operations like convolution, pooling, and activation functions. The tool lets engineers inspect intermediate layers of active models, mapping visual inputs to numerical transformations. This is a vital resource for platform engineers seeking a deep conceptual understanding of computer vision workloads.
 #### Structured Curriculums (1)
 
-  - **(2023)** [==github.com/microsoft/ML-For-Beginners: Machine Learning for Beginners' - A Curriculum==](https://github.com/microsoft/ML-For-Beginners) <span class='md-tag md-tag--info'>⭐ 86821</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Microsoft's 12-week, 26-lesson classical machine learning curriculum focused heavily on hands-on project-based execution using Scikit-learn. It purposely isolates foundational ML patterns—such as regression, clustering, and basic NLP—from deep learning complexities. It is a premier learning journey for developers seeking to deploy robust predictive systems.
+  - **(2023)** [==github.com/microsoft/ML-For-Beginners: Machine Learning for Beginners' - A Curriculum==](https://github.com/microsoft/ML-For-Beginners) <span class='md-tag md-tag--info'>⭐ 86821</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-857c0691" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 7 L 20 13 L 30 12 L 40 5 L 50 3" fill="none" stroke="url(#spark-grad-857c0691)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Microsoft's 12-week, 26-lesson classical machine learning curriculum focused heavily on hands-on project-based execution using Scikit-learn. It purposely isolates foundational ML patterns—such as regression, clustering, and basic NLP—from deep learning complexities. It is a premier learning journey for developers seeking to deploy robust predictive systems.
 ## Artificial Intelligence and LLMs
 
 ### Prompt Engineering
 
-#### Developer Productivity (1)
+#### Developer Productivity
 
-  - **(2024)** [**Awesome NotebookLM Slide Prompts**](https://github.com/serenakeyitan/awesome-notebookLM-prompts) <span class='md-tag md-tag--info'>⭐ 3761</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A master curation of system-level prompt templates specifically optimized for Google NotebookLM. It accelerates complex source material ingestions, contextual extractions, and structured summarizing processes for technical architects. (Live Grounding: Highlights the 2026 intersection of AI workflow orchestration and engineering documentation maintenance).
-## Artificial Intelligence and Machine Learning
-
-### LLM Deployment
-
-#### DeepSeek R1
-
-  - **(2025)** [How to run Deepseek R1 LLMs on GPU Droplets](https://www.digitalocean.com/community/tutorials/deepseek-r1-gpu-droplets) <span class='md-tag md-tag--warning'>[PYTHON/SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A cutting-edge deployment guide illustrating execution profiles of the revolutionary DeepSeek R1 reasoning models inside newly provisioned high-performance DigitalOcean GPU Droplets. Addresses architectural configurations for model weights and CUDA drivers.
+  - **(2024)** [**Awesome NotebookLM Slide Prompts**](https://github.com/serenakeyitan/awesome-notebookLM-prompts) <span class='md-tag md-tag--info'>⭐ 3761</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1f241f0c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 13 L 20 2 L 30 2 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-1f241f0c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A master curation of system-level prompt templates specifically optimized for Google NotebookLM. It accelerates complex source material ingestions, contextual extractions, and structured summarizing processes for technical architects. (Live Grounding: Highlights the 2026 intersection of AI workflow orchestration and engineering documentation maintenance).
 ## CICD Pipelines
 
 ### AI and Automation
@@ -172,19 +266,18 @@
 
 #### Compliance Auditing
 
-  - **(2026)** [AWS Well-Architected IaC Analyzer](https://github.com/aws-samples/well-architected-iac-analyzer) <span class='md-tag md-tag--info'>⭐ 483</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS-backed auditing analyzer designed to inspect CloudFormation and Terraform designs against the AWS Well-Architected standard. Evaluates infrastructure-as-code deployments for security vulnerabilities and reliability issues before runtime provisioning.
+  - **(2026)** [AWS Well-Architected IaC Analyzer](https://github.com/aws-samples/well-architected-iac-analyzer) <span class='md-tag md-tag--info'>⭐ 483</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1f73eea1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 4 L 20 9 L 30 11 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-1f73eea1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS-backed auditing analyzer designed to inspect CloudFormation and Terraform designs against the AWS Well-Architected standard. Evaluates infrastructure-as-code deployments for security vulnerabilities and reliability issues before runtime provisioning.
 ## Cloud Native Operations
 
 ### AI AIOps
 
 #### Kubernetes Troubleshooting
 
-  - **(2025)** [HolmesGPT (Robusta)](https://github.com/HolmesGPT/holmesgpt) <span class='md-tag md-tag--info'>⭐ 2623</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: An AI-driven troubleshooting assistant for Kubernetes clusters by Robusta. Live Grounding: Utilizes LLM agents to autonomously parse Prometheus alerts, collect pod logs, inspect live status, and deliver actionable remediation steps for infrastructure incidents.
+  - **(2025)** [HolmesGPT (Robusta)](https://github.com/HolmesGPT/holmesgpt) <span class='md-tag md-tag--info'>⭐ 2623</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-892577ed" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 5 L 20 6 L 30 13 L 40 13 L 50 5" fill="none" stroke="url(#spark-grad-892577ed)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: An AI-driven troubleshooting assistant for Kubernetes clusters by Robusta. Live Grounding: Utilizes LLM agents to autonomously parse Prometheus alerts, collect pod logs, inspect live status, and deliver actionable remediation steps for infrastructure incidents.
 ### AI-Powered Operations AIOps
 
 #### Kubernetes Troubleshooting (1)
 
-  - **(2023)** [k8sgpt.ai](https://k8sgpt.ai) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An innovative, community-driven tool that integrates LLMs directly with Kubernetes diagnostic commands. By parsing cluster states, configuration anomalies, and system logs, k8sgpt provides clear explanations and automated remediation commands. It is a premier tool in the shift towards AI-powered autonomous operations (AIOps).
   - **(2023)** [collabnix.com: The Rise of Kubernetes and AI – Kubectl OpenAI plugin](https://collabnix.com/the-rise-of-kubernetes-and-ai-kubectl-openai-plugin) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on the Kubectl OpenAI plugin, showing how natural language commands can be compiled directly into active Kubernetes cluster API calls. It simplifies YAML definition generation and debugging workflows, lowering barrier-to-entry. A great case study in operations-focused developer tooling.
 ### Infrastructure as Code (1)
 
@@ -196,26 +289,19 @@
 #### AI Workloads on K8s
 
   - **(2024)** [itnext.io: Deploy Flexible and Custom Setups with Anything LLM on Kubernetes](https://itnext.io/deploy-flexible-and-custom-setups-with-anything-llm-on-kubernetes-a2b5687f2bcc) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the architectural deployment of AnythingLLM on top of a Kubernetes cluster, covering PV provisioning, ingress configurations, and resource limits. Deploying private RAG environments on Kubernetes gives enterprise teams localized, secured multi-user document search. This tutorial bridges raw AI services with cloud-native hosting stability.
-## Cloud Platform
-
-### Enterprise Solutions
-
-#### AI and Infrastructure
-
-  - **(2024)** [**aws.amazon.com/blogs/industries: BMW Group Develops a GenAI Assistant to Accelerate Infrastructure Optimization on AWS**](https://aws.amazon.com/blogs/industries/bmw-group-develops-a-genai-assistant-to-accelerate-infrastructure-optimization-on-aws) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — This case study highlights BMW Group's deployment of a generative AI assistant on AWS designed to automate and optimize cloud infrastructure operations. By synthesizing telemetry data and AWS resource metrics, the assistant accelerates infrastructure diagnostics, reduces operational overhead, and drives cost-efficient resource provisioning. It demonstrates how LLMs can be integrated into enterprise cloud operations (AIOps) to simplify complex architectural decision-making.
 ## Computer Vision
 
 ### Deep Learning Research
 
 #### CVPR
 
-  - **(2023)** [==github.com/SkalskiP/top-cvpr-2023-papers==](https://github.com/SkalskiP/top-cvpr-2023-papers) <span class='md-tag md-tag--info'>⭐ 647</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A curated reference hub detailing top-performing papers and breakthroughs from CVPR 2023. Synthesizes vital engineering advancements across object detection, visual language models, zero-shot segmentation libraries, and advanced neural representations.
+  - **(2023)** [==github.com/SkalskiP/top-cvpr-2023-papers==](https://github.com/SkalskiP/top-cvpr-2023-papers) <span class='md-tag md-tag--info'>⭐ 647</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-5c5a5b99" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 12 L 20 5 L 30 9 L 40 2 L 50 2" fill="none" stroke="url(#spark-grad-5c5a5b99)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A curated reference hub detailing top-performing papers and breakthroughs from CVPR 2023. Synthesizes vital engineering advancements across object detection, visual language models, zero-shot segmentation libraries, and advanced neural representations.
 #### Generative AI
 
-  - **(2023)** [==github.com/XingangPan/DragGAN==](https://github.com/XingangPan/DragGAN) <span class='md-tag md-tag--info'>⭐ 35825</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An interactive GAN-based image manipulation system. Users drag specific control points of an image to dynamically alter object dimensions, poses, and facial structures.
+  - **(2023)** [==github.com/XingangPan/DragGAN==](https://github.com/XingangPan/DragGAN) <span class='md-tag md-tag--info'>⭐ 35825</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-11907d5c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 12 L 20 4 L 30 7 L 40 11 L 50 3" fill="none" stroke="url(#spark-grad-11907d5c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An interactive GAN-based image manipulation system. Users drag specific control points of an image to dynamically alter object dimensions, poses, and facial structures.
 #### ML Notebooks
 
-  - **(2023)** [==github.com/jupyterlab/jupyter-ai==](https://github.com/jupyterlab/jupyter-ai) <span class='md-tag md-tag--info'>⭐ 4272</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An official JupyterLab extension that brings generative AI capabilities to interactive notebooks. It supports inline code synthesis, explanation, and error correction across multiple model APIs.
+  - **(2023)** [==github.com/jupyterlab/jupyter-ai==](https://github.com/jupyterlab/jupyter-ai) <span class='md-tag md-tag--info'>⭐ 4272</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9bc86074" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 10 L 20 4 L 30 8 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-9bc86074)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An official JupyterLab extension that brings generative AI capabilities to interactive notebooks. It supports inline code synthesis, explanation, and error correction across multiple model APIs.
 ## Container Orchestration
 
 ### Azure Kubernetes Service
@@ -232,7 +318,7 @@
   - **(2023)** [Quiz Grader](https://github.com/ned1313/quiz-grader) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight utility engineered to automate the grading and feedback of quizzes and programming assignments. Processes markdown-based inputs to generate structured performance assessments, supporting classroom and self-assessment operations.
 ### Infrastructure as Code (2)
 
-#### AI Integration (1)
+#### AI Integration
 
 ##### Terraform
 
@@ -243,11 +329,7 @@
 
 #### Claude Code
 
-  - **(2025)** [==Claude Code Best Practice==](https://github.com/shanraisshan/claude-code-best-practice) <span class='md-tag md-tag--info'>⭐ 57660</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Curated collection of best practices, system prompts, and architecture layouts for Claude Code. Live Grounding: Explores advanced CLI-driven agent workflows, highlighting configuration optimizations, shell integration strategies, and secure execution configurations in local and remote environments.
-  - **(2025)** [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An official hands-on tutorial and demonstration course by Anthropic showing the real-world utility of Claude Code. It covers basic terminal setups, interactive file refactoring, automated git commit orchestration, and contextual testing loops. Highly valuable for teams integrating terminal-based AI agents directly into daily engineering pipelines.
-#### Cursor IDE
-
-  - **(2025)** [Cursor AI Fundamentals Course](https://cursor.com/es/learn) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An educational program designed to train engineers on utilizing the Cursor AI code editor effectively. The curriculum covers foundational concepts of context inclusion, codebase indexing, and multi-file code transformations. It teaches developers how to write highly optimized prompts to synthesize software architecture and debug legacy systems directly inside the IDE.
+  - **(2025)** [==Claude Code Best Practice==](https://github.com/shanraisshan/claude-code-best-practice) <span class='md-tag md-tag--info'>⭐ 57660</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-26ea52d5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 2 L 20 3 L 30 5 L 40 3 L 50 2" fill="none" stroke="url(#spark-grad-26ea52d5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Curated collection of best practices, system prompts, and architecture layouts for Claude Code. Live Grounding: Explores advanced CLI-driven agent workflows, highlighting configuration optimizations, shell integration strategies, and secure execution configurations in local and remote environments.
 ## Developer Tooling
 
 ### AI Code Assistants
@@ -257,7 +339,7 @@
   - **(2026)** [Cursor Bugbot Effort Levels Documentation](https://cursor.com/docs/bugbot) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This reference document outlines the effort metrics and execution paradigms utilized by Cursor's Bugbot tool inside the editor context. It guides development teams in managing priority levels for automated debugging routines across repositories.
 #### Prompt Templates
 
-  - **(2026)** [==Claude Code Templates==](https://github.com/davila7/claude-code-templates) <span class='md-tag md-tag--info'>⭐ 28036</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Claude Code Templates is an extensive community library containing structured system designs, context guidelines, and prompt schemas optimized for Anthropic's Claude Code and CLI. It helps teams configure context-aware coding agents that integrate smoothly into microservice development cycles.
+  - **(2026)** [==Claude Code Templates==](https://github.com/davila7/claude-code-templates) <span class='md-tag md-tag--info'>⭐ 28036</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-95ae7120" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 2 L 20 11 L 30 13 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-95ae7120)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Claude Code Templates is an extensive community library containing structured system designs, context guidelines, and prompt schemas optimized for Anthropic's Claude Code and CLI. It helps teams configure context-aware coding agents that integrate smoothly into microservice development cycles.
 ## Emerging Technology
 
 ### Machine Learning
@@ -290,29 +372,29 @@
 
 #### AI Optimization
 
-  - **(2024)** [**OpenOps: No-Code FinOps Automation Platform with AI**](https://github.com/openops-cloud/openops) <span class='md-tag md-tag--info'>⭐ 1035</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An open-source, no-code platform utilizing AI to identify and automate cloud cost optimizations. Connects directly with Kubernetes metrics to suggest sizing adjustments and automatically remove unused resources.
+  - **(2024)** [**OpenOps: No-Code FinOps Automation Platform with AI**](https://github.com/openops-cloud/openops) <span class='md-tag md-tag--info'>⭐ 1035</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b1fe04f8" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 11 L 20 8 L 30 2 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-b1fe04f8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An open-source, no-code platform utilizing AI to identify and automate cloud cost optimizations. Connects directly with Kubernetes metrics to suggest sizing adjustments and automatically remove unused resources.
 ### Kubernetes FinOps
 
 #### Automated Optimization
 
   - **(2025)** [==CAST AI==](https://cast.ai) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Introduces CAST AI, an automated cost-reduction system for EKS, AKS, and GKE. Highlights how its real-time algorithms adjust cluster sizing, configure spot instances, and scale down resources without manual developer effort.
-## Infrastructure
+## Infrastructure as Code (3)
 
-### Artificial Intelligence (2)
+### AI Integrations
 
-#### Hardware Acceleration
+#### Validation and Testing
 
-  - **(2025)** [Cerebras AI](https://www.cerebras.ai) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Dedicated AI computer systems utilizing Wafer-Scale Engine (WSE) technology. Delivers unprecedented compute density and memory bandwidth to train large-scale neural networks without the distributed communication overhead of traditional GPU clusters.
+  - **(2024)** [AI Meets Terraform: Prompt Strategies for Test Generation](https://masterpoint.io/blog/ai-meets-tf-prompt-strategies-for-test-generation) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores LLM prompting strategies designed to automatically generate high-quality integration testing assertions for Terraform infrastructure codebases. Outlines systematic framework specifications to minimize manual testing overhead.
 ## Kubernetes and Platform Engineering
 
 ### Platform Engineering Trends
 
-#### AI Integration (2)
+#### AI Integration (1)
 
   - **(2024)** [platformengineering.org: AI is changing the future of platform engineering. Are you ready?](https://platformengineering.org/blog/ai-is-changing-the-future-of-platform-engineering-are-you-ready)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses how generative AI is shifting internal developer platform (IDP) dynamics. Details how AI assistance simplifies configuration management, infrastructure provisioning, and self-service portals for developer teams.
 ## Software Architecture and .NET Development
 
-### Artificial Intelligence (3)
+### Artificial Intelligence (2)
 
 #### Agent Integration
 
@@ -321,7 +403,7 @@
 
 ### AI Tools
 
-#### Developer Productivity (2)
+#### Developer Productivity (1)
 
   - **(2024)** [**Programming with GitHub Copilot Agent Mode**](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/programming-with-github-copilot-agent-mode/4400630) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A deep dive into the engineering capabilities of GitHub Copilot's 'Agent Mode.' It details how the agent acts autonomously to analyze workspace dependencies, generate multi-file modifications, run localized compilations, and iterate on test suites based on natural language prompts.
 ### AI-Assisted Development
@@ -335,9 +417,6 @@
 #### Industry Impact
 
   - **(2023)** [xataka.com: https://www.xataka.com/servicios/copilot-chatgpt-gpt-4-han-cambiado-para-siempre-mundo-programacion-esto-que-opinan-expertos](https://www.xataka.com/servicios/copilot-chatgpt-gpt-4-han-cambiado-para-siempre-mundo-programacion-esto-que-opinan-expertos) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive expert-driven review of how GPT-4 and Copilot have structurally altered the software engineering lifecycle. Evaluates productivity shifts, risks of cognitive offloading, and structural changes in junior developer onboarding processes.
-#### LLM Prompting
-
-  - **(2025)** [Claude 101: Free Guides to Master Claude](https://claude101.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A curated reference hub containing structured tutorials, system prompting templates, and context optimization strategies for leveraging Anthropic's Claude models. Focuses on maximizing the quality of complex reasoning pipelines and architectural code reviews.
 #### Multi-Repository Architecture
 
   - **(2025)** [Using Workspaces for AI Changes Across Multiple Repos](https://ettema.dev/posts/ai-multi-repo-workspaces) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details advanced patterns for orchestrating automated codebase modifications across distributed multi-repository environments using AI workspaces. Evaluates dependency resolution, unified context indexing, and coordinate git-commit strategies during systemic API breaking updates.
@@ -353,20 +432,13 @@
 
 #### Model Context Protocol (2)
 
-  - **(2024)** [==Tabularis: Open Source Desktop Client for Modern Databases with AI and MCP' Integration==](https://github.com/TabularisDB/tabularis/blob/main/README.es.md) <span class='md-tag md-tag--info'>⭐ 2422</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source desktop database client featuring Model Context Protocol (MCP) integrations. This compliance allows local LLMs to safely query, analyze, and update database schemas within strict user security boundaries.
+  - **(2024)** [==Tabularis: Open Source Desktop Client for Modern Databases with AI and MCP' Integration==](https://github.com/TabularisDB/tabularis/blob/main/README.es.md) <span class='md-tag md-tag--info'>⭐ 2422</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6df57ab1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 5 L 20 2 L 30 12 L 40 13 L 50 2" fill="none" stroke="url(#spark-grad-6df57ab1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source desktop database client featuring Model Context Protocol (MCP) integrations. This compliance allows local LLMs to safely query, analyze, and update database schemas within strict user security boundaries.
 ### Professional Development
 
 #### Core Architectures
 
-  - **(2025)** [==Skills for Real Engineers==](https://github.com/mattpocock/skills) <span class='md-tag md-tag--info'>⭐ 128202</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exceptionally popular repository detailing the foundational principles, design philosophies, and architectural protocols required for master-level software delivery. While the curator focuses on career advancement, live engineering practice indicates that mastering these fundamentals is vital to surviving rapid AI development shifts. It represents an elite reference for engineering standardizations.
-## Specialized AI Applications
-
-### Healthcare Systems
-
-#### Voice Assistants
-
-  - **(2025)** [Microsoft Dragon Copilot: Unified Voice AI Assistant for Healthcare](https://news.microsoft.com/source/2025/03/03/microsoft-dragon-copilot-provides-the-healthcare-industrys-first-unified-voice-ai-assistant-that-enables-clinicians-to-streamline-clinical-documentation-surface-information-and-automate-task)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines Microsoft's Dragon Copilot, the healthcare industry's first unified voice AI assistant. It streamlines clinical documentation, automates repetitive administrative tasks, and securely surfaces critical patient records within strict HIPAA compliance parameters.
+  - **(2025)** [==Skills for Real Engineers==](https://github.com/mattpocock/skills) <span class='md-tag md-tag--info'>⭐ 128202</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1ae169fb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 9 L 20 4 L 30 5 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-1ae169fb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exceptionally popular repository detailing the foundational principles, design philosophies, and architectural protocols required for master-level software delivery. While the curator focuses on career advancement, live engineering practice indicates that mastering these fundamentals is vital to surviving rapid AI development shifts. It represents an elite reference for engineering standardizations.
 
 ---
-💡 **Explore Related:** [AI Agents MCP](./ai-agents-mcp.md) | [MLOps](./mlops.md) | [ChatGPT](./chatgpt.md)
+💡 **Explore Related:** [ChatGPT](./chatgpt.md) | [AI Agents MCP](./ai-agents-mcp.md) | [MLOps](./mlops.md)
 

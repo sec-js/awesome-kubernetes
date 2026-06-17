@@ -183,3 +183,34 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+// Lazy Loading Video Playback Integration
+document.addEventListener("DOMContentLoaded", function() {
+    const lazyContainers = document.querySelectorAll(".video-lazy-container");
+    lazyContainers.forEach(container => {
+        container.addEventListener("click", function() {
+            const videoUrl = this.getAttribute("data-video-url");
+            const videoId = this.getAttribute("data-video-id");
+            if (!videoUrl || !videoId) return;
+            
+            const iframe = document.createElement("iframe");
+            iframe.setAttribute("width", "720");
+            iframe.setAttribute("height", "405");
+            const autoplayUrl = videoUrl.includes("?") ? `${videoUrl}&autoplay=1` : `${videoUrl}?autoplay=1`;
+            iframe.setAttribute("src", autoplayUrl);
+            iframe.setAttribute("title", "YouTube Video");
+            iframe.setAttribute("frameborder", "0");
+            iframe.setAttribute("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
+            iframe.setAttribute("allowfullscreen", "true");
+            iframe.style.border = "none";
+            iframe.style.width = "100%";
+            iframe.style.height = "100%";
+            iframe.style.borderRadius = "8px";
+            
+            this.innerHTML = "";
+            this.appendChild(iframe);
+            this.style.cursor = "default";
+        });
+    });
+});
+

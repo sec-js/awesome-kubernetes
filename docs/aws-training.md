@@ -40,7 +40,7 @@
 ## Closed groups for AWS certified professionals
 
 - [awscerts.slack.com](https://awscerts.slack.com)
-- [Amazon AWS Certification Preparation Tips](http://walkintocloud.com/index.php/2016/06/04/amazon-aws-certification-preparation-tips)
+- [Amazon AWS Certification Preparation Tips](https://walkintocloud.com/index.php/2016/06/04/amazon-aws-certification-preparation-tips)
 - [A curated list of AWS resources to prepare for the AWS Certifications](https://gist.github.com/leonardofed)
 - [AWS Certified Solutions Architect Professional – Study Guide](https://blue-clouds.com/category/study-guide)
 - [aws.amazon.com: First AWS Certification Study Guide Now Available](https://aws.amazon.com/es/about-aws/whats-new/2016/10/first-aws-certification-study-guide-now-available)

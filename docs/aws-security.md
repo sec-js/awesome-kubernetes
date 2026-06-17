@@ -20,22 +20,22 @@
 
 ## Introduction
 
-- [AWS Security Blog](http://blogs.aws.amazon.com/security)
+- [AWS Security Blog](https://blogs.aws.amazon.com/security)
 - [AWS Security](https://aws.amazon.com/security)
 - [AWS Security docs](https://docs.aws.amazon.com/security)
-- [Tutorial: Configure Apache Web Server on Amazon Linux to use SSL/TLS](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/SSL-on-an-instance.html)
-- [The Most Popular AWS Security Blog Posts in 2015](http://blogs.aws.amazon.com/security/post/Tx4QX7W51NDSLO/The-Most-Popular-AWS-Security-Blog-Posts-in-2015)
-- [Amazon’s customer service backdoor](https://medium.com/@espringe/amazon-s-customer-service-backdoor-be375b3428c4#.qyixu5mu3)
-- [Announcing Industry Best Practices for Securing AWS Resources](http://blogs.aws.amazon.com/security/post/Tx3PTTZB14FWPBA/Announcing-Industry-Best-Practices-for-Securing-AWS-Resources)
-- [The Most Viewed AWS Security Blog Posts so Far in 2016](http://blogs.aws.amazon.com/security/post/Tx2N52FR8XGJVL3/The-Most-Viewed-AWS-Security-Blog-Posts-so-Far-in-2016)
+- [Tutorial: Configure Apache Web Server on Amazon Linux to use SSL/TLS](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/SSL-on-an-instance.html)
+- [The Most Popular AWS Security Blog Posts in 2015](https://blogs.aws.amazon.com/security/post/Tx4QX7W51NDSLO/The-Most-Popular-AWS-Security-Blog-Posts-in-2015)
+- [Amazon’s customer service backdoor](https://medium.com/@espringe/amazon-s-customer-service-backdoor-be375b3428c4)
+- [Announcing Industry Best Practices for Securing AWS Resources](https://blogs.aws.amazon.com/security/post/Tx3PTTZB14FWPBA/Announcing-Industry-Best-Practices-for-Securing-AWS-Resources)
+- [The Most Viewed AWS Security Blog Posts so Far in 2016](https://blogs.aws.amazon.com/security/post/Tx2N52FR8XGJVL3/The-Most-Viewed-AWS-Security-Blog-Posts-so-Far-in-2016)
 - [Oracle Database Encryption Options on Amazon RDS](https://aws.amazon.com/es/blogs/apn/oracle-database-encryption-options-on-amazon-rds)
 - [Learn AWS Security Fundamentals with Free and Online Training](https://aws.amazon.com/about-aws/whats-new/2016/06/learn-aws-security-fundamentals-with-free-and-online-training)
-- [How to Restrict Amazon S3 Bucket Access to a Specific IAM Role](http://blogs.aws.amazon.com/security/post/TxK5WUJK3DG9G8/How-to-Restrict-Amazon-S3-Bucket-Access-to-a-Specific-IAM-Role)
-- [Updated Whitepaper Available: AWS Best Practices for DDoS Resiliency](http://blogs.aws.amazon.com/security/post/Tx6QAIBSQTJPHB/Updated-Whitepaper-Available-AWS-Best-Practices-for-DDoS-Resiliency)
-- [AWS Security Blog: In Case You Missed These: AWS Security Blog Posts from June, July, and August 2016](http://blogs.aws.amazon.com/security/post/Tx3KVD6T490MM47/In-Case-You-Missed-These-AWS-Security-Blog-Posts-from-June-July-and-August)
+- [How to Restrict Amazon S3 Bucket Access to a Specific IAM Role](https://blogs.aws.amazon.com/security/post/TxK5WUJK3DG9G8/How-to-Restrict-Amazon-S3-Bucket-Access-to-a-Specific-IAM-Role)
+- [Updated Whitepaper Available: AWS Best Practices for DDoS Resiliency](https://blogs.aws.amazon.com/security/post/Tx6QAIBSQTJPHB/Updated-Whitepaper-Available-AWS-Best-Practices-for-DDoS-Resiliency)
+- [AWS Security Blog: In Case You Missed These: AWS Security Blog Posts from June, July, and August 2016](https://blogs.aws.amazon.com/security/post/Tx3KVD6T490MM47/In-Case-You-Missed-These-AWS-Security-Blog-Posts-from-June-July-and-August)
 - [Amazon Inspector Announces General Availability for Windows](https://aws.amazon.com/es/about-aws/whats-new/2016/08/amazon-inspector-announces-general-availability-for-windows)
 - [encrypt and decrypt data: Importing Key Material in AWS Key Management Service (AWS KMS)](https://docs.aws.amazon.com/kms/latest/developerguide/importing-keys.html) Use your own encryption keys with AWS Key Management Service.
-- [Amazon s2n: AWS’s new Open Source implementation of the SSL/TLS network encryption protocols](http://blogs.aws.amazon.com/security/post/TxLEHNNDPUFDU9/Automated-Reasoning-and-Amazon-s2n)
+- [Amazon s2n: AWS’s new Open Source implementation of the SSL/TLS network encryption protocols](https://blogs.aws.amazon.com/security/post/TxLEHNNDPUFDU9/Automated-Reasoning-and-Amazon-s2n)
 - [Encrypt global data client-side with AWS KMS multi-Region keys](https://aws.amazon.com/blogs/security/encrypt-global-data-client-side-with-aws-kms-multi-region-keys) Today, AWS Key Management Service (AWS KMS) is introducing multi-Region keys, a new capability that lets you replicate keys from one Amazon Web Services (AWS) Region into another. Multi-Region keys are designed to simplify management of client-side encryption when your encrypted data has to be copied into other Regions for disaster recovery or is replicated in Amazon DynamoDB global tables.
 - [dzone: Removing the Bastion Host and Improving the Security in AWS](https://dzone.com/articles/removing-the-bastion-host-and-improving-the-securi) This article covers the security in AWS and overcoming the classic SSH/RDP jump with a better alternative for all OS.
 - [acloudguru.com: How to audit and secure an AWS account](https://www.pluralsight.com/resources/blog/cloud/how-to-audit-and-secure-an-aws-account)
@@ -81,10 +81,10 @@
   - [Deploying to Azure: Secure Your GitHub Workflow with OIDC](https://thomasthornton.cloud/deploying-to-azure-secure-your-github-workflow-with-oidc) - *(Related to cicd topic)*
   - [Avoiding Mistakes with AWS OIDC Integration Conditions](https://www.wiz.io/blog/avoiding-mistakes-with-aws-oidc-integration-conditions) 🌟 - This blog post discusses common security misconfigurations when integrating third-party SaaS solutions with AWS accounts using OpenID Connect (OIDC). It highlights the importance of specific conditions in AWS IAM trust policies, particularly the 'sub' condition, to prevent unauthorized access. The article uses GitHub Actions as a concrete example, explaining how a missing 'sub' condition could allow any GitHub user to assume an IAM role, and provides an example of a correctly configured trust policy.
 
-- [AWS Identity and Access Management - Getting Started](http://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started.html)
-- [AWS Identity and Access Management (IAM) best practices in 2016](http://blogs.aws.amazon.com/security/post/Tx2OB7YGHMB7WCM/Adhere-to-IAM-Best-Practices-in-2016)
-- [How to Record and Govern Your IAM Resource Configurations Using AWS Config](http://blogs.aws.amazon.com/security/post/Tx14ADBJOCAT9NS/How-to-Record-and-Govern-Your-IAM-Resource-Configurations-Using-AWS-Config)
-- [How to Use SAML to Automatically Direct Federated Users to a Specific AWS Management Console Page](http://blogs.aws.amazon.com/security/post/Tx2CGWIB8SBYW2J/How-to-Use-SAML-to-Automatically-Direct-Federated-Users-to-a-Specific-AWS-Manage)
+- [AWS Identity and Access Management - Getting Started](https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started.html)
+- [AWS Identity and Access Management (IAM) best practices in 2016](https://blogs.aws.amazon.com/security/post/Tx2OB7YGHMB7WCM/Adhere-to-IAM-Best-Practices-in-2016)
+- [How to Record and Govern Your IAM Resource Configurations Using AWS Config](https://blogs.aws.amazon.com/security/post/Tx14ADBJOCAT9NS/How-to-Record-and-Govern-Your-IAM-Resource-Configurations-Using-AWS-Config)
+- [How to Use SAML to Automatically Direct Federated Users to a Specific AWS Management Console Page](https://blogs.aws.amazon.com/security/post/Tx2CGWIB8SBYW2J/How-to-Use-SAML-to-Automatically-Direct-Federated-Users-to-a-Specific-AWS-Manage)
 - [New IAMCTL tool compares multiple IAM roles and policies](https://aws.amazon.com/es/blogs/security/new-iamctl-tool-compares-multiple-iam-roles-and-policies)
 - [Bring your own CLI to Session Manager with configurable shell profiles](https://aws.amazon.com/es/blogs/mt/bring-your-own-cli-session-manager-configurable-shell-profiles)
 - [keepler.io: Gestionando el control de accesos en nuestro data lake en AWS](https://keepler.io/es/2021/03/15/gestionando-el-control-de-accesos-en-nuestro-data-lake-en-aws)
@@ -143,9 +143,9 @@
 ## AWS WAF Web Application Firewall
 
 - [AWS WAF - Web Application Firewall](https://aws.amazon.com/waf)
-- [How to Automatically Update Your Security Groups for Amazon CloudFront and AWS WAF by Using AWS Lambda (boto3 python)](http://blogs.aws.amazon.com/security/post/Tx1LPI2H6Q6S5KC/How-to-Automatically-Update-Your-Security-Groups-for-Amazon-CloudFront-and-AWS-W)
-- [How to Use AWS WAF to Block IP Addresses That Generate Bad Requests](http://blogs.aws.amazon.com/security/post/Tx223ZW25YRPRKV/How-to-Use-AWS-WAF-to-Block-IP-Addresses-That-Generate-Bad-Requests)
-- [How to Reduce Security Threats and Operating Costs Using AWS WAF and Amazon CloudFront](http://blogs.aws.amazon.com/security/post/Tx1G747SE1R2ZWE/How-to-Reduce-Security-Threats-and-Operating-Costs-Using-AWS-WAF-and-Amazon-Clou)
+- [How to Automatically Update Your Security Groups for Amazon CloudFront and AWS WAF by Using AWS Lambda (boto3 python)](https://blogs.aws.amazon.com/security/post/Tx1LPI2H6Q6S5KC/How-to-Automatically-Update-Your-Security-Groups-for-Amazon-CloudFront-and-AWS-W)
+- [How to Use AWS WAF to Block IP Addresses That Generate Bad Requests](https://blogs.aws.amazon.com/security/post/Tx223ZW25YRPRKV/How-to-Use-AWS-WAF-to-Block-IP-Addresses-That-Generate-Bad-Requests)
+- [How to Reduce Security Threats and Operating Costs Using AWS WAF and Amazon CloudFront](https://blogs.aws.amazon.com/security/post/Tx1G747SE1R2ZWE/How-to-Reduce-Security-Threats-and-Operating-Costs-Using-AWS-WAF-and-Amazon-Clou)
 - [AWS WAF sample rules](https://github.com/amazon-archives/aws-waf-sample)
 - [medium: Blocking bots using AWS WAF](https://medium.com/cloud-techies/blocking-bots-using-aws-waf-d449e6d159ca)
 - [medium: Protecting your Web Application or APIs using AWS WAF](https://medium.com/avmconsulting-blog/protecting-your-web-application-or-apis-using-aws-waf-1829ff79275a)

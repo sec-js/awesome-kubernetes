@@ -1,4 +1,4 @@
-# Maven, Gradle & SDKMAN
+# Maven, Gradle and SDKMAN
 
 1. [Apache Maven](#apache-maven)
     1. [Scaffolding a project with Maven (maven archetype)](#scaffolding-a-project-with-maven-maven-archetype)
@@ -44,10 +44,10 @@
 ### Scaffolding a project with Maven (maven archetype)
 
 - [vogella.com: Maven for Building Java application - Tutorial](https://www.vogella.com/tutorials/ApacheMaven/article.html)
-- [maven.apache.org: Introduction to the Standard Directory Layout](http://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html)
-- [Handwritten Maven archetype project scaffolding](http://www.programmersought.com/article/1858176023)
+- [maven.apache.org: Introduction to the Standard Directory Layout](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html)
+- [Handwritten Maven archetype project scaffolding](https://www.programmersought.com/article/1858176023)
 - [programmer.ink: Maven scaffolding best practices](https://programmer.ink/think/maven-scaffolding-best-practices.html)
-- [Create the scaffolding for your microservice](http://fuse.labs.osecloud.com/fuse/creating-a-microservices-project-with-maven) We will use an existing maven archetype that assembles a CDI-based Camel java project that we will then alter to implement the service.
+- [Create the scaffolding for your microservice](https://fuse.labs.osecloud.com/fuse/creating-a-microservices-project-with-maven) We will use an existing maven archetype that assembles a CDI-based Camel java project that we will then alter to implement the service.
 
 ### Maven Tests
 
@@ -109,7 +109,7 @@ jar tf target/example-1.0.0-SNAPSHOT.jar
 
 - [developers.redhat.com: How the fabric8 Maven plug-in deploys Java applications to OpenShift](https://developers.redhat.com/blog/2020/06/02/how-the-fabric8-maven-plug-in-deploys-java-applications-to-openshift)
 
-## Eclipse JKube (formerly known as Fabric8 Maven Plugin) - Kubernetes & OpenShift Maven and Gradle Plugins
+## Eclipse JKube (formerly known as Fabric8 Maven Plugin) - Kubernetes and OpenShift Maven and Gradle Plugins
 
 - [Eclipse JKube 🌟](https://eclipse.dev/jkube) Cloud-Native Java Applications without a hassle. Eclipse JKube is a collection of plugins and libraries that are used for building container images using Docker, JIB or S2I build strategies. Eclipse JKube generates and deploys Kubernetes/OpenShift manifests at compile time too. It brings your Java applications on to Kubernetes and OpenShift by leveraging the tasks required to make your application cloud-native. Eclipse JKube also provides a set of tools such as watch, debug, log, etc. to improve your developer experience.
 - [GitHub: Eclipse JKube](https://github.com/eclipse-jkube/jkube)

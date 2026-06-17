@@ -3,6 +3,28 @@
 !!! info "Architectural Context"
     Detailed reference for Keptn. Data Driven DevOps Automation with Ketpn. Automating Service Level Indicators/Service Level Objectives based build validation with Keptn and Jenkins in the context of Engineering Pipeline.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Native Lifecycle](#cloud-native-lifecycle)
+  - [CICD Pipelines](#cicd-pipelines)
+    - [Community Meetups](#community-meetups)
+    - [Jenkins Integration](#jenkins-integration)
+    - [Video Guides](#video-guides)
+  - [Continuous Delivery](#continuous-delivery)
+    - [Enterprise Observability](#enterprise-observability)
+    - [Guides](#guides)
+    - [Site Reliability Engineering](#site-reliability-engineering)
+  - [Local Environments](#local-environments)
+    - [Video Guides](#video-guides-1)
+  - [Site Reliability Engineering](#site-reliability-engineering-1)
+    - [Monitoring Automation](#monitoring-automation)
+1. [Observability](#observability)
+  - [Application Performance Monitoring](#application-performance-monitoring)
+    - [Guides](#guides-1)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -21,7 +43,7 @@
   - **(2020)** [Jenkins Online Meetup](https://www.meetup.com/jenkins-online-meetup/events/270861119)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Community recording detailing real-world workflows for integrating Jenkins-centric deployment systems with Keptn's automated SRE-driven quality evaluation gates.
 #### Jenkins Integration
 
-  - **(2022)** [Keptn Jenkins Shared Library](https://github.com/keptn-sandbox/keptn-jenkins-library) <span class='md-tag md-tag--info'>⭐ 8</span> <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A pipeline-as-code integration allowing Jenkins jobs to dispatch Keptn-driven operations such as performance testing, quality gate validation, and continuous remediation, combining classic CI with modern orchestrators.
+  - **(2022)** [Keptn Jenkins Shared Library](https://github.com/keptn-sandbox/keptn-jenkins-library) <span class='md-tag md-tag--info'>⭐ 8</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f483ffd5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 2 L 20 4 L 30 3 L 40 7 L 50 4" fill="none" stroke="url(#spark-grad-f483ffd5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A pipeline-as-code integration allowing Jenkins jobs to dispatch Keptn-driven operations such as performance testing, quality gate validation, and continuous remediation, combining classic CI with modern orchestrators.
 #### Video Guides
 
   - **(2020)** [youtube: Level-Up your Jenkins-based Delivery with Keptn](https://www.youtube.com/watch?v=VYRdirdjOAg)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Visual walk-through demonstrating how Keptn decouples delivery orchestrations from Jenkinsfiles. Shows how to configure service quality gates using declarative SLIs/SLOs to automatically rollback failing pipelines.
@@ -55,5 +77,5 @@
   - **(2021)** [dynatrace-perfclinics.github.io: Why Devs Love Dynatrace 🌟](https://dynatrace-perfclinics.github.io/codelabs/why-devs-love-dynatrace-2/index.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Technical codelab demonstrating how developers leverage Dynatrace APM to identify code-level bottlenecks, analyze database performance, and utilize auto-remediation loops within automated delivery pipelines.
 
 ---
-💡 **Explore Related:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md) | [Flux](./flux.md)
+💡 **Explore Related:** [Jenkins](./jenkins.md) | [Sonarqube](./sonarqube.md) | [Stackstorm](./stackstorm.md)
 

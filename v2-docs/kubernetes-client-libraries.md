@@ -3,6 +3,54 @@
 !!! info "Architectural Context"
     Detailed reference for Client Libraries for Kubernetes in the context of The Container Stack.
 
+## Table of Contents
+
+1. [App Development](#app-development)
+  - [Java](#java)
+    - [Kubernetes Clients](#kubernetes-clients)
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Native and K8s](#cloud-native-and-k8s)
+  - [CLI Development](#cli-development)
+    - [Go and Cobra](#go-and-cobra)
+  - [Controller Runtime](#controller-runtime)
+    - [Rate Limiting](#rate-limiting)
+  - [Kubernetes API](#kubernetes-api)
+    - [Code Generators](#code-generators)
+    - [Fabric8 Client Releases](#fabric8-client-releases)
+    - [Go Client](#go-client)
+    - [Go Client Documentation](#go-client-documentation)
+    - [Java Client](#java-client)
+    - [Java Clients](#java-clients)
+    - [Official SDKs](#official-sdks)
+    - [Python Automation](#python-automation)
+    - [Python Client](#python-client)
+    - [Ruby Client](#ruby-client)
+1. [Cloud-Native Java](#cloud-native-java)
+  - [Build Tools](#build-tools)
+    - [Eclipse JKube](#eclipse-jkube)
+      - [Migration](#migration)
+      - [Quarkus Integration](#quarkus-integration)
+      - [Release Announcement](#release-announcement)
+      - [Source Code](#source-code)
+1. [Cloud-Native Provisioning](#cloud-native-provisioning)
+  - [Infrastructure as Code](#infrastructure-as-code)
+    - [CDK for Kubernetes](#cdk-for-kubernetes)
+1. [Configuration](#configuration)
+  - [CDK and DSLs](#cdk-and-dsls)
+    - [CDK8s](#cdk8s)
+1. [Kubernetes Development](#kubernetes-development)
+  - [Code Generation](#code-generation)
+    - [Fabric8 CRD](#fabric8-crd)
+  - [Java SDKs](#java-sdks)
+    - [Fabric8 API](#fabric8-api)
+    - [Fabric8 Client](#fabric8-client)
+    - [Operators](#operators)
+    - [Quarkus Integration](#quarkus-integration-1)
+  - [Java Tooling](#java-tooling)
+    - [Eclipse JKube](#eclipse-jkube-1)
+
 ## App Development
 
 ### Java
@@ -17,6 +65,7 @@
 
 #### General Reference
 
+  - [Part 4 — Using the Go client framework](https://medium.com/programming-kubernetes/building-stuff-with-the-kubernetes-api-part-4-using-go-b1d0e3c1c899)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Part 4 — Using the Go client framework in the Kubernetes Tools ecosystem.
   - [medium: Building stuff with the Kubernetes API — TOC 🌟](https://medium.com/programming-kubernetes/building-stuff-with-the-kubernetes-api-toc-84d751876650)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Building stuff with the Kubernetes API — TOC 🌟 in the Kubernetes Tools ecosystem.
   - [blog.devgenius.io: Learn Kubernetes Programming — Part 1](https://blog.devgenius.io/learn-kubernetes-programming-part-1-7384e5f3c481)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.devgenius.io: Learn Kubernetes Programming — Part 1 in the Kubernetes Tools ecosystem.
   - [medium.com/@dimitrijevskiv: Monitor Kubernetes pod status from a Jenkins' pipeline](https://medium.com/@dimitrijevskiv/monitor-kubernetes-pod-status-from-a-jenkins-pipeline-e25c744d944d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==medium.com/@dimitrijevskiv: Monitor Kubernetes pod status from a Jenkins' pipeline== in the Kubernetes Tools ecosystem.
@@ -25,7 +74,6 @@
   - [levelup.gitconnected.com: First Try on Java Operator SDK](https://levelup.gitconnected.com/first-try-on-java-operator-sdk-5a07f30771de)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==levelup.gitconnected.com: First Try on Java Operator SDK== in the Kubernetes Tools ecosystem.
   - [qdnqn.com: Kubernetes objects from Go to YAML using Cdk8s](https://qdnqn.com/create-kubernetes-yaml-definitions-using-go-and-cdk8s)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering qdnqn.com: Kubernetes objects from Go to YAML using Cdk8s in the Kubernetes Tools ecosystem.
   - [developers.redhat.com: How to manage microservices using OpenShift Dev Spaces' and JKube](https://developers.redhat.com/developer-sandbox/activities/how-to-manage-microservices-using-openshift-dev-spaces-and-jkube)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering developers.redhat.com: How to manage microservices using OpenShift Dev Spaces' and JKube in the Kubernetes Tools ecosystem.
-  - [Part 4 — Using the Go client framework](https://medium.com/programming-kubernetes/building-stuff-with-the-kubernetes-api-part-4-using-go-b1d0e3c1c899)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Part 4 — Using the Go client framework in the Kubernetes Tools ecosystem.
 ## Cloud Native and K8s
 
 ### CLI Development
@@ -43,20 +91,20 @@
 
 #### Code Generators
 
-  - **(2024)** [==kyaml2go (Pronounced as camel2go 🐫) 🌟==](https://github.com/PrasadG193/kyaml2go) <span class='md-tag md-tag--info'>⭐ 283</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A code generator that converts static Kubernetes YAML configurations into functional client-go API syntax. Highly valuable for operator developers seeking to minimize manual client-go boilerplate code.
+  - **(2024)** [==kyaml2go (Pronounced as camel2go 🐫) 🌟==](https://github.com/PrasadG193/kyaml2go) <span class='md-tag md-tag--info'>⭐ 283</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-237a10ce" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 11 L 20 8 L 30 3 L 40 4 L 50 12" fill="none" stroke="url(#spark-grad-237a10ce)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A code generator that converts static Kubernetes YAML configurations into functional client-go API syntax. Highly valuable for operator developers seeking to minimize manual client-go boilerplate code.
 #### Fabric8 Client Releases
 
   - **(2020)** [developers.redhat.com: What’s new in Fabric8 Kubernetes Java client 4.12.0](https://developers.redhat.com/blog/2020/10/30/whats-new-in-fabric8-kubernetes-java-client-4-12-0) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Summarizes the architectural updates introduced in Fabric8 version 4.12.0. Focuses on performance improvements, watcher stability, dynamic CRD typing, and updated HTTP driver structures.
 #### Go Client
 
-  - **(2026)** [==kubernetes/client-go: Go client for Kubernetes 🌟==](https://github.com/kubernetes/client-go) <span class='md-tag md-tag--info'>⭐ 9837</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official Go SDK for managing Kubernetes clusters. It features critical API client mechanics like Informers, Lister-Watchers, work queues, and rate-limiting structures to build high-performance production controllers.
-  - **(2025)** [==kubernetes-client/go: OpenAPI based Generated Go client for Kubernetes==](https://github.com/kubernetes-client/go) <span class='md-tag md-tag--info'>⭐ 239</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An alternative OpenAPI-generated Go client for Kubernetes APIs. Best utilized for lightweight API interactions and custom code-generation environments requiring strict OpenAPI schema structures.
+  - **(2026)** [==kubernetes/client-go: Go client for Kubernetes 🌟==](https://github.com/kubernetes/client-go) <span class='md-tag md-tag--info'>⭐ 9837</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-fe817331" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 2 L 20 9 L 30 13 L 40 4 L 50 3" fill="none" stroke="url(#spark-grad-fe817331)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official Go SDK for managing Kubernetes clusters. It features critical API client mechanics like Informers, Lister-Watchers, work queues, and rate-limiting structures to build high-performance production controllers.
+  - **(2025)** [==kubernetes-client/go: OpenAPI based Generated Go client for Kubernetes==](https://github.com/kubernetes-client/go) <span class='md-tag md-tag--info'>⭐ 239</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-949a08af" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 5 L 20 5 L 30 6 L 40 10 L 50 13" fill="none" stroke="url(#spark-grad-949a08af)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An alternative OpenAPI-generated Go client for Kubernetes APIs. Best utilized for lightweight API interactions and custom code-generation environments requiring strict OpenAPI schema structures.
 #### Go Client Documentation
 
   - **(2026)** [pkg.go.dev/k8s.io/client-go](https://pkg.go.dev/k8s.io/client-go) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official API documentation hub for client-go, detailing method designs, resource structs, client authentication configurations, and context-aware request flows.
 #### Java Client
 
-  - **(2026)** [==github.com/kubernetes-client/java: Kubernetes Java Client==](https://github.com/kubernetes-client/java) <span class='md-tag md-tag--info'>⭐ 3984</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official OpenAPI-generated Java library for the Kubernetes API. Provides enterprise Java platforms with type-safe classes, informers, and watcher APIs to build robust, native controllers.
+  - **(2026)** [==github.com/kubernetes-client/java: Kubernetes Java Client==](https://github.com/kubernetes-client/java) <span class='md-tag md-tag--info'>⭐ 3984</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b5223de2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 7 L 20 5 L 30 10 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-b5223de2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official OpenAPI-generated Java library for the Kubernetes API. Provides enterprise Java platforms with type-safe classes, informers, and watcher APIs to build robust, native controllers.
 #### Java Clients
 
   - **(2023)** [itnext.io: Difference between Fabric8 and Official Kubernetes Java Client 🌟](https://itnext.io/difference-between-fabric8-and-official-kubernetes-java-client-3e0a994fd4af) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed comparison of Red Hat's Fabric8 Java client and the official Kubernetes Java library. Analyzes builder patterns, memory consumption, OpenShift support, and dependency isolation.
@@ -68,20 +116,17 @@
   - **(2023)** [martinheinz.dev/blog/73: Automate All the Boring Kubernetes Operations with Python 🌟](https://martinheinz.dev/blog/73) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A hands-on Python automation guide. Details script designs to manage pods, clean configurations, and handle secrets in cloud-native environments, removing manual operational bottlenecks.
 #### Python Client
 
-  - **(2026)** [==github.com/kubernetes-client/python==](https://github.com/kubernetes-client/python) <span class='md-tag md-tag--info'>⭐ 7594</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official Python SDK for interacting with Kubernetes API environments. Heavily leveraged across AI workflows, automation routines, and data operations needing native cluster integration.
-  - **(2025)** [==github.com/kubernetes-client/python-base==](https://github.com/kubernetes-client/python-base) <span class='md-tag md-tag--info'>⭐ 69</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The foundational base configurations package supporting the official Kubernetes Python Client library. Standardizes raw REST connection handling and secure authentication exchanges.
+  - **(2026)** [==github.com/kubernetes-client/python==](https://github.com/kubernetes-client/python) <span class='md-tag md-tag--info'>⭐ 7594</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-4e6ff604" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 12 L 20 2 L 30 11 L 40 4 L 50 3" fill="none" stroke="url(#spark-grad-4e6ff604)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official Python SDK for interacting with Kubernetes API environments. Heavily leveraged across AI workflows, automation routines, and data operations needing native cluster integration.
+  - **(2025)** [==github.com/kubernetes-client/python-base==](https://github.com/kubernetes-client/python-base) <span class='md-tag md-tag--info'>⭐ 69</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b93c706e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 12 L 20 2 L 30 4 L 40 6 L 50 2" fill="none" stroke="url(#spark-grad-b93c706e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The foundational base configurations package supporting the official Kubernetes Python Client library. Standardizes raw REST connection handling and secure authentication exchanges.
 #### Ruby Client
 
-  - **(2025)** [==k8s-ruby: Kubernetes Ruby Client==](https://github.com/k8s-ruby/k8s-ruby) <span class='md-tag md-tag--info'>⭐ 75</span> <span class='md-tag md-tag--warning'>[RUBY CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An alternative Ruby client library for native Kubernetes API execution. Integrates intuitive REST interfaces and dynamic resource creation patterns for developers running Ruby-based clusters.
+  - **(2025)** [==k8s-ruby: Kubernetes Ruby Client==](https://github.com/k8s-ruby/k8s-ruby) <span class='md-tag md-tag--info'>⭐ 75</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-bd4e7512" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 6 L 20 6 L 30 8 L 40 13 L 50 11" fill="none" stroke="url(#spark-grad-bd4e7512)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[RUBY CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An alternative Ruby client library for native Kubernetes API execution. Integrates intuitive REST interfaces and dynamic resource creation patterns for developers running Ruby-based clusters.
 ## Cloud-Native Java
 
 ### Build Tools
 
 #### Eclipse JKube
 
-##### Developer Workflow
-
-  - **(2020)** [developers.redhat.com: Java development on top of Kubernetes using Eclipse JKube](https://developers.redhat.com/blog/2020/08/24/java-development-on-top-of-kubernetes-using-eclipse-jkube) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This article demonstrates outer-loop developer workflows utilizing Eclipse JKube to deploy Java applications straight to running Kubernetes clusters. Live Grounding illustrates how JKube's design empowers local development cycles by bypassing manual YAML writing, instead building and pushing directly via standard IDE integrations and build loops.
 ##### Migration
 
   - **(2020)** [**eclipse.org: Migration Guide for projects using Fabric8 Maven Plugin to Eclipse JKube 🌟**](https://eclipse.dev/jkube/docs/migration-guide) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — The official Eclipse foundation migration documentation for moving from Fabric8 to JKube. Live Grounding confirms this is the authoritative reference for modifying existing POM.xml profiles, aligning configuration namespaces, and preserving legacy custom templates under the new JKube APIs.
@@ -94,7 +139,7 @@
   - **(2020)** [developers.redhat.com: Cloud-native Java applications made easy: Eclipse JKube 1.0.0 now available](https://developers.redhat.com/blog/2020/09/09/cloud-native-java-applications-made-easy-eclipse-jkube-1-0-0-now-available) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official Red Hat release announcement for Eclipse JKube 1.0.0, highlighting its framework-detection features for Quarkus, Spring Boot, and WildFly. Live Grounding shows that this release established configuration-free Kubernetes containerization for Java, moving the ecosystem toward hands-off cluster-native builds. It proved the viability of auto-detecting Java web framework archetypes.
 ##### Source Code
 
-  - **(2020)** [**GitHub: Eclipse JKube**](https://github.com/eclipse-jkube/jkube) <span class='md-tag md-tag--info'>⭐ 849</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The active GitHub repository for Eclipse JKube, housing Maven/Gradle plugins, extensions, and core libraries. Live Grounding indicates robust ongoing community support, enabling local resource generation, deployment, and hot-swapping inside active clusters. The project is crucial for bridging the gap between standard Java compilation and Kubernetes runtimes.
+  - **(2020)** [**GitHub: Eclipse JKube**](https://github.com/eclipse-jkube/jkube) <span class='md-tag md-tag--info'>⭐ 849</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2dc7ec48" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 13 L 20 4 L 30 5 L 40 12 L 50 6" fill="none" stroke="url(#spark-grad-2dc7ec48)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The active GitHub repository for Eclipse JKube, housing Maven/Gradle plugins, extensions, and core libraries. Live Grounding indicates robust ongoing community support, enabling local resource generation, deployment, and hot-swapping inside active clusters. The project is crucial for bridging the gap between standard Java compilation and Kubernetes runtimes.
 ## Cloud-Native Provisioning
 
 ### Infrastructure as Code
@@ -108,14 +153,7 @@
 
 #### CDK8s
 
-  - **(2026)** [==cdk8s==](https://github.com/cdk8s-team/cdk8s) <span class='md-tag md-tag--info'>⭐ 4823</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The GitHub repository containing the core source code for CDK8s. It allows developers to model Kubernetes resources as structured code in TypeScript, Python, Java, or Go. It features full support for custom-generated CRDs, letting platform teams build clean, reusable configuration libraries.
-## Developer Experience
-
-### Inner Loop
-
-#### Maven Integration
-
-  - **(2025)** [**JKube**](https://eclipse.dev/jkube) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Eclipse JKube is a collection of plugins and libraries used for building container images and generating Kubernetes manifests out of Java projects. Successor to the popular Fabric8 Maven Plugin, it integrates natively into Maven and Gradle builds. In 2026, it remains a robust enterprise choice for teams seeking to automate image builds and deployments directly from their existing JVM build pipelines.
+  - **(2026)** [==cdk8s==](https://github.com/cdk8s-team/cdk8s) <span class='md-tag md-tag--info'>⭐ 4823</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2899cf8e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 7 L 20 12 L 30 13 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-2899cf8e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The GitHub repository containing the core source code for CDK8s. It allows developers to model Kubernetes resources as structured code in TypeScript, Python, Java, or Go. It features full support for custom-generated CRDs, letting platform teams build clean, reusable configuration libraries.
 ## Kubernetes Development
 
 ### Code Generation
@@ -144,5 +182,5 @@
   - **(2021)** [blog.marcnuri.com](https://blog.marcnuri.com) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive analysis of Eclipse JKube 1.4.0 improvements, focusing on streamlined Helm chart compilation, upgraded core API clients, and enhanced native build properties for container engines.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
+💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Kubectl Commands](./kubectl-commands.md)
 

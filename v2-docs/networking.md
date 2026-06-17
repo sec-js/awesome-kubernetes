@@ -3,19 +3,54 @@
 !!! info "Architectural Context"
     Detailed reference for Networking in the context of Networking & Service Mesh.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Computer Networking and IPAM](#computer-networking-and-ipam)
+  - [Infrastructure Management](#infrastructure-management)
+    - [Automation Pipelines](#automation-pipelines)
+    - [IPAM and DCIM Platforms](#ipam-and-dcim-platforms)
+  - [Protocols](#protocols)
+    - [TCPIP](#tcpip)
+  - [Subnetting and Addressing](#subnetting-and-addressing)
+    - [CIDR Calculators](#cidr-calculators)
+    - [Cheat Sheets](#cheat-sheets)
+    - [Command-Line Utilities](#command-line-utilities)
+    - [Mathematical Underpinnings](#mathematical-underpinnings)
+1. [Web Architecture](#web-architecture)
+  - [DNS](#dns)
+    - [Protocols](#protocols-1)
+  - [HTTP Protocols](#http-protocols)
+    - [Python Libraries](#python-libraries)
+    - [Structured Fields](#structured-fields)
+1. [Web Protocols and Performance](#web-protocols-and-performance)
+  - [HTTP Architecture](#http-architecture)
+    - [Headers and Metadata](#headers-and-metadata)
+    - [Status Codes](#status-codes)
+  - [HTTP Optimization](#http-optimization)
+    - [Browser Performance](#browser-performance)
+  - [HTTP Servers](#http-servers)
+    - [Performance Tuning](#performance-tuning)
+  - [Protocol Evolution](#protocol-evolution)
+    - [Enterprise Servers](#enterprise-servers)
+    - [HTTP2](#http2)
+    - [HTTP3 and QUIC](#http3-and-quic)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
 
 #### General Reference
 
-  - [awesomeopensource.com: The Top 110 Cidr Open Source Projects on Github 🌟](https://awesomeopensource.com/projects/cidr)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering awesomeopensource.com: The Top 110 Cidr Open Source Projects on Github 🌟 in the Kubernetes Tools ecosystem.
   - [Application Network Security in Azure Subnets, Endpoints, DNS, NSGs with Terraform Code](https://medium.com/@codebob75/application-network-security-in-azure-subnets-endpoints-dns-nsgs-with-terraform-code-0bcabdb3a65b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Application Network Security in Azure Subnets, Endpoints, DNS, NSGs with Terraform Code in the Kubernetes Tools ecosystem.
   - [medium.com/javarevisited: 5 Best HTTPS, SSL and TLS Courses for Beginners' in 2022](https://medium.com/javarevisited/best-https-ssl-and-tls-courses-for-beginners-4437661250b3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/javarevisited: 5 Best HTTPS, SSL and TLS Courses for Beginners' in 2022 in the Kubernetes Tools ecosystem.
   - [wisc.edu: CIDR Conversion Table](https://kb.wisc.edu/ns/page.php?id=3493)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering wisc.edu: CIDR Conversion Table in the Kubernetes Tools ecosystem.
   - [dzone: What Is CIDR (Classless Inter-Domain Routing)](https://dzone.com/articles/what-is-cidr-classless-inter-domain-routing-in-mul)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: What Is CIDR (Classless Inter-Domain Routing) in the Kubernetes Tools ecosystem.
   - [cyberciti.biz: Linux: IP Subnet (CIDR) Calculator That Will Help You With' Network Settings](https://www.cyberciti.biz/faq/linux-subnet-calculator-cidr)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cyberciti.biz: Linux: IP Subnet (CIDR) Calculator That Will Help You With' Network Settings in the Kubernetes Tools ecosystem.
   - [cyberciti.biz: Linux Calculating Subnets with ipcalc and sipcalc Utilities](https://www.cyberciti.biz/tips/perform-simple-manipulation-of-ip-addresse.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cyberciti.biz: Linux Calculating Subnets with ipcalc and sipcalc Utilities in the Kubernetes Tools ecosystem.
+  - [awesomeopensource.com: The Top 110 Cidr Open Source Projects on Github 🌟](https://awesomeopensource.com/projects/cidr)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering awesomeopensource.com: The Top 110 Cidr Open Source Projects on Github 🌟 in the Kubernetes Tools ecosystem.
   - [wikipedia: List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering wikipedia: List of HTTP status codes in the Kubernetes Tools ecosystem.
   - [Wikipedia: HTTP/2](https://en.wikipedia.org/wiki/HTTP/2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Wikipedia: HTTP/2 in the Kubernetes Tools ecosystem.
   - [Wikipedia: HTTP/3](https://en.wikipedia.org/wiki/HTTP/3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Wikipedia: HTTP/3 in the Kubernetes Tools ecosystem.
@@ -29,7 +64,7 @@
   - **(2025)** [docs.ansible.com: Netbox Ansible Modules 🌟](https://docs.ansible.com/projects/ansible/latest/collections/netbox/netbox/index.html) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official Ansible dynamic directory configuration and resource collection documentation for NetBox integrations. Outlines patterns to automate data synchronization, resource verification, and asset updates.
 #### IPAM and DCIM Platforms
 
-  - **(2026)** [==NetBox IPAM 🌟==](https://github.com/netbox-community/netbox) <span class='md-tag md-tag--info'>⭐ 20845</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The leading open-source IP Address Management (IPAM) and Data Center Infrastructure Management (DCIM) database. Built on Django and PostgreSQL, it serves as the programmable hardware and IP single-source-of-truth for global networks.
+  - **(2026)** [==NetBox IPAM 🌟==](https://github.com/netbox-community/netbox) <span class='md-tag md-tag--info'>⭐ 20845</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c8dd304f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 2 L 20 11 L 30 11 L 40 3 L 50 2" fill="none" stroke="url(#spark-grad-c8dd304f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The leading open-source IP Address Management (IPAM) and Data Center Infrastructure Management (DCIM) database. Built on Django and PostgreSQL, it serves as the programmable hardware and IP single-source-of-truth for global networks.
   - **(2024)** [netboxlabs.com: An In-Depth Guide to NetBox for IPAM](https://netboxlabs.com/blog/netbox-ipam) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed evaluation of NetBox's functional features, modeling mechanisms, and operational database structures. Explains how to programmatically model prefixes, cables, circuits, virtualizations, and network routing configurations.
   - **(2023)** [youtube: NetBox Zero To Hero](https://www.youtube.com/playlist?list=PL7sEPiUbBLo_iTds-NV-9Tu05Gg2Aj8N7) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A masterclass video syllabus designed to train networking personnel from scratch to advanced NetBox usage. Explores modeling practices, dynamic API integration, scripting configurations, and system customization methods.
 ### Protocols
@@ -109,5 +144,5 @@
   - **(2024)** [alexandrehtrb.github.io: HTTP/2 and HTTP/3 explained](https://alexandrehtrb.github.io/posts/2024/03/http2-and-http3-explained) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A thorough engineering analysis contrasting architectural behaviors of HTTP/2 and HTTP/3. Examines the structural transition from TCP-based flows to UDP-based QUIC, detailing performance impacts.
 
 ---
-💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md)
+💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Web Servers](./web-servers.md) | [Caching](./caching.md)
 

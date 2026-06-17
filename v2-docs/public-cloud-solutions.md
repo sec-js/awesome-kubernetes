@@ -3,6 +3,76 @@
 !!! info "Architectural Context"
     Detailed reference for Public Cloud Solutions in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Benchmarks](#cloud-benchmarks)
+  - [Pricing Analysis](#pricing-analysis)
+    - [Public Cloud](#public-cloud)
+  - [Service Mapping](#service-mapping)
+    - [Public Cloud](#public-cloud-1)
+  - [Storage Analysis](#storage-analysis)
+    - [Object Storage](#object-storage)
+1. [Cloud Economics](#cloud-economics)
+  - [Cost Optimization](#cost-optimization)
+    - [Hyperscalers](#hyperscalers)
+  - [Egress Fees](#egress-fees)
+    - [Market Competition](#market-competition)
+  - [Pricing Matrices](#pricing-matrices)
+    - [TCO Analysis](#tco-analysis)
+1. [Cloud Learning](#cloud-learning)
+  - [Multi-Cloud Strategy](#multi-cloud-strategy)
+    - [Business Case](#business-case)
+  - [Multimedia](#multimedia)
+    - [Provider Comparisons](#provider-comparisons)
+1. [Cloud Strategy](#cloud-strategy)
+  - [Architecture](#architecture)
+    - [Multi-Cloud Assessment](#multi-cloud-assessment)
+  - [Blockchain as a Service](#blockchain-as-a-service)
+    - [Distributed Ledgers](#distributed-ledgers)
+  - [Developer Tooling](#developer-tooling)
+    - [Hyperscalers](#hyperscalers-1)
+  - [Hyperscalers](#hyperscalers-2)
+    - [AWS-Azure-GCP comparison](#aws-azure-gcp-comparison)
+  - [Internet of Things](#internet-of-things)
+    - [IoT Cloud Platforms](#iot-cloud-platforms)
+  - [Kubernetes Management](#kubernetes-management)
+    - [Evaluation Framework](#evaluation-framework)
+  - [Market Share](#market-share)
+    - [Hyperscalers](#hyperscalers-3)
+  - [Public Sector](#public-sector)
+    - [Infrastructure Modernization](#infrastructure-modernization)
+  - [Security Protocols](#security-protocols)
+    - [Hyperscalers](#hyperscalers-4)
+  - [Service Mapping](#service-mapping-1)
+    - [AWS-Azure Mapping](#aws-azure-mapping)
+  - [Storage Architectures](#storage-architectures)
+    - [Hyperscalers](#hyperscalers-5)
+  - [Workload Portability](#workload-portability)
+    - [Decision Matrix](#decision-matrix)
+1. [Data Sovereignty](#data-sovereignty)
+  - [Regulatory Ecosystems](#regulatory-ecosystems)
+    - [Gaia-X Core](#gaia-x-core)
+    - [Gaia-X Dossier](#gaia-x-dossier)
+1. [Infrastructure Resilience](#infrastructure-resilience)
+  - [Outage Post-Mortem](#outage-post-mortem)
+    - [AWS Failure Analysis](#aws-failure-analysis)
+    - [Systemic Risk Analysis](#systemic-risk-analysis)
+1. [Kubernetes Management](#kubernetes-management-1)
+  - [Managed Kubernetes](#managed-kubernetes)
+    - [AWS EKS Costs](#aws-eks-costs)
+    - [Azure AKS Costs](#azure-aks-costs)
+    - [Google GKE Costs](#google-gke-costs)
+  - [Multi-Cloud Operations](#multi-cloud-operations)
+    - [Rackspace Managed K8s](#rackspace-managed-k8s)
+  - [Red Hat OpenShift](#red-hat-openshift)
+    - [Azure Integration](#azure-integration)
+    - [Enterprise Costs](#enterprise-costs)
+  - [VMware Tanzu](#vmware-tanzu)
+    - [Platform Operations](#platform-operations)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -69,13 +139,6 @@
 #### Provider Comparisons
 
   - **(2026)** [youtube: A Cloud Guru - Cloud Provider Comparisons 🌟](https://www.youtube.com/playlist?app=desktop&list=PLI1_CQcV71RnBebKm_tH1uKYI3WxkM2TT)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A curated Pluralsight/A Cloud Guru video playlist featuring structural and strategic comparisons of hyperscalers. It covers pricing structures, operational overhead, and developer experience metrics. Live grounding confirms its baseline instructional value for junior cloud engineers.
-## Cloud Providers
-
-### Alternative Clouds
-
-#### Kubernetes DOKS
-
-  - **(2025)** [Digital Ocean Kubernetes (DOKS)](https://www.digitalocean.com/products/kubernetes) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Fully managed Kubernetes distribution that abstracts master node architecture, allowing users to rapidly deploy clusters. Features simplified persistent block storage volumes, automated node auto-scaling, and painless ingress configurations.
 ## Cloud Strategy
 
 ### Architecture
@@ -191,5 +254,5 @@
   - **(2026)** [Pivotal.io: Pivotal Container Service (PKS), owned by VMware](https://pivotal.io/platform/pivotal-container-service) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Originally Pivotal Container Service (PKS), this enterprise-ready Kubernetes runtime has been integrated directly into the VMware Tanzu Portfolio. It features multi-cluster management, declarative deployment, and deep integration with NSX-T networking. Live grounding labels the PKS brand as legacy, now superseded by Tanzu Kubernetes Grid.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md)
 

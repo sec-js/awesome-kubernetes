@@ -37,16 +37,16 @@
 - [amazee.io: Master the Fundamentals of K8s: Kubernetes 101 video series with Jeff Geerling](https://www.amazee.io/blog/post/master-the-fundamentals-of-k8s)
 - [medium: How to deploy StatefulSets in Kubernetes (K8s)?](https://medium.com/avmconsulting-blog/deploying-statefulsets-in-kubernetes-k8s-5924e701d327)
 - millionvisit.blogspot.com. Kubernetes for Developers Journey:
-    - [millionvisit.blogspot.com: Kubernetes for Developers #1: Kubernetes Architecture and Features](http://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-1-kubernetes-architecture.html)
-    - [millionvisit.blogspot.com: Kubernetes for Developers #2: Kubernetes for Local Development](http://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-2-Local-development.html)
-    - [millionvisit.blogspot.com: Kubernetes for Developers #3: kubectl CLI](http://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-3-kubectl-cli.html)
-    - [millionvisit.blogspot.com: Kubernetes for Developers #4: Enable kubectl bash autocompletion](http://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-4-kubectl-autocompletion.html)
-    - [millionvisit.blogspot.com: Kubernetes for Developers #5: Kubernetes Web UI Dashboard](http://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-5-webui-dashboard.html)
-    - [millionvisit.blogspot.com: Kubernetes for Developers #6: Kubernetes Objects](http://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-6-KubernetesObjects.html)
-    - [millionvisit.blogspot.com: Kubernetes for Developers #7: Imperative vs. Declarative Kubernetes Objects](http://millionvisit.blogspot.com/2021/01/kubernetes-for-developers-7-imperative-vs-Declarative.html)
-    - [millionvisit.blogspot.com: Kubernetes for Developers #9: Kubernetes Pod Lifecycle](http://millionvisit.blogspot.com/2021/03/kubernetes-for-developers-9-Kubernetes-Pod-Lifecycle.html)
-    - [millionvisit.blogspot.com: Kubernetes for Developers #10: Kubernetes Pod YAML manifest in-detail](http://millionvisit.blogspot.com/2021/03/kubernetes-for-developers-10-kubernetes-Pod-YAML-manifest.html)
-    - [millionvisit.blogspot.com: Kubernetes for Developers #14: Kubernetes Deployment YAML manifest in-detail](http://millionvisit.blogspot.com/2021/05/kubernetes-for-developers-14-Kubernetes-Deployment-YAML-manifest.html)
+    - [millionvisit.blogspot.com: Kubernetes for Developers #1: Kubernetes Architecture and Features](https://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-1-kubernetes-architecture.html)
+    - [millionvisit.blogspot.com: Kubernetes for Developers #2: Kubernetes for Local Development](https://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-2-Local-development.html)
+    - [millionvisit.blogspot.com: Kubernetes for Developers #3: kubectl CLI](https://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-3-kubectl-cli.html)
+    - [millionvisit.blogspot.com: Kubernetes for Developers #4: Enable kubectl bash autocompletion](https://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-4-kubectl-autocompletion.html)
+    - [millionvisit.blogspot.com: Kubernetes for Developers #5: Kubernetes Web UI Dashboard](https://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-5-webui-dashboard.html)
+    - [millionvisit.blogspot.com: Kubernetes for Developers #6: Kubernetes Objects](https://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-6-KubernetesObjects.html)
+    - [millionvisit.blogspot.com: Kubernetes for Developers #7: Imperative vs. Declarative Kubernetes Objects](https://millionvisit.blogspot.com/2021/01/kubernetes-for-developers-7-imperative-vs-Declarative.html)
+    - [millionvisit.blogspot.com: Kubernetes for Developers #9: Kubernetes Pod Lifecycle](https://millionvisit.blogspot.com/2021/03/kubernetes-for-developers-9-Kubernetes-Pod-Lifecycle.html)
+    - [millionvisit.blogspot.com: Kubernetes for Developers #10: Kubernetes Pod YAML manifest in-detail](https://millionvisit.blogspot.com/2021/03/kubernetes-for-developers-10-kubernetes-Pod-YAML-manifest.html)
+    - [millionvisit.blogspot.com: Kubernetes for Developers #14: Kubernetes Deployment YAML manifest in-detail](https://millionvisit.blogspot.com/2021/05/kubernetes-for-developers-14-Kubernetes-Deployment-YAML-manifest.html)
 - ithands-on.com:
     - [ithands-on.com: Kubernetes 101 : Deployments, replicaSets, services, pods and endpoints](https://www.ithands-on.com/2021/05/kubernetes-101-deployment-replicasets.html)
     - [ithands-on.com: Kubernetes 101 : An overview of StatefulSets and Deployments](https://www.ithands-on.com/2021/05/kubernetes-101-overview-of-statefulsets.html)
@@ -77,7 +77,7 @@
   - [Red Hat Training & Certification Community](https://access.redhat.com/community/learn) - The Red Hat Customer Portal's community section, previously the Red Hat Learning Community, offers resources for learning and certification related to Red Hat products, including OpenShift and Kubernetes. It provides access to training materials, e-books, and videos to supplement learning journeys.
 
 - [katacoda.com](https://www.katacoda.com) Interactive Learning and Training Platform for Software Engineers
-- [kubernetesbyexample.com](http://kubernetesbyexample.com)
+- [kubernetesbyexample.com](https://kubernetesbyexample.com)
 - [Play with Kubernetes](https://labs.play-with-k8s.com) A simple, interactive and fun playground to learn Kubernetes
 - [udemy.com: Learn DevOps: The Complete Kubernetes Course](https://www.udemy.com/learn-devops-the-complete-kubernetes-course)
     - [wardviaene/kubernetes-course](https://github.com/wardviaene/kubernetes-course)

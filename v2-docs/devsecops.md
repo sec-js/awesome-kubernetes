@@ -3,13 +3,345 @@
 !!! info "Architectural Context"
     Detailed reference for DevSecOps and Security. Container in the context of Hardened Infrastructure.
 
-## Application Development
+## Table of Contents
 
-### Cloud-Native Java
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [CICD Pipeline](#cicd-pipeline)
+  - [Pipeline Automation](#pipeline-automation)
+    - [JFrog Pipelines](#jfrog-pipelines)
+1. [Cloud Architecture](#cloud-architecture)
+  - [Infrastructure Automation](#infrastructure-automation)
+    - [Hybrid Cloud Strategy](#hybrid-cloud-strategy)
+1. [Cloud Native Operations](#cloud-native-operations)
+  - [Kubernetes](#kubernetes)
+    - [Advanced Templating](#advanced-templating)
+1. [Containers](#containers)
+  - [Security and Hardening](#security-and-hardening)
+    - [Supply Chain Security](#supply-chain-security)
+1. [DevOps](#devops)
+  - [CICD Pipeline Security](#cicd-pipeline-security)
+    - [Harness CD Integration](#harness-cd-integration)
+    - [Jenkins Integrations](#jenkins-integrations)
+  - [CICD Security](#cicd-security)
+    - [Static Code Analysis SAST](#static-code-analysis-sast)
+  - [Compliance](#compliance)
+    - [Static Analysis](#static-analysis)
+  - [GitOps Secrets](#gitops-secrets)
+    - [Mozilla SOPS](#mozilla-sops)
+    - [Operator Architecture](#operator-architecture)
+  - [Helm Ecosystem](#helm-ecosystem)
+    - [Post-Rendering Plugins](#post-rendering-plugins)
+  - [Observability](#observability)
+    - [Dashboards](#dashboards)
+  - [Open Source Evolution](#open-source-evolution)
+    - [External Secrets Community](#external-secrets-community)
+  - [Static Analysis](#static-analysis-1)
+    - [Kubernetes Linting](#kubernetes-linting)
+    - [Kubernetes Validation](#kubernetes-validation)
+  - [Version Control](#version-control)
+    - [Identity and Access Management](#identity-and-access-management)
+1. [Development](#development)
+  - [Libraries](#libraries)
+    - [Python Configuration Ingestion](#python-configuration-ingestion)
+1. [Infrastructure](#infrastructure)
+  - [Automation](#automation)
+    - [Engineering Culture](#engineering-culture)
+  - [Endpoint Hardening](#endpoint-hardening)
+    - [MDM Configurations](#mdm-configurations)
+  - [Infrastructure as Code](#infrastructure-as-code)
+    - [Security Scanning](#security-scanning)
+  - [Network Security](#network-security)
+    - [Ingress Control](#ingress-control)
+  - [Service Mesh](#service-mesh)
+    - [Ingress Control](#ingress-control-1)
+1. [Kubernetes Security](#kubernetes-security)
+  - [Cloud Native Security Frameworks](#cloud-native-security-frameworks)
+    - [Official Standards](#official-standards)
+  - [Compliance and Governance](#compliance-and-governance)
+    - [Security Frameworks](#security-frameworks)
+  - [Security Toolkits and Scanning](#security-toolkits-and-scanning)
+    - [Open Source Curation](#open-source-curation)
+1. [Linux](#linux)
+  - [Security](#security)
+    - [Auditing](#auditing)
+1. [Networking and Security](#networking-and-security)
+  - [Kubernetes Networking](#kubernetes-networking)
+    - [Security and Hardening](#security-and-hardening-1)
+1. [Observability](#observability-1)
+  - [Logging](#logging)
+    - [Fluent Bit Engine](#fluent-bit-engine)
+  - [Monitoring](#monitoring)
+    - [Security Operations](#security-operations)
+1. [Platform Engineering](#platform-engineering)
+  - [Kubernetes Manifests](#kubernetes-manifests)
+    - [Validation and Linting](#validation-and-linting)
+1. [Security](#security-1)
+  - [AI and SecOps](#ai-and-secops)
+    - [Cloud Security Assistants](#cloud-security-assistants)
+  - [API Security](#api-security)
+    - [Microservices Architecture](#microservices-architecture)
+  - [Access Control](#access-control)
+    - [Fundamentals](#fundamentals)
+    - [Zero Trust Network Access](#zero-trust-network-access)
+  - [Access Management](#access-management)
+    - [Passwordless Authentication](#passwordless-authentication)
+  - [Application Security](#application-security)
+    - [Pentesting](#pentesting)
+    - [Secrets Detection](#secrets-detection)
+    - [Spring Boot Integrations](#spring-boot-integrations)
+    - [WAF and API Security](#waf-and-api-security)
+  - [Architecture Patterns](#architecture-patterns)
+    - [Microservice Security](#microservice-security)
+  - [Automation](#automation-1)
+    - [SOAR Workflows](#soar-workflows)
+  - [CI-CD](#ci-cd)
+    - [Continuous Integration](#continuous-integration)
+    - [Kubernetes Hardening](#kubernetes-hardening)
+    - [Pipeline Hardening](#pipeline-hardening)
+    - [Pipeline Integrity](#pipeline-integrity)
+  - [Cloud Posture](#cloud-posture)
+    - [Compliance and Audit](#compliance-and-audit)
+  - [Cloud Security](#cloud-security)
+    - [AWS Secrets Manager](#aws-secrets-manager)
+    - [AWS Tools Portfolio](#aws-tools-portfolio)
+    - [CWPP Frameworks](#cwpp-frameworks)
+    - [Enterprise Security Platforms](#enterprise-security-platforms)
+    - [Microsoft Defender for Cloud](#microsoft-defender-for-cloud)
+    - [Serverless Security](#serverless-security)
+    - [Telemetry and Observability](#telemetry-and-observability)
+  - [Cloud-Native](#cloud-native)
+    - [Architecture Fundamentals](#architecture-fundamentals)
+    - [Governance Standards](#governance-standards)
+    - [Zero Trust Architectures](#zero-trust-architectures)
+  - [Container Security](#container-security)
+    - [Aqua Security Integration](#aqua-security-integration)
+    - [Hardening Standards](#hardening-standards)
+    - [Industry Vulnerability Reports](#industry-vulnerability-reports)
+    - [Linux Kernel Sandboxing](#linux-kernel-sandboxing)
+    - [Security Ecosystem Overview](#security-ecosystem-overview)
+    - [Testing Frameworks](#testing-frameworks)
+    - [Vulnerability Auditing](#vulnerability-auditing)
+    - [Vulnerability Scanning](#vulnerability-scanning)
+  - [Cryptography](#cryptography)
+    - [Hashing Algorithms](#hashing-algorithms)
+    - [PKI Automation](#pki-automation)
+    - [Public Key Infrastructure](#public-key-infrastructure)
+  - [DevSecOps](#devsecops)
+    - [Business Strategy](#business-strategy)
+    - [Engineering Skills](#engineering-skills)
+    - [Enterprise Infrastructure](#enterprise-infrastructure)
+    - [Implementation Patterns](#implementation-patterns)
+    - [Integration Lifecycle](#integration-lifecycle)
+    - [Maturity Frameworks](#maturity-frameworks)
+    - [Methodology](#methodology)
+    - [Migration Planning](#migration-planning)
+    - [Mobile Systems](#mobile-systems)
+    - [Open Source Tools](#open-source-tools)
+    - [Organizational Culture](#organizational-culture)
+    - [Vulnerability Scanning](#vulnerability-scanning-1)
+  - [Developer Tooling](#developer-tooling)
+    - [Credential Management](#credential-management)
+    - [Git Secrets Security](#git-secrets-security)
+  - [Education and Training](#education-and-training)
+    - [Vulnerable Labs](#vulnerable-labs)
+  - [Enterprise Security Platforms](#enterprise-security-platforms-1)
+    - [Industry Acquisitions](#industry-acquisitions)
+  - [GitOps](#gitops)
+    - [Policy as Code](#policy-as-code)
+  - [Hybrid Cloud Security](#hybrid-cloud-security)
+    - [Azure Arc](#azure-arc)
+  - [Identity and Access](#identity-and-access)
+    - [Entra ID](#entra-id)
+  - [Identity and Access Management](#identity-and-access-management-1)
+    - [Authentication Proxy](#authentication-proxy)
+    - [Core Fundamentals](#core-fundamentals)
+    - [High Availability](#high-availability)
+    - [Ingress Integration](#ingress-integration)
+    - [Microservices Authorization](#microservices-authorization)
+    - [OIDC Provider](#oidc-provider)
+    - [Proxy Gateways](#proxy-gateways)
+    - [SSO Solution](#sso-solution)
+    - [State Management](#state-management)
+    - [Tokens](#tokens)
+    - [Zero Trust Proxy](#zero-trust-proxy)
+  - [Image Signing](#image-signing)
+    - [Cryptographic Trust](#cryptographic-trust)
+  - [Incident Response](#incident-response)
+    - [Container Forensics](#container-forensics)
+  - [Infrastructure as Code](#infrastructure-as-code-1)
+    - [Terraform Secrets](#terraform-secrets)
+  - [Kubernetes Security](#kubernetes-security-1)
+    - [Admission Controllers](#admission-controllers)
+    - [Azure Integrations](#azure-integrations)
+    - [Bitnami Sealed Secrets](#bitnami-sealed-secrets)
+    - [CSI Driver Providers](#csi-driver-providers)
+    - [CyberArk Conjur](#cyberark-conjur)
+    - [External Secrets Operator](#external-secrets-operator)
+    - [Image Encryption](#image-encryption)
+    - [Policy as Code](#policy-as-code-1)
+    - [Runtime Hardening](#runtime-hardening)
+    - [Self-Hosted Orchestration](#self-hosted-orchestration)
+    - [Signature Verification](#signature-verification)
+    - [Vault Deployment](#vault-deployment)
+  - [Microservices Security](#microservices-security)
+    - [Architecture Patterns](#architecture-patterns-1)
+    - [Behavior Monitoring](#behavior-monitoring)
+  - [Mitigation Standards](#mitigation-standards)
+    - [API Security](#api-security-1)
+    - [Cloud Native Hardening](#cloud-native-hardening)
+    - [Kubernetes Hardening](#kubernetes-hardening-1)
+    - [OWASP Top 10](#owasp-top-10)
+  - [Network Security](#network-security-1)
+    - [CNI Data Plane](#cni-data-plane)
+    - [Web Application Firewall](#web-application-firewall)
+  - [OS Isolation](#os-isolation)
+    - [SELinux Container Security](#selinux-container-security)
+  - [Open Source](#open-source)
+    - [Governance standards](#governance-standards)
+  - [Penetration Testing](#penetration-testing)
+    - [Hash Cracking](#hash-cracking)
+    - [Metasploit](#metasploit)
+    - [Security Containers](#security-containers)
+  - [Public Key Infrastructure PKI](#public-key-infrastructure-pki)
+    - [Azure Operations](#azure-operations)
+  - [Runtime Security](#runtime-security)
+    - [KubeArmor Orchestration](#kubearmor-orchestration)
+    - [LSM Enforcement](#lsm-enforcement)
+    - [Threat Detection](#threat-detection)
+  - [SecOps](#secops)
+    - [Distributed Working](#distributed-working)
+  - [Secret Management](#secret-management)
+    - [Helm Automation](#helm-automation)
+    - [Helm Security](#helm-security)
+  - [Secrets Management](#secrets-management)
+    - [AWS Secrets Manager](#aws-secrets-manager-1)
+    - [Bitwarden Ecosystem](#bitwarden-ecosystem)
+    - [CICD Pipelines](#cicd-pipelines)
+    - [CSI Driver](#csi-driver)
+    - [CSI Driver Providers](#csi-driver-providers-1)
+    - [Centralized Vaults](#centralized-vaults)
+    - [Cloud Managed Services](#cloud-managed-services)
+    - [Cloud Native KMS](#cloud-native-kms)
+    - [CyberArk Conjur](#cyberark-conjur-1)
+    - [Developer Workstation](#developer-workstation)
+    - [Encrypted Secrets](#encrypted-secrets)
+    - [GCP Secret Manager](#gcp-secret-manager)
+    - [GCP Security](#gcp-security)
+    - [GitOps Encrypted Secrets](#gitops-encrypted-secrets)
+    - [HashiCorp Vault](#hashicorp-vault)
+    - [Industry Trends](#industry-trends)
+    - [Kafka Integration](#kafka-integration)
+    - [Kubernetes Admission Controllers](#kubernetes-admission-controllers)
+    - [Kubernetes Integration](#kubernetes-integration)
+    - [Kubernetes Security](#kubernetes-security-2)
+    - [Kubernetes Sidecar Injection](#kubernetes-sidecar-injection)
+    - [Risk Mitigation](#risk-mitigation)
+    - [Serverless Integration](#serverless-integration)
+    - [Source Code Scanning](#source-code-scanning)
+  - [Security Operations](#security-operations-1)
+    - [SOAR Automation](#soar-automation)
+  - [Serverless](#serverless)
+    - [FaaS Hardening](#faas-hardening)
+  - [Serverless Security](#serverless-security-1)
+    - [Knative Security Guard](#knative-security-guard)
+  - [Software Engineering](#software-engineering)
+    - [Secure Design Principles](#secure-design-principles)
+  - [Software Supply Chain](#software-supply-chain)
+    - [Dependency Auditing](#dependency-auditing)
+    - [Scorecards](#scorecards)
+  - [Standards and Frameworks](#standards-and-frameworks)
+    - [Zero Trust Principles](#zero-trust-principles)
+  - [Static Analysis](#static-analysis-2)
+    - [Infrastructure as Code](#infrastructure-as-code-2)
+  - [Supply Chain](#supply-chain)
+    - [CI-CD Attacks](#ci-cd-attacks)
+    - [Dependency Management](#dependency-management)
+  - [Supply Chain Security](#supply-chain-security-1)
+    - [AWS Integration](#aws-integration)
+    - [Container Signing](#container-signing)
+    - [Cryptographic Signatures](#cryptographic-signatures)
+    - [Image Signing and Verification](#image-signing-and-verification)
+    - [Keyless Signing](#keyless-signing)
+    - [Video Learning](#video-learning)
+  - [Threat Detection](#threat-detection-1)
+    - [Audit Logs Parsing](#audit-logs-parsing)
+    - [Container Monitoring Tools](#container-monitoring-tools)
+    - [Malware Scanning](#malware-scanning)
+    - [OS Security](#os-security)
+    - [Scanning Utilities](#scanning-utilities)
+  - [Threat Intelligence](#threat-intelligence)
+    - [Container Runtime Security](#container-runtime-security)
+    - [Kubernetes Exploits](#kubernetes-exploits)
+    - [Kubernetes Exposures](#kubernetes-exposures)
+  - [Vulnerabilities](#vulnerabilities)
+    - [Argo Workflows Misconfigurations](#argo-workflows-misconfigurations)
+    - [CRI-O and Podman Security](#cri-o-and-podman-security)
+    - [Log4Shell Mitigations](#log4shell-mitigations)
+    - [Log4Shell Scanners](#log4shell-scanners)
+    - [Log4j Detection Agent](#log4j-detection-agent)
+    - [Log4j Evolution](#log4j-evolution)
+    - [Log4j Security Documentation](#log4j-security-documentation)
+    - [Observability Mitigations](#observability-mitigations)
+    - [Public Impact Reporting](#public-impact-reporting)
+    - [Real-World Incidents](#real-world-incidents)
+    - [Software Supply Chain](#software-supply-chain-1)
+    - [Spanish Technical Advisory](#spanish-technical-advisory)
+    - [Threat Intelligence](#threat-intelligence-1)
+  - [Vulnerability Management](#vulnerability-management)
+    - [Base Images](#base-images)
+    - [CICD Pipeline Security](#cicd-pipeline-security-1)
+    - [CNAPP Platform](#cnapp-platform)
+    - [Container Scanning](#container-scanning)
+    - [Kubernetes Hardening](#kubernetes-hardening-2)
+    - [Kubernetes History](#kubernetes-history)
+  - [Vulnerability Scanning](#vulnerability-scanning-2)
+    - [Container Images](#container-images)
+  - [Zero Trust Architectures](#zero-trust-architectures-1)
+    - [Modern Secrets Paradigms](#modern-secrets-paradigms)
+1. [Security and Compliance](#security-and-compliance)
+  - [Automated Security Remediation](#automated-security-remediation)
+    - [Ansible and CyberArk](#ansible-and-cyberark)
+  - [CICD Security](#cicd-security-1)
+    - [Penetration Testing](#penetration-testing-1)
+  - [Cloud Security](#cloud-security-1)
+    - [Identity and Access Management](#identity-and-access-management-2)
+  - [Container Security](#container-security-1)
+    - [Runtime Observability](#runtime-observability)
+  - [Infrastructure as Code](#infrastructure-as-code-3)
+    - [IaC Security](#iac-security)
+  - [Secrets Management](#secrets-management-1)
+    - [Ansible and CyberArk](#ansible-and-cyberark-1)
+    - [HashiCorp Vault](#hashicorp-vault-1)
+  - [Vulnerability Scanning](#vulnerability-scanning-3)
+    - [Grype and GitLab](#grype-and-gitlab)
+1. [Security and Governance](#security-and-governance)
+  - [Cloud Security](#cloud-security-2)
+    - [Data Sovereignty](#data-sovereignty)
+    - [Misconfiguration Prevention](#misconfiguration-prevention)
+  - [Container Security](#container-security-2)
+    - [Industry Trends](#industry-trends-1)
+  - [DevSecOps](#devsecops-1)
+    - [AWS Implementations](#aws-implementations)
+    - [Automated Pipelines](#automated-pipelines)
+    - [Best Practices](#best-practices)
+    - [Commercial CD](#commercial-cd)
+    - [Culture and Collaboration](#culture-and-collaboration)
+    - [Enterprise Compliance](#enterprise-compliance)
+    - [Fundamentals](#fundamentals-1)
+    - [Industry Trends](#industry-trends-2)
+    - [Infrastructure as Code Security](#infrastructure-as-code-security)
+    - [Migration Strategies](#migration-strategies)
+  - [Kubernetes Security](#kubernetes-security-3)
+    - [Cluster Hardening](#cluster-hardening)
+  - [OS Hardening](#os-hardening)
+    - [Linux Security](#linux-security)
+  - [Vulnerability Management](#vulnerability-management-1)
+    - [Open Source Security](#open-source-security)
+  - [Web Security](#web-security)
+    - [Testing Environments](#testing-environments)
 
-#### Tanzu Framework
-
-  - **(2022)** [tanzu.vmware.com: Microservices with Spring Cloud Kubernetes Reference Architecture 🌟](https://www.vmware.com/products/app-platform/tanzu) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides the canonical reference architecture for running high-scale Spring Cloud applications natively on Kubernetes. Evaluates Spring Cloud Kubernetes integrations for service discovery, centralized configuration via ConfigMaps, and seamless external secrets management, aligning with 2026 Tanzu application platform standards.
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -17,6 +349,7 @@
 #### General Reference
 
   - [armosec.io: Use Kubescape to check if your Kubernetes clusters are exposed to the latest K8s Symlink vulnerability (CVE-2021-25741)](https://www.armosec.io/cve-vulnerability-database)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.armosec.io in the Kubernetes Tools ecosystem.
+  - [Automating Microsoft Sentinel Deployment with Azure DevOps CI/CD](https://noodlemctwoodle.medium.com/automating-microsoft-sentinel-deployment-with-azure-devops-ci-cd-2d4ae0c4e254)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Automating Microsoft Sentinel Deployment with Azure DevOps CI/CD in the Kubernetes Tools ecosystem.
   - [Exploring the (lack of) security in a typical Docker and Kubernetes installation](https://www.neowin.net/news/exploring-the-lack-of-security-in-a-typical-docker-and-kubernets-installation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Exploring the (lack of) security in a typical Docker and Kubernetes installation in the Kubernetes Tools ecosystem.
   - [securityboulevard.com: DevOps vs. DevSecOps – Here’s How They Fit Together](https://securityboulevard.com/2021/02/devops-vs-devsecops-heres-how-they-fit-together)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering securityboulevard.com: DevOps vs. DevSecOps – Here’s How They Fit Together in the Kubernetes Tools ecosystem.
   - [addteq.com: The REAL Difference between DevOps and DevSecOps](https://www.addteq.com/blog/2021/03/the-real-difference-between-devops-and-devsecops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering addteq.com: The REAL Difference between DevOps and DevSecOps in the Kubernetes Tools ecosystem.
@@ -45,7 +378,6 @@
   - [dzone: DevOps Pipeline Quality Gates: A Double-Edged Sword](https://dzone.com/articles/devops-pipeline-quality-gates-a-double-edged-sword)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: DevOps Pipeline Quality Gates: A Double-Edged Sword in the Kubernetes Tools ecosystem.
   - [medium: Focusing on the DevOps Pipeline 🌟](https://medium.com/capital-one-tech/focusing-on-the-devops-pipeline-topo-pal-833d15edf0bd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Focusing on the DevOps Pipeline 🌟 in the Kubernetes Tools ecosystem.
   - [cncf.io: Identifying Kubernetes Config Security Threats: Pods Running as' Root](https://www.cncf.io/blog/2020/06/16/identifying-kubernetes-config-security-threats-pods-running-as-root)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Identifying Kubernetes Config Security Threats: Pods Running as' Root in the Kubernetes Tools ecosystem.
-  - [Automating Microsoft Sentinel Deployment with Azure DevOps CI/CD](https://noodlemctwoodle.medium.com/automating-microsoft-sentinel-deployment-with-azure-devops-ci-cd-2d4ae0c4e254)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Automating Microsoft Sentinel Deployment with Azure DevOps CI/CD in the Kubernetes Tools ecosystem.
   - [Project Calico](https://www.projectcalico.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Project Calico in the Kubernetes Tools ecosystem.
   - [betterprogramming.pub: Kubernetes Security With Falco](https://betterprogramming.pub/kubernetes-security-with-falco-2eb060d3ae7d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering betterprogramming.pub: Kubernetes Security With Falco in the Kubernetes Tools ecosystem.
   - [vashishtsumit89.medium.com: Security/Pen Testing: A guide to run OWASP Zap' headless in containers for CI/CD pipeline](https://vashishtsumit89.medium.com/security-pen-testing-a-guide-to-run-owasp-zap-headless-in-containers-for-ci-cd-pipeline-ddb580dae3c8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering vashishtsumit89.medium.com: Security/Pen Testing: A guide to run OWASP Zap' headless in containers for CI/CD pipeline in the Kubernetes Tools ecosystem.
@@ -117,6 +449,13 @@
   - [bridgecrew](https://bridgecrew.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering bridgecrew in the Kubernetes Tools ecosystem.
   - [bridgecrew.io: Tutorial: Incorporate IaC Security in your CI/CD pipeline' with Bridgecrew, Jenkins, and GitHub](https://bridgecrew.io/blog/tutorial-incorporate-iac-security-in-your-ci-cd-pipeline-with-bridgecrew-jenkins-and-github)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering bridgecrew.io: Tutorial: Incorporate IaC Security in your CI/CD pipeline' with Bridgecrew, Jenkins, and GitHub in the Kubernetes Tools ecosystem.
   - [itbusinessedge.com: Okta vs. Azure AD: IAM Tool Comparison](https://www.itbusinessedge.com/security/okta-vs-azure-ad)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering itbusinessedge.com: Okta vs. Azure AD: IAM Tool Comparison in the Kubernetes Tools ecosystem.
+## CICD Pipeline
+
+### Pipeline Automation
+
+#### JFrog Pipelines
+
+  - **(2021)** [jfrog.com: How I Leaped Forward My Jenkins Build with JFrog Pipelines](https://jfrog.com/blog) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the transition of software build jobs from standard Jenkins architectures to optimized JFrog Pipelines. It details structural enhancements in build speeds, caching mechanisms, and overall pipeline orchestrations using Artifactory integrations. This technical blog demonstrates techniques for reducing CI bottleneck overhead.
 ## Cloud Architecture
 
 ### Infrastructure Automation
@@ -131,13 +470,6 @@
 #### Advanced Templating
 
   - **(2022)** [**Kapitan**](https://kapitan.dev) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An open-source configuration management engine built to generate clean declarative configurations (Kubernetes manifests, Terraform, Ansible) using Python and Jsonnet. Kapitan simplifies managing configurations for multiple environments by using a single source of truth.
-## Container Infrastructure
-
-### CI-CD Pipelines
-
-#### Pipeline Security
-
-  - **(2022)** [Build trusted pipelines/Guards with Podman containers](https://www.redhat.com/en/blog/using-container-technology-make-trusted-pipeline) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes how to design highly secure, isolated CI/CD pipelines using Podman container guards. By isolating execution steps within unprivileged container sandboxes, this architecture protects build systems and host servers from security compromises.
 ## Containers
 
 ### Security and Hardening
@@ -165,11 +497,6 @@
 #### Static Analysis
 
   - **(2021)** [securecoding.com: Code Audit: How to Ensure Compliance for an Application](https://www.securecoding.com/blog/code-audit-how-to-ensure-compliance-for-an-application) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on designing structural code auditing protocols to assure continuous regulatory and technical compliance. Outlines SAST/DAST tooling patterns, automated linting integration, and structured reviewer workflows. Designed for engineering managers seeking to build high-maturity compliance loops into software delivery pipelines.
-### Continuous Delivery
-
-#### Security Policy
-
-  - **(2020)** [computing.co.uk: CloudBees gets busy with security, visibility and control as DevOps evolves](https://www.computing.co.uk/news/4020521/cloudbees-busy-security-visibility-control-devops-evolves) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines corporate initiatives aimed at embedding security validations and automated pipeline compliance directly within Jenkins-based and unified enterprise orchestration systems.
 ### GitOps Secrets
 
 #### Mozilla SOPS
@@ -182,12 +509,12 @@
 
 #### Post-Rendering Plugins
 
-  - **(2022)** [**jx-secret-postrenderer 🌟**](https://github.com/jenkins-x-plugins/jx-secret-postrenderer) <span class='md-tag md-tag--info'>⭐ 4</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Source code repository for the Jenkins X Secret Post-Renderer. Features advanced post-rendering logic that intercepts raw Helm charts during continuous delivery, querying secure vaults to substitute placeholders with concrete values right before manifest transmission to the Kubernetes API.
+  - **(2022)** [**jx-secret-postrenderer 🌟**](https://github.com/jenkins-x-plugins/jx-secret-postrenderer) <span class='md-tag md-tag--info'>⭐ 4</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c3e045ed" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 10 L 20 9 L 30 3 L 40 12 L 50 9" fill="none" stroke="url(#spark-grad-c3e045ed)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Source code repository for the Jenkins X Secret Post-Renderer. Features advanced post-rendering logic that intercepts raw Helm charts during continuous delivery, querying secure vaults to substitute placeholders with concrete values right before manifest transmission to the Kubernetes API.
 ### Observability
 
 #### Dashboards
 
-  - **(2024)** [github.com/hygieia/Hygieia 🌟](https://github.com/hygieia/Hygieia) <span class='md-tag md-tag--info'>⭐ 3819</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An enterprise DevOps dashboard originally developed by Capital One to track delivery pipelines, testing, and security traces. *Curator Insight vs. Live Grounding*: The project has transitioned into an unmaintained, archived repository. It remains highly informative structurally as a reference architecture for aggregating multi-source security and pipeline metrics.
+  - **(2024)** [github.com/hygieia/Hygieia 🌟](https://github.com/hygieia/Hygieia) <span class='md-tag md-tag--info'>⭐ 3819</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6a6033c9" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 7 L 20 6 L 30 2 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-6a6033c9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An enterprise DevOps dashboard originally developed by Capital One to track delivery pipelines, testing, and security traces. *Curator Insight vs. Live Grounding*: The project has transitioned into an unmaintained, archived repository. It remains highly informative structurally as a reference architecture for aggregating multi-source security and pipeline metrics.
 ### Open Source Evolution
 
 #### External Secrets Community
@@ -200,19 +527,19 @@
   - **(2020)** [thenewstack.io: StackRox KubeLinter Brings Security Linting to Kubernetes](https://thenewstack.io/stackrox-kubelinter-brings-security-linting-to-kubernetes) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces KubeLinter's launch under the StackRox banner. Illustrates how integrating security check loops early in the software development lifecycle (Shift-Left) reduces misconfigurations in cluster deployments. Details basic CLI operation, customization of checks, and custom rule design.
 #### Kubernetes Validation
 
-  - **(2026)** [github.com/yannh/kubeconform 🌟](https://github.com/yannh/kubeconform) <span class='md-tag md-tag--info'>⭐ 3066</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A ultra-fast, modern Kubernetes manifest validator written in Go, acting as a direct replacement for kubeval. Validates resources against official OpenAPI schemas, automatically caching custom resource definitions (CRDs) in offline environments. Recognized globally as a de facto tool for GitOps CI verification.
+  - **(2026)** [github.com/yannh/kubeconform 🌟](https://github.com/yannh/kubeconform) <span class='md-tag md-tag--info'>⭐ 3066</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-82b84c4b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 5 L 20 5 L 30 13 L 40 2 L 50 3" fill="none" stroke="url(#spark-grad-82b84c4b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A ultra-fast, modern Kubernetes manifest validator written in Go, acting as a direct replacement for kubeval. Validates resources against official OpenAPI schemas, automatically caching custom resource definitions (CRDs) in offline environments. Recognized globally as a de facto tool for GitOps CI verification.
 ### Version Control
 
 #### Identity and Access Management
 
-  - **(2024)** [==Git Credential Manager Core==](https://github.com/git-ecosystem/git-credential-manager) <span class='md-tag md-tag--info'>⭐ 8978</span> <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Git Credential Manager is a secure, cross-platform helper that simplifies multi-factor authentication for hosts like GitHub, GitLab, and Azure DevOps. It securely stores credentials in platform-native keychains, abstracting token lifecycle management away from developers.
+  - **(2024)** [==Git Credential Manager Core==](https://github.com/git-ecosystem/git-credential-manager) <span class='md-tag md-tag--info'>⭐ 8978</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6277e498" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 9 L 20 13 L 30 11 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-6277e498)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Git Credential Manager is a secure, cross-platform helper that simplifies multi-factor authentication for hosts like GitHub, GitLab, and Azure DevOps. It securely stores credentials in platform-native keychains, abstracting token lifecycle management away from developers.
 ## Development
 
 ### Libraries
 
 #### Python Configuration Ingestion
 
-  - **(2022)** [Neoteroi/essentials-configuration-keyvault](https://github.com/Neoteroi/essentials-configuration-keyvault) <span class='md-tag md-tag--info'>⭐ 1</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized open-source Python package engineered to fetch and map configurations dynamically from Azure Key Vault into Python-based microservices. Standardizes token authentication patterns, drastically reducing boilerplate setup routines for backend frameworks.
+  - **(2022)** [Neoteroi/essentials-configuration-keyvault](https://github.com/Neoteroi/essentials-configuration-keyvault) <span class='md-tag md-tag--info'>⭐ 1</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-bac04081" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 7 L 20 4 L 30 4 L 40 8 L 50 13" fill="none" stroke="url(#spark-grad-bac04081)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized open-source Python package engineered to fetch and map configurations dynamically from Azure Key Vault into Python-based microservices. Standardizes token authentication patterns, drastically reducing boilerplate setup routines for backend frameworks.
 ## Infrastructure
 
 ### Automation
@@ -289,7 +616,7 @@
 
 #### Validation and Linting
 
-  - **(2025)** [==KubeLinter==](https://github.com/stackrox/kube-linter) <span class='md-tag md-tag--info'>⭐ 3469</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An enterprise-grade static analyzer for raw Kubernetes manifest files and Helm charts. Translates security benchmarks, privileged container checks, and missing resource limits into actionable DevOps signals.
+  - **(2025)** [==KubeLinter==](https://github.com/stackrox/kube-linter) <span class='md-tag md-tag--info'>⭐ 3469</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-99439a6f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 5 L 20 4 L 30 13 L 40 5 L 50 2" fill="none" stroke="url(#spark-grad-99439a6f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An enterprise-grade static analyzer for raw Kubernetes manifest files and Helm charts. Translates security benchmarks, privileged container checks, and missing resource limits into actionable DevOps signals.
 ## Security (1)
 
 ### AI and SecOps
@@ -331,7 +658,7 @@
   - **(2021)** [piotrminkowski.com: Vault on Kubernetes with Spring Cloud](https://piotrminkowski.com/2021/12/30/vault-on-kubernetes-with-spring-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An application integration tutorial showing how to bind Spring Cloud Config and Spring Cloud Vault inside Kubernetes. Demonstrates how microservices resolve credentials at startup, manage key rotation, and construct a secure configuration hierarchy directly mapped to application properties.
 #### WAF and API Security
 
-  - **(2026)** [github.com/openappsec/openappsec](https://github.com/openappsec/openappsec) <span class='md-tag md-tag--info'>⭐ 1635</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source, machine-learning-driven security controller designed to protect microservice APIs and modern web applications. Utilizing contextual data analysis rather than static signatures, it intercepts zero-day exploits and SQL injections dynamically at the ingress level.
+  - **(2026)** [github.com/openappsec/openappsec](https://github.com/openappsec/openappsec) <span class='md-tag md-tag--info'>⭐ 1635</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7dd51107" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 11 L 20 9 L 30 8 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-7dd51107)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source, machine-learning-driven security controller designed to protect microservice APIs and modern web applications. Utilizing contextual data analysis rather than static signatures, it intercepts zero-day exploits and SQL injections dynamically at the ingress level.
 ### Architecture Patterns
 
 #### Microservice Security
@@ -360,7 +687,7 @@
 
 #### Compliance and Audit
 
-  - **(2026)** [==github.com/prowler-cloud/prowler 🌟🌟==](https://github.com/prowler-cloud/prowler) <span class='md-tag md-tag--info'>⭐ 13994</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An industry-standard tool for Cloud Security Posture Management (CSPM). It systematically audits multi-cloud infrastructures against CIS benchmarks, GDPR, and PCI-DSS rules, outputting detailed security posture reviews and compliance logs.
+  - **(2026)** [==github.com/prowler-cloud/prowler 🌟🌟==](https://github.com/prowler-cloud/prowler) <span class='md-tag md-tag--info'>⭐ 13994</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6f0303b4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 12 L 20 11 L 30 9 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-6f0303b4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An industry-standard tool for Cloud Security Posture Management (CSPM). It systematically audits multi-cloud infrastructures against CIS benchmarks, GDPR, and PCI-DSS rules, outputting detailed security posture reviews and compliance logs.
 ### Cloud Security
 
 #### AWS Secrets Manager
@@ -391,7 +718,7 @@
   - **(2021)** [containerjournal.com: The What and Why of Cloud-Native Security](https://cloudnativenow.com/editorial-calendar/cloud-native-security/the-what-and-why-of-cloud-native-security)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Investigates the structural shift from static legacy perimeter-based security to dynamic cloud-native postures. Outlines the CNCF-backed '4Cs' security model (Cloud, Cluster, Container, Code) and emphasizes micro-segmented networking, cryptographic identity validation, and continuous container assurance.
 #### Governance Standards
 
-  - **(2026)** [cncf/tag-security: CNCF Security Technical Advisory Group 🌟](https://github.com/cncf/tag-security) <span class='md-tag md-tag--info'>⭐ 2264</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The premier open-source governance and advisory group defining cloud-native security, compliance, and secure software supply chains. Provides critical specifications including the CNCF Security Whitepaper and Cloud Native Threat Matrix, which serve as foundational guides for platform architects.
+  - **(2026)** [cncf/tag-security: CNCF Security Technical Advisory Group 🌟](https://github.com/cncf/tag-security) <span class='md-tag md-tag--info'>⭐ 2264</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9d977a87" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 2 L 20 5 L 30 10 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-9d977a87)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The premier open-source governance and advisory group defining cloud-native security, compliance, and secure software supply chains. Provides critical specifications including the CNCF Security Whitepaper and Cloud Native Threat Matrix, which serve as foundational guides for platform architects.
 #### Zero Trust Architectures
 
   - **(2022)** [thenewstack.io: Why Cloud Native Systems Demand a Zero Trust Approach](https://thenewstack.io/why-cloud-native-systems-demand-a-zero-trust-approach) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains why dynamic microservice scheduling demands a transition from traditional perimeter security to zero-trust architectures. Covers using cryptographically verified workload identities (via SPIFFE/SPIRE), mandatory mTLS, and end-to-end request context validation.
@@ -400,9 +727,6 @@
 #### Aqua Security Integration
 
   - **(2021)** [europeclouds.com: Implementing Aqua Security to Secure Kubernetes](https://www.europeclouds.com/blog/implementing-aqua-security-to-secure-kubernetes) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This reference implementation analyzes Aqua Security's threat protection suite inside Kubernetes platforms. It details automated configuration of image scanning workflows, continuous drift detection mechanisms, and custom-built runtime profiles. Grounded in actual platform defense, this approach addresses immediate container exploitation vectors by establishing clear trust domains.
-#### DevSecOps
-
-  - **(2023)** [Kubernetes Security Best Practices: A DevSecOps Perspective](https://www.linkedin.com/top-content/career) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive into Kubernetes security practices through a modern DevSecOps lens. Covers critical strategies including RBAC refinement, network policies, pod security standards, container vulnerability scanning, and managing runtime security alerts.
 #### Hardening Standards
 
   - **(2021)** [infracloud.io: The Ten Commandments of Container Security](https://www.infracloud.io/blogs/top-10-things-for-container-security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compiles ten key principles of container hardening. Focuses on restricting privileged users, defining hard CPU/memory resource limits, enforcing read-only root filesystems, applying seccomp filters, and eliminating administrative packages from final container builds.
@@ -418,7 +742,7 @@
   - **(2021)** [techbeacon.com: 17 open-source container security tools 🌟](https://techbeacon.com/security/17-open-source-container-security-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive review of seventeen leading open-source container security platforms, including Trivy, Falco, and Grype. Segregates tooling based on their operational targets: static image profiling, continuous compliance auditing, or real-time eBPF runtime event analysis.
 #### Testing Frameworks
 
-  - **(2023)** [==GoogleContainerTools/container-structure-test==](https://github.com/GoogleContainerTools/container-structure-test) <span class='md-tag md-tag--info'>⭐ 2484</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official repository for Google's `container-structure-test`. Details a powerful unit testing framework that validates container image structures (checking file layouts, metadata keys, variable exports, and executable output states) without actually running the target container environment.
+  - **(2023)** [==GoogleContainerTools/container-structure-test==](https://github.com/GoogleContainerTools/container-structure-test) <span class='md-tag md-tag--info'>⭐ 2484</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-59a0423e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 9 L 20 8 L 30 9 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-59a0423e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official repository for Google's `container-structure-test`. Details a powerful unit testing framework that validates container image structures (checking file layouts, metadata keys, variable exports, and executable output states) without actually running the target container environment.
 #### Vulnerability Auditing
 
   - **(2021)** [sysdig.com: 12 Container image scanning best practices to adopt in production](https://www.sysdig.com/learn-cloud-native/12-container-image-scanning-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A collection of twelve container image scanning best practices. Recommends implementing shifting-left (scanning directly inside continuous integration steps), utilizing minimal distroless or Alpine base images, and blocking pipelines dynamically when critical vulnerabilities are discovered.
@@ -429,7 +753,7 @@
 
 #### Hashing Algorithms
 
-  - **(2026)** [==pyca/bcrypt==](https://github.com/pyca/bcrypt) <span class='md-tag md-tag--info'>⭐ 1482</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Provides high-performance, secure-by-default C bindings for the bcrypt password hashing algorithm in Python applications. Widely trusted for protecting stored passwords against offline dictionary attacks through adjustable work factors.
+  - **(2026)** [==pyca/bcrypt==](https://github.com/pyca/bcrypt) <span class='md-tag md-tag--info'>⭐ 1482</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-114ef0c4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 13 L 20 8 L 30 9 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-114ef0c4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Provides high-performance, secure-by-default C bindings for the bcrypt password hashing algorithm in Python applications. Widely trusted for protecting stored passwords against offline dictionary attacks through adjustable work factors.
   - **(2026)** [==argon2-cffi==](https://argon2-cffi.readthedocs.io/en/stable) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The recommended CFFI Python interface for Argon2, the winner of the Password Hashing Competition. Provides extreme resistance against CPU-intensive and GPU-based parallel hardware attack mechanisms. Excellent for hashing secrets and credentials inside authentication backend APIs.
   - **(2026)** [==docs.python.org: scrypt (standard library)==](https://docs.python.org/3/library/hashlib.html) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Provides built-in, low-level access to the scrypt key derivation function inside Python's native standard library (hashlib). This ensures robust password protection out-of-the-box without requiring compilation of external binary packages.
   - **(2026)** [==cryptography.io: scrypt (cryptography)==](https://cryptography.io/en/latest/hazmat/primitives/key-derivation-functions) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Implements the scrypt algorithm within Python's premier cryptography package, enabling customization of CPU, memory, and parallelization parameters. Ideal for highly customized cryptographic backends requiring precise control over memory-hard functions.
@@ -439,7 +763,7 @@
 #### Public Key Infrastructure
 
   - **(2021)** [arsouyes.org: PKCS, pem, der, key, crt,...](https://www.arsouyes.org/articles/2021/2021-06-21_PKCS_pem_der_key_crt) <span class='md-tag md-tag--warning'>[FRENCH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A deep-dive structural reference of Public Key Infrastructure (PKI) formats, including PEM, DER, PKCS#12, CRT, and KEY. Explains standard formatting variations, binary-versus-base64 representations, and practical OpenSSL command syntaxes for conversion operations in production environments.
-### DevSecOps (1)
+### DevSecOps
 
 #### Business Strategy
 
@@ -489,7 +813,7 @@
 
   - **(2025)** [**git-secret.io**](https://git-secret.io) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A bash-based tool for encrypting sensitive files inside Git repositories using GPG keys. It ensures configuration files containing private keys or credentials can be stored in public repos while remaining inaccessible to unauthorized eyes.
   - **(2022)** [**developers.redhat.com: Protect secrets in Git with the clean/smudge filter**](https://developers.redhat.com/articles/2022/02/02/protect-secrets-git-cleansmudge-filter) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explains the deployment of Git clean/smudge filters as a local workstation guardrail. This configuration transparently encrypts and decrypts sensitive file values during Git staging and checkout processes, preventing accidental upstream exposure of raw development secrets.
-  - **(2020)** [git-cipher](https://github.com/wincent/git-cipher) <span class='md-tag md-tag--info'>⭐ 90</span> <span class='md-tag md-tag--warning'>[RUBY CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An older utility designed to cryptographically secure and decrypt files transparently inside Git workspaces. Largely superseded by modern alternatives like SOPS, it serves as an educational reference for understanding custom Git-filter operations.
+  - **(2020)** [git-cipher](https://github.com/wincent/git-cipher) <span class='md-tag md-tag--info'>⭐ 90</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-19613ecc" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 4 L 20 3 L 30 10 L 40 13 L 50 8" fill="none" stroke="url(#spark-grad-19613ecc)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[RUBY CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An older utility designed to cryptographically secure and decrypt files transparently inside Git workspaces. Largely superseded by modern alternatives like SOPS, it serves as an educational reference for understanding custom Git-filter operations.
 ### Education and Training
 
 #### Vulnerable Labs
@@ -520,7 +844,7 @@
 
 #### Authentication Proxy
 
-  - **(2026)** [**oauth2-proxy/oauth2-proxy: OAuth2 Proxy 🌟**](https://github.com/oauth2-proxy/oauth2-proxy) <span class='md-tag md-tag--info'>⭐ 14517</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly resilient reverse-proxy written in Go that validates user identities using OAuth2, OpenID Connect, or third-party providers. Implements stateful session storage, upstream header propagation, and custom claims verification. *Curator Insight vs. Live Grounding*: Confirmed as a stable, ubiquitous standard in modern cloud-native topologies for securing raw backend endpoints without code modifications.
+  - **(2026)** [**oauth2-proxy/oauth2-proxy: OAuth2 Proxy 🌟**](https://github.com/oauth2-proxy/oauth2-proxy) <span class='md-tag md-tag--info'>⭐ 14517</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-80503241" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 11 L 20 2 L 30 4 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-80503241)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly resilient reverse-proxy written in Go that validates user identities using OAuth2, OpenID Connect, or third-party providers. Implements stateful session storage, upstream header propagation, and custom claims verification. *Curator Insight vs. Live Grounding*: Confirmed as a stable, ubiquitous standard in modern cloud-native topologies for securing raw backend endpoints without code modifications.
 #### Core Fundamentals
 
   - **(2022)** [thenewstack.io: How Do Authentication and Authorization Differ?](https://thenewstack.io/how-do-authentication-and-authorization-differ) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Establishes clear architectural boundaries separating Authentication (AuthN - identity verification) and Authorization (AuthZ - permission validation). Maps out the operational mechanics of OIDC, OAuth 2.0, and RBAC models. Critical foundational knowledge for constructing clean abstraction boundaries in distributed application networks.
@@ -545,7 +869,7 @@
   - **(2021)** [Authorizing multi-language microservices with Louketo Proxy](https://developers.redhat.com/blog/2020/08/03/authorizing-multi-language-microservices-with-louketo-proxy) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Louketo Proxy (formerly Keycloak Gatekeeper) is an archived proxy designed to intercept requests and delegate authentication/authorization checks to Keycloak. While it served as a robust sidecar pattern for legacy apps, it has been officially deprecated. Architects must migrate to modern sidecars or Envoy-based API gateways.
 #### SSO Solution
 
-  - **(2026)** [==github.com/goauthentik/authentik==](https://github.com/goauthentik/authentik) <span class='md-tag md-tag--info'>⭐ 21988</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — authentik is an open-source identity infrastructure built to provide modern Single Sign-On (SSO), Multi-Factor Authentication (MFA), and fine-grained user access rules. It integrates with Kubernetes deployments using a highly scalable microservice design. This platform allows teams to build complex access policies for internal services and external applications alike.
+  - **(2026)** [==github.com/goauthentik/authentik==](https://github.com/goauthentik/authentik) <span class='md-tag md-tag--info'>⭐ 21988</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9f192d18" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 7 L 20 6 L 30 10 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-9f192d18)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — authentik is an open-source identity infrastructure built to provide modern Single Sign-On (SSO), Multi-Factor Authentication (MFA), and fine-grained user access rules. It integrates with Kubernetes deployments using a highly scalable microservice design. This platform allows teams to build complex access policies for internal services and external applications alike.
 #### State Management
 
   - **(2023)** [dev.to/fidalmathew: Session-Based vs. Token-Based Authentication: Which is better?](https://dev.to/fidalmathew/session-based-vs-token-based-authentication-which-is-better-227o) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth comparative study between stateful, cookie-driven session-based authentication and stateless, token-based (JWT) models. Highlights critical architectural impacts regarding horizontal scaling, cross-origin resource sharing (CORS) limits, and the absolute complexity of immediate session revocation in stateless systems.
@@ -554,13 +878,13 @@
   - **(2022)** [dev.to/irakan: Is JWT really a good fit for authentication?](https://dev.to/irakan/is-jwt-really-a-good-fit-for-authentication-1khm) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Presents a critical analysis of JSON Web Token (JWT) vulnerabilities, challenging its usage as a default user session store. Discusses security challenges including immediate revocation difficulties, cryptographic key rotation overhead, and token storage vulnerabilities. Promotes modern hybrid architectures utilizing transient references.
 #### Zero Trust Proxy
 
-  - **(2026)** [==Pomerium==](https://github.com/pomerium/pomerium) <span class='md-tag md-tag--info'>⭐ 4850</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Pomerium acts as an identity-aware, security-oriented context reverse proxy designed to establish robust Zero Trust access policies without relying on client-side VPN installations. It integrates with enterprise SSO providers to secure endpoints. Architecturally, it enforces contextual verification at the application layer, dramatically minimizing external attack vectors.
+  - **(2026)** [==Pomerium==](https://github.com/pomerium/pomerium) <span class='md-tag md-tag--info'>⭐ 4850</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-dcdc8fa6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 12 L 20 5 L 30 5 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-dcdc8fa6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Pomerium acts as an identity-aware, security-oriented context reverse proxy designed to establish robust Zero Trust access policies without relying on client-side VPN installations. It integrates with enterprise SSO providers to secure endpoints. Architecturally, it enforces contextual verification at the application layer, dramatically minimizing external attack vectors.
 ### Image Signing
 
 #### Cryptographic Trust
 
-  - **(2026)** [Cosign: Container Signing](https://github.com/sigstore/cosign) <span class='md-tag md-tag--info'>⭐ 6041</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Part of the Sigstore project, Cosign has established itself as the de facto standard for cryptographically signing and verifying OCI artifacts (container images, SBOMs). Supports hardware tokens, OIDC-based keyless signing, and seamless verification webhooks in Kubernetes, radically simplifying supply chain validation.
-  - **(2026)** [Notary](https://github.com/notaryproject/notary) <span class='md-tag md-tag--info'>⭐ 3289</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — CNCF's implementation of The Update Framework (TUF) for cryptographic image verification and trust. *Curator Insight vs. Live Grounding*: While structurally a highly robust foundation for Content Trust, Notary is categorized as legacy as the container ecosystem has overwhelmingly converged on Sigstore's Cosign for OCI signing.
+  - **(2026)** [Cosign: Container Signing](https://github.com/sigstore/cosign) <span class='md-tag md-tag--info'>⭐ 6041</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c71bb0a2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 12 L 20 6 L 30 8 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-c71bb0a2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Part of the Sigstore project, Cosign has established itself as the de facto standard for cryptographically signing and verifying OCI artifacts (container images, SBOMs). Supports hardware tokens, OIDC-based keyless signing, and seamless verification webhooks in Kubernetes, radically simplifying supply chain validation.
+  - **(2026)** [Notary](https://github.com/notaryproject/notary) <span class='md-tag md-tag--info'>⭐ 3289</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f2ebc2a0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 3 L 20 5 L 30 6 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-f2ebc2a0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — CNCF's implementation of The Update Framework (TUF) for cryptographic image verification and trust. *Curator Insight vs. Live Grounding*: While structurally a highly robust foundation for Content Trust, Notary is categorized as legacy as the container ecosystem has overwhelmingly converged on Sigstore's Cosign for OCI signing.
   - **(2022)** [infracloud.io: How to Secure Containers with Cosign and Distroless Images](https://www.infracloud.io/blogs/secure-containers-cosign-distroless-images) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exceptional guide mapping out a high-security container pipeline architecture. Combines Google Distroless base images (to minimize vulnerability footprint) with Sigstore Cosign (to assure container image identity and cryptographic authenticity). A vital blueprint for high-security cloud deployment designs.
   - **(2021)** [infracloud.io: Enforcing Image Trust on Docker Containers using Notary](https://www.infracloud.io/blogs/enforcing-image-trust-docker-containers-notary) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed engineering walkthrough illustrating Docker Content Trust configuration leveraging Notary servers. Explains dynamic key generation, delegation signatures, and client verification enforcement on container hosts. Highly recommended for understanding the history and theoretical roots of cryptographic container signing.
 ### Incident Response
@@ -580,7 +904,7 @@
   - **(2022)** [K8s Vault Webhook 🌟](https://ot-container-kit.github.io/k8s-vault-webhook) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed reference manual for the Banzai Cloud Kubernetes Vault Webhook. Explains mutating webhook mechanics that intercept pod creation to inject secure credentials into environment variables at runtime, using an in-memory execution wrapper to eliminate the need for persistent agent containers.
 #### Azure Integrations
 
-  - **(2023)** [==Azure Key Vault to Kubernetes==](https://github.com/SparebankenVest/azure-key-vault-to-kubernetes) <span class='md-tag md-tag--info'>⭐ 452</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The underlying GitHub repository for the `akv2k8s` project. Features Kubernetes Custom Resource Definitions (CRDs) like `AzureKeyVaultSecret` that run-loop to synchronize Azure credentials into physical Kubernetes secrets. Useful for architectures requiring strict backward compatibility with native Kubernetes secret bindings.
+  - **(2023)** [==Azure Key Vault to Kubernetes==](https://github.com/SparebankenVest/azure-key-vault-to-kubernetes) <span class='md-tag md-tag--info'>⭐ 452</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ba472675" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 8 L 20 12 L 30 13 L 40 3 L 50 13" fill="none" stroke="url(#spark-grad-ba472675)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The underlying GitHub repository for the `akv2k8s` project. Features Kubernetes Custom Resource Definitions (CRDs) like `AzureKeyVaultSecret` that run-loop to synchronize Azure credentials into physical Kubernetes secrets. Useful for architectures requiring strict backward compatibility with native Kubernetes secret bindings.
   - **(2023)** [akv2k8s.io: Azure Key Vault to Kubernetes akv2k8s 🌟](https://akv2k8s.io) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Main documentation site for `akv2k8s`, a specialized open-source integration bridging Azure Key Vault to Kubernetes. Outlines configuration methods for syncing secrets directly to native Kubernetes secret objects or dynamic injection into environment variables without exposing variables on disk.
 #### Bitnami Sealed Secrets
 
@@ -632,7 +956,7 @@
   - **(2024)** [cloud.google.com: OWASP Top 10 mitigation options on Google Cloud 🌟](https://docs.cloud.google.com/architecture/security/owasp-top-ten-mitigation) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An extensive architecture reference documenting Google Cloud-native mitigations mapping directly to the OWASP Top 10 vulnerabilities. Outlines how to leverage Cloud Armor, Identity-Aware Proxy (IAP), and Security Command Center to implement defense-in-depth security. Highly recommended for enterprise platform designers.
 #### Kubernetes Hardening (1)
 
-  - **(2024)** [github.com/OWASP: OWASP Kubernetes Top 10 🌟](https://github.com/OWASP/www-project-kubernetes-top-ten) <span class='md-tag md-tag--info'>⭐ 615</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official repository for the OWASP Kubernetes Top 10 project. Highlights major orchestrator risks like improper volume mounting, insecure RBAC configurations, network segment isolation issues, and image trust bypass. Serves as a baseline specification for enterprise-grade Kubernetes compliance auditing.
+  - **(2024)** [github.com/OWASP: OWASP Kubernetes Top 10 🌟](https://github.com/OWASP/www-project-kubernetes-top-ten) <span class='md-tag md-tag--info'>⭐ 615</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-15cfbbae" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 7 L 20 11 L 30 4 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-15cfbbae)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official repository for the OWASP Kubernetes Top 10 project. Highlights major orchestrator risks like improper volume mounting, insecure RBAC configurations, network segment isolation issues, and image trust bypass. Serves as a baseline specification for enterprise-grade Kubernetes compliance auditing.
 #### OWASP Top 10
 
   - **(2021)** [thenewstack.io: Latest OWASP Top 10 Surfaces Web Development Security Bugs](https://thenewstack.io/the-latest-owasp-top-10-looks-a-lot-like-the-old-owasp) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes shifts within the OWASP Top 10 web application vulnerabilities list. Highlights the prominence of Broken Access Control and Cryptographic Failures, showing a clear shift from simple code-level bugs (like injection) toward systemic architectural logic failures. Useful for security steering groups updating development policies.
@@ -665,7 +989,7 @@
   - **(2021)** [tryhackme.com: Metasploit: Introduction](https://tryhackme.com/room/metasploitintro) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This learning guide covers the core operations and architecture of the Metasploit Framework. It explains how security professionals configure exploit payloads, assess system vulnerabilities, and perform penetration tests. It is an excellent educational reference for security teams looking to perform automated offensive security testing.
 #### Security Containers
 
-  - **(2023)** [==cybersecsi/HOUDINI: Hundreds of Offensive and Useful Docker Images for' Network Intrusion==](https://github.com/cybersecsi/HOUDINI) <span class='md-tag md-tag--info'>⭐ 1253</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — HOUDINI gathers hundreds of preconfigured container images loaded with security tools, intrusion modules, and network diagnostic utilities. While its maintenance frequency has decreased, the structure provides a historical repository for testing setups. It is used primarily by forensic professionals looking for standardized local testing setups.
+  - **(2023)** [==cybersecsi/HOUDINI: Hundreds of Offensive and Useful Docker Images for' Network Intrusion==](https://github.com/cybersecsi/HOUDINI) <span class='md-tag md-tag--info'>⭐ 1253</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7f068948" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 6 L 20 4 L 30 5 L 40 13 L 50 3" fill="none" stroke="url(#spark-grad-7f068948)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — HOUDINI gathers hundreds of preconfigured container images loaded with security tools, intrusion modules, and network diagnostic utilities. While its maintenance frequency has decreased, the structure provides a historical repository for testing setups. It is used primarily by forensic professionals looking for standardized local testing setups.
 ### Public Key Infrastructure PKI
 
 #### Azure Operations
@@ -700,7 +1024,7 @@
 
 #### AWS Secrets Manager (1)
 
-  - **(2020)** [github.com/keilerkonzept/aws-secretsmanager-files](https://pkg.go.dev/github.com/keilerkonzept/aws-secretsmanager-files) <span class='md-tag md-tag--info'>⭐ 35</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A dedicated Go library designed to pull configurations from AWS Secrets Manager and map them directly into local files. This is extremely beneficial for containerized legacy applications that expect configurations as local disk paths rather than dynamic environment variables.
+  - **(2020)** [github.com/keilerkonzept/aws-secretsmanager-files](https://pkg.go.dev/github.com/keilerkonzept/aws-secretsmanager-files) <span class='md-tag md-tag--info'>⭐ 35</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-aae1c570" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 7 L 20 3 L 30 3 L 40 10 L 50 4" fill="none" stroke="url(#spark-grad-aae1c570)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A dedicated Go library designed to pull configurations from AWS Secrets Manager and map them directly into local files. This is extremely beneficial for containerized legacy applications that expect configurations as local disk paths rather than dynamic environment variables.
 #### Bitwarden Ecosystem
 
   - **(2023)** [thenewstack.io: Walkthrough: Bitwarden’s New Secrets Manager](https://thenewstack.io/walkthrough-bitwardens-new-secrets-manager)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines Bitwarden's specialized Secrets Manager. Evaluates its zero-knowledge architecture, CLI, programmatic API tokens, and SDK accessibility, highlighting its viability as an alternative to complex secrets management engines for distributed development teams.
@@ -710,15 +1034,15 @@
   - **(2020)** [jenkins-x.io: Setting up the secrets for your installation](https://jayex.io/v3/admin/setup/secrets) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A deployment guide detailing how to construct and map cryptographic secrets needed for Jenkins X core installations. Covers external secrets integration and mapping cloud-provider-backed secret managers directly to ephemeral cluster values.
 #### CSI Driver
 
-  - **(2024)** [**Kubernetes-Secrets-Store-CSI-Driver: Secrets Store CSI driver for Kubernetes' secrets**](https://github.com/kubernetes-sigs/secrets-store-csi-driver) <span class='md-tag md-tag--info'>⭐ 1537</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Implements the Secrets Store CSI standard, enabling pods to mount sensitive credentials directly from external secure vaults (AWS Secrets Manager, Azure Key Vault, HashiCorp Vault) as files, bypassing native secrets security issues.
+  - **(2024)** [**Kubernetes-Secrets-Store-CSI-Driver: Secrets Store CSI driver for Kubernetes' secrets**](https://github.com/kubernetes-sigs/secrets-store-csi-driver) <span class='md-tag md-tag--info'>⭐ 1537</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c7790a3a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 6 L 20 5 L 30 11 L 40 7 L 50 4" fill="none" stroke="url(#spark-grad-c7790a3a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Implements the Secrets Store CSI standard, enabling pods to mount sensitive credentials directly from external secure vaults (AWS Secrets Manager, Azure Key Vault, HashiCorp Vault) as files, bypassing native secrets security issues.
 #### CSI Driver Providers (1)
 
-  - **(2026)** [**GoogleCloudPlatform/secrets-store-csi-driver-provider-gcp: Google Secret' Manager Provider for Secret Store CSI Driver**](https://github.com/GoogleCloudPlatform/secrets-store-csi-driver-provider-gcp) <span class='md-tag md-tag--info'>⭐ 267</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The official GCP provider for the Kubernetes Secrets Store CSI Driver. It enables high-security mounting of secrets from GCP Secret Manager directly into ephemeral memory-backed volumes inside target Pods, removing the risk of persisting values in etcd or local physical disks.
-  - **(2026)** [**aws/secrets-store-csi-driver-provider-aws: AWS Secrets Manager and Config' Provider for Secret Store CSI Driver**](https://github.com/aws/secrets-store-csi-driver-provider-aws) <span class='md-tag md-tag--info'>⭐ 587</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The official AWS Secrets Manager provider for the Secrets Store CSI Driver. Mounts secrets directly from AWS Secrets Manager into pods as transient virtual filesystems, keeping secrets out of both the etcd database and persistent storage nodes.
-  - **(2026)** [**hashicorp/vault-csi-provider: HashiCorp Vault Provider for Secrets Store' CSI Driver**](https://github.com/hashicorp/vault-csi-provider) <span class='md-tag md-tag--info'>⭐ 347</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Integrates HashiCorp Vault directly with the Kubernetes Secret Store CSI Driver, rendering secrets from Vault's key-value engine as memory-mapped files in pod volumes. Drastically simplifies credentials ingestion while maintaining a hardened cluster isolation boundary.
+  - **(2026)** [**GoogleCloudPlatform/secrets-store-csi-driver-provider-gcp: Google Secret' Manager Provider for Secret Store CSI Driver**](https://github.com/GoogleCloudPlatform/secrets-store-csi-driver-provider-gcp) <span class='md-tag md-tag--info'>⭐ 267</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-74c4dd9b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 5 L 20 11 L 30 12 L 40 2 L 50 3" fill="none" stroke="url(#spark-grad-74c4dd9b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The official GCP provider for the Kubernetes Secrets Store CSI Driver. It enables high-security mounting of secrets from GCP Secret Manager directly into ephemeral memory-backed volumes inside target Pods, removing the risk of persisting values in etcd or local physical disks.
+  - **(2026)** [**aws/secrets-store-csi-driver-provider-aws: AWS Secrets Manager and Config' Provider for Secret Store CSI Driver**](https://github.com/aws/secrets-store-csi-driver-provider-aws) <span class='md-tag md-tag--info'>⭐ 587</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ba30d424" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 11 L 20 9 L 30 2 L 40 3 L 50 10" fill="none" stroke="url(#spark-grad-ba30d424)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The official AWS Secrets Manager provider for the Secrets Store CSI Driver. Mounts secrets directly from AWS Secrets Manager into pods as transient virtual filesystems, keeping secrets out of both the etcd database and persistent storage nodes.
+  - **(2026)** [**hashicorp/vault-csi-provider: HashiCorp Vault Provider for Secrets Store' CSI Driver**](https://github.com/hashicorp/vault-csi-provider) <span class='md-tag md-tag--info'>⭐ 347</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8ab0f0d8" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 7 L 20 10 L 30 2 L 40 3 L 50 4" fill="none" stroke="url(#spark-grad-8ab0f0d8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Integrates HashiCorp Vault directly with the Kubernetes Secret Store CSI Driver, rendering secrets from Vault's key-value engine as memory-mapped files in pod volumes. Drastically simplifies credentials ingestion while maintaining a hardened cluster isolation boundary.
 #### Centralized Vaults
 
-  - **(2026)** [==hashicorp/vault==](https://github.com/hashicorp/vault) <span class='md-tag md-tag--info'>⭐ 35780</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier multi-cloud secret manager, data protection engine, and dynamic credential broker. Despite HashiCorp's BSL license shifts, it remains the backbone of enterprise Zero Trust architectures, enabling ephemeral database credentials and granular IAM management across thousands of microservices.
+  - **(2026)** [==hashicorp/vault==](https://github.com/hashicorp/vault) <span class='md-tag md-tag--info'>⭐ 35780</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6df0ad1b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 7 L 20 13 L 30 4 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-6df0ad1b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier multi-cloud secret manager, data protection engine, and dynamic credential broker. Despite HashiCorp's BSL license shifts, it remains the backbone of enterprise Zero Trust architectures, enabling ephemeral database credentials and granular IAM management across thousands of microservices.
   - **(2026)** [==vaultproject.io==](https://developer.hashicorp.com/vault) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The master developer resource and documentation portal for the HashiCorp Vault ecosystem. Offers structured learning paths, architectural guides, and configuration references for implementing secure secret storage, PKI engines, and dynamic credential brokers.
 #### Cloud Managed Services
 
@@ -737,13 +1061,13 @@
   - **(2021)** [fpcomplete.com: Announcing Amber, encrypted secrets management](https://academy.fpblock.com/blog/announcing-amber-ci-secret-tool) <span class='md-tag md-tag--warning'>[RUST CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces Amber, a lightweight CI/CD-friendly command-line secrets tool designed to securely encrypt and decrypt sensitive application environment configurations. Offers an alternative to complex key management servers for basic build steps.
 #### GCP Secret Manager
 
-  - **(2021)** [jenkins-x/gsm-controller](https://github.com/jenkins-x/gsm-controller) <span class='md-tag md-tag--info'>⭐ 25</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An automated controller that continuously synchronizes secrets stored inside Google Secret Manager into standard Kubernetes native secret resources. Designed for Jenkins X deployments, it ensures consistent local availability of external cloud-backed credentials.
+  - **(2021)** [jenkins-x/gsm-controller](https://github.com/jenkins-x/gsm-controller) <span class='md-tag md-tag--info'>⭐ 25</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-28ca7fb8" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 7 L 20 3 L 30 10 L 40 13 L 50 13" fill="none" stroke="url(#spark-grad-28ca7fb8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An automated controller that continuously synchronizes secrets stored inside Google Secret Manager into standard Kubernetes native secret resources. Designed for Jenkins X deployments, it ensures consistent local availability of external cloud-backed credentials.
 #### GCP Security
 
   - **(2023)** [**cloud.google.com: Analyze secrets with Cloud Asset Inventory**](https://docs.cloud.google.com/secret-manager/docs/analyze-resources) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Introduces GCP-native tools and asset inventories designed to analyze and scan resource metadata for exposed secrets. Helps security teams audit access control policies, verify Secret Manager integration parameters, and enforce organizational IAM constraints dynamically.
 #### GitOps Encrypted Secrets
 
-  - **(2026)** [==sops: Simple and flexible tool for managing secrets 🌟==](https://github.com/getsops/sops) <span class='md-tag md-tag--info'>⭐ 22092</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An essential open-source tool for file-level encryption inside configuration management pipelines. SOPS supports partial file encryption for formats like YAML, JSON, and ENV, integrating natively with AWS KMS, GCP KMS, Azure Key Vault, HashiCorp Vault, age, and PGP. It is highly valued in GitOps workflows for its ability to securely commit encrypted configurations.
+  - **(2026)** [==sops: Simple and flexible tool for managing secrets 🌟==](https://github.com/getsops/sops) <span class='md-tag md-tag--info'>⭐ 22092</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8b8e42fa" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 8 L 20 6 L 30 3 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-8b8e42fa)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An essential open-source tool for file-level encryption inside configuration management pipelines. SOPS supports partial file encryption for formats like YAML, JSON, and ENV, integrating natively with AWS KMS, GCP KMS, Azure Key Vault, HashiCorp Vault, age, and PGP. It is highly valued in GitOps workflows for its ability to securely commit encrypted configurations.
   - **(2020)** [**thorsten-hans.com: Encrypt your Kubernetes Secrets with Mozilla SOPS**](https://www.thorsten-hans.com/encrypt-your-kubernetes-secrets-with-mozilla-sops) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A hands-on technical walkthrough for using Mozilla SOPS to securely encrypt Kubernetes Secrets manifests before committing them to VCS. Perfect for engineers implementing secure GitOps strategies with ArgoCD or FluxCD.
 #### HashiCorp Vault
 
@@ -759,7 +1083,7 @@
   - **(2022)** [kubewarden.io: Scanning secrets in environment variables](https://www.kubewarden.io/blog/2022/10/env-var-secrets) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates using Kubewarden WebAssembly admission policies to prevent deploying pods with cleartext secrets in environment variables. Shows how dynamic admission controllers can intercept manifest mutations to block insecure configurations.
 #### Kubernetes Integration
 
-  - **(2021)** [kubeopsskills/cloud-secret-resolvers: Cloud Secret Resolvers (CSR)](https://github.com/kubeopsskills/cloud-secret-resolvers) <span class='md-tag md-tag--info'>⭐ 35</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source operator-free secret resolver utility that queries AWS, Azure, and GCP secret stores dynamically, writing resolved parameters straight into runtime Kubernetes configurations. Reduces overhead associated with bulky operator systems.
+  - **(2021)** [kubeopsskills/cloud-secret-resolvers: Cloud Secret Resolvers (CSR)](https://github.com/kubeopsskills/cloud-secret-resolvers) <span class='md-tag md-tag--info'>⭐ 35</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-62abc094" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 3 L 20 12 L 30 13 L 40 13 L 50 10" fill="none" stroke="url(#spark-grad-62abc094)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source operator-free secret resolver utility that queries AWS, Azure, and GCP secret stores dynamically, writing resolved parameters straight into runtime Kubernetes configurations. Reduces overhead associated with bulky operator systems.
 #### Kubernetes Security (2)
 
   - **(2021)** [**thenewstack.io: Kubernetes Secrets Management: 3 Approaches, 9 Best Practices**](https://thenewstack.io/kubernetes-secrets-management-3-approaches-9-best-practices) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A deep dive into three major approaches to native and external secrets management in Kubernetes. Provides nine production-ready best practices, detailing encryption at rest in etcd, RBAC locking, and third-party CSI integrations.
@@ -774,7 +1098,7 @@
   - **(2022)** [thenewstack.io: The Top 5 Secrets Management Mistakes and How to Avoid Them](https://thenewstack.io/the-top-5-secrets-management-mistakes-and-how-to-avoid-them) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Identifies critical anti-patterns in cloud secrets administration, detailing the hazards of static credential rotation, environment variable exposure, and Git commits. Recommends implementing ephemeral credentials via HashiCorp Vault, dynamic injection, and scoped role access.
 #### Serverless Integration
 
-  - **(2020)** [github.com/kelseyhightower: Serverless Vault with Cloud Run](https://github.com/kelseyhightower/serverless-vault-with-cloud-run) <span class='md-tag md-tag--info'>⭐ 407</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An architectural blueprint designed by Kelsey Hightower illustrating how to run HashiCorp Vault inside a Google Cloud Run serverless container environment. Demonstrates minimizing operational and infrastructure overhead while maintaining a hardened, low-latency secret-vending cluster.
+  - **(2020)** [github.com/kelseyhightower: Serverless Vault with Cloud Run](https://github.com/kelseyhightower/serverless-vault-with-cloud-run) <span class='md-tag md-tag--info'>⭐ 407</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-08e56b66" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 3 L 20 9 L 30 13 L 40 8 L 50 4" fill="none" stroke="url(#spark-grad-08e56b66)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An architectural blueprint designed by Kelsey Hightower illustrating how to run HashiCorp Vault inside a Google Cloud Run serverless container environment. Demonstrates minimizing operational and infrastructure overhead while maintaining a hardened, low-latency secret-vending cluster.
 #### Source Code Scanning
 
   - **(2022)** [infracloud.io: How to Prevent Secret Leaks in Your Repositories](https://www.infracloud.io/blogs/prevent-secret-leaks-in-repositories)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares secrets-scanning tools like GitGuardian, gitleaks, and Trufflehog. Explains how to integrate pre-commit hooks and pipeline scanners to prevent leaking API keys, database credentials, and certificates to version control.
@@ -841,7 +1165,7 @@
   - **(2021)** [opensource.com: Sign and verify container images with this open source tool (sigstore)](https://opensource.com/article/21/12/sigstore-container-images)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A hands-on tutorial outlining how to cryptographically sign and verify container images using Cosign. Teaches developers how to generate local keypairs, write signatures directly to remote OCI registries, and build validation check gates.
 #### Keyless Signing
 
-  - **(2021)** [chrisns/cosign-keyless-demo: Cosign Keyless GitHub Action Demo](https://github.com/chrisns/cosign-keyless-demo) <span class='md-tag md-tag--info'>⭐ 14</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical reference repository showcasing how to perform keyless container image signing inside GitHub Actions using Cosign. The blueprint demonstrates authenticating against Fulcio and Rekor using GitHub's temporary identity tokens. Essential for platform engineers looking to implement secure-by-default CI/CD pipelines.
+  - **(2021)** [chrisns/cosign-keyless-demo: Cosign Keyless GitHub Action Demo](https://github.com/chrisns/cosign-keyless-demo) <span class='md-tag md-tag--info'>⭐ 14</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1b73c202" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 2 L 20 8 L 30 2 L 40 2 L 50 6" fill="none" stroke="url(#spark-grad-1b73c202)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical reference repository showcasing how to perform keyless container image signing inside GitHub Actions using Cosign. The blueprint demonstrates authenticating against Fulcio and Rekor using GitHub's temporary identity tokens. Essential for platform engineers looking to implement secure-by-default CI/CD pipelines.
 #### Video Learning
 
   - **(2021)** [youtube: Hands-on Introduction to sigstore | Rawkode Live](https://www.youtube.com/watch?v=fZfd4orrn8Y&ab_channel=RawkodeAcademy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive, video-based introduction to the Sigstore ecosystem. Walks through keyless container registry signing, leveraging ephemeral signing certificates backed by OIDC, and writing public keys directly to the Rekor transparency ledger.
@@ -855,7 +1179,7 @@
   - **(2021)** [itnext.io: Top 6 Threat Detection Tools for Containers](https://itnext.io/top-6-threat-detection-tools-for-containers-3dd80b77777e) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-level technical assessment of the top six real-time threat detection technologies engineered for containers. It contrasts kernel-level trace systems (like eBPF) with agentless static scanners to highlight their unique benefits. This overview assists in building a comprehensive, multi-layered threat mitigation stack.
 #### Malware Scanning
 
-  - **(2026)** [deepfence/YaraHunter](https://github.com/deepfence/YaraHunter) <span class='md-tag md-tag--info'>⭐ 1321</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deepfence's YaraHunter is a highly specialized open-source utility that scans container images, filesystems, and directories for malware and Indicators of Compromise (IoC) using YARA rules. Operates out-of-band to discover hidden secrets, active exploits, and remote shells, ensuring build artifacts conform to regulatory secure postures.
+  - **(2026)** [deepfence/YaraHunter](https://github.com/deepfence/YaraHunter) <span class='md-tag md-tag--info'>⭐ 1321</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3d198b14" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 2 L 20 4 L 30 12 L 40 12 L 50 3" fill="none" stroke="url(#spark-grad-3d198b14)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deepfence's YaraHunter is a highly specialized open-source utility that scans container images, filesystems, and directories for malware and Indicators of Compromise (IoC) using YARA rules. Operates out-of-band to discover hidden secrets, active exploits, and remote shells, ensuring build artifacts conform to regulatory secure postures.
 #### OS Security
 
   - **(2021)** [it.slashdot.org: And the Top Source of Critical Security Threats Is...PowerShell](https://it.slashdot.org/story/21/05/22/041242/and-the-top-source-of-critical-security-threats-ispowershell) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This reporting explores how PowerShell is frequently leveraged as a major vector for executing post-exploitation activities and malicious scripts. It discusses the importance of securing scripting environments and restricting user privilege levels. It highlights strategies for monitoring and auditing shell executions.
@@ -887,14 +1211,14 @@
   - **(2021)** [cloud.redhat.com: Log4Shell: Practical Mitigations and Impact Analysis of the Log4j Vulnerabilities](https://www.redhat.com/en/blog/log4shell-practical-mitigations-and-impact-analysis) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat's enterprise-level analysis of the Log4Shell vulnerability, detailing its potential impact on enterprise Linux distributions and OpenShift clusters. It outlines system configuration workarounds, JVM override parameters, and patching instructions. This reference is crucial for administrators seeking to protect large-scale production deployments.
 #### Log4Shell Scanners
 
-  - **(2021)** [==proferosec/log4jScanner==](https://github.com/proferosec/log4jScanner) <span class='md-tag md-tag--info'>⭐ 489</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A community-focused scanning utility designed to recursively inspect complex directory structures and nested archives for vulnerable Log4j libraries. It is a highly useful offline scanner for validating legacy artifacts and directory paths without needing dynamic agents or runtimes.
-  - **(2021)** [==yahoo/check-log4j==](https://github.com/yahoo/check-log4j) <span class='md-tag md-tag--info'>⭐ 169</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Yahoo's archived, command-line tool designed to detect vulnerable Log4j JAR instances within mounted folder structures and container layers. It uses local binary scanning patterns to identify vulnerabilities, making it a reliable reference for building custom forensic scanning tools.
-  - **(2021)** [==Maelstromage/Log4jSherlock==](https://github.com/Maelstromage/Log4jSherlock) <span class='md-tag md-tag--info'>⭐ 108</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A Python utility designed to scan compiled archives (JAR, WAR, EAR) for compromised Log4j classes. While its active maintenance has slowed, the script remains a useful reference for performing offline filesystem audits on legacy systems. It provides clear patterns for searching deep directory structures.
-  - **(2021)** [==google/log4jscanner==](https://github.com/google/log4jscanner) <span class='md-tag md-tag--info'>⭐ 1563</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Google's high-speed scanning utility developed to locate vulnerable Log4j dependencies within local file structures and directory trees. Written in Go, it parses unpackaged Java archives to identify compromised signatures. It is an excellent tool for performing fast, offline validation on build artifacts.
+  - **(2021)** [==proferosec/log4jScanner==](https://github.com/proferosec/log4jScanner) <span class='md-tag md-tag--info'>⭐ 489</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ff865aa2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 7 L 20 3 L 30 8 L 40 8 L 50 11" fill="none" stroke="url(#spark-grad-ff865aa2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A community-focused scanning utility designed to recursively inspect complex directory structures and nested archives for vulnerable Log4j libraries. It is a highly useful offline scanner for validating legacy artifacts and directory paths without needing dynamic agents or runtimes.
+  - **(2021)** [==yahoo/check-log4j==](https://github.com/yahoo/check-log4j) <span class='md-tag md-tag--info'>⭐ 169</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-286e1d5d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 13 L 20 10 L 30 5 L 40 8 L 50 11" fill="none" stroke="url(#spark-grad-286e1d5d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Yahoo's archived, command-line tool designed to detect vulnerable Log4j JAR instances within mounted folder structures and container layers. It uses local binary scanning patterns to identify vulnerabilities, making it a reliable reference for building custom forensic scanning tools.
+  - **(2021)** [==Maelstromage/Log4jSherlock==](https://github.com/Maelstromage/Log4jSherlock) <span class='md-tag md-tag--info'>⭐ 108</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9d04e7d3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 7 L 20 9 L 30 8 L 40 10 L 50 6" fill="none" stroke="url(#spark-grad-9d04e7d3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A Python utility designed to scan compiled archives (JAR, WAR, EAR) for compromised Log4j classes. While its active maintenance has slowed, the script remains a useful reference for performing offline filesystem audits on legacy systems. It provides clear patterns for searching deep directory structures.
+  - **(2021)** [==google/log4jscanner==](https://github.com/google/log4jscanner) <span class='md-tag md-tag--info'>⭐ 1563</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e96cd022" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 5 L 20 11 L 30 3 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-e96cd022)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Google's high-speed scanning utility developed to locate vulnerable Log4j dependencies within local file structures and directory trees. Written in Go, it parses unpackaged Java archives to identify compromised signatures. It is an excellent tool for performing fast, offline validation on build artifacts.
   - **(2021)** [cisagov/log4j-scanner](https://github.com/cisagov/log4j-scanner) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — CISA's open-source scanning tool designed to verify Log4j vulnerabilities by executing safe, targeted callback requests. It is a highly reliable diagnostic utility for auditing external attack surfaces and ensuring regulatory compliance. The tool remains an essential resource for enterprise security audits.
 #### Log4j Detection Agent
 
-  - **(2021)** [github.com/aws-samples: Apache Log4j2 CVE-2021-44228 node agent](https://github.com/aws-samples/kubernetes-log4j-cve-2021-44228-node-agent) <span class='md-tag md-tag--info'>⭐ 2</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An archival security daemonset developed by AWS to locate containers running vulnerable Log4j libraries in Kubernetes. While no longer actively maintained, the scanning patterns and daemon architecture provide a solid reference for building automated host security scanning tools.
+  - **(2021)** [github.com/aws-samples: Apache Log4j2 CVE-2021-44228 node agent](https://github.com/aws-samples/kubernetes-log4j-cve-2021-44228-node-agent) <span class='md-tag md-tag--info'>⭐ 2</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-661552a7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 8 L 20 13 L 30 13 L 40 6 L 50 7" fill="none" stroke="url(#spark-grad-661552a7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An archival security daemonset developed by AWS to locate containers running vulnerable Log4j libraries in Kubernetes. While no longer actively maintained, the scanning patterns and daemon architecture provide a solid reference for building automated host security scanning tools.
 #### Log4j Evolution
 
   - **(2021)** [thenewstack.io: Yet Another Log4j Security Problem Appears](https://thenewstack.io/yet-another-log4j-security-problem-appears) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This article tracks the emergence of subsequent vulnerabilities discovered within early Log4j patch updates. It analyzes why partial mitigations and incomplete configurations failed to resolve the issues, highlighting the need for comprehensive updates. It provides crucial context for managing complex software supply chain threats.
@@ -934,11 +1258,11 @@
   - **(2024)** [Anchore: Secure Container Based CI/CD Workflows](https://anchore.com/cicd) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses integrating Anchore container security gates directly within automated CI/CD build scripts. Focuses on automated SBOM extraction, system package inspection, and vulnerability threshold enforcement, blocking problematic deployment builds long before registry promotion.
 #### CNAPP Platform
 
-  - **(2026)** [==deepfence/ThreatMapper 🌟==](https://github.com/deepfence/ThreatMapper) <span class='md-tag md-tag--info'>⭐ 5278</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — ThreatMapper is an open-source Cloud Native Application Protection Platform (CNAPP) designed by Deepfence. It maps runtime behaviors to trace attack paths across networks and registries, highlighting vulnerable exposed services. This tool helps security teams prioritize remediation efforts based on actual threat exposure.
+  - **(2026)** [==deepfence/ThreatMapper 🌟==](https://github.com/deepfence/ThreatMapper) <span class='md-tag md-tag--info'>⭐ 5278</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-4adc6fbe" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 11 L 20 9 L 30 2 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-4adc6fbe)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — ThreatMapper is an open-source Cloud Native Application Protection Platform (CNAPP) designed by Deepfence. It maps runtime behaviors to trace attack paths across networks and registries, highlighting vulnerable exposed services. This tool helps security teams prioritize remediation efforts based on actual threat exposure.
 #### Container Scanning
 
-  - **(2026)** [==Clair==](https://github.com/quay/clair) <span class='md-tag md-tag--info'>⭐ 11012</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly scalable, API-driven container vulnerability static analysis engine. Clair analyzes image layers against indexed vulnerability databases and is integrated as a core scanning backend in enterprise-grade container registries like Quay and Harbor.
-  - **(2026)** [==trivy==](https://github.com/aquasecurity/trivy) <span class='md-tag md-tag--info'>⭐ 36431</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Aqua Security's Trivy is an exceptionally fast, highly versatile security scanner for containers, IaC configurations, and software vulnerabilities. Known for its streamlined caching, wide packaging-format support, and outstanding CI integration. It is universally adopted as a de facto container validation tool in secure software pipelines.
+  - **(2026)** [==Clair==](https://github.com/quay/clair) <span class='md-tag md-tag--info'>⭐ 11012</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9a282561" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 7 L 20 7 L 30 10 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-9a282561)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly scalable, API-driven container vulnerability static analysis engine. Clair analyzes image layers against indexed vulnerability databases and is integrated as a core scanning backend in enterprise-grade container registries like Quay and Harbor.
+  - **(2026)** [==trivy==](https://github.com/aquasecurity/trivy) <span class='md-tag md-tag--info'>⭐ 36431</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7fdb3d2f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 8 L 20 8 L 30 4 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-7fdb3d2f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Aqua Security's Trivy is an exceptionally fast, highly versatile security scanner for containers, IaC configurations, and software vulnerabilities. Known for its streamlined caching, wide packaging-format support, and outstanding CI integration. It is universally adopted as a de facto container validation tool in secure software pipelines.
   - **(2026)** [Anchore](https://anchore.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main enterprise platform hub of Anchore. Provides automated Software Bill of Materials (SBOM) generation, continuous image vulnerability assessment, and policy enforcement engines. Vital for organizations seeking to inject continuous risk modeling and compliance gates into cloud-native supply chains.
   - **(2022)** [sysdig.com: Top vulnerability assessment and management best practices](https://www.sysdig.com/blog/vulnerability-assessment) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical guide on establishing vulnerability management practices across container registries and active Kubernetes runtimes. Highlights using distroless images, automating build blocks on critical CVE discoveries, and running runtime drift detection to track package modifications.
   - **(2021)** [thenewstack.io: Anchore: Scan Your Container Images for Vulnerabilities from the Command Line](https://thenewstack.io/anchore-scan-your-container-images-for-vulnerabilities-from-the-command-line) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains utilizing Anchore's command-line interfaces to run comprehensive security and configuration audits on local container images. Focuses on deep extraction of system dependencies, library structures, and misconfigurations, showing how to identify risks prior to pushing images into registries.
@@ -954,7 +1278,7 @@
 
 #### Container Images
 
-  - **(2025)** [==grype: a vulnerability scanner for container images and filesystems==](https://github.com/anchore/grype) <span class='md-tag md-tag--info'>⭐ 12400</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A vulnerability scanner for container images and filesystems, renowned for its speed, minimal footprint, and ease of CI/CD integration. It supports multiple vulnerability sources and outputs structured data compatible with enterprise DevSecOps tools. Through 2026, it stands as the industry standard tool for shift-left image security.
+  - **(2025)** [==grype: a vulnerability scanner for container images and filesystems==](https://github.com/anchore/grype) <span class='md-tag md-tag--info'>⭐ 12400</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1dbdf70f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 13 L 20 3 L 30 11 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-1dbdf70f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A vulnerability scanner for container images and filesystems, renowned for its speed, minimal footprint, and ease of CI/CD integration. It supports multiple vulnerability sources and outputs structured data compatible with enterprise DevSecOps tools. Through 2026, it stands as the industry standard tool for shift-left image security.
 ### Zero Trust Architectures (1)
 
 #### Modern Secrets Paradigms
@@ -1015,7 +1339,7 @@
 #### Industry Trends (1)
 
   - **(2021)** [devclass.com: Docker: It’s not dead yet, but there’s a tendency to walk away, security report finds](https://www.devclass.com/containers/2021/01/13/docker-its-not-dead-yet-but-theres-a-tendency-to-walk-away-security-report-finds/1620265)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores shifting enterprise preferences from traditional Docker runtimes to modern, container runtime standards like containerd and CRI-O. Focuses on security reports indicating how Kubernetes runtime deprecations and attack-surface reduction drive this trend.
-### DevSecOps (2)
+### DevSecOps (1)
 
 #### AWS Implementations
 
@@ -1077,5 +1401,5 @@
   - **(2022)** [permission.site](https://permission.site)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive security validation platform that allows engineers to test how various browser APIs, iframe permissions, and Content Security Policies (CSP) behave, enabling precise verification of client-side web application security postures.
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Oauth](./oauth.md)
+💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Chef](./chef.md)
 

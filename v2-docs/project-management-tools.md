@@ -3,6 +3,36 @@
 !!! info "Architectural Context"
     Detailed reference for Project Management Tools in the context of Platform & Site Reliability.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Collaboration Tools](#collaboration-tools)
+  - [SaaS Utilities](#saas-utilities)
+    - [Quick Link](#quick-link)
+1. [Developer Productivity](#developer-productivity)
+  - [Business Utilities](#business-utilities)
+    - [Invoicing](#invoicing)
+    - [Naming Generator](#naming-generator)
+    - [Operations](#operations)
+  - [Collaboration](#collaboration)
+    - [Chat Platforms](#chat-platforms)
+    - [Cloud Storage](#cloud-storage)
+    - [Micro-frontends](#micro-frontends)
+    - [Video Conferencing](#video-conferencing)
+  - [Documentation](#documentation)
+    - [Continuous Documentation](#continuous-documentation)
+    - [Knowledge Base](#knowledge-base)
+    - [Note-Taking](#note-taking)
+  - [Project Management](#project-management)
+    - [Agile Platforms](#agile-platforms)
+    - [Open Source PM](#open-source-pm)
+    - [Templates](#templates)
+  - [Utilities](#utilities)
+    - [Alternatives Finder](#alternatives-finder)
+    - [GitHub Shortcuts](#github-shortcuts)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -61,7 +91,7 @@
   - **(2020)** [opensource.com: 3 open source alternatives to Confluence](https://opensource.com/article/20/9/open-source-alternatives-confluence)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative guide highlighting three popular open-source alternatives to Confluence, enabling teams to build customizable, cost-effective, and secure self-hosted internal documentation bases.
 #### Note-Taking
 
-  - **(2026)** [==joplin==](https://github.com/laurent22/joplin) <span class='md-tag md-tag--info'>⭐ 55187</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A widely adopted open-source note-taking and to-do application. Supports End-to-End Encryption (E2EE), Markdown editing, and dynamic synchronization across private cloud systems.
+  - **(2026)** [==joplin==](https://github.com/laurent22/joplin) <span class='md-tag md-tag--info'>⭐ 55187</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b38a4328" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 3 L 20 12 L 30 7 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-b38a4328)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A widely adopted open-source note-taking and to-do application. Supports End-to-End Encryption (E2EE), Markdown editing, and dynamic synchronization across private cloud systems.
 ### Project Management
 
 #### Agile Platforms
@@ -89,5 +119,5 @@
   - **(2026)** [GH Gists: gist.new](https://gist.github.com/starred)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An efficiency shortcut (`gist.new`) that directs users to GitHub's Gist creation environment. Allows developers to rapidly save, share, and audit isolated code configurations, terminal scripts, or stack traces without initializing full Git trees.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [QA](./qa.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Developerportals](./developerportals.md) | [SRE](./sre.md)
 

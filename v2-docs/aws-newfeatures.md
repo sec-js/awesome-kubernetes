@@ -3,6 +3,157 @@
 !!! info "Architectural Context"
     Detailed reference for AWS New Features in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Application Integration](#application-integration)
+  - [Serverless Orchestration](#serverless-orchestration)
+    - [Step Functions](#step-functions)
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Governance](#cloud-governance)
+  - [Landing Zones](#landing-zones)
+    - [Control Tower](#control-tower)
+  - [Resource Tagging](#resource-tagging)
+    - [Automation](#automation)
+  - [Service Catalog](#service-catalog)
+    - [Operations Automation](#operations-automation)
+1. [Cloud Infrastructure](#cloud-infrastructure)
+  - [AWS](#aws)
+    - [Business Applications](#business-applications)
+    - [Compute](#compute)
+    - [Container Orchestration](#container-orchestration)
+    - [Governance](#governance)
+    - [Internet of Things](#internet-of-things)
+    - [Management Tools](#management-tools)
+    - [Mobile Development](#mobile-development)
+    - [Mobile Testing](#mobile-testing)
+    - [Monitoring](#monitoring)
+    - [Regions](#regions)
+    - [Security](#security)
+    - [Serverless](#serverless)
+    - [Storage](#storage)
+  - [Compute](#compute-1)
+    - [Auto Scaling](#auto-scaling)
+    - [EC2 Troubleshooting](#ec2-troubleshooting)
+    - [Multi-Region Operations](#multi-region-operations)
+    - [Operating Systems](#operating-systems)
+    - [Spot Instances](#spot-instances)
+  - [Console](#console)
+    - [UIUX](#uiux)
+  - [Container Orchestration](#container-orchestration-1)
+    - [ECS Deployments](#ecs-deployments)
+    - [EKS Kubernetes](#eks-kubernetes)
+    - [EKS Security](#eks-security)
+    - [EKS Windows](#eks-windows)
+    - [Storage Integration](#storage-integration)
+  - [Databases](#databases)
+    - [Backup and Recovery](#backup-and-recovery)
+    - [Data Migration](#data-migration)
+    - [RDS Deployments](#rds-deployments)
+    - [Secrets Management](#secrets-management)
+  - [Edge Compute](#edge-compute)
+    - [Local Zones](#local-zones)
+  - [FinOps](#finops)
+    - [Cost Management](#cost-management)
+  - [Global Infrastructure](#global-infrastructure)
+    - [Regions](#regions-1)
+  - [Governance](#governance-1)
+    - [AWS Organizations](#aws-organizations)
+    - [Compliance](#compliance)
+    - [Resource Tracking](#resource-tracking)
+    - [Systems Management](#systems-management)
+  - [Identity and Access](#identity-and-access)
+    - [API Management](#api-management)
+    - [Access Control](#access-control)
+    - [Directory Services](#directory-services)
+    - [MFA](#mfa)
+    - [Privilege Management](#privilege-management)
+    - [Session Management](#session-management)
+  - [Market Analysis](#market-analysis)
+    - [Critical Review](#critical-review)
+    - [ReInvent Announcements](#reinvent-announcements)
+  - [Messaging](#messaging)
+    - [Event-Driven](#event-driven)
+  - [Migration](#migration)
+    - [VM Import Export](#vm-import-export)
+  - [Networking](#networking)
+    - [CDN Security](#cdn-security)
+    - [Deprecations](#deprecations)
+    - [Hybrid Connectivity](#hybrid-connectivity)
+    - [Load Balancing](#load-balancing)
+    - [NAT Gateway](#nat-gateway)
+    - [Network Security](#network-security)
+    - [Security Groups](#security-groups)
+    - [VPC Addressing](#vpc-addressing)
+    - [VPC Visualization](#vpc-visualization)
+  - [Observability](#observability)
+    - [Managed Monitoring](#managed-monitoring)
+    - [Metric Extraction](#metric-extraction)
+    - [Metrics](#metrics)
+    - [Multi-Account](#multi-account)
+  - [Security](#security-1)
+    - [DDoS Protection](#ddos-protection)
+    - [Key Management](#key-management)
+    - [Network Firewall](#network-firewall)
+    - [Policy Generation](#policy-generation)
+    - [Threat Detection](#threat-detection)
+    - [Threat Hunting](#threat-hunting)
+    - [WAF Rules](#waf-rules)
+  - [Security and Service Mesh](#security-and-service-mesh)
+    - [HashiCorp HCP](#hashicorp-hcp)
+  - [Serverless](#serverless-1)
+    - [Compute](#compute-2)
+    - [Developer Tooling](#developer-tooling)
+  - [Storage](#storage-1)
+    - [EFS](#efs)
+  - [Storage and Backup](#storage-and-backup)
+    - [Compliance](#compliance-1)
+    - [S3 Security](#s3-security)
+  - [Virtualization](#virtualization)
+    - [VDI](#vdi)
+1. [Containers](#containers)
+  - [Kubernetes](#kubernetes)
+    - [EKS Console](#eks-console)
+    - [EKS Networking](#eks-networking)
+    - [EKS Security](#eks-security-1)
+  - [Market Analysis](#market-analysis-1)
+    - [ReInvent Announcements](#reinvent-announcements-1)
+1. [Data and Analytics](#data-and-analytics)
+  - [Data Protection](#data-protection)
+    - [AWS Backup](#aws-backup)
+    - [Compliance](#compliance-2)
+  - [Data Streaming](#data-streaming)
+    - [Kinesis](#kinesis)
+  - [Data Warehouse](#data-warehouse)
+    - [Redshift](#redshift)
+1. [Database](#database)
+  - [RDS Proxy](#rds-proxy)
+    - [Networking](#networking-1)
+  - [Relational Database](#relational-database)
+    - [RDS High Availability](#rds-high-availability)
+1. [Infrastructure as Code](#infrastructure-as-code)
+  - [CloudFormation](#cloudformation)
+    - [State Management](#state-management)
+1. [Observability](#observability-1)
+  - [CloudWatch](#cloudwatch)
+    - [Access Management](#access-management)
+    - [Multi-Account Monitoring](#multi-account-monitoring)
+  - [Grafana](#grafana)
+    - [Managed Visualization](#managed-visualization)
+  - [OpenTelemetry](#opentelemetry)
+    - [Distributed Tracing](#distributed-tracing)
+  - [Prometheus](#prometheus)
+    - [Managed Container Monitoring](#managed-container-monitoring)
+1. [Security and Compliance](#security-and-compliance)
+  - [Cloud Security Posture](#cloud-security-posture)
+    - [Security Hub](#security-hub)
+  - [Vulnerability Management](#vulnerability-management)
+    - [Inspector](#inspector)
+1. [Software Engineering](#software-engineering)
+  - [AI Code Analysis](#ai-code-analysis)
+    - [Developer Enablement](#developer-enablement)
+
 ## Application Integration
 
 ### Serverless Orchestration
@@ -78,7 +229,7 @@
 #### Security
 
   - **(2021)** [**amazon.com: Reduce Unwanted Traffic on Your Website with New AWS WAF Bot Control**](https://aws.amazon.com/blogs/aws/reduce-unwanted-traffic-on-your-web-site-with-aws-bot-control) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Explains AWS WAF Bot Control integration. Discusses using preconfigured rule groups at edge distribution tiers to detect, classify, and isolate automated malicious scraper patterns.
-  - **(2020)** [**github.com/hayao-k/cdk-ecr-image-scan-notify**](https://github.com/hayao-k/cdk-ecr-image-scan-notify) <span class='md-tag md-tag--info'>⭐ 29</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Community CDK construct that maps AWS EventBridge patterns to detect ECR image vulnerability scans. Automatically processes and delivers structured notifications to Slack/Teams channels using Lambda.
+  - **(2020)** [**github.com/hayao-k/cdk-ecr-image-scan-notify**](https://github.com/hayao-k/cdk-ecr-image-scan-notify) <span class='md-tag md-tag--info'>⭐ 29</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d6c5393e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 8 L 20 2 L 30 4 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-d6c5393e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Community CDK construct that maps AWS EventBridge patterns to detect ECR image vulnerability scans. Automatically processes and delivers structured notifications to Slack/Teams channels using Lambda.
   - **(2015)** [**Amazon Inspector – Automated Security Assessment Service**](https://aws.amazon.com/blogs/aws/amazon-inspector-automated-security-assessment-service) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Architectural overview of Amazon Inspector, an automated vulnerability management service. Details continuous software vulnerability assessments on EC2 instances, ECR container layers, and serverless runtimes.
 #### Serverless
 
@@ -117,6 +268,9 @@
 #### EKS Kubernetes
 
   - **(2023)** [Amazon EKS now supports Kubernetes version 1.25](https://aws.amazon.com/blogs/containers/amazon-eks-now-supports-kubernetes-version-1-25) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Amazon EKS added support for Kubernetes version 1.25, bringing security policy updates, API removals (such as PodSecurityPolicy), and core platform enhancements like container registry authentication improvements.
+#### EKS Security
+
+  - **(2023)** [Amazon EKS introduces EKS Pod Identity](https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-eks-pod-identity) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — EKS Pod Identity simplifies the association of IAM roles with Kubernetes service accounts. This model bypasses the complexities of OIDC trust configurations, offering highly scalable, secure, and isolated credential structures for containers.
 #### EKS Windows
 
   - **(2022)** [Amazon EKS launches automated provisioning and lifecycle management for Windows containers](https://aws.amazon.com/about-aws/whats-new/2022/12/amazon-eks-automated-provisioning-lifecycle-management-windows-containers) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Amazon EKS automated the deployment and lifecycle management of Windows container nodes. It simplifies AMI updates, security patching, and scaling operations for Windows-based workloads on Kubernetes, aligning them with traditional Linux container management patterns.
@@ -317,7 +471,7 @@
 #### EKS Networking
 
   - **(2021)** [==Amazon VPC CNI plugin increases pods per node limits==](https://aws.amazon.com/about-aws/whats-new/2021/07/amazon-vpc-cni-plugin-increases-pods-per-node-limits) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Introduces Prefix Delegation in the AWS VPC CNI, multiplying the number of pods allocatable per node. By assigning /28 IPv4 prefixes to network interfaces instead of single secondary IPs, small-to-medium EC2 instances can support significantly higher container densities. This architecture directly addresses the IP exhaustion problem in enterprise Kubernetes deployments on AWS.
-#### EKS Security
+#### EKS Security (1)
 
   - **(2021)** [==Amazon EKS clusters now support user authentication with OIDC compatible identity providers==](https://aws.amazon.com/about-aws/whats-new/2021/02/amazon-eks-clusters-support-user-authentication-oidc-compatible-identity-providers) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Enables EKS clusters to utilize external OpenID Connect (OIDC) compatible identity providers for user authentication. This decouples Kubernetes RBAC from direct IAM identity mappings, allowing developers to leverage existing SSO solutions like Okta or Keycloak. It simplifies security governance by maintaining enterprise identity standards at the cluster API level.
 ### Market Analysis (1)
@@ -411,5 +565,5 @@
   - **(2021)** [Introducing new self-paced courses to improve Java and Python code quality with Amazon CodeGuru](https://aws.amazon.com/blogs/devops/new-self-paced-courses-to-improve-java-and-python-code-quality-with-amazon-codeguru) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Educational curriculum focusing on utilizing CodeGuru's machine-learning engines to detect concurrency bugs, resource leaks, and performance bottlenecks in Java and Python. These courses provide hands-on telemetry guides to maximize DevSecOps efficiency. Architecturally, CodeGuru integrates into CI/CD pipelines to enforce static and dynamic code quality.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md)
 

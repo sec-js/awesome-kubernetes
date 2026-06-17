@@ -3,6 +3,20 @@
 !!! info "Architectural Context"
     Detailed reference for Scaffolding Tools in the context of Platform & Site Reliability.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Developer Experience](#developer-experience)
+  - [Inner Loop Development](#inner-loop-development)
+    - [Local Tooling](#local-tooling)
+1. [Software Engineering](#software-engineering)
+  - [Application Scaffolding](#application-scaffolding)
+    - [Boilerplate Tools](#boilerplate-tools)
+  - [Build Systems](#build-systems)
+    - [Java Ecosystem](#java-ecosystem)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -34,5 +48,5 @@
   - **(2025)** [Maven](https://nubenetes.com/maven-gradle) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comparative architectural overview of Maven and Gradle. Outlines declarative XML configurations versus programmatic Groovy/Kotlin Gradle DSL scripts, analyzing cache efficiency, parallel build runtimes, and enterprise dependency-resolution policies.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [QA](./qa.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Developerportals](./developerportals.md) | [SRE](./sre.md)
 

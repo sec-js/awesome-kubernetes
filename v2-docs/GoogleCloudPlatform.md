@@ -3,13 +3,145 @@
 !!! info "Architectural Context"
     Detailed reference for Google Cloud Platform in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [AI and Orchestration](#ai-and-orchestration)
+  - [Agentic Workflows](#agentic-workflows)
+    - [Command-Line Tools](#command-line-tools)
+1. [AI Engineering](#ai-engineering)
+  - [Agentic Frameworks](#agentic-frameworks)
+    - [Google Cloud](#google-cloud)
+1. [Application Development](#application-development)
+  - [API Management](#api-management)
+    - [Apigee Integration](#apigee-integration)
+  - [Automation](#automation)
+    - [Python](#python)
+  - [Data Engineering](#data-engineering)
+    - [Google Sheets](#google-sheets)
+  - [Developer Portal](#developer-portal)
+    - [Open Source Showcase](#open-source-showcase)
+  - [Low-CodeNo-Code](#low-codeno-code)
+    - [Platform Review](#platform-review)
+    - [Productivity](#productivity)
+  - [Workflows](#workflows)
+    - [Orchestration](#orchestration)
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Infrastructure](#cloud-infrastructure)
+  - [Compute](#compute)
+    - [Architectural Decision](#architectural-decision)
+    - [Cost Optimization](#cost-optimization)
+  - [Containers](#containers)
+    - [Google Kubernetes Engine](#google-kubernetes-engine)
+  - [Data Migration](#data-migration)
+    - [Storage](#storage)
+  - [Databases](#databases)
+    - [Cloud Spanner](#cloud-spanner)
+    - [Managed Services](#managed-services)
+    - [Resiliency Testing](#resiliency-testing)
+  - [Developer Tooling](#developer-tooling)
+    - [Cloud Shell](#cloud-shell)
+  - [GCP Ecosystem](#gcp-ecosystem)
+    - [CICD Pipelines](#cicd-pipelines)
+    - [DevOps Frameworks](#devops-frameworks)
+    - [Developer Tools](#developer-tools)
+    - [IDE Integrations](#ide-integrations)
+  - [Google Cloud Platform](#google-cloud-platform-1)
+    - [Product Catalog](#product-catalog)
+  - [High Availability](#high-availability)
+    - [Architecture](#architecture)
+  - [Microservices](#microservices)
+    - [Google Cloud](#google-cloud-1)
+  - [Networking](#networking)
+    - [Private Service Connect](#private-service-connect)
+    - [VPC VPN](#vpc-vpn)
+  - [Observability](#observability)
+    - [Google Cloud Operations](#google-cloud-operations)
+  - [Public Cloud](#public-cloud)
+    - [Analysis](#analysis)
+    - [Google Cloud](#google-cloud-2)
+    - [Reference Sheets](#reference-sheets)
+    - [Training](#training)
+  - [Security](#security)
+    - [IAM](#iam)
+    - [PKI](#pki)
+    - [Platform Threat Intelligence](#platform-threat-intelligence)
+    - [Secrets Management](#secrets-management)
+  - [Serverless](#serverless)
+    - [Cloud Run](#cloud-run)
+    - [VPC Networking](#vpc-networking)
+1. [Cloud Providers](#cloud-providers)
+  - [GCP](#gcp)
+    - [Product Catalog](#product-catalog-1)
+  - [Google Kubernetes Engine GKE](#google-kubernetes-engine-gke)
+    - [GKE Core](#gke-core)
+1. [Cloud Strategy](#cloud-strategy)
+  - [Service Mapping](#service-mapping)
+    - [GCP Translation](#gcp-translation)
+1. [Cluster Management](#cluster-management)
+  - [GitOps](#gitops)
+    - [Config Sync](#config-sync)
+1. [Containers and Orchestration](#containers-and-orchestration)
+  - [GitOps](#gitops-1)
+    - [Config Connector](#config-connector)
+1. [DevOps and Delivery](#devops-and-delivery)
+  - [CICD](#cicd)
+    - [Containerization](#containerization)
+    - [Lifecycle Management](#lifecycle-management)
+  - [Continuous Delivery](#continuous-delivery)
+    - [GKE](#gke)
+    - [GKE GA](#gke-ga)
+    - [Industry Assessment](#industry-assessment)
+  - [Developer Tools](#developer-tools-1)
+    - [CLI Automation](#cli-automation)
+    - [CLI References](#cli-references)
+  - [Infrastructure as Code](#infrastructure-as-code)
+    - [Terraform](#terraform)
+1. [DevSecOps](#devsecops)
+  - [CICD Pipelines](#cicd-pipelines-1)
+    - [Hybrid Cloud Architecture](#hybrid-cloud-architecture)
+1. [DevSecOps and IDEs](#devsecops-and-ides)
+  - [Google Cloud Code](#google-cloud-code)
+    - [Developer Experience](#developer-experience)
+1. [Hybrid and Multi-Cloud](#hybrid-and-multi-cloud)
+  - [Anthos](#anthos)
+    - [Ingress](#ingress)
+    - [Multi-Cloud Support](#multi-cloud-support)
+    - [Multi-Cluster](#multi-cluster)
+    - [Strategic Guide](#strategic-guide)
+    - [Windows Containers](#windows-containers)
+1. [Networking and Security](#networking-and-security)
+  - [Content Delivery](#content-delivery)
+    - [Caching](#caching)
+  - [Core Services](#core-services)
+    - [DNS](#dns)
+  - [IAM](#iam-1)
+    - [Federated Identity](#federated-identity)
+  - [Identity and Access](#identity-and-access)
+    - [Database Proxy](#database-proxy)
+  - [Infrastructure](#infrastructure)
+    - [Fundamentals](#fundamentals)
+    - [VPC](#vpc)
+  - [Service Discovery](#service-discovery)
+    - [Registry](#registry)
+  - [Service Mesh](#service-mesh)
+    - [Traffic Management](#traffic-management)
+  - [Threat Detection](#threat-detection)
+    - [Intrusion Detection](#intrusion-detection)
+  - [Traffic Management](#traffic-management-1)
+    - [Load Balancing](#load-balancing)
+1. [Public Cloud Providers](#public-cloud-providers)
+  - [GCP](#gcp-1)
+    - [Enterprise Platform](#enterprise-platform)
+
 ## AI and Orchestration
 
 ### Agentic Workflows
 
 #### Command-Line Tools
 
-  - **(2025)** [**Google Agents CLI**](https://github.com/google/agents-cli) <span class='md-tag md-tag--info'>⭐ 2853</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official command-line tool from Google built to design, test, and deploy agentic AI workflows. Leveraging the Model Context Protocol (MCP) and Google LLM APIs, it facilitates automated task orchestration across local filesystems and remote cloud APIs.
+  - **(2025)** [**Google Agents CLI**](https://github.com/google/agents-cli) <span class='md-tag md-tag--info'>⭐ 2853</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f7881b53" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 6 L 20 6 L 30 13 L 40 7 L 50 4" fill="none" stroke="url(#spark-grad-f7881b53)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official command-line tool from Google built to design, test, and deploy agentic AI workflows. Leveraging the Model Context Protocol (MCP) and Google LLM APIs, it facilitates automated task orchestration across local filesystems and remote cloud APIs.
 ## AI Engineering
 
 ### Agentic Frameworks
@@ -213,14 +345,14 @@
 
 #### Config Connector
 
-  - **(2020)** [==github.com/GoogleCloudPlatform/k8s-config-connector: GCP Config Connector==](https://github.com/GoogleCloudPlatform/k8s-config-connector) <span class='md-tag md-tag--info'>⭐ 1042</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Config Connector is a Kubernetes Custom Resource Definition (CRD) controller that allows operators to manage Google Cloud resources natively as if they were standard Kubernetes objects. It bridges GitOps configurations with physical cloud infrastructure provisioning.
+  - **(2020)** [==github.com/GoogleCloudPlatform/k8s-config-connector: GCP Config Connector==](https://github.com/GoogleCloudPlatform/k8s-config-connector) <span class='md-tag md-tag--info'>⭐ 1042</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-fec39680" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 5 L 20 7 L 30 8 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-fec39680)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Config Connector is a Kubernetes Custom Resource Definition (CRD) controller that allows operators to manage Google Cloud resources natively as if they were standard Kubernetes objects. It bridges GitOps configurations with physical cloud infrastructure provisioning.
 ## DevOps and Delivery
 
 ### CICD
 
 #### Containerization
 
-  - **(2020)** [==Google Cloud Buildpacks==](https://github.com/GoogleCloudPlatform/buildpacks) <span class='md-tag md-tag--info'>⭐ 1148</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source implementation of Cloud Native Buildpacks optimized for GCP runtimes. It automatically transforms source code into production-ready, secured OCI container images without requiring custom, multi-stage Dockerfiles.
+  - **(2020)** [==Google Cloud Buildpacks==](https://github.com/GoogleCloudPlatform/buildpacks) <span class='md-tag md-tag--info'>⭐ 1148</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-5c9bac3a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 11 L 20 9 L 30 7 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-5c9bac3a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source implementation of Cloud Native Buildpacks optimized for GCP runtimes. It automatically transforms source code into production-ready, secured OCI container images without requiring custom, multi-stage Dockerfiles.
 #### Lifecycle Management
 
   - **(2021)** [cloud.google.com: DevOps and CI/CD on Google Cloud explained](https://cloud.google.com/blog/topics/developers-practitioners/devops-and-cicd-google-cloud-explained) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates the lifecycle pipeline on Google Cloud, profiling services like Cloud Build, Artifact Registry, and Cloud Deploy. Discusses shifting left on security, automating Canary testing, and implementing GitOps patterns for reliable software delivery.
@@ -261,7 +393,7 @@
 
 #### Developer Experience
 
-  - **(2024)** [==github.com/GoogleCloudPlatform/cloud-code-samples 🌟==](https://github.com/GoogleCloudPlatform/cloud-code-samples) <span class='md-tag md-tag--info'>⭐ 437</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curated templates and setup workflows targeting GCP's Cloud Code extension. Helps developers structure containerized services locally before auto-deploying to Google Kubernetes Engine (GKE).
+  - **(2024)** [==github.com/GoogleCloudPlatform/cloud-code-samples 🌟==](https://github.com/GoogleCloudPlatform/cloud-code-samples) <span class='md-tag md-tag--info'>⭐ 437</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c0cf791a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 10 L 20 12 L 30 4 L 40 8 L 50 2" fill="none" stroke="url(#spark-grad-c0cf791a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curated templates and setup workflows targeting GCP's Cloud Code extension. Helps developers structure containerized services locally before auto-deploying to Google Kubernetes Engine (GKE).
 ## Hybrid and Multi-Cloud
 
 ### Anthos
@@ -302,7 +434,7 @@
 
 #### Database Proxy
 
-  - **(2021)** [==db-auth-gateway==](https://github.com/kloeckner-i/db-auth-gateway) <span class='md-tag md-tag--info'>⭐ 26</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source authentication gateway proxy designed to facilitate secure, IAM-mediated database connections. Minimizes credential sprawl by mapping incoming traffic identities directly to modern database authorization schemas.
+  - **(2021)** [==db-auth-gateway==](https://github.com/kloeckner-i/db-auth-gateway) <span class='md-tag md-tag--info'>⭐ 26</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-cdf285ba" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 2 L 20 3 L 30 7 L 40 3 L 50 2" fill="none" stroke="url(#spark-grad-cdf285ba)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source authentication gateway proxy designed to facilitate secure, IAM-mediated database connections. Minimizes credential sprawl by mapping incoming traffic identities directly to modern database authorization schemas.
 ### Infrastructure
 
 #### Fundamentals
@@ -340,5 +472,5 @@
   - **(2026)** [github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform) <span class='md-tag md-tag--warning'>[MULTI CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The master landing organization for Google Cloud Platform's open-source projects, APIs, and CLI utilities. Holds structural frameworks, SDKs, and enterprise infrastructure design tools.
 
 ---
-💡 **Explore Related:** [Edge Computing](./edge-computing.md) | [Azure](./azure.md) | [AWS Storage](./aws-storage.md)
+💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md) | [Azure](./azure.md)
 

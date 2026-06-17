@@ -71,7 +71,7 @@
 - [blog.twstewart.me: cdk8s-python - A Love and Hate Experience](https://blog.twstewart.me/posts/cdk8s-python) CDK8S is an alpha level library that allows you to write high level abstractions of Kubernetes objects like deployments, services, and more all in your favorite language ( TypeScript, Python, and others).
 - [qdnqn.com: Kubernetes objects from Go to YAML using Cdk8s](https://qdnqn.com/create-kubernetes-yaml-definitions-using-go-and-cdk8s) Cdk8s is an open-source software development framework for defining Kubernetes applications and reusable abstractions using familiar programming languages and rich object-oriented APIs. cdk8s apps synthesize into standard Kubernetes manifests which can be applied to any Kubernetes cluster.
 
-## Eclipse Jkube Java Client for Kubernetes (formerly known as Fabric8). Kubernetes & OpenShift Maven Plugins
+## Eclipse Jkube Java Client for Kubernetes (formerly known as Fabric8). Kubernetes and OpenShift Maven Plugins
 
 - [Eclipse JKube 🌟](https://eclipse.dev/jkube) Cloud-Native Java Applications without a hassle. Eclipse JKube is a collection of plugins and libraries that are used for building container images using Docker, JIB or S2I build strategies. Eclipse JKube generates and deploys Kubernetes/OpenShift manifests at compile time too. It brings your Java applications on to Kubernetes and OpenShift by leveraging the tasks required to make your application cloud-native. Eclipse JKube also provides a set of tools such as watch, debug, log, etc. to improve your developer experience.
 - [Github: Eclipse Jkube](https://github.com/eclipse-jkube/jkube)

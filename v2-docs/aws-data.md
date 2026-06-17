@@ -3,6 +3,19 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Big Data in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Infrastructure](#cloud-infrastructure)
+  - [AWS](#aws)
+    - [Big Data](#big-data)
+    - [ETL](#etl)
+    - [Event Streaming](#event-streaming)
+  - [Event Streaming](#event-streaming-1)
+    - [Comparison](#comparison)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -34,5 +47,5 @@
   - **(2021)** [**whizlabs.com: AWS Kinesis vs Kafka Apache**](https://www.whizlabs.com/blog/kinesis-vs-kafka) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Comparative architectural review between AWS Kinesis and Apache Kafka. Analyzes data retention policies, throughput capabilities, scaling overheads, and total cost of ownership (TCO) profiles.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md)
 

@@ -3,13 +3,113 @@
 !!! info "Architectural Context"
     Detailed reference for Container Runtimes/Managers, Base Images and Container Tools. Podman, Buildah & Skopeo in the context of The Container Stack.
 
+## Table of Contents
+
+1. [Application Development](#application-development)
+  - [PHP](#php)
+    - [Kubernetes Integration](#kubernetes-integration)
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Container Infrastructure](#container-infrastructure)
+  - [Advanced Runtimes](#advanced-runtimes)
+    - [VM-in-Container](#vm-in-container)
+  - [CI-CD Pipelines](#ci-cd-pipelines)
+    - [Pipeline Security](#pipeline-security)
+  - [Container Engines](#container-engines)
+    - [Comparative Analysis](#comparative-analysis)
+    - [Docker Migration](#docker-migration)
+    - [Feature Highlights](#feature-highlights)
+    - [Nested Virtualization](#nested-virtualization)
+    - [Podman Basics](#podman-basics)
+    - [Podman Client Setup](#podman-client-setup)
+    - [Rootless Operations](#rootless-operations)
+    - [Secret Management](#secret-management)
+    - [Security and Permissions](#security-and-permissions)
+    - [Windows WSL2 Integration](#windows-wsl2-integration)
+    - [macOS Integration](#macos-integration)
+  - [Container Tooling](#container-tooling)
+    - [Compose Comparison](#compose-comparison)
+    - [Decompiled Engines](#decompiled-engines)
+    - [Docker Compose Compatibility](#docker-compose-compatibility)
+    - [Image Distribution](#image-distribution)
+    - [Local Registries](#local-registries)
+    - [Observability](#observability)
+    - [Podman Compose](#podman-compose)
+  - [Edge Orchestration](#edge-orchestration)
+    - [Auto-Updates and Rollbacks](#auto-updates-and-rollbacks)
+  - [Graphical User Interfaces](#graphical-user-interfaces)
+    - [Podman Desktop](#podman-desktop)
+    - [Podman Desktop Tools](#podman-desktop-tools)
+  - [Image Distribution](#image-distribution-1)
+    - [Ecosystem Registries](#ecosystem-registries)
+  - [Image Optimization](#image-optimization)
+    - [Base Images](#base-images)
+    - [Red Hat UBI](#red-hat-ubi)
+  - [Image Synthesis](#image-synthesis)
+    - [BuildKit Integration](#buildkit-integration)
+    - [Builder Comparison](#builder-comparison)
+    - [Language-Specific Builders](#language-specific-builders)
+  - [Industry Context](#industry-context)
+    - [Technical Discussions](#technical-discussions)
+  - [Infrastructure as Code](#infrastructure-as-code)
+    - [Ansible Automation](#ansible-automation)
+    - [Shell Scripting](#shell-scripting)
+  - [Kubernetes Integration](#kubernetes-integration-1)
+    - [Declarative Pods](#declarative-pods)
+    - [Manifest Translation](#manifest-translation)
+  - [Service Orchestration](#service-orchestration)
+    - [Quadlet Integration](#quadlet-integration)
+    - [Systemd Integration](#systemd-integration)
+1. [Container Runtime](#container-runtime)
+  - [Core Infrastructure](#core-infrastructure)
+    - [Execution Engines](#execution-engines)
+1. [Containerization](#containerization)
+  - [Container Engines](#container-engines-1)
+    - [Daemonless Execution](#daemonless-execution)
+    - [Strategy and Standards](#strategy-and-standards)
+  - [Fundamentals](#fundamentals)
+    - [Best Practices](#best-practices)
+    - [Standards](#standards)
+    - [Terminology](#terminology)
+  - [Image Construction](#image-construction)
+    - [Security Practice](#security-practice)
+  - [Runtimes](#runtimes)
+    - [Architectural Comparison](#architectural-comparison)
+    - [High-Level Engines](#high-level-engines)
+    - [Hypervisor-based Runtimes](#hypervisor-based-runtimes)
+    - [Kubernetes Integration](#kubernetes-integration-2)
+    - [Low-Level Engines](#low-level-engines)
+    - [Performance Optimization](#performance-optimization)
+1. [Infrastructure](#infrastructure)
+  - [Containerization](#containerization-1)
+    - [Image Building](#image-building)
+    - [Runtimes](#runtimes-1)
+  - [Containers](#containers)
+    - [Image Building](#image-building-1)
+    - [Image Management](#image-management)
+    - [Migration](#migration)
+  - [Kernel](#kernel)
+    - [Resource Allocation](#resource-allocation)
+1. [Log Management and Diagnostics](#log-management-and-diagnostics)
+  - [Command Line Tools](#command-line-tools)
+    - [Terminal Interfaces](#terminal-interfaces)
+1. [Microservices](#microservices)
+  - [Mocking and Testing](#mocking-and-testing)
+    - [Podman Compose Integration](#podman-compose-integration)
+1. [Platform](#platform)
+  - [Container Engines](#container-engines-2)
+    - [Daemonless Runtimes](#daemonless-runtimes)
+  - [Container Security](#container-security)
+    - [OCI Builders](#oci-builders)
+
 ## Application Development
 
 ### PHP
 
 #### Kubernetes Integration
 
-  - **(2026)** [==sherifabdlnaby/kubephp==](https://github.com/sherifabdlnaby/kubephp) <span class='md-tag md-tag--info'>⭐ 456</span> <span class='md-tag md-tag--warning'>[PHP CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — KubePHP is a specialized repository detailing optimal configurations for deploying PHP applications (particularly PHP-FPM and Nginx sidecars) onto Kubernetes clusters. It addresses PHP-specific cloud-native challenges such as shared volume sessions, OPcache preloading, and graceful shutdown handling. It provides critical scaffolding and architectural advice for modernizing legacy PHP monoliths into production-grade, autoscaled microservices.
+  - **(2026)** [==sherifabdlnaby/kubephp==](https://github.com/sherifabdlnaby/kubephp) <span class='md-tag md-tag--info'>⭐ 456</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b979da19" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 4 L 20 11 L 30 7 L 40 5 L 50 4" fill="none" stroke="url(#spark-grad-b979da19)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PHP CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — KubePHP is a specialized repository detailing optimal configurations for deploying PHP applications (particularly PHP-FPM and Nginx sidecars) onto Kubernetes clusters. It addresses PHP-specific cloud-native challenges such as shared volume sessions, OPcache preloading, and graceful shutdown handling. It provides critical scaffolding and architectural advice for modernizing legacy PHP monoliths into production-grade, autoscaled microservices.
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -29,6 +129,11 @@
 #### VM-in-Container
 
   - **(2021)** [opensource.com: Run a Linux virtual machine in Podman](https://opensource.com/article/21/7/linux-podman) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — An architectural exploration of executing a nested Linux VM directly within an OCI-compliant container managed by Podman. This setup leverages nested systemd instances, enabling engineers to package legacy system-level workloads, VMs, or multi-process service layers without full VM overhead.
+### CI-CD Pipelines
+
+#### Pipeline Security
+
+  - **(2022)** [Build trusted pipelines/Guards with Podman containers](https://www.redhat.com/en/blog/using-container-technology-make-trusted-pipeline) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes how to design highly secure, isolated CI/CD pipelines using Podman container guards. By isolating execution steps within unprivileged container sandboxes, this architecture protects build systems and host servers from security compromises.
 ### Container Engines
 
 #### Comparative Analysis
@@ -170,16 +275,17 @@
 
 #### Execution Engines
 
-  - **(2026)** [==containerd - An open and reliable container runtime==](https://github.com/containerd/containerd) <span class='md-tag md-tag--info'>⭐ 20835</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — containerd is an industry-standard container runtime designed to be embedded into larger systems like Kubernetes. Following the deprecation of Docker's native runtime engine in Kubernetes, containerd has emerged as the de facto execution engine for production-grade orchestrators.
+  - **(2026)** [==containerd - An open and reliable container runtime==](https://github.com/containerd/containerd) <span class='md-tag md-tag--info'>⭐ 20835</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-591370f5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 12 L 20 7 L 30 9 L 40 6 L 50 4" fill="none" stroke="url(#spark-grad-591370f5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — containerd is an industry-standard container runtime designed to be embedded into larger systems like Kubernetes. Following the deprecation of Docker's native runtime engine in Kubernetes, containerd has emerged as the de facto execution engine for production-grade orchestrators.
 ## Containerization
 
 ### Container Engines (1)
 
 #### Daemonless Execution
 
-  - **(2018)** [==Libpod: Library and tool for running OCI-based containers in Pods==](https://github.com/containers/podman) <span class='md-tag md-tag--info'>⭐ 31763</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The core engine library underlying Podman, enabling programmatic creation and lifecycle management of OCI-compliant containers and Pods. Libpod brings native Kubernetes-style multi-container 'Pod' groupings to local local environments without requiring a background orchestration API.
+  - **(2018)** [==Libpod: Library and tool for running OCI-based containers in Pods==](https://github.com/containers/podman) <span class='md-tag md-tag--info'>⭐ 31763</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-022b1447" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 5 L 20 5 L 30 10 L 40 3 L 50 4" fill="none" stroke="url(#spark-grad-022b1447)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The core engine library underlying Podman, enabling programmatic creation and lifecycle management of OCI-compliant containers and Pods. Libpod brings native Kubernetes-style multi-container 'Pod' groupings to local local environments without requiring a background orchestration API.
   - **(2021)** [youtube: Getting started with Podman](https://www.youtube.com/watch?v=Za36qHbrf3g) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-oriented video walkthrough detailing installation, basic image handling, and container deployment using Podman. Explains core concepts of local rootless container security and basic networking models for developers transitioning from monolithic engine setups.
   - **(2020)** [podmain.io: Announcing Podman v2](https://podman.io/blogs/2020/06/29/podman-v2-announce.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The release announcement detailing Podman v2's updated architecture, notably the introduction of a new structured REST API. This release allows remote management of containers from macOS or Windows machines, bridging compatibility barriers to match modern hybrid-development requirements.
+  - **(2019)** [developers.redhat.com: Podman and Buildah for Docker users 🌟](https://developers.redhat.com/blog/2019/02/21/podman-and-buildah-for-docker-users) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A practical handbook for developers transitionining from legacy Docker tooling to the modern Podman/Buildah stack. It walks through command mapping, registry authentications, building minimal rootless images, and deploying local Kubernetes-style multi-container YAML manifests.
   - **(2018)** [Intro to Podman](https://developers.redhat.com/blog/2018/08/29/intro-to-podman) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory engineering guide presenting Podman's design philosophies. It outlines the core mechanics of running daemonless containers, using standard alias configs to replace traditional docker systems, and managing container storage within unprivileged user directories.
 #### Strategy and Standards
 
@@ -210,15 +316,16 @@
   - **(2017)** [containerd.io](https://containerd.io) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official home page and core design documentation for the containerd runtime engine. It details the modular runtime API architecture, gRPC interfaces, client-side abstractions, and storage drivers that enable major cloud providers and local workstations to run containers at massive scale.
 #### Hypervisor-based Runtimes
 
-  - **(2020)** [==Frakti==](https://github.com/kubernetes-retired/frakti) <span class='md-tag md-tag--info'>⭐ 675</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Critical Live Grounding: Built originally to support hypervisor-based Container Runtime Interfaces (CRI), Frakti has been officially retired and archived by the Kubernetes organization. Modern environments utilize container-native VM interfaces like Kata Containers or Firecracker integrated directly into containerd.
+  - **(2020)** [==Frakti==](https://github.com/kubernetes-retired/frakti) <span class='md-tag md-tag--info'>⭐ 675</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-56c4b85f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 4 L 20 12 L 30 12 L 40 6 L 50 6" fill="none" stroke="url(#spark-grad-56c4b85f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Critical Live Grounding: Built originally to support hypervisor-based Container Runtime Interfaces (CRI), Frakti has been officially retired and archived by the Kubernetes organization. Modern environments utilize container-native VM interfaces like Kata Containers or Firecracker integrated directly into containerd.
 #### Kubernetes Integration (2)
 
   - **(2024)** [Kubernetes.io: Container runtimes](https://kubernetes.io/docs/setup/production-environment/container-runtimes) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official Kubernetes documentation detailing installation and integration patterns for CRI-compliant container runtimes. It provides step-by-step production setup configurations for containerd and CRI-O, detailing necessary kernel parameters, socket configurations, and systemd driver alignments.
+  - **(2017)** [cri-o.io](https://cri-o.io) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official home of CRI-O, an optimized Container Runtime Interface (CRI) designed specifically and exclusively for Kubernetes. CRI-O avoids overhead by supporting only OCI-compliant runtimes, removing unnecessary client CLI abstractions to deliver minimum-footprint workload execution.
 #### Low-Level Engines
 
-  - **(2019)** [==crun==](https://github.com/containers/crun) <span class='md-tag md-tag--info'>⭐ 3964</span> <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A high-performance, lightweight, and low-memory-footprint OCI runtime written completely in C. It serves as an ultra-fast alternative to Go-based runc, offering native support for advanced Linux features such as cgroups v2, user namespaces, and direct system call mapping.
-  - **(2017)** [==Conmon==](https://github.com/containers/conmon) <span class='md-tag md-tag--info'>⭐ 481</span> <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An essential, daemonless container monitor written in C, used primarily by Podman and CRI-O. Conmon supervises container lifecycles, capturing standard output/error streams, tracking exit codes, and managing attachment sockets while maintaining a negligible host resource overhead.
-  - **(2015)** [==runc==](https://github.com/opencontainers/runc) <span class='md-tag md-tag--info'>⭐ 13282</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The canonical, low-level container runtime engine built in compliance with the OCI specification. Originally contributed by Docker, runc directly spawns and runs containers on Linux by interfacing with namespaces, cgroups, and capabilities without relying on overhead daemons.
+  - **(2019)** [==crun==](https://github.com/containers/crun) <span class='md-tag md-tag--info'>⭐ 3964</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-381ce51b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 11 L 20 5 L 30 8 L 40 9 L 50 3" fill="none" stroke="url(#spark-grad-381ce51b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A high-performance, lightweight, and low-memory-footprint OCI runtime written completely in C. It serves as an ultra-fast alternative to Go-based runc, offering native support for advanced Linux features such as cgroups v2, user namespaces, and direct system call mapping.
+  - **(2017)** [==Conmon==](https://github.com/containers/conmon) <span class='md-tag md-tag--info'>⭐ 481</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7964601d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 8 L 20 10 L 30 3 L 40 12 L 50 11" fill="none" stroke="url(#spark-grad-7964601d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An essential, daemonless container monitor written in C, used primarily by Podman and CRI-O. Conmon supervises container lifecycles, capturing standard output/error streams, tracking exit codes, and managing attachment sockets while maintaining a negligible host resource overhead.
+  - **(2015)** [==runc==](https://github.com/opencontainers/runc) <span class='md-tag md-tag--info'>⭐ 13282</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-498fc206" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 12 L 20 4 L 30 2 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-498fc206)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The canonical, low-level container runtime engine built in compliance with the OCI specification. Originally contributed by Docker, runc directly spawns and runs containers on Linux by interfacing with namespaces, cgroups, and capabilities without relying on overhead daemons.
 #### Performance Optimization
 
   - **(2022)** [scrivano.org: the journey to speed up running OCI containers](https://scrivano.org/posts/2022-10-21-the-journey-to-speed-up-oci-containers) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exceptional technical post investigating performance optimization avenues for OCI containers. It explores the historical startup bottlenecks of container initialization and deep dives into storage drivers, container startup phases, and runtime improvements inside tools like crun.
@@ -236,11 +343,11 @@
 
 #### Image Building (1)
 
-  - **(2026)** [==github.com/containers/buildah==](https://github.com/containers/buildah) <span class='md-tag md-tag--info'>⭐ 8795</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official GitHub repository for Buildah, containing the core Go source code for building daemonless OCI container images. Live Grounding confirms its active role as a standard engine within Kubernetes environments, particularly Red Hat OpenShift, allowing secure rootless image construction. It is highly valued for its ability to create scratch images containing only runtime-essential binaries, dramatically reducing final image attack surfaces.
+  - **(2026)** [==github.com/containers/buildah==](https://github.com/containers/buildah) <span class='md-tag md-tag--info'>⭐ 8795</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1af19895" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 13 L 20 9 L 30 8 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-1af19895)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official GitHub repository for Buildah, containing the core Go source code for building daemonless OCI container images. Live Grounding confirms its active role as a standard engine within Kubernetes environments, particularly Red Hat OpenShift, allowing secure rootless image construction. It is highly valued for its ability to create scratch images containing only runtime-essential binaries, dramatically reducing final image attack surfaces.
   - **(2021)** [developers.redhat.com: Getting started with Buildah](https://developers.redhat.com/blog/2021/01/11/getting-started-with-buildah) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A comprehensive Red Hat Developers guide detailing the architectural transition from Dockerfile-based workflows to Buildah commands. It provides deep insights into script-driven image creation, showing engineers how to build nested filesystems directly inside OCI containers. The guide is highly practical for migrating complex legacy enterprise builds into lightweight Kubernetes-native deployment artifacts.
 #### Image Management
 
-  - **(2026)** [==Skopeo==](https://github.com/containers/skopeo) <span class='md-tag md-tag--info'>⭐ 10891</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Skopeo is an industry-standard command-line tool designed to perform operations on container images and image registries without requiring local container storage or engines. Architects leverage Skopeo to inspect remote manifest details, sign images, and sync packages directly between registries (e.g., from Docker Hub to ECR). Live Grounding confirms it as a vital utility in production CI/CD security scanning and compliance loops.
+  - **(2026)** [==Skopeo==](https://github.com/containers/skopeo) <span class='md-tag md-tag--info'>⭐ 10891</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6c5aa3ec" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 12 L 20 6 L 30 12 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-6c5aa3ec)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Skopeo is an industry-standard command-line tool designed to perform operations on container images and image registries without requiring local container storage or engines. Architects leverage Skopeo to inspect remote manifest details, sign images, and sync packages directly between registries (e.g., from Docker Hub to ECR). Live Grounding confirms it as a vital utility in production CI/CD security scanning and compliance loops.
   - **(2021)** [Promoting container images between registries with skopeo](https://www.redhat.com/en/blog/promoting-container-images-between-registries-with-skopeo) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An official Red Hat technical article showcasing optimal architectures for promoting container images between registries using Skopeo. It details operational patterns to eliminate the 'docker pull' and 'docker push' steps in secure multi-environment CI/CD deployment gates. This methodology significantly reduces deployment time and prevents disk space exhaustion in worker nodes.
 #### Migration
 
@@ -256,7 +363,7 @@
 
 #### Terminal Interfaces
 
-  - **(2020)** [bul: Interactive TUI for Exploring Kubernetes Container Logs](https://github.com/ynqa/bul) <span class='md-tag md-tag--info'>⭐ 16</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — An interactive Terminal User Interface (TUI) written in Go designed to query and stream local Kubernetes container logs. Live Grounding Note: Because development has remained inactive for years, it is considered legacy; modern engineers typically use tools like K9s or Stern in active production.
+  - **(2020)** [bul: Interactive TUI for Exploring Kubernetes Container Logs](https://github.com/ynqa/bul) <span class='md-tag md-tag--info'>⭐ 16</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b8d76944" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 6 L 20 11 L 30 8 L 40 11 L 50 9" fill="none" stroke="url(#spark-grad-b8d76944)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — An interactive Terminal User Interface (TUI) written in Go designed to query and stream local Kubernetes container logs. Live Grounding Note: Because development has remained inactive for years, it is considered legacy; modern engineers typically use tools like K9s or Stern in active production.
 ## Microservices
 
 ### Mocking and Testing
@@ -278,5 +385,5 @@
   - **(2026)** [==buildah==](https://buildah.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Buildah specializes in crafting OCI-compliant container images without requiring a background container daemon. It enables fine-grained Layer management, dramatically reducing the security footprint of target images by keeping build tools outside the final layers.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
+💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Kubernetes Client Libraries](./kubernetes-client-libraries.md)
 

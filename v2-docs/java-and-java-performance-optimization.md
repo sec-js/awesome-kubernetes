@@ -3,6 +3,65 @@
 !!! info "Architectural Context"
     Detailed reference for Java and Memory Management in the context of Developer Ecosystem.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [CICD Pipelines](#cicd-pipelines)
+  - [Jenkins Management](#jenkins-management)
+    - [Infrastructure Upgrades](#infrastructure-upgrades)
+    - [JVM Performance Tuning](#jvm-performance-tuning)
+1. [Cloud Native Infrastructure](#cloud-native-infrastructure)
+  - [Kubernetes](#kubernetes)
+    - [Containerized JVM Tuning](#containerized-jvm-tuning)
+    - [JVM Container Optimization](#jvm-container-optimization)
+1. [Infrastructure](#infrastructure)
+  - [Container Orchestration](#container-orchestration)
+    - [Observability](#observability)
+  - [Networking](#networking)
+    - [Development Tools](#development-tools)
+1. [JVM Architecture](#jvm-architecture)
+  - [Ahead-of-Time Compilation](#ahead-of-time-compilation)
+    - [Diagnostics](#diagnostics)
+  - [High-Performance Systems](#high-performance-systems)
+    - [Thread Affinity](#thread-affinity)
+  - [Memory Management](#memory-management)
+    - [Diagnostics](#diagnostics-1)
+    - [Garbage Collection](#garbage-collection)
+  - [Performance Profiling](#performance-profiling)
+    - [Diagnostics](#diagnostics-2)
+1. [Java Platform](#java-platform)
+  - [Runtime and JVM](#runtime-and-jvm)
+    - [Garbage Collection](#garbage-collection-1)
+1. [Observability](#observability-1)
+  - [Application Monitoring](#application-monitoring)
+    - [Java Diagnostics](#java-diagnostics)
+    - [Java Performance](#java-performance)
+  - [Application Performance Monitoring](#application-performance-monitoring)
+    - [Spring Boot](#spring-boot)
+1. [Observability and Troubleshooting](#observability-and-troubleshooting)
+  - [JVM Performance](#jvm-performance)
+    - [Diagnostics](#diagnostics-3)
+1. [Software Development](#software-development)
+  - [Caching Strategy](#caching-strategy)
+    - [Off-Heap Storage](#off-heap-storage)
+    - [Performance Optimization](#performance-optimization)
+  - [Java](#java)
+    - [Career Development](#career-development)
+    - [Concurrency](#concurrency)
+    - [Database Persistence](#database-persistence)
+    - [Language Fundamentals](#language-fundamentals)
+    - [Object-Oriented Programming](#object-oriented-programming)
+  - [Testing](#testing)
+    - [Unit Testing](#unit-testing)
+1. [Software Engineering](#software-engineering)
+  - [Java Virtual Machine](#java-virtual-machine)
+    - [Diagnostics and Troubleshooting](#diagnostics-and-troubleshooting)
+    - [Garbage Collection](#garbage-collection-2)
+    - [Memory Management](#memory-management-1)
+    - [Performance Optimization](#performance-optimization-1)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -11,10 +70,10 @@
 
   - [geekflare.com: What is Thread Dump and How to Analyze them? 🌟](https://geekflare.com/dev/generate-analyze-thread-dumps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering geekflare.com in the Kubernetes Tools ecosystem.
   - [On heap vs off heap memory usage](https://www.javacodegeeks.com/2014/12/on-heap-vs-off-heap-memory-usage.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.javacodegeeks.com in the Kubernetes Tools ecosystem.
+  - [DZone refcard: Java Caching](https://dzone.com/refcardz/java-caching)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering DZone refcard: Java Caching in the Kubernetes Tools ecosystem.
   - [DZone: Performance Improvement in Java Applications: ORM/JPA 🌟](https://dzone.com/articles/performance-improvement-in-java-applications-orm-j)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering DZone: Performance Improvement in Java Applications: ORM/JPA 🌟 in the Kubernetes Tools ecosystem.
   - [DZone: The JVM Architecture Explained 🌟](https://dzone.com/articles/jvm-architecture-explained)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering DZone: The JVM Architecture Explained 🌟 in the Kubernetes Tools ecosystem.
   - [DZone: How to Troubleshoot Sudden CPU Spikes](https://dzone.com/articles/troubleshoot-sudden-cpu-spikes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering DZone: How to Troubleshoot Sudden CPU Spikes in the Kubernetes Tools ecosystem.
-  - [DZone refcard: Java Caching](https://dzone.com/refcardz/java-caching)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering DZone refcard: Java Caching in the Kubernetes Tools ecosystem.
   - [Dzone: 7 JVM Arguments of Highly Effective Applications 🌟🌟🌟](https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: 7 JVM Arguments of Highly Effective Applications 🌟🌟🌟 in the Kubernetes Tools ecosystem.
   - [dzone.com: Flight Recorder: Examining Java and Kotlin Apps](https://dzone.com/articles/flight-recorder-examining-java-and-kotlin-apps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone.com: Flight Recorder: Examining Java and Kotlin Apps in the Kubernetes Tools ecosystem.
   - [medium: How to reduce your JVM app memory footprint in Docker and Kubernetes' 🌟](https://medium.com/wix-engineering/how-to-reduce-your-jvm-app-memory-footprint-in-docker-and-kubernetes-d6e030d21298)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: How to reduce your JVM app memory footprint in Docker and Kubernetes' 🌟 in the Kubernetes Tools ecosystem.
@@ -37,6 +96,16 @@
   - [DZone: Understanding the Java Memory Model and Garbage Collection 🌟](https://dzone.com/articles/understanding-the-java-memory-model-and-the-garbag)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering DZone: Understanding the Java Memory Model and Garbage Collection 🌟 in the Kubernetes Tools ecosystem.
   - [DZone: Memory Leaks and Java Code](https://dzone.com/articles/memory-leak-andjava-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering DZone: Memory Leaks and Java Code in the Kubernetes Tools ecosystem.
   - [Hazelcast JET](https://jet-start.sh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Hazelcast JET in the Kubernetes Tools ecosystem.
+## CICD Pipelines
+
+### Jenkins Management
+
+#### Infrastructure Upgrades
+
+  - **(2019)** [Running Jenkins on Java 11 🌟](https://www.jenkins.io/doc/administration/requirements/jenkins-on-java-11)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Comprehensive administration runbook describing JVM upgrade pathways from Java 8 to Java 11. Addresses class-loading modifications, modularization parameters, and deprecated agent arguments.
+#### JVM Performance Tuning
+
+  - **(2016)** [jenkins.io - Tuning Jenkins GC For Responsiveness and Stability with Large Instances 🌟](https://www.jenkins.io/blog/2016/11/21/gc-tuning) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Critical infrastructure advisory detailing memory allocation and G1GC GC argument tuning for massive Jenkins instances. Provides ready-to-use flag structures to eliminate long-duration Stop-The-World JVM freezes.
 ## Cloud Native Infrastructure
 
 ### Kubernetes
@@ -72,7 +141,7 @@
 
 #### Thread Affinity
 
-  - **(2022)** [**OpenHFT/Java-Thread-Affinity**](https://github.com/OpenHFT/Java-Thread-Affinity) <span class='md-tag md-tag--info'>⭐ 1897</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Highly optimized library that binds Java execution threads to specific CPU cores. Mitigates task context-switching overhead in low-latency financial systems, guaranteeing deterministic scheduling on modern multi-core hardware.
+  - **(2022)** [**OpenHFT/Java-Thread-Affinity**](https://github.com/OpenHFT/Java-Thread-Affinity) <span class='md-tag md-tag--info'>⭐ 1897</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-4bd1c5bd" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 7 L 20 10 L 30 11 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-4bd1c5bd)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Highly optimized library that binds Java execution threads to specific CPU cores. Mitigates task context-switching overhead in low-latency financial systems, guaranteeing deterministic scheduling on modern multi-core hardware.
 ### Memory Management
 
 #### Diagnostics (1)
@@ -176,5 +245,5 @@
   - **(2020)** [developers.redhat.com: Checkpointing Java from outside of Java](https://developers.redhat.com/blog/2020/10/15/checkpointing-java-from-outside-of-java) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exploration of JVM checkpoint/restore methodologies focusing on Coordinated Restore at Checkpoint (CRaC) and external CRIU mechanisms. This approach enables instantaneous microservice startup by taking cold snapshots of memory, dramatically lowering latency penalties in serverless deployments.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
+💡 **Explore Related:** [Angular](./angular.md) | [Python](./python.md) | [Dom](./dom.md)
 

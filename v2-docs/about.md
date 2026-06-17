@@ -3,6 +3,21 @@
 !!! info "Architectural Context"
     Detailed reference for About Nubenetes in the context of Architectural Foundations.
 
+## Table of Contents
+
+1. [Automation and Orchestration](#automation-and-orchestration)
+  - [Templating Engine](#templating-engine)
+    - [Jinja](#jinja)
+1. [Cloud Native](#cloud-native)
+  - [Kubernetes Development](#kubernetes-development)
+    - [Go Client-Go](#go-client-go)
+      - [Generics](#generics)
+1. [Infrastructure as Code](#infrastructure-as-code)
+  - [Kubernetes](#kubernetes)
+    - [Terraform Boilerplates](#terraform-boilerplates)
+1. [Kubernetes Tools](#kubernetes-tools)
+  - [General Reference](#general-reference)
+
 ## The Nubenetes Engineering Manifest
 
 !!! quote "The Positive Sum Game"
@@ -125,5 +140,5 @@ An O'Reilly-style technical library where 18k+ resources are filtered, ranked by
   - [en.wikipedia.org: Kiss up kick down](https://en.wikipedia.org/wiki/Kiss_up_kick_down)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering en.wikipedia.org: Kiss up kick down in the Kubernetes Tools ecosystem.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
 

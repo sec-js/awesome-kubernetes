@@ -1,4 +1,4 @@
-# AWS Storage. S3 & EBS. AWS Storage Gateway
+# AWS Storage. S3 and EBS. AWS Storage Gateway
 
 1. [Introduction](#introduction)
 2. [Amazon EFS Elastic File System](#amazon-efs-elastic-file-system)
@@ -8,9 +8,9 @@
 ## Introduction
 
 - [S3 FAQ](https://aws.amazon.com/s3/faqs)
-- [Making Requests to Amazon S3 over IPv6](http://docs.aws.amazon.com/AmazonS3/latest/dev/ipv6-access.html) Amazon Simple Storage Service (Amazon S3) supports the ability to access S3 buckets using the Internet Protocol version 6 (IPv6), in addition to the IPv4 protocol.
+- [Making Requests to Amazon S3 over IPv6](https://docs.aws.amazon.com/AmazonS3/latest/dev/ipv6-access.html) Amazon Simple Storage Service (Amazon S3) supports the ability to access S3 buckets using the Internet Protocol version 6 (IPv6), in addition to the IPv4 protocol.
 - [How to Build Sparse EBS Volumes for Fun and Easy Snapshotting](https://aws.amazon.com/blogs/apn/how-to-build-sparse-ebs-volumes-for-fun-and-easy-snapshotting)
-- [Getting Started with AWS Storage Gateway](http://docs.aws.amazon.com/storagegateway/latest/userguide/GettingStarted-common.html)
+- [Getting Started with AWS Storage Gateway](https://docs.aws.amazon.com/storagegateway/latest/userguide/GettingStarted-common.html)
 - [devopscube.com: How to Automate EBS Snapshot Creation, Retention and Deletion](https://devopscube.com/automate-ebs-snapshot-creation-deletion)
 - [cloudkatha.com: Is S3 Region Specific or Global? What do you think?](https://cloudkatha.com/is-s3-region-specific-or-global-what-do-you-think)
 - [cloudkatha.com: This is why S3 Bucket Names are unique Globally](https://cloudkatha.com/why-s3-bucket-names-are-unique-globally)

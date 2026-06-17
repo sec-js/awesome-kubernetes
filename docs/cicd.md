@@ -114,7 +114,7 @@
 - [hart-michael.medium.com: Why You Need Continuous Deployment](https://hart-michael.medium.com/why-you-need-continuous-deployment-93d7b5936523)
 
 ## CI/CD Pipelines With Kubernetes
-  - [ArgoCon North America 2026 Call for Proposals](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/argocon/#call-for-proposals) - *(Related to argo topic)*
+  - [ArgoCon North America 2026 Call for Proposals](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/argocon) - *(Related to argo topic)*
   - [Enhancing Infrastructure as Code Generation with GitHub Copilot for Azure](https://techcommunity.microsoft.com/blog/AzureDevCommunityBlog/enhancing-infrastructure-as-code-generation-with-github-copilot-for-azure/4388514) - *(Related to iac topic)*
   - [Automating Kubernetes Deployments with Helm Charts](https://blog.devops.dev/automating-kubernetes-deployments-with-helm-charts-baaec0e6fbc5) - *(Related to helm topic)*
 
@@ -142,9 +142,9 @@
 
 ## Progressive Delivery
 
-- [split.io: Progressive Delivery](https://www.harness.io/harness-devops-academy/progressive-delivery?utm_campaign=fme&utm_source=split_io&utm_medium=redirect&utm_content=individual)
+- [split.io: Progressive Delivery](https://www.harness.io/harness-devops-academy/progressive-delivery)
 - [harness.io: Progressive Delivery: Everything You Need to Know](https://www.harness.io/blog)
-- [weave.works: Progressively Delivering Applications Across Cloud and On-Premise. Using Kuma & GitOps to implement canary releasing](https://www.weave.works/)
+- [weave.works: Progressively Delivering Applications Across Cloud and On-Premise. Using Kuma & GitOps to implement canary releasing](https://www.weave.works)
 
 ## Deployment Strategies
 
@@ -219,7 +219,7 @@
   - [Azure DevOps MCP Server Public Preview](https://devblogs.microsoft.com/devops/azure-devops-mcp-server-public-preview) - *(Related to ai topic)*
   - [Best Practices for Using GitHub Copilot](https://docs.github.com/en/copilot/get-started/best-practices) - *(Related to ai topic)*
   - [Programming with GitHub Copilot Agent Mode](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/programming-with-github-copilot-agent-mode/4400630) - *(Related to ai topic)*
-  - [InfraCost + Terraform PRs: Making Cost Awareness Effortless](https://www.linkedin.com/pulse/infracost-terraform-prs-making-cost-awareness-martin-jackson-a6sge?utm_source=share&utm_medium=member_android&utm_campaign=share_via) - *(Related to terraform topic)*
+  - [InfraCost + Terraform PRs: Making Cost Awareness Effortless](https://www.linkedin.com/pulse/infracost-terraform-prs-making-cost-awareness-martin-jackson-a6sge) - *(Related to terraform topic)*
   - [Automate Terraform Testing with Azure DevOps Pipelines](https://skundunotes.com/2025/01/22/automate-terraform-testing-with-azure-devops-pipelines) - *(Related to terraform topic)*
   - [Google Launches Gemini Code Assist, Challenging GitHub Copilot with Generous Free Tier](https://www.xataka.com/robotica-e-ia/google-lanza-misil-github-copilot-su-asistente-programacion-ofrece-mucho-uso-gratuito-que-microsoft) - *(Related to ai topic)*
   - [Back of the Napkin Guide to Updating Jenkins](https://www.jenkins.io/blog/2023/10/31/marc-s-napkin-upgrade-guide) - *(Related to jenkins topic)*

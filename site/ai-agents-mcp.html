@@ -6,19 +6,19 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="A curated list of awesome IT projects and resources. Inspired by the awesome list.">
+        <meta name="description" content="Enterprise-grade curated portal for the modern Cloud Native ecosystem. High-density, AI-driven selection of top-tier resources.">
       
       
         <meta name="author" content="Nubenetes">
       
       
-        <link rel="canonical" href="https://nubenetes.com/ai-agents-mcp.html">
+        <link rel="canonical" href="https://nubenetes.com/v2/ai-agents-mcp.html">
       
       
-        <link rel="prev" href="ai.html">
+        <link rel="prev" href="videos/fundamentals.html">
       
       
-        <link rel="next" href="mlops.html">
+        <link rel="next" href="ai.html">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>Model Context Protocol (MCP) & AI Agents - Nubenetes</title>
+        <title>AI Agents MCP - Nubenetes V2 | The AI's Cut</title>
       
     
     
@@ -49,27 +49,21 @@
       
         
         
-        
-        <link rel="stylesheet" href="assets/external/fonts.googleapis.com/css.49ea35f2.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
     
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
+    
       <link rel="stylesheet" href="static/extra.css">
+    
+      <link rel="stylesheet" href="static/v2_elite.css?v=2.3.44">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
-  
-
-
-  
-  
-
-<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config",""),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
-  
-    <script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
-  
 
     
     
@@ -83,7 +77,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="red">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -101,6 +95,10 @@
       
     </div>
     
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
     
       
 
@@ -108,15 +106,10 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="index.html" title="Nubenetes" class="md-header__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href="index.html" title="Nubenetes V2 | The AI&#39;s Cut" class="md-header__button md-logo" aria-label="Nubenetes V2 | The AI's Cut" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
-  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
-  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
-  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
-  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
-</svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -127,13 +120,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Nubenetes
+            Nubenetes V2 | The AI's Cut
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Model Context Protocol (MCP) & AI Agents
+              AI Agents MCP
             
           </span>
         </div>
@@ -146,20 +139,20 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
     
-      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 1 3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5z"/></svg>
       </label>
     
   
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="light-blue" data-md-color-accent="yellow"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
     
-      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 11c0 5.55-3.84 10.74-9 12-5.16-1.26-9-6.45-9-12V5l9-4 9 4zm-9 10c3.75-1 7-5.46 7-9.78V6.3l-7-3.12L5 6.3v4.92C5 15.54 8.25 20 12 21m-3-6.67c1.76 2.17 5.13 2.24 6.97.07.23-.27.08-.68-.26-.74a4.5 4.5 0 0 1-3.18-2.2 4.5 4.5 0 0 1-.32-3.86.453.453 0 0 0-.51-.6c-3.34.62-4.89 4.61-2.7 7.33"/></svg>
       </label>
     
   
@@ -223,7 +216,7 @@
         <a href="https://github.com/nubenetes/awesome-kubernetes" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     nubenetes/awesome-kubernetes
@@ -245,13 +238,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="https://nubenetes.com/v2/" class="md-tabs__link">
+      <a href="https://nubenetes.com/v1/" class="md-tabs__link">
         
   
   
     
   
-  🚀 Try Nubenetes V2 (Elite Portal)
+  🔙 Back to V1 (Exhaustive)
 
       </a>
     </li>
@@ -270,7 +263,7 @@
   
     
   
-  Home
+  The 2026 Vision
 
       </a>
     </li>
@@ -285,447 +278,13 @@
     
     
       <li class="md-tabs__item">
-        <a href="introduction.html" class="md-tabs__link">
+        <a href="videos/index.html" class="md-tabs__link">
           
   
   
     
   
-  Intro
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="sre.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  SRE
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="devops.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  DevOps
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="devsecops.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  DevSecOps
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="noops.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  NoOps
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="docker.html" class="md-tabs__link">
-        
-  
-  
-    
-  
-  Docker
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="kubernetes.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  K8s
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="openshift.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  OpenShift
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="rancher.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Rancher
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="cicd.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  CI/CD
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="monitoring.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Montrg
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="iac.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Infra Prov
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="ansible.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Config Mgmt
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="databases.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  DB
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="message-queue.html" class="md-tabs__link">
-        
-  
-  
-    
-  
-  Data Pipeline
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="servicemesh.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Service Mesh
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="demos.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Demos
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="public-cloud-solutions.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Cloud
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="api.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  APIs
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="devel-sites.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Dev
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="qa.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  QA
+  Agentic Video Hub
 
         </a>
       </li>
@@ -743,7 +302,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="ai.html" class="md-tabs__link">
+        <a href="ai-agents-mcp.html" class="md-tabs__link">
           
   
   
@@ -765,13 +324,13 @@
     
     
       <li class="md-tabs__item">
-        <a href="project-management-methodology.html" class="md-tabs__link">
+        <a href="about.html" class="md-tabs__link">
           
   
   
     
   
-  Project Mgmt
+  Architectural Foundations
 
         </a>
       </li>
@@ -787,13 +346,13 @@
     
     
       <li class="md-tabs__item">
-        <a href="other-awesome-lists.html" class="md-tabs__link">
+        <a href="chaos-engineering.html" class="md-tabs__link">
           
   
   
     
   
-  Refs+
+  Platform & Site Reliability
 
         </a>
       </li>
@@ -809,13 +368,13 @@
     
     
       <li class="md-tabs__item">
-        <a href="recruitment.html" class="md-tabs__link">
+        <a href="ansible.html" class="md-tabs__link">
           
   
   
     
   
-  Hiring
+  Hardened Infrastructure
 
         </a>
       </li>
@@ -828,17 +387,20 @@
   
   
   
-    <li class="md-tabs__item">
-      <a href="customer.html" class="md-tabs__link">
-        
+    
+    
+      <li class="md-tabs__item">
+        <a href="GoogleCloudPlatform.html" class="md-tabs__link">
+          
   
   
     
   
-  Clients
+  Cloud Providers (Hyperscalers)
 
-      </a>
-    </li>
+        </a>
+      </li>
+    
   
 
       
@@ -847,17 +409,20 @@
   
   
   
-    <li class="md-tabs__item">
-      <a href="uncategorized.html" class="md-tabs__link">
-        
+    
+    
+      <li class="md-tabs__item">
+        <a href="caching.html" class="md-tabs__link">
+          
   
   
     
   
-  Uncategorized
+  Networking & Service Mesh
 
-      </a>
-    </li>
+        </a>
+      </li>
+    
   
 
       
@@ -866,17 +431,108 @@
   
   
   
-    <li class="md-tabs__item">
-      <a href="about.html" class="md-tabs__link">
-        
+    
+    
+      <li class="md-tabs__item">
+        <a href="container-managers.html" class="md-tabs__link">
+          
   
   
     
   
-  About
+  The Container Stack
 
-      </a>
-    </li>
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="crunchydata.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Data & Advanced Analytics
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="argo.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Engineering Pipeline
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="ChromeDevTools.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Developer Ecosystem
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="appointment-scheduling.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Career & Industry
+
+        </a>
+      </li>
+    
   
 
       
@@ -910,25 +566,20 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="index.html" title="Nubenetes" class="md-nav__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href="index.html" title="Nubenetes V2 | The AI&#39;s Cut" class="md-nav__button md-logo" aria-label="Nubenetes V2 | The AI's Cut" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
-  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
-  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
-  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
-  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
-</svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
-    Nubenetes
+    Nubenetes V2 | The AI's Cut
   </label>
   
     <div class="md-nav__source">
       <a href="https://github.com/nubenetes/awesome-kubernetes" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     nubenetes/awesome-kubernetes
@@ -945,14 +596,14 @@
   
   
     <li class="md-nav__item">
-      <a href="https://nubenetes.com/v2/" class="md-nav__link">
+      <a href="https://nubenetes.com/v1/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    🚀 Try Nubenetes V2 (Elite Portal)
+    🔙 Back to V1 (Exhaustive)
   
 
     
@@ -979,7 +630,7 @@
   <span class="md-ellipsis">
     
   
-    Home
+    The 2026 Vision
   
 
     
@@ -1002,367 +653,7 @@
     
       
         
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="introduction.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Intro
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="sre.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    SRE
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="devops.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    DevOps
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="devsecops.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    DevSecOps
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="noops.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    NoOps
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="docker.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Docker
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
+          
         
       
         
@@ -1393,888 +684,14 @@
   
   
   
-    <a href="kubernetes.html" class="md-nav__link">
+    <a href="videos/index.html" class="md-nav__link">
       
   
   
   <span class="md-ellipsis">
     
   
-    K8s
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="openshift.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    OpenShift
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="rancher.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Rancher
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="cicd.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    CI/CD
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="monitoring.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Montrg
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="iac.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Infra Prov
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="ansible.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Config Mgmt
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="databases.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    DB
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="message-queue.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Data Pipeline
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="servicemesh.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Service Mesh
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="demos.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Demos
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="public-cloud-solutions.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Cloud
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="api.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    APIs
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="devel-sites.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Dev
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="qa.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    QA
+    Agentic Video Hub
   
 
     
@@ -2330,10 +747,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_24" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
-          <label class="md-nav__link" for="__nav_24" id="__nav_24_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
             
   
   
@@ -2351,8 +768,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_24_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_24">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -2361,34 +778,6 @@
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="ai.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    AI
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
             
               
                 
@@ -2413,7 +802,7 @@
   <span class="md-ellipsis">
     
   
-    Model Context Protocol (MCP) & AI Agents
+    AI Agents MCP
   
 
     
@@ -2431,7 +820,7 @@
   <span class="md-ellipsis">
     
   
-    Model Context Protocol (MCP) & AI Agents
+    AI Agents MCP
   
 
     
@@ -2457,10 +846,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#introduction" class="md-nav__link">
+  <a href="#table-of-contents" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Introduction
+        Table of Contents
       
     </span>
   </a>
@@ -2468,6 +857,18 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#ai-engineering" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI Engineering
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AI Engineering">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#ai-agents" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2476,27 +877,486 @@
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#model-context-protocol-mcp" class="md-nav__link">
+    <nav class="md-nav" aria-label="AI Agents">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#web-automation" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Model Context Protocol (MCP)
+        Web Automation
       
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#llm-operators-and-infrastructure" class="md-nav__link">
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#agentic-frameworks" class="md-nav__link">
     <span class="md-ellipsis">
       
-        LLM Operators and Infrastructure
+        Agentic Frameworks
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Agentic Frameworks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#developer-experience" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Developer Experience
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#model-context-protocol" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Model Context Protocol
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Model Context Protocol">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Architecture
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#awesome-lists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Awesome Lists
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#developer-experience-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Developer Experience (1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#google-cloud" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Google Cloud
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#official-servers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Official Servers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#specifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Specifications
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai-infrastructure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI Infrastructure
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AI Infrastructure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#distributed-computing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Distributed Computing
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Distributed Computing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#kube-ray" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kube-Ray
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hardware-orchestration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hardware Orchestration
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Hardware Orchestration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nvidia-operators" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NVIDIA Operators
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#llm-serving" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LLM Serving
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="LLM Serving">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#localai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LocalAI
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vllm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        vLLM
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#architectural-foundations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Architectural Foundations
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Architectural Foundations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#kubernetes-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Tools
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kubernetes Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General Reference
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#automation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Automation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Automation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#agentic-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agentic Systems
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Agentic Systems">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mcp-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MCP Server
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cloud-native-operations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cloud Native Operations
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cloud Native Operations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ai-aiops" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI AIOps
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AI AIOps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#kubernetes-troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Troubleshooting
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#developer-experience-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Developer Experience (2)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Developer Experience (2)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ai-assisted-coding" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI-Assisted Coding
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AI-Assisted Coding">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#claude-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Claude Code
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cursor-ide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cursor IDE
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#software-engineering" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Software Engineering
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Software Engineering">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ai-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI Tools
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AI Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#claude-code-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Claude Code (1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -2516,14 +1376,14 @@
   
   
     <li class="md-nav__item">
-      <a href="mlops.html" class="md-nav__link">
+      <a href="ai.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    MLOps
+    AI
   
 
     
@@ -2565,6 +1425,34 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="mlops.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MLOps
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -2589,6 +1477,40 @@
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
     
     
@@ -2609,14 +1531,14 @@
   
   
   
-    <a href="project-management-methodology.html" class="md-nav__link">
+    <a href="about.html" class="md-nav__link">
       
   
   
   <span class="md-ellipsis">
     
   
-    Project Mgmt
+    Architectural Foundations
   
 
     
@@ -2654,6 +1576,18 @@
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
     
     
@@ -2674,14 +1608,14 @@
   
   
   
-    <a href="other-awesome-lists.html" class="md-nav__link">
+    <a href="chaos-engineering.html" class="md-nav__link">
       
   
   
   <span class="md-ellipsis">
     
   
-    Refs+
+    Platform & Site Reliability
   
 
     
@@ -2717,6 +1651,22 @@
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
     
     
@@ -2737,14 +1687,14 @@
   
   
   
-    <a href="recruitment.html" class="md-nav__link">
+    <a href="ansible.html" class="md-nav__link">
       
   
   
   <span class="md-ellipsis">
     
   
-    Hiring
+    Hardened Infrastructure
   
 
     
@@ -2769,15 +1719,97 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="customer.html" class="md-nav__link">
+    
+    
+      
         
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="GoogleCloudPlatform.html" class="md-nav__link">
+      
   
   
   <span class="md-ellipsis">
     
   
-    Clients
+    Cloud Providers (Hyperscalers)
   
 
     
@@ -2785,7 +1817,13 @@
   
   
 
-      </a>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
@@ -2796,15 +1834,51 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="uncategorized.html" class="md-nav__link">
+    
+    
+      
         
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="caching.html" class="md-nav__link">
+      
   
   
   <span class="md-ellipsis">
     
   
-    Uncategorized
+    Networking & Service Mesh
   
 
     
@@ -2812,7 +1886,13 @@
   
   
 
-      </a>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
@@ -2823,15 +1903,79 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="about.html" class="md-nav__link">
+    
+    
+      
         
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="container-managers.html" class="md-nav__link">
+      
   
   
   <span class="md-ellipsis">
     
   
-    About
+    The Container Stack
   
 
     
@@ -2839,7 +1983,339 @@
   
   
 
-      </a>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="crunchydata.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data & Advanced Analytics
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="argo.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Engineering Pipeline
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="ChromeDevTools.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Developer Ecosystem
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="appointment-scheduling.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Career & Industry
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
@@ -2860,118 +2336,193 @@
                   
 
 
-
-<h1 id="ai-agents-and-model-context-protocol-mcp-for-kubernetes">AI Agents and Model Context Protocol (MCP) for Kubernetes</h1>
-<p>Resources, tools, and projects related to autonomous AI agents, Model Context Protocol (MCP) implementations, and LLM orchestration within Kubernetes environments.</p>
-<ol>
-<li><a href="#introduction">Introduction</a></li>
-<li><a href="#ai-agents">AI Agents</a></li>
-<li><a href="#model-context-protocol-mcp">Model Context Protocol (MCP)</a></li>
-<li><a href="#llm-operators-and-infrastructure">LLM Operators and Infrastructure</a></li>
-</ol>
-<h2 id="introduction">Introduction</h2>
-<ul>
-<li>
-<p><a href="https://cursor.com/es/learn">Cursor AI Fundamentals Course</a> - <em>(Related to ai topic)</em></p>
-</li>
-<li>
-<p><a href="https://www.anthropic.com/news/model-context-protocol">anthropic.com: Introducing the Model Context Protocol</a></p>
-</li>
-<li><a href="https://modelcontextprotocol.io/docs/getting-started/intro">modelcontextprotocol.io: MCP Official Documentation</a></li>
-</ul>
-<h2 id="ai-agents">AI Agents</h2>
-<ul>
-<li><a href="https://t.co/EKsVgKA4xn">IBM IAM for AI Agents</a> -how IBM Identity and Access Management (IAM) provides native IAM for AI agents, enabling them to have an identity and deliver least privileged access.</li>
-<li><a href="https://cloud.google.com/blog/topics/developers-practitioners/level-up-your-agents-announcing-googles-official-skills-repository">Level Up Your Agents: Announcing Google&rsquo;s Official Skills Repository</a> 🌟 - This blog post announces the launch of Google&rsquo;s official Agent Skills repository on GitHub, designed to equip AI agents with condensed expertise on specific technologies and tasks. Skills are presented in an open Markdown format, including reference files and code snippets, to provide agent-first documentation. This approach aims to reduce &lsquo;context bloat&rsquo; often encountered when using Model Context Protocol (MCP) servers, leading to more efficient and cost-effective AI agent interactions with Google Cloud products like Gemini API, BigQuery, and GKE.</li>
-<li><a href="https://github.com/shanraisshan/claude-code-best-practice">Claude Code Best Practice</a> - A GitHub repository focused on &lsquo;vibe coding to agentic engineering&rsquo;, providing practices and examples for interacting with AI models like Claude. It includes sections on agents, commands, skills, development workflows, and implementation details.</li>
-<li><a href="https://www.youtube.com/watch?v=TUKYbUIXLOE">youtube: The 6 Levels of Claude Code Explained</a> 🌟 - This video provides a structured architectural roadmap for mastering Claude Code, Anthropic&rsquo;s agentic CLI tool for software engineering. It details the progression from basic code generation to complex, multi-step agentic workflows, emphasizing the tool&rsquo;s relevance to the 2026 Kubernetes ecosystem through automated manifest refactoring, contextual codebase analysis, and direct CLI-driven infrastructure orchestration.</li>
-<li><a href="https://anthropic.skilljar.com/claude-code-in-action">Claude Code in Action</a> 🌟 - A course from Anthropic Academy that provides comprehensive training on using Claude Code for software development tasks. It covers the underlying architecture of AI coding assistants, practical implementation techniques, and advanced integration strategies. Key topics include understanding coding assistant architecture, exploring Claude Code&rsquo;s tool use system, mastering context management techniques, implementing visual communication workflows, creating custom automation, and extending functionality with MCP servers.</li>
-<li><a href="https://kiro.dev">Kiro: Engineering Rigor for Agentic Development</a> - Kiro is a tool designed to bring engineering discipline to AI agent development. It focuses on managing intent, handling long-running tasks across large codebases, and validating code correctness through a learning agent. Key features include converting natural language prompts into structured requirements (EARS notation), generating architectural designs, creating implementation plans with discrete, sequenced tasks, and enabling terminal-based interaction for building features, automating workflows, and debugging.</li>
-<li><a href="https://github.com/HolmesGPT/holmesgpt">HolmesGPT (Robusta)</a> - An open-source AI agent for investigating Prometheus alerts and Kubernetes incidents. It uses LLMs to triage issues and provide recommended fixes.</li>
-<li><a href="https://github.com/Skyvern-ai/Skyvern">Skyvern</a> - Automate browser-based workflows using LLMs and Computer Vision.</li>
-</ul>
-<h2 id="model-context-protocol-mcp">Model Context Protocol (MCP)</h2>
-<ul>
-<li><a href="https://devblogs.microsoft.com/azure-sdk/announcing-azure-mcp-server-2-0-stable-release">Announcing Azure MCP Server 2.0 Stable Release for Self-Hosted Agentic Cloud Automation</a> 🌟 - This blog post announces the stable release of Azure MCP Server 2.0, an open-source software that implements the Model Context Protocol (MCP) specification. It allows AI agents and developer tools to interact with Azure resources through a standardized tool interface. The key advancement in version 2.0 is the support for self-hosted, remote MCP server deployment, enabling flexible integration into developer workflows for local development, tool integrations, and centralized team/enterprise scenarios with consistent policy and security controls.</li>
-<li><a href="https://github.com/punkpeye/awesome-mcp-servers">Awesome MCP Servers</a> - A curated list of resources related to MCP (Machine Cognitive Progression) servers, focusing on AI and related technologies.</li>
-<li><a href="https://pulsemcp.com">PulseMCP</a> - A hosted hub for discovering and using MCP servers.</li>
-<li><a href="https://www.mcpbundles.com">MCPBundles</a> - Curated bundles of MCP servers for various use cases (DevOps, Data, Productivity).</li>
-<li><a href="https://github.com/modelcontextprotocol/servers">GitHub MCP Server</a> - Interact with GitHub repositories, issues, and PRs via AI agents.</li>
-<li><a href="https://github.com/modelcontextprotocol/servers">Vercel MCP Server</a> - Manage Vercel deployments and view logs directly from AI agents.</li>
-<li><a href="https://github.com/modelcontextprotocol/servers">Chroma MCP Server</a> - Vector database integration for agentic RAG.</li>
-<li><a href="https://github.com/modelcontextprotocol/servers">Brave Search MCP</a> - Grounded web search for AI agents.</li>
-<li><a href="https://github.com/modelcontextprotocol/servers">PostgreSQL MCP Server</a> - Secure SQL execution and schema inspection for agents.</li>
-<li><a href="https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-managed-mcp-for-gemini">Google Cloud Managed MCP</a> - Production-grade MCP service for accessing GCP resources from Gemini.</li>
-</ul>
-<h2 id="llm-operators-and-infrastructure">LLM Operators and Infrastructure</h2>
-<ul>
-<li><a href="https://github.com/ray-project/kuberay">Kube-Ray</a> - A toolkit to run Ray applications on Kubernetes.</li>
-<li><a href="https://github.com/vllm-project/vllm">vLLM on Kubernetes</a> - High-throughput LLM serving with PagedAttention.</li>
-<li><a href="https://github.com/NVIDIA/gpu-operator">NVIDIA GPU Operator</a> - Automates the management of all NVIDIA software components needed to provision GPU.</li>
-<li><a href="https://github.com/mudler/LocalAI">LocalAI</a> - Self-hosted, community-driven, local OpenAI-compatible API.</li>
-</ul>
-
-
-
-
-
-
-
-
-
+  
+    <a href="https://github.com/nubenetes/awesome-kubernetes/edit/master/v2-docs/ai-agents-mcp.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/nubenetes/awesome-kubernetes/raw/master/v2-docs/ai-agents-mcp.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
+    </a>
   
 
 
+<h1 id="ai-agents-and-model-context-protocol-mcp-for-kubernetes">AI Agents and Model Context Protocol (MCP) for Kubernetes<a class="headerlink" href="#ai-agents-and-model-context-protocol-mcp-for-kubernetes" title="Permanent link">&para;</a></h1>
+<div class="admonition info">
+<p class="admonition-title">Architectural Context</p>
+<p>Detailed reference for AI Agents and Model Context Protocol (MCP) for Kubernetes in the context of AI.</p>
+</div>
+<h2 id="table-of-contents">Table of Contents<a class="headerlink" href="#table-of-contents" title="Permanent link">&para;</a></h2>
+<ol>
+<li><a href="#ai-engineering">AI Engineering</a></li>
+<li><a href="#ai-agents">AI Agents</a><ul>
+<li><a href="#web-automation">Web Automation</a></li>
+</ul>
+</li>
+<li><a href="#agentic-frameworks">Agentic Frameworks</a><ul>
+<li><a href="#developer-experience">Developer Experience</a></li>
+</ul>
+</li>
+<li><a href="#model-context-protocol">Model Context Protocol</a><ul>
+<li><a href="#architecture">Architecture</a></li>
+<li><a href="#awesome-lists">Awesome Lists</a></li>
+<li><a href="#developer-experience-1">Developer Experience</a></li>
+<li><a href="#google-cloud">Google Cloud</a></li>
+<li><a href="#official-servers">Official Servers</a></li>
+<li><a href="#specifications">Specifications</a></li>
+</ul>
+</li>
+<li><a href="#ai-infrastructure">AI Infrastructure</a></li>
+<li><a href="#distributed-computing">Distributed Computing</a><ul>
+<li><a href="#kube-ray">Kube-Ray</a></li>
+</ul>
+</li>
+<li><a href="#hardware-orchestration">Hardware Orchestration</a><ul>
+<li><a href="#nvidia-operators">NVIDIA Operators</a></li>
+</ul>
+</li>
+<li><a href="#llm-serving">LLM Serving</a><ul>
+<li><a href="#localai">LocalAI</a></li>
+<li><a href="#vllm">vLLM</a></li>
+</ul>
+</li>
+<li><a href="#architectural-foundations">Architectural Foundations</a></li>
+<li><a href="#kubernetes-tools">Kubernetes Tools</a><ul>
+<li><a href="#general-reference">General Reference</a></li>
+</ul>
+</li>
+<li><a href="#automation">Automation</a></li>
+<li><a href="#agentic-systems">Agentic Systems</a><ul>
+<li><a href="#mcp-server">MCP Server</a></li>
+</ul>
+</li>
+<li><a href="#cloud-native-operations">Cloud Native Operations</a></li>
+<li><a href="#ai-aiops">AI AIOps</a><ul>
+<li><a href="#kubernetes-troubleshooting">Kubernetes Troubleshooting</a></li>
+</ul>
+</li>
+<li><a href="#developer-experience-2">Developer Experience</a></li>
+<li><a href="#ai-assisted-coding">AI-Assisted Coding</a><ul>
+<li><a href="#claude-code">Claude Code</a></li>
+<li><a href="#cursor-ide">Cursor IDE</a></li>
+</ul>
+</li>
+<li><a href="#software-engineering">Software Engineering</a></li>
+<li><a href="#ai-tools">AI Tools</a><ul>
+<li><a href="#claude-code-1">Claude Code</a></li>
+</ul>
+</li>
+</ol>
+<h2 id="ai-engineering">AI Engineering<a class="headerlink" href="#ai-engineering" title="Permanent link">&para;</a></h2>
+<h3 id="ai-agents">AI Agents<a class="headerlink" href="#ai-agents" title="Permanent link">&para;</a></h3>
+<h4 id="web-automation">Web Automation<a class="headerlink" href="#web-automation" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2025)</strong> <a href="https://github.com/Skyvern-ai/Skyvern"><mark>Skyvern</mark></a> <span class='md-tag md-tag--info'>⭐ 21899</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3038a3b2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 12 L 20 13 L 30 3 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-3038a3b2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: An AI-powered web browser automation agent designed to extract data and execute workflows on complex interfaces. Live Grounding: Translates plain-text instructions into resilient selenium-style interactions, dynamically adapting to DOM mutations and bypassing rigid selector patterns.</li>
+</ul>
+<h3 id="agentic-frameworks">Agentic Frameworks<a class="headerlink" href="#agentic-frameworks" title="Permanent link">&para;</a></h3>
+<h4 id="developer-experience">Developer Experience<a class="headerlink" href="#developer-experience" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2025)</strong> <a href="https://kiro.dev">Kiro: Engineering Rigor for Agentic Development</a> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kiro is a testing and engineering framework designed to bring traditional software discipline—such as regression testing, linting, and sandbox executing—to LLM agents and multi-agent workflows. It establishes strict validation steps to ensure agent behaviors remain deterministic, secure, and aligned with standard corporate software engineering guidelines.</li>
+</ul>
+<h3 id="model-context-protocol">Model Context Protocol<a class="headerlink" href="#model-context-protocol" title="Permanent link">&para;</a></h3>
+<h4 id="architecture">Architecture<a class="headerlink" href="#architecture" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2024)</strong> <a href="https://www.anthropic.com/news/model-context-protocol">anthropic.com: Introducing the Model Context Protocol</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Anthropic's release document introducing the Model Context Protocol (MCP), an open-standard protocol enabling LLM agents to securely interact with external tools and data sources. MCP standardizes the JSON-RPC interface between hosts and servers, resolving the integration fragmentation that previously plagued generative AI integrations and agentic workflows.</li>
+</ul>
+<h4 id="awesome-lists">Awesome Lists<a class="headerlink" href="#awesome-lists" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2025)</strong> <a href="https://github.com/punkpeye/awesome-mcp-servers"><mark>Awesome MCP Servers</mark></a> <span class='md-tag md-tag--info'>⭐ 89112</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-396cb5e3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 4 L 20 9 L 30 10 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-396cb5e3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: A community-curated collection of servers implementing the Model Context Protocol. Live Grounding: Aggregates verified integrations linking AI models to tools like relational databases, enterprise APIs, version control providers, and local execution runtimes.</li>
+</ul>
+<h4 id="developer-experience-1">Developer Experience (1)<a class="headerlink" href="#developer-experience-1" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2025)</strong> <a href="https://www.mcpbundles.com">MCPBundles</a> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — MCPBundles is a discovery and packaging platform designed to bundle various Model Context Protocol servers for rapid deployment. It simplifies agentic application building by providing curated, pre-configured groupings of tools (e.g., database drivers, git utilities, API endpoints) that can be integrated into AI hosts in a single setup operation.</li>
+</ul>
+<h4 id="google-cloud">Google Cloud<a class="headerlink" href="#google-cloud" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2025)</strong> <a href="https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-managed-mcp-for-gemini">Google Cloud Managed MCP</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google Cloud's managed solution for Model Context Protocol, allowing enterprise Gemini models to safely interact with local data sources and external enterprise systems. By hosting and scaling MCP servers inside Google's managed environment, it minimizes operational overhead while securing transactional agentic workflows with native cloud IAM.</li>
+</ul>
+<h4 id="official-servers">Official Servers<a class="headerlink" href="#official-servers" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2025)</strong> <a href="https://github.com/modelcontextprotocol/servers"><mark>GitHub MCP Server</mark></a> <span class='md-tag md-tag--info'>⭐ 87194</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b5025440" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 2 L 20 8 L 30 13 L 40 7 L 50 2" fill="none" stroke="url(#spark-grad-b5025440)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: Primary collection of production-grade Model Context Protocol (MCP) servers. Live Grounding: Establishes development standards for JSON-RPC 2.0 based message exchange between host agents and enterprise backend systems.</li>
+</ul>
+<h4 id="specifications">Specifications<a class="headerlink" href="#specifications" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2025)</strong> <a href="https://modelcontextprotocol.io/docs/getting-started/intro">modelcontextprotocol.io: MCP Official Documentation</a> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official technical documentation and specifications for the Model Context Protocol (MCP). It provides comprehensive blueprints for implementing client-server architectures, defining standard JSON-RPC 2.0 schemas for prompt execution, resource exploration, and tool binding. Serves as the authoritative source for developers building LLM integrations.</li>
+</ul>
+<h2 id="ai-infrastructure">AI Infrastructure<a class="headerlink" href="#ai-infrastructure" title="Permanent link">&para;</a></h2>
+<h3 id="distributed-computing">Distributed Computing<a class="headerlink" href="#distributed-computing" title="Permanent link">&para;</a></h3>
+<h4 id="kube-ray">Kube-Ray<a class="headerlink" href="#kube-ray" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2025)</strong> <a href="https://github.com/ray-project/kuberay">Kube-Ray</a> <span class='md-tag md-tag--info'>⭐ 2541</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2471d9c8" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 11 L 20 3 L 30 12 L 40 5 L 50 4" fill="none" stroke="url(#spark-grad-2471d9c8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: An open-source Kubernetes Operator enabling the deployment and management of Ray clusters. Live Grounding: Serves as the backbone for distributed machine learning workloads on Kubernetes, abstracting compute node scaling, memory configuration, and actor scheduling.</li>
+</ul>
+<h3 id="hardware-orchestration">Hardware Orchestration<a class="headerlink" href="#hardware-orchestration" title="Permanent link">&para;</a></h3>
+<h4 id="nvidia-operators">NVIDIA Operators<a class="headerlink" href="#nvidia-operators" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2025)</strong> <a href="https://github.com/NVIDIA/gpu-operator">NVIDIA GPU Operator</a> <span class='md-tag md-tag--info'>⭐ 2739</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6c3bb734" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 6 L 20 4 L 30 8 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-6c3bb734)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Kubernetes operator designed to automate the management of NVIDIA software components on nodes. Live Grounding: Provisions GPU drivers, container runtimes, device plug-ins, and monitoring tools automatically, ensuring consistent access to hardware acceleration.</li>
+</ul>
+<h3 id="llm-serving">LLM Serving<a class="headerlink" href="#llm-serving" title="Permanent link">&para;</a></h3>
+<h4 id="localai">LocalAI<a class="headerlink" href="#localai" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2025)</strong> <a href="https://github.com/mudler/LocalAI"><strong>LocalAI</strong></a> <span class='md-tag md-tag--info'>⭐ 46845</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ea9eeb00" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 3 L 20 12 L 30 7 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-ea9eeb00)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: A self-hosted, community-first OpenAI-compatible API gateway running on local hardware. Live Grounding: Allows developers to host LLMs, audio-to-text, and image generation services inside Kubernetes without external data dependencies, optimized for consumer-grade and enterprise hardware.</li>
+</ul>
+<h4 id="vllm">vLLM<a class="headerlink" href="#vllm" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2025)</strong> <a href="https://github.com/vllm-project/vllm"><mark>vLLM on Kubernetes</mark></a> <span class='md-tag md-tag--info'>⭐ 82816</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6caed060" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 7 L 20 6 L 30 7 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-6caed060)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: Integration guides and deployment schemas for hosting vLLM on Kubernetes clusters. Live Grounding: Standardizes memory-efficient LLM serving using PagedAttention. Features rapid integration with Kubernetes HPA (Horizontal Pod Autoscaler) and native Prometheus performance scraping.</li>
+</ul>
+<h2 id="architectural-foundations">Architectural Foundations<a class="headerlink" href="#architectural-foundations" title="Permanent link">&para;</a></h2>
+<h3 id="kubernetes-tools">Kubernetes Tools<a class="headerlink" href="#kubernetes-tools" title="Permanent link">&para;</a></h3>
+<h4 id="general-reference">General Reference<a class="headerlink" href="#general-reference" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://t.co/EKsVgKA4xn">IBM IAM for AI Agents</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering IBM IAM for AI Agents in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://pulsemcp.com">PulseMCP</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering PulseMCP in the Kubernetes Tools ecosystem.</li>
+</ul>
+<h2 id="automation">Automation<a class="headerlink" href="#automation" title="Permanent link">&para;</a></h2>
+<h3 id="agentic-systems">Agentic Systems<a class="headerlink" href="#agentic-systems" title="Permanent link">&para;</a></h3>
+<h4 id="mcp-server">MCP Server<a class="headerlink" href="#mcp-server" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2026)</strong> <a href="https://devblogs.microsoft.com/azure-sdk/announcing-azure-mcp-server-2-0-stable-release">Announcing Azure MCP Server 2.0 Stable Release for Self-Hosted Agentic Cloud Automation</a> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the stable release of Azure MCP (Model Context Protocol) Server 2.0, enabling secure, self-hosted agentic automation workflows. It provides architectural patterns for running local AI agents with direct, API-driven access to Azure resource management, optimizing operational automation via language model integrations.</li>
+</ul>
+<h2 id="cloud-native-operations">Cloud Native Operations<a class="headerlink" href="#cloud-native-operations" title="Permanent link">&para;</a></h2>
+<h3 id="ai-aiops">AI AIOps<a class="headerlink" href="#ai-aiops" title="Permanent link">&para;</a></h3>
+<h4 id="kubernetes-troubleshooting">Kubernetes Troubleshooting<a class="headerlink" href="#kubernetes-troubleshooting" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2025)</strong> <a href="https://github.com/HolmesGPT/holmesgpt">HolmesGPT (Robusta)</a> <span class='md-tag md-tag--info'>⭐ 2623</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-892577ed" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 5 L 20 6 L 30 13 L 40 13 L 50 5" fill="none" stroke="url(#spark-grad-892577ed)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: An AI-driven troubleshooting assistant for Kubernetes clusters by Robusta. Live Grounding: Utilizes LLM agents to autonomously parse Prometheus alerts, collect pod logs, inspect live status, and deliver actionable remediation steps for infrastructure incidents.</li>
+</ul>
+<h2 id="developer-experience-2">Developer Experience (2)<a class="headerlink" href="#developer-experience-2" title="Permanent link">&para;</a></h2>
+<h3 id="ai-assisted-coding">AI-Assisted Coding<a class="headerlink" href="#ai-assisted-coding" title="Permanent link">&para;</a></h3>
+<h4 id="claude-code">Claude Code<a class="headerlink" href="#claude-code" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2025)</strong> <a href="https://github.com/shanraisshan/claude-code-best-practice"><mark>Claude Code Best Practice</mark></a> <span class='md-tag md-tag--info'>⭐ 57660</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-26ea52d5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 2 L 20 3 L 30 5 L 40 3 L 50 2" fill="none" stroke="url(#spark-grad-26ea52d5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Curated collection of best practices, system prompts, and architecture layouts for Claude Code. Live Grounding: Explores advanced CLI-driven agent workflows, highlighting configuration optimizations, shell integration strategies, and secure execution configurations in local and remote environments.</li>
+<li><strong>(2025)</strong> <a href="https://anthropic.skilljar.com/claude-code-in-action">Claude Code in Action</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An official hands-on tutorial and demonstration course by Anthropic showing the real-world utility of Claude Code. It covers basic terminal setups, interactive file refactoring, automated git commit orchestration, and contextual testing loops. Highly valuable for teams integrating terminal-based AI agents directly into daily engineering pipelines.</li>
+</ul>
+<h4 id="cursor-ide">Cursor IDE<a class="headerlink" href="#cursor-ide" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2025)</strong> <a href="https://cursor.com/es/learn">Cursor AI Fundamentals Course</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An educational program designed to train engineers on utilizing the Cursor AI code editor effectively. The curriculum covers foundational concepts of context inclusion, codebase indexing, and multi-file code transformations. It teaches developers how to write highly optimized prompts to synthesize software architecture and debug legacy systems directly inside the IDE.</li>
+</ul>
+<h2 id="software-engineering">Software Engineering<a class="headerlink" href="#software-engineering" title="Permanent link">&para;</a></h2>
+<h3 id="ai-tools">AI Tools<a class="headerlink" href="#ai-tools" title="Permanent link">&para;</a></h3>
+<h4 id="claude-code-1">Claude Code (1)<a class="headerlink" href="#claude-code-1" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2025)</strong> <a href="https://www.youtube.com/watch?v=TUKYbUIXLOE">youtube: The 6 Levels of Claude Code Explained</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive video breakdown analyzing the capabilities of Anthropic's Claude Code interface. Evaluates the progression from basic code generation and syntax correction to advanced multi-file refactoring and semi-autonomous agentic software engineering tasks.</li>
+</ul>
+<hr />
+<p>💡 <strong>Explore Related:</strong> <a href="ai.html">AI</a> | <a href="chatgpt.html">ChatGPT</a> | <a href="mlops.html">MLOps</a></p>
 
-  <form class="md-feedback" name="feedback" hidden>
-    <fieldset>
-      <legend class="md-feedback__title">
-        Was this page helpful?
-      </legend>
-      <div class="md-feedback__inner">
-        <div class="md-feedback__list">
-          
-            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81"/></svg>
-            </button>
-          
-            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10m-6.5-4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m2 4.5c1.75 0 3.29.72 4.19 1.81l-1.42 1.42C14.32 16.5 13.25 16 12 16s-2.32.5-2.77 1.23l-1.42-1.42C8.71 14.72 10.25 14 12 14"/></svg>
-            </button>
-          
-        </div>
-        <div class="md-feedback__note">
-          
-            <div data-md-value="1" hidden>
-              
-              
-                
-              
-              
-              
-                
-                
-              
-              Thanks for your feedback!
-            </div>
-          
-            <div data-md-value="0" hidden>
-              
-              
-                
-              
-              
-              
-                
-                
-              
-              Thanks for your feedback! Help us improve this page by using our <a href="..." target=_blank>feedback form</a>.
-            </div>
-          
-        </div>
-      </div>
-    </fieldset>
-  </form>
+
+
+
+
+
+
+
+
+
 
 
                 
@@ -2979,8 +2530,6 @@
             </div>
           
           
-  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
-
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
@@ -2999,7 +2548,7 @@
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      2026 <a href="https://twitter.com/nubenetes">Nubenetes</a>, <a href="https://nubenetes.com/about/">about</a>.
+      Copyright &copy; 2026 Nubenetes Agentic Intelligence
     </div>
   
   
@@ -3020,8 +2569,8 @@
       
       
     
-    <a href="https://www.youtube.com/channel/UCnrc0CFnNJSG2Kt4Ohdr3UA/playlists?view=1" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M549.7 124.1c-6.2-23.7-24.8-42.3-48.3-48.6C458.9 64 288.1 64 288.1 64S117.3 64 74.7 75.5c-23.5 6.3-42 24.9-48.3 48.6C15 167 15 256.4 15 256.4s0 89.4 11.4 132.3c6.3 23.6 24.8 41.5 48.3 47.8C117.3 448 288.1 448 288.1 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zM232.2 337.6V175.2l142.7 81.2z"/></svg>
+    <a href="https://github.com/nubenetes/awesome-kubernetes" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
     </a>
   
     
@@ -3032,50 +2581,6 @@
       
     
     <a href="https://twitter.com/nubenetes" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3"/></svg>
-    </a>
-  
-    
-    
-    
-    
-      
-      
-    
-    <a href="https://github.com/nubenetes" target="_blank" rel="noopener" title="github.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M202.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1M496 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2m-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3m-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1"/></svg>
-    </a>
-  
-    
-    
-    
-    
-      
-      
-    
-    <a href="https://speakerdeck.com/nubenetes/stars" target="_blank" rel="noopener" title="speakerdeck.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M213.9 296H100c-26.5 0-52-10.5-70.7-29.3S0 222.5 0 196s10.5-52 29.3-70.7S73.5 96 100 96h132.8c10.6 0 20.8 4.2 28.3 11.7s11.7 17.7 11.7 28.3-4.2 20.8-11.7 28.3-17.7 11.7-28.3 11.7H98c-26.5 0-26.4 40 0 40h113.8c26.5 0 52 10.5 70.7 29.3s29.3 44.2 29.3 70.7-10.5 52-29.3 70.7-44.2 29.3-70.7 29.3H40c-10.6 0-20.8-4.2-28.3-11.7S0 386.6 0 376s4.2-20.8 11.7-28.3S29.4 336 40 336h173.9c26.5 0 26.5-40 0-40M298 416c13.5-9.2 25-21 33.8-34.7s14.7-29.2 17.3-45.3h64.6c2.6 0 5.2-.6 7.6-1.6s4.6-2.5 6.4-4.4 3.3-4.1 4.2-6.5 1.5-5 1.4-7.6v-120c0-2.6-.5-5.2-1.4-7.6s-2.4-4.6-4.2-6.5-4-3.3-6.4-4.4-5-1.6-7.6-1.6H296.5c9.7-11.1 15-25.3 15-40s-5.3-28.9-15-40h136.9c43.4 0 78.6 35.8 78.6 80v160c0 44.2-35.2 80-78.6 80z"/></svg>
-    </a>
-  
-    
-    
-    
-    
-      
-      
-    
-    <a href="https://www.slideshare.net/nubenetes/favorites" target="_blank" rel="noopener" title="www.slideshare.net" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M187.9 153.7c-34 0-61.7 25.7-61.7 57.7 0 31.7 27.7 57.7 61.7 57.7s61.7-26 61.7-57.7c0-32-27.7-57.7-61.7-57.7m143.4 0c-34 0-61.7 25.7-61.7 57.7 0 31.7 27.7 57.7 61.7 57.7 34.3 0 61.7-26 61.7-57.7.1-32-27.4-57.7-61.7-57.7m156.6 90-6 4.3V49.7c0-27.4-20.6-49.7-46-49.7H76.8c-25.4 0-46 22.3-46 49.7V248c-2-1.4-4.3-2.9-6.3-4.3-15.1-10.6-25.1 4-16 17.7 18.3 22.6 53.1 50.3 106.3 72-56.3 191.7 137.4 222.3 134.3 124.1 0-.7.3-56.6.3-96.6 5.1 1.1 9.4 2.3 13.7 3.1 0 39.7.3 92.8.3 93.5-3.1 98.3 190.6 67.7 134.3-124 53.1-21.7 88-49.4 106.3-72 9.1-13.8-.9-28.3-16.1-17.8m-30.5 19.2c-68.9 37.4-128.3 31.1-160.6 29.7-23.7-.9-32.6 9.1-33.7 24.9-10.3-7.7-18.6-15.5-20.3-17.1-5.1-5.4-13.7-8-27.1-7.7-31.7 1.1-89.7 7.4-157.4-28V72.3c0-34.9 8.9-45.7 40.6-45.7h317.7c30.3 0 40.9 12.9 40.9 45.7v190.6z"/></svg>
-    </a>
-  
-    
-    
-    
-    
-      
-      
-    
-    <a href="https://twitter.com/redhatspain" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3"/></svg>
     </a>
   
@@ -3102,90 +2607,15 @@
     </div>
     
     
-      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
-        <div class="md-consent__overlay"></div>
-        <aside class="md-consent__inner">
-          <form class="md-consent__form md-grid md-typeset" name="consent">
-            
-
-
-  
-
-
-<h4>Cookie consent</h4>
-<p>We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to make our documentation better.</p>
-<input class="md-toggle" type="checkbox" id="__settings" >
-<div class="md-consent__settings">
-  <ul class="task-list">
-    
-    
-      
-        
-  
-  
-    
-    
-  
-  <li class="task-list-item">
-    <label class="task-list-control">
-      <input type="checkbox" name="analytics" checked>
-      <span class="task-list-indicator"></span>
-      Google Analytics
-    </label>
-  </li>
-
-      
-    
-    
-      
-        
-  
-  
-    
-    
-  
-  <li class="task-list-item">
-    <label class="task-list-control">
-      <input type="checkbox" name="github" checked>
-      <span class="task-list-indicator"></span>
-      GitHub
-    </label>
-  </li>
-
-      
-    
-    
-  </ul>
-</div>
-<div class="md-consent__controls">
-  
-    
-      <button class="md-button md-button--primary">Accept</button>
-    
-    
-    
-  
-    
-    
-    
-      <label class="md-button" for="__settings">Manage settings</label>
-    
-  
-</div>
-          </form>
-        </aside>
-      </div>
-      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
-    
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "navigation.top", "content.code.annotate", "content.code.copy", "content.tabs.link", "navigation.prune", "navigation.indexes", "search.highlight", "search.share", "search.suggest"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.action.view", "content.action.edit", "content.tooltips", "navigation.prune", "toc.integrate"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
       <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="javascript/extra.js"></script>
+        <script src="static/v2_filter.js"></script>
       
     
   </body>

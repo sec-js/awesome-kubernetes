@@ -3,6 +3,346 @@
 !!! info "Architectural Context"
     Detailed reference for Introduction. Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes in the context of Architectural Foundations.
 
+## Table of Contents
+
+1. [Application Modernization](#application-modernization)
+  - [Monolith to Microservices](#monolith-to-microservices)
+    - [Automated Refactoring](#automated-refactoring)
+    - [Case Studies](#case-studies)
+    - [Guides](#guides)
+1. [Architecture](#architecture)
+  - [APIs](#apis)
+    - [Protocols](#protocols)
+  - [Best Practices](#best-practices)
+    - [EDA](#eda)
+  - [Data Management](#data-management)
+    - [Patterns](#patterns)
+  - [Microservices](#microservices)
+    - [Fundamentals](#fundamentals)
+  - [Patterns](#patterns-1)
+    - [EDA](#eda-1)
+    - [Evolution](#evolution)
+    - [Monoliths](#monoliths)
+    - [Twelve-Factor App](#twelve-factor-app)
+  - [SaaS](#saas)
+    - [Multi-Tenancy](#multi-tenancy)
+  - [Technical Debt](#technical-debt)
+    - [Microservices](#microservices-1)
+    - [Orchestration](#orchestration)
+1. [Architecture Patterns](#architecture-patterns)
+  - [Microservices](#microservices-2)
+    - [Cloud-Native Infrastructure](#cloud-native-infrastructure)
+1. [Artificial Intelligence and ML](#artificial-intelligence-and-ml)
+  - [Machine Learning Engineering](#machine-learning-engineering)
+    - [Python Ecosystem](#python-ecosystem)
+1. [Business Architecture](#business-architecture)
+  - [Digital Transformation](#digital-transformation)
+    - [Cultural Dynamics](#cultural-dynamics)
+  - [Organizational Structure](#organizational-structure)
+    - [DevOps Culture](#devops-culture)
+1. [Career Development](#career-development)
+  - [Architect Strategy](#architect-strategy)
+    - [Skillsets](#skillsets)
+1. [Cloud Architecture](#cloud-architecture)
+  - [Cloud Strategy](#cloud-strategy)
+    - [Design Anti-patterns](#design-anti-patterns)
+    - [Migration Methodology](#migration-methodology)
+  - [Cloud-Native](#cloud-native)
+    - [Design Patterns](#design-patterns)
+  - [Hybrid Cloud Strategy](#hybrid-cloud-strategy)
+    - [Market Trends](#market-trends)
+  - [Migration](#migration)
+    - [Hands-On](#hands-on)
+    - [Methodology](#methodology)
+    - [Strategies](#strategies)
+  - [Modernization](#modernization)
+    - [Reactive Systems](#reactive-systems)
+  - [Multi-Cloud Strategy](#multi-cloud-strategy)
+    - [Data Management](#data-management-1)
+    - [Network and Security](#network-and-security)
+    - [Resilience Patterns](#resilience-patterns)
+  - [Private Cloud](#private-cloud)
+    - [Hybrid Cloud Strategy](#hybrid-cloud-strategy-1)
+  - [Professional Development](#professional-development)
+    - [Career Engineering](#career-engineering)
+  - [Strategy](#strategy)
+    - [Multi-Cloud Benefits](#multi-cloud-benefits)
+    - [Multi-Cloud Decisions](#multi-cloud-decisions)
+1. [Cloud Architecture and Infrastructure Strategy](#cloud-architecture-and-infrastructure-strategy)
+  - [Application Design](#application-design)
+    - [Horizontal Scaling](#horizontal-scaling)
+    - [System Design Patterns](#system-design-patterns)
+  - [Cost Optimization and FinOps](#cost-optimization-and-finops)
+    - [Efficiency Bottlenecks](#efficiency-bottlenecks)
+  - [Deployment Models](#deployment-models)
+    - [Comparison](#comparison)
+    - [Hybrid and Private Cloud](#hybrid-and-private-cloud)
+  - [High Availability](#high-availability)
+    - [Core Patterns](#core-patterns)
+    - [Multi-Region Deployments](#multi-region-deployments)
+  - [Market Trends](#market-trends-1)
+    - [Open Source Business Models](#open-source-business-models)
+  - [Migration and Modernization](#migration-and-modernization)
+    - [Enterprise Solutions](#enterprise-solutions)
+    - [Planning Resources](#planning-resources)
+  - [Modern Architectural Paradigms](#modern-architectural-paradigms)
+    - [MACH Architecture](#mach-architecture)
+  - [Multi-Cloud Strategy](#multi-cloud-strategy-1)
+    - [Architecture Designs](#architecture-designs)
+    - [Architecture Planning](#architecture-planning)
+    - [Business Drivers](#business-drivers)
+  - [Storage and Hybrid Systems](#storage-and-hybrid-systems)
+    - [Topology Comparison](#topology-comparison)
+1. [Cloud Infrastructure](#cloud-infrastructure)
+  - [Automation](#automation)
+    - [Concepts](#concepts)
+  - [DevOps](#devops)
+    - [Infrastructure Abstraction](#infrastructure-abstraction)
+  - [Hybrid Cloud](#hybrid-cloud)
+    - [Management Tools](#management-tools)
+  - [Kubernetes](#kubernetes)
+    - [Container Patterns](#container-patterns)
+    - [OpenShift](#openshift)
+    - [OpenShift Comparison](#openshift-comparison)
+1. [Cloud Native and Kubernetes Core](#cloud-native-and-kubernetes-core)
+  - [Business Value and ROI](#business-value-and-roi)
+    - [Operational Automation](#operational-automation)
+  - [Container Orchestration](#container-orchestration)
+    - [Deep Dive](#deep-dive)
+    - [Fundamentals](#fundamentals-1)
+    - [Future Outlook](#future-outlook)
+    - [Orchestrator Comparison](#orchestrator-comparison)
+    - [Platform Engineering](#platform-engineering)
+  - [Market Trends](#market-trends-2)
+    - [Adoption Analytics](#adoption-analytics)
+    - [Ecosystem Evolution](#ecosystem-evolution)
+  - [Migration and Modernization](#migration-and-modernization-1)
+    - [Anti-Patterns](#anti-patterns)
+    - [Workload Transition](#workload-transition)
+  - [Testing and Reliability](#testing-and-reliability)
+    - [Control Plane Validation](#control-plane-validation)
+  - [Virtualization and Containers](#virtualization-and-containers)
+    - [Architecture Comparison](#architecture-comparison)
+    - [Container Anti-patterns](#container-anti-patterns)
+    - [Modernization Strategy](#modernization-strategy)
+1. [Cloud Native Architecture](#cloud-native-architecture)
+  - [Containerization](#containerization)
+    - [Kubernetes](#kubernetes-1)
+  - [Design Patterns](#design-patterns-1)
+    - [Operators and Sidecars](#operators-and-sidecars)
+  - [GitOps](#gitops)
+    - [Cloud Native Strategy](#cloud-native-strategy)
+  - [Microservices](#microservices-3)
+    - [Enterprise Solutions](#enterprise-solutions-1)
+  - [Software Engineering](#software-engineering)
+    - [Monoliths](#monoliths-1)
+1. [Cloud Native Infrastructure](#cloud-native-infrastructure)
+  - [Business Architecture](#business-architecture-1)
+    - [Infrastructure Management](#infrastructure-management)
+    - [Value Proposition](#value-proposition)
+  - [CNCF Ecosystem](#cncf-ecosystem)
+    - [Platform Engineering](#platform-engineering-1)
+  - [Containerization](#containerization-1)
+    - [Fundamentals](#fundamentals-2)
+    - [Operations Guide](#operations-guide)
+  - [Industry Standards](#industry-standards)
+    - [Market Trends](#market-trends-3)
+  - [Kubernetes Orchestration](#kubernetes-orchestration)
+    - [Fundamentals](#fundamentals-3)
+    - [Future Trends](#future-trends)
+    - [Industry Standards](#industry-standards-1)
+    - [Industry Trends](#industry-trends)
+    - [Kubernetes Tools](#kubernetes-tools)
+    - [Multi-Cluster Strategy](#multi-cluster-strategy)
+    - [Platform Engineering](#platform-engineering-2)
+  - [Professional Development](#professional-development-1)
+    - [Career Engineering](#career-engineering-1)
+  - [Technology Assessment](#technology-assessment)
+    - [Compute Paradigms](#compute-paradigms)
+1. [Cloud Native Orchestration](#cloud-native-orchestration)
+  - [Platform Comparison](#platform-comparison)
+    - [OpenShift vs Kubernetes](#openshift-vs-kubernetes)
+1. [Data Engineering](#data-engineering)
+  - [Education](#education)
+    - [Cookbook](#cookbook)
+1. [DevOps and CICD](#devops-and-cicd)
+  - [Continuous Integration](#continuous-integration)
+    - [Developer Experience](#developer-experience)
+  - [Microservices](#microservices-4)
+    - [Tooling Ecosystem](#tooling-ecosystem)
+1. [DevOps Automation and Modern Systems Engineering](#devops-automation-and-modern-systems-engineering)
+  - [Automation and Orchestration](#automation-and-orchestration)
+    - [Operational Efficiency](#operational-efficiency)
+  - [Culture and Roles](#culture-and-roles)
+    - [Systems Administration Evolution](#systems-administration-evolution)
+  - [Infrastructure-as-Code](#infrastructure-as-code)
+    - [Self-Healing Systems](#self-healing-systems)
+  - [Security and Governance](#security-and-governance)
+    - [Policy-as-Code](#policy-as-code)
+  - [Software Engineering Principles](#software-engineering-principles)
+    - [Programming Languages](#programming-languages)
+    - [Technical Debt](#technical-debt-1)
+1. [Distributed Systems](#distributed-systems)
+  - [Consensus](#consensus)
+    - [Algorithms](#algorithms)
+1. [Edge and IoT Orchestration](#edge-and-iot-orchestration)
+  - [Embedded Software](#embedded-software)
+    - [Automotive Systems](#automotive-systems)
+1. [Emerging Technology](#emerging-technology)
+  - [Quantum Computing](#quantum-computing)
+    - [Fundamentals](#fundamentals-4)
+1. [Frontend Architecture](#frontend-architecture)
+  - [Design Patterns](#design-patterns-2)
+    - [BFF](#bff)
+  - [Microfrontends](#microfrontends)
+    - [AWS Serverless](#aws-serverless)
+    - [Introduction](#introduction)
+1. [Infrastructure](#infrastructure)
+  - [Cloud Architecture](#cloud-architecture-1)
+    - [Paradigms](#paradigms)
+  - [Cloud Financials](#cloud-financials)
+    - [FinOps](#finops)
+  - [Legacy](#legacy)
+    - [Mainframe](#mainframe)
+  - [Virtualization](#virtualization)
+    - [Broadcom Era](#broadcom-era)
+1. [Infrastructure and Hardware](#infrastructure-and-hardware)
+  - [Data Center Investments](#data-center-investments)
+    - [Europe](#europe)
+1. [Kubernetes Tools](#kubernetes-tools-1)
+  - [General Reference](#general-reference)
+1. [Methodology](#methodology-1)
+  - [Careers](#careers)
+    - [Enterprise Strategy](#enterprise-strategy)
+  - [Development](#development)
+    - [Best Practices](#best-practices-1)
+    - [Learning Resources](#learning-resources)
+  - [Documentation](#documentation)
+    - [Governance](#governance)
+  - [Engineering Leadership](#engineering-leadership)
+    - [Governance](#governance-1)
+    - [Technical Debt](#technical-debt-2)
+  - [Metrics](#metrics)
+    - [Technical Debt](#technical-debt-3)
+  - [Quality](#quality)
+    - [Embedded Systems](#embedded-systems)
+  - [Roles](#roles)
+    - [Cloud Governance](#cloud-governance)
+  - [Software Engineering](#software-engineering-1)
+    - [Technical Debt](#technical-debt-4)
+1. [Microservices](#microservices-5)
+  - [Anti-Patterns](#anti-patterns-1)
+    - [Failure Modes](#failure-modes)
+    - [Lessons Learned](#lessons-learned)
+  - [Data Management](#data-management-2)
+    - [Event-Driven Architecture](#event-driven-architecture)
+  - [Design Patterns](#design-patterns-3)
+    - [Best Practices](#best-practices-2)
+    - [Catalog](#catalog)
+    - [DotNet](#dotnet)
+    - [Event-Driven](#event-driven)
+    - [Reference Architecture](#reference-architecture)
+  - [Design Principles](#design-principles)
+    - [Core Principles](#core-principles)
+    - [Evaluation](#evaluation)
+  - [Frameworks](#frameworks)
+    - [Ecosystem](#ecosystem)
+  - [Implementation](#implementation)
+    - [CQRS](#cqrs)
+  - [Modernization](#modernization-1)
+    - [Automated Migration](#automated-migration)
+    - [CDC Patterns](#cdc-patterns)
+    - [Monolith Migration](#monolith-migration)
+  - [Observability](#observability)
+    - [Namespaces](#namespaces)
+  - [Orchestration](#orchestration-1)
+    - [Best Practices](#best-practices-3)
+1. [Microservices and Distributed Systems](#microservices-and-distributed-systems)
+  - [Architecture Evolution](#architecture-evolution)
+    - [Abstractions and Frameworks](#abstractions-and-frameworks)
+    - [Curated Reference](#curated-reference)
+  - [Architecture Patterns](#architecture-patterns-1)
+    - [Anti-Patterns](#anti-patterns-2)
+    - [Best Practices](#best-practices-4)
+    - [Component Design](#component-design)
+    - [Decision Matrix](#decision-matrix)
+    - [Fundamentals](#fundamentals-5)
+  - [Deployment Models](#deployment-models-1)
+    - [Orchestration Options](#orchestration-options)
+  - [Software Engineering Principles](#software-engineering-principles-1)
+    - [Developer Workflow](#developer-workflow)
+  - [Testing and Reliability](#testing-and-reliability-1)
+    - [Fault Tolerance](#fault-tolerance)
+1. [Operations](#operations)
+  - [Disaster Recovery](#disaster-recovery)
+    - [Cloud-Native](#cloud-native-1)
+    - [DevOps](#devops-1)
+1. [Orchestration](#orchestration-2)
+  - [Kubernetes](#kubernetes-2)
+    - [Anti-Patterns](#anti-patterns-3)
+    - [Dependency Isolation](#dependency-isolation)
+    - [Microservices](#microservices-6)
+    - [Paradigms](#paradigms-1)
+    - [Prerequisites](#prerequisites)
+    - [Processes](#processes)
+    - [Twelve-Factor App](#twelve-factor-app-1)
+    - [Workloads](#workloads)
+1. [Platform Engineering](#platform-engineering-3)
+  - [PaaS Solutions](#paas-solutions)
+    - [Market Shifts](#market-shifts)
+  - [Reference Architectures](#reference-architectures)
+    - [AWS](#aws)
+    - [Azure](#azure)
+    - [GCP](#gcp)
+  - [Self-Service](#self-service)
+    - [Case Studies](#case-studies-1)
+    - [Concepts](#concepts-1)
+  - [Service Catalogs](#service-catalogs)
+    - [Microservices Governance](#microservices-governance)
+1. [Professional Development](#professional-development-2)
+  - [Career Guidance](#career-guidance)
+1. [Reliability Engineering](#reliability-engineering)
+  - [Resilience Patterns](#resilience-patterns-1)
+    - [Infrastructure Stability](#infrastructure-stability)
+1. [Security](#security)
+  - [Software Protection](#software-protection)
+    - [Obfuscation](#obfuscation)
+1. [Software Architecture](#software-architecture)
+  - [Application Modernization](#application-modernization-1)
+    - [Legacy Migration](#legacy-migration)
+  - [Event-Driven Systems](#event-driven-systems)
+    - [Asynchronous Messaging](#asynchronous-messaging)
+  - [Microservices](#microservices-7)
+    - [Decomposition Patterns](#decomposition-patterns)
+    - [Design Patterns](#design-patterns-4)
+    - [Distributed Transactions](#distributed-transactions)
+    - [Maturity Models](#maturity-models)
+    - [Monolith Transition](#monolith-transition)
+    - [Technology Selection](#technology-selection)
+    - [Value Proposition](#value-proposition-1)
+  - [Modernization](#modernization-2)
+    - [Strangler Pattern](#strangler-pattern)
+  - [Monoliths](#monoliths-2)
+    - [Modular Monolith](#modular-monolith)
+1. [Software Delivery](#software-delivery)
+  - [DevOps](#devops-2)
+    - [Industry Trends](#industry-trends-1)
+1. [Software Engineering](#software-engineering-2)
+  - [Architecture Patterns](#architecture-patterns-2)
+    - [Microservices](#microservices-8)
+  - [Education](#education-1)
+    - [Systems Programming](#systems-programming)
+  - [Full-Stack Fundamentals](#full-stack-fundamentals)
+    - [Architectural Roles](#architectural-roles)
+  - [Performance Optimization](#performance-optimization)
+    - [System Architecture](#system-architecture)
+  - [Web Development](#web-development)
+    - [NodeJS](#nodejs)
+1. [Software Engineering Practices](#software-engineering-practices)
+  - [Developer Productivity](#developer-productivity)
+    - [Roadmaps](#roadmaps)
+    - [Toolkits](#toolkits)
+
 ## Vision 2026
 
 !!! quote "The Evolution of Autonomy"
@@ -88,11 +428,6 @@ graph TD
 #### Orchestration
 
   - **(2021)** [stackoverflow.blog: Using Kubernetes to rethink your system architecture and ease technical debt 🌟](https://stackoverflow.blog/2021/05/19/rethinking-system-architecture-can-kubernetes-help-to-solve-rewrite-anxiety) 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Discusses utilizing a migration to Kubernetes as a strategic catalyst to refactor legacy monoliths. Reorganizes monolithic systems into decoupled containers, successfully lowering long-term architectural tech debt.
-### Web Applications
-
-#### Enterprise Patterns
-
-  - **(2025)** [Enterprise Web App Patterns - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/web-apps/guides/enterprise-app-patterns/overview) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Production-proven patterns and implementation pathways from the Azure Architecture Center. Establishes migration guidelines for modernizing monolithic applications into elastic web architectures.
 ## Architecture Patterns
 
 ### Microservices (2)
@@ -264,6 +599,13 @@ graph TD
     
     Explores three fundamental high-availability cloud strategies: active-active vs active-passive configurations, geo-redundant database replication, and zero-downtime DNS-routed failovers. Discusses mathematical SLA models and network traffic planning required to achieve high service uptime.
 
+#### Multi-Region Deployments
+
+??? note "engineering.monday.com: monday.com’s Multi-Regional Architecture: A Deep Dive"
+    **[Access Resource](https://engineering.monday.com/monday-coms-multi-regional-architecture-a-deep-dive)** 🌟🌟🌟🌟🌟 | Level: Advanced
+    
+    A real-world architectural dissection of how monday.com implemented a highly resilient, multi-regional cloud strategy to improve latency and adhere to strict regional data regulations. Explains state replication strategies, request routing optimizations, and database scaling bottlenecks encountered during global scaling.
+
 ### Market Trends (1)
 
 #### Open Source Business Models
@@ -313,6 +655,15 @@ graph TD
 #### Business Drivers
 
   - **(2022)** [thenewstack.io: Reasons to Opt for a Multicloud Strategy](https://thenewstack.io/reasons-to-opt-for-a-multicloud-strategy) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines key operational drivers supporting a deliberate multi-cloud migration strategy, centering on geographic expansion, regional regulatory mandates, and optimized billing leverage. The resource emphasizes treating multi-cloud as a strategic framework to optimize application delivery across diverse vendor strengths.
+### Storage and Hybrid Systems
+
+#### Topology Comparison
+
+??? note "blog.min.io: Mono Clouds vs Multi-Clouds & Hybrid Clouds"
+    **[Access Resource](https://www.min.io/blog)** 🌟🌟🌟🌟 | Level: Intermediate
+    
+    Details the comparative trade-offs between mono-cloud, multi-cloud, and hybrid cloud topologies from an object storage and data gravity perspective. MinIO highlights the critical role of data portability and standardized APIs (S3) in enabling architectural freedom across multi-cloud footprints.
+
 ## Cloud Infrastructure
 
 ### Automation
@@ -344,13 +695,6 @@ graph TD
   - **(2021)** [phoenixnap.com: Kubernetes vs OpenShift: Key Differences Compared 🌟](https://phoenixnap.com/blog/openshift-vs-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Breaks down core differences between vanilla Kubernetes and Red Hat OpenShift, evaluating deployment mechanics, security configurations (SCC vs RBAC), built-in routing, out-of-the-box monitoring, and support models.
   - **(2021)** [simplilearn.com: Understanding The Difference Between Kubernetes Vs. Openshift](https://www.simplilearn.com/kubernetes-vs-openshift-article)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An educational comparison detailing the architectural boundaries of Kubernetes and OpenShift. Explores developer workflows, installation processes, built-in CI/CD pipelines, and licensing structures.
   - **(2019)** [spec-india.com: Kubernetes VS Openshift (July 23rd 2019)](https://www.spec-india.com/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares upstream open-source Kubernetes with Red Hat OpenShift. Focuses on user-interface options, CLI differences, security policies, image registry capabilities, and integrated CI/CD toolchain setups in enterprise deployments.
-## Cloud Infrastructure and Orchestration
-
-### Public Cloud Administration
-
-#### AWS Fundamentals
-
-  - **(2023)** [AWS Cloud Practitioner - Curso Completo 2023](https://www.youtube.com/watch?v=zQyrhjEAqLs) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive Spanish instructional syllabus targeting the AWS Certified Cloud Practitioner domain. Details key global infrastructure components, core services (EC2, S3, RDS, VPC), billing architectures, and foundational security frameworks.
 ## Cloud Native and Kubernetes Core
 
 ### Business Value and ROI
@@ -368,6 +712,11 @@ graph TD
     Deep dive into core Kubernetes architectures, detailing controller-manager reconciliation mechanisms, kube-scheduler filters, and API-driven status updates. Provides a technical reference for engineers wanting to design resource control loops and manage standard system interactions.
 
 #### Fundamentals (1)
+
+??? note "cloud.google.com: What is Kubernetes? 🌟"
+    **[Access Resource](https://cloud.google.com/learn/what-is-kubernetes)** 🌟🌟🌟🌟🌟 | Level: Beginner
+    
+    A comprehensive foundation on Kubernetes, detailing its architectural pillars including the control plane, worker nodes, and declarative API engine. It outlines container scheduling, automated self-healing, and service discovery mechanisms essential for running resilient, modern cloud-native systems.
 
 ??? note "weave.works: What is a Kubernetes Cluster? 🌟"
     **[Access Resource](https://www.weave.works/blog/kubernetes-cluster)** 🌟🌟🌟🌟 | Level: Beginner
@@ -735,8 +1084,8 @@ graph TD
   - [ringcentral.co.uk: Software as a Service (SaaS)](https://www.ringcentral.com/gb/en/blog/definitions/software-as-a-service-saas)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.ringcentral.com in the Kubernetes Tools ecosystem.
   - [ringcentral.co.uk: Cloud Management 🌟](https://www.ringcentral.com/gb/en/blog/definitions/cloud-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.ringcentral.com in the Kubernetes Tools ecosystem.
   - [Kelsey Hightower Fireside Chat: An Unconventional Path to IT and Some Life Advice](https://www.hashicorp.com/resources/kelsey-hightower-fireside-chat-an-unconventional-path-to-it-and-some-life-advice)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.hashicorp.com in the Kubernetes Tools ecosystem.
-  - [levelup.gitconnected.com: How to design a system to scale to your first' 100 million users](https://levelup.gitconnected.com/how-to-design-a-system-to-scale-to-your-first-100-million-users-4450a2f9703d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering levelup.gitconnected.com: How to design a system to scale to your first' 100 million users in the Kubernetes Tools ecosystem.
   - [medium.com/javarevisited: Microservices communication using gRPC Protocol](https://medium.com/javarevisited/microservices-communication-using-grpc-protocol-dc3a2f8b648d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==medium.com/javarevisited: Microservices communication using gRPC Protocol== in the Kubernetes Tools ecosystem.
+  - [levelup.gitconnected.com: How to design a system to scale to your first' 100 million users](https://levelup.gitconnected.com/how-to-design-a-system-to-scale-to-your-first-100-million-users-4450a2f9703d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering levelup.gitconnected.com: How to design a system to scale to your first' 100 million users in the Kubernetes Tools ecosystem.
   - [Monolithic versus Microservice architecture](https://www.enterprisetimes.co.uk/2020/07/23/monolithic-versus-microservice-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Monolithic versus Microservice architecture in the Kubernetes Tools ecosystem.
   - [cncf.io: Top 7 challenges to becoming cloud native](https://www.cncf.io/blog/2020/09/15/top-7-challenges-to-becoming-cloud-native)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Top 7 challenges to becoming cloud native in the Kubernetes Tools ecosystem.
   - [techrepublic.com: Kubernetes will deliver the app store experience for enterprise' software, says Weaveworks CEO](https://www.techrepublic.com/article/kubernetes-will-deliver-the-app-store-experience-for-enterprise-software-says-weaveworks-ceo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering techrepublic.com: Kubernetes will deliver the app store experience for enterprise' software, says Weaveworks CEO in the Kubernetes Tools ecosystem.
@@ -1277,5 +1626,5 @@ graph TD
   - **(2022)** [ubiqum.com: 20 Software Development Tools that will make you more productive](https://ubiqum.com/blog/20-software-development-tools-that-will-make-you-more-productive)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curated technical list analyzing software development tools engineered to enhance engineering velocity. Explores IDE extensions, local container utilities, source control clients, and task automators critical for scaling developer operations.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
 

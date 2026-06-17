@@ -3,6 +3,14 @@
 !!! info "Architectural Context"
     Detailed reference for Spain in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Cloud Platforms](#cloud-platforms)
+  - [AWS Education](#aws-education)
+    - [Resources](#resources)
+  - [AWS Regional Infrastructure](#aws-regional-infrastructure)
+    - [Spain](#spain-1)
+
 ## Cloud Platforms
 
 ### AWS Education
@@ -21,5 +29,5 @@
   - **(2022)** [techunwrapped.com: Spain becomes a Cloud Region in 2022](https://techunwrapped.com/spain-becomes-a-cloud-region-in-2022)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical news review analyzing the impact of Spain establishing its first sovereign AWS Cloud Region in 2022, detailing latency improvements and local enterprise hosting advantages.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [Azure](./azure.md)
 

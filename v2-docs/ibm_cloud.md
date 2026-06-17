@@ -3,25 +3,58 @@
 !!! info "Architectural Context"
     Detailed reference for IBM in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud-Native Java](#cloud-native-java)
+  - [Runtimes](#runtimes)
+    - [Open Liberty](#open-liberty)
+      - [Source Code](#source-code)
+    - [WebSphere](#websphere)
+      - [Docker](#docker)
+1. [Enterprise Integration](#enterprise-integration)
+  - [Cloud-Native Storage](#cloud-native-storage)
+    - [IBM Spectrum Scale Integration](#ibm-spectrum-scale-integration)
+    - [IBM Storage Systems](#ibm-storage-systems)
+  - [Enterprise Mainframe](#enterprise-mainframe)
+    - [Bare Metal Installation](#bare-metal-installation)
+    - [Deployment Experience](#deployment-experience)
+    - [OpenShift on IBM Z](#openshift-on-ibm-z)
+  - [Microservices](#microservices)
+    - [GraphQL and Open Liberty](#graphql-and-open-liberty)
+  - [Multi-Cluster Management](#multi-cluster-management)
+    - [IBM Cloud Pak SDK](#ibm-cloud-pak-sdk)
+1. [Infrastructure](#infrastructure)
+  - [Cloud Market](#cloud-market)
+    - [IBM](#ibm-1)
+      - [Corporate Strategy](#corporate-strategy)
+  - [Cloud Providers](#cloud-providers)
+    - [IBM Cloud](#ibm-cloud)
+  - [Mainframe Modernization](#mainframe-modernization)
+    - [IBM](#ibm-2)
+      - [Containers](#containers)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
 
 #### General Reference
 
+  - [IBM API Connect](https://www.ibm.com/docs/en/api-connect)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.ibm.com in the Kubernetes Tools ecosystem.
   - [Red Hat OpenShift on IBM Cloud](https://www.ibm.com/solutions/cloud/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.ibm.com in the Kubernetes Tools ecosystem.
   - [IBM Knowledge Center 🌟](https://www.ibm.com/docs/en)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.ibm.com in the Kubernetes Tools ecosystem.
-  - [IBM API Connect](https://www.ibm.com/docs/en/api-connect)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.ibm.com in the Kubernetes Tools ecosystem.
   - [IBM Knowledge Center: IBM Cloud Pak for Multicloud Management](https://www.ibm.com/docs/en/cloud-paks/cp-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.ibm.com in the Kubernetes Tools ecosystem.
   - [IBM Cloud Pak Playbook](https://cloudpak8s.io/apps/cp4a_overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering IBM Cloud Pak Playbook in the Kubernetes Tools ecosystem.
-  - [IBM Cloud Pak Playbook: cloudpak8s.io](https://cloudpak8s.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering IBM Cloud Pak Playbook: cloudpak8s.io in the Kubernetes Tools ecosystem.
   - [IBM Vault 2.0 UI Enhancements and Reporting Improvements](https://t.co/cvOceuueCF)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering IBM Vault 2.0 UI Enhancements and Reporting Improvements in the Kubernetes Tools ecosystem.
-  - [About WebSphere Liberty](https://developer.ibm.com/wasdev/websphere-liberty)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering About WebSphere Liberty in the Kubernetes Tools ecosystem.
   - [reuters.com: IBM to break up 109-year old company to focus on cloud growth' 🌟](https://www.reuters.com/article/us-ibm-divestiture/ibm-to-break-up-109-year-old-company-to-focus-on-cloud-growth-idUSKBN26T1TZ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reuters.com: IBM to break up 109-year old company to focus on cloud growth' 🌟 in the Kubernetes Tools ecosystem.
   - [WebSphere Liberty](https://developer.ibm.com/wasdev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering WebSphere Liberty in the Kubernetes Tools ecosystem.
   - [Download WAS Liberty](https://developer.ibm.com/wasdev/downloads)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Download WAS Liberty in the Kubernetes Tools ecosystem.
+  - [About WebSphere Liberty](https://developer.ibm.com/wasdev/websphere-liberty)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering About WebSphere Liberty in the Kubernetes Tools ecosystem.
   - [OpenShift Container Platform 4.2. Installing on IBM Z (html)](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.2/html/installing_on_ibm_z)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering OpenShift Container Platform 4.2. Installing on IBM Z (html) in the Kubernetes Tools ecosystem.
   - [OpenShift Container Platform 4.2. Installing on IBM Z (pdf)](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.2/pdf/installing_on_ibm_z)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering OpenShift Container Platform 4.2. Installing on IBM Z (pdf) in the Kubernetes Tools ecosystem.
+  - [IBM Cloud Pak Playbook: cloudpak8s.io](https://cloudpak8s.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering IBM Cloud Pak Playbook: cloudpak8s.io in the Kubernetes Tools ecosystem.
   - [medium.com/search?q=cp4mcm](https://medium.com/search?q=cp4mcm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/search?q=cp4mcm in the Kubernetes Tools ecosystem.
   - [medium: tagged/cp4mcm](https://medium.com/ibm-cloud-paks-help-and-guidance-from-ibm-cloud/tagged/cp4mcm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: tagged/cp4mcm in the Kubernetes Tools ecosystem.
 ## Cloud-Native Java
@@ -41,6 +74,14 @@
   - **(2026)** [**DockerHub: websphere-liberty**](https://hub.docker.com/_/websphere-liberty) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The official WebSphere Liberty image on Docker Hub, providing a highly optimized cloud-native runtime designed for Java EE and MicroProfile. Live Grounding emphasizes its value for enterprise application modernization, delivering low-footprint containers with IBM technical backing.
 ## Enterprise Integration
 
+### Cloud-Native Storage
+
+#### IBM Spectrum Scale Integration
+
+  - **(2020)** [redbooks.ibm.com: IBM Storage for Red Hat OpenShift. IBM block storage & IBM Spectrum Scale](https://www.redbooks.ibm.com/abstracts/redp5565.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This comprehensive Redbook outlines deployment architecture guidelines for IBM Block Storage and IBM Spectrum Scale CSI drivers within OpenShift environments. It details technical patterns for high-performance file sharing, security isolation, multi-zone availability, and persistent volume provisioning needed for enterprise-grade workloads.
+#### IBM Storage Systems
+
+  - **(2022)** [IBM Spectrum](https://www.ibm.com/solutions) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — IBM Spectrum (now rebranded under IBM Storage) delivers enterprise-grade software-defined storage architectures tailored for highly demanding Kubernetes deployments. The portfolio provides integrated high-performance block, file, and object interfaces designed for secure backup, recovery, and dynamic persistent volume management in complex hybrid-cloud ecosystems.
 ### Enterprise Mainframe
 
 #### Bare Metal Installation
@@ -61,7 +102,7 @@
 
 #### IBM Cloud Pak SDK
 
-  - **(2020)** [github.com/IBM/CP4MCM-SDK : Business Partner App Integration with IBM MCM](https://github.com/IBM/CP4MCM-SDK) <span class='md-tag md-tag--info'>⭐ 2</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — An integration SDK for registering and packaging third-party application services within the IBM Cloud Pak for Multicloud Management (CP4MCM) ecosystem. Live Grounding Note: CP4MCM and this SDK are largely archived or superseded by newer Red Hat Advanced Cluster Management (RHACM) methodologies, making this mostly historical for legacy integrations.
+  - **(2020)** [github.com/IBM/CP4MCM-SDK : Business Partner App Integration with IBM MCM](https://github.com/IBM/CP4MCM-SDK) <span class='md-tag md-tag--info'>⭐ 2</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8e71233c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 11 L 20 3 L 30 3 L 40 11 L 50 10" fill="none" stroke="url(#spark-grad-8e71233c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — An integration SDK for registering and packaging third-party application services within the IBM Cloud Pak for Multicloud Management (CP4MCM) ecosystem. Live Grounding Note: CP4MCM and this SDK are largely archived or superseded by newer Red Hat Advanced Cluster Management (RHACM) methodologies, making this mostly historical for legacy integrations.
 ## Infrastructure
 
 ### Cloud Market
@@ -85,5 +126,5 @@
   - **(2019)** [IBM Leverages Containers to Advance DevOps on Mainframes](https://cloudnativenow.com/topics/cloudnativedevelopment/ibm-leverages-containers-to-advance-devops-on-mainframes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details how IBM brought containerization architectures (like z/OS Container Extensions) to its zSystems mainframes. Live Grounding confirms this as a key modernization vector, enabling developers to build and test mainframe workloads using Git-driven Docker/Kubernetes workflows.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md)
 

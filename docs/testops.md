@@ -42,7 +42,7 @@
 - [Cicada: A tool for testing microservices](https://cicadatesting.github.io/cicada-2)
     - [medium: Cicada: An integration testing framework for Docker and Kubernetes](https://medium.com/@jeremyaherzog/cicada-an-integration-testing-framework-for-docker-and-kubernetes-7eee5624cc55)
 
-### KubeAudit 
+### KubeAudit
 
 - [developers.redhat.com: Static analysis with KubeAudit for Red Hat OpenShift](https://developers.redhat.com/blog/2020/10/09/static-analysis-with-kubeaudit-for-red-hat-openshift) This auditing tool currently only supports Kubernetes manifests, but we plan to expand it to include Helm charts and Go code, as well. The tool is in very early stages, but is looking for community input to help add use cases.
 

@@ -18,7 +18,7 @@
 
 - [Wikipedia: Web cache](https://en.wikipedia.org/wiki/Web_cache)
 - [Wikipedia: Dynamic site acceleration](https://en.wikipedia.org/wiki/Dynamic_site_acceleration)
-- [Slideshare: Caching](http://www.slideshare.net/NasceniaIT/brown-bag-caching-rafi-faisal-48694442)
+- [Slideshare: Caching](https://www.slideshare.net/NasceniaIT/brown-bag-caching-rafi-faisal-48694442)
 - [nixCraft: 9 Awesome Open Source Web Performance Software For Linux and Unix-like Systems](https://www.cyberciti.biz/open-source/http-web-performance-proxy-load-balancer-accelerator-software)
 - [Dzone: An Introduction to Caching: How and Why We Do It 🌟](https://dzone.com/articles/introducing-amp-assimilating-caching-quick-read-fo) When it comes to caching, what was once a nice-to-have it now a must-have. Check out this detailed article to learn everything you need to know about caching!
 - [medium: Caching — System Design Concept 🌟](https://medium.com/enjoy-algorithm/caching-system-design-concept-500134cff300)
@@ -47,45 +47,45 @@
 ## CDN Content Delivery Network
 
 - [Wikipedia: CDN Content Delivery Network](https://en.wikipedia.org/wiki/Content_delivery_network)
-    - [Traditional commercial CDNs 🌟](https://en.wikipedia.org/wiki/Content_delivery_network#Traditional_commercial_CDNs)
+    - [Traditional commercial CDNs 🌟](https://en.wikipedia.org/wiki/Content_delivery_network)
 - [How content delivery networks (CDNs) work](https://humanwhocodes.com/blog/2011/11/29/how-content-delivery-networks-cdns-work)
 - [imperva.com: CDN Caching](https://www.imperva.com/learn/performance/cdn-caching)
 - [nczonline: How content delivery networks (CDNs) work - Nov 2011](https://humanwhocodes.com/blog/2011/11/29/how-content-delivery-networks-cdns-work)
 
 ## HAProxy
 
-- [HAProxy](http://www.haproxy.org)
-- [slideshare: Haproxy web performance](http://www.slideshare.net/haproxytech/haproxy-web-performance-55536394)
-- [slideshare: Load Balancing MySQL with HAProxy](http://www.slideshare.net/Severalnines/load-balancing-mysql-with-haproxy-webinar-replay-english-44071270)
-- [slideshare: Haproxy best practice](http://www.slideshare.net/haproxytech/haproxy-best-practice)
-- [slideshare: How To Set Up SQL Load Balancing with HAProxy](http://www.slideshare.net/Severalnines/severalnines-ha-proxyjul20143)
-- [slideshare: Performance Tuning of HAProxy for Database Load Balancing](http://www.slideshare.net/Severalnines/haproxy-mysql-slides)
+- [HAProxy](https://www.haproxy.org)
+- [slideshare: Haproxy web performance](https://www.slideshare.net/haproxytech/haproxy-web-performance-55536394)
+- [slideshare: Load Balancing MySQL with HAProxy](https://www.slideshare.net/Severalnines/load-balancing-mysql-with-haproxy-webinar-replay-english-44071270)
+- [slideshare: Haproxy best practice](https://www.slideshare.net/haproxytech/haproxy-best-practice)
+- [slideshare: How To Set Up SQL Load Balancing with HAProxy](https://www.slideshare.net/Severalnines/severalnines-ha-proxyjul20143)
+- [slideshare: Performance Tuning of HAProxy for Database Load Balancing](https://www.slideshare.net/Severalnines/haproxy-mysql-slides)
 - [haproxy.com: The HAProxy Enterprise WAF 🌟](https://www.haproxy.com/blog/the-haproxy-enterprise-waf)
 
 ## Varnish
 
 - [Varnish Cache](https://www.varnish.org/index.html)
 - [varnish-software.com](https://www.varnish-software.com) Varnish Software is the company behind Varnish Cache, the open source HTTP accelerator.
-    - [The Varnish Book](http://info.varnish-software.com/the-varnish-book) Download the Varnish Book to learn how you can optimize your Varnish instance.
+    - [The Varnish Book](https://info.varnish-software.com/the-varnish-book) Download the Varnish Book to learn how you can optimize your Varnish instance.
 - [fedoramagazine.org: Varnish: Your site faster and more stable](https://fedoramagazine.org/varnish-site-faster-stable)
 - [Red Hat Developer Blog. Tag: Varnish](https://developerblog.redhat.com/tag/varnish)
-- [Red Hat Enterprise Linux Blog. Tag: Varnish](http://rhelblog.redhat.com/tag/varnish)
+- [Red Hat Enterprise Linux Blog. Tag: Varnish](https://rhelblog.redhat.com/tag/varnish)
 - [varnish-cache.org: Installation on RedHat](https://vinyl-cache.org/docs/trunk/installation/index.html)
 - [Hitch - scalable TLS proxy. Hitch is a libev-based high performance SSL/TLS proxy by Varnish Software](https://www.hitch-tls.org)
-- [slideshare: Varnish - Tips & Tricks - 4Developers 2015](http://www.slideshare.net/piotrpasich/varnish-47199139)
+- [slideshare: Varnish - Tips & Tricks - 4Developers 2015](https://www.slideshare.net/piotrpasich/varnish-47199139)
 - [digitalocean.com: How To Speed Up Static Web Pages with Varnish Cache Server on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-speed-up-static-web-pages-with-varnish-cache-server-on-ubuntu-20-04)
 - [github.com/IBM/varnish-operator](https://github.com/IBM/varnish-operator) Run and manage Varnish clusters on Kubernetes. Varnish operator manages Varnish clusters using a CustomResourceDefinition that defines a new Kind called VarnishCluster. The operator manages the whole lifecycle of the cluster: creating, deleting and keeping the cluster configuration up to date
 - [github.com/mittwald/kube-httpcache](https://github.com/mittwald/kube-httpcache) Varnish Reverse Proxy on Kubernetes
 
 ## Memcached
 
-- [memcached.org](http://memcached.org)
-- [Slideshare: Introduction to memcached](http://www.slideshare.net/oemebamo/introduction-to-memcached)
+- [memcached.org](https://memcached.org)
+- [Slideshare: Introduction to memcached](https://www.slideshare.net/oemebamo/introduction-to-memcached)
 
 ## Redis
 
-- [redis.io](http://redis.io)
-- [Slideshare: Introduction to Redis](http://www.slideshare.net/dvirsky/introduction-to-redis)
+- [redis.io](https://redis.io)
+- [Slideshare: Introduction to Redis](https://www.slideshare.net/dvirsky/introduction-to-redis)
 - [medium: Scaling Millions of Geospatial Queries per minute using Redis](https://medium.com/groupon-eng/scaling-millions-of-geospatial-queries-per-minute-using-redis-7c05bcf6b4db)
 - [==architecturenotes.co: Redis Explained== 🌟🌟](https://architecturenotes.co/p/redis) A deep technical dive into all things Redis. Covering various Redis topologies, data persistence and process forking.
 - [faun.pub: Redis High availability with Sentinel on Kubernetes(K8s)](https://faun.pub/redis-high-availability-with-sentinel-on-kubernetes-k8s-a1d67842e0ce) how to deploy Redis with Sentinel in Kubernetes. You will also test the availability of the setup by simulating a master failure.
@@ -94,8 +94,8 @@
 ## Nginx High-performance caching
 
 - [Nginxconf 2014. When Dynamic Becomes Static:The Next Step in Web Caching Techniques: Wim Godden](https://www.youtube.com/watch?v=OssIuHbgzJY)
-- [Nginx: a caching, thumbnailing, reverse proxying image server? 🌟](http://charlesleifer.com/blog/nginx-a-caching-thumbnailing-reverse-proxying-image-server-)
-- [highscalability.com: Building nginx and Tarantool based services 🌟](http://highscalability.com/blog/2016/2/17/building-nginx-and-tarantool-based-services.html)
+- [Nginx: a caching, thumbnailing, reverse proxying image server? 🌟](https://charlesleifer.com/blog/nginx-a-caching-thumbnailing-reverse-proxying-image-server-)
+- [highscalability.com: Building nginx and Tarantool based services 🌟](https://highscalability.com/blog/2016/2/17/building-nginx-and-tarantool-based-services.html)
 
 ## Tau Git-Native CDN PaaS
 

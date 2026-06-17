@@ -40,7 +40,7 @@
     - Chaos Toolkit
     - KubeInvaders
 - [PowerfulSeal](https://github.com/powerfulseal/powerfulseal) injects failure into your Kubernetes clusters, so that you can detect problems as early as possible. It allows for writing scenarios describing complete chaos experiments.
-- [BuggyApp: Simulate performance problems](https://buggyapp.ycrash.io) BuggyApp can simulate various performance problems like Memory Leak, OutOfMemoryError, CPU spike, thread leak StackOverflowError, deadlock, unresponsiveness and so on. [youtube: BuggyApp Demo](https://www.youtube.com/watch?v=exsv-RUrUFY&t=2s&ab_channel=yCrash)
+- [BuggyApp: Simulate performance problems](https://buggyapp.ycrash.io) BuggyApp can simulate various performance problems like Memory Leak, OutOfMemoryError, CPU spike, thread leak StackOverflowError, deadlock, unresponsiveness and so on. [youtube: BuggyApp Demo](https://www.youtube.com/watch?v=exsv-RUrUFY&ab_channel=yCrash)
 - [medium.com: Getting Started with Chaos Engineering](https://1829034.medium.com/getting-started-with-chaos-engineering-13e85a438d37)
 - [Chaos Mesh 🌟](https://chaos-mesh.org) A Powerful Chaos Engineering Platform for Kubernetes - [github ref](https://github.com/chaos-mesh/chaos-mesh)
 - [opensource.com: 5 lessons I learned about chaos engineering for Kubernetes](https://opensource.com/article/21/10/chaos-engineering-kubernetes-ebook)
@@ -66,7 +66,7 @@
 ## Other Chaos Engineering Tools
 
 - [chaosblade](https://github.com/chaosblade-io/chaosblade) An easy to use and powerful chaos engineering experiment toolkit. ChaosBlade is an Alibaba open source experimental injection tool that follows the principles of chaos engineering and chaos experimental models to help enterprises improve the fault tolerance of distributed systems and ensure business continuity during the process of enterprises going to cloud or moving to cloud native systems.
-- [Azure Chaos Studio](https://azure.microsoft.com/en-us/products/chaos-studio/#overview)
+- [Azure Chaos Studio](https://azure.microsoft.com/en-us/products/chaos-studio)
     - [techcommunity.microsoft.com: Announcing the Public Preview of Azure Chaos Studio](https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/announcing-the-public-preview-of-azure-chaos-studio/2893050)
     - [docs.microsoft.com: What is Azure Chaos Studio?](https://learn.microsoft.com/en-us/azure/chaos-studio/chaos-studio-overview)
     - [sqlservercentral.com: Chaos Engineering in Azure](https://www.sqlservercentral.com/articles/chaos-engineering-in-azure)

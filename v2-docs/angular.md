@@ -3,6 +3,19 @@
 !!! info "Architectural Context"
     Detailed reference for Angular framework in the context of Developer Ecosystem.
 
+## Table of Contents
+
+1. [App Development](#app-development)
+  - [Frontend](#frontend)
+    - [Continuous Delivery](#continuous-delivery)
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Frontend Development](#frontend-development)
+  - [Web Frameworks](#web-frameworks)
+    - [Angular](#angular)
+    - [Angular Build](#angular-build)
+
 ## App Development
 
 ### Frontend
@@ -29,5 +42,5 @@
   - **(2026)** [angular.io: Building and serving Angular apps](https://angular.dev/guide/build) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official instructions covering deployment execution and active asset compilation within the Angular CLI environment. Emphasizes production bundling configurations, static asset caching, and lazy loading strategies.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md) | [Java_Frameworks](./java_frameworks.md)
+💡 **Explore Related:** [Python](./python.md) | [Dom](./dom.md) | [Java_Frameworks](./java_frameworks.md)
 

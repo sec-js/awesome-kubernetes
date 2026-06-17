@@ -3,6 +3,30 @@
 !!! info "Architectural Context"
     Detailed reference for Work From Home in the context of Career & Industry.
 
+## Table of Contents
+
+1. [Collaboration Tools](#collaboration-tools)
+  - [Document Management](#document-management)
+    - [External Links](#external-links)
+1. [DevOps](#devops)
+  - [Culture](#culture)
+    - [Distributed Teams](#distributed-teams)
+1. [Development](#development)
+  - [Testing and QA](#testing-and-qa)
+    - [API Automation](#api-automation)
+1. [Modern Workforce](#modern-workforce)
+  - [Personal Productivity](#personal-productivity)
+    - [Knowledge Management](#knowledge-management)
+  - [Reliability Engineering](#reliability-engineering)
+    - [Team Operations](#team-operations)
+  - [Remote Work](#remote-work)
+    - [Agile Methodologies](#agile-methodologies)
+    - [Collaboration](#collaboration)
+    - [Legal and Compliance](#legal-and-compliance)
+    - [Productivity Tools](#productivity-tools)
+      - [Open Source](#open-source)
+    - [Team Operations](#team-operations-1)
+
 ## Collaboration Tools
 
 ### Document Management
@@ -69,5 +93,5 @@
   - **(2021)** [portafolio.co: Claves para liderar equipos de teletrabajo y no fracasar en el intento](https://www.portafolio.co/tendencias/claves-para-liderar-equipos-de-teletrabajo-y-no-fracasar-en-el-intento-556586) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Focuses on strategies for leading virtual teams, highlighting methods to establish trust, measure output over physical presence, and implement clear collaboration frameworks. Highlights Spanish-speaking organizational perspectives on easing transition friction for legacy teams.
 
 ---
-💡 **Explore Related:** [HR](./hr.md) | [Elearning](./elearning.md) | [Newsfeeds](./newsfeeds.md)
+💡 **Explore Related:** [Appointment Scheduling](./appointment-scheduling.md) | [Recruitment](./recruitment.md) | [Digital Money](./digital-money.md)
 

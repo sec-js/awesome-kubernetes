@@ -3,6 +3,75 @@
 !!! info "Architectural Context"
     Detailed reference for Public Cloud Provider. Amazon Web Services in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Computing](#cloud-computing)
+  - [AWS](#aws)
+    - [Architecture and Guides](#architecture-and-guides)
+    - [CICD and DevOps](#cicd-and-devops)
+    - [Containers](#containers)
+    - [Infrastructure](#infrastructure)
+    - [Learning and News](#learning-and-news)
+    - [Security](#security)
+    - [Serverless](#serverless)
+1. [Cloud Infrastructure](#cloud-infrastructure)
+  - [AWS](#aws-1)
+    - [Resources](#resources)
+  - [AWS Automation](#aws-automation)
+    - [Serverless Orchestration](#serverless-orchestration)
+  - [AWS Ecosystem](#aws-ecosystem)
+    - [Audio Learning](#audio-learning)
+    - [Open Source Strategy](#open-source-strategy)
+    - [Presentation Resources](#presentation-resources)
+    - [Social Channels](#social-channels)
+    - [Startup Enablement](#startup-enablement)
+  - [AWS Services](#aws-services)
+    - [Hands-on Tutorials](#hands-on-tutorials)
+    - [Interactive Learning](#interactive-learning)
+    - [Management Tools](#management-tools)
+  - [Application Integration](#application-integration)
+    - [API Management](#api-management)
+    - [Serverless Services](#serverless-services)
+  - [Architecture and Strategy](#architecture-and-strategy)
+    - [Cloud Adoption Framework](#cloud-adoption-framework)
+  - [Community and Support](#community-and-support)
+    - [AWS rePost](#aws-repost)
+  - [Compliance and Governance](#compliance-and-governance)
+    - [AWS Config](#aws-config)
+  - [Enterprise Migration](#enterprise-migration)
+    - [Frameworks](#frameworks)
+  - [Identity and Access](#identity-and-access)
+    - [Account Administration](#account-administration)
+  - [Infrastructure as Code](#infrastructure-as-code)
+    - [AWS CLI](#aws-cli)
+  - [Operations and Governance](#operations-and-governance)
+    - [AWS Systems Manager](#aws-systems-manager)
+  - [Security and Incident Response](#security-and-incident-response)
+    - [AWS Systems Manager](#aws-systems-manager-1)
+  - [Troubleshooting](#troubleshooting)
+    - [DevOps Challenges](#devops-challenges)
+1. [Cloud Platform](#cloud-platform)
+  - [AWS Infrastructure](#aws-infrastructure)
+    - [Reference Architectures](#reference-architectures)
+1. [Cloud Providers](#cloud-providers)
+  - [AWS](#aws-2)
+    - [Documentation](#documentation)
+    - [Operations](#operations)
+    - [Security and IAM](#security-and-iam)
+    - [Status Monitoring](#status-monitoring)
+1. [Data Engineering](#data-engineering)
+  - [Streaming Data](#streaming-data)
+    - [Architectural Concepts](#architectural-concepts)
+1. [FinOps and Cloud Cost](#finops-and-cloud-cost)
+  - [AWS Optimization](#aws-optimization)
+    - [Policy Engines](#policy-engines)
+1. [Infrastructure as Code](#infrastructure-as-code-1)
+  - [CICD and Delivery](#cicd-and-delivery)
+    - [Self-Hosted Runners](#self-hosted-runners)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -11,7 +80,6 @@
 
   - [AWS Knowledge Center](https://aws.amazon.com/premiumsupport/knowledge-center)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering aws.amazon.com in the Kubernetes Tools ecosystem.
   - [Introducing Kiro: AWS Agentic AI-Based IDE](https://markrosscloud.medium.com/introducing-kiro-aws-agentic-ai-based-ide-cded711b1409)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Introducing Kiro: AWS Agentic AI-Based IDE in the Kubernetes Tools ecosystem.
-  - [Terraform for Standardizing AWS Deployments](https://t.co/5E4FLUyh98)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Terraform for Standardizing AWS Deployments in the Kubernetes Tools ecosystem.
   - [medium.com/towards-cloud-computing: 7 Free AWS Practice Labs and AWS Workshops' resources](https://medium.com/towards-cloud-computing/7-free-aws-practice-labs-and-aws-workshops-resources-d0a861f05d3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==medium.com/towards-cloud-computing: 7 Free AWS Practice Labs and AWS Workshops' resources== in the Kubernetes Tools ecosystem.
   - [dzone: AWS Basics](https://dzone.com/articles/aws-basics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: AWS Basics in the Kubernetes Tools ecosystem.
   - [dzone: AWS Basics: Bastion Hosts and NAT](https://dzone.com/articles/aws-basics-bastian-hosts-and-nat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: AWS Basics: Bastion Hosts and NAT in the Kubernetes Tools ecosystem.
@@ -36,6 +104,7 @@
   - [Scaling on AWS (Part 3): >500K Users](https://medium.com/aws-activate-startup-blog/scaling-on-aws-part-3-500k-users-3750b227b761)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Scaling on AWS (Part 3): >500K Users in the Kubernetes Tools ecosystem.
   - [medium.com: Building a Serverless Dynamic DNS System with AWS](https://medium.com/aws-activate-startup-blog/building-a-serverless-dynamic-dns-system-with-aws-a32256f0a1d8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com: Building a Serverless Dynamic DNS System with AWS in the Kubernetes Tools ecosystem.
   - [medium.com: The Top 10 AWS Startup Blog Posts of 2015](https://medium.com/aws-activate-startup-blog/the-top-10-aws-startup-blog-posts-of-2015-d2975e3778bb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com: The Top 10 AWS Startup Blog Posts of 2015 in the Kubernetes Tools ecosystem.
+  - [Terraform for Standardizing AWS Deployments](https://t.co/5E4FLUyh98)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Terraform for Standardizing AWS Deployments in the Kubernetes Tools ecosystem.
   - [medium: Top 4 AWS Patterns of Highly Available API](https://medium.com/greenm/top-4-aws-patterns-of-highly-available-api-d34599bfbb96)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Top 4 AWS Patterns of Highly Available API in the Kubernetes Tools ecosystem.
   - [medium: AWS configuration files, explained](https://medium.com/@ben11kehoe/aws-configuration-files-explained-9a7ea7a5b42e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: AWS configuration files, explained in the Kubernetes Tools ecosystem.
   - [medium.com/swlh: AWS Config — Compliance as Code](https://medium.com/swlh/aws-config-compliance-as-code-9621eb3b7ac7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/swlh: AWS Config — Compliance as Code in the Kubernetes Tools ecosystem.
@@ -47,7 +116,7 @@
 
 #### Architecture and Guides
 
-  - **(2026)** [==The Open Guide to Amazon Web Services==](https://github.com/open-guides/og-aws) <span class='md-tag md-tag--info'>⭐ 36426</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive, crowd-sourced encyclopedia offering highly critical, unvarnished technical reference material for AWS services. Distinct from official docs, it focuses on real-world engineering constraints, pricing trade-offs, and operational gotchas across storage, compute, and networking layers.
+  - **(2026)** [==The Open Guide to Amazon Web Services==](https://github.com/open-guides/og-aws) <span class='md-tag md-tag--info'>⭐ 36426</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-154097fd" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 3 L 20 10 L 30 3 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-154097fd)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive, crowd-sourced encyclopedia offering highly critical, unvarnished technical reference material for AWS services. Distinct from official docs, it focuses on real-world engineering constraints, pricing trade-offs, and operational gotchas across storage, compute, and networking layers.
   - **(2026)** [Implementing Microservices on AWS 🌟](https://docs.aws.amazon.com/whitepapers/latest/microservices-on-aws/microservices-on-aws.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The premier AWS whitepaper defining the patterns, architectures, and execution strategies for deploying microservices. It covers decomposition patterns, decentralized data management, domain-driven boundaries, service discovery, and inter-service messaging schemes.
   - **(2026)** [dev.to: Disaster Recovery Cheat-sheet/Write-up 🌟](https://dev.to/aws-builders/disaster-recovery-cheat-sheetwrite-up-o62) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A disaster recovery reference sheet translating AWS Well-Architected DR metrics (RTO and RPO) into specific execution patterns. It compares pilot light, warm standby, and active-active multi-region failover models.
   - **(2026)** [dev.to: Best Practices When Designing AWS Architecture 🌟🌟](https://dev.to/aws-builders/best-practices-when-designing-aws-architecture-4c8d) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive into the operational best practices of the AWS Well-Architected Framework. Key topics include decoupling architectural dependencies, horizontal scaling mechanisms, and programmatic resource orchestration.
@@ -56,7 +125,7 @@
   - **(2026)** [infoq.com: AWS Publishes Reference Architecture and Implementations for' Deployment Pipelines](https://www.infoq.com/news/2023/02/aws-deployment-pipelines) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analysis of the official AWS deployment pipeline reference architecture. Illustrates continuous delivery models for multi-environment propagation using standard GitOps patterns, automated integration suites, and strict deployment validation loops.
 #### Containers
 
-  - **(2026)** [==aws/containers-roadmap: AWS Containers Roadmap==](https://github.com/aws/containers-roadmap) <span class='md-tag md-tag--info'>⭐ 5350</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The open-source public roadmap for AWS container services (ECS, EKS, ECR). It bridges developer requirements with core AWS engineering teams, offering a transparent ledger of feature designs, active developments, and historical releases.
+  - **(2026)** [==aws/containers-roadmap: AWS Containers Roadmap==](https://github.com/aws/containers-roadmap) <span class='md-tag md-tag--info'>⭐ 5350</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c477822d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 10 L 20 12 L 30 10 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-c477822d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The open-source public roadmap for AWS container services (ECS, EKS, ECR). It bridges developer requirements with core AWS engineering teams, offering a transparent ledger of feature designs, active developments, and historical releases.
   - **(2026)** [thenewstack.io: The AWS Shared Responsibility Model for Kubernetes](https://thenewstack.io/understand-the-aws-shared-responsibility-model-for-kubernetes) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical overview dissecting the limits of responsibility when managing containerized infrastructure on AWS. It contrasts the delineation of security controls between self-managed EC2 EKS node groups, managed node groups, and AWS Fargate abstractions.
   - **(2026)** [lastweekinaws.com: 17 More Ways to Run Containers on AWS](https://www.lastweekinaws.com/blog/17-more-ways-to-run-containers-on-aws) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A pragmatic, humorous breakdown of the sheer density of execution pathways for running containerized workloads on AWS. The catalog contrasts core options like ECS, EKS, App Runner, and Lightsail with lesser-known combinations, advising on cost and operational footprints.
   - **(2026)** [vladionescu.me: Scaling containers on AWS in 2022 (comparison)](https://www.vladionescu.me/posts/scaling-containers-on-aws-in-2022) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A benchmarking comparison of container orchestration engines on AWS. It evaluates cold-start limits, container provisioning metrics, and control plane auto-scaling responsiveness between ECS and EKS under enterprise workloads.
@@ -100,7 +169,12 @@
 
 #### Resources
 
-  - **(2026)** [==Awesome AWS 🌟==](https://github.com/donnemartin/awesome-aws) <span class='md-tag md-tag--info'>⭐ 14064</span> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier reference catalog for Amazon Web Services (AWS), containing curated libraries, open-source utilities, and official whitepapers. It covers key compute, storage, networking, and serverless components. It is universally recognized as the gold standard resource for AWS-centric platform engineering teams seeking validated architectural patterns.
+  - **(2026)** [==Awesome AWS 🌟==](https://github.com/donnemartin/awesome-aws) <span class='md-tag md-tag--info'>⭐ 14064</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d21f40c7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 13 L 20 6 L 30 2 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-d21f40c7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier reference catalog for Amazon Web Services (AWS), containing curated libraries, open-source utilities, and official whitepapers. It covers key compute, storage, networking, and serverless components. It is universally recognized as the gold standard resource for AWS-centric platform engineering teams seeking validated architectural patterns.
+### AWS Automation
+
+#### Serverless Orchestration
+
+  - **(2026)** [Enhanced Local IDE Experience for AWS Step Functions](https://aws.amazon.com/blogs/compute/introducing-an-enhanced-local-ide-experience-for-aws-step-functions) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details local IDE integration utilities for designing and tracing AWS Step Functions. Enhances developer inner-loops by rendering local visual workflow representations and offering live Amazon States Language schema validation directly in-editor.
 ### AWS Ecosystem
 
 #### Audio Learning
@@ -205,6 +279,9 @@
 #### Operations
 
   - **(2008)** [AWS Support](https://aws.amazon.com/premiumsupport) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed directory of AWS premium tier services, offering technical case routing, cloud guidance, and access to Trusted Advisor tools to maintain cluster health and SLA commitments.
+#### Security and IAM
+
+  - **(2026)** [**docs.aws.amazon.com: Actions, resources, and condition keys for AWS services 🌟🌟🌟**](https://docs.aws.amazon.com/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The definitive AWS reference for constructing fine-grained IAM policies. It outlines exact service actions, resource types, and condition context keys required to enforce the principle of least privilege in enterprise architectures. This resource is indispensable for security engineers building cloud access models.
 #### Status Monitoring
 
   - **(2006)** [status.aws.amazon.com: Service Health Dashboard](https://health.aws.amazon.com/health/status) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AWS’s central status console reporting operational health of active regions and services, allowing platform engineers to quickly cross-examine deployment anomalies with provider incidents.
@@ -221,8 +298,15 @@
 
 #### Policy Engines
 
-  - **(2024)** [**Cloudburn: An Open-Source Policy Engine for AWS Spending**](https://github.com/towardsthecloud/cloudburn) <span class='md-tag md-tag--info'>⭐ 1765</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Introduces Cloudburn, an open-source command-line tool designed to audit AWS resource groups. By using declarative policies, it alerts teams to idle resources, non-standard instance types, and unassigned Elastic IPs to keep real-world deployments within budget limits.
+  - **(2024)** [**Cloudburn: An Open-Source Policy Engine for AWS Spending**](https://github.com/towardsthecloud/cloudburn) <span class='md-tag md-tag--info'>⭐ 1765</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-fe15c8c2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 10 L 20 12 L 30 4 L 40 13 L 50 5" fill="none" stroke="url(#spark-grad-fe15c8c2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Introduces Cloudburn, an open-source command-line tool designed to audit AWS resource groups. By using declarative policies, it alerts teams to idle resources, non-standard instance types, and unassigned Elastic IPs to keep real-world deployments within budget limits.
+## Infrastructure as Code (1)
+
+### CICD and Delivery
+
+#### Self-Hosted Runners
+
+  - **(2025)** [RunsOn: Self-hosted GitHub Actions Runners in AWS](https://runs-on.com) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An innovative open-source self-hosting solution that provisions fast, secure, on-demand EC2 single-use runners for GitHub Actions on AWS. Offers extreme cost reductions (up to 10x) utilizing EC2 spot instances with minimal boot delays.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md)
 

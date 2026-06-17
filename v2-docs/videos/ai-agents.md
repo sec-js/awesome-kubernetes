@@ -1,4 +1,4 @@
-# 🎥 AI Agents and MCP
+# AI Agents and MCP
 
 Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curated high-density videos with architectural summaries.
 
@@ -31,7 +31,12 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/FUu4kMc0PL8?clip=UgkxLbUzIJtyeKPi66qAvxxRlGbofYp_Gr8B&amp;clipt=EIDy0gIY4MbWAg" title="Thursday morning general session - May 9 - Red Hat Summit 2019" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="FUu4kMc0PL8" data-video-url="https://www.youtube.com/embed/FUu4kMc0PL8?clip=UgkxLbUzIJtyeKPi66qAvxxRlGbofYp_Gr8B&amp;clipt=EIDy0gIY4MbWAg" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/FUu4kMc0PL8/hqdefault.jpg" alt="Thursday morning general session - May 9 - Red Hat Summit 2019" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -43,7 +48,12 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/HI6KleJAZPY" title="I Stopped Staring at Dashboards. AI Reads My Grafana Metrics Now." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="HI6KleJAZPY" data-video-url="https://www.youtube.com/embed/HI6KleJAZPY" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/HI6KleJAZPY/hqdefault.jpg" alt="I Stopped Staring at Dashboards. AI Reads My Grafana Metrics Now." class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -55,7 +65,12 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/aZ5EsdnpLMI?si=ESsNnVwE8IdWSiWZ" title="Artificial Intelligence | 60 Minutes Full Episodes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="aZ5EsdnpLMI" data-video-url="https://www.youtube.com/embed/aZ5EsdnpLMI?si=ESsNnVwE8IdWSiWZ" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/aZ5EsdnpLMI/hqdefault.jpg" alt="Artificial Intelligence | 60 Minutes Full Episodes" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -67,7 +82,12 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/Hc8emNr2igU?si=kehLRUpOAvyK_Bku" title="Red Hat OpenShift AI overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="Hc8emNr2igU" data-video-url="https://www.youtube.com/embed/Hc8emNr2igU?si=kehLRUpOAvyK_Bku" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/Hc8emNr2igU/hqdefault.jpg" alt="Red Hat OpenShift AI overview" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -79,7 +99,12 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/6eBSHbLKuN0" title="Mastering Claude Code in 30 minutes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="6eBSHbLKuN0" data-video-url="https://www.youtube.com/embed/6eBSHbLKuN0" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/6eBSHbLKuN0/hqdefault.jpg" alt="Mastering Claude Code in 30 minutes" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -89,7 +114,12 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/TUKYbUIXLOE" title="The 6 Levels of Claude Code Explained" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="TUKYbUIXLOE" data-video-url="https://www.youtube.com/embed/TUKYbUIXLOE" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/TUKYbUIXLOE/hqdefault.jpg" alt="The 6 Levels of Claude Code Explained" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -101,7 +131,12 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/MRIv2IwFTPg?si=F07g869i6yIfqRdg" title="¿Qué es una Red Neuronal? Parte 1 : La Neurona | DotCSV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="MRIv2IwFTPg" data-video-url="https://www.youtube.com/embed/MRIv2IwFTPg?si=F07g869i6yIfqRdg" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/MRIv2IwFTPg/hqdefault.jpg" alt="¿Qué es una Red Neuronal? Parte 1 : La Neurona | DotCSV" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -113,7 +148,12 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/9vM4p9NN0Ts" title="Stanford CS229: Building Large Language Models (LLMs)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="9vM4p9NN0Ts" data-video-url="https://www.youtube.com/embed/9vM4p9NN0Ts" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/9vM4p9NN0Ts/hqdefault.jpg" alt="Stanford CS229: Building Large Language Models (LLMs)" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -137,7 +177,12 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/MFai008Ze84" title="AI Observability Deep Dive Demo | Grafana Cloud" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="MFai008Ze84" data-video-url="https://www.youtube.com/embed/MFai008Ze84" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/MFai008Ze84/hqdefault.jpg" alt="AI Observability Deep Dive Demo | Grafana Cloud" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -205,7 +250,12 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/BtgZLw8hYiU" title="Your AI Agent Has No Identity, Here's Why That's Dangerous" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="BtgZLw8hYiU" data-video-url="https://www.youtube.com/embed/BtgZLw8hYiU" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/BtgZLw8hYiU/hqdefault.jpg" alt="Your AI Agent Has No Identity, Here's Why That's Dangerous" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -217,7 +267,12 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/DjBBV7oZxm8" title="A Hacker's Guide to Language Models" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="DjBBV7oZxm8" data-video-url="https://www.youtube.com/embed/DjBBV7oZxm8" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/DjBBV7oZxm8/hqdefault.jpg" alt="A Hacker's Guide to Language Models" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -229,7 +284,12 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/SSe1VmVrtw0" title="What's new in Google AI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="SSe1VmVrtw0" data-video-url="https://www.youtube.com/embed/SSe1VmVrtw0" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/SSe1VmVrtw0/hqdefault.jpg" alt="What's new in Google AI" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -239,7 +299,12 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/bH2nP-aCFjk" title="Inside image generation’s Renaissance moment — the OpenAI Podcast Ep. 19" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="bH2nP-aCFjk" data-video-url="https://www.youtube.com/embed/bH2nP-aCFjk" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/bH2nP-aCFjk/hqdefault.jpg" alt="Inside image generation’s Renaissance moment — the OpenAI Podcast Ep. 19" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -249,7 +314,12 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/ppMWxjsmk2k" title="ComfyUI + Google Models: A Creator-Friendly Agent Workflow" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="ppMWxjsmk2k" data-video-url="https://www.youtube.com/embed/ppMWxjsmk2k" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/ppMWxjsmk2k/hqdefault.jpg" alt="ComfyUI + Google Models: A Creator-Friendly Agent Workflow" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 

@@ -3,6 +3,30 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Pricing and Cost Optimization in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Infrastructure](#cloud-infrastructure)
+  - [AWS Cost Management](#aws-cost-management)
+    - [Architecture Optimization](#architecture-optimization)
+    - [CLI Tools](#cli-tools)
+    - [Compute Costs](#compute-costs)
+    - [Database Infrastructure](#database-infrastructure)
+    - [FinOps Strategy](#finops-strategy)
+    - [Kubernetes FinOps](#kubernetes-finops)
+    - [Networking Costs](#networking-costs)
+    - [Storage Costs](#storage-costs)
+  - [Compute Optimization](#compute-optimization)
+    - [EC2 Instances](#ec2-instances)
+1. [Cloud Providers](#cloud-providers)
+  - [AWS](#aws)
+    - [FinOps](#finops)
+1. [Kubernetes](#kubernetes)
+  - [FinOps](#finops-1)
+    - [AWS Cost Optimization](#aws-cost-optimization)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -66,5 +90,5 @@
   - **(2022)** [thenewstack.io: 7 Tips for Cutting Down Your AWS Kubernetes Bill](https://thenewstack.io/kubernetes/7-tips-for-cutting-down-your-aws-kubernetes-bill) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates architectural techniques to trim EKS clusters expenditures, describing auto-scalers (Karpenter), spot instances usage, strict namespace limits, and FinOps practices to optimize CPU allocation.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Spain](./aws-spain.md) | [Azure](./azure.md)
 

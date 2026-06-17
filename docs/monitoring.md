@@ -53,7 +53,7 @@
 
 ## Monitoring and Observability
   - [Monitoring Distributed Systems - Google SRE Book](https://sre.google/sre-book/monitoring-distributed-systems) 🌟 - This chapter from the Google SRE book provides fundamental principles and best practices for building robust monitoring and alerting systems within distributed environments. It outlines guidelines on what constitutes an actionable alert that should interrupt a human and strategies for handling less critical issues.
-  - [Monitor your Azure cloud estate - Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/manage/monitor#reference-for-monitoring-azure-services) - *(Related to azure topic)*
+  - [Monitor your Azure cloud estate - Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/manage/monitor) - *(Related to azure topic)*
 
 - [Wikipedia: Application Performance Index](https://en.wikipedia.org/wiki/Apdex)
 - [Observability vs Monitoring](https://middleware.io/blog/observability-vs-monitoring)
@@ -147,13 +147,13 @@ OpenShift Container Platform Monitoring ships with a Prometheus instance for clu
 
 | Monitoring Component     |       Release       |                                                                                                                                                                                                                URL |
 | :----------------------- | :----------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ElasticSearch            |          5          |                                                       [OpenShift 3.11 Metrics & Logging](https://docs.openshift.com/container-platform/3.11/release_notes/ocp_3_11_release_notes.html#ocp-311-metrics-and-logging) |
-| Fluentd                  |        0.12         |                                                       [OpenShift 3.11 Metrics & Logging](https://docs.openshift.com/container-platform/3.11/release_notes/ocp_3_11_release_notes.html#ocp-311-metrics-and-logging) |
+| ElasticSearch            |          5          |                                                       [OpenShift 3.11 Metrics & Logging](https://docs.openshift.com/container-platform/3.11/release_notes/ocp_3_11_release_notes.html) |
+| Fluentd                  |        0.12         |                                                       [OpenShift 3.11 Metrics & Logging](https://docs.openshift.com/container-platform/3.11/release_notes/ocp_3_11_release_notes.html) |
 | Kibana                   |       5.6.13        |                                                                                                                                      [kibana 5.6.13](https://www.elastic.co/guide/en/kibana/5.6/introduction.html) |
-| Prometheus               |        2.3.2        |                                 [OpenShift 3.11 Prometheus Cluster Monitoring](https://docs.openshift.com/container-platform/3.11/install_config/prometheus_cluster_monitoring.html#prometheus-cluster-monitoring) |
+| Prometheus               |        2.3.2        |                                 [OpenShift 3.11 Prometheus Cluster Monitoring](https://docs.openshift.com/container-platform/3.11/install_config/prometheus_cluster_monitoring.html) |
 | Prometheus Operator      |                     |                           [Prometheus Operator technical preview](https://www.redhat.com/en/blog/generally-available-today-red-hat-openshift-container-platform-311-ready-power-enterprise-kubernetes-deployments) |
-| Prometheus Alert Manager |      0.15.1         | [OpenShift 3.11 Configuring Prometheus Alert Manager](https://docs.openshift.com/container-platform/3.11/install_config/prometheus_cluster_monitoring.html#configuring-alertmanager_prometheus-cluster-monitoring) |
-| Grafana                  |        5.2.3        |                                 [OpenShift 3.11 Prometheus Cluster Monitoring](https://docs.openshift.com/container-platform/3.11/install_config/prometheus_cluster_monitoring.html#prometheus-cluster-monitoring) |
+| Prometheus Alert Manager |      0.15.1         | [OpenShift 3.11 Configuring Prometheus Alert Manager](https://docs.openshift.com/container-platform/3.11/install_config/prometheus_cluster_monitoring.html) |
+| Grafana                  |        5.2.3        |                                 [OpenShift 3.11 Prometheus Cluster Monitoring](https://docs.openshift.com/container-platform/3.11/install_config/prometheus_cluster_monitoring.html) |
 
 #### Prometheus and Grafana
 
@@ -161,12 +161,12 @@ OpenShift Container Platform Monitoring ships with a Prometheus instance for clu
 - [redhat.com: **How to gather and display metrics in Red Hat OpenShift** (Prometheus + Grafana)](https://www.redhat.com/en/blog/how-gather-and-display-metrics-red-hat-openshift)
 - [Generally Available today: Red Hat OpenShift Container Platform 3.11 is ready to power enterprise Kubernetes deployments 🌟](https://www.redhat.com/en/blog/generally-available-today-red-hat-openshift-container-platform-311-ready-power-enterprise-kubernetes-deployments)
 - [The Challenges of Monitoring Kubernetes and OpenShift 3.11 🌟](https://thenewstack.io/kubernetes)
-- [OCP 3.11 Metrics and Logging](https://docs.openshift.com/container-platform/3.11/release_notes/ocp_3_11_release_notes.html#ocp-311-metrics-and-logging)
+- [OCP 3.11 Metrics and Logging](https://docs.openshift.com/container-platform/3.11/release_notes/ocp_3_11_release_notes.html)
 - [Prometheus Cluster Monitoring 🌟](https://docs.openshift.com/container-platform/3.11/install_config/prometheus_cluster_monitoring.html)
-- [Prometheus Alert Manager](https://docs.openshift.com/container-platform/3.11/install_config/prometheus_cluster_monitoring.html#configuring-alertmanager_prometheus-cluster-monitoring)
+- [Prometheus Alert Manager](https://docs.openshift.com/container-platform/3.11/install_config/prometheus_cluster_monitoring.html)
 - [Leveraging Kubernetes and OpenShift for automated performance tests (part 1)](https://developers.redhat.com/blog/2018/11/22/automated-performance-testing-kubernetes-openshift)
 - [Building an observability stack for automated performance tests on Kubernetes and OpenShift (part 2) 🌟](https://developers.redhat.com/blog/2019/01/03/leveraging-openshift-or-kubernetes-for-automated-performance-tests-part-2)
-- [Promster: Use Prometheus in huge deployments with dynamic clustering and scrape sharding capabilities based on ETCD service registration](http://github.com/flaviostutz/promster)
+- [Promster: Use Prometheus in huge deployments with dynamic clustering and scrape sharding capabilities based on ETCD service registration](https://github.com/flaviostutz/promster)
 - [developers.redhat.com: Monitoring .NET Core applications on Kubernetes](https://developers.redhat.com/blog/2020/08/05/monitoring-net-core-applications-on-kubernetes)
 - [Systems Monitoring with Prometheus and Grafana](https://flightaware.engineering/systems-monitoring-with-prometheus-grafana)
 
@@ -242,7 +242,7 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 
 ## Prometheus and Grafana Interactive Learning
 
-## Logging & Centralized Log Management
+## Logging and Centralized Log Management
 
 - [devops.com: How Centralized Log Management Can Save Your Company](https://devops.com/how-centralized-log-management-can-save-your-company)
 - [acloudguru.com: Getting started with the Elastic Stack](https://www.pluralsight.com/resources/blog/cloud/getting-started-with-the-elastic-stack)
@@ -334,8 +334,8 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 - [FastThread.io](https://fastthread.io): Thread dumps can be uploaded via Web or API Call from within the POD (jstack must be available within the container):
 
 ```bash
-#!/bin/sh
-# Generate N thread dumps of the process PID with an INTERVAL between each dump.
+# !/bin/sh
+# Generate N thread dumps of the process PID with an INTERVAL between each dump.
 if [ $# -ne 3 ]; then
    echo Generates Java thread dumps using the jstack command.
    echo
@@ -362,10 +362,10 @@ done
     - “3”: interval of 3 seconds between each thread dump.
 - According to some references only 3 thread dumps captured in a timeframe of 10 seconds is necessary (when we want to troubleshoot a Java issue during a service degradation).
 - Sample thread dump analysis reports generated by fastThread:
-    - [Transitive blocks](https://fastthread.io/ft-error.jsp&s=t)
-    - [Unresponsive JVM](https://fastthread.io/ft-error.jsp&s=t)
-    - [Sudden CPU spike](https://fastthread.io/ft-error.jsp&s=t)
-    - [Thread Leaks](https://fastthread.io/ft-error.jsp&s=t)
+    - [Transitive blocks](https://fastthread.io/ft-error.jsp)
+    - [Unresponsive JVM](https://fastthread.io/ft-error.jsp)
+    - [Sudden CPU spike](https://fastthread.io/ft-error.jsp)
+    - [Thread Leaks](https://fastthread.io/ft-error.jsp)
 
 ## Debugging Java Applications on OpenShift and Kubernetes
 
@@ -497,7 +497,7 @@ done
 
 - [Elastic APM](https://www.elastic.co/observability/application-performance-monitoring)
 - [Elastic APM Server](https://www.elastic.co/docs/solutions/observability/apm):
-- [Mininimum elasticsearch requirement is 6.2.x or higher](https://www.elastic.co/support/matrix#matrix_compatibility)
+- [Mininimum elasticsearch requirement is 6.2.x or higher](https://www.elastic.co/support/matrix)
 - Built-in elasticsearch 5.6 in Openshift 3 & Openshift 4 cannot be integrated with Elastic APM Server.
 - Solutions: Deploy a higher version of [Elasticsearch + Kibana](https://hub.docker.com/_/elasticsearch) on a new Project dedicated to Elastic APM; or setup an Elastic Cloud account.
 - [Elastic APM Server Docker image](https://github.com/sls-dev1/openshift-elastic-apm-server) (“oss” & openshift compliant).
@@ -537,7 +537,7 @@ done
 Messaging Solution|Monitoring Solution|URL
 :-------|:-------|:-----
 ActiveMQ 5.8.0+|[Dynatrace](https://www.dynatrace.com)|[ref](https://docs.dynatrace.com/docs/observe/infrastructure-observability/extensions/activemq)
-ActiveMQ Artemis|[Micrometer Collector](https://micrometer.io) + Prometheus|[ref1](http://activemq.apache.org/components/artemis/documentation/latest/metrics.html), [ref2](https://micrometer.io/docs/registry/prometheus)
+ActiveMQ Artemis|[Micrometer Collector](https://micrometer.io) + Prometheus|[ref1](https://activemq.apache.org/components/artemis/documentation/latest/metrics.html), [ref2](https://micrometer.io/docs/registry/prometheus)
 IBM MQ|[IBM MQ](https://github.com/ibm-messaging) Exporter for Prometheus|[ref](https://github.com/ibm-messaging/mq-metric-samples/tree/master/cmd/mq_prometheus)
 Kafka|[Dynatrace](https://www.dynatrace.com)|[ref1](https://docs.dynatrace.com/docs/observe/infrastructure-observability/extensions/confluent-cloud-kafka), [ref2](https://www.dynatrace.com/news/blog/introducing-kafka-process-monitoring), [ref3](https://answers.dynatrace.com/spaces/482/dynatrace-open-qa/questions/232421/dynatrace-distributed-tracing-with-kafka.html)
 Kafka|[Prometheus JMX Exporter](https://github.com/prometheus/jmx_exporter)|[ref1](https://github.com/prometheus/jmx_exporter), [ref2](https://github.com/prometheus/jmx_exporter), [ref3](https://github.com/prometheus/jmx_exporter), [ref4](https://strimzi.io/blog/2019/10/14/improving-prometheus-metrics), [ref5](https://medium.com/activewizards-machine-learning-company/kafka-monitoring-with-prometheus-telegraf-and-grafana-6228fed736f1), [ref6](https://medium.com/@nblaye/exporting-kafka-jmx-metrics-to-grafana-1b9d32fe900a), [ref7](https://blog.knoldus.com/monitoring-kafka-with-prometheus-and-grafana)
@@ -550,7 +550,7 @@ Kafka|Telegraf + InfluxDB|[ref](https://www.influxdata.com/integration/kafka-tel
 Red Hat AMQ Broker (ActiveMQ Artemis)|Prometheus plugin for AMQ Broker<br/>To monitor the health and performance of your broker instances, you can use the **Prometheus plugin for AMQ Broker** to monitor and store broker runtime metrics. Prometheus is software built for monitoring large, scalable systems and storing historical runtime data over an extended time period. The **AMQ Broker Prometheus plugin exports the broker runtime metrics to Prometheus format**, enabling you to use Prometheus itself to visualize and run queries on the data.<br/>You can also use a graphical tool, such as **Grafana, to configure more advanced visualizations and dashboards** for the metrics that the Prometheus plugin collects.<br/>The metrics that the plugin exports to Prometheus format are listed below. A description of each metric is exported along with the metric itself.|[ref1](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/managing_amq_broker/prometheus-plugin-managing), [ref2](https://github.com/lbroudoux/openshift-cases/tree/master/jboss-amq7-custom), [ref3](https://www.redhat.com/en/blog/enhanced-openshift-jboss-amq-container-image-for-production)
 Red Hat AMQ Streams (Kafka)|[JMX](https://www.oracle.com/java/technologies/javase/javamanagement.html), OpenTracing+Jaeger <br/>ZooKeeper, the Kafka broker, Kafka Connect, and the Kafka clients all expose management information using [Java Management Extensions (JMX)](https://www.oracle.com/java/technologies/javase/javamanagement.html). Most management information is in the form of metrics that are useful for monitoring the condition and performance of your Kafka cluster. Like other Java applications, Kafka provides this management information through managed beans or MBeans.<br/> **JMX** works at the level of the JVM (Java Virtual Machine). To obtain management information, **external tools can connect to the JVM that is running ZooKeeper, the Kafka broker, and so on.** By default, only tools on the same machine and running as the same user as the JVM are able to connect.<br/>**Distributed Tracing with Jaeger:**<br/> - Kafka Producers, Kafka Consumers, and Kafka Streams applications (referred to as Kafka clients)<br/> - MirrorMaker and Kafka Connect <br/> - Kafka Bridge|[ref1](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/using_amq_streams_on_rhel/index),[ref2](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/using_amq_streams_on_rhel/assembly-distributed-tracing-str)
 Red Hat AMQ Streams Operator|AMQ Streams Operator (Prometheus & Jaeger), strimzi, jmxtrans<br/>How to monitor AMQ Streams Kafka, Zookeeper and Kafka Connect clusters using Prometheus to provide monitoring data for example Grafana dashboards.<br/>Support for distributed tracing in AMQ Streams, using **Jaeger**:<br/> - You instrument Kafka Producer, Consumer, and Streams API applications for distributed tracing using an OpenTracing client library. This involves adding instrumentation code to these clients, which monitors the execution of individual transactions in order to generate trace data.<br/>  - Distributed tracing support is built in to the Kafka Connect, MirrorMaker, and Kafka Bridge components of AMQ Streams. To configure these components for distributed tracing, you configure and update the relevant custom resources.|[ref1](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/using_amq_streams_on_openshift/assembly-metrics-setup-str), [ref2](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/using_amq_streams_on_openshift/assembly-distributed-tracing-str), [ref3 strimzi](https://operatorhub.io/operator/strimzi-kafka-operator), [ref4: **jmxtrans**](https://github.com/jmxtrans/jmxtrans), [ref5: banzai operator](https://operatorhub.io/operator/banzaicloud-kafka-operator)
-Red Hat AMQ Broker Operator|Prometheus (recommended) or Jolokia REST to JMX <br/>To monitor runtime data for brokers in your deployment, use one of these approaches:<br/> - [Section 9.1, “Monitoring broker runtime data using Prometheus”](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/deploying_amq_broker_on_openshift/assembly_br-broker-monitoring_broker-ocp#assembly_br-monitoring-broker-runtime-data-using-prometheus_broker-ocp)<br/> - [Section 9.2, “Monitoring broker runtime data using JMX”](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/deploying_amq_broker_on_openshift/assembly_br-broker-monitoring_broker-ocp#proc_br-monitoring-broker_broker-ocp) <br/>In general, using Prometheus is the recommended approach. However, you might choose to use the Jolokia REST interface to JMX if a metric that you need to monitor is not exported by the Prometheus plugin. For more information about the broker runtime metrics that the Prometheus plugin exports, [see Section 9.1.1, “Overview of Prometheus metrics”](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/deploying_amq_broker_on_openshift/assembly_br-broker-monitoring_broker-ocp#con-br-overview-of-prometheus-metrics_broker-ocp)|[ref1](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/deploying_amq_broker_on_openshift/deploying-broker-on-ocp-using-operator_broker-ocp), [ref2](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/deploying_amq_broker_on_openshift/assembly_br-broker-monitoring_broker-ocp), [ref3](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/deploying_amq_broker_on_openshift/assembly_br-broker-monitoring_broker-ocp#assembly_br-monitoring-broker-runtime-data-using-prometheus_broker-ocp), [ref4](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/deploying_amq_broker_on_openshift/assembly_br-broker-monitoring_broker-ocp#proc_br-monitoring-broker_broker-ocp), [ref5](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/deploying_amq_broker_on_openshift/assembly_br-broker-monitoring_broker-ocp#con-br-overview-of-prometheus-metrics_broker-ocp)
+Red Hat AMQ Broker Operator|Prometheus (recommended) or Jolokia REST to JMX <br/>To monitor runtime data for brokers in your deployment, use one of these approaches:<br/> - [Section 9.1, “Monitoring broker runtime data using Prometheus”](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/deploying_amq_broker_on_openshift/assembly_br-broker-monitoring_broker-ocp)<br/> - [Section 9.2, “Monitoring broker runtime data using JMX”](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/deploying_amq_broker_on_openshift/assembly_br-broker-monitoring_broker-ocp) <br/>In general, using Prometheus is the recommended approach. However, you might choose to use the Jolokia REST interface to JMX if a metric that you need to monitor is not exported by the Prometheus plugin. For more information about the broker runtime metrics that the Prometheus plugin exports, [see Section 9.1.1, “Overview of Prometheus metrics”](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/deploying_amq_broker_on_openshift/assembly_br-broker-monitoring_broker-ocp)|[ref1](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/deploying_amq_broker_on_openshift/deploying-broker-on-ocp-using-operator_broker-ocp), [ref2](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/deploying_amq_broker_on_openshift/assembly_br-broker-monitoring_broker-ocp), [ref3](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/deploying_amq_broker_on_openshift/assembly_br-broker-monitoring_broker-ocp), [ref4](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/deploying_amq_broker_on_openshift/assembly_br-broker-monitoring_broker-ocp), [ref5](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/deploying_amq_broker_on_openshift/assembly_br-broker-monitoring_broker-ocp)
 
 ### Red Hat AMQ 7 Broker Monitoring solutions based on Prometheus and Grafana
 
@@ -571,7 +571,7 @@ OpenShift 3|Prometheus JMX Exporter|**Grafana Dashboard not available**, [ref1](
 ## Distributed Tracing in Apache Beam
 
 - [Apache Beam](https://beam.apache.org)
-- [A Distributed Tracing Adventure in Apache Beam](http://rion.io/2020/07/04/a-distributed-tracing-adventure-in-apache-beam)
+- [A Distributed Tracing Adventure in Apache Beam](https://rion.io/2020/07/04/a-distributed-tracing-adventure-in-apache-beam)
 
 ## Krossboard Converged Kubernetes usage analytics
 

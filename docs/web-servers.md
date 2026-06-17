@@ -1,4 +1,4 @@
-# Web Servers & Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more
+# Web Servers and Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more
 
 1. [Introduction](#introduction)
 2. [Apache](#apache)
@@ -50,7 +50,7 @@
 ## HAProxy (HTTP router and reverse proxy)
 
 - [Wikipedia: HAProxy](https://en.wikipedia.org/wiki/HAProxy)
-- [haproxy.org](http://www.haproxy.org)
+- [haproxy.org](https://www.haproxy.org)
 - [dzone.com: How to Configure HAProxy as a Proxy and Load Balancer](https://dzone.com/articles/how-to-configure-ha-proxy-as-a-proxy-and-loadbalan)
 - [tecmint.com: How to Setup High-Availability Load Balancer with ‘HAProxy’ to Control Web Server Traffic](https://www.tecmint.com/install-haproxy-load-balancer-in-linux)
 - [Tecmint.com: How to Setup HAProxy as Load Balancer for Nginx on CentOS 8](https://www.tecmint.com/setup-nginx-haproxy-load-balancer-in-centos-8)
@@ -59,7 +59,7 @@
 
 ## Traefik (HTTP router and reverse proxy)
 
-- [Traefik](http://traefik.io)
+- [Traefik](https://traefik.io)
 - [opensource.com: Directing Kubernetes traffic with Traefik](https://opensource.com/article/20/3/kubernetes-traefik)
 - [blog.tomarrell.com - Kustomize: Traefik v2.2 as a Kubernetes Ingress Controller](https://blog.tomarrell.com/post/traefik_v2_on_kubernetes)
 - [thenewstack.io: Using Traefik Ingress Controller with Istio Service Mesh](https://thenewstack.io/using-traefik-ingress-controller-with-istio-service-mesh)

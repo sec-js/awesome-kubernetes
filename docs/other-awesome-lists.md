@@ -50,7 +50,7 @@
 - [==tomhuang12: Awesome Kubernetes Resources==](https://github.com/tomhuang12/awesome-k8s-resources)
 - [==@sindresorhus' Awesome Kubernetes==](https://github.com/sindresorhus/awesome)
 - [@jk8s' Awesome Kubernetes](https://github.com/jk8s/awesome-kubernetes)
-- [Awesome kubetools](http://dockerlabs.collabnix.com/kubernetes/kubetools) Curated List of Kubernetes Tools - [==kubetools== 🌟](https://collabnix.github.io/kubetools) - [github.com/collabnix/kubetools](https://github.com/collabnix/kubetools)
+- [Awesome kubetools](https://dockerlabs.collabnix.com/kubernetes/kubetools) Curated List of Kubernetes Tools - [==kubetools== 🌟](https://collabnix.github.io/kubetools) - [github.com/collabnix/kubetools](https://github.com/collabnix/kubetools)
 - [kubezilla.com: Kubetools – Curated List of Kubernetes Tools](https://kubezilla.com/tools)
 - [magnologan/awesome-k8s-security: Awesome Kubernetes (K8s) Security 🌟](https://github.com/magnologan/awesome-k8s-security)
 - [==ksoclabs/awesome-kubernetes-security== 🌟](https://github.com/ksoclabs/awesome-kubernetes-security) A curated list of awesome Kubernetes security resources
@@ -135,7 +135,7 @@
 ### DevSecOps
 
 - [==sottlmarek/DevSecOps: Ultimate DevSecOps library== 🌟](https://github.com/sottlmarek/DevSecOps)
-    - [==sottlmarek/DevSecOps - kubernetes==](https://github.com/sottlmarek/DevSecOps#kubernetes)
+    - [==sottlmarek/DevSecOps - kubernetes==](https://github.com/sottlmarek/DevSecOps)
 - [hahwul/DevSecOps](https://github.com/hahwul/DevSecOps) Collection and Roadmap for everyone who wants DevSecOps
 
 ### GitOps
