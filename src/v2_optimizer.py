@@ -288,7 +288,7 @@ class V2VisionEngine:
 
             cached = self.inventory.get(norm_url, {})
             # Mandate 43: Always ensure GH metadata for GitHub links in V2 to power [DE FACTO STANDARD] logic
-            if (enrich_metadata or not cached.get("gh_stars")) and norm_url not in processed_gh_metadata:
+            if (enrich_metadata or cached.get("gh_stars") is None) and norm_url not in processed_gh_metadata:
                 processed_gh_metadata.add(norm_url)
                 gh_tasks.append(_fetch_gh_with_sem(norm_url))
 

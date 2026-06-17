@@ -3,18 +3,6 @@
 !!! info "Architectural Context"
     Detailed reference for Microservices FAQ in the context of Architectural Foundations.
 
-## Standard Reference
-
-  - [medium.com: Your team might not need Kubernetes](https://medium.com/faun/your-team-might-not-need-kubernetes-57240e8d554a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com: STOP!! You don’t need Microservices](https://medium.com/@ebin/stop-you-dont-need-microservices-dc732d70b3e0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Dzone: Programming Styles Compared: Spring Framework vis-a-vis Eclipse MicroProfile' 🌟🌟](https://dzone.com/articles/programming-styles-spring-boot-vis-a-vis-with-ecli)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: Domain Partitions: How To Find a Healthy Balance' Between Microservices and Monoliths](https://betterprogramming.pub/domain-partitions-how-to-find-a-healthy-balance-between-microservices-and-monoliths-2cd74206559)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: It’s time to stop making “Microservices” the goal of modernization](https://medium.com/ibm-garage/its-time-to-stop-making-microservices-the-goal-of-modernization-71758b400287)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com: When to Use and When NOT to Use Microservices: No Silver Bullet' 🌟](https://medium.com/design-microservices-architecture-with-patterns/when-to-use-and-when-not-to-use-microservices-no-silver-bullet-3ae293faf6d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone: The Best Cloud Migration Approach: Lift-And-Shift, Replatform, Or' Refactor?](https://dzone.com/articles/the-best-cloud-migration-approach-lift-and-shift-r)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone: 10 Commandments of Microservice Decomposition 🌟](https://dzone.com/articles/10-commandments-on-microservice-decomposition)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [10 Free Spring Boot Courses and Tutorials for Java Developers](https://medium.com/javarevisited/10-free-spring-boot-tutorials-and-courses-for-java-developers-53dfe084587e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-
 ## Architecture
 
 ### Cloud Native
@@ -48,11 +36,23 @@
   - **(2022)** [cybercoders.com: What Hiring Managers look for in a Full Stack Developer](https://www.cybercoders.com/insights/what-hiring-managers-look-for-in-a-full-stack-developer) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A market intelligence report surveying hiring requirements for full stack engineering roles. It maps out key technical benchmarks such as comfort with distributed system paradigms, experience with container systems like Docker/Kubernetes, and familiarity with cloud platforms, alongside essential communication and agile development competencies.
 ## Cloud Infrastructure
 
+### Enterprise Containers
+
+#### Strategy
+
+  - **(2021)** [contino.io: How to Make Enterprise Container Strategies That Last (Part One)](https://www.contino.io/insights/how-to-make-enterprise-container-strategies-that-last-part-one) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An enterprise-focused strategic guide detailing how to design durable container adoption initiatives. It emphasizes aligning developer enablement with platform engineering teams, setting up proper governance models, and establishing realistic operational metrics, ensuring organization-wide Kubernetes migrations don't stall due to cultural friction.
 ### Storage and Databases
 
 #### Storage Strategy
 
   - **(2022)** [thenewstack.io: Choosing Between Container-Native and Container-Ready Storage 🌟](https://thenewstack.io/choosing-between-container-native-and-container-ready-storage) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structural comparison between container-native and container-ready storage systems for Kubernetes. It explains how container-native storage operates inside the orchestration engine using CSI (Container Storage Interface), offering dynamic scaling and pod-level isolation, whereas container-ready options rely on enterprise external SAN/NAS storage arrays mapped to Kubernetes nodes.
+## Kubernetes Tools
+
+### General Reference
+
+  - [Dzone: Programming Styles Compared: Spring Framework vis-a-vis Eclipse MicroProfile' 🌟🌟](https://dzone.com/articles/programming-styles-spring-boot-vis-a-vis-with-ecli)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Programming Styles Compared: Spring Framework vis-a-vis Eclipse MicroProfile' 🌟🌟 in the Kubernetes Tools ecosystem.
+  - [dzone: The Best Cloud Migration Approach: Lift-And-Shift, Replatform, Or' Refactor?](https://dzone.com/articles/the-best-cloud-migration-approach-lift-and-shift-r)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: The Best Cloud Migration Approach: Lift-And-Shift, Replatform, Or' Refactor? in the Kubernetes Tools ecosystem.
+  - [dzone: 10 Commandments of Microservice Decomposition 🌟](https://dzone.com/articles/10-commandments-on-microservice-decomposition)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: 10 Commandments of Microservice Decomposition 🌟 in the Kubernetes Tools ecosystem.
 ## Microservices Architecture
 
 ### Dependency Management
@@ -94,5 +94,5 @@
   - **(2019)** [From monolith to containers: How Verizon containerized legacy applications on OpenShift 🌟](https://www.youtube.com/watch?v=Q6i0LK4vHsU)  <span class='md-tag md-tag--info'>[LEGACY]</span> — This real-world enterprise case study details Verizon's migration journey from a legacy monolithic architecture to containerized workloads on Red Hat OpenShift. It highlights practical strategies for managing stateful applications, addressing legacy security constraints, and overcoming organizational resistance. The resulting deployment demonstrates how automated orchestration accelerates feature delivery and improves cluster utilization.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [About](./about.md)
 

@@ -3,10 +3,13 @@
 !!! info "Architectural Context"
     Detailed reference for Remote Tech Jobs in the context of Career & Industry.
 
-## Standard Reference
+## Architectural Foundations
 
-  - [landing.jobs: How does remote work affect your salary?](https://landing.jobs/blog/how-does-remote-work-affect-your-salary)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+### Kubernetes Tools
 
+#### General Reference
+
+  - [landing.jobs: How does remote work affect your salary?](https://landing.jobs/blog/how-does-remote-work-affect-your-salary)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering landing.jobs: How does remote work affect your salary? in the Kubernetes Tools ecosystem.
 ## Career Development
 
 ### Market Trends
@@ -40,5 +43,5 @@
   - **(2021)** [esquire.com: ¿Por qué tu empresa no quiere que teletrabajes?](https://www.esquire.com/es/trabajo/a37314227/teletrabajo-volver-oficina) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight outlines corporate motivations driving return-to-office (RTO) mandates. Live Grounding shows that post-2024, many enterprises instituted hybrid policies, but high-tier engineering talent continues to strongly favor asynchronous, geographically distributed operational environments.
 
 ---
-💡 **Explore Related:** [HR](./hr.md) | [Elearning](./elearning.md) | [Newsfeeds](./newsfeeds.md)
+💡 **Explore Related:** [Appointment Scheduling](./appointment-scheduling.md) | [Finops](./finops.md) | [Digital Money](./digital-money.md)
 

@@ -3,21 +3,13 @@
 !!! info "Architectural Context"
     Detailed reference for Recruitment. Hiring and Freelancing in the context of Career & Industry.
 
-## Standard Reference
+## Architectural Foundations
 
-  - [Tech companies cutting devs for AI](https://www.reddit.com/r/ProgrammerHumor/comments/1tbzih8/techcompaniescuttingdevsforai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [tigerabrodi.hashnode.dev: Interviewing software developers](https://tigerabrodi.hashnode.dev/interviewing-software-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [lynnlangit.medium.com: Tech Anti-Interviewing](https://lynnlangit.medium.com/tech-anti-interviewing-106674655ea0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/hackernoon: How to hire a DevOps Engineer](https://medium.com/hackernoon/how-to-hire-a-devops-engineer-4e59e7847e9b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [4dayweek.medium.com: What does the work-life balance of a Software Engineer' look like?](https://4dayweek.medium.com/what-does-the-work-life-balance-of-a-software-engineer-look-like-fe16cc46bb0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/walmartglobaltech: How Do You Decide Whether an Individual Contributor' (IC) or Engineering Manager Role is Right for You?](https://medium.com/walmartglobaltech/how-do-you-decide-whether-an-individual-contributor-ic-or-engineering-manager-role-is-right-for-f46251f1a4cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [theengineeringmanager.substack.com: How do I progress to the next level' in my career?](https://theengineeringmanager.substack.com/p/how-do-i-progress-to-the-next-level)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.robertsimoes.org: Four Wings of a Software Engineer](https://blog.robertsimoes.org/posts/four-wings-of-software-engineers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Why I Don’t Consider Your Certifications During An Interview](https://madokai.medium.com/why-i-dont-consider-your-certifications-during-an-interview-fe4b62cf6f8c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [jobs.rekruuto.com: Rekruuto DevOps and SRE Job Opportunities](https://jobs.rekruuto.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [trycircular.com (Spain)](https://trycircular.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [skamille.medium.com: An incomplete list of skills senior engineers need,' beyond coding](https://skamille.medium.com/an-incomplete-list-of-skills-senior-engineers-need-beyond-coding-8ed4a521b29f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+### Kubernetes Tools
 
+#### General Reference
+
+  - [Tech companies cutting devs for AI](https://www.reddit.com/r/ProgrammerHumor/comments/1tbzih8/techcompaniescuttingdevsforai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Tech companies cutting devs for AI in the Kubernetes Tools ecosystem.
 ## DevOps Culture
 
 ### Workforce Strategy
@@ -267,5 +259,5 @@
   - **(2022)** [businessinsider.es: Los 9 factores que más repercuten en la felicidad en el trabajo, según los trabajadores](https://www.businessinsider.es/desarrollo-profesional/9-factores-repercuten-felicidad-trabajador-352445) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Examines nine primary factors contributing to happiness and stability in modern workplaces. Live Grounding: Pinpoints flexibility, operational autonomy, psychological safety, and meaningful work as key drivers to minimize technical debt and turnover within engineering groups.
 
 ---
-💡 **Explore Related:** [HR](./hr.md) | [Elearning](./elearning.md) | [Newsfeeds](./newsfeeds.md)
+💡 **Explore Related:** [Appointment Scheduling](./appointment-scheduling.md) | [Finops](./finops.md) | [Digital Money](./digital-money.md)
 

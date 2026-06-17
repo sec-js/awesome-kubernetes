@@ -3,20 +3,6 @@
 !!! info "Architectural Context"
     Detailed reference for OpenShift Pipelines in the context of Engineering Pipeline.
 
-## Standard Reference
-
-  - [**uncontained.io**: External Jenkins Integration 🌟](http://v1.uncontained.io/playbooks/continuous_delivery/external-jenkins-integration.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: jenkins cicd getting started with groovy and docker](https://medium.com/@fvtool/jenkins-cicd-getting-started-with-groovy-and-docker-containers-part-2-b03a1b934a49)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [OCP 4.2 - Jenkins image](https://docs.openshift.com/container-platform/4.2/openshift_images/using_images/images-other-jenkins-agent.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Dzone: 4 ways to build applications in openshift](https://dzone.com/articles/4-ways-to-build-applications-in-openshift-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Dzone: a quick guide to deploying java apps on openshift](https://dzone.com/articles/a-quick-guide-to-deploying-java-apps-on-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Using **KubeFed** to deploy applications](https://blog.openshift.comusing-kubefed-to-deploy-applications-to-ocp3-and-ocp4-clusters)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: odo Cheat Sheet](https://developers.redhat.com/cheat-sheets/odo-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Jenkins CICD Getting started with Groovy and Docker Containers —' Part 1](https://blog.isaack.io/articles/2016-08/Jenkins-CICD-Getting-Started-With-Groovy-Part-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium - fabric8, please check out jenkins X instead](https://medium.com/@jstrachan/fabric8-please-check-out-jenkins-x-instead-8295a025173a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Dzone - Continuous Delivery with OpenShift and Jenkins: A/B Testing 🌟](https://dzone.com/articles/continuous-delivery-with-openshift-and-jenkins-ab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [docs.openshift.com: OpenShift 3.11 Pipeline Builds with OpenShift Jenkins' Image and OpenShift DSL](https://docs.openshift.com/container-platform/3.11/dev_guide/dev_tutorials/openshift_pipeline.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-
 ## App Development
 
 ### CICD
@@ -27,6 +13,16 @@
 #### Legacy Frameworks
 
   - **(2018)** [CI/CD with fabric8](http://fabric8.io/guide/cdelivery.html) <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Details the classic continuous delivery orchestration patterns supported by early versions of the Fabric8 framework. Although helpful for understanding early pipeline structures, these setups are largely replaced by native GitOps and modern cloud-native pipelines.
+## Architectural Foundations
+
+### Kubernetes Tools
+
+#### General Reference
+
+  - [OCP 4.2 - Jenkins image](https://docs.redhat.com/en/documentation/openshift_container_platform/4.2/html/images/using-images#images-other-jenkins-agent)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.redhat.com in the Kubernetes Tools ecosystem.
+  - [docs.openshift.com: OpenShift 3.11 Pipeline Builds with OpenShift Jenkins Image and OpenShift DSL](https://docs.redhat.com/en/documentation/openshift_container_platform/3.11/html/developer_guide/tutorials#dev-guide-openshift-pipeline-builds)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.redhat.com in the Kubernetes Tools ecosystem.
+  - [Dzone: 4 ways to build applications in openshift](https://dzone.com/articles/4-ways-to-build-applications-in-openshift-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: 4 ways to build applications in openshift in the Kubernetes Tools ecosystem.
+  - [Dzone: a quick guide to deploying java apps on openshift](https://dzone.com/articles/a-quick-guide-to-deploying-java-apps-on-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: a quick guide to deploying java apps on openshift in the Kubernetes Tools ecosystem.
 ## CICD and DevOps
 
 ### Enterprise Jenkins
@@ -34,8 +30,8 @@
 #### OpenShift Integration
 
   - **(2020)** [==Jenkins Docker Image for Openshift v3==](https://github.com/openshift/jenkins) <span class='md-tag md-tag--info'>⭐ 261</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Red Hat maintained OpenShift integration image for running Jenkins natively within OpenShift clusters. Includes pre-configured plugins, service-account integration, and S2I build configurations customized for enterprise OpenShift v3/v4 environments.
-  - **(2020)** [github.com/siamaksade/jenkins-blueocean](https://github.com/siamaksade/jenkins-blueocean) <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Public demonstration repository providing configured manifests for launching Jenkins Blue Ocean on OpenShift clusters. Acts as a blueprint for visualizing pipeline stages in Red Hat environments.
   - **(2020)** [cloudowski.com: Jenkins on OpenShift - how to use and customize it in a cloud-native way 🌟](https://cloudowski.com/articles/jenkins-on-openshift) <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Advanced engineering blog detailing customized, cloud-native deployments of Jenkins on OpenShift. Explains how to leverage dynamic provisioning, custom configurations, and cluster-wide persistent volumes to stabilize Jenkins infrastructure.
+  - **(2020)** [github.com/siamaksade/jenkins-blueocean](https://github.com/siamaksade/jenkins-blueocean) <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Public demonstration repository providing configured manifests for launching Jenkins Blue Ocean on OpenShift clusters. Acts as a blueprint for visualizing pipeline stages in Red Hat environments.
   - **(2019)** [blog.openshift.com: Deploying jenkins on openshift - part 1](https://www.redhat.com/en/blog/deploying-jenkins-on-openshift-part-1) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Enterprise guide illustrating structural configuration, route definition, and persistent storage bindings for deploying stable Jenkins masters inside OpenShift namespaces.
   - **(2019)** [blog.openshift.com: Improving jenkins performance on openshift - part 2](https://www.redhat.com/en/blog/improving-jenkins-performance-on-openshift-part-2) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural performance tuning guide for running large-scale Jenkins deployments on OpenShift. Addresses JVM optimization, garbage collection configuration, build concurrency limit management, and persistent storage class optimizations.
   - **(2019)** [blog.openshift.com: Deploying OpenShift Applications to Multiple Datacenters (with Jenkins)](https://www.redhat.com/en/blog/deploying-openshift-applications-multiple-datacenters) <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Advanced architectural walkthrough on utilizing Jenkins to orchestrate synchronized microservice deployments across federated, multi-datacenter OpenShift cluster topologies.
@@ -96,6 +92,7 @@
   - **(2026)** [github.com/openshift/pipelines-tutorial](https://github.com/openshift/pipelines-tutorial) <span class='md-tag md-tag--info'>⭐ 322</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive learning path and hands-on laboratory environment focused on Tekton. Provides configurations for Tasks, Pipelines, PipelineRuns, and Trigger EventListeners on OpenShift clusters, validating cloud-native automation patterns.
   - **(2020)** [github: OpenShift Pipelines Node.js Tutorial](https://github.com/csantanapr/faststart2020-pipelines-lab) <span class='md-tag md-tag--info'>⭐ 5</span> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Specialized quick-start laboratory focusing on Node.js application continuous delivery with OpenShift Pipelines. Guides developers through configuring trigger conditions and executing basic Source-to-Image (S2I) build pipelines.
   - **(2021)** [openshift.com: OpenShift Pipelines Advanced Triggers Part 1 - Triggering Different Project Builds in the Same Repository](https://www.redhat.com/en/blog/openshift-pipelines-advanced-triggers-part-1-triggering-different-project-builds-in-the-same-repository) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides advanced architecture examples for configuring custom triggers with OpenShift Pipelines. Demonstrates how to write custom interceptors to execute discrete workflows when localized directory pathways change within shared code repos.
+  - **(2020)** [openshift.com: Cloud-Native CI/CD with OpenShift Pipelines based on Tekton](https://www.redhat.com/en/blog/cloud-native-ci-cd-with-openshift-pipelines) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Introduces OpenShift Pipelines as the modern serverless, cloud-native standard built on the Tekton project. Explains how Tekton's CRD-first strategy delivers secure, isolated build containers without a centralized daemon or controller bottlenecks.
   - **(2020)** [developers.redhat.com: Modern web applications on OpenShift, Part 4: Openshift Pipelines](https://developers.redhat.com/blog/2020/04/27/modern-web-applications-on-openshift-part-4-openshift-pipelines) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Part of a series detailing modern web application architectures on OpenShift. Explores configuring Tekton pipelines to construct, optimize, and serve static frontend code alongside active microservices.
 ### DevSecOps
 
@@ -111,5 +108,5 @@
   - **(2023)** [==github - fabric8, maven plugin==](https://github.com/fabric8io/fabric8-maven-plugin) <span class='md-tag md-tag--info'>⭐ 334</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A Maven plugin designed to package Java projects into lightweight Docker/OCI images and generate corresponding Kubernetes resource manifests automatically. Double-Evidence: Note that this project is archived and superseded by Eclipse JKube in modern development environments.
 
 ---
-💡 **Explore Related:** [Jenkins](./jenkins.md) | [Flux](./flux.md) | [Argo](./argo.md)
+💡 **Explore Related:** [Argo](./argo.md) | [CI/CD](./cicd.md) | [Gitops](./gitops.md)
 

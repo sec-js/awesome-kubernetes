@@ -3,84 +3,6 @@
 !!! info "Architectural Context"
     Detailed reference for Monitoring and Performance. Prometheus, Grafana, APMs and more in the context of Architectural Foundations.
 
-## Standard Reference
-
-  - [Transitive blocks](https://fastthread.io/ft-error.jsp&s=t)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [Unresponsive JVM](https://fastthread.io/ft-error.jsp&s=t)
-    - [Sudden CPU spike](https://fastthread.io/ft-error.jsp&s=t)
-    - [Thread Leaks](https://fastthread.io/ft-error.jsp&s=t)
-  - [medium.com/@magstherdev: OpenTelemetry Operator](https://medium.com/@magstherdev/opentelemetry-operator-d3d407354cbf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [magalix.com: Monitoring Kubernetes Clusters Through Prometheus & Grafana' 🌟](https://www.magalix.com/blog/monitoring-of-kubernetes-cluster-through-prometheus-and-grafana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [en.wikipedia.org/wiki/List_of_performance_analysis_tools](https://en.wikipedia.org/wiki/List_of_performance_analysis_tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [InspectIT](https://en.wikipedia.org/wiki/InspectIT)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [VisualVM](https://en.wikipedia.org/wiki/VisualVM)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [OverOps](https://en.wikipedia.org/wiki/OverOps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone: 8 Options for Capturing Thread Dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Zebrium](https://www.zebrium.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone.com: Performance Patterns in Microservices-Based Integrations](https://dzone.com/articles/performance-patterns-in-microservices-based-integr-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Dzone: 14 Best Performance Testing Tools and APM Solutions](https://dzone.com/articles/14-best-performance-testing-tools-and-apm-solution)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Wikipedia: Application Performance Index](https://en.wikipedia.org/wiki/Apdex)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone.com: Kubernetes Monitoring: Best Practices, Methods, and Existing' Solutions](https://dzone.com/articles/kubernetes-monitoring-best-practices-methods-and-e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [CNCF End User Technology Radar: Observability, September 2020 🌟](https://www.cncf.io/blog/2020/09/11/cncf-end-user-technology-radar-observability-september-2020)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [matiasmct.medium.com: Observability at Scale](https://matiasmct.medium.com/observability-at-scale-52d0d9a5fb9b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [logz.io: Top 11 Open Source Monitoring Tools for Kubernetes 🌟](https://logz.io/blog/open-source-monitoring-tools-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [faun.pub: DevOps Meets Observability 🌟](https://faun.pub/devops-meets-observability-78775c021b0e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.thundra.io: What CI Observability Means for DevOps 🌟](https://blog.thundra.io/what-ci-observability-means-for-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com: Monitoring Microservices - Part 1: Observability | Anderson' Carvalho](https://medium.com/geekculture/monitoring-microservices-part-1-observability-b2b44fa3e67e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cncf.io: How to add observability to your application pipeline](https://www.cncf.io/blog/2021/11/23/how-to-add-observability-to-your-application-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [storiesfromtheherd.com: Unpacking Observability](https://storiesfromtheherd.com/unpacking-observability-a-beginners-guide-833258a0591f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [logz.io: A Monitoring Reality Check: More of the Same Won’t Work](https://logz.io/blog/monitoring-reality-check)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/buildpiper: Observability for Monitoring Microservices — Top' 5 Ways!](https://medium.com/buildpiper/observability-for-monitoring-microservices-top-5-ways-587871e726d0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@cbkwgl: Continuous Monitoring in DevOps 🌟](https://medium.com/@cbkwgl/continuous-monitoring-in-devops-8d4db48a0e24)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [logz.io: The Open Source Observability Adoption and Migration Curve](https://logz.io/blog/open-source-observability-adoption-migration-curve)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [tiagodiasgeneroso.medium.com: Observability Concepts you should know](https://tiagodiasgeneroso.medium.com/observability-concepts-you-should-know-943fc057b208)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [faun.pub: Getting started with Observability](https://faun.pub/getting-started-with-observability-657d57aab1c7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@badawekoo: Monitoring in DevOps lifecycle](https://medium.com/@badawekoo/monitoring-in-devops-lifecycle-4d9a2f277eb0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [laduram.medium.com: The Future of Observability](https://laduram.medium.com/the-future-of-observability-c33cd7ff644a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/kubeshop-i: Top 8 Open-Source Observability & Testing Tools](https://medium.com/kubeshop-i/top-8-open-source-observability-testing-tools-9341a361a634)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone: 11 Observability Tools You Should Know 🌟](https://dzone.com/articles/11-observability-tools-you-should-know-in-2023)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/devops-techable: Setup monitoring with Prometheus and Grafana' in Kubernetes — Start monitoring your Kubernetes cluster resources](https://medium.com/devops-techable/setup-monitoring-with-prometheus-and-grafana-in-kubernetes-start-monitoring-your-kubernetes-a3071f083fa6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/cloud-native-daily: Why You Shouldn’t Fear to Adopt OpenTelemetry' for Observability](https://medium.com/cloud-native-daily/why-you-shouldnt-fear-to-adopt-opentelemetry-for-observability-fcb6371ea8fe)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@bijit211987: Observability Driven Development (ODD)-Enhancing' System Reliability](https://medium.com/@bijit211987/observability-driven-development-2bc2cdde8661)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [OCP 3.11 Metrics and Logging](https://docs.openshift.com/container-platform/3.11/release_notes/ocp_3_11_release_notes.html#ocp-311-metrics-and-logging)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Prometheus Cluster Monitoring 🌟](https://docs.openshift.com/container-platform/3.11/install_config/prometheus_cluster_monitoring.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cncf.io: Monitoring micro-front ends on Kubernetes with NGINX 🌟](https://www.cncf.io/blog/2023/02/01/monitoring-micro-front-ends-on-kubernetes-with-nginx)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone: Getting Started With Kibana Advanced Searches](https://dzone.com/articles/getting-started-with-kibana-advanced-searches)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone: Kibana Hacks: 5 Tips and Tricks](https://dzone.com/articles/kibana-hacks-5-tips-and-tricks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [juanonlab.com: Dashboards de Kibana](https://www.juanonlab.com/blog/es/dashboards-de-kibana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: The Art of Logging](https://betterprogramming.pub/creating-a-human-and-machine-freindly-logging-format-bb6d4bb01dca)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Store NGINX access logs in Elasticsearch with Logging operator 🌟](https://banzaicloud.com/docs/one-eye/logging-operator/quickstarts/es-nginx)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.streammonkey.com: How We Serverlessly Migrated 1.58 Billion Elasticsearch' Documents](https://blog.streammonkey.com/how-we-serverlessly-migrated-1-58-billion-elasticsearch-documents-33ad3d0d7c4f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone: Running Elasticsearch on Kubernetes](https://dzone.com/articles/running-elasticsearch-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Which Elasticsearch Provider is Right For You? 🌟](https://medium.com/gigasearch/which-elasticsearch-provider-is-right-for-you-3d596a65e704)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/hepsiburadatech: Hepsiburada Search Engine on Kubernetes](https://medium.com/hepsiburadatech/hepsiburada-search-engine-on-kubernetes-1fe03a3e71a3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [search-guard.com/sgctl-elasticsearch: SGCTL - TAKE BACK CONTROL](https://search-guard.com/sgctl-elasticsearch)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: A detailed guide to deploying Elasticsearch on Elastic Cloud on' Kubernetes (ECK)](https://medium.com/99dotco/a-detail-guide-to-deploying-elasticsearch-on-elastic-cloud-on-kubernetes-eck-31808ac60466)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [opensearch.org 🌟](https://opensearch.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [logz.io: Logz.io Announces Support for OpenSearch; A Community-driven Open' Source Fork of Elasticsearch and Kibana](https://logz.io/news-posts/logz-io-announces-support-for-opensearch-a-community-driven-open-source-fork-of-elasticsearch-and-kibana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techrepublic.com: OpenSearch: AWS rolls out its open source Elasticsearch' fork](https://www.techrepublic.com/article/opensearch-aws-rolls-out-its-open-source-elasticsearch-fork)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [logz.io: OpenSearch Is Now Generally Available!](https://logz.io/blog/opensearch-1-0-ga-generally-available-elasticsearch-kibana-fork)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Logging with EFK - Pratyush Mathur](https://medium.com/@pratyush.mathur/logging-with-efk-1c2e131496d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@CuriousLearner: Deploying EFK stack on Kubernetes](https://medium.com/@CuriousLearner/deploying-efk-stack-on-kubernetes-c25ba2682c99)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@tech_18484: Simplifying Kubernetes Logging with EFK Stack](https://medium.com/@tech_18484/simplifying-kubernetes-logging-with-efk-stack-158da47ce982)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [logz.io: A Beginner’s Guide to Logstash Grok](https://logz.io/blog/logstash-grok)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [logz.io: Grok Pattern Examples for Log Parsing](https://logz.io/blog/grok-pattern-examples-for-log-parsing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone.com: The Keys to Performance Tuning and Testing](https://dzone.com/articles/the-keys-to-performance-tuning-and-testing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [How to read a Thread Dump](https://dzone.com/articles/how-to-read-a-thread-dump)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [awkwardferny.medium.com: Setting up Distributed Tracing in Kubernetes with' OpenTracing, Jaeger, and Ingress-NGINX](https://awkwardferny.medium.com/setting-up-distributed-tracing-with-opentelemetry-jaeger-in-kubernetes-ingress-nginx-cfdda7d9441d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ploffay.medium.com: Five years evolution of open-source distributed tracing' 🌟](https://ploffay.medium.com/five-years-evolution-of-open-source-distributed-tracing-ec1c5a5dd1ac)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Medium: Distributed Tracing and Monitoring using OpenCensus](https://medium.com/@rghetia/distributed-tracing-and-monitoring-using-opencensus-fe5f6e9479fb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Dzone: Zipkin vs. Jaeger: Getting Started With Tracing](https://dzone.com/articles/zipkin-vs-jaeger-getting-started-with-tracing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@bijit211987: Grafana with OpenTelemetry, Vendor-neutral and' open-source approach](https://medium.com/@bijit211987/grafana-with-opentelemetry-vendor-neutral-and-open-source-approach-ab4bc08f67e9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Jaeger VS OpenTracing VS OpenTelemetry](https://medium.com/jaegertracing/jaeger-and-opentelemetry-1846f701d9f2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Using Jaeger and OpenTelemetry SDKs in a mixed environment with' W3C Trace-Context](https://medium.com/jaegertracing/jaeger-clients-and-w3c-trace-context-c2ce1b9dc390)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [APM in wikipedia](https://en.wikipedia.org/wiki/Application_performance_management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone.com: APM Tools Comparison](https://dzone.com/articles/apm-tools-comparison-which-one-should-you-choose)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone.com: Java Performance Monitoring: 5 Open Source Tools You Should Know](https://dzone.com/articles/java-performance-monitoring-5-open-source-tools-you-should-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Krossboard: A centralized usage analytics approach for multiple Kubernetes](https://itnext.io/in-search-of-converged-usage-analytics-for-multiple-managed-kubernetes-c5108cb7f0e1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [stackpulse.com: Automated Kubernetes Pod Restarting Analysis with StackPulse](https://stackpulse.com/blog/automated-kubernetes-pod-restarting-analysis-with-stackpulse)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [hashicorp.com: Monitoring as Code with Terraform Cloud and Checkly](https://www.hashicorp.com/blog/monitoring-as-code-with-terraform-cloud-and-checkly)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [OpenTelemetry (OTel) vs Application Performance Monitoring (APM)](https://medium.com/@rahul.fiem/opentelemetry-otel-vs-application-performance-monitoring-apm-86ae829877cf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-
 ## Architecture
 
 ### Microservices
@@ -290,7 +212,14 @@
 #### GitOps (1)
 
   - **(2021)** [devops.com: Dynatrace Advances Application Environments as Code](https://devops.com/dynatrace-advances-application-environments-as-code) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses 'Observability as Code', where application dashboards, SLO targets, and alerting configurations are defined using Terraform or Monaco. By 2026, this approach is integrated into standard CI/CD pipelines to ensure monitoring environments scale systematically with the underlying infra.
-### Observability (5)
+### Management (1)
+
+#### Observability (5)
+
+##### Governance
+
+  - **(2021)** [forbes.com: Who Should Own The Job Of Observability In DevOps?](https://www.forbes.com/councils/forbestechcouncil/2021/09/03/who-should-own-the-job-of-observability-in-devops/?streamIndex=0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores organizational boundaries and team responsibilities, discussing whether application developers, SRE teams, or dedicated platform engineers should own observability setups. Curator Insight: Ownership discussion in tech governance. Live Grounding: Highlights that shared ownership templates yield the highest developer-experience improvements.
+### Observability (6)
 
 #### APIs
 
@@ -323,7 +252,7 @@
 
 #### Infrastructure
 
-##### Observability (6)
+##### Observability (7)
 
 ###### Best Practices
 
@@ -349,7 +278,7 @@
 #### Kubernetes and OpenShift
 
   - **(2018)** [Leveraging Kubernetes and OpenShift for automated performance tests (part 1)](https://developers.redhat.com/blog/2018/11/22/automated-performance-testing-kubernetes-openshift) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines architectural strategies for automating load and performance testing within Kubernetes and Red Hat OpenShift environments. Focuses on orchestrating distributed test runners (like JMeter or Gatling) as cloud-native jobs, ensuring consistent test execution alongside CI/CD pipelines to validate platform scalability under synthetic load.
-#### Observability (7)
+#### Observability (8)
 
   - **(2019)** [Building an observability stack for automated performance tests on Kubernetes and OpenShift (part 2) 🌟](https://developers.redhat.com/blog/2019/01/03/leveraging-openshift-or-kubernetes-for-automated-performance-tests-part-2) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the construction of an end-to-end monitoring pipeline using Prometheus and Grafana to capture system-level and application-level metrics during automated load tests. Enables developers to pinpoint resource bottlenecks, track container resource usage, and analyze performance regressions dynamically.
 ### Sysadmin
@@ -357,7 +286,44 @@
 #### Resources
 
   - **(2026)** [==Awesome Sysadmin==](https://github.com/awesome-foss/awesome-sysadmin) <span class='md-tag md-tag--info'>⭐ 34277</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exhaustive curation of open-source sysadmin resources, listing production-ready system monitors, configuration management tools, security suites, and virtualization frameworks used globally by SREs.
-## Observability (8)
+## Kubernetes Management
+
+### Monitoring and Observability
+
+#### etcd Monitoring
+
+  - **(2023)** [Monitor Etcd with Prometheus and Grafana using Rancher](https://www.suse.com/c/rancher_blog/monitor-etcd-with-prometheus-and-grafana-using-rancher) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operational runbook explaining how to configure Prometheus and Grafana within SUSE Rancher to audit and visualize etcd status. Evaluates critical etcd parameters including database size, disk synchronization latency, and peer communication health.
+## Kubernetes Tools
+
+### General Reference
+
+  - [OCP 3.11 Metrics and Logging](https://docs.redhat.com/en/documentation/openshift_container_platform/3.11/html/release_notes/release-notes-ocp-3-11-release-notes#ocp-311-metrics-and-logging)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.redhat.com in the Kubernetes Tools ecosystem.
+  - [Prometheus Cluster Monitoring 🌟](https://docs.redhat.com/en/documentation/openshift_container_platform/3.11/html/configuring_clusters/prometheus-cluster-monitoring)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.redhat.com in the Kubernetes Tools ecosystem.
+  - [dzone.com: Kubernetes Monitoring: Best Practices, Methods, and Existing' Solutions](https://dzone.com/articles/kubernetes-monitoring-best-practices-methods-and-e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone.com: Kubernetes Monitoring: Best Practices, Methods, and Existing' Solutions in the Kubernetes Tools ecosystem.
+  - [CNCF End User Technology Radar: Observability, September 2020 🌟](https://www.cncf.io/blog/2020/09/11/cncf-end-user-technology-radar-observability-september-2020)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering CNCF End User Technology Radar: Observability, September 2020 🌟 in the Kubernetes Tools ecosystem.
+  - [logz.io: Top 11 Open Source Monitoring Tools for Kubernetes 🌟](https://logz.io/blog/open-source-monitoring-tools-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering logz.io: Top 11 Open Source Monitoring Tools for Kubernetes 🌟 in the Kubernetes Tools ecosystem.
+  - [cncf.io: How to add observability to your application pipeline](https://www.cncf.io/blog/2021/11/23/how-to-add-observability-to-your-application-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==cncf.io: How to add observability to your application pipeline== in the Kubernetes Tools ecosystem.
+  - [logz.io: A Monitoring Reality Check: More of the Same Won’t Work](https://logz.io/blog/monitoring-reality-check)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering logz.io: A Monitoring Reality Check: More of the Same Won’t Work in the Kubernetes Tools ecosystem.
+  - [logz.io: The Open Source Observability Adoption and Migration Curve](https://logz.io/blog/open-source-observability-adoption-migration-curve)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering logz.io: The Open Source Observability Adoption and Migration Curve in the Kubernetes Tools ecosystem.
+  - [dzone: 11 Observability Tools You Should Know 🌟](https://dzone.com/articles/11-observability-tools-you-should-know-in-2023)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==dzone: 11 Observability Tools You Should Know== 🌟 in the Kubernetes Tools ecosystem.
+  - [cncf.io: Monitoring micro-front ends on Kubernetes with NGINX 🌟](https://www.cncf.io/blog/2023/02/01/monitoring-micro-front-ends-on-kubernetes-with-nginx)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==cncf.io: Monitoring micro-front ends on Kubernetes with NGINX== 🌟 in the Kubernetes Tools ecosystem.
+  - [dzone: Getting Started With Kibana Advanced Searches](https://dzone.com/articles/getting-started-with-kibana-advanced-searches)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Getting Started With Kibana Advanced Searches in the Kubernetes Tools ecosystem.
+  - [dzone: Kibana Hacks: 5 Tips and Tricks](https://dzone.com/articles/kibana-hacks-5-tips-and-tricks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Kibana Hacks: 5 Tips and Tricks in the Kubernetes Tools ecosystem.
+  - [dzone: Running Elasticsearch on Kubernetes](https://dzone.com/articles/running-elasticsearch-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Running Elasticsearch on Kubernetes in the Kubernetes Tools ecosystem.
+  - [opensearch.org 🌟](https://opensearch.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering opensearch.org 🌟 in the Kubernetes Tools ecosystem.
+  - [logz.io: Logz.io Announces Support for OpenSearch; A Community-driven Open' Source Fork of Elasticsearch and Kibana](https://logz.io/news-posts/logz-io-announces-support-for-opensearch-a-community-driven-open-source-fork-of-elasticsearch-and-kibana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering logz.io: Logz.io Announces Support for OpenSearch; A Community-driven Open' Source Fork of Elasticsearch and Kibana in the Kubernetes Tools ecosystem.
+  - [logz.io: OpenSearch Is Now Generally Available!](https://logz.io/blog/opensearch-1-0-ga-generally-available-elasticsearch-kibana-fork)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering logz.io: OpenSearch Is Now Generally Available! in the Kubernetes Tools ecosystem.
+  - [logz.io: A Beginner’s Guide to Logstash Grok](https://logz.io/blog/logstash-grok)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering logz.io: A Beginner’s Guide to Logstash Grok in the Kubernetes Tools ecosystem.
+  - [logz.io: Grok Pattern Examples for Log Parsing](https://logz.io/blog/grok-pattern-examples-for-log-parsing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering logz.io: Grok Pattern Examples for Log Parsing in the Kubernetes Tools ecosystem.
+  - [dzone.com: The Keys to Performance Tuning and Testing](https://dzone.com/articles/the-keys-to-performance-tuning-and-testing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone.com: The Keys to Performance Tuning and Testing in the Kubernetes Tools ecosystem.
+  - [dzone.com: Performance Patterns in Microservices-Based Integrations](https://dzone.com/articles/performance-patterns-in-microservices-based-integr-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone.com: Performance Patterns in Microservices-Based Integrations in the Kubernetes Tools ecosystem.
+  - [How to read a Thread Dump](https://dzone.com/articles/how-to-read-a-thread-dump)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering How to read a Thread Dump in the Kubernetes Tools ecosystem.
+  - [dzone: 8 Options for Capturing Thread Dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: 8 Options for Capturing Thread Dumps in the Kubernetes Tools ecosystem.
+  - [Dzone: Zipkin vs. Jaeger: Getting Started With Tracing](https://dzone.com/articles/zipkin-vs-jaeger-getting-started-with-tracing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Zipkin vs. Jaeger: Getting Started With Tracing in the Kubernetes Tools ecosystem.
+  - [dzone.com: APM Tools Comparison](https://dzone.com/articles/apm-tools-comparison-which-one-should-you-choose)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone.com: APM Tools Comparison in the Kubernetes Tools ecosystem.
+  - [dzone.com: Java Performance Monitoring: 5 Open Source Tools You Should Know](https://dzone.com/articles/java-performance-monitoring-5-open-source-tools-you-should-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone.com: Java Performance Monitoring: 5 Open Source Tools You Should Know in the Kubernetes Tools ecosystem.
+  - [Dzone: 14 Best Performance Testing Tools and APM Solutions](https://dzone.com/articles/14-best-performance-testing-tools-and-apm-solution)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: 14 Best Performance Testing Tools and APM Solutions in the Kubernetes Tools ecosystem.
+## Observability (9)
 
 ### APM (1)
 
@@ -400,6 +366,9 @@
   - **(2020)** [blog.arkey.fr: Using JDK FlightRecorder and JDK Mission Control](https://blog.arkey.fr/2020/06/28/using-jdk-flight-recorder-and-jdk-mission-control) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the usage of JDK Flight Recorder (JFR) and JDK Mission Control (JMC) for low-overhead, production-grade JVM diagnostic profiling. Explains trace capture of memory, CPU, and I/O cycles.
   - **(2020)** [Remote Debugging of Java Applications on OpenShift](https://www.redhat.com/en/blog/remote-debugging-java-applications-openshift) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses specifically on configuring JDWP parameters in enterprise Java container builds to allow secure, remote interactive debugging from IDEs directly to pods in OpenShift.
   - **(2020)** [redhat.com: How do I analyze a Java heap dump?](https://access.redhat.com/solutions/18301) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical solution article detailing how to trigger, extract, and analyze memory heap dumps from JVMs running inside Linux containers, leveraging standard OpenJDK CLI tools.
+#### Java JMX
+
+  - **(2017)** [developers.redhat.com: Troubleshooting java applications on openshift (Jolokia)](https://developers.redhat.com/blog/2017/08/16/troubleshooting-java-applications-on-openshift) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Guides developers on using Jolokia, an HTTP/JSON bridge for JMX, to securely query and troubleshoot Java microservices deployed inside Red Hat OpenShift pods.
 #### Java Spring Boot
 
   - **(2022)** [javatechonline.com: How To Monitor Spring Boot Microservices Using ELK Stack?](https://javatechonline.com/how-to-monitor-spring-boot-microservices-using-elk-stack) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a step-by-step architectural guide on routing Logback appender JSON streams from Spring Boot microservices into Logstash, indexing them in Elasticsearch, and visualizing error trends in Kibana.
@@ -410,7 +379,7 @@
 ##### Value Realization
 
   - **(2023)** [thenewstack.io: Growing Adoption of Observability Powers Business Transformation](https://thenewstack.io/growing-adoption-of-observability-powers-business-transformation)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Discusses the business impact of transitioning from legacy IT system silo monitoring to real-time, unified observability, showing direct correlation to improved MTTR and customer satisfaction. Curator Insight: Business-case advocacy for modernizing monitoring. Live Grounding: Helps senior managers secure financial backing for large-scale APM transformations.
-#### Governance
+#### Governance (1)
 
 ##### Metrics (1)
 
@@ -506,6 +475,11 @@
 #### Prometheus Scale
 
   - **(2020)** [Promster: Use Prometheus in huge deployments with dynamic clustering and scrape sharding capabilities based on ETCD service registration](http://github.com/flaviostutz/promster) <span class='md-tag md-tag--info'>⭐ 31</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Leverages ETCD service registration to provide dynamic clustering and automated scrape sharding for distributed Prometheus deployments. While offering a lightweight alternative for scale-out setups, modern production environments in 2026 predominantly utilize Thanos, Cortex, or VictoriaMetrics for highly available global metrics engines.
+### Monitoring
+
+#### Metrics Collection
+
+  - **(2024)** [Prometheus](https://nubenetes.com/prometheus/) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Prometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud. It utilizes a pull-based metrics collection model over HTTP, powered by a highly efficient dimensional data model (TSDB) with PromQL. Essential for Kubernetes cloud-native environments, it excels in dynamic service discovery and real-time operational visibility.
 ### OpenTelemetry (1)
 
 #### Collector Infrastructure
@@ -569,16 +543,23 @@
 ##### Continuous Profiling
 
   - **(2022)** [medium.com/performance-engineering-for-the-ordinary-barbie: Why profiling should be part of regular software development workflow 🌟](https://medium.com/performance-engineering-for-the-ordinary-barbie/why-profiling-should-be-part-of-regular-software-development-workflow-8b19b7f52b38) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the engineering benefits of integrating continuous runtime code profiling (CPU, Heap Allocation, Thread Locks) into developer workflows. Curator Insight: Advocacy for persistent tracing profiles. Live Grounding: Invaluable for diagnosing microservice memory leaks before deploying changes to live users.
+### Testing
+
+#### Benchmarking
+
+##### HTTP Tools
+
+  - **(2021)** [blog.cloud-mercato.com: New HTTP benchmark tool **pycurlb**](https://blog.cloud-mercato.com/new-http-benchmark-tool-pycurlb) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces pycurlb, a Python-based wrapper and benchmarking utility utilizing libcurl for low-overhead HTTP performance testing. Explores its use cases in testing microservice latency and raw throughput. Curator Insight: Quick functional introduction of a new pycurl tool. Live Grounding: Provides an alternative for developers seeking a highly customizable, scriptable curl execution engine for API baselining.
 ## Security (1)
 
-### Monitoring
+### Monitoring (1)
 
 #### Host Security
 
   - **(2026)** [==OS Query==](https://github.com/osquery/osquery) <span class='md-tag md-tag--info'>⭐ 23311</span> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Exposes an operating system as a relational database, enabling SQL-based queries to audit process runtime, file integrity, and network connections. osquery is universally recognized as a core utility for security telemetry and host-level compliance in 2026.
 ## Site Reliability Engineering (1)
 
-### Observability (9)
+### Observability (10)
 
 #### Guides (1)
 
@@ -619,13 +600,18 @@
   - **(2018)** [devops.com: The Fallacy of Continuous Integration, Delivery and Testing](https://devops.com/the-fallacy-of-continuous-integration-delivery-and-testing) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores common anti-patterns in DevOps pipelines where fast builds mask poor test coverage and integration siloes. Offers recommendations on balancing CI/CD speed with architectural quality gates and production-like validation.
 ## Systems Design
 
-### Observability (10)
+### Observability (11)
 
 #### Data Pipelines (1)
 
 ##### Telemetry Routing
 
   - **(2019)** [bravenewgeek.com: The Observability Pipeline](https://bravenewgeek.com/the-observability-pipeline) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive technical exploration of the 'Observability Pipeline' architectural pattern, illustrating how to decouple telemetry sources from destinations using intermediate routing layers (e.g., Vector). Curator Insight: Deep-dive on data routing middleware. Live Grounding: A fundamental design paradigm for modern platform engineering, preventing vendor lock-in and optimizing ingestion costs.
+#### Infrastructure Design
+
+##### Telemetry Pipelines
+
+  - **(2022)** [learnsteps.com: Monitoring Infrastructure System Design](https://www.learnsteps.com/monitoring-infrastructure-system-design) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural breakdown of designing an end-to-end monitoring infrastructure from scratch. Examines the selection of pull vs. push telemetry models, buffer queues (like Kafka), and time-series databases (TSDBs). Curator Insight: High-level overview of system design for monitoring platforms. Live Grounding: Serves as a great architectural primer for platform engineering teams building internal metrics systems.
 #### Logging Systems
 
 ##### Architecture (1)
@@ -633,5 +619,5 @@
   - **(2022)** [learnsteps.com: Logging Infrastructure System Design](https://www.learnsteps.com/logging-infrastructure-system-design) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Structural system architecture deep-dive covering high-volume log collection, queuing, indexing, and durable storage tiers (such as ELK, Grafana Loki, or OpenSearch). Curator Insight: Deep blueprint on logging pipeline design. Live Grounding: Essential reading for scaling logging clusters without sacrificing lookup speeds or bloating cloud storage costs.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [About](./about.md)
 

@@ -3,31 +3,22 @@
 !!! info "Architectural Context"
     Detailed reference for SUSE Rancher in the context of The Container Stack.
 
-## Standard Reference
+## Architectural Foundations
 
-  - [medium: Quick Fix: Mounting a ConfigMap to an Existing Volume in Kubernetes' Using Rancher](https://medium.com/swlh/quick-fix-mounting-a-configmap-to-an-existing-volume-in-kubernetes-using-rancher-d01c472a10ad)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.kubecost.com: Rancher vs Kubernetes: It’s not either or](https://blog.kubecost.com/blog/rancher-vs-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [akyriako.medium.com: Provision an on-prems Kubernetes Cluster with Rancher,' Terraform and Ansible](https://akyriako.medium.com/provision-an-on-prems-kubernetes-cluster-with-rancher-terraform-and-ansible-e26e24059319)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Rancher Academy 🌟](https://academy.rancher.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Install Kubernetes with k3sup and k3s](https://medium.com/@alexellisuk/walk-through-install-kubernetes-to-your-raspberry-pi-in-15-minutes-84a8492dc95a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [en.sokube.ch: K3S + K3D = K8S : a new perfect match for dev and test](https://en.sokube.ch/post/k3s-k3d-k8s-a-new-perfect-match-for-dev-and-test-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [nativecloud.dev: Scale out your Raspberry-Pi Kubernetes cluster to the cloud](https://nativecloud.dev/scale-out-your-raspberry-pi-k3s-cluster-to-the-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@ostridelabs: k8s vs k3s: The Comprehensive Difference](https://medium.com/@ostridelabs/k8s-vs-k3s-the-comprehensive-difference-f7667d141c0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [justinpolidori.it: LDAP authentication with Dex on Kubernetes with Vcluster' (K3S)](https://www.justinpolidori.it/posts/20220611_vcluster_auth)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cncf.io: Introduction to k3d: Run K3s in Docker](https://www.cncf.io/blog/2021/03/16/introduction-to-k3d-run-k3s-in-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [akyriako.medium.com: Provision a Highly Available K3S Cluster with K3D](https://akyriako.medium.com/provision-a-high-availability-k3s-cluster-with-k3d-a7519f476c9c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com: OKE Clusters from Rancher 2.0](https://medium.com/swlh/oke-clusters-from-rancher-2-0-409131ad1293)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com: Rancher deployed Kubernetes on Oracle Cloud Infrastructure](https://medium.com/@jlamillan/rancher-deployed-kubernetes-on-oracle-cloud-infrastructure-6b0656cdaec0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Kubernautic](https://kubernauts.sh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Certified Kubernetes offerings](https://www.cncf.io/certification/software-conformance)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+### Kubernetes Tools
 
-## Cloud Native
+#### General Reference
 
-### Kubernetes
-
-#### Rancher Management
-
-  - **(2022)** [aws-quickstart.github.io: Rancher on the AWS Cloud. Quick Start Reference Deployment](https://aws-quickstart.github.io/quickstart-eks-rancher) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official AWS Quick Start reference guide for standing up Rancher on AWS. This architecture installs Rancher on an Amazon EKS cluster, giving enterprise operations teams a unified interface to govern multiple downstream clusters, enforce unified RBAC models, and manage complex multi-tenant environments.
+  - [Faster Kubernetes Development with Rancher, DevSpace and Loft](https://www.suse.com/c/rancher_blog/faster-kubernetes-development-with-rancher-devspace-and-loft)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.suse.com in the Kubernetes Tools ecosystem.
+  - [Multi-Cluster Vulnerability Scanning with Alcide and Rancher](https://www.suse.com/c/rancher_blog/multi-cluster-vulnerability-scanning-with-alcide-and-rancher)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.suse.com in the Kubernetes Tools ecosystem.
+  - [rancher.com: Rancher 2.5 Delivers On "Computing Everywhere" Strategy](https://www.suse.com/c/rancher_blog/rancher-2-5-delivers-on-computing-everywhere-strategy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.suse.com in the Kubernetes Tools ecosystem.
+  - [**Rancher 2 RKE**](https://www.rancher.com/products/secure-kubernetes-distribution)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.rancher.com in the Kubernetes Tools ecosystem.
+  - [rancher.com: Set up Your K3s Cluster for High Availability on DigitalOcean](https://www.suse.com/c/rancher_blog/set-up-your-k3s-cluster-for-high-availability-on-digitalocean)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.suse.com in the Kubernetes Tools ecosystem.
+  - [Announcing **Hosted Rancher** with Rancher 2.4 🌟](https://www.suse.com/c/rancher_blog/announcing-hosted-rancher-with-rancher-2-4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.suse.com in the Kubernetes Tools ecosystem.
+  - [rancher.com/blog: Deploy Kubernetes Clusters on Microsoft Azure with Rancher](https://www.suse.com/c/rancher_blog/deploy-kubernetes-clusters-on-microsoft-azure-with-rancher)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.suse.com in the Kubernetes Tools ecosystem.
+  - [rancher.com/blog: Stateful Kubernetes Workloads on vSphere with RKE](https://www.suse.com/c/rancher_blog/stateful-kubernetes-workloads-on-vsphere-with-rke)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.suse.com in the Kubernetes Tools ecosystem.
+  - [**Fleet** Management for kubernetes](https://www.suse.com/c/rancher_blog/fleet-management-for-kubernetes-is-here)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.suse.com in the Kubernetes Tools ecosystem.
+  - [cncf.io: Introduction to k3d: Run K3s in Docker](https://www.cncf.io/blog/2021/03/16/introduction-to-k3d-run-k3s-in-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Introduction to k3d: Run K3s in Docker in the Kubernetes Tools ecosystem.
 ## Container Engines
 
 ### Lightweight Runtimes
@@ -154,18 +145,11 @@
   - **(2021)** [itnext.io: Fleet Management of Kubernetes Clusters at Scale — Rancher’s Fleet](https://itnext.io/fleet-management-of-kubernetes-clusters-at-scale-ranchers-fleet-de161cc52325)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight reviews Fleet's design for multi-cluster scaling. Live engineering truth in 2026 confirms that the fundamental architectures of GitOps bundles and target custom resource definitions (CRDs) outlined here continue to dictate how Fleet scales in production setups.
 ## Infrastructure (1)
 
-### Cluster Management
+### Hyperconverged Infrastructure
 
-#### RKE2
+#### Bare Metal (1)
 
-  - **(2024)** [RKE2 Standalone Disaster Recovery Guide](https://support.tools/post/rke2-standalone-disaster-recovery) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Critical disaster recovery operational manual targeting RKE2 standalone clusters. Focuses on backup restoration, etcd snapshot recovery, and certificate rotation when cluster management planes fail.
-## Introductory
-
-### Concepts
-
-#### Core Resources
-
-  - **(2021)** [community.suse.com: Stupid Simple Kubernetes — Deployments, Services and Ingresses Explained](https://www.rancher.com/community)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a clean, foundational model detailing the relationship between Deployments, Services, and Ingress resources. Explains how these layers work together to manage container replicas, handle traffic distribution, and expose APIs to external users.
+  - **(2021)** [**rancher.com: Announcing Harvester: Open Source Hyperconverged Infrastructure (HCI) Software**](https://www.suse.com/c/rancher_blog/announcing-harvester-open-source-hyperconverged-infrastructure-hci-software) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Official announcement of Harvester, an open-source hyperconverged infrastructure (HCI) solution designed on top of Kubernetes, KubeVirt, and Longhorn. Bridges the gap between traditional virtual machine workloads and modern cloud-native containerized platforms, enabling unified operations. Valuable for organizations seeking alternatives to legacy proprietary hypervisors.
 ## Kubernetes Management
 
 ### Case Studies
@@ -183,7 +167,7 @@
 #### Training
 
   - **(2020)** [Rancher Labs launches free training course to meet surging demand for Kubernetes skills](https://www.computing.co.uk/news/4015423/rancher-labs-launches-free-training-course-meet-surging-demand-kubernetes) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — News coverage highlighting Rancher Labs' release of free structural training academies designed to meet surging market demands for cloud-native orchestration and DevSecOps tooling expertise.
-### Hyperconverged Infrastructure
+### Hyperconverged Infrastructure (1)
 
 #### Harvester
 
@@ -211,9 +195,6 @@
 #### Alerting
 
   - **(2023)** [rancher.com: Custom alerts using Prometheus queries](https://www.suse.com/c/rancher_blog/custom-alerts-using-prometheus-queries) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operational guide focusing on formulating custom alert conditions using PromQL queries in Rancher. Shows how to integrate metrics with alert systems and route notifications to modern receivers like Slack or PagerDuty.
-#### etcd Monitoring
-
-  - **(2023)** [Monitor Etcd with Prometheus and Grafana using Rancher](https://www.suse.com/c/rancher_blog/monitor-etcd-with-prometheus-and-grafana-using-rancher) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operational runbook explaining how to configure Prometheus and Grafana within SUSE Rancher to audit and visualize etcd status. Evaluates critical etcd parameters including database size, disk synchronization latency, and peer communication health.
 ### Multi-Cluster Orchestration
 
 #### Enterprise Management
@@ -278,12 +259,27 @@
   - **(2022)** [blog.getambassador.io: Best Tools for Kubernetes Local Development: A Comprehensive Guide](https://blog.getambassador.io/best-tools-for-kubernetes-local-development-a-comprehensive-guide-3577d351d31e) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative market review assessing local Kubernetes developer pipelines including Minikube, Kind, and K3s. Highlights developer speed, local resources consumption, and production parity.
 ## Platform Engineering
 
-### Hyperconverged Infrastructure (1)
+### Education and Training
+
+#### Multi-Cluster Management
+
+  - **(2025)** [==Rancher Academy 🌟==](https://www.rancher.academy) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official educational platform providing comprehensive training, labs, and certification programs for SUSE Rancher, K3s, and global multi-cluster enterprise deployments. Guides practitioners through structural best practices for platform engineering, security, and edge operations. Recommended for engineers targeting certified Rancher competencies.
+### Hyperconverged Infrastructure (2)
 
 #### Harvester HCI
 
   - **(2025)** [==Harvester==](https://github.com/harvester/harvester) <span class='md-tag md-tag--info'>⭐ 5054</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight showcases Harvester as a modern open-source HCI built on KubeVirt and Longhorn. Live grounding in 2026 confirms Harvester has fully matured into an enterprise-stable alternative to VMware ESXi, enabling seamless co-habitation of VM and container environments under unified Kubernetes control planes.
+### Multi-Cluster Management (1)
+
+#### Rancher vs K8s
+
+  - **(2023)** [blog.kubecost.com: Rancher vs Kubernetes: It’s not either or](https://www.apptio.com/blog/rancher-vs-kubernetes/?src=kc-blog) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Informative analysis clarifying the distinction between raw Kubernetes and multi-cluster orchestration management via Rancher. Details how Rancher operates on top of standard distributions to provide unified authentication, security compliance, and application catalog features. Excellent material for platform architects planning enterprise-wide cluster control planes.
+### Virtual Clusters
+
+#### Identity and Access Management
+
+  - **(2022)** [justinpolidori.it: LDAP authentication with Dex on Kubernetes with Vcluster (K3S)](https://justinpolidori.com/posts/20220611_vcluster_auth) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Deep technical walkthrough explaining the integration of Dex as an identity broker with LDAP to secure virtualized Kubernetes clusters (vcluster/K3s). Explains certificate handling, downstream cluster federation, and RBAC mapping. Solves complex multi-tenant enterprise identity requirements in high-density development environments.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
+💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Docker](./docker.md)
 

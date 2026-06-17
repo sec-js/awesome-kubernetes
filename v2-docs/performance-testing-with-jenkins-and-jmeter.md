@@ -3,43 +3,35 @@
 !!! info "Architectural Context"
     Detailed reference for Performance testing with jenkins and JMeter or Gatling in the context of Platform & Site Reliability.
 
-## Standard Reference
+## Architectural Foundations
 
-  - [Dzone: 14 Best Performance Testing Tools and APM Solutions](https://dzone.com/articles/14-best-performance-testing-tools-and-apm-solution)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blazemeter.com: Open Source Load Testing Tools: Which One Should You Use?](https://www.blazemeter.com/blog/open-source-load-testing-tools-which-one-should-you-use)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [baeldung.com: Gatling vs JMeter vs The Grinder: Comparing Load Test Tools](https://www.baeldung.com/gatling-jmeter-grinder-comparison)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Gatling vs JMeter](https://dzone.com/articles/gatling-vs-jmeter)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Dzone: JMeter tutorial](https://dzone.com/articles/jmeter-tutorial-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Dzone: JMeter tutorial for beginners](https://dzone.com/articles/jmeter-tutorial-for-beginners-jmeter-load-testing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Dzone: Apache JMeter Keyboards shortcuts](https://dzone.com/articles/apache-jmeter-keyboard-shortcuts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [testinglpoint.com: Timer in JMeter](https://www.testinglpoint.com/timer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [testinglpoint.com: Features of JMeter](https://www.testinglpoint.com/features-of-jmeter)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [gslab.com: How to Optimize Performance Testing with Apache JMeter and Resources' Monitoring Using DStat](https://www.gslab.com/blogs/performance-testing-with-Apache-JMeter)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [rollno748.medium.com: Load testing GCP Pub/Sub using JMeter](https://rollno748.medium.com/load-testing-gcp-pub-sub-using-jmeter-9eff79440beb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blazemeter.com](https://www.blazemeter.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Blazemeter.com: Continuous Integration 101 - How to run Jmeter with jenkins' 🌟](https://www.blazemeter.com/blog/continuous-integration-101-how-run-jmeter-jenkins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [baeldung.com: Configure Jenkins to Run and Show JMeter Tests](https://www.baeldung.com/jenkins-and-jmeter)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [DZone.com: 2 ways to integrate jmeter tests into jenkins](https://dzone.com/articles/2-ways-to-integrate-jmeter-tests-into-jenkins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Guru99.com: Jmeter and BlazeMeter Integration with Jenkins](https://www.guru99.com/jenkins-jmeter-blazemeter.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Perfomance Testing with Gatling](https://dzone.com/articles/perfomance-testing-with-gatling)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Gatling: A Lightweight Load Testing Tool](https://dzone.com/articles/gatling-light-weight-load-testing-tool)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [An Introduction to Load Testing With Gatling](https://dzone.com/articles/gatling-gun-is-now-a-prospecting-tool-for-testers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Gatling Performance Testing Pros and Cons](https://dzone.com/articles/gatling-performance-testing-pros-and-cons)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [How to Set up a Gatling Test's Implementation Environment 🌟](https://dzone.com/articles/how-to-set-up-a-gatling-tests-implementation-envir)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [How to Use RegEx Extractor in Gatling Projects](https://dzone.com/articles/how-to-use-regex-extractor-in-gatling-projects)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [qautomation.blog: Power Full Load Testing Tool : Gatling](https://qautomation.blog/2019/05/03/power-full-load-testing-tool-gatling)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [API Load Testing With Gatling](https://dzone.com/articles/api-load-testing-with-gatling)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Load Testing Your DataBase-Connected APIs With Gatling](https://dzone.com/articles/load-testing-your-database-connected-apis-with-gat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [How to Use Gatling With Maven](https://dzone.com/articles/how-to-use-gatling-with-maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [gatling.io: Jenkins plugin](https://gatling.io/docs/current/extensions/jenkins_plugin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [baeldung.com: Run Gatling Tests From Jenkins](https://www.baeldung.com/jenkins-run-gatling-tests)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com: Pipeline Performance Testing with Jenkins and Gatling](https://medium.com/thepeg/pipeline-performance-testing-with-jenkins-and-gatling-b7b762274680)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [venturebeat.com: Microsoft launches fully managed Azure Load Testing service](https://venturebeat.com/2021/11/30/microsoft-launches-fully-managed-azure-load-testing-service)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [webpagetest.org](https://webpagetest.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.dream11engineering.com: Finding Order in Chaos: How We Automated Performance' Testing with Torque](https://blog.dream11engineering.com/finding-order-in-chaos-how-we-automated-performance-testing-with-torque-6eb63706fcea)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [tech.loveholidays.com: Load testing in production with Grafana Loki, Kubernetes' and Golang](https://tech.loveholidays.com/load-testing-in-production-with-grafana-loki-kubernetes-and-golang-1699554d2aa3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: The 5-Step Checklist for Serverless Load Testing](https://betterprogramming.pub/the-5-step-checklist-for-serverless-load-testing-346f4a60841d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+### Kubernetes Tools
 
+#### General Reference
+
+  - [Dzone: 14 Best Performance Testing Tools and APM Solutions](https://dzone.com/articles/14-best-performance-testing-tools-and-apm-solution)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: 14 Best Performance Testing Tools and APM Solutions in the Kubernetes Tools ecosystem.
+  - [Gatling vs JMeter](https://dzone.com/articles/gatling-vs-jmeter)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Gatling vs JMeter in the Kubernetes Tools ecosystem.
+  - [Dzone: JMeter tutorial](https://dzone.com/articles/jmeter-tutorial-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: JMeter tutorial in the Kubernetes Tools ecosystem.
+  - [Dzone: JMeter tutorial for beginners](https://dzone.com/articles/jmeter-tutorial-for-beginners-jmeter-load-testing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: JMeter tutorial for beginners in the Kubernetes Tools ecosystem.
+  - [Dzone: Apache JMeter Keyboards shortcuts](https://dzone.com/articles/apache-jmeter-keyboard-shortcuts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Apache JMeter Keyboards shortcuts in the Kubernetes Tools ecosystem.
+  - [blazemeter.com](https://www.blazemeter.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blazemeter.com in the Kubernetes Tools ecosystem.
+  - [DZone.com: 2 ways to integrate jmeter tests into jenkins](https://dzone.com/articles/2-ways-to-integrate-jmeter-tests-into-jenkins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering DZone.com: 2 ways to integrate jmeter tests into jenkins in the Kubernetes Tools ecosystem.
+  - [Perfomance Testing with Gatling](https://dzone.com/articles/perfomance-testing-with-gatling)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Perfomance Testing with Gatling in the Kubernetes Tools ecosystem.
+  - [Gatling: A Lightweight Load Testing Tool](https://dzone.com/articles/gatling-light-weight-load-testing-tool)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Gatling: A Lightweight Load Testing Tool in the Kubernetes Tools ecosystem.
+  - [An Introduction to Load Testing With Gatling](https://dzone.com/articles/gatling-gun-is-now-a-prospecting-tool-for-testers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering An Introduction to Load Testing With Gatling in the Kubernetes Tools ecosystem.
+  - [Gatling Performance Testing Pros and Cons](https://dzone.com/articles/gatling-performance-testing-pros-and-cons)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Gatling Performance Testing Pros and Cons in the Kubernetes Tools ecosystem.
+  - [How to Set up a Gatling Test's Implementation Environment 🌟](https://dzone.com/articles/how-to-set-up-a-gatling-tests-implementation-envir)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering How to Set up a Gatling Test's Implementation Environment 🌟 in the Kubernetes Tools ecosystem.
+  - [How to Use RegEx Extractor in Gatling Projects](https://dzone.com/articles/how-to-use-regex-extractor-in-gatling-projects)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering How to Use RegEx Extractor in Gatling Projects in the Kubernetes Tools ecosystem.
+  - [API Load Testing With Gatling](https://dzone.com/articles/api-load-testing-with-gatling)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering API Load Testing With Gatling in the Kubernetes Tools ecosystem.
+  - [Load Testing Your DataBase-Connected APIs With Gatling](https://dzone.com/articles/load-testing-your-database-connected-apis-with-gat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Load Testing Your DataBase-Connected APIs With Gatling in the Kubernetes Tools ecosystem.
+  - [How to Use Gatling With Maven](https://dzone.com/articles/how-to-use-gatling-with-maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering How to Use Gatling With Maven in the Kubernetes Tools ecosystem.
+## CI-CD Platforms
+
+### Jenkins
+
+#### Performance Integration
+
+  - **(2022)** [**Blazemeter.com: Continuous Integration 101 - How to run Jmeter with jenkins 🌟**](https://www.blazemeter.com/blog/continuous-integration-jenkins) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Step-by-step technical guide for integrating Apache JMeter load tests within Jenkins CI/CD pipelines. Explains performance threshold configuration, dynamic build promotion, and reporting plugins. Highly valuable for establishing automated performance regression gates in automated delivery cycles.
 ## CICD
 
 ### GitHub Actions
@@ -47,7 +39,7 @@
 #### Performance Automation
 
   - **(2022)** [thenewstack.io: Simple Load Testing with GitHub Actions](https://thenewstack.io/simple-load-testing-with-github-actions) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical engineering guide detailing how to build an automated, zero-infrastructure load testing flow using GitHub Actions. It highlights how integrating lightweight load generators (like k6 or Vegeta) into standard YAML workflows establishes early performance baselines and guards against performance regressions.
-### Jenkins
+### Jenkins (1)
 
 #### Reporting Plugins
 
@@ -62,6 +54,13 @@
   - **(2024)** [docs.microsoft.com: Azure Load Testing](https://learn.microsoft.com/en-us/azure/app-testing) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Azure's managed load testing service that lets developers generate high-scale load using existing Apache JMeter scripts. Synthesizing live cloud updates, it integrates seamlessly with Azure Monitor to provide end-to-end insights from client-side response times to server-side resource bottlenecks, aiding rapid optimization.
   - **(2021)** [azure.microsoft.com: Introducing Azure Load Testing: Optimize app performance at scale](https://azure.microsoft.com/en-us/blog/introducing-azure-load-testing-optimize-app-performance-at-scale) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The launch blog post detailing the debut of Microsoft's Azure Load Testing service. It explains how the tool bridges the gap between raw load generation and cloud application monitoring, allowing developers to execute JMeter scripts in an automated cloud-native paradigm directly from GitHub Actions or Azure Pipelines.
   - **(2021)** [infoq.com: Microsoft Introduces a Fully-Managed Azure Load Testing Service in Preview](https://www.infoq.com/news/2021/12/azure-load-testing-preview) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Industry reporting on Azure's entry into fully managed performance testing, discussing how it leverages Apache JMeter under the hood. It provides a historical snapshot of Microsoft's move to simplify distributed load testing for engineering teams, eliminating the manual upkeep of VM scale sets for load generation.
+## Cloud Native
+
+### Kubernetes
+
+#### Progressive Delivery
+
+  - **(2024)** [**Iter8**](https://iter8.tools) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A Kubernetes-native release validation and progressive delivery tool. Iter8 enables automated canary testing, A/B testing, and SLO evaluation. It coordinates traffic shifting using Service Meshes or Gateways, evaluating metrics from Prometheus and metrics-server to automate rollbacks or promote stable microservice builds.
 ## Infrastructure
 
 ### Testing
@@ -90,13 +89,13 @@
 
   - **(2023)** [**youtube: JMeter API Performance Testing Tutorial 🌟**](https://www.youtube.com/watch?v=8r5LYzUIepo) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Educational walkthrough mapping API load-test workflows. Covers parameterizing user requests, analyzing server metrics, and troubleshooting unexpected timeouts in dynamic microservices backends.
   - **(2021)** [tutorialspoint.com: JMeter Quick Guide](https://www.tutorialspoint.com/jmeter/pdf/jmeter_quick_guide.pdf) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Reference manual covering basic JMeter thread management and test flow structures. Designed to help teams write simple API validations and performance regression scripts.
-### Testing (1)
+## Quality Engineering
 
-#### Benchmarking
+### Performance Testing
 
-##### HTTP Tools
+#### Open Source Tools
 
-  - **(2021)** [blog.cloud-mercato.com: New HTTP benchmark tool **pycurlb**](https://blog.cloud-mercato.com/new-http-benchmark-tool-pycurlb) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces pycurlb, a Python-based wrapper and benchmarking utility utilizing libcurl for low-overhead HTTP performance testing. Explores its use cases in testing microservice latency and raw throughput. Curator Insight: Quick functional introduction of a new pycurl tool. Live Grounding: Provides an alternative for developers seeking a highly customizable, scriptable curl execution engine for API baselining.
+  - **(2023)** [blazemeter.com: Open Source Load Testing Tools: Which One Should You Use?](https://www.blazemeter.com/blog/open-source-load-testing-tools) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive comparison of open-source load testing utilities including JMeter, Locust, and k6. The guide evaluates key selection criteria such as protocol support, scripting language, and distributed execution capabilities. It assists infrastructure and quality engineers in selecting the optimal performance verification framework.
 ## Systems
 
 ### Performance Tuning
@@ -104,9 +103,9 @@
 #### Diagnostic Tools
 
   - **(2022)** [blog.desdelinux.net: Microsoft Performance-Tools, una serie de herramientas open source para analizar el rendimiento del sistema](https://blog.desdelinux.net/microsoft-performance-tools-una-serie-de-herramientas-open-source-para-analizar-el-rendimiento-del-sistema) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Overview of Microsoft's Performance-Tools suite, which provides cross-platform command-line tools for analyzing trace logs, Windows/Linux system resource usage, and overall system performance. It details how architects can inspect CPU, disk, and networking bottlenecks at a low kernel-level, enhancing system-level optimization.
-## Testing (2)
+## Testing (1)
 
-### Performance Testing
+### Performance Testing (1)
 
 #### Gatling
 
@@ -134,5 +133,5 @@
   - **(2020)** [devops.com: Catchpoint to Acquire Webpagetest.org](https://devops.com/catchpoint-to-acquire-webpagetest-org) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analysis of Catchpoint's acquisition of WebPageTest, the industry-standard front-end performance auditing tool. Synthesizing live ecosystem changes, the platform continues to operate as an essential resource for tracing core web vitals and waterfall execution charts, bolstered by Catchpoint's global infrastructure.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [QA](./qa.md) | [Test Automation Frameworks](./test-automation-frameworks.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Chaos Engineering](./chaos-engineering.md) | [Developerportals](./developerportals.md)
 

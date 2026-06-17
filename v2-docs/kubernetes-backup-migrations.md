@@ -3,22 +3,6 @@
 !!! info "Architectural Context"
     Detailed reference for Kubernetes Backup and Migrations in the context of The Container Stack.
 
-## Standard Reference
-
-  - [medium: Velero backup/restore for K8s Stateful Applications managed by Operators](https://medium.com/@Sandeepkallazhi/velero-backup-restore-for-k8s-stateful-applications-managed-by-operators-8fd9c732ffcc?utm_sq=gi0vbpxxa3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dani-izquierdo95.medium.com: Batch processing using Cron Jobs. MySQL automated' backup on Openshift/K8s](https://dani-izquierdo95.medium.com/mysql-automated-backup-on-openshift-k8s-3690280d304f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.kasten.io: 10 Key Takeaways from Kubernetes Backup & Recovery For Dummies](https://blog.kasten.io/10-key-takeaways-from-kubernetes-backup-recovery-for-dummies)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@amitabhprasad: Kubernetes volume backup for disaster recovery](https://medium.com/@amitabhprasad/kubernetes-volume-backup-for-disaster-recovery-56a5facee7fe)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Leveraging operator pattern and VolumeSnapshots to backup databases' in Kubernetes](https://medium.com/blablacar/leveraging-operator-pattern-and-volumesnapshots-to-backup-databases-in-kubernetes-3a28aa425100)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.kasten.io: Extending Kubernetes Application Backup and Mobility to' the Edge with Kasten K10 V4.5](https://blog.kasten.io/posts/extending-kubernetes-application-backup-and-mobility-to-the-edge-with-kasten-k10-v4.5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [faun.pub: Kasten K10 on KubeSphere to Ensure Kubernetes Backup and Restore](https://faun.pub/kasten-k10-on-kubesphere-to-ensure-kubernetes-backup-and-restore-1bc59a0b91aa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [wecloudpro.com: Kubernetes Disaster Recovery with Velero 🌟](https://www.wecloudpro.com/2020/08/22/kubernetes-disaster-recovery-with-velero.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@firat.yasar: Backup & Restore Kubernetes resources with VELERO](https://medium.com/@firat.yasar/backup-restore-kubernetes-resources-with-velero-b7fee14e7664)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [skildops.medium.com: Backup an entire Kubernetes cluster using Velero to' AWS S3](https://skildops.medium.com/backup-an-entire-kubernetes-cluster-using-velero-to-aws-s3-73d76d51d4bc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.devgenius.io: Backup, Restore and Migrate Kubernetes Cluster resources' using Velero](https://blog.devgenius.io/backup-restore-and-migrate-kubernetes-cluster-resources-using-velero-a9b6997e4b54)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [PX-Backup](https://portworx.com/products/px-backup)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [engineering.konveyor.io: Konveyor Engineering Knowledgebase](https://engineering.konveyor.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-
 ## Application Migration
 
 ### Modernization
@@ -33,15 +17,13 @@
 #### Source-to-Image
 
   - **(2022)** [slideshare.net: Migrating Java JBoss EAP Applications to Kubernetes With' S2I](https://www.slideshare.net/KonveyorIO/migrating-java-jboss-eap-applications-to-kubernetes-with-s2i) 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Presentation outlining migration strategies for porting legacy Java JBoss EAP applications into Red Hat OpenShift/Kubernetes using Source-to-Image (S2I). While S2I remains an enterprise staple in traditional OpenShift pipelines, the industry in 2026 has increasingly shifted toward Cloud Native Buildpacks.
-## Hybrid Cloud and Enterprise
-
-### OpenShift
-
-#### Data Management
-
-  - **(2024)** [**redhat.com: OpenShift Backup and Recovery with Kasten K10**](https://www.redhat.com/es/blog) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A technical guide on integrating Veeam's Kasten K10 platform with Red Hat OpenShift. Demonstrates policy-based automation for backup, disaster recovery, and mobility across multi-tenant clusters while ensuring encrypted volume snapshots.
 ## Infrastructure
 
+### Cluster Management
+
+#### RKE2
+
+  - **(2024)** [RKE2 Standalone Disaster Recovery Guide](https://support.tools/post/rke2-standalone-disaster-recovery) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Critical disaster recovery operational manual targeting RKE2 standalone clusters. Focuses on backup restoration, etcd snapshot recovery, and certificate rotation when cluster management planes fail.
 ### Control Plane
 
 #### ETCD Administration
@@ -102,6 +84,9 @@
   - **(2021)** [thenewstack.io: Cloud Native Backups, Disaster Recovery and Migrations on Kubernetes](https://thenewstack.io/cloud-native-backups-disaster-recovery-and-migrations-on-kubernetes) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines structural paradigm shifts from VM-level backups to container-native, application-aware snapshots inside Kubernetes. Outlines how to decouple configuration matrices from underlying persistent storage objects for scalable restoration.
 ### Enterprise Backup
 
+#### Cloud-Native Integration
+
+  - **(2021)** [**cloud.google.com: Announcing Backup for GKE: the easiest way to protect GKE workloads**](https://cloud.google.com/blog/products/storage-data-transfer/google-cloud-launches-backups-for-gke) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An announcement introducing Backup for GKE, a fully-managed Google Cloud service for GKE environments. Operates via the GCP API control plane to restore configurations and storage elements natively.
 #### OpenShift Integration
 
   - **(2020)** [aithority.com: Bacula Systems Announces World’s First Enterprise-Class Backup and Recovery Solution for Red Hat OpenShift](https://aithority.com/it-and-devops/cloud/bacula-systems-announces-worlds-first-enterprise-class-backup-and-recovery-solution-for-red-hat-openshift) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the integration of Bacula's backup engines within Red Hat OpenShift clusters. Offers direct bare-metal and hybrid-cloud state serialization and disaster recovery procedures compatible with traditional SANs.
@@ -154,7 +139,7 @@
   - **(2021)** [youtube: Crane 2 Preview: Introduction and Demo](https://www.youtube.com/watch?v=esIZS7PVrvs&ab_channel=Konveyor) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical walk-through demonstrating Crane's core architecture. Highlights dynamic resource mapping, metadata updates, and persistent volume sync during migration windows.
 ## Kubernetes
 
-### Data Management (1)
+### Data Management
 
 #### Backup
 
@@ -162,7 +147,14 @@
 #### Checkpointing API
 
   - **(2022)** [martinheinz.dev: Backup-and-Restore of Containers with Kubernetes Checkpointing API](https://martinheinz.dev/blog/85) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> — The Kubernetes Checkpointing API introduces the revolutionary ability to freeze and snapshot a running container's state to disk for backup or migration purposes. This technical analysis demonstrates how to leverage this API to capture memory-level states, enabling ultra-fast recovery and deep forensics of active workloads. However, as of 2026, this feature remains highly experimental and runtime-dependent.
+## Kubernetes Storage
+
+### Backup and Recovery
+
+#### Disaster Recovery (1)
+
+  - **(2026)** [**PX-Backup**](https://portworx.com/products/portworx-backup) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight presents a dedicated backup manager for stateful pods. Live Grounding validates PX-Backup's ability to offer application-consistent backups, multi-cloud cross-cluster migrations, and instantaneous disaster recovery schedules. It is a premium product for compliance-driven stateful setups.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
+💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Docker](./docker.md)
 

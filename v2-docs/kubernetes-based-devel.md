@@ -3,36 +3,6 @@
 !!! info "Architectural Context"
     Detailed reference for Kubernetes Based Development. Kubernetes Distributions for local environments. Kubernetes Development Tools and Dashboards in the context of The Container Stack.
 
-## Standard Reference
-
-  - [faun.pub: Finally, (successfully…) setup docker registry inside kind Kubernetes' cluster](https://faun.pub/finally-successfully-setup-docker-registry-inside-kind-kubernetes-cluster-5b0381dbb2ec)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com: Local Kubernetes for Linux — MiniKube vs MicroK8s](https://medium.com/containers-101/local-kubernetes-for-linux-minikube-vs-microk8s-1b2acad068d3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dex.dev: Local Development Clusters](https://www.dex.dev/dex-videos/development-clusters)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Happy trip to Kubernetes in our company](https://medium.com/condorlabs-engineering/happy-trip-to-kubernetes-in-our-company-85ecfde573fd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [yitaek.medium.com: Useful Tools for Better Kubernetes Development 🌟](https://yitaek.medium.com/useful-tools-for-better-kubernetes-development-87820c2b9435)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cncf.io: Tools to develop apps on Kubernetes 🌟](https://www.cncf.io/blog/2021/05/10/tools-to-develop-apps-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.usejournal.com: Useful Tools for Better Kubernetes Development](https://blog.usejournal.com/useful-tools-for-better-kubernetes-development-87820c2b9435)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [docker.com: Kubernetes in Production Environments](https://www.docker.com/blog/dear-moby-2-kubernetes-in-production)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [yash-kukreja-98.medium.com: Develop on Kubernetes Series — Demystifying' the For vs Owns vs Watches controller-builders in controller-runtime](https://yash-kukreja-98.medium.com/develop-on-kubernetes-series-demystifying-the-for-vs-owns-vs-watches-controller-builders-in-c11ab32a046e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloudsavvyit.com: How to Get Started With DevSpace and Rapidly Develop' Kubernetes Apps](https://www.cloudsavvyit.com/14690/how-to-get-started-with-devspace-and-rapidly-develop-kubernetes-apps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: Do Faster Development and Testing on Kubernetes Apps' With Telepresence](https://betterprogramming.pub/do-faster-development-and-testing-on-kubernetes-apps-with-telepresence-b7eac604dca4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [venturebeat.com: Garden.io, an end-to-end devops platform for Kubernetes' and containers, raises $16M](https://venturebeat.com/2022/03/30/garden-io-an-end-to-end-devops-platform-for-kubernetes-and-containers-raises-16m)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ordina-jworks.github.io: A comparison of Kubernetes clients and dashboards](https://ordina-jworks.github.io/cloud/2020/08/28/kubernetes-clients-comparison.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [kccncna20.sched.com: A Walk Through the Kubernetes UI Landscape](https://kccncna20.sched.com/event/ekAd/a-walk-through-the-kubernetes-ui-landscape-joaquim-rocha-kinvolk-henning-jacobs-zalando-se)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [williamlam.com: Useful Interactive Terminal and Graphical UI Tools for Kubernetes](https://williamlam.com/2020/04/useful-interactive-terminal-and-graphical-ui-tools-for-kubernetes.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: YAKD: Yet Another Kubernetes Dashboard](https://medium.com/geekculture/yakd-yet-another-kubernetes-dashboard-7766bd071f30)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@satyakommula: Deploy Kubernetes dashboard with NodePort](https://medium.com/@satyakommula/deploy-kubernetes-dashboard-with-nodeport-382f447d2ff8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [levelup.gitconnected.com: Step by Step Slow Guide: Kubernetes Dashboard' on Raspberry Pi Cluster (Part 2)](https://levelup.gitconnected.com/step-by-step-slow-guide-kubernetes-dashboard-on-raspberry-pi-cluster-part-2-acdc8f9b5b99)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/kubeshop-i: Monokle vs. Lens vs. K9s 🌟](https://medium.com/kubeshop-i/monokle-vs-lens-vs-k9s-1d5d94d84b5c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Lens 5 Released](https://medium.com/k8slens/lens-5-released-f7e58e8842cf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: How To Give Developers Secure Access to Kubernetes Clusters](https://medium.com/k8slens/how-to-give-developers-secure-access-to-kubernetes-clusters-c6025f0dd288)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [thedevopslife.com: Kubernetes IDE and UI – Lens IDE](https://thedevopslife.com/kubernetes-gui-lens-ide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/k8slens: Lens 6 Released, Vision for the Future, New Subscription' Model and Features Available](https://medium.com/k8slens/lens-6-released-vision-for-the-future-new-subscription-model-and-features-available-628ff21fe14a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.devgenius.io: Is it time to migrate from Lens to OpenLens to manage' your Kubernetes clusters?](https://blog.devgenius.io/is-it-time-to-migrate-from-lens-to-openlens-75496e5758d8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/k8slens: Eliminating Kubernetes Complexity for Developers Using' Lens](https://medium.com/k8slens/eliminating-kubernetes-complexity-for-developers-using-lens-5c199e5aff4e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/k8slens: Lens Kubernetes is all you need in the development env' to build, ship, and run](https://medium.com/k8slens/lens-kubernetes-is-all-you-need-in-the-development-env-to-build-ship-and-run-5c1980a12fcf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Do It All Kubernetes Dashboard](https://medium.com/faun/do-it-all-kubernetes-dashboard-81375833e01c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-
 ## API and Integration Testing
 
 ### Mocking and Virtualization
@@ -40,6 +10,15 @@
 #### Microcks Integration
 
   - **(2022)** [microcks.io: Podman Compose support in Microcks](https://microcks.io/blog/podman-compose-support)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how to design local mock environments using Microcks combined with Podman Compose. This is ideal for developers running daemonless environments who require automated contract API validation.
+## Architectural Foundations
+
+### Kubernetes Tools
+
+#### General Reference
+
+  - [cncf.io: Tools to develop apps on Kubernetes 🌟](https://www.cncf.io/blog/2021/05/10/tools-to-develop-apps-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Tools to develop apps on Kubernetes 🌟 in the Kubernetes Tools ecosystem.
+  - [kccncna20.sched.com: A Walk Through the Kubernetes UI Landscape](https://kccncna20.sched.com/event/ekAd/a-walk-through-the-kubernetes-ui-landscape-joaquim-rocha-kinvolk-henning-jacobs-zalando-se)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering kccncna20.sched.com: A Walk Through the Kubernetes UI Landscape in the Kubernetes Tools ecosystem.
+  - [williamlam.com: Useful Interactive Terminal and Graphical UI Tools for Kubernetes](https://williamlam.com/2020/04/useful-interactive-terminal-and-graphical-ui-tools-for-kubernetes.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering williamlam.com: Useful Interactive Terminal and Graphical UI Tools for Kubernetes in the Kubernetes Tools ecosystem.
 ## Bare-Metal Deployments
 
 ### Legacy Helpers
@@ -66,6 +45,11 @@
 #### Okteto
 
   - **(2021)** [okteto.com: Kubernetes for Developers Blog Series by Okteto](https://www.okteto.com/blog/kubernetes-basics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A guide series covering Okteto's Cloud Development Environment (CDE) paradigm. Demonstrates how developers can synchronize code in real-time straight to remote container runtimes without local compiler requirements.
+### Graph-Based Dev and Test
+
+#### Garden Documentation
+
+  - **(2021)** [garden.io: cloud native devops platform](https://docs.garden.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural specifications for the Garden orchestration tool. Details graph configurations, Helm-based packaging models, pipeline test automation patterns, and enterprise testing setups inside remote clusters.
 ### Inner-Loop Automation
 
 #### Comparisons
@@ -77,6 +61,9 @@
 #### DevSpace Analysis
 
   - **(2020)** [thenewstack.io: DevSpace Designed to Lower the Kubernetes Learning Curve](https://thenewstack.io/devspace-designed-to-lower-the-kubernetes-learning-curve)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how DevSpace simplifies cluster testing for backend teams by replacing complex kubectl calls and image building scripts with high-performance, real-time file-reloading profiles.
+#### Guides
+
+  - **(2021)** [rookout.com: Developer Tools for Kubernetes in 2021: Helm, Kustomize, and Skaffold (Part 1)](https://www.dynatrace.com/solutions/observability-for-developers) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive multi-part review of critical Kubernetes development tools. Examines deployment mechanisms (Helm, Kustomize), real-time sync engines (Skaffold, Tilt, Garden), IDE extensions, and container building alternatives.
 #### Skaffold Tutorials
 
   - **(2021)** [dev.to: How to Simplify Your Local Kubernetes Development With Skaffold](https://dev.to/otomato_io/local-kubernetes-development-with-skaffold-i0k)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical onboarding guide detailing local cloud-native development workflows using Skaffold. Explores live file-reloading, log streaming, and localized namespace configurations for multi-service apps.
@@ -163,7 +150,7 @@
 #### Evaluation (1)
 
   - **(2021)** [blog.radwell.codes: What’s the best Kubernetes distribution for local environments? 🌟](https://blog.radwell.codes/2021/05/best-kubernetes-distribution-for-local-environments)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes localized Kubernetes distributions from a CPU and memory efficiency standpoint. Helps engineers match custom testing configurations against hardware-constrained developer machines.
-#### Guides
+#### Guides (1)
 
   - **(2021)** [itnext.io: Run Kubernetes On Your Machine](https://itnext.io/run-kubernetes-on-your-machine-7ee463af21a2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-focused guide covering local Kubernetes provisioning alternatives. Evaluates resource overhead, file synchronization speeds, network configurations, and host integration points across different platforms.
   - **(2021)** [itnext.io: Kubernetes in a box](https://itnext.io/kubernetes-in-a-box-7a146ba9f681)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A guide detailing 'Kubernetes in a box' sandbox creation methodologies. Outlines structural strategies for configuring minimal host dependencies, local routing setups, and automatic configuration sync setups.
@@ -241,7 +228,7 @@
 #### Visual Ide
 
   - **(2026)** [==Lens Kubernetes IDE 🌟==](https://lenshq.io) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier desktop IDE for Kubernetes administrators, offering unmatched multi-cluster management, real-time log streaming, resource debugging, and custom extensions. Extensively used to streamline production cluster maintenance.
-  - **(2024)** [k8studio.github.io/k8studio](https://github.com/K8Studio/K8studio) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A feature-rich desktop client that constructs interactive, dynamic node graphs representing active cluster topology. Helps cluster administrators visualize resource footprints, namespace boundaries, and connectivity routes visually.
+  - **(2024)** [k8studio.github.io/k8studio](https://github.com/K8Studio/K8studio) <span class='md-tag md-tag--info'>⭐ 53</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A feature-rich desktop client that constructs interactive, dynamic node graphs representing active cluster topology. Helps cluster administrators visualize resource footprints, namespace boundaries, and connectivity routes visually.
 #### Visual Ide Extensions
 
   - **(2024)** [Lens Resource Map extension](https://github.com/nevalla/lens-resource-map-extension) <span class='md-tag md-tag--info'>⭐ 406</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An essential plugin for Lens that dynamically renders interactive resource maps, detailing dependency hierarchies, service boundaries, and ingress-to-pod flow connections in real time.
@@ -254,5 +241,5 @@
   - **(2022)** [**blog.aquasec.com: RATs (remote access tools) in the Cloud: Kubernetes UI Tools Turn into a Weapon**](https://blog.aquasec.com/kubernetes-ui-tools-security-threat) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A cybersecurity threat analysis exposing how unsecured and misconfigured Kubernetes administration dashboards can be targeted by attackers as remote access tools (RATs). Outlines strict network isolation, zero-trust patterns, and RBAC strategies.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
+💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Docker](./docker.md)
 

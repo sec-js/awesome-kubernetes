@@ -3,37 +3,13 @@
 !!! info "Architectural Context"
     Detailed reference for Security Policy as Code in the context of Hardened Infrastructure.
 
-## Standard Reference
+## Architectural Foundations
 
-  - [Docker Hardened Images for Every Developer](https://www.docker.com/blog/docker-hardened-images-for-every-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [IBM Vault 2.0 UI Enhancements and Reporting Improvements](https://t.co/cvOceuueCF)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Web-Check](https://web-check.xyz)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [IBM IAM for AI Agents](https://t.co/EKsVgKA4xn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Automate policies enforcement with Policy-as-Code 🌟](https://medium.com/airwalk/automate-policies-enforcement-with-policy-as-code-2f20aac9e2b0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [magalix.com: Integrating Open Policy Agent (OPA) With Kubernetes 🌟](https://www.magalix.com/blog/integrating-open-policy-agent-opa-with-kubernetes-a-deep-dive-tutorial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.styra.com: Integrating Identity: OAUTH2 and OPENID CONNECT in Open' Policy Agent](https://blog.styra.com/blog/integrating-identity-oauth2-and-openid-connect-in-open-policy-agent)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.styra.com: Rego Unit Testing](https://blog.styra.com/blog/rego-unit-testing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.styra.com: Dynamic Policy Composition for OPA](https://blog.styra.com/blog/dynamic-policy-composition-for-opa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.styra.com: 5 OPA Deployment Performance Models for Microservices](https://blog.styra.com/blog/5-opa-deployment-performance-models-for-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.styra.com: Open Policy Agent: The Top 5 Kubernetes Admission Control' Policies](https://blog.styra.com/blog/open-policy-agent-the-top-5-kubernetes-admission-control-policies)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [siegert-maximilian.medium.com: Ensure Content Trust on Kubernetes using' Notary and Open Policy Agent](https://siegert-maximilian.medium.com/ensure-content-trust-on-kubernetes-using-notary-and-open-policy-agent-485ab3a9423c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.styra.com: Policy-based infrastructure guardrails with Terraform and' OPA 🌟](https://blog.styra.com/blog/policy-based-infrastructure-guardrails-with-terraform-and-opa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Automated Manifest File Validation Using Open Policy Agent and GitHub' Actions | Ravindu Sandeepa Rathugama](https://medium.com/@ravindursr/automated-manifest-file-validation-using-open-policy-agent-and-github-actions-697fa9fd74f0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [inspektor.cloud: Evaluating open policy agent in rust using wasm](https://inspektor.cloud/blog/evaluating-open-policy-agent-in-rust-using-wasm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/4th-coffee: What is Policy-as-Code? An Introduction to Open Policy' Agent](https://medium.com/4th-coffee/what-is-policy-as-code-an-introduction-to-open-policy-agent-6098463f8461)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [banzaicloud.com: Istio and Kubernetes ft. OPA policies](https://banzaicloud.com/blog/istio-opa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Ensure Content Trust on Kubernetes using Notary and Open Policy' Agent](https://medium.com/@siegert.maximilian/ensure-content-trust-on-kubernetes-using-notary-and-open-policy-agent-485ab3a9423c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Deploying Open Policy Agent (OPA) on a GKE cluster — Step by Step](https://medium.com/linkbynet/deploying-opa-on-a-gke-cluster-da4d3d77812c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.styra.com: Using OPA with GitOps to speed Cloud-Native development](https://blog.styra.com/blog/using-opa-with-gitops-to-speed-cloud-native-development)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/gitguardian: What is Policy-as-Code? An Introduction to Open' Policy Agent](https://medium.com/gitguardian/what-is-policy-as-code-an-introduction-to-open-policy-agent-dba1400bb030)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [hashicorp.com: Securing Infrastructure In Application Pipelines](https://www.hashicorp.com/resources/securing-infrastructure-in-application-pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [venturebeat.com: How Nirmata plans to ‘conquer Kubernetes complexity’ with' open source Kyverno](https://venturebeat.com/2021/08/10/how-nirmata-plans-to-conquer-kubernetes-complexity-with-open-source-kyverno)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [movi.hashnode.dev: Simplify Kubernetes Cluster Management with Kyverno](https://movi.hashnode.dev/simplify-kubernetes-cluster-management-with-kyverno-ckt6yxjqy0duy95s14groe7h4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [arun-sisodiya.medium.com: Kyverno — A Kubernetes native policy manager (Policy' as Code)](https://arun-sisodiya.medium.com/kyverno-a-policy-manager-for-kubernetes-286f6e082062)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/compass-true-north: Governing Multi-Tenant Kubernetes Clusters' with Kyverno](https://medium.com/compass-true-north/governing-multi-tenant-kubernetes-clusters-with-kyverno-3e11ba4a64ad)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@haseebshaukat2: Kyverno — Policy Engine for Kubernetes | Muhammad' Haseeb Shaukat](https://medium.com/@haseebshaukat2/kyverno-policy-engine-for-kubernetes-b49f3fac43b9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@glen.yu: Why I prefer Kyverno over Gatekeeper for native Kubernetes' policy management](https://medium.com/@glen.yu/why-i-prefer-kyverno-over-gatekeeper-for-native-kubernetes-policy-management-35a05bb94964)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+### Kubernetes Tools
 
+#### General Reference
+
+  - [Docker Hardened Images for Every Developer](https://www.docker.com/blog/docker-hardened-images-for-every-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Docker Hardened Images for Every Developer in the Kubernetes Tools ecosystem.
 ## Cloud Native Security
 
 ### Infrastructure Security
@@ -171,6 +147,13 @@
 #### Cryptographic Signatures
 
   - **(2022)** [blog.sigstore.dev: How to verify container images with Kyverno using KMS,' Cosign, and Workload Identity](https://blog.sigstore.dev/how-to-verify-container-images-with-kyverno-using-kms-cosign-and-workload-identity-1e07d2b85061) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced technical exploration of enterprise container security architectures. Provides steps to construct a validation loop that verifies image signatures dynamically using Kyverno, integrated directly with KMS key stores, Sigstore Cosign, and OIDC-based Workload Identity.
+## Public Cloud
+
+### Azure Integration
+
+#### Cloud Governance
+
+  - **(2026)** [**Azure Policy**](https://nubenetes.com/azure) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Specialized gateway and reference documentation for enforcing structural compliance, resource auditing, and governance across Azure resource environments. Explains custom definition policies, policy initiatives, and automated remediation workflows. Critical reference for maintaining operational guardrails in enterprise cloud architectures.
 ## Security
 
 ### Policy Enforcement
@@ -180,5 +163,5 @@
   - **(2022)** [MagTape](https://github.com/tmobile/magtape) <span class='md-tag md-tag--info'>⭐ 152</span> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — An admission controller developed by T-Mobile that evaluates resources against organizational policy constraints during creation. Written in Node.js, it offered a lightweight alternative to OPA for specific JSON schema validations. By 2026, it has been largely archived, with developers migrating to Gatekeeper or Kyverno.
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Oauth](./oauth.md)
+💡 **Explore Related:** [Ansible](./ansible.md) | [IaC](./iac.md) | [Terraform](./terraform.md)
 

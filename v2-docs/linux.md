@@ -3,75 +3,6 @@
 !!! info "Architectural Context"
     Detailed reference for Linux and SSH in the context of Architectural Foundations.
 
-## Standard Reference
-
-  - [linuxtoday.com](http://www.linuxtoday.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz - ss: Display Linux TCP / UDP Network and Socket Information](http://www.cyberciti.biz/tips/linux-investigate-sockets-network-connections.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz - SS Utility: Quick Intro](http://www.cyberciti.biz/files/ss.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [unix.stackexchange.com: ss - linux socket statistics utility output format](http://unix.stackexchange.com/questions/252744/ss-linux-socket-statistics-utility-output-format)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [stackoverflow.com: difference between netstat and ss in linux?](http://stackoverflow.com/questions/11763376/difference-between-netstat-and-ss-in-linux)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz: Linux ip Command Examples](https://www.cyberciti.biz/faq/linux-ip-command-examples-usage-syntax)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.flipkart.tech: The Art of System Debugging — Decoding CPU Utilization' 🌟](https://blog.flipkart.tech/the-art-of-system-debugging-decoding-cpu-utilization-da75f09ef1ff)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz: Red Hat introduces new no-cost RHEL option](https://www.cyberciti.biz/linux-news/red-hat-introduces-new-no-cost-rhel-option)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [enterpriseai.news: Red Hat’s Disruption of CentOS Unleashes Storm of Dissent](https://www.enterpriseai.news/2021/01/22/red-hats-disruption-of-centos-unleashes-storm-of-dissent)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloudsavvyit.com: Is Rocky Linux the new CentOS?](https://www.cloudsavvyit.com/13092/is-rocky-linux-the-new-centos)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [9to5linux.com: CentOS Alternative Rocky Linux 8.5 Is Out Now with Secure' Boot Support, Updated Components](https://9to5linux.com/centos-alternative-rocky-linux-8-5-is-out-now-with-secure-boot-support-updated-components)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [levelup.gitconnected.com: Vim: A How-To Guide](https://levelup.gitconnected.com/vim-a-how-to-guide-55f63bfdcff)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [How To Set up SSH Keys on a Linux / Unix System](https://www.cyberciti.biz/faq/how-to-set-up-ssh-keys-on-linux-unix)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz: Top 20 OpenSSH Server Best Security Practices](https://www.cyberciti.biz/tips/linux-unix-bsd-openssh-server-best-practices.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz: How To Reuse SSH Connection To Speed Up Remote Login Process' Using Multiplexing](https://www.cyberciti.biz/faq/linux-unix-reuse-openssh-connection)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz: OpenSSH Change a Passphrase With ssh-keygen command](https://www.cyberciti.biz/faq/howto-ssh-changing-passphrase)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz: How to audit SSH server and client config on Linux/Unix](https://www.cyberciti.biz/tips/how-to-audit-ssh-server-and-client-config-on-linux-unix.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [nixCraft 🌟](https://www.cyberciti.biz)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [linux.com 🌟](https://www.linux.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [linoxide.com 🌟](https://linoxide.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [linuxjourney.com](https://linuxjourney.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [linuxnix.com](https://www.linuxnix.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [reddit.com/r/linuxadmin](https://www.reddit.com/r/linuxadmin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [**ip command**: How to use IP Command in Linux with Examples](https://linoxide.com/linux-command/use-ip-command-linux)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [How To Use grep Command In Linux / UNIX 🌟](https://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz: bpytop – Awesome Linux, macOS and FreeBSD resource monitor](https://www.cyberciti.biz/open-source/command-line-hacks/bpytop-awesome-linux-macos-and-freebsd-resource-monitor)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz: How to configure pfSense as multi wan (DUAL WAN) load balance' failover router](https://www.cyberciti.biz/faq/howto-configure-dual-wan-load-balance-failover-pfsense-router)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz: BASH Shell Change The Color of Shell Prompt on Linux or UNIX](https://www.cyberciti.biz/faq/bash-shell-change-the-color-of-my-shell-prompt-under-linux-or-unix)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz: How to check TLS/SSL certificate expiration date from command-line](https://www.cyberciti.biz/faq/find-check-tls-ssl-certificate-expiry-date-from-linux-unix)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz: How to check memory utilization in Linux](https://www.cyberciti.biz/faq/how-to-check-memory-utilization-in-linux)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dnschecker.org 🌟](https://dnschecker.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz: How To Find Largest Top 10 Files and Directories On Linux' / UNIX / BSD](https://www.cyberciti.biz/faq/how-do-i-find-the-largest-filesdirectories-on-a-linuxunixbsd-filesystem)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz: How to restart systemd without rebooting Linux when critical' libraries installed](https://www.cyberciti.biz/faq/how-to-restart-systemd-without-rebooting-linux-when-critical-libraries-installed)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz: How to install ncdu on Linux / Unix to see disk usage](https://www.cyberciti.biz/open-source/install-ncdu-on-linux-unix-ncurses-disk-usage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz: 21 Examples To Make Sure Unix / Linux Configuration Files' Are Free From Syntax Errors](https://www.cyberciti.biz/tips/check-unix-linux-configuration-file-for-syntax-errors.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Useful Commands/Solutions](https://medium.com/cloud-techies/useful-commands-solutions-49f1c1b4e033)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [CLImagic subscription](https://www.patreon.com/climagic)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz: How to save terminal output to a file under Linux/Unix](https://www.cyberciti.biz/faq/how-to-save-terminal-output-to-a-file-under-linux-unix)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz: ls* Commands Are Even More Useful Than You May Have Thought](https://www.cyberciti.biz/open-source/command-line-hacks/linux-ls-commands-examples)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz: How to flush Redis cache and delete everything using the' CLI](https://www.cyberciti.biz/faq/how-to-flush-redis-cache-and-delete-everything-using-the-cli)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz: How To: Linux Find Large Files in a Directory](https://www.cyberciti.biz/faq/find-large-files-linux)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz: 8 Tips to Solve Linux Hard Disk Problems: Like Disk Full' Or Can’t Write to the Disk](https://www.cyberciti.biz/datacenter/linux-unix-bsd-osx-cannot-write-to-hard-disk)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz: How to copy and transfer files remotely on Linux using scp' and rsync](https://www.cyberciti.biz/faq/how-to-copy-and-transfer-files-remotely-on-linux-using-scp-and-rsync)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz: How to check CPU temperature on Ubuntu Linux](https://www.cyberciti.biz/faq/how-to-check-cpu-temperature-on-ubuntu-linux)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz: How to use df command in Linux / Unix {with examples}](https://www.cyberciti.biz/faq/df-command-examples-in-linux-unix)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz: diff Command Colorize Output On the Unix / Linux Command' Line](https://www.cyberciti.biz/programming/color-terminal-highlighter-for-diff-files)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: How to Use tmuxp to Manage Your tmux Session](https://betterprogramming.pub/how-to-use-tmuxp-to-manage-your-tmux-session-614b6d42d6b6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [baeldung.com: Maximum Number of Threads Per Process in Linux](https://www.baeldung.com/linux/max-threads-per-process)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.devgenius.io: DevOps in Linux — Systemd Introduction](https://blog.devgenius.io/devops-in-linux-systemd-introduction-db7f49cb566b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: How to trigger an action at the end of the Shell/Bash script](https://medium.com/bash-tips-and-tricks/how-to-trigger-an-action-at-the-end-of-the-shell-bash-script-52b0ba9c157e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz: How To Bash Shell Find Out If a Variable Is Empty Or Not](https://www.cyberciti.biz/faq/unix-linux-bash-script-check-if-variable-is-empty)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz: Bash For Loop Examples](https://www.cyberciti.biz/faq/bash-for-loop)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloudsavvyit.com: How to Use Multi-Threaded Processing in Bash Scripts](https://www.cloudsavvyit.com/12277/how-to-use-multi-threaded-processing-in-bash-scripts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [bash.cyberciti.biz Wiki 🌟](https://bash.cyberciti.biz/guide/Main_Page)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz: How to repeat a character ‘n’ times in Bash](https://www.cyberciti.biz/faq/repeat-a-character-in-bash-script-under-linux-unix)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz: Bash Read Comma Separated CSV File on Linux / Unix](https://www.cyberciti.biz/faq/unix-linux-bash-read-comma-separated-cvsfile)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/kubehub: A Series on Bash Scripting](https://medium.com/kubehub/a-series-on-bash-scripting-eecd0293fab5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [levelup.gitconnected.com: Start Your Scripting Journey Today | Bash Script' — Part 1](https://levelup.gitconnected.com/start-your-scripting-journey-today-bash-script-part-1-46cbddf4e4e7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com: Shell Scripting for DevOps with Examples](https://medium.com/@saurabhdahibhate50/devops-day-04-task-e51d64ffbf16)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [levelup.gitconnected.com: 5 Bash String Manipulation Methods That Help Every' Developer](https://levelup.gitconnected.com/5-bash-string-manipulation-methods-that-help-every-developer-49d4ee38b593)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [piyushverma.hashnode.dev: Basic Linux Shell Scripting for DevOps Engineers](https://piyushverma.hashnode.dev/basic-linux-shell-scripting-for-devops-engineers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: Bash vs. Python vs. JavaScript: Which Is Better for' Automation? 🌟](https://betterprogramming.pub/bash-vs-python-vs-javascript-which-is-better-for-automation-92a277ef49e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [linuxjourney.com commandline](https://linuxjourney.com/lesson/the-shell#)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Announcing the HashiCorp Linux Repository](https://www.hashicorp.com/blog/announcing-the-hashicorp-linux-repository)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.pandorafms.org: Useful Network commands](https://blog.pandorafms.org/network-commands)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz: Linux: 25 Iptables Netfilter Firewall Examples For New SysAdmins](https://www.cyberciti.biz/tips/linux-iptables-examples.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-
 ## Administration
 
 ### Systemd Logs
@@ -329,13 +260,15 @@
 #### Hypervisors
 
   - **(2023)** [**github.com/cyberus-technology/virtualbox-kvm: KVM Backend for VirtualBox' 🌟**](https://github.com/cyberus-technology/virtualbox-kvm) <span class='md-tag md-tag--info'>⭐ 1113</span> <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A performance-focused extension enabling Oracle VirtualBox to delegate execution directly to the native Linux Kernel-based Virtual Machine (KVM) backend. It removes proprietary kernel module requirements. Live Grounding highlights its architectural value for running clean virtualization loops inside Linux workstations.
-## Kubernetes
+## Kubernetes Tools
 
-### Resource Management
+### General Reference
 
-#### CPU Throttling
-
-  - **(2024)** [CPU Limits in Kubernetes: Deep Dive into Pod Throttling and Kernel Interactions](https://www.linkedin.com/pulse/cpu-limits-kubernetes-why-your-pod-idle-still-deep-dive-lazarev-k3m7f?utm_source=share&utm_medium=member_android&utm_campaign=share_via) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exceptionally detailed deep dive into kernel interactions, Linux control groups (cgroups), and the Completely Fair Scheduler (CFS) quota mechanism inside Kubernetes. It demystifies why pods experience severe throttling even when aggregate CPU metrics appear healthy, analyzing the impact of short-duration burst workloads. It provides essential mathematical formulas and kernel parameters to fine-tune pod limits safely.
+  - [unix.stackexchange.com: ss - linux socket statistics utility output format](https://unix.stackexchange.com/questions/252744/ss-linux-socket-statistics-utility-output-format)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering unix.stackexchange.com in the Kubernetes Tools ecosystem.
+  - [stackoverflow.com: difference between netstat and ss in linux?](https://stackoverflow.com/questions/11763376/difference-between-netstat-and-ss-in-linux)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering stackoverflow.com in the Kubernetes Tools ecosystem.
+  - [linux.com 🌟](https://www.linux.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering linux.com 🌟 in the Kubernetes Tools ecosystem.
+  - [reddit.com/r/linuxadmin](https://www.reddit.com/r/linuxadmin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/linuxadmin in the Kubernetes Tools ecosystem.
+  - [CLImagic subscription](https://www.patreon.com/climagic)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering CLImagic subscription in the Kubernetes Tools ecosystem.
 ## Networking (2)
 
 ### DNS Troubleshooting
@@ -637,5 +570,5 @@
   - **(2022)** [redhat.com: How to customize VM and cloud images with guestfish](https://www.redhat.com/en/blog/customize-vm-cloud-images-guestfish) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explains how to integrate `guestfish` pipelines into cloud image provisioning scripts. Details the automated modification of network configurations, credential injection, and software installations within raw VM images.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [About](./about.md)
 

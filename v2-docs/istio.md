@@ -3,48 +3,13 @@
 !!! info "Architectural Context"
     Detailed reference for Istio - Service Mesh in the context of Networking & Service Mesh.
 
-## Standard Reference
+## Architectural Foundations
 
-  - [blog.jetstack.io: Istio OIDC Authentication](https://developer.cyberark.com/blog/istio-oidc-authentication)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [jetstack.io: Securing Istio workloads with mTLS using cert-manager](https://www.cyberark.com/venafi-and-cyberark-machine-identity-security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/solo-io blog](https://medium.com/solo-io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/solo-io: Istio the Easy Way (Again!)](https://medium.com/solo-io/istio-the-easy-way-again-b0504347b7ce)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com: Getting started with Istio](https://medium.com/swlh/getting-started-with-istio-524628c025)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [magalix.com: Getting Started With Istio: Overview And Installation](https://www.magalix.com/blog/getting-started-with-istio-overview-and-installation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [magalix.com: Working with Istio: Track your services with Kiali](https://www.magalix.com/blog/working-with-istio-track-your-services-with-kiali)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [banzaicloud.com: Istio telemetry V2 (Mixerless) deep dive](https://banzaicloud.com/blog/istio-mixerless-telemetry)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com: How to Manage Microservices on Kubernetes With Istio](https://medium.com/better-programming/how-to-manage-microservices-on-kubernetes-with-istio-c25e97a60a59)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [banzaicloud.com: What's new in Istio 1.6, a quick walkthrough](https://banzaicloud.com/blog/istio-1.6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [banzaicloud.com: Controlling egress traffic with Istio](https://banzaicloud.com/blog/istio-external-demo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Observability With Istio, Kiali, and Grafana in Kubernetes and Spring' Boot 🌟](https://medium.com/swlh/observability-with-istio-kiali-and-grafana-in-kubernetes-and-spring-boot-743af225c24f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Introduction to Istio Traffic Management. Traffic Routing with Istio' by Example 🌟](https://medium.com/swlh/introduction-to-istio-traffic-management-6b62c86f8cb4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com: Increasing observability on Istio: The new Kiali health configuration](https://medium.com/kialiproject/increasing-observability-on-istio-the-new-kiali-health-configuration-3c91852c1bfe)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Managing Microservices With Istio Service Mesh in Kubernetes](https://medium.com/avmconsulting-blog/managing-microservices-with-istio-service-mesh-in-kubernetes-36e1fda81757)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [giffgaff.io: Using Istio with Nginx ingress](https://www.giffgaff.io/tech/using-istio-with-nginx-ingress)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Automated canary deployments with Flagger and Istio](https://medium.com/google-cloud/automated-canary-deployments-with-flagger-and-istio-ac747827f9d1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [inder-devops.medium.com: On-premise to cloud migration mock drills using' Istio 🌟](https://inder-devops.medium.com/on-premise-to-cloud-migration-mock-drills-using-istio-ea89aee5ea38)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [baeldung.com: Service Mesh Architecture with Istio](https://www.baeldung.com/ops/istio-service-mesh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [chrishaessig.medium.com: Multi cluster setup with istio](https://chrishaessig.medium.com/multi-cluster-setup-with-istio-c1c6437f4e8c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@sumudu_liyan: How To Install Istio On Kubernetes Cluster](https://medium.com/@sumudu_liyan/how-to-install-istio-on-kubernetes-cluster-e831c12381b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [engineering.mercari.com: Dynamic Service Routing using Istio](https://engineering.mercari.com/en/blog/entry/20220218-dynamic-service-routing-using-istio)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@nanditasahu031: Istio Service Mesh 🌟](https://medium.com/@nanditasahu031/istio-service-mesh-a11654f90ed9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.getambassador.io: Kubernetes Canary Testing and Release with Istio](https://blog.getambassador.io/kubernetes-canary-testing-and-release-with-istio-4cbdedcc9914?gi=816ffb457b0d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/globant: Istio JWT Authentication & Authorization at the edge](https://medium.com/globant/istio-jwt-authentication-authorization-at-the-edge-b35b612acd97)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/codex: Egress Traffic Control for Nginx Ingress Controller with' Istio Proxy Sidecar](https://medium.com/codex/egress-traffic-control-for-nginx-ingress-controller-with-istio-proxy-sidecar-ef8f19902b43)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/marionete: How to expose Kubernetes services to external traffic' using Istio Gateway](https://medium.com/marionete/how-to-expose-kubernetes-services-to-external-traffic-using-istio-gateway-1a1e6ebd8805)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [natarajsundar.medium.com: Istio service mesh, a start to finish tutorial' with Side Car architecture and an analysis + comparison of the Ambient mesh architecture](https://natarajsundar.medium.com/istio-service-mesh-a-start-to-finish-tutorial-with-side-car-architecture-and-an-analysis-d70a255ea41d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [alexandrev.medium.com: How To Enable Sticky Session on Your Kubernetes Workloads' using Istio? 🌟](https://alexandrev.medium.com/how-to-enable-sticky-session-on-your-kubernetes-workloads-using-istio-e789014a6acd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@wessel__: Istio with Authentik: securing your cluster and providing' authentication and authorization](https://medium.com/@wessel__/istio-with-authentik-securing-your-cluster-and-providing-authentication-and-authorization-b5e48b331920)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@hammadsaif061: Simplifying Microservices Management with Kubernetes' and Service Mesh](https://medium.com/@hammadsaif061/simplifying-microservices-management-with-kubernetes-and-service-mesh-de458ce566f1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@lupass93: Zero Trust Architecture on Kubernetes with Istio Service' Mesh](https://medium.com/@lupass93/zero-trust-architecture-on-kubernetes-with-istio-service-mesh-eade6c5a3c53)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/hamburger-berater-team: Varnish Sharding with Istio in Kubernetes](https://medium.com/hamburger-berater-team/varnish-sharding-with-istio-in-kubernetes-402f313919aa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@marc.guerrini: DIY — Istio — validate JWT](https://medium.com/@marc.guerrini/diy-istio-validate-jwt-1ffbd488b1f3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: API Access Control using Istio Ingress Gateway](https://medium.com/@senthilrch/api-access-control-using-istio-ingress-gateway-44be659a087e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: API Authentication using Istio Ingress Gateway, OAuth2-Proxy and' Keycloak](https://medium.com/codex/api-authentication-using-istio-ingress-gateway-oauth2-proxy-and-keycloak-a980c996c259)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com: kiali project](https://medium.com/kialiproject)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [faun.pub: A beginner’s guide to Jaeger](https://faun.pub/a-beginners-guide-to-jaeger-ed75ce5ed8f4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Troubleshooting Envoy with Kiali](https://medium.com/kialiproject/troubleshooting-envoy-with-kiali-7f78a57b16ad)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+### Kubernetes Tools
 
+#### General Reference
+
+  - [engineering.mercari.com: Dynamic Service Routing using Istio](https://engineering.mercari.com/en/blog/entry/20220218-dynamic-service-routing-using-istio)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering engineering.mercari.com: Dynamic Service Routing using Istio in the Kubernetes Tools ecosystem.
 ## Cloud Native
 
 ### Service Mesh
@@ -62,6 +27,9 @@
 #### Installation
 
   - **(2022)** [getenvoy.io](https://www.envoyproxy.io/docs/envoy/latest/start/install) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Distribution platform providing certified binaries, installer packages, and bootstrapping resources for Envoy Proxy, facilitating direct deployments on local machines or hybrid container systems.
+#### Proxy
+
+  - **(2022)** [envoyproxy.io](https://www.envoyproxy.io) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Homepage for Envoy Proxy, the C++ cloud-native L7 edge and service proxy. Serving as the primary data plane for Istio and modern gateway tools, it offers unmatched extensibility, advanced load balancing, and dynamic runtime configuration.
 ### Multi-Cluster
 
 #### Automation
@@ -127,6 +95,7 @@
 #### Tutorials
 
   - **(2022)** [freecodecamp.org: Learn Istio – How to Manage, Monitor, and Secure Microservices 🌟](https://www.freecodecamp.org/news/learn-istio-manage-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structured, end-to-end tutorial designed to teach engineers how to deploy, monitor, and secure microservices using Istio. Covers key topics including canary releases, distributed tracing integration, and mutual TLS configuration.
+  - **(2022)** [Implementing Istio From Start To Finish](https://www.cloudnativedeepdive.com/implementing-istio-from-start-to-finish)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive implementation roadmap designed to guide engineering teams through the planning, deployment, and optimization stages of building an enterprise-grade Istio platform from the ground up.
 #### gRPC
 
   - **(2021)** [useanvil.com: Load balancing gRPC in Kubernetes with Istio](https://www.useanvil.com/blog/engineering/load-balancing-grpc-in-kubernetes-with-istio)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains why traditional L4 Kubernetes service proxies fail to properly distribute traffic for HTTP/2-based gRPC connections. Details how Istio acts at Layer 7 to intelligently resolve multiplexed gRPC endpoints and distribute load evenly across backend pods.
@@ -214,6 +183,7 @@
 #### Traffic Management (2)
 
   - **(2026)** [==github.com: Istio==](https://github.com/istio/istio) <span class='md-tag md-tag--info'>⭐ 38217</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Main repository containing Istio's unified control plane (Istiod) and orchestration engines. Configures secure high-performance Envoy proxies as sidecars (or in ambient mode) to manage ingress, egress, and mutual TLS.
+  - **(2026)** [Istio.io](https://istio.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Home of the de facto standard open-source service mesh. Implements a uniform plane for managing, securing, and routing microservices traffic across hybrid cloud container clusters.
 #### Troubleshooting (1)
 
   - **(2021)** [karlstoney.com: Istio 503's with UC's and TCP Fun Times](https://karlstoney.com/istio-503s-ucs-and-tcp-fun-times) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — High-impact technical case study investigating intermittent HTTP 503 errors and connection closure (UC) challenges under high TCP load inside Istio service meshes. Excellent deep-dive into sidecar race conditions.
@@ -227,6 +197,7 @@
 #### Enterprise Platforms
 
   - **(2024)** [Red Hat Developer: Istio Service Mesh](https://developers.redhat.com/topics/service-mesh) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat's developer hub offering deep integration architectures for managing Red Hat OpenShift Service Mesh. Synthesizes Istio, Kiali, and Jaeger into an enterprise-ready networking stack.
+  - **(2020)** [blog.openshift.com: Red Hat OpenShift Service Mesh is now available: What you should know 🌟](https://www.redhat.com/en/blog/red-hat-openshift-service-mesh-is-now-available-what-you-should-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Announcement detailing the GA availability of Red Hat OpenShift Service Mesh. Explains the integrated packaging of Istio, Envoy, and Jaeger under OpenShift's strict security paradigms.
 #### Observability (2)
 
   - **(2020)** [openshift.com: Monitoring Services like an SRE in OpenShift ServiceMesh Part 2: Collecting Standard Metrics 🌟](https://www.redhat.com/en/blog/monitoring-services-like-an-sre-in-openshift-servicemesh-part-2-collecting-standard-metrics-3) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Step-by-step SRE manual describing standard metrics collection (latency, error rates, throughput) across an enterprise OpenShift Service Mesh. Leveraging Prometheus and Kiali telemetry mappings.
@@ -243,5 +214,5 @@
   - **(2020)** [github.com/askmeegs/learn-istio 🌟](https://github.com/askmeegs/learn-istio) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — An educational repository featuring early-day tutorials and configurations for learning Istio concepts. Currently archived/unmaintained, functioning primarily as a legacy resource.
 
 ---
-💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md)
+💡 **Explore Related:** [Caching](./caching.md) | [Cloudflare](./cloudflare.md) | [Kubernetes Networking](./kubernetes-networking.md)
 

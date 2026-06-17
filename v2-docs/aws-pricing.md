@@ -3,10 +3,6 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Pricing and Cost Optimization in the context of Cloud Providers (Hyperscalers).
 
-## Standard Reference
-
-  - [topcloudops.com: Optimizing AWS RDS Cost](https://topcloudops.com/blog-detail?id=030b1031-8bc8-4bc5-8f7a-417950005b97)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-
 ## Cloud Infrastructure
 
 ### AWS Cost Management
@@ -63,5 +59,5 @@
   - **(2022)** [thenewstack.io: 7 Tips for Cutting Down Your AWS Kubernetes Bill](https://thenewstack.io/kubernetes/7-tips-for-cutting-down-your-aws-kubernetes-bill) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates architectural techniques to trim EKS clusters expenditures, describing auto-scalers (Karpenter), spot instances usage, strict namespace limits, and FinOps practices to optimize CPU allocation.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Backup](./aws-backup.md) | [AWS Containers](./aws-containers.md)
 

@@ -3,11 +3,13 @@
 !!! info "Architectural Context"
     Detailed reference for NoOps aka Serverless in the context of The Container Stack.
 
-## Standard Reference
+## Architectural Foundations
 
-  - [Dzone: What Is NoOps?](https://dzone.com/articles/what-is-noops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [DevOps Is Dead, Long Live NoOps](https://medium.com/better-programming/devop-noops-difference-504dfc4e9faa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+### Kubernetes Tools
 
+#### General Reference
+
+  - [Dzone: What Is NoOps?](https://dzone.com/articles/what-is-noops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: What Is NoOps? in the Kubernetes Tools ecosystem.
 ## DevOps
 
 ### Operations Paradigms
@@ -28,5 +30,5 @@
   - **(2021)** [Serverless Computing: Moving from DevOps to NoOps](https://devops.com/serverless-computing-moving-from-devops-to-noops) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates how serverless architectures drive NoOps execution. Emphasizes shifting operations responsibilities (e.g., node provisioning, patching, scaling) to public cloud platforms, allowing developers to focus strictly on code components.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
+💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Docker](./docker.md)
 

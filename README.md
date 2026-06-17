@@ -134,7 +134,7 @@ Additionally, as of May 2026, Nubenetes has reached the **Platinum Operational T
 ## 2. Repository Metrics and Evolution
 
 ### 2.1. The "Heart" of Nubenetes
-(Stats as of 2026-06-15)
+(Stats as of 2026-06-18)
 
 <!-- HEART_STATS_START -->
 | Metric | Value |
@@ -947,8 +947,15 @@ graph LR
 </details>
 
 ### 9.6. Automated Mandate Auditing
-Every Pull Request includes a non-blocking **Safety and Mandate Audit** report cross-referencing changes against [`GEMINI.md`](GEMINI.md).
-- **README Integrity**: A dedicated "Hard Safety Gate" ([`src/safety_readme.py`](src/safety_readme.py)) ensures that all 15 mandatory technical sections are preserved.
+Every Pull Request targeting the `develop` branch is subjected to a **blocking pre-submit Gate** and a **self-healing auto-formatting pipeline** to enforce project mandates:
+- **Blocking PR Guardian AI Gate**: The [PR Guardian AI](.github/workflows/07.1.pr_guardian.yml) check runs on `pull_request` events, evaluating the git diff against [`GEMINI.md`](GEMINI.md) mandates using Gemini Flash. If the PR violates critical constraints (e.g., non-permissive license transitions, missing high-density descriptions, or invalid URL structure), it posts a detailed audit report as an issue comment, exits with status `1`, and blocks the PR from merging.
+- **Self-Healing Auto-Corrective Commits**: The [PR Guardian](src/pr_guardian.py) automatically applies auto-formatting directly to modified markdown files on the PR branch, addressing minor styling and normalization issues:
+    *   *URL Normalization*: Strips social tracking parameters (e.g., `utm_source`) and enforces a zero-trailing-slash policy on new links via [normalize_url](src/gemini_utils.py#L241).
+    *   *Heading Cleanups*: Replaces ampersands (`&` -> `and`) and strips emojis (e.g. `🧠`, `🌟`) in H2-H6 headers to ensure rendering standards.
+    *   *HTML Center Attributes*: Automatically adds the mandatory `markdown="1"` attribute to `<center>` HTML tags to allow MkDocs parsing.
+    *   *Auto-Push*: If auto-fixes are applied, the bot commits and pushes the formatting changes back to the head branch ref dynamically.
+- **README Integrity Gate**: A dedicated "Hard Safety Gate" ([`src/safety_readme.py`](src/safety_readme.py)) executes to verify that all 15 mandatory sections are preserved and correctly numbered.
+
 
 ### 9.7. Multi-Part Reporting Engine
 To handle the scale of 17k+ resources, the engine automatically fragments reports into multiple successive PR comments, ensuring 100% observability.

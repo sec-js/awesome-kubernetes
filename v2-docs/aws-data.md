@@ -3,11 +3,13 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Big Data in the context of Cloud Providers (Hyperscalers).
 
-## Standard Reference
+## Architectural Foundations
 
-  - [Using Spark SQL for ETL](http://blogs.aws.amazon.com/bigdata/post/Tx2D93GZRHU3TES/Using-Spark-SQL-for-ETL)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: No-Code Data Collect API on AWS](https://medium.com/@dima.statz_89242/no-code-data-collect-api-on-aws-d79e3681d204)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+### Kubernetes Tools
 
+#### General Reference
+
+  - [Using Spark SQL for ETL](https://aws.amazon.com/blogs/big-data/using-spark-sql-for-etl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering aws.amazon.com in the Kubernetes Tools ecosystem.
 ## Cloud Infrastructure
 
 ### AWS
@@ -31,5 +33,5 @@
   - **(2021)** [**whizlabs.com: AWS Kinesis vs Kafka Apache**](https://www.whizlabs.com/blog/kinesis-vs-kafka) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Comparative architectural review between AWS Kinesis and Apache Kafka. Analyzes data retention policies, throughput capabilities, scaling overheads, and total cost of ownership (TCO) profiles.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Backup](./aws-backup.md) | [AWS Containers](./aws-containers.md)
 

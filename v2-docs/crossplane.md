@@ -3,11 +3,6 @@
 !!! info "Architectural Context"
     Detailed reference for Crossplane. A Universal Control Plane API for Cloud Computing. Crossplane Workloads Definitions in the context of Hardened Infrastructure.
 
-## Standard Reference
-
-  - [medium: Using Crossplane to Provision a Kubernetes Cluster in Google Cloud](https://medium.com/dzerolabs/using-crossplane-to-provision-a-kubernetes-cluster-in-google-cloud-cf5374d765ee)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [faun.pub: Defining Infrastructure Declaratively with Crossplane](https://faun.pub/defining-infrastructure-declaratively-with-crossplane-eb9e0a98ae38)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-
 ## GitOps and CICD
 
 ### GitOps
@@ -57,5 +52,5 @@
   - **(2021)** [itnext.io: Why do developers find Kubernetes so hard?](https://itnext.io/why-do-developers-find-kubernetes-hard-6532e8d6ce7f) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Diagnoses the cognitive load and operational hurdles associated with exposing raw Kubernetes interfaces directly to application developers. It analyzes the friction created by complex network topologies, YAML verbosity, and security policies, making the case for platform abstraction layers and custom developer portals.
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Oauth](./oauth.md)
+💡 **Explore Related:** [Ansible](./ansible.md) | [IaC](./iac.md) | [Terraform](./terraform.md)
 

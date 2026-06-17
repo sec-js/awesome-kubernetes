@@ -3,15 +3,6 @@
 !!! info "Architectural Context"
     Detailed reference for Google Cloud Platform in the context of Cloud Providers (Hyperscalers).
 
-## Standard Reference
-
-  - [medium.com/google-cloud/tagged/devops](https://medium.com/google-cloud/tagged/devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [venturebeat.com: Google Cloud announces Network Connectivity Center to simplify' hybrid cloud management](https://venturebeat.com/2021/03/23/google-cloud-announces-network-connectivity-center-to-simplify-hybrid-cloud-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/google-cloud: Design your Landing Zone — Design Considerations' Part 4— IaC, GitOps and CI/CD (Google Cloud Adoption Series)](https://medium.com/google-cloud/design-your-landing-zone-design-considerations-part-4-iac-gitops-and-ci-cd-google-cloud-ae3f533c6dbd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [engineering.mercari.com: Kubernetes based autoscaler for Cloud Spanner](https://engineering.mercari.com/en/blog/entry/20211222-kubernetes-based-spanner-autoscaler)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/google-cloud: Anthos-at-Home: Spinning Up a Bare-Metal Anthos' Cluster on Dumpster Servers](https://medium.com/google-cloud/anthos-at-home-spinning-up-a-bare-metal-anthos-cluster-on-dumpster-servers-5bcef301cfa5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Terraform Provider for Google Cloud 7.0 is now GA](https://www.hashicorp.com/en/blog/terraform-provider-for-google-cloud-7-0-is-now-ga)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-
 ## AI and Orchestration
 
 ### Agentic Workflows
@@ -61,6 +52,13 @@
 #### Orchestration
 
   - **(2021)** [cloud.google.com: Service orchestration on Google Cloud](https://cloud.google.com/blog/topics/developers-practitioners/service-orchestration-google-cloud) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes service orchestration methodologies in Google Cloud, highlighting Cloud Workflows. Illustrates how architects can coordinate microservices, serverless architectures, and external API gateways with low-latency, stateful orchestration mechanisms.
+## Architectural Foundations
+
+### Kubernetes Tools
+
+#### General Reference
+
+  - [engineering.mercari.com: Kubernetes based autoscaler for Cloud Spanner](https://engineering.mercari.com/en/blog/entry/20211222-kubernetes-based-spanner-autoscaler)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering engineering.mercari.com: Kubernetes based autoscaler for Cloud Spanner in the Kubernetes Tools ecosystem.
 ## Cloud Infrastructure
 
 ### Compute
@@ -337,5 +335,5 @@
   - **(2026)** [github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform) <span class='md-tag md-tag--warning'>[MULTI CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The master landing organization for Google Cloud Platform's open-source projects, APIs, and CLI utilities. Holds structural frameworks, SDKs, and enterprise infrastructure design tools.
 
 ---
-💡 **Explore Related:** [Edge Computing](./edge-computing.md) | [Azure](./azure.md) | [AWS Storage](./aws-storage.md)
+💡 **Explore Related:** [AWS Backup](./aws-backup.md) | [AWS Containers](./aws-containers.md) | [AWS Data](./aws-data.md)
 

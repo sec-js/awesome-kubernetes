@@ -3,13 +3,6 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Tools and Scripts in the context of Cloud Providers (Hyperscalers).
 
-## Standard Reference
-
-  - [hashicorp.com: Accelerate your Terraform development with Amazon CodeWhisperer](https://www.hashicorp.com/blog/accelerate-your-terraform-development-with-amazon-codewhisperer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloudcatalog.dev](https://www.cloudcatalog.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: AWS CLI with jq and Bash](https://medium.com/circuitpeople/aws-cli-with-jq-and-bash-9d54e2eabaf1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [aws.plainenglish.io: Lessons Learned From Switching to AWS SDK v3](https://aws.plainenglish.io/lessons-learned-from-switching-to-aws-sdk-v3-6babe1530a59)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-
 ## Artificial Intelligence
 
 ### Developer Agents
@@ -32,7 +25,7 @@
 #### Automation
 
   - **(2025)** [==github.com/infrahouse/infrahouse-toolkit==](https://github.com/infrahouse/infrahouse-toolkit) <span class='md-tag md-tag--info'>⭐ 74</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The Infrahouse Toolkit provides operational automation helpers specifically engineered to simplify AWS infrastructure deployment pipelines. It streamlines actions such as dynamic DNS configurations, instance lifecycle hooks, and local environment bootstrapping. Useful for platform teams standardizing custom deployment policies.
-  - **(2024)** [github.com/Levi-Michael/boto3-ec2-s3-management: A python tools base on' AWS boto3 for manage ec2 and s3 buckets](https://github.com/Levi-Michael/boto3-ec2-s3-management) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight Python-based tool leveraging Boto3 to programmatically manage EC2 instances and S3 bucket lifecycles. It provides system administrators with an alternative to the heavy AWS Management Console for quick resource termination, tag filtering, and volume audits. Its clean syntax serves as an educational base for custom infrastructure engineering scripts.
+  - **(2024)** [github.com/Levi-Michael/boto3-ec2-s3-management: A python tools base on' AWS boto3 for manage ec2 and s3 buckets](https://github.com/Levi-Michael/boto3-ec2-s3-management) <span class='md-tag md-tag--info'>⭐ 2</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight Python-based tool leveraging Boto3 to programmatically manage EC2 instances and S3 bucket lifecycles. It provides system administrators with an alternative to the heavy AWS Management Console for quick resource termination, tag filtering, and volume audits. Its clean syntax serves as an educational base for custom infrastructure engineering scripts.
 #### CICD Pipelines
 
   - **(2026)** [Amazon CodeCatalyst](https://codecatalyst.aws/explore) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Amazon CodeCatalyst is an enterprise-grade cloud development service that streamlines software delivery on AWS. It integrates team collaboration, CI/CD, issue tracking, and cloud development environments (CDEs) under a unified SaaS framework. Crucial for software engineering directors establishing rapid, compliant application delivery loops.
@@ -102,7 +95,7 @@
 #### Storage Management
 
   - **(2025)** [==github.com/awslabs/amazon-s3-tar-tool: Amazon S3 Tar Tool==](https://github.com/awslabs/amazon-s3-tar-tool) <span class='md-tag md-tag--info'>⭐ 233</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An AWS Labs utility designed to parallelize the creation of TAR archives directly from S3 bucket structures. It prevents the network egress bottle-necks associated with downloading S3 objects locally before compression. Extremely valuable for big data analytics architectures and data lifecycle archival procedures.
-  - **(2024)** [github.com/Reaimua/AWS-CLI-Uploader-Project](https://github.com/Reaimua/AWS-CLI-Uploader-Project) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An educational repository containing custom scripts to automate file uploads to AWS S3 using raw AWS CLI calls. It is highly useful for junior developers learning API interactions, basic credential handling, and bucket policy permissions. Ideal as a simple reference base for shell scripting tutorials.
+  - **(2024)** [github.com/Reaimua/AWS-CLI-Uploader-Project](https://github.com/Reaimua/AWS-CLI-Uploader-Project) <span class='md-tag md-tag--info'>⭐ 1</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An educational repository containing custom scripts to automate file uploads to AWS S3 using raw AWS CLI calls. It is highly useful for junior developers learning API interactions, basic credential handling, and bucket policy permissions. Ideal as a simple reference base for shell scripting tutorials.
   - **(2023)** [blog.awsfundamentals.com: Step-By-Step: Emptying S3 Buckets and Directories Using the AWS CLI with S3 RM](https://awsfundamentals.com/blog/aws-s3-rm-removing-files) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive tutorial from AWS Fundamentals on how to empty S3 buckets containing millions of objects using the AWS CLI. It highlights the differences between simple deleting, multi-object API commands, and utilizing Lifecycle rules to clean buckets at zero cost. Essential for DevOps engineers avoiding massive API transactional bills.
 ## Containers
 
@@ -127,5 +120,5 @@
   - **(2024)** [AWS Samples (Boilerplates)](https://nubenetes.com/demos/#aws-samples-boilerplates) <span class='md-tag md-tag--warning'>[MULTI-LANGUAGE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A consolidated hub of official and community AWS deployment samples. Houses structured patterns and CloudFormation/Terraform codebases to fast-track prototype development in compliance with AWS architecture standards.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Backup](./aws-backup.md) | [AWS Containers](./aws-containers.md)
 

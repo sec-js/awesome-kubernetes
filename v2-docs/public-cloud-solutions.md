@@ -3,23 +3,14 @@
 !!! info "Architectural Context"
     Detailed reference for Public Cloud Solutions in the context of Cloud Providers (Hyperscalers).
 
-## Standard Reference
+## Architectural Foundations
 
-  - [medium: Cloud Agnostic Design 🌟](https://medium.com/path-to-software-architect/cloud-agnostic-design-925c08e1d610)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cybernews.com: Trouble in paradise: IT professionals unhappy with cloud' services](https://cybernews.com/cloud/trouble-in-paradise-it-professionals-unhappy-with-cloud-services)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/adeo-tech: Multi-Cloud Kubernetes Survival Guide 🌟](https://medium.com/adeo-tech/multi-cloud-kubernetes-survival-guide-49eee9aa58e2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: AWS vs Azure — Battle Of The Best Cloud Computing Platforms](https://medium.com/edureka/aws-vs-azure-1a882339f127)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Dzone: DevOps Services Pricing: AWS vs Azure vs Google Cloud 🌟🌟](https://dzone.com/articles/devops-services-pricing-aws-vs-azure-vs-google-clo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: AWS vs. Digital Ocean vs. Hetzner Cloud — Which Has' the Best Value for Money?](https://betterprogramming.pub/aws-vs-digital-ocean-vs-hetzner-cloud-which-has-the-best-value-for-money-bd9cb3c06dee)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Dzone: 5 Hosted Kubernetes Platforms](https://dzone.com/articles/5-hosted-kubernetes-platforms)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [investopedia.com: Amazon Web Services (AWS) Outage Causes Chaos (Dec 2021)](https://www.investopedia.com/amazon-web-services-outage-causes-chaos-5212233)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techrepublic.com: AWS outage: Your response to AWS going down shouldn't' be multicloud](https://www.techrepublic.com/article/aws-outage-your-response-to-aws-going-down-shouldnt-be-multicloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [techrepublic.com: AWS has gone down before, as have other providers; Fastly' has lessons to share from its own outage](https://www.techrepublic.com/article/aws-has-gone-down-before-as-have-other-providers-fastly-has-lessons-to-share-from-its-own-outage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Downdetector](https://downdetector.co.uk)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [sdxcentral.com: AWS Outage Stresses Telco Cloud Challenges](https://www.sdxcentral.com/articles/news/aws-outage-stresses-telco-cloud-challenges/2021/12)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [faun.pub: Multi-Cloud is NOT the solution to the next AWS outage](https://faun.pub/multi-cloud-is-not-the-solution-to-the-next-aws-outage-bb41c0b14573)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [hablemosdenube.com](https://www.hablemosdenube.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+### Kubernetes Tools
 
+#### General Reference
+
+  - [Dzone: DevOps Services Pricing: AWS vs Azure vs Google Cloud 🌟🌟](https://dzone.com/articles/devops-services-pricing-aws-vs-azure-vs-google-clo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==Dzone: DevOps Services Pricing: AWS vs Azure vs Google Cloud== 🌟🌟 in the Kubernetes Tools ecosystem.
+  - [Dzone: 5 Hosted Kubernetes Platforms](https://dzone.com/articles/5-hosted-kubernetes-platforms)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: 5 Hosted Kubernetes Platforms in the Kubernetes Tools ecosystem.
 ## Cloud Benchmarks
 
 ### Pricing Analysis
@@ -66,13 +57,6 @@
 #### Provider Comparisons
 
   - **(2026)** [youtube: A Cloud Guru - Cloud Provider Comparisons 🌟](https://www.youtube.com/playlist?app=desktop&list=PLI1_CQcV71RnBebKm_tH1uKYI3WxkM2TT)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A curated Pluralsight/A Cloud Guru video playlist featuring structural and strategic comparisons of hyperscalers. It covers pricing structures, operational overhead, and developer experience metrics. Live grounding confirms its baseline instructional value for junior cloud engineers.
-## Cloud Providers
-
-### Alternative Clouds
-
-#### Kubernetes DOKS
-
-  - **(2025)** [Digital Ocean Kubernetes (DOKS)](https://www.digitalocean.com/products/kubernetes) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Fully managed Kubernetes distribution that abstracts master node architecture, allowing users to rapidly deploy clusters. Features simplified persistent block storage volumes, automated node auto-scaling, and painless ingress configurations.
 ## Cloud Strategy
 
 ### Architecture
@@ -188,5 +172,5 @@
   - **(2026)** [Pivotal.io: Pivotal Container Service (PKS), owned by VMware](https://pivotal.io/platform/pivotal-container-service) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Originally Pivotal Container Service (PKS), this enterprise-ready Kubernetes runtime has been integrated directly into the VMware Tanzu Portfolio. It features multi-cluster management, declarative deployment, and deep integration with NSX-T networking. Live grounding labels the PKS brand as legacy, now superseded by Tanzu Kubernetes Grid.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Backup](./aws-backup.md) | [AWS Containers](./aws-containers.md)
 

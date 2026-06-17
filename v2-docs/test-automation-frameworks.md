@@ -3,28 +3,17 @@
 !!! info "Architectural Context"
     Detailed reference for Test Automation Frameworks and Behavior Driven Development. Selenium, Cypress, Cucumber, Appium and more in the context of Platform & Site Reliability.
 
-## Standard Reference
+## Architectural Foundations
 
-  - [Dzone: best practices for selenium automation](https://dzone.com/articles/best-practices-for-selenium-automation-one-must-kn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Dzone: top 11 challenges in autmation testing using selenium](https://dzone.com/articles/top-11-challenges-in-automation-testing-using-sele)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [qautomation.blog: How to run selenium script in JMeter](https://qautomation.blog/2019/05/07/how-to-run-selenium-script-in-jmeter)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Testing APIs with Python 🌟](https://medium.com/python-in-plain-english/testing-apis-with-python-4ca51d604ffe)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [testinglpoint.com: Cucumber Interview Question](https://www.testinglpoint.com/cucumber-interview-question)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone: API Testing With Cucumber](https://dzone.com/articles/api-testing-with-cucumber)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Dzone: 14 of the best automation testing tools available](https://dzone.com/articles/14-of-the-best-automation-testing-tools-available)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Dzone: The power of automated testing and test management](https://dzone.com/articles/the-power-of-automated-testing-and-test-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+### Kubernetes Tools
 
-## Cloud Architecture
+#### General Reference
 
-### Governance
-
-#### Azure
-
-##### Cloud Adoption Framework
-
-###### Monitoring
-
-  - **(2024)** [Monitor your Azure cloud estate - Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/manage/monitor#reference-for-monitoring-azure-services) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Microsoft's official framework for implementing enterprise-wide monitoring strategies across Azure subscription models. It details Azure Monitor integrations, Log Analytics configurations, and service-level baseline configurations. Curator Insight: Strategic enterprise adoption guide. Live Grounding: Focuses heavily on mapping technical telemetry directly to business outcomes and platform compliance frameworks.
+  - [Dzone: best practices for selenium automation](https://dzone.com/articles/best-practices-for-selenium-automation-one-must-kn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: best practices for selenium automation in the Kubernetes Tools ecosystem.
+  - [Dzone: top 11 challenges in autmation testing using selenium](https://dzone.com/articles/top-11-challenges-in-automation-testing-using-sele)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: top 11 challenges in autmation testing using selenium in the Kubernetes Tools ecosystem.
+  - [dzone: API Testing With Cucumber](https://dzone.com/articles/api-testing-with-cucumber)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: API Testing With Cucumber in the Kubernetes Tools ecosystem.
+  - [Dzone: 14 of the best automation testing tools available](https://dzone.com/articles/14-of-the-best-automation-testing-tools-available)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: 14 of the best automation testing tools available in the Kubernetes Tools ecosystem.
+  - [Dzone: The power of automated testing and test management](https://dzone.com/articles/the-power-of-automated-testing-and-test-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: The power of automated testing and test management in the Kubernetes Tools ecosystem.
 ## Cloud Operations
 
 ### Infrastructure Validation
@@ -184,5 +173,5 @@
   - **(2022)** [freecodecamp.org: Use Selenium to Create a Web Scraping Bot](https://www.freecodecamp.org/news/use-selenium-to-create-a-web-scraping-bot) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An engineering guide demonstrating how to leverage Selenium for scraping complex, dynamic JavaScript-rendered single-page applications where simple HTTP libraries fail. It outlines managing browser sessions, interacting with dynamic elements, bypassing basic detection systems, and extracting raw DOM data systematically.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [QA](./qa.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Chaos Engineering](./chaos-engineering.md) | [Developerportals](./developerportals.md)
 

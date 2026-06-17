@@ -3,130 +3,6 @@
 !!! info "Architectural Context"
     Detailed reference for DevOps Demos. Boilerplates/Samples, Tutorials & Screencasts in the context of Architectural Foundations.
 
-## Standard Reference
-
-  - [kubernetesbyexample.com](http://kubernetesbyexample.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [k8s Initializer 🌟](https://blackbird.a8r.io/initializer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.jetstack.io: Istio OIDC Authentication](https://developer.cyberark.com/blog/istio-oidc-authentication)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [trstringer.com: Deploy to AKS Using a Managed Identity from a GitHub Actions Self-Hosted Runner 🌟](https://trstringer.com/deploy-to-aks-from-github-actions/-self-hosted)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Clustering WildFly on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/clustering-wildfly-on-openshift-using-wildfly-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Java EE example on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/java-ee-example-application-on-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Microprofile example on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/running-microprofile-applications-on-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Deploying WildFly apps on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/using-wildfly-on-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Running Thorntail apps on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/thorntail-on-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Running Spring Boot applications on Openshift](http://www.mastertheboss.com/jboss-frameworks/spring/deploy-your-springboot-applications-on-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [SysAdmin Casts](https://sysadmincasts.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [DevStack](https://devstack.in)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [kubernetes-advocate.medium.com 🌟](https://kubernetes-advocate.medium.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [swissarmydevops.com](https://swissarmydevops.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone: DIY DevOps, CI, and CD with GitHub, Docker and a VPS](https://dzone.com/articles/diy-devops-ci-and-cd-with-github-docker-and-a-vps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [kubernetes-advocate.medium.com: Website Deployment to AWS with Ansible](https://kubernetes-advocate.medium.com/how-to-deploy-a-website-to-aws-with-ansible-e878a63dd93)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [konstruktoid.medium.com: Running a NGINX container using rootless Docker' with Ansible](https://konstruktoid.medium.com/running-a-nginx-container-using-rootless-docker-with-ansible-a2bfcedd3b07)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [kmahi2600.medium.com: Launching A WordPress Application With MYSQL Database' in K8S Cluster On AWS Using Ansible](https://kmahi2600.medium.com/launching-a-wordpress-application-with-mysql-database-in-k8s-cluster-on-aws-using-ansible-a78d6bf12b1a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [faun.pub: Automation: Deploying an app in GKE using Ansible](https://faun.pub/automation-deploying-an-app-in-gke-using-ansible-4b6687967ac3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ankush-chavan.medium.com: Creating Multi-Cloud Kubernetes Cluster on AWS,' Azure, and GCP cloud](https://ankush-chavan.medium.com/creating-multi-cloud-kubernetes-cluster-on-aws-azure-and-gcp-cloud-92d64633bdfc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: Clean Up Your Kubernetes Deployments Using Ansible](https://betterprogramming.pub/clean-up-your-kubernetes-deployments-using-ansible-10a000db313b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [praveendandu24.medium.com: Ensuring AWS Infrastructure Consistency with' Ansible Playbooks](https://praveendandu24.medium.com/ansible-infrastructure-testing-to-test-aws-resources-bd8bdba9ab7c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@Kubernetes_Advocate 🌟](https://medium.com/@Kubernetes_Advocate)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Efficient Node Out-of-Resource Management in Kubernetes](https://medium.com/kubernetes-tutorials/efficient-node-out-of-resource-management-in-kubernetes-67f158da6e59)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Prometheus-Grafana on K8s](https://medium.com/@sdhah1999/prometheus-grafana-on-k8s-6efee4af4036)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [trainings.kubernauts.sh](https://trainings.kubernauts.sh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [magalix.com: How To Integrate OPA Into Your Kubernetes Cluster Using Kube-mgmt](https://www.magalix.com/blog/how-to-integrate-opa-into-your-kubernetes-cluster-using-kube-mgmt)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Build a Federation of Multiple Kubernetes Clusters With Kubefed' V2](https://medium.com/better-programming/build-a-federation-of-multiple-kubernetes-clusters-with-kubefed-v2-8d2f7d9e198a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Single Sign-On in Kubernetes](https://medium.com/@andriisumko/single-sign-on-in-kubernetes-1ad9528350ed)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Kubernetes in a nutshell — tutorial for beginners 🌟🌟](https://medium.com/swlh/kubernetes-in-a-nutshell-tutorial-for-beginners-caa442dfd6c0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone: Bootstrapping Java Kubernetes Apps With Spring Initializr and K8s' Initializer 🌟](https://dzone.com/articles/bootstrapping-java-kubernetes-apps-no-yaml)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Production Ready CI/CD Pipeline with Kubernetes](https://medium.com/awsblogs/ci-cd-with-kubernetes-3c29e8073c38)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [myweblearner.com: Kubernetes(k8s) Readiness and Liveness Probe](https://myweblearner.com/springboot_k8s_readiness_liveness.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com: Attacking Kubernetes clusters using the Kubelet API](https://medium.com/faun/attacking-kubernetes-clusters-using-the-kubelet-api-abafc36126ca)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [itnext.io: Breaking down and fixing Kubernetes](https://itnext.io/breaking-down-and-fixing-kubernetes-4df2f22f87c3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ishantgaurav.in: Complete Application Deployment using Kubernetes](https://ishantgaurav.in/2021/06/22/complete-application-deployment-using-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: Deploy a Python API With Docker and Kubernetes](https://betterprogramming.pub/python-fastapi-kubernetes-gcp-296e0dc3abb6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cncf.io: Kubernetes Ingress gRPC example with a Dune quote service](https://www.cncf.io/blog/2021/09/24/kubernetes-ingress-grpc-example-with-a-dune-quote-service)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: How To Create a NoOps Deployment With GitHub Actions' Kubernetes and Shipa](https://betterprogramming.pub/how-to-create-a-noops-deployment-with-github-actions-kubernetes-and-shipa-18aab208fe7a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [levelup.gitconnected.com: Deploying a Simple Golang Web App to Kubernetes](https://levelup.gitconnected.com/deploying-simple-golang-webapp-to-kubernetes-25dc1736dcc4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/groupon-eng: LoadBalancer Services using Kubernetes in Docker' (kind)](https://medium.com/groupon-eng/loadbalancer-services-using-kubernetes-in-docker-kind-694b4207575d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [devxblog.hashnode.dev: Deploying Microservices with Persistent Volumes in' Kubernetes - Kubernetes Microservice Flask Application](https://devxblog.hashnode.dev/kubernetes-microservice-flask-application-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@hmquan08011996: Setup Microservices on Kubernetes — Write a' Configuration File](https://medium.com/@hmquan08011996/set-up-microservice-on-kubernetes-write-config-file-8df7c2b07a4c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [baeldung.com: Deploy a Spring Boot Application to OpenShift with Spring' Cloud Kubernetes 🌟](https://www.baeldung.com/spring-boot-deploy-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [hashicorp.com: Getting Started with Ambassador and Consul Using Kubernetes' Initializer](https://www.hashicorp.com/blog/getting-started-with-ambassador-and-consul-using-kubernetes-initializer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Consul-Kubernetes Ingress Gateways and L7 Traffic Management](https://medium.com/hashicorp-engineering/consul-kubernetes-ingress-gateways-and-l7-traffic-management-178957dcd934)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Kittens-as-a-Service: Layer 7 Traffic Management & Security with' Consul Connect](https://medium.com/hashicorp-engineering/kittens-as-a-service-layer-7-traffic-management-security-with-consul-connect-f5965fac5aa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cncf.io: Implementing GitOps on Kubernetes Using K3s, Rancher, Vault and' Argo CD](https://www.cncf.io/blog/2020/11/12/implementing-gitops-on-kubernetes-using-k3s-rancher-vault-and-argo-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [eksworkshop.com/x-ray/microservices](https://eksworkshop.com/x-ray/microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [eksworkshop.com: Configure Cluster Autoscaler (CA)](https://eksworkshop.com/scaling/deploy_ca)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: create your first application on aws eks kubernetes](https://medium.com/faun/create-your-first-application-on-aws-eks-kubernetes-cluster-874ee9681293)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [AWS App Mesh with EKS and Canary deployment](https://medium.com/@anupam.s1602/aws-app-mesh-with-eks-and-canary-deployment-5503d9ba95d6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [aws.plainenglish.io: Deploying Application on Amazon EKS](https://aws.plainenglish.io/deploying-application-on-amazon-eks-211eb46c069c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/bb-tutorials-and-thoughts: How to Build and Deploy MERN Stack' on Azure AKS](https://medium.com/bb-tutorials-and-thoughts/how-to-build-and-deploy-mern-stack-on-azure-aks-c25eaf27b9d0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Verifying container signatures on Kubernetes with Gatekeeper](https://medium.com/@LachlanEvenson/verifying-container-signatures-on-kubernetes-with-gatekeeper-19a4519c3016)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Mutating Kubernetes resources with Gatekeeper](https://medium.com/@LachlanEvenson/mutating-kubernetes-resources-with-gatekeeper-3e5585d49ead)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@hari.balagopal: Create a Helm chart automatically from Kubernetes' YAMLs](https://medium.com/@hari.balagopal/create-a-helm-chart-automatically-from-kubernetes-yamls-91a4c1bf8cc5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhatdemocentral.gitlab.io](https://redhatdemocentral.gitlab.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: Developing on OpenShift (katacoda interactive learning)' 🌟](https://developers.redhat.com/courses/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Deploying Docker Images to OpenShift](https://dzone.com/articles/deploying-docker-images-to-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Tutorial : Secure your API with x509 Mutual Authentication with' Spring Boot on OpenShift4](https://medium.com/@erfin.feluzy/tutorial-secure-your-api-with-x509-mutual-authentication-with-spring-boot-on-openshift4-416a00a47af8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com: Red Hat OpenShift Virtualization in nested VMware vSphere Cluster](https://medium.com/@carlosedp/red-hat-openshift-virtualization-in-nested-vmware-vsphere-56c5e5d76a80)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [JBoss Web Server Operator 🌟](https://access.redhat.com/documentation/en-us/red_hat_jboss_web_server/5.4/html-single/red_hat_jboss_web_server_for_openshift/index#jws_operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: How to deploy a Java application on Kubernetes in' minutes](https://developers.redhat.com/developer-sandbox/how-to-deploy-java-application-in-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: Welcome to the Developer Sandbox for Red Hat OpenShift.' Part 1: Deploying full-stack JavaScript applications to the Developer Sandbox for Red Hat OpenShift](https://developers.redhat.com/developer-sandbox/activities/deploying-full-stack-javascript-applications-to-the-sandbox/part1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [IBM Cloud Pak Playbook](https://cloudpak8s.io/apps/cp4a_overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [docs.openshift.com: OpenShift GitOps](https://docs.openshift.com/container-platform/4.8/cicd/gitops/understanding-openshift-gitops.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/adaltas: GitOps in practice, deploy Kubernetes applications with' ArgoCD](https://medium.com/adaltas/gitops-in-practice-deploy-kubernetes-applications-with-argocd-ca170ce8aba3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [gokuldevops.medium.com: Argo CD-Sample app deployment](https://gokuldevops.medium.com/argo-cdsample-app-deployment-56b36601f279)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@martin.hodges: Spring Boot CI/CD on Kubernetes using Terraform,' Ansible and GitHub: Part 12](https://medium.com/@martin.hodges/use-terraform-ansible-and-github-actions-to-automate-running-your-spring-boot-application-on-e82424da828e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com: Installing an OKD 4.5 Cluster](https://medium.com/@craig_robinson/guide-installing-an-okd-4-5-cluster-508a2631cbee)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [wkrzywiec.medium.com: How to deploy application on Kubernetes with Helm](https://wkrzywiec.medium.com/how-to-deploy-application-on-kubernetes-with-helm-39f545ad33b8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [josephrodriguezg.medium.com: Deploying a Spring Boot microservice in Kubernetes' using Helm charts](https://josephrodriguezg.medium.com/deploying-a-spring-boot-application-in-kubernetes-using-helm-charts-5c04c2d46e16)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Part 1](https://medium.com/@simionrazvan/simple-spring-boot-microservice-deployed-in-kubernetes-using-docker-and-nexus-part-1-b581e3ca8916)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [kubernetes-advocate.medium.com: CI/CD with Dockers and Jenkins 🌟](https://kubernetes-advocate.medium.com/ci-cd-with-dockers-and-jenkins-70b6f801f9f7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@devml2016: Let’s Start Automation using Jenkins, Docker, GitHub](https://medium.com/@devml2016/lets-start-automation-using-jenkins-docker-github-d5f8d019ec4a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Just commit your code and your docker server is ready (jenkins +' github + docker)](https://medium.com/@deepanshuyadavv11/task1-integrating-github-jenkins-and-docker-d66a817774be)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ittroubleshooter.in: Run Parallel Builds in Kubernetes Cluster with Jenkins' Pipeline 🌟](https://ittroubleshooter.in/run-parallel-build-kubernetes-cluster-jenkins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: DevOps CI/CD Pipeline with Jenkins, Kubernetes & GitHub: Part 1' 🌟](https://medium.com/the-programmer/ci-cd-pipeline-with-jenkins-github-part-1-c057a31b5297)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Building CI/CD Pipeline with Jenkins, Kubernetes & GitHub: Part' 2 🌟](https://medium.com/the-programmer/building-ci-cd-pipeline-with-jenkins-kubernetes-github-part-2-cbb6c366aa41)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Deploy Docker Image To Kubernetes Cluster Using Jenkins 🌟](https://medium.com/codex/deploy-docker-image-to-kubernetes-cluster-using-jenkins-8182cc0a8de7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [lakshaws.medium.com: CI/CD Pipeline for Dockerized Applications](https://lakshaws.medium.com/ci-cd-pipeline-for-dockerized-applications-f1003e821812)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [praveendavidmathew.medium.com: Data driven testing per request without using' data file](https://praveendavidmathew.medium.com/data-driven-testing-per-request-without-using-data-file-aeb573b4f63a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone: Continuous Deployment on Kubernetes With Spinnaker](https://dzone.com/articles/continuous-deployment-on-kubernetes-with-spinnaker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@kachidude007: Setting up an Access Token in GitLab for a Jenkins' Pipeline](https://medium.com/@kachidude007/setting-up-an-access-token-in-gitlab-for-a-jenkins-pipeline-a688dd6c994a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.griddynamics.com: Developing a modular pipeline library to improve' DevOps collaboration](https://blog.griddynamics.comdeveloping-a-modular-pipeline-library-to-improve-devops-collaboration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cyberciti.biz: How to create MySQL user and grant permissions in AWS RDS](https://www.cyberciti.biz/faq/how-to-create-mysql-user-and-grant-permissions-in-aws-rds)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Fetch Application Inventory using Systems Manager](https://medium.com/cloud-techies/application-inventory-using-system-manager-f3eeb75d3279)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone.com: From Spring Boot Microservices to Lambda Functions 🌟🌟](https://dzone.com/articles/from-java-microservices-to-lambda-functions-a-jour)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@adrianarba: CI/CD defined through terraform using AWS CodePipeline,' AWS CodeCommit, and AWS CodeBuild](https://medium.com/@adrianarba/ci-cd-defined-through-terraform-using-aws-codepipeline-aws-codecommit-and-aws-codebuild-12ade4d9cfa3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [faun.pub: Using AWS Session Manager With Ansible To Execute Playbook On' EC2](https://faun.pub/using-aws-session-manager-with-ansible-to-execute-playbook-on-ec2-ac97fa17b187)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: Build a Cloud-Native Multiprocessing Framework](https://betterprogramming.pub/build-a-cloud-native-multiprocessing-framework-b33cfc2c02b9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [aws.plainenglish.io: Trigger, Function, Message | Brandi McCall](https://aws.plainenglish.io/trigger-function-message-12f117b7f067)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [towardsaws.com: Integrating Python, Amazon API Gateway, Lambda, SQS, and' SNS Services | Brandi McCall](https://towardsaws.com/integrating-python-amazon-api-gateway-lambda-sqs-and-sns-services-6015631d5527)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Azure DevOps Demo Generator 🌟](https://azuredevopsdemogenerator.azurewebsites.net)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [reddit.com: Automate Infrastructure Deployments on Microsoft Azure with' Terraform and Jenkins](https://www.reddit.com/r/Terraform/comments/h0tdq3/automate_infrastructure_deployments_on_microsoft)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/tea-networks: Kubernetes & CI/CD Pipeline](https://medium.com/tea-networks/kubernetes-ci-cd-pipeline-c028aea17535)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Setting up KafkaSource to send data and displayed with Knative event-display](https://medium.com/@jweng1/setting-up-kafkasource-to-send-data-and-displayed-with-knative-event-display-33891b253442)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Install Istio on Azure Kubernetes cluster using Terraform](https://medium.com/@vipinagarwal18/install-istio-on-azure-kubernetes-cluster-using-terraform-214f6d3f611)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: Create an Amazon EKS Fargate Cluster and Managed' Node Group Using Terraform](https://betterprogramming.pub/with-latest-updates-create-amazon-eks-fargate-cluster-and-managed-node-group-using-terraform-bc5cfefd5773)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [fsgeorgee.medium.com: Growing out of Heroku to Terraform, Docker and AWS](https://fsgeorgee.medium.com/growing-out-of-heroku-to-terraform-docker-and-aws-69e66df4132d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: Automate and Configure Your RDS Database With Terraform' 🌟](https://betterprogramming.pub/automate-and-configure-your-rds-database-with-terraform-898fd4b8990d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [the-tech-guy.in: Automating LAMP deployment using Terraform and Ansible](https://the-tech-guy.in/2022/03/08/automating-lamp-config-using-terraform-and-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: All Hail the Monolith — Celebrating the Verbosity' of the Unified Architecture in Terraform](https://betterprogramming.pub/all-hail-the-monolith-celebrating-the-verbosity-of-the-unified-architecture-in-terraform-81b53e3a03ae)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [faun.pub: AWS ECS Blue/Green Deployment Setup Using Terraform](https://faun.pub/aws-ecs-blue-green-deployment-setup-using-terraform-b56bb4f656ea)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [aws.plainenglish.io: Creating a custom EC2 module using Terraform](https://aws.plainenglish.io/creating-a-custom-ec2-module-using-terraform-59c9896c2df2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@zeloygabri: Deploying 2-Tier AWS Architecture using Terraform](https://medium.com/@zeloygabri/deploying-2-tier-aws-architecture-using-terraform-b4167b035751)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [christopher-lawshe.medium.com: Building infrastructure with Terraform: EC2,' Jenkins, S3 and more](https://christopher-lawshe.medium.com/building-infrastructure-with-terraform-ec2-jenkins-s3-and-more-4ec30f53a44a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [towardsaws.com: How to Deploy Two-Tier AWS Architecture with Terraform?](https://towardsaws.com/how-to-deploy-two-tier-aws-architecture-with-terraform-59db7b11dd47)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [mahira-technology.medium.com: Automating AWS CodePipeline Setup with Terraform:' Streamline Your CI/CD Workflow](https://mahira-technology.medium.com/deploying-aws-codepipeline-with-terraform-d6613979d0b6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@Tyler.Gallimore: Deploying Apache Web Server on AWS EC2 with' Terraform and Docker](https://medium.com/@Tyler.Gallimore/deploying-apache-web-server-on-aws-ec2-with-terraform-and-docker-6c315c81c024)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/geekculture: Monitoring your system with Docker + Grafana + Prometheus' + Node](https://medium.com/geekculture/monitoring-your-system-with-docker-grafana-prometheus-node-d7fae11416f3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [levelup.gitconnected.com: GitOps: CI/CD using GitHub Actions and ArgoCD' on Kubernetes](https://levelup.gitconnected.com/gitops-ci-cd-using-github-actions-and-argocd-on-kubernetes-909d85d37746)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/geekculture: GitOps — Github Actions K8s Deploy Workflow](https://medium.com/geekculture/gitops-github-actions-k8s-deploy-workflow-54f0d9a1d11b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [eggboy.medium.com: CI/CD Java apps securely to Azure Kubernetes Service' with GitHub Action — Part 1](https://eggboy.medium.com/ci-cd-java-apps-securely-to-azure-kubernetes-service-with-github-action-part-1-16393af4d097)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [kaleshreya907.medium.com: GitHub Actions: Netflix Deployment](https://kaleshreya907.medium.com/step2a-install-docker-and-run-sonarqube-container-faa42d01f5fe)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@ebonyymonae: Github Actions and Automation](https://medium.com/@ebonyymonae/github-actions-and-automation-9637aa06af64)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [levelup.gitconnected.com: GitHub Actions, self-hosted runners on Amazon' EKS & spot instances](https://levelup.gitconnected.com/github-actions-self-hosted-runners-on-amazon-eks-spot-instances-bc3abcd5d38f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@eduardo854: Building Your GitOps Pipeline with GitHub Actions,' DockerHub, and Helm Repository](https://medium.com/@eduardo854/building-your-gitops-pipeline-with-github-actions-dockerhub-and-helm-repository-553c4873116e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.devgenius.io: Running the OpenTelemetry Demo App in Kubernetes](https://blog.devgenius.io/running-opentelemetry-demo-app-in-kubernetes-95dccd613e0b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [sitepoint.com: A Guide to Serverless Functions and How to Deploy Them](https://www.sitepoint.com/gatsby-mdx-blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-
 ## AI and Data Engineering
 
 ### Azure Container Apps
@@ -247,6 +123,9 @@
 #### Spring Boot Microservices
 
   - **(2022)** [piomin/sample-spring-microservices-kubernetes: Microservices with Spring' Boot and Spring Cloud on Kubernetes Demo Project - piotrminkowski.com 🌟](https://github.com/piomin/sample-spring-microservices-kubernetes) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An active and highly referenceable demo project exhibiting the deployment of Spring Boot microservices inside a Kubernetes cluster. Utilizes Spring Cloud Kubernetes for discovery, ConfigMaps for configurations, and Ribbon/Feign client integrations for service-to-service communication.
+#### Tanzu Framework
+
+  - **(2022)** [tanzu.vmware.com: Microservices with Spring Cloud Kubernetes Reference Architecture 🌟](https://www.vmware.com/products/app-platform/tanzu) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides the canonical reference architecture for running high-scale Spring Cloud applications natively on Kubernetes. Evaluates Spring Cloud Kubernetes integrations for service discovery, centralized configuration via ConfigMaps, and seamless external secrets management, aligning with 2026 Tanzu application platform standards.
 ### Containerization (1)
 
 #### Java Spring Boot
@@ -380,6 +259,11 @@
 #### Automated Workflows
 
   - **(2020)** [CI/CD for Kubernetes through a Spring Boot example (Banzai Cloud CI/CD)](https://teletype.in/@sravancynixit/CcwqFANxY) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Continuous Integration and Deployment guide utilizing Banzai Cloud automation pipelines for Spring Boot applications. Illustrates container building, secure credential handling, configuration injects, and blue-green application promotion tactics on Kubernetes.
+### Platform-as-a-Service
+
+#### OpenShift
+
+  - **(2018)** [stackoverflow: How to define BuildConfig object with Jenkins and openshift](https://stackoverflow.com/questions/52337851/how-to-define-buildconfig-object-with-jenkins-and-openshift) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight addresses automated OpenShift build pipelines. Live Grounding details the precise YAML and Jenkins pipeline syntax needed to safely trigger BuildConfig objects from external CI nodes. It remains highly relevant for legacy Jenkins-to-OpenShift integrations.
 ## CICD
 
 ### GitLab CI
@@ -510,6 +394,13 @@
   - **(2026)** [learntocloud.guide](https://learntocloud.guide/#/projects/README)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An open-source, highly structured educational roadmap designed to transition traditional sysadmins into proficient cloud engineers. It guides learners through networking, Linux administration, infrastructure as code, and cloud-native topologies. Live grounding highlights its massive adoption within the DevOps community.
 ## Cloud Native
 
+### Continuous Integration
+
+#### CI-CD Pipelines
+
+##### Red Hat OpenShift
+
+  - **(2021)** [developers.redhat.com: Deploy Helm charts with Jenkins CI/CD in Red Hat OpenShift 4 🌟](https://developers.redhat.com/articles/2021/05/24/deploy-helm-charts-jenkins-cicd-red-hat-openshift-4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Developer workflow demonstrating automated packaging and continuous delivery of Helm charts using Jenkins pipelines in OpenShift 4. Reviews the integration of enterprise security constraints and build processes.
 ### Security
 
 #### Policy Enforcement
@@ -543,7 +434,7 @@
   - **(2024)** [**stefanprodan/podinfo**](https://github.com/stefanprodan/podinfo) <span class='md-tag md-tag--info'>⭐ 5917</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A premium go-to microservice web application written in Go, specifically designed to showcase best practices in Kubernetes deployment, health checking, instrumentation (Prometheus/Jaeger), and progressive delivery validation (such as Flagger/Istio canary releases).
 ## Cloud Native Platforms
 
-### Red Hat OpenShift
+### Red Hat OpenShift (1)
 
 #### Automation Grading
 
@@ -595,10 +486,10 @@
 
 #### Application Dev
 
-  - **(2021)** [github.com/MatthewCYLau: TypeScript Node Express Google Kubernetes Engine' (GKE)](https://github.com/MatthewCYLau/node-express-typescript-k8-gke) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical developer bootstrap repository containing configurations to build, package, and orchestrate a containerized TypeScript Node Express API application on Google Kubernetes Engine (GKE) under standard ingress architectures.
+  - **(2021)** [github.com/MatthewCYLau: TypeScript Node Express Google Kubernetes Engine' (GKE)](https://github.com/MatthewCYLau/node-express-typescript-k8-gke) <span class='md-tag md-tag--info'>⭐ 11</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical developer bootstrap repository containing configurations to build, package, and orchestrate a containerized TypeScript Node Express API application on Google Kubernetes Engine (GKE) under standard ingress architectures.
 #### Provisioning (1)
 
-  - **(2021)** [github.com/MatthewCYLau: React App on Google Kubernetes Engine (GKE) with' Terraform](https://github.com/MatthewCYLau/gcp-react-gke-terraform) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Infrastructure-as-Code repository containing templates to construct a secure Google Kubernetes Engine (GKE) cluster via Terraform. Deploys an automated frontend React framework alongside its required networking and load balancing constructs.
+  - **(2021)** [github.com/MatthewCYLau: React App on Google Kubernetes Engine (GKE) with' Terraform](https://github.com/MatthewCYLau/gcp-react-gke-terraform) <span class='md-tag md-tag--info'>⭐ 15</span> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Infrastructure-as-Code repository containing templates to construct a secure Google Kubernetes Engine (GKE) cluster via Terraform. Deploys an automated frontend React framework alongside its required networking and load balancing constructs.
 ## Cloud Security
 
 ### Identity and Access Management
@@ -674,6 +565,13 @@
   - **(2020)** [Kubernetes workshop in a box](https://archive.kabisa.nl/tech/k8s-workshop-in-a-box) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — An archival portal hosting a self-contained, offline-capable 'Kubernetes Workshop in a Box.' Designed to run interactive tutorials without reliable internet connections. (Live Grounding: While some container tooling patterns are archived, the offline structure is a highly referenced model for local development isolation).
 ## Cloud-Native Java (1)
 
+### Build Tools
+
+#### Eclipse JKube
+
+##### Developer Workflow
+
+  - **(2020)** [developers.redhat.com: Java development on top of Kubernetes using Eclipse JKube](https://developers.redhat.com/blog/2020/08/24/java-development-on-top-of-kubernetes-using-eclipse-jkube) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This article demonstrates outer-loop developer workflows utilizing Eclipse JKube to deploy Java applications straight to running Kubernetes clusters. Live Grounding illustrates how JKube's design empowers local development cycles by bypassing manual YAML writing, instead building and pushing directly via standard IDE integrations and build loops.
 ### Runtimes
 
 #### JBoss EAP
@@ -718,7 +616,7 @@
 
 #### Examples
 
-  - **(2022)** [github.com/AdminTurnedDevOps/kubernetes-examples](https://github.com/AdminTurnedDevOps/kubernetes-examples) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A clean, community-curated collection of fundamental manifest configurations. Serves as a useful rapid-lookup repository containing validated yaml schemas for Deployments, ConfigMaps, Secrets, Ingress, and persistent volume abstractions.
+  - **(2022)** [github.com/AdminTurnedDevOps/kubernetes-examples](https://github.com/AdminTurnedDevOps/kubernetes-examples) <span class='md-tag md-tag--info'>⭐ 755</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A clean, community-curated collection of fundamental manifest configurations. Serves as a useful rapid-lookup repository containing validated yaml schemas for Deployments, ConfigMaps, Secrets, Ingress, and persistent volume abstractions.
 #### Foundational (1)
 
   - **(2021)** [howtoforge.com: How to deploy your first pod on a Kubernetes Cluster](https://www.howtoforge.com/how-to-deploy-your-first-pod-on-a-kubernetes-cluster) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Foundational technical walkthrough outlining the basic architecture of Pod components. Demystifies core scheduling mechanisms, declaring multi-container environments, configuring volumes, and validating basic cluster reachability for initial workload tests.
@@ -755,6 +653,11 @@
 #### PostgreSQL
 
   - **(2020)** [Deploying PostgreSQL in MiniShift/OpenShift 3](https://www.dbi-services.com/blog/deploying-postgresql-in-minishiftopenshift) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Guides users through deploying PostgreSQL on Minishift/OpenShift 3, highlighting standard volume mounting processes. Due to the deprecation of both OpenShift 3 and Minishift, modern applications utilize OpenShift Local and PostgreSQL Operator frameworks.
+### Storage Infrastructure
+
+#### Persistent Volumes
+
+  - **(2020)** [developers.redhat.com: Persistent storage in action: Understanding Red Hat OpenShift’s persistent volume framework 🌟](https://developers.redhat.com/blog/2020/10/22/persistent-storage-in-action-understanding-red-hat-openshifts-persistent-volume-framework) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep-dives into Red Hat OpenShift's persistent volume (PV) framework, focusing on the Container Storage Interface (CSI). Explains dynamic storage allocation, access modes, and how to safely secure transaction-heavy datastores.
 ## DevOps
 
 ### CICD (1)
@@ -807,6 +710,9 @@
   - **(2021)** [amazon.com: Declarative provisioning of AWS resources with Spinnaker and Crossplane](https://aws.amazon.com/blogs/opensource/declarative-provisioning-of-aws-resources-with-spinnaker-and-crossplane) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight showcases the declarative provisioning of AWS infrastructure using Spinnaker unified with Crossplane. Live Grounding shows that combining Crossplane's Kubernetes Control Plane model with Spinnaker's application pipelines represents an advanced platform engineering paradigm. This enables application developers to spin up dependencies dynamically without custom script hooks.
 #### Spinnaker Setup
 
+##### Git Integration
+
+  - **(2022)** [armory.io: Git Pull Support in Spinnaker](https://www.harness.io/products/continuous-delivery) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight addresses configuring Git pull trigger functionality inside Spinnaker. Live Grounding confirms that enabling automated repository monitoring allows Spinnaker to initiate targeted application pipelines immediately upon commit detection. This establishes the prerequisite feedback loop necessary for true continuous delivery.
 ##### Kubernetes Deployment Models
 
   - **(2020)** [wardviaene/advanced-kubernetes-course/spinnaker 🌟](https://github.com/wardviaene/advanced-kubernetes-course/tree/master/spinnaker) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight points to a companion repository for an advanced Kubernetes Spinnaker course. Live Grounding emphasizes its utility in demonstrating advanced deployment strategies (such as blue-green and canary analysis) directly inside Kubernetes clusters using Spinnaker's pipeline GUI. It remains a reliable hands-on learning lab.
@@ -864,6 +770,9 @@
 ##### Continuation Passing Style
 
   - **(2021)** [==Continuation Passing Style (CPS)==](https://github.com/cloudbees/groovy-cps) <span class='md-tag md-tag--info'>⭐ 95</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight introduces the underlying Continuation Passing Style (CPS) engine used for executing asynchronous Groovy scripts in Jenkins pipelines. Live Grounding reveals that understanding CPS is critical for debugging serialization errors during master restarts. This technical library ensures execution state can survive controller crashes and resume safely.
+##### JobDSL API Reference
+
+  - **(2022)** [Defines a Groovy CPS DSL definition: pipelineJob definition cps script](https://jenkinsci.github.io/job-dsl-plugin/#plugin/workflow-cps) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight presents an aggregative documentation path detailing Groovy CPS execution layouts, pipeline migrations, and auxiliary utility plugins. Live Grounding asserts that despite modern cloud-native shifts, these JobDSL APIs and diagnostic tools (like the Plugin Installation Manager) form the backbone of highly reliable enterprise environments. It provides essential guidelines for maintaining complex pipelines.
 ## DevOps and CICD
 
 ### AWS EKS (2)
@@ -952,6 +861,7 @@
   - **(2020)** [piotrminkowski.com: Continuous Integration with Jenkins on Kubernetes 🌟](https://piotrminkowski.com/2020/11/10/continuous-integration-with-jenkins-on-kubernetes) <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details executing dynamically provisioned Jenkins agent pods inside a target Kubernetes cluster. Explores mounting credentials, executing parallel pipeline workloads, and cleanup phases to optimize compute budgets.
 #### Jenkins Basics
 
+  - **(2022)** [lambdatest.com: Best Jenkins Pipeline Tutorial For Beginners (Examples) 🌟](https://www.testmuai.com/blog/jenkins-pipeline-tutorial) <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed entry-level guide to understanding Jenkins Declarative versus Scripted Pipeline syntax. Explains basic pipeline constructs including stages, agents, post-execution tasks, and environment variable manipulation.
   - **(2021)** [simplilearn.com: What is CI/CD Pipeline and How to Implement it Using Jenkins?](https://www.simplilearn.com/tutorials/jenkins-tutorial/ci-cd-pipeline) <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Basic tutorial outlining CI/CD life cycles, illustrating how continuous deployment patterns differ from continuous delivery, and implementing simple pipelines using standard Jenkins components.
 #### Jenkins Shared Libraries
 
@@ -988,6 +898,11 @@
   - **(2023)** [==Azure/Draft 🌟==](https://github.com/Azure/draft) <span class='md-tag md-tag--info'>⭐ 642</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Azure Draft simplifies early-stage developer onboarding onto Kubernetes. By scanning source code directories, it automatically generates containerization assets including Dockerfiles, Kubernetes manifests, Helm charts, and deployment workflows.
 ## Developer Tools (1)
 
+### Playgrounds
+
+#### Cloudflare Workers
+
+  - **(2024)** [DevStack](https://resume-builder.natwarrathor961.workers.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight flags this as a custom Cloudflare Workers playground. Live Grounding shows a highly specific, serverless-based developer utility that acts as an online resume builder. Although labeled DevStack, it demonstrates lightweight, edge-based execution capabilities.
 ### Quarkus CLI
 
 #### Local Development (3)
@@ -1061,7 +976,7 @@
 #### Flux v2
 
   - **(2023)** [flux2-kustomize-helm-example 🌟](https://github.com/fluxcd/flux2-kustomize-helm-example) <span class='md-tag md-tag--info'>⭐ 1268</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The canonical Flux v2 reference architecture. Provides production-tested blueprints for structuring multi-environment repositories, configuring Kustomize hierarchies, packaging Helm releases, and enforcing namespace isolation patterns.
-### OpenShift
+### OpenShift (1)
 
 #### Enterprise Dev
 
@@ -1102,7 +1017,7 @@
 #### Multi-Cluster Mesh
 
   - **(2022)** [Tutorial: Connect Amazon EKS and Azure AKS Clusters with Google Anthos](https://thenewstack.io/tutorial-connect-amazon-eks-and-azure-aks-clusters-with-google-anthos) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Multi-cloud tutorial explaining cluster federation workflows using Google Anthos. Coordinates the management, communication policies, and service mesh definitions across Amazon EKS and Microsoft Azure AKS clusters.
-### OpenShift (1)
+### OpenShift (2)
 
 #### Developer Workspaces
 
@@ -1137,7 +1052,7 @@
 
 #### Examples (1)
 
-  - **(2022)** [github.com/AdminTurnedDevOps/kubernetes-in-production-examples](https://github.com/AdminTurnedDevOps/kubernetes-in-production-examples) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Advanced enterprise-readiness blueprint repository. Highlights essential security context layers, proper resource constraint mechanisms (CPU/Memory requests and limits), NetworkPolicies, Horizontal Pod Autoscalers, and liveness/readiness probe best practices for production deployments.
+  - **(2022)** [github.com/AdminTurnedDevOps/kubernetes-in-production-examples](https://github.com/AdminTurnedDevOps/kubernetes-in-production-examples) <span class='md-tag md-tag--info'>⭐ 79</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Advanced enterprise-readiness blueprint repository. Highlights essential security context layers, proper resource constraint mechanisms (CPU/Memory requests and limits), NetworkPolicies, Horizontal Pod Autoscalers, and liveness/readiness probe best practices for production deployments.
 ### Provisioning (2)
 
 #### High Availability (1)
@@ -1169,6 +1084,9 @@
   - **(2020)** [Writing Customized Reports Using Metering Operator](https://www.redhat.com/en/blog/writing-customized-reports-using-metering-operator) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Explores authoring custom resource and cost allocation reports using the OpenShift Metering Operator. Note: The Metering Operator has since been deprecated in favor of OpenShift Cost Management.
 ### Enterprise Cluster Management
 
+#### Ansible and ACM
+
+  - **(2021)** [redhat.com: ACM Ansible Integration Overview](https://www.redhat.com/en/blog) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores integrations bridging Red Hat Advanced Cluster Management (ACM) with Ansible Automation Platform. Automates physical or non-Kubernetes resource tasks at critical points in cluster lifecycles.
 #### OKD Community Platform
 
   - **(2020)** [openshift.com: Recap: OKD 4 Testing and Deployment Workshop - Videos and Additional Resources](https://www.redhat.com/en/blog/recap-okd-4-testing-and-deployment-workshop-videos-and-additional-resources?utm_source=thenewstack&utm_medium=twitter&utm_campaign=platform) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compiles core workshop resources on OKD 4 deployment, testing, and lifecycle patterns. Explores underlying Fedora CoreOS operating mechanics and bootstrap procedures for community-led OpenShift clusters.
@@ -1263,6 +1181,11 @@
   - **(2022)** [terraform.collabnix.com](https://collabnix.github.io/terraform) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A collaborative, multi-step reference hub designed to systematically introduce DevOps engineers to Terraform. Covers declarative state files, modular organization, provider configurations, and deployment strategies across multiple hyper-scale cloud providers.
 ## Infrastructure as Code and CI-CD
 
+### CI-CD Pipelines (1)
+
+#### Concourse CI
+
+  - **(2020)** [thoughtworks.com: Modernizing your build pipelines with **Concourse CI** 🌟](https://www.thoughtworks.com/es-es/insights/blog) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Analyzes the migration patterns from Jenkins or legacy orchestrators to Concourse CI, highlighting Concourse's declarative, stateless, container-first pipeline design. (Live Grounding: Concourse CI, though revolutionary for its resource-based declarative architecture, has largely been superseded in 2026 by GitOps controllers like Argo CD and cloud-native pipeline runners like GitHub Actions).
 ### Configuration Management
 
 #### Ansible
@@ -1282,7 +1205,7 @@
   - **(2025)** [ansible.github.io/workshops/demos : Red Hat Ansible Automation Platform Workshops](https://labs.demoredhat.com/demos) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official Red Hat Ansible workshops repository, highlighting hands-on scenarios for cloud provisioning, configuration management, network automation, and security playbooks. (Live Grounding: Serves as the authoritative source for enterprise teams to upskill in Ansible Automation Platform strategies).
 ### Developer Platforms (2)
 
-#### CI-CD Pipelines
+#### CI-CD Pipelines (2)
 
   - **(2021)** [shipa.io: A Developer focused CI/CD pipeline for Kubernetes](https://shipa.io/a-developer-focused-ci-cd-pipeline-for-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines designing application-centric CI/CD pipelines that leverage developer platform layers to remove raw Kubernetes configuration friction. (Live Grounding: Highlights the evolving landscape of platform engineering where developers focus on code deliverables while security/infrastructure is handled declaratively by platforms).
 ### GitOps and Declarative Git (1)
@@ -1297,6 +1220,22 @@
 #### Kubernetes Integration (1)
 
   - **(2026)** [==github: Spring Cloud Kubernetes 🌟==](https://github.com/spring-cloud/spring-cloud-kubernetes) <span class='md-tag md-tag--info'>⭐ 3534</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A specialized integration library that allows Spring Cloud applications to run transparently on Kubernetes. It maps Kubernetes ConfigMaps and Secrets to Spring's Environment, and translates discovery mechanisms to native Kubernetes endpoints. It bridges the gap between Cloud Native infrastructure patterns and Java application logic.
+## Kubernetes Tools
+
+### General Reference
+
+  - [developers.redhat.com: Developing on OpenShift (katacoda interactive learning) 🌟](https://developers.redhat.com/learn/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering developers.redhat.com in the Kubernetes Tools ecosystem.
+  - [JBoss Web Server Operator 🌟](https://docs.redhat.com/en/documentation/red_hat_jboss_web_server/5.4/html-single/red_hat_jboss_web_server_for_openshift/index#jws_operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.redhat.com in the Kubernetes Tools ecosystem.
+  - [developers.redhat.com: Welcome to the Developer Sandbox for Red Hat OpenShift. Part 1: Deploying full-stack JavaScript applications to the Developer Sandbox for Red Hat OpenShift](https://developers.redhat.com/learn/openshift/how-deploy-full-stack-javascript-applications-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering developers.redhat.com in the Kubernetes Tools ecosystem.
+  - [docs.openshift.com: OpenShift GitOps](https://docs.redhat.com/en/documentation/openshift_container_platform/4.8/html/cicd/gitops#understanding-openshift-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.redhat.com in the Kubernetes Tools ecosystem.
+  - [dzone: DIY DevOps, CI, and CD with GitHub, Docker and a VPS](https://dzone.com/articles/diy-devops-ci-and-cd-with-github-docker-and-a-vps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: DIY DevOps, CI, and CD with GitHub, Docker and a VPS in the Kubernetes Tools ecosystem.
+  - [dzone: Bootstrapping Java Kubernetes Apps With Spring Initializr and K8s' Initializer 🌟](https://dzone.com/articles/bootstrapping-java-kubernetes-apps-no-yaml)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Bootstrapping Java Kubernetes Apps With Spring Initializr and K8s' Initializer 🌟 in the Kubernetes Tools ecosystem.
+  - [cncf.io: Kubernetes Ingress gRPC example with a Dune quote service](https://www.cncf.io/blog/2021/09/24/kubernetes-ingress-grpc-example-with-a-dune-quote-service)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Kubernetes Ingress gRPC example with a Dune quote service in the Kubernetes Tools ecosystem.
+  - [cncf.io: Implementing GitOps on Kubernetes Using K3s, Rancher, Vault and' Argo CD](https://www.cncf.io/blog/2020/11/12/implementing-gitops-on-kubernetes-using-k3s-rancher-vault-and-argo-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Implementing GitOps on Kubernetes Using K3s, Rancher, Vault and' Argo CD in the Kubernetes Tools ecosystem.
+  - [Deploying Docker Images to OpenShift](https://dzone.com/articles/deploying-docker-images-to-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Deploying Docker Images to OpenShift in the Kubernetes Tools ecosystem.
+  - [dzone: Continuous Deployment on Kubernetes With Spinnaker](https://dzone.com/articles/continuous-deployment-on-kubernetes-with-spinnaker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Continuous Deployment on Kubernetes With Spinnaker in the Kubernetes Tools ecosystem.
+  - [dzone.com: From Spring Boot Microservices to Lambda Functions 🌟🌟](https://dzone.com/articles/from-java-microservices-to-lambda-functions-a-jour)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone.com: From Spring Boot Microservices to Lambda Functions 🌟🌟 in the Kubernetes Tools ecosystem.
+  - [reddit.com: Automate Infrastructure Deployments on Microsoft Azure with' Terraform and Jenkins](https://www.reddit.com/r/Terraform/comments/h0tdq3/automate_infrastructure_deployments_on_microsoft)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com: Automate Infrastructure Deployments on Microsoft Azure with' Terraform and Jenkins in the Kubernetes Tools ecosystem.
 ## Local Development (4)
 
 ### Legacy Cluster Tools
@@ -1400,7 +1339,7 @@
 
 #### Static Code Analysis
 
-  - **(2020)** [SonarQube: An OpenShift-focused Docker build of Sonarqube](https://github.com/OpenShiftDemos/sonarqube-openshift-docker) <span class='md-tag md-tag--warning'>[DOCKERFILE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A custom Docker build configuration designed to host SonarQube instances on OpenShift. Modern strategies prioritize official Helm charts or certified OpenShift Operator deployments, but this configuration highlights important historical patterns for handling stateful Java applications.
+  - **(2020)** [SonarQube: An OpenShift-focused Docker build of Sonarqube](https://github.com/OpenShiftDemos/sonarqube-openshift-docker) <span class='md-tag md-tag--info'>⭐ 42</span> <span class='md-tag md-tag--warning'>[DOCKERFILE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A custom Docker build configuration designed to host SonarQube instances on OpenShift. Modern strategies prioritize official Helm charts or certified OpenShift Operator deployments, but this configuration highlights important historical patterns for handling stateful Java applications.
 ## Platform Engineering
 
 ### Architectural Insights
@@ -1421,9 +1360,14 @@
 #### Kubernetes Operators
 
   - **(2020)** [developers.redhat.com: ‘Hello, World’ tutorial with Kubernetes Operators](https://developers.redhat.com/blog/2020/08/21/hello-world-tutorial-with-kubernetes-operators) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines basic concepts of the Operator SDK to develop a "Hello World" Kubernetes custom controller. Focuses on reconciliation loop structures, Custom Resource Definition (CRD) setups, and deployment strategies.
+### Developer Experience (2)
+
+#### Red Hat Ecosystem (1)
+
+  - **(2026)** [==Developer Sandbox==](https://developers.redhat.com/developer-sandbox) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Provides immediate, zero-cost developer access to an active, shared OpenShift cluster environment pre-populated with cloud-native tooling. Eliminates complex infrastructure bootstrapping for developers, letting them deploy containers instantly. In 2026, it is the standard starting sandbox for assessing OpenShift APIs.
 ### Enterprise Kubernetes
 
-#### OpenShift (2)
+#### OpenShift (3)
 
   - **(2025)** [rcarrata.com](https://rcarrata.com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Roberto Carratalá's technical blog features deep architectural explorations of OpenShift and enterprise Kubernetes setups. It is packed with real-world scenarios covering OAuth integrations, ingress routing configurations, and security hardeners.
 ### GitOps and CI-CD
@@ -1472,6 +1416,11 @@
 #### OpenShift AI
 
   - **(2023)** [==OpenShift AI Examples==](https://github.com/CastawayEGR/openshift-ai-examples) <span class='md-tag md-tag--info'>⭐ 25</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A community collection of machine learning workflows and notebooks deployed on Red Hat OpenShift AI. Details deployment pipelines for distributed training, model serving, and GPU resource slicing.
+### Security and Compliance (1)
+
+#### Public Sector
+
+  - **(2026)** [**redhatgov.io**](http://redhatgov.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Specialized platform engineering portal with focused guides on locking down OpenShift infrastructure to meet strict military, intelligence, and federal government security benchmarks (DISA STIG, FIPS, NIST). A mandatory reference for architects building air-gapped, zero-trust container setups.
 ## Provisioning (3)
 
 ### Bootstrapping
@@ -1520,7 +1469,12 @@
 
 ##### Jenkins Pipelines (2)
 
-  - **(2020)** [LerryAlexander: Postman + Newman API Automated Tests running on a Jenkins' Pipeline 🌟](https://github.com/LerryAlexander/postman_jenkins_api_tests) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight focuses on running automated Postman test suites through Newman CLI inside a Jenkins Pipeline. Live Grounding confirms this is a standard integration step for end-to-end REST API verification. By surfacing test execution failures in Jenkins console output, teams can safely block regression deployments.
+  - **(2020)** [LerryAlexander: Postman + Newman API Automated Tests running on a Jenkins' Pipeline 🌟](https://github.com/LerryAlexander/postman_jenkins_api_tests) <span class='md-tag md-tag--info'>⭐ 3</span> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight focuses on running automated Postman test suites through Newman CLI inside a Jenkins Pipeline. Live Grounding confirms this is a standard integration step for end-to-end REST API verification. By surfacing test execution failures in Jenkins console output, teams can safely block regression deployments.
+#### Postman Guides
+
+##### Testing Frameworks
+
+  - **(2021)** [freecodecamp.org: Master API Testing with Postman](https://www.freecodecamp.org/news/master-api-testing-with-postman) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight presents this masterclass from FreeCodeCamp for comprehensive API testing utilizing Postman. Live Grounding notes that while GUI based testing is powerful for debugging, exporting these suites for CLI integration via Newman remains the gold standard for automated pipelines. It serves as an essential foundational guide for quality engineering.
 ## Reference Architectures
 
 ### Artifact Registries
@@ -1566,7 +1520,7 @@
 #### Hacking Labs
 
   - **(2024)** [**The Kubernetes Goat**](https://github.com/madhuakula/kubernetes-goat) <span class='md-tag md-tag--info'>⭐ 5674</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The premier interactive security training platform containing an intentionally vulnerable Kubernetes cluster. Designed as an educational sandbox to demonstrate real-world cluster vulnerabilities, RBAC privilege escalations, metadata exposure, and container breakout exploits.
-## Security and Compliance (1)
+## Security and Compliance (2)
 
 ### Cloud Security Assessments
 
@@ -1660,7 +1614,14 @@
 ##### Spring Petclinic Red Hat
 
   - **(2020)** [github.com/redhat-developer-demos/spring-petclinic 🌟](https://github.com/redhat-developer-demos/spring-petclinic) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight maps out Red Hat's customized developer demo fork of the Spring Petclinic project. Live Grounding indicates this version is heavily optimized for OpenShift deployments, featuring native integration with OpenShift build configs and Kubernetes secrets. It is ideal for illustrating red-hat native cloud development workflows.
+## Software Testing
+
+### API Automation
+
+#### KIE Server
+
+  - **(2020)** [developers.redhat.com: Automated API testing for the KIE Server](https://developers.redhat.com/blog/2020/05/01/automated-api-testing-for-the-kie-server) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on setting up automated REST API test runners for KIE decision services. Demonstrates performance execution metrics, payload validation models, and CI integration pipelines using Postman and Newman test wrappers.
 
 ---
-💡 **Explore Related:** [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md) | [Other Awesome Lists](./other-awesome-lists.md)
+💡 **Explore Related:** [Kubernetes](./kubernetes.md) | [About](./about.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

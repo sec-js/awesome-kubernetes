@@ -3,44 +3,17 @@
 !!! info "Architectural Context"
     Detailed reference for Databases on Kubernetes. Database DevOps in the context of Data & Advanced Analytics.
 
-## Standard Reference
+## Architectural Foundations
 
-  - [levelup.gitconnected.com: How to design a system to scale to your first' 100 million users](https://levelup.gitconnected.com/how-to-design-a-system-to-scale-to-your-first-100-million-users-4450a2f9703d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [magalix.com: Kubernetes And Databases 🌟](https://www.magalix.com/blog/kubernetes-and-database)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Not using trendy technologies is the best thing for your Startup!](https://medium.com/dataseries/not-using-nosql-is-good-i-stuck-to-sql-4504a67972f0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [venturebeat.com: The rise of Kubernetes and its impact on enterprise databases](https://venturebeat.com/2021/11/03/the-rise-of-kubernetes-and-its-impact-on-enterprise-databases)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: Multi-Tenancy Support With Spring Boot, Liquibase,' and PostgreSQL](https://betterprogramming.pub/multi-tenancy-support-with-spring-boot-liquibase-and-postgresql-d41942dc0639)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@bijit211987: Kubernetes ready for stateful workloads and to' Revolutionize Enterprise Database Management](https://medium.com/@bijit211987/kubernetes-ready-for-stateful-workloads-and-to-revolutionize-enterprise-database-management-3cd619b1a0b2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/javarevisited: Top Performance issues every developer/architect' must know — part 1-Database](https://medium.com/javarevisited/top-performance-issues-every-developer-architect-must-know-part-1-fc1ad6e1644b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dineshchandgr.medium.com: Why do we need a Database Connection Pool? -every' programmer must know](https://dineshchandgr.medium.com/why-do-we-need-a-database-connection-pool-every-programmer-must-know-9f90e7c8e5af)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/fintechexplained: What Is Database Sharding?](https://medium.com/fintechexplained/what-is-database-sharding-582b36282f97)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.equationlabs.io: Managing database migrations safely in high replicated' k8s deployment 🌟](https://blog.equationlabs.io/managing-database-migrations-safely-in-high-replicated-k8s-deployment)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@mkremer_75412: Why Postgres RDS didn’t work for us (and why' it won’t work for you if you’re implementing a big data solution)](https://medium.com/@mkremer_75412/why-postgres-rds-didnt-work-for-us-and-why-it-won-t-work-for-you-if-you-re-implementing-a-big-6c4fff5a8644)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@fengruohang: Database in Kubernetes: Is that a good idea?](https://medium.com/@fengruohang/database-in-kubernetes-is-that-a-good-idea-daf5775b5c1f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com: How to choose the right database for your service 🌟](https://medium.com/wix-engineering/how-to-choose-the-right-database-for-your-service-97b1670c5632)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [stackoverflow.com: Is the usage of stored procedures a bad practice?](https://stackoverflow.com/questions/1761601/is-the-usage-of-stored-procedures-a-bad-practice)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [softwareengineering.stackexchange.com: What is the best practice about microservice' architecture for consuming many stored procedures in the same database?](https://softwareengineering.stackexchange.com/questions/436567/what-is-the-best-practice-about-microservice-architecture-for-consuming-many-sto)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [betterprogramming.pub: 8 Techniques To Speed up Your Database](https://betterprogramming.pub/8-techniques-to-speed-up-your-database-292754ff7739)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [sixfold.medium.com: Reducing database queries to a minimum with DataLoaders](https://sixfold.medium.com/reducing-database-queries-to-a-minimum-with-dataloaders-cc98c25e54ce)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [reddit.com: What's the best, proper way of running a database cluster on' top of Kubernetes?](https://www.reddit.com/r/kubernetes/comments/9d8on5/whats_the_best_proper_way_of_running_a_database)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloudsavvyit.com: Should You Run a Database in Docker?](https://www.cloudsavvyit.com/5414/should-you-run-a-database-in-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: DevOps and Databases — The forgotten automation](https://medium.com/devops-dudes/devops-and-databases-the-forgotten-automation-95325b2d3c89)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@database-mesh: Database Mesh 2.0: Database Governance in a Cloud' Native Environment](https://medium.com/@database-mesh/database-mesh-2-0-database-governance-in-a-cloud-native-environment-3e41f0f2722c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Wikipedia: CockroachDB](https://en.wikipedia.org/wiki/Cockroach_Labs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.cloudneutral.se: Running CockroachDB TPC-C benchmark on GKE](https://blog.cloudneutral.se/running-cockroachdb-tpc-c-benchmark-on-gke)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Running Oracle 12c on OpenShift Container Platform](https://medium.com/@pittar/running-oracle-12c-on-openshift-container-platform-ca471a9f7057)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [twindb.com: Verify MySQL Backups With TwinDB Backup Tool](https://twindb.com/verify-mysql-backups-with-twindb-backup-tool)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [pub.towardsai.net: Step-by-Step Design of Enhanced Entity-Relationship (EER)' in MySQL](https://pub.towardsai.net/step-by-step-design-of-enhanced-entity-relationship-eer-in-mysql-1e0f8b9fe5d4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dbasecenter.com: The top 5 MySQL performance variables](https://dbasecenter.com/blog/the-top-5-mysql-performance-variables)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloudsavvyit.com: How to Run PHPMyAdmin in a Docker Container](https://www.cloudsavvyit.com/13842/how-to-run-phpmyadmin-in-a-docker-container)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone: PostgreSQL vs MySQL Performance](https://dzone.com/articles/postgresql-versus-mysql-performance)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium: Upgrading MySQL (Percona Server) from 5.7 to 8.0](https://medium.com/flant-com/upgrading-mysql-percona-server-5-to-8-4bce53bdce5c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [tech.trell.co: Redis Cluster Creation Automation](https://tech.trell.co/redis-cluster-creation-automation-5e71eedf0e56)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.devgenius.io: How to use Redis Pub/Sub in your Python Application 🌟](https://blog.devgenius.io/how-to-use-redis-pub-sub-in-your-python-application-b6d5e11fc8de)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [rockset.com: Sequoia Capital: Why We Moved from Elasticsearch to Rockset](https://rockset.com/blog/sequoia-capital-elasticsearch-to-rockset)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dzone: Stateful Microservices With Apache Ignite](https://dzone.com/articles/stateful-microservices-with-apache-ignite)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [medium.com/@nomulex: How to create an ssh tunnel to a remote database in' Kubernetes 🌟](https://medium.com/@nomulex/how-to-create-an-ssh-tunnel-to-a-remote-database-in-kubernetes-8e702e927328)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+### Kubernetes Tools
 
+#### General Reference
+
+  - [stackoverflow.com: Is the usage of stored procedures a bad practice?](https://stackoverflow.com/questions/1761601/is-the-usage-of-stored-procedures-a-bad-practice)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering stackoverflow.com: Is the usage of stored procedures a bad practice? in the Kubernetes Tools ecosystem.
+  - [softwareengineering.stackexchange.com: What is the best practice about microservice' architecture for consuming many stored procedures in the same database?](https://softwareengineering.stackexchange.com/questions/436567/what-is-the-best-practice-about-microservice-architecture-for-consuming-many-sto)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering softwareengineering.stackexchange.com: What is the best practice about microservice' architecture for consuming many stored procedures in the same database? in the Kubernetes Tools ecosystem.
+  - [reddit.com: What's the best, proper way of running a database cluster on' top of Kubernetes?](https://www.reddit.com/r/kubernetes/comments/9d8on5/whats_the_best_proper_way_of_running_a_database)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com: What's the best, proper way of running a database cluster on' top of Kubernetes? in the Kubernetes Tools ecosystem.
+  - [dzone: PostgreSQL vs MySQL Performance](https://dzone.com/articles/postgresql-versus-mysql-performance)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: PostgreSQL vs MySQL Performance in the Kubernetes Tools ecosystem.
+  - [dzone: Stateful Microservices With Apache Ignite](https://dzone.com/articles/stateful-microservices-with-apache-ignite)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Stateful Microservices With Apache Ignite in the Kubernetes Tools ecosystem.
 ## Architecture
 
 ### Data Lakes
@@ -56,11 +29,6 @@
   - **(2021)** [unifieddatascience.com: Data lake design patterns on google (GCP) cloud](https://www.unifieddatascience.com/data-lake-design-patterns-on-google-cloud) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed reference architecture mapping design paths for deploying scalable data lakes inside Google Cloud Platform (GCP). Reviews Cloud Storage setups, BigQuery access schemas, and serverless ingestion patterns.
 ## Cloud Infrastructure
 
-### FinOps
-
-#### Cost Optimization
-
-  - **(2023)** [treblle.com: How does Treblle scale on AWS without breaking the bank?](https://treblle.com/blog/how-does-treblle-scale-on-aws-without-breaking-the-bank) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights Treblle’s architectural strategy for processing billions of API requests on AWS affordably. Live Grounding details how modern SaaS platforms leverage spot instances, API gateway caching, serverless scale-to-zero databases, and intensive performance profiling to decouple traffic volume from infrastructure costs.
 ### Market Trends
 
 #### Cloud Databases
@@ -79,7 +47,7 @@
   - **(2024)** [Percona.com: Percona Kubernetes Operator for Percona XtraDB Cluster](https://docs.percona.com/percona-operator-for-mysql/pxc/index.html) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official reference guide to deploying and managing high-availability Percona XtraDB Clusters on Kubernetes. Provides programmatic automation for zero-downtime upgrades, secure backup routines, node discovery, and automatic recovery protocols.
 #### Redis
 
-  - **(2024)** [RedisLabs/redis-enterprise-k8s-docs: Deploying Redis Enterprise on Kubernetes](https://github.com/RedisLabs/redis-enterprise-k8s-docs) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical deployment documentation for organizing enterprise-grade Redis caches and document databases inside Kubernetes. Explains cluster layouts, memory configurations, security profiles, and automatic scaling capabilities.
+  - **(2024)** [RedisLabs/redis-enterprise-k8s-docs: Deploying Redis Enterprise on Kubernetes](https://github.com/RedisLabs/redis-enterprise-k8s-docs) <span class='md-tag md-tag--info'>⭐ 170</span> <span class='md-tag md-tag--warning'>[HTML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical deployment documentation for organizing enterprise-grade Redis caches and document databases inside Kubernetes. Explains cluster layouts, memory configurations, security profiles, and automatic scaling capabilities.
 #### Secrets Management
 
   - **(2021)** [percona.com: Storing Kubernetes Operator for Percona Server for MongoDB Secrets in Github](https://www.percona.com/blog/storing-kubernetes-operator-for-percona-server-for-mongodb-secrets-in-github) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates security pipelines for managing MongoDB database credentials inside GitHub. Automates deployment configurations securely through GitOps, injecting secrets directly to Percona Kubernetes Operator instances.
@@ -194,13 +162,6 @@
 #### Operational Guide
 
   - **(2021)** [itnext.io: How to Run Databases in Kubernetes](https://itnext.io/stateful-workloads-in-kubernetes-e49b56a5959)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A granular blueprint on configuring stateful workloads inside Kubernetes clusters. Details the practical implementation of Headless Services, stable network identifiers, local persistent volumes, and graceful cluster shutdowns.
-## Database
-
-### PostgreSQL (1)
-
-#### Database Administration
-
-  - **(2020)** [info.crunchydata.com: Quickly Document Your Postgres Database Using psql Meta-Commands](https://www.crunchydata.com/blog/d-meta) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Interactive tutorial on the utilization of native psql meta-commands to rapidly trace schema layouts, inspect index sizes, and generate database structure documentation directly via CLI commands.
 ## Database and Storage Management
 
 ### Data Administration
@@ -316,6 +277,7 @@
 #### Kubernetes Operators (3)
 
   - **(2024)** [kubedb.com](https://kubedb.com) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical review of KubeDB, an operator platform for automating databases on Kubernetes. Highlights declarative management of clustering, scheduling backups, and schema updates across multiple database engines (PostgreSQL, MySQL, MongoDB).
+  - **(2023)** [itnext.io: Operator Lifecycle Manager](https://itnext.io/wth-is-a-operator-lifecycle-manager-873cf1661b04) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains Operator Lifecycle Manager (OLM) as part of the Operator Framework. Highlights catalog management, automated dependency resolution, security upgrades, and dynamic operator scaling across production enterprise clusters.
 #### MySQL Operators
 
   - **(2024)** [Moco](https://cybozu-go.github.io/moco) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduction to Cybozu's Moco, a highly resilient, modern Go-written MySQL operator for Kubernetes. Focuses on cluster setups, fast failover mechanics, and maintaining an extremely small operational footprint.
@@ -389,12 +351,7 @@
 #### VictoriaMetrics
 
   - **(2024)** [VictoriaMetrics](https://victoriametrics.com) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official site of VictoriaMetrics, an extremely fast and cost-effective TSDB solution. Widely used as a drop-in replacement for Prometheus storage owing to high compression ratios and out-of-the-box cluster scalability.
-### PostgreSQL (2)
-
-#### Database Monitoring (1)
-
-  - **(2020)** [info.crunchydata.com: How to Setup PostgreSQL Monitoring in Kubernetes](https://www.crunchydata.com/blog/setup-postgresql-monitoring-in-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Hands-on implementation guide for deploying a scalable monitoring architecture for PostgreSQL. Instructs on integrating postgres_exporter configurations, configuring Prometheus scrape pools, and importing Grafana analytics interfaces.
-## PostgreSQL (3)
+## PostgreSQL (1)
 
 ### Alternative Paradigms
 
@@ -408,7 +365,7 @@
 ### Backups
 
   - **(2024)** [==orgrim/pg_back: Simple backup tool for PostgreSQL==](https://github.com/orgrim/pg_back) <span class='md-tag md-tag--info'>⭐ 563</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A simple CLI automation utility for backing up PostgreSQL databases. Features structured schema and data exports, customizable compression, automated backup retention sweeps, and cron-friendly integration configurations.
-### Database Administration (1)
+### Database Administration
 
   - **(2021)** [percona.com: Should I Create an Index on Foreign Keys in PostgreSQL?](https://www.percona.com/blog/should-i-create-an-index-on-foreign-keys-in-postgresql) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the performance impact of indexing foreign keys in PostgreSQL. Evaluates join performance, query plans, and lock contention during parent table updates to optimize schema write throughput.
 ### Database Architecture (1)
@@ -575,13 +532,6 @@
 #### Crunchy PostgreSQL
 
   - **(2023)** [Crunchy Data PostgreSQL Operator](https://nubenetes.com/crunchydata/) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Evaluates the Crunchy PostgreSQL Operator (PGO) which automates production-grade PostgreSQL deployments on Kubernetes. Features include automated high availability, pgBackRest-driven backup orchestration, connection pooling via pgBouncer, and deep monitoring metrics. A de facto standard solution for enterprises migrating critical relational engines into Kubernetes platforms.
-## System Architecture
-
-### Data Management
-
-#### Enterprise Migration
-
-  - **(2024)** [**xataka.com: El Excel se ha usado en la Fórmula 1 hasta que se han dado cuenta que no es la mejor forma de controlar las 20.000 piezas del coche**](https://www.xataka.com/automovil/excel-se-ha-usado-formula-1-que-se-han-dado-cuenta-que-no-mejor-forma-controlar-20-000-piezas-coche) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Investigates Williams Racing's historic reliance on Microsoft Excel for managing over 20,000 individual Formula 1 car components, and their subsequent modernization. The lack of relational integrity, collaborative concurrency, and historical audit trails in spreadsheets led to massive operational overhead and design desynchronization. This serves as a stark warning on the limits of "shadow IT" and the urgent necessity of database-backed configuration management databases (CMDBs).
 ## Time-Series
 
 ### Architecture (1)
@@ -592,5 +542,5 @@
   - **(2024)** [victoriametrics.com: Q2 2024 Round Up: VictoriaMetrics & VictoriaLogs Updates](https://victoriametrics.com/blog/q2-2024-round-up-victoriametrics-and-victorialogs-updates/index.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical feature overview covering VictoriaMetrics and VictoriaLogs updates, focusing on dynamic retention strategies, ingestion enhancements, storage footprint reduction, and custom query language performance.
 
 ---
-💡 **Explore Related:** [Yaml](./yaml.md) | [Message Queue](./message-queue.md) | [Crunchydata](./crunchydata.md)
+💡 **Explore Related:** [Crunchydata](./crunchydata.md) | [Yaml](./yaml.md) | [Message Queue](./message-queue.md)
 
