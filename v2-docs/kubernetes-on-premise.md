@@ -16,7 +16,34 @@
 
 #### General Reference
 
+  - [wecloudpro.com: Deploy HA kubernetes cluster in AWS in less than 5 minutes](http://wecloudpro.com/2020/01/13/kube-autp-aws.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering wecloudpro.com in the Kubernetes Tools ecosystem.
+  - [blog.kubecost.com: Kubernetes kOps: Step-By-Step Example & Alternatives](https://blog.kubecost.com/blog/kubernetes-kops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.kubecost.com: Kubernetes kOps: Step-By-Step Example & Alternatives in the Kubernetes Tools ecosystem.
+  - [imsundeep8.medium.com: Deploy Production-grade Kubernetes Cluster using' kOps on Amazon Cloud (AWS)](https://imsundeep8.medium.com/deploy-production-grade-kubernetes-cluster-using-kops-on-amazon-cloud-aws-abc79f46aa32)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering imsundeep8.medium.com: Deploy Production-grade Kubernetes Cluster using' kOps on Amazon Cloud (AWS) in the Kubernetes Tools ecosystem.
+  - [medium.com: **Demystifying High Availability in Kubernetes Using Kubeadm**](https://medium.com/velotio-perspectives/demystifying-high-availability-in-kubernetes-using-kubeadm-3d83ed8c458b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com: **Demystifying High Availability in Kubernetes Using Kubeadm** in the Kubernetes Tools ecosystem.
+  - [blog.tobias-huebner.org: Low-budget self-hosted Kubernetes 🌟](https://blog.tobias-huebner.org/low-budget-kubernetes-self-hosted-series)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.tobias-huebner.org: Low-budget self-hosted Kubernetes 🌟 in the Kubernetes Tools ecosystem.
+  - [medium.com/@ZiXianZeroX: Setting Up an On-premise Kubernetes Cluster from' Scratch](https://medium.com/@ZiXianZeroX/setting-up-an-on-premise-kubernetes-cluster-from-scratch-8e3a6b415387)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@ZiXianZeroX: Setting Up an On-premise Kubernetes Cluster from' Scratch in the Kubernetes Tools ecosystem.
+  - [faun.pub: Configuring HA Kubernetes cluster on bare metal servers with kubeadm.' 1/3](https://faun.pub/configuring-ha-kubernetes-cluster-on-bare-metal-servers-with-kubeadm-1-2-1e79f0f7857b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering faun.pub: Configuring HA Kubernetes cluster on bare metal servers with kubeadm.' 1/3 in the Kubernetes Tools ecosystem.
+  - [blog.learncodeonline.in: Kubernetes Cluster Deployment on CentOS Linux](https://blog.learncodeonline.in/kubernetes-cluster-deployment-on-centos-linux)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.learncodeonline.in: Kubernetes Cluster Deployment on CentOS Linux in the Kubernetes Tools ecosystem.
+  - [medium.com/@benjaminacar.private: A Comprehensive Guide to Setup a New K8s' Cluster](https://medium.com/@benjaminacar.private/a-comprehensive-guide-to-setup-a-new-k8s-cluster-4b88e6f021bc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@benjaminacar.private: A Comprehensive Guide to Setup a New K8s' Cluster in the Kubernetes Tools ecosystem.
+  - [itwonderlab.com: Kubernetes Cluster using Vagrant and Ansible with Containerd' (in 3 minutes) 🌟](https://www.itwonderlab.com/en/ansible-kubernetes-vagrant-tutorial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering itwonderlab.com: Kubernetes Cluster using Vagrant and Ansible with Containerd' (in 3 minutes) 🌟 in the Kubernetes Tools ecosystem.
+  - [napo.io: Kubernetes The (real) Hard Way on AWS](https://napo.io/posts/kubernetes-the-real-hard-way-on-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering napo.io: Kubernetes The (real) Hard Way on AWS in the Kubernetes Tools ecosystem.
+  - [napo.io: Terraform Kubernetes Multi-Cloud (ACK, AKS, DOK, EKS, GKE, OKE)](https://napo.io/posts/terraform-kubernetes-multi-cloud-ack-aks-dok-eks-gke-oke)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering napo.io: Terraform Kubernetes Multi-Cloud (ACK, AKS, DOK, EKS, GKE, OKE) in the Kubernetes Tools ecosystem.
+  - [medium: Upgrading Kubernetes The Hard Way](https://medium.com/nordcloud-engineering/upgrading-kubernetes-the-hard-way-ac533cfb4ff2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Upgrading Kubernetes The Hard Way in the Kubernetes Tools ecosystem.
+  - [medium: Kubernetes the hard way on Docker](https://medium.com/@brightzheng100/kubernetes-the-hard-way-on-docker-f512bae734af)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Kubernetes the hard way on Docker in the Kubernetes Tools ecosystem.
+  - [medium.com/@norlin.t: Kubernetes the hard (illumos) way](https://medium.com/@norlin.t/kubernetes-the-hard-illumos-way-c4b45a080bac)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@norlin.t: Kubernetes the hard (illumos) way in the Kubernetes Tools ecosystem.
+  - [medium.com/@norlin.t: Kubernetes the hard (illumos) way, last part](https://medium.com/@norlin.t/kubernetes-the-hard-illumos-way-last-part-c68ca71bc2ce)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@norlin.t: Kubernetes the hard (illumos) way, last part in the Kubernetes Tools ecosystem.
+  - [medium: ClusterOps: 1-Line Commit to Upgrade Your Kubernetes Clusters 🌟](https://medium.com/swlh/clusterops-1-line-commit-to-upgrade-your-kubernetes-clusters-de3548124d04)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: ClusterOps: 1-Line Commit to Upgrade Your Kubernetes Clusters 🌟 in the Kubernetes Tools ecosystem.
+  - [cncf.io webinar: Deploying Kubernetes to bare metal using cluster API](https://www.cncf.io/webinars/deploying-kubernetes-to-bare-metal-using-cluster-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io webinar: Deploying Kubernetes to bare metal using cluster API in the Kubernetes Tools ecosystem.
   - [cncf.io: Kubernetes Cluster API reaches production readiness with version' 1.0](https://www.cncf.io/blog/2021/10/06/kubernetes-cluster-api-reaches-production-readiness-with-version-1-0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Kubernetes Cluster API reaches production readiness with version' 1.0 in the Kubernetes Tools ecosystem.
+  - [cloudsavvyit.com: How to run your own kubernetes cluster with Microk8s](https://www.cloudsavvyit.com/13024/how-to-run-your-own-kubernetes-cluster-with-microk8s)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cloudsavvyit.com: How to run your own kubernetes cluster with Microk8s in the Kubernetes Tools ecosystem.
+  - [kubedex.com: Kubernetes Operating Systems 🌟](https://kubedex.com/kubernetes-operating-systems)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering kubedex.com: Kubernetes Operating Systems 🌟 in the Kubernetes Tools ecosystem.
+  - [baeldung.com: Lightweight Kubernetes Distributions](https://www.baeldung.com/ops/kubernetes-lightweight-distributions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering baeldung.com: Lightweight Kubernetes Distributions in the Kubernetes Tools ecosystem.
+  - [**VMware Kubernetes Tanzu**](https://cloud.vmware.com/tanzu)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering **VMware Kubernetes Tanzu** in the Kubernetes Tools ecosystem.
+  - [wecloudpro.com: VMware Tanzu Community Edition 🌟](https://www.wecloudpro.com/2021/11/13/Tanzu-Community-Edition.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering wecloudpro.com: VMware Tanzu Community Edition 🌟 in the Kubernetes Tools ecosystem.
+  - [Pharos 🌟](https://k8spharos.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Pharos 🌟 in the Kubernetes Tools ecosystem.
+  - [medium: K0s Supports Kubernetes 1.22](https://medium.com/k0sproject/k0s-supports-kubernetes-1-22-a498e41bf5af)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: K0s Supports Kubernetes 1.22 in the Kubernetes Tools ecosystem.
+  - [medium: k0s Ready for Production](https://medium.com/k0sproject/k0s-ready-for-production-20255c4b0791)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: k0s Ready for Production in the Kubernetes Tools ecosystem.
+  - [medium: k0s Optimizes Start Time, Adds Cluster Level Backup/Restore and' More](https://medium.com/k0sproject/k0s-optimizes-start-time-adds-cluster-level-backup-restore-and-more-8ffef894a1ae)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: k0s Optimizes Start Time, Adds Cluster Level Backup/Restore and' More in the Kubernetes Tools ecosystem.
 ## Databases
 
 ### Kubernetes Operators
@@ -31,13 +58,6 @@
 #### Zero Trust
 
   - **(2026)** [==defenseunicorns/zarf==](https://github.com/zarf-dev/zarf) <span class='md-tag md-tag--info'>⭐ 1925</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly resilient developer tool designed by Defense Unicorns to package, deploy, and manage Kubernetes clusters and cloud-native applications in strictly air-gapped, offline, or secure zero-trust environments. Zarf bundles container registries, Helm charts, binary dependencies, and configurations into a single cryptographically signed archive file, completely removing internet reliance.
-## DevOps Culture
-
-### Organizational Design
-
-#### Culture and Governance
-
-  - **(2023)** [**blog.vmware.com: DevOps: Culture – Collaboration, Empowerment, Autonomy 🌟**](https://blogs.vmware.com/cloud-foundation) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Explores structural and cultural transformations required to establish a high-performing DevOps initiative. Focuses on decentralizing operational decisions, psychological safety, and establishing platform teams to enable developers.
 ## Education
 
 ### Kubernetes
@@ -83,16 +103,8 @@
 #### Sandboxing
 
   - **(2021)** [==Kata Containers on MicroK8s==](https://github.com/didier-durand/microk8s-kata-containers) <span class='md-tag md-tag--info'>⭐ 34</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A community repository providing integration instructions and configurations to run Kata Containers within a Canonical MicroK8s environment. This architecture allows security teams to deploy hardware-isolated, hypervisor-sandboxed container runtimes (using QEMU or Cloud Hypervisor) inside lightweight local clusters, resolving tenant isolation concerns in multi-tenant environments.
-### Hybrid Cloud
-
-#### GitOps (1)
-
-  - **(2021)** [Kubernetes GitOps with Azure Arc and Charmed Kubernetes](https://canonical.com/blog/gitops-with-azure-arc-and-charmed-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical case study showcasing hybrid cloud management by linking Canonical's Charmed Kubernetes clusters with Microsoft Azure Arc. It details how Azure Arc acts as an overlay management plane, allowing administrators to push unified GitOps policies, access controls, and application resources to on-premises Charmed clusters.
 ### Kubernetes Distributions
 
-#### Automated Operations
-
-  - **(2026)** [Charmed Kubernetes](https://ubuntu.com/kubernetes/charmed-k8s) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Canonical's enterprise Kubernetes distribution orchestrated using Juju Charms. This platform automates deployment, scaling, lifecycle management, and day-2 operations of multi-cloud Kubernetes clusters using modular, declarative software models, ensuring easy integration with Ceph, OpenStack, and major public clouds.
 #### Custom Installers
 
   - **(2026)** [kurl.sh](https://kurl.sh) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source online utility and framework designed to construct custom, production-ready, air-gapped Kubernetes distribution installers. Replicated/kurl aggregates chosen components (like CNIs, storage, and registries) into a single bash-driven installer script to facilitate simple downstream application deliveries.
@@ -105,9 +117,6 @@
   - **(2020)** [thenewstack.io: Deploy Microk8s and the Kubernetes Dashboard for K8s Development](https://thenewstack.io/deploy-microk8s-and-the-kubernetes-dashboard-for-k8s-development)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical tutorial covering the setup of Canonical's MicroK8s on local environments coupled with the enablement of the official Kubernetes Web UI (Dashboard). The guide details how MicroK8s' single-command add-on framework simplifies cluster observability and bootstrapping for developers.
   - **(2020)** [thenewstack.io: Deploy a Kubernetes Cluster on Ubuntu Server with Microk8s](https://thenewstack.io/deploy-a-kubernetes-cluster-on-ubuntu-server-with-microk8s)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A step-by-step guide outlining how to install, configure, and scale MicroK8s on an Ubuntu Server environment. It demonstrates the simplicity of setting up multi-node local clusters with high availability (dqlite-backed control planes) using snap commands.
   - **(2020)** [infoq.com: Mirantis Announces k0s, a New Kubernetes Distribution](https://www.infoq.com/news/2020/12/k0s-kubernetes-distribution)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A retrospective announcement of Mirantis' launch of k0s. Highlighted its zero-friction approach, multi-master architectural patterns with a decentralized control plane, and its capability to run isolated control planes separate from application workload nodes.
-#### Enterprise Distributions
-
-  - **(2026)** [OKD](https://okd.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The community-backed, open-source upstream counterpart to Red Hat OpenShift. OKD integrates Kubernetes with core Linux container tools (like Fedora CoreOS) to offer a complete self-managing, multi-tenant container platform designed for declarative applications, CI/CD, and simplified enterprise operations.
 #### Market Landscapes
 
   - **(2022)** [infoworld.com: 6 Kubernetes distributions leading the container revolution](https://www.infoworld.com/article/2266054/6-kubernetes-distributions-leading-the-container-revolution.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative market overview focusing on major commercial Kubernetes platforms driving enterprise cloud-native architecture. Evaluates core features of Red Hat OpenShift, VMware Tanzu Grid, Rancher Kubernetes Engine (RKE), Mirantis Kubernetes Engine, Docker Enterprise, and Canonical Kubernetes, contrasting their operational models and target markets.
@@ -129,6 +138,13 @@
   - **(2020)** [**VMware vSphere 7 with Kubernetes** - Project Pacific](https://www.vmware.com/products/cloud-infrastructure/vsphere) <span class='md-tag md-tag--warning'>[PROPRIETARY CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A transformative enterprise initiative (Project Pacific) that embedded native Kubernetes capabilities directly into the ESXi hypervisor. vSphere with Tanzu enables virtualization administrators to manage VMs and native Tanzu Kubernetes Grid (TKG) guest clusters inside a single vSphere Client interface, converging IT operations.
   - **(2020)** [cormachogan.com: A first look at vSphere with Kubernetes in action](https://cormachogan.com/2020/04/01/a-first-look-at-vsphere-with-kubernetes-in-action)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A hands-on architectural exploration of the early vSphere with Kubernetes implementation. The post walks through supervisor cluster enablement, native vSphere Pods execution, storage class integration with VMware CNS (Cloud Native Storage), and basic network policies.
   - **(2020)** [cormachogan.com: Building a TKG Cluster in vSphere with Kubernetes](https://cormachogan.com/2020/04/07/building-a-tkg-guest-cluster-in-vsphere-with-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep technical guide demonstrating how to declare and bootstrap Tanzu Kubernetes Grid (TKG) workload clusters (guest clusters) inside a vSphere supervisor cluster. Explains the underlying declarative custom resource definition (CRD) configurations matching Cluster API mechanics.
+## Kubernetes (1)
+
+### Operations
+
+#### Productivity
+
+  - **(2021)** [Kubernetes productivity tips and tricks 🌟](https://www.theodo.com/en-fr/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practitioner's guide to enhancing CLI-based Kubernetes productivity. It explores advanced setups such as custom shell autocompletion, kubectx/kubens utilities, smart aliases, and log-tailing helpers designed to reduce cognitive overhead during real-time incident responses.
 ## Kubernetes Platforms
 
 ### Mirantis
@@ -146,21 +162,6 @@
 #### Enterprise (1)
 
   - **(2026)** [Openshift Container Platform](https://nubenetes.com/openshift/) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat OpenShift is a premier enterprise-grade hybrid cloud Kubernetes application platform. It adds out-of-the-box developer tooling, integrated security standards, cluster virtualization, internal registry configurations, and Operator-based life cycle management directly over raw Kubernetes.
-## Kubernetes Provisioning
-
-### Cluster Lifecycle
-
-#### Cluster API (2)
-
-  - **(2020)** [**cncf.io webinar: Deploying Kubernetes to bare metal using cluster API**](https://www.cncf.io/online-programs/deploying-kubernetes-to-bare-metal-using-cluster-api) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight details cluster bootstrapping mechanics. Live Grounding analyzes the utilization of the Cluster API (CAPI) declarative model to manage bare-metal infrastructure. Highly strategic for on-premises hybrid-cloud operations.
-#### kOps
-
-  - **(2021)** [blog.kubecost.com: Kubernetes kOps: Step-By-Step Example & Alternatives](https://www.apptio.com/blog/kubernetes-kops/?src=kc-blog) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight introduces programmatic cluster deployment. Live Grounding illustrates kOps-driven state configurations and asset automation on cloud providers. Useful for architects demanding self-managed declarative control over AWS instances.
-### Local Environments
-
-#### Infrastructure-as-Code
-
-  - **(2021)** [**itwonderlab.com: Kubernetes Cluster using Vagrant and Ansible with Containerd (in 3 minutes) 🌟**](https://www.itwonderlab.com/ansible-kubernetes-vagrant-tutorial) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight presents an automated multi-node testing setup. Live Grounding provides high-grade Ansible playbooks coupled with Vagrant VMs running containerd. Highly useful for local multi-node cluster prototyping.
 ## Networking
 
 ### CNI Plugins
@@ -264,19 +265,12 @@
 #### Security
 
   - **(2020)** [blog.ivnilv.com: Rotating Kops Etcd Certificates](https://blog.ivnilv.com/posts/rotating-kops-etcd-certificates) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical troubleshooting guide mapping out the precise sequence required to rotate internal etcd client and peer certificates within a running, Kops-managed cluster. Addresses avoidance of control plane downtime and potential etcd split-brain scenarios during CA transitions.
-#### Ubuntu Stack
-
-  - **(2026)** [**Conjure up**](https://canonical.com/juju) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight vs Live Grounding: Canonical's Conjure-up tool was originally developed to orchestrate Juju applications and configure Charmed Kubernetes dynamically. Live status confirms the tool is deprecated and retired, with Canonical directing teams to use direct Juju or MicroK8s setups.
-### GitOps (2)
+### GitOps (1)
 
 #### Legacy Tools
 
   - **(2026)** [==Weave Kubernetes System Control - wksctl==](https://github.com/weaveworks/wksctl) <span class='md-tag md-tag--info'>⭐ 389</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Weaveworks' Weave Kubernetes System Control (wksctl) was a GitOps-based tool for cluster creation, configuring infrastructure directly from a declared state stored in git. Curator Insight vs Live Grounding: Following Weaveworks' operational shutdown, this tool has been archived and is considered historical legacy.
-#### Media (1)
-
-  - **(2020)** [WKSctl: a Tool for Kubernetes Cluster Management Using GitOps](https://www.infoq.com/news/2020/02/wksctl-kubernetes-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An InfoQ technical review detailing the core benefits of using WKSctl to manage host infrastructure via GitOps, analyzing how automated controllers handle node upgrades and configurations without manual ssh actions.
-  - **(2019)** [WKSctl - A New OSS Kubernetes Manager using GitOps](https://www.weave.works/blog/wksctl-a-new-oss-kubernetes-manager-using-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official Weaveworks blog post introducing WKSctl. Demonstrates how to leverage GitOps loops to continuous update node configurations and automatically reconcile discrepancies between virtual infrastructure states and Git declarations.
-### Infrastructure-as-Code (1)
+### Infrastructure-as-Code
 
 #### Exoscale
 
@@ -297,5 +291,5 @@
   - **(2019)** [Stateful Kubernetes-In-a-Box with Kontena Pharos](https://blog.purestorage.com/stateful-kubernetes-pure-service-orchestrator-kontena-pharos) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical blog post detailing stateful storage solutions in Kubernetes using Pure Service Orchestrator on Kontena Pharos, a lightweight enterprise distribution. With Kontena Pharos discontinued and Pure Storage workflows fully migrated to standard CSI plugins (like Portworx), this remains of historical interest only.
 
 ---
-💡 **Explore Related:** [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Docker](./docker.md)
+💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
 

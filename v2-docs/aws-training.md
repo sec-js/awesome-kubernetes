@@ -3,6 +3,17 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Training and Certification in the context of Cloud Providers (Hyperscalers).
 
+## Architectural Foundations
+
+### Kubernetes Tools
+
+#### General Reference
+
+  - [Amazon AWS Certification Preparation Tips](http://walkintocloud.com/index.php/2016/06/04/amazon-aws-certification-preparation-tips)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering walkintocloud.com in the Kubernetes Tools ecosystem.
+  - [hashnode.tpschmidt.com: My Top 10 Free Learning Resources for AWS](https://hashnode.tpschmidt.com/my-top-10-free-learning-resources-for-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering hashnode.tpschmidt.com: My Top 10 Free Learning Resources for AWS in the Kubernetes Tools ecosystem.
+  - [satyenkumar.medium.com: My Youtube Channel is updated for AWS Certifications' (Over 150 Video list)](https://satyenkumar.medium.com/my-youtube-channel-is-updated-for-aws-certifications-over-150-video-list-1ae7aa81e99d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering satyenkumar.medium.com: My Youtube Channel is updated for AWS Certifications' (Over 150 Video list) in the Kubernetes Tools ecosystem.
+  - [medium.com/towards-cloud-computing: 7 Free AWS Practice Labs and AWS Workshops' resources](https://medium.com/towards-cloud-computing/7-free-aws-practice-labs-and-aws-workshops-resources-d0a861f05d3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==medium.com/towards-cloud-computing: 7 Free AWS Practice Labs and AWS Workshops' resources== in the Kubernetes Tools ecosystem.
+  - [devopsmonk.hashnode.dev: Learn AWS if you want to save your career..!!](https://devopsmonk.hashnode.dev/learn-aws-if-you-want-to-save-your-career)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering devopsmonk.hashnode.dev: Learn AWS if you want to save your career..!! in the Kubernetes Tools ecosystem.
 ## Cloud Computing
 
 ### AWS
@@ -22,7 +33,6 @@
   - **(2016)** [aws.amazon.com: First AWS Certification Study Guide Now Available](https://aws.amazon.com/es/about-aws/whats-new/2016/10/first-aws-certification-study-guide-now-available)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Historical announcement of the first official AWS Certified Solutions Architect - Associate Study Guide. While highly informative on classical concepts, modern practitioners must supplement it with current AWS documentation to address the evolved features of modern cloud services.
 #### Community Learning
 
-  - **(2023)** [community.aws/training: Training and Certification](https://builder.aws.com/learn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The centralized AWS Builder community training site featuring articles, community-sourced tutorials, and architectural guidelines written by AWS Heroes and user group leaders worldwide.
   - **(2023)** [awscerts.slack.com](https://awscerts.slack.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A dedicated global Slack community focusing on AWS Certifications. Serves as a peer-to-peer discussion hub where developers and architects share study tips, ask technical questions, and exchange real-world infrastructure experience.
 #### Infrastructure as Code
 
@@ -38,16 +48,6 @@
 #### Educational Resources
 
   - **(2021)** [analyticsindiamag.com: Free Online Resources To Get Started On Cloud Computing](https://analyticsindiamag.com/free-online-resources-to-get-started-on-cloud-computing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compiles high-quality, free resources to master fundamental cloud computing concepts. Lists tutorials, official cloud vendor training pathways, and community projects to help newcomers build structured knowledge in distributed systems.
-#### Multi-Cloud Education
-
-  - **(2023)** [acloudguru.com](https://www.pluralsight.com/cloud-guru)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A premier e-learning platform (now part of Pluralsight) specializing in cloud computing, DevOps, and container certifications (AWS, Azure, GCP, Kubernetes). Provides hands-on sandbox environments and deep technical pathways designed to train enterprise-grade engineering organizations.
-## Cloud Infrastructure and Orchestration
-
-### Public Cloud Administration
-
-#### AWS Fundamentals
-
-  - **(2023)** [AWS Cloud Practitioner - Curso Completo 2023](https://www.youtube.com/watch?v=zQyrhjEAqLs) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive Spanish instructional syllabus targeting the AWS Certified Cloud Practitioner domain. Details key global infrastructure components, core services (EC2, S3, RDS, VPC), billing architectures, and foundational security frameworks.
 ## Infrastructure
 
 ### Cloud Computing (1)
@@ -64,5 +64,5 @@
   - **(2024)** [explore.skillbuilder.aws: AWS Security Fundamentals (free)](https://skillbuilder.aws/search?searchText=aws-security-fundamentals-second-edition&showRedirectNotFoundBanner=true)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A fundamental training program covering core security topologies inside AWS. Explores the Shared Responsibility Model, IAM resource authorization, KMS encryption keys, and continuous infrastructure auditing.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Backup](./aws-backup.md) | [AWS Containers](./aws-containers.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
 

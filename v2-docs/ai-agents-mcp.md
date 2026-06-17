@@ -50,6 +50,14 @@
 #### vLLM
 
   - **(2025)** [==vLLM on Kubernetes==](https://github.com/vllm-project/vllm) <span class='md-tag md-tag--info'>⭐ 82816</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: Integration guides and deployment schemas for hosting vLLM on Kubernetes clusters. Live Grounding: Standardizes memory-efficient LLM serving using PagedAttention. Features rapid integration with Kubernetes HPA (Horizontal Pod Autoscaler) and native Prometheus performance scraping.
+## Architectural Foundations
+
+### Kubernetes Tools
+
+#### General Reference
+
+  - [IBM IAM for AI Agents](https://t.co/EKsVgKA4xn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering IBM IAM for AI Agents in the Kubernetes Tools ecosystem.
+  - [PulseMCP](https://pulsemcp.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering PulseMCP in the Kubernetes Tools ecosystem.
 ## Cloud Native Operations
 
 ### AI AIOps
@@ -73,5 +81,5 @@
   - **(2025)** [youtube: The 6 Levels of Claude Code Explained](https://www.youtube.com/watch?v=TUKYbUIXLOE)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive video breakdown analyzing the capabilities of Anthropic's Claude Code interface. Evaluates the progression from basic code generation and syntax correction to advanced multi-file refactoring and semi-autonomous agentic software engineering tasks.
 
 ---
-💡 **Explore Related:** [AI](./ai.md) | [ChatGPT](./chatgpt.md) | [MLOps](./mlops.md)
+💡 **Explore Related:** [AI](./ai.md) | [MLOps](./mlops.md) | [ChatGPT](./chatgpt.md)
 

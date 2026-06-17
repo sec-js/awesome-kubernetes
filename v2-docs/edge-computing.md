@@ -9,7 +9,9 @@
 
 #### General Reference
 
+  - [cloudflare.com: What Is Edge Computing?](https://www.cloudflare.com/learning/serverless/glossary/what-is-edge-computing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cloudflare.com: What Is Edge Computing? in the Kubernetes Tools ecosystem.
   - [cncf.io: Hosted Edge vs Cloud: the battle for latency and security 🌟](https://www.cncf.io/blog/2021/12/08/hosted-edge-vs-cloud-the-battle-for-latency-and-security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Hosted Edge vs Cloud: the battle for latency and security 🌟 in the Kubernetes Tools ecosystem.
+  - [betterprogramming.pub: I Worked at Microsoft Cloud and Google Mobile for' 3 Years — Here Are the Differences in Ecosystems](https://betterprogramming.pub/why-working-on-cloud-vs-mobile-edge-is-so-different-e32930f1c801)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering betterprogramming.pub: I Worked at Microsoft Cloud and Google Mobile for' 3 Years — Here Are the Differences in Ecosystems in the Kubernetes Tools ecosystem.
 ## Architecture
 
 ### Edge Computing (1)
@@ -40,5 +42,5 @@
   - **(2021)** [thenewstack.io: Cloudian CTO: Kubernetes, Standardization Key to Edge](https://thenewstack.io/cloudian-cto-kubernetes-standardization-key-to-edge)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An executive perspective from Cloudian highlighting Kubernetes standardization as the foundational component of modern edge architecture. It analyzes strategies to coordinate hybrid storage clusters safely across remote zones.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Backup](./aws-backup.md) | [AWS Containers](./aws-containers.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Azure](./azure.md) | [AWS Storage](./aws-storage.md)
 

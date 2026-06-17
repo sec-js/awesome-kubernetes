@@ -24,13 +24,17 @@
 #### E-commerce Reference
 
   - **(2021)** [Architecting a Highly Available Serverless, Microservices-Based Ecommerce Site](https://aws.amazon.com/blogs/architecture/architecting-a-highly-available-serverless-microservices-based-ecommerce-site) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight details the design of a highly available, multi-region e-commerce platform using EventBridge, Cognito, Lambda, and DynamoDB. Live Grounding shows this architecture represents the gold standard for serverless distributed microservices, emphasizing event-driven decoupling and global data consistency.
-## Cloud Architecture
+## Architectural Foundations
 
-### Case Studies
+### Kubernetes Tools
 
-#### Enterprise Scale
+#### General Reference
 
-  - **(2019)** [aws.amazon.com: Trainline Case Study](https://aws.amazon.com/solutions/case-studies) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural case study mapping Trainline's migrations onto AWS using ECS containerized deployments and RDS clusters. Demonstrates successful reduction in database locking periods and outlines zero-downtime blue/green microservice delivery strategies.
+  - [bbvanexttechnologies.com: Cómo definir infraestructura como código en AWS' con CDK](https://www.bbvanexttechnologies.com/como-definir-infraestructura-como-codigo-en-aws-con-cdk)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering bbvanexttechnologies.com: Cómo definir infraestructura como código en AWS' con CDK in the Kubernetes Tools ecosystem.
+  - [medium.com/contino-engineering: We’ve begun to move towards the AWS CDK' and here’s why](https://medium.com/contino-engineering/weve-begun-to-move-towards-the-aws-cdk-and-here-s-why-69c8fad688b3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/contino-engineering: We’ve begun to move towards the AWS CDK' and here’s why in the Kubernetes Tools ecosystem.
+  - [medium.com/simform-engineering: Infrastructure as Code and CI/CD in Practice' with AWS CDK](https://medium.com/simform-engineering/infrastructure-as-code-and-ci-cd-in-practice-with-aws-cdk-bd0685b361f8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/simform-engineering: Infrastructure as Code and CI/CD in Practice' with AWS CDK in the Kubernetes Tools ecosystem.
+  - [faun.pub: Using AWS Session Manager For Port Forwarding To Remote Hosts](https://faun.pub/using-aws-session-manager-for-port-forwarding-to-remote-hosts-8168589ba579)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering faun.pub: Using AWS Session Manager For Port Forwarding To Remote Hosts in the Kubernetes Tools ecosystem.
+  - [medium.com/@mike_tyson_cloud: AWS Landing Zone: Mastering the Architecture' — Best Practices and Design Secrets](https://medium.com/@mike_tyson_cloud/aws-landing-zone-mastering-the-architecture-best-practices-and-design-secrets-a37746f72962)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@mike_tyson_cloud: AWS Landing Zone: Mastering the Architecture' — Best Practices and Design Secrets in the Kubernetes Tools ecosystem.
 ## Cloud Infrastructure
 
 ### AWS
@@ -77,14 +81,9 @@
 #### AWS Partners
 
   - **(2026)** [AWS Partner Network](https://aws.amazon.com/partners) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights the portal for finding verified APN Technology and Consulting partners. Live Grounding shows AWS Partner Network remains the core commercial engine for AWS, facilitating ISV integrations, validated architectures, and professional service engagements globally.
-#### Case Studies (1)
+#### Case Studies
 
   - **(2025)** [AWS Partner Network (APN) blog](https://aws.amazon.com/blogs/apn) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight focuses on architecture walkthroughs, such as deploying high-availability services on AWS using Spotinst (now Spot by NetApp) and configuring Active Directory SSO. Live Grounding validates these blog posts as critical operational blueprints for multi-tenant integrations and cost-optimization strategies in enterprise environments.
-### FinOps
-
-#### Cost Optimization
-
-  - **(2023)** [treblle.com: How does Treblle scale on AWS without breaking the bank?](https://treblle.com/blog/how-does-treblle-scale-on-aws-without-breaking-the-bank) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights Treblle’s architectural strategy for processing billions of API requests on AWS affordably. Live Grounding details how modern SaaS platforms leverage spot instances, API gateway caching, serverless scale-to-zero databases, and intensive performance profiling to decouple traffic volume from infrastructure costs.
 ### FinOps and Sustainability
 
 #### Green Ops
@@ -209,5 +208,5 @@
   - **(2021)** [github.com/omenking/localstack-gitpod-template: LocalStack Gitpod Template](https://github.com/omenking/localstack-gitpod-template) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight introduces a Gitpod configuration template for bootstrapping LocalStack development environments instantly in the browser. Live Grounding highlights this as an efficient template for cloud-native training, though production teams in 2026 typically leverage official Dev Container or LocalStack-supported cloud environments.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Backup](./aws-backup.md) | [AWS Containers](./aws-containers.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
 

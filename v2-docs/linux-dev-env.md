@@ -10,6 +10,11 @@
 #### General Reference
 
   - [Docker Desktop & WSL 2 – Backport Update](https://www.docker.com/blog/docker-desktop-wsl-2-backport-update)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Docker Desktop & WSL 2 – Backport Update in the Kubernetes Tools ecosystem.
+  - [pandorafms.com: Qué es, cómo instalar WSL2 y por qué es una gran noticia' para el sector TI](https://pandorafms.com/blog/es/wsl2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering pandorafms.com: Qué es, cómo instalar WSL2 y por qué es una gran noticia' para el sector TI in the Kubernetes Tools ecosystem.
+  - [techrepublic.com: Windows Subsystem for Linux 2: The GUI features developers' have been asking for](https://www.techrepublic.com/article/windows-subsystem-for-linux-2-the-gui-features-developers-have-been-asking-for)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering techrepublic.com: Windows Subsystem for Linux 2: The GUI features developers' have been asking for in the Kubernetes Tools ecosystem.
+  - [klaushofrichter.medium.com: Using Windows Subsystem for Linux for Kubernetes](https://klaushofrichter.medium.com/using-windows-subsystem-for-linux-for-kubernetes-8bd1f5468531)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering klaushofrichter.medium.com: Using Windows Subsystem for Linux for Kubernetes in the Kubernetes Tools ecosystem.
+  - [Microsoft launches Windows Terminal 1.0, unveils GPU support and Linux GUI apps in WSL](https://venturebeat.com/2020/05/19/microsoft-windows-terminal-wsl-gpu-support-linux-gui-apps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Microsoft launches Windows Terminal 1.0, unveils GPU support and Linux GUI apps in WSL in the Kubernetes Tools ecosystem.
+  - [Microsoft debuts Windows Package Manager for your dev environment](https://venturebeat.com/2020/05/19/microsoft-windows-package-manager-powertoys)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Microsoft debuts Windows Package Manager for your dev environment in the Kubernetes Tools ecosystem.
 ## Developer Experience
 
 ### Package Management
@@ -59,5 +64,5 @@
   - **(2026)** [9elements.com: Developing on Windows with WSL2](https://9elements.com/blog/developing-on-windows-with-wsl2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-focused guide optimizing local Windows workflows with WSL2. Provides performance instructions on using WSL2 backends alongside Docker Desktop, configuring VS Code remote-containers, and mitigating cross-file system read/write overhead.
 
 ---
-💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [Angular](./angular.md) | [API](./api.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 

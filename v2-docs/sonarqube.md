@@ -9,12 +9,14 @@
 
 #### General Reference
 
+  - [wikipedia: SonarQube](https://en.wikipedia.org/wiki/SonarQube)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering wikipedia: SonarQube in the Kubernetes Tools ecosystem.
   - [Dzone: Why SonarQube](https://dzone.com/articles/why-sonarqube-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Why SonarQube in the Kubernetes Tools ecosystem.
   - [Dzone: How to quickly get started with Sonar](https://dzone.com/articles/how-quickly-get-started-sonar)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: How to quickly get started with Sonar in the Kubernetes Tools ecosystem.
   - [Dzone: Sonarqube scanning in 15 minutes](https://dzone.com/articles/sonarqube-scanning-in-15-minutes-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Sonarqube scanning in 15 minutes in the Kubernetes Tools ecosystem.
   - [Dzone: Quick start with sonarqube for static code analysis](https://dzone.com/articles/quick-start-witj-sonarqube-for-static-code-analysi)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Quick start with sonarqube for static code analysis in the Kubernetes Tools ecosystem.
   - [Dzone.com: Code Analysis Part 1 - Analyzing Code with SonarQube](https://dzone.com/articles/code-analysis-with-sonarqube-part-1-setup)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone.com: Code Analysis Part 1 - Analyzing Code with SonarQube in the Kubernetes Tools ecosystem.
   - [Dzone: SonarCloud integration with SpringBoot Maven](https://dzone.com/articles/sonarcloud-integration-with-springboot-maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: SonarCloud integration with SpringBoot Maven in the Kubernetes Tools ecosystem.
+  - [Running SonarQube on Kubernetes](https://medium.com/@akamenev/running-sonarqube-on-azure-kubernetes-92a1b9051120)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Running SonarQube on Kubernetes in the Kubernetes Tools ecosystem.
 ## Continuous Integration
 
 ### CICD Pipelines
@@ -41,5 +43,5 @@
   - **(2022)** [**thenewstack.io: How to Analyze Code and Find Vulnerabilities with SonarQube**](https://thenewstack.io/how-to-analyze-code-and-find-vulnerabilities-with-sonarqube) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Teaches developers how to interpret SonarQube dashboards to discover common security vulnerabilities and code smells. Demonstrates optimization rules and quality profiles adjustment methods.
 
 ---
-💡 **Explore Related:** [Argo](./argo.md) | [CI/CD](./cicd.md) | [Gitops](./gitops.md)
+💡 **Explore Related:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md) | [Flux](./flux.md)
 

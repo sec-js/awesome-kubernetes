@@ -30,7 +30,14 @@
 #### Swagger UI
 
   - **(2020)** [jonnylangefeld.com: Kubernetes: How to View Swagger UI](https://jonnylangefeld.com/blog/kubernetes-how-to-view-swagger-ui?utm_sq=gkuh13vgq3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This tutorial shows how to expose Swagger UI within a Kubernetes environment to dynamically explore and test internal cluster APIs. It covers secure proxying, namespace-level configurations, and JWT token passing.
+## Architectural Foundations
+
+### Kubernetes Tools
+
+#### General Reference
+
+  - [baeldung.com: Using Swagger (OpenAPI) for a Spring REST API With Kotlin](https://www.baeldung.com/kotlin/swagger-spring-rest-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering baeldung.com: Using Swagger (OpenAPI) for a Spring REST API With Kotlin in the Kubernetes Tools ecosystem.
 
 ---
-💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [Angular](./angular.md) | [API](./api.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Java_Frameworks](./java_frameworks.md)
 

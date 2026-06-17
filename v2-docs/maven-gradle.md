@@ -9,18 +9,28 @@
 
 #### General Reference
 
+  - [Create the scaffolding for your microservice](http://fuse.labs.osecloud.com/fuse/creating-a-microservices-project-with-maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering fuse.labs.osecloud.com in the Kubernetes Tools ecosystem.
+  - [Wikipedia.org: Apache Maven](https://en.wikipedia.org/wiki/Apache_Maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Wikipedia.org: Apache Maven in the Kubernetes Tools ecosystem.
   - [Dzone.com: Creating a Maven Archetype](https://dzone.com/articles/create-maven-archetype-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone.com: Creating a Maven Archetype in the Kubernetes Tools ecosystem.
+  - [Dzone refcard: Apache Maven 2](https://dzone.com/asset/download/212)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone refcard: Apache Maven 2 in the Kubernetes Tools ecosystem.
+  - [Dzone refcard: Getting Started with Maven Repository Management](https://dzone.com/asset/download/223)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone refcard: Getting Started with Maven Repository Management in the Kubernetes Tools ecosystem.
   - [Dzone: Installing Maven With Your JDK](https://dzone.com/articles/installing-maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Installing Maven With Your JDK in the Kubernetes Tools ecosystem.
   - [Dzone: 10 Effective Tips on Using Maven](https://dzone.com/articles/10-effective-tips-on-using-maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: 10 Effective Tips on Using Maven in the Kubernetes Tools ecosystem.
   - [Dzone: Building Java Applications With Maven](https://dzone.com/articles/building-java-applications-with-maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Building Java Applications With Maven in the Kubernetes Tools ecosystem.
   - [Dzone: 7 Tips to Achieve High-Availability(HA) For Your Maven Repository](https://dzone.com/articles/7-tips-to-achieve-high-availabilityha-for-your-mav-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: 7 Tips to Achieve High-Availability(HA) For Your Maven Repository in the Kubernetes Tools ecosystem.
+  - [baeldung.com: Remove Duplicate Dependencies with Maven](https://www.baeldung.com/maven-duplicate-dependencies)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering baeldung.com: Remove Duplicate Dependencies with Maven in the Kubernetes Tools ecosystem.
+  - [programmer.ink: Maven scaffolding best practices](https://programmer.ink/think/maven-scaffolding-best-practices.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering programmer.ink: Maven scaffolding best practices in the Kubernetes Tools ecosystem.
   - [Dzone: Maven Skipping Tests](https://dzone.com/articles/maven-skipping-tests)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Maven Skipping Tests in the Kubernetes Tools ecosystem.
   - [Dzone: Integration Tests with Maven](https://dzone.com/articles/integration-tests-with-maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Integration Tests with Maven in the Kubernetes Tools ecosystem.
   - [Dzone.com: Running Cucumber with Maven](https://dzone.com/articles/running-cucumber-with-maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone.com: Running Cucumber with Maven in the Kubernetes Tools ecosystem.
   - [Dzone.com: Solving Dependency conflicts in maven](https://dzone.com/articles/solving-dependency-conflicts-in-maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone.com: Solving Dependency conflicts in maven in the Kubernetes Tools ecosystem.
   - [Dzone: Meet the Docker Maven Plugin!](https://dzone.com/articles/meet-the-docker-maven-plugin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Meet the Docker Maven Plugin! in the Kubernetes Tools ecosystem.
+  - [medium.com: Instalación de Java y Visual Studio Code en plataformas Windows](https://medium.com/habasconchocos/instalaci%C3%B3n-de-java-y-visual-studio-code-en-plataformas-windows-1fa47a69497f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com: Instalación de Java y Visual Studio Code en plataformas Windows in the Kubernetes Tools ecosystem.
   - [Dzone: Maven IntelliJ Idea Project](https://dzone.com/articles/importing-a-maven-project-in-intellij-idea)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Maven IntelliJ Idea Project in the Kubernetes Tools ecosystem.
+  - [javaspringvaadin.wordpress.com: Crea un Proyecto Maven desde el IDE IntelliJ' IDEA](https://javaspringvaadin.wordpress.com/2018/05/22/mavenintellijidea)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering javaspringvaadin.wordpress.com: Crea un Proyecto Maven desde el IDE IntelliJ' IDEA in the Kubernetes Tools ecosystem.
   - [Dzone: build a java app with gradle](https://dzone.com/articles/build-a-java-app-with-gradle)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: build a java app with gradle in the Kubernetes Tools ecosystem.
+  - [baeldung.com: Kotlin DSL for Gradle](https://www.baeldung.com/kotlin/gradle-dsl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering baeldung.com: Kotlin DSL for Gradle in the Kubernetes Tools ecosystem.
+  - [baeldung.com: Convert a Maven Build to Gradle](https://www.baeldung.com/maven-convert-to-gradle)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering baeldung.com: Convert a Maven Build to Gradle in the Kubernetes Tools ecosystem.
 ## Build Systems
 
 ### JVM Ecosystem
@@ -126,14 +136,7 @@
 #### VS Code Java
 
   - **(2026)** [**code.visualstudio.com: Java Project Management in VS Code**](https://code.visualstudio.com/docs/java/java-project) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Guide on setting up VS Code for enterprise Java development. Showcases full integration with Apache Maven, offering seamless debugging, project dependency visualization, and execution pipelines.
-## Security
-
-### Confidential Computing
-
-#### Enclaves
-
-  - **(2022)** [programmer.ink: Maven scaffolding best practices](https://enclaver.io/docs/0.x/getting-started) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight points to Enclaver's getting started guides. Live Grounding explains how Enclaver packages OCI containers into highly secure, isolated enclave images (e.g., AWS Nitro Enclaves). It provides a concrete bridge between container delivery and confidential computing.
 
 ---
-💡 **Explore Related:** [Chromedevtools](./ChromeDevTools.md) | [Angular](./angular.md) | [API](./api.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 

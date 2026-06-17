@@ -76,9 +76,6 @@
 #### GCP
 
   - **(2024)** [Google Cloud Architecture Icons](https://cloud.google.com/icons) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The standardized Google Cloud Platform graphical asset library and system diagram rules. Designed to assist cloud architects in drafting Google-recommended structures with consistent representations for compute, storage, data, and analytical pipelines.
-#### Kubernetes
-
-  - **(2023)** [==github.com/kubernetes: Kubernetes Icons Set==](https://github.com/kubernetes/community/tree/main/icons) <span class='md-tag md-tag--info'>⭐ 12886</span> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official CNCF-maintained Kubernetes graphic catalog containing SVGs and PNGs representing key system objects like Pods, Services, Deployments, ingress, and Custom Resources. Vital for creating highly precise architectural designs of cloud-native infrastructure.
 #### Security (1)
 
   - **(2021)** [aquasecurity/cloudsec-icons](https://github.com/aquasecurity/cloudsec-icons) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source library of dedicated cybersecurity and DevSecOps icons created by Aqua Security. Empowers application security professionals to visually document threat boundaries, firewall parameters, and container compliance elements in systems architecture graphs.
@@ -94,11 +91,6 @@
 
   - **(2020)** [==diagrams.mingrammer.com: Diagram as Code==](https://diagrams.mingrammer.com) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An industry-standard open-source library that empowers architects to represent system architectures using pure Python code. By aligning with GitOps paradigms, diagrams are treated as software dependencies, allowing automated code-driven rendering and versioning across AWS, GCP, Azure, and Kubernetes ecosystems without manual editing tools.
   - **(2022)** [**github.com/awslabs/diagram-as-code 🌟**](https://github.com/awslabs/diagram-as-code) <span class='md-tag md-tag--info'>⭐ 1519</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An AWS Labs community experiment designed to showcase the power of programmatically rendering complex systems architecture. Helps engineers integrate documentation updates directly inside release workflows.
-### Guides
-
-#### AWS (2)
-
-  - **(2023)** [What is the best way to generate a visual diagram of the AWS environment which includes VPC, VPN, EC2, and AMIs?](https://www.pluralsight.com) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive tutorial on Pluralsight outlining best-practice workflows for generating infrastructure diagrams. Provides structured advice on combining automated discovery with custom visual canvases.
 ### Interactive Diagramming
 
 #### Enterprise
@@ -123,6 +115,9 @@
 #### Global Infrastructure
 
   - **(2026)** [Azure Products by Region Table](https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/table) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The definitive, live-updated reference catalog mapping the global availability of Azure services and network products across all Azure regions. This matrices-driven tool is vital for cloud architects designing multi-region redundancy, data residency compliance, and edge microservice topologies.
+#### Network Topology
+
+  - **(2025)** [Hub-Spoke Network Topology in Azure - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/networking/architecture/hub-spoke) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The foundational blueprint for Azure Hub-and-Spoke network design patterns. This guide details how to centralize shared infrastructure services—such as firewalls, DNS, and ExpressRoute gateways—within a hub VNet, while separating distinct microservice workloads into isolated spoke VNets.
 ## Cloud Platforms
 
 ### AWS Integration
@@ -152,7 +147,15 @@
 #### Copilot Verification
 
   - **(2025)** [==AZVerify: Bridging Azure Resources, Bicep Templates, and Diagrams with GitHub' Copilot==](https://github.com/Azure/AZVerify) <span class='md-tag md-tag--info'>⭐ 95</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An innovative open-source tool bridging declarative Bicep files, live Azure deployments, and system diagrams using GitHub Copilot. Standardizes validation processes during complex infrastructure-as-code planning.
+## Kubernetes Tools
+
+### General Reference
+
+  - [betterprogramming.pub: Solutions Architect Tips — The 5 Types of Architecture' Diagrams](https://betterprogramming.pub/solutions-architect-tips-the-5-types-of-architecture-diagrams-eb0c11996f9e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering betterprogramming.pub: Solutions Architect Tips — The 5 Types of Architecture' Diagrams in the Kubernetes Tools ecosystem.
+  - [learningdaily.dev: Software architecture diagramming and patterns](https://learningdaily.dev/software-architecture-diagramming-and-patterns-7d38999e7a12)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering learningdaily.dev: Software architecture diagramming and patterns in the Kubernetes Tools ecosystem.
+  - [alanblackmore.medium.com: AWS Diagram Architecture](https://alanblackmore.medium.com/aws-diagram-architecture-afb50ea569a4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==alanblackmore.medium.com: AWS Diagram Architecture== in the Kubernetes Tools ecosystem.
+  - [medium.com/contino-engineering: Data Pipeline Orchestration - Using Amazon' Managed Workflows for Apache Airflow (MWAA)](https://medium.com/contino-engineering/data-pipeline-orchestration-using-amazon-managed-workflows-for-apache-airflow-mwaa-60e5b213a0a7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/contino-engineering: Data Pipeline Orchestration - Using Amazon' Managed Workflows for Apache Airflow (MWAA) in the Kubernetes Tools ecosystem.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [About](./about.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
 
