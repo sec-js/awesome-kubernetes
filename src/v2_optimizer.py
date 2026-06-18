@@ -754,7 +754,7 @@ class V2VisionEngine:
 
     async def _generate_comparison_table(self, links: List[Dict]) -> str:
         standard_tools = [l for l in links if l.get("stars", 0) >= 3]
-        if len(standard_tools) < 5: return ""
+        if len(standard_tools) < 8: return ""
         table = "\n??? abstract \"Architect's Technical Comparison Table\"\n"
         table += "    | Solution | Maturity | Primary Focus | Language | Stars |\n"
         table += "    | :--- | :--- | :--- | :--- | :--- |\n"
