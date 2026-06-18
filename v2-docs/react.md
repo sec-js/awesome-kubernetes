@@ -8,23 +8,13 @@
 
 ## Table of Contents
 
-1. [Frontend Development](#frontend-development)
-  - [React Framework](#react-framework)
-    - [State Management](#state-management)
 1. [Software Engineering](#software-engineering)
-  - [Frontend Development](#frontend-development-1)
+  - [Frontend Development](#frontend-development)
     - [React Ecosystem](#react-ecosystem)
 
-## Frontend Development
-
-### React Framework
-
-#### State Management
-
-  - **(2019)** [useHooks - React Hooks Library](https://usehooks.com) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Production-ready React hook recipes facilitating decoupled side effects, event listener bindings, dynamic state persistence, and responsive UI behaviors without custom boilerplate code.
 ## Software Engineering
 
-### Frontend Development (1)
+### Frontend Development
 
 #### React Ecosystem
 
@@ -32,5 +22,5 @@
   - **(2022)** [web.dev/explore/react](https://web.dev/explore/react) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google's comprehensive developer resource hub focused on optimizing React application performance. Emphasizes web vitals, code-splitting, bundle reduction, and server-side rendering strategies crucial for designing low-latency web interfaces.
 
 ---
-💡 **Explore Related:** [Angular](./angular.md) | [Python](./python.md) | [Dom](./dom.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 

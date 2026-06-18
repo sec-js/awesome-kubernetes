@@ -8,6 +8,10 @@
 
 ## Table of Contents
 
+1. [Cloud Architecture](#cloud-architecture)
+  - [Certification](#certification)
+    - [AWS](#aws)
+      - [Solutions Architect Professional](#solutions-architect-professional)
 1. [Infrastructure as Code](#infrastructure-as-code)
   - [Package Archives](#package-archives)
     - [Visualization](#visualization)
@@ -89,6 +93,15 @@
   - [User Experience Monitoring](#user-experience-monitoring)
     - [Frontend Observability](#frontend-observability)
 
+## Cloud Architecture
+
+### Certification
+
+#### AWS
+
+##### Solutions Architect Professional
+
+  - **(2020)** [Tips on Passing AWS Certified Solutions Architect - Professional Level](https://www.linkedin.com/top-content/?trk=article_not_found) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A strategic study guide for passing the AWS Certified Solutions Architect - Professional exam. The content focuses on advanced architectural design patterns, multi-tier application migration, cost optimization, and high-availability setups across complex AWS environments. Curator Insight: Highly structured blueprint for enterprise AWS exam prep. Live Grounding: Real-world value lies in understanding multi-account strategies, organizational governance, and security at scale.
 ## Infrastructure as Code
 
 ### Package Archives
@@ -318,5 +331,5 @@
   - **(2023)** [==Grafana Faro 🌟==](https://grafana.com/oss/faro) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Introduction to Grafana Faro, an open-source web SDK designed for Frontend Application Observability. Collects real-time core web vitals, user logs, console errors, and session metrics.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
+💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
 

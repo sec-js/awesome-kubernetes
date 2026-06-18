@@ -260,5 +260,5 @@
   - **(2021)** [automationreinvented.blogspot.com: Top 70 interview questions on Automation Testing-Selenium-TestNG Set-06? TestNG Tricky Interview questions 2021 for SDET-QAE?](https://automationreinvented.blogspot.com/2021/01/top-60-interview-questions-on.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Broad UI automation preparation set evaluating Selenium WebDriver API combined with TestNG assertions. Covers dynamic wait mechanisms, Page Object Pattern configurations, and multi-thread test runs.
 
 ---
-💡 **Explore Related:** [Appointment Scheduling](./appointment-scheduling.md) | [Recruitment](./recruitment.md) | [Digital Money](./digital-money.md)
+💡 **Explore Related:** [HR](./hr.md) | [Elearning](./elearning.md) | [Newsfeeds](./newsfeeds.md)
 
