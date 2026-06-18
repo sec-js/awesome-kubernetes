@@ -215,11 +215,13 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                             if any(k in title_desc for k in keywords):
                                 eval_data["is_featured_video"] = True
                                 eval_data["is_enriched"] = False
-                        curator.inventory[norm_url] = eval_data
+                        from src.inventory_manager import update_inventory_entry
+                        update_inventory_entry(curator.inventory, norm_url, eval_data)
                         evaluations[url] = {**eval_data, "status": "INCLUDED"}
                     else:
                         evaluations[url] = {"status": "FILTERED"}
-                        curator.inventory[norm_url] = {"status": "FILTERED", "score": score, "last_checked": datetime.now().timestamp()}
+                        from src.inventory_manager import update_inventory_entry
+                        update_inventory_entry(curator.inventory, norm_url, {"status": "FILTERED", "score": score, "last_checked": datetime.now().timestamp()})
                 curator._save_inventory()
         except Exception as e: log_event(f"  [!] Batch AI Error: {e}")
 

@@ -10,6 +10,8 @@ from typing import List, Dict, Set, Any, Tuple
 from src.config import GEMINI_API_KEYS, GH_TOKEN, TARGET_REPO, MADRID_TZ, INVENTORY_PATH
 from src.gemini_utils import call_gemini_with_retry, normalize_url, clean_toc_text, get_github_activity, fetch_youtube_metadata
 from src.logger import log_event
+from src.inventory_manager import update_inventory_entry
+
 
 def nuclear_strip(text: str) -> str:
     """Mandate 30: MD039 - Removes all leading/trailing whitespace including hidden unicode characters."""
@@ -407,8 +409,10 @@ class V2VisionEngine:
                             
                             # Incremental Persistence
                             norm_url = normalize_url(item["url"])
-                            self.inventory[norm_url] = {k:v for k,v in item.items() if k not in ["url", "title", "original_file", "aliases"]}
-                            self.inventory[norm_url]["title"] = item["title"]
+                            from src.inventory_manager import update_inventory_entry
+                            new_data = {k:v for k,v in item.items() if k not in ["url", "title", "original_file", "aliases"]}
+                            new_data["title"] = item["title"]
+                            update_inventory_entry(self.inventory, norm_url, new_data)
                     return batch_results
                 except Exception as e:
                     log_event(f"    [!] Error in Fast-Batch {batch_idx}: {e}")
@@ -530,10 +534,11 @@ class V2VisionEngine:
                     if m: p_id = m.group(1).lower()
                 
                 # Persist to inventory
-                self.inventory[norm_url] = {k:v for k,v in item.items() if k not in ["url", "title", "original_file", "aliases"]}
-                self.inventory[norm_url]["title"] = item["title"]
-                if "addition_method" not in self.inventory[norm_url]:
-                    self.inventory[norm_url]["addition_method"] = "manual"
+                new_data = {k:v for k,v in item.items() if k not in ["url", "title", "original_file", "aliases"]}
+                new_data["title"] = item["title"]
+                if "addition_method" not in self.inventory.get(norm_url, {}):
+                    new_data["addition_method"] = "manual"
+                update_inventory_entry(self.inventory, norm_url, new_data)
                 
                 if p_id not in project_registry or item.get("stars", 0) > project_registry[p_id].get("stars", 0):
                     if p_id in project_registry and project_registry[p_id].get("is_special"): item["is_special"] = True
